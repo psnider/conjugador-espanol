@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --sourceMap --outDir generated",
+    "gen-web-page": "node generated/html/combine-code-into-template.js",
     "test-full": "node generated/test/validate-stem-change-patterns.js && node generated/test/test.js",
     "test": "node generated/test/test.js",
     "clean": "rm -rf generated"

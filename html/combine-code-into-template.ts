@@ -5,7 +5,7 @@ import * as path from 'path';
 // --- CONFIGURACIÓN ---
 const template_file = "html/página-conjugador-template.html";
 
-const sourceDir = "generated/src/conjugator";
+const sourceDir = "generated/src";
 
 const version_file = "version.js"
 
@@ -58,18 +58,18 @@ let template = fs.readFileSync(template_file, "utf8");
 
 // --- 3. INSERTAR version.js ---
 template = template.replace(
-  /^\/\/ INSERT conjugateVerb version here$/,
+  /\/\/ INSERT conjugateVerb version here/,
   `// --- versión ---\n${versión_y_licencia}\n// --- fin versión ---`
 );
 
 // --- 4. INSERTAR librería completa ---
 let página = template.replace(
-  /^\/\/ INSERT conjugateVerb code here$/,
+  /\/\/ INSERT conjugateVerb code here/,
   `// --- librería conjugador ---\n${combined_code}\n// --- fin librería ---`
 );
 
 // --- 5. GUARDAR RESULTADO ---
-const output_file = `html/página-conjugador-${version_file_suffix}.html`
+const output_file = `index.html`
 fs.writeFileSync(output_file, página, "utf8");
 
 console.log("Página generada:", output_file);
