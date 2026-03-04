@@ -1,0 +1,19 @@
+{
+  "name": "conjugador-espanol",
+  "version": "1.0",
+  "description": "conjugador de verbos españoles usando reglas lingüisticas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --sourceMap --outDir generated",
+    "test-full": "node generated/test/validate-stem-change-patterns.js && node generated/test/test.js",
+    "test": "node generated/test/test.js",
+    "clean": "rm -rf generated"
+  },
+  "author": "Peter Snider",
+  "license": "CC-BY-NC-4.0",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.9.3"
+  }
+}

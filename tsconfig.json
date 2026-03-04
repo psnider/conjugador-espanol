@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "ES2020",
+        "lib": ["es2020"],
+        "types": ["node"],
+        "rootDir": ".", 
+        "outDir": "generated",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "html/**/*.ts",
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ]
+}
