@@ -30,12 +30,6 @@ const code_files = [
 // get version info ---
 const version_path = path.join(sourceDir, version_file);
 const versión_y_licencia = fs.readFileSync(version_path, "utf8");
-const match_version = versión_y_licencia.match(/version = "([^"]+)"/)
-if (!match_version) {
-    console.log(`Couldn't find version`)
-    process.exit(1)
-}
-const version_file_suffix = match_version[1].replace(/ /g, "-")
 
 
 // leer y combinar el código
@@ -69,7 +63,7 @@ let página = template.replace(
 );
 
 // --- 5. GUARDAR RESULTADO ---
-const output_file = `index.html`
+const output_file = "index.html"
 fs.writeFileSync(output_file, página, "utf8");
 
 console.log("Página generada:", output_file);

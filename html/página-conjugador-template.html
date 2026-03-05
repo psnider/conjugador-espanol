@@ -179,7 +179,7 @@ label {
     text-align: center;
 }
 
-input, select {
+input, select, button {
     font-size: 16px;
     padding: 6px 10px;
     border-radius: 4px;
@@ -192,12 +192,20 @@ input, select {
     width:24ch;
 }
 body.light input,
-body.light select {
+body.light select,
+body.light button {
     background-color: #ffffff;
     color: #000;
     border: 1px solid #ccc;
 }
 
+button:hover {
+    background-color: #2a2a2a;
+}
+
+body.light button:hover {
+    background-color: #f0f0f0;
+}
 /* =====================
    TABLA DE CONJUGACIONES
    ===================== */
@@ -293,6 +301,12 @@ body.light th {
     <div id="result">pon el infinitivo de un verbo...</div>
 
     <footer class="license">
+        <div>
+            <button id="report-button" type="button" onclick="prepareErrorReportInGitHub(event)">
+                🪲 Reporte un error
+            </button>
+        </div>
+
         <p>Completamente gratis. Nadie puede cobrarle para utilizar este servicio.<br/>
         Nunca hay annuncios. Nunca le rastreamos.<br/>
         <b>© <span id="versión"></span> Peter Snider — Licenciado bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" rel="license noopener noreferrer">Creative Commons BY-NC-SA 4.0</a></b></p>
@@ -301,6 +315,69 @@ body.light th {
 
 
 <script type="module">
+
+
+function getBrowserState() {
+    return {
+        userAgent: navigator.userAgent,
+        platform: navigator.platform,
+        language: navigator.language,
+        width: window.innerWidth,
+        height: window.innerHeight,
+        screen: `${screen.width}x${screen.height}`,
+        pixelRatio: window.devicePixelRatio,
+        memory: navigator.deviceMemory,
+        cores: navigator.hardwareConcurrency,
+        touch: navigator.maxTouchPoints,
+        online: navigator.onLine,
+        timezone: Intl.DateTimeFormat().resolvedOptions().timeZone
+    }
+}
+
+
+let reportInProgress = false
+
+
+function prepareErrorReportInGitHub(event) {
+    if (reportInProgress) return
+    reportInProgress = true
+    setTimeout(() => {
+        reportInProgress = false
+    }, 30000) // 30 segundos
+    event.preventDefault()
+    const infinitivo = infinitiveInput.value.trim()
+    const modo_tiempo = moodTenseSelect.value
+    const title = `Reporte de error: ${infinitivo}`
+    const estado_de_navegador = getBrowserState()
+    const error_report_wo_forms = {infinitivo, modo_tiempo, formas: "FORMAS", estado_de_navegador}
+    let json_wo_forms = JSON.stringify(error_report_wo_forms, null, 2)
+    let formas_json = ""
+    const personas = Object.keys(latest_conjugated_forms)
+    if (personas.length > 0) {
+        formas_json = " {\n"
+        for (const persona of personas) {
+            const formas = latest_conjugated_forms[persona]
+            formas_json += `    "${persona}": ${JSON.stringify(formas)},\n`
+        }
+        formas_json += "  },"
+    } else {
+        formas_json = "null,"
+    }
+    const json = json_wo_forms.replace('"FORMAS"', formas_json)
+    const body =
+`Por favor, añada cualquier comentario aquí...
+
+### Detalles (por favor, no edite esta sección)
+\`\`\`json
+${json}
+\`\`\`
+`
+    const encoded_title = encodeURIComponent(title)
+    const encoded_body = encodeURIComponent(body)
+    const url = `https://github.com/psnider/conjugador-espanol/issues/new?title=${encoded_title}&body=${encoded_body}`
+    window.open(url, "_blank")
+}
+window.prepareErrorReportInGitHub = prepareErrorReportInGitHub
 
 
 let lastInfinitive = ""
@@ -331,6 +408,10 @@ function handleMoodTenseChange() {
 window.handleMoodTenseChange = handleMoodTenseChange
 
 
+
+let latest_conjugated_forms = {}
+
+
 /**
  * Conjuga el verbo actual y muestra la tabla
  */
@@ -351,6 +432,7 @@ function handleConjugate() {
         return;
     }
 
+    latest_conjugated_forms = conj.forms
     renderConjugationTable(conj.forms);
 }
 window.handleConjugate = handleConjugate
