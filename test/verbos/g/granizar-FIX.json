@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gɾaniˈsaɾ]",
+    "silabacion": "gra-ni-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De granizo y el sufijo -ar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"granizar","gerundio":"granizando","participio":"granizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["granizo"],"s3":["graniza"],"p3":["granizan"]},
+    "IndImp": {"s1":["granizaba"],"s3":["granizaba"],"p3":["granizaban"]},
+    "IndPret": {"s3":["granizó"],"p3":["granizaron"]},
+    "IndFut": {"s3":["granizará"],"p3":["granizarán"]},
+    "IndCond": {"s1":["granizaría"],"s3":["granizaría"],"p3":["granizarían"]},
+    "SubPres": {"s1":["granice"],"s3":["granice"],"p3":["granicen"]},
+    "SubImp": {"s1":["granizara","granizase"],"s3":["granizara","granizase"],"p3":["granizaran","granizasen"]},
+    "SubFut": {"s1":["granizare"],"s3":["granizare"],"p3":["granizaren"]},
+    "CmdPos": {"s2":["graniza"],"s3":["granice"],"p3":["granicen"]}
+  }
+}

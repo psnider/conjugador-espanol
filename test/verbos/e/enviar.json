@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmˈbjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inviare, derivado del latín via (\"camino\"), del protoitalico wijā, del protoindoeuropeo wih₁-eh₂-, de weyh₁ (\"ser fuerte\").",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"enviar","gerundio":"enviando","participio":"enviado"},
+  "formas_personales": {
+    "IndPres": {"s1":["envío"],"s2":["envías"],"vos":["enviás"],"s3":["envía"],"p1":["enviamos"],"p2":["enviáis"],"p3":["envían"]},
+    "IndImp": {"s1":["enviaba"],"s2":["enviabas"],"vos":["enviabas"],"s3":["enviaba"],"p1":["enviábamos"],"p2":["enviabais"],"p3":["enviaban"]},
+    "IndPret": {"s1":["envié"],"s2":["enviaste"],"vos":["enviaste"],"s3":["envió"],"p1":["enviamos"],"p2":["enviasteis"],"p3":["enviaron"]},
+    "IndFut": {"s1":["enviaré"],"s2":["enviarás"],"vos":["enviarás"],"s3":["enviará"],"p1":["enviaremos"],"p2":["enviaréis"],"p3":["enviarán"]},
+    "IndCond": {"s1":["enviaría"],"s2":["enviarías"],"vos":["enviarías"],"s3":["enviaría"],"p1":["enviaríamos"],"p2":["enviaríais"],"p3":["enviarían"]},
+    "SubPres": {"s1":["envíe"],"s2":["envíes"],"vos":["envíes","enviés"],"s3":["envíe"],"p1":["enviemos"],"p2":["enviéis"],"p3":["envíen"]},
+    "SubImp": {"s1":["enviara","enviase"],"s2":["enviaras","enviases"],"vos":["enviaras","enviases"],"s3":["enviara","enviase"],"p1":["enviáramos","enviásemos"],"p2":["enviarais","enviaseis"],"p3":["enviaran","enviasen"]},
+    "SubFut": {"s1":["enviare"],"s2":["enviares"],"vos":["enviares"],"s3":["enviare"],"p1":["enviáremos"],"p2":["enviareis"],"p3":["enviaren"]},
+    "CmdPos": {"s2":["envía"],"vos":["enviá"],"s3":["envíe"],"p1":["enviemos"],"p2":["enviad"],"p3":["envíen"]}
+  }
+}

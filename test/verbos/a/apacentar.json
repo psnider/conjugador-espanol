@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apasẽn̪ˈt̪aɾ]",
+    "silabacion": "a-pa-cen-tar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"apacentar","gerundio":"apacentando","participio":"apacentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["apaciento"],"s2":["apacientas"],"vos":["apacentás"],"s3":["apacienta"],"p1":["apacentamos"],"p2":["apacentáis"],"p3":["apacientan"]},
+    "IndImp": {"s1":["apacentaba"],"s2":["apacentabas"],"vos":["apacentabas"],"s3":["apacentaba"],"p1":["apacentábamos"],"p2":["apacentabais"],"p3":["apacentaban"]},
+    "IndPret": {"s1":["apacenté"],"s2":["apacentaste"],"vos":["apacentaste"],"s3":["apacentó"],"p1":["apacentamos"],"p2":["apacentasteis"],"p3":["apacentaron"]},
+    "IndFut": {"s1":["apacentaré"],"s2":["apacentarás"],"vos":["apacentarás"],"s3":["apacentará"],"p1":["apacentaremos"],"p2":["apacentaréis"],"p3":["apacentarán"]},
+    "IndCond": {"s1":["apacentaría"],"s2":["apacentarías"],"vos":["apacentarías"],"s3":["apacentaría"],"p1":["apacentaríamos"],"p2":["apacentaríais"],"p3":["apacentarían"]},
+    "SubPres": {"s1":["apaciente"],"s2":["apacientes"],"vos":["apacientes","apacentés"],"s3":["apaciente"],"p1":["apacentemos"],"p2":["apacentéis"],"p3":["apacienten"]},
+    "SubImp": {"s1":["apacentara","apacentase"],"s2":["apacentaras","apacentases"],"vos":["apacentaras","apacentases"],"s3":["apacentara","apacentase"],"p1":["apacentáramos","apacentásemos"],"p2":["apacentarais","apacentaseis"],"p3":["apacentaran","apacentasen"]},
+    "SubFut": {"s1":["apacentare"],"s2":["apacentares"],"vos":["apacentares"],"s3":["apacentare"],"p1":["apacentáremos"],"p2":["apacentareis"],"p3":["apacentaren"]},
+    "CmdPos": {"s2":["apacienta"],"vos":["apacentá"],"s3":["apaciente"],"p1":["apacentemos"],"p2":["apacentad"],"p3":["apacienten"]}
+  }
+}

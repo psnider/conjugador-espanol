@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ẽn̪ˈd̪eɾ]",
+    "silabacion": "con-ten-der",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"contender","gerundio":"contendiendo","participio":"contendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["contiendo"],"s2":["contiendes"],"vos":["contendés"],"s3":["contiende"],"p1":["contendemos"],"p2":["contendéis"],"p3":["contienden"]},
+    "IndImp": {"s1":["contendía"],"s2":["contendías"],"vos":["contendías"],"s3":["contendía"],"p1":["contendíamos"],"p2":["contendíais"],"p3":["contendían"]},
+    "IndPret": {"s1":["contendí"],"s2":["contendiste"],"vos":["contendiste"],"s3":["contendió"],"p1":["contendimos"],"p2":["contendisteis"],"p3":["contendieron"]},
+    "IndFut": {"s1":["contenderé"],"s2":["contenderás"],"vos":["contenderás"],"s3":["contenderá"],"p1":["contenderemos"],"p2":["contenderéis"],"p3":["contenderán"]},
+    "IndCond": {"s1":["contendería"],"s2":["contenderías"],"vos":["contenderías"],"s3":["contendería"],"p1":["contenderíamos"],"p2":["contenderíais"],"p3":["contenderían"]},
+    "SubPres": {"s1":["contienda"],"s2":["contiendas"],"vos":["contiendas","contendás"],"s3":["contienda"],"p1":["contendamos"],"p2":["contendáis"],"p3":["contiendan"]},
+    "SubImp": {"s1":["contendiera","contendiese"],"s2":["contendieras","contendieses"],"vos":["contendieras","contendieses"],"s3":["contendiera","contendiese"],"p1":["contendiéramos","contendiésemos"],"p2":["contendierais","contendieseis"],"p3":["contendieran","contendiesen"]},
+    "SubFut": {"s1":["contendiere"],"s2":["contendieres"],"vos":["contendieres"],"s3":["contendiere"],"p1":["contendiéremos"],"p2":["contendiereis"],"p3":["contendieren"]},
+    "CmdPos": {"s2":["contiende"],"vos":["contendé"],"s3":["contienda"],"p1":["contendamos"],"p2":["contended"],"p3":["contiendan"]}
+  }
+}

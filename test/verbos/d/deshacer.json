@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[d̪esaˈseɾ]",
-  "silabacion": "des-ha-cer",
-  "acentuacion": "aguda",
-  "etimologia": "Del prefijo des- y hacer.[2]",
-  "modelos": ["hacer"]
-},
+    "pronunciacion": "[d̪esaˈseɾ]",
+    "silabacion": "des-ha-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y hacer.[2]",
+    "modelos": ["hacer"]
+  },
   "formas_no_personales": {"infinitivo":"deshacer","gerundio":"deshaciendo","participio":"deshecho"},
   "formas_personales": {
     "IndPres": {"s1":["deshago"],"s2":["deshaces"],"vos":["deshacés"],"s3":["deshace"],"p1":["deshacemos"],"p2":["deshacéis"],"p3":["deshacen"]},
@@ -17,5 +17,5 @@
     "SubImp": {"s1":["deshiciera","deshiciese"],"s2":["deshicieras","deshicieses"],"vos":["deshicieras","deshicieses"],"s3":["deshiciera","deshiciese"],"p1":["deshiciéramos","deshiciésemos"],"p2":["deshicierais","deshicieseis"],"p3":["deshicieran","deshiciesen"]},
     "SubFut": {"s1":["deshiciere"],"s2":["deshicieres"],"vos":["deshicieres"],"s3":["deshiciere"],"p1":["deshiciéremos"],"p2":["deshiciereis"],"p3":["deshicieren"]},
     "CmdPos": {"s2":{"estándar":["deshaz"],"atípicos":[{"forma":"deshace","etiquetas":["no normativo"]}]},"vos":["deshacé"],"s3":["deshaga"],"p1":["deshagamos"],"p2":["deshaced"],"p3":["deshagan"]}
-}
+  }
 }

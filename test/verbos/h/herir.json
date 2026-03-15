@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eˈɾiɾ]",
+    "silabacion": "he-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ferīre ‘golpear, dar (con cualquier objeto)’, y este de una raíz protoindoeuropea *bʰer- perforar.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"herir","gerundio":"hiriendo","participio":"herido"},
+  "formas_personales": {
+    "IndPres": {"s1":["hiero"],"s2":["hieres"],"vos":["herís"],"s3":["hiere"],"p1":["herimos"],"p2":["herís"],"p3":["hieren"]},
+    "IndImp": {"s1":["hería"],"s2":["herías"],"vos":["herías"],"s3":["hería"],"p1":["heríamos"],"p2":["heríais"],"p3":["herían"]},
+    "IndPret": {"s1":["herí"],"s2":["heriste"],"vos":["heriste"],"s3":["hirió"],"p1":["herimos"],"p2":["heristeis"],"p3":["hirieron"]},
+    "IndFut": {"s1":["heriré"],"s2":["herirás"],"vos":["herirás"],"s3":["herirá"],"p1":["heriremos"],"p2":["heriréis"],"p3":["herirán"]},
+    "IndCond": {"s1":["heriría"],"s2":["herirías"],"vos":["herirías"],"s3":["heriría"],"p1":["heriríamos"],"p2":["heriríais"],"p3":["herirían"]},
+    "SubPres": {"s1":["hiera"],"s2":["hieras"],"vos":["hieras","hirás"],"s3":["hiera"],"p1":["hiramos"],"p2":["hiráis"],"p3":["hieran"]},
+    "SubImp": {"s1":["hiriera","hiriese"],"s2":["hirieras","hirieses"],"vos":["hirieras","hirieses"],"s3":["hiriera","hiriese"],"p1":["hiriéramos","hiriésemos"],"p2":["hirierais","hirieseis"],"p3":["hirieran","hiriesen"]},
+    "SubFut": {"s1":["hiriere"],"s2":["hirieres"],"vos":["hirieres"],"s3":["hiriere"],"p1":["hiriéremos"],"p2":["hiriereis"],"p3":["hirieren"]},
+    "CmdPos": {"s2":["hiere"],"vos":["herí"],"s3":["hiera"],"p1":["hiramos"],"p2":["herid"],"p3":["hieran"]}
+  }
+}

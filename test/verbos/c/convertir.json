@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmbeɾˈt̪iɾ]",
+    "silabacion": "con-ver-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín convertĕre ('volver completamente').",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"convertir","gerundio":"convirtiendo","participio":"convertido"},
+  "formas_personales": {
+    "IndPres": {"s1":["convierto"],"s2":["conviertes"],"vos":["convertís"],"s3":["convierte"],"p1":["convertimos"],"p2":["convertís"],"p3":["convierten"]},
+    "IndImp": {"s1":["convertía"],"s2":["convertías"],"vos":["convertías"],"s3":["convertía"],"p1":["convertíamos"],"p2":["convertíais"],"p3":["convertían"]},
+    "IndPret": {"s1":["convertí"],"s2":["convertiste"],"vos":["convertiste"],"s3":["convirtió"],"p1":["convertimos"],"p2":["convertisteis"],"p3":["convirtieron"]},
+    "IndFut": {"s1":["convertiré"],"s2":["convertirás"],"vos":["convertirás"],"s3":["convertirá"],"p1":["convertiremos"],"p2":["convertiréis"],"p3":["convertirán"]},
+    "IndCond": {"s1":["convertiría"],"s2":["convertirías"],"vos":["convertirías"],"s3":["convertiría"],"p1":["convertiríamos"],"p2":["convertiríais"],"p3":["convertirían"]},
+    "SubPres": {"s1":["convierta"],"s2":["conviertas"],"vos":["conviertas","convirtás"],"s3":["convierta"],"p1":["convirtamos"],"p2":["convirtáis"],"p3":["conviertan"]},
+    "SubImp": {"s1":["convirtiera","convirtiese"],"s2":["convirtieras","convirtieses"],"vos":["convirtieras","convirtieses"],"s3":["convirtiera","convirtiese"],"p1":["convirtiéramos","convirtiésemos"],"p2":["convirtierais","convirtieseis"],"p3":["convirtieran","convirtiesen"]},
+    "SubFut": {"s1":["convirtiere"],"s2":["convirtieres"],"vos":["convirtieres"],"s3":["convirtiere"],"p1":["convirtiéremos"],"p2":["convirtiereis"],"p3":["convirtieren"]},
+    "CmdPos": {"s2":["convierte"],"vos":["convertí"],"s3":["convierta"],"p1":["convirtamos"],"p2":["convertid"],"p3":["conviertan"]}
+  }
+}

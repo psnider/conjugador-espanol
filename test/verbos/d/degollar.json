@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eɣ̞oˈʝaɾ]",
+    "silabacion": "de-go-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín decollāre",
+    "modelos": ["agorar"]
+  },
+  "formas_no_personales": {"infinitivo":"degollar","gerundio":"degollando","participio":"degollado"},
+  "formas_personales": {
+    "IndPres": {"s1":["degüello"],"s2":["degüellas"],"vos":["degollás"],"s3":["degüella"],"p1":["degollamos"],"p2":["degolláis"],"p3":["degüellan"]},
+    "IndImp": {"s1":["degollaba"],"s2":["degollabas"],"vos":["degollabas"],"s3":["degollaba"],"p1":["degollábamos"],"p2":["degollabais"],"p3":["degollaban"]},
+    "IndPret": {"s1":["degollé"],"s2":["degollaste"],"vos":["degollaste"],"s3":["degolló"],"p1":["degollamos"],"p2":["degollasteis"],"p3":["degollaron"]},
+    "IndFut": {"s1":["degollaré"],"s2":["degollarás"],"vos":["degollarás"],"s3":["degollará"],"p1":["degollaremos"],"p2":["degollaréis"],"p3":["degollarán"]},
+    "IndCond": {"s1":["degollaría"],"s2":["degollarías"],"vos":["degollarías"],"s3":["degollaría"],"p1":["degollaríamos"],"p2":["degollaríais"],"p3":["degollarían"]},
+    "SubPres": {"s1":["degüelle"],"s2":["degüelles"],"vos":["degüelles","degollés"],"s3":["degüelle"],"p1":["degollemos"],"p2":["degolléis"],"p3":["degüellen"]},
+    "SubImp": {"s1":["degollara","degollase"],"s2":["degollaras","degollases"],"vos":["degollaras","degollases"],"s3":["degollara","degollase"],"p1":["degolláramos","degollásemos"],"p2":["degollarais","degollaseis"],"p3":["degollaran","degollasen"]},
+    "SubFut": {"s1":["degollare"],"s2":["degollares"],"vos":["degollares"],"s3":["degollare"],"p1":["degolláremos"],"p2":["degollareis"],"p3":["degollaren"]},
+    "CmdPos": {"s2":["degüella"],"vos":["degollá"],"s3":["degüelle"],"p1":["degollemos"],"p2":["degollad"],"p3":["degüellen"]}
+  }
+}

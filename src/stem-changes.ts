@@ -24,6 +24,8 @@ export const stem_change_descriptions: Record<StemChangeRuleId, StemChangeDescri
     // - La terminación del infinitivo importa
     // It appears that this regex picks out the "e:ie" verbs: /([bcfhlmnprstv]|qu)e(br|l|mbl|n|nd|ns|nt|nz|r|rd|rn|rr|rt|s|st|v|z)[aei]r$/
     "e:ie": { from: "e", to: "ie", kind: "diphthongization" },
+    // This seems to be related to e:ie, if you look at "qu" as similar to "e": e.g. adquirir, inquirir
+    "i:ie": { from: "i", to: "ie", kind: "diphthongization" },
     "o:ue": { from: "o", to: "ue", kind: "diphthongization" },
     "u:ue": { from: "u", to: "ue", kind: "diphthongization" },
     // NO: pensar, perder, SÍ: sentir
@@ -68,17 +70,27 @@ export const stem_change_patterns: {[stem_change_pattern_name: string]: StemChan
     "e:ie": {
         // "pensar", "perder", "sentir"
         allowed_transforms: ["e:ie", "e:i"],
-        gerund_rule: null,
+        gerund_rule: "e:i",
         IndPres: {s1: "e:ie", s2: "e:ie", s3: "e:ie",                         p3: "e:ie"},
-        SubPres: {s1: "e:ie", s2: "e:ie", s3: "e:ie",                         p3: "e:ie"},
         IndPret: {                        s3: "e:i",                          p3: "e:i"},
-        CmdPos:  {            s2: "e:ie", s3: "e:ie",                         p3: "e:ie"},
-        CmdNeg:  {            s2: "e:ie", s3: "e:ie",                         p3: "e:ie"},
+        SubPres: {s1: "e:ie", s2: "e:ie", s3: "e:ie", p1: "e:i",  p2: "e:i",  p3: "e:ie",  vos: "e:ie"},
+        SubImp:  {s1: "e:i",  s2: "e:i",  s3: "e:i",  p1: "e:i",  p2: "e:i",  p3: "e:i"},
+        SubFut:  {s1: "e:i",  s2: "e:i",  s3: "e:i",  p1: "e:i",  p2: "e:i",  p3: "e:i"},
+        CmdPos:  {            s2: "e:ie", s3: "e:ie", p1: "e:i",              p3: "e:ie"},
+        CmdNeg:  {s1: "e:ie", s2: "e:ie", s3: "e:ie", p1: "e:i",  p2: "e:i",  p3: "e:ie",  vos: "e:ie"},
     },
-    "i:í": {
-        // FIX: linguist: figure out what this is exactly
-        allowed_transforms: ["i:í"],
+    "i:ie": {
+    // This seems to be related to e:ie, if you look at "qu" as similar to "e": e.g. adquirir, inquirir
+        allowed_transforms: ["i:ie"],
+        IndPres: {s1: "i:ie", s2: "i:ie", s3: "i:ie",                         p3: "i:ie"},
+        SubPres: {s1: "i:ie", s2: "i:ie", s3: "i:ie",                         p3: "i:ie",  vos: "i:ie"},
+        CmdPos:  {            s2: "i:ie", s3: "i:ie",                         p3: "i:ie"},
+        CmdNeg:  {            s2: "i:ie", s3: "i:ie",                         p3: "i:ie"},
     },
+    // "i:í": {
+    //     // FIX: linguist: figure out what this is exactly
+    //     allowed_transforms: ["i:í"],
+    // },
     // "o:u" is only used for vowel raising wihin "o:ue" verbs, and is not a pattern for stem changes generally
     "o:ue": {
         // "poder", "volver"
@@ -93,6 +105,7 @@ export const stem_change_patterns: {[stem_change_pattern_name: string]: StemChan
     "u:ú": {
         // "reunir"
         // accent only, not an actual stem change
+        // FIX: linguist: maybe this can be handled with stress placement rules? 
         allowed_transforms: ["u:ú"],
         gerund_rule: null,
         IndPres: {s1: "u:ú", s2: "u:ú", s3: "u:ú",                            p3: "u:ú"},
@@ -145,7 +158,12 @@ export function applyStemChangePattern(verb_part: string, stem_change_descriptio
         const rule_id = `${stem_change_description.from}:${stem_change_description.to}`
         throw new Error(`can't apply stem_change_rule_id=${rule_id} to verb_part=${verb_part}`)
     }
-    const changed_part = verb_part.slice(0,i) + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length)
+    let changed_part = verb_part.slice(0,i) + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length)
+    // Spanish doesn't allow a word to start with the dipthong "ue"
+    // but apparently this doesn't apply to the dipthong "ie"
+    if (changed_part.startsWith("ue")) {
+        changed_part = "h" + changed_part
+    }
     return changed_part
 }
 
@@ -153,11 +171,11 @@ export function applyStemChangePattern(verb_part: string, stem_change_descriptio
 // @return The root of each conjugation that should be used after applying any stem change.
 // This is the unchanged root if there is no stem change.
 // regular_suffixes: provides the grammatical persons to be conjugated, as well as the number of forms for each
-export function getStemChanges(args: {conjugable_infinitive: string, verb_family: InfinitiveClass, mood_tense: MoodTense, suffixes: VerbConjugation}) : VerbConjugation {
-    const {conjugable_infinitive, verb_family, mood_tense, suffixes} = args
-    const verb_root = conjugable_infinitive.slice(0, -2)
+export function getStemChanges(args: {infinitivo_sin_prefijos: string, verb_family: InfinitiveClass, mood_tense: MoodTense, suffixes: VerbConjugation}) : VerbConjugation {
+    const {infinitivo_sin_prefijos, verb_family, mood_tense, suffixes} = args
+    const verb_root = infinitivo_sin_prefijos.slice(0, -2)
     const conjugated_stems: VerbConjugation = {}
-    const morphophonemic_conjugation_rules = verbos_con_cambios_morfológicos[conjugable_infinitive]
+    const morphophonemic_conjugation_rules = verbos_con_cambios_morfológicos[infinitivo_sin_prefijos]
     const alternancia_vocálica = morphophonemic_conjugation_rules?.alternancia_vocálica
     const stem_change_rules = (alternancia_vocálica ? getStemChangesFromRule(mood_tense, alternancia_vocálica) : undefined)
     // const conjugate_only = morphophonemic_conjugation_rules?.conjugate_only
@@ -175,7 +193,6 @@ export function getStemChanges(args: {conjugable_infinitive: string, verb_family
                     stem = verb_root
                 }
             } else {
-
                 stem = verb_root
             }
             const forms_count =  suffixes[gramatical_person]?.length

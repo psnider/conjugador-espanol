@@ -45,6 +45,32 @@ interface GrammaticalPersons<T> {
     // The absence of "vos" implies that it is the same as the "s2" form.
     vos?: T
 }
+type VerbConjugation = GrammaticalPersons<VerbForms>
+
+
+
+export interface FormaAtípico {
+    forma: string            // la forma limpia
+    etiquetas?: string[]     // ["no normativo", "arcaico", "regional", etc.]
+    nota?: string            // opcional, explicación corta si se quiere
+}
+
+
+export interface ConjugatedForms {
+    // La forma estándar
+    estándar: string[]
+    atípicos?: FormaAtípico[]
+}
+
+
+export type ConjugationSlot = VerbForms | ConjugatedForms
+
+
+export type ConjugaciónEstándarYAtípico = GrammaticalPersons<ConjugationSlot>
+
+
+export type ConjugaciónTabla = MoodTenseMap<ConjugaciónEstándarYAtípico>
+
 
 
 // The conjugated forms of a verb, or null if the form is disallowed.
@@ -57,7 +83,6 @@ interface GrammaticalPersons<T> {
 // null occurs for weather verbs (llover) and commands, and for the s1 forms of Commands.
 type VerbForms = [string] | [string, string] | null
 
-type VerbConjugation = GrammaticalPersons<VerbForms>
 interface VerbConjugationAnnotation {
     version: string
     license: string
@@ -70,7 +95,7 @@ interface VerbConjugationAnnotation {
 
 interface VerbConjugationAnnotated {
     notes: VerbConjugationAnnotation
-    forms: VerbConjugation
+    forms: ConjugaciónEstándarYAtípico
 }
 
 
@@ -133,7 +158,7 @@ export interface VerbConjugationRules<T> {
 }
 
 
-export type StemChangeRuleId = "e:i" | "e:ie" | "i:í" | "o:u" | "o:ue" | "u:ú" | "u:ue"
+export type StemChangeRuleId = "e:i" | "e:ie" | "i:í" | "i:ie" | "o:u" | "o:ue" | "u:ú" | "u:ue"
 type SuffixChangeType = "eer"
 
 

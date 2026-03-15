@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾeˈɣ̞aɾ]",
+    "silabacion": "es-tre-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar stricāre.[1]",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"estregar","gerundio":"estregando","participio":"estregado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estriego","estrego"],"s2":["estriegas","estregas"],"vos":["estregás"],"s3":["estriega","estrega"],"p1":["estregamos"],"p2":["estregáis"],"p3":["estriegan","estregan"]},
+    "IndImp": {"s1":["estregaba"],"s2":["estregabas"],"vos":["estregabas"],"s3":["estregaba"],"p1":["estregábamos"],"p2":["estregabais"],"p3":["estregaban"]},
+    "IndPret": {"s1":["estregué"],"s2":["estregaste"],"vos":["estregaste"],"s3":["estregó"],"p1":["estregamos"],"p2":["estregasteis"],"p3":["estregaron"]},
+    "IndFut": {"s1":["estregaré"],"s2":["estregarás"],"vos":["estregarás"],"s3":["estregará"],"p1":["estregaremos"],"p2":["estregaréis"],"p3":["estregarán"]},
+    "IndCond": {"s1":["estregaría"],"s2":["estregarías"],"vos":["estregarías"],"s3":["estregaría"],"p1":["estregaríamos"],"p2":["estregaríais"],"p3":["estregarían"]},
+    "SubPres": {"s1":["estriegue","estregue"],"s2":["estriegues","estregues"],"vos":["estriegues","estregués","estregues"],"s3":["estriegue","estregue"],"p1":["estreguemos"],"p2":["estreguéis"],"p3":["estrieguen","estreguen"]},
+    "SubImp": {"s1":["estregara","estregase"],"s2":["estregaras","estregases"],"vos":["estregaras","estregases"],"s3":["estregara","estregase"],"p1":["estregáramos","estregásemos"],"p2":["estregarais","estregaseis"],"p3":["estregaran","estregasen"]},
+    "SubFut": {"s1":["estregare"],"s2":["estregares"],"vos":["estregares"],"s3":["estregare"],"p1":["estregáremos"],"p2":["estregareis"],"p3":["estregaren"]},
+    "CmdPos": {"s2":["estriega","estrega"],"vos":["estregá"],"s3":["estriegue","estregue"],"p1":["estreguemos"],"p2":["estregad"],"p3":["estrieguen","estreguen"]}
+  }
+}

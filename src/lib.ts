@@ -1,4 +1,6 @@
 import {GrammaticalPerson, MoodTense, VerbConjugation, VerbConjugationStems, VerbForms} from "."
+import { aplicaPrefijosClaseConjugacional } from "./prefixes.js"
+import { Prefixes } from "./resolve-conjugation-class.js"
 
 
 // Apply a change to each verb form for a single conjugation (for mood + tense + gramatical person).
@@ -22,16 +24,16 @@ export function applyToVerbForms(source_forms: VerbForms, change: (form: string,
 
 export const persons_standard = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3"]
 export const persons_w_vos = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
+export const persons_w_vos_index: {[person: string]: 1} = {s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1}
 export const mood_tenses : MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"]
 
 
-export function setStem(stem: string | [string, string], only_persons?: GrammaticalPerson[]) {
-    const temas : VerbConjugationStems = {}
-    const stems : VerbForms = (Array.isArray(stem) ? stem : [stem])
+export function setStem(temas_modelo: [string] | [string, string], only_persons?: GrammaticalPerson[]) {
+    const temas_base : VerbConjugationStems = {}
     const persons = only_persons || persons_w_vos
     for (const key of persons) {
         const persona_gramatical = <GrammaticalPerson> key
-        temas[persona_gramatical] = stems
+        temas_base[persona_gramatical] = temas_modelo
     }
-    return temas
+    return temas_base
 }

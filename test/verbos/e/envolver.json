@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbolˈβ̞eɾ]",
+    "silabacion": "en-vol-ver",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín involvere.",
+    "modelos": ["volver","mover"]
+  },
+  "formas_no_personales": {"infinitivo":"envolver","gerundio":"envolviendo","participio":"envuelto"},
+  "formas_personales": {
+    "IndPres": {"s1":["envuelvo"],"s2":["envuelves"],"vos":["envolvés"],"s3":["envuelve"],"p1":["envolvemos"],"p2":["envolvéis"],"p3":["envuelven"]},
+    "IndImp": {"s1":["envolvía"],"s2":["envolvías"],"vos":["envolvías"],"s3":["envolvía"],"p1":["envolvíamos"],"p2":["envolvíais"],"p3":["envolvían"]},
+    "IndPret": {"s1":["envolví"],"s2":["envolviste"],"vos":["envolviste"],"s3":["envolvió"],"p1":["envolvimos"],"p2":["envolvisteis"],"p3":["envolvieron"]},
+    "IndFut": {"s1":["envolveré"],"s2":["envolverás"],"vos":["envolverás"],"s3":["envolverá"],"p1":["envolveremos"],"p2":["envolveréis"],"p3":["envolverán"]},
+    "IndCond": {"s1":["envolvería"],"s2":["envolverías"],"vos":["envolverías"],"s3":["envolvería"],"p1":["envolveríamos"],"p2":["envolveríais"],"p3":["envolverían"]},
+    "SubPres": {"s1":["envuelva"],"s2":["envuelvas"],"vos":["envuelvas","envolvás"],"s3":["envuelva"],"p1":["envolvamos"],"p2":["envolváis"],"p3":["envuelvan"]},
+    "SubImp": {"s1":["envolviera","envolviese"],"s2":["envolvieras","envolvieses"],"vos":["envolvieras","envolvieses"],"s3":["envolviera","envolviese"],"p1":["envolviéramos","envolviésemos"],"p2":["envolvierais","envolvieseis"],"p3":["envolvieran","envolviesen"]},
+    "SubFut": {"s1":["envolviere"],"s2":["envolvieres"],"vos":["envolvieres"],"s3":["envolviere"],"p1":["envolviéremos"],"p2":["envolviereis"],"p3":["envolvieren"]},
+    "CmdPos": {"s2":["envuelve"],"vos":["envolvé"],"s3":["envuelva"],"p1":["envolvamos"],"p2":["envolved"],"p3":["envuelvan"]}
+  }
+}

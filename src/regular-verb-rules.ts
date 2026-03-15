@@ -1,6 +1,4 @@
 import { VerbConjugation, VerbConjugationChanges, MoodTense, VerbConjugationRules, VerbConjugationSuffixes, VerbRulesApplied } from ".";
-import { getPreterite3PStem } from "./conjugate-verb.js";
-import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 
 
@@ -8,7 +6,7 @@ export interface VerbAspectModifications {
     // stem selection: only one of these may be selected
     // The default behavior is to append the 'suffixes' to the root or stem.
     // The next two fields can change that behavior.
-    // true if the suffixes should be appended to the infinitive form.
+    // true if the suffixes should be appended to the infinitivo form.
     add_suffix_to_infinitive?: boolean
     // true if the stress should be placed on the last sylable of the stem of the 3rd-person plural form.
     add_suffix_to_preterite_p3_stem?: boolean
@@ -95,8 +93,8 @@ export const regular_verb_suffixes: { [ending: string]: VerbConjugationRules<Ver
 export const verb_terminations = ["ar", "er", "ir"]
 
 
-export function getInfinitiveClass(infinitive: string) : InfinitiveClass {
-    let verb_termination = infinitive.slice(-2)
+export function getInfinitiveClass(infinitivo: string) : InfinitiveClass {
+    let verb_termination = infinitivo.slice(-2)
     if (verb_termination === "ír") {
         verb_termination = "ir"
     }
@@ -120,8 +118,8 @@ function getParentVerb(conjugation_rules: VerbAspectRules, verb_family: Infiniti
 
 
 // Get the rule sets that form the conjugation ancestry of this verb.
-export function getAncestorRuleSets(infinitive: string, mood_tense: MoodTense, rules_applied: VerbRulesApplied[]) : VerbAspectRules[] {
-    let verb_family = getInfinitiveClass(infinitive)
+export function getRegularRules(infinitivo: string, mood_tense: MoodTense, rules_applied: VerbRulesApplied[]) : VerbAspectRules[] {
+    let verb_family = getInfinitiveClass(infinitivo)
     let conjugation_rules = regular_verb_suffixes[verb_family].aspects[mood_tense]
     const ancestor_rule_sets: VerbAspectRules[] = [conjugation_rules]
     while (conjugation_rules.base) {
@@ -144,7 +142,7 @@ export function getAncestorRuleSets(infinitive: string, mood_tense: MoodTense, r
 // @return The set of suffixes for all of the conjugated forms.
 // For example: getSuffixes("creer", "IndPret", "eer")
 //    {s1: ["í"], s2: ["íste"], s3: ["yó"], p1: ["ímos"], p2: ["ísteis"], p3: ["yeron"]}
-export function getRegularSuffixes(infinitive: string, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[]) : VerbConjugationSuffixes {
+export function getRegularSuffixes(infinitivo: string, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[]) : VerbConjugationSuffixes {
     let accumulated_suffixes: VerbConjugationSuffixes = {...ancestor_rule_sets[0].suffixes}
     ancestor_rule_sets.slice(1).forEach((ancestor_rule_sets) => {
         if (ancestor_rule_sets.suffixes) {

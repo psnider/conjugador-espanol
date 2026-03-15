@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esˈpjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *spiāre, del fráncico *spehōn, del protogermánico *spehōną, del protoindoeuropeo *speḱ- ('mirar'). Por análisis superficial, de espía y el sufijo -ar.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"espiar","gerundio":"espiando","participio":"espiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["espío"],"s2":["espías"],"vos":["espiás"],"s3":["espía"],"p1":["espiamos"],"p2":["espiáis"],"p3":["espían"]},
+    "IndImp": {"s1":["espiaba"],"s2":["espiabas"],"vos":["espiabas"],"s3":["espiaba"],"p1":["espiábamos"],"p2":["espiabais"],"p3":["espiaban"]},
+    "IndPret": {"s1":["espié"],"s2":["espiaste"],"vos":["espiaste"],"s3":["espió"],"p1":["espiamos"],"p2":["espiasteis"],"p3":["espiaron"]},
+    "IndFut": {"s1":["espiaré"],"s2":["espiarás"],"vos":["espiarás"],"s3":["espiará"],"p1":["espiaremos"],"p2":["espiaréis"],"p3":["espiarán"]},
+    "IndCond": {"s1":["espiaría"],"s2":["espiarías"],"vos":["espiarías"],"s3":["espiaría"],"p1":["espiaríamos"],"p2":["espiaríais"],"p3":["espiarían"]},
+    "SubPres": {"s1":["espíe"],"s2":["espíes"],"vos":["espíes","espiés"],"s3":["espíe"],"p1":["espiemos"],"p2":["espiéis"],"p3":["espíen"]},
+    "SubImp": {"s1":["espiara","espiase"],"s2":["espiaras","espiases"],"vos":["espiaras","espiases"],"s3":["espiara","espiase"],"p1":["espiáramos","espiásemos"],"p2":["espiarais","espiaseis"],"p3":["espiaran","espiasen"]},
+    "SubFut": {"s1":["espiare"],"s2":["espiares"],"vos":["espiares"],"s3":["espiare"],"p1":["espiáremos"],"p2":["espiareis"],"p3":["espiaren"]},
+    "CmdPos": {"s2":["espía"],"vos":["espiá"],"s3":["espíe"],"p1":["espiemos"],"p2":["espiad"],"p3":["espíen"]}
+  }
+}

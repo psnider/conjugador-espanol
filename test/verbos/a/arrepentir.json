@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arepẽn̪ˈt̪iɾ]",
+    "silabacion": "a-rre-pen-tir",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"arrepentir","gerundio":"arrepintiendo","participio":"arrepentido"},
+  "formas_personales": {
+    "IndPres": {"s1":["arrepiento"],"s2":["arrepientes"],"vos":["arrepentís"],"s3":["arrepiente"],"p1":["arrepentimos"],"p2":["arrepentís"],"p3":["arrepienten"]},
+    "IndImp": {"s1":["arrepentía"],"s2":["arrepentías"],"vos":["arrepentías"],"s3":["arrepentía"],"p1":["arrepentíamos"],"p2":["arrepentíais"],"p3":["arrepentían"]},
+    "IndPret": {"s1":["arrepentí"],"s2":["arrepentiste"],"vos":["arrepentiste"],"s3":["arrepintió"],"p1":["arrepentimos"],"p2":["arrepentisteis"],"p3":["arrepintieron"]},
+    "IndFut": {"s1":["arrepentiré"],"s2":["arrepentirás"],"vos":["arrepentirás"],"s3":["arrepentirá"],"p1":["arrepentiremos"],"p2":["arrepentiréis"],"p3":["arrepentirán"]},
+    "IndCond": {"s1":["arrepentiría"],"s2":["arrepentirías"],"vos":["arrepentirías"],"s3":["arrepentiría"],"p1":["arrepentiríamos"],"p2":["arrepentiríais"],"p3":["arrepentirían"]},
+    "SubPres": {"s1":["arrepienta"],"s2":["arrepientas"],"vos":["arrepientas","arrepintás"],"s3":["arrepienta"],"p1":["arrepintamos"],"p2":["arrepintáis"],"p3":["arrepientan"]},
+    "SubImp": {"s1":["arrepintiera","arrepintiese"],"s2":["arrepintieras","arrepintieses"],"vos":["arrepintieras","arrepintieses"],"s3":["arrepintiera","arrepintiese"],"p1":["arrepintiéramos","arrepintiésemos"],"p2":["arrepintierais","arrepintieseis"],"p3":["arrepintieran","arrepintiesen"]},
+    "SubFut": {"s1":["arrepintiere"],"s2":["arrepintieres"],"vos":["arrepintieres"],"s3":["arrepintiere"],"p1":["arrepintiéremos"],"p2":["arrepintiereis"],"p3":["arrepintieren"]},
+    "CmdPos": {"s2":["arrepiente"],"vos":["arrepentí"],"s3":["arrepienta"],"p1":["arrepintamos"],"p3":["arrepientan"]}
+  }
+}

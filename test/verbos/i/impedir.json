@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpeˈð̞iɾ]",
+    "silabacion": "im-pe-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín impedire.",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"impedir","gerundio":"impidiendo","participio":"impedido"},
+  "formas_personales": {
+    "IndPres": {"s1":["impido"],"s2":["impides"],"vos":["impedís"],"s3":["impide"],"p1":["impedimos"],"p2":["impedís"],"p3":["impiden"]},
+    "IndImp": {"s1":["impedía"],"s2":["impedías"],"vos":["impedías"],"s3":["impedía"],"p1":["impedíamos"],"p2":["impedíais"],"p3":["impedían"]},
+    "IndPret": {"s1":["impedí"],"s2":["impediste"],"vos":["impediste"],"s3":["impidió"],"p1":["impedimos"],"p2":["impedisteis"],"p3":["impidieron"]},
+    "IndFut": {"s1":["impediré"],"s2":["impedirás"],"vos":["impedirás"],"s3":["impedirá"],"p1":["impediremos"],"p2":["impediréis"],"p3":["impedirán"]},
+    "IndCond": {"s1":["impediría"],"s2":["impedirías"],"vos":["impedirías"],"s3":["impediría"],"p1":["impediríamos"],"p2":["impediríais"],"p3":["impedirían"]},
+    "SubPres": {"s1":["impida"],"s2":["impidas"],"vos":["impidas","impidás"],"s3":["impida"],"p1":["impidamos"],"p2":["impidáis"],"p3":["impidan"]},
+    "SubImp": {"s1":["impidiera","impidiese"],"s2":["impidieras","impidieses"],"vos":["impidieras","impidieses"],"s3":["impidiera","impidiese"],"p1":["impidiéramos","impidiésemos"],"p2":["impidierais","impidieseis"],"p3":["impidieran","impidiesen"]},
+    "SubFut": {"s1":["impidiere"],"s2":["impidieres"],"vos":["impidieres"],"s3":["impidiere"],"p1":["impidiéremos"],"p2":["impidiereis"],"p3":["impidieren"]},
+    "CmdPos": {"s2":["impide"],"vos":["impedí"],"s3":["impida"],"p1":["impidamos"],"p2":["impedid"],"p3":["impidan"]}
+  }
+}

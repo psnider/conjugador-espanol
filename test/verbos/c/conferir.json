@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõɱfeˈɾiɾ]",
+    "silabacion": "con-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cōnferō.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"conferir","gerundio":"confiriendo","participio":"conferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["confiero"],"s2":["confieres"],"vos":["conferís"],"s3":["confiere"],"p1":["conferimos"],"p2":["conferís"],"p3":["confieren"]},
+    "IndImp": {"s1":["confería"],"s2":["conferías"],"vos":["conferías"],"s3":["confería"],"p1":["conferíamos"],"p2":["conferíais"],"p3":["conferían"]},
+    "IndPret": {"s1":["conferí"],"s2":["conferiste"],"vos":["conferiste"],"s3":["confirió"],"p1":["conferimos"],"p2":["conferisteis"],"p3":["confirieron"]},
+    "IndFut": {"s1":["conferiré"],"s2":["conferirás"],"vos":["conferirás"],"s3":["conferirá"],"p1":["conferiremos"],"p2":["conferiréis"],"p3":["conferirán"]},
+    "IndCond": {"s1":["conferiría"],"s2":["conferirías"],"vos":["conferirías"],"s3":["conferiría"],"p1":["conferiríamos"],"p2":["conferiríais"],"p3":["conferirían"]},
+    "SubPres": {"s1":["confiera"],"s2":["confieras"],"vos":["confieras","confirás"],"s3":["confiera"],"p1":["confiramos"],"p2":["confiráis"],"p3":["confieran"]},
+    "SubImp": {"s1":["confiriera","confiriese"],"s2":["confirieras","confirieses"],"vos":["confirieras","confirieses"],"s3":["confiriera","confiriese"],"p1":["confiriéramos","confiriésemos"],"p2":["confirierais","confirieseis"],"p3":["confirieran","confiriesen"]},
+    "SubFut": {"s1":["confiriere"],"s2":["confirieres"],"vos":["confirieres"],"s3":["confiriere"],"p1":["confiriéremos"],"p2":["confiriereis"],"p3":["confirieren"]},
+    "CmdPos": {"s2":["confiere"],"vos":["conferí"],"s3":["confiera"],"p1":["confiramos"],"p2":["conferid"],"p3":["confieran"]}
+  }
+}

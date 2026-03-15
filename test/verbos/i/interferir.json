@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eɾfeˈɾiɾ]",
+    "silabacion": "in-ter-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés interfere",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"interferir","gerundio":"interfiriendo","participio":"interferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["interfiero"],"s2":["interfieres"],"vos":["interferís"],"s3":["interfiere"],"p1":["interferimos"],"p2":["interferís"],"p3":["interfieren"]},
+    "IndImp": {"s1":["interfería"],"s2":["interferías"],"vos":["interferías"],"s3":["interfería"],"p1":["interferíamos"],"p2":["interferíais"],"p3":["interferían"]},
+    "IndPret": {"s1":["interferí"],"s2":["interferiste"],"vos":["interferiste"],"s3":["interfirió"],"p1":["interferimos"],"p2":["interferisteis"],"p3":["interfirieron"]},
+    "IndFut": {"s1":["interferiré"],"s2":["interferirás"],"vos":["interferirás"],"s3":["interferirá"],"p1":["interferiremos"],"p2":["interferiréis"],"p3":["interferirán"]},
+    "IndCond": {"s1":["interferiría"],"s2":["interferirías"],"vos":["interferirías"],"s3":["interferiría"],"p1":["interferiríamos"],"p2":["interferiríais"],"p3":["interferirían"]},
+    "SubPres": {"s1":["interfiera"],"s2":["interfieras"],"vos":["interfieras","interfirás"],"s3":["interfiera"],"p1":["interfiramos"],"p2":["interfiráis"],"p3":["interfieran"]},
+    "SubImp": {"s1":["interfiriera","interfiriese"],"s2":["interfirieras","interfirieses"],"vos":["interfirieras","interfirieses"],"s3":["interfiriera","interfiriese"],"p1":["interfiriéramos","interfiriésemos"],"p2":["interfirierais","interfirieseis"],"p3":["interfirieran","interfiriesen"]},
+    "SubFut": {"s1":["interfiriere"],"s2":["interfirieres"],"vos":["interfirieres"],"s3":["interfiriere"],"p1":["interfiriéremos"],"p2":["interfiriereis"],"p3":["interfirieren"]},
+    "CmdPos": {"s2":["interfiere"],"vos":["interferí"],"s3":["interfiera"],"p1":["interfiramos"],"p2":["interferid"],"p3":["interfieran"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[poˈβ̞laɾ]",
+    "silabacion": "po-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín populus ('pueblo').",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"poblar","gerundio":"poblando","participio":"poblado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pueblo"],"s2":["pueblas"],"vos":["poblás"],"s3":["puebla"],"p1":["poblamos"],"p2":["pobláis"],"p3":["pueblan"]},
+    "IndImp": {"s1":["poblaba"],"s2":["poblabas"],"vos":["poblabas"],"s3":["poblaba"],"p1":["poblábamos"],"p2":["poblabais"],"p3":["poblaban"]},
+    "IndPret": {"s1":["poblé"],"s2":["poblaste"],"vos":["poblaste"],"s3":["pobló"],"p1":["poblamos"],"p2":["poblasteis"],"p3":["poblaron"]},
+    "IndFut": {"s1":["poblaré"],"s2":["poblarás"],"vos":["poblarás"],"s3":["poblará"],"p1":["poblaremos"],"p2":["poblaréis"],"p3":["poblarán"]},
+    "IndCond": {"s1":["poblaría"],"s2":["poblarías"],"vos":["poblarías"],"s3":["poblaría"],"p1":["poblaríamos"],"p2":["poblaríais"],"p3":["poblarían"]},
+    "SubPres": {"s1":["pueble"],"s2":["puebles"],"vos":["puebles","poblés"],"s3":["pueble"],"p1":["poblemos"],"p2":["pobléis"],"p3":["pueblen"]},
+    "SubImp": {"s1":["poblara","poblase"],"s2":["poblaras","poblases"],"vos":["poblaras","poblases"],"s3":["poblara","poblase"],"p1":["pobláramos","poblásemos"],"p2":["poblarais","poblaseis"],"p3":["poblaran","poblasen"]},
+    "SubFut": {"s1":["poblare"],"s2":["poblares"],"vos":["poblares"],"s3":["poblare"],"p1":["pobláremos"],"p2":["poblareis"],"p3":["poblaren"]},
+    "CmdPos": {"s2":["puebla"],"vos":["poblá"],"s3":["pueble"],"p1":["poblemos"],"p2":["poblad"],"p3":["pueblen"]}
+  }
+}

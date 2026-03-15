@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[foɾˈsaɾ]",
+    "silabacion": "for-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fortiāre.",
+    "modelos": ["realizar","contar"]
+  },
+  "formas_no_personales": {"infinitivo":"forzar","gerundio":"forzando","participio":"forzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fuerzo"],"s2":["fuerzas"],"vos":["forzás"],"s3":["fuerza"],"p1":["forzamos"],"p2":["forzáis"],"p3":["fuerzan"]},
+    "IndImp": {"s1":["forzaba"],"s2":["forzabas"],"vos":["forzabas"],"s3":["forzaba"],"p1":["forzábamos"],"p2":["forzabais"],"p3":["forzaban"]},
+    "IndPret": {"s1":["forcé"],"s2":["forzaste"],"vos":["forzaste"],"s3":["forzó"],"p1":["forzamos"],"p2":["forzasteis"],"p3":["forzaron"]},
+    "IndFut": {"s1":["forzaré"],"s2":["forzarás"],"vos":["forzarás"],"s3":["forzará"],"p1":["forzaremos"],"p2":["forzaréis"],"p3":["forzarán"]},
+    "IndCond": {"s1":["forzaría"],"s2":["forzarías"],"vos":["forzarías"],"s3":["forzaría"],"p1":["forzaríamos"],"p2":["forzaríais"],"p3":["forzarían"]},
+    "SubPres": {"s1":["fuerce"],"s2":["fuerces"],"vos":["fuerces","forcés"],"s3":["fuerce"],"p1":["forcemos"],"p2":["forcéis"],"p3":["fuercen"]},
+    "SubImp": {"s1":["forzara","forzase"],"s2":["forzaras","forzases"],"vos":["forzaras","forzases"],"s3":["forzara","forzase"],"p1":["forzáramos","forzásemos"],"p2":["forzarais","forzaseis"],"p3":["forzaran","forzasen"]},
+    "SubFut": {"s1":["forzare"],"s2":["forzares"],"vos":["forzares"],"s3":["forzare"],"p1":["forzáremos"],"p2":["forzareis"],"p3":["forzaren"]},
+    "CmdPos": {"s2":["fuerza"],"vos":["forzá"],"s3":["fuerce"],"p1":["forcemos"],"p2":["forzad"],"p3":["fuercen"]}
+  }
+}

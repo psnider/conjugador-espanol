@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[repɾoˈβ̞aɾ]",
+    "silabacion": "re-pro-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reprobāre.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"reprobar","gerundio":"reprobando","participio":"reprobado"},
+  "formas_personales": {
+    "IndPres": {"s1":["repruebo"],"s2":["repruebas"],"vos":["reprobás"],"s3":["reprueba"],"p1":["reprobamos"],"p2":["reprobáis"],"p3":["reprueban"]},
+    "IndImp": {"s1":["reprobaba"],"s2":["reprobabas"],"vos":["reprobabas"],"s3":["reprobaba"],"p1":["reprobábamos"],"p2":["reprobabais"],"p3":["reprobaban"]},
+    "IndPret": {"s1":["reprobé"],"s2":["reprobaste"],"vos":["reprobaste"],"s3":["reprobó"],"p1":["reprobamos"],"p2":["reprobasteis"],"p3":["reprobaron"]},
+    "IndFut": {"s1":["reprobaré"],"s2":["reprobarás"],"vos":["reprobarás"],"s3":["reprobará"],"p1":["reprobaremos"],"p2":["reprobaréis"],"p3":["reprobarán"]},
+    "IndCond": {"s1":["reprobaría"],"s2":["reprobarías"],"vos":["reprobarías"],"s3":["reprobaría"],"p1":["reprobaríamos"],"p2":["reprobaríais"],"p3":["reprobarían"]},
+    "SubPres": {"s1":["repruebe"],"s2":["repruebes"],"vos":["repruebes","reprobés"],"s3":["repruebe"],"p1":["reprobemos"],"p2":["reprobéis"],"p3":["reprueben"]},
+    "SubImp": {"s1":["reprobara","reprobase"],"s2":["reprobaras","reprobases"],"vos":["reprobaras","reprobases"],"s3":["reprobara","reprobase"],"p1":["reprobáramos","reprobásemos"],"p2":["reprobarais","reprobaseis"],"p3":["reprobaran","reprobasen"]},
+    "SubFut": {"s1":["reprobare"],"s2":["reprobares"],"vos":["reprobares"],"s3":["reprobare"],"p1":["reprobáremos"],"p2":["reprobareis"],"p3":["reprobaren"]},
+    "CmdPos": {"s2":["reprueba"],"vos":["reprobá"],"s3":["repruebe"],"p1":["reprobemos"],"p2":["reprobad"],"p3":["reprueben"]}
+  }
+}

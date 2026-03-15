@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akosˈt̪aɾ]",
+    "silabacion": "a-cos-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, cuesta y el sufijo -ar.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"acostar","gerundio":"acostando","participio":"acostado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acuesto"],"s2":["acuestas"],"vos":["acostás"],"s3":["acuesta"],"p1":["acostamos"],"p2":["acostáis"],"p3":["acuestan"]},
+    "IndImp": {"s1":["acostaba"],"s2":["acostabas"],"vos":["acostabas"],"s3":["acostaba"],"p1":["acostábamos"],"p2":["acostabais"],"p3":["acostaban"]},
+    "IndPret": {"s1":["acosté"],"s2":["acostaste"],"vos":["acostaste"],"s3":["acostó"],"p1":["acostamos"],"p2":["acostasteis"],"p3":["acostaron"]},
+    "IndFut": {"s1":["acostaré"],"s2":["acostarás"],"vos":["acostarás"],"s3":["acostará"],"p1":["acostaremos"],"p2":["acostaréis"],"p3":["acostarán"]},
+    "IndCond": {"s1":["acostaría"],"s2":["acostarías"],"vos":["acostarías"],"s3":["acostaría"],"p1":["acostaríamos"],"p2":["acostaríais"],"p3":["acostarían"]},
+    "SubPres": {"s1":["acueste"],"s2":["acuestes"],"vos":["acuestes","acostés"],"s3":["acueste"],"p1":["acostemos"],"p2":["acostéis"],"p3":["acuesten"]},
+    "SubImp": {"s1":["acostara","acostase"],"s2":["acostaras","acostases"],"vos":["acostaras","acostases"],"s3":["acostara","acostase"],"p1":["acostáramos","acostásemos"],"p2":["acostarais","acostaseis"],"p3":["acostaran","acostasen"]},
+    "SubFut": {"s1":["acostare"],"s2":["acostares"],"vos":["acostares"],"s3":["acostare"],"p1":["acostáremos"],"p2":["acostareis"],"p3":["acostaren"]},
+    "CmdPos": {"s2":["acuesta"],"vos":["acostá"],"s3":["acueste"],"p1":["acostemos"],"p2":["acostad"],"p3":["acuesten"]}
+  }
+}

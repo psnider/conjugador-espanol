@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esfoɾˈsaɾ]",
+    "silabacion": "es-for-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar exfortiare y este del latín clásico fortis.",
+    "modelos": ["realizar","contar"]
+  },
+  "formas_no_personales": {"infinitivo":"esforzar","gerundio":"esforzando","participio":"esforzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["esfuerzo"],"s2":["esfuerzas"],"vos":["esforzás"],"s3":["esfuerza"],"p1":["esforzamos"],"p2":["esforzáis"],"p3":["esfuerzan"]},
+    "IndImp": {"s1":["esforzaba"],"s2":["esforzabas"],"vos":["esforzabas"],"s3":["esforzaba"],"p1":["esforzábamos"],"p2":["esforzabais"],"p3":["esforzaban"]},
+    "IndPret": {"s1":["esforcé"],"s2":["esforzaste"],"vos":["esforzaste"],"s3":["esforzó"],"p1":["esforzamos"],"p2":["esforzasteis"],"p3":["esforzaron"]},
+    "IndFut": {"s1":["esforzaré"],"s2":["esforzarás"],"vos":["esforzarás"],"s3":["esforzará"],"p1":["esforzaremos"],"p2":["esforzaréis"],"p3":["esforzarán"]},
+    "IndCond": {"s1":["esforzaría"],"s2":["esforzarías"],"vos":["esforzarías"],"s3":["esforzaría"],"p1":["esforzaríamos"],"p2":["esforzaríais"],"p3":["esforzarían"]},
+    "SubPres": {"s1":["esfuerce"],"s2":["esfuerces"],"vos":["esfuerces","esforcés"],"s3":["esfuerce"],"p1":["esforcemos"],"p2":["esforcéis"],"p3":["esfuercen"]},
+    "SubImp": {"s1":["esforzara","esforzase"],"s2":["esforzaras","esforzases"],"vos":["esforzaras","esforzases"],"s3":["esforzara","esforzase"],"p1":["esforzáramos","esforzásemos"],"p2":["esforzarais","esforzaseis"],"p3":["esforzaran","esforzasen"]},
+    "SubFut": {"s1":["esforzare"],"s2":["esforzares"],"vos":["esforzares"],"s3":["esforzare"],"p1":["esforzáremos"],"p2":["esforzareis"],"p3":["esforzaren"]},
+    "CmdPos": {"s2":["esfuerza"],"vos":["esforzá"],"s3":["esfuerce"],"p1":["esforcemos"],"p2":["esforzad"],"p3":["esfuercen"]}
+  }
+}

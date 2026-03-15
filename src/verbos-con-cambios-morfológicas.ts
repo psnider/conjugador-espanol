@@ -7,20 +7,22 @@ import { version, license } from "./version.js"
 export type InfinitiveClass = "-ar" | "-er" | "-ir"
 
 // A family of verbs that conjugate the same depending on the termination.
-// A preceding hyphen indicates that the form is not a verb itself.
-export type VerboClaseConjugacional = "-acer" | "decir" | "-ducir" | "-eer" | "-iar" | "oír" | "poner" | "seguir" | "tener" | "traer" | "-uir"
+// These start with a preceding hyphen to emphasize that the form is not a verb itself.
+// However, this doesn't mean that all verbs with this termination conjugate the same way, 
+// for example, the model for "-iar" is "vaciar", but "estudiar" is regular. 
+export type VerboClaseConjugacional = "-acer" | "-ducir" | "-eer" | "-iar" | "-uir"
 
 
 // El modelo de la conjugación.
-// Note that some models are not verbs themselves, but are productive verb endings. These are marked with a leading hyphen.
 // Para verbos regulares, no especifica un modelo.
-export type ModeloConjugacional = VerboClaseConjugacional
-                    | "delinquir"
-                    | "caber"  | "caer"  | "dar"   | "erguir" | "estar"
-                    | "haber"  | "hacer" | "ir"    | "jugar" | "poder"
-                    | "querer" | "saber" | "salir" | "ser"
-                    | "vaciar" | "venir" | "ver"
-
+export type ModeloConjugacional = 
+        | "delinquir"
+        | "caber"    | "caer"    | "conducir" | "dar"     | "decir"   | "dormir"
+        | "enraizar" | "erguir"  | "estar"
+        | "guiar"    | "haber"   | "hacer"    | "huir"    | "ir"      | "jugar"  | "leer"
+        | "mover"    | "oír"     | "pedir"    | "poder"   | "poner" 
+        | "querer"   | "reír"    | "saber"    | "salir"   | "seguir"  | "ser"
+        | "tener"    | "traer"   | "vaciar"   | "venir"   | "ver"     | "volver"
 
 // The rules for conjugating a single form of an irregular verb, such as: "IndPres", "IndImp"
 export interface VerbAspectRulesWithFullyIrregularForms extends VerbAspectModifications {
@@ -53,8 +55,13 @@ export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas {
 
 // FIX: want to explain reason/origin/etemology for each change... this could help learners
 export interface ReglasDeConjugaciónDeVerbo {
+    // Used only by resolveConjugationClass(), to associate each portion of a collection of rules with the verb to which they apply.
+    // These are ordered from most specific (the original infinitivo), to the most basic. Normally there are only one or two.
+    // For example: ["retener", "tener"]
+    infinitivos?: string[]
     clase_conjugacional?: VerboClaseConjugacional
     modelo?: ModeloConjugacional
+    no_admite_prefijos?: true
     tema_presente_yo?: string | [string, string]
     sufijo_presente_yo?: string
     tema_pretérito?: string
@@ -63,84 +70,148 @@ export interface ReglasDeConjugaciónDeVerbo {
     alternancia_vocálica?: StemChangeRuleId
     // Propiedades que no se generalizan bien, no productivos, no extrapolable.
     excepciones_léxicas?: ReglasDeConjugaciónDeVerboExcepcionesLexicas
-    verificado?: true
+    // Inidica que las pruebas pasan
+    ok?: 0 | 1
 }
 
 
 // if a value is null, the verb is regular
-export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeConjugaciónDeVerbo} = {
-    abrir:         {excepciones_léxicas: {participio: "abierto"}},
-    absolver:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    abstener:      {modelo: "tener"},  // añado 27 feb 2026
-    acertar:       {alternancia_vocálica: "e:ie"},
-    acordar:       {alternancia_vocálica: "o:ue"},
-    acostar:       {alternancia_vocálica: "o:ue"},
-    adherir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    adquirir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    advenir:       {modelo: "venir"},  // añado 27 feb 2026
-    advertir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    alentar:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    almorzar:      {alternancia_vocálica: "o:ue"},
-    ampliar:       {modelo: "vaciar"},
-    andar:         {tema_pretérito: "anduv"},
-    apacentar:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    apostar:       {alternancia_vocálica: "o:ue"},
-    apretar:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    aprobar:       {alternancia_vocálica: "o:ue"},  // Remove once a- prefixes are handled correctly
-    arrendar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    arrepentir:    {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    ascender:      {alternancia_vocálica: "e:ie"},
-    asentir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    asolar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    atender:       {alternancia_vocálica: "e:ie"},
-    atravesar:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-//  avenir:        pasan las pruebas
-    avergonzar:    {alternancia_vocálica: "o:ue" /* FIX: must ADD diérisis*/},  // añado 27 feb 2026
-    caer:          {tema_presente_yo: "caig"},
+// A verb that appears in this list has been verified with a test
+export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeConjugaciónDeVerbo} = {
+    abrir: { excepciones_léxicas: { participio: "abierto" } },
+    absolver: { alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "absuelto" } },
+    abstener: { modelo: "tener" },
+    acabar: {},
+    aceptar: {},
+    acercar: {},
+    acertar: { alternancia_vocálica: "e:ie" },
+    acompañar: {},
+    acordar: { alternancia_vocálica: "o:ue" },
+    acostar: { alternancia_vocálica: "o:ue" },
+    actuar: {},
+    adherir: { alternancia_vocálica: "e:ie" },
+    adquirir: { alternancia_vocálica: "i:ie" },
+    advenir: { modelo: "venir" },
+    advertir: { alternancia_vocálica: "e:ie" },
+    afectar: {},
+    afirmar: {},
+    agarrar: {},
+    agregar: {},
+    alcanzar: {},
+    alentar: { alternancia_vocálica: "e:ie" },
+// aliar: { modelo: "vaciar" }, FIX: ADD
+    almorzar: { alternancia_vocálica: "o:ue" },
+// alquilar: {},
+    amar: {},
+// amnistiar: { modelo: "vaciar" },  FIX: ADD
+    ampliar: { modelo: "vaciar" },
+    andar: { tema_pretérito: "anduv" },
+// ansiar: { modelo: "vaciar" },  FIX: ADD
+    apacentar: { alternancia_vocálica: "e:ie" },
+    aparecer: {},
+    aplicar: {},
+    apostar: { alternancia_vocálica: "o:ue" },
+    aprender: {},
+    apretar: { alternancia_vocálica: "e:ie" },
+    aprobar: { alternancia_vocálica: "o:ue" }, // Remove once a- prefixes are handled correctly
+    aprovechar: {},
+    arreglar: {},
+    arrendar: { alternancia_vocálica: "e:ie" },
+    arrepentir: { alternancia_vocálica: "e:ie" },
+// arriesgar: {},
+    ascender: { alternancia_vocálica: "e:ie" },
+    asegurar: {},
+    asentir: { alternancia_vocálica: "e:ie" },
+    asistir: {},
+    asolar: { alternancia_vocálica: "o:ue" },      // FIX: also supports regular forms! Perhaps add an option to return both forms?
+    atender: { alternancia_vocálica: "e:ie" },
+    atravesar: { alternancia_vocálica: "e:ie" },
+    aumentar: {},
+    avenir:     { modelo: "venir" },
+    avergonzar: { alternancia_vocálica: "o:ue" },    // FIX: must ADD diérisis
+// averiar: { modelo: "vaciar" }, FIX: ADD
+    ayudar: {},
+    añadir: {},
+    bailar: {},
+    bajar: {},
+// biografiar: { modelo: "vaciar" }, FIX: ADD
+    // bruñir: { alternancia_vocálica: "e:i" },
+    // bullir: { alternancia_vocálica: "e:i" },
+    buscar: {},
     caber: {
         tema_presente_yo: "quep",
         tema_pretérito: "cup",
-        tema_futuro: "cabr",
+        tema_futuro: "cabr"
     },
-    calentar:      {alternancia_vocálica: "e:ie"},
-    cegar:         {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    cerner:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    cerrar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    ceñir:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    cimentar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    circunvenir:   {modelo: "venir"},  // añado 27 feb 2026
-    cocer:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    colgar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    comenzar:      {alternancia_vocálica: "e:ie"},
-    competir:      {alternancia_vocálica: "e:i"},
-    comprobar:     {alternancia_vocálica: "o:ue"},
-    concertar:     {alternancia_vocálica: "e:ie"},
-    concordar:     {alternancia_vocálica: "o:ue"},
-    condescender:  {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    conducir: {
-        clase_conjugacional: "-ducir",
-        // FIX: linguist: how can this pattern be generalized?
-        tema_pretérito: "conduj",  // pretérito fuerte con -j
-    },
-    conferir:      {alternancia_vocálica: "e:ie"},   // añado 27 feb 2026
-    confesar:      {alternancia_vocálica: "e:ie"},
-    confiar:       {modelo: "vaciar"},
-    conjugar:      {modelo: null},  // regular, no sigue el modelo de "jugar"
-    conmover:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    conseguir:     {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    consentir:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    consolar:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    contar:        {alternancia_vocálica: "o:ue"},
-    contender:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    contribuir:    null,  // añado 27 feb 2026
-    convenir:      {modelo: "venir"},  // añado 27 feb 2026
-    convertir:     {alternancia_vocálica: "e:ie"},
-    contravenir:   {modelo: "venir"},  // añado 27 feb 2026
-    corregir:      {alternancia_vocálica: "e:i"},
-    costar:        {alternancia_vocálica: "o:ue"},
-    criar:         {modelo: "vaciar", verificado: true},
-    cubrir:         {excepciones_léxicas: {participio: "cubierto"}},
+    caer: { tema_presente_yo: "caig" },
+    calentar: { alternancia_vocálica: "e:ie" },
+    cambiar: {},
+    caminar: {},
+    cantar: {},
+    casar: {},
+    causar: {},
+    cegar: { alternancia_vocálica: "e:ie" },
+    celebrar: {},
+    cerner: { alternancia_vocálica: "e:ie" },
+    cerrar: { alternancia_vocálica: "e:ie" },
+    ceñir:   { alternancia_vocálica: "e:i" },
+// chirriar: { modelo: "vaciar" }, FIX: ADD
+    cimentar: { alternancia_vocálica: "e:ie" },    // FIX: various irregularities
+    circunvenir: { modelo: "venir" },
+    cobrar: {},
+    cocer: { alternancia_vocálica: "o:ue" },       // FIX: various irregularities
+    colgar: { alternancia_vocálica: "o:ue" },
+    colocar: {},
+    comenzar: { alternancia_vocálica: "e:ie" },
+    comer: {},
+    competir: { alternancia_vocálica: "e:i" },
+    comprar: {},
+    comprender: {},
+    comprobar: { alternancia_vocálica: "o:ue" },
+    concertar: { alternancia_vocálica: "e:ie" },
+    concordar: { alternancia_vocálica: "o:ue" },
+    condescender: { alternancia_vocálica: "e:ie" },
+    conducir: { clase_conjugacional: "-ducir", tema_pretérito: "conduj" },  // FIX: linguist: how can this pattern be generalized: "pretérito fuerte con -j" ?
+    conferir: { alternancia_vocálica: "e:ie" },
+    confesar: { alternancia_vocálica: "e:ie" },
+    confiar: { modelo: "vaciar" },
+    conjugar: { modelo: null },
+    conmover: { alternancia_vocálica: "o:ue" },
+// conquirir: { alternancia_vocálica: "i:ie" },
+    conocer: {},
+    conseguir: { alternancia_vocálica: "e:i" },
+    consentir: { alternancia_vocálica: "e:ie" },
+    conservar: {},
+    considerar: {},
+    consistir: {},
+    consolar: { alternancia_vocálica: "o:ue" },
+    constituir: {},
+    construir: {},
+    contar: { alternancia_vocálica: "o:ue" },
+    contender: { alternancia_vocálica: "e:ie" },
+    contener: {},
+    contestar: {},
+    continuar: {},
+// contrariar: { modelo: "vaciar" }, FIX: ADD
+    contravenir: { modelo: "venir" },
+    contribuir: {},
+    convenir: { modelo: "venir" },
+    convertir: { alternancia_vocálica: "e:ie" },
+    corregir: { alternancia_vocálica: "e:i" },
+    correr: {},
+    corresponder: {},
+    cortar: {},
+    costar: { alternancia_vocálica: "o:ue" },
+    crear: {},
+    crecer: {},
+    creer: {},
+    criar: { modelo: "vaciar" },
+    cualquier: {},
+    cubrir: { excepciones_léxicas: { participio: "cubierto" } },
+    cuidar: {},
+    cumplir: {},
     dar: {
+        modelo: "dar",
         // FIX: linguist: unclear
         excepciones_léxicas: {
             reglas: {
@@ -149,12 +220,14 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
                 SubPres: { suffixes: { s1: ["é"],                s3: ["é"],                  p2: ["eis"] } },
                 IndPret: { suffixes: { s1: ["i"], s2: ["iste"],  s3: ["io"],   p1: ["imos"], p2: ["isteis"], p3: ["ieron"] } },
                 CmdPos:  { suffixes: {                           s3: ["é"],                                                     vos: null  } },
-                CmdNeg:  { suffixes: {                           s3: ["é"],                  p2: ['eis']} },
+                CmdNeg:  { suffixes: {                           s3: ["é"],                  p2: ["eis"]} },
             }
         }
     },
+    deber: {},
+    decidir: {},
     decir: {
-        clase_conjugacional: "decir", 
+        modelo: "decir", 
         tema_presente_yo: "dig",
         tema_pretérito: "dij",
         tema_futuro: "dir",
@@ -165,68 +238,91 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             imperativo_tú: "di"
         }
     },
-    defender:      {alternancia_vocálica: "e:ie"},
-    deferir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    degollar:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    demoler:       {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    demostrar:     {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    denegar:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    derretir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    desalentar:    {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    desaprobar:    {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    desatender:    {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    desavenir:     {modelo: "venir"},  // añado 27 feb 2026
-    descender:     {alternancia_vocálica: "e:ie"},
-    descolgar:     {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    desconfiar:    {modelo: "vaciar"},
-    descontar:     {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    describir:     {excepciones_léxicas: {participio: "descrito"}}, // añado 27 feb 2026
-    descubrir:     {excepciones_léxicas: {participio: "descubierto"}},  // añado 27 feb 2026
-    desenvolver:   {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    desosar:       {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    despedir:      {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    despertar:     {alternancia_vocálica: "e:ie"},
-    desplegar:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    desterrar:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    // detener:  FIX: setting modelo causes a failure, but it should work     {modelo: "tener"},  // añado 27 feb 2026
-    desviar:       {modelo: "vaciar"},
-    devenir:       {modelo: "venir"},  // añado 27 feb 2026
-    devolver:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    diferir:       {alternancia_vocálica: "e:ie"},
-    digerir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    discernir:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    disentir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    disolver:      {alternancia_vocálica: "o:ue"},
-    distender:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    divertir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    doler:         {alternancia_vocálica: "o:ue"},
-    dormir:        {alternancia_vocálica: "o:ue"},
-    elegir:        {alternancia_vocálica: "e:i"},
-    // elevar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026. FIX: linguist:  solo en varios regiones
-    empezar:       {alternancia_vocálica: "e:ie"},
-    encender:      {alternancia_vocálica: "e:ie"},
-    encerrar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    encomendar:    {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    encontrar:     {alternancia_vocálica: "o:ue"},
-    enjugar:       {modelo: null},  // regular, no sigue el modelo de "jugar"
-    enmendar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    enraizar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    entender:      {alternancia_vocálica: "e:ie"},
-    enterrar:      {alternancia_vocálica: "e:ie"},
-    enviar:        {modelo: "vaciar"},
-    envolver:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
+    dedicar: {},
+    defender: { alternancia_vocálica: "e:ie" },
+    deferir: { alternancia_vocálica: "e:ie" },
+    degollar: { alternancia_vocálica: "o:ue" },
+    dejar: {},
+    delinquir: {},
+    demoler: { alternancia_vocálica: "o:ue" },
+    demostrar: { alternancia_vocálica: "o:ue" },
+    denegar: { alternancia_vocálica: "e:ie" },
+    depender: {},
+    derretir: { alternancia_vocálica: "e:i" },
+// desafiar: { modelo: "vaciar" },
+    desalentar: { alternancia_vocálica: "e:ie" },
+    desaparecer: {},
+    desaprobar: { alternancia_vocálica: "o:ue" },
+    desarrollar: {},
+    desatender: { alternancia_vocálica: "e:ie" },
+    desavenir: { modelo: "venir" },
+    descender: { alternancia_vocálica: "e:ie" },
+    descolgar: { alternancia_vocálica: "o:ue" },
+    desconfiar: { modelo: "vaciar" },
+    descontar: { alternancia_vocálica: "o:ue" },
+// descreer:
+    describir: { excepciones_léxicas: { participio: "descrito" } },
+    descubrir: { excepciones_léxicas: { participio: "descubierto" } },
+    desear: {},
+    desenvolver: { modelo: "volver" },
+// deshacer: {  }, FIX ADD
+// deslizar: {  }, FIX ADD
+    desosar:    { alternancia_vocálica: "o:ue" },
+    despedir:   { alternancia_vocálica: "e:i" },
+    despertar:  { alternancia_vocálica: "e:ie" },
+    desplegar:  { alternancia_vocálica: "e:ie" },
+    desterrar:  { alternancia_vocálica: "e:ie" },
+    desviar:    { modelo: "vaciar" },
+    detener:    {},    // FIX: setting modelo causes a failure, but it should work     {modelo: "tener"},
+    determinar: {},
+    devenir:    { modelo: "venir" },
+    devolver:   { modelo: "volver" },
+    diferir:    { alternancia_vocálica: "e:ie" },
+    digerir:    { alternancia_vocálica: "e:ie" },
+    dirigir:    {},
+    discernir:  { alternancia_vocálica: "e:ie" },
+    disentir:   { alternancia_vocálica: "e:ie" },
+    disolver:   { modelo: "volver" },
+    disponer:   {},
+    distender:  { alternancia_vocálica: "e:ie" },
+    divertir:   { alternancia_vocálica: "e:ie" },
+    doler:      { alternancia_vocálica: "o:ue" },
+    dormir:     { modelo: "dormir", alternancia_vocálica: "o:ue" },
+    durar:      {},
+    echar:      {},
+    efectuar:   {},
+    elegir:     { alternancia_vocálica: "e:i" },
+    // elevar:      {alternancia_vocálica: "e:ie"},  // FIX: linguist:  solo en varios regiones
+    empezar:    { alternancia_vocálica: "e:ie" },
+    emplear:    {},
+    encender:   { alternancia_vocálica: "e:ie" },
+    encerrar:   { alternancia_vocálica: "e:ie" },
+    encomendar: { alternancia_vocálica: "e:ie" },
+    encontrar:  { alternancia_vocálica: "o:ue" },
+// enfriar: { modelo: "vaciar" },
+    enjugar:    {modelo: null},  // regular, no sigue el modelo de "jugar"
+    enmendar:   { alternancia_vocálica: "e:ie" },
+    enraizar:   { modelo: "enraizar", alternancia_vocálica: "e:ie" },
+    enseñar:    {},
+    entender:   { alternancia_vocálica: "e:ie" },
+    enterrar:   { alternancia_vocálica: "e:ie" },
+    entrar:     {},
+    entregar:   {},
+    enviar: { modelo: "vaciar" },
+    envolver: { modelo: "volver" },
     erguir: {
         alternancia_vocálica: "e:ie",
-        // tema_presente_yo: ["irg", "yerg"],
-        tema_presente_yo: "yerg",
-        excepciones_léxicas: {
-            gerundio: "irguiendo",
-        }
+        tema_presente_yo: "yerg",  // FIX: tema_presente_yo: ["irg", "yerg"],
+        excepciones_léxicas: { gerundio: "irguiendo" }
     },
-    escribir: {excepciones_léxicas: {participio: "escrito"}},
-    esforzar:      {alternancia_vocálica: "o:ue"},
-    espiar:        {modelo: "vaciar"},
-    esquiar:       {modelo: "vaciar"},
+    errar:      {}, // FIX: tiene dos formas
+    escribir:   { excepciones_léxicas: { participio: "escrito" } },
+    escuchar:   {},
+    esforzar:   { alternancia_vocálica: "o:ue" },
+    esperar:    {},
+    espiar:     { modelo: "vaciar" },
+    esquiar:    { modelo: "vaciar" },
+    establecer: {},
     estar: {
         sufijo_presente_yo: "oy",
         tema_pretérito: "estuv", 
@@ -240,21 +336,37 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    estregar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    expedir:       {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    extender:      {alternancia_vocálica: "e:ie"},
-    forzar:        {alternancia_vocálica: "o:ue"},
-    fotografiar:   {modelo: "vaciar"},
-    fregar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    freír:         {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    gemir:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    gobernar:      {alternancia_vocálica: "e:ie"},
-    granizar:      {alternancia_vocálica: "o:ue"},     // conjugate_only: ["s3"]},
+    estregar: { alternancia_vocálica: "e:ie" },  // FIX: multiple forms
+// estrenar: {},
+    estudiar: {},
+    evitar: {},
+    exigir: {},
+    existir: {},
+    expedir: { alternancia_vocálica: "e:i" },
+// expiar: { modelo: "vaciar" },
+    explicar: {},
+    expresar: {},
+    extender: { alternancia_vocálica: "e:ie" },
+    faltar: {},
+    fijar: {},
+    fluir: {},
+    formar: {},
+    forzar: { alternancia_vocálica: "o:ue" },
+    fotografiar: { modelo: "vaciar" },
+    fregar: { alternancia_vocálica: "e:ie" },
+    freír: { modelo: "reír" },
+    ganar: {},
+    gemir: { modelo: "pedir" },
+    gobernar: { alternancia_vocálica: "e:ie" },
+    granizar: { alternancia_vocálica: "o:ue" },
+    gritar: {},
+    // gruñir: { alternancia_vocálica: "e:i" },
+    guardar: {},
     guiar: {
+        modelo: "guiar",
+        // clase_conjugacional: "-iar",
         // TODO: hay formas reformadas en la reforma ortográfica de la RAE de 2010, considera añadir estas formas
-        // irregular_base: "vaciar"
-        clase_conjugacional: "-iar",
-        // The accent is the only thing different from the regular forms
+        // Otherwise, the accent is the only thing different from the regular forms
         excepciones_léxicas: {
             reglas: {
                 IndPres: {stress_last_char_of_s123p3_stem: true,
@@ -269,6 +381,7 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
+    gustar: {},
     haber: {
         tema_pretérito: "hub",
         tema_futuro: "habr",
@@ -284,7 +397,9 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
+    hablar: {},
     hacer: {
+        modelo: "hacer",
         clase_conjugacional: "-acer",
         tema_presente_yo: "hag",
         tema_pretérito: "hic",
@@ -298,32 +413,45 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    heder:         {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    helar:         {alternancia_vocálica: "e:ie"},
-    hendir:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    herir:         {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    herrar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    hervir:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    huir: { // FIX: is this fully regular now?
+    hallar: {},
+    heder: { alternancia_vocálica: "e:ie" },
+    helar: { alternancia_vocálica: "e:ie" },
+    hendir: { alternancia_vocálica: "e:ie" },  // but not the "e:i" for IndPret...
+    herir: { alternancia_vocálica: "e:ie" },
+    herrar: { alternancia_vocálica: "e:ie" },
+    hervir: { alternancia_vocálica: "e:ie" },
+    huir: {
+        modelo: "huir",
         clase_conjugacional: "-uir",
         excepciones_léxicas: {
             reglas: {
+                // NOTE: the vos form is not inherited by derived forms!
                 IndPres: { suffixes: {p2: ["is"], vos: ["is"]}},
                 IndPret: { suffixes: { s1: ["i"] } },
                 CmdPos:  { suffixes: { vos: ["i"] } }
             },
         }
     },
-    impedir:       {alternancia_vocálica: "e:i"},
-    inferir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    ingerir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    injerir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    interferir:    {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    intervenir:    {modelo: "venir"},  // añado 27 feb 2026
-    intuir:        null,   // añado 27 feb 2026
-    invertir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    investir:      {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
+    imaginar: {},
+    impedir: { alternancia_vocálica: "e:i" },
+    imponer: {},
+    incluir: {},
+    indicar: {},
+    inferir: { alternancia_vocálica: "e:ie" },
+    informar: {},
+    ingerir: { alternancia_vocálica: "e:ie" },
+    iniciar: {},
+    injerir: { alternancia_vocálica: "e:ie" },
+// inquirir: { alternancia_vocálica: "i:ie" },
+    interferir: { alternancia_vocálica: "e:ie" },
+    intervenir: { modelo: "venir" },
+    intuir:     { modelo: "huir" },
+    invertir:   { alternancia_vocálica: "e:ie" },
+    investir:   { alternancia_vocálica: "e:i" },
+    invitar:    {},
     ir: {
+        modelo: "ir",
+        no_admite_prefijos: true,
         tema_pretérito: "fu",
         sufijo_presente_yo: "oy",
         excepciones_léxicas: {
@@ -348,24 +476,54 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
         // FIX: SubPres: vos spelling differs by region: vos: ["juegues", "*jugués"]
         alternancia_vocálica: "u:ue",
     },
-    leer: {clase_conjugacional: "-eer"},
-    llover:        {alternancia_vocálica: "o:ue"},   // FIX: conjugate_only: ["s3"]},
-    malquerer:     {modelo: "querer"},  // añado 27 feb 2026
-    manifestar:    {alternancia_vocálica: "e:ie"},
-    medir:         {alternancia_vocálica: "e:i"},
-    mentar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    mentir:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    merendar:      {alternancia_vocálica: "e:ie"},
-    morder:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    morir:         {alternancia_vocálica: "o:ue"},
-    mostrar:       {alternancia_vocálica: "o:ue"},
-    mover:         {alternancia_vocálica: "o:ue"},
-    negar:         {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    nevar:         {alternancia_vocálica: "e:ie"},       // FIX: conjugate_only: ["s3"]},
-    obtener:       {modelo: "tener"},  // añado 27 feb 2026
+    lavar: {},
+    leer: { modelo: "leer", clase_conjugacional: "-eer" },
+    levantar: {},
+    llamar: {},
+    llegar: {},
+    llenar: {},
+    llevar: {},
+    llorar: {},
+    llover: {alternancia_vocálica: "o:ue"},   // FIX: conjugate_only: ["s3"]},
+    lograr: {},
+    lugar: {},
+    malquerer: { modelo: "querer" },
+    mandar: {},
+    manejar: {},
+    manifestar: { alternancia_vocálica: "e:ie" },
+    mantener: {},
+    mar: {},
+    matar: {},
+    medir: { alternancia_vocálica: "e:i" },
+    mejorar: {},
+    mencionar: {},
+    mentar: { alternancia_vocálica: "e:ie" },
+    mentir: { alternancia_vocálica: "e:ie" },
+    merendar: { alternancia_vocálica: "e:ie" },
+    meter: {},
+    mirar: {},
+    morder: { alternancia_vocálica: "o:ue" },
+    morir: { modelo: "dormir" },
+    mostrar: { alternancia_vocálica: "o:ue" },
+    mover: { modelo: "mover", alternancia_vocálica: "o:ue" },
+    mujer: {},
+    nacer: {},
+    necesitar: {},
+    negar: { alternancia_vocálica: "e:ie" },
+    nevar: {alternancia_vocálica: "e:ie"},       // FIX: conjugate_only: ["s3"]},
+    notar: {},
+    obligar: {},
+    observar: {},
+    obtener: { modelo: "tener" },
+    ocupar: {},
+    ocurrir: {},
+    ofrecer: {},
+    oler: { alternancia_vocálica: "o:ue" },
+    olvidar: {},
+    organizar: {},
     oír: {
-        // why is this a class?
-        clase_conjugacional: "oír", 
+        // FIX: linguist: why is this a class?
+        modelo: "oír", 
         tema_presente_yo: "oig",
         excepciones_léxicas: {
             reglas: {
@@ -373,23 +531,35 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    oler:          {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    pedir:         {alternancia_vocálica: "e:i"},
-    pensar:        {alternancia_vocálica: "e:ie"},
-    perder:        {alternancia_vocálica: "e:ie"},
-    perseguir:     {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    pervertir:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    plegar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    poblar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
+    oponer: {modelo: "poner"},
+    pagar: {},
+    parecer: {},
+    participar: {},
+    particular: {},
+    partir: {},
+    pasar: {},
+    pedir: { modelo: "pedir", alternancia_vocálica: "e:i" },
+    pegar: {},
+    pensar: { alternancia_vocálica: "e:ie" },
+    perder: { alternancia_vocálica: "e:ie" },
+    permanecer: {},
+    permitir: {},
+    perseguir: { alternancia_vocálica: "e:i" },
+    pertenecer: {},
+    pervertir: { alternancia_vocálica: "e:ie" },
+    pesar: {},
+// piar: { modelo: "vaciar" },
+    platicar: {},
+    plegar: { alternancia_vocálica: "e:ie" },
+    poblar: { alternancia_vocálica: "o:ue" },
     poder: {
         alternancia_vocálica: "o:ue",
         tema_pretérito: "pud",
         tema_futuro: "podr",
-        excepciones_léxicas: {
-            gerundio_tema_cambio_excepcional: "o:u",
-        }
+        excepciones_léxicas: { gerundio_tema_cambio_excepcional: "o:u" }
     },
     poner: {
+        modelo: "poner",
         tema_presente_yo: "pong",
         tema_pretérito: "pus",
         tema_futuro: "pondr",
@@ -401,30 +571,54 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    preferir:      {alternancia_vocálica: "e:ie"},
-    presentir:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    pretender:     {alternancia_vocálica: "e:ie"},
-    prevenir:      {modelo: "venir"},  // añado 27 feb 2026
-    probar:        {alternancia_vocálica: "o:ue"},
-    proferir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    promover:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    proseguir:     {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    provenir:      {modelo: "venir"},  // añado 27 feb 2026
-    quebrar:       {alternancia_vocálica: "e:ie"},
+    popular: {},
+    poseer: {},
+    preferir: { alternancia_vocálica: "e:ie" },
+    preguntar: {},
+    preparar: {},
+    presentar: {},
+    presentir: { alternancia_vocálica: "e:ie" },
+    prestar: {},
+    pretender: {},
+    prevenir: { modelo: "venir" },
+    primer: {},
+    probar: { alternancia_vocálica: "o:ue" },
+    producir: {},
+    proferir: { alternancia_vocálica: "e:ie" },
+    promover: { alternancia_vocálica: "o:ue" },
+    proponer: {},
+    proporcionar: {},
+    proseguir: { alternancia_vocálica: "e:i" },
+    provenir: { modelo: "venir" },
+    provocar: {},
+    quebrar: { alternancia_vocálica: "e:ie" },
+    quedar: {},
     querer: {
+        modelo: "querer",
         tema_pretérito: "quis",
         tema_futuro: "querr",
-        alternancia_vocálica: "e:ie",
+        alternancia_vocálica: "e:ie"
     },
-    recomendar:    {alternancia_vocálica: "e:ie"},
-    recomenzar:    {alternancia_vocálica: "e:ie"},
-    reconvenir:    {modelo: "venir"},  // añado 27 feb 2026
-    recordar:      {alternancia_vocálica: "o:ue"},
-    referir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    reforzar:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    regar:         {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    regir:         {alternancia_vocálica: "e:i"},
+    quitar: {},
+    realizar: {},
+    recibir: {},
+    recoger: {},
+    recomendar: { alternancia_vocálica: "e:ie" },
+    recomenzar: { alternancia_vocálica: "e:ie" },
+    reconocer: {},
+    reconvenir: { modelo: "venir" },
+    recordar: { alternancia_vocálica: "o:ue" },
+    reducir: {},
+// reenviar: { modelo: "vaciar" },
+    referir: { alternancia_vocálica: "e:ie" },
+    reforzar: { alternancia_vocálica: "o:ue" },
+    regar: { alternancia_vocálica: "e:ie" },
+    regir: { alternancia_vocálica: "e:i" },
+    registrar: {},
+    regresar: {},
+    regular: {},
     reír: {
+        modelo: "reír",
         alternancia_vocálica: "e:ie",  // añado po DeepSeek 27 feb 2026
         // alternancia_vocálica: "i:í",  FIX: linguist: is there a vowel change rule?
         excepciones_léxicas: {
@@ -443,31 +637,34 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    remendar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    remorder:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    remover:       {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    rendir:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    reñir:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    renovar:       {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    repercutir:    null,
-    repetir:       {alternancia_vocálica: "e:i"},
-    reprobar:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    requerir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    resolver:      {alternancia_vocálica: "o:ue"},
-    retener:       {modelo: "tener"},  // añado 27 feb 2026
-    reunir:        {alternancia_vocálica: "u:ú"},      // FIX: linguist: can this be handled with accentuation rules?
-    reventar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    revertir:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    revolver:      {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    rodar:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    rogar:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    romper:        {excepciones_léxicas: {participio: "roto"}},
+    remendar: { alternancia_vocálica: "e:ie" },
+    remorder: { alternancia_vocálica: "o:ue" },
+    remover: { alternancia_vocálica: "o:ue" },
+    rendir: { modelo: "pedir" },
+    reñir: { alternancia_vocálica: "e:i" },
+    renovar: { alternancia_vocálica: "o:ue" },
+    repercutir: {},
+    repetir: { alternancia_vocálica: "e:i" },
+    representar: {},
+    reprobar: { alternancia_vocálica: "o:ue" },
+    requerir: { alternancia_vocálica: "e:ie" },
+// resfriar: { modelo: "vaciar" },
+    resolver: { modelo: "mover" },
+    responder: {},
+    resultar: {},
+    retener: { modelo: "tener" },
+    reunir: { alternancia_vocálica: "u:ú" },
+    reventar: { alternancia_vocálica: "e:ie" },
+    revertir: { alternancia_vocálica: "e:ie" },
+    revolver: { modelo: "volver" },
+// rociar: { modelo: "vaciar" },
+    rodar: { alternancia_vocálica: "o:ue" },
+    rogar: { alternancia_vocálica: "o:ue" },
+    romper: { excepciones_léxicas: { participio: "roto" } },
     saber: {
         tema_pretérito: "sup",
         tema_futuro: "sabr",
         excepciones_léxicas: {
-            // ind_pres_yo: "sé",
-            // tema_subjuntivo_yo: "sep",
             reglas: {
                 // similar a caber
                 IndPres: { forms: { s1: ["sé"] } },
@@ -477,29 +674,26 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    salpimentar:   {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
+    sacar: {},
     salir: {
         tema_presente_yo: "salg",
         tema_futuro: "saldr",
-        excepciones_léxicas: {
-            imperativo_tú: "sal"
-        }
+        excepciones_léxicas: { "imperativo_tú": "sal" }
     },
-    // satisfacer:    {modelo: "hacer"},
-
-    // seducir: is this supported?
+    salpimentar: { alternancia_vocálica: "e:ie" },
+    satisfacer:  {modelo: "hacer"},    // FIX: support rules to generate this verb from this list
+    seducir: {},
     seguir: {
-        // NOTE: this does not conjugate as a "-uir" clase infinitive
+        // NOTE: this does not conjugate as a "-uir" clase infinitivo
         tema_presente_yo: "sig",
         alternancia_vocálica: "e:i",
-        excepciones_léxicas: {
-            tema_subjuntivo_yo: "sig"
-        }
+        excepciones_léxicas: { tema_subjuntivo_yo: "sig" }
     },
-    sembrar:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    sentar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    sentir:        {alternancia_vocálica: "e:ie"},
+    sembrar: { alternancia_vocálica: "e:ie" },
+    sentar: { alternancia_vocálica: "e:ie" },
+    sentir: { alternancia_vocálica: "e:ie" },
     ser: {
+        modelo: "ser",
         excepciones_léxicas: {
             supletivo: true,
             reglas: {
@@ -510,27 +704,33 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
                 CmdPos:  { forms: {              s2: ["sé"],     s3: ["sea"],   p1: ["seamos"],                   p3: ["sean"],   vos: null} },
                 CmdNeg:  { tema: "se" },
             }
-
         }
     },
-    serrar:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    servir:        {alternancia_vocálica: "e:i"},
-    sobrevenir:    {modelo: "venir"},  // añado 27 feb 2026
-    sofreír:       {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    soler:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    soldar:        {alternancia_vocálica: "o:ue"},
-    soltar:        {alternancia_vocálica: "o:ue"},
-    sonar:         {alternancia_vocálica: "o:ue"},
-    soñar:         {alternancia_vocálica: "o:ue"},
-    sonreír:       {alternancia_vocálica: "e:i"},  // añado 27 feb 2026
-    sosegar:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    subvenir:      {modelo: "venir"},  // añado 27 feb 2026
-    subvertir:     {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    sugerir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    temblar:       {alternancia_vocálica: "e:ie"},
-    tender:        {alternancia_vocálica: "e:ie"},
+    serrar: { alternancia_vocálica: "e:ie" },
+    servir: { alternancia_vocálica: "e:i" },
+    significar: {},
+    sobrevenir: { modelo: "venir" },
+    sofreír: { modelo: "reír" },
+    soldar: { alternancia_vocálica: "o:ue" },
+    soler: { alternancia_vocálica: "o:ue" },
+    soltar: { alternancia_vocálica: "o:ue" },
+    sonar: { alternancia_vocálica: "o:ue" },
+    soñar: { alternancia_vocálica: "o:ue" },
+    sonreír: { modelo: "reír" },
+    sosegar: { alternancia_vocálica: "e:ie" },
+    sostener: {},
+    subir: {},
+    subvenir: { modelo: "venir" },
+    subvertir: { alternancia_vocálica: "e:ie" },
+    suceder: {},
+    sufrir: {},
+    sugerir: { alternancia_vocálica: "e:ie" },
+    suponer: {},
+    surgir: {},
+    temblar: { alternancia_vocálica: "e:ie" },
+    tender: { alternancia_vocálica: "e:ie" },
     tener: {
-        clase_conjugacional: "tener", 
+        modelo: "tener", 
         tema_presente_yo: "teng",
         tema_pretérito: "tuv",
         tema_futuro: "tendr",
@@ -542,31 +742,36 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    // traducir: is this supported?
-    teñir:         {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    tentar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    torcer:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    tostar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    traer: {
-        tema_presente_yo: "traig",
-        tema_pretérito: "traj",
-    },
-    transcender:   {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    transferir:    {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    trascender:    {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    trasferir:     {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    trocar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    trompezar:     {alternancia_vocálica: "e:ie"},
-    tronar:        {alternancia_vocálica: "o:ue"},  // añado 27 feb 2026
-    tropezar:      {alternancia_vocálica: "e:ie"},
+    tentar: { alternancia_vocálica: "e:ie" },
+    terminar: {},
+    teñir: { alternancia_vocálica: "e:i" },
+    tirar: {},
+    tocar: {},
+    tomar: {},
+    torcer: { alternancia_vocálica: "o:ue" },
+    tostar: { alternancia_vocálica: "o:ue" },
+    trabajar: {},
+    traducir: {},
+    traer: { tema_presente_yo: "traig", tema_pretérito: "traj" },
+    transcender: { alternancia_vocálica: "e:ie" },
+    transferir: { alternancia_vocálica: "e:ie" },
+    trascender: { alternancia_vocálica: "e:ie" },
+    trasferir: { alternancia_vocálica: "e:ie" },
+    tratar: {},
+    trocar: { alternancia_vocálica: "o:ue" },
+    tronar: { alternancia_vocálica: "o:ue" },
+    tropezar: { alternancia_vocálica: "e:ie" },
+    unir: {},
+    usar: {},
+    utilizar: {},
     vaciar: {
+        modelo: "vaciar",
         clase_conjugacional: "-iar",
         // FIX: linguist: The accent is the only thing different from the regular forms
         // Is this due to an orthographic rule? or something else?
         excepciones_léxicas: {
             reglas: {
-                IndPres: {stress_last_char_of_s123p3_stem: true,
-                          suffixes: {           s2: ["as"], s3: ["á"],       p2: ["áis"], p3: ["án"] }},
+                IndPres: {stress_last_char_of_s123p3_stem: true},
                 SubPres: {stress_last_char_of_s123p3_stem: true},
                 CmdPos:  {stress_last_char_of_s123p3_stem: true},
                 CmdNeg:  {stress_last_char_of_s123p3_stem: true,
@@ -574,12 +779,12 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    variar:        {modelo: "vaciar"},
-    valer: {
-        tema_presente_yo: "valg",
-        tema_futuro: "valdr",
-    },
+    vacilar: {},
+    valer: { tema_presente_yo: "valg", tema_futuro: "valdr" },
+    variar: { modelo: "vaciar" },
+    vender: {},
     venir: {
+        modelo: "venir",
         tema_presente_yo: "veng",
         tema_pretérito: "vin",
         tema_futuro: "vendr",
@@ -593,6 +798,7 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
         }
     },
     ver: {
+        modelo: "ver",
         // parece que no conforma bien a estas reglas
         // sí prefijo_ind_pres_yo cambia, pero no con "g", y no con los mismos cambios
         // no aplican ni tema_pretérito ni tema_futuro ni alternancia_vocálica
@@ -621,24 +827,23 @@ export const verbos_con_cambios_morfológicos : {[infinitive: string]: ReglasDeC
             }
         }
     },
-    verter:        {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
-    vestir:        {alternancia_vocálica: "e:i"},
-    volar: {
-        alternancia_vocálica: "o:ue",
-        excepciones_léxicas: {
-            participio: "vuelto",
-        }
-    },
-    volcar:        {alternancia_vocálica: "o:ue"},
-    volver:        {alternancia_vocálica: "o:ue"},
-    zaherir:       {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026
+    verter: { alternancia_vocálica: "e:ie" },
+    vestir: { alternancia_vocálica: "e:i" },
+// vidriar: { modelo: "vaciar" },
+    visitar: {},
+    vivir: {},
+    volar: {alternancia_vocálica: "o:ue"},
+    volcar: { alternancia_vocálica: "o:ue" },
+    volver: { modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "vuelto" } },
+// xerografiar: { modelo: "vaciar" },
+    zaherir: { alternancia_vocálica: "e:ie" }
 }
 
 
 // FIX: restore after refactoring complete
-export function getAnnotations(infinitive: string, modelo: ModeloConjugacional, mood_tense: MoodTense) : VerbConjugationAnnotation {
+export function getAnnotations(infinitivo: string, modelo: ModeloConjugacional, mood_tense: MoodTense) : VerbConjugationAnnotation {
     const annotations: VerbConjugationAnnotation = {version, license, modelo: undefined}
-    // const unconfirmed = !(infinitive in morphophonemic_verb_conjugation_rules) || undefined
+    // const unconfirmed = !(infinitivo in morphophonemic_verb_conjugation_rules) || undefined
     // const annotations: VerbConjugationAnnotation = {model, mood_tense, unconfirmed}
     return annotations
 }

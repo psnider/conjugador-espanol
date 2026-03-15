@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[aβ̞eˈniɾ]",
-  "silabacion": "a-ve-nir",
-  "acentuacion": "aguda",
-  "etimologia": null,
-  "modelos": ["venir","sentir"]
-},
+    "pronunciacion": "[aβ̞eˈniɾ]",
+    "silabacion": "a-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["venir","sentir"]
+  },
   "formas_no_personales": {"infinitivo":"avenir","gerundio":"aviniendo","participio":"avenido"},
   "formas_personales": {
     "IndPres": {"s1":["avengo"],"s2":["avienes"],"vos":["avenís"],"s3":["aviene"],"p1":["avenimos"],"p2":["avenís"],"p3":["avienen"]},

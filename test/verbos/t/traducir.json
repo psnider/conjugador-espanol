@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾað̞uˈsiɾ]",
+    "silabacion": "tra-du-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín traducere.",
+    "modelos": ["producir"]
+  },
+  "formas_no_personales": {"infinitivo":"traducir","gerundio":"traduciendo","participio":"traducido"},
+  "formas_personales": {
+    "IndPres": {"s1":["traduzco"],"s2":["traduces"],"vos":["traducís"],"s3":["traduce"],"p1":["traducimos"],"p2":["traducís"],"p3":["traducen"]},
+    "IndImp": {"s1":["traducía"],"s2":["traducías"],"vos":["traducías"],"s3":["traducía"],"p1":["traducíamos"],"p2":["traducíais"],"p3":["traducían"]},
+    "IndPret": {"s1":["traduje"],"s2":["tradujiste"],"vos":["tradujiste"],"s3":["tradujo"],"p1":["tradujimos"],"p2":["tradujisteis"],"p3":["tradujeron"]},
+    "IndFut": {"s1":["traduciré"],"s2":["traducirás"],"vos":["traducirás"],"s3":["traducirá"],"p1":["traduciremos"],"p2":["traduciréis"],"p3":["traducirán"]},
+    "IndCond": {"s1":["traduciría"],"s2":["traducirías"],"vos":["traducirías"],"s3":["traduciría"],"p1":["traduciríamos"],"p2":["traduciríais"],"p3":["traducirían"]},
+    "SubPres": {"s1":["traduzca"],"s2":["traduzcas"],"vos":["traduzcas","traduzcás"],"s3":["traduzca"],"p1":["traduzcamos"],"p2":["traduzcáis"],"p3":["traduzcan"]},
+    "SubImp": {"s1":["tradujera","tradujese"],"s2":["tradujeras","tradujeses"],"vos":["tradujeras","tradujeses"],"s3":["tradujera","tradujese"],"p1":["tradujéramos","tradujésemos"],"p2":["tradujerais","tradujeseis"],"p3":["tradujeran","tradujesen"]},
+    "SubFut": {"s1":["tradujere"],"s2":["tradujeres"],"vos":["tradujeres"],"s3":["tradujere"],"p1":["tradujéremos"],"p2":["tradujereis"],"p3":["tradujeren"]},
+    "CmdPos": {"s2":["traduce"],"vos":["traducí"],"s3":["traduzca"],"p1":["traduzcamos"],"p2":["traducid"],"p3":["traduzcan"]}
+  }
+}

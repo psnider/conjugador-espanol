@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾet̪ẽn̪ˈd̪eɾ]",
+    "silabacion": "pre-ten-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praetendere.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"pretender","gerundio":"pretendiendo","participio":"pretendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["pretendo"],"s2":["pretendes"],"vos":["pretendés"],"s3":["pretende"],"p1":["pretendemos"],"p2":["pretendéis"],"p3":["pretenden"]},
+    "IndImp": {"s1":["pretendía"],"s2":["pretendías"],"vos":["pretendías"],"s3":["pretendía"],"p1":["pretendíamos"],"p2":["pretendíais"],"p3":["pretendían"]},
+    "IndPret": {"s1":["pretendí"],"s2":["pretendiste"],"vos":["pretendiste"],"s3":["pretendió"],"p1":["pretendimos"],"p2":["pretendisteis"],"p3":["pretendieron"]},
+    "IndFut": {"s1":["pretenderé"],"s2":["pretenderás"],"vos":["pretenderás"],"s3":["pretenderá"],"p1":["pretenderemos"],"p2":["pretenderéis"],"p3":["pretenderán"]},
+    "IndCond": {"s1":["pretendería"],"s2":["pretenderías"],"vos":["pretenderías"],"s3":["pretendería"],"p1":["pretenderíamos"],"p2":["pretenderíais"],"p3":["pretenderían"]},
+    "SubPres": {"s1":["pretenda"],"s2":["pretendas"],"vos":["pretendas","pretendás"],"s3":["pretenda"],"p1":["pretendamos"],"p2":["pretendáis"],"p3":["pretendan"]},
+    "SubImp": {"s1":["pretendiera","pretendiese"],"s2":["pretendieras","pretendieses"],"vos":["pretendieras","pretendieses"],"s3":["pretendiera","pretendiese"],"p1":["pretendiéramos","pretendiésemos"],"p2":["pretendierais","pretendieseis"],"p3":["pretendieran","pretendiesen"]},
+    "SubFut": {"s1":["pretendiere"],"s2":["pretendieres"],"vos":["pretendieres"],"s3":["pretendiere"],"p1":["pretendiéremos"],"p2":["pretendiereis"],"p3":["pretendieren"]},
+    "CmdPos": {"s2":["pretende"],"vos":["pretendé"],"s3":["pretenda"],"p1":["pretendamos"],"p2":["pretended"],"p3":["pretendan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪emosˈt̪ɾaɾ]",
+    "silabacion": "de-mos-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín demonstrāre (\"demostrar, probar\"), compuesto a su vez de la preposición de&nbsp;('desde') y el verbo mōnstrō, mōnstrāre&nbsp;('mostrar').",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"demostrar","gerundio":"demostrando","participio":"demostrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["demuestro"],"s2":["demuestras"],"vos":["demostrás"],"s3":["demuestra"],"p1":["demostramos"],"p2":["demostráis"],"p3":["demuestran"]},
+    "IndImp": {"s1":["demostraba"],"s2":["demostrabas"],"vos":["demostrabas"],"s3":["demostraba"],"p1":["demostrábamos"],"p2":["demostrabais"],"p3":["demostraban"]},
+    "IndPret": {"s1":["demostré"],"s2":["demostraste"],"vos":["demostraste"],"s3":["demostró"],"p1":["demostramos"],"p2":["demostrasteis"],"p3":["demostraron"]},
+    "IndFut": {"s1":["demostraré"],"s2":["demostrarás"],"vos":["demostrarás"],"s3":["demostrará"],"p1":["demostraremos"],"p2":["demostraréis"],"p3":["demostrarán"]},
+    "IndCond": {"s1":["demostraría"],"s2":["demostrarías"],"vos":["demostrarías"],"s3":["demostraría"],"p1":["demostraríamos"],"p2":["demostraríais"],"p3":["demostrarían"]},
+    "SubPres": {"s1":["demuestre"],"s2":["demuestres"],"vos":["demuestres","demostrés"],"s3":["demuestre"],"p1":["demostremos"],"p2":["demostréis"],"p3":["demuestren"]},
+    "SubImp": {"s1":["demostrara","demostrase"],"s2":["demostraras","demostrases"],"vos":["demostraras","demostrases"],"s3":["demostrara","demostrase"],"p1":["demostráramos","demostrásemos"],"p2":["demostrarais","demostraseis"],"p3":["demostraran","demostrasen"]},
+    "SubFut": {"s1":["demostrare"],"s2":["demostrares"],"vos":["demostrares"],"s3":["demostrare"],"p1":["demostráremos"],"p2":["demostrareis"],"p3":["demostraren"]},
+    "CmdPos": {"s2":["demuestra"],"vos":["demostrá"],"s3":["demuestre"],"p1":["demostremos"],"p2":["demostrad"],"p3":["demuestren"]}
+  }
+}

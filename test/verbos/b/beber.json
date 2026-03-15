@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[beˈβ̞eɾ]",
+    "silabacion": "be-ber",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín bibere, del protoindoeuropeo *peh₃-. Compárese el aragonés beber, el catalán beure, el corso bia, el francés boire, el gallego beber, el italiano bere, el occitano beure, el portugués beber, el rumano bea o el siciliano bìviri.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"beber","gerundio":"bebiendo","participio":"bebido"},
+  "formas_personales": {
+    "IndPres": {"s1":["bebo"],"s2":["bebes"],"vos":["bebés"],"s3":["bebe"],"p1":["bebemos"],"p2":["bebéis"],"p3":["beben"]},
+    "IndImp": {"s1":["bebía"],"s2":["bebías"],"vos":["bebías"],"s3":["bebía"],"p1":["bebíamos"],"p2":["bebíais"],"p3":["bebían"]},
+    "IndPret": {"s1":["bebí"],"s2":["bebiste"],"vos":["bebiste"],"s3":["bebió"],"p1":["bebimos"],"p2":["bebisteis"],"p3":["bebieron"]},
+    "IndFut": {"s1":["beberé"],"s2":["beberás"],"vos":["beberás"],"s3":["beberá"],"p1":["beberemos"],"p2":["beberéis"],"p3":["beberán"]},
+    "IndCond": {"s1":["bebería"],"s2":["beberías"],"vos":["beberías"],"s3":["bebería"],"p1":["beberíamos"],"p2":["beberíais"],"p3":["beberían"]},
+    "SubPres": {"s1":["beba"],"s2":["bebas"],"vos":["bebas","bebás"],"s3":["beba"],"p1":["bebamos"],"p2":["bebáis"],"p3":["beban"]},
+    "SubImp": {"s1":["bebiera","bebiese"],"s2":["bebieras","bebieses"],"vos":["bebieras","bebieses"],"s3":["bebiera","bebiese"],"p1":["bebiéramos","bebiésemos"],"p2":["bebierais","bebieseis"],"p3":["bebieran","bebiesen"]},
+    "SubFut": {"s1":["bebiere"],"s2":["bebieres"],"vos":["bebieres"],"s3":["bebiere"],"p1":["bebiéremos"],"p2":["bebiereis"],"p3":["bebieren"]},
+    "CmdPos": {"s2":["bebe"],"vos":["bebé"],"s3":["beba"],"p1":["bebamos"],"p2":["bebed"],"p3":["beban"]}
+  }
+}

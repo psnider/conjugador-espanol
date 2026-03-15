@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskuˈβ̞ɾiɾ]",
+    "silabacion": "des-cu-brir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín discooperīre, compuesto de dis- y cooperīre&nbsp;('cubrir').",
+    "modelos": ["abrir"]
+  },
+  "formas_no_personales": {"infinitivo":"descubrir","gerundio":"descubriendo","participio":"descubierto"},
+  "formas_personales": {
+    "IndPres": {"s1":["descubro"],"s2":["descubres"],"vos":["descubrís"],"s3":["descubre"],"p1":["descubrimos"],"p2":["descubrís"],"p3":["descubren"]},
+    "IndImp": {"s1":["descubría"],"s2":["descubrías"],"vos":["descubrías"],"s3":["descubría"],"p1":["descubríamos"],"p2":["descubríais"],"p3":["descubrían"]},
+    "IndPret": {"s1":["descubrí"],"s2":["descubriste"],"vos":["descubriste"],"s3":["descubrió"],"p1":["descubrimos"],"p2":["descubristeis"],"p3":["descubrieron"]},
+    "IndFut": {"s1":["descubriré"],"s2":["descubrirás"],"vos":["descubrirás"],"s3":["descubrirá"],"p1":["descubriremos"],"p2":["descubriréis"],"p3":["descubrirán"]},
+    "IndCond": {"s1":["descubriría"],"s2":["descubrirías"],"vos":["descubrirías"],"s3":["descubriría"],"p1":["descubriríamos"],"p2":["descubriríais"],"p3":["descubrirían"]},
+    "SubPres": {"s1":["descubra"],"s2":["descubras"],"vos":["descubras","descubrás"],"s3":["descubra"],"p1":["descubramos"],"p2":["descubráis"],"p3":["descubran"]},
+    "SubImp": {"s1":["descubriera","descubriese"],"s2":["descubrieras","descubrieses"],"vos":["descubrieras","descubrieses"],"s3":["descubriera","descubriese"],"p1":["descubriéramos","descubriésemos"],"p2":["descubrierais","descubrieseis"],"p3":["descubrieran","descubriesen"]},
+    "SubFut": {"s1":["descubriere"],"s2":["descubrieres"],"vos":["descubrieres"],"s3":["descubriere"],"p1":["descubriéremos"],"p2":["descubriereis"],"p3":["descubrieren"]},
+    "CmdPos": {"s2":["descubre"],"vos":["descubrí"],"s3":["descubra"],"p1":["descubramos"],"p2":["descubrid"],"p3":["descubran"]}
+  }
+}

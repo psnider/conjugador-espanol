@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪eˈneɾ]",
+    "silabacion": "re-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín retinēre",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"retener","gerundio":"reteniendo","participio":"retenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["retengo"],"s2":["retienes"],"vos":["retenés"],"s3":["retiene"],"p1":["retenemos"],"p2":["retenéis"],"p3":["retienen"]},
+    "IndImp": {"s1":["retenía"],"s2":["retenías"],"vos":["retenías"],"s3":["retenía"],"p1":["reteníamos"],"p2":["reteníais"],"p3":["retenían"]},
+    "IndPret": {"s1":["retuve"],"s2":["retuviste"],"vos":["retuviste"],"s3":["retuvo"],"p1":["retuvimos"],"p2":["retuvisteis"],"p3":["retuvieron"]},
+    "IndFut": {"s1":["retendré"],"s2":["retendrás"],"vos":["retendrás"],"s3":["retendrá"],"p1":["retendremos"],"p2":["retendréis"],"p3":["retendrán"]},
+    "IndCond": {"s1":["retendría"],"s2":["retendrías"],"vos":["retendrías"],"s3":["retendría"],"p1":["retendríamos"],"p2":["retendríais"],"p3":["retendrían"]},
+    "SubPres": {"s1":["retenga"],"s2":["retengas"],"vos":["retengas","retengás"],"s3":["retenga"],"p1":["retengamos"],"p2":["retengáis"],"p3":["retengan"]},
+    "SubImp": {"s1":["retuviera","retuviese"],"s2":["retuvieras","retuvieses"],"vos":["retuvieras","retuvieses"],"s3":["retuviera","retuviese"],"p1":["retuviéramos","retuviésemos"],"p2":["retuvierais","retuvieseis"],"p3":["retuvieran","retuviesen"]},
+    "SubFut": {"s1":["retuviere"],"s2":["retuvieres"],"vos":["retuvieres"],"s3":["retuviere"],"p1":["retuviéremos"],"p2":["retuviereis"],"p3":["retuvieren"]},
+    "CmdPos": {"s2":{"estándar":["retén"],"atípicos":[{"forma":"retiene","etiquetas":["no normativo"]}]},"vos":["retené"],"s3":["retenga"],"p1":["retengamos"],"p2":["retened"],"p3":["retengan"]}
+  }
+}

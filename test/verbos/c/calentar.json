@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kalẽn̪ˈt̪aɾ]",
+    "silabacion": "ca-len-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De caliente y el sufijo -ar.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"calentar","gerundio":"calentando","participio":"calentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["caliento"],"s2":["calientas"],"vos":["calentás"],"s3":["calienta"],"p1":["calentamos"],"p2":["calentáis"],"p3":["calientan"]},
+    "IndImp": {"s1":["calentaba"],"s2":["calentabas"],"vos":["calentabas"],"s3":["calentaba"],"p1":["calentábamos"],"p2":["calentabais"],"p3":["calentaban"]},
+    "IndPret": {"s1":["calenté"],"s2":["calentaste"],"vos":["calentaste"],"s3":["calentó"],"p1":["calentamos"],"p2":["calentasteis"],"p3":["calentaron"]},
+    "IndFut": {"s1":["calentaré"],"s2":["calentarás"],"vos":["calentarás"],"s3":["calentará"],"p1":["calentaremos"],"p2":["calentaréis"],"p3":["calentarán"]},
+    "IndCond": {"s1":["calentaría"],"s2":["calentarías"],"vos":["calentarías"],"s3":["calentaría"],"p1":["calentaríamos"],"p2":["calentaríais"],"p3":["calentarían"]},
+    "SubPres": {"s1":["caliente"],"s2":["calientes"],"vos":["calientes","calentés"],"s3":["caliente"],"p1":["calentemos"],"p2":["calentéis"],"p3":["calienten"]},
+    "SubImp": {"s1":["calentara","calentase"],"s2":["calentaras","calentases"],"vos":["calentaras","calentases"],"s3":["calentara","calentase"],"p1":["calentáramos","calentásemos"],"p2":["calentarais","calentaseis"],"p3":["calentaran","calentasen"]},
+    "SubFut": {"s1":["calentare"],"s2":["calentares"],"vos":["calentares"],"s3":["calentare"],"p1":["calentáremos"],"p2":["calentareis"],"p3":["calentaren"]},
+    "CmdPos": {"s2":["calienta"],"vos":["calentá"],"s3":["caliente"],"p1":["calentemos"],"p2":["calentad"],"p3":["calienten"]}
+  }
+}

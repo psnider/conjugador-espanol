@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾofeˈɾiɾ]",
+    "silabacion": "pro-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín prōferre.[1]",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"proferir","gerundio":"profiriendo","participio":"proferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["profiero"],"s2":["profieres"],"vos":["proferís"],"s3":["profiere"],"p1":["proferimos"],"p2":["proferís"],"p3":["profieren"]},
+    "IndImp": {"s1":["profería"],"s2":["proferías"],"vos":["proferías"],"s3":["profería"],"p1":["proferíamos"],"p2":["proferíais"],"p3":["proferían"]},
+    "IndPret": {"s1":["proferí"],"s2":["proferiste"],"vos":["proferiste"],"s3":["profirió"],"p1":["proferimos"],"p2":["proferisteis"],"p3":["profirieron"]},
+    "IndFut": {"s1":["proferiré"],"s2":["proferirás"],"vos":["proferirás"],"s3":["proferirá"],"p1":["proferiremos"],"p2":["proferiréis"],"p3":["proferirán"]},
+    "IndCond": {"s1":["proferiría"],"s2":["proferirías"],"vos":["proferirías"],"s3":["proferiría"],"p1":["proferiríamos"],"p2":["proferiríais"],"p3":["proferirían"]},
+    "SubPres": {"s1":["profiera"],"s2":["profieras"],"vos":["profieras","profirás"],"s3":["profiera"],"p1":["profiramos"],"p2":["profiráis"],"p3":["profieran"]},
+    "SubImp": {"s1":["profiriera","profiriese"],"s2":["profirieras","profirieses"],"vos":["profirieras","profirieses"],"s3":["profiriera","profiriese"],"p1":["profiriéramos","profiriésemos"],"p2":["profirierais","profirieseis"],"p3":["profirieran","profiriesen"]},
+    "SubFut": {"s1":["profiriere"],"s2":["profirieres"],"vos":["profirieres"],"s3":["profiriere"],"p1":["profiriéremos"],"p2":["profiriereis"],"p3":["profirieren"]},
+    "CmdPos": {"s2":["profiere"],"vos":["proferí"],"s3":["profiera"],"p1":["profiramos"],"p2":["proferid"],"p3":["profieran"]}
+  }
+}

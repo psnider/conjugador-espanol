@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oˈleɾ]",
+    "silabacion": "o-ler",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín olēre.",
+    "modelos": ["oler"]
+  },
+  "formas_no_personales": {"infinitivo":"oler","gerundio":"oliendo","participio":"olido"},
+  "formas_personales": {
+    "IndPres": {"s1":["huelo"],"s2":["hueles"],"vos":["olés"],"s3":["huele"],"p1":["olemos"],"p2":["oléis"],"p3":["huelen"]},
+    "IndImp": {"s1":["olía"],"s2":["olías"],"vos":["olías"],"s3":["olía"],"p1":["olíamos"],"p2":["olíais"],"p3":["olían"]},
+    "IndPret": {"s1":["olí"],"s2":["oliste"],"vos":["oliste"],"s3":["olió"],"p1":["olimos"],"p2":["olisteis"],"p3":["olieron"]},
+    "IndFut": {"s1":["oleré"],"s2":["olerás"],"vos":["olerás"],"s3":["olerá"],"p1":["oleremos"],"p2":["oleréis"],"p3":["olerán"]},
+    "IndCond": {"s1":["olería"],"s2":["olerías"],"vos":["olerías"],"s3":["olería"],"p1":["oleríamos"],"p2":["oleríais"],"p3":["olerían"]},
+    "SubPres": {"s1":["huela"],"s2":["huelas"],"vos":["huelas","olás"],"s3":["huela"],"p1":["olamos"],"p2":["oláis"],"p3":["huelan"]},
+    "SubImp": {"s1":["oliera","oliese"],"s2":["olieras","olieses"],"vos":["olieras","olieses"],"s3":["oliera","oliese"],"p1":["oliéramos","oliésemos"],"p2":["olierais","olieseis"],"p3":["olieran","oliesen"]},
+    "SubFut": {"s1":["oliere"],"s2":["olieres"],"vos":["olieres"],"s3":["oliere"],"p1":["oliéremos"],"p2":["oliereis"],"p3":["olieren"]},
+    "CmdPos": {"s2":["huele"],"vos":["olé"],"s3":["huela"],"p1":["olamos"],"p2":["oled"],"p3":["huelan"]}
+}
+}

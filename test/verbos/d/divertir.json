@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iβ̞eɾˈt̪iɾ]",
+    "silabacion": "di-ver-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"divertir","gerundio":"divirtiendo","participio":"divertido"},
+  "formas_personales": {
+    "IndPres": {"s1":["divierto"],"s2":["diviertes"],"vos":["divertís"],"s3":["divierte"],"p1":["divertimos"],"p2":["divertís"],"p3":["divierten"]},
+    "IndImp": {"s1":["divertía"],"s2":["divertías"],"vos":["divertías"],"s3":["divertía"],"p1":["divertíamos"],"p2":["divertíais"],"p3":["divertían"]},
+    "IndPret": {"s1":["divertí"],"s2":["divertiste"],"vos":["divertiste"],"s3":["divirtió"],"p1":["divertimos"],"p2":["divertisteis"],"p3":["divirtieron"]},
+    "IndFut": {"s1":["divertiré"],"s2":["divertirás"],"vos":["divertirás"],"s3":["divertirá"],"p1":["divertiremos"],"p2":["divertiréis"],"p3":["divertirán"]},
+    "IndCond": {"s1":["divertiría"],"s2":["divertirías"],"vos":["divertirías"],"s3":["divertiría"],"p1":["divertiríamos"],"p2":["divertiríais"],"p3":["divertirían"]},
+    "SubPres": {"s1":["divierta"],"s2":["diviertas"],"vos":["diviertas","divirtás"],"s3":["divierta"],"p1":["divirtamos"],"p2":["divirtáis"],"p3":["diviertan"]},
+    "SubImp": {"s1":["divirtiera","divirtiese"],"s2":["divirtieras","divirtieses"],"vos":["divirtieras","divirtieses"],"s3":["divirtiera","divirtiese"],"p1":["divirtiéramos","divirtiésemos"],"p2":["divirtierais","divirtieseis"],"p3":["divirtieran","divirtiesen"]},
+    "SubFut": {"s1":["divirtiere"],"s2":["divirtieres"],"vos":["divirtieres"],"s3":["divirtiere"],"p1":["divirtiéremos"],"p2":["divirtiereis"],"p3":["divirtieren"]},
+    "CmdPos": {"s2":["divierte"],"vos":["divertí"],"s3":["divierta"],"p1":["divirtamos"],"p2":["divertid"],"p3":["diviertan"]}
+  }
+}

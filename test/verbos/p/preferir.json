@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾefeˈɾiɾ]",
+    "silabacion": "pre-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"preferir","gerundio":"prefiriendo","participio":"preferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["prefiero"],"s2":["prefieres"],"vos":["preferís"],"s3":["prefiere"],"p1":["preferimos"],"p2":["preferís"],"p3":["prefieren"]},
+    "IndImp": {"s1":["prefería"],"s2":["preferías"],"vos":["preferías"],"s3":["prefería"],"p1":["preferíamos"],"p2":["preferíais"],"p3":["preferían"]},
+    "IndPret": {"s1":["preferí"],"s2":["preferiste"],"vos":["preferiste"],"s3":["prefirió"],"p1":["preferimos"],"p2":["preferisteis"],"p3":["prefirieron"]},
+    "IndFut": {"s1":["preferiré"],"s2":["preferirás"],"vos":["preferirás"],"s3":["preferirá"],"p1":["preferiremos"],"p2":["preferiréis"],"p3":["preferirán"]},
+    "IndCond": {"s1":["preferiría"],"s2":["preferirías"],"vos":["preferirías"],"s3":["preferiría"],"p1":["preferiríamos"],"p2":["preferiríais"],"p3":["preferirían"]},
+    "SubPres": {"s1":["prefiera"],"s2":["prefieras"],"vos":["prefieras","prefirás"],"s3":["prefiera"],"p1":["prefiramos"],"p2":["prefiráis"],"p3":["prefieran"]},
+    "SubImp": {"s1":["prefiriera","prefiriese"],"s2":["prefirieras","prefirieses"],"vos":["prefirieras","prefirieses"],"s3":["prefiriera","prefiriese"],"p1":["prefiriéramos","prefiriésemos"],"p2":["prefirierais","prefirieseis"],"p3":["prefirieran","prefiriesen"]},
+    "SubFut": {"s1":["prefiriere"],"s2":["prefirieres"],"vos":["prefirieres"],"s3":["prefiriere"],"p1":["prefiriéremos"],"p2":["prefiriereis"],"p3":["prefirieren"]},
+    "CmdPos": {"s2":["prefiere"],"vos":["preferí"],"s3":["prefiera"],"p1":["prefiramos"],"p2":["preferid"],"p3":["prefieran"]}
+  }
+}

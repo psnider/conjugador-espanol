@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esalẽn̪ˈt̪aɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y alentar.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"desalentar","gerundio":"desalentando","participio":"desalentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desaliento"],"s2":["desalientas"],"vos":["desalentás"],"s3":["desalienta"],"p1":["desalentamos"],"p2":["desalentáis"],"p3":["desalientan"]},
+    "IndImp": {"s1":["desalentaba"],"s2":["desalentabas"],"vos":["desalentabas"],"s3":["desalentaba"],"p1":["desalentábamos"],"p2":["desalentabais"],"p3":["desalentaban"]},
+    "IndPret": {"s1":["desalenté"],"s2":["desalentaste"],"vos":["desalentaste"],"s3":["desalentó"],"p1":["desalentamos"],"p2":["desalentasteis"],"p3":["desalentaron"]},
+    "IndFut": {"s1":["desalentaré"],"s2":["desalentarás"],"vos":["desalentarás"],"s3":["desalentará"],"p1":["desalentaremos"],"p2":["desalentaréis"],"p3":["desalentarán"]},
+    "IndCond": {"s1":["desalentaría"],"s2":["desalentarías"],"vos":["desalentarías"],"s3":["desalentaría"],"p1":["desalentaríamos"],"p2":["desalentaríais"],"p3":["desalentarían"]},
+    "SubPres": {"s1":["desaliente"],"s2":["desalientes"],"vos":["desalientes","desalentés"],"s3":["desaliente"],"p1":["desalentemos"],"p2":["desalentéis"],"p3":["desalienten"]},
+    "SubImp": {"s1":["desalentara","desalentase"],"s2":["desalentaras","desalentases"],"vos":["desalentaras","desalentases"],"s3":["desalentara","desalentase"],"p1":["desalentáramos","desalentásemos"],"p2":["desalentarais","desalentaseis"],"p3":["desalentaran","desalentasen"]},
+    "SubFut": {"s1":["desalentare"],"s2":["desalentares"],"vos":["desalentares"],"s3":["desalentare"],"p1":["desalentáremos"],"p2":["desalentareis"],"p3":["desalentaren"]},
+    "CmdPos": {"s2":["desalienta"],"vos":["desalentá"],"s3":["desaliente"],"p1":["desalentemos"],"p2":["desalentad"],"p3":["desalienten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈraɾ]",
+    "silabacion": "ce-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar serrāre, del latín tardío serare, del latín sera.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"cerrar","gerundio":"cerrando","participio":"cerrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cierro"],"s2":["cierras"],"vos":["cerrás"],"s3":["cierra"],"p1":["cerramos"],"p2":["cerráis"],"p3":["cierran"]},
+    "IndImp": {"s1":["cerraba"],"s2":["cerrabas"],"vos":["cerrabas"],"s3":["cerraba"],"p1":["cerrábamos"],"p2":["cerrabais"],"p3":["cerraban"]},
+    "IndPret": {"s1":["cerré"],"s2":["cerraste"],"vos":["cerraste"],"s3":["cerró"],"p1":["cerramos"],"p2":["cerrasteis"],"p3":["cerraron"]},
+    "IndFut": {"s1":["cerraré"],"s2":["cerrarás"],"vos":["cerrarás"],"s3":["cerrará"],"p1":["cerraremos"],"p2":["cerraréis"],"p3":["cerrarán"]},
+    "IndCond": {"s1":["cerraría"],"s2":["cerrarías"],"vos":["cerrarías"],"s3":["cerraría"],"p1":["cerraríamos"],"p2":["cerraríais"],"p3":["cerrarían"]},
+    "SubPres": {"s1":["cierre"],"s2":["cierres"],"vos":["cierres","cerrés"],"s3":["cierre"],"p1":["cerremos"],"p2":["cerréis"],"p3":["cierren"]},
+    "SubImp": {"s1":["cerrara","cerrase"],"s2":["cerraras","cerrases"],"vos":["cerraras","cerrases"],"s3":["cerrara","cerrase"],"p1":["cerráramos","cerrásemos"],"p2":["cerrarais","cerraseis"],"p3":["cerraran","cerrasen"]},
+    "SubFut": {"s1":["cerrare"],"s2":["cerrares"],"vos":["cerrares"],"s3":["cerrare"],"p1":["cerráremos"],"p2":["cerrareis"],"p3":["cerraren"]},
+    "CmdPos": {"s2":["cierra"],"vos":["cerrá"],"s3":["cierre"],"p1":["cerremos"],"p2":["cerrad"],"p3":["cierren"]}
+  }
+}

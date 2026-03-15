@@ -34,11 +34,10 @@ function validateStemChangePatterns() {
       }
     }
   }
+  console.log(`validated stem_change_patterns[]`)
 }
 
 
 // Call it immediately to find any errors.
 // Según ChatGPT: Código al nivel superior del módulo = constructor del módulo, y we ejecuta una vez y queda cacheado.
 validateStemChangePatterns()
-
-console.log("Just ran validateStemChangePatterns() !!!!!!!!!!!!!!!!!!!!!!!")

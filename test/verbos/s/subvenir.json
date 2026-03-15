@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suβ̞beˈniɾ]",
+    "silabacion": "sub-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín subveniō, subvenīre",
+    "modelos": ["venir","sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"subvenir","gerundio":"subviniendo","participio":"subvenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["subvengo"],"s2":["subvienes"],"vos":["subvenís"],"s3":["subviene"],"p1":["subvenimos"],"p2":["subvenís"],"p3":["subvienen"]},
+    "IndImp": {"s1":["subvenía"],"s2":["subvenías"],"vos":["subvenías"],"s3":["subvenía"],"p1":["subveníamos"],"p2":["subveníais"],"p3":["subvenían"]},
+    "IndPret": {"s1":["subvine"],"s2":["subviniste"],"vos":["subviniste"],"s3":["subvino"],"p1":["subvinimos"],"p2":["subvinisteis"],"p3":["subvinieron"]},
+    "IndFut": {"s1":["subvendré"],"s2":["subvendrás"],"vos":["subvendrás"],"s3":["subvendrá"],"p1":["subvendremos"],"p2":["subvendréis"],"p3":["subvendrán"]},
+    "IndCond": {"s1":["subvendría"],"s2":["subvendrías"],"vos":["subvendrías"],"s3":["subvendría"],"p1":["subvendríamos"],"p2":["subvendríais"],"p3":["subvendrían"]},
+    "SubPres": {"s1":["subvenga"],"s2":["subvengas"],"vos":["subvengas","subvengás"],"s3":["subvenga"],"p1":["subvengamos"],"p2":["subvengáis"],"p3":["subvengan"]},
+    "SubImp": {"s1":["subviniera","subviniese"],"s2":["subvinieras","subvinieses"],"vos":["subvinieras","subvinieses"],"s3":["subviniera","subviniese"],"p1":["subviniéramos","subviniésemos"],"p2":["subvinierais","subvinieseis"],"p3":["subvinieran","subviniesen"]},
+    "SubFut": {"s1":["subviniere"],"s2":["subvinieres"],"vos":["subvinieres"],"s3":["subviniere"],"p1":["subviniéremos"],"p2":["subviniereis"],"p3":["subvinieren"]},
+    "CmdPos": {"s2":{"estándar":["subvén"],"atípicos":[{"forma":"subviene","etiquetas":["no normativo"]}]},"vos":["subvení"],"s3":["subvenga"],"p1":["subvengamos"],"p2":["subvenid"],"p3":["subvengan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmbeˈniɾ]",
+    "silabacion": "con-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín convenire.",
+    "modelos": ["venir","sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"convenir","gerundio":"conviniendo","participio":"convenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["convengo"],"s2":["convienes"],"vos":["convenís"],"s3":["conviene"],"p1":["convenimos"],"p2":["convenís"],"p3":["convienen"]},
+    "IndImp": {"s1":["convenía"],"s2":["convenías"],"vos":["convenías"],"s3":["convenía"],"p1":["conveníamos"],"p2":["conveníais"],"p3":["convenían"]},
+    "IndPret": {"s1":["convine"],"s2":["conviniste"],"vos":["conviniste"],"s3":["convino"],"p1":["convinimos"],"p2":["convinisteis"],"p3":["convinieron"]},
+    "IndFut": {"s1":["convendré"],"s2":["convendrás"],"vos":["convendrás"],"s3":["convendrá"],"p1":["convendremos"],"p2":["convendréis"],"p3":["convendrán"]},
+    "IndCond": {"s1":["convendría"],"s2":["convendrías"],"vos":["convendrías"],"s3":["convendría"],"p1":["convendríamos"],"p2":["convendríais"],"p3":["convendrían"]},
+    "SubPres": {"s1":["convenga"],"s2":["convengas"],"vos":["convengas","convengás"],"s3":["convenga"],"p1":["convengamos"],"p2":["convengáis"],"p3":["convengan"]},
+    "SubImp": {"s1":["conviniera","conviniese"],"s2":["convinieras","convinieses"],"vos":["convinieras","convinieses"],"s3":["conviniera","conviniese"],"p1":["conviniéramos","conviniésemos"],"p2":["convinierais","convinieseis"],"p3":["convinieran","conviniesen"]},
+    "SubFut": {"s1":["conviniere"],"s2":["convinieres"],"vos":["convinieres"],"s3":["conviniere"],"p1":["conviniéremos"],"p2":["conviniereis"],"p3":["convinieren"]},
+    "CmdPos": {"s2":{"estándar":["convén"],"atípicos":[{"forma":"conviene","etiquetas":["no normativo"]}]},"vos":["convení"],"s3":["convenga"],"p1":["convengamos"],"p2":["convenid"],"p3":["convengan"]}
+  }
+}

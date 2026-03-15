@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈmaɾ]",
+    "silabacion": "a-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín amāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amar","gerundio":"amando","participio":"amado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amo"],"s2":["amas"],"vos":["amás"],"s3":["ama"],"p1":["amamos"],"p2":["amáis"],"p3":["aman"]},
+    "IndImp": {"s1":["amaba"],"s2":["amabas"],"vos":["amabas"],"s3":["amaba"],"p1":["amábamos"],"p2":["amabais"],"p3":["amaban"]},
+    "IndPret": {"s1":["amé"],"s2":["amaste"],"vos":["amaste"],"s3":["amó"],"p1":["amamos"],"p2":["amasteis"],"p3":["amaron"]},
+    "IndFut": {"s1":["amaré"],"s2":["amarás"],"vos":["amarás"],"s3":["amará"],"p1":["amaremos"],"p2":["amaréis"],"p3":["amarán"]},
+    "IndCond": {"s1":["amaría"],"s2":["amarías"],"vos":["amarías"],"s3":["amaría"],"p1":["amaríamos"],"p2":["amaríais"],"p3":["amarían"]},
+    "SubPres": {"s1":["ame"],"s2":["ames"],"vos":["ames","amés"],"s3":["ame"],"p1":["amemos"],"p2":["améis"],"p3":["amen"]},
+    "SubImp": {"s1":["amara","amase"],"s2":["amaras","amases"],"vos":["amaras","amases"],"s3":["amara","amase"],"p1":["amáramos","amásemos"],"p2":["amarais","amaseis"],"p3":["amaran","amasen"]},
+    "SubFut": {"s1":["amare"],"s2":["amares"],"vos":["amares"],"s3":["amare"],"p1":["amáremos"],"p2":["amareis"],"p3":["amaren"]},
+    "CmdPos": {"s2":["ama"],"vos":["amá"],"s3":["ame"],"p1":["amemos"],"p2":["amad"],"p3":["amen"]}
+  }
+}

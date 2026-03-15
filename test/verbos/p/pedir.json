@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peˈð̞iɾ]",
+    "silabacion": "pe-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín petere ('solicitar, buscar').",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"pedir","gerundio":"pidiendo","participio":"pedido"},
+  "formas_personales": {
+    "IndPres": {"s1":["pido"],"s2":["pides"],"vos":["pedís"],"s3":["pide"],"p1":["pedimos"],"p2":["pedís"],"p3":["piden"]},
+    "IndImp": {"s1":["pedía"],"s2":["pedías"],"vos":["pedías"],"s3":["pedía"],"p1":["pedíamos"],"p2":["pedíais"],"p3":["pedían"]},
+    "IndPret": {"s1":["pedí"],"s2":["pediste"],"vos":["pediste"],"s3":["pidió"],"p1":["pedimos"],"p2":["pedisteis"],"p3":["pidieron"]},
+    "IndFut": {"s1":["pediré"],"s2":["pedirás"],"vos":["pedirás"],"s3":["pedirá"],"p1":["pediremos"],"p2":["pediréis"],"p3":["pedirán"]},
+    "IndCond": {"s1":["pediría"],"s2":["pedirías"],"vos":["pedirías"],"s3":["pediría"],"p1":["pediríamos"],"p2":["pediríais"],"p3":["pedirían"]},
+    "SubPres": {"s1":["pida"],"s2":["pidas"],"vos":["pidas","pidás"],"s3":["pida"],"p1":["pidamos"],"p2":["pidáis"],"p3":["pidan"]},
+    "SubImp": {"s1":["pidiera","pidiese"],"s2":["pidieras","pidieses"],"vos":["pidieras","pidieses"],"s3":["pidiera","pidiese"],"p1":["pidiéramos","pidiésemos"],"p2":["pidierais","pidieseis"],"p3":["pidieran","pidiesen"]},
+    "SubFut": {"s1":["pidiere"],"s2":["pidieres"],"vos":["pidieres"],"s3":["pidiere"],"p1":["pidiéremos"],"p2":["pidiereis"],"p3":["pidieren"]},
+    "CmdPos": {"s2":["pide"],"vos":["pedí"],"s3":["pida"],"p1":["pidamos"],"p2":["pedid"],"p3":["pidan"]}
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test-verbs-using-saved-conjugations",
+            "program": "${workspaceFolder}/test/test-verbs-using-saved-conjugations.ts",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/generated/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "test-conjugate-verb",
+            "program": "${workspaceFolder}/test/test-conjugate-verb.ts",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/generated/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "wiktionary-scraper",
+            "program": "${workspaceFolder}/test/wiktionary-scraper.ts",
+            "args": ["deshacer"],
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/generated/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}

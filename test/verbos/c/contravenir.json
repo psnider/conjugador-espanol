@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ɾaβ̞eˈniɾ]",
+    "silabacion": "con-tra-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín contravenire.",
+    "modelos": ["venir","sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"contravenir","gerundio":"contraviniendo","participio":"contravenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["contravengo"],"s2":["contravienes"],"vos":["contravenís"],"s3":["contraviene"],"p1":["contravenimos"],"p2":["contravenís"],"p3":["contravienen"]},
+    "IndImp": {"s1":["contravenía"],"s2":["contravenías"],"vos":["contravenías"],"s3":["contravenía"],"p1":["contraveníamos"],"p2":["contraveníais"],"p3":["contravenían"]},
+    "IndPret": {"s1":["contravine"],"s2":["contraviniste"],"vos":["contraviniste"],"s3":["contravino"],"p1":["contravinimos"],"p2":["contravinisteis"],"p3":["contravinieron"]},
+    "IndFut": {"s1":["contravendré"],"s2":["contravendrás"],"vos":["contravendrás"],"s3":["contravendrá"],"p1":["contravendremos"],"p2":["contravendréis"],"p3":["contravendrán"]},
+    "IndCond": {"s1":["contravendría"],"s2":["contravendrías"],"vos":["contravendrías"],"s3":["contravendría"],"p1":["contravendríamos"],"p2":["contravendríais"],"p3":["contravendrían"]},
+    "SubPres": {"s1":["contravenga"],"s2":["contravengas"],"vos":["contravengas","contravengás"],"s3":["contravenga"],"p1":["contravengamos"],"p2":["contravengáis"],"p3":["contravengan"]},
+    "SubImp": {"s1":["contraviniera","contraviniese"],"s2":["contravinieras","contravinieses"],"vos":["contravinieras","contravinieses"],"s3":["contraviniera","contraviniese"],"p1":["contraviniéramos","contraviniésemos"],"p2":["contravinierais","contravinieseis"],"p3":["contravinieran","contraviniesen"]},
+    "SubFut": {"s1":["contraviniere"],"s2":["contravinieres"],"vos":["contravinieres"],"s3":["contraviniere"],"p1":["contraviniéremos"],"p2":["contraviniereis"],"p3":["contravinieren"]},
+    "CmdPos": {"s2":{"estándar":["contravén"],"atípicos":[{"forma":"contraviene","etiquetas":["no normativo"]}]},"vos":["contravení"],"s3":["contravenga"],"p1":["contravengamos"],"p2":["contravenid"],"p3":["contravengan"]}
+  }
+}

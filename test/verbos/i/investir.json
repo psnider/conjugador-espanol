@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmbesˈt̪iɾ]",
+    "silabacion": "in-ves-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín investīre.",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"investir","gerundio":"invistiendo","participio":"investido"},
+  "formas_personales": {
+    "IndPres": {"s1":["invisto"],"s2":["invistes"],"vos":["investís"],"s3":["inviste"],"p1":["investimos"],"p2":["investís"],"p3":["invisten"]},
+    "IndImp": {"s1":["investía"],"s2":["investías"],"vos":["investías"],"s3":["investía"],"p1":["investíamos"],"p2":["investíais"],"p3":["investían"]},
+    "IndPret": {"s1":["investí"],"s2":["investiste"],"vos":["investiste"],"s3":["invistió"],"p1":["investimos"],"p2":["investisteis"],"p3":["invistieron"]},
+    "IndFut": {"s1":["investiré"],"s2":["investirás"],"vos":["investirás"],"s3":["investirá"],"p1":["investiremos"],"p2":["investiréis"],"p3":["investirán"]},
+    "IndCond": {"s1":["investiría"],"s2":["investirías"],"vos":["investirías"],"s3":["investiría"],"p1":["investiríamos"],"p2":["investiríais"],"p3":["investirían"]},
+    "SubPres": {"s1":["invista"],"s2":["invistas"],"vos":["invistas","invistás"],"s3":["invista"],"p1":["invistamos"],"p2":["invistáis"],"p3":["invistan"]},
+    "SubImp": {"s1":["invistiera","invistiese"],"s2":["invistieras","invistieses"],"vos":["invistieras","invistieses"],"s3":["invistiera","invistiese"],"p1":["invistiéramos","invistiésemos"],"p2":["invistierais","invistieseis"],"p3":["invistieran","invistiesen"]},
+    "SubFut": {"s1":["invistiere"],"s2":["invistieres"],"vos":["invistieres"],"s3":["invistiere"],"p1":["invistiéremos"],"p2":["invistiereis"],"p3":["invistieren"]},
+    "CmdPos": {"s2":["inviste"],"vos":["investí"],"s3":["invista"],"p1":["invistamos"],"p2":["investid"],"p3":["invistan"]}
+  }
+}

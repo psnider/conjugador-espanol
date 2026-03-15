@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koˈseɾ]",
+    "silabacion": "co-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín coquere",
+    "modelos": ["mover","cocer"]
+  },
+  "formas_no_personales": {"infinitivo":"cocer","gerundio":"cociendo","participio":"cocido"},
+  "formas_personales": {
+    "IndPres": {"s1":["cuezo"],"s2":["cueces"],"vos":["cocés"],"s3":["cuece"],"p1":["cocemos"],"p2":["cocéis"],"p3":["cuecen"]},
+    "IndImp": {"s1":["cocía"],"s2":["cocías"],"vos":["cocías"],"s3":["cocía"],"p1":["cocíamos"],"p2":["cocíais"],"p3":["cocían"]},
+    "IndPret": {"s1":["cocí"],"s2":["cociste"],"vos":["cociste"],"s3":["coció"],"p1":["cocimos"],"p2":["cocisteis"],"p3":["cocieron"]},
+    "IndFut": {"s1":["coceré"],"s2":["cocerás"],"vos":["cocerás"],"s3":["cocerá"],"p1":["coceremos"],"p2":["coceréis"],"p3":["cocerán"]},
+    "IndCond": {"s1":["cocería"],"s2":["cocerías"],"vos":["cocerías"],"s3":["cocería"],"p1":["coceríamos"],"p2":["coceríais"],"p3":["cocerían"]},
+    "SubPres": {"s1":["cueza"],"s2":["cuezas"],"vos":["cuezas","cozás"],"s3":["cueza"],"p1":["cozamos"],"p2":["cozáis"],"p3":["cuezan"]},
+    "SubImp": {"s1":["cociera","cociese"],"s2":["cocieras","cocieses"],"vos":["cocieras","cocieses"],"s3":["cociera","cociese"],"p1":["cociéramos","cociésemos"],"p2":["cocierais","cocieseis"],"p3":["cocieran","cociesen"]},
+    "SubFut": {"s1":["cociere"],"s2":["cocieres"],"vos":["cocieres"],"s3":["cociere"],"p1":["cociéremos"],"p2":["cociereis"],"p3":["cocieren"]},
+    "CmdPos": {"s2":["cuece"],"vos":["cocé"],"s3":["cueza"],"p1":["cozamos"],"p2":["coced"],"p3":["cuezan"]}
+  }
+}

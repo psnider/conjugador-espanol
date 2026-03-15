@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ẽmˈblaɾ]",
+    "silabacion": "tem-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tremulō, tremulāre, de la raíz indoeuropea *trem-&nbsp;(temblar).",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"temblar","gerundio":"temblando","participio":"temblado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tiemblo"],"s2":["tiemblas"],"vos":["temblás"],"s3":["tiembla"],"p1":["temblamos"],"p2":["tembláis"],"p3":["tiemblan"]},
+    "IndImp": {"s1":["temblaba"],"s2":["temblabas"],"vos":["temblabas"],"s3":["temblaba"],"p1":["temblábamos"],"p2":["temblabais"],"p3":["temblaban"]},
+    "IndPret": {"s1":["temblé"],"s2":["temblaste"],"vos":["temblaste"],"s3":["tembló"],"p1":["temblamos"],"p2":["temblasteis"],"p3":["temblaron"]},
+    "IndFut": {"s1":["temblaré"],"s2":["temblarás"],"vos":["temblarás"],"s3":["temblará"],"p1":["temblaremos"],"p2":["temblaréis"],"p3":["temblarán"]},
+    "IndCond": {"s1":["temblaría"],"s2":["temblarías"],"vos":["temblarías"],"s3":["temblaría"],"p1":["temblaríamos"],"p2":["temblaríais"],"p3":["temblarían"]},
+    "SubPres": {"s1":["tiemble"],"s2":["tiembles"],"vos":["tiembles","temblés"],"s3":["tiemble"],"p1":["temblemos"],"p2":["tembléis"],"p3":["tiemblen"]},
+    "SubImp": {"s1":["temblara","temblase"],"s2":["temblaras","temblases"],"vos":["temblaras","temblases"],"s3":["temblara","temblase"],"p1":["tembláramos","temblásemos"],"p2":["temblarais","temblaseis"],"p3":["temblaran","temblasen"]},
+    "SubFut": {"s1":["temblare"],"s2":["temblares"],"vos":["temblares"],"s3":["temblare"],"p1":["tembláremos"],"p2":["temblareis"],"p3":["temblaren"]},
+    "CmdPos": {"s2":["tiembla"],"vos":["temblá"],"s3":["tiemble"],"p1":["temblemos"],"p2":["temblad"],"p3":["tiemblen"]}
+  }
+}

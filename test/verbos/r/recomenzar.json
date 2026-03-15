@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekomẽnˈsaɾ]",
+    "silabacion": "re-co-men-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y comenzar",
+    "modelos": ["realizar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"recomenzar","gerundio":"recomenzando","participio":"recomenzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["recomienzo"],"s2":["recomienzas"],"vos":["recomenzás"],"s3":["recomienza"],"p1":["recomenzamos"],"p2":["recomenzáis"],"p3":["recomienzan"]},
+    "IndImp": {"s1":["recomenzaba"],"s2":["recomenzabas"],"vos":["recomenzabas"],"s3":["recomenzaba"],"p1":["recomenzábamos"],"p2":["recomenzabais"],"p3":["recomenzaban"]},
+    "IndPret": {"s1":["recomencé"],"s2":["recomenzaste"],"vos":["recomenzaste"],"s3":["recomenzó"],"p1":["recomenzamos"],"p2":["recomenzasteis"],"p3":["recomenzaron"]},
+    "IndFut": {"s1":["recomenzaré"],"s2":["recomenzarás"],"vos":["recomenzarás"],"s3":["recomenzará"],"p1":["recomenzaremos"],"p2":["recomenzaréis"],"p3":["recomenzarán"]},
+    "IndCond": {"s1":["recomenzaría"],"s2":["recomenzarías"],"vos":["recomenzarías"],"s3":["recomenzaría"],"p1":["recomenzaríamos"],"p2":["recomenzaríais"],"p3":["recomenzarían"]},
+    "SubPres": {"s1":["recomience"],"s2":["recomiences"],"vos":["recomiences","recomencés"],"s3":["recomience"],"p1":["recomencemos"],"p2":["recomencéis"],"p3":["recomiencen"]},
+    "SubImp": {"s1":["recomenzara","recomenzase"],"s2":["recomenzaras","recomenzases"],"vos":["recomenzaras","recomenzases"],"s3":["recomenzara","recomenzase"],"p1":["recomenzáramos","recomenzásemos"],"p2":["recomenzarais","recomenzaseis"],"p3":["recomenzaran","recomenzasen"]},
+    "SubFut": {"s1":["recomenzare"],"s2":["recomenzares"],"vos":["recomenzares"],"s3":["recomenzare"],"p1":["recomenzáremos"],"p2":["recomenzareis"],"p3":["recomenzaren"]},
+    "CmdPos": {"s2":["recomienza"],"vos":["recomenzá"],"s3":["recomience"],"p1":["recomencemos"],"p2":["recomenzad"],"p3":["recomiencen"]}
+  }
+}

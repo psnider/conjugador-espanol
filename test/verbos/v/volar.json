@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boˈlaɾ]",
+    "silabacion": "vo-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín volo",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"volar","gerundio":"volando","participio":"volado"},
+  "formas_personales": {
+    "IndPres": {"s1":["vuelo"],"s2":["vuelas"],"vos":["volás"],"s3":["vuela"],"p1":["volamos"],"p2":["voláis"],"p3":["vuelan"]},
+    "IndImp": {"s1":["volaba"],"s2":["volabas"],"vos":["volabas"],"s3":["volaba"],"p1":["volábamos"],"p2":["volabais"],"p3":["volaban"]},
+    "IndPret": {"s1":["volé"],"s2":["volaste"],"vos":["volaste"],"s3":["voló"],"p1":["volamos"],"p2":["volasteis"],"p3":["volaron"]},
+    "IndFut": {"s1":["volaré"],"s2":["volarás"],"vos":["volarás"],"s3":["volará"],"p1":["volaremos"],"p2":["volaréis"],"p3":["volarán"]},
+    "IndCond": {"s1":["volaría"],"s2":["volarías"],"vos":["volarías"],"s3":["volaría"],"p1":["volaríamos"],"p2":["volaríais"],"p3":["volarían"]},
+    "SubPres": {"s1":["vuele"],"s2":["vueles"],"vos":["vueles","volés"],"s3":["vuele"],"p1":["volemos"],"p2":["voléis"],"p3":["vuelen"]},
+    "SubImp": {"s1":["volara","volase"],"s2":["volaras","volases"],"vos":["volaras","volases"],"s3":["volara","volase"],"p1":["voláramos","volásemos"],"p2":["volarais","volaseis"],"p3":["volaran","volasen"]},
+    "SubFut": {"s1":["volare"],"s2":["volares"],"vos":["volares"],"s3":["volare"],"p1":["voláremos"],"p2":["volareis"],"p3":["volaren"]},
+    "CmdPos": {"s2":["vuela"],"vos":["volá"],"s3":["vuele"],"p1":["volemos"],"p2":["volad"],"p3":["vuelen"]}
+  }
+}

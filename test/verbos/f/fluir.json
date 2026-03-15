@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈflwiɾ]",
+    "acentuacion": "monosílaba",
+    "etimologia": "Del latín fluō, fluere (\"fluir\", \"correr\", \"deslizarse\").[2]",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"fluir","gerundio":"fluyendo","participio":"fluido"},
+  "formas_personales": {
+    "IndPres": {"s1":["fluyo"],"s2":["fluyes"],"vos":["fluís"],"s3":["fluye"],"p1":["fluimos"],"p2":["fluís"],"p3":["fluyen"]},
+    "IndImp": {"s1":["fluía"],"s2":["fluías"],"vos":["fluías"],"s3":["fluía"],"p1":["fluíamos"],"p2":["fluíais"],"p3":["fluían"]},
+    "IndPret": {"s1":["fluí"],"s2":["fluiste"],"vos":["fluiste"],"s3":["fluyó"],"p1":["fluimos"],"p2":["fluisteis"],"p3":["fluyeron"]},
+    "IndFut": {"s1":["fluiré"],"s2":["fluirás"],"vos":["fluirás"],"s3":["fluirá"],"p1":["fluiremos"],"p2":["fluiréis"],"p3":["fluirán"]},
+    "IndCond": {"s1":["fluiría"],"s2":["fluirías"],"vos":["fluirías"],"s3":["fluiría"],"p1":["fluiríamos"],"p2":["fluiríais"],"p3":["fluirían"]},
+    "SubPres": {"s1":["fluya"],"s2":["fluyas"],"vos":["fluyas","fluyás"],"s3":["fluya"],"p1":["fluyamos"],"p2":["fluyáis"],"p3":["fluyan"]},
+    "SubImp": {"s1":["fluyera","fluyese"],"s2":["fluyeras","fluyeses"],"vos":["fluyeras","fluyeses"],"s3":["fluyera","fluyese"],"p1":["fluyéramos","fluyésemos"],"p2":["fluyerais","fluyeseis"],"p3":["fluyeran","fluyesen"]},
+    "SubFut": {"s1":["fluyere"],"s2":["fluyeres"],"vos":["fluyeres"],"s3":["fluyere"],"p1":["fluyéremos"],"p2":["fluyereis"],"p3":["fluyeren"]},
+    "CmdPos": {"s2":["fluye"],"vos":["fluí"],"s3":["fluya"],"p1":["fluyamos"],"p2":["fluid"],"p3":["fluyan"]}
+  }
+}

@@ -2,9 +2,9 @@ import { MoodTense, VerbRulesApplied, VerbConjugation, VerbConjugationAnnotated,
 import { getTemaConAlternanciaVocálica } from "./alternancia-vocálica.js"
 import { applyToVerbForms, setStem } from "./lib.js"
 import { moveStress, removeStress } from "./move-stress.js"
-import { applyPrefixes } from "./prefixes.js"
-import { getAncestorRuleSets, getRegularSuffixes, VerbAspectRules } from "./regular-verb-rules.js"
-import { ConjugationAndDerivationRules, resolveConjugationClass } from "./resolve-conjugation-class.js"
+import { aplicaPrefijosClaseConjugacional, aplicaPrefijosProductivos } from "./prefixes.js"
+import { getRegularRules, getRegularSuffixes, VerbAspectRules } from "./regular-verb-rules.js"
+import { ConjugationAndDerivationRules, Prefixes, resolveConjugationClass } from "./resolve-conjugation-class.js"
 import { getTemaFuturo } from "./tema-futuro.js"
 import { getSuffixesForPresenteYo, getTemaPresenteYo } from "./tema-presente-yo.js"
 import { getSuffixesForStrongPretérito, getTemaPretérito } from "./tema-pretérito.js"
@@ -64,34 +64,21 @@ function accumulateChangedForms(base: VerbConjugation, updates: VerbConjugation)
 }
 
 
-export function getPreterite3PStem(conj_and_deriv_rules: ConjugationAndDerivationRules, infinitive: string) {
-    // Must force _conjugateVerb to only consider the conjugable_infinitive
-    const conj_and_derviv_rules_conjugable_only = {...conj_and_deriv_rules, infinitive: conj_and_deriv_rules.conjugable_infinitive}
-    delete conj_and_derviv_rules_conjugable_only.prefixes
-    // FIX: this call is very confusing when debugging. Is there a clean way to get jus the single IndPret.p3 form?
-    const {forms} = _conjugateVerb(conj_and_derviv_rules_conjugable_only, "IndPret")
-    // TODO: is this correct? assuming that there is only ONE form
-    const ustedes_form = forms["p3"][0]
-    const stem = ustedes_form.slice(0, -3)
-    return stem
-}
-
-
 function getTemaRegular(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[]) : VerbConjugationStems {
-    const {conjugable_infinitive} = conj_and_deriv_rules
+    const {infinitivo_sin_prefijos, tema_pretérito_p3} = conj_and_deriv_rules
     const use_infinitive = ancestor_rule_sets[0].add_suffix_to_infinitive || ancestor_rule_sets[1]?.add_suffix_to_infinitive
     const add_suffix_to_preterite_p3_stem = ancestor_rule_sets[0].add_suffix_to_preterite_p3_stem || ancestor_rule_sets[1]?.add_suffix_to_preterite_p3_stem
     const stress_last_char_of_p1_stem = ancestor_rule_sets[0].stress_last_char_of_p1_stem || ancestor_rule_sets[1]?.stress_last_char_of_p1_stem
     const stress_last_char_of_s123p3_stem = ancestor_rule_sets[0].stress_last_char_of_s123p3_stem || ancestor_rule_sets[1]?.stress_last_char_of_s123p3_stem
-    let stem;
+    let stem: string;
     if (use_infinitive) {
-        stem = removeStress(conjugable_infinitive)
+        stem = removeStress(infinitivo_sin_prefijos)
     } else if (add_suffix_to_preterite_p3_stem) {
-        stem = getPreterite3PStem(conj_and_deriv_rules, conjugable_infinitive)
+        stem = tema_pretérito_p3
     } else {
-        stem = conj_and_deriv_rules.conjugable_infinitive.slice(0, -2)
+        stem = conj_and_deriv_rules.infinitivo_sin_prefijos.slice(0, -2)
     }
-    const temas = setStem(stem)
+    const temas = setStem([stem])
     if (stress_last_char_of_p1_stem || stress_last_char_of_s123p3_stem) {
         const stem_w_stressed_last_char = moveStress(stem, {to: stem.length - 1})
         const gramatical_persons: (keyof typeof temas)[] = []
@@ -117,10 +104,23 @@ function stressLastSylableOfP1Stem(temas: VerbConjugationStems) {
 }
 
 
-// get the stems of conjugable_infinitive
+function cambiaTemasDeClaseConjugacional(temas: VerbConjugationStems, prefijos: Prefixes) {
+    let prefijado: VerbConjugationStems = {}
+    for (const key in temas) {
+        const persona_gramatical = key as keyof VerbConjugationStems
+        const formas = temas[persona_gramatical]
+        prefijado[persona_gramatical] = applyToVerbForms(formas, (forma: string) => {
+            const prefijado = aplicaPrefijosClaseConjugacional(forma, prefijos)
+            return prefijado
+        })
+    }
+    return prefijado
+}
+
+
+// get the stems of infinitivo_sin_prefijos
 export function getStems(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[], suffixes: VerbConjugation, rules_applied: VerbRulesApplied[]) : VerbConjugationStems {
-    const {infinitive, verb_family, conjugable_infinitive} = conj_and_deriv_rules
-    const tema_pretérito = conj_and_deriv_rules.morphological_rules?.tema_pretérito
+    const {verb_family, infinitivo_sin_prefijos, tema_pretérito_p3} = conj_and_deriv_rules
     let temas: VerbConjugationStems
     // find the stems without prefixes
     switch (mood_tense) {
@@ -131,10 +131,10 @@ export function getStems(conj_and_deriv_rules: ConjugationAndDerivationRules, mo
     case "SubFut":
         {
             // add_suffix_to_preterite_p3_stem
-            const tema_pretérito_p3 = getPreterite3PStem(conj_and_deriv_rules, conjugable_infinitive)
-            temas = setStem(tema_pretérito_p3)
-            // stress_last_char_of_p1_stem
-            stressLastSylableOfP1Stem(temas)
+            if (tema_pretérito_p3) {
+                temas = setStem([tema_pretérito_p3])
+                stressLastSylableOfP1Stem(temas)
+            }
         }
         break;
     case "IndFut":
@@ -154,21 +154,22 @@ export function getStems(conj_and_deriv_rules: ConjugationAndDerivationRules, mo
         break;
     }
     const temas_regulares = getTemaRegular(conj_and_deriv_rules, mood_tense, ancestor_rule_sets)
-    const temas_cambiados = getStemChanges({conjugable_infinitive, verb_family, mood_tense, suffixes})
+    const temas_cambiados = getStemChanges({infinitivo_sin_prefijos, verb_family, mood_tense, suffixes})
     const regulares_con_temas_cambiados = accumulateChangedForms(temas_regulares, temas_cambiados)
-    const stems = accumulateChangedForms(regulares_con_temas_cambiados, temas)
-    rules_applied.push({stems})
-    return stems
+    const temas_finales = accumulateChangedForms(regulares_con_temas_cambiados, temas)
+    rules_applied.push({stems: temas_finales})
+    return temas_finales
 }
 
 
-export function conjugateVerb(infinitive: string, mood_tense: MoodTense): VerbConjugationAnnotated {
-    console.log(`conjugateVerb(${infinitive}, ${mood_tense})`)
-    const conj_and_deriv_rules = resolveConjugationClass(infinitive)
+export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbConjugationAnnotated {
+    console.log(`conjugateVerb(${infinitivo}, ${mood_tense})`)
+    const conj_and_deriv_rules = resolveConjugationClass(infinitivo)
     if (!conj_and_deriv_rules) {
         return undefined
     }
-    const notes = getAnnotations(infinitive, conj_and_deriv_rules.modelo, mood_tense)
+    const modelo = conj_and_deriv_rules.morphological_rules?.combinados?.modelo
+    const notes = getAnnotations(infinitivo, modelo, mood_tense)
     const {forms, rules_applied} = _conjugateVerb(conj_and_deriv_rules, mood_tense)
     notes.rules_applied = rules_applied
     return { notes, forms }
@@ -177,7 +178,7 @@ export function conjugateVerb(infinitive: string, mood_tense: MoodTense): VerbCo
 
 // The regular_suffixes determine the forms. For example, if the suffix is missing for "s1", then that form is not produced.
 // This also corrects stress accents according to standard Spanish stress rules.
-export function appendSuffixesToStems(infinitive: string, stems: VerbConjugationStems, regular_suffixes: VerbConjugationSuffixes, rules_applied: VerbRulesApplied[]) {
+export function appendSuffixesToStems(infinitivo: string, stems: VerbConjugationStems, regular_suffixes: VerbConjugationSuffixes, rules_applied: VerbRulesApplied[]) {
     function combineStemWithSuffixes(stem: string, suffix_forms: VerbForms) {
         let original_form = stem + suffix_forms[0]
         const combined: VerbForms = [original_form]
@@ -190,7 +191,7 @@ export function appendSuffixesToStems(infinitive: string, stems: VerbConjugation
     let combined_stems_w_suffixes: VerbConjugation = {}
     const suffix_keys = <(keyof VerbConjugationSuffixes)[]> Object.keys(regular_suffixes)
     // if (stem_keys.length !== suffix_keys.length) {
-    //     throw new Error(`infinitive=${infinitive} has stem_keys=${stem_keys} !== suffix_keys=${suffix_keys}`)
+    //     throw new Error(`infinitivo=${infinitivo} has stem_keys=${stem_keys} !== suffix_keys=${suffix_keys}`)
     // }
     for (const key of suffix_keys) {
         const gramatical_person = key as keyof typeof stems
@@ -214,7 +215,7 @@ export function appendSuffixesToStems(infinitive: string, stems: VerbConjugation
 
 
 function getSuffixesForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, forms_to_stress_last_char_of_stem?: (keyof VerbConjugation)[]) : VerbConjugationSuffixes {
-    const exceptional_suffixes_for_mood_tense = {...conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.suffixes}
+    const exceptional_suffixes_for_mood_tense = {...conj_and_deriv_rules?.morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.suffixes}
     if (exceptional_suffixes_for_mood_tense && (forms_to_stress_last_char_of_stem?.length > 0)) {
         for (const gramatical_person of forms_to_stress_last_char_of_stem) {
             const exceptional_suffixes = exceptional_suffixes_for_mood_tense[gramatical_person]
@@ -232,7 +233,7 @@ function getSuffixesForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDer
 
 
 function getPersonsTosStressLastCharOfStem(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : (keyof VerbConjugationStems)[] {
-    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]
+    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]
     const stress_last_char_of_p1_stem = lexical_exceptions_for_suffixes_for_mood_tense?.stress_last_char_of_p1_stem
     const stress_last_char_of_s123p3_stem = lexical_exceptions_for_suffixes_for_mood_tense?.stress_last_char_of_s123p3_stem
     if (stress_last_char_of_p1_stem || stress_last_char_of_s123p3_stem) {
@@ -250,15 +251,17 @@ function getPersonsTosStressLastCharOfStem(conj_and_deriv_rules: ConjugationAndD
 
 function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, stems: VerbConjugationStems, forms_to_stress_last_char_of_stem?: (keyof VerbConjugation)[]) : VerbConjugationStems {
     let exceptional_stems : VerbConjugationStems = {}
-    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]
+    const {morphological_rules, prefixes, tema_pretérito_p3} = conj_and_deriv_rules
+    const lexical_exceptions_for_suffixes_for_mood_tense = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]
     if (lexical_exceptions_for_suffixes_for_mood_tense?.tema) {
-        exceptional_stems = setStem(lexical_exceptions_for_suffixes_for_mood_tense.tema)
+        const tema_base = aplicaPrefijosClaseConjugacional(lexical_exceptions_for_suffixes_for_mood_tense.tema, prefixes)
+        exceptional_stems = setStem([tema_base])
     } else {
         const add_suffix_to_preterite_p3_stem = lexical_exceptions_for_suffixes_for_mood_tense?.add_suffix_to_preterite_p3_stem
         if (add_suffix_to_preterite_p3_stem) {
             // FIX: move this computation to resolveConjugationClass()
-            const stem = getPreterite3PStem(conj_and_deriv_rules, conj_and_deriv_rules.conjugable_infinitive)
-            exceptional_stems = setStem(stem)
+            const stem = tema_pretérito_p3
+            exceptional_stems = setStem([stem])
         }
         if (forms_to_stress_last_char_of_stem?.length > 0) {
             for (const gramatical_person of forms_to_stress_last_char_of_stem) {
@@ -275,7 +278,7 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
 
 
 function getSuffixes(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[], rules_applied: VerbRulesApplied[]) {
-    const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.conjugable_infinitive, mood_tense, ancestor_rule_sets)
+    const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets)
     const strong_pretérito_suffixes = getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense)
     const presente_yo_suffixes = getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense)
     const regular_w_pretérito = accumulateChangedForms(regular_suffixes, strong_pretérito_suffixes)
@@ -308,12 +311,18 @@ function applyLexicalExceptions(conj_and_deriv_rules: ConjugationAndDerivationRu
 
 
 function getLexicalSuplications(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, rules_applied: VerbRulesApplied[]) : VerbConjugation{
+    const {prefixes, morphological_rules} = conj_and_deriv_rules
     const suplicaciones : VerbConjugation = {}
-    const lexical_suplications = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.forms
+    const lexical_suplications = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.forms
     if (lexical_suplications) {
         for (const key in lexical_suplications) {
             const grammatical_person = <keyof VerbConjugation> key
-            suplicaciones[grammatical_person] = lexical_suplications[grammatical_person]
+            const formas_modelo = lexical_suplications[grammatical_person]
+            const formas_base = applyToVerbForms(formas_modelo, (forma) => {
+                const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes)
+                return tema_base
+            })
+            suplicaciones[grammatical_person] = formas_base
         }
     }
     if (Object.keys(suplicaciones).length > 0) {
@@ -324,10 +333,15 @@ function getLexicalSuplications(conj_and_deriv_rules: ConjugationAndDerivationRu
 
 
 function applyImperativoTú(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, formas_finales_sin_prefijos: VerbConjugation, rules_applied: VerbRulesApplied[]) : void {
-    const {morphological_rules} = conj_and_deriv_rules
-    let imperativo_tú = morphological_rules?.excepciones_léxicas?.imperativo_tú
+    const {prefixes, morphological_rules} = conj_and_deriv_rules
+    let imperativo_tú = morphological_rules?.combinados?.excepciones_léxicas?.imperativo_tú
     if (imperativo_tú && (mood_tense === "CmdPos")) {
-        formas_finales_sin_prefijos.s2 = (Array.isArray(imperativo_tú) ? imperativo_tú : [imperativo_tú])
+        const formas_modelo: VerbForms = (Array.isArray(imperativo_tú) ? imperativo_tú : [imperativo_tú])
+        const formas_base = applyToVerbForms(formas_modelo, (forma) => {
+            const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes)
+            return tema_base
+        })
+        formas_finales_sin_prefijos.s2 = formas_base
         rules_applied.push({imperativo_tú: {s2: formas_finales_sin_prefijos.s2}})
     }
 }
@@ -340,35 +354,38 @@ const accentable_two_vowel_sylable_regex = /^[^aeiou]+i(o)[ns]?$/
 
 
 function maintainStressOnLastSylable(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, formas_finales_sin_prefijos: VerbConjugation, rules_applied: VerbRulesApplied[]) {
-    const derivations_preserve_stress = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.derivations?.preserve_stress_from_base
-    if (derivations_preserve_stress) {
-        const maintain_stressed_last_sylable: VerbConjugation = {}
-        for (const grammatical_person of derivations_preserve_stress) {
-            const formas = formas_finales_sin_prefijos[grammatical_person]
-            const stressed = applyToVerbForms(formas, (form) => {
-                let match = form.match(accentable_single_vowel_sylable_regex)
-                if (!match) {
-                    match = form.match(accentable_two_vowel_sylable_regex)
-                }
-                if (match) {
-                    const vowels_index = form.indexOf(match[1])
-                    // FIX: linguist: how to determine where to place the accent
-                    const accented = moveStress(form, {to: vowels_index})
-                    if (accented !== form) {
-                        return accented
+    const {infinitivo, infinitivo_sin_prefijos, morphological_rules} = conj_and_deriv_rules
+    if (infinitivo !== infinitivo_sin_prefijos) {
+        const derivations_preserve_stress = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.derivations?.preserve_stress_from_base
+        if (derivations_preserve_stress) {
+            const maintain_stressed_last_sylable: VerbConjugation = {}
+            for (const grammatical_person of derivations_preserve_stress) {
+                const formas = formas_finales_sin_prefijos[grammatical_person]
+                const stressed = applyToVerbForms(formas, (form) => {
+                    let match = form.match(accentable_single_vowel_sylable_regex)
+                    if (!match) {
+                        match = form.match(accentable_two_vowel_sylable_regex)
                     }
+                    if (match) {
+                        const vowels_index = form.indexOf(match[1])
+                        // FIX: linguist: how to determine where to place the accent
+                        const accented = moveStress(form, {to: vowels_index})
+                        if (accented !== form) {
+                            return accented
+                        }
+                    }
+                })
+                formas[0] = stressed[0] || formas[0]
+                if (formas.length === 2) {
+                    formas[1] = stressed[1] || formas[1]
                 }
-            })
-            formas[0] = stressed[0] || formas[0]
-            if (formas.length === 2) {
-                formas[1] = stressed[1] || formas[1]
+                if (stressed[0] || stressed[1]) {
+                    maintain_stressed_last_sylable[grammatical_person] = stressed
+                }
             }
-            if (stressed[0] || stressed[1]) {
-                maintain_stressed_last_sylable[grammatical_person] = stressed
+            if (Object.keys(maintain_stressed_last_sylable).length > 1) {
+                rules_applied.push({maintain_stressed_last_sylable})
             }
-        }
-        if (Object.keys(maintain_stressed_last_sylable).length > 1) {
-            rules_applied.push({maintain_stressed_last_sylable})
         }
     }
 }
@@ -381,18 +398,19 @@ interface ConjugationResult {
 
 
 export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense): ConjugationResult {
-    const {infinitive, conjugable_infinitive, morphological_rules} = conj_and_deriv_rules
+    const {infinitivo_sin_prefijos, prefixes} = conj_and_deriv_rules
     const rules_applied: VerbRulesApplied[] = []
-    const ancestor_rule_sets = getAncestorRuleSets(infinitive, mood_tense, rules_applied)
+    const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense, rules_applied)
     // resolve suffixes first, as they help determine the forms used by getStems()
     const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, rules_applied)
-    // find the stems, including ste
+    // find the stems, including any prefix changes from the model to the base infinitive
     const stems = getStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, rules_applied)
     applyLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, suffixes, rules_applied) 
     // 8. añadir terminaciones morfológicas
-    const combined_stems_w_suffixes = appendSuffixesToStems(infinitive, stems, suffixes, rules_applied)
+    const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, stems, suffixes, rules_applied)
     // 9. ortografía
-    const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitive, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied)
+    // FIX: this is returning all forms, even unchanged ones
+    const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied)
     const forms_w_orthoography = accumulateChangedForms(combined_stems_w_suffixes, orthography)
     // 11. Supletivo
     const suplicaciones = getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied) 
@@ -402,8 +420,8 @@ export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRul
     if (conj_and_deriv_rules.prefixes) {
         maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_finales_sin_prefijos, rules_applied)
     }
-    // add any prefixes to the stems
-    const prefixed = applyPrefixes(conj_and_deriv_rules, formas_finales_sin_prefijos, rules_applied)
+    // add any remaining prefixes to the stems
+    const prefixed = aplicaPrefijosProductivos(formas_finales_sin_prefijos, prefixes, rules_applied)
     const formas_finales = accumulateChangedForms(formas_finales_sin_prefijos, prefixed)
 
     // only show the "vos" form if it differs from "tú"

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paɾˈt̪iɾ]",
+    "silabacion": "par-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín partire, y este del latín pars, \"parte\", del protoindoeuropeo *pr̥(h₃)tis[1], en última instancia del protoindoeuropeo *ph₃r-, \"dividir\". Compárese el irlandés antiguo rann, \"parte\", el griego antiguo περάω, \"vender\", el lituano pir̃kti, \"comprar\", o el hitita pár-ši-ya-az-zi, \"él divide\".",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"partir","gerundio":"partiendo","participio":"partido"},
+  "formas_personales": {
+    "IndPres": {"s1":["parto"],"s2":["partes"],"vos":["partís"],"s3":["parte"],"p1":["partimos"],"p2":["partís"],"p3":["parten"]},
+    "IndImp": {"s1":["partía"],"s2":["partías"],"vos":["partías"],"s3":["partía"],"p1":["partíamos"],"p2":["partíais"],"p3":["partían"]},
+    "IndPret": {"s1":["partí"],"s2":["partiste"],"vos":["partiste"],"s3":["partió"],"p1":["partimos"],"p2":["partisteis"],"p3":["partieron"]},
+    "IndFut": {"s1":["partiré"],"s2":["partirás"],"vos":["partirás"],"s3":["partirá"],"p1":["partiremos"],"p2":["partiréis"],"p3":["partirán"]},
+    "IndCond": {"s1":["partiría"],"s2":["partirías"],"vos":["partirías"],"s3":["partiría"],"p1":["partiríamos"],"p2":["partiríais"],"p3":["partirían"]},
+    "SubPres": {"s1":["parta"],"s2":["partas"],"vos":["partas","partás"],"s3":["parta"],"p1":["partamos"],"p2":["partáis"],"p3":["partan"]},
+    "SubImp": {"s1":["partiera","partiese"],"s2":["partieras","partieses"],"vos":["partieras","partieses"],"s3":["partiera","partiese"],"p1":["partiéramos","partiésemos"],"p2":["partierais","partieseis"],"p3":["partieran","partiesen"]},
+    "SubFut": {"s1":["partiere"],"s2":["partieres"],"vos":["partieres"],"s3":["partiere"],"p1":["partiéremos"],"p2":["partiereis"],"p3":["partieren"]},
+    "CmdPos": {"s2":["parte"],"vos":["partí"],"s3":["parta"],"p1":["partamos"],"p2":["partid"],"p3":["partan"]}
+  }
+}

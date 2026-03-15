@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnsẽn̪ˈt̪iɾ]",
+    "silabacion": "con-sen-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cōnsentiō, cōnsentīre ('acordar').",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"consentir","gerundio":"consintiendo","participio":"consentido"},
+  "formas_personales": {
+    "IndPres": {"s1":["consiento"],"s2":["consientes"],"vos":["consentís"],"s3":["consiente"],"p1":["consentimos"],"p2":["consentís"],"p3":["consienten"]},
+    "IndImp": {"s1":["consentía"],"s2":["consentías"],"vos":["consentías"],"s3":["consentía"],"p1":["consentíamos"],"p2":["consentíais"],"p3":["consentían"]},
+    "IndPret": {"s1":["consentí"],"s2":["consentiste"],"vos":["consentiste"],"s3":["consintió"],"p1":["consentimos"],"p2":["consentisteis"],"p3":["consintieron"]},
+    "IndFut": {"s1":["consentiré"],"s2":["consentirás"],"vos":["consentirás"],"s3":["consentirá"],"p1":["consentiremos"],"p2":["consentiréis"],"p3":["consentirán"]},
+    "IndCond": {"s1":["consentiría"],"s2":["consentirías"],"vos":["consentirías"],"s3":["consentiría"],"p1":["consentiríamos"],"p2":["consentiríais"],"p3":["consentirían"]},
+    "SubPres": {"s1":["consienta"],"s2":["consientas"],"vos":["consientas","consintás"],"s3":["consienta"],"p1":["consintamos"],"p2":["consintáis"],"p3":["consientan"]},
+    "SubImp": {"s1":["consintiera","consintiese"],"s2":["consintieras","consintieses"],"vos":["consintieras","consintieses"],"s3":["consintiera","consintiese"],"p1":["consintiéramos","consintiésemos"],"p2":["consintierais","consintieseis"],"p3":["consintieran","consintiesen"]},
+    "SubFut": {"s1":["consintiere"],"s2":["consintieres"],"vos":["consintieres"],"s3":["consintiere"],"p1":["consintiéremos"],"p2":["consintiereis"],"p3":["consintieren"]},
+    "CmdPos": {"s2":["consiente"],"vos":["consentí"],"s3":["consienta"],"p1":["consintamos"],"p2":["consentid"],"p3":["consientan"]}
+  }
+}

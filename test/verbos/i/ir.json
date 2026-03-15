@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈiɾ]",
+    "silabacion": "ir",
+    "acentuacion": "monosílaba",
+    "etimologia": "Se documenta por primera vez en 1140. Del castellano antiguo ir ('ir'), y este del latín eo, en última instancia del protoindoeuropeo *h₁ey-. El presente de los tres modos es supletorio, y procede del latín vadere, al haberse perdido en romance las formas correspondientes del latín ire. El indefinido de indicativo y el imperfecto y futuro de subjuntivo son supletorios, procediendo del latín sum o bien del latín fugio.",
+    "modelos": ["ir"]
+  },
+  "formas_no_personales": {"infinitivo":"ir","gerundio":"yendo","participio":"ido"},
+  "formas_personales": {
+    "IndPres": {"s1":["voy"],"s2":["vas"],"vos":["vas"],"s3":["va"],"p1":["vamos"],"p2":["vais"],"p3":["van"]},
+    "IndImp": {"s1":["iba"],"s2":["ibas"],"vos":["ibas"],"s3":["iba"],"p1":["íbamos"],"p2":["ibais"],"p3":["iban"]},
+    "IndPret": {"s1":["fui"],"s2":["fuiste"],"vos":["fuiste"],"s3":["fue"],"p1":["fuimos"],"p2":["fuisteis"],"p3":["fueron"]},
+    "IndFut": {"s1":["iré"],"s2":["irás"],"vos":["irás"],"s3":["irá"],"p1":["iremos"],"p2":["iréis"],"p3":["irán"]},
+    "IndCond": {"s1":["iría"],"s2":["irías"],"vos":["irías"],"s3":["iría"],"p1":["iríamos"],"p2":["iríais"],"p3":["irían"]},
+    "SubPres": {"s1":["vaya"],"s2":["vayas"],"vos":["vayas","vayás"],"s3":["vaya"],"p1":["vayamos"],"p2":["vayáis"],"p3":["vayan"]},
+    "SubImp": {"s1":["fuera","fuese"],"s2":["fueras","fueses"],"vos":["fueras","fueses"],"s3":["fuera","fuese"],"p1":["fuéramos","fuésemos"],"p2":["fuerais","fueseis"],"p3":["fueran","fuesen"]},
+    "SubFut": {"s1":["fuere"],"s2":["fueres"],"vos":["fueres"],"s3":["fuere"],"p1":["fuéremos"],"p2":["fuereis"],"p3":["fueren"]},
+    "CmdPos": {"s2":{"estándar":["ve"],"atípicos":[{"forma":"ves","etiquetas":["no normativo"]}]},"vos":["andá"],"s3":["vaya"],"p1":["vayamos","vamos"],"p2":["id"],"p3":["vayan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seɾˈneɾ]",
+    "silabacion": "cer-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cernere.",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"cerner","gerundio":"cerniendo","participio":"cernido"},
+  "formas_personales": {
+    "IndPres": {"s1":["cierno"],"s2":["ciernes"],"vos":["cernés"],"s3":["cierne"],"p1":["cernemos"],"p2":["cernéis"],"p3":["ciernen"]},
+    "IndImp": {"s1":["cernía"],"s2":["cernías"],"vos":["cernías"],"s3":["cernía"],"p1":["cerníamos"],"p2":["cerníais"],"p3":["cernían"]},
+    "IndPret": {"s1":["cerní"],"s2":["cerniste"],"vos":["cerniste"],"s3":["cernió"],"p1":["cernimos"],"p2":["cernisteis"],"p3":["cernieron"]},
+    "IndFut": {"s1":["cerneré"],"s2":["cernerás"],"vos":["cernerás"],"s3":["cernerá"],"p1":["cerneremos"],"p2":["cerneréis"],"p3":["cernerán"]},
+    "IndCond": {"s1":["cernería"],"s2":["cernerías"],"vos":["cernerías"],"s3":["cernería"],"p1":["cerneríamos"],"p2":["cerneríais"],"p3":["cernerían"]},
+    "SubPres": {"s1":["cierna"],"s2":["ciernas"],"vos":["ciernas","cernás"],"s3":["cierna"],"p1":["cernamos"],"p2":["cernáis"],"p3":["ciernan"]},
+    "SubImp": {"s1":["cerniera","cerniese"],"s2":["cernieras","cernieses"],"vos":["cernieras","cernieses"],"s3":["cerniera","cerniese"],"p1":["cerniéramos","cerniésemos"],"p2":["cernierais","cernieseis"],"p3":["cernieran","cerniesen"]},
+    "SubFut": {"s1":["cerniere"],"s2":["cernieres"],"vos":["cernieres"],"s3":["cerniere"],"p1":["cerniéremos"],"p2":["cerniereis"],"p3":["cernieren"]},
+    "CmdPos": {"s2":["cierne"],"vos":["cerné"],"s3":["cierna"],"p1":["cernamos"],"p2":["cerned"],"p3":["ciernan"]}
+  }
+}

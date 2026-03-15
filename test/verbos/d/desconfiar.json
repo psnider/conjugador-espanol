@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõɱˈfjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y confiar (desde fin S. XV).[2]",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconfiar","gerundio":"desconfiando","participio":"desconfiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desconfío"],"s2":["desconfías"],"vos":["desconfiás"],"s3":["desconfía"],"p1":["desconfiamos"],"p2":["desconfiáis"],"p3":["desconfían"]},
+    "IndImp": {"s1":["desconfiaba"],"s2":["desconfiabas"],"vos":["desconfiabas"],"s3":["desconfiaba"],"p1":["desconfiábamos"],"p2":["desconfiabais"],"p3":["desconfiaban"]},
+    "IndPret": {"s1":["desconfié"],"s2":["desconfiaste"],"vos":["desconfiaste"],"s3":["desconfió"],"p1":["desconfiamos"],"p2":["desconfiasteis"],"p3":["desconfiaron"]},
+    "IndFut": {"s1":["desconfiaré"],"s2":["desconfiarás"],"vos":["desconfiarás"],"s3":["desconfiará"],"p1":["desconfiaremos"],"p2":["desconfiaréis"],"p3":["desconfiarán"]},
+    "IndCond": {"s1":["desconfiaría"],"s2":["desconfiarías"],"vos":["desconfiarías"],"s3":["desconfiaría"],"p1":["desconfiaríamos"],"p2":["desconfiaríais"],"p3":["desconfiarían"]},
+    "SubPres": {"s1":["desconfíe"],"s2":["desconfíes"],"vos":["desconfíes","desconfiés"],"s3":["desconfíe"],"p1":["desconfiemos"],"p2":["desconfiéis"],"p3":["desconfíen"]},
+    "SubImp": {"s1":["desconfiara","desconfiase"],"s2":["desconfiaras","desconfiases"],"vos":["desconfiaras","desconfiases"],"s3":["desconfiara","desconfiase"],"p1":["desconfiáramos","desconfiásemos"],"p2":["desconfiarais","desconfiaseis"],"p3":["desconfiaran","desconfiasen"]},
+    "SubFut": {"s1":["desconfiare"],"s2":["desconfiares"],"vos":["desconfiares"],"s3":["desconfiare"],"p1":["desconfiáremos"],"p2":["desconfiareis"],"p3":["desconfiaren"]},
+    "CmdPos": {"s2":["desconfía"],"vos":["desconfiá"],"s3":["desconfíe"],"p1":["desconfiemos"],"p2":["desconfiad"],"p3":["desconfíen"]}
+  }
+}

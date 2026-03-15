@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾopeˈsaɾ]",
+    "silabacion": "tro-pe-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Acortamiento ((por aféresis)) de entropezar, del latín interpedire ('impedir'), habiendo pasado por el vulgar *interpediare.[2]",
+    "modelos": ["realizar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"tropezar","gerundio":"tropezando","participio":"tropezado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tropiezo"],"s2":["tropiezas"],"vos":["tropezás"],"s3":["tropieza"],"p1":["tropezamos"],"p2":["tropezáis"],"p3":["tropiezan"]},
+    "IndImp": {"s1":["tropezaba"],"s2":["tropezabas"],"vos":["tropezabas"],"s3":["tropezaba"],"p1":["tropezábamos"],"p2":["tropezabais"],"p3":["tropezaban"]},
+    "IndPret": {"s1":["tropecé"],"s2":["tropezaste"],"vos":["tropezaste"],"s3":["tropezó"],"p1":["tropezamos"],"p2":["tropezasteis"],"p3":["tropezaron"]},
+    "IndFut": {"s1":["tropezaré"],"s2":["tropezarás"],"vos":["tropezarás"],"s3":["tropezará"],"p1":["tropezaremos"],"p2":["tropezaréis"],"p3":["tropezarán"]},
+    "IndCond": {"s1":["tropezaría"],"s2":["tropezarías"],"vos":["tropezarías"],"s3":["tropezaría"],"p1":["tropezaríamos"],"p2":["tropezaríais"],"p3":["tropezarían"]},
+    "SubPres": {"s1":["tropiece"],"s2":["tropieces"],"vos":["tropieces","tropecés"],"s3":["tropiece"],"p1":["tropecemos"],"p2":["tropecéis"],"p3":["tropiecen"]},
+    "SubImp": {"s1":["tropezara","tropezase"],"s2":["tropezaras","tropezases"],"vos":["tropezaras","tropezases"],"s3":["tropezara","tropezase"],"p1":["tropezáramos","tropezásemos"],"p2":["tropezarais","tropezaseis"],"p3":["tropezaran","tropezasen"]},
+    "SubFut": {"s1":["tropezare"],"s2":["tropezares"],"vos":["tropezares"],"s3":["tropezare"],"p1":["tropezáremos"],"p2":["tropezareis"],"p3":["tropezaren"]},
+    "CmdPos": {"s2":["tropieza"],"vos":["tropezá"],"s3":["tropiece"],"p1":["tropecemos"],"p2":["tropezad"],"p3":["tropiecen"]}
+  }
+}

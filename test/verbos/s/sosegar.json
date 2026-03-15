@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soseˈɣ̞aɾ]",
+    "silabacion": "so-se-gar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"sosegar","gerundio":"sosegando","participio":"sosegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sosiego"],"s2":["sosiegas"],"vos":["sosegás"],"s3":["sosiega"],"p1":["sosegamos"],"p2":["sosegáis"],"p3":["sosiegan"]},
+    "IndImp": {"s1":["sosegaba"],"s2":["sosegabas"],"vos":["sosegabas"],"s3":["sosegaba"],"p1":["sosegábamos"],"p2":["sosegabais"],"p3":["sosegaban"]},
+    "IndPret": {"s1":["sosegué"],"s2":["sosegaste"],"vos":["sosegaste"],"s3":["sosegó"],"p1":["sosegamos"],"p2":["sosegasteis"],"p3":["sosegaron"]},
+    "IndFut": {"s1":["sosegaré"],"s2":["sosegarás"],"vos":["sosegarás"],"s3":["sosegará"],"p1":["sosegaremos"],"p2":["sosegaréis"],"p3":["sosegarán"]},
+    "IndCond": {"s1":["sosegaría"],"s2":["sosegarías"],"vos":["sosegarías"],"s3":["sosegaría"],"p1":["sosegaríamos"],"p2":["sosegaríais"],"p3":["sosegarían"]},
+    "SubPres": {"s1":["sosiegue"],"s2":["sosiegues"],"vos":["sosiegues","sosegués"],"s3":["sosiegue"],"p1":["soseguemos"],"p2":["soseguéis"],"p3":["sosieguen"]},
+    "SubImp": {"s1":["sosegara","sosegase"],"s2":["sosegaras","sosegases"],"vos":["sosegaras","sosegases"],"s3":["sosegara","sosegase"],"p1":["sosegáramos","sosegásemos"],"p2":["sosegarais","sosegaseis"],"p3":["sosegaran","sosegasen"]},
+    "SubFut": {"s1":["sosegare"],"s2":["sosegares"],"vos":["sosegares"],"s3":["sosegare"],"p1":["sosegáremos"],"p2":["sosegareis"],"p3":["sosegaren"]},
+    "CmdPos": {"s2":["sosiega"],"vos":["sosegá"],"s3":["sosiegue"],"p1":["soseguemos"],"p2":["sosegad"],"p3":["sosieguen"]}
+  }
+}

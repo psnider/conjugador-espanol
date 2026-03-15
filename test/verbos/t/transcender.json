@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsẽn̪ˈd̪eɾ]",
+    "silabacion": "trans-cen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"transcender","gerundio":"transcendiendo","participio":"transcendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["transciendo"],"s2":["transciendes"],"vos":["transcendés"],"s3":["transciende"],"p1":["transcendemos"],"p2":["transcendéis"],"p3":["transcienden"]},
+    "IndImp": {"s1":["transcendía"],"s2":["transcendías"],"vos":["transcendías"],"s3":["transcendía"],"p1":["transcendíamos"],"p2":["transcendíais"],"p3":["transcendían"]},
+    "IndPret": {"s1":["transcendí"],"s2":["transcendiste"],"vos":["transcendiste"],"s3":["transcendió"],"p1":["transcendimos"],"p2":["transcendisteis"],"p3":["transcendieron"]},
+    "IndFut": {"s1":["transcenderé"],"s2":["transcenderás"],"vos":["transcenderás"],"s3":["transcenderá"],"p1":["transcenderemos"],"p2":["transcenderéis"],"p3":["transcenderán"]},
+    "IndCond": {"s1":["transcendería"],"s2":["transcenderías"],"vos":["transcenderías"],"s3":["transcendería"],"p1":["transcenderíamos"],"p2":["transcenderíais"],"p3":["transcenderían"]},
+    "SubPres": {"s1":["transcienda"],"s2":["transciendas"],"vos":["transciendas","transcendás"],"s3":["transcienda"],"p1":["transcendamos"],"p2":["transcendáis"],"p3":["transciendan"]},
+    "SubImp": {"s1":["transcendiera","transcendiese"],"s2":["transcendieras","transcendieses"],"vos":["transcendieras","transcendieses"],"s3":["transcendiera","transcendiese"],"p1":["transcendiéramos","transcendiésemos"],"p2":["transcendierais","transcendieseis"],"p3":["transcendieran","transcendiesen"]},
+    "SubFut": {"s1":["transcendiere"],"s2":["transcendieres"],"vos":["transcendieres"],"s3":["transcendiere"],"p1":["transcendiéremos"],"p2":["transcendiereis"],"p3":["transcendieren"]},
+    "CmdPos": {"s2":["transciende"],"vos":["transcendé"],"s3":["transcienda"],"p1":["transcendamos"],"p2":["transcended"],"p3":["transciendan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnseˈɣ̞iɾ]",
+    "silabacion": "con-se-guir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo con- y seguir, del latín consequi (\"acompañar\", \"buscar\", \"obtener\"), compuesto del prefijo con-&nbsp;('con') y el verbo sequor&nbsp;('seguir'), este del protoindoeuropeo *sekʷ-, con el mismo significado.",
+    "modelos": ["distinguir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"conseguir","gerundio":"consiguiendo","participio":"conseguido"},
+  "formas_personales": {
+    "IndPres": {"s1":["consigo"],"s2":["consigues"],"vos":["conseguís"],"s3":["consigue"],"p1":["conseguimos"],"p2":["conseguís"],"p3":["consiguen"]},
+    "IndImp": {"s1":["conseguía"],"s2":["conseguías"],"vos":["conseguías"],"s3":["conseguía"],"p1":["conseguíamos"],"p2":["conseguíais"],"p3":["conseguían"]},
+    "IndPret": {"s1":["conseguí"],"s2":["conseguiste"],"vos":["conseguiste"],"s3":["consiguió"],"p1":["conseguimos"],"p2":["conseguisteis"],"p3":["consiguieron"]},
+    "IndFut": {"s1":["conseguiré"],"s2":["conseguirás"],"vos":["conseguirás"],"s3":["conseguirá"],"p1":["conseguiremos"],"p2":["conseguiréis"],"p3":["conseguirán"]},
+    "IndCond": {"s1":["conseguiría"],"s2":["conseguirías"],"vos":["conseguirías"],"s3":["conseguiría"],"p1":["conseguiríamos"],"p2":["conseguiríais"],"p3":["conseguirían"]},
+    "SubPres": {"s1":["consiga"],"s2":["consigas"],"vos":["consigas","consigás"],"s3":["consiga"],"p1":["consigamos"],"p2":["consigáis"],"p3":["consigan"]},
+    "SubImp": {"s1":["consiguiera","consiguiese"],"s2":["consiguieras","consiguieses"],"vos":["consiguieras","consiguieses"],"s3":["consiguiera","consiguiese"],"p1":["consiguiéramos","consiguiésemos"],"p2":["consiguierais","consiguieseis"],"p3":["consiguieran","consiguiesen"]},
+    "SubFut": {"s1":["consiguiere"],"s2":["consiguieres"],"vos":["consiguieres"],"s3":["consiguiere"],"p1":["consiguiéremos"],"p2":["consiguiereis"],"p3":["consiguieren"]},
+    "CmdPos": {"s2":["consigue"],"vos":["conseguí"],"s3":["consiga"],"p1":["consigamos"],"p2":["conseguid"],"p3":["consigan"]}
+  }
+}

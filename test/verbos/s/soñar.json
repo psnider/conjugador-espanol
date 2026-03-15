@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soˈɲaɾ]",
+    "silabacion": "so-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín somniāre",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"soñar","gerundio":"soñando","participio":"soñado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sueño"],"s2":["sueñas"],"vos":["soñás"],"s3":["sueña"],"p1":["soñamos"],"p2":["soñáis"],"p3":["sueñan"]},
+    "IndImp": {"s1":["soñaba"],"s2":["soñabas"],"vos":["soñabas"],"s3":["soñaba"],"p1":["soñábamos"],"p2":["soñabais"],"p3":["soñaban"]},
+    "IndPret": {"s1":["soñé"],"s2":["soñaste"],"vos":["soñaste"],"s3":["soñó"],"p1":["soñamos"],"p2":["soñasteis"],"p3":["soñaron"]},
+    "IndFut": {"s1":["soñaré"],"s2":["soñarás"],"vos":["soñarás"],"s3":["soñará"],"p1":["soñaremos"],"p2":["soñaréis"],"p3":["soñarán"]},
+    "IndCond": {"s1":["soñaría"],"s2":["soñarías"],"vos":["soñarías"],"s3":["soñaría"],"p1":["soñaríamos"],"p2":["soñaríais"],"p3":["soñarían"]},
+    "SubPres": {"s1":["sueñe"],"s2":["sueñes"],"vos":["sueñes","soñés"],"s3":["sueñe"],"p1":["soñemos"],"p2":["soñéis"],"p3":["sueñen"]},
+    "SubImp": {"s1":["soñara","soñase"],"s2":["soñaras","soñases"],"vos":["soñaras","soñases"],"s3":["soñara","soñase"],"p1":["soñáramos","soñásemos"],"p2":["soñarais","soñaseis"],"p3":["soñaran","soñasen"]},
+    "SubFut": {"s1":["soñare"],"s2":["soñares"],"vos":["soñares"],"s3":["soñare"],"p1":["soñáremos"],"p2":["soñareis"],"p3":["soñaren"]},
+    "CmdPos": {"s2":["sueña"],"vos":["soñá"],"s3":["sueñe"],"p1":["soñemos"],"p2":["soñad"],"p3":["sueñen"]}
+  }
+}

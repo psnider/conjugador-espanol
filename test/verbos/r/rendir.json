@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rẽn̪ˈd̪iɾ]",
+    "silabacion": "ren-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reddere.[1]",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"rendir","gerundio":"rindiendo","participio":"rendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["rindo"],"s2":["rindes"],"vos":["rendís"],"s3":["rinde"],"p1":["rendimos"],"p2":["rendís"],"p3":["rinden"]},
+    "IndImp": {"s1":["rendía"],"s2":["rendías"],"vos":["rendías"],"s3":["rendía"],"p1":["rendíamos"],"p2":["rendíais"],"p3":["rendían"]},
+    "IndPret": {"s1":["rendí"],"s2":["rendiste"],"vos":["rendiste"],"s3":["rindió"],"p1":["rendimos"],"p2":["rendisteis"],"p3":["rindieron"]},
+    "IndFut": {"s1":["rendiré"],"s2":["rendirás"],"vos":["rendirás"],"s3":["rendirá"],"p1":["rendiremos"],"p2":["rendiréis"],"p3":["rendirán"]},
+    "IndCond": {"s1":["rendiría"],"s2":["rendirías"],"vos":["rendirías"],"s3":["rendiría"],"p1":["rendiríamos"],"p2":["rendiríais"],"p3":["rendirían"]},
+    "SubPres": {"s1":["rinda"],"s2":["rindas"],"vos":["rindas","rindás"],"s3":["rinda"],"p1":["rindamos"],"p2":["rindáis"],"p3":["rindan"]},
+    "SubImp": {"s1":["rindiera","rindiese"],"s2":["rindieras","rindieses"],"vos":["rindieras","rindieses"],"s3":["rindiera","rindiese"],"p1":["rindiéramos","rindiésemos"],"p2":["rindierais","rindieseis"],"p3":["rindieran","rindiesen"]},
+    "SubFut": {"s1":["rindiere"],"s2":["rindieres"],"vos":["rindieres"],"s3":["rindiere"],"p1":["rindiéremos"],"p2":["rindiereis"],"p3":["rindieren"]},
+    "CmdPos": {"s2":["rinde"],"vos":["rendí"],"s3":["rinda"],"p1":["rindamos"],"p2":["rendid"],"p3":["rindan"]}
+  }
+}

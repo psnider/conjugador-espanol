@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sẽn̪ˈt̪iɾ]",
+    "silabacion": "sen-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sentīre, infinitivo presente activo del latín sentio.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"sentir","gerundio":"sintiendo","participio":"sentido"},
+  "formas_personales": {
+    "IndPres": {"s1":["siento"],"s2":["sientes"],"vos":["sentís"],"s3":["siente"],"p1":["sentimos"],"p2":["sentís"],"p3":["sienten"]},
+    "IndImp": {"s1":["sentía"],"s2":["sentías"],"vos":["sentías"],"s3":["sentía"],"p1":["sentíamos"],"p2":["sentíais"],"p3":["sentían"]},
+    "IndPret": {"s1":["sentí"],"s2":["sentiste"],"vos":["sentiste"],"s3":["sintió"],"p1":["sentimos"],"p2":["sentisteis"],"p3":["sintieron"]},
+    "IndFut": {"s1":["sentiré"],"s2":["sentirás"],"vos":["sentirás"],"s3":["sentirá"],"p1":["sentiremos"],"p2":["sentiréis"],"p3":["sentirán"]},
+    "IndCond": {"s1":["sentiría"],"s2":["sentirías"],"vos":["sentirías"],"s3":["sentiría"],"p1":["sentiríamos"],"p2":["sentiríais"],"p3":["sentirían"]},
+    "SubPres": {"s1":["sienta"],"s2":["sientas"],"vos":["sientas","sintás"],"s3":["sienta"],"p1":["sintamos"],"p2":["sintáis"],"p3":["sientan"]},
+    "SubImp": {"s1":["sintiera","sintiese"],"s2":["sintieras","sintieses"],"vos":["sintieras","sintieses"],"s3":["sintiera","sintiese"],"p1":["sintiéramos","sintiésemos"],"p2":["sintierais","sintieseis"],"p3":["sintieran","sintiesen"]},
+    "SubFut": {"s1":["sintiere"],"s2":["sintieres"],"vos":["sintieres"],"s3":["sintiere"],"p1":["sintiéremos"],"p2":["sintiereis"],"p3":["sintieren"]},
+    "CmdPos": {"s2":["siente"],"vos":["sentí"],"s3":["sienta"],"p1":["sintamos"],"p2":["sentid"],"p3":["sientan"]}
+  }
+}

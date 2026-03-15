@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnseˈraɾ]",
+    "silabacion": "en-ce-rrar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"encerrar","gerundio":"encerrando","participio":"encerrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["encierro"],"s2":["encierras"],"vos":["encerrás"],"s3":["encierra"],"p1":["encerramos"],"p2":["encerráis"],"p3":["encierran"]},
+    "IndImp": {"s1":["encerraba"],"s2":["encerrabas"],"vos":["encerrabas"],"s3":["encerraba"],"p1":["encerrábamos"],"p2":["encerrabais"],"p3":["encerraban"]},
+    "IndPret": {"s1":["encerré"],"s2":["encerraste"],"vos":["encerraste"],"s3":["encerró"],"p1":["encerramos"],"p2":["encerrasteis"],"p3":["encerraron"]},
+    "IndFut": {"s1":["encerraré"],"s2":["encerrarás"],"vos":["encerrarás"],"s3":["encerrará"],"p1":["encerraremos"],"p2":["encerraréis"],"p3":["encerrarán"]},
+    "IndCond": {"s1":["encerraría"],"s2":["encerrarías"],"vos":["encerrarías"],"s3":["encerraría"],"p1":["encerraríamos"],"p2":["encerraríais"],"p3":["encerrarían"]},
+    "SubPres": {"s1":["encierre"],"s2":["encierres"],"vos":["encierres","encerrés"],"s3":["encierre"],"p1":["encerremos"],"p2":["encerréis"],"p3":["encierren"]},
+    "SubImp": {"s1":["encerrara","encerrase"],"s2":["encerraras","encerrases"],"vos":["encerraras","encerrases"],"s3":["encerrara","encerrase"],"p1":["encerráramos","encerrásemos"],"p2":["encerrarais","encerraseis"],"p3":["encerraran","encerrasen"]},
+    "SubFut": {"s1":["encerrare"],"s2":["encerrares"],"vos":["encerrares"],"s3":["encerrare"],"p1":["encerráremos"],"p2":["encerrareis"],"p3":["encerraren"]},
+    "CmdPos": {"s2":["encierra"],"vos":["encerrá"],"s3":["encierre"],"p1":["encerremos"],"p2":["encerrad"],"p3":["encierren"]}
+  }
+}

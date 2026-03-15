@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪eˈraɾ]",
+    "silabacion": "des-te-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, tierra y el sufijo -ar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"desterrar","gerundio":"desterrando","participio":"desterrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["destierro"],"s2":["destierras"],"vos":["desterrás"],"s3":["destierra"],"p1":["desterramos"],"p2":["desterráis"],"p3":["destierran"]},
+    "IndImp": {"s1":["desterraba"],"s2":["desterrabas"],"vos":["desterrabas"],"s3":["desterraba"],"p1":["desterrábamos"],"p2":["desterrabais"],"p3":["desterraban"]},
+    "IndPret": {"s1":["desterré"],"s2":["desterraste"],"vos":["desterraste"],"s3":["desterró"],"p1":["desterramos"],"p2":["desterrasteis"],"p3":["desterraron"]},
+    "IndFut": {"s1":["desterraré"],"s2":["desterrarás"],"vos":["desterrarás"],"s3":["desterrará"],"p1":["desterraremos"],"p2":["desterraréis"],"p3":["desterrarán"]},
+    "IndCond": {"s1":["desterraría"],"s2":["desterrarías"],"vos":["desterrarías"],"s3":["desterraría"],"p1":["desterraríamos"],"p2":["desterraríais"],"p3":["desterrarían"]},
+    "SubPres": {"s1":["destierre"],"s2":["destierres"],"vos":["destierres","desterrés"],"s3":["destierre"],"p1":["desterremos"],"p2":["desterréis"],"p3":["destierren"]},
+    "SubImp": {"s1":["desterrara","desterrase"],"s2":["desterraras","desterrases"],"vos":["desterraras","desterrases"],"s3":["desterrara","desterrase"],"p1":["desterráramos","desterrásemos"],"p2":["desterrarais","desterraseis"],"p3":["desterraran","desterrasen"]},
+    "SubFut": {"s1":["desterrare"],"s2":["desterrares"],"vos":["desterrares"],"s3":["desterrare"],"p1":["desterráremos"],"p2":["desterrareis"],"p3":["desterraren"]},
+    "CmdPos": {"s2":["destierra"],"vos":["desterrá"],"s3":["destierre"],"p1":["desterremos"],"p2":["desterrad"],"p3":["destierren"]}
+  }
+}

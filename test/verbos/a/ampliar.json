@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãmˈpljaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ampliāre.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"ampliar","gerundio":"ampliando","participio":"ampliado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amplío"],"s2":["amplías"],"vos":["ampliás"],"s3":["amplía"],"p1":["ampliamos"],"p2":["ampliáis"],"p3":["amplían"]},
+    "IndImp": {"s1":["ampliaba"],"s2":["ampliabas"],"vos":["ampliabas"],"s3":["ampliaba"],"p1":["ampliábamos"],"p2":["ampliabais"],"p3":["ampliaban"]},
+    "IndPret": {"s1":["amplié"],"s2":["ampliaste"],"vos":["ampliaste"],"s3":["amplió"],"p1":["ampliamos"],"p2":["ampliasteis"],"p3":["ampliaron"]},
+    "IndFut": {"s1":["ampliaré"],"s2":["ampliarás"],"vos":["ampliarás"],"s3":["ampliará"],"p1":["ampliaremos"],"p2":["ampliaréis"],"p3":["ampliarán"]},
+    "IndCond": {"s1":["ampliaría"],"s2":["ampliarías"],"vos":["ampliarías"],"s3":["ampliaría"],"p1":["ampliaríamos"],"p2":["ampliaríais"],"p3":["ampliarían"]},
+    "SubPres": {"s1":["amplíe"],"s2":["amplíes"],"vos":["amplíes","ampliés"],"s3":["amplíe"],"p1":["ampliemos"],"p2":["ampliéis"],"p3":["amplíen"]},
+    "SubImp": {"s1":["ampliara","ampliase"],"s2":["ampliaras","ampliases"],"vos":["ampliaras","ampliases"],"s3":["ampliara","ampliase"],"p1":["ampliáramos","ampliásemos"],"p2":["ampliarais","ampliaseis"],"p3":["ampliaran","ampliasen"]},
+    "SubFut": {"s1":["ampliare"],"s2":["ampliares"],"vos":["ampliares"],"s3":["ampliare"],"p1":["ampliáremos"],"p2":["ampliareis"],"p3":["ampliaren"]},
+    "CmdPos": {"s2":["amplía"],"vos":["ampliá"],"s3":["amplíe"],"p1":["ampliemos"],"p2":["ampliad"],"p3":["amplíen"]}
+  }
+}

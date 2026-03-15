@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asẽn̪ˈt̪iɾ]",
+    "silabacion": "a-sen-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín assentīre, infinitivo presente de assentiō (\"aprobar, estar de acuerdo\")",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"asentir","gerundio":"asintiendo","participio":"asentido"},
+  "formas_personales": {
+    "IndPres": {"s1":["asiento"],"s2":["asientes"],"vos":["asentís"],"s3":["asiente"],"p1":["asentimos"],"p2":["asentís"],"p3":["asienten"]},
+    "IndImp": {"s1":["asentía"],"s2":["asentías"],"vos":["asentías"],"s3":["asentía"],"p1":["asentíamos"],"p2":["asentíais"],"p3":["asentían"]},
+    "IndPret": {"s1":["asentí"],"s2":["asentiste"],"vos":["asentiste"],"s3":["asintió"],"p1":["asentimos"],"p2":["asentisteis"],"p3":["asintieron"]},
+    "IndFut": {"s1":["asentiré"],"s2":["asentirás"],"vos":["asentirás"],"s3":["asentirá"],"p1":["asentiremos"],"p2":["asentiréis"],"p3":["asentirán"]},
+    "IndCond": {"s1":["asentiría"],"s2":["asentirías"],"vos":["asentirías"],"s3":["asentiría"],"p1":["asentiríamos"],"p2":["asentiríais"],"p3":["asentirían"]},
+    "SubPres": {"s1":["asienta"],"s2":["asientas"],"vos":["asientas","asintás"],"s3":["asienta"],"p1":["asintamos"],"p2":["asintáis"],"p3":["asientan"]},
+    "SubImp": {"s1":["asintiera","asintiese"],"s2":["asintieras","asintieses"],"vos":["asintieras","asintieses"],"s3":["asintiera","asintiese"],"p1":["asintiéramos","asintiésemos"],"p2":["asintierais","asintieseis"],"p3":["asintieran","asintiesen"]},
+    "SubFut": {"s1":["asintiere"],"s2":["asintieres"],"vos":["asintieres"],"s3":["asintiere"],"p1":["asintiéremos"],"p2":["asintiereis"],"p3":["asintieren"]},
+    "CmdPos": {"s2":["asiente"],"vos":["asentí"],"s3":["asienta"],"p1":["asintamos"],"p2":["asentid"],"p3":["asientan"]}
+  }
+}

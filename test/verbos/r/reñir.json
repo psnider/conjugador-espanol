@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈɲiɾ]",
+    "silabacion": "re-ñir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ringere, y este del clásico ringī.",
+    "modelos": ["gruñir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"reñir","gerundio":"riñendo","participio":"reñido"},
+  "formas_personales": {
+    "IndPres": {"s1":["riño"],"s2":["riñes"],"vos":["reñís"],"s3":["riñe"],"p1":["reñimos"],"p2":["reñís"],"p3":["riñen"]},
+    "IndImp": {"s1":["reñía"],"s2":["reñías"],"vos":["reñías"],"s3":["reñía"],"p1":["reñíamos"],"p2":["reñíais"],"p3":["reñían"]},
+    "IndPret": {"s1":["reñí"],"s2":["reñiste"],"vos":["reñiste"],"s3":["riñó"],"p1":["reñimos"],"p2":["reñisteis"],"p3":["riñeron"]},
+    "IndFut": {"s1":["reñiré"],"s2":["reñirás"],"vos":["reñirás"],"s3":["reñirá"],"p1":["reñiremos"],"p2":["reñiréis"],"p3":["reñirán"]},
+    "IndCond": {"s1":["reñiría"],"s2":["reñirías"],"vos":["reñirías"],"s3":["reñiría"],"p1":["reñiríamos"],"p2":["reñiríais"],"p3":["reñirían"]},
+    "SubPres": {"s1":["riña"],"s2":["riñas"],"vos":["riñas","riñás"],"s3":["riña"],"p1":["riñamos"],"p2":["riñáis"],"p3":["riñan"]},
+    "SubImp": {"s1":["riñera","riñese"],"s2":["riñeras","riñeses"],"vos":["riñeras","riñeses"],"s3":["riñera","riñese"],"p1":["riñéramos","riñésemos"],"p2":["riñerais","riñeseis"],"p3":["riñeran","riñesen"]},
+    "SubFut": {"s1":["riñere"],"s2":["riñeres"],"vos":["riñeres"],"s3":["riñere"],"p1":["riñéremos"],"p2":["riñereis"],"p3":["riñeren"]},
+    "CmdPos": {"s2":["riñe"],"vos":["reñí"],"s3":["riña"],"p1":["riñamos"],"p2":["reñid"],"p3":["riñan"]}
+  }
+}

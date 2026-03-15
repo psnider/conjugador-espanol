@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈxiɾ]",
+    "silabacion": "re-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Semicultismo. Del latín regĕre",
+    "modelos": ["dirigir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"regir","gerundio":"rigiendo","participio":"regido"},
+  "formas_personales": {
+    "IndPres": {"s1":["rijo"],"s2":["riges"],"vos":["regís"],"s3":["rige"],"p1":["regimos"],"p2":["regís"],"p3":["rigen"]},
+    "IndImp": {"s1":["regía"],"s2":["regías"],"vos":["regías"],"s3":["regía"],"p1":["regíamos"],"p2":["regíais"],"p3":["regían"]},
+    "IndPret": {"s1":["regí"],"s2":["registe"],"vos":["registe"],"s3":["rigió"],"p1":["regimos"],"p2":["registeis"],"p3":["rigieron"]},
+    "IndFut": {"s1":["regiré"],"s2":["regirás"],"vos":["regirás"],"s3":["regirá"],"p1":["regiremos"],"p2":["regiréis"],"p3":["regirán"]},
+    "IndCond": {"s1":["regiría"],"s2":["regirías"],"vos":["regirías"],"s3":["regiría"],"p1":["regiríamos"],"p2":["regiríais"],"p3":["regirían"]},
+    "SubPres": {"s1":["rija"],"s2":["rijas"],"vos":["rijas","rijás"],"s3":["rija"],"p1":["rijamos"],"p2":["rijáis"],"p3":["rijan"]},
+    "SubImp": {"s1":["rigiera","rigiese"],"s2":["rigieras","rigieses"],"vos":["rigieras","rigieses"],"s3":["rigiera","rigiese"],"p1":["rigiéramos","rigiésemos"],"p2":["rigierais","rigieseis"],"p3":["rigieran","rigiesen"]},
+    "SubFut": {"s1":["rigiere"],"s2":["rigieres"],"vos":["rigieres"],"s3":["rigiere"],"p1":["rigiéremos"],"p2":["rigiereis"],"p3":["rigieren"]},
+    "CmdPos": {"s2":["rige"],"vos":["regí"],"s3":["rija"],"p1":["rijamos"],"p2":["regid"],"p3":["rijan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪efeˈɾiɾ]",
+    "silabacion": "de-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"deferir","gerundio":"defiriendo","participio":"deferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["defiero"],"s2":["defieres"],"vos":["deferís"],"s3":["defiere"],"p1":["deferimos"],"p2":["deferís"],"p3":["defieren"]},
+    "IndImp": {"s1":["defería"],"s2":["deferías"],"vos":["deferías"],"s3":["defería"],"p1":["deferíamos"],"p2":["deferíais"],"p3":["deferían"]},
+    "IndPret": {"s1":["deferí"],"s2":["deferiste"],"vos":["deferiste"],"s3":["defirió"],"p1":["deferimos"],"p2":["deferisteis"],"p3":["defirieron"]},
+    "IndFut": {"s1":["deferiré"],"s2":["deferirás"],"vos":["deferirás"],"s3":["deferirá"],"p1":["deferiremos"],"p2":["deferiréis"],"p3":["deferirán"]},
+    "IndCond": {"s1":["deferiría"],"s2":["deferirías"],"vos":["deferirías"],"s3":["deferiría"],"p1":["deferiríamos"],"p2":["deferiríais"],"p3":["deferirían"]},
+    "SubPres": {"s1":["defiera"],"s2":["defieras"],"vos":["defieras","defirás"],"s3":["defiera"],"p1":["defiramos"],"p2":["defiráis"],"p3":["defieran"]},
+    "SubImp": {"s1":["defiriera","defiriese"],"s2":["defirieras","defirieses"],"vos":["defirieras","defirieses"],"s3":["defiriera","defiriese"],"p1":["defiriéramos","defiriésemos"],"p2":["defirierais","defirieseis"],"p3":["defirieran","defiriesen"]},
+    "SubFut": {"s1":["defiriere"],"s2":["defirieres"],"vos":["defirieres"],"s3":["defiriere"],"p1":["defiriéremos"],"p2":["defiriereis"],"p3":["defirieren"]},
+    "CmdPos": {"s2":["defiere"],"vos":["deferí"],"s3":["defiera"],"p1":["defiramos"],"p2":["deferid"],"p3":["defieran"]}
+  }
+}

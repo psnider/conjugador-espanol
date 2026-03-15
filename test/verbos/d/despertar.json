@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espeɾˈt̪aɾ]",
+    "silabacion": "des-per-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De despierto",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"despertar","gerundio":"despertando","participio":"despertado"},
+  "formas_personales": {
+    "IndPres": {"s1":["despierto"],"s2":["despiertas"],"vos":["despertás"],"s3":["despierta"],"p1":["despertamos"],"p2":["despertáis"],"p3":["despiertan"]},
+    "IndImp": {"s1":["despertaba"],"s2":["despertabas"],"vos":["despertabas"],"s3":["despertaba"],"p1":["despertábamos"],"p2":["despertabais"],"p3":["despertaban"]},
+    "IndPret": {"s1":["desperté"],"s2":["despertaste"],"vos":["despertaste"],"s3":["despertó"],"p1":["despertamos"],"p2":["despertasteis"],"p3":["despertaron"]},
+    "IndFut": {"s1":["despertaré"],"s2":["despertarás"],"vos":["despertarás"],"s3":["despertará"],"p1":["despertaremos"],"p2":["despertaréis"],"p3":["despertarán"]},
+    "IndCond": {"s1":["despertaría"],"s2":["despertarías"],"vos":["despertarías"],"s3":["despertaría"],"p1":["despertaríamos"],"p2":["despertaríais"],"p3":["despertarían"]},
+    "SubPres": {"s1":["despierte"],"s2":["despiertes"],"vos":["despiertes","despertés"],"s3":["despierte"],"p1":["despertemos"],"p2":["despertéis"],"p3":["despierten"]},
+    "SubImp": {"s1":["despertara","despertase"],"s2":["despertaras","despertases"],"vos":["despertaras","despertases"],"s3":["despertara","despertase"],"p1":["despertáramos","despertásemos"],"p2":["despertarais","despertaseis"],"p3":["despertaran","despertasen"]},
+    "SubFut": {"s1":["despertare"],"s2":["despertares"],"vos":["despertares"],"s3":["despertare"],"p1":["despertáremos"],"p2":["despertareis"],"p3":["despertaren"]},
+    "CmdPos": {"s2":["despierta"],"vos":["despertá"],"s3":["despierte"],"p1":["despertemos"],"p2":["despertad"],"p3":["despierten"]}
+  }
+}

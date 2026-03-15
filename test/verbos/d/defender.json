@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪efẽn̪ˈd̪eɾ]",
+    "silabacion": "de-fen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín defendere[1], y este del latín *fendere[2], del protoindoeuropeo *gʷʰen-. Compárese el catalán defendre, el dalmático defendar, el francés défendre, el italiano difendere o el portugués defender.",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"defender","gerundio":"defendiendo","participio":"defendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["defiendo"],"s2":["defiendes"],"vos":["defendés"],"s3":["defiende"],"p1":["defendemos"],"p2":["defendéis"],"p3":["defienden"]},
+    "IndImp": {"s1":["defendía"],"s2":["defendías"],"vos":["defendías"],"s3":["defendía"],"p1":["defendíamos"],"p2":["defendíais"],"p3":["defendían"]},
+    "IndPret": {"s1":["defendí"],"s2":["defendiste"],"vos":["defendiste"],"s3":["defendió"],"p1":["defendimos"],"p2":["defendisteis"],"p3":["defendieron"]},
+    "IndFut": {"s1":["defenderé"],"s2":["defenderás"],"vos":["defenderás"],"s3":["defenderá"],"p1":["defenderemos"],"p2":["defenderéis"],"p3":["defenderán"]},
+    "IndCond": {"s1":["defendería"],"s2":["defenderías"],"vos":["defenderías"],"s3":["defendería"],"p1":["defenderíamos"],"p2":["defenderíais"],"p3":["defenderían"]},
+    "SubPres": {"s1":["defienda"],"s2":["defiendas"],"vos":["defiendas","defendás"],"s3":["defienda"],"p1":["defendamos"],"p2":["defendáis"],"p3":["defiendan"]},
+    "SubImp": {"s1":["defendiera","defendiese"],"s2":["defendieras","defendieses"],"vos":["defendieras","defendieses"],"s3":["defendiera","defendiese"],"p1":["defendiéramos","defendiésemos"],"p2":["defendierais","defendieseis"],"p3":["defendieran","defendiesen"]},
+    "SubFut": {"s1":["defendiere"],"s2":["defendieres"],"vos":["defendieres"],"s3":["defendiere"],"p1":["defendiéremos"],"p2":["defendiereis"],"p3":["defendieren"]},
+    "CmdPos": {"s2":["defiende"],"vos":["defendé"],"s3":["defienda"],"p1":["defendamos"],"p2":["defended"],"p3":["defiendan"]}
+  }
+}

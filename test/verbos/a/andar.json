@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãn̪ˈd̪aɾ]",
+    "silabacion": "an-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ambulare. El origen del pretérito indefinido, del español hube, hubiera, hubiere (verbo haber).",
+    "modelos": ["andar"]
+  },
+  "formas_no_personales": {"infinitivo":"andar","gerundio":"andando","participio":"andado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ando"],"s2":["andas"],"vos":["andás"],"s3":["anda"],"p1":["andamos"],"p2":["andáis"],"p3":["andan"]},
+    "IndImp": {"s1":["andaba"],"s2":["andabas"],"vos":["andabas"],"s3":["andaba"],"p1":["andábamos"],"p2":["andabais"],"p3":["andaban"]},
+    "IndPret": {"s1":{"estándar":["anduve"],"atípicos":[{"forma":"andé","etiquetas":["no normativo"]}]},"s2":{"estándar":["anduviste"],"atípicos":[{"forma":"andaste","etiquetas":["no normativo"]}]},"vos":{"estándar":["anduviste"],"atípicos":[{"forma":"andaste","etiquetas":["no normativo"]}]},"s3":{"estándar":["anduvo"],"atípicos":[{"forma":"andó","etiquetas":["no normativo"]}]},"p1":{"estándar":["anduvimos"],"atípicos":[{"forma":"andamos","etiquetas":["no normativo"]}]},"p2":{"estándar":["anduvisteis"],"atípicos":[{"forma":"andasteis","etiquetas":["no normativo"]}]},"p3":{"estándar":["anduvieron"],"atípicos":[{"forma":"andaron","etiquetas":["no normativo"]}]}},
+    "IndFut": {"s1":["andaré"],"s2":["andarás"],"vos":["andarás"],"s3":["andará"],"p1":["andaremos"],"p2":["andaréis"],"p3":["andarán"]},
+    "IndCond": {"s1":["andaría"],"s2":["andarías"],"vos":["andarías"],"s3":["andaría"],"p1":["andaríamos"],"p2":["andaríais"],"p3":["andarían"]},
+    "SubPres": {"s1":["ande"],"s2":["andes"],"vos":["andes","andés"],"s3":["ande"],"p1":["andemos"],"p2":["andéis"],"p3":["anden"]},
+    "SubImp": {"s1":["anduviera","anduviese"],"s2":["anduvieras","anduvieses"],"vos":["anduvieras","anduvieses"],"s3":["anduviera","anduviese"],"p1":["anduviéramos","anduviésemos"],"p2":["anduvierais","anduvieseis"],"p3":["anduvieran","anduviesen"]},
+    "SubFut": {"s1":["anduviere"],"s2":["anduvieres"],"vos":["anduvieres"],"s3":["anduviere"],"p1":["anduviéremos"],"p2":["anduviereis"],"p3":["anduvieren"]},
+    "CmdPos": {"s2":["anda"],"vos":["andá"],"s3":["ande"],"p1":["andemos"],"p2":["andad"],"p3":["anden"]}
+  }
+}

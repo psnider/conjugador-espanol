@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[neˈɣ̞aɾ]",
+    "silabacion": "ne-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín negāre.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"negar","gerundio":"negando","participio":"negado"},
+  "formas_personales": {
+    "IndPres": {"s1":["niego"],"s2":["niegas"],"vos":["negás"],"s3":["niega"],"p1":["negamos"],"p2":["negáis"],"p3":["niegan"]},
+    "IndImp": {"s1":["negaba"],"s2":["negabas"],"vos":["negabas"],"s3":["negaba"],"p1":["negábamos"],"p2":["negabais"],"p3":["negaban"]},
+    "IndPret": {"s1":["negué"],"s2":["negaste"],"vos":["negaste"],"s3":["negó"],"p1":["negamos"],"p2":["negasteis"],"p3":["negaron"]},
+    "IndFut": {"s1":["negaré"],"s2":["negarás"],"vos":["negarás"],"s3":["negará"],"p1":["negaremos"],"p2":["negaréis"],"p3":["negarán"]},
+    "IndCond": {"s1":["negaría"],"s2":["negarías"],"vos":["negarías"],"s3":["negaría"],"p1":["negaríamos"],"p2":["negaríais"],"p3":["negarían"]},
+    "SubPres": {"s1":["niegue"],"s2":["niegues"],"vos":["niegues","negués"],"s3":["niegue"],"p1":["neguemos"],"p2":["neguéis"],"p3":["nieguen"]},
+    "SubImp": {"s1":["negara","negase"],"s2":["negaras","negases"],"vos":["negaras","negases"],"s3":["negara","negase"],"p1":["negáramos","negásemos"],"p2":["negarais","negaseis"],"p3":["negaran","negasen"]},
+    "SubFut": {"s1":["negare"],"s2":["negares"],"vos":["negares"],"s3":["negare"],"p1":["negáremos"],"p2":["negareis"],"p3":["negaren"]},
+    "CmdPos": {"s2":["niega"],"vos":["negá"],"s3":["niegue"],"p1":["neguemos"],"p2":["negad"],"p3":["nieguen"]}
+  }
+}

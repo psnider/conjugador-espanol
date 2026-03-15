@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esˈkjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"esquiar","gerundio":"esquiando","participio":"esquiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["esquío"],"s2":["esquías"],"vos":["esquiás"],"s3":["esquía"],"p1":["esquiamos"],"p2":["esquiáis"],"p3":["esquían"]},
+    "IndImp": {"s1":["esquiaba"],"s2":["esquiabas"],"vos":["esquiabas"],"s3":["esquiaba"],"p1":["esquiábamos"],"p2":["esquiabais"],"p3":["esquiaban"]},
+    "IndPret": {"s1":["esquié"],"s2":["esquiaste"],"vos":["esquiaste"],"s3":["esquió"],"p1":["esquiamos"],"p2":["esquiasteis"],"p3":["esquiaron"]},
+    "IndFut": {"s1":["esquiaré"],"s2":["esquiarás"],"vos":["esquiarás"],"s3":["esquiará"],"p1":["esquiaremos"],"p2":["esquiaréis"],"p3":["esquiarán"]},
+    "IndCond": {"s1":["esquiaría"],"s2":["esquiarías"],"vos":["esquiarías"],"s3":["esquiaría"],"p1":["esquiaríamos"],"p2":["esquiaríais"],"p3":["esquiarían"]},
+    "SubPres": {"s1":["esquíe"],"s2":["esquíes"],"vos":["esquíes","esquiés"],"s3":["esquíe"],"p1":["esquiemos"],"p2":["esquiéis"],"p3":["esquíen"]},
+    "SubImp": {"s1":["esquiara","esquiase"],"s2":["esquiaras","esquiases"],"vos":["esquiaras","esquiases"],"s3":["esquiara","esquiase"],"p1":["esquiáramos","esquiásemos"],"p2":["esquiarais","esquiaseis"],"p3":["esquiaran","esquiasen"]},
+    "SubFut": {"s1":["esquiare"],"s2":["esquiares"],"vos":["esquiares"],"s3":["esquiare"],"p1":["esquiáremos"],"p2":["esquiareis"],"p3":["esquiaren"]},
+    "CmdPos": {"s2":["esquía"],"vos":["esquiá"],"s3":["esquíe"],"p1":["esquiemos"],"p2":["esquiad"],"p3":["esquíen"]}
+  }
+}

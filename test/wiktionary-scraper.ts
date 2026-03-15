@@ -1,65 +1,9 @@
 import * as fs from 'node:fs/promises';
-import { VerbConjugationExpected } from './test-support.js';
-import { MoodTense } from '../src/index.js';
-
-
-interface FormasNoPersonales {
-    infinitivo: string
-    gerundio: string
-    participio: string
-}
-
-interface FormaAtípico {
-    forma: string            // la forma limpia
-    etiquetas?: string[]     // ["no normativo", "arcaico", "regional", etc.]
-    nota?: string            // opcional, explicación corta si se quiere
-}
-
-interface ConjugatedForms {
-    // La forma estandar
-    estándar: string[]
-    atípicos?: FormaAtípico[]
-}
-type ConjugationSlot = string[] | ConjugatedForms
-
-interface ConjugaciónModoTiempo {
-    s1?: ConjugationSlot
-    s2?: ConjugationSlot
-    s3?: ConjugationSlot
-    p1?: ConjugationSlot
-    p2?: ConjugationSlot
-    p3?: ConjugationSlot
-    vos?: ConjugationSlot
-}
+import { GrammaticalPerson, ConjugaciónTabla, ConjugationSlot, FormaAtípico } from '../src/index.js';
+import { ConjugaciónEntero } from './index.js';
 
 
 const desired_mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"]
-
-
-interface ConjugaciónTabla {
-    IndPres: ConjugaciónModoTiempo
-    IndImp: ConjugaciónModoTiempo
-    IndPret: ConjugaciónModoTiempo
-    IndFut: ConjugaciónModoTiempo
-    IndCond: ConjugaciónModoTiempo
-    SubPres: ConjugaciónModoTiempo
-    SubImp: ConjugaciónModoTiempo
-    SubFut: ConjugaciónModoTiempo
-    CmdPos: ConjugaciónModoTiempo
-}
-
-
-interface ConjugaciónEntero {
-    lexicografía: {
-        pronunciacion: string
-        silabacion: string
-        acentuacion: string
-        etimologia: string
-        modelos: string[]
-    }
-    formas_no_personales: FormasNoPersonales
-    formas_personales: ConjugaciónTabla
-}
 
 
 const moodMap: Record<string, string> = {
@@ -79,7 +23,7 @@ const tenseMap: Record<string, string> = {
 };
 
 
-const persons_order_in_page = <Array<keyof ConjugaciónModoTiempo>> ["s1", "s2", "vos", "s3", "p1", "p2", "p3"];
+const persons_order_in_page: GrammaticalPerson[] = ["s1", "s2", "vos", "s3", "p1", "p2", "p3"];
 
 
 function extractSpanishSection(html: string): string {
@@ -208,7 +152,7 @@ function getLegendMap(html: string) {
  * @returns string si no hay excepciones, o ConjugatedForms si hay
  */
 function buildConjugationSlot(
-    estándar: string[],
+    estándar: [string] | [string, string],
     atípicos?: FormaAtípico[]
 ): ConjugationSlot {
     if (!atípicos || atípicos.length === 0) {
@@ -219,8 +163,8 @@ function buildConjugationSlot(
 
 
 function parseCell(cellHtml: string, legendMap: Record<string,string>): ConjugationSlot | undefined {
-
-    const estándar: string[] = []
+    // FIX: resolve this type-fighting in favor of code simplicity
+    const estándar: [string] | [string, string] = <[string]><unknown> []
     const atípicos: FormaAtípico[] = []
 
     for (const m of cellHtml.matchAll(RE_LINK_BLOCK)) {
@@ -325,7 +269,9 @@ export function stringifyConjugaciónEntero(entero: ConjugaciónEntero) {
     const lexicografía_template = {...entero.lexicografía}
     const json_modelos = JSON.stringify(entero.lexicografía.modelos)
     lexicografía_template.modelos = <any> "REPLACE"
-    const json_lexicografía_sin_modelos = JSON.stringify(lexicografía_template, null, 2)
+    let json_lexicografía_sin_modelos = JSON.stringify(lexicografía_template, null, 4)
+    // adjust spacing of last brace
+    json_lexicografía_sin_modelos = json_lexicografía_sin_modelos.slice(0, -1) + "  }"
     const json_lexicografía = json_lexicografía_sin_modelos.replace('"REPLACE"', json_modelos)
     const json_formas_no_personales = JSON.stringify(entero.formas_no_personales)
     const formas_personales_stub: any = {}
@@ -338,7 +284,8 @@ export function stringifyConjugaciónEntero(entero: ConjugaciónEntero) {
         const mood_tense_stub = `"REPLACE ${mood_tense}"`
         formas_personales_template = formas_personales_template.replace(mood_tense_stub, json_mood_tense_forma)
     }
-    const json_formas_personales = formas_personales_template
+    // adjust spacing of last brace
+    const json_formas_personales = formas_personales_template.slice(0, -1) + "  }"
     let json = `{\n  "lexicografía": ${json_lexicografía},\n  "formas_no_personales": ${json_formas_no_personales},\n  "formas_personales": ${json_formas_personales}\n}`
     return json
 }
@@ -350,78 +297,20 @@ export function saveConjugaciónEntero(entero: ConjugaciónEntero, filename: str
 }
 
 
-const persons_order_in_tests = <Array<keyof ConjugaciónModoTiempo>> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
-
-
-function printTests(entero: ConjugaciónEntero) {
-    function getTestable_Tú_y_Vos(mood_tense: MoodTense, formas: ConjugaciónModoTiempo) {
-        const {s2, vos} = formas
-        if (mood_tense === "SubImp") {
-            if (Array.isArray(s2) && Array.isArray(vos)) {
-                if ((s2[0] === vos[0]) && (s2[1] === vos[1])) {
-                    return {s2}
-                }
-            }
-            return {s2, vos}
-        } else {
-            const s2_is_array = Array.isArray(s2)
-            const vos_is_array = Array.isArray(vos)
-            // for now only test the standard forms
-            const s2_standard = (s2_is_array ? s2[0] : s2.estándar[0])
-            const vos_standard = (vos_is_array ? vos[0] : vos.estándar[0])
-            const tú_y_vos_differ = (s2_standard !== vos_standard)
-            return {s2: s2_standard, vos: tú_y_vos_differ ? vos_standard : undefined}
-        }
-    }
-    const {formas_no_personales, formas_personales} = entero
-    const {infinitivo} = formas_no_personales
-    console.log(`doTestIf([], () => {`)
-    console.log(`  assert_Participles("${formas_no_personales.infinitivo}", { gerundio: "${formas_no_personales.gerundio}", participio: "${formas_no_personales.participio}" })`)
-    for (const key of desired_mood_tenses) {
-        const mood_tense = <MoodTense> key
-        const formas = formas_personales[<keyof ConjugaciónTabla> mood_tense]
-        const tú_y_vos_test = getTestable_Tú_y_Vos(mood_tense, formas)
-        let persons_for_tests = (tú_y_vos_test ? persons_order_in_tests : persons_order_in_tests.slice(0,6))
-        if (mood_tense === "CmdPos") {
-            persons_for_tests = persons_for_tests.slice(1)
-        }
-        let test_args_of_forms = ""
-        for (const person of persons_for_tests) {
-            let formas_comprobables: VerbConjugationExpected["s1"]
-            if (person === "s2") {
-                formas_comprobables = <VerbConjugationExpected["s1"]> tú_y_vos_test[person]
-            } else if (person === "vos") {
-                formas_comprobables = (tú_y_vos_test[person] ? <VerbConjugationExpected["s1"]> tú_y_vos_test[person] : undefined)
-            } else {
-                if (!Array.isArray(formas[person])) {
-                    throw new Error(`don't yet support formas atíipicos: ${infinitivo},${mood_tense} ${JSON.stringify(formas[person])}`)
-                }
-                formas_comprobables = (formas[person].length === 1) ? formas[person][0] : <[string, string]> formas[person]
-            }
-            if (formas_comprobables) {
-                test_args_of_forms += `${person}: ${JSON.stringify(formas_comprobables)}, `
-            }
-        }
-        console.log(`  assert_MoodTense("${formas_no_personales.infinitivo}", "${mood_tense}", {${test_args_of_forms}})`)
-    }
-    console.log(`})`)
-}
-
-
 if (process.argv.length !== 3) {
-    console.log("Must give verb infinitive as only argument")
+    console.log("Must give verb infinitivo as only argument")
 }
-const infinitive = process.argv[2]
+const infinitivo = process.argv[2]
 
-const first_letter = infinitive[0]
-const html_filename = `tmp/verbos/${first_letter}/${infinitive}.html`
-const json_filename = `src/conjugator/test/verbos/${first_letter}/${infinitive}.json`
+const first_letter = infinitivo[0]
+const html_filename = `tmp/verbos/${infinitivo}.html`
+const json_filename = `test/verbos/${first_letter}/${infinitivo}.json`
 
 const html = fs.readFile(html_filename, {encoding: "utf8"}).then((buffer) => {
    const html = buffer.toString()
-   const conjugation = scrapeVerbConjugation(html)
+   let conjugation = scrapeVerbConjugation(html)
+   conjugation.urls = [html_filename]
    saveConjugaciónEntero(conjugation, json_filename)
-   printTests(conjugation)
 //    console.log(`conjugation=\n${JSON.stringify(conjugation, null, 4)}`)
 }).catch((error) => {console.log(`Error: ${error}`)})
 

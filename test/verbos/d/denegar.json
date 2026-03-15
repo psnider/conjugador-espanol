@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eneˈɣ̞aɾ]",
+    "silabacion": "de-ne-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín denegāre, del prefijo de- y negar.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"denegar","gerundio":"denegando","participio":"denegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deniego"],"s2":["deniegas"],"vos":["denegás"],"s3":["deniega"],"p1":["denegamos"],"p2":["denegáis"],"p3":["deniegan"]},
+    "IndImp": {"s1":["denegaba"],"s2":["denegabas"],"vos":["denegabas"],"s3":["denegaba"],"p1":["denegábamos"],"p2":["denegabais"],"p3":["denegaban"]},
+    "IndPret": {"s1":["denegué"],"s2":["denegaste"],"vos":["denegaste"],"s3":["denegó"],"p1":["denegamos"],"p2":["denegasteis"],"p3":["denegaron"]},
+    "IndFut": {"s1":["denegaré"],"s2":["denegarás"],"vos":["denegarás"],"s3":["denegará"],"p1":["denegaremos"],"p2":["denegaréis"],"p3":["denegarán"]},
+    "IndCond": {"s1":["denegaría"],"s2":["denegarías"],"vos":["denegarías"],"s3":["denegaría"],"p1":["denegaríamos"],"p2":["denegaríais"],"p3":["denegarían"]},
+    "SubPres": {"s1":["deniegue"],"s2":["deniegues"],"vos":["deniegues","denegués"],"s3":["deniegue"],"p1":["deneguemos"],"p2":["deneguéis"],"p3":["denieguen"]},
+    "SubImp": {"s1":["denegara","denegase"],"s2":["denegaras","denegases"],"vos":["denegaras","denegases"],"s3":["denegara","denegase"],"p1":["denegáramos","denegásemos"],"p2":["denegarais","denegaseis"],"p3":["denegaran","denegasen"]},
+    "SubFut": {"s1":["denegare"],"s2":["denegares"],"vos":["denegares"],"s3":["denegare"],"p1":["denegáremos"],"p2":["denegareis"],"p3":["denegaren"]},
+    "CmdPos": {"s2":["deniega"],"vos":["denegá"],"s3":["deniegue"],"p1":["deneguemos"],"p2":["denegad"],"p3":["denieguen"]}
+  }
+}

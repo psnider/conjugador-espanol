@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eɾˈɣ̞iɾ]",
+    "silabacion": "er-guir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín erigere ('erigir').",
+    "modelos": ["pedir","distinguir","erguir"]
+  },
+  "formas_no_personales": {"infinitivo":"erguir","gerundio":"irguiendo","participio":"erguido"},
+  "formas_personales": {
+    "IndPres": {"s1":["yergo","irgo"],"s2":["yergues","irgues"],"vos":["erguís"],"s3":["yergue","irgue"],"p1":["erguimos"],"p2":["erguís"],"p3":["yerguen","irguen"]},
+    "IndImp": {"s1":["erguía"],"s2":["erguías"],"vos":["erguías"],"s3":["erguía"],"p1":["erguíamos"],"p2":["erguíais"],"p3":["erguían"]},
+    "IndPret": {"s1":["erguí"],"s2":["erguiste"],"vos":["erguiste"],"s3":["irguió"],"p1":["erguimos"],"p2":["erguisteis"],"p3":["irguieron"]},
+    "IndFut": {"s1":["erguiré"],"s2":["erguirás"],"vos":["erguirás"],"s3":["erguirá"],"p1":["erguiremos"],"p2":["erguiréis"],"p3":["erguirán"]},
+    "IndCond": {"s1":["erguiría"],"s2":["erguirías"],"vos":["erguirías"],"s3":["erguiría"],"p1":["erguiríamos"],"p2":["erguiríais"],"p3":["erguirían"]},
+    "SubPres": {"s1":["yerga","irga"],"s2":["yergas","irgas"],"vos":["yergas","irgas","irgás"],"s3":["yerga","irga"],"p1":["irgamos"],"p2":["irgáis"],"p3":["yergan","irgan"]},
+    "SubImp": {"s1":["irguiera","irguiese"],"s2":["irguieras","irguieses"],"vos":["irguieras","irguieses"],"s3":["irguiera","irguiese"],"p1":["irguiéramos","irguiésemos"],"p2":["irguierais","irguieseis"],"p3":["irguieran","irguiesen"]},
+    "SubFut": {"s1":["irguiere"],"s2":["irguieres"],"vos":["irguieres"],"s3":["irguiere"],"p1":["irguiéremos"],"p2":["irguiereis"],"p3":["irguieren"]},
+    "CmdPos": {"s2":["yergue","irgue"],"vos":["erguí"],"s3":["yerga","irga"],"p1":["irgamos"],"p2":["erguid"],"p3":["yergan","irgan"]}
+  }
+}

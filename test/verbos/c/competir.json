@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmpeˈt̪iɾ]",
+    "silabacion": "com-pe-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tardío competere, \"esforzarse conjuntamente\", y más antiguamente \"acordar\", de cum y petere, \"intentar\".",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"competir","gerundio":"compitiendo","participio":"competido"},
+  "formas_personales": {
+    "IndPres": {"s1":["compito"],"s2":["compites"],"vos":["competís"],"s3":["compite"],"p1":["competimos"],"p2":["competís"],"p3":["compiten"]},
+    "IndImp": {"s1":["competía"],"s2":["competías"],"vos":["competías"],"s3":["competía"],"p1":["competíamos"],"p2":["competíais"],"p3":["competían"]},
+    "IndPret": {"s1":["competí"],"s2":["competiste"],"vos":["competiste"],"s3":["compitió"],"p1":["competimos"],"p2":["competisteis"],"p3":["compitieron"]},
+    "IndFut": {"s1":["competiré"],"s2":["competirás"],"vos":["competirás"],"s3":["competirá"],"p1":["competiremos"],"p2":["competiréis"],"p3":["competirán"]},
+    "IndCond": {"s1":["competiría"],"s2":["competirías"],"vos":["competirías"],"s3":["competiría"],"p1":["competiríamos"],"p2":["competiríais"],"p3":["competirían"]},
+    "SubPres": {"s1":["compita"],"s2":["compitas"],"vos":["compitas","compitás"],"s3":["compita"],"p1":["compitamos"],"p2":["compitáis"],"p3":["compitan"]},
+    "SubImp": {"s1":["compitiera","compitiese"],"s2":["compitieras","compitieses"],"vos":["compitieras","compitieses"],"s3":["compitiera","compitiese"],"p1":["compitiéramos","compitiésemos"],"p2":["compitierais","compitieseis"],"p3":["compitieran","compitiesen"]},
+    "SubFut": {"s1":["compitiere"],"s2":["compitieres"],"vos":["compitieres"],"s3":["compitiere"],"p1":["compitiéremos"],"p2":["compitiereis"],"p3":["compitieren"]},
+    "CmdPos": {"s2":["compite"],"vos":["competí"],"s3":["compita"],"p1":["compitamos"],"p2":["competid"],"p3":["compitan"]}
+  }
+}

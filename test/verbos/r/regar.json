@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈɣ̞aɾ]",
+    "silabacion": "re-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rigāre.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"regar","gerundio":"regando","participio":"regado"},
+  "formas_personales": {
+    "IndPres": {"s1":["riego"],"s2":["riegas"],"vos":["regás"],"s3":["riega"],"p1":["regamos"],"p2":["regáis"],"p3":["riegan"]},
+    "IndImp": {"s1":["regaba"],"s2":["regabas"],"vos":["regabas"],"s3":["regaba"],"p1":["regábamos"],"p2":["regabais"],"p3":["regaban"]},
+    "IndPret": {"s1":["regué"],"s2":["regaste"],"vos":["regaste"],"s3":["regó"],"p1":["regamos"],"p2":["regasteis"],"p3":["regaron"]},
+    "IndFut": {"s1":["regaré"],"s2":["regarás"],"vos":["regarás"],"s3":["regará"],"p1":["regaremos"],"p2":["regaréis"],"p3":["regarán"]},
+    "IndCond": {"s1":["regaría"],"s2":["regarías"],"vos":["regarías"],"s3":["regaría"],"p1":["regaríamos"],"p2":["regaríais"],"p3":["regarían"]},
+    "SubPres": {"s1":["riegue"],"s2":["riegues"],"vos":["riegues","regués"],"s3":["riegue"],"p1":["reguemos"],"p2":["reguéis"],"p3":["rieguen"]},
+    "SubImp": {"s1":["regara","regase"],"s2":["regaras","regases"],"vos":["regaras","regases"],"s3":["regara","regase"],"p1":["regáramos","regásemos"],"p2":["regarais","regaseis"],"p3":["regaran","regasen"]},
+    "SubFut": {"s1":["regare"],"s2":["regares"],"vos":["regares"],"s3":["regare"],"p1":["regáremos"],"p2":["regareis"],"p3":["regaren"]},
+    "CmdPos": {"s2":["riega"],"vos":["regá"],"s3":["riegue"],"p1":["reguemos"],"p2":["regad"],"p3":["rieguen"]}
+  }
+}

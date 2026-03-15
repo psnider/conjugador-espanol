@@ -1,5 +1,6 @@
-import { MoodTense, VerbConjugationStems } from ".";
-import { setStem } from "./lib.js";
+import { MoodTense, VerbConjugationStems, VerbForms } from ".";
+import { applyToVerbForms, setStem } from "./lib.js";
+import { aplicaPrefijosClaseConjugacional } from "./prefixes.js";
 import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 
 
@@ -53,19 +54,28 @@ import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 
 
 export function getTemaPresenteYo(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : VerbConjugationStems | undefined {
-    const tema_presente_yo = conj_and_deriv_rules.morphological_rules?.tema_presente_yo
-    if (tema_presente_yo) {
+    const {prefixes, morphological_rules} = conj_and_deriv_rules
+    const tema_presente_yo_modelo = morphological_rules?.combinados?.tema_presente_yo
+    if (!tema_presente_yo_modelo) {
+        return
+    }
+    const normalizadas : VerbForms = (Array.isArray(tema_presente_yo_modelo) ? tema_presente_yo_modelo : [tema_presente_yo_modelo])
+    let temas_presente_yo = applyToVerbForms(normalizadas, (forma) => {
+        const forma_base = aplicaPrefijosClaseConjugacional(forma, prefixes)
+        return forma_base
+    })
+    if (temas_presente_yo) {
         let temas
         switch (mood_tense) {
         case "IndPres":
-            temas = setStem(tema_presente_yo, ["s1"])
+            temas = setStem(temas_presente_yo, ["s1"])
             return temas
         case "SubPres":
         case "CmdNeg":
-            temas = setStem(tema_presente_yo)
+            temas = setStem(temas_presente_yo)
             return temas
         case "CmdPos":
-            temas = setStem(tema_presente_yo, ["s3", "p1", "p3"])
+            temas = setStem(temas_presente_yo, ["s3", "p1", "p3"])
             return temas
         }
     }
@@ -73,7 +83,7 @@ export function getTemaPresenteYo(conj_and_deriv_rules: ConjugationAndDerivation
 
 
 export function getSuffixesForPresenteYo(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : VerbConjugationStems | undefined {
-    const sufijo_presente_yo = conj_and_deriv_rules.morphological_rules?.sufijo_presente_yo
+    const sufijo_presente_yo = conj_and_deriv_rules.morphological_rules?.combinados?.sufijo_presente_yo
     if (sufijo_presente_yo) {
         switch (mood_tense) {
         case "IndPres":

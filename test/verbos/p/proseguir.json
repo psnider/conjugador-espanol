@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾoseˈɣ̞iɾ]",
+    "silabacion": "pro-se-guir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["distinguir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"proseguir","gerundio":"prosiguiendo","participio":"proseguido"},
+  "formas_personales": {
+    "IndPres": {"s1":["prosigo"],"s2":["prosigues"],"vos":["proseguís"],"s3":["prosigue"],"p1":["proseguimos"],"p2":["proseguís"],"p3":["prosiguen"]},
+    "IndImp": {"s1":["proseguía"],"s2":["proseguías"],"vos":["proseguías"],"s3":["proseguía"],"p1":["proseguíamos"],"p2":["proseguíais"],"p3":["proseguían"]},
+    "IndPret": {"s1":["proseguí"],"s2":["proseguiste"],"vos":["proseguiste"],"s3":["prosiguió"],"p1":["proseguimos"],"p2":["proseguisteis"],"p3":["prosiguieron"]},
+    "IndFut": {"s1":["proseguiré"],"s2":["proseguirás"],"vos":["proseguirás"],"s3":["proseguirá"],"p1":["proseguiremos"],"p2":["proseguiréis"],"p3":["proseguirán"]},
+    "IndCond": {"s1":["proseguiría"],"s2":["proseguirías"],"vos":["proseguirías"],"s3":["proseguiría"],"p1":["proseguiríamos"],"p2":["proseguiríais"],"p3":["proseguirían"]},
+    "SubPres": {"s1":["prosiga"],"s2":["prosigas"],"vos":["prosigas","prosigás"],"s3":["prosiga"],"p1":["prosigamos"],"p2":["prosigáis"],"p3":["prosigan"]},
+    "SubImp": {"s1":["prosiguiera","prosiguiese"],"s2":["prosiguieras","prosiguieses"],"vos":["prosiguieras","prosiguieses"],"s3":["prosiguiera","prosiguiese"],"p1":["prosiguiéramos","prosiguiésemos"],"p2":["prosiguierais","prosiguieseis"],"p3":["prosiguieran","prosiguiesen"]},
+    "SubFut": {"s1":["prosiguiere"],"s2":["prosiguieres"],"vos":["prosiguieres"],"s3":["prosiguiere"],"p1":["prosiguiéremos"],"p2":["prosiguiereis"],"p3":["prosiguieren"]},
+    "CmdPos": {"s2":["prosigue"],"vos":["proseguí"],"s3":["prosiga"],"p1":["prosigamos"],"p2":["proseguid"],"p3":["prosigan"]}
+  }
+}

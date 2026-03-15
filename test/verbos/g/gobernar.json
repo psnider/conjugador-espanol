@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[goβ̞eɾˈnaɾ]",
+    "silabacion": "go-ber-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín gubernare.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"gobernar","gerundio":"gobernando","participio":"gobernado"},
+  "formas_personales": {
+    "IndPres": {"s1":["gobierno"],"s2":["gobiernas"],"vos":["gobernás"],"s3":["gobierna"],"p1":["gobernamos"],"p2":["gobernáis"],"p3":["gobiernan"]},
+    "IndImp": {"s1":["gobernaba"],"s2":["gobernabas"],"vos":["gobernabas"],"s3":["gobernaba"],"p1":["gobernábamos"],"p2":["gobernabais"],"p3":["gobernaban"]},
+    "IndPret": {"s1":["goberné"],"s2":["gobernaste"],"vos":["gobernaste"],"s3":["gobernó"],"p1":["gobernamos"],"p2":["gobernasteis"],"p3":["gobernaron"]},
+    "IndFut": {"s1":["gobernaré"],"s2":["gobernarás"],"vos":["gobernarás"],"s3":["gobernará"],"p1":["gobernaremos"],"p2":["gobernaréis"],"p3":["gobernarán"]},
+    "IndCond": {"s1":["gobernaría"],"s2":["gobernarías"],"vos":["gobernarías"],"s3":["gobernaría"],"p1":["gobernaríamos"],"p2":["gobernaríais"],"p3":["gobernarían"]},
+    "SubPres": {"s1":["gobierne"],"s2":["gobiernes"],"vos":["gobiernes","gobernés"],"s3":["gobierne"],"p1":["gobernemos"],"p2":["gobernéis"],"p3":["gobiernen"]},
+    "SubImp": {"s1":["gobernara","gobernase"],"s2":["gobernaras","gobernases"],"vos":["gobernaras","gobernases"],"s3":["gobernara","gobernase"],"p1":["gobernáramos","gobernásemos"],"p2":["gobernarais","gobernaseis"],"p3":["gobernaran","gobernasen"]},
+    "SubFut": {"s1":["gobernare"],"s2":["gobernares"],"vos":["gobernares"],"s3":["gobernare"],"p1":["gobernáremos"],"p2":["gobernareis"],"p3":["gobernaren"]},
+    "CmdPos": {"s2":["gobierna"],"vos":["goberná"],"s3":["gobierne"],"p1":["gobernemos"],"p2":["gobernad"],"p3":["gobiernen"]}
+  }
+}

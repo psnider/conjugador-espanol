@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esˈt̪aɾ]",
+    "silabacion": "es-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del castellano antiguo estar ('estar'), y este del latín stāre&nbsp;('erguirse'), del protoitálico *sta-ē-je- o *sta-ē-jo-, del protoindoeuropeo *sth₂-eh₁-ie/o-. Las formas del pretérito indefinido vienen de la analogía con las de haber.",
+    "modelos": ["estar"]
+  },
+  "formas_no_personales": {"infinitivo":"estar","gerundio":"estando","participio":"estado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estoy"],"s2":["estás"],"vos":["estás"],"s3":["está"],"p1":["estamos"],"p2":["estáis"],"p3":["están"]},
+    "IndImp": {"s1":["estaba"],"s2":["estabas"],"vos":["estabas"],"s3":["estaba"],"p1":["estábamos"],"p2":["estabais"],"p3":["estaban"]},
+    "IndPret": {"s1":["estuve"],"s2":["estuviste"],"vos":["estuviste"],"s3":["estuvo"],"p1":["estuvimos"],"p2":["estuvisteis"],"p3":["estuvieron"]},
+    "IndFut": {"s1":["estaré"],"s2":["estarás"],"vos":["estarás"],"s3":["estará"],"p1":["estaremos"],"p2":["estaréis"],"p3":["estarán"]},
+    "IndCond": {"s1":["estaría"],"s2":["estarías"],"vos":["estarías"],"s3":["estaría"],"p1":["estaríamos"],"p2":["estaríais"],"p3":["estarían"]},
+    "SubPres": {"s1":["esté"],"s2":["estés"],"vos":["estés"],"s3":["esté"],"p1":["estemos"],"p2":["estéis"],"p3":["estén"]},
+    "SubImp": {"s1":["estuviera","estuviese"],"s2":["estuvieras","estuvieses"],"vos":["estuvieras","estuvieses"],"s3":["estuviera","estuviese"],"p1":["estuviéramos","estuviésemos"],"p2":["estuvierais","estuvieseis"],"p3":["estuvieran","estuviesen"]},
+    "SubFut": {"s1":["estuviere"],"s2":["estuvieres"],"vos":["estuvieres"],"s3":["estuviere"],"p1":["estuviéremos"],"p2":["estuviereis"],"p3":["estuvieren"]},
+    "CmdPos": {"s2":["está"],"vos":["está"],"s3":["esté"],"p1":["estemos"],"p2":["estad"],"p3":["estén"]}
+  }
+}

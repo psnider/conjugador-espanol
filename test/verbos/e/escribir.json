@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskɾiˈβ̞iɾ]",
+    "silabacion": "es-cri-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín scribere",
+    "modelos": ["escribir"]
+  },
+  "formas_no_personales": {"infinitivo":"escribir","gerundio":"escribiendo","participio":"escrito"},
+  "formas_personales": {
+    "IndPres": {"s1":["escribo"],"s2":["escribes"],"vos":["escribís"],"s3":["escribe"],"p1":["escribimos"],"p2":["escribís"],"p3":["escriben"]},
+    "IndImp": {"s1":["escribía"],"s2":["escribías"],"vos":["escribías"],"s3":["escribía"],"p1":["escribíamos"],"p2":["escribíais"],"p3":["escribían"]},
+    "IndPret": {"s1":["escribí"],"s2":["escribiste"],"vos":["escribiste"],"s3":["escribió"],"p1":["escribimos"],"p2":["escribisteis"],"p3":["escribieron"]},
+    "IndFut": {"s1":["escribiré"],"s2":["escribirás"],"vos":["escribirás"],"s3":["escribirá"],"p1":["escribiremos"],"p2":["escribiréis"],"p3":["escribirán"]},
+    "IndCond": {"s1":["escribiría"],"s2":["escribirías"],"vos":["escribirías"],"s3":["escribiría"],"p1":["escribiríamos"],"p2":["escribiríais"],"p3":["escribirían"]},
+    "SubPres": {"s1":["escriba"],"s2":["escribas"],"vos":["escribas","escribás"],"s3":["escriba"],"p1":["escribamos"],"p2":["escribáis"],"p3":["escriban"]},
+    "SubImp": {"s1":["escribiera","escribiese"],"s2":["escribieras","escribieses"],"vos":["escribieras","escribieses"],"s3":["escribiera","escribiese"],"p1":["escribiéramos","escribiésemos"],"p2":["escribierais","escribieseis"],"p3":["escribieran","escribiesen"]},
+    "SubFut": {"s1":["escribiere"],"s2":["escribieres"],"vos":["escribieres"],"s3":["escribiere"],"p1":["escribiéremos"],"p2":["escribiereis"],"p3":["escribieren"]},
+    "CmdPos": {"s2":["escribe"],"vos":["escribí"],"s3":["escriba"],"p1":["escribamos"],"p2":["escribid"],"p3":["escriban"]}
+  }
+}

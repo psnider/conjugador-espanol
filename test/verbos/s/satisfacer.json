@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[sat̪isfaˈseɾ]",
-  "silabacion": "sa-tis-fa-cer",
-  "acentuacion": "aguda",
-  "etimologia": "Del latín satisfacere, compuesto de satis&nbsp;('suficiente') y facere&nbsp;('hacer')",
-  "modelos": ["hacer"]
-},
+    "pronunciacion": "[sat̪isfaˈseɾ]",
+    "silabacion": "sa-tis-fa-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín satisfacere, compuesto de satis&nbsp;('suficiente') y facere&nbsp;('hacer')",
+    "modelos": ["hacer"]
+  },
   "formas_no_personales": {"infinitivo":"satisfacer","gerundio":"satisfaciendo","participio":"satisfecho"},
   "formas_personales": {
     "IndPres": {"s1":["satisfago"],"s2":["satisfaces"],"vos":["satisfacés"],"s3":["satisface"],"p1":["satisfacemos"],"p2":["satisfacéis"],"p3":["satisfacen"]},

@@ -1,5 +1,6 @@
 import { MoodTense, VerbConjugationStems, VerbConjugationSuffixes } from ".";
 import { setStem } from "./lib.js";
+import { aplicaPrefijosClaseConjugacional } from "./prefixes.js";
 import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 
 
@@ -50,16 +51,18 @@ const domains_pretérito: MoodTense[] = ["IndPret", "SubImp", "SubFut"]
 
 
 export function getTemaPretérito(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : VerbConjugationStems | undefined {
-    const tema_pretérito = conj_and_deriv_rules.morphological_rules?.tema_pretérito
-    if (tema_pretérito && domains_pretérito.includes(mood_tense)) {
-        const temas = setStem(tema_pretérito)
+    const {prefixes, morphological_rules} = conj_and_deriv_rules
+    const tema_pretérito_modelo = morphological_rules?.combinados?.tema_pretérito
+    if (tema_pretérito_modelo && domains_pretérito.includes(mood_tense)) {
+        const tema_pretérito_base = aplicaPrefijosClaseConjugacional(tema_pretérito_modelo, prefixes)
+        const temas = setStem([tema_pretérito_base])
         return temas
     }
 }
 
 
 export function getSuffixesForStrongPretérito(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : VerbConjugationSuffixes | undefined {
-    const tema_pretérito = conj_and_deriv_rules?.morphological_rules?.tema_pretérito
+    const tema_pretérito = conj_and_deriv_rules?.morphological_rules?.combinados?.tema_pretérito
     if (mood_tense === "IndPret" && tema_pretérito) {
         const p3_form = tema_pretérito.endsWith("j") ? "eron" : "ieron"
         const suffixes: VerbConjugationSuffixes = {s1: ["e"], s2: ["iste"], s3: ["o"], p1: ["imos"], p2: ["isteis"], p3: [p3_form]}

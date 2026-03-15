@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[renoˈβ̞aɾ]",
+    "silabacion": "re-no-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín renovō, renovāre.[1]",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"renovar","gerundio":"renovando","participio":"renovado"},
+  "formas_personales": {
+    "IndPres": {"s1":["renuevo"],"s2":["renuevas"],"vos":["renovás"],"s3":["renueva"],"p1":["renovamos"],"p2":["renováis"],"p3":["renuevan"]},
+    "IndImp": {"s1":["renovaba"],"s2":["renovabas"],"vos":["renovabas"],"s3":["renovaba"],"p1":["renovábamos"],"p2":["renovabais"],"p3":["renovaban"]},
+    "IndPret": {"s1":["renové"],"s2":["renovaste"],"vos":["renovaste"],"s3":["renovó"],"p1":["renovamos"],"p2":["renovasteis"],"p3":["renovaron"]},
+    "IndFut": {"s1":["renovaré"],"s2":["renovarás"],"vos":["renovarás"],"s3":["renovará"],"p1":["renovaremos"],"p2":["renovaréis"],"p3":["renovarán"]},
+    "IndCond": {"s1":["renovaría"],"s2":["renovarías"],"vos":["renovarías"],"s3":["renovaría"],"p1":["renovaríamos"],"p2":["renovaríais"],"p3":["renovarían"]},
+    "SubPres": {"s1":["renueve"],"s2":["renueves"],"vos":["renueves","renovés"],"s3":["renueve"],"p1":["renovemos"],"p2":["renovéis"],"p3":["renueven"]},
+    "SubImp": {"s1":["renovara","renovase"],"s2":["renovaras","renovases"],"vos":["renovaras","renovases"],"s3":["renovara","renovase"],"p1":["renováramos","renovásemos"],"p2":["renovarais","renovaseis"],"p3":["renovaran","renovasen"]},
+    "SubFut": {"s1":["renovare"],"s2":["renovares"],"vos":["renovares"],"s3":["renovare"],"p1":["renováremos"],"p2":["renovareis"],"p3":["renovaren"]},
+    "CmdPos": {"s2":["renueva"],"vos":["renová"],"s3":["renueve"],"p1":["renovemos"],"p2":["renovad"],"p3":["renueven"]}
+  }
+}

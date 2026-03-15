@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪ˈd̪iɾ]",
+    "silabacion": "hen-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Alteración fonética de hender.",
+    "modelos": ["discernir"]
+  },
+  "formas_no_personales": {"infinitivo":"hendir","gerundio":"hendiendo","participio":"hendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["hiendo"],"s2":["hiendes"],"vos":["hendís"],"s3":["hiende"],"p1":["hendimos"],"p2":["hendís"],"p3":["hienden"]},
+    "IndImp": {"s1":["hendía"],"s2":["hendías"],"vos":["hendías"],"s3":["hendía"],"p1":["hendíamos"],"p2":["hendíais"],"p3":["hendían"]},
+    "IndPret": {"s1":["hendí"],"s2":["hendiste"],"vos":["hendiste"],"s3":["hendió"],"p1":["hendimos"],"p2":["hendisteis"],"p3":["hendieron"]},
+    "IndFut": {"s1":["hendiré"],"s2":["hendirás"],"vos":["hendirás"],"s3":["hendirá"],"p1":["hendiremos"],"p2":["hendiréis"],"p3":["hendirán"]},
+    "IndCond": {"s1":["hendiría"],"s2":["hendirías"],"vos":["hendirías"],"s3":["hendiría"],"p1":["hendiríamos"],"p2":["hendiríais"],"p3":["hendirían"]},
+    "SubPres": {"s1":["hienda"],"s2":["hiendas"],"vos":["hiendas","hendás"],"s3":["hienda"],"p1":["hendamos"],"p2":["hendáis"],"p3":["hiendan"]},
+    "SubImp": {"s1":["hendiera","hendiese"],"s2":["hendieras","hendieses"],"vos":["hendieras","hendieses"],"s3":["hendiera","hendiese"],"p1":["hendiéramos","hendiésemos"],"p2":["hendierais","hendieseis"],"p3":["hendieran","hendiesen"]},
+    "SubFut": {"s1":["hendiere"],"s2":["hendieres"],"vos":["hendieres"],"s3":["hendiere"],"p1":["hendiéremos"],"p2":["hendiereis"],"p3":["hendieren"]},
+    "CmdPos": {"s2":["hiende"],"vos":["hendí"],"s3":["hienda"],"p1":["hendamos"],"p2":["hendid"],"p3":["hiendan"]}
+  }
+}

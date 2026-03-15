@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rõmˈpeɾ]",
+    "silabacion": "rom-per",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rumpere",
+    "modelos": ["romper"]
+  },
+  "formas_no_personales": {"infinitivo":"romper","gerundio":"rompiendo","participio":"roto"},
+  "formas_personales": {
+    "IndPres": {"s1":["rompo"],"s2":["rompes"],"vos":["rompés"],"s3":["rompe"],"p1":["rompemos"],"p2":["rompéis"],"p3":["rompen"]},
+    "IndImp": {"s1":["rompía"],"s2":["rompías"],"vos":["rompías"],"s3":["rompía"],"p1":["rompíamos"],"p2":["rompíais"],"p3":["rompían"]},
+    "IndPret": {"s1":["rompí"],"s2":["rompiste"],"vos":["rompiste"],"s3":["rompió"],"p1":["rompimos"],"p2":["rompisteis"],"p3":["rompieron"]},
+    "IndFut": {"s1":["romperé"],"s2":["romperás"],"vos":["romperás"],"s3":["romperá"],"p1":["romperemos"],"p2":["romperéis"],"p3":["romperán"]},
+    "IndCond": {"s1":["rompería"],"s2":["romperías"],"vos":["romperías"],"s3":["rompería"],"p1":["romperíamos"],"p2":["romperíais"],"p3":["romperían"]},
+    "SubPres": {"s1":["rompa"],"s2":["rompas"],"vos":["rompas","rompás"],"s3":["rompa"],"p1":["rompamos"],"p2":["rompáis"],"p3":["rompan"]},
+    "SubImp": {"s1":["rompiera","rompiese"],"s2":["rompieras","rompieses"],"vos":["rompieras","rompieses"],"s3":["rompiera","rompiese"],"p1":["rompiéramos","rompiésemos"],"p2":["rompierais","rompieseis"],"p3":["rompieran","rompiesen"]},
+    "SubFut": {"s1":["rompiere"],"s2":["rompieres"],"vos":["rompieres"],"s3":["rompiere"],"p1":["rompiéremos"],"p2":["rompiereis"],"p3":["rompieren"]},
+    "CmdPos": {"s2":["rompe"],"vos":["rompé"],"s3":["rompa"],"p1":["rompamos"],"p2":["romped"],"p3":["rompan"]}
+  }
+}

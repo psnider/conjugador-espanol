@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[meˈð̞iɾ]",
+    "silabacion": "me-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín metīri.",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"medir","gerundio":"midiendo","participio":"medido"},
+  "formas_personales": {
+    "IndPres": {"s1":["mido"],"s2":["mides"],"vos":["medís"],"s3":["mide"],"p1":["medimos"],"p2":["medís"],"p3":["miden"]},
+    "IndImp": {"s1":["medía"],"s2":["medías"],"vos":["medías"],"s3":["medía"],"p1":["medíamos"],"p2":["medíais"],"p3":["medían"]},
+    "IndPret": {"s1":["medí"],"s2":["mediste"],"vos":["mediste"],"s3":["midió"],"p1":["medimos"],"p2":["medisteis"],"p3":["midieron"]},
+    "IndFut": {"s1":["mediré"],"s2":["medirás"],"vos":["medirás"],"s3":["medirá"],"p1":["mediremos"],"p2":["mediréis"],"p3":["medirán"]},
+    "IndCond": {"s1":["mediría"],"s2":["medirías"],"vos":["medirías"],"s3":["mediría"],"p1":["mediríamos"],"p2":["mediríais"],"p3":["medirían"]},
+    "SubPres": {"s1":["mida"],"s2":["midas"],"vos":["midas","midás"],"s3":["mida"],"p1":["midamos"],"p2":["midáis"],"p3":["midan"]},
+    "SubImp": {"s1":["midiera","midiese"],"s2":["midieras","midieses"],"vos":["midieras","midieses"],"s3":["midiera","midiese"],"p1":["midiéramos","midiésemos"],"p2":["midierais","midieseis"],"p3":["midieran","midiesen"]},
+    "SubFut": {"s1":["midiere"],"s2":["midieres"],"vos":["midieres"],"s3":["midiere"],"p1":["midiéremos"],"p2":["midiereis"],"p3":["midieren"]},
+    "CmdPos": {"s2":["mide"],"vos":["medí"],"s3":["mida"],"p1":["midamos"],"p2":["medid"],"p3":["midan"]}
+  }
+}

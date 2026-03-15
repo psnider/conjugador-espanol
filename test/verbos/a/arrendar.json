@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arẽn̪ˈd̪aɾ]",
+    "silabacion": "a-rren-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, renta (véase) y el sufijo -ar.[1]",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrendar","gerundio":"arrendando","participio":"arrendado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arriendo"],"s2":["arriendas"],"vos":["arrendás"],"s3":["arrienda"],"p1":["arrendamos"],"p2":["arrendáis"],"p3":["arriendan"]},
+    "IndImp": {"s1":["arrendaba"],"s2":["arrendabas"],"vos":["arrendabas"],"s3":["arrendaba"],"p1":["arrendábamos"],"p2":["arrendabais"],"p3":["arrendaban"]},
+    "IndPret": {"s1":["arrendé"],"s2":["arrendaste"],"vos":["arrendaste"],"s3":["arrendó"],"p1":["arrendamos"],"p2":["arrendasteis"],"p3":["arrendaron"]},
+    "IndFut": {"s1":["arrendaré"],"s2":["arrendarás"],"vos":["arrendarás"],"s3":["arrendará"],"p1":["arrendaremos"],"p2":["arrendaréis"],"p3":["arrendarán"]},
+    "IndCond": {"s1":["arrendaría"],"s2":["arrendarías"],"vos":["arrendarías"],"s3":["arrendaría"],"p1":["arrendaríamos"],"p2":["arrendaríais"],"p3":["arrendarían"]},
+    "SubPres": {"s1":["arriende"],"s2":["arriendes"],"vos":["arriendes","arrendés"],"s3":["arriende"],"p1":["arrendemos"],"p2":["arrendéis"],"p3":["arrienden"]},
+    "SubImp": {"s1":["arrendara","arrendase"],"s2":["arrendaras","arrendases"],"vos":["arrendaras","arrendases"],"s3":["arrendara","arrendase"],"p1":["arrendáramos","arrendásemos"],"p2":["arrendarais","arrendaseis"],"p3":["arrendaran","arrendasen"]},
+    "SubFut": {"s1":["arrendare"],"s2":["arrendares"],"vos":["arrendares"],"s3":["arrendare"],"p1":["arrendáremos"],"p2":["arrendareis"],"p3":["arrendaren"]},
+    "CmdPos": {"s2":["arrienda"],"vos":["arrendá"],"s3":["arriende"],"p1":["arrendemos"],"p2":["arrendad"],"p3":["arrienden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞β̞eˈniɾ]",
+    "silabacion": "ad-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín advenire ('llegar'); a su vez compuesto de ad&nbsp;('a') y venire&nbsp;('venir').",
+    "modelos": ["venir","sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"advenir","gerundio":"adviniendo","participio":"advenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["advengo"],"s2":["advienes"],"vos":["advenís"],"s3":["adviene"],"p1":["advenimos"],"p2":["advenís"],"p3":["advienen"]},
+    "IndImp": {"s1":["advenía"],"s2":["advenías"],"vos":["advenías"],"s3":["advenía"],"p1":["adveníamos"],"p2":["adveníais"],"p3":["advenían"]},
+    "IndPret": {"s1":["advine"],"s2":["adviniste"],"vos":["adviniste"],"s3":["advino"],"p1":["advinimos"],"p2":["advinisteis"],"p3":["advinieron"]},
+    "IndFut": {"s1":["advendré"],"s2":["advendrás"],"vos":["advendrás"],"s3":["advendrá"],"p1":["advendremos"],"p2":["advendréis"],"p3":["advendrán"]},
+    "IndCond": {"s1":["advendría"],"s2":["advendrías"],"vos":["advendrías"],"s3":["advendría"],"p1":["advendríamos"],"p2":["advendríais"],"p3":["advendrían"]},
+    "SubPres": {"s1":["advenga"],"s2":["advengas"],"vos":["advengas","advengás"],"s3":["advenga"],"p1":["advengamos"],"p2":["advengáis"],"p3":["advengan"]},
+    "SubImp": {"s1":["adviniera","adviniese"],"s2":["advinieras","advinieses"],"vos":["advinieras","advinieses"],"s3":["adviniera","adviniese"],"p1":["adviniéramos","adviniésemos"],"p2":["advinierais","advinieseis"],"p3":["advinieran","adviniesen"]},
+    "SubFut": {"s1":["adviniere"],"s2":["advinieres"],"vos":["advinieres"],"s3":["adviniere"],"p1":["adviniéremos"],"p2":["adviniereis"],"p3":["advinieren"]},
+    "CmdPos": {"s2":{"estándar":["advén"],"atípicos":[{"forma":"adviene","etiquetas":["no normativo"]}]},"vos":["advení"],"s3":["advenga"],"p1":["advengamos"],"p2":["advenid"],"p3":["advengan"]}
+  }
+}

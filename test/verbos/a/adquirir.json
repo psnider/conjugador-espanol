@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞kiˈɾiɾ]",
+    "silabacion": "ad-qui-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adquirere[1], de adquaerere, compuesto de ad-&nbsp;('hacia') y quaerō, quaerere&nbsp;('buscar').",
+    "modelos": ["discernir"]
+  },
+  "formas_no_personales": {"infinitivo":"adquirir","gerundio":"adquiriendo","participio":"adquirido"},
+  "formas_personales": {
+    "IndPres": {"s1":["adquiero"],"s2":["adquieres"],"vos":["adquirís"],"s3":["adquiere"],"p1":["adquirimos"],"p2":["adquirís"],"p3":["adquieren"]},
+    "IndImp": {"s1":["adquiría"],"s2":["adquirías"],"vos":["adquirías"],"s3":["adquiría"],"p1":["adquiríamos"],"p2":["adquiríais"],"p3":["adquirían"]},
+    "IndPret": {"s1":["adquirí"],"s2":["adquiriste"],"vos":["adquiriste"],"s3":["adquirió"],"p1":["adquirimos"],"p2":["adquiristeis"],"p3":["adquirieron"]},
+    "IndFut": {"s1":["adquiriré"],"s2":["adquirirás"],"vos":["adquirirás"],"s3":["adquirirá"],"p1":["adquiriremos"],"p2":["adquiriréis"],"p3":["adquirirán"]},
+    "IndCond": {"s1":["adquiriría"],"s2":["adquirirías"],"vos":["adquirirías"],"s3":["adquiriría"],"p1":["adquiriríamos"],"p2":["adquiriríais"],"p3":["adquirirían"]},
+    "SubPres": {"s1":["adquiera"],"s2":["adquieras"],"vos":["adquieras","adquirás"],"s3":["adquiera"],"p1":["adquiramos"],"p2":["adquiráis"],"p3":["adquieran"]},
+    "SubImp": {"s1":["adquiriera","adquiriese"],"s2":["adquirieras","adquirieses"],"vos":["adquirieras","adquirieses"],"s3":["adquiriera","adquiriese"],"p1":["adquiriéramos","adquiriésemos"],"p2":["adquirierais","adquirieseis"],"p3":["adquirieran","adquiriesen"]},
+    "SubFut": {"s1":["adquiriere"],"s2":["adquirieres"],"vos":["adquirieres"],"s3":["adquiriere"],"p1":["adquiriéremos"],"p2":["adquiriereis"],"p3":["adquirieren"]},
+    "CmdPos": {"s2":["adquiere"],"vos":["adquirí"],"s3":["adquiera"],"p1":["adquiramos"],"p2":["adquirid"],"p3":["adquieran"]}
+  }
+}

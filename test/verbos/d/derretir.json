@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ereˈt̪iɾ]",
+    "silabacion": "de-rre-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de detero ('desgastar') y retero ('deshacer'), del latín",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"derretir","gerundio":"derritiendo","participio":"derretido"},
+  "formas_personales": {
+    "IndPres": {"s1":["derrito"],"s2":["derrites"],"vos":["derretís"],"s3":["derrite"],"p1":["derretimos"],"p2":["derretís"],"p3":["derriten"]},
+    "IndImp": {"s1":["derretía"],"s2":["derretías"],"vos":["derretías"],"s3":["derretía"],"p1":["derretíamos"],"p2":["derretíais"],"p3":["derretían"]},
+    "IndPret": {"s1":["derretí"],"s2":["derretiste"],"vos":["derretiste"],"s3":["derritió"],"p1":["derretimos"],"p2":["derretisteis"],"p3":["derritieron"]},
+    "IndFut": {"s1":["derretiré"],"s2":["derretirás"],"vos":["derretirás"],"s3":["derretirá"],"p1":["derretiremos"],"p2":["derretiréis"],"p3":["derretirán"]},
+    "IndCond": {"s1":["derretiría"],"s2":["derretirías"],"vos":["derretirías"],"s3":["derretiría"],"p1":["derretiríamos"],"p2":["derretiríais"],"p3":["derretirían"]},
+    "SubPres": {"s1":["derrita"],"s2":["derritas"],"vos":["derritas","derritás"],"s3":["derrita"],"p1":["derritamos"],"p2":["derritáis"],"p3":["derritan"]},
+    "SubImp": {"s1":["derritiera","derritiese"],"s2":["derritieras","derritieses"],"vos":["derritieras","derritieses"],"s3":["derritiera","derritiese"],"p1":["derritiéramos","derritiésemos"],"p2":["derritierais","derritieseis"],"p3":["derritieran","derritiesen"]},
+    "SubFut": {"s1":["derritiere"],"s2":["derritieres"],"vos":["derritieres"],"s3":["derritiere"],"p1":["derritiéremos"],"p2":["derritiereis"],"p3":["derritieren"]},
+    "CmdPos": {"s2":["derrite"],"vos":["derretí"],"s3":["derrita"],"p1":["derritamos"],"p2":["derretid"],"p3":["derritan"]}
+  }
+}

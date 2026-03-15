@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asoˈlaɾ]",
+    "silabacion": "a-so-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín assolāre ('derribar').",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"asolar","gerundio":"asolando","participio":"asolado"},
+  "formas_personales": {
+    "IndPres": {"s1":["asuelo","asolo"],"s2":["asuelas","asolas"],"vos":["asolás"],"s3":["asuela","asola"],"p1":["asolamos"],"p2":["asoláis"],"p3":["asuelan","asolan"]},
+    "IndImp": {"s1":["asolaba"],"s2":["asolabas"],"vos":["asolabas"],"s3":["asolaba"],"p1":["asolábamos"],"p2":["asolabais"],"p3":["asolaban"]},
+    "IndPret": {"s1":["asolé"],"s2":["asolaste"],"vos":["asolaste"],"s3":["asoló"],"p1":["asolamos"],"p2":["asolasteis"],"p3":["asolaron"]},
+    "IndFut": {"s1":["asolaré"],"s2":["asolarás"],"vos":["asolarás"],"s3":["asolará"],"p1":["asolaremos"],"p2":["asolaréis"],"p3":["asolarán"]},
+    "IndCond": {"s1":["asolaría"],"s2":["asolarías"],"vos":["asolarías"],"s3":["asolaría"],"p1":["asolaríamos"],"p2":["asolaríais"],"p3":["asolarían"]},
+    "SubPres": {"s1":["asuele","asole"],"s2":["asueles","asoles"],"vos":["asueles","asolés","asoles"],"s3":["asuele","asole"],"p1":["asolemos"],"p2":["asoléis"],"p3":["asuelen","asolen"]},
+    "SubImp": {"s1":["asolara","asolase"],"s2":["asolaras","asolases"],"vos":["asolaras","asolases"],"s3":["asolara","asolase"],"p1":["asoláramos","asolásemos"],"p2":["asolarais","asolaseis"],"p3":["asolaran","asolasen"]},
+    "SubFut": {"s1":["asolare"],"s2":["asolares"],"vos":["asolares"],"s3":["asolare"],"p1":["asoláremos"],"p2":["asolareis"],"p3":["asolaren"]},
+    "CmdPos": {"s2":["asuela","asola"],"vos":["asolá"],"s3":["asuele","asole"],"p1":["asolemos"],"p2":["asolad"],"p3":["asuelen","asolen"]}
+  }
+}

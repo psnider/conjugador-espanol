@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín variāre.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"variar","gerundio":"variando","participio":"variado"},
+  "formas_personales": {
+    "IndPres": {"s1":["varío"],"s2":["varías"],"vos":["variás"],"s3":["varía"],"p1":["variamos"],"p2":["variáis"],"p3":["varían"]},
+    "IndImp": {"s1":["variaba"],"s2":["variabas"],"vos":["variabas"],"s3":["variaba"],"p1":["variábamos"],"p2":["variabais"],"p3":["variaban"]},
+    "IndPret": {"s1":["varié"],"s2":["variaste"],"vos":["variaste"],"s3":["varió"],"p1":["variamos"],"p2":["variasteis"],"p3":["variaron"]},
+    "IndFut": {"s1":["variaré"],"s2":["variarás"],"vos":["variarás"],"s3":["variará"],"p1":["variaremos"],"p2":["variaréis"],"p3":["variarán"]},
+    "IndCond": {"s1":["variaría"],"s2":["variarías"],"vos":["variarías"],"s3":["variaría"],"p1":["variaríamos"],"p2":["variaríais"],"p3":["variarían"]},
+    "SubPres": {"s1":["varíe"],"s2":["varíes"],"vos":["varíes","variés"],"s3":["varíe"],"p1":["variemos"],"p2":["variéis"],"p3":["varíen"]},
+    "SubImp": {"s1":["variara","variase"],"s2":["variaras","variases"],"vos":["variaras","variases"],"s3":["variara","variase"],"p1":["variáramos","variásemos"],"p2":["variarais","variaseis"],"p3":["variaran","variasen"]},
+    "SubFut": {"s1":["variare"],"s2":["variares"],"vos":["variares"],"s3":["variare"],"p1":["variáremos"],"p2":["variareis"],"p3":["variaren"]},
+    "CmdPos": {"s2":["varía"],"vos":["variá"],"s3":["varíe"],"p1":["variemos"],"p2":["variad"],"p3":["varíen"]}
+  }
+}

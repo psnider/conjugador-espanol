@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pleˈɣ̞aɾ]",
+    "silabacion": "ple-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín plicāre.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"plegar","gerundio":"plegando","participio":"plegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pliego"],"s2":["pliegas"],"vos":["plegás"],"s3":["pliega"],"p1":["plegamos"],"p2":["plegáis"],"p3":["pliegan"]},
+    "IndImp": {"s1":["plegaba"],"s2":["plegabas"],"vos":["plegabas"],"s3":["plegaba"],"p1":["plegábamos"],"p2":["plegabais"],"p3":["plegaban"]},
+    "IndPret": {"s1":["plegué"],"s2":["plegaste"],"vos":["plegaste"],"s3":["plegó"],"p1":["plegamos"],"p2":["plegasteis"],"p3":["plegaron"]},
+    "IndFut": {"s1":["plegaré"],"s2":["plegarás"],"vos":["plegarás"],"s3":["plegará"],"p1":["plegaremos"],"p2":["plegaréis"],"p3":["plegarán"]},
+    "IndCond": {"s1":["plegaría"],"s2":["plegarías"],"vos":["plegarías"],"s3":["plegaría"],"p1":["plegaríamos"],"p2":["plegaríais"],"p3":["plegarían"]},
+    "SubPres": {"s1":["pliegue"],"s2":["pliegues"],"vos":["pliegues","plegués"],"s3":["pliegue"],"p1":["pleguemos"],"p2":["pleguéis"],"p3":["plieguen"]},
+    "SubImp": {"s1":["plegara","plegase"],"s2":["plegaras","plegases"],"vos":["plegaras","plegases"],"s3":["plegara","plegase"],"p1":["plegáramos","plegásemos"],"p2":["plegarais","plegaseis"],"p3":["plegaran","plegasen"]},
+    "SubFut": {"s1":["plegare"],"s2":["plegares"],"vos":["plegares"],"s3":["plegare"],"p1":["plegáremos"],"p2":["plegareis"],"p3":["plegaren"]},
+    "CmdPos": {"s2":["pliega"],"vos":["plegá"],"s3":["pliegue"],"p1":["pleguemos"],"p2":["plegad"],"p3":["plieguen"]}
+  }
+}

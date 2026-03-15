@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saˈβ̞eɾ]",
+    "silabacion": "sa-ber",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sapere (\"tener inteligencia\").",
+    "modelos": ["saber"]
+  },
+  "formas_no_personales": {"infinitivo":"saber","gerundio":"sabiendo","participio":"sabido"},
+  "formas_personales": {
+    "IndPres": {"s1":{"estándar":["sé"],"atípicos":[{"forma":"sabo","etiquetas":["no normativo"]}]},"s2":["sabes"],"vos":["sabés"],"s3":["sabe"],"p1":["sabemos"],"p2":["sabéis"],"p3":["saben"]},
+    "IndImp": {"s1":["sabía"],"s2":["sabías"],"vos":["sabías"],"s3":["sabía"],"p1":["sabíamos"],"p2":["sabíais"],"p3":["sabían"]},
+    "IndPret": {"s1":["supe"],"s2":["supiste"],"vos":["supiste"],"s3":["supo"],"p1":["supimos"],"p2":["supisteis"],"p3":["supieron"]},
+    "IndFut": {"s1":["sabré"],"s2":["sabrás"],"vos":["sabrás"],"s3":["sabrá"],"p1":["sabremos"],"p2":["sabréis"],"p3":["sabrán"]},
+    "IndCond": {"s1":["sabría"],"s2":["sabrías"],"vos":["sabrías"],"s3":["sabría"],"p1":["sabríamos"],"p2":["sabríais"],"p3":["sabrían"]},
+    "SubPres": {"s1":["sepa"],"s2":["sepas"],"vos":["sepas","sepás"],"s3":["sepa"],"p1":["sepamos"],"p2":["sepáis"],"p3":["sepan"]},
+    "SubImp": {"s1":["supiera","supiese"],"s2":["supieras","supieses"],"vos":["supieras","supieses"],"s3":["supiera","supiese"],"p1":["supiéramos","supiésemos"],"p2":["supierais","supieseis"],"p3":["supieran","supiesen"]},
+    "SubFut": {"s1":["supiere"],"s2":["supieres"],"vos":["supieres"],"s3":["supiere"],"p1":["supiéremos"],"p2":["supiereis"],"p3":["supieren"]},
+    "CmdPos": {"s2":["sabe"],"vos":["sabé"],"s3":["sepa"],"p1":["sepamos"],"p2":["sabed"],"p3":["sepan"]}
+  }
+}

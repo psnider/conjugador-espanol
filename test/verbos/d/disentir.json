@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isẽn̪ˈt̪iɾ]",
+    "silabacion": "di-sen-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dissentīre, infinitivo presente de dissentiō (\"diferir, no estar de acuerdo\")",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"disentir","gerundio":"disintiendo","participio":"disentido"},
+  "formas_personales": {
+    "IndPres": {"s1":["disiento"],"s2":["disientes"],"vos":["disentís"],"s3":["disiente"],"p1":["disentimos"],"p2":["disentís"],"p3":["disienten"]},
+    "IndImp": {"s1":["disentía"],"s2":["disentías"],"vos":["disentías"],"s3":["disentía"],"p1":["disentíamos"],"p2":["disentíais"],"p3":["disentían"]},
+    "IndPret": {"s1":["disentí"],"s2":["disentiste"],"vos":["disentiste"],"s3":["disintió"],"p1":["disentimos"],"p2":["disentisteis"],"p3":["disintieron"]},
+    "IndFut": {"s1":["disentiré"],"s2":["disentirás"],"vos":["disentirás"],"s3":["disentirá"],"p1":["disentiremos"],"p2":["disentiréis"],"p3":["disentirán"]},
+    "IndCond": {"s1":["disentiría"],"s2":["disentirías"],"vos":["disentirías"],"s3":["disentiría"],"p1":["disentiríamos"],"p2":["disentiríais"],"p3":["disentirían"]},
+    "SubPres": {"s1":["disienta"],"s2":["disientas"],"vos":["disientas","disintás"],"s3":["disienta"],"p1":["disintamos"],"p2":["disintáis"],"p3":["disientan"]},
+    "SubImp": {"s1":["disintiera","disintiese"],"s2":["disintieras","disintieses"],"vos":["disintieras","disintieses"],"s3":["disintiera","disintiese"],"p1":["disintiéramos","disintiésemos"],"p2":["disintierais","disintieseis"],"p3":["disintieran","disintiesen"]},
+    "SubFut": {"s1":["disintiere"],"s2":["disintieres"],"vos":["disintieres"],"s3":["disintiere"],"p1":["disintiéremos"],"p2":["disintiereis"],"p3":["disintieren"]},
+    "CmdPos": {"s2":["disiente"],"vos":["disentí"],"s3":["disienta"],"p1":["disintamos"],"p2":["disentid"],"p3":["disientan"]}
+  }
+}

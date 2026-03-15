@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esẽmbolˈβ̞eɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["volver","mover"]
+  },
+  "formas_no_personales": {"infinitivo":"desenvolver","gerundio":"desenvolviendo","participio":"desenvuelto"},
+  "formas_personales": {
+    "IndPres": {"s1":["desenvuelvo"],"s2":["desenvuelves"],"vos":["desenvolvés"],"s3":["desenvuelve"],"p1":["desenvolvemos"],"p2":["desenvolvéis"],"p3":["desenvuelven"]},
+    "IndImp": {"s1":["desenvolvía"],"s2":["desenvolvías"],"vos":["desenvolvías"],"s3":["desenvolvía"],"p1":["desenvolvíamos"],"p2":["desenvolvíais"],"p3":["desenvolvían"]},
+    "IndPret": {"s1":["desenvolví"],"s2":["desenvolviste"],"vos":["desenvolviste"],"s3":["desenvolvió"],"p1":["desenvolvimos"],"p2":["desenvolvisteis"],"p3":["desenvolvieron"]},
+    "IndFut": {"s1":["desenvolveré"],"s2":["desenvolverás"],"vos":["desenvolverás"],"s3":["desenvolverá"],"p1":["desenvolveremos"],"p2":["desenvolveréis"],"p3":["desenvolverán"]},
+    "IndCond": {"s1":["desenvolvería"],"s2":["desenvolverías"],"vos":["desenvolverías"],"s3":["desenvolvería"],"p1":["desenvolveríamos"],"p2":["desenvolveríais"],"p3":["desenvolverían"]},
+    "SubPres": {"s1":["desenvuelva"],"s2":["desenvuelvas"],"vos":["desenvuelvas","desenvolvás"],"s3":["desenvuelva"],"p1":["desenvolvamos"],"p2":["desenvolváis"],"p3":["desenvuelvan"]},
+    "SubImp": {"s1":["desenvolviera","desenvolviese"],"s2":["desenvolvieras","desenvolvieses"],"vos":["desenvolvieras","desenvolvieses"],"s3":["desenvolviera","desenvolviese"],"p1":["desenvolviéramos","desenvolviésemos"],"p2":["desenvolvierais","desenvolvieseis"],"p3":["desenvolvieran","desenvolviesen"]},
+    "SubFut": {"s1":["desenvolviere"],"s2":["desenvolvieres"],"vos":["desenvolvieres"],"s3":["desenvolviere"],"p1":["desenvolviéremos"],"p2":["desenvolviereis"],"p3":["desenvolvieren"]},
+    "CmdPos": {"s2":["desenvuelve"],"vos":["desenvolvé"],"s3":["desenvuelva"],"p1":["desenvolvamos"],"p2":["desenvolved"],"p3":["desenvuelvan"]}
+  }
+}

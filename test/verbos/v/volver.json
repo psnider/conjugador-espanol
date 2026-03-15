@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bolˈβ̞eɾ]",
+    "silabacion": "vol-ver",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín volvere.",
+    "modelos": ["volver","mover"]
+  },
+  "formas_no_personales": {"infinitivo":"volver","gerundio":"volviendo","participio":"vuelto"},
+  "formas_personales": {
+    "IndPres": {"s1":["vuelvo"],"s2":["vuelves"],"vos":["volvés"],"s3":["vuelve"],"p1":["volvemos"],"p2":["volvéis"],"p3":["vuelven"]},
+    "IndImp": {"s1":["volvía"],"s2":["volvías"],"vos":["volvías"],"s3":["volvía"],"p1":["volvíamos"],"p2":["volvíais"],"p3":["volvían"]},
+    "IndPret": {"s1":["volví"],"s2":["volviste"],"vos":["volviste"],"s3":["volvió"],"p1":["volvimos"],"p2":["volvisteis"],"p3":["volvieron"]},
+    "IndFut": {"s1":["volveré"],"s2":["volverás"],"vos":["volverás"],"s3":["volverá"],"p1":["volveremos"],"p2":["volveréis"],"p3":["volverán"]},
+    "IndCond": {"s1":["volvería"],"s2":["volverías"],"vos":["volverías"],"s3":["volvería"],"p1":["volveríamos"],"p2":["volveríais"],"p3":["volverían"]},
+    "SubPres": {"s1":["vuelva"],"s2":["vuelvas"],"vos":["vuelvas","volvás"],"s3":["vuelva"],"p1":["volvamos"],"p2":["volváis"],"p3":["vuelvan"]},
+    "SubImp": {"s1":["volviera","volviese"],"s2":["volvieras","volvieses"],"vos":["volvieras","volvieses"],"s3":["volviera","volviese"],"p1":["volviéramos","volviésemos"],"p2":["volvierais","volvieseis"],"p3":["volvieran","volviesen"]},
+    "SubFut": {"s1":["volviere"],"s2":["volvieres"],"vos":["volvieres"],"s3":["volviere"],"p1":["volviéremos"],"p2":["volviereis"],"p3":["volvieren"]},
+    "CmdPos": {"s2":["vuelve"],"vos":["volvé"],"s3":["vuelva"],"p1":["volvamos"],"p2":["volved"],"p3":["vuelvan"]}
+  }
+}

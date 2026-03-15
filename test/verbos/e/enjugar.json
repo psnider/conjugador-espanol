@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[ẽŋxuˈɣ̞aɾ]",
-  "silabacion": "en-ju-gar",
-  "acentuacion": "aguda",
-  "etimologia": "Del latín exsucāre (\"sacar el jugo\")",
-  "modelos": ["llegar"]
-},
+    "pronunciacion": "[ẽŋxuˈɣ̞aɾ]",
+    "silabacion": "en-ju-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exsucāre (\"sacar el jugo\")",
+    "modelos": ["llegar"]
+  },
   "formas_no_personales": {"infinitivo":"enjugar","gerundio":"enjugando","participio":"enjugado"},
   "formas_personales": {
     "IndPres": {"s1":["enjugo"],"s2":["enjugas"],"vos":["enjugás"],"s3":["enjuga"],"p1":["enjugamos"],"p2":["enjugáis"],"p3":["enjugan"]},
@@ -17,5 +17,5 @@
     "SubImp": {"s1":["enjugara","enjugase"],"s2":["enjugaras","enjugases"],"vos":["enjugaras","enjugases"],"s3":["enjugara","enjugase"],"p1":["enjugáramos","enjugásemos"],"p2":["enjugarais","enjugaseis"],"p3":["enjugaran","enjugasen"]},
     "SubFut": {"s1":["enjugare"],"s2":["enjugares"],"vos":["enjugares"],"s3":["enjugare"],"p1":["enjugáremos"],"p2":["enjugareis"],"p3":["enjugaren"]},
     "CmdPos": {"s2":["enjuga"],"vos":["enjugá"],"s3":["enjugue"],"p1":["enjuguemos"],"p2":["enjugad"],"p3":["enjuguen"]}
-}
+  }
 }

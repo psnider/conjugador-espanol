@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈgjaɾ]",
+    "acentuacion": "monosílaba",
+    "etimologia": "De origen incierto.[2]",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"guiar","gerundio":"guiando","participio":"guiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["guío"],"s2":["guías"],"vos":["guiás"],"s3":["guía"],"p1":["guiamos"],"p2":["guiáis"],"p3":["guían"]},
+    "IndImp": {"s1":["guiaba"],"s2":["guiabas"],"vos":["guiabas"],"s3":["guiaba"],"p1":["guiábamos"],"p2":["guiabais"],"p3":["guiaban"]},
+    "IndPret": {"s1":["guié"],"s2":["guiaste"],"vos":["guiaste"],"s3":["guió"],"p1":["guiamos"],"p2":["guiasteis"],"p3":["guiaron"]},
+    "IndFut": {"s1":["guiaré"],"s2":["guiarás"],"vos":["guiarás"],"s3":["guiará"],"p1":["guiaremos"],"p2":["guiaréis"],"p3":["guiarán"]},
+    "IndCond": {"s1":["guiaría"],"s2":["guiarías"],"vos":["guiarías"],"s3":["guiaría"],"p1":["guiaríamos"],"p2":["guiaríais"],"p3":["guiarían"]},
+    "SubPres": {"s1":["guíe"],"s2":["guíes"],"vos":["guíes","guiés"],"s3":["guíe"],"p1":["guiemos"],"p2":["guiéis"],"p3":["guíen"]},
+    "SubImp": {"s1":["guiara","guiase"],"s2":["guiaras","guiases"],"vos":["guiaras","guiases"],"s3":["guiara","guiase"],"p1":["guiáramos","guiásemos"],"p2":["guiarais","guiaseis"],"p3":["guiaran","guiasen"]},
+    "SubFut": {"s1":["guiare"],"s2":["guiares"],"vos":["guiares"],"s3":["guiare"],"p1":["guiáremos"],"p2":["guiareis"],"p3":["guiaren"]},
+    "CmdPos": {"s2":["guía"],"vos":["guiá"],"s3":["guíe"],"p1":["guiemos"],"p2":["guiad"],"p3":["guíen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ʝeˈɣ̞aɾ]",
+    "silabacion": "lle-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín plico. Compárese el portugués chegar y también el rumano pleca.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"llegar","gerundio":"llegando","participio":"llegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["llego"],"s2":["llegas"],"vos":["llegás"],"s3":["llega"],"p1":["llegamos"],"p2":["llegáis"],"p3":["llegan"]},
+    "IndImp": {"s1":["llegaba"],"s2":["llegabas"],"vos":["llegabas"],"s3":["llegaba"],"p1":["llegábamos"],"p2":["llegabais"],"p3":["llegaban"]},
+    "IndPret": {"s1":["llegué"],"s2":["llegaste"],"vos":["llegaste"],"s3":["llegó"],"p1":["llegamos"],"p2":["llegasteis"],"p3":["llegaron"]},
+    "IndFut": {"s1":["llegaré"],"s2":["llegarás"],"vos":["llegarás"],"s3":["llegará"],"p1":["llegaremos"],"p2":["llegaréis"],"p3":["llegarán"]},
+    "IndCond": {"s1":["llegaría"],"s2":["llegarías"],"vos":["llegarías"],"s3":["llegaría"],"p1":["llegaríamos"],"p2":["llegaríais"],"p3":["llegarían"]},
+    "SubPres": {"s1":["llegue"],"s2":["llegues"],"vos":["llegues","llegués"],"s3":["llegue"],"p1":["lleguemos"],"p2":["lleguéis"],"p3":["lleguen"]},
+    "SubImp": {"s1":["llegara","llegase"],"s2":["llegaras","llegases"],"vos":["llegaras","llegases"],"s3":["llegara","llegase"],"p1":["llegáramos","llegásemos"],"p2":["llegarais","llegaseis"],"p3":["llegaran","llegasen"]},
+    "SubFut": {"s1":["llegare"],"s2":["llegares"],"vos":["llegares"],"s3":["llegare"],"p1":["llegáremos"],"p2":["llegareis"],"p3":["llegaren"]},
+    "CmdPos": {"s2":["llega"],"vos":["llegá"],"s3":["llegue"],"p1":["lleguemos"],"p2":["llegad"],"p3":["lleguen"]}
+  }
+}

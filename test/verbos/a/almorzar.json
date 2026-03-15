@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[almoɾˈsaɾ]",
+    "silabacion": "al-mor-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De almuerzo y el sufijo -ar.",
+    "modelos": ["realizar","contar"]
+  },
+  "formas_no_personales": {"infinitivo":"almorzar","gerundio":"almorzando","participio":"almorzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["almuerzo"],"s2":["almuerzas"],"vos":["almorzás"],"s3":["almuerza"],"p1":["almorzamos"],"p2":["almorzáis"],"p3":["almuerzan"]},
+    "IndImp": {"s1":["almorzaba"],"s2":["almorzabas"],"vos":["almorzabas"],"s3":["almorzaba"],"p1":["almorzábamos"],"p2":["almorzabais"],"p3":["almorzaban"]},
+    "IndPret": {"s1":["almorcé"],"s2":["almorzaste"],"vos":["almorzaste"],"s3":["almorzó"],"p1":["almorzamos"],"p2":["almorzasteis"],"p3":["almorzaron"]},
+    "IndFut": {"s1":["almorzaré"],"s2":["almorzarás"],"vos":["almorzarás"],"s3":["almorzará"],"p1":["almorzaremos"],"p2":["almorzaréis"],"p3":["almorzarán"]},
+    "IndCond": {"s1":["almorzaría"],"s2":["almorzarías"],"vos":["almorzarías"],"s3":["almorzaría"],"p1":["almorzaríamos"],"p2":["almorzaríais"],"p3":["almorzarían"]},
+    "SubPres": {"s1":["almuerce"],"s2":["almuerces"],"vos":["almuerces","almorcés"],"s3":["almuerce"],"p1":["almorcemos"],"p2":["almorcéis"],"p3":["almuercen"]},
+    "SubImp": {"s1":["almorzara","almorzase"],"s2":["almorzaras","almorzases"],"vos":["almorzaras","almorzases"],"s3":["almorzara","almorzase"],"p1":["almorzáramos","almorzásemos"],"p2":["almorzarais","almorzaseis"],"p3":["almorzaran","almorzasen"]},
+    "SubFut": {"s1":["almorzare"],"s2":["almorzares"],"vos":["almorzares"],"s3":["almorzare"],"p1":["almorzáremos"],"p2":["almorzareis"],"p3":["almorzaren"]},
+    "CmdPos": {"s2":["almuerza"],"vos":["almorzá"],"s3":["almuerce"],"p1":["almorcemos"],"p2":["almorzad"],"p3":["almuercen"]}
+  }
+}

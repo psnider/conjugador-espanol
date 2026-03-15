@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekomẽn̪ˈd̪aɾ]",
+    "silabacion": "re-co-men-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y comendar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"recomendar","gerundio":"recomendando","participio":"recomendado"},
+  "formas_personales": {
+    "IndPres": {"s1":["recomiendo"],"s2":["recomiendas"],"vos":["recomendás"],"s3":["recomienda"],"p1":["recomendamos"],"p2":["recomendáis"],"p3":["recomiendan"]},
+    "IndImp": {"s1":["recomendaba"],"s2":["recomendabas"],"vos":["recomendabas"],"s3":["recomendaba"],"p1":["recomendábamos"],"p2":["recomendabais"],"p3":["recomendaban"]},
+    "IndPret": {"s1":["recomendé"],"s2":["recomendaste"],"vos":["recomendaste"],"s3":["recomendó"],"p1":["recomendamos"],"p2":["recomendasteis"],"p3":["recomendaron"]},
+    "IndFut": {"s1":["recomendaré"],"s2":["recomendarás"],"vos":["recomendarás"],"s3":["recomendará"],"p1":["recomendaremos"],"p2":["recomendaréis"],"p3":["recomendarán"]},
+    "IndCond": {"s1":["recomendaría"],"s2":["recomendarías"],"vos":["recomendarías"],"s3":["recomendaría"],"p1":["recomendaríamos"],"p2":["recomendaríais"],"p3":["recomendarían"]},
+    "SubPres": {"s1":["recomiende"],"s2":["recomiendes"],"vos":["recomiendes","recomendés"],"s3":["recomiende"],"p1":["recomendemos"],"p2":["recomendéis"],"p3":["recomienden"]},
+    "SubImp": {"s1":["recomendara","recomendase"],"s2":["recomendaras","recomendases"],"vos":["recomendaras","recomendases"],"s3":["recomendara","recomendase"],"p1":["recomendáramos","recomendásemos"],"p2":["recomendarais","recomendaseis"],"p3":["recomendaran","recomendasen"]},
+    "SubFut": {"s1":["recomendare"],"s2":["recomendares"],"vos":["recomendares"],"s3":["recomendare"],"p1":["recomendáremos"],"p2":["recomendareis"],"p3":["recomendaren"]},
+    "CmdPos": {"s2":["recomienda"],"vos":["recomendá"],"s3":["recomiende"],"p1":["recomendemos"],"p2":["recomendad"],"p3":["recomienden"]}
+  }
+}

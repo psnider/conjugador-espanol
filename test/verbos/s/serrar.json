@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈraɾ]",
+    "silabacion": "se-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo serrar ('serrar'), y este del latín serrāre&nbsp;('serrar').",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"serrar","gerundio":"serrando","participio":"serrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sierro"],"s2":["sierras"],"vos":["serrás"],"s3":["sierra"],"p1":["serramos"],"p2":["serráis"],"p3":["sierran"]},
+    "IndImp": {"s1":["serraba"],"s2":["serrabas"],"vos":["serrabas"],"s3":["serraba"],"p1":["serrábamos"],"p2":["serrabais"],"p3":["serraban"]},
+    "IndPret": {"s1":["serré"],"s2":["serraste"],"vos":["serraste"],"s3":["serró"],"p1":["serramos"],"p2":["serrasteis"],"p3":["serraron"]},
+    "IndFut": {"s1":["serraré"],"s2":["serrarás"],"vos":["serrarás"],"s3":["serrará"],"p1":["serraremos"],"p2":["serraréis"],"p3":["serrarán"]},
+    "IndCond": {"s1":["serraría"],"s2":["serrarías"],"vos":["serrarías"],"s3":["serraría"],"p1":["serraríamos"],"p2":["serraríais"],"p3":["serrarían"]},
+    "SubPres": {"s1":["sierre"],"s2":["sierres"],"vos":["sierres","serrés"],"s3":["sierre"],"p1":["serremos"],"p2":["serréis"],"p3":["sierren"]},
+    "SubImp": {"s1":["serrara","serrase"],"s2":["serraras","serrases"],"vos":["serraras","serrases"],"s3":["serrara","serrase"],"p1":["serráramos","serrásemos"],"p2":["serrarais","serraseis"],"p3":["serraran","serrasen"]},
+    "SubFut": {"s1":["serrare"],"s2":["serrares"],"vos":["serrares"],"s3":["serrare"],"p1":["serráremos"],"p2":["serrareis"],"p3":["serraren"]},
+    "CmdPos": {"s2":["sierra"],"vos":["serrá"],"s3":["sierre"],"p1":["serremos"],"p2":["serrad"],"p3":["sierren"]}
+  }
+}

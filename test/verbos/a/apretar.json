@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apɾeˈt̪aɾ]",
+    "silabacion": "a-pre-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín appectorāre, derivado de pectus&nbsp;('pecho')",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"apretar","gerundio":"apretando","participio":"apretado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aprieto"],"s2":["aprietas"],"vos":["apretás"],"s3":["aprieta"],"p1":["apretamos"],"p2":["apretáis"],"p3":["aprietan"]},
+    "IndImp": {"s1":["apretaba"],"s2":["apretabas"],"vos":["apretabas"],"s3":["apretaba"],"p1":["apretábamos"],"p2":["apretabais"],"p3":["apretaban"]},
+    "IndPret": {"s1":["apreté"],"s2":["apretaste"],"vos":["apretaste"],"s3":["apretó"],"p1":["apretamos"],"p2":["apretasteis"],"p3":["apretaron"]},
+    "IndFut": {"s1":["apretaré"],"s2":["apretarás"],"vos":["apretarás"],"s3":["apretará"],"p1":["apretaremos"],"p2":["apretaréis"],"p3":["apretarán"]},
+    "IndCond": {"s1":["apretaría"],"s2":["apretarías"],"vos":["apretarías"],"s3":["apretaría"],"p1":["apretaríamos"],"p2":["apretaríais"],"p3":["apretarían"]},
+    "SubPres": {"s1":["apriete"],"s2":["aprietes"],"vos":["aprietes","apretés"],"s3":["apriete"],"p1":["apretemos"],"p2":["apretéis"],"p3":["aprieten"]},
+    "SubImp": {"s1":["apretara","apretase"],"s2":["apretaras","apretases"],"vos":["apretaras","apretases"],"s3":["apretara","apretase"],"p1":["apretáramos","apretásemos"],"p2":["apretarais","apretaseis"],"p3":["apretaran","apretasen"]},
+    "SubFut": {"s1":["apretare"],"s2":["apretares"],"vos":["apretares"],"s3":["apretare"],"p1":["apretáremos"],"p2":["apretareis"],"p3":["apretaren"]},
+    "CmdPos": {"s2":["aprieta"],"vos":["apretá"],"s3":["apriete"],"p1":["apretemos"],"p2":["apretad"],"p3":["aprieten"]}
+  }
+}

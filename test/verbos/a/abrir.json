@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈβ̞ɾiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aperīre.",
+    "modelos": ["abrir"]
+  },
+  "formas_no_personales": {"infinitivo":"abrir","gerundio":"abriendo","participio":"abierto"},
+  "formas_personales": {
+    "IndPres": {"s1":["abro"],"s2":["abres"],"vos":["abrís"],"s3":["abre"],"p1":["abrimos"],"p2":["abrís"],"p3":["abren"]},
+    "IndImp": {"s1":["abría"],"s2":["abrías"],"vos":["abrías"],"s3":["abría"],"p1":["abríamos"],"p2":["abríais"],"p3":["abrían"]},
+    "IndPret": {"s1":["abrí"],"s2":["abriste"],"vos":["abriste"],"s3":["abrió"],"p1":["abrimos"],"p2":["abristeis"],"p3":["abrieron"]},
+    "IndFut": {"s1":["abriré"],"s2":["abrirás"],"vos":["abrirás"],"s3":["abrirá"],"p1":["abriremos"],"p2":["abriréis"],"p3":["abrirán"]},
+    "IndCond": {"s1":["abriría"],"s2":["abrirías"],"vos":["abrirías"],"s3":["abriría"],"p1":["abriríamos"],"p2":["abriríais"],"p3":["abrirían"]},
+    "SubPres": {"s1":["abra"],"s2":["abras"],"vos":["abras"],"s3":["abra"],"p1":["abramos"],"p2":["abráis"],"p3":["abran"]},
+    "SubImp": {"s1":["abriera","abriese"],"s2":["abrieras","abrieses"],"vos":["abrieras","abrieses"],"s3":["abriera","abriese"],"p1":["abriéramos","abriésemos"],"p2":["abrierais","abrieseis"],"p3":["abrieran","abriesen"]},
+    "SubFut": {"s1":["abriere"],"s2":["abrieres"],"vos":["abrieres"],"s3":["abriere"],"p1":["abriéremos"],"p2":["abriereis"],"p3":["abrieren"]},
+    "CmdPos": {"s2":["abre"],"vos":["abrí"],"s3":["abra"],"p1":["abramos"],"p2":["abrid"],"p3":["abran"]}
+  },
+  "urls": ["https://es.wiktionary.org/wiki/partir", "https://dle.rae.es/abrir"] 
+}

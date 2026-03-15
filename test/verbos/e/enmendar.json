@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmmẽn̪ˈd̪aɾ]",
+    "silabacion": "en-men-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De emendar, con epéntesis de [ n ] por influencia del prefijo en-.[1]",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"enmendar","gerundio":"enmendando","participio":"enmendado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enmiendo"],"s2":["enmiendas"],"vos":["enmendás"],"s3":["enmienda"],"p1":["enmendamos"],"p2":["enmendáis"],"p3":["enmiendan"]},
+    "IndImp": {"s1":["enmendaba"],"s2":["enmendabas"],"vos":["enmendabas"],"s3":["enmendaba"],"p1":["enmendábamos"],"p2":["enmendabais"],"p3":["enmendaban"]},
+    "IndPret": {"s1":["enmendé"],"s2":["enmendaste"],"vos":["enmendaste"],"s3":["enmendó"],"p1":["enmendamos"],"p2":["enmendasteis"],"p3":["enmendaron"]},
+    "IndFut": {"s1":["enmendaré"],"s2":["enmendarás"],"vos":["enmendarás"],"s3":["enmendará"],"p1":["enmendaremos"],"p2":["enmendaréis"],"p3":["enmendarán"]},
+    "IndCond": {"s1":["enmendaría"],"s2":["enmendarías"],"vos":["enmendarías"],"s3":["enmendaría"],"p1":["enmendaríamos"],"p2":["enmendaríais"],"p3":["enmendarían"]},
+    "SubPres": {"s1":["enmiende"],"s2":["enmiendes"],"vos":["enmiendes","enmendés"],"s3":["enmiende"],"p1":["enmendemos"],"p2":["enmendéis"],"p3":["enmienden"]},
+    "SubImp": {"s1":["enmendara","enmendase"],"s2":["enmendaras","enmendases"],"vos":["enmendaras","enmendases"],"s3":["enmendara","enmendase"],"p1":["enmendáramos","enmendásemos"],"p2":["enmendarais","enmendaseis"],"p3":["enmendaran","enmendasen"]},
+    "SubFut": {"s1":["enmendare"],"s2":["enmendares"],"vos":["enmendares"],"s3":["enmendare"],"p1":["enmendáremos"],"p2":["enmendareis"],"p3":["enmendaren"]},
+    "CmdPos": {"s2":["enmienda"],"vos":["enmendá"],"s3":["enmiende"],"p1":["enmendemos"],"p2":["enmendad"],"p3":["enmienden"]}
+  }
+}

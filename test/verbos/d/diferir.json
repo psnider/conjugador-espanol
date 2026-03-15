@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ifeˈɾiɾ]",
+    "silabacion": "di-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín differre (\"separar, apartar, llevarse\"), compuesto de dis-&nbsp;('lejos') y ferre&nbsp;('llevar')",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"diferir","gerundio":"difiriendo","participio":"diferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["difiero"],"s2":["difieres"],"vos":["diferís"],"s3":["difiere"],"p1":["diferimos"],"p2":["diferís"],"p3":["difieren"]},
+    "IndImp": {"s1":["difería"],"s2":["diferías"],"vos":["diferías"],"s3":["difería"],"p1":["diferíamos"],"p2":["diferíais"],"p3":["diferían"]},
+    "IndPret": {"s1":["diferí"],"s2":["diferiste"],"vos":["diferiste"],"s3":["difirió"],"p1":["diferimos"],"p2":["diferisteis"],"p3":["difirieron"]},
+    "IndFut": {"s1":["diferiré"],"s2":["diferirás"],"vos":["diferirás"],"s3":["diferirá"],"p1":["diferiremos"],"p2":["diferiréis"],"p3":["diferirán"]},
+    "IndCond": {"s1":["diferiría"],"s2":["diferirías"],"vos":["diferirías"],"s3":["diferiría"],"p1":["diferiríamos"],"p2":["diferiríais"],"p3":["diferirían"]},
+    "SubPres": {"s1":["difiera"],"s2":["difieras"],"vos":["difieras","difirás"],"s3":["difiera"],"p1":["difiramos"],"p2":["difiráis"],"p3":["difieran"]},
+    "SubImp": {"s1":["difiriera","difiriese"],"s2":["difirieras","difirieses"],"vos":["difirieras","difirieses"],"s3":["difiriera","difiriese"],"p1":["difiriéramos","difiriésemos"],"p2":["difirierais","difirieseis"],"p3":["difirieran","difiriesen"]},
+    "SubFut": {"s1":["difiriere"],"s2":["difirieres"],"vos":["difirieres"],"s3":["difiriere"],"p1":["difiriéremos"],"p2":["difiriereis"],"p3":["difirieren"]},
+    "CmdPos": {"s2":["difiere"],"vos":["diferí"],"s3":["difiera"],"p1":["difiramos"],"p2":["diferid"],"p3":["difieran"]}
+  }
+}

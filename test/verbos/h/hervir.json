@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eɾˈβ̞iɾ]",
+    "silabacion": "her-vir",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo fervir, y este del latín fervere, del protoindoeuropeo *bʰrw-. Compárese efervescente, enfervorizar, fermento, férvido, ferviente, fervor, el italiano fervere, el portugués ferver o el rumano fierbe.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"hervir","gerundio":"hirviendo","participio":"hervido"},
+  "formas_personales": {
+    "IndPres": {"s1":["hiervo"],"s2":["hierves"],"vos":["hervís"],"s3":["hierve"],"p1":["hervimos"],"p2":["hervís"],"p3":["hierven"]},
+    "IndImp": {"s1":["hervía"],"s2":["hervías"],"vos":["hervías"],"s3":["hervía"],"p1":["hervíamos"],"p2":["hervíais"],"p3":["hervían"]},
+    "IndPret": {"s1":["herví"],"s2":["herviste"],"vos":["herviste"],"s3":["hirvió"],"p1":["hervimos"],"p2":["hervisteis"],"p3":["hirvieron"]},
+    "IndFut": {"s1":["herviré"],"s2":["hervirás"],"vos":["hervirás"],"s3":["hervirá"],"p1":["herviremos"],"p2":["herviréis"],"p3":["hervirán"]},
+    "IndCond": {"s1":["herviría"],"s2":["hervirías"],"vos":["hervirías"],"s3":["herviría"],"p1":["herviríamos"],"p2":["herviríais"],"p3":["hervirían"]},
+    "SubPres": {"s1":["hierva"],"s2":["hiervas"],"vos":["hiervas","hirvás"],"s3":["hierva"],"p1":["hirvamos"],"p2":["hirváis"],"p3":["hiervan"]},
+    "SubImp": {"s1":["hirviera","hirviese"],"s2":["hirvieras","hirvieses"],"vos":["hirvieras","hirvieses"],"s3":["hirviera","hirviese"],"p1":["hirviéramos","hirviésemos"],"p2":["hirvierais","hirvieseis"],"p3":["hirvieran","hirviesen"]},
+    "SubFut": {"s1":["hirviere"],"s2":["hirvieres"],"vos":["hirvieres"],"s3":["hirviere"],"p1":["hirviéremos"],"p2":["hirviereis"],"p3":["hirvieren"]},
+    "CmdPos": {"s2":["hierve"],"vos":["herví"],"s3":["hierva"],"p1":["hirvamos"],"p2":["hervid"],"p3":["hiervan"]}
+  }
+}

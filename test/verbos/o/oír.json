@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oˈiɾ]",
+    "silabacion": "o-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín audīre.",
+    "modelos": ["oír"]
+  },
+  "formas_no_personales": {"infinitivo":"oír","gerundio":"oyendo","participio":"oído"},
+  "formas_personales": {
+    "IndPres": {"s1":["oigo"],"s2":["oyes"],"vos":["oís"],"s3":["oye"],"p1":["oímos"],"p2":["oís"],"p3":["oyen"]},
+    "IndImp": {"s1":["oía"],"s2":["oías"],"vos":["oías"],"s3":["oía"],"p1":["oíamos"],"p2":["oíais"],"p3":["oían"]},
+    "IndPret": {"s1":["oí"],"s2":["oíste"],"vos":["oíste"],"s3":["oyó"],"p1":["oímos"],"p2":["oísteis"],"p3":["oyeron"]},
+    "IndFut": {"s1":["oiré"],"s2":["oirás"],"vos":["oirás"],"s3":["oirá"],"p1":["oiremos"],"p2":["oiréis"],"p3":["oirán"]},
+    "IndCond": {"s1":["oiría"],"s2":["oirías"],"vos":["oirías"],"s3":["oiría"],"p1":["oiríamos"],"p2":["oiríais"],"p3":["oirían"]},
+    "SubPres": {"s1":["oiga"],"s2":["oigas"],"vos":["oigas","oigás"],"s3":["oiga"],"p1":["oigamos"],"p2":["oigáis"],"p3":["oigan"]},
+    "SubImp": {"s1":["oyera","oyese"],"s2":["oyeras","oyeses"],"vos":["oyeras","oyeses"],"s3":["oyera","oyese"],"p1":["oyéramos","oyésemos"],"p2":["oyerais","oyeseis"],"p3":["oyeran","oyesen"]},
+    "SubFut": {"s1":["oyere"],"s2":["oyeres"],"vos":["oyeres"],"s3":["oyere"],"p1":["oyéremos"],"p2":["oyereis"],"p3":["oyeren"]},
+    "CmdPos": {"s2":["oye"],"vos":["oí"],"s3":["oiga"],"p1":["oigamos"],"p2":["oíd"],"p3":["oigan"]}
+  }
+}

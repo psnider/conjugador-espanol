@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rewˈniɾ]",
+    "silabacion": "reu-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y unir.",
+    "modelos": ["reunir"]
+  },
+  "formas_no_personales": {"infinitivo":"reunir","gerundio":"reuniendo","participio":"reunido"},
+  "formas_personales": {
+    "IndPres": {"s1":["reúno"],"s2":["reúnes"],"vos":["reunís"],"s3":["reúne"],"p1":["reunimos"],"p2":["reunís"],"p3":["reúnen"]},
+    "IndImp": {"s1":["reunía"],"s2":["reunías"],"vos":["reunías"],"s3":["reunía"],"p1":["reuníamos"],"p2":["reuníais"],"p3":["reunían"]},
+    "IndPret": {"s1":["reuní"],"s2":["reuniste"],"vos":["reuniste"],"s3":["reunió"],"p1":["reunimos"],"p2":["reunisteis"],"p3":["reunieron"]},
+    "IndFut": {"s1":["reuniré"],"s2":["reunirás"],"vos":["reunirás"],"s3":["reunirá"],"p1":["reuniremos"],"p2":["reuniréis"],"p3":["reunirán"]},
+    "IndCond": {"s1":["reuniría"],"s2":["reunirías"],"vos":["reunirías"],"s3":["reuniría"],"p1":["reuniríamos"],"p2":["reuniríais"],"p3":["reunirían"]},
+    "SubPres": {"s1":["reúna"],"s2":["reúnas"],"vos":["reúnas","reunás"],"s3":["reúna"],"p1":["reunamos"],"p2":["reunáis"],"p3":["reúnan"]},
+    "SubImp": {"s1":["reuniera","reuniese"],"s2":["reunieras","reunieses"],"vos":["reunieras","reunieses"],"s3":["reuniera","reuniese"],"p1":["reuniéramos","reuniésemos"],"p2":["reunierais","reunieseis"],"p3":["reunieran","reuniesen"]},
+    "SubFut": {"s1":["reuniere"],"s2":["reunieres"],"vos":["reunieres"],"s3":["reuniere"],"p1":["reuniéremos"],"p2":["reuniereis"],"p3":["reunieren"]},
+    "CmdPos": {"s2":["reúne"],"vos":["reuní"],"s3":["reúna"],"p1":["reunamos"],"p2":["reunid"],"p3":["reúnan"]}
+  }
+}

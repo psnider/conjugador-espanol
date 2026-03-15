@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iseɾˈniɾ]",
+    "silabacion": "dis-cer-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín discernĕre (\"separar, distinguir, reconocer\"), compuesto del latín cernĕre.",
+    "modelos": ["discernir"]
+  },
+  "formas_no_personales": {"infinitivo":"discernir","gerundio":"discerniendo","participio":"discernido"},
+  "formas_personales": {
+    "IndPres": {"s1":["discierno"],"s2":["disciernes"],"vos":["discernís"],"s3":["discierne"],"p1":["discernimos"],"p2":["discernís"],"p3":["disciernen"]},
+    "IndImp": {"s1":["discernía"],"s2":["discernías"],"vos":["discernías"],"s3":["discernía"],"p1":["discerníamos"],"p2":["discerníais"],"p3":["discernían"]},
+    "IndPret": {"s1":["discerní"],"s2":["discerniste"],"vos":["discerniste"],"s3":["discernió"],"p1":["discernimos"],"p2":["discernisteis"],"p3":["discernieron"]},
+    "IndFut": {"s1":["discerniré"],"s2":["discernirás"],"vos":["discernirás"],"s3":["discernirá"],"p1":["discerniremos"],"p2":["discerniréis"],"p3":["discernirán"]},
+    "IndCond": {"s1":["discerniría"],"s2":["discernirías"],"vos":["discernirías"],"s3":["discerniría"],"p1":["discerniríamos"],"p2":["discerniríais"],"p3":["discernirían"]},
+    "SubPres": {"s1":["discierna"],"s2":["disciernas"],"vos":["disciernas","discernás"],"s3":["discierna"],"p1":["discernamos"],"p2":["discernáis"],"p3":["disciernan"]},
+    "SubImp": {"s1":["discerniera","discerniese"],"s2":["discernieras","discernieses"],"vos":["discernieras","discernieses"],"s3":["discerniera","discerniese"],"p1":["discerniéramos","discerniésemos"],"p2":["discernierais","discernieseis"],"p3":["discernieran","discerniesen"]},
+    "SubFut": {"s1":["discerniere"],"s2":["discernieres"],"vos":["discernieres"],"s3":["discerniere"],"p1":["discerniéremos"],"p2":["discerniereis"],"p3":["discernieren"]},
+    "CmdPos": {"s2":["discierne"],"vos":["discerní"],"s3":["discierna"],"p1":["discernamos"],"p2":["discernid"],"p3":["disciernan"]}
+  }
+}

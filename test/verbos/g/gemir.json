@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xeˈmiɾ]",
+    "silabacion": "ge-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín gemere.",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"gemir","gerundio":"gimiendo","participio":"gemido"},
+  "formas_personales": {
+    "IndPres": {"s1":["gimo"],"s2":["gimes"],"vos":["gemís"],"s3":["gime"],"p1":["gemimos"],"p2":["gemís"],"p3":["gimen"]},
+    "IndImp": {"s1":["gemía"],"s2":["gemías"],"vos":["gemías"],"s3":["gemía"],"p1":["gemíamos"],"p2":["gemíais"],"p3":["gemían"]},
+    "IndPret": {"s1":["gemí"],"s2":["gemiste"],"vos":["gemiste"],"s3":["gimió"],"p1":["gemimos"],"p2":["gemisteis"],"p3":["gimieron"]},
+    "IndFut": {"s1":["gemiré"],"s2":["gemirás"],"vos":["gemirás"],"s3":["gemirá"],"p1":["gemiremos"],"p2":["gemiréis"],"p3":["gemirán"]},
+    "IndCond": {"s1":["gemiría"],"s2":["gemirías"],"vos":["gemirías"],"s3":["gemiría"],"p1":["gemiríamos"],"p2":["gemiríais"],"p3":["gemirían"]},
+    "SubPres": {"s1":["gima"],"s2":["gimas"],"vos":["gimas","gimás"],"s3":["gima"],"p1":["gimamos"],"p2":["gimáis"],"p3":["giman"]},
+    "SubImp": {"s1":["gimiera","gimiese"],"s2":["gimieras","gimieses"],"vos":["gimieras","gimieses"],"s3":["gimiera","gimiese"],"p1":["gimiéramos","gimiésemos"],"p2":["gimierais","gimieseis"],"p3":["gimieran","gimiesen"]},
+    "SubFut": {"s1":["gimiere"],"s2":["gimieres"],"vos":["gimieres"],"s3":["gimiere"],"p1":["gimiéremos"],"p2":["gimiereis"],"p3":["gimieren"]},
+    "CmdPos": {"s2":["gime"],"vos":["gemí"],"s3":["gima"],"p1":["gimamos"],"p2":["gemid"],"p3":["giman"]}
+  }
+}

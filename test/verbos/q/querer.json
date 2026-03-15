@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[keˈɾeɾ]",
+    "silabacion": "que-rer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín quaerere ('buscar'), \"requerir\" o \"pedir\".",
+    "modelos": ["entender","querer"]
+  },
+  "formas_no_personales": {"infinitivo":"querer","gerundio":"queriendo","participio":"querido"},
+  "formas_personales": {
+    "IndPres": {"s1":["quiero"],"s2":["quieres"],"vos":["querés"],"s3":["quiere"],"p1":["queremos"],"p2":["queréis"],"p3":["quieren"]},
+    "IndImp": {"s1":["quería"],"s2":["querías"],"vos":["querías"],"s3":["quería"],"p1":["queríamos"],"p2":["queríais"],"p3":["querían"]},
+    "IndPret": {"s1":["quise"],"s2":["quisiste"],"vos":["quisiste"],"s3":["quiso"],"p1":["quisimos"],"p2":["quisisteis"],"p3":["quisieron"]},
+    "IndFut": {"s1":["querré"],"s2":["querrás"],"vos":["querrás"],"s3":["querrá"],"p1":["querremos"],"p2":["querréis"],"p3":["querrán"]},
+    "IndCond": {"s1":["querría"],"s2":["querrías"],"vos":["querrías"],"s3":["querría"],"p1":["querríamos"],"p2":["querríais"],"p3":["querrían"]},
+    "SubPres": {"s1":["quiera"],"s2":["quieras"],"vos":["quieras","querás"],"s3":["quiera"],"p1":["queramos"],"p2":["queráis"],"p3":["quieran"]},
+    "SubImp": {"s1":["quisiera","quisiese"],"s2":["quisieras","quisieses"],"vos":["quisieras","quisieses"],"s3":["quisiera","quisiese"],"p1":["quisiéramos","quisiésemos"],"p2":["quisierais","quisieseis"],"p3":["quisieran","quisiesen"]},
+    "SubFut": {"s1":["quisiere"],"s2":["quisieres"],"vos":["quisieres"],"s3":["quisiere"],"p1":["quisiéremos"],"p2":["quisiereis"],"p3":["quisieren"]},
+    "CmdPos": {"s2":["quiere"],"vos":["queré"],"s3":["quiera"],"p1":["queramos"],"p2":["quered"],"p3":["quieran"]}
+  }
+}

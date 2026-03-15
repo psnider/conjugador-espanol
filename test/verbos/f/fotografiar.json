@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fot̪oɣ̞ɾaˈfjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De fotografía y el sufijo -ar",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"fotografiar","gerundio":"fotografiando","participio":"fotografiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fotografío"],"s2":["fotografías"],"vos":["fotografiás"],"s3":["fotografía"],"p1":["fotografiamos"],"p2":["fotografiáis"],"p3":["fotografían"]},
+    "IndImp": {"s1":["fotografiaba"],"s2":["fotografiabas"],"vos":["fotografiabas"],"s3":["fotografiaba"],"p1":["fotografiábamos"],"p2":["fotografiabais"],"p3":["fotografiaban"]},
+    "IndPret": {"s1":["fotografié"],"s2":["fotografiaste"],"vos":["fotografiaste"],"s3":["fotografió"],"p1":["fotografiamos"],"p2":["fotografiasteis"],"p3":["fotografiaron"]},
+    "IndFut": {"s1":["fotografiaré"],"s2":["fotografiarás"],"vos":["fotografiarás"],"s3":["fotografiará"],"p1":["fotografiaremos"],"p2":["fotografiaréis"],"p3":["fotografiarán"]},
+    "IndCond": {"s1":["fotografiaría"],"s2":["fotografiarías"],"vos":["fotografiarías"],"s3":["fotografiaría"],"p1":["fotografiaríamos"],"p2":["fotografiaríais"],"p3":["fotografiarían"]},
+    "SubPres": {"s1":["fotografíe"],"s2":["fotografíes"],"vos":["fotografíes","fotografiés"],"s3":["fotografíe"],"p1":["fotografiemos"],"p2":["fotografiéis"],"p3":["fotografíen"]},
+    "SubImp": {"s1":["fotografiara","fotografiase"],"s2":["fotografiaras","fotografiases"],"vos":["fotografiaras","fotografiases"],"s3":["fotografiara","fotografiase"],"p1":["fotografiáramos","fotografiásemos"],"p2":["fotografiarais","fotografiaseis"],"p3":["fotografiaran","fotografiasen"]},
+    "SubFut": {"s1":["fotografiare"],"s2":["fotografiares"],"vos":["fotografiares"],"s3":["fotografiare"],"p1":["fotografiáremos"],"p2":["fotografiareis"],"p3":["fotografiaren"]},
+    "CmdPos": {"s2":["fotografía"],"vos":["fotografiá"],"s3":["fotografíe"],"p1":["fotografiemos"],"p2":["fotografiad"],"p3":["fotografíen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈd̪aɾ]",
+    "silabacion": "dar",
+    "acentuacion": "monosílaba",
+    "etimologia": "Del castellano antiguo dar ('dar'), y este del latín do.",
+    "modelos": ["dar"]
+  },
+  "formas_no_personales": {"infinitivo":"dar","gerundio":"dando","participio":"dado"},
+  "formas_personales": {
+    "IndPres": {"s1":["doy"],"s2":["das"],"vos":["das"],"s3":["da"],"p1":["damos"],"p2":["dais"],"p3":["dan"]},
+    "IndImp": {"s1":["daba"],"s2":["dabas"],"vos":["dabas"],"s3":["daba"],"p1":["dábamos"],"p2":["dabais"],"p3":["daban"]},
+    "IndPret": {"s1":["di"],"s2":["diste"],"vos":["diste"],"s3":["dio"],"p1":["dimos"],"p2":["disteis"],"p3":["dieron"]},
+    "IndFut": {"s1":["daré"],"s2":["darás"],"vos":["darás"],"s3":["dará"],"p1":["daremos"],"p2":["daréis"],"p3":["darán"]},
+    "IndCond": {"s1":["daría"],"s2":["darías"],"vos":["darías"],"s3":["daría"],"p1":["daríamos"],"p2":["daríais"],"p3":["darían"]},
+    "SubPres": {"s1":["dé"],"s2":["des"],"vos":["des","des"],"s3":["dé"],"p1":["demos"],"p2":["deis"],"p3":["den"]},
+    "SubImp": {"s1":["diera","diese"],"s2":["dieras","dieses"],"vos":["dieras","dieses"],"s3":["diera","diese"],"p1":["diéramos","diésemos"],"p2":["dierais","dieseis"],"p3":["dieran","diesen"]},
+    "SubFut": {"s1":["diere"],"s2":["dieres"],"vos":["dieres"],"s3":["diere"],"p1":["diéremos"],"p2":["diereis"],"p3":["dieren"]},
+    "CmdPos": {"s2":["da"],"vos":["da"],"s3":["dé"],"p1":["demos"],"p2":["dad"],"p3":["den"]}
+  }
+}

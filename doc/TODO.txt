@@ -1,3 +1,7 @@
+# Repair comparision of forms to be order agnostic
+See haber: "ha","hay" 
+
+
 # verbos con dos formas
 adecuar          u>u
 describir        dos participios: descrito o descripto	

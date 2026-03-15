@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[kõŋxuˈɣ̞aɾ]",
-  "silabacion": "con-ju-gar",
-  "acentuacion": "aguda",
-  "etimologia": null,
-  "modelos": ["llegar"]
-},
+    "pronunciacion": "[kõŋxuˈɣ̞aɾ]",
+    "silabacion": "con-ju-gar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["llegar"]
+  },
   "formas_no_personales": {"infinitivo":"conjugar","gerundio":"conjugando","participio":"conjugado"},
   "formas_personales": {
     "IndPres": {"s1":["conjugo"],"s2":["conjugas"],"vos":["conjugás"],"s3":["conjuga"],"p1":["conjugamos"],"p2":["conjugáis"],"p3":["conjugan"]},
@@ -17,5 +17,5 @@
     "SubImp": {"s1":["conjugara","conjugase"],"s2":["conjugaras","conjugases"],"vos":["conjugaras","conjugases"],"s3":["conjugara","conjugase"],"p1":["conjugáramos","conjugásemos"],"p2":["conjugarais","conjugaseis"],"p3":["conjugaran","conjugasen"]},
     "SubFut": {"s1":["conjugare"],"s2":["conjugares"],"vos":["conjugares"],"s3":["conjugare"],"p1":["conjugáremos"],"p2":["conjugareis"],"p3":["conjugaren"]},
     "CmdPos": {"s2":["conjuga"],"vos":["conjugá"],"s3":["conjugue"],"p1":["conjuguemos"],"p2":["conjugad"],"p3":["conjuguen"]}
-}
+  }
 }

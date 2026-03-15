@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞β̞eɾˈt̪iɾ]",
+    "silabacion": "ad-ver-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín advertĕre.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"advertir","gerundio":"advirtiendo","participio":"advertido"},
+  "formas_personales": {
+    "IndPres": {"s1":["advierto"],"s2":["adviertes"],"vos":["advertís"],"s3":["advierte"],"p1":["advertimos"],"p2":["advertís"],"p3":["advierten"]},
+    "IndImp": {"s1":["advertía"],"s2":["advertías"],"vos":["advertías"],"s3":["advertía"],"p1":["advertíamos"],"p2":["advertíais"],"p3":["advertían"]},
+    "IndPret": {"s1":["advertí"],"s2":["advertiste"],"vos":["advertiste"],"s3":["advirtió"],"p1":["advertimos"],"p2":["advertisteis"],"p3":["advirtieron"]},
+    "IndFut": {"s1":["advertiré"],"s2":["advertirás"],"vos":["advertirás"],"s3":["advertirá"],"p1":["advertiremos"],"p2":["advertiréis"],"p3":["advertirán"]},
+    "IndCond": {"s1":["advertiría"],"s2":["advertirías"],"vos":["advertirías"],"s3":["advertiría"],"p1":["advertiríamos"],"p2":["advertiríais"],"p3":["advertirían"]},
+    "SubPres": {"s1":["advierta"],"s2":["adviertas"],"vos":["adviertas","advirtás"],"s3":["advierta"],"p1":["advirtamos"],"p2":["advirtáis"],"p3":["adviertan"]},
+    "SubImp": {"s1":["advirtiera","advirtiese"],"s2":["advirtieras","advirtieses"],"vos":["advirtieras","advirtieses"],"s3":["advirtiera","advirtiese"],"p1":["advirtiéramos","advirtiésemos"],"p2":["advirtierais","advirtieseis"],"p3":["advirtieran","advirtiesen"]},
+    "SubFut": {"s1":["advirtiere"],"s2":["advirtieres"],"vos":["advirtieres"],"s3":["advirtiere"],"p1":["advirtiéremos"],"p2":["advirtiereis"],"p3":["advirtieren"]},
+    "CmdPos": {"s2":["advierte"],"vos":["advertí"],"s3":["advierta"],"p1":["advirtamos"],"p2":["advertid"],"p3":["adviertan"]}
+  }
+}

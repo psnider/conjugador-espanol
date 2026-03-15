@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esoˈsaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["desosar"]
+  },
+  "formas_no_personales": {"infinitivo":"desosar","gerundio":"desosando","participio":"desosado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deshueso"],"s2":["deshuesas"],"vos":["desosás"],"s3":["deshuesa"],"p1":["desosamos"],"p2":["desosáis"],"p3":["deshuesan"]},
+    "IndImp": {"s1":["desosaba"],"s2":["desosabas"],"vos":["desosabas"],"s3":["desosaba"],"p1":["desosábamos"],"p2":["desosabais"],"p3":["desosaban"]},
+    "IndPret": {"s1":["desosé"],"s2":["desosaste"],"vos":["desosaste"],"s3":["desosó"],"p1":["desosamos"],"p2":["desosasteis"],"p3":["desosaron"]},
+    "IndFut": {"s1":["desosaré"],"s2":["desosarás"],"vos":["desosarás"],"s3":["desosará"],"p1":["desosaremos"],"p2":["desosaréis"],"p3":["desosarán"]},
+    "IndCond": {"s1":["desosaría"],"s2":["desosarías"],"vos":["desosarías"],"s3":["desosaría"],"p1":["desosaríamos"],"p2":["desosaríais"],"p3":["desosarían"]},
+    "SubPres": {"s1":["deshuese"],"s2":["deshueses"],"vos":["deshueses","desosés"],"s3":["deshuese"],"p1":["desosemos"],"p2":["desoséis"],"p3":["deshuesen"]},
+    "SubImp": {"s1":["desosara","desosase"],"s2":["desosaras","desosases"],"vos":["desosaras","desosases"],"s3":["desosara","desosase"],"p1":["desosáramos","desosásemos"],"p2":["desosarais","desosaseis"],"p3":["desosaran","desosasen"]},
+    "SubFut": {"s1":["desosare"],"s2":["desosares"],"vos":["desosares"],"s3":["desosare"],"p1":["desosáremos"],"p2":["desosareis"],"p3":["desosaren"]},
+    "CmdPos": {"s2":["deshuesa"],"vos":["desosá"],"s3":["deshuese"],"p1":["desosemos"],"p2":["desosad"],"p3":["deshuesen"]}
+  }
+}

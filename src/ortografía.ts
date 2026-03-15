@@ -133,7 +133,7 @@ export interface OrthographicalChangeRule {
 
 
 
-// A mapping of the last 3 or 4 characters of an infinitive to the possible typographic change rule.
+// A mapping of the last 3 or 4 characters of an infinitivo to the possible typographic change rule.
 // NOTE: these are searched in the same order that they are presented in this list, and the first match is selected.
 const infinitive_ending_sound_rules: {[ending: string]: string} = {
     quir: "preserve-hard-c-sound-of-q",
@@ -195,10 +195,14 @@ const orthographical_change_rules : {[rule_name: string]: OrthographicalChangeRu
 
 
 // Apply any orthographical changes to the given part of a verb conjugation or participle derivation
-export function applyOrthographicalChangesCommon(full_form: string, suffix: string, do_correct_dieresis: boolean): string | undefined {
-    let changed = full_form
+export function applyOrthographicalChangesCommon(args: {form: string, suffix: string, do_correct_dieresis: boolean, do_correct_ñi_yi: boolean}): string | undefined {
+    const {form, do_correct_dieresis, do_correct_ñi_yi} = args
+    let changed = form
     if (do_correct_dieresis) {
         changed = correctDiéresis(changed)
+    }
+    if (do_correct_ñi_yi) {
+        changed = correctYir(changed)
     }
     // mantener hiato
     changed = changed.replace(/([aeo])i(ste|mos|steis|do)$/, "$1í$2")
@@ -214,20 +218,20 @@ export function applyOrthographicalChangesCommon(full_form: string, suffix: stri
 
 
 // Apply any orthographical changes to the given form of a verb conjugation.
-export function applyOrthographicalChangesToConjugatedForm(infinitive: string, form: string, suffix: string, do_correct_dieresis: boolean): string {
-    const rule = findInfinitiveBaseEndingSoundRule(infinitive)
+export function applyOrthographicalChangesToConjugatedForm(infinitivo: string, form: string, suffix: string, do_correct_dieresis: boolean, do_correct_ñi_yi: boolean): string {
+    const rule = findInfinitiveBaseEndingSoundRule(infinitivo)
     if (rule) {
         form = form.replace(rule.match_pattern, rule.replacement_pattern)
     }
-    form = applyOrthographicalChangesCommon(form, suffix, do_correct_dieresis)
+    form = applyOrthographicalChangesCommon({form, suffix, do_correct_dieresis, do_correct_ñi_yi})
     return form
 }
 
 
-export function applyOrthographicalChangesForParticiples(participles: Participios, gerund_ending: string, do_correct_dieresis: boolean, rules_applied: ParticipleRulesApplied[]): Participios | undefined {
+export function applyOrthographicalChangesForParticiples(participles: Participios, gerund_ending: string, do_correct_dieresis: boolean, do_correct_ñi_yi: boolean, rules_applied: ParticipleRulesApplied[]): Participios | undefined {
     const orthography : Participios = {}
-    const gerundio = applyOrthographicalChangesCommon(participles.gerundio, gerund_ending, do_correct_dieresis)
-    const participio = applyOrthographicalChangesCommon(participles.participio, participles.participio.slice(-3), do_correct_dieresis)
+    const gerundio = applyOrthographicalChangesCommon({form: participles.gerundio, suffix: gerund_ending, do_correct_dieresis, do_correct_ñi_yi})
+    const participio = applyOrthographicalChangesCommon({form: participles.participio, suffix: participles.participio.slice(-3), do_correct_dieresis, do_correct_ñi_yi})
     if (gerundio && (gerundio !== participles.gerundio)) {
         orthography.gerundio = gerundio
     }
@@ -241,14 +245,14 @@ export function applyOrthographicalChangesForParticiples(participles: Participio
 }
 
 
-export function findInfinitiveBaseEndingSoundRule(infinitive: string) : OrthographicalChangeRule | undefined {
-    let ending = infinitive.slice(-4)
+export function findInfinitiveBaseEndingSoundRule(infinitivo: string) : OrthographicalChangeRule | undefined {
+    let ending = infinitivo.slice(-4)
     let rule_name = infinitive_ending_sound_rules[ending]
     if (rule_name === null) {
         return
     }
     if (!rule_name) {
-        ending = infinitive.slice(-3)
+        ending = infinitivo.slice(-3)
         rule_name = infinitive_ending_sound_rules[ending]
     }
     if (rule_name) {
@@ -261,24 +265,31 @@ export function findInfinitiveBaseEndingSoundRule(infinitive: string) : Orthogra
 export function correctDiéresis(conjugation: string) {
     // Order matters here: first resolve üi/ü + vowel, then restore güi/güí
     conjugation = conjugation.replace(/üi?([aáeéoó])/, "uy$1")
-    return conjugation.replace(/gu([ií])/, "gü$1")
+    return conjugation.replace(/gu([eéií])/, "gü$1")
 }
 
+
+export function correctYir(conjugation: string) {
+    conjugation = conjugation.replace(/([ñy])i([eéoó])/, "$1$2")
+    return conjugation
+}
 
 // @return The conjugated forms after applying the orthographical change rules.
 // @param @output rules_applied Contains the names of the rules that were applied to the input verb.
 // export function __getOrthographicChanges(stem: string, ending: string, form: string, do_correct_dieresis: boolean): string | undefined {
 //     return
 // }
-export function getOrthographicChanges(infinitive: string, mood_tense: MoodTense, forms: VerbConjugation, suffixes: VerbConjugationSuffixes, rules_applied: VerbRulesApplied[]): VerbConjugation {
+export function getOrthographicChanges(infinitivo: string, mood_tense: MoodTense, forms: VerbConjugation, suffixes: VerbConjugationSuffixes, rules_applied: VerbRulesApplied[]): VerbConjugation {
     const orthography: VerbConjugation = {}
-    const do_correct_dieresis = infinitive.includes("ü")
+    // perhaps this can be merged with other similar tests and changes
+    const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll")
+    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
     for (const key in forms) {
         const gramatical_person = key as keyof VerbConjugation;
         const changed_forms = applyToVerbForms(forms[gramatical_person], (form: string, i: number) => {
             const suffixes_for_person = suffixes[gramatical_person]
             const suffix = suffixes_for_person[i] || suffixes_for_person[0] 
-            return applyOrthographicalChangesToConjugatedForm(infinitive, form, suffix, do_correct_dieresis)
+            return applyOrthographicalChangesToConjugatedForm(infinitivo, form, suffix, do_correct_diéresis, do_correct_ñi_yi)
         })
         orthography[gramatical_person] = changed_forms
     }

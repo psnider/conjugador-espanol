@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roˈð̞aɾ]",
+    "silabacion": "ro-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rotare.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"rodar","gerundio":"rodando","participio":"rodado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ruedo"],"s2":["ruedas"],"vos":["rodás"],"s3":["rueda"],"p1":["rodamos"],"p2":["rodáis"],"p3":["ruedan"]},
+    "IndImp": {"s1":["rodaba"],"s2":["rodabas"],"vos":["rodabas"],"s3":["rodaba"],"p1":["rodábamos"],"p2":["rodabais"],"p3":["rodaban"]},
+    "IndPret": {"s1":["rodé"],"s2":["rodaste"],"vos":["rodaste"],"s3":["rodó"],"p1":["rodamos"],"p2":["rodasteis"],"p3":["rodaron"]},
+    "IndFut": {"s1":["rodaré"],"s2":["rodarás"],"vos":["rodarás"],"s3":["rodará"],"p1":["rodaremos"],"p2":["rodaréis"],"p3":["rodarán"]},
+    "IndCond": {"s1":["rodaría"],"s2":["rodarías"],"vos":["rodarías"],"s3":["rodaría"],"p1":["rodaríamos"],"p2":["rodaríais"],"p3":["rodarían"]},
+    "SubPres": {"s1":["ruede"],"s2":["ruedes"],"vos":["ruedes","rodés"],"s3":["ruede"],"p1":["rodemos"],"p2":["rodéis"],"p3":["rueden"]},
+    "SubImp": {"s1":["rodara","rodase"],"s2":["rodaras","rodases"],"vos":["rodaras","rodases"],"s3":["rodara","rodase"],"p1":["rodáramos","rodásemos"],"p2":["rodarais","rodaseis"],"p3":["rodaran","rodasen"]},
+    "SubFut": {"s1":["rodare"],"s2":["rodares"],"vos":["rodares"],"s3":["rodare"],"p1":["rodáremos"],"p2":["rodareis"],"p3":["rodaren"]},
+    "CmdPos": {"s2":["rueda"],"vos":["rodá"],"s3":["ruede"],"p1":["rodemos"],"p2":["rodad"],"p3":["rueden"]}
+  }
+}

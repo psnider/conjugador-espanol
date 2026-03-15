@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɾˈɣ̞wiɾ]",
+    "silabacion": "ar-güir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín arguere.[1]",
+    "modelos": ["argüir"]
+  },
+  "formas_no_personales": {"infinitivo":"argüir","gerundio":"arguyendo","participio":"argüido"},
+  "formas_personales": {
+    "IndPres": {"s1":["arguyo"],"s2":["arguyes"],"vos":["argüís"],"s3":["arguye"],"p1":["argüimos"],"p2":["argüís"],"p3":["arguyen"]},
+    "IndImp": {"s1":["argüía"],"s2":["argüías"],"vos":["argüías"],"s3":["argüía"],"p1":["argüíamos"],"p2":["argüíais"],"p3":["argüían"]},
+    "IndPret": {"s1":["argüí"],"s2":["argüiste"],"vos":["argüiste"],"s3":["arguyó"],"p1":["argüimos"],"p2":["argüisteis"],"p3":["arguyeron"]},
+    "IndFut": {"s1":["argüiré"],"s2":["argüirás"],"vos":["argüirás"],"s3":["argüirá"],"p1":["argüiremos"],"p2":["argüiréis"],"p3":["argüirán"]},
+    "IndCond": {"s1":["argüiría"],"s2":["argüirías"],"vos":["argüirías"],"s3":["argüiría"],"p1":["argüiríamos"],"p2":["argüiríais"],"p3":["argüirían"]},
+    "SubPres": {"s1":["arguya"],"s2":["arguyas"],"vos":["arguyas","arguyás"],"s3":["arguya"],"p1":["arguyamos"],"p2":["arguyáis"],"p3":["arguyan"]},
+    "SubImp": {"s1":["arguyera","arguyese"],"s2":["arguyeras","arguyeses"],"vos":["arguyeras","arguyeses"],"s3":["arguyera","arguyese"],"p1":["arguyéramos","arguyésemos"],"p2":["arguyerais","arguyeseis"],"p3":["arguyeran","arguyesen"]},
+    "SubFut": {"s1":["arguyere"],"s2":["arguyeres"],"vos":["arguyeres"],"s3":["arguyere"],"p1":["arguyéremos"],"p2":["arguyereis"],"p3":["arguyeren"]},
+    "CmdPos": {"s2":["arguye"],"vos":["argüí"],"s3":["arguya"],"p1":["arguyamos"],"p2":["argüid"],"p3":["arguyan"]}
+  }
+}

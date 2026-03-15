@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekoɾˈð̞aɾ]",
+    "silabacion": "re-cor-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín recordāri, y este a su vez de re- y cor, cordis ('corazón'), pues se creía que este era el órgano responsable de la memoria, el pensamiento y los recuerdos.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"recordar","gerundio":"recordando","participio":"recordado"},
+  "formas_personales": {
+    "IndPres": {"s1":["recuerdo"],"s2":["recuerdas"],"vos":["recordás"],"s3":["recuerda"],"p1":["recordamos"],"p2":["recordáis"],"p3":["recuerdan"]},
+    "IndImp": {"s1":["recordaba"],"s2":["recordabas"],"vos":["recordabas"],"s3":["recordaba"],"p1":["recordábamos"],"p2":["recordabais"],"p3":["recordaban"]},
+    "IndPret": {"s1":["recordé"],"s2":["recordaste"],"vos":["recordaste"],"s3":["recordó"],"p1":["recordamos"],"p2":["recordasteis"],"p3":["recordaron"]},
+    "IndFut": {"s1":["recordaré"],"s2":["recordarás"],"vos":["recordarás"],"s3":["recordará"],"p1":["recordaremos"],"p2":["recordaréis"],"p3":["recordarán"]},
+    "IndCond": {"s1":["recordaría"],"s2":["recordarías"],"vos":["recordarías"],"s3":["recordaría"],"p1":["recordaríamos"],"p2":["recordaríais"],"p3":["recordarían"]},
+    "SubPres": {"s1":["recuerde"],"s2":["recuerdes"],"vos":["recuerdes","recordés"],"s3":["recuerde"],"p1":["recordemos"],"p2":["recordéis"],"p3":["recuerden"]},
+    "SubImp": {"s1":["recordara","recordase"],"s2":["recordaras","recordases"],"vos":["recordaras","recordases"],"s3":["recordara","recordase"],"p1":["recordáramos","recordásemos"],"p2":["recordarais","recordaseis"],"p3":["recordaran","recordasen"]},
+    "SubFut": {"s1":["recordare"],"s2":["recordares"],"vos":["recordares"],"s3":["recordare"],"p1":["recordáremos"],"p2":["recordareis"],"p3":["recordaren"]},
+    "CmdPos": {"s2":["recuerda"],"vos":["recordá"],"s3":["recuerde"],"p1":["recordemos"],"p2":["recordad"],"p3":["recuerden"]}
+  }
+}

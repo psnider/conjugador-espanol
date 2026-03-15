@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[poˈneɾ]",
+    "silabacion": "po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Cultismo. Se documenta por primera vez en 1140. Del latín ponĕre.",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"poner","gerundio":"poniendo","participio":"puesto"},
+  "formas_personales": {
+    "IndPres": {"s1":["pongo"],"s2":["pones"],"vos":["ponés"],"s3":["pone"],"p1":["ponemos"],"p2":["ponéis"],"p3":["ponen"]},
+    "IndImp": {"s1":["ponía"],"s2":["ponías"],"vos":["ponías"],"s3":["ponía"],"p1":["poníamos"],"p2":["poníais"],"p3":["ponían"]},
+    "IndPret": {"s1":["puse"],"s2":["pusiste"],"vos":["pusiste"],"s3":["puso"],"p1":["pusimos"],"p2":["pusisteis"],"p3":["pusieron"]},
+    "IndFut": {"s1":["pondré"],"s2":["pondrás"],"vos":["pondrás"],"s3":["pondrá"],"p1":["pondremos"],"p2":["pondréis"],"p3":["pondrán"]},
+    "IndCond": {"s1":["pondría"],"s2":["pondrías"],"vos":["pondrías"],"s3":["pondría"],"p1":["pondríamos"],"p2":["pondríais"],"p3":["pondrían"]},
+    "SubPres": {"s1":["ponga"],"s2":["pongas"],"vos":["pongas","pongás"],"s3":["ponga"],"p1":["pongamos"],"p2":["pongáis"],"p3":["pongan"]},
+    "SubImp": {"s1":["pusiera","pusiese"],"s2":["pusieras","pusieses"],"vos":["pusieras","pusieses"],"s3":["pusiera","pusiese"],"p1":["pusiéramos","pusiésemos"],"p2":["pusierais","pusieseis"],"p3":["pusieran","pusiesen"]},
+    "SubFut": {"s1":["pusiere"],"s2":["pusieres"],"vos":["pusieres"],"s3":["pusiere"],"p1":["pusiéremos"],"p2":["pusiereis"],"p3":["pusieren"]},
+    "CmdPos": {"s2":{"estándar":["pon"],"atípicos":[{"forma":"pone","etiquetas":["no normativo"]}]},"vos":["poné"],"s3":["ponga"],"p1":["pongamos"],"p2":["poned"],"p3":["pongan"]}
+  }
+}

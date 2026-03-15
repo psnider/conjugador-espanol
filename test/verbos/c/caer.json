@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈeɾ]",
+    "silabacion": "ca-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cadĕre.",
+    "modelos": ["caer"]
+  },
+  "formas_no_personales": {"infinitivo":"caer","gerundio":"cayendo","participio":"caído"},
+  "formas_personales": {
+    "IndPres": {"s1":["caigo"],"s2":["caes"],"vos":["caés"],"s3":["cae"],"p1":["caemos"],"p2":["caéis"],"p3":["caen"]},
+    "IndImp": {"s1":["caía"],"s2":["caías"],"vos":["caías"],"s3":["caía"],"p1":["caíamos"],"p2":["caíais"],"p3":["caían"]},
+    "IndPret": {"s1":["caí"],"s2":["caíste"],"vos":["caíste"],"s3":["cayó"],"p1":["caímos"],"p2":["caísteis"],"p3":["cayeron"]},
+    "IndFut": {"s1":["caeré"],"s2":["caerás"],"vos":["caerás"],"s3":["caerá"],"p1":["caeremos"],"p2":["caeréis"],"p3":["caerán"]},
+    "IndCond": {"s1":["caería"],"s2":["caerías"],"vos":["caerías"],"s3":["caería"],"p1":["caeríamos"],"p2":["caeríais"],"p3":["caerían"]},
+    "SubPres": {"s1":["caiga"],"s2":["caigas"],"vos":["caigas","caigás"],"s3":["caiga"],"p1":["caigamos"],"p2":["caigáis"],"p3":["caigan"]},
+    "SubImp": {"s1":["cayera","cayese"],"s2":["cayeras","cayeses"],"vos":["cayeras","cayeses"],"s3":["cayera","cayese"],"p1":["cayéramos","cayésemos"],"p2":["cayerais","cayeseis"],"p3":["cayeran","cayesen"]},
+    "SubFut": {"s1":["cayere"],"s2":["cayeres"],"vos":["cayeres"],"s3":["cayere"],"p1":["cayéremos"],"p2":["cayereis"],"p3":["cayeren"]},
+    "CmdPos": {"s2":["cae"],"vos":["caé"],"s3":["caiga"],"p1":["caigamos"],"p2":["caed"],"p3":["caigan"]}
+  }
+}

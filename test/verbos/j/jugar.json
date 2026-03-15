@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xuˈɣ̞aɾ]",
+    "silabacion": "ju-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín iocari.",
+    "modelos": ["llegar","contar"]
+  },
+  "formas_no_personales": {"infinitivo":"jugar","gerundio":"jugando","participio":"jugado"},
+  "formas_personales": {
+    "IndPres": {"s1":["juego"],"s2":["juegas"],"vos":["jugás"],"s3":["juega"],"p1":["jugamos"],"p2":["jugáis"],"p3":["juegan"]},
+    "IndImp": {"s1":["jugaba"],"s2":["jugabas"],"vos":["jugabas"],"s3":["jugaba"],"p1":["jugábamos"],"p2":["jugabais"],"p3":["jugaban"]},
+    "IndPret": {"s1":["jugué"],"s2":["jugaste"],"vos":["jugaste"],"s3":["jugó"],"p1":["jugamos"],"p2":["jugasteis"],"p3":["jugaron"]},
+    "IndFut": {"s1":["jugaré"],"s2":["jugarás"],"vos":["jugarás"],"s3":["jugará"],"p1":["jugaremos"],"p2":["jugaréis"],"p3":["jugarán"]},
+    "IndCond": {"s1":["jugaría"],"s2":["jugarías"],"vos":["jugarías"],"s3":["jugaría"],"p1":["jugaríamos"],"p2":["jugaríais"],"p3":["jugarían"]},
+    "SubPres": {"s1":["juegue"],"s2":["juegues"],"vos":["juegues","jugués"],"s3":["juegue"],"p1":["juguemos"],"p2":["juguéis"],"p3":["jueguen"]},
+    "SubImp": {"s1":["jugara","jugase"],"s2":["jugaras","jugases"],"vos":["jugaras","jugases"],"s3":["jugara","jugase"],"p1":["jugáramos","jugásemos"],"p2":["jugarais","jugaseis"],"p3":["jugaran","jugasen"]},
+    "SubFut": {"s1":["jugare"],"s2":["jugares"],"vos":["jugares"],"s3":["jugare"],"p1":["jugáremos"],"p2":["jugareis"],"p3":["jugaren"]},
+    "CmdPos": {"s2":["juega"],"vos":["jugá"],"s3":["juegue"],"p1":["juguemos"],"p2":["jugad"],"p3":["jueguen"]}
+  }
+}

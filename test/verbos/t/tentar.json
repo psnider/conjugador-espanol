@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ẽn̪ˈt̪aɾ]",
+    "silabacion": "ten-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín temptō, temptāre (\"poner a prueba, incitar, tocar\").",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"tentar","gerundio":"tentando","participio":"tentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tiento"],"s2":["tientas"],"vos":["tentás"],"s3":["tienta"],"p1":["tentamos"],"p2":["tentáis"],"p3":["tientan"]},
+    "IndImp": {"s1":["tentaba"],"s2":["tentabas"],"vos":["tentabas"],"s3":["tentaba"],"p1":["tentábamos"],"p2":["tentabais"],"p3":["tentaban"]},
+    "IndPret": {"s1":["tenté"],"s2":["tentaste"],"vos":["tentaste"],"s3":["tentó"],"p1":["tentamos"],"p2":["tentasteis"],"p3":["tentaron"]},
+    "IndFut": {"s1":["tentaré"],"s2":["tentarás"],"vos":["tentarás"],"s3":["tentará"],"p1":["tentaremos"],"p2":["tentaréis"],"p3":["tentarán"]},
+    "IndCond": {"s1":["tentaría"],"s2":["tentarías"],"vos":["tentarías"],"s3":["tentaría"],"p1":["tentaríamos"],"p2":["tentaríais"],"p3":["tentarían"]},
+    "SubPres": {"s1":["tiente"],"s2":["tientes"],"vos":["tientes","tentés"],"s3":["tiente"],"p1":["tentemos"],"p2":["tentéis"],"p3":["tienten"]},
+    "SubImp": {"s1":["tentara","tentase"],"s2":["tentaras","tentases"],"vos":["tentaras","tentases"],"s3":["tentara","tentase"],"p1":["tentáramos","tentásemos"],"p2":["tentarais","tentaseis"],"p3":["tentaran","tentasen"]},
+    "SubFut": {"s1":["tentare"],"s2":["tentares"],"vos":["tentares"],"s3":["tentare"],"p1":["tentáremos"],"p2":["tentareis"],"p3":["tentaren"]},
+    "CmdPos": {"s2":["tienta"],"vos":["tentá"],"s3":["tiente"],"p1":["tentemos"],"p2":["tentad"],"p3":["tienten"]}
+  }
+}

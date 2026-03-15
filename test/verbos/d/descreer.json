@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskɾeˈeɾ]",
+    "silabacion": "des-cre-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y creer",
+    "modelos": ["leer"]
+  },
+  "formas_no_personales": {"infinitivo":"descreer","gerundio":"descreyendo","participio":"descreído"},
+  "formas_personales": {
+    "IndPres": {"s1":["descreo"],"s2":["descrees"],"vos":["descreés"],"s3":["descree"],"p1":["descreemos"],"p2":["descreéis"],"p3":["descreen"]},
+    "IndImp": {"s1":["descreía"],"s2":["descreías"],"vos":["descreías"],"s3":["descreía"],"p1":["descreíamos"],"p2":["descreíais"],"p3":["descreían"]},
+    "IndPret": {"s1":["descreí"],"s2":["descreíste"],"vos":["descreíste"],"s3":["descreyó"],"p1":["descreímos"],"p2":["descreísteis"],"p3":["descreyeron"]},
+    "IndFut": {"s1":["descreeré"],"s2":["descreerás"],"vos":["descreerás"],"s3":["descreerá"],"p1":["descreeremos"],"p2":["descreeréis"],"p3":["descreerán"]},
+    "IndCond": {"s1":["descreería"],"s2":["descreerías"],"vos":["descreerías"],"s3":["descreería"],"p1":["descreeríamos"],"p2":["descreeríais"],"p3":["descreerían"]},
+    "SubPres": {"s1":["descrea"],"s2":["descreas"],"vos":["descreas","descreás"],"s3":["descrea"],"p1":["descreamos"],"p2":["descreáis"],"p3":["descrean"]},
+    "SubImp": {"s1":["descreyera","descreyese"],"s2":["descreyeras","descreyeses"],"vos":["descreyeras","descreyeses"],"s3":["descreyera","descreyese"],"p1":["descreyéramos","descreyésemos"],"p2":["descreyerais","descreyeseis"],"p3":["descreyeran","descreyesen"]},
+    "SubFut": {"s1":["descreyere"],"s2":["descreyeres"],"vos":["descreyeres"],"s3":["descreyere"],"p1":["descreyéremos"],"p2":["descreyereis"],"p3":["descreyeren"]},
+    "CmdPos": {"s2":["descree"],"vos":["descreé"],"s3":["descrea"],"p1":["descreamos"],"p2":["descreed"],"p3":["descrean"]}
+  }
+}

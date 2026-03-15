@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[manifesˈt̪aɾ]",
+    "silabacion": "ma-ni-fes-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín manifestō, manifestāre, derivado de manifestus (\"patente, palpable\"), compuesto de manus&nbsp;('mano') y *fendō, *fendere (\"cortar, hender\"), variante de findō, findere",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"manifestar","gerundio":"manifestando","participio":"manifestado"},
+  "formas_personales": {
+    "IndPres": {"s1":["manifiesto"],"s2":["manifiestas"],"vos":["manifestás"],"s3":["manifiesta"],"p1":["manifestamos"],"p2":["manifestáis"],"p3":["manifiestan"]},
+    "IndImp": {"s1":["manifestaba"],"s2":["manifestabas"],"vos":["manifestabas"],"s3":["manifestaba"],"p1":["manifestábamos"],"p2":["manifestabais"],"p3":["manifestaban"]},
+    "IndPret": {"s1":["manifesté"],"s2":["manifestaste"],"vos":["manifestaste"],"s3":["manifestó"],"p1":["manifestamos"],"p2":["manifestasteis"],"p3":["manifestaron"]},
+    "IndFut": {"s1":["manifestaré"],"s2":["manifestarás"],"vos":["manifestarás"],"s3":["manifestará"],"p1":["manifestaremos"],"p2":["manifestaréis"],"p3":["manifestarán"]},
+    "IndCond": {"s1":["manifestaría"],"s2":["manifestarías"],"vos":["manifestarías"],"s3":["manifestaría"],"p1":["manifestaríamos"],"p2":["manifestaríais"],"p3":["manifestarían"]},
+    "SubPres": {"s1":["manifieste"],"s2":["manifiestes"],"vos":["manifiestes","manifestés"],"s3":["manifieste"],"p1":["manifestemos"],"p2":["manifestéis"],"p3":["manifiesten"]},
+    "SubImp": {"s1":["manifestara","manifestase"],"s2":["manifestaras","manifestases"],"vos":["manifestaras","manifestases"],"s3":["manifestara","manifestase"],"p1":["manifestáramos","manifestásemos"],"p2":["manifestarais","manifestaseis"],"p3":["manifestaran","manifestasen"]},
+    "SubFut": {"s1":["manifestare"],"s2":["manifestares"],"vos":["manifestares"],"s3":["manifestare"],"p1":["manifestáremos"],"p2":["manifestareis"],"p3":["manifestaren"]},
+    "CmdPos": {"s2":["manifiesta"],"vos":["manifestá"],"s3":["manifieste"],"p1":["manifestemos"],"p2":["manifestad"],"p3":["manifiesten"]}
+  }
+}

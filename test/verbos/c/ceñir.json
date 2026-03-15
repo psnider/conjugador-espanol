@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈɲiɾ]",
+    "silabacion": "ce-ñir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cingĕre.",
+    "modelos": ["gruñir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"ceñir","gerundio":"ciñendo","participio":"ceñido"},
+  "formas_personales": {
+    "IndPres": {"s1":["ciño"],"s2":["ciñes"],"vos":["ceñís"],"s3":["ciñe"],"p1":["ceñimos"],"p2":["ceñís"],"p3":["ciñen"]},
+    "IndImp": {"s1":["ceñía"],"s2":["ceñías"],"vos":["ceñías"],"s3":["ceñía"],"p1":["ceñíamos"],"p2":["ceñíais"],"p3":["ceñían"]},
+    "IndPret": {"s1":["ceñí"],"s2":["ceñiste"],"vos":["ceñiste"],"s3":["ciñó"],"p1":["ceñimos"],"p2":["ceñisteis"],"p3":["ciñeron"]},
+    "IndFut": {"s1":["ceñiré"],"s2":["ceñirás"],"vos":["ceñirás"],"s3":["ceñirá"],"p1":["ceñiremos"],"p2":["ceñiréis"],"p3":["ceñirán"]},
+    "IndCond": {"s1":["ceñiría"],"s2":["ceñirías"],"vos":["ceñirías"],"s3":["ceñiría"],"p1":["ceñiríamos"],"p2":["ceñiríais"],"p3":["ceñirían"]},
+    "SubPres": {"s1":["ciña"],"s2":["ciñas"],"vos":["ciñas","ciñás"],"s3":["ciña"],"p1":["ciñamos"],"p2":["ciñáis"],"p3":["ciñan"]},
+    "SubImp": {"s1":["ciñera","ciñese"],"s2":["ciñeras","ciñeses"],"vos":["ciñeras","ciñeses"],"s3":["ciñera","ciñese"],"p1":["ciñéramos","ciñésemos"],"p2":["ciñerais","ciñeseis"],"p3":["ciñeran","ciñesen"]},
+    "SubFut": {"s1":["ciñere"],"s2":["ciñeres"],"vos":["ciñeres"],"s3":["ciñere"],"p1":["ciñéremos"],"p2":["ciñereis"],"p3":["ciñeren"]},
+    "CmdPos": {"s2":["ciñe"],"vos":["ceñí"],"s3":["ciña"],"p1":["ciñamos"],"p2":["ceñid"],"p3":["ciñan"]}
+  }
+}

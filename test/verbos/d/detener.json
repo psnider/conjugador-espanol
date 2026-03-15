@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪et̪eˈneɾ]",
+    "silabacion": "de-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín detinēre, infinitivo activo de presente de dētineō",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"detener","gerundio":"deteniendo","participio":"detenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["detengo"],"s2":["detienes"],"vos":["detenés"],"s3":["detiene"],"p1":["detenemos"],"p2":["detenéis"],"p3":["detienen"]},
+    "IndImp": {"s1":["detenía"],"s2":["detenías"],"vos":["detenías"],"s3":["detenía"],"p1":["deteníamos"],"p2":["deteníais"],"p3":["detenían"]},
+    "IndPret": {"s1":["detuve"],"s2":["detuviste"],"vos":["detuviste"],"s3":["detuvo"],"p1":["detuvimos"],"p2":["detuvisteis"],"p3":["detuvieron"]},
+    "IndFut": {"s1":["detendré"],"s2":["detendrás"],"vos":["detendrás"],"s3":["detendrá"],"p1":["detendremos"],"p2":["detendréis"],"p3":["detendrán"]},
+    "IndCond": {"s1":["detendría"],"s2":["detendrías"],"vos":["detendrías"],"s3":["detendría"],"p1":["detendríamos"],"p2":["detendríais"],"p3":["detendrían"]},
+    "SubPres": {"s1":["detenga"],"s2":["detengas"],"vos":["detengas","detengás"],"s3":["detenga"],"p1":["detengamos"],"p2":["detengáis"],"p3":["detengan"]},
+    "SubImp": {"s1":["detuviera","detuviese"],"s2":["detuvieras","detuvieses"],"vos":["detuvieras","detuvieses"],"s3":["detuviera","detuviese"],"p1":["detuviéramos","detuviésemos"],"p2":["detuvierais","detuvieseis"],"p3":["detuvieran","detuviesen"]},
+    "SubFut": {"s1":["detuviere"],"s2":["detuvieres"],"vos":["detuvieres"],"s3":["detuviere"],"p1":["detuviéremos"],"p2":["detuviereis"],"p3":["detuvieren"]},
+    "CmdPos": {"s2":{"estándar":["detén"],"atípicos":[{"forma":"detiene","etiquetas":["no normativo"]}]},"vos":["detené"],"s3":["detenga"],"p1":["detengamos"],"p2":["detened"],"p3":["detengan"]}
+  }
+}

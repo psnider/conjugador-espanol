@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[beɾˈt̪eɾ]",
+    "silabacion": "ver-ter",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo verter, del latín vertere.",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"verter","gerundio":"vertiendo","participio":"vertido"},
+  "formas_personales": {
+    "IndPres": {"s1":["vierto"],"s2":["viertes"],"vos":["vertés"],"s3":["vierte"],"p1":["vertemos"],"p2":["vertéis"],"p3":["vierten"]},
+    "IndImp": {"s1":["vertía"],"s2":["vertías"],"vos":["vertías"],"s3":["vertía"],"p1":["vertíamos"],"p2":["vertíais"],"p3":["vertían"]},
+    "IndPret": {"s1":["vertí"],"s2":["vertiste"],"vos":["vertiste"],"s3":["vertió"],"p1":["vertimos"],"p2":["vertisteis"],"p3":["vertieron"]},
+    "IndFut": {"s1":["verteré"],"s2":["verterás"],"vos":["verterás"],"s3":["verterá"],"p1":["verteremos"],"p2":["verteréis"],"p3":["verterán"]},
+    "IndCond": {"s1":["vertería"],"s2":["verterías"],"vos":["verterías"],"s3":["vertería"],"p1":["verteríamos"],"p2":["verteríais"],"p3":["verterían"]},
+    "SubPres": {"s1":["vierta"],"s2":["viertas"],"vos":["viertas","vertás"],"s3":["vierta"],"p1":["vertamos"],"p2":["vertáis"],"p3":["viertan"]},
+    "SubImp": {"s1":["vertiera","vertiese"],"s2":["vertieras","vertieses"],"vos":["vertieras","vertieses"],"s3":["vertiera","vertiese"],"p1":["vertiéramos","vertiésemos"],"p2":["vertierais","vertieseis"],"p3":["vertieran","vertiesen"]},
+    "SubFut": {"s1":["vertiere"],"s2":["vertieres"],"vos":["vertieres"],"s3":["vertiere"],"p1":["vertiéremos"],"p2":["vertiereis"],"p3":["vertieren"]},
+    "CmdPos": {"s2":["vierte"],"vos":["verté"],"s3":["vierta"],"p1":["vertamos"],"p2":["verted"],"p3":["viertan"]}
+  }
+}

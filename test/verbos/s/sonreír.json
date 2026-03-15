@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sõnreˈiɾ]",
+    "silabacion": "son-re-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["reír"]
+  },
+  "formas_no_personales": {"infinitivo":"sonreír","gerundio":"sonriendo","participio":"sonreído"},
+  "formas_personales": {
+    "IndPres": {"s1":["sonrío"],"s2":["sonríes"],"vos":["sonreís"],"s3":["sonríe"],"p1":["sonreímos"],"p2":["sonreís"],"p3":["sonríen"]},
+    "IndImp": {"s1":["sonreía"],"s2":["sonreías"],"vos":["sonreías"],"s3":["sonreía"],"p1":["sonreíamos"],"p2":["sonreíais"],"p3":["sonreían"]},
+    "IndPret": {"s1":["sonreí"],"s2":["sonreíste"],"vos":["sonreíste"],"s3":["sonrió"],"p1":["sonreímos"],"p2":["sonreísteis"],"p3":["sonrieron"]},
+    "IndFut": {"s1":["sonreiré"],"s2":["sonreirás"],"vos":["sonreirás"],"s3":["sonreirá"],"p1":["sonreiremos"],"p2":["sonreiréis"],"p3":["sonreirán"]},
+    "IndCond": {"s1":["sonreiría"],"s2":["sonreirías"],"vos":["sonreirías"],"s3":["sonreiría"],"p1":["sonreiríamos"],"p2":["sonreiríais"],"p3":["sonreirían"]},
+    "SubPres": {"s1":["sonría"],"s2":["sonrías"],"vos":["sonrías","sonriás"],"s3":["sonría"],"p1":["sonriamos"],"p2":["sonriáis"],"p3":["sonrían"]},
+    "SubImp": {"s1":["sonriera","sonriese"],"s2":["sonrieras","sonrieses"],"vos":["sonrieras","sonrieses"],"s3":["sonriera","sonriese"],"p1":["sonriéramos","sonriésemos"],"p2":["sonrierais","sonrieseis"],"p3":["sonrieran","sonriesen"]},
+    "SubFut": {"s1":["sonriere"],"s2":["sonrieres"],"vos":["sonrieres"],"s3":["sonriere"],"p1":["sonriéremos"],"p2":["sonriereis"],"p3":["sonrieren"]},
+    "CmdPos": {"s2":["sonríe"],"vos":["sonreí"],"s3":["sonría"],"p1":["sonriamos"],"p2":["sonreíd"],"p3":["sonrían"]}
+  }
+}

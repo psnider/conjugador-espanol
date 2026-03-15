@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsfeˈɾiɾ]",
+    "silabacion": "trans-fe-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín transferens.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"transferir","gerundio":"transfiriendo","participio":"transferido"},
+  "formas_personales": {
+    "IndPres": {"s1":["transfiero"],"s2":["transfieres"],"vos":["transferís"],"s3":["transfiere"],"p1":["transferimos"],"p2":["transferís"],"p3":["transfieren"]},
+    "IndImp": {"s1":["transfería"],"s2":["transferías"],"vos":["transferías"],"s3":["transfería"],"p1":["transferíamos"],"p2":["transferíais"],"p3":["transferían"]},
+    "IndPret": {"s1":["transferí"],"s2":["transferiste"],"vos":["transferiste"],"s3":["transfirió"],"p1":["transferimos"],"p2":["transferisteis"],"p3":["transfirieron"]},
+    "IndFut": {"s1":["transferiré"],"s2":["transferirás"],"vos":["transferirás"],"s3":["transferirá"],"p1":["transferiremos"],"p2":["transferiréis"],"p3":["transferirán"]},
+    "IndCond": {"s1":["transferiría"],"s2":["transferirías"],"vos":["transferirías"],"s3":["transferiría"],"p1":["transferiríamos"],"p2":["transferiríais"],"p3":["transferirían"]},
+    "SubPres": {"s1":["transfiera"],"s2":["transfieras"],"vos":["transfieras","transfirás"],"s3":["transfiera"],"p1":["transfiramos"],"p2":["transfiráis"],"p3":["transfieran"]},
+    "SubImp": {"s1":["transfiriera","transfiriese"],"s2":["transfirieras","transfirieses"],"vos":["transfirieras","transfirieses"],"s3":["transfiriera","transfiriese"],"p1":["transfiriéramos","transfiriésemos"],"p2":["transfirierais","transfirieseis"],"p3":["transfirieran","transfiriesen"]},
+    "SubFut": {"s1":["transfiriere"],"s2":["transfirieres"],"vos":["transfirieres"],"s3":["transfiriere"],"p1":["transfiriéremos"],"p2":["transfiriereis"],"p3":["transfirieren"]},
+    "CmdPos": {"s2":["transfiere"],"vos":["transferí"],"s3":["transfiera"],"p1":["transfiramos"],"p2":["transferid"],"p3":["transfieran"]}
+  }
+}

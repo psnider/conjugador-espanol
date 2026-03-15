@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sofɾeˈiɾ]",
+    "silabacion": "so-fre-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín subfrigere.[1]",
+    "modelos": ["reír","freír"]
+  },
+  "formas_no_personales": {"infinitivo":"sofreír","gerundio":"sofriendo","participio":"sofrito"},
+  "formas_personales": {
+    "IndPres": {"s1":["sofrío"],"s2":["sofríes"],"vos":["sofreís"],"s3":["sofríe"],"p1":["sofreímos"],"p2":["sofreís"],"p3":["sofríen"]},
+    "IndImp": {"s1":["sofreía"],"s2":["sofreías"],"vos":["sofreías"],"s3":["sofreía"],"p1":["sofreíamos"],"p2":["sofreíais"],"p3":["sofreían"]},
+    "IndPret": {"s1":["sofreí"],"s2":["sofreíste"],"vos":["sofreíste"],"s3":["sofrió"],"p1":["sofreímos"],"p2":["sofreísteis"],"p3":["sofrieron"]},
+    "IndFut": {"s1":["sofreiré"],"s2":["sofreirás"],"vos":["sofreirás"],"s3":["sofreirá"],"p1":["sofreiremos"],"p2":["sofreiréis"],"p3":["sofreirán"]},
+    "IndCond": {"s1":["sofreiría"],"s2":["sofreirías"],"vos":["sofreirías"],"s3":["sofreiría"],"p1":["sofreiríamos"],"p2":["sofreiríais"],"p3":["sofreirían"]},
+    "SubPres": {"s1":["sofría"],"s2":["sofrías"],"vos":["sofrías","sofriás"],"s3":["sofría"],"p1":["sofriamos"],"p2":["sofriáis"],"p3":["sofrían"]},
+    "SubImp": {"s1":["sofriera","sofriese"],"s2":["sofrieras","sofrieses"],"vos":["sofrieras","sofrieses"],"s3":["sofriera","sofriese"],"p1":["sofriéramos","sofriésemos"],"p2":["sofrierais","sofrieseis"],"p3":["sofrieran","sofriesen"]},
+    "SubFut": {"s1":["sofriere"],"s2":["sofrieres"],"vos":["sofrieres"],"s3":["sofriere"],"p1":["sofriéremos"],"p2":["sofriereis"],"p3":["sofrieren"]},
+    "CmdPos": {"s2":["sofríe"],"vos":["sofreí"],"s3":["sofría"],"p1":["sofriamos"],"p2":["sofreíd"],"p3":["sofrían"]}
+  }
+}

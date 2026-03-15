@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ɾiˈβ̞wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"contribuir","gerundio":"contribuyendo","participio":"contribuido"},
+  "formas_personales": {
+    "IndPres": {"s1":["contribuyo"],"s2":["contribuyes"],"vos":["contribuís"],"s3":["contribuye"],"p1":["contribuimos"],"p2":["contribuís"],"p3":["contribuyen"]},
+    "IndImp": {"s1":["contribuía"],"s2":["contribuías"],"vos":["contribuías"],"s3":["contribuía"],"p1":["contribuíamos"],"p2":["contribuíais"],"p3":["contribuían"]},
+    "IndPret": {"s1":["contribuí"],"s2":["contribuiste"],"vos":["contribuiste"],"s3":["contribuyó"],"p1":["contribuimos"],"p2":["contribuisteis"],"p3":["contribuyeron"]},
+    "IndFut": {"s1":["contribuiré"],"s2":["contribuirás"],"vos":["contribuirás"],"s3":["contribuirá"],"p1":["contribuiremos"],"p2":["contribuiréis"],"p3":["contribuirán"]},
+    "IndCond": {"s1":["contribuiría"],"s2":["contribuirías"],"vos":["contribuirías"],"s3":["contribuiría"],"p1":["contribuiríamos"],"p2":["contribuiríais"],"p3":["contribuirían"]},
+    "SubPres": {"s1":["contribuya"],"s2":["contribuyas"],"vos":["contribuyas","contribuyás"],"s3":["contribuya"],"p1":["contribuyamos"],"p2":["contribuyáis"],"p3":["contribuyan"]},
+    "SubImp": {"s1":["contribuyera","contribuyese"],"s2":["contribuyeras","contribuyeses"],"vos":["contribuyeras","contribuyeses"],"s3":["contribuyera","contribuyese"],"p1":["contribuyéramos","contribuyésemos"],"p2":["contribuyerais","contribuyeseis"],"p3":["contribuyeran","contribuyesen"]},
+    "SubFut": {"s1":["contribuyere"],"s2":["contribuyeres"],"vos":["contribuyeres"],"s3":["contribuyere"],"p1":["contribuyéremos"],"p2":["contribuyereis"],"p3":["contribuyeren"]},
+    "CmdPos": {"s2":["contribuye"],"vos":["contribuí"],"s3":["contribuya"],"p1":["contribuyamos"],"p2":["contribuid"],"p3":["contribuyan"]}
+  }
+}

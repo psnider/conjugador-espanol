@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾseˈɣ̞iɾ]",
+    "silabacion": "per-se-guir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín persequi, y este compuesto del latín sequi.",
+    "modelos": ["distinguir","pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"perseguir","gerundio":"persiguiendo","participio":"perseguido"},
+  "formas_personales": {
+    "IndPres": {"s1":["persigo"],"s2":["persigues"],"vos":["perseguís"],"s3":["persigue"],"p1":["perseguimos"],"p2":["perseguís"],"p3":["persiguen"]},
+    "IndImp": {"s1":["perseguía"],"s2":["perseguías"],"vos":["perseguías"],"s3":["perseguía"],"p1":["perseguíamos"],"p2":["perseguíais"],"p3":["perseguían"]},
+    "IndPret": {"s1":["perseguí"],"s2":["perseguiste"],"vos":["perseguiste"],"s3":["persiguió"],"p1":["perseguimos"],"p2":["perseguisteis"],"p3":["persiguieron"]},
+    "IndFut": {"s1":["perseguiré"],"s2":["perseguirás"],"vos":["perseguirás"],"s3":["perseguirá"],"p1":["perseguiremos"],"p2":["perseguiréis"],"p3":["perseguirán"]},
+    "IndCond": {"s1":["perseguiría"],"s2":["perseguirías"],"vos":["perseguirías"],"s3":["perseguiría"],"p1":["perseguiríamos"],"p2":["perseguiríais"],"p3":["perseguirían"]},
+    "SubPres": {"s1":["persiga"],"s2":["persigas"],"vos":["persigas","persigás"],"s3":["persiga"],"p1":["persigamos"],"p2":["persigáis"],"p3":["persigan"]},
+    "SubImp": {"s1":["persiguiera","persiguiese"],"s2":["persiguieras","persiguieses"],"vos":["persiguieras","persiguieses"],"s3":["persiguiera","persiguiese"],"p1":["persiguiéramos","persiguiésemos"],"p2":["persiguierais","persiguieseis"],"p3":["persiguieran","persiguiesen"]},
+    "SubFut": {"s1":["persiguiere"],"s2":["persiguieres"],"vos":["persiguieres"],"s3":["persiguiere"],"p1":["persiguiéremos"],"p2":["persiguiereis"],"p3":["persiguieren"]},
+    "CmdPos": {"s2":["persigue"],"vos":["perseguí"],"s3":["persiga"],"p1":["persigamos"],"p2":["perseguid"],"p3":["persigan"]}
+  }
+}

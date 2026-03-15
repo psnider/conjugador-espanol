@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈbeɾ]",
+    "silabacion": "ver",
+    "acentuacion": "monosílaba",
+    "etimologia": "Del latín videre y este del protoindoeuropeo *weyd-.",
+    "modelos": ["ver"]
+  },
+  "formas_no_personales": {"infinitivo":"ver","gerundio":"viendo","participio":"visto"},
+  "formas_personales": {
+    "IndPres": {"s1":["veo"],"s2":["ves"],"vos":["ves"],"s3":["ve"],"p1":["vemos"],"p2":["veis"],"p3":["ven"]},
+    "IndImp": {"s1":["veía"],"s2":["veías"],"vos":["veías"],"s3":["veía"],"p1":["veíamos"],"p2":["veíais"],"p3":["veían"]},
+    "IndPret": {"s1":["vi"],"s2":["viste"],"vos":["viste"],"s3":["vio"],"p1":["vimos"],"p2":["visteis"],"p3":["vieron"]},
+    "IndFut": {"s1":["veré"],"s2":["verás"],"vos":["verás"],"s3":["verá"],"p1":["veremos"],"p2":["veréis"],"p3":["verán"]},
+    "IndCond": {"s1":["vería"],"s2":["verías"],"vos":["verías"],"s3":["vería"],"p1":["veríamos"],"p2":["veríais"],"p3":["verían"]},
+    "SubPres": {"s1":["vea"],"s2":["veas"],"vos":["veas","veás"],"s3":["vea"],"p1":["veamos"],"p2":["veáis"],"p3":["vean"]},
+    "SubImp": {"s1":["viera","viese"],"s2":["vieras","vieses"],"vos":["vieras","vieses"],"s3":["viera","viese"],"p1":["viéramos","viésemos"],"p2":["vierais","vieseis"],"p3":["vieran","viesen"]},
+    "SubFut": {"s1":["viere"],"s2":["vieres"],"vos":["vieres"],"s3":["viere"],"p1":["viéremos"],"p2":["viereis"],"p3":["vieren"]},
+    "CmdPos": {"s2":["ve"],"vos":["mirá"],"s3":["vea"],"p1":["veamos"],"p2":["ved"],"p3":["vean"]}
+  }
+}

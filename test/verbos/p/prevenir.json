@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾeβ̞eˈniɾ]",
+    "silabacion": "pre-ve-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praevenīre.",
+    "modelos": ["venir","sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"prevenir","gerundio":"previniendo","participio":"prevenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["prevengo"],"s2":["previenes"],"vos":["prevenís"],"s3":["previene"],"p1":["prevenimos"],"p2":["prevenís"],"p3":["previenen"]},
+    "IndImp": {"s1":["prevenía"],"s2":["prevenías"],"vos":["prevenías"],"s3":["prevenía"],"p1":["preveníamos"],"p2":["preveníais"],"p3":["prevenían"]},
+    "IndPret": {"s1":["previne"],"s2":["previniste"],"vos":["previniste"],"s3":["previno"],"p1":["previnimos"],"p2":["previnisteis"],"p3":["previnieron"]},
+    "IndFut": {"s1":["prevendré"],"s2":["prevendrás"],"vos":["prevendrás"],"s3":["prevendrá"],"p1":["prevendremos"],"p2":["prevendréis"],"p3":["prevendrán"]},
+    "IndCond": {"s1":["prevendría"],"s2":["prevendrías"],"vos":["prevendrías"],"s3":["prevendría"],"p1":["prevendríamos"],"p2":["prevendríais"],"p3":["prevendrían"]},
+    "SubPres": {"s1":["prevenga"],"s2":["prevengas"],"vos":["prevengas","prevengás"],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevengáis"],"p3":["prevengan"]},
+    "SubImp": {"s1":["previniera","previniese"],"s2":["previnieras","previnieses"],"vos":["previnieras","previnieses"],"s3":["previniera","previniese"],"p1":["previniéramos","previniésemos"],"p2":["previnierais","previnieseis"],"p3":["previnieran","previniesen"]},
+    "SubFut": {"s1":["previniere"],"s2":["previnieres"],"vos":["previnieres"],"s3":["previniere"],"p1":["previniéremos"],"p2":["previniereis"],"p3":["previnieren"]},
+    "CmdPos": {"s2":{"estándar":["prevén"],"atípicos":[{"forma":"previene","etiquetas":["no normativo"]}]},"vos":["prevení"],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevenid"],"p3":["prevengan"]}
+  }
+}

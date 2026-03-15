@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kɾeˈeɾ]",
+    "silabacion": "cre-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín credere, y este del protoindoeuropeo *ḱréd dʰédʰeh₁ti.",
+    "modelos": ["leer"]
+  },
+  "formas_no_personales": {"infinitivo":"creer","gerundio":"creyendo","participio":"creído"},
+  "formas_personales": {
+    "IndPres": {"s1":["creo"],"s2":["crees"],"vos":["creés"],"s3":["cree"],"p1":["creemos"],"p2":["creéis"],"p3":["creen"]},
+    "IndImp": {"s1":["creía"],"s2":["creías"],"vos":["creías"],"s3":["creía"],"p1":["creíamos"],"p2":["creíais"],"p3":["creían"]},
+    "IndPret": {"s1":["creí"],"s2":["creíste"],"vos":["creíste"],"s3":["creyó"],"p1":["creímos"],"p2":["creísteis"],"p3":["creyeron"]},
+    "IndFut": {"s1":["creeré"],"s2":["creerás"],"vos":["creerás"],"s3":["creerá"],"p1":["creeremos"],"p2":["creeréis"],"p3":["creerán"]},
+    "IndCond": {"s1":["creería"],"s2":["creerías"],"vos":["creerías"],"s3":["creería"],"p1":["creeríamos"],"p2":["creeríais"],"p3":["creerían"]},
+    "SubPres": {"s1":["crea"],"s2":["creas"],"vos":["creas","creás"],"s3":["crea"],"p1":["creamos"],"p2":["creáis"],"p3":["crean"]},
+    "SubImp": {"s1":["creyera","creyese"],"s2":["creyeras","creyeses"],"vos":["creyeras","creyeses"],"s3":["creyera","creyese"],"p1":["creyéramos","creyésemos"],"p2":["creyerais","creyeseis"],"p3":["creyeran","creyesen"]},
+    "SubFut": {"s1":["creyere"],"s2":["creyeres"],"vos":["creyeres"],"s3":["creyere"],"p1":["creyéremos"],"p2":["creyereis"],"p3":["creyeren"]},
+    "CmdPos": {"s2":["cree"],"vos":["creé"],"s3":["crea"],"p1":["creamos"],"p2":["creed"],"p3":["crean"]}
+  }
+}

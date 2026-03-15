@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈkɾjaɾ]",
+    "acentuacion": "monosílaba",
+    "etimologia": null,
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"criar","gerundio":"criando","participio":"criado"},
+  "formas_personales": {
+    "IndPres": {"s1":["crío"],"s2":["crías"],"vos":["crias"],"s3":["cría"],"p1":["criamos"],"p2":["criais"],"p3":["crían"]},
+    "IndImp": {"s1":["criaba"],"s2":["criabas"],"vos":["criabas"],"s3":["criaba"],"p1":["criábamos"],"p2":["criabais"],"p3":["criaban"]},
+    "IndPret": {"s1":["crie"],"s2":["criaste"],"vos":["criaste"],"s3":["crio"],"p1":["criamos"],"p2":["criasteis"],"p3":["criaron"]},
+    "IndFut": {"s1":["criaré"],"s2":["criarás"],"vos":["criarás"],"s3":["criará"],"p1":["criaremos"],"p2":["criaréis"],"p3":["criarán"]},
+    "IndCond": {"s1":["criaría"],"s2":["criarías"],"vos":["criarías"],"s3":["criaría"],"p1":["criaríamos"],"p2":["criaríais"],"p3":["criarían"]},
+    "SubPres": {"s1":["críe"],"s2":["críes"],"vos":["críes","cries"],"s3":["críe"],"p1":["criemos"],"p2":["crieis"],"p3":["críen"]},
+    "SubImp": {"s1":["criara","criase"],"s2":["criaras","criases"],"vos":["criaras","criases"],"s3":["criara","criase"],"p1":["criáramos","criásemos"],"p2":["criarais","criaseis"],"p3":["criaran","criasen"]},
+    "SubFut": {"s1":["criare"],"s2":["criares"],"vos":["criares"],"s3":["criare"],"p1":["criáremos"],"p2":["criareis"],"p3":["criaren"]},
+    "CmdPos": {"s2":["cría"],"vos":["cria"],"s3":["críe"],"p1":["criemos"],"p2":["criad"],"p3":["críen"]}
+  }
+}

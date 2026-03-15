@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞eɾɣ̞õnˈsaɾ]",
+    "silabacion": "a-ver-gon-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, vergüenza (del latín verecundia) y el sufijo -ar.",
+    "modelos": ["realizar","agorar"]
+  },
+  "formas_no_personales": {"infinitivo":"avergonzar","gerundio":"avergonzando","participio":"avergonzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["avergüenzo"],"s2":["avergüenzas"],"vos":["avergonzás"],"s3":["avergüenza"],"p1":["avergonzamos"],"p2":["avergonzáis"],"p3":["avergüenzan"]},
+    "IndImp": {"s1":["avergonzaba"],"s2":["avergonzabas"],"vos":["avergonzabas"],"s3":["avergonzaba"],"p1":["avergonzábamos"],"p2":["avergonzabais"],"p3":["avergonzaban"]},
+    "IndPret": {"s1":["avergoncé"],"s2":["avergonzaste"],"vos":["avergonzaste"],"s3":["avergonzó"],"p1":["avergonzamos"],"p2":["avergonzasteis"],"p3":["avergonzaron"]},
+    "IndFut": {"s1":["avergonzaré"],"s2":["avergonzarás"],"vos":["avergonzarás"],"s3":["avergonzará"],"p1":["avergonzaremos"],"p2":["avergonzaréis"],"p3":["avergonzarán"]},
+    "IndCond": {"s1":["avergonzaría"],"s2":["avergonzarías"],"vos":["avergonzarías"],"s3":["avergonzaría"],"p1":["avergonzaríamos"],"p2":["avergonzaríais"],"p3":["avergonzarían"]},
+    "SubPres": {"s1":["avergüence"],"s2":["avergüences"],"vos":["avergüences","avergoncés"],"s3":["avergüence"],"p1":["avergoncemos"],"p2":["avergoncéis"],"p3":["avergüencen"]},
+    "SubImp": {"s1":["avergonzara","avergonzase"],"s2":["avergonzaras","avergonzases"],"vos":["avergonzaras","avergonzases"],"s3":["avergonzara","avergonzase"],"p1":["avergonzáramos","avergonzásemos"],"p2":["avergonzarais","avergonzaseis"],"p3":["avergonzaran","avergonzasen"]},
+    "SubFut": {"s1":["avergonzare"],"s2":["avergonzares"],"vos":["avergonzares"],"s3":["avergonzare"],"p1":["avergonzáremos"],"p2":["avergonzareis"],"p3":["avergonzaren"]},
+    "CmdPos": {"s2":["avergüenza"],"vos":["avergonzá"],"s3":["avergüence"],"p1":["avergoncemos"],"p2":["avergonzad"],"p3":["avergüencen"]}
+  }
+}

@@ -51,12 +51,12 @@ const domains_alternancia_vocálica: MoodTense[] = ["IndPres", "SubPres", "CmdPo
 export function getTemaConAlternanciaVocálica(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) : VerbConjugationStems {
     const changed_stems : VerbConjugationStems = {}
     if (domains_alternancia_vocálica.includes(mood_tense)) {
-        const {conjugable_infinitive, verb_family, morphological_rules} = conj_and_deriv_rules
-        const alternancia_vocálica = morphological_rules?.alternancia_vocálica
+        const {infinitivo_sin_prefijos, verb_family, morphological_rules} = conj_and_deriv_rules
+        const alternancia_vocálica = morphological_rules?.combinados?.alternancia_vocálica
         if (alternancia_vocálica) {
-            const stem_regular = conjugable_infinitive.slice(0, -2)
-            const tema_presente_yo = morphological_rules?.tema_presente_yo
-            const sufijo_presente_yo = morphological_rules?.sufijo_presente_yo
+            const stem_regular = infinitivo_sin_prefijos.slice(0, -2)
+            const tema_presente_yo = morphological_rules?.combinados?.tema_presente_yo
+            const sufijo_presente_yo = morphological_rules?.combinados?.sufijo_presente_yo
             const dont_apply_to_yo = (mood_tense === "IndPres") && (tema_presente_yo || sufijo_presente_yo)
             // FIX: linguist: vocal_en_sílaba_tónica is implied by the existance of alternancia_vocálica, which is manually applied to verbs in verbos_con_cambios_morfológicas[]
             const stem_changes_per_form = getStemChangesFromRule(mood_tense, alternancia_vocálica)

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪elĩŋˈkiɾ]",
+    "silabacion": "de-lin-quir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín delinquĕre.",
+    "modelos": ["delinquir"]
+  },
+  "formas_no_personales": {"infinitivo":"delinquir","gerundio":"delinquiendo","participio":"delinquido"},
+  "formas_personales": {
+    "IndPres": {"s1":["delinco"],"s2":["delinques"],"vos":["delinquís"],"s3":["delinque"],"p1":["delinquimos"],"p2":["delinquís"],"p3":["delinquen"]},
+    "IndImp": {"s1":["delinquía"],"s2":["delinquías"],"vos":["delinquías"],"s3":["delinquía"],"p1":["delinquíamos"],"p2":["delinquíais"],"p3":["delinquían"]},
+    "IndPret": {"s1":["delinquí"],"s2":["delinquiste"],"vos":["delinquiste"],"s3":["delinquió"],"p1":["delinquimos"],"p2":["delinquisteis"],"p3":["delinquieron"]},
+    "IndFut": {"s1":["delinquiré"],"s2":["delinquirás"],"vos":["delinquirás"],"s3":["delinquirá"],"p1":["delinquiremos"],"p2":["delinquiréis"],"p3":["delinquirán"]},
+    "IndCond": {"s1":["delinquiría"],"s2":["delinquirías"],"vos":["delinquirías"],"s3":["delinquiría"],"p1":["delinquiríamos"],"p2":["delinquiríais"],"p3":["delinquirían"]},
+    "SubPres": {"s1":["delinca"],"s2":["delincas"],"vos":["delincas","delincás"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]},
+    "SubImp": {"s1":["delinquiera","delinquiese"],"s2":["delinquieras","delinquieses"],"vos":["delinquieras","delinquieses"],"s3":["delinquiera","delinquiese"],"p1":["delinquiéramos","delinquiésemos"],"p2":["delinquierais","delinquieseis"],"p3":["delinquieran","delinquiesen"]},
+    "SubFut": {"s1":["delinquiere"],"s2":["delinquieres"],"vos":["delinquieres"],"s3":["delinquiere"],"p1":["delinquiéremos"],"p2":["delinquiereis"],"p3":["delinquieren"]},
+    "CmdPos": {"s2":["delinque"],"vos":["delinquí"],"s3":["delinca"],"p1":["delincamos"],"p2":["delinquid"],"p3":["delincan"]}
+  }
+}

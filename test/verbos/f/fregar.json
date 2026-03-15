@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fɾeˈɣ̞aɾ]",
+    "silabacion": "fre-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fricāre (\"frotar\", \"friccionar\").",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"fregar","gerundio":"fregando","participio":"fregado"},
+  "formas_personales": {
+    "IndPres": {"s1":["friego"],"s2":["friegas"],"vos":["fregás"],"s3":["friega"],"p1":["fregamos"],"p2":["fregáis"],"p3":["friegan"]},
+    "IndImp": {"s1":["fregaba"],"s2":["fregabas"],"vos":["fregabas"],"s3":["fregaba"],"p1":["fregábamos"],"p2":["fregabais"],"p3":["fregaban"]},
+    "IndPret": {"s1":["fregué"],"s2":["fregaste"],"vos":["fregaste"],"s3":["fregó"],"p1":["fregamos"],"p2":["fregasteis"],"p3":["fregaron"]},
+    "IndFut": {"s1":["fregaré"],"s2":["fregarás"],"vos":["fregarás"],"s3":["fregará"],"p1":["fregaremos"],"p2":["fregaréis"],"p3":["fregarán"]},
+    "IndCond": {"s1":["fregaría"],"s2":["fregarías"],"vos":["fregarías"],"s3":["fregaría"],"p1":["fregaríamos"],"p2":["fregaríais"],"p3":["fregarían"]},
+    "SubPres": {"s1":["friegue"],"s2":["friegues"],"vos":["friegues","fregués"],"s3":["friegue"],"p1":["freguemos"],"p2":["freguéis"],"p3":["frieguen"]},
+    "SubImp": {"s1":["fregara","fregase"],"s2":["fregaras","fregases"],"vos":["fregaras","fregases"],"s3":["fregara","fregase"],"p1":["fregáramos","fregásemos"],"p2":["fregarais","fregaseis"],"p3":["fregaran","fregasen"]},
+    "SubFut": {"s1":["fregare"],"s2":["fregares"],"vos":["fregares"],"s3":["fregare"],"p1":["fregáremos"],"p2":["fregareis"],"p3":["fregaren"]},
+    "CmdPos": {"s2":["friega"],"vos":["fregá"],"s3":["friegue"],"p1":["freguemos"],"p2":["fregad"],"p3":["frieguen"]}
+  }
+}

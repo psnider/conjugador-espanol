@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oɾˈseɾ]",
+    "silabacion": "tor-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín torquēre ('hacer girar, torcer').[1]",
+    "modelos": ["mover","vencer"]
+  },
+  "formas_no_personales": {"infinitivo":"torcer","gerundio":"torciendo","participio":"torcido"},
+  "formas_personales": {
+    "IndPres": {"s1":["tuerzo"],"s2":["tuerces"],"vos":["torcés"],"s3":["tuerce"],"p1":["torcemos"],"p2":["torcéis"],"p3":["tuercen"]},
+    "IndImp": {"s1":["torcía"],"s2":["torcías"],"vos":["torcías"],"s3":["torcía"],"p1":["torcíamos"],"p2":["torcíais"],"p3":["torcían"]},
+    "IndPret": {"s1":["torcí"],"s2":["torciste"],"vos":["torciste"],"s3":["torció"],"p1":["torcimos"],"p2":["torcisteis"],"p3":["torcieron"]},
+    "IndFut": {"s1":["torceré"],"s2":["torcerás"],"vos":["torcerás"],"s3":["torcerá"],"p1":["torceremos"],"p2":["torceréis"],"p3":["torcerán"]},
+    "IndCond": {"s1":["torcería"],"s2":["torcerías"],"vos":["torcerías"],"s3":["torcería"],"p1":["torceríamos"],"p2":["torceríais"],"p3":["torcerían"]},
+    "SubPres": {"s1":["tuerza"],"s2":["tuerzas"],"vos":["tuerzas","torzás"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torzáis"],"p3":["tuerzan"]},
+    "SubImp": {"s1":["torciera","torciese"],"s2":["torcieras","torcieses"],"vos":["torcieras","torcieses"],"s3":["torciera","torciese"],"p1":["torciéramos","torciésemos"],"p2":["torcierais","torcieseis"],"p3":["torcieran","torciesen"]},
+    "SubFut": {"s1":["torciere"],"s2":["torcieres"],"vos":["torcieres"],"s3":["torciere"],"p1":["torciéremos"],"p2":["torciereis"],"p3":["torcieren"]},
+    "CmdPos": {"s2":["tuerce"],"vos":["torcé"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torced"],"p3":["tuerzan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪ˈt̪aɾ]",
+    "silabacion": "con-tar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"contar","gerundio":"contando","participio":"contado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cuento"],"s2":["cuentas"],"vos":["contás"],"s3":["cuenta"],"p1":["contamos"],"p2":["contáis"],"p3":["cuentan"]},
+    "IndImp": {"s1":["contaba"],"s2":["contabas"],"vos":["contabas"],"s3":["contaba"],"p1":["contábamos"],"p2":["contabais"],"p3":["contaban"]},
+    "IndPret": {"s1":["conté"],"s2":["contaste"],"vos":["contaste"],"s3":["contó"],"p1":["contamos"],"p2":["contasteis"],"p3":["contaron"]},
+    "IndFut": {"s1":["contaré"],"s2":["contarás"],"vos":["contarás"],"s3":["contará"],"p1":["contaremos"],"p2":["contaréis"],"p3":["contarán"]},
+    "IndCond": {"s1":["contaría"],"s2":["contarías"],"vos":["contarías"],"s3":["contaría"],"p1":["contaríamos"],"p2":["contaríais"],"p3":["contarían"]},
+    "SubPres": {"s1":["cuente"],"s2":["cuentes"],"vos":["cuentes","contés"],"s3":["cuente"],"p1":["contemos"],"p2":["contéis"],"p3":["cuenten"]},
+    "SubImp": {"s1":["contara","contase"],"s2":["contaras","contases"],"vos":["contaras","contases"],"s3":["contara","contase"],"p1":["contáramos","contásemos"],"p2":["contarais","contaseis"],"p3":["contaran","contasen"]},
+    "SubFut": {"s1":["contare"],"s2":["contares"],"vos":["contares"],"s3":["contare"],"p1":["contáremos"],"p2":["contareis"],"p3":["contaren"]},
+    "CmdPos": {"s2":["cuenta"],"vos":["contá"],"s3":["cuente"],"p1":["contemos"],"p2":["contad"],"p3":["cuenten"]}
+  }
+}

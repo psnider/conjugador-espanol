@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sẽn̪ˈt̪aɾ]",
+    "silabacion": "sen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sedentare y este de sedens, sedentis, participio presente activo de sedere (\"estar sentado\").",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"sentar","gerundio":"sentando","participio":"sentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["siento"],"s2":["sientas"],"vos":["sentás"],"s3":["sienta"],"p1":["sentamos"],"p2":["sentáis"],"p3":["sientan"]},
+    "IndImp": {"s1":["sentaba"],"s2":["sentabas"],"vos":["sentabas"],"s3":["sentaba"],"p1":["sentábamos"],"p2":["sentabais"],"p3":["sentaban"]},
+    "IndPret": {"s1":["senté"],"s2":["sentaste"],"vos":["sentaste"],"s3":["sentó"],"p1":["sentamos"],"p2":["sentasteis"],"p3":["sentaron"]},
+    "IndFut": {"s1":["sentaré"],"s2":["sentarás"],"vos":["sentarás"],"s3":["sentará"],"p1":["sentaremos"],"p2":["sentaréis"],"p3":["sentarán"]},
+    "IndCond": {"s1":["sentaría"],"s2":["sentarías"],"vos":["sentarías"],"s3":["sentaría"],"p1":["sentaríamos"],"p2":["sentaríais"],"p3":["sentarían"]},
+    "SubPres": {"s1":["siente"],"s2":["sientes"],"vos":["sientes","sentés"],"s3":["siente"],"p1":["sentemos"],"p2":["sentéis"],"p3":["sienten"]},
+    "SubImp": {"s1":["sentara","sentase"],"s2":["sentaras","sentases"],"vos":["sentaras","sentases"],"s3":["sentara","sentase"],"p1":["sentáramos","sentásemos"],"p2":["sentarais","sentaseis"],"p3":["sentaran","sentasen"]},
+    "SubFut": {"s1":["sentare"],"s2":["sentares"],"vos":["sentares"],"s3":["sentare"],"p1":["sentáremos"],"p2":["sentareis"],"p3":["sentaren"]},
+    "CmdPos": {"s2":["sienta"],"vos":["sentá"],"s3":["siente"],"p1":["sentemos"],"p2":["sentad"],"p3":["sienten"]}
+  }
+}

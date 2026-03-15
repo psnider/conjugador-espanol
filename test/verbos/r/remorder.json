@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[remoɾˈð̞eɾ]",
+    "silabacion": "re-mor-der",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["mover"]
+  },
+  "formas_no_personales": {"infinitivo":"remorder","gerundio":"remordiendo","participio":"remordido"},
+  "formas_personales": {
+    "IndPres": {"s1":["remuerdo"],"s2":["remuerdes"],"vos":["remordés"],"s3":["remuerde"],"p1":["remordemos"],"p2":["remordéis"],"p3":["remuerden"]},
+    "IndImp": {"s1":["remordía"],"s2":["remordías"],"vos":["remordías"],"s3":["remordía"],"p1":["remordíamos"],"p2":["remordíais"],"p3":["remordían"]},
+    "IndPret": {"s1":["remordí"],"s2":["remordiste"],"vos":["remordiste"],"s3":["remordió"],"p1":["remordimos"],"p2":["remordisteis"],"p3":["remordieron"]},
+    "IndFut": {"s1":["remorderé"],"s2":["remorderás"],"vos":["remorderás"],"s3":["remorderá"],"p1":["remorderemos"],"p2":["remorderéis"],"p3":["remorderán"]},
+    "IndCond": {"s1":["remordería"],"s2":["remorderías"],"vos":["remorderías"],"s3":["remordería"],"p1":["remorderíamos"],"p2":["remorderíais"],"p3":["remorderían"]},
+    "SubPres": {"s1":["remuerda"],"s2":["remuerdas"],"vos":["remuerdas","remordás"],"s3":["remuerda"],"p1":["remordamos"],"p2":["remordáis"],"p3":["remuerdan"]},
+    "SubImp": {"s1":["remordiera","remordiese"],"s2":["remordieras","remordieses"],"vos":["remordieras","remordieses"],"s3":["remordiera","remordiese"],"p1":["remordiéramos","remordiésemos"],"p2":["remordierais","remordieseis"],"p3":["remordieran","remordiesen"]},
+    "SubFut": {"s1":["remordiere"],"s2":["remordieres"],"vos":["remordieres"],"s3":["remordiere"],"p1":["remordiéremos"],"p2":["remordiereis"],"p3":["remordieren"]},
+    "CmdPos": {"s2":["remuerde"],"vos":["remordé"],"s3":["remuerda"],"p1":["remordamos"],"p2":["remorded"],"p3":["remuerdan"]}
+  }
+}

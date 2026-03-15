@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾβ̞eɾˈt̪iɾ]",
+    "silabacion": "per-ver-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pervertere.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"pervertir","gerundio":"pervirtiendo","participio":"pervertido"},
+  "formas_personales": {
+    "IndPres": {"s1":["pervierto"],"s2":["perviertes"],"vos":["pervertís"],"s3":["pervierte"],"p1":["pervertimos"],"p2":["pervertís"],"p3":["pervierten"]},
+    "IndImp": {"s1":["pervertía"],"s2":["pervertías"],"vos":["pervertías"],"s3":["pervertía"],"p1":["pervertíamos"],"p2":["pervertíais"],"p3":["pervertían"]},
+    "IndPret": {"s1":["pervertí"],"s2":["pervertiste"],"vos":["pervertiste"],"s3":["pervirtió"],"p1":["pervertimos"],"p2":["pervertisteis"],"p3":["pervirtieron"]},
+    "IndFut": {"s1":["pervertiré"],"s2":["pervertirás"],"vos":["pervertirás"],"s3":["pervertirá"],"p1":["pervertiremos"],"p2":["pervertiréis"],"p3":["pervertirán"]},
+    "IndCond": {"s1":["pervertiría"],"s2":["pervertirías"],"vos":["pervertirías"],"s3":["pervertiría"],"p1":["pervertiríamos"],"p2":["pervertiríais"],"p3":["pervertirían"]},
+    "SubPres": {"s1":["pervierta"],"s2":["perviertas"],"vos":["perviertas","pervirtás"],"s3":["pervierta"],"p1":["pervirtamos"],"p2":["pervirtáis"],"p3":["perviertan"]},
+    "SubImp": {"s1":["pervirtiera","pervirtiese"],"s2":["pervirtieras","pervirtieses"],"vos":["pervirtieras","pervirtieses"],"s3":["pervirtiera","pervirtiese"],"p1":["pervirtiéramos","pervirtiésemos"],"p2":["pervirtierais","pervirtieseis"],"p3":["pervirtieran","pervirtiesen"]},
+    "SubFut": {"s1":["pervirtiere"],"s2":["pervirtieres"],"vos":["pervirtieres"],"s3":["pervirtiere"],"p1":["pervirtiéremos"],"p2":["pervirtiereis"],"p3":["pervirtieren"]},
+    "CmdPos": {"s2":["pervierte"],"vos":["pervertí"],"s3":["pervierta"],"p1":["pervirtamos"],"p2":["pervertid"],"p3":["perviertan"]}
+  }
+}

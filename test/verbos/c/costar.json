@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kosˈt̪aɾ]",
+    "silabacion": "cos-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín constare.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"costar","gerundio":"costando","participio":"costado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cuesto"],"s2":["cuestas"],"vos":["costás"],"s3":["cuesta"],"p1":["costamos"],"p2":["costáis"],"p3":["cuestan"]},
+    "IndImp": {"s1":["costaba"],"s2":["costabas"],"vos":["costabas"],"s3":["costaba"],"p1":["costábamos"],"p2":["costabais"],"p3":["costaban"]},
+    "IndPret": {"s1":["costé"],"s2":["costaste"],"vos":["costaste"],"s3":["costó"],"p1":["costamos"],"p2":["costasteis"],"p3":["costaron"]},
+    "IndFut": {"s1":["costaré"],"s2":["costarás"],"vos":["costarás"],"s3":["costará"],"p1":["costaremos"],"p2":["costaréis"],"p3":["costarán"]},
+    "IndCond": {"s1":["costaría"],"s2":["costarías"],"vos":["costarías"],"s3":["costaría"],"p1":["costaríamos"],"p2":["costaríais"],"p3":["costarían"]},
+    "SubPres": {"s1":["cueste"],"s2":["cuestes"],"vos":["cuestes","costés"],"s3":["cueste"],"p1":["costemos"],"p2":["costéis"],"p3":["cuesten"]},
+    "SubImp": {"s1":["costara","costase"],"s2":["costaras","costases"],"vos":["costaras","costases"],"s3":["costara","costase"],"p1":["costáramos","costásemos"],"p2":["costarais","costaseis"],"p3":["costaran","costasen"]},
+    "SubFut": {"s1":["costare"],"s2":["costares"],"vos":["costares"],"s3":["costare"],"p1":["costáremos"],"p2":["costareis"],"p3":["costaren"]},
+    "CmdPos": {"s2":["cuesta"],"vos":["costá"],"s3":["cueste"],"p1":["costemos"],"p2":["costad"],"p3":["cuesten"]}
+  }
+}

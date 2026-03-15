@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾoˈnaɾ]",
+    "silabacion": "tro-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tonare, con la r del español tronido.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"tronar","gerundio":"tronando","participio":"tronado"},
+  "formas_personales": {
+    "IndPres": {"s1":["trueno"],"s2":["truenas"],"vos":["tronás"],"s3":["truena"],"p1":["tronamos"],"p2":["tronáis"],"p3":["truenan"]},
+    "IndImp": {"s1":["tronaba"],"s2":["tronabas"],"vos":["tronabas"],"s3":["tronaba"],"p1":["tronábamos"],"p2":["tronabais"],"p3":["tronaban"]},
+    "IndPret": {"s1":["troné"],"s2":["tronaste"],"vos":["tronaste"],"s3":["tronó"],"p1":["tronamos"],"p2":["tronasteis"],"p3":["tronaron"]},
+    "IndFut": {"s1":["tronaré"],"s2":["tronarás"],"vos":["tronarás"],"s3":["tronará"],"p1":["tronaremos"],"p2":["tronaréis"],"p3":["tronarán"]},
+    "IndCond": {"s1":["tronaría"],"s2":["tronarías"],"vos":["tronarías"],"s3":["tronaría"],"p1":["tronaríamos"],"p2":["tronaríais"],"p3":["tronarían"]},
+    "SubPres": {"s1":["truene"],"s2":["truenes"],"vos":["truenes","tronés"],"s3":["truene"],"p1":["tronemos"],"p2":["tronéis"],"p3":["truenen"]},
+    "SubImp": {"s1":["tronara","tronase"],"s2":["tronaras","tronases"],"vos":["tronaras","tronases"],"s3":["tronara","tronase"],"p1":["tronáramos","tronásemos"],"p2":["tronarais","tronaseis"],"p3":["tronaran","tronasen"]},
+    "SubFut": {"s1":["tronare"],"s2":["tronares"],"vos":["tronares"],"s3":["tronare"],"p1":["tronáremos"],"p2":["tronareis"],"p3":["tronaren"]},
+    "CmdPos": {"s2":["truena"],"vos":["troná"],"s3":["truene"],"p1":["tronemos"],"p2":["tronad"],"p3":["truenen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈɣ̞aɾ]",
+    "silabacion": "ce-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín caecāre.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"cegar","gerundio":"cegando","participio":"cegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ciego"],"s2":["ciegas"],"vos":["cegás"],"s3":["ciega"],"p1":["cegamos"],"p2":["cegáis"],"p3":["ciegan"]},
+    "IndImp": {"s1":["cegaba"],"s2":["cegabas"],"vos":["cegabas"],"s3":["cegaba"],"p1":["cegábamos"],"p2":["cegabais"],"p3":["cegaban"]},
+    "IndPret": {"s1":["cegué"],"s2":["cegaste"],"vos":["cegaste"],"s3":["cegó"],"p1":["cegamos"],"p2":["cegasteis"],"p3":["cegaron"]},
+    "IndFut": {"s1":["cegaré"],"s2":["cegarás"],"vos":["cegarás"],"s3":["cegará"],"p1":["cegaremos"],"p2":["cegaréis"],"p3":["cegarán"]},
+    "IndCond": {"s1":["cegaría"],"s2":["cegarías"],"vos":["cegarías"],"s3":["cegaría"],"p1":["cegaríamos"],"p2":["cegaríais"],"p3":["cegarían"]},
+    "SubPres": {"s1":["ciegue"],"s2":["ciegues"],"vos":["ciegues","cegués"],"s3":["ciegue"],"p1":["ceguemos"],"p2":["ceguéis"],"p3":["cieguen"]},
+    "SubImp": {"s1":["cegara","cegase"],"s2":["cegaras","cegases"],"vos":["cegaras","cegases"],"s3":["cegara","cegase"],"p1":["cegáramos","cegásemos"],"p2":["cegarais","cegaseis"],"p3":["cegaran","cegasen"]},
+    "SubFut": {"s1":["cegare"],"s2":["cegares"],"vos":["cegares"],"s3":["cegare"],"p1":["cegáremos"],"p2":["cegareis"],"p3":["cegaren"]},
+    "CmdPos": {"s2":["ciega"],"vos":["cegá"],"s3":["ciegue"],"p1":["ceguemos"],"p2":["cegad"],"p3":["cieguen"]}
+  }
+}

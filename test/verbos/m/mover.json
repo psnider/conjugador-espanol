@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[moˈβ̞eɾ]",
+    "silabacion": "mo-ver",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín movēre.",
+    "modelos": ["mover"]
+  },
+  "formas_no_personales": {"infinitivo":"mover","gerundio":"moviendo","participio":"movido"},
+  "formas_personales": {
+    "IndPres": {"s1":["muevo"],"s2":["mueves"],"vos":["movés"],"s3":["mueve"],"p1":["movemos"],"p2":["movéis"],"p3":["mueven"]},
+    "IndImp": {"s1":["movía"],"s2":["movías"],"vos":["movías"],"s3":["movía"],"p1":["movíamos"],"p2":["movíais"],"p3":["movían"]},
+    "IndPret": {"s1":["moví"],"s2":["moviste"],"vos":["moviste"],"s3":["movió"],"p1":["movimos"],"p2":["movisteis"],"p3":["movieron"]},
+    "IndFut": {"s1":["moveré"],"s2":["moverás"],"vos":["moverás"],"s3":["moverá"],"p1":["moveremos"],"p2":["moveréis"],"p3":["moverán"]},
+    "IndCond": {"s1":["movería"],"s2":["moverías"],"vos":["moverías"],"s3":["movería"],"p1":["moveríamos"],"p2":["moveríais"],"p3":["moverían"]},
+    "SubPres": {"s1":["mueva"],"s2":["muevas"],"vos":["muevas","movás"],"s3":["mueva"],"p1":["movamos"],"p2":["mováis"],"p3":["muevan"]},
+    "SubImp": {"s1":["moviera","moviese"],"s2":["movieras","movieses"],"vos":["movieras","movieses"],"s3":["moviera","moviese"],"p1":["moviéramos","moviésemos"],"p2":["movierais","movieseis"],"p3":["movieran","moviesen"]},
+    "SubFut": {"s1":["moviere"],"s2":["movieres"],"vos":["movieres"],"s3":["moviere"],"p1":["moviéremos"],"p2":["moviereis"],"p3":["movieren"]},
+    "CmdPos": {"s2":["mueve"],"vos":["mové"],"s3":["mueva"],"p1":["movamos"],"p2":["moved"],"p3":["muevan"]}
+  }
+}

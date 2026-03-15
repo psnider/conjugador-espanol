@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[salpimẽn̪ˈt̪aɾ]",
+    "silabacion": "sal-pi-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De salpimienta y el sufijo -ar.[1]",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"salpimentar","gerundio":"salpimentando","participio":"salpimentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["salpimiento"],"s2":["salpimientas"],"vos":["salpimentás"],"s3":["salpimienta"],"p1":["salpimentamos"],"p2":["salpimentáis"],"p3":["salpimientan"]},
+    "IndImp": {"s1":["salpimentaba"],"s2":["salpimentabas"],"vos":["salpimentabas"],"s3":["salpimentaba"],"p1":["salpimentábamos"],"p2":["salpimentabais"],"p3":["salpimentaban"]},
+    "IndPret": {"s1":["salpimenté"],"s2":["salpimentaste"],"vos":["salpimentaste"],"s3":["salpimentó"],"p1":["salpimentamos"],"p2":["salpimentasteis"],"p3":["salpimentaron"]},
+    "IndFut": {"s1":["salpimentaré"],"s2":["salpimentarás"],"vos":["salpimentarás"],"s3":["salpimentará"],"p1":["salpimentaremos"],"p2":["salpimentaréis"],"p3":["salpimentarán"]},
+    "IndCond": {"s1":["salpimentaría"],"s2":["salpimentarías"],"vos":["salpimentarías"],"s3":["salpimentaría"],"p1":["salpimentaríamos"],"p2":["salpimentaríais"],"p3":["salpimentarían"]},
+    "SubPres": {"s1":["salpimiente"],"s2":["salpimientes"],"vos":["salpimientes","salpimentés"],"s3":["salpimiente"],"p1":["salpimentemos"],"p2":["salpimentéis"],"p3":["salpimienten"]},
+    "SubImp": {"s1":["salpimentara","salpimentase"],"s2":["salpimentaras","salpimentases"],"vos":["salpimentaras","salpimentases"],"s3":["salpimentara","salpimentase"],"p1":["salpimentáramos","salpimentásemos"],"p2":["salpimentarais","salpimentaseis"],"p3":["salpimentaran","salpimentasen"]},
+    "SubFut": {"s1":["salpimentare"],"s2":["salpimentares"],"vos":["salpimentares"],"s3":["salpimentare"],"p1":["salpimentáremos"],"p2":["salpimentareis"],"p3":["salpimentaren"]},
+    "CmdPos": {"s2":["salpimienta"],"vos":["salpimentá"],"s3":["salpimiente"],"p1":["salpimentemos"],"p2":["salpimentad"],"p3":["salpimienten"]}
+  }
+}

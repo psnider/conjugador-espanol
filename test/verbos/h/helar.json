@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eˈlaɾ]",
+    "silabacion": "he-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín gelare",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"helar","gerundio":"helando","participio":"helado"},
+  "formas_personales": {
+    "IndPres": {"s1":["hielo"],"s2":["hielas"],"vos":["helás"],"s3":["hiela"],"p1":["helamos"],"p2":["heláis"],"p3":["hielan"]},
+    "IndImp": {"s1":["helaba"],"s2":["helabas"],"vos":["helabas"],"s3":["helaba"],"p1":["helábamos"],"p2":["helabais"],"p3":["helaban"]},
+    "IndPret": {"s1":["helé"],"s2":["helaste"],"vos":["helaste"],"s3":["heló"],"p1":["helamos"],"p2":["helasteis"],"p3":["helaron"]},
+    "IndFut": {"s1":["helaré"],"s2":["helarás"],"vos":["helarás"],"s3":["helará"],"p1":["helaremos"],"p2":["helaréis"],"p3":["helarán"]},
+    "IndCond": {"s1":["helaría"],"s2":["helarías"],"vos":["helarías"],"s3":["helaría"],"p1":["helaríamos"],"p2":["helaríais"],"p3":["helarían"]},
+    "SubPres": {"s1":["hiele"],"s2":["hieles"],"vos":["hieles","helés"],"s3":["hiele"],"p1":["helemos"],"p2":["heléis"],"p3":["hielen"]},
+    "SubImp": {"s1":["helara","helase"],"s2":["helaras","helases"],"vos":["helaras","helases"],"s3":["helara","helase"],"p1":["heláramos","helásemos"],"p2":["helarais","helaseis"],"p3":["helaran","helasen"]},
+    "SubFut": {"s1":["helare"],"s2":["helares"],"vos":["helares"],"s3":["helare"],"p1":["heláremos"],"p2":["helareis"],"p3":["helaren"]},
+    "CmdPos": {"s2":["hiela"],"vos":["helá"],"s3":["hiele"],"p1":["helemos"],"p2":["helad"],"p3":["hielen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsẽn̪ˈd̪eɾ]",
+    "silabacion": "en-cen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incendere",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"encender","gerundio":"encendiendo","participio":"encendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["enciendo"],"s2":["enciendes"],"vos":["encendés"],"s3":["enciende"],"p1":["encendemos"],"p2":["encendéis"],"p3":["encienden"]},
+    "IndImp": {"s1":["encendía"],"s2":["encendías"],"vos":["encendías"],"s3":["encendía"],"p1":["encendíamos"],"p2":["encendíais"],"p3":["encendían"]},
+    "IndPret": {"s1":["encendí"],"s2":["encendiste"],"vos":["encendiste"],"s3":["encendió"],"p1":["encendimos"],"p2":["encendisteis"],"p3":["encendieron"]},
+    "IndFut": {"s1":["encenderé"],"s2":["encenderás"],"vos":["encenderás"],"s3":["encenderá"],"p1":["encenderemos"],"p2":["encenderéis"],"p3":["encenderán"]},
+    "IndCond": {"s1":["encendería"],"s2":["encenderías"],"vos":["encenderías"],"s3":["encendería"],"p1":["encenderíamos"],"p2":["encenderíais"],"p3":["encenderían"]},
+    "SubPres": {"s1":["encienda"],"s2":["enciendas"],"vos":["enciendas","encendás"],"s3":["encienda"],"p1":["encendamos"],"p2":["encendáis"],"p3":["enciendan"]},
+    "SubImp": {"s1":["encendiera","encendiese"],"s2":["encendieras","encendieses"],"vos":["encendieras","encendieses"],"s3":["encendiera","encendiese"],"p1":["encendiéramos","encendiésemos"],"p2":["encendierais","encendieseis"],"p3":["encendieran","encendiesen"]},
+    "SubFut": {"s1":["encendiere"],"s2":["encendieres"],"vos":["encendieres"],"s3":["encendiere"],"p1":["encendiéremos"],"p2":["encendiereis"],"p3":["encendieren"]},
+    "CmdPos": {"s2":["enciende"],"vos":["encendé"],"s3":["encienda"],"p1":["encendamos"],"p2":["encended"],"p3":["enciendan"]}
+  }
+}

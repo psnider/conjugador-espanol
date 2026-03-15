@@ -1,11 +1,11 @@
 {
   "lexicografía": {
-  "pronunciacion": "[reˈiɾ]",
-  "silabacion": "re-ír",
-  "acentuacion": "aguda",
-  "etimologia": "Del latín ridere.",
-  "modelos": ["reír"]
-},
+    "pronunciacion": "[reˈiɾ]",
+    "silabacion": "re-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ridere.",
+    "modelos": ["reír"]
+  },
   "formas_no_personales": {"infinitivo":"reír","gerundio":"riendo","participio":"reído"},
   "formas_personales": {
     "IndPres": {"s1":["río"],"s2":["ríes"],"vos":["reís"],"s3":["ríe"],"p1":["reímos"],"p2":["reís"],"p3":["ríen"]},

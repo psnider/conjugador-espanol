@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saeˈɾiɾ]",
+    "silabacion": "za-he-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta su uso desde 1475.[1] Del castellano antiguo façerir, de faz y herir.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"zaherir","gerundio":"zahiriendo","participio":"zaherido"},
+  "formas_personales": {
+    "IndPres": {"s1":["zahiero"],"s2":["zahieres"],"vos":["zaherís"],"s3":["zahiere"],"p1":["zaherimos"],"p2":["zaherís"],"p3":["zahieren"]},
+    "IndImp": {"s1":["zahería"],"s2":["zaherías"],"vos":["zaherías"],"s3":["zahería"],"p1":["zaheríamos"],"p2":["zaheríais"],"p3":["zaherían"]},
+    "IndPret": {"s1":["zaherí"],"s2":["zaheriste"],"vos":["zaheriste"],"s3":["zahirió"],"p1":["zaherimos"],"p2":["zaheristeis"],"p3":["zahirieron"]},
+    "IndFut": {"s1":["zaheriré"],"s2":["zaherirás"],"vos":["zaherirás"],"s3":["zaherirá"],"p1":["zaheriremos"],"p2":["zaheriréis"],"p3":["zaherirán"]},
+    "IndCond": {"s1":["zaheriría"],"s2":["zaherirías"],"vos":["zaherirías"],"s3":["zaheriría"],"p1":["zaheriríamos"],"p2":["zaheriríais"],"p3":["zaherirían"]},
+    "SubPres": {"s1":["zahiera"],"s2":["zahieras"],"vos":["zahieras","zahirás"],"s3":["zahiera"],"p1":["zahiramos"],"p2":["zahiráis"],"p3":["zahieran"]},
+    "SubImp": {"s1":["zahiriera","zahiriese"],"s2":["zahirieras","zahirieses"],"vos":["zahirieras","zahirieses"],"s3":["zahiriera","zahiriese"],"p1":["zahiriéramos","zahiriésemos"],"p2":["zahirierais","zahirieseis"],"p3":["zahirieran","zahiriesen"]},
+    "SubFut": {"s1":["zahiriere"],"s2":["zahirieres"],"vos":["zahirieres"],"s3":["zahiriere"],"p1":["zahiriéremos"],"p2":["zahiriereis"],"p3":["zahirieren"]},
+    "CmdPos": {"s2":["zahiere"],"vos":["zaherí"],"s3":["zahiera"],"p1":["zahiramos"],"p2":["zaherid"],"p3":["zahieran"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saˈliɾ]",
+    "silabacion": "sa-lir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín salīre ('brotar').",
+    "modelos": ["salir"]
+  },
+  "formas_no_personales": {"infinitivo":"salir","gerundio":"saliendo","participio":"salido"},
+  "formas_personales": {
+    "IndPres": {"s1":["salgo"],"s2":["sales"],"vos":["salís"],"s3":["sale"],"p1":["salimos"],"p2":["salís"],"p3":["salen"]},
+    "IndImp": {"s1":["salía"],"s2":["salías"],"vos":["salías"],"s3":["salía"],"p1":["salíamos"],"p2":["salíais"],"p3":["salían"]},
+    "IndPret": {"s1":["salí"],"s2":["saliste"],"vos":["saliste"],"s3":["salió"],"p1":["salimos"],"p2":["salisteis"],"p3":["salieron"]},
+    "IndFut": {"s1":["saldré"],"s2":["saldrás"],"vos":["saldrás"],"s3":["saldrá"],"p1":["saldremos"],"p2":["saldréis"],"p3":["saldrán"]},
+    "IndCond": {"s1":["saldría"],"s2":["saldrías"],"vos":["saldrías"],"s3":["saldría"],"p1":["saldríamos"],"p2":["saldríais"],"p3":["saldrían"]},
+    "SubPres": {"s1":["salga"],"s2":["salgas"],"vos":["salgas","salgás"],"s3":["salga"],"p1":["salgamos"],"p2":["salgáis"],"p3":["salgan"]},
+    "SubImp": {"s1":["saliera","saliese"],"s2":["salieras","salieses"],"vos":["salieras","salieses"],"s3":["saliera","saliese"],"p1":["saliéramos","saliésemos"],"p2":["salierais","salieseis"],"p3":["salieran","saliesen"]},
+    "SubFut": {"s1":["saliere"],"s2":["salieres"],"vos":["salieres"],"s3":["saliere"],"p1":["saliéremos"],"p2":["saliereis"],"p3":["salieren"]},
+    "CmdPos": {"s2":{"estándar":["sal"],"atípicos":[{"forma":"sale","etiquetas":["no normativo"]}]},"vos":["salí"],"s3":["salga"],"p1":["salgamos"],"p2":["salid"],"p3":["salgan"]}
+  }
+}

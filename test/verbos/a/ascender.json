@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asẽn̪ˈd̪eɾ]",
+    "silabacion": "as-cen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ascendĕre, con el mismo significado.",
+    "modelos": ["entender"]
+  },
+  "formas_no_personales": {"infinitivo":"ascender","gerundio":"ascendiendo","participio":"ascendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["asciendo"],"s2":["asciendes"],"vos":["ascendés"],"s3":["asciende"],"p1":["ascendemos"],"p2":["ascendéis"],"p3":["ascienden"]},
+    "IndImp": {"s1":["ascendía"],"s2":["ascendías"],"vos":["ascendías"],"s3":["ascendía"],"p1":["ascendíamos"],"p2":["ascendíais"],"p3":["ascendían"]},
+    "IndPret": {"s1":["ascendí"],"s2":["ascendiste"],"vos":["ascendiste"],"s3":["ascendió"],"p1":["ascendimos"],"p2":["ascendisteis"],"p3":["ascendieron"]},
+    "IndFut": {"s1":["ascenderé"],"s2":["ascenderás"],"vos":["ascenderás"],"s3":["ascenderá"],"p1":["ascenderemos"],"p2":["ascenderéis"],"p3":["ascenderán"]},
+    "IndCond": {"s1":["ascendería"],"s2":["ascenderías"],"vos":["ascenderías"],"s3":["ascendería"],"p1":["ascenderíamos"],"p2":["ascenderíais"],"p3":["ascenderían"]},
+    "SubPres": {"s1":["ascienda"],"s2":["asciendas"],"vos":["asciendas","ascendás"],"s3":["ascienda"],"p1":["ascendamos"],"p2":["ascendáis"],"p3":["asciendan"]},
+    "SubImp": {"s1":["ascendiera","ascendiese"],"s2":["ascendieras","ascendieses"],"vos":["ascendieras","ascendieses"],"s3":["ascendiera","ascendiese"],"p1":["ascendiéramos","ascendiésemos"],"p2":["ascendierais","ascendieseis"],"p3":["ascendieran","ascendiesen"]},
+    "SubFut": {"s1":["ascendiere"],"s2":["ascendieres"],"vos":["ascendieres"],"s3":["ascendiere"],"p1":["ascendiéremos"],"p2":["ascendiereis"],"p3":["ascendieren"]},
+    "CmdPos": {"s2":["asciende"],"vos":["ascendé"],"s3":["ascienda"],"p1":["ascendamos"],"p2":["ascended"],"p3":["asciendan"]}
+  }
+}
