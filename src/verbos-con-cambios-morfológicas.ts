@@ -585,6 +585,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     prestar: {},
     pretender: {},
     prevenir: { modelo: "venir" },
+    prever: { modelo: "ver" },
     primer: {},
     probar: { alternancia_vocálica: "o:ue" },
     producir: {},

@@ -11,7 +11,7 @@ const resultos_de_pruebas = JSON.parse(resultos_de_pruebas_json)
 const líneas_originales = fs.readFileSync(verbos_archivo_nombre).toString().split("\n")
 const líneas_anotadas = []
 for (const línea_original of líneas_originales) {
-    const match = línea_original.match(/^    (\w+):(\s+){/)
+    const match = línea_original.match(/^    ([a-zñáéíóúü]+):(\s+){/)
     if (match) {
         const verbo = match[1]
         if (verbo in resultos_de_pruebas) {

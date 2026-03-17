@@ -440,7 +440,7 @@ let latest_conjugated_forms = {}
  */
 function handleConjugate() {
     const infinitive = infinitiveInput.value.trim();
-    const moodTense = moodTenseSelect.value;
+    const mood_tense = moodTenseSelect.value;
 
     if (!infinitive) {
         resultDiv.innerHTML = "<p>Por favor escribe un infinitivo.</p>";
@@ -448,7 +448,7 @@ function handleConjugate() {
     }
 
     // aquí llamas tu función TypeScript ya disponible
-    const conj = conjugateVerb(infinitive, moodTense); // VerbConjugationAnnotated
+    const conj = conjugateVerb(infinitive, mood_tense); // VerbConjugationAnnotated
 
     if (!conj || !conj.forms) {
         resultDiv.innerHTML = "<p>No hay formas para este verbo / modo-tiempo.</p>";
@@ -456,18 +456,23 @@ function handleConjugate() {
     }
 
     latest_conjugated_forms = conj.forms
-    renderConjugationTable(infinitive, conj.forms);
+    renderConjugationTable(infinitive, mood_tense, conj.forms);
 }
 window.handleConjugate = handleConjugate
 
 
-function getFormaHeaderText(ok) {
+function getFormaHeaderText(ok, forms, mood_tense) {
     if (ok === true) {
         return "🟢 verificadas"
     } else if (ok == null) {
         return "🔵 no verificadas"
     } else {
-        return "🔴 Hay algunas errores"
+        const corrections = ok[mood_tense]
+        if (corrections) {
+            return "🔴 incorrectas  &nbsp;&nbsp; ✅ corregidas"
+        } else {
+            return "🟢 verificadas"
+        }
     }
 }
 
@@ -475,23 +480,27 @@ function getFormaHeaderText(ok) {
 /**
  * Renderiza la tabla de formas
  */
-function renderConjugationTable(infinitive, forms) {
-    function combineTuVos(s2,vos){
-        if(!s2&&!vos){
-            const span=document.createElement("span")
-            span.textContent="—"
-            span.className="null"
-            return span
+function renderConjugationTable(infinitive, mood_tense, forms) {
+    function combineTuVos(s2, vos, corrections){
+        // if (!s2 && !vos){
+        //     const span=document.createElement("span")
+        //     span.textContent="—"
+        //     span.className="null"
+        //     return span
+        // }
+        const render_s2 = (s2 && !vos) || (JSON.stringify(s2) === JSON.stringify(vos))
+        if (render_s2) {
+            return getVerbFormsText(s2, corrections?.s2)
         }
-        if(s2&&!vos)return renderVerbForms(s2)
-        if(JSON.stringify(s2)===JSON.stringify(vos))return renderVerbForms(s2)
-        const span=document.createElement("span")
-        const left=s2.join(", ")
-        const right=vos.join(", ")
-        span.innerHTML= left + " <span class='variant'> &nbsp; • &nbsp; " + right + "</span>"
-        return span
+        let span_text
+        const s2_text = getVerbFormsText(s2, corrections?.s2)
+        const vos_text = getVerbFormsText(vos, corrections?.vos)
+        span_text = `${s2_text} &nbsp; • &nbsp;  ${vos_text}`
+        return span_text
     }
-    const header_text = getFormaHeaderText(verbos_con_cambios_morfológicos[infinitive]?.ok)
+    const ok = verbos_con_cambios_morfológicos[infinitive]?.ok
+    const corrections = ok?.[mood_tense]
+    const header_text = getFormaHeaderText(ok, forms, mood_tense)
     const rows = [
         ["s1", "yo"],
         ["s2", "tú = vos"],
@@ -507,38 +516,51 @@ function renderConjugationTable(infinitive, forms) {
     const s2_vos_shared = (!forms.vos || (forms.s2 == forms.vos))
     for(const [key,label] of rows){
         let verbForms
-        let span
+        let span_text
         if (s2_vos_shared) {
             if (key === "s2_vos") continue
         } else {
             if (key === "s2") continue
         }
-        if (key==="s2_vos")span=combineTuVos(forms.s2,forms.vos)
-        else span=renderVerbForms(forms[key])
-        html+=`<tr><td>${label}</td><td>${span.outerHTML}</td></tr>`
+        if (key==="s2_vos")
+            span_text = combineTuVos(forms.s2, forms.vos, corrections)
+        else
+            span_text = getVerbFormsText(forms[key], corrections?.[key])
+        html+=`<tr><td>${label}</td><td>${span_text}</td></tr>`
     }
     html += "</tbody></table>";
     resultDiv.innerHTML = html;
 }
 
-function renderVerbForms(verbForms){
-    const span=document.createElement("span")
+function getVerbFormsText(verbForms, corrections) {
+    let span_text
     if(verbForms==null){
-        span.textContent="—"
-        span.className="null"
-        return span
+        span_text="—"
+        return span_text
     }
-    if(verbForms?.length===1){
-        span.textContent=verbForms[0]
-        return span
+    if (verbForms?.length===1) {
+        if (corrections) {
+            let corrections_text = `✅ ${corrections[0]}`
+            if (corrections.length === 2) {
+                corrections_text += ` , ✅ ${corrections[1]}`
+            }
+            span_text = `(🔴 ${verbForms[0]})  ${corrections_text}`
+            return span_text
+        } else {
+            span_text = verbForms[0]
+            return span_text
+        }
     }
-    span.innerHTML=
-        verbForms[0]
-        +" "
-        +"<span class='variant'>, "
-        +verbForms[1]
-        +"</span>"
-    return span
+    if (corrections) {
+        const form_0_ok = !corrections.includes(verbForms[0])
+        const form_1_ok = !corrections.includes(verbForms[1])
+        const span_content_0 = form_0_ok ? `🟢 ${verbForms[0]}` : `(🔴 ${verbForms[0]}) ✅ ${corrections[0]}` 
+        const span_content_1 = form_1_ok ? `🟢 ${verbForms[1]}` : `(🔴 ${verbForms[1]}) ✅ ${corrections[1]}` 
+        span_text = `${span_content_0} , ${span_content_1}`
+    } else {
+        span_text = `${verbForms[0]} , ${verbForms[1]}`
+    }
+    return span_text
 }
 
 function handleThemeToggle() {
@@ -1393,7 +1415,9 @@ const verbos_con_cambios_morfológicos = {
     cerrar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
-    ceñir: { alternancia_vocálica: "e:i" },
+    ceñir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
     // chirriar: { modelo: "vaciar" }, FIX: ADD
     cimentar: {
       ok:{"IndPres":{"s1":["cimiento","cimento"]}},
@@ -1785,7 +1809,9 @@ const verbos_con_cambios_morfológicos = {
     fregar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
-    freír: { modelo: "reír" },
+    freír: {
+      ok:{"participio":"frito","IndPret":{"s3":["frió"]},"CmdNeg":{"s2":["frías"],"s3":["fría"],"p3":["frían"]}},
+       modelo: "reír" },
     ganar: {},
     gemir: {
       ok:{"IndPret":{"s3":["gimió"],"p3":["gimieron"]},"SubImp":{"s1":["gimiera","gimiese"],"s2":["gimieras","gimieses"],"s3":["gimiera","gimiese"],"p1":["gimiéramos","gimiésemos"],"p2":["gimierais","gimieseis"],"p3":["gimieran","gimiesen"]},"SubFut":{"s1":["gimiere"],"s2":["gimieres"],"s3":["gimiere"],"p1":["gimiéremos"],"p2":["gimiereis"],"p3":["gimieren"]}},
@@ -2035,6 +2061,8 @@ const verbos_con_cambios_morfológicos = {
     olvidar: {},
     organizar: {},
     oír: {
+      ok:true,
+      
         // FIX: linguist: why is this a class?
         modelo: "oír",
         tema_presente_yo: "oig",
@@ -2124,6 +2152,9 @@ const verbos_con_cambios_morfológicos = {
     prevenir: {
       ok:true,
        modelo: "venir" },
+    prever: {
+      ok:{"IndPres":{"s2":["prevés"],"s3":["prevé"],"p2":["prevéis"],"p3":["prevén"]},"IndPret":{"s1":["preví"],"s3":["previó"]},"CmdPos":{"s2":["prevé"]}},
+       modelo: "ver" },
     primer: {},
     probar: {
       ok:true,
@@ -2191,6 +2222,8 @@ const verbos_con_cambios_morfológicos = {
     regresar: {},
     regular: {},
     reír: {
+      ok:{"IndPret":{"s3":["rió"]},"CmdNeg":{"s2":["rías"],"s3":["ría"],"p3":["rían"]}},
+      
         modelo: "reír",
         alternancia_vocálica: "e:ie", // añado po DeepSeek 27 feb 2026
         // alternancia_vocálica: "i:í",  FIX: linguist: is there a vowel change rule?
@@ -2222,7 +2255,9 @@ const verbos_con_cambios_morfológicos = {
     rendir: {
       ok:{"IndPret":{"s3":["rindió"],"p3":["rindieron"]},"SubImp":{"s1":["rindiera","rindiese"],"s2":["rindieras","rindieses"],"s3":["rindiera","rindiese"],"p1":["rindiéramos","rindiésemos"],"p2":["rindierais","rindieseis"],"p3":["rindieran","rindiesen"]},"SubFut":{"s1":["rindiere"],"s2":["rindieres"],"s3":["rindiere"],"p1":["rindiéremos"],"p2":["rindiereis"],"p3":["rindieren"]}},
        modelo: "pedir" },
-    reñir: { alternancia_vocálica: "e:i" },
+    reñir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
     renovar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -2345,7 +2380,9 @@ const verbos_con_cambios_morfológicos = {
     sobrevenir: {
       ok:true,
        modelo: "venir" },
-    sofreír: { modelo: "reír" },
+    sofreír: {
+      ok:{"participio":"sofrito","IndPret":{"s3":["sofrió"]},"CmdNeg":{"s2":["sofrías"],"s3":["sofría"],"p3":["sofrían"]}},
+       modelo: "reír" },
     soldar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -2356,8 +2393,12 @@ const verbos_con_cambios_morfológicos = {
     sonar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
-    soñar: { alternancia_vocálica: "o:ue" },
-    sonreír: { modelo: "reír" },
+    soñar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    sonreír: {
+      ok:{"IndPret":{"s3":["sonrió"]},"CmdNeg":{"s2":["sonrías"],"s3":["sonría"],"p3":["sonrían"]}},
+       modelo: "reír" },
     sosegar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -2401,7 +2442,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
        alternancia_vocálica: "e:ie" },
     terminar: {},
-    teñir: { alternancia_vocálica: "e:i" },
+    teñir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
     tirar: {},
     tocar: {},
     tomar: {},
