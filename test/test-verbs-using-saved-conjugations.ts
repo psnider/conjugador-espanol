@@ -1,34 +1,12 @@
 import * as fs from 'node:fs'
-import { runTestsForInfinitive } from "./load-verb-conjugations.js"
+import { runTestsForInfinitive } from "./test-support.js"
+import { TestResults } from '../src/verbos-con-cambios-morfológicas.js'
 
 
 const verbs_dir = "test/verbos"
 const verb_terminations = ["ar", "er", "ir", "ír"]
-// const persons_order_in_tests = <Array<keyof ConjugaciónModoTiempo>> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
 
-
-
-// function getTestable_Tú_y_Vos(mood_tense: MoodTense, formas: ConjugaciónModoTiempo) {
-//     const {s2, vos} = formas
-//     if (mood_tense === "SubImp") {
-//         if (Array.isArray(s2) && Array.isArray(vos)) {
-//             if ((s2[0] === vos[0]) && (s2[1] === vos[1])) {
-//                 return {s2}
-//             }
-//         }
-//         return {s2, vos}
-//     } else {
-//         const s2_is_array = Array.isArray(s2)
-//         const vos_is_array = Array.isArray(vos)
-//         // for now only test the standard forms
-//         const s2_standard = (s2_is_array ? s2[0] : s2.estándar[0])
-//         const vos_standard = (vos_is_array ? vos[0] : vos.estándar[0])
-//         const tú_y_vos_differ = (s2_standard !== vos_standard)
-//         return {s2: s2_standard, vos: tú_y_vos_differ ? vos_standard : undefined}
-//     }
-// }
-
-const passed = {}
+const test_results: {[infinitive: string]: TestResults} = {}
 
 
 function getLeadingCharMap() {
@@ -44,19 +22,23 @@ function getLeadingCharMap() {
 // No usamos letras con acentos para colleciones de verbos
 const verb_start_char = getLeadingCharMap()
 
+
 function runTestsForSavedVerbsInDir(dir: string) {
     const verb_files = fs.readdirSync(dir)
     for (const verb_file of verb_files) {
         if (verb_file.endsWith(".json")) {
             let infinitivo = verb_file.slice(0, -5)
+            const first_ch = infinitivo[0]
+            const verb_filename = `${verbs_dir}/${first_ch}/${infinitivo}.json`
             if (infinitivo.endsWith("-FIX")) {
-                infinitivo = infinitivo.slice(0,-4)
-                passed[infinitivo] = false
+                console.log(`skipping infinitivo=${infinitivo}, must repair: ${verb_filename}`)
             } else if (verb_terminations.includes(infinitivo.slice(-2))) {
-                const verb_filename = `${verbs_dir}/${infinitivo[0]}/${infinitivo}.json`
-                if (infinitivo === "ver") debugger
-                const ok = runTestsForInfinitive(infinitivo, verb_filename)
-                passed[infinitivo] = ok
+                const corrections_of_failures = runTestsForInfinitive(infinitivo, verb_filename)
+                if (corrections_of_failures) {
+                    test_results[infinitivo] = corrections_of_failures
+                } else {
+                    test_results[infinitivo] = true
+                }
             } else {
                 console.log(`unexpected file: ${verb_file}`)
             }
@@ -77,11 +59,19 @@ function runTestsForSavedVerbs() {
 
 function saveTestResults() {
     const results_filename = `generated/test/resultos-de-pruebas.json`
-    const json = JSON.stringify(passed, null, 2)
+    const json = JSON.stringify(test_results, null, 2)
     fs.writeFileSync(results_filename, json)
+    let error_count = 0
+    let infinitives = Object.keys(test_results)
+    for (const infinitive of infinitives) {
+        const test_result = test_results[infinitive]
+        if (test_result !== true) {
+            ++error_count
+        }
+    }
     console.log(`wrote ${results_filename}`)
+    console.log(`...with error_count=${error_count}`)
 }
-
 
 
 runTestsForSavedVerbs()

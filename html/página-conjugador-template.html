@@ -26,6 +26,12 @@ body.light {
 
 .título {
     text-align: center;
+    margin-bottom: 0em;
+}
+.subtitulo {
+    margin-top: 0;
+    font-size: 0.85em;
+    opacity: 0.7;
 }
 .dedicación {
     margin-bottom:40pt;
@@ -252,6 +258,20 @@ body.light th {
     color: inherit;
 }
 
+.licencia-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.licencia-img {
+    height: 2.5em;
+    width: auto;
+    vertical-align: -0.2em;
+
+    /* width: auto;
+    height: 40px;       reduce a ~¼ 
+    vertical-align: middle; refuerzo extra */
+}
 
 </style>
 </head>
@@ -272,6 +292,7 @@ body.light th {
 
 <div class="main">
     <h1 class="título">Conjugador de verbos</h1>
+    <p class="subtitulo"></p>Según las reglas léxicas (y no las tablas de conjugaciones)</p>
     <h4 class="dedicación">Hecho con cariño ❤️ para quienes quieren mejorar su español<br/>y con amor para la gente 🌎 que lo vive cada día.</h4>
     <div class="controls">
         <div class="control">
@@ -309,7 +330,9 @@ body.light th {
 
         <p>Completamente gratis. Nadie puede cobrarle para utilizar este servicio.<br/>
         Nunca hay annuncios. Nunca le rastreamos.<br/>
-        <b>© <span id="versión"></span> Peter Snider — Licenciado bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" rel="license noopener noreferrer">Creative Commons BY-NC-SA 4.0</a></b></p>
+        <b>© <span id="versión"></span> Peter Snider — 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" rel="license noopener noreferrer" class="licencia-link">Licenciado bajo &nbsp;&nbsp; <img src="html/ic_cc-footer@2x.png" alt="Licencia Creative Commons BY-NC-SA 4.0" class="licencia-img"></a>
+        </b></p>
     </footer>
 </div>
 
@@ -433,15 +456,26 @@ function handleConjugate() {
     }
 
     latest_conjugated_forms = conj.forms
-    renderConjugationTable(conj.forms);
+    renderConjugationTable(infinitive, conj.forms);
 }
 window.handleConjugate = handleConjugate
+
+
+function getFormaHeaderText(ok) {
+    if (ok === true) {
+        return "🟢 verificadas"
+    } else if (ok == null) {
+        return "🔵 no verificadas"
+    } else {
+        return "🔴 Hay algunas errores"
+    }
+}
 
 
 /**
  * Renderiza la tabla de formas
  */
-function renderConjugationTable(forms) {
+function renderConjugationTable(infinitive, forms) {
     function combineTuVos(s2,vos){
         if(!s2&&!vos){
             const span=document.createElement("span")
@@ -457,6 +491,7 @@ function renderConjugationTable(forms) {
         span.innerHTML= left + " <span class='variant'> &nbsp; • &nbsp; " + right + "</span>"
         return span
     }
+    const header_text = getFormaHeaderText(verbos_con_cambios_morfológicos[infinitive]?.ok)
     const rows = [
         ["s1", "yo"],
         ["s2", "tú = vos"],
@@ -467,7 +502,7 @@ function renderConjugationTable(forms) {
         ["p3", "ellos, ellas, ustedes"]
     ];
     let html = `<table>
-        <thead><tr><th>Persona</th><th>Forma</th></tr></thead>
+        <thead><tr><th>Persona</th><th>Formas ${header_text}</th></tr></thead>
         <tbody>`;
     const s2_vos_shared = (!forms.vos || (forms.s2 == forms.vos))
     for(const [key,label] of rows){
@@ -485,7 +520,6 @@ function renderConjugationTable(forms) {
     html += "</tbody></table>";
     resultDiv.innerHTML = html;
 }
-
 
 function renderVerbForms(verbForms){
     const span=document.createElement("span")
@@ -532,6 +566,7 @@ document.getElementById("versión").innerText = version
 const infinitiveInput = document.getElementById("infinitiveInput")
 const moodTenseSelect = document.getElementById("moodTenseSelect")
 const resultDiv = document.getElementById("result")
+const formaHeaderText = document.getElementById("forma-header")
 
 
 // INSERT conjugateVerb code here

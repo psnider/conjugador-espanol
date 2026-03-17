@@ -1,6 +1,6 @@
 import { VerbRulesApplied, VerbConjugation } from ".";
 import { applyToVerbForms } from "./lib.js";
-import { addPrefixesToBaseForm, ConjugationAndDerivationRules, Prefixes } from "./resolve-conjugation-class.js";
+import { ConjugationAndDerivationRules, Prefixes } from "./resolve-conjugation-class.js";
 
 
 // Prefixes that precede irregular verbs.
@@ -69,6 +69,28 @@ export function findProductiveVerbPrefix(verb_part: string, min_ending_length: n
 }
 
 
+
+export function addPrefixesToBaseForm(base_form: string, prefixes?: Prefixes) {
+    if (prefixes) {
+        const {productive_prefixes, nonproductive_prefix, clase_de_conjugación} = prefixes
+        const productive = productive_prefixes?.join("") || ""
+        const nonproductive = nonproductive_prefix || ""
+        let updated_form: string
+        if (clase_de_conjugación) {
+            const {prefijo_aditivo, prefijo_sustractivo} = clase_de_conjugación
+            const terminación = base_form.slice(prefijo_sustractivo.length)
+            updated_form = prefijo_aditivo + terminación
+        } else {
+            updated_form = base_form
+        }
+        const prefixed = productive + nonproductive + updated_form
+        return prefixed
+    } else {
+        return base_form
+    }
+}
+
+
 // Return prefixed forms, or undefined if there are no prefixes.
 export function aplicaPrefijosProductivos(conjugated_forms: VerbConjugation, prefijos: Prefixes | undefined, rules_applied: VerbRulesApplied[]) : VerbConjugation | undefined {
     if (prefijos) {
@@ -98,12 +120,12 @@ export function aplicaPrefijosProductivos(conjugated_forms: VerbConjugation, pre
 export function aplicaPrefijosClaseConjugacional(model_form: string, prefijos?: Prefixes) : string {
     const clase_de_conjugación = prefijos?.clase_de_conjugación
     if (clase_de_conjugación) {
-        const {prefijo, prefijo_base} = clase_de_conjugación
-        if (!model_form.startsWith(prefijo_base)) {
-            throw new Error(`expected ${model_form}.startsWith(${prefijo_base}) with prefijo=${prefijo} `)
+        const {prefijo_aditivo, prefijo_sustractivo} = clase_de_conjugación
+        if (!model_form.startsWith(prefijo_sustractivo)) {
+            throw new Error(`expected ${model_form}.startsWith(${prefijo_sustractivo}) with prefijo=${prefijo_aditivo} `)
         }
-        const ending = model_form.slice(prefijo_base.length)
-        const prefixed = prefijo + ending 
+        const ending = model_form.slice(prefijo_sustractivo.length)
+        const prefixed = prefijo_aditivo + ending 
         return prefixed
     } else {
         return model_form

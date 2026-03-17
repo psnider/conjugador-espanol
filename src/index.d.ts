@@ -91,6 +91,7 @@ interface VerbConjugationAnnotation {
     mood_tense?: MoodTense
     // The non regular rules applied to this verb
     rules_applied?: any[]
+    ok?: 0 | 1
 }
 
 interface VerbConjugationAnnotated {

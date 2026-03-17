@@ -15,9 +15,10 @@ for (const línea_original of líneas_originales) {
     if (match) {
         const verbo = match[1]
         if (verbo in resultos_de_pruebas) {
-            const value = resultos_de_pruebas[verbo] ? 1 : 0
+            const resultos_por_verbo = resultos_de_pruebas[verbo]
+            const failed_tests_json = JSON.stringify(resultos_por_verbo)
             const index = match[0].length
-            const línea_anotada = línea_original.slice(0, index) + `ok:${value},` + línea_original.slice(index)
+            const línea_anotada = línea_original.slice(0, index) + `\n      ok:${failed_tests_json},\n      ` + línea_original.slice(index)
             líneas_anotadas.push(línea_anotada)
         } else {
             líneas_anotadas.push(línea_original)

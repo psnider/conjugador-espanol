@@ -3,10 +3,10 @@ import { conjugateVerb } from "../src/conjugate-verb.js";
 import { deriveParticiples } from "../src/derive-participles.js";
 import { mood_tenses } from "../src/lib.js";
 import { verb_terminations } from "../src/regular-verb-rules.js";
-import { runTestsForInfinitive } from "./load-verb-conjugations.js";
+import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string =  "torcer" // reír, sonreír, 
+let infinitivo: string = "abstener" // "rendir"
 // one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"
 let mood_tense: MoodTense = "IndPres"
 
@@ -43,3 +43,4 @@ let conjugation = conjugateVerb(infinitivo, mood_tense)
 console.log(JSON.stringify(conjugation, null, 4))
 
 const ok = runTestsForInfinitive(infinitivo, `test/verbos/${infinitivo[0]}/${infinitivo}.json`)
+debugger

@@ -1,4 +1,5 @@
 import { GrammaticalPerson, StemChangeRuleId, MoodTense, MoodTenseMap, VerbConjugation, VerbConjugationAnnotation, VerbConjugationChanges, VerbForms } from "."
+import { FailedTests } from "../test/test-support"
 import { VerbAspectModifications } from "./regular-verb-rules"
 import { version, license } from "./version.js"
 
@@ -53,6 +54,9 @@ export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas {
 }
 
 
+// true means all tests passed, otherwise FailedTests lists the correct results for each failed test.
+export type TestResults = true | FailedTests
+
 // FIX: want to explain reason/origin/etemology for each change... this could help learners
 export interface ReglasDeConjugaciónDeVerbo {
     // Used only by resolveConjugationClass(), to associate each portion of a collection of rules with the verb to which they apply.
@@ -71,7 +75,7 @@ export interface ReglasDeConjugaciónDeVerbo {
     // Propiedades que no se generalizan bien, no productivos, no extrapolable.
     excepciones_léxicas?: ReglasDeConjugaciónDeVerboExcepcionesLexicas
     // Inidica que las pruebas pasan
-    ok?: 0 | 1
+    ok?: TestResults
 }
 
 

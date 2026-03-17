@@ -16,8 +16,8 @@ const descreer_Prefixes: Prefixes = {
     productive_prefixes: ["des"],
     nonproductive_prefix: undefined,
     clase_de_conjugación: {
-        prefijo: "cr",
-        prefijo_base: "l",
+        prefijo_aditivo: "cr",
+        prefijo_sustractivo: "l",
     }
 }
 
@@ -28,37 +28,19 @@ export interface Prefixes {
     // These prefixes are found only though orthographic matches, which is not necessarily accurate.
     productive_prefixes?: string[]
     // Any prefixes that remain after removing the productive_prefixes, but not from the base infinitive.
-    // Unfortunately, there doesn't appear to be enough information to find this.
+    // Unfortunately, there doesn't appear to be enough information to find this accurately.
     nonproductive_prefix?: string
+    // This handles two classes of conjugation: 
+    // - a VerboClaseConjugacional, such as "-eer" (modelo "leer"), e.g. for "creer"/"leer"
+    // - a ModeloConjugacional that only partially matches the infinitive, e.g. for "disolver"/"volver"
     clase_de_conjugación?: {
         // El prefijo del verbo que pertenece a una familia de conjugación.
         // Por ejemplo, "creer" es miembro de la familia "-eer" (modelo "leer"), entonces 'conjugation_family_prefix' es "cr",
         // => implica is_conjugation_family
-        prefijo?: string
-        // El stem del verbo que es el modelo/base una familia de conjugación.
-        // Por ejemplo, para "leer", el conjugation_base_prefix es "l", la parte antes de la clase_conjugacional, aquí "-eer"
-        prefijo_base?: string
-    }
-}
-
-
-export function addPrefixesToBaseForm(base_form: string, prefixes?: Prefixes) {
-    if (prefixes) {
-        const {productive_prefixes, nonproductive_prefix, clase_de_conjugación} = prefixes
-        const productive = productive_prefixes?.join("") || ""
-        const nonproductive = nonproductive_prefix || ""
-        let updated_form: string
-        if (clase_de_conjugación) {
-            const {prefijo, prefijo_base} = clase_de_conjugación
-            const terminación = base_form.slice(prefijo_base.length)
-            updated_form = prefijo + terminación
-        } else {
-            updated_form = base_form
-        }
-        const prefixed = productive + nonproductive + updated_form
-        return prefixed
-    } else {
-        return base_form
+        prefijo_aditivo?: string
+        // El principio de un verbo que es el modelo/base una clase/familia de conjugación, que no es parte del modelo real.
+        // Por ejemplo, para "leer", el prefijo_sustractivo es "l", la parte antes de la clase_conjugacional, aquí "-eer"
+        prefijo_sustractivo?: string
     }
 }
 
@@ -72,7 +54,7 @@ var descreer: ConjugationAndDerivationRules =
     prefixes: descreer_Prefixes,
     // copiado de verbos_con_cambios_morfológicas.leer
     morphological_rules: {
-        de_infinitivo: {clase_conjugacional: "-eer", modelo: "leer"}
+        combinados: {clase_conjugacional: "-eer", modelo: "leer"}
     }
 }
 export interface ConjugationAndDerivationRules {
@@ -81,9 +63,8 @@ export interface ConjugationAndDerivationRules {
     // The infinitivo that is left when any semantic prefixes have been removed.
     infinitivo_sin_prefijos: string
     verb_family: InfinitiveClass
-    // // The infinitivo that the conjugation family follows, e.g. "leer" for "-eer".
-    // modelo?: ModeloConjugacional
     prefixes?: Prefixes
+    // El modelo: ModeloConjugacional está en MorphologicalRulesAccumulated.combinados
     morphological_rules: MorphologicalRulesAccumulated  // from verbos_con_cambios_morfológicas[]
     // Calculate and cache the IndPret,p3 stem here, if MorphologicalRulesAccumulated.combinado.tema_pretérito is set
     tema_pretérito_p3?: string    
@@ -194,14 +175,14 @@ export const conjugation_families: {[conjugation_family: string]: ModeloYInfinit
 interface MorphophonemicRulesWithPrefixes {
     productive_prefixes?: string[]
     // nonproductive_prefix?: string
-    base: string
+    base?: string
     base_rules?: ReglasDeConjugaciónDeVerbo
 }
 
 
 
 // Note that there is no way to know whether these are actual prefixes, especially the single char prefixes: "a", "o"
-function findRulesAndProductiveVerbPrefixes(infinitivo: string, modelo: ModeloConjugacional, combinados: ReglasDeConjugaciónDeVerbo) : MorphophonemicRulesWithPrefixes | undefined {
+function findRulesAndProductiveVerbPrefixes(infinitivo: string, modelo: ModeloConjugacional, combinados: ReglasDeConjugaciónDeVerbo) : MorphophonemicRulesWithPrefixes {
     let productive_prefixes: string[]
     // check for the special case of "a-", which is the only productive prefix of a single character
     if ((infinitivo[0] === "a") && (infinitivo.length - modelo?.length) === 1) {
@@ -210,15 +191,15 @@ function findRulesAndProductiveVerbPrefixes(infinitivo: string, modelo: ModeloCo
             return {productive_prefixes: ["a"], base: modelo, base_rules}
         }
     }
-    let remainder = infinitivo
     // FIX: this use of modelo is obsolete
     const clase_conjugacional = combinados?.clase_conjugacional
     const is_conjugation_family = (clase_conjugacional?.[0] === "-")
     // NOTE: in case of a productive ending (has a hyphen), at least one more character is needed, so length is correct.
     const min_ending_length = (is_conjugation_family ? modelo.length : MIN_BASE_VERB_LENGTH)
+    let remainder = infinitivo
     // stop as soon as a known verb is found, e.g. "acertar" is in morphophonemic_verb_conjugation_rules, but not "certar"
     let base_rules = verbos_con_cambios_morfológicos[infinitivo]
-    if (!base_rules) {
+    if (!base_rules || base_rules.modelo) {
         let do_look_for_prefix = true
         while (do_look_for_prefix && (remainder.length > min_ending_length)) {
             const prefix_found = findProductiveVerbPrefix(remainder, min_ending_length)
@@ -238,6 +219,7 @@ function findRulesAndProductiveVerbPrefixes(infinitivo: string, modelo: ModeloCo
             return {productive_prefixes, base, base_rules}
         }
     }
+    return {}
 }
 
 
@@ -248,65 +230,92 @@ interface DeterminePrefixesResult {
 }
 
 
+function findSharedEnding(infinitivo: string, modelo: ModeloConjugacional) : string {
+    let terminación: string = modelo
+    for ( ; terminación.length > 2 ; terminación = terminación.slice(1)) {
+        if (infinitivo.slice(-terminación.length) === terminación) {
+            break
+        }
+    }
+    // NOTE: terminación.length can degenerate to the InfinitiveClass, e.g. "gemir" follows the model "pedir"
+    return terminación
+}
+
+
+
+// Determina los prefijos de este verbo, y llena el tipo Prefixes. 
 // Separate any productive verb prefixes from this verb, and return the remainder as the base.
-// The base must be at least min_ending_length characters long as "ir" is the only shorter verb, and it cannot be previxed.
+// The base must be at least min_ending_length characters long as "ir" is the only shorter verb, and it cannot be prefixed.
 // e.g. "prever" has a 3-char base infinitivo.
 function determinePrefixes(infinitivo: string, modelo: ModeloConjugacional, morphological_rules: MorphologicalRulesAccumulated) : DeterminePrefixesResult | undefined {
     const {combinados} = morphological_rules
-    let conjugation_family_prefix: string
-    let rules_and_prefixes = findRulesAndProductiveVerbPrefixes(infinitivo, modelo, combinados)
-    const productive_prefixes = rules_and_prefixes?.productive_prefixes
-    const base = rules_and_prefixes?.base
-    const base_rules = rules_and_prefixes?.base_rules
+    const clase_conjugacional = combinados?.clase_conjugacional
+    let {productive_prefixes, base, base_rules} = findRulesAndProductiveVerbPrefixes(infinitivo, modelo, combinados)
     if (base_rules) {
+        modelo = modelo || base_rules.modelo
         morphological_rules.de_prefijos = {...base_rules, infinitivos: [infinitivo, base]}
     }
-    modelo = modelo || base_rules?.modelo
-    // const infinitivo_sin_prefijos = getInfinitivoSinPrefijos(productive_prefixes, infinitivo)
-    const clase_conjugacional = combinados?.clase_conjugacional
-    const is_conjugation_family = (clase_conjugacional?.[0] === "-")
-    if (is_conjugation_family) {
-        const ending_len = (clase_conjugacional.length - 1)
-        if (productive_prefixes) {
-            const prefixes_joined = productive_prefixes.join("")
-            const remainder = infinitivo.slice(prefixes_joined.length)
-            if (remainder.length > ending_len) {
-                conjugation_family_prefix = remainder.slice(0, -ending_len)
-            } else {
-                conjugation_family_prefix = productive_prefixes.pop()
-            }
-        } else {
-            conjugation_family_prefix = infinitivo.slice(0, -ending_len)
-        }
-    }
-    let prefixes : Prefixes
-    if (productive_prefixes || conjugation_family_prefix || (modelo && (infinitivo !== modelo))) {
-        prefixes = {}
-        let remainder = infinitivo
-        if (productive_prefixes) {
-            assert(productive_prefixes.length > 0, `${infinitivo}: productive_prefixes.length==0`)
-            prefixes.productive_prefixes = productive_prefixes
-            const productive_prefixes_all = productive_prefixes.join("")
-            assert(infinitivo.startsWith(productive_prefixes_all), `expected ${infinitivo}.startsWith(${productive_prefixes_all})`)
-            remainder = infinitivo.slice(productive_prefixes_all.length)
-        }
-        if (conjugation_family_prefix) {
-            const ending_len = (clase_conjugacional.length - 1)
-            const ending = clase_conjugacional.slice(1)
-            assert(infinitivo.endsWith(ending), `expected ${infinitivo}.endsWith(${ending})`)
-            const prefijo_base = (ending_len ? modelo.slice(0, -ending_len) : undefined)
-            prefixes.clase_de_conjugación = {prefijo: conjugation_family_prefix, prefijo_base}
-        } else if (infinitivo !== modelo) {
-            const productive_prefixes_all = prefixes.productive_prefixes?.join("") || ""
-            const wo_productive_prefixes = infinitivo.slice(productive_prefixes_all.length)
-            assert(infinitivo.endsWith(modelo), `expected ${infinitivo}.endsWith(${modelo})`)
-            const nonproductive_prefix = wo_productive_prefixes.slice(0, -modelo.length)
-            if (nonproductive_prefix) {
-                prefixes.nonproductive_prefix = nonproductive_prefix
-            }
-        }
+    const is_ending_conjugation_family = (clase_conjugacional?.[0] === "-")
+    // const is_modelo_conjugation_family = (modelo && (!infinitivo.endsWith(modelo)))
+    if (is_ending_conjugation_family || modelo) {
+        const shared_ending = (clase_conjugacional ? clase_conjugacional?.slice(1) : findSharedEnding(infinitivo, modelo))
+        const shared_ending_len = shared_ending.length
+        const prefijo_sustractivo = modelo.slice(0, -shared_ending_len)
+        let prefijo_aditivo = infinitivo.slice(0, -shared_ending_len)
+        // let prefixes_joined = productive_prefixes?.join("") || ""
+        // let unprefixed = infinitivo.slice(prefixes_joined.length)
+        // } else {
+        //     prefijo_aditivo = productive_prefixes?.pop()
+        //     prefixes_joined = productive_prefixes?.join("") || ""
+        //     unprefixed = infinitivo.slice(prefixes_joined.length)
+        // }
+        // any portion not accounted for is considered nonproductive
+        // const nonproductive_prefix = unprefixed.slice(0, -(prefijo_aditivo.length + shared_ending.length))
+        const clase_de_conjugación = {prefijo_aditivo, prefijo_sustractivo}
+        const prefixes: Prefixes = {/* productive_prefixes, /* nonproductive_prefix, */ clase_de_conjugación}
         return {prefixes, base, base_rules}
-    } 
+    } else {
+        return {base, base_rules}
+    }
+    // const nonproductive_prefix = getNonProductivePrefix()
+    // if (is_ending_conjugation_family || is_modelo_conjugation_family || rules_and_prefixes) {
+    //     const productive_prefixes = rules_and_prefixes?.productive_prefixes
+    //     const base = rules_and_prefixes?.base
+    //     const base_rules = rules_and_prefixes?.base_rules
+    //     if (base_rules) {
+    //         modelo = modelo || base_rules.modelo
+    //         morphological_rules.de_prefijos = {...base_rules, infinitivos: [infinitivo, base]}
+    //     }
+    //     if (productive_prefixes ||  nonproductive_prefix || clase_de_conjugación) {
+    //         const prefixes: Prefixes = {productive_prefixes,  nonproductive_prefix, clase_de_conjugación}
+    //         return prefixes
+    //     }
+    //     // const infinitivo_sin_prefijos = getInfinitivoSinPrefijos(productive_prefixes, infinitivo)
+    //     if (productive_prefixes || conjugation_family_prefix || (modelo && (infinitivo !== modelo))) {
+    //         let remainder = infinitivo
+    //         if (productive_prefixes) {
+    //             assert(productive_prefixes.length > 0, `${infinitivo}: productive_prefixes.length==0`)
+    //             prefixes.productive_prefixes = productive_prefixes
+    //             const productive_prefixes_all = productive_prefixes.join("")
+    //             assert(infinitivo.startsWith(productive_prefixes_all), `expected ${infinitivo}.startsWith(${productive_prefixes_all})`)
+    //             remainder = infinitivo.slice(productive_prefixes_all.length)
+    //         }
+    //         if (conjugation_family_prefix) {
+    //             const ending_len = (clase_conjugacional.length - 1)
+    //             const ending = clase_conjugacional.slice(1)
+    //             assert(infinitivo.endsWith(ending), `expected ${infinitivo}.endsWith(${ending})`)
+    //             const prefijo_base = (ending_len ? modelo.slice(0, -ending_len) : undefined)
+    //             prefixes.clase_de_conjugación = {prefijo: conjugation_family_prefix, prefijo_base}
+    //         } else if (infinitivo !== modelo) {
+    //             const productive_prefixes_all = prefixes.productive_prefixes?.join("") || ""
+    //             const wo_productive_prefixes = infinitivo.slice(productive_prefixes_all.length)
+    //             const nonproductive_prefix = wo_productive_prefixes.slice(0, -shared_ending.length)
+    //             if (nonproductive_prefix) {
+    //                 prefixes.nonproductive_prefix = nonproductive_prefix
+    //             }
+    //         }
+    //         return {prefixes, base, base_rules}
+    //     } 
 }
 
 
@@ -356,6 +365,19 @@ function _combinaReglasDeConjugaciónDeVerbo(args: {combinados: ReglasDeConjugac
             }
         }
     }
+    function updateVerfication(combinado: ReglasDeConjugaciónDeVerbo, adicional: ReglasDeConjugaciónDeVerbo) {
+        const ok_combinado = combinado?.ok
+        const ok_adicional = adicional?.ok
+        if (ok_adicional) {
+            if (!ok_adicional) {
+                combinado.ok = ok_adicional
+            } else {
+                if (ok_combinado > ok_adicional) {
+                    combinado.ok = ok_adicional
+                }
+            }
+        }
+    }
     const {combinados, adicionales} = args
     if (!adicionales) {
         return
@@ -363,6 +385,7 @@ function _combinaReglasDeConjugaciónDeVerbo(args: {combinados: ReglasDeConjugac
     if (combinados.infinitivos.length < adicionales.infinitivos.length) {
         combinados.infinitivos = adicionales.infinitivos
     }
+    updateVerfication(combinados, adicionales)
     replaceIfAdditive("clase_conjugacional", combinados, adicionales)
     replaceIfAdditive("modelo", combinados, adicionales)
     replaceIfAdditive("tema_presente_yo", combinados, adicionales)
@@ -508,4 +531,3 @@ export function resolveConjugationClass(infinitivo: string): ConjugationAndDeriv
     conj_and_deriv_rules.tema_pretérito_p3 = getPreterite3PStem(conj_and_deriv_rules)
     return conj_and_deriv_rules
 }
-

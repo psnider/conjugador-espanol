@@ -1,7 +1,8 @@
 import { Participios, ParticipleRulesApplied, VerbRulesApplied } from "."
 import { applyOrthographicalChangesForParticiples } from "./ortografía.js"
+import { addPrefixesToBaseForm } from "./prefixes.js"
 import { regular_verb_suffixes } from "./regular-verb-rules.js"
-import { addPrefixesToBaseForm, ConjugationAndDerivationRules, resolveConjugationClass } from "./resolve-conjugation-class.js"
+import { ConjugationAndDerivationRules, resolveConjugationClass } from "./resolve-conjugation-class.js"
 import { applyStemChangeToGerundStem, stem_change_patterns } from "./stem-changes.js"
 import { InfinitiveClass } from "./verbos-con-cambios-morfológicas"
 

@@ -26,6 +26,12 @@ body.light {
 
 .título {
     text-align: center;
+    margin-bottom: 0em;
+}
+.subtitulo {
+    margin-top: 0;
+    font-size: 0.85em;
+    opacity: 0.7;
 }
 .dedicación {
     margin-bottom:40pt;
@@ -252,6 +258,20 @@ body.light th {
     color: inherit;
 }
 
+.licencia-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.licencia-img {
+    height: 2.5em;
+    width: auto;
+    vertical-align: -0.2em;
+
+    /* width: auto;
+    height: 40px;       reduce a ~¼ 
+    vertical-align: middle; refuerzo extra */
+}
 
 </style>
 </head>
@@ -272,6 +292,7 @@ body.light th {
 
 <div class="main">
     <h1 class="título">Conjugador de verbos</h1>
+    <p class="subtitulo"></p>Según las reglas léxicas (y no las tablas de conjugaciones)</p>
     <h4 class="dedicación">Hecho con cariño ❤️ para quienes quieren mejorar su español<br/>y con amor para la gente 🌎 que lo vive cada día.</h4>
     <div class="controls">
         <div class="control">
@@ -309,7 +330,9 @@ body.light th {
 
         <p>Completamente gratis. Nadie puede cobrarle para utilizar este servicio.<br/>
         Nunca hay annuncios. Nunca le rastreamos.<br/>
-        <b>© <span id="versión"></span> Peter Snider — Licenciado bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" rel="license noopener noreferrer">Creative Commons BY-NC-SA 4.0</a></b></p>
+        <b>© <span id="versión"></span> Peter Snider — 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" rel="license noopener noreferrer" class="licencia-link">Licenciado bajo &nbsp;&nbsp; <img src="html/ic_cc-footer@2x.png" alt="Licencia Creative Commons BY-NC-SA 4.0" class="licencia-img"></a>
+        </b></p>
     </footer>
 </div>
 
@@ -365,7 +388,7 @@ function prepareErrorReportInGitHub(event) {
     }
     const json = json_wo_forms.replace('"FORMAS"', formas_json)
     const body =
-`Por favor, añada cualquier comentario aquí...
+`Por favor, añada cualquier comentario aquí... entonces hax clic en el botón "Create" abajo.
 
 ### Detalles (por favor, no edite esta sección)
 \`\`\`json
@@ -433,15 +456,26 @@ function handleConjugate() {
     }
 
     latest_conjugated_forms = conj.forms
-    renderConjugationTable(conj.forms);
+    renderConjugationTable(infinitive, conj.forms);
 }
 window.handleConjugate = handleConjugate
+
+
+function getFormaHeaderText(ok) {
+    if (ok === true) {
+        return "🟢 verificadas"
+    } else if (ok == null) {
+        return "🔵 no verificadas"
+    } else {
+        return "🔴 Hay algunas errores"
+    }
+}
 
 
 /**
  * Renderiza la tabla de formas
  */
-function renderConjugationTable(forms) {
+function renderConjugationTable(infinitive, forms) {
     function combineTuVos(s2,vos){
         if(!s2&&!vos){
             const span=document.createElement("span")
@@ -457,6 +491,7 @@ function renderConjugationTable(forms) {
         span.innerHTML= left + " <span class='variant'> &nbsp; • &nbsp; " + right + "</span>"
         return span
     }
+    const header_text = getFormaHeaderText(verbos_con_cambios_morfológicos[infinitive]?.ok)
     const rows = [
         ["s1", "yo"],
         ["s2", "tú = vos"],
@@ -467,7 +502,7 @@ function renderConjugationTable(forms) {
         ["p3", "ellos, ellas, ustedes"]
     ];
     let html = `<table>
-        <thead><tr><th>Persona</th><th>Forma</th></tr></thead>
+        <thead><tr><th>Persona</th><th>Formas ${header_text}</th></tr></thead>
         <tbody>`;
     const s2_vos_shared = (!forms.vos || (forms.s2 == forms.vos))
     for(const [key,label] of rows){
@@ -485,7 +520,6 @@ function renderConjugationTable(forms) {
     html += "</tbody></table>";
     resultDiv.innerHTML = html;
 }
-
 
 function renderVerbForms(verbForms){
     const span=document.createElement("span")
@@ -528,7 +562,9 @@ initTheme()
 
 
 // --- versión ---
-export const version = "5 mar 2026";
+// El formato es de español: dd mmm yyyy
+// El mes debe ser uno de estes: ene, feb, mar, abr, may, jun, jul, aug, sep, oct, nov, dec
+export const version = "17 mar 2026";
 export const license = "CC BY-NC-SA 4.0";
 //# sourceMappingURL=version.js.map
 // --- fin versión ---
@@ -536,6 +572,7 @@ document.getElementById("versión").innerText = version
 const infinitiveInput = document.getElementById("infinitiveInput")
 const moodTenseSelect = document.getElementById("moodTenseSelect")
 const resultDiv = document.getElementById("result")
+const formaHeaderText = document.getElementById("forma-header")
 
 
 // --- librería conjugador ---
@@ -561,16 +598,16 @@ function applyToVerbForms(source_forms, change) {
 }
 const persons_standard = ["s1", "s2", "s3", "p1", "p2", "p3"];
 const persons_w_vos = ["s1", "s2", "s3", "p1", "p2", "p3", "vos"];
+const persons_w_vos_index = { s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1 };
 const mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos", "CmdNeg"];
-function setStem(stem, only_persons) {
-    const temas = {};
-    const stems = (Array.isArray(stem) ? stem : [stem]);
+function setStem(temas_modelo, only_persons) {
+    const temas_base = {};
     const persons = only_persons || persons_w_vos;
     for (const key of persons) {
         const persona_gramatical = key;
-        temas[persona_gramatical] = stems;
+        temas_base[persona_gramatical] = temas_modelo;
     }
-    return temas;
+    return temas_base;
 }
 //# sourceMappingURL=lib.js.map
 
@@ -640,7 +677,7 @@ function removeStress(original) {
 //# sourceMappingURL=move-stress.js.map
 
 
-// A mapping of the last 3 or 4 characters of an infinitive to the possible typographic change rule.
+// A mapping of the last 3 or 4 characters of an infinitivo to the possible typographic change rule.
 // NOTE: these are searched in the same order that they are presented in this list, and the first match is selected.
 const infinitive_ending_sound_rules = {
     quir: "preserve-hard-c-sound-of-q",
@@ -698,10 +735,14 @@ const orthographical_change_rules = {
     }
 };
 // Apply any orthographical changes to the given part of a verb conjugation or participle derivation
-function applyOrthographicalChangesCommon(full_form, suffix, do_correct_dieresis) {
-    let changed = full_form;
+function applyOrthographicalChangesCommon(args) {
+    const { form, do_correct_dieresis, do_correct_ñi_yi } = args;
+    let changed = form;
     if (do_correct_dieresis) {
         changed = correctDiéresis(changed);
+    }
+    if (do_correct_ñi_yi) {
+        changed = correctYir(changed);
     }
     // mantener hiato
     changed = changed.replace(/([aeo])i(ste|mos|steis|do)$/, "$1í$2");
@@ -715,18 +756,18 @@ function applyOrthographicalChangesCommon(full_form, suffix, do_correct_dieresis
     return changed;
 }
 // Apply any orthographical changes to the given form of a verb conjugation.
-function applyOrthographicalChangesToConjugatedForm(infinitive, form, suffix, do_correct_dieresis) {
-    const rule = findInfinitiveBaseEndingSoundRule(infinitive);
+function applyOrthographicalChangesToConjugatedForm(infinitivo, form, suffix, do_correct_dieresis, do_correct_ñi_yi) {
+    const rule = findInfinitiveBaseEndingSoundRule(infinitivo);
     if (rule) {
         form = form.replace(rule.match_pattern, rule.replacement_pattern);
     }
-    form = applyOrthographicalChangesCommon(form, suffix, do_correct_dieresis);
+    form = applyOrthographicalChangesCommon({ form, suffix, do_correct_dieresis, do_correct_ñi_yi });
     return form;
 }
-function applyOrthographicalChangesForParticiples(participles, gerund_ending, do_correct_dieresis, rules_applied) {
+function applyOrthographicalChangesForParticiples(participles, gerund_ending, do_correct_dieresis, do_correct_ñi_yi, rules_applied) {
     const orthography = {};
-    const gerundio = applyOrthographicalChangesCommon(participles.gerundio, gerund_ending, do_correct_dieresis);
-    const participio = applyOrthographicalChangesCommon(participles.participio, participles.participio.slice(-3), do_correct_dieresis);
+    const gerundio = applyOrthographicalChangesCommon({ form: participles.gerundio, suffix: gerund_ending, do_correct_dieresis, do_correct_ñi_yi });
+    const participio = applyOrthographicalChangesCommon({ form: participles.participio, suffix: participles.participio.slice(-3), do_correct_dieresis, do_correct_ñi_yi });
     if (gerundio && (gerundio !== participles.gerundio)) {
         orthography.gerundio = gerundio;
     }
@@ -738,14 +779,14 @@ function applyOrthographicalChangesForParticiples(participles, gerund_ending, do
     }
     return orthography;
 }
-function findInfinitiveBaseEndingSoundRule(infinitive) {
-    let ending = infinitive.slice(-4);
+function findInfinitiveBaseEndingSoundRule(infinitivo) {
+    let ending = infinitivo.slice(-4);
     let rule_name = infinitive_ending_sound_rules[ending];
     if (rule_name === null) {
         return;
     }
     if (!rule_name) {
-        ending = infinitive.slice(-3);
+        ending = infinitivo.slice(-3);
         rule_name = infinitive_ending_sound_rules[ending];
     }
     if (rule_name) {
@@ -756,22 +797,28 @@ function findInfinitiveBaseEndingSoundRule(infinitive) {
 function correctDiéresis(conjugation) {
     // Order matters here: first resolve üi/ü + vowel, then restore güi/güí
     conjugation = conjugation.replace(/üi?([aáeéoó])/, "uy$1");
-    return conjugation.replace(/gu([ií])/, "gü$1");
+    return conjugation.replace(/gu([eéií])/, "gü$1");
+}
+function correctYir(conjugation) {
+    conjugation = conjugation.replace(/([ñy])i([eéoó])/, "$1$2");
+    return conjugation;
 }
 // @return The conjugated forms after applying the orthographical change rules.
 // @param @output rules_applied Contains the names of the rules that were applied to the input verb.
 // function __getOrthographicChanges(stem: string, ending: string, form: string, do_correct_dieresis: boolean): string | undefined {
 //     return
 // }
-function getOrthographicChanges(infinitive, mood_tense, forms, suffixes, rules_applied) {
+function getOrthographicChanges(infinitivo, mood_tense, forms, suffixes, rules_applied) {
     const orthography = {};
-    const do_correct_dieresis = infinitive.includes("ü");
+    // perhaps this can be merged with other similar tests and changes
+    const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
+    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
     for (const key in forms) {
         const gramatical_person = key;
         const changed_forms = applyToVerbForms(forms[gramatical_person], (form, i) => {
             const suffixes_for_person = suffixes[gramatical_person];
             const suffix = suffixes_for_person[i] || suffixes_for_person[0];
-            return applyOrthographicalChangesToConjugatedForm(infinitive, form, suffix, do_correct_dieresis);
+            return applyOrthographicalChangesToConjugatedForm(infinitivo, form, suffix, do_correct_diéresis, do_correct_ñi_yi);
         });
         orthography[gramatical_person] = changed_forms;
     }
@@ -843,32 +890,63 @@ function findProductiveVerbPrefix(verb_part, min_ending_length) {
         }
     }
 }
-// Return prefixed forms, or undefined if there are no prefixes.
-function applyPrefixes(conj_and_deriv_rules, conjugated_forms, rules_applied) {
-    const { infinitive, modelo, conjugable_infinitive } = conj_and_deriv_rules;
-    if (infinitive !== conjugable_infinitive) {
-        const { prefixes } = conj_and_deriv_rules;
-        const is_conjugation_family = !!prefixes.conjugation_family_prefix;
-        const prefixed = {};
-        // The text difference between the infinitive and the conjugable_infinitive gives the prefix,
-        // except for when the conjugation is for a conjugation_family, in which case, the prefix of the conjugable_infinitive must be removed first.
-        const conjugation_family_model_len = modelo?.length - 1;
-        const infinitive_prefix_len = infinitive.length - (is_conjugation_family ? conjugation_family_model_len : conjugable_infinitive.length);
-        const infinitive_prefix = infinitive.slice(0, infinitive_prefix_len);
-        const len_unused_prefix_of_conjugation_family = conjugable_infinitive.length - conjugation_family_model_len;
-        for (const key in conjugated_forms) {
-            const grammatical_person = key;
-            prefixed[grammatical_person] = applyToVerbForms(conjugated_forms[grammatical_person], (form) => {
-                if (is_conjugation_family) {
-                    form = form.slice(len_unused_prefix_of_conjugation_family);
-                }
-                return infinitive_prefix + form;
-            });
+function addPrefixesToBaseForm(base_form, prefixes) {
+    if (prefixes) {
+        const { productive_prefixes, nonproductive_prefix, clase_de_conjugación } = prefixes;
+        const productive = productive_prefixes?.join("") || "";
+        const nonproductive = nonproductive_prefix || "";
+        let updated_form;
+        if (clase_de_conjugación) {
+            const { prefijo_aditivo, prefijo_sustractivo } = clase_de_conjugación;
+            const terminación = base_form.slice(prefijo_sustractivo.length);
+            updated_form = prefijo_aditivo + terminación;
         }
-        if (Object.keys(prefixed).length > 1) {
-            rules_applied.push({ prefixed });
+        else {
+            updated_form = base_form;
         }
+        const prefixed = productive + nonproductive + updated_form;
         return prefixed;
+    }
+    else {
+        return base_form;
+    }
+}
+// Return prefixed forms, or undefined if there are no prefixes.
+function aplicaPrefijosProductivos(conjugated_forms, prefijos, rules_applied) {
+    if (prefijos) {
+        const { productive_prefixes, nonproductive_prefix } = prefijos;
+        const productive = productive_prefixes?.join("") || "";
+        const nonproductive = nonproductive_prefix || "";
+        const prefix = productive + nonproductive;
+        if (prefix.length > 0) {
+            const prefixed = {};
+            for (const key in conjugated_forms) {
+                const grammatical_person = key;
+                prefixed[grammatical_person] = applyToVerbForms(conjugated_forms[grammatical_person], (base_form) => {
+                    return prefix + base_form;
+                });
+            }
+            if (Object.keys(prefixed).length > 1) {
+                rules_applied.push({ prefixed });
+            }
+            return prefixed;
+        }
+    }
+}
+// Return prefixed forms, or undefined if there are no prefixes.
+function aplicaPrefijosClaseConjugacional(model_form, prefijos) {
+    const clase_de_conjugación = prefijos?.clase_de_conjugación;
+    if (clase_de_conjugación) {
+        const { prefijo_aditivo, prefijo_sustractivo } = clase_de_conjugación;
+        if (!model_form.startsWith(prefijo_sustractivo)) {
+            throw new Error(`expected ${model_form}.startsWith(${prefijo_sustractivo}) with prefijo=${prefijo_aditivo} `);
+        }
+        const ending = model_form.slice(prefijo_sustractivo.length);
+        const prefixed = prefijo_aditivo + ending;
+        return prefixed;
+    }
+    else {
+        return model_form;
     }
 }
 //# sourceMappingURL=prefixes.js.map
@@ -934,8 +1012,8 @@ const regular_verb_suffixes = {
     }
 };
 const verb_terminations = ["ar", "er", "ir"];
-function getInfinitiveClass(infinitive) {
-    let verb_termination = infinitive.slice(-2);
+function getInfinitiveClass(infinitivo) {
+    let verb_termination = infinitivo.slice(-2);
     if (verb_termination === "ír") {
         verb_termination = "ir";
     }
@@ -953,8 +1031,8 @@ function getParentVerb(conjugation_rules, verb_family, mood_tense) {
     return { conjugation_rules, verb_family, mood_tense };
 }
 // Get the rule sets that form the conjugation ancestry of this verb.
-function getAncestorRuleSets(infinitive, mood_tense, rules_applied) {
-    let verb_family = getInfinitiveClass(infinitive);
+function getRegularRules(infinitivo, mood_tense, rules_applied) {
+    let verb_family = getInfinitiveClass(infinitivo);
     let conjugation_rules = regular_verb_suffixes[verb_family].aspects[mood_tense];
     const ancestor_rule_sets = [conjugation_rules];
     while (conjugation_rules.base) {
@@ -975,7 +1053,7 @@ function getAncestorRuleSets(infinitive, mood_tense, rules_applied) {
 // @return The set of suffixes for all of the conjugated forms.
 // For example: getSuffixes("creer", "IndPret", "eer")
 //    {s1: ["í"], s2: ["íste"], s3: ["yó"], p1: ["ímos"], p2: ["ísteis"], p3: ["yeron"]}
-function getRegularSuffixes(infinitive, mood_tense, ancestor_rule_sets) {
+function getRegularSuffixes(infinitivo, mood_tense, ancestor_rule_sets) {
     let accumulated_suffixes = { ...ancestor_rule_sets[0].suffixes };
     ancestor_rule_sets.slice(1).forEach((ancestor_rule_sets) => {
         if (ancestor_rule_sets.suffixes) {
@@ -1001,17 +1079,21 @@ function getRegularSuffixes(infinitive, mood_tense, ancestor_rule_sets) {
 //# sourceMappingURL=regular-verb-rules.js.map
 
 
+
 //   - Futuro simple (todas las personas)
 //   - Condicional simple (todas las personas)
 const domains_tema_futuro = ["IndFut", "IndCond"];
 function getTemaFuturo(conj_and_deriv_rules, mood_tense) {
-    const tema_futuro = conj_and_deriv_rules.morphological_rules?.tema_futuro;
+    const { prefixes, morphological_rules } = conj_and_deriv_rules;
+    const tema_futuro = morphological_rules?.combinados?.tema_futuro;
     if (tema_futuro && domains_tema_futuro.includes(mood_tense)) {
-        const temas = setStem(tema_futuro);
+        const tema_base = aplicaPrefijosClaseConjugacional(tema_futuro, prefixes);
+        const temas = setStem([tema_base]);
         return temas;
     }
 }
 //# sourceMappingURL=tema-futuro.js.map
+
 
 
 // Objetivo del módulo cambio-tema-presente-yo.ts
@@ -1062,25 +1144,34 @@ function getTemaFuturo(conj_and_deriv_rules, mood_tense) {
 //   - no cambia grafías
 //   Eso va después, en ortografía.
 function getTemaPresenteYo(conj_and_deriv_rules, mood_tense) {
-    const tema_presente_yo = conj_and_deriv_rules.morphological_rules?.tema_presente_yo;
-    if (tema_presente_yo) {
+    const { prefixes, morphological_rules } = conj_and_deriv_rules;
+    const tema_presente_yo_modelo = morphological_rules?.combinados?.tema_presente_yo;
+    if (!tema_presente_yo_modelo) {
+        return;
+    }
+    const normalizadas = (Array.isArray(tema_presente_yo_modelo) ? tema_presente_yo_modelo : [tema_presente_yo_modelo]);
+    let temas_presente_yo = applyToVerbForms(normalizadas, (forma) => {
+        const forma_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
+        return forma_base;
+    });
+    if (temas_presente_yo) {
         let temas;
         switch (mood_tense) {
             case "IndPres":
-                temas = setStem(tema_presente_yo, ["s1"]);
+                temas = setStem(temas_presente_yo, ["s1"]);
                 return temas;
             case "SubPres":
             case "CmdNeg":
-                temas = setStem(tema_presente_yo);
+                temas = setStem(temas_presente_yo);
                 return temas;
             case "CmdPos":
-                temas = setStem(tema_presente_yo, ["s3", "p1", "p3"]);
+                temas = setStem(temas_presente_yo, ["s3", "p1", "p3"]);
                 return temas;
         }
     }
 }
 function getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense) {
-    const sufijo_presente_yo = conj_and_deriv_rules.morphological_rules?.sufijo_presente_yo;
+    const sufijo_presente_yo = conj_and_deriv_rules.morphological_rules?.combinados?.sufijo_presente_yo;
     if (sufijo_presente_yo) {
         switch (mood_tense) {
             case "IndPres":
@@ -1090,6 +1181,7 @@ function getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense) {
     }
 }
 //# sourceMappingURL=tema-presente-yo.js.map
+
 
 
 // Objetivo del módulo
@@ -1135,14 +1227,16 @@ function getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense) {
 //   - tema_futuro
 const domains_pretérito = ["IndPret", "SubImp", "SubFut"];
 function getTemaPretérito(conj_and_deriv_rules, mood_tense) {
-    const tema_pretérito = conj_and_deriv_rules.morphological_rules?.tema_pretérito;
-    if (tema_pretérito && domains_pretérito.includes(mood_tense)) {
-        const temas = setStem(tema_pretérito);
+    const { prefixes, morphological_rules } = conj_and_deriv_rules;
+    const tema_pretérito_modelo = morphological_rules?.combinados?.tema_pretérito;
+    if (tema_pretérito_modelo && domains_pretérito.includes(mood_tense)) {
+        const tema_pretérito_base = aplicaPrefijosClaseConjugacional(tema_pretérito_modelo, prefixes);
+        const temas = setStem([tema_pretérito_base]);
         return temas;
     }
 }
 function getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense) {
-    const tema_pretérito = conj_and_deriv_rules?.morphological_rules?.tema_pretérito;
+    const tema_pretérito = conj_and_deriv_rules?.morphological_rules?.combinados?.tema_pretérito;
     if (mood_tense === "IndPret" && tema_pretérito) {
         const p3_form = tema_pretérito.endsWith("j") ? "eron" : "ieron";
         const suffixes = { s1: ["e"], s2: ["iste"], s3: ["o"], p1: ["imos"], p2: ["isteis"], p3: [p3_form] };
@@ -1153,79 +1247,272 @@ function getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense) {
 
 
 // if a value is null, the verb is regular
+// A verb that appears in this list has been verified with a test
 const verbos_con_cambios_morfológicos = {
-    abrir: { excepciones_léxicas: { participio: "abierto" } },
-    absolver: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    abstener: { modelo: "tener" }, // añado 27 feb 2026
-    acertar: { alternancia_vocálica: "e:ie" },
-    acordar: { alternancia_vocálica: "o:ue" },
-    acostar: { alternancia_vocálica: "o:ue" },
-    adherir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    adquirir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    advenir: { modelo: "venir" }, // añado 27 feb 2026
-    advertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    alentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    almorzar: { alternancia_vocálica: "o:ue" },
-    ampliar: { modelo: "vaciar" },
-    andar: { tema_pretérito: "anduv" },
-    apacentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    apostar: { alternancia_vocálica: "o:ue" },
-    apretar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    aprobar: { alternancia_vocálica: "o:ue" }, // Remove once a- prefixes are handled correctly
-    arrendar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    arrepentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    ascender: { alternancia_vocálica: "e:ie" },
-    asentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    asolar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    atender: { alternancia_vocálica: "e:ie" },
-    atravesar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    //  avenir:        pasan las pruebas
-    avergonzar: { alternancia_vocálica: "o:ue" /* FIX: must ADD diérisis*/ }, // añado 27 feb 2026
-    caer: { tema_presente_yo: "caig" },
+    abrir: {
+      ok:true,
+       excepciones_léxicas: { participio: "abierto" } },
+    absolver: {
+      ok:true,
+       alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "absuelto" } },
+    abstener: {
+      ok:true,
+       modelo: "tener" },
+    acabar: {},
+    aceptar: {},
+    acercar: {},
+    acertar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    acompañar: {},
+    acordar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    acostar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    actuar: {},
+    adherir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    adquirir: {
+      ok:true,
+       alternancia_vocálica: "i:ie" },
+    advenir: {
+      ok:true,
+       modelo: "venir" },
+    advertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    afectar: {},
+    afirmar: {},
+    agarrar: {},
+    agregar: {},
+    alcanzar: {},
+    alentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    // aliar: { modelo: "vaciar" }, FIX: ADD
+    almorzar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    // alquilar: {},
+    amar: {
+      ok:true,
+      },
+    // amnistiar: { modelo: "vaciar" },  FIX: ADD
+    ampliar: {
+      ok:true,
+       modelo: "vaciar" },
+    andar: {
+      ok:true,
+       tema_pretérito: "anduv" },
+    // ansiar: { modelo: "vaciar" },  FIX: ADD
+    apacentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    aparecer: {},
+    aplicar: {},
+    apostar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    aprender: {},
+    apretar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    aprobar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" }, // Remove once a- prefixes are handled correctly
+    aprovechar: {},
+    arreglar: {},
+    arrendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    arrepentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    // arriesgar: {},
+    ascender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    asegurar: {},
+    asentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    asistir: {},
+    asolar: {
+      ok:{"IndPres":{"s1":["asuelo","asolo"],"s2":["asuelas","asolas"],"s3":["asuela","asola"],"p3":["asuelan","asolan"]},"SubPres":{"s1":["asuele","asole"],"s2":["asueles","asoles"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]},"CmdPos":{"s2":["asuela","asola"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]},"CmdNeg":{"s2":["asueles","asoles"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]}},
+       alternancia_vocálica: "o:ue" }, // FIX: also supports regular forms! Perhaps add an option to return both forms?
+    atender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    atravesar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    aumentar: {},
+    avenir: {
+      ok:true,
+       modelo: "venir" },
+    avergonzar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" }, // FIX: must ADD diérisis
+    // averiar: { modelo: "vaciar" }, FIX: ADD
+    ayudar: {},
+    añadir: {},
+    bailar: {},
+    bajar: {},
+    // biografiar: { modelo: "vaciar" }, FIX: ADD
+    // bruñir: { alternancia_vocálica: "e:i" },
+    // bullir: { alternancia_vocálica: "e:i" },
+    buscar: {},
     caber: {
+      ok:true,
+      
         tema_presente_yo: "quep",
         tema_pretérito: "cup",
-        tema_futuro: "cabr",
+        tema_futuro: "cabr"
     },
-    calentar: { alternancia_vocálica: "e:ie" },
-    cegar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    cerner: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    cerrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    ceñir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    cimentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    circunvenir: { modelo: "venir" }, // añado 27 feb 2026
-    cocer: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    colgar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    comenzar: { alternancia_vocálica: "e:ie" },
-    competir: { alternancia_vocálica: "e:i" },
-    comprobar: { alternancia_vocálica: "o:ue" },
-    concertar: { alternancia_vocálica: "e:ie" },
-    concordar: { alternancia_vocálica: "o:ue" },
-    condescender: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
+    caer: {
+      ok:true,
+       tema_presente_yo: "caig" },
+    calentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    cambiar: {},
+    caminar: {},
+    cantar: {},
+    casar: {},
+    causar: {},
+    cegar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    celebrar: {},
+    cerner: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    cerrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    ceñir: { alternancia_vocálica: "e:i" },
+    // chirriar: { modelo: "vaciar" }, FIX: ADD
+    cimentar: {
+      ok:{"IndPres":{"s1":["cimiento","cimento"]}},
+       alternancia_vocálica: "e:ie" }, // FIX: various irregularities
+    circunvenir: {
+      ok:true,
+       modelo: "venir" },
+    cobrar: {},
+    cocer: {
+      ok:{"IndPres":{"s1":["cuezo"]},"SubPres":{"s1":["cueza"],"s2":["cuezas"],"s3":["cueza"],"p1":["cozamos"],"p2":["cozáis"],"p3":["cuezan"]},"CmdPos":{"s3":["cueza"],"p1":["cozamos"],"p3":["cuezan"]},"CmdNeg":{"s2":["cuezas"],"s3":["cueza"],"p1":["cozamos"],"p2":["cozáis"],"p3":["cuezan"]}},
+       alternancia_vocálica: "o:ue" }, // FIX: various irregularities
+    colgar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    colocar: {},
+    comenzar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    comer: {},
+    competir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    comprar: {},
+    comprender: {},
+    comprobar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    concertar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    concordar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    condescender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
     conducir: {
-        clase_conjugacional: "-ducir",
-        // FIX: linguist: how can this pattern be generalized?
-        tema_pretérito: "conduj", // pretérito fuerte con -j
-    },
-    conferir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    confesar: { alternancia_vocálica: "e:ie" },
-    confiar: { modelo: "vaciar" },
-    conjugar: { modelo: null }, // regular, no sigue el modelo de "jugar"
-    conmover: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    conseguir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    consentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    consolar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    contar: { alternancia_vocálica: "o:ue" },
-    contender: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    contribuir: null, // añado 27 feb 2026
-    convenir: { modelo: "venir" }, // añado 27 feb 2026
-    convertir: { alternancia_vocálica: "e:ie" },
-    contravenir: { modelo: "venir" }, // añado 27 feb 2026
-    corregir: { alternancia_vocálica: "e:i" },
-    costar: { alternancia_vocálica: "o:ue" },
-    criar: { modelo: "vaciar", verificado: true },
-    cubrir: { excepciones_léxicas: { participio: "cubierto" } },
+      ok:true,
+       clase_conjugacional: "-ducir", tema_pretérito: "conduj" }, // FIX: linguist: how can this pattern be generalized: "pretérito fuerte con -j" ?
+    conferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    confesar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    confiar: {
+      ok:true,
+       modelo: "vaciar" },
+    conjugar: {
+      ok:true,
+       modelo: null },
+    conmover: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    // conquirir: { alternancia_vocálica: "i:ie" },
+    conocer: {},
+    conseguir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    consentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    conservar: {},
+    considerar: {},
+    consistir: {},
+    consolar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    constituir: {},
+    construir: {},
+    contar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    contender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    contener: {},
+    contestar: {},
+    continuar: {},
+    // contrariar: { modelo: "vaciar" }, FIX: ADD
+    contravenir: {
+      ok:true,
+       modelo: "venir" },
+    contribuir: {
+      ok:{"IndPres":{"vos":["contribuís"],"p2":["contribuís"]},"IndPret":{"s1":["contribuí"]},"CmdPos":{"vos":["contribuí"]}},
+      },
+    convenir: {
+      ok:true,
+       modelo: "venir" },
+    convertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    corregir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    correr: {},
+    corresponder: {},
+    cortar: {},
+    costar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    crear: {},
+    crecer: {},
+    creer: {
+      ok:true,
+      },
+    criar: {
+      ok:{"IndPres":{"vos":["crias"],"p2":["criais"]},"IndPret":{"s1":["crie"],"s3":["crio"]},"SubPres":{"p2":["crieis"]},"CmdPos":{"vos":["cria"]},"CmdNeg":{"p2":["crieis"]}},
+       modelo: "vaciar" },
+    cualquier: {},
+    cubrir: {
+      ok:true,
+       excepciones_léxicas: { participio: "cubierto" } },
+    cuidar: {},
+    cumplir: {},
     dar: {
+      ok:true,
+      
+        modelo: "dar",
         // FIX: linguist: unclear
         excepciones_léxicas: {
             reglas: {
@@ -1234,12 +1521,16 @@ const verbos_con_cambios_morfológicos = {
                 SubPres: { suffixes: { s1: ["é"], s3: ["é"], p2: ["eis"] } },
                 IndPret: { suffixes: { s1: ["i"], s2: ["iste"], s3: ["io"], p1: ["imos"], p2: ["isteis"], p3: ["ieron"] } },
                 CmdPos: { suffixes: { s3: ["é"], vos: null } },
-                CmdNeg: { suffixes: { s3: ["é"], p2: ['eis'] } },
+                CmdNeg: { suffixes: { s3: ["é"], p2: ["eis"] } },
             }
         }
     },
+    deber: {},
+    decidir: {},
     decir: {
-        clase_conjugacional: "decir",
+      ok:true,
+      
+        modelo: "decir",
         tema_presente_yo: "dig",
         tema_pretérito: "dij",
         tema_futuro: "dir",
@@ -1250,69 +1541,206 @@ const verbos_con_cambios_morfológicos = {
             imperativo_tú: "di"
         }
     },
-    defender: { alternancia_vocálica: "e:ie" },
-    deferir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    degollar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    demoler: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    demostrar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    denegar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    derretir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    desalentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    desaprobar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    desatender: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    desavenir: { modelo: "venir" }, // añado 27 feb 2026
-    descender: { alternancia_vocálica: "e:ie" },
-    descolgar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    desconfiar: { modelo: "vaciar" },
-    descontar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    describir: { excepciones_léxicas: { participio: "descrito" } }, // añado 27 feb 2026
-    descubrir: { excepciones_léxicas: { participio: "descubierto" } }, // añado 27 feb 2026
-    desenvolver: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    desosar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    despedir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    despertar: { alternancia_vocálica: "e:ie" },
-    desplegar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    desterrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    // detener:  FIX: setting modelo causes a failure, but it should work     {modelo: "tener"},  // añado 27 feb 2026
-    desviar: { modelo: "vaciar" },
-    devenir: { modelo: "venir" }, // añado 27 feb 2026
-    devolver: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    diferir: { alternancia_vocálica: "e:ie" },
-    digerir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    discernir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    disentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    disolver: { alternancia_vocálica: "o:ue" },
-    distender: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    divertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    doler: { alternancia_vocálica: "o:ue" },
-    dormir: { alternancia_vocálica: "o:ue" },
-    elegir: { alternancia_vocálica: "e:i" },
-    // elevar:      {alternancia_vocálica: "e:ie"},  // añado 27 feb 2026. FIX: linguist:  solo en varios regiones
-    empezar: { alternancia_vocálica: "e:ie" },
-    encender: { alternancia_vocálica: "e:ie" },
-    encerrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    encomendar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    encontrar: { alternancia_vocálica: "o:ue" },
-    enjugar: { modelo: null }, // regular, no sigue el modelo de "jugar"
-    enmendar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    enraizar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    entender: { alternancia_vocálica: "e:ie" },
-    enterrar: { alternancia_vocálica: "e:ie" },
-    enviar: { modelo: "vaciar" },
-    envolver: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
+    dedicar: {},
+    defender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    deferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    degollar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    dejar: {},
+    delinquir: {
+      ok:{"SubPres":{"s1":["delinca"],"s2":["delincas"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]},"CmdPos":{"s3":["delinca"],"p1":["delincamos"],"p3":["delincan"]},"CmdNeg":{"s2":["delincas"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]}},
+      },
+    demoler: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    demostrar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    denegar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    depender: {},
+    derretir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    // desafiar: { modelo: "vaciar" },
+    desalentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    desaparecer: {},
+    desaprobar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    desarrollar: {},
+    desatender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    desavenir: {
+      ok:true,
+       modelo: "venir" },
+    descender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    descolgar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    desconfiar: {
+      ok:true,
+       modelo: "vaciar" },
+    descontar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    // descreer:
+    describir: {
+      ok:true,
+       excepciones_léxicas: { participio: "descrito" } },
+    descubrir: {
+      ok:true,
+       excepciones_léxicas: { participio: "descubierto" } },
+    desear: {},
+    desenvolver: {
+      ok:true,
+       modelo: "volver" },
+    // deshacer: {  }, FIX ADD
+    // deslizar: {  }, FIX ADD
+    desosar: {
+      ok:{"IndPres":{"s1":["deshueso"],"s2":["deshuesas"],"s3":["deshuesa"],"p3":["deshuesan"]},"SubPres":{"s1":["deshuese"],"s2":["deshueses"],"s3":["deshuese"],"p3":["deshuesen"]},"CmdPos":{"s2":["deshuesa"],"s3":["deshuese"],"p3":["deshuesen"]},"CmdNeg":{"s2":["deshueses"],"s3":["deshuese"],"p3":["deshuesen"]}},
+       alternancia_vocálica: "o:ue" },
+    despedir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    despertar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    desplegar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    desterrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    desviar: {
+      ok:true,
+       modelo: "vaciar" },
+    detener: {
+      ok:true,
+      }, // FIX: setting modelo causes a failure, but it should work     {modelo: "tener"},
+    determinar: {},
+    devenir: {
+      ok:true,
+       modelo: "venir" },
+    devolver: {
+      ok:true,
+       modelo: "volver" },
+    diferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    digerir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    dirigir: {},
+    discernir: {
+      ok:{"gerundio":"discerniendo","IndPret":{"s3":["discernió"],"p3":["discernieron"]},"SubPres":{"p1":["discernamos"],"p2":["discernáis"]},"SubImp":{"s1":["discerniera","discerniese"],"s2":["discernieras","discernieses"],"s3":["discerniera","discerniese"],"p1":["discerniéramos","discerniésemos"],"p2":["discernierais","discernieseis"],"p3":["discernieran","discerniesen"]},"SubFut":{"s1":["discerniere"],"s2":["discernieres"],"s3":["discerniere"],"p1":["discerniéremos"],"p2":["discerniereis"],"p3":["discernieren"]},"CmdPos":{"p1":["discernamos"]},"CmdNeg":{"p1":["discernamos"],"p2":["discernáis"]}},
+       alternancia_vocálica: "e:ie" },
+    disentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    disolver: {
+      ok:true,
+       modelo: "volver" },
+    disponer: {},
+    distender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    divertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    doler: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    dormir: {
+      ok:true,
+       modelo: "dormir", alternancia_vocálica: "o:ue" },
+    durar: {},
+    echar: {},
+    efectuar: {},
+    elegir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    // elevar:      {alternancia_vocálica: "e:ie"},  // FIX: linguist:  solo en varios regiones
+    empezar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    emplear: {},
+    encender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    encerrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    encomendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    encontrar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    // enfriar: { modelo: "vaciar" },
+    enjugar: {
+      ok:true,
+       modelo: null }, // regular, no sigue el modelo de "jugar"
+    enmendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    enraizar: {
+      ok:{"IndPres":{"s1":["enraízo"],"s2":["enraízas"],"s3":["enraíza"],"p3":["enraízan"]},"SubPres":{"s1":["enraíce"],"s2":["enraíces"],"s3":["enraíce"],"p3":["enraícen"]},"CmdPos":{"s2":["enraíza"],"s3":["enraíce"],"p3":["enraícen"]},"CmdNeg":{"s2":["enraíces"],"s3":["enraíce"],"p3":["enraícen"]}},
+       modelo: "enraizar", alternancia_vocálica: "e:ie" },
+    enseñar: {},
+    entender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    enterrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    entrar: {},
+    entregar: {},
+    enviar: {
+      ok:true,
+       modelo: "vaciar" },
+    envolver: {
+      ok:true,
+       modelo: "volver" },
     erguir: {
+      ok:{"IndPres":{"s1":["yergo","irgo"],"s2":["yergues","irgues"],"s3":["yergue","irgue"],"p3":["yerguen","irguen"]},"SubPres":{"s1":["yerga","irga"],"s2":["yergas","irgas"],"s3":["yerga","irga"],"p1":["irgamos"],"p2":["irgáis"],"p3":["yergan","irgan"]},"CmdPos":{"s2":["yergue","irgue"],"s3":["yerga","irga"],"p1":["irgamos"],"p3":["yergan","irgan"]},"CmdNeg":{"s2":["yergas","irgas"],"s3":["yerga","irga"],"p1":["irgamos"],"p2":["irgáis"],"p3":["yergan","irgan"]}},
+      
         alternancia_vocálica: "e:ie",
-        // tema_presente_yo: ["irg", "yerg"],
-        tema_presente_yo: "yerg",
-        excepciones_léxicas: {
-            gerundio: "irguiendo",
-        }
+        tema_presente_yo: "yerg", // FIX: tema_presente_yo: ["irg", "yerg"],
+        excepciones_léxicas: { gerundio: "irguiendo" }
     },
-    escribir: { excepciones_léxicas: { participio: "escrito" } },
-    esforzar: { alternancia_vocálica: "o:ue" },
-    espiar: { modelo: "vaciar" },
-    esquiar: { modelo: "vaciar" },
+    errar: {
+      ok:{"IndPres":{"s1":["yerro","erro"],"s2":["yerras","erras"],"s3":["yerra","erra"],"p3":["yerran","erran"]},"SubPres":{"s1":["yerre","erre"],"s2":["yerres","erres"],"s3":["yerre","erre"],"p3":["yerren","erren"]},"CmdPos":{"s2":["yerra","erra"],"s3":["yerre","erre"],"p3":["yerren","erren"]},"CmdNeg":{"s2":["yerres","erres"],"s3":["yerre","erre"],"p3":["yerren","erren"]}},
+      }, // FIX: tiene dos formas
+    escribir: {
+      ok:true,
+       excepciones_léxicas: { participio: "escrito" } },
+    escuchar: {},
+    esforzar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    esperar: {},
+    espiar: {
+      ok:true,
+       modelo: "vaciar" },
+    esquiar: {
+      ok:true,
+       modelo: "vaciar" },
+    establecer: {},
     estar: {
+      ok:true,
+      
         sufijo_presente_yo: "oy",
         tema_pretérito: "estuv",
         excepciones_léxicas: {
@@ -1325,21 +1753,57 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    estregar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    expedir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    extender: { alternancia_vocálica: "e:ie" },
-    forzar: { alternancia_vocálica: "o:ue" },
-    fotografiar: { modelo: "vaciar" },
-    fregar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    freír: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    gemir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    gobernar: { alternancia_vocálica: "e:ie" },
-    granizar: { alternancia_vocálica: "o:ue" }, // conjugate_only: ["s3"]},
+    estregar: {
+      ok:{"IndPres":{"s1":["estriego","estrego"],"s2":["estriegas","estregas"],"s3":["estriega","estrega"],"p3":["estriegan","estregan"]},"SubPres":{"s1":["estriegue","estregue"],"s2":["estriegues","estregues"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]},"CmdPos":{"s2":["estriega","estrega"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]},"CmdNeg":{"s2":["estriegues","estregues"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]}},
+       alternancia_vocálica: "e:ie" }, // FIX: multiple forms
+    // estrenar: {},
+    estudiar: {},
+    evitar: {},
+    exigir: {},
+    existir: {},
+    expedir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    // expiar: { modelo: "vaciar" },
+    explicar: {},
+    expresar: {},
+    extender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    faltar: {},
+    fijar: {},
+    fluir: {
+      ok:{"IndPres":{"vos":["fluís"],"p2":["fluís"]},"IndPret":{"s1":["fluí"]},"CmdPos":{"vos":["fluí"]}},
+      },
+    formar: {},
+    forzar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    fotografiar: {
+      ok:true,
+       modelo: "vaciar" },
+    fregar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    freír: { modelo: "reír" },
+    ganar: {},
+    gemir: {
+      ok:{"IndPret":{"s3":["gimió"],"p3":["gimieron"]},"SubImp":{"s1":["gimiera","gimiese"],"s2":["gimieras","gimieses"],"s3":["gimiera","gimiese"],"p1":["gimiéramos","gimiésemos"],"p2":["gimierais","gimieseis"],"p3":["gimieran","gimiesen"]},"SubFut":{"s1":["gimiere"],"s2":["gimieres"],"s3":["gimiere"],"p1":["gimiéremos"],"p2":["gimiereis"],"p3":["gimieren"]}},
+       modelo: "pedir" },
+    gobernar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    granizar: { alternancia_vocálica: "o:ue" },
+    gritar: {},
+    // gruñir: { alternancia_vocálica: "e:i" },
+    guardar: {},
     guiar: {
+      ok:{"IndPres":{"vos":["guiás"],"p2":["guiáis"]},"IndPret":{"s1":["guié"],"s3":["guió"]},"SubPres":{"p2":["guiéis"]},"CmdPos":{"vos":["guiá"]},"CmdNeg":{"p2":["guiéis"]}},
+      
+        modelo: "guiar",
+        // clase_conjugacional: "-iar",
         // TODO: hay formas reformadas en la reforma ortográfica de la RAE de 2010, considera añadir estas formas
-        // irregular_base: "vaciar"
-        clase_conjugacional: "-iar",
-        // The accent is the only thing different from the regular forms
+        // Otherwise, the accent is the only thing different from the regular forms
         excepciones_léxicas: {
             reglas: {
                 IndPres: { stress_last_char_of_s123p3_stem: true,
@@ -1354,7 +1818,10 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    gustar: {},
     haber: {
+      ok:true,
+      
         tema_pretérito: "hub",
         tema_futuro: "habr",
         excepciones_léxicas: {
@@ -1369,7 +1836,11 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    hablar: {},
     hacer: {
+      ok:true,
+      
+        modelo: "hacer",
         clase_conjugacional: "-acer",
         tema_presente_yo: "hag",
         tema_pretérito: "hic",
@@ -1383,32 +1854,79 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    heder: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    helar: { alternancia_vocálica: "e:ie" },
-    hendir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    herir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    herrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    hervir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
+    hallar: {},
+    heder: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    helar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    hendir: {
+      ok:{"gerundio":"hendiendo","IndPret":{"s3":["hendió"],"p3":["hendieron"]},"SubPres":{"p1":["hendamos"],"p2":["hendáis"]},"SubImp":{"s1":["hendiera","hendiese"],"s2":["hendieras","hendieses"],"s3":["hendiera","hendiese"],"p1":["hendiéramos","hendiésemos"],"p2":["hendierais","hendieseis"],"p3":["hendieran","hendiesen"]},"SubFut":{"s1":["hendiere"],"s2":["hendieres"],"s3":["hendiere"],"p1":["hendiéremos"],"p2":["hendiereis"],"p3":["hendieren"]},"CmdPos":{"p1":["hendamos"]},"CmdNeg":{"p1":["hendamos"],"p2":["hendáis"]}},
+       alternancia_vocálica: "e:ie" }, // but not the "e:i" for IndPret...
+    herir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    herrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    hervir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
     huir: {
+      ok:{"IndPres":{"vos":["huís"],"p2":["huís"]},"IndPret":{"s1":["huí"]},"CmdPos":{"vos":["huí"]}},
+      
+        modelo: "huir",
         clase_conjugacional: "-uir",
         excepciones_léxicas: {
             reglas: {
+                // NOTE: the vos form is not inherited by derived forms!
                 IndPres: { suffixes: { p2: ["is"], vos: ["is"] } },
                 IndPret: { suffixes: { s1: ["i"] } },
                 CmdPos: { suffixes: { vos: ["i"] } }
             },
         }
     },
-    impedir: { alternancia_vocálica: "e:i" },
-    inferir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    ingerir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    injerir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    interferir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    intervenir: { modelo: "venir" }, // añado 27 feb 2026
-    intuir: null, // añado 27 feb 2026
-    invertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    investir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
+    imaginar: {},
+    impedir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    imponer: {},
+    incluir: {},
+    indicar: {},
+    inferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    informar: {},
+    ingerir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    iniciar: {},
+    injerir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    // inquirir: { alternancia_vocálica: "i:ie" },
+    interferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    intervenir: {
+      ok:true,
+       modelo: "venir" },
+    intuir: {
+      ok:{"IndPres":{"vos":["intuís"],"p2":["intuís"]},"IndPret":{"s1":["intuí"]},"CmdPos":{"vos":["intuí"]}},
+       modelo: "huir" },
+    invertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    investir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    invitar: {},
     ir: {
+      ok:true,
+      
+        modelo: "ir",
+        no_admite_prefijos: true,
         tema_pretérito: "fu",
         sufijo_presente_yo: "oy",
         excepciones_léxicas: {
@@ -1430,27 +1948,95 @@ const verbos_con_cambios_morfológicos = {
         }
     },
     jugar: {
+      ok:true,
+      
         // FIX: SubPres: vos spelling differs by region: vos: ["juegues", "*jugués"]
         alternancia_vocálica: "u:ue",
     },
-    leer: { clase_conjugacional: "-eer" },
-    llover: { alternancia_vocálica: "o:ue" }, // FIX: conjugate_only: ["s3"]},
-    malquerer: { modelo: "querer" }, // añado 27 feb 2026
-    manifestar: { alternancia_vocálica: "e:ie" },
-    medir: { alternancia_vocálica: "e:i" },
-    mentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    mentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    merendar: { alternancia_vocálica: "e:ie" },
-    morder: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    morir: { alternancia_vocálica: "o:ue" },
-    mostrar: { alternancia_vocálica: "o:ue" },
-    mover: { alternancia_vocálica: "o:ue" },
-    negar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    nevar: { alternancia_vocálica: "e:ie" }, // FIX: conjugate_only: ["s3"]},
-    obtener: { modelo: "tener" }, // añado 27 feb 2026
+    lavar: {},
+    leer: {
+      ok:true,
+       modelo: "leer", clase_conjugacional: "-eer" },
+    levantar: {},
+    llamar: {},
+    llegar: {
+      ok:true,
+      },
+    llenar: {},
+    llevar: {},
+    llorar: {},
+    llover: {
+      ok:true,
+       alternancia_vocálica: "o:ue" }, // FIX: conjugate_only: ["s3"]},
+    lograr: {},
+    lugar: {},
+    malquerer: {
+      ok:true,
+       modelo: "querer" },
+    mandar: {},
+    manejar: {},
+    manifestar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    mantener: {},
+    mar: {},
+    matar: {},
+    medir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    mejorar: {},
+    mencionar: {},
+    mentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    mentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    merendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    meter: {},
+    mirar: {},
+    morder: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    morir: {
+      ok:{"participio":"muerto","IndPret":{"s3":["murió"],"p3":["murieron"]},"SubImp":{"s1":["muriera","muriese"],"s2":["murieras","murieses"],"s3":["muriera","muriese"],"p1":["muriéramos","muriésemos"],"p2":["murierais","murieseis"],"p3":["murieran","muriesen"]},"SubFut":{"s1":["muriere"],"s2":["murieres"],"s3":["muriere"],"p1":["muriéremos"],"p2":["muriereis"],"p3":["murieren"]}},
+       modelo: "dormir" },
+    mostrar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    mover: {
+      ok:true,
+       modelo: "mover", alternancia_vocálica: "o:ue" },
+    mujer: {},
+    nacer: {
+      ok:true,
+      },
+    necesitar: {},
+    negar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    nevar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" }, // FIX: conjugate_only: ["s3"]},
+    notar: {},
+    obligar: {},
+    observar: {},
+    obtener: {
+      ok:true,
+       modelo: "tener" },
+    ocupar: {},
+    ocurrir: {},
+    ofrecer: {},
+    oler: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    olvidar: {},
+    organizar: {},
     oír: {
-        // why is this a class?
-        clase_conjugacional: "oír",
+        // FIX: linguist: why is this a class?
+        modelo: "oír",
         tema_presente_yo: "oig",
         excepciones_léxicas: {
             reglas: {
@@ -1458,23 +2044,57 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    oler: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    pedir: { alternancia_vocálica: "e:i" },
-    pensar: { alternancia_vocálica: "e:ie" },
-    perder: { alternancia_vocálica: "e:ie" },
-    perseguir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    pervertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    plegar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    poblar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
+    oponer: {
+      ok:true,
+       modelo: "poner" },
+    pagar: {},
+    parecer: {},
+    participar: {},
+    particular: {},
+    partir: {
+      ok:true,
+      },
+    pasar: {},
+    pedir: {
+      ok:true,
+       modelo: "pedir", alternancia_vocálica: "e:i" },
+    pegar: {},
+    pensar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    perder: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    permanecer: {},
+    permitir: {},
+    perseguir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    pertenecer: {},
+    pervertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    pesar: {},
+    // piar: { modelo: "vaciar" },
+    platicar: {},
+    plegar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    poblar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
     poder: {
+      ok:true,
+      
         alternancia_vocálica: "o:ue",
         tema_pretérito: "pud",
         tema_futuro: "podr",
-        excepciones_léxicas: {
-            gerundio_tema_cambio_excepcional: "o:u",
-        }
+        excepciones_léxicas: { gerundio_tema_cambio_excepcional: "o:u" }
     },
     poner: {
+      ok:true,
+      
+        modelo: "poner",
         tema_presente_yo: "pong",
         tema_pretérito: "pus",
         tema_futuro: "pondr",
@@ -1486,30 +2106,92 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    preferir: { alternancia_vocálica: "e:ie" },
-    presentir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    pretender: { alternancia_vocálica: "e:ie" },
-    prevenir: { modelo: "venir" }, // añado 27 feb 2026
-    probar: { alternancia_vocálica: "o:ue" },
-    proferir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    promover: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    proseguir: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    provenir: { modelo: "venir" }, // añado 27 feb 2026
-    quebrar: { alternancia_vocálica: "e:ie" },
+    popular: {},
+    poseer: {},
+    preferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    preguntar: {},
+    preparar: {},
+    presentar: {},
+    presentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    prestar: {},
+    pretender: {
+      ok:true,
+      },
+    prevenir: {
+      ok:true,
+       modelo: "venir" },
+    primer: {},
+    probar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    producir: {},
+    proferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    promover: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    proponer: {},
+    proporcionar: {},
+    proseguir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    provenir: {
+      ok:true,
+       modelo: "venir" },
+    provocar: {},
+    quebrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    quedar: {},
     querer: {
+      ok:true,
+      
+        modelo: "querer",
         tema_pretérito: "quis",
         tema_futuro: "querr",
-        alternancia_vocálica: "e:ie",
+        alternancia_vocálica: "e:ie"
     },
-    recomendar: { alternancia_vocálica: "e:ie" },
-    recomenzar: { alternancia_vocálica: "e:ie" },
-    reconvenir: { modelo: "venir" }, // añado 27 feb 2026
-    recordar: { alternancia_vocálica: "o:ue" },
-    referir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    reforzar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    regar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    regir: { alternancia_vocálica: "e:i" },
+    quitar: {},
+    realizar: {},
+    recibir: {},
+    recoger: {},
+    recomendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    recomenzar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    reconocer: {},
+    reconvenir: {
+      ok:true,
+       modelo: "venir" },
+    recordar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    reducir: {},
+    // reenviar: { modelo: "vaciar" },
+    referir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    reforzar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    regar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    regir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    registrar: {},
+    regresar: {},
+    regular: {},
     reír: {
+        modelo: "reír",
         alternancia_vocálica: "e:ie", // añado po DeepSeek 27 feb 2026
         // alternancia_vocálica: "i:í",  FIX: linguist: is there a vowel change rule?
         excepciones_léxicas: {
@@ -1528,31 +2210,72 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    remendar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    remorder: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    remover: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    rendir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    reñir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    renovar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    repercutir: null,
-    repetir: { alternancia_vocálica: "e:i" },
-    reprobar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    requerir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    resolver: { alternancia_vocálica: "o:ue" },
-    retener: { modelo: "tener" }, // añado 27 feb 2026
-    reunir: { alternancia_vocálica: "u:ú" }, // FIX: linguist: can this be handled with accentuation rules?
-    reventar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    revertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    revolver: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    rodar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    rogar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    romper: { excepciones_léxicas: { participio: "roto" } },
+    remendar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    remorder: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    remover: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    rendir: {
+      ok:{"IndPret":{"s3":["rindió"],"p3":["rindieron"]},"SubImp":{"s1":["rindiera","rindiese"],"s2":["rindieras","rindieses"],"s3":["rindiera","rindiese"],"p1":["rindiéramos","rindiésemos"],"p2":["rindierais","rindieseis"],"p3":["rindieran","rindiesen"]},"SubFut":{"s1":["rindiere"],"s2":["rindieres"],"s3":["rindiere"],"p1":["rindiéremos"],"p2":["rindiereis"],"p3":["rindieren"]}},
+       modelo: "pedir" },
+    reñir: { alternancia_vocálica: "e:i" },
+    renovar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    repercutir: {
+      ok:true,
+      },
+    repetir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    representar: {},
+    reprobar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    requerir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    // resfriar: { modelo: "vaciar" },
+    resolver: {
+      ok:{"participio":"resuelto"},
+       modelo: "mover" },
+    responder: {},
+    resultar: {},
+    retener: {
+      ok:true,
+       modelo: "tener" },
+    reunir: {
+      ok:true,
+       alternancia_vocálica: "u:ú" },
+    reventar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    revertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    revolver: {
+      ok:true,
+       modelo: "volver" },
+    // rociar: { modelo: "vaciar" },
+    rodar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    rogar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    romper: {
+      ok:true,
+       excepciones_léxicas: { participio: "roto" } },
     saber: {
+      ok:true,
+      
         tema_pretérito: "sup",
         tema_futuro: "sabr",
         excepciones_léxicas: {
-            // ind_pres_yo: "sé",
-            // tema_subjuntivo_yo: "sep",
             reglas: {
                 // similar a caber
                 IndPres: { forms: { s1: ["sé"] } },
@@ -1562,28 +2285,44 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    salpimentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
+    sacar: {
+      ok:true,
+      },
     salir: {
+      ok:true,
+      
         tema_presente_yo: "salg",
         tema_futuro: "saldr",
-        excepciones_léxicas: {
-            imperativo_tú: "sal"
-        }
+        excepciones_léxicas: { "imperativo_tú": "sal" }
     },
-    // satisfacer:    {modelo: "hacer"},
-    // seducir: is this supported?
+    salpimentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    satisfacer: {
+      ok:true,
+       modelo: "hacer" }, // FIX: support rules to generate this verb from this list
+    seducir: {},
     seguir: {
-        // NOTE: this does not conjugate as a "-uir" clase infinitive
+      ok:true,
+      
+        // NOTE: this does not conjugate as a "-uir" clase infinitivo
         tema_presente_yo: "sig",
         alternancia_vocálica: "e:i",
-        excepciones_léxicas: {
-            tema_subjuntivo_yo: "sig"
-        }
+        excepciones_léxicas: { tema_subjuntivo_yo: "sig" }
     },
-    sembrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    sentar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    sentir: { alternancia_vocálica: "e:ie" },
+    sembrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    sentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    sentir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
     ser: {
+      ok:true,
+      
+        modelo: "ser",
         excepciones_léxicas: {
             supletivo: true,
             reglas: {
@@ -1596,24 +2335,57 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    serrar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    servir: { alternancia_vocálica: "e:i" },
-    sobrevenir: { modelo: "venir" }, // añado 27 feb 2026
-    sofreír: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    soler: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    soldar: { alternancia_vocálica: "o:ue" },
-    soltar: { alternancia_vocálica: "o:ue" },
-    sonar: { alternancia_vocálica: "o:ue" },
+    serrar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    servir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    significar: {},
+    sobrevenir: {
+      ok:true,
+       modelo: "venir" },
+    sofreír: { modelo: "reír" },
+    soldar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    soler: { alternancia_vocálica: "o:ue" },
+    soltar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    sonar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
     soñar: { alternancia_vocálica: "o:ue" },
-    sonreír: { alternancia_vocálica: "e:i" }, // añado 27 feb 2026
-    sosegar: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    subvenir: { modelo: "venir" }, // añado 27 feb 2026
-    subvertir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    sugerir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    temblar: { alternancia_vocálica: "e:ie" },
-    tender: { alternancia_vocálica: "e:ie" },
+    sonreír: { modelo: "reír" },
+    sosegar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    sostener: {},
+    subir: {},
+    subvenir: {
+      ok:true,
+       modelo: "venir" },
+    subvertir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    suceder: {},
+    sufrir: {},
+    sugerir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    suponer: {},
+    surgir: {},
+    temblar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    tender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
     tener: {
-        clase_conjugacional: "tener",
+      ok:true,
+      
+        modelo: "tener",
         tema_presente_yo: "teng",
         tema_pretérito: "tuv",
         tema_futuro: "tendr",
@@ -1625,31 +2397,62 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    // traducir: is this supported?
-    teñir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    tentar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    torcer: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    tostar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
+    tentar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    terminar: {},
+    teñir: { alternancia_vocálica: "e:i" },
+    tirar: {},
+    tocar: {},
+    tomar: {},
+    torcer: {
+      ok:{"IndPres":{"s1":["tuerzo"]},"SubPres":{"s1":["tuerza"],"s2":["tuerzas"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torzáis"],"p3":["tuerzan"]},"CmdPos":{"s3":["tuerza"],"p1":["torzamos"],"p3":["tuerzan"]},"CmdNeg":{"s2":["tuerzas"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torzáis"],"p3":["tuerzan"]}},
+       alternancia_vocálica: "o:ue" },
+    tostar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    trabajar: {},
+    traducir: {
+      ok:true,
+      },
     traer: {
-        tema_presente_yo: "traig",
-        tema_pretérito: "traj",
-    },
-    transcender: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    transferir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    trascender: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    trasferir: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    trocar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    trompezar: { alternancia_vocálica: "e:ie" },
-    tronar: { alternancia_vocálica: "o:ue" }, // añado 27 feb 2026
-    tropezar: { alternancia_vocálica: "e:ie" },
+      ok:true,
+       tema_presente_yo: "traig", tema_pretérito: "traj" },
+    transcender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    transferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    trascender: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    trasferir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    tratar: {},
+    trocar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    tronar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    tropezar: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    unir: {},
+    usar: {},
+    utilizar: {},
     vaciar: {
+      ok:true,
+      
+        modelo: "vaciar",
         clase_conjugacional: "-iar",
         // FIX: linguist: The accent is the only thing different from the regular forms
         // Is this due to an orthographic rule? or something else?
         excepciones_léxicas: {
             reglas: {
-                IndPres: { stress_last_char_of_s123p3_stem: true,
-                    suffixes: { s2: ["as"], s3: ["á"], p2: ["áis"], p3: ["án"] } },
+                IndPres: { stress_last_char_of_s123p3_stem: true },
                 SubPres: { stress_last_char_of_s123p3_stem: true },
                 CmdPos: { stress_last_char_of_s123p3_stem: true },
                 CmdNeg: { stress_last_char_of_s123p3_stem: true,
@@ -1657,12 +2460,18 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    variar: { modelo: "vaciar" },
+    vacilar: {},
     valer: {
-        tema_presente_yo: "valg",
-        tema_futuro: "valdr",
-    },
+      ok:true,
+       tema_presente_yo: "valg", tema_futuro: "valdr" },
+    variar: {
+      ok:true,
+       modelo: "vaciar" },
+    vender: {},
     venir: {
+      ok:true,
+      
+        modelo: "venir",
         tema_presente_yo: "veng",
         tema_pretérito: "vin",
         tema_futuro: "vendr",
@@ -1676,6 +2485,9 @@ const verbos_con_cambios_morfológicos = {
         }
     },
     ver: {
+      ok:true,
+      
+        modelo: "ver",
         // parece que no conforma bien a estas reglas
         // sí prefijo_ind_pres_yo cambia, pero no con "g", y no con los mismos cambios
         // no aplican ni tema_pretérito ni tema_futuro ni alternancia_vocálica
@@ -1704,22 +2516,33 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
-    verter: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
-    vestir: { alternancia_vocálica: "e:i" },
+    verter: {
+      ok:true,
+       alternancia_vocálica: "e:ie" },
+    vestir: {
+      ok:true,
+       alternancia_vocálica: "e:i" },
+    // vidriar: { modelo: "vaciar" },
+    visitar: {},
+    vivir: {},
     volar: {
-        alternancia_vocálica: "o:ue",
-        excepciones_léxicas: {
-            participio: "vuelto",
-        }
-    },
-    volcar: { alternancia_vocálica: "o:ue" },
-    volver: { alternancia_vocálica: "o:ue" },
-    zaherir: { alternancia_vocálica: "e:ie" }, // añado 27 feb 2026
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    volcar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    volver: {
+      ok:true,
+       modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "vuelto" } },
+    // xerografiar: { modelo: "vaciar" },
+    zaherir: {
+      ok:true,
+       alternancia_vocálica: "e:ie" }
 };
 // FIX: restore after refactoring complete
-function getAnnotations(infinitive, modelo, mood_tense) {
+function getAnnotations(infinitivo, modelo, mood_tense) {
     const annotations = { version, license, modelo: undefined };
-    // const unconfirmed = !(infinitive in morphophonemic_verb_conjugation_rules) || undefined
+    // const unconfirmed = !(infinitivo in morphophonemic_verb_conjugation_rules) || undefined
     // const annotations: VerbConjugationAnnotation = {model, mood_tense, unconfirmed}
     return annotations;
 }
@@ -1770,12 +2593,12 @@ const domains_alternancia_vocálica = ["IndPres", "SubPres", "CmdPos", "CmdNeg"]
 function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense) {
     const changed_stems = {};
     if (domains_alternancia_vocálica.includes(mood_tense)) {
-        const { conjugable_infinitive, verb_family, morphological_rules } = conj_and_deriv_rules;
-        const alternancia_vocálica = morphological_rules?.alternancia_vocálica;
+        const { infinitivo_sin_prefijos, verb_family, morphological_rules } = conj_and_deriv_rules;
+        const alternancia_vocálica = morphological_rules?.combinados?.alternancia_vocálica;
         if (alternancia_vocálica) {
-            const stem_regular = conjugable_infinitive.slice(0, -2);
-            const tema_presente_yo = morphological_rules?.tema_presente_yo;
-            const sufijo_presente_yo = morphological_rules?.sufijo_presente_yo;
+            const stem_regular = infinitivo_sin_prefijos.slice(0, -2);
+            const tema_presente_yo = morphological_rules?.combinados?.tema_presente_yo;
+            const sufijo_presente_yo = morphological_rules?.combinados?.sufijo_presente_yo;
             const dont_apply_to_yo = (mood_tense === "IndPres") && (tema_presente_yo || sufijo_presente_yo);
             // FIX: linguist: vocal_en_sílaba_tónica is implied by the existance of alternancia_vocálica, which is manually applied to verbs in verbos_con_cambios_morfológicas[]
             const stem_changes_per_form = getStemChangesFromRule(mood_tense, alternancia_vocálica);
@@ -1804,25 +2627,37 @@ function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense) {
 
 
 
+
+function assert(condition, message) {
+    if (!condition) {
+        throw new Error(message);
+    }
+}
+const descreer_Prefixes = {
+    productive_prefixes: ["des"],
+    nonproductive_prefix: undefined,
+    clase_de_conjugación: {
+        prefijo_aditivo: "cr",
+        prefijo_sustractivo: "l",
+    }
+};
 // e.g.: descreer: 
 var descreer = {
-    infinitive: "descreer",
-    conjugable_infinitive: "creer",
+    infinitivo: "descreer",
+    infinitivo_sin_prefijos: "creer",
     verb_family: "-er",
-    modelo: "-eer",
-    prefixes: {
-        conjugation_family_prefix: "cr",
-        productive_prefixes: ["des"]
-    },
+    prefixes: descreer_Prefixes,
     // copiado de verbos_con_cambios_morfológicas.leer
     morphological_rules: {
-        clase_conjugacional: "-eer",
+        combinados: { clase_conjugacional: "-eer", modelo: "leer" }
     }
 };
 // The minimum length of a verb that might have prefixes.
 // Segun ChatGPT, hay solo un verbo de largo 2, "ir", que no puede tener prefijos.
 // y solo hay estos de largo 3: dar, ser, ver, oír
 const MIN_BASE_VERB_LENGTH = 3;
+// These are regular.
+// NOTE: If an irregular form is found, the code must be updated.
 const verbs_with_false_prefixes = new Set([
     "coser",
     "delinquir",
@@ -1830,176 +2665,369 @@ const verbs_with_false_prefixes = new Set([
 // FIX: shouldn't this be merged into verbos_con_cambios_morfológicas[]
 // longer keys must appear before shorter ones that match as a suffix.
 const conjugation_families = {
-    delinquir: { modelo: "delinquir", conjugable_infinitive: "delinquir" }, // prevents mismatch with "huir"
-    erguir: { modelo: "erguir", conjugable_infinitive: "erguir" }, // prevents mismatch with "huir"
-    seguir: { modelo: "seguir", conjugable_infinitive: "seguir" }, // prevents mismatch with "huir"
-    caber: { modelo: "caber", conjugable_infinitive: "caber" }, // its own modelo
-    caer: { modelo: "caer", conjugable_infinitive: "caer" }, // its own modelo
-    estar: { modelo: "estar", conjugable_infinitive: "estar" }, // its own modelo
-    haber: { modelo: "haber", conjugable_infinitive: "haber" }, // its own modelo
-    // jugar:      {modelo: "jugar",     conjugable_infinitive: "jugar"},          // its own modelo
-    poder: { modelo: "poder", conjugable_infinitive: "poder" }, // its own modelo
-    querer: { modelo: "querer", conjugable_infinitive: "querer" }, // its own modelo
-    saber: { modelo: "saber", conjugable_infinitive: "saber" }, // its own modelo
-    salir: { modelo: "salir", conjugable_infinitive: "salir" }, // its own modelo
-    venir: { modelo: "venir", conjugable_infinitive: "venir" }, // ChatGPT said that all "-venir" verbs conjugate the same
-    satisfacer: { modelo: "-acer", conjugable_infinitive: "hacer" }, // 
-    tener: { modelo: "tener", conjugable_infinitive: "tener" }, // ChatGPT said that there are no modern "-tener" verbs that conjugate differently, but that the origin of the word could make a difference
-    poner: { modelo: "poner", conjugable_infinitive: "poner" }, // ChatGPT said that all "-poner" verbs conjugate the same, that this is 100% reliable
-    decir: { modelo: "decir", conjugable_infinitive: "decir" }, // ChatGPT said that all "-decir" verbs conjugate the same
-    traer: { modelo: "traer", conjugable_infinitive: "traer" }, // ChatGPT said that all "-traer" verbs conjugate the same
-    oír: { modelo: "oír", conjugable_infinitive: "oír" }, // ChatGPT said that all "-oír" verbs conjugate the same
+    satisfacer: { modelo: "hacer", clase_conjugacional: "-acer" },
+    delinquir: { modelo: "delinquir", }, // prevents mismatch with "huir"
+    erguir: { modelo: "erguir", }, // prevents mismatch with "huir"
+    seguir: { modelo: "seguir", }, // prevents mismatch with "huir"
+    caber: { modelo: "caber", }, // its own modelo
+    caer: { modelo: "caer", }, // its own modelo
+    // estar:      {modelo: "estar",     },          // its own modelo
+    haber: { modelo: "haber", }, // its own modelo
+    // jugar:      {modelo: "jugar",     },          // its own modelo
+    poder: { modelo: "poder", }, // its own modelo
+    querer: { modelo: "querer", }, // its own modelo
+    saber: { modelo: "saber", }, // its own modelo
+    salir: { modelo: "salir", }, // its own modelo
+    venir: { modelo: "venir", }, // ChatGPT said that all "-venir" verbs conjugate the same
+    tener: { modelo: "tener", }, // ChatGPT said that there are no modern "-tener" verbs that conjugate differently, but that the origin of the word could make a difference
+    poner: { modelo: "poner", }, // ChatGPT said that all "-poner" verbs conjugate the same, that this is 100% reliable
+    decir: { modelo: "decir", }, // ChatGPT said that all "-decir" verbs conjugate the same
+    traer: { modelo: "traer", }, // ChatGPT said that all "-traer" verbs conjugate the same
     // FIX: linguist: hacer verbs are a different family from -acer? e.g. "nacer"
     // FIX: linguist: change modelo from "-acer" to "hacer"
-    hacer: { modelo: "-acer", conjugable_infinitive: "hacer" }, // ChatGPT said that all "-hacer" verbs conjugate the same
-    ducir: { modelo: "-ducir", conjugable_infinitive: "conducir" }, // ChatGPT said that all "-ducir" verbs conjugate like conducir
-    eer: { modelo: "-eer", conjugable_infinitive: "leer" }, // ChatGPT said that all "-eer" verbs conjugate like leer
-    uir: { modelo: "-uir", conjugable_infinitive: "huir" }, // ChatGPT said that all "-uir" verbs conjugate like huir
+    // FIX: perhaps this requires a partner rule for "-facer" ?
+    hacer: { modelo: "hacer", clase_conjugacional: "-acer" }, // ChatGPT said that all "-hacer" verbs conjugate the same, but "satisfacer" follows this model as well
+    ducir: { modelo: "conducir", clase_conjugacional: "-ducir" }, // ChatGPT said that all "-ducir" verbs conjugate like conducir
+    eer: { modelo: "leer", clase_conjugacional: "-eer" }, // ChatGPT said that all "-eer" verbs conjugate like leer
+    oír: { modelo: "oír", }, // ChatGPT said that all "-oír" verbs conjugate the same
+    uir: { modelo: "huir", clase_conjugacional: "-uir" }, // ChatGPT said that all "-uir" verbs conjugate like huir
     // NOT valid conjugation families:
     // -iar NOT => vaciar, e.g.: cambiar, estudiar
     // FIX: linguistics: consider all of these
     //     -aer / -oer
     //     -ocer 
 };
-const unique_conjugations = {
-    ir: { modelo: "ir", conjugable_infinitive: "ir" }, // its own modelo, and no prefixes exist
-    dar: { modelo: "dar", conjugable_infinitive: "dar" }, // its own modelo
-    ser: { modelo: "ser", conjugable_infinitive: "ser" }, // its own modelo
-    ver: { modelo: "ver", conjugable_infinitive: "ver" }, // its own modelo
-};
-function detectConjugationFamilyByEnding(infinitive) {
-    if (infinitive in unique_conjugations) {
-        const model_w_base = unique_conjugations[infinitive];
-        return model_w_base;
-    }
-    else {
-        for (const conjugation_family in conjugation_families) {
-            if (infinitive.endsWith(conjugation_family)) {
-                const model_w_base = conjugation_families[conjugation_family];
-                return model_w_base;
-            }
+// Note that there is no way to know whether these are actual prefixes, especially the single char prefixes: "a", "o"
+function findRulesAndProductiveVerbPrefixes(infinitivo, modelo, combinados) {
+    let productive_prefixes;
+    // check for the special case of "a-", which is the only productive prefix of a single character
+    if ((infinitivo[0] === "a") && (infinitivo.length - modelo?.length) === 1) {
+        if (infinitivo.endsWith(modelo)) {
+            const base_rules = verbos_con_cambios_morfológicos[modelo];
+            return { productive_prefixes: ["a"], base: modelo, base_rules };
         }
     }
-}
-// Note that there is no way to know whether these are actual prefixes, especially the single char prefixes: "a", "o"
-function findRulesAndProductiveVerbPrefixes(infinitive, modelo) {
-    let productive_prefixes;
-    let base = infinitive;
-    const is_conjugation_family = (modelo?.[0] === "-");
+    // FIX: this use of modelo is obsolete
+    const clase_conjugacional = combinados?.clase_conjugacional;
+    const is_conjugation_family = (clase_conjugacional?.[0] === "-");
     // NOTE: in case of a productive ending (has a hyphen), at least one more character is needed, so length is correct.
     const min_ending_length = (is_conjugation_family ? modelo.length : MIN_BASE_VERB_LENGTH);
+    let remainder = infinitivo;
     // stop as soon as a known verb is found, e.g. "acertar" is in morphophonemic_verb_conjugation_rules, but not "certar"
-    let morphological_rules = verbos_con_cambios_morfológicos[infinitive];
-    let do_look_for_prefix = !morphological_rules;
-    while (do_look_for_prefix && (base.length > min_ending_length)) {
-        const prefix_found = findProductiveVerbPrefix(base, min_ending_length);
-        if (prefix_found) {
-            // FIX: probably need an alert if a new rule set is found...
-            morphological_rules = verbos_con_cambios_morfológicos[prefix_found.remainder];
-            productive_prefixes = productive_prefixes || [];
-            productive_prefixes.push(prefix_found.prefix);
-            base = prefix_found.remainder;
+    let base_rules = verbos_con_cambios_morfológicos[infinitivo];
+    if (!base_rules || base_rules.modelo) {
+        let do_look_for_prefix = true;
+        while (do_look_for_prefix && (remainder.length > min_ending_length)) {
+            const prefix_found = findProductiveVerbPrefix(remainder, min_ending_length);
+            if (prefix_found) {
+                // This happens when an infinitivo with prefixes has a model...
+                base_rules = verbos_con_cambios_morfológicos[prefix_found.remainder];
+                productive_prefixes = productive_prefixes || [];
+                productive_prefixes.push(prefix_found.prefix);
+                remainder = prefix_found.remainder;
+            }
+            do_look_for_prefix = prefix_found && !base_rules;
         }
-        do_look_for_prefix = prefix_found && !morphological_rules;
+        const base = remainder;
+        // NOTE: it appears that this is the correct place to look for Prefixes.nonproductive_prefix
+        // but there doesn't appear to be enough information to find this.
+        if (productive_prefixes?.length > 0) {
+            return { productive_prefixes, base, base_rules };
+        }
     }
-    const model_w_base = unique_conjugations[base];
-    return { productive_prefixes, base, morphological_rules, ...model_w_base };
+    return {};
 }
-function determinePrefixes(infinitive, conjugable_infinitive, modelo) {
-    let conjugable_infinitive_prefix;
-    let conjugation_family_prefix;
-    let rules_and_prefixes = findRulesAndProductiveVerbPrefixes(infinitive, modelo);
-    conjugable_infinitive = rules_and_prefixes.conjugable_infinitive || conjugable_infinitive;
-    const is_conjugation_family = (modelo?.[0] === "-");
-    const productive_prefixes = rules_and_prefixes.productive_prefixes;
-    const morphological_rules = rules_and_prefixes.morphological_rules;
-    modelo = rules_and_prefixes.modelo || modelo;
-    let conjugable_infinitive_prefix_len;
-    if (is_conjugation_family) {
-        const ending_len = (modelo.length - 1);
-        if (productive_prefixes) {
-            const prefix = productive_prefixes.join("");
-            const remainder = infinitive.slice(prefix.length);
-            if (remainder.length > ending_len) {
-                conjugation_family_prefix = remainder.slice(0, -ending_len);
-            }
-            else {
-                conjugation_family_prefix = productive_prefixes.pop();
-            }
-            conjugable_infinitive_prefix_len = infinitive.length - (conjugation_family_prefix.length + ending_len);
+function findSharedEnding(infinitivo, modelo) {
+    let terminación = modelo;
+    for (; terminación.length > 2; terminación = terminación.slice(1)) {
+        if (infinitivo.slice(-terminación.length) === terminación) {
+            break;
         }
-        else {
-            conjugation_family_prefix = infinitive.slice(0, -(modelo.length - 1));
-        }
-        const conjugable_infinitive_len = conjugation_family_prefix.length + ending_len;
-        conjugable_infinitive_prefix = infinitive.slice(0, -conjugable_infinitive_len);
+    }
+    // NOTE: terminación.length can degenerate to the InfinitiveClass, e.g. "gemir" follows the model "pedir"
+    return terminación;
+}
+// Determina los prefijos de este verbo, y llena el tipo Prefixes. 
+// Separate any productive verb prefixes from this verb, and return the remainder as the base.
+// The base must be at least min_ending_length characters long as "ir" is the only shorter verb, and it cannot be prefixed.
+// e.g. "prever" has a 3-char base infinitivo.
+function determinePrefixes(infinitivo, modelo, morphological_rules) {
+    const { combinados } = morphological_rules;
+    const clase_conjugacional = combinados?.clase_conjugacional;
+    let { productive_prefixes, base, base_rules } = findRulesAndProductiveVerbPrefixes(infinitivo, modelo, combinados);
+    if (base_rules) {
+        modelo = modelo || base_rules.modelo;
+        morphological_rules.de_prefijos = { ...base_rules, infinitivos: [infinitivo, base] };
+    }
+    const is_ending_conjugation_family = (clase_conjugacional?.[0] === "-");
+    // const is_modelo_conjugation_family = (modelo && (!infinitivo.endsWith(modelo)))
+    if (is_ending_conjugation_family || modelo) {
+        const shared_ending = (clase_conjugacional ? clase_conjugacional?.slice(1) : findSharedEnding(infinitivo, modelo));
+        const shared_ending_len = shared_ending.length;
+        const prefijo_sustractivo = modelo.slice(0, -shared_ending_len);
+        let prefijo_aditivo = infinitivo.slice(0, -shared_ending_len);
+        // let prefixes_joined = productive_prefixes?.join("") || ""
+        // let unprefixed = infinitivo.slice(prefixes_joined.length)
+        // } else {
+        //     prefijo_aditivo = productive_prefixes?.pop()
+        //     prefixes_joined = productive_prefixes?.join("") || ""
+        //     unprefixed = infinitivo.slice(prefixes_joined.length)
+        // }
+        // any portion not accounted for is considered nonproductive
+        // const nonproductive_prefix = unprefixed.slice(0, -(prefijo_aditivo.length + shared_ending.length))
+        const clase_de_conjugación = { prefijo_aditivo, prefijo_sustractivo };
+        const prefixes = { /* productive_prefixes, /* nonproductive_prefix, */ clase_de_conjugación };
+        return { prefixes, base, base_rules };
     }
     else {
-        if (rules_and_prefixes.base && (rules_and_prefixes.base.length < conjugable_infinitive.length)) {
-            conjugable_infinitive = rules_and_prefixes.base;
-        }
-        conjugable_infinitive_prefix = infinitive.slice(0, -conjugable_infinitive.length);
+        return { base, base_rules };
     }
-    let prefixes;
-    if (productive_prefixes || conjugation_family_prefix || conjugable_infinitive_prefix) {
-        prefixes = {};
-        if (productive_prefixes) {
-            prefixes.productive_prefixes = productive_prefixes;
-        }
-        if (conjugation_family_prefix) {
-            prefixes.conjugation_family_prefix = conjugation_family_prefix;
-        }
-        // if (conjugable_infinitive_prefix) {
-        //     prefixes.conjugable_infinitive_prefix = conjugable_infinitive_prefix
-        // }
-    }
-    return { prefixes, morphological_rules, conjugable_infinitive, modelo };
+    // const nonproductive_prefix = getNonProductivePrefix()
+    // if (is_ending_conjugation_family || is_modelo_conjugation_family || rules_and_prefixes) {
+    //     const productive_prefixes = rules_and_prefixes?.productive_prefixes
+    //     const base = rules_and_prefixes?.base
+    //     const base_rules = rules_and_prefixes?.base_rules
+    //     if (base_rules) {
+    //         modelo = modelo || base_rules.modelo
+    //         morphological_rules.de_prefijos = {...base_rules, infinitivos: [infinitivo, base]}
+    //     }
+    //     if (productive_prefixes ||  nonproductive_prefix || clase_de_conjugación) {
+    //         const prefixes: Prefixes = {productive_prefixes,  nonproductive_prefix, clase_de_conjugación}
+    //         return prefixes
+    //     }
+    //     // const infinitivo_sin_prefijos = getInfinitivoSinPrefijos(productive_prefixes, infinitivo)
+    //     if (productive_prefixes || conjugation_family_prefix || (modelo && (infinitivo !== modelo))) {
+    //         let remainder = infinitivo
+    //         if (productive_prefixes) {
+    //             assert(productive_prefixes.length > 0, `${infinitivo}: productive_prefixes.length==0`)
+    //             prefixes.productive_prefixes = productive_prefixes
+    //             const productive_prefixes_all = productive_prefixes.join("")
+    //             assert(infinitivo.startsWith(productive_prefixes_all), `expected ${infinitivo}.startsWith(${productive_prefixes_all})`)
+    //             remainder = infinitivo.slice(productive_prefixes_all.length)
+    //         }
+    //         if (conjugation_family_prefix) {
+    //             const ending_len = (clase_conjugacional.length - 1)
+    //             const ending = clase_conjugacional.slice(1)
+    //             assert(infinitivo.endsWith(ending), `expected ${infinitivo}.endsWith(${ending})`)
+    //             const prefijo_base = (ending_len ? modelo.slice(0, -ending_len) : undefined)
+    //             prefixes.clase_de_conjugación = {prefijo: conjugation_family_prefix, prefijo_base}
+    //         } else if (infinitivo !== modelo) {
+    //             const productive_prefixes_all = prefixes.productive_prefixes?.join("") || ""
+    //             const wo_productive_prefixes = infinitivo.slice(productive_prefixes_all.length)
+    //             const nonproductive_prefix = wo_productive_prefixes.slice(0, -shared_ending.length)
+    //             if (nonproductive_prefix) {
+    //                 prefixes.nonproductive_prefix = nonproductive_prefix
+    //             }
+    //         }
+    //         return {prefixes, base, base_rules}
+    //     } 
 }
-// ChatGPT says: Si ves un verbo que:
+// Combine rules sets into combinados without changing the input adicionales.
+function combineExcepcionesLéxicasReglas(combinados, adicionales) {
+    if (!adicionales)
+        return;
+    let claves_adicionales = Object.keys(adicionales);
+    // FIX: may need to support deeper copying from adicionales, eg. for regionalisms
+    for (const mood_tense of claves_adicionales) {
+        const reglas_adicionales = adicionales[mood_tense];
+        combinados[mood_tense] = combinados[mood_tense] || {};
+        const reglas_combinados = combinados[mood_tense];
+        // must copy in order to prevent overwriting of sources by later combination
+        if (reglas_adicionales?.suffixes) {
+            // copy the base, but share the suffix values (as they won't be modified)
+            reglas_combinados.suffixes = { ...reglas_combinados?.suffixes, ...reglas_adicionales?.suffixes };
+        }
+        if (reglas_adicionales?.forms) {
+            reglas_combinados.forms = { ...reglas_combinados?.forms, ...reglas_adicionales?.forms };
+        }
+        if (reglas_adicionales?.derivations) {
+            reglas_combinados.derivations = { ...reglas_combinados?.derivations, ...reglas_adicionales?.derivations };
+        }
+        if (reglas_adicionales?.stress_last_char_of_s123p3_stem) {
+            reglas_combinados.stress_last_char_of_s123p3_stem = reglas_adicionales?.stress_last_char_of_s123p3_stem;
+        }
+        if (reglas_adicionales?.tema) {
+            reglas_combinados.tema = reglas_adicionales?.tema;
+        }
+    }
+}
+// Merge the overriding rules into the combinados rules.
+// The field in the combinados rules must be added as copies of the adicionales rules, to prevent modification of the adicionales.
+function _combinaReglasDeConjugaciónDeVerbo(args) {
+    function replaceIfAdditive(fieldname, combinado, adicional) {
+        const valor_combinado = combinado?.[fieldname];
+        const valor_adicional = adicional?.[fieldname];
+        if (valor_adicional) {
+            if (!valor_combinado) {
+                combinado[fieldname] = valor_adicional;
+            }
+            else {
+                if (valor_combinado !== valor_adicional) {
+                    throw new Error(`no puede resolver ReglasDeConjugaciónDeVerbo.${fieldname} para: ${combinado?.[fieldname]} << ${adicional?.[fieldname]}`);
+                }
+            }
+        }
+    }
+    function updateVerfication(combinado, adicional) {
+        const ok_combinado = combinado?.ok;
+        const ok_adicional = adicional?.ok;
+        if (ok_adicional) {
+            if (!ok_adicional) {
+                combinado.ok = ok_adicional;
+            }
+            else {
+                if (ok_combinado > ok_adicional) {
+                    combinado.ok = ok_adicional;
+                }
+            }
+        }
+    }
+    const { combinados, adicionales } = args;
+    if (!adicionales) {
+        return;
+    }
+    if (combinados.infinitivos.length < adicionales.infinitivos.length) {
+        combinados.infinitivos = adicionales.infinitivos;
+    }
+    updateVerfication(combinados, adicionales);
+    replaceIfAdditive("clase_conjugacional", combinados, adicionales);
+    replaceIfAdditive("modelo", combinados, adicionales);
+    replaceIfAdditive("tema_presente_yo", combinados, adicionales);
+    replaceIfAdditive("sufijo_presente_yo", combinados, adicionales);
+    replaceIfAdditive("tema_pretérito", combinados, adicionales);
+    replaceIfAdditive("tema_futuro", combinados, adicionales);
+    replaceIfAdditive("alternancia_vocálica", combinados, adicionales);
+    const combinados_excepciones_léxicas = combinados?.excepciones_léxicas;
+    const adicionales_excepciones_léxicas = adicionales?.excepciones_léxicas;
+    if (adicionales_excepciones_léxicas) {
+        if (!combinados_excepciones_léxicas) {
+            combinados.excepciones_léxicas = { ...adicionales_excepciones_léxicas };
+            const adicionales_reglas = adicionales_excepciones_léxicas?.reglas;
+            if (adicionales_reglas) {
+                combinados.excepciones_léxicas.reglas = {};
+                // must prevent polution of source reglas
+                combineExcepcionesLéxicasReglas(combinados.excepciones_léxicas.reglas, adicionales_reglas);
+            }
+        }
+        else {
+            replaceIfAdditive("supletivo", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("participio", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("gerundio", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("gerundio_tema_cambio_excepcional", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("imperativo_tú", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("vos", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            replaceIfAdditive("tema_subjuntivo_yo", combinados_excepciones_léxicas, adicionales_excepciones_léxicas);
+            const reglas_adicionales = adicionales_excepciones_léxicas?.reglas;
+            if (reglas_adicionales) {
+                combinados_excepciones_léxicas.reglas = combinados_excepciones_léxicas.reglas || {};
+                // must prevent polution of source reglas
+                combineExcepcionesLéxicasReglas(combinados_excepciones_léxicas.reglas, reglas_adicionales);
+            }
+        }
+    }
+}
+function collectRulesForInfinitiveAndModel(infinitivo, morphological_rules) {
+    let modelo;
+    let rules_de_infinitivo = verbos_con_cambios_morfológicos[infinitivo];
+    if (rules_de_infinitivo) {
+        morphological_rules.de_infinitivo = { ...rules_de_infinitivo, infinitivos: [infinitivo] };
+        modelo = rules_de_infinitivo.modelo;
+        if (modelo && (modelo !== infinitivo)) {
+            const rules_de_modelo = verbos_con_cambios_morfológicos[modelo];
+            if (rules_de_modelo) {
+                morphological_rules.de_modelo = { ...rules_de_modelo, infinitivos: [infinitivo, modelo] };
+            }
+        }
+        return modelo;
+    }
+}
+function collectRulesByEnding(infinitivo, morphological_rules) {
+    let modelo;
+    for (const conjugation_family in conjugation_families) {
+        if (infinitivo.endsWith(conjugation_family)) {
+            ;
+            ({ modelo } = conjugation_families[conjugation_family]);
+            break;
+        }
+    }
+    if (modelo) {
+        const rules_from_ending = verbos_con_cambios_morfológicos[modelo];
+        let infinitivos = [infinitivo];
+        if (infinitivo !== modelo) {
+            infinitivos.push(modelo);
+        }
+        // NOTE: this must exist, and is checked by validateConjugationFamiliesVerbsList() and validateUniqueVerbsList()
+        morphological_rules.de_terminación = { ...rules_from_ending, infinitivos };
+        return { modelo };
+    }
+}
+function getInfinitivoSinPrefijos(prefixes, infinitivo) {
+    if (prefixes) {
+        const { productive_prefixes, nonproductive_prefix } = prefixes;
+        const productive = productive_prefixes?.join("") || "";
+        const nonproductive = nonproductive_prefix || "";
+        const prefix = productive + nonproductive;
+        const remainder = infinitivo.slice(prefix.length);
+        return remainder;
+    }
+    else {
+        return infinitivo;
+    }
+}
+function getPreterite3PStem(conj_and_deriv_rules) {
+    // Must force _conjugateVerb to only consider the infinitivo_sin_prefijos
+    const { infinitivo_sin_prefijos, prefixes } = conj_and_deriv_rules;
+    const prefijos_para_clase = { clase_de_conjugación: prefixes?.clase_de_conjugación };
+    const conj_and_derviv_rules_conjugable_only = { ...conj_and_deriv_rules, infinitivo: infinitivo_sin_prefijos, prefixes: prefijos_para_clase };
+    // FIX: this call is very confusing when debugging. Is there a clean way to get just the single IndPret.p3 form?
+    const { forms } = _conjugateVerb(conj_and_derviv_rules_conjugable_only, "IndPret");
+    // TODO: is this correct? assuming that there is only ONE form
+    const ustedes_form = forms["p3"][0];
+    const tema_base = ustedes_form.slice(0, -3);
+    return tema_base;
+}
+// ChatGPT dice: Si ves un verbo que:
 // - tiene prefijo claro (pre-, re-, con-, sub-, ante-, etc.)
 // - termina como un verbo irregular fuerte
 // 👉 Asume que se conjuga como el verbo base, hasta que alguien te demuestre lo contrario.
 //    Funciona el 95 %+ del tiempo.
-function resolveConjugationClass(infinitive) {
-    // Separate any productive verb prefixes from this verb, and return the remainder as the base.
-    // The base must be at least min_ending_length characters long as "ir" is the only shorter verb, and it cannot be previxed.
-    // e.g. "prever" has a 3-char base infinitive.
-    const verb_family = getInfinitiveClass(infinitive);
+function resolveConjugationClass(infinitivo) {
+    const verb_family = getInfinitiveClass(infinitivo);
     if (!verb_family) {
         return undefined;
     }
-    let conjugable_infinitive = infinitive;
-    if (verbs_with_false_prefixes.has(infinitive)) {
-        return { infinitive, conjugable_infinitive, verb_family };
+    let morphological_rules = {};
+    if (verbs_with_false_prefixes.has(infinitivo)) {
+        let conj_and_deriv_rules = { infinitivo, infinitivo_sin_prefijos: infinitivo, verb_family, morphological_rules };
+        conj_and_deriv_rules.tema_pretérito_p3 = getPreterite3PStem(conj_and_deriv_rules);
+        return conj_and_deriv_rules;
     }
-    let modelo;
-    let morphological_rules_from_ending;
-    const model_w_base = detectConjugationFamilyByEnding(infinitive);
-    if (model_w_base) {
-        ;
-        ({ modelo, conjugable_infinitive } = model_w_base);
-        morphological_rules_from_ending = verbos_con_cambios_morfológicos[conjugable_infinitive];
+    let modelo = collectRulesForInfinitiveAndModel(infinitivo, morphological_rules);
+    if (!modelo) {
+        const model_by_ending = collectRulesByEnding(infinitivo, morphological_rules);
+        if (model_by_ending) {
+            ;
+            ({ modelo } = model_by_ending);
+        }
     }
-    const prefixes_w_meta = determinePrefixes(infinitive, conjugable_infinitive, modelo);
-    const prefixes = prefixes_w_meta.prefixes;
-    modelo = prefixes_w_meta.modelo || modelo;
-    conjugable_infinitive = prefixes_w_meta.conjugable_infinitive || conjugable_infinitive;
-    let morphological_rules = prefixes_w_meta.morphological_rules || morphological_rules_from_ending;
-    //     if (prefixes_w_meta.morphological_rules || morphological_rules_from_ending) {
-    //         if (prefixes_w_meta.morphological_rules && morphological_rules_from_ending) {
-    //             morphological_rules = {...morphological_rules_from_ending, ...prefixes_w_meta.morphological_rules}
-    //             if (morphological_rules_from_ending.excepciones_léxicas && prefixes_w_meta.morphological_rules.excepciones_léxicas) {
-    //                 let excepciones_léxicas: ReglasDeConjugaciónDeVerboExcepcionesLexicas = {...morphological_rules_from_ending.excepciones_léxicas}
-    //                 if (prefixes_w_meta.morphological_rules.excepciones_léxicas) {
-    //                     if (prefixes_w_meta.morphological_rules.excepciones_léxicas.reglas)
-    //                 }
-    //             }
-    //             morphological_rules
-    //             if (prefixes_w_meta.morphological_rules) {
-    //             }
-    //         }
-    //     }
-    return { infinitive, verb_family, modelo, conjugable_infinitive, prefixes, morphological_rules };
+    const combinados = { infinitivos: [infinitivo] };
+    _combinaReglasDeConjugaciónDeVerbo({ combinados, adicionales: morphological_rules.de_infinitivo });
+    _combinaReglasDeConjugaciónDeVerbo({ combinados, adicionales: morphological_rules.de_modelo });
+    _combinaReglasDeConjugaciónDeVerbo({ combinados, adicionales: morphological_rules.de_terminación });
+    const reglas_existe = (Object.keys(morphological_rules).length > 0);
+    if (reglas_existe) {
+        morphological_rules.combinados = combinados;
+    }
+    const with_prefixes = determinePrefixes(infinitivo, modelo, morphological_rules);
+    const prefixes = with_prefixes?.prefixes;
+    _combinaReglasDeConjugaciónDeVerbo({ combinados, adicionales: morphological_rules.de_prefijos });
+    const infinitivo_sin_prefijos = getInfinitivoSinPrefijos(prefixes, infinitivo);
+    if (morphological_rules.de_prefijos) {
+        morphological_rules.combinados = combinados;
+    }
+    let conj_and_deriv_rules = { infinitivo, infinitivo_sin_prefijos, verb_family, prefixes, morphological_rules };
+    conj_and_deriv_rules.tema_pretérito_p3 = getPreterite3PStem(conj_and_deriv_rules);
+    return conj_and_deriv_rules;
 }
 //# sourceMappingURL=resolve-conjugation-class.js.map
 
@@ -2012,6 +3040,8 @@ const stem_change_descriptions = {
     // - La terminación del infinitivo importa
     // It appears that this regex picks out the "e:ie" verbs: /([bcfhlmnprstv]|qu)e(br|l|mbl|n|nd|ns|nt|nz|r|rd|rn|rr|rt|s|st|v|z)[aei]r$/
     "e:ie": { from: "e", to: "ie", kind: "diphthongization" },
+    // This seems to be related to e:ie, if you look at "qu" as similar to "e": e.g. adquirir, inquirir
+    "i:ie": { from: "i", to: "ie", kind: "diphthongization" },
     "o:ue": { from: "o", to: "ue", kind: "diphthongization" },
     "u:ue": { from: "u", to: "ue", kind: "diphthongization" },
     // NO: pensar, perder, SÍ: sentir
@@ -2044,17 +3074,27 @@ const stem_change_patterns = {
     "e:ie": {
         // "pensar", "perder", "sentir"
         allowed_transforms: ["e:ie", "e:i"],
-        gerund_rule: null,
+        gerund_rule: "e:i",
         IndPres: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p3: "e:ie" },
-        SubPres: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p3: "e:ie" },
         IndPret: { s3: "e:i", p3: "e:i" },
-        CmdPos: { s2: "e:ie", s3: "e:ie", p3: "e:ie" },
-        CmdNeg: { s2: "e:ie", s3: "e:ie", p3: "e:ie" },
+        SubPres: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p1: "e:i", p2: "e:i", p3: "e:ie", vos: "e:ie" },
+        SubImp: { s1: "e:i", s2: "e:i", s3: "e:i", p1: "e:i", p2: "e:i", p3: "e:i" },
+        SubFut: { s1: "e:i", s2: "e:i", s3: "e:i", p1: "e:i", p2: "e:i", p3: "e:i" },
+        CmdPos: { s2: "e:ie", s3: "e:ie", p1: "e:i", p3: "e:ie" },
+        CmdNeg: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p1: "e:i", p2: "e:i", p3: "e:ie", vos: "e:ie" },
     },
-    "i:í": {
-        // FIX: linguist: figure out what this is exactly
-        allowed_transforms: ["i:í"],
+    "i:ie": {
+        // This seems to be related to e:ie, if you look at "qu" as similar to "e": e.g. adquirir, inquirir
+        allowed_transforms: ["i:ie"],
+        IndPres: { s1: "i:ie", s2: "i:ie", s3: "i:ie", p3: "i:ie" },
+        SubPres: { s1: "i:ie", s2: "i:ie", s3: "i:ie", p3: "i:ie", vos: "i:ie" },
+        CmdPos: { s2: "i:ie", s3: "i:ie", p3: "i:ie" },
+        CmdNeg: { s2: "i:ie", s3: "i:ie", p3: "i:ie" },
     },
+    // "i:í": {
+    //     // FIX: linguist: figure out what this is exactly
+    //     allowed_transforms: ["i:í"],
+    // },
     // "o:u" is only used for vowel raising wihin "o:ue" verbs, and is not a pattern for stem changes generally
     "o:ue": {
         // "poder", "volver"
@@ -2069,6 +3109,7 @@ const stem_change_patterns = {
     "u:ú": {
         // "reunir"
         // accent only, not an actual stem change
+        // FIX: linguist: maybe this can be handled with stress placement rules? 
         allowed_transforms: ["u:ú"],
         gerund_rule: null,
         IndPres: { s1: "u:ú", s2: "u:ú", s3: "u:ú", p3: "u:ú" },
@@ -2115,17 +3156,22 @@ function applyStemChangePattern(verb_part, stem_change_description) {
         const rule_id = `${stem_change_description.from}:${stem_change_description.to}`;
         throw new Error(`can't apply stem_change_rule_id=${rule_id} to verb_part=${verb_part}`);
     }
-    const changed_part = verb_part.slice(0, i) + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length);
+    let changed_part = verb_part.slice(0, i) + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length);
+    // Spanish doesn't allow a word to start with the dipthong "ue"
+    // but apparently this doesn't apply to the dipthong "ie"
+    if (changed_part.startsWith("ue")) {
+        changed_part = "h" + changed_part;
+    }
     return changed_part;
 }
 // @return The root of each conjugation that should be used after applying any stem change.
 // This is the unchanged root if there is no stem change.
 // regular_suffixes: provides the grammatical persons to be conjugated, as well as the number of forms for each
 function getStemChanges(args) {
-    const { conjugable_infinitive, verb_family, mood_tense, suffixes } = args;
-    const verb_root = conjugable_infinitive.slice(0, -2);
+    const { infinitivo_sin_prefijos, verb_family, mood_tense, suffixes } = args;
+    const verb_root = infinitivo_sin_prefijos.slice(0, -2);
     const conjugated_stems = {};
-    const morphophonemic_conjugation_rules = verbos_con_cambios_morfológicos[conjugable_infinitive];
+    const morphophonemic_conjugation_rules = verbos_con_cambios_morfológicos[infinitivo_sin_prefijos];
     const alternancia_vocálica = morphophonemic_conjugation_rules?.alternancia_vocálica;
     const stem_change_rules = (alternancia_vocálica ? getStemChangesFromRule(mood_tense, alternancia_vocálica) : undefined);
     // const conjugate_only = morphophonemic_conjugation_rules?.conjugate_only
@@ -2179,64 +3225,54 @@ function applyStemChangeToGerundStem(args) {
 
 
 
-function applyInfinitivePrefix(form, conj_and_deriv_rules) {
-    const { infinitive, conjugable_infinitive, prefixes, morphological_rules } = conj_and_deriv_rules;
-    if (infinitive === conjugable_infinitive) {
-        return form;
-    }
-    let basePrefixLen = 0;
-    if (prefixes?.conjugation_family_prefix) {
-        const clase = morphological_rules.clase_conjugacional;
-        basePrefixLen = conjugable_infinitive.length - (clase.length - 1);
-    }
-    const infinitivePrefixLen = infinitive.length - conjugable_infinitive.length + basePrefixLen;
-    const infinitivePrefix = infinitive.slice(0, infinitivePrefixLen);
-    return infinitivePrefix + form.slice(basePrefixLen);
-}
+
 function getRegularParticiples(conj_and_deriv_rules, rules_applied) {
-    const { conjugable_infinitive, verb_family } = conj_and_deriv_rules;
-    const stem = conjugable_infinitive.slice(0, -2);
+    const { infinitivo, verb_family } = conj_and_deriv_rules;
+    const stem = infinitivo.slice(0, -2);
     const suffixes = regular_verb_suffixes[verb_family].participle_rules;
     const gerundio_base = stem + suffixes.pres.suffix;
     const participio_base = stem + suffixes.past.suffix;
     const regular = { gerundio: gerundio_base, participio: participio_base };
     rules_applied.push({ regular });
-    if (conj_and_deriv_rules.prefixes) {
-        const prefixed = {};
-        const gerundio_prefixed = applyInfinitivePrefix(gerundio_base, conj_and_deriv_rules);
-        if (gerundio_prefixed !== gerundio_base) {
-            prefixed.gerundio = gerundio_prefixed;
-        }
-        const participio_prefixed = applyInfinitivePrefix(participio_base, conj_and_deriv_rules);
-        if (participio_prefixed !== participio_base) {
-            prefixed.participio = participio_prefixed;
-        }
-        if (Object.keys(prefixed).length > 0) {
-            rules_applied.push({ prefixed });
-        }
-        return { ...regular, ...prefixed };
-    }
-    else {
-        return regular;
-    }
+    return regular;
+    // // if (infinitivo !== infinitivo_sin_prefijos) {
+    // if (prefixes) {
+    //     const prefixed: Participios = {}
+    //     const gerundio_prefixed = addPrefixesToBaseForm(gerundio_base, prefixes)
+    //     if (gerundio_prefixed !== gerundio_base) {
+    //         prefixed.gerundio = gerundio_prefixed
+    //     }
+    //     const participio_prefixed =  addPrefixesToBaseForm(participio_base, prefixes)
+    //     if (participio_prefixed !== participio_base) {
+    //         prefixed.participio = participio_prefixed
+    //     }
+    //     if (Object.keys(prefixed).length > 0) {
+    //         rules_applied.push({prefixed})
+    //     }
+    //     return {...regular, ...prefixed}
+    // } else {
+    //     return regular
+    // }
 }
-function getParticipiosExcepcionales(rules, rules_applied) {
-    const excepciones_léxicas = rules.morphological_rules?.excepciones_léxicas;
+function getParticipiosExcepcionales(conj_and_deriv_rules, rules_applied) {
+    const reglas_combinado = conj_and_deriv_rules.morphological_rules?.combinados;
+    const excepciones_léxicas = reglas_combinado?.excepciones_léxicas;
     if (!excepciones_léxicas)
         return;
     const { gerundio, participio } = excepciones_léxicas;
     if (gerundio || participio) {
+        const { prefixes } = conj_and_deriv_rules;
         rules_applied.push({ excepciones_léxicas: { gerundio, participio } });
         const result = {};
         const prefixed = {};
         if (excepciones_léxicas.gerundio) {
-            result.gerundio = applyInfinitivePrefix(excepciones_léxicas.gerundio, rules);
+            result.gerundio = addPrefixesToBaseForm(excepciones_léxicas.gerundio, prefixes);
             if (result.gerundio !== excepciones_léxicas.gerundio) {
                 prefixed.gerundio = result.gerundio;
             }
         }
         if (excepciones_léxicas.participio) {
-            result.participio = applyInfinitivePrefix(excepciones_léxicas.participio, rules);
+            result.participio = addPrefixesToBaseForm(excepciones_léxicas.participio, prefixes);
             if (result.participio !== excepciones_léxicas.participio) {
                 prefixed.participio = result.participio;
             }
@@ -2255,17 +3291,19 @@ function getOrthographicChangesForParticiples(rules, regulares, rules_applied) {
             ending: form.slice(-len)
         };
     }
-    const { infinitive, verb_family, morphological_rules } = rules;
-    const alternancia = morphological_rules?.alternancia_vocálica;
+    const { infinitivo, verb_family, morphological_rules } = rules;
+    const alternancia = morphological_rules?.combinados?.alternancia_vocálica;
     const { gerund_stem, ending } = splitGerund(regulares.gerundio, verb_family);
-    const excepcion = morphological_rules?.excepciones_léxicas?.gerundio_tema_cambio_excepcional;
+    const excepcion = morphological_rules?.combinados?.excepciones_léxicas?.gerundio_tema_cambio_excepcional;
     const gerundio_tema_cambio = excepcion ?? stem_change_patterns[alternancia]?.gerund_rule;
     const excepcional = !!excepcion;
     const gerundio = gerundio_tema_cambio
         ? applyStemChangeToGerundStem({ gerund_stem, verb_family, gerundio_tema_cambio, excepcional, rules_applied }) + ending
         : regulares.gerundio;
-    const do_correct_diéresis = infinitive.includes("ü");
-    const orthographical_changes = applyOrthographicalChangesForParticiples({ ...regulares, gerundio }, ending, do_correct_diéresis, rules_applied);
+    // const do_correct_diéresis = infinitivo.includes("ü")
+    const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
+    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
+    const orthographical_changes = applyOrthographicalChangesForParticiples({ ...regulares, gerundio }, ending, do_correct_diéresis, do_correct_ñi_yi, rules_applied);
     const result = { ...regulares, gerundio, ...orthographical_changes };
     if (result.gerundio === regulares.gerundio)
         delete result.gerundio;
@@ -2284,9 +3322,9 @@ function _deriveParticiples(rules) {
     const final_forms = { ...regulares, ...ortográficos, ...excepcionales };
     return { participles: final_forms, rules_applied };
 }
-function deriveParticiples(infinitive) {
-    console.log(`deriveParticiples(${infinitive})`);
-    const conj_and_deriv_rules = resolveConjugationClass(infinitive);
+function deriveParticiples(infinitivo) {
+    console.log(`deriveParticiples(${infinitivo})`);
+    const conj_and_deriv_rules = resolveConjugationClass(infinitivo);
     if (!conj_and_deriv_rules) {
         return undefined;
     }
@@ -2354,34 +3392,23 @@ function accumulateChangedForms(base, updates) {
     }
     return accumulated;
 }
-function getPreterite3PStem(conj_and_deriv_rules, infinitive) {
-    // Must force _conjugateVerb to only consider the conjugable_infinitive
-    const conj_and_derviv_rules_conjugable_only = { ...conj_and_deriv_rules, infinitive: conj_and_deriv_rules.conjugable_infinitive };
-    delete conj_and_derviv_rules_conjugable_only.prefixes;
-    // FIX: this call is very confusing when debugging. Is there a clean way to get jus the single IndPret.p3 form?
-    const { forms } = _conjugateVerb(conj_and_derviv_rules_conjugable_only, "IndPret");
-    // TODO: is this correct? assuming that there is only ONE form
-    const ustedes_form = forms["p3"][0];
-    const stem = ustedes_form.slice(0, -3);
-    return stem;
-}
 function getTemaRegular(conj_and_deriv_rules, mood_tense, ancestor_rule_sets) {
-    const { conjugable_infinitive } = conj_and_deriv_rules;
+    const { infinitivo_sin_prefijos, tema_pretérito_p3 } = conj_and_deriv_rules;
     const use_infinitive = ancestor_rule_sets[0].add_suffix_to_infinitive || ancestor_rule_sets[1]?.add_suffix_to_infinitive;
     const add_suffix_to_preterite_p3_stem = ancestor_rule_sets[0].add_suffix_to_preterite_p3_stem || ancestor_rule_sets[1]?.add_suffix_to_preterite_p3_stem;
     const stress_last_char_of_p1_stem = ancestor_rule_sets[0].stress_last_char_of_p1_stem || ancestor_rule_sets[1]?.stress_last_char_of_p1_stem;
     const stress_last_char_of_s123p3_stem = ancestor_rule_sets[0].stress_last_char_of_s123p3_stem || ancestor_rule_sets[1]?.stress_last_char_of_s123p3_stem;
     let stem;
     if (use_infinitive) {
-        stem = removeStress(conjugable_infinitive);
+        stem = removeStress(infinitivo_sin_prefijos);
     }
     else if (add_suffix_to_preterite_p3_stem) {
-        stem = getPreterite3PStem(conj_and_deriv_rules, conjugable_infinitive);
+        stem = tema_pretérito_p3;
     }
     else {
-        stem = conj_and_deriv_rules.conjugable_infinitive.slice(0, -2);
+        stem = conj_and_deriv_rules.infinitivo_sin_prefijos.slice(0, -2);
     }
-    const temas = setStem(stem);
+    const temas = setStem([stem]);
     if (stress_last_char_of_p1_stem || stress_last_char_of_s123p3_stem) {
         const stem_w_stressed_last_char = moveStress(stem, { to: stem.length - 1 });
         const gramatical_persons = [];
@@ -2403,10 +3430,21 @@ function stressLastSylableOfP1Stem(temas) {
     const restressed = moveStress(p1_stem, { to: last_index });
     temas.p1 = [restressed];
 }
-// get the stems of conjugable_infinitive
+function cambiaTemasDeClaseConjugacional(temas, prefijos) {
+    let prefijado = {};
+    for (const key in temas) {
+        const persona_gramatical = key;
+        const formas = temas[persona_gramatical];
+        prefijado[persona_gramatical] = applyToVerbForms(formas, (forma) => {
+            const prefijado = aplicaPrefijosClaseConjugacional(forma, prefijos);
+            return prefijado;
+        });
+    }
+    return prefijado;
+}
+// get the stems of infinitivo_sin_prefijos
 function getStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, rules_applied) {
-    const { infinitive, verb_family, conjugable_infinitive } = conj_and_deriv_rules;
-    const tema_pretérito = conj_and_deriv_rules.morphological_rules?.tema_pretérito;
+    const { verb_family, infinitivo_sin_prefijos, tema_pretérito_p3 } = conj_and_deriv_rules;
     let temas;
     // find the stems without prefixes
     switch (mood_tense) {
@@ -2417,10 +3455,10 @@ function getStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes
         case "SubFut":
             {
                 // add_suffix_to_preterite_p3_stem
-                const tema_pretérito_p3 = getPreterite3PStem(conj_and_deriv_rules, conjugable_infinitive);
-                temas = setStem(tema_pretérito_p3);
-                // stress_last_char_of_p1_stem
-                stressLastSylableOfP1Stem(temas);
+                if (tema_pretérito_p3) {
+                    temas = setStem([tema_pretérito_p3]);
+                    stressLastSylableOfP1Stem(temas);
+                }
             }
             break;
         case "IndFut":
@@ -2440,26 +3478,27 @@ function getStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes
             break;
     }
     const temas_regulares = getTemaRegular(conj_and_deriv_rules, mood_tense, ancestor_rule_sets);
-    const temas_cambiados = getStemChanges({ conjugable_infinitive, verb_family, mood_tense, suffixes });
+    const temas_cambiados = getStemChanges({ infinitivo_sin_prefijos, verb_family, mood_tense, suffixes });
     const regulares_con_temas_cambiados = accumulateChangedForms(temas_regulares, temas_cambiados);
-    const stems = accumulateChangedForms(regulares_con_temas_cambiados, temas);
-    rules_applied.push({ stems });
-    return stems;
+    const temas_finales = accumulateChangedForms(regulares_con_temas_cambiados, temas);
+    rules_applied.push({ stems: temas_finales });
+    return temas_finales;
 }
-function conjugateVerb(infinitive, mood_tense) {
-    console.log(`conjugateVerb(${infinitive}, ${mood_tense})`);
-    const conj_and_deriv_rules = resolveConjugationClass(infinitive);
+function conjugateVerb(infinitivo, mood_tense) {
+    console.log(`conjugateVerb(${infinitivo}, ${mood_tense})`);
+    const conj_and_deriv_rules = resolveConjugationClass(infinitivo);
     if (!conj_and_deriv_rules) {
         return undefined;
     }
-    const notes = getAnnotations(infinitive, conj_and_deriv_rules.modelo, mood_tense);
+    const modelo = conj_and_deriv_rules.morphological_rules?.combinados?.modelo;
+    const notes = getAnnotations(infinitivo, modelo, mood_tense);
     const { forms, rules_applied } = _conjugateVerb(conj_and_deriv_rules, mood_tense);
     notes.rules_applied = rules_applied;
     return { notes, forms };
 }
 // The regular_suffixes determine the forms. For example, if the suffix is missing for "s1", then that form is not produced.
 // This also corrects stress accents according to standard Spanish stress rules.
-function appendSuffixesToStems(infinitive, stems, regular_suffixes, rules_applied) {
+function appendSuffixesToStems(infinitivo, stems, regular_suffixes, rules_applied) {
     function combineStemWithSuffixes(stem, suffix_forms) {
         let original_form = stem + suffix_forms[0];
         const combined = [original_form];
@@ -2472,7 +3511,7 @@ function appendSuffixesToStems(infinitive, stems, regular_suffixes, rules_applie
     let combined_stems_w_suffixes = {};
     const suffix_keys = Object.keys(regular_suffixes);
     // if (stem_keys.length !== suffix_keys.length) {
-    //     throw new Error(`infinitive=${infinitive} has stem_keys=${stem_keys} !== suffix_keys=${suffix_keys}`)
+    //     throw new Error(`infinitivo=${infinitivo} has stem_keys=${stem_keys} !== suffix_keys=${suffix_keys}`)
     // }
     for (const key of suffix_keys) {
         const gramatical_person = key;
@@ -2494,7 +3533,7 @@ function appendSuffixesToStems(infinitive, stems, regular_suffixes, rules_applie
     return combined_stems_w_suffixes;
 }
 function getSuffixesForLexicalExceptions(conj_and_deriv_rules, mood_tense, forms_to_stress_last_char_of_stem) {
-    const exceptional_suffixes_for_mood_tense = { ...conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.suffixes };
+    const exceptional_suffixes_for_mood_tense = { ...conj_and_deriv_rules?.morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.suffixes };
     if (exceptional_suffixes_for_mood_tense && (forms_to_stress_last_char_of_stem?.length > 0)) {
         for (const gramatical_person of forms_to_stress_last_char_of_stem) {
             const exceptional_suffixes = exceptional_suffixes_for_mood_tense[gramatical_person];
@@ -2510,7 +3549,7 @@ function getSuffixesForLexicalExceptions(conj_and_deriv_rules, mood_tense, forms
     return exceptional_suffixes_for_mood_tense;
 }
 function getPersonsTosStressLastCharOfStem(conj_and_deriv_rules, mood_tense) {
-    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense];
+    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense];
     const stress_last_char_of_p1_stem = lexical_exceptions_for_suffixes_for_mood_tense?.stress_last_char_of_p1_stem;
     const stress_last_char_of_s123p3_stem = lexical_exceptions_for_suffixes_for_mood_tense?.stress_last_char_of_s123p3_stem;
     if (stress_last_char_of_p1_stem || stress_last_char_of_s123p3_stem) {
@@ -2526,16 +3565,18 @@ function getPersonsTosStressLastCharOfStem(conj_and_deriv_rules, mood_tense) {
 }
 function getStemsForLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, forms_to_stress_last_char_of_stem) {
     let exceptional_stems = {};
-    const lexical_exceptions_for_suffixes_for_mood_tense = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense];
+    const { morphological_rules, prefixes, tema_pretérito_p3 } = conj_and_deriv_rules;
+    const lexical_exceptions_for_suffixes_for_mood_tense = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense];
     if (lexical_exceptions_for_suffixes_for_mood_tense?.tema) {
-        exceptional_stems = setStem(lexical_exceptions_for_suffixes_for_mood_tense.tema);
+        const tema_base = aplicaPrefijosClaseConjugacional(lexical_exceptions_for_suffixes_for_mood_tense.tema, prefixes);
+        exceptional_stems = setStem([tema_base]);
     }
     else {
         const add_suffix_to_preterite_p3_stem = lexical_exceptions_for_suffixes_for_mood_tense?.add_suffix_to_preterite_p3_stem;
         if (add_suffix_to_preterite_p3_stem) {
             // FIX: move this computation to resolveConjugationClass()
-            const stem = getPreterite3PStem(conj_and_deriv_rules, conj_and_deriv_rules.conjugable_infinitive);
-            exceptional_stems = setStem(stem);
+            const stem = tema_pretérito_p3;
+            exceptional_stems = setStem([stem]);
         }
         if (forms_to_stress_last_char_of_stem?.length > 0) {
             for (const gramatical_person of forms_to_stress_last_char_of_stem) {
@@ -2550,7 +3591,7 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, f
     return exceptional_stems;
 }
 function getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, rules_applied) {
-    const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.conjugable_infinitive, mood_tense, ancestor_rule_sets);
+    const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets);
     const strong_pretérito_suffixes = getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense);
     const presente_yo_suffixes = getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense);
     const regular_w_pretérito = accumulateChangedForms(regular_suffixes, strong_pretérito_suffixes);
@@ -2579,12 +3620,18 @@ function applyLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, suffixe
     }
 }
 function getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied) {
+    const { prefixes, morphological_rules } = conj_and_deriv_rules;
     const suplicaciones = {};
-    const lexical_suplications = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.forms;
+    const lexical_suplications = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.forms;
     if (lexical_suplications) {
         for (const key in lexical_suplications) {
             const grammatical_person = key;
-            suplicaciones[grammatical_person] = lexical_suplications[grammatical_person];
+            const formas_modelo = lexical_suplications[grammatical_person];
+            const formas_base = applyToVerbForms(formas_modelo, (forma) => {
+                const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
+                return tema_base;
+            });
+            suplicaciones[grammatical_person] = formas_base;
         }
     }
     if (Object.keys(suplicaciones).length > 0) {
@@ -2593,10 +3640,15 @@ function getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied)
     return suplicaciones;
 }
 function applyImperativoTú(conj_and_deriv_rules, mood_tense, formas_finales_sin_prefijos, rules_applied) {
-    const { morphological_rules } = conj_and_deriv_rules;
-    let imperativo_tú = morphological_rules?.excepciones_léxicas?.imperativo_tú;
+    const { prefixes, morphological_rules } = conj_and_deriv_rules;
+    let imperativo_tú = morphological_rules?.combinados?.excepciones_léxicas?.imperativo_tú;
     if (imperativo_tú && (mood_tense === "CmdPos")) {
-        formas_finales_sin_prefijos.s2 = (Array.isArray(imperativo_tú) ? imperativo_tú : [imperativo_tú]);
+        const formas_modelo = (Array.isArray(imperativo_tú) ? imperativo_tú : [imperativo_tú]);
+        const formas_base = applyToVerbForms(formas_modelo, (forma) => {
+            const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
+            return tema_base;
+        });
+        formas_finales_sin_prefijos.s2 = formas_base;
         rules_applied.push({ imperativo_tú: { s2: formas_finales_sin_prefijos.s2 } });
     }
 }
@@ -2605,51 +3657,55 @@ function applyImperativoTú(conj_and_deriv_rules, mood_tense, formas_finales_sin
 const accentable_single_vowel_sylable_regex = /^[^aeiou]+(a|e|i|o|u|ei)[ns]?$/;
 const accentable_two_vowel_sylable_regex = /^[^aeiou]+i(o)[ns]?$/;
 function maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_finales_sin_prefijos, rules_applied) {
-    const derivations_preserve_stress = conj_and_deriv_rules?.morphological_rules?.excepciones_léxicas?.reglas?.[mood_tense]?.derivations?.preserve_stress_from_base;
-    if (derivations_preserve_stress) {
-        const maintain_stressed_last_sylable = {};
-        for (const grammatical_person of derivations_preserve_stress) {
-            const formas = formas_finales_sin_prefijos[grammatical_person];
-            const stressed = applyToVerbForms(formas, (form) => {
-                let match = form.match(accentable_single_vowel_sylable_regex);
-                if (!match) {
-                    match = form.match(accentable_two_vowel_sylable_regex);
-                }
-                if (match) {
-                    const vowels_index = form.indexOf(match[1]);
-                    // FIX: linguist: how to determine where to place the accent
-                    const accented = moveStress(form, { to: vowels_index });
-                    if (accented !== form) {
-                        return accented;
+    const { infinitivo, infinitivo_sin_prefijos, morphological_rules } = conj_and_deriv_rules;
+    if (infinitivo !== infinitivo_sin_prefijos) {
+        const derivations_preserve_stress = morphological_rules?.combinados?.excepciones_léxicas?.reglas?.[mood_tense]?.derivations?.preserve_stress_from_base;
+        if (derivations_preserve_stress) {
+            const maintain_stressed_last_sylable = {};
+            for (const grammatical_person of derivations_preserve_stress) {
+                const formas = formas_finales_sin_prefijos[grammatical_person];
+                const stressed = applyToVerbForms(formas, (form) => {
+                    let match = form.match(accentable_single_vowel_sylable_regex);
+                    if (!match) {
+                        match = form.match(accentable_two_vowel_sylable_regex);
                     }
+                    if (match) {
+                        const vowels_index = form.indexOf(match[1]);
+                        // FIX: linguist: how to determine where to place the accent
+                        const accented = moveStress(form, { to: vowels_index });
+                        if (accented !== form) {
+                            return accented;
+                        }
+                    }
+                });
+                formas[0] = stressed[0] || formas[0];
+                if (formas.length === 2) {
+                    formas[1] = stressed[1] || formas[1];
                 }
-            });
-            formas[0] = stressed[0] || formas[0];
-            if (formas.length === 2) {
-                formas[1] = stressed[1] || formas[1];
+                if (stressed[0] || stressed[1]) {
+                    maintain_stressed_last_sylable[grammatical_person] = stressed;
+                }
             }
-            if (stressed[0] || stressed[1]) {
-                maintain_stressed_last_sylable[grammatical_person] = stressed;
+            if (Object.keys(maintain_stressed_last_sylable).length > 1) {
+                rules_applied.push({ maintain_stressed_last_sylable });
             }
-        }
-        if (Object.keys(maintain_stressed_last_sylable).length > 1) {
-            rules_applied.push({ maintain_stressed_last_sylable });
         }
     }
 }
 function _conjugateVerb(conj_and_deriv_rules, mood_tense) {
-    const { infinitive, conjugable_infinitive, morphological_rules } = conj_and_deriv_rules;
+    const { infinitivo_sin_prefijos, prefixes } = conj_and_deriv_rules;
     const rules_applied = [];
-    const ancestor_rule_sets = getAncestorRuleSets(infinitive, mood_tense, rules_applied);
+    const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense, rules_applied);
     // resolve suffixes first, as they help determine the forms used by getStems()
     const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, rules_applied);
-    // find the stems, including ste
+    // find the stems, including any prefix changes from the model to the base infinitive
     const stems = getStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, rules_applied);
     applyLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, suffixes, rules_applied);
     // 8. añadir terminaciones morfológicas
-    const combined_stems_w_suffixes = appendSuffixesToStems(infinitive, stems, suffixes, rules_applied);
+    const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, stems, suffixes, rules_applied);
     // 9. ortografía
-    const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitive, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied);
+    // FIX: this is returning all forms, even unchanged ones
+    const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied);
     const forms_w_orthoography = accumulateChangedForms(combined_stems_w_suffixes, orthography);
     // 11. Supletivo
     const suplicaciones = getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied);
@@ -2659,8 +3715,8 @@ function _conjugateVerb(conj_and_deriv_rules, mood_tense) {
     if (conj_and_deriv_rules.prefixes) {
         maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_finales_sin_prefijos, rules_applied);
     }
-    // add any prefixes to the stems
-    const prefixed = applyPrefixes(conj_and_deriv_rules, formas_finales_sin_prefijos, rules_applied);
+    // add any remaining prefixes to the stems
+    const prefixed = aplicaPrefijosProductivos(formas_finales_sin_prefijos, prefixes, rules_applied);
     const formas_finales = accumulateChangedForms(formas_finales_sin_prefijos, prefixed);
     // only show the "vos" form if it differs from "tú"
     if (formas_finales?.vos === null) {

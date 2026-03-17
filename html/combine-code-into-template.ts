@@ -18,7 +18,7 @@ const code_files = [
   "tema-futuro.js",
   "tema-presente-yo.js",
   "tema-pretérito.js",
-  "verbos-con-cambios-morfológicas-anotado.js",
+  "verbos-con-cambios-morfológicas.js",
   "alternancia-vocálica.js",
   "resolve-conjugation-class.js",
   "stem-changes.js",
