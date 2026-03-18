@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋˈklwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inclūdĕre.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"incluir","gerundio":"incluyendo","participio":"incluido"},
+  "formas_personales": {
+    "IndPres": {"s1":["incluyo"],"s2":["incluyes"],"vos":["incluís"],"s3":["incluye"],"p1":["incluimos"],"p2":["incluís"],"p3":["incluyen"]},
+    "IndImp": {"s1":["incluía"],"s2":["incluías"],"vos":["incluías"],"s3":["incluía"],"p1":["incluíamos"],"p2":["incluíais"],"p3":["incluían"]},
+    "IndPret": {"s1":["incluí"],"s2":["incluiste"],"vos":["incluiste"],"s3":["incluyó"],"p1":["incluimos"],"p2":["incluisteis"],"p3":["incluyeron"]},
+    "IndFut": {"s1":["incluiré"],"s2":["incluirás"],"vos":["incluirás"],"s3":["incluirá"],"p1":["incluiremos"],"p2":["incluiréis"],"p3":["incluirán"]},
+    "IndCond": {"s1":["incluiría"],"s2":["incluirías"],"vos":["incluirías"],"s3":["incluiría"],"p1":["incluiríamos"],"p2":["incluiríais"],"p3":["incluirían"]},
+    "SubPres": {"s1":["incluya"],"s2":["incluyas"],"vos":["incluyas","incluyás"],"s3":["incluya"],"p1":["incluyamos"],"p2":["incluyáis"],"p3":["incluyan"]},
+    "SubImp": {"s1":["incluyera","incluyese"],"s2":["incluyeras","incluyeses"],"vos":["incluyeras","incluyeses"],"s3":["incluyera","incluyese"],"p1":["incluyéramos","incluyésemos"],"p2":["incluyerais","incluyeseis"],"p3":["incluyeran","incluyesen"]},
+    "SubFut": {"s1":["incluyere"],"s2":["incluyeres"],"vos":["incluyeres"],"s3":["incluyere"],"p1":["incluyéremos"],"p2":["incluyereis"],"p3":["incluyeren"]},
+    "CmdPos": {"s2":["incluye"],"vos":["incluí"],"s3":["incluya"],"p1":["incluyamos"],"p2":["incluid"],"p3":["incluyan"]}
+  }
+}

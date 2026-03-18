@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iβ̞iˈð̞iɾ]",
+    "silabacion": "di-vi-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dividere ('dividir').",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"dividir","gerundio":"dividiendo","participio":"dividido"},
+  "formas_personales": {
+    "IndPres": {"s1":["divido"],"s2":["divides"],"vos":["dividís"],"s3":["divide"],"p1":["dividimos"],"p2":["dividís"],"p3":["dividen"]},
+    "IndImp": {"s1":["dividía"],"s2":["dividías"],"vos":["dividías"],"s3":["dividía"],"p1":["dividíamos"],"p2":["dividíais"],"p3":["dividían"]},
+    "IndPret": {"s1":["dividí"],"s2":["dividiste"],"vos":["dividiste"],"s3":["dividió"],"p1":["dividimos"],"p2":["dividisteis"],"p3":["dividieron"]},
+    "IndFut": {"s1":["dividiré"],"s2":["dividirás"],"vos":["dividirás"],"s3":["dividirá"],"p1":["dividiremos"],"p2":["dividiréis"],"p3":["dividirán"]},
+    "IndCond": {"s1":["dividiría"],"s2":["dividirías"],"vos":["dividirías"],"s3":["dividiría"],"p1":["dividiríamos"],"p2":["dividiríais"],"p3":["dividirían"]},
+    "SubPres": {"s1":["divida"],"s2":["dividas"],"vos":["dividas","dividás"],"s3":["divida"],"p1":["dividamos"],"p2":["dividáis"],"p3":["dividan"]},
+    "SubImp": {"s1":["dividiera","dividiese"],"s2":["dividieras","dividieses"],"vos":["dividieras","dividieses"],"s3":["dividiera","dividiese"],"p1":["dividiéramos","dividiésemos"],"p2":["dividierais","dividieseis"],"p3":["dividieran","dividiesen"]},
+    "SubFut": {"s1":["dividiere"],"s2":["dividieres"],"vos":["dividieres"],"s3":["dividiere"],"p1":["dividiéremos"],"p2":["dividiereis"],"p3":["dividieren"]},
+    "CmdPos": {"s2":["divide"],"vos":["dividí"],"s3":["divida"],"p1":["dividamos"],"p2":["dividid"],"p3":["dividan"]}
+  }
+}

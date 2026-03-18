@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekspoˈneɾ]",
+    "silabacion": "ex-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"exponer","gerundio":"exponiendo","participio":"expuesto"},
+  "formas_personales": {
+    "IndPres": {"s1":["expongo"],"s2":["expones"],"vos":["exponés"],"s3":["expone"],"p1":["exponemos"],"p2":["exponéis"],"p3":["exponen"]},
+    "IndImp": {"s1":["exponía"],"s2":["exponías"],"vos":["exponías"],"s3":["exponía"],"p1":["exponíamos"],"p2":["exponíais"],"p3":["exponían"]},
+    "IndPret": {"s1":["expuse"],"s2":["expusiste"],"vos":["expusiste"],"s3":["expuso"],"p1":["expusimos"],"p2":["expusisteis"],"p3":["expusieron"]},
+    "IndFut": {"s1":["expondré"],"s2":["expondrás"],"vos":["expondrás"],"s3":["expondrá"],"p1":["expondremos"],"p2":["expondréis"],"p3":["expondrán"]},
+    "IndCond": {"s1":["expondría"],"s2":["expondrías"],"vos":["expondrías"],"s3":["expondría"],"p1":["expondríamos"],"p2":["expondríais"],"p3":["expondrían"]},
+    "SubPres": {"s1":["exponga"],"s2":["expongas"],"vos":["expongas","expongás"],"s3":["exponga"],"p1":["expongamos"],"p2":["expongáis"],"p3":["expongan"]},
+    "SubImp": {"s1":["expusiera","expusiese"],"s2":["expusieras","expusieses"],"vos":["expusieras","expusieses"],"s3":["expusiera","expusiese"],"p1":["expusiéramos","expusiésemos"],"p2":["expusierais","expusieseis"],"p3":["expusieran","expusiesen"]},
+    "SubFut": {"s1":["expusiere"],"s2":["expusieres"],"vos":["expusieres"],"s3":["expusiere"],"p1":["expusiéremos"],"p2":["expusiereis"],"p3":["expusieren"]},
+    "CmdPos": {"s2":{"estándar":["expón"],"atípicos":[{"forma":"expone","etiquetas":["no normativo"]}]},"vos":["exponé"],"s3":["exponga"],"p1":["expongamos"],"p2":["exponed"],"p3":["expongan"]}
+  }
+}

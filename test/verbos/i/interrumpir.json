@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪erũmˈpiɾ]",
+    "silabacion": "in-te-rrum-pir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín interrumpĕre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"interrumpir","gerundio":"interrumpiendo","participio":"interrumpido"},
+  "formas_personales": {
+    "IndPres": {"s1":["interrumpo"],"s2":["interrumpes"],"vos":["interrumpís"],"s3":["interrumpe"],"p1":["interrumpimos"],"p2":["interrumpís"],"p3":["interrumpen"]},
+    "IndImp": {"s1":["interrumpía"],"s2":["interrumpías"],"vos":["interrumpías"],"s3":["interrumpía"],"p1":["interrumpíamos"],"p2":["interrumpíais"],"p3":["interrumpían"]},
+    "IndPret": {"s1":["interrumpí"],"s2":["interrumpiste"],"vos":["interrumpiste"],"s3":["interrumpió"],"p1":["interrumpimos"],"p2":["interrumpisteis"],"p3":["interrumpieron"]},
+    "IndFut": {"s1":["interrumpiré"],"s2":["interrumpirás"],"vos":["interrumpirás"],"s3":["interrumpirá"],"p1":["interrumpiremos"],"p2":["interrumpiréis"],"p3":["interrumpirán"]},
+    "IndCond": {"s1":["interrumpiría"],"s2":["interrumpirías"],"vos":["interrumpirías"],"s3":["interrumpiría"],"p1":["interrumpiríamos"],"p2":["interrumpiríais"],"p3":["interrumpirían"]},
+    "SubPres": {"s1":["interrumpa"],"s2":["interrumpas"],"vos":["interrumpas","interrumpás"],"s3":["interrumpa"],"p1":["interrumpamos"],"p2":["interrumpáis"],"p3":["interrumpan"]},
+    "SubImp": {"s1":["interrumpiera","interrumpiese"],"s2":["interrumpieras","interrumpieses"],"vos":["interrumpieras","interrumpieses"],"s3":["interrumpiera","interrumpiese"],"p1":["interrumpiéramos","interrumpiésemos"],"p2":["interrumpierais","interrumpieseis"],"p3":["interrumpieran","interrumpiesen"]},
+    "SubFut": {"s1":["interrumpiere"],"s2":["interrumpieres"],"vos":["interrumpieres"],"s3":["interrumpiere"],"p1":["interrumpiéremos"],"p2":["interrumpiereis"],"p3":["interrumpieren"]},
+    "CmdPos": {"s2":["interrumpe"],"vos":["interrumpí"],"s3":["interrumpa"],"p1":["interrumpamos"],"p2":["interrumpid"],"p3":["interrumpan"]}
+  }
+}

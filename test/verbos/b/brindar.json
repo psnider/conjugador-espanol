@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bɾĩn̪ˈd̪aɾ]",
+    "silabacion": "brin-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De brindis y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"brindar","gerundio":"brindando","participio":"brindado"},
+  "formas_personales": {
+    "IndPres": {"s1":["brindo"],"s2":["brindas"],"vos":["brindás"],"s3":["brinda"],"p1":["brindamos"],"p2":["brindáis"],"p3":["brindan"]},
+    "IndImp": {"s1":["brindaba"],"s2":["brindabas"],"vos":["brindabas"],"s3":["brindaba"],"p1":["brindábamos"],"p2":["brindabais"],"p3":["brindaban"]},
+    "IndPret": {"s1":["brindé"],"s2":["brindaste"],"vos":["brindaste"],"s3":["brindó"],"p1":["brindamos"],"p2":["brindasteis"],"p3":["brindaron"]},
+    "IndFut": {"s1":["brindaré"],"s2":["brindarás"],"vos":["brindarás"],"s3":["brindará"],"p1":["brindaremos"],"p2":["brindaréis"],"p3":["brindarán"]},
+    "IndCond": {"s1":["brindaría"],"s2":["brindarías"],"vos":["brindarías"],"s3":["brindaría"],"p1":["brindaríamos"],"p2":["brindaríais"],"p3":["brindarían"]},
+    "SubPres": {"s1":["brinde"],"s2":["brindes"],"vos":["brindes","brindés"],"s3":["brinde"],"p1":["brindemos"],"p2":["brindéis"],"p3":["brinden"]},
+    "SubImp": {"s1":["brindara","brindase"],"s2":["brindaras","brindases"],"vos":["brindaras","brindases"],"s3":["brindara","brindase"],"p1":["brindáramos","brindásemos"],"p2":["brindarais","brindaseis"],"p3":["brindaran","brindasen"]},
+    "SubFut": {"s1":["brindare"],"s2":["brindares"],"vos":["brindares"],"s3":["brindare"],"p1":["brindáremos"],"p2":["brindareis"],"p3":["brindaren"]},
+    "CmdPos": {"s2":["brinda"],"vos":["brindá"],"s3":["brinde"],"p1":["brindemos"],"p2":["brindad"],"p3":["brinden"]}
+  }
+}

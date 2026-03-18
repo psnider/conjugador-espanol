@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnspeksjoˈnaɾ]",
+    "silabacion": "ins-pec-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inspeccionar","gerundio":"inspeccionando","participio":"inspeccionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["inspecciono"],"s2":["inspeccionas"],"vos":["inspeccionás"],"s3":["inspecciona"],"p1":["inspeccionamos"],"p2":["inspeccionáis"],"p3":["inspeccionan"]},
+    "IndImp": {"s1":["inspeccionaba"],"s2":["inspeccionabas"],"vos":["inspeccionabas"],"s3":["inspeccionaba"],"p1":["inspeccionábamos"],"p2":["inspeccionabais"],"p3":["inspeccionaban"]},
+    "IndPret": {"s1":["inspeccioné"],"s2":["inspeccionaste"],"vos":["inspeccionaste"],"s3":["inspeccionó"],"p1":["inspeccionamos"],"p2":["inspeccionasteis"],"p3":["inspeccionaron"]},
+    "IndFut": {"s1":["inspeccionaré"],"s2":["inspeccionarás"],"vos":["inspeccionarás"],"s3":["inspeccionará"],"p1":["inspeccionaremos"],"p2":["inspeccionaréis"],"p3":["inspeccionarán"]},
+    "IndCond": {"s1":["inspeccionaría"],"s2":["inspeccionarías"],"vos":["inspeccionarías"],"s3":["inspeccionaría"],"p1":["inspeccionaríamos"],"p2":["inspeccionaríais"],"p3":["inspeccionarían"]},
+    "SubPres": {"s1":["inspeccione"],"s2":["inspecciones"],"vos":["inspecciones","inspeccionés"],"s3":["inspeccione"],"p1":["inspeccionemos"],"p2":["inspeccionéis"],"p3":["inspeccionen"]},
+    "SubImp": {"s1":["inspeccionara","inspeccionase"],"s2":["inspeccionaras","inspeccionases"],"vos":["inspeccionaras","inspeccionases"],"s3":["inspeccionara","inspeccionase"],"p1":["inspeccionáramos","inspeccionásemos"],"p2":["inspeccionarais","inspeccionaseis"],"p3":["inspeccionaran","inspeccionasen"]},
+    "SubFut": {"s1":["inspeccionare"],"s2":["inspeccionares"],"vos":["inspeccionares"],"s3":["inspeccionare"],"p1":["inspeccionáremos"],"p2":["inspeccionareis"],"p3":["inspeccionaren"]},
+    "CmdPos": {"s2":["inspecciona"],"vos":["inspeccioná"],"s3":["inspeccione"],"p1":["inspeccionemos"],"p2":["inspeccionad"],"p3":["inspeccionen"]}
+  }
+}

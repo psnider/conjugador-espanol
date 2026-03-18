@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bẽn̪ˈd̪eɾ]",
+    "silabacion": "ven-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vēndō, vēndere",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"vender","gerundio":"vendiendo","participio":"vendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["vendo"],"s2":["vendes"],"vos":["vendés"],"s3":["vende"],"p1":["vendemos"],"p2":["vendéis"],"p3":["venden"]},
+    "IndImp": {"s1":["vendía"],"s2":["vendías"],"vos":["vendías"],"s3":["vendía"],"p1":["vendíamos"],"p2":["vendíais"],"p3":["vendían"]},
+    "IndPret": {"s1":["vendí"],"s2":["vendiste"],"vos":["vendiste"],"s3":["vendió"],"p1":["vendimos"],"p2":["vendisteis"],"p3":["vendieron"]},
+    "IndFut": {"s1":["venderé"],"s2":["venderás"],"vos":["venderás"],"s3":["venderá"],"p1":["venderemos"],"p2":["venderéis"],"p3":["venderán"]},
+    "IndCond": {"s1":["vendería"],"s2":["venderías"],"vos":["venderías"],"s3":["vendería"],"p1":["venderíamos"],"p2":["venderíais"],"p3":["venderían"]},
+    "SubPres": {"s1":["venda"],"s2":["vendas"],"vos":["vendas","vendás"],"s3":["venda"],"p1":["vendamos"],"p2":["vendáis"],"p3":["vendan"]},
+    "SubImp": {"s1":["vendiera","vendiese"],"s2":["vendieras","vendieses"],"vos":["vendieras","vendieses"],"s3":["vendiera","vendiese"],"p1":["vendiéramos","vendiésemos"],"p2":["vendierais","vendieseis"],"p3":["vendieran","vendiesen"]},
+    "SubFut": {"s1":["vendiere"],"s2":["vendieres"],"vos":["vendieres"],"s3":["vendiere"],"p1":["vendiéremos"],"p2":["vendiereis"],"p3":["vendieren"]},
+    "CmdPos": {"s2":["vende"],"vos":["vendé"],"s3":["venda"],"p1":["vendamos"],"p2":["vended"],"p3":["vendan"]}
+  }
+}

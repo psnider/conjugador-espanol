@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koˈβ̞ɾaɾ]",
+    "silabacion": "co-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Acortamiento (aféresis) de recobrar, y este de a su vez del latín recuperare (\"recobrar\", \"recuperar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cobrar","gerundio":"cobrando","participio":"cobrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cobro"],"s2":["cobras"],"vos":["cobrás"],"s3":["cobra"],"p1":["cobramos"],"p2":["cobráis"],"p3":["cobran"]},
+    "IndImp": {"s1":["cobraba"],"s2":["cobrabas"],"vos":["cobrabas"],"s3":["cobraba"],"p1":["cobrábamos"],"p2":["cobrabais"],"p3":["cobraban"]},
+    "IndPret": {"s1":["cobré"],"s2":["cobraste"],"vos":["cobraste"],"s3":["cobró"],"p1":["cobramos"],"p2":["cobrasteis"],"p3":["cobraron"]},
+    "IndFut": {"s1":["cobraré"],"s2":["cobrarás"],"vos":["cobrarás"],"s3":["cobrará"],"p1":["cobraremos"],"p2":["cobraréis"],"p3":["cobrarán"]},
+    "IndCond": {"s1":["cobraría"],"s2":["cobrarías"],"vos":["cobrarías"],"s3":["cobraría"],"p1":["cobraríamos"],"p2":["cobraríais"],"p3":["cobrarían"]},
+    "SubPres": {"s1":["cobre"],"s2":["cobres"],"vos":["cobres","cobrés"],"s3":["cobre"],"p1":["cobremos"],"p2":["cobréis"],"p3":["cobren"]},
+    "SubImp": {"s1":["cobrara","cobrase"],"s2":["cobraras","cobrases"],"vos":["cobraras","cobrases"],"s3":["cobrara","cobrase"],"p1":["cobráramos","cobrásemos"],"p2":["cobrarais","cobraseis"],"p3":["cobraran","cobrasen"]},
+    "SubFut": {"s1":["cobrare"],"s2":["cobrares"],"vos":["cobrares"],"s3":["cobrare"],"p1":["cobráremos"],"p2":["cobrareis"],"p3":["cobraren"]},
+    "CmdPos": {"s2":["cobra"],"vos":["cobrá"],"s3":["cobre"],"p1":["cobremos"],"p2":["cobrad"],"p3":["cobren"]}
+  }
+}

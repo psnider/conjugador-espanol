@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espeˈɾaɾ]",
+    "silabacion": "es-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo esperar ('esperar'), y este del latín spērāre&nbsp;('esperar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"esperar","gerundio":"esperando","participio":"esperado"},
+  "formas_personales": {
+    "IndPres": {"s1":["espero"],"s2":["esperas"],"vos":["esperás"],"s3":["espera"],"p1":["esperamos"],"p2":["esperáis"],"p3":["esperan"]},
+    "IndImp": {"s1":["esperaba"],"s2":["esperabas"],"vos":["esperabas"],"s3":["esperaba"],"p1":["esperábamos"],"p2":["esperabais"],"p3":["esperaban"]},
+    "IndPret": {"s1":["esperé"],"s2":["esperaste"],"vos":["esperaste"],"s3":["esperó"],"p1":["esperamos"],"p2":["esperasteis"],"p3":["esperaron"]},
+    "IndFut": {"s1":["esperaré"],"s2":["esperarás"],"vos":["esperarás"],"s3":["esperará"],"p1":["esperaremos"],"p2":["esperaréis"],"p3":["esperarán"]},
+    "IndCond": {"s1":["esperaría"],"s2":["esperarías"],"vos":["esperarías"],"s3":["esperaría"],"p1":["esperaríamos"],"p2":["esperaríais"],"p3":["esperarían"]},
+    "SubPres": {"s1":["espere"],"s2":["esperes"],"vos":["esperes","esperés"],"s3":["espere"],"p1":["esperemos"],"p2":["esperéis"],"p3":["esperen"]},
+    "SubImp": {"s1":["esperara","esperase"],"s2":["esperaras","esperases"],"vos":["esperaras","esperases"],"s3":["esperara","esperase"],"p1":["esperáramos","esperásemos"],"p2":["esperarais","esperaseis"],"p3":["esperaran","esperasen"]},
+    "SubFut": {"s1":["esperare"],"s2":["esperares"],"vos":["esperares"],"s3":["esperare"],"p1":["esperáremos"],"p2":["esperareis"],"p3":["esperaren"]},
+    "CmdPos": {"s2":["espera"],"vos":["esperá"],"s3":["espere"],"p1":["esperemos"],"p2":["esperad"],"p3":["esperen"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eβ̞aˈlwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés évaluer, del francés antiguo value (\"valor\"), proveniente del latín valeō, valēre (\"ser fuerte, tener valor\"), y este de la raíz indoeuropea *wal (\"ser fuerte\").",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"evaluar","gerundio":"evaluando","participio":"evaluado"},
+  "formas_personales": {
+    "IndPres": {"s1":["evalúo"],"s2":["evalúas"],"vos":["evaluás"],"s3":["evalúa"],"p1":["evaluamos"],"p2":["evaluáis"],"p3":["evalúan"]},
+    "IndImp": {"s1":["evaluaba"],"s2":["evaluabas"],"vos":["evaluabas"],"s3":["evaluaba"],"p1":["evaluábamos"],"p2":["evaluabais"],"p3":["evaluaban"]},
+    "IndPret": {"s1":["evalué"],"s2":["evaluaste"],"vos":["evaluaste"],"s3":["evaluó"],"p1":["evaluamos"],"p2":["evaluasteis"],"p3":["evaluaron"]},
+    "IndFut": {"s1":["evaluaré"],"s2":["evaluarás"],"vos":["evaluarás"],"s3":["evaluará"],"p1":["evaluaremos"],"p2":["evaluaréis"],"p3":["evaluarán"]},
+    "IndCond": {"s1":["evaluaría"],"s2":["evaluarías"],"vos":["evaluarías"],"s3":["evaluaría"],"p1":["evaluaríamos"],"p2":["evaluaríais"],"p3":["evaluarían"]},
+    "SubPres": {"s1":["evalúe"],"s2":["evalúes"],"vos":["evalúes","evalués"],"s3":["evalúe"],"p1":["evaluemos"],"p2":["evaluéis"],"p3":["evalúen"]},
+    "SubImp": {"s1":["evaluara","evaluase"],"s2":["evaluaras","evaluases"],"vos":["evaluaras","evaluases"],"s3":["evaluara","evaluase"],"p1":["evaluáramos","evaluásemos"],"p2":["evaluarais","evaluaseis"],"p3":["evaluaran","evaluasen"]},
+    "SubFut": {"s1":["evaluare"],"s2":["evaluares"],"vos":["evaluares"],"s3":["evaluare"],"p1":["evaluáremos"],"p2":["evaluareis"],"p3":["evaluaren"]},
+    "CmdPos": {"s2":["evalúa"],"vos":["evaluá"],"s3":["evalúe"],"p1":["evaluemos"],"p2":["evaluad"],"p3":["evalúen"]}
+  }
+}

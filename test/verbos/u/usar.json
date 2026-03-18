@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[uˈsaɾ]",
+    "silabacion": "u-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De uso.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"usar","gerundio":"usando","participio":"usado"},
+  "formas_personales": {
+    "IndPres": {"s1":["uso"],"s2":["usas"],"vos":["usás"],"s3":["usa"],"p1":["usamos"],"p2":["usáis"],"p3":["usan"]},
+    "IndImp": {"s1":["usaba"],"s2":["usabas"],"vos":["usabas"],"s3":["usaba"],"p1":["usábamos"],"p2":["usabais"],"p3":["usaban"]},
+    "IndPret": {"s1":["usé"],"s2":["usaste"],"vos":["usaste"],"s3":["usó"],"p1":["usamos"],"p2":["usasteis"],"p3":["usaron"]},
+    "IndFut": {"s1":["usaré"],"s2":["usarás"],"vos":["usarás"],"s3":["usará"],"p1":["usaremos"],"p2":["usaréis"],"p3":["usarán"]},
+    "IndCond": {"s1":["usaría"],"s2":["usarías"],"vos":["usarías"],"s3":["usaría"],"p1":["usaríamos"],"p2":["usaríais"],"p3":["usarían"]},
+    "SubPres": {"s1":["use"],"s2":["uses"],"vos":["uses","usés"],"s3":["use"],"p1":["usemos"],"p2":["uséis"],"p3":["usen"]},
+    "SubImp": {"s1":["usara","usase"],"s2":["usaras","usases"],"vos":["usaras","usases"],"s3":["usara","usase"],"p1":["usáramos","usásemos"],"p2":["usarais","usaseis"],"p3":["usaran","usasen"]},
+    "SubFut": {"s1":["usare"],"s2":["usares"],"vos":["usares"],"s3":["usare"],"p1":["usáremos"],"p2":["usareis"],"p3":["usaren"]},
+    "CmdPos": {"s2":["usa"],"vos":["usá"],"s3":["use"],"p1":["usemos"],"p2":["usad"],"p3":["usen"]}
+  }
+}

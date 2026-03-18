@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾekoˈxeɾ]",
+    "silabacion": "so-bre-co-ger",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo sobre- y coger.",
+    "modelos": ["proteger"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrecoger","gerundio":"sobrecogiendo","participio":"sobrecogido"},
+  "formas_personales": {
+    "IndPres": {"s1":["sobrecojo"],"s2":["sobrecoges"],"vos":["sobrecogés"],"s3":["sobrecoge"],"p1":["sobrecogemos"],"p2":["sobrecogéis"],"p3":["sobrecogen"]},
+    "IndImp": {"s1":["sobrecogía"],"s2":["sobrecogías"],"vos":["sobrecogías"],"s3":["sobrecogía"],"p1":["sobrecogíamos"],"p2":["sobrecogíais"],"p3":["sobrecogían"]},
+    "IndPret": {"s1":["sobrecogí"],"s2":["sobrecogiste"],"vos":["sobrecogiste"],"s3":["sobrecogió"],"p1":["sobrecogimos"],"p2":["sobrecogisteis"],"p3":["sobrecogieron"]},
+    "IndFut": {"s1":["sobrecogeré"],"s2":["sobrecogerás"],"vos":["sobrecogerás"],"s3":["sobrecogerá"],"p1":["sobrecogeremos"],"p2":["sobrecogeréis"],"p3":["sobrecogerán"]},
+    "IndCond": {"s1":["sobrecogería"],"s2":["sobrecogerías"],"vos":["sobrecogerías"],"s3":["sobrecogería"],"p1":["sobrecogeríamos"],"p2":["sobrecogeríais"],"p3":["sobrecogerían"]},
+    "SubPres": {"s1":["sobrecoja"],"s2":["sobrecojas"],"vos":["sobrecojas","sobrecojás"],"s3":["sobrecoja"],"p1":["sobrecojamos"],"p2":["sobrecojáis"],"p3":["sobrecojan"]},
+    "SubImp": {"s1":["sobrecogiera","sobrecogiese"],"s2":["sobrecogieras","sobrecogieses"],"vos":["sobrecogieras","sobrecogieses"],"s3":["sobrecogiera","sobrecogiese"],"p1":["sobrecogiéramos","sobrecogiésemos"],"p2":["sobrecogierais","sobrecogieseis"],"p3":["sobrecogieran","sobrecogiesen"]},
+    "SubFut": {"s1":["sobrecogiere"],"s2":["sobrecogieres"],"vos":["sobrecogieres"],"s3":["sobrecogiere"],"p1":["sobrecogiéremos"],"p2":["sobrecogiereis"],"p3":["sobrecogieren"]},
+    "CmdPos": {"s2":["sobrecoge"],"vos":["sobrecogé"],"s3":["sobrecoja"],"p1":["sobrecojamos"],"p2":["sobrecoged"],"p3":["sobrecojan"]}
+  }
+}

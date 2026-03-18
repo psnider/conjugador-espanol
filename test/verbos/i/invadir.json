@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmbaˈð̞iɾ]",
+    "silabacion": "in-va-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín invadere.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"invadir","gerundio":"invadiendo","participio":"invadido"},
+  "formas_personales": {
+    "IndPres": {"s1":["invado"],"s2":["invades"],"vos":["invadís"],"s3":["invade"],"p1":["invadimos"],"p2":["invadís"],"p3":["invaden"]},
+    "IndImp": {"s1":["invadía"],"s2":["invadías"],"vos":["invadías"],"s3":["invadía"],"p1":["invadíamos"],"p2":["invadíais"],"p3":["invadían"]},
+    "IndPret": {"s1":["invadí"],"s2":["invadiste"],"vos":["invadiste"],"s3":["invadió"],"p1":["invadimos"],"p2":["invadisteis"],"p3":["invadieron"]},
+    "IndFut": {"s1":["invadiré"],"s2":["invadirás"],"vos":["invadirás"],"s3":["invadirá"],"p1":["invadiremos"],"p2":["invadiréis"],"p3":["invadirán"]},
+    "IndCond": {"s1":["invadiría"],"s2":["invadirías"],"vos":["invadirías"],"s3":["invadiría"],"p1":["invadiríamos"],"p2":["invadiríais"],"p3":["invadirían"]},
+    "SubPres": {"s1":["invada"],"s2":["invadas"],"vos":["invadas","invadás"],"s3":["invada"],"p1":["invadamos"],"p2":["invadáis"],"p3":["invadan"]},
+    "SubImp": {"s1":["invadiera","invadiese"],"s2":["invadieras","invadieses"],"vos":["invadieras","invadieses"],"s3":["invadiera","invadiese"],"p1":["invadiéramos","invadiésemos"],"p2":["invadierais","invadieseis"],"p3":["invadieran","invadiesen"]},
+    "SubFut": {"s1":["invadiere"],"s2":["invadieres"],"vos":["invadieres"],"s3":["invadiere"],"p1":["invadiéremos"],"p2":["invadiereis"],"p3":["invadieren"]},
+    "CmdPos": {"s2":["invade"],"vos":["invadí"],"s3":["invada"],"p1":["invadamos"],"p2":["invadid"],"p3":["invadan"]}
+  }
+}

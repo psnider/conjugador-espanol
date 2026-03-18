@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnseɾˈβ̞aɾ]",
+    "silabacion": "con-ser-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín conservāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conservar","gerundio":"conservando","participio":"conservado"},
+  "formas_personales": {
+    "IndPres": {"s1":["conservo"],"s2":["conservas"],"vos":["conservás"],"s3":["conserva"],"p1":["conservamos"],"p2":["conserváis"],"p3":["conservan"]},
+    "IndImp": {"s1":["conservaba"],"s2":["conservabas"],"vos":["conservabas"],"s3":["conservaba"],"p1":["conservábamos"],"p2":["conservabais"],"p3":["conservaban"]},
+    "IndPret": {"s1":["conservé"],"s2":["conservaste"],"vos":["conservaste"],"s3":["conservó"],"p1":["conservamos"],"p2":["conservasteis"],"p3":["conservaron"]},
+    "IndFut": {"s1":["conservaré"],"s2":["conservarás"],"vos":["conservarás"],"s3":["conservará"],"p1":["conservaremos"],"p2":["conservaréis"],"p3":["conservarán"]},
+    "IndCond": {"s1":["conservaría"],"s2":["conservarías"],"vos":["conservarías"],"s3":["conservaría"],"p1":["conservaríamos"],"p2":["conservaríais"],"p3":["conservarían"]},
+    "SubPres": {"s1":["conserve"],"s2":["conserves"],"vos":["conserves","conservés"],"s3":["conserve"],"p1":["conservemos"],"p2":["conservéis"],"p3":["conserven"]},
+    "SubImp": {"s1":["conservara","conservase"],"s2":["conservaras","conservases"],"vos":["conservaras","conservases"],"s3":["conservara","conservase"],"p1":["conserváramos","conservásemos"],"p2":["conservarais","conservaseis"],"p3":["conservaran","conservasen"]},
+    "SubFut": {"s1":["conservare"],"s2":["conservares"],"vos":["conservares"],"s3":["conservare"],"p1":["conserváremos"],"p2":["conservareis"],"p3":["conservaren"]},
+    "CmdPos": {"s2":["conserva"],"vos":["conservá"],"s3":["conserve"],"p1":["conservemos"],"p2":["conservad"],"p3":["conserven"]}
+  }
+}

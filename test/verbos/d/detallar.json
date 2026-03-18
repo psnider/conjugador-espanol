@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪et̪aˈʝaɾ]",
+    "silabacion": "de-ta-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"detallar","gerundio":"detallando","participio":"detallado"},
+  "formas_personales": {
+    "IndPres": {"s1":["detallo"],"s2":["detallas"],"vos":["detallás"],"s3":["detalla"],"p1":["detallamos"],"p2":["detalláis"],"p3":["detallan"]},
+    "IndImp": {"s1":["detallaba"],"s2":["detallabas"],"vos":["detallabas"],"s3":["detallaba"],"p1":["detallábamos"],"p2":["detallabais"],"p3":["detallaban"]},
+    "IndPret": {"s1":["detallé"],"s2":["detallaste"],"vos":["detallaste"],"s3":["detalló"],"p1":["detallamos"],"p2":["detallasteis"],"p3":["detallaron"]},
+    "IndFut": {"s1":["detallaré"],"s2":["detallarás"],"vos":["detallarás"],"s3":["detallará"],"p1":["detallaremos"],"p2":["detallaréis"],"p3":["detallarán"]},
+    "IndCond": {"s1":["detallaría"],"s2":["detallarías"],"vos":["detallarías"],"s3":["detallaría"],"p1":["detallaríamos"],"p2":["detallaríais"],"p3":["detallarían"]},
+    "SubPres": {"s1":["detalle"],"s2":["detalles"],"vos":["detalles","detallés"],"s3":["detalle"],"p1":["detallemos"],"p2":["detalléis"],"p3":["detallen"]},
+    "SubImp": {"s1":["detallara","detallase"],"s2":["detallaras","detallases"],"vos":["detallaras","detallases"],"s3":["detallara","detallase"],"p1":["detalláramos","detallásemos"],"p2":["detallarais","detallaseis"],"p3":["detallaran","detallasen"]},
+    "SubFut": {"s1":["detallare"],"s2":["detallares"],"vos":["detallares"],"s3":["detallare"],"p1":["detalláremos"],"p2":["detallareis"],"p3":["detallaren"]},
+    "CmdPos": {"s2":["detalla"],"vos":["detallá"],"s3":["detalle"],"p1":["detallemos"],"p2":["detallad"],"p3":["detallen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[faβ̞ɾiˈkaɾ]",
+    "silabacion": "fa-bri-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fabricāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"fabricar","gerundio":"fabricando","participio":"fabricado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fabrico"],"s2":["fabricas"],"vos":["fabricás"],"s3":["fabrica"],"p1":["fabricamos"],"p2":["fabricáis"],"p3":["fabrican"]},
+    "IndImp": {"s1":["fabricaba"],"s2":["fabricabas"],"vos":["fabricabas"],"s3":["fabricaba"],"p1":["fabricábamos"],"p2":["fabricabais"],"p3":["fabricaban"]},
+    "IndPret": {"s1":["fabriqué"],"s2":["fabricaste"],"vos":["fabricaste"],"s3":["fabricó"],"p1":["fabricamos"],"p2":["fabricasteis"],"p3":["fabricaron"]},
+    "IndFut": {"s1":["fabricaré"],"s2":["fabricarás"],"vos":["fabricarás"],"s3":["fabricará"],"p1":["fabricaremos"],"p2":["fabricaréis"],"p3":["fabricarán"]},
+    "IndCond": {"s1":["fabricaría"],"s2":["fabricarías"],"vos":["fabricarías"],"s3":["fabricaría"],"p1":["fabricaríamos"],"p2":["fabricaríais"],"p3":["fabricarían"]},
+    "SubPres": {"s1":["fabrique"],"s2":["fabriques"],"vos":["fabriques","fabriqués"],"s3":["fabrique"],"p1":["fabriquemos"],"p2":["fabriquéis"],"p3":["fabriquen"]},
+    "SubImp": {"s1":["fabricara","fabricase"],"s2":["fabricaras","fabricases"],"vos":["fabricaras","fabricases"],"s3":["fabricara","fabricase"],"p1":["fabricáramos","fabricásemos"],"p2":["fabricarais","fabricaseis"],"p3":["fabricaran","fabricasen"]},
+    "SubFut": {"s1":["fabricare"],"s2":["fabricares"],"vos":["fabricares"],"s3":["fabricare"],"p1":["fabricáremos"],"p2":["fabricareis"],"p3":["fabricaren"]},
+    "CmdPos": {"s2":["fabrica"],"vos":["fabricá"],"s3":["fabrique"],"p1":["fabriquemos"],"p2":["fabricad"],"p3":["fabriquen"]}
+  }
+}

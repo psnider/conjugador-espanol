@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksiˈxiɾ]",
+    "silabacion": "e-xi-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1391.[1] Del latín exigere.",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"exigir","gerundio":"exigiendo","participio":"exigido"},
+  "formas_personales": {
+    "IndPres": {"s1":["exijo"],"s2":["exiges"],"vos":["exigís"],"s3":["exige"],"p1":["exigimos"],"p2":["exigís"],"p3":["exigen"]},
+    "IndImp": {"s1":["exigía"],"s2":["exigías"],"vos":["exigías"],"s3":["exigía"],"p1":["exigíamos"],"p2":["exigíais"],"p3":["exigían"]},
+    "IndPret": {"s1":["exigí"],"s2":["exigiste"],"vos":["exigiste"],"s3":["exigió"],"p1":["exigimos"],"p2":["exigisteis"],"p3":["exigieron"]},
+    "IndFut": {"s1":["exigiré"],"s2":["exigirás"],"vos":["exigirás"],"s3":["exigirá"],"p1":["exigiremos"],"p2":["exigiréis"],"p3":["exigirán"]},
+    "IndCond": {"s1":["exigiría"],"s2":["exigirías"],"vos":["exigirías"],"s3":["exigiría"],"p1":["exigiríamos"],"p2":["exigiríais"],"p3":["exigirían"]},
+    "SubPres": {"s1":["exija"],"s2":["exijas"],"vos":["exijas","exijás"],"s3":["exija"],"p1":["exijamos"],"p2":["exijáis"],"p3":["exijan"]},
+    "SubImp": {"s1":["exigiera","exigiese"],"s2":["exigieras","exigieses"],"vos":["exigieras","exigieses"],"s3":["exigiera","exigiese"],"p1":["exigiéramos","exigiésemos"],"p2":["exigierais","exigieseis"],"p3":["exigieran","exigiesen"]},
+    "SubFut": {"s1":["exigiere"],"s2":["exigieres"],"vos":["exigieres"],"s3":["exigiere"],"p1":["exigiéremos"],"p2":["exigiereis"],"p3":["exigieren"]},
+    "CmdPos": {"s2":["exige"],"vos":["exigí"],"s3":["exija"],"p1":["exijamos"],"p2":["exigid"],"p3":["exijan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arjesˈɣ̞aɾ]",
+    "silabacion": "a-rries-gar",
+    "acentuacion": "aguda",
+    "etimologia": "De riesgo y su vez del latín resecum.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"arriesgar","gerundio":"arriesgando","participio":"arriesgado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arriesgo"],"s2":["arriesgas"],"vos":["arriesgás"],"s3":["arriesga"],"p1":["arriesgamos"],"p2":["arriesgáis"],"p3":["arriesgan"]},
+    "IndImp": {"s1":["arriesgaba"],"s2":["arriesgabas"],"vos":["arriesgabas"],"s3":["arriesgaba"],"p1":["arriesgábamos"],"p2":["arriesgabais"],"p3":["arriesgaban"]},
+    "IndPret": {"s1":["arriesgué"],"s2":["arriesgaste"],"vos":["arriesgaste"],"s3":["arriesgó"],"p1":["arriesgamos"],"p2":["arriesgasteis"],"p3":["arriesgaron"]},
+    "IndFut": {"s1":["arriesgaré"],"s2":["arriesgarás"],"vos":["arriesgarás"],"s3":["arriesgará"],"p1":["arriesgaremos"],"p2":["arriesgaréis"],"p3":["arriesgarán"]},
+    "IndCond": {"s1":["arriesgaría"],"s2":["arriesgarías"],"vos":["arriesgarías"],"s3":["arriesgaría"],"p1":["arriesgaríamos"],"p2":["arriesgaríais"],"p3":["arriesgarían"]},
+    "SubPres": {"s1":["arriesgue"],"s2":["arriesgues"],"vos":["arriesgues","arriesgués"],"s3":["arriesgue"],"p1":["arriesguemos"],"p2":["arriesguéis"],"p3":["arriesguen"]},
+    "SubImp": {"s1":["arriesgara","arriesgase"],"s2":["arriesgaras","arriesgases"],"vos":["arriesgaras","arriesgases"],"s3":["arriesgara","arriesgase"],"p1":["arriesgáramos","arriesgásemos"],"p2":["arriesgarais","arriesgaseis"],"p3":["arriesgaran","arriesgasen"]},
+    "SubFut": {"s1":["arriesgare"],"s2":["arriesgares"],"vos":["arriesgares"],"s3":["arriesgare"],"p1":["arriesgáremos"],"p2":["arriesgareis"],"p3":["arriesgaren"]},
+    "CmdPos": {"s2":["arriesga"],"vos":["arriesgá"],"s3":["arriesgue"],"p1":["arriesguemos"],"p2":["arriesgad"],"p3":["arriesguen"]}
+  }
+}

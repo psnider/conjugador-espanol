@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resˈfɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y esfriar.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"resfriar","gerundio":"resfriando","participio":"resfriado"},
+  "formas_personales": {
+    "IndPres": {"s1":["resfrío"],"s2":["resfrías"],"vos":["resfriás"],"s3":["resfría"],"p1":["resfriamos"],"p2":["resfriáis"],"p3":["resfrían"]},
+    "IndImp": {"s1":["resfriaba"],"s2":["resfriabas"],"vos":["resfriabas"],"s3":["resfriaba"],"p1":["resfriábamos"],"p2":["resfriabais"],"p3":["resfriaban"]},
+    "IndPret": {"s1":["resfrié"],"s2":["resfriaste"],"vos":["resfriaste"],"s3":["resfrió"],"p1":["resfriamos"],"p2":["resfriasteis"],"p3":["resfriaron"]},
+    "IndFut": {"s1":["resfriaré"],"s2":["resfriarás"],"vos":["resfriarás"],"s3":["resfriará"],"p1":["resfriaremos"],"p2":["resfriaréis"],"p3":["resfriarán"]},
+    "IndCond": {"s1":["resfriaría"],"s2":["resfriarías"],"vos":["resfriarías"],"s3":["resfriaría"],"p1":["resfriaríamos"],"p2":["resfriaríais"],"p3":["resfriarían"]},
+    "SubPres": {"s1":["resfríe"],"s2":["resfríes"],"vos":["resfríes","resfriés"],"s3":["resfríe"],"p1":["resfriemos"],"p2":["resfriéis"],"p3":["resfríen"]},
+    "SubImp": {"s1":["resfriara","resfriase"],"s2":["resfriaras","resfriases"],"vos":["resfriaras","resfriases"],"s3":["resfriara","resfriase"],"p1":["resfriáramos","resfriásemos"],"p2":["resfriarais","resfriaseis"],"p3":["resfriaran","resfriasen"]},
+    "SubFut": {"s1":["resfriare"],"s2":["resfriares"],"vos":["resfriares"],"s3":["resfriare"],"p1":["resfriáremos"],"p2":["resfriareis"],"p3":["resfriaren"]},
+    "CmdPos": {"s2":["resfría"],"vos":["resfriá"],"s3":["resfríe"],"p1":["resfriemos"],"p2":["resfriad"],"p3":["resfríen"]}
+  }
+}

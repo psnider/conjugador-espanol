@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[korespõn̪ˈd̪eɾ]",
+    "silabacion": "co-rres-pon-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo co- y responder",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"corresponder","gerundio":"correspondiendo","participio":"correspondido"},
+  "formas_personales": {
+    "IndPres": {"s1":["correspondo"],"s2":["correspondes"],"vos":["correspondés"],"s3":["corresponde"],"p1":["correspondemos"],"p2":["correspondéis"],"p3":["corresponden"]},
+    "IndImp": {"s1":["correspondía"],"s2":["correspondías"],"vos":["correspondías"],"s3":["correspondía"],"p1":["correspondíamos"],"p2":["correspondíais"],"p3":["correspondían"]},
+    "IndPret": {"s1":["correspondí"],"s2":["correspondiste"],"vos":["correspondiste"],"s3":["correspondió"],"p1":["correspondimos"],"p2":["correspondisteis"],"p3":["correspondieron"]},
+    "IndFut": {"s1":["corresponderé"],"s2":["corresponderás"],"vos":["corresponderás"],"s3":["corresponderá"],"p1":["corresponderemos"],"p2":["corresponderéis"],"p3":["corresponderán"]},
+    "IndCond": {"s1":["correspondería"],"s2":["corresponderías"],"vos":["corresponderías"],"s3":["correspondería"],"p1":["corresponderíamos"],"p2":["corresponderíais"],"p3":["corresponderían"]},
+    "SubPres": {"s1":["corresponda"],"s2":["correspondas"],"vos":["correspondas","correspondás"],"s3":["corresponda"],"p1":["correspondamos"],"p2":["correspondáis"],"p3":["correspondan"]},
+    "SubImp": {"s1":["correspondiera","correspondiese"],"s2":["correspondieras","correspondieses"],"vos":["correspondieras","correspondieses"],"s3":["correspondiera","correspondiese"],"p1":["correspondiéramos","correspondiésemos"],"p2":["correspondierais","correspondieseis"],"p3":["correspondieran","correspondiesen"]},
+    "SubFut": {"s1":["correspondiere"],"s2":["correspondieres"],"vos":["correspondieres"],"s3":["correspondiere"],"p1":["correspondiéremos"],"p2":["correspondiereis"],"p3":["correspondieren"]},
+    "CmdPos": {"s2":["corresponde"],"vos":["correspondé"],"s3":["corresponda"],"p1":["correspondamos"],"p2":["corresponded"],"p3":["correspondan"]}
+  }
+}

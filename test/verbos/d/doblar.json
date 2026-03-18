@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪oˈβ̞laɾ]",
+    "silabacion": "do-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín duplāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"doblar","gerundio":"doblando","participio":"doblado"},
+  "formas_personales": {
+    "IndPres": {"s1":["doblo"],"s2":["doblas"],"vos":["doblás"],"s3":["dobla"],"p1":["doblamos"],"p2":["dobláis"],"p3":["doblan"]},
+    "IndImp": {"s1":["doblaba"],"s2":["doblabas"],"vos":["doblabas"],"s3":["doblaba"],"p1":["doblábamos"],"p2":["doblabais"],"p3":["doblaban"]},
+    "IndPret": {"s1":["doblé"],"s2":["doblaste"],"vos":["doblaste"],"s3":["dobló"],"p1":["doblamos"],"p2":["doblasteis"],"p3":["doblaron"]},
+    "IndFut": {"s1":["doblaré"],"s2":["doblarás"],"vos":["doblarás"],"s3":["doblará"],"p1":["doblaremos"],"p2":["doblaréis"],"p3":["doblarán"]},
+    "IndCond": {"s1":["doblaría"],"s2":["doblarías"],"vos":["doblarías"],"s3":["doblaría"],"p1":["doblaríamos"],"p2":["doblaríais"],"p3":["doblarían"]},
+    "SubPres": {"s1":["doble"],"s2":["dobles"],"vos":["dobles","doblés"],"s3":["doble"],"p1":["doblemos"],"p2":["dobléis"],"p3":["doblen"]},
+    "SubImp": {"s1":["doblara","doblase"],"s2":["doblaras","doblases"],"vos":["doblaras","doblases"],"s3":["doblara","doblase"],"p1":["dobláramos","doblásemos"],"p2":["doblarais","doblaseis"],"p3":["doblaran","doblasen"]},
+    "SubFut": {"s1":["doblare"],"s2":["doblares"],"vos":["doblares"],"s3":["doblare"],"p1":["dobláremos"],"p2":["doblareis"],"p3":["doblaren"]},
+    "CmdPos": {"s2":["dobla"],"vos":["doblá"],"s3":["doble"],"p1":["doblemos"],"p2":["doblad"],"p3":["doblen"]}
+  }
+}

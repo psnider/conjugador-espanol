@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾesˈt̪aɾ]",
+    "silabacion": "pres-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín praestāre ('garantizar', 'responsabilizarse').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"prestar","gerundio":"prestando","participio":"prestado"},
+  "formas_personales": {
+    "IndPres": {"s1":["presto"],"s2":["prestas"],"vos":["prestás"],"s3":["presta"],"p1":["prestamos"],"p2":["prestáis"],"p3":["prestan"]},
+    "IndImp": {"s1":["prestaba"],"s2":["prestabas"],"vos":["prestabas"],"s3":["prestaba"],"p1":["prestábamos"],"p2":["prestabais"],"p3":["prestaban"]},
+    "IndPret": {"s1":["presté"],"s2":["prestaste"],"vos":["prestaste"],"s3":["prestó"],"p1":["prestamos"],"p2":["prestasteis"],"p3":["prestaron"]},
+    "IndFut": {"s1":["prestaré"],"s2":["prestarás"],"vos":["prestarás"],"s3":["prestará"],"p1":["prestaremos"],"p2":["prestaréis"],"p3":["prestarán"]},
+    "IndCond": {"s1":["prestaría"],"s2":["prestarías"],"vos":["prestarías"],"s3":["prestaría"],"p1":["prestaríamos"],"p2":["prestaríais"],"p3":["prestarían"]},
+    "SubPres": {"s1":["preste"],"s2":["prestes"],"vos":["prestes","prestés"],"s3":["preste"],"p1":["prestemos"],"p2":["prestéis"],"p3":["presten"]},
+    "SubImp": {"s1":["prestara","prestase"],"s2":["prestaras","prestases"],"vos":["prestaras","prestases"],"s3":["prestara","prestase"],"p1":["prestáramos","prestásemos"],"p2":["prestarais","prestaseis"],"p3":["prestaran","prestasen"]},
+    "SubFut": {"s1":["prestare"],"s2":["prestares"],"vos":["prestares"],"s3":["prestare"],"p1":["prestáremos"],"p2":["prestareis"],"p3":["prestaren"]},
+    "CmdPos": {"s2":["presta"],"vos":["prestá"],"s3":["preste"],"p1":["prestemos"],"p2":["prestad"],"p3":["presten"]}
+  }
+}

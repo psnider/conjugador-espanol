@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈʝaɾ]",
+    "silabacion": "se-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sellar","gerundio":"sellando","participio":"sellado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sello"],"s2":["sellas"],"vos":["sellás"],"s3":["sella"],"p1":["sellamos"],"p2":["selláis"],"p3":["sellan"]},
+    "IndImp": {"s1":["sellaba"],"s2":["sellabas"],"vos":["sellabas"],"s3":["sellaba"],"p1":["sellábamos"],"p2":["sellabais"],"p3":["sellaban"]},
+    "IndPret": {"s1":["sellé"],"s2":["sellaste"],"vos":["sellaste"],"s3":["selló"],"p1":["sellamos"],"p2":["sellasteis"],"p3":["sellaron"]},
+    "IndFut": {"s1":["sellaré"],"s2":["sellarás"],"vos":["sellarás"],"s3":["sellará"],"p1":["sellaremos"],"p2":["sellaréis"],"p3":["sellarán"]},
+    "IndCond": {"s1":["sellaría"],"s2":["sellarías"],"vos":["sellarías"],"s3":["sellaría"],"p1":["sellaríamos"],"p2":["sellaríais"],"p3":["sellarían"]},
+    "SubPres": {"s1":["selle"],"s2":["selles"],"vos":["selles","sellés"],"s3":["selle"],"p1":["sellemos"],"p2":["selléis"],"p3":["sellen"]},
+    "SubImp": {"s1":["sellara","sellase"],"s2":["sellaras","sellases"],"vos":["sellaras","sellases"],"s3":["sellara","sellase"],"p1":["selláramos","sellásemos"],"p2":["sellarais","sellaseis"],"p3":["sellaran","sellasen"]},
+    "SubFut": {"s1":["sellare"],"s2":["sellares"],"vos":["sellares"],"s3":["sellare"],"p1":["selláremos"],"p2":["sellareis"],"p3":["sellaren"]},
+    "CmdPos": {"s2":["sella"],"vos":["sellá"],"s3":["selle"],"p1":["sellemos"],"p2":["sellad"],"p3":["sellen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fiˈxaɾ]",
+    "silabacion": "fi-jar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fijar","gerundio":"fijando","participio":"fijado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fijo"],"s2":["fijas"],"vos":["fijás"],"s3":["fija"],"p1":["fijamos"],"p2":["fijáis"],"p3":["fijan"]},
+    "IndImp": {"s1":["fijaba"],"s2":["fijabas"],"vos":["fijabas"],"s3":["fijaba"],"p1":["fijábamos"],"p2":["fijabais"],"p3":["fijaban"]},
+    "IndPret": {"s1":["fijé"],"s2":["fijaste"],"vos":["fijaste"],"s3":["fijó"],"p1":["fijamos"],"p2":["fijasteis"],"p3":["fijaron"]},
+    "IndFut": {"s1":["fijaré"],"s2":["fijarás"],"vos":["fijarás"],"s3":["fijará"],"p1":["fijaremos"],"p2":["fijaréis"],"p3":["fijarán"]},
+    "IndCond": {"s1":["fijaría"],"s2":["fijarías"],"vos":["fijarías"],"s3":["fijaría"],"p1":["fijaríamos"],"p2":["fijaríais"],"p3":["fijarían"]},
+    "SubPres": {"s1":["fije"],"s2":["fijes"],"vos":["fijes","fijés"],"s3":["fije"],"p1":["fijemos"],"p2":["fijéis"],"p3":["fijen"]},
+    "SubImp": {"s1":["fijara","fijase"],"s2":["fijaras","fijases"],"vos":["fijaras","fijases"],"s3":["fijara","fijase"],"p1":["fijáramos","fijásemos"],"p2":["fijarais","fijaseis"],"p3":["fijaran","fijasen"]},
+    "SubFut": {"s1":["fijare"],"s2":["fijares"],"vos":["fijares"],"s3":["fijare"],"p1":["fijáremos"],"p2":["fijareis"],"p3":["fijaren"]},
+    "CmdPos": {"s2":["fija"],"vos":["fijá"],"s3":["fije"],"p1":["fijemos"],"p2":["fijad"],"p3":["fijen"]}
+  }
+}

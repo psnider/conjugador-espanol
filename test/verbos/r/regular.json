@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reɣ̞uˈlaɾ]",
+    "silabacion": "re-gu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín regulāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"regular","gerundio":"regulando","participio":"regulado"},
+  "formas_personales": {
+    "IndPres": {"s1":["regulo"],"s2":["regulas"],"vos":["regulás"],"s3":["regula"],"p1":["regulamos"],"p2":["reguláis"],"p3":["regulan"]},
+    "IndImp": {"s1":["regulaba"],"s2":["regulabas"],"vos":["regulabas"],"s3":["regulaba"],"p1":["regulábamos"],"p2":["regulabais"],"p3":["regulaban"]},
+    "IndPret": {"s1":["regulé"],"s2":["regulaste"],"vos":["regulaste"],"s3":["reguló"],"p1":["regulamos"],"p2":["regulasteis"],"p3":["regularon"]},
+    "IndFut": {"s1":["regularé"],"s2":["regularás"],"vos":["regularás"],"s3":["regulará"],"p1":["regularemos"],"p2":["regularéis"],"p3":["regularán"]},
+    "IndCond": {"s1":["regularía"],"s2":["regularías"],"vos":["regularías"],"s3":["regularía"],"p1":["regularíamos"],"p2":["regularíais"],"p3":["regularían"]},
+    "SubPres": {"s1":["regule"],"s2":["regules"],"vos":["regules","regulés"],"s3":["regule"],"p1":["regulemos"],"p2":["reguléis"],"p3":["regulen"]},
+    "SubImp": {"s1":["regulara","regulase"],"s2":["regularas","regulases"],"vos":["regularas","regulases"],"s3":["regulara","regulase"],"p1":["reguláramos","regulásemos"],"p2":["regularais","regulaseis"],"p3":["regularan","regulasen"]},
+    "SubFut": {"s1":["regulare"],"s2":["regulares"],"vos":["regulares"],"s3":["regulare"],"p1":["reguláremos"],"p2":["regulareis"],"p3":["regularen"]},
+    "CmdPos": {"s2":["regula"],"vos":["regulá"],"s3":["regule"],"p1":["regulemos"],"p2":["regulad"],"p3":["regulen"]}
+  }
+}

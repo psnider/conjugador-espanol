@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[busˈkaɾ]",
+    "silabacion": "bus-car",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1047.[1] Del castellano antiguo buscar, del fráncico *busk, del protogermánico *buskaz ('bosque') y del sufijo -ar. El término en esencia proviene de la misma raíz que también nos dejó bosque, solo que esta última palabra como sustantivo habría entrado (de nuevo) recién tres siglos más tarde a través del catalán o el occitano. En cuanto al verbo, la hipótesis más acertada es la de José María Anguita Jaén, según quien, dicha voz forma parte de la \"rotación\" de significados que devino finalmente en la pérdida de la voz volere: partiendo del sistema clásico formado por la cuaterna de verbos velle&nbsp;('querer'), petere&nbsp;('acometer'), quaerere&nbsp;('buscar'), poscere&nbsp;('pedir'); para luego haber acabado con la configuración querer, pedir y buscar. El vacío que quedó con la pérdida de velle obligó a quaerere ~ querer a ocupar su lugar, quien a su vez habría sido reemplazado por poscere ~ buscar, quien a su vez habría sido reemplazado por petere ~ pedir. El cruce de poscere con esta raíz germánica, se explica a partir de la similitud entre las formas de la primera persona (posco ~ busco), en donde el choque habría preservado la dotación semántica del vocablo latino (más fuerte) pero con la morfología de la raíz germánica (más simple y regular), lo que nos deja el verbo con su significado desprovisto de cualquier connotación lignaria. Otras hipótesis la derivan del protocelta *boudi- 'conquista' (Corominas) o bien del transalpino bucicare 'remezclar' (Schuchardt); ambas con evidentes dificultades morfológicas y semánticas.[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"buscar","gerundio":"buscando","participio":"buscado"},
+  "formas_personales": {
+    "IndPres": {"s1":["busco"],"s2":["buscas"],"vos":["buscás"],"s3":["busca"],"p1":["buscamos"],"p2":["buscáis"],"p3":["buscan"]},
+    "IndImp": {"s1":["buscaba"],"s2":["buscabas"],"vos":["buscabas"],"s3":["buscaba"],"p1":["buscábamos"],"p2":["buscabais"],"p3":["buscaban"]},
+    "IndPret": {"s1":["busqué"],"s2":["buscaste"],"vos":["buscaste"],"s3":["buscó"],"p1":["buscamos"],"p2":["buscasteis"],"p3":["buscaron"]},
+    "IndFut": {"s1":["buscaré"],"s2":["buscarás"],"vos":["buscarás"],"s3":["buscará"],"p1":["buscaremos"],"p2":["buscaréis"],"p3":["buscarán"]},
+    "IndCond": {"s1":["buscaría"],"s2":["buscarías"],"vos":["buscarías"],"s3":["buscaría"],"p1":["buscaríamos"],"p2":["buscaríais"],"p3":["buscarían"]},
+    "SubPres": {"s1":["busque"],"s2":["busques"],"vos":["busques","busqués"],"s3":["busque"],"p1":["busquemos"],"p2":["busquéis"],"p3":["busquen"]},
+    "SubImp": {"s1":["buscara","buscase"],"s2":["buscaras","buscases"],"vos":["buscaras","buscases"],"s3":["buscara","buscase"],"p1":["buscáramos","buscásemos"],"p2":["buscarais","buscaseis"],"p3":["buscaran","buscasen"]},
+    "SubFut": {"s1":["buscare"],"s2":["buscares"],"vos":["buscares"],"s3":["buscare"],"p1":["buscáremos"],"p2":["buscareis"],"p3":["buscaren"]},
+    "CmdPos": {"s2":["busca"],"vos":["buscá"],"s3":["busque"],"p1":["busquemos"],"p2":["buscad"],"p3":["busquen"]}
+  }
+}

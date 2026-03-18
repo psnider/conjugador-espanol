@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fal̪ˈt̪aɾ]",
+    "silabacion": "fal-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De falta y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"faltar","gerundio":"faltando","participio":"faltado"},
+  "formas_personales": {
+    "IndPres": {"s1":["falto"],"s2":["faltas"],"vos":["faltás"],"s3":["falta"],"p1":["faltamos"],"p2":["faltáis"],"p3":["faltan"]},
+    "IndImp": {"s1":["faltaba"],"s2":["faltabas"],"vos":["faltabas"],"s3":["faltaba"],"p1":["faltábamos"],"p2":["faltabais"],"p3":["faltaban"]},
+    "IndPret": {"s1":["falté"],"s2":["faltaste"],"vos":["faltaste"],"s3":["faltó"],"p1":["faltamos"],"p2":["faltasteis"],"p3":["faltaron"]},
+    "IndFut": {"s1":["faltaré"],"s2":["faltarás"],"vos":["faltarás"],"s3":["faltará"],"p1":["faltaremos"],"p2":["faltaréis"],"p3":["faltarán"]},
+    "IndCond": {"s1":["faltaría"],"s2":["faltarías"],"vos":["faltarías"],"s3":["faltaría"],"p1":["faltaríamos"],"p2":["faltaríais"],"p3":["faltarían"]},
+    "SubPres": {"s1":["falte"],"s2":["faltes"],"vos":["faltes","faltés"],"s3":["falte"],"p1":["faltemos"],"p2":["faltéis"],"p3":["falten"]},
+    "SubImp": {"s1":["faltara","faltase"],"s2":["faltaras","faltases"],"vos":["faltaras","faltases"],"s3":["faltara","faltase"],"p1":["faltáramos","faltásemos"],"p2":["faltarais","faltaseis"],"p3":["faltaran","faltasen"]},
+    "SubFut": {"s1":["faltare"],"s2":["faltares"],"vos":["faltares"],"s3":["faltare"],"p1":["faltáremos"],"p2":["faltareis"],"p3":["faltaren"]},
+    "CmdPos": {"s2":["falta"],"vos":["faltá"],"s3":["falte"],"p1":["faltemos"],"p2":["faltad"],"p3":["falten"]}
+  }
+}

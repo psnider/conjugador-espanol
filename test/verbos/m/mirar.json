@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[miˈɾaɾ]",
+    "silabacion": "mi-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín mirare.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mirar","gerundio":"mirando","participio":"mirado"},
+  "formas_personales": {
+    "IndPres": {"s1":["miro"],"s2":["miras"],"vos":["mirás"],"s3":["mira"],"p1":["miramos"],"p2":["miráis"],"p3":["miran"]},
+    "IndImp": {"s1":["miraba"],"s2":["mirabas"],"vos":["mirabas"],"s3":["miraba"],"p1":["mirábamos"],"p2":["mirabais"],"p3":["miraban"]},
+    "IndPret": {"s1":["miré"],"s2":["miraste"],"vos":["miraste"],"s3":["miró"],"p1":["miramos"],"p2":["mirasteis"],"p3":["miraron"]},
+    "IndFut": {"s1":["miraré"],"s2":["mirarás"],"vos":["mirarás"],"s3":["mirará"],"p1":["miraremos"],"p2":["miraréis"],"p3":["mirarán"]},
+    "IndCond": {"s1":["miraría"],"s2":["mirarías"],"vos":["mirarías"],"s3":["miraría"],"p1":["miraríamos"],"p2":["miraríais"],"p3":["mirarían"]},
+    "SubPres": {"s1":["mire"],"s2":["mires"],"vos":["mires","mirés"],"s3":["mire"],"p1":["miremos"],"p2":["miréis"],"p3":["miren"]},
+    "SubImp": {"s1":["mirara","mirase"],"s2":["miraras","mirases"],"vos":["miraras","mirases"],"s3":["mirara","mirase"],"p1":["miráramos","mirásemos"],"p2":["mirarais","miraseis"],"p3":["miraran","mirasen"]},
+    "SubFut": {"s1":["mirare"],"s2":["mirares"],"vos":["mirares"],"s3":["mirare"],"p1":["miráremos"],"p2":["mirareis"],"p3":["miraren"]},
+    "CmdPos": {"s2":["mira"],"vos":["mirá"],"s3":["mire"],"p1":["miremos"],"p2":["mirad"],"p3":["miren"]}
+  }
+}

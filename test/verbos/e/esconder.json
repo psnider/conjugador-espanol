@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskõn̪ˈd̪eɾ]",
+    "silabacion": "es-con-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo asconder, del latín abscondĕre. El cambio de e- por a- es producto de un reanálisis a partir de una mayoría de verbos que comienzan por es- (escocer, escoger, escribir, escaldar, escampar, escarbar, espantar, estorbar, estrujar), y se dio también en escuchar &lt; ascuchar &lt; ascultare (latín vulgar) &lt; auscŭltārĕ (latín clásico).",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"esconder","gerundio":"escondiendo","participio":"escondido"},
+  "formas_personales": {
+    "IndPres": {"s1":["escondo"],"s2":["escondes"],"vos":["escondés"],"s3":["esconde"],"p1":["escondemos"],"p2":["escondéis"],"p3":["esconden"]},
+    "IndImp": {"s1":["escondía"],"s2":["escondías"],"vos":["escondías"],"s3":["escondía"],"p1":["escondíamos"],"p2":["escondíais"],"p3":["escondían"]},
+    "IndPret": {"s1":["escondí"],"s2":["escondiste"],"vos":["escondiste"],"s3":["escondió"],"p1":["escondimos"],"p2":["escondisteis"],"p3":["escondieron"]},
+    "IndFut": {"s1":["esconderé"],"s2":["esconderás"],"vos":["esconderás"],"s3":["esconderá"],"p1":["esconderemos"],"p2":["esconderéis"],"p3":["esconderán"]},
+    "IndCond": {"s1":["escondería"],"s2":["esconderías"],"vos":["esconderías"],"s3":["escondería"],"p1":["esconderíamos"],"p2":["esconderíais"],"p3":["esconderían"]},
+    "SubPres": {"s1":["esconda"],"s2":["escondas"],"vos":["escondas","escondás"],"s3":["esconda"],"p1":["escondamos"],"p2":["escondáis"],"p3":["escondan"]},
+    "SubImp": {"s1":["escondiera","escondiese"],"s2":["escondieras","escondieses"],"vos":["escondieras","escondieses"],"s3":["escondiera","escondiese"],"p1":["escondiéramos","escondiésemos"],"p2":["escondierais","escondieseis"],"p3":["escondieran","escondiesen"]},
+    "SubFut": {"s1":["escondiere"],"s2":["escondieres"],"vos":["escondieres"],"s3":["escondiere"],"p1":["escondiéremos"],"p2":["escondiereis"],"p3":["escondieren"]},
+    "CmdPos": {"s2":["esconde"],"vos":["escondé"],"s3":["esconda"],"p1":["escondamos"],"p2":["esconded"],"p3":["escondan"]}
+  }
+}

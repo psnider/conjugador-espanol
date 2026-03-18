@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪oβ̞leˈɣ̞aɾ]",
+    "silabacion": "do-ble-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín duplicāre ('doblar').[1]",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"doblegar","gerundio":"doblegando","participio":"doblegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["doblego"],"s2":["doblegas"],"vos":["doblegás"],"s3":["doblega"],"p1":["doblegamos"],"p2":["doblegáis"],"p3":["doblegan"]},
+    "IndImp": {"s1":["doblegaba"],"s2":["doblegabas"],"vos":["doblegabas"],"s3":["doblegaba"],"p1":["doblegábamos"],"p2":["doblegabais"],"p3":["doblegaban"]},
+    "IndPret": {"s1":["doblegué"],"s2":["doblegaste"],"vos":["doblegaste"],"s3":["doblegó"],"p1":["doblegamos"],"p2":["doblegasteis"],"p3":["doblegaron"]},
+    "IndFut": {"s1":["doblegaré"],"s2":["doblegarás"],"vos":["doblegarás"],"s3":["doblegará"],"p1":["doblegaremos"],"p2":["doblegaréis"],"p3":["doblegarán"]},
+    "IndCond": {"s1":["doblegaría"],"s2":["doblegarías"],"vos":["doblegarías"],"s3":["doblegaría"],"p1":["doblegaríamos"],"p2":["doblegaríais"],"p3":["doblegarían"]},
+    "SubPres": {"s1":["doblegue"],"s2":["doblegues"],"vos":["doblegues","doblegués"],"s3":["doblegue"],"p1":["dobleguemos"],"p2":["dobleguéis"],"p3":["dobleguen"]},
+    "SubImp": {"s1":["doblegara","doblegase"],"s2":["doblegaras","doblegases"],"vos":["doblegaras","doblegases"],"s3":["doblegara","doblegase"],"p1":["doblegáramos","doblegásemos"],"p2":["doblegarais","doblegaseis"],"p3":["doblegaran","doblegasen"]},
+    "SubFut": {"s1":["doblegare"],"s2":["doblegares"],"vos":["doblegares"],"s3":["doblegare"],"p1":["doblegáremos"],"p2":["doblegareis"],"p3":["doblegaren"]},
+    "CmdPos": {"s2":["doblega"],"vos":["doblegá"],"s3":["doblegue"],"p1":["dobleguemos"],"p2":["doblegad"],"p3":["dobleguen"]}
+  }
+}

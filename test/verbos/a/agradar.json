@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾaˈð̞aɾ]",
+    "silabacion": "a-gra-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, grado2 y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agradar","gerundio":"agradando","participio":"agradado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agrado"],"s2":["agradas"],"vos":["agradás"],"s3":["agrada"],"p1":["agradamos"],"p2":["agradáis"],"p3":["agradan"]},
+    "IndImp": {"s1":["agradaba"],"s2":["agradabas"],"vos":["agradabas"],"s3":["agradaba"],"p1":["agradábamos"],"p2":["agradabais"],"p3":["agradaban"]},
+    "IndPret": {"s1":["agradé"],"s2":["agradaste"],"vos":["agradaste"],"s3":["agradó"],"p1":["agradamos"],"p2":["agradasteis"],"p3":["agradaron"]},
+    "IndFut": {"s1":["agradaré"],"s2":["agradarás"],"vos":["agradarás"],"s3":["agradará"],"p1":["agradaremos"],"p2":["agradaréis"],"p3":["agradarán"]},
+    "IndCond": {"s1":["agradaría"],"s2":["agradarías"],"vos":["agradarías"],"s3":["agradaría"],"p1":["agradaríamos"],"p2":["agradaríais"],"p3":["agradarían"]},
+    "SubPres": {"s1":["agrade"],"s2":["agrades"],"vos":["agrades","agradés"],"s3":["agrade"],"p1":["agrademos"],"p2":["agradéis"],"p3":["agraden"]},
+    "SubImp": {"s1":["agradara","agradase"],"s2":["agradaras","agradases"],"vos":["agradaras","agradases"],"s3":["agradara","agradase"],"p1":["agradáramos","agradásemos"],"p2":["agradarais","agradaseis"],"p3":["agradaran","agradasen"]},
+    "SubFut": {"s1":["agradare"],"s2":["agradares"],"vos":["agradares"],"s3":["agradare"],"p1":["agradáremos"],"p2":["agradareis"],"p3":["agradaren"]},
+    "CmdPos": {"s2":["agrada"],"vos":["agradá"],"s3":["agrade"],"p1":["agrademos"],"p2":["agradad"],"p3":["agraden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fest̪eˈxaɾ]",
+    "silabacion": "fes-te-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"festejar","gerundio":"festejando","participio":"festejado"},
+  "formas_personales": {
+    "IndPres": {"s1":["festejo"],"s2":["festejas"],"vos":["festejás"],"s3":["festeja"],"p1":["festejamos"],"p2":["festejáis"],"p3":["festejan"]},
+    "IndImp": {"s1":["festejaba"],"s2":["festejabas"],"vos":["festejabas"],"s3":["festejaba"],"p1":["festejábamos"],"p2":["festejabais"],"p3":["festejaban"]},
+    "IndPret": {"s1":["festejé"],"s2":["festejaste"],"vos":["festejaste"],"s3":["festejó"],"p1":["festejamos"],"p2":["festejasteis"],"p3":["festejaron"]},
+    "IndFut": {"s1":["festejaré"],"s2":["festejarás"],"vos":["festejarás"],"s3":["festejará"],"p1":["festejaremos"],"p2":["festejaréis"],"p3":["festejarán"]},
+    "IndCond": {"s1":["festejaría"],"s2":["festejarías"],"vos":["festejarías"],"s3":["festejaría"],"p1":["festejaríamos"],"p2":["festejaríais"],"p3":["festejarían"]},
+    "SubPres": {"s1":["festeje"],"s2":["festejes"],"vos":["festejes","festejés"],"s3":["festeje"],"p1":["festejemos"],"p2":["festejéis"],"p3":["festejen"]},
+    "SubImp": {"s1":["festejara","festejase"],"s2":["festejaras","festejases"],"vos":["festejaras","festejases"],"s3":["festejara","festejase"],"p1":["festejáramos","festejásemos"],"p2":["festejarais","festejaseis"],"p3":["festejaran","festejasen"]},
+    "SubFut": {"s1":["festejare"],"s2":["festejares"],"vos":["festejares"],"s3":["festejare"],"p1":["festejáremos"],"p2":["festejareis"],"p3":["festejaren"]},
+    "CmdPos": {"s2":["festeja"],"vos":["festejá"],"s3":["festeje"],"p1":["festejemos"],"p2":["festejad"],"p3":["festejen"]}
+  }
+}

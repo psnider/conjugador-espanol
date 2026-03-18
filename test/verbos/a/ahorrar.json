@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aoˈraɾ]",
+    "silabacion": "a-ho-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del árabe hurr ('libre').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahorrar","gerundio":"ahorrando","participio":"ahorrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ahorro"],"s2":["ahorras"],"vos":["ahorrás"],"s3":["ahorra"],"p1":["ahorramos"],"p2":["ahorráis"],"p3":["ahorran"]},
+    "IndImp": {"s1":["ahorraba"],"s2":["ahorrabas"],"vos":["ahorrabas"],"s3":["ahorraba"],"p1":["ahorrábamos"],"p2":["ahorrabais"],"p3":["ahorraban"]},
+    "IndPret": {"s1":["ahorré"],"s2":["ahorraste"],"vos":["ahorraste"],"s3":["ahorró"],"p1":["ahorramos"],"p2":["ahorrasteis"],"p3":["ahorraron"]},
+    "IndFut": {"s1":["ahorraré"],"s2":["ahorrarás"],"vos":["ahorrarás"],"s3":["ahorrará"],"p1":["ahorraremos"],"p2":["ahorraréis"],"p3":["ahorrarán"]},
+    "IndCond": {"s1":["ahorraría"],"s2":["ahorrarías"],"vos":["ahorrarías"],"s3":["ahorraría"],"p1":["ahorraríamos"],"p2":["ahorraríais"],"p3":["ahorrarían"]},
+    "SubPres": {"s1":["ahorre"],"s2":["ahorres"],"vos":["ahorres","ahorrés"],"s3":["ahorre"],"p1":["ahorremos"],"p2":["ahorréis"],"p3":["ahorren"]},
+    "SubImp": {"s1":["ahorrara","ahorrase"],"s2":["ahorraras","ahorrases"],"vos":["ahorraras","ahorrases"],"s3":["ahorrara","ahorrase"],"p1":["ahorráramos","ahorrásemos"],"p2":["ahorrarais","ahorraseis"],"p3":["ahorraran","ahorrasen"]},
+    "SubFut": {"s1":["ahorrare"],"s2":["ahorrares"],"vos":["ahorrares"],"s3":["ahorrare"],"p1":["ahorráremos"],"p2":["ahorrareis"],"p3":["ahorraren"]},
+    "CmdPos": {"s2":["ahorra"],"vos":["ahorrá"],"s3":["ahorre"],"p1":["ahorremos"],"p2":["ahorrad"],"p3":["ahorren"]}
+  }
+}

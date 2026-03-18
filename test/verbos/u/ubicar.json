@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[uβ̞iˈkaɾ]",
+    "silabacion": "u-bi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ubi ('dónde').",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"ubicar","gerundio":"ubicando","participio":"ubicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ubico"],"s2":["ubicas"],"vos":["ubicás"],"s3":["ubica"],"p1":["ubicamos"],"p2":["ubicáis"],"p3":["ubican"]},
+    "IndImp": {"s1":["ubicaba"],"s2":["ubicabas"],"vos":["ubicabas"],"s3":["ubicaba"],"p1":["ubicábamos"],"p2":["ubicabais"],"p3":["ubicaban"]},
+    "IndPret": {"s1":["ubiqué"],"s2":["ubicaste"],"vos":["ubicaste"],"s3":["ubicó"],"p1":["ubicamos"],"p2":["ubicasteis"],"p3":["ubicaron"]},
+    "IndFut": {"s1":["ubicaré"],"s2":["ubicarás"],"vos":["ubicarás"],"s3":["ubicará"],"p1":["ubicaremos"],"p2":["ubicaréis"],"p3":["ubicarán"]},
+    "IndCond": {"s1":["ubicaría"],"s2":["ubicarías"],"vos":["ubicarías"],"s3":["ubicaría"],"p1":["ubicaríamos"],"p2":["ubicaríais"],"p3":["ubicarían"]},
+    "SubPres": {"s1":["ubique"],"s2":["ubiques"],"vos":["ubiques","ubiqués"],"s3":["ubique"],"p1":["ubiquemos"],"p2":["ubiquéis"],"p3":["ubiquen"]},
+    "SubImp": {"s1":["ubicara","ubicase"],"s2":["ubicaras","ubicases"],"vos":["ubicaras","ubicases"],"s3":["ubicara","ubicase"],"p1":["ubicáramos","ubicásemos"],"p2":["ubicarais","ubicaseis"],"p3":["ubicaran","ubicasen"]},
+    "SubFut": {"s1":["ubicare"],"s2":["ubicares"],"vos":["ubicares"],"s3":["ubicare"],"p1":["ubicáremos"],"p2":["ubicareis"],"p3":["ubicaren"]},
+    "CmdPos": {"s2":["ubica"],"vos":["ubicá"],"s3":["ubique"],"p1":["ubiquemos"],"p2":["ubicad"],"p3":["ubiquen"]}
+  }
+}

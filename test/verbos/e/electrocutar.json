@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[elekt̪ɾokuˈt̪aɾ]",
+    "silabacion": "e-lec-tro-cu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés électrocuter y este del inglés electrocute.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"electrocutar","gerundio":"electrocutando","participio":"electrocutado"},
+  "formas_personales": {
+    "IndPres": {"s1":["electrocuto"],"s2":["electrocutas"],"vos":["electrocutás"],"s3":["electrocuta"],"p1":["electrocutamos"],"p2":["electrocutáis"],"p3":["electrocutan"]},
+    "IndImp": {"s1":["electrocutaba"],"s2":["electrocutabas"],"vos":["electrocutabas"],"s3":["electrocutaba"],"p1":["electrocutábamos"],"p2":["electrocutabais"],"p3":["electrocutaban"]},
+    "IndPret": {"s1":["electrocuté"],"s2":["electrocutaste"],"vos":["electrocutaste"],"s3":["electrocutó"],"p1":["electrocutamos"],"p2":["electrocutasteis"],"p3":["electrocutaron"]},
+    "IndFut": {"s1":["electrocutaré"],"s2":["electrocutarás"],"vos":["electrocutarás"],"s3":["electrocutará"],"p1":["electrocutaremos"],"p2":["electrocutaréis"],"p3":["electrocutarán"]},
+    "IndCond": {"s1":["electrocutaría"],"s2":["electrocutarías"],"vos":["electrocutarías"],"s3":["electrocutaría"],"p1":["electrocutaríamos"],"p2":["electrocutaríais"],"p3":["electrocutarían"]},
+    "SubPres": {"s1":["electrocute"],"s2":["electrocutes"],"vos":["electrocutes","electrocutés"],"s3":["electrocute"],"p1":["electrocutemos"],"p2":["electrocutéis"],"p3":["electrocuten"]},
+    "SubImp": {"s1":["electrocutara","electrocutase"],"s2":["electrocutaras","electrocutases"],"vos":["electrocutaras","electrocutases"],"s3":["electrocutara","electrocutase"],"p1":["electrocutáramos","electrocutásemos"],"p2":["electrocutarais","electrocutaseis"],"p3":["electrocutaran","electrocutasen"]},
+    "SubFut": {"s1":["electrocutare"],"s2":["electrocutares"],"vos":["electrocutares"],"s3":["electrocutare"],"p1":["electrocutáremos"],"p2":["electrocutareis"],"p3":["electrocutaren"]},
+    "CmdPos": {"s2":["electrocuta"],"vos":["electrocutá"],"s3":["electrocute"],"p1":["electrocutemos"],"p2":["electrocutad"],"p3":["electrocuten"]}
+  }
+}

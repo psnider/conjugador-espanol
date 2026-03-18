@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mãn̪t̪eˈneɾ]",
+    "silabacion": "man-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín manu tenere ('tener en la mano')",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"mantener","gerundio":"manteniendo","participio":"mantenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["mantengo"],"s2":["mantienes"],"vos":["mantenés"],"s3":["mantiene"],"p1":["mantenemos"],"p2":["mantenéis"],"p3":["mantienen"]},
+    "IndImp": {"s1":["mantenía"],"s2":["mantenías"],"vos":["mantenías"],"s3":["mantenía"],"p1":["manteníamos"],"p2":["manteníais"],"p3":["mantenían"]},
+    "IndPret": {"s1":["mantuve"],"s2":["mantuviste"],"vos":["mantuviste"],"s3":["mantuvo"],"p1":["mantuvimos"],"p2":["mantuvisteis"],"p3":["mantuvieron"]},
+    "IndFut": {"s1":["mantendré"],"s2":["mantendrás"],"vos":["mantendrás"],"s3":["mantendrá"],"p1":["mantendremos"],"p2":["mantendréis"],"p3":["mantendrán"]},
+    "IndCond": {"s1":["mantendría"],"s2":["mantendrías"],"vos":["mantendrías"],"s3":["mantendría"],"p1":["mantendríamos"],"p2":["mantendríais"],"p3":["mantendrían"]},
+    "SubPres": {"s1":["mantenga"],"s2":["mantengas"],"vos":["mantengas","mantengás"],"s3":["mantenga"],"p1":["mantengamos"],"p2":["mantengáis"],"p3":["mantengan"]},
+    "SubImp": {"s1":["mantuviera","mantuviese"],"s2":["mantuvieras","mantuvieses"],"vos":["mantuvieras","mantuvieses"],"s3":["mantuviera","mantuviese"],"p1":["mantuviéramos","mantuviésemos"],"p2":["mantuvierais","mantuvieseis"],"p3":["mantuvieran","mantuviesen"]},
+    "SubFut": {"s1":["mantuviere"],"s2":["mantuvieres"],"vos":["mantuvieres"],"s3":["mantuviere"],"p1":["mantuviéremos"],"p2":["mantuviereis"],"p3":["mantuvieren"]},
+    "CmdPos": {"s2":{"estándar":["mantén"],"atípicos":[{"forma":"mantiene","etiquetas":["no normativo"]}]},"vos":["mantené"],"s3":["mantenga"],"p1":["mantengamos"],"p2":["mantened"],"p3":["mantengan"]}
+  }
+}

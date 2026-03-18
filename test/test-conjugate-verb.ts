@@ -6,7 +6,7 @@ import { verb_terminations } from "../src/regular-verb-rules.js";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "abstener" // "rendir"
+let infinitivo: string = "acontecer" // "rendir"
 // one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"
 let mood_tense: MoodTense = "IndPres"
 

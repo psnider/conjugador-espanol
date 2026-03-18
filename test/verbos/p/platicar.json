@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[plat̪iˈkaɾ]",
+    "silabacion": "pla-ti-car",
+    "acentuacion": "aguda",
+    "etimologia": "De plática y el sufijo -ar, y aquel del castellano antiguo plática, variante correlativa del castellano antiguo prática tipica de la región occidental, del latín tardío practica[1], uso sustantivado de practicus&nbsp;('práctico'), del verbo πράσσω&nbsp;(prássō), πράττω&nbsp;(práttō), probablemente del protoindoeuropeo *per-&nbsp;('atravesar'). La simplificación del grupo consonántico fue común a la mayoría de las lenguas romances; compárese el francés pratique, el italiano pratico o el portugués prático.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"platicar","gerundio":"platicando","participio":"platicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["platico"],"s2":["platicas"],"vos":["platicás"],"s3":["platica"],"p1":["platicamos"],"p2":["platicáis"],"p3":["platican"]},
+    "IndImp": {"s1":["platicaba"],"s2":["platicabas"],"vos":["platicabas"],"s3":["platicaba"],"p1":["platicábamos"],"p2":["platicabais"],"p3":["platicaban"]},
+    "IndPret": {"s1":["platiqué"],"s2":["platicaste"],"vos":["platicaste"],"s3":["platicó"],"p1":["platicamos"],"p2":["platicasteis"],"p3":["platicaron"]},
+    "IndFut": {"s1":["platicaré"],"s2":["platicarás"],"vos":["platicarás"],"s3":["platicará"],"p1":["platicaremos"],"p2":["platicaréis"],"p3":["platicarán"]},
+    "IndCond": {"s1":["platicaría"],"s2":["platicarías"],"vos":["platicarías"],"s3":["platicaría"],"p1":["platicaríamos"],"p2":["platicaríais"],"p3":["platicarían"]},
+    "SubPres": {"s1":["platique"],"s2":["platiques"],"vos":["platiques","platiqués"],"s3":["platique"],"p1":["platiquemos"],"p2":["platiquéis"],"p3":["platiquen"]},
+    "SubImp": {"s1":["platicara","platicase"],"s2":["platicaras","platicases"],"vos":["platicaras","platicases"],"s3":["platicara","platicase"],"p1":["platicáramos","platicásemos"],"p2":["platicarais","platicaseis"],"p3":["platicaran","platicasen"]},
+    "SubFut": {"s1":["platicare"],"s2":["platicares"],"vos":["platicares"],"s3":["platicare"],"p1":["platicáremos"],"p2":["platicareis"],"p3":["platicaren"]},
+    "CmdPos": {"s2":["platica"],"vos":["platicá"],"s3":["platique"],"p1":["platiquemos"],"p2":["platicad"],"p3":["platiquen"]}
+  }
+}

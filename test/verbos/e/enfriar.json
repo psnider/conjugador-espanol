@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽɱˈfɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín infrigidare",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"enfriar","gerundio":"enfriando","participio":"enfriado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enfrío"],"s2":["enfrías"],"vos":["enfriás"],"s3":["enfría"],"p1":["enfriamos"],"p2":["enfriáis"],"p3":["enfrían"]},
+    "IndImp": {"s1":["enfriaba"],"s2":["enfriabas"],"vos":["enfriabas"],"s3":["enfriaba"],"p1":["enfriábamos"],"p2":["enfriabais"],"p3":["enfriaban"]},
+    "IndPret": {"s1":["enfrié"],"s2":["enfriaste"],"vos":["enfriaste"],"s3":["enfrió"],"p1":["enfriamos"],"p2":["enfriasteis"],"p3":["enfriaron"]},
+    "IndFut": {"s1":["enfriaré"],"s2":["enfriarás"],"vos":["enfriarás"],"s3":["enfriará"],"p1":["enfriaremos"],"p2":["enfriaréis"],"p3":["enfriarán"]},
+    "IndCond": {"s1":["enfriaría"],"s2":["enfriarías"],"vos":["enfriarías"],"s3":["enfriaría"],"p1":["enfriaríamos"],"p2":["enfriaríais"],"p3":["enfriarían"]},
+    "SubPres": {"s1":["enfríe"],"s2":["enfríes"],"vos":["enfríes","enfriés"],"s3":["enfríe"],"p1":["enfriemos"],"p2":["enfriéis"],"p3":["enfríen"]},
+    "SubImp": {"s1":["enfriara","enfriase"],"s2":["enfriaras","enfriases"],"vos":["enfriaras","enfriases"],"s3":["enfriara","enfriase"],"p1":["enfriáramos","enfriásemos"],"p2":["enfriarais","enfriaseis"],"p3":["enfriaran","enfriasen"]},
+    "SubFut": {"s1":["enfriare"],"s2":["enfriares"],"vos":["enfriares"],"s3":["enfriare"],"p1":["enfriáremos"],"p2":["enfriareis"],"p3":["enfriaren"]},
+    "CmdPos": {"s2":["enfría"],"vos":["enfriá"],"s3":["enfríe"],"p1":["enfriemos"],"p2":["enfriad"],"p3":["enfríen"]}
+  }
+}

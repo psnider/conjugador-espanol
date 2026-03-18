@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãŋˈklaɾ]",
+    "silabacion": "an-clar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anclar","gerundio":"anclando","participio":"anclado"},
+  "formas_personales": {
+    "IndPres": {"s1":["anclo"],"s2":["anclas"],"vos":["anclás"],"s3":["ancla"],"p1":["anclamos"],"p2":["ancláis"],"p3":["anclan"]},
+    "IndImp": {"s1":["anclaba"],"s2":["anclabas"],"vos":["anclabas"],"s3":["anclaba"],"p1":["anclábamos"],"p2":["anclabais"],"p3":["anclaban"]},
+    "IndPret": {"s1":["anclé"],"s2":["anclaste"],"vos":["anclaste"],"s3":["ancló"],"p1":["anclamos"],"p2":["anclasteis"],"p3":["anclaron"]},
+    "IndFut": {"s1":["anclaré"],"s2":["anclarás"],"vos":["anclarás"],"s3":["anclará"],"p1":["anclaremos"],"p2":["anclaréis"],"p3":["anclarán"]},
+    "IndCond": {"s1":["anclaría"],"s2":["anclarías"],"vos":["anclarías"],"s3":["anclaría"],"p1":["anclaríamos"],"p2":["anclaríais"],"p3":["anclarían"]},
+    "SubPres": {"s1":["ancle"],"s2":["ancles"],"vos":["ancles","anclés"],"s3":["ancle"],"p1":["anclemos"],"p2":["ancléis"],"p3":["anclen"]},
+    "SubImp": {"s1":["anclara","anclase"],"s2":["anclaras","anclases"],"vos":["anclaras","anclases"],"s3":["anclara","anclase"],"p1":["ancláramos","anclásemos"],"p2":["anclarais","anclaseis"],"p3":["anclaran","anclasen"]},
+    "SubFut": {"s1":["anclare"],"s2":["anclares"],"vos":["anclares"],"s3":["anclare"],"p1":["ancláremos"],"p2":["anclareis"],"p3":["anclaren"]},
+    "CmdPos": {"s2":["ancla"],"vos":["anclá"],"s3":["ancle"],"p1":["anclemos"],"p2":["anclad"],"p3":["anclen"]}
+  }
+}

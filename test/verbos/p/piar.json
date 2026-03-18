@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈpjaɾ]",
+    "acentuacion": "monosílaba",
+    "etimologia": "De origen incierto.[2]",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"piar","gerundio":"piando","participio":"piado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pío"],"s2":["pías"],"vos":["pias"],"s3":["pía"],"p1":["piamos"],"p2":["piais"],"p3":["pían"]},
+    "IndImp": {"s1":["piaba"],"s2":["piabas"],"vos":["piabas"],"s3":["piaba"],"p1":["piábamos"],"p2":["piabais"],"p3":["piaban"]},
+    "IndPret": {"s1":["pie"],"s2":["piaste"],"vos":["piaste"],"s3":["pio"],"p1":["piamos"],"p2":["piasteis"],"p3":["piaron"]},
+    "IndFut": {"s1":["piaré"],"s2":["piarás"],"vos":["piarás"],"s3":["piará"],"p1":["piaremos"],"p2":["piaréis"],"p3":["piarán"]},
+    "IndCond": {"s1":["piaría"],"s2":["piarías"],"vos":["piarías"],"s3":["piaría"],"p1":["piaríamos"],"p2":["piaríais"],"p3":["piarían"]},
+    "SubPres": {"s1":["píe"],"s2":["píes"],"vos":["píes","pies"],"s3":["píe"],"p1":["piemos"],"p2":["pieis"],"p3":["píen"]},
+    "SubImp": {"s1":["piara","piase"],"s2":["piaras","piases"],"vos":["piaras","piases"],"s3":["piara","piase"],"p1":["piáramos","piásemos"],"p2":["piarais","piaseis"],"p3":["piaran","piasen"]},
+    "SubFut": {"s1":["piare"],"s2":["piares"],"vos":["piares"],"s3":["piare"],"p1":["piáremos"],"p2":["piareis"],"p3":["piaren"]},
+    "CmdPos": {"s2":["pía"],"vos":["pia"],"s3":["píe"],"p1":["piemos"],"p2":["piad"],"p3":["píen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞isjoˈnaɾ]",
+    "silabacion": "a-di-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De adición y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adicionar","gerundio":"adicionando","participio":"adicionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["adiciono"],"s2":["adicionas"],"vos":["adicionás"],"s3":["adiciona"],"p1":["adicionamos"],"p2":["adicionáis"],"p3":["adicionan"]},
+    "IndImp": {"s1":["adicionaba"],"s2":["adicionabas"],"vos":["adicionabas"],"s3":["adicionaba"],"p1":["adicionábamos"],"p2":["adicionabais"],"p3":["adicionaban"]},
+    "IndPret": {"s1":["adicioné"],"s2":["adicionaste"],"vos":["adicionaste"],"s3":["adicionó"],"p1":["adicionamos"],"p2":["adicionasteis"],"p3":["adicionaron"]},
+    "IndFut": {"s1":["adicionaré"],"s2":["adicionarás"],"vos":["adicionarás"],"s3":["adicionará"],"p1":["adicionaremos"],"p2":["adicionaréis"],"p3":["adicionarán"]},
+    "IndCond": {"s1":["adicionaría"],"s2":["adicionarías"],"vos":["adicionarías"],"s3":["adicionaría"],"p1":["adicionaríamos"],"p2":["adicionaríais"],"p3":["adicionarían"]},
+    "SubPres": {"s1":["adicione"],"s2":["adiciones"],"vos":["adiciones","adicionés"],"s3":["adicione"],"p1":["adicionemos"],"p2":["adicionéis"],"p3":["adicionen"]},
+    "SubImp": {"s1":["adicionara","adicionase"],"s2":["adicionaras","adicionases"],"vos":["adicionaras","adicionases"],"s3":["adicionara","adicionase"],"p1":["adicionáramos","adicionásemos"],"p2":["adicionarais","adicionaseis"],"p3":["adicionaran","adicionasen"]},
+    "SubFut": {"s1":["adicionare"],"s2":["adicionares"],"vos":["adicionares"],"s3":["adicionare"],"p1":["adicionáremos"],"p2":["adicionareis"],"p3":["adicionaren"]},
+    "CmdPos": {"s2":["adiciona"],"vos":["adicioná"],"s3":["adicione"],"p1":["adicionemos"],"p2":["adicionad"],"p3":["adicionen"]}
+  }
+}

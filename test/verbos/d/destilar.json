@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪iˈlaɾ]",
+    "silabacion": "des-ti-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín destillare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"destilar","gerundio":"destilando","participio":"destilado"},
+  "formas_personales": {
+    "IndPres": {"s1":["destilo"],"s2":["destilas"],"vos":["destilás"],"s3":["destila"],"p1":["destilamos"],"p2":["destiláis"],"p3":["destilan"]},
+    "IndImp": {"s1":["destilaba"],"s2":["destilabas"],"vos":["destilabas"],"s3":["destilaba"],"p1":["destilábamos"],"p2":["destilabais"],"p3":["destilaban"]},
+    "IndPret": {"s1":["destilé"],"s2":["destilaste"],"vos":["destilaste"],"s3":["destiló"],"p1":["destilamos"],"p2":["destilasteis"],"p3":["destilaron"]},
+    "IndFut": {"s1":["destilaré"],"s2":["destilarás"],"vos":["destilarás"],"s3":["destilará"],"p1":["destilaremos"],"p2":["destilaréis"],"p3":["destilarán"]},
+    "IndCond": {"s1":["destilaría"],"s2":["destilarías"],"vos":["destilarías"],"s3":["destilaría"],"p1":["destilaríamos"],"p2":["destilaríais"],"p3":["destilarían"]},
+    "SubPres": {"s1":["destile"],"s2":["destiles"],"vos":["destiles","destilés"],"s3":["destile"],"p1":["destilemos"],"p2":["destiléis"],"p3":["destilen"]},
+    "SubImp": {"s1":["destilara","destilase"],"s2":["destilaras","destilases"],"vos":["destilaras","destilases"],"s3":["destilara","destilase"],"p1":["destiláramos","destilásemos"],"p2":["destilarais","destilaseis"],"p3":["destilaran","destilasen"]},
+    "SubFut": {"s1":["destilare"],"s2":["destilares"],"vos":["destilares"],"s3":["destilare"],"p1":["destiláremos"],"p2":["destilareis"],"p3":["destilaren"]},
+    "CmdPos": {"s2":["destila"],"vos":["destilá"],"s3":["destile"],"p1":["destilemos"],"p2":["destilad"],"p3":["destilen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[beˈlaɾ]",
+    "silabacion": "ve-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vigilare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"velar","gerundio":"velando","participio":"velado"},
+  "formas_personales": {
+    "IndPres": {"s1":["velo"],"s2":["velas"],"vos":["velás"],"s3":["vela"],"p1":["velamos"],"p2":["veláis"],"p3":["velan"]},
+    "IndImp": {"s1":["velaba"],"s2":["velabas"],"vos":["velabas"],"s3":["velaba"],"p1":["velábamos"],"p2":["velabais"],"p3":["velaban"]},
+    "IndPret": {"s1":["velé"],"s2":["velaste"],"vos":["velaste"],"s3":["veló"],"p1":["velamos"],"p2":["velasteis"],"p3":["velaron"]},
+    "IndFut": {"s1":["velaré"],"s2":["velarás"],"vos":["velarás"],"s3":["velará"],"p1":["velaremos"],"p2":["velaréis"],"p3":["velarán"]},
+    "IndCond": {"s1":["velaría"],"s2":["velarías"],"vos":["velarías"],"s3":["velaría"],"p1":["velaríamos"],"p2":["velaríais"],"p3":["velarían"]},
+    "SubPres": {"s1":["vele"],"s2":["veles"],"vos":["veles","velés"],"s3":["vele"],"p1":["velemos"],"p2":["veléis"],"p3":["velen"]},
+    "SubImp": {"s1":["velara","velase"],"s2":["velaras","velases"],"vos":["velaras","velases"],"s3":["velara","velase"],"p1":["veláramos","velásemos"],"p2":["velarais","velaseis"],"p3":["velaran","velasen"]},
+    "SubFut": {"s1":["velare"],"s2":["velares"],"vos":["velares"],"s3":["velare"],"p1":["veláremos"],"p2":["velareis"],"p3":["velaren"]},
+    "CmdPos": {"s2":["vela"],"vos":["velá"],"s3":["vele"],"p1":["velemos"],"p2":["velad"],"p3":["velen"]}
+  }
+}

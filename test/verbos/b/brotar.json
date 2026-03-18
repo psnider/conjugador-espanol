@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bɾoˈt̪aɾ]",
+    "silabacion": "bro-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De brote",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"brotar","gerundio":"brotando","participio":"brotado"},
+  "formas_personales": {
+    "IndPres": {"s1":["broto"],"s2":["brotas"],"vos":["brotás"],"s3":["brota"],"p1":["brotamos"],"p2":["brotáis"],"p3":["brotan"]},
+    "IndImp": {"s1":["brotaba"],"s2":["brotabas"],"vos":["brotabas"],"s3":["brotaba"],"p1":["brotábamos"],"p2":["brotabais"],"p3":["brotaban"]},
+    "IndPret": {"s1":["broté"],"s2":["brotaste"],"vos":["brotaste"],"s3":["brotó"],"p1":["brotamos"],"p2":["brotasteis"],"p3":["brotaron"]},
+    "IndFut": {"s1":["brotaré"],"s2":["brotarás"],"vos":["brotarás"],"s3":["brotará"],"p1":["brotaremos"],"p2":["brotaréis"],"p3":["brotarán"]},
+    "IndCond": {"s1":["brotaría"],"s2":["brotarías"],"vos":["brotarías"],"s3":["brotaría"],"p1":["brotaríamos"],"p2":["brotaríais"],"p3":["brotarían"]},
+    "SubPres": {"s1":["brote"],"s2":["brotes"],"vos":["brotes","brotés"],"s3":["brote"],"p1":["brotemos"],"p2":["brotéis"],"p3":["broten"]},
+    "SubImp": {"s1":["brotara","brotase"],"s2":["brotaras","brotases"],"vos":["brotaras","brotases"],"s3":["brotara","brotase"],"p1":["brotáramos","brotásemos"],"p2":["brotarais","brotaseis"],"p3":["brotaran","brotasen"]},
+    "SubFut": {"s1":["brotare"],"s2":["brotares"],"vos":["brotares"],"s3":["brotare"],"p1":["brotáremos"],"p2":["brotareis"],"p3":["brotaren"]},
+    "CmdPos": {"s2":["brota"],"vos":["brotá"],"s3":["brote"],"p1":["brotemos"],"p2":["brotad"],"p3":["broten"]}
+  }
+}

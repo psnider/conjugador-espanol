@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kɾuˈsaɾ]",
+    "silabacion": "cru-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De cruz y el sufijo -ar. Denominal de cruz.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"cruzar","gerundio":"cruzando","participio":"cruzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cruzo"],"s2":["cruzas"],"vos":["cruzás"],"s3":["cruza"],"p1":["cruzamos"],"p2":["cruzáis"],"p3":["cruzan"]},
+    "IndImp": {"s1":["cruzaba"],"s2":["cruzabas"],"vos":["cruzabas"],"s3":["cruzaba"],"p1":["cruzábamos"],"p2":["cruzabais"],"p3":["cruzaban"]},
+    "IndPret": {"s1":["crucé"],"s2":["cruzaste"],"vos":["cruzaste"],"s3":["cruzó"],"p1":["cruzamos"],"p2":["cruzasteis"],"p3":["cruzaron"]},
+    "IndFut": {"s1":["cruzaré"],"s2":["cruzarás"],"vos":["cruzarás"],"s3":["cruzará"],"p1":["cruzaremos"],"p2":["cruzaréis"],"p3":["cruzarán"]},
+    "IndCond": {"s1":["cruzaría"],"s2":["cruzarías"],"vos":["cruzarías"],"s3":["cruzaría"],"p1":["cruzaríamos"],"p2":["cruzaríais"],"p3":["cruzarían"]},
+    "SubPres": {"s1":["cruce"],"s2":["cruces"],"vos":["cruces","crucés"],"s3":["cruce"],"p1":["crucemos"],"p2":["crucéis"],"p3":["crucen"]},
+    "SubImp": {"s1":["cruzara","cruzase"],"s2":["cruzaras","cruzases"],"vos":["cruzaras","cruzases"],"s3":["cruzara","cruzase"],"p1":["cruzáramos","cruzásemos"],"p2":["cruzarais","cruzaseis"],"p3":["cruzaran","cruzasen"]},
+    "SubFut": {"s1":["cruzare"],"s2":["cruzares"],"vos":["cruzares"],"s3":["cruzare"],"p1":["cruzáremos"],"p2":["cruzareis"],"p3":["cruzaren"]},
+    "CmdPos": {"s2":["cruza"],"vos":["cruzá"],"s3":["cruce"],"p1":["crucemos"],"p2":["cruzad"],"p3":["crucen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞iˈsaɾ]",
+    "silabacion": "a-vi-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés aviser, y este del latín advisare (\"ver a, mirar a\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"avisar","gerundio":"avisando","participio":"avisado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aviso"],"s2":["avisas"],"vos":["avisás"],"s3":["avisa"],"p1":["avisamos"],"p2":["avisáis"],"p3":["avisan"]},
+    "IndImp": {"s1":["avisaba"],"s2":["avisabas"],"vos":["avisabas"],"s3":["avisaba"],"p1":["avisábamos"],"p2":["avisabais"],"p3":["avisaban"]},
+    "IndPret": {"s1":["avisé"],"s2":["avisaste"],"vos":["avisaste"],"s3":["avisó"],"p1":["avisamos"],"p2":["avisasteis"],"p3":["avisaron"]},
+    "IndFut": {"s1":["avisaré"],"s2":["avisarás"],"vos":["avisarás"],"s3":["avisará"],"p1":["avisaremos"],"p2":["avisaréis"],"p3":["avisarán"]},
+    "IndCond": {"s1":["avisaría"],"s2":["avisarías"],"vos":["avisarías"],"s3":["avisaría"],"p1":["avisaríamos"],"p2":["avisaríais"],"p3":["avisarían"]},
+    "SubPres": {"s1":["avise"],"s2":["avises"],"vos":["avises","avisés"],"s3":["avise"],"p1":["avisemos"],"p2":["aviséis"],"p3":["avisen"]},
+    "SubImp": {"s1":["avisara","avisase"],"s2":["avisaras","avisases"],"vos":["avisaras","avisases"],"s3":["avisara","avisase"],"p1":["avisáramos","avisásemos"],"p2":["avisarais","avisaseis"],"p3":["avisaran","avisasen"]},
+    "SubFut": {"s1":["avisare"],"s2":["avisares"],"vos":["avisares"],"s3":["avisare"],"p1":["avisáremos"],"p2":["avisareis"],"p3":["avisaren"]},
+    "CmdPos": {"s2":["avisa"],"vos":["avisá"],"s3":["avise"],"p1":["avisemos"],"p2":["avisad"],"p3":["avisen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[imaxiˈnaɾ]",
+    "silabacion": "i-ma-gi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín imagināri",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"imaginar","gerundio":"imaginando","participio":"imaginado"},
+  "formas_personales": {
+    "IndPres": {"s1":["imagino"],"s2":["imaginas"],"vos":["imaginás"],"s3":["imagina"],"p1":["imaginamos"],"p2":["imagináis"],"p3":["imaginan"]},
+    "IndImp": {"s1":["imaginaba"],"s2":["imaginabas"],"vos":["imaginabas"],"s3":["imaginaba"],"p1":["imaginábamos"],"p2":["imaginabais"],"p3":["imaginaban"]},
+    "IndPret": {"s1":["imaginé"],"s2":["imaginaste"],"vos":["imaginaste"],"s3":["imaginó"],"p1":["imaginamos"],"p2":["imaginasteis"],"p3":["imaginaron"]},
+    "IndFut": {"s1":["imaginaré"],"s2":["imaginarás"],"vos":["imaginarás"],"s3":["imaginará"],"p1":["imaginaremos"],"p2":["imaginaréis"],"p3":["imaginarán"]},
+    "IndCond": {"s1":["imaginaría"],"s2":["imaginarías"],"vos":["imaginarías"],"s3":["imaginaría"],"p1":["imaginaríamos"],"p2":["imaginaríais"],"p3":["imaginarían"]},
+    "SubPres": {"s1":["imagine"],"s2":["imagines"],"vos":["imagines","imaginés"],"s3":["imagine"],"p1":["imaginemos"],"p2":["imaginéis"],"p3":["imaginen"]},
+    "SubImp": {"s1":["imaginara","imaginase"],"s2":["imaginaras","imaginases"],"vos":["imaginaras","imaginases"],"s3":["imaginara","imaginase"],"p1":["imagináramos","imaginásemos"],"p2":["imaginarais","imaginaseis"],"p3":["imaginaran","imaginasen"]},
+    "SubFut": {"s1":["imaginare"],"s2":["imaginares"],"vos":["imaginares"],"s3":["imaginare"],"p1":["imagináremos"],"p2":["imaginareis"],"p3":["imaginaren"]},
+    "CmdPos": {"s2":["imagina"],"vos":["imaginá"],"s3":["imagine"],"p1":["imaginemos"],"p2":["imaginad"],"p3":["imaginen"]}
+  }
+}

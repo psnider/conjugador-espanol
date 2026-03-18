@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iskulˈpaɾ]",
+    "silabacion": "dis-cul-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disculpar","gerundio":"disculpando","participio":"disculpado"},
+  "formas_personales": {
+    "IndPres": {"s1":["disculpo"],"s2":["disculpas"],"vos":["disculpás"],"s3":["disculpa"],"p1":["disculpamos"],"p2":["disculpáis"],"p3":["disculpan"]},
+    "IndImp": {"s1":["disculpaba"],"s2":["disculpabas"],"vos":["disculpabas"],"s3":["disculpaba"],"p1":["disculpábamos"],"p2":["disculpabais"],"p3":["disculpaban"]},
+    "IndPret": {"s1":["disculpé"],"s2":["disculpaste"],"vos":["disculpaste"],"s3":["disculpó"],"p1":["disculpamos"],"p2":["disculpasteis"],"p3":["disculparon"]},
+    "IndFut": {"s1":["disculparé"],"s2":["disculparás"],"vos":["disculparás"],"s3":["disculpará"],"p1":["disculparemos"],"p2":["disculparéis"],"p3":["disculparán"]},
+    "IndCond": {"s1":["disculparía"],"s2":["disculparías"],"vos":["disculparías"],"s3":["disculparía"],"p1":["disculparíamos"],"p2":["disculparíais"],"p3":["disculparían"]},
+    "SubPres": {"s1":["disculpe"],"s2":["disculpes"],"vos":["disculpes","disculpés"],"s3":["disculpe"],"p1":["disculpemos"],"p2":["disculpéis"],"p3":["disculpen"]},
+    "SubImp": {"s1":["disculpara","disculpase"],"s2":["disculparas","disculpases"],"vos":["disculparas","disculpases"],"s3":["disculpara","disculpase"],"p1":["disculpáramos","disculpásemos"],"p2":["disculparais","disculpaseis"],"p3":["disculparan","disculpasen"]},
+    "SubFut": {"s1":["disculpare"],"s2":["disculpares"],"vos":["disculpares"],"s3":["disculpare"],"p1":["disculpáremos"],"p2":["disculpareis"],"p3":["disculparen"]},
+    "CmdPos": {"s2":["disculpa"],"vos":["disculpá"],"s3":["disculpe"],"p1":["disculpemos"],"p2":["disculpad"],"p3":["disculpen"]}
+  }
+}

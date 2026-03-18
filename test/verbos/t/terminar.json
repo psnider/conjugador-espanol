@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪eɾmiˈnaɾ]",
+    "silabacion": "ter-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín termināre (\"delimitar\", \"definir\", \"terminar\"), del protoindoeuropeo *ter-. En la antigua Roma Terminus era la deidad de los lindes y las fronteras, y centro de la Terminalia, fiesta que marcaba el fin del año romano (23 de febrero).[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"terminar","gerundio":"terminando","participio":"terminado"},
+  "formas_personales": {
+    "IndPres": {"s1":["termino"],"s2":["terminas"],"vos":["terminás"],"s3":["termina"],"p1":["terminamos"],"p2":["termináis"],"p3":["terminan"]},
+    "IndImp": {"s1":["terminaba"],"s2":["terminabas"],"vos":["terminabas"],"s3":["terminaba"],"p1":["terminábamos"],"p2":["terminabais"],"p3":["terminaban"]},
+    "IndPret": {"s1":["terminé"],"s2":["terminaste"],"vos":["terminaste"],"s3":["terminó"],"p1":["terminamos"],"p2":["terminasteis"],"p3":["terminaron"]},
+    "IndFut": {"s1":["terminaré"],"s2":["terminarás"],"vos":["terminarás"],"s3":["terminará"],"p1":["terminaremos"],"p2":["terminaréis"],"p3":["terminarán"]},
+    "IndCond": {"s1":["terminaría"],"s2":["terminarías"],"vos":["terminarías"],"s3":["terminaría"],"p1":["terminaríamos"],"p2":["terminaríais"],"p3":["terminarían"]},
+    "SubPres": {"s1":["termine"],"s2":["termines"],"vos":["termines","terminés"],"s3":["termine"],"p1":["terminemos"],"p2":["terminéis"],"p3":["terminen"]},
+    "SubImp": {"s1":["terminara","terminase"],"s2":["terminaras","terminases"],"vos":["terminaras","terminases"],"s3":["terminara","terminase"],"p1":["termináramos","terminásemos"],"p2":["terminarais","terminaseis"],"p3":["terminaran","terminasen"]},
+    "SubFut": {"s1":["terminare"],"s2":["terminares"],"vos":["terminares"],"s3":["terminare"],"p1":["termináremos"],"p2":["terminareis"],"p3":["terminaren"]},
+    "CmdPos": {"s2":["termina"],"vos":["terminá"],"s3":["termine"],"p1":["terminemos"],"p2":["terminad"],"p3":["terminen"]}
+  }
+}

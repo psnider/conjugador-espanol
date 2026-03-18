@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[konekˈt̪aɾ]",
+    "silabacion": "co-nec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés connect",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conectar","gerundio":"conectando","participio":"conectado"},
+  "formas_personales": {
+    "IndPres": {"s1":["conecto"],"s2":["conectas"],"vos":["conectás"],"s3":["conecta"],"p1":["conectamos"],"p2":["conectáis"],"p3":["conectan"]},
+    "IndImp": {"s1":["conectaba"],"s2":["conectabas"],"vos":["conectabas"],"s3":["conectaba"],"p1":["conectábamos"],"p2":["conectabais"],"p3":["conectaban"]},
+    "IndPret": {"s1":["conecté"],"s2":["conectaste"],"vos":["conectaste"],"s3":["conectó"],"p1":["conectamos"],"p2":["conectasteis"],"p3":["conectaron"]},
+    "IndFut": {"s1":["conectaré"],"s2":["conectarás"],"vos":["conectarás"],"s3":["conectará"],"p1":["conectaremos"],"p2":["conectaréis"],"p3":["conectarán"]},
+    "IndCond": {"s1":["conectaría"],"s2":["conectarías"],"vos":["conectarías"],"s3":["conectaría"],"p1":["conectaríamos"],"p2":["conectaríais"],"p3":["conectarían"]},
+    "SubPres": {"s1":["conecte"],"s2":["conectes"],"vos":["conectes","conectés"],"s3":["conecte"],"p1":["conectemos"],"p2":["conectéis"],"p3":["conecten"]},
+    "SubImp": {"s1":["conectara","conectase"],"s2":["conectaras","conectases"],"vos":["conectaras","conectases"],"s3":["conectara","conectase"],"p1":["conectáramos","conectásemos"],"p2":["conectarais","conectaseis"],"p3":["conectaran","conectasen"]},
+    "SubFut": {"s1":["conectare"],"s2":["conectares"],"vos":["conectares"],"s3":["conectare"],"p1":["conectáremos"],"p2":["conectareis"],"p3":["conectaren"]},
+    "CmdPos": {"s2":["conecta"],"vos":["conectá"],"s3":["conecte"],"p1":["conectemos"],"p2":["conectad"],"p3":["conecten"]}
+  }
+}

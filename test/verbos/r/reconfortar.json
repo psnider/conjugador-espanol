@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekõɱfoɾˈt̪aɾ]",
+    "silabacion": "re-con-for-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reconfortar","gerundio":"reconfortando","participio":"reconfortado"},
+  "formas_personales": {
+    "IndPres": {"s1":["reconforto"],"s2":["reconfortas"],"vos":["reconfortás"],"s3":["reconforta"],"p1":["reconfortamos"],"p2":["reconfortáis"],"p3":["reconfortan"]},
+    "IndImp": {"s1":["reconfortaba"],"s2":["reconfortabas"],"vos":["reconfortabas"],"s3":["reconfortaba"],"p1":["reconfortábamos"],"p2":["reconfortabais"],"p3":["reconfortaban"]},
+    "IndPret": {"s1":["reconforté"],"s2":["reconfortaste"],"vos":["reconfortaste"],"s3":["reconfortó"],"p1":["reconfortamos"],"p2":["reconfortasteis"],"p3":["reconfortaron"]},
+    "IndFut": {"s1":["reconfortaré"],"s2":["reconfortarás"],"vos":["reconfortarás"],"s3":["reconfortará"],"p1":["reconfortaremos"],"p2":["reconfortaréis"],"p3":["reconfortarán"]},
+    "IndCond": {"s1":["reconfortaría"],"s2":["reconfortarías"],"vos":["reconfortarías"],"s3":["reconfortaría"],"p1":["reconfortaríamos"],"p2":["reconfortaríais"],"p3":["reconfortarían"]},
+    "SubPres": {"s1":["reconforte"],"s2":["reconfortes"],"vos":["reconfortes","reconfortés"],"s3":["reconforte"],"p1":["reconfortemos"],"p2":["reconfortéis"],"p3":["reconforten"]},
+    "SubImp": {"s1":["reconfortara","reconfortase"],"s2":["reconfortaras","reconfortases"],"vos":["reconfortaras","reconfortases"],"s3":["reconfortara","reconfortase"],"p1":["reconfortáramos","reconfortásemos"],"p2":["reconfortarais","reconfortaseis"],"p3":["reconfortaran","reconfortasen"]},
+    "SubFut": {"s1":["reconfortare"],"s2":["reconfortares"],"vos":["reconfortares"],"s3":["reconfortare"],"p1":["reconfortáremos"],"p2":["reconfortareis"],"p3":["reconfortaren"]},
+    "CmdPos": {"s2":["reconforta"],"vos":["reconfortá"],"s3":["reconforte"],"p1":["reconfortemos"],"p2":["reconfortad"],"p3":["reconforten"]}
+  }
+}

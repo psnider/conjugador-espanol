@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[last̪iˈmaɾ]",
+    "silabacion": "las-ti-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *blastēmāre, decir blasfemias, calumniar, alteración del tardío blasphēmāre, y este del griego βλασφημεῖν&nbsp;(blasphēmein). Compárese el catalán blasmar, el romanche blastmer y el rumano blestema, todos con el significado de «decir blasfemias».",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lastimar","gerundio":"lastimando","participio":"lastimado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lastimo"],"s2":["lastimas"],"vos":["lastimás"],"s3":["lastima"],"p1":["lastimamos"],"p2":["lastimáis"],"p3":["lastiman"]},
+    "IndImp": {"s1":["lastimaba"],"s2":["lastimabas"],"vos":["lastimabas"],"s3":["lastimaba"],"p1":["lastimábamos"],"p2":["lastimabais"],"p3":["lastimaban"]},
+    "IndPret": {"s1":["lastimé"],"s2":["lastimaste"],"vos":["lastimaste"],"s3":["lastimó"],"p1":["lastimamos"],"p2":["lastimasteis"],"p3":["lastimaron"]},
+    "IndFut": {"s1":["lastimaré"],"s2":["lastimarás"],"vos":["lastimarás"],"s3":["lastimará"],"p1":["lastimaremos"],"p2":["lastimaréis"],"p3":["lastimarán"]},
+    "IndCond": {"s1":["lastimaría"],"s2":["lastimarías"],"vos":["lastimarías"],"s3":["lastimaría"],"p1":["lastimaríamos"],"p2":["lastimaríais"],"p3":["lastimarían"]},
+    "SubPres": {"s1":["lastime"],"s2":["lastimes"],"vos":["lastimes","lastimés"],"s3":["lastime"],"p1":["lastimemos"],"p2":["lastiméis"],"p3":["lastimen"]},
+    "SubImp": {"s1":["lastimara","lastimase"],"s2":["lastimaras","lastimases"],"vos":["lastimaras","lastimases"],"s3":["lastimara","lastimase"],"p1":["lastimáramos","lastimásemos"],"p2":["lastimarais","lastimaseis"],"p3":["lastimaran","lastimasen"]},
+    "SubFut": {"s1":["lastimare"],"s2":["lastimares"],"vos":["lastimares"],"s3":["lastimare"],"p1":["lastimáremos"],"p2":["lastimareis"],"p3":["lastimaren"]},
+    "CmdPos": {"s2":["lastima"],"vos":["lastimá"],"s3":["lastime"],"p1":["lastimemos"],"p2":["lastimad"],"p3":["lastimen"]}
+  }
+}

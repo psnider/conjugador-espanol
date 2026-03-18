@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lokaliˈsaɾ]",
+    "silabacion": "lo-ca-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De local y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"localizar","gerundio":"localizando","participio":"localizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["localizo"],"s2":["localizas"],"vos":["localizás"],"s3":["localiza"],"p1":["localizamos"],"p2":["localizáis"],"p3":["localizan"]},
+    "IndImp": {"s1":["localizaba"],"s2":["localizabas"],"vos":["localizabas"],"s3":["localizaba"],"p1":["localizábamos"],"p2":["localizabais"],"p3":["localizaban"]},
+    "IndPret": {"s1":["localicé"],"s2":["localizaste"],"vos":["localizaste"],"s3":["localizó"],"p1":["localizamos"],"p2":["localizasteis"],"p3":["localizaron"]},
+    "IndFut": {"s1":["localizaré"],"s2":["localizarás"],"vos":["localizarás"],"s3":["localizará"],"p1":["localizaremos"],"p2":["localizaréis"],"p3":["localizarán"]},
+    "IndCond": {"s1":["localizaría"],"s2":["localizarías"],"vos":["localizarías"],"s3":["localizaría"],"p1":["localizaríamos"],"p2":["localizaríais"],"p3":["localizarían"]},
+    "SubPres": {"s1":["localice"],"s2":["localices"],"vos":["localices","localicés"],"s3":["localice"],"p1":["localicemos"],"p2":["localicéis"],"p3":["localicen"]},
+    "SubImp": {"s1":["localizara","localizase"],"s2":["localizaras","localizases"],"vos":["localizaras","localizases"],"s3":["localizara","localizase"],"p1":["localizáramos","localizásemos"],"p2":["localizarais","localizaseis"],"p3":["localizaran","localizasen"]},
+    "SubFut": {"s1":["localizare"],"s2":["localizares"],"vos":["localizares"],"s3":["localizare"],"p1":["localizáremos"],"p2":["localizareis"],"p3":["localizaren"]},
+    "CmdPos": {"s2":["localiza"],"vos":["localizá"],"s3":["localice"],"p1":["localicemos"],"p2":["localizad"],"p3":["localicen"]}
+  }
+}

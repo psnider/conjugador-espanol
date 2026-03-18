@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaˈɣ̞aɾ]",
+    "silabacion": "a-pa-gar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"apagar","gerundio":"apagando","participio":"apagado"},
+  "formas_personales": {
+    "IndPres": {"s1":["apago"],"s2":["apagas"],"vos":["apagás"],"s3":["apaga"],"p1":["apagamos"],"p2":["apagáis"],"p3":["apagan"]},
+    "IndImp": {"s1":["apagaba"],"s2":["apagabas"],"vos":["apagabas"],"s3":["apagaba"],"p1":["apagábamos"],"p2":["apagabais"],"p3":["apagaban"]},
+    "IndPret": {"s1":["apagué"],"s2":["apagaste"],"vos":["apagaste"],"s3":["apagó"],"p1":["apagamos"],"p2":["apagasteis"],"p3":["apagaron"]},
+    "IndFut": {"s1":["apagaré"],"s2":["apagarás"],"vos":["apagarás"],"s3":["apagará"],"p1":["apagaremos"],"p2":["apagaréis"],"p3":["apagarán"]},
+    "IndCond": {"s1":["apagaría"],"s2":["apagarías"],"vos":["apagarías"],"s3":["apagaría"],"p1":["apagaríamos"],"p2":["apagaríais"],"p3":["apagarían"]},
+    "SubPres": {"s1":["apague"],"s2":["apagues"],"vos":["apagues","apagués"],"s3":["apague"],"p1":["apaguemos"],"p2":["apaguéis"],"p3":["apaguen"]},
+    "SubImp": {"s1":["apagara","apagase"],"s2":["apagaras","apagases"],"vos":["apagaras","apagases"],"s3":["apagara","apagase"],"p1":["apagáramos","apagásemos"],"p2":["apagarais","apagaseis"],"p3":["apagaran","apagasen"]},
+    "SubFut": {"s1":["apagare"],"s2":["apagares"],"vos":["apagares"],"s3":["apagare"],"p1":["apagáremos"],"p2":["apagareis"],"p3":["apagaren"]},
+    "CmdPos": {"s2":["apaga"],"vos":["apagá"],"s3":["apague"],"p1":["apaguemos"],"p2":["apagad"],"p3":["apaguen"]}
+  }
+}

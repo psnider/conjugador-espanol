@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reɣ̞ɾeˈsaɾ]",
+    "silabacion": "re-gre-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De regreso y el sufijo -ar. Denominal de regreso.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"regresar","gerundio":"regresando","participio":"regresado"},
+  "formas_personales": {
+    "IndPres": {"s1":["regreso"],"s2":["regresas"],"vos":["regresás"],"s3":["regresa"],"p1":["regresamos"],"p2":["regresáis"],"p3":["regresan"]},
+    "IndImp": {"s1":["regresaba"],"s2":["regresabas"],"vos":["regresabas"],"s3":["regresaba"],"p1":["regresábamos"],"p2":["regresabais"],"p3":["regresaban"]},
+    "IndPret": {"s1":["regresé"],"s2":["regresaste"],"vos":["regresaste"],"s3":["regresó"],"p1":["regresamos"],"p2":["regresasteis"],"p3":["regresaron"]},
+    "IndFut": {"s1":["regresaré"],"s2":["regresarás"],"vos":["regresarás"],"s3":["regresará"],"p1":["regresaremos"],"p2":["regresaréis"],"p3":["regresarán"]},
+    "IndCond": {"s1":["regresaría"],"s2":["regresarías"],"vos":["regresarías"],"s3":["regresaría"],"p1":["regresaríamos"],"p2":["regresaríais"],"p3":["regresarían"]},
+    "SubPres": {"s1":["regrese"],"s2":["regreses"],"vos":["regreses","regresés"],"s3":["regrese"],"p1":["regresemos"],"p2":["regreséis"],"p3":["regresen"]},
+    "SubImp": {"s1":["regresara","regresase"],"s2":["regresaras","regresases"],"vos":["regresaras","regresases"],"s3":["regresara","regresase"],"p1":["regresáramos","regresásemos"],"p2":["regresarais","regresaseis"],"p3":["regresaran","regresasen"]},
+    "SubFut": {"s1":["regresare"],"s2":["regresares"],"vos":["regresares"],"s3":["regresare"],"p1":["regresáremos"],"p2":["regresareis"],"p3":["regresaren"]},
+    "CmdPos": {"s2":["regresa"],"vos":["regresá"],"s3":["regrese"],"p1":["regresemos"],"p2":["regresad"],"p3":["regresen"]}
+  }
+}

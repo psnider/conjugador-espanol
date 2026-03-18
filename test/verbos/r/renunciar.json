@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[renũnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín renuntiare.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"renunciar","gerundio":"renunciando","participio":"renunciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["renuncio"],"s2":["renuncias"],"vos":["renunciás"],"s3":["renuncia"],"p1":["renunciamos"],"p2":["renunciáis"],"p3":["renuncian"]},
+    "IndImp": {"s1":["renunciaba"],"s2":["renunciabas"],"vos":["renunciabas"],"s3":["renunciaba"],"p1":["renunciábamos"],"p2":["renunciabais"],"p3":["renunciaban"]},
+    "IndPret": {"s1":["renuncié"],"s2":["renunciaste"],"vos":["renunciaste"],"s3":["renunció"],"p1":["renunciamos"],"p2":["renunciasteis"],"p3":["renunciaron"]},
+    "IndFut": {"s1":["renunciaré"],"s2":["renunciarás"],"vos":["renunciarás"],"s3":["renunciará"],"p1":["renunciaremos"],"p2":["renunciaréis"],"p3":["renunciarán"]},
+    "IndCond": {"s1":["renunciaría"],"s2":["renunciarías"],"vos":["renunciarías"],"s3":["renunciaría"],"p1":["renunciaríamos"],"p2":["renunciaríais"],"p3":["renunciarían"]},
+    "SubPres": {"s1":["renuncie"],"s2":["renuncies"],"vos":["renuncies","renunciés"],"s3":["renuncie"],"p1":["renunciemos"],"p2":["renunciéis"],"p3":["renuncien"]},
+    "SubImp": {"s1":["renunciara","renunciase"],"s2":["renunciaras","renunciases"],"vos":["renunciaras","renunciases"],"s3":["renunciara","renunciase"],"p1":["renunciáramos","renunciásemos"],"p2":["renunciarais","renunciaseis"],"p3":["renunciaran","renunciasen"]},
+    "SubFut": {"s1":["renunciare"],"s2":["renunciares"],"vos":["renunciares"],"s3":["renunciare"],"p1":["renunciáremos"],"p2":["renunciareis"],"p3":["renunciaren"]},
+    "CmdPos": {"s2":["renuncia"],"vos":["renunciá"],"s3":["renuncie"],"p1":["renunciemos"],"p2":["renunciad"],"p3":["renuncien"]}
+  }
+}

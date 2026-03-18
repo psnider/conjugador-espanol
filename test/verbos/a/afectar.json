@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[afekˈt̪aɾ]",
+    "silabacion": "a-fec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín affectāre, frecuentativo del latín aficio (\"influir en el ánimo\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"afectar","gerundio":"afectando","participio":"afectado"},
+  "formas_personales": {
+    "IndPres": {"s1":["afecto"],"s2":["afectas"],"vos":["afectás"],"s3":["afecta"],"p1":["afectamos"],"p2":["afectáis"],"p3":["afectan"]},
+    "IndImp": {"s1":["afectaba"],"s2":["afectabas"],"vos":["afectabas"],"s3":["afectaba"],"p1":["afectábamos"],"p2":["afectabais"],"p3":["afectaban"]},
+    "IndPret": {"s1":["afecté"],"s2":["afectaste"],"vos":["afectaste"],"s3":["afectó"],"p1":["afectamos"],"p2":["afectasteis"],"p3":["afectaron"]},
+    "IndFut": {"s1":["afectaré"],"s2":["afectarás"],"vos":["afectarás"],"s3":["afectará"],"p1":["afectaremos"],"p2":["afectaréis"],"p3":["afectarán"]},
+    "IndCond": {"s1":["afectaría"],"s2":["afectarías"],"vos":["afectarías"],"s3":["afectaría"],"p1":["afectaríamos"],"p2":["afectaríais"],"p3":["afectarían"]},
+    "SubPres": {"s1":["afecte"],"s2":["afectes"],"vos":["afectes","afectés"],"s3":["afecte"],"p1":["afectemos"],"p2":["afectéis"],"p3":["afecten"]},
+    "SubImp": {"s1":["afectara","afectase"],"s2":["afectaras","afectases"],"vos":["afectaras","afectases"],"s3":["afectara","afectase"],"p1":["afectáramos","afectásemos"],"p2":["afectarais","afectaseis"],"p3":["afectaran","afectasen"]},
+    "SubFut": {"s1":["afectare"],"s2":["afectares"],"vos":["afectares"],"s3":["afectare"],"p1":["afectáremos"],"p2":["afectareis"],"p3":["afectaren"]},
+    "CmdPos": {"s2":["afecta"],"vos":["afectá"],"s3":["afecte"],"p1":["afectemos"],"p2":["afectad"],"p3":["afecten"]}
+  }
+}

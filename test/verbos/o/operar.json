@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[opeˈɾaɾ]",
+    "silabacion": "o-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín operare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"operar","gerundio":"operando","participio":"operado"},
+  "formas_personales": {
+    "IndPres": {"s1":["opero"],"s2":["operas"],"vos":["operás"],"s3":["opera"],"p1":["operamos"],"p2":["operáis"],"p3":["operan"]},
+    "IndImp": {"s1":["operaba"],"s2":["operabas"],"vos":["operabas"],"s3":["operaba"],"p1":["operábamos"],"p2":["operabais"],"p3":["operaban"]},
+    "IndPret": {"s1":["operé"],"s2":["operaste"],"vos":["operaste"],"s3":["operó"],"p1":["operamos"],"p2":["operasteis"],"p3":["operaron"]},
+    "IndFut": {"s1":["operaré"],"s2":["operarás"],"vos":["operarás"],"s3":["operará"],"p1":["operaremos"],"p2":["operaréis"],"p3":["operarán"]},
+    "IndCond": {"s1":["operaría"],"s2":["operarías"],"vos":["operarías"],"s3":["operaría"],"p1":["operaríamos"],"p2":["operaríais"],"p3":["operarían"]},
+    "SubPres": {"s1":["opere"],"s2":["operes"],"vos":["operes","operés"],"s3":["opere"],"p1":["operemos"],"p2":["operéis"],"p3":["operen"]},
+    "SubImp": {"s1":["operara","operase"],"s2":["operaras","operases"],"vos":["operaras","operases"],"s3":["operara","operase"],"p1":["operáramos","operásemos"],"p2":["operarais","operaseis"],"p3":["operaran","operasen"]},
+    "SubFut": {"s1":["operare"],"s2":["operares"],"vos":["operares"],"s3":["operare"],"p1":["operáremos"],"p2":["operareis"],"p3":["operaren"]},
+    "CmdPos": {"s2":["opera"],"vos":["operá"],"s3":["opere"],"p1":["operemos"],"p2":["operad"],"p3":["operen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suˈβ̞iɾ]",
+    "silabacion": "su-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del castellano antiguo subir y sobir ('subir'), y estos del latín subīre ('llegar').",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"subir","gerundio":"subiendo","participio":"subido"},
+  "formas_personales": {
+    "IndPres": {"s1":["subo"],"s2":["subes"],"vos":["subís"],"s3":["sube"],"p1":["subimos"],"p2":["subís"],"p3":["suben"]},
+    "IndImp": {"s1":["subía"],"s2":["subías"],"vos":["subías"],"s3":["subía"],"p1":["subíamos"],"p2":["subíais"],"p3":["subían"]},
+    "IndPret": {"s1":["subí"],"s2":["subiste"],"vos":["subiste"],"s3":["subió"],"p1":["subimos"],"p2":["subisteis"],"p3":["subieron"]},
+    "IndFut": {"s1":["subiré"],"s2":["subirás"],"vos":["subirás"],"s3":["subirá"],"p1":["subiremos"],"p2":["subiréis"],"p3":["subirán"]},
+    "IndCond": {"s1":["subiría"],"s2":["subirías"],"vos":["subirías"],"s3":["subiría"],"p1":["subiríamos"],"p2":["subiríais"],"p3":["subirían"]},
+    "SubPres": {"s1":["suba"],"s2":["subas"],"vos":["subas","subás"],"s3":["suba"],"p1":["subamos"],"p2":["subáis"],"p3":["suban"]},
+    "SubImp": {"s1":["subiera","subiese"],"s2":["subieras","subieses"],"vos":["subieras","subieses"],"s3":["subiera","subiese"],"p1":["subiéramos","subiésemos"],"p2":["subierais","subieseis"],"p3":["subieran","subiesen"]},
+    "SubFut": {"s1":["subiere"],"s2":["subieres"],"vos":["subieres"],"s3":["subiere"],"p1":["subiéremos"],"p2":["subiereis"],"p3":["subieren"]},
+    "CmdPos": {"s2":["sube"],"vos":["subí"],"s3":["suba"],"p1":["subamos"],"p2":["subid"],"p3":["suban"]}
+  }
+}

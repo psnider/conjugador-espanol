@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alimẽn̪ˈt̪aɾ]",
+    "silabacion": "a-li-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De alimento y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alimentar","gerundio":"alimentando","participio":"alimentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alimento"],"s2":["alimentas"],"vos":["alimentás"],"s3":["alimenta"],"p1":["alimentamos"],"p2":["alimentáis"],"p3":["alimentan"]},
+    "IndImp": {"s1":["alimentaba"],"s2":["alimentabas"],"vos":["alimentabas"],"s3":["alimentaba"],"p1":["alimentábamos"],"p2":["alimentabais"],"p3":["alimentaban"]},
+    "IndPret": {"s1":["alimenté"],"s2":["alimentaste"],"vos":["alimentaste"],"s3":["alimentó"],"p1":["alimentamos"],"p2":["alimentasteis"],"p3":["alimentaron"]},
+    "IndFut": {"s1":["alimentaré"],"s2":["alimentarás"],"vos":["alimentarás"],"s3":["alimentará"],"p1":["alimentaremos"],"p2":["alimentaréis"],"p3":["alimentarán"]},
+    "IndCond": {"s1":["alimentaría"],"s2":["alimentarías"],"vos":["alimentarías"],"s3":["alimentaría"],"p1":["alimentaríamos"],"p2":["alimentaríais"],"p3":["alimentarían"]},
+    "SubPres": {"s1":["alimente"],"s2":["alimentes"],"vos":["alimentes","alimentés"],"s3":["alimente"],"p1":["alimentemos"],"p2":["alimentéis"],"p3":["alimenten"]},
+    "SubImp": {"s1":["alimentara","alimentase"],"s2":["alimentaras","alimentases"],"vos":["alimentaras","alimentases"],"s3":["alimentara","alimentase"],"p1":["alimentáramos","alimentásemos"],"p2":["alimentarais","alimentaseis"],"p3":["alimentaran","alimentasen"]},
+    "SubFut": {"s1":["alimentare"],"s2":["alimentares"],"vos":["alimentares"],"s3":["alimentare"],"p1":["alimentáremos"],"p2":["alimentareis"],"p3":["alimentaren"]},
+    "CmdPos": {"s2":["alimenta"],"vos":["alimentá"],"s3":["alimente"],"p1":["alimentemos"],"p2":["alimentad"],"p3":["alimenten"]}
+  }
+}

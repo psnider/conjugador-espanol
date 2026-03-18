@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪usjasˈmaɾ]",
+    "silabacion": "en-tu-sias-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Denominal de entusiasmo. De entusiasmo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entusiasmar","gerundio":"entusiasmando","participio":"entusiasmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["entusiasmo"],"s2":["entusiasmas"],"vos":["entusiasmás"],"s3":["entusiasma"],"p1":["entusiasmamos"],"p2":["entusiasmáis"],"p3":["entusiasman"]},
+    "IndImp": {"s1":["entusiasmaba"],"s2":["entusiasmabas"],"vos":["entusiasmabas"],"s3":["entusiasmaba"],"p1":["entusiasmábamos"],"p2":["entusiasmabais"],"p3":["entusiasmaban"]},
+    "IndPret": {"s1":["entusiasmé"],"s2":["entusiasmaste"],"vos":["entusiasmaste"],"s3":["entusiasmó"],"p1":["entusiasmamos"],"p2":["entusiasmasteis"],"p3":["entusiasmaron"]},
+    "IndFut": {"s1":["entusiasmaré"],"s2":["entusiasmarás"],"vos":["entusiasmarás"],"s3":["entusiasmará"],"p1":["entusiasmaremos"],"p2":["entusiasmaréis"],"p3":["entusiasmarán"]},
+    "IndCond": {"s1":["entusiasmaría"],"s2":["entusiasmarías"],"vos":["entusiasmarías"],"s3":["entusiasmaría"],"p1":["entusiasmaríamos"],"p2":["entusiasmaríais"],"p3":["entusiasmarían"]},
+    "SubPres": {"s1":["entusiasme"],"s2":["entusiasmes"],"vos":["entusiasmes","entusiasmés"],"s3":["entusiasme"],"p1":["entusiasmemos"],"p2":["entusiasméis"],"p3":["entusiasmen"]},
+    "SubImp": {"s1":["entusiasmara","entusiasmase"],"s2":["entusiasmaras","entusiasmases"],"vos":["entusiasmaras","entusiasmases"],"s3":["entusiasmara","entusiasmase"],"p1":["entusiasmáramos","entusiasmásemos"],"p2":["entusiasmarais","entusiasmaseis"],"p3":["entusiasmaran","entusiasmasen"]},
+    "SubFut": {"s1":["entusiasmare"],"s2":["entusiasmares"],"vos":["entusiasmares"],"s3":["entusiasmare"],"p1":["entusiasmáremos"],"p2":["entusiasmareis"],"p3":["entusiasmaren"]},
+    "CmdPos": {"s2":["entusiasma"],"vos":["entusiasmá"],"s3":["entusiasme"],"p1":["entusiasmemos"],"p2":["entusiasmad"],"p3":["entusiasmen"]}
+  }
+}

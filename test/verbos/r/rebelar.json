@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞eˈlaɾ]",
+    "silabacion": "re-be-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rebellāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rebelar","gerundio":"rebelando","participio":"rebelado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rebelo"],"s2":["rebelas"],"vos":["rebelás"],"s3":["rebela"],"p1":["rebelamos"],"p2":["rebeláis"],"p3":["rebelan"]},
+    "IndImp": {"s1":["rebelaba"],"s2":["rebelabas"],"vos":["rebelabas"],"s3":["rebelaba"],"p1":["rebelábamos"],"p2":["rebelabais"],"p3":["rebelaban"]},
+    "IndPret": {"s1":["rebelé"],"s2":["rebelaste"],"vos":["rebelaste"],"s3":["rebeló"],"p1":["rebelamos"],"p2":["rebelasteis"],"p3":["rebelaron"]},
+    "IndFut": {"s1":["rebelaré"],"s2":["rebelarás"],"vos":["rebelarás"],"s3":["rebelará"],"p1":["rebelaremos"],"p2":["rebelaréis"],"p3":["rebelarán"]},
+    "IndCond": {"s1":["rebelaría"],"s2":["rebelarías"],"vos":["rebelarías"],"s3":["rebelaría"],"p1":["rebelaríamos"],"p2":["rebelaríais"],"p3":["rebelarían"]},
+    "SubPres": {"s1":["rebele"],"s2":["rebeles"],"vos":["rebeles","rebelés"],"s3":["rebele"],"p1":["rebelemos"],"p2":["rebeléis"],"p3":["rebelen"]},
+    "SubImp": {"s1":["rebelara","rebelase"],"s2":["rebelaras","rebelases"],"vos":["rebelaras","rebelases"],"s3":["rebelara","rebelase"],"p1":["rebeláramos","rebelásemos"],"p2":["rebelarais","rebelaseis"],"p3":["rebelaran","rebelasen"]},
+    "SubFut": {"s1":["rebelare"],"s2":["rebelares"],"vos":["rebelares"],"s3":["rebelare"],"p1":["rebeláremos"],"p2":["rebelareis"],"p3":["rebelaren"]},
+    "CmdPos": {"s2":["rebela"],"vos":["rebelá"],"s3":["rebele"],"p1":["rebelemos"],"p2":["rebelad"],"p3":["rebelen"]}
+  }
+}

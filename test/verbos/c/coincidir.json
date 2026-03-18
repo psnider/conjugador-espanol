@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõjnsiˈð̞iɾ]",
+    "silabacion": "coin-ci-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín coincidere, formado por el prefijo co- (lat. co,com), y el verbo incidere (\"ocurrir, caer en\").",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"coincidir","gerundio":"coincidiendo","participio":"coincidido"},
+  "formas_personales": {
+    "IndPres": {"s1":["coincido"],"s2":["coincides"],"vos":["coincidís"],"s3":["coincide"],"p1":["coincidimos"],"p2":["coincidís"],"p3":["coinciden"]},
+    "IndImp": {"s1":["coincidía"],"s2":["coincidías"],"vos":["coincidías"],"s3":["coincidía"],"p1":["coincidíamos"],"p2":["coincidíais"],"p3":["coincidían"]},
+    "IndPret": {"s1":["coincidí"],"s2":["coincidiste"],"vos":["coincidiste"],"s3":["coincidió"],"p1":["coincidimos"],"p2":["coincidisteis"],"p3":["coincidieron"]},
+    "IndFut": {"s1":["coincidiré"],"s2":["coincidirás"],"vos":["coincidirás"],"s3":["coincidirá"],"p1":["coincidiremos"],"p2":["coincidiréis"],"p3":["coincidirán"]},
+    "IndCond": {"s1":["coincidiría"],"s2":["coincidirías"],"vos":["coincidirías"],"s3":["coincidiría"],"p1":["coincidiríamos"],"p2":["coincidiríais"],"p3":["coincidirían"]},
+    "SubPres": {"s1":["coincida"],"s2":["coincidas"],"vos":["coincidas","coincidás"],"s3":["coincida"],"p1":["coincidamos"],"p2":["coincidáis"],"p3":["coincidan"]},
+    "SubImp": {"s1":["coincidiera","coincidiese"],"s2":["coincidieras","coincidieses"],"vos":["coincidieras","coincidieses"],"s3":["coincidiera","coincidiese"],"p1":["coincidiéramos","coincidiésemos"],"p2":["coincidierais","coincidieseis"],"p3":["coincidieran","coincidiesen"]},
+    "SubFut": {"s1":["coincidiere"],"s2":["coincidieres"],"vos":["coincidieres"],"s3":["coincidiere"],"p1":["coincidiéremos"],"p2":["coincidiereis"],"p3":["coincidieren"]},
+    "CmdPos": {"s2":["coincide"],"vos":["coincidí"],"s3":["coincida"],"p1":["coincidamos"],"p2":["coincidid"],"p3":["coincidan"]}
+  }
+}

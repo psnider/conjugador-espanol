@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnseˈɲaɾ]",
+    "silabacion": "en-se-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar insignare ('señalar')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enseñar","gerundio":"enseñando","participio":"enseñado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enseño"],"s2":["enseñas"],"vos":["enseñás"],"s3":["enseña"],"p1":["enseñamos"],"p2":["enseñáis"],"p3":["enseñan"]},
+    "IndImp": {"s1":["enseñaba"],"s2":["enseñabas"],"vos":["enseñabas"],"s3":["enseñaba"],"p1":["enseñábamos"],"p2":["enseñabais"],"p3":["enseñaban"]},
+    "IndPret": {"s1":["enseñé"],"s2":["enseñaste"],"vos":["enseñaste"],"s3":["enseñó"],"p1":["enseñamos"],"p2":["enseñasteis"],"p3":["enseñaron"]},
+    "IndFut": {"s1":["enseñaré"],"s2":["enseñarás"],"vos":["enseñarás"],"s3":["enseñará"],"p1":["enseñaremos"],"p2":["enseñaréis"],"p3":["enseñarán"]},
+    "IndCond": {"s1":["enseñaría"],"s2":["enseñarías"],"vos":["enseñarías"],"s3":["enseñaría"],"p1":["enseñaríamos"],"p2":["enseñaríais"],"p3":["enseñarían"]},
+    "SubPres": {"s1":["enseñe"],"s2":["enseñes"],"vos":["enseñes","enseñés"],"s3":["enseñe"],"p1":["enseñemos"],"p2":["enseñéis"],"p3":["enseñen"]},
+    "SubImp": {"s1":["enseñara","enseñase"],"s2":["enseñaras","enseñases"],"vos":["enseñaras","enseñases"],"s3":["enseñara","enseñase"],"p1":["enseñáramos","enseñásemos"],"p2":["enseñarais","enseñaseis"],"p3":["enseñaran","enseñasen"]},
+    "SubFut": {"s1":["enseñare"],"s2":["enseñares"],"vos":["enseñares"],"s3":["enseñare"],"p1":["enseñáremos"],"p2":["enseñareis"],"p3":["enseñaren"]},
+    "CmdPos": {"s2":["enseña"],"vos":["enseñá"],"s3":["enseñe"],"p1":["enseñemos"],"p2":["enseñad"],"p3":["enseñen"]}
+  }
+}

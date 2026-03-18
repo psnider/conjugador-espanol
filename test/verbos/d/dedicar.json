@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eð̞iˈkaɾ]",
+    "silabacion": "de-di-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dedicāre",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"dedicar","gerundio":"dedicando","participio":"dedicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["dedico"],"s2":["dedicas"],"vos":["dedicás"],"s3":["dedica"],"p1":["dedicamos"],"p2":["dedicáis"],"p3":["dedican"]},
+    "IndImp": {"s1":["dedicaba"],"s2":["dedicabas"],"vos":["dedicabas"],"s3":["dedicaba"],"p1":["dedicábamos"],"p2":["dedicabais"],"p3":["dedicaban"]},
+    "IndPret": {"s1":["dediqué"],"s2":["dedicaste"],"vos":["dedicaste"],"s3":["dedicó"],"p1":["dedicamos"],"p2":["dedicasteis"],"p3":["dedicaron"]},
+    "IndFut": {"s1":["dedicaré"],"s2":["dedicarás"],"vos":["dedicarás"],"s3":["dedicará"],"p1":["dedicaremos"],"p2":["dedicaréis"],"p3":["dedicarán"]},
+    "IndCond": {"s1":["dedicaría"],"s2":["dedicarías"],"vos":["dedicarías"],"s3":["dedicaría"],"p1":["dedicaríamos"],"p2":["dedicaríais"],"p3":["dedicarían"]},
+    "SubPres": {"s1":["dedique"],"s2":["dediques"],"vos":["dediques","dediqués"],"s3":["dedique"],"p1":["dediquemos"],"p2":["dediquéis"],"p3":["dediquen"]},
+    "SubImp": {"s1":["dedicara","dedicase"],"s2":["dedicaras","dedicases"],"vos":["dedicaras","dedicases"],"s3":["dedicara","dedicase"],"p1":["dedicáramos","dedicásemos"],"p2":["dedicarais","dedicaseis"],"p3":["dedicaran","dedicasen"]},
+    "SubFut": {"s1":["dedicare"],"s2":["dedicares"],"vos":["dedicares"],"s3":["dedicare"],"p1":["dedicáremos"],"p2":["dedicareis"],"p3":["dedicaren"]},
+    "CmdPos": {"s2":["dedica"],"vos":["dedicá"],"s3":["dedique"],"p1":["dediquemos"],"p2":["dedicad"],"p3":["dediquen"]}
+  }
+}

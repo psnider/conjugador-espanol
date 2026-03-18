@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kalkuˈlaɾ]",
+    "silabacion": "cal-cu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín calculāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"calcular","gerundio":"calculando","participio":"calculado"},
+  "formas_personales": {
+    "IndPres": {"s1":["calculo"],"s2":["calculas"],"vos":["calculás"],"s3":["calcula"],"p1":["calculamos"],"p2":["calculáis"],"p3":["calculan"]},
+    "IndImp": {"s1":["calculaba"],"s2":["calculabas"],"vos":["calculabas"],"s3":["calculaba"],"p1":["calculábamos"],"p2":["calculabais"],"p3":["calculaban"]},
+    "IndPret": {"s1":["calculé"],"s2":["calculaste"],"vos":["calculaste"],"s3":["calculó"],"p1":["calculamos"],"p2":["calculasteis"],"p3":["calcularon"]},
+    "IndFut": {"s1":["calcularé"],"s2":["calcularás"],"vos":["calcularás"],"s3":["calculará"],"p1":["calcularemos"],"p2":["calcularéis"],"p3":["calcularán"]},
+    "IndCond": {"s1":["calcularía"],"s2":["calcularías"],"vos":["calcularías"],"s3":["calcularía"],"p1":["calcularíamos"],"p2":["calcularíais"],"p3":["calcularían"]},
+    "SubPres": {"s1":["calcule"],"s2":["calcules"],"vos":["calcules","calculés"],"s3":["calcule"],"p1":["calculemos"],"p2":["calculéis"],"p3":["calculen"]},
+    "SubImp": {"s1":["calculara","calculase"],"s2":["calcularas","calculases"],"vos":["calcularas","calculases"],"s3":["calculara","calculase"],"p1":["calculáramos","calculásemos"],"p2":["calcularais","calculaseis"],"p3":["calcularan","calculasen"]},
+    "SubFut": {"s1":["calculare"],"s2":["calculares"],"vos":["calculares"],"s3":["calculare"],"p1":["calculáremos"],"p2":["calculareis"],"p3":["calcularen"]},
+    "CmdPos": {"s2":["calcula"],"vos":["calculá"],"s3":["calcule"],"p1":["calculemos"],"p2":["calculad"],"p3":["calculen"]}
+  }
+}

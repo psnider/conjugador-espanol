@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resul̪ˈt̪aɾ]",
+    "silabacion": "re-sul-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín resultāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"resultar","gerundio":"resultando","participio":"resultado"},
+  "formas_personales": {
+    "IndPres": {"s1":["resulto"],"s2":["resultas"],"vos":["resultás"],"s3":["resulta"],"p1":["resultamos"],"p2":["resultáis"],"p3":["resultan"]},
+    "IndImp": {"s1":["resultaba"],"s2":["resultabas"],"vos":["resultabas"],"s3":["resultaba"],"p1":["resultábamos"],"p2":["resultabais"],"p3":["resultaban"]},
+    "IndPret": {"s1":["resulté"],"s2":["resultaste"],"vos":["resultaste"],"s3":["resultó"],"p1":["resultamos"],"p2":["resultasteis"],"p3":["resultaron"]},
+    "IndFut": {"s1":["resultaré"],"s2":["resultarás"],"vos":["resultarás"],"s3":["resultará"],"p1":["resultaremos"],"p2":["resultaréis"],"p3":["resultarán"]},
+    "IndCond": {"s1":["resultaría"],"s2":["resultarías"],"vos":["resultarías"],"s3":["resultaría"],"p1":["resultaríamos"],"p2":["resultaríais"],"p3":["resultarían"]},
+    "SubPres": {"s1":["resulte"],"s2":["resultes"],"vos":["resultes","resultés"],"s3":["resulte"],"p1":["resultemos"],"p2":["resultéis"],"p3":["resulten"]},
+    "SubImp": {"s1":["resultara","resultase"],"s2":["resultaras","resultases"],"vos":["resultaras","resultases"],"s3":["resultara","resultase"],"p1":["resultáramos","resultásemos"],"p2":["resultarais","resultaseis"],"p3":["resultaran","resultasen"]},
+    "SubFut": {"s1":["resultare"],"s2":["resultares"],"vos":["resultares"],"s3":["resultare"],"p1":["resultáremos"],"p2":["resultareis"],"p3":["resultaren"]},
+    "CmdPos": {"s2":["resulta"],"vos":["resultá"],"s3":["resulte"],"p1":["resultemos"],"p2":["resultad"],"p3":["resulten"]}
+  }
+}

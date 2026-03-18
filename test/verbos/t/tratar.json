@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaˈt̪aɾ]",
+    "silabacion": "tra-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Semicultismo. Del latín tractāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tratar","gerundio":"tratando","participio":"tratado"},
+  "formas_personales": {
+    "IndPres": {"s1":["trato"],"s2":["tratas"],"vos":["tratás"],"s3":["trata"],"p1":["tratamos"],"p2":["tratáis"],"p3":["tratan"]},
+    "IndImp": {"s1":["trataba"],"s2":["tratabas"],"vos":["tratabas"],"s3":["trataba"],"p1":["tratábamos"],"p2":["tratabais"],"p3":["trataban"]},
+    "IndPret": {"s1":["traté"],"s2":["trataste"],"vos":["trataste"],"s3":["trató"],"p1":["tratamos"],"p2":["tratasteis"],"p3":["trataron"]},
+    "IndFut": {"s1":["trataré"],"s2":["tratarás"],"vos":["tratarás"],"s3":["tratará"],"p1":["trataremos"],"p2":["trataréis"],"p3":["tratarán"]},
+    "IndCond": {"s1":["trataría"],"s2":["tratarías"],"vos":["tratarías"],"s3":["trataría"],"p1":["trataríamos"],"p2":["trataríais"],"p3":["tratarían"]},
+    "SubPres": {"s1":["trate"],"s2":["trates"],"vos":["trates","tratés"],"s3":["trate"],"p1":["tratemos"],"p2":["tratéis"],"p3":["traten"]},
+    "SubImp": {"s1":["tratara","tratase"],"s2":["trataras","tratases"],"vos":["trataras","tratases"],"s3":["tratara","tratase"],"p1":["tratáramos","tratásemos"],"p2":["tratarais","trataseis"],"p3":["trataran","tratasen"]},
+    "SubFut": {"s1":["tratare"],"s2":["tratares"],"vos":["tratares"],"s3":["tratare"],"p1":["tratáremos"],"p2":["tratareis"],"p3":["trataren"]},
+    "CmdPos": {"s2":["trata"],"vos":["tratá"],"s3":["trate"],"p1":["tratemos"],"p2":["tratad"],"p3":["traten"]}
+  }
+}

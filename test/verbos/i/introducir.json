@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪ɾoð̞uˈsiɾ]",
+    "silabacion": "in-tro-du-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín introducere.",
+    "modelos": ["producir"]
+  },
+  "formas_no_personales": {"infinitivo":"introducir","gerundio":"introduciendo","participio":"introducido"},
+  "formas_personales": {
+    "IndPres": {"s1":["introduzco"],"s2":["introduces"],"vos":["introducís"],"s3":["introduce"],"p1":["introducimos"],"p2":["introducís"],"p3":["introducen"]},
+    "IndImp": {"s1":["introducía"],"s2":["introducías"],"vos":["introducías"],"s3":["introducía"],"p1":["introducíamos"],"p2":["introducíais"],"p3":["introducían"]},
+    "IndPret": {"s1":["introduje"],"s2":["introdujiste"],"vos":["introdujiste"],"s3":["introdujo"],"p1":["introdujimos"],"p2":["introdujisteis"],"p3":["introdujeron"]},
+    "IndFut": {"s1":["introduciré"],"s2":["introducirás"],"vos":["introducirás"],"s3":["introducirá"],"p1":["introduciremos"],"p2":["introduciréis"],"p3":["introducirán"]},
+    "IndCond": {"s1":["introduciría"],"s2":["introducirías"],"vos":["introducirías"],"s3":["introduciría"],"p1":["introduciríamos"],"p2":["introduciríais"],"p3":["introducirían"]},
+    "SubPres": {"s1":["introduzca"],"s2":["introduzcas"],"vos":["introduzcas","introduzcás"],"s3":["introduzca"],"p1":["introduzcamos"],"p2":["introduzcáis"],"p3":["introduzcan"]},
+    "SubImp": {"s1":["introdujera","introdujese"],"s2":["introdujeras","introdujeses"],"vos":["introdujeras","introdujeses"],"s3":["introdujera","introdujese"],"p1":["introdujéramos","introdujésemos"],"p2":["introdujerais","introdujeseis"],"p3":["introdujeran","introdujesen"]},
+    "SubFut": {"s1":["introdujere"],"s2":["introdujeres"],"vos":["introdujeres"],"s3":["introdujere"],"p1":["introdujéremos"],"p2":["introdujereis"],"p3":["introdujeren"]},
+    "CmdPos": {"s2":["introduce"],"vos":["introducí"],"s3":["introduzca"],"p1":["introduzcamos"],"p2":["introducid"],"p3":["introduzcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alkãnˈsaɾ]",
+    "silabacion": "al-can-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incalciāre (a su vez de calx&nbsp;('talón')), con posible influencia del artículo árabe ال&nbsp;(al,&nbsp;'el').[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"alcanzar","gerundio":"alcanzando","participio":"alcanzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alcanzo"],"s2":["alcanzas"],"vos":["alcanzás"],"s3":["alcanza"],"p1":["alcanzamos"],"p2":["alcanzáis"],"p3":["alcanzan"]},
+    "IndImp": {"s1":["alcanzaba"],"s2":["alcanzabas"],"vos":["alcanzabas"],"s3":["alcanzaba"],"p1":["alcanzábamos"],"p2":["alcanzabais"],"p3":["alcanzaban"]},
+    "IndPret": {"s1":["alcancé"],"s2":["alcanzaste"],"vos":["alcanzaste"],"s3":["alcanzó"],"p1":["alcanzamos"],"p2":["alcanzasteis"],"p3":["alcanzaron"]},
+    "IndFut": {"s1":["alcanzaré"],"s2":["alcanzarás"],"vos":["alcanzarás"],"s3":["alcanzará"],"p1":["alcanzaremos"],"p2":["alcanzaréis"],"p3":["alcanzarán"]},
+    "IndCond": {"s1":["alcanzaría"],"s2":["alcanzarías"],"vos":["alcanzarías"],"s3":["alcanzaría"],"p1":["alcanzaríamos"],"p2":["alcanzaríais"],"p3":["alcanzarían"]},
+    "SubPres": {"s1":["alcance"],"s2":["alcances"],"vos":["alcances","alcancés"],"s3":["alcance"],"p1":["alcancemos"],"p2":["alcancéis"],"p3":["alcancen"]},
+    "SubImp": {"s1":["alcanzara","alcanzase"],"s2":["alcanzaras","alcanzases"],"vos":["alcanzaras","alcanzases"],"s3":["alcanzara","alcanzase"],"p1":["alcanzáramos","alcanzásemos"],"p2":["alcanzarais","alcanzaseis"],"p3":["alcanzaran","alcanzasen"]},
+    "SubFut": {"s1":["alcanzare"],"s2":["alcanzares"],"vos":["alcanzares"],"s3":["alcanzare"],"p1":["alcanzáremos"],"p2":["alcanzareis"],"p3":["alcanzaren"]},
+    "CmdPos": {"s2":["alcanza"],"vos":["alcanzá"],"s3":["alcance"],"p1":["alcancemos"],"p2":["alcanzad"],"p3":["alcancen"]}
+  }
+}

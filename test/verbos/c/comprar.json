@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmˈpɾaɾ]",
+    "silabacion": "com-prar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *comperāre, del latín comparare. Doblete con comparar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"comprar","gerundio":"comprando","participio":"comprado"},
+  "formas_personales": {
+    "IndPres": {"s1":["compro"],"s2":["compras"],"vos":["comprás"],"s3":["compra"],"p1":["compramos"],"p2":["compráis"],"p3":["compran"]},
+    "IndImp": {"s1":["compraba"],"s2":["comprabas"],"vos":["comprabas"],"s3":["compraba"],"p1":["comprábamos"],"p2":["comprabais"],"p3":["compraban"]},
+    "IndPret": {"s1":["compré"],"s2":["compraste"],"vos":["compraste"],"s3":["compró"],"p1":["compramos"],"p2":["comprasteis"],"p3":["compraron"]},
+    "IndFut": {"s1":["compraré"],"s2":["comprarás"],"vos":["comprarás"],"s3":["comprará"],"p1":["compraremos"],"p2":["compraréis"],"p3":["comprarán"]},
+    "IndCond": {"s1":["compraría"],"s2":["comprarías"],"vos":["comprarías"],"s3":["compraría"],"p1":["compraríamos"],"p2":["compraríais"],"p3":["comprarían"]},
+    "SubPres": {"s1":["compre"],"s2":["compres"],"vos":["compres","comprés"],"s3":["compre"],"p1":["compremos"],"p2":["compréis"],"p3":["compren"]},
+    "SubImp": {"s1":["comprara","comprase"],"s2":["compraras","comprases"],"vos":["compraras","comprases"],"s3":["comprara","comprase"],"p1":["compráramos","comprásemos"],"p2":["comprarais","compraseis"],"p3":["compraran","comprasen"]},
+    "SubFut": {"s1":["comprare"],"s2":["comprares"],"vos":["comprares"],"s3":["comprare"],"p1":["compráremos"],"p2":["comprareis"],"p3":["compraren"]},
+    "CmdPos": {"s2":["compra"],"vos":["comprá"],"s3":["compre"],"p1":["compremos"],"p2":["comprad"],"p3":["compren"]}
+  }
+}

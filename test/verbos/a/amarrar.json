@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amaˈraɾ]",
+    "silabacion": "a-ma-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés amarrer, y este del neerlandés anmarren&nbsp;('atar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amarrar","gerundio":"amarrando","participio":"amarrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amarro"],"s2":["amarras"],"vos":["amarrás"],"s3":["amarra"],"p1":["amarramos"],"p2":["amarráis"],"p3":["amarran"]},
+    "IndImp": {"s1":["amarraba"],"s2":["amarrabas"],"vos":["amarrabas"],"s3":["amarraba"],"p1":["amarrábamos"],"p2":["amarrabais"],"p3":["amarraban"]},
+    "IndPret": {"s1":["amarré"],"s2":["amarraste"],"vos":["amarraste"],"s3":["amarró"],"p1":["amarramos"],"p2":["amarrasteis"],"p3":["amarraron"]},
+    "IndFut": {"s1":["amarraré"],"s2":["amarrarás"],"vos":["amarrarás"],"s3":["amarrará"],"p1":["amarraremos"],"p2":["amarraréis"],"p3":["amarrarán"]},
+    "IndCond": {"s1":["amarraría"],"s2":["amarrarías"],"vos":["amarrarías"],"s3":["amarraría"],"p1":["amarraríamos"],"p2":["amarraríais"],"p3":["amarrarían"]},
+    "SubPres": {"s1":["amarre"],"s2":["amarres"],"vos":["amarres","amarrés"],"s3":["amarre"],"p1":["amarremos"],"p2":["amarréis"],"p3":["amarren"]},
+    "SubImp": {"s1":["amarrara","amarrase"],"s2":["amarraras","amarrases"],"vos":["amarraras","amarrases"],"s3":["amarrara","amarrase"],"p1":["amarráramos","amarrásemos"],"p2":["amarrarais","amarraseis"],"p3":["amarraran","amarrasen"]},
+    "SubFut": {"s1":["amarrare"],"s2":["amarrares"],"vos":["amarrares"],"s3":["amarrare"],"p1":["amarráremos"],"p2":["amarrareis"],"p3":["amarraren"]},
+    "CmdPos": {"s2":["amarra"],"vos":["amarrá"],"s3":["amarre"],"p1":["amarremos"],"p2":["amarrad"],"p3":["amarren"]}
+  }
+}

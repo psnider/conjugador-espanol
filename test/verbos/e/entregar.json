@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾeˈɣ̞aɾ]",
+    "silabacion": "en-tre-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín integrare ('restituir a su primer estado') (Dice el DRAE)",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"entregar","gerundio":"entregando","participio":"entregado"},
+  "formas_personales": {
+    "IndPres": {"s1":["entrego"],"s2":["entregas"],"vos":["entregás"],"s3":["entrega"],"p1":["entregamos"],"p2":["entregáis"],"p3":["entregan"]},
+    "IndImp": {"s1":["entregaba"],"s2":["entregabas"],"vos":["entregabas"],"s3":["entregaba"],"p1":["entregábamos"],"p2":["entregabais"],"p3":["entregaban"]},
+    "IndPret": {"s1":["entregué"],"s2":["entregaste"],"vos":["entregaste"],"s3":["entregó"],"p1":["entregamos"],"p2":["entregasteis"],"p3":["entregaron"]},
+    "IndFut": {"s1":["entregaré"],"s2":["entregarás"],"vos":["entregarás"],"s3":["entregará"],"p1":["entregaremos"],"p2":["entregaréis"],"p3":["entregarán"]},
+    "IndCond": {"s1":["entregaría"],"s2":["entregarías"],"vos":["entregarías"],"s3":["entregaría"],"p1":["entregaríamos"],"p2":["entregaríais"],"p3":["entregarían"]},
+    "SubPres": {"s1":["entregue"],"s2":["entregues"],"vos":["entregues","entregués"],"s3":["entregue"],"p1":["entreguemos"],"p2":["entreguéis"],"p3":["entreguen"]},
+    "SubImp": {"s1":["entregara","entregase"],"s2":["entregaras","entregases"],"vos":["entregaras","entregases"],"s3":["entregara","entregase"],"p1":["entregáramos","entregásemos"],"p2":["entregarais","entregaseis"],"p3":["entregaran","entregasen"]},
+    "SubFut": {"s1":["entregare"],"s2":["entregares"],"vos":["entregares"],"s3":["entregare"],"p1":["entregáremos"],"p2":["entregareis"],"p3":["entregaren"]},
+    "CmdPos": {"s2":["entrega"],"vos":["entregá"],"s3":["entregue"],"p1":["entreguemos"],"p2":["entregad"],"p3":["entreguen"]}
+  }
+}

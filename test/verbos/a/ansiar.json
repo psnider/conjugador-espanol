@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín anxiāre.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"ansiar","gerundio":"ansiando","participio":"ansiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ansío"],"s2":["ansías"],"vos":["ansiás"],"s3":["ansía"],"p1":["ansiamos"],"p2":["ansiáis"],"p3":["ansían"]},
+    "IndImp": {"s1":["ansiaba"],"s2":["ansiabas"],"vos":["ansiabas"],"s3":["ansiaba"],"p1":["ansiábamos"],"p2":["ansiabais"],"p3":["ansiaban"]},
+    "IndPret": {"s1":["ansié"],"s2":["ansiaste"],"vos":["ansiaste"],"s3":["ansió"],"p1":["ansiamos"],"p2":["ansiasteis"],"p3":["ansiaron"]},
+    "IndFut": {"s1":["ansiaré"],"s2":["ansiarás"],"vos":["ansiarás"],"s3":["ansiará"],"p1":["ansiaremos"],"p2":["ansiaréis"],"p3":["ansiarán"]},
+    "IndCond": {"s1":["ansiaría"],"s2":["ansiarías"],"vos":["ansiarías"],"s3":["ansiaría"],"p1":["ansiaríamos"],"p2":["ansiaríais"],"p3":["ansiarían"]},
+    "SubPres": {"s1":["ansíe"],"s2":["ansíes"],"vos":["ansíes","ansiés"],"s3":["ansíe"],"p1":["ansiemos"],"p2":["ansiéis"],"p3":["ansíen"]},
+    "SubImp": {"s1":["ansiara","ansiase"],"s2":["ansiaras","ansiases"],"vos":["ansiaras","ansiases"],"s3":["ansiara","ansiase"],"p1":["ansiáramos","ansiásemos"],"p2":["ansiarais","ansiaseis"],"p3":["ansiaran","ansiasen"]},
+    "SubFut": {"s1":["ansiare"],"s2":["ansiares"],"vos":["ansiares"],"s3":["ansiare"],"p1":["ansiáremos"],"p2":["ansiareis"],"p3":["ansiaren"]},
+    "CmdPos": {"s2":["ansía"],"vos":["ansiá"],"s3":["ansíe"],"p1":["ansiemos"],"p2":["ansiad"],"p3":["ansíen"]}
+  }
+}

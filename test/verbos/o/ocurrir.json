@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[okuˈriɾ]",
+    "silabacion": "o-cu-rrir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín occurrĕre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"ocurrir","gerundio":"ocurriendo","participio":"ocurrido"},
+  "formas_personales": {
+    "IndPres": {"s1":["ocurro"],"s2":["ocurres"],"vos":["ocurrís"],"s3":["ocurre"],"p1":["ocurrimos"],"p2":["ocurrís"],"p3":["ocurren"]},
+    "IndImp": {"s1":["ocurría"],"s2":["ocurrías"],"vos":["ocurrías"],"s3":["ocurría"],"p1":["ocurríamos"],"p2":["ocurríais"],"p3":["ocurrían"]},
+    "IndPret": {"s1":["ocurrí"],"s2":["ocurriste"],"vos":["ocurriste"],"s3":["ocurrió"],"p1":["ocurrimos"],"p2":["ocurristeis"],"p3":["ocurrieron"]},
+    "IndFut": {"s1":["ocurriré"],"s2":["ocurrirás"],"vos":["ocurrirás"],"s3":["ocurrirá"],"p1":["ocurriremos"],"p2":["ocurriréis"],"p3":["ocurrirán"]},
+    "IndCond": {"s1":["ocurriría"],"s2":["ocurrirías"],"vos":["ocurrirías"],"s3":["ocurriría"],"p1":["ocurriríamos"],"p2":["ocurriríais"],"p3":["ocurrirían"]},
+    "SubPres": {"s1":["ocurra"],"s2":["ocurras"],"vos":["ocurras","ocurrás"],"s3":["ocurra"],"p1":["ocurramos"],"p2":["ocurráis"],"p3":["ocurran"]},
+    "SubImp": {"s1":["ocurriera","ocurriese"],"s2":["ocurrieras","ocurrieses"],"vos":["ocurrieras","ocurrieses"],"s3":["ocurriera","ocurriese"],"p1":["ocurriéramos","ocurriésemos"],"p2":["ocurrierais","ocurrieseis"],"p3":["ocurrieran","ocurriesen"]},
+    "SubFut": {"s1":["ocurriere"],"s2":["ocurrieres"],"vos":["ocurrieres"],"s3":["ocurriere"],"p1":["ocurriéremos"],"p2":["ocurriereis"],"p3":["ocurrieren"]},
+    "CmdPos": {"s2":["ocurre"],"vos":["ocurrí"],"s3":["ocurra"],"p1":["ocurramos"],"p2":["ocurrid"],"p3":["ocurran"]}
+  }
+}

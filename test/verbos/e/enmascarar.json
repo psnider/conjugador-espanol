@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmmaskaˈɾaɾ]",
+    "silabacion": "en-mas-ca-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, máscara y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enmascarar","gerundio":"enmascarando","participio":"enmascarado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enmascaro"],"s2":["enmascaras"],"vos":["enmascarás"],"s3":["enmascara"],"p1":["enmascaramos"],"p2":["enmascaráis"],"p3":["enmascaran"]},
+    "IndImp": {"s1":["enmascaraba"],"s2":["enmascarabas"],"vos":["enmascarabas"],"s3":["enmascaraba"],"p1":["enmascarábamos"],"p2":["enmascarabais"],"p3":["enmascaraban"]},
+    "IndPret": {"s1":["enmascaré"],"s2":["enmascaraste"],"vos":["enmascaraste"],"s3":["enmascaró"],"p1":["enmascaramos"],"p2":["enmascarasteis"],"p3":["enmascararon"]},
+    "IndFut": {"s1":["enmascararé"],"s2":["enmascararás"],"vos":["enmascararás"],"s3":["enmascarará"],"p1":["enmascararemos"],"p2":["enmascararéis"],"p3":["enmascararán"]},
+    "IndCond": {"s1":["enmascararía"],"s2":["enmascararías"],"vos":["enmascararías"],"s3":["enmascararía"],"p1":["enmascararíamos"],"p2":["enmascararíais"],"p3":["enmascararían"]},
+    "SubPres": {"s1":["enmascare"],"s2":["enmascares"],"vos":["enmascares","enmascarés"],"s3":["enmascare"],"p1":["enmascaremos"],"p2":["enmascaréis"],"p3":["enmascaren"]},
+    "SubImp": {"s1":["enmascarara","enmascarase"],"s2":["enmascararas","enmascarases"],"vos":["enmascararas","enmascarases"],"s3":["enmascarara","enmascarase"],"p1":["enmascaráramos","enmascarásemos"],"p2":["enmascararais","enmascaraseis"],"p3":["enmascararan","enmascarasen"]},
+    "SubFut": {"s1":["enmascarare"],"s2":["enmascarares"],"vos":["enmascarares"],"s3":["enmascarare"],"p1":["enmascaráremos"],"p2":["enmascarareis"],"p3":["enmascararen"]},
+    "CmdPos": {"s2":["enmascara"],"vos":["enmascará"],"s3":["enmascare"],"p1":["enmascaremos"],"p2":["enmascarad"],"p3":["enmascaren"]}
+  }
+}

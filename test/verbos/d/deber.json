@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eˈβ̞eɾ]",
+    "silabacion": "de-ber",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín debere.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"deber","gerundio":"debiendo","participio":"debido"},
+  "formas_personales": {
+    "IndPres": {"s1":["debo"],"s2":["debes"],"vos":["debés"],"s3":["debe"],"p1":["debemos"],"p2":["debéis"],"p3":["deben"]},
+    "IndImp": {"s1":["debía"],"s2":["debías"],"vos":["debías"],"s3":["debía"],"p1":["debíamos"],"p2":["debíais"],"p3":["debían"]},
+    "IndPret": {"s1":["debí"],"s2":["debiste"],"vos":["debiste"],"s3":["debió"],"p1":["debimos"],"p2":["debisteis"],"p3":["debieron"]},
+    "IndFut": {"s1":["deberé"],"s2":["deberás"],"vos":["deberás"],"s3":["deberá"],"p1":["deberemos"],"p2":["deberéis"],"p3":["deberán"]},
+    "IndCond": {"s1":["debería"],"s2":["deberías"],"vos":["deberías"],"s3":["debería"],"p1":["deberíamos"],"p2":["deberíais"],"p3":["deberían"]},
+    "SubPres": {"s1":["deba"],"s2":["debas"],"vos":["debas","debás"],"s3":["deba"],"p1":["debamos"],"p2":["debáis"],"p3":["deban"]},
+    "SubImp": {"s1":["debiera","debiese"],"s2":["debieras","debieses"],"vos":["debieras","debieses"],"s3":["debiera","debiese"],"p1":["debiéramos","debiésemos"],"p2":["debierais","debieseis"],"p3":["debieran","debiesen"]},
+    "SubFut": {"s1":["debiere"],"s2":["debieres"],"vos":["debieres"],"s3":["debiere"],"p1":["debiéremos"],"p2":["debiereis"],"p3":["debieren"]},
+    "CmdPos": {"s2":["debe"],"vos":["debé"],"s3":["deba"],"p1":["debamos"],"p2":["debed"],"p3":["deban"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kãn̪ˈt̪aɾ]",
+    "silabacion": "can-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cantare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cantar","gerundio":"cantando","participio":"cantado"},
+  "formas_personales": {
+    "IndPres": {"s1":["canto"],"s2":["cantas"],"vos":["cantás"],"s3":["canta"],"p1":["cantamos"],"p2":["cantáis"],"p3":["cantan"]},
+    "IndImp": {"s1":["cantaba"],"s2":["cantabas"],"vos":["cantabas"],"s3":["cantaba"],"p1":["cantábamos"],"p2":["cantabais"],"p3":["cantaban"]},
+    "IndPret": {"s1":["canté"],"s2":["cantaste"],"vos":["cantaste"],"s3":["cantó"],"p1":["cantamos"],"p2":["cantasteis"],"p3":["cantaron"]},
+    "IndFut": {"s1":["cantaré"],"s2":["cantarás"],"vos":["cantarás"],"s3":["cantará"],"p1":["cantaremos"],"p2":["cantaréis"],"p3":["cantarán"]},
+    "IndCond": {"s1":["cantaría"],"s2":["cantarías"],"vos":["cantarías"],"s3":["cantaría"],"p1":["cantaríamos"],"p2":["cantaríais"],"p3":["cantarían"]},
+    "SubPres": {"s1":["cante"],"s2":["cantes"],"vos":["cantes","cantés"],"s3":["cante"],"p1":["cantemos"],"p2":["cantéis"],"p3":["canten"]},
+    "SubImp": {"s1":["cantara","cantase"],"s2":["cantaras","cantases"],"vos":["cantaras","cantases"],"s3":["cantara","cantase"],"p1":["cantáramos","cantásemos"],"p2":["cantarais","cantaseis"],"p3":["cantaran","cantasen"]},
+    "SubFut": {"s1":["cantare"],"s2":["cantares"],"vos":["cantares"],"s3":["cantare"],"p1":["cantáremos"],"p2":["cantareis"],"p3":["cantaren"]},
+    "CmdPos": {"s2":["canta"],"vos":["cantá"],"s3":["cante"],"p1":["cantemos"],"p2":["cantad"],"p3":["canten"]}
+  }
+}

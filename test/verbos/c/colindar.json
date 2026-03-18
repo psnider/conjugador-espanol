@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kolĩn̪ˈd̪aɾ]",
+    "silabacion": "co-lin-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo co- y lindar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"colindar","gerundio":"colindando","participio":"colindado"},
+  "formas_personales": {
+    "IndPres": {"s1":["colindo"],"s2":["colindas"],"vos":["colindás"],"s3":["colinda"],"p1":["colindamos"],"p2":["colindáis"],"p3":["colindan"]},
+    "IndImp": {"s1":["colindaba"],"s2":["colindabas"],"vos":["colindabas"],"s3":["colindaba"],"p1":["colindábamos"],"p2":["colindabais"],"p3":["colindaban"]},
+    "IndPret": {"s1":["colindé"],"s2":["colindaste"],"vos":["colindaste"],"s3":["colindó"],"p1":["colindamos"],"p2":["colindasteis"],"p3":["colindaron"]},
+    "IndFut": {"s1":["colindaré"],"s2":["colindarás"],"vos":["colindarás"],"s3":["colindará"],"p1":["colindaremos"],"p2":["colindaréis"],"p3":["colindarán"]},
+    "IndCond": {"s1":["colindaría"],"s2":["colindarías"],"vos":["colindarías"],"s3":["colindaría"],"p1":["colindaríamos"],"p2":["colindaríais"],"p3":["colindarían"]},
+    "SubPres": {"s1":["colinde"],"s2":["colindes"],"vos":["colindes","colindés"],"s3":["colinde"],"p1":["colindemos"],"p2":["colindéis"],"p3":["colinden"]},
+    "SubImp": {"s1":["colindara","colindase"],"s2":["colindaras","colindases"],"vos":["colindaras","colindases"],"s3":["colindara","colindase"],"p1":["colindáramos","colindásemos"],"p2":["colindarais","colindaseis"],"p3":["colindaran","colindasen"]},
+    "SubFut": {"s1":["colindare"],"s2":["colindares"],"vos":["colindares"],"s3":["colindare"],"p1":["colindáremos"],"p2":["colindareis"],"p3":["colindaren"]},
+    "CmdPos": {"s2":["colinda"],"vos":["colindá"],"s3":["colinde"],"p1":["colindemos"],"p2":["colindad"],"p3":["colinden"]}
+  }
+}

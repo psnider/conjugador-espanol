@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnsˈt̪ɾwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín construĕre",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"construir","gerundio":"construyendo","participio":"construido"},
+  "formas_personales": {
+    "IndPres": {"s1":["construyo"],"s2":["construyes"],"vos":["construís"],"s3":["construye"],"p1":["construimos"],"p2":["construís"],"p3":["construyen"]},
+    "IndImp": {"s1":["construía"],"s2":["construías"],"vos":["construías"],"s3":["construía"],"p1":["construíamos"],"p2":["construíais"],"p3":["construían"]},
+    "IndPret": {"s1":["construí"],"s2":["construiste"],"vos":["construiste"],"s3":["construyó"],"p1":["construimos"],"p2":["construisteis"],"p3":["construyeron"]},
+    "IndFut": {"s1":["construiré"],"s2":["construirás"],"vos":["construirás"],"s3":["construirá"],"p1":["construiremos"],"p2":["construiréis"],"p3":["construirán"]},
+    "IndCond": {"s1":["construiría"],"s2":["construirías"],"vos":["construirías"],"s3":["construiría"],"p1":["construiríamos"],"p2":["construiríais"],"p3":["construirían"]},
+    "SubPres": {"s1":["construya"],"s2":["construyas"],"vos":["construyas","construyás"],"s3":["construya"],"p1":["construyamos"],"p2":["construyáis"],"p3":["construyan"]},
+    "SubImp": {"s1":["construyera","construyese"],"s2":["construyeras","construyeses"],"vos":["construyeras","construyeses"],"s3":["construyera","construyese"],"p1":["construyéramos","construyésemos"],"p2":["construyerais","construyeseis"],"p3":["construyeran","construyesen"]},
+    "SubFut": {"s1":["construyere"],"s2":["construyeres"],"vos":["construyeres"],"s3":["construyere"],"p1":["construyéremos"],"p2":["construyereis"],"p3":["construyeren"]},
+    "CmdPos": {"s2":["construye"],"vos":["construí"],"s3":["construya"],"p1":["construyamos"],"p2":["construid"],"p3":["construyan"]}
+  }
+}

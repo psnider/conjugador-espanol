@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suspẽn̪ˈd̪eɾ]",
+    "silabacion": "sus-pen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín suspendĕre, y este de sus- y pendere, del protoindoeuropeo *(s)pen(d)-.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"suspender","gerundio":"suspendiendo","participio":"suspendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["suspendo"],"s2":["suspendes"],"vos":["suspendés"],"s3":["suspende"],"p1":["suspendemos"],"p2":["suspendéis"],"p3":["suspenden"]},
+    "IndImp": {"s1":["suspendía"],"s2":["suspendías"],"vos":["suspendías"],"s3":["suspendía"],"p1":["suspendíamos"],"p2":["suspendíais"],"p3":["suspendían"]},
+    "IndPret": {"s1":["suspendí"],"s2":["suspendiste"],"vos":["suspendiste"],"s3":["suspendió"],"p1":["suspendimos"],"p2":["suspendisteis"],"p3":["suspendieron"]},
+    "IndFut": {"s1":["suspenderé"],"s2":["suspenderás"],"vos":["suspenderás"],"s3":["suspenderá"],"p1":["suspenderemos"],"p2":["suspenderéis"],"p3":["suspenderán"]},
+    "IndCond": {"s1":["suspendería"],"s2":["suspenderías"],"vos":["suspenderías"],"s3":["suspendería"],"p1":["suspenderíamos"],"p2":["suspenderíais"],"p3":["suspenderían"]},
+    "SubPres": {"s1":["suspenda"],"s2":["suspendas"],"vos":["suspendas","suspendás"],"s3":["suspenda"],"p1":["suspendamos"],"p2":["suspendáis"],"p3":["suspendan"]},
+    "SubImp": {"s1":["suspendiera","suspendiese"],"s2":["suspendieras","suspendieses"],"vos":["suspendieras","suspendieses"],"s3":["suspendiera","suspendiese"],"p1":["suspendiéramos","suspendiésemos"],"p2":["suspendierais","suspendieseis"],"p3":["suspendieran","suspendiesen"]},
+    "SubFut": {"s1":["suspendiere"],"s2":["suspendieres"],"vos":["suspendieres"],"s3":["suspendiere"],"p1":["suspendiéremos"],"p2":["suspendiereis"],"p3":["suspendieren"]},
+    "CmdPos": {"s2":["suspende"],"vos":["suspendé"],"s3":["suspenda"],"p1":["suspendamos"],"p2":["suspended"],"p3":["suspendan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[buˈʝiɾ]",
+    "silabacion": "bu-llir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín bullire.",
+    "modelos": ["escabullir"]
+  },
+  "formas_no_personales": {"infinitivo":"bullir","gerundio":"bullendo","participio":"bullido"},
+  "formas_personales": {
+    "IndPres": {"s1":["bullo"],"s2":["bulles"],"vos":["bullís"],"s3":["bulle"],"p1":["bullimos"],"p2":["bullís"],"p3":["bullen"]},
+    "IndImp": {"s1":["bullía"],"s2":["bullías"],"vos":["bullías"],"s3":["bullía"],"p1":["bullíamos"],"p2":["bullíais"],"p3":["bullían"]},
+    "IndPret": {"s1":["bullí"],"s2":["bulliste"],"vos":["bulliste"],"s3":["bulló"],"p1":["bullimos"],"p2":["bullisteis"],"p3":["bulleron"]},
+    "IndFut": {"s1":["bulliré"],"s2":["bullirás"],"vos":["bullirás"],"s3":["bullirá"],"p1":["bulliremos"],"p2":["bulliréis"],"p3":["bullirán"]},
+    "IndCond": {"s1":["bulliría"],"s2":["bullirías"],"vos":["bullirías"],"s3":["bulliría"],"p1":["bulliríamos"],"p2":["bulliríais"],"p3":["bullirían"]},
+    "SubPres": {"s1":["bulla"],"s2":["bullas"],"vos":["bullas","bullás"],"s3":["bulla"],"p1":["bullamos"],"p2":["bulláis"],"p3":["bullan"]},
+    "SubImp": {"s1":["bullera","bullese"],"s2":["bulleras","bulleses"],"vos":["bulleras","bulleses"],"s3":["bullera","bullese"],"p1":["bulléramos","bullésemos"],"p2":["bullerais","bulleseis"],"p3":["bulleran","bullesen"]},
+    "SubFut": {"s1":["bullere"],"s2":["bulleres"],"vos":["bulleres"],"s3":["bullere"],"p1":["bulléremos"],"p2":["bullereis"],"p3":["bulleren"]},
+    "CmdPos": {"s2":["bulle"],"vos":["bullí"],"s3":["bulla"],"p1":["bullamos"],"p2":["bullid"],"p3":["bullan"]}
+  }
+}

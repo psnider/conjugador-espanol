@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reð̞uˈsiɾ]",
+    "silabacion": "re-du-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reducĕre.",
+    "modelos": ["producir"]
+  },
+  "formas_no_personales": {"infinitivo":"reducir","gerundio":"reduciendo","participio":"reducido"},
+  "formas_personales": {
+    "IndPres": {"s1":["reduzco"],"s2":["reduces"],"vos":["reducís"],"s3":["reduce"],"p1":["reducimos"],"p2":["reducís"],"p3":["reducen"]},
+    "IndImp": {"s1":["reducía"],"s2":["reducías"],"vos":["reducías"],"s3":["reducía"],"p1":["reducíamos"],"p2":["reducíais"],"p3":["reducían"]},
+    "IndPret": {"s1":["reduje"],"s2":["redujiste"],"vos":["redujiste"],"s3":["redujo"],"p1":["redujimos"],"p2":["redujisteis"],"p3":["redujeron"]},
+    "IndFut": {"s1":["reduciré"],"s2":["reducirás"],"vos":["reducirás"],"s3":["reducirá"],"p1":["reduciremos"],"p2":["reduciréis"],"p3":["reducirán"]},
+    "IndCond": {"s1":["reduciría"],"s2":["reducirías"],"vos":["reducirías"],"s3":["reduciría"],"p1":["reduciríamos"],"p2":["reduciríais"],"p3":["reducirían"]},
+    "SubPres": {"s1":["reduzca"],"s2":["reduzcas"],"vos":["reduzcas","reduzcás"],"s3":["reduzca"],"p1":["reduzcamos"],"p2":["reduzcáis"],"p3":["reduzcan"]},
+    "SubImp": {"s1":["redujera","redujese"],"s2":["redujeras","redujeses"],"vos":["redujeras","redujeses"],"s3":["redujera","redujese"],"p1":["redujéramos","redujésemos"],"p2":["redujerais","redujeseis"],"p3":["redujeran","redujesen"]},
+    "SubFut": {"s1":["redujere"],"s2":["redujeres"],"vos":["redujeres"],"s3":["redujere"],"p1":["redujéremos"],"p2":["redujereis"],"p3":["redujeren"]},
+    "CmdPos": {"s2":["reduce"],"vos":["reducí"],"s3":["reduzca"],"p1":["reduzcamos"],"p2":["reducid"],"p3":["reduzcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[repaˈɾaɾ]",
+    "silabacion": "re-pa-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reparāre, y este del latín parare, del protoindoeuropeo *pere.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reparar","gerundio":"reparando","participio":"reparado"},
+  "formas_personales": {
+    "IndPres": {"s1":["reparo"],"s2":["reparas"],"vos":["reparás"],"s3":["repara"],"p1":["reparamos"],"p2":["reparáis"],"p3":["reparan"]},
+    "IndImp": {"s1":["reparaba"],"s2":["reparabas"],"vos":["reparabas"],"s3":["reparaba"],"p1":["reparábamos"],"p2":["reparabais"],"p3":["reparaban"]},
+    "IndPret": {"s1":["reparé"],"s2":["reparaste"],"vos":["reparaste"],"s3":["reparó"],"p1":["reparamos"],"p2":["reparasteis"],"p3":["repararon"]},
+    "IndFut": {"s1":["repararé"],"s2":["repararás"],"vos":["repararás"],"s3":["reparará"],"p1":["repararemos"],"p2":["repararéis"],"p3":["repararán"]},
+    "IndCond": {"s1":["repararía"],"s2":["repararías"],"vos":["repararías"],"s3":["repararía"],"p1":["repararíamos"],"p2":["repararíais"],"p3":["repararían"]},
+    "SubPres": {"s1":["repare"],"s2":["repares"],"vos":["repares","reparés"],"s3":["repare"],"p1":["reparemos"],"p2":["reparéis"],"p3":["reparen"]},
+    "SubImp": {"s1":["reparara","reparase"],"s2":["repararas","reparases"],"vos":["repararas","reparases"],"s3":["reparara","reparase"],"p1":["reparáramos","reparásemos"],"p2":["repararais","reparaseis"],"p3":["repararan","reparasen"]},
+    "SubFut": {"s1":["reparare"],"s2":["reparares"],"vos":["reparares"],"s3":["reparare"],"p1":["reparáremos"],"p2":["reparareis"],"p3":["repararen"]},
+    "CmdPos": {"s2":["repara"],"vos":["repará"],"s3":["repare"],"p1":["reparemos"],"p2":["reparad"],"p3":["reparen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪ˈt̪ɾaɾ]",
+    "silabacion": "en-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín intrare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entrar","gerundio":"entrando","participio":"entrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["entro"],"s2":["entras"],"vos":["entrás"],"s3":["entra"],"p1":["entramos"],"p2":["entráis"],"p3":["entran"]},
+    "IndImp": {"s1":["entraba"],"s2":["entrabas"],"vos":["entrabas"],"s3":["entraba"],"p1":["entrábamos"],"p2":["entrabais"],"p3":["entraban"]},
+    "IndPret": {"s1":["entré"],"s2":["entraste"],"vos":["entraste"],"s3":["entró"],"p1":["entramos"],"p2":["entrasteis"],"p3":["entraron"]},
+    "IndFut": {"s1":["entraré"],"s2":["entrarás"],"vos":["entrarás"],"s3":["entrará"],"p1":["entraremos"],"p2":["entraréis"],"p3":["entrarán"]},
+    "IndCond": {"s1":["entraría"],"s2":["entrarías"],"vos":["entrarías"],"s3":["entraría"],"p1":["entraríamos"],"p2":["entraríais"],"p3":["entrarían"]},
+    "SubPres": {"s1":["entre"],"s2":["entres"],"vos":["entres","entrés"],"s3":["entre"],"p1":["entremos"],"p2":["entréis"],"p3":["entren"]},
+    "SubImp": {"s1":["entrara","entrase"],"s2":["entraras","entrases"],"vos":["entraras","entrases"],"s3":["entrara","entrase"],"p1":["entráramos","entrásemos"],"p2":["entrarais","entraseis"],"p3":["entraran","entrasen"]},
+    "SubFut": {"s1":["entrare"],"s2":["entrares"],"vos":["entrares"],"s3":["entrare"],"p1":["entráremos"],"p2":["entrareis"],"p3":["entraren"]},
+    "CmdPos": {"s2":["entra"],"vos":["entrá"],"s3":["entre"],"p1":["entremos"],"p2":["entrad"],"p3":["entren"]}
+  }
+}

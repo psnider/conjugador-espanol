@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾopoɾsjoˈnaɾ]",
+    "silabacion": "pro-por-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De proporción y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"proporcionar","gerundio":"proporcionando","participio":"proporcionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["proporciono"],"s2":["proporcionas"],"vos":["proporcionás"],"s3":["proporciona"],"p1":["proporcionamos"],"p2":["proporcionáis"],"p3":["proporcionan"]},
+    "IndImp": {"s1":["proporcionaba"],"s2":["proporcionabas"],"vos":["proporcionabas"],"s3":["proporcionaba"],"p1":["proporcionábamos"],"p2":["proporcionabais"],"p3":["proporcionaban"]},
+    "IndPret": {"s1":["proporcioné"],"s2":["proporcionaste"],"vos":["proporcionaste"],"s3":["proporcionó"],"p1":["proporcionamos"],"p2":["proporcionasteis"],"p3":["proporcionaron"]},
+    "IndFut": {"s1":["proporcionaré"],"s2":["proporcionarás"],"vos":["proporcionarás"],"s3":["proporcionará"],"p1":["proporcionaremos"],"p2":["proporcionaréis"],"p3":["proporcionarán"]},
+    "IndCond": {"s1":["proporcionaría"],"s2":["proporcionarías"],"vos":["proporcionarías"],"s3":["proporcionaría"],"p1":["proporcionaríamos"],"p2":["proporcionaríais"],"p3":["proporcionarían"]},
+    "SubPres": {"s1":["proporcione"],"s2":["proporciones"],"vos":["proporciones","proporcionés"],"s3":["proporcione"],"p1":["proporcionemos"],"p2":["proporcionéis"],"p3":["proporcionen"]},
+    "SubImp": {"s1":["proporcionara","proporcionase"],"s2":["proporcionaras","proporcionases"],"vos":["proporcionaras","proporcionases"],"s3":["proporcionara","proporcionase"],"p1":["proporcionáramos","proporcionásemos"],"p2":["proporcionarais","proporcionaseis"],"p3":["proporcionaran","proporcionasen"]},
+    "SubFut": {"s1":["proporcionare"],"s2":["proporcionares"],"vos":["proporcionares"],"s3":["proporcionare"],"p1":["proporcionáremos"],"p2":["proporcionareis"],"p3":["proporcionaren"]},
+    "CmdPos": {"s2":["proporciona"],"vos":["proporcioná"],"s3":["proporcione"],"p1":["proporcionemos"],"p2":["proporcionad"],"p3":["proporcionen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈlaɾ]",
+    "silabacion": "ha-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés haler.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"halar","gerundio":"halando","participio":"halado"},
+  "formas_personales": {
+    "IndPres": {"s1":["halo"],"s2":["halas"],"vos":["halás"],"s3":["hala"],"p1":["halamos"],"p2":["haláis"],"p3":["halan"]},
+    "IndImp": {"s1":["halaba"],"s2":["halabas"],"vos":["halabas"],"s3":["halaba"],"p1":["halábamos"],"p2":["halabais"],"p3":["halaban"]},
+    "IndPret": {"s1":["halé"],"s2":["halaste"],"vos":["halaste"],"s3":["haló"],"p1":["halamos"],"p2":["halasteis"],"p3":["halaron"]},
+    "IndFut": {"s1":["halaré"],"s2":["halarás"],"vos":["halarás"],"s3":["halará"],"p1":["halaremos"],"p2":["halaréis"],"p3":["halarán"]},
+    "IndCond": {"s1":["halaría"],"s2":["halarías"],"vos":["halarías"],"s3":["halaría"],"p1":["halaríamos"],"p2":["halaríais"],"p3":["halarían"]},
+    "SubPres": {"s1":["hale"],"s2":["hales"],"vos":["hales","halés"],"s3":["hale"],"p1":["halemos"],"p2":["haléis"],"p3":["halen"]},
+    "SubImp": {"s1":["halara","halase"],"s2":["halaras","halases"],"vos":["halaras","halases"],"s3":["halara","halase"],"p1":["haláramos","halásemos"],"p2":["halarais","halaseis"],"p3":["halaran","halasen"]},
+    "SubFut": {"s1":["halare"],"s2":["halares"],"vos":["halares"],"s3":["halare"],"p1":["haláremos"],"p2":["halareis"],"p3":["halaren"]},
+    "CmdPos": {"s2":["hala"],"vos":["halá"],"s3":["hale"],"p1":["halemos"],"p2":["halad"],"p3":["halen"]}
+  }
+}

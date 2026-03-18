@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seleˈβ̞ɾaɾ]",
+    "silabacion": "ce-le-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín celebrāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"celebrar","gerundio":"celebrando","participio":"celebrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["celebro"],"s2":["celebras"],"vos":["celebrás"],"s3":["celebra"],"p1":["celebramos"],"p2":["celebráis"],"p3":["celebran"]},
+    "IndImp": {"s1":["celebraba"],"s2":["celebrabas"],"vos":["celebrabas"],"s3":["celebraba"],"p1":["celebrábamos"],"p2":["celebrabais"],"p3":["celebraban"]},
+    "IndPret": {"s1":["celebré"],"s2":["celebraste"],"vos":["celebraste"],"s3":["celebró"],"p1":["celebramos"],"p2":["celebrasteis"],"p3":["celebraron"]},
+    "IndFut": {"s1":["celebraré"],"s2":["celebrarás"],"vos":["celebrarás"],"s3":["celebrará"],"p1":["celebraremos"],"p2":["celebraréis"],"p3":["celebrarán"]},
+    "IndCond": {"s1":["celebraría"],"s2":["celebrarías"],"vos":["celebrarías"],"s3":["celebraría"],"p1":["celebraríamos"],"p2":["celebraríais"],"p3":["celebrarían"]},
+    "SubPres": {"s1":["celebre"],"s2":["celebres"],"vos":["celebres","celebrés"],"s3":["celebre"],"p1":["celebremos"],"p2":["celebréis"],"p3":["celebren"]},
+    "SubImp": {"s1":["celebrara","celebrase"],"s2":["celebraras","celebrases"],"vos":["celebraras","celebrases"],"s3":["celebrara","celebrase"],"p1":["celebráramos","celebrásemos"],"p2":["celebrarais","celebraseis"],"p3":["celebraran","celebrasen"]},
+    "SubFut": {"s1":["celebrare"],"s2":["celebrares"],"vos":["celebrares"],"s3":["celebrare"],"p1":["celebráremos"],"p2":["celebrareis"],"p3":["celebraren"]},
+    "CmdPos": {"s2":["celebra"],"vos":["celebrá"],"s3":["celebre"],"p1":["celebremos"],"p2":["celebrad"],"p3":["celebren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[nesesiˈt̪aɾ]",
+    "silabacion": "ne-ce-si-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín necessĭtas y necesse ('inevitable'), el prefijo \"ne\" de necesse significa \"no\" y el verbo \"cedere\", también de necesse, significa \"parar\". Lo que conjuntamente significa \"no parar\", es decir, algo a lo cuál se dirige el individuo sin parar o sin detenerse hasta alcanzarlo.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"necesitar","gerundio":"necesitando","participio":"necesitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["necesito"],"s2":["necesitas"],"vos":["necesitás"],"s3":["necesita"],"p1":["necesitamos"],"p2":["necesitáis"],"p3":["necesitan"]},
+    "IndImp": {"s1":["necesitaba"],"s2":["necesitabas"],"vos":["necesitabas"],"s3":["necesitaba"],"p1":["necesitábamos"],"p2":["necesitabais"],"p3":["necesitaban"]},
+    "IndPret": {"s1":["necesité"],"s2":["necesitaste"],"vos":["necesitaste"],"s3":["necesitó"],"p1":["necesitamos"],"p2":["necesitasteis"],"p3":["necesitaron"]},
+    "IndFut": {"s1":["necesitaré"],"s2":["necesitarás"],"vos":["necesitarás"],"s3":["necesitará"],"p1":["necesitaremos"],"p2":["necesitaréis"],"p3":["necesitarán"]},
+    "IndCond": {"s1":["necesitaría"],"s2":["necesitarías"],"vos":["necesitarías"],"s3":["necesitaría"],"p1":["necesitaríamos"],"p2":["necesitaríais"],"p3":["necesitarían"]},
+    "SubPres": {"s1":["necesite"],"s2":["necesites"],"vos":["necesites","necesités"],"s3":["necesite"],"p1":["necesitemos"],"p2":["necesitéis"],"p3":["necesiten"]},
+    "SubImp": {"s1":["necesitara","necesitase"],"s2":["necesitaras","necesitases"],"vos":["necesitaras","necesitases"],"s3":["necesitara","necesitase"],"p1":["necesitáramos","necesitásemos"],"p2":["necesitarais","necesitaseis"],"p3":["necesitaran","necesitasen"]},
+    "SubFut": {"s1":["necesitare"],"s2":["necesitares"],"vos":["necesitares"],"s3":["necesitare"],"p1":["necesitáremos"],"p2":["necesitareis"],"p3":["necesitaren"]},
+    "CmdPos": {"s2":["necesita"],"vos":["necesitá"],"s3":["necesite"],"p1":["necesitemos"],"p2":["necesitad"],"p3":["necesiten"]}
+  }
+}

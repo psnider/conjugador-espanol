@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aseɣ̞uˈɾaɾ]",
+    "silabacion": "a-se-gu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, seguro y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asegurar","gerundio":"asegurando","participio":"asegurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aseguro"],"s2":["aseguras"],"vos":["asegurás"],"s3":["asegura"],"p1":["aseguramos"],"p2":["aseguráis"],"p3":["aseguran"]},
+    "IndImp": {"s1":["aseguraba"],"s2":["asegurabas"],"vos":["asegurabas"],"s3":["aseguraba"],"p1":["asegurábamos"],"p2":["asegurabais"],"p3":["aseguraban"]},
+    "IndPret": {"s1":["aseguré"],"s2":["aseguraste"],"vos":["aseguraste"],"s3":["aseguró"],"p1":["aseguramos"],"p2":["asegurasteis"],"p3":["aseguraron"]},
+    "IndFut": {"s1":["aseguraré"],"s2":["asegurarás"],"vos":["asegurarás"],"s3":["asegurará"],"p1":["aseguraremos"],"p2":["aseguraréis"],"p3":["asegurarán"]},
+    "IndCond": {"s1":["aseguraría"],"s2":["asegurarías"],"vos":["asegurarías"],"s3":["aseguraría"],"p1":["aseguraríamos"],"p2":["aseguraríais"],"p3":["asegurarían"]},
+    "SubPres": {"s1":["asegure"],"s2":["asegures"],"vos":["asegures","asegurés"],"s3":["asegure"],"p1":["aseguremos"],"p2":["aseguréis"],"p3":["aseguren"]},
+    "SubImp": {"s1":["asegurara","asegurase"],"s2":["aseguraras","asegurases"],"vos":["aseguraras","asegurases"],"s3":["asegurara","asegurase"],"p1":["aseguráramos","asegurásemos"],"p2":["asegurarais","aseguraseis"],"p3":["aseguraran","asegurasen"]},
+    "SubFut": {"s1":["asegurare"],"s2":["asegurares"],"vos":["asegurares"],"s3":["asegurare"],"p1":["aseguráremos"],"p2":["asegurareis"],"p3":["aseguraren"]},
+    "CmdPos": {"s2":["asegura"],"vos":["asegurá"],"s3":["asegure"],"p1":["aseguremos"],"p2":["asegurad"],"p3":["aseguren"]}
+  }
+}

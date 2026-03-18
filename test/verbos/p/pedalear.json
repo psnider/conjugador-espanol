@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peð̞aleˈaɾ]",
+    "silabacion": "pe-da-le-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pedal y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pedalear","gerundio":"pedaleando","participio":"pedaleado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pedaleo"],"s2":["pedaleas"],"vos":["pedaleás"],"s3":["pedalea"],"p1":["pedaleamos"],"p2":["pedaleáis"],"p3":["pedalean"]},
+    "IndImp": {"s1":["pedaleaba"],"s2":["pedaleabas"],"vos":["pedaleabas"],"s3":["pedaleaba"],"p1":["pedaleábamos"],"p2":["pedaleabais"],"p3":["pedaleaban"]},
+    "IndPret": {"s1":["pedaleé"],"s2":["pedaleaste"],"vos":["pedaleaste"],"s3":["pedaleó"],"p1":["pedaleamos"],"p2":["pedaleasteis"],"p3":["pedalearon"]},
+    "IndFut": {"s1":["pedalearé"],"s2":["pedalearás"],"vos":["pedalearás"],"s3":["pedaleará"],"p1":["pedalearemos"],"p2":["pedalearéis"],"p3":["pedalearán"]},
+    "IndCond": {"s1":["pedalearía"],"s2":["pedalearías"],"vos":["pedalearías"],"s3":["pedalearía"],"p1":["pedalearíamos"],"p2":["pedalearíais"],"p3":["pedalearían"]},
+    "SubPres": {"s1":["pedalee"],"s2":["pedalees"],"vos":["pedalees","pedaleés"],"s3":["pedalee"],"p1":["pedaleemos"],"p2":["pedaleéis"],"p3":["pedaleen"]},
+    "SubImp": {"s1":["pedaleara","pedalease"],"s2":["pedalearas","pedaleases"],"vos":["pedalearas","pedaleases"],"s3":["pedaleara","pedalease"],"p1":["pedaleáramos","pedaleásemos"],"p2":["pedalearais","pedaleaseis"],"p3":["pedalearan","pedaleasen"]},
+    "SubFut": {"s1":["pedaleare"],"s2":["pedaleares"],"vos":["pedaleares"],"s3":["pedaleare"],"p1":["pedaleáremos"],"p2":["pedaleareis"],"p3":["pedalearen"]},
+    "CmdPos": {"s2":["pedalea"],"vos":["pedaleá"],"s3":["pedalee"],"p1":["pedaleemos"],"p2":["pedalead"],"p3":["pedaleen"]}
+  }
+}

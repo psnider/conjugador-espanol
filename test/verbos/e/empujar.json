@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpuˈxaɾ]",
+    "silabacion": "em-pu-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1251. Del castellano antiguo empuxar, del latín tardío impulsāre.[1] Alternativamente, del prefijo en- y pujar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"empujar","gerundio":"empujando","participio":"empujado"},
+  "formas_personales": {
+    "IndPres": {"s1":["empujo"],"s2":["empujas"],"vos":["empujás"],"s3":["empuja"],"p1":["empujamos"],"p2":["empujáis"],"p3":["empujan"]},
+    "IndImp": {"s1":["empujaba"],"s2":["empujabas"],"vos":["empujabas"],"s3":["empujaba"],"p1":["empujábamos"],"p2":["empujabais"],"p3":["empujaban"]},
+    "IndPret": {"s1":["empujé"],"s2":["empujaste"],"vos":["empujaste"],"s3":["empujó"],"p1":["empujamos"],"p2":["empujasteis"],"p3":["empujaron"]},
+    "IndFut": {"s1":["empujaré"],"s2":["empujarás"],"vos":["empujarás"],"s3":["empujará"],"p1":["empujaremos"],"p2":["empujaréis"],"p3":["empujarán"]},
+    "IndCond": {"s1":["empujaría"],"s2":["empujarías"],"vos":["empujarías"],"s3":["empujaría"],"p1":["empujaríamos"],"p2":["empujaríais"],"p3":["empujarían"]},
+    "SubPres": {"s1":["empuje"],"s2":["empujes"],"vos":["empujes","empujés"],"s3":["empuje"],"p1":["empujemos"],"p2":["empujéis"],"p3":["empujen"]},
+    "SubImp": {"s1":["empujara","empujase"],"s2":["empujaras","empujases"],"vos":["empujaras","empujases"],"s3":["empujara","empujase"],"p1":["empujáramos","empujásemos"],"p2":["empujarais","empujaseis"],"p3":["empujaran","empujasen"]},
+    "SubFut": {"s1":["empujare"],"s2":["empujares"],"vos":["empujares"],"s3":["empujare"],"p1":["empujáremos"],"p2":["empujareis"],"p3":["empujaren"]},
+    "CmdPos": {"s2":["empuja"],"vos":["empujá"],"s3":["empuje"],"p1":["empujemos"],"p2":["empujad"],"p3":["empujen"]}
+  }
+}

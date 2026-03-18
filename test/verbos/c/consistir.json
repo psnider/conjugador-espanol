@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnsisˈt̪iɾ]",
+    "silabacion": "con-sis-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cōnsistō, cōnsistere,[1] compuesto del latín sisto.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"consistir","gerundio":"consistiendo","participio":"consistido"},
+  "formas_personales": {
+    "IndPres": {"s1":["consisto"],"s2":["consistes"],"vos":["consistís"],"s3":["consiste"],"p1":["consistimos"],"p2":["consistís"],"p3":["consisten"]},
+    "IndImp": {"s1":["consistía"],"s2":["consistías"],"vos":["consistías"],"s3":["consistía"],"p1":["consistíamos"],"p2":["consistíais"],"p3":["consistían"]},
+    "IndPret": {"s1":["consistí"],"s2":["consististe"],"vos":["consististe"],"s3":["consistió"],"p1":["consistimos"],"p2":["consististeis"],"p3":["consistieron"]},
+    "IndFut": {"s1":["consistiré"],"s2":["consistirás"],"vos":["consistirás"],"s3":["consistirá"],"p1":["consistiremos"],"p2":["consistiréis"],"p3":["consistirán"]},
+    "IndCond": {"s1":["consistiría"],"s2":["consistirías"],"vos":["consistirías"],"s3":["consistiría"],"p1":["consistiríamos"],"p2":["consistiríais"],"p3":["consistirían"]},
+    "SubPres": {"s1":["consista"],"s2":["consistas"],"vos":["consistas","consistás"],"s3":["consista"],"p1":["consistamos"],"p2":["consistáis"],"p3":["consistan"]},
+    "SubImp": {"s1":["consistiera","consistiese"],"s2":["consistieras","consistieses"],"vos":["consistieras","consistieses"],"s3":["consistiera","consistiese"],"p1":["consistiéramos","consistiésemos"],"p2":["consistierais","consistieseis"],"p3":["consistieran","consistiesen"]},
+    "SubFut": {"s1":["consistiere"],"s2":["consistieres"],"vos":["consistieres"],"s3":["consistiere"],"p1":["consistiéremos"],"p2":["consistiereis"],"p3":["consistieren"]},
+    "CmdPos": {"s2":["consiste"],"vos":["consistí"],"s3":["consista"],"p1":["consistamos"],"p2":["consistid"],"p3":["consistan"]}
+  }
+}

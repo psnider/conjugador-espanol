@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪oɾniˈʝaɾ]",
+    "silabacion": "a-tor-ni-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, tornillo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atornillar","gerundio":"atornillando","participio":"atornillado"},
+  "formas_personales": {
+    "IndPres": {"s1":["atornillo"],"s2":["atornillas"],"vos":["atornillás"],"s3":["atornilla"],"p1":["atornillamos"],"p2":["atornilláis"],"p3":["atornillan"]},
+    "IndImp": {"s1":["atornillaba"],"s2":["atornillabas"],"vos":["atornillabas"],"s3":["atornillaba"],"p1":["atornillábamos"],"p2":["atornillabais"],"p3":["atornillaban"]},
+    "IndPret": {"s1":["atornillé"],"s2":["atornillaste"],"vos":["atornillaste"],"s3":["atornilló"],"p1":["atornillamos"],"p2":["atornillasteis"],"p3":["atornillaron"]},
+    "IndFut": {"s1":["atornillaré"],"s2":["atornillarás"],"vos":["atornillarás"],"s3":["atornillará"],"p1":["atornillaremos"],"p2":["atornillaréis"],"p3":["atornillarán"]},
+    "IndCond": {"s1":["atornillaría"],"s2":["atornillarías"],"vos":["atornillarías"],"s3":["atornillaría"],"p1":["atornillaríamos"],"p2":["atornillaríais"],"p3":["atornillarían"]},
+    "SubPres": {"s1":["atornille"],"s2":["atornilles"],"vos":["atornilles","atornillés"],"s3":["atornille"],"p1":["atornillemos"],"p2":["atornilléis"],"p3":["atornillen"]},
+    "SubImp": {"s1":["atornillara","atornillase"],"s2":["atornillaras","atornillases"],"vos":["atornillaras","atornillases"],"s3":["atornillara","atornillase"],"p1":["atornilláramos","atornillásemos"],"p2":["atornillarais","atornillaseis"],"p3":["atornillaran","atornillasen"]},
+    "SubFut": {"s1":["atornillare"],"s2":["atornillares"],"vos":["atornillares"],"s3":["atornillare"],"p1":["atornilláremos"],"p2":["atornillareis"],"p3":["atornillaren"]},
+    "CmdPos": {"s2":["atornilla"],"vos":["atornillá"],"s3":["atornille"],"p1":["atornillemos"],"p2":["atornillad"],"p3":["atornillen"]}
+  }
+}

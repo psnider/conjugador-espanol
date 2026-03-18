@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈxaɾ]",
+    "silabacion": "ba-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín bassare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bajar","gerundio":"bajando","participio":"bajado"},
+  "formas_personales": {
+    "IndPres": {"s1":["bajo"],"s2":["bajas"],"vos":["bajás"],"s3":["baja"],"p1":["bajamos"],"p2":["bajáis"],"p3":["bajan"]},
+    "IndImp": {"s1":["bajaba"],"s2":["bajabas"],"vos":["bajabas"],"s3":["bajaba"],"p1":["bajábamos"],"p2":["bajabais"],"p3":["bajaban"]},
+    "IndPret": {"s1":["bajé"],"s2":["bajaste"],"vos":["bajaste"],"s3":["bajó"],"p1":["bajamos"],"p2":["bajasteis"],"p3":["bajaron"]},
+    "IndFut": {"s1":["bajaré"],"s2":["bajarás"],"vos":["bajarás"],"s3":["bajará"],"p1":["bajaremos"],"p2":["bajaréis"],"p3":["bajarán"]},
+    "IndCond": {"s1":["bajaría"],"s2":["bajarías"],"vos":["bajarías"],"s3":["bajaría"],"p1":["bajaríamos"],"p2":["bajaríais"],"p3":["bajarían"]},
+    "SubPres": {"s1":["baje"],"s2":["bajes"],"vos":["bajes","bajés"],"s3":["baje"],"p1":["bajemos"],"p2":["bajéis"],"p3":["bajen"]},
+    "SubImp": {"s1":["bajara","bajase"],"s2":["bajaras","bajases"],"vos":["bajaras","bajases"],"s3":["bajara","bajase"],"p1":["bajáramos","bajásemos"],"p2":["bajarais","bajaseis"],"p3":["bajaran","bajasen"]},
+    "SubFut": {"s1":["bajare"],"s2":["bajares"],"vos":["bajares"],"s3":["bajare"],"p1":["bajáremos"],"p2":["bajareis"],"p3":["bajaren"]},
+    "CmdPos": {"s2":["baja"],"vos":["bajá"],"s3":["baje"],"p1":["bajemos"],"p2":["bajad"],"p3":["bajen"]}
+  }
+}

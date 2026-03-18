@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xiˈɾaɾ]",
+    "silabacion": "gi-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín gyrare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"girar","gerundio":"girando","participio":"girado"},
+  "formas_personales": {
+    "IndPres": {"s1":["giro"],"s2":["giras"],"vos":["girás"],"s3":["gira"],"p1":["giramos"],"p2":["giráis"],"p3":["giran"]},
+    "IndImp": {"s1":["giraba"],"s2":["girabas"],"vos":["girabas"],"s3":["giraba"],"p1":["girábamos"],"p2":["girabais"],"p3":["giraban"]},
+    "IndPret": {"s1":["giré"],"s2":["giraste"],"vos":["giraste"],"s3":["giró"],"p1":["giramos"],"p2":["girasteis"],"p3":["giraron"]},
+    "IndFut": {"s1":["giraré"],"s2":["girarás"],"vos":["girarás"],"s3":["girará"],"p1":["giraremos"],"p2":["giraréis"],"p3":["girarán"]},
+    "IndCond": {"s1":["giraría"],"s2":["girarías"],"vos":["girarías"],"s3":["giraría"],"p1":["giraríamos"],"p2":["giraríais"],"p3":["girarían"]},
+    "SubPres": {"s1":["gire"],"s2":["gires"],"vos":["gires","girés"],"s3":["gire"],"p1":["giremos"],"p2":["giréis"],"p3":["giren"]},
+    "SubImp": {"s1":["girara","girase"],"s2":["giraras","girases"],"vos":["giraras","girases"],"s3":["girara","girase"],"p1":["giráramos","girásemos"],"p2":["girarais","giraseis"],"p3":["giraran","girasen"]},
+    "SubFut": {"s1":["girare"],"s2":["girares"],"vos":["girares"],"s3":["girare"],"p1":["giráremos"],"p2":["girareis"],"p3":["giraren"]},
+    "CmdPos": {"s2":["gira"],"vos":["girá"],"s3":["gire"],"p1":["giremos"],"p2":["girad"],"p3":["giren"]}
+  }
+}

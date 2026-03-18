@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oˈkaɾ]",
+    "silabacion": "to-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *toccāre, del fráncico *tukkōn o bien onomatopéyica.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"tocar","gerundio":"tocando","participio":"tocado"},
+  "formas_personales": {
+    "IndPres": {"s1":["toco"],"s2":["tocas"],"vos":["tocás"],"s3":["toca"],"p1":["tocamos"],"p2":["tocáis"],"p3":["tocan"]},
+    "IndImp": {"s1":["tocaba"],"s2":["tocabas"],"vos":["tocabas"],"s3":["tocaba"],"p1":["tocábamos"],"p2":["tocabais"],"p3":["tocaban"]},
+    "IndPret": {"s1":["toqué"],"s2":["tocaste"],"vos":["tocaste"],"s3":["tocó"],"p1":["tocamos"],"p2":["tocasteis"],"p3":["tocaron"]},
+    "IndFut": {"s1":["tocaré"],"s2":["tocarás"],"vos":["tocarás"],"s3":["tocará"],"p1":["tocaremos"],"p2":["tocaréis"],"p3":["tocarán"]},
+    "IndCond": {"s1":["tocaría"],"s2":["tocarías"],"vos":["tocarías"],"s3":["tocaría"],"p1":["tocaríamos"],"p2":["tocaríais"],"p3":["tocarían"]},
+    "SubPres": {"s1":["toque"],"s2":["toques"],"vos":["toques","toqués"],"s3":["toque"],"p1":["toquemos"],"p2":["toquéis"],"p3":["toquen"]},
+    "SubImp": {"s1":["tocara","tocase"],"s2":["tocaras","tocases"],"vos":["tocaras","tocases"],"s3":["tocara","tocase"],"p1":["tocáramos","tocásemos"],"p2":["tocarais","tocaseis"],"p3":["tocaran","tocasen"]},
+    "SubFut": {"s1":["tocare"],"s2":["tocares"],"vos":["tocares"],"s3":["tocare"],"p1":["tocáremos"],"p2":["tocareis"],"p3":["tocaren"]},
+    "CmdPos": {"s2":["toca"],"vos":["tocá"],"s3":["toque"],"p1":["toquemos"],"p2":["tocad"],"p3":["toquen"]}
+  }
+}

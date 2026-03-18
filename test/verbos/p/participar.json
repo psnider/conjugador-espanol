@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paɾt̪isiˈpaɾ]",
+    "silabacion": "par-ti-ci-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín participāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"participar","gerundio":"participando","participio":"participado"},
+  "formas_personales": {
+    "IndPres": {"s1":["participo"],"s2":["participas"],"vos":["participás"],"s3":["participa"],"p1":["participamos"],"p2":["participáis"],"p3":["participan"]},
+    "IndImp": {"s1":["participaba"],"s2":["participabas"],"vos":["participabas"],"s3":["participaba"],"p1":["participábamos"],"p2":["participabais"],"p3":["participaban"]},
+    "IndPret": {"s1":["participé"],"s2":["participaste"],"vos":["participaste"],"s3":["participó"],"p1":["participamos"],"p2":["participasteis"],"p3":["participaron"]},
+    "IndFut": {"s1":["participaré"],"s2":["participarás"],"vos":["participarás"],"s3":["participará"],"p1":["participaremos"],"p2":["participaréis"],"p3":["participarán"]},
+    "IndCond": {"s1":["participaría"],"s2":["participarías"],"vos":["participarías"],"s3":["participaría"],"p1":["participaríamos"],"p2":["participaríais"],"p3":["participarían"]},
+    "SubPres": {"s1":["participe"],"s2":["participes"],"vos":["participes","participés"],"s3":["participe"],"p1":["participemos"],"p2":["participéis"],"p3":["participen"]},
+    "SubImp": {"s1":["participara","participase"],"s2":["participaras","participases"],"vos":["participaras","participases"],"s3":["participara","participase"],"p1":["participáramos","participásemos"],"p2":["participarais","participaseis"],"p3":["participaran","participasen"]},
+    "SubFut": {"s1":["participare"],"s2":["participares"],"vos":["participares"],"s3":["participare"],"p1":["participáremos"],"p2":["participareis"],"p3":["participaren"]},
+    "CmdPos": {"s2":["participa"],"vos":["participá"],"s3":["participe"],"p1":["participemos"],"p2":["participad"],"p3":["participen"]}
+  }
+}

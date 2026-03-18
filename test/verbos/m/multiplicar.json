@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mul̪t̪ipliˈkaɾ]",
+    "silabacion": "mul-ti-pli-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín multiplicāre, compuesto de multi&nbsp;('muchos') y el verbo plicāre (\"plegar\", doblar\").",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"multiplicar","gerundio":"multiplicando","participio":"multiplicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["multiplico"],"s2":["multiplicas"],"vos":["multiplicás"],"s3":["multiplica"],"p1":["multiplicamos"],"p2":["multiplicáis"],"p3":["multiplican"]},
+    "IndImp": {"s1":["multiplicaba"],"s2":["multiplicabas"],"vos":["multiplicabas"],"s3":["multiplicaba"],"p1":["multiplicábamos"],"p2":["multiplicabais"],"p3":["multiplicaban"]},
+    "IndPret": {"s1":["multipliqué"],"s2":["multiplicaste"],"vos":["multiplicaste"],"s3":["multiplicó"],"p1":["multiplicamos"],"p2":["multiplicasteis"],"p3":["multiplicaron"]},
+    "IndFut": {"s1":["multiplicaré"],"s2":["multiplicarás"],"vos":["multiplicarás"],"s3":["multiplicará"],"p1":["multiplicaremos"],"p2":["multiplicaréis"],"p3":["multiplicarán"]},
+    "IndCond": {"s1":["multiplicaría"],"s2":["multiplicarías"],"vos":["multiplicarías"],"s3":["multiplicaría"],"p1":["multiplicaríamos"],"p2":["multiplicaríais"],"p3":["multiplicarían"]},
+    "SubPres": {"s1":["multiplique"],"s2":["multipliques"],"vos":["multipliques","multipliqués"],"s3":["multiplique"],"p1":["multipliquemos"],"p2":["multipliquéis"],"p3":["multipliquen"]},
+    "SubImp": {"s1":["multiplicara","multiplicase"],"s2":["multiplicaras","multiplicases"],"vos":["multiplicaras","multiplicases"],"s3":["multiplicara","multiplicase"],"p1":["multiplicáramos","multiplicásemos"],"p2":["multiplicarais","multiplicaseis"],"p3":["multiplicaran","multiplicasen"]},
+    "SubFut": {"s1":["multiplicare"],"s2":["multiplicares"],"vos":["multiplicares"],"s3":["multiplicare"],"p1":["multiplicáremos"],"p2":["multiplicareis"],"p3":["multiplicaren"]},
+    "CmdPos": {"s2":["multiplica"],"vos":["multiplicá"],"s3":["multiplique"],"p1":["multipliquemos"],"p2":["multiplicad"],"p3":["multipliquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmpleˈt̪aɾ]",
+    "silabacion": "com-ple-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De completo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"completar","gerundio":"completando","participio":"completado"},
+  "formas_personales": {
+    "IndPres": {"s1":["completo"],"s2":["completas"],"vos":["completás"],"s3":["completa"],"p1":["completamos"],"p2":["completáis"],"p3":["completan"]},
+    "IndImp": {"s1":["completaba"],"s2":["completabas"],"vos":["completabas"],"s3":["completaba"],"p1":["completábamos"],"p2":["completabais"],"p3":["completaban"]},
+    "IndPret": {"s1":["completé"],"s2":["completaste"],"vos":["completaste"],"s3":["completó"],"p1":["completamos"],"p2":["completasteis"],"p3":["completaron"]},
+    "IndFut": {"s1":["completaré"],"s2":["completarás"],"vos":["completarás"],"s3":["completará"],"p1":["completaremos"],"p2":["completaréis"],"p3":["completarán"]},
+    "IndCond": {"s1":["completaría"],"s2":["completarías"],"vos":["completarías"],"s3":["completaría"],"p1":["completaríamos"],"p2":["completaríais"],"p3":["completarían"]},
+    "SubPres": {"s1":["complete"],"s2":["completes"],"vos":["completes","completés"],"s3":["complete"],"p1":["completemos"],"p2":["completéis"],"p3":["completen"]},
+    "SubImp": {"s1":["completara","completase"],"s2":["completaras","completases"],"vos":["completaras","completases"],"s3":["completara","completase"],"p1":["completáramos","completásemos"],"p2":["completarais","completaseis"],"p3":["completaran","completasen"]},
+    "SubFut": {"s1":["completare"],"s2":["completares"],"vos":["completares"],"s3":["completare"],"p1":["completáremos"],"p2":["completareis"],"p3":["completaren"]},
+    "CmdPos": {"s2":["completa"],"vos":["completá"],"s3":["complete"],"p1":["completemos"],"p2":["completad"],"p3":["completen"]}
+  }
+}

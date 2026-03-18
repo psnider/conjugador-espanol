@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alkiˈlaɾ]",
+    "silabacion": "al-qui-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del árabe hispánico alkirá ('alquiler'), a su vez del árabe clásico kira",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alquilar","gerundio":"alquilando","participio":"alquilado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alquilo"],"s2":["alquilas"],"vos":["alquilás"],"s3":["alquila"],"p1":["alquilamos"],"p2":["alquiláis"],"p3":["alquilan"]},
+    "IndImp": {"s1":["alquilaba"],"s2":["alquilabas"],"vos":["alquilabas"],"s3":["alquilaba"],"p1":["alquilábamos"],"p2":["alquilabais"],"p3":["alquilaban"]},
+    "IndPret": {"s1":["alquilé"],"s2":["alquilaste"],"vos":["alquilaste"],"s3":["alquiló"],"p1":["alquilamos"],"p2":["alquilasteis"],"p3":["alquilaron"]},
+    "IndFut": {"s1":["alquilaré"],"s2":["alquilarás"],"vos":["alquilarás"],"s3":["alquilará"],"p1":["alquilaremos"],"p2":["alquilaréis"],"p3":["alquilarán"]},
+    "IndCond": {"s1":["alquilaría"],"s2":["alquilarías"],"vos":["alquilarías"],"s3":["alquilaría"],"p1":["alquilaríamos"],"p2":["alquilaríais"],"p3":["alquilarían"]},
+    "SubPres": {"s1":["alquile"],"s2":["alquiles"],"vos":["alquiles","alquilés"],"s3":["alquile"],"p1":["alquilemos"],"p2":["alquiléis"],"p3":["alquilen"]},
+    "SubImp": {"s1":["alquilara","alquilase"],"s2":["alquilaras","alquilases"],"vos":["alquilaras","alquilases"],"s3":["alquilara","alquilase"],"p1":["alquiláramos","alquilásemos"],"p2":["alquilarais","alquilaseis"],"p3":["alquilaran","alquilasen"]},
+    "SubFut": {"s1":["alquilare"],"s2":["alquilares"],"vos":["alquilares"],"s3":["alquilare"],"p1":["alquiláremos"],"p2":["alquilareis"],"p3":["alquilaren"]},
+    "CmdPos": {"s2":["alquila"],"vos":["alquilá"],"s3":["alquile"],"p1":["alquilemos"],"p2":["alquilad"],"p3":["alquilen"]}
+  }
+}

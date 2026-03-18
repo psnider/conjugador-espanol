@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[laɣ̞ɾimeˈaɾ]",
+    "silabacion": "la-gri-me-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De lágrima y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lagrimear","gerundio":"lagrimeando","participio":"lagrimeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lagrimeo"],"s2":["lagrimeas"],"vos":["lagrimeás"],"s3":["lagrimea"],"p1":["lagrimeamos"],"p2":["lagrimeáis"],"p3":["lagrimean"]},
+    "IndImp": {"s1":["lagrimeaba"],"s2":["lagrimeabas"],"vos":["lagrimeabas"],"s3":["lagrimeaba"],"p1":["lagrimeábamos"],"p2":["lagrimeabais"],"p3":["lagrimeaban"]},
+    "IndPret": {"s1":["lagrimeé"],"s2":["lagrimeaste"],"vos":["lagrimeaste"],"s3":["lagrimeó"],"p1":["lagrimeamos"],"p2":["lagrimeasteis"],"p3":["lagrimearon"]},
+    "IndFut": {"s1":["lagrimearé"],"s2":["lagrimearás"],"vos":["lagrimearás"],"s3":["lagrimeará"],"p1":["lagrimearemos"],"p2":["lagrimearéis"],"p3":["lagrimearán"]},
+    "IndCond": {"s1":["lagrimearía"],"s2":["lagrimearías"],"vos":["lagrimearías"],"s3":["lagrimearía"],"p1":["lagrimearíamos"],"p2":["lagrimearíais"],"p3":["lagrimearían"]},
+    "SubPres": {"s1":["lagrimee"],"s2":["lagrimees"],"vos":["lagrimees","lagrimeés"],"s3":["lagrimee"],"p1":["lagrimeemos"],"p2":["lagrimeéis"],"p3":["lagrimeen"]},
+    "SubImp": {"s1":["lagrimeara","lagrimease"],"s2":["lagrimearas","lagrimeases"],"vos":["lagrimearas","lagrimeases"],"s3":["lagrimeara","lagrimease"],"p1":["lagrimeáramos","lagrimeásemos"],"p2":["lagrimearais","lagrimeaseis"],"p3":["lagrimearan","lagrimeasen"]},
+    "SubFut": {"s1":["lagrimeare"],"s2":["lagrimeares"],"vos":["lagrimeares"],"s3":["lagrimeare"],"p1":["lagrimeáremos"],"p2":["lagrimeareis"],"p3":["lagrimearen"]},
+    "CmdPos": {"s2":["lagrimea"],"vos":["lagrimeá"],"s3":["lagrimee"],"p1":["lagrimeemos"],"p2":["lagrimead"],"p3":["lagrimeen"]}
+  }
+}

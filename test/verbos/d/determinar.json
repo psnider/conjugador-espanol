@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪et̪eɾmiˈnaɾ]",
+    "silabacion": "de-ter-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"determinar","gerundio":"determinando","participio":"determinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["determino"],"s2":["determinas"],"vos":["determinás"],"s3":["determina"],"p1":["determinamos"],"p2":["determináis"],"p3":["determinan"]},
+    "IndImp": {"s1":["determinaba"],"s2":["determinabas"],"vos":["determinabas"],"s3":["determinaba"],"p1":["determinábamos"],"p2":["determinabais"],"p3":["determinaban"]},
+    "IndPret": {"s1":["determiné"],"s2":["determinaste"],"vos":["determinaste"],"s3":["determinó"],"p1":["determinamos"],"p2":["determinasteis"],"p3":["determinaron"]},
+    "IndFut": {"s1":["determinaré"],"s2":["determinarás"],"vos":["determinarás"],"s3":["determinará"],"p1":["determinaremos"],"p2":["determinaréis"],"p3":["determinarán"]},
+    "IndCond": {"s1":["determinaría"],"s2":["determinarías"],"vos":["determinarías"],"s3":["determinaría"],"p1":["determinaríamos"],"p2":["determinaríais"],"p3":["determinarían"]},
+    "SubPres": {"s1":["determine"],"s2":["determines"],"vos":["determines","determinés"],"s3":["determine"],"p1":["determinemos"],"p2":["determinéis"],"p3":["determinen"]},
+    "SubImp": {"s1":["determinara","determinase"],"s2":["determinaras","determinases"],"vos":["determinaras","determinases"],"s3":["determinara","determinase"],"p1":["determináramos","determinásemos"],"p2":["determinarais","determinaseis"],"p3":["determinaran","determinasen"]},
+    "SubFut": {"s1":["determinare"],"s2":["determinares"],"vos":["determinares"],"s3":["determinare"],"p1":["determináremos"],"p2":["determinareis"],"p3":["determinaren"]},
+    "CmdPos": {"s2":["determina"],"vos":["determiná"],"s3":["determine"],"p1":["determinemos"],"p2":["determinad"],"p3":["determinen"]}
+  }
+}

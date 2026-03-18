@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkoˈxeɾ]",
+    "silabacion": "en-co-ger",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en- y coger.[1]",
+    "modelos": ["proteger"]
+  },
+  "formas_no_personales": {"infinitivo":"encoger","gerundio":"encogiendo","participio":"encogido"},
+  "formas_personales": {
+    "IndPres": {"s1":["encojo"],"s2":["encoges"],"vos":["encogés"],"s3":["encoge"],"p1":["encogemos"],"p2":["encogéis"],"p3":["encogen"]},
+    "IndImp": {"s1":["encogía"],"s2":["encogías"],"vos":["encogías"],"s3":["encogía"],"p1":["encogíamos"],"p2":["encogíais"],"p3":["encogían"]},
+    "IndPret": {"s1":["encogí"],"s2":["encogiste"],"vos":["encogiste"],"s3":["encogió"],"p1":["encogimos"],"p2":["encogisteis"],"p3":["encogieron"]},
+    "IndFut": {"s1":["encogeré"],"s2":["encogerás"],"vos":["encogerás"],"s3":["encogerá"],"p1":["encogeremos"],"p2":["encogeréis"],"p3":["encogerán"]},
+    "IndCond": {"s1":["encogería"],"s2":["encogerías"],"vos":["encogerías"],"s3":["encogería"],"p1":["encogeríamos"],"p2":["encogeríais"],"p3":["encogerían"]},
+    "SubPres": {"s1":["encoja"],"s2":["encojas"],"vos":["encojas","encojás"],"s3":["encoja"],"p1":["encojamos"],"p2":["encojáis"],"p3":["encojan"]},
+    "SubImp": {"s1":["encogiera","encogiese"],"s2":["encogieras","encogieses"],"vos":["encogieras","encogieses"],"s3":["encogiera","encogiese"],"p1":["encogiéramos","encogiésemos"],"p2":["encogierais","encogieseis"],"p3":["encogieran","encogiesen"]},
+    "SubFut": {"s1":["encogiere"],"s2":["encogieres"],"vos":["encogieres"],"s3":["encogiere"],"p1":["encogiéremos"],"p2":["encogiereis"],"p3":["encogieren"]},
+    "CmdPos": {"s2":["encoge"],"vos":["encogé"],"s3":["encoja"],"p1":["encojamos"],"p2":["encoged"],"p3":["encojan"]}
+  }
+}

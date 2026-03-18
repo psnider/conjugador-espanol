@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asepˈt̪aɾ]",
+    "silabacion": "a-cep-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín acceptāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aceptar","gerundio":"aceptando","participio":"aceptado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acepto"],"s2":["aceptas"],"vos":["aceptás"],"s3":["acepta"],"p1":["aceptamos"],"p2":["aceptáis"],"p3":["aceptan"]},
+    "IndImp": {"s1":["aceptaba"],"s2":["aceptabas"],"vos":["aceptabas"],"s3":["aceptaba"],"p1":["aceptábamos"],"p2":["aceptabais"],"p3":["aceptaban"]},
+    "IndPret": {"s1":["acepté"],"s2":["aceptaste"],"vos":["aceptaste"],"s3":["aceptó"],"p1":["aceptamos"],"p2":["aceptasteis"],"p3":["aceptaron"]},
+    "IndFut": {"s1":["aceptaré"],"s2":["aceptarás"],"vos":["aceptarás"],"s3":["aceptará"],"p1":["aceptaremos"],"p2":["aceptaréis"],"p3":["aceptarán"]},
+    "IndCond": {"s1":["aceptaría"],"s2":["aceptarías"],"vos":["aceptarías"],"s3":["aceptaría"],"p1":["aceptaríamos"],"p2":["aceptaríais"],"p3":["aceptarían"]},
+    "SubPres": {"s1":["acepte"],"s2":["aceptes"],"vos":["aceptes","aceptés"],"s3":["acepte"],"p1":["aceptemos"],"p2":["aceptéis"],"p3":["acepten"]},
+    "SubImp": {"s1":["aceptara","aceptase"],"s2":["aceptaras","aceptases"],"vos":["aceptaras","aceptases"],"s3":["aceptara","aceptase"],"p1":["aceptáramos","aceptásemos"],"p2":["aceptarais","aceptaseis"],"p3":["aceptaran","aceptasen"]},
+    "SubFut": {"s1":["aceptare"],"s2":["aceptares"],"vos":["aceptares"],"s3":["aceptare"],"p1":["aceptáremos"],"p2":["aceptareis"],"p3":["aceptaren"]},
+    "CmdPos": {"s2":["acepta"],"vos":["aceptá"],"s3":["acepte"],"p1":["aceptemos"],"p2":["aceptad"],"p3":["acepten"]}
+  }
+}

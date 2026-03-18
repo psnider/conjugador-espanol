@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mẽnsjoˈnaɾ]",
+    "silabacion": "men-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mencionar","gerundio":"mencionando","participio":"mencionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["menciono"],"s2":["mencionas"],"vos":["mencionás"],"s3":["menciona"],"p1":["mencionamos"],"p2":["mencionáis"],"p3":["mencionan"]},
+    "IndImp": {"s1":["mencionaba"],"s2":["mencionabas"],"vos":["mencionabas"],"s3":["mencionaba"],"p1":["mencionábamos"],"p2":["mencionabais"],"p3":["mencionaban"]},
+    "IndPret": {"s1":["mencioné"],"s2":["mencionaste"],"vos":["mencionaste"],"s3":["mencionó"],"p1":["mencionamos"],"p2":["mencionasteis"],"p3":["mencionaron"]},
+    "IndFut": {"s1":["mencionaré"],"s2":["mencionarás"],"vos":["mencionarás"],"s3":["mencionará"],"p1":["mencionaremos"],"p2":["mencionaréis"],"p3":["mencionarán"]},
+    "IndCond": {"s1":["mencionaría"],"s2":["mencionarías"],"vos":["mencionarías"],"s3":["mencionaría"],"p1":["mencionaríamos"],"p2":["mencionaríais"],"p3":["mencionarían"]},
+    "SubPres": {"s1":["mencione"],"s2":["menciones"],"vos":["menciones","mencionés"],"s3":["mencione"],"p1":["mencionemos"],"p2":["mencionéis"],"p3":["mencionen"]},
+    "SubImp": {"s1":["mencionara","mencionase"],"s2":["mencionaras","mencionases"],"vos":["mencionaras","mencionases"],"s3":["mencionara","mencionase"],"p1":["mencionáramos","mencionásemos"],"p2":["mencionarais","mencionaseis"],"p3":["mencionaran","mencionasen"]},
+    "SubFut": {"s1":["mencionare"],"s2":["mencionares"],"vos":["mencionares"],"s3":["mencionare"],"p1":["mencionáremos"],"p2":["mencionareis"],"p3":["mencionaren"]},
+    "CmdPos": {"s2":["menciona"],"vos":["mencioná"],"s3":["mencione"],"p1":["mencionemos"],"p2":["mencionad"],"p3":["mencionen"]}
+  }
+}

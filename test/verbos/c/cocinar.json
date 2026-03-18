@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kosiˈnaɾ]",
+    "silabacion": "co-ci-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín coquināre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cocinar","gerundio":"cocinando","participio":"cocinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cocino"],"s2":["cocinas"],"vos":["cocinás"],"s3":["cocina"],"p1":["cocinamos"],"p2":["cocináis"],"p3":["cocinan"]},
+    "IndImp": {"s1":["cocinaba"],"s2":["cocinabas"],"vos":["cocinabas"],"s3":["cocinaba"],"p1":["cocinábamos"],"p2":["cocinabais"],"p3":["cocinaban"]},
+    "IndPret": {"s1":["cociné"],"s2":["cocinaste"],"vos":["cocinaste"],"s3":["cocinó"],"p1":["cocinamos"],"p2":["cocinasteis"],"p3":["cocinaron"]},
+    "IndFut": {"s1":["cocinaré"],"s2":["cocinarás"],"vos":["cocinarás"],"s3":["cocinará"],"p1":["cocinaremos"],"p2":["cocinaréis"],"p3":["cocinarán"]},
+    "IndCond": {"s1":["cocinaría"],"s2":["cocinarías"],"vos":["cocinarías"],"s3":["cocinaría"],"p1":["cocinaríamos"],"p2":["cocinaríais"],"p3":["cocinarían"]},
+    "SubPres": {"s1":["cocine"],"s2":["cocines"],"vos":["cocines","cocinés"],"s3":["cocine"],"p1":["cocinemos"],"p2":["cocinéis"],"p3":["cocinen"]},
+    "SubImp": {"s1":["cocinara","cocinase"],"s2":["cocinaras","cocinases"],"vos":["cocinaras","cocinases"],"s3":["cocinara","cocinase"],"p1":["cocináramos","cocinásemos"],"p2":["cocinarais","cocinaseis"],"p3":["cocinaran","cocinasen"]},
+    "SubFut": {"s1":["cocinare"],"s2":["cocinares"],"vos":["cocinares"],"s3":["cocinare"],"p1":["cocináremos"],"p2":["cocinareis"],"p3":["cocinaren"]},
+    "CmdPos": {"s2":["cocina"],"vos":["cociná"],"s3":["cocine"],"p1":["cocinemos"],"p2":["cocinad"],"p3":["cocinen"]}
+  }
+}

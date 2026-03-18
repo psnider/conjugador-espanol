@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[siɣ̞nifiˈkaɾ]",
+    "silabacion": "sig-ni-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"significar","gerundio":"significando","participio":"significado"},
+  "formas_personales": {
+    "IndPres": {"s1":["significo"],"s2":["significas"],"vos":["significás"],"s3":["significa"],"p1":["significamos"],"p2":["significáis"],"p3":["significan"]},
+    "IndImp": {"s1":["significaba"],"s2":["significabas"],"vos":["significabas"],"s3":["significaba"],"p1":["significábamos"],"p2":["significabais"],"p3":["significaban"]},
+    "IndPret": {"s1":["signifiqué"],"s2":["significaste"],"vos":["significaste"],"s3":["significó"],"p1":["significamos"],"p2":["significasteis"],"p3":["significaron"]},
+    "IndFut": {"s1":["significaré"],"s2":["significarás"],"vos":["significarás"],"s3":["significará"],"p1":["significaremos"],"p2":["significaréis"],"p3":["significarán"]},
+    "IndCond": {"s1":["significaría"],"s2":["significarías"],"vos":["significarías"],"s3":["significaría"],"p1":["significaríamos"],"p2":["significaríais"],"p3":["significarían"]},
+    "SubPres": {"s1":["signifique"],"s2":["signifiques"],"vos":["signifiques","signifiqués"],"s3":["signifique"],"p1":["signifiquemos"],"p2":["signifiquéis"],"p3":["signifiquen"]},
+    "SubImp": {"s1":["significara","significase"],"s2":["significaras","significases"],"vos":["significaras","significases"],"s3":["significara","significase"],"p1":["significáramos","significásemos"],"p2":["significarais","significaseis"],"p3":["significaran","significasen"]},
+    "SubFut": {"s1":["significare"],"s2":["significares"],"vos":["significares"],"s3":["significare"],"p1":["significáremos"],"p2":["significareis"],"p3":["significaren"]},
+    "CmdPos": {"s2":["significa"],"vos":["significá"],"s3":["signifique"],"p1":["signifiquemos"],"p2":["significad"],"p3":["signifiquen"]}
+  }
+}

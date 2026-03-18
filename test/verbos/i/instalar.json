@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnst̪aˈlaɾ]",
+    "silabacion": "ins-ta-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"instalar","gerundio":"instalando","participio":"instalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["instalo"],"s2":["instalas"],"vos":["instalás"],"s3":["instala"],"p1":["instalamos"],"p2":["instaláis"],"p3":["instalan"]},
+    "IndImp": {"s1":["instalaba"],"s2":["instalabas"],"vos":["instalabas"],"s3":["instalaba"],"p1":["instalábamos"],"p2":["instalabais"],"p3":["instalaban"]},
+    "IndPret": {"s1":["instalé"],"s2":["instalaste"],"vos":["instalaste"],"s3":["instaló"],"p1":["instalamos"],"p2":["instalasteis"],"p3":["instalaron"]},
+    "IndFut": {"s1":["instalaré"],"s2":["instalarás"],"vos":["instalarás"],"s3":["instalará"],"p1":["instalaremos"],"p2":["instalaréis"],"p3":["instalarán"]},
+    "IndCond": {"s1":["instalaría"],"s2":["instalarías"],"vos":["instalarías"],"s3":["instalaría"],"p1":["instalaríamos"],"p2":["instalaríais"],"p3":["instalarían"]},
+    "SubPres": {"s1":["instale"],"s2":["instales"],"vos":["instales","instalés"],"s3":["instale"],"p1":["instalemos"],"p2":["instaléis"],"p3":["instalen"]},
+    "SubImp": {"s1":["instalara","instalase"],"s2":["instalaras","instalases"],"vos":["instalaras","instalases"],"s3":["instalara","instalase"],"p1":["instaláramos","instalásemos"],"p2":["instalarais","instalaseis"],"p3":["instalaran","instalasen"]},
+    "SubFut": {"s1":["instalare"],"s2":["instalares"],"vos":["instalares"],"s3":["instalare"],"p1":["instaláremos"],"p2":["instalareis"],"p3":["instalaren"]},
+    "CmdPos": {"s2":["instala"],"vos":["instalá"],"s3":["instale"],"p1":["instalemos"],"p2":["instalad"],"p3":["instalen"]}
+  }
+}

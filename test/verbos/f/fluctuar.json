@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[flukˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fluctuāre «agitarse sobre las olas».",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"fluctuar","gerundio":"fluctuando","participio":"fluctuado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fluctúo"],"s2":["fluctúas"],"vos":["fluctuás"],"s3":["fluctúa"],"p1":["fluctuamos"],"p2":["fluctuáis"],"p3":["fluctúan"]},
+    "IndImp": {"s1":["fluctuaba"],"s2":["fluctuabas"],"vos":["fluctuabas"],"s3":["fluctuaba"],"p1":["fluctuábamos"],"p2":["fluctuabais"],"p3":["fluctuaban"]},
+    "IndPret": {"s1":["fluctué"],"s2":["fluctuaste"],"vos":["fluctuaste"],"s3":["fluctuó"],"p1":["fluctuamos"],"p2":["fluctuasteis"],"p3":["fluctuaron"]},
+    "IndFut": {"s1":["fluctuaré"],"s2":["fluctuarás"],"vos":["fluctuarás"],"s3":["fluctuará"],"p1":["fluctuaremos"],"p2":["fluctuaréis"],"p3":["fluctuarán"]},
+    "IndCond": {"s1":["fluctuaría"],"s2":["fluctuarías"],"vos":["fluctuarías"],"s3":["fluctuaría"],"p1":["fluctuaríamos"],"p2":["fluctuaríais"],"p3":["fluctuarían"]},
+    "SubPres": {"s1":["fluctúe"],"s2":["fluctúes"],"vos":["fluctúes","fluctués"],"s3":["fluctúe"],"p1":["fluctuemos"],"p2":["fluctuéis"],"p3":["fluctúen"]},
+    "SubImp": {"s1":["fluctuara","fluctuase"],"s2":["fluctuaras","fluctuases"],"vos":["fluctuaras","fluctuases"],"s3":["fluctuara","fluctuase"],"p1":["fluctuáramos","fluctuásemos"],"p2":["fluctuarais","fluctuaseis"],"p3":["fluctuaran","fluctuasen"]},
+    "SubFut": {"s1":["fluctuare"],"s2":["fluctuares"],"vos":["fluctuares"],"s3":["fluctuare"],"p1":["fluctuáremos"],"p2":["fluctuareis"],"p3":["fluctuaren"]},
+    "CmdPos": {"s2":["fluctúa"],"vos":["fluctuá"],"s3":["fluctúe"],"p1":["fluctuemos"],"p2":["fluctuad"],"p3":["fluctúen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾneˈaɾ]",
+    "silabacion": "hor-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De horno y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hornear","gerundio":"horneando","participio":"horneado"},
+  "formas_personales": {
+    "IndPres": {"s1":["horneo"],"s2":["horneas"],"vos":["horneás"],"s3":["hornea"],"p1":["horneamos"],"p2":["horneáis"],"p3":["hornean"]},
+    "IndImp": {"s1":["horneaba"],"s2":["horneabas"],"vos":["horneabas"],"s3":["horneaba"],"p1":["horneábamos"],"p2":["horneabais"],"p3":["horneaban"]},
+    "IndPret": {"s1":["horneé"],"s2":["horneaste"],"vos":["horneaste"],"s3":["horneó"],"p1":["horneamos"],"p2":["horneasteis"],"p3":["hornearon"]},
+    "IndFut": {"s1":["hornearé"],"s2":["hornearás"],"vos":["hornearás"],"s3":["horneará"],"p1":["hornearemos"],"p2":["hornearéis"],"p3":["hornearán"]},
+    "IndCond": {"s1":["hornearía"],"s2":["hornearías"],"vos":["hornearías"],"s3":["hornearía"],"p1":["hornearíamos"],"p2":["hornearíais"],"p3":["hornearían"]},
+    "SubPres": {"s1":["hornee"],"s2":["hornees"],"vos":["hornees","horneés"],"s3":["hornee"],"p1":["horneemos"],"p2":["horneéis"],"p3":["horneen"]},
+    "SubImp": {"s1":["horneara","hornease"],"s2":["hornearas","horneases"],"vos":["hornearas","horneases"],"s3":["horneara","hornease"],"p1":["horneáramos","horneásemos"],"p2":["hornearais","horneaseis"],"p3":["hornearan","horneasen"]},
+    "SubFut": {"s1":["horneare"],"s2":["horneares"],"vos":["horneares"],"s3":["horneare"],"p1":["horneáremos"],"p2":["horneareis"],"p3":["hornearen"]},
+    "CmdPos": {"s2":["hornea"],"vos":["horneá"],"s3":["hornee"],"p1":["horneemos"],"p2":["hornead"],"p3":["horneen"]}
+  }
+}

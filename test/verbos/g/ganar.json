@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gaˈnaɾ]",
+    "silabacion": "ga-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo ganar, del latín medieval ganāre, y este del gótico *𐌲𐌰𐌽𐌰𐌽 (*ganan, 'codiciar'), con influencia de *wadaniāre&nbsp;('guadañar'), verbo que provendría del verbo germánico *waiþanjaną.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ganar","gerundio":"ganando","participio":"ganado"},
+  "formas_personales": {
+    "IndPres": {"s1":["gano"],"s2":["ganas"],"vos":["ganás"],"s3":["gana"],"p1":["ganamos"],"p2":["ganáis"],"p3":["ganan"]},
+    "IndImp": {"s1":["ganaba"],"s2":["ganabas"],"vos":["ganabas"],"s3":["ganaba"],"p1":["ganábamos"],"p2":["ganabais"],"p3":["ganaban"]},
+    "IndPret": {"s1":["gané"],"s2":["ganaste"],"vos":["ganaste"],"s3":["ganó"],"p1":["ganamos"],"p2":["ganasteis"],"p3":["ganaron"]},
+    "IndFut": {"s1":["ganaré"],"s2":["ganarás"],"vos":["ganarás"],"s3":["ganará"],"p1":["ganaremos"],"p2":["ganaréis"],"p3":["ganarán"]},
+    "IndCond": {"s1":["ganaría"],"s2":["ganarías"],"vos":["ganarías"],"s3":["ganaría"],"p1":["ganaríamos"],"p2":["ganaríais"],"p3":["ganarían"]},
+    "SubPres": {"s1":["gane"],"s2":["ganes"],"vos":["ganes","ganés"],"s3":["gane"],"p1":["ganemos"],"p2":["ganéis"],"p3":["ganen"]},
+    "SubImp": {"s1":["ganara","ganase"],"s2":["ganaras","ganases"],"vos":["ganaras","ganases"],"s3":["ganara","ganase"],"p1":["ganáramos","ganásemos"],"p2":["ganarais","ganaseis"],"p3":["ganaran","ganasen"]},
+    "SubFut": {"s1":["ganare"],"s2":["ganares"],"vos":["ganares"],"s3":["ganare"],"p1":["ganáremos"],"p2":["ganareis"],"p3":["ganaren"]},
+    "CmdPos": {"s2":["gana"],"vos":["ganá"],"s3":["gane"],"p1":["ganemos"],"p2":["ganad"],"p3":["ganen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾuˈpaɾ]",
+    "silabacion": "a-gru-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, grupo y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agrupar","gerundio":"agrupando","participio":"agrupado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agrupo"],"s2":["agrupas"],"vos":["agrupás"],"s3":["agrupa"],"p1":["agrupamos"],"p2":["agrupáis"],"p3":["agrupan"]},
+    "IndImp": {"s1":["agrupaba"],"s2":["agrupabas"],"vos":["agrupabas"],"s3":["agrupaba"],"p1":["agrupábamos"],"p2":["agrupabais"],"p3":["agrupaban"]},
+    "IndPret": {"s1":["agrupé"],"s2":["agrupaste"],"vos":["agrupaste"],"s3":["agrupó"],"p1":["agrupamos"],"p2":["agrupasteis"],"p3":["agruparon"]},
+    "IndFut": {"s1":["agruparé"],"s2":["agruparás"],"vos":["agruparás"],"s3":["agrupará"],"p1":["agruparemos"],"p2":["agruparéis"],"p3":["agruparán"]},
+    "IndCond": {"s1":["agruparía"],"s2":["agruparías"],"vos":["agruparías"],"s3":["agruparía"],"p1":["agruparíamos"],"p2":["agruparíais"],"p3":["agruparían"]},
+    "SubPres": {"s1":["agrupe"],"s2":["agrupes"],"vos":["agrupes","agrupés"],"s3":["agrupe"],"p1":["agrupemos"],"p2":["agrupéis"],"p3":["agrupen"]},
+    "SubImp": {"s1":["agrupara","agrupase"],"s2":["agruparas","agrupases"],"vos":["agruparas","agrupases"],"s3":["agrupara","agrupase"],"p1":["agrupáramos","agrupásemos"],"p2":["agruparais","agrupaseis"],"p3":["agruparan","agrupasen"]},
+    "SubFut": {"s1":["agrupare"],"s2":["agrupares"],"vos":["agrupares"],"s3":["agrupare"],"p1":["agrupáremos"],"p2":["agrupareis"],"p3":["agruparen"]},
+    "CmdPos": {"s2":["agrupa"],"vos":["agrupá"],"s3":["agrupe"],"p1":["agrupemos"],"p2":["agrupad"],"p3":["agrupen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkɾemẽn̪ˈt̪aɾ]",
+    "silabacion": "in-cre-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incrementare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"incrementar","gerundio":"incrementando","participio":"incrementado"},
+  "formas_personales": {
+    "IndPres": {"s1":["incremento"],"s2":["incrementas"],"vos":["incrementás"],"s3":["incrementa"],"p1":["incrementamos"],"p2":["incrementáis"],"p3":["incrementan"]},
+    "IndImp": {"s1":["incrementaba"],"s2":["incrementabas"],"vos":["incrementabas"],"s3":["incrementaba"],"p1":["incrementábamos"],"p2":["incrementabais"],"p3":["incrementaban"]},
+    "IndPret": {"s1":["incrementé"],"s2":["incrementaste"],"vos":["incrementaste"],"s3":["incrementó"],"p1":["incrementamos"],"p2":["incrementasteis"],"p3":["incrementaron"]},
+    "IndFut": {"s1":["incrementaré"],"s2":["incrementarás"],"vos":["incrementarás"],"s3":["incrementará"],"p1":["incrementaremos"],"p2":["incrementaréis"],"p3":["incrementarán"]},
+    "IndCond": {"s1":["incrementaría"],"s2":["incrementarías"],"vos":["incrementarías"],"s3":["incrementaría"],"p1":["incrementaríamos"],"p2":["incrementaríais"],"p3":["incrementarían"]},
+    "SubPres": {"s1":["incremente"],"s2":["incrementes"],"vos":["incrementes","incrementés"],"s3":["incremente"],"p1":["incrementemos"],"p2":["incrementéis"],"p3":["incrementen"]},
+    "SubImp": {"s1":["incrementara","incrementase"],"s2":["incrementaras","incrementases"],"vos":["incrementaras","incrementases"],"s3":["incrementara","incrementase"],"p1":["incrementáramos","incrementásemos"],"p2":["incrementarais","incrementaseis"],"p3":["incrementaran","incrementasen"]},
+    "SubFut": {"s1":["incrementare"],"s2":["incrementares"],"vos":["incrementares"],"s3":["incrementare"],"p1":["incrementáremos"],"p2":["incrementareis"],"p3":["incrementaren"]},
+    "CmdPos": {"s2":["incrementa"],"vos":["incrementá"],"s3":["incremente"],"p1":["incrementemos"],"p2":["incrementad"],"p3":["incrementen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gɾuˈɲiɾ]",
+    "silabacion": "gru-ñir",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["gruñir"]
+  },
+  "formas_no_personales": {"infinitivo":"gruñir","gerundio":"gruñendo","participio":"gruñido"},
+  "formas_personales": {
+    "IndPres": {"s1":["gruño"],"s2":["gruñes"],"vos":["gruñís"],"s3":["gruñe"],"p1":["gruñimos"],"p2":["gruñís"],"p3":["gruñen"]},
+    "IndImp": {"s1":["gruñía"],"s2":["gruñías"],"vos":["gruñías"],"s3":["gruñía"],"p1":["gruñíamos"],"p2":["gruñíais"],"p3":["gruñían"]},
+    "IndPret": {"s1":["gruñí"],"s2":["gruñiste"],"vos":["gruñiste"],"s3":["gruñó"],"p1":["gruñimos"],"p2":["gruñisteis"],"p3":["gruñeron"]},
+    "IndFut": {"s1":["gruñiré"],"s2":["gruñirás"],"vos":["gruñirás"],"s3":["gruñirá"],"p1":["gruñiremos"],"p2":["gruñiréis"],"p3":["gruñirán"]},
+    "IndCond": {"s1":["gruñiría"],"s2":["gruñirías"],"vos":["gruñirías"],"s3":["gruñiría"],"p1":["gruñiríamos"],"p2":["gruñiríais"],"p3":["gruñirían"]},
+    "SubPres": {"s1":["gruña"],"s2":["gruñas"],"vos":["gruñas","gruñás"],"s3":["gruña"],"p1":["gruñamos"],"p2":["gruñáis"],"p3":["gruñan"]},
+    "SubImp": {"s1":["gruñera","gruñese"],"s2":["gruñeras","gruñeses"],"vos":["gruñeras","gruñeses"],"s3":["gruñera","gruñese"],"p1":["gruñéramos","gruñésemos"],"p2":["gruñerais","gruñeseis"],"p3":["gruñeran","gruñesen"]},
+    "SubFut": {"s1":["gruñere"],"s2":["gruñeres"],"vos":["gruñeres"],"s3":["gruñere"],"p1":["gruñéremos"],"p2":["gruñereis"],"p3":["gruñeren"]},
+    "CmdPos": {"s2":["gruñe"],"vos":["gruñí"],"s3":["gruña"],"p1":["gruñamos"],"p2":["gruñid"],"p3":["gruñan"]}
+  }
+}

@@ -58,7 +58,7 @@ function runTestsForSavedVerbs() {
 
 
 function saveTestResults() {
-    const results_filename = `generated/test/resultos-de-pruebas.json`
+    const results_filename = `generated/test/resultados-de-pruebas.json`
     const json = JSON.stringify(test_results, null, 2)
     fs.writeFileSync(results_filename, json)
     let error_count = 0
@@ -70,7 +70,7 @@ function saveTestResults() {
         }
     }
     console.log(`wrote ${results_filename}`)
-    console.log(`...with error_count=${error_count}`)
+    console.log(`...with ${infinitives.length} verbs, with ${error_count} errors.`)
 }
 
 

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋgãnʲˈt͡ʃaɾ]",
+    "silabacion": "en-gan-char",
+    "acentuacion": "aguda",
+    "etimologia": "De enganche y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enganchar","gerundio":"enganchando","participio":"enganchado"},
+  "formas_personales": {
+    "IndPres": {"s1":["engancho"],"s2":["enganchas"],"vos":["enganchás"],"s3":["engancha"],"p1":["enganchamos"],"p2":["engancháis"],"p3":["enganchan"]},
+    "IndImp": {"s1":["enganchaba"],"s2":["enganchabas"],"vos":["enganchabas"],"s3":["enganchaba"],"p1":["enganchábamos"],"p2":["enganchabais"],"p3":["enganchaban"]},
+    "IndPret": {"s1":["enganché"],"s2":["enganchaste"],"vos":["enganchaste"],"s3":["enganchó"],"p1":["enganchamos"],"p2":["enganchasteis"],"p3":["engancharon"]},
+    "IndFut": {"s1":["engancharé"],"s2":["engancharás"],"vos":["engancharás"],"s3":["enganchará"],"p1":["engancharemos"],"p2":["engancharéis"],"p3":["engancharán"]},
+    "IndCond": {"s1":["engancharía"],"s2":["engancharías"],"vos":["engancharías"],"s3":["engancharía"],"p1":["engancharíamos"],"p2":["engancharíais"],"p3":["engancharían"]},
+    "SubPres": {"s1":["enganche"],"s2":["enganches"],"vos":["enganches","enganchés"],"s3":["enganche"],"p1":["enganchemos"],"p2":["enganchéis"],"p3":["enganchen"]},
+    "SubImp": {"s1":["enganchara","enganchase"],"s2":["engancharas","enganchases"],"vos":["engancharas","enganchases"],"s3":["enganchara","enganchase"],"p1":["engancháramos","enganchásemos"],"p2":["engancharais","enganchaseis"],"p3":["engancharan","enganchasen"]},
+    "SubFut": {"s1":["enganchare"],"s2":["enganchares"],"vos":["enganchares"],"s3":["enganchare"],"p1":["engancháremos"],"p2":["enganchareis"],"p3":["engancharen"]},
+    "CmdPos": {"s2":["engancha"],"vos":["enganchá"],"s3":["enganche"],"p1":["enganchemos"],"p2":["enganchad"],"p3":["enganchen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rexisˈt̪ɾaɾ]",
+    "silabacion": "re-gis-trar",
+    "acentuacion": "aguda",
+    "etimologia": "De registro y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"registrar","gerundio":"registrando","participio":"registrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["registro"],"s2":["registras"],"vos":["registrás"],"s3":["registra"],"p1":["registramos"],"p2":["registráis"],"p3":["registran"]},
+    "IndImp": {"s1":["registraba"],"s2":["registrabas"],"vos":["registrabas"],"s3":["registraba"],"p1":["registrábamos"],"p2":["registrabais"],"p3":["registraban"]},
+    "IndPret": {"s1":["registré"],"s2":["registraste"],"vos":["registraste"],"s3":["registró"],"p1":["registramos"],"p2":["registrasteis"],"p3":["registraron"]},
+    "IndFut": {"s1":["registraré"],"s2":["registrarás"],"vos":["registrarás"],"s3":["registrará"],"p1":["registraremos"],"p2":["registraréis"],"p3":["registrarán"]},
+    "IndCond": {"s1":["registraría"],"s2":["registrarías"],"vos":["registrarías"],"s3":["registraría"],"p1":["registraríamos"],"p2":["registraríais"],"p3":["registrarían"]},
+    "SubPres": {"s1":["registre"],"s2":["registres"],"vos":["registres","registrés"],"s3":["registre"],"p1":["registremos"],"p2":["registréis"],"p3":["registren"]},
+    "SubImp": {"s1":["registrara","registrase"],"s2":["registraras","registrases"],"vos":["registraras","registrases"],"s3":["registrara","registrase"],"p1":["registráramos","registrásemos"],"p2":["registrarais","registraseis"],"p3":["registraran","registrasen"]},
+    "SubFut": {"s1":["registrare"],"s2":["registrares"],"vos":["registrares"],"s3":["registrare"],"p1":["registráremos"],"p2":["registrareis"],"p3":["registraren"]},
+    "CmdPos": {"s2":["registra"],"vos":["registrá"],"s3":["registre"],"p1":["registremos"],"p2":["registrad"],"p3":["registren"]}
+  }
+}

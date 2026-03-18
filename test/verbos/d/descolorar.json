@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskoloˈɾaɾ]",
+    "silabacion": "des-co-lo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín discolōrō, discolōrāre,[1] de dis-&nbsp;('pérdida') y colōrō, colōrāre&nbsp;('teñir').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descolorar","gerundio":"descolorando","participio":"descolorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["descoloro"],"s2":["descoloras"],"vos":["descolorás"],"s3":["descolora"],"p1":["descoloramos"],"p2":["descoloráis"],"p3":["descoloran"]},
+    "IndImp": {"s1":["descoloraba"],"s2":["descolorabas"],"vos":["descolorabas"],"s3":["descoloraba"],"p1":["descolorábamos"],"p2":["descolorabais"],"p3":["descoloraban"]},
+    "IndPret": {"s1":["descoloré"],"s2":["descoloraste"],"vos":["descoloraste"],"s3":["descoloró"],"p1":["descoloramos"],"p2":["descolorasteis"],"p3":["descoloraron"]},
+    "IndFut": {"s1":["descoloraré"],"s2":["descolorarás"],"vos":["descolorarás"],"s3":["descolorará"],"p1":["descoloraremos"],"p2":["descoloraréis"],"p3":["descolorarán"]},
+    "IndCond": {"s1":["descoloraría"],"s2":["descolorarías"],"vos":["descolorarías"],"s3":["descoloraría"],"p1":["descoloraríamos"],"p2":["descoloraríais"],"p3":["descolorarían"]},
+    "SubPres": {"s1":["descolore"],"s2":["descolores"],"vos":["descolores","descolorés"],"s3":["descolore"],"p1":["descoloremos"],"p2":["descoloréis"],"p3":["descoloren"]},
+    "SubImp": {"s1":["descolorara","descolorase"],"s2":["descoloraras","descolorases"],"vos":["descoloraras","descolorases"],"s3":["descolorara","descolorase"],"p1":["descoloráramos","descolorásemos"],"p2":["descolorarais","descoloraseis"],"p3":["descoloraran","descolorasen"]},
+    "SubFut": {"s1":["descolorare"],"s2":["descolorares"],"vos":["descolorares"],"s3":["descolorare"],"p1":["descoloráremos"],"p2":["descolorareis"],"p3":["descoloraren"]},
+    "CmdPos": {"s2":["descolora"],"vos":["descolorá"],"s3":["descolore"],"p1":["descoloremos"],"p2":["descolorad"],"p3":["descoloren"]}
+  }
+}

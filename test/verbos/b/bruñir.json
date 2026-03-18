@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bɾuˈɲiɾ]",
+    "silabacion": "bru-ñir",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1250.[1] Del germánico *brūnjan, de brûn ('moreno').[2]",
+    "modelos": ["gruñir"]
+  },
+  "formas_no_personales": {"infinitivo":"bruñir","gerundio":"bruñendo","participio":"bruñido"},
+  "formas_personales": {
+    "IndPres": {"s1":["bruño"],"s2":["bruñes"],"vos":["bruñís"],"s3":["bruñe"],"p1":["bruñimos"],"p2":["bruñís"],"p3":["bruñen"]},
+    "IndImp": {"s1":["bruñía"],"s2":["bruñías"],"vos":["bruñías"],"s3":["bruñía"],"p1":["bruñíamos"],"p2":["bruñíais"],"p3":["bruñían"]},
+    "IndPret": {"s1":["bruñí"],"s2":["bruñiste"],"vos":["bruñiste"],"s3":["bruñó"],"p1":["bruñimos"],"p2":["bruñisteis"],"p3":["bruñeron"]},
+    "IndFut": {"s1":["bruñiré"],"s2":["bruñirás"],"vos":["bruñirás"],"s3":["bruñirá"],"p1":["bruñiremos"],"p2":["bruñiréis"],"p3":["bruñirán"]},
+    "IndCond": {"s1":["bruñiría"],"s2":["bruñirías"],"vos":["bruñirías"],"s3":["bruñiría"],"p1":["bruñiríamos"],"p2":["bruñiríais"],"p3":["bruñirían"]},
+    "SubPres": {"s1":["bruña"],"s2":["bruñas"],"vos":["bruñas","bruñás"],"s3":["bruña"],"p1":["bruñamos"],"p2":["bruñáis"],"p3":["bruñan"]},
+    "SubImp": {"s1":["bruñera","bruñese"],"s2":["bruñeras","bruñeses"],"vos":["bruñeras","bruñeses"],"s3":["bruñera","bruñese"],"p1":["bruñéramos","bruñésemos"],"p2":["bruñerais","bruñeseis"],"p3":["bruñeran","bruñesen"]},
+    "SubFut": {"s1":["bruñere"],"s2":["bruñeres"],"vos":["bruñeres"],"s3":["bruñere"],"p1":["bruñéremos"],"p2":["bruñereis"],"p3":["bruñeren"]},
+    "CmdPos": {"s2":["bruñe"],"vos":["bruñí"],"s3":["bruña"],"p1":["bruñamos"],"p2":["bruñid"],"p3":["bruñan"]}
+  }
+}

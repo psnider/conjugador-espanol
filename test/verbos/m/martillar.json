@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[maɾt̪iˈʝaɾ]",
+    "silabacion": "mar-ti-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"martillar","gerundio":"martillando","participio":"martillado"},
+  "formas_personales": {
+    "IndPres": {"s1":["martillo"],"s2":["martillas"],"vos":["martillás"],"s3":["martilla"],"p1":["martillamos"],"p2":["martilláis"],"p3":["martillan"]},
+    "IndImp": {"s1":["martillaba"],"s2":["martillabas"],"vos":["martillabas"],"s3":["martillaba"],"p1":["martillábamos"],"p2":["martillabais"],"p3":["martillaban"]},
+    "IndPret": {"s1":["martillé"],"s2":["martillaste"],"vos":["martillaste"],"s3":["martilló"],"p1":["martillamos"],"p2":["martillasteis"],"p3":["martillaron"]},
+    "IndFut": {"s1":["martillaré"],"s2":["martillarás"],"vos":["martillarás"],"s3":["martillará"],"p1":["martillaremos"],"p2":["martillaréis"],"p3":["martillarán"]},
+    "IndCond": {"s1":["martillaría"],"s2":["martillarías"],"vos":["martillarías"],"s3":["martillaría"],"p1":["martillaríamos"],"p2":["martillaríais"],"p3":["martillarían"]},
+    "SubPres": {"s1":["martille"],"s2":["martilles"],"vos":["martilles","martillés"],"s3":["martille"],"p1":["martillemos"],"p2":["martilléis"],"p3":["martillen"]},
+    "SubImp": {"s1":["martillara","martillase"],"s2":["martillaras","martillases"],"vos":["martillaras","martillases"],"s3":["martillara","martillase"],"p1":["martilláramos","martillásemos"],"p2":["martillarais","martillaseis"],"p3":["martillaran","martillasen"]},
+    "SubFut": {"s1":["martillare"],"s2":["martillares"],"vos":["martillares"],"s3":["martillare"],"p1":["martilláremos"],"p2":["martillareis"],"p3":["martillaren"]},
+    "CmdPos": {"s2":["martilla"],"vos":["martillá"],"s3":["martille"],"p1":["martillemos"],"p2":["martillad"],"p3":["martillen"]}
+  }
+}

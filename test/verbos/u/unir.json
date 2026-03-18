@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[uˈniɾ]",
+    "silabacion": "u-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín unire",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"unir","gerundio":"uniendo","participio":"unido"},
+  "formas_personales": {
+    "IndPres": {"s1":["uno"],"s2":["unes"],"vos":["unís"],"s3":["une"],"p1":["unimos"],"p2":["unís"],"p3":["unen"]},
+    "IndImp": {"s1":["unía"],"s2":["unías"],"vos":["unías"],"s3":["unía"],"p1":["uníamos"],"p2":["uníais"],"p3":["unían"]},
+    "IndPret": {"s1":["uní"],"s2":["uniste"],"vos":["uniste"],"s3":["unió"],"p1":["unimos"],"p2":["unisteis"],"p3":["unieron"]},
+    "IndFut": {"s1":["uniré"],"s2":["unirás"],"vos":["unirás"],"s3":["unirá"],"p1":["uniremos"],"p2":["uniréis"],"p3":["unirán"]},
+    "IndCond": {"s1":["uniría"],"s2":["unirías"],"vos":["unirías"],"s3":["uniría"],"p1":["uniríamos"],"p2":["uniríais"],"p3":["unirían"]},
+    "SubPres": {"s1":["una"],"s2":["unas"],"vos":["unas","unás"],"s3":["una"],"p1":["unamos"],"p2":["unáis"],"p3":["unan"]},
+    "SubImp": {"s1":["uniera","uniese"],"s2":["unieras","unieses"],"vos":["unieras","unieses"],"s3":["uniera","uniese"],"p1":["uniéramos","uniésemos"],"p2":["unierais","unieseis"],"p3":["unieran","uniesen"]},
+    "SubFut": {"s1":["uniere"],"s2":["unieres"],"vos":["unieres"],"s3":["uniere"],"p1":["uniéremos"],"p2":["uniereis"],"p3":["unieren"]},
+    "CmdPos": {"s2":["une"],"vos":["uní"],"s3":["una"],"p1":["unamos"],"p2":["unid"],"p3":["unan"]}
+  }
+}

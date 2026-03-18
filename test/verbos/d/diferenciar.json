@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ifeɾẽnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De diferencia y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"diferenciar","gerundio":"diferenciando","participio":"diferenciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["diferencio"],"s2":["diferencias"],"vos":["diferenciás"],"s3":["diferencia"],"p1":["diferenciamos"],"p2":["diferenciáis"],"p3":["diferencian"]},
+    "IndImp": {"s1":["diferenciaba"],"s2":["diferenciabas"],"vos":["diferenciabas"],"s3":["diferenciaba"],"p1":["diferenciábamos"],"p2":["diferenciabais"],"p3":["diferenciaban"]},
+    "IndPret": {"s1":["diferencié"],"s2":["diferenciaste"],"vos":["diferenciaste"],"s3":["diferenció"],"p1":["diferenciamos"],"p2":["diferenciasteis"],"p3":["diferenciaron"]},
+    "IndFut": {"s1":["diferenciaré"],"s2":["diferenciarás"],"vos":["diferenciarás"],"s3":["diferenciará"],"p1":["diferenciaremos"],"p2":["diferenciaréis"],"p3":["diferenciarán"]},
+    "IndCond": {"s1":["diferenciaría"],"s2":["diferenciarías"],"vos":["diferenciarías"],"s3":["diferenciaría"],"p1":["diferenciaríamos"],"p2":["diferenciaríais"],"p3":["diferenciarían"]},
+    "SubPres": {"s1":["diferencie"],"s2":["diferencies"],"vos":["diferencies","diferenciés"],"s3":["diferencie"],"p1":["diferenciemos"],"p2":["diferenciéis"],"p3":["diferencien"]},
+    "SubImp": {"s1":["diferenciara","diferenciase"],"s2":["diferenciaras","diferenciases"],"vos":["diferenciaras","diferenciases"],"s3":["diferenciara","diferenciase"],"p1":["diferenciáramos","diferenciásemos"],"p2":["diferenciarais","diferenciaseis"],"p3":["diferenciaran","diferenciasen"]},
+    "SubFut": {"s1":["diferenciare"],"s2":["diferenciares"],"vos":["diferenciares"],"s3":["diferenciare"],"p1":["diferenciáremos"],"p2":["diferenciareis"],"p3":["diferenciaren"]},
+    "CmdPos": {"s2":["diferencia"],"vos":["diferenciá"],"s3":["diferencie"],"p1":["diferenciemos"],"p2":["diferenciad"],"p3":["diferencien"]}
+  }
+}

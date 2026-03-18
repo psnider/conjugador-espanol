@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõɱfiɾˈmaɾ]",
+    "silabacion": "con-fir-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín confirmāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"confirmar","gerundio":"confirmando","participio":"confirmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["confirmo"],"s2":["confirmas"],"vos":["confirmás"],"s3":["confirma"],"p1":["confirmamos"],"p2":["confirmáis"],"p3":["confirman"]},
+    "IndImp": {"s1":["confirmaba"],"s2":["confirmabas"],"vos":["confirmabas"],"s3":["confirmaba"],"p1":["confirmábamos"],"p2":["confirmabais"],"p3":["confirmaban"]},
+    "IndPret": {"s1":["confirmé"],"s2":["confirmaste"],"vos":["confirmaste"],"s3":["confirmó"],"p1":["confirmamos"],"p2":["confirmasteis"],"p3":["confirmaron"]},
+    "IndFut": {"s1":["confirmaré"],"s2":["confirmarás"],"vos":["confirmarás"],"s3":["confirmará"],"p1":["confirmaremos"],"p2":["confirmaréis"],"p3":["confirmarán"]},
+    "IndCond": {"s1":["confirmaría"],"s2":["confirmarías"],"vos":["confirmarías"],"s3":["confirmaría"],"p1":["confirmaríamos"],"p2":["confirmaríais"],"p3":["confirmarían"]},
+    "SubPres": {"s1":["confirme"],"s2":["confirmes"],"vos":["confirmes","confirmés"],"s3":["confirme"],"p1":["confirmemos"],"p2":["confirméis"],"p3":["confirmen"]},
+    "SubImp": {"s1":["confirmara","confirmase"],"s2":["confirmaras","confirmases"],"vos":["confirmaras","confirmases"],"s3":["confirmara","confirmase"],"p1":["confirmáramos","confirmásemos"],"p2":["confirmarais","confirmaseis"],"p3":["confirmaran","confirmasen"]},
+    "SubFut": {"s1":["confirmare"],"s2":["confirmares"],"vos":["confirmares"],"s3":["confirmare"],"p1":["confirmáremos"],"p2":["confirmareis"],"p3":["confirmaren"]},
+    "CmdPos": {"s2":["confirma"],"vos":["confirmá"],"s3":["confirme"],"p1":["confirmemos"],"p2":["confirmad"],"p3":["confirmen"]}
+  }
+}

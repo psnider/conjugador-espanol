@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mõn̪ˈt̪aɾ]",
+    "silabacion": "mon-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar montare y este del latín clásico montem.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"montar","gerundio":"montando","participio":"montado"},
+  "formas_personales": {
+    "IndPres": {"s1":["monto"],"s2":["montas"],"vos":["montás"],"s3":["monta"],"p1":["montamos"],"p2":["montáis"],"p3":["montan"]},
+    "IndImp": {"s1":["montaba"],"s2":["montabas"],"vos":["montabas"],"s3":["montaba"],"p1":["montábamos"],"p2":["montabais"],"p3":["montaban"]},
+    "IndPret": {"s1":["monté"],"s2":["montaste"],"vos":["montaste"],"s3":["montó"],"p1":["montamos"],"p2":["montasteis"],"p3":["montaron"]},
+    "IndFut": {"s1":["montaré"],"s2":["montarás"],"vos":["montarás"],"s3":["montará"],"p1":["montaremos"],"p2":["montaréis"],"p3":["montarán"]},
+    "IndCond": {"s1":["montaría"],"s2":["montarías"],"vos":["montarías"],"s3":["montaría"],"p1":["montaríamos"],"p2":["montaríais"],"p3":["montarían"]},
+    "SubPres": {"s1":["monte"],"s2":["montes"],"vos":["montes","montés"],"s3":["monte"],"p1":["montemos"],"p2":["montéis"],"p3":["monten"]},
+    "SubImp": {"s1":["montara","montase"],"s2":["montaras","montases"],"vos":["montaras","montases"],"s3":["montara","montase"],"p1":["montáramos","montásemos"],"p2":["montarais","montaseis"],"p3":["montaran","montasen"]},
+    "SubFut": {"s1":["montare"],"s2":["montares"],"vos":["montares"],"s3":["montare"],"p1":["montáremos"],"p2":["montareis"],"p3":["montaren"]},
+    "CmdPos": {"s2":["monta"],"vos":["montá"],"s3":["monte"],"p1":["montemos"],"p2":["montad"],"p3":["monten"]}
+  }
+}

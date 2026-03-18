@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ãn̪d̪aɾiˈsaɾ]",
+    "silabacion": "es-tan-da-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De estándar y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"estandarizar","gerundio":"estandarizando","participio":"estandarizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estandarizo"],"s2":["estandarizas"],"vos":["estandarizás"],"s3":["estandariza"],"p1":["estandarizamos"],"p2":["estandarizáis"],"p3":["estandarizan"]},
+    "IndImp": {"s1":["estandarizaba"],"s2":["estandarizabas"],"vos":["estandarizabas"],"s3":["estandarizaba"],"p1":["estandarizábamos"],"p2":["estandarizabais"],"p3":["estandarizaban"]},
+    "IndPret": {"s1":["estandaricé"],"s2":["estandarizaste"],"vos":["estandarizaste"],"s3":["estandarizó"],"p1":["estandarizamos"],"p2":["estandarizasteis"],"p3":["estandarizaron"]},
+    "IndFut": {"s1":["estandarizaré"],"s2":["estandarizarás"],"vos":["estandarizarás"],"s3":["estandarizará"],"p1":["estandarizaremos"],"p2":["estandarizaréis"],"p3":["estandarizarán"]},
+    "IndCond": {"s1":["estandarizaría"],"s2":["estandarizarías"],"vos":["estandarizarías"],"s3":["estandarizaría"],"p1":["estandarizaríamos"],"p2":["estandarizaríais"],"p3":["estandarizarían"]},
+    "SubPres": {"s1":["estandarice"],"s2":["estandarices"],"vos":["estandarices","estandaricés"],"s3":["estandarice"],"p1":["estandaricemos"],"p2":["estandaricéis"],"p3":["estandaricen"]},
+    "SubImp": {"s1":["estandarizara","estandarizase"],"s2":["estandarizaras","estandarizases"],"vos":["estandarizaras","estandarizases"],"s3":["estandarizara","estandarizase"],"p1":["estandarizáramos","estandarizásemos"],"p2":["estandarizarais","estandarizaseis"],"p3":["estandarizaran","estandarizasen"]},
+    "SubFut": {"s1":["estandarizare"],"s2":["estandarizares"],"vos":["estandarizares"],"s3":["estandarizare"],"p1":["estandarizáremos"],"p2":["estandarizareis"],"p3":["estandarizaren"]},
+    "CmdPos": {"s2":["estandariza"],"vos":["estandarizá"],"s3":["estandarice"],"p1":["estandaricemos"],"p2":["estandarizad"],"p3":["estandaricen"]}
+  }
+}

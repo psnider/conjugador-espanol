@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín actuare.",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"actuar","gerundio":"actuando","participio":"actuado"},
+  "formas_personales": {
+    "IndPres": {"s1":["actúo"],"s2":["actúas"],"vos":["actuás"],"s3":["actúa"],"p1":["actuamos"],"p2":["actuáis"],"p3":["actúan"]},
+    "IndImp": {"s1":["actuaba"],"s2":["actuabas"],"vos":["actuabas"],"s3":["actuaba"],"p1":["actuábamos"],"p2":["actuabais"],"p3":["actuaban"]},
+    "IndPret": {"s1":["actué"],"s2":["actuaste"],"vos":["actuaste"],"s3":["actuó"],"p1":["actuamos"],"p2":["actuasteis"],"p3":["actuaron"]},
+    "IndFut": {"s1":["actuaré"],"s2":["actuarás"],"vos":["actuarás"],"s3":["actuará"],"p1":["actuaremos"],"p2":["actuaréis"],"p3":["actuarán"]},
+    "IndCond": {"s1":["actuaría"],"s2":["actuarías"],"vos":["actuarías"],"s3":["actuaría"],"p1":["actuaríamos"],"p2":["actuaríais"],"p3":["actuarían"]},
+    "SubPres": {"s1":["actúe"],"s2":["actúes"],"vos":["actúes","actués"],"s3":["actúe"],"p1":["actuemos"],"p2":["actuéis"],"p3":["actúen"]},
+    "SubImp": {"s1":["actuara","actuase"],"s2":["actuaras","actuases"],"vos":["actuaras","actuases"],"s3":["actuara","actuase"],"p1":["actuáramos","actuásemos"],"p2":["actuarais","actuaseis"],"p3":["actuaran","actuasen"]},
+    "SubFut": {"s1":["actuare"],"s2":["actuares"],"vos":["actuares"],"s3":["actuare"],"p1":["actuáremos"],"p2":["actuareis"],"p3":["actuaren"]},
+    "CmdPos": {"s2":["actúa"],"vos":["actuá"],"s3":["actúe"],"p1":["actuemos"],"p2":["actuad"],"p3":["actúen"]}
+  }
+}

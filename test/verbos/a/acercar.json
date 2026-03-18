@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aseɾˈkaɾ]",
+    "silabacion": "a-cer-car",
+    "acentuacion": "aguda",
+    "etimologia": "De cerca.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"acercar","gerundio":"acercando","participio":"acercado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acerco"],"s2":["acercas"],"vos":["acercás"],"s3":["acerca"],"p1":["acercamos"],"p2":["acercáis"],"p3":["acercan"]},
+    "IndImp": {"s1":["acercaba"],"s2":["acercabas"],"vos":["acercabas"],"s3":["acercaba"],"p1":["acercábamos"],"p2":["acercabais"],"p3":["acercaban"]},
+    "IndPret": {"s1":["acerqué"],"s2":["acercaste"],"vos":["acercaste"],"s3":["acercó"],"p1":["acercamos"],"p2":["acercasteis"],"p3":["acercaron"]},
+    "IndFut": {"s1":["acercaré"],"s2":["acercarás"],"vos":["acercarás"],"s3":["acercará"],"p1":["acercaremos"],"p2":["acercaréis"],"p3":["acercarán"]},
+    "IndCond": {"s1":["acercaría"],"s2":["acercarías"],"vos":["acercarías"],"s3":["acercaría"],"p1":["acercaríamos"],"p2":["acercaríais"],"p3":["acercarían"]},
+    "SubPres": {"s1":["acerque"],"s2":["acerques"],"vos":["acerques","acerqués"],"s3":["acerque"],"p1":["acerquemos"],"p2":["acerquéis"],"p3":["acerquen"]},
+    "SubImp": {"s1":["acercara","acercase"],"s2":["acercaras","acercases"],"vos":["acercaras","acercases"],"s3":["acercara","acercase"],"p1":["acercáramos","acercásemos"],"p2":["acercarais","acercaseis"],"p3":["acercaran","acercasen"]},
+    "SubFut": {"s1":["acercare"],"s2":["acercares"],"vos":["acercares"],"s3":["acercare"],"p1":["acercáremos"],"p2":["acercareis"],"p3":["acercaren"]},
+    "CmdPos": {"s2":["acerca"],"vos":["acercá"],"s3":["acerque"],"p1":["acerquemos"],"p2":["acercad"],"p3":["acerquen"]}
+  }
+}

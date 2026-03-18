@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akõn̪t̪eˈseɾ]",
+    "silabacion": "a-con-te-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y contecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"acontecer","gerundio":"aconteciendo","participio":"acontecido"},
+  "formas_personales": {
+    "IndPres": {"s3":["acontece"],                 "p3":["acontecen"]},
+    "IndImp": {"s3":["acontecía"],                 "p3":["acontecían"]},
+    "IndPret": {"s3":["aconteció"],                "p3":["acontecieron"]},
+    "IndFut": {"s3":["acontecerá"],                "p3":["acontecerán"]},
+    "IndCond": {"s3":["acontecería"],              "p3":["acontecerían"]},
+    "SubPres": {"s3":["acontezca"],                "p3":["acontezcan"]},
+    "SubImp": {"s3":["aconteciera","aconteciese"], "p3":["acontecieran","aconteciesen"]},
+    "SubFut": {"s3":["aconteciere"],               "p3":["acontecieren"]}
+  }
+}

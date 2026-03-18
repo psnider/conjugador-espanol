@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpɾesjoˈnaɾ]",
+    "silabacion": "im-pre-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De impresión y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"impresionar","gerundio":"impresionando","participio":"impresionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["impresiono"],"s2":["impresionas"],"vos":["impresionás"],"s3":["impresiona"],"p1":["impresionamos"],"p2":["impresionáis"],"p3":["impresionan"]},
+    "IndImp": {"s1":["impresionaba"],"s2":["impresionabas"],"vos":["impresionabas"],"s3":["impresionaba"],"p1":["impresionábamos"],"p2":["impresionabais"],"p3":["impresionaban"]},
+    "IndPret": {"s1":["impresioné"],"s2":["impresionaste"],"vos":["impresionaste"],"s3":["impresionó"],"p1":["impresionamos"],"p2":["impresionasteis"],"p3":["impresionaron"]},
+    "IndFut": {"s1":["impresionaré"],"s2":["impresionarás"],"vos":["impresionarás"],"s3":["impresionará"],"p1":["impresionaremos"],"p2":["impresionaréis"],"p3":["impresionarán"]},
+    "IndCond": {"s1":["impresionaría"],"s2":["impresionarías"],"vos":["impresionarías"],"s3":["impresionaría"],"p1":["impresionaríamos"],"p2":["impresionaríais"],"p3":["impresionarían"]},
+    "SubPres": {"s1":["impresione"],"s2":["impresiones"],"vos":["impresiones","impresionés"],"s3":["impresione"],"p1":["impresionemos"],"p2":["impresionéis"],"p3":["impresionen"]},
+    "SubImp": {"s1":["impresionara","impresionase"],"s2":["impresionaras","impresionases"],"vos":["impresionaras","impresionases"],"s3":["impresionara","impresionase"],"p1":["impresionáramos","impresionásemos"],"p2":["impresionarais","impresionaseis"],"p3":["impresionaran","impresionasen"]},
+    "SubFut": {"s1":["impresionare"],"s2":["impresionares"],"vos":["impresionares"],"s3":["impresionare"],"p1":["impresionáremos"],"p2":["impresionareis"],"p3":["impresionaren"]},
+    "CmdPos": {"s2":["impresiona"],"vos":["impresioná"],"s3":["impresione"],"p1":["impresionemos"],"p2":["impresionad"],"p3":["impresionen"]}
+  }
+}

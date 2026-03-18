@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[supoˈneɾ]",
+    "silabacion": "su-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín suppōnō, suppōnere, compuesto del latín pono.",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"suponer","gerundio":"suponiendo","participio":"supuesto"},
+  "formas_personales": {
+    "IndPres": {"s1":["supongo"],"s2":["supones"],"vos":["suponés"],"s3":["supone"],"p1":["suponemos"],"p2":["suponéis"],"p3":["suponen"]},
+    "IndImp": {"s1":["suponía"],"s2":["suponías"],"vos":["suponías"],"s3":["suponía"],"p1":["suponíamos"],"p2":["suponíais"],"p3":["suponían"]},
+    "IndPret": {"s1":["supuse"],"s2":["supusiste"],"vos":["supusiste"],"s3":["supuso"],"p1":["supusimos"],"p2":["supusisteis"],"p3":["supusieron"]},
+    "IndFut": {"s1":["supondré"],"s2":["supondrás"],"vos":["supondrás"],"s3":["supondrá"],"p1":["supondremos"],"p2":["supondréis"],"p3":["supondrán"]},
+    "IndCond": {"s1":["supondría"],"s2":["supondrías"],"vos":["supondrías"],"s3":["supondría"],"p1":["supondríamos"],"p2":["supondríais"],"p3":["supondrían"]},
+    "SubPres": {"s1":["suponga"],"s2":["supongas"],"vos":["supongas","supongás"],"s3":["suponga"],"p1":["supongamos"],"p2":["supongáis"],"p3":["supongan"]},
+    "SubImp": {"s1":["supusiera","supusiese"],"s2":["supusieras","supusieses"],"vos":["supusieras","supusieses"],"s3":["supusiera","supusiese"],"p1":["supusiéramos","supusiésemos"],"p2":["supusierais","supusieseis"],"p3":["supusieran","supusiesen"]},
+    "SubFut": {"s1":["supusiere"],"s2":["supusieres"],"vos":["supusieres"],"s3":["supusiere"],"p1":["supusiéremos"],"p2":["supusiereis"],"p3":["supusieren"]},
+    "CmdPos": {"s2":{"estándar":["supón"],"atípicos":[{"forma":"supone","etiquetas":["no normativo"]}]},"vos":["suponé"],"s3":["suponga"],"p1":["supongamos"],"p2":["suponed"],"p3":["supongan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekoˈreɾ]",
+    "silabacion": "re-co-rrer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín recurrere.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"recorrer","gerundio":"recorriendo","participio":"recorrido"},
+  "formas_personales": {
+    "IndPres": {"s1":["recorro"],"s2":["recorres"],"vos":["recorrés"],"s3":["recorre"],"p1":["recorremos"],"p2":["recorréis"],"p3":["recorren"]},
+    "IndImp": {"s1":["recorría"],"s2":["recorrías"],"vos":["recorrías"],"s3":["recorría"],"p1":["recorríamos"],"p2":["recorríais"],"p3":["recorrían"]},
+    "IndPret": {"s1":["recorrí"],"s2":["recorriste"],"vos":["recorriste"],"s3":["recorrió"],"p1":["recorrimos"],"p2":["recorristeis"],"p3":["recorrieron"]},
+    "IndFut": {"s1":["recorreré"],"s2":["recorrerás"],"vos":["recorrerás"],"s3":["recorrerá"],"p1":["recorreremos"],"p2":["recorreréis"],"p3":["recorrerán"]},
+    "IndCond": {"s1":["recorrería"],"s2":["recorrerías"],"vos":["recorrerías"],"s3":["recorrería"],"p1":["recorreríamos"],"p2":["recorreríais"],"p3":["recorrerían"]},
+    "SubPres": {"s1":["recorra"],"s2":["recorras"],"vos":["recorras","recorrás"],"s3":["recorra"],"p1":["recorramos"],"p2":["recorráis"],"p3":["recorran"]},
+    "SubImp": {"s1":["recorriera","recorriese"],"s2":["recorrieras","recorrieses"],"vos":["recorrieras","recorrieses"],"s3":["recorriera","recorriese"],"p1":["recorriéramos","recorriésemos"],"p2":["recorrierais","recorrieseis"],"p3":["recorrieran","recorriesen"]},
+    "SubFut": {"s1":["recorriere"],"s2":["recorrieres"],"vos":["recorrieres"],"s3":["recorriere"],"p1":["recorriéremos"],"p2":["recorriereis"],"p3":["recorrieren"]},
+    "CmdPos": {"s2":["recorre"],"vos":["recorré"],"s3":["recorra"],"p1":["recorramos"],"p2":["recorred"],"p3":["recorran"]}
+  }
+}

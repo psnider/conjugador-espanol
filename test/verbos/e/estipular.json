@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ipuˈlaɾ]",
+    "silabacion": "es-ti-pu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín stipulāri (\"demandar una garantía\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estipular","gerundio":"estipulando","participio":"estipulado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estipulo"],"s2":["estipulas"],"vos":["estipulás"],"s3":["estipula"],"p1":["estipulamos"],"p2":["estipuláis"],"p3":["estipulan"]},
+    "IndImp": {"s1":["estipulaba"],"s2":["estipulabas"],"vos":["estipulabas"],"s3":["estipulaba"],"p1":["estipulábamos"],"p2":["estipulabais"],"p3":["estipulaban"]},
+    "IndPret": {"s1":["estipulé"],"s2":["estipulaste"],"vos":["estipulaste"],"s3":["estipuló"],"p1":["estipulamos"],"p2":["estipulasteis"],"p3":["estipularon"]},
+    "IndFut": {"s1":["estipularé"],"s2":["estipularás"],"vos":["estipularás"],"s3":["estipulará"],"p1":["estipularemos"],"p2":["estipularéis"],"p3":["estipularán"]},
+    "IndCond": {"s1":["estipularía"],"s2":["estipularías"],"vos":["estipularías"],"s3":["estipularía"],"p1":["estipularíamos"],"p2":["estipularíais"],"p3":["estipularían"]},
+    "SubPres": {"s1":["estipule"],"s2":["estipules"],"vos":["estipules","estipulés"],"s3":["estipule"],"p1":["estipulemos"],"p2":["estipuléis"],"p3":["estipulen"]},
+    "SubImp": {"s1":["estipulara","estipulase"],"s2":["estipularas","estipulases"],"vos":["estipularas","estipulases"],"s3":["estipulara","estipulase"],"p1":["estipuláramos","estipulásemos"],"p2":["estipularais","estipulaseis"],"p3":["estipularan","estipulasen"]},
+    "SubFut": {"s1":["estipulare"],"s2":["estipulares"],"vos":["estipulares"],"s3":["estipulare"],"p1":["estipuláremos"],"p2":["estipulareis"],"p3":["estipularen"]},
+    "CmdPos": {"s2":["estipula"],"vos":["estipulá"],"s3":["estipule"],"p1":["estipulemos"],"p2":["estipulad"],"p3":["estipulen"]}
+  }
+}

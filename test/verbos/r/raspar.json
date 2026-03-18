@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rasˈpaɾ]",
+    "silabacion": "ras-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *raspāre, del fráncico *hraspōn, del protogermánico *hraspōną, hrespaną.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"raspar","gerundio":"raspando","participio":"raspado"},
+  "formas_personales": {
+    "IndPres": {"s1":["raspo"],"s2":["raspas"],"vos":["raspás"],"s3":["raspa"],"p1":["raspamos"],"p2":["raspáis"],"p3":["raspan"]},
+    "IndImp": {"s1":["raspaba"],"s2":["raspabas"],"vos":["raspabas"],"s3":["raspaba"],"p1":["raspábamos"],"p2":["raspabais"],"p3":["raspaban"]},
+    "IndPret": {"s1":["raspé"],"s2":["raspaste"],"vos":["raspaste"],"s3":["raspó"],"p1":["raspamos"],"p2":["raspasteis"],"p3":["rasparon"]},
+    "IndFut": {"s1":["rasparé"],"s2":["rasparás"],"vos":["rasparás"],"s3":["raspará"],"p1":["rasparemos"],"p2":["rasparéis"],"p3":["rasparán"]},
+    "IndCond": {"s1":["rasparía"],"s2":["rasparías"],"vos":["rasparías"],"s3":["rasparía"],"p1":["rasparíamos"],"p2":["rasparíais"],"p3":["rasparían"]},
+    "SubPres": {"s1":["raspe"],"s2":["raspes"],"vos":["raspes","raspés"],"s3":["raspe"],"p1":["raspemos"],"p2":["raspéis"],"p3":["raspen"]},
+    "SubImp": {"s1":["raspara","raspase"],"s2":["rasparas","raspases"],"vos":["rasparas","raspases"],"s3":["raspara","raspase"],"p1":["raspáramos","raspásemos"],"p2":["rasparais","raspaseis"],"p3":["rasparan","raspasen"]},
+    "SubFut": {"s1":["raspare"],"s2":["raspares"],"vos":["raspares"],"s3":["raspare"],"p1":["raspáremos"],"p2":["raspareis"],"p3":["rasparen"]},
+    "CmdPos": {"s2":["raspa"],"vos":["raspá"],"s3":["raspe"],"p1":["raspemos"],"p2":["raspad"],"p3":["raspen"]}
+  }
+}

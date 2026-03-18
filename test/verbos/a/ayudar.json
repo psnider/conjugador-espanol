@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aʝuˈð̞aɾ]",
+    "silabacion": "a-yu-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adiutare ('servir')[1], frecuentativo del latín adiuvare, del latín iuvare, quizás del latín iuvenis, del protoindoeuropeo *h₂yuh₁en-.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ayudar","gerundio":"ayudando","participio":"ayudado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ayudo"],"s2":["ayudas"],"vos":["ayudás"],"s3":["ayuda"],"p1":["ayudamos"],"p2":["ayudáis"],"p3":["ayudan"]},
+    "IndImp": {"s1":["ayudaba"],"s2":["ayudabas"],"vos":["ayudabas"],"s3":["ayudaba"],"p1":["ayudábamos"],"p2":["ayudabais"],"p3":["ayudaban"]},
+    "IndPret": {"s1":["ayudé"],"s2":["ayudaste"],"vos":["ayudaste"],"s3":["ayudó"],"p1":["ayudamos"],"p2":["ayudasteis"],"p3":["ayudaron"]},
+    "IndFut": {"s1":["ayudaré"],"s2":["ayudarás"],"vos":["ayudarás"],"s3":["ayudará"],"p1":["ayudaremos"],"p2":["ayudaréis"],"p3":["ayudarán"]},
+    "IndCond": {"s1":["ayudaría"],"s2":["ayudarías"],"vos":["ayudarías"],"s3":["ayudaría"],"p1":["ayudaríamos"],"p2":["ayudaríais"],"p3":["ayudarían"]},
+    "SubPres": {"s1":["ayude"],"s2":["ayudes"],"vos":["ayudes","ayudés"],"s3":["ayude"],"p1":["ayudemos"],"p2":["ayudéis"],"p3":["ayuden"]},
+    "SubImp": {"s1":["ayudara","ayudase"],"s2":["ayudaras","ayudases"],"vos":["ayudaras","ayudases"],"s3":["ayudara","ayudase"],"p1":["ayudáramos","ayudásemos"],"p2":["ayudarais","ayudaseis"],"p3":["ayudaran","ayudasen"]},
+    "SubFut": {"s1":["ayudare"],"s2":["ayudares"],"vos":["ayudares"],"s3":["ayudare"],"p1":["ayudáremos"],"p2":["ayudareis"],"p3":["ayudaren"]},
+    "CmdPos": {"s2":["ayuda"],"vos":["ayudá"],"s3":["ayude"],"p1":["ayudemos"],"p2":["ayudad"],"p3":["ayuden"]}
+  }
+}

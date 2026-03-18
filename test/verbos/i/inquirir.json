@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkiˈɾiɾ]",
+    "silabacion": "in-qui-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inquiere.",
+    "modelos": ["discernir"]
+  },
+  "formas_no_personales": {"infinitivo":"inquirir","gerundio":"inquiriendo","participio":"inquirido"},
+  "formas_personales": {
+    "IndPres": {"s1":["inquiero"],"s2":["inquieres"],"vos":["inquirís"],"s3":["inquiere"],"p1":["inquirimos"],"p2":["inquirís"],"p3":["inquieren"]},
+    "IndImp": {"s1":["inquiría"],"s2":["inquirías"],"vos":["inquirías"],"s3":["inquiría"],"p1":["inquiríamos"],"p2":["inquiríais"],"p3":["inquirían"]},
+    "IndPret": {"s1":["inquirí"],"s2":["inquiriste"],"vos":["inquiriste"],"s3":["inquirió"],"p1":["inquirimos"],"p2":["inquiristeis"],"p3":["inquirieron"]},
+    "IndFut": {"s1":["inquiriré"],"s2":["inquirirás"],"vos":["inquirirás"],"s3":["inquirirá"],"p1":["inquiriremos"],"p2":["inquiriréis"],"p3":["inquirirán"]},
+    "IndCond": {"s1":["inquiriría"],"s2":["inquirirías"],"vos":["inquirirías"],"s3":["inquiriría"],"p1":["inquiriríamos"],"p2":["inquiriríais"],"p3":["inquirirían"]},
+    "SubPres": {"s1":["inquiera"],"s2":["inquieras"],"vos":["inquieras","inquirás"],"s3":["inquiera"],"p1":["inquiramos"],"p2":["inquiráis"],"p3":["inquieran"]},
+    "SubImp": {"s1":["inquiriera","inquiriese"],"s2":["inquirieras","inquirieses"],"vos":["inquirieras","inquirieses"],"s3":["inquiriera","inquiriese"],"p1":["inquiriéramos","inquiriésemos"],"p2":["inquirierais","inquirieseis"],"p3":["inquirieran","inquiriesen"]},
+    "SubFut": {"s1":["inquiriere"],"s2":["inquirieres"],"vos":["inquirieres"],"s3":["inquiriere"],"p1":["inquiriéremos"],"p2":["inquiriereis"],"p3":["inquirieren"]},
+    "CmdPos": {"s2":["inquiere"],"vos":["inquirí"],"s3":["inquiera"],"p1":["inquiramos"],"p2":["inquirid"],"p3":["inquieran"]}
+  }
+}

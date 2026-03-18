@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskonekˈt̪aɾ]",
+    "silabacion": "des-co-nec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconectar","gerundio":"desconectando","participio":"desconectado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desconecto"],"s2":["desconectas"],"vos":["desconectás"],"s3":["desconecta"],"p1":["desconectamos"],"p2":["desconectáis"],"p3":["desconectan"]},
+    "IndImp": {"s1":["desconectaba"],"s2":["desconectabas"],"vos":["desconectabas"],"s3":["desconectaba"],"p1":["desconectábamos"],"p2":["desconectabais"],"p3":["desconectaban"]},
+    "IndPret": {"s1":["desconecté"],"s2":["desconectaste"],"vos":["desconectaste"],"s3":["desconectó"],"p1":["desconectamos"],"p2":["desconectasteis"],"p3":["desconectaron"]},
+    "IndFut": {"s1":["desconectaré"],"s2":["desconectarás"],"vos":["desconectarás"],"s3":["desconectará"],"p1":["desconectaremos"],"p2":["desconectaréis"],"p3":["desconectarán"]},
+    "IndCond": {"s1":["desconectaría"],"s2":["desconectarías"],"vos":["desconectarías"],"s3":["desconectaría"],"p1":["desconectaríamos"],"p2":["desconectaríais"],"p3":["desconectarían"]},
+    "SubPres": {"s1":["desconecte"],"s2":["desconectes"],"vos":["desconectes","desconectés"],"s3":["desconecte"],"p1":["desconectemos"],"p2":["desconectéis"],"p3":["desconecten"]},
+    "SubImp": {"s1":["desconectara","desconectase"],"s2":["desconectaras","desconectases"],"vos":["desconectaras","desconectases"],"s3":["desconectara","desconectase"],"p1":["desconectáramos","desconectásemos"],"p2":["desconectarais","desconectaseis"],"p3":["desconectaran","desconectasen"]},
+    "SubFut": {"s1":["desconectare"],"s2":["desconectares"],"vos":["desconectares"],"s3":["desconectare"],"p1":["desconectáremos"],"p2":["desconectareis"],"p3":["desconectaren"]},
+    "CmdPos": {"s2":["desconecta"],"vos":["desconectá"],"s3":["desconecte"],"p1":["desconectemos"],"p2":["desconectad"],"p3":["desconecten"]}
+  }
+}

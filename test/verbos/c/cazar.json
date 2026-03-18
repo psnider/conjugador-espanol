@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈsaɾ]",
+    "silabacion": "ca-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín capitāre, del latín captare («coger»).",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"cazar","gerundio":"cazando","participio":"cazado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cazo"],"s2":["cazas"],"vos":["cazás"],"s3":["caza"],"p1":["cazamos"],"p2":["cazáis"],"p3":["cazan"]},
+    "IndImp": {"s1":["cazaba"],"s2":["cazabas"],"vos":["cazabas"],"s3":["cazaba"],"p1":["cazábamos"],"p2":["cazabais"],"p3":["cazaban"]},
+    "IndPret": {"s1":["cacé"],"s2":["cazaste"],"vos":["cazaste"],"s3":["cazó"],"p1":["cazamos"],"p2":["cazasteis"],"p3":["cazaron"]},
+    "IndFut": {"s1":["cazaré"],"s2":["cazarás"],"vos":["cazarás"],"s3":["cazará"],"p1":["cazaremos"],"p2":["cazaréis"],"p3":["cazarán"]},
+    "IndCond": {"s1":["cazaría"],"s2":["cazarías"],"vos":["cazarías"],"s3":["cazaría"],"p1":["cazaríamos"],"p2":["cazaríais"],"p3":["cazarían"]},
+    "SubPres": {"s1":["cace"],"s2":["caces"],"vos":["caces","cacés"],"s3":["cace"],"p1":["cacemos"],"p2":["cacéis"],"p3":["cacen"]},
+    "SubImp": {"s1":["cazara","cazase"],"s2":["cazaras","cazases"],"vos":["cazaras","cazases"],"s3":["cazara","cazase"],"p1":["cazáramos","cazásemos"],"p2":["cazarais","cazaseis"],"p3":["cazaran","cazasen"]},
+    "SubFut": {"s1":["cazare"],"s2":["cazares"],"vos":["cazares"],"s3":["cazare"],"p1":["cazáremos"],"p2":["cazareis"],"p3":["cazaren"]},
+    "CmdPos": {"s2":["caza"],"vos":["cazá"],"s3":["cace"],"p1":["cacemos"],"p2":["cazad"],"p3":["cacen"]}
+  }
+}

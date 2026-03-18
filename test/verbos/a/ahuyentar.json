@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awʝẽn̪ˈt̪aɾ]",
+    "silabacion": "ahu-yen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín effugientāre, de fugiens, -entis (\"que huye\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahuyentar","gerundio":"ahuyentando","participio":"ahuyentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ahuyento"],"s2":["ahuyentas"],"vos":["ahuyentás"],"s3":["ahuyenta"],"p1":["ahuyentamos"],"p2":["ahuyentáis"],"p3":["ahuyentan"]},
+    "IndImp": {"s1":["ahuyentaba"],"s2":["ahuyentabas"],"vos":["ahuyentabas"],"s3":["ahuyentaba"],"p1":["ahuyentábamos"],"p2":["ahuyentabais"],"p3":["ahuyentaban"]},
+    "IndPret": {"s1":["ahuyenté"],"s2":["ahuyentaste"],"vos":["ahuyentaste"],"s3":["ahuyentó"],"p1":["ahuyentamos"],"p2":["ahuyentasteis"],"p3":["ahuyentaron"]},
+    "IndFut": {"s1":["ahuyentaré"],"s2":["ahuyentarás"],"vos":["ahuyentarás"],"s3":["ahuyentará"],"p1":["ahuyentaremos"],"p2":["ahuyentaréis"],"p3":["ahuyentarán"]},
+    "IndCond": {"s1":["ahuyentaría"],"s2":["ahuyentarías"],"vos":["ahuyentarías"],"s3":["ahuyentaría"],"p1":["ahuyentaríamos"],"p2":["ahuyentaríais"],"p3":["ahuyentarían"]},
+    "SubPres": {"s1":["ahuyente"],"s2":["ahuyentes"],"vos":["ahuyentes","ahuyentés"],"s3":["ahuyente"],"p1":["ahuyentemos"],"p2":["ahuyentéis"],"p3":["ahuyenten"]},
+    "SubImp": {"s1":["ahuyentara","ahuyentase"],"s2":["ahuyentaras","ahuyentases"],"vos":["ahuyentaras","ahuyentases"],"s3":["ahuyentara","ahuyentase"],"p1":["ahuyentáramos","ahuyentásemos"],"p2":["ahuyentarais","ahuyentaseis"],"p3":["ahuyentaran","ahuyentasen"]},
+    "SubFut": {"s1":["ahuyentare"],"s2":["ahuyentares"],"vos":["ahuyentares"],"s3":["ahuyentare"],"p1":["ahuyentáremos"],"p2":["ahuyentareis"],"p3":["ahuyentaren"]},
+    "CmdPos": {"s2":["ahuyenta"],"vos":["ahuyentá"],"s3":["ahuyente"],"p1":["ahuyentemos"],"p2":["ahuyentad"],"p3":["ahuyenten"]}
+  }
+}

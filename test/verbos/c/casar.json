@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈsaɾ]",
+    "silabacion": "ca-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De casa [cita&nbsp;requerida]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"casar","gerundio":"casando","participio":"casado"},
+  "formas_personales": {
+    "IndPres": {"s1":["caso"],"s2":["casas"],"vos":["casás"],"s3":["casa"],"p1":["casamos"],"p2":["casáis"],"p3":["casan"]},
+    "IndImp": {"s1":["casaba"],"s2":["casabas"],"vos":["casabas"],"s3":["casaba"],"p1":["casábamos"],"p2":["casabais"],"p3":["casaban"]},
+    "IndPret": {"s1":["casé"],"s2":["casaste"],"vos":["casaste"],"s3":["casó"],"p1":["casamos"],"p2":["casasteis"],"p3":["casaron"]},
+    "IndFut": {"s1":["casaré"],"s2":["casarás"],"vos":["casarás"],"s3":["casará"],"p1":["casaremos"],"p2":["casaréis"],"p3":["casarán"]},
+    "IndCond": {"s1":["casaría"],"s2":["casarías"],"vos":["casarías"],"s3":["casaría"],"p1":["casaríamos"],"p2":["casaríais"],"p3":["casarían"]},
+    "SubPres": {"s1":["case"],"s2":["cases"],"vos":["cases","casés"],"s3":["case"],"p1":["casemos"],"p2":["caséis"],"p3":["casen"]},
+    "SubImp": {"s1":["casara","casase"],"s2":["casaras","casases"],"vos":["casaras","casases"],"s3":["casara","casase"],"p1":["casáramos","casásemos"],"p2":["casarais","casaseis"],"p3":["casaran","casasen"]},
+    "SubFut": {"s1":["casare"],"s2":["casares"],"vos":["casares"],"s3":["casare"],"p1":["casáremos"],"p2":["casareis"],"p3":["casaren"]},
+    "CmdPos": {"s2":["casa"],"vos":["casá"],"s3":["case"],"p1":["casemos"],"p2":["casad"],"p3":["casen"]}
+  }
+}

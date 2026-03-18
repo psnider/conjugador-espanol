@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suɾˈxiɾ]",
+    "silabacion": "sur-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín surgĕre ('elevarse')",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"surgir","gerundio":"surgiendo","participio":"surgido"},
+  "formas_personales": {
+    "IndPres": {"s1":["surjo"],"s2":["surges"],"vos":["surgís"],"s3":["surge"],"p1":["surgimos"],"p2":["surgís"],"p3":["surgen"]},
+    "IndImp": {"s1":["surgía"],"s2":["surgías"],"vos":["surgías"],"s3":["surgía"],"p1":["surgíamos"],"p2":["surgíais"],"p3":["surgían"]},
+    "IndPret": {"s1":["surgí"],"s2":["surgiste"],"vos":["surgiste"],"s3":["surgió"],"p1":["surgimos"],"p2":["surgisteis"],"p3":["surgieron"]},
+    "IndFut": {"s1":["surgiré"],"s2":["surgirás"],"vos":["surgirás"],"s3":["surgirá"],"p1":["surgiremos"],"p2":["surgiréis"],"p3":["surgirán"]},
+    "IndCond": {"s1":["surgiría"],"s2":["surgirías"],"vos":["surgirías"],"s3":["surgiría"],"p1":["surgiríamos"],"p2":["surgiríais"],"p3":["surgirían"]},
+    "SubPres": {"s1":["surja"],"s2":["surjas"],"vos":["surjas","surjás"],"s3":["surja"],"p1":["surjamos"],"p2":["surjáis"],"p3":["surjan"]},
+    "SubImp": {"s1":["surgiera","surgiese"],"s2":["surgieras","surgieses"],"vos":["surgieras","surgieses"],"s3":["surgiera","surgiese"],"p1":["surgiéramos","surgiésemos"],"p2":["surgierais","surgieseis"],"p3":["surgieran","surgiesen"]},
+    "SubFut": {"s1":["surgiere"],"s2":["surgieres"],"vos":["surgieres"],"s3":["surgiere"],"p1":["surgiéremos"],"p2":["surgiereis"],"p3":["surgieren"]},
+    "CmdPos": {"s2":["surge"],"vos":["surgí"],"s3":["surja"],"p1":["surjamos"],"p2":["surgid"],"p3":["surjan"]}
+  }
+}

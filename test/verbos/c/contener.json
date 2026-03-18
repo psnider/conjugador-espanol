@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪eˈneɾ]",
+    "silabacion": "con-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín continēre ('mantener unido').",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"contener","gerundio":"conteniendo","participio":"contenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["contengo"],"s2":["contienes"],"vos":["contenés"],"s3":["contiene"],"p1":["contenemos"],"p2":["contenéis"],"p3":["contienen"]},
+    "IndImp": {"s1":["contenía"],"s2":["contenías"],"vos":["contenías"],"s3":["contenía"],"p1":["conteníamos"],"p2":["conteníais"],"p3":["contenían"]},
+    "IndPret": {"s1":["contuve"],"s2":["contuviste"],"vos":["contuviste"],"s3":["contuvo"],"p1":["contuvimos"],"p2":["contuvisteis"],"p3":["contuvieron"]},
+    "IndFut": {"s1":["contendré"],"s2":["contendrás"],"vos":["contendrás"],"s3":["contendrá"],"p1":["contendremos"],"p2":["contendréis"],"p3":["contendrán"]},
+    "IndCond": {"s1":["contendría"],"s2":["contendrías"],"vos":["contendrías"],"s3":["contendría"],"p1":["contendríamos"],"p2":["contendríais"],"p3":["contendrían"]},
+    "SubPres": {"s1":["contenga"],"s2":["contengas"],"vos":["contengas","contengás"],"s3":["contenga"],"p1":["contengamos"],"p2":["contengáis"],"p3":["contengan"]},
+    "SubImp": {"s1":["contuviera","contuviese"],"s2":["contuvieras","contuvieses"],"vos":["contuvieras","contuvieses"],"s3":["contuviera","contuviese"],"p1":["contuviéramos","contuviésemos"],"p2":["contuvierais","contuvieseis"],"p3":["contuvieran","contuviesen"]},
+    "SubFut": {"s1":["contuviere"],"s2":["contuvieres"],"vos":["contuvieres"],"s3":["contuviere"],"p1":["contuviéremos"],"p2":["contuviereis"],"p3":["contuvieren"]},
+    "CmdPos": {"s2":{"estándar":["contén"],"atípicos":[{"forma":"contiene","etiquetas":["no normativo"]}]},"vos":["contené"],"s3":["contenga"],"p1":["contengamos"],"p2":["contened"],"p3":["contengan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪oˈɾaɾ]",
+    "silabacion": "do-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín deaurāre (\"hacer de oro\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"dorar","gerundio":"dorando","participio":"dorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["doro"],"s2":["doras"],"vos":["dorás"],"s3":["dora"],"p1":["doramos"],"p2":["doráis"],"p3":["doran"]},
+    "IndImp": {"s1":["doraba"],"s2":["dorabas"],"vos":["dorabas"],"s3":["doraba"],"p1":["dorábamos"],"p2":["dorabais"],"p3":["doraban"]},
+    "IndPret": {"s1":["doré"],"s2":["doraste"],"vos":["doraste"],"s3":["doró"],"p1":["doramos"],"p2":["dorasteis"],"p3":["doraron"]},
+    "IndFut": {"s1":["doraré"],"s2":["dorarás"],"vos":["dorarás"],"s3":["dorará"],"p1":["doraremos"],"p2":["doraréis"],"p3":["dorarán"]},
+    "IndCond": {"s1":["doraría"],"s2":["dorarías"],"vos":["dorarías"],"s3":["doraría"],"p1":["doraríamos"],"p2":["doraríais"],"p3":["dorarían"]},
+    "SubPres": {"s1":["dore"],"s2":["dores"],"vos":["dores","dorés"],"s3":["dore"],"p1":["doremos"],"p2":["doréis"],"p3":["doren"]},
+    "SubImp": {"s1":["dorara","dorase"],"s2":["doraras","dorases"],"vos":["doraras","dorases"],"s3":["dorara","dorase"],"p1":["doráramos","dorásemos"],"p2":["dorarais","doraseis"],"p3":["doraran","dorasen"]},
+    "SubFut": {"s1":["dorare"],"s2":["dorares"],"vos":["dorares"],"s3":["dorare"],"p1":["doráremos"],"p2":["dorareis"],"p3":["doraren"]},
+    "CmdPos": {"s2":["dora"],"vos":["dorá"],"s3":["dore"],"p1":["doremos"],"p2":["dorad"],"p3":["doren"]}
+  }
+}

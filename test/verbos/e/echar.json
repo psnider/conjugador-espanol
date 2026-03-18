@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eˈt͡ʃaɾ]",
+    "silabacion": "e-char",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iactare ('lanzar') (iactare por iactus, part. pas. de iacere).",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"echar","gerundio":"echando","participio":"echado"},
+  "formas_personales": {
+    "IndPres": {"s1":["echo"],"s2":["echas"],"vos":["echás"],"s3":["echa"],"p1":["echamos"],"p2":["echáis"],"p3":["echan"]},
+    "IndImp": {"s1":["echaba"],"s2":["echabas"],"vos":["echabas"],"s3":["echaba"],"p1":["echábamos"],"p2":["echabais"],"p3":["echaban"]},
+    "IndPret": {"s1":["eché"],"s2":["echaste"],"vos":["echaste"],"s3":["echó"],"p1":["echamos"],"p2":["echasteis"],"p3":["echaron"]},
+    "IndFut": {"s1":["echaré"],"s2":["echarás"],"vos":["echarás"],"s3":["echará"],"p1":["echaremos"],"p2":["echaréis"],"p3":["echarán"]},
+    "IndCond": {"s1":["echaría"],"s2":["echarías"],"vos":["echarías"],"s3":["echaría"],"p1":["echaríamos"],"p2":["echaríais"],"p3":["echarían"]},
+    "SubPres": {"s1":["eche"],"s2":["eches"],"vos":["eches","echés"],"s3":["eche"],"p1":["echemos"],"p2":["echéis"],"p3":["echen"]},
+    "SubImp": {"s1":["echara","echase"],"s2":["echaras","echases"],"vos":["echaras","echases"],"s3":["echara","echase"],"p1":["echáramos","echásemos"],"p2":["echarais","echaseis"],"p3":["echaran","echasen"]},
+    "SubFut": {"s1":["echare"],"s2":["echares"],"vos":["echares"],"s3":["echare"],"p1":["echáremos"],"p2":["echareis"],"p3":["echaren"]},
+    "CmdPos": {"s2":["echa"],"vos":["echá"],"s3":["eche"],"p1":["echemos"],"p2":["echad"],"p3":["echen"]}
+  }
+}

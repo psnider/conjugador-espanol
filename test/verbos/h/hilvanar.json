@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ilβ̞aˈnaɾ]",
+    "silabacion": "hil-va-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De hilván y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hilvanar","gerundio":"hilvanando","participio":"hilvanado"},
+  "formas_personales": {
+    "IndPres": {"s1":["hilvano"],"s2":["hilvanas"],"vos":["hilvanás"],"s3":["hilvana"],"p1":["hilvanamos"],"p2":["hilvanáis"],"p3":["hilvanan"]},
+    "IndImp": {"s1":["hilvanaba"],"s2":["hilvanabas"],"vos":["hilvanabas"],"s3":["hilvanaba"],"p1":["hilvanábamos"],"p2":["hilvanabais"],"p3":["hilvanaban"]},
+    "IndPret": {"s1":["hilvané"],"s2":["hilvanaste"],"vos":["hilvanaste"],"s3":["hilvanó"],"p1":["hilvanamos"],"p2":["hilvanasteis"],"p3":["hilvanaron"]},
+    "IndFut": {"s1":["hilvanaré"],"s2":["hilvanarás"],"vos":["hilvanarás"],"s3":["hilvanará"],"p1":["hilvanaremos"],"p2":["hilvanaréis"],"p3":["hilvanarán"]},
+    "IndCond": {"s1":["hilvanaría"],"s2":["hilvanarías"],"vos":["hilvanarías"],"s3":["hilvanaría"],"p1":["hilvanaríamos"],"p2":["hilvanaríais"],"p3":["hilvanarían"]},
+    "SubPres": {"s1":["hilvane"],"s2":["hilvanes"],"vos":["hilvanes","hilvanés"],"s3":["hilvane"],"p1":["hilvanemos"],"p2":["hilvanéis"],"p3":["hilvanen"]},
+    "SubImp": {"s1":["hilvanara","hilvanase"],"s2":["hilvanaras","hilvanases"],"vos":["hilvanaras","hilvanases"],"s3":["hilvanara","hilvanase"],"p1":["hilvanáramos","hilvanásemos"],"p2":["hilvanarais","hilvanaseis"],"p3":["hilvanaran","hilvanasen"]},
+    "SubFut": {"s1":["hilvanare"],"s2":["hilvanares"],"vos":["hilvanares"],"s3":["hilvanare"],"p1":["hilvanáremos"],"p2":["hilvanareis"],"p3":["hilvanaren"]},
+    "CmdPos": {"s2":["hilvana"],"vos":["hilvaná"],"s3":["hilvane"],"p1":["hilvanemos"],"p2":["hilvanad"],"p3":["hilvanen"]}
+  }
+}

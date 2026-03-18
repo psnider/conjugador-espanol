@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[respõn̪ˈd̪eɾ]",
+    "silabacion": "res-pon-der",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta su uso desde el siglo X.[1] Del latín respondēre.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"responder","gerundio":"respondiendo","participio":"respondido"},
+  "formas_personales": {
+    "IndPres": {"s1":["respondo"],"s2":["respondes"],"vos":["respondés"],"s3":["responde"],"p1":["respondemos"],"p2":["respondéis"],"p3":["responden"]},
+    "IndImp": {"s1":["respondía"],"s2":["respondías"],"vos":["respondías"],"s3":["respondía"],"p1":["respondíamos"],"p2":["respondíais"],"p3":["respondían"]},
+    "IndPret": {"s1":["respondí"],"s2":["respondiste"],"vos":["respondiste"],"s3":["respondió"],"p1":["respondimos"],"p2":["respondisteis"],"p3":["respondieron"]},
+    "IndFut": {"s1":["responderé"],"s2":["responderás"],"vos":["responderás"],"s3":["responderá"],"p1":["responderemos"],"p2":["responderéis"],"p3":["responderán"]},
+    "IndCond": {"s1":["respondería"],"s2":["responderías"],"vos":["responderías"],"s3":["respondería"],"p1":["responderíamos"],"p2":["responderíais"],"p3":["responderían"]},
+    "SubPres": {"s1":["responda"],"s2":["respondas"],"vos":["respondas","respondás"],"s3":["responda"],"p1":["respondamos"],"p2":["respondáis"],"p3":["respondan"]},
+    "SubImp": {"s1":["respondiera","respondiese"],"s2":["respondieras","respondieses"],"vos":["respondieras","respondieses"],"s3":["respondiera","respondiese"],"p1":["respondiéramos","respondiésemos"],"p2":["respondierais","respondieseis"],"p3":["respondieran","respondiesen"]},
+    "SubFut": {"s1":["respondiere"],"s2":["respondieres"],"vos":["respondieres"],"s3":["respondiere"],"p1":["respondiéremos"],"p2":["respondiereis"],"p3":["respondieren"]},
+    "CmdPos": {"s2":["responde"],"vos":["respondé"],"s3":["responda"],"p1":["respondamos"],"p2":["responded"],"p3":["respondan"]}
+  }
+}

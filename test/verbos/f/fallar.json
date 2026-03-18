@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[faˈʝaɾ]",
+    "silabacion": "fa-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo fallar, del latín afflāre ('olfatear'), rozar con el aliento.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fallar","gerundio":"fallando","participio":"fallado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fallo"],"s2":["fallas"],"vos":["fallás"],"s3":["falla"],"p1":["fallamos"],"p2":["falláis"],"p3":["fallan"]},
+    "IndImp": {"s1":["fallaba"],"s2":["fallabas"],"vos":["fallabas"],"s3":["fallaba"],"p1":["fallábamos"],"p2":["fallabais"],"p3":["fallaban"]},
+    "IndPret": {"s1":["fallé"],"s2":["fallaste"],"vos":["fallaste"],"s3":["falló"],"p1":["fallamos"],"p2":["fallasteis"],"p3":["fallaron"]},
+    "IndFut": {"s1":["fallaré"],"s2":["fallarás"],"vos":["fallarás"],"s3":["fallará"],"p1":["fallaremos"],"p2":["fallaréis"],"p3":["fallarán"]},
+    "IndCond": {"s1":["fallaría"],"s2":["fallarías"],"vos":["fallarías"],"s3":["fallaría"],"p1":["fallaríamos"],"p2":["fallaríais"],"p3":["fallarían"]},
+    "SubPres": {"s1":["falle"],"s2":["falles"],"vos":["falles","fallés"],"s3":["falle"],"p1":["fallemos"],"p2":["falléis"],"p3":["fallen"]},
+    "SubImp": {"s1":["fallara","fallase"],"s2":["fallaras","fallases"],"vos":["fallaras","fallases"],"s3":["fallara","fallase"],"p1":["falláramos","fallásemos"],"p2":["fallarais","fallaseis"],"p3":["fallaran","fallasen"]},
+    "SubFut": {"s1":["fallare"],"s2":["fallares"],"vos":["fallares"],"s3":["fallare"],"p1":["falláremos"],"p2":["fallareis"],"p3":["fallaren"]},
+    "CmdPos": {"s2":["falla"],"vos":["fallá"],"s3":["falle"],"p1":["fallemos"],"p2":["fallad"],"p3":["fallen"]}
+  }
+}

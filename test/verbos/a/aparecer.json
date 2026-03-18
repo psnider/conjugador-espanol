@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaɾeˈseɾ]",
+    "silabacion": "a-pa-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín appārēscere, derivado del latín appareo, a su vez compuesto del latín pareo (\"hacerse visible\").",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"aparecer","gerundio":"apareciendo","participio":"aparecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["aparezco"],"s2":["apareces"],"vos":["aparecés"],"s3":["aparece"],"p1":["aparecemos"],"p2":["aparecéis"],"p3":["aparecen"]},
+    "IndImp": {"s1":["aparecía"],"s2":["aparecías"],"vos":["aparecías"],"s3":["aparecía"],"p1":["aparecíamos"],"p2":["aparecíais"],"p3":["aparecían"]},
+    "IndPret": {"s1":["aparecí"],"s2":["apareciste"],"vos":["apareciste"],"s3":["apareció"],"p1":["aparecimos"],"p2":["aparecisteis"],"p3":["aparecieron"]},
+    "IndFut": {"s1":["apareceré"],"s2":["aparecerás"],"vos":["aparecerás"],"s3":["aparecerá"],"p1":["apareceremos"],"p2":["apareceréis"],"p3":["aparecerán"]},
+    "IndCond": {"s1":["aparecería"],"s2":["aparecerías"],"vos":["aparecerías"],"s3":["aparecería"],"p1":["apareceríamos"],"p2":["apareceríais"],"p3":["aparecerían"]},
+    "SubPres": {"s1":["aparezca"],"s2":["aparezcas"],"vos":["aparezcas","aparezcás"],"s3":["aparezca"],"p1":["aparezcamos"],"p2":["aparezcáis"],"p3":["aparezcan"]},
+    "SubImp": {"s1":["apareciera","apareciese"],"s2":["aparecieras","aparecieses"],"vos":["aparecieras","aparecieses"],"s3":["apareciera","apareciese"],"p1":["apareciéramos","apareciésemos"],"p2":["aparecierais","aparecieseis"],"p3":["aparecieran","apareciesen"]},
+    "SubFut": {"s1":["apareciere"],"s2":["aparecieres"],"vos":["aparecieres"],"s3":["apareciere"],"p1":["apareciéremos"],"p2":["apareciereis"],"p3":["aparecieren"]},
+    "CmdPos": {"s2":["aparece"],"vos":["aparecé"],"s3":["aparezca"],"p1":["aparezcamos"],"p2":["apareced"],"p3":["aparezcan"]}
+  }
+}

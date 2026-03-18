@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[elaβ̞oˈɾaɾ]",
+    "silabacion": "e-la-bo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín elaborāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"elaborar","gerundio":"elaborando","participio":"elaborado"},
+  "formas_personales": {
+    "IndPres": {"s1":["elaboro"],"s2":["elaboras"],"vos":["elaborás"],"s3":["elabora"],"p1":["elaboramos"],"p2":["elaboráis"],"p3":["elaboran"]},
+    "IndImp": {"s1":["elaboraba"],"s2":["elaborabas"],"vos":["elaborabas"],"s3":["elaboraba"],"p1":["elaborábamos"],"p2":["elaborabais"],"p3":["elaboraban"]},
+    "IndPret": {"s1":["elaboré"],"s2":["elaboraste"],"vos":["elaboraste"],"s3":["elaboró"],"p1":["elaboramos"],"p2":["elaborasteis"],"p3":["elaboraron"]},
+    "IndFut": {"s1":["elaboraré"],"s2":["elaborarás"],"vos":["elaborarás"],"s3":["elaborará"],"p1":["elaboraremos"],"p2":["elaboraréis"],"p3":["elaborarán"]},
+    "IndCond": {"s1":["elaboraría"],"s2":["elaborarías"],"vos":["elaborarías"],"s3":["elaboraría"],"p1":["elaboraríamos"],"p2":["elaboraríais"],"p3":["elaborarían"]},
+    "SubPres": {"s1":["elabore"],"s2":["elabores"],"vos":["elabores","elaborés"],"s3":["elabore"],"p1":["elaboremos"],"p2":["elaboréis"],"p3":["elaboren"]},
+    "SubImp": {"s1":["elaborara","elaborase"],"s2":["elaboraras","elaborases"],"vos":["elaboraras","elaborases"],"s3":["elaborara","elaborase"],"p1":["elaboráramos","elaborásemos"],"p2":["elaborarais","elaboraseis"],"p3":["elaboraran","elaborasen"]},
+    "SubFut": {"s1":["elaborare"],"s2":["elaborares"],"vos":["elaborares"],"s3":["elaborare"],"p1":["elaboráremos"],"p2":["elaborareis"],"p3":["elaboraren"]},
+    "CmdPos": {"s2":["elabora"],"vos":["elaborá"],"s3":["elabore"],"p1":["elaboremos"],"p2":["elaborad"],"p3":["elaboren"]}
+  }
+}

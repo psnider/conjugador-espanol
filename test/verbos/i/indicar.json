@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪d̪iˈkaɾ]",
+    "silabacion": "in-di-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín indicare",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"indicar","gerundio":"indicando","participio":"indicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["indico"],"s2":["indicas"],"vos":["indicás"],"s3":["indica"],"p1":["indicamos"],"p2":["indicáis"],"p3":["indican"]},
+    "IndImp": {"s1":["indicaba"],"s2":["indicabas"],"vos":["indicabas"],"s3":["indicaba"],"p1":["indicábamos"],"p2":["indicabais"],"p3":["indicaban"]},
+    "IndPret": {"s1":["indiqué"],"s2":["indicaste"],"vos":["indicaste"],"s3":["indicó"],"p1":["indicamos"],"p2":["indicasteis"],"p3":["indicaron"]},
+    "IndFut": {"s1":["indicaré"],"s2":["indicarás"],"vos":["indicarás"],"s3":["indicará"],"p1":["indicaremos"],"p2":["indicaréis"],"p3":["indicarán"]},
+    "IndCond": {"s1":["indicaría"],"s2":["indicarías"],"vos":["indicarías"],"s3":["indicaría"],"p1":["indicaríamos"],"p2":["indicaríais"],"p3":["indicarían"]},
+    "SubPres": {"s1":["indique"],"s2":["indiques"],"vos":["indiques","indiqués"],"s3":["indique"],"p1":["indiquemos"],"p2":["indiquéis"],"p3":["indiquen"]},
+    "SubImp": {"s1":["indicara","indicase"],"s2":["indicaras","indicases"],"vos":["indicaras","indicases"],"s3":["indicara","indicase"],"p1":["indicáramos","indicásemos"],"p2":["indicarais","indicaseis"],"p3":["indicaran","indicasen"]},
+    "SubFut": {"s1":["indicare"],"s2":["indicares"],"vos":["indicares"],"s3":["indicare"],"p1":["indicáremos"],"p2":["indicareis"],"p3":["indicaren"]},
+    "CmdPos": {"s2":["indica"],"vos":["indicá"],"s3":["indique"],"p1":["indiquemos"],"p2":["indicad"],"p3":["indiquen"]}
+  }
+}

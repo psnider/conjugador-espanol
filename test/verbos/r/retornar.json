@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪oɾˈnaɾ]",
+    "silabacion": "re-tor-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"retornar","gerundio":"retornando","participio":"retornado"},
+  "formas_personales": {
+    "IndPres": {"s1":["retorno"],"s2":["retornas"],"vos":["retornás"],"s3":["retorna"],"p1":["retornamos"],"p2":["retornáis"],"p3":["retornan"]},
+    "IndImp": {"s1":["retornaba"],"s2":["retornabas"],"vos":["retornabas"],"s3":["retornaba"],"p1":["retornábamos"],"p2":["retornabais"],"p3":["retornaban"]},
+    "IndPret": {"s1":["retorné"],"s2":["retornaste"],"vos":["retornaste"],"s3":["retornó"],"p1":["retornamos"],"p2":["retornasteis"],"p3":["retornaron"]},
+    "IndFut": {"s1":["retornaré"],"s2":["retornarás"],"vos":["retornarás"],"s3":["retornará"],"p1":["retornaremos"],"p2":["retornaréis"],"p3":["retornarán"]},
+    "IndCond": {"s1":["retornaría"],"s2":["retornarías"],"vos":["retornarías"],"s3":["retornaría"],"p1":["retornaríamos"],"p2":["retornaríais"],"p3":["retornarían"]},
+    "SubPres": {"s1":["retorne"],"s2":["retornes"],"vos":["retornes","retornés"],"s3":["retorne"],"p1":["retornemos"],"p2":["retornéis"],"p3":["retornen"]},
+    "SubImp": {"s1":["retornara","retornase"],"s2":["retornaras","retornases"],"vos":["retornaras","retornases"],"s3":["retornara","retornase"],"p1":["retornáramos","retornásemos"],"p2":["retornarais","retornaseis"],"p3":["retornaran","retornasen"]},
+    "SubFut": {"s1":["retornare"],"s2":["retornares"],"vos":["retornares"],"s3":["retornare"],"p1":["retornáremos"],"p2":["retornareis"],"p3":["retornaren"]},
+    "CmdPos": {"s2":["retorna"],"vos":["retorná"],"s3":["retorne"],"p1":["retornemos"],"p2":["retornad"],"p3":["retornen"]}
+  }
+}

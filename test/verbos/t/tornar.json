@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oɾˈnaɾ]",
+    "silabacion": "tor-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo tornar ('tornar'), y este del latín tornāre&nbsp;('tornear').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tornar","gerundio":"tornando","participio":"tornado"},
+  "formas_personales": {
+    "IndPres": {"s1":["torno"],"s2":["tornas"],"vos":["tornás"],"s3":["torna"],"p1":["tornamos"],"p2":["tornáis"],"p3":["tornan"]},
+    "IndImp": {"s1":["tornaba"],"s2":["tornabas"],"vos":["tornabas"],"s3":["tornaba"],"p1":["tornábamos"],"p2":["tornabais"],"p3":["tornaban"]},
+    "IndPret": {"s1":["torné"],"s2":["tornaste"],"vos":["tornaste"],"s3":["tornó"],"p1":["tornamos"],"p2":["tornasteis"],"p3":["tornaron"]},
+    "IndFut": {"s1":["tornaré"],"s2":["tornarás"],"vos":["tornarás"],"s3":["tornará"],"p1":["tornaremos"],"p2":["tornaréis"],"p3":["tornarán"]},
+    "IndCond": {"s1":["tornaría"],"s2":["tornarías"],"vos":["tornarías"],"s3":["tornaría"],"p1":["tornaríamos"],"p2":["tornaríais"],"p3":["tornarían"]},
+    "SubPres": {"s1":["torne"],"s2":["tornes"],"vos":["tornes","tornés"],"s3":["torne"],"p1":["tornemos"],"p2":["tornéis"],"p3":["tornen"]},
+    "SubImp": {"s1":["tornara","tornase"],"s2":["tornaras","tornases"],"vos":["tornaras","tornases"],"s3":["tornara","tornase"],"p1":["tornáramos","tornásemos"],"p2":["tornarais","tornaseis"],"p3":["tornaran","tornasen"]},
+    "SubFut": {"s1":["tornare"],"s2":["tornares"],"vos":["tornares"],"s3":["tornare"],"p1":["tornáremos"],"p2":["tornareis"],"p3":["tornaren"]},
+    "CmdPos": {"s2":["torna"],"vos":["torná"],"s3":["torne"],"p1":["tornemos"],"p2":["tornad"],"p3":["tornen"]}
+  }
+}

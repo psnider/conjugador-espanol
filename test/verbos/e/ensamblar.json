@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsãmˈblaɾ]",
+    "silabacion": "en-sam-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensamblar","gerundio":"ensamblando","participio":"ensamblado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ensamblo"],"s2":["ensamblas"],"vos":["ensamblás"],"s3":["ensambla"],"p1":["ensamblamos"],"p2":["ensambláis"],"p3":["ensamblan"]},
+    "IndImp": {"s1":["ensamblaba"],"s2":["ensamblabas"],"vos":["ensamblabas"],"s3":["ensamblaba"],"p1":["ensamblábamos"],"p2":["ensamblabais"],"p3":["ensamblaban"]},
+    "IndPret": {"s1":["ensamblé"],"s2":["ensamblaste"],"vos":["ensamblaste"],"s3":["ensambló"],"p1":["ensamblamos"],"p2":["ensamblasteis"],"p3":["ensamblaron"]},
+    "IndFut": {"s1":["ensamblaré"],"s2":["ensamblarás"],"vos":["ensamblarás"],"s3":["ensamblará"],"p1":["ensamblaremos"],"p2":["ensamblaréis"],"p3":["ensamblarán"]},
+    "IndCond": {"s1":["ensamblaría"],"s2":["ensamblarías"],"vos":["ensamblarías"],"s3":["ensamblaría"],"p1":["ensamblaríamos"],"p2":["ensamblaríais"],"p3":["ensamblarían"]},
+    "SubPres": {"s1":["ensamble"],"s2":["ensambles"],"vos":["ensambles","ensamblés"],"s3":["ensamble"],"p1":["ensamblemos"],"p2":["ensambléis"],"p3":["ensamblen"]},
+    "SubImp": {"s1":["ensamblara","ensamblase"],"s2":["ensamblaras","ensamblases"],"vos":["ensamblaras","ensamblases"],"s3":["ensamblara","ensamblase"],"p1":["ensambláramos","ensamblásemos"],"p2":["ensamblarais","ensamblaseis"],"p3":["ensamblaran","ensamblasen"]},
+    "SubFut": {"s1":["ensamblare"],"s2":["ensamblares"],"vos":["ensamblares"],"s3":["ensamblare"],"p1":["ensambláremos"],"p2":["ensamblareis"],"p3":["ensamblaren"]},
+    "CmdPos": {"s2":["ensambla"],"vos":["ensamblá"],"s3":["ensamble"],"p1":["ensamblemos"],"p2":["ensamblad"],"p3":["ensamblen"]}
+  }
+}

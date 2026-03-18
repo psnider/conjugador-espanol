@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awmẽn̪ˈt̪aɾ]",
+    "silabacion": "au-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín augmentō, augmentāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aumentar","gerundio":"aumentando","participio":"aumentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aumento"],"s2":["aumentas"],"vos":["aumentás"],"s3":["aumenta"],"p1":["aumentamos"],"p2":["aumentáis"],"p3":["aumentan"]},
+    "IndImp": {"s1":["aumentaba"],"s2":["aumentabas"],"vos":["aumentabas"],"s3":["aumentaba"],"p1":["aumentábamos"],"p2":["aumentabais"],"p3":["aumentaban"]},
+    "IndPret": {"s1":["aumenté"],"s2":["aumentaste"],"vos":["aumentaste"],"s3":["aumentó"],"p1":["aumentamos"],"p2":["aumentasteis"],"p3":["aumentaron"]},
+    "IndFut": {"s1":["aumentaré"],"s2":["aumentarás"],"vos":["aumentarás"],"s3":["aumentará"],"p1":["aumentaremos"],"p2":["aumentaréis"],"p3":["aumentarán"]},
+    "IndCond": {"s1":["aumentaría"],"s2":["aumentarías"],"vos":["aumentarías"],"s3":["aumentaría"],"p1":["aumentaríamos"],"p2":["aumentaríais"],"p3":["aumentarían"]},
+    "SubPres": {"s1":["aumente"],"s2":["aumentes"],"vos":["aumentes","aumentés"],"s3":["aumente"],"p1":["aumentemos"],"p2":["aumentéis"],"p3":["aumenten"]},
+    "SubImp": {"s1":["aumentara","aumentase"],"s2":["aumentaras","aumentases"],"vos":["aumentaras","aumentases"],"s3":["aumentara","aumentase"],"p1":["aumentáramos","aumentásemos"],"p2":["aumentarais","aumentaseis"],"p3":["aumentaran","aumentasen"]},
+    "SubFut": {"s1":["aumentare"],"s2":["aumentares"],"vos":["aumentares"],"s3":["aumentare"],"p1":["aumentáremos"],"p2":["aumentareis"],"p3":["aumentaren"]},
+    "CmdPos": {"s2":["aumenta"],"vos":["aumentá"],"s3":["aumente"],"p1":["aumentemos"],"p2":["aumentad"],"p3":["aumenten"]}
+  }
+}

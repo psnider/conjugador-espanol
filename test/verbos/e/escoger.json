@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskoˈxeɾ]",
+    "silabacion": "es-co-ger",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["proteger"]
+  },
+  "formas_no_personales": {"infinitivo":"escoger","gerundio":"escogiendo","participio":"escogido"},
+  "formas_personales": {
+    "IndPres": {"s1":["escojo"],"s2":["escoges"],"vos":["escogés"],"s3":["escoge"],"p1":["escogemos"],"p2":["escogéis"],"p3":["escogen"]},
+    "IndImp": {"s1":["escogía"],"s2":["escogías"],"vos":["escogías"],"s3":["escogía"],"p1":["escogíamos"],"p2":["escogíais"],"p3":["escogían"]},
+    "IndPret": {"s1":["escogí"],"s2":["escogiste"],"vos":["escogiste"],"s3":["escogió"],"p1":["escogimos"],"p2":["escogisteis"],"p3":["escogieron"]},
+    "IndFut": {"s1":["escogeré"],"s2":["escogerás"],"vos":["escogerás"],"s3":["escogerá"],"p1":["escogeremos"],"p2":["escogeréis"],"p3":["escogerán"]},
+    "IndCond": {"s1":["escogería"],"s2":["escogerías"],"vos":["escogerías"],"s3":["escogería"],"p1":["escogeríamos"],"p2":["escogeríais"],"p3":["escogerían"]},
+    "SubPres": {"s1":["escoja"],"s2":["escojas"],"vos":["escojas","escojás"],"s3":["escoja"],"p1":["escojamos"],"p2":["escojáis"],"p3":["escojan"]},
+    "SubImp": {"s1":["escogiera","escogiese"],"s2":["escogieras","escogieses"],"vos":["escogieras","escogieses"],"s3":["escogiera","escogiese"],"p1":["escogiéramos","escogiésemos"],"p2":["escogierais","escogieseis"],"p3":["escogieran","escogiesen"]},
+    "SubFut": {"s1":["escogiere"],"s2":["escogieres"],"vos":["escogieres"],"s3":["escogiere"],"p1":["escogiéremos"],"p2":["escogiereis"],"p3":["escogieren"]},
+    "CmdPos": {"s2":["escoge"],"vos":["escogé"],"s3":["escoja"],"p1":["escojamos"],"p2":["escoged"],"p3":["escojan"]}
+  }
+}

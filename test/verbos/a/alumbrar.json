@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alũmˈbɾaɾ]",
+    "silabacion": "a-lum-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín illumināre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alumbrar","gerundio":"alumbrando","participio":"alumbrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alumbro"],"s2":["alumbras"],"vos":["alumbrás"],"s3":["alumbra"],"p1":["alumbramos"],"p2":["alumbráis"],"p3":["alumbran"]},
+    "IndImp": {"s1":["alumbraba"],"s2":["alumbrabas"],"vos":["alumbrabas"],"s3":["alumbraba"],"p1":["alumbrábamos"],"p2":["alumbrabais"],"p3":["alumbraban"]},
+    "IndPret": {"s1":["alumbré"],"s2":["alumbraste"],"vos":["alumbraste"],"s3":["alumbró"],"p1":["alumbramos"],"p2":["alumbrasteis"],"p3":["alumbraron"]},
+    "IndFut": {"s1":["alumbraré"],"s2":["alumbrarás"],"vos":["alumbrarás"],"s3":["alumbrará"],"p1":["alumbraremos"],"p2":["alumbraréis"],"p3":["alumbrarán"]},
+    "IndCond": {"s1":["alumbraría"],"s2":["alumbrarías"],"vos":["alumbrarías"],"s3":["alumbraría"],"p1":["alumbraríamos"],"p2":["alumbraríais"],"p3":["alumbrarían"]},
+    "SubPres": {"s1":["alumbre"],"s2":["alumbres"],"vos":["alumbres","alumbrés"],"s3":["alumbre"],"p1":["alumbremos"],"p2":["alumbréis"],"p3":["alumbren"]},
+    "SubImp": {"s1":["alumbrara","alumbrase"],"s2":["alumbraras","alumbrases"],"vos":["alumbraras","alumbrases"],"s3":["alumbrara","alumbrase"],"p1":["alumbráramos","alumbrásemos"],"p2":["alumbrarais","alumbraseis"],"p3":["alumbraran","alumbrasen"]},
+    "SubFut": {"s1":["alumbrare"],"s2":["alumbrares"],"vos":["alumbrares"],"s3":["alumbrare"],"p1":["alumbráremos"],"p2":["alumbrareis"],"p3":["alumbraren"]},
+    "CmdPos": {"s2":["alumbra"],"vos":["alumbrá"],"s3":["alumbre"],"p1":["alumbremos"],"p2":["alumbrad"],"p3":["alumbren"]}
+  }
+}

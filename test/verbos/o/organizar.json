@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾɣ̞aniˈsaɾ]",
+    "silabacion": "or-ga-ni-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín organizare.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"organizar","gerundio":"organizando","participio":"organizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["organizo"],"s2":["organizas"],"vos":["organizás"],"s3":["organiza"],"p1":["organizamos"],"p2":["organizáis"],"p3":["organizan"]},
+    "IndImp": {"s1":["organizaba"],"s2":["organizabas"],"vos":["organizabas"],"s3":["organizaba"],"p1":["organizábamos"],"p2":["organizabais"],"p3":["organizaban"]},
+    "IndPret": {"s1":["organicé"],"s2":["organizaste"],"vos":["organizaste"],"s3":["organizó"],"p1":["organizamos"],"p2":["organizasteis"],"p3":["organizaron"]},
+    "IndFut": {"s1":["organizaré"],"s2":["organizarás"],"vos":["organizarás"],"s3":["organizará"],"p1":["organizaremos"],"p2":["organizaréis"],"p3":["organizarán"]},
+    "IndCond": {"s1":["organizaría"],"s2":["organizarías"],"vos":["organizarías"],"s3":["organizaría"],"p1":["organizaríamos"],"p2":["organizaríais"],"p3":["organizarían"]},
+    "SubPres": {"s1":["organice"],"s2":["organices"],"vos":["organices","organicés"],"s3":["organice"],"p1":["organicemos"],"p2":["organicéis"],"p3":["organicen"]},
+    "SubImp": {"s1":["organizara","organizase"],"s2":["organizaras","organizases"],"vos":["organizaras","organizases"],"s3":["organizara","organizase"],"p1":["organizáramos","organizásemos"],"p2":["organizarais","organizaseis"],"p3":["organizaran","organizasen"]},
+    "SubFut": {"s1":["organizare"],"s2":["organizares"],"vos":["organizares"],"s3":["organizare"],"p1":["organizáremos"],"p2":["organizareis"],"p3":["organizaren"]},
+    "CmdPos": {"s2":["organiza"],"vos":["organizá"],"s3":["organice"],"p1":["organicemos"],"p2":["organizad"],"p3":["organicen"]}
+  }
+}

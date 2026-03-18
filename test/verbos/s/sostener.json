@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sost̪eˈneɾ]",
+    "silabacion": "sos-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sustinēre.",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"sostener","gerundio":"sosteniendo","participio":"sostenido"},
+  "formas_personales": {
+    "IndPres": {"s1":["sostengo"],"s2":["sostienes"],"vos":["sostenés"],"s3":["sostiene"],"p1":["sostenemos"],"p2":["sostenéis"],"p3":["sostienen"]},
+    "IndImp": {"s1":["sostenía"],"s2":["sostenías"],"vos":["sostenías"],"s3":["sostenía"],"p1":["sosteníamos"],"p2":["sosteníais"],"p3":["sostenían"]},
+    "IndPret": {"s1":["sostuve"],"s2":["sostuviste"],"vos":["sostuviste"],"s3":["sostuvo"],"p1":["sostuvimos"],"p2":["sostuvisteis"],"p3":["sostuvieron"]},
+    "IndFut": {"s1":["sostendré"],"s2":["sostendrás"],"vos":["sostendrás"],"s3":["sostendrá"],"p1":["sostendremos"],"p2":["sostendréis"],"p3":["sostendrán"]},
+    "IndCond": {"s1":["sostendría"],"s2":["sostendrías"],"vos":["sostendrías"],"s3":["sostendría"],"p1":["sostendríamos"],"p2":["sostendríais"],"p3":["sostendrían"]},
+    "SubPres": {"s1":["sostenga"],"s2":["sostengas"],"vos":["sostengas","sostengás"],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostengáis"],"p3":["sostengan"]},
+    "SubImp": {"s1":["sostuviera","sostuviese"],"s2":["sostuvieras","sostuvieses"],"vos":["sostuvieras","sostuvieses"],"s3":["sostuviera","sostuviese"],"p1":["sostuviéramos","sostuviésemos"],"p2":["sostuvierais","sostuvieseis"],"p3":["sostuvieran","sostuviesen"]},
+    "SubFut": {"s1":["sostuviere"],"s2":["sostuvieres"],"vos":["sostuvieres"],"s3":["sostuviere"],"p1":["sostuviéremos"],"p2":["sostuviereis"],"p3":["sostuvieren"]},
+    "CmdPos": {"s2":{"estándar":["sostén"],"atípicos":[{"forma":"sostiene","etiquetas":["no normativo"]}]},"vos":["sostené"],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostened"],"p3":["sostengan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[piˈkaɾ]",
+    "silabacion": "pi-car",
+    "acentuacion": "aguda",
+    "etimologia": "De pico y el sufijo -ar. Denominal del español pico.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"picar","gerundio":"picando","participio":"picado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pico"],"s2":["picas"],"vos":["picás"],"s3":["pica"],"p1":["picamos"],"p2":["picáis"],"p3":["pican"]},
+    "IndImp": {"s1":["picaba"],"s2":["picabas"],"vos":["picabas"],"s3":["picaba"],"p1":["picábamos"],"p2":["picabais"],"p3":["picaban"]},
+    "IndPret": {"s1":["piqué"],"s2":["picaste"],"vos":["picaste"],"s3":["picó"],"p1":["picamos"],"p2":["picasteis"],"p3":["picaron"]},
+    "IndFut": {"s1":["picaré"],"s2":["picarás"],"vos":["picarás"],"s3":["picará"],"p1":["picaremos"],"p2":["picaréis"],"p3":["picarán"]},
+    "IndCond": {"s1":["picaría"],"s2":["picarías"],"vos":["picarías"],"s3":["picaría"],"p1":["picaríamos"],"p2":["picaríais"],"p3":["picarían"]},
+    "SubPres": {"s1":["pique"],"s2":["piques"],"vos":["piques","piqués"],"s3":["pique"],"p1":["piquemos"],"p2":["piquéis"],"p3":["piquen"]},
+    "SubImp": {"s1":["picara","picase"],"s2":["picaras","picases"],"vos":["picaras","picases"],"s3":["picara","picase"],"p1":["picáramos","picásemos"],"p2":["picarais","picaseis"],"p3":["picaran","picasen"]},
+    "SubFut": {"s1":["picare"],"s2":["picares"],"vos":["picares"],"s3":["picare"],"p1":["picáremos"],"p2":["picareis"],"p3":["picaren"]},
+    "CmdPos": {"s2":["pica"],"vos":["picá"],"s3":["pique"],"p1":["piquemos"],"p2":["picad"],"p3":["piquen"]}
+  }
+}

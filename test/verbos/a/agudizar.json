@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞uð̞iˈsaɾ]",
+    "silabacion": "a-gu-di-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"agudizar","gerundio":"agudizando","participio":"agudizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agudizo"],"s2":["agudizas"],"vos":["agudizás"],"s3":["agudiza"],"p1":["agudizamos"],"p2":["agudizáis"],"p3":["agudizan"]},
+    "IndImp": {"s1":["agudizaba"],"s2":["agudizabas"],"vos":["agudizabas"],"s3":["agudizaba"],"p1":["agudizábamos"],"p2":["agudizabais"],"p3":["agudizaban"]},
+    "IndPret": {"s1":["agudicé"],"s2":["agudizaste"],"vos":["agudizaste"],"s3":["agudizó"],"p1":["agudizamos"],"p2":["agudizasteis"],"p3":["agudizaron"]},
+    "IndFut": {"s1":["agudizaré"],"s2":["agudizarás"],"vos":["agudizarás"],"s3":["agudizará"],"p1":["agudizaremos"],"p2":["agudizaréis"],"p3":["agudizarán"]},
+    "IndCond": {"s1":["agudizaría"],"s2":["agudizarías"],"vos":["agudizarías"],"s3":["agudizaría"],"p1":["agudizaríamos"],"p2":["agudizaríais"],"p3":["agudizarían"]},
+    "SubPres": {"s1":["agudice"],"s2":["agudices"],"vos":["agudices","agudicés"],"s3":["agudice"],"p1":["agudicemos"],"p2":["agudicéis"],"p3":["agudicen"]},
+    "SubImp": {"s1":["agudizara","agudizase"],"s2":["agudizaras","agudizases"],"vos":["agudizaras","agudizases"],"s3":["agudizara","agudizase"],"p1":["agudizáramos","agudizásemos"],"p2":["agudizarais","agudizaseis"],"p3":["agudizaran","agudizasen"]},
+    "SubFut": {"s1":["agudizare"],"s2":["agudizares"],"vos":["agudizares"],"s3":["agudizare"],"p1":["agudizáremos"],"p2":["agudizareis"],"p3":["agudizaren"]},
+    "CmdPos": {"s2":["agudiza"],"vos":["agudizá"],"s3":["agudice"],"p1":["agudicemos"],"p2":["agudizad"],"p3":["agudicen"]}
+  }
+}

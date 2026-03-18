@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪ɾopeˈʝaɾ]",
+    "silabacion": "a-tro-pe-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atropellar","gerundio":"atropellando","participio":"atropellado"},
+  "formas_personales": {
+    "IndPres": {"s1":["atropello"],"s2":["atropellas"],"vos":["atropellás"],"s3":["atropella"],"p1":["atropellamos"],"p2":["atropelláis"],"p3":["atropellan"]},
+    "IndImp": {"s1":["atropellaba"],"s2":["atropellabas"],"vos":["atropellabas"],"s3":["atropellaba"],"p1":["atropellábamos"],"p2":["atropellabais"],"p3":["atropellaban"]},
+    "IndPret": {"s1":["atropellé"],"s2":["atropellaste"],"vos":["atropellaste"],"s3":["atropelló"],"p1":["atropellamos"],"p2":["atropellasteis"],"p3":["atropellaron"]},
+    "IndFut": {"s1":["atropellaré"],"s2":["atropellarás"],"vos":["atropellarás"],"s3":["atropellará"],"p1":["atropellaremos"],"p2":["atropellaréis"],"p3":["atropellarán"]},
+    "IndCond": {"s1":["atropellaría"],"s2":["atropellarías"],"vos":["atropellarías"],"s3":["atropellaría"],"p1":["atropellaríamos"],"p2":["atropellaríais"],"p3":["atropellarían"]},
+    "SubPres": {"s1":["atropelle"],"s2":["atropelles"],"vos":["atropelles","atropellés"],"s3":["atropelle"],"p1":["atropellemos"],"p2":["atropelléis"],"p3":["atropellen"]},
+    "SubImp": {"s1":["atropellara","atropellase"],"s2":["atropellaras","atropellases"],"vos":["atropellaras","atropellases"],"s3":["atropellara","atropellase"],"p1":["atropelláramos","atropellásemos"],"p2":["atropellarais","atropellaseis"],"p3":["atropellaran","atropellasen"]},
+    "SubFut": {"s1":["atropellare"],"s2":["atropellares"],"vos":["atropellares"],"s3":["atropellare"],"p1":["atropelláremos"],"p2":["atropellareis"],"p3":["atropellaren"]},
+    "CmdPos": {"s2":["atropella"],"vos":["atropellá"],"s3":["atropelle"],"p1":["atropellemos"],"p2":["atropellad"],"p3":["atropellen"]}
+  }
+}

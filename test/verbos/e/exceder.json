@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekseˈð̞eɾ]",
+    "silabacion": "ex-ce-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín excēdere, y este de ex- y cēdere&nbsp;('ir'), del protoitálico *kesd-e/o-, del protoindoeuropeo *ḱiesdʰ-.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"exceder","gerundio":"excediendo","participio":"excedido"},
+  "formas_personales": {
+    "IndPres": {"s1":["excedo"],"s2":["excedes"],"vos":["excedés"],"s3":["excede"],"p1":["excedemos"],"p2":["excedéis"],"p3":["exceden"]},
+    "IndImp": {"s1":["excedía"],"s2":["excedías"],"vos":["excedías"],"s3":["excedía"],"p1":["excedíamos"],"p2":["excedíais"],"p3":["excedían"]},
+    "IndPret": {"s1":["excedí"],"s2":["excediste"],"vos":["excediste"],"s3":["excedió"],"p1":["excedimos"],"p2":["excedisteis"],"p3":["excedieron"]},
+    "IndFut": {"s1":["excederé"],"s2":["excederás"],"vos":["excederás"],"s3":["excederá"],"p1":["excederemos"],"p2":["excederéis"],"p3":["excederán"]},
+    "IndCond": {"s1":["excedería"],"s2":["excederías"],"vos":["excederías"],"s3":["excedería"],"p1":["excederíamos"],"p2":["excederíais"],"p3":["excederían"]},
+    "SubPres": {"s1":["exceda"],"s2":["excedas"],"vos":["excedas","excedás"],"s3":["exceda"],"p1":["excedamos"],"p2":["excedáis"],"p3":["excedan"]},
+    "SubImp": {"s1":["excediera","excediese"],"s2":["excedieras","excedieses"],"vos":["excedieras","excedieses"],"s3":["excediera","excediese"],"p1":["excediéramos","excediésemos"],"p2":["excedierais","excedieseis"],"p3":["excedieran","excediesen"]},
+    "SubFut": {"s1":["excediere"],"s2":["excedieres"],"vos":["excedieres"],"s3":["excediere"],"p1":["excediéremos"],"p2":["excediereis"],"p3":["excedieren"]},
+    "CmdPos": {"s2":["excede"],"vos":["excedé"],"s3":["exceda"],"p1":["excedamos"],"p2":["exceded"],"p3":["excedan"]}
+  }
+}

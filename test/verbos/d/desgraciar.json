@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esɣ̞ɾaˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De desgracia y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"desgraciar","gerundio":"desgraciando","participio":"desgraciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desgracio"],"s2":["desgracias"],"vos":["desgraciás"],"s3":["desgracia"],"p1":["desgraciamos"],"p2":["desgraciáis"],"p3":["desgracian"]},
+    "IndImp": {"s1":["desgraciaba"],"s2":["desgraciabas"],"vos":["desgraciabas"],"s3":["desgraciaba"],"p1":["desgraciábamos"],"p2":["desgraciabais"],"p3":["desgraciaban"]},
+    "IndPret": {"s1":["desgracié"],"s2":["desgraciaste"],"vos":["desgraciaste"],"s3":["desgració"],"p1":["desgraciamos"],"p2":["desgraciasteis"],"p3":["desgraciaron"]},
+    "IndFut": {"s1":["desgraciaré"],"s2":["desgraciarás"],"vos":["desgraciarás"],"s3":["desgraciará"],"p1":["desgraciaremos"],"p2":["desgraciaréis"],"p3":["desgraciarán"]},
+    "IndCond": {"s1":["desgraciaría"],"s2":["desgraciarías"],"vos":["desgraciarías"],"s3":["desgraciaría"],"p1":["desgraciaríamos"],"p2":["desgraciaríais"],"p3":["desgraciarían"]},
+    "SubPres": {"s1":["desgracie"],"s2":["desgracies"],"vos":["desgracies","desgraciés"],"s3":["desgracie"],"p1":["desgraciemos"],"p2":["desgraciéis"],"p3":["desgracien"]},
+    "SubImp": {"s1":["desgraciara","desgraciase"],"s2":["desgraciaras","desgraciases"],"vos":["desgraciaras","desgraciases"],"s3":["desgraciara","desgraciase"],"p1":["desgraciáramos","desgraciásemos"],"p2":["desgraciarais","desgraciaseis"],"p3":["desgraciaran","desgraciasen"]},
+    "SubFut": {"s1":["desgraciare"],"s2":["desgraciares"],"vos":["desgraciares"],"s3":["desgraciare"],"p1":["desgraciáremos"],"p2":["desgraciareis"],"p3":["desgraciaren"]},
+    "CmdPos": {"s2":["desgracia"],"vos":["desgraciá"],"s3":["desgracie"],"p1":["desgraciemos"],"p2":["desgraciad"],"p3":["desgracien"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eroˈɣ̞aɾ]",
+    "silabacion": "in-te-rro-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín interrogō, interrogāre ('preguntar'), compuesto de inter&nbsp;('entre') y rogō, rogāre.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"interrogar","gerundio":"interrogando","participio":"interrogado"},
+  "formas_personales": {
+    "IndPres": {"s1":["interrogo"],"s2":["interrogas"],"vos":["interrogás"],"s3":["interroga"],"p1":["interrogamos"],"p2":["interrogáis"],"p3":["interrogan"]},
+    "IndImp": {"s1":["interrogaba"],"s2":["interrogabas"],"vos":["interrogabas"],"s3":["interrogaba"],"p1":["interrogábamos"],"p2":["interrogabais"],"p3":["interrogaban"]},
+    "IndPret": {"s1":["interrogué"],"s2":["interrogaste"],"vos":["interrogaste"],"s3":["interrogó"],"p1":["interrogamos"],"p2":["interrogasteis"],"p3":["interrogaron"]},
+    "IndFut": {"s1":["interrogaré"],"s2":["interrogarás"],"vos":["interrogarás"],"s3":["interrogará"],"p1":["interrogaremos"],"p2":["interrogaréis"],"p3":["interrogarán"]},
+    "IndCond": {"s1":["interrogaría"],"s2":["interrogarías"],"vos":["interrogarías"],"s3":["interrogaría"],"p1":["interrogaríamos"],"p2":["interrogaríais"],"p3":["interrogarían"]},
+    "SubPres": {"s1":["interrogue"],"s2":["interrogues"],"vos":["interrogues","interrogués"],"s3":["interrogue"],"p1":["interroguemos"],"p2":["interroguéis"],"p3":["interroguen"]},
+    "SubImp": {"s1":["interrogara","interrogase"],"s2":["interrogaras","interrogases"],"vos":["interrogaras","interrogases"],"s3":["interrogara","interrogase"],"p1":["interrogáramos","interrogásemos"],"p2":["interrogarais","interrogaseis"],"p3":["interrogaran","interrogasen"]},
+    "SubFut": {"s1":["interrogare"],"s2":["interrogares"],"vos":["interrogares"],"s3":["interrogare"],"p1":["interrogáremos"],"p2":["interrogareis"],"p3":["interrogaren"]},
+    "CmdPos": {"s2":["interroga"],"vos":["interrogá"],"s3":["interrogue"],"p1":["interroguemos"],"p2":["interrogad"],"p3":["interroguen"]}
+  }
+}

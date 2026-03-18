@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[maˈt̪aɾ]",
+    "silabacion": "ma-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *mattāre, del latín medieval inicial mactāre ('sacrificar, inmolar'). Otros autores descreen de este étimo, fundamentalmente debido a la mutación inesperada del grupo -ct- a -tt-. Según Corominas, debemos remitirnos a la voz mattus ('embrutecido'), con una distancia semántica muy grande. Yakov Makiel propuso un *mattiāre, verbo formado a partir de *mattea (maza), que según él es lo que mejor se ajusta a las leyes de evolución fonética, pero no hay evidencia que apoye una reconstrucción por esta vía al comparar otras lenguas romances. Por último, hay otras teorías que postulan un origen árabe del término, pero siendo éste de uso tan temprano y elemental es difícil creer que tuviera un origen tan remoto.[1][2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"matar","gerundio":"matando","participio":"matado"},
+  "formas_personales": {
+    "IndPres": {"s1":["mato"],"s2":["matas"],"vos":["matás"],"s3":["mata"],"p1":["matamos"],"p2":["matáis"],"p3":["matan"]},
+    "IndImp": {"s1":["mataba"],"s2":["matabas"],"vos":["matabas"],"s3":["mataba"],"p1":["matábamos"],"p2":["matabais"],"p3":["mataban"]},
+    "IndPret": {"s1":["maté"],"s2":["mataste"],"vos":["mataste"],"s3":["mató"],"p1":["matamos"],"p2":["matasteis"],"p3":["mataron"]},
+    "IndFut": {"s1":["mataré"],"s2":["matarás"],"vos":["matarás"],"s3":["matará"],"p1":["mataremos"],"p2":["mataréis"],"p3":["matarán"]},
+    "IndCond": {"s1":["mataría"],"s2":["matarías"],"vos":["matarías"],"s3":["mataría"],"p1":["mataríamos"],"p2":["mataríais"],"p3":["matarían"]},
+    "SubPres": {"s1":["mate"],"s2":["mates"],"vos":["mates","matés"],"s3":["mate"],"p1":["matemos"],"p2":["matéis"],"p3":["maten"]},
+    "SubImp": {"s1":["matara","matase"],"s2":["mataras","matases"],"vos":["mataras","matases"],"s3":["matara","matase"],"p1":["matáramos","matásemos"],"p2":["matarais","mataseis"],"p3":["mataran","matasen"]},
+    "SubFut": {"s1":["matare"],"s2":["matares"],"vos":["matares"],"s3":["matare"],"p1":["matáremos"],"p2":["matareis"],"p3":["mataren"]},
+    "CmdPos": {"s2":["mata"],"vos":["matá"],"s3":["mate"],"p1":["matemos"],"p2":["matad"],"p3":["maten"]}
+  }
+}

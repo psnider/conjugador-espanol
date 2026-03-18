@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnst̪iˈt̪wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín constituo.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"constituir","gerundio":"constituyendo","participio":"constituido"},
+  "formas_personales": {
+    "IndPres": {"s1":["constituyo"],"s2":["constituyes"],"vos":["constituís"],"s3":["constituye"],"p1":["constituimos"],"p2":["constituís"],"p3":["constituyen"]},
+    "IndImp": {"s1":["constituía"],"s2":["constituías"],"vos":["constituías"],"s3":["constituía"],"p1":["constituíamos"],"p2":["constituíais"],"p3":["constituían"]},
+    "IndPret": {"s1":["constituí"],"s2":["constituiste"],"vos":["constituiste"],"s3":["constituyó"],"p1":["constituimos"],"p2":["constituisteis"],"p3":["constituyeron"]},
+    "IndFut": {"s1":["constituiré"],"s2":["constituirás"],"vos":["constituirás"],"s3":["constituirá"],"p1":["constituiremos"],"p2":["constituiréis"],"p3":["constituirán"]},
+    "IndCond": {"s1":["constituiría"],"s2":["constituirías"],"vos":["constituirías"],"s3":["constituiría"],"p1":["constituiríamos"],"p2":["constituiríais"],"p3":["constituirían"]},
+    "SubPres": {"s1":["constituya"],"s2":["constituyas"],"vos":["constituyas","constituyás"],"s3":["constituya"],"p1":["constituyamos"],"p2":["constituyáis"],"p3":["constituyan"]},
+    "SubImp": {"s1":["constituyera","constituyese"],"s2":["constituyeras","constituyeses"],"vos":["constituyeras","constituyeses"],"s3":["constituyera","constituyese"],"p1":["constituyéramos","constituyésemos"],"p2":["constituyerais","constituyeseis"],"p3":["constituyeran","constituyesen"]},
+    "SubFut": {"s1":["constituyere"],"s2":["constituyeres"],"vos":["constituyeres"],"s3":["constituyere"],"p1":["constituyéremos"],"p2":["constituyereis"],"p3":["constituyeren"]},
+    "CmdPos": {"s2":["constituye"],"vos":["constituí"],"s3":["constituya"],"p1":["constituyamos"],"p2":["constituid"],"p3":["constituyan"]}
+  }
+}

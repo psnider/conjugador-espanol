@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾesaˈliɾ]",
+    "silabacion": "so-bre-sa-lir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo sobre- y salir",
+    "modelos": ["salir"]
+  },
+  "formas_no_personales": {"infinitivo":"sobresalir","gerundio":"sobresaliendo","participio":"sobresalido"},
+  "formas_personales": {
+    "IndPres": {"s1":["sobresalgo"],"s2":["sobresales"],"vos":["sobresalís"],"s3":["sobresale"],"p1":["sobresalimos"],"p2":["sobresalís"],"p3":["sobresalen"]},
+    "IndImp": {"s1":["sobresalía"],"s2":["sobresalías"],"vos":["sobresalías"],"s3":["sobresalía"],"p1":["sobresalíamos"],"p2":["sobresalíais"],"p3":["sobresalían"]},
+    "IndPret": {"s1":["sobresalí"],"s2":["sobresaliste"],"vos":["sobresaliste"],"s3":["sobresalió"],"p1":["sobresalimos"],"p2":["sobresalisteis"],"p3":["sobresalieron"]},
+    "IndFut": {"s1":["sobresaldré"],"s2":["sobresaldrás"],"vos":["sobresaldrás"],"s3":["sobresaldrá"],"p1":["sobresaldremos"],"p2":["sobresaldréis"],"p3":["sobresaldrán"]},
+    "IndCond": {"s1":["sobresaldría"],"s2":["sobresaldrías"],"vos":["sobresaldrías"],"s3":["sobresaldría"],"p1":["sobresaldríamos"],"p2":["sobresaldríais"],"p3":["sobresaldrían"]},
+    "SubPres": {"s1":["sobresalga"],"s2":["sobresalgas"],"vos":["sobresalgas","sobresalgás"],"s3":["sobresalga"],"p1":["sobresalgamos"],"p2":["sobresalgáis"],"p3":["sobresalgan"]},
+    "SubImp": {"s1":["sobresaliera","sobresaliese"],"s2":["sobresalieras","sobresalieses"],"vos":["sobresalieras","sobresalieses"],"s3":["sobresaliera","sobresaliese"],"p1":["sobresaliéramos","sobresaliésemos"],"p2":["sobresalierais","sobresalieseis"],"p3":["sobresalieran","sobresaliesen"]},
+    "SubFut": {"s1":["sobresaliere"],"s2":["sobresalieres"],"vos":["sobresalieres"],"s3":["sobresaliere"],"p1":["sobresaliéremos"],"p2":["sobresaliereis"],"p3":["sobresalieren"]},
+    "CmdPos": {"s2":{"estándar":["sobresal"],"atípicos":[{"forma":"sobresale","etiquetas":["no normativo"]}]},"vos":["sobresalí"],"s3":["sobresalga"],"p1":["sobresalgamos"],"p2":["sobresalid"],"p3":["sobresalgan"]}
+  }
+}

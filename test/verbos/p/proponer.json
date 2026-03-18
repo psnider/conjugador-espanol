@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾopoˈneɾ]",
+    "silabacion": "pro-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín proponere.[1]",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"proponer","gerundio":"proponiendo","participio":"propuesto"},
+  "formas_personales": {
+    "IndPres": {"s1":["propongo"],"s2":["propones"],"vos":["proponés"],"s3":["propone"],"p1":["proponemos"],"p2":["proponéis"],"p3":["proponen"]},
+    "IndImp": {"s1":["proponía"],"s2":["proponías"],"vos":["proponías"],"s3":["proponía"],"p1":["proponíamos"],"p2":["proponíais"],"p3":["proponían"]},
+    "IndPret": {"s1":["propuse"],"s2":["propusiste"],"vos":["propusiste"],"s3":["propuso"],"p1":["propusimos"],"p2":["propusisteis"],"p3":["propusieron"]},
+    "IndFut": {"s1":["propondré"],"s2":["propondrás"],"vos":["propondrás"],"s3":["propondrá"],"p1":["propondremos"],"p2":["propondréis"],"p3":["propondrán"]},
+    "IndCond": {"s1":["propondría"],"s2":["propondrías"],"vos":["propondrías"],"s3":["propondría"],"p1":["propondríamos"],"p2":["propondríais"],"p3":["propondrían"]},
+    "SubPres": {"s1":["proponga"],"s2":["propongas"],"vos":["propongas","propongás"],"s3":["proponga"],"p1":["propongamos"],"p2":["propongáis"],"p3":["propongan"]},
+    "SubImp": {"s1":["propusiera","propusiese"],"s2":["propusieras","propusieses"],"vos":["propusieras","propusieses"],"s3":["propusiera","propusiese"],"p1":["propusiéramos","propusiésemos"],"p2":["propusierais","propusieseis"],"p3":["propusieran","propusiesen"]},
+    "SubFut": {"s1":["propusiere"],"s2":["propusieres"],"vos":["propusieres"],"s3":["propusiere"],"p1":["propusiéremos"],"p2":["propusiereis"],"p3":["propusieren"]},
+    "CmdPos": {"s2":{"estándar":["propón"],"atípicos":[{"forma":"propone","etiquetas":["no normativo"]}]},"vos":["proponé"],"s3":["proponga"],"p1":["propongamos"],"p2":["proponed"],"p3":["propongan"]}
+  }
+}

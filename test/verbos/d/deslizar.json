@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esliˈsaɾ]",
+    "silabacion": "des-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, liz (onomatopeya) y el sufijo -ar.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"deslizar","gerundio":"deslizando","participio":"deslizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deslizo"],"s2":["deslizas"],"vos":["deslizás"],"s3":["desliza"],"p1":["deslizamos"],"p2":["deslizáis"],"p3":["deslizan"]},
+    "IndImp": {"s1":["deslizaba"],"s2":["deslizabas"],"vos":["deslizabas"],"s3":["deslizaba"],"p1":["deslizábamos"],"p2":["deslizabais"],"p3":["deslizaban"]},
+    "IndPret": {"s1":["deslicé"],"s2":["deslizaste"],"vos":["deslizaste"],"s3":["deslizó"],"p1":["deslizamos"],"p2":["deslizasteis"],"p3":["deslizaron"]},
+    "IndFut": {"s1":["deslizaré"],"s2":["deslizarás"],"vos":["deslizarás"],"s3":["deslizará"],"p1":["deslizaremos"],"p2":["deslizaréis"],"p3":["deslizarán"]},
+    "IndCond": {"s1":["deslizaría"],"s2":["deslizarías"],"vos":["deslizarías"],"s3":["deslizaría"],"p1":["deslizaríamos"],"p2":["deslizaríais"],"p3":["deslizarían"]},
+    "SubPres": {"s1":["deslice"],"s2":["deslices"],"vos":["deslices","deslicés"],"s3":["deslice"],"p1":["deslicemos"],"p2":["deslicéis"],"p3":["deslicen"]},
+    "SubImp": {"s1":["deslizara","deslizase"],"s2":["deslizaras","deslizases"],"vos":["deslizaras","deslizases"],"s3":["deslizara","deslizase"],"p1":["deslizáramos","deslizásemos"],"p2":["deslizarais","deslizaseis"],"p3":["deslizaran","deslizasen"]},
+    "SubFut": {"s1":["deslizare"],"s2":["deslizares"],"vos":["deslizares"],"s3":["deslizare"],"p1":["deslizáremos"],"p2":["deslizareis"],"p3":["deslizaren"]},
+    "CmdPos": {"s2":["desliza"],"vos":["deslizá"],"s3":["deslice"],"p1":["deslicemos"],"p2":["deslizad"],"p3":["deslicen"]}
+  }
+}

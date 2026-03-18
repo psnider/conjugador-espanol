@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koð̞ifiˈkaɾ]",
+    "silabacion": "co-di-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín codex, -ĭcis&nbsp;('código'), y el sufijo -ficar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"codificar","gerundio":"codificando","participio":"codificado"},
+  "formas_personales": {
+    "IndPres": {"s1":["codifico"],"s2":["codificas"],"vos":["codificás"],"s3":["codifica"],"p1":["codificamos"],"p2":["codificáis"],"p3":["codifican"]},
+    "IndImp": {"s1":["codificaba"],"s2":["codificabas"],"vos":["codificabas"],"s3":["codificaba"],"p1":["codificábamos"],"p2":["codificabais"],"p3":["codificaban"]},
+    "IndPret": {"s1":["codifiqué"],"s2":["codificaste"],"vos":["codificaste"],"s3":["codificó"],"p1":["codificamos"],"p2":["codificasteis"],"p3":["codificaron"]},
+    "IndFut": {"s1":["codificaré"],"s2":["codificarás"],"vos":["codificarás"],"s3":["codificará"],"p1":["codificaremos"],"p2":["codificaréis"],"p3":["codificarán"]},
+    "IndCond": {"s1":["codificaría"],"s2":["codificarías"],"vos":["codificarías"],"s3":["codificaría"],"p1":["codificaríamos"],"p2":["codificaríais"],"p3":["codificarían"]},
+    "SubPres": {"s1":["codifique"],"s2":["codifiques"],"vos":["codifiques","codifiqués"],"s3":["codifique"],"p1":["codifiquemos"],"p2":["codifiquéis"],"p3":["codifiquen"]},
+    "SubImp": {"s1":["codificara","codificase"],"s2":["codificaras","codificases"],"vos":["codificaras","codificases"],"s3":["codificara","codificase"],"p1":["codificáramos","codificásemos"],"p2":["codificarais","codificaseis"],"p3":["codificaran","codificasen"]},
+    "SubFut": {"s1":["codificare"],"s2":["codificares"],"vos":["codificares"],"s3":["codificare"],"p1":["codificáremos"],"p2":["codificareis"],"p3":["codificaren"]},
+    "CmdPos": {"s2":["codifica"],"vos":["codificá"],"s3":["codifique"],"p1":["codifiquemos"],"p2":["codificad"],"p3":["codifiquen"]}
+  }
+}

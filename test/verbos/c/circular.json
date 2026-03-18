@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[siɾkuˈlaɾ]",
+    "silabacion": "cir-cu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín circulāris",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"circular","gerundio":"circulando","participio":"circulado"},
+  "formas_personales": {
+    "IndPres": {"s1":["circulo"],"s2":["circulas"],"vos":["circulás"],"s3":["circula"],"p1":["circulamos"],"p2":["circuláis"],"p3":["circulan"]},
+    "IndImp": {"s1":["circulaba"],"s2":["circulabas"],"vos":["circulabas"],"s3":["circulaba"],"p1":["circulábamos"],"p2":["circulabais"],"p3":["circulaban"]},
+    "IndPret": {"s1":["circulé"],"s2":["circulaste"],"vos":["circulaste"],"s3":["circuló"],"p1":["circulamos"],"p2":["circulasteis"],"p3":["circularon"]},
+    "IndFut": {"s1":["circularé"],"s2":["circularás"],"vos":["circularás"],"s3":["circulará"],"p1":["circularemos"],"p2":["circularéis"],"p3":["circularán"]},
+    "IndCond": {"s1":["circularía"],"s2":["circularías"],"vos":["circularías"],"s3":["circularía"],"p1":["circularíamos"],"p2":["circularíais"],"p3":["circularían"]},
+    "SubPres": {"s1":["circule"],"s2":["circules"],"vos":["circules","circulés"],"s3":["circule"],"p1":["circulemos"],"p2":["circuléis"],"p3":["circulen"]},
+    "SubImp": {"s1":["circulara","circulase"],"s2":["circularas","circulases"],"vos":["circularas","circulases"],"s3":["circulara","circulase"],"p1":["circuláramos","circulásemos"],"p2":["circularais","circulaseis"],"p3":["circularan","circulasen"]},
+    "SubFut": {"s1":["circulare"],"s2":["circulares"],"vos":["circulares"],"s3":["circulare"],"p1":["circuláremos"],"p2":["circulareis"],"p3":["circularen"]},
+    "CmdPos": {"s2":["circula"],"vos":["circulá"],"s3":["circule"],"p1":["circulemos"],"p2":["circulad"],"p3":["circulen"]}
+  }
+}

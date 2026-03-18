@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪akˈt̪aɾ]",
+    "silabacion": "con-tac-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"contactar","gerundio":"contactando","participio":"contactado"},
+  "formas_personales": {
+    "IndPres": {"s1":["contacto"],"s2":["contactas"],"vos":["contactás"],"s3":["contacta"],"p1":["contactamos"],"p2":["contactáis"],"p3":["contactan"]},
+    "IndImp": {"s1":["contactaba"],"s2":["contactabas"],"vos":["contactabas"],"s3":["contactaba"],"p1":["contactábamos"],"p2":["contactabais"],"p3":["contactaban"]},
+    "IndPret": {"s1":["contacté"],"s2":["contactaste"],"vos":["contactaste"],"s3":["contactó"],"p1":["contactamos"],"p2":["contactasteis"],"p3":["contactaron"]},
+    "IndFut": {"s1":["contactaré"],"s2":["contactarás"],"vos":["contactarás"],"s3":["contactará"],"p1":["contactaremos"],"p2":["contactaréis"],"p3":["contactarán"]},
+    "IndCond": {"s1":["contactaría"],"s2":["contactarías"],"vos":["contactarías"],"s3":["contactaría"],"p1":["contactaríamos"],"p2":["contactaríais"],"p3":["contactarían"]},
+    "SubPres": {"s1":["contacte"],"s2":["contactes"],"vos":["contactes","contactés"],"s3":["contacte"],"p1":["contactemos"],"p2":["contactéis"],"p3":["contacten"]},
+    "SubImp": {"s1":["contactara","contactase"],"s2":["contactaras","contactases"],"vos":["contactaras","contactases"],"s3":["contactara","contactase"],"p1":["contactáramos","contactásemos"],"p2":["contactarais","contactaseis"],"p3":["contactaran","contactasen"]},
+    "SubFut": {"s1":["contactare"],"s2":["contactares"],"vos":["contactares"],"s3":["contactare"],"p1":["contactáremos"],"p2":["contactareis"],"p3":["contactaren"]},
+    "CmdPos": {"s2":["contacta"],"vos":["contactá"],"s3":["contacte"],"p1":["contactemos"],"p2":["contactad"],"p3":["contacten"]}
+  }
+}

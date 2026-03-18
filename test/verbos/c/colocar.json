@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koloˈkaɾ]",
+    "silabacion": "co-lo-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín collocāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"colocar","gerundio":"colocando","participio":"colocado"},
+  "formas_personales": {
+    "IndPres": {"s1":["coloco"],"s2":["colocas"],"vos":["colocás"],"s3":["coloca"],"p1":["colocamos"],"p2":["colocáis"],"p3":["colocan"]},
+    "IndImp": {"s1":["colocaba"],"s2":["colocabas"],"vos":["colocabas"],"s3":["colocaba"],"p1":["colocábamos"],"p2":["colocabais"],"p3":["colocaban"]},
+    "IndPret": {"s1":["coloqué"],"s2":["colocaste"],"vos":["colocaste"],"s3":["colocó"],"p1":["colocamos"],"p2":["colocasteis"],"p3":["colocaron"]},
+    "IndFut": {"s1":["colocaré"],"s2":["colocarás"],"vos":["colocarás"],"s3":["colocará"],"p1":["colocaremos"],"p2":["colocaréis"],"p3":["colocarán"]},
+    "IndCond": {"s1":["colocaría"],"s2":["colocarías"],"vos":["colocarías"],"s3":["colocaría"],"p1":["colocaríamos"],"p2":["colocaríais"],"p3":["colocarían"]},
+    "SubPres": {"s1":["coloque"],"s2":["coloques"],"vos":["coloques","coloqués"],"s3":["coloque"],"p1":["coloquemos"],"p2":["coloquéis"],"p3":["coloquen"]},
+    "SubImp": {"s1":["colocara","colocase"],"s2":["colocaras","colocases"],"vos":["colocaras","colocases"],"s3":["colocara","colocase"],"p1":["colocáramos","colocásemos"],"p2":["colocarais","colocaseis"],"p3":["colocaran","colocasen"]},
+    "SubFut": {"s1":["colocare"],"s2":["colocares"],"vos":["colocares"],"s3":["colocare"],"p1":["colocáremos"],"p2":["colocareis"],"p3":["colocaren"]},
+    "CmdPos": {"s2":["coloca"],"vos":["colocá"],"s3":["coloque"],"p1":["coloquemos"],"p2":["colocad"],"p3":["coloquen"]}
+  }
+}

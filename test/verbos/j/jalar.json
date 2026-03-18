@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xaˈlaɾ]",
+    "silabacion": "ja-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Alteración fonética de halar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jalar","gerundio":"jalando","participio":"jalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["jalo"],"s2":["jalas"],"vos":["jalás"],"s3":["jala"],"p1":["jalamos"],"p2":["jaláis"],"p3":["jalan"]},
+    "IndImp": {"s1":["jalaba"],"s2":["jalabas"],"vos":["jalabas"],"s3":["jalaba"],"p1":["jalábamos"],"p2":["jalabais"],"p3":["jalaban"]},
+    "IndPret": {"s1":["jalé"],"s2":["jalaste"],"vos":["jalaste"],"s3":["jaló"],"p1":["jalamos"],"p2":["jalasteis"],"p3":["jalaron"]},
+    "IndFut": {"s1":["jalaré"],"s2":["jalarás"],"vos":["jalarás"],"s3":["jalará"],"p1":["jalaremos"],"p2":["jalaréis"],"p3":["jalarán"]},
+    "IndCond": {"s1":["jalaría"],"s2":["jalarías"],"vos":["jalarías"],"s3":["jalaría"],"p1":["jalaríamos"],"p2":["jalaríais"],"p3":["jalarían"]},
+    "SubPres": {"s1":["jale"],"s2":["jales"],"vos":["jales","jalés"],"s3":["jale"],"p1":["jalemos"],"p2":["jaléis"],"p3":["jalen"]},
+    "SubImp": {"s1":["jalara","jalase"],"s2":["jalaras","jalases"],"vos":["jalaras","jalases"],"s3":["jalara","jalase"],"p1":["jaláramos","jalásemos"],"p2":["jalarais","jalaseis"],"p3":["jalaran","jalasen"]},
+    "SubFut": {"s1":["jalare"],"s2":["jalares"],"vos":["jalares"],"s3":["jalare"],"p1":["jaláremos"],"p2":["jalareis"],"p3":["jalaren"]},
+    "CmdPos": {"s2":["jala"],"vos":["jalá"],"s3":["jale"],"p1":["jalemos"],"p2":["jalad"],"p3":["jalen"]}
+  }
+}

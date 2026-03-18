@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oˈmaɾ]",
+    "silabacion": "to-mar",
+    "acentuacion": "aguda",
+    "etimologia": "De origen incierto. Corominas propone una aféresis del latín autumāre ('afirmar (el derecho de posesión sobre algún bien)'), con varias dificultades semánticas.[1] Teniendo en cuenta que se comenzó usando como sinónimo de apropiarse (de algo), la hipótesis de Walsh resulta más simple y directa: una alteración de domar.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tomar","gerundio":"tomando","participio":"tomado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tomo"],"s2":["tomas"],"vos":["tomás"],"s3":["toma"],"p1":["tomamos"],"p2":["tomáis"],"p3":["toman"]},
+    "IndImp": {"s1":["tomaba"],"s2":["tomabas"],"vos":["tomabas"],"s3":["tomaba"],"p1":["tomábamos"],"p2":["tomabais"],"p3":["tomaban"]},
+    "IndPret": {"s1":["tomé"],"s2":["tomaste"],"vos":["tomaste"],"s3":["tomó"],"p1":["tomamos"],"p2":["tomasteis"],"p3":["tomaron"]},
+    "IndFut": {"s1":["tomaré"],"s2":["tomarás"],"vos":["tomarás"],"s3":["tomará"],"p1":["tomaremos"],"p2":["tomaréis"],"p3":["tomarán"]},
+    "IndCond": {"s1":["tomaría"],"s2":["tomarías"],"vos":["tomarías"],"s3":["tomaría"],"p1":["tomaríamos"],"p2":["tomaríais"],"p3":["tomarían"]},
+    "SubPres": {"s1":["tome"],"s2":["tomes"],"vos":["tomes","tomés"],"s3":["tome"],"p1":["tomemos"],"p2":["toméis"],"p3":["tomen"]},
+    "SubImp": {"s1":["tomara","tomase"],"s2":["tomaras","tomases"],"vos":["tomaras","tomases"],"s3":["tomara","tomase"],"p1":["tomáramos","tomásemos"],"p2":["tomarais","tomaseis"],"p3":["tomaran","tomasen"]},
+    "SubFut": {"s1":["tomare"],"s2":["tomares"],"vos":["tomares"],"s3":["tomare"],"p1":["tomáremos"],"p2":["tomareis"],"p3":["tomaren"]},
+    "CmdPos": {"s2":["toma"],"vos":["tomá"],"s3":["tome"],"p1":["tomemos"],"p2":["tomad"],"p3":["tomen"]}
+  }
+}

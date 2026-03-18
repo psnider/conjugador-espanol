@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[okuˈpaɾ]",
+    "silabacion": "o-cu-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín occupare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ocupar","gerundio":"ocupando","participio":"ocupado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ocupo"],"s2":["ocupas"],"vos":["ocupás"],"s3":["ocupa"],"p1":["ocupamos"],"p2":["ocupáis"],"p3":["ocupan"]},
+    "IndImp": {"s1":["ocupaba"],"s2":["ocupabas"],"vos":["ocupabas"],"s3":["ocupaba"],"p1":["ocupábamos"],"p2":["ocupabais"],"p3":["ocupaban"]},
+    "IndPret": {"s1":["ocupé"],"s2":["ocupaste"],"vos":["ocupaste"],"s3":["ocupó"],"p1":["ocupamos"],"p2":["ocupasteis"],"p3":["ocuparon"]},
+    "IndFut": {"s1":["ocuparé"],"s2":["ocuparás"],"vos":["ocuparás"],"s3":["ocupará"],"p1":["ocuparemos"],"p2":["ocuparéis"],"p3":["ocuparán"]},
+    "IndCond": {"s1":["ocuparía"],"s2":["ocuparías"],"vos":["ocuparías"],"s3":["ocuparía"],"p1":["ocuparíamos"],"p2":["ocuparíais"],"p3":["ocuparían"]},
+    "SubPres": {"s1":["ocupe"],"s2":["ocupes"],"vos":["ocupes","ocupés"],"s3":["ocupe"],"p1":["ocupemos"],"p2":["ocupéis"],"p3":["ocupen"]},
+    "SubImp": {"s1":["ocupara","ocupase"],"s2":["ocuparas","ocupases"],"vos":["ocuparas","ocupases"],"s3":["ocupara","ocupase"],"p1":["ocupáramos","ocupásemos"],"p2":["ocuparais","ocupaseis"],"p3":["ocuparan","ocupasen"]},
+    "SubFut": {"s1":["ocupare"],"s2":["ocupares"],"vos":["ocupares"],"s3":["ocupare"],"p1":["ocupáremos"],"p2":["ocupareis"],"p3":["ocuparen"]},
+    "CmdPos": {"s2":["ocupa"],"vos":["ocupá"],"s3":["ocupe"],"p1":["ocupemos"],"p2":["ocupad"],"p3":["ocupen"]}
+  }
+}

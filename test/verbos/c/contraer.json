@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ɾaˈeɾ]",
+    "silabacion": "con-tra-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín contrahere.",
+    "modelos": ["traer"]
+  },
+  "formas_no_personales": {"infinitivo":"contraer","gerundio":"contrayendo","participio":"contraído"},
+  "formas_personales": {
+    "IndPres": {"s1":["contraigo"],"s2":["contraes"],"vos":["contraés"],"s3":["contrae"],"p1":["contraemos"],"p2":["contraéis"],"p3":["contraen"]},
+    "IndImp": {"s1":["contraía"],"s2":["contraías"],"vos":["contraías"],"s3":["contraía"],"p1":["contraíamos"],"p2":["contraíais"],"p3":["contraían"]},
+    "IndPret": {"s1":["contraje"],"s2":["contrajiste"],"vos":["contrajiste"],"s3":["contrajo"],"p1":["contrajimos"],"p2":["contrajisteis"],"p3":["contrajeron"]},
+    "IndFut": {"s1":["contraeré"],"s2":["contraerás"],"vos":["contraerás"],"s3":["contraerá"],"p1":["contraeremos"],"p2":["contraeréis"],"p3":["contraerán"]},
+    "IndCond": {"s1":["contraería"],"s2":["contraerías"],"vos":["contraerías"],"s3":["contraería"],"p1":["contraeríamos"],"p2":["contraeríais"],"p3":["contraerían"]},
+    "SubPres": {"s1":["contraiga"],"s2":["contraigas"],"vos":["contraigas","contraigás"],"s3":["contraiga"],"p1":["contraigamos"],"p2":["contraigáis"],"p3":["contraigan"]},
+    "SubImp": {"s1":["contrajera","contrajese"],"s2":["contrajeras","contrajeses"],"vos":["contrajeras","contrajeses"],"s3":["contrajera","contrajese"],"p1":["contrajéramos","contrajésemos"],"p2":["contrajerais","contrajeseis"],"p3":["contrajeran","contrajesen"]},
+    "SubFut": {"s1":["contrajere"],"s2":["contrajeres"],"vos":["contrajeres"],"s3":["contrajere"],"p1":["contrajéremos"],"p2":["contrajereis"],"p3":["contrajeren"]},
+    "CmdPos": {"s2":["contrae"],"vos":["contraé"],"s3":["contraiga"],"p1":["contraigamos"],"p2":["contraed"],"p3":["contraigan"]}
+  }
+}

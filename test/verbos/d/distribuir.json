@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ist̪ɾiˈβ̞wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín distribuĕre.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"distribuir","gerundio":"distribuyendo","participio":"distribuido"},
+  "formas_personales": {
+    "IndPres": {"s1":["distribuyo"],"s2":["distribuyes"],"vos":["distribuís"],"s3":["distribuye"],"p1":["distribuimos"],"p2":["distribuís"],"p3":["distribuyen"]},
+    "IndImp": {"s1":["distribuía"],"s2":["distribuías"],"vos":["distribuías"],"s3":["distribuía"],"p1":["distribuíamos"],"p2":["distribuíais"],"p3":["distribuían"]},
+    "IndPret": {"s1":["distribuí"],"s2":["distribuiste"],"vos":["distribuiste"],"s3":["distribuyó"],"p1":["distribuimos"],"p2":["distribuisteis"],"p3":["distribuyeron"]},
+    "IndFut": {"s1":["distribuiré"],"s2":["distribuirás"],"vos":["distribuirás"],"s3":["distribuirá"],"p1":["distribuiremos"],"p2":["distribuiréis"],"p3":["distribuirán"]},
+    "IndCond": {"s1":["distribuiría"],"s2":["distribuirías"],"vos":["distribuirías"],"s3":["distribuiría"],"p1":["distribuiríamos"],"p2":["distribuiríais"],"p3":["distribuirían"]},
+    "SubPres": {"s1":["distribuya"],"s2":["distribuyas"],"vos":["distribuyas","distribuyás"],"s3":["distribuya"],"p1":["distribuyamos"],"p2":["distribuyáis"],"p3":["distribuyan"]},
+    "SubImp": {"s1":["distribuyera","distribuyese"],"s2":["distribuyeras","distribuyeses"],"vos":["distribuyeras","distribuyeses"],"s3":["distribuyera","distribuyese"],"p1":["distribuyéramos","distribuyésemos"],"p2":["distribuyerais","distribuyeseis"],"p3":["distribuyeran","distribuyesen"]},
+    "SubFut": {"s1":["distribuyere"],"s2":["distribuyeres"],"vos":["distribuyeres"],"s3":["distribuyere"],"p1":["distribuyéremos"],"p2":["distribuyereis"],"p3":["distribuyeren"]},
+    "CmdPos": {"s2":["distribuye"],"vos":["distribuí"],"s3":["distribuya"],"p1":["distribuyamos"],"p2":["distribuid"],"p3":["distribuyan"]}
+  }
+}

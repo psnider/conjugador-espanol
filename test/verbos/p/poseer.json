@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[poseˈeɾ]",
+    "silabacion": "po-se-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín possidere, a su vez de potis, \"capaz\", y sedere, \"sentarse\", en última instancia del protoindoeuropeo *sed-",
+    "modelos": ["leer"]
+  },
+  "formas_no_personales": {"infinitivo":"poseer","gerundio":"poseyendo","participio":"poseído"},
+  "formas_personales": {
+    "IndPres": {"s1":["poseo"],"s2":["posees"],"vos":["poseés"],"s3":["posee"],"p1":["poseemos"],"p2":["poseéis"],"p3":["poseen"]},
+    "IndImp": {"s1":["poseía"],"s2":["poseías"],"vos":["poseías"],"s3":["poseía"],"p1":["poseíamos"],"p2":["poseíais"],"p3":["poseían"]},
+    "IndPret": {"s1":["poseí"],"s2":["poseíste"],"vos":["poseíste"],"s3":["poseyó"],"p1":["poseímos"],"p2":["poseísteis"],"p3":["poseyeron"]},
+    "IndFut": {"s1":["poseeré"],"s2":["poseerás"],"vos":["poseerás"],"s3":["poseerá"],"p1":["poseeremos"],"p2":["poseeréis"],"p3":["poseerán"]},
+    "IndCond": {"s1":["poseería"],"s2":["poseerías"],"vos":["poseerías"],"s3":["poseería"],"p1":["poseeríamos"],"p2":["poseeríais"],"p3":["poseerían"]},
+    "SubPres": {"s1":["posea"],"s2":["poseas"],"vos":["poseas","poseás"],"s3":["posea"],"p1":["poseamos"],"p2":["poseáis"],"p3":["posean"]},
+    "SubImp": {"s1":["poseyera","poseyese"],"s2":["poseyeras","poseyeses"],"vos":["poseyeras","poseyeses"],"s3":["poseyera","poseyese"],"p1":["poseyéramos","poseyésemos"],"p2":["poseyerais","poseyeseis"],"p3":["poseyeran","poseyesen"]},
+    "SubFut": {"s1":["poseyere"],"s2":["poseyeres"],"vos":["poseyeres"],"s3":["poseyere"],"p1":["poseyéremos"],"p2":["poseyereis"],"p3":["poseyeren"]},
+    "CmdPos": {"s2":["posee"],"vos":["poseé"],"s3":["posea"],"p1":["poseamos"],"p2":["poseed"],"p3":["posean"]}
+  }
+}

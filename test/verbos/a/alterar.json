@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[al̪t̪eˈɾaɾ]",
+    "silabacion": "al-te-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1141.[1] Del latín alterō, alterāre, derivado del latín alter.[2] De allí también altercar y alternar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alterar","gerundio":"alterando","participio":"alterado"},
+  "formas_personales": {
+    "IndPres": {"s1":["altero"],"s2":["alteras"],"vos":["alterás"],"s3":["altera"],"p1":["alteramos"],"p2":["alteráis"],"p3":["alteran"]},
+    "IndImp": {"s1":["alteraba"],"s2":["alterabas"],"vos":["alterabas"],"s3":["alteraba"],"p1":["alterábamos"],"p2":["alterabais"],"p3":["alteraban"]},
+    "IndPret": {"s1":["alteré"],"s2":["alteraste"],"vos":["alteraste"],"s3":["alteró"],"p1":["alteramos"],"p2":["alterasteis"],"p3":["alteraron"]},
+    "IndFut": {"s1":["alteraré"],"s2":["alterarás"],"vos":["alterarás"],"s3":["alterará"],"p1":["alteraremos"],"p2":["alteraréis"],"p3":["alterarán"]},
+    "IndCond": {"s1":["alteraría"],"s2":["alterarías"],"vos":["alterarías"],"s3":["alteraría"],"p1":["alteraríamos"],"p2":["alteraríais"],"p3":["alterarían"]},
+    "SubPres": {"s1":["altere"],"s2":["alteres"],"vos":["alteres","alterés"],"s3":["altere"],"p1":["alteremos"],"p2":["alteréis"],"p3":["alteren"]},
+    "SubImp": {"s1":["alterara","alterase"],"s2":["alteraras","alterases"],"vos":["alteraras","alterases"],"s3":["alterara","alterase"],"p1":["alteráramos","alterásemos"],"p2":["alterarais","alteraseis"],"p3":["alteraran","alterasen"]},
+    "SubFut": {"s1":["alterare"],"s2":["alterares"],"vos":["alterares"],"s3":["alterare"],"p1":["alteráremos"],"p2":["alterareis"],"p3":["alteraren"]},
+    "CmdPos": {"s2":["altera"],"vos":["alterá"],"s3":["altere"],"p1":["alteremos"],"p2":["alterad"],"p3":["alteren"]}
+  }
+}

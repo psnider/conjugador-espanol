@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪efiˈniɾ]",
+    "silabacion": "de-fi-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín definīre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"definir","gerundio":"definiendo","participio":"definido"},
+  "formas_personales": {
+    "IndPres": {"s1":["defino"],"s2":["defines"],"vos":["definís"],"s3":["define"],"p1":["definimos"],"p2":["definís"],"p3":["definen"]},
+    "IndImp": {"s1":["definía"],"s2":["definías"],"vos":["definías"],"s3":["definía"],"p1":["definíamos"],"p2":["definíais"],"p3":["definían"]},
+    "IndPret": {"s1":["definí"],"s2":["definiste"],"vos":["definiste"],"s3":["definió"],"p1":["definimos"],"p2":["definisteis"],"p3":["definieron"]},
+    "IndFut": {"s1":["definiré"],"s2":["definirás"],"vos":["definirás"],"s3":["definirá"],"p1":["definiremos"],"p2":["definiréis"],"p3":["definirán"]},
+    "IndCond": {"s1":["definiría"],"s2":["definirías"],"vos":["definirías"],"s3":["definiría"],"p1":["definiríamos"],"p2":["definiríais"],"p3":["definirían"]},
+    "SubPres": {"s1":["defina"],"s2":["definas"],"vos":["definas","definás"],"s3":["defina"],"p1":["definamos"],"p2":["defináis"],"p3":["definan"]},
+    "SubImp": {"s1":["definiera","definiese"],"s2":["definieras","definieses"],"vos":["definieras","definieses"],"s3":["definiera","definiese"],"p1":["definiéramos","definiésemos"],"p2":["definierais","definieseis"],"p3":["definieran","definiesen"]},
+    "SubFut": {"s1":["definiere"],"s2":["definieres"],"vos":["definieres"],"s3":["definiere"],"p1":["definiéremos"],"p2":["definiereis"],"p3":["definieren"]},
+    "CmdPos": {"s2":["define"],"vos":["definí"],"s3":["defina"],"p1":["definamos"],"p2":["definid"],"p3":["definan"]}
+  }
+}

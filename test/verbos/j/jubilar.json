@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xuβ̞iˈlaɾ]",
+    "silabacion": "ju-bi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iubilāre,[1] cruzado con iubilaeus&nbsp;('jubileo'), a su vez del hebreo יובל (\"ciervo, cabra\") (el año del cirevo o jubileo ocurría cada cincuenta años, edad de jubilarse).[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jubilar","gerundio":"jubilando","participio":"jubilado"},
+  "formas_personales": {
+    "IndPres": {"s1":["jubilo"],"s2":["jubilas"],"vos":["jubilás"],"s3":["jubila"],"p1":["jubilamos"],"p2":["jubiláis"],"p3":["jubilan"]},
+    "IndImp": {"s1":["jubilaba"],"s2":["jubilabas"],"vos":["jubilabas"],"s3":["jubilaba"],"p1":["jubilábamos"],"p2":["jubilabais"],"p3":["jubilaban"]},
+    "IndPret": {"s1":["jubilé"],"s2":["jubilaste"],"vos":["jubilaste"],"s3":["jubiló"],"p1":["jubilamos"],"p2":["jubilasteis"],"p3":["jubilaron"]},
+    "IndFut": {"s1":["jubilaré"],"s2":["jubilarás"],"vos":["jubilarás"],"s3":["jubilará"],"p1":["jubilaremos"],"p2":["jubilaréis"],"p3":["jubilarán"]},
+    "IndCond": {"s1":["jubilaría"],"s2":["jubilarías"],"vos":["jubilarías"],"s3":["jubilaría"],"p1":["jubilaríamos"],"p2":["jubilaríais"],"p3":["jubilarían"]},
+    "SubPres": {"s1":["jubile"],"s2":["jubiles"],"vos":["jubiles","jubilés"],"s3":["jubile"],"p1":["jubilemos"],"p2":["jubiléis"],"p3":["jubilen"]},
+    "SubImp": {"s1":["jubilara","jubilase"],"s2":["jubilaras","jubilases"],"vos":["jubilaras","jubilases"],"s3":["jubilara","jubilase"],"p1":["jubiláramos","jubilásemos"],"p2":["jubilarais","jubilaseis"],"p3":["jubilaran","jubilasen"]},
+    "SubFut": {"s1":["jubilare"],"s2":["jubilares"],"vos":["jubilares"],"s3":["jubilare"],"p1":["jubiláremos"],"p2":["jubilareis"],"p3":["jubilaren"]},
+    "CmdPos": {"s2":["jubila"],"vos":["jubilá"],"s3":["jubile"],"p1":["jubilemos"],"p2":["jubilad"],"p3":["jubilen"]}
+  }
+}

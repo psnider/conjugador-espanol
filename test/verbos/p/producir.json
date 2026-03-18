@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾoð̞uˈsiɾ]",
+    "silabacion": "pro-du-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín producere, y este formado con pro, \"delante\" y \"ducere\", \"sacar\".",
+    "modelos": ["producir"]
+  },
+  "formas_no_personales": {"infinitivo":"producir","gerundio":"produciendo","participio":"producido"},
+  "formas_personales": {
+    "IndPres": {"s1":["produzco"],"s2":["produces"],"vos":["producís"],"s3":["produce"],"p1":["producimos"],"p2":["producís"],"p3":["producen"]},
+    "IndImp": {"s1":["producía"],"s2":["producías"],"vos":["producías"],"s3":["producía"],"p1":["producíamos"],"p2":["producíais"],"p3":["producían"]},
+    "IndPret": {"s1":["produje"],"s2":["produjiste"],"vos":["produjiste"],"s3":["produjo"],"p1":["produjimos"],"p2":["produjisteis"],"p3":["produjeron"]},
+    "IndFut": {"s1":["produciré"],"s2":["producirás"],"vos":["producirás"],"s3":["producirá"],"p1":["produciremos"],"p2":["produciréis"],"p3":["producirán"]},
+    "IndCond": {"s1":["produciría"],"s2":["producirías"],"vos":["producirías"],"s3":["produciría"],"p1":["produciríamos"],"p2":["produciríais"],"p3":["producirían"]},
+    "SubPres": {"s1":["produzca"],"s2":["produzcas"],"vos":["produzcas","produzcás"],"s3":["produzca"],"p1":["produzcamos"],"p2":["produzcáis"],"p3":["produzcan"]},
+    "SubImp": {"s1":["produjera","produjese"],"s2":["produjeras","produjeses"],"vos":["produjeras","produjeses"],"s3":["produjera","produjese"],"p1":["produjéramos","produjésemos"],"p2":["produjerais","produjeseis"],"p3":["produjeran","produjesen"]},
+    "SubFut": {"s1":["produjere"],"s2":["produjeres"],"vos":["produjeres"],"s3":["produjere"],"p1":["produjéremos"],"p2":["produjereis"],"p3":["produjeren"]},
+    "CmdPos": {"s2":["produce"],"vos":["producí"],"s3":["produzca"],"p1":["produzcamos"],"p2":["producid"],"p3":["produzcan"]}
+  }
+}

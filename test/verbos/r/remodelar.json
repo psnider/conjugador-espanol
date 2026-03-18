@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[remoð̞eˈlaɾ]",
+    "silabacion": "re-mo-de-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés remodeler y este del inglés \"to remodel\".",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"remodelar","gerundio":"remodelando","participio":"remodelado"},
+  "formas_personales": {
+    "IndPres": {"s1":["remodelo"],"s2":["remodelas"],"vos":["remodelás"],"s3":["remodela"],"p1":["remodelamos"],"p2":["remodeláis"],"p3":["remodelan"]},
+    "IndImp": {"s1":["remodelaba"],"s2":["remodelabas"],"vos":["remodelabas"],"s3":["remodelaba"],"p1":["remodelábamos"],"p2":["remodelabais"],"p3":["remodelaban"]},
+    "IndPret": {"s1":["remodelé"],"s2":["remodelaste"],"vos":["remodelaste"],"s3":["remodeló"],"p1":["remodelamos"],"p2":["remodelasteis"],"p3":["remodelaron"]},
+    "IndFut": {"s1":["remodelaré"],"s2":["remodelarás"],"vos":["remodelarás"],"s3":["remodelará"],"p1":["remodelaremos"],"p2":["remodelaréis"],"p3":["remodelarán"]},
+    "IndCond": {"s1":["remodelaría"],"s2":["remodelarías"],"vos":["remodelarías"],"s3":["remodelaría"],"p1":["remodelaríamos"],"p2":["remodelaríais"],"p3":["remodelarían"]},
+    "SubPres": {"s1":["remodele"],"s2":["remodeles"],"vos":["remodeles","remodelés"],"s3":["remodele"],"p1":["remodelemos"],"p2":["remodeléis"],"p3":["remodelen"]},
+    "SubImp": {"s1":["remodelara","remodelase"],"s2":["remodelaras","remodelases"],"vos":["remodelaras","remodelases"],"s3":["remodelara","remodelase"],"p1":["remodeláramos","remodelásemos"],"p2":["remodelarais","remodelaseis"],"p3":["remodelaran","remodelasen"]},
+    "SubFut": {"s1":["remodelare"],"s2":["remodelares"],"vos":["remodelares"],"s3":["remodelare"],"p1":["remodeláremos"],"p2":["remodelareis"],"p3":["remodelaren"]},
+    "CmdPos": {"s2":["remodela"],"vos":["remodelá"],"s3":["remodele"],"p1":["remodelemos"],"p2":["remodelad"],"p3":["remodelen"]}
+  }
+}

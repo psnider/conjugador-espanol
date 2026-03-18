@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esleˈiɾ]",
+    "silabacion": "des-le-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín delēre.[2]",
+    "modelos": ["reír"]
+  },
+  "formas_no_personales": {"infinitivo":"desleír","gerundio":"desliendo","participio":"desleído"},
+  "formas_personales": {
+    "IndPres": {"s1":["deslío"],"s2":["deslíes"],"vos":["desleís"],"s3":["deslíe"],"p1":["desleímos"],"p2":["desleís"],"p3":["deslíen"]},
+    "IndImp": {"s1":["desleía"],"s2":["desleías"],"vos":["desleías"],"s3":["desleía"],"p1":["desleíamos"],"p2":["desleíais"],"p3":["desleían"]},
+    "IndPret": {"s1":["desleí"],"s2":["desleíste"],"vos":["desleíste"],"s3":["deslió"],"p1":["desleímos"],"p2":["desleísteis"],"p3":["deslieron"]},
+    "IndFut": {"s1":["desleiré"],"s2":["desleirás"],"vos":["desleirás"],"s3":["desleirá"],"p1":["desleiremos"],"p2":["desleiréis"],"p3":["desleirán"]},
+    "IndCond": {"s1":["desleiría"],"s2":["desleirías"],"vos":["desleirías"],"s3":["desleiría"],"p1":["desleiríamos"],"p2":["desleiríais"],"p3":["desleirían"]},
+    "SubPres": {"s1":["deslía"],"s2":["deslías"],"vos":["deslías","desliás"],"s3":["deslía"],"p1":["desliamos"],"p2":["desliáis"],"p3":["deslían"]},
+    "SubImp": {"s1":["desliera","desliese"],"s2":["deslieras","deslieses"],"vos":["deslieras","deslieses"],"s3":["desliera","desliese"],"p1":["desliéramos","desliésemos"],"p2":["deslierais","deslieseis"],"p3":["deslieran","desliesen"]},
+    "SubFut": {"s1":["desliere"],"s2":["deslieres"],"vos":["deslieres"],"s3":["desliere"],"p1":["desliéremos"],"p2":["desliereis"],"p3":["deslieren"]},
+    "CmdPos": {"s2":["deslíe"],"vos":["desleí"],"s3":["deslía"],"p1":["desliamos"],"p2":["desleíd"],"p3":["deslían"]}
+  }
+}

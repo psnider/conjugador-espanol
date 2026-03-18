@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esiˈð̞iɾ]",
+    "silabacion": "de-ci-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín decidĕre ('cortar').",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"decidir","gerundio":"decidiendo","participio":"decidido"},
+  "formas_personales": {
+    "IndPres": {"s1":["decido"],"s2":["decides"],"vos":["decidís"],"s3":["decide"],"p1":["decidimos"],"p2":["decidís"],"p3":["deciden"]},
+    "IndImp": {"s1":["decidía"],"s2":["decidías"],"vos":["decidías"],"s3":["decidía"],"p1":["decidíamos"],"p2":["decidíais"],"p3":["decidían"]},
+    "IndPret": {"s1":["decidí"],"s2":["decidiste"],"vos":["decidiste"],"s3":["decidió"],"p1":["decidimos"],"p2":["decidisteis"],"p3":["decidieron"]},
+    "IndFut": {"s1":["decidiré"],"s2":["decidirás"],"vos":["decidirás"],"s3":["decidirá"],"p1":["decidiremos"],"p2":["decidiréis"],"p3":["decidirán"]},
+    "IndCond": {"s1":["decidiría"],"s2":["decidirías"],"vos":["decidirías"],"s3":["decidiría"],"p1":["decidiríamos"],"p2":["decidiríais"],"p3":["decidirían"]},
+    "SubPres": {"s1":["decida"],"s2":["decidas"],"vos":["decidas","decidás"],"s3":["decida"],"p1":["decidamos"],"p2":["decidáis"],"p3":["decidan"]},
+    "SubImp": {"s1":["decidiera","decidiese"],"s2":["decidieras","decidieses"],"vos":["decidieras","decidieses"],"s3":["decidiera","decidiese"],"p1":["decidiéramos","decidiésemos"],"p2":["decidierais","decidieseis"],"p3":["decidieran","decidiesen"]},
+    "SubFut": {"s1":["decidiere"],"s2":["decidieres"],"vos":["decidieres"],"s3":["decidiere"],"p1":["decidiéremos"],"p2":["decidiereis"],"p3":["decidieren"]},
+    "CmdPos": {"s2":["decide"],"vos":["decidí"],"s3":["decida"],"p1":["decidamos"],"p2":["decidid"],"p3":["decidan"]}
+  }
+}

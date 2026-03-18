@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnseɾˈt̪aɾ]",
+    "silabacion": "in-ser-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"insertar","gerundio":"insertando","participio":"insertado"},
+  "formas_personales": {
+    "IndPres": {"s1":["inserto"],"s2":["insertas"],"vos":["insertás"],"s3":["inserta"],"p1":["insertamos"],"p2":["insertáis"],"p3":["insertan"]},
+    "IndImp": {"s1":["insertaba"],"s2":["insertabas"],"vos":["insertabas"],"s3":["insertaba"],"p1":["insertábamos"],"p2":["insertabais"],"p3":["insertaban"]},
+    "IndPret": {"s1":["inserté"],"s2":["insertaste"],"vos":["insertaste"],"s3":["insertó"],"p1":["insertamos"],"p2":["insertasteis"],"p3":["insertaron"]},
+    "IndFut": {"s1":["insertaré"],"s2":["insertarás"],"vos":["insertarás"],"s3":["insertará"],"p1":["insertaremos"],"p2":["insertaréis"],"p3":["insertarán"]},
+    "IndCond": {"s1":["insertaría"],"s2":["insertarías"],"vos":["insertarías"],"s3":["insertaría"],"p1":["insertaríamos"],"p2":["insertaríais"],"p3":["insertarían"]},
+    "SubPres": {"s1":["inserte"],"s2":["insertes"],"vos":["insertes","insertés"],"s3":["inserte"],"p1":["insertemos"],"p2":["insertéis"],"p3":["inserten"]},
+    "SubImp": {"s1":["insertara","insertase"],"s2":["insertaras","insertases"],"vos":["insertaras","insertases"],"s3":["insertara","insertase"],"p1":["insertáramos","insertásemos"],"p2":["insertarais","insertaseis"],"p3":["insertaran","insertasen"]},
+    "SubFut": {"s1":["insertare"],"s2":["insertares"],"vos":["insertares"],"s3":["insertare"],"p1":["insertáremos"],"p2":["insertareis"],"p3":["insertaren"]},
+    "CmdPos": {"s2":["inserta"],"vos":["insertá"],"s3":["inserte"],"p1":["insertemos"],"p2":["insertad"],"p3":["inserten"]}
+  }
+}

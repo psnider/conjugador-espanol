@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾeɣ̞ũn̪ˈt̪aɾ]",
+    "silabacion": "pre-gun-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín percontāri",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"preguntar","gerundio":"preguntando","participio":"preguntado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pregunto"],"s2":["preguntas"],"vos":["preguntás"],"s3":["pregunta"],"p1":["preguntamos"],"p2":["preguntáis"],"p3":["preguntan"]},
+    "IndImp": {"s1":["preguntaba"],"s2":["preguntabas"],"vos":["preguntabas"],"s3":["preguntaba"],"p1":["preguntábamos"],"p2":["preguntabais"],"p3":["preguntaban"]},
+    "IndPret": {"s1":["pregunté"],"s2":["preguntaste"],"vos":["preguntaste"],"s3":["preguntó"],"p1":["preguntamos"],"p2":["preguntasteis"],"p3":["preguntaron"]},
+    "IndFut": {"s1":["preguntaré"],"s2":["preguntarás"],"vos":["preguntarás"],"s3":["preguntará"],"p1":["preguntaremos"],"p2":["preguntaréis"],"p3":["preguntarán"]},
+    "IndCond": {"s1":["preguntaría"],"s2":["preguntarías"],"vos":["preguntarías"],"s3":["preguntaría"],"p1":["preguntaríamos"],"p2":["preguntaríais"],"p3":["preguntarían"]},
+    "SubPres": {"s1":["pregunte"],"s2":["preguntes"],"vos":["preguntes","preguntés"],"s3":["pregunte"],"p1":["preguntemos"],"p2":["preguntéis"],"p3":["pregunten"]},
+    "SubImp": {"s1":["preguntara","preguntase"],"s2":["preguntaras","preguntases"],"vos":["preguntaras","preguntases"],"s3":["preguntara","preguntase"],"p1":["preguntáramos","preguntásemos"],"p2":["preguntarais","preguntaseis"],"p3":["preguntaran","preguntasen"]},
+    "SubFut": {"s1":["preguntare"],"s2":["preguntares"],"vos":["preguntares"],"s3":["preguntare"],"p1":["preguntáremos"],"p2":["preguntareis"],"p3":["preguntaren"]},
+    "CmdPos": {"s2":["pregunta"],"vos":["preguntá"],"s3":["pregunte"],"p1":["preguntemos"],"p2":["preguntad"],"p3":["pregunten"]}
+  }
+}

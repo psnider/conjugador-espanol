@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koˈmeɾ]",
+    "silabacion": "co-mer",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín comedĕre, infinitivo del latín comedo, formado a partir cum&nbsp;('con') y edō&nbsp;('comer').",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"comer","gerundio":"comiendo","participio":"comido"},
+  "formas_personales": {
+    "IndPres": {"s1":["como"],"s2":["comes"],"vos":["comés"],"s3":["come"],"p1":["comemos"],"p2":["coméis"],"p3":["comen"]},
+    "IndImp": {"s1":["comía"],"s2":["comías"],"vos":["comías"],"s3":["comía"],"p1":["comíamos"],"p2":["comíais"],"p3":["comían"]},
+    "IndPret": {"s1":["comí"],"s2":["comiste"],"vos":["comiste"],"s3":["comió"],"p1":["comimos"],"p2":["comisteis"],"p3":["comieron"]},
+    "IndFut": {"s1":["comeré"],"s2":["comerás"],"vos":["comerás"],"s3":["comerá"],"p1":["comeremos"],"p2":["comeréis"],"p3":["comerán"]},
+    "IndCond": {"s1":["comería"],"s2":["comerías"],"vos":["comerías"],"s3":["comería"],"p1":["comeríamos"],"p2":["comeríais"],"p3":["comerían"]},
+    "SubPres": {"s1":["coma"],"s2":["comas"],"vos":["comas","comás"],"s3":["coma"],"p1":["comamos"],"p2":["comáis"],"p3":["coman"]},
+    "SubImp": {"s1":["comiera","comiese"],"s2":["comieras","comieses"],"vos":["comieras","comieses"],"s3":["comiera","comiese"],"p1":["comiéramos","comiésemos"],"p2":["comierais","comieseis"],"p3":["comieran","comiesen"]},
+    "SubFut": {"s1":["comiere"],"s2":["comieres"],"vos":["comieres"],"s3":["comiere"],"p1":["comiéremos"],"p2":["comiereis"],"p3":["comieren"]},
+    "CmdPos": {"s2":["come"],"vos":["comé"],"s3":["coma"],"p1":["comamos"],"p2":["comed"],"p3":["coman"]}
+  }
+}

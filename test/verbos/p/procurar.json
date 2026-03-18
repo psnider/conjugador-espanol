@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾokuˈɾaɾ]",
+    "silabacion": "pro-cu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín procurāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"procurar","gerundio":"procurando","participio":"procurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["procuro"],"s2":["procuras"],"vos":["procurás"],"s3":["procura"],"p1":["procuramos"],"p2":["procuráis"],"p3":["procuran"]},
+    "IndImp": {"s1":["procuraba"],"s2":["procurabas"],"vos":["procurabas"],"s3":["procuraba"],"p1":["procurábamos"],"p2":["procurabais"],"p3":["procuraban"]},
+    "IndPret": {"s1":["procuré"],"s2":["procuraste"],"vos":["procuraste"],"s3":["procuró"],"p1":["procuramos"],"p2":["procurasteis"],"p3":["procuraron"]},
+    "IndFut": {"s1":["procuraré"],"s2":["procurarás"],"vos":["procurarás"],"s3":["procurará"],"p1":["procuraremos"],"p2":["procuraréis"],"p3":["procurarán"]},
+    "IndCond": {"s1":["procuraría"],"s2":["procurarías"],"vos":["procurarías"],"s3":["procuraría"],"p1":["procuraríamos"],"p2":["procuraríais"],"p3":["procurarían"]},
+    "SubPres": {"s1":["procure"],"s2":["procures"],"vos":["procures","procurés"],"s3":["procure"],"p1":["procuremos"],"p2":["procuréis"],"p3":["procuren"]},
+    "SubImp": {"s1":["procurara","procurase"],"s2":["procuraras","procurases"],"vos":["procuraras","procurases"],"s3":["procurara","procurase"],"p1":["procuráramos","procurásemos"],"p2":["procurarais","procuraseis"],"p3":["procuraran","procurasen"]},
+    "SubFut": {"s1":["procurare"],"s2":["procurares"],"vos":["procurares"],"s3":["procurare"],"p1":["procuráremos"],"p2":["procurareis"],"p3":["procuraren"]},
+    "CmdPos": {"s2":["procura"],"vos":["procurá"],"s3":["procure"],"p1":["procuremos"],"p2":["procurad"],"p3":["procuren"]}
+  }
+}

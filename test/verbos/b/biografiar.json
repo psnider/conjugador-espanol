@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bjoɣ̞ɾaˈfjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De biografía y el sufijo -ar.[2]",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"biografiar","gerundio":"biografiando","participio":"biografiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["biografío"],"s2":["biografías"],"vos":["biografiás"],"s3":["biografía"],"p1":["biografiamos"],"p2":["biografiáis"],"p3":["biografían"]},
+    "IndImp": {"s1":["biografiaba"],"s2":["biografiabas"],"vos":["biografiabas"],"s3":["biografiaba"],"p1":["biografiábamos"],"p2":["biografiabais"],"p3":["biografiaban"]},
+    "IndPret": {"s1":["biografié"],"s2":["biografiaste"],"vos":["biografiaste"],"s3":["biografió"],"p1":["biografiamos"],"p2":["biografiasteis"],"p3":["biografiaron"]},
+    "IndFut": {"s1":["biografiaré"],"s2":["biografiarás"],"vos":["biografiarás"],"s3":["biografiará"],"p1":["biografiaremos"],"p2":["biografiaréis"],"p3":["biografiarán"]},
+    "IndCond": {"s1":["biografiaría"],"s2":["biografiarías"],"vos":["biografiarías"],"s3":["biografiaría"],"p1":["biografiaríamos"],"p2":["biografiaríais"],"p3":["biografiarían"]},
+    "SubPres": {"s1":["biografíe"],"s2":["biografíes"],"vos":["biografíes","biografiés"],"s3":["biografíe"],"p1":["biografiemos"],"p2":["biografiéis"],"p3":["biografíen"]},
+    "SubImp": {"s1":["biografiara","biografiase"],"s2":["biografiaras","biografiases"],"vos":["biografiaras","biografiases"],"s3":["biografiara","biografiase"],"p1":["biografiáramos","biografiásemos"],"p2":["biografiarais","biografiaseis"],"p3":["biografiaran","biografiasen"]},
+    "SubFut": {"s1":["biografiare"],"s2":["biografiares"],"vos":["biografiares"],"s3":["biografiare"],"p1":["biografiáremos"],"p2":["biografiareis"],"p3":["biografiaren"]},
+    "CmdPos": {"s2":["biografía"],"vos":["biografiá"],"s3":["biografíe"],"p1":["biografiemos"],"p2":["biografiad"],"p3":["biografíen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asõmˈbɾaɾ]",
+    "silabacion": "a-som-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asombrar","gerundio":"asombrando","participio":"asombrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["asombro"],"s2":["asombras"],"vos":["asombrás"],"s3":["asombra"],"p1":["asombramos"],"p2":["asombráis"],"p3":["asombran"]},
+    "IndImp": {"s1":["asombraba"],"s2":["asombrabas"],"vos":["asombrabas"],"s3":["asombraba"],"p1":["asombrábamos"],"p2":["asombrabais"],"p3":["asombraban"]},
+    "IndPret": {"s1":["asombré"],"s2":["asombraste"],"vos":["asombraste"],"s3":["asombró"],"p1":["asombramos"],"p2":["asombrasteis"],"p3":["asombraron"]},
+    "IndFut": {"s1":["asombraré"],"s2":["asombrarás"],"vos":["asombrarás"],"s3":["asombrará"],"p1":["asombraremos"],"p2":["asombraréis"],"p3":["asombrarán"]},
+    "IndCond": {"s1":["asombraría"],"s2":["asombrarías"],"vos":["asombrarías"],"s3":["asombraría"],"p1":["asombraríamos"],"p2":["asombraríais"],"p3":["asombrarían"]},
+    "SubPres": {"s1":["asombre"],"s2":["asombres"],"vos":["asombres","asombrés"],"s3":["asombre"],"p1":["asombremos"],"p2":["asombréis"],"p3":["asombren"]},
+    "SubImp": {"s1":["asombrara","asombrase"],"s2":["asombraras","asombrases"],"vos":["asombraras","asombrases"],"s3":["asombrara","asombrase"],"p1":["asombráramos","asombrásemos"],"p2":["asombrarais","asombraseis"],"p3":["asombraran","asombrasen"]},
+    "SubFut": {"s1":["asombrare"],"s2":["asombrares"],"vos":["asombrares"],"s3":["asombrare"],"p1":["asombráremos"],"p2":["asombrareis"],"p3":["asombraren"]},
+    "CmdPos": {"s2":["asombra"],"vos":["asombrá"],"s3":["asombre"],"p1":["asombremos"],"p2":["asombrad"],"p3":["asombren"]}
+  }
+}

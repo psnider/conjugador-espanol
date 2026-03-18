@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾt̪eneˈseɾ]",
+    "silabacion": "per-te-ne-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pertineō, pertinēre (\"ser pertinente, concernir, ser propiedad de\"), compuesto del latín per (\"por, a través de\") y teneō, tenēre&nbsp;('tener'); con adición de la terminación verbal -sco, -scere (como en cognōscō, cognōscere).",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"pertenecer","gerundio":"perteneciendo","participio":"pertenecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["pertenezco"],"s2":["perteneces"],"vos":["pertenecés"],"s3":["pertenece"],"p1":["pertenecemos"],"p2":["pertenecéis"],"p3":["pertenecen"]},
+    "IndImp": {"s1":["pertenecía"],"s2":["pertenecías"],"vos":["pertenecías"],"s3":["pertenecía"],"p1":["pertenecíamos"],"p2":["pertenecíais"],"p3":["pertenecían"]},
+    "IndPret": {"s1":["pertenecí"],"s2":["perteneciste"],"vos":["perteneciste"],"s3":["perteneció"],"p1":["pertenecimos"],"p2":["pertenecisteis"],"p3":["pertenecieron"]},
+    "IndFut": {"s1":["perteneceré"],"s2":["pertenecerás"],"vos":["pertenecerás"],"s3":["pertenecerá"],"p1":["perteneceremos"],"p2":["perteneceréis"],"p3":["pertenecerán"]},
+    "IndCond": {"s1":["pertenecería"],"s2":["pertenecerías"],"vos":["pertenecerías"],"s3":["pertenecería"],"p1":["perteneceríamos"],"p2":["perteneceríais"],"p3":["pertenecerían"]},
+    "SubPres": {"s1":["pertenezca"],"s2":["pertenezcas"],"vos":["pertenezcas","pertenezcás"],"s3":["pertenezca"],"p1":["pertenezcamos"],"p2":["pertenezcáis"],"p3":["pertenezcan"]},
+    "SubImp": {"s1":["perteneciera","perteneciese"],"s2":["pertenecieras","pertenecieses"],"vos":["pertenecieras","pertenecieses"],"s3":["perteneciera","perteneciese"],"p1":["perteneciéramos","perteneciésemos"],"p2":["pertenecierais","pertenecieseis"],"p3":["pertenecieran","perteneciesen"]},
+    "SubFut": {"s1":["perteneciere"],"s2":["pertenecieres"],"vos":["pertenecieres"],"s3":["perteneciere"],"p1":["perteneciéremos"],"p2":["perteneciereis"],"p3":["pertenecieren"]},
+    "CmdPos": {"s2":["pertenece"],"vos":["pertenecé"],"s3":["pertenezca"],"p1":["pertenezcamos"],"p2":["perteneced"],"p3":["pertenezcan"]}
+  }
+}

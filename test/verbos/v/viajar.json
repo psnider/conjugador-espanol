@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bjaˈxaɾ]",
+    "silabacion": "via-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del catalán viatjar ('viajar') y este del latín viaticum&nbsp;('impedimenta del viajero').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"viajar","gerundio":"viajando","participio":"viajado"},
+  "formas_personales": {
+    "IndPres": {"s1":["viajo"],"s2":["viajas"],"vos":["viajás"],"s3":["viaja"],"p1":["viajamos"],"p2":["viajáis"],"p3":["viajan"]},
+    "IndImp": {"s1":["viajaba"],"s2":["viajabas"],"vos":["viajabas"],"s3":["viajaba"],"p1":["viajábamos"],"p2":["viajabais"],"p3":["viajaban"]},
+    "IndPret": {"s1":["viajé"],"s2":["viajaste"],"vos":["viajaste"],"s3":["viajó"],"p1":["viajamos"],"p2":["viajasteis"],"p3":["viajaron"]},
+    "IndFut": {"s1":["viajaré"],"s2":["viajarás"],"vos":["viajarás"],"s3":["viajará"],"p1":["viajaremos"],"p2":["viajaréis"],"p3":["viajarán"]},
+    "IndCond": {"s1":["viajaría"],"s2":["viajarías"],"vos":["viajarías"],"s3":["viajaría"],"p1":["viajaríamos"],"p2":["viajaríais"],"p3":["viajarían"]},
+    "SubPres": {"s1":["viaje"],"s2":["viajes"],"vos":["viajes","viajés"],"s3":["viaje"],"p1":["viajemos"],"p2":["viajéis"],"p3":["viajen"]},
+    "SubImp": {"s1":["viajara","viajase"],"s2":["viajaras","viajases"],"vos":["viajaras","viajases"],"s3":["viajara","viajase"],"p1":["viajáramos","viajásemos"],"p2":["viajarais","viajaseis"],"p3":["viajaran","viajasen"]},
+    "SubFut": {"s1":["viajare"],"s2":["viajares"],"vos":["viajares"],"s3":["viajare"],"p1":["viajáremos"],"p2":["viajareis"],"p3":["viajaren"]},
+    "CmdPos": {"s2":["viaja"],"vos":["viajá"],"s3":["viaje"],"p1":["viajemos"],"p2":["viajad"],"p3":["viajen"]}
+  }
+}

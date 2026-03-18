@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ʝeˈnaɾ]",
+    "silabacion": "lle-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De lleno.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"llenar","gerundio":"llenando","participio":"llenado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lleno"],"s2":["llenas"],"vos":["llenás"],"s3":["llena"],"p1":["llenamos"],"p2":["llenáis"],"p3":["llenan"]},
+    "IndImp": {"s1":["llenaba"],"s2":["llenabas"],"vos":["llenabas"],"s3":["llenaba"],"p1":["llenábamos"],"p2":["llenabais"],"p3":["llenaban"]},
+    "IndPret": {"s1":["llené"],"s2":["llenaste"],"vos":["llenaste"],"s3":["llenó"],"p1":["llenamos"],"p2":["llenasteis"],"p3":["llenaron"]},
+    "IndFut": {"s1":["llenaré"],"s2":["llenarás"],"vos":["llenarás"],"s3":["llenará"],"p1":["llenaremos"],"p2":["llenaréis"],"p3":["llenarán"]},
+    "IndCond": {"s1":["llenaría"],"s2":["llenarías"],"vos":["llenarías"],"s3":["llenaría"],"p1":["llenaríamos"],"p2":["llenaríais"],"p3":["llenarían"]},
+    "SubPres": {"s1":["llene"],"s2":["llenes"],"vos":["llenes","llenés"],"s3":["llene"],"p1":["llenemos"],"p2":["llenéis"],"p3":["llenen"]},
+    "SubImp": {"s1":["llenara","llenase"],"s2":["llenaras","llenases"],"vos":["llenaras","llenases"],"s3":["llenara","llenase"],"p1":["llenáramos","llenásemos"],"p2":["llenarais","llenaseis"],"p3":["llenaran","llenasen"]},
+    "SubFut": {"s1":["llenare"],"s2":["llenares"],"vos":["llenares"],"s3":["llenare"],"p1":["llenáremos"],"p2":["llenareis"],"p3":["llenaren"]},
+    "CmdPos": {"s2":["llena"],"vos":["llená"],"s3":["llene"],"p1":["llenemos"],"p2":["llenad"],"p3":["llenen"]}
+  }
+}

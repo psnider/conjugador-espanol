@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋkeˈɾiɾ]",
+    "silabacion": "con-que-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín conquirĕre ('reunir'), buscar con diligencia.[1]",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"conquerir","gerundio":"conquiriendo","participio":"conquerido"},
+  "formas_personales": {
+    "IndPres": {"s1":["conquiero"],"s2":["conquieres"],"vos":["conquerís"],"s3":["conquiere"],"p1":["conquerimos"],"p2":["conquerís"],"p3":["conquieren"]},
+    "IndImp": {"s1":["conquería"],"s2":["conquerías"],"vos":["conquerías"],"s3":["conquería"],"p1":["conqueríamos"],"p2":["conqueríais"],"p3":["conquerían"]},
+    "IndPret": {"s1":["conquerí"],"s2":["conqueriste"],"vos":["conqueriste"],"s3":["conquirió"],"p1":["conquerimos"],"p2":["conqueristeis"],"p3":["conquirieron"]},
+    "IndFut": {"s1":["conqueriré"],"s2":["conquerirás"],"vos":["conquerirás"],"s3":["conquerirá"],"p1":["conqueriremos"],"p2":["conqueriréis"],"p3":["conquerirán"]},
+    "IndCond": {"s1":["conqueriría"],"s2":["conquerirías"],"vos":["conquerirías"],"s3":["conqueriría"],"p1":["conqueriríamos"],"p2":["conqueriríais"],"p3":["conquerirían"]},
+    "SubPres": {"s1":["conquiera"],"s2":["conquieras"],"vos":["conquieras","conquirás"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquiráis"],"p3":["conquieran"]},
+    "SubImp": {"s1":["conquiriera","conquiriese"],"s2":["conquirieras","conquirieses"],"vos":["conquirieras","conquirieses"],"s3":["conquiriera","conquiriese"],"p1":["conquiriéramos","conquiriésemos"],"p2":["conquirierais","conquirieseis"],"p3":["conquirieran","conquiriesen"]},
+    "SubFut": {"s1":["conquiriere"],"s2":["conquirieres"],"vos":["conquirieres"],"s3":["conquiriere"],"p1":["conquiriéremos"],"p2":["conquiriereis"],"p3":["conquirieren"]},
+    "CmdPos": {"s2":["conquiere"],"vos":["conquerí"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquerid"],"p3":["conquieran"]}
+  }
+}

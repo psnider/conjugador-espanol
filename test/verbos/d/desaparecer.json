@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esapaɾeˈseɾ]",
+    "silabacion": "des-a-pa-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y aparecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"desaparecer","gerundio":"desapareciendo","participio":"desaparecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["desaparezco"],"s2":["desapareces"],"vos":["desaparecés"],"s3":["desaparece"],"p1":["desaparecemos"],"p2":["desaparecéis"],"p3":["desaparecen"]},
+    "IndImp": {"s1":["desaparecía"],"s2":["desaparecías"],"vos":["desaparecías"],"s3":["desaparecía"],"p1":["desaparecíamos"],"p2":["desaparecíais"],"p3":["desaparecían"]},
+    "IndPret": {"s1":["desaparecí"],"s2":["desapareciste"],"vos":["desapareciste"],"s3":["desapareció"],"p1":["desaparecimos"],"p2":["desaparecisteis"],"p3":["desaparecieron"]},
+    "IndFut": {"s1":["desapareceré"],"s2":["desaparecerás"],"vos":["desaparecerás"],"s3":["desaparecerá"],"p1":["desapareceremos"],"p2":["desapareceréis"],"p3":["desaparecerán"]},
+    "IndCond": {"s1":["desaparecería"],"s2":["desaparecerías"],"vos":["desaparecerías"],"s3":["desaparecería"],"p1":["desapareceríamos"],"p2":["desapareceríais"],"p3":["desaparecerían"]},
+    "SubPres": {"s1":["desaparezca"],"s2":["desaparezcas"],"vos":["desaparezcas","desaparezcás"],"s3":["desaparezca"],"p1":["desaparezcamos"],"p2":["desaparezcáis"],"p3":["desaparezcan"]},
+    "SubImp": {"s1":["desapareciera","desapareciese"],"s2":["desaparecieras","desaparecieses"],"vos":["desaparecieras","desaparecieses"],"s3":["desapareciera","desapareciese"],"p1":["desapareciéramos","desapareciésemos"],"p2":["desaparecierais","desaparecieseis"],"p3":["desaparecieran","desapareciesen"]},
+    "SubFut": {"s1":["desapareciere"],"s2":["desaparecieres"],"vos":["desaparecieres"],"s3":["desapareciere"],"p1":["desapareciéremos"],"p2":["desapareciereis"],"p3":["desaparecieren"]},
+    "CmdPos": {"s2":["desaparece"],"vos":["desaparecé"],"s3":["desaparezca"],"p1":["desaparezcamos"],"p2":["desapareced"],"p3":["desaparezcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alβ̞eɾˈɣ̞aɾ]",
+    "silabacion": "al-ber-gar",
+    "acentuacion": "aguda",
+    "etimologia": "De origen incierto. Quizás del gótico *haribaírgôn ('alojar una tropa').",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"albergar","gerundio":"albergando","participio":"albergado"},
+  "formas_personales": {
+    "IndPres": {"s1":["albergo"],"s2":["albergas"],"vos":["albergás"],"s3":["alberga"],"p1":["albergamos"],"p2":["albergáis"],"p3":["albergan"]},
+    "IndImp": {"s1":["albergaba"],"s2":["albergabas"],"vos":["albergabas"],"s3":["albergaba"],"p1":["albergábamos"],"p2":["albergabais"],"p3":["albergaban"]},
+    "IndPret": {"s1":["albergué"],"s2":["albergaste"],"vos":["albergaste"],"s3":["albergó"],"p1":["albergamos"],"p2":["albergasteis"],"p3":["albergaron"]},
+    "IndFut": {"s1":["albergaré"],"s2":["albergarás"],"vos":["albergarás"],"s3":["albergará"],"p1":["albergaremos"],"p2":["albergaréis"],"p3":["albergarán"]},
+    "IndCond": {"s1":["albergaría"],"s2":["albergarías"],"vos":["albergarías"],"s3":["albergaría"],"p1":["albergaríamos"],"p2":["albergaríais"],"p3":["albergarían"]},
+    "SubPres": {"s1":["albergue"],"s2":["albergues"],"vos":["albergues","albergués"],"s3":["albergue"],"p1":["alberguemos"],"p2":["alberguéis"],"p3":["alberguen"]},
+    "SubImp": {"s1":["albergara","albergase"],"s2":["albergaras","albergases"],"vos":["albergaras","albergases"],"s3":["albergara","albergase"],"p1":["albergáramos","albergásemos"],"p2":["albergarais","albergaseis"],"p3":["albergaran","albergasen"]},
+    "SubFut": {"s1":["albergare"],"s2":["albergares"],"vos":["albergares"],"s3":["albergare"],"p1":["albergáremos"],"p2":["albergareis"],"p3":["albergaren"]},
+    "CmdPos": {"s2":["alberga"],"vos":["albergá"],"s3":["albergue"],"p1":["alberguemos"],"p2":["albergad"],"p3":["alberguen"]}
+  }
+}

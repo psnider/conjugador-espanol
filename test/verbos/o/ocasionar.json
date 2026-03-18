@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[okasjoˈnaɾ]",
+    "silabacion": "o-ca-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ocasionar","gerundio":"ocasionando","participio":"ocasionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ocasiono"],"s2":["ocasionas"],"vos":["ocasionás"],"s3":["ocasiona"],"p1":["ocasionamos"],"p2":["ocasionáis"],"p3":["ocasionan"]},
+    "IndImp": {"s1":["ocasionaba"],"s2":["ocasionabas"],"vos":["ocasionabas"],"s3":["ocasionaba"],"p1":["ocasionábamos"],"p2":["ocasionabais"],"p3":["ocasionaban"]},
+    "IndPret": {"s1":["ocasioné"],"s2":["ocasionaste"],"vos":["ocasionaste"],"s3":["ocasionó"],"p1":["ocasionamos"],"p2":["ocasionasteis"],"p3":["ocasionaron"]},
+    "IndFut": {"s1":["ocasionaré"],"s2":["ocasionarás"],"vos":["ocasionarás"],"s3":["ocasionará"],"p1":["ocasionaremos"],"p2":["ocasionaréis"],"p3":["ocasionarán"]},
+    "IndCond": {"s1":["ocasionaría"],"s2":["ocasionarías"],"vos":["ocasionarías"],"s3":["ocasionaría"],"p1":["ocasionaríamos"],"p2":["ocasionaríais"],"p3":["ocasionarían"]},
+    "SubPres": {"s1":["ocasione"],"s2":["ocasiones"],"vos":["ocasiones","ocasionés"],"s3":["ocasione"],"p1":["ocasionemos"],"p2":["ocasionéis"],"p3":["ocasionen"]},
+    "SubImp": {"s1":["ocasionara","ocasionase"],"s2":["ocasionaras","ocasionases"],"vos":["ocasionaras","ocasionases"],"s3":["ocasionara","ocasionase"],"p1":["ocasionáramos","ocasionásemos"],"p2":["ocasionarais","ocasionaseis"],"p3":["ocasionaran","ocasionasen"]},
+    "SubFut": {"s1":["ocasionare"],"s2":["ocasionares"],"vos":["ocasionares"],"s3":["ocasionare"],"p1":["ocasionáremos"],"p2":["ocasionareis"],"p3":["ocasionaren"]},
+    "CmdPos": {"s2":["ocasiona"],"vos":["ocasioná"],"s3":["ocasione"],"p1":["ocasionemos"],"p2":["ocasionad"],"p3":["ocasionen"]}
+  }
+}

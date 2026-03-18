@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkuˈβ̞aɾ]",
+    "silabacion": "in-cu-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"incubar","gerundio":"incubando","participio":"incubado"},
+  "formas_personales": {
+    "IndPres": {"s1":["incubo"],"s2":["incubas"],"vos":["incubás"],"s3":["incuba"],"p1":["incubamos"],"p2":["incubáis"],"p3":["incuban"]},
+    "IndImp": {"s1":["incubaba"],"s2":["incubabas"],"vos":["incubabas"],"s3":["incubaba"],"p1":["incubábamos"],"p2":["incubabais"],"p3":["incubaban"]},
+    "IndPret": {"s1":["incubé"],"s2":["incubaste"],"vos":["incubaste"],"s3":["incubó"],"p1":["incubamos"],"p2":["incubasteis"],"p3":["incubaron"]},
+    "IndFut": {"s1":["incubaré"],"s2":["incubarás"],"vos":["incubarás"],"s3":["incubará"],"p1":["incubaremos"],"p2":["incubaréis"],"p3":["incubarán"]},
+    "IndCond": {"s1":["incubaría"],"s2":["incubarías"],"vos":["incubarías"],"s3":["incubaría"],"p1":["incubaríamos"],"p2":["incubaríais"],"p3":["incubarían"]},
+    "SubPres": {"s1":["incube"],"s2":["incubes"],"vos":["incubes","incubés"],"s3":["incube"],"p1":["incubemos"],"p2":["incubéis"],"p3":["incuben"]},
+    "SubImp": {"s1":["incubara","incubase"],"s2":["incubaras","incubases"],"vos":["incubaras","incubases"],"s3":["incubara","incubase"],"p1":["incubáramos","incubásemos"],"p2":["incubarais","incubaseis"],"p3":["incubaran","incubasen"]},
+    "SubFut": {"s1":["incubare"],"s2":["incubares"],"vos":["incubares"],"s3":["incubare"],"p1":["incubáremos"],"p2":["incubareis"],"p3":["incubaren"]},
+    "CmdPos": {"s2":["incuba"],"vos":["incubá"],"s3":["incube"],"p1":["incubemos"],"p2":["incubad"],"p3":["incuben"]}
+  }
+}

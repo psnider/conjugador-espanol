@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[foɾˈmaɾ]",
+    "silabacion": "for-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Semicultismo. Del latín fōrmō, fōrmāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"formar","gerundio":"formando","participio":"formado"},
+  "formas_personales": {
+    "IndPres": {"s1":["formo"],"s2":["formas"],"vos":["formás"],"s3":["forma"],"p1":["formamos"],"p2":["formáis"],"p3":["forman"]},
+    "IndImp": {"s1":["formaba"],"s2":["formabas"],"vos":["formabas"],"s3":["formaba"],"p1":["formábamos"],"p2":["formabais"],"p3":["formaban"]},
+    "IndPret": {"s1":["formé"],"s2":["formaste"],"vos":["formaste"],"s3":["formó"],"p1":["formamos"],"p2":["formasteis"],"p3":["formaron"]},
+    "IndFut": {"s1":["formaré"],"s2":["formarás"],"vos":["formarás"],"s3":["formará"],"p1":["formaremos"],"p2":["formaréis"],"p3":["formarán"]},
+    "IndCond": {"s1":["formaría"],"s2":["formarías"],"vos":["formarías"],"s3":["formaría"],"p1":["formaríamos"],"p2":["formaríais"],"p3":["formarían"]},
+    "SubPres": {"s1":["forme"],"s2":["formes"],"vos":["formes","formés"],"s3":["forme"],"p1":["formemos"],"p2":["forméis"],"p3":["formen"]},
+    "SubImp": {"s1":["formara","formase"],"s2":["formaras","formases"],"vos":["formaras","formases"],"s3":["formara","formase"],"p1":["formáramos","formásemos"],"p2":["formarais","formaseis"],"p3":["formaran","formasen"]},
+    "SubFut": {"s1":["formare"],"s2":["formares"],"vos":["formares"],"s3":["formare"],"p1":["formáremos"],"p2":["formareis"],"p3":["formaren"]},
+    "CmdPos": {"s2":["forma"],"vos":["formá"],"s3":["forme"],"p1":["formemos"],"p2":["formad"],"p3":["formen"]}
+  }
+}

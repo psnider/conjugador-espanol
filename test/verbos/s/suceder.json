@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suseˈð̞eɾ]",
+    "silabacion": "su-ce-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín succedĕre.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"suceder","gerundio":"sucediendo","participio":"sucedido"},
+  "formas_personales": {
+    "IndPres": {"s1":["sucedo"],"s2":["sucedes"],"vos":["sucedés"],"s3":["sucede"],"p1":["sucedemos"],"p2":["sucedéis"],"p3":["suceden"]},
+    "IndImp": {"s1":["sucedía"],"s2":["sucedías"],"vos":["sucedías"],"s3":["sucedía"],"p1":["sucedíamos"],"p2":["sucedíais"],"p3":["sucedían"]},
+    "IndPret": {"s1":["sucedí"],"s2":["sucediste"],"vos":["sucediste"],"s3":["sucedió"],"p1":["sucedimos"],"p2":["sucedisteis"],"p3":["sucedieron"]},
+    "IndFut": {"s1":["sucederé"],"s2":["sucederás"],"vos":["sucederás"],"s3":["sucederá"],"p1":["sucederemos"],"p2":["sucederéis"],"p3":["sucederán"]},
+    "IndCond": {"s1":["sucedería"],"s2":["sucederías"],"vos":["sucederías"],"s3":["sucedería"],"p1":["sucederíamos"],"p2":["sucederíais"],"p3":["sucederían"]},
+    "SubPres": {"s1":["suceda"],"s2":["sucedas"],"vos":["sucedas","sucedás"],"s3":["suceda"],"p1":["sucedamos"],"p2":["sucedáis"],"p3":["sucedan"]},
+    "SubImp": {"s1":["sucediera","sucediese"],"s2":["sucedieras","sucedieses"],"vos":["sucedieras","sucedieses"],"s3":["sucediera","sucediese"],"p1":["sucediéramos","sucediésemos"],"p2":["sucedierais","sucedieseis"],"p3":["sucedieran","sucediesen"]},
+    "SubFut": {"s1":["sucediere"],"s2":["sucedieres"],"vos":["sucedieres"],"s3":["sucediere"],"p1":["sucediéremos"],"p2":["sucediereis"],"p3":["sucedieren"]},
+    "CmdPos": {"s2":["sucede"],"vos":["sucedé"],"s3":["suceda"],"p1":["sucedamos"],"p2":["suceded"],"p3":["sucedan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peneˈt̪ɾaɾ]",
+    "silabacion": "pe-ne-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín penetrare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"penetrar","gerundio":"penetrando","participio":"penetrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["penetro"],"s2":["penetras"],"vos":["penetrás"],"s3":["penetra"],"p1":["penetramos"],"p2":["penetráis"],"p3":["penetran"]},
+    "IndImp": {"s1":["penetraba"],"s2":["penetrabas"],"vos":["penetrabas"],"s3":["penetraba"],"p1":["penetrábamos"],"p2":["penetrabais"],"p3":["penetraban"]},
+    "IndPret": {"s1":["penetré"],"s2":["penetraste"],"vos":["penetraste"],"s3":["penetró"],"p1":["penetramos"],"p2":["penetrasteis"],"p3":["penetraron"]},
+    "IndFut": {"s1":["penetraré"],"s2":["penetrarás"],"vos":["penetrarás"],"s3":["penetrará"],"p1":["penetraremos"],"p2":["penetraréis"],"p3":["penetrarán"]},
+    "IndCond": {"s1":["penetraría"],"s2":["penetrarías"],"vos":["penetrarías"],"s3":["penetraría"],"p1":["penetraríamos"],"p2":["penetraríais"],"p3":["penetrarían"]},
+    "SubPres": {"s1":["penetre"],"s2":["penetres"],"vos":["penetres","penetrés"],"s3":["penetre"],"p1":["penetremos"],"p2":["penetréis"],"p3":["penetren"]},
+    "SubImp": {"s1":["penetrara","penetrase"],"s2":["penetraras","penetrases"],"vos":["penetraras","penetrases"],"s3":["penetrara","penetrase"],"p1":["penetráramos","penetrásemos"],"p2":["penetrarais","penetraseis"],"p3":["penetraran","penetrasen"]},
+    "SubFut": {"s1":["penetrare"],"s2":["penetrares"],"vos":["penetrares"],"s3":["penetrare"],"p1":["penetráremos"],"p2":["penetrareis"],"p3":["penetraren"]},
+    "CmdPos": {"s2":["penetra"],"vos":["penetrá"],"s3":["penetre"],"p1":["penetremos"],"p2":["penetrad"],"p3":["penetren"]}
+  }
+}

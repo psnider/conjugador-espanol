@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[klaˈβ̞aɾ]",
+    "silabacion": "cla-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín clavāre y este de clavus, clavo.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"clavar","gerundio":"clavando","participio":"clavado"},
+  "formas_personales": {
+    "IndPres": {"s1":["clavo"],"s2":["clavas"],"vos":["clavás"],"s3":["clava"],"p1":["clavamos"],"p2":["claváis"],"p3":["clavan"]},
+    "IndImp": {"s1":["clavaba"],"s2":["clavabas"],"vos":["clavabas"],"s3":["clavaba"],"p1":["clavábamos"],"p2":["clavabais"],"p3":["clavaban"]},
+    "IndPret": {"s1":["clavé"],"s2":["clavaste"],"vos":["clavaste"],"s3":["clavó"],"p1":["clavamos"],"p2":["clavasteis"],"p3":["clavaron"]},
+    "IndFut": {"s1":["clavaré"],"s2":["clavarás"],"vos":["clavarás"],"s3":["clavará"],"p1":["clavaremos"],"p2":["clavaréis"],"p3":["clavarán"]},
+    "IndCond": {"s1":["clavaría"],"s2":["clavarías"],"vos":["clavarías"],"s3":["clavaría"],"p1":["clavaríamos"],"p2":["clavaríais"],"p3":["clavarían"]},
+    "SubPres": {"s1":["clave"],"s2":["claves"],"vos":["claves","clavés"],"s3":["clave"],"p1":["clavemos"],"p2":["clavéis"],"p3":["claven"]},
+    "SubImp": {"s1":["clavara","clavase"],"s2":["clavaras","clavases"],"vos":["clavaras","clavases"],"s3":["clavara","clavase"],"p1":["claváramos","clavásemos"],"p2":["clavarais","clavaseis"],"p3":["clavaran","clavasen"]},
+    "SubFut": {"s1":["clavare"],"s2":["clavares"],"vos":["clavares"],"s3":["clavare"],"p1":["claváremos"],"p2":["clavareis"],"p3":["clavaren"]},
+    "CmdPos": {"s2":["clava"],"vos":["clavá"],"s3":["clave"],"p1":["clavemos"],"p2":["clavad"],"p3":["claven"]}
+  }
+}

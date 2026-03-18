@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gwaɾˈð̞aɾ]",
+    "silabacion": "guar-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De guarda",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"guardar","gerundio":"guardando","participio":"guardado"},
+  "formas_personales": {
+    "IndPres": {"s1":["guardo"],"s2":["guardas"],"vos":["guardás"],"s3":["guarda"],"p1":["guardamos"],"p2":["guardáis"],"p3":["guardan"]},
+    "IndImp": {"s1":["guardaba"],"s2":["guardabas"],"vos":["guardabas"],"s3":["guardaba"],"p1":["guardábamos"],"p2":["guardabais"],"p3":["guardaban"]},
+    "IndPret": {"s1":["guardé"],"s2":["guardaste"],"vos":["guardaste"],"s3":["guardó"],"p1":["guardamos"],"p2":["guardasteis"],"p3":["guardaron"]},
+    "IndFut": {"s1":["guardaré"],"s2":["guardarás"],"vos":["guardarás"],"s3":["guardará"],"p1":["guardaremos"],"p2":["guardaréis"],"p3":["guardarán"]},
+    "IndCond": {"s1":["guardaría"],"s2":["guardarías"],"vos":["guardarías"],"s3":["guardaría"],"p1":["guardaríamos"],"p2":["guardaríais"],"p3":["guardarían"]},
+    "SubPres": {"s1":["guarde"],"s2":["guardes"],"vos":["guardes","guardés"],"s3":["guarde"],"p1":["guardemos"],"p2":["guardéis"],"p3":["guarden"]},
+    "SubImp": {"s1":["guardara","guardase"],"s2":["guardaras","guardases"],"vos":["guardaras","guardases"],"s3":["guardara","guardase"],"p1":["guardáramos","guardásemos"],"p2":["guardarais","guardaseis"],"p3":["guardaran","guardasen"]},
+    "SubFut": {"s1":["guardare"],"s2":["guardares"],"vos":["guardares"],"s3":["guardare"],"p1":["guardáremos"],"p2":["guardareis"],"p3":["guardaren"]},
+    "CmdPos": {"s2":["guarda"],"vos":["guardá"],"s3":["guarde"],"p1":["guardemos"],"p2":["guardad"],"p3":["guarden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[laˈβ̞aɾ]",
+    "silabacion": "la-var",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1200.[1] Del latín lavō, lavāre,[2] y este del protoindoeuropeo *lewh₃- (\"limpiar con agua\"). De allí también el griego clásico λούω (louō, \"bañar, purificar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lavar","gerundio":"lavando","participio":"lavado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lavo"],"s2":["lavas"],"vos":["lavás"],"s3":["lava"],"p1":["lavamos"],"p2":["laváis"],"p3":["lavan"]},
+    "IndImp": {"s1":["lavaba"],"s2":["lavabas"],"vos":["lavabas"],"s3":["lavaba"],"p1":["lavábamos"],"p2":["lavabais"],"p3":["lavaban"]},
+    "IndPret": {"s1":["lavé"],"s2":["lavaste"],"vos":["lavaste"],"s3":["lavó"],"p1":["lavamos"],"p2":["lavasteis"],"p3":["lavaron"]},
+    "IndFut": {"s1":["lavaré"],"s2":["lavarás"],"vos":["lavarás"],"s3":["lavará"],"p1":["lavaremos"],"p2":["lavaréis"],"p3":["lavarán"]},
+    "IndCond": {"s1":["lavaría"],"s2":["lavarías"],"vos":["lavarías"],"s3":["lavaría"],"p1":["lavaríamos"],"p2":["lavaríais"],"p3":["lavarían"]},
+    "SubPres": {"s1":["lave"],"s2":["laves"],"vos":["laves","lavés"],"s3":["lave"],"p1":["lavemos"],"p2":["lavéis"],"p3":["laven"]},
+    "SubImp": {"s1":["lavara","lavase"],"s2":["lavaras","lavases"],"vos":["lavaras","lavases"],"s3":["lavara","lavase"],"p1":["laváramos","lavásemos"],"p2":["lavarais","lavaseis"],"p3":["lavaran","lavasen"]},
+    "SubFut": {"s1":["lavare"],"s2":["lavares"],"vos":["lavares"],"s3":["lavare"],"p1":["laváremos"],"p2":["lavareis"],"p3":["lavaren"]},
+    "CmdPos": {"s2":["lava"],"vos":["lavá"],"s3":["lave"],"p1":["lavemos"],"p2":["lavad"],"p3":["laven"]}
+  }
+}

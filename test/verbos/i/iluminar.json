@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ilumiˈnaɾ]",
+    "silabacion": "i-lu-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín illuminare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"iluminar","gerundio":"iluminando","participio":"iluminado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ilumino"],"s2":["iluminas"],"vos":["iluminás"],"s3":["ilumina"],"p1":["iluminamos"],"p2":["ilumináis"],"p3":["iluminan"]},
+    "IndImp": {"s1":["iluminaba"],"s2":["iluminabas"],"vos":["iluminabas"],"s3":["iluminaba"],"p1":["iluminábamos"],"p2":["iluminabais"],"p3":["iluminaban"]},
+    "IndPret": {"s1":["iluminé"],"s2":["iluminaste"],"vos":["iluminaste"],"s3":["iluminó"],"p1":["iluminamos"],"p2":["iluminasteis"],"p3":["iluminaron"]},
+    "IndFut": {"s1":["iluminaré"],"s2":["iluminarás"],"vos":["iluminarás"],"s3":["iluminará"],"p1":["iluminaremos"],"p2":["iluminaréis"],"p3":["iluminarán"]},
+    "IndCond": {"s1":["iluminaría"],"s2":["iluminarías"],"vos":["iluminarías"],"s3":["iluminaría"],"p1":["iluminaríamos"],"p2":["iluminaríais"],"p3":["iluminarían"]},
+    "SubPres": {"s1":["ilumine"],"s2":["ilumines"],"vos":["ilumines","iluminés"],"s3":["ilumine"],"p1":["iluminemos"],"p2":["iluminéis"],"p3":["iluminen"]},
+    "SubImp": {"s1":["iluminara","iluminase"],"s2":["iluminaras","iluminases"],"vos":["iluminaras","iluminases"],"s3":["iluminara","iluminase"],"p1":["ilumináramos","iluminásemos"],"p2":["iluminarais","iluminaseis"],"p3":["iluminaran","iluminasen"]},
+    "SubFut": {"s1":["iluminare"],"s2":["iluminares"],"vos":["iluminares"],"s3":["iluminare"],"p1":["ilumináremos"],"p2":["iluminareis"],"p3":["iluminaren"]},
+    "CmdPos": {"s2":["ilumina"],"vos":["iluminá"],"s3":["ilumine"],"p1":["iluminemos"],"p2":["iluminad"],"p3":["iluminen"]}
+  }
+}

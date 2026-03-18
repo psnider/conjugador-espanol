@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reanuˈð̞aɾ]",
+    "silabacion": "re-a-nu-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reanudar","gerundio":"reanudando","participio":"reanudado"},
+  "formas_personales": {
+    "IndPres": {"s1":["reanudo"],"s2":["reanudas"],"vos":["reanudás"],"s3":["reanuda"],"p1":["reanudamos"],"p2":["reanudáis"],"p3":["reanudan"]},
+    "IndImp": {"s1":["reanudaba"],"s2":["reanudabas"],"vos":["reanudabas"],"s3":["reanudaba"],"p1":["reanudábamos"],"p2":["reanudabais"],"p3":["reanudaban"]},
+    "IndPret": {"s1":["reanudé"],"s2":["reanudaste"],"vos":["reanudaste"],"s3":["reanudó"],"p1":["reanudamos"],"p2":["reanudasteis"],"p3":["reanudaron"]},
+    "IndFut": {"s1":["reanudaré"],"s2":["reanudarás"],"vos":["reanudarás"],"s3":["reanudará"],"p1":["reanudaremos"],"p2":["reanudaréis"],"p3":["reanudarán"]},
+    "IndCond": {"s1":["reanudaría"],"s2":["reanudarías"],"vos":["reanudarías"],"s3":["reanudaría"],"p1":["reanudaríamos"],"p2":["reanudaríais"],"p3":["reanudarían"]},
+    "SubPres": {"s1":["reanude"],"s2":["reanudes"],"vos":["reanudes","reanudés"],"s3":["reanude"],"p1":["reanudemos"],"p2":["reanudéis"],"p3":["reanuden"]},
+    "SubImp": {"s1":["reanudara","reanudase"],"s2":["reanudaras","reanudases"],"vos":["reanudaras","reanudases"],"s3":["reanudara","reanudase"],"p1":["reanudáramos","reanudásemos"],"p2":["reanudarais","reanudaseis"],"p3":["reanudaran","reanudasen"]},
+    "SubFut": {"s1":["reanudare"],"s2":["reanudares"],"vos":["reanudares"],"s3":["reanudare"],"p1":["reanudáremos"],"p2":["reanudareis"],"p3":["reanudaren"]},
+    "CmdPos": {"s2":["reanuda"],"vos":["reanudá"],"s3":["reanude"],"p1":["reanudemos"],"p2":["reanudad"],"p3":["reanuden"]}
+  }
+}

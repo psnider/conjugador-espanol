@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akõmpaˈɲaɾ]",
+    "silabacion": "a-com-pa-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, compaña y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acompañar","gerundio":"acompañando","participio":"acompañado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acompaño"],"s2":["acompañas"],"vos":["acompañás"],"s3":["acompaña"],"p1":["acompañamos"],"p2":["acompañáis"],"p3":["acompañan"]},
+    "IndImp": {"s1":["acompañaba"],"s2":["acompañabas"],"vos":["acompañabas"],"s3":["acompañaba"],"p1":["acompañábamos"],"p2":["acompañabais"],"p3":["acompañaban"]},
+    "IndPret": {"s1":["acompañé"],"s2":["acompañaste"],"vos":["acompañaste"],"s3":["acompañó"],"p1":["acompañamos"],"p2":["acompañasteis"],"p3":["acompañaron"]},
+    "IndFut": {"s1":["acompañaré"],"s2":["acompañarás"],"vos":["acompañarás"],"s3":["acompañará"],"p1":["acompañaremos"],"p2":["acompañaréis"],"p3":["acompañarán"]},
+    "IndCond": {"s1":["acompañaría"],"s2":["acompañarías"],"vos":["acompañarías"],"s3":["acompañaría"],"p1":["acompañaríamos"],"p2":["acompañaríais"],"p3":["acompañarían"]},
+    "SubPres": {"s1":["acompañe"],"s2":["acompañes"],"vos":["acompañes","acompañés"],"s3":["acompañe"],"p1":["acompañemos"],"p2":["acompañéis"],"p3":["acompañen"]},
+    "SubImp": {"s1":["acompañara","acompañase"],"s2":["acompañaras","acompañases"],"vos":["acompañaras","acompañases"],"s3":["acompañara","acompañase"],"p1":["acompañáramos","acompañásemos"],"p2":["acompañarais","acompañaseis"],"p3":["acompañaran","acompañasen"]},
+    "SubFut": {"s1":["acompañare"],"s2":["acompañares"],"vos":["acompañares"],"s3":["acompañare"],"p1":["acompañáremos"],"p2":["acompañareis"],"p3":["acompañaren"]},
+    "CmdPos": {"s2":["acompaña"],"vos":["acompañá"],"s3":["acompañe"],"p1":["acompañemos"],"p2":["acompañad"],"p3":["acompañen"]}
+  }
+}

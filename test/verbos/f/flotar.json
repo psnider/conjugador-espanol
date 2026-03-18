@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[floˈt̪aɾ]",
+    "silabacion": "flo-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés flotter",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"flotar","gerundio":"flotando","participio":"flotado"},
+  "formas_personales": {
+    "IndPres": {"s1":["floto"],"s2":["flotas"],"vos":["flotás"],"s3":["flota"],"p1":["flotamos"],"p2":["flotáis"],"p3":["flotan"]},
+    "IndImp": {"s1":["flotaba"],"s2":["flotabas"],"vos":["flotabas"],"s3":["flotaba"],"p1":["flotábamos"],"p2":["flotabais"],"p3":["flotaban"]},
+    "IndPret": {"s1":["floté"],"s2":["flotaste"],"vos":["flotaste"],"s3":["flotó"],"p1":["flotamos"],"p2":["flotasteis"],"p3":["flotaron"]},
+    "IndFut": {"s1":["flotaré"],"s2":["flotarás"],"vos":["flotarás"],"s3":["flotará"],"p1":["flotaremos"],"p2":["flotaréis"],"p3":["flotarán"]},
+    "IndCond": {"s1":["flotaría"],"s2":["flotarías"],"vos":["flotarías"],"s3":["flotaría"],"p1":["flotaríamos"],"p2":["flotaríais"],"p3":["flotarían"]},
+    "SubPres": {"s1":["flote"],"s2":["flotes"],"vos":["flotes","flotés"],"s3":["flote"],"p1":["flotemos"],"p2":["flotéis"],"p3":["floten"]},
+    "SubImp": {"s1":["flotara","flotase"],"s2":["flotaras","flotases"],"vos":["flotaras","flotases"],"s3":["flotara","flotase"],"p1":["flotáramos","flotásemos"],"p2":["flotarais","flotaseis"],"p3":["flotaran","flotasen"]},
+    "SubFut": {"s1":["flotare"],"s2":["flotares"],"vos":["flotares"],"s3":["flotare"],"p1":["flotáremos"],"p2":["flotareis"],"p3":["flotaren"]},
+    "CmdPos": {"s2":["flota"],"vos":["flotá"],"s3":["flote"],"p1":["flotemos"],"p2":["flotad"],"p3":["floten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sopoɾˈt̪aɾ]",
+    "silabacion": "so-por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín supportāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"soportar","gerundio":"soportando","participio":"soportado"},
+  "formas_personales": {
+    "IndPres": {"s1":["soporto"],"s2":["soportas"],"vos":["soportás"],"s3":["soporta"],"p1":["soportamos"],"p2":["soportáis"],"p3":["soportan"]},
+    "IndImp": {"s1":["soportaba"],"s2":["soportabas"],"vos":["soportabas"],"s3":["soportaba"],"p1":["soportábamos"],"p2":["soportabais"],"p3":["soportaban"]},
+    "IndPret": {"s1":["soporté"],"s2":["soportaste"],"vos":["soportaste"],"s3":["soportó"],"p1":["soportamos"],"p2":["soportasteis"],"p3":["soportaron"]},
+    "IndFut": {"s1":["soportaré"],"s2":["soportarás"],"vos":["soportarás"],"s3":["soportará"],"p1":["soportaremos"],"p2":["soportaréis"],"p3":["soportarán"]},
+    "IndCond": {"s1":["soportaría"],"s2":["soportarías"],"vos":["soportarías"],"s3":["soportaría"],"p1":["soportaríamos"],"p2":["soportaríais"],"p3":["soportarían"]},
+    "SubPres": {"s1":["soporte"],"s2":["soportes"],"vos":["soportes","soportés"],"s3":["soporte"],"p1":["soportemos"],"p2":["soportéis"],"p3":["soporten"]},
+    "SubImp": {"s1":["soportara","soportase"],"s2":["soportaras","soportases"],"vos":["soportaras","soportases"],"s3":["soportara","soportase"],"p1":["soportáramos","soportásemos"],"p2":["soportarais","soportaseis"],"p3":["soportaran","soportasen"]},
+    "SubFut": {"s1":["soportare"],"s2":["soportares"],"vos":["soportares"],"s3":["soportare"],"p1":["soportáremos"],"p2":["soportareis"],"p3":["soportaren"]},
+    "CmdPos": {"s2":["soporta"],"vos":["soportá"],"s3":["soporte"],"p1":["soportemos"],"p2":["soportad"],"p3":["soporten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kat̪aloˈɣ̞aɾ]",
+    "silabacion": "ca-ta-lo-gar",
+    "acentuacion": "aguda",
+    "etimologia": "De catálogo y el sufijo -ar",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"catalogar","gerundio":"catalogando","participio":"catalogado"},
+  "formas_personales": {
+    "IndPres": {"s1":["catalogo"],"s2":["catalogas"],"vos":["catalogás"],"s3":["cataloga"],"p1":["catalogamos"],"p2":["catalogáis"],"p3":["catalogan"]},
+    "IndImp": {"s1":["catalogaba"],"s2":["catalogabas"],"vos":["catalogabas"],"s3":["catalogaba"],"p1":["catalogábamos"],"p2":["catalogabais"],"p3":["catalogaban"]},
+    "IndPret": {"s1":["catalogué"],"s2":["catalogaste"],"vos":["catalogaste"],"s3":["catalogó"],"p1":["catalogamos"],"p2":["catalogasteis"],"p3":["catalogaron"]},
+    "IndFut": {"s1":["catalogaré"],"s2":["catalogarás"],"vos":["catalogarás"],"s3":["catalogará"],"p1":["catalogaremos"],"p2":["catalogaréis"],"p3":["catalogarán"]},
+    "IndCond": {"s1":["catalogaría"],"s2":["catalogarías"],"vos":["catalogarías"],"s3":["catalogaría"],"p1":["catalogaríamos"],"p2":["catalogaríais"],"p3":["catalogarían"]},
+    "SubPres": {"s1":["catalogue"],"s2":["catalogues"],"vos":["catalogues","catalogués"],"s3":["catalogue"],"p1":["cataloguemos"],"p2":["cataloguéis"],"p3":["cataloguen"]},
+    "SubImp": {"s1":["catalogara","catalogase"],"s2":["catalogaras","catalogases"],"vos":["catalogaras","catalogases"],"s3":["catalogara","catalogase"],"p1":["catalogáramos","catalogásemos"],"p2":["catalogarais","catalogaseis"],"p3":["catalogaran","catalogasen"]},
+    "SubFut": {"s1":["catalogare"],"s2":["catalogares"],"vos":["catalogares"],"s3":["catalogare"],"p1":["catalogáremos"],"p2":["catalogareis"],"p3":["catalogaren"]},
+    "CmdPos": {"s2":["cataloga"],"vos":["catalogá"],"s3":["catalogue"],"p1":["cataloguemos"],"p2":["catalogad"],"p3":["cataloguen"]}
+  }
+}

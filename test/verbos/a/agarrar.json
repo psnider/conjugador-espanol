@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞aˈraɾ]",
+    "silabacion": "a-ga-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, garra y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agarrar","gerundio":"agarrando","participio":"agarrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agarro"],"s2":["agarras"],"vos":["agarrás"],"s3":["agarra"],"p1":["agarramos"],"p2":["agarráis"],"p3":["agarran"]},
+    "IndImp": {"s1":["agarraba"],"s2":["agarrabas"],"vos":["agarrabas"],"s3":["agarraba"],"p1":["agarrábamos"],"p2":["agarrabais"],"p3":["agarraban"]},
+    "IndPret": {"s1":["agarré"],"s2":["agarraste"],"vos":["agarraste"],"s3":["agarró"],"p1":["agarramos"],"p2":["agarrasteis"],"p3":["agarraron"]},
+    "IndFut": {"s1":["agarraré"],"s2":["agarrarás"],"vos":["agarrarás"],"s3":["agarrará"],"p1":["agarraremos"],"p2":["agarraréis"],"p3":["agarrarán"]},
+    "IndCond": {"s1":["agarraría"],"s2":["agarrarías"],"vos":["agarrarías"],"s3":["agarraría"],"p1":["agarraríamos"],"p2":["agarraríais"],"p3":["agarrarían"]},
+    "SubPres": {"s1":["agarre"],"s2":["agarres"],"vos":["agarres","agarrés"],"s3":["agarre"],"p1":["agarremos"],"p2":["agarréis"],"p3":["agarren"]},
+    "SubImp": {"s1":["agarrara","agarrase"],"s2":["agarraras","agarrases"],"vos":["agarraras","agarrases"],"s3":["agarrara","agarrase"],"p1":["agarráramos","agarrásemos"],"p2":["agarrarais","agarraseis"],"p3":["agarraran","agarrasen"]},
+    "SubFut": {"s1":["agarrare"],"s2":["agarrares"],"vos":["agarrares"],"s3":["agarrare"],"p1":["agarráremos"],"p2":["agarrareis"],"p3":["agarraren"]},
+    "CmdPos": {"s2":["agarra"],"vos":["agarrá"],"s3":["agarre"],"p1":["agarremos"],"p2":["agarrad"],"p3":["agarren"]}
+  }
+}

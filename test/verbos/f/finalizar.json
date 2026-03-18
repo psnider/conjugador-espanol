@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[finaliˈsaɾ]",
+    "silabacion": "fi-na-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"finalizar","gerundio":"finalizando","participio":"finalizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["finalizo"],"s2":["finalizas"],"vos":["finalizás"],"s3":["finaliza"],"p1":["finalizamos"],"p2":["finalizáis"],"p3":["finalizan"]},
+    "IndImp": {"s1":["finalizaba"],"s2":["finalizabas"],"vos":["finalizabas"],"s3":["finalizaba"],"p1":["finalizábamos"],"p2":["finalizabais"],"p3":["finalizaban"]},
+    "IndPret": {"s1":["finalicé"],"s2":["finalizaste"],"vos":["finalizaste"],"s3":["finalizó"],"p1":["finalizamos"],"p2":["finalizasteis"],"p3":["finalizaron"]},
+    "IndFut": {"s1":["finalizaré"],"s2":["finalizarás"],"vos":["finalizarás"],"s3":["finalizará"],"p1":["finalizaremos"],"p2":["finalizaréis"],"p3":["finalizarán"]},
+    "IndCond": {"s1":["finalizaría"],"s2":["finalizarías"],"vos":["finalizarías"],"s3":["finalizaría"],"p1":["finalizaríamos"],"p2":["finalizaríais"],"p3":["finalizarían"]},
+    "SubPres": {"s1":["finalice"],"s2":["finalices"],"vos":["finalices","finalicés"],"s3":["finalice"],"p1":["finalicemos"],"p2":["finalicéis"],"p3":["finalicen"]},
+    "SubImp": {"s1":["finalizara","finalizase"],"s2":["finalizaras","finalizases"],"vos":["finalizaras","finalizases"],"s3":["finalizara","finalizase"],"p1":["finalizáramos","finalizásemos"],"p2":["finalizarais","finalizaseis"],"p3":["finalizaran","finalizasen"]},
+    "SubFut": {"s1":["finalizare"],"s2":["finalizares"],"vos":["finalizares"],"s3":["finalizare"],"p1":["finalizáremos"],"p2":["finalizareis"],"p3":["finalizaren"]},
+    "CmdPos": {"s2":["finaliza"],"vos":["finalizá"],"s3":["finalice"],"p1":["finalicemos"],"p2":["finalizad"],"p3":["finalicen"]}
+  }
+}

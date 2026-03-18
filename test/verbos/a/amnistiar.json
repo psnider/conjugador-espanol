@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãmnisˈt̪jaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De amnistía y el sufijo -ar.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"amnistiar","gerundio":"amnistiando","participio":"amnistiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amnistío"],"s2":["amnistías"],"vos":["amnistiás"],"s3":["amnistía"],"p1":["amnistiamos"],"p2":["amnistiáis"],"p3":["amnistían"]},
+    "IndImp": {"s1":["amnistiaba"],"s2":["amnistiabas"],"vos":["amnistiabas"],"s3":["amnistiaba"],"p1":["amnistiábamos"],"p2":["amnistiabais"],"p3":["amnistiaban"]},
+    "IndPret": {"s1":["amnistié"],"s2":["amnistiaste"],"vos":["amnistiaste"],"s3":["amnistió"],"p1":["amnistiamos"],"p2":["amnistiasteis"],"p3":["amnistiaron"]},
+    "IndFut": {"s1":["amnistiaré"],"s2":["amnistiarás"],"vos":["amnistiarás"],"s3":["amnistiará"],"p1":["amnistiaremos"],"p2":["amnistiaréis"],"p3":["amnistiarán"]},
+    "IndCond": {"s1":["amnistiaría"],"s2":["amnistiarías"],"vos":["amnistiarías"],"s3":["amnistiaría"],"p1":["amnistiaríamos"],"p2":["amnistiaríais"],"p3":["amnistiarían"]},
+    "SubPres": {"s1":["amnistíe"],"s2":["amnistíes"],"vos":["amnistíes","amnistiés"],"s3":["amnistíe"],"p1":["amnistiemos"],"p2":["amnistiéis"],"p3":["amnistíen"]},
+    "SubImp": {"s1":["amnistiara","amnistiase"],"s2":["amnistiaras","amnistiases"],"vos":["amnistiaras","amnistiases"],"s3":["amnistiara","amnistiase"],"p1":["amnistiáramos","amnistiásemos"],"p2":["amnistiarais","amnistiaseis"],"p3":["amnistiaran","amnistiasen"]},
+    "SubFut": {"s1":["amnistiare"],"s2":["amnistiares"],"vos":["amnistiares"],"s3":["amnistiare"],"p1":["amnistiáremos"],"p2":["amnistiareis"],"p3":["amnistiaren"]},
+    "CmdPos": {"s2":["amnistía"],"vos":["amnistiá"],"s3":["amnistíe"],"p1":["amnistiemos"],"p2":["amnistiad"],"p3":["amnistíen"]}
+  }
+}

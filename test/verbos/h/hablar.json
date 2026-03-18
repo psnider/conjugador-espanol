@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈβ̞laɾ]",
+    "silabacion": "ha-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo fablar, y este del latín fābulor, fābulārī (\"conversar\", \"fabular\"), del latín fabula, derivado del latín for, en última instancia del protoindoeuropeo *bʰeh₂- (\"hablar\"). Compárese el asturiano, gallego y portugués falar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hablar","gerundio":"hablando","participio":"hablado"},
+  "formas_personales": {
+    "IndPres": {"s1":["hablo"],"s2":["hablas"],"vos":["hablás"],"s3":["habla"],"p1":["hablamos"],"p2":["habláis"],"p3":["hablan"]},
+    "IndImp": {"s1":["hablaba"],"s2":["hablabas"],"vos":["hablabas"],"s3":["hablaba"],"p1":["hablábamos"],"p2":["hablabais"],"p3":["hablaban"]},
+    "IndPret": {"s1":["hablé"],"s2":["hablaste"],"vos":["hablaste"],"s3":["habló"],"p1":["hablamos"],"p2":["hablasteis"],"p3":["hablaron"]},
+    "IndFut": {"s1":["hablaré"],"s2":["hablarás"],"vos":["hablarás"],"s3":["hablará"],"p1":["hablaremos"],"p2":["hablaréis"],"p3":["hablarán"]},
+    "IndCond": {"s1":["hablaría"],"s2":["hablarías"],"vos":["hablarías"],"s3":["hablaría"],"p1":["hablaríamos"],"p2":["hablaríais"],"p3":["hablarían"]},
+    "SubPres": {"s1":["hable"],"s2":["hables"],"vos":["hables","hablés"],"s3":["hable"],"p1":["hablemos"],"p2":["habléis"],"p3":["hablen"]},
+    "SubImp": {"s1":["hablara","hablase"],"s2":["hablaras","hablases"],"vos":["hablaras","hablases"],"s3":["hablara","hablase"],"p1":["habláramos","hablásemos"],"p2":["hablarais","hablaseis"],"p3":["hablaran","hablasen"]},
+    "SubFut": {"s1":["hablare"],"s2":["hablares"],"vos":["hablares"],"s3":["hablare"],"p1":["habláremos"],"p2":["hablareis"],"p3":["hablaren"]},
+    "CmdPos": {"s2":["habla"],"vos":["hablá"],"s3":["hable"],"p1":["hablemos"],"p2":["hablad"],"p3":["hablen"]}
+  }
+}

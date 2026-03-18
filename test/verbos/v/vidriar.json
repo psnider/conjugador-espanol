@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[biˈð̞ɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De vidrio y el sufijo -ar.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"vidriar","gerundio":"vidriando","participio":"vidriado"},
+  "formas_personales": {
+    "IndPres": {"s1":["vidrío","vidrio"],"s2":["vidrías","vidrias"],"vos":["vidriás"],"s3":["vidría","vidria"],"p1":["vidriamos"],"p2":["vidriáis"],"p3":["vidrían","vidrian"]},
+    "IndImp": {"s1":["vidriaba"],"s2":["vidriabas"],"vos":["vidriabas"],"s3":["vidriaba"],"p1":["vidriábamos"],"p2":["vidriabais"],"p3":["vidriaban"]},
+    "IndPret": {"s1":["vidrié"],"s2":["vidriaste"],"vos":["vidriaste"],"s3":["vidrió"],"p1":["vidriamos"],"p2":["vidriasteis"],"p3":["vidriaron"]},
+    "IndFut": {"s1":["vidriaré"],"s2":["vidriarás"],"vos":["vidriarás"],"s3":["vidriará"],"p1":["vidriaremos"],"p2":["vidriaréis"],"p3":["vidriarán"]},
+    "IndCond": {"s1":["vidriaría"],"s2":["vidriarías"],"vos":["vidriarías"],"s3":["vidriaría"],"p1":["vidriaríamos"],"p2":["vidriaríais"],"p3":["vidriarían"]},
+    "SubPres": {"s1":["vidríe","vidrie"],"s2":["vidríes","vidries"],"vos":["vidríes","vidriés","vidries"],"s3":["vidríe","vidrie"],"p1":["vidriemos"],"p2":["vidriéis"],"p3":["vidríen","vidrien"]},
+    "SubImp": {"s1":["vidriara","vidriase"],"s2":["vidriaras","vidriases"],"vos":["vidriaras","vidriases"],"s3":["vidriara","vidriase"],"p1":["vidriáramos","vidriásemos"],"p2":["vidriarais","vidriaseis"],"p3":["vidriaran","vidriasen"]},
+    "SubFut": {"s1":["vidriare"],"s2":["vidriares"],"vos":["vidriares"],"s3":["vidriare"],"p1":["vidriáremos"],"p2":["vidriareis"],"p3":["vidriaren"]},
+    "CmdPos": {"s2":["vidría","vidria"],"vos":["vidriá"],"s3":["vidríe","vidrie"],"p1":["vidriemos"],"p2":["vidriad"],"p3":["vidríen","vidrien"]}
+  }
+}

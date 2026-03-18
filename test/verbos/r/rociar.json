@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín roscidus ('rocío') o húmedo, de ros, roris: rocío.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"rociar","gerundio":"rociando","participio":"rociado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rocío"],"s2":["rocías"],"vos":["rociás"],"s3":["rocía"],"p1":["rociamos"],"p2":["rociáis"],"p3":["rocían"]},
+    "IndImp": {"s1":["rociaba"],"s2":["rociabas"],"vos":["rociabas"],"s3":["rociaba"],"p1":["rociábamos"],"p2":["rociabais"],"p3":["rociaban"]},
+    "IndPret": {"s1":["rocié"],"s2":["rociaste"],"vos":["rociaste"],"s3":["roció"],"p1":["rociamos"],"p2":["rociasteis"],"p3":["rociaron"]},
+    "IndFut": {"s1":["rociaré"],"s2":["rociarás"],"vos":["rociarás"],"s3":["rociará"],"p1":["rociaremos"],"p2":["rociaréis"],"p3":["rociarán"]},
+    "IndCond": {"s1":["rociaría"],"s2":["rociarías"],"vos":["rociarías"],"s3":["rociaría"],"p1":["rociaríamos"],"p2":["rociaríais"],"p3":["rociarían"]},
+    "SubPres": {"s1":["rocíe"],"s2":["rocíes"],"vos":["rocíes","rociés"],"s3":["rocíe"],"p1":["rociemos"],"p2":["rociéis"],"p3":["rocíen"]},
+    "SubImp": {"s1":["rociara","rociase"],"s2":["rociaras","rociases"],"vos":["rociaras","rociases"],"s3":["rociara","rociase"],"p1":["rociáramos","rociásemos"],"p2":["rociarais","rociaseis"],"p3":["rociaran","rociasen"]},
+    "SubFut": {"s1":["rociare"],"s2":["rociares"],"vos":["rociares"],"s3":["rociare"],"p1":["rociáremos"],"p2":["rociareis"],"p3":["rociaren"]},
+    "CmdPos": {"s2":["rocía"],"vos":["rociá"],"s3":["rocíe"],"p1":["rociemos"],"p2":["rociad"],"p3":["rocíen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɲaˈð̞iɾ]",
+    "silabacion": "a-ña-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín addĕre, habiendo pasado por el latín vulgar *inaddere.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"añadir","gerundio":"añadiendo","participio":"añadido"},
+  "formas_personales": {
+    "IndPres": {"s1":["añado"],"s2":["añades"],"vos":["añadís"],"s3":["añade"],"p1":["añadimos"],"p2":["añadís"],"p3":["añaden"]},
+    "IndImp": {"s1":["añadía"],"s2":["añadías"],"vos":["añadías"],"s3":["añadía"],"p1":["añadíamos"],"p2":["añadíais"],"p3":["añadían"]},
+    "IndPret": {"s1":["añadí"],"s2":["añadiste"],"vos":["añadiste"],"s3":["añadió"],"p1":["añadimos"],"p2":["añadisteis"],"p3":["añadieron"]},
+    "IndFut": {"s1":["añadiré"],"s2":["añadirás"],"vos":["añadirás"],"s3":["añadirá"],"p1":["añadiremos"],"p2":["añadiréis"],"p3":["añadirán"]},
+    "IndCond": {"s1":["añadiría"],"s2":["añadirías"],"vos":["añadirías"],"s3":["añadiría"],"p1":["añadiríamos"],"p2":["añadiríais"],"p3":["añadirían"]},
+    "SubPres": {"s1":["añada"],"s2":["añadas"],"vos":["añadas","añadás"],"s3":["añada"],"p1":["añadamos"],"p2":["añadáis"],"p3":["añadan"]},
+    "SubImp": {"s1":["añadiera","añadiese"],"s2":["añadieras","añadieses"],"vos":["añadieras","añadieses"],"s3":["añadiera","añadiese"],"p1":["añadiéramos","añadiésemos"],"p2":["añadierais","añadieseis"],"p3":["añadieran","añadiesen"]},
+    "SubFut": {"s1":["añadiere"],"s2":["añadieres"],"vos":["añadieres"],"s3":["añadiere"],"p1":["añadiéremos"],"p2":["añadiereis"],"p3":["añadieren"]},
+    "CmdPos": {"s2":["añade"],"vos":["añadí"],"s3":["añada"],"p1":["añadamos"],"p2":["añadid"],"p3":["añadan"]}
+  }
+}

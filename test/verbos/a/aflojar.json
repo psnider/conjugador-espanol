@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[afloˈxaɾ]",
+    "silabacion": "a-flo-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, flojo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aflojar","gerundio":"aflojando","participio":"aflojado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aflojo"],"s2":["aflojas"],"vos":["aflojás"],"s3":["afloja"],"p1":["aflojamos"],"p2":["aflojáis"],"p3":["aflojan"]},
+    "IndImp": {"s1":["aflojaba"],"s2":["aflojabas"],"vos":["aflojabas"],"s3":["aflojaba"],"p1":["aflojábamos"],"p2":["aflojabais"],"p3":["aflojaban"]},
+    "IndPret": {"s1":["aflojé"],"s2":["aflojaste"],"vos":["aflojaste"],"s3":["aflojó"],"p1":["aflojamos"],"p2":["aflojasteis"],"p3":["aflojaron"]},
+    "IndFut": {"s1":["aflojaré"],"s2":["aflojarás"],"vos":["aflojarás"],"s3":["aflojará"],"p1":["aflojaremos"],"p2":["aflojaréis"],"p3":["aflojarán"]},
+    "IndCond": {"s1":["aflojaría"],"s2":["aflojarías"],"vos":["aflojarías"],"s3":["aflojaría"],"p1":["aflojaríamos"],"p2":["aflojaríais"],"p3":["aflojarían"]},
+    "SubPres": {"s1":["afloje"],"s2":["aflojes"],"vos":["aflojes","aflojés"],"s3":["afloje"],"p1":["aflojemos"],"p2":["aflojéis"],"p3":["aflojen"]},
+    "SubImp": {"s1":["aflojara","aflojase"],"s2":["aflojaras","aflojases"],"vos":["aflojaras","aflojases"],"s3":["aflojara","aflojase"],"p1":["aflojáramos","aflojásemos"],"p2":["aflojarais","aflojaseis"],"p3":["aflojaran","aflojasen"]},
+    "SubFut": {"s1":["aflojare"],"s2":["aflojares"],"vos":["aflojares"],"s3":["aflojare"],"p1":["aflojáremos"],"p2":["aflojareis"],"p3":["aflojaren"]},
+    "CmdPos": {"s2":["afloja"],"vos":["aflojá"],"s3":["afloje"],"p1":["aflojemos"],"p2":["aflojad"],"p3":["aflojen"]}
+  }
+}

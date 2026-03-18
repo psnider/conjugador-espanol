@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[loˈɣ̞ɾaɾ]",
+    "silabacion": "lo-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín lucrari ('beneficiarse').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lograr","gerundio":"logrando","participio":"logrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["logro"],"s2":["logras"],"vos":["lográs"],"s3":["logra"],"p1":["logramos"],"p2":["lográis"],"p3":["logran"]},
+    "IndImp": {"s1":["lograba"],"s2":["lograbas"],"vos":["lograbas"],"s3":["lograba"],"p1":["lográbamos"],"p2":["lograbais"],"p3":["lograban"]},
+    "IndPret": {"s1":["logré"],"s2":["lograste"],"vos":["lograste"],"s3":["logró"],"p1":["logramos"],"p2":["lograsteis"],"p3":["lograron"]},
+    "IndFut": {"s1":["lograré"],"s2":["lograrás"],"vos":["lograrás"],"s3":["logrará"],"p1":["lograremos"],"p2":["lograréis"],"p3":["lograrán"]},
+    "IndCond": {"s1":["lograría"],"s2":["lograrías"],"vos":["lograrías"],"s3":["lograría"],"p1":["lograríamos"],"p2":["lograríais"],"p3":["lograrían"]},
+    "SubPres": {"s1":["logre"],"s2":["logres"],"vos":["logres","logrés"],"s3":["logre"],"p1":["logremos"],"p2":["logréis"],"p3":["logren"]},
+    "SubImp": {"s1":["lograra","lograse"],"s2":["lograras","lograses"],"vos":["lograras","lograses"],"s3":["lograra","lograse"],"p1":["lográramos","lográsemos"],"p2":["lograrais","lograseis"],"p3":["lograran","lograsen"]},
+    "SubFut": {"s1":["lograre"],"s2":["lograres"],"vos":["lograres"],"s3":["lograre"],"p1":["lográremos"],"p2":["lograreis"],"p3":["lograren"]},
+    "CmdPos": {"s2":["logra"],"vos":["lográ"],"s3":["logre"],"p1":["logremos"],"p2":["lograd"],"p3":["logren"]}
+  }
+}

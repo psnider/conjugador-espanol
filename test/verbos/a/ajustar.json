@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[axusˈt̪aɾ]",
+    "silabacion": "a-jus-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *adiuxtāre; del prefijo a-, justo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ajustar","gerundio":"ajustando","participio":"ajustado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ajusto"],"s2":["ajustas"],"vos":["ajustás"],"s3":["ajusta"],"p1":["ajustamos"],"p2":["ajustáis"],"p3":["ajustan"]},
+    "IndImp": {"s1":["ajustaba"],"s2":["ajustabas"],"vos":["ajustabas"],"s3":["ajustaba"],"p1":["ajustábamos"],"p2":["ajustabais"],"p3":["ajustaban"]},
+    "IndPret": {"s1":["ajusté"],"s2":["ajustaste"],"vos":["ajustaste"],"s3":["ajustó"],"p1":["ajustamos"],"p2":["ajustasteis"],"p3":["ajustaron"]},
+    "IndFut": {"s1":["ajustaré"],"s2":["ajustarás"],"vos":["ajustarás"],"s3":["ajustará"],"p1":["ajustaremos"],"p2":["ajustaréis"],"p3":["ajustarán"]},
+    "IndCond": {"s1":["ajustaría"],"s2":["ajustarías"],"vos":["ajustarías"],"s3":["ajustaría"],"p1":["ajustaríamos"],"p2":["ajustaríais"],"p3":["ajustarían"]},
+    "SubPres": {"s1":["ajuste"],"s2":["ajustes"],"vos":["ajustes","ajustés"],"s3":["ajuste"],"p1":["ajustemos"],"p2":["ajustéis"],"p3":["ajusten"]},
+    "SubImp": {"s1":["ajustara","ajustase"],"s2":["ajustaras","ajustases"],"vos":["ajustaras","ajustases"],"s3":["ajustara","ajustase"],"p1":["ajustáramos","ajustásemos"],"p2":["ajustarais","ajustaseis"],"p3":["ajustaran","ajustasen"]},
+    "SubFut": {"s1":["ajustare"],"s2":["ajustares"],"vos":["ajustares"],"s3":["ajustare"],"p1":["ajustáremos"],"p2":["ajustareis"],"p3":["ajustaren"]},
+    "CmdPos": {"s2":["ajusta"],"vos":["ajustá"],"s3":["ajuste"],"p1":["ajustemos"],"p2":["ajustad"],"p3":["ajusten"]}
+  }
+}

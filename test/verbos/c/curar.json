@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kuˈɾaɾ]",
+    "silabacion": "cu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín curāre ('cuidar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"curar","gerundio":"curando","participio":"curado"},
+  "formas_personales": {
+    "IndPres": {"s1":["curo"],"s2":["curas"],"vos":["curás"],"s3":["cura"],"p1":["curamos"],"p2":["curáis"],"p3":["curan"]},
+    "IndImp": {"s1":["curaba"],"s2":["curabas"],"vos":["curabas"],"s3":["curaba"],"p1":["curábamos"],"p2":["curabais"],"p3":["curaban"]},
+    "IndPret": {"s1":["curé"],"s2":["curaste"],"vos":["curaste"],"s3":["curó"],"p1":["curamos"],"p2":["curasteis"],"p3":["curaron"]},
+    "IndFut": {"s1":["curaré"],"s2":["curarás"],"vos":["curarás"],"s3":["curará"],"p1":["curaremos"],"p2":["curaréis"],"p3":["curarán"]},
+    "IndCond": {"s1":["curaría"],"s2":["curarías"],"vos":["curarías"],"s3":["curaría"],"p1":["curaríamos"],"p2":["curaríais"],"p3":["curarían"]},
+    "SubPres": {"s1":["cure"],"s2":["cures"],"vos":["cures","curés"],"s3":["cure"],"p1":["curemos"],"p2":["curéis"],"p3":["curen"]},
+    "SubImp": {"s1":["curara","curase"],"s2":["curaras","curases"],"vos":["curaras","curases"],"s3":["curara","curase"],"p1":["curáramos","curásemos"],"p2":["curarais","curaseis"],"p3":["curaran","curasen"]},
+    "SubFut": {"s1":["curare"],"s2":["curares"],"vos":["curares"],"s3":["curare"],"p1":["curáremos"],"p2":["curareis"],"p3":["curaren"]},
+    "CmdPos": {"s2":["cura"],"vos":["curá"],"s3":["cure"],"p1":["curemos"],"p2":["curad"],"p3":["curen"]}
+  }
+}

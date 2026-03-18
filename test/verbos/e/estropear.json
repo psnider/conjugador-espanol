@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾopeˈaɾ]",
+    "silabacion": "es-tro-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano stroppiare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estropear","gerundio":"estropeando","participio":"estropeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estropeo"],"s2":["estropeas"],"vos":["estropeás"],"s3":["estropea"],"p1":["estropeamos"],"p2":["estropeáis"],"p3":["estropean"]},
+    "IndImp": {"s1":["estropeaba"],"s2":["estropeabas"],"vos":["estropeabas"],"s3":["estropeaba"],"p1":["estropeábamos"],"p2":["estropeabais"],"p3":["estropeaban"]},
+    "IndPret": {"s1":["estropeé"],"s2":["estropeaste"],"vos":["estropeaste"],"s3":["estropeó"],"p1":["estropeamos"],"p2":["estropeasteis"],"p3":["estropearon"]},
+    "IndFut": {"s1":["estropearé"],"s2":["estropearás"],"vos":["estropearás"],"s3":["estropeará"],"p1":["estropearemos"],"p2":["estropearéis"],"p3":["estropearán"]},
+    "IndCond": {"s1":["estropearía"],"s2":["estropearías"],"vos":["estropearías"],"s3":["estropearía"],"p1":["estropearíamos"],"p2":["estropearíais"],"p3":["estropearían"]},
+    "SubPres": {"s1":["estropee"],"s2":["estropees"],"vos":["estropees","estropeés"],"s3":["estropee"],"p1":["estropeemos"],"p2":["estropeéis"],"p3":["estropeen"]},
+    "SubImp": {"s1":["estropeara","estropease"],"s2":["estropearas","estropeases"],"vos":["estropearas","estropeases"],"s3":["estropeara","estropease"],"p1":["estropeáramos","estropeásemos"],"p2":["estropearais","estropeaseis"],"p3":["estropearan","estropeasen"]},
+    "SubFut": {"s1":["estropeare"],"s2":["estropeares"],"vos":["estropeares"],"s3":["estropeare"],"p1":["estropeáremos"],"p2":["estropeareis"],"p3":["estropearen"]},
+    "CmdPos": {"s2":["estropea"],"vos":["estropeá"],"s3":["estropee"],"p1":["estropeemos"],"p2":["estropead"],"p3":["estropeen"]}
+  }
+}

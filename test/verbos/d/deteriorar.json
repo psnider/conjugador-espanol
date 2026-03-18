@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪et̪eɾjoˈɾaɾ]",
+    "silabacion": "de-te-rio-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín deteriorāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deteriorar","gerundio":"deteriorando","participio":"deteriorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deterioro"],"s2":["deterioras"],"vos":["deteriorás"],"s3":["deteriora"],"p1":["deterioramos"],"p2":["deterioráis"],"p3":["deterioran"]},
+    "IndImp": {"s1":["deterioraba"],"s2":["deteriorabas"],"vos":["deteriorabas"],"s3":["deterioraba"],"p1":["deteriorábamos"],"p2":["deteriorabais"],"p3":["deterioraban"]},
+    "IndPret": {"s1":["deterioré"],"s2":["deterioraste"],"vos":["deterioraste"],"s3":["deterioró"],"p1":["deterioramos"],"p2":["deteriorasteis"],"p3":["deterioraron"]},
+    "IndFut": {"s1":["deterioraré"],"s2":["deteriorarás"],"vos":["deteriorarás"],"s3":["deteriorará"],"p1":["deterioraremos"],"p2":["deterioraréis"],"p3":["deteriorarán"]},
+    "IndCond": {"s1":["deterioraría"],"s2":["deteriorarías"],"vos":["deteriorarías"],"s3":["deterioraría"],"p1":["deterioraríamos"],"p2":["deterioraríais"],"p3":["deteriorarían"]},
+    "SubPres": {"s1":["deteriore"],"s2":["deteriores"],"vos":["deteriores","deteriorés"],"s3":["deteriore"],"p1":["deterioremos"],"p2":["deterioréis"],"p3":["deterioren"]},
+    "SubImp": {"s1":["deteriorara","deteriorase"],"s2":["deterioraras","deteriorases"],"vos":["deterioraras","deteriorases"],"s3":["deteriorara","deteriorase"],"p1":["deterioráramos","deteriorásemos"],"p2":["deteriorarais","deterioraseis"],"p3":["deterioraran","deteriorasen"]},
+    "SubFut": {"s1":["deteriorare"],"s2":["deteriorares"],"vos":["deteriorares"],"s3":["deteriorare"],"p1":["deterioráremos"],"p2":["deteriorareis"],"p3":["deterioraren"]},
+    "CmdPos": {"s2":["deteriora"],"vos":["deteriorá"],"s3":["deteriore"],"p1":["deterioremos"],"p2":["deteriorad"],"p3":["deterioren"]}
+  }
+}

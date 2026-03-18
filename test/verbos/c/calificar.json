@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kalifiˈkaɾ]",
+    "silabacion": "ca-li-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín qualificare.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"calificar","gerundio":"calificando","participio":"calificado"},
+  "formas_personales": {
+    "IndPres": {"s1":["califico"],"s2":["calificas"],"vos":["calificás"],"s3":["califica"],"p1":["calificamos"],"p2":["calificáis"],"p3":["califican"]},
+    "IndImp": {"s1":["calificaba"],"s2":["calificabas"],"vos":["calificabas"],"s3":["calificaba"],"p1":["calificábamos"],"p2":["calificabais"],"p3":["calificaban"]},
+    "IndPret": {"s1":["califiqué"],"s2":["calificaste"],"vos":["calificaste"],"s3":["calificó"],"p1":["calificamos"],"p2":["calificasteis"],"p3":["calificaron"]},
+    "IndFut": {"s1":["calificaré"],"s2":["calificarás"],"vos":["calificarás"],"s3":["calificará"],"p1":["calificaremos"],"p2":["calificaréis"],"p3":["calificarán"]},
+    "IndCond": {"s1":["calificaría"],"s2":["calificarías"],"vos":["calificarías"],"s3":["calificaría"],"p1":["calificaríamos"],"p2":["calificaríais"],"p3":["calificarían"]},
+    "SubPres": {"s1":["califique"],"s2":["califiques"],"vos":["califiques","califiqués"],"s3":["califique"],"p1":["califiquemos"],"p2":["califiquéis"],"p3":["califiquen"]},
+    "SubImp": {"s1":["calificara","calificase"],"s2":["calificaras","calificases"],"vos":["calificaras","calificases"],"s3":["calificara","calificase"],"p1":["calificáramos","calificásemos"],"p2":["calificarais","calificaseis"],"p3":["calificaran","calificasen"]},
+    "SubFut": {"s1":["calificare"],"s2":["calificares"],"vos":["calificares"],"s3":["calificare"],"p1":["calificáremos"],"p2":["calificareis"],"p3":["calificaren"]},
+    "CmdPos": {"s2":["califica"],"vos":["calificá"],"s3":["califique"],"p1":["califiquemos"],"p2":["calificad"],"p3":["califiquen"]}
+  }
+}

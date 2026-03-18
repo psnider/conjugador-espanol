@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaroˈʝaɾ]",
+    "silabacion": "des-a-rro-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y arrollar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desarrollar","gerundio":"desarrollando","participio":"desarrollado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desarrollo"],"s2":["desarrollas"],"vos":["desarrollás"],"s3":["desarrolla"],"p1":["desarrollamos"],"p2":["desarrolláis"],"p3":["desarrollan"]},
+    "IndImp": {"s1":["desarrollaba"],"s2":["desarrollabas"],"vos":["desarrollabas"],"s3":["desarrollaba"],"p1":["desarrollábamos"],"p2":["desarrollabais"],"p3":["desarrollaban"]},
+    "IndPret": {"s1":["desarrollé"],"s2":["desarrollaste"],"vos":["desarrollaste"],"s3":["desarrolló"],"p1":["desarrollamos"],"p2":["desarrollasteis"],"p3":["desarrollaron"]},
+    "IndFut": {"s1":["desarrollaré"],"s2":["desarrollarás"],"vos":["desarrollarás"],"s3":["desarrollará"],"p1":["desarrollaremos"],"p2":["desarrollaréis"],"p3":["desarrollarán"]},
+    "IndCond": {"s1":["desarrollaría"],"s2":["desarrollarías"],"vos":["desarrollarías"],"s3":["desarrollaría"],"p1":["desarrollaríamos"],"p2":["desarrollaríais"],"p3":["desarrollarían"]},
+    "SubPres": {"s1":["desarrolle"],"s2":["desarrolles"],"vos":["desarrolles","desarrollés"],"s3":["desarrolle"],"p1":["desarrollemos"],"p2":["desarrolléis"],"p3":["desarrollen"]},
+    "SubImp": {"s1":["desarrollara","desarrollase"],"s2":["desarrollaras","desarrollases"],"vos":["desarrollaras","desarrollases"],"s3":["desarrollara","desarrollase"],"p1":["desarrolláramos","desarrollásemos"],"p2":["desarrollarais","desarrollaseis"],"p3":["desarrollaran","desarrollasen"]},
+    "SubFut": {"s1":["desarrollare"],"s2":["desarrollares"],"vos":["desarrollares"],"s3":["desarrollare"],"p1":["desarrolláremos"],"p2":["desarrollareis"],"p3":["desarrollaren"]},
+    "CmdPos": {"s2":["desarrolla"],"vos":["desarrollá"],"s3":["desarrolle"],"p1":["desarrollemos"],"p2":["desarrollad"],"p3":["desarrollen"]}
+  }
+}

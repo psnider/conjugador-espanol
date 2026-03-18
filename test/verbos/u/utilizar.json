@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ut̪iliˈsaɾ]",
+    "silabacion": "u-ti-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De útil y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"utilizar","gerundio":"utilizando","participio":"utilizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["utilizo"],"s2":["utilizas"],"vos":["utilizás"],"s3":["utiliza"],"p1":["utilizamos"],"p2":["utilizáis"],"p3":["utilizan"]},
+    "IndImp": {"s1":["utilizaba"],"s2":["utilizabas"],"vos":["utilizabas"],"s3":["utilizaba"],"p1":["utilizábamos"],"p2":["utilizabais"],"p3":["utilizaban"]},
+    "IndPret": {"s1":["utilicé"],"s2":["utilizaste"],"vos":["utilizaste"],"s3":["utilizó"],"p1":["utilizamos"],"p2":["utilizasteis"],"p3":["utilizaron"]},
+    "IndFut": {"s1":["utilizaré"],"s2":["utilizarás"],"vos":["utilizarás"],"s3":["utilizará"],"p1":["utilizaremos"],"p2":["utilizaréis"],"p3":["utilizarán"]},
+    "IndCond": {"s1":["utilizaría"],"s2":["utilizarías"],"vos":["utilizarías"],"s3":["utilizaría"],"p1":["utilizaríamos"],"p2":["utilizaríais"],"p3":["utilizarían"]},
+    "SubPres": {"s1":["utilice"],"s2":["utilices"],"vos":["utilices","utilicés"],"s3":["utilice"],"p1":["utilicemos"],"p2":["utilicéis"],"p3":["utilicen"]},
+    "SubImp": {"s1":["utilizara","utilizase"],"s2":["utilizaras","utilizases"],"vos":["utilizaras","utilizases"],"s3":["utilizara","utilizase"],"p1":["utilizáramos","utilizásemos"],"p2":["utilizarais","utilizaseis"],"p3":["utilizaran","utilizasen"]},
+    "SubFut": {"s1":["utilizare"],"s2":["utilizares"],"vos":["utilizares"],"s3":["utilizare"],"p1":["utilizáremos"],"p2":["utilizareis"],"p3":["utilizaren"]},
+    "CmdPos": {"s2":["utiliza"],"vos":["utilizá"],"s3":["utilice"],"p1":["utilicemos"],"p2":["utilizad"],"p3":["utilicen"]}
+  }
+}

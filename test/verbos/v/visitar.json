@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bisiˈt̪aɾ]",
+    "silabacion": "vi-si-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín visitare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"visitar","gerundio":"visitando","participio":"visitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["visito"],"s2":["visitas"],"vos":["visitás"],"s3":["visita"],"p1":["visitamos"],"p2":["visitáis"],"p3":["visitan"]},
+    "IndImp": {"s1":["visitaba"],"s2":["visitabas"],"vos":["visitabas"],"s3":["visitaba"],"p1":["visitábamos"],"p2":["visitabais"],"p3":["visitaban"]},
+    "IndPret": {"s1":["visité"],"s2":["visitaste"],"vos":["visitaste"],"s3":["visitó"],"p1":["visitamos"],"p2":["visitasteis"],"p3":["visitaron"]},
+    "IndFut": {"s1":["visitaré"],"s2":["visitarás"],"vos":["visitarás"],"s3":["visitará"],"p1":["visitaremos"],"p2":["visitaréis"],"p3":["visitarán"]},
+    "IndCond": {"s1":["visitaría"],"s2":["visitarías"],"vos":["visitarías"],"s3":["visitaría"],"p1":["visitaríamos"],"p2":["visitaríais"],"p3":["visitarían"]},
+    "SubPres": {"s1":["visite"],"s2":["visites"],"vos":["visites","visités"],"s3":["visite"],"p1":["visitemos"],"p2":["visitéis"],"p3":["visiten"]},
+    "SubImp": {"s1":["visitara","visitase"],"s2":["visitaras","visitases"],"vos":["visitaras","visitases"],"s3":["visitara","visitase"],"p1":["visitáramos","visitásemos"],"p2":["visitarais","visitaseis"],"p3":["visitaran","visitasen"]},
+    "SubFut": {"s1":["visitare"],"s2":["visitares"],"vos":["visitares"],"s3":["visitare"],"p1":["visitáremos"],"p2":["visitareis"],"p3":["visitaren"]},
+    "CmdPos": {"s2":["visita"],"vos":["visitá"],"s3":["visite"],"p1":["visitemos"],"p2":["visitad"],"p3":["visiten"]}
+  }
+}

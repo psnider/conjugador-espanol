@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnʲt͡ʃuˈfaɾ]",
+    "silabacion": "en-chu-far",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica, debido al ruido que hacían antiguamente los caños al encastrar unos con otros. Se documenta por primera vez en 1856.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enchufar","gerundio":"enchufando","participio":"enchufado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enchufo"],"s2":["enchufas"],"vos":["enchufás"],"s3":["enchufa"],"p1":["enchufamos"],"p2":["enchufáis"],"p3":["enchufan"]},
+    "IndImp": {"s1":["enchufaba"],"s2":["enchufabas"],"vos":["enchufabas"],"s3":["enchufaba"],"p1":["enchufábamos"],"p2":["enchufabais"],"p3":["enchufaban"]},
+    "IndPret": {"s1":["enchufé"],"s2":["enchufaste"],"vos":["enchufaste"],"s3":["enchufó"],"p1":["enchufamos"],"p2":["enchufasteis"],"p3":["enchufaron"]},
+    "IndFut": {"s1":["enchufaré"],"s2":["enchufarás"],"vos":["enchufarás"],"s3":["enchufará"],"p1":["enchufaremos"],"p2":["enchufaréis"],"p3":["enchufarán"]},
+    "IndCond": {"s1":["enchufaría"],"s2":["enchufarías"],"vos":["enchufarías"],"s3":["enchufaría"],"p1":["enchufaríamos"],"p2":["enchufaríais"],"p3":["enchufarían"]},
+    "SubPres": {"s1":["enchufe"],"s2":["enchufes"],"vos":["enchufes","enchufés"],"s3":["enchufe"],"p1":["enchufemos"],"p2":["enchuféis"],"p3":["enchufen"]},
+    "SubImp": {"s1":["enchufara","enchufase"],"s2":["enchufaras","enchufases"],"vos":["enchufaras","enchufases"],"s3":["enchufara","enchufase"],"p1":["enchufáramos","enchufásemos"],"p2":["enchufarais","enchufaseis"],"p3":["enchufaran","enchufasen"]},
+    "SubFut": {"s1":["enchufare"],"s2":["enchufares"],"vos":["enchufares"],"s3":["enchufare"],"p1":["enchufáremos"],"p2":["enchufareis"],"p3":["enchufaren"]},
+    "CmdPos": {"s2":["enchufa"],"vos":["enchufá"],"s3":["enchufe"],"p1":["enchufemos"],"p2":["enchufad"],"p3":["enchufen"]}
+  }
+}

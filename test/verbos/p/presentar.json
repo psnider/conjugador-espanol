@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾesẽn̪ˈt̪aɾ]",
+    "silabacion": "pre-sen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praesentāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"presentar","gerundio":"presentando","participio":"presentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["presento"],"s2":["presentas"],"vos":["presentás"],"s3":["presenta"],"p1":["presentamos"],"p2":["presentáis"],"p3":["presentan"]},
+    "IndImp": {"s1":["presentaba"],"s2":["presentabas"],"vos":["presentabas"],"s3":["presentaba"],"p1":["presentábamos"],"p2":["presentabais"],"p3":["presentaban"]},
+    "IndPret": {"s1":["presenté"],"s2":["presentaste"],"vos":["presentaste"],"s3":["presentó"],"p1":["presentamos"],"p2":["presentasteis"],"p3":["presentaron"]},
+    "IndFut": {"s1":["presentaré"],"s2":["presentarás"],"vos":["presentarás"],"s3":["presentará"],"p1":["presentaremos"],"p2":["presentaréis"],"p3":["presentarán"]},
+    "IndCond": {"s1":["presentaría"],"s2":["presentarías"],"vos":["presentarías"],"s3":["presentaría"],"p1":["presentaríamos"],"p2":["presentaríais"],"p3":["presentarían"]},
+    "SubPres": {"s1":["presente"],"s2":["presentes"],"vos":["presentes","presentés"],"s3":["presente"],"p1":["presentemos"],"p2":["presentéis"],"p3":["presenten"]},
+    "SubImp": {"s1":["presentara","presentase"],"s2":["presentaras","presentases"],"vos":["presentaras","presentases"],"s3":["presentara","presentase"],"p1":["presentáramos","presentásemos"],"p2":["presentarais","presentaseis"],"p3":["presentaran","presentasen"]},
+    "SubFut": {"s1":["presentare"],"s2":["presentares"],"vos":["presentares"],"s3":["presentare"],"p1":["presentáremos"],"p2":["presentareis"],"p3":["presentaren"]},
+    "CmdPos": {"s2":["presenta"],"vos":["presentá"],"s3":["presente"],"p1":["presentemos"],"p2":["presentad"],"p3":["presenten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsmiˈt̪iɾ]",
+    "silabacion": "trans-mi-tir",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"transmitir","gerundio":"transmitiendo","participio":"transmitido"},
+  "formas_personales": {
+    "IndPres": {"s1":["transmito"],"s2":["transmites"],"vos":["transmitís"],"s3":["transmite"],"p1":["transmitimos"],"p2":["transmitís"],"p3":["transmiten"]},
+    "IndImp": {"s1":["transmitía"],"s2":["transmitías"],"vos":["transmitías"],"s3":["transmitía"],"p1":["transmitíamos"],"p2":["transmitíais"],"p3":["transmitían"]},
+    "IndPret": {"s1":["transmití"],"s2":["transmitiste"],"vos":["transmitiste"],"s3":["transmitió"],"p1":["transmitimos"],"p2":["transmitisteis"],"p3":["transmitieron"]},
+    "IndFut": {"s1":["transmitiré"],"s2":["transmitirás"],"vos":["transmitirás"],"s3":["transmitirá"],"p1":["transmitiremos"],"p2":["transmitiréis"],"p3":["transmitirán"]},
+    "IndCond": {"s1":["transmitiría"],"s2":["transmitirías"],"vos":["transmitirías"],"s3":["transmitiría"],"p1":["transmitiríamos"],"p2":["transmitiríais"],"p3":["transmitirían"]},
+    "SubPres": {"s1":["transmita"],"s2":["transmitas"],"vos":["transmitas","transmitás"],"s3":["transmita"],"p1":["transmitamos"],"p2":["transmitáis"],"p3":["transmitan"]},
+    "SubImp": {"s1":["transmitiera","transmitiese"],"s2":["transmitieras","transmitieses"],"vos":["transmitieras","transmitieses"],"s3":["transmitiera","transmitiese"],"p1":["transmitiéramos","transmitiésemos"],"p2":["transmitierais","transmitieseis"],"p3":["transmitieran","transmitiesen"]},
+    "SubFut": {"s1":["transmitiere"],"s2":["transmitieres"],"vos":["transmitieres"],"s3":["transmitiere"],"p1":["transmitiéremos"],"p2":["transmitiereis"],"p3":["transmitieren"]},
+    "CmdPos": {"s2":["transmite"],"vos":["transmití"],"s3":["transmita"],"p1":["transmitamos"],"p2":["transmitid"],"p3":["transmitan"]}
+  }
+}

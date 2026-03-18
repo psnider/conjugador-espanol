@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[anuˈð̞aɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "de añudar, influido por nudo.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anudar","gerundio":"anudando","participio":"anudado"},
+  "formas_personales": {
+    "IndPres": {"s1":["anudo"],"s2":["anudas"],"vos":["anudás"],"s3":["anuda"],"p1":["anudamos"],"p2":["anudáis"],"p3":["anudan"]},
+    "IndImp": {"s1":["anudaba"],"s2":["anudabas"],"vos":["anudabas"],"s3":["anudaba"],"p1":["anudábamos"],"p2":["anudabais"],"p3":["anudaban"]},
+    "IndPret": {"s1":["anudé"],"s2":["anudaste"],"vos":["anudaste"],"s3":["anudó"],"p1":["anudamos"],"p2":["anudasteis"],"p3":["anudaron"]},
+    "IndFut": {"s1":["anudaré"],"s2":["anudarás"],"vos":["anudarás"],"s3":["anudará"],"p1":["anudaremos"],"p2":["anudaréis"],"p3":["anudarán"]},
+    "IndCond": {"s1":["anudaría"],"s2":["anudarías"],"vos":["anudarías"],"s3":["anudaría"],"p1":["anudaríamos"],"p2":["anudaríais"],"p3":["anudarían"]},
+    "SubPres": {"s1":["anude"],"s2":["anudes"],"vos":["anudes","anudés"],"s3":["anude"],"p1":["anudemos"],"p2":["anudéis"],"p3":["anuden"]},
+    "SubImp": {"s1":["anudara","anudase"],"s2":["anudaras","anudases"],"vos":["anudaras","anudases"],"s3":["anudara","anudase"],"p1":["anudáramos","anudásemos"],"p2":["anudarais","anudaseis"],"p3":["anudaran","anudasen"]},
+    "SubFut": {"s1":["anudare"],"s2":["anudares"],"vos":["anudares"],"s3":["anudare"],"p1":["anudáremos"],"p2":["anudareis"],"p3":["anudaren"]},
+    "CmdPos": {"s2":["anuda"],"vos":["anudá"],"s3":["anude"],"p1":["anudemos"],"p2":["anudad"],"p3":["anuden"]}
+  }
+}

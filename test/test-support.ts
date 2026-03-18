@@ -61,6 +61,13 @@ export function findFailedTestsForParticiples(infinitivo: string, expected: Part
 
 export function findFailedTestsForConjugations(infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, errors: FailedTests) {
     const {forms: actual} = conjugateVerb(infinitivo, mood_tense)
+    if (!expected) {
+        if (actual) {
+            errors.conjugaciones = errors.conjugaciones || {}
+            errors.conjugaciones[mood_tense] = null
+            return
+        }
+    }
     const expected_keys = <Array <keyof ConjugaciónEstándarYAtípico>> Object.keys(expected)
     const remaining_keys = {...persons_w_vos_index}
     for (const expected_key of expected_keys) {

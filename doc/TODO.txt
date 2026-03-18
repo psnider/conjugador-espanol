@@ -3,10 +3,13 @@ See haber: "ha","hay"
 
 
 # verbos con dos formas
-adecuar          u>u
+adecuar          adecuo, adecúo
+asolar           (🔴 asuelo) ✅ asuelo , ✅ asolo
+cimentar         (🔴 cimiento) ✅ cimiento , ✅ cimento
 describir        dos participios: descrito o descripto	
-erguir
-errar
+erguir           (🔴 yergo) ✅ yergo , ✅ irgo
+errar            (🔴 erro) ✅ yerro , ✅ erro
+estregar         (🔴 estriego) ✅ estriego , ✅ estrego  
 freír            dos participios
 
 # verbos con otros problemas
@@ -20,12 +23,35 @@ apaniaguarse
 apaniguarse
 atestiguar
 averiguar
+cocer        (🔴 cuezco) ✅ cuezo
 degollar
+delinquir    (🔴 delinqua) ✅ delinca
 desaguar
 deslenguar
+desosar      (🔴 desuese) ✅ deshuese
+discernir    (🔴 discirnió) ✅ discernió
+enraizar     (🔴 yenraizo) ✅ enraízo
+fluir        (🔴 flui) ✅ fluí
 fraguar
+freír        (🔴 frio) ✅ frió
+gemir        (🔴 gemió) ✅ gimió
+guiar        (🔴 guie) ✅ guié
+hendir       (🔴 hindió) ✅ hendió
+huir         huyes   •   (🔴 huis) ✅ huís
+intuir       intuyes   •   (🔴 intuis) ✅ intuís
 menguar 
+morir        (🔴 morió) ✅ murió
+prever       (🔴 previ) ✅ preví
+rendir       (🔴 rendió) ✅ rindió
+rendir       🟢 rendiera , 🟢 rendiese
+reír         (🔴 rio) ✅ rió
+resolver     "participio": "resuelto"
 santiguar
+sofreír      (🔴 sofrio) ✅ sofrió
+sonreír      (🔴 sonrio) ✅ sonrió
+sonreír      (🔴 sonrieas) ✅ sonrías
+torcer       (🔴 tuerzco) ✅ tuerzo
+
 
 ## mover el estres
 ahijar
@@ -37,6 +63,8 @@ aullar
 ahusar
 aunar
 aupar
+contribuir
+criar
 desahijar
 descafeinar
 maullar

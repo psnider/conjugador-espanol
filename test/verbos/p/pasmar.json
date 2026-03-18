@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pasˈmaɾ]",
+    "silabacion": "pas-mar",
+    "acentuacion": "aguda",
+    "etimologia": "De pasmo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pasmar","gerundio":"pasmando","participio":"pasmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pasmo"],"s2":["pasmas"],"vos":["pasmás"],"s3":["pasma"],"p1":["pasmamos"],"p2":["pasmáis"],"p3":["pasman"]},
+    "IndImp": {"s1":["pasmaba"],"s2":["pasmabas"],"vos":["pasmabas"],"s3":["pasmaba"],"p1":["pasmábamos"],"p2":["pasmabais"],"p3":["pasmaban"]},
+    "IndPret": {"s1":["pasmé"],"s2":["pasmaste"],"vos":["pasmaste"],"s3":["pasmó"],"p1":["pasmamos"],"p2":["pasmasteis"],"p3":["pasmaron"]},
+    "IndFut": {"s1":["pasmaré"],"s2":["pasmarás"],"vos":["pasmarás"],"s3":["pasmará"],"p1":["pasmaremos"],"p2":["pasmaréis"],"p3":["pasmarán"]},
+    "IndCond": {"s1":["pasmaría"],"s2":["pasmarías"],"vos":["pasmarías"],"s3":["pasmaría"],"p1":["pasmaríamos"],"p2":["pasmaríais"],"p3":["pasmarían"]},
+    "SubPres": {"s1":["pasme"],"s2":["pasmes"],"vos":["pasmes","pasmés"],"s3":["pasme"],"p1":["pasmemos"],"p2":["pasméis"],"p3":["pasmen"]},
+    "SubImp": {"s1":["pasmara","pasmase"],"s2":["pasmaras","pasmases"],"vos":["pasmaras","pasmases"],"s3":["pasmara","pasmase"],"p1":["pasmáramos","pasmásemos"],"p2":["pasmarais","pasmaseis"],"p3":["pasmaran","pasmasen"]},
+    "SubFut": {"s1":["pasmare"],"s2":["pasmares"],"vos":["pasmares"],"s3":["pasmare"],"p1":["pasmáremos"],"p2":["pasmareis"],"p3":["pasmaren"]},
+    "CmdPos": {"s2":["pasma"],"vos":["pasmá"],"s3":["pasme"],"p1":["pasmemos"],"p2":["pasmad"],"p3":["pasmen"]}
+  }
+}

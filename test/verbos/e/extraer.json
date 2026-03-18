@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekst̪ɾaˈeɾ]",
+    "silabacion": "ex-tra-er",
+    "acentuacion": "aguda",
+    "etimologia": "Semicultismo. Del latín extraho; del prefijo ex- y traer por etimología superficial.",
+    "modelos": ["traer"]
+  },
+  "formas_no_personales": {"infinitivo":"extraer","gerundio":"extrayendo","participio":"extraído"},
+  "formas_personales": {
+    "IndPres": {"s1":["extraigo"],"s2":["extraes"],"vos":["extraés"],"s3":["extrae"],"p1":["extraemos"],"p2":["extraéis"],"p3":["extraen"]},
+    "IndImp": {"s1":["extraía"],"s2":["extraías"],"vos":["extraías"],"s3":["extraía"],"p1":["extraíamos"],"p2":["extraíais"],"p3":["extraían"]},
+    "IndPret": {"s1":["extraje"],"s2":["extrajiste"],"vos":["extrajiste"],"s3":["extrajo"],"p1":["extrajimos"],"p2":["extrajisteis"],"p3":["extrajeron"]},
+    "IndFut": {"s1":["extraeré"],"s2":["extraerás"],"vos":["extraerás"],"s3":["extraerá"],"p1":["extraeremos"],"p2":["extraeréis"],"p3":["extraerán"]},
+    "IndCond": {"s1":["extraería"],"s2":["extraerías"],"vos":["extraerías"],"s3":["extraería"],"p1":["extraeríamos"],"p2":["extraeríais"],"p3":["extraerían"]},
+    "SubPres": {"s1":["extraiga"],"s2":["extraigas"],"vos":["extraigas","extraigás"],"s3":["extraiga"],"p1":["extraigamos"],"p2":["extraigáis"],"p3":["extraigan"]},
+    "SubImp": {"s1":["extrajera","extrajese"],"s2":["extrajeras","extrajeses"],"vos":["extrajeras","extrajeses"],"s3":["extrajera","extrajese"],"p1":["extrajéramos","extrajésemos"],"p2":["extrajerais","extrajeseis"],"p3":["extrajeran","extrajesen"]},
+    "SubFut": {"s1":["extrajere"],"s2":["extrajeres"],"vos":["extrajeres"],"s3":["extrajere"],"p1":["extrajéremos"],"p2":["extrajereis"],"p3":["extrajeren"]},
+    "CmdPos": {"s2":["extrae"],"vos":["extraé"],"s3":["extraiga"],"p1":["extraigamos"],"p2":["extraed"],"p3":["extraigan"]}
+  }
+}
