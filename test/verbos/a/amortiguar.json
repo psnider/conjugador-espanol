@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amoɾt̪iˈɣ̞waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín mortificare ('mortificar')",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"amortiguar","gerundio":"amortiguando","participio":"amortiguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amortiguo"],"s2":["amortiguas"],"vos":["amortiguás"],"s3":["amortigua"],"p1":["amortiguamos"],"p2":["amortiguáis"],"p3":["amortiguan"]},
+    "IndImp": {"s1":["amortiguaba"],"s2":["amortiguabas"],"vos":["amortiguabas"],"s3":["amortiguaba"],"p1":["amortiguábamos"],"p2":["amortiguabais"],"p3":["amortiguaban"]},
+    "IndPret": {"s1":["amortigüé"],"s2":["amortiguaste"],"vos":["amortiguaste"],"s3":["amortiguó"],"p1":["amortiguamos"],"p2":["amortiguasteis"],"p3":["amortiguaron"]},
+    "IndFut": {"s1":["amortiguaré"],"s2":["amortiguarás"],"vos":["amortiguarás"],"s3":["amortiguará"],"p1":["amortiguaremos"],"p2":["amortiguaréis"],"p3":["amortiguarán"]},
+    "IndCond": {"s1":["amortiguaría"],"s2":["amortiguarías"],"vos":["amortiguarías"],"s3":["amortiguaría"],"p1":["amortiguaríamos"],"p2":["amortiguaríais"],"p3":["amortiguarían"]},
+    "SubPres": {"s1":["amortigüe"],"s2":["amortigües"],"vos":["amortigües","amortigüés"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortigüéis"],"p3":["amortigüen"]},
+    "SubImp": {"s1":["amortiguara","amortiguase"],"s2":["amortiguaras","amortiguases"],"vos":["amortiguaras","amortiguases"],"s3":["amortiguara","amortiguase"],"p1":["amortiguáramos","amortiguásemos"],"p2":["amortiguarais","amortiguaseis"],"p3":["amortiguaran","amortiguasen"]},
+    "SubFut": {"s1":["amortiguare"],"s2":["amortiguares"],"vos":["amortiguares"],"s3":["amortiguare"],"p1":["amortiguáremos"],"p2":["amortiguareis"],"p3":["amortiguaren"]},
+    "CmdPos": {"s2":["amortigua"],"vos":["amortiguá"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortiguad"],"p3":["amortigüen"]}
+  }
+}

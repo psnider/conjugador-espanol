@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskulˈpiɾ]",
+    "silabacion": "es-cul-pir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"esculpir","gerundio":"esculpiendo","participio":"esculpido"},
+  "formas_personales": {
+    "IndPres": {"s1":["esculpo"],"s2":["esculpes"],"vos":["esculpís"],"s3":["esculpe"],"p1":["esculpimos"],"p2":["esculpís"],"p3":["esculpen"]},
+    "IndImp": {"s1":["esculpía"],"s2":["esculpías"],"vos":["esculpías"],"s3":["esculpía"],"p1":["esculpíamos"],"p2":["esculpíais"],"p3":["esculpían"]},
+    "IndPret": {"s1":["esculpí"],"s2":["esculpiste"],"vos":["esculpiste"],"s3":["esculpió"],"p1":["esculpimos"],"p2":["esculpisteis"],"p3":["esculpieron"]},
+    "IndFut": {"s1":["esculpiré"],"s2":["esculpirás"],"vos":["esculpirás"],"s3":["esculpirá"],"p1":["esculpiremos"],"p2":["esculpiréis"],"p3":["esculpirán"]},
+    "IndCond": {"s1":["esculpiría"],"s2":["esculpirías"],"vos":["esculpirías"],"s3":["esculpiría"],"p1":["esculpiríamos"],"p2":["esculpiríais"],"p3":["esculpirían"]},
+    "SubPres": {"s1":["esculpa"],"s2":["esculpas"],"vos":["esculpas","esculpás"],"s3":["esculpa"],"p1":["esculpamos"],"p2":["esculpáis"],"p3":["esculpan"]},
+    "SubImp": {"s1":["esculpiera","esculpiese"],"s2":["esculpieras","esculpieses"],"vos":["esculpieras","esculpieses"],"s3":["esculpiera","esculpiese"],"p1":["esculpiéramos","esculpiésemos"],"p2":["esculpierais","esculpieseis"],"p3":["esculpieran","esculpiesen"]},
+    "SubFut": {"s1":["esculpiere"],"s2":["esculpieres"],"vos":["esculpieres"],"s3":["esculpiere"],"p1":["esculpiéremos"],"p2":["esculpiereis"],"p3":["esculpieren"]},
+    "CmdPos": {"s2":["esculpe"],"vos":["esculpí"],"s3":["esculpa"],"p1":["esculpamos"],"p2":["esculpid"],"p3":["esculpan"]}
+  }
+}

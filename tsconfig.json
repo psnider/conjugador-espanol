@@ -17,5 +17,5 @@
         "html/**/*.ts",
         "src/**/*.ts",
         "test/**/*.ts"
-    ]
+, "src/verbos-con-cambios-morfológicas.ts.ORG"    ]
 }

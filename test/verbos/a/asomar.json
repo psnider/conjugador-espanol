@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asoˈmaɾ]",
+    "silabacion": "a-so-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, somo y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asomar","gerundio":"asomando","participio":"asomado"},
+  "formas_personales": {
+    "IndPres": {"s1":["asomo"],"s2":["asomas"],"vos":["asomás"],"s3":["asoma"],"p1":["asomamos"],"p2":["asomáis"],"p3":["asoman"]},
+    "IndImp": {"s1":["asomaba"],"s2":["asomabas"],"vos":["asomabas"],"s3":["asomaba"],"p1":["asomábamos"],"p2":["asomabais"],"p3":["asomaban"]},
+    "IndPret": {"s1":["asomé"],"s2":["asomaste"],"vos":["asomaste"],"s3":["asomó"],"p1":["asomamos"],"p2":["asomasteis"],"p3":["asomaron"]},
+    "IndFut": {"s1":["asomaré"],"s2":["asomarás"],"vos":["asomarás"],"s3":["asomará"],"p1":["asomaremos"],"p2":["asomaréis"],"p3":["asomarán"]},
+    "IndCond": {"s1":["asomaría"],"s2":["asomarías"],"vos":["asomarías"],"s3":["asomaría"],"p1":["asomaríamos"],"p2":["asomaríais"],"p3":["asomarían"]},
+    "SubPres": {"s1":["asome"],"s2":["asomes"],"vos":["asomes","asomés"],"s3":["asome"],"p1":["asomemos"],"p2":["asoméis"],"p3":["asomen"]},
+    "SubImp": {"s1":["asomara","asomase"],"s2":["asomaras","asomases"],"vos":["asomaras","asomases"],"s3":["asomara","asomase"],"p1":["asomáramos","asomásemos"],"p2":["asomarais","asomaseis"],"p3":["asomaran","asomasen"]},
+    "SubFut": {"s1":["asomare"],"s2":["asomares"],"vos":["asomares"],"s3":["asomare"],"p1":["asomáremos"],"p2":["asomareis"],"p3":["asomaren"]},
+    "CmdPos": {"s2":["asoma"],"vos":["asomá"],"s3":["asome"],"p1":["asomemos"],"p2":["asomad"],"p3":["asomen"]}
+  }
+}

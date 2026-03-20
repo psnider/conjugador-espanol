@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪emoniˈsaɾ]",
+    "silabacion": "de-mo-ni-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De demonio",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"demonizar","gerundio":"demonizando","participio":"demonizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["demonizo"],"s2":["demonizas"],"vos":["demonizás"],"s3":["demoniza"],"p1":["demonizamos"],"p2":["demonizáis"],"p3":["demonizan"]},
+    "IndImp": {"s1":["demonizaba"],"s2":["demonizabas"],"vos":["demonizabas"],"s3":["demonizaba"],"p1":["demonizábamos"],"p2":["demonizabais"],"p3":["demonizaban"]},
+    "IndPret": {"s1":["demonicé"],"s2":["demonizaste"],"vos":["demonizaste"],"s3":["demonizó"],"p1":["demonizamos"],"p2":["demonizasteis"],"p3":["demonizaron"]},
+    "IndFut": {"s1":["demonizaré"],"s2":["demonizarás"],"vos":["demonizarás"],"s3":["demonizará"],"p1":["demonizaremos"],"p2":["demonizaréis"],"p3":["demonizarán"]},
+    "IndCond": {"s1":["demonizaría"],"s2":["demonizarías"],"vos":["demonizarías"],"s3":["demonizaría"],"p1":["demonizaríamos"],"p2":["demonizaríais"],"p3":["demonizarían"]},
+    "SubPres": {"s1":["demonice"],"s2":["demonices"],"vos":["demonices","demonicés"],"s3":["demonice"],"p1":["demonicemos"],"p2":["demonicéis"],"p3":["demonicen"]},
+    "SubImp": {"s1":["demonizara","demonizase"],"s2":["demonizaras","demonizases"],"vos":["demonizaras","demonizases"],"s3":["demonizara","demonizase"],"p1":["demonizáramos","demonizásemos"],"p2":["demonizarais","demonizaseis"],"p3":["demonizaran","demonizasen"]},
+    "SubFut": {"s1":["demonizare"],"s2":["demonizares"],"vos":["demonizares"],"s3":["demonizare"],"p1":["demonizáremos"],"p2":["demonizareis"],"p3":["demonizaren"]},
+    "CmdPos": {"s2":["demoniza"],"vos":["demonizá"],"s3":["demonice"],"p1":["demonicemos"],"p2":["demonizad"],"p3":["demonicen"]}
+  }
+}

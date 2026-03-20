@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kwest̪joˈnaɾ]",
+    "silabacion": "cues-tio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín quaestionāre, derivado de quaestio&nbsp;('indagación').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cuestionar","gerundio":"cuestionando","participio":"cuestionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cuestiono"],"s2":["cuestionas"],"vos":["cuestionás"],"s3":["cuestiona"],"p1":["cuestionamos"],"p2":["cuestionáis"],"p3":["cuestionan"]},
+    "IndImp": {"s1":["cuestionaba"],"s2":["cuestionabas"],"vos":["cuestionabas"],"s3":["cuestionaba"],"p1":["cuestionábamos"],"p2":["cuestionabais"],"p3":["cuestionaban"]},
+    "IndPret": {"s1":["cuestioné"],"s2":["cuestionaste"],"vos":["cuestionaste"],"s3":["cuestionó"],"p1":["cuestionamos"],"p2":["cuestionasteis"],"p3":["cuestionaron"]},
+    "IndFut": {"s1":["cuestionaré"],"s2":["cuestionarás"],"vos":["cuestionarás"],"s3":["cuestionará"],"p1":["cuestionaremos"],"p2":["cuestionaréis"],"p3":["cuestionarán"]},
+    "IndCond": {"s1":["cuestionaría"],"s2":["cuestionarías"],"vos":["cuestionarías"],"s3":["cuestionaría"],"p1":["cuestionaríamos"],"p2":["cuestionaríais"],"p3":["cuestionarían"]},
+    "SubPres": {"s1":["cuestione"],"s2":["cuestiones"],"vos":["cuestiones","cuestionés"],"s3":["cuestione"],"p1":["cuestionemos"],"p2":["cuestionéis"],"p3":["cuestionen"]},
+    "SubImp": {"s1":["cuestionara","cuestionase"],"s2":["cuestionaras","cuestionases"],"vos":["cuestionaras","cuestionases"],"s3":["cuestionara","cuestionase"],"p1":["cuestionáramos","cuestionásemos"],"p2":["cuestionarais","cuestionaseis"],"p3":["cuestionaran","cuestionasen"]},
+    "SubFut": {"s1":["cuestionare"],"s2":["cuestionares"],"vos":["cuestionares"],"s3":["cuestionare"],"p1":["cuestionáremos"],"p2":["cuestionareis"],"p3":["cuestionaren"]},
+    "CmdPos": {"s2":["cuestiona"],"vos":["cuestioná"],"s3":["cuestione"],"p1":["cuestionemos"],"p2":["cuestionad"],"p3":["cuestionen"]}
+  }
+}

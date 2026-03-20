@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãneˈlaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De anhelo y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anhelar","gerundio":"anhelando","participio":"anhelado"},
+  "formas_personales": {
+    "IndPres": {"s1":["anhelo"],"s2":["anhelas"],"vos":["anhelás"],"s3":["anhela"],"p1":["anhelamos"],"p2":["anheláis"],"p3":["anhelan"]},
+    "IndImp": {"s1":["anhelaba"],"s2":["anhelabas"],"vos":["anhelabas"],"s3":["anhelaba"],"p1":["anhelábamos"],"p2":["anhelabais"],"p3":["anhelaban"]},
+    "IndPret": {"s1":["anhelé"],"s2":["anhelaste"],"vos":["anhelaste"],"s3":["anheló"],"p1":["anhelamos"],"p2":["anhelasteis"],"p3":["anhelaron"]},
+    "IndFut": {"s1":["anhelaré"],"s2":["anhelarás"],"vos":["anhelarás"],"s3":["anhelará"],"p1":["anhelaremos"],"p2":["anhelaréis"],"p3":["anhelarán"]},
+    "IndCond": {"s1":["anhelaría"],"s2":["anhelarías"],"vos":["anhelarías"],"s3":["anhelaría"],"p1":["anhelaríamos"],"p2":["anhelaríais"],"p3":["anhelarían"]},
+    "SubPres": {"s1":["anhele"],"s2":["anheles"],"vos":["anheles","anhelés"],"s3":["anhele"],"p1":["anhelemos"],"p2":["anheléis"],"p3":["anhelen"]},
+    "SubImp": {"s1":["anhelara","anhelase"],"s2":["anhelaras","anhelases"],"vos":["anhelaras","anhelases"],"s3":["anhelara","anhelase"],"p1":["anheláramos","anhelásemos"],"p2":["anhelarais","anhelaseis"],"p3":["anhelaran","anhelasen"]},
+    "SubFut": {"s1":["anhelare"],"s2":["anhelares"],"vos":["anhelares"],"s3":["anhelare"],"p1":["anheláremos"],"p2":["anhelareis"],"p3":["anhelaren"]},
+    "CmdPos": {"s2":["anhela"],"vos":["anhelá"],"s3":["anhele"],"p1":["anhelemos"],"p2":["anhelad"],"p3":["anhelen"]}
+  }
+}

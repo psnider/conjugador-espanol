@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kalˈsaɾ]",
+    "silabacion": "cal-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del español calzado.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"calzar","gerundio":"calzando","participio":"calzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["calzo"],"s2":["calzas"],"vos":["calzás"],"s3":["calza"],"p1":["calzamos"],"p2":["calzáis"],"p3":["calzan"]},
+    "IndImp": {"s1":["calzaba"],"s2":["calzabas"],"vos":["calzabas"],"s3":["calzaba"],"p1":["calzábamos"],"p2":["calzabais"],"p3":["calzaban"]},
+    "IndPret": {"s1":["calcé"],"s2":["calzaste"],"vos":["calzaste"],"s3":["calzó"],"p1":["calzamos"],"p2":["calzasteis"],"p3":["calzaron"]},
+    "IndFut": {"s1":["calzaré"],"s2":["calzarás"],"vos":["calzarás"],"s3":["calzará"],"p1":["calzaremos"],"p2":["calzaréis"],"p3":["calzarán"]},
+    "IndCond": {"s1":["calzaría"],"s2":["calzarías"],"vos":["calzarías"],"s3":["calzaría"],"p1":["calzaríamos"],"p2":["calzaríais"],"p3":["calzarían"]},
+    "SubPres": {"s1":["calce"],"s2":["calces"],"vos":["calces","calcés"],"s3":["calce"],"p1":["calcemos"],"p2":["calcéis"],"p3":["calcen"]},
+    "SubImp": {"s1":["calzara","calzase"],"s2":["calzaras","calzases"],"vos":["calzaras","calzases"],"s3":["calzara","calzase"],"p1":["calzáramos","calzásemos"],"p2":["calzarais","calzaseis"],"p3":["calzaran","calzasen"]},
+    "SubFut": {"s1":["calzare"],"s2":["calzares"],"vos":["calzares"],"s3":["calzare"],"p1":["calzáremos"],"p2":["calzareis"],"p3":["calzaren"]},
+    "CmdPos": {"s2":["calza"],"vos":["calzá"],"s3":["calce"],"p1":["calcemos"],"p2":["calzad"],"p3":["calcen"]}
+  }
+}

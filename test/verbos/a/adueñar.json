@@ -1,0 +1,23 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞weˈɲaɾ]",
+    "silabacion": "a-due-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "del latín 'dominus', que significa 'señor', 'amo' o 'dueño de una casa'",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adueñar","gerundio":"adueñando","participio":"adueñado"},
+  "formas_personales": {
+    "IndPres": {"s1":["adueño"],"s2":["adueñas"],"vos":["adueñás"],"s3":["adueña"],"p1":["adueñamos"],"p2":["adueñáis"],"p3":["adueñan"]},
+    "IndImp": {"s1":["adueñaba"],"s2":["adueñabas"],"vos":["adueñabas"],"s3":["adueñaba"],"p1":["adueñábamos"],"p2":["adueñabais"],"p3":["adueñaban"]},
+    "IndPret": {"s1":["adueñé"],"s2":["adueñaste"],"vos":["adueñaste"],"s3":["adueñó"],"p1":["adueñamos"],"p2":["adueñasteis"],"p3":["adueñaron"]},
+    "IndFut": {"s1":["adueñaré"],"s2":["adueñarás"],"vos":["adueñarás"],"s3":["adueñará"],"p1":["adueñaremos"],"p2":["adueñaréis"],"p3":["adueñarán"]},
+    "IndCond": {"s1":["adueñaría"],"s2":["adueñarías"],"vos":["adueñarías"],"s3":["adueñaría"],"p1":["adueñaríamos"],"p2":["adueñaríais"],"p3":["adueñarían"]},
+    "SubPres": {"s1":["adueñe"],"s2":["adueñes"],
+      "vos": {"estándar": ["adueñes"], "atípicos": [{"forma": "adueñés", "etiquetas": "regional"}]},
+      "s3":["adueñe"],"p1":["adueñemos"],"p2":["adueñéis"],"p3":["adueñen"]},
+    "SubImp": {"s1":["adueñara","adueñase"],"s2":["adueñaras","adueñases"],"vos":["adueñaras","adueñases"],"s3":["adueñara","adueñase"],"p1":["adueñáramos","adueñásemos"],"p2":["adueñarais","adueñaseis"],"p3":["adueñaran","adueñasen"]},
+    "SubFut": {"s1":["adueñare"],"s2":["adueñares"],"vos":["adueñares"],"s3":["adueñare"],"p1":["adueñáremos"],"p2":["adueñareis"],"p3":["adueñaren"]},
+    "CmdPos": {"s2":["adueña"],"vos":["adueñá"],"s3":["adueñe"],"p1":["adueñemos"],"p2":["adueñad"],"p3":["adueñen"]}
+  }
+}

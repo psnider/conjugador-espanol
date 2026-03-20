@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suβ̞st̪ɾaˈeɾ]",
+    "silabacion": "subs-tra-er",
+    "acentuacion": "aguda",
+    "etimologia": "compuesto de &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;l+&quot;,&quot;href&quot;:&quot;./Plantilla:l+&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;la&quot;},&quot;2&quot;:{&quot;wt&quot;:&quot;sub&quot;},&quot;glosa&quot;:{&quot;wt&quot;:&quot;debajo&quot;}},&quot;i&quot;:1}},&quot; y &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;l+&quot;,&quot;href&quot;:&quot;./Plantilla:l+&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;la&quot;},&quot;2&quot;:{&quot;wt&quot;:&quot;traho&quot;},&quot;3&quot;:{&quot;wt&quot;:&quot;trahō, trahere&quot;}},&quot;i&quot;:2}},&quot; (\\&quot;[[halar]], [[arrastrar]]\\&quot;).&quot;]}\" id=\"mwCQ\">Del latín subtrahō, subtrahere (con epéntesis de -s- por posible influencia de extraer'),[1] compuesto de sub&nbsp;('debajo') y trahō, trahere (\"halar, arrastrar\").",
+    "modelos": ["traer"]
+  },
+  "formas_no_personales": {"infinitivo":"substraer","gerundio":"substrayendo","participio":"substraído"},
+  "formas_personales": {
+    "IndPres": {"s1":["substraigo"],"s2":["substraes"],"vos":["substraés"],"s3":["substrae"],"p1":["substraemos"],"p2":["substraéis"],"p3":["substraen"]},
+    "IndImp": {"s1":["substraía"],"s2":["substraías"],"vos":["substraías"],"s3":["substraía"],"p1":["substraíamos"],"p2":["substraíais"],"p3":["substraían"]},
+    "IndPret": {"s1":["substraje"],"s2":["substrajiste"],"vos":["substrajiste"],"s3":["substrajo"],"p1":["substrajimos"],"p2":["substrajisteis"],"p3":["substrajeron"]},
+    "IndFut": {"s1":["substraeré"],"s2":["substraerás"],"vos":["substraerás"],"s3":["substraerá"],"p1":["substraeremos"],"p2":["substraeréis"],"p3":["substraerán"]},
+    "IndCond": {"s1":["substraería"],"s2":["substraerías"],"vos":["substraerías"],"s3":["substraería"],"p1":["substraeríamos"],"p2":["substraeríais"],"p3":["substraerían"]},
+    "SubPres": {"s1":["substraiga"],"s2":["substraigas"],"vos":["substraigas","substraigás"],"s3":["substraiga"],"p1":["substraigamos"],"p2":["substraigáis"],"p3":["substraigan"]},
+    "SubImp": {"s1":["substrajera","substrajese"],"s2":["substrajeras","substrajeses"],"vos":["substrajeras","substrajeses"],"s3":["substrajera","substrajese"],"p1":["substrajéramos","substrajésemos"],"p2":["substrajerais","substrajeseis"],"p3":["substrajeran","substrajesen"]},
+    "SubFut": {"s1":["substrajere"],"s2":["substrajeres"],"vos":["substrajeres"],"s3":["substrajere"],"p1":["substrajéremos"],"p2":["substrajereis"],"p3":["substrajeren"]},
+    "CmdPos": {"s2":["substrae"],"vos":["substraé"],"s3":["substraiga"],"p1":["substraigamos"],"p2":["substraed"],"p3":["substraigan"]}
+  }
+}

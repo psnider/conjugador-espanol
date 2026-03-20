@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaˈɣ̞waɾ]",
+    "silabacion": "des-a-guar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y aguar.",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"desaguar","gerundio":"desaguando","participio":"desaguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desaguo"],"s2":["desaguas"],"vos":["desaguás"],"s3":["desagua"],"p1":["desaguamos"],"p2":["desaguáis"],"p3":["desaguan"]},
+    "IndImp": {"s1":["desaguaba"],"s2":["desaguabas"],"vos":["desaguabas"],"s3":["desaguaba"],"p1":["desaguábamos"],"p2":["desaguabais"],"p3":["desaguaban"]},
+    "IndPret": {"s1":["desagüé"],"s2":["desaguaste"],"vos":["desaguaste"],"s3":["desaguó"],"p1":["desaguamos"],"p2":["desaguasteis"],"p3":["desaguaron"]},
+    "IndFut": {"s1":["desaguaré"],"s2":["desaguarás"],"vos":["desaguarás"],"s3":["desaguará"],"p1":["desaguaremos"],"p2":["desaguaréis"],"p3":["desaguarán"]},
+    "IndCond": {"s1":["desaguaría"],"s2":["desaguarías"],"vos":["desaguarías"],"s3":["desaguaría"],"p1":["desaguaríamos"],"p2":["desaguaríais"],"p3":["desaguarían"]},
+    "SubPres": {"s1":["desagüe"],"s2":["desagües"],"vos":["desagües","desagüés"],"s3":["desagüe"],"p1":["desagüemos"],"p2":["desagüéis"],"p3":["desagüen"]},
+    "SubImp": {"s1":["desaguara","desaguase"],"s2":["desaguaras","desaguases"],"vos":["desaguaras","desaguases"],"s3":["desaguara","desaguase"],"p1":["desaguáramos","desaguásemos"],"p2":["desaguarais","desaguaseis"],"p3":["desaguaran","desaguasen"]},
+    "SubFut": {"s1":["desaguare"],"s2":["desaguares"],"vos":["desaguares"],"s3":["desaguare"],"p1":["desaguáremos"],"p2":["desaguareis"],"p3":["desaguaren"]},
+    "CmdPos": {"s2":["desagua"],"vos":["desaguá"],"s3":["desagüe"],"p1":["desagüemos"],"p2":["desaguad"],"p3":["desagüen"]}
+  }
+}

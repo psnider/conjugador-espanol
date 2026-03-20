@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arasˈt̪ɾaɾ]",
+    "silabacion": "a-rras-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y rastrar, de rastro.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrastrar","gerundio":"arrastrando","participio":"arrastrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arrastro"],"s2":["arrastras"],"vos":["arrastrás"],"s3":["arrastra"],"p1":["arrastramos"],"p2":["arrastráis"],"p3":["arrastran"]},
+    "IndImp": {"s1":["arrastraba"],"s2":["arrastrabas"],"vos":["arrastrabas"],"s3":["arrastraba"],"p1":["arrastrábamos"],"p2":["arrastrabais"],"p3":["arrastraban"]},
+    "IndPret": {"s1":["arrastré"],"s2":["arrastraste"],"vos":["arrastraste"],"s3":["arrastró"],"p1":["arrastramos"],"p2":["arrastrasteis"],"p3":["arrastraron"]},
+    "IndFut": {"s1":["arrastraré"],"s2":["arrastrarás"],"vos":["arrastrarás"],"s3":["arrastrará"],"p1":["arrastraremos"],"p2":["arrastraréis"],"p3":["arrastrarán"]},
+    "IndCond": {"s1":["arrastraría"],"s2":["arrastrarías"],"vos":["arrastrarías"],"s3":["arrastraría"],"p1":["arrastraríamos"],"p2":["arrastraríais"],"p3":["arrastrarían"]},
+    "SubPres": {"s1":["arrastre"],"s2":["arrastres"],"vos":["arrastres","arrastrés"],"s3":["arrastre"],"p1":["arrastremos"],"p2":["arrastréis"],"p3":["arrastren"]},
+    "SubImp": {"s1":["arrastrara","arrastrase"],"s2":["arrastraras","arrastrases"],"vos":["arrastraras","arrastrases"],"s3":["arrastrara","arrastrase"],"p1":["arrastráramos","arrastrásemos"],"p2":["arrastrarais","arrastraseis"],"p3":["arrastraran","arrastrasen"]},
+    "SubFut": {"s1":["arrastrare"],"s2":["arrastrares"],"vos":["arrastrares"],"s3":["arrastrare"],"p1":["arrastráremos"],"p2":["arrastrareis"],"p3":["arrastraren"]},
+    "CmdPos": {"s2":["arrastra"],"vos":["arrastrá"],"s3":["arrastre"],"p1":["arrastremos"],"p2":["arrastrad"],"p3":["arrastren"]}
+  }
+}

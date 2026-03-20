@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eklaˈɾaɾ]",
+    "silabacion": "de-cla-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín declarāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"declarar","gerundio":"declarando","participio":"declarado"},
+  "formas_personales": {
+    "IndPres": {"s1":["declaro"],"s2":["declaras"],"vos":["declarás"],"s3":["declara"],"p1":["declaramos"],"p2":["declaráis"],"p3":["declaran"]},
+    "IndImp": {"s1":["declaraba"],"s2":["declarabas"],"vos":["declarabas"],"s3":["declaraba"],"p1":["declarábamos"],"p2":["declarabais"],"p3":["declaraban"]},
+    "IndPret": {"s1":["declaré"],"s2":["declaraste"],"vos":["declaraste"],"s3":["declaró"],"p1":["declaramos"],"p2":["declarasteis"],"p3":["declararon"]},
+    "IndFut": {"s1":["declararé"],"s2":["declararás"],"vos":["declararás"],"s3":["declarará"],"p1":["declararemos"],"p2":["declararéis"],"p3":["declararán"]},
+    "IndCond": {"s1":["declararía"],"s2":["declararías"],"vos":["declararías"],"s3":["declararía"],"p1":["declararíamos"],"p2":["declararíais"],"p3":["declararían"]},
+    "SubPres": {"s1":["declare"],"s2":["declares"],"vos":["declares","declarés"],"s3":["declare"],"p1":["declaremos"],"p2":["declaréis"],"p3":["declaren"]},
+    "SubImp": {"s1":["declarara","declarase"],"s2":["declararas","declarases"],"vos":["declararas","declarases"],"s3":["declarara","declarase"],"p1":["declaráramos","declarásemos"],"p2":["declararais","declaraseis"],"p3":["declararan","declarasen"]},
+    "SubFut": {"s1":["declarare"],"s2":["declarares"],"vos":["declarares"],"s3":["declarare"],"p1":["declaráremos"],"p2":["declarareis"],"p3":["declararen"]},
+    "CmdPos": {"s2":["declara"],"vos":["declará"],"s3":["declare"],"p1":["declaremos"],"p2":["declarad"],"p3":["declaren"]}
+  }
+}

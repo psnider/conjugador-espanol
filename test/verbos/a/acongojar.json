@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akõŋgoˈxaɾ]",
+    "silabacion": "a-con-go-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y congojar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acongojar","gerundio":"acongojando","participio":"acongojado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acongojo"],"s2":["acongojas"],"vos":["acongojás"],"s3":["acongoja"],"p1":["acongojamos"],"p2":["acongojáis"],"p3":["acongojan"]},
+    "IndImp": {"s1":["acongojaba"],"s2":["acongojabas"],"vos":["acongojabas"],"s3":["acongojaba"],"p1":["acongojábamos"],"p2":["acongojabais"],"p3":["acongojaban"]},
+    "IndPret": {"s1":["acongojé"],"s2":["acongojaste"],"vos":["acongojaste"],"s3":["acongojó"],"p1":["acongojamos"],"p2":["acongojasteis"],"p3":["acongojaron"]},
+    "IndFut": {"s1":["acongojaré"],"s2":["acongojarás"],"vos":["acongojarás"],"s3":["acongojará"],"p1":["acongojaremos"],"p2":["acongojaréis"],"p3":["acongojarán"]},
+    "IndCond": {"s1":["acongojaría"],"s2":["acongojarías"],"vos":["acongojarías"],"s3":["acongojaría"],"p1":["acongojaríamos"],"p2":["acongojaríais"],"p3":["acongojarían"]},
+    "SubPres": {"s1":["acongoje"],"s2":["acongojes"],"vos":["acongojes","acongojés"],"s3":["acongoje"],"p1":["acongojemos"],"p2":["acongojéis"],"p3":["acongojen"]},
+    "SubImp": {"s1":["acongojara","acongojase"],"s2":["acongojaras","acongojases"],"vos":["acongojaras","acongojases"],"s3":["acongojara","acongojase"],"p1":["acongojáramos","acongojásemos"],"p2":["acongojarais","acongojaseis"],"p3":["acongojaran","acongojasen"]},
+    "SubFut": {"s1":["acongojare"],"s2":["acongojares"],"vos":["acongojares"],"s3":["acongojare"],"p1":["acongojáremos"],"p2":["acongojareis"],"p3":["acongojaren"]},
+    "CmdPos": {"s2":["acongoja"],"vos":["acongojá"],"s3":["acongoje"],"p1":["acongojemos"],"p2":["acongojad"],"p3":["acongojen"]}
+  }
+}

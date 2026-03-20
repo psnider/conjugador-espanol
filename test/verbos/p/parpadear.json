@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paɾpað̞eˈaɾ]",
+    "silabacion": "par-pa-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De párpado y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"parpadear","gerundio":"parpadeando","participio":"parpadeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["parpadeo"],"s2":["parpadeas"],"vos":["parpadeás"],"s3":["parpadea"],"p1":["parpadeamos"],"p2":["parpadeáis"],"p3":["parpadean"]},
+    "IndImp": {"s1":["parpadeaba"],"s2":["parpadeabas"],"vos":["parpadeabas"],"s3":["parpadeaba"],"p1":["parpadeábamos"],"p2":["parpadeabais"],"p3":["parpadeaban"]},
+    "IndPret": {"s1":["parpadeé"],"s2":["parpadeaste"],"vos":["parpadeaste"],"s3":["parpadeó"],"p1":["parpadeamos"],"p2":["parpadeasteis"],"p3":["parpadearon"]},
+    "IndFut": {"s1":["parpadearé"],"s2":["parpadearás"],"vos":["parpadearás"],"s3":["parpadeará"],"p1":["parpadearemos"],"p2":["parpadearéis"],"p3":["parpadearán"]},
+    "IndCond": {"s1":["parpadearía"],"s2":["parpadearías"],"vos":["parpadearías"],"s3":["parpadearía"],"p1":["parpadearíamos"],"p2":["parpadearíais"],"p3":["parpadearían"]},
+    "SubPres": {"s1":["parpadee"],"s2":["parpadees"],"vos":["parpadees","parpadeés"],"s3":["parpadee"],"p1":["parpadeemos"],"p2":["parpadeéis"],"p3":["parpadeen"]},
+    "SubImp": {"s1":["parpadeara","parpadease"],"s2":["parpadearas","parpadeases"],"vos":["parpadearas","parpadeases"],"s3":["parpadeara","parpadease"],"p1":["parpadeáramos","parpadeásemos"],"p2":["parpadearais","parpadeaseis"],"p3":["parpadearan","parpadeasen"]},
+    "SubFut": {"s1":["parpadeare"],"s2":["parpadeares"],"vos":["parpadeares"],"s3":["parpadeare"],"p1":["parpadeáremos"],"p2":["parpadeareis"],"p3":["parpadearen"]},
+    "CmdPos": {"s2":["parpadea"],"vos":["parpadeá"],"s3":["parpadee"],"p1":["parpadeemos"],"p2":["parpadead"],"p3":["parpadeen"]}
+  }
+}

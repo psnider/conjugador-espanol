@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaʝuˈnaɾ]",
+    "silabacion": "des-a-yu-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y ayunar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desayunar","gerundio":"desayunando","participio":"desayunado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desayuno"],"s2":["desayunas"],"vos":["desayunás"],"s3":["desayuna"],"p1":["desayunamos"],"p2":["desayunáis"],"p3":["desayunan"]},
+    "IndImp": {"s1":["desayunaba"],"s2":["desayunabas"],"vos":["desayunabas"],"s3":["desayunaba"],"p1":["desayunábamos"],"p2":["desayunabais"],"p3":["desayunaban"]},
+    "IndPret": {"s1":["desayuné"],"s2":["desayunaste"],"vos":["desayunaste"],"s3":["desayunó"],"p1":["desayunamos"],"p2":["desayunasteis"],"p3":["desayunaron"]},
+    "IndFut": {"s1":["desayunaré"],"s2":["desayunarás"],"vos":["desayunarás"],"s3":["desayunará"],"p1":["desayunaremos"],"p2":["desayunaréis"],"p3":["desayunarán"]},
+    "IndCond": {"s1":["desayunaría"],"s2":["desayunarías"],"vos":["desayunarías"],"s3":["desayunaría"],"p1":["desayunaríamos"],"p2":["desayunaríais"],"p3":["desayunarían"]},
+    "SubPres": {"s1":["desayune"],"s2":["desayunes"],"vos":["desayunes","desayunés"],"s3":["desayune"],"p1":["desayunemos"],"p2":["desayunéis"],"p3":["desayunen"]},
+    "SubImp": {"s1":["desayunara","desayunase"],"s2":["desayunaras","desayunases"],"vos":["desayunaras","desayunases"],"s3":["desayunara","desayunase"],"p1":["desayunáramos","desayunásemos"],"p2":["desayunarais","desayunaseis"],"p3":["desayunaran","desayunasen"]},
+    "SubFut": {"s1":["desayunare"],"s2":["desayunares"],"vos":["desayunares"],"s3":["desayunare"],"p1":["desayunáremos"],"p2":["desayunareis"],"p3":["desayunaren"]},
+    "CmdPos": {"s2":["desayuna"],"vos":["desayuná"],"s3":["desayune"],"p1":["desayunemos"],"p2":["desayunad"],"p3":["desayunen"]}
+  }
+}

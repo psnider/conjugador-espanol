@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪aˈfaɾ]",
+    "silabacion": "es-ta-far",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano staffare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estafar","gerundio":"estafando","participio":"estafado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estafo"],"s2":["estafas"],"vos":["estafás"],"s3":["estafa"],"p1":["estafamos"],"p2":["estafáis"],"p3":["estafan"]},
+    "IndImp": {"s1":["estafaba"],"s2":["estafabas"],"vos":["estafabas"],"s3":["estafaba"],"p1":["estafábamos"],"p2":["estafabais"],"p3":["estafaban"]},
+    "IndPret": {"s1":["estafé"],"s2":["estafaste"],"vos":["estafaste"],"s3":["estafó"],"p1":["estafamos"],"p2":["estafasteis"],"p3":["estafaron"]},
+    "IndFut": {"s1":["estafaré"],"s2":["estafarás"],"vos":["estafarás"],"s3":["estafará"],"p1":["estafaremos"],"p2":["estafaréis"],"p3":["estafarán"]},
+    "IndCond": {"s1":["estafaría"],"s2":["estafarías"],"vos":["estafarías"],"s3":["estafaría"],"p1":["estafaríamos"],"p2":["estafaríais"],"p3":["estafarían"]},
+    "SubPres": {"s1":["estafe"],"s2":["estafes"],"vos":["estafes","estafés"],"s3":["estafe"],"p1":["estafemos"],"p2":["estaféis"],"p3":["estafen"]},
+    "SubImp": {"s1":["estafara","estafase"],"s2":["estafaras","estafases"],"vos":["estafaras","estafases"],"s3":["estafara","estafase"],"p1":["estafáramos","estafásemos"],"p2":["estafarais","estafaseis"],"p3":["estafaran","estafasen"]},
+    "SubFut": {"s1":["estafare"],"s2":["estafares"],"vos":["estafares"],"s3":["estafare"],"p1":["estafáremos"],"p2":["estafareis"],"p3":["estafaren"]},
+    "CmdPos": {"s2":["estafa"],"vos":["estafá"],"s3":["estafe"],"p1":["estafemos"],"p2":["estafad"],"p3":["estafen"]}
+  }
+}

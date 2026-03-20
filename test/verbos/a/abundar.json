@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ũn̪ˈd̪aɾ]",
+    "silabacion": "a-bun-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"abundar","gerundio":"abundando","participio":"abundado"},
+  "formas_personales": {
+    "IndPres": {"s1":["abundo"],"s2":["abundas"],"vos":["abundás"],"s3":["abunda"],"p1":["abundamos"],"p2":["abundáis"],"p3":["abundan"]},
+    "IndImp": {"s1":["abundaba"],"s2":["abundabas"],"vos":["abundabas"],"s3":["abundaba"],"p1":["abundábamos"],"p2":["abundabais"],"p3":["abundaban"]},
+    "IndPret": {"s1":["abundé"],"s2":["abundaste"],"vos":["abundaste"],"s3":["abundó"],"p1":["abundamos"],"p2":["abundasteis"],"p3":["abundaron"]},
+    "IndFut": {"s1":["abundaré"],"s2":["abundarás"],"vos":["abundarás"],"s3":["abundará"],"p1":["abundaremos"],"p2":["abundaréis"],"p3":["abundarán"]},
+    "IndCond": {"s1":["abundaría"],"s2":["abundarías"],"vos":["abundarías"],"s3":["abundaría"],"p1":["abundaríamos"],"p2":["abundaríais"],"p3":["abundarían"]},
+    "SubPres": {"s1":["abunde"],"s2":["abundes"],"vos":["abundes","abundés"],"s3":["abunde"],"p1":["abundemos"],"p2":["abundéis"],"p3":["abunden"]},
+    "SubImp": {"s1":["abundara","abundase"],"s2":["abundaras","abundases"],"vos":["abundaras","abundases"],"s3":["abundara","abundase"],"p1":["abundáramos","abundásemos"],"p2":["abundarais","abundaseis"],"p3":["abundaran","abundasen"]},
+    "SubFut": {"s1":["abundare"],"s2":["abundares"],"vos":["abundares"],"s3":["abundare"],"p1":["abundáremos"],"p2":["abundareis"],"p3":["abundaren"]},
+    "CmdPos": {"s2":["abunda"],"vos":["abundá"],"s3":["abunde"],"p1":["abundemos"],"p2":["abundad"],"p3":["abunden"]}
+  }
+}

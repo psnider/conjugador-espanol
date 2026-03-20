@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnamoˈɾaɾ]",
+    "silabacion": "en-a-mo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enamorar","gerundio":"enamorando","participio":"enamorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["enamoro"],"s2":["enamoras"],"vos":["enamorás"],"s3":["enamora"],"p1":["enamoramos"],"p2":["enamoráis"],"p3":["enamoran"]},
+    "IndImp": {"s1":["enamoraba"],"s2":["enamorabas"],"vos":["enamorabas"],"s3":["enamoraba"],"p1":["enamorábamos"],"p2":["enamorabais"],"p3":["enamoraban"]},
+    "IndPret": {"s1":["enamoré"],"s2":["enamoraste"],"vos":["enamoraste"],"s3":["enamoró"],"p1":["enamoramos"],"p2":["enamorasteis"],"p3":["enamoraron"]},
+    "IndFut": {"s1":["enamoraré"],"s2":["enamorarás"],"vos":["enamorarás"],"s3":["enamorará"],"p1":["enamoraremos"],"p2":["enamoraréis"],"p3":["enamorarán"]},
+    "IndCond": {"s1":["enamoraría"],"s2":["enamorarías"],"vos":["enamorarías"],"s3":["enamoraría"],"p1":["enamoraríamos"],"p2":["enamoraríais"],"p3":["enamorarían"]},
+    "SubPres": {"s1":["enamore"],"s2":["enamores"],"vos":["enamores","enamorés"],"s3":["enamore"],"p1":["enamoremos"],"p2":["enamoréis"],"p3":["enamoren"]},
+    "SubImp": {"s1":["enamorara","enamorase"],"s2":["enamoraras","enamorases"],"vos":["enamoraras","enamorases"],"s3":["enamorara","enamorase"],"p1":["enamoráramos","enamorásemos"],"p2":["enamorarais","enamoraseis"],"p3":["enamoraran","enamorasen"]},
+    "SubFut": {"s1":["enamorare"],"s2":["enamorares"],"vos":["enamorares"],"s3":["enamorare"],"p1":["enamoráremos"],"p2":["enamorareis"],"p3":["enamoraren"]},
+    "CmdPos": {"s2":["enamora"],"vos":["enamorá"],"s3":["enamore"],"p1":["enamoremos"],"p2":["enamorad"],"p3":["enamoren"]}
+  }
+}

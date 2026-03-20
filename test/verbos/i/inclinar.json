@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkliˈnaɾ]",
+    "silabacion": "in-cli-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inclināre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inclinar","gerundio":"inclinando","participio":"inclinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["inclino"],"s2":["inclinas"],"vos":["inclinás"],"s3":["inclina"],"p1":["inclinamos"],"p2":["inclináis"],"p3":["inclinan"]},
+    "IndImp": {"s1":["inclinaba"],"s2":["inclinabas"],"vos":["inclinabas"],"s3":["inclinaba"],"p1":["inclinábamos"],"p2":["inclinabais"],"p3":["inclinaban"]},
+    "IndPret": {"s1":["incliné"],"s2":["inclinaste"],"vos":["inclinaste"],"s3":["inclinó"],"p1":["inclinamos"],"p2":["inclinasteis"],"p3":["inclinaron"]},
+    "IndFut": {"s1":["inclinaré"],"s2":["inclinarás"],"vos":["inclinarás"],"s3":["inclinará"],"p1":["inclinaremos"],"p2":["inclinaréis"],"p3":["inclinarán"]},
+    "IndCond": {"s1":["inclinaría"],"s2":["inclinarías"],"vos":["inclinarías"],"s3":["inclinaría"],"p1":["inclinaríamos"],"p2":["inclinaríais"],"p3":["inclinarían"]},
+    "SubPres": {"s1":["incline"],"s2":["inclines"],"vos":["inclines","inclinés"],"s3":["incline"],"p1":["inclinemos"],"p2":["inclinéis"],"p3":["inclinen"]},
+    "SubImp": {"s1":["inclinara","inclinase"],"s2":["inclinaras","inclinases"],"vos":["inclinaras","inclinases"],"s3":["inclinara","inclinase"],"p1":["inclináramos","inclinásemos"],"p2":["inclinarais","inclinaseis"],"p3":["inclinaran","inclinasen"]},
+    "SubFut": {"s1":["inclinare"],"s2":["inclinares"],"vos":["inclinares"],"s3":["inclinare"],"p1":["inclináremos"],"p2":["inclinareis"],"p3":["inclinaren"]},
+    "CmdPos": {"s2":["inclina"],"vos":["incliná"],"s3":["incline"],"p1":["inclinemos"],"p2":["inclinad"],"p3":["inclinen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾiˈnaɾ]",
+    "silabacion": "o-ri-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín urinare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"orinar","gerundio":"orinando","participio":"orinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["orino"],"s2":["orinas"],"vos":["orinás"],"s3":["orina"],"p1":["orinamos"],"p2":["orináis"],"p3":["orinan"]},
+    "IndImp": {"s1":["orinaba"],"s2":["orinabas"],"vos":["orinabas"],"s3":["orinaba"],"p1":["orinábamos"],"p2":["orinabais"],"p3":["orinaban"]},
+    "IndPret": {"s1":["oriné"],"s2":["orinaste"],"vos":["orinaste"],"s3":["orinó"],"p1":["orinamos"],"p2":["orinasteis"],"p3":["orinaron"]},
+    "IndFut": {"s1":["orinaré"],"s2":["orinarás"],"vos":["orinarás"],"s3":["orinará"],"p1":["orinaremos"],"p2":["orinaréis"],"p3":["orinarán"]},
+    "IndCond": {"s1":["orinaría"],"s2":["orinarías"],"vos":["orinarías"],"s3":["orinaría"],"p1":["orinaríamos"],"p2":["orinaríais"],"p3":["orinarían"]},
+    "SubPres": {"s1":["orine"],"s2":["orines"],"vos":["orines","orinés"],"s3":["orine"],"p1":["orinemos"],"p2":["orinéis"],"p3":["orinen"]},
+    "SubImp": {"s1":["orinara","orinase"],"s2":["orinaras","orinases"],"vos":["orinaras","orinases"],"s3":["orinara","orinase"],"p1":["orináramos","orinásemos"],"p2":["orinarais","orinaseis"],"p3":["orinaran","orinasen"]},
+    "SubFut": {"s1":["orinare"],"s2":["orinares"],"vos":["orinares"],"s3":["orinare"],"p1":["orináremos"],"p2":["orinareis"],"p3":["orinaren"]},
+    "CmdPos": {"s2":["orina"],"vos":["oriná"],"s3":["orine"],"p1":["orinemos"],"p2":["orinad"],"p3":["orinen"]}
+  }
+}

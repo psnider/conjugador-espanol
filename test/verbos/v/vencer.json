@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bẽnˈseɾ]",
+    "silabacion": "ven-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vincere, y este del protoindoeuropeo *weik-. Compárese el francés vaincre o el rumano învinge",
+    "modelos": ["vencer"]
+  },
+  "formas_no_personales": {"infinitivo":"vencer","gerundio":"venciendo","participio":"vencido"},
+  "formas_personales": {
+    "IndPres": {"s1":["venzo"],"s2":["vences"],"vos":["vencés"],"s3":["vence"],"p1":["vencemos"],"p2":["vencéis"],"p3":["vencen"]},
+    "IndImp": {"s1":["vencía"],"s2":["vencías"],"vos":["vencías"],"s3":["vencía"],"p1":["vencíamos"],"p2":["vencíais"],"p3":["vencían"]},
+    "IndPret": {"s1":["vencí"],"s2":["venciste"],"vos":["venciste"],"s3":["venció"],"p1":["vencimos"],"p2":["vencisteis"],"p3":["vencieron"]},
+    "IndFut": {"s1":["venceré"],"s2":["vencerás"],"vos":["vencerás"],"s3":["vencerá"],"p1":["venceremos"],"p2":["venceréis"],"p3":["vencerán"]},
+    "IndCond": {"s1":["vencería"],"s2":["vencerías"],"vos":["vencerías"],"s3":["vencería"],"p1":["venceríamos"],"p2":["venceríais"],"p3":["vencerían"]},
+    "SubPres": {"s1":["venza"],"s2":["venzas"],"vos":["venzas","venzás"],"s3":["venza"],"p1":["venzamos"],"p2":["venzáis"],"p3":["venzan"]},
+    "SubImp": {"s1":["venciera","venciese"],"s2":["vencieras","vencieses"],"vos":["vencieras","vencieses"],"s3":["venciera","venciese"],"p1":["venciéramos","venciésemos"],"p2":["vencierais","vencieseis"],"p3":["vencieran","venciesen"]},
+    "SubFut": {"s1":["venciere"],"s2":["vencieres"],"vos":["vencieres"],"s3":["venciere"],"p1":["venciéremos"],"p2":["venciereis"],"p3":["vencieren"]},
+    "CmdPos": {"s2":["vence"],"vos":["vencé"],"s3":["venza"],"p1":["venzamos"],"p2":["venced"],"p3":["venzan"]}
+  }
+}

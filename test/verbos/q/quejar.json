@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[keˈxaɾ]",
+    "silabacion": "que-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín quassare (\"golpear con violencia\"), habiendo pasado al latín vulgar como *quassiare.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"quejar","gerundio":"quejando","participio":"quejado"},
+  "formas_personales": {
+    "IndPres": {"s1":["quejo"],"s2":["quejas"],"vos":["quejás"],"s3":["queja"],"p1":["quejamos"],"p2":["quejáis"],"p3":["quejan"]},
+    "IndImp": {"s1":["quejaba"],"s2":["quejabas"],"vos":["quejabas"],"s3":["quejaba"],"p1":["quejábamos"],"p2":["quejabais"],"p3":["quejaban"]},
+    "IndPret": {"s1":["quejé"],"s2":["quejaste"],"vos":["quejaste"],"s3":["quejó"],"p1":["quejamos"],"p2":["quejasteis"],"p3":["quejaron"]},
+    "IndFut": {"s1":["quejaré"],"s2":["quejarás"],"vos":["quejarás"],"s3":["quejará"],"p1":["quejaremos"],"p2":["quejaréis"],"p3":["quejarán"]},
+    "IndCond": {"s1":["quejaría"],"s2":["quejarías"],"vos":["quejarías"],"s3":["quejaría"],"p1":["quejaríamos"],"p2":["quejaríais"],"p3":["quejarían"]},
+    "SubPres": {"s1":["queje"],"s2":["quejes"],"vos":["quejes","quejés"],"s3":["queje"],"p1":["quejemos"],"p2":["quejéis"],"p3":["quejen"]},
+    "SubImp": {"s1":["quejara","quejase"],"s2":["quejaras","quejases"],"vos":["quejaras","quejases"],"s3":["quejara","quejase"],"p1":["quejáramos","quejásemos"],"p2":["quejarais","quejaseis"],"p3":["quejaran","quejasen"]},
+    "SubFut": {"s1":["quejare"],"s2":["quejares"],"vos":["quejares"],"s3":["quejare"],"p1":["quejáremos"],"p2":["quejareis"],"p3":["quejaren"]},
+    "CmdPos": {"s2":["queja"],"vos":["quejá"],"s3":["queje"],"p1":["quejemos"],"p2":["quejad"],"p3":["quejen"]}
+  }
+}

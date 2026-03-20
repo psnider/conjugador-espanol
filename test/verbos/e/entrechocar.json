@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾet͡ʃoˈkaɾ]",
+    "silabacion": "en-tre-cho-car",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"entrechocar","gerundio":"entrechocando","participio":"entrechocado"},
+  "formas_personales": {
+    "IndPres": {"s1":["entrechoco"],"s2":["entrechocas"],"vos":["entrechocás"],"s3":["entrechoca"],"p1":["entrechocamos"],"p2":["entrechocáis"],"p3":["entrechocan"]},
+    "IndImp": {"s1":["entrechocaba"],"s2":["entrechocabas"],"vos":["entrechocabas"],"s3":["entrechocaba"],"p1":["entrechocábamos"],"p2":["entrechocabais"],"p3":["entrechocaban"]},
+    "IndPret": {"s1":["entrechoqué"],"s2":["entrechocaste"],"vos":["entrechocaste"],"s3":["entrechocó"],"p1":["entrechocamos"],"p2":["entrechocasteis"],"p3":["entrechocaron"]},
+    "IndFut": {"s1":["entrechocaré"],"s2":["entrechocarás"],"vos":["entrechocarás"],"s3":["entrechocará"],"p1":["entrechocaremos"],"p2":["entrechocaréis"],"p3":["entrechocarán"]},
+    "IndCond": {"s1":["entrechocaría"],"s2":["entrechocarías"],"vos":["entrechocarías"],"s3":["entrechocaría"],"p1":["entrechocaríamos"],"p2":["entrechocaríais"],"p3":["entrechocarían"]},
+    "SubPres": {"s1":["entrechoque"],"s2":["entrechoques"],"vos":["entrechoques","entrechoqués"],"s3":["entrechoque"],"p1":["entrechoquemos"],"p2":["entrechoquéis"],"p3":["entrechoquen"]},
+    "SubImp": {"s1":["entrechocara","entrechocase"],"s2":["entrechocaras","entrechocases"],"vos":["entrechocaras","entrechocases"],"s3":["entrechocara","entrechocase"],"p1":["entrechocáramos","entrechocásemos"],"p2":["entrechocarais","entrechocaseis"],"p3":["entrechocaran","entrechocasen"]},
+    "SubFut": {"s1":["entrechocare"],"s2":["entrechocares"],"vos":["entrechocares"],"s3":["entrechocare"],"p1":["entrechocáremos"],"p2":["entrechocareis"],"p3":["entrechocaren"]},
+    "CmdPos": {"s2":["entrechoca"],"vos":["entrechocá"],"s3":["entrechoque"],"p1":["entrechoquemos"],"p2":["entrechocad"],"p3":["entrechoquen"]}
+  }
+}

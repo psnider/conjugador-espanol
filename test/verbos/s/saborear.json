@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saβ̞oɾeˈaɾ]",
+    "silabacion": "sa-bo-re-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De sabor y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"saborear","gerundio":"saboreando","participio":"saboreado"},
+  "formas_personales": {
+    "IndPres": {"s1":["saboreo"],"s2":["saboreas"],"vos":["saboreás"],"s3":["saborea"],"p1":["saboreamos"],"p2":["saboreáis"],"p3":["saborean"]},
+    "IndImp": {"s1":["saboreaba"],"s2":["saboreabas"],"vos":["saboreabas"],"s3":["saboreaba"],"p1":["saboreábamos"],"p2":["saboreabais"],"p3":["saboreaban"]},
+    "IndPret": {"s1":["saboreé"],"s2":["saboreaste"],"vos":["saboreaste"],"s3":["saboreó"],"p1":["saboreamos"],"p2":["saboreasteis"],"p3":["saborearon"]},
+    "IndFut": {"s1":["saborearé"],"s2":["saborearás"],"vos":["saborearás"],"s3":["saboreará"],"p1":["saborearemos"],"p2":["saborearéis"],"p3":["saborearán"]},
+    "IndCond": {"s1":["saborearía"],"s2":["saborearías"],"vos":["saborearías"],"s3":["saborearía"],"p1":["saborearíamos"],"p2":["saborearíais"],"p3":["saborearían"]},
+    "SubPres": {"s1":["saboree"],"s2":["saborees"],"vos":["saborees","saboreés"],"s3":["saboree"],"p1":["saboreemos"],"p2":["saboreéis"],"p3":["saboreen"]},
+    "SubImp": {"s1":["saboreara","saborease"],"s2":["saborearas","saboreases"],"vos":["saborearas","saboreases"],"s3":["saboreara","saborease"],"p1":["saboreáramos","saboreásemos"],"p2":["saborearais","saboreaseis"],"p3":["saborearan","saboreasen"]},
+    "SubFut": {"s1":["saboreare"],"s2":["saboreares"],"vos":["saboreares"],"s3":["saboreare"],"p1":["saboreáremos"],"p2":["saboreareis"],"p3":["saborearen"]},
+    "CmdPos": {"s2":["saborea"],"vos":["saboreá"],"s3":["saboree"],"p1":["saboreemos"],"p2":["saboread"],"p3":["saboreen"]}
+  }
+}

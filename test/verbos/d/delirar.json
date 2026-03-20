@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eliˈɾaɾ]",
+    "silabacion": "de-li-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"delirar","gerundio":"delirando","participio":"delirado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deliro"],"s2":["deliras"],"vos":["delirás"],"s3":["delira"],"p1":["deliramos"],"p2":["deliráis"],"p3":["deliran"]},
+    "IndImp": {"s1":["deliraba"],"s2":["delirabas"],"vos":["delirabas"],"s3":["deliraba"],"p1":["delirábamos"],"p2":["delirabais"],"p3":["deliraban"]},
+    "IndPret": {"s1":["deliré"],"s2":["deliraste"],"vos":["deliraste"],"s3":["deliró"],"p1":["deliramos"],"p2":["delirasteis"],"p3":["deliraron"]},
+    "IndFut": {"s1":["deliraré"],"s2":["delirarás"],"vos":["delirarás"],"s3":["delirará"],"p1":["deliraremos"],"p2":["deliraréis"],"p3":["delirarán"]},
+    "IndCond": {"s1":["deliraría"],"s2":["delirarías"],"vos":["delirarías"],"s3":["deliraría"],"p1":["deliraríamos"],"p2":["deliraríais"],"p3":["delirarían"]},
+    "SubPres": {"s1":["delire"],"s2":["delires"],"vos":["delires","delirés"],"s3":["delire"],"p1":["deliremos"],"p2":["deliréis"],"p3":["deliren"]},
+    "SubImp": {"s1":["delirara","delirase"],"s2":["deliraras","delirases"],"vos":["deliraras","delirases"],"s3":["delirara","delirase"],"p1":["deliráramos","delirásemos"],"p2":["delirarais","deliraseis"],"p3":["deliraran","delirasen"]},
+    "SubFut": {"s1":["delirare"],"s2":["delirares"],"vos":["delirares"],"s3":["delirare"],"p1":["deliráremos"],"p2":["delirareis"],"p3":["deliraren"]},
+    "CmdPos": {"s2":["delira"],"vos":["delirá"],"s3":["delire"],"p1":["deliremos"],"p2":["delirad"],"p3":["deliren"]}
+  }
+}

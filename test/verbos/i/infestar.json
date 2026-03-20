@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩɱfesˈt̪aɾ]",
+    "silabacion": "in-fes-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín infestare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"infestar","gerundio":"infestando","participio":"infestado"},
+  "formas_personales": {
+    "IndPres": {"s1":["infesto"],"s2":["infestas"],"vos":["infestás"],"s3":["infesta"],"p1":["infestamos"],"p2":["infestáis"],"p3":["infestan"]},
+    "IndImp": {"s1":["infestaba"],"s2":["infestabas"],"vos":["infestabas"],"s3":["infestaba"],"p1":["infestábamos"],"p2":["infestabais"],"p3":["infestaban"]},
+    "IndPret": {"s1":["infesté"],"s2":["infestaste"],"vos":["infestaste"],"s3":["infestó"],"p1":["infestamos"],"p2":["infestasteis"],"p3":["infestaron"]},
+    "IndFut": {"s1":["infestaré"],"s2":["infestarás"],"vos":["infestarás"],"s3":["infestará"],"p1":["infestaremos"],"p2":["infestaréis"],"p3":["infestarán"]},
+    "IndCond": {"s1":["infestaría"],"s2":["infestarías"],"vos":["infestarías"],"s3":["infestaría"],"p1":["infestaríamos"],"p2":["infestaríais"],"p3":["infestarían"]},
+    "SubPres": {"s1":["infeste"],"s2":["infestes"],"vos":["infestes","infestés"],"s3":["infeste"],"p1":["infestemos"],"p2":["infestéis"],"p3":["infesten"]},
+    "SubImp": {"s1":["infestara","infestase"],"s2":["infestaras","infestases"],"vos":["infestaras","infestases"],"s3":["infestara","infestase"],"p1":["infestáramos","infestásemos"],"p2":["infestarais","infestaseis"],"p3":["infestaran","infestasen"]},
+    "SubFut": {"s1":["infestare"],"s2":["infestares"],"vos":["infestares"],"s3":["infestare"],"p1":["infestáremos"],"p2":["infestareis"],"p3":["infestaren"]},
+    "CmdPos": {"s2":["infesta"],"vos":["infestá"],"s3":["infeste"],"p1":["infestemos"],"p2":["infestad"],"p3":["infesten"]}
+  }
+}

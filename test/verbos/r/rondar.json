@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rõn̪ˈd̪aɾ]",
+    "silabacion": "ron-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De ronda y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rondar","gerundio":"rondando","participio":"rondado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rondo"],"s2":["rondas"],"vos":["rondás"],"s3":["ronda"],"p1":["rondamos"],"p2":["rondáis"],"p3":["rondan"]},
+    "IndImp": {"s1":["rondaba"],"s2":["rondabas"],"vos":["rondabas"],"s3":["rondaba"],"p1":["rondábamos"],"p2":["rondabais"],"p3":["rondaban"]},
+    "IndPret": {"s1":["rondé"],"s2":["rondaste"],"vos":["rondaste"],"s3":["rondó"],"p1":["rondamos"],"p2":["rondasteis"],"p3":["rondaron"]},
+    "IndFut": {"s1":["rondaré"],"s2":["rondarás"],"vos":["rondarás"],"s3":["rondará"],"p1":["rondaremos"],"p2":["rondaréis"],"p3":["rondarán"]},
+    "IndCond": {"s1":["rondaría"],"s2":["rondarías"],"vos":["rondarías"],"s3":["rondaría"],"p1":["rondaríamos"],"p2":["rondaríais"],"p3":["rondarían"]},
+    "SubPres": {"s1":["ronde"],"s2":["rondes"],"vos":["rondes","rondés"],"s3":["ronde"],"p1":["rondemos"],"p2":["rondéis"],"p3":["ronden"]},
+    "SubImp": {"s1":["rondara","rondase"],"s2":["rondaras","rondases"],"vos":["rondaras","rondases"],"s3":["rondara","rondase"],"p1":["rondáramos","rondásemos"],"p2":["rondarais","rondaseis"],"p3":["rondaran","rondasen"]},
+    "SubFut": {"s1":["rondare"],"s2":["rondares"],"vos":["rondares"],"s3":["rondare"],"p1":["rondáremos"],"p2":["rondareis"],"p3":["rondaren"]},
+    "CmdPos": {"s2":["ronda"],"vos":["rondá"],"s3":["ronde"],"p1":["rondemos"],"p2":["rondad"],"p3":["ronden"]}
+  }
+}

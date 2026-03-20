@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boɾð̞eˈaɾ]",
+    "silabacion": "bor-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De borde y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bordear","gerundio":"bordeando","participio":"bordeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["bordeo"],"s2":["bordeas"],"vos":["bordeás"],"s3":["bordea"],"p1":["bordeamos"],"p2":["bordeáis"],"p3":["bordean"]},
+    "IndImp": {"s1":["bordeaba"],"s2":["bordeabas"],"vos":["bordeabas"],"s3":["bordeaba"],"p1":["bordeábamos"],"p2":["bordeabais"],"p3":["bordeaban"]},
+    "IndPret": {"s1":["bordeé"],"s2":["bordeaste"],"vos":["bordeaste"],"s3":["bordeó"],"p1":["bordeamos"],"p2":["bordeasteis"],"p3":["bordearon"]},
+    "IndFut": {"s1":["bordearé"],"s2":["bordearás"],"vos":["bordearás"],"s3":["bordeará"],"p1":["bordearemos"],"p2":["bordearéis"],"p3":["bordearán"]},
+    "IndCond": {"s1":["bordearía"],"s2":["bordearías"],"vos":["bordearías"],"s3":["bordearía"],"p1":["bordearíamos"],"p2":["bordearíais"],"p3":["bordearían"]},
+    "SubPres": {"s1":["bordee"],"s2":["bordees"],"vos":["bordees","bordeés"],"s3":["bordee"],"p1":["bordeemos"],"p2":["bordeéis"],"p3":["bordeen"]},
+    "SubImp": {"s1":["bordeara","bordease"],"s2":["bordearas","bordeases"],"vos":["bordearas","bordeases"],"s3":["bordeara","bordease"],"p1":["bordeáramos","bordeásemos"],"p2":["bordearais","bordeaseis"],"p3":["bordearan","bordeasen"]},
+    "SubFut": {"s1":["bordeare"],"s2":["bordeares"],"vos":["bordeares"],"s3":["bordeare"],"p1":["bordeáremos"],"p2":["bordeareis"],"p3":["bordearen"]},
+    "CmdPos": {"s2":["bordea"],"vos":["bordeá"],"s3":["bordee"],"p1":["bordeemos"],"p2":["bordead"],"p3":["bordeen"]}
+  }
+}

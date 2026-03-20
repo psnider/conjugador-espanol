@@ -45,7 +45,7 @@ function printCommandsToGenerateMissingVerbValidationFiles() {
     if (verbs_missing_validation_data.length > 0) {
         console.log(`Please run the following commands to add missing validation data:`)
         for (const verb of verbs_missing_validation_data) {
-            console.log(`curl https://es.wiktionary.org/wiki/${verb} > tmp/verbos/${verb}.html  &&  node generated/test/wiktionary-scraper.js ${verb}`)
+            console.log(`curl https://es.wiktionary.org/wiki/${verb} > tmp/verbos/${verb}.html  &&  node generated/test/wiktionary-scraper.js ${verb}  &&  echo finished: ${verb}  &&  sleep 1`)
         }
     }
 }

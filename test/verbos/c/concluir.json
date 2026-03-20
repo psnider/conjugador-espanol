@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋˈklwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín concludere.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"concluir","gerundio":"concluyendo","participio":"concluido"},
+  "formas_personales": {
+    "IndPres": {"s1":["concluyo"],"s2":["concluyes"],"vos":["concluís"],"s3":["concluye"],"p1":["concluimos"],"p2":["concluís"],"p3":["concluyen"]},
+    "IndImp": {"s1":["concluía"],"s2":["concluías"],"vos":["concluías"],"s3":["concluía"],"p1":["concluíamos"],"p2":["concluíais"],"p3":["concluían"]},
+    "IndPret": {"s1":["concluí"],"s2":["concluiste"],"vos":["concluiste"],"s3":["concluyó"],"p1":["concluimos"],"p2":["concluisteis"],"p3":["concluyeron"]},
+    "IndFut": {"s1":["concluiré"],"s2":["concluirás"],"vos":["concluirás"],"s3":["concluirá"],"p1":["concluiremos"],"p2":["concluiréis"],"p3":["concluirán"]},
+    "IndCond": {"s1":["concluiría"],"s2":["concluirías"],"vos":["concluirías"],"s3":["concluiría"],"p1":["concluiríamos"],"p2":["concluiríais"],"p3":["concluirían"]},
+    "SubPres": {"s1":["concluya"],"s2":["concluyas"],"vos":["concluyas","concluyás"],"s3":["concluya"],"p1":["concluyamos"],"p2":["concluyáis"],"p3":["concluyan"]},
+    "SubImp": {"s1":["concluyera","concluyese"],"s2":["concluyeras","concluyeses"],"vos":["concluyeras","concluyeses"],"s3":["concluyera","concluyese"],"p1":["concluyéramos","concluyésemos"],"p2":["concluyerais","concluyeseis"],"p3":["concluyeran","concluyesen"]},
+    "SubFut": {"s1":["concluyere"],"s2":["concluyeres"],"vos":["concluyeres"],"s3":["concluyere"],"p1":["concluyéremos"],"p2":["concluyereis"],"p3":["concluyeren"]},
+    "CmdPos": {"s2":["concluye"],"vos":["concluí"],"s3":["concluya"],"p1":["concluyamos"],"p2":["concluid"],"p3":["concluyan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkaɾˈɣ̞aɾ]",
+    "silabacion": "en-car-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, cargo y el sufijo -ar",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"encargar","gerundio":"encargando","participio":"encargado"},
+  "formas_personales": {
+    "IndPres": {"s1":["encargo"],"s2":["encargas"],"vos":["encargás"],"s3":["encarga"],"p1":["encargamos"],"p2":["encargáis"],"p3":["encargan"]},
+    "IndImp": {"s1":["encargaba"],"s2":["encargabas"],"vos":["encargabas"],"s3":["encargaba"],"p1":["encargábamos"],"p2":["encargabais"],"p3":["encargaban"]},
+    "IndPret": {"s1":["encargué"],"s2":["encargaste"],"vos":["encargaste"],"s3":["encargó"],"p1":["encargamos"],"p2":["encargasteis"],"p3":["encargaron"]},
+    "IndFut": {"s1":["encargaré"],"s2":["encargarás"],"vos":["encargarás"],"s3":["encargará"],"p1":["encargaremos"],"p2":["encargaréis"],"p3":["encargarán"]},
+    "IndCond": {"s1":["encargaría"],"s2":["encargarías"],"vos":["encargarías"],"s3":["encargaría"],"p1":["encargaríamos"],"p2":["encargaríais"],"p3":["encargarían"]},
+    "SubPres": {"s1":["encargue"],"s2":["encargues"],"vos":["encargues","encargués"],"s3":["encargue"],"p1":["encarguemos"],"p2":["encarguéis"],"p3":["encarguen"]},
+    "SubImp": {"s1":["encargara","encargase"],"s2":["encargaras","encargases"],"vos":["encargaras","encargases"],"s3":["encargara","encargase"],"p1":["encargáramos","encargásemos"],"p2":["encargarais","encargaseis"],"p3":["encargaran","encargasen"]},
+    "SubFut": {"s1":["encargare"],"s2":["encargares"],"vos":["encargares"],"s3":["encargare"],"p1":["encargáremos"],"p2":["encargareis"],"p3":["encargaren"]},
+    "CmdPos": {"s2":["encarga"],"vos":["encargá"],"s3":["encargue"],"p1":["encarguemos"],"p2":["encargad"],"p3":["encarguen"]}
+  }
+}

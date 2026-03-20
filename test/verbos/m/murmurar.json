@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[muɾmuˈɾaɾ]",
+    "silabacion": "mur-mu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín murmurō, murmurāre,[1] derivado de murmur, murmuris&nbsp;('murmullo').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"murmurar","gerundio":"murmurando","participio":"murmurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["murmuro"],"s2":["murmuras"],"vos":["murmurás"],"s3":["murmura"],"p1":["murmuramos"],"p2":["murmuráis"],"p3":["murmuran"]},
+    "IndImp": {"s1":["murmuraba"],"s2":["murmurabas"],"vos":["murmurabas"],"s3":["murmuraba"],"p1":["murmurábamos"],"p2":["murmurabais"],"p3":["murmuraban"]},
+    "IndPret": {"s1":["murmuré"],"s2":["murmuraste"],"vos":["murmuraste"],"s3":["murmuró"],"p1":["murmuramos"],"p2":["murmurasteis"],"p3":["murmuraron"]},
+    "IndFut": {"s1":["murmuraré"],"s2":["murmurarás"],"vos":["murmurarás"],"s3":["murmurará"],"p1":["murmuraremos"],"p2":["murmuraréis"],"p3":["murmurarán"]},
+    "IndCond": {"s1":["murmuraría"],"s2":["murmurarías"],"vos":["murmurarías"],"s3":["murmuraría"],"p1":["murmuraríamos"],"p2":["murmuraríais"],"p3":["murmurarían"]},
+    "SubPres": {"s1":["murmure"],"s2":["murmures"],"vos":["murmures","murmurés"],"s3":["murmure"],"p1":["murmuremos"],"p2":["murmuréis"],"p3":["murmuren"]},
+    "SubImp": {"s1":["murmurara","murmurase"],"s2":["murmuraras","murmurases"],"vos":["murmuraras","murmurases"],"s3":["murmurara","murmurase"],"p1":["murmuráramos","murmurásemos"],"p2":["murmurarais","murmuraseis"],"p3":["murmuraran","murmurasen"]},
+    "SubFut": {"s1":["murmurare"],"s2":["murmurares"],"vos":["murmurares"],"s3":["murmurare"],"p1":["murmuráremos"],"p2":["murmurareis"],"p3":["murmuraren"]},
+    "CmdPos": {"s2":["murmura"],"vos":["murmurá"],"s3":["murmure"],"p1":["murmuremos"],"p2":["murmurad"],"p3":["murmuren"]}
+  }
+}

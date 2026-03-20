@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ekaˈeɾ]",
+    "silabacion": "de-ca-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín medieval decadĕre, y este compuesto del latín cadere, del protoindoeuropeo *ḱad-. Compárese el catalán decaure, el francés déchoir, el inglés decay, el italiano decadere, el portugués decahir o el rumano decădea.",
+    "modelos": ["caer"]
+  },
+  "formas_no_personales": {"infinitivo":"decaer","gerundio":"decayendo","participio":"decaído"},
+  "formas_personales": {
+    "IndPres": {"s1":["decaigo"],"s2":["decaes"],"vos":["decaés"],"s3":["decae"],"p1":["decaemos"],"p2":["decaéis"],"p3":["decaen"]},
+    "IndImp": {"s1":["decaía"],"s2":["decaías"],"vos":["decaías"],"s3":["decaía"],"p1":["decaíamos"],"p2":["decaíais"],"p3":["decaían"]},
+    "IndPret": {"s1":["decaí"],"s2":["decaíste"],"vos":["decaíste"],"s3":["decayó"],"p1":["decaímos"],"p2":["decaísteis"],"p3":["decayeron"]},
+    "IndFut": {"s1":["decaeré"],"s2":["decaerás"],"vos":["decaerás"],"s3":["decaerá"],"p1":["decaeremos"],"p2":["decaeréis"],"p3":["decaerán"]},
+    "IndCond": {"s1":["decaería"],"s2":["decaerías"],"vos":["decaerías"],"s3":["decaería"],"p1":["decaeríamos"],"p2":["decaeríais"],"p3":["decaerían"]},
+    "SubPres": {"s1":["decaiga"],"s2":["decaigas"],"vos":["decaigas","decaigás"],"s3":["decaiga"],"p1":["decaigamos"],"p2":["decaigáis"],"p3":["decaigan"]},
+    "SubImp": {"s1":["decayera","decayese"],"s2":["decayeras","decayeses"],"vos":["decayeras","decayeses"],"s3":["decayera","decayese"],"p1":["decayéramos","decayésemos"],"p2":["decayerais","decayeseis"],"p3":["decayeran","decayesen"]},
+    "SubFut": {"s1":["decayere"],"s2":["decayeres"],"vos":["decayeres"],"s3":["decayere"],"p1":["decayéremos"],"p2":["decayereis"],"p3":["decayeren"]},
+    "CmdPos": {"s2":["decae"],"vos":["decaé"],"s3":["decaiga"],"p1":["decaigamos"],"p2":["decaed"],"p3":["decaigan"]}
+  }
+}

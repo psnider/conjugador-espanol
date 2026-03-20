@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bixiˈlaɾ]",
+    "silabacion": "vi-gi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vigilare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vigilar","gerundio":"vigilando","participio":"vigilado"},
+  "formas_personales": {
+    "IndPres": {"s1":["vigilo"],"s2":["vigilas"],"vos":["vigilás"],"s3":["vigila"],"p1":["vigilamos"],"p2":["vigiláis"],"p3":["vigilan"]},
+    "IndImp": {"s1":["vigilaba"],"s2":["vigilabas"],"vos":["vigilabas"],"s3":["vigilaba"],"p1":["vigilábamos"],"p2":["vigilabais"],"p3":["vigilaban"]},
+    "IndPret": {"s1":["vigilé"],"s2":["vigilaste"],"vos":["vigilaste"],"s3":["vigiló"],"p1":["vigilamos"],"p2":["vigilasteis"],"p3":["vigilaron"]},
+    "IndFut": {"s1":["vigilaré"],"s2":["vigilarás"],"vos":["vigilarás"],"s3":["vigilará"],"p1":["vigilaremos"],"p2":["vigilaréis"],"p3":["vigilarán"]},
+    "IndCond": {"s1":["vigilaría"],"s2":["vigilarías"],"vos":["vigilarías"],"s3":["vigilaría"],"p1":["vigilaríamos"],"p2":["vigilaríais"],"p3":["vigilarían"]},
+    "SubPres": {"s1":["vigile"],"s2":["vigiles"],"vos":["vigiles","vigilés"],"s3":["vigile"],"p1":["vigilemos"],"p2":["vigiléis"],"p3":["vigilen"]},
+    "SubImp": {"s1":["vigilara","vigilase"],"s2":["vigilaras","vigilases"],"vos":["vigilaras","vigilases"],"s3":["vigilara","vigilase"],"p1":["vigiláramos","vigilásemos"],"p2":["vigilarais","vigilaseis"],"p3":["vigilaran","vigilasen"]},
+    "SubFut": {"s1":["vigilare"],"s2":["vigilares"],"vos":["vigilares"],"s3":["vigilare"],"p1":["vigiláremos"],"p2":["vigilareis"],"p3":["vigilaren"]},
+    "CmdPos": {"s2":["vigila"],"vos":["vigilá"],"s3":["vigile"],"p1":["vigilemos"],"p2":["vigilad"],"p3":["vigilen"]}
+  }
+}

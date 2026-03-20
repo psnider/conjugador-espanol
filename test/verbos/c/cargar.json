@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaɾˈɣ̞aɾ]",
+    "silabacion": "car-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín carricāre y este del latín carrus (\"carro\").",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"cargar","gerundio":"cargando","participio":"cargado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cargo"],"s2":["cargas"],"vos":["cargás"],"s3":["carga"],"p1":["cargamos"],"p2":["cargáis"],"p3":["cargan"]},
+    "IndImp": {"s1":["cargaba"],"s2":["cargabas"],"vos":["cargabas"],"s3":["cargaba"],"p1":["cargábamos"],"p2":["cargabais"],"p3":["cargaban"]},
+    "IndPret": {"s1":["cargué"],"s2":["cargaste"],"vos":["cargaste"],"s3":["cargó"],"p1":["cargamos"],"p2":["cargasteis"],"p3":["cargaron"]},
+    "IndFut": {"s1":["cargaré"],"s2":["cargarás"],"vos":["cargarás"],"s3":["cargará"],"p1":["cargaremos"],"p2":["cargaréis"],"p3":["cargarán"]},
+    "IndCond": {"s1":["cargaría"],"s2":["cargarías"],"vos":["cargarías"],"s3":["cargaría"],"p1":["cargaríamos"],"p2":["cargaríais"],"p3":["cargarían"]},
+    "SubPres": {"s1":["cargue"],"s2":["cargues"],"vos":["cargues","cargués"],"s3":["cargue"],"p1":["carguemos"],"p2":["carguéis"],"p3":["carguen"]},
+    "SubImp": {"s1":["cargara","cargase"],"s2":["cargaras","cargases"],"vos":["cargaras","cargases"],"s3":["cargara","cargase"],"p1":["cargáramos","cargásemos"],"p2":["cargarais","cargaseis"],"p3":["cargaran","cargasen"]},
+    "SubFut": {"s1":["cargare"],"s2":["cargares"],"vos":["cargares"],"s3":["cargare"],"p1":["cargáremos"],"p2":["cargareis"],"p3":["cargaren"]},
+    "CmdPos": {"s2":["carga"],"vos":["cargá"],"s3":["cargue"],"p1":["carguemos"],"p2":["cargad"],"p3":["carguen"]}
+  }
+}

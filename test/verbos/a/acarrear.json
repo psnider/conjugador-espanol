@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akareˈaɾ]",
+    "silabacion": "a-ca-rre-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, carro y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acarrear","gerundio":"acarreando","participio":"acarreado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acarreo"],"s2":["acarreas"],"vos":["acarreás"],"s3":["acarrea"],"p1":["acarreamos"],"p2":["acarreáis"],"p3":["acarrean"]},
+    "IndImp": {"s1":["acarreaba"],"s2":["acarreabas"],"vos":["acarreabas"],"s3":["acarreaba"],"p1":["acarreábamos"],"p2":["acarreabais"],"p3":["acarreaban"]},
+    "IndPret": {"s1":["acarreé"],"s2":["acarreaste"],"vos":["acarreaste"],"s3":["acarreó"],"p1":["acarreamos"],"p2":["acarreasteis"],"p3":["acarrearon"]},
+    "IndFut": {"s1":["acarrearé"],"s2":["acarrearás"],"vos":["acarrearás"],"s3":["acarreará"],"p1":["acarrearemos"],"p2":["acarrearéis"],"p3":["acarrearán"]},
+    "IndCond": {"s1":["acarrearía"],"s2":["acarrearías"],"vos":["acarrearías"],"s3":["acarrearía"],"p1":["acarrearíamos"],"p2":["acarrearíais"],"p3":["acarrearían"]},
+    "SubPres": {"s1":["acarree"],"s2":["acarrees"],"vos":["acarrees","acarreés"],"s3":["acarree"],"p1":["acarreemos"],"p2":["acarreéis"],"p3":["acarreen"]},
+    "SubImp": {"s1":["acarreara","acarrease"],"s2":["acarrearas","acarreases"],"vos":["acarrearas","acarreases"],"s3":["acarreara","acarrease"],"p1":["acarreáramos","acarreásemos"],"p2":["acarrearais","acarreaseis"],"p3":["acarrearan","acarreasen"]},
+    "SubFut": {"s1":["acarreare"],"s2":["acarreares"],"vos":["acarreares"],"s3":["acarreare"],"p1":["acarreáremos"],"p2":["acarreareis"],"p3":["acarrearen"]},
+    "CmdPos": {"s2":["acarrea"],"vos":["acarreá"],"s3":["acarree"],"p1":["acarreemos"],"p2":["acarread"],"p3":["acarreen"]}
+  }
+}

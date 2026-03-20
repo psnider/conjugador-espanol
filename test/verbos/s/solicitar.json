@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[solisiˈt̪aɾ]",
+    "silabacion": "so-li-ci-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sollicitāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"solicitar","gerundio":"solicitando","participio":"solicitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["solicito"],"s2":["solicitas"],"vos":["solicitás"],"s3":["solicita"],"p1":["solicitamos"],"p2":["solicitáis"],"p3":["solicitan"]},
+    "IndImp": {"s1":["solicitaba"],"s2":["solicitabas"],"vos":["solicitabas"],"s3":["solicitaba"],"p1":["solicitábamos"],"p2":["solicitabais"],"p3":["solicitaban"]},
+    "IndPret": {"s1":["solicité"],"s2":["solicitaste"],"vos":["solicitaste"],"s3":["solicitó"],"p1":["solicitamos"],"p2":["solicitasteis"],"p3":["solicitaron"]},
+    "IndFut": {"s1":["solicitaré"],"s2":["solicitarás"],"vos":["solicitarás"],"s3":["solicitará"],"p1":["solicitaremos"],"p2":["solicitaréis"],"p3":["solicitarán"]},
+    "IndCond": {"s1":["solicitaría"],"s2":["solicitarías"],"vos":["solicitarías"],"s3":["solicitaría"],"p1":["solicitaríamos"],"p2":["solicitaríais"],"p3":["solicitarían"]},
+    "SubPres": {"s1":["solicite"],"s2":["solicites"],"vos":["solicites","solicités"],"s3":["solicite"],"p1":["solicitemos"],"p2":["solicitéis"],"p3":["soliciten"]},
+    "SubImp": {"s1":["solicitara","solicitase"],"s2":["solicitaras","solicitases"],"vos":["solicitaras","solicitases"],"s3":["solicitara","solicitase"],"p1":["solicitáramos","solicitásemos"],"p2":["solicitarais","solicitaseis"],"p3":["solicitaran","solicitasen"]},
+    "SubFut": {"s1":["solicitare"],"s2":["solicitares"],"vos":["solicitares"],"s3":["solicitare"],"p1":["solicitáremos"],"p2":["solicitareis"],"p3":["solicitaren"]},
+    "CmdPos": {"s2":["solicita"],"vos":["solicitá"],"s3":["solicite"],"p1":["solicitemos"],"p2":["solicitad"],"p3":["soliciten"]}
+  }
+}

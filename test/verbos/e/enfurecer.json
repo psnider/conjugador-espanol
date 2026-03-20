@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽɱfuɾeˈseɾ]",
+    "silabacion": "en-fu-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, furia (\"ira, cólera\") y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enfurecer","gerundio":"enfureciendo","participio":"enfurecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["enfurezco"],"s2":["enfureces"],"vos":["enfurecés"],"s3":["enfurece"],"p1":["enfurecemos"],"p2":["enfurecéis"],"p3":["enfurecen"]},
+    "IndImp": {"s1":["enfurecía"],"s2":["enfurecías"],"vos":["enfurecías"],"s3":["enfurecía"],"p1":["enfurecíamos"],"p2":["enfurecíais"],"p3":["enfurecían"]},
+    "IndPret": {"s1":["enfurecí"],"s2":["enfureciste"],"vos":["enfureciste"],"s3":["enfureció"],"p1":["enfurecimos"],"p2":["enfurecisteis"],"p3":["enfurecieron"]},
+    "IndFut": {"s1":["enfureceré"],"s2":["enfurecerás"],"vos":["enfurecerás"],"s3":["enfurecerá"],"p1":["enfureceremos"],"p2":["enfureceréis"],"p3":["enfurecerán"]},
+    "IndCond": {"s1":["enfurecería"],"s2":["enfurecerías"],"vos":["enfurecerías"],"s3":["enfurecería"],"p1":["enfureceríamos"],"p2":["enfureceríais"],"p3":["enfurecerían"]},
+    "SubPres": {"s1":["enfurezca"],"s2":["enfurezcas"],"vos":["enfurezcas","enfurezcás"],"s3":["enfurezca"],"p1":["enfurezcamos"],"p2":["enfurezcáis"],"p3":["enfurezcan"]},
+    "SubImp": {"s1":["enfureciera","enfureciese"],"s2":["enfurecieras","enfurecieses"],"vos":["enfurecieras","enfurecieses"],"s3":["enfureciera","enfureciese"],"p1":["enfureciéramos","enfureciésemos"],"p2":["enfurecierais","enfurecieseis"],"p3":["enfurecieran","enfureciesen"]},
+    "SubFut": {"s1":["enfureciere"],"s2":["enfurecieres"],"vos":["enfurecieres"],"s3":["enfureciere"],"p1":["enfureciéremos"],"p2":["enfureciereis"],"p3":["enfurecieren"]},
+    "CmdPos": {"s2":["enfurece"],"vos":["enfurecé"],"s3":["enfurezca"],"p1":["enfurezcamos"],"p2":["enfureced"],"p3":["enfurezcan"]}
+  }
+}

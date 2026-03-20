@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lamẽn̪ˈt̪aɾ]",
+    "silabacion": "la-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lamentar","gerundio":"lamentando","participio":"lamentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lamento"],"s2":["lamentas"],"vos":["lamentás"],"s3":["lamenta"],"p1":["lamentamos"],"p2":["lamentáis"],"p3":["lamentan"]},
+    "IndImp": {"s1":["lamentaba"],"s2":["lamentabas"],"vos":["lamentabas"],"s3":["lamentaba"],"p1":["lamentábamos"],"p2":["lamentabais"],"p3":["lamentaban"]},
+    "IndPret": {"s1":["lamenté"],"s2":["lamentaste"],"vos":["lamentaste"],"s3":["lamentó"],"p1":["lamentamos"],"p2":["lamentasteis"],"p3":["lamentaron"]},
+    "IndFut": {"s1":["lamentaré"],"s2":["lamentarás"],"vos":["lamentarás"],"s3":["lamentará"],"p1":["lamentaremos"],"p2":["lamentaréis"],"p3":["lamentarán"]},
+    "IndCond": {"s1":["lamentaría"],"s2":["lamentarías"],"vos":["lamentarías"],"s3":["lamentaría"],"p1":["lamentaríamos"],"p2":["lamentaríais"],"p3":["lamentarían"]},
+    "SubPres": {"s1":["lamente"],"s2":["lamentes"],"vos":["lamentes","lamentés"],"s3":["lamente"],"p1":["lamentemos"],"p2":["lamentéis"],"p3":["lamenten"]},
+    "SubImp": {"s1":["lamentara","lamentase"],"s2":["lamentaras","lamentases"],"vos":["lamentaras","lamentases"],"s3":["lamentara","lamentase"],"p1":["lamentáramos","lamentásemos"],"p2":["lamentarais","lamentaseis"],"p3":["lamentaran","lamentasen"]},
+    "SubFut": {"s1":["lamentare"],"s2":["lamentares"],"vos":["lamentares"],"s3":["lamentare"],"p1":["lamentáremos"],"p2":["lamentareis"],"p3":["lamentaren"]},
+    "CmdPos": {"s2":["lamenta"],"vos":["lamentá"],"s3":["lamente"],"p1":["lamentemos"],"p2":["lamentad"],"p3":["lamenten"]}
+  }
+}

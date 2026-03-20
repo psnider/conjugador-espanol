@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eɾkãmˈbjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De intercambio y el sufijo -ar",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"intercambiar","gerundio":"intercambiando","participio":"intercambiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["intercambio"],"s2":["intercambias"],"vos":["intercambiás"],"s3":["intercambia"],"p1":["intercambiamos"],"p2":["intercambiáis"],"p3":["intercambian"]},
+    "IndImp": {"s1":["intercambiaba"],"s2":["intercambiabas"],"vos":["intercambiabas"],"s3":["intercambiaba"],"p1":["intercambiábamos"],"p2":["intercambiabais"],"p3":["intercambiaban"]},
+    "IndPret": {"s1":["intercambié"],"s2":["intercambiaste"],"vos":["intercambiaste"],"s3":["intercambió"],"p1":["intercambiamos"],"p2":["intercambiasteis"],"p3":["intercambiaron"]},
+    "IndFut": {"s1":["intercambiaré"],"s2":["intercambiarás"],"vos":["intercambiarás"],"s3":["intercambiará"],"p1":["intercambiaremos"],"p2":["intercambiaréis"],"p3":["intercambiarán"]},
+    "IndCond": {"s1":["intercambiaría"],"s2":["intercambiarías"],"vos":["intercambiarías"],"s3":["intercambiaría"],"p1":["intercambiaríamos"],"p2":["intercambiaríais"],"p3":["intercambiarían"]},
+    "SubPres": {"s1":["intercambie"],"s2":["intercambies"],"vos":["intercambies","intercambiés"],"s3":["intercambie"],"p1":["intercambiemos"],"p2":["intercambiéis"],"p3":["intercambien"]},
+    "SubImp": {"s1":["intercambiara","intercambiase"],"s2":["intercambiaras","intercambiases"],"vos":["intercambiaras","intercambiases"],"s3":["intercambiara","intercambiase"],"p1":["intercambiáramos","intercambiásemos"],"p2":["intercambiarais","intercambiaseis"],"p3":["intercambiaran","intercambiasen"]},
+    "SubFut": {"s1":["intercambiare"],"s2":["intercambiares"],"vos":["intercambiares"],"s3":["intercambiare"],"p1":["intercambiáremos"],"p2":["intercambiareis"],"p3":["intercambiaren"]},
+    "CmdPos": {"s2":["intercambia"],"vos":["intercambiá"],"s3":["intercambie"],"p1":["intercambiemos"],"p2":["intercambiad"],"p3":["intercambien"]}
+  }
+}

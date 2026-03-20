@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[inũn̪ˈd̪aɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inundāre.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inundar","gerundio":"inundando","participio":"inundado"},
+  "formas_personales": {
+    "IndPres": {"s1":["inundo"],"s2":["inundas"],"vos":["inundás"],"s3":["inunda"],"p1":["inundamos"],"p2":["inundáis"],"p3":["inundan"]},
+    "IndImp": {"s1":["inundaba"],"s2":["inundabas"],"vos":["inundabas"],"s3":["inundaba"],"p1":["inundábamos"],"p2":["inundabais"],"p3":["inundaban"]},
+    "IndPret": {"s1":["inundé"],"s2":["inundaste"],"vos":["inundaste"],"s3":["inundó"],"p1":["inundamos"],"p2":["inundasteis"],"p3":["inundaron"]},
+    "IndFut": {"s1":["inundaré"],"s2":["inundarás"],"vos":["inundarás"],"s3":["inundará"],"p1":["inundaremos"],"p2":["inundaréis"],"p3":["inundarán"]},
+    "IndCond": {"s1":["inundaría"],"s2":["inundarías"],"vos":["inundarías"],"s3":["inundaría"],"p1":["inundaríamos"],"p2":["inundaríais"],"p3":["inundarían"]},
+    "SubPres": {"s1":["inunde"],"s2":["inundes"],"vos":["inundes","inundés"],"s3":["inunde"],"p1":["inundemos"],"p2":["inundéis"],"p3":["inunden"]},
+    "SubImp": {"s1":["inundara","inundase"],"s2":["inundaras","inundases"],"vos":["inundaras","inundases"],"s3":["inundara","inundase"],"p1":["inundáramos","inundásemos"],"p2":["inundarais","inundaseis"],"p3":["inundaran","inundasen"]},
+    "SubFut": {"s1":["inundare"],"s2":["inundares"],"vos":["inundares"],"s3":["inundare"],"p1":["inundáremos"],"p2":["inundareis"],"p3":["inundaren"]},
+    "CmdPos": {"s2":["inunda"],"vos":["inundá"],"s3":["inunde"],"p1":["inundemos"],"p2":["inundad"],"p3":["inunden"]}
+  }
+}

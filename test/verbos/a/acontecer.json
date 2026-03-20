@@ -4,7 +4,8 @@
     "silabacion": "a-con-te-cer",
     "acentuacion": "aguda",
     "etimologia": "Del prefijo a- y contecer.",
-    "modelos": ["parecer"]
+    "modelos": ["parecer"],
+    "impersonal": true
   },
   "formas_no_personales": {"infinitivo":"acontecer","gerundio":"aconteciendo","participio":"acontecido"},
   "formas_personales": {

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[flãŋkeˈaɾ]",
+    "silabacion": "flan-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De flanco y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"flanquear","gerundio":"flanqueando","participio":"flanqueado"},
+  "formas_personales": {
+    "IndPres": {"s1":["flanqueo"],"s2":["flanqueas"],"vos":["flanqueás"],"s3":["flanquea"],"p1":["flanqueamos"],"p2":["flanqueáis"],"p3":["flanquean"]},
+    "IndImp": {"s1":["flanqueaba"],"s2":["flanqueabas"],"vos":["flanqueabas"],"s3":["flanqueaba"],"p1":["flanqueábamos"],"p2":["flanqueabais"],"p3":["flanqueaban"]},
+    "IndPret": {"s1":["flanqueé"],"s2":["flanqueaste"],"vos":["flanqueaste"],"s3":["flanqueó"],"p1":["flanqueamos"],"p2":["flanqueasteis"],"p3":["flanquearon"]},
+    "IndFut": {"s1":["flanquearé"],"s2":["flanquearás"],"vos":["flanquearás"],"s3":["flanqueará"],"p1":["flanquearemos"],"p2":["flanquearéis"],"p3":["flanquearán"]},
+    "IndCond": {"s1":["flanquearía"],"s2":["flanquearías"],"vos":["flanquearías"],"s3":["flanquearía"],"p1":["flanquearíamos"],"p2":["flanquearíais"],"p3":["flanquearían"]},
+    "SubPres": {"s1":["flanquee"],"s2":["flanquees"],"vos":["flanquees","flanqueés"],"s3":["flanquee"],"p1":["flanqueemos"],"p2":["flanqueéis"],"p3":["flanqueen"]},
+    "SubImp": {"s1":["flanqueara","flanquease"],"s2":["flanquearas","flanqueases"],"vos":["flanquearas","flanqueases"],"s3":["flanqueara","flanquease"],"p1":["flanqueáramos","flanqueásemos"],"p2":["flanquearais","flanqueaseis"],"p3":["flanquearan","flanqueasen"]},
+    "SubFut": {"s1":["flanqueare"],"s2":["flanqueares"],"vos":["flanqueares"],"s3":["flanqueare"],"p1":["flanqueáremos"],"p2":["flanqueareis"],"p3":["flanquearen"]},
+    "CmdPos": {"s2":["flanquea"],"vos":["flanqueá"],"s3":["flanquee"],"p1":["flanqueemos"],"p2":["flanquead"],"p3":["flanqueen"]}
+  }
+}

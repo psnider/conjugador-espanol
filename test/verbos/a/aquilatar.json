@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akilaˈt̪aɾ]",
+    "silabacion": "a-qui-la-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aquilatar","gerundio":"aquilatando","participio":"aquilatado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aquilato"],"s2":["aquilatas"],"vos":["aquilatás"],"s3":["aquilata"],"p1":["aquilatamos"],"p2":["aquilatáis"],"p3":["aquilatan"]},
+    "IndImp": {"s1":["aquilataba"],"s2":["aquilatabas"],"vos":["aquilatabas"],"s3":["aquilataba"],"p1":["aquilatábamos"],"p2":["aquilatabais"],"p3":["aquilataban"]},
+    "IndPret": {"s1":["aquilaté"],"s2":["aquilataste"],"vos":["aquilataste"],"s3":["aquilató"],"p1":["aquilatamos"],"p2":["aquilatasteis"],"p3":["aquilataron"]},
+    "IndFut": {"s1":["aquilataré"],"s2":["aquilatarás"],"vos":["aquilatarás"],"s3":["aquilatará"],"p1":["aquilataremos"],"p2":["aquilataréis"],"p3":["aquilatarán"]},
+    "IndCond": {"s1":["aquilataría"],"s2":["aquilatarías"],"vos":["aquilatarías"],"s3":["aquilataría"],"p1":["aquilataríamos"],"p2":["aquilataríais"],"p3":["aquilatarían"]},
+    "SubPres": {"s1":["aquilate"],"s2":["aquilates"],"vos":["aquilates","aquilatés"],"s3":["aquilate"],"p1":["aquilatemos"],"p2":["aquilatéis"],"p3":["aquilaten"]},
+    "SubImp": {"s1":["aquilatara","aquilatase"],"s2":["aquilataras","aquilatases"],"vos":["aquilataras","aquilatases"],"s3":["aquilatara","aquilatase"],"p1":["aquilatáramos","aquilatásemos"],"p2":["aquilatarais","aquilataseis"],"p3":["aquilataran","aquilatasen"]},
+    "SubFut": {"s1":["aquilatare"],"s2":["aquilatares"],"vos":["aquilatares"],"s3":["aquilatare"],"p1":["aquilatáremos"],"p2":["aquilatareis"],"p3":["aquilataren"]},
+    "CmdPos": {"s2":["aquilata"],"vos":["aquilatá"],"s3":["aquilate"],"p1":["aquilatemos"],"p2":["aquilatad"],"p3":["aquilaten"]}
+  }
+}

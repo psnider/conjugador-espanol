@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪amiˈnaɾ]",
+    "silabacion": "con-ta-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín contamināre ('entrar una cosa en contacto con la otra')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"contaminar","gerundio":"contaminando","participio":"contaminado"},
+  "formas_personales": {
+    "IndPres": {"s1":["contamino"],"s2":["contaminas"],"vos":["contaminás"],"s3":["contamina"],"p1":["contaminamos"],"p2":["contamináis"],"p3":["contaminan"]},
+    "IndImp": {"s1":["contaminaba"],"s2":["contaminabas"],"vos":["contaminabas"],"s3":["contaminaba"],"p1":["contaminábamos"],"p2":["contaminabais"],"p3":["contaminaban"]},
+    "IndPret": {"s1":["contaminé"],"s2":["contaminaste"],"vos":["contaminaste"],"s3":["contaminó"],"p1":["contaminamos"],"p2":["contaminasteis"],"p3":["contaminaron"]},
+    "IndFut": {"s1":["contaminaré"],"s2":["contaminarás"],"vos":["contaminarás"],"s3":["contaminará"],"p1":["contaminaremos"],"p2":["contaminaréis"],"p3":["contaminarán"]},
+    "IndCond": {"s1":["contaminaría"],"s2":["contaminarías"],"vos":["contaminarías"],"s3":["contaminaría"],"p1":["contaminaríamos"],"p2":["contaminaríais"],"p3":["contaminarían"]},
+    "SubPres": {"s1":["contamine"],"s2":["contamines"],"vos":["contamines","contaminés"],"s3":["contamine"],"p1":["contaminemos"],"p2":["contaminéis"],"p3":["contaminen"]},
+    "SubImp": {"s1":["contaminara","contaminase"],"s2":["contaminaras","contaminases"],"vos":["contaminaras","contaminases"],"s3":["contaminara","contaminase"],"p1":["contamináramos","contaminásemos"],"p2":["contaminarais","contaminaseis"],"p3":["contaminaran","contaminasen"]},
+    "SubFut": {"s1":["contaminare"],"s2":["contaminares"],"vos":["contaminares"],"s3":["contaminare"],"p1":["contamináremos"],"p2":["contaminareis"],"p3":["contaminaren"]},
+    "CmdPos": {"s2":["contamina"],"vos":["contaminá"],"s3":["contamine"],"p1":["contaminemos"],"p2":["contaminad"],"p3":["contaminen"]}
+  }
+}

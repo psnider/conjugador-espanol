@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaˈɾaɾ]",
+    "silabacion": "a-pa-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aparar","gerundio":"aparando","participio":"aparado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aparo"],"s2":["aparas"],"vos":["aparás"],"s3":["apara"],"p1":["aparamos"],"p2":["aparáis"],"p3":["aparan"]},
+    "IndImp": {"s1":["aparaba"],"s2":["aparabas"],"vos":["aparabas"],"s3":["aparaba"],"p1":["aparábamos"],"p2":["aparabais"],"p3":["aparaban"]},
+    "IndPret": {"s1":["aparé"],"s2":["aparaste"],"vos":["aparaste"],"s3":["aparó"],"p1":["aparamos"],"p2":["aparasteis"],"p3":["apararon"]},
+    "IndFut": {"s1":["apararé"],"s2":["apararás"],"vos":["apararás"],"s3":["aparará"],"p1":["apararemos"],"p2":["apararéis"],"p3":["apararán"]},
+    "IndCond": {"s1":["apararía"],"s2":["apararías"],"vos":["apararías"],"s3":["apararía"],"p1":["apararíamos"],"p2":["apararíais"],"p3":["apararían"]},
+    "SubPres": {"s1":["apare"],"s2":["apares"],"vos":["apares","aparés"],"s3":["apare"],"p1":["aparemos"],"p2":["aparéis"],"p3":["aparen"]},
+    "SubImp": {"s1":["aparara","aparase"],"s2":["apararas","aparases"],"vos":["apararas","aparases"],"s3":["aparara","aparase"],"p1":["aparáramos","aparásemos"],"p2":["apararais","aparaseis"],"p3":["apararan","aparasen"]},
+    "SubFut": {"s1":["aparare"],"s2":["aparares"],"vos":["aparares"],"s3":["aparare"],"p1":["aparáremos"],"p2":["aparareis"],"p3":["apararen"]},
+    "CmdPos": {"s2":["apara"],"vos":["apará"],"s3":["apare"],"p1":["aparemos"],"p2":["aparad"],"p3":["aparen"]}
+  }
+}

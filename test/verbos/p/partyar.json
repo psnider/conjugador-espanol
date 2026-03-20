@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paɾˈt̪jaɾ]",
+    "silabacion": "par-ty-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés party",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"partyar","gerundio":"partyando","participio":"partyado"},
+  "formas_personales": {
+    "IndPres": {"s1":["partyo"],"s2":["partyas"],"vos":["partyás"],"s3":["partya"],"p1":["partyamos"],"p2":["partyáis"],"p3":["partyan"]},
+    "IndImp": {"s1":["partyaba"],"s2":["partyabas"],"vos":["partyabas"],"s3":["partyaba"],"p1":["partyábamos"],"p2":["partyabais"],"p3":["partyaban"]},
+    "IndPret": {"s1":["partyé"],"s2":["partyaste"],"vos":["partyaste"],"s3":["partyó"],"p1":["partyamos"],"p2":["partyasteis"],"p3":["partyaron"]},
+    "IndFut": {"s1":["partyaré"],"s2":["partyarás"],"vos":["partyarás"],"s3":["partyará"],"p1":["partyaremos"],"p2":["partyaréis"],"p3":["partyarán"]},
+    "IndCond": {"s1":["partyaría"],"s2":["partyarías"],"vos":["partyarías"],"s3":["partyaría"],"p1":["partyaríamos"],"p2":["partyaríais"],"p3":["partyarían"]},
+    "SubPres": {"s1":["partye"],"s2":["partyes"],"vos":["partyes","partyés"],"s3":["partye"],"p1":["partyemos"],"p2":["partyéis"],"p3":["partyen"]},
+    "SubImp": {"s1":["partyara","partyase"],"s2":["partyaras","partyases"],"vos":["partyaras","partyases"],"s3":["partyara","partyase"],"p1":["partyáramos","partyásemos"],"p2":["partyarais","partyaseis"],"p3":["partyaran","partyasen"]},
+    "SubFut": {"s1":["partyare"],"s2":["partyares"],"vos":["partyares"],"s3":["partyare"],"p1":["partyáremos"],"p2":["partyareis"],"p3":["partyaren"]},
+    "CmdPos": {"s2":["partya"],"vos":["partyá"],"s3":["partye"],"p1":["partyemos"],"p2":["partyad"],"p3":["partyen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espeˈɣ̞aɾ]",
+    "silabacion": "des-pe-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y pegar.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"despegar","gerundio":"despegando","participio":"despegado"},
+  "formas_personales": {
+    "IndPres": {"s1":["despego"],"s2":["despegas"],"vos":["despegás"],"s3":["despega"],"p1":["despegamos"],"p2":["despegáis"],"p3":["despegan"]},
+    "IndImp": {"s1":["despegaba"],"s2":["despegabas"],"vos":["despegabas"],"s3":["despegaba"],"p1":["despegábamos"],"p2":["despegabais"],"p3":["despegaban"]},
+    "IndPret": {"s1":["despegué"],"s2":["despegaste"],"vos":["despegaste"],"s3":["despegó"],"p1":["despegamos"],"p2":["despegasteis"],"p3":["despegaron"]},
+    "IndFut": {"s1":["despegaré"],"s2":["despegarás"],"vos":["despegarás"],"s3":["despegará"],"p1":["despegaremos"],"p2":["despegaréis"],"p3":["despegarán"]},
+    "IndCond": {"s1":["despegaría"],"s2":["despegarías"],"vos":["despegarías"],"s3":["despegaría"],"p1":["despegaríamos"],"p2":["despegaríais"],"p3":["despegarían"]},
+    "SubPres": {"s1":["despegue"],"s2":["despegues"],"vos":["despegues","despegués"],"s3":["despegue"],"p1":["despeguemos"],"p2":["despeguéis"],"p3":["despeguen"]},
+    "SubImp": {"s1":["despegara","despegase"],"s2":["despegaras","despegases"],"vos":["despegaras","despegases"],"s3":["despegara","despegase"],"p1":["despegáramos","despegásemos"],"p2":["despegarais","despegaseis"],"p3":["despegaran","despegasen"]},
+    "SubFut": {"s1":["despegare"],"s2":["despegares"],"vos":["despegares"],"s3":["despegare"],"p1":["despegáremos"],"p2":["despegareis"],"p3":["despegaren"]},
+    "CmdPos": {"s2":["despega"],"vos":["despegá"],"s3":["despegue"],"p1":["despeguemos"],"p2":["despegad"],"p3":["despeguen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oβ̞eð̞eˈseɾ]",
+    "silabacion": "o-be-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín oboedescĕre",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"obedecer","gerundio":"obedeciendo","participio":"obedecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["obedezco"],"s2":["obedeces"],"vos":["obedecés"],"s3":["obedece"],"p1":["obedecemos"],"p2":["obedecéis"],"p3":["obedecen"]},
+    "IndImp": {"s1":["obedecía"],"s2":["obedecías"],"vos":["obedecías"],"s3":["obedecía"],"p1":["obedecíamos"],"p2":["obedecíais"],"p3":["obedecían"]},
+    "IndPret": {"s1":["obedecí"],"s2":["obedeciste"],"vos":["obedeciste"],"s3":["obedeció"],"p1":["obedecimos"],"p2":["obedecisteis"],"p3":["obedecieron"]},
+    "IndFut": {"s1":["obedeceré"],"s2":["obedecerás"],"vos":["obedecerás"],"s3":["obedecerá"],"p1":["obedeceremos"],"p2":["obedeceréis"],"p3":["obedecerán"]},
+    "IndCond": {"s1":["obedecería"],"s2":["obedecerías"],"vos":["obedecerías"],"s3":["obedecería"],"p1":["obedeceríamos"],"p2":["obedeceríais"],"p3":["obedecerían"]},
+    "SubPres": {"s1":["obedezca"],"s2":["obedezcas"],"vos":["obedezcas","obedezcás"],"s3":["obedezca"],"p1":["obedezcamos"],"p2":["obedezcáis"],"p3":["obedezcan"]},
+    "SubImp": {"s1":["obedeciera","obedeciese"],"s2":["obedecieras","obedecieses"],"vos":["obedecieras","obedecieses"],"s3":["obedeciera","obedeciese"],"p1":["obedeciéramos","obedeciésemos"],"p2":["obedecierais","obedecieseis"],"p3":["obedecieran","obedeciesen"]},
+    "SubFut": {"s1":["obedeciere"],"s2":["obedecieres"],"vos":["obedecieres"],"s3":["obedeciere"],"p1":["obedeciéremos"],"p2":["obedeciereis"],"p3":["obedecieren"]},
+    "CmdPos": {"s2":["obedece"],"vos":["obedecé"],"s3":["obedezca"],"p1":["obedezcamos"],"p2":["obedeced"],"p3":["obedezcan"]}
+  }
+}

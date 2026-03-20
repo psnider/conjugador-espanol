@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞uˈriɾ]",
+    "silabacion": "a-bu-rrir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín abhorrēre.[1]",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"aburrir","gerundio":"aburriendo","participio":"aburrido"},
+  "formas_personales": {
+    "IndPres": {"s1":["aburro"],"s2":["aburres"],"vos":["aburrís"],"s3":["aburre"],"p1":["aburrimos"],"p2":["aburrís"],"p3":["aburren"]},
+    "IndImp": {"s1":["aburría"],"s2":["aburrías"],"vos":["aburrías"],"s3":["aburría"],"p1":["aburríamos"],"p2":["aburríais"],"p3":["aburrían"]},
+    "IndPret": {"s1":["aburrí"],"s2":["aburriste"],"vos":["aburriste"],"s3":["aburrió"],"p1":["aburrimos"],"p2":["aburristeis"],"p3":["aburrieron"]},
+    "IndFut": {"s1":["aburriré"],"s2":["aburrirás"],"vos":["aburrirás"],"s3":["aburrirá"],"p1":["aburriremos"],"p2":["aburriréis"],"p3":["aburrirán"]},
+    "IndCond": {"s1":["aburriría"],"s2":["aburrirías"],"vos":["aburrirías"],"s3":["aburriría"],"p1":["aburriríamos"],"p2":["aburriríais"],"p3":["aburrirían"]},
+    "SubPres": {"s1":["aburra"],"s2":["aburras"],"vos":["aburras","aburrás"],"s3":["aburra"],"p1":["aburramos"],"p2":["aburráis"],"p3":["aburran"]},
+    "SubImp": {"s1":["aburriera","aburriese"],"s2":["aburrieras","aburrieses"],"vos":["aburrieras","aburrieses"],"s3":["aburriera","aburriese"],"p1":["aburriéramos","aburriésemos"],"p2":["aburrierais","aburrieseis"],"p3":["aburrieran","aburriesen"]},
+    "SubFut": {"s1":["aburriere"],"s2":["aburrieres"],"vos":["aburrieres"],"s3":["aburriere"],"p1":["aburriéremos"],"p2":["aburriereis"],"p3":["aburrieren"]},
+    "CmdPos": {"s2":["aburre"],"vos":["aburrí"],"s3":["aburra"],"p1":["aburramos"],"p2":["aburrid"],"p3":["aburran"]}
+  }
+}

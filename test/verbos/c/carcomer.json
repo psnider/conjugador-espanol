@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaɾkoˈmeɾ]",
+    "silabacion": "car-co-mer",
+    "acentuacion": "aguda",
+    "etimologia": "Denominal de carcoma. De carcoma y el sufijo -er.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"carcomer","gerundio":"carcomiendo","participio":"carcomido"},
+  "formas_personales": {
+    "IndPres": {"s1":["carcomo"],"s2":["carcomes"],"vos":["carcomés"],"s3":["carcome"],"p1":["carcomemos"],"p2":["carcoméis"],"p3":["carcomen"]},
+    "IndImp": {"s1":["carcomía"],"s2":["carcomías"],"vos":["carcomías"],"s3":["carcomía"],"p1":["carcomíamos"],"p2":["carcomíais"],"p3":["carcomían"]},
+    "IndPret": {"s1":["carcomí"],"s2":["carcomiste"],"vos":["carcomiste"],"s3":["carcomió"],"p1":["carcomimos"],"p2":["carcomisteis"],"p3":["carcomieron"]},
+    "IndFut": {"s1":["carcomeré"],"s2":["carcomerás"],"vos":["carcomerás"],"s3":["carcomerá"],"p1":["carcomeremos"],"p2":["carcomeréis"],"p3":["carcomerán"]},
+    "IndCond": {"s1":["carcomería"],"s2":["carcomerías"],"vos":["carcomerías"],"s3":["carcomería"],"p1":["carcomeríamos"],"p2":["carcomeríais"],"p3":["carcomerían"]},
+    "SubPres": {"s1":["carcoma"],"s2":["carcomas"],"vos":["carcomas","carcomás"],"s3":["carcoma"],"p1":["carcomamos"],"p2":["carcomáis"],"p3":["carcoman"]},
+    "SubImp": {"s1":["carcomiera","carcomiese"],"s2":["carcomieras","carcomieses"],"vos":["carcomieras","carcomieses"],"s3":["carcomiera","carcomiese"],"p1":["carcomiéramos","carcomiésemos"],"p2":["carcomierais","carcomieseis"],"p3":["carcomieran","carcomiesen"]},
+    "SubFut": {"s1":["carcomiere"],"s2":["carcomieres"],"vos":["carcomieres"],"s3":["carcomiere"],"p1":["carcomiéremos"],"p2":["carcomiereis"],"p3":["carcomieren"]},
+    "CmdPos": {"s2":["carcome"],"vos":["carcomé"],"s3":["carcoma"],"p1":["carcomamos"],"p2":["carcomed"],"p3":["carcoman"]}
+  }
+}

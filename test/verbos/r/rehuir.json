@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈ(ɣ̞)w̝iɾ]",
+    "silabacion": "re-huir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y huir.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"rehuir","gerundio":"rehuyendo","participio":"rehuido"},
+  "formas_personales": {
+    "IndPres": {"s1":["rehúyo"],"s2":["rehúyes"],"vos":["rehuís"],"s3":["rehúye"],"p1":["rehuimos"],"p2":["rehuís"],"p3":["rehúyen"]},
+    "IndImp": {"s1":["rehuía"],"s2":["rehuías"],"vos":["rehuías"],"s3":["rehuía"],"p1":["rehuíamos"],"p2":["rehuíais"],"p3":["rehuían"]},
+    "IndPret": {"s1":["rehuí"],"s2":["rehuiste"],"vos":["rehuiste"],"s3":["rehuyó"],"p1":["rehuimos"],"p2":["rehuisteis"],"p3":["rehuyeron"]},
+    "IndFut": {"s1":["rehuiré"],"s2":["rehuirás"],"vos":["rehuirás"],"s3":["rehuirá"],"p1":["rehuiremos"],"p2":["rehuiréis"],"p3":["rehuirán"]},
+    "IndCond": {"s1":["rehuiría"],"s2":["rehuirías"],"vos":["rehuirías"],"s3":["rehuiría"],"p1":["rehuiríamos"],"p2":["rehuiríais"],"p3":["rehuirían"]},
+    "SubPres": {"s1":["rehúya"],"s2":["rehúyas"],"vos":["rehúyas","rehuyás"],"s3":["rehúya"],"p1":["rehuyamos"],"p2":["rehuyáis"],"p3":["rehúyan"]},
+    "SubImp": {"s1":["rehuyera","rehuyese"],"s2":["rehuyeras","rehuyeses"],"vos":["rehuyeras","rehuyeses"],"s3":["rehuyera","rehuyese"],"p1":["rehuyéramos","rehuyésemos"],"p2":["rehuyerais","rehuyeseis"],"p3":["rehuyeran","rehuyesen"]},
+    "SubFut": {"s1":["rehuyere"],"s2":["rehuyeres"],"vos":["rehuyeres"],"s3":["rehuyere"],"p1":["rehuyéremos"],"p2":["rehuyereis"],"p3":["rehuyeren"]},
+    "CmdPos": {"s2":["rehúye"],"vos":["rehuí"],"s3":["rehúya"],"p1":["rehuyamos"],"p2":["rehuid"],"p3":["rehúyan"]}
+  }
+}

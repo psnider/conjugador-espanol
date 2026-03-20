@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iswaˈð̞iɾ]",
+    "silabacion": "di-sua-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dissuadēre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"disuadir","gerundio":"disuadiendo","participio":"disuadido"},
+  "formas_personales": {
+    "IndPres": {"s1":["disuado"],"s2":["disuades"],"vos":["disuadís"],"s3":["disuade"],"p1":["disuadimos"],"p2":["disuadís"],"p3":["disuaden"]},
+    "IndImp": {"s1":["disuadía"],"s2":["disuadías"],"vos":["disuadías"],"s3":["disuadía"],"p1":["disuadíamos"],"p2":["disuadíais"],"p3":["disuadían"]},
+    "IndPret": {"s1":["disuadí"],"s2":["disuadiste"],"vos":["disuadiste"],"s3":["disuadió"],"p1":["disuadimos"],"p2":["disuadisteis"],"p3":["disuadieron"]},
+    "IndFut": {"s1":["disuadiré"],"s2":["disuadirás"],"vos":["disuadirás"],"s3":["disuadirá"],"p1":["disuadiremos"],"p2":["disuadiréis"],"p3":["disuadirán"]},
+    "IndCond": {"s1":["disuadiría"],"s2":["disuadirías"],"vos":["disuadirías"],"s3":["disuadiría"],"p1":["disuadiríamos"],"p2":["disuadiríais"],"p3":["disuadirían"]},
+    "SubPres": {"s1":["disuada"],"s2":["disuadas"],"vos":["disuadas","disuadás"],"s3":["disuada"],"p1":["disuadamos"],"p2":["disuadáis"],"p3":["disuadan"]},
+    "SubImp": {"s1":["disuadiera","disuadiese"],"s2":["disuadieras","disuadieses"],"vos":["disuadieras","disuadieses"],"s3":["disuadiera","disuadiese"],"p1":["disuadiéramos","disuadiésemos"],"p2":["disuadierais","disuadieseis"],"p3":["disuadieran","disuadiesen"]},
+    "SubFut": {"s1":["disuadiere"],"s2":["disuadieres"],"vos":["disuadieres"],"s3":["disuadiere"],"p1":["disuadiéremos"],"p2":["disuadiereis"],"p3":["disuadieren"]},
+    "CmdPos": {"s2":["disuade"],"vos":["disuadí"],"s3":["disuada"],"p1":["disuadamos"],"p2":["disuadid"],"p3":["disuadan"]}
+  }
+}

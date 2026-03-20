@@ -1,0 +1,22 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪aɾð̞eˈseɾ]",
+    "silabacion": "a-tar-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, tarde y el sufijo -ecer",
+    "modelos": ["parecer"],
+    "impersonal": true
+  },
+  "formas_no_personales": {"infinitivo":"atardecer","gerundio":"atardeciendo","participio":"atardecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["atardezco"],"s2":["atardeces"],"vos":["atardecés"],"s3":["atardece"],"p1":["atardecemos"],"p2":["atardecéis"],"p3":["atardecen"]},
+    "IndImp": {"s1":["atardecía"],"s2":["atardecías"],"vos":["atardecías"],"s3":["atardecía"],"p1":["atardecíamos"],"p2":["atardecíais"],"p3":["atardecían"]},
+    "IndPret": {"s1":["atardecí"],"s2":["atardeciste"],"vos":["atardeciste"],"s3":["atardeció"],"p1":["atardecimos"],"p2":["atardecisteis"],"p3":["atardecieron"]},
+    "IndFut": {"s1":["atardeceré"],"s2":["atardecerás"],"vos":["atardecerás"],"s3":["atardecerá"],"p1":["atardeceremos"],"p2":["atardeceréis"],"p3":["atardecerán"]},
+    "IndCond": {"s1":["atardecería"],"s2":["atardecerías"],"vos":["atardecerías"],"s3":["atardecería"],"p1":["atardeceríamos"],"p2":["atardeceríais"],"p3":["atardecerían"]},
+    "SubPres": {"s1":["atardezca"],"s2":["atardezcas"],"vos":["atardezcas","atardezcás"],"s3":["atardezca"],"p1":["atardezcamos"],"p2":["atardezcáis"],"p3":["atardezcan"]},
+    "SubImp": {"s1":["atardeciera","atardeciese"],"s2":["atardecieras","atardecieses"],"vos":["atardecieras","atardecieses"],"s3":["atardeciera","atardeciese"],"p1":["atardeciéramos","atardeciésemos"],"p2":["atardecierais","atardecieseis"],"p3":["atardecieran","atardeciesen"]},
+    "SubFut": {"s1":["atardeciere"],"s2":["atardecieres"],"vos":["atardecieres"],"s3":["atardeciere"],"p1":["atardeciéremos"],"p2":["atardeciereis"],"p3":["atardecieren"]},
+    "CmdPos": {"s2":["atardece"],"vos":["atardecé"],"s3":["atardezca"],"p1":["atardezcamos"],"p2":["atardeced"],"p3":["atardezcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roˈβ̞aɾ]",
+    "silabacion": "ro-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tardío raubare ('saquear')[1], del protogermánico *raubōną, del protogermánico *raubō, del protogermánico *reufaną, del protoindoeuropeo *hₓréup-. Compárese el catalán robar, el francés rober, el italiano rubare, el portugués roubar, o el provenzal raubar. La misma raíz indoeuropea es el origen del español romper.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"robar","gerundio":"robando","participio":"robado"},
+  "formas_personales": {
+    "IndPres": {"s1":["robo"],"s2":["robas"],"vos":["robás"],"s3":["roba"],"p1":["robamos"],"p2":["robáis"],"p3":["roban"]},
+    "IndImp": {"s1":["robaba"],"s2":["robabas"],"vos":["robabas"],"s3":["robaba"],"p1":["robábamos"],"p2":["robabais"],"p3":["robaban"]},
+    "IndPret": {"s1":["robé"],"s2":["robaste"],"vos":["robaste"],"s3":["robó"],"p1":["robamos"],"p2":["robasteis"],"p3":["robaron"]},
+    "IndFut": {"s1":["robaré"],"s2":["robarás"],"vos":["robarás"],"s3":["robará"],"p1":["robaremos"],"p2":["robaréis"],"p3":["robarán"]},
+    "IndCond": {"s1":["robaría"],"s2":["robarías"],"vos":["robarías"],"s3":["robaría"],"p1":["robaríamos"],"p2":["robaríais"],"p3":["robarían"]},
+    "SubPres": {"s1":["robe"],"s2":["robes"],"vos":["robes","robés"],"s3":["robe"],"p1":["robemos"],"p2":["robéis"],"p3":["roben"]},
+    "SubImp": {"s1":["robara","robase"],"s2":["robaras","robases"],"vos":["robaras","robases"],"s3":["robara","robase"],"p1":["robáramos","robásemos"],"p2":["robarais","robaseis"],"p3":["robaran","robasen"]},
+    "SubFut": {"s1":["robare"],"s2":["robares"],"vos":["robares"],"s3":["robare"],"p1":["robáremos"],"p2":["robareis"],"p3":["robaren"]},
+    "CmdPos": {"s2":["roba"],"vos":["robá"],"s3":["robe"],"p1":["robemos"],"p2":["robad"],"p3":["roben"]}
+  }
+}

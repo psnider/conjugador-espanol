@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪iβ̞oˈraɾ]",
+    "silabacion": "a-ti-bo-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de atibar y borra.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atiborrar","gerundio":"atiborrando","participio":"atiborrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["atiborro"],"s2":["atiborras"],"vos":["atiborrás"],"s3":["atiborra"],"p1":["atiborramos"],"p2":["atiborráis"],"p3":["atiborran"]},
+    "IndImp": {"s1":["atiborraba"],"s2":["atiborrabas"],"vos":["atiborrabas"],"s3":["atiborraba"],"p1":["atiborrábamos"],"p2":["atiborrabais"],"p3":["atiborraban"]},
+    "IndPret": {"s1":["atiborré"],"s2":["atiborraste"],"vos":["atiborraste"],"s3":["atiborró"],"p1":["atiborramos"],"p2":["atiborrasteis"],"p3":["atiborraron"]},
+    "IndFut": {"s1":["atiborraré"],"s2":["atiborrarás"],"vos":["atiborrarás"],"s3":["atiborrará"],"p1":["atiborraremos"],"p2":["atiborraréis"],"p3":["atiborrarán"]},
+    "IndCond": {"s1":["atiborraría"],"s2":["atiborrarías"],"vos":["atiborrarías"],"s3":["atiborraría"],"p1":["atiborraríamos"],"p2":["atiborraríais"],"p3":["atiborrarían"]},
+    "SubPres": {"s1":["atiborre"],"s2":["atiborres"],"vos":["atiborres","atiborrés"],"s3":["atiborre"],"p1":["atiborremos"],"p2":["atiborréis"],"p3":["atiborren"]},
+    "SubImp": {"s1":["atiborrara","atiborrase"],"s2":["atiborraras","atiborrases"],"vos":["atiborraras","atiborrases"],"s3":["atiborrara","atiborrase"],"p1":["atiborráramos","atiborrásemos"],"p2":["atiborrarais","atiborraseis"],"p3":["atiborraran","atiborrasen"]},
+    "SubFut": {"s1":["atiborrare"],"s2":["atiborrares"],"vos":["atiborrares"],"s3":["atiborrare"],"p1":["atiborráremos"],"p2":["atiborrareis"],"p3":["atiborraren"]},
+    "CmdPos": {"s2":["atiborra"],"vos":["atiborrá"],"s3":["atiborre"],"p1":["atiborremos"],"p2":["atiborrad"],"p3":["atiborren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪ũmˈbaɾ]",
+    "silabacion": "re-tum-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"retumbar","gerundio":"retumbando","participio":"retumbado"},
+  "formas_personales": {
+    "IndPres": {"s1":["retumbo"],"s2":["retumbas"],"vos":["retumbás"],"s3":["retumba"],"p1":["retumbamos"],"p2":["retumbáis"],"p3":["retumban"]},
+    "IndImp": {"s1":["retumbaba"],"s2":["retumbabas"],"vos":["retumbabas"],"s3":["retumbaba"],"p1":["retumbábamos"],"p2":["retumbabais"],"p3":["retumbaban"]},
+    "IndPret": {"s1":["retumbé"],"s2":["retumbaste"],"vos":["retumbaste"],"s3":["retumbó"],"p1":["retumbamos"],"p2":["retumbasteis"],"p3":["retumbaron"]},
+    "IndFut": {"s1":["retumbaré"],"s2":["retumbarás"],"vos":["retumbarás"],"s3":["retumbará"],"p1":["retumbaremos"],"p2":["retumbaréis"],"p3":["retumbarán"]},
+    "IndCond": {"s1":["retumbaría"],"s2":["retumbarías"],"vos":["retumbarías"],"s3":["retumbaría"],"p1":["retumbaríamos"],"p2":["retumbaríais"],"p3":["retumbarían"]},
+    "SubPres": {"s1":["retumbe"],"s2":["retumbes"],"vos":["retumbes","retumbés"],"s3":["retumbe"],"p1":["retumbemos"],"p2":["retumbéis"],"p3":["retumben"]},
+    "SubImp": {"s1":["retumbara","retumbase"],"s2":["retumbaras","retumbases"],"vos":["retumbaras","retumbases"],"s3":["retumbara","retumbase"],"p1":["retumbáramos","retumbásemos"],"p2":["retumbarais","retumbaseis"],"p3":["retumbaran","retumbasen"]},
+    "SubFut": {"s1":["retumbare"],"s2":["retumbares"],"vos":["retumbares"],"s3":["retumbare"],"p1":["retumbáremos"],"p2":["retumbareis"],"p3":["retumbaren"]},
+    "CmdPos": {"s2":["retumba"],"vos":["retumbá"],"s3":["retumbe"],"p1":["retumbemos"],"p2":["retumbad"],"p3":["retumben"]}
+  }
+}

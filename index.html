@@ -586,7 +586,7 @@ initTheme()
 // --- versión ---
 // El formato es de español: dd mmm yyyy
 // El mes debe ser uno de estes: ene, feb, mar, abr, may, jun, jul, aug, sep, oct, nov, dec
-export const version = "18 mar 2026";
+export const version = "20 mar 2026";
 export const license = "CC BY-NC-SA 4.0";
 //# sourceMappingURL=version.js.map
 // --- fin versión ---
@@ -1271,9 +1271,21 @@ function getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense) {
 // if a value is null, the verb is regular
 // A verb that appears in this list has been verified with a test
 const verbos_con_cambios_morfológicos = {
+    abandonar: {
+      ok:true,
+      },
+    abrasar: {
+      ok:true,
+      },
+    abrazar: {
+      ok:true,
+      },
     abrir: {
       ok:true,
        excepciones_léxicas: { participio: "abierto" } },
+    abrumar: {
+      ok:true,
+      },
     absolver: {
       ok:true,
        alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "absuelto" } },
@@ -1283,10 +1295,28 @@ const verbos_con_cambios_morfológicos = {
     abstener: {
       ok:true,
        modelo: "tener" },
+    abundar: {
+      ok:true,
+      },
+    aburrir: {
+      ok:true,
+      },
     acabar: {
       ok:true,
       },
+    acampar: {
+      ok:true,
+      },
+    acarrear: {
+      ok:true,
+      },
     acceder: {
+      ok:true,
+      },
+    acechar: {
+      ok:true,
+      },
+    acelerar: {
       ok:true,
       },
     aceptar: {
@@ -1298,7 +1328,25 @@ const verbos_con_cambios_morfológicos = {
     acertar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    achicar: {
+      ok:true,
+      },
+    acicalar: {
+      ok:true,
+      },
+    acoger: {
+      ok:true,
+      },
+    acometer: {
+      ok:true,
+      },
     acompañar: {
+      ok:true,
+      },
+    acongojar: {
+      ok:true,
+      },
+    aconsejar: {
       ok:true,
       },
     acontecer: {
@@ -1319,6 +1367,12 @@ const verbos_con_cambios_morfológicos = {
     acudir: {
       ok:true,
       },
+    acusar: {
+      ok:true,
+      },
+    adelgazar: {
+      ok:true,
+      },
     adherir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -1328,9 +1382,15 @@ const verbos_con_cambios_morfológicos = {
     adjuntar: {
       ok:true,
       },
+    adobar: {
+      ok:true,
+      },
     adquirir: {
       ok:true,
        alternancia_vocálica: "i:ie" },
+    adueñar: {
+      ok:true,
+      },
     advenir: {
       ok:true,
        modelo: "venir" },
@@ -1340,10 +1400,25 @@ const verbos_con_cambios_morfológicos = {
     afectar: {
       ok:true,
       },
+    afeitar: {
+      ok:true,
+      },
+    aferrar: {
+      ok:{"IndPres":{"s1":["aferro","afierro"],"s2":["aferras","afierras"],"s3":["aferra","afierra"],"p3":["aferran","afierran"]},"SubPres":{"s1":["aferre","afierre"],"s2":["aferres","afierres"],"s3":["aferre","afierre"],"p3":["aferren","afierren"]},"CmdPos":{"s2":["aferra","afierra"],"s3":["aferre","afierre"],"p3":["aferren","afierren"]},"CmdNeg":{"s2":["aferres","afierres"],"s3":["aferre","afierre"],"p3":["aferren","afierren"]}},
+      },
     afirmar: {
       ok:true,
       },
+    afligir: {
+      ok:true,
+      },
     aflojar: {
+      ok:true,
+      },
+    aflorar: {
+      ok:true,
+      },
+    agachar: {
       ok:true,
       },
     agarrar: {
@@ -1352,7 +1427,16 @@ const verbos_con_cambios_morfológicos = {
     agasajar: {
       ok:true,
       },
+    agitar: {
+      ok:true,
+      },
+    agolpar: {
+      ok:true,
+      },
     agradar: {
+      ok:true,
+      },
+    agravar: {
       ok:true,
       },
     agregar: {
@@ -1360,6 +1444,12 @@ const verbos_con_cambios_morfológicos = {
       },
     agrupar: {
       ok:true,
+      },
+    aguantar: {
+      ok:true,
+      },
+    aguar: {
+      ok:{"IndPret":{"s1":["agüé"]},"SubPres":{"s1":["agüe"],"s2":["agües"],"s3":["agüe"],"p1":["agüemos"],"p2":["agüéis"],"p3":["agüen"]},"CmdPos":{"s3":["agüe"],"p1":["agüemos"],"p3":["agüen"]},"CmdNeg":{"s2":["agües"],"s3":["agüe"],"p1":["agüemos"],"p2":["agüéis"],"p3":["agüen"]}},
       },
     agudizar: {
       ok:true,
@@ -1379,10 +1469,19 @@ const verbos_con_cambios_morfológicos = {
     alargar: {
       ok:true,
       },
+    alarmar: {
+      ok:true,
+      },
     albergar: {
       ok:true,
       },
     alcanzar: {
+      ok:true,
+      },
+    alegrar: {
+      ok:true,
+      },
+    alejar: {
       ok:true,
       },
     alentar: {
@@ -1400,13 +1499,25 @@ const verbos_con_cambios_morfológicos = {
     almorzar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    alojar: {
+      ok:true,
+      },
     alquilar: {
       ok:true,
+      },
+    alquiler: {
+      ok:{"gerundio":"alquilando","participio":"alquilado","IndPres":{"s1":["alquiler"],"s2":["alquileres"],"vos":["alquilerés"],"s3":["alquiler"],"p1":["alquileremos"],"p3":["alquileren"]},"IndFut":{"s2":["alquilerés"],"s3":["alquileré"]}},
       },
     alterar: {
       ok:true,
       },
+    alucinar: {
+      ok:true,
+      },
     alumbrar: {
+      ok:true,
+      },
+    amaestrar: {
       ok:true,
       },
     amar: {
@@ -1415,9 +1526,18 @@ const verbos_con_cambios_morfológicos = {
     amarrar: {
       ok:true,
       },
+    amasar: {
+      ok:true,
+      },
     amnistiar: {
       ok:true,
        modelo: "vaciar" },
+    amortiguar: {
+      ok:{"IndPret":{"s1":["amortigüé"]},"SubPres":{"s1":["amortigüe"],"s2":["amortigües"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortigüéis"],"p3":["amortigüen"]},"CmdPos":{"s3":["amortigüe"],"p1":["amortigüemos"],"p3":["amortigüen"]},"CmdNeg":{"s2":["amortigües"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortigüéis"],"p3":["amortigüen"]}},
+      },
+    amparar: {
+      ok:true,
+      },
     ampliar: {
       ok:true,
        modelo: "vaciar" },
@@ -1427,22 +1547,49 @@ const verbos_con_cambios_morfológicos = {
     andar: {
       ok:true,
        tema_pretérito: "anduv" },
+    anhelar: {
+      ok:true,
+      },
+    animar: {
+      ok:true,
+      },
+    aniquilar: {
+      ok:true,
+      },
     ansiar: {
       ok:true,
        modelo: "vaciar" },
     anudar: {
       ok:true,
       },
+    anunciar: {
+      ok:true,
+      },
     apacentar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    apaciguar: {
+      ok:{"IndPret":{"s1":["apacigüé"]},"SubPres":{"s1":["apacigüe"],"s2":["apacigües"],"s3":["apacigüe"],"p1":["apacigüemos"],"p2":["apacigüéis"],"p3":["apacigüen"]},"CmdPos":{"s3":["apacigüe"],"p1":["apacigüemos"],"p3":["apacigüen"]},"CmdNeg":{"s2":["apacigües"],"s3":["apacigüe"],"p1":["apacigüemos"],"p2":["apacigüéis"],"p3":["apacigüen"]}},
+      },
     apagar: {
+      ok:true,
+      },
+    aparar: {
       ok:true,
       },
     aparecer: {
       ok:true,
       },
+    apercibir: {
+      ok:true,
+      },
+    apetecer: {
+      ok:true,
+      },
     aplastar: {
+      ok:true,
+      },
+    aplaudir: {
       ok:true,
       },
     aplicar: {
@@ -1454,7 +1601,16 @@ const verbos_con_cambios_morfológicos = {
     apostar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    apreciar: {
+      ok:true,
+      },
+    aprehender: {
+      ok:true,
+      },
     aprender: {
+      ok:true,
+      },
+    apresar: {
       ok:true,
       },
     apresurar: {
@@ -1469,13 +1625,37 @@ const verbos_con_cambios_morfológicos = {
     aprovechar: {
       ok:true,
       },
+    apuntar: {
+      ok:true,
+      },
+    apurar: {
+      ok:true,
+      },
+    aquilatar: {
+      ok:true,
+      },
+    argumentar: {
+      ok:true,
+      },
     argüir: {
       ok:true,
       },
     armar: {
       ok:true,
       },
+    arrancar: {
+      ok:true,
+      },
+    arrasar: {
+      ok:true,
+      },
+    arrastrar: {
+      ok:true,
+      },
     arreglar: {
+      ok:true,
+      },
+    arremeter: {
       ok:true,
       },
     arrendar: {
@@ -1490,15 +1670,39 @@ const verbos_con_cambios_morfológicos = {
     arriesgar: {
       ok:true,
       },
+    arrimar: {
+      ok:true,
+      },
+    arropar: {
+      ok:true,
+      },
+    arrugar: {
+      ok:true,
+      },
+    arruinar: {
+      ok:true,
+      },
+    arrullar: {
+      ok:true,
+      },
+    asaltar: {
+      ok:true,
+      },
     ascender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     asegurar: {
       ok:true,
       },
+    asentar: {
+      ok:{"IndPres":{"s1":["asiento"],"s2":["asientas"],"s3":["asienta"],"p3":["asientan"]},"SubPres":{"s1":["asiente"],"s2":["asientes"],"s3":["asiente"],"p3":["asienten"]},"CmdPos":{"s2":["asienta"],"s3":["asiente"],"p3":["asienten"]},"CmdNeg":{"s2":["asientes"],"s3":["asiente"],"p3":["asienten"]}},
+      },
     asentir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    asesinar: {
+      ok:true,
+      },
     asignar: {
       ok:true,
       },
@@ -1511,13 +1715,25 @@ const verbos_con_cambios_morfológicos = {
     asolar: {
       ok:{"IndPres":{"s1":["asuelo","asolo"],"s2":["asuelas","asolas"],"s3":["asuela","asola"],"p3":["asuelan","asolan"]},"SubPres":{"s1":["asuele","asole"],"s2":["asueles","asoles"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]},"CmdPos":{"s2":["asuela","asola"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]},"CmdNeg":{"s2":["asueles","asoles"],"s3":["asuele","asole"],"p3":["asuelen","asolen"]}},
        alternancia_vocálica: "o:ue" }, // FIX: also supports regular forms! Perhaps add an option to return both forms?
+    asomar: {
+      ok:true,
+      },
     asombrar: {
       ok:true,
       },
     aspirar: {
       ok:true,
       },
+    asustar: {
+      ok:true,
+      },
+    atajar: {
+      ok:true,
+      },
     atar: {
+      ok:true,
+      },
+    atardecer: {
       ok:true,
       },
     atemorizar: {
@@ -1529,6 +1745,21 @@ const verbos_con_cambios_morfológicos = {
     atenuar: {
       ok:{"IndPres":{"s1":["atenúo"],"s2":["atenúas"],"s3":["atenúa"],"p3":["atenúan"]},"SubPres":{"s1":["atenúe"],"s2":["atenúes"],"s3":["atenúe"],"p3":["atenúen"]},"CmdPos":{"s2":["atenúa"],"s3":["atenúe"],"p3":["atenúen"]},"CmdNeg":{"s2":["atenúes"],"s3":["atenúe"],"p3":["atenúen"]}},
       },
+    atestiguar: {
+      ok:{"IndPret":{"s1":["atestigüé"]},"SubPres":{"s1":["atestigüe"],"s2":["atestigües"],"s3":["atestigüe"],"p1":["atestigüemos"],"p2":["atestigüéis"],"p3":["atestigüen"]},"CmdPos":{"s3":["atestigüe"],"p1":["atestigüemos"],"p3":["atestigüen"]},"CmdNeg":{"s2":["atestigües"],"s3":["atestigüe"],"p1":["atestigüemos"],"p2":["atestigüéis"],"p3":["atestigüen"]}},
+      },
+    atiborrar: {
+      ok:true,
+      },
+    atinar: {
+      ok:true,
+      },
+    atorar: {
+      ok:true,
+      },
+    atormentar: {
+      ok:true,
+      },
     atornillar: {
       ok:true,
       },
@@ -1538,11 +1769,23 @@ const verbos_con_cambios_morfológicos = {
     atravesar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    atrever: {
+      ok:true,
+      },
+    atribuir: {
+      ok:{"IndPres":{"vos":["atribuís"],"p2":["atribuís"]},"IndPret":{"s1":["atribuí"]},"CmdPos":{"vos":["atribuí"]}},
+      },
     atropellar: {
       ok:true,
       },
     aumentar: {
       ok:true,
+      },
+    auscultar: {
+      ok:true,
+      },
+    autoinfligir: {
+      ok:{"autoinfinitivo":"autoinfligir"},
       },
     avenir: {
       ok:true,
@@ -1553,7 +1796,13 @@ const verbos_con_cambios_morfológicos = {
     averiar: {
       ok:true,
        modelo: "vaciar" },
+    averiguar: {
+      ok:{"IndPret":{"s1":["averigüé"]},"SubPres":{"s1":["averigüe"],"s2":["averigües"],"s3":["averigüe"],"p1":["averigüemos"],"p2":["averigüéis"],"p3":["averigüen"]},"CmdPos":{"s3":["averigüe"],"p1":["averigüemos"],"p3":["averigüen"]},"CmdNeg":{"s2":["averigües"],"s3":["averigüe"],"p1":["averigüemos"],"p2":["averigüéis"],"p3":["averigüen"]}},
+      },
     avisar: {
+      ok:true,
+      },
+    avizorar: {
       ok:true,
       },
     ayudar: {
@@ -1568,16 +1817,34 @@ const verbos_con_cambios_morfológicos = {
     bajar: {
       ok:true,
       },
+    bañar: {
+      ok:true,
+      },
     barrer: {
       ok:true,
       },
+    basar: {
+      ok:true,
+      },
+    bastar: {
+      ok:true,
+      },
     beber: {
+      ok:true,
+      },
+    besar: {
       ok:true,
       },
     biografiar: {
       ok:true,
        modelo: "vaciar" },
     bordar: {
+      ok:true,
+      },
+    bordear: {
+      ok:true,
+      },
+    borrar: {
       ok:true,
       },
     brindar: {
@@ -1587,6 +1854,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     bruñir: {
+      ok:true,
+      },
+    bucear: {
       ok:true,
       },
     bullir: {
@@ -1614,6 +1884,12 @@ const verbos_con_cambios_morfológicos = {
     calificar: {
       ok:true,
       },
+    calmar: {
+      ok:true,
+      },
+    calzar: {
+      ok:true,
+      },
     cambiar: {
       ok:true,
       },
@@ -1624,6 +1900,12 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     capacitar: {
+      ok:true,
+      },
+    carcomer: {
+      ok:true,
+      },
+    cargar: {
       ok:true,
       },
     casar: {
@@ -1647,7 +1929,16 @@ const verbos_con_cambios_morfológicos = {
     celebrar: {
       ok:true,
       },
+    cenar: {
+      ok:true,
+      },
+    censurar: {
+      ok:true,
+      },
     centrar: {
+      ok:true,
+      },
+    cepillar: {
       ok:true,
       },
     cerner: {
@@ -1659,10 +1950,25 @@ const verbos_con_cambios_morfológicos = {
     ceñir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    cesar: {
+      ok:true,
+      },
+    charlar: {
+      ok:true,
+      },
+    chatear: {
+      ok:true,
+      },
     chirriar: {
       ok:true,
        modelo: "vaciar" },
     chismear: {
+      ok:true,
+      },
+    chocar: {
+      ok:true,
+      },
+    chupar: {
       ok:true,
       },
     cimentar: {
@@ -1689,6 +1995,9 @@ const verbos_con_cambios_morfológicos = {
     cocinar: {
       ok:true,
       },
+    codiciar: {
+      ok:true,
+      },
     codificar: {
       ok:true,
       },
@@ -1710,6 +2019,9 @@ const verbos_con_cambios_morfológicos = {
     colorar: {
       ok:true,
       },
+    combar: {
+      ok:true,
+      },
     comenzar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -1717,6 +2029,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     compartir: {
+      ok:true,
+      },
+    compensar: {
       ok:true,
       },
     competir: {
@@ -1740,12 +2055,30 @@ const verbos_con_cambios_morfológicos = {
     comprobar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    comprometer: {
+      ok:true,
+      },
+    comunicar: {
+      ok:true,
+      },
+    concentrar: {
+      ok:true,
+      },
     concertar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    concienciar: {
+      ok:true,
+      },
+    concluir: {
+      ok:{"IndPres":{"vos":["concluís"],"p2":["concluís"]},"IndPret":{"s1":["concluí"]},"CmdPos":{"vos":["concluí"]}},
+      },
     concordar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    condenar: {
+      ok:true,
+      },
     condescender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -1779,17 +2112,32 @@ const verbos_con_cambios_morfológicos = {
     confortar: {
       ok:true,
       },
+    confundir: {
+      ok:true,
+      },
+    congelar: {
+      ok:true,
+      },
+    congestionar: {
+      ok:true,
+      },
+    congregar: {
+      ok:true,
+      },
     conjugar: {
       ok:true,
        modelo: null },
+    conjurar: {
+      ok:true,
+      },
     conmover: {
       ok:true,
        alternancia_vocálica: "o:ue" },
-    conquerir: {
-      ok:{"gerundio":"conquiriendo","IndPres":{"s1":["conquiero"],"s2":["conquieres"],"s3":["conquiere"],"p3":["conquieren"]},"IndPret":{"s3":["conquirió"],"p3":["conquirieron"]},"SubPres":{"s1":["conquiera"],"s2":["conquieras"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquiráis"],"p3":["conquieran"]},"SubImp":{"s1":["conquiriera","conquiriese"],"s2":["conquirieras","conquirieses"],"s3":["conquiriera","conquiriese"],"p1":["conquiriéramos","conquiriésemos"],"p2":["conquirierais","conquirieseis"],"p3":["conquirieran","conquiriesen"]},"SubFut":{"s1":["conquiriere"],"s2":["conquirieres"],"s3":["conquiriere"],"p1":["conquiriéremos"],"p2":["conquiriereis"],"p3":["conquirieren"]},"CmdPos":{"s2":["conquiere"],"s3":["conquiera"],"p1":["conquiramos"],"p3":["conquieran"]},"CmdNeg":{"s2":["conquieras"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquiráis"],"p3":["conquieran"]}},
-      },
     conocer: {
       ok:true,
+      },
+    conquerir: {
+      ok:{"gerundio":"conquiriendo","IndPres":{"s1":["conquiero"],"s2":["conquieres"],"s3":["conquiere"],"p3":["conquieren"]},"IndPret":{"s3":["conquirió"],"p3":["conquirieron"]},"SubPres":{"s1":["conquiera"],"s2":["conquieras"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquiráis"],"p3":["conquieran"]},"SubImp":{"s1":["conquiriera","conquiriese"],"s2":["conquirieras","conquirieses"],"s3":["conquiriera","conquiriese"],"p1":["conquiriéramos","conquiriésemos"],"p2":["conquirierais","conquirieseis"],"p3":["conquirieran","conquiriesen"]},"SubFut":{"s1":["conquiriere"],"s2":["conquirieres"],"s3":["conquiriere"],"p1":["conquiriéremos"],"p2":["conquiriereis"],"p3":["conquirieren"]},"CmdPos":{"s2":["conquiere"],"s3":["conquiera"],"p1":["conquiramos"],"p3":["conquieran"]},"CmdNeg":{"s2":["conquieras"],"s3":["conquiera"],"p1":["conquiramos"],"p2":["conquiráis"],"p3":["conquieran"]}},
       },
     conseguir: {
       ok:true,
@@ -1809,6 +2157,9 @@ const verbos_con_cambios_morfológicos = {
     consolar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    constatar: {
+      ok:true,
+      },
     constituir: {
       ok:{"IndPres":{"vos":["constituís"],"p2":["constituís"]},"IndPret":{"s1":["constituí"]},"CmdPos":{"vos":["constituí"]}},
       },
@@ -1818,7 +2169,16 @@ const verbos_con_cambios_morfológicos = {
     consultar: {
       ok:true,
       },
+    consumir: {
+      ok:true,
+      },
     contactar: {
+      ok:true,
+      },
+    contagiar: {
+      ok:true,
+      },
+    contaminar: {
       ok:true,
       },
     contar: {
@@ -1842,6 +2202,9 @@ const verbos_con_cambios_morfológicos = {
     contrariar: {
       ok:true,
        modelo: "vaciar" },
+    contrarrestar: {
+      ok:true,
+      },
     contratar: {
       ok:true,
       },
@@ -1857,6 +2220,9 @@ const verbos_con_cambios_morfológicos = {
     convenir: {
       ok:true,
        modelo: "venir" },
+    conversar: {
+      ok:true,
+      },
     convertir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -1868,6 +2234,9 @@ const verbos_con_cambios_morfológicos = {
       },
     corresponder: {
       ok:true,
+      },
+    corroer: {
+      ok:{"IndPres":{"s1":["corroo","corroigo","corroyo"]},"SubPres":{"s1":["corroa","corroiga","corroya"],"s2":["corroas","corroigas","corroyas"],"s3":["corroa","corroiga","corroya"],"p1":["corroamos","corroigamos","corroyamos"],"p2":["corroáis","corroigáis","corroyáis"],"p3":["corroan","corroigan","corroyan"]},"CmdPos":{"s3":["corroa","corroiga","corroya"],"p1":["corroamos","corroigamos","corroyamos"],"p3":["corroan","corroigan","corroyan"]},"CmdNeg":{"s2":["corroas","corroigas","corroyas"],"s3":["corroa","corroiga","corroya"],"p1":["corroamos","corroigamos","corroyamos"],"p2":["corroáis","corroigáis","corroyáis"],"p3":["corroan","corroigan","corroyan"]}},
       },
     cortar: {
       ok:true,
@@ -1899,7 +2268,13 @@ const verbos_con_cambios_morfológicos = {
     cubrir: {
       ok:true,
        excepciones_léxicas: { participio: "cubierto" } },
+    cuestionar: {
+      ok:true,
+      },
     cuidar: {
+      ok:true,
+      },
+    cultivar: {
       ok:true,
       },
     cumplir: {
@@ -1909,6 +2284,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     currar: {
+      ok:true,
+      },
+    custodiar: {
       ok:true,
       },
     dañar: {
@@ -1930,7 +2308,16 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    debatir: {
+      ok:true,
+      },
     deber: {
+      ok:true,
+      },
+    debilitar: {
+      ok:true,
+      },
+    decaer: {
       ok:true,
       },
     decidir: {
@@ -1950,6 +2337,12 @@ const verbos_con_cambios_morfológicos = {
             imperativo_tú: "di"
         }
     },
+    declarar: {
+      ok:true,
+      },
+    declinar: {
+      ok:true,
+      },
     dedicar: {
       ok:true,
       },
@@ -1971,12 +2364,21 @@ const verbos_con_cambios_morfológicos = {
     dejar: {
       ok:true,
       },
+    deleitar: {
+      ok:true,
+      },
     delinquir: {
       ok:{"SubPres":{"s1":["delinca"],"s2":["delincas"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]},"CmdPos":{"s3":["delinca"],"p1":["delincamos"],"p3":["delincan"]},"CmdNeg":{"s2":["delincas"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]}},
+      },
+    delirar: {
+      ok:true,
       },
     demoler: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    demonizar: {
+      ok:true,
+      },
     demostrar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -1989,12 +2391,36 @@ const verbos_con_cambios_morfológicos = {
     depositar: {
       ok:true,
       },
+    depredar: {
+      ok:true,
+      },
+    derramar: {
+      ok:true,
+      },
     derretir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    derribar: {
+      ok:true,
+      },
+    derrotar: {
+      ok:true,
+      },
+    derruir: {
+      ok:{"IndPres":{"vos":["derruís"],"p2":["derruís"]},"IndPret":{"s1":["derruí"]},"CmdPos":{"vos":["derruí"]}},
+      },
     desafiar: {
       ok:true,
        modelo: "vaciar" },
+    desaguar: {
+      ok:{"IndPret":{"s1":["desagüé"]},"SubPres":{"s1":["desagüe"],"s2":["desagües"],"s3":["desagüe"],"p1":["desagüemos"],"p2":["desagüéis"],"p3":["desagüen"]},"CmdPos":{"s3":["desagüe"],"p1":["desagüemos"],"p3":["desagüen"]},"CmdNeg":{"s2":["desagües"],"s3":["desagüe"],"p1":["desagüemos"],"p2":["desagüéis"],"p3":["desagüen"]}},
+      },
+    desahogar: {
+      ok:true,
+      },
+    desahuciar: {
+      ok:true,
+      },
     desalentar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -2007,13 +2433,31 @@ const verbos_con_cambios_morfológicos = {
     desarrollar: {
       ok:true,
       },
+    desasir: {
+      ok:{"IndPres":{"s1":["desasgo"]},"SubPres":{"s1":["desasga"],"s2":["desasgas"],"s3":["desasga"],"p1":["desasgamos"],"p2":["desasgáis"],"p3":["desasgan"]},"CmdPos":{"s3":["desasga"],"p1":["desasgamos"],"p3":["desasgan"]},"CmdNeg":{"s2":["desasgas"],"s3":["desasga"],"p1":["desasgamos"],"p2":["desasgáis"],"p3":["desasgan"]}},
+      },
     desatender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    desatinar: {
+      ok:true,
+      },
     desavenir: {
       ok:true,
        modelo: "venir" },
+    desayunar: {
+      ok:true,
+      },
+    desbaratar: {
+      ok:true,
+      },
     desbordar: {
+      ok:true,
+      },
+    descansar: {
+      ok:true,
+      },
+    descargar: {
       ok:true,
       },
     descender: {
@@ -2023,6 +2467,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
        alternancia_vocálica: "o:ue" },
     descolorar: {
+      ok:true,
+      },
+    desconcentrar: {
       ok:true,
       },
     desconfiar: {
@@ -2043,7 +2490,13 @@ const verbos_con_cambios_morfológicos = {
     descubrir: {
       ok:true,
        excepciones_léxicas: { participio: "descubierto" } },
+    desdoblar: {
+      ok:true,
+      },
     desear: {
+      ok:true,
+      },
+    desembocar: {
       ok:true,
       },
     desempeñar: {
@@ -2055,10 +2508,34 @@ const verbos_con_cambios_morfológicos = {
     desenvolver: {
       ok:true,
        modelo: "volver" },
+    desesperanzar: {
+      ok:true,
+      },
+    desesperar: {
+      ok:true,
+      },
+    desestimar: {
+      ok:true,
+      },
+    desfallecer: {
+      ok:true,
+      },
+    desgajar: {
+      ok:true,
+      },
+    desgarrar: {
+      ok:true,
+      },
     desgraciar: {
       ok:true,
       },
     deshacer: {
+      ok:true,
+      },
+    deshierbar: {
+      ok:true,
+      },
+    deshumanizar: {
       ok:true,
       },
     desistir: {
@@ -2073,12 +2550,24 @@ const verbos_con_cambios_morfológicos = {
     desmontar: {
       ok:true,
       },
+    desobedecer: {
+      ok:true,
+      },
     desosar: {
       ok:{"IndPres":{"s1":["deshueso"],"s2":["deshuesas"],"s3":["deshuesa"],"p3":["deshuesan"]},"SubPres":{"s1":["deshuese"],"s2":["deshueses"],"s3":["deshuese"],"p3":["deshuesen"]},"CmdPos":{"s2":["deshuesa"],"s3":["deshuese"],"p3":["deshuesen"]},"CmdNeg":{"s2":["deshueses"],"s3":["deshuese"],"p3":["deshuesen"]}},
        alternancia_vocálica: "o:ue" },
+    desparramar: {
+      ok:true,
+      },
     despedir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    despegar: {
+      ok:true,
+      },
+    despellejar: {
+      ok:true,
+      },
     desperdiciar: {
       ok:true,
       },
@@ -2088,13 +2577,31 @@ const verbos_con_cambios_morfológicos = {
     desplegar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    desplomar: {
+      ok:true,
+      },
     desplumar: {
       ok:true,
       },
     despojar: {
       ok:true,
       },
+    despotricar: {
+      ok:true,
+      },
+    despreciar: {
+      ok:true,
+      },
     desprender: {
+      ok:true,
+      },
+    desproveer: {
+      ok:{"participio":"desprovisto"},
+      },
+    despuntar: {
+      ok:true,
+      },
+    destartalar: {
       ok:true,
       },
     desterrar: {
@@ -2102,6 +2609,12 @@ const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "e:ie" },
     destilar: {
       ok:true,
+      },
+    destruir: {
+      ok:{"IndPres":{"vos":["destruís"],"p2":["destruís"]},"IndPret":{"s1":["destruí"]},"CmdPos":{"vos":["destruí"]}},
+      },
+    desvariar: {
+      ok:{"IndPres":{"s1":["desvarío"],"s2":["desvarías"],"s3":["desvaría"],"p3":["desvarían"]},"SubPres":{"s1":["desvaríe"],"s2":["desvaríes"],"s3":["desvaríe"],"p3":["desvaríen"]},"CmdPos":{"s2":["desvaría"],"s3":["desvaríe"],"p3":["desvaríen"]},"CmdNeg":{"s2":["desvaríes"],"s3":["desvaríe"],"p3":["desvaríen"]}},
       },
     desviar: {
       ok:true,
@@ -2118,12 +2631,21 @@ const verbos_con_cambios_morfológicos = {
     determinar: {
       ok:true,
       },
+    devastar: {
+      ok:true,
+      },
     devenir: {
       ok:true,
        modelo: "venir" },
     devolver: {
       ok:true,
        modelo: "volver" },
+    dibujar: {
+      ok:true,
+      },
+    dictar: {
+      ok:true,
+      },
     diferenciar: {
       ok:true,
       },
@@ -2136,12 +2658,21 @@ const verbos_con_cambios_morfológicos = {
     digerir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    dignar: {
+      ok:{"CmdPos":{"s2":["dígnate"],"vos":["dignate"],"s3":["dígnese"],"p1":["dignémonos"],"p2":["dignaos"],"p3":["dígnense"]}},
+      },
+    diluir: {
+      ok:{"IndPres":{"vos":["diluís"],"p2":["diluís"]},"IndPret":{"s1":["diluí"]},"CmdPos":{"vos":["diluí"]}},
+      },
     dirigir: {
       ok:true,
       },
     discernir: {
       ok:{"gerundio":"discerniendo","IndPret":{"s3":["discernió"],"p3":["discernieron"]},"SubPres":{"p1":["discernamos"],"p2":["discernáis"]},"SubImp":{"s1":["discerniera","discerniese"],"s2":["discernieras","discernieses"],"s3":["discerniera","discerniese"],"p1":["discerniéramos","discerniésemos"],"p2":["discernierais","discernieseis"],"p3":["discernieran","discerniesen"]},"SubFut":{"s1":["discerniere"],"s2":["discernieres"],"s3":["discerniere"],"p1":["discerniéremos"],"p2":["discerniereis"],"p3":["discernieren"]},"CmdPos":{"p1":["discernamos"]},"CmdNeg":{"p1":["discernamos"],"p2":["discernáis"]}},
        alternancia_vocálica: "e:ie" },
+    disciplinar: {
+      ok:true,
+      },
     disculpar: {
       ok:true,
       },
@@ -2151,9 +2682,18 @@ const verbos_con_cambios_morfológicos = {
     disentir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    disfrutar: {
+      ok:true,
+      },
+    disminuir: {
+      ok:{"IndPres":{"vos":["disminuís"],"p2":["disminuís"]},"IndPret":{"s1":["disminuí"]},"CmdPos":{"vos":["disminuí"]}},
+      },
     disolver: {
       ok:true,
        modelo: "volver" },
+    disparar: {
+      ok:true,
+      },
     disponer: {
       ok:true,
       },
@@ -2163,16 +2703,28 @@ const verbos_con_cambios_morfológicos = {
     distribuir: {
       ok:{"IndPres":{"vos":["distribuís"],"p2":["distribuís"]},"IndPret":{"s1":["distribuí"]},"CmdPos":{"vos":["distribuí"]}},
       },
+    disuadir: {
+      ok:true,
+      },
     divertir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     dividir: {
       ok:true,
       },
+    divorciar: {
+      ok:true,
+      },
+    divulgar: {
+      ok:true,
+      },
     doblar: {
       ok:true,
       },
     doblegar: {
+      ok:true,
+      },
+    documentar: {
       ok:true,
       },
     doler: {
@@ -2184,6 +2736,9 @@ const verbos_con_cambios_morfológicos = {
     dormir: {
       ok:true,
        modelo: "dormir", alternancia_vocálica: "o:ue" },
+    duchar: {
+      ok:true,
+      },
     dudar: {
       ok:true,
       },
@@ -2195,6 +2750,9 @@ const verbos_con_cambios_morfológicos = {
       },
     efectuar: {
       ok:{"IndPres":{"s1":["efectúo"],"s2":["efectúas"],"s3":["efectúa"],"p3":["efectúan"]},"SubPres":{"s1":["efectúe"],"s2":["efectúes"],"s3":["efectúe"],"p3":["efectúen"]},"CmdPos":{"s2":["efectúa"],"s3":["efectúe"],"p3":["efectúen"]},"CmdNeg":{"s2":["efectúes"],"s3":["efectúe"],"p3":["efectúen"]}},
+      },
+    ejercer: {
+      ok:{"IndPres":{"s1":["ejerzo"]},"SubPres":{"s1":["ejerza"],"s2":["ejerzas"],"s3":["ejerza"],"p1":["ejerzamos"],"p2":["ejerzáis"],"p3":["ejerzan"]},"CmdPos":{"s3":["ejerza"],"p1":["ejerzamos"],"p3":["ejerzan"]},"CmdNeg":{"s2":["ejerzas"],"s3":["ejerza"],"p1":["ejerzamos"],"p2":["ejerzáis"],"p3":["ejerzan"]}},
       },
     elaborar: {
       ok:true,
@@ -2211,10 +2769,43 @@ const verbos_con_cambios_morfológicos = {
     eludir: {
       ok:true,
       },
+    embadurnar: {
+      ok:true,
+      },
+    embarcar: {
+      ok:true,
+      },
+    embestir: {
+      ok:{"gerundio":"embistiendo","IndPres":{"s1":["embisto"],"s2":["embistes"],"s3":["embiste"],"p3":["embisten"]},"IndPret":{"s3":["embistió"],"p3":["embistieron"]},"SubPres":{"s1":["embista"],"s2":["embistas"],"s3":["embista"],"p1":["embistamos"],"p2":["embistáis"],"p3":["embistan"]},"SubImp":{"s1":["embistiera","embistiese"],"s2":["embistieras","embistieses"],"s3":["embistiera","embistiese"],"p1":["embistiéramos","embistiésemos"],"p2":["embistierais","embistieseis"],"p3":["embistieran","embistiesen"]},"SubFut":{"s1":["embistiere"],"s2":["embistieres"],"s3":["embistiere"],"p1":["embistiéremos"],"p2":["embistiereis"],"p3":["embistieren"]},"CmdPos":{"s2":["embiste"],"s3":["embista"],"p1":["embistamos"],"p3":["embistan"]},"CmdNeg":{"s2":["embistas"],"s3":["embista"],"p1":["embistamos"],"p2":["embistáis"],"p3":["embistan"]}},
+      },
+    emborrachar: {
+      ok:true,
+      },
+    emigrar: {
+      ok:true,
+      },
+    emitir: {
+      ok:true,
+      },
+    empacar: {
+      ok:true,
+      },
+    empachar: {
+      ok:true,
+      },
     empapar: {
       ok:true,
       },
     empatar: {
+      ok:true,
+      },
+    empeorar: {
+      ok:true,
+      },
+    emperejilar: {
+      ok:true,
+      },
+    emperifollar: {
       ok:true,
       },
     empezar: {
@@ -2223,7 +2814,25 @@ const verbos_con_cambios_morfológicos = {
     emplear: {
       ok:true,
       },
+    emprender: {
+      ok:true,
+      },
     empujar: {
+      ok:true,
+      },
+    enamorar: {
+      ok:true,
+      },
+    encaminar: {
+      ok:true,
+      },
+    encantar: {
+      ok:true,
+      },
+    encaramar: {
+      ok:true,
+      },
+    encargar: {
       ok:true,
       },
     encender: {
@@ -2247,27 +2856,54 @@ const verbos_con_cambios_morfológicos = {
     enderezar: {
       ok:true,
       },
+    enfermar: {
+      ok:true,
+      },
+    enflaquecer: {
+      ok:true,
+      },
+    enfrentar: {
+      ok:true,
+      },
     enfriar: {
       ok:true,
        modelo: "vaciar" },
+    enfurecer: {
+      ok:true,
+      },
     enganchar: {
       ok:true,
       },
     engañar: {
       ok:true,
       },
+    engordar: {
+      ok:true,
+      },
     enjugar: {
       ok:true,
        modelo: null }, // regular, no sigue el modelo de "jugar"
+    enlazar: {
+      ok:true,
+      },
+    enloquecer: {
+      ok:true,
+      },
     enmascarar: {
       ok:true,
       },
     enmendar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    enojar: {
+      ok:true,
+      },
     enraizar: {
       ok:{"IndPres":{"s1":["enraízo"],"s2":["enraízas"],"s3":["enraíza"],"p3":["enraízan"]},"SubPres":{"s1":["enraíce"],"s2":["enraíces"],"s3":["enraíce"],"p3":["enraícen"]},"CmdPos":{"s2":["enraíza"],"s3":["enraíce"],"p3":["enraícen"]},"CmdNeg":{"s2":["enraíces"],"s3":["enraíce"],"p3":["enraícen"]}},
        modelo: "enraizar", alternancia_vocálica: "e:ie" },
+    enredar: {
+      ok:true,
+      },
     enroscar: {
       ok:true,
       },
@@ -2280,16 +2916,34 @@ const verbos_con_cambios_morfológicos = {
     enseñar: {
       ok:true,
       },
+    ensuciar: {
+      ok:true,
+      },
     entender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    enterar: {
+      ok:true,
+      },
     enterrar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     entrar: {
       ok:true,
       },
+    entrechocar: {
+      ok:true,
+      },
     entregar: {
+      ok:true,
+      },
+    entrever: {
+      ok:{"participio":"entrevisto","IndPres":{"s1":["entreveo"],"s2":["entrevés"],"s3":["entrevé"],"p3":["entrevén"]},"IndImp":{"s1":["entreveía"],"s2":["entreveías"],"s3":["entreveía"],"p1":["entreveíamos"],"p2":["entreveíais"],"p3":["entreveían"]},"SubPres":{"s1":["entrevea"],"s2":["entreveas"],"s3":["entrevea"],"p1":["entreveamos"],"p2":["entreveáis"],"p3":["entrevean"]},"CmdPos":{"s2":["entrevé"],"s3":["entrevea"],"p1":["entreveamos"],"p3":["entrevean"]},"CmdNeg":{"s2":["entreveas"],"s3":["entrevea"],"p1":["entreveamos"],"p2":["entreveáis"],"p3":["entrevean"]}},
+      },
+    entrevistar: {
+      ok:true,
+      },
+    entumecer: {
       ok:true,
       },
     entusiasmar: {
@@ -2298,6 +2952,9 @@ const verbos_con_cambios_morfológicos = {
     enviar: {
       ok:true,
        modelo: "vaciar" },
+    envidiar: {
+      ok:true,
+      },
     envolver: {
       ok:true,
        modelo: "volver" },
@@ -2311,6 +2968,21 @@ const verbos_con_cambios_morfológicos = {
     errar: {
       ok:{"IndPres":{"s1":["yerro","erro"],"s2":["yerras","erras"],"s3":["yerra","erra"],"p3":["yerran","erran"]},"SubPres":{"s1":["yerre","erre"],"s2":["yerres","erres"],"s3":["yerre","erre"],"p3":["yerren","erren"]},"CmdPos":{"s2":["yerra","erra"],"s3":["yerre","erre"],"p3":["yerren","erren"]},"CmdNeg":{"s2":["yerres","erres"],"s3":["yerre","erre"],"p3":["yerren","erren"]}},
       }, // FIX: tiene dos formas
+    eructar: {
+      ok:true,
+      },
+    escabullir: {
+      ok:{"gerundio":"escabullendo","IndPret":{"s3":["escabulló"],"p3":["escabulleron"]},"SubImp":{"s1":["escabullera","escabullese"],"s2":["escabulleras","escabulleses"],"s3":["escabullera","escabullese"],"p1":["escabulléramos","escabullésemos"],"p2":["escabullerais","escabulleseis"],"p3":["escabulleran","escabullesen"]},"SubFut":{"s1":["escabullere"],"s2":["escabulleres"],"s3":["escabullere"],"p1":["escabulléremos"],"p2":["escabullereis"],"p3":["escabulleren"]}},
+      },
+    escalar: {
+      ok:true,
+      },
+    escanear: {
+      ok:true,
+      },
+    escapar: {
+      ok:true,
+      },
     escoger: {
       ok:true,
       },
@@ -2323,9 +2995,18 @@ const verbos_con_cambios_morfológicos = {
     escuchar: {
       ok:true,
       },
+    esculpir: {
+      ok:true,
+      },
     esforzar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    espantar: {
+      ok:true,
+      },
+    esparcir: {
+      ok:{"IndPres":{"s1":["esparzo"]},"SubPres":{"s1":["esparza"],"s2":["esparzas"],"s3":["esparza"],"p1":["esparzamos"],"p2":["esparzáis"],"p3":["esparzan"]},"CmdPos":{"s3":["esparza"],"p1":["esparzamos"],"p3":["esparzan"]},"CmdNeg":{"s2":["esparzas"],"s3":["esparza"],"p1":["esparzamos"],"p2":["esparzáis"],"p3":["esparzan"]}},
+      },
     esperar: {
       ok:true,
       },
@@ -2338,10 +3019,13 @@ const verbos_con_cambios_morfológicos = {
     establecer: {
       ok:true,
       },
-    estandarizar: {
+    estacionar: {
       ok:true,
       },
-    estimar: {
+    estafar: {
+      ok:true,
+      },
+    estandarizar: {
       ok:true,
       },
     estar: {
@@ -2359,12 +3043,30 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    estimar: {
+      ok:true,
+      },
     estipular: {
+      ok:true,
+      },
+    estofar: {
+      ok:true,
+      },
+    estornudar: {
+      ok:true,
+      },
+    estrangular: {
+      ok:true,
+      },
+    estrechar: {
       ok:true,
       },
     estregar: {
       ok:{"IndPres":{"s1":["estriego","estrego"],"s2":["estriegas","estregas"],"s3":["estriega","estrega"],"p3":["estriegan","estregan"]},"SubPres":{"s1":["estriegue","estregue"],"s2":["estriegues","estregues"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]},"CmdPos":{"s2":["estriega","estrega"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]},"CmdNeg":{"s2":["estriegues","estregues"],"s3":["estriegue","estregue"],"p3":["estrieguen","estreguen"]}},
        alternancia_vocálica: "e:ie" }, // FIX: multiple forms
+    estremecer: {
+      ok:true,
+      },
     estrenar: {
       ok:true,
       },
@@ -2378,6 +3080,12 @@ const verbos_con_cambios_morfológicos = {
       ok:{"IndPres":{"s1":["evalúo"],"s2":["evalúas"],"s3":["evalúa"],"p3":["evalúan"]},"SubPres":{"s1":["evalúe"],"s2":["evalúes"],"s3":["evalúe"],"p3":["evalúen"]},"CmdPos":{"s2":["evalúa"],"s3":["evalúe"],"p3":["evalúen"]},"CmdNeg":{"s2":["evalúes"],"s3":["evalúe"],"p3":["evalúen"]}},
       },
     evitar: {
+      ok:true,
+      },
+    examinar: {
+      ok:true,
+      },
+    exasperar: {
       ok:true,
       },
     exceder: {
@@ -2407,6 +3115,9 @@ const verbos_con_cambios_morfológicos = {
     explicar: {
       ok:true,
       },
+    explorar: {
+      ok:true,
+      },
     exponer: {
       ok:true,
       },
@@ -2416,7 +3127,13 @@ const verbos_con_cambios_morfológicos = {
     extender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    extenuar: {
+      ok:{"IndPres":{"s1":["extenúo"],"s2":["extenúas"],"s3":["extenúa"],"p3":["extenúan"]},"SubPres":{"s1":["extenúe"],"s2":["extenúes"],"s3":["extenúe"],"p3":["extenúen"]},"CmdPos":{"s2":["extenúa"],"s3":["extenúe"],"p3":["extenúen"]},"CmdNeg":{"s2":["extenúes"],"s3":["extenúe"],"p3":["extenúen"]}},
+      },
     extraer: {
+      ok:true,
+      },
+    extrañar: {
       ok:true,
       },
     fabricar: {
@@ -2434,6 +3151,9 @@ const verbos_con_cambios_morfológicos = {
     faltar: {
       ok:true,
       },
+    fascinar: {
+      ok:true,
+      },
     felicitar: {
       ok:true,
       },
@@ -2444,6 +3164,18 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     finalizar: {
+      ok:true,
+      },
+    firmar: {
+      ok:true,
+      },
+    flanquear: {
+      ok:true,
+      },
+    flaquear: {
+      ok:true,
+      },
+    flexionar: {
       ok:true,
       },
     flotar: {
@@ -2464,12 +3196,30 @@ const verbos_con_cambios_morfológicos = {
     fotografiar: {
       ok:true,
        modelo: "vaciar" },
+    fraguar: {
+      ok:{"IndPret":{"s1":["fragüé"]},"SubPres":{"s1":["fragüe"],"s2":["fragües"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fragüéis"],"p3":["fragüen"]},"CmdPos":{"s3":["fragüe"],"p1":["fragüemos"],"p3":["fragüen"]},"CmdNeg":{"s2":["fragües"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fragüéis"],"p3":["fragüen"]}},
+      },
+    frecuentar: {
+      ok:true,
+      },
     fregar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     freír: {
       ok:{"participio":"frito","IndPret":{"s3":["frió"]},"CmdNeg":{"s2":["frías"],"s3":["fría"],"p3":["frían"]}},
        modelo: "reír" },
+    frotar: {
+      ok:true,
+      },
+    fruncir: {
+      ok:{"IndPres":{"s1":["frunzo"]},"SubPres":{"s1":["frunza"],"s2":["frunzas"],"s3":["frunza"],"p1":["frunzamos"],"p2":["frunzáis"],"p3":["frunzan"]},"CmdPos":{"s3":["frunza"],"p1":["frunzamos"],"p3":["frunzan"]},"CmdNeg":{"s2":["frunzas"],"s3":["frunza"],"p1":["frunzamos"],"p2":["frunzáis"],"p3":["frunzan"]}},
+      },
+    fulgurar: {
+      ok:true,
+      },
+    fumar: {
+      ok:true,
+      },
     funcionar: {
       ok:true,
       },
@@ -2479,10 +3229,16 @@ const verbos_con_cambios_morfológicos = {
     ganar: {
       ok:true,
       },
+    gastar: {
+      ok:true,
+      },
     gemir: {
       ok:{"IndPret":{"s3":["gimió"],"p3":["gimieron"]},"SubImp":{"s1":["gimiera","gimiese"],"s2":["gimieras","gimieses"],"s3":["gimiera","gimiese"],"p1":["gimiéramos","gimiésemos"],"p2":["gimierais","gimieseis"],"p3":["gimieran","gimiesen"]},"SubFut":{"s1":["gimiere"],"s2":["gimieres"],"s3":["gimiere"],"p1":["gimiéremos"],"p2":["gimiereis"],"p3":["gimieren"]}},
        modelo: "pedir" },
     generar: {
+      ok:true,
+      },
+    germinar: {
       ok:true,
       },
     girar: {
@@ -2491,8 +3247,17 @@ const verbos_con_cambios_morfológicos = {
     gobernar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    gotear: {
+      ok:true,
+      },
     gozar: {
       ok:true,
+      },
+    grabar: {
+      ok:true,
+      },
+    graduar: {
+      ok:{"IndPres":{"s1":["gradúo"],"s2":["gradúas"],"s3":["gradúa"],"p3":["gradúan"]},"SubPres":{"s1":["gradúe"],"s2":["gradúes"],"s3":["gradúe"],"p3":["gradúen"]},"CmdPos":{"s2":["gradúa"],"s3":["gradúe"],"p3":["gradúen"]},"CmdNeg":{"s2":["gradúes"],"s3":["gradúe"],"p3":["gradúen"]}},
       },
     granizar: {
       ok:true,
@@ -2527,6 +3292,9 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    guisar: {
+      ok:true,
+      },
     gustar: {
       ok:true,
       },
@@ -2576,6 +3344,9 @@ const verbos_con_cambios_morfológicos = {
     hallar: {
       ok:true,
       },
+    hartar: {
+      ok:true,
+      },
     heder: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -2600,6 +3371,9 @@ const verbos_con_cambios_morfológicos = {
     hornear: {
       ok:true,
       },
+    hospedar: {
+      ok:true,
+      },
     huir: {
       ok:{"IndPres":{"vos":["huís"],"p2":["huís"]},"IndPret":{"s1":["huí"]},"CmdPos":{"vos":["huí"]}},
       
@@ -2614,6 +3388,12 @@ const verbos_con_cambios_morfológicos = {
             },
         }
     },
+    humanizar: {
+      ok:true,
+      },
+    humillar: {
+      ok:true,
+      },
     hundir: {
       ok:true,
       },
@@ -2621,6 +3401,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     ignorar: {
+      ok:true,
+      },
+    igualar: {
       ok:true,
       },
     iluminar: {
@@ -2632,16 +3415,31 @@ const verbos_con_cambios_morfológicos = {
     impedir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    implantar: {
+      ok:true,
+      },
+    implorar: {
+      ok:true,
+      },
     imponer: {
       ok:true,
       },
     importar: {
       ok:true,
       },
+    imposibilitar: {
+      ok:true,
+      },
     impregnar: {
       ok:true,
       },
     impresionar: {
+      ok:true,
+      },
+    imprimir: {
+      ok:{"participio":"impreso"},
+      },
+    inclinar: {
       ok:true,
       },
     incluir: {
@@ -2653,6 +3451,9 @@ const verbos_con_cambios_morfológicos = {
     incubar: {
       ok:true,
       },
+    indagar: {
+      ok:true,
+      },
     indexar: {
       ok:true,
       },
@@ -2662,16 +3463,28 @@ const verbos_con_cambios_morfológicos = {
     inferir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    infestar: {
+      ok:true,
+      },
+    infligir: {
+      ok:true,
+      },
     informar: {
       ok:true,
       },
     infundir: {
       ok:true,
       },
+    ingeniar: {
+      ok:true,
+      },
     ingerir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     incrustar: {
+      ok:true,
+      },
+    ingresar: {
       ok:true,
       },
     inhalar: {
@@ -2683,6 +3496,9 @@ const verbos_con_cambios_morfológicos = {
     injerir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    inmigrar: {
+      ok:true,
+      },
     inquietar: {
       ok:true,
       },
@@ -2690,6 +3506,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
        alternancia_vocálica: "i:ie" },
     insertar: {
+      ok:true,
+      },
+    insistir: {
       ok:true,
       },
     inspeccionar: {
@@ -2702,6 +3521,15 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     intentar: {
+      ok:true,
+      },
+    intercalar: {
+      ok:true,
+      },
+    intercambiar: {
+      ok:true,
+      },
+    interesar: {
       ok:true,
       },
     interferir: {
@@ -2719,12 +3547,18 @@ const verbos_con_cambios_morfológicos = {
     intervenir: {
       ok:true,
        modelo: "venir" },
+    intrigar: {
+      ok:true,
+      },
     introducir: {
       ok:true,
       },
     intuir: {
       ok:{"IndPres":{"vos":["intuís"],"p2":["intuís"]},"IndPret":{"s1":["intuí"]},"CmdPos":{"vos":["intuí"]}},
        modelo: "huir" },
+    inundar: {
+      ok:true,
+      },
     invadir: {
       ok:true,
       },
@@ -2762,6 +3596,12 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    irritar: {
+      ok:true,
+      },
+    jactar: {
+      ok:true,
+      },
     jalar: {
       ok:true,
       },
@@ -2777,7 +3617,22 @@ const verbos_con_cambios_morfológicos = {
     juntar: {
       ok:true,
       },
+    jurar: {
+      ok:true,
+      },
+    justificar: {
+      ok:true,
+      },
+    juzgar: {
+      ok:true,
+      },
     lagrimear: {
+      ok:true,
+      },
+    lamentar: {
+      ok:true,
+      },
+    largar: {
       ok:true,
       },
     lastimar: {
@@ -2790,6 +3645,12 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
        modelo: "leer", clase_conjugacional: "-eer" },
     levantar: {
+      ok:true,
+      },
+    licenciar: {
+      ok:true,
+      },
+    limpiar: {
       ok:true,
       },
     llamar: {
@@ -2816,7 +3677,19 @@ const verbos_con_cambios_morfológicos = {
     lograr: {
       ok:true,
       },
+    luchar: {
+      ok:true,
+      },
     lucir: {
+      ok:true,
+      },
+    lustrar: {
+      ok:true,
+      },
+    maldecir: {
+      ok:{"participio":"maldecido","IndFut":{"s1":["maldeciré"],"s2":["maldecirás"],"s3":["maldecirá"],"p1":["maldeciremos"],"p2":["maldeciréis"],"p3":["maldecirán"]},"IndCond":{"s1":["maldeciría"],"s2":["maldecirías"],"s3":["maldeciría"],"p1":["maldeciríamos"],"p2":["maldeciríais"],"p3":["maldecirían"]},"CmdPos":{"s2":["maldice"]}},
+      },
+    malgastar: {
       ok:true,
       },
     malquerer: {
@@ -2828,13 +3701,22 @@ const verbos_con_cambios_morfológicos = {
     manejar: {
       ok:true,
       },
+    maniatar: {
+      ok:true,
+      },
     manifestar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     mantener: {
       ok:true,
       },
+    maquillar: {
+      ok:true,
+      },
     marcar: {
+      ok:true,
+      },
+    marchar: {
       ok:true,
       },
     martillar: {
@@ -2846,11 +3728,20 @@ const verbos_con_cambios_morfológicos = {
     medir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    meditar: {
+      ok:true,
+      },
     mejorar: {
       ok:true,
       },
     mencionar: {
       ok:true,
+      },
+    mendigar: {
+      ok:true,
+      },
+    menguar: {
+      ok:{"IndPret":{"s1":["mengüé"]},"SubPres":{"s1":["mengüe"],"s2":["mengües"],"s3":["mengüe"],"p1":["mengüemos"],"p2":["mengüéis"],"p3":["mengüen"]},"CmdPos":{"s3":["mengüe"],"p1":["mengüemos"],"p3":["mengüen"]},"CmdNeg":{"s2":["mengües"],"s3":["mengüe"],"p1":["mengüemos"],"p2":["mengüéis"],"p3":["mengüen"]}},
       },
     mentar: {
       ok:true,
@@ -2858,6 +3749,9 @@ const verbos_con_cambios_morfológicos = {
     mentir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    merecer: {
+      ok:true,
+      },
     merendar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -2891,10 +3785,19 @@ const verbos_con_cambios_morfológicos = {
     mover: {
       ok:true,
        modelo: "mover", alternancia_vocálica: "o:ue" },
+    mudar: {
+      ok:true,
+      },
     multiplicar: {
       ok:true,
       },
+    murmurar: {
+      ok:true,
+      },
     nacer: {
+      ok:true,
+      },
+    nadar: {
       ok:true,
       },
     necesitar: {
@@ -2906,10 +3809,16 @@ const verbos_con_cambios_morfológicos = {
     nevar: {
       ok:true,
        alternancia_vocálica: "e:ie" }, // FIX: conjugate_only: ["s3"]},
+    nombrar: {
+      ok:true,
+      },
     notar: {
       ok:true,
       },
     nutrir: {
+      ok:true,
+      },
+    obedecer: {
       ok:true,
       },
     obligar: {
@@ -2930,19 +3839,13 @@ const verbos_con_cambios_morfológicos = {
     ocurrir: {
       ok:true,
       },
+    odiar: {
+      ok:true,
+      },
     ofrecer: {
       ok:true,
       },
-    oler: {
-      ok:true,
-       alternancia_vocálica: "o:ue" },
-    olvidar: {
-      ok:true,
-      },
-    operar: {
-      ok:true,
-      },
-    organizar: {
+    ofuscar: {
       ok:true,
       },
     oír: {
@@ -2957,13 +3860,40 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    oler: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
+    olvidar: {
+      ok:true,
+      },
+    operar: {
+      ok:true,
+      },
+    organizar: {
+      ok:true,
+      },
     oponer: {
       ok:true,
        modelo: "poner" },
+    originar: {
+      ok:true,
+      },
+    orinar: {
+      ok:true,
+      },
+    padecer: {
+      ok:true,
+      },
     pagar: {
       ok:true,
       },
+    parar: {
+      ok:true,
+      },
     parecer: {
+      ok:true,
+      },
+    parpadear: {
       ok:true,
       },
     participar: {
@@ -2972,10 +3902,25 @@ const verbos_con_cambios_morfológicos = {
     partir: {
       ok:true,
       },
+    partyar: {
+      ok:true,
+      },
     pasar: {
       ok:true,
       },
+    pasear: {
+      ok:true,
+      },
     pasmar: {
+      ok:true,
+      },
+    patinar: {
+      ok:true,
+      },
+    patrullar: {
+      ok:true,
+      },
+    pausar: {
       ok:true,
       },
     pedalear: {
@@ -2985,6 +3930,9 @@ const verbos_con_cambios_morfológicos = {
       ok:true,
        modelo: "pedir", alternancia_vocálica: "e:i" },
     pegar: {
+      ok:true,
+      },
+    peinar: {
       ok:true,
       },
     penetrar: {
@@ -3005,6 +3953,9 @@ const verbos_con_cambios_morfológicos = {
     permitir: {
       ok:true,
       },
+    perpetrar: {
+      ok:true,
+      },
     perseguir: {
       ok:true,
        alternancia_vocálica: "e:i" },
@@ -3017,10 +3968,34 @@ const verbos_con_cambios_morfológicos = {
     pesar: {
       ok:true,
       },
+    pescar: {
+      ok:true,
+      },
+    pestañear: {
+      ok:true,
+      },
+    petrificar: {
+      ok:true,
+      },
     piar: {
       ok:{"IndPres":{"vos":["pias"],"p2":["piais"]},"IndPret":{"s1":["pie"],"s3":["pio"]},"SubPres":{"p2":["pieis"]},"CmdPos":{"vos":["pia"]},"CmdNeg":{"p2":["pieis"]}},
        modelo: "vaciar" },
     picar: {
+      ok:true,
+      },
+    picotear: {
+      ok:true,
+      },
+    pintar: {
+      ok:true,
+      },
+    pisar: {
+      ok:true,
+      },
+    planchar: {
+      ok:true,
+      },
+    plasmar: {
       ok:true,
       },
     platicar: {
@@ -3055,16 +4030,31 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    pordiosear: {
+      ok:true,
+      },
+    portar: {
+      ok:true,
+      },
     posar: {
       ok:true,
       },
     poseer: {
       ok:true,
       },
+    practicar: {
+      ok:true,
+      },
     preferir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     preguntar: {
+      ok:true,
+      },
+    prender: {
+      ok:true,
+      },
+    preocupar: {
       ok:true,
       },
     preparar: {
@@ -3094,9 +4084,15 @@ const verbos_con_cambios_morfológicos = {
     prever: {
       ok:{"IndPres":{"s2":["prevés"],"s3":["prevé"],"p2":["prevéis"],"p3":["prevén"]},"IndPret":{"s1":["preví"],"s3":["previó"]},"CmdPos":{"s2":["prevé"]}},
        modelo: "ver" },
+    principiar: {
+      ok:true,
+      },
     probar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    proceder: {
+      ok:true,
+      },
     procesar: {
       ok:true,
       },
@@ -3109,16 +4105,28 @@ const verbos_con_cambios_morfológicos = {
     proferir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    prohibir: {
+      ok:{"IndPres":{"s1":["prohíbo"],"s2":["prohíbes"],"s3":["prohíbe"],"p3":["prohíben"]},"SubPres":{"s1":["prohíba"],"s2":["prohíbas"],"s3":["prohíba"],"p3":["prohíban"]},"CmdPos":{"s2":["prohíbe"],"s3":["prohíba"],"p3":["prohíban"]},"CmdNeg":{"s2":["prohíbas"],"s3":["prohíba"],"p3":["prohíban"]}},
+      },
+    proliferar: {
+      ok:true,
+      },
     prometer: {
       ok:true,
       },
     promover: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    pronunciar: {
+      ok:true,
+      },
     proponer: {
       ok:true,
       },
     proporcionar: {
+      ok:true,
+      },
+    propugnar: {
       ok:true,
       },
     proseguir: {
@@ -3136,10 +4144,25 @@ const verbos_con_cambios_morfológicos = {
     provocar: {
       ok:true,
       },
+    publicar: {
+      ok:true,
+      },
+    pudrir: {
+      ok:{"participio":"podrido"},
+      },
+    pulir: {
+      ok:true,
+      },
+    quebrantar: {
+      ok:true,
+      },
     quebrar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
     quedar: {
+      ok:true,
+      },
+    quejar: {
       ok:true,
       },
     quemar: {
@@ -3162,19 +4185,49 @@ const verbos_con_cambios_morfológicos = {
     raspar: {
       ok:true,
       },
+    rastrear: {
+      ok:true,
+      },
     realizar: {
       ok:true,
       },
     reanudar: {
       ok:true,
       },
+    rebanar: {
+      ok:true,
+      },
     rebelar: {
+      ok:true,
+      },
+    recetar: {
+      ok:true,
+      },
+    rechazar: {
+      ok:true,
+      },
+    rechinar: {
       ok:true,
       },
     recibir: {
       ok:true,
       },
+    reciclar: {
+      ok:true,
+      },
+    reclamar: {
+      ok:true,
+      },
+    recluir: {
+      ok:{"IndPres":{"vos":["recluís"],"p2":["recluís"]},"IndPret":{"s1":["recluí"]},"CmdPos":{"vos":["recluí"]}},
+      },
+    recobrar: {
+      ok:true,
+      },
     recoger: {
+      ok:true,
+      },
+    recolectar: {
       ok:true,
       },
     recomendar: {
@@ -3183,7 +4236,6 @@ const verbos_con_cambios_morfológicos = {
     recomenzar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
-    reconectar: {},
     reconfortar: {
       ok:true,
       },
@@ -3202,6 +4254,9 @@ const verbos_con_cambios_morfológicos = {
     recorrer: {
       ok:true,
       },
+    recuperar: {
+      ok:true,
+      },
     recurrir: {
       ok:true,
       },
@@ -3211,7 +4266,9 @@ const verbos_con_cambios_morfológicos = {
     reemplazar: {
       ok:true,
       },
-    reencender: {},
+    reencontrar: {
+      ok:{"IndPres":{"s1":["reencuentro"],"s2":["reencuentras"],"s3":["reencuentra"],"p3":["reencuentran"]},"SubPres":{"s1":["reencuentre"],"s2":["reencuentres"],"s3":["reencuentre"],"p3":["reencuentren"]},"CmdPos":{"s2":["reencuentra"],"s3":["reencuentre"],"p3":["reencuentren"]},"CmdNeg":{"s2":["reencuentres"],"s3":["reencuentre"],"p3":["reencuentren"]}},
+      },
     reenviar: {
       ok:true,
        modelo: "vaciar" },
@@ -3224,6 +4281,15 @@ const verbos_con_cambios_morfológicos = {
     reforzar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    refugiar: {
+      ok:true,
+      },
+    regalar: {
+      ok:true,
+      },
+    regañar: {
+      ok:true,
+      },
     regar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -3239,34 +4305,16 @@ const verbos_con_cambios_morfológicos = {
     regular: {
       ok:true,
       },
+    rehogar: {
+      ok:true,
+      },
+    rehuir: {
+      ok:{"IndPres":{"s1":["rehúyo"],"s2":["rehúyes"],"vos":["rehuís"],"s3":["rehúye"],"p2":["rehuís"],"p3":["rehúyen"]},"IndPret":{"s1":["rehuí"]},"SubPres":{"s1":["rehúya"],"s2":["rehúyas"],"s3":["rehúya"],"p3":["rehúyan"]},"CmdPos":{"s2":["rehúye"],"vos":["rehuí"],"s3":["rehúya"],"p3":["rehúyan"]},"CmdNeg":{"s2":["rehúyas"],"s3":["rehúya"],"p3":["rehúyan"]}},
+      },
+    rehusar: {
+      ok:{"IndPres":{"s1":["rehúso"],"s2":["rehúsas"],"s3":["rehúsa"],"p3":["rehúsan"]},"SubPres":{"s1":["rehúse"],"s2":["rehúses"],"s3":["rehúse"],"p3":["rehúsen"]},"CmdPos":{"s2":["rehúsa"],"s3":["rehúse"],"p3":["rehúsen"]},"CmdNeg":{"s2":["rehúses"],"s3":["rehúse"],"p3":["rehúsen"]}},
+      },
     reinstalar: {
-      ok:true,
-      },
-    remodelar: {
-      ok:true,
-      },
-    remplazar: {
-      ok:true,
-      },
-    renunciar: {
-      ok:true,
-      },
-    repartir: {
-      ok:true,
-      },
-    replicar: {
-      ok:true,
-      },
-    reposar: {
-      ok:true,
-      },
-    reprimir: {
-      ok:true,
-      },
-    resistir: {
-      ok:true,
-      },
-    restaurar: {
       ok:true,
       },
     reír: {
@@ -3291,6 +4339,57 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    relajar: {
+      ok:true,
+      },
+    relucir: {
+      ok:true,
+      },
+    rememorar: {
+      ok:true,
+      },
+    remodelar: {
+      ok:true,
+      },
+    remplazar: {
+      ok:true,
+      },
+    renunciar: {
+      ok:true,
+      },
+    repartir: {
+      ok:true,
+      },
+    repasar: {
+      ok:true,
+      },
+    replicar: {
+      ok:true,
+      },
+    reposar: {
+      ok:true,
+      },
+    reprimir: {
+      ok:true,
+      },
+    resbalar: {
+      ok:true,
+      },
+    resentir: {
+      ok:{"gerundio":"resintiendo","IndPres":{"s1":["resiento"],"s2":["resientes"],"s3":["resiente"],"p3":["resienten"]},"IndPret":{"s3":["resintió"],"p3":["resintieron"]},"SubPres":{"s1":["resienta"],"s2":["resientas"],"s3":["resienta"],"p1":["resintamos"],"p2":["resintáis"],"p3":["resientan"]},"SubImp":{"s1":["resintiera","resintiese"],"s2":["resintieras","resintieses"],"s3":["resintiera","resintiese"],"p1":["resintiéramos","resintiésemos"],"p2":["resintierais","resintieseis"],"p3":["resintieran","resintiesen"]},"SubFut":{"s1":["resintiere"],"s2":["resintieres"],"s3":["resintiere"],"p1":["resintiéremos"],"p2":["resintiereis"],"p3":["resintieren"]},"CmdPos":{"s2":["resiente"],"s3":["resienta"],"p1":["resintamos"],"p3":["resientan"]},"CmdNeg":{"s2":["resientas"],"s3":["resienta"],"p1":["resintamos"],"p2":["resintáis"],"p3":["resientan"]}},
+      },
+    resistir: {
+      ok:true,
+      },
+    respirar: {
+      ok:true,
+      },
+    restar: {
+      ok:true,
+      },
+    restaurar: {
+      ok:true,
+      },
     remendar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -3345,9 +4444,18 @@ const verbos_con_cambios_morfológicos = {
     retornar: {
       ok:true,
       },
+    retozar: {
+      ok:true,
+      },
+    retumbar: {
+      ok:true,
+      },
     reunir: {
       ok:true,
        alternancia_vocálica: "u:ú" },
+    revelar: {
+      ok:true,
+      },
     reventar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -3360,6 +4468,15 @@ const verbos_con_cambios_morfológicos = {
     revolver: {
       ok:true,
        modelo: "volver" },
+    rezagar: {
+      ok:true,
+      },
+    rimar: {
+      ok:true,
+      },
+    robar: {
+      ok:true,
+      },
     rociar: {
       ok:true,
        modelo: "vaciar" },
@@ -3372,6 +4489,9 @@ const verbos_con_cambios_morfológicos = {
     romper: {
       ok:true,
        excepciones_léxicas: { participio: "roto" } },
+    rondar: {
+      ok:true,
+      },
     saber: {
       ok:true,
       
@@ -3387,7 +4507,16 @@ const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    saborear: {
+      ok:true,
+      },
     sacar: {
+      ok:true,
+      },
+    saciar: {
+      ok:true,
+      },
+    sacudir: {
       ok:true,
       },
     salir: {
@@ -3400,6 +4529,12 @@ const verbos_con_cambios_morfológicos = {
     salpimentar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    saludar: {
+      ok:true,
+      },
+    santiguar: {
+      ok:{"IndPret":{"s1":["santigüé"]},"SubPres":{"s1":["santigüe"],"s2":["santigües"],"s3":["santigüe"],"p1":["santigüemos"],"p2":["santigüéis"],"p3":["santigüen"]},"CmdPos":{"s3":["santigüe"],"p1":["santigüemos"],"p3":["santigüen"]},"CmdNeg":{"s2":["santigües"],"s3":["santigüe"],"p1":["santigüemos"],"p2":["santigüéis"],"p3":["santigüen"]}},
+      },
     satisfacer: {
       ok:true,
        modelo: "hacer" }, // FIX: support rules to generate this verb from this list
@@ -3475,31 +4610,52 @@ const verbos_con_cambios_morfológicos = {
     sobrevenir: {
       ok:true,
        modelo: "venir" },
+    sobrevivir: {
+      ok:true,
+      },
     sofreír: {
       ok:{"participio":"sofrito","IndPret":{"s3":["sofrió"]},"CmdNeg":{"s2":["sofrías"],"s3":["sofría"],"p3":["sofrían"]}},
        modelo: "reír" },
+    solar: {
+      ok:{"IndPres":{"s1":["suelo"],"s2":["suelas"],"s3":["suela"],"p3":["suelan"]},"SubPres":{"s1":["suele"],"s2":["sueles"],"s3":["suele"],"p3":["suelen"]},"CmdPos":{"s2":["suela"],"s3":["suele"],"p3":["suelen"]},"CmdNeg":{"s2":["sueles"],"s3":["suele"],"p3":["suelen"]}},
+      },
     soldar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
     soler: {
       ok:{"participio":null},
        alternancia_vocálica: "o:ue" },
+    solicitar: {
+      ok:true,
+      },
     sollozar: {
       ok:true,
       },
     soltar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
-    sonar: {
+    solucionar: {
       ok:true,
-       alternancia_vocálica: "o:ue" },
-    soñar: {
+      },
+    someter: {
+      ok:true,
+      },
+    sonar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
     sonreír: {
       ok:{"IndPret":{"s3":["sonrió"]},"CmdNeg":{"s2":["sonrías"],"s3":["sonría"],"p3":["sonrían"]}},
        modelo: "reír" },
+    soñar: {
+      ok:true,
+       alternancia_vocálica: "o:ue" },
     soportar: {
+      ok:true,
+      },
+    sorprender: {
+      ok:true,
+      },
+    sortear: {
       ok:true,
       },
     sosegar: {
@@ -3511,7 +4667,13 @@ const verbos_con_cambios_morfológicos = {
     sostener: {
       ok:true,
       },
+    soterrar: {
+      ok:{"IndPres":{"s1":["sotierro","soterro"],"s2":["sotierras","soterras"],"s3":["sotierra","soterra"],"p3":["sotierran","soterran"]},"SubPres":{"s1":["sotierre","soterre"],"s2":["sotierres","soterres"],"s3":["sotierre","soterre"],"p3":["sotierren","soterren"]},"CmdPos":{"s2":["sotierra","soterra"],"s3":["sotierre","soterre"],"p3":["sotierren","soterren"]},"CmdNeg":{"s2":["sotierres","soterres"],"s3":["sotierre","soterre"],"p3":["sotierren","soterren"]}},
+      },
     subir: {
+      ok:true,
+      },
+    substraer: {
       ok:true,
       },
     subvenir: {
@@ -3520,7 +4682,13 @@ const verbos_con_cambios_morfológicos = {
     subvertir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    succionar: {
+      ok:true,
+      },
     suceder: {
+      ok:true,
+      },
+    sudar: {
       ok:true,
       },
     sufrir: {
@@ -3535,18 +4703,54 @@ const verbos_con_cambios_morfológicos = {
     suministrar: {
       ok:true,
       },
+    suplicar: {
+      ok:true,
+      },
     suponer: {
+      ok:true,
+      },
+    supurar: {
       ok:true,
       },
     surgir: {
       ok:true,
       },
+    suscribir: {
+      ok:{"participio":"suscrito"},
+      },
     suspender: {
+      ok:true,
+      },
+    suspirar: {
+      ok:true,
+      },
+    sustentar: {
+      ok:true,
+      },
+    sustraer: {
+      ok:true,
+      },
+    tallar: {
+      ok:true,
+      },
+    tapar: {
+      ok:true,
+      },
+    tapiar: {
+      ok:true,
+      },
+    tardar: {
+      ok:true,
+      },
+    tartamudear: {
       ok:true,
       },
     temblar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    temer: {
+      ok:true,
+      },
     tender: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -3574,10 +4778,22 @@ const verbos_con_cambios_morfológicos = {
     teñir: {
       ok:true,
        alternancia_vocálica: "e:i" },
+    textear: {
+      ok:{"IndPres":{"s3":["textean"]},"IndPret":{"p3":["texteron"]},"SubImp":{"s1":["textera","textease"],"s2":["texteras","texteases"],"s3":["textera","textease"],"p2":["texterais","texteaseis"],"p3":["texteran","texteasen"]},"SubFut":{"s1":["textere"],"s2":["texteres"],"s3":["textere"],"p2":["textereis"],"p3":["texteren"]},"CmdPos":{"s2":["texte"]}},
+      },
+    tipificar: {
+      ok:true,
+      },
     tirar: {
       ok:true,
       },
+    titubear: {
+      ok:true,
+      },
     tocar: {
+      ok:true,
+      },
+    tolerar: {
       ok:true,
       },
     tomar: {
@@ -3587,6 +4803,9 @@ const verbos_con_cambios_morfológicos = {
       ok:{"IndPres":{"s1":["tuerzo"]},"SubPres":{"s1":["tuerza"],"s2":["tuerzas"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torzáis"],"p3":["tuerzan"]},"CmdPos":{"s3":["tuerza"],"p1":["torzamos"],"p3":["tuerzan"]},"CmdNeg":{"s2":["tuerzas"],"s3":["tuerza"],"p1":["torzamos"],"p2":["torzáis"],"p3":["tuerzan"]}},
        alternancia_vocálica: "o:ue" },
     tornar: {
+      ok:true,
+      },
+    toser: {
       ok:true,
       },
     tostar: {
@@ -3610,10 +4829,16 @@ const verbos_con_cambios_morfológicos = {
     transferir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    transformar: {
+      ok:true,
+      },
     transmitir: {
       ok:true,
       },
     transportar: {
+      ok:true,
+      },
+    trapear: {
       ok:true,
       },
     trascender: {
@@ -3622,10 +4847,22 @@ const verbos_con_cambios_morfológicos = {
     trasferir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    traspasar: {
+      ok:true,
+      },
+    trastabillar: {
+      ok:true,
+      },
     tratar: {
       ok:true,
       },
+    trepar: {
+      ok:true,
+      },
     triangular: {
+      ok:true,
+      },
+    triturar: {
       ok:true,
       },
     trocar: {
@@ -3637,6 +4874,12 @@ const verbos_con_cambios_morfológicos = {
     tropezar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    tumbar: {
+      ok:true,
+      },
+    turnar: {
+      ok:true,
+      },
     ubicar: {
       ok:true,
       },
@@ -3677,6 +4920,9 @@ const verbos_con_cambios_morfológicos = {
        modelo: "vaciar" },
     velar: {
       ok:true,
+      },
+    vencer: {
+      ok:{"IndPres":{"s1":["venzo"]},"SubPres":{"s1":["venza"],"s2":["venzas"],"s3":["venza"],"p1":["venzamos"],"p2":["venzáis"],"p3":["venzan"]},"CmdPos":{"s3":["venza"],"p1":["venzamos"],"p3":["venzan"]},"CmdNeg":{"s2":["venzas"],"s3":["venza"],"p1":["venzamos"],"p2":["venzáis"],"p3":["venzan"]}},
       },
     vender: {
       ok:true,
@@ -3741,6 +4987,15 @@ const verbos_con_cambios_morfológicos = {
     vidriar: {
       ok:{"IndPres":{"s1":["vidrío","vidrio"],"s2":["vidrías","vidrias"],"s3":["vidría","vidria"],"p3":["vidrían","vidrian"]},"SubPres":{"s1":["vidríe","vidrie"],"s2":["vidríes","vidries"],"s3":["vidríe","vidrie"],"p3":["vidríen","vidrien"]},"CmdPos":{"s2":["vidría","vidria"],"s3":["vidríe","vidrie"],"p3":["vidríen","vidrien"]},"CmdNeg":{"s2":["vidríes","vidries"],"s3":["vidríe","vidrie"],"p3":["vidríen","vidrien"]}},
        modelo: "vaciar" },
+    vigilar: {
+      ok:true,
+      },
+    violar: {
+      ok:true,
+      },
+    virar: {
+      ok:true,
+      },
     visitar: {
       ok:true,
       },
@@ -3753,15 +5008,24 @@ const verbos_con_cambios_morfológicos = {
     volcar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    voltear: {
+      ok:true,
+      },
     volver: {
       ok:true,
        modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "vuelto" } },
+    votar: {
+      ok:true,
+      },
     xerografiar: {
       ok:true,
        modelo: "vaciar" },
     zaherir: {
       ok:true,
-       alternancia_vocálica: "e:ie" }
+       alternancia_vocálica: "e:ie" },
+    zumbar: {
+      ok:true,
+      },
 };
 // FIX: restore after refactoring complete
 function getAnnotations(infinitivo, modelo, mood_tense) {

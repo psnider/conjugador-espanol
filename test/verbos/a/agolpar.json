@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞olˈpaɾ]",
+    "silabacion": "a-gol-par",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agolpar","gerundio":"agolpando","participio":"agolpado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agolpo"],"s2":["agolpas"],"vos":["agolpás"],"s3":["agolpa"],"p1":["agolpamos"],"p2":["agolpáis"],"p3":["agolpan"]},
+    "IndImp": {"s1":["agolpaba"],"s2":["agolpabas"],"vos":["agolpabas"],"s3":["agolpaba"],"p1":["agolpábamos"],"p2":["agolpabais"],"p3":["agolpaban"]},
+    "IndPret": {"s1":["agolpé"],"s2":["agolpaste"],"vos":["agolpaste"],"s3":["agolpó"],"p1":["agolpamos"],"p2":["agolpasteis"],"p3":["agolparon"]},
+    "IndFut": {"s1":["agolparé"],"s2":["agolparás"],"vos":["agolparás"],"s3":["agolpará"],"p1":["agolparemos"],"p2":["agolparéis"],"p3":["agolparán"]},
+    "IndCond": {"s1":["agolparía"],"s2":["agolparías"],"vos":["agolparías"],"s3":["agolparía"],"p1":["agolparíamos"],"p2":["agolparíais"],"p3":["agolparían"]},
+    "SubPres": {"s1":["agolpe"],"s2":["agolpes"],"vos":["agolpes","agolpés"],"s3":["agolpe"],"p1":["agolpemos"],"p2":["agolpéis"],"p3":["agolpen"]},
+    "SubImp": {"s1":["agolpara","agolpase"],"s2":["agolparas","agolpases"],"vos":["agolparas","agolpases"],"s3":["agolpara","agolpase"],"p1":["agolpáramos","agolpásemos"],"p2":["agolparais","agolpaseis"],"p3":["agolparan","agolpasen"]},
+    "SubFut": {"s1":["agolpare"],"s2":["agolpares"],"vos":["agolpares"],"s3":["agolpare"],"p1":["agolpáremos"],"p2":["agolpareis"],"p3":["agolparen"]},
+    "CmdPos": {"s2":["agolpa"],"vos":["agolpá"],"s3":["agolpe"],"p1":["agolpemos"],"p2":["agolpad"],"p3":["agolpen"]}
+  }
+}

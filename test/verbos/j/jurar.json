@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xuˈɾaɾ]",
+    "silabacion": "ju-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jurar","gerundio":"jurando","participio":"jurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["juro"],"s2":["juras"],"vos":["jurás"],"s3":["jura"],"p1":["juramos"],"p2":["juráis"],"p3":["juran"]},
+    "IndImp": {"s1":["juraba"],"s2":["jurabas"],"vos":["jurabas"],"s3":["juraba"],"p1":["jurábamos"],"p2":["jurabais"],"p3":["juraban"]},
+    "IndPret": {"s1":["juré"],"s2":["juraste"],"vos":["juraste"],"s3":["juró"],"p1":["juramos"],"p2":["jurasteis"],"p3":["juraron"]},
+    "IndFut": {"s1":["juraré"],"s2":["jurarás"],"vos":["jurarás"],"s3":["jurará"],"p1":["juraremos"],"p2":["juraréis"],"p3":["jurarán"]},
+    "IndCond": {"s1":["juraría"],"s2":["jurarías"],"vos":["jurarías"],"s3":["juraría"],"p1":["juraríamos"],"p2":["juraríais"],"p3":["jurarían"]},
+    "SubPres": {"s1":["jure"],"s2":["jures"],"vos":["jures","jurés"],"s3":["jure"],"p1":["juremos"],"p2":["juréis"],"p3":["juren"]},
+    "SubImp": {"s1":["jurara","jurase"],"s2":["juraras","jurases"],"vos":["juraras","jurases"],"s3":["jurara","jurase"],"p1":["juráramos","jurásemos"],"p2":["jurarais","juraseis"],"p3":["juraran","jurasen"]},
+    "SubFut": {"s1":["jurare"],"s2":["jurares"],"vos":["jurares"],"s3":["jurare"],"p1":["juráremos"],"p2":["jurareis"],"p3":["juraren"]},
+    "CmdPos": {"s2":["jura"],"vos":["jurá"],"s3":["jure"],"p1":["juremos"],"p2":["jurad"],"p3":["juren"]}
+  }
+}

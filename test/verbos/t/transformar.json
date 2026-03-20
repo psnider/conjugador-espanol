@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsfoɾˈmaɾ]",
+    "silabacion": "trans-for-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo trans- y formar, a través del latín trānsfōrmō, trānsfōrmāre (trāns +‎ fōrmō, \"cambiar de forma\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"transformar","gerundio":"transformando","participio":"transformado"},
+  "formas_personales": {
+    "IndPres": {"s1":["transformo"],"s2":["transformas"],"vos":["transformás"],"s3":["transforma"],"p1":["transformamos"],"p2":["transformáis"],"p3":["transforman"]},
+    "IndImp": {"s1":["transformaba"],"s2":["transformabas"],"vos":["transformabas"],"s3":["transformaba"],"p1":["transformábamos"],"p2":["transformabais"],"p3":["transformaban"]},
+    "IndPret": {"s1":["transformé"],"s2":["transformaste"],"vos":["transformaste"],"s3":["transformó"],"p1":["transformamos"],"p2":["transformasteis"],"p3":["transformaron"]},
+    "IndFut": {"s1":["transformaré"],"s2":["transformarás"],"vos":["transformarás"],"s3":["transformará"],"p1":["transformaremos"],"p2":["transformaréis"],"p3":["transformarán"]},
+    "IndCond": {"s1":["transformaría"],"s2":["transformarías"],"vos":["transformarías"],"s3":["transformaría"],"p1":["transformaríamos"],"p2":["transformaríais"],"p3":["transformarían"]},
+    "SubPres": {"s1":["transforme"],"s2":["transformes"],"vos":["transformes","transformés"],"s3":["transforme"],"p1":["transformemos"],"p2":["transforméis"],"p3":["transformen"]},
+    "SubImp": {"s1":["transformara","transformase"],"s2":["transformaras","transformases"],"vos":["transformaras","transformases"],"s3":["transformara","transformase"],"p1":["transformáramos","transformásemos"],"p2":["transformarais","transformaseis"],"p3":["transformaran","transformasen"]},
+    "SubFut": {"s1":["transformare"],"s2":["transformares"],"vos":["transformares"],"s3":["transformare"],"p1":["transformáremos"],"p2":["transformareis"],"p3":["transformaren"]},
+    "CmdPos": {"s2":["transforma"],"vos":["transformá"],"s3":["transforme"],"p1":["transformemos"],"p2":["transformad"],"p3":["transformen"]}
+  }
+}

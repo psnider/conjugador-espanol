@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈsaɾ]",
+    "silabacion": "ce-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cessāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cesar","gerundio":"cesando","participio":"cesado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ceso"],"s2":["cesas"],"vos":["cesás"],"s3":["cesa"],"p1":["cesamos"],"p2":["cesáis"],"p3":["cesan"]},
+    "IndImp": {"s1":["cesaba"],"s2":["cesabas"],"vos":["cesabas"],"s3":["cesaba"],"p1":["cesábamos"],"p2":["cesabais"],"p3":["cesaban"]},
+    "IndPret": {"s1":["cesé"],"s2":["cesaste"],"vos":["cesaste"],"s3":["cesó"],"p1":["cesamos"],"p2":["cesasteis"],"p3":["cesaron"]},
+    "IndFut": {"s1":["cesaré"],"s2":["cesarás"],"vos":["cesarás"],"s3":["cesará"],"p1":["cesaremos"],"p2":["cesaréis"],"p3":["cesarán"]},
+    "IndCond": {"s1":["cesaría"],"s2":["cesarías"],"vos":["cesarías"],"s3":["cesaría"],"p1":["cesaríamos"],"p2":["cesaríais"],"p3":["cesarían"]},
+    "SubPres": {"s1":["cese"],"s2":["ceses"],"vos":["ceses","cesés"],"s3":["cese"],"p1":["cesemos"],"p2":["ceséis"],"p3":["cesen"]},
+    "SubImp": {"s1":["cesara","cesase"],"s2":["cesaras","cesases"],"vos":["cesaras","cesases"],"s3":["cesara","cesase"],"p1":["cesáramos","cesásemos"],"p2":["cesarais","cesaseis"],"p3":["cesaran","cesasen"]},
+    "SubFut": {"s1":["cesare"],"s2":["cesares"],"vos":["cesares"],"s3":["cesare"],"p1":["cesáremos"],"p2":["cesareis"],"p3":["cesaren"]},
+    "CmdPos": {"s2":["cesa"],"vos":["cesá"],"s3":["cese"],"p1":["cesemos"],"p2":["cesad"],"p3":["cesen"]}
+  }
+}

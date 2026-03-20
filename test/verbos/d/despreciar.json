@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espɾeˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín depretiare, y este de de y pretium, \"precio\". Compárese el doblete depreciar, el italiano disprezzare o el portugués desprezar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"despreciar","gerundio":"despreciando","participio":"despreciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desprecio"],"s2":["desprecias"],"vos":["despreciás"],"s3":["desprecia"],"p1":["despreciamos"],"p2":["despreciáis"],"p3":["desprecian"]},
+    "IndImp": {"s1":["despreciaba"],"s2":["despreciabas"],"vos":["despreciabas"],"s3":["despreciaba"],"p1":["despreciábamos"],"p2":["despreciabais"],"p3":["despreciaban"]},
+    "IndPret": {"s1":["desprecié"],"s2":["despreciaste"],"vos":["despreciaste"],"s3":["despreció"],"p1":["despreciamos"],"p2":["despreciasteis"],"p3":["despreciaron"]},
+    "IndFut": {"s1":["despreciaré"],"s2":["despreciarás"],"vos":["despreciarás"],"s3":["despreciará"],"p1":["despreciaremos"],"p2":["despreciaréis"],"p3":["despreciarán"]},
+    "IndCond": {"s1":["despreciaría"],"s2":["despreciarías"],"vos":["despreciarías"],"s3":["despreciaría"],"p1":["despreciaríamos"],"p2":["despreciaríais"],"p3":["despreciarían"]},
+    "SubPres": {"s1":["desprecie"],"s2":["desprecies"],"vos":["desprecies","despreciés"],"s3":["desprecie"],"p1":["despreciemos"],"p2":["despreciéis"],"p3":["desprecien"]},
+    "SubImp": {"s1":["despreciara","despreciase"],"s2":["despreciaras","despreciases"],"vos":["despreciaras","despreciases"],"s3":["despreciara","despreciase"],"p1":["despreciáramos","despreciásemos"],"p2":["despreciarais","despreciaseis"],"p3":["despreciaran","despreciasen"]},
+    "SubFut": {"s1":["despreciare"],"s2":["despreciares"],"vos":["despreciares"],"s3":["despreciare"],"p1":["despreciáremos"],"p2":["despreciareis"],"p3":["despreciaren"]},
+    "CmdPos": {"s2":["desprecia"],"vos":["despreciá"],"s3":["desprecie"],"p1":["despreciemos"],"p2":["despreciad"],"p3":["desprecien"]}
+  }
+}

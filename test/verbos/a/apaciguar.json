@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apasiˈɣ̞waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pacificāre.",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"apaciguar","gerundio":"apaciguando","participio":"apaciguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["apaciguo"],"s2":["apaciguas"],"vos":["apaciguás"],"s3":["apacigua"],"p1":["apaciguamos"],"p2":["apaciguáis"],"p3":["apaciguan"]},
+    "IndImp": {"s1":["apaciguaba"],"s2":["apaciguabas"],"vos":["apaciguabas"],"s3":["apaciguaba"],"p1":["apaciguábamos"],"p2":["apaciguabais"],"p3":["apaciguaban"]},
+    "IndPret": {"s1":["apacigüé"],"s2":["apaciguaste"],"vos":["apaciguaste"],"s3":["apaciguó"],"p1":["apaciguamos"],"p2":["apaciguasteis"],"p3":["apaciguaron"]},
+    "IndFut": {"s1":["apaciguaré"],"s2":["apaciguarás"],"vos":["apaciguarás"],"s3":["apaciguará"],"p1":["apaciguaremos"],"p2":["apaciguaréis"],"p3":["apaciguarán"]},
+    "IndCond": {"s1":["apaciguaría"],"s2":["apaciguarías"],"vos":["apaciguarías"],"s3":["apaciguaría"],"p1":["apaciguaríamos"],"p2":["apaciguaríais"],"p3":["apaciguarían"]},
+    "SubPres": {"s1":["apacigüe"],"s2":["apacigües"],"vos":["apacigües","apacigüés"],"s3":["apacigüe"],"p1":["apacigüemos"],"p2":["apacigüéis"],"p3":["apacigüen"]},
+    "SubImp": {"s1":["apaciguara","apaciguase"],"s2":["apaciguaras","apaciguases"],"vos":["apaciguaras","apaciguases"],"s3":["apaciguara","apaciguase"],"p1":["apaciguáramos","apaciguásemos"],"p2":["apaciguarais","apaciguaseis"],"p3":["apaciguaran","apaciguasen"]},
+    "SubFut": {"s1":["apaciguare"],"s2":["apaciguares"],"vos":["apaciguares"],"s3":["apaciguare"],"p1":["apaciguáremos"],"p2":["apaciguareis"],"p3":["apaciguaren"]},
+    "CmdPos": {"s2":["apacigua"],"vos":["apaciguá"],"s3":["apacigüe"],"p1":["apacigüemos"],"p2":["apaciguad"],"p3":["apacigüen"]}
+  }
+}

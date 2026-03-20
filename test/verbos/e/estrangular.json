@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾãŋguˈlaɾ]",
+    "silabacion": "es-tran-gu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estrangular","gerundio":"estrangulando","participio":"estrangulado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estrangulo"],"s2":["estrangulas"],"vos":["estrangulás"],"s3":["estrangula"],"p1":["estrangulamos"],"p2":["estranguláis"],"p3":["estrangulan"]},
+    "IndImp": {"s1":["estrangulaba"],"s2":["estrangulabas"],"vos":["estrangulabas"],"s3":["estrangulaba"],"p1":["estrangulábamos"],"p2":["estrangulabais"],"p3":["estrangulaban"]},
+    "IndPret": {"s1":["estrangulé"],"s2":["estrangulaste"],"vos":["estrangulaste"],"s3":["estranguló"],"p1":["estrangulamos"],"p2":["estrangulasteis"],"p3":["estrangularon"]},
+    "IndFut": {"s1":["estrangularé"],"s2":["estrangularás"],"vos":["estrangularás"],"s3":["estrangulará"],"p1":["estrangularemos"],"p2":["estrangularéis"],"p3":["estrangularán"]},
+    "IndCond": {"s1":["estrangularía"],"s2":["estrangularías"],"vos":["estrangularías"],"s3":["estrangularía"],"p1":["estrangularíamos"],"p2":["estrangularíais"],"p3":["estrangularían"]},
+    "SubPres": {"s1":["estrangule"],"s2":["estrangules"],"vos":["estrangules","estrangulés"],"s3":["estrangule"],"p1":["estrangulemos"],"p2":["estranguléis"],"p3":["estrangulen"]},
+    "SubImp": {"s1":["estrangulara","estrangulase"],"s2":["estrangularas","estrangulases"],"vos":["estrangularas","estrangulases"],"s3":["estrangulara","estrangulase"],"p1":["estranguláramos","estrangulásemos"],"p2":["estrangularais","estrangulaseis"],"p3":["estrangularan","estrangulasen"]},
+    "SubFut": {"s1":["estrangulare"],"s2":["estrangulares"],"vos":["estrangulares"],"s3":["estrangulare"],"p1":["estranguláremos"],"p2":["estrangulareis"],"p3":["estrangularen"]},
+    "CmdPos": {"s2":["estrangula"],"vos":["estrangulá"],"s3":["estrangule"],"p1":["estrangulemos"],"p2":["estrangulad"],"p3":["estrangulen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sot̪eˈraɾ]",
+    "silabacion": "so-te-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo so-, tierra y el sufijo -ar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"soterrar","gerundio":"soterrando","participio":"soterrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sotierro","soterro"],"s2":["sotierras","soterras"],"vos":["soterrás"],"s3":["sotierra","soterra"],"p1":["soterramos"],"p2":["soterráis"],"p3":["sotierran","soterran"]},
+    "IndImp": {"s1":["soterraba"],"s2":["soterrabas"],"vos":["soterrabas"],"s3":["soterraba"],"p1":["soterrábamos"],"p2":["soterrabais"],"p3":["soterraban"]},
+    "IndPret": {"s1":["soterré"],"s2":["soterraste"],"vos":["soterraste"],"s3":["soterró"],"p1":["soterramos"],"p2":["soterrasteis"],"p3":["soterraron"]},
+    "IndFut": {"s1":["soterraré"],"s2":["soterrarás"],"vos":["soterrarás"],"s3":["soterrará"],"p1":["soterraremos"],"p2":["soterraréis"],"p3":["soterrarán"]},
+    "IndCond": {"s1":["soterraría"],"s2":["soterrarías"],"vos":["soterrarías"],"s3":["soterraría"],"p1":["soterraríamos"],"p2":["soterraríais"],"p3":["soterrarían"]},
+    "SubPres": {"s1":["sotierre","soterre"],"s2":["sotierres","soterres"],"vos":["sotierres","soterrés","soterres"],"s3":["sotierre","soterre"],"p1":["soterremos"],"p2":["soterréis"],"p3":["sotierren","soterren"]},
+    "SubImp": {"s1":["soterrara","soterrase"],"s2":["soterraras","soterrases"],"vos":["soterraras","soterrases"],"s3":["soterrara","soterrase"],"p1":["soterráramos","soterrásemos"],"p2":["soterrarais","soterraseis"],"p3":["soterraran","soterrasen"]},
+    "SubFut": {"s1":["soterrare"],"s2":["soterrares"],"vos":["soterrares"],"s3":["soterrare"],"p1":["soterráremos"],"p2":["soterrareis"],"p3":["soterraren"]},
+    "CmdPos": {"s2":["sotierra","soterra"],"vos":["soterrá"],"s3":["sotierre","soterre"],"p1":["soterremos"],"p2":["soterrad"],"p3":["sotierren","soterren"]}
+  }
+}

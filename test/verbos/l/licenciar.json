@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lisẽnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"licenciar","gerundio":"licenciando","participio":"licenciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["licencio"],"s2":["licencias"],"vos":["licenciás"],"s3":["licencia"],"p1":["licenciamos"],"p2":["licenciáis"],"p3":["licencian"]},
+    "IndImp": {"s1":["licenciaba"],"s2":["licenciabas"],"vos":["licenciabas"],"s3":["licenciaba"],"p1":["licenciábamos"],"p2":["licenciabais"],"p3":["licenciaban"]},
+    "IndPret": {"s1":["licencié"],"s2":["licenciaste"],"vos":["licenciaste"],"s3":["licenció"],"p1":["licenciamos"],"p2":["licenciasteis"],"p3":["licenciaron"]},
+    "IndFut": {"s1":["licenciaré"],"s2":["licenciarás"],"vos":["licenciarás"],"s3":["licenciará"],"p1":["licenciaremos"],"p2":["licenciaréis"],"p3":["licenciarán"]},
+    "IndCond": {"s1":["licenciaría"],"s2":["licenciarías"],"vos":["licenciarías"],"s3":["licenciaría"],"p1":["licenciaríamos"],"p2":["licenciaríais"],"p3":["licenciarían"]},
+    "SubPres": {"s1":["licencie"],"s2":["licencies"],"vos":["licencies","licenciés"],"s3":["licencie"],"p1":["licenciemos"],"p2":["licenciéis"],"p3":["licencien"]},
+    "SubImp": {"s1":["licenciara","licenciase"],"s2":["licenciaras","licenciases"],"vos":["licenciaras","licenciases"],"s3":["licenciara","licenciase"],"p1":["licenciáramos","licenciásemos"],"p2":["licenciarais","licenciaseis"],"p3":["licenciaran","licenciasen"]},
+    "SubFut": {"s1":["licenciare"],"s2":["licenciares"],"vos":["licenciares"],"s3":["licenciare"],"p1":["licenciáremos"],"p2":["licenciareis"],"p3":["licenciaren"]},
+    "CmdPos": {"s2":["licencia"],"vos":["licenciá"],"s3":["licencie"],"p1":["licenciemos"],"p2":["licenciad"],"p3":["licencien"]}
+  }
+}

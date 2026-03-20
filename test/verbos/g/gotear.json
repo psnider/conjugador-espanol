@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[got̪eˈaɾ]",
+    "silabacion": "go-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De gota y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"gotear","gerundio":"goteando","participio":"goteado"},
+  "formas_personales": {
+    "IndPres": {"s1":["goteo"],"s2":["goteas"],"vos":["goteás"],"s3":["gotea"],"p1":["goteamos"],"p2":["goteáis"],"p3":["gotean"]},
+    "IndImp": {"s1":["goteaba"],"s2":["goteabas"],"vos":["goteabas"],"s3":["goteaba"],"p1":["goteábamos"],"p2":["goteabais"],"p3":["goteaban"]},
+    "IndPret": {"s1":["goteé"],"s2":["goteaste"],"vos":["goteaste"],"s3":["goteó"],"p1":["goteamos"],"p2":["goteasteis"],"p3":["gotearon"]},
+    "IndFut": {"s1":["gotearé"],"s2":["gotearás"],"vos":["gotearás"],"s3":["goteará"],"p1":["gotearemos"],"p2":["gotearéis"],"p3":["gotearán"]},
+    "IndCond": {"s1":["gotearía"],"s2":["gotearías"],"vos":["gotearías"],"s3":["gotearía"],"p1":["gotearíamos"],"p2":["gotearíais"],"p3":["gotearían"]},
+    "SubPres": {"s1":["gotee"],"s2":["gotees"],"vos":["gotees","goteés"],"s3":["gotee"],"p1":["goteemos"],"p2":["goteéis"],"p3":["goteen"]},
+    "SubImp": {"s1":["goteara","gotease"],"s2":["gotearas","goteases"],"vos":["gotearas","goteases"],"s3":["goteara","gotease"],"p1":["goteáramos","goteásemos"],"p2":["gotearais","goteaseis"],"p3":["gotearan","goteasen"]},
+    "SubFut": {"s1":["goteare"],"s2":["goteares"],"vos":["goteares"],"s3":["goteare"],"p1":["goteáremos"],"p2":["goteareis"],"p3":["gotearen"]},
+    "CmdPos": {"s2":["gotea"],"vos":["goteá"],"s3":["gotee"],"p1":["goteemos"],"p2":["gotead"],"p3":["goteen"]}
+  }
+}

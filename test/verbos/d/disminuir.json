@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ismiˈnwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Cultismo. Del latín dīminuere, infinitivo de dīminuō.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"disminuir","gerundio":"disminuyendo","participio":"disminuido"},
+  "formas_personales": {
+    "IndPres": {"s1":["disminuyo"],"s2":["disminuyes"],"vos":["disminuís"],"s3":["disminuye"],"p1":["disminuimos"],"p2":["disminuís"],"p3":["disminuyen"]},
+    "IndImp": {"s1":["disminuía"],"s2":["disminuías"],"vos":["disminuías"],"s3":["disminuía"],"p1":["disminuíamos"],"p2":["disminuíais"],"p3":["disminuían"]},
+    "IndPret": {"s1":["disminuí"],"s2":["disminuiste"],"vos":["disminuiste"],"s3":["disminuyó"],"p1":["disminuimos"],"p2":["disminuisteis"],"p3":["disminuyeron"]},
+    "IndFut": {"s1":["disminuiré"],"s2":["disminuirás"],"vos":["disminuirás"],"s3":["disminuirá"],"p1":["disminuiremos"],"p2":["disminuiréis"],"p3":["disminuirán"]},
+    "IndCond": {"s1":["disminuiría"],"s2":["disminuirías"],"vos":["disminuirías"],"s3":["disminuiría"],"p1":["disminuiríamos"],"p2":["disminuiríais"],"p3":["disminuirían"]},
+    "SubPres": {"s1":["disminuya"],"s2":["disminuyas"],"vos":["disminuyas","disminuyás"],"s3":["disminuya"],"p1":["disminuyamos"],"p2":["disminuyáis"],"p3":["disminuyan"]},
+    "SubImp": {"s1":["disminuyera","disminuyese"],"s2":["disminuyeras","disminuyeses"],"vos":["disminuyeras","disminuyeses"],"s3":["disminuyera","disminuyese"],"p1":["disminuyéramos","disminuyésemos"],"p2":["disminuyerais","disminuyeseis"],"p3":["disminuyeran","disminuyesen"]},
+    "SubFut": {"s1":["disminuyere"],"s2":["disminuyeres"],"vos":["disminuyeres"],"s3":["disminuyere"],"p1":["disminuyéremos"],"p2":["disminuyereis"],"p3":["disminuyeren"]},
+    "CmdPos": {"s2":["disminuye"],"vos":["disminuí"],"s3":["disminuya"],"p1":["disminuyamos"],"p2":["disminuid"],"p3":["disminuyan"]}
+  }
+}

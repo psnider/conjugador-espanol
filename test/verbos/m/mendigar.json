@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mẽn̪d̪iˈɣ̞aɾ]",
+    "silabacion": "men-di-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín mendicare",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"mendigar","gerundio":"mendigando","participio":"mendigado"},
+  "formas_personales": {
+    "IndPres": {"s1":["mendigo"],"s2":["mendigas"],"vos":["mendigás"],"s3":["mendiga"],"p1":["mendigamos"],"p2":["mendigáis"],"p3":["mendigan"]},
+    "IndImp": {"s1":["mendigaba"],"s2":["mendigabas"],"vos":["mendigabas"],"s3":["mendigaba"],"p1":["mendigábamos"],"p2":["mendigabais"],"p3":["mendigaban"]},
+    "IndPret": {"s1":["mendigué"],"s2":["mendigaste"],"vos":["mendigaste"],"s3":["mendigó"],"p1":["mendigamos"],"p2":["mendigasteis"],"p3":["mendigaron"]},
+    "IndFut": {"s1":["mendigaré"],"s2":["mendigarás"],"vos":["mendigarás"],"s3":["mendigará"],"p1":["mendigaremos"],"p2":["mendigaréis"],"p3":["mendigarán"]},
+    "IndCond": {"s1":["mendigaría"],"s2":["mendigarías"],"vos":["mendigarías"],"s3":["mendigaría"],"p1":["mendigaríamos"],"p2":["mendigaríais"],"p3":["mendigarían"]},
+    "SubPres": {"s1":["mendigue"],"s2":["mendigues"],"vos":["mendigues","mendigués"],"s3":["mendigue"],"p1":["mendiguemos"],"p2":["mendiguéis"],"p3":["mendiguen"]},
+    "SubImp": {"s1":["mendigara","mendigase"],"s2":["mendigaras","mendigases"],"vos":["mendigaras","mendigases"],"s3":["mendigara","mendigase"],"p1":["mendigáramos","mendigásemos"],"p2":["mendigarais","mendigaseis"],"p3":["mendigaran","mendigasen"]},
+    "SubFut": {"s1":["mendigare"],"s2":["mendigares"],"vos":["mendigares"],"s3":["mendigare"],"p1":["mendigáremos"],"p2":["mendigareis"],"p3":["mendigaren"]},
+    "CmdPos": {"s2":["mendiga"],"vos":["mendigá"],"s3":["mendigue"],"p1":["mendiguemos"],"p2":["mendigad"],"p3":["mendiguen"]}
+  }
+}

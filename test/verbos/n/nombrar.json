@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[nõmˈbɾaɾ]",
+    "silabacion": "nom-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín nomināre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"nombrar","gerundio":"nombrando","participio":"nombrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["nombro"],"s2":["nombras"],"vos":["nombrás"],"s3":["nombra"],"p1":["nombramos"],"p2":["nombráis"],"p3":["nombran"]},
+    "IndImp": {"s1":["nombraba"],"s2":["nombrabas"],"vos":["nombrabas"],"s3":["nombraba"],"p1":["nombrábamos"],"p2":["nombrabais"],"p3":["nombraban"]},
+    "IndPret": {"s1":["nombré"],"s2":["nombraste"],"vos":["nombraste"],"s3":["nombró"],"p1":["nombramos"],"p2":["nombrasteis"],"p3":["nombraron"]},
+    "IndFut": {"s1":["nombraré"],"s2":["nombrarás"],"vos":["nombrarás"],"s3":["nombrará"],"p1":["nombraremos"],"p2":["nombraréis"],"p3":["nombrarán"]},
+    "IndCond": {"s1":["nombraría"],"s2":["nombrarías"],"vos":["nombrarías"],"s3":["nombraría"],"p1":["nombraríamos"],"p2":["nombraríais"],"p3":["nombrarían"]},
+    "SubPres": {"s1":["nombre"],"s2":["nombres"],"vos":["nombres","nombrés"],"s3":["nombre"],"p1":["nombremos"],"p2":["nombréis"],"p3":["nombren"]},
+    "SubImp": {"s1":["nombrara","nombrase"],"s2":["nombraras","nombrases"],"vos":["nombraras","nombrases"],"s3":["nombrara","nombrase"],"p1":["nombráramos","nombrásemos"],"p2":["nombrarais","nombraseis"],"p3":["nombraran","nombrasen"]},
+    "SubFut": {"s1":["nombrare"],"s2":["nombrares"],"vos":["nombrares"],"s3":["nombrare"],"p1":["nombráremos"],"p2":["nombrareis"],"p3":["nombraren"]},
+    "CmdPos": {"s2":["nombra"],"vos":["nombrá"],"s3":["nombre"],"p1":["nombremos"],"p2":["nombrad"],"p3":["nombren"]}
+  }
+}

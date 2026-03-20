@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reɣ̞aˈlaɾ]",
+    "silabacion": "re-ga-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De regalo y el sufijo -ar, del francés régal, proveniente de galer (cfr. galopar y galante)",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"regalar","gerundio":"regalando","participio":"regalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["regalo"],"s2":["regalas"],"vos":["regalás"],"s3":["regala"],"p1":["regalamos"],"p2":["regaláis"],"p3":["regalan"]},
+    "IndImp": {"s1":["regalaba"],"s2":["regalabas"],"vos":["regalabas"],"s3":["regalaba"],"p1":["regalábamos"],"p2":["regalabais"],"p3":["regalaban"]},
+    "IndPret": {"s1":["regalé"],"s2":["regalaste"],"vos":["regalaste"],"s3":["regaló"],"p1":["regalamos"],"p2":["regalasteis"],"p3":["regalaron"]},
+    "IndFut": {"s1":["regalaré"],"s2":["regalarás"],"vos":["regalarás"],"s3":["regalará"],"p1":["regalaremos"],"p2":["regalaréis"],"p3":["regalarán"]},
+    "IndCond": {"s1":["regalaría"],"s2":["regalarías"],"vos":["regalarías"],"s3":["regalaría"],"p1":["regalaríamos"],"p2":["regalaríais"],"p3":["regalarían"]},
+    "SubPres": {"s1":["regale"],"s2":["regales"],"vos":["regales","regalés"],"s3":["regale"],"p1":["regalemos"],"p2":["regaléis"],"p3":["regalen"]},
+    "SubImp": {"s1":["regalara","regalase"],"s2":["regalaras","regalases"],"vos":["regalaras","regalases"],"s3":["regalara","regalase"],"p1":["regaláramos","regalásemos"],"p2":["regalarais","regalaseis"],"p3":["regalaran","regalasen"]},
+    "SubFut": {"s1":["regalare"],"s2":["regalares"],"vos":["regalares"],"s3":["regalare"],"p1":["regaláremos"],"p2":["regalareis"],"p3":["regalaren"]},
+    "CmdPos": {"s2":["regala"],"vos":["regalá"],"s3":["regale"],"p1":["regalemos"],"p2":["regalad"],"p3":["regalen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[supuˈɾaɾ]",
+    "silabacion": "su-pu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín suppurāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"supurar","gerundio":"supurando","participio":"supurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["supuro"],"s2":["supuras"],"vos":["supurás"],"s3":["supura"],"p1":["supuramos"],"p2":["supuráis"],"p3":["supuran"]},
+    "IndImp": {"s1":["supuraba"],"s2":["supurabas"],"vos":["supurabas"],"s3":["supuraba"],"p1":["supurábamos"],"p2":["supurabais"],"p3":["supuraban"]},
+    "IndPret": {"s1":["supuré"],"s2":["supuraste"],"vos":["supuraste"],"s3":["supuró"],"p1":["supuramos"],"p2":["supurasteis"],"p3":["supuraron"]},
+    "IndFut": {"s1":["supuraré"],"s2":["supurarás"],"vos":["supurarás"],"s3":["supurará"],"p1":["supuraremos"],"p2":["supuraréis"],"p3":["supurarán"]},
+    "IndCond": {"s1":["supuraría"],"s2":["supurarías"],"vos":["supurarías"],"s3":["supuraría"],"p1":["supuraríamos"],"p2":["supuraríais"],"p3":["supurarían"]},
+    "SubPres": {"s1":["supure"],"s2":["supures"],"vos":["supures","supurés"],"s3":["supure"],"p1":["supuremos"],"p2":["supuréis"],"p3":["supuren"]},
+    "SubImp": {"s1":["supurara","supurase"],"s2":["supuraras","supurases"],"vos":["supuraras","supurases"],"s3":["supurara","supurase"],"p1":["supuráramos","supurásemos"],"p2":["supurarais","supuraseis"],"p3":["supuraran","supurasen"]},
+    "SubFut": {"s1":["supurare"],"s2":["supurares"],"vos":["supurares"],"s3":["supurare"],"p1":["supuráremos"],"p2":["supurareis"],"p3":["supuraren"]},
+    "CmdPos": {"s2":["supura"],"vos":["supurá"],"s3":["supure"],"p1":["supuremos"],"p2":["supurad"],"p3":["supuren"]}
+  }
+}

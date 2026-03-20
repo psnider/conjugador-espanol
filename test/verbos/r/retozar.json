@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪oˈsaɾ]",
+    "silabacion": "re-to-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín retunsare.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"retozar","gerundio":"retozando","participio":"retozado"},
+  "formas_personales": {
+    "IndPres": {"s1":["retozo"],"s2":["retozas"],"vos":["retozás"],"s3":["retoza"],"p1":["retozamos"],"p2":["retozáis"],"p3":["retozan"]},
+    "IndImp": {"s1":["retozaba"],"s2":["retozabas"],"vos":["retozabas"],"s3":["retozaba"],"p1":["retozábamos"],"p2":["retozabais"],"p3":["retozaban"]},
+    "IndPret": {"s1":["retocé"],"s2":["retozaste"],"vos":["retozaste"],"s3":["retozó"],"p1":["retozamos"],"p2":["retozasteis"],"p3":["retozaron"]},
+    "IndFut": {"s1":["retozaré"],"s2":["retozarás"],"vos":["retozarás"],"s3":["retozará"],"p1":["retozaremos"],"p2":["retozaréis"],"p3":["retozarán"]},
+    "IndCond": {"s1":["retozaría"],"s2":["retozarías"],"vos":["retozarías"],"s3":["retozaría"],"p1":["retozaríamos"],"p2":["retozaríais"],"p3":["retozarían"]},
+    "SubPres": {"s1":["retoce"],"s2":["retoces"],"vos":["retoces","retocés"],"s3":["retoce"],"p1":["retocemos"],"p2":["retocéis"],"p3":["retocen"]},
+    "SubImp": {"s1":["retozara","retozase"],"s2":["retozaras","retozases"],"vos":["retozaras","retozases"],"s3":["retozara","retozase"],"p1":["retozáramos","retozásemos"],"p2":["retozarais","retozaseis"],"p3":["retozaran","retozasen"]},
+    "SubFut": {"s1":["retozare"],"s2":["retozares"],"vos":["retozares"],"s3":["retozare"],"p1":["retozáremos"],"p2":["retozareis"],"p3":["retozaren"]},
+    "CmdPos": {"s2":["retoza"],"vos":["retozá"],"s3":["retoce"],"p1":["retocemos"],"p2":["retozad"],"p3":["retocen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[repaˈsaɾ]",
+    "silabacion": "re-pa-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"repasar","gerundio":"repasando","participio":"repasado"},
+  "formas_personales": {
+    "IndPres": {"s1":["repaso"],"s2":["repasas"],"vos":["repasás"],"s3":["repasa"],"p1":["repasamos"],"p2":["repasáis"],"p3":["repasan"]},
+    "IndImp": {"s1":["repasaba"],"s2":["repasabas"],"vos":["repasabas"],"s3":["repasaba"],"p1":["repasábamos"],"p2":["repasabais"],"p3":["repasaban"]},
+    "IndPret": {"s1":["repasé"],"s2":["repasaste"],"vos":["repasaste"],"s3":["repasó"],"p1":["repasamos"],"p2":["repasasteis"],"p3":["repasaron"]},
+    "IndFut": {"s1":["repasaré"],"s2":["repasarás"],"vos":["repasarás"],"s3":["repasará"],"p1":["repasaremos"],"p2":["repasaréis"],"p3":["repasarán"]},
+    "IndCond": {"s1":["repasaría"],"s2":["repasarías"],"vos":["repasarías"],"s3":["repasaría"],"p1":["repasaríamos"],"p2":["repasaríais"],"p3":["repasarían"]},
+    "SubPres": {"s1":["repase"],"s2":["repases"],"vos":["repases","repasés"],"s3":["repase"],"p1":["repasemos"],"p2":["repaséis"],"p3":["repasen"]},
+    "SubImp": {"s1":["repasara","repasase"],"s2":["repasaras","repasases"],"vos":["repasaras","repasases"],"s3":["repasara","repasase"],"p1":["repasáramos","repasásemos"],"p2":["repasarais","repasaseis"],"p3":["repasaran","repasasen"]},
+    "SubFut": {"s1":["repasare"],"s2":["repasares"],"vos":["repasares"],"s3":["repasare"],"p1":["repasáremos"],"p2":["repasareis"],"p3":["repasaren"]},
+    "CmdPos": {"s2":["repasa"],"vos":["repasá"],"s3":["repase"],"p1":["repasemos"],"p2":["repasad"],"p3":["repasen"]}
+  }
+}

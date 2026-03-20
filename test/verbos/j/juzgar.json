@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xusˈɣ̞aɾ]",
+    "silabacion": "juz-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iudicare, del latín ius, \"derecho\", a su vez del latín *ious, del protoindoeuropeo *yew(e)s[1]; y dicere, \"decir\", del protoindoeuropeo *deyḱ-, \"mostrar\".",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"juzgar","gerundio":"juzgando","participio":"juzgado"},
+  "formas_personales": {
+    "IndPres": {"s1":["juzgo"],"s2":["juzgas"],"vos":["juzgás"],"s3":["juzga"],"p1":["juzgamos"],"p2":["juzgáis"],"p3":["juzgan"]},
+    "IndImp": {"s1":["juzgaba"],"s2":["juzgabas"],"vos":["juzgabas"],"s3":["juzgaba"],"p1":["juzgábamos"],"p2":["juzgabais"],"p3":["juzgaban"]},
+    "IndPret": {"s1":["juzgué"],"s2":["juzgaste"],"vos":["juzgaste"],"s3":["juzgó"],"p1":["juzgamos"],"p2":["juzgasteis"],"p3":["juzgaron"]},
+    "IndFut": {"s1":["juzgaré"],"s2":["juzgarás"],"vos":["juzgarás"],"s3":["juzgará"],"p1":["juzgaremos"],"p2":["juzgaréis"],"p3":["juzgarán"]},
+    "IndCond": {"s1":["juzgaría"],"s2":["juzgarías"],"vos":["juzgarías"],"s3":["juzgaría"],"p1":["juzgaríamos"],"p2":["juzgaríais"],"p3":["juzgarían"]},
+    "SubPres": {"s1":["juzgue"],"s2":["juzgues"],"vos":["juzgues","juzgués"],"s3":["juzgue"],"p1":["juzguemos"],"p2":["juzguéis"],"p3":["juzguen"]},
+    "SubImp": {"s1":["juzgara","juzgase"],"s2":["juzgaras","juzgases"],"vos":["juzgaras","juzgases"],"s3":["juzgara","juzgase"],"p1":["juzgáramos","juzgásemos"],"p2":["juzgarais","juzgaseis"],"p3":["juzgaran","juzgasen"]},
+    "SubFut": {"s1":["juzgare"],"s2":["juzgares"],"vos":["juzgares"],"s3":["juzgare"],"p1":["juzgáremos"],"p2":["juzgareis"],"p3":["juzgaren"]},
+    "CmdPos": {"s2":["juzga"],"vos":["juzgá"],"s3":["juzgue"],"p1":["juzguemos"],"p2":["juzgad"],"p3":["juzguen"]}
+  }
+}

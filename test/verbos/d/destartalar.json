@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪aɾt̪aˈlaɾ]",
+    "silabacion": "des-tar-ta-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"destartalar","gerundio":"destartalando","participio":"destartalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["destartalo"],"s2":["destartalas"],"vos":["destartalás"],"s3":["destartala"],"p1":["destartalamos"],"p2":["destartaláis"],"p3":["destartalan"]},
+    "IndImp": {"s1":["destartalaba"],"s2":["destartalabas"],"vos":["destartalabas"],"s3":["destartalaba"],"p1":["destartalábamos"],"p2":["destartalabais"],"p3":["destartalaban"]},
+    "IndPret": {"s1":["destartalé"],"s2":["destartalaste"],"vos":["destartalaste"],"s3":["destartaló"],"p1":["destartalamos"],"p2":["destartalasteis"],"p3":["destartalaron"]},
+    "IndFut": {"s1":["destartalaré"],"s2":["destartalarás"],"vos":["destartalarás"],"s3":["destartalará"],"p1":["destartalaremos"],"p2":["destartalaréis"],"p3":["destartalarán"]},
+    "IndCond": {"s1":["destartalaría"],"s2":["destartalarías"],"vos":["destartalarías"],"s3":["destartalaría"],"p1":["destartalaríamos"],"p2":["destartalaríais"],"p3":["destartalarían"]},
+    "SubPres": {"s1":["destartale"],"s2":["destartales"],"vos":["destartales","destartalés"],"s3":["destartale"],"p1":["destartalemos"],"p2":["destartaléis"],"p3":["destartalen"]},
+    "SubImp": {"s1":["destartalara","destartalase"],"s2":["destartalaras","destartalases"],"vos":["destartalaras","destartalases"],"s3":["destartalara","destartalase"],"p1":["destartaláramos","destartalásemos"],"p2":["destartalarais","destartalaseis"],"p3":["destartalaran","destartalasen"]},
+    "SubFut": {"s1":["destartalare"],"s2":["destartalares"],"vos":["destartalares"],"s3":["destartalare"],"p1":["destartaláremos"],"p2":["destartalareis"],"p3":["destartalaren"]},
+    "CmdPos": {"s2":["destartala"],"vos":["destartalá"],"s3":["destartale"],"p1":["destartalemos"],"p2":["destartalad"],"p3":["destartalen"]}
+  }
+}

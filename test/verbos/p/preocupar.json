@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾeokuˈpaɾ]",
+    "silabacion": "pre-o-cu-par",
+    "acentuacion": "aguda",
+    "etimologia": "Cultismo. Del latín praeoccupare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"preocupar","gerundio":"preocupando","participio":"preocupado"},
+  "formas_personales": {
+    "IndPres": {"s1":["preocupo"],"s2":["preocupas"],"vos":["preocupás"],"s3":["preocupa"],"p1":["preocupamos"],"p2":["preocupáis"],"p3":["preocupan"]},
+    "IndImp": {"s1":["preocupaba"],"s2":["preocupabas"],"vos":["preocupabas"],"s3":["preocupaba"],"p1":["preocupábamos"],"p2":["preocupabais"],"p3":["preocupaban"]},
+    "IndPret": {"s1":["preocupé"],"s2":["preocupaste"],"vos":["preocupaste"],"s3":["preocupó"],"p1":["preocupamos"],"p2":["preocupasteis"],"p3":["preocuparon"]},
+    "IndFut": {"s1":["preocuparé"],"s2":["preocuparás"],"vos":["preocuparás"],"s3":["preocupará"],"p1":["preocuparemos"],"p2":["preocuparéis"],"p3":["preocuparán"]},
+    "IndCond": {"s1":["preocuparía"],"s2":["preocuparías"],"vos":["preocuparías"],"s3":["preocuparía"],"p1":["preocuparíamos"],"p2":["preocuparíais"],"p3":["preocuparían"]},
+    "SubPres": {"s1":["preocupe"],"s2":["preocupes"],"vos":["preocupes","preocupés"],"s3":["preocupe"],"p1":["preocupemos"],"p2":["preocupéis"],"p3":["preocupen"]},
+    "SubImp": {"s1":["preocupara","preocupase"],"s2":["preocuparas","preocupases"],"vos":["preocuparas","preocupases"],"s3":["preocupara","preocupase"],"p1":["preocupáramos","preocupásemos"],"p2":["preocuparais","preocupaseis"],"p3":["preocuparan","preocupasen"]},
+    "SubFut": {"s1":["preocupare"],"s2":["preocupares"],"vos":["preocupares"],"s3":["preocupare"],"p1":["preocupáremos"],"p2":["preocupareis"],"p3":["preocuparen"]},
+    "CmdPos": {"s2":["preocupa"],"vos":["preocupá"],"s3":["preocupe"],"p1":["preocupemos"],"p2":["preocupad"],"p3":["preocupen"]}
+  }
+}

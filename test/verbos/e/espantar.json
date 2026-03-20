@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espãn̪ˈt̪aɾ]",
+    "silabacion": "es-pan-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo espantar ('espantar'), y este del latín vulgar *expaventāre&nbsp;('aterrorizar'), del latín expavēre. Cognado del catalán espantar, el francés épouvanter, el italiano spaventare, el judeoespañol espantar y el portugués espantar. Compárese el rumano înspăimânta.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"espantar","gerundio":"espantando","participio":"espantado"},
+  "formas_personales": {
+    "IndPres": {"s1":["espanto"],"s2":["espantas"],"vos":["espantás"],"s3":["espanta"],"p1":["espantamos"],"p2":["espantáis"],"p3":["espantan"]},
+    "IndImp": {"s1":["espantaba"],"s2":["espantabas"],"vos":["espantabas"],"s3":["espantaba"],"p1":["espantábamos"],"p2":["espantabais"],"p3":["espantaban"]},
+    "IndPret": {"s1":["espanté"],"s2":["espantaste"],"vos":["espantaste"],"s3":["espantó"],"p1":["espantamos"],"p2":["espantasteis"],"p3":["espantaron"]},
+    "IndFut": {"s1":["espantaré"],"s2":["espantarás"],"vos":["espantarás"],"s3":["espantará"],"p1":["espantaremos"],"p2":["espantaréis"],"p3":["espantarán"]},
+    "IndCond": {"s1":["espantaría"],"s2":["espantarías"],"vos":["espantarías"],"s3":["espantaría"],"p1":["espantaríamos"],"p2":["espantaríais"],"p3":["espantarían"]},
+    "SubPres": {"s1":["espante"],"s2":["espantes"],"vos":["espantes","espantés"],"s3":["espante"],"p1":["espantemos"],"p2":["espantéis"],"p3":["espanten"]},
+    "SubImp": {"s1":["espantara","espantase"],"s2":["espantaras","espantases"],"vos":["espantaras","espantases"],"s3":["espantara","espantase"],"p1":["espantáramos","espantásemos"],"p2":["espantarais","espantaseis"],"p3":["espantaran","espantasen"]},
+    "SubFut": {"s1":["espantare"],"s2":["espantares"],"vos":["espantares"],"s3":["espantare"],"p1":["espantáremos"],"p2":["espantareis"],"p3":["espantaren"]},
+    "CmdPos": {"s2":["espanta"],"vos":["espantá"],"s3":["espante"],"p1":["espantemos"],"p2":["espantad"],"p3":["espanten"]}
+  }
+}

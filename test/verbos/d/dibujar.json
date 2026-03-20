@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iβ̞uˈxaɾ]",
+    "silabacion": "di-bu-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés antiguo deboissier ('esculpir'), y este de de-, bois&nbsp;('madera') &amp; -ier. Compárense el aragonés debuxar, el asturiano dibuxar, el gallego debuxar y el portugués debuxar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"dibujar","gerundio":"dibujando","participio":"dibujado"},
+  "formas_personales": {
+    "IndPres": {"s1":["dibujo"],"s2":["dibujas"],"vos":["dibujás"],"s3":["dibuja"],"p1":["dibujamos"],"p2":["dibujáis"],"p3":["dibujan"]},
+    "IndImp": {"s1":["dibujaba"],"s2":["dibujabas"],"vos":["dibujabas"],"s3":["dibujaba"],"p1":["dibujábamos"],"p2":["dibujabais"],"p3":["dibujaban"]},
+    "IndPret": {"s1":["dibujé"],"s2":["dibujaste"],"vos":["dibujaste"],"s3":["dibujó"],"p1":["dibujamos"],"p2":["dibujasteis"],"p3":["dibujaron"]},
+    "IndFut": {"s1":["dibujaré"],"s2":["dibujarás"],"vos":["dibujarás"],"s3":["dibujará"],"p1":["dibujaremos"],"p2":["dibujaréis"],"p3":["dibujarán"]},
+    "IndCond": {"s1":["dibujaría"],"s2":["dibujarías"],"vos":["dibujarías"],"s3":["dibujaría"],"p1":["dibujaríamos"],"p2":["dibujaríais"],"p3":["dibujarían"]},
+    "SubPres": {"s1":["dibuje"],"s2":["dibujes"],"vos":["dibujes","dibujés"],"s3":["dibuje"],"p1":["dibujemos"],"p2":["dibujéis"],"p3":["dibujen"]},
+    "SubImp": {"s1":["dibujara","dibujase"],"s2":["dibujaras","dibujases"],"vos":["dibujaras","dibujases"],"s3":["dibujara","dibujase"],"p1":["dibujáramos","dibujásemos"],"p2":["dibujarais","dibujaseis"],"p3":["dibujaran","dibujasen"]},
+    "SubFut": {"s1":["dibujare"],"s2":["dibujares"],"vos":["dibujares"],"s3":["dibujare"],"p1":["dibujáremos"],"p2":["dibujareis"],"p3":["dibujaren"]},
+    "CmdPos": {"s2":["dibuja"],"vos":["dibujá"],"s3":["dibuje"],"p1":["dibujemos"],"p2":["dibujad"],"p3":["dibujen"]}
+  }
+}

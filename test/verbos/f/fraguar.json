@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fɾaˈɣ̞waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fabricare ('forjar').",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"fraguar","gerundio":"fraguando","participio":"fraguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fraguo"],"s2":["fraguas"],"vos":["fraguás"],"s3":["fragua"],"p1":["fraguamos"],"p2":["fraguáis"],"p3":["fraguan"]},
+    "IndImp": {"s1":["fraguaba"],"s2":["fraguabas"],"vos":["fraguabas"],"s3":["fraguaba"],"p1":["fraguábamos"],"p2":["fraguabais"],"p3":["fraguaban"]},
+    "IndPret": {"s1":["fragüé"],"s2":["fraguaste"],"vos":["fraguaste"],"s3":["fraguó"],"p1":["fraguamos"],"p2":["fraguasteis"],"p3":["fraguaron"]},
+    "IndFut": {"s1":["fraguaré"],"s2":["fraguarás"],"vos":["fraguarás"],"s3":["fraguará"],"p1":["fraguaremos"],"p2":["fraguaréis"],"p3":["fraguarán"]},
+    "IndCond": {"s1":["fraguaría"],"s2":["fraguarías"],"vos":["fraguarías"],"s3":["fraguaría"],"p1":["fraguaríamos"],"p2":["fraguaríais"],"p3":["fraguarían"]},
+    "SubPres": {"s1":["fragüe"],"s2":["fragües"],"vos":["fragües","fragüés"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fragüéis"],"p3":["fragüen"]},
+    "SubImp": {"s1":["fraguara","fraguase"],"s2":["fraguaras","fraguases"],"vos":["fraguaras","fraguases"],"s3":["fraguara","fraguase"],"p1":["fraguáramos","fraguásemos"],"p2":["fraguarais","fraguaseis"],"p3":["fraguaran","fraguasen"]},
+    "SubFut": {"s1":["fraguare"],"s2":["fraguares"],"vos":["fraguares"],"s3":["fraguare"],"p1":["fraguáremos"],"p2":["fraguareis"],"p3":["fraguaren"]},
+    "CmdPos": {"s2":["fragua"],"vos":["fraguá"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fraguad"],"p3":["fragüen"]}
+  }
+}

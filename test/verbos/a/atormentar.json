@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪oɾmẽn̪ˈt̪aɾ]",
+    "silabacion": "a-tor-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atormentar","gerundio":"atormentando","participio":"atormentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["atormento"],"s2":["atormentas"],"vos":["atormentás"],"s3":["atormenta"],"p1":["atormentamos"],"p2":["atormentáis"],"p3":["atormentan"]},
+    "IndImp": {"s1":["atormentaba"],"s2":["atormentabas"],"vos":["atormentabas"],"s3":["atormentaba"],"p1":["atormentábamos"],"p2":["atormentabais"],"p3":["atormentaban"]},
+    "IndPret": {"s1":["atormenté"],"s2":["atormentaste"],"vos":["atormentaste"],"s3":["atormentó"],"p1":["atormentamos"],"p2":["atormentasteis"],"p3":["atormentaron"]},
+    "IndFut": {"s1":["atormentaré"],"s2":["atormentarás"],"vos":["atormentarás"],"s3":["atormentará"],"p1":["atormentaremos"],"p2":["atormentaréis"],"p3":["atormentarán"]},
+    "IndCond": {"s1":["atormentaría"],"s2":["atormentarías"],"vos":["atormentarías"],"s3":["atormentaría"],"p1":["atormentaríamos"],"p2":["atormentaríais"],"p3":["atormentarían"]},
+    "SubPres": {"s1":["atormente"],"s2":["atormentes"],"vos":["atormentes","atormentés"],"s3":["atormente"],"p1":["atormentemos"],"p2":["atormentéis"],"p3":["atormenten"]},
+    "SubImp": {"s1":["atormentara","atormentase"],"s2":["atormentaras","atormentases"],"vos":["atormentaras","atormentases"],"s3":["atormentara","atormentase"],"p1":["atormentáramos","atormentásemos"],"p2":["atormentarais","atormentaseis"],"p3":["atormentaran","atormentasen"]},
+    "SubFut": {"s1":["atormentare"],"s2":["atormentares"],"vos":["atormentares"],"s3":["atormentare"],"p1":["atormentáremos"],"p2":["atormentareis"],"p3":["atormentaren"]},
+    "CmdPos": {"s2":["atormenta"],"vos":["atormentá"],"s3":["atormente"],"p1":["atormentemos"],"p2":["atormentad"],"p3":["atormenten"]}
+  }
+}

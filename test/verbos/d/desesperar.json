@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esespeˈɾaɾ]",
+    "silabacion": "des-es-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y esperar. Convivió des del español desperar y la forma más plena desesperanzar, suplantándolos prácticamente por completo en la lengua moderna. Compárese el catalán desesperar, el francés désespérer o el portugués desesperar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desesperar","gerundio":"desesperando","participio":"desesperado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desespero"],"s2":["desesperas"],"vos":["desesperás"],"s3":["desespera"],"p1":["desesperamos"],"p2":["desesperáis"],"p3":["desesperan"]},
+    "IndImp": {"s1":["desesperaba"],"s2":["desesperabas"],"vos":["desesperabas"],"s3":["desesperaba"],"p1":["desesperábamos"],"p2":["desesperabais"],"p3":["desesperaban"]},
+    "IndPret": {"s1":["desesperé"],"s2":["desesperaste"],"vos":["desesperaste"],"s3":["desesperó"],"p1":["desesperamos"],"p2":["desesperasteis"],"p3":["desesperaron"]},
+    "IndFut": {"s1":["desesperaré"],"s2":["desesperarás"],"vos":["desesperarás"],"s3":["desesperará"],"p1":["desesperaremos"],"p2":["desesperaréis"],"p3":["desesperarán"]},
+    "IndCond": {"s1":["desesperaría"],"s2":["desesperarías"],"vos":["desesperarías"],"s3":["desesperaría"],"p1":["desesperaríamos"],"p2":["desesperaríais"],"p3":["desesperarían"]},
+    "SubPres": {"s1":["desespere"],"s2":["desesperes"],"vos":["desesperes","desesperés"],"s3":["desespere"],"p1":["desesperemos"],"p2":["desesperéis"],"p3":["desesperen"]},
+    "SubImp": {"s1":["desesperara","desesperase"],"s2":["desesperaras","desesperases"],"vos":["desesperaras","desesperases"],"s3":["desesperara","desesperase"],"p1":["desesperáramos","desesperásemos"],"p2":["desesperarais","desesperaseis"],"p3":["desesperaran","desesperasen"]},
+    "SubFut": {"s1":["desesperare"],"s2":["desesperares"],"vos":["desesperares"],"s3":["desesperare"],"p1":["desesperáremos"],"p2":["desesperareis"],"p3":["desesperaren"]},
+    "CmdPos": {"s2":["desespera"],"vos":["desesperá"],"s3":["desespere"],"p1":["desesperemos"],"p2":["desesperad"],"p3":["desesperen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esespeɾãnˈsaɾ]",
+    "silabacion": "des-es-pe-ran-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"desesperanzar","gerundio":"desesperanzando","participio":"desesperanzado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desesperanzo"],"s2":["desesperanzas"],"vos":["desesperanzás"],"s3":["desesperanza"],"p1":["desesperanzamos"],"p2":["desesperanzáis"],"p3":["desesperanzan"]},
+    "IndImp": {"s1":["desesperanzaba"],"s2":["desesperanzabas"],"vos":["desesperanzabas"],"s3":["desesperanzaba"],"p1":["desesperanzábamos"],"p2":["desesperanzabais"],"p3":["desesperanzaban"]},
+    "IndPret": {"s1":["desesperancé"],"s2":["desesperanzaste"],"vos":["desesperanzaste"],"s3":["desesperanzó"],"p1":["desesperanzamos"],"p2":["desesperanzasteis"],"p3":["desesperanzaron"]},
+    "IndFut": {"s1":["desesperanzaré"],"s2":["desesperanzarás"],"vos":["desesperanzarás"],"s3":["desesperanzará"],"p1":["desesperanzaremos"],"p2":["desesperanzaréis"],"p3":["desesperanzarán"]},
+    "IndCond": {"s1":["desesperanzaría"],"s2":["desesperanzarías"],"vos":["desesperanzarías"],"s3":["desesperanzaría"],"p1":["desesperanzaríamos"],"p2":["desesperanzaríais"],"p3":["desesperanzarían"]},
+    "SubPres": {"s1":["desesperance"],"s2":["desesperances"],"vos":["desesperances","desesperancés"],"s3":["desesperance"],"p1":["desesperancemos"],"p2":["desesperancéis"],"p3":["desesperancen"]},
+    "SubImp": {"s1":["desesperanzara","desesperanzase"],"s2":["desesperanzaras","desesperanzases"],"vos":["desesperanzaras","desesperanzases"],"s3":["desesperanzara","desesperanzase"],"p1":["desesperanzáramos","desesperanzásemos"],"p2":["desesperanzarais","desesperanzaseis"],"p3":["desesperanzaran","desesperanzasen"]},
+    "SubFut": {"s1":["desesperanzare"],"s2":["desesperanzares"],"vos":["desesperanzares"],"s3":["desesperanzare"],"p1":["desesperanzáremos"],"p2":["desesperanzareis"],"p3":["desesperanzaren"]},
+    "CmdPos": {"s2":["desesperanza"],"vos":["desesperanzá"],"s3":["desesperance"],"p1":["desesperancemos"],"p2":["desesperanzad"],"p3":["desesperancen"]}
+  }
+}

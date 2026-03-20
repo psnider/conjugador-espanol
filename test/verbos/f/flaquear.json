@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[flakeˈaɾ]",
+    "silabacion": "fla-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De flaco y el sufijo -ear.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"flaquear","gerundio":"flaqueando","participio":"flaqueado"},
+  "formas_personales": {
+    "IndPres": {"s1":["flaqueo"],"s2":["flaqueas"],"vos":["flaqueás"],"s3":["flaquea"],"p1":["flaqueamos"],"p2":["flaqueáis"],"p3":["flaquean"]},
+    "IndImp": {"s1":["flaqueaba"],"s2":["flaqueabas"],"vos":["flaqueabas"],"s3":["flaqueaba"],"p1":["flaqueábamos"],"p2":["flaqueabais"],"p3":["flaqueaban"]},
+    "IndPret": {"s1":["flaqueé"],"s2":["flaqueaste"],"vos":["flaqueaste"],"s3":["flaqueó"],"p1":["flaqueamos"],"p2":["flaqueasteis"],"p3":["flaquearon"]},
+    "IndFut": {"s1":["flaquearé"],"s2":["flaquearás"],"vos":["flaquearás"],"s3":["flaqueará"],"p1":["flaquearemos"],"p2":["flaquearéis"],"p3":["flaquearán"]},
+    "IndCond": {"s1":["flaquearía"],"s2":["flaquearías"],"vos":["flaquearías"],"s3":["flaquearía"],"p1":["flaquearíamos"],"p2":["flaquearíais"],"p3":["flaquearían"]},
+    "SubPres": {"s1":["flaquee"],"s2":["flaquees"],"vos":["flaquees","flaqueés"],"s3":["flaquee"],"p1":["flaqueemos"],"p2":["flaqueéis"],"p3":["flaqueen"]},
+    "SubImp": {"s1":["flaqueara","flaquease"],"s2":["flaquearas","flaqueases"],"vos":["flaquearas","flaqueases"],"s3":["flaqueara","flaquease"],"p1":["flaqueáramos","flaqueásemos"],"p2":["flaquearais","flaqueaseis"],"p3":["flaquearan","flaqueasen"]},
+    "SubFut": {"s1":["flaqueare"],"s2":["flaqueares"],"vos":["flaqueares"],"s3":["flaqueare"],"p1":["flaqueáremos"],"p2":["flaqueareis"],"p3":["flaquearen"]},
+    "CmdPos": {"s2":["flaquea"],"vos":["flaqueá"],"s3":["flaquee"],"p1":["flaqueemos"],"p2":["flaquead"],"p3":["flaqueen"]}
+  }
+}

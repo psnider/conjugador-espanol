@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bjoˈlaɾ]",
+    "silabacion": "vio-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo violar, y este del latín violare[1], y este del latín vis[2], del protoindoeuropeo *weih₁-.[3] Compárese el catalán violar, el francés violer, el italiano violare o el portugués violar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"violar","gerundio":"violando","participio":"violado"},
+  "formas_personales": {
+    "IndPres": {"s1":["violo"],"s2":["violas"],"vos":["violás"],"s3":["viola"],"p1":["violamos"],"p2":["violáis"],"p3":["violan"]},
+    "IndImp": {"s1":["violaba"],"s2":["violabas"],"vos":["violabas"],"s3":["violaba"],"p1":["violábamos"],"p2":["violabais"],"p3":["violaban"]},
+    "IndPret": {"s1":["violé"],"s2":["violaste"],"vos":["violaste"],"s3":["violó"],"p1":["violamos"],"p2":["violasteis"],"p3":["violaron"]},
+    "IndFut": {"s1":["violaré"],"s2":["violarás"],"vos":["violarás"],"s3":["violará"],"p1":["violaremos"],"p2":["violaréis"],"p3":["violarán"]},
+    "IndCond": {"s1":["violaría"],"s2":["violarías"],"vos":["violarías"],"s3":["violaría"],"p1":["violaríamos"],"p2":["violaríais"],"p3":["violarían"]},
+    "SubPres": {"s1":["viole"],"s2":["violes"],"vos":["violes","violés"],"s3":["viole"],"p1":["violemos"],"p2":["violéis"],"p3":["violen"]},
+    "SubImp": {"s1":["violara","violase"],"s2":["violaras","violases"],"vos":["violaras","violases"],"s3":["violara","violase"],"p1":["violáramos","violásemos"],"p2":["violarais","violaseis"],"p3":["violaran","violasen"]},
+    "SubFut": {"s1":["violare"],"s2":["violares"],"vos":["violares"],"s3":["violare"],"p1":["violáremos"],"p2":["violareis"],"p3":["violaren"]},
+    "CmdPos": {"s2":["viola"],"vos":["violá"],"s3":["viole"],"p1":["violemos"],"p2":["violad"],"p3":["violen"]}
+  }
+}

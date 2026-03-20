@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ãn̪d̪oˈnaɾ]",
+    "silabacion": "a-ban-do-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1292.[1] Del francés abandonner.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"abandonar","gerundio":"abandonando","participio":"abandonado"},
+  "formas_personales": {
+    "IndPres": {"s1":["abandono"],"s2":["abandonas"],"vos":["abandonás"],"s3":["abandona"],"p1":["abandonamos"],"p2":["abandonáis"],"p3":["abandonan"]},
+    "IndImp": {"s1":["abandonaba"],"s2":["abandonabas"],"vos":["abandonabas"],"s3":["abandonaba"],"p1":["abandonábamos"],"p2":["abandonabais"],"p3":["abandonaban"]},
+    "IndPret": {"s1":["abandoné"],"s2":["abandonaste"],"vos":["abandonaste"],"s3":["abandonó"],"p1":["abandonamos"],"p2":["abandonasteis"],"p3":["abandonaron"]},
+    "IndFut": {"s1":["abandonaré"],"s2":["abandonarás"],"vos":["abandonarás"],"s3":["abandonará"],"p1":["abandonaremos"],"p2":["abandonaréis"],"p3":["abandonarán"]},
+    "IndCond": {"s1":["abandonaría"],"s2":["abandonarías"],"vos":["abandonarías"],"s3":["abandonaría"],"p1":["abandonaríamos"],"p2":["abandonaríais"],"p3":["abandonarían"]},
+    "SubPres": {"s1":["abandone"],"s2":["abandones"],"vos":["abandones","abandonés"],"s3":["abandone"],"p1":["abandonemos"],"p2":["abandonéis"],"p3":["abandonen"]},
+    "SubImp": {"s1":["abandonara","abandonase"],"s2":["abandonaras","abandonases"],"vos":["abandonaras","abandonases"],"s3":["abandonara","abandonase"],"p1":["abandonáramos","abandonásemos"],"p2":["abandonarais","abandonaseis"],"p3":["abandonaran","abandonasen"]},
+    "SubFut": {"s1":["abandonare"],"s2":["abandonares"],"vos":["abandonares"],"s3":["abandonare"],"p1":["abandonáremos"],"p2":["abandonareis"],"p3":["abandonaren"]},
+    "CmdPos": {"s2":["abandona"],"vos":["abandoná"],"s3":["abandone"],"p1":["abandonemos"],"p2":["abandonad"],"p3":["abandonen"]}
+  }
+}

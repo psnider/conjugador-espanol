@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aseleˈɾaɾ]",
+    "silabacion": "a-ce-le-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín accelerāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acelerar","gerundio":"acelerando","participio":"acelerado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acelero"],"s2":["aceleras"],"vos":["acelerás"],"s3":["acelera"],"p1":["aceleramos"],"p2":["aceleráis"],"p3":["aceleran"]},
+    "IndImp": {"s1":["aceleraba"],"s2":["acelerabas"],"vos":["acelerabas"],"s3":["aceleraba"],"p1":["acelerábamos"],"p2":["acelerabais"],"p3":["aceleraban"]},
+    "IndPret": {"s1":["aceleré"],"s2":["aceleraste"],"vos":["aceleraste"],"s3":["aceleró"],"p1":["aceleramos"],"p2":["acelerasteis"],"p3":["aceleraron"]},
+    "IndFut": {"s1":["aceleraré"],"s2":["acelerarás"],"vos":["acelerarás"],"s3":["acelerará"],"p1":["aceleraremos"],"p2":["aceleraréis"],"p3":["acelerarán"]},
+    "IndCond": {"s1":["aceleraría"],"s2":["acelerarías"],"vos":["acelerarías"],"s3":["aceleraría"],"p1":["aceleraríamos"],"p2":["aceleraríais"],"p3":["acelerarían"]},
+    "SubPres": {"s1":["acelere"],"s2":["aceleres"],"vos":["aceleres","acelerés"],"s3":["acelere"],"p1":["aceleremos"],"p2":["aceleréis"],"p3":["aceleren"]},
+    "SubImp": {"s1":["acelerara","acelerase"],"s2":["aceleraras","acelerases"],"vos":["aceleraras","acelerases"],"s3":["acelerara","acelerase"],"p1":["aceleráramos","acelerásemos"],"p2":["acelerarais","aceleraseis"],"p3":["aceleraran","acelerasen"]},
+    "SubFut": {"s1":["acelerare"],"s2":["acelerares"],"vos":["acelerares"],"s3":["acelerare"],"p1":["aceleráremos"],"p2":["acelerareis"],"p3":["aceleraren"]},
+    "CmdPos": {"s2":["acelera"],"vos":["acelerá"],"s3":["acelere"],"p1":["aceleremos"],"p2":["acelerad"],"p3":["aceleren"]}
+  }
+}

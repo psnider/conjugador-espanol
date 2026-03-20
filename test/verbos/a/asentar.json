@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asẽn̪ˈt̪aɾ]",
+    "silabacion": "a-sen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y sentar.[1]",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"asentar","gerundio":"asentando","participio":"asentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["asiento"],"s2":["asientas"],"vos":["asentás"],"s3":["asienta"],"p1":["asentamos"],"p2":["asentáis"],"p3":["asientan"]},
+    "IndImp": {"s1":["asentaba"],"s2":["asentabas"],"vos":["asentabas"],"s3":["asentaba"],"p1":["asentábamos"],"p2":["asentabais"],"p3":["asentaban"]},
+    "IndPret": {"s1":["asenté"],"s2":["asentaste"],"vos":["asentaste"],"s3":["asentó"],"p1":["asentamos"],"p2":["asentasteis"],"p3":["asentaron"]},
+    "IndFut": {"s1":["asentaré"],"s2":["asentarás"],"vos":["asentarás"],"s3":["asentará"],"p1":["asentaremos"],"p2":["asentaréis"],"p3":["asentarán"]},
+    "IndCond": {"s1":["asentaría"],"s2":["asentarías"],"vos":["asentarías"],"s3":["asentaría"],"p1":["asentaríamos"],"p2":["asentaríais"],"p3":["asentarían"]},
+    "SubPres": {"s1":["asiente"],"s2":["asientes"],"vos":["asientes","asentés"],"s3":["asiente"],"p1":["asentemos"],"p2":["asentéis"],"p3":["asienten"]},
+    "SubImp": {"s1":["asentara","asentase"],"s2":["asentaras","asentases"],"vos":["asentaras","asentases"],"s3":["asentara","asentase"],"p1":["asentáramos","asentásemos"],"p2":["asentarais","asentaseis"],"p3":["asentaran","asentasen"]},
+    "SubFut": {"s1":["asentare"],"s2":["asentares"],"vos":["asentares"],"s3":["asentare"],"p1":["asentáremos"],"p2":["asentareis"],"p3":["asentaren"]},
+    "CmdPos": {"s2":["asienta"],"vos":["asentá"],"s3":["asiente"],"p1":["asentemos"],"p2":["asentad"],"p3":["asienten"]}
+  }
+}

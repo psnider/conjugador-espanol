@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾast̪aβ̞iˈʝaɾ]",
+    "silabacion": "tras-ta-bi-llar",
+    "acentuacion": "aguda",
+    "etimologia": "De trastrabillar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trastabillar","gerundio":"trastabillando","participio":"trastabillado"},
+  "formas_personales": {
+    "IndPres": {"s1":["trastabillo"],"s2":["trastabillas"],"vos":["trastabillás"],"s3":["trastabilla"],"p1":["trastabillamos"],"p2":["trastabilláis"],"p3":["trastabillan"]},
+    "IndImp": {"s1":["trastabillaba"],"s2":["trastabillabas"],"vos":["trastabillabas"],"s3":["trastabillaba"],"p1":["trastabillábamos"],"p2":["trastabillabais"],"p3":["trastabillaban"]},
+    "IndPret": {"s1":["trastabillé"],"s2":["trastabillaste"],"vos":["trastabillaste"],"s3":["trastabilló"],"p1":["trastabillamos"],"p2":["trastabillasteis"],"p3":["trastabillaron"]},
+    "IndFut": {"s1":["trastabillaré"],"s2":["trastabillarás"],"vos":["trastabillarás"],"s3":["trastabillará"],"p1":["trastabillaremos"],"p2":["trastabillaréis"],"p3":["trastabillarán"]},
+    "IndCond": {"s1":["trastabillaría"],"s2":["trastabillarías"],"vos":["trastabillarías"],"s3":["trastabillaría"],"p1":["trastabillaríamos"],"p2":["trastabillaríais"],"p3":["trastabillarían"]},
+    "SubPres": {"s1":["trastabille"],"s2":["trastabilles"],"vos":["trastabilles","trastabillés"],"s3":["trastabille"],"p1":["trastabillemos"],"p2":["trastabilléis"],"p3":["trastabillen"]},
+    "SubImp": {"s1":["trastabillara","trastabillase"],"s2":["trastabillaras","trastabillases"],"vos":["trastabillaras","trastabillases"],"s3":["trastabillara","trastabillase"],"p1":["trastabilláramos","trastabillásemos"],"p2":["trastabillarais","trastabillaseis"],"p3":["trastabillaran","trastabillasen"]},
+    "SubFut": {"s1":["trastabillare"],"s2":["trastabillares"],"vos":["trastabillares"],"s3":["trastabillare"],"p1":["trastabilláremos"],"p2":["trastabillareis"],"p3":["trastabillaren"]},
+    "CmdPos": {"s2":["trastabilla"],"vos":["trastabillá"],"s3":["trastabille"],"p1":["trastabillemos"],"p2":["trastabillad"],"p3":["trastabillen"]}
+  }
+}

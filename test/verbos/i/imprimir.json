@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpɾiˈmiɾ]",
+    "silabacion": "im-pri-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín imprimĕre, infinitivo presente activo de imprimō, compuesto de in&nbsp;('en') y premō, premere, pressī (\"hacer presión\"), de la raíz indoeuropea *per-&nbsp;('golpe'). Cfr. comprimir, deprimir, exprimir, oprimir, reprimir, suprimir.",
+    "modelos": ["imprimir"]
+  },
+  "formas_no_personales": {"infinitivo":"imprimir","gerundio":"imprimiendo","participio":"impreso"},
+  "formas_personales": {
+    "IndPres": {"s1":["imprimo"],"s2":["imprimes"],"vos":["imprimís"],"s3":["imprime"],"p1":["imprimimos"],"p2":["imprimís"],"p3":["imprimen"]},
+    "IndImp": {"s1":["imprimía"],"s2":["imprimías"],"vos":["imprimías"],"s3":["imprimía"],"p1":["imprimíamos"],"p2":["imprimíais"],"p3":["imprimían"]},
+    "IndPret": {"s1":["imprimí"],"s2":["imprimiste"],"vos":["imprimiste"],"s3":["imprimió"],"p1":["imprimimos"],"p2":["imprimisteis"],"p3":["imprimieron"]},
+    "IndFut": {"s1":["imprimiré"],"s2":["imprimirás"],"vos":["imprimirás"],"s3":["imprimirá"],"p1":["imprimiremos"],"p2":["imprimiréis"],"p3":["imprimirán"]},
+    "IndCond": {"s1":["imprimiría"],"s2":["imprimirías"],"vos":["imprimirías"],"s3":["imprimiría"],"p1":["imprimiríamos"],"p2":["imprimiríais"],"p3":["imprimirían"]},
+    "SubPres": {"s1":["imprima"],"s2":["imprimas"],"vos":["imprimas","imprimás"],"s3":["imprima"],"p1":["imprimamos"],"p2":["imprimáis"],"p3":["impriman"]},
+    "SubImp": {"s1":["imprimiera","imprimiese"],"s2":["imprimieras","imprimieses"],"vos":["imprimieras","imprimieses"],"s3":["imprimiera","imprimiese"],"p1":["imprimiéramos","imprimiésemos"],"p2":["imprimierais","imprimieseis"],"p3":["imprimieran","imprimiesen"]},
+    "SubFut": {"s1":["imprimiere"],"s2":["imprimieres"],"vos":["imprimieres"],"s3":["imprimiere"],"p1":["imprimiéremos"],"p2":["imprimiereis"],"p3":["imprimieren"]},
+    "CmdPos": {"s2":["imprime"],"vos":["imprimí"],"s3":["imprima"],"p1":["imprimamos"],"p2":["imprimid"],"p3":["impriman"]}
+  }
+}

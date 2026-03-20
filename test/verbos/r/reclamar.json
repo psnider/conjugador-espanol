@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reklaˈmaɾ]",
+    "silabacion": "re-cla-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reclāmō, reclāmāre, compuesto del latín clamo (\"gritar, clamar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reclamar","gerundio":"reclamando","participio":"reclamado"},
+  "formas_personales": {
+    "IndPres": {"s1":["reclamo"],"s2":["reclamas"],"vos":["reclamás"],"s3":["reclama"],"p1":["reclamamos"],"p2":["reclamáis"],"p3":["reclaman"]},
+    "IndImp": {"s1":["reclamaba"],"s2":["reclamabas"],"vos":["reclamabas"],"s3":["reclamaba"],"p1":["reclamábamos"],"p2":["reclamabais"],"p3":["reclamaban"]},
+    "IndPret": {"s1":["reclamé"],"s2":["reclamaste"],"vos":["reclamaste"],"s3":["reclamó"],"p1":["reclamamos"],"p2":["reclamasteis"],"p3":["reclamaron"]},
+    "IndFut": {"s1":["reclamaré"],"s2":["reclamarás"],"vos":["reclamarás"],"s3":["reclamará"],"p1":["reclamaremos"],"p2":["reclamaréis"],"p3":["reclamarán"]},
+    "IndCond": {"s1":["reclamaría"],"s2":["reclamarías"],"vos":["reclamarías"],"s3":["reclamaría"],"p1":["reclamaríamos"],"p2":["reclamaríais"],"p3":["reclamarían"]},
+    "SubPres": {"s1":["reclame"],"s2":["reclames"],"vos":["reclames","reclamés"],"s3":["reclame"],"p1":["reclamemos"],"p2":["reclaméis"],"p3":["reclamen"]},
+    "SubImp": {"s1":["reclamara","reclamase"],"s2":["reclamaras","reclamases"],"vos":["reclamaras","reclamases"],"s3":["reclamara","reclamase"],"p1":["reclamáramos","reclamásemos"],"p2":["reclamarais","reclamaseis"],"p3":["reclamaran","reclamasen"]},
+    "SubFut": {"s1":["reclamare"],"s2":["reclamares"],"vos":["reclamares"],"s3":["reclamare"],"p1":["reclamáremos"],"p2":["reclamareis"],"p3":["reclamaren"]},
+    "CmdPos": {"s2":["reclama"],"vos":["reclamá"],"s3":["reclame"],"p1":["reclamemos"],"p2":["reclamad"],"p3":["reclamen"]}
+  }
+}

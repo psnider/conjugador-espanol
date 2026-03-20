@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esẽmboˈkaɾ]",
+    "silabacion": "des-em-bo-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"desembocar","gerundio":"desembocando","participio":"desembocado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desemboco"],"s2":["desembocas"],"vos":["desembocás"],"s3":["desemboca"],"p1":["desembocamos"],"p2":["desembocáis"],"p3":["desembocan"]},
+    "IndImp": {"s1":["desembocaba"],"s2":["desembocabas"],"vos":["desembocabas"],"s3":["desembocaba"],"p1":["desembocábamos"],"p2":["desembocabais"],"p3":["desembocaban"]},
+    "IndPret": {"s1":["desemboqué"],"s2":["desembocaste"],"vos":["desembocaste"],"s3":["desembocó"],"p1":["desembocamos"],"p2":["desembocasteis"],"p3":["desembocaron"]},
+    "IndFut": {"s1":["desembocaré"],"s2":["desembocarás"],"vos":["desembocarás"],"s3":["desembocará"],"p1":["desembocaremos"],"p2":["desembocaréis"],"p3":["desembocarán"]},
+    "IndCond": {"s1":["desembocaría"],"s2":["desembocarías"],"vos":["desembocarías"],"s3":["desembocaría"],"p1":["desembocaríamos"],"p2":["desembocaríais"],"p3":["desembocarían"]},
+    "SubPres": {"s1":["desemboque"],"s2":["desemboques"],"vos":["desemboques","desemboqués"],"s3":["desemboque"],"p1":["desemboquemos"],"p2":["desemboquéis"],"p3":["desemboquen"]},
+    "SubImp": {"s1":["desembocara","desembocase"],"s2":["desembocaras","desembocases"],"vos":["desembocaras","desembocases"],"s3":["desembocara","desembocase"],"p1":["desembocáramos","desembocásemos"],"p2":["desembocarais","desembocaseis"],"p3":["desembocaran","desembocasen"]},
+    "SubFut": {"s1":["desembocare"],"s2":["desembocares"],"vos":["desembocares"],"s3":["desembocare"],"p1":["desembocáremos"],"p2":["desembocareis"],"p3":["desembocaren"]},
+    "CmdPos": {"s2":["desemboca"],"vos":["desembocá"],"s3":["desemboque"],"p1":["desemboquemos"],"p2":["desembocad"],"p3":["desemboquen"]}
+  }
+}

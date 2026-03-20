@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret͡ʃiˈnaɾ]",
+    "silabacion": "re-chi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re-, china3 (piedrecilla) y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rechinar","gerundio":"rechinando","participio":"rechinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rechino"],"s2":["rechinas"],"vos":["rechinás"],"s3":["rechina"],"p1":["rechinamos"],"p2":["rechináis"],"p3":["rechinan"]},
+    "IndImp": {"s1":["rechinaba"],"s2":["rechinabas"],"vos":["rechinabas"],"s3":["rechinaba"],"p1":["rechinábamos"],"p2":["rechinabais"],"p3":["rechinaban"]},
+    "IndPret": {"s1":["rechiné"],"s2":["rechinaste"],"vos":["rechinaste"],"s3":["rechinó"],"p1":["rechinamos"],"p2":["rechinasteis"],"p3":["rechinaron"]},
+    "IndFut": {"s1":["rechinaré"],"s2":["rechinarás"],"vos":["rechinarás"],"s3":["rechinará"],"p1":["rechinaremos"],"p2":["rechinaréis"],"p3":["rechinarán"]},
+    "IndCond": {"s1":["rechinaría"],"s2":["rechinarías"],"vos":["rechinarías"],"s3":["rechinaría"],"p1":["rechinaríamos"],"p2":["rechinaríais"],"p3":["rechinarían"]},
+    "SubPres": {"s1":["rechine"],"s2":["rechines"],"vos":["rechines","rechinés"],"s3":["rechine"],"p1":["rechinemos"],"p2":["rechinéis"],"p3":["rechinen"]},
+    "SubImp": {"s1":["rechinara","rechinase"],"s2":["rechinaras","rechinases"],"vos":["rechinaras","rechinases"],"s3":["rechinara","rechinase"],"p1":["rechináramos","rechinásemos"],"p2":["rechinarais","rechinaseis"],"p3":["rechinaran","rechinasen"]},
+    "SubFut": {"s1":["rechinare"],"s2":["rechinares"],"vos":["rechinares"],"s3":["rechinare"],"p1":["rechináremos"],"p2":["rechinareis"],"p3":["rechinaren"]},
+    "CmdPos": {"s2":["rechina"],"vos":["rechiná"],"s3":["rechine"],"p1":["rechinemos"],"p2":["rechinad"],"p3":["rechinen"]}
+  }
+}

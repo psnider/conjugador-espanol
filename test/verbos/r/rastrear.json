@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rast̪ɾeˈaɾ]",
+    "silabacion": "ras-tre-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De rastro y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rastrear","gerundio":"rastreando","participio":"rastreado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rastreo"],"s2":["rastreas"],"vos":["rastreás"],"s3":["rastrea"],"p1":["rastreamos"],"p2":["rastreáis"],"p3":["rastrean"]},
+    "IndImp": {"s1":["rastreaba"],"s2":["rastreabas"],"vos":["rastreabas"],"s3":["rastreaba"],"p1":["rastreábamos"],"p2":["rastreabais"],"p3":["rastreaban"]},
+    "IndPret": {"s1":["rastreé"],"s2":["rastreaste"],"vos":["rastreaste"],"s3":["rastreó"],"p1":["rastreamos"],"p2":["rastreasteis"],"p3":["rastrearon"]},
+    "IndFut": {"s1":["rastrearé"],"s2":["rastrearás"],"vos":["rastrearás"],"s3":["rastreará"],"p1":["rastrearemos"],"p2":["rastrearéis"],"p3":["rastrearán"]},
+    "IndCond": {"s1":["rastrearía"],"s2":["rastrearías"],"vos":["rastrearías"],"s3":["rastrearía"],"p1":["rastrearíamos"],"p2":["rastrearíais"],"p3":["rastrearían"]},
+    "SubPres": {"s1":["rastree"],"s2":["rastrees"],"vos":["rastrees","rastreés"],"s3":["rastree"],"p1":["rastreemos"],"p2":["rastreéis"],"p3":["rastreen"]},
+    "SubImp": {"s1":["rastreara","rastrease"],"s2":["rastrearas","rastreases"],"vos":["rastrearas","rastreases"],"s3":["rastreara","rastrease"],"p1":["rastreáramos","rastreásemos"],"p2":["rastrearais","rastreaseis"],"p3":["rastrearan","rastreasen"]},
+    "SubFut": {"s1":["rastreare"],"s2":["rastreares"],"vos":["rastreares"],"s3":["rastreare"],"p1":["rastreáremos"],"p2":["rastreareis"],"p3":["rastrearen"]},
+    "CmdPos": {"s2":["rastrea"],"vos":["rastreá"],"s3":["rastree"],"p1":["rastreemos"],"p2":["rastread"],"p3":["rastreen"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsuˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, sucio y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensuciar","gerundio":"ensuciando","participio":"ensuciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ensucio"],"s2":["ensucias"],"vos":["ensuciás"],"s3":["ensucia"],"p1":["ensuciamos"],"p2":["ensuciáis"],"p3":["ensucian"]},
+    "IndImp": {"s1":["ensuciaba"],"s2":["ensuciabas"],"vos":["ensuciabas"],"s3":["ensuciaba"],"p1":["ensuciábamos"],"p2":["ensuciabais"],"p3":["ensuciaban"]},
+    "IndPret": {"s1":["ensucié"],"s2":["ensuciaste"],"vos":["ensuciaste"],"s3":["ensució"],"p1":["ensuciamos"],"p2":["ensuciasteis"],"p3":["ensuciaron"]},
+    "IndFut": {"s1":["ensuciaré"],"s2":["ensuciarás"],"vos":["ensuciarás"],"s3":["ensuciará"],"p1":["ensuciaremos"],"p2":["ensuciaréis"],"p3":["ensuciarán"]},
+    "IndCond": {"s1":["ensuciaría"],"s2":["ensuciarías"],"vos":["ensuciarías"],"s3":["ensuciaría"],"p1":["ensuciaríamos"],"p2":["ensuciaríais"],"p3":["ensuciarían"]},
+    "SubPres": {"s1":["ensucie"],"s2":["ensucies"],"vos":["ensucies","ensuciés"],"s3":["ensucie"],"p1":["ensuciemos"],"p2":["ensuciéis"],"p3":["ensucien"]},
+    "SubImp": {"s1":["ensuciara","ensuciase"],"s2":["ensuciaras","ensuciases"],"vos":["ensuciaras","ensuciases"],"s3":["ensuciara","ensuciase"],"p1":["ensuciáramos","ensuciásemos"],"p2":["ensuciarais","ensuciaseis"],"p3":["ensuciaran","ensuciasen"]},
+    "SubFut": {"s1":["ensuciare"],"s2":["ensuciares"],"vos":["ensuciares"],"s3":["ensuciare"],"p1":["ensuciáremos"],"p2":["ensuciareis"],"p3":["ensuciaren"]},
+    "CmdPos": {"s2":["ensucia"],"vos":["ensuciá"],"s3":["ensucie"],"p1":["ensuciemos"],"p2":["ensuciad"],"p3":["ensucien"]}
+  }
+}

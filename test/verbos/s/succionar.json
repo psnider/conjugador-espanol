@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suksjoˈnaɾ]",
+    "silabacion": "suc-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"succionar","gerundio":"succionando","participio":"succionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["succiono"],"s2":["succionas"],"vos":["succionás"],"s3":["succiona"],"p1":["succionamos"],"p2":["succionáis"],"p3":["succionan"]},
+    "IndImp": {"s1":["succionaba"],"s2":["succionabas"],"vos":["succionabas"],"s3":["succionaba"],"p1":["succionábamos"],"p2":["succionabais"],"p3":["succionaban"]},
+    "IndPret": {"s1":["succioné"],"s2":["succionaste"],"vos":["succionaste"],"s3":["succionó"],"p1":["succionamos"],"p2":["succionasteis"],"p3":["succionaron"]},
+    "IndFut": {"s1":["succionaré"],"s2":["succionarás"],"vos":["succionarás"],"s3":["succionará"],"p1":["succionaremos"],"p2":["succionaréis"],"p3":["succionarán"]},
+    "IndCond": {"s1":["succionaría"],"s2":["succionarías"],"vos":["succionarías"],"s3":["succionaría"],"p1":["succionaríamos"],"p2":["succionaríais"],"p3":["succionarían"]},
+    "SubPres": {"s1":["succione"],"s2":["succiones"],"vos":["succiones","succionés"],"s3":["succione"],"p1":["succionemos"],"p2":["succionéis"],"p3":["succionen"]},
+    "SubImp": {"s1":["succionara","succionase"],"s2":["succionaras","succionases"],"vos":["succionaras","succionases"],"s3":["succionara","succionase"],"p1":["succionáramos","succionásemos"],"p2":["succionarais","succionaseis"],"p3":["succionaran","succionasen"]},
+    "SubFut": {"s1":["succionare"],"s2":["succionares"],"vos":["succionares"],"s3":["succionare"],"p1":["succionáremos"],"p2":["succionareis"],"p3":["succionaren"]},
+    "CmdPos": {"s2":["succiona"],"vos":["succioná"],"s3":["succione"],"p1":["succionemos"],"p2":["succionad"],"p3":["succionen"]}
+  }
+}

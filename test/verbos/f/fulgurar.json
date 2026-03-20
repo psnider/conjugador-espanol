@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fulɣ̞uˈɾaɾ]",
+    "silabacion": "ful-gu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Derivación regresiva de fulgurante.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fulgurar","gerundio":"fulgurando","participio":"fulgurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fulguro"],"s2":["fulguras"],"vos":["fulgurás"],"s3":["fulgura"],"p1":["fulguramos"],"p2":["fulguráis"],"p3":["fulguran"]},
+    "IndImp": {"s1":["fulguraba"],"s2":["fulgurabas"],"vos":["fulgurabas"],"s3":["fulguraba"],"p1":["fulgurábamos"],"p2":["fulgurabais"],"p3":["fulguraban"]},
+    "IndPret": {"s1":["fulguré"],"s2":["fulguraste"],"vos":["fulguraste"],"s3":["fulguró"],"p1":["fulguramos"],"p2":["fulgurasteis"],"p3":["fulguraron"]},
+    "IndFut": {"s1":["fulguraré"],"s2":["fulgurarás"],"vos":["fulgurarás"],"s3":["fulgurará"],"p1":["fulguraremos"],"p2":["fulguraréis"],"p3":["fulgurarán"]},
+    "IndCond": {"s1":["fulguraría"],"s2":["fulgurarías"],"vos":["fulgurarías"],"s3":["fulguraría"],"p1":["fulguraríamos"],"p2":["fulguraríais"],"p3":["fulgurarían"]},
+    "SubPres": {"s1":["fulgure"],"s2":["fulgures"],"vos":["fulgures","fulgurés"],"s3":["fulgure"],"p1":["fulguremos"],"p2":["fulguréis"],"p3":["fulguren"]},
+    "SubImp": {"s1":["fulgurara","fulgurase"],"s2":["fulguraras","fulgurases"],"vos":["fulguraras","fulgurases"],"s3":["fulgurara","fulgurase"],"p1":["fulguráramos","fulgurásemos"],"p2":["fulgurarais","fulguraseis"],"p3":["fulguraran","fulgurasen"]},
+    "SubFut": {"s1":["fulgurare"],"s2":["fulgurares"],"vos":["fulgurares"],"s3":["fulgurare"],"p1":["fulguráremos"],"p2":["fulgurareis"],"p3":["fulguraren"]},
+    "CmdPos": {"s2":["fulgura"],"vos":["fulgurá"],"s3":["fulgure"],"p1":["fulguremos"],"p2":["fulgurad"],"p3":["fulguren"]}
+  }
+}

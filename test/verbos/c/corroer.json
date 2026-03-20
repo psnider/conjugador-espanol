@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koroˈeɾ]",
+    "silabacion": "co-rro-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín corrodere.",
+    "modelos": ["roer"]
+  },
+  "formas_no_personales": {"infinitivo":"corroer","gerundio":"corroyendo","participio":"corroído"},
+  "formas_personales": {
+    "IndPres": {"s1":["corroo","corroigo","corroyo"],"s2":["corroes"],"vos":["corroés"],"s3":["corroe"],"p1":["corroemos"],"p2":["corroéis"],"p3":["corroen"]},
+    "IndImp": {"s1":["corroía"],"s2":["corroías"],"vos":["corroías"],"s3":["corroía"],"p1":["corroíamos"],"p2":["corroíais"],"p3":["corroían"]},
+    "IndPret": {"s1":["corroí"],"s2":["corroíste"],"vos":["corroíste"],"s3":["corroyó"],"p1":["corroímos"],"p2":["corroísteis"],"p3":["corroyeron"]},
+    "IndFut": {"s1":["corroeré"],"s2":["corroerás"],"vos":["corroerás"],"s3":["corroerá"],"p1":["corroeremos"],"p2":["corroeréis"],"p3":["corroerán"]},
+    "IndCond": {"s1":["corroería"],"s2":["corroerías"],"vos":["corroerías"],"s3":["corroería"],"p1":["corroeríamos"],"p2":["corroeríais"],"p3":["corroerían"]},
+    "SubPres": {"s1":["corroa","corroiga","corroya"],"s2":["corroas","corroigas","corroyas"],"vos":["corroas","corroigas","corroyas","corroás","corroigás","corroyás"],"s3":["corroa","corroiga","corroya"],"p1":["corroamos","corroigamos","corroyamos"],"p2":["corroáis","corroigáis","corroyáis"],"p3":["corroan","corroigan","corroyan"]},
+    "SubImp": {"s1":["corroyera","corroyese"],"s2":["corroyeras","corroyeses"],"vos":["corroyeras","corroyeses"],"s3":["corroyera","corroyese"],"p1":["corroyéramos","corroyésemos"],"p2":["corroyerais","corroyeseis"],"p3":["corroyeran","corroyesen"]},
+    "SubFut": {"s1":["corroyere"],"s2":["corroyeres"],"vos":["corroyeres"],"s3":["corroyere"],"p1":["corroyéremos"],"p2":["corroyereis"],"p3":["corroyeren"]},
+    "CmdPos": {"s2":["corroe"],"vos":["corroé"],"s3":["corroa","corroiga","corroya"],"p1":["corroamos","corroigamos","corroyamos"],"p2":["corroed"],"p3":["corroan","corroigan","corroyan"]}
+  }
+}

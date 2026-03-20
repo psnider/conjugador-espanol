@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rememoˈɾaɾ]",
+    "silabacion": "re-me-mo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1427.[1] Del latín rememorāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rememorar","gerundio":"rememorando","participio":"rememorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rememoro"],"s2":["rememoras"],"vos":["rememorás"],"s3":["rememora"],"p1":["rememoramos"],"p2":["rememoráis"],"p3":["rememoran"]},
+    "IndImp": {"s1":["rememoraba"],"s2":["rememorabas"],"vos":["rememorabas"],"s3":["rememoraba"],"p1":["rememorábamos"],"p2":["rememorabais"],"p3":["rememoraban"]},
+    "IndPret": {"s1":["rememoré"],"s2":["rememoraste"],"vos":["rememoraste"],"s3":["rememoró"],"p1":["rememoramos"],"p2":["rememorasteis"],"p3":["rememoraron"]},
+    "IndFut": {"s1":["rememoraré"],"s2":["rememorarás"],"vos":["rememorarás"],"s3":["rememorará"],"p1":["rememoraremos"],"p2":["rememoraréis"],"p3":["rememorarán"]},
+    "IndCond": {"s1":["rememoraría"],"s2":["rememorarías"],"vos":["rememorarías"],"s3":["rememoraría"],"p1":["rememoraríamos"],"p2":["rememoraríais"],"p3":["rememorarían"]},
+    "SubPres": {"s1":["rememore"],"s2":["rememores"],"vos":["rememores","rememorés"],"s3":["rememore"],"p1":["rememoremos"],"p2":["rememoréis"],"p3":["rememoren"]},
+    "SubImp": {"s1":["rememorara","rememorase"],"s2":["rememoraras","rememorases"],"vos":["rememoraras","rememorases"],"s3":["rememorara","rememorase"],"p1":["rememoráramos","rememorásemos"],"p2":["rememorarais","rememoraseis"],"p3":["rememoraran","rememorasen"]},
+    "SubFut": {"s1":["rememorare"],"s2":["rememorares"],"vos":["rememorares"],"s3":["rememorare"],"p1":["rememoráremos"],"p2":["rememorareis"],"p3":["rememoraren"]},
+    "CmdPos": {"s2":["rememora"],"vos":["rememorá"],"s3":["rememore"],"p1":["rememoremos"],"p2":["rememorad"],"p3":["rememoren"]}
+  }
+}

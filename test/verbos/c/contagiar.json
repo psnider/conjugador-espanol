@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪aˈxjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De contagio y el sufijo -ar",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"contagiar","gerundio":"contagiando","participio":"contagiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["contagio"],"s2":["contagias"],"vos":["contagiás"],"s3":["contagia"],"p1":["contagiamos"],"p2":["contagiáis"],"p3":["contagian"]},
+    "IndImp": {"s1":["contagiaba"],"s2":["contagiabas"],"vos":["contagiabas"],"s3":["contagiaba"],"p1":["contagiábamos"],"p2":["contagiabais"],"p3":["contagiaban"]},
+    "IndPret": {"s1":["contagié"],"s2":["contagiaste"],"vos":["contagiaste"],"s3":["contagió"],"p1":["contagiamos"],"p2":["contagiasteis"],"p3":["contagiaron"]},
+    "IndFut": {"s1":["contagiaré"],"s2":["contagiarás"],"vos":["contagiarás"],"s3":["contagiará"],"p1":["contagiaremos"],"p2":["contagiaréis"],"p3":["contagiarán"]},
+    "IndCond": {"s1":["contagiaría"],"s2":["contagiarías"],"vos":["contagiarías"],"s3":["contagiaría"],"p1":["contagiaríamos"],"p2":["contagiaríais"],"p3":["contagiarían"]},
+    "SubPres": {"s1":["contagie"],"s2":["contagies"],"vos":["contagies","contagiés"],"s3":["contagie"],"p1":["contagiemos"],"p2":["contagiéis"],"p3":["contagien"]},
+    "SubImp": {"s1":["contagiara","contagiase"],"s2":["contagiaras","contagiases"],"vos":["contagiaras","contagiases"],"s3":["contagiara","contagiase"],"p1":["contagiáramos","contagiásemos"],"p2":["contagiarais","contagiaseis"],"p3":["contagiaran","contagiasen"]},
+    "SubFut": {"s1":["contagiare"],"s2":["contagiares"],"vos":["contagiares"],"s3":["contagiare"],"p1":["contagiáremos"],"p2":["contagiareis"],"p3":["contagiaren"]},
+    "CmdPos": {"s2":["contagia"],"vos":["contagiá"],"s3":["contagie"],"p1":["contagiemos"],"p2":["contagiad"],"p3":["contagien"]}
+  }
+}

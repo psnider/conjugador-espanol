@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esɣ̞aˈraɾ]",
+    "silabacion": "des-ga-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, garra y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desgarrar","gerundio":"desgarrando","participio":"desgarrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desgarro"],"s2":["desgarras"],"vos":["desgarrás"],"s3":["desgarra"],"p1":["desgarramos"],"p2":["desgarráis"],"p3":["desgarran"]},
+    "IndImp": {"s1":["desgarraba"],"s2":["desgarrabas"],"vos":["desgarrabas"],"s3":["desgarraba"],"p1":["desgarrábamos"],"p2":["desgarrabais"],"p3":["desgarraban"]},
+    "IndPret": {"s1":["desgarré"],"s2":["desgarraste"],"vos":["desgarraste"],"s3":["desgarró"],"p1":["desgarramos"],"p2":["desgarrasteis"],"p3":["desgarraron"]},
+    "IndFut": {"s1":["desgarraré"],"s2":["desgarrarás"],"vos":["desgarrarás"],"s3":["desgarrará"],"p1":["desgarraremos"],"p2":["desgarraréis"],"p3":["desgarrarán"]},
+    "IndCond": {"s1":["desgarraría"],"s2":["desgarrarías"],"vos":["desgarrarías"],"s3":["desgarraría"],"p1":["desgarraríamos"],"p2":["desgarraríais"],"p3":["desgarrarían"]},
+    "SubPres": {"s1":["desgarre"],"s2":["desgarres"],"vos":["desgarres","desgarrés"],"s3":["desgarre"],"p1":["desgarremos"],"p2":["desgarréis"],"p3":["desgarren"]},
+    "SubImp": {"s1":["desgarrara","desgarrase"],"s2":["desgarraras","desgarrases"],"vos":["desgarraras","desgarrases"],"s3":["desgarrara","desgarrase"],"p1":["desgarráramos","desgarrásemos"],"p2":["desgarrarais","desgarraseis"],"p3":["desgarraran","desgarrasen"]},
+    "SubFut": {"s1":["desgarrare"],"s2":["desgarrares"],"vos":["desgarrares"],"s3":["desgarrare"],"p1":["desgarráremos"],"p2":["desgarrareis"],"p3":["desgarraren"]},
+    "CmdPos": {"s2":["desgarra"],"vos":["desgarrá"],"s3":["desgarre"],"p1":["desgarremos"],"p2":["desgarrad"],"p3":["desgarren"]}
+  }
+}

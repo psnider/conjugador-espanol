@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾpeˈt̪ɾaɾ]",
+    "silabacion": "per-pe-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"perpetrar","gerundio":"perpetrando","participio":"perpetrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["perpetro"],"s2":["perpetras"],"vos":["perpetrás"],"s3":["perpetra"],"p1":["perpetramos"],"p2":["perpetráis"],"p3":["perpetran"]},
+    "IndImp": {"s1":["perpetraba"],"s2":["perpetrabas"],"vos":["perpetrabas"],"s3":["perpetraba"],"p1":["perpetrábamos"],"p2":["perpetrabais"],"p3":["perpetraban"]},
+    "IndPret": {"s1":["perpetré"],"s2":["perpetraste"],"vos":["perpetraste"],"s3":["perpetró"],"p1":["perpetramos"],"p2":["perpetrasteis"],"p3":["perpetraron"]},
+    "IndFut": {"s1":["perpetraré"],"s2":["perpetrarás"],"vos":["perpetrarás"],"s3":["perpetrará"],"p1":["perpetraremos"],"p2":["perpetraréis"],"p3":["perpetrarán"]},
+    "IndCond": {"s1":["perpetraría"],"s2":["perpetrarías"],"vos":["perpetrarías"],"s3":["perpetraría"],"p1":["perpetraríamos"],"p2":["perpetraríais"],"p3":["perpetrarían"]},
+    "SubPres": {"s1":["perpetre"],"s2":["perpetres"],"vos":["perpetres","perpetrés"],"s3":["perpetre"],"p1":["perpetremos"],"p2":["perpetréis"],"p3":["perpetren"]},
+    "SubImp": {"s1":["perpetrara","perpetrase"],"s2":["perpetraras","perpetrases"],"vos":["perpetraras","perpetrases"],"s3":["perpetrara","perpetrase"],"p1":["perpetráramos","perpetrásemos"],"p2":["perpetrarais","perpetraseis"],"p3":["perpetraran","perpetrasen"]},
+    "SubFut": {"s1":["perpetrare"],"s2":["perpetrares"],"vos":["perpetrares"],"s3":["perpetrare"],"p1":["perpetráremos"],"p2":["perpetrareis"],"p3":["perpetraren"]},
+    "CmdPos": {"s2":["perpetra"],"vos":["perpetrá"],"s3":["perpetre"],"p1":["perpetremos"],"p2":["perpetrad"],"p3":["perpetren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞isoˈɾaɾ]",
+    "silabacion": "a-vi-zo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "De avizor y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"avizorar","gerundio":"avizorando","participio":"avizorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["avizoro"],"s2":["avizoras"],"vos":["avizorás"],"s3":["avizora"],"p1":["avizoramos"],"p2":["avizoráis"],"p3":["avizoran"]},
+    "IndImp": {"s1":["avizoraba"],"s2":["avizorabas"],"vos":["avizorabas"],"s3":["avizoraba"],"p1":["avizorábamos"],"p2":["avizorabais"],"p3":["avizoraban"]},
+    "IndPret": {"s1":["avizoré"],"s2":["avizoraste"],"vos":["avizoraste"],"s3":["avizoró"],"p1":["avizoramos"],"p2":["avizorasteis"],"p3":["avizoraron"]},
+    "IndFut": {"s1":["avizoraré"],"s2":["avizorarás"],"vos":["avizorarás"],"s3":["avizorará"],"p1":["avizoraremos"],"p2":["avizoraréis"],"p3":["avizorarán"]},
+    "IndCond": {"s1":["avizoraría"],"s2":["avizorarías"],"vos":["avizorarías"],"s3":["avizoraría"],"p1":["avizoraríamos"],"p2":["avizoraríais"],"p3":["avizorarían"]},
+    "SubPres": {"s1":["avizore"],"s2":["avizores"],"vos":["avizores","avizorés"],"s3":["avizore"],"p1":["avizoremos"],"p2":["avizoréis"],"p3":["avizoren"]},
+    "SubImp": {"s1":["avizorara","avizorase"],"s2":["avizoraras","avizorases"],"vos":["avizoraras","avizorases"],"s3":["avizorara","avizorase"],"p1":["avizoráramos","avizorásemos"],"p2":["avizorarais","avizoraseis"],"p3":["avizoraran","avizorasen"]},
+    "SubFut": {"s1":["avizorare"],"s2":["avizorares"],"vos":["avizorares"],"s3":["avizorare"],"p1":["avizoráremos"],"p2":["avizorareis"],"p3":["avizoraren"]},
+    "CmdPos": {"s2":["avizora"],"vos":["avizorá"],"s3":["avizore"],"p1":["avizoremos"],"p2":["avizorad"],"p3":["avizoren"]}
+  }
+}

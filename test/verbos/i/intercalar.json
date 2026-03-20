@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eɾkaˈlaɾ]",
+    "silabacion": "in-ter-ca-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"intercalar","gerundio":"intercalando","participio":"intercalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["intercalo"],"s2":["intercalas"],"vos":["intercalás"],"s3":["intercala"],"p1":["intercalamos"],"p2":["intercaláis"],"p3":["intercalan"]},
+    "IndImp": {"s1":["intercalaba"],"s2":["intercalabas"],"vos":["intercalabas"],"s3":["intercalaba"],"p1":["intercalábamos"],"p2":["intercalabais"],"p3":["intercalaban"]},
+    "IndPret": {"s1":["intercalé"],"s2":["intercalaste"],"vos":["intercalaste"],"s3":["intercaló"],"p1":["intercalamos"],"p2":["intercalasteis"],"p3":["intercalaron"]},
+    "IndFut": {"s1":["intercalaré"],"s2":["intercalarás"],"vos":["intercalarás"],"s3":["intercalará"],"p1":["intercalaremos"],"p2":["intercalaréis"],"p3":["intercalarán"]},
+    "IndCond": {"s1":["intercalaría"],"s2":["intercalarías"],"vos":["intercalarías"],"s3":["intercalaría"],"p1":["intercalaríamos"],"p2":["intercalaríais"],"p3":["intercalarían"]},
+    "SubPres": {"s1":["intercale"],"s2":["intercales"],"vos":["intercales","intercalés"],"s3":["intercale"],"p1":["intercalemos"],"p2":["intercaléis"],"p3":["intercalen"]},
+    "SubImp": {"s1":["intercalara","intercalase"],"s2":["intercalaras","intercalases"],"vos":["intercalaras","intercalases"],"s3":["intercalara","intercalase"],"p1":["intercaláramos","intercalásemos"],"p2":["intercalarais","intercalaseis"],"p3":["intercalaran","intercalasen"]},
+    "SubFut": {"s1":["intercalare"],"s2":["intercalares"],"vos":["intercalares"],"s3":["intercalare"],"p1":["intercaláremos"],"p2":["intercalareis"],"p3":["intercalaren"]},
+    "CmdPos": {"s2":["intercala"],"vos":["intercalá"],"s3":["intercale"],"p1":["intercalemos"],"p2":["intercalad"],"p3":["intercalen"]}
+  }
+}

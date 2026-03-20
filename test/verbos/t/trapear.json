@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾapeˈaɾ]",
+    "silabacion": "tra-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De trapo y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trapear","gerundio":"trapeando","participio":"trapeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["trapeo"],"s2":["trapeas"],"vos":["trapeás"],"s3":["trapea"],"p1":["trapeamos"],"p2":["trapeáis"],"p3":["trapean"]},
+    "IndImp": {"s1":["trapeaba"],"s2":["trapeabas"],"vos":["trapeabas"],"s3":["trapeaba"],"p1":["trapeábamos"],"p2":["trapeabais"],"p3":["trapeaban"]},
+    "IndPret": {"s1":["trapeé"],"s2":["trapeaste"],"vos":["trapeaste"],"s3":["trapeó"],"p1":["trapeamos"],"p2":["trapeasteis"],"p3":["trapearon"]},
+    "IndFut": {"s1":["trapearé"],"s2":["trapearás"],"vos":["trapearás"],"s3":["trapeará"],"p1":["trapearemos"],"p2":["trapearéis"],"p3":["trapearán"]},
+    "IndCond": {"s1":["trapearía"],"s2":["trapearías"],"vos":["trapearías"],"s3":["trapearía"],"p1":["trapearíamos"],"p2":["trapearíais"],"p3":["trapearían"]},
+    "SubPres": {"s1":["trapee"],"s2":["trapees"],"vos":["trapees","trapeés"],"s3":["trapee"],"p1":["trapeemos"],"p2":["trapeéis"],"p3":["trapeen"]},
+    "SubImp": {"s1":["trapeara","trapease"],"s2":["trapearas","trapeases"],"vos":["trapearas","trapeases"],"s3":["trapeara","trapease"],"p1":["trapeáramos","trapeásemos"],"p2":["trapearais","trapeaseis"],"p3":["trapearan","trapeasen"]},
+    "SubFut": {"s1":["trapeare"],"s2":["trapeares"],"vos":["trapeares"],"s3":["trapeare"],"p1":["trapeáremos"],"p2":["trapeareis"],"p3":["trapearen"]},
+    "CmdPos": {"s2":["trapea"],"vos":["trapeá"],"s3":["trapee"],"p1":["trapeemos"],"p2":["trapead"],"p3":["trapeen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmˈbaɾ]",
+    "silabacion": "com-bar",
+    "acentuacion": "aguda",
+    "etimologia": "De comba y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"combar","gerundio":"combando","participio":"combado"},
+  "formas_personales": {
+    "IndPres": {"s1":["combo"],"s2":["combas"],"vos":["combás"],"s3":["comba"],"p1":["combamos"],"p2":["combáis"],"p3":["comban"]},
+    "IndImp": {"s1":["combaba"],"s2":["combabas"],"vos":["combabas"],"s3":["combaba"],"p1":["combábamos"],"p2":["combabais"],"p3":["combaban"]},
+    "IndPret": {"s1":["combé"],"s2":["combaste"],"vos":["combaste"],"s3":["combó"],"p1":["combamos"],"p2":["combasteis"],"p3":["combaron"]},
+    "IndFut": {"s1":["combaré"],"s2":["combarás"],"vos":["combarás"],"s3":["combará"],"p1":["combaremos"],"p2":["combaréis"],"p3":["combarán"]},
+    "IndCond": {"s1":["combaría"],"s2":["combarías"],"vos":["combarías"],"s3":["combaría"],"p1":["combaríamos"],"p2":["combaríais"],"p3":["combarían"]},
+    "SubPres": {"s1":["combe"],"s2":["combes"],"vos":["combes","combés"],"s3":["combe"],"p1":["combemos"],"p2":["combéis"],"p3":["comben"]},
+    "SubImp": {"s1":["combara","combase"],"s2":["combaras","combases"],"vos":["combaras","combases"],"s3":["combara","combase"],"p1":["combáramos","combásemos"],"p2":["combarais","combaseis"],"p3":["combaran","combasen"]},
+    "SubFut": {"s1":["combare"],"s2":["combares"],"vos":["combares"],"s3":["combare"],"p1":["combáremos"],"p2":["combareis"],"p3":["combaren"]},
+    "CmdPos": {"s2":["comba"],"vos":["combá"],"s3":["combe"],"p1":["combemos"],"p2":["combad"],"p3":["comben"]}
+  }
+}

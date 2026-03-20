@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amaˈsaɾ]",
+    "silabacion": "a-ma-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, masa y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amasar","gerundio":"amasando","participio":"amasado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amaso"],"s2":["amasas"],"vos":["amasás"],"s3":["amasa"],"p1":["amasamos"],"p2":["amasáis"],"p3":["amasan"]},
+    "IndImp": {"s1":["amasaba"],"s2":["amasabas"],"vos":["amasabas"],"s3":["amasaba"],"p1":["amasábamos"],"p2":["amasabais"],"p3":["amasaban"]},
+    "IndPret": {"s1":["amasé"],"s2":["amasaste"],"vos":["amasaste"],"s3":["amasó"],"p1":["amasamos"],"p2":["amasasteis"],"p3":["amasaron"]},
+    "IndFut": {"s1":["amasaré"],"s2":["amasarás"],"vos":["amasarás"],"s3":["amasará"],"p1":["amasaremos"],"p2":["amasaréis"],"p3":["amasarán"]},
+    "IndCond": {"s1":["amasaría"],"s2":["amasarías"],"vos":["amasarías"],"s3":["amasaría"],"p1":["amasaríamos"],"p2":["amasaríais"],"p3":["amasarían"]},
+    "SubPres": {"s1":["amase"],"s2":["amases"],"vos":["amases","amasés"],"s3":["amase"],"p1":["amasemos"],"p2":["amaséis"],"p3":["amasen"]},
+    "SubImp": {"s1":["amasara","amasase"],"s2":["amasaras","amasases"],"vos":["amasaras","amasases"],"s3":["amasara","amasase"],"p1":["amasáramos","amasásemos"],"p2":["amasarais","amasaseis"],"p3":["amasaran","amasasen"]},
+    "SubFut": {"s1":["amasare"],"s2":["amasares"],"vos":["amasares"],"s3":["amasare"],"p1":["amasáremos"],"p2":["amasareis"],"p3":["amasaren"]},
+    "CmdPos": {"s2":["amasa"],"vos":["amasá"],"s3":["amase"],"p1":["amasemos"],"p2":["amasad"],"p3":["amasen"]}
+  }
+}

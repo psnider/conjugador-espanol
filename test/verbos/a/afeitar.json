@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[afejˈt̪aɾ]",
+    "silabacion": "a-fei-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del aragonés afeitar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"afeitar","gerundio":"afeitando","participio":"afeitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["afeito"],"s2":["afeitas"],"vos":["afeitás"],"s3":["afeita"],"p1":["afeitamos"],"p2":["afeitáis"],"p3":["afeitan"]},
+    "IndImp": {"s1":["afeitaba"],"s2":["afeitabas"],"vos":["afeitabas"],"s3":["afeitaba"],"p1":["afeitábamos"],"p2":["afeitabais"],"p3":["afeitaban"]},
+    "IndPret": {"s1":["afeité"],"s2":["afeitaste"],"vos":["afeitaste"],"s3":["afeitó"],"p1":["afeitamos"],"p2":["afeitasteis"],"p3":["afeitaron"]},
+    "IndFut": {"s1":["afeitaré"],"s2":["afeitarás"],"vos":["afeitarás"],"s3":["afeitará"],"p1":["afeitaremos"],"p2":["afeitaréis"],"p3":["afeitarán"]},
+    "IndCond": {"s1":["afeitaría"],"s2":["afeitarías"],"vos":["afeitarías"],"s3":["afeitaría"],"p1":["afeitaríamos"],"p2":["afeitaríais"],"p3":["afeitarían"]},
+    "SubPres": {"s1":["afeite"],"s2":["afeites"],"vos":["afeites","afeités"],"s3":["afeite"],"p1":["afeitemos"],"p2":["afeitéis"],"p3":["afeiten"]},
+    "SubImp": {"s1":["afeitara","afeitase"],"s2":["afeitaras","afeitases"],"vos":["afeitaras","afeitases"],"s3":["afeitara","afeitase"],"p1":["afeitáramos","afeitásemos"],"p2":["afeitarais","afeitaseis"],"p3":["afeitaran","afeitasen"]},
+    "SubFut": {"s1":["afeitare"],"s2":["afeitares"],"vos":["afeitares"],"s3":["afeitare"],"p1":["afeitáremos"],"p2":["afeitareis"],"p3":["afeitaren"]},
+    "CmdPos": {"s2":["afeita"],"vos":["afeitá"],"s3":["afeite"],"p1":["afeitemos"],"p2":["afeitad"],"p3":["afeiten"]}
+  }
+}

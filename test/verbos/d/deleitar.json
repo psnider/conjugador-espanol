@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪elejˈt̪aɾ]",
+    "silabacion": "de-lei-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del provenzal antiguo deleitar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deleitar","gerundio":"deleitando","participio":"deleitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deleito"],"s2":["deleitas"],"vos":["deleitás"],"s3":["deleita"],"p1":["deleitamos"],"p2":["deleitáis"],"p3":["deleitan"]},
+    "IndImp": {"s1":["deleitaba"],"s2":["deleitabas"],"vos":["deleitabas"],"s3":["deleitaba"],"p1":["deleitábamos"],"p2":["deleitabais"],"p3":["deleitaban"]},
+    "IndPret": {"s1":["deleité"],"s2":["deleitaste"],"vos":["deleitaste"],"s3":["deleitó"],"p1":["deleitamos"],"p2":["deleitasteis"],"p3":["deleitaron"]},
+    "IndFut": {"s1":["deleitaré"],"s2":["deleitarás"],"vos":["deleitarás"],"s3":["deleitará"],"p1":["deleitaremos"],"p2":["deleitaréis"],"p3":["deleitarán"]},
+    "IndCond": {"s1":["deleitaría"],"s2":["deleitarías"],"vos":["deleitarías"],"s3":["deleitaría"],"p1":["deleitaríamos"],"p2":["deleitaríais"],"p3":["deleitarían"]},
+    "SubPres": {"s1":["deleite"],"s2":["deleites"],"vos":["deleites","deleités"],"s3":["deleite"],"p1":["deleitemos"],"p2":["deleitéis"],"p3":["deleiten"]},
+    "SubImp": {"s1":["deleitara","deleitase"],"s2":["deleitaras","deleitases"],"vos":["deleitaras","deleitases"],"s3":["deleitara","deleitase"],"p1":["deleitáramos","deleitásemos"],"p2":["deleitarais","deleitaseis"],"p3":["deleitaran","deleitasen"]},
+    "SubFut": {"s1":["deleitare"],"s2":["deleitares"],"vos":["deleitares"],"s3":["deleitare"],"p1":["deleitáremos"],"p2":["deleitareis"],"p3":["deleitaren"]},
+    "CmdPos": {"s2":["deleita"],"vos":["deleitá"],"s3":["deleite"],"p1":["deleitemos"],"p2":["deleitad"],"p3":["deleiten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpeoˈɾaɾ]",
+    "silabacion": "em-pe-o-rar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"empeorar","gerundio":"empeorando","participio":"empeorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["empeoro"],"s2":["empeoras"],"vos":["empeorás"],"s3":["empeora"],"p1":["empeoramos"],"p2":["empeoráis"],"p3":["empeoran"]},
+    "IndImp": {"s1":["empeoraba"],"s2":["empeorabas"],"vos":["empeorabas"],"s3":["empeoraba"],"p1":["empeorábamos"],"p2":["empeorabais"],"p3":["empeoraban"]},
+    "IndPret": {"s1":["empeoré"],"s2":["empeoraste"],"vos":["empeoraste"],"s3":["empeoró"],"p1":["empeoramos"],"p2":["empeorasteis"],"p3":["empeoraron"]},
+    "IndFut": {"s1":["empeoraré"],"s2":["empeorarás"],"vos":["empeorarás"],"s3":["empeorará"],"p1":["empeoraremos"],"p2":["empeoraréis"],"p3":["empeorarán"]},
+    "IndCond": {"s1":["empeoraría"],"s2":["empeorarías"],"vos":["empeorarías"],"s3":["empeoraría"],"p1":["empeoraríamos"],"p2":["empeoraríais"],"p3":["empeorarían"]},
+    "SubPres": {"s1":["empeore"],"s2":["empeores"],"vos":["empeores","empeorés"],"s3":["empeore"],"p1":["empeoremos"],"p2":["empeoréis"],"p3":["empeoren"]},
+    "SubImp": {"s1":["empeorara","empeorase"],"s2":["empeoraras","empeorases"],"vos":["empeoraras","empeorases"],"s3":["empeorara","empeorase"],"p1":["empeoráramos","empeorásemos"],"p2":["empeorarais","empeoraseis"],"p3":["empeoraran","empeorasen"]},
+    "SubFut": {"s1":["empeorare"],"s2":["empeorares"],"vos":["empeorares"],"s3":["empeorare"],"p1":["empeoráremos"],"p2":["empeorareis"],"p3":["empeoraren"]},
+    "CmdPos": {"s2":["empeora"],"vos":["empeorá"],"s3":["empeore"],"p1":["empeoremos"],"p2":["empeorad"],"p3":["empeoren"]}
+  }
+}

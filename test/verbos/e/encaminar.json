@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkamiˈnaɾ]",
+    "silabacion": "en-ca-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"encaminar","gerundio":"encaminando","participio":"encaminado"},
+  "formas_personales": {
+    "IndPres": {"s1":["encamino"],"s2":["encaminas"],"vos":["encaminás"],"s3":["encamina"],"p1":["encaminamos"],"p2":["encamináis"],"p3":["encaminan"]},
+    "IndImp": {"s1":["encaminaba"],"s2":["encaminabas"],"vos":["encaminabas"],"s3":["encaminaba"],"p1":["encaminábamos"],"p2":["encaminabais"],"p3":["encaminaban"]},
+    "IndPret": {"s1":["encaminé"],"s2":["encaminaste"],"vos":["encaminaste"],"s3":["encaminó"],"p1":["encaminamos"],"p2":["encaminasteis"],"p3":["encaminaron"]},
+    "IndFut": {"s1":["encaminaré"],"s2":["encaminarás"],"vos":["encaminarás"],"s3":["encaminará"],"p1":["encaminaremos"],"p2":["encaminaréis"],"p3":["encaminarán"]},
+    "IndCond": {"s1":["encaminaría"],"s2":["encaminarías"],"vos":["encaminarías"],"s3":["encaminaría"],"p1":["encaminaríamos"],"p2":["encaminaríais"],"p3":["encaminarían"]},
+    "SubPres": {"s1":["encamine"],"s2":["encamines"],"vos":["encamines","encaminés"],"s3":["encamine"],"p1":["encaminemos"],"p2":["encaminéis"],"p3":["encaminen"]},
+    "SubImp": {"s1":["encaminara","encaminase"],"s2":["encaminaras","encaminases"],"vos":["encaminaras","encaminases"],"s3":["encaminara","encaminase"],"p1":["encamináramos","encaminásemos"],"p2":["encaminarais","encaminaseis"],"p3":["encaminaran","encaminasen"]},
+    "SubFut": {"s1":["encaminare"],"s2":["encaminares"],"vos":["encaminares"],"s3":["encaminare"],"p1":["encamináremos"],"p2":["encaminareis"],"p3":["encaminaren"]},
+    "CmdPos": {"s2":["encamina"],"vos":["encaminá"],"s3":["encamine"],"p1":["encaminemos"],"p2":["encaminad"],"p3":["encaminen"]}
+  }
+}

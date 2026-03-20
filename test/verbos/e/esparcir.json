@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espaɾˈsiɾ]",
+    "silabacion": "es-par-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín spargō, spargere.[2]",
+    "modelos": ["fruncir"]
+  },
+  "formas_no_personales": {"infinitivo":"esparcir","gerundio":"esparciendo","participio":"esparcido"},
+  "formas_personales": {
+    "IndPres": {"s1":["esparzo"],"s2":["esparces"],"vos":["esparcís"],"s3":["esparce"],"p1":["esparcimos"],"p2":["esparcís"],"p3":["esparcen"]},
+    "IndImp": {"s1":["esparcía"],"s2":["esparcías"],"vos":["esparcías"],"s3":["esparcía"],"p1":["esparcíamos"],"p2":["esparcíais"],"p3":["esparcían"]},
+    "IndPret": {"s1":["esparcí"],"s2":["esparciste"],"vos":["esparciste"],"s3":["esparció"],"p1":["esparcimos"],"p2":["esparcisteis"],"p3":["esparcieron"]},
+    "IndFut": {"s1":["esparciré"],"s2":["esparcirás"],"vos":["esparcirás"],"s3":["esparcirá"],"p1":["esparciremos"],"p2":["esparciréis"],"p3":["esparcirán"]},
+    "IndCond": {"s1":["esparciría"],"s2":["esparcirías"],"vos":["esparcirías"],"s3":["esparciría"],"p1":["esparciríamos"],"p2":["esparciríais"],"p3":["esparcirían"]},
+    "SubPres": {"s1":["esparza"],"s2":["esparzas"],"vos":["esparzas","esparzás"],"s3":["esparza"],"p1":["esparzamos"],"p2":["esparzáis"],"p3":["esparzan"]},
+    "SubImp": {"s1":["esparciera","esparciese"],"s2":["esparcieras","esparcieses"],"vos":["esparcieras","esparcieses"],"s3":["esparciera","esparciese"],"p1":["esparciéramos","esparciésemos"],"p2":["esparcierais","esparcieseis"],"p3":["esparcieran","esparciesen"]},
+    "SubFut": {"s1":["esparciere"],"s2":["esparcieres"],"vos":["esparcieres"],"s3":["esparciere"],"p1":["esparciéremos"],"p2":["esparciereis"],"p3":["esparcieren"]},
+    "CmdPos": {"s2":["esparce"],"vos":["esparcí"],"s3":["esparza"],"p1":["esparzamos"],"p2":["esparcid"],"p3":["esparzan"]}
+  }
+}

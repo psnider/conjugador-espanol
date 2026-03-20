@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xakˈt̪aɾ]",
+    "silabacion": "jac-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iactāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jactar","gerundio":"jactando","participio":"jactado"},
+  "formas_personales": {
+    "IndPres": {"s1":["jacto"],"s2":["jactas"],"vos":["jactás"],"s3":["jacta"],"p1":["jactamos"],"p2":["jactáis"],"p3":["jactan"]},
+    "IndImp": {"s1":["jactaba"],"s2":["jactabas"],"vos":["jactabas"],"s3":["jactaba"],"p1":["jactábamos"],"p2":["jactabais"],"p3":["jactaban"]},
+    "IndPret": {"s1":["jacté"],"s2":["jactaste"],"vos":["jactaste"],"s3":["jactó"],"p1":["jactamos"],"p2":["jactasteis"],"p3":["jactaron"]},
+    "IndFut": {"s1":["jactaré"],"s2":["jactarás"],"vos":["jactarás"],"s3":["jactará"],"p1":["jactaremos"],"p2":["jactaréis"],"p3":["jactarán"]},
+    "IndCond": {"s1":["jactaría"],"s2":["jactarías"],"vos":["jactarías"],"s3":["jactaría"],"p1":["jactaríamos"],"p2":["jactaríais"],"p3":["jactarían"]},
+    "SubPres": {"s1":["jacte"],"s2":["jactes"],"vos":["jactes","jactés"],"s3":["jacte"],"p1":["jactemos"],"p2":["jactéis"],"p3":["jacten"]},
+    "SubImp": {"s1":["jactara","jactase"],"s2":["jactaras","jactases"],"vos":["jactaras","jactases"],"s3":["jactara","jactase"],"p1":["jactáramos","jactásemos"],"p2":["jactarais","jactaseis"],"p3":["jactaran","jactasen"]},
+    "SubFut": {"s1":["jactare"],"s2":["jactares"],"vos":["jactares"],"s3":["jactare"],"p1":["jactáremos"],"p2":["jactareis"],"p3":["jactaren"]},
+    "CmdPos": {"s2":["jacta"],"vos":["jactá"],"s3":["jacte"],"p1":["jactemos"],"p2":["jactad"],"p3":["jacten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isipliˈnaɾ]",
+    "silabacion": "dis-ci-pli-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disciplinar","gerundio":"disciplinando","participio":"disciplinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["disciplino"],"s2":["disciplinas"],"vos":["disciplinás"],"s3":["disciplina"],"p1":["disciplinamos"],"p2":["disciplináis"],"p3":["disciplinan"]},
+    "IndImp": {"s1":["disciplinaba"],"s2":["disciplinabas"],"vos":["disciplinabas"],"s3":["disciplinaba"],"p1":["disciplinábamos"],"p2":["disciplinabais"],"p3":["disciplinaban"]},
+    "IndPret": {"s1":["discipliné"],"s2":["disciplinaste"],"vos":["disciplinaste"],"s3":["disciplinó"],"p1":["disciplinamos"],"p2":["disciplinasteis"],"p3":["disciplinaron"]},
+    "IndFut": {"s1":["disciplinaré"],"s2":["disciplinarás"],"vos":["disciplinarás"],"s3":["disciplinará"],"p1":["disciplinaremos"],"p2":["disciplinaréis"],"p3":["disciplinarán"]},
+    "IndCond": {"s1":["disciplinaría"],"s2":["disciplinarías"],"vos":["disciplinarías"],"s3":["disciplinaría"],"p1":["disciplinaríamos"],"p2":["disciplinaríais"],"p3":["disciplinarían"]},
+    "SubPres": {"s1":["discipline"],"s2":["disciplines"],"vos":["disciplines","disciplinés"],"s3":["discipline"],"p1":["disciplinemos"],"p2":["disciplinéis"],"p3":["disciplinen"]},
+    "SubImp": {"s1":["disciplinara","disciplinase"],"s2":["disciplinaras","disciplinases"],"vos":["disciplinaras","disciplinases"],"s3":["disciplinara","disciplinase"],"p1":["disciplináramos","disciplinásemos"],"p2":["disciplinarais","disciplinaseis"],"p3":["disciplinaran","disciplinasen"]},
+    "SubFut": {"s1":["disciplinare"],"s2":["disciplinares"],"vos":["disciplinares"],"s3":["disciplinare"],"p1":["disciplináremos"],"p2":["disciplinareis"],"p3":["disciplinaren"]},
+    "CmdPos": {"s2":["disciplina"],"vos":["discipliná"],"s3":["discipline"],"p1":["disciplinemos"],"p2":["disciplinad"],"p3":["disciplinen"]}
+  }
+}

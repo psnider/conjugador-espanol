@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskaɾˈɣ̞aɾ]",
+    "silabacion": "des-car-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín discarricāre.[1]",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"descargar","gerundio":"descargando","participio":"descargado"},
+  "formas_personales": {
+    "IndPres": {"s1":["descargo"],"s2":["descargas"],"vos":["descargás"],"s3":["descarga"],"p1":["descargamos"],"p2":["descargáis"],"p3":["descargan"]},
+    "IndImp": {"s1":["descargaba"],"s2":["descargabas"],"vos":["descargabas"],"s3":["descargaba"],"p1":["descargábamos"],"p2":["descargabais"],"p3":["descargaban"]},
+    "IndPret": {"s1":["descargué"],"s2":["descargaste"],"vos":["descargaste"],"s3":["descargó"],"p1":["descargamos"],"p2":["descargasteis"],"p3":["descargaron"]},
+    "IndFut": {"s1":["descargaré"],"s2":["descargarás"],"vos":["descargarás"],"s3":["descargará"],"p1":["descargaremos"],"p2":["descargaréis"],"p3":["descargarán"]},
+    "IndCond": {"s1":["descargaría"],"s2":["descargarías"],"vos":["descargarías"],"s3":["descargaría"],"p1":["descargaríamos"],"p2":["descargaríais"],"p3":["descargarían"]},
+    "SubPres": {"s1":["descargue"],"s2":["descargues"],"vos":["descargues","descargués"],"s3":["descargue"],"p1":["descarguemos"],"p2":["descarguéis"],"p3":["descarguen"]},
+    "SubImp": {"s1":["descargara","descargase"],"s2":["descargaras","descargases"],"vos":["descargaras","descargases"],"s3":["descargara","descargase"],"p1":["descargáramos","descargásemos"],"p2":["descargarais","descargaseis"],"p3":["descargaran","descargasen"]},
+    "SubFut": {"s1":["descargare"],"s2":["descargares"],"vos":["descargares"],"s3":["descargare"],"p1":["descargáremos"],"p2":["descargareis"],"p3":["descargaren"]},
+    "CmdPos": {"s2":["descarga"],"vos":["descargá"],"s3":["descargue"],"p1":["descarguemos"],"p2":["descargad"],"p3":["descarguen"]}
+  }
+}

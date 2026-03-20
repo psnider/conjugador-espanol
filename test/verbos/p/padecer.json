@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pað̞eˈseɾ]",
+    "silabacion": "pa-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín patiscere",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"padecer","gerundio":"padeciendo","participio":"padecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["padezco"],"s2":["padeces"],"vos":["padecés"],"s3":["padece"],"p1":["padecemos"],"p2":["padecéis"],"p3":["padecen"]},
+    "IndImp": {"s1":["padecía"],"s2":["padecías"],"vos":["padecías"],"s3":["padecía"],"p1":["padecíamos"],"p2":["padecíais"],"p3":["padecían"]},
+    "IndPret": {"s1":["padecí"],"s2":["padeciste"],"vos":["padeciste"],"s3":["padeció"],"p1":["padecimos"],"p2":["padecisteis"],"p3":["padecieron"]},
+    "IndFut": {"s1":["padeceré"],"s2":["padecerás"],"vos":["padecerás"],"s3":["padecerá"],"p1":["padeceremos"],"p2":["padeceréis"],"p3":["padecerán"]},
+    "IndCond": {"s1":["padecería"],"s2":["padecerías"],"vos":["padecerías"],"s3":["padecería"],"p1":["padeceríamos"],"p2":["padeceríais"],"p3":["padecerían"]},
+    "SubPres": {"s1":["padezca"],"s2":["padezcas"],"vos":["padezcas","padezcás"],"s3":["padezca"],"p1":["padezcamos"],"p2":["padezcáis"],"p3":["padezcan"]},
+    "SubImp": {"s1":["padeciera","padeciese"],"s2":["padecieras","padecieses"],"vos":["padecieras","padecieses"],"s3":["padeciera","padeciese"],"p1":["padeciéramos","padeciésemos"],"p2":["padecierais","padecieseis"],"p3":["padecieran","padeciesen"]},
+    "SubFut": {"s1":["padeciere"],"s2":["padecieres"],"vos":["padecieres"],"s3":["padeciere"],"p1":["padeciéremos"],"p2":["padeciereis"],"p3":["padecieren"]},
+    "CmdPos": {"s2":["padece"],"vos":["padecé"],"s3":["padezca"],"p1":["padezcamos"],"p2":["padeced"],"p3":["padezcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fleksjoˈnaɾ]",
+    "silabacion": "fle-xio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"flexionar","gerundio":"flexionando","participio":"flexionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["flexiono"],"s2":["flexionas"],"vos":["flexionás"],"s3":["flexiona"],"p1":["flexionamos"],"p2":["flexionáis"],"p3":["flexionan"]},
+    "IndImp": {"s1":["flexionaba"],"s2":["flexionabas"],"vos":["flexionabas"],"s3":["flexionaba"],"p1":["flexionábamos"],"p2":["flexionabais"],"p3":["flexionaban"]},
+    "IndPret": {"s1":["flexioné"],"s2":["flexionaste"],"vos":["flexionaste"],"s3":["flexionó"],"p1":["flexionamos"],"p2":["flexionasteis"],"p3":["flexionaron"]},
+    "IndFut": {"s1":["flexionaré"],"s2":["flexionarás"],"vos":["flexionarás"],"s3":["flexionará"],"p1":["flexionaremos"],"p2":["flexionaréis"],"p3":["flexionarán"]},
+    "IndCond": {"s1":["flexionaría"],"s2":["flexionarías"],"vos":["flexionarías"],"s3":["flexionaría"],"p1":["flexionaríamos"],"p2":["flexionaríais"],"p3":["flexionarían"]},
+    "SubPres": {"s1":["flexione"],"s2":["flexiones"],"vos":["flexiones","flexionés"],"s3":["flexione"],"p1":["flexionemos"],"p2":["flexionéis"],"p3":["flexionen"]},
+    "SubImp": {"s1":["flexionara","flexionase"],"s2":["flexionaras","flexionases"],"vos":["flexionaras","flexionases"],"s3":["flexionara","flexionase"],"p1":["flexionáramos","flexionásemos"],"p2":["flexionarais","flexionaseis"],"p3":["flexionaran","flexionasen"]},
+    "SubFut": {"s1":["flexionare"],"s2":["flexionares"],"vos":["flexionares"],"s3":["flexionare"],"p1":["flexionáremos"],"p2":["flexionareis"],"p3":["flexionaren"]},
+    "CmdPos": {"s2":["flexiona"],"vos":["flexioná"],"s3":["flexione"],"p1":["flexionemos"],"p2":["flexionad"],"p3":["flexionen"]}
+  }
+}

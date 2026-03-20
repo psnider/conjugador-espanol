@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾit̪uˈɾaɾ]",
+    "silabacion": "tri-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín triturare, con el significado de 'trillar las mieses'.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"triturar","gerundio":"triturando","participio":"triturado"},
+  "formas_personales": {
+    "IndPres": {"s1":["trituro"],"s2":["trituras"],"vos":["triturás"],"s3":["tritura"],"p1":["trituramos"],"p2":["trituráis"],"p3":["trituran"]},
+    "IndImp": {"s1":["trituraba"],"s2":["triturabas"],"vos":["triturabas"],"s3":["trituraba"],"p1":["triturábamos"],"p2":["triturabais"],"p3":["trituraban"]},
+    "IndPret": {"s1":["trituré"],"s2":["trituraste"],"vos":["trituraste"],"s3":["trituró"],"p1":["trituramos"],"p2":["triturasteis"],"p3":["trituraron"]},
+    "IndFut": {"s1":["trituraré"],"s2":["triturarás"],"vos":["triturarás"],"s3":["triturará"],"p1":["trituraremos"],"p2":["trituraréis"],"p3":["triturarán"]},
+    "IndCond": {"s1":["trituraría"],"s2":["triturarías"],"vos":["triturarías"],"s3":["trituraría"],"p1":["trituraríamos"],"p2":["trituraríais"],"p3":["triturarían"]},
+    "SubPres": {"s1":["triture"],"s2":["tritures"],"vos":["tritures","triturés"],"s3":["triture"],"p1":["trituremos"],"p2":["trituréis"],"p3":["trituren"]},
+    "SubImp": {"s1":["triturara","triturase"],"s2":["trituraras","triturases"],"vos":["trituraras","triturases"],"s3":["triturara","triturase"],"p1":["trituráramos","triturásemos"],"p2":["triturarais","trituraseis"],"p3":["trituraran","triturasen"]},
+    "SubFut": {"s1":["triturare"],"s2":["triturares"],"vos":["triturares"],"s3":["triturare"],"p1":["trituráremos"],"p2":["triturareis"],"p3":["trituraren"]},
+    "CmdPos": {"s2":["tritura"],"vos":["triturá"],"s3":["triture"],"p1":["trituremos"],"p2":["triturad"],"p3":["trituren"]}
+  }
+}

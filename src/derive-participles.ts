@@ -4,7 +4,7 @@ import { addPrefixesToBaseForm } from "./prefixes.js"
 import { regular_verb_suffixes } from "./regular-verb-rules.js"
 import { ConjugationAndDerivationRules, resolveConjugationClass } from "./resolve-conjugation-class.js"
 import { applyStemChangeToGerundStem, stem_change_patterns } from "./stem-changes.js"
-import { InfinitiveClass } from "./verbos-con-cambios-morfológicas"
+import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js"
 
 
 function getRegularParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules, rules_applied: ParticipleRulesApplied[]): Participios {

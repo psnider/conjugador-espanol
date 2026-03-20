@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪oˈɾaɾ]",
+    "silabacion": "a-to-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín obturare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atorar","gerundio":"atorando","participio":"atorado"},
+  "formas_personales": {
+    "IndPres": {"s1":["atoro"],"s2":["atoras"],"vos":["atorás"],"s3":["atora"],"p1":["atoramos"],"p2":["atoráis"],"p3":["atoran"]},
+    "IndImp": {"s1":["atoraba"],"s2":["atorabas"],"vos":["atorabas"],"s3":["atoraba"],"p1":["atorábamos"],"p2":["atorabais"],"p3":["atoraban"]},
+    "IndPret": {"s1":["atoré"],"s2":["atoraste"],"vos":["atoraste"],"s3":["atoró"],"p1":["atoramos"],"p2":["atorasteis"],"p3":["atoraron"]},
+    "IndFut": {"s1":["atoraré"],"s2":["atorarás"],"vos":["atorarás"],"s3":["atorará"],"p1":["atoraremos"],"p2":["atoraréis"],"p3":["atorarán"]},
+    "IndCond": {"s1":["atoraría"],"s2":["atorarías"],"vos":["atorarías"],"s3":["atoraría"],"p1":["atoraríamos"],"p2":["atoraríais"],"p3":["atorarían"]},
+    "SubPres": {"s1":["atore"],"s2":["atores"],"vos":["atores","atorés"],"s3":["atore"],"p1":["atoremos"],"p2":["atoréis"],"p3":["atoren"]},
+    "SubImp": {"s1":["atorara","atorase"],"s2":["atoraras","atorases"],"vos":["atoraras","atorases"],"s3":["atorara","atorase"],"p1":["atoráramos","atorásemos"],"p2":["atorarais","atoraseis"],"p3":["atoraran","atorasen"]},
+    "SubFut": {"s1":["atorare"],"s2":["atorares"],"vos":["atorares"],"s3":["atorare"],"p1":["atoráremos"],"p2":["atorareis"],"p3":["atoraren"]},
+    "CmdPos": {"s2":["atora"],"vos":["atorá"],"s3":["atore"],"p1":["atoremos"],"p2":["atorad"],"p3":["atoren"]}
+  }
+}

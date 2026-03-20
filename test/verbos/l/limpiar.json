@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lĩmˈpjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De limpio y el sufijo -ar",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"limpiar","gerundio":"limpiando","participio":"limpiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["limpio"],"s2":["limpias"],"vos":["limpiás"],"s3":["limpia"],"p1":["limpiamos"],"p2":["limpiáis"],"p3":["limpian"]},
+    "IndImp": {"s1":["limpiaba"],"s2":["limpiabas"],"vos":["limpiabas"],"s3":["limpiaba"],"p1":["limpiábamos"],"p2":["limpiabais"],"p3":["limpiaban"]},
+    "IndPret": {"s1":["limpié"],"s2":["limpiaste"],"vos":["limpiaste"],"s3":["limpió"],"p1":["limpiamos"],"p2":["limpiasteis"],"p3":["limpiaron"]},
+    "IndFut": {"s1":["limpiaré"],"s2":["limpiarás"],"vos":["limpiarás"],"s3":["limpiará"],"p1":["limpiaremos"],"p2":["limpiaréis"],"p3":["limpiarán"]},
+    "IndCond": {"s1":["limpiaría"],"s2":["limpiarías"],"vos":["limpiarías"],"s3":["limpiaría"],"p1":["limpiaríamos"],"p2":["limpiaríais"],"p3":["limpiarían"]},
+    "SubPres": {"s1":["limpie"],"s2":["limpies"],"vos":["limpies","limpiés"],"s3":["limpie"],"p1":["limpiemos"],"p2":["limpiéis"],"p3":["limpien"]},
+    "SubImp": {"s1":["limpiara","limpiase"],"s2":["limpiaras","limpiases"],"vos":["limpiaras","limpiases"],"s3":["limpiara","limpiase"],"p1":["limpiáramos","limpiásemos"],"p2":["limpiarais","limpiaseis"],"p3":["limpiaran","limpiasen"]},
+    "SubFut": {"s1":["limpiare"],"s2":["limpiares"],"vos":["limpiares"],"s3":["limpiare"],"p1":["limpiáremos"],"p2":["limpiareis"],"p3":["limpiaren"]},
+    "CmdPos": {"s2":["limpia"],"vos":["limpiá"],"s3":["limpie"],"p1":["limpiemos"],"p2":["limpiad"],"p3":["limpien"]}
+  }
+}

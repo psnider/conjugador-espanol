@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aroˈpaɾ]",
+    "silabacion": "a-rro-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, ropa y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arropar","gerundio":"arropando","participio":"arropado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arropo"],"s2":["arropas"],"vos":["arropás"],"s3":["arropa"],"p1":["arropamos"],"p2":["arropáis"],"p3":["arropan"]},
+    "IndImp": {"s1":["arropaba"],"s2":["arropabas"],"vos":["arropabas"],"s3":["arropaba"],"p1":["arropábamos"],"p2":["arropabais"],"p3":["arropaban"]},
+    "IndPret": {"s1":["arropé"],"s2":["arropaste"],"vos":["arropaste"],"s3":["arropó"],"p1":["arropamos"],"p2":["arropasteis"],"p3":["arroparon"]},
+    "IndFut": {"s1":["arroparé"],"s2":["arroparás"],"vos":["arroparás"],"s3":["arropará"],"p1":["arroparemos"],"p2":["arroparéis"],"p3":["arroparán"]},
+    "IndCond": {"s1":["arroparía"],"s2":["arroparías"],"vos":["arroparías"],"s3":["arroparía"],"p1":["arroparíamos"],"p2":["arroparíais"],"p3":["arroparían"]},
+    "SubPres": {"s1":["arrope"],"s2":["arropes"],"vos":["arropes","arropés"],"s3":["arrope"],"p1":["arropemos"],"p2":["arropéis"],"p3":["arropen"]},
+    "SubImp": {"s1":["arropara","arropase"],"s2":["arroparas","arropases"],"vos":["arroparas","arropases"],"s3":["arropara","arropase"],"p1":["arropáramos","arropásemos"],"p2":["arroparais","arropaseis"],"p3":["arroparan","arropasen"]},
+    "SubFut": {"s1":["arropare"],"s2":["arropares"],"vos":["arropares"],"s3":["arropare"],"p1":["arropáremos"],"p2":["arropareis"],"p3":["arroparen"]},
+    "CmdPos": {"s2":["arropa"],"vos":["arropá"],"s3":["arrope"],"p1":["arropemos"],"p2":["arropad"],"p3":["arropen"]}
+  }
+}

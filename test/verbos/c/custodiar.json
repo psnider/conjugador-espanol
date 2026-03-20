@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kust̪oˈð̞jaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De custodia y el sufijo -ar",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"custodiar","gerundio":"custodiando","participio":"custodiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["custodio"],"s2":["custodias"],"vos":["custodiás"],"s3":["custodia"],"p1":["custodiamos"],"p2":["custodiáis"],"p3":["custodian"]},
+    "IndImp": {"s1":["custodiaba"],"s2":["custodiabas"],"vos":["custodiabas"],"s3":["custodiaba"],"p1":["custodiábamos"],"p2":["custodiabais"],"p3":["custodiaban"]},
+    "IndPret": {"s1":["custodié"],"s2":["custodiaste"],"vos":["custodiaste"],"s3":["custodió"],"p1":["custodiamos"],"p2":["custodiasteis"],"p3":["custodiaron"]},
+    "IndFut": {"s1":["custodiaré"],"s2":["custodiarás"],"vos":["custodiarás"],"s3":["custodiará"],"p1":["custodiaremos"],"p2":["custodiaréis"],"p3":["custodiarán"]},
+    "IndCond": {"s1":["custodiaría"],"s2":["custodiarías"],"vos":["custodiarías"],"s3":["custodiaría"],"p1":["custodiaríamos"],"p2":["custodiaríais"],"p3":["custodiarían"]},
+    "SubPres": {"s1":["custodie"],"s2":["custodies"],"vos":["custodies","custodiés"],"s3":["custodie"],"p1":["custodiemos"],"p2":["custodiéis"],"p3":["custodien"]},
+    "SubImp": {"s1":["custodiara","custodiase"],"s2":["custodiaras","custodiases"],"vos":["custodiaras","custodiases"],"s3":["custodiara","custodiase"],"p1":["custodiáramos","custodiásemos"],"p2":["custodiarais","custodiaseis"],"p3":["custodiaran","custodiasen"]},
+    "SubFut": {"s1":["custodiare"],"s2":["custodiares"],"vos":["custodiares"],"s3":["custodiare"],"p1":["custodiáremos"],"p2":["custodiareis"],"p3":["custodiaren"]},
+    "CmdPos": {"s2":["custodia"],"vos":["custodiá"],"s3":["custodie"],"p1":["custodiemos"],"p2":["custodiad"],"p3":["custodien"]}
+  }
+}

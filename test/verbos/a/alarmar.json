@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alaɾˈmaɾ]",
+    "silabacion": "a-lar-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alarmar","gerundio":"alarmando","participio":"alarmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alarmo"],"s2":["alarmas"],"vos":["alarmás"],"s3":["alarma"],"p1":["alarmamos"],"p2":["alarmáis"],"p3":["alarman"]},
+    "IndImp": {"s1":["alarmaba"],"s2":["alarmabas"],"vos":["alarmabas"],"s3":["alarmaba"],"p1":["alarmábamos"],"p2":["alarmabais"],"p3":["alarmaban"]},
+    "IndPret": {"s1":["alarmé"],"s2":["alarmaste"],"vos":["alarmaste"],"s3":["alarmó"],"p1":["alarmamos"],"p2":["alarmasteis"],"p3":["alarmaron"]},
+    "IndFut": {"s1":["alarmaré"],"s2":["alarmarás"],"vos":["alarmarás"],"s3":["alarmará"],"p1":["alarmaremos"],"p2":["alarmaréis"],"p3":["alarmarán"]},
+    "IndCond": {"s1":["alarmaría"],"s2":["alarmarías"],"vos":["alarmarías"],"s3":["alarmaría"],"p1":["alarmaríamos"],"p2":["alarmaríais"],"p3":["alarmarían"]},
+    "SubPres": {"s1":["alarme"],"s2":["alarmes"],"vos":["alarmes","alarmés"],"s3":["alarme"],"p1":["alarmemos"],"p2":["alarméis"],"p3":["alarmen"]},
+    "SubImp": {"s1":["alarmara","alarmase"],"s2":["alarmaras","alarmases"],"vos":["alarmaras","alarmases"],"s3":["alarmara","alarmase"],"p1":["alarmáramos","alarmásemos"],"p2":["alarmarais","alarmaseis"],"p3":["alarmaran","alarmasen"]},
+    "SubFut": {"s1":["alarmare"],"s2":["alarmares"],"vos":["alarmares"],"s3":["alarmare"],"p1":["alarmáremos"],"p2":["alarmareis"],"p3":["alarmaren"]},
+    "CmdPos": {"s2":["alarma"],"vos":["alarmá"],"s3":["alarme"],"p1":["alarmemos"],"p2":["alarmad"],"p3":["alarmen"]}
+  }
+}

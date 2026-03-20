@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boˈt̪aɾ]",
+    "silabacion": "vo-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De voto y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"votar","gerundio":"votando","participio":"votado"},
+  "formas_personales": {
+    "IndPres": {"s1":["voto"],"s2":["votas"],"vos":["votás"],"s3":["vota"],"p1":["votamos"],"p2":["votáis"],"p3":["votan"]},
+    "IndImp": {"s1":["votaba"],"s2":["votabas"],"vos":["votabas"],"s3":["votaba"],"p1":["votábamos"],"p2":["votabais"],"p3":["votaban"]},
+    "IndPret": {"s1":["voté"],"s2":["votaste"],"vos":["votaste"],"s3":["votó"],"p1":["votamos"],"p2":["votasteis"],"p3":["votaron"]},
+    "IndFut": {"s1":["votaré"],"s2":["votarás"],"vos":["votarás"],"s3":["votará"],"p1":["votaremos"],"p2":["votaréis"],"p3":["votarán"]},
+    "IndCond": {"s1":["votaría"],"s2":["votarías"],"vos":["votarías"],"s3":["votaría"],"p1":["votaríamos"],"p2":["votaríais"],"p3":["votarían"]},
+    "SubPres": {"s1":["vote"],"s2":["votes"],"vos":["votes","votés"],"s3":["vote"],"p1":["votemos"],"p2":["votéis"],"p3":["voten"]},
+    "SubImp": {"s1":["votara","votase"],"s2":["votaras","votases"],"vos":["votaras","votases"],"s3":["votara","votase"],"p1":["votáramos","votásemos"],"p2":["votarais","votaseis"],"p3":["votaran","votasen"]},
+    "SubFut": {"s1":["votare"],"s2":["votares"],"vos":["votares"],"s3":["votare"],"p1":["votáremos"],"p2":["votareis"],"p3":["votaren"]},
+    "CmdPos": {"s2":["vota"],"vos":["votá"],"s3":["vote"],"p1":["votemos"],"p2":["votad"],"p3":["voten"]}
+  }
+}

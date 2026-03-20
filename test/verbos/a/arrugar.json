@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aruˈɣ̞aɾ]",
+    "silabacion": "a-rru-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y rugar, y este del latín rugo, deverbal del latín ruga, del protoindoeuropeo *kreu,[1] o *reu&nbsp;('arrancar').[2]",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrugar","gerundio":"arrugando","participio":"arrugado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arrugo"],"s2":["arrugas"],"vos":["arrugás"],"s3":["arruga"],"p1":["arrugamos"],"p2":["arrugáis"],"p3":["arrugan"]},
+    "IndImp": {"s1":["arrugaba"],"s2":["arrugabas"],"vos":["arrugabas"],"s3":["arrugaba"],"p1":["arrugábamos"],"p2":["arrugabais"],"p3":["arrugaban"]},
+    "IndPret": {"s1":["arrugué"],"s2":["arrugaste"],"vos":["arrugaste"],"s3":["arrugó"],"p1":["arrugamos"],"p2":["arrugasteis"],"p3":["arrugaron"]},
+    "IndFut": {"s1":["arrugaré"],"s2":["arrugarás"],"vos":["arrugarás"],"s3":["arrugará"],"p1":["arrugaremos"],"p2":["arrugaréis"],"p3":["arrugarán"]},
+    "IndCond": {"s1":["arrugaría"],"s2":["arrugarías"],"vos":["arrugarías"],"s3":["arrugaría"],"p1":["arrugaríamos"],"p2":["arrugaríais"],"p3":["arrugarían"]},
+    "SubPres": {"s1":["arrugue"],"s2":["arrugues"],"vos":["arrugues","arrugués"],"s3":["arrugue"],"p1":["arruguemos"],"p2":["arruguéis"],"p3":["arruguen"]},
+    "SubImp": {"s1":["arrugara","arrugase"],"s2":["arrugaras","arrugases"],"vos":["arrugaras","arrugases"],"s3":["arrugara","arrugase"],"p1":["arrugáramos","arrugásemos"],"p2":["arrugarais","arrugaseis"],"p3":["arrugaran","arrugasen"]},
+    "SubFut": {"s1":["arrugare"],"s2":["arrugares"],"vos":["arrugares"],"s3":["arrugare"],"p1":["arrugáremos"],"p2":["arrugareis"],"p3":["arrugaren"]},
+    "CmdPos": {"s2":["arruga"],"vos":["arrugá"],"s3":["arrugue"],"p1":["arruguemos"],"p2":["arrugad"],"p3":["arruguen"]}
+  }
+}

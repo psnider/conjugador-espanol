@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋxest̪joˈnaɾ]",
+    "silabacion": "con-ges-tio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De congestión y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"congestionar","gerundio":"congestionando","participio":"congestionado"},
+  "formas_personales": {
+    "IndPres": {"s1":["congestiono"],"s2":["congestionas"],"vos":["congestionás"],"s3":["congestiona"],"p1":["congestionamos"],"p2":["congestionáis"],"p3":["congestionan"]},
+    "IndImp": {"s1":["congestionaba"],"s2":["congestionabas"],"vos":["congestionabas"],"s3":["congestionaba"],"p1":["congestionábamos"],"p2":["congestionabais"],"p3":["congestionaban"]},
+    "IndPret": {"s1":["congestioné"],"s2":["congestionaste"],"vos":["congestionaste"],"s3":["congestionó"],"p1":["congestionamos"],"p2":["congestionasteis"],"p3":["congestionaron"]},
+    "IndFut": {"s1":["congestionaré"],"s2":["congestionarás"],"vos":["congestionarás"],"s3":["congestionará"],"p1":["congestionaremos"],"p2":["congestionaréis"],"p3":["congestionarán"]},
+    "IndCond": {"s1":["congestionaría"],"s2":["congestionarías"],"vos":["congestionarías"],"s3":["congestionaría"],"p1":["congestionaríamos"],"p2":["congestionaríais"],"p3":["congestionarían"]},
+    "SubPres": {"s1":["congestione"],"s2":["congestiones"],"vos":["congestiones","congestionés"],"s3":["congestione"],"p1":["congestionemos"],"p2":["congestionéis"],"p3":["congestionen"]},
+    "SubImp": {"s1":["congestionara","congestionase"],"s2":["congestionaras","congestionases"],"vos":["congestionaras","congestionases"],"s3":["congestionara","congestionase"],"p1":["congestionáramos","congestionásemos"],"p2":["congestionarais","congestionaseis"],"p3":["congestionaran","congestionasen"]},
+    "SubFut": {"s1":["congestionare"],"s2":["congestionares"],"vos":["congestionares"],"s3":["congestionare"],"p1":["congestionáremos"],"p2":["congestionareis"],"p3":["congestionaren"]},
+    "CmdPos": {"s2":["congestiona"],"vos":["congestioná"],"s3":["congestione"],"p1":["congestionemos"],"p2":["congestionad"],"p3":["congestionen"]}
+  }
+}

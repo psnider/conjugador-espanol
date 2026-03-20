@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾeˈt͡ʃaɾ]",
+    "silabacion": "es-tre-char",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estrechar","gerundio":"estrechando","participio":"estrechado"},
+  "formas_personales": {
+    "IndPres": {"s1":["estrecho"],"s2":["estrechas"],"vos":["estrechás"],"s3":["estrecha"],"p1":["estrechamos"],"p2":["estrecháis"],"p3":["estrechan"]},
+    "IndImp": {"s1":["estrechaba"],"s2":["estrechabas"],"vos":["estrechabas"],"s3":["estrechaba"],"p1":["estrechábamos"],"p2":["estrechabais"],"p3":["estrechaban"]},
+    "IndPret": {"s1":["estreché"],"s2":["estrechaste"],"vos":["estrechaste"],"s3":["estrechó"],"p1":["estrechamos"],"p2":["estrechasteis"],"p3":["estrecharon"]},
+    "IndFut": {"s1":["estrecharé"],"s2":["estrecharás"],"vos":["estrecharás"],"s3":["estrechará"],"p1":["estrecharemos"],"p2":["estrecharéis"],"p3":["estrecharán"]},
+    "IndCond": {"s1":["estrecharía"],"s2":["estrecharías"],"vos":["estrecharías"],"s3":["estrecharía"],"p1":["estrecharíamos"],"p2":["estrecharíais"],"p3":["estrecharían"]},
+    "SubPres": {"s1":["estreche"],"s2":["estreches"],"vos":["estreches","estrechés"],"s3":["estreche"],"p1":["estrechemos"],"p2":["estrechéis"],"p3":["estrechen"]},
+    "SubImp": {"s1":["estrechara","estrechase"],"s2":["estrecharas","estrechases"],"vos":["estrecharas","estrechases"],"s3":["estrechara","estrechase"],"p1":["estrecháramos","estrechásemos"],"p2":["estrecharais","estrechaseis"],"p3":["estrecharan","estrechasen"]},
+    "SubFut": {"s1":["estrechare"],"s2":["estrechares"],"vos":["estrechares"],"s3":["estrechare"],"p1":["estrecháremos"],"p2":["estrechareis"],"p3":["estrecharen"]},
+    "CmdPos": {"s2":["estrecha"],"vos":["estrechá"],"s3":["estreche"],"p1":["estrechemos"],"p2":["estrechad"],"p3":["estrechen"]}
+  }
+}

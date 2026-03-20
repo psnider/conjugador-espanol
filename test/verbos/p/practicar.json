@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾakt̪iˈkaɾ]",
+    "silabacion": "prac-ti-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"practicar","gerundio":"practicando","participio":"practicado"},
+  "formas_personales": {
+    "IndPres": {"s1":["practico"],"s2":["practicas"],"vos":["practicás"],"s3":["practica"],"p1":["practicamos"],"p2":["practicáis"],"p3":["practican"]},
+    "IndImp": {"s1":["practicaba"],"s2":["practicabas"],"vos":["practicabas"],"s3":["practicaba"],"p1":["practicábamos"],"p2":["practicabais"],"p3":["practicaban"]},
+    "IndPret": {"s1":["practiqué"],"s2":["practicaste"],"vos":["practicaste"],"s3":["practicó"],"p1":["practicamos"],"p2":["practicasteis"],"p3":["practicaron"]},
+    "IndFut": {"s1":["practicaré"],"s2":["practicarás"],"vos":["practicarás"],"s3":["practicará"],"p1":["practicaremos"],"p2":["practicaréis"],"p3":["practicarán"]},
+    "IndCond": {"s1":["practicaría"],"s2":["practicarías"],"vos":["practicarías"],"s3":["practicaría"],"p1":["practicaríamos"],"p2":["practicaríais"],"p3":["practicarían"]},
+    "SubPres": {"s1":["practique"],"s2":["practiques"],"vos":["practiques","practiqués"],"s3":["practique"],"p1":["practiquemos"],"p2":["practiquéis"],"p3":["practiquen"]},
+    "SubImp": {"s1":["practicara","practicase"],"s2":["practicaras","practicases"],"vos":["practicaras","practicases"],"s3":["practicara","practicase"],"p1":["practicáramos","practicásemos"],"p2":["practicarais","practicaseis"],"p3":["practicaran","practicasen"]},
+    "SubFut": {"s1":["practicare"],"s2":["practicares"],"vos":["practicares"],"s3":["practicare"],"p1":["practicáremos"],"p2":["practicareis"],"p3":["practicaren"]},
+    "CmdPos": {"s2":["practica"],"vos":["practicá"],"s3":["practique"],"p1":["practiquemos"],"p2":["practicad"],"p3":["practiquen"]}
+  }
+}

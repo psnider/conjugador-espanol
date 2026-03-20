@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espeʝeˈxaɾ]",
+    "silabacion": "des-pe-lle-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"despellejar","gerundio":"despellejando","participio":"despellejado"},
+  "formas_personales": {
+    "IndPres": {"s1":["despellejo"],"s2":["despellejas"],"vos":["despellejás"],"s3":["despelleja"],"p1":["despellejamos"],"p2":["despellejáis"],"p3":["despellejan"]},
+    "IndImp": {"s1":["despellejaba"],"s2":["despellejabas"],"vos":["despellejabas"],"s3":["despellejaba"],"p1":["despellejábamos"],"p2":["despellejabais"],"p3":["despellejaban"]},
+    "IndPret": {"s1":["despellejé"],"s2":["despellejaste"],"vos":["despellejaste"],"s3":["despellejó"],"p1":["despellejamos"],"p2":["despellejasteis"],"p3":["despellejaron"]},
+    "IndFut": {"s1":["despellejaré"],"s2":["despellejarás"],"vos":["despellejarás"],"s3":["despellejará"],"p1":["despellejaremos"],"p2":["despellejaréis"],"p3":["despellejarán"]},
+    "IndCond": {"s1":["despellejaría"],"s2":["despellejarías"],"vos":["despellejarías"],"s3":["despellejaría"],"p1":["despellejaríamos"],"p2":["despellejaríais"],"p3":["despellejarían"]},
+    "SubPres": {"s1":["despelleje"],"s2":["despellejes"],"vos":["despellejes","despellejés"],"s3":["despelleje"],"p1":["despellejemos"],"p2":["despellejéis"],"p3":["despellejen"]},
+    "SubImp": {"s1":["despellejara","despellejase"],"s2":["despellejaras","despellejases"],"vos":["despellejaras","despellejases"],"s3":["despellejara","despellejase"],"p1":["despellejáramos","despellejásemos"],"p2":["despellejarais","despellejaseis"],"p3":["despellejaran","despellejasen"]},
+    "SubFut": {"s1":["despellejare"],"s2":["despellejares"],"vos":["despellejares"],"s3":["despellejare"],"p1":["despellejáremos"],"p2":["despellejareis"],"p3":["despellejaren"]},
+    "CmdPos": {"s2":["despelleja"],"vos":["despellejá"],"s3":["despelleje"],"p1":["despellejemos"],"p2":["despellejad"],"p3":["despellejen"]}
+  }
+}

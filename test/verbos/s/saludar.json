@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saluˈð̞aɾ]",
+    "silabacion": "sa-lu-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"saludar","gerundio":"saludando","participio":"saludado"},
+  "formas_personales": {
+    "IndPres": {"s1":["saludo"],"s2":["saludas"],"vos":["saludás"],"s3":["saluda"],"p1":["saludamos"],"p2":["saludáis"],"p3":["saludan"]},
+    "IndImp": {"s1":["saludaba"],"s2":["saludabas"],"vos":["saludabas"],"s3":["saludaba"],"p1":["saludábamos"],"p2":["saludabais"],"p3":["saludaban"]},
+    "IndPret": {"s1":["saludé"],"s2":["saludaste"],"vos":["saludaste"],"s3":["saludó"],"p1":["saludamos"],"p2":["saludasteis"],"p3":["saludaron"]},
+    "IndFut": {"s1":["saludaré"],"s2":["saludarás"],"vos":["saludarás"],"s3":["saludará"],"p1":["saludaremos"],"p2":["saludaréis"],"p3":["saludarán"]},
+    "IndCond": {"s1":["saludaría"],"s2":["saludarías"],"vos":["saludarías"],"s3":["saludaría"],"p1":["saludaríamos"],"p2":["saludaríais"],"p3":["saludarían"]},
+    "SubPres": {"s1":["salude"],"s2":["saludes"],"vos":["saludes","saludés"],"s3":["salude"],"p1":["saludemos"],"p2":["saludéis"],"p3":["saluden"]},
+    "SubImp": {"s1":["saludara","saludase"],"s2":["saludaras","saludases"],"vos":["saludaras","saludases"],"s3":["saludara","saludase"],"p1":["saludáramos","saludásemos"],"p2":["saludarais","saludaseis"],"p3":["saludaran","saludasen"]},
+    "SubFut": {"s1":["saludare"],"s2":["saludares"],"vos":["saludares"],"s3":["saludare"],"p1":["saludáremos"],"p2":["saludareis"],"p3":["saludaren"]},
+    "CmdPos": {"s2":["saluda"],"vos":["saludá"],"s3":["salude"],"p1":["saludemos"],"p2":["saludad"],"p3":["saluden"]}
+  }
+}

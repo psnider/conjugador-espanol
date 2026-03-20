@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[iɣ̞waˈlaɾ]",
+    "silabacion": "i-gua-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De igual y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"igualar","gerundio":"igualando","participio":"igualado"},
+  "formas_personales": {
+    "IndPres": {"s1":["igualo"],"s2":["igualas"],"vos":["igualás"],"s3":["iguala"],"p1":["igualamos"],"p2":["igualáis"],"p3":["igualan"]},
+    "IndImp": {"s1":["igualaba"],"s2":["igualabas"],"vos":["igualabas"],"s3":["igualaba"],"p1":["igualábamos"],"p2":["igualabais"],"p3":["igualaban"]},
+    "IndPret": {"s1":["igualé"],"s2":["igualaste"],"vos":["igualaste"],"s3":["igualó"],"p1":["igualamos"],"p2":["igualasteis"],"p3":["igualaron"]},
+    "IndFut": {"s1":["igualaré"],"s2":["igualarás"],"vos":["igualarás"],"s3":["igualará"],"p1":["igualaremos"],"p2":["igualaréis"],"p3":["igualarán"]},
+    "IndCond": {"s1":["igualaría"],"s2":["igualarías"],"vos":["igualarías"],"s3":["igualaría"],"p1":["igualaríamos"],"p2":["igualaríais"],"p3":["igualarían"]},
+    "SubPres": {"s1":["iguale"],"s2":["iguales"],"vos":["iguales","igualés"],"s3":["iguale"],"p1":["igualemos"],"p2":["igualéis"],"p3":["igualen"]},
+    "SubImp": {"s1":["igualara","igualase"],"s2":["igualaras","igualases"],"vos":["igualaras","igualases"],"s3":["igualara","igualase"],"p1":["igualáramos","igualásemos"],"p2":["igualarais","igualaseis"],"p3":["igualaran","igualasen"]},
+    "SubFut": {"s1":["igualare"],"s2":["igualares"],"vos":["igualares"],"s3":["igualare"],"p1":["igualáremos"],"p2":["igualareis"],"p3":["igualaren"]},
+    "CmdPos": {"s2":["iguala"],"vos":["igualá"],"s3":["iguale"],"p1":["igualemos"],"p2":["igualad"],"p3":["igualen"]}
+  }
+}

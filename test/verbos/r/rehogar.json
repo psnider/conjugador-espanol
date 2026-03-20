@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reoˈɣ̞aɾ]",
+    "silabacion": "re-ho-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín re ('de nuevo') y focus ('fuego')",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"rehogar","gerundio":"rehogando","participio":"rehogado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rehogo"],"s2":["rehogas"],"vos":["rehogás"],"s3":["rehoga"],"p1":["rehogamos"],"p2":["rehogáis"],"p3":["rehogan"]},
+    "IndImp": {"s1":["rehogaba"],"s2":["rehogabas"],"vos":["rehogabas"],"s3":["rehogaba"],"p1":["rehogábamos"],"p2":["rehogabais"],"p3":["rehogaban"]},
+    "IndPret": {"s1":["rehogué"],"s2":["rehogaste"],"vos":["rehogaste"],"s3":["rehogó"],"p1":["rehogamos"],"p2":["rehogasteis"],"p3":["rehogaron"]},
+    "IndFut": {"s1":["rehogaré"],"s2":["rehogarás"],"vos":["rehogarás"],"s3":["rehogará"],"p1":["rehogaremos"],"p2":["rehogaréis"],"p3":["rehogarán"]},
+    "IndCond": {"s1":["rehogaría"],"s2":["rehogarías"],"vos":["rehogarías"],"s3":["rehogaría"],"p1":["rehogaríamos"],"p2":["rehogaríais"],"p3":["rehogarían"]},
+    "SubPres": {"s1":["rehogue"],"s2":["rehogues"],"vos":["rehogues","rehogués"],"s3":["rehogue"],"p1":["rehoguemos"],"p2":["rehoguéis"],"p3":["rehoguen"]},
+    "SubImp": {"s1":["rehogara","rehogase"],"s2":["rehogaras","rehogases"],"vos":["rehogaras","rehogases"],"s3":["rehogara","rehogase"],"p1":["rehogáramos","rehogásemos"],"p2":["rehogarais","rehogaseis"],"p3":["rehogaran","rehogasen"]},
+    "SubFut": {"s1":["rehogare"],"s2":["rehogares"],"vos":["rehogares"],"s3":["rehogare"],"p1":["rehogáremos"],"p2":["rehogareis"],"p3":["rehogaren"]},
+    "CmdPos": {"s2":["rehoga"],"vos":["rehogá"],"s3":["rehogue"],"p1":["rehoguemos"],"p2":["rehogad"],"p3":["rehoguen"]}
+  }
+}

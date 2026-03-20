@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbað̞uɾˈnaɾ]",
+    "silabacion": "em-ba-dur-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"embadurnar","gerundio":"embadurnando","participio":"embadurnado"},
+  "formas_personales": {
+    "IndPres": {"s1":["embadurno"],"s2":["embadurnas"],"vos":["embadurnás"],"s3":["embadurna"],"p1":["embadurnamos"],"p2":["embadurnáis"],"p3":["embadurnan"]},
+    "IndImp": {"s1":["embadurnaba"],"s2":["embadurnabas"],"vos":["embadurnabas"],"s3":["embadurnaba"],"p1":["embadurnábamos"],"p2":["embadurnabais"],"p3":["embadurnaban"]},
+    "IndPret": {"s1":["embadurné"],"s2":["embadurnaste"],"vos":["embadurnaste"],"s3":["embadurnó"],"p1":["embadurnamos"],"p2":["embadurnasteis"],"p3":["embadurnaron"]},
+    "IndFut": {"s1":["embadurnaré"],"s2":["embadurnarás"],"vos":["embadurnarás"],"s3":["embadurnará"],"p1":["embadurnaremos"],"p2":["embadurnaréis"],"p3":["embadurnarán"]},
+    "IndCond": {"s1":["embadurnaría"],"s2":["embadurnarías"],"vos":["embadurnarías"],"s3":["embadurnaría"],"p1":["embadurnaríamos"],"p2":["embadurnaríais"],"p3":["embadurnarían"]},
+    "SubPres": {"s1":["embadurne"],"s2":["embadurnes"],"vos":["embadurnes","embadurnés"],"s3":["embadurne"],"p1":["embadurnemos"],"p2":["embadurnéis"],"p3":["embadurnen"]},
+    "SubImp": {"s1":["embadurnara","embadurnase"],"s2":["embadurnaras","embadurnases"],"vos":["embadurnaras","embadurnases"],"s3":["embadurnara","embadurnase"],"p1":["embadurnáramos","embadurnásemos"],"p2":["embadurnarais","embadurnaseis"],"p3":["embadurnaran","embadurnasen"]},
+    "SubFut": {"s1":["embadurnare"],"s2":["embadurnares"],"vos":["embadurnares"],"s3":["embadurnare"],"p1":["embadurnáremos"],"p2":["embadurnareis"],"p3":["embadurnaren"]},
+    "CmdPos": {"s2":["embadurna"],"vos":["embadurná"],"s3":["embadurne"],"p1":["embadurnemos"],"p2":["embadurnad"],"p3":["embadurnen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xust̪ifiˈkaɾ]",
+    "silabacion": "jus-ti-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iustificāre; de iustus&nbsp;('justo') y ficāre, tema frecuentativo de facĕre&nbsp;('hacer')[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"justificar","gerundio":"justificando","participio":"justificado"},
+  "formas_personales": {
+    "IndPres": {"s1":["justifico"],"s2":["justificas"],"vos":["justificás"],"s3":["justifica"],"p1":["justificamos"],"p2":["justificáis"],"p3":["justifican"]},
+    "IndImp": {"s1":["justificaba"],"s2":["justificabas"],"vos":["justificabas"],"s3":["justificaba"],"p1":["justificábamos"],"p2":["justificabais"],"p3":["justificaban"]},
+    "IndPret": {"s1":["justifiqué"],"s2":["justificaste"],"vos":["justificaste"],"s3":["justificó"],"p1":["justificamos"],"p2":["justificasteis"],"p3":["justificaron"]},
+    "IndFut": {"s1":["justificaré"],"s2":["justificarás"],"vos":["justificarás"],"s3":["justificará"],"p1":["justificaremos"],"p2":["justificaréis"],"p3":["justificarán"]},
+    "IndCond": {"s1":["justificaría"],"s2":["justificarías"],"vos":["justificarías"],"s3":["justificaría"],"p1":["justificaríamos"],"p2":["justificaríais"],"p3":["justificarían"]},
+    "SubPres": {"s1":["justifique"],"s2":["justifiques"],"vos":["justifiques","justifiqués"],"s3":["justifique"],"p1":["justifiquemos"],"p2":["justifiquéis"],"p3":["justifiquen"]},
+    "SubImp": {"s1":["justificara","justificase"],"s2":["justificaras","justificases"],"vos":["justificaras","justificases"],"s3":["justificara","justificase"],"p1":["justificáramos","justificásemos"],"p2":["justificarais","justificaseis"],"p3":["justificaran","justificasen"]},
+    "SubFut": {"s1":["justificare"],"s2":["justificares"],"vos":["justificares"],"s3":["justificare"],"p1":["justificáremos"],"p2":["justificareis"],"p3":["justificaren"]},
+    "CmdPos": {"s2":["justifica"],"vos":["justificá"],"s3":["justifique"],"p1":["justifiquemos"],"p2":["justificad"],"p3":["justifiquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ũmˈbaɾ]",
+    "silabacion": "tum-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tumbar","gerundio":"tumbando","participio":"tumbado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tumbo"],"s2":["tumbas"],"vos":["tumbás"],"s3":["tumba"],"p1":["tumbamos"],"p2":["tumbáis"],"p3":["tumban"]},
+    "IndImp": {"s1":["tumbaba"],"s2":["tumbabas"],"vos":["tumbabas"],"s3":["tumbaba"],"p1":["tumbábamos"],"p2":["tumbabais"],"p3":["tumbaban"]},
+    "IndPret": {"s1":["tumbé"],"s2":["tumbaste"],"vos":["tumbaste"],"s3":["tumbó"],"p1":["tumbamos"],"p2":["tumbasteis"],"p3":["tumbaron"]},
+    "IndFut": {"s1":["tumbaré"],"s2":["tumbarás"],"vos":["tumbarás"],"s3":["tumbará"],"p1":["tumbaremos"],"p2":["tumbaréis"],"p3":["tumbarán"]},
+    "IndCond": {"s1":["tumbaría"],"s2":["tumbarías"],"vos":["tumbarías"],"s3":["tumbaría"],"p1":["tumbaríamos"],"p2":["tumbaríais"],"p3":["tumbarían"]},
+    "SubPres": {"s1":["tumbe"],"s2":["tumbes"],"vos":["tumbes","tumbés"],"s3":["tumbe"],"p1":["tumbemos"],"p2":["tumbéis"],"p3":["tumben"]},
+    "SubImp": {"s1":["tumbara","tumbase"],"s2":["tumbaras","tumbases"],"vos":["tumbaras","tumbases"],"s3":["tumbara","tumbase"],"p1":["tumbáramos","tumbásemos"],"p2":["tumbarais","tumbaseis"],"p3":["tumbaran","tumbasen"]},
+    "SubFut": {"s1":["tumbare"],"s2":["tumbares"],"vos":["tumbares"],"s3":["tumbare"],"p1":["tumbáremos"],"p2":["tumbareis"],"p3":["tumbaren"]},
+    "CmdPos": {"s2":["tumba"],"vos":["tumbá"],"s3":["tumbe"],"p1":["tumbemos"],"p2":["tumbad"],"p3":["tumben"]}
+  }
+}

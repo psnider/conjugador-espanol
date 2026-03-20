@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõnsẽn̪ˈt̪ɾaɾ]",
+    "silabacion": "des-con-cen-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconcentrar","gerundio":"desconcentrando","participio":"desconcentrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desconcentro"],"s2":["desconcentras"],"vos":["desconcentrás"],"s3":["desconcentra"],"p1":["desconcentramos"],"p2":["desconcentráis"],"p3":["desconcentran"]},
+    "IndImp": {"s1":["desconcentraba"],"s2":["desconcentrabas"],"vos":["desconcentrabas"],"s3":["desconcentraba"],"p1":["desconcentrábamos"],"p2":["desconcentrabais"],"p3":["desconcentraban"]},
+    "IndPret": {"s1":["desconcentré"],"s2":["desconcentraste"],"vos":["desconcentraste"],"s3":["desconcentró"],"p1":["desconcentramos"],"p2":["desconcentrasteis"],"p3":["desconcentraron"]},
+    "IndFut": {"s1":["desconcentraré"],"s2":["desconcentrarás"],"vos":["desconcentrarás"],"s3":["desconcentrará"],"p1":["desconcentraremos"],"p2":["desconcentraréis"],"p3":["desconcentrarán"]},
+    "IndCond": {"s1":["desconcentraría"],"s2":["desconcentrarías"],"vos":["desconcentrarías"],"s3":["desconcentraría"],"p1":["desconcentraríamos"],"p2":["desconcentraríais"],"p3":["desconcentrarían"]},
+    "SubPres": {"s1":["desconcentre"],"s2":["desconcentres"],"vos":["desconcentres","desconcentrés"],"s3":["desconcentre"],"p1":["desconcentremos"],"p2":["desconcentréis"],"p3":["desconcentren"]},
+    "SubImp": {"s1":["desconcentrara","desconcentrase"],"s2":["desconcentraras","desconcentrases"],"vos":["desconcentraras","desconcentrases"],"s3":["desconcentrara","desconcentrase"],"p1":["desconcentráramos","desconcentrásemos"],"p2":["desconcentrarais","desconcentraseis"],"p3":["desconcentraran","desconcentrasen"]},
+    "SubFut": {"s1":["desconcentrare"],"s2":["desconcentrares"],"vos":["desconcentrares"],"s3":["desconcentrare"],"p1":["desconcentráremos"],"p2":["desconcentrareis"],"p3":["desconcentraren"]},
+    "CmdPos": {"s2":["desconcentra"],"vos":["desconcentrá"],"s3":["desconcentre"],"p1":["desconcentremos"],"p2":["desconcentrad"],"p3":["desconcentren"]}
+  }
+}

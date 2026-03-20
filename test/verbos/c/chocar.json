@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃoˈkaɾ]",
+    "silabacion": "cho-car",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"chocar","gerundio":"chocando","participio":"chocado"},
+  "formas_personales": {
+    "IndPres": {"s1":["choco"],"s2":["chocas"],"vos":["chocás"],"s3":["choca"],"p1":["chocamos"],"p2":["chocáis"],"p3":["chocan"]},
+    "IndImp": {"s1":["chocaba"],"s2":["chocabas"],"vos":["chocabas"],"s3":["chocaba"],"p1":["chocábamos"],"p2":["chocabais"],"p3":["chocaban"]},
+    "IndPret": {"s1":["choqué"],"s2":["chocaste"],"vos":["chocaste"],"s3":["chocó"],"p1":["chocamos"],"p2":["chocasteis"],"p3":["chocaron"]},
+    "IndFut": {"s1":["chocaré"],"s2":["chocarás"],"vos":["chocarás"],"s3":["chocará"],"p1":["chocaremos"],"p2":["chocaréis"],"p3":["chocarán"]},
+    "IndCond": {"s1":["chocaría"],"s2":["chocarías"],"vos":["chocarías"],"s3":["chocaría"],"p1":["chocaríamos"],"p2":["chocaríais"],"p3":["chocarían"]},
+    "SubPres": {"s1":["choque"],"s2":["choques"],"vos":["choques","choqués"],"s3":["choque"],"p1":["choquemos"],"p2":["choquéis"],"p3":["choquen"]},
+    "SubImp": {"s1":["chocara","chocase"],"s2":["chocaras","chocases"],"vos":["chocaras","chocases"],"s3":["chocara","chocase"],"p1":["chocáramos","chocásemos"],"p2":["chocarais","chocaseis"],"p3":["chocaran","chocasen"]},
+    "SubFut": {"s1":["chocare"],"s2":["chocares"],"vos":["chocares"],"s3":["chocare"],"p1":["chocáremos"],"p2":["chocareis"],"p3":["chocaren"]},
+    "CmdPos": {"s2":["choca"],"vos":["chocá"],"s3":["choque"],"p1":["choquemos"],"p2":["chocad"],"p3":["choquen"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[anũnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín annuntiare.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"anunciar","gerundio":"anunciando","participio":"anunciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["anuncio"],"s2":["anuncias"],"vos":["anunciás"],"s3":["anuncia"],"p1":["anunciamos"],"p2":["anunciáis"],"p3":["anuncian"]},
+    "IndImp": {"s1":["anunciaba"],"s2":["anunciabas"],"vos":["anunciabas"],"s3":["anunciaba"],"p1":["anunciábamos"],"p2":["anunciabais"],"p3":["anunciaban"]},
+    "IndPret": {"s1":["anuncié"],"s2":["anunciaste"],"vos":["anunciaste"],"s3":["anunció"],"p1":["anunciamos"],"p2":["anunciasteis"],"p3":["anunciaron"]},
+    "IndFut": {"s1":["anunciaré"],"s2":["anunciarás"],"vos":["anunciarás"],"s3":["anunciará"],"p1":["anunciaremos"],"p2":["anunciaréis"],"p3":["anunciarán"]},
+    "IndCond": {"s1":["anunciaría"],"s2":["anunciarías"],"vos":["anunciarías"],"s3":["anunciaría"],"p1":["anunciaríamos"],"p2":["anunciaríais"],"p3":["anunciarían"]},
+    "SubPres": {"s1":["anuncie"],"s2":["anuncies"],"vos":["anuncies","anunciés"],"s3":["anuncie"],"p1":["anunciemos"],"p2":["anunciéis"],"p3":["anuncien"]},
+    "SubImp": {"s1":["anunciara","anunciase"],"s2":["anunciaras","anunciases"],"vos":["anunciaras","anunciases"],"s3":["anunciara","anunciase"],"p1":["anunciáramos","anunciásemos"],"p2":["anunciarais","anunciaseis"],"p3":["anunciaran","anunciasen"]},
+    "SubFut": {"s1":["anunciare"],"s2":["anunciares"],"vos":["anunciares"],"s3":["anunciare"],"p1":["anunciáremos"],"p2":["anunciareis"],"p3":["anunciaren"]},
+    "CmdPos": {"s2":["anuncia"],"vos":["anunciá"],"s3":["anuncie"],"p1":["anunciemos"],"p2":["anunciad"],"p3":["anuncien"]}
+  }
+}

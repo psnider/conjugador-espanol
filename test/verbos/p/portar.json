@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[poɾˈt̪aɾ]",
+    "silabacion": "por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín portāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"portar","gerundio":"portando","participio":"portado"},
+  "formas_personales": {
+    "IndPres": {"s1":["porto"],"s2":["portas"],"vos":["portás"],"s3":["porta"],"p1":["portamos"],"p2":["portáis"],"p3":["portan"]},
+    "IndImp": {"s1":["portaba"],"s2":["portabas"],"vos":["portabas"],"s3":["portaba"],"p1":["portábamos"],"p2":["portabais"],"p3":["portaban"]},
+    "IndPret": {"s1":["porté"],"s2":["portaste"],"vos":["portaste"],"s3":["portó"],"p1":["portamos"],"p2":["portasteis"],"p3":["portaron"]},
+    "IndFut": {"s1":["portaré"],"s2":["portarás"],"vos":["portarás"],"s3":["portará"],"p1":["portaremos"],"p2":["portaréis"],"p3":["portarán"]},
+    "IndCond": {"s1":["portaría"],"s2":["portarías"],"vos":["portarías"],"s3":["portaría"],"p1":["portaríamos"],"p2":["portaríais"],"p3":["portarían"]},
+    "SubPres": {"s1":["porte"],"s2":["portes"],"vos":["portes","portés"],"s3":["porte"],"p1":["portemos"],"p2":["portéis"],"p3":["porten"]},
+    "SubImp": {"s1":["portara","portase"],"s2":["portaras","portases"],"vos":["portaras","portases"],"s3":["portara","portase"],"p1":["portáramos","portásemos"],"p2":["portarais","portaseis"],"p3":["portaran","portasen"]},
+    "SubFut": {"s1":["portare"],"s2":["portares"],"vos":["portares"],"s3":["portare"],"p1":["portáremos"],"p2":["portareis"],"p3":["portaren"]},
+    "CmdPos": {"s2":["porta"],"vos":["portá"],"s3":["porte"],"p1":["portemos"],"p2":["portad"],"p3":["porten"]}
+  }
+}

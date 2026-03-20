@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espɾoβ̞eˈeɾ]",
+    "silabacion": "des-pro-ve-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y proveer",
+    "modelos": ["proveer","leer"]
+  },
+  "formas_no_personales": {"infinitivo":"desproveer","gerundio":"desproveyendo","participio":"desprovisto"},
+  "formas_personales": {
+    "IndPres": {"s1":["desproveo"],"s2":["desprovees"],"vos":["desproveés"],"s3":["desprovee"],"p1":["desproveemos"],"p2":["desproveéis"],"p3":["desproveen"]},
+    "IndImp": {"s1":["desproveía"],"s2":["desproveías"],"vos":["desproveías"],"s3":["desproveía"],"p1":["desproveíamos"],"p2":["desproveíais"],"p3":["desproveían"]},
+    "IndPret": {"s1":["desproveí"],"s2":["desproveíste"],"vos":["desproveíste"],"s3":["desproveyó"],"p1":["desproveímos"],"p2":["desproveísteis"],"p3":["desproveyeron"]},
+    "IndFut": {"s1":["desproveeré"],"s2":["desproveerás"],"vos":["desproveerás"],"s3":["desproveerá"],"p1":["desproveeremos"],"p2":["desproveeréis"],"p3":["desproveerán"]},
+    "IndCond": {"s1":["desproveería"],"s2":["desproveerías"],"vos":["desproveerías"],"s3":["desproveería"],"p1":["desproveeríamos"],"p2":["desproveeríais"],"p3":["desproveerían"]},
+    "SubPres": {"s1":["desprovea"],"s2":["desproveas"],"vos":["desproveas","desproveás"],"s3":["desprovea"],"p1":["desproveamos"],"p2":["desproveáis"],"p3":["desprovean"]},
+    "SubImp": {"s1":["desproveyera","desproveyese"],"s2":["desproveyeras","desproveyeses"],"vos":["desproveyeras","desproveyeses"],"s3":["desproveyera","desproveyese"],"p1":["desproveyéramos","desproveyésemos"],"p2":["desproveyerais","desproveyeseis"],"p3":["desproveyeran","desproveyesen"]},
+    "SubFut": {"s1":["desproveyere"],"s2":["desproveyeres"],"vos":["desproveyeres"],"s3":["desproveyere"],"p1":["desproveyéremos"],"p2":["desproveyereis"],"p3":["desproveyeren"]},
+    "CmdPos": {"s2":["desprovee"],"vos":["desproveé"],"s3":["desprovea"],"p1":["desproveamos"],"p2":["desproveed"],"p3":["desprovean"]}
+  }
+}

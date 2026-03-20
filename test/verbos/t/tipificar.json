@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ipifiˈkaɾ]",
+    "silabacion": "ti-pi-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"tipificar","gerundio":"tipificando","participio":"tipificado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tipifico"],"s2":["tipificas"],"vos":["tipificás"],"s3":["tipifica"],"p1":["tipificamos"],"p2":["tipificáis"],"p3":["tipifican"]},
+    "IndImp": {"s1":["tipificaba"],"s2":["tipificabas"],"vos":["tipificabas"],"s3":["tipificaba"],"p1":["tipificábamos"],"p2":["tipificabais"],"p3":["tipificaban"]},
+    "IndPret": {"s1":["tipifiqué"],"s2":["tipificaste"],"vos":["tipificaste"],"s3":["tipificó"],"p1":["tipificamos"],"p2":["tipificasteis"],"p3":["tipificaron"]},
+    "IndFut": {"s1":["tipificaré"],"s2":["tipificarás"],"vos":["tipificarás"],"s3":["tipificará"],"p1":["tipificaremos"],"p2":["tipificaréis"],"p3":["tipificarán"]},
+    "IndCond": {"s1":["tipificaría"],"s2":["tipificarías"],"vos":["tipificarías"],"s3":["tipificaría"],"p1":["tipificaríamos"],"p2":["tipificaríais"],"p3":["tipificarían"]},
+    "SubPres": {"s1":["tipifique"],"s2":["tipifiques"],"vos":["tipifiques","tipifiqués"],"s3":["tipifique"],"p1":["tipifiquemos"],"p2":["tipifiquéis"],"p3":["tipifiquen"]},
+    "SubImp": {"s1":["tipificara","tipificase"],"s2":["tipificaras","tipificases"],"vos":["tipificaras","tipificases"],"s3":["tipificara","tipificase"],"p1":["tipificáramos","tipificásemos"],"p2":["tipificarais","tipificaseis"],"p3":["tipificaran","tipificasen"]},
+    "SubFut": {"s1":["tipificare"],"s2":["tipificares"],"vos":["tipificares"],"s3":["tipificare"],"p1":["tipificáremos"],"p2":["tipificareis"],"p3":["tipificaren"]},
+    "CmdPos": {"s2":["tipifica"],"vos":["tipificá"],"s3":["tipifique"],"p1":["tipifiquemos"],"p2":["tipificad"],"p3":["tipifiquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmpẽnˈsaɾ]",
+    "silabacion": "com-pen-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín compensāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"compensar","gerundio":"compensando","participio":"compensado"},
+  "formas_personales": {
+    "IndPres": {"s1":["compenso"],"s2":["compensas"],"vos":["compensás"],"s3":["compensa"],"p1":["compensamos"],"p2":["compensáis"],"p3":["compensan"]},
+    "IndImp": {"s1":["compensaba"],"s2":["compensabas"],"vos":["compensabas"],"s3":["compensaba"],"p1":["compensábamos"],"p2":["compensabais"],"p3":["compensaban"]},
+    "IndPret": {"s1":["compensé"],"s2":["compensaste"],"vos":["compensaste"],"s3":["compensó"],"p1":["compensamos"],"p2":["compensasteis"],"p3":["compensaron"]},
+    "IndFut": {"s1":["compensaré"],"s2":["compensarás"],"vos":["compensarás"],"s3":["compensará"],"p1":["compensaremos"],"p2":["compensaréis"],"p3":["compensarán"]},
+    "IndCond": {"s1":["compensaría"],"s2":["compensarías"],"vos":["compensarías"],"s3":["compensaría"],"p1":["compensaríamos"],"p2":["compensaríais"],"p3":["compensarían"]},
+    "SubPres": {"s1":["compense"],"s2":["compenses"],"vos":["compenses","compensés"],"s3":["compense"],"p1":["compensemos"],"p2":["compenséis"],"p3":["compensen"]},
+    "SubImp": {"s1":["compensara","compensase"],"s2":["compensaras","compensases"],"vos":["compensaras","compensases"],"s3":["compensara","compensase"],"p1":["compensáramos","compensásemos"],"p2":["compensarais","compensaseis"],"p3":["compensaran","compensasen"]},
+    "SubFut": {"s1":["compensare"],"s2":["compensares"],"vos":["compensares"],"s3":["compensare"],"p1":["compensáremos"],"p2":["compensareis"],"p3":["compensaren"]},
+    "CmdPos": {"s2":["compensa"],"vos":["compensá"],"s3":["compense"],"p1":["compensemos"],"p2":["compensad"],"p3":["compensen"]}
+  }
+}

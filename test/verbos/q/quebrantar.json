@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[keβ̞ɾãn̪ˈt̪aɾ]",
+    "silabacion": "que-bran-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"quebrantar","gerundio":"quebrantando","participio":"quebrantado"},
+  "formas_personales": {
+    "IndPres": {"s1":["quebranto"],"s2":["quebrantas"],"vos":["quebrantás"],"s3":["quebranta"],"p1":["quebrantamos"],"p2":["quebrantáis"],"p3":["quebrantan"]},
+    "IndImp": {"s1":["quebrantaba"],"s2":["quebrantabas"],"vos":["quebrantabas"],"s3":["quebrantaba"],"p1":["quebrantábamos"],"p2":["quebrantabais"],"p3":["quebrantaban"]},
+    "IndPret": {"s1":["quebranté"],"s2":["quebrantaste"],"vos":["quebrantaste"],"s3":["quebrantó"],"p1":["quebrantamos"],"p2":["quebrantasteis"],"p3":["quebrantaron"]},
+    "IndFut": {"s1":["quebrantaré"],"s2":["quebrantarás"],"vos":["quebrantarás"],"s3":["quebrantará"],"p1":["quebrantaremos"],"p2":["quebrantaréis"],"p3":["quebrantarán"]},
+    "IndCond": {"s1":["quebrantaría"],"s2":["quebrantarías"],"vos":["quebrantarías"],"s3":["quebrantaría"],"p1":["quebrantaríamos"],"p2":["quebrantaríais"],"p3":["quebrantarían"]},
+    "SubPres": {"s1":["quebrante"],"s2":["quebrantes"],"vos":["quebrantes","quebrantés"],"s3":["quebrante"],"p1":["quebrantemos"],"p2":["quebrantéis"],"p3":["quebranten"]},
+    "SubImp": {"s1":["quebrantara","quebrantase"],"s2":["quebrantaras","quebrantases"],"vos":["quebrantaras","quebrantases"],"s3":["quebrantara","quebrantase"],"p1":["quebrantáramos","quebrantásemos"],"p2":["quebrantarais","quebrantaseis"],"p3":["quebrantaran","quebrantasen"]},
+    "SubFut": {"s1":["quebrantare"],"s2":["quebrantares"],"vos":["quebrantares"],"s3":["quebrantare"],"p1":["quebrantáremos"],"p2":["quebrantareis"],"p3":["quebrantaren"]},
+    "CmdPos": {"s2":["quebranta"],"vos":["quebrantá"],"s3":["quebrante"],"p1":["quebrantemos"],"p2":["quebrantad"],"p3":["quebranten"]}
+  }
+}

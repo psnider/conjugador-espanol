@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkãn̪ˈt̪aɾ]",
+    "silabacion": "en-can-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incantāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"encantar","gerundio":"encantando","participio":"encantado"},
+  "formas_personales": {
+    "IndPres": {"s1":["encanto"],"s2":["encantas"],"vos":["encantás"],"s3":["encanta"],"p1":["encantamos"],"p2":["encantáis"],"p3":["encantan"]},
+    "IndImp": {"s1":["encantaba"],"s2":["encantabas"],"vos":["encantabas"],"s3":["encantaba"],"p1":["encantábamos"],"p2":["encantabais"],"p3":["encantaban"]},
+    "IndPret": {"s1":["encanté"],"s2":["encantaste"],"vos":["encantaste"],"s3":["encantó"],"p1":["encantamos"],"p2":["encantasteis"],"p3":["encantaron"]},
+    "IndFut": {"s1":["encantaré"],"s2":["encantarás"],"vos":["encantarás"],"s3":["encantará"],"p1":["encantaremos"],"p2":["encantaréis"],"p3":["encantarán"]},
+    "IndCond": {"s1":["encantaría"],"s2":["encantarías"],"vos":["encantarías"],"s3":["encantaría"],"p1":["encantaríamos"],"p2":["encantaríais"],"p3":["encantarían"]},
+    "SubPres": {"s1":["encante"],"s2":["encantes"],"vos":["encantes","encantés"],"s3":["encante"],"p1":["encantemos"],"p2":["encantéis"],"p3":["encanten"]},
+    "SubImp": {"s1":["encantara","encantase"],"s2":["encantaras","encantases"],"vos":["encantaras","encantases"],"s3":["encantara","encantase"],"p1":["encantáramos","encantásemos"],"p2":["encantarais","encantaseis"],"p3":["encantaran","encantasen"]},
+    "SubFut": {"s1":["encantare"],"s2":["encantares"],"vos":["encantares"],"s3":["encantare"],"p1":["encantáremos"],"p2":["encantareis"],"p3":["encantaren"]},
+    "CmdPos": {"s2":["encanta"],"vos":["encantá"],"s3":["encante"],"p1":["encantemos"],"p2":["encantad"],"p3":["encanten"]}
+  }
+}

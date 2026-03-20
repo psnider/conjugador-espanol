@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koð̞iˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"codiciar","gerundio":"codiciando","participio":"codiciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["codicio"],"s2":["codicias"],"vos":["codiciás"],"s3":["codicia"],"p1":["codiciamos"],"p2":["codiciáis"],"p3":["codician"]},
+    "IndImp": {"s1":["codiciaba"],"s2":["codiciabas"],"vos":["codiciabas"],"s3":["codiciaba"],"p1":["codiciábamos"],"p2":["codiciabais"],"p3":["codiciaban"]},
+    "IndPret": {"s1":["codicié"],"s2":["codiciaste"],"vos":["codiciaste"],"s3":["codició"],"p1":["codiciamos"],"p2":["codiciasteis"],"p3":["codiciaron"]},
+    "IndFut": {"s1":["codiciaré"],"s2":["codiciarás"],"vos":["codiciarás"],"s3":["codiciará"],"p1":["codiciaremos"],"p2":["codiciaréis"],"p3":["codiciarán"]},
+    "IndCond": {"s1":["codiciaría"],"s2":["codiciarías"],"vos":["codiciarías"],"s3":["codiciaría"],"p1":["codiciaríamos"],"p2":["codiciaríais"],"p3":["codiciarían"]},
+    "SubPres": {"s1":["codicie"],"s2":["codicies"],"vos":["codicies","codiciés"],"s3":["codicie"],"p1":["codiciemos"],"p2":["codiciéis"],"p3":["codicien"]},
+    "SubImp": {"s1":["codiciara","codiciase"],"s2":["codiciaras","codiciases"],"vos":["codiciaras","codiciases"],"s3":["codiciara","codiciase"],"p1":["codiciáramos","codiciásemos"],"p2":["codiciarais","codiciaseis"],"p3":["codiciaran","codiciasen"]},
+    "SubFut": {"s1":["codiciare"],"s2":["codiciares"],"vos":["codiciares"],"s3":["codiciare"],"p1":["codiciáremos"],"p2":["codiciareis"],"p3":["codiciaren"]},
+    "CmdPos": {"s2":["codicia"],"vos":["codiciá"],"s3":["codicie"],"p1":["codiciemos"],"p2":["codiciad"],"p3":["codicien"]}
+  }
+}

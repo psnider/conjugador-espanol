@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alusiˈnaɾ]",
+    "silabacion": "a-lu-ci-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín allucināri ('soñar').[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alucinar","gerundio":"alucinando","participio":"alucinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["alucino"],"s2":["alucinas"],"vos":["alucinás"],"s3":["alucina"],"p1":["alucinamos"],"p2":["alucináis"],"p3":["alucinan"]},
+    "IndImp": {"s1":["alucinaba"],"s2":["alucinabas"],"vos":["alucinabas"],"s3":["alucinaba"],"p1":["alucinábamos"],"p2":["alucinabais"],"p3":["alucinaban"]},
+    "IndPret": {"s1":["aluciné"],"s2":["alucinaste"],"vos":["alucinaste"],"s3":["alucinó"],"p1":["alucinamos"],"p2":["alucinasteis"],"p3":["alucinaron"]},
+    "IndFut": {"s1":["alucinaré"],"s2":["alucinarás"],"vos":["alucinarás"],"s3":["alucinará"],"p1":["alucinaremos"],"p2":["alucinaréis"],"p3":["alucinarán"]},
+    "IndCond": {"s1":["alucinaría"],"s2":["alucinarías"],"vos":["alucinarías"],"s3":["alucinaría"],"p1":["alucinaríamos"],"p2":["alucinaríais"],"p3":["alucinarían"]},
+    "SubPres": {"s1":["alucine"],"s2":["alucines"],"vos":["alucines","alucinés"],"s3":["alucine"],"p1":["alucinemos"],"p2":["alucinéis"],"p3":["alucinen"]},
+    "SubImp": {"s1":["alucinara","alucinase"],"s2":["alucinaras","alucinases"],"vos":["alucinaras","alucinases"],"s3":["alucinara","alucinase"],"p1":["alucináramos","alucinásemos"],"p2":["alucinarais","alucinaseis"],"p3":["alucinaran","alucinasen"]},
+    "SubFut": {"s1":["alucinare"],"s2":["alucinares"],"vos":["alucinares"],"s3":["alucinare"],"p1":["alucináremos"],"p2":["alucinareis"],"p3":["alucinaren"]},
+    "CmdPos": {"s2":["alucina"],"vos":["aluciná"],"s3":["alucine"],"p1":["alucinemos"],"p2":["alucinad"],"p3":["alucinen"]}
+  }
+}

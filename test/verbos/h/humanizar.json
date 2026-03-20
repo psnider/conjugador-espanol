@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[umaniˈsaɾ]",
+    "silabacion": "hu-ma-ni-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"humanizar","gerundio":"humanizando","participio":"humanizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["humanizo"],"s2":["humanizas"],"vos":["humanizás"],"s3":["humaniza"],"p1":["humanizamos"],"p2":["humanizáis"],"p3":["humanizan"]},
+    "IndImp": {"s1":["humanizaba"],"s2":["humanizabas"],"vos":["humanizabas"],"s3":["humanizaba"],"p1":["humanizábamos"],"p2":["humanizabais"],"p3":["humanizaban"]},
+    "IndPret": {"s1":["humanicé"],"s2":["humanizaste"],"vos":["humanizaste"],"s3":["humanizó"],"p1":["humanizamos"],"p2":["humanizasteis"],"p3":["humanizaron"]},
+    "IndFut": {"s1":["humanizaré"],"s2":["humanizarás"],"vos":["humanizarás"],"s3":["humanizará"],"p1":["humanizaremos"],"p2":["humanizaréis"],"p3":["humanizarán"]},
+    "IndCond": {"s1":["humanizaría"],"s2":["humanizarías"],"vos":["humanizarías"],"s3":["humanizaría"],"p1":["humanizaríamos"],"p2":["humanizaríais"],"p3":["humanizarían"]},
+    "SubPres": {"s1":["humanice"],"s2":["humanices"],"vos":["humanices","humanicés"],"s3":["humanice"],"p1":["humanicemos"],"p2":["humanicéis"],"p3":["humanicen"]},
+    "SubImp": {"s1":["humanizara","humanizase"],"s2":["humanizaras","humanizases"],"vos":["humanizaras","humanizases"],"s3":["humanizara","humanizase"],"p1":["humanizáramos","humanizásemos"],"p2":["humanizarais","humanizaseis"],"p3":["humanizaran","humanizasen"]},
+    "SubFut": {"s1":["humanizare"],"s2":["humanizares"],"vos":["humanizares"],"s3":["humanizare"],"p1":["humanizáremos"],"p2":["humanizareis"],"p3":["humanizaren"]},
+    "CmdPos": {"s2":["humaniza"],"vos":["humanizá"],"s3":["humanice"],"p1":["humanicemos"],"p2":["humanizad"],"p3":["humanicen"]}
+  }
+}

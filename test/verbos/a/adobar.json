@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞oˈβ̞aɾ]",
+    "silabacion": "a-do-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés antiguo adober (\"nombrar caballero, equipar\"), y este del fráncico *dubban (\"golpear, empujar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adobar","gerundio":"adobando","participio":"adobado"},
+  "formas_personales": {
+    "IndPres": {"s1":["adobo"],"s2":["adobas"],"vos":["adobás"],"s3":["adoba"],"p1":["adobamos"],"p2":["adobáis"],"p3":["adoban"]},
+    "IndImp": {"s1":["adobaba"],"s2":["adobabas"],"vos":["adobabas"],"s3":["adobaba"],"p1":["adobábamos"],"p2":["adobabais"],"p3":["adobaban"]},
+    "IndPret": {"s1":["adobé"],"s2":["adobaste"],"vos":["adobaste"],"s3":["adobó"],"p1":["adobamos"],"p2":["adobasteis"],"p3":["adobaron"]},
+    "IndFut": {"s1":["adobaré"],"s2":["adobarás"],"vos":["adobarás"],"s3":["adobará"],"p1":["adobaremos"],"p2":["adobaréis"],"p3":["adobarán"]},
+    "IndCond": {"s1":["adobaría"],"s2":["adobarías"],"vos":["adobarías"],"s3":["adobaría"],"p1":["adobaríamos"],"p2":["adobaríais"],"p3":["adobarían"]},
+    "SubPres": {"s1":["adobe"],"s2":["adobes"],"vos":["adobes","adobés"],"s3":["adobe"],"p1":["adobemos"],"p2":["adobéis"],"p3":["adoben"]},
+    "SubImp": {"s1":["adobara","adobase"],"s2":["adobaras","adobases"],"vos":["adobaras","adobases"],"s3":["adobara","adobase"],"p1":["adobáramos","adobásemos"],"p2":["adobarais","adobaseis"],"p3":["adobaran","adobasen"]},
+    "SubFut": {"s1":["adobare"],"s2":["adobares"],"vos":["adobares"],"s3":["adobare"],"p1":["adobáremos"],"p2":["adobareis"],"p3":["adobaren"]},
+    "CmdPos": {"s2":["adoba"],"vos":["adobá"],"s3":["adobe"],"p1":["adobemos"],"p2":["adobad"],"p3":["adoben"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sust̪ẽn̪ˈt̪aɾ]",
+    "silabacion": "sus-ten-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sustentar","gerundio":"sustentando","participio":"sustentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sustento"],"s2":["sustentas"],"vos":["sustentás"],"s3":["sustenta"],"p1":["sustentamos"],"p2":["sustentáis"],"p3":["sustentan"]},
+    "IndImp": {"s1":["sustentaba"],"s2":["sustentabas"],"vos":["sustentabas"],"s3":["sustentaba"],"p1":["sustentábamos"],"p2":["sustentabais"],"p3":["sustentaban"]},
+    "IndPret": {"s1":["sustenté"],"s2":["sustentaste"],"vos":["sustentaste"],"s3":["sustentó"],"p1":["sustentamos"],"p2":["sustentasteis"],"p3":["sustentaron"]},
+    "IndFut": {"s1":["sustentaré"],"s2":["sustentarás"],"vos":["sustentarás"],"s3":["sustentará"],"p1":["sustentaremos"],"p2":["sustentaréis"],"p3":["sustentarán"]},
+    "IndCond": {"s1":["sustentaría"],"s2":["sustentarías"],"vos":["sustentarías"],"s3":["sustentaría"],"p1":["sustentaríamos"],"p2":["sustentaríais"],"p3":["sustentarían"]},
+    "SubPres": {"s1":["sustente"],"s2":["sustentes"],"vos":["sustentes","sustentés"],"s3":["sustente"],"p1":["sustentemos"],"p2":["sustentéis"],"p3":["sustenten"]},
+    "SubImp": {"s1":["sustentara","sustentase"],"s2":["sustentaras","sustentases"],"vos":["sustentaras","sustentases"],"s3":["sustentara","sustentase"],"p1":["sustentáramos","sustentásemos"],"p2":["sustentarais","sustentaseis"],"p3":["sustentaran","sustentasen"]},
+    "SubFut": {"s1":["sustentare"],"s2":["sustentares"],"vos":["sustentares"],"s3":["sustentare"],"p1":["sustentáremos"],"p2":["sustentareis"],"p3":["sustentaren"]},
+    "CmdPos": {"s2":["sustenta"],"vos":["sustentá"],"s3":["sustente"],"p1":["sustentemos"],"p2":["sustentad"],"p3":["sustenten"]}
+  }
+}

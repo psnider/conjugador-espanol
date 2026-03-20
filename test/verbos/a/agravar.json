@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾaˈβ̞aɾ]",
+    "silabacion": "a-gra-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aggravāre, compuesto del latín gravo.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agravar","gerundio":"agravando","participio":"agravado"},
+  "formas_personales": {
+    "IndPres": {"s1":["agravo"],"s2":["agravas"],"vos":["agravás"],"s3":["agrava"],"p1":["agravamos"],"p2":["agraváis"],"p3":["agravan"]},
+    "IndImp": {"s1":["agravaba"],"s2":["agravabas"],"vos":["agravabas"],"s3":["agravaba"],"p1":["agravábamos"],"p2":["agravabais"],"p3":["agravaban"]},
+    "IndPret": {"s1":["agravé"],"s2":["agravaste"],"vos":["agravaste"],"s3":["agravó"],"p1":["agravamos"],"p2":["agravasteis"],"p3":["agravaron"]},
+    "IndFut": {"s1":["agravaré"],"s2":["agravarás"],"vos":["agravarás"],"s3":["agravará"],"p1":["agravaremos"],"p2":["agravaréis"],"p3":["agravarán"]},
+    "IndCond": {"s1":["agravaría"],"s2":["agravarías"],"vos":["agravarías"],"s3":["agravaría"],"p1":["agravaríamos"],"p2":["agravaríais"],"p3":["agravarían"]},
+    "SubPres": {"s1":["agrave"],"s2":["agraves"],"vos":["agraves","agravés"],"s3":["agrave"],"p1":["agravemos"],"p2":["agravéis"],"p3":["agraven"]},
+    "SubImp": {"s1":["agravara","agravase"],"s2":["agravaras","agravases"],"vos":["agravaras","agravases"],"s3":["agravara","agravase"],"p1":["agraváramos","agravásemos"],"p2":["agravarais","agravaseis"],"p3":["agravaran","agravasen"]},
+    "SubFut": {"s1":["agravare"],"s2":["agravares"],"vos":["agravares"],"s3":["agravare"],"p1":["agraváremos"],"p2":["agravareis"],"p3":["agravaren"]},
+    "CmdPos": {"s2":["agrava"],"vos":["agravá"],"s3":["agrave"],"p1":["agravemos"],"p2":["agravad"],"p3":["agraven"]}
+  }
+}

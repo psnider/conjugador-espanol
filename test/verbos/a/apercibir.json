@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apeɾsiˈβ̞iɾ]",
+    "silabacion": "a-per-ci-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"apercibir","gerundio":"apercibiendo","participio":"apercibido"},
+  "formas_personales": {
+    "IndPres": {"s1":["apercibo"],"s2":["apercibes"],"vos":["apercibís"],"s3":["apercibe"],"p1":["apercibimos"],"p2":["apercibís"],"p3":["aperciben"]},
+    "IndImp": {"s1":["apercibía"],"s2":["apercibías"],"vos":["apercibías"],"s3":["apercibía"],"p1":["apercibíamos"],"p2":["apercibíais"],"p3":["apercibían"]},
+    "IndPret": {"s1":["apercibí"],"s2":["apercibiste"],"vos":["apercibiste"],"s3":["apercibió"],"p1":["apercibimos"],"p2":["apercibisteis"],"p3":["apercibieron"]},
+    "IndFut": {"s1":["apercibiré"],"s2":["apercibirás"],"vos":["apercibirás"],"s3":["apercibirá"],"p1":["apercibiremos"],"p2":["apercibiréis"],"p3":["apercibirán"]},
+    "IndCond": {"s1":["apercibiría"],"s2":["apercibirías"],"vos":["apercibirías"],"s3":["apercibiría"],"p1":["apercibiríamos"],"p2":["apercibiríais"],"p3":["apercibirían"]},
+    "SubPres": {"s1":["aperciba"],"s2":["apercibas"],"vos":["apercibas","apercibás"],"s3":["aperciba"],"p1":["apercibamos"],"p2":["apercibáis"],"p3":["aperciban"]},
+    "SubImp": {"s1":["apercibiera","apercibiese"],"s2":["apercibieras","apercibieses"],"vos":["apercibieras","apercibieses"],"s3":["apercibiera","apercibiese"],"p1":["apercibiéramos","apercibiésemos"],"p2":["apercibierais","apercibieseis"],"p3":["apercibieran","apercibiesen"]},
+    "SubFut": {"s1":["apercibiere"],"s2":["apercibieres"],"vos":["apercibieres"],"s3":["apercibiere"],"p1":["apercibiéremos"],"p2":["apercibiereis"],"p3":["apercibieren"]},
+    "CmdPos": {"s2":["apercibe"],"vos":["apercibí"],"s3":["aperciba"],"p1":["apercibamos"],"p2":["apercibid"],"p3":["aperciban"]}
+  }
+}

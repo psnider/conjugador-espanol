@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnlokeˈseɾ]",
+    "silabacion": "en-lo-que-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, loco y el sufijo -ecer.[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enloquecer","gerundio":"enloqueciendo","participio":"enloquecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["enloquezco"],"s2":["enloqueces"],"vos":["enloquecés"],"s3":["enloquece"],"p1":["enloquecemos"],"p2":["enloquecéis"],"p3":["enloquecen"]},
+    "IndImp": {"s1":["enloquecía"],"s2":["enloquecías"],"vos":["enloquecías"],"s3":["enloquecía"],"p1":["enloquecíamos"],"p2":["enloquecíais"],"p3":["enloquecían"]},
+    "IndPret": {"s1":["enloquecí"],"s2":["enloqueciste"],"vos":["enloqueciste"],"s3":["enloqueció"],"p1":["enloquecimos"],"p2":["enloquecisteis"],"p3":["enloquecieron"]},
+    "IndFut": {"s1":["enloqueceré"],"s2":["enloquecerás"],"vos":["enloquecerás"],"s3":["enloquecerá"],"p1":["enloqueceremos"],"p2":["enloqueceréis"],"p3":["enloquecerán"]},
+    "IndCond": {"s1":["enloquecería"],"s2":["enloquecerías"],"vos":["enloquecerías"],"s3":["enloquecería"],"p1":["enloqueceríamos"],"p2":["enloqueceríais"],"p3":["enloquecerían"]},
+    "SubPres": {"s1":["enloquezca"],"s2":["enloquezcas"],"vos":["enloquezcas","enloquezcás"],"s3":["enloquezca"],"p1":["enloquezcamos"],"p2":["enloquezcáis"],"p3":["enloquezcan"]},
+    "SubImp": {"s1":["enloqueciera","enloqueciese"],"s2":["enloquecieras","enloquecieses"],"vos":["enloquecieras","enloquecieses"],"s3":["enloqueciera","enloqueciese"],"p1":["enloqueciéramos","enloqueciésemos"],"p2":["enloquecierais","enloquecieseis"],"p3":["enloquecieran","enloqueciesen"]},
+    "SubFut": {"s1":["enloqueciere"],"s2":["enloquecieres"],"vos":["enloquecieres"],"s3":["enloqueciere"],"p1":["enloqueciéremos"],"p2":["enloqueciereis"],"p3":["enloquecieren"]},
+    "CmdPos": {"s2":["enloquece"],"vos":["enloquecé"],"s3":["enloquezca"],"p1":["enloquezcamos"],"p2":["enloqueced"],"p3":["enloquezcan"]}
+  }
+}

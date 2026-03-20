@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eɾeˈsaɾ]",
+    "silabacion": "in-te-re-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De interés y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"interesar","gerundio":"interesando","participio":"interesado"},
+  "formas_personales": {
+    "IndPres": {"s1":["intereso"],"s2":["interesas"],"vos":["interesás"],"s3":["interesa"],"p1":["interesamos"],"p2":["interesáis"],"p3":["interesan"]},
+    "IndImp": {"s1":["interesaba"],"s2":["interesabas"],"vos":["interesabas"],"s3":["interesaba"],"p1":["interesábamos"],"p2":["interesabais"],"p3":["interesaban"]},
+    "IndPret": {"s1":["interesé"],"s2":["interesaste"],"vos":["interesaste"],"s3":["interesó"],"p1":["interesamos"],"p2":["interesasteis"],"p3":["interesaron"]},
+    "IndFut": {"s1":["interesaré"],"s2":["interesarás"],"vos":["interesarás"],"s3":["interesará"],"p1":["interesaremos"],"p2":["interesaréis"],"p3":["interesarán"]},
+    "IndCond": {"s1":["interesaría"],"s2":["interesarías"],"vos":["interesarías"],"s3":["interesaría"],"p1":["interesaríamos"],"p2":["interesaríais"],"p3":["interesarían"]},
+    "SubPres": {"s1":["interese"],"s2":["intereses"],"vos":["intereses","interesés"],"s3":["interese"],"p1":["interesemos"],"p2":["intereséis"],"p3":["interesen"]},
+    "SubImp": {"s1":["interesara","interesase"],"s2":["interesaras","interesases"],"vos":["interesaras","interesases"],"s3":["interesara","interesase"],"p1":["interesáramos","interesásemos"],"p2":["interesarais","interesaseis"],"p3":["interesaran","interesasen"]},
+    "SubFut": {"s1":["interesare"],"s2":["interesares"],"vos":["interesares"],"s3":["interesare"],"p1":["interesáremos"],"p2":["interesareis"],"p3":["interesaren"]},
+    "CmdPos": {"s2":["interesa"],"vos":["interesá"],"s3":["interese"],"p1":["interesemos"],"p2":["interesad"],"p3":["interesen"]}
+  }
+}

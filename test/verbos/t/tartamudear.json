@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪aɾt̪amuð̞eˈaɾ]",
+    "silabacion": "tar-ta-mu-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tartamudear","gerundio":"tartamudeando","participio":"tartamudeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tartamudeo"],"s2":["tartamudeas"],"vos":["tartamudeás"],"s3":["tartamudea"],"p1":["tartamudeamos"],"p2":["tartamudeáis"],"p3":["tartamudean"]},
+    "IndImp": {"s1":["tartamudeaba"],"s2":["tartamudeabas"],"vos":["tartamudeabas"],"s3":["tartamudeaba"],"p1":["tartamudeábamos"],"p2":["tartamudeabais"],"p3":["tartamudeaban"]},
+    "IndPret": {"s1":["tartamudeé"],"s2":["tartamudeaste"],"vos":["tartamudeaste"],"s3":["tartamudeó"],"p1":["tartamudeamos"],"p2":["tartamudeasteis"],"p3":["tartamudearon"]},
+    "IndFut": {"s1":["tartamudearé"],"s2":["tartamudearás"],"vos":["tartamudearás"],"s3":["tartamudeará"],"p1":["tartamudearemos"],"p2":["tartamudearéis"],"p3":["tartamudearán"]},
+    "IndCond": {"s1":["tartamudearía"],"s2":["tartamudearías"],"vos":["tartamudearías"],"s3":["tartamudearía"],"p1":["tartamudearíamos"],"p2":["tartamudearíais"],"p3":["tartamudearían"]},
+    "SubPres": {"s1":["tartamudee"],"s2":["tartamudees"],"vos":["tartamudees","tartamudeés"],"s3":["tartamudee"],"p1":["tartamudeemos"],"p2":["tartamudeéis"],"p3":["tartamudeen"]},
+    "SubImp": {"s1":["tartamudeara","tartamudease"],"s2":["tartamudearas","tartamudeases"],"vos":["tartamudearas","tartamudeases"],"s3":["tartamudeara","tartamudease"],"p1":["tartamudeáramos","tartamudeásemos"],"p2":["tartamudearais","tartamudeaseis"],"p3":["tartamudearan","tartamudeasen"]},
+    "SubFut": {"s1":["tartamudeare"],"s2":["tartamudeares"],"vos":["tartamudeares"],"s3":["tartamudeare"],"p1":["tartamudeáremos"],"p2":["tartamudeareis"],"p3":["tartamudearen"]},
+    "CmdPos": {"s2":["tartamudea"],"vos":["tartamudeá"],"s3":["tartamudee"],"p1":["tartamudeemos"],"p2":["tartamudead"],"p3":["tartamudeen"]}
+  }
+}

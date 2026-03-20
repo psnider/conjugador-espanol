@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋxeˈnjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De ingenio y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"ingeniar","gerundio":"ingeniando","participio":"ingeniado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ingenio"],"s2":["ingenias"],"vos":["ingeniás"],"s3":["ingenia"],"p1":["ingeniamos"],"p2":["ingeniáis"],"p3":["ingenian"]},
+    "IndImp": {"s1":["ingeniaba"],"s2":["ingeniabas"],"vos":["ingeniabas"],"s3":["ingeniaba"],"p1":["ingeniábamos"],"p2":["ingeniabais"],"p3":["ingeniaban"]},
+    "IndPret": {"s1":["ingenié"],"s2":["ingeniaste"],"vos":["ingeniaste"],"s3":["ingenió"],"p1":["ingeniamos"],"p2":["ingeniasteis"],"p3":["ingeniaron"]},
+    "IndFut": {"s1":["ingeniaré"],"s2":["ingeniarás"],"vos":["ingeniarás"],"s3":["ingeniará"],"p1":["ingeniaremos"],"p2":["ingeniaréis"],"p3":["ingeniarán"]},
+    "IndCond": {"s1":["ingeniaría"],"s2":["ingeniarías"],"vos":["ingeniarías"],"s3":["ingeniaría"],"p1":["ingeniaríamos"],"p2":["ingeniaríais"],"p3":["ingeniarían"]},
+    "SubPres": {"s1":["ingenie"],"s2":["ingenies"],"vos":["ingenies","ingeniés"],"s3":["ingenie"],"p1":["ingeniemos"],"p2":["ingeniéis"],"p3":["ingenien"]},
+    "SubImp": {"s1":["ingeniara","ingeniase"],"s2":["ingeniaras","ingeniases"],"vos":["ingeniaras","ingeniases"],"s3":["ingeniara","ingeniase"],"p1":["ingeniáramos","ingeniásemos"],"p2":["ingeniarais","ingeniaseis"],"p3":["ingeniaran","ingeniasen"]},
+    "SubFut": {"s1":["ingeniare"],"s2":["ingeniares"],"vos":["ingeniares"],"s3":["ingeniare"],"p1":["ingeniáremos"],"p2":["ingeniareis"],"p3":["ingeniaren"]},
+    "CmdPos": {"s2":["ingenia"],"vos":["ingeniá"],"s3":["ingenie"],"p1":["ingeniemos"],"p2":["ingeniad"],"p3":["ingenien"]}
+  }
+}

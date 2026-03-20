@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esest̪iˈmaɾ]",
+    "silabacion": "des-es-ti-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y estimar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desestimar","gerundio":"desestimando","participio":"desestimado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desestimo"],"s2":["desestimas"],"vos":["desestimás"],"s3":["desestima"],"p1":["desestimamos"],"p2":["desestimáis"],"p3":["desestiman"]},
+    "IndImp": {"s1":["desestimaba"],"s2":["desestimabas"],"vos":["desestimabas"],"s3":["desestimaba"],"p1":["desestimábamos"],"p2":["desestimabais"],"p3":["desestimaban"]},
+    "IndPret": {"s1":["desestimé"],"s2":["desestimaste"],"vos":["desestimaste"],"s3":["desestimó"],"p1":["desestimamos"],"p2":["desestimasteis"],"p3":["desestimaron"]},
+    "IndFut": {"s1":["desestimaré"],"s2":["desestimarás"],"vos":["desestimarás"],"s3":["desestimará"],"p1":["desestimaremos"],"p2":["desestimaréis"],"p3":["desestimarán"]},
+    "IndCond": {"s1":["desestimaría"],"s2":["desestimarías"],"vos":["desestimarías"],"s3":["desestimaría"],"p1":["desestimaríamos"],"p2":["desestimaríais"],"p3":["desestimarían"]},
+    "SubPres": {"s1":["desestime"],"s2":["desestimes"],"vos":["desestimes","desestimés"],"s3":["desestime"],"p1":["desestimemos"],"p2":["desestiméis"],"p3":["desestimen"]},
+    "SubImp": {"s1":["desestimara","desestimase"],"s2":["desestimaras","desestimases"],"vos":["desestimaras","desestimases"],"s3":["desestimara","desestimase"],"p1":["desestimáramos","desestimásemos"],"p2":["desestimarais","desestimaseis"],"p3":["desestimaran","desestimasen"]},
+    "SubFut": {"s1":["desestimare"],"s2":["desestimares"],"vos":["desestimares"],"s3":["desestimare"],"p1":["desestimáremos"],"p2":["desestimareis"],"p3":["desestimaren"]},
+    "CmdPos": {"s2":["desestima"],"vos":["desestimá"],"s3":["desestime"],"p1":["desestimemos"],"p2":["desestimad"],"p3":["desestimen"]}
+  }
+}

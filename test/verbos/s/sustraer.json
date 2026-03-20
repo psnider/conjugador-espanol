@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sust̪ɾaˈeɾ]",
+    "silabacion": "sus-tra-er",
+    "acentuacion": "aguda",
+    "etimologia": "Acortamiento ((por síncopa)) de substraer,[1] y este del latín subtrahō, subtrahere&nbsp;('sacar'), compuesto de sub&nbsp;('debajo') y trahō, trahere (\"halar, arrastrar\").",
+    "modelos": ["traer"]
+  },
+  "formas_no_personales": {"infinitivo":"sustraer","gerundio":"sustrayendo","participio":"sustraído"},
+  "formas_personales": {
+    "IndPres": {"s1":["sustraigo"],"s2":["sustraes"],"vos":["sustraés"],"s3":["sustrae"],"p1":["sustraemos"],"p2":["sustraéis"],"p3":["sustraen"]},
+    "IndImp": {"s1":["sustraía"],"s2":["sustraías"],"vos":["sustraías"],"s3":["sustraía"],"p1":["sustraíamos"],"p2":["sustraíais"],"p3":["sustraían"]},
+    "IndPret": {"s1":["sustraje"],"s2":["sustrajiste"],"vos":["sustrajiste"],"s3":["sustrajo"],"p1":["sustrajimos"],"p2":["sustrajisteis"],"p3":["sustrajeron"]},
+    "IndFut": {"s1":["sustraeré"],"s2":["sustraerás"],"vos":["sustraerás"],"s3":["sustraerá"],"p1":["sustraeremos"],"p2":["sustraeréis"],"p3":["sustraerán"]},
+    "IndCond": {"s1":["sustraería"],"s2":["sustraerías"],"vos":["sustraerías"],"s3":["sustraería"],"p1":["sustraeríamos"],"p2":["sustraeríais"],"p3":["sustraerían"]},
+    "SubPres": {"s1":["sustraiga"],"s2":["sustraigas"],"vos":["sustraigas","sustraigás"],"s3":["sustraiga"],"p1":["sustraigamos"],"p2":["sustraigáis"],"p3":["sustraigan"]},
+    "SubImp": {"s1":["sustrajera","sustrajese"],"s2":["sustrajeras","sustrajeses"],"vos":["sustrajeras","sustrajeses"],"s3":["sustrajera","sustrajese"],"p1":["sustrajéramos","sustrajésemos"],"p2":["sustrajerais","sustrajeseis"],"p3":["sustrajeran","sustrajesen"]},
+    "SubFut": {"s1":["sustrajere"],"s2":["sustrajeres"],"vos":["sustrajeres"],"s3":["sustrajere"],"p1":["sustrajéremos"],"p2":["sustrajereis"],"p3":["sustrajeren"]},
+    "CmdPos": {"s2":["sustrae"],"vos":["sustraé"],"s3":["sustraiga"],"p1":["sustraigamos"],"p2":["sustraed"],"p3":["sustraigan"]}
+  }
+}

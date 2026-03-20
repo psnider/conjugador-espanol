@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apet̪eˈseɾ]",
+    "silabacion": "a-pe-te-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín appetere, y este de ad- y petere, \"pedir\", en última instancia del protoindoeuropeo *pet-, \"apurar\". Compárese apetito.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"apetecer","gerundio":"apeteciendo","participio":"apetecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["apetezco"],"s2":["apeteces"],"vos":["apetecés"],"s3":["apetece"],"p1":["apetecemos"],"p2":["apetecéis"],"p3":["apetecen"]},
+    "IndImp": {"s1":["apetecía"],"s2":["apetecías"],"vos":["apetecías"],"s3":["apetecía"],"p1":["apetecíamos"],"p2":["apetecíais"],"p3":["apetecían"]},
+    "IndPret": {"s1":["apetecí"],"s2":["apeteciste"],"vos":["apeteciste"],"s3":["apeteció"],"p1":["apetecimos"],"p2":["apetecisteis"],"p3":["apetecieron"]},
+    "IndFut": {"s1":["apeteceré"],"s2":["apetecerás"],"vos":["apetecerás"],"s3":["apetecerá"],"p1":["apeteceremos"],"p2":["apeteceréis"],"p3":["apetecerán"]},
+    "IndCond": {"s1":["apetecería"],"s2":["apetecerías"],"vos":["apetecerías"],"s3":["apetecería"],"p1":["apeteceríamos"],"p2":["apeteceríais"],"p3":["apetecerían"]},
+    "SubPres": {"s1":["apetezca"],"s2":["apetezcas"],"vos":["apetezcas","apetezcás"],"s3":["apetezca"],"p1":["apetezcamos"],"p2":["apetezcáis"],"p3":["apetezcan"]},
+    "SubImp": {"s1":["apeteciera","apeteciese"],"s2":["apetecieras","apetecieses"],"vos":["apetecieras","apetecieses"],"s3":["apeteciera","apeteciese"],"p1":["apeteciéramos","apeteciésemos"],"p2":["apetecierais","apetecieseis"],"p3":["apetecieran","apeteciesen"]},
+    "SubFut": {"s1":["apeteciere"],"s2":["apetecieres"],"vos":["apetecieres"],"s3":["apeteciere"],"p1":["apeteciéremos"],"p2":["apeteciereis"],"p3":["apetecieren"]},
+    "CmdPos": {"s2":["apetece"],"vos":["apetecé"],"s3":["apetezca"],"p1":["apetezcamos"],"p2":["apeteced"],"p3":["apetezcan"]}
+  }
+}

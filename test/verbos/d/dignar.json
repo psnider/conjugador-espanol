@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iɣ̞ˈnaɾ]",
+    "silabacion": "dig-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dignare, con el pronombre reflexivo átono.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"dignar","gerundio":"dignando","participio":"dignado"},
+  "formas_personales": {
+    "IndPres": {"s1":["digno"],"s2":["dignas"],"vos":["dignás"],"s3":["digna"],"p1":["dignamos"],"p2":["dignáis"],"p3":["dignan"]},
+    "IndImp": {"s1":["dignaba"],"s2":["dignabas"],"vos":["dignabas"],"s3":["dignaba"],"p1":["dignábamos"],"p2":["dignabais"],"p3":["dignaban"]},
+    "IndPret": {"s1":["digné"],"s2":["dignaste"],"vos":["dignaste"],"s3":["dignó"],"p1":["dignamos"],"p2":["dignasteis"],"p3":["dignaron"]},
+    "IndFut": {"s1":["dignaré"],"s2":["dignarás"],"vos":["dignarás"],"s3":["dignará"],"p1":["dignaremos"],"p2":["dignaréis"],"p3":["dignarán"]},
+    "IndCond": {"s1":["dignaría"],"s2":["dignarías"],"vos":["dignarías"],"s3":["dignaría"],"p1":["dignaríamos"],"p2":["dignaríais"],"p3":["dignarían"]},
+    "SubPres": {"s1":["digne"],"s2":["dignes"],"vos":["dignes","dignés"],"s3":["digne"],"p1":["dignemos"],"p2":["dignéis"],"p3":["dignen"]},
+    "SubImp": {"s1":["dignara","dignase"],"s2":["dignaras","dignases"],"vos":["dignaras","dignases"],"s3":["dignara","dignase"],"p1":["dignáramos","dignásemos"],"p2":["dignarais","dignaseis"],"p3":["dignaran","dignasen"]},
+    "SubFut": {"s1":["dignare"],"s2":["dignares"],"vos":["dignares"],"s3":["dignare"],"p1":["dignáremos"],"p2":["dignareis"],"p3":["dignaren"]},
+    "CmdPos": {"s2":["dígnate"],"vos":["dignate"],"s3":["dígnese"],"p1":["dignémonos"],"p2":["dignaos"],"p3":["dígnense"]}
+  }
+}

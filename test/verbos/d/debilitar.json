@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eβ̞iliˈt̪aɾ]",
+    "silabacion": "de-bi-li-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín debilitāre, derivado de dēbilis&nbsp;('débil'), que combina el prefijo de-&nbsp;('des-') y habilis (\"hábil, capaz\"), de la raíz indoeuropea *bel- (\"fuerza, capacidad\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"debilitar","gerundio":"debilitando","participio":"debilitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["debilito"],"s2":["debilitas"],"vos":["debilitás"],"s3":["debilita"],"p1":["debilitamos"],"p2":["debilitáis"],"p3":["debilitan"]},
+    "IndImp": {"s1":["debilitaba"],"s2":["debilitabas"],"vos":["debilitabas"],"s3":["debilitaba"],"p1":["debilitábamos"],"p2":["debilitabais"],"p3":["debilitaban"]},
+    "IndPret": {"s1":["debilité"],"s2":["debilitaste"],"vos":["debilitaste"],"s3":["debilitó"],"p1":["debilitamos"],"p2":["debilitasteis"],"p3":["debilitaron"]},
+    "IndFut": {"s1":["debilitaré"],"s2":["debilitarás"],"vos":["debilitarás"],"s3":["debilitará"],"p1":["debilitaremos"],"p2":["debilitaréis"],"p3":["debilitarán"]},
+    "IndCond": {"s1":["debilitaría"],"s2":["debilitarías"],"vos":["debilitarías"],"s3":["debilitaría"],"p1":["debilitaríamos"],"p2":["debilitaríais"],"p3":["debilitarían"]},
+    "SubPres": {"s1":["debilite"],"s2":["debilites"],"vos":["debilites","debilités"],"s3":["debilite"],"p1":["debilitemos"],"p2":["debilitéis"],"p3":["debiliten"]},
+    "SubImp": {"s1":["debilitara","debilitase"],"s2":["debilitaras","debilitases"],"vos":["debilitaras","debilitases"],"s3":["debilitara","debilitase"],"p1":["debilitáramos","debilitásemos"],"p2":["debilitarais","debilitaseis"],"p3":["debilitaran","debilitasen"]},
+    "SubFut": {"s1":["debilitare"],"s2":["debilitares"],"vos":["debilitares"],"s3":["debilitare"],"p1":["debilitáremos"],"p2":["debilitareis"],"p3":["debilitaren"]},
+    "CmdPos": {"s2":["debilita"],"vos":["debilitá"],"s3":["debilite"],"p1":["debilitemos"],"p2":["debilitad"],"p3":["debiliten"]}
+  }
+}

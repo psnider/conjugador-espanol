@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[laɾˈɣ̞aɾ]",
+    "silabacion": "lar-gar",
+    "acentuacion": "aguda",
+    "etimologia": "De largo y el sufijo -ar.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"largar","gerundio":"largando","participio":"largado"},
+  "formas_personales": {
+    "IndPres": {"s1":["largo"],"s2":["largas"],"vos":["largás"],"s3":["larga"],"p1":["largamos"],"p2":["largáis"],"p3":["largan"]},
+    "IndImp": {"s1":["largaba"],"s2":["largabas"],"vos":["largabas"],"s3":["largaba"],"p1":["largábamos"],"p2":["largabais"],"p3":["largaban"]},
+    "IndPret": {"s1":["largué"],"s2":["largaste"],"vos":["largaste"],"s3":["largó"],"p1":["largamos"],"p2":["largasteis"],"p3":["largaron"]},
+    "IndFut": {"s1":["largaré"],"s2":["largarás"],"vos":["largarás"],"s3":["largará"],"p1":["largaremos"],"p2":["largaréis"],"p3":["largarán"]},
+    "IndCond": {"s1":["largaría"],"s2":["largarías"],"vos":["largarías"],"s3":["largaría"],"p1":["largaríamos"],"p2":["largaríais"],"p3":["largarían"]},
+    "SubPres": {"s1":["largue"],"s2":["largues"],"vos":["largues","largués"],"s3":["largue"],"p1":["larguemos"],"p2":["larguéis"],"p3":["larguen"]},
+    "SubImp": {"s1":["largara","largase"],"s2":["largaras","largases"],"vos":["largaras","largases"],"s3":["largara","largase"],"p1":["largáramos","largásemos"],"p2":["largarais","largaseis"],"p3":["largaran","largasen"]},
+    "SubFut": {"s1":["largare"],"s2":["largares"],"vos":["largares"],"s3":["largare"],"p1":["largáremos"],"p2":["largareis"],"p3":["largaren"]},
+    "CmdPos": {"s2":["larga"],"vos":["largá"],"s3":["largue"],"p1":["larguemos"],"p2":["largad"],"p3":["larguen"]}
+  }
+}

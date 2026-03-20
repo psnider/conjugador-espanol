@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esjeɾˈβ̞aɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, hierba y el sufijo -ar.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deshierbar","gerundio":"deshierbando","participio":"deshierbado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deshierbo"],"s2":["deshierbas"],"vos":["deshierbás"],"s3":["deshierba"],"p1":["deshierbamos"],"p2":["deshierbáis"],"p3":["deshierban"]},
+    "IndImp": {"s1":["deshierbaba"],"s2":["deshierbabas"],"vos":["deshierbabas"],"s3":["deshierbaba"],"p1":["deshierbábamos"],"p2":["deshierbabais"],"p3":["deshierbaban"]},
+    "IndPret": {"s1":["deshierbé"],"s2":["deshierbaste"],"vos":["deshierbaste"],"s3":["deshierbó"],"p1":["deshierbamos"],"p2":["deshierbasteis"],"p3":["deshierbaron"]},
+    "IndFut": {"s1":["deshierbaré"],"s2":["deshierbarás"],"vos":["deshierbarás"],"s3":["deshierbará"],"p1":["deshierbaremos"],"p2":["deshierbaréis"],"p3":["deshierbarán"]},
+    "IndCond": {"s1":["deshierbaría"],"s2":["deshierbarías"],"vos":["deshierbarías"],"s3":["deshierbaría"],"p1":["deshierbaríamos"],"p2":["deshierbaríais"],"p3":["deshierbarían"]},
+    "SubPres": {"s1":["deshierbe"],"s2":["deshierbes"],"vos":["deshierbes","deshierbés"],"s3":["deshierbe"],"p1":["deshierbemos"],"p2":["deshierbéis"],"p3":["deshierben"]},
+    "SubImp": {"s1":["deshierbara","deshierbase"],"s2":["deshierbaras","deshierbases"],"vos":["deshierbaras","deshierbases"],"s3":["deshierbara","deshierbase"],"p1":["deshierbáramos","deshierbásemos"],"p2":["deshierbarais","deshierbaseis"],"p3":["deshierbaran","deshierbasen"]},
+    "SubFut": {"s1":["deshierbare"],"s2":["deshierbares"],"vos":["deshierbares"],"s3":["deshierbare"],"p1":["deshierbáremos"],"p2":["deshierbareis"],"p3":["deshierbaren"]},
+    "CmdPos": {"s2":["deshierba"],"vos":["deshierbá"],"s3":["deshierbe"],"p1":["deshierbemos"],"p2":["deshierbad"],"p3":["deshierben"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[emiˈt̪iɾ]",
+    "silabacion": "e-mi-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín emittĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"emitir","gerundio":"emitiendo","participio":"emitido"},
+  "formas_personales": {
+    "IndPres": {"s1":["emito"],"s2":["emites"],"vos":["emitís"],"s3":["emite"],"p1":["emitimos"],"p2":["emitís"],"p3":["emiten"]},
+    "IndImp": {"s1":["emitía"],"s2":["emitías"],"vos":["emitías"],"s3":["emitía"],"p1":["emitíamos"],"p2":["emitíais"],"p3":["emitían"]},
+    "IndPret": {"s1":["emití"],"s2":["emitiste"],"vos":["emitiste"],"s3":["emitió"],"p1":["emitimos"],"p2":["emitisteis"],"p3":["emitieron"]},
+    "IndFut": {"s1":["emitiré"],"s2":["emitirás"],"vos":["emitirás"],"s3":["emitirá"],"p1":["emitiremos"],"p2":["emitiréis"],"p3":["emitirán"]},
+    "IndCond": {"s1":["emitiría"],"s2":["emitirías"],"vos":["emitirías"],"s3":["emitiría"],"p1":["emitiríamos"],"p2":["emitiríais"],"p3":["emitirían"]},
+    "SubPres": {"s1":["emita"],"s2":["emitas"],"vos":["emitas","emitás"],"s3":["emita"],"p1":["emitamos"],"p2":["emitáis"],"p3":["emitan"]},
+    "SubImp": {"s1":["emitiera","emitiese"],"s2":["emitieras","emitieses"],"vos":["emitieras","emitieses"],"s3":["emitiera","emitiese"],"p1":["emitiéramos","emitiésemos"],"p2":["emitierais","emitieseis"],"p3":["emitieran","emitiesen"]},
+    "SubFut": {"s1":["emitiere"],"s2":["emitieres"],"vos":["emitieres"],"s3":["emitiere"],"p1":["emitiéremos"],"p2":["emitiereis"],"p3":["emitieren"]},
+    "CmdPos": {"s2":["emite"],"vos":["emití"],"s3":["emita"],"p1":["emitamos"],"p2":["emitid"],"p3":["emitan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈsaɾ]",
+    "silabacion": "ba-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De base y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"basar","gerundio":"basando","participio":"basado"},
+  "formas_personales": {
+    "IndPres": {"s1":["baso"],"s2":["basas"],"vos":["basás"],"s3":["basa"],"p1":["basamos"],"p2":["basáis"],"p3":["basan"]},
+    "IndImp": {"s1":["basaba"],"s2":["basabas"],"vos":["basabas"],"s3":["basaba"],"p1":["basábamos"],"p2":["basabais"],"p3":["basaban"]},
+    "IndPret": {"s1":["basé"],"s2":["basaste"],"vos":["basaste"],"s3":["basó"],"p1":["basamos"],"p2":["basasteis"],"p3":["basaron"]},
+    "IndFut": {"s1":["basaré"],"s2":["basarás"],"vos":["basarás"],"s3":["basará"],"p1":["basaremos"],"p2":["basaréis"],"p3":["basarán"]},
+    "IndCond": {"s1":["basaría"],"s2":["basarías"],"vos":["basarías"],"s3":["basaría"],"p1":["basaríamos"],"p2":["basaríais"],"p3":["basarían"]},
+    "SubPres": {"s1":["base"],"s2":["bases"],"vos":["bases","basés"],"s3":["base"],"p1":["basemos"],"p2":["baséis"],"p3":["basen"]},
+    "SubImp": {"s1":["basara","basase"],"s2":["basaras","basases"],"vos":["basaras","basases"],"s3":["basara","basase"],"p1":["basáramos","basásemos"],"p2":["basarais","basaseis"],"p3":["basaran","basasen"]},
+    "SubFut": {"s1":["basare"],"s2":["basares"],"vos":["basares"],"s3":["basare"],"p1":["basáremos"],"p2":["basareis"],"p3":["basaren"]},
+    "CmdPos": {"s2":["basa"],"vos":["basá"],"s3":["base"],"p1":["basemos"],"p2":["basad"],"p3":["basen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmbeɾˈsaɾ]",
+    "silabacion": "con-ver-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín conversare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conversar","gerundio":"conversando","participio":"conversado"},
+  "formas_personales": {
+    "IndPres": {"s1":["converso"],"s2":["conversas"],"vos":["conversás"],"s3":["conversa"],"p1":["conversamos"],"p2":["conversáis"],"p3":["conversan"]},
+    "IndImp": {"s1":["conversaba"],"s2":["conversabas"],"vos":["conversabas"],"s3":["conversaba"],"p1":["conversábamos"],"p2":["conversabais"],"p3":["conversaban"]},
+    "IndPret": {"s1":["conversé"],"s2":["conversaste"],"vos":["conversaste"],"s3":["conversó"],"p1":["conversamos"],"p2":["conversasteis"],"p3":["conversaron"]},
+    "IndFut": {"s1":["conversaré"],"s2":["conversarás"],"vos":["conversarás"],"s3":["conversará"],"p1":["conversaremos"],"p2":["conversaréis"],"p3":["conversarán"]},
+    "IndCond": {"s1":["conversaría"],"s2":["conversarías"],"vos":["conversarías"],"s3":["conversaría"],"p1":["conversaríamos"],"p2":["conversaríais"],"p3":["conversarían"]},
+    "SubPres": {"s1":["converse"],"s2":["converses"],"vos":["converses","conversés"],"s3":["converse"],"p1":["conversemos"],"p2":["converséis"],"p3":["conversen"]},
+    "SubImp": {"s1":["conversara","conversase"],"s2":["conversaras","conversases"],"vos":["conversaras","conversases"],"s3":["conversara","conversase"],"p1":["conversáramos","conversásemos"],"p2":["conversarais","conversaseis"],"p3":["conversaran","conversasen"]},
+    "SubFut": {"s1":["conversare"],"s2":["conversares"],"vos":["conversares"],"s3":["conversare"],"p1":["conversáremos"],"p2":["conversareis"],"p3":["conversaren"]},
+    "CmdPos": {"s2":["conversa"],"vos":["conversá"],"s3":["converse"],"p1":["conversemos"],"p2":["conversad"],"p3":["conversen"]}
+  }
+}

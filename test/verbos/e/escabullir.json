@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskaβ̞uˈʝiɾ]",
+    "silabacion": "es-ca-bu-llir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín capulare (\"enlazar animales\"), a su vez de capĕre&nbsp;('agarrar'), habiendo pasado por el latín vulgar *excapulare.[1]",
+    "modelos": ["escabullir"]
+  },
+  "formas_no_personales": {"infinitivo":"escabullir","gerundio":"escabullendo","participio":"escabullido"},
+  "formas_personales": {
+    "IndPres": {"s1":["escabullo"],"s2":["escabulles"],"vos":["escabullís"],"s3":["escabulle"],"p1":["escabullimos"],"p2":["escabullís"],"p3":["escabullen"]},
+    "IndImp": {"s1":["escabullía"],"s2":["escabullías"],"vos":["escabullías"],"s3":["escabullía"],"p1":["escabullíamos"],"p2":["escabullíais"],"p3":["escabullían"]},
+    "IndPret": {"s1":["escabullí"],"s2":["escabulliste"],"vos":["escabulliste"],"s3":["escabulló"],"p1":["escabullimos"],"p2":["escabullisteis"],"p3":["escabulleron"]},
+    "IndFut": {"s1":["escabulliré"],"s2":["escabullirás"],"vos":["escabullirás"],"s3":["escabullirá"],"p1":["escabulliremos"],"p2":["escabulliréis"],"p3":["escabullirán"]},
+    "IndCond": {"s1":["escabulliría"],"s2":["escabullirías"],"vos":["escabullirías"],"s3":["escabulliría"],"p1":["escabulliríamos"],"p2":["escabulliríais"],"p3":["escabullirían"]},
+    "SubPres": {"s1":["escabulla"],"s2":["escabullas"],"vos":["escabullas","escabullás"],"s3":["escabulla"],"p1":["escabullamos"],"p2":["escabulláis"],"p3":["escabullan"]},
+    "SubImp": {"s1":["escabullera","escabullese"],"s2":["escabulleras","escabulleses"],"vos":["escabulleras","escabulleses"],"s3":["escabullera","escabullese"],"p1":["escabulléramos","escabullésemos"],"p2":["escabullerais","escabulleseis"],"p3":["escabulleran","escabullesen"]},
+    "SubFut": {"s1":["escabullere"],"s2":["escabulleres"],"vos":["escabulleres"],"s3":["escabullere"],"p1":["escabulléremos"],"p2":["escabullereis"],"p3":["escabulleren"]},
+    "CmdPos": {"s2":["escabulle"],"vos":["escabullí"],"s3":["escabulla"],"p1":["escabullamos"],"p2":["escabullid"],"p3":["escabullan"]}
+  }
+}

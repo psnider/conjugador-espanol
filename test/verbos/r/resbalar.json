@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resβ̞aˈlaɾ]",
+    "silabacion": "res-ba-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y esbarar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"resbalar","gerundio":"resbalando","participio":"resbalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["resbalo"],"s2":["resbalas"],"vos":["resbalás"],"s3":["resbala"],"p1":["resbalamos"],"p2":["resbaláis"],"p3":["resbalan"]},
+    "IndImp": {"s1":["resbalaba"],"s2":["resbalabas"],"vos":["resbalabas"],"s3":["resbalaba"],"p1":["resbalábamos"],"p2":["resbalabais"],"p3":["resbalaban"]},
+    "IndPret": {"s1":["resbalé"],"s2":["resbalaste"],"vos":["resbalaste"],"s3":["resbaló"],"p1":["resbalamos"],"p2":["resbalasteis"],"p3":["resbalaron"]},
+    "IndFut": {"s1":["resbalaré"],"s2":["resbalarás"],"vos":["resbalarás"],"s3":["resbalará"],"p1":["resbalaremos"],"p2":["resbalaréis"],"p3":["resbalarán"]},
+    "IndCond": {"s1":["resbalaría"],"s2":["resbalarías"],"vos":["resbalarías"],"s3":["resbalaría"],"p1":["resbalaríamos"],"p2":["resbalaríais"],"p3":["resbalarían"]},
+    "SubPres": {"s1":["resbale"],"s2":["resbales"],"vos":["resbales","resbalés"],"s3":["resbale"],"p1":["resbalemos"],"p2":["resbaléis"],"p3":["resbalen"]},
+    "SubImp": {"s1":["resbalara","resbalase"],"s2":["resbalaras","resbalases"],"vos":["resbalaras","resbalases"],"s3":["resbalara","resbalase"],"p1":["resbaláramos","resbalásemos"],"p2":["resbalarais","resbalaseis"],"p3":["resbalaran","resbalasen"]},
+    "SubFut": {"s1":["resbalare"],"s2":["resbalares"],"vos":["resbalares"],"s3":["resbalare"],"p1":["resbaláremos"],"p2":["resbalareis"],"p3":["resbalaren"]},
+    "CmdPos": {"s2":["resbala"],"vos":["resbalá"],"s3":["resbale"],"p1":["resbalemos"],"p2":["resbalad"],"p3":["resbalen"]}
+  }
+}

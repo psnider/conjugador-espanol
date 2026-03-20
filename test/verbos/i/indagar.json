@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪d̪aˈɣ̞aɾ]",
+    "silabacion": "in-da-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín indagare.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"indagar","gerundio":"indagando","participio":"indagado"},
+  "formas_personales": {
+    "IndPres": {"s1":["indago"],"s2":["indagas"],"vos":["indagás"],"s3":["indaga"],"p1":["indagamos"],"p2":["indagáis"],"p3":["indagan"]},
+    "IndImp": {"s1":["indagaba"],"s2":["indagabas"],"vos":["indagabas"],"s3":["indagaba"],"p1":["indagábamos"],"p2":["indagabais"],"p3":["indagaban"]},
+    "IndPret": {"s1":["indagué"],"s2":["indagaste"],"vos":["indagaste"],"s3":["indagó"],"p1":["indagamos"],"p2":["indagasteis"],"p3":["indagaron"]},
+    "IndFut": {"s1":["indagaré"],"s2":["indagarás"],"vos":["indagarás"],"s3":["indagará"],"p1":["indagaremos"],"p2":["indagaréis"],"p3":["indagarán"]},
+    "IndCond": {"s1":["indagaría"],"s2":["indagarías"],"vos":["indagarías"],"s3":["indagaría"],"p1":["indagaríamos"],"p2":["indagaríais"],"p3":["indagarían"]},
+    "SubPres": {"s1":["indague"],"s2":["indagues"],"vos":["indagues","indagués"],"s3":["indague"],"p1":["indaguemos"],"p2":["indaguéis"],"p3":["indaguen"]},
+    "SubImp": {"s1":["indagara","indagase"],"s2":["indagaras","indagases"],"vos":["indagaras","indagases"],"s3":["indagara","indagase"],"p1":["indagáramos","indagásemos"],"p2":["indagarais","indagaseis"],"p3":["indagaran","indagasen"]},
+    "SubFut": {"s1":["indagare"],"s2":["indagares"],"vos":["indagares"],"s3":["indagare"],"p1":["indagáremos"],"p2":["indagareis"],"p3":["indagaren"]},
+    "CmdPos": {"s2":["indaga"],"vos":["indagá"],"s3":["indague"],"p1":["indaguemos"],"p2":["indagad"],"p3":["indaguen"]}
+  }
+}

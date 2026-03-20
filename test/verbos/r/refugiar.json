@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[refuˈxjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De refugio y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"refugiar","gerundio":"refugiando","participio":"refugiado"},
+  "formas_personales": {
+    "IndPres": {"s1":["refugio"],"s2":["refugias"],"vos":["refugiás"],"s3":["refugia"],"p1":["refugiamos"],"p2":["refugiáis"],"p3":["refugian"]},
+    "IndImp": {"s1":["refugiaba"],"s2":["refugiabas"],"vos":["refugiabas"],"s3":["refugiaba"],"p1":["refugiábamos"],"p2":["refugiabais"],"p3":["refugiaban"]},
+    "IndPret": {"s1":["refugié"],"s2":["refugiaste"],"vos":["refugiaste"],"s3":["refugió"],"p1":["refugiamos"],"p2":["refugiasteis"],"p3":["refugiaron"]},
+    "IndFut": {"s1":["refugiaré"],"s2":["refugiarás"],"vos":["refugiarás"],"s3":["refugiará"],"p1":["refugiaremos"],"p2":["refugiaréis"],"p3":["refugiarán"]},
+    "IndCond": {"s1":["refugiaría"],"s2":["refugiarías"],"vos":["refugiarías"],"s3":["refugiaría"],"p1":["refugiaríamos"],"p2":["refugiaríais"],"p3":["refugiarían"]},
+    "SubPres": {"s1":["refugie"],"s2":["refugies"],"vos":["refugies","refugiés"],"s3":["refugie"],"p1":["refugiemos"],"p2":["refugiéis"],"p3":["refugien"]},
+    "SubImp": {"s1":["refugiara","refugiase"],"s2":["refugiaras","refugiases"],"vos":["refugiaras","refugiases"],"s3":["refugiara","refugiase"],"p1":["refugiáramos","refugiásemos"],"p2":["refugiarais","refugiaseis"],"p3":["refugiaran","refugiasen"]},
+    "SubFut": {"s1":["refugiare"],"s2":["refugiares"],"vos":["refugiares"],"s3":["refugiare"],"p1":["refugiáremos"],"p2":["refugiareis"],"p3":["refugiaren"]},
+    "CmdPos": {"s2":["refugia"],"vos":["refugiá"],"s3":["refugie"],"p1":["refugiemos"],"p2":["refugiad"],"p3":["refugien"]}
+  }
+}

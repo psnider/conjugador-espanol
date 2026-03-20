@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sepiˈʝaɾ]",
+    "silabacion": "ce-pi-llar",
+    "acentuacion": "aguda",
+    "etimologia": "De cepillo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cepillar","gerundio":"cepillando","participio":"cepillado"},
+  "formas_personales": {
+    "IndPres": {"s1":["cepillo"],"s2":["cepillas"],"vos":["cepillás"],"s3":["cepilla"],"p1":["cepillamos"],"p2":["cepilláis"],"p3":["cepillan"]},
+    "IndImp": {"s1":["cepillaba"],"s2":["cepillabas"],"vos":["cepillabas"],"s3":["cepillaba"],"p1":["cepillábamos"],"p2":["cepillabais"],"p3":["cepillaban"]},
+    "IndPret": {"s1":["cepillé"],"s2":["cepillaste"],"vos":["cepillaste"],"s3":["cepilló"],"p1":["cepillamos"],"p2":["cepillasteis"],"p3":["cepillaron"]},
+    "IndFut": {"s1":["cepillaré"],"s2":["cepillarás"],"vos":["cepillarás"],"s3":["cepillará"],"p1":["cepillaremos"],"p2":["cepillaréis"],"p3":["cepillarán"]},
+    "IndCond": {"s1":["cepillaría"],"s2":["cepillarías"],"vos":["cepillarías"],"s3":["cepillaría"],"p1":["cepillaríamos"],"p2":["cepillaríais"],"p3":["cepillarían"]},
+    "SubPres": {"s1":["cepille"],"s2":["cepilles"],"vos":["cepilles","cepillés"],"s3":["cepille"],"p1":["cepillemos"],"p2":["cepilléis"],"p3":["cepillen"]},
+    "SubImp": {"s1":["cepillara","cepillase"],"s2":["cepillaras","cepillases"],"vos":["cepillaras","cepillases"],"s3":["cepillara","cepillase"],"p1":["cepilláramos","cepillásemos"],"p2":["cepillarais","cepillaseis"],"p3":["cepillaran","cepillasen"]},
+    "SubFut": {"s1":["cepillare"],"s2":["cepillares"],"vos":["cepillares"],"s3":["cepillare"],"p1":["cepilláremos"],"p2":["cepillareis"],"p3":["cepillaren"]},
+    "CmdPos": {"s2":["cepilla"],"vos":["cepillá"],"s3":["cepille"],"p1":["cepillemos"],"p2":["cepillad"],"p3":["cepillen"]}
+  }
+}

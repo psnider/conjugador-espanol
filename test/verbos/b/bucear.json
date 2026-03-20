@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[buseˈaɾ]",
+    "silabacion": "bu-ce-ar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bucear","gerundio":"buceando","participio":"buceado"},
+  "formas_personales": {
+    "IndPres": {"s1":["buceo"],"s2":["buceas"],"vos":["buceás"],"s3":["bucea"],"p1":["buceamos"],"p2":["buceáis"],"p3":["bucean"]},
+    "IndImp": {"s1":["buceaba"],"s2":["buceabas"],"vos":["buceabas"],"s3":["buceaba"],"p1":["buceábamos"],"p2":["buceabais"],"p3":["buceaban"]},
+    "IndPret": {"s1":["buceé"],"s2":["buceaste"],"vos":["buceaste"],"s3":["buceó"],"p1":["buceamos"],"p2":["buceasteis"],"p3":["bucearon"]},
+    "IndFut": {"s1":["bucearé"],"s2":["bucearás"],"vos":["bucearás"],"s3":["buceará"],"p1":["bucearemos"],"p2":["bucearéis"],"p3":["bucearán"]},
+    "IndCond": {"s1":["bucearía"],"s2":["bucearías"],"vos":["bucearías"],"s3":["bucearía"],"p1":["bucearíamos"],"p2":["bucearíais"],"p3":["bucearían"]},
+    "SubPres": {"s1":["bucee"],"s2":["bucees"],"vos":["bucees","buceés"],"s3":["bucee"],"p1":["buceemos"],"p2":["buceéis"],"p3":["buceen"]},
+    "SubImp": {"s1":["buceara","bucease"],"s2":["bucearas","buceases"],"vos":["bucearas","buceases"],"s3":["buceara","bucease"],"p1":["buceáramos","buceásemos"],"p2":["bucearais","buceaseis"],"p3":["bucearan","buceasen"]},
+    "SubFut": {"s1":["buceare"],"s2":["buceares"],"vos":["buceares"],"s3":["buceare"],"p1":["buceáremos"],"p2":["buceareis"],"p3":["bucearen"]},
+    "CmdPos": {"s2":["bucea"],"vos":["buceá"],"s3":["bucee"],"p1":["buceemos"],"p2":["bucead"],"p3":["buceen"]}
+  }
+}

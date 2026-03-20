@@ -8,172 +8,7 @@ import * as fs from 'node:fs'
 
 // verbs to insert into verbos_con_cambios_morfológicos[]
 const verbos_para_insertar = [
-    "acceder",
-    "acontecer",
-    "acudir",
-    "adjuntar",
-    "aflojar",
-    "agasajar",
-    "agradar",
-    "agudizar",
-    "ahuyentar",
-    "alargar",
-    "albergar",
-    "alimentar",
-    "aliviar",
-    "amarrar",
-    "anudar",
-    "aplastar",
-    "apoderar",
-    "apresurar",
-    "armar",
-    "arribar",
-    "asignar",
-    "asir",
-    "asombrar",
-    "aspirar",
-    "atenuar",
-    "avisar",
-    "atemorizar",
-    "atornillar",
-    "atraer",
-    "atropellar",
-    "barrer",
-    "bordar",
-    "brotar",
-    "calificar",
-    "capacitar",
-    "catalogar",
-    "categorizar",
-    "cazar",
-    "centrar",
-    "chismear",
-    "circular",
-    "citar",
-    "cocinar",
-    "coincidir",
-    "colar",
-    "colindar",
-    "colorar",
-    "complicar",
-    "condicionar",
-    "confeccionar",
-    "conformar",
-    "confortar",
-    "contraer",
-    "cruzar",
-    "cuadrar",
-    "curar",
-    "currar",
-    "depositar",
-    "desbordar",
-    "descolorar",
-    "desempeñar",
-    "desenroscar",
-    "desgraciar",
-    "desistir",
-    "desleír",
-    "desperdiciar",
-    "desprender",
-    "desmontar",
-    "desplumar",
-    "despojar",
-    "destilar",
-    "detallar",
-    "deteriorar",
-    "diferenciar",
-    "dificultar",
-    "disculpar",
-    "dividir",
-    "doblegar",
-    "dorar",
-    "dudar",
-    "elaborar",
-    "empapar",
-    "encoger",
-    "enderezar",
-    "engañar",
-    "enganchar",
-    "enmascarar",
-    "enroscar",
-    "ensamblar",
-    "ensanchar",
-    "entusiasmar",
-    "esforzar",
-    "estandarizar",
-    "estipular",
-    "evaluar",
-    "excluir",
-    "exhalar",
-    "fallecer",
-    "fallar",
-    "felicitar",
-    "festejar",
-    "finalizar",
-    "gozar",
-    "hilvanar",
-    "hornear",
-    "iluminar",
-    "importar",
-    "impregnar",
-    "impresionar",
-    "incubar",
-    "indexar",
-    "infundir",
-    "inhalar",
-    "inquietar",
-    "instar",
-    "interrogar",
-    "invadir",
-    "lagrimear",
-    "lastimar",
-    "lucir",
-    "modelar",
-    "modernizar",
-    "molestar",
-    "nutrir",
-    "operar",
-    "pasmar",
-    "pedalear",
-    "penetrar",
-    "picar",
-    "posar",
-    "presenciar",
-    "presentar",
-    "procesar",
-    "procurar",
-    "prometer",
-    "quemar",
-    "ramificar",
-    "raspar",
-    "reanudar",
-    "rebelar",
-    "reconectar",
-    "reconfortar",
-    "recontar",
-    "recorrer",
-    "recurrir",
-    "reformar",
-    "reencender",
-    "reinstalar",
-    "remodelar",
-    "renunciar",
-    "repartir",
-    "replicar",
-    "reposar",
-    "reprimir",
-    "secar",
-    "sellar",
-    "simplificar",
-    "sobrecoger",
-    "sollozar",
-    "soportar",
-    "sospechar",
-    "sujetar",
-    "suspender",
-    "transcurrir",
-    "triangular",
-    "velar",
+
 ]
 
 const verbs_list_filename = "./src/verbos-con-cambios-morfológicas.ts"
@@ -212,6 +47,7 @@ const order = [
 const rank = new Map<string, number>();
 order.forEach((char, i) => rank.set(char, i));
 
+const verb_endings = ["ar","er","ir", "ír"]
 
 function compareSpanishWords(lhs: string, rhs: string) : number {
     const len = Math.min(lhs.length, rhs.length);
@@ -242,6 +78,12 @@ function insertVerbsIntoVerbsFile() {
         líneas_actualizadas.push(línea_original)
         return ++i
     }
+    function copyContentAfterVerbsTable() {
+        while (line_index < líneas_originales.length) {
+            let línea_original = líneas_originales[line_index++]
+            líneas_actualizadas.push(línea_original)
+        }
+    }
     function getNewVerbLine(verbo: string) {
         const padding_length = Math.max(1, 20 - verbo.length - 5)
         const padding = " ".repeat(padding_length)
@@ -252,13 +94,19 @@ function insertVerbsIntoVerbsFile() {
     const líneas_originales = fs.readFileSync(verbs_list_filename).toString().split("\n")
     const líneas_actualizadas = []
     let line_index = copyUpToVerbsTable()
-    while (line_index < líneas_originales.length) {
+    let done_with_verbs = false
+    while ((line_index < líneas_originales.length) && !done_with_verbs) {
         let línea_original = líneas_originales[line_index++]
         const verb_match = línea_original.match(/^    ([a-zñáéíóúü]+):(\s+){/)
         if (verb_match) {
             const verbo_de_lista = verb_match[1]
             let verbo_para_insertar = verbos_para_insertar[0]
             if (verbo_para_insertar) {
+                if (!verb_endings.includes(verbo_para_insertar.slice(-2))) {
+                    console.log(`ERROR: skipping non-verb: ${verbo_para_insertar}`)
+                    verbos_para_insertar.shift()
+                    continue
+                }
                 let order = compareSpanishWords(verbo_para_insertar, verbo_de_lista)
                 if (order <= 0) {
                     while (order < 0) {
@@ -275,14 +123,20 @@ function insertVerbsIntoVerbsFile() {
                 }
             }
         }
+        // once the end of the verb list is reached, add any remaining verbs
+        if (línea_original.startsWith("}")) {
+            for (const verbo_para_insertar of verbos_para_insertar) {
+                const new_verb_line = getNewVerbLine(verbo_para_insertar);
+                líneas_actualizadas.push(new_verb_line);
+            }
+            done_with_verbs = true
+        }
         líneas_actualizadas.push(línea_original)
     }
+    copyContentAfterVerbsTable()
     const líneas_actualizadas_juntado = líneas_actualizadas.join("\n")
     fs.writeFileSync(updated_verbs_list_filename, líneas_actualizadas_juntado)
     console.log(`added verbs to ${updated_verbs_list_filename}`)
-    if (verbos_para_insertar.length > 0) {
-        throw new Error(`These verbs were not added:\n$${verbos_para_insertar}`)
-    }
 }
 
 

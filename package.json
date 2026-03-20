@@ -13,6 +13,7 @@
     "test": "node generated/test/test-verbs-using-saved-conjugations.js",
     "test-conjugate-verb": "node generated/test/test-conjugate-verb.js",
     "update-verbos-with-test-results": "node generated/test/update-verbos-with-test-results.js",
+    "insert-verbs-into-verbs-list": "node generated/test/insert-verbs-into-verbs-list.js",
     "clean": "rm -rf generated",
     "prep-release": "npm run clean && npm run build && npm run validate && npm run test && npm run update-verbos-with-test-results && npm run gen-web-page"
   },

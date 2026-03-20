@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈɲaɾ]",
+    "silabacion": "ba-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bañar","gerundio":"bañando","participio":"bañado"},
+  "formas_personales": {
+    "IndPres": {"s1":["baño"],"s2":["bañas"],"vos":["bañás"],"s3":["baña"],"p1":["bañamos"],"p2":["bañáis"],"p3":["bañan"]},
+    "IndImp": {"s1":["bañaba"],"s2":["bañabas"],"vos":["bañabas"],"s3":["bañaba"],"p1":["bañábamos"],"p2":["bañabais"],"p3":["bañaban"]},
+    "IndPret": {"s1":["bañé"],"s2":["bañaste"],"vos":["bañaste"],"s3":["bañó"],"p1":["bañamos"],"p2":["bañasteis"],"p3":["bañaron"]},
+    "IndFut": {"s1":["bañaré"],"s2":["bañarás"],"vos":["bañarás"],"s3":["bañará"],"p1":["bañaremos"],"p2":["bañaréis"],"p3":["bañarán"]},
+    "IndCond": {"s1":["bañaría"],"s2":["bañarías"],"vos":["bañarías"],"s3":["bañaría"],"p1":["bañaríamos"],"p2":["bañaríais"],"p3":["bañarían"]},
+    "SubPres": {"s1":["bañe"],"s2":["bañes"],"vos":["bañes","bañés"],"s3":["bañe"],"p1":["bañemos"],"p2":["bañéis"],"p3":["bañen"]},
+    "SubImp": {"s1":["bañara","bañase"],"s2":["bañaras","bañases"],"vos":["bañaras","bañases"],"s3":["bañara","bañase"],"p1":["bañáramos","bañásemos"],"p2":["bañarais","bañaseis"],"p3":["bañaran","bañasen"]},
+    "SubFut": {"s1":["bañare"],"s2":["bañares"],"vos":["bañares"],"s3":["bañare"],"p1":["bañáremos"],"p2":["bañareis"],"p3":["bañaren"]},
+    "CmdPos": {"s2":["baña"],"vos":["bañá"],"s3":["bañe"],"p1":["bañemos"],"p2":["bañad"],"p3":["bañen"]}
+  }
+}

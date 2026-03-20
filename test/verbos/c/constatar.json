@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnst̪aˈt̪aɾ]",
+    "silabacion": "cons-ta-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"constatar","gerundio":"constatando","participio":"constatado"},
+  "formas_personales": {
+    "IndPres": {"s1":["constato"],"s2":["constatas"],"vos":["constatás"],"s3":["constata"],"p1":["constatamos"],"p2":["constatáis"],"p3":["constatan"]},
+    "IndImp": {"s1":["constataba"],"s2":["constatabas"],"vos":["constatabas"],"s3":["constataba"],"p1":["constatábamos"],"p2":["constatabais"],"p3":["constataban"]},
+    "IndPret": {"s1":["constaté"],"s2":["constataste"],"vos":["constataste"],"s3":["constató"],"p1":["constatamos"],"p2":["constatasteis"],"p3":["constataron"]},
+    "IndFut": {"s1":["constataré"],"s2":["constatarás"],"vos":["constatarás"],"s3":["constatará"],"p1":["constataremos"],"p2":["constataréis"],"p3":["constatarán"]},
+    "IndCond": {"s1":["constataría"],"s2":["constatarías"],"vos":["constatarías"],"s3":["constataría"],"p1":["constataríamos"],"p2":["constataríais"],"p3":["constatarían"]},
+    "SubPres": {"s1":["constate"],"s2":["constates"],"vos":["constates","constatés"],"s3":["constate"],"p1":["constatemos"],"p2":["constatéis"],"p3":["constaten"]},
+    "SubImp": {"s1":["constatara","constatase"],"s2":["constataras","constatases"],"vos":["constataras","constatases"],"s3":["constatara","constatase"],"p1":["constatáramos","constatásemos"],"p2":["constatarais","constataseis"],"p3":["constataran","constatasen"]},
+    "SubFut": {"s1":["constatare"],"s2":["constatares"],"vos":["constatares"],"s3":["constatare"],"p1":["constatáremos"],"p2":["constatareis"],"p3":["constataren"]},
+    "CmdPos": {"s2":["constata"],"vos":["constatá"],"s3":["constate"],"p1":["constatemos"],"p2":["constatad"],"p3":["constaten"]}
+  }
+}

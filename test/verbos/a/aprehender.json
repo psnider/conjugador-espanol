@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apɾeẽn̪ˈd̪eɾ]",
+    "silabacion": "a-pre-hen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín apprehendĕre, a su vez de ad&nbsp;('a') y prehendĕre (\"percibir, asir, agarrar\").[1] Doblete de la voz patrimonial aprender.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"aprehender","gerundio":"aprehendiendo","participio":"aprehendido"},
+  "formas_personales": {
+    "IndPres": {"s1":["aprehendo"],"s2":["aprehendes"],"vos":["aprehendés"],"s3":["aprehende"],"p1":["aprehendemos"],"p2":["aprehendéis"],"p3":["aprehenden"]},
+    "IndImp": {"s1":["aprehendía"],"s2":["aprehendías"],"vos":["aprehendías"],"s3":["aprehendía"],"p1":["aprehendíamos"],"p2":["aprehendíais"],"p3":["aprehendían"]},
+    "IndPret": {"s1":["aprehendí"],"s2":["aprehendiste"],"vos":["aprehendiste"],"s3":["aprehendió"],"p1":["aprehendimos"],"p2":["aprehendisteis"],"p3":["aprehendieron"]},
+    "IndFut": {"s1":["aprehenderé"],"s2":["aprehenderás"],"vos":["aprehenderás"],"s3":["aprehenderá"],"p1":["aprehenderemos"],"p2":["aprehenderéis"],"p3":["aprehenderán"]},
+    "IndCond": {"s1":["aprehendería"],"s2":["aprehenderías"],"vos":["aprehenderías"],"s3":["aprehendería"],"p1":["aprehenderíamos"],"p2":["aprehenderíais"],"p3":["aprehenderían"]},
+    "SubPres": {"s1":["aprehenda"],"s2":["aprehendas"],"vos":["aprehendas","aprehendás"],"s3":["aprehenda"],"p1":["aprehendamos"],"p2":["aprehendáis"],"p3":["aprehendan"]},
+    "SubImp": {"s1":["aprehendiera","aprehendiese"],"s2":["aprehendieras","aprehendieses"],"vos":["aprehendieras","aprehendieses"],"s3":["aprehendiera","aprehendiese"],"p1":["aprehendiéramos","aprehendiésemos"],"p2":["aprehendierais","aprehendieseis"],"p3":["aprehendieran","aprehendiesen"]},
+    "SubFut": {"s1":["aprehendiere"],"s2":["aprehendieres"],"vos":["aprehendieres"],"s3":["aprehendiere"],"p1":["aprehendiéremos"],"p2":["aprehendiereis"],"p3":["aprehendieren"]},
+    "CmdPos": {"s2":["aprehende"],"vos":["aprehendé"],"s3":["aprehenda"],"p1":["aprehendamos"],"p2":["aprehended"],"p3":["aprehendan"]}
+  }
+}

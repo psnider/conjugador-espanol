@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[naˈð̞aɾ]",
+    "silabacion": "na-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín natare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"nadar","gerundio":"nadando","participio":"nadado"},
+  "formas_personales": {
+    "IndPres": {"s1":["nado"],"s2":["nadas"],"vos":["nadás"],"s3":["nada"],"p1":["nadamos"],"p2":["nadáis"],"p3":["nadan"]},
+    "IndImp": {"s1":["nadaba"],"s2":["nadabas"],"vos":["nadabas"],"s3":["nadaba"],"p1":["nadábamos"],"p2":["nadabais"],"p3":["nadaban"]},
+    "IndPret": {"s1":["nadé"],"s2":["nadaste"],"vos":["nadaste"],"s3":["nadó"],"p1":["nadamos"],"p2":["nadasteis"],"p3":["nadaron"]},
+    "IndFut": {"s1":["nadaré"],"s2":["nadarás"],"vos":["nadarás"],"s3":["nadará"],"p1":["nadaremos"],"p2":["nadaréis"],"p3":["nadarán"]},
+    "IndCond": {"s1":["nadaría"],"s2":["nadarías"],"vos":["nadarías"],"s3":["nadaría"],"p1":["nadaríamos"],"p2":["nadaríais"],"p3":["nadarían"]},
+    "SubPres": {"s1":["nade"],"s2":["nades"],"vos":["nades","nadés"],"s3":["nade"],"p1":["nademos"],"p2":["nadéis"],"p3":["naden"]},
+    "SubImp": {"s1":["nadara","nadase"],"s2":["nadaras","nadases"],"vos":["nadaras","nadases"],"s3":["nadara","nadase"],"p1":["nadáramos","nadásemos"],"p2":["nadarais","nadaseis"],"p3":["nadaran","nadasen"]},
+    "SubFut": {"s1":["nadare"],"s2":["nadares"],"vos":["nadares"],"s3":["nadare"],"p1":["nadáremos"],"p2":["nadareis"],"p3":["nadaren"]},
+    "CmdPos": {"s2":["nada"],"vos":["nadá"],"s3":["nade"],"p1":["nademos"],"p2":["nadad"],"p3":["naden"]}
+  }
+}

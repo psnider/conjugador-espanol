@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resˈt̪aɾ]",
+    "silabacion": "res-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín restare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"restar","gerundio":"restando","participio":"restado"},
+  "formas_personales": {
+    "IndPres": {"s1":["resto"],"s2":["restas"],"vos":["restás"],"s3":["resta"],"p1":["restamos"],"p2":["restáis"],"p3":["restan"]},
+    "IndImp": {"s1":["restaba"],"s2":["restabas"],"vos":["restabas"],"s3":["restaba"],"p1":["restábamos"],"p2":["restabais"],"p3":["restaban"]},
+    "IndPret": {"s1":["resté"],"s2":["restaste"],"vos":["restaste"],"s3":["restó"],"p1":["restamos"],"p2":["restasteis"],"p3":["restaron"]},
+    "IndFut": {"s1":["restaré"],"s2":["restarás"],"vos":["restarás"],"s3":["restará"],"p1":["restaremos"],"p2":["restaréis"],"p3":["restarán"]},
+    "IndCond": {"s1":["restaría"],"s2":["restarías"],"vos":["restarías"],"s3":["restaría"],"p1":["restaríamos"],"p2":["restaríais"],"p3":["restarían"]},
+    "SubPres": {"s1":["reste"],"s2":["restes"],"vos":["restes","restés"],"s3":["reste"],"p1":["restemos"],"p2":["restéis"],"p3":["resten"]},
+    "SubImp": {"s1":["restara","restase"],"s2":["restaras","restases"],"vos":["restaras","restases"],"s3":["restara","restase"],"p1":["restáramos","restásemos"],"p2":["restarais","restaseis"],"p3":["restaran","restasen"]},
+    "SubFut": {"s1":["restare"],"s2":["restares"],"vos":["restares"],"s3":["restare"],"p1":["restáremos"],"p2":["restareis"],"p3":["restaren"]},
+    "CmdPos": {"s2":["resta"],"vos":["restá"],"s3":["reste"],"p1":["restemos"],"p2":["restad"],"p3":["resten"]}
+  }
+}

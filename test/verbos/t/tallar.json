@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪aˈʝaɾ]",
+    "silabacion": "ta-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tallar","gerundio":"tallando","participio":"tallado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tallo"],"s2":["tallas"],"vos":["tallás"],"s3":["talla"],"p1":["tallamos"],"p2":["talláis"],"p3":["tallan"]},
+    "IndImp": {"s1":["tallaba"],"s2":["tallabas"],"vos":["tallabas"],"s3":["tallaba"],"p1":["tallábamos"],"p2":["tallabais"],"p3":["tallaban"]},
+    "IndPret": {"s1":["tallé"],"s2":["tallaste"],"vos":["tallaste"],"s3":["talló"],"p1":["tallamos"],"p2":["tallasteis"],"p3":["tallaron"]},
+    "IndFut": {"s1":["tallaré"],"s2":["tallarás"],"vos":["tallarás"],"s3":["tallará"],"p1":["tallaremos"],"p2":["tallaréis"],"p3":["tallarán"]},
+    "IndCond": {"s1":["tallaría"],"s2":["tallarías"],"vos":["tallarías"],"s3":["tallaría"],"p1":["tallaríamos"],"p2":["tallaríais"],"p3":["tallarían"]},
+    "SubPres": {"s1":["talle"],"s2":["talles"],"vos":["talles","tallés"],"s3":["talle"],"p1":["tallemos"],"p2":["talléis"],"p3":["tallen"]},
+    "SubImp": {"s1":["tallara","tallase"],"s2":["tallaras","tallases"],"vos":["tallaras","tallases"],"s3":["tallara","tallase"],"p1":["talláramos","tallásemos"],"p2":["tallarais","tallaseis"],"p3":["tallaran","tallasen"]},
+    "SubFut": {"s1":["tallare"],"s2":["tallares"],"vos":["tallares"],"s3":["tallare"],"p1":["talláremos"],"p2":["tallareis"],"p3":["tallaren"]},
+    "CmdPos": {"s2":["talla"],"vos":["tallá"],"s3":["talle"],"p1":["tallemos"],"p2":["tallad"],"p3":["tallen"]}
+  }
+}

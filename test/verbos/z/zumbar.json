@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sũmˈbaɾ]",
+    "silabacion": "zum-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"zumbar","gerundio":"zumbando","participio":"zumbado"},
+  "formas_personales": {
+    "IndPres": {"s1":["zumbo"],"s2":["zumbas"],"vos":["zumbás"],"s3":["zumba"],"p1":["zumbamos"],"p2":["zumbáis"],"p3":["zumban"]},
+    "IndImp": {"s1":["zumbaba"],"s2":["zumbabas"],"vos":["zumbabas"],"s3":["zumbaba"],"p1":["zumbábamos"],"p2":["zumbabais"],"p3":["zumbaban"]},
+    "IndPret": {"s1":["zumbé"],"s2":["zumbaste"],"vos":["zumbaste"],"s3":["zumbó"],"p1":["zumbamos"],"p2":["zumbasteis"],"p3":["zumbaron"]},
+    "IndFut": {"s1":["zumbaré"],"s2":["zumbarás"],"vos":["zumbarás"],"s3":["zumbará"],"p1":["zumbaremos"],"p2":["zumbaréis"],"p3":["zumbarán"]},
+    "IndCond": {"s1":["zumbaría"],"s2":["zumbarías"],"vos":["zumbarías"],"s3":["zumbaría"],"p1":["zumbaríamos"],"p2":["zumbaríais"],"p3":["zumbarían"]},
+    "SubPres": {"s1":["zumbe"],"s2":["zumbes"],"vos":["zumbes","zumbés"],"s3":["zumbe"],"p1":["zumbemos"],"p2":["zumbéis"],"p3":["zumben"]},
+    "SubImp": {"s1":["zumbara","zumbase"],"s2":["zumbaras","zumbases"],"vos":["zumbaras","zumbases"],"s3":["zumbara","zumbase"],"p1":["zumbáramos","zumbásemos"],"p2":["zumbarais","zumbaseis"],"p3":["zumbaran","zumbasen"]},
+    "SubFut": {"s1":["zumbare"],"s2":["zumbares"],"vos":["zumbares"],"s3":["zumbare"],"p1":["zumbáremos"],"p2":["zumbareis"],"p3":["zumbaren"]},
+    "CmdPos": {"s2":["zumba"],"vos":["zumbá"],"s3":["zumbe"],"p1":["zumbemos"],"p2":["zumbad"],"p3":["zumben"]}
+  }
+}

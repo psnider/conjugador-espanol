@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[malɣ̞asˈt̪aɾ]",
+    "silabacion": "mal-gas-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de mal2 y gastar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"malgastar","gerundio":"malgastando","participio":"malgastado"},
+  "formas_personales": {
+    "IndPres": {"s1":["malgasto"],"s2":["malgastas"],"vos":["malgastás"],"s3":["malgasta"],"p1":["malgastamos"],"p2":["malgastáis"],"p3":["malgastan"]},
+    "IndImp": {"s1":["malgastaba"],"s2":["malgastabas"],"vos":["malgastabas"],"s3":["malgastaba"],"p1":["malgastábamos"],"p2":["malgastabais"],"p3":["malgastaban"]},
+    "IndPret": {"s1":["malgasté"],"s2":["malgastaste"],"vos":["malgastaste"],"s3":["malgastó"],"p1":["malgastamos"],"p2":["malgastasteis"],"p3":["malgastaron"]},
+    "IndFut": {"s1":["malgastaré"],"s2":["malgastarás"],"vos":["malgastarás"],"s3":["malgastará"],"p1":["malgastaremos"],"p2":["malgastaréis"],"p3":["malgastarán"]},
+    "IndCond": {"s1":["malgastaría"],"s2":["malgastarías"],"vos":["malgastarías"],"s3":["malgastaría"],"p1":["malgastaríamos"],"p2":["malgastaríais"],"p3":["malgastarían"]},
+    "SubPres": {"s1":["malgaste"],"s2":["malgastes"],"vos":["malgastes","malgastés"],"s3":["malgaste"],"p1":["malgastemos"],"p2":["malgastéis"],"p3":["malgasten"]},
+    "SubImp": {"s1":["malgastara","malgastase"],"s2":["malgastaras","malgastases"],"vos":["malgastaras","malgastases"],"s3":["malgastara","malgastase"],"p1":["malgastáramos","malgastásemos"],"p2":["malgastarais","malgastaseis"],"p3":["malgastaran","malgastasen"]},
+    "SubFut": {"s1":["malgastare"],"s2":["malgastares"],"vos":["malgastares"],"s3":["malgastare"],"p1":["malgastáremos"],"p2":["malgastareis"],"p3":["malgastaren"]},
+    "CmdPos": {"s2":["malgasta"],"vos":["malgastá"],"s3":["malgaste"],"p1":["malgastemos"],"p2":["malgastad"],"p3":["malgasten"]}
+  }
+}

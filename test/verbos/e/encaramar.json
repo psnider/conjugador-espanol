@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkaɾaˈmaɾ]",
+    "silabacion": "en-ca-ra-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"encaramar","gerundio":"encaramando","participio":"encaramado"},
+  "formas_personales": {
+    "IndPres": {"s1":["encaramo"],"s2":["encaramas"],"vos":["encaramás"],"s3":["encarama"],"p1":["encaramamos"],"p2":["encaramáis"],"p3":["encaraman"]},
+    "IndImp": {"s1":["encaramaba"],"s2":["encaramabas"],"vos":["encaramabas"],"s3":["encaramaba"],"p1":["encaramábamos"],"p2":["encaramabais"],"p3":["encaramaban"]},
+    "IndPret": {"s1":["encaramé"],"s2":["encaramaste"],"vos":["encaramaste"],"s3":["encaramó"],"p1":["encaramamos"],"p2":["encaramasteis"],"p3":["encaramaron"]},
+    "IndFut": {"s1":["encaramaré"],"s2":["encaramarás"],"vos":["encaramarás"],"s3":["encaramará"],"p1":["encaramaremos"],"p2":["encaramaréis"],"p3":["encaramarán"]},
+    "IndCond": {"s1":["encaramaría"],"s2":["encaramarías"],"vos":["encaramarías"],"s3":["encaramaría"],"p1":["encaramaríamos"],"p2":["encaramaríais"],"p3":["encaramarían"]},
+    "SubPres": {"s1":["encarame"],"s2":["encarames"],"vos":["encarames","encaramés"],"s3":["encarame"],"p1":["encaramemos"],"p2":["encaraméis"],"p3":["encaramen"]},
+    "SubImp": {"s1":["encaramara","encaramase"],"s2":["encaramaras","encaramases"],"vos":["encaramaras","encaramases"],"s3":["encaramara","encaramase"],"p1":["encaramáramos","encaramásemos"],"p2":["encaramarais","encaramaseis"],"p3":["encaramaran","encaramasen"]},
+    "SubFut": {"s1":["encaramare"],"s2":["encaramares"],"vos":["encaramares"],"s3":["encaramare"],"p1":["encaramáremos"],"p2":["encaramareis"],"p3":["encaramaren"]},
+    "CmdPos": {"s2":["encarama"],"vos":["encaramá"],"s3":["encarame"],"p1":["encaramemos"],"p2":["encaramad"],"p3":["encaramen"]}
+  }
+}

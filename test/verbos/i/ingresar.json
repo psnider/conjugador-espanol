@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋgɾeˈsaɾ]",
+    "silabacion": "in-gre-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De ingreso y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ingresar","gerundio":"ingresando","participio":"ingresado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ingreso"],"s2":["ingresas"],"vos":["ingresás"],"s3":["ingresa"],"p1":["ingresamos"],"p2":["ingresáis"],"p3":["ingresan"]},
+    "IndImp": {"s1":["ingresaba"],"s2":["ingresabas"],"vos":["ingresabas"],"s3":["ingresaba"],"p1":["ingresábamos"],"p2":["ingresabais"],"p3":["ingresaban"]},
+    "IndPret": {"s1":["ingresé"],"s2":["ingresaste"],"vos":["ingresaste"],"s3":["ingresó"],"p1":["ingresamos"],"p2":["ingresasteis"],"p3":["ingresaron"]},
+    "IndFut": {"s1":["ingresaré"],"s2":["ingresarás"],"vos":["ingresarás"],"s3":["ingresará"],"p1":["ingresaremos"],"p2":["ingresaréis"],"p3":["ingresarán"]},
+    "IndCond": {"s1":["ingresaría"],"s2":["ingresarías"],"vos":["ingresarías"],"s3":["ingresaría"],"p1":["ingresaríamos"],"p2":["ingresaríais"],"p3":["ingresarían"]},
+    "SubPres": {"s1":["ingrese"],"s2":["ingreses"],"vos":["ingreses","ingresés"],"s3":["ingrese"],"p1":["ingresemos"],"p2":["ingreséis"],"p3":["ingresen"]},
+    "SubImp": {"s1":["ingresara","ingresase"],"s2":["ingresaras","ingresases"],"vos":["ingresaras","ingresases"],"s3":["ingresara","ingresase"],"p1":["ingresáramos","ingresásemos"],"p2":["ingresarais","ingresaseis"],"p3":["ingresaran","ingresasen"]},
+    "SubFut": {"s1":["ingresare"],"s2":["ingresares"],"vos":["ingresares"],"s3":["ingresare"],"p1":["ingresáremos"],"p2":["ingresareis"],"p3":["ingresaren"]},
+    "CmdPos": {"s2":["ingresa"],"vos":["ingresá"],"s3":["ingrese"],"p1":["ingresemos"],"p2":["ingresad"],"p3":["ingresen"]}
+  }
+}

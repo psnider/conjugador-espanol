@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekupeˈɾaɾ]",
+    "silabacion": "re-cu-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín recuperare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"recuperar","gerundio":"recuperando","participio":"recuperado"},
+  "formas_personales": {
+    "IndPres": {"s1":["recupero"],"s2":["recuperas"],"vos":["recuperás"],"s3":["recupera"],"p1":["recuperamos"],"p2":["recuperáis"],"p3":["recuperan"]},
+    "IndImp": {"s1":["recuperaba"],"s2":["recuperabas"],"vos":["recuperabas"],"s3":["recuperaba"],"p1":["recuperábamos"],"p2":["recuperabais"],"p3":["recuperaban"]},
+    "IndPret": {"s1":["recuperé"],"s2":["recuperaste"],"vos":["recuperaste"],"s3":["recuperó"],"p1":["recuperamos"],"p2":["recuperasteis"],"p3":["recuperaron"]},
+    "IndFut": {"s1":["recuperaré"],"s2":["recuperarás"],"vos":["recuperarás"],"s3":["recuperará"],"p1":["recuperaremos"],"p2":["recuperaréis"],"p3":["recuperarán"]},
+    "IndCond": {"s1":["recuperaría"],"s2":["recuperarías"],"vos":["recuperarías"],"s3":["recuperaría"],"p1":["recuperaríamos"],"p2":["recuperaríais"],"p3":["recuperarían"]},
+    "SubPres": {"s1":["recupere"],"s2":["recuperes"],"vos":["recuperes","recuperés"],"s3":["recupere"],"p1":["recuperemos"],"p2":["recuperéis"],"p3":["recuperen"]},
+    "SubImp": {"s1":["recuperara","recuperase"],"s2":["recuperaras","recuperases"],"vos":["recuperaras","recuperases"],"s3":["recuperara","recuperase"],"p1":["recuperáramos","recuperásemos"],"p2":["recuperarais","recuperaseis"],"p3":["recuperaran","recuperasen"]},
+    "SubFut": {"s1":["recuperare"],"s2":["recuperares"],"vos":["recuperares"],"s3":["recuperare"],"p1":["recuperáremos"],"p2":["recuperareis"],"p3":["recuperaren"]},
+    "CmdPos": {"s2":["recupera"],"vos":["recuperá"],"s3":["recupere"],"p1":["recuperemos"],"p2":["recuperad"],"p3":["recuperen"]}
+  }
+}

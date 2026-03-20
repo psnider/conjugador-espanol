@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ikˈt̪aɾ]",
+    "silabacion": "dic-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dictatus, participio perfecto pasivo de dicto (\"pronunciar o declarar repetidamente; dictar\"), frecuentativo de dico (\"decir, hablar\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"dictar","gerundio":"dictando","participio":"dictado"},
+  "formas_personales": {
+    "IndPres": {"s1":["dicto"],"s2":["dictas"],"vos":["dictás"],"s3":["dicta"],"p1":["dictamos"],"p2":["dictáis"],"p3":["dictan"]},
+    "IndImp": {"s1":["dictaba"],"s2":["dictabas"],"vos":["dictabas"],"s3":["dictaba"],"p1":["dictábamos"],"p2":["dictabais"],"p3":["dictaban"]},
+    "IndPret": {"s1":["dicté"],"s2":["dictaste"],"vos":["dictaste"],"s3":["dictó"],"p1":["dictamos"],"p2":["dictasteis"],"p3":["dictaron"]},
+    "IndFut": {"s1":["dictaré"],"s2":["dictarás"],"vos":["dictarás"],"s3":["dictará"],"p1":["dictaremos"],"p2":["dictaréis"],"p3":["dictarán"]},
+    "IndCond": {"s1":["dictaría"],"s2":["dictarías"],"vos":["dictarías"],"s3":["dictaría"],"p1":["dictaríamos"],"p2":["dictaríais"],"p3":["dictarían"]},
+    "SubPres": {"s1":["dicte"],"s2":["dictes"],"vos":["dictes","dictés"],"s3":["dicte"],"p1":["dictemos"],"p2":["dictéis"],"p3":["dicten"]},
+    "SubImp": {"s1":["dictara","dictase"],"s2":["dictaras","dictases"],"vos":["dictaras","dictases"],"s3":["dictara","dictase"],"p1":["dictáramos","dictásemos"],"p2":["dictarais","dictaseis"],"p3":["dictaran","dictasen"]},
+    "SubFut": {"s1":["dictare"],"s2":["dictares"],"vos":["dictares"],"s3":["dictare"],"p1":["dictáremos"],"p2":["dictareis"],"p3":["dictaren"]},
+    "CmdPos": {"s2":["dicta"],"vos":["dictá"],"s3":["dicte"],"p1":["dictemos"],"p2":["dictad"],"p3":["dicten"]}
+  }
+}

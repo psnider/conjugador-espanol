@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaspaˈsaɾ]",
+    "silabacion": "tras-pa-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo tras- y pasar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"traspasar","gerundio":"traspasando","participio":"traspasado"},
+  "formas_personales": {
+    "IndPres": {"s1":["traspaso"],"s2":["traspasas"],"vos":["traspasás"],"s3":["traspasa"],"p1":["traspasamos"],"p2":["traspasáis"],"p3":["traspasan"]},
+    "IndImp": {"s1":["traspasaba"],"s2":["traspasabas"],"vos":["traspasabas"],"s3":["traspasaba"],"p1":["traspasábamos"],"p2":["traspasabais"],"p3":["traspasaban"]},
+    "IndPret": {"s1":["traspasé"],"s2":["traspasaste"],"vos":["traspasaste"],"s3":["traspasó"],"p1":["traspasamos"],"p2":["traspasasteis"],"p3":["traspasaron"]},
+    "IndFut": {"s1":["traspasaré"],"s2":["traspasarás"],"vos":["traspasarás"],"s3":["traspasará"],"p1":["traspasaremos"],"p2":["traspasaréis"],"p3":["traspasarán"]},
+    "IndCond": {"s1":["traspasaría"],"s2":["traspasarías"],"vos":["traspasarías"],"s3":["traspasaría"],"p1":["traspasaríamos"],"p2":["traspasaríais"],"p3":["traspasarían"]},
+    "SubPres": {"s1":["traspase"],"s2":["traspases"],"vos":["traspases","traspasés"],"s3":["traspase"],"p1":["traspasemos"],"p2":["traspaséis"],"p3":["traspasen"]},
+    "SubImp": {"s1":["traspasara","traspasase"],"s2":["traspasaras","traspasases"],"vos":["traspasaras","traspasases"],"s3":["traspasara","traspasase"],"p1":["traspasáramos","traspasásemos"],"p2":["traspasarais","traspasaseis"],"p3":["traspasaran","traspasasen"]},
+    "SubFut": {"s1":["traspasare"],"s2":["traspasares"],"vos":["traspasares"],"s3":["traspasare"],"p1":["traspasáremos"],"p2":["traspasareis"],"p3":["traspasaren"]},
+    "CmdPos": {"s2":["traspasa"],"vos":["traspasá"],"s3":["traspase"],"p1":["traspasemos"],"p2":["traspasad"],"p3":["traspasen"]}
+  }
+}

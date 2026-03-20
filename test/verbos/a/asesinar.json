@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asesiˈnaɾ]",
+    "silabacion": "a-se-si-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De asesino y el sufijo -ar. Denominal del español asesino.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asesinar","gerundio":"asesinando","participio":"asesinado"},
+  "formas_personales": {
+    "IndPres": {"s1":["asesino"],"s2":["asesinas"],"vos":["asesinás"],"s3":["asesina"],"p1":["asesinamos"],"p2":["asesináis"],"p3":["asesinan"]},
+    "IndImp": {"s1":["asesinaba"],"s2":["asesinabas"],"vos":["asesinabas"],"s3":["asesinaba"],"p1":["asesinábamos"],"p2":["asesinabais"],"p3":["asesinaban"]},
+    "IndPret": {"s1":["asesiné"],"s2":["asesinaste"],"vos":["asesinaste"],"s3":["asesinó"],"p1":["asesinamos"],"p2":["asesinasteis"],"p3":["asesinaron"]},
+    "IndFut": {"s1":["asesinaré"],"s2":["asesinarás"],"vos":["asesinarás"],"s3":["asesinará"],"p1":["asesinaremos"],"p2":["asesinaréis"],"p3":["asesinarán"]},
+    "IndCond": {"s1":["asesinaría"],"s2":["asesinarías"],"vos":["asesinarías"],"s3":["asesinaría"],"p1":["asesinaríamos"],"p2":["asesinaríais"],"p3":["asesinarían"]},
+    "SubPres": {"s1":["asesine"],"s2":["asesines"],"vos":["asesines","asesinés"],"s3":["asesine"],"p1":["asesinemos"],"p2":["asesinéis"],"p3":["asesinen"]},
+    "SubImp": {"s1":["asesinara","asesinase"],"s2":["asesinaras","asesinases"],"vos":["asesinaras","asesinases"],"s3":["asesinara","asesinase"],"p1":["asesináramos","asesinásemos"],"p2":["asesinarais","asesinaseis"],"p3":["asesinaran","asesinasen"]},
+    "SubFut": {"s1":["asesinare"],"s2":["asesinares"],"vos":["asesinares"],"s3":["asesinare"],"p1":["asesináremos"],"p2":["asesinareis"],"p3":["asesinaren"]},
+    "CmdPos": {"s2":["asesina"],"vos":["asesiná"],"s3":["asesine"],"p1":["asesinemos"],"p2":["asesinad"],"p3":["asesinen"]}
+  }
+}

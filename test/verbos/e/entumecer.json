@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪umeˈseɾ]",
+    "silabacion": "en-tu-me-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín intumescĕre ('hincharse').",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"entumecer","gerundio":"entumeciendo","participio":"entumecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["entumezco"],"s2":["entumeces"],"vos":["entumecés"],"s3":["entumece"],"p1":["entumecemos"],"p2":["entumecéis"],"p3":["entumecen"]},
+    "IndImp": {"s1":["entumecía"],"s2":["entumecías"],"vos":["entumecías"],"s3":["entumecía"],"p1":["entumecíamos"],"p2":["entumecíais"],"p3":["entumecían"]},
+    "IndPret": {"s1":["entumecí"],"s2":["entumeciste"],"vos":["entumeciste"],"s3":["entumeció"],"p1":["entumecimos"],"p2":["entumecisteis"],"p3":["entumecieron"]},
+    "IndFut": {"s1":["entumeceré"],"s2":["entumecerás"],"vos":["entumecerás"],"s3":["entumecerá"],"p1":["entumeceremos"],"p2":["entumeceréis"],"p3":["entumecerán"]},
+    "IndCond": {"s1":["entumecería"],"s2":["entumecerías"],"vos":["entumecerías"],"s3":["entumecería"],"p1":["entumeceríamos"],"p2":["entumeceríais"],"p3":["entumecerían"]},
+    "SubPres": {"s1":["entumezca"],"s2":["entumezcas"],"vos":["entumezcas","entumezcás"],"s3":["entumezca"],"p1":["entumezcamos"],"p2":["entumezcáis"],"p3":["entumezcan"]},
+    "SubImp": {"s1":["entumeciera","entumeciese"],"s2":["entumecieras","entumecieses"],"vos":["entumecieras","entumecieses"],"s3":["entumeciera","entumeciese"],"p1":["entumeciéramos","entumeciésemos"],"p2":["entumecierais","entumecieseis"],"p3":["entumecieran","entumeciesen"]},
+    "SubFut": {"s1":["entumeciere"],"s2":["entumecieres"],"vos":["entumecieres"],"s3":["entumeciere"],"p1":["entumeciéremos"],"p2":["entumeciereis"],"p3":["entumecieren"]},
+    "CmdPos": {"s2":["entumece"],"vos":["entumecé"],"s3":["entumezca"],"p1":["entumezcamos"],"p2":["entumeced"],"p3":["entumezcan"]}
+  }
+}

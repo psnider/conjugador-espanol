@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[makiˈʝaɾ]",
+    "silabacion": "ma-qui-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1932.[1] Del francés maquiller.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"maquillar","gerundio":"maquillando","participio":"maquillado"},
+  "formas_personales": {
+    "IndPres": {"s1":["maquillo"],"s2":["maquillas"],"vos":["maquillás"],"s3":["maquilla"],"p1":["maquillamos"],"p2":["maquilláis"],"p3":["maquillan"]},
+    "IndImp": {"s1":["maquillaba"],"s2":["maquillabas"],"vos":["maquillabas"],"s3":["maquillaba"],"p1":["maquillábamos"],"p2":["maquillabais"],"p3":["maquillaban"]},
+    "IndPret": {"s1":["maquillé"],"s2":["maquillaste"],"vos":["maquillaste"],"s3":["maquilló"],"p1":["maquillamos"],"p2":["maquillasteis"],"p3":["maquillaron"]},
+    "IndFut": {"s1":["maquillaré"],"s2":["maquillarás"],"vos":["maquillarás"],"s3":["maquillará"],"p1":["maquillaremos"],"p2":["maquillaréis"],"p3":["maquillarán"]},
+    "IndCond": {"s1":["maquillaría"],"s2":["maquillarías"],"vos":["maquillarías"],"s3":["maquillaría"],"p1":["maquillaríamos"],"p2":["maquillaríais"],"p3":["maquillarían"]},
+    "SubPres": {"s1":["maquille"],"s2":["maquilles"],"vos":["maquilles","maquillés"],"s3":["maquille"],"p1":["maquillemos"],"p2":["maquilléis"],"p3":["maquillen"]},
+    "SubImp": {"s1":["maquillara","maquillase"],"s2":["maquillaras","maquillases"],"vos":["maquillaras","maquillases"],"s3":["maquillara","maquillase"],"p1":["maquilláramos","maquillásemos"],"p2":["maquillarais","maquillaseis"],"p3":["maquillaran","maquillasen"]},
+    "SubFut": {"s1":["maquillare"],"s2":["maquillares"],"vos":["maquillares"],"s3":["maquillare"],"p1":["maquilláremos"],"p2":["maquillareis"],"p3":["maquillaren"]},
+    "CmdPos": {"s2":["maquilla"],"vos":["maquillá"],"s3":["maquille"],"p1":["maquillemos"],"p2":["maquillad"],"p3":["maquillen"]}
+  }
+}

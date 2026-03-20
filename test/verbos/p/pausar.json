@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pawˈsaɾ]",
+    "silabacion": "pau-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pausare, de pausa y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pausar","gerundio":"pausando","participio":"pausado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pauso"],"s2":["pausas"],"vos":["pausás"],"s3":["pausa"],"p1":["pausamos"],"p2":["pausáis"],"p3":["pausan"]},
+    "IndImp": {"s1":["pausaba"],"s2":["pausabas"],"vos":["pausabas"],"s3":["pausaba"],"p1":["pausábamos"],"p2":["pausabais"],"p3":["pausaban"]},
+    "IndPret": {"s1":["pausé"],"s2":["pausaste"],"vos":["pausaste"],"s3":["pausó"],"p1":["pausamos"],"p2":["pausasteis"],"p3":["pausaron"]},
+    "IndFut": {"s1":["pausaré"],"s2":["pausarás"],"vos":["pausarás"],"s3":["pausará"],"p1":["pausaremos"],"p2":["pausaréis"],"p3":["pausarán"]},
+    "IndCond": {"s1":["pausaría"],"s2":["pausarías"],"vos":["pausarías"],"s3":["pausaría"],"p1":["pausaríamos"],"p2":["pausaríais"],"p3":["pausarían"]},
+    "SubPres": {"s1":["pause"],"s2":["pauses"],"vos":["pauses","pausés"],"s3":["pause"],"p1":["pausemos"],"p2":["pauséis"],"p3":["pausen"]},
+    "SubImp": {"s1":["pausara","pausase"],"s2":["pausaras","pausases"],"vos":["pausaras","pausases"],"s3":["pausara","pausase"],"p1":["pausáramos","pausásemos"],"p2":["pausarais","pausaseis"],"p3":["pausaran","pausasen"]},
+    "SubFut": {"s1":["pausare"],"s2":["pausares"],"vos":["pausares"],"s3":["pausare"],"p1":["pausáremos"],"p2":["pausareis"],"p3":["pausaren"]},
+    "CmdPos": {"s2":["pausa"],"vos":["pausá"],"s3":["pause"],"p1":["pausemos"],"p2":["pausad"],"p3":["pausen"]}
+  }
+}

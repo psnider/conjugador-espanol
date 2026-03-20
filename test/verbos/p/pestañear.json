@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pest̪aɲeˈaɾ]",
+    "silabacion": "pes-ta-ñe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pestaña y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pestañear","gerundio":"pestañeando","participio":"pestañeado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pestañeo"],"s2":["pestañeas"],"vos":["pestañeás"],"s3":["pestañea"],"p1":["pestañeamos"],"p2":["pestañeáis"],"p3":["pestañean"]},
+    "IndImp": {"s1":["pestañeaba"],"s2":["pestañeabas"],"vos":["pestañeabas"],"s3":["pestañeaba"],"p1":["pestañeábamos"],"p2":["pestañeabais"],"p3":["pestañeaban"]},
+    "IndPret": {"s1":["pestañeé"],"s2":["pestañeaste"],"vos":["pestañeaste"],"s3":["pestañeó"],"p1":["pestañeamos"],"p2":["pestañeasteis"],"p3":["pestañearon"]},
+    "IndFut": {"s1":["pestañearé"],"s2":["pestañearás"],"vos":["pestañearás"],"s3":["pestañeará"],"p1":["pestañearemos"],"p2":["pestañearéis"],"p3":["pestañearán"]},
+    "IndCond": {"s1":["pestañearía"],"s2":["pestañearías"],"vos":["pestañearías"],"s3":["pestañearía"],"p1":["pestañearíamos"],"p2":["pestañearíais"],"p3":["pestañearían"]},
+    "SubPres": {"s1":["pestañee"],"s2":["pestañees"],"vos":["pestañees","pestañeés"],"s3":["pestañee"],"p1":["pestañeemos"],"p2":["pestañeéis"],"p3":["pestañeen"]},
+    "SubImp": {"s1":["pestañeara","pestañease"],"s2":["pestañearas","pestañeases"],"vos":["pestañearas","pestañeases"],"s3":["pestañeara","pestañease"],"p1":["pestañeáramos","pestañeásemos"],"p2":["pestañearais","pestañeaseis"],"p3":["pestañearan","pestañeasen"]},
+    "SubFut": {"s1":["pestañeare"],"s2":["pestañeares"],"vos":["pestañeares"],"s3":["pestañeare"],"p1":["pestañeáremos"],"p2":["pestañeareis"],"p3":["pestañearen"]},
+    "CmdPos": {"s2":["pestañea"],"vos":["pestañeá"],"s3":["pestañee"],"p1":["pestañeemos"],"p2":["pestañead"],"p3":["pestañeen"]}
+  }
+}

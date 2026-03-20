@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espũn̪ˈt̪aɾ]",
+    "silabacion": "des-pun-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y punta.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"despuntar","gerundio":"despuntando","participio":"despuntado"},
+  "formas_personales": {
+    "IndPres": {"s1":["despunto"],"s2":["despuntas"],"vos":["despuntás"],"s3":["despunta"],"p1":["despuntamos"],"p2":["despuntáis"],"p3":["despuntan"]},
+    "IndImp": {"s1":["despuntaba"],"s2":["despuntabas"],"vos":["despuntabas"],"s3":["despuntaba"],"p1":["despuntábamos"],"p2":["despuntabais"],"p3":["despuntaban"]},
+    "IndPret": {"s1":["despunté"],"s2":["despuntaste"],"vos":["despuntaste"],"s3":["despuntó"],"p1":["despuntamos"],"p2":["despuntasteis"],"p3":["despuntaron"]},
+    "IndFut": {"s1":["despuntaré"],"s2":["despuntarás"],"vos":["despuntarás"],"s3":["despuntará"],"p1":["despuntaremos"],"p2":["despuntaréis"],"p3":["despuntarán"]},
+    "IndCond": {"s1":["despuntaría"],"s2":["despuntarías"],"vos":["despuntarías"],"s3":["despuntaría"],"p1":["despuntaríamos"],"p2":["despuntaríais"],"p3":["despuntarían"]},
+    "SubPres": {"s1":["despunte"],"s2":["despuntes"],"vos":["despuntes","despuntés"],"s3":["despunte"],"p1":["despuntemos"],"p2":["despuntéis"],"p3":["despunten"]},
+    "SubImp": {"s1":["despuntara","despuntase"],"s2":["despuntaras","despuntases"],"vos":["despuntaras","despuntases"],"s3":["despuntara","despuntase"],"p1":["despuntáramos","despuntásemos"],"p2":["despuntarais","despuntaseis"],"p3":["despuntaran","despuntasen"]},
+    "SubFut": {"s1":["despuntare"],"s2":["despuntares"],"vos":["despuntares"],"s3":["despuntare"],"p1":["despuntáremos"],"p2":["despuntareis"],"p3":["despuntaren"]},
+    "CmdPos": {"s2":["despunta"],"vos":["despuntá"],"s3":["despunte"],"p1":["despuntemos"],"p2":["despuntad"],"p3":["despunten"]}
+  }
+}

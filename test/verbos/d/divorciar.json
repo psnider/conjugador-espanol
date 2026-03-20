@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iβ̞oɾˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"divorciar","gerundio":"divorciando","participio":"divorciado"},
+  "formas_personales": {
+    "IndPres": {"s1":["divorcio"],"s2":["divorcias"],"vos":["divorciás"],"s3":["divorcia"],"p1":["divorciamos"],"p2":["divorciáis"],"p3":["divorcian"]},
+    "IndImp": {"s1":["divorciaba"],"s2":["divorciabas"],"vos":["divorciabas"],"s3":["divorciaba"],"p1":["divorciábamos"],"p2":["divorciabais"],"p3":["divorciaban"]},
+    "IndPret": {"s1":["divorcié"],"s2":["divorciaste"],"vos":["divorciaste"],"s3":["divorció"],"p1":["divorciamos"],"p2":["divorciasteis"],"p3":["divorciaron"]},
+    "IndFut": {"s1":["divorciaré"],"s2":["divorciarás"],"vos":["divorciarás"],"s3":["divorciará"],"p1":["divorciaremos"],"p2":["divorciaréis"],"p3":["divorciarán"]},
+    "IndCond": {"s1":["divorciaría"],"s2":["divorciarías"],"vos":["divorciarías"],"s3":["divorciaría"],"p1":["divorciaríamos"],"p2":["divorciaríais"],"p3":["divorciarían"]},
+    "SubPres": {"s1":["divorcie"],"s2":["divorcies"],"vos":["divorcies","divorciés"],"s3":["divorcie"],"p1":["divorciemos"],"p2":["divorciéis"],"p3":["divorcien"]},
+    "SubImp": {"s1":["divorciara","divorciase"],"s2":["divorciaras","divorciases"],"vos":["divorciaras","divorciases"],"s3":["divorciara","divorciase"],"p1":["divorciáramos","divorciásemos"],"p2":["divorciarais","divorciaseis"],"p3":["divorciaran","divorciasen"]},
+    "SubFut": {"s1":["divorciare"],"s2":["divorciares"],"vos":["divorciares"],"s3":["divorciare"],"p1":["divorciáremos"],"p2":["divorciareis"],"p3":["divorciaren"]},
+    "CmdPos": {"s2":["divorcia"],"vos":["divorciá"],"s3":["divorcie"],"p1":["divorciemos"],"p2":["divorciad"],"p3":["divorcien"]}
+  }
+}

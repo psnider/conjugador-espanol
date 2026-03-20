@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmposiβ̞iliˈt̪aɾ]",
+    "silabacion": "im-po-si-bi-li-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De imposible y el sufijo -itar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"imposibilitar","gerundio":"imposibilitando","participio":"imposibilitado"},
+  "formas_personales": {
+    "IndPres": {"s1":["imposibilito"],"s2":["imposibilitas"],"vos":["imposibilitás"],"s3":["imposibilita"],"p1":["imposibilitamos"],"p2":["imposibilitáis"],"p3":["imposibilitan"]},
+    "IndImp": {"s1":["imposibilitaba"],"s2":["imposibilitabas"],"vos":["imposibilitabas"],"s3":["imposibilitaba"],"p1":["imposibilitábamos"],"p2":["imposibilitabais"],"p3":["imposibilitaban"]},
+    "IndPret": {"s1":["imposibilité"],"s2":["imposibilitaste"],"vos":["imposibilitaste"],"s3":["imposibilitó"],"p1":["imposibilitamos"],"p2":["imposibilitasteis"],"p3":["imposibilitaron"]},
+    "IndFut": {"s1":["imposibilitaré"],"s2":["imposibilitarás"],"vos":["imposibilitarás"],"s3":["imposibilitará"],"p1":["imposibilitaremos"],"p2":["imposibilitaréis"],"p3":["imposibilitarán"]},
+    "IndCond": {"s1":["imposibilitaría"],"s2":["imposibilitarías"],"vos":["imposibilitarías"],"s3":["imposibilitaría"],"p1":["imposibilitaríamos"],"p2":["imposibilitaríais"],"p3":["imposibilitarían"]},
+    "SubPres": {"s1":["imposibilite"],"s2":["imposibilites"],"vos":["imposibilites","imposibilités"],"s3":["imposibilite"],"p1":["imposibilitemos"],"p2":["imposibilitéis"],"p3":["imposibiliten"]},
+    "SubImp": {"s1":["imposibilitara","imposibilitase"],"s2":["imposibilitaras","imposibilitases"],"vos":["imposibilitaras","imposibilitases"],"s3":["imposibilitara","imposibilitase"],"p1":["imposibilitáramos","imposibilitásemos"],"p2":["imposibilitarais","imposibilitaseis"],"p3":["imposibilitaran","imposibilitasen"]},
+    "SubFut": {"s1":["imposibilitare"],"s2":["imposibilitares"],"vos":["imposibilitares"],"s3":["imposibilitare"],"p1":["imposibilitáremos"],"p2":["imposibilitareis"],"p3":["imposibilitaren"]},
+    "CmdPos": {"s2":["imposibilita"],"vos":["imposibilitá"],"s3":["imposibilite"],"p1":["imposibilitemos"],"p2":["imposibilitad"],"p3":["imposibiliten"]}
+  }
+}

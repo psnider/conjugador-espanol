@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾolifeˈɾaɾ]",
+    "silabacion": "pro-li-fe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"proliferar","gerundio":"proliferando","participio":"proliferado"},
+  "formas_personales": {
+    "IndPres": {"s1":["prolifero"],"s2":["proliferas"],"vos":["proliferás"],"s3":["prolifera"],"p1":["proliferamos"],"p2":["proliferáis"],"p3":["proliferan"]},
+    "IndImp": {"s1":["proliferaba"],"s2":["proliferabas"],"vos":["proliferabas"],"s3":["proliferaba"],"p1":["proliferábamos"],"p2":["proliferabais"],"p3":["proliferaban"]},
+    "IndPret": {"s1":["proliferé"],"s2":["proliferaste"],"vos":["proliferaste"],"s3":["proliferó"],"p1":["proliferamos"],"p2":["proliferasteis"],"p3":["proliferaron"]},
+    "IndFut": {"s1":["proliferaré"],"s2":["proliferarás"],"vos":["proliferarás"],"s3":["proliferará"],"p1":["proliferaremos"],"p2":["proliferaréis"],"p3":["proliferarán"]},
+    "IndCond": {"s1":["proliferaría"],"s2":["proliferarías"],"vos":["proliferarías"],"s3":["proliferaría"],"p1":["proliferaríamos"],"p2":["proliferaríais"],"p3":["proliferarían"]},
+    "SubPres": {"s1":["prolifere"],"s2":["proliferes"],"vos":["proliferes","proliferés"],"s3":["prolifere"],"p1":["proliferemos"],"p2":["proliferéis"],"p3":["proliferen"]},
+    "SubImp": {"s1":["proliferara","proliferase"],"s2":["proliferaras","proliferases"],"vos":["proliferaras","proliferases"],"s3":["proliferara","proliferase"],"p1":["proliferáramos","proliferásemos"],"p2":["proliferarais","proliferaseis"],"p3":["proliferaran","proliferasen"]},
+    "SubFut": {"s1":["proliferare"],"s2":["proliferares"],"vos":["proliferares"],"s3":["proliferare"],"p1":["proliferáremos"],"p2":["proliferareis"],"p3":["proliferaren"]},
+    "CmdPos": {"s2":["prolifera"],"vos":["proliferá"],"s3":["prolifere"],"p1":["proliferemos"],"p2":["proliferad"],"p3":["proliferen"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾojˈβ̞iɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín prohibeō, prohibēre, compuesto de pro&nbsp;('antes') y habeō, habēre&nbsp;('tener'). Compárense haber, exhibir, cohibir e inhibir.",
+    "modelos": ["prohibir"]
+  },
+  "formas_no_personales": {"infinitivo":"prohibir","gerundio":"prohibiendo","participio":"prohibido"},
+  "formas_personales": {
+    "IndPres": {"s1":["prohíbo"],"s2":["prohíbes"],"vos":["prohibís"],"s3":["prohíbe"],"p1":["prohibimos"],"p2":["prohibís"],"p3":["prohíben"]},
+    "IndImp": {"s1":["prohibía"],"s2":["prohibías"],"vos":["prohibías"],"s3":["prohibía"],"p1":["prohibíamos"],"p2":["prohibíais"],"p3":["prohibían"]},
+    "IndPret": {"s1":["prohibí"],"s2":["prohibiste"],"vos":["prohibiste"],"s3":["prohibió"],"p1":["prohibimos"],"p2":["prohibisteis"],"p3":["prohibieron"]},
+    "IndFut": {"s1":["prohibiré"],"s2":["prohibirás"],"vos":["prohibirás"],"s3":["prohibirá"],"p1":["prohibiremos"],"p2":["prohibiréis"],"p3":["prohibirán"]},
+    "IndCond": {"s1":["prohibiría"],"s2":["prohibirías"],"vos":["prohibirías"],"s3":["prohibiría"],"p1":["prohibiríamos"],"p2":["prohibiríais"],"p3":["prohibirían"]},
+    "SubPres": {"s1":["prohíba"],"s2":["prohíbas"],"vos":["prohíbas","prohibás"],"s3":["prohíba"],"p1":["prohibamos"],"p2":["prohibáis"],"p3":["prohíban"]},
+    "SubImp": {"s1":["prohibiera","prohibiese"],"s2":["prohibieras","prohibieses"],"vos":["prohibieras","prohibieses"],"s3":["prohibiera","prohibiese"],"p1":["prohibiéramos","prohibiésemos"],"p2":["prohibierais","prohibieseis"],"p3":["prohibieran","prohibiesen"]},
+    "SubFut": {"s1":["prohibiere"],"s2":["prohibieres"],"vos":["prohibieres"],"s3":["prohibiere"],"p1":["prohibiéremos"],"p2":["prohibiereis"],"p3":["prohibieren"]},
+    "CmdPos": {"s2":["prohíbe"],"vos":["prohibí"],"s3":["prohíba"],"p1":["prohibamos"],"p2":["prohibid"],"p3":["prohíban"]}
+  }
+}

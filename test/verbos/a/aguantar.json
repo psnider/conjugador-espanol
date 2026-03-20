@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞wãn̪ˈt̪aɾ]",
+    "silabacion": "a-guan-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1377.[1] Del italiano agguantare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aguantar","gerundio":"aguantando","participio":"aguantado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aguanto"],"s2":["aguantas"],"vos":["aguantás"],"s3":["aguanta"],"p1":["aguantamos"],"p2":["aguantáis"],"p3":["aguantan"]},
+    "IndImp": {"s1":["aguantaba"],"s2":["aguantabas"],"vos":["aguantabas"],"s3":["aguantaba"],"p1":["aguantábamos"],"p2":["aguantabais"],"p3":["aguantaban"]},
+    "IndPret": {"s1":["aguanté"],"s2":["aguantaste"],"vos":["aguantaste"],"s3":["aguantó"],"p1":["aguantamos"],"p2":["aguantasteis"],"p3":["aguantaron"]},
+    "IndFut": {"s1":["aguantaré"],"s2":["aguantarás"],"vos":["aguantarás"],"s3":["aguantará"],"p1":["aguantaremos"],"p2":["aguantaréis"],"p3":["aguantarán"]},
+    "IndCond": {"s1":["aguantaría"],"s2":["aguantarías"],"vos":["aguantarías"],"s3":["aguantaría"],"p1":["aguantaríamos"],"p2":["aguantaríais"],"p3":["aguantarían"]},
+    "SubPres": {"s1":["aguante"],"s2":["aguantes"],"vos":["aguantes","aguantés"],"s3":["aguante"],"p1":["aguantemos"],"p2":["aguantéis"],"p3":["aguanten"]},
+    "SubImp": {"s1":["aguantara","aguantase"],"s2":["aguantaras","aguantases"],"vos":["aguantaras","aguantases"],"s3":["aguantara","aguantase"],"p1":["aguantáramos","aguantásemos"],"p2":["aguantarais","aguantaseis"],"p3":["aguantaran","aguantasen"]},
+    "SubFut": {"s1":["aguantare"],"s2":["aguantares"],"vos":["aguantares"],"s3":["aguantare"],"p1":["aguantáremos"],"p2":["aguantareis"],"p3":["aguantaren"]},
+    "CmdPos": {"s2":["aguanta"],"vos":["aguantá"],"s3":["aguante"],"p1":["aguantemos"],"p2":["aguantad"],"p3":["aguanten"]}
+  }
+}

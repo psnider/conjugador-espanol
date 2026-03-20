@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾopuɣ̞ˈnaɾ]",
+    "silabacion": "pro-pug-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín propugnare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"propugnar","gerundio":"propugnando","participio":"propugnado"},
+  "formas_personales": {
+    "IndPres": {"s1":["propugno"],"s2":["propugnas"],"vos":["propugnás"],"s3":["propugna"],"p1":["propugnamos"],"p2":["propugnáis"],"p3":["propugnan"]},
+    "IndImp": {"s1":["propugnaba"],"s2":["propugnabas"],"vos":["propugnabas"],"s3":["propugnaba"],"p1":["propugnábamos"],"p2":["propugnabais"],"p3":["propugnaban"]},
+    "IndPret": {"s1":["propugné"],"s2":["propugnaste"],"vos":["propugnaste"],"s3":["propugnó"],"p1":["propugnamos"],"p2":["propugnasteis"],"p3":["propugnaron"]},
+    "IndFut": {"s1":["propugnaré"],"s2":["propugnarás"],"vos":["propugnarás"],"s3":["propugnará"],"p1":["propugnaremos"],"p2":["propugnaréis"],"p3":["propugnarán"]},
+    "IndCond": {"s1":["propugnaría"],"s2":["propugnarías"],"vos":["propugnarías"],"s3":["propugnaría"],"p1":["propugnaríamos"],"p2":["propugnaríais"],"p3":["propugnarían"]},
+    "SubPres": {"s1":["propugne"],"s2":["propugnes"],"vos":["propugnes","propugnés"],"s3":["propugne"],"p1":["propugnemos"],"p2":["propugnéis"],"p3":["propugnen"]},
+    "SubImp": {"s1":["propugnara","propugnase"],"s2":["propugnaras","propugnases"],"vos":["propugnaras","propugnases"],"s3":["propugnara","propugnase"],"p1":["propugnáramos","propugnásemos"],"p2":["propugnarais","propugnaseis"],"p3":["propugnaran","propugnasen"]},
+    "SubFut": {"s1":["propugnare"],"s2":["propugnares"],"vos":["propugnares"],"s3":["propugnare"],"p1":["propugnáremos"],"p2":["propugnareis"],"p3":["propugnaren"]},
+    "CmdPos": {"s2":["propugna"],"vos":["propugná"],"s3":["propugne"],"p1":["propugnemos"],"p2":["propugnad"],"p3":["propugnen"]}
+  }
+}

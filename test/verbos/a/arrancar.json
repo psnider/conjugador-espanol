@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arãŋˈkaɾ]",
+    "silabacion": "a-rran-car",
+    "acentuacion": "aguda",
+    "etimologia": "De origen incierto. Coromines[1] lo da por derivado de una forma antigua *esrancar, a su vez del provenzal antiguo ranc o el francés antiguo ranc, \"rango, hilera\", dado el significado original de \"desbandar\"; es probable un cruce con los vocablos latinos eruncare, eradicare, o una hipotética *eradicinare.[2] Véase también rancar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrancar","gerundio":"arrancando","participio":"arrancado"},
+  "formas_personales": {
+    "IndPres": {"s1":["arranco"],"s2":["arrancas"],"vos":["arrancás"],"s3":["arranca"],"p1":["arrancamos"],"p2":["arrancáis"],"p3":["arrancan"]},
+    "IndImp": {"s1":["arrancaba"],"s2":["arrancabas"],"vos":["arrancabas"],"s3":["arrancaba"],"p1":["arrancábamos"],"p2":["arrancabais"],"p3":["arrancaban"]},
+    "IndPret": {"s1":["arranqué"],"s2":["arrancaste"],"vos":["arrancaste"],"s3":["arrancó"],"p1":["arrancamos"],"p2":["arrancasteis"],"p3":["arrancaron"]},
+    "IndFut": {"s1":["arrancaré"],"s2":["arrancarás"],"vos":["arrancarás"],"s3":["arrancará"],"p1":["arrancaremos"],"p2":["arrancaréis"],"p3":["arrancarán"]},
+    "IndCond": {"s1":["arrancaría"],"s2":["arrancarías"],"vos":["arrancarías"],"s3":["arrancaría"],"p1":["arrancaríamos"],"p2":["arrancaríais"],"p3":["arrancarían"]},
+    "SubPres": {"s1":["arranque"],"s2":["arranques"],"vos":["arranques","arranqués"],"s3":["arranque"],"p1":["arranquemos"],"p2":["arranquéis"],"p3":["arranquen"]},
+    "SubImp": {"s1":["arrancara","arrancase"],"s2":["arrancaras","arrancases"],"vos":["arrancaras","arrancases"],"s3":["arrancara","arrancase"],"p1":["arrancáramos","arrancásemos"],"p2":["arrancarais","arrancaseis"],"p3":["arrancaran","arrancasen"]},
+    "SubFut": {"s1":["arrancare"],"s2":["arrancares"],"vos":["arrancares"],"s3":["arrancare"],"p1":["arrancáremos"],"p2":["arrancareis"],"p3":["arrancaren"]},
+    "CmdPos": {"s2":["arranca"],"vos":["arrancá"],"s3":["arranque"],"p1":["arranquemos"],"p2":["arrancad"],"p3":["arranquen"]}
+  }
+}

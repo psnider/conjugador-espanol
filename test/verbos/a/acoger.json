@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akoˈxeɾ]",
+    "silabacion": "a-co-ger",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *accolligere, y este de ad y colligere, \"recoger\", y este de con- y legere, \"juntar, tomar\", del protoindoeuropeo *leg-",
+    "modelos": ["proteger"]
+  },
+  "formas_no_personales": {"infinitivo":"acoger","gerundio":"acogiendo","participio":"acogido"},
+  "formas_personales": {
+    "IndPres": {"s1":["acojo"],"s2":["acoges"],"vos":["acogés"],"s3":["acoge"],"p1":["acogemos"],"p2":["acogéis"],"p3":["acogen"]},
+    "IndImp": {"s1":["acogía"],"s2":["acogías"],"vos":["acogías"],"s3":["acogía"],"p1":["acogíamos"],"p2":["acogíais"],"p3":["acogían"]},
+    "IndPret": {"s1":["acogí"],"s2":["acogiste"],"vos":["acogiste"],"s3":["acogió"],"p1":["acogimos"],"p2":["acogisteis"],"p3":["acogieron"]},
+    "IndFut": {"s1":["acogeré"],"s2":["acogerás"],"vos":["acogerás"],"s3":["acogerá"],"p1":["acogeremos"],"p2":["acogeréis"],"p3":["acogerán"]},
+    "IndCond": {"s1":["acogería"],"s2":["acogerías"],"vos":["acogerías"],"s3":["acogería"],"p1":["acogeríamos"],"p2":["acogeríais"],"p3":["acogerían"]},
+    "SubPres": {"s1":["acoja"],"s2":["acojas"],"vos":["acojas","acojás"],"s3":["acoja"],"p1":["acojamos"],"p2":["acojáis"],"p3":["acojan"]},
+    "SubImp": {"s1":["acogiera","acogiese"],"s2":["acogieras","acogieses"],"vos":["acogieras","acogieses"],"s3":["acogiera","acogiese"],"p1":["acogiéramos","acogiésemos"],"p2":["acogierais","acogieseis"],"p3":["acogieran","acogiesen"]},
+    "SubFut": {"s1":["acogiere"],"s2":["acogieres"],"vos":["acogieres"],"s3":["acogiere"],"p1":["acogiéremos"],"p2":["acogiereis"],"p3":["acogieren"]},
+    "CmdPos": {"s2":["acoge"],"vos":["acogé"],"s3":["acoja"],"p1":["acojamos"],"p2":["acoged"],"p3":["acojan"]}
+  }
+}

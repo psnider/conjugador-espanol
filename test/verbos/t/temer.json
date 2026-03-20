@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪eˈmeɾ]",
+    "silabacion": "te-mer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín timēre.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"temer","gerundio":"temiendo","participio":"temido"},
+  "formas_personales": {
+    "IndPres": {"s1":["temo"],"s2":["temes"],"vos":["temés"],"s3":["teme"],"p1":["tememos"],"p2":["teméis"],"p3":["temen"]},
+    "IndImp": {"s1":["temía"],"s2":["temías"],"vos":["temías"],"s3":["temía"],"p1":["temíamos"],"p2":["temíais"],"p3":["temían"]},
+    "IndPret": {"s1":["temí"],"s2":["temiste"],"vos":["temiste"],"s3":["temió"],"p1":["temimos"],"p2":["temisteis"],"p3":["temieron"]},
+    "IndFut": {"s1":["temeré"],"s2":["temerás"],"vos":["temerás"],"s3":["temerá"],"p1":["temeremos"],"p2":["temeréis"],"p3":["temerán"]},
+    "IndCond": {"s1":["temería"],"s2":["temerías"],"vos":["temerías"],"s3":["temería"],"p1":["temeríamos"],"p2":["temeríais"],"p3":["temerían"]},
+    "SubPres": {"s1":["tema"],"s2":["temas"],"vos":["temas","temás"],"s3":["tema"],"p1":["temamos"],"p2":["temáis"],"p3":["teman"]},
+    "SubImp": {"s1":["temiera","temiese"],"s2":["temieras","temieses"],"vos":["temieras","temieses"],"s3":["temiera","temiese"],"p1":["temiéramos","temiésemos"],"p2":["temierais","temieseis"],"p3":["temieran","temiesen"]},
+    "SubFut": {"s1":["temiere"],"s2":["temieres"],"vos":["temieres"],"s3":["temiere"],"p1":["temiéremos"],"p2":["temiereis"],"p3":["temieren"]},
+    "CmdPos": {"s2":["teme"],"vos":["temé"],"s3":["tema"],"p1":["temamos"],"p2":["temed"],"p3":["teman"]}
+  }
+}

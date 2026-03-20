@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soˈlaɾ]",
+    "silabacion": "so-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín solāris.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"solar","gerundio":"solando","participio":"solado"},
+  "formas_personales": {
+    "IndPres": {"s1":["suelo"],"s2":["suelas"],"vos":["solás"],"s3":["suela"],"p1":["solamos"],"p2":["soláis"],"p3":["suelan"]},
+    "IndImp": {"s1":["solaba"],"s2":["solabas"],"vos":["solabas"],"s3":["solaba"],"p1":["solábamos"],"p2":["solabais"],"p3":["solaban"]},
+    "IndPret": {"s1":["solé"],"s2":["solaste"],"vos":["solaste"],"s3":["soló"],"p1":["solamos"],"p2":["solasteis"],"p3":["solaron"]},
+    "IndFut": {"s1":["solaré"],"s2":["solarás"],"vos":["solarás"],"s3":["solará"],"p1":["solaremos"],"p2":["solaréis"],"p3":["solarán"]},
+    "IndCond": {"s1":["solaría"],"s2":["solarías"],"vos":["solarías"],"s3":["solaría"],"p1":["solaríamos"],"p2":["solaríais"],"p3":["solarían"]},
+    "SubPres": {"s1":["suele"],"s2":["sueles"],"vos":["sueles","solés"],"s3":["suele"],"p1":["solemos"],"p2":["soléis"],"p3":["suelen"]},
+    "SubImp": {"s1":["solara","solase"],"s2":["solaras","solases"],"vos":["solaras","solases"],"s3":["solara","solase"],"p1":["soláramos","solásemos"],"p2":["solarais","solaseis"],"p3":["solaran","solasen"]},
+    "SubFut": {"s1":["solare"],"s2":["solares"],"vos":["solares"],"s3":["solare"],"p1":["soláremos"],"p2":["solareis"],"p3":["solaren"]},
+    "CmdPos": {"s2":["suela"],"vos":["solá"],"s3":["suele"],"p1":["solemos"],"p2":["solad"],"p3":["suelen"]}
+  }
+}

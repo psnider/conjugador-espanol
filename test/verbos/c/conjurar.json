@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋxuˈɾaɾ]",
+    "silabacion": "con-ju-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín coniurāre, compuesto por el prefijo “con” de “cum” y “iurāre” (\"jurar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conjurar","gerundio":"conjurando","participio":"conjurado"},
+  "formas_personales": {
+    "IndPres": {"s1":["conjuro"],"s2":["conjuras"],"vos":["conjurás"],"s3":["conjura"],"p1":["conjuramos"],"p2":["conjuráis"],"p3":["conjuran"]},
+    "IndImp": {"s1":["conjuraba"],"s2":["conjurabas"],"vos":["conjurabas"],"s3":["conjuraba"],"p1":["conjurábamos"],"p2":["conjurabais"],"p3":["conjuraban"]},
+    "IndPret": {"s1":["conjuré"],"s2":["conjuraste"],"vos":["conjuraste"],"s3":["conjuró"],"p1":["conjuramos"],"p2":["conjurasteis"],"p3":["conjuraron"]},
+    "IndFut": {"s1":["conjuraré"],"s2":["conjurarás"],"vos":["conjurarás"],"s3":["conjurará"],"p1":["conjuraremos"],"p2":["conjuraréis"],"p3":["conjurarán"]},
+    "IndCond": {"s1":["conjuraría"],"s2":["conjurarías"],"vos":["conjurarías"],"s3":["conjuraría"],"p1":["conjuraríamos"],"p2":["conjuraríais"],"p3":["conjurarían"]},
+    "SubPres": {"s1":["conjure"],"s2":["conjures"],"vos":["conjures","conjurés"],"s3":["conjure"],"p1":["conjuremos"],"p2":["conjuréis"],"p3":["conjuren"]},
+    "SubImp": {"s1":["conjurara","conjurase"],"s2":["conjuraras","conjurases"],"vos":["conjuraras","conjurases"],"s3":["conjurara","conjurase"],"p1":["conjuráramos","conjurásemos"],"p2":["conjurarais","conjuraseis"],"p3":["conjuraran","conjurasen"]},
+    "SubFut": {"s1":["conjurare"],"s2":["conjurares"],"vos":["conjurares"],"s3":["conjurare"],"p1":["conjuráremos"],"p2":["conjurareis"],"p3":["conjuraren"]},
+    "CmdPos": {"s2":["conjura"],"vos":["conjurá"],"s3":["conjure"],"p1":["conjuremos"],"p2":["conjurad"],"p3":["conjuren"]}
+  }
+}

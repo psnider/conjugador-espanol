@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amaesˈt̪ɾaɾ]",
+    "silabacion": "a-ma-es-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, maestro y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amaestrar","gerundio":"amaestrando","participio":"amaestrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["amaestro"],"s2":["amaestras"],"vos":["amaestrás"],"s3":["amaestra"],"p1":["amaestramos"],"p2":["amaestráis"],"p3":["amaestran"]},
+    "IndImp": {"s1":["amaestraba"],"s2":["amaestrabas"],"vos":["amaestrabas"],"s3":["amaestraba"],"p1":["amaestrábamos"],"p2":["amaestrabais"],"p3":["amaestraban"]},
+    "IndPret": {"s1":["amaestré"],"s2":["amaestraste"],"vos":["amaestraste"],"s3":["amaestró"],"p1":["amaestramos"],"p2":["amaestrasteis"],"p3":["amaestraron"]},
+    "IndFut": {"s1":["amaestraré"],"s2":["amaestrarás"],"vos":["amaestrarás"],"s3":["amaestrará"],"p1":["amaestraremos"],"p2":["amaestraréis"],"p3":["amaestrarán"]},
+    "IndCond": {"s1":["amaestraría"],"s2":["amaestrarías"],"vos":["amaestrarías"],"s3":["amaestraría"],"p1":["amaestraríamos"],"p2":["amaestraríais"],"p3":["amaestrarían"]},
+    "SubPres": {"s1":["amaestre"],"s2":["amaestres"],"vos":["amaestres","amaestrés"],"s3":["amaestre"],"p1":["amaestremos"],"p2":["amaestréis"],"p3":["amaestren"]},
+    "SubImp": {"s1":["amaestrara","amaestrase"],"s2":["amaestraras","amaestrases"],"vos":["amaestraras","amaestrases"],"s3":["amaestrara","amaestrase"],"p1":["amaestráramos","amaestrásemos"],"p2":["amaestrarais","amaestraseis"],"p3":["amaestraran","amaestrasen"]},
+    "SubFut": {"s1":["amaestrare"],"s2":["amaestrares"],"vos":["amaestrares"],"s3":["amaestrare"],"p1":["amaestráremos"],"p2":["amaestrareis"],"p3":["amaestraren"]},
+    "CmdPos": {"s2":["amaestra"],"vos":["amaestrá"],"s3":["amaestre"],"p1":["amaestremos"],"p2":["amaestrad"],"p3":["amaestren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lusˈt̪ɾaɾ]",
+    "silabacion": "lus-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lustrar","gerundio":"lustrando","participio":"lustrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["lustro"],"s2":["lustras"],"vos":["lustrás"],"s3":["lustra"],"p1":["lustramos"],"p2":["lustráis"],"p3":["lustran"]},
+    "IndImp": {"s1":["lustraba"],"s2":["lustrabas"],"vos":["lustrabas"],"s3":["lustraba"],"p1":["lustrábamos"],"p2":["lustrabais"],"p3":["lustraban"]},
+    "IndPret": {"s1":["lustré"],"s2":["lustraste"],"vos":["lustraste"],"s3":["lustró"],"p1":["lustramos"],"p2":["lustrasteis"],"p3":["lustraron"]},
+    "IndFut": {"s1":["lustraré"],"s2":["lustrarás"],"vos":["lustrarás"],"s3":["lustrará"],"p1":["lustraremos"],"p2":["lustraréis"],"p3":["lustrarán"]},
+    "IndCond": {"s1":["lustraría"],"s2":["lustrarías"],"vos":["lustrarías"],"s3":["lustraría"],"p1":["lustraríamos"],"p2":["lustraríais"],"p3":["lustrarían"]},
+    "SubPres": {"s1":["lustre"],"s2":["lustres"],"vos":["lustres","lustrés"],"s3":["lustre"],"p1":["lustremos"],"p2":["lustréis"],"p3":["lustren"]},
+    "SubImp": {"s1":["lustrara","lustrase"],"s2":["lustraras","lustrases"],"vos":["lustraras","lustrases"],"s3":["lustrara","lustrase"],"p1":["lustráramos","lustrásemos"],"p2":["lustrarais","lustraseis"],"p3":["lustraran","lustrasen"]},
+    "SubFut": {"s1":["lustrare"],"s2":["lustrares"],"vos":["lustrares"],"s3":["lustrare"],"p1":["lustráremos"],"p2":["lustrareis"],"p3":["lustraren"]},
+    "CmdPos": {"s2":["lustra"],"vos":["lustrá"],"s3":["lustre"],"p1":["lustremos"],"p2":["lustrad"],"p3":["lustren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rewˈsaɾ]",
+    "silabacion": "rehu-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín refusāre y refūsus ('rechazado')",
+    "modelos": ["aunar"]
+  },
+  "formas_no_personales": {"infinitivo":"rehusar","gerundio":"rehusando","participio":"rehusado"},
+  "formas_personales": {
+    "IndPres": {"s1":["rehúso"],"s2":["rehúsas"],"vos":["rehusás"],"s3":["rehúsa"],"p1":["rehusamos"],"p2":["rehusáis"],"p3":["rehúsan"]},
+    "IndImp": {"s1":["rehusaba"],"s2":["rehusabas"],"vos":["rehusabas"],"s3":["rehusaba"],"p1":["rehusábamos"],"p2":["rehusabais"],"p3":["rehusaban"]},
+    "IndPret": {"s1":["rehusé"],"s2":["rehusaste"],"vos":["rehusaste"],"s3":["rehusó"],"p1":["rehusamos"],"p2":["rehusasteis"],"p3":["rehusaron"]},
+    "IndFut": {"s1":["rehusaré"],"s2":["rehusarás"],"vos":["rehusarás"],"s3":["rehusará"],"p1":["rehusaremos"],"p2":["rehusaréis"],"p3":["rehusarán"]},
+    "IndCond": {"s1":["rehusaría"],"s2":["rehusarías"],"vos":["rehusarías"],"s3":["rehusaría"],"p1":["rehusaríamos"],"p2":["rehusaríais"],"p3":["rehusarían"]},
+    "SubPres": {"s1":["rehúse"],"s2":["rehúses"],"vos":["rehúses","rehusés"],"s3":["rehúse"],"p1":["rehusemos"],"p2":["rehuséis"],"p3":["rehúsen"]},
+    "SubImp": {"s1":["rehusara","rehusase"],"s2":["rehusaras","rehusases"],"vos":["rehusaras","rehusases"],"s3":["rehusara","rehusase"],"p1":["rehusáramos","rehusásemos"],"p2":["rehusarais","rehusaseis"],"p3":["rehusaran","rehusasen"]},
+    "SubFut": {"s1":["rehusare"],"s2":["rehusares"],"vos":["rehusares"],"s3":["rehusare"],"p1":["rehusáremos"],"p2":["rehusareis"],"p3":["rehusaren"]},
+    "CmdPos": {"s2":["rehúsa"],"vos":["rehusá"],"s3":["rehúse"],"p1":["rehusemos"],"p2":["rehusad"],"p3":["rehúsen"]}
+  }
+}

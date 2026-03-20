@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suˈð̞aɾ]",
+    "silabacion": "su-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sūdō, -āre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sudar","gerundio":"sudando","participio":"sudado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sudo"],"s2":["sudas"],"vos":["sudás"],"s3":["suda"],"p1":["sudamos"],"p2":["sudáis"],"p3":["sudan"]},
+    "IndImp": {"s1":["sudaba"],"s2":["sudabas"],"vos":["sudabas"],"s3":["sudaba"],"p1":["sudábamos"],"p2":["sudabais"],"p3":["sudaban"]},
+    "IndPret": {"s1":["sudé"],"s2":["sudaste"],"vos":["sudaste"],"s3":["sudó"],"p1":["sudamos"],"p2":["sudasteis"],"p3":["sudaron"]},
+    "IndFut": {"s1":["sudaré"],"s2":["sudarás"],"vos":["sudarás"],"s3":["sudará"],"p1":["sudaremos"],"p2":["sudaréis"],"p3":["sudarán"]},
+    "IndCond": {"s1":["sudaría"],"s2":["sudarías"],"vos":["sudarías"],"s3":["sudaría"],"p1":["sudaríamos"],"p2":["sudaríais"],"p3":["sudarían"]},
+    "SubPres": {"s1":["sude"],"s2":["sudes"],"vos":["sudes","sudés"],"s3":["sude"],"p1":["sudemos"],"p2":["sudéis"],"p3":["suden"]},
+    "SubImp": {"s1":["sudara","sudase"],"s2":["sudaras","sudases"],"vos":["sudaras","sudases"],"s3":["sudara","sudase"],"p1":["sudáramos","sudásemos"],"p2":["sudarais","sudaseis"],"p3":["sudaran","sudasen"]},
+    "SubFut": {"s1":["sudare"],"s2":["sudares"],"vos":["sudares"],"s3":["sudare"],"p1":["sudáremos"],"p2":["sudareis"],"p3":["sudaren"]},
+    "CmdPos": {"s2":["suda"],"vos":["sudá"],"s3":["sude"],"p1":["sudemos"],"p2":["sudad"],"p3":["suden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akuˈsaɾ]",
+    "silabacion": "a-cu-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín accūsō, accūsāre,[1] compuesto del latín causa.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acusar","gerundio":"acusando","participio":"acusado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acuso"],"s2":["acusas"],"vos":["acusás"],"s3":["acusa"],"p1":["acusamos"],"p2":["acusáis"],"p3":["acusan"]},
+    "IndImp": {"s1":["acusaba"],"s2":["acusabas"],"vos":["acusabas"],"s3":["acusaba"],"p1":["acusábamos"],"p2":["acusabais"],"p3":["acusaban"]},
+    "IndPret": {"s1":["acusé"],"s2":["acusaste"],"vos":["acusaste"],"s3":["acusó"],"p1":["acusamos"],"p2":["acusasteis"],"p3":["acusaron"]},
+    "IndFut": {"s1":["acusaré"],"s2":["acusarás"],"vos":["acusarás"],"s3":["acusará"],"p1":["acusaremos"],"p2":["acusaréis"],"p3":["acusarán"]},
+    "IndCond": {"s1":["acusaría"],"s2":["acusarías"],"vos":["acusarías"],"s3":["acusaría"],"p1":["acusaríamos"],"p2":["acusaríais"],"p3":["acusarían"]},
+    "SubPres": {"s1":["acuse"],"s2":["acuses"],"vos":["acuses","acusés"],"s3":["acuse"],"p1":["acusemos"],"p2":["acuséis"],"p3":["acusen"]},
+    "SubImp": {"s1":["acusara","acusase"],"s2":["acusaras","acusases"],"vos":["acusaras","acusases"],"s3":["acusara","acusase"],"p1":["acusáramos","acusásemos"],"p2":["acusarais","acusaseis"],"p3":["acusaran","acusasen"]},
+    "SubFut": {"s1":["acusare"],"s2":["acusares"],"vos":["acusares"],"s3":["acusare"],"p1":["acusáremos"],"p2":["acusareis"],"p3":["acusaren"]},
+    "CmdPos": {"s2":["acusa"],"vos":["acusá"],"s3":["acuse"],"p1":["acusemos"],"p2":["acusad"],"p3":["acusen"]}
+  }
+}

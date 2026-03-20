@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈɣ̞waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De agua.",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"aguar","gerundio":"aguando","participio":"aguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aguo"],"s2":["aguas"],"vos":["aguás"],"s3":["agua"],"p1":["aguamos"],"p2":["aguáis"],"p3":["aguan"]},
+    "IndImp": {"s1":["aguaba"],"s2":["aguabas"],"vos":["aguabas"],"s3":["aguaba"],"p1":["aguábamos"],"p2":["aguabais"],"p3":["aguaban"]},
+    "IndPret": {"s1":["agüé"],"s2":["aguaste"],"vos":["aguaste"],"s3":["aguó"],"p1":["aguamos"],"p2":["aguasteis"],"p3":["aguaron"]},
+    "IndFut": {"s1":["aguaré"],"s2":["aguarás"],"vos":["aguarás"],"s3":["aguará"],"p1":["aguaremos"],"p2":["aguaréis"],"p3":["aguarán"]},
+    "IndCond": {"s1":["aguaría"],"s2":["aguarías"],"vos":["aguarías"],"s3":["aguaría"],"p1":["aguaríamos"],"p2":["aguaríais"],"p3":["aguarían"]},
+    "SubPres": {"s1":["agüe"],"s2":["agües"],"vos":["agües","agüés"],"s3":["agüe"],"p1":["agüemos"],"p2":["agüéis"],"p3":["agüen"]},
+    "SubImp": {"s1":["aguara","aguase"],"s2":["aguaras","aguases"],"vos":["aguaras","aguases"],"s3":["aguara","aguase"],"p1":["aguáramos","aguásemos"],"p2":["aguarais","aguaseis"],"p3":["aguaran","aguasen"]},
+    "SubFut": {"s1":["aguare"],"s2":["aguares"],"vos":["aguares"],"s3":["aguare"],"p1":["aguáremos"],"p2":["aguareis"],"p3":["aguaren"]},
+    "CmdPos": {"s2":["agua"],"vos":["aguá"],"s3":["agüe"],"p1":["agüemos"],"p2":["aguad"],"p3":["agüen"]}
+  }
+}

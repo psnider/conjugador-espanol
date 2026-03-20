@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eriˈβ̞aɾ]",
+    "silabacion": "de-rri-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"derribar","gerundio":"derribando","participio":"derribado"},
+  "formas_personales": {
+    "IndPres": {"s1":["derribo"],"s2":["derribas"],"vos":["derribás"],"s3":["derriba"],"p1":["derribamos"],"p2":["derribáis"],"p3":["derriban"]},
+    "IndImp": {"s1":["derribaba"],"s2":["derribabas"],"vos":["derribabas"],"s3":["derribaba"],"p1":["derribábamos"],"p2":["derribabais"],"p3":["derribaban"]},
+    "IndPret": {"s1":["derribé"],"s2":["derribaste"],"vos":["derribaste"],"s3":["derribó"],"p1":["derribamos"],"p2":["derribasteis"],"p3":["derribaron"]},
+    "IndFut": {"s1":["derribaré"],"s2":["derribarás"],"vos":["derribarás"],"s3":["derribará"],"p1":["derribaremos"],"p2":["derribaréis"],"p3":["derribarán"]},
+    "IndCond": {"s1":["derribaría"],"s2":["derribarías"],"vos":["derribarías"],"s3":["derribaría"],"p1":["derribaríamos"],"p2":["derribaríais"],"p3":["derribarían"]},
+    "SubPres": {"s1":["derribe"],"s2":["derribes"],"vos":["derribes","derribés"],"s3":["derribe"],"p1":["derribemos"],"p2":["derribéis"],"p3":["derriben"]},
+    "SubImp": {"s1":["derribara","derribase"],"s2":["derribaras","derribases"],"vos":["derribaras","derribases"],"s3":["derribara","derribase"],"p1":["derribáramos","derribásemos"],"p2":["derribarais","derribaseis"],"p3":["derribaran","derribasen"]},
+    "SubFut": {"s1":["derribare"],"s2":["derribares"],"vos":["derribares"],"s3":["derribare"],"p1":["derribáremos"],"p2":["derribareis"],"p3":["derribaren"]},
+    "CmdPos": {"s2":["derriba"],"vos":["derribá"],"s3":["derribe"],"p1":["derribemos"],"p2":["derribad"],"p3":["derriben"]}
+  }
+}

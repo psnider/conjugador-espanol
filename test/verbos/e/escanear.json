@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskaneˈaɾ]",
+    "silabacion": "es-ca-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"escanear","gerundio":"escaneando","participio":"escaneado"},
+  "formas_personales": {
+    "IndPres": {"s1":["escaneo"],"s2":["escaneas"],"vos":["escaneás"],"s3":["escanea"],"p1":["escaneamos"],"p2":["escaneáis"],"p3":["escanean"]},
+    "IndImp": {"s1":["escaneaba"],"s2":["escaneabas"],"vos":["escaneabas"],"s3":["escaneaba"],"p1":["escaneábamos"],"p2":["escaneabais"],"p3":["escaneaban"]},
+    "IndPret": {"s1":["escaneé"],"s2":["escaneaste"],"vos":["escaneaste"],"s3":["escaneó"],"p1":["escaneamos"],"p2":["escaneasteis"],"p3":["escanearon"]},
+    "IndFut": {"s1":["escanearé"],"s2":["escanearás"],"vos":["escanearás"],"s3":["escaneará"],"p1":["escanearemos"],"p2":["escanearéis"],"p3":["escanearán"]},
+    "IndCond": {"s1":["escanearía"],"s2":["escanearías"],"vos":["escanearías"],"s3":["escanearía"],"p1":["escanearíamos"],"p2":["escanearíais"],"p3":["escanearían"]},
+    "SubPres": {"s1":["escanee"],"s2":["escanees"],"vos":["escanees","escaneés"],"s3":["escanee"],"p1":["escaneemos"],"p2":["escaneéis"],"p3":["escaneen"]},
+    "SubImp": {"s1":["escaneara","escanease"],"s2":["escanearas","escaneases"],"vos":["escanearas","escaneases"],"s3":["escaneara","escanease"],"p1":["escaneáramos","escaneásemos"],"p2":["escanearais","escaneaseis"],"p3":["escanearan","escaneasen"]},
+    "SubFut": {"s1":["escaneare"],"s2":["escaneares"],"vos":["escaneares"],"s3":["escaneare"],"p1":["escaneáremos"],"p2":["escaneareis"],"p3":["escanearen"]},
+    "CmdPos": {"s2":["escanea"],"vos":["escaneá"],"s3":["escanee"],"p1":["escaneemos"],"p2":["escanead"],"p3":["escaneen"]}
+  }
+}

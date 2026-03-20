@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esumaniˈsaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"deshumanizar","gerundio":"deshumanizando","participio":"deshumanizado"},
+  "formas_personales": {
+    "IndPres": {"s1":["deshumanizo"],"s2":["deshumanizas"],"vos":["deshumanizás"],"s3":["deshumaniza"],"p1":["deshumanizamos"],"p2":["deshumanizáis"],"p3":["deshumanizan"]},
+    "IndImp": {"s1":["deshumanizaba"],"s2":["deshumanizabas"],"vos":["deshumanizabas"],"s3":["deshumanizaba"],"p1":["deshumanizábamos"],"p2":["deshumanizabais"],"p3":["deshumanizaban"]},
+    "IndPret": {"s1":["deshumanicé"],"s2":["deshumanizaste"],"vos":["deshumanizaste"],"s3":["deshumanizó"],"p1":["deshumanizamos"],"p2":["deshumanizasteis"],"p3":["deshumanizaron"]},
+    "IndFut": {"s1":["deshumanizaré"],"s2":["deshumanizarás"],"vos":["deshumanizarás"],"s3":["deshumanizará"],"p1":["deshumanizaremos"],"p2":["deshumanizaréis"],"p3":["deshumanizarán"]},
+    "IndCond": {"s1":["deshumanizaría"],"s2":["deshumanizarías"],"vos":["deshumanizarías"],"s3":["deshumanizaría"],"p1":["deshumanizaríamos"],"p2":["deshumanizaríais"],"p3":["deshumanizarían"]},
+    "SubPres": {"s1":["deshumanice"],"s2":["deshumanices"],"vos":["deshumanices","deshumanicés"],"s3":["deshumanice"],"p1":["deshumanicemos"],"p2":["deshumanicéis"],"p3":["deshumanicen"]},
+    "SubImp": {"s1":["deshumanizara","deshumanizase"],"s2":["deshumanizaras","deshumanizases"],"vos":["deshumanizaras","deshumanizases"],"s3":["deshumanizara","deshumanizase"],"p1":["deshumanizáramos","deshumanizásemos"],"p2":["deshumanizarais","deshumanizaseis"],"p3":["deshumanizaran","deshumanizasen"]},
+    "SubFut": {"s1":["deshumanizare"],"s2":["deshumanizares"],"vos":["deshumanizares"],"s3":["deshumanizare"],"p1":["deshumanizáremos"],"p2":["deshumanizareis"],"p3":["deshumanizaren"]},
+    "CmdPos": {"s2":["deshumaniza"],"vos":["deshumanizá"],"s3":["deshumanice"],"p1":["deshumanicemos"],"p2":["deshumanizad"],"p3":["deshumanicen"]}
+  }
+}

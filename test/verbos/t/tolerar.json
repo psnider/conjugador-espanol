@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oleˈɾaɾ]",
+    "silabacion": "to-le-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tolerāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tolerar","gerundio":"tolerando","participio":"tolerado"},
+  "formas_personales": {
+    "IndPres": {"s1":["tolero"],"s2":["toleras"],"vos":["tolerás"],"s3":["tolera"],"p1":["toleramos"],"p2":["toleráis"],"p3":["toleran"]},
+    "IndImp": {"s1":["toleraba"],"s2":["tolerabas"],"vos":["tolerabas"],"s3":["toleraba"],"p1":["tolerábamos"],"p2":["tolerabais"],"p3":["toleraban"]},
+    "IndPret": {"s1":["toleré"],"s2":["toleraste"],"vos":["toleraste"],"s3":["toleró"],"p1":["toleramos"],"p2":["tolerasteis"],"p3":["toleraron"]},
+    "IndFut": {"s1":["toleraré"],"s2":["tolerarás"],"vos":["tolerarás"],"s3":["tolerará"],"p1":["toleraremos"],"p2":["toleraréis"],"p3":["tolerarán"]},
+    "IndCond": {"s1":["toleraría"],"s2":["tolerarías"],"vos":["tolerarías"],"s3":["toleraría"],"p1":["toleraríamos"],"p2":["toleraríais"],"p3":["tolerarían"]},
+    "SubPres": {"s1":["tolere"],"s2":["toleres"],"vos":["toleres","tolerés"],"s3":["tolere"],"p1":["toleremos"],"p2":["toleréis"],"p3":["toleren"]},
+    "SubImp": {"s1":["tolerara","tolerase"],"s2":["toleraras","tolerases"],"vos":["toleraras","tolerases"],"s3":["tolerara","tolerase"],"p1":["toleráramos","tolerásemos"],"p2":["tolerarais","toleraseis"],"p3":["toleraran","tolerasen"]},
+    "SubFut": {"s1":["tolerare"],"s2":["tolerares"],"vos":["tolerares"],"s3":["tolerare"],"p1":["toleráremos"],"p2":["tolerareis"],"p3":["toleraren"]},
+    "CmdPos": {"s2":["tolera"],"vos":["tolerá"],"s3":["tolere"],"p1":["toleremos"],"p2":["tolerad"],"p3":["toleren"]}
+  }
+}

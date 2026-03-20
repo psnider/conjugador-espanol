@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞aˈɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y variar.[2]",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"desvariar","gerundio":"desvariando","participio":"desvariado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desvarío"],"s2":["desvarías"],"vos":["desvariás"],"s3":["desvaría"],"p1":["desvariamos"],"p2":["desvariáis"],"p3":["desvarían"]},
+    "IndImp": {"s1":["desvariaba"],"s2":["desvariabas"],"vos":["desvariabas"],"s3":["desvariaba"],"p1":["desvariábamos"],"p2":["desvariabais"],"p3":["desvariaban"]},
+    "IndPret": {"s1":["desvarié"],"s2":["desvariaste"],"vos":["desvariaste"],"s3":["desvarió"],"p1":["desvariamos"],"p2":["desvariasteis"],"p3":["desvariaron"]},
+    "IndFut": {"s1":["desvariaré"],"s2":["desvariarás"],"vos":["desvariarás"],"s3":["desvariará"],"p1":["desvariaremos"],"p2":["desvariaréis"],"p3":["desvariarán"]},
+    "IndCond": {"s1":["desvariaría"],"s2":["desvariarías"],"vos":["desvariarías"],"s3":["desvariaría"],"p1":["desvariaríamos"],"p2":["desvariaríais"],"p3":["desvariarían"]},
+    "SubPres": {"s1":["desvaríe"],"s2":["desvaríes"],"vos":["desvaríes","desvariés"],"s3":["desvaríe"],"p1":["desvariemos"],"p2":["desvariéis"],"p3":["desvaríen"]},
+    "SubImp": {"s1":["desvariara","desvariase"],"s2":["desvariaras","desvariases"],"vos":["desvariaras","desvariases"],"s3":["desvariara","desvariase"],"p1":["desvariáramos","desvariásemos"],"p2":["desvariarais","desvariaseis"],"p3":["desvariaran","desvariasen"]},
+    "SubFut": {"s1":["desvariare"],"s2":["desvariares"],"vos":["desvariares"],"s3":["desvariare"],"p1":["desvariáremos"],"p2":["desvariareis"],"p3":["desvariaren"]},
+    "CmdPos": {"s2":["desvaría"],"vos":["desvariá"],"s3":["desvaríe"],"p1":["desvariemos"],"p2":["desvariad"],"p3":["desvaríen"]}
+  }
+}

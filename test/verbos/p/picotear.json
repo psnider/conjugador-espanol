@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pikot̪eˈaɾ]",
+    "silabacion": "pi-co-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pico",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"picotear","gerundio":"picoteando","participio":"picoteado"},
+  "formas_personales": {
+    "IndPres": {"s1":["picoteo"],"s2":["picoteas"],"vos":["picoteás"],"s3":["picotea"],"p1":["picoteamos"],"p2":["picoteáis"],"p3":["picotean"]},
+    "IndImp": {"s1":["picoteaba"],"s2":["picoteabas"],"vos":["picoteabas"],"s3":["picoteaba"],"p1":["picoteábamos"],"p2":["picoteabais"],"p3":["picoteaban"]},
+    "IndPret": {"s1":["picoteé"],"s2":["picoteaste"],"vos":["picoteaste"],"s3":["picoteó"],"p1":["picoteamos"],"p2":["picoteasteis"],"p3":["picotearon"]},
+    "IndFut": {"s1":["picotearé"],"s2":["picotearás"],"vos":["picotearás"],"s3":["picoteará"],"p1":["picotearemos"],"p2":["picotearéis"],"p3":["picotearán"]},
+    "IndCond": {"s1":["picotearía"],"s2":["picotearías"],"vos":["picotearías"],"s3":["picotearía"],"p1":["picotearíamos"],"p2":["picotearíais"],"p3":["picotearían"]},
+    "SubPres": {"s1":["picotee"],"s2":["picotees"],"vos":["picotees","picoteés"],"s3":["picotee"],"p1":["picoteemos"],"p2":["picoteéis"],"p3":["picoteen"]},
+    "SubImp": {"s1":["picoteara","picotease"],"s2":["picotearas","picoteases"],"vos":["picotearas","picoteases"],"s3":["picoteara","picotease"],"p1":["picoteáramos","picoteásemos"],"p2":["picotearais","picoteaseis"],"p3":["picotearan","picoteasen"]},
+    "SubFut": {"s1":["picoteare"],"s2":["picoteares"],"vos":["picoteares"],"s3":["picoteare"],"p1":["picoteáremos"],"p2":["picoteareis"],"p3":["picotearen"]},
+    "CmdPos": {"s2":["picotea"],"vos":["picoteá"],"s3":["picotee"],"p1":["picoteemos"],"p2":["picotead"],"p3":["picoteen"]}
+  }
+}

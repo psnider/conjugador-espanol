@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pesˈkaɾ]",
+    "silabacion": "pes-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín piscari",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"pescar","gerundio":"pescando","participio":"pescado"},
+  "formas_personales": {
+    "IndPres": {"s1":["pesco"],"s2":["pescas"],"vos":["pescás"],"s3":["pesca"],"p1":["pescamos"],"p2":["pescáis"],"p3":["pescan"]},
+    "IndImp": {"s1":["pescaba"],"s2":["pescabas"],"vos":["pescabas"],"s3":["pescaba"],"p1":["pescábamos"],"p2":["pescabais"],"p3":["pescaban"]},
+    "IndPret": {"s1":["pesqué"],"s2":["pescaste"],"vos":["pescaste"],"s3":["pescó"],"p1":["pescamos"],"p2":["pescasteis"],"p3":["pescaron"]},
+    "IndFut": {"s1":["pescaré"],"s2":["pescarás"],"vos":["pescarás"],"s3":["pescará"],"p1":["pescaremos"],"p2":["pescaréis"],"p3":["pescarán"]},
+    "IndCond": {"s1":["pescaría"],"s2":["pescarías"],"vos":["pescarías"],"s3":["pescaría"],"p1":["pescaríamos"],"p2":["pescaríais"],"p3":["pescarían"]},
+    "SubPres": {"s1":["pesque"],"s2":["pesques"],"vos":["pesques","pesqués"],"s3":["pesque"],"p1":["pesquemos"],"p2":["pesquéis"],"p3":["pesquen"]},
+    "SubImp": {"s1":["pescara","pescase"],"s2":["pescaras","pescases"],"vos":["pescaras","pescases"],"s3":["pescara","pescase"],"p1":["pescáramos","pescásemos"],"p2":["pescarais","pescaseis"],"p3":["pescaran","pescasen"]},
+    "SubFut": {"s1":["pescare"],"s2":["pescares"],"vos":["pescares"],"s3":["pescare"],"p1":["pescáremos"],"p2":["pescareis"],"p3":["pescaren"]},
+    "CmdPos": {"s2":["pesca"],"vos":["pescá"],"s3":["pesque"],"p1":["pesquemos"],"p2":["pescad"],"p3":["pesquen"]}
+  }
+}

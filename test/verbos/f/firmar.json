@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fiɾˈmaɾ]",
+    "silabacion": "fir-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín firmare ('afirmar'), dar fuerza.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"firmar","gerundio":"firmando","participio":"firmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["firmo"],"s2":["firmas"],"vos":["firmás"],"s3":["firma"],"p1":["firmamos"],"p2":["firmáis"],"p3":["firman"]},
+    "IndImp": {"s1":["firmaba"],"s2":["firmabas"],"vos":["firmabas"],"s3":["firmaba"],"p1":["firmábamos"],"p2":["firmabais"],"p3":["firmaban"]},
+    "IndPret": {"s1":["firmé"],"s2":["firmaste"],"vos":["firmaste"],"s3":["firmó"],"p1":["firmamos"],"p2":["firmasteis"],"p3":["firmaron"]},
+    "IndFut": {"s1":["firmaré"],"s2":["firmarás"],"vos":["firmarás"],"s3":["firmará"],"p1":["firmaremos"],"p2":["firmaréis"],"p3":["firmarán"]},
+    "IndCond": {"s1":["firmaría"],"s2":["firmarías"],"vos":["firmarías"],"s3":["firmaría"],"p1":["firmaríamos"],"p2":["firmaríais"],"p3":["firmarían"]},
+    "SubPres": {"s1":["firme"],"s2":["firmes"],"vos":["firmes","firmés"],"s3":["firme"],"p1":["firmemos"],"p2":["firméis"],"p3":["firmen"]},
+    "SubImp": {"s1":["firmara","firmase"],"s2":["firmaras","firmases"],"vos":["firmaras","firmases"],"s3":["firmara","firmase"],"p1":["firmáramos","firmásemos"],"p2":["firmarais","firmaseis"],"p3":["firmaran","firmasen"]},
+    "SubFut": {"s1":["firmare"],"s2":["firmares"],"vos":["firmares"],"s3":["firmare"],"p1":["firmáremos"],"p2":["firmareis"],"p3":["firmaren"]},
+    "CmdPos": {"s2":["firma"],"vos":["firmá"],"s3":["firme"],"p1":["firmemos"],"p2":["firmad"],"p3":["firmen"]}
+  }
+}

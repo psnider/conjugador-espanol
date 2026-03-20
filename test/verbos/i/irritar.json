@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[iriˈt̪aɾ]",
+    "silabacion": "i-rri-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín irritare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"irritar","gerundio":"irritando","participio":"irritado"},
+  "formas_personales": {
+    "IndPres": {"s1":["irrito"],"s2":["irritas"],"vos":["irritás"],"s3":["irrita"],"p1":["irritamos"],"p2":["irritáis"],"p3":["irritan"]},
+    "IndImp": {"s1":["irritaba"],"s2":["irritabas"],"vos":["irritabas"],"s3":["irritaba"],"p1":["irritábamos"],"p2":["irritabais"],"p3":["irritaban"]},
+    "IndPret": {"s1":["irrité"],"s2":["irritaste"],"vos":["irritaste"],"s3":["irritó"],"p1":["irritamos"],"p2":["irritasteis"],"p3":["irritaron"]},
+    "IndFut": {"s1":["irritaré"],"s2":["irritarás"],"vos":["irritarás"],"s3":["irritará"],"p1":["irritaremos"],"p2":["irritaréis"],"p3":["irritarán"]},
+    "IndCond": {"s1":["irritaría"],"s2":["irritarías"],"vos":["irritarías"],"s3":["irritaría"],"p1":["irritaríamos"],"p2":["irritaríais"],"p3":["irritarían"]},
+    "SubPres": {"s1":["irrite"],"s2":["irrites"],"vos":["irrites","irrités"],"s3":["irrite"],"p1":["irritemos"],"p2":["irritéis"],"p3":["irriten"]},
+    "SubImp": {"s1":["irritara","irritase"],"s2":["irritaras","irritases"],"vos":["irritaras","irritases"],"s3":["irritara","irritase"],"p1":["irritáramos","irritásemos"],"p2":["irritarais","irritaseis"],"p3":["irritaran","irritasen"]},
+    "SubFut": {"s1":["irritare"],"s2":["irritares"],"vos":["irritares"],"s3":["irritare"],"p1":["irritáremos"],"p2":["irritareis"],"p3":["irritaren"]},
+    "CmdPos": {"s2":["irrita"],"vos":["irritá"],"s3":["irrite"],"p1":["irritemos"],"p2":["irritad"],"p3":["irriten"]}
+  }
+}

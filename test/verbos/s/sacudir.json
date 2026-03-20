@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sakuˈð̞iɾ]",
+    "silabacion": "sa-cu-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín succutĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"sacudir","gerundio":"sacudiendo","participio":"sacudido"},
+  "formas_personales": {
+    "IndPres": {"s1":["sacudo"],"s2":["sacudes"],"vos":["sacudís"],"s3":["sacude"],"p1":["sacudimos"],"p2":["sacudís"],"p3":["sacuden"]},
+    "IndImp": {"s1":["sacudía"],"s2":["sacudías"],"vos":["sacudías"],"s3":["sacudía"],"p1":["sacudíamos"],"p2":["sacudíais"],"p3":["sacudían"]},
+    "IndPret": {"s1":["sacudí"],"s2":["sacudiste"],"vos":["sacudiste"],"s3":["sacudió"],"p1":["sacudimos"],"p2":["sacudisteis"],"p3":["sacudieron"]},
+    "IndFut": {"s1":["sacudiré"],"s2":["sacudirás"],"vos":["sacudirás"],"s3":["sacudirá"],"p1":["sacudiremos"],"p2":["sacudiréis"],"p3":["sacudirán"]},
+    "IndCond": {"s1":["sacudiría"],"s2":["sacudirías"],"vos":["sacudirías"],"s3":["sacudiría"],"p1":["sacudiríamos"],"p2":["sacudiríais"],"p3":["sacudirían"]},
+    "SubPres": {"s1":["sacuda"],"s2":["sacudas"],"vos":["sacudas","sacudás"],"s3":["sacuda"],"p1":["sacudamos"],"p2":["sacudáis"],"p3":["sacudan"]},
+    "SubImp": {"s1":["sacudiera","sacudiese"],"s2":["sacudieras","sacudieses"],"vos":["sacudieras","sacudieses"],"s3":["sacudiera","sacudiese"],"p1":["sacudiéramos","sacudiésemos"],"p2":["sacudierais","sacudieseis"],"p3":["sacudieran","sacudiesen"]},
+    "SubFut": {"s1":["sacudiere"],"s2":["sacudieres"],"vos":["sacudieres"],"s3":["sacudiere"],"p1":["sacudiéremos"],"p2":["sacudiereis"],"p3":["sacudieren"]},
+    "CmdPos": {"s2":["sacude"],"vos":["sacudí"],"s3":["sacuda"],"p1":["sacudamos"],"p2":["sacudid"],"p3":["sacudan"]}
+  }
+}

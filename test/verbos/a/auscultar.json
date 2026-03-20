@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awskul̪ˈt̪aɾ]",
+    "silabacion": "aus-cul-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín auscultāre (\"escuchar con atención\"), infinitivo presente activo del latín ausculto, y este del latín auris— y del protoindoeuropeo *klei-. Compárese el doblete heredado escuchar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"auscultar","gerundio":"auscultando","participio":"auscultado"},
+  "formas_personales": {
+    "IndPres": {"s1":["ausculto"],"s2":["auscultas"],"vos":["auscultás"],"s3":["ausculta"],"p1":["auscultamos"],"p2":["auscultáis"],"p3":["auscultan"]},
+    "IndImp": {"s1":["auscultaba"],"s2":["auscultabas"],"vos":["auscultabas"],"s3":["auscultaba"],"p1":["auscultábamos"],"p2":["auscultabais"],"p3":["auscultaban"]},
+    "IndPret": {"s1":["ausculté"],"s2":["auscultaste"],"vos":["auscultaste"],"s3":["auscultó"],"p1":["auscultamos"],"p2":["auscultasteis"],"p3":["auscultaron"]},
+    "IndFut": {"s1":["auscultaré"],"s2":["auscultarás"],"vos":["auscultarás"],"s3":["auscultará"],"p1":["auscultaremos"],"p2":["auscultaréis"],"p3":["auscultarán"]},
+    "IndCond": {"s1":["auscultaría"],"s2":["auscultarías"],"vos":["auscultarías"],"s3":["auscultaría"],"p1":["auscultaríamos"],"p2":["auscultaríais"],"p3":["auscultarían"]},
+    "SubPres": {"s1":["ausculte"],"s2":["auscultes"],"vos":["auscultes","auscultés"],"s3":["ausculte"],"p1":["auscultemos"],"p2":["auscultéis"],"p3":["ausculten"]},
+    "SubImp": {"s1":["auscultara","auscultase"],"s2":["auscultaras","auscultases"],"vos":["auscultaras","auscultases"],"s3":["auscultara","auscultase"],"p1":["auscultáramos","auscultásemos"],"p2":["auscultarais","auscultaseis"],"p3":["auscultaran","auscultasen"]},
+    "SubFut": {"s1":["auscultare"],"s2":["auscultares"],"vos":["auscultares"],"s3":["auscultare"],"p1":["auscultáremos"],"p2":["auscultareis"],"p3":["auscultaren"]},
+    "CmdPos": {"s2":["ausculta"],"vos":["auscultá"],"s3":["ausculte"],"p1":["auscultemos"],"p2":["auscultad"],"p3":["ausculten"]}
+  }
+}

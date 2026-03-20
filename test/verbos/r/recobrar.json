@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekoˈβ̞ɾaɾ]",
+    "silabacion": "re-co-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"recobrar","gerundio":"recobrando","participio":"recobrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["recobro"],"s2":["recobras"],"vos":["recobrás"],"s3":["recobra"],"p1":["recobramos"],"p2":["recobráis"],"p3":["recobran"]},
+    "IndImp": {"s1":["recobraba"],"s2":["recobrabas"],"vos":["recobrabas"],"s3":["recobraba"],"p1":["recobrábamos"],"p2":["recobrabais"],"p3":["recobraban"]},
+    "IndPret": {"s1":["recobré"],"s2":["recobraste"],"vos":["recobraste"],"s3":["recobró"],"p1":["recobramos"],"p2":["recobrasteis"],"p3":["recobraron"]},
+    "IndFut": {"s1":["recobraré"],"s2":["recobrarás"],"vos":["recobrarás"],"s3":["recobrará"],"p1":["recobraremos"],"p2":["recobraréis"],"p3":["recobrarán"]},
+    "IndCond": {"s1":["recobraría"],"s2":["recobrarías"],"vos":["recobrarías"],"s3":["recobraría"],"p1":["recobraríamos"],"p2":["recobraríais"],"p3":["recobrarían"]},
+    "SubPres": {"s1":["recobre"],"s2":["recobres"],"vos":["recobres","recobrés"],"s3":["recobre"],"p1":["recobremos"],"p2":["recobréis"],"p3":["recobren"]},
+    "SubImp": {"s1":["recobrara","recobrase"],"s2":["recobraras","recobrases"],"vos":["recobraras","recobrases"],"s3":["recobrara","recobrase"],"p1":["recobráramos","recobrásemos"],"p2":["recobrarais","recobraseis"],"p3":["recobraran","recobrasen"]},
+    "SubFut": {"s1":["recobrare"],"s2":["recobrares"],"vos":["recobrares"],"s3":["recobrare"],"p1":["recobráremos"],"p2":["recobrareis"],"p3":["recobraren"]},
+    "CmdPos": {"s2":["recobra"],"vos":["recobrá"],"s3":["recobre"],"p1":["recobremos"],"p2":["recobrad"],"p3":["recobren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪d̪eˈnaɾ]",
+    "silabacion": "con-de-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín condemnāre ('sentenciar'), de com- y damnare (\"hacer daño\", \"maldecir\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"condenar","gerundio":"condenando","participio":"condenado"},
+  "formas_personales": {
+    "IndPres": {"s1":["condeno"],"s2":["condenas"],"vos":["condenás"],"s3":["condena"],"p1":["condenamos"],"p2":["condenáis"],"p3":["condenan"]},
+    "IndImp": {"s1":["condenaba"],"s2":["condenabas"],"vos":["condenabas"],"s3":["condenaba"],"p1":["condenábamos"],"p2":["condenabais"],"p3":["condenaban"]},
+    "IndPret": {"s1":["condené"],"s2":["condenaste"],"vos":["condenaste"],"s3":["condenó"],"p1":["condenamos"],"p2":["condenasteis"],"p3":["condenaron"]},
+    "IndFut": {"s1":["condenaré"],"s2":["condenarás"],"vos":["condenarás"],"s3":["condenará"],"p1":["condenaremos"],"p2":["condenaréis"],"p3":["condenarán"]},
+    "IndCond": {"s1":["condenaría"],"s2":["condenarías"],"vos":["condenarías"],"s3":["condenaría"],"p1":["condenaríamos"],"p2":["condenaríais"],"p3":["condenarían"]},
+    "SubPres": {"s1":["condene"],"s2":["condenes"],"vos":["condenes","condenés"],"s3":["condene"],"p1":["condenemos"],"p2":["condenéis"],"p3":["condenen"]},
+    "SubImp": {"s1":["condenara","condenase"],"s2":["condenaras","condenases"],"vos":["condenaras","condenases"],"s3":["condenara","condenase"],"p1":["condenáramos","condenásemos"],"p2":["condenarais","condenaseis"],"p3":["condenaran","condenasen"]},
+    "SubFut": {"s1":["condenare"],"s2":["condenares"],"vos":["condenares"],"s3":["condenare"],"p1":["condenáremos"],"p2":["condenareis"],"p3":["condenaren"]},
+    "CmdPos": {"s2":["condena"],"vos":["condená"],"s3":["condene"],"p1":["condenemos"],"p2":["condenad"],"p3":["condenen"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞eɾiˈɣ̞waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo averiugar, y este del latín medieval *adverificare, \"comprobar\", a su vez de verificare, del clásico verus, \"verdadero\", en última instancia del protoindoeuropeo *wēr-, y facere, \"hacer\", en última instancia del protoindoeuropeo *dʰeh₁-, \"fijar\"",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"averiguar","gerundio":"averiguando","participio":"averiguado"},
+  "formas_personales": {
+    "IndPres": {"s1":["averiguo"],"s2":["averiguas"],"vos":["averiguás"],"s3":["averigua"],"p1":["averiguamos"],"p2":["averiguáis"],"p3":["averiguan"]},
+    "IndImp": {"s1":["averiguaba"],"s2":["averiguabas"],"vos":["averiguabas"],"s3":["averiguaba"],"p1":["averiguábamos"],"p2":["averiguabais"],"p3":["averiguaban"]},
+    "IndPret": {"s1":["averigüé"],"s2":["averiguaste"],"vos":["averiguaste"],"s3":["averiguó"],"p1":["averiguamos"],"p2":["averiguasteis"],"p3":["averiguaron"]},
+    "IndFut": {"s1":["averiguaré"],"s2":["averiguarás"],"vos":["averiguarás"],"s3":["averiguará"],"p1":["averiguaremos"],"p2":["averiguaréis"],"p3":["averiguarán"]},
+    "IndCond": {"s1":["averiguaría"],"s2":["averiguarías"],"vos":["averiguarías"],"s3":["averiguaría"],"p1":["averiguaríamos"],"p2":["averiguaríais"],"p3":["averiguarían"]},
+    "SubPres": {"s1":["averigüe"],"s2":["averigües"],"vos":["averigües","averigüés"],"s3":["averigüe"],"p1":["averigüemos"],"p2":["averigüéis"],"p3":["averigüen"]},
+    "SubImp": {"s1":["averiguara","averiguase"],"s2":["averiguaras","averiguases"],"vos":["averiguaras","averiguases"],"s3":["averiguara","averiguase"],"p1":["averiguáramos","averiguásemos"],"p2":["averiguarais","averiguaseis"],"p3":["averiguaran","averiguasen"]},
+    "SubFut": {"s1":["averiguare"],"s2":["averiguares"],"vos":["averiguares"],"s3":["averiguare"],"p1":["averiguáremos"],"p2":["averiguareis"],"p3":["averiguaren"]},
+    "CmdPos": {"s2":["averigua"],"vos":["averiguá"],"s3":["averigüe"],"p1":["averigüemos"],"p2":["averiguad"],"p3":["averigüen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽɱflakeˈseɾ]",
+    "silabacion": "en-fla-que-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, flaco y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enflaquecer","gerundio":"enflaqueciendo","participio":"enflaquecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["enflaquezco"],"s2":["enflaqueces"],"vos":["enflaquecés"],"s3":["enflaquece"],"p1":["enflaquecemos"],"p2":["enflaquecéis"],"p3":["enflaquecen"]},
+    "IndImp": {"s1":["enflaquecía"],"s2":["enflaquecías"],"vos":["enflaquecías"],"s3":["enflaquecía"],"p1":["enflaquecíamos"],"p2":["enflaquecíais"],"p3":["enflaquecían"]},
+    "IndPret": {"s1":["enflaquecí"],"s2":["enflaqueciste"],"vos":["enflaqueciste"],"s3":["enflaqueció"],"p1":["enflaquecimos"],"p2":["enflaquecisteis"],"p3":["enflaquecieron"]},
+    "IndFut": {"s1":["enflaqueceré"],"s2":["enflaquecerás"],"vos":["enflaquecerás"],"s3":["enflaquecerá"],"p1":["enflaqueceremos"],"p2":["enflaqueceréis"],"p3":["enflaquecerán"]},
+    "IndCond": {"s1":["enflaquecería"],"s2":["enflaquecerías"],"vos":["enflaquecerías"],"s3":["enflaquecería"],"p1":["enflaqueceríamos"],"p2":["enflaqueceríais"],"p3":["enflaquecerían"]},
+    "SubPres": {"s1":["enflaquezca"],"s2":["enflaquezcas"],"vos":["enflaquezcas","enflaquezcás"],"s3":["enflaquezca"],"p1":["enflaquezcamos"],"p2":["enflaquezcáis"],"p3":["enflaquezcan"]},
+    "SubImp": {"s1":["enflaqueciera","enflaqueciese"],"s2":["enflaquecieras","enflaquecieses"],"vos":["enflaquecieras","enflaquecieses"],"s3":["enflaqueciera","enflaqueciese"],"p1":["enflaqueciéramos","enflaqueciésemos"],"p2":["enflaquecierais","enflaquecieseis"],"p3":["enflaquecieran","enflaqueciesen"]},
+    "SubFut": {"s1":["enflaqueciere"],"s2":["enflaquecieres"],"vos":["enflaquecieres"],"s3":["enflaqueciere"],"p1":["enflaqueciéremos"],"p2":["enflaqueciereis"],"p3":["enflaquecieren"]},
+    "CmdPos": {"s2":["enflaquece"],"vos":["enflaquecé"],"s3":["enflaquezca"],"p1":["enflaquezcamos"],"p2":["enflaqueced"],"p3":["enflaquezcan"]}
+  }
+}

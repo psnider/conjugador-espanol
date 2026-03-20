@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asikaˈlaɾ]",
+    "silabacion": "a-ci-ca-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del árabe صقل ('pulimento').[2] [3]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acicalar","gerundio":"acicalando","participio":"acicalado"},
+  "formas_personales": {
+    "IndPres": {"s1":["acicalo"],"s2":["acicalas"],"vos":["acicalás"],"s3":["acicala"],"p1":["acicalamos"],"p2":["acicaláis"],"p3":["acicalan"]},
+    "IndImp": {"s1":["acicalaba"],"s2":["acicalabas"],"vos":["acicalabas"],"s3":["acicalaba"],"p1":["acicalábamos"],"p2":["acicalabais"],"p3":["acicalaban"]},
+    "IndPret": {"s1":["acicalé"],"s2":["acicalaste"],"vos":["acicalaste"],"s3":["acicaló"],"p1":["acicalamos"],"p2":["acicalasteis"],"p3":["acicalaron"]},
+    "IndFut": {"s1":["acicalaré"],"s2":["acicalarás"],"vos":["acicalarás"],"s3":["acicalará"],"p1":["acicalaremos"],"p2":["acicalaréis"],"p3":["acicalarán"]},
+    "IndCond": {"s1":["acicalaría"],"s2":["acicalarías"],"vos":["acicalarías"],"s3":["acicalaría"],"p1":["acicalaríamos"],"p2":["acicalaríais"],"p3":["acicalarían"]},
+    "SubPres": {"s1":["acicale"],"s2":["acicales"],"vos":["acicales","acicalés"],"s3":["acicale"],"p1":["acicalemos"],"p2":["acicaléis"],"p3":["acicalen"]},
+    "SubImp": {"s1":["acicalara","acicalase"],"s2":["acicalaras","acicalases"],"vos":["acicalaras","acicalases"],"s3":["acicalara","acicalase"],"p1":["acicaláramos","acicalásemos"],"p2":["acicalarais","acicalaseis"],"p3":["acicalaran","acicalasen"]},
+    "SubFut": {"s1":["acicalare"],"s2":["acicalares"],"vos":["acicalares"],"s3":["acicalare"],"p1":["acicaláremos"],"p2":["acicalareis"],"p3":["acicalaren"]},
+    "CmdPos": {"s2":["acicala"],"vos":["acicalá"],"s3":["acicale"],"p1":["acicalemos"],"p2":["acicalad"],"p3":["acicalen"]}
+  }
+}

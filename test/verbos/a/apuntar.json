@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apũn̪ˈt̪aɾ]",
+    "silabacion": "a-pun-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, punta y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apuntar","gerundio":"apuntando","participio":"apuntado"},
+  "formas_personales": {
+    "IndPres": {"s1":["apunto"],"s2":["apuntas"],"vos":["apuntás"],"s3":["apunta"],"p1":["apuntamos"],"p2":["apuntáis"],"p3":["apuntan"]},
+    "IndImp": {"s1":["apuntaba"],"s2":["apuntabas"],"vos":["apuntabas"],"s3":["apuntaba"],"p1":["apuntábamos"],"p2":["apuntabais"],"p3":["apuntaban"]},
+    "IndPret": {"s1":["apunté"],"s2":["apuntaste"],"vos":["apuntaste"],"s3":["apuntó"],"p1":["apuntamos"],"p2":["apuntasteis"],"p3":["apuntaron"]},
+    "IndFut": {"s1":["apuntaré"],"s2":["apuntarás"],"vos":["apuntarás"],"s3":["apuntará"],"p1":["apuntaremos"],"p2":["apuntaréis"],"p3":["apuntarán"]},
+    "IndCond": {"s1":["apuntaría"],"s2":["apuntarías"],"vos":["apuntarías"],"s3":["apuntaría"],"p1":["apuntaríamos"],"p2":["apuntaríais"],"p3":["apuntarían"]},
+    "SubPres": {"s1":["apunte"],"s2":["apuntes"],"vos":["apuntes","apuntés"],"s3":["apunte"],"p1":["apuntemos"],"p2":["apuntéis"],"p3":["apunten"]},
+    "SubImp": {"s1":["apuntara","apuntase"],"s2":["apuntaras","apuntases"],"vos":["apuntaras","apuntases"],"s3":["apuntara","apuntase"],"p1":["apuntáramos","apuntásemos"],"p2":["apuntarais","apuntaseis"],"p3":["apuntaran","apuntasen"]},
+    "SubFut": {"s1":["apuntare"],"s2":["apuntares"],"vos":["apuntares"],"s3":["apuntare"],"p1":["apuntáremos"],"p2":["apuntareis"],"p3":["apuntaren"]},
+    "CmdPos": {"s2":["apunta"],"vos":["apuntá"],"s3":["apunte"],"p1":["apuntemos"],"p2":["apuntad"],"p3":["apunten"]}
+  }
+}

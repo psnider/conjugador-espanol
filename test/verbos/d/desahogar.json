@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaoˈɣ̞aɾ]",
+    "silabacion": "des-a-ho-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y ahogar.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"desahogar","gerundio":"desahogando","participio":"desahogado"},
+  "formas_personales": {
+    "IndPres": {"s1":["desahogo"],"s2":["desahogas"],"vos":["desahogás"],"s3":["desahoga"],"p1":["desahogamos"],"p2":["desahogáis"],"p3":["desahogan"]},
+    "IndImp": {"s1":["desahogaba"],"s2":["desahogabas"],"vos":["desahogabas"],"s3":["desahogaba"],"p1":["desahogábamos"],"p2":["desahogabais"],"p3":["desahogaban"]},
+    "IndPret": {"s1":["desahogué"],"s2":["desahogaste"],"vos":["desahogaste"],"s3":["desahogó"],"p1":["desahogamos"],"p2":["desahogasteis"],"p3":["desahogaron"]},
+    "IndFut": {"s1":["desahogaré"],"s2":["desahogarás"],"vos":["desahogarás"],"s3":["desahogará"],"p1":["desahogaremos"],"p2":["desahogaréis"],"p3":["desahogarán"]},
+    "IndCond": {"s1":["desahogaría"],"s2":["desahogarías"],"vos":["desahogarías"],"s3":["desahogaría"],"p1":["desahogaríamos"],"p2":["desahogaríais"],"p3":["desahogarían"]},
+    "SubPres": {"s1":["desahogue"],"s2":["desahogues"],"vos":["desahogues","desahogués"],"s3":["desahogue"],"p1":["desahoguemos"],"p2":["desahoguéis"],"p3":["desahoguen"]},
+    "SubImp": {"s1":["desahogara","desahogase"],"s2":["desahogaras","desahogases"],"vos":["desahogaras","desahogases"],"s3":["desahogara","desahogase"],"p1":["desahogáramos","desahogásemos"],"p2":["desahogarais","desahogaseis"],"p3":["desahogaran","desahogasen"]},
+    "SubFut": {"s1":["desahogare"],"s2":["desahogares"],"vos":["desahogares"],"s3":["desahogare"],"p1":["desahogáremos"],"p2":["desahogareis"],"p3":["desahogaren"]},
+    "CmdPos": {"s2":["desahoga"],"vos":["desahogá"],"s3":["desahogue"],"p1":["desahoguemos"],"p2":["desahogad"],"p3":["desahoguen"]}
+  }
+}

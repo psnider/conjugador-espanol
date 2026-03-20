@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪uɾˈnaɾ]",
+    "silabacion": "tur-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés tourner.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"turnar","gerundio":"turnando","participio":"turnado"},
+  "formas_personales": {
+    "IndPres": {"s1":["turno"],"s2":["turnas"],"vos":["turnás"],"s3":["turna"],"p1":["turnamos"],"p2":["turnáis"],"p3":["turnan"]},
+    "IndImp": {"s1":["turnaba"],"s2":["turnabas"],"vos":["turnabas"],"s3":["turnaba"],"p1":["turnábamos"],"p2":["turnabais"],"p3":["turnaban"]},
+    "IndPret": {"s1":["turné"],"s2":["turnaste"],"vos":["turnaste"],"s3":["turnó"],"p1":["turnamos"],"p2":["turnasteis"],"p3":["turnaron"]},
+    "IndFut": {"s1":["turnaré"],"s2":["turnarás"],"vos":["turnarás"],"s3":["turnará"],"p1":["turnaremos"],"p2":["turnaréis"],"p3":["turnarán"]},
+    "IndCond": {"s1":["turnaría"],"s2":["turnarías"],"vos":["turnarías"],"s3":["turnaría"],"p1":["turnaríamos"],"p2":["turnaríais"],"p3":["turnarían"]},
+    "SubPres": {"s1":["turne"],"s2":["turnes"],"vos":["turnes","turnés"],"s3":["turne"],"p1":["turnemos"],"p2":["turnéis"],"p3":["turnen"]},
+    "SubImp": {"s1":["turnara","turnase"],"s2":["turnaras","turnases"],"vos":["turnaras","turnases"],"s3":["turnara","turnase"],"p1":["turnáramos","turnásemos"],"p2":["turnarais","turnaseis"],"p3":["turnaran","turnasen"]},
+    "SubFut": {"s1":["turnare"],"s2":["turnares"],"vos":["turnares"],"s3":["turnare"],"p1":["turnáremos"],"p2":["turnareis"],"p3":["turnaren"]},
+    "CmdPos": {"s2":["turna"],"vos":["turná"],"s3":["turne"],"p1":["turnemos"],"p2":["turnad"],"p3":["turnen"]}
+  }
+}

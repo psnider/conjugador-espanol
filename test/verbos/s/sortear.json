@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soɾt̪eˈaɾ]",
+    "silabacion": "sor-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sors, sortis.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sortear","gerundio":"sorteando","participio":"sorteado"},
+  "formas_personales": {
+    "IndPres": {"s1":["sorteo"],"s2":["sorteas"],"vos":["sorteás"],"s3":["sortea"],"p1":["sorteamos"],"p2":["sorteáis"],"p3":["sortean"]},
+    "IndImp": {"s1":["sorteaba"],"s2":["sorteabas"],"vos":["sorteabas"],"s3":["sorteaba"],"p1":["sorteábamos"],"p2":["sorteabais"],"p3":["sorteaban"]},
+    "IndPret": {"s1":["sorteé"],"s2":["sorteaste"],"vos":["sorteaste"],"s3":["sorteó"],"p1":["sorteamos"],"p2":["sorteasteis"],"p3":["sortearon"]},
+    "IndFut": {"s1":["sortearé"],"s2":["sortearás"],"vos":["sortearás"],"s3":["sorteará"],"p1":["sortearemos"],"p2":["sortearéis"],"p3":["sortearán"]},
+    "IndCond": {"s1":["sortearía"],"s2":["sortearías"],"vos":["sortearías"],"s3":["sortearía"],"p1":["sortearíamos"],"p2":["sortearíais"],"p3":["sortearían"]},
+    "SubPres": {"s1":["sortee"],"s2":["sortees"],"vos":["sortees","sorteés"],"s3":["sortee"],"p1":["sorteemos"],"p2":["sorteéis"],"p3":["sorteen"]},
+    "SubImp": {"s1":["sorteara","sortease"],"s2":["sortearas","sorteases"],"vos":["sortearas","sorteases"],"s3":["sorteara","sortease"],"p1":["sorteáramos","sorteásemos"],"p2":["sortearais","sorteaseis"],"p3":["sortearan","sorteasen"]},
+    "SubFut": {"s1":["sorteare"],"s2":["sorteares"],"vos":["sorteares"],"s3":["sorteare"],"p1":["sorteáremos"],"p2":["sorteareis"],"p3":["sortearen"]},
+    "CmdPos": {"s2":["sortea"],"vos":["sorteá"],"s3":["sortee"],"p1":["sorteemos"],"p2":["sortead"],"p3":["sorteen"]}
+  }
+}

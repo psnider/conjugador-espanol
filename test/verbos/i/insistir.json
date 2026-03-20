@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnsisˈt̪iɾ]",
+    "silabacion": "in-sis-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín insistĕre, formado por el prefijo in- (\"hacia adentro\", \"en\") y sistĕre (\"adoptar una postura, ponerse en pie, mantenerse\").",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"insistir","gerundio":"insistiendo","participio":"insistido"},
+  "formas_personales": {
+    "IndPres": {"s1":["insisto"],"s2":["insistes"],"vos":["insistís"],"s3":["insiste"],"p1":["insistimos"],"p2":["insistís"],"p3":["insisten"]},
+    "IndImp": {"s1":["insistía"],"s2":["insistías"],"vos":["insistías"],"s3":["insistía"],"p1":["insistíamos"],"p2":["insistíais"],"p3":["insistían"]},
+    "IndPret": {"s1":["insistí"],"s2":["insististe"],"vos":["insististe"],"s3":["insistió"],"p1":["insistimos"],"p2":["insististeis"],"p3":["insistieron"]},
+    "IndFut": {"s1":["insistiré"],"s2":["insistirás"],"vos":["insistirás"],"s3":["insistirá"],"p1":["insistiremos"],"p2":["insistiréis"],"p3":["insistirán"]},
+    "IndCond": {"s1":["insistiría"],"s2":["insistirías"],"vos":["insistirías"],"s3":["insistiría"],"p1":["insistiríamos"],"p2":["insistiríais"],"p3":["insistirían"]},
+    "SubPres": {"s1":["insista"],"s2":["insistas"],"vos":["insistas","insistás"],"s3":["insista"],"p1":["insistamos"],"p2":["insistáis"],"p3":["insistan"]},
+    "SubImp": {"s1":["insistiera","insistiese"],"s2":["insistieras","insistieses"],"vos":["insistieras","insistieses"],"s3":["insistiera","insistiese"],"p1":["insistiéramos","insistiésemos"],"p2":["insistierais","insistieseis"],"p3":["insistieran","insistiesen"]},
+    "SubFut": {"s1":["insistiere"],"s2":["insistieres"],"vos":["insistieres"],"s3":["insistiere"],"p1":["insistiéremos"],"p2":["insistiereis"],"p3":["insistieren"]},
+    "CmdPos": {"s2":["insiste"],"vos":["insistí"],"s3":["insista"],"p1":["insistamos"],"p2":["insistid"],"p3":["insistan"]}
+  }
+}

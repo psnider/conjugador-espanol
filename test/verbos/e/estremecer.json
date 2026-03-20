@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾemeˈseɾ]",
+    "silabacion": "es-tre-me-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ex ('fuera') y tremiscere (\"comenzar a temblar\").[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"estremecer","gerundio":"estremeciendo","participio":"estremecido"},
+  "formas_personales": {
+    "IndPres": {"s1":["estremezco"],"s2":["estremeces"],"vos":["estremecés"],"s3":["estremece"],"p1":["estremecemos"],"p2":["estremecéis"],"p3":["estremecen"]},
+    "IndImp": {"s1":["estremecía"],"s2":["estremecías"],"vos":["estremecías"],"s3":["estremecía"],"p1":["estremecíamos"],"p2":["estremecíais"],"p3":["estremecían"]},
+    "IndPret": {"s1":["estremecí"],"s2":["estremeciste"],"vos":["estremeciste"],"s3":["estremeció"],"p1":["estremecimos"],"p2":["estremecisteis"],"p3":["estremecieron"]},
+    "IndFut": {"s1":["estremeceré"],"s2":["estremecerás"],"vos":["estremecerás"],"s3":["estremecerá"],"p1":["estremeceremos"],"p2":["estremeceréis"],"p3":["estremecerán"]},
+    "IndCond": {"s1":["estremecería"],"s2":["estremecerías"],"vos":["estremecerías"],"s3":["estremecería"],"p1":["estremeceríamos"],"p2":["estremeceríais"],"p3":["estremecerían"]},
+    "SubPres": {"s1":["estremezca"],"s2":["estremezcas"],"vos":["estremezcas","estremezcás"],"s3":["estremezca"],"p1":["estremezcamos"],"p2":["estremezcáis"],"p3":["estremezcan"]},
+    "SubImp": {"s1":["estremeciera","estremeciese"],"s2":["estremecieras","estremecieses"],"vos":["estremecieras","estremecieses"],"s3":["estremeciera","estremeciese"],"p1":["estremeciéramos","estremeciésemos"],"p2":["estremecierais","estremecieseis"],"p3":["estremecieran","estremeciesen"]},
+    "SubFut": {"s1":["estremeciere"],"s2":["estremecieres"],"vos":["estremecieres"],"s3":["estremeciere"],"p1":["estremeciéremos"],"p2":["estremeciereis"],"p3":["estremecieren"]},
+    "CmdPos": {"s2":["estremece"],"vos":["estremecé"],"s3":["estremezca"],"p1":["estremezcamos"],"p2":["estremeced"],"p3":["estremezcan"]}
+  }
+}

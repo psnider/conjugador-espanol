@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaˈsiɾ]",
+    "silabacion": "des-a-sir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y asir.",
+    "modelos": ["asir"]
+  },
+  "formas_no_personales": {"infinitivo":"desasir","gerundio":"desasiendo","participio":"desasido"},
+  "formas_personales": {
+    "IndPres": {"s1":["desasgo"],"s2":["desases"],"vos":["desasís"],"s3":["desase"],"p1":["desasimos"],"p2":["desasís"],"p3":["desasen"]},
+    "IndImp": {"s1":["desasía"],"s2":["desasías"],"vos":["desasías"],"s3":["desasía"],"p1":["desasíamos"],"p2":["desasíais"],"p3":["desasían"]},
+    "IndPret": {"s1":["desasí"],"s2":["desasiste"],"vos":["desasiste"],"s3":["desasió"],"p1":["desasimos"],"p2":["desasisteis"],"p3":["desasieron"]},
+    "IndFut": {"s1":["desasiré"],"s2":["desasirás"],"vos":["desasirás"],"s3":["desasirá"],"p1":["desasiremos"],"p2":["desasiréis"],"p3":["desasirán"]},
+    "IndCond": {"s1":["desasiría"],"s2":["desasirías"],"vos":["desasirías"],"s3":["desasiría"],"p1":["desasiríamos"],"p2":["desasiríais"],"p3":["desasirían"]},
+    "SubPres": {"s1":["desasga"],"s2":["desasgas"],"vos":["desasgas"],"s3":["desasga"],"p1":["desasgamos"],"p2":["desasgáis"],"p3":["desasgan"]},
+    "SubImp": {"s1":["desasiera","desasiese"],"s2":["desasieras","desasieses"],"vos":["desasieras","desasieses"],"s3":["desasiera","desasiese"],"p1":["desasiéramos","desasiésemos"],"p2":["desasierais","desasieseis"],"p3":["desasieran","desasiesen"]},
+    "SubFut": {"s1":["desasiere"],"s2":["desasieres"],"vos":["desasieres"],"s3":["desasiere"],"p1":["desasiéremos"],"p2":["desasiereis"],"p3":["desasieren"]},
+    "CmdPos": {"s2":["desase"],"vos":["desasí"],"s3":["desasga"],"p1":["desasgamos"],"p2":["desasid"],"p3":["desasgan"]}
+  }
+}

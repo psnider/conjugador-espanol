@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fɾekwẽn̪ˈt̪aɾ]",
+    "silabacion": "fre-cuen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín frequentāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"frecuentar","gerundio":"frecuentando","participio":"frecuentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["frecuento"],"s2":["frecuentas"],"vos":["frecuentás"],"s3":["frecuenta"],"p1":["frecuentamos"],"p2":["frecuentáis"],"p3":["frecuentan"]},
+    "IndImp": {"s1":["frecuentaba"],"s2":["frecuentabas"],"vos":["frecuentabas"],"s3":["frecuentaba"],"p1":["frecuentábamos"],"p2":["frecuentabais"],"p3":["frecuentaban"]},
+    "IndPret": {"s1":["frecuenté"],"s2":["frecuentaste"],"vos":["frecuentaste"],"s3":["frecuentó"],"p1":["frecuentamos"],"p2":["frecuentasteis"],"p3":["frecuentaron"]},
+    "IndFut": {"s1":["frecuentaré"],"s2":["frecuentarás"],"vos":["frecuentarás"],"s3":["frecuentará"],"p1":["frecuentaremos"],"p2":["frecuentaréis"],"p3":["frecuentarán"]},
+    "IndCond": {"s1":["frecuentaría"],"s2":["frecuentarías"],"vos":["frecuentarías"],"s3":["frecuentaría"],"p1":["frecuentaríamos"],"p2":["frecuentaríais"],"p3":["frecuentarían"]},
+    "SubPres": {"s1":["frecuente"],"s2":["frecuentes"],"vos":["frecuentes","frecuentés"],"s3":["frecuente"],"p1":["frecuentemos"],"p2":["frecuentéis"],"p3":["frecuenten"]},
+    "SubImp": {"s1":["frecuentara","frecuentase"],"s2":["frecuentaras","frecuentases"],"vos":["frecuentaras","frecuentases"],"s3":["frecuentara","frecuentase"],"p1":["frecuentáramos","frecuentásemos"],"p2":["frecuentarais","frecuentaseis"],"p3":["frecuentaran","frecuentasen"]},
+    "SubFut": {"s1":["frecuentare"],"s2":["frecuentares"],"vos":["frecuentares"],"s3":["frecuentare"],"p1":["frecuentáremos"],"p2":["frecuentareis"],"p3":["frecuentaren"]},
+    "CmdPos": {"s2":["frecuenta"],"vos":["frecuentá"],"s3":["frecuente"],"p1":["frecuentemos"],"p2":["frecuentad"],"p3":["frecuenten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fuˈmaɾ]",
+    "silabacion": "fu-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fumare ('humear'), y este del latín fumus, \"humo\", a su vez del protoindoeuropeo *dʰuh₂mós. Compárese el doblete ahumar, así como el francés fumer, el italiano fumare, o para cognados más remotos el griego antiguo θυμός (thymós) o el sánscrito धूम (dhūmá).",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fumar","gerundio":"fumando","participio":"fumado"},
+  "formas_personales": {
+    "IndPres": {"s1":["fumo"],"s2":["fumas"],"vos":["fumás"],"s3":["fuma"],"p1":["fumamos"],"p2":["fumáis"],"p3":["fuman"]},
+    "IndImp": {"s1":["fumaba"],"s2":["fumabas"],"vos":["fumabas"],"s3":["fumaba"],"p1":["fumábamos"],"p2":["fumabais"],"p3":["fumaban"]},
+    "IndPret": {"s1":["fumé"],"s2":["fumaste"],"vos":["fumaste"],"s3":["fumó"],"p1":["fumamos"],"p2":["fumasteis"],"p3":["fumaron"]},
+    "IndFut": {"s1":["fumaré"],"s2":["fumarás"],"vos":["fumarás"],"s3":["fumará"],"p1":["fumaremos"],"p2":["fumaréis"],"p3":["fumarán"]},
+    "IndCond": {"s1":["fumaría"],"s2":["fumarías"],"vos":["fumarías"],"s3":["fumaría"],"p1":["fumaríamos"],"p2":["fumaríais"],"p3":["fumarían"]},
+    "SubPres": {"s1":["fume"],"s2":["fumes"],"vos":["fumes","fumés"],"s3":["fume"],"p1":["fumemos"],"p2":["fuméis"],"p3":["fumen"]},
+    "SubImp": {"s1":["fumara","fumase"],"s2":["fumaras","fumases"],"vos":["fumaras","fumases"],"s3":["fumara","fumase"],"p1":["fumáramos","fumásemos"],"p2":["fumarais","fumaseis"],"p3":["fumaran","fumasen"]},
+    "SubFut": {"s1":["fumare"],"s2":["fumares"],"vos":["fumares"],"s3":["fumare"],"p1":["fumáremos"],"p2":["fumareis"],"p3":["fumaren"]},
+    "CmdPos": {"s2":["fuma"],"vos":["fumá"],"s3":["fume"],"p1":["fumemos"],"p2":["fumad"],"p3":["fumen"]}
+  }
+}

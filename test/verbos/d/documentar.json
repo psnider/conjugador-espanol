@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪okumẽn̪ˈt̪aɾ]",
+    "silabacion": "do-cu-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"documentar","gerundio":"documentando","participio":"documentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["documento"],"s2":["documentas"],"vos":["documentás"],"s3":["documenta"],"p1":["documentamos"],"p2":["documentáis"],"p3":["documentan"]},
+    "IndImp": {"s1":["documentaba"],"s2":["documentabas"],"vos":["documentabas"],"s3":["documentaba"],"p1":["documentábamos"],"p2":["documentabais"],"p3":["documentaban"]},
+    "IndPret": {"s1":["documenté"],"s2":["documentaste"],"vos":["documentaste"],"s3":["documentó"],"p1":["documentamos"],"p2":["documentasteis"],"p3":["documentaron"]},
+    "IndFut": {"s1":["documentaré"],"s2":["documentarás"],"vos":["documentarás"],"s3":["documentará"],"p1":["documentaremos"],"p2":["documentaréis"],"p3":["documentarán"]},
+    "IndCond": {"s1":["documentaría"],"s2":["documentarías"],"vos":["documentarías"],"s3":["documentaría"],"p1":["documentaríamos"],"p2":["documentaríais"],"p3":["documentarían"]},
+    "SubPres": {"s1":["documente"],"s2":["documentes"],"vos":["documentes","documentés"],"s3":["documente"],"p1":["documentemos"],"p2":["documentéis"],"p3":["documenten"]},
+    "SubImp": {"s1":["documentara","documentase"],"s2":["documentaras","documentases"],"vos":["documentaras","documentases"],"s3":["documentara","documentase"],"p1":["documentáramos","documentásemos"],"p2":["documentarais","documentaseis"],"p3":["documentaran","documentasen"]},
+    "SubFut": {"s1":["documentare"],"s2":["documentares"],"vos":["documentares"],"s3":["documentare"],"p1":["documentáremos"],"p2":["documentareis"],"p3":["documentaren"]},
+    "CmdPos": {"s2":["documenta"],"vos":["documentá"],"s3":["documente"],"p1":["documentemos"],"p2":["documentad"],"p3":["documenten"]}
+  }
+}

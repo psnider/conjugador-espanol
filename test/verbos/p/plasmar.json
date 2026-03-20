@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[plasˈmaɾ]",
+    "silabacion": "plas-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín plasmō, plasmāre, a su vez del griego antiguo πλάσσω ,πλάσσειν&nbsp;(plassō, plassein) (\"modelar, formar\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"plasmar","gerundio":"plasmando","participio":"plasmado"},
+  "formas_personales": {
+    "IndPres": {"s1":["plasmo"],"s2":["plasmas"],"vos":["plasmás"],"s3":["plasma"],"p1":["plasmamos"],"p2":["plasmáis"],"p3":["plasman"]},
+    "IndImp": {"s1":["plasmaba"],"s2":["plasmabas"],"vos":["plasmabas"],"s3":["plasmaba"],"p1":["plasmábamos"],"p2":["plasmabais"],"p3":["plasmaban"]},
+    "IndPret": {"s1":["plasmé"],"s2":["plasmaste"],"vos":["plasmaste"],"s3":["plasmó"],"p1":["plasmamos"],"p2":["plasmasteis"],"p3":["plasmaron"]},
+    "IndFut": {"s1":["plasmaré"],"s2":["plasmarás"],"vos":["plasmarás"],"s3":["plasmará"],"p1":["plasmaremos"],"p2":["plasmaréis"],"p3":["plasmarán"]},
+    "IndCond": {"s1":["plasmaría"],"s2":["plasmarías"],"vos":["plasmarías"],"s3":["plasmaría"],"p1":["plasmaríamos"],"p2":["plasmaríais"],"p3":["plasmarían"]},
+    "SubPres": {"s1":["plasme"],"s2":["plasmes"],"vos":["plasmes","plasmés"],"s3":["plasme"],"p1":["plasmemos"],"p2":["plasméis"],"p3":["plasmen"]},
+    "SubImp": {"s1":["plasmara","plasmase"],"s2":["plasmaras","plasmases"],"vos":["plasmaras","plasmases"],"s3":["plasmara","plasmase"],"p1":["plasmáramos","plasmásemos"],"p2":["plasmarais","plasmaseis"],"p3":["plasmaran","plasmasen"]},
+    "SubFut": {"s1":["plasmare"],"s2":["plasmares"],"vos":["plasmares"],"s3":["plasmare"],"p1":["plasmáremos"],"p2":["plasmareis"],"p3":["plasmaren"]},
+    "CmdPos": {"s2":["plasma"],"vos":["plasmá"],"s3":["plasme"],"p1":["plasmemos"],"p2":["plasmad"],"p3":["plasmen"]}
+  }
+}

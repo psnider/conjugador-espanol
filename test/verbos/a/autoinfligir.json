@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awt̪oĩɱfliˈxiɾ]",
+    "silabacion": "au-to-in-fli-gir",
+    "acentuacion": "aguda",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"autoinfinitivo":"autoinfligir","gerundio":"autoinfligiendo","participio":"autoinfligido"},
+  "formas_personales": {
+    "IndPres": {"s1":["autoinflijo"],"s2":["autoinfliges"],"vos":["autoinfligís"],"s3":["autoinflige"],"p1":["autoinfligimos"],"p2":["autoinfligís"],"p3":["autoinfligen"]},
+    "IndImp": {"s1":["autoinfligía"],"s2":["autoinfligías"],"vos":["autoinfligías"],"s3":["autoinfligía"],"p1":["autoinfligíamos"],"p2":["autoinfligíais"],"p3":["autoinfligían"]},
+    "IndPret": {"s1":["autoinfligí"],"s2":["autoinfligiste"],"vos":["autoinfligiste"],"s3":["autoinfligió"],"p1":["autoinfligimos"],"p2":["autoinfligisteis"],"p3":["autoinfligieron"]},
+    "IndFut": {"s1":["autoinfligiré"],"s2":["autoinfligirás"],"vos":["autoinfligirás"],"s3":["autoinfligirá"],"p1":["autoinfligiremos"],"p2":["autoinfligiréis"],"p3":["autoinfligirán"]},
+    "IndCond": {"s1":["autoinfligiría"],"s2":["autoinfligirías"],"vos":["autoinfligirías"],"s3":["autoinfligiría"],"p1":["autoinfligiríamos"],"p2":["autoinfligiríais"],"p3":["autoinfligirían"]},
+    "SubPres": {"s1":["autoinflija"],"s2":["autoinflijas"],"vos":["autoinflijas","autoinflijás"],"s3":["autoinflija"],"p1":["autoinflijamos"],"p2":["autoinflijáis"],"p3":["autoinflijan"]},
+    "SubImp": {"s1":["autoinfligiera","autoinfligiese"],"s2":["autoinfligieras","autoinfligieses"],"vos":["autoinfligieras","autoinfligieses"],"s3":["autoinfligiera","autoinfligiese"],"p1":["autoinfligiéramos","autoinfligiésemos"],"p2":["autoinfligierais","autoinfligieseis"],"p3":["autoinfligieran","autoinfligiesen"]},
+    "SubFut": {"s1":["autoinfligiere"],"s2":["autoinfligieres"],"vos":["autoinfligieres"],"s3":["autoinfligiere"],"p1":["autoinfligiéremos"],"p2":["autoinfligiereis"],"p3":["autoinfligieren"]},
+    "CmdPos": {"s2":["autoinflige"],"vos":["autoinfligí"],"s3":["autoinflija"],"p1":["autoinflijamos"],"p2":["autoinfligid"],"p3":["autoinflijan"]}
+  }
+}

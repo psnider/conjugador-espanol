@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskaˈpaɾ]",
+    "silabacion": "es-ca-par",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín excapare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"escapar","gerundio":"escapando","participio":"escapado"},
+  "formas_personales": {
+    "IndPres": {"s1":["escapo"],"s2":["escapas"],"vos":["escapás"],"s3":["escapa"],"p1":["escapamos"],"p2":["escapáis"],"p3":["escapan"]},
+    "IndImp": {"s1":["escapaba"],"s2":["escapabas"],"vos":["escapabas"],"s3":["escapaba"],"p1":["escapábamos"],"p2":["escapabais"],"p3":["escapaban"]},
+    "IndPret": {"s1":["escapé"],"s2":["escapaste"],"vos":["escapaste"],"s3":["escapó"],"p1":["escapamos"],"p2":["escapasteis"],"p3":["escaparon"]},
+    "IndFut": {"s1":["escaparé"],"s2":["escaparás"],"vos":["escaparás"],"s3":["escapará"],"p1":["escaparemos"],"p2":["escaparéis"],"p3":["escaparán"]},
+    "IndCond": {"s1":["escaparía"],"s2":["escaparías"],"vos":["escaparías"],"s3":["escaparía"],"p1":["escaparíamos"],"p2":["escaparíais"],"p3":["escaparían"]},
+    "SubPres": {"s1":["escape"],"s2":["escapes"],"vos":["escapes","escapés"],"s3":["escape"],"p1":["escapemos"],"p2":["escapéis"],"p3":["escapen"]},
+    "SubImp": {"s1":["escapara","escapase"],"s2":["escaparas","escapases"],"vos":["escaparas","escapases"],"s3":["escapara","escapase"],"p1":["escapáramos","escapásemos"],"p2":["escaparais","escapaseis"],"p3":["escaparan","escapasen"]},
+    "SubFut": {"s1":["escapare"],"s2":["escapares"],"vos":["escapares"],"s3":["escapare"],"p1":["escapáremos"],"p2":["escapareis"],"p3":["escaparen"]},
+    "CmdPos": {"s2":["escapa"],"vos":["escapá"],"s3":["escape"],"p1":["escapemos"],"p2":["escapad"],"p3":["escapen"]}
+  }
+}

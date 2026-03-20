@@ -15,6 +15,7 @@ export interface ConjugaciónEntero {
         acentuacion: string
         etimologia: string
         modelos: string[]
+        impersonal?: true
     }
     formas_no_personales: FormasNoPersonales
     formas_personales: ConjugaciónTabla

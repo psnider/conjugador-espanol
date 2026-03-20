@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akomeˈt̪eɾ]",
+    "silabacion": "a-co-me-ter",
+    "acentuacion": "aguda",
+    "etimologia": "de cometer..",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"acometer","gerundio":"acometiendo","participio":"acometido"},
+  "formas_personales": {
+    "IndPres": {"s1":["acometo"],"s2":["acometes"],"vos":["acometés"],"s3":["acomete"],"p1":["acometemos"],"p2":["acometéis"],"p3":["acometen"]},
+    "IndImp": {"s1":["acometía"],"s2":["acometías"],"vos":["acometías"],"s3":["acometía"],"p1":["acometíamos"],"p2":["acometíais"],"p3":["acometían"]},
+    "IndPret": {"s1":["acometí"],"s2":["acometiste"],"vos":["acometiste"],"s3":["acometió"],"p1":["acometimos"],"p2":["acometisteis"],"p3":["acometieron"]},
+    "IndFut": {"s1":["acometeré"],"s2":["acometerás"],"vos":["acometerás"],"s3":["acometerá"],"p1":["acometeremos"],"p2":["acometeréis"],"p3":["acometerán"]},
+    "IndCond": {"s1":["acometería"],"s2":["acometerías"],"vos":["acometerías"],"s3":["acometería"],"p1":["acometeríamos"],"p2":["acometeríais"],"p3":["acometerían"]},
+    "SubPres": {"s1":["acometa"],"s2":["acometas"],"vos":["acometas","acometás"],"s3":["acometa"],"p1":["acometamos"],"p2":["acometáis"],"p3":["acometan"]},
+    "SubImp": {"s1":["acometiera","acometiese"],"s2":["acometieras","acometieses"],"vos":["acometieras","acometieses"],"s3":["acometiera","acometiese"],"p1":["acometiéramos","acometiésemos"],"p2":["acometierais","acometieseis"],"p3":["acometieran","acometiesen"]},
+    "SubFut": {"s1":["acometiere"],"s2":["acometieres"],"vos":["acometieres"],"s3":["acometiere"],"p1":["acometiéremos"],"p2":["acometiereis"],"p3":["acometieren"]},
+    "CmdPos": {"s2":["acomete"],"vos":["acometé"],"s3":["acometa"],"p1":["acometamos"],"p2":["acometed"],"p3":["acometan"]}
+  }
+}

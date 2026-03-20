@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[afeˈraɾ]",
+    "silabacion": "a-fe-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, ferro (ancla de una galera) y el sufijo -ar.[1]",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"aferrar","gerundio":"aferrando","participio":"aferrado"},
+  "formas_personales": {
+    "IndPres": {"s1":["aferro","afierro"],"s2":["aferras","afierras"],"vos":["aferrás"],"s3":["aferra","afierra"],"p1":["aferramos"],"p2":["aferráis"],"p3":["aferran","afierran"]},
+    "IndImp": {"s1":["aferraba"],"s2":["aferrabas"],"vos":["aferrabas"],"s3":["aferraba"],"p1":["aferrábamos"],"p2":["aferrabais"],"p3":["aferraban"]},
+    "IndPret": {"s1":["aferré"],"s2":["aferraste"],"vos":["aferraste"],"s3":["aferró"],"p1":["aferramos"],"p2":["aferrasteis"],"p3":["aferraron"]},
+    "IndFut": {"s1":["aferraré"],"s2":["aferrarás"],"vos":["aferrarás"],"s3":["aferrará"],"p1":["aferraremos"],"p2":["aferraréis"],"p3":["aferrarán"]},
+    "IndCond": {"s1":["aferraría"],"s2":["aferrarías"],"vos":["aferrarías"],"s3":["aferraría"],"p1":["aferraríamos"],"p2":["aferraríais"],"p3":["aferrarían"]},
+    "SubPres": {"s1":["aferre","afierre"],"s2":["aferres","afierres"],"vos":["aferres","aferrés","afierres"],"s3":["aferre","afierre"],"p1":["aferremos"],"p2":["aferréis"],"p3":["aferren","afierren"]},
+    "SubImp": {"s1":["aferrara","aferrase"],"s2":["aferraras","aferrases"],"vos":["aferraras","aferrases"],"s3":["aferrara","aferrase"],"p1":["aferráramos","aferrásemos"],"p2":["aferrarais","aferraseis"],"p3":["aferraran","aferrasen"]},
+    "SubFut": {"s1":["aferrare"],"s2":["aferrares"],"vos":["aferrares"],"s3":["aferrare"],"p1":["aferráremos"],"p2":["aferrareis"],"p3":["aferraren"]},
+    "CmdPos": {"s2":["aferra","afierra"],"vos":["aferrá"],"s3":["aferre","afierre"],"p1":["aferremos"],"p2":["aferrad"],"p3":["aferren","afierren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɾɣ̞umẽn̪ˈt̪aɾ]",
+    "silabacion": "ar-gu-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín argumentāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"argumentar","gerundio":"argumentando","participio":"argumentado"},
+  "formas_personales": {
+    "IndPres": {"s1":["argumento"],"s2":["argumentas"],"vos":["argumentás"],"s3":["argumenta"],"p1":["argumentamos"],"p2":["argumentáis"],"p3":["argumentan"]},
+    "IndImp": {"s1":["argumentaba"],"s2":["argumentabas"],"vos":["argumentabas"],"s3":["argumentaba"],"p1":["argumentábamos"],"p2":["argumentabais"],"p3":["argumentaban"]},
+    "IndPret": {"s1":["argumenté"],"s2":["argumentaste"],"vos":["argumentaste"],"s3":["argumentó"],"p1":["argumentamos"],"p2":["argumentasteis"],"p3":["argumentaron"]},
+    "IndFut": {"s1":["argumentaré"],"s2":["argumentarás"],"vos":["argumentarás"],"s3":["argumentará"],"p1":["argumentaremos"],"p2":["argumentaréis"],"p3":["argumentarán"]},
+    "IndCond": {"s1":["argumentaría"],"s2":["argumentarías"],"vos":["argumentarías"],"s3":["argumentaría"],"p1":["argumentaríamos"],"p2":["argumentaríais"],"p3":["argumentarían"]},
+    "SubPres": {"s1":["argumente"],"s2":["argumentes"],"vos":["argumentes","argumentés"],"s3":["argumente"],"p1":["argumentemos"],"p2":["argumentéis"],"p3":["argumenten"]},
+    "SubImp": {"s1":["argumentara","argumentase"],"s2":["argumentaras","argumentases"],"vos":["argumentaras","argumentases"],"s3":["argumentara","argumentase"],"p1":["argumentáramos","argumentásemos"],"p2":["argumentarais","argumentaseis"],"p3":["argumentaran","argumentasen"]},
+    "SubFut": {"s1":["argumentare"],"s2":["argumentares"],"vos":["argumentares"],"s3":["argumentare"],"p1":["argumentáremos"],"p2":["argumentareis"],"p3":["argumentaren"]},
+    "CmdPos": {"s2":["argumenta"],"vos":["argumentá"],"s3":["argumente"],"p1":["argumentemos"],"p2":["argumentad"],"p3":["argumenten"]}
+  }
+}

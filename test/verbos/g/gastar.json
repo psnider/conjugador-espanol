@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gasˈt̪aɾ]",
+    "silabacion": "gas-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vastāre ('devastar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"gastar","gerundio":"gastando","participio":"gastado"},
+  "formas_personales": {
+    "IndPres": {"s1":["gasto"],"s2":["gastas"],"vos":["gastás"],"s3":["gasta"],"p1":["gastamos"],"p2":["gastáis"],"p3":["gastan"]},
+    "IndImp": {"s1":["gastaba"],"s2":["gastabas"],"vos":["gastabas"],"s3":["gastaba"],"p1":["gastábamos"],"p2":["gastabais"],"p3":["gastaban"]},
+    "IndPret": {"s1":["gasté"],"s2":["gastaste"],"vos":["gastaste"],"s3":["gastó"],"p1":["gastamos"],"p2":["gastasteis"],"p3":["gastaron"]},
+    "IndFut": {"s1":["gastaré"],"s2":["gastarás"],"vos":["gastarás"],"s3":["gastará"],"p1":["gastaremos"],"p2":["gastaréis"],"p3":["gastarán"]},
+    "IndCond": {"s1":["gastaría"],"s2":["gastarías"],"vos":["gastarías"],"s3":["gastaría"],"p1":["gastaríamos"],"p2":["gastaríais"],"p3":["gastarían"]},
+    "SubPres": {"s1":["gaste"],"s2":["gastes"],"vos":["gastes","gastés"],"s3":["gaste"],"p1":["gastemos"],"p2":["gastéis"],"p3":["gasten"]},
+    "SubImp": {"s1":["gastara","gastase"],"s2":["gastaras","gastases"],"vos":["gastaras","gastases"],"s3":["gastara","gastase"],"p1":["gastáramos","gastásemos"],"p2":["gastarais","gastaseis"],"p3":["gastaran","gastasen"]},
+    "SubFut": {"s1":["gastare"],"s2":["gastares"],"vos":["gastares"],"s3":["gastare"],"p1":["gastáremos"],"p2":["gastareis"],"p3":["gastaren"]},
+    "CmdPos": {"s2":["gasta"],"vos":["gastá"],"s3":["gaste"],"p1":["gastemos"],"p2":["gastad"],"p3":["gasten"]}
+  }
+}

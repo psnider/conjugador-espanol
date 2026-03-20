@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eβ̞aˈt̪iɾ]",
+    "silabacion": "de-ba-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín debattuĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"debatir","gerundio":"debatiendo","participio":"debatido"},
+  "formas_personales": {
+    "IndPres": {"s1":["debato"],"s2":["debates"],"vos":["debatís"],"s3":["debate"],"p1":["debatimos"],"p2":["debatís"],"p3":["debaten"]},
+    "IndImp": {"s1":["debatía"],"s2":["debatías"],"vos":["debatías"],"s3":["debatía"],"p1":["debatíamos"],"p2":["debatíais"],"p3":["debatían"]},
+    "IndPret": {"s1":["debatí"],"s2":["debatiste"],"vos":["debatiste"],"s3":["debatió"],"p1":["debatimos"],"p2":["debatisteis"],"p3":["debatieron"]},
+    "IndFut": {"s1":["debatiré"],"s2":["debatirás"],"vos":["debatirás"],"s3":["debatirá"],"p1":["debatiremos"],"p2":["debatiréis"],"p3":["debatirán"]},
+    "IndCond": {"s1":["debatiría"],"s2":["debatirías"],"vos":["debatirías"],"s3":["debatiría"],"p1":["debatiríamos"],"p2":["debatiríais"],"p3":["debatirían"]},
+    "SubPres": {"s1":["debata"],"s2":["debatas"],"vos":["debatas","debatás"],"s3":["debata"],"p1":["debatamos"],"p2":["debatáis"],"p3":["debatan"]},
+    "SubImp": {"s1":["debatiera","debatiese"],"s2":["debatieras","debatieses"],"vos":["debatieras","debatieses"],"s3":["debatiera","debatiese"],"p1":["debatiéramos","debatiésemos"],"p2":["debatierais","debatieseis"],"p3":["debatieran","debatiesen"]},
+    "SubFut": {"s1":["debatiere"],"s2":["debatieres"],"vos":["debatieres"],"s3":["debatiere"],"p1":["debatiéremos"],"p2":["debatiereis"],"p3":["debatieren"]},
+    "CmdPos": {"s2":["debate"],"vos":["debatí"],"s3":["debata"],"p1":["debatamos"],"p2":["debatid"],"p3":["debatan"]}
+  }
+}
