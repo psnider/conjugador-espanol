@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpaɾeˈxaɾ]",
+    "silabacion": "em-pa-re-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, pareja y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"emparejar","gerundio":["emparejando"],"participio":["emparejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["emparejo"],"s2":["emparejas"],"vos":["emparejás"],"s3":["empareja"],"p1":["emparejamos"],"p2":["emparejáis"],"p3":["emparejan"]},
+    "IndImp": {"s1":["emparejaba"],"s2":["emparejabas"],"vos":["emparejabas"],"s3":["emparejaba"],"p1":["emparejábamos"],"p2":["emparejabais"],"p3":["emparejaban"]},
+    "IndPret": {"s1":["emparejé"],"s2":["emparejaste"],"vos":["emparejaste"],"s3":["emparejó"],"p1":["emparejamos"],"p2":["emparejasteis"],"p3":["emparejaron"]},
+    "IndFut": {"s1":["emparejaré"],"s2":["emparejarás"],"vos":["emparejarás"],"s3":["emparejará"],"p1":["emparejaremos"],"p2":["emparejaréis"],"p3":["emparejarán"]},
+    "IndCond": {"s1":["emparejaría"],"s2":["emparejarías"],"vos":["emparejarías"],"s3":["emparejaría"],"p1":["emparejaríamos"],"p2":["emparejaríais"],"p3":["emparejarían"]},
+    "SubPres": {"s1":["empareje"],"s2":["emparejes"],"vos":["emparejes","emparejés"],"s3":["empareje"],"p1":["emparejemos"],"p2":["emparejéis"],"p3":["emparejen"]},
+    "SubImp": {"s1":["emparejara","emparejase"],"s2":["emparejaras","emparejases"],"vos":["emparejaras","emparejases"],"s3":["emparejara","emparejase"],"p1":["emparejáramos","emparejásemos"],"p2":["emparejarais","emparejaseis"],"p3":["emparejaran","emparejasen"]},
+    "SubFut": {"s1":["emparejare"],"s2":["emparejares"],"vos":["emparejares"],"s3":["emparejare"],"p1":["emparejáremos"],"p2":["emparejareis"],"p3":["emparejaren"]},
+    "CmdPos": {"s2":["empareja"],"vos":["emparejá"],"s3":["empareje"],"p1":["emparejemos"],"p2":["emparejad"],"p3":["emparejen"]}
+  }
+}

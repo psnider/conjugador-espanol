@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baliˈð̞aɾ]",
+    "silabacion": "va-li-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín validare ('fortificar')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"validar","gerundio":["validando"],"participio":["validado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["valido"],"s2":["validas"],"vos":["validás"],"s3":["valida"],"p1":["validamos"],"p2":["validáis"],"p3":["validan"]},
+    "IndImp": {"s1":["validaba"],"s2":["validabas"],"vos":["validabas"],"s3":["validaba"],"p1":["validábamos"],"p2":["validabais"],"p3":["validaban"]},
+    "IndPret": {"s1":["validé"],"s2":["validaste"],"vos":["validaste"],"s3":["validó"],"p1":["validamos"],"p2":["validasteis"],"p3":["validaron"]},
+    "IndFut": {"s1":["validaré"],"s2":["validarás"],"vos":["validarás"],"s3":["validará"],"p1":["validaremos"],"p2":["validaréis"],"p3":["validarán"]},
+    "IndCond": {"s1":["validaría"],"s2":["validarías"],"vos":["validarías"],"s3":["validaría"],"p1":["validaríamos"],"p2":["validaríais"],"p3":["validarían"]},
+    "SubPres": {"s1":["valide"],"s2":["valides"],"vos":["valides","validés"],"s3":["valide"],"p1":["validemos"],"p2":["validéis"],"p3":["validen"]},
+    "SubImp": {"s1":["validara","validase"],"s2":["validaras","validases"],"vos":["validaras","validases"],"s3":["validara","validase"],"p1":["validáramos","validásemos"],"p2":["validarais","validaseis"],"p3":["validaran","validasen"]},
+    "SubFut": {"s1":["validare"],"s2":["validares"],"vos":["validares"],"s3":["validare"],"p1":["validáremos"],"p2":["validareis"],"p3":["validaren"]},
+    "CmdPos": {"s2":["valida"],"vos":["validá"],"s3":["valide"],"p1":["validemos"],"p2":["validad"],"p3":["validen"]}
+  }
+}

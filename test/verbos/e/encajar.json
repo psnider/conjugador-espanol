@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkaˈxaɾ]",
+    "silabacion": "en-ca-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, caja y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"encajar","gerundio":["encajando"],"participio":["encajado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["encajo"],"s2":["encajas"],"vos":["encajás"],"s3":["encaja"],"p1":["encajamos"],"p2":["encajáis"],"p3":["encajan"]},
+    "IndImp": {"s1":["encajaba"],"s2":["encajabas"],"vos":["encajabas"],"s3":["encajaba"],"p1":["encajábamos"],"p2":["encajabais"],"p3":["encajaban"]},
+    "IndPret": {"s1":["encajé"],"s2":["encajaste"],"vos":["encajaste"],"s3":["encajó"],"p1":["encajamos"],"p2":["encajasteis"],"p3":["encajaron"]},
+    "IndFut": {"s1":["encajaré"],"s2":["encajarás"],"vos":["encajarás"],"s3":["encajará"],"p1":["encajaremos"],"p2":["encajaréis"],"p3":["encajarán"]},
+    "IndCond": {"s1":["encajaría"],"s2":["encajarías"],"vos":["encajarías"],"s3":["encajaría"],"p1":["encajaríamos"],"p2":["encajaríais"],"p3":["encajarían"]},
+    "SubPres": {"s1":["encaje"],"s2":["encajes"],"vos":["encajes","encajés"],"s3":["encaje"],"p1":["encajemos"],"p2":["encajéis"],"p3":["encajen"]},
+    "SubImp": {"s1":["encajara","encajase"],"s2":["encajaras","encajases"],"vos":["encajaras","encajases"],"s3":["encajara","encajase"],"p1":["encajáramos","encajásemos"],"p2":["encajarais","encajaseis"],"p3":["encajaran","encajasen"]},
+    "SubFut": {"s1":["encajare"],"s2":["encajares"],"vos":["encajares"],"s3":["encajare"],"p1":["encajáremos"],"p2":["encajareis"],"p3":["encajaren"]},
+    "CmdPos": {"s2":["encaja"],"vos":["encajá"],"s3":["encaje"],"p1":["encajemos"],"p2":["encajad"],"p3":["encajen"]}
+  }
+}

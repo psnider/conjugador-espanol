@@ -4,7 +4,8 @@
     "silabacion": "con-que-rir",
     "acentuacion": "aguda",
     "etimologia": "Del latín conquirĕre ('reunir'), buscar con diligencia.[1]",
-    "modelos": ["sentir"]
+    "modelos": ["sentir"],
+    "registro": ["anticuado"]
   },
   "formas_no_personales": {"infinitivo":"conquerir","gerundio":["conquiriendo"], "participio":["conquerido"]},
   "formas_personales": {

@@ -7,15 +7,15 @@
     "modelos": ["amar"]
   },
   "formas_no_personales": {"infinitivo":"textear","gerundio":["texteando"], "participio":["texteado"]},
-"formas_personales": {
-    "IndPres": {"s1":["texteo"],"s2":["texteas"],"vos":["texteás"],"s3":["textean"],"p1":["texteamos"],"p2":["texteáis"],"p3":["textean"]},
+  "formas_personales": {
+    "IndPres": {"s1":["texteo"],"s2":["texteas"],"vos":["texteás"],"s3":["textea"],"p1":["texteamos"],"p2":["texteáis"],"p3":["textean"]},
     "IndImp": {"s1":["texteaba"],"s2":["texteabas"],"vos":["texteabas"],"s3":["texteaba"],"p1":["texteábamos"],"p2":["texteabais"],"p3":["texteaban"]},
-    "IndPret": {"s1":["texteé"],"s2":["texteaste"],"vos":["texteaste"],"s3":["texteó"],"p1":["texteamos"],"p2":["texteasteis"],"p3":["texteron"]},
+    "IndPret": {"s1":["texteé"],"s2":["texteaste"],"vos":["texteaste"],"s3":["texteó"],"p1":["texteamos"],"p2":["texteasteis"],"p3":["textearon"]},
     "IndFut": {"s1":["textearé"],"s2":["textearás"],"vos":["textearás"],"s3":["texteará"],"p1":["textearemos"],"p2":["textearéis"],"p3":["textearán"]},
     "IndCond": {"s1":["textearía"],"s2":["textearías"],"vos":["textearías"],"s3":["textearía"],"p1":["textearíamos"],"p2":["textearíais"],"p3":["textearían"]},
     "SubPres": {"s1":["textee"],"s2":["textees"],"vos":["textees","texteés"],"s3":["textee"],"p1":["texteemos"],"p2":["texteéis"],"p3":["texteen"]},
-    "SubImp": {"s1":["textera","textease"],"s2":["texteras","texteases"],"vos":["texteras","texteases"],"s3":["textera","textease"],"p1":["texteáramos","texteásemos"],"p2":["texterais","texteaseis"],"p3":["texteran","texteasen"]},
-    "SubFut": {"s1":["textere"],"s2":["texteres"],"vos":["texteres"],"s3":["textere"],"p1":["texteáremos"],"p2":["textereis"],"p3":["texteren"]},
-    "CmdPos": {"s2":["texte"],"vos":["texteá"],"s3":["textee"],"p1":["texteemos"],"p2":["textead"],"p3":["texteen"]}
+    "SubImp": {"s1":["texteara","textease"],"s2":["textearas","texteases"],"vos":["textearas","texteases"],"s3":["texteara","textease"],"p1":["texteáramos","texteásemos"],"p2":["textearais","texteaseis"],"p3":["textearan","texteasen"]},
+    "SubFut": {"s1":["texteare"],"s2":["texteares"],"vos":["texteares"],"s3":["texteare"],"p1":["texteáremos"],"p2":["texteareis"],"p3":["textearen"]},
+    "CmdPos": {"s2":["textea"],"vos":["texteá"],"s3":["textee"],"p1":["texteemos"],"p2":["textead"],"p3":["texteen"]}
   }
 }

@@ -148,7 +148,7 @@ const infinitive_ending_sound_rules: {[ending: string]: string} = {
     ger: "preserve-soft-g-sound",
     gir: "preserve-soft-g-sound",
     uar: "break-u-dipthong-after-hard-sound",
-    uir: "u → uy (hiato)",
+    uir: "u → uy (hiato)",    
     zar: "replace-disallowed-ze-zi",
 }
 
@@ -235,8 +235,11 @@ export function applyOrthographicalChangesCommon(args: {infinitivo: string, form
         if (do_correct_ñi_yi) {
             changed = correctYir(changed)
         }
+        // FIX: if possible separte to reduce call complexity
         // mantener hiato
         changed = changed.replace(/([aeo])i(ste|mos|steis|do)$/, "$1í$2")
+        // ahijar, ahitar, airar, enairar, desairar
+        changed = changed.replace(/(ah?)i([jrt](o|as|a|an|e|es|en))$/, "$1í$2")
         // vocal débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants
         changed = changed.replace(/(?<![gq])([aeouü])i([eó])/, "$1y$2")
         // // u débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants

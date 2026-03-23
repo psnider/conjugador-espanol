@@ -16,6 +16,6 @@
     "SubPres": {"s1":["digne"],"s2":["dignes"],"vos":["dignes","dignés"],"s3":["digne"],"p1":["dignemos"],"p2":["dignéis"],"p3":["dignen"]},
     "SubImp": {"s1":["dignara","dignase"],"s2":["dignaras","dignases"],"vos":["dignaras","dignases"],"s3":["dignara","dignase"],"p1":["dignáramos","dignásemos"],"p2":["dignarais","dignaseis"],"p3":["dignaran","dignasen"]},
     "SubFut": {"s1":["dignare"],"s2":["dignares"],"vos":["dignares"],"s3":["dignare"],"p1":["dignáremos"],"p2":["dignareis"],"p3":["dignaren"]},
-    "CmdPos": {"s2":["dígnate"],"vos":["dignate"],"s3":["dígnese"],"p1":["dignémonos"],"p2":["dignaos"],"p3":["dígnense"]}
+    "CmdPos": {"s2":["digna"],"vos":["digná"],"s3":["dígne"],"p1":["dignemos"],"p2":["dignad"],"p3":["dignen"]}
   }
 }

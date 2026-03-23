@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋkisˈt̪aɾ]",
+    "silabacion": "con-quis-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar conquistare ('adquirir').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conquistar","gerundio":["conquistando"],"participio":["conquistado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["conquisto"],"s2":["conquistas"],"vos":["conquistás"],"s3":["conquista"],"p1":["conquistamos"],"p2":["conquistáis"],"p3":["conquistan"]},
+    "IndImp": {"s1":["conquistaba"],"s2":["conquistabas"],"vos":["conquistabas"],"s3":["conquistaba"],"p1":["conquistábamos"],"p2":["conquistabais"],"p3":["conquistaban"]},
+    "IndPret": {"s1":["conquisté"],"s2":["conquistaste"],"vos":["conquistaste"],"s3":["conquistó"],"p1":["conquistamos"],"p2":["conquistasteis"],"p3":["conquistaron"]},
+    "IndFut": {"s1":["conquistaré"],"s2":["conquistarás"],"vos":["conquistarás"],"s3":["conquistará"],"p1":["conquistaremos"],"p2":["conquistaréis"],"p3":["conquistarán"]},
+    "IndCond": {"s1":["conquistaría"],"s2":["conquistarías"],"vos":["conquistarías"],"s3":["conquistaría"],"p1":["conquistaríamos"],"p2":["conquistaríais"],"p3":["conquistarían"]},
+    "SubPres": {"s1":["conquiste"],"s2":["conquistes"],"vos":["conquistes","conquistés"],"s3":["conquiste"],"p1":["conquistemos"],"p2":["conquistéis"],"p3":["conquisten"]},
+    "SubImp": {"s1":["conquistara","conquistase"],"s2":["conquistaras","conquistases"],"vos":["conquistaras","conquistases"],"s3":["conquistara","conquistase"],"p1":["conquistáramos","conquistásemos"],"p2":["conquistarais","conquistaseis"],"p3":["conquistaran","conquistasen"]},
+    "SubFut": {"s1":["conquistare"],"s2":["conquistares"],"vos":["conquistares"],"s3":["conquistare"],"p1":["conquistáremos"],"p2":["conquistareis"],"p3":["conquistaren"]},
+    "CmdPos": {"s2":["conquista"],"vos":["conquistá"],"s3":["conquiste"],"p1":["conquistemos"],"p2":["conquistad"],"p3":["conquisten"]}
+  }
+}

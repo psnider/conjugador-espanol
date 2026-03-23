@@ -18,6 +18,7 @@
     "update-verbos-with-test-results": "node generated/test/update-verbos-with-test-results.js",
     "insert-verbs-into-verbs-list": "node generated/test/insert-verbs-into-verbs-list.js",
     "clean": "rm -rf generated",
+    "update-version": "bash scripts/update-version.sh",
     "server": "npx --no-clipboard serve",
     "prep-release": "npm run clean && npm run build && npm run validate && npm run test && npm run update-verbos-with-test-results && npm run cp-web-page && npm run server"
   },

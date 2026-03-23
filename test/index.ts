@@ -6,6 +6,8 @@ export interface FormasNoPersonales extends Participios {
 }
 
 
+export type Registro = "formal" | "neutro" | "coloquial" | "vulgar" | "anticuado" | "literario" | "técnico" | "despectivo" | "eufemístico" | "infantil"
+
 
 export interface ConjugaciónEntero {
     lexicografía: {
@@ -14,6 +16,7 @@ export interface ConjugaciónEntero {
         acentuacion: string
         etimologia: string
         modelos: string[]
+        registro?: Registro[]
         impersonal?: true
     }
     formas_no_personales: FormasNoPersonales

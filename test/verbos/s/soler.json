@@ -6,7 +6,7 @@
     "etimologia": "Del latín soleō.",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"soler","gerundio":"soliendo","participio":null},
+  "formas_no_personales": {"infinitivo":"soler","gerundio":"soliendo","participio":"solido"},
   "formas_personales": {
     "IndPres": {"s1":["suelo"],"s2":["sueles"],"vos":["solés"],"s3":["suele"],"p1":["solemos"],"p2":["soléis"],"p3":["suelen"]},
     "IndImp": {"s1":["solía"],"s2":["solías"],"vos":["solías"],"s3":["solía"],"p1":["solíamos"],"p2":["solíais"],"p3":["solían"]},

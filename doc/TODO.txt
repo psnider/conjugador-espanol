@@ -1,12 +1,54 @@
 # Next release
-✅ separate code from web-app
-✅ add participios
-✅ transition table changes
-✅ Repair comparision of forms to be order agnostic
-  See haber: "ha","hay" 
-✅ delinquir, distinguir, extinguir, fluir
-rehuir
-zambuir
+- acepta caracteres sin o con acentos como iguales para busquedas
+- historia de entradas
+- gemir, rendir no sigue el modelo de pedir correctamente?
+- inscribir debe sigue el modelo de escribir?
+- morir no sigue el modelo de dormir correctamente?
+- prever no sigue el modelo de ver correctamente?
+- corregir y simplificar reír, *reír
+- vidriar no sigue el modelo de vaciar correctamente?
+- yacer tiene 3 formas de IndPres,s1
+
+
+- ZC -> Z: cocer, torcer, ejercer, esparcir, fruncir, vencer
+- REMOVER ACENTO: criar
+- PONER ACENTO: romper diptongo
+  - anticuar, consensuar, menstruar
+  - descafeinar
+  - aislar, amohinar, aullar, aunar, aupar, enraizar, maullar
+    (ojo ! auscultar, autoinfligir)
+  - desvaír
+- PONER ACENTO: romper diptongo implicado por LL
+  - bullir, escabullir, zambullir
+- PONER ACENTO: romper diptongo implicado por EHI, OHI
+  - prohibir, prohijar, rehilar, sobrehilar
+- AÑADIR H ENFRENTE DE DIPTONGO: 
+ - desosar
+- E -> IE, CON DIFERENCIAS
+  - discernir, hendir
+- REACENTUACIÓN de 2010:
+  - freír, guiar, piar
+
+- maldecir es una mezcla de reglas...
+
+
+# verbos con dos formas
+adecuar          adecuo, adecúo
+asolar           (🔴 asuelo) ✅ asuelo , ✅ asolo
+cimentar         (🔴 cimiento) ✅ cimiento , ✅ cimento
+describir        dos participios: descrito o descripto	
+desproveer       dos participios: desproveído o desprovisto	
+elevar           en vaias regiones
+erguir           (🔴 yergo) ✅ yergo , ✅ irgo
+errar            (🔴 erro) ✅ yerro , ✅ erro
+estregar         (🔴 estriego) ✅ estriego , ✅ estrego  
+freír            dos participios
+imprimir         dos participios: imprimido o impreso
+proveer          dos participios: proveído o provisto
+resolver         dos participios: resoluto o resuelto	
+sofreír          dos participios: sofreído o sofrito	
+soterrar         (🔴 soterro) ✅ sotierro , ✅ soterro
+vidriar          dos participios: 
 
 - linguist: the relation of CmdNeg being derived from SubPres is a fixed rule, right? If so, I can move this into code...
 - problemas ortograficos
@@ -18,14 +60,11 @@ zambuir
     apaciguar
     atestiguar
     averiguar
-    cocer        (🔴 cuezco) ✅ cuezo
     degollar
-    delinquir    (🔴 delinqua) ✅ delinca
     desaguar
     desosar      (🔴 desuese) ✅ deshuese
     discernir    (🔴 discirnió) ✅ discernió
     enraizar     (🔴 yenraizo) ✅ enraízo
-    fluir        (🔴 flui) ✅ fluí
     freír        (🔴 frio) ✅ frió
     gemir        (🔴 gemió) ✅ gimió
     guiar        (🔴 guie) ✅ guié
@@ -40,19 +79,7 @@ zambuir
     resolver     "participio": "resuelto"
     sofreír      (🔴 sofrio) ✅ sofrió
     sonreír      (🔴 sonrio) ✅ sonrió
-    torcer       (🔴 tuerzco) ✅ tuerzo
 
-
-
-# verbos con dos formas
-adecuar          adecuo, adecúo
-asolar           (🔴 asuelo) ✅ asuelo , ✅ asolo
-cimentar         (🔴 cimiento) ✅ cimiento , ✅ cimento
-describir        dos participios: descrito o descripto	
-erguir           (🔴 yergo) ✅ yergo , ✅ irgo
-errar            (🔴 erro) ✅ yerro , ✅ erro
-estregar         (🔴 estriego) ✅ estriego , ✅ estrego  
-freír            dos participios
 
 
 
