@@ -6,7 +6,7 @@
     "etimologia": "Del latín monstrāre.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"mostrar","gerundio":"mostrando","participio":"mostrado"},
+  "formas_no_personales": {"infinitivo":"mostrar","gerundio":["mostrando"], "participio":["mostrado"]},
   "formas_personales": {
     "IndPres": {"s1":["muestro"],"s2":["muestras"],"vos":["mostrás"],"s3":["muestra"],"p1":["mostramos"],"p2":["mostráis"],"p3":["muestran"]},
     "IndImp": {"s1":["mostraba"],"s2":["mostrabas"],"vos":["mostrabas"],"s3":["mostraba"],"p1":["mostrábamos"],"p2":["mostrabais"],"p3":["mostraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Onomatopéyica",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"zumbar","gerundio":"zumbando","participio":"zumbado"},
+  "formas_no_personales": {"infinitivo":"zumbar","gerundio":["zumbando"], "participio":["zumbado"]},
   "formas_personales": {
     "IndPres": {"s1":["zumbo"],"s2":["zumbas"],"vos":["zumbás"],"s3":["zumba"],"p1":["zumbamos"],"p2":["zumbáis"],"p3":["zumban"]},
     "IndImp": {"s1":["zumbaba"],"s2":["zumbabas"],"vos":["zumbabas"],"s3":["zumbaba"],"p1":["zumbábamos"],"p2":["zumbabais"],"p3":["zumbaban"]},

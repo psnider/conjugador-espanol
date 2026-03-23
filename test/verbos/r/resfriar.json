@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo re- y esfriar.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"resfriar","gerundio":"resfriando","participio":"resfriado"},
+  "formas_no_personales": {"infinitivo":"resfriar","gerundio":["resfriando"], "participio":["resfriado"]},
   "formas_personales": {
     "IndPres": {"s1":["resfrío"],"s2":["resfrías"],"vos":["resfriás"],"s3":["resfría"],"p1":["resfriamos"],"p2":["resfriáis"],"p3":["resfrían"]},
     "IndImp": {"s1":["resfriaba"],"s2":["resfriabas"],"vos":["resfriabas"],"s3":["resfriaba"],"p1":["resfriábamos"],"p2":["resfriabais"],"p3":["resfriaban"]},

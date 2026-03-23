@@ -6,7 +6,7 @@
     "etimologia": "De sabor y el sufijo -ear",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"saborear","gerundio":"saboreando","participio":"saboreado"},
+  "formas_no_personales": {"infinitivo":"saborear","gerundio":["saboreando"], "participio":["saboreado"]},
   "formas_personales": {
     "IndPres": {"s1":["saboreo"],"s2":["saboreas"],"vos":["saboreás"],"s3":["saborea"],"p1":["saboreamos"],"p2":["saboreáis"],"p3":["saborean"]},
     "IndImp": {"s1":["saboreaba"],"s2":["saboreabas"],"vos":["saboreabas"],"s3":["saboreaba"],"p1":["saboreábamos"],"p2":["saboreabais"],"p3":["saboreaban"]},

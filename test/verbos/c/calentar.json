@@ -6,7 +6,7 @@
     "etimologia": "De caliente y el sufijo -ar.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"calentar","gerundio":"calentando","participio":"calentado"},
+  "formas_no_personales": {"infinitivo":"calentar","gerundio":["calentando"], "participio":["calentado"]},
   "formas_personales": {
     "IndPres": {"s1":["caliento"],"s2":["calientas"],"vos":["calentás"],"s3":["calienta"],"p1":["calentamos"],"p2":["calentáis"],"p3":["calientan"]},
     "IndImp": {"s1":["calentaba"],"s2":["calentabas"],"vos":["calentabas"],"s3":["calentaba"],"p1":["calentábamos"],"p2":["calentabais"],"p3":["calentaban"]},

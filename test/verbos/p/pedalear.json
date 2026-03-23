@@ -6,7 +6,7 @@
     "etimologia": "De pedal y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pedalear","gerundio":"pedaleando","participio":"pedaleado"},
+  "formas_no_personales": {"infinitivo":"pedalear","gerundio":["pedaleando"], "participio":["pedaleado"]},
   "formas_personales": {
     "IndPres": {"s1":["pedaleo"],"s2":["pedaleas"],"vos":["pedaleás"],"s3":["pedalea"],"p1":["pedaleamos"],"p2":["pedaleáis"],"p3":["pedalean"]},
     "IndImp": {"s1":["pedaleaba"],"s2":["pedaleabas"],"vos":["pedaleabas"],"s3":["pedaleaba"],"p1":["pedaleábamos"],"p2":["pedaleabais"],"p3":["pedaleaban"]},

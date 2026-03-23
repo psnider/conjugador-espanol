@@ -6,7 +6,7 @@
     "etimologia": "Acortamiento ((por aféresis)) de entropezar, del latín interpedire ('impedir'), habiendo pasado por el vulgar *interpediare.[2]",
     "modelos": ["realizar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"tropezar","gerundio":"tropezando","participio":"tropezado"},
+  "formas_no_personales": {"infinitivo":"tropezar","gerundio":["tropezando"], "participio":["tropezado"]},
   "formas_personales": {
     "IndPres": {"s1":["tropiezo"],"s2":["tropiezas"],"vos":["tropezás"],"s3":["tropieza"],"p1":["tropezamos"],"p2":["tropezáis"],"p3":["tropiezan"]},
     "IndImp": {"s1":["tropezaba"],"s2":["tropezabas"],"vos":["tropezabas"],"s3":["tropezaba"],"p1":["tropezábamos"],"p2":["tropezabais"],"p3":["tropezaban"]},

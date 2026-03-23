@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"remplazar","gerundio":"remplazando","participio":"remplazado"},
+  "formas_no_personales": {"infinitivo":"remplazar","gerundio":["remplazando"], "participio":["remplazado"]},
   "formas_personales": {
     "IndPres": {"s1":["remplazo"],"s2":["remplazas"],"vos":["remplazás"],"s3":["remplaza"],"p1":["remplazamos"],"p2":["remplazáis"],"p3":["remplazan"]},
     "IndImp": {"s1":["remplazaba"],"s2":["remplazabas"],"vos":["remplazabas"],"s3":["remplazaba"],"p1":["remplazábamos"],"p2":["remplazabais"],"p3":["remplazaban"]},

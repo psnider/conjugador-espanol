@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mẽnsˈt̪ɾwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"menstruar","gerundio":["menstruando"], "participio":["menstruado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["menstrúo"],"s2":["menstrúas"],"vos":["menstruás"],"s3":["menstrúa"],"p1":["menstruamos"],"p2":["menstruáis"],"p3":["menstrúan"]},
+    "IndImp": {"s1":["menstruaba"],"s2":["menstruabas"],"vos":["menstruabas"],"s3":["menstruaba"],"p1":["menstruábamos"],"p2":["menstruabais"],"p3":["menstruaban"]},
+    "IndPret": {"s1":["menstrué"],"s2":["menstruaste"],"vos":["menstruaste"],"s3":["menstruó"],"p1":["menstruamos"],"p2":["menstruasteis"],"p3":["menstruaron"]},
+    "IndFut": {"s1":["menstruaré"],"s2":["menstruarás"],"vos":["menstruarás"],"s3":["menstruará"],"p1":["menstruaremos"],"p2":["menstruaréis"],"p3":["menstruarán"]},
+    "IndCond": {"s1":["menstruaría"],"s2":["menstruarías"],"vos":["menstruarías"],"s3":["menstruaría"],"p1":["menstruaríamos"],"p2":["menstruaríais"],"p3":["menstruarían"]},
+    "SubPres": {"s1":["menstrúe"],"s2":["menstrúes"],"vos":["menstrúes","menstrués"],"s3":["menstrúe"],"p1":["menstruemos"],"p2":["menstruéis"],"p3":["menstrúen"]},
+    "SubImp": {"s1":["menstruara","menstruase"],"s2":["menstruaras","menstruases"],"vos":["menstruaras","menstruases"],"s3":["menstruara","menstruase"],"p1":["menstruáramos","menstruásemos"],"p2":["menstruarais","menstruaseis"],"p3":["menstruaran","menstruasen"]},
+    "SubFut": {"s1":["menstruare"],"s2":["menstruares"],"vos":["menstruares"],"s3":["menstruare"],"p1":["menstruáremos"],"p2":["menstruareis"],"p3":["menstruaren"]},
+    "CmdPos": {"s2":["menstrúa"],"vos":["menstruá"],"s3":["menstrúe"],"p1":["menstruemos"],"p2":["menstruad"],"p3":["menstrúen"]}
+  }
+}

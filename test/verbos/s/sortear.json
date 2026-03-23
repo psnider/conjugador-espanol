@@ -6,7 +6,7 @@
     "etimologia": "Del latín sors, sortis.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sortear","gerundio":"sorteando","participio":"sorteado"},
+  "formas_no_personales": {"infinitivo":"sortear","gerundio":["sorteando"], "participio":["sorteado"]},
   "formas_personales": {
     "IndPres": {"s1":["sorteo"],"s2":["sorteas"],"vos":["sorteás"],"s3":["sortea"],"p1":["sorteamos"],"p2":["sorteáis"],"p3":["sortean"]},
     "IndImp": {"s1":["sorteaba"],"s2":["sorteabas"],"vos":["sorteabas"],"s3":["sorteaba"],"p1":["sorteábamos"],"p2":["sorteabais"],"p3":["sorteaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"confeccionar","gerundio":"confeccionando","participio":"confeccionado"},
+  "formas_no_personales": {"infinitivo":"confeccionar","gerundio":["confeccionando"], "participio":["confeccionado"]},
   "formas_personales": {
     "IndPres": {"s1":["confecciono"],"s2":["confeccionas"],"vos":["confeccionás"],"s3":["confecciona"],"p1":["confeccionamos"],"p2":["confeccionáis"],"p3":["confeccionan"]},
     "IndImp": {"s1":["confeccionaba"],"s2":["confeccionabas"],"vos":["confeccionabas"],"s3":["confeccionaba"],"p1":["confeccionábamos"],"p2":["confeccionabais"],"p3":["confeccionaban"]},

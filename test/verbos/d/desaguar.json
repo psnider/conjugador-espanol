@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y aguar.",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"desaguar","gerundio":"desaguando","participio":"desaguado"},
+  "formas_no_personales": {"infinitivo":"desaguar","gerundio":["desaguando"], "participio":["desaguado"]},
   "formas_personales": {
     "IndPres": {"s1":["desaguo"],"s2":["desaguas"],"vos":["desaguás"],"s3":["desagua"],"p1":["desaguamos"],"p2":["desaguáis"],"p3":["desaguan"]},
     "IndImp": {"s1":["desaguaba"],"s2":["desaguabas"],"vos":["desaguabas"],"s3":["desaguaba"],"p1":["desaguábamos"],"p2":["desaguabais"],"p3":["desaguaban"]},

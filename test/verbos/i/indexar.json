@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"indexar","gerundio":"indexando","participio":"indexado"},
+  "formas_no_personales": {"infinitivo":"indexar","gerundio":["indexando"], "participio":["indexado"]},
   "formas_personales": {
     "IndPres": {"s1":["indexo"],"s2":["indexas"],"vos":["indexás"],"s3":["indexa"],"p1":["indexamos"],"p2":["indexáis"],"p3":["indexan"]},
     "IndImp": {"s1":["indexaba"],"s2":["indexabas"],"vos":["indexabas"],"s3":["indexaba"],"p1":["indexábamos"],"p2":["indexabais"],"p3":["indexaban"]},

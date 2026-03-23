@@ -6,7 +6,7 @@
     "etimologia": "Del latín ridere.",
     "modelos": ["reír"]
   },
-  "formas_no_personales": {"infinitivo":"reír","gerundio":"riendo","participio":"reído"},
+  "formas_no_personales": {"infinitivo":"reír","gerundio":["riendo"], "participio":["reído"]},
   "formas_personales": {
     "IndPres": {"s1":["río"],"s2":["ríes"],"vos":["reís"],"s3":["ríe"],"p1":["reímos"],"p2":["reís"],"p3":["ríen"]},
     "IndImp": {"s1":["reía"],"s2":["reías"],"vos":["reías"],"s3":["reía"],"p1":["reíamos"],"p2":["reíais"],"p3":["reían"]},

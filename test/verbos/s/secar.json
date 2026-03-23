@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"secar","gerundio":"secando","participio":"secado"},
+  "formas_no_personales": {"infinitivo":"secar","gerundio":["secando"], "participio":["secado"]},
   "formas_personales": {
     "IndPres": {"s1":["seco"],"s2":["secas"],"vos":["secás"],"s3":["seca"],"p1":["secamos"],"p2":["secáis"],"p3":["secan"]},
     "IndImp": {"s1":["secaba"],"s2":["secabas"],"vos":["secabas"],"s3":["secaba"],"p1":["secábamos"],"p2":["secabais"],"p3":["secaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín torquēre ('hacer girar, torcer').[1]",
     "modelos": ["mover","vencer"]
   },
-  "formas_no_personales": {"infinitivo":"torcer","gerundio":"torciendo","participio":"torcido"},
+  "formas_no_personales": {"infinitivo":"torcer","gerundio":["torciendo"], "participio":["torcido"]},
   "formas_personales": {
     "IndPres": {"s1":["tuerzo"],"s2":["tuerces"],"vos":["torcés"],"s3":["tuerce"],"p1":["torcemos"],"p2":["torcéis"],"p3":["tuercen"]},
     "IndImp": {"s1":["torcía"],"s2":["torcías"],"vos":["torcías"],"s3":["torcía"],"p1":["torcíamos"],"p2":["torcíais"],"p3":["torcían"]},

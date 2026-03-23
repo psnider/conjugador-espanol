@@ -5,7 +5,7 @@
     "etimologia": "Del latín concludere.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"concluir","gerundio":"concluyendo","participio":"concluido"},
+  "formas_no_personales": {"infinitivo":"concluir","gerundio":["concluyendo"], "participio":["concluido"]},
   "formas_personales": {
     "IndPres": {"s1":["concluyo"],"s2":["concluyes"],"vos":["concluís"],"s3":["concluye"],"p1":["concluimos"],"p2":["concluís"],"p3":["concluyen"]},
     "IndImp": {"s1":["concluía"],"s2":["concluías"],"vos":["concluías"],"s3":["concluía"],"p1":["concluíamos"],"p2":["concluíais"],"p3":["concluían"]},

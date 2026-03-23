@@ -6,7 +6,7 @@
     "etimologia": "Del latín re ('de nuevo') y focus ('fuego')",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"rehogar","gerundio":"rehogando","participio":"rehogado"},
+  "formas_no_personales": {"infinitivo":"rehogar","gerundio":["rehogando"], "participio":["rehogado"]},
   "formas_personales": {
     "IndPres": {"s1":["rehogo"],"s2":["rehogas"],"vos":["rehogás"],"s3":["rehoga"],"p1":["rehogamos"],"p2":["rehogáis"],"p3":["rehogan"]},
     "IndImp": {"s1":["rehogaba"],"s2":["rehogabas"],"vos":["rehogabas"],"s3":["rehogaba"],"p1":["rehogábamos"],"p2":["rehogabais"],"p3":["rehogaban"]},

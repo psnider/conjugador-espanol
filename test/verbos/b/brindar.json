@@ -6,7 +6,7 @@
     "etimologia": "De brindis y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"brindar","gerundio":"brindando","participio":"brindado"},
+  "formas_no_personales": {"infinitivo":"brindar","gerundio":["brindando"], "participio":["brindado"]},
   "formas_personales": {
     "IndPres": {"s1":["brindo"],"s2":["brindas"],"vos":["brindás"],"s3":["brinda"],"p1":["brindamos"],"p2":["brindáis"],"p3":["brindan"]},
     "IndImp": {"s1":["brindaba"],"s2":["brindabas"],"vos":["brindabas"],"s3":["brindaba"],"p1":["brindábamos"],"p2":["brindabais"],"p3":["brindaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"apercibir","gerundio":"apercibiendo","participio":"apercibido"},
+  "formas_no_personales": {"infinitivo":"apercibir","gerundio":["apercibiendo"], "participio":["apercibido"]},
   "formas_personales": {
     "IndPres": {"s1":["apercibo"],"s2":["apercibes"],"vos":["apercibís"],"s3":["apercibe"],"p1":["apercibimos"],"p2":["apercibís"],"p3":["aperciben"]},
     "IndImp": {"s1":["apercibía"],"s2":["apercibías"],"vos":["apercibías"],"s3":["apercibía"],"p1":["apercibíamos"],"p2":["apercibíais"],"p3":["apercibían"]},

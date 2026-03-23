@@ -6,7 +6,7 @@
     "etimologia": "Del latín visitare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"visitar","gerundio":"visitando","participio":"visitado"},
+  "formas_no_personales": {"infinitivo":"visitar","gerundio":["visitando"], "participio":["visitado"]},
   "formas_personales": {
     "IndPres": {"s1":["visito"],"s2":["visitas"],"vos":["visitás"],"s3":["visita"],"p1":["visitamos"],"p2":["visitáis"],"p3":["visitan"]},
     "IndImp": {"s1":["visitaba"],"s2":["visitabas"],"vos":["visitabas"],"s3":["visitaba"],"p1":["visitábamos"],"p2":["visitabais"],"p3":["visitaban"]},

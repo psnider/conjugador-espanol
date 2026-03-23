@@ -6,7 +6,7 @@
     "etimologia": "De casa [cita&nbsp;requerida]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"casar","gerundio":"casando","participio":"casado"},
+  "formas_no_personales": {"infinitivo":"casar","gerundio":["casando"], "participio":["casado"]},
   "formas_personales": {
     "IndPres": {"s1":["caso"],"s2":["casas"],"vos":["casás"],"s3":["casa"],"p1":["casamos"],"p2":["casáis"],"p3":["casan"]},
     "IndImp": {"s1":["casaba"],"s2":["casabas"],"vos":["casabas"],"s3":["casaba"],"p1":["casábamos"],"p2":["casabais"],"p3":["casaban"]},

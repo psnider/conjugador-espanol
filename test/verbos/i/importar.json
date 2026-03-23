@@ -6,7 +6,7 @@
     "etimologia": "Del latín importare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"importar","gerundio":"importando","participio":"importado"},
+  "formas_no_personales": {"infinitivo":"importar","gerundio":["importando"], "participio":["importado"]},
   "formas_personales": {
     "IndPres": {"s1":["importo"],"s2":["importas"],"vos":["importás"],"s3":["importa"],"p1":["importamos"],"p2":["importáis"],"p3":["importan"]},
     "IndImp": {"s1":["importaba"],"s2":["importabas"],"vos":["importabas"],"s3":["importaba"],"p1":["importábamos"],"p2":["importabais"],"p3":["importaban"]},

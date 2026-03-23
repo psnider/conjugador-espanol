@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo des- y confiar (desde fin S. XV).[2]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"desconfiar","gerundio":"desconfiando","participio":"desconfiado"},
+  "formas_no_personales": {"infinitivo":"desconfiar","gerundio":["desconfiando"], "participio":["desconfiado"]},
   "formas_personales": {
     "IndPres": {"s1":["desconfío"],"s2":["desconfías"],"vos":["desconfiás"],"s3":["desconfía"],"p1":["desconfiamos"],"p2":["desconfiáis"],"p3":["desconfían"]},
     "IndImp": {"s1":["desconfiaba"],"s2":["desconfiabas"],"vos":["desconfiabas"],"s3":["desconfiaba"],"p1":["desconfiábamos"],"p2":["desconfiabais"],"p3":["desconfiaban"]},

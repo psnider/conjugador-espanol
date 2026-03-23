@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"transcender","gerundio":"transcendiendo","participio":"transcendido"},
+  "formas_no_personales": {"infinitivo":"transcender","gerundio":["transcendiendo"], "participio":["transcendido"]},
   "formas_personales": {
     "IndPres": {"s1":["transciendo"],"s2":["transciendes"],"vos":["transcendés"],"s3":["transciende"],"p1":["transcendemos"],"p2":["transcendéis"],"p3":["transcienden"]},
     "IndImp": {"s1":["transcendía"],"s2":["transcendías"],"vos":["transcendías"],"s3":["transcendía"],"p1":["transcendíamos"],"p2":["transcendíais"],"p3":["transcendían"]},

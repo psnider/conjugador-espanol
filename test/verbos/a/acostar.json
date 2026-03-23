@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, cuesta y el sufijo -ar.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"acostar","gerundio":"acostando","participio":"acostado"},
+  "formas_no_personales": {"infinitivo":"acostar","gerundio":["acostando"], "participio":["acostado"]},
   "formas_personales": {
     "IndPres": {"s1":["acuesto"],"s2":["acuestas"],"vos":["acostás"],"s3":["acuesta"],"p1":["acostamos"],"p2":["acostáis"],"p3":["acuestan"]},
     "IndImp": {"s1":["acostaba"],"s2":["acostabas"],"vos":["acostabas"],"s3":["acostaba"],"p1":["acostábamos"],"p2":["acostabais"],"p3":["acostaban"]},

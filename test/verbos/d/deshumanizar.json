@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"deshumanizar","gerundio":"deshumanizando","participio":"deshumanizado"},
+  "formas_no_personales": {"infinitivo":"deshumanizar","gerundio":["deshumanizando"], "participio":["deshumanizado"]},
   "formas_personales": {
     "IndPres": {"s1":["deshumanizo"],"s2":["deshumanizas"],"vos":["deshumanizás"],"s3":["deshumaniza"],"p1":["deshumanizamos"],"p2":["deshumanizáis"],"p3":["deshumanizan"]},
     "IndImp": {"s1":["deshumanizaba"],"s2":["deshumanizabas"],"vos":["deshumanizabas"],"s3":["deshumanizaba"],"p1":["deshumanizábamos"],"p2":["deshumanizabais"],"p3":["deshumanizaban"]},

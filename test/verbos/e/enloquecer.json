@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, loco y el sufijo -ecer.[1]",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"enloquecer","gerundio":"enloqueciendo","participio":"enloquecido"},
+  "formas_no_personales": {"infinitivo":"enloquecer","gerundio":["enloqueciendo"], "participio":["enloquecido"]},
   "formas_personales": {
     "IndPres": {"s1":["enloquezco"],"s2":["enloqueces"],"vos":["enloquecés"],"s3":["enloquece"],"p1":["enloquecemos"],"p2":["enloquecéis"],"p3":["enloquecen"]},
     "IndImp": {"s1":["enloquecía"],"s2":["enloquecías"],"vos":["enloquecías"],"s3":["enloquecía"],"p1":["enloquecíamos"],"p2":["enloquecíais"],"p3":["enloquecían"]},

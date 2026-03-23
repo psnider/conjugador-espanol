@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín excapare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"escapar","gerundio":"escapando","participio":"escapado"},
+  "formas_no_personales": {"infinitivo":"escapar","gerundio":["escapando"], "participio":["escapado"]},
   "formas_personales": {
     "IndPres": {"s1":["escapo"],"s2":["escapas"],"vos":["escapás"],"s3":["escapa"],"p1":["escapamos"],"p2":["escapáis"],"p3":["escapan"]},
     "IndImp": {"s1":["escapaba"],"s2":["escapabas"],"vos":["escapabas"],"s3":["escapaba"],"p1":["escapábamos"],"p2":["escapabais"],"p3":["escapaban"]},

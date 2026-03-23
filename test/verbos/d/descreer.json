@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y creer",
     "modelos": ["leer"]
   },
-  "formas_no_personales": {"infinitivo":"descreer","gerundio":"descreyendo","participio":"descreído"},
+  "formas_no_personales": {"infinitivo":"descreer","gerundio":["descreyendo"], "participio":["descreído"]},
   "formas_personales": {
     "IndPres": {"s1":["descreo"],"s2":["descrees"],"vos":["descreés"],"s3":["descree"],"p1":["descreemos"],"p2":["descreéis"],"p3":["descreen"]},
     "IndImp": {"s1":["descreía"],"s2":["descreías"],"vos":["descreías"],"s3":["descreía"],"p1":["descreíamos"],"p2":["descreíais"],"p3":["descreían"]},

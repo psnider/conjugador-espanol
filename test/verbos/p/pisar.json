@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *pīsāre, del latín tardío *pīnsāre, del latín clásico pinso.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pisar","gerundio":"pisando","participio":"pisado"},
+  "formas_no_personales": {"infinitivo":"pisar","gerundio":["pisando"], "participio":["pisado"]},
   "formas_personales": {
     "IndPres": {"s1":["piso"],"s2":["pisas"],"vos":["pisás"],"s3":["pisa"],"p1":["pisamos"],"p2":["pisáis"],"p3":["pisan"]},
     "IndImp": {"s1":["pisaba"],"s2":["pisabas"],"vos":["pisabas"],"s3":["pisaba"],"p1":["pisábamos"],"p2":["pisabais"],"p3":["pisaban"]},

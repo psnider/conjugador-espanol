@@ -6,7 +6,7 @@
     "etimologia": "De comba y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"combar","gerundio":"combando","participio":"combado"},
+  "formas_no_personales": {"infinitivo":"combar","gerundio":["combando"], "participio":["combado"]},
   "formas_personales": {
     "IndPres": {"s1":["combo"],"s2":["combas"],"vos":["combás"],"s3":["comba"],"p1":["combamos"],"p2":["combáis"],"p3":["comban"]},
     "IndImp": {"s1":["combaba"],"s2":["combabas"],"vos":["combabas"],"s3":["combaba"],"p1":["combábamos"],"p2":["combabais"],"p3":["combaban"]},

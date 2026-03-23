@@ -3,7 +3,7 @@ import { ConjugaciónEntero } from "."
 import { GrammaticalPersons, Participios, MoodTense, ConjugaciónEstándarYAtípico, VerbForms, MoodTenseMap} from "../src"
 import { conjugateVerb } from "../src/conjugate-verb.js"
 import { deriveParticiples } from "../src/derive-participles.js";
-import { persons_w_vos_index } from "../src/lib.js";
+import { formsAreEqual, persons_w_vos_index } from "../src/lib.js";
 import { test_applyOrthographicalChanges } from "./test-orthographical-change.js"
 
 
@@ -11,33 +11,9 @@ export type ConjugaciónesFallidas = MoodTenseMap<VerbForms>
 
 
 export interface FailedTests {
-    gerundio?: string
-    participio?: string
+    gerundio?: VerbForms
+    participio?: VerbForms
     conjugaciones?: ConjugaciónesFallidas
-}
-
-
-export function equal(lhs: string | [string] | [string, string] | undefined, rhs: string | [string] | [string, string] | undefined) {
-    // handle degenerate cases
-    if ((lhs == null) && (rhs == null)) {
-        return true
-    } else if ((lhs == null) || (rhs == null)) {
-        return false
-    }
-    // both have values
-    const lhs_a = (typeof lhs === 'string') ? [lhs] : [...lhs]
-    const rhs_a = (typeof rhs === 'string') ? [rhs] : [...rhs]
-    if (lhs_a.length !== rhs_a.length) {
-        return false
-    }
-    lhs_a.sort()
-    rhs_a.sort()
-    for (let i = 0 ; i < lhs_a.length ; ++i) {
-        if (lhs_a[i] !== rhs_a[i]) {
-            return false
-        }
-    }
-    return true
 }
 
 
@@ -52,8 +28,10 @@ export function findFailedTestsForParticiples(infinitivo: string, expected: Part
     const {participles: actual} = deriveParticiples(infinitivo)
     const expected_keys = <Array <keyof FailedTests>> Object.keys(expected)
     expected_keys.forEach((expected_key: keyof Participios) => {
-        if (! equal(actual[expected_key], expected[expected_key])) {
-            errors[expected_key] = expected[expected_key]
+        const actual_value = actual[expected_key]
+        const expected_value = expected[expected_key]
+        if (! formsAreEqual(actual_value, expected_value)) {
+            errors[expected_key] = expected_value
         }
     })
 }
@@ -76,20 +54,20 @@ export function findFailedTestsForConjugations(infinitivo: string, mood_tense: M
         if (Array.isArray(actual_forms) && Array.isArray(expected_forms)) {
             if ((expected_key === "vos") && !actual.vos) {
                 if (Array.isArray(expected.s2)) {
-                    if (! equal(expected_forms, expected.s2)) {
+                    if (! formsAreEqual(expected_forms, expected.s2)) {
                         errors[mood_tense] = errors[mood_tense] || {}
                         errors[mood_tense].vos = expected_forms
                     }
                 } else {
                     const expected_s2_estándar = expected.s2.estándar
                     // as of Mar 8, 2026: only test standard forms, y no los atípicos
-                    if (! equal(expected_forms, <VerbForms> expected_s2_estándar)) {
+                    if (! formsAreEqual(expected_forms, <VerbForms> expected_s2_estándar)) {
                         errors[mood_tense] = errors[mood_tense] || {}
                         errors[mood_tense].vos = expected_forms
                     }
                 }
             } else {
-                if (! equal(actual_forms, expected_forms)) {
+                if (! formsAreEqual(actual_forms, expected_forms)) {
                     errors[mood_tense] = errors[mood_tense] || {}
                     errors[mood_tense][expected_key] = expected_forms
                 }

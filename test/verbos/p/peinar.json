@@ -6,7 +6,7 @@
     "etimologia": "Del latín pectināre (\"peinar, cardar\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"peinar","gerundio":"peinando","participio":"peinado"},
+  "formas_no_personales": {"infinitivo":"peinar","gerundio":["peinando"], "participio":["peinado"]},
   "formas_personales": {
     "IndPres": {"s1":["peino"],"s2":["peinas"],"vos":["peinás"],"s3":["peina"],"p1":["peinamos"],"p2":["peináis"],"p3":["peinan"]},
     "IndImp": {"s1":["peinaba"],"s2":["peinabas"],"vos":["peinabas"],"s3":["peinaba"],"p1":["peinábamos"],"p2":["peinabais"],"p3":["peinaban"]},

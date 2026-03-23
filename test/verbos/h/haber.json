@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo aver ('haber'), y este del latín habeo. Compárense el aragonés aber y el asturiano haber.",
     "modelos": ["haber"]
   },
-  "formas_no_personales": {"infinitivo":"haber","gerundio":"habiendo","participio":"habido"},
+  "formas_no_personales": {"infinitivo":"haber","gerundio":["habiendo"], "participio":["habido"]},
   "formas_personales": {
     "IndPres": {"s1":["he"],"s2":["has"],"vos":["has"],"s3":["ha","hay"],"p1":["hemos"],"p2":["habéis"],"p3":["han"]},
     "IndImp": {"s1":["había"],"s2":["habías"],"vos":["habías"],"s3":["había"],"p1":["habíamos"],"p2":["habíais"],"p3":["habían"]},

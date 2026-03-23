@@ -6,7 +6,7 @@
     "etimologia": "Cultismo. Del latín praeoccupare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"preocupar","gerundio":"preocupando","participio":"preocupado"},
+  "formas_no_personales": {"infinitivo":"preocupar","gerundio":["preocupando"], "participio":["preocupado"]},
   "formas_personales": {
     "IndPres": {"s1":["preocupo"],"s2":["preocupas"],"vos":["preocupás"],"s3":["preocupa"],"p1":["preocupamos"],"p2":["preocupáis"],"p3":["preocupan"]},
     "IndImp": {"s1":["preocupaba"],"s2":["preocupabas"],"vos":["preocupabas"],"s3":["preocupaba"],"p1":["preocupábamos"],"p2":["preocupabais"],"p3":["preocupaban"]},

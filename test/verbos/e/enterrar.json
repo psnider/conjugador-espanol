@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, tierra y el sufijo -ar",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"enterrar","gerundio":"enterrando","participio":"enterrado"},
+  "formas_no_personales": {"infinitivo":"enterrar","gerundio":["enterrando"], "participio":["enterrado"]},
   "formas_personales": {
     "IndPres": {"s1":["entierro"],"s2":["entierras"],"vos":["enterrás"],"s3":["entierra"],"p1":["enterramos"],"p2":["enterráis"],"p3":["entierran"]},
     "IndImp": {"s1":["enterraba"],"s2":["enterrabas"],"vos":["enterrabas"],"s3":["enterraba"],"p1":["enterrábamos"],"p2":["enterrabais"],"p3":["enterraban"]},

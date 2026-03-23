@@ -6,7 +6,7 @@
     "etimologia": "Del latín circulāris",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"circular","gerundio":"circulando","participio":"circulado"},
+  "formas_no_personales": {"infinitivo":"circular","gerundio":["circulando"], "participio":["circulado"]},
   "formas_personales": {
     "IndPres": {"s1":["circulo"],"s2":["circulas"],"vos":["circulás"],"s3":["circula"],"p1":["circulamos"],"p2":["circuláis"],"p3":["circulan"]},
     "IndImp": {"s1":["circulaba"],"s2":["circulabas"],"vos":["circulabas"],"s3":["circulaba"],"p1":["circulábamos"],"p2":["circulabais"],"p3":["circulaban"]},

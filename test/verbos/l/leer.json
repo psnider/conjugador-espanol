@@ -6,7 +6,7 @@
     "etimologia": "Del latín legere.",
     "modelos": ["leer"]
   },
-  "formas_no_personales": {"infinitivo":"leer","gerundio":"leyendo","participio":"leído"},
+  "formas_no_personales": {"infinitivo":"leer","gerundio":["leyendo"], "participio":["leído"]},
   "formas_personales": {
     "IndPres": {"s1":["leo"],"s2":["lees"],"vos":["leés"],"s3":["lee"],"p1":["leemos"],"p2":["leéis"],"p3":["leen"]},
     "IndImp": {"s1":["leía"],"s2":["leías"],"vos":["leías"],"s3":["leía"],"p1":["leíamos"],"p2":["leíais"],"p3":["leían"]},

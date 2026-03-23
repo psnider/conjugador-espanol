@@ -6,7 +6,7 @@
     "etimologia": "Del latín coniurāre, compuesto por el prefijo “con” de “cum” y “iurāre” (\"jurar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"conjurar","gerundio":"conjurando","participio":"conjurado"},
+  "formas_no_personales": {"infinitivo":"conjurar","gerundio":["conjurando"], "participio":["conjurado"]},
   "formas_personales": {
     "IndPres": {"s1":["conjuro"],"s2":["conjuras"],"vos":["conjurás"],"s3":["conjura"],"p1":["conjuramos"],"p2":["conjuráis"],"p3":["conjuran"]},
     "IndImp": {"s1":["conjuraba"],"s2":["conjurabas"],"vos":["conjurabas"],"s3":["conjuraba"],"p1":["conjurábamos"],"p2":["conjurabais"],"p3":["conjuraban"]},

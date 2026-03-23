@@ -6,7 +6,7 @@
     "etimologia": "Del latín defendere[1], y este del latín *fendere[2], del protoindoeuropeo *gʷʰen-. Compárese el catalán defendre, el dalmático defendar, el francés défendre, el italiano difendere o el portugués defender.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"defender","gerundio":"defendiendo","participio":"defendido"},
+  "formas_no_personales": {"infinitivo":"defender","gerundio":["defendiendo"], "participio":["defendido"]},
   "formas_personales": {
     "IndPres": {"s1":["defiendo"],"s2":["defiendes"],"vos":["defendés"],"s3":["defiende"],"p1":["defendemos"],"p2":["defendéis"],"p3":["defienden"]},
     "IndImp": {"s1":["defendía"],"s2":["defendías"],"vos":["defendías"],"s3":["defendía"],"p1":["defendíamos"],"p2":["defendíais"],"p3":["defendían"]},

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ˈgɾwiɾ]",
+    "acentuacion": "monosílaba",
+    "etimologia": "Del latín gruere.[2]",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"gruir","gerundio":["gruyendo"], "participio":["gruido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["gruyo"],"s2":["gruyes"],"vos":["gruís"],"s3":["gruye"],"p1":["gruimos"],"p2":["gruís"],"p3":["gruyen"]},
+    "IndImp": {"s1":["gruía"],"s2":["gruías"],"vos":["gruías"],"s3":["gruía"],"p1":["gruíamos"],"p2":["gruíais"],"p3":["gruían"]},
+    "IndPret": {"s1":["gruí"],"s2":["gruiste"],"vos":["gruiste"],"s3":["gruyó"],"p1":["gruimos"],"p2":["gruisteis"],"p3":["gruyeron"]},
+    "IndFut": {"s1":["gruiré"],"s2":["gruirás"],"vos":["gruirás"],"s3":["gruirá"],"p1":["gruiremos"],"p2":["gruiréis"],"p3":["gruirán"]},
+    "IndCond": {"s1":["gruiría"],"s2":["gruirías"],"vos":["gruirías"],"s3":["gruiría"],"p1":["gruiríamos"],"p2":["gruiríais"],"p3":["gruirían"]},
+    "SubPres": {"s1":["gruya"],"s2":["gruyas"],"vos":["gruyas","gruyás"],"s3":["gruya"],"p1":["gruyamos"],"p2":["gruyáis"],"p3":["gruyan"]},
+    "SubImp": {"s1":["gruyera","gruyese"],"s2":["gruyeras","gruyeses"],"vos":["gruyeras","gruyeses"],"s3":["gruyera","gruyese"],"p1":["gruyéramos","gruyésemos"],"p2":["gruyerais","gruyeseis"],"p3":["gruyeran","gruyesen"]},
+    "SubFut": {"s1":["gruyere"],"s2":["gruyeres"],"vos":["gruyeres"],"s3":["gruyere"],"p1":["gruyéremos"],"p2":["gruyereis"],"p3":["gruyeren"]},
+    "CmdPos": {"s2":["gruye"],"vos":["gruí"],"s3":["gruya"],"p1":["gruyamos"],"p2":["gruid"],"p3":["gruyan"]}
+  }
+}

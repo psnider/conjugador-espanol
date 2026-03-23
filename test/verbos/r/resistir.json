@@ -6,7 +6,7 @@
     "etimologia": "Del latín resistĕre ('detenerse'), quedar atrás",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"resistir","gerundio":"resistiendo","participio":"resistido"},
+  "formas_no_personales": {"infinitivo":"resistir","gerundio":["resistiendo"], "participio":["resistido"]},
   "formas_personales": {
     "IndPres": {"s1":["resisto"],"s2":["resistes"],"vos":["resistís"],"s3":["resiste"],"p1":["resistimos"],"p2":["resistís"],"p3":["resisten"]},
     "IndImp": {"s1":["resistía"],"s2":["resistías"],"vos":["resistías"],"s3":["resistía"],"p1":["resistíamos"],"p2":["resistíais"],"p3":["resistían"]},

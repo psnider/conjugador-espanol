@@ -6,7 +6,7 @@
     "etimologia": "Del catalán alotjar, a su vez del latín medieval laubia, \"cobijo\", y este del fráncico antiguo laubja, del protogermánico *laubjō, \"choza\", de la raíz de *laubas, \"hoja\", en última instancia del protoindoeuropeo *lōubh-. Compárese el italiano alloggiamento o el francés logement.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alojar","gerundio":"alojando","participio":"alojado"},
+  "formas_no_personales": {"infinitivo":"alojar","gerundio":["alojando"], "participio":["alojado"]},
   "formas_personales": {
     "IndPres": {"s1":["alojo"],"s2":["alojas"],"vos":["alojás"],"s3":["aloja"],"p1":["alojamos"],"p2":["alojáis"],"p3":["alojan"]},
     "IndImp": {"s1":["alojaba"],"s2":["alojabas"],"vos":["alojabas"],"s3":["alojaba"],"p1":["alojábamos"],"p2":["alojabais"],"p3":["alojaban"]},

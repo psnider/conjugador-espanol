@@ -6,7 +6,7 @@
     "etimologia": "De chisme y el sufijo -ear",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"chismear","gerundio":"chismeando","participio":"chismeado"},
+  "formas_no_personales": {"infinitivo":"chismear","gerundio":["chismeando"], "participio":["chismeado"]},
   "formas_personales": {
     "IndPres": {"s1":["chismeo"],"s2":["chismeas"],"vos":["chismeás"],"s3":["chismea"],"p1":["chismeamos"],"p2":["chismeáis"],"p3":["chismean"]},
     "IndImp": {"s1":["chismeaba"],"s2":["chismeabas"],"vos":["chismeabas"],"s3":["chismeaba"],"p1":["chismeábamos"],"p2":["chismeabais"],"p3":["chismeaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, grado2 y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agradar","gerundio":"agradando","participio":"agradado"},
+  "formas_no_personales": {"infinitivo":"agradar","gerundio":["agradando"], "participio":["agradado"]},
   "formas_personales": {
     "IndPres": {"s1":["agrado"],"s2":["agradas"],"vos":["agradás"],"s3":["agrada"],"p1":["agradamos"],"p2":["agradáis"],"p3":["agradan"]},
     "IndImp": {"s1":["agradaba"],"s2":["agradabas"],"vos":["agradabas"],"s3":["agradaba"],"p1":["agradábamos"],"p2":["agradabais"],"p3":["agradaban"]},

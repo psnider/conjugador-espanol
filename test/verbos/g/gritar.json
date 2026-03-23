@@ -6,7 +6,7 @@
     "etimologia": "Del latín quiritāre (\"hablar con voz muy fuerte\")[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"gritar","gerundio":"gritando","participio":"gritado"},
+  "formas_no_personales": {"infinitivo":"gritar","gerundio":["gritando"], "participio":["gritado"]},
   "formas_personales": {
     "IndPres": {"s1":["grito"],"s2":["gritas"],"vos":["gritás"],"s3":["grita"],"p1":["gritamos"],"p2":["gritáis"],"p3":["gritan"]},
     "IndImp": {"s1":["gritaba"],"s2":["gritabas"],"vos":["gritabas"],"s3":["gritaba"],"p1":["gritábamos"],"p2":["gritabais"],"p3":["gritaban"]},

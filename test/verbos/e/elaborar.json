@@ -6,7 +6,7 @@
     "etimologia": "Del latín elaborāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"elaborar","gerundio":"elaborando","participio":"elaborado"},
+  "formas_no_personales": {"infinitivo":"elaborar","gerundio":["elaborando"], "participio":["elaborado"]},
   "formas_personales": {
     "IndPres": {"s1":["elaboro"],"s2":["elaboras"],"vos":["elaborás"],"s3":["elabora"],"p1":["elaboramos"],"p2":["elaboráis"],"p3":["elaboran"]},
     "IndImp": {"s1":["elaboraba"],"s2":["elaborabas"],"vos":["elaborabas"],"s3":["elaboraba"],"p1":["elaborábamos"],"p2":["elaborabais"],"p3":["elaboraban"]},

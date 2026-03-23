@@ -6,7 +6,7 @@
     "etimologia": "Del latín producere, y este formado con pro, \"delante\" y \"ducere\", \"sacar\".",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"producir","gerundio":"produciendo","participio":"producido"},
+  "formas_no_personales": {"infinitivo":"producir","gerundio":["produciendo"], "participio":["producido"]},
   "formas_personales": {
     "IndPres": {"s1":["produzco"],"s2":["produces"],"vos":["producís"],"s3":["produce"],"p1":["producimos"],"p2":["producís"],"p3":["producen"]},
     "IndImp": {"s1":["producía"],"s2":["producías"],"vos":["producías"],"s3":["producía"],"p1":["producíamos"],"p2":["producíais"],"p3":["producían"]},

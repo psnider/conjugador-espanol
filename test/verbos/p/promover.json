@@ -6,7 +6,7 @@
     "etimologia": "Del latín promovere",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"promover","gerundio":"promoviendo","participio":"promovido"},
+  "formas_no_personales": {"infinitivo":"promover","gerundio":["promoviendo"], "participio":["promovido"]},
   "formas_personales": {
     "IndPres": {"s1":["promuevo"],"s2":["promueves"],"vos":["promovés"],"s3":["promueve"],"p1":["promovemos"],"p2":["promovéis"],"p3":["promueven"]},
     "IndImp": {"s1":["promovía"],"s2":["promovías"],"vos":["promovías"],"s3":["promovía"],"p1":["promovíamos"],"p2":["promovíais"],"p3":["promovían"]},

@@ -6,7 +6,7 @@
     "etimologia": "De pestaña y el sufijo -ear",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pestañear","gerundio":"pestañeando","participio":"pestañeado"},
+  "formas_no_personales": {"infinitivo":"pestañear","gerundio":["pestañeando"], "participio":["pestañeado"]},
   "formas_personales": {
     "IndPres": {"s1":["pestañeo"],"s2":["pestañeas"],"vos":["pestañeás"],"s3":["pestañea"],"p1":["pestañeamos"],"p2":["pestañeáis"],"p3":["pestañean"]},
     "IndImp": {"s1":["pestañeaba"],"s2":["pestañeabas"],"vos":["pestañeabas"],"s3":["pestañeaba"],"p1":["pestañeábamos"],"p2":["pestañeabais"],"p3":["pestañeaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y tajar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atajar","gerundio":"atajando","participio":"atajado"},
+  "formas_no_personales": {"infinitivo":"atajar","gerundio":["atajando"], "participio":["atajado"]},
   "formas_personales": {
     "IndPres": {"s1":["atajo"],"s2":["atajas"],"vos":["atajás"],"s3":["ataja"],"p1":["atajamos"],"p2":["atajáis"],"p3":["atajan"]},
     "IndImp": {"s1":["atajaba"],"s2":["atajabas"],"vos":["atajabas"],"s3":["atajaba"],"p1":["atajábamos"],"p2":["atajabais"],"p3":["atajaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Cruce de seer y eser. El primero viene del castellano antiguo seer ('ser'), y este del latín sedēre; mientras que para el segundo, del latín medieval inicial essere, del latín esse, infinitivo de sum. La forma verbal eres viene del castellano antiguo eres&nbsp;('eres'), del latín eris&nbsp;('serás'). En el latín vulgar de la península ibérica es&nbsp;('eres') y est&nbsp;('es') se volvieron homófonos, así comenzó a usarse para evitar confusiones la forma de futuro eris&nbsp;('serás'), que ya en ese momento dejaba de ser usada, como forma de presente.",
     "modelos": ["ser"]
   },
-  "formas_no_personales": {"infinitivo":"ser","gerundio":"siendo","participio":"sido"},
+  "formas_no_personales": {"infinitivo":"ser","gerundio":["siendo"], "participio":["sido"]},
   "formas_personales": {
     "IndPres": {"s1":["soy"],"s2":["eres"],"vos":["sos"],"s3":["es"],"p1":["somos"],"p2":{"estándar":["sois"],"atípicos":[{"forma":"ereis","etiquetas":["arcaico"]}]},"p3":["son"]},
     "IndImp": {"s1":["era"],"s2":["eras"],"vos":["eras"],"s3":["era"],"p1":["éramos"],"p2":["erais"],"p3":["eran"]},

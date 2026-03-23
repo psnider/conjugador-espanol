@@ -6,7 +6,7 @@
     "etimologia": "Onomatopéyica, por trep.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"trepar","gerundio":"trepando","participio":"trepado"},
+  "formas_no_personales": {"infinitivo":"trepar","gerundio":["trepando"], "participio":["trepado"]},
   "formas_personales": {
     "IndPres": {"s1":["trepo"],"s2":["trepas"],"vos":["trepás"],"s3":["trepa"],"p1":["trepamos"],"p2":["trepáis"],"p3":["trepan"]},
     "IndImp": {"s1":["trepaba"],"s2":["trepabas"],"vos":["trepabas"],"s3":["trepaba"],"p1":["trepábamos"],"p2":["trepabais"],"p3":["trepaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1300.[1] De paso y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pasear","gerundio":"paseando","participio":"paseado"},
+  "formas_no_personales": {"infinitivo":"pasear","gerundio":["paseando"], "participio":["paseado"]},
   "formas_personales": {
     "IndPres": {"s1":["paseo"],"s2":["paseas"],"vos":["paseás"],"s3":["pasea"],"p1":["paseamos"],"p2":["paseáis"],"p3":["pasean"]},
     "IndImp": {"s1":["paseaba"],"s2":["paseabas"],"vos":["paseabas"],"s3":["paseaba"],"p1":["paseábamos"],"p2":["paseabais"],"p3":["paseaban"]},

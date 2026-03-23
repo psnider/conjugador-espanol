@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del castellano antiguo lejar, y este del latín laxāre (\"soltar, aflojar, abrir\"). El cambio de \"l\" a \"d\" se produjo por influencia de la palabra dar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dejar","gerundio":"dejando","participio":"dejado"},
+  "formas_no_personales": {"infinitivo":"dejar","gerundio":["dejando"], "participio":["dejado"]},
   "formas_personales": {
     "IndPres": {"s1":["dejo"],"s2":["dejas"],"vos":["dejás"],"s3":["deja"],"p1":["dejamos"],"p2":["dejáis"],"p3":["dejan"]},
     "IndImp": {"s1":["dejaba"],"s2":["dejabas"],"vos":["dejabas"],"s3":["dejaba"],"p1":["dejábamos"],"p2":["dejabais"],"p3":["dejaban"]},

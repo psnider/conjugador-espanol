@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"succionar","gerundio":"succionando","participio":"succionado"},
+  "formas_no_personales": {"infinitivo":"succionar","gerundio":["succionando"], "participio":["succionado"]},
   "formas_personales": {
     "IndPres": {"s1":["succiono"],"s2":["succionas"],"vos":["succionás"],"s3":["succiona"],"p1":["succionamos"],"p2":["succionáis"],"p3":["succionan"]},
     "IndImp": {"s1":["succionaba"],"s2":["succionabas"],"vos":["succionabas"],"s3":["succionaba"],"p1":["succionábamos"],"p2":["succionabais"],"p3":["succionaban"]},

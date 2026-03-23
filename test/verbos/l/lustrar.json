@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lustrar","gerundio":"lustrando","participio":"lustrado"},
+  "formas_no_personales": {"infinitivo":"lustrar","gerundio":["lustrando"], "participio":["lustrado"]},
   "formas_personales": {
     "IndPres": {"s1":["lustro"],"s2":["lustras"],"vos":["lustrás"],"s3":["lustra"],"p1":["lustramos"],"p2":["lustráis"],"p3":["lustran"]},
     "IndImp": {"s1":["lustraba"],"s2":["lustrabas"],"vos":["lustrabas"],"s3":["lustraba"],"p1":["lustrábamos"],"p2":["lustrabais"],"p3":["lustraban"]},

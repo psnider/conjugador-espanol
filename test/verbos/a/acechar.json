@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acechar","gerundio":"acechando","participio":"acechado"},
+  "formas_no_personales": {"infinitivo":"acechar","gerundio":["acechando"], "participio":["acechado"]},
   "formas_personales": {
     "IndPres": {"s1":["acecho"],"s2":["acechas"],"vos":["acechás"],"s3":["acecha"],"p1":["acechamos"],"p2":["acecháis"],"p3":["acechan"]},
     "IndImp": {"s1":["acechaba"],"s2":["acechabas"],"vos":["acechabas"],"s3":["acechaba"],"p1":["acechábamos"],"p2":["acechabais"],"p3":["acechaban"]},

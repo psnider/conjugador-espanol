@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, flaco y el sufijo -ecer.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"enflaquecer","gerundio":"enflaqueciendo","participio":"enflaquecido"},
+  "formas_no_personales": {"infinitivo":"enflaquecer","gerundio":["enflaqueciendo"], "participio":["enflaquecido"]},
   "formas_personales": {
     "IndPres": {"s1":["enflaquezco"],"s2":["enflaqueces"],"vos":["enflaquecés"],"s3":["enflaquece"],"p1":["enflaquecemos"],"p2":["enflaquecéis"],"p3":["enflaquecen"]},
     "IndImp": {"s1":["enflaquecía"],"s2":["enflaquecías"],"vos":["enflaquecías"],"s3":["enflaquecía"],"p1":["enflaquecíamos"],"p2":["enflaquecíais"],"p3":["enflaquecían"]},

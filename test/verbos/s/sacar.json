@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto. Posiblemente del gótico sakan (\"altercar\").[1]",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"sacar","gerundio":"sacando","participio":"sacado"},
+  "formas_no_personales": {"infinitivo":"sacar","gerundio":["sacando"], "participio":["sacado"]},
   "formas_personales": {
     "IndPres": {"s1":["saco"],"s2":["sacas"],"vos":["sacás"],"s3":["saca"],"p1":["sacamos"],"p2":["sacáis"],"p3":["sacan"]},
     "IndImp": {"s1":["sacaba"],"s2":["sacabas"],"vos":["sacabas"],"s3":["sacaba"],"p1":["sacábamos"],"p2":["sacabais"],"p3":["sacaban"]},

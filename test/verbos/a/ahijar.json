@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ajˈxaɾ]",
+    "silabacion": "ahi-jar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahijar","gerundio":["ahijando"], "participio":["ahijado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ahíjo"],"s2":["ahíjas"],"vos":["ahijás"],"s3":["ahíja"],"p1":["ahijamos"],"p2":["ahijáis"],"p3":["ahíjan"]},
+    "IndImp": {"s1":["ahijaba"],"s2":["ahijabas"],"vos":["ahijabas"],"s3":["ahijaba"],"p1":["ahijábamos"],"p2":["ahijabais"],"p3":["ahijaban"]},
+    "IndPret": {"s1":["ahijé"],"s2":["ahijaste"],"vos":["ahijaste"],"s3":["ahijó"],"p1":["ahijamos"],"p2":["ahijasteis"],"p3":["ahijaron"]},
+    "IndFut": {"s1":["ahijaré"],"s2":["ahijarás"],"vos":["ahijarás"],"s3":["ahijará"],"p1":["ahijaremos"],"p2":["ahijaréis"],"p3":["ahijarán"]},
+    "IndCond": {"s1":["ahijaría"],"s2":["ahijarías"],"vos":["ahijarías"],"s3":["ahijaría"],"p1":["ahijaríamos"],"p2":["ahijaríais"],"p3":["ahijarían"]},
+    "SubPres": {"s1":["ahíje"],"s2":["ahíjes"],"vos":["ahíjes","ahijés"],"s3":["ahíje"],"p1":["ahijemos"],"p2":["ahijéis"],"p3":["ahíjen"]},
+    "SubImp": {"s1":["ahijara","ahijase"],"s2":["ahijaras","ahijases"],"vos":["ahijaras","ahijases"],"s3":["ahijara","ahijase"],"p1":["ahijáramos","ahijásemos"],"p2":["ahijarais","ahijaseis"],"p3":["ahijaran","ahijasen"]},
+    "SubFut": {"s1":["ahijare"],"s2":["ahijares"],"vos":["ahijares"],"s3":["ahijare"],"p1":["ahijáremos"],"p2":["ahijareis"],"p3":["ahijaren"]},
+    "CmdPos": {"s2":["ahíja"],"vos":["ahijá"],"s3":["ahíje"],"p1":["ahijemos"],"p2":["ahijad"],"p3":["ahíjen"]}
+  }
+}

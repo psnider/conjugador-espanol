@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar insignare ('señalar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enseñar","gerundio":"enseñando","participio":"enseñado"},
+  "formas_no_personales": {"infinitivo":"enseñar","gerundio":["enseñando"], "participio":["enseñado"]},
   "formas_personales": {
     "IndPres": {"s1":["enseño"],"s2":["enseñas"],"vos":["enseñás"],"s3":["enseña"],"p1":["enseñamos"],"p2":["enseñáis"],"p3":["enseñan"]},
     "IndImp": {"s1":["enseñaba"],"s2":["enseñabas"],"vos":["enseñabas"],"s3":["enseñaba"],"p1":["enseñábamos"],"p2":["enseñabais"],"p3":["enseñaban"]},

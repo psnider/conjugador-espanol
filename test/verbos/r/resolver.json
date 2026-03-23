@@ -6,7 +6,7 @@
     "etimologia": "Del latín resolvĕre ('desatar')",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"resolver","gerundio":"resolviendo","participio":"resuelto"},
+  "formas_no_personales": {"infinitivo":"resolver","gerundio":["resolviendo"], "participio":["resuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["resuelvo"],"s2":["resuelves"],"vos":["resolvés"],"s3":["resuelve"],"p1":["resolvemos"],"p2":["resolvéis"],"p3":["resuelven"]},
     "IndImp": {"s1":["resolvía"],"s2":["resolvías"],"vos":["resolvías"],"s3":["resolvía"],"p1":["resolvíamos"],"p2":["resolvíais"],"p3":["resolvían"]},

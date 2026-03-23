@@ -6,7 +6,7 @@
     "etimologia": "Del latín dividere ('dividir').",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"dividir","gerundio":"dividiendo","participio":"dividido"},
+  "formas_no_personales": {"infinitivo":"dividir","gerundio":["dividiendo"], "participio":["dividido"]},
   "formas_personales": {
     "IndPres": {"s1":["divido"],"s2":["divides"],"vos":["dividís"],"s3":["divide"],"p1":["dividimos"],"p2":["dividís"],"p3":["dividen"]},
     "IndImp": {"s1":["dividía"],"s2":["dividías"],"vos":["dividías"],"s3":["dividía"],"p1":["dividíamos"],"p2":["dividíais"],"p3":["dividían"]},

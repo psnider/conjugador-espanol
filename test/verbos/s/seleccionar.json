@@ -6,7 +6,7 @@
     "etimologia": "De selección y el sufijo -ar1.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"seleccionar","gerundio":"seleccionando","participio":"seleccionado"},
+  "formas_no_personales": {"infinitivo":"seleccionar","gerundio":["seleccionando"], "participio":["seleccionado"]},
   "formas_personales": {
     "IndPres": {"s1":["selecciono"],"s2":["seleccionas"],"vos":["seleccionás"],"s3":["selecciona"],"p1":["seleccionamos"],"p2":["seleccionáis"],"p3":["seleccionan"]},
     "IndImp": {"s1":["seleccionaba"],"s2":["seleccionabas"],"vos":["seleccionabas"],"s3":["seleccionaba"],"p1":["seleccionábamos"],"p2":["seleccionabais"],"p3":["seleccionaban"]},

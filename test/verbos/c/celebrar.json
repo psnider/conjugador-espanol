@@ -6,7 +6,7 @@
     "etimologia": "Del latín celebrāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"celebrar","gerundio":"celebrando","participio":"celebrado"},
+  "formas_no_personales": {"infinitivo":"celebrar","gerundio":["celebrando"], "participio":["celebrado"]},
   "formas_personales": {
     "IndPres": {"s1":["celebro"],"s2":["celebras"],"vos":["celebrás"],"s3":["celebra"],"p1":["celebramos"],"p2":["celebráis"],"p3":["celebran"]},
     "IndImp": {"s1":["celebraba"],"s2":["celebrabas"],"vos":["celebrabas"],"s3":["celebraba"],"p1":["celebrábamos"],"p2":["celebrabais"],"p3":["celebraban"]},

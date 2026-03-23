@@ -6,7 +6,7 @@
     "etimologia": "Del latín illuminare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"iluminar","gerundio":"iluminando","participio":"iluminado"},
+  "formas_no_personales": {"infinitivo":"iluminar","gerundio":["iluminando"], "participio":["iluminado"]},
   "formas_personales": {
     "IndPres": {"s1":["ilumino"],"s2":["iluminas"],"vos":["iluminás"],"s3":["ilumina"],"p1":["iluminamos"],"p2":["ilumináis"],"p3":["iluminan"]},
     "IndImp": {"s1":["iluminaba"],"s2":["iluminabas"],"vos":["iluminabas"],"s3":["iluminaba"],"p1":["iluminábamos"],"p2":["iluminabais"],"p3":["iluminaban"]},

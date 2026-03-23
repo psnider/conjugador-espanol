@@ -6,7 +6,7 @@
     "etimologia": "Del latín capulare (\"enlazar animales\"), a su vez de capĕre&nbsp;('agarrar'), habiendo pasado por el latín vulgar *excapulare.[1]",
     "modelos": ["escabullir"]
   },
-  "formas_no_personales": {"infinitivo":"escabullir","gerundio":"escabullendo","participio":"escabullido"},
+  "formas_no_personales": {"infinitivo":"escabullir","gerundio":["escabullendo"], "participio":["escabullido"]},
   "formas_personales": {
     "IndPres": {"s1":["escabullo"],"s2":["escabulles"],"vos":["escabullís"],"s3":["escabulle"],"p1":["escabullimos"],"p2":["escabullís"],"p3":["escabullen"]},
     "IndImp": {"s1":["escabullía"],"s2":["escabullías"],"vos":["escabullías"],"s3":["escabullía"],"p1":["escabullíamos"],"p2":["escabullíais"],"p3":["escabullían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del francés remodeler y este del inglés \"to remodel\".",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"remodelar","gerundio":"remodelando","participio":"remodelado"},
+  "formas_no_personales": {"infinitivo":"remodelar","gerundio":["remodelando"], "participio":["remodelado"]},
   "formas_personales": {
     "IndPres": {"s1":["remodelo"],"s2":["remodelas"],"vos":["remodelás"],"s3":["remodela"],"p1":["remodelamos"],"p2":["remodeláis"],"p3":["remodelan"]},
     "IndImp": {"s1":["remodelaba"],"s2":["remodelabas"],"vos":["remodelabas"],"s3":["remodelaba"],"p1":["remodelábamos"],"p2":["remodelabais"],"p3":["remodelaban"]},

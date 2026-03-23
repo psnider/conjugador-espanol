@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y potro.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"despotricar","gerundio":"despotricando","participio":"despotricado"},
+  "formas_no_personales": {"infinitivo":"despotricar","gerundio":["despotricando"], "participio":["despotricado"]},
   "formas_personales": {
     "IndPres": {"s1":["despotrico"],"s2":["despotricas"],"vos":["despotricás"],"s3":["despotrica"],"p1":["despotricamos"],"p2":["despotricáis"],"p3":["despotrican"]},
     "IndImp": {"s1":["despotricaba"],"s2":["despotricabas"],"vos":["despotricabas"],"s3":["despotricaba"],"p1":["despotricábamos"],"p2":["despotricabais"],"p3":["despotricaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto (discutida).[1]",
     "modelos": ["contar","complicar"]
   },
-  "formas_no_personales": {"infinitivo":"trocar","gerundio":"trocando","participio":"trocado"},
+  "formas_no_personales": {"infinitivo":"trocar","gerundio":["trocando"], "participio":["trocado"]},
   "formas_personales": {
     "IndPres": {"s1":["trueco"],"s2":["truecas"],"vos":["trocás"],"s3":["trueca"],"p1":["trocamos"],"p2":["trocáis"],"p3":["truecan"]},
     "IndImp": {"s1":["trocaba"],"s2":["trocabas"],"vos":["trocabas"],"s3":["trocaba"],"p1":["trocábamos"],"p2":["trocabais"],"p3":["trocaban"]},

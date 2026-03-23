@@ -6,7 +6,7 @@
     "etimologia": "De lágrima y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lagrimear","gerundio":"lagrimeando","participio":"lagrimeado"},
+  "formas_no_personales": {"infinitivo":"lagrimear","gerundio":["lagrimeando"], "participio":["lagrimeado"]},
   "formas_personales": {
     "IndPres": {"s1":["lagrimeo"],"s2":["lagrimeas"],"vos":["lagrimeás"],"s3":["lagrimea"],"p1":["lagrimeamos"],"p2":["lagrimeáis"],"p3":["lagrimean"]},
     "IndImp": {"s1":["lagrimeaba"],"s2":["lagrimeabas"],"vos":["lagrimeabas"],"s3":["lagrimeaba"],"p1":["lagrimeábamos"],"p2":["lagrimeabais"],"p3":["lagrimeaban"]},

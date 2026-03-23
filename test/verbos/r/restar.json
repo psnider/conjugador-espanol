@@ -6,7 +6,7 @@
     "etimologia": "Del latín restare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"restar","gerundio":"restando","participio":"restado"},
+  "formas_no_personales": {"infinitivo":"restar","gerundio":["restando"], "participio":["restado"]},
   "formas_personales": {
     "IndPres": {"s1":["resto"],"s2":["restas"],"vos":["restás"],"s3":["resta"],"p1":["restamos"],"p2":["restáis"],"p3":["restan"]},
     "IndImp": {"s1":["restaba"],"s2":["restabas"],"vos":["restabas"],"s3":["restaba"],"p1":["restábamos"],"p2":["restabais"],"p3":["restaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"doler","gerundio":"doliendo","participio":"dolido"},
+  "formas_no_personales": {"infinitivo":"doler","gerundio":["doliendo"], "participio":["dolido"]},
   "formas_personales": {
     "IndPres": {"s1":["duelo"],"s2":["dueles"],"vos":["dolés"],"s3":["duele"],"p1":["dolemos"],"p2":["doléis"],"p3":["duelen"]},
     "IndImp": {"s1":["dolía"],"s2":["dolías"],"vos":["dolías"],"s3":["dolía"],"p1":["dolíamos"],"p2":["dolíais"],"p3":["dolían"]},

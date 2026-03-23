@@ -5,7 +5,7 @@
     "etimologia": "De conciencia y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"concienciar","gerundio":"concienciando","participio":"concienciado"},
+  "formas_no_personales": {"infinitivo":"concienciar","gerundio":["concienciando"], "participio":["concienciado"]},
   "formas_personales": {
     "IndPres": {"s1":["conciencio"],"s2":["conciencias"],"vos":["concienciás"],"s3":["conciencia"],"p1":["concienciamos"],"p2":["concienciáis"],"p3":["conciencian"]},
     "IndImp": {"s1":["concienciaba"],"s2":["concienciabas"],"vos":["concienciabas"],"s3":["concienciaba"],"p1":["concienciábamos"],"p2":["concienciabais"],"p3":["concienciaban"]},

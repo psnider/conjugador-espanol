@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"enroscar","gerundio":"enroscando","participio":"enroscado"},
+  "formas_no_personales": {"infinitivo":"enroscar","gerundio":["enroscando"], "participio":["enroscado"]},
   "formas_personales": {
     "IndPres": {"s1":["enrosco"],"s2":["enroscas"],"vos":["enroscás"],"s3":["enrosca"],"p1":["enroscamos"],"p2":["enroscáis"],"p3":["enroscan"]},
     "IndImp": {"s1":["enroscaba"],"s2":["enroscabas"],"vos":["enroscabas"],"s3":["enroscaba"],"p1":["enroscábamos"],"p2":["enroscabais"],"p3":["enroscaban"]},

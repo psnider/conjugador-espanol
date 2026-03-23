@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, lejos y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alejar","gerundio":"alejando","participio":"alejado"},
+  "formas_no_personales": {"infinitivo":"alejar","gerundio":["alejando"], "participio":["alejado"]},
   "formas_personales": {
     "IndPres": {"s1":["alejo"],"s2":["alejas"],"vos":["alejás"],"s3":["aleja"],"p1":["alejamos"],"p2":["alejáis"],"p3":["alejan"]},
     "IndImp": {"s1":["alejaba"],"s2":["alejabas"],"vos":["alejabas"],"s3":["alejaba"],"p1":["alejábamos"],"p2":["alejabais"],"p3":["alejaban"]},

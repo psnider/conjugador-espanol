@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y pegar.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"despegar","gerundio":"despegando","participio":"despegado"},
+  "formas_no_personales": {"infinitivo":"despegar","gerundio":["despegando"], "participio":["despegado"]},
   "formas_personales": {
     "IndPres": {"s1":["despego"],"s2":["despegas"],"vos":["despegás"],"s3":["despega"],"p1":["despegamos"],"p2":["despegáis"],"p3":["despegan"]},
     "IndImp": {"s1":["despegaba"],"s2":["despegabas"],"vos":["despegabas"],"s3":["despegaba"],"p1":["despegábamos"],"p2":["despegabais"],"p3":["despegaban"]},

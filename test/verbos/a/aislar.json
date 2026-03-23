@@ -6,7 +6,7 @@
     "etimologia": "De isla",
     "modelos": ["aislar"]
   },
-  "formas_no_personales": {"infinitivo":"aislar","gerundio":"aislando","participio":"aislado"},
+  "formas_no_personales": {"infinitivo":"aislar","gerundio":["aislando"], "participio":["aislado"]},
   "formas_personales": {
     "IndPres": {"s1":["aíslo"],"s2":["aíslas"],"vos":["aislás"],"s3":["aísla"],"p1":["aislamos"],"p2":["aisláis"],"p3":["aíslan"]},
     "IndImp": {"s1":["aislaba"],"s2":["aislabas"],"vos":["aislabas"],"s3":["aislaba"],"p1":["aislábamos"],"p2":["aislabais"],"p3":["aislaban"]},

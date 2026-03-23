@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desbaratar","gerundio":"desbaratando","participio":"desbaratado"},
+  "formas_no_personales": {"infinitivo":"desbaratar","gerundio":["desbaratando"], "participio":["desbaratado"]},
   "formas_personales": {
     "IndPres": {"s1":["desbarato"],"s2":["desbaratas"],"vos":["desbaratás"],"s3":["desbarata"],"p1":["desbaratamos"],"p2":["desbaratáis"],"p3":["desbaratan"]},
     "IndImp": {"s1":["desbarataba"],"s2":["desbaratabas"],"vos":["desbaratabas"],"s3":["desbarataba"],"p1":["desbaratábamos"],"p2":["desbaratabais"],"p3":["desbarataban"]},

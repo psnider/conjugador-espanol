@@ -7,7 +7,7 @@
     "modelos": ["parecer"],
     "impersonal": true
   },
-  "formas_no_personales": {"infinitivo":"acontecer","gerundio":"aconteciendo","participio":"acontecido"},
+  "formas_no_personales": {"infinitivo":"acontecer","gerundio":["aconteciendo"], "participio":["acontecido"]},
   "formas_personales": {
     "IndPres": {"s3":["acontece"],                 "p3":["acontecen"]},
     "IndImp": {"s3":["acontecía"],                 "p3":["acontecían"]},

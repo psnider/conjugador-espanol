@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1200.[1] Del latín lavō, lavāre,[2] y este del protoindoeuropeo *lewh₃- (\"limpiar con agua\"). De allí también el griego clásico λούω (louō, \"bañar, purificar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lavar","gerundio":"lavando","participio":"lavado"},
+  "formas_no_personales": {"infinitivo":"lavar","gerundio":["lavando"], "participio":["lavado"]},
   "formas_personales": {
     "IndPres": {"s1":["lavo"],"s2":["lavas"],"vos":["lavás"],"s3":["lava"],"p1":["lavamos"],"p2":["laváis"],"p3":["lavan"]},
     "IndImp": {"s1":["lavaba"],"s2":["lavabas"],"vos":["lavabas"],"s3":["lavaba"],"p1":["lavábamos"],"p2":["lavabais"],"p3":["lavaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín construĕre",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"construir","gerundio":"construyendo","participio":"construido"},
+  "formas_no_personales": {"infinitivo":"construir","gerundio":["construyendo"], "participio":["construido"]},
   "formas_personales": {
     "IndPres": {"s1":["construyo"],"s2":["construyes"],"vos":["construís"],"s3":["construye"],"p1":["construimos"],"p2":["construís"],"p3":["construyen"]},
     "IndImp": {"s1":["construía"],"s2":["construías"],"vos":["construías"],"s3":["construía"],"p1":["construíamos"],"p2":["construíais"],"p3":["construían"]},

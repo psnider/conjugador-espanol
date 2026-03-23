@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞aˈlwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y evaluar.",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"revaluar","gerundio":["revaluando"], "participio":["revaluado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["revalúo"],"s2":["revalúas"],"vos":["revaluás"],"s3":["revalúa"],"p1":["revaluamos"],"p2":["revaluáis"],"p3":["revalúan"]},
+    "IndImp": {"s1":["revaluaba"],"s2":["revaluabas"],"vos":["revaluabas"],"s3":["revaluaba"],"p1":["revaluábamos"],"p2":["revaluabais"],"p3":["revaluaban"]},
+    "IndPret": {"s1":["revalué"],"s2":["revaluaste"],"vos":["revaluaste"],"s3":["revaluó"],"p1":["revaluamos"],"p2":["revaluasteis"],"p3":["revaluaron"]},
+    "IndFut": {"s1":["revaluaré"],"s2":["revaluarás"],"vos":["revaluarás"],"s3":["revaluará"],"p1":["revaluaremos"],"p2":["revaluaréis"],"p3":["revaluarán"]},
+    "IndCond": {"s1":["revaluaría"],"s2":["revaluarías"],"vos":["revaluarías"],"s3":["revaluaría"],"p1":["revaluaríamos"],"p2":["revaluaríais"],"p3":["revaluarían"]},
+    "SubPres": {"s1":["revalúe"],"s2":["revalúes"],"vos":["revalúes","revalués"],"s3":["revalúe"],"p1":["revaluemos"],"p2":["revaluéis"],"p3":["revalúen"]},
+    "SubImp": {"s1":["revaluara","revaluase"],"s2":["revaluaras","revaluases"],"vos":["revaluaras","revaluases"],"s3":["revaluara","revaluase"],"p1":["revaluáramos","revaluásemos"],"p2":["revaluarais","revaluaseis"],"p3":["revaluaran","revaluasen"]},
+    "SubFut": {"s1":["revaluare"],"s2":["revaluares"],"vos":["revaluares"],"s3":["revaluare"],"p1":["revaluáremos"],"p2":["revaluareis"],"p3":["revaluaren"]},
+    "CmdPos": {"s2":["revalúa"],"vos":["revaluá"],"s3":["revalúe"],"p1":["revaluemos"],"p2":["revaluad"],"p3":["revalúen"]}
+  }
+}

@@ -6,7 +6,7 @@
     "etimologia": "Del latín offerre.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"ofrecer","gerundio":"ofreciendo","participio":"ofrecido"},
+  "formas_no_personales": {"infinitivo":"ofrecer","gerundio":["ofreciendo"], "participio":["ofrecido"]},
   "formas_personales": {
     "IndPres": {"s1":["ofrezco"],"s2":["ofreces"],"vos":["ofrecés"],"s3":["ofrece"],"p1":["ofrecemos"],"p2":["ofrecéis"],"p3":["ofrecen"]},
     "IndImp": {"s1":["ofrecía"],"s2":["ofrecías"],"vos":["ofrecías"],"s3":["ofrecía"],"p1":["ofrecíamos"],"p2":["ofrecíais"],"p3":["ofrecían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"disciplinar","gerundio":"disciplinando","participio":"disciplinado"},
+  "formas_no_personales": {"infinitivo":"disciplinar","gerundio":["disciplinando"], "participio":["disciplinado"]},
   "formas_personales": {
     "IndPres": {"s1":["disciplino"],"s2":["disciplinas"],"vos":["disciplinás"],"s3":["disciplina"],"p1":["disciplinamos"],"p2":["disciplináis"],"p3":["disciplinan"]},
     "IndImp": {"s1":["disciplinaba"],"s2":["disciplinabas"],"vos":["disciplinabas"],"s3":["disciplinaba"],"p1":["disciplinábamos"],"p2":["disciplinabais"],"p3":["disciplinaban"]},

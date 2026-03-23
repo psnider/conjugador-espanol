@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"alargar","gerundio":"alargando","participio":"alargado"},
+  "formas_no_personales": {"infinitivo":"alargar","gerundio":["alargando"], "participio":["alargado"]},
   "formas_personales": {
     "IndPres": {"s1":["alargo"],"s2":["alargas"],"vos":["alargás"],"s3":["alarga"],"p1":["alargamos"],"p2":["alargáis"],"p3":["alargan"]},
     "IndImp": {"s1":["alargaba"],"s2":["alargabas"],"vos":["alargabas"],"s3":["alargaba"],"p1":["alargábamos"],"p2":["alargabais"],"p3":["alargaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín complere. La preservación de /pl/ es irregular e inusual.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"cumplir","gerundio":"cumpliendo","participio":"cumplido"},
+  "formas_no_personales": {"infinitivo":"cumplir","gerundio":["cumpliendo"], "participio":["cumplido"]},
   "formas_personales": {
     "IndPres": {"s1":["cumplo"],"s2":["cumples"],"vos":["cumplís"],"s3":["cumple"],"p1":["cumplimos"],"p2":["cumplís"],"p3":["cumplen"]},
     "IndImp": {"s1":["cumplía"],"s2":["cumplías"],"vos":["cumplías"],"s3":["cumplía"],"p1":["cumplíamos"],"p2":["cumplíais"],"p3":["cumplían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín praeparāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"preparar","gerundio":"preparando","participio":"preparado"},
+  "formas_no_personales": {"infinitivo":"preparar","gerundio":["preparando"], "participio":["preparado"]},
   "formas_personales": {
     "IndPres": {"s1":["preparo"],"s2":["preparas"],"vos":["preparás"],"s3":["prepara"],"p1":["preparamos"],"p2":["preparáis"],"p3":["preparan"]},
     "IndImp": {"s1":["preparaba"],"s2":["preparabas"],"vos":["preparabas"],"s3":["preparaba"],"p1":["preparábamos"],"p2":["preparabais"],"p3":["preparaban"]},

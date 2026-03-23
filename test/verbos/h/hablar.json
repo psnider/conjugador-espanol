@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo fablar, y este del latín fābulor, fābulārī (\"conversar\", \"fabular\"), del latín fabula, derivado del latín for, en última instancia del protoindoeuropeo *bʰeh₂- (\"hablar\"). Compárese el asturiano, gallego y portugués falar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hablar","gerundio":"hablando","participio":"hablado"},
+  "formas_no_personales": {"infinitivo":"hablar","gerundio":["hablando"], "participio":["hablado"]},
   "formas_personales": {
     "IndPres": {"s1":["hablo"],"s2":["hablas"],"vos":["hablás"],"s3":["habla"],"p1":["hablamos"],"p2":["habláis"],"p3":["hablan"]},
     "IndImp": {"s1":["hablaba"],"s2":["hablabas"],"vos":["hablabas"],"s3":["hablaba"],"p1":["hablábamos"],"p2":["hablabais"],"p3":["hablaban"]},

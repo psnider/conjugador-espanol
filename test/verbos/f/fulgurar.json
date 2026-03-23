@@ -6,7 +6,7 @@
     "etimologia": "Derivación regresiva de fulgurante.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"fulgurar","gerundio":"fulgurando","participio":"fulgurado"},
+  "formas_no_personales": {"infinitivo":"fulgurar","gerundio":["fulgurando"], "participio":["fulgurado"]},
   "formas_personales": {
     "IndPres": {"s1":["fulguro"],"s2":["fulguras"],"vos":["fulgurás"],"s3":["fulgura"],"p1":["fulguramos"],"p2":["fulguráis"],"p3":["fulguran"]},
     "IndImp": {"s1":["fulguraba"],"s2":["fulgurabas"],"vos":["fulgurabas"],"s3":["fulguraba"],"p1":["fulgurábamos"],"p2":["fulgurabais"],"p3":["fulguraban"]},

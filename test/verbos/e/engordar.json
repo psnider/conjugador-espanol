@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, gordo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"engordar","gerundio":"engordando","participio":"engordado"},
+  "formas_no_personales": {"infinitivo":"engordar","gerundio":["engordando"], "participio":["engordado"]},
   "formas_personales": {
     "IndPres": {"s1":["engordo"],"s2":["engordas"],"vos":["engordás"],"s3":["engorda"],"p1":["engordamos"],"p2":["engordáis"],"p3":["engordan"]},
     "IndImp": {"s1":["engordaba"],"s2":["engordabas"],"vos":["engordabas"],"s3":["engordaba"],"p1":["engordábamos"],"p2":["engordabais"],"p3":["engordaban"]},

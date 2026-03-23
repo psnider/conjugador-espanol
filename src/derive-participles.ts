@@ -1,4 +1,5 @@
-import { Participios, ParticipleRulesApplied, VerbRulesApplied } from "."
+import { Participios, ParticipleRulesApplied, VerbForms, VerbRulesApplied } from "."
+import { applyToVerbForms, formsAreEqual } from "./lib.js"
 import { applyOrthographicalChangesForParticiples } from "./ortografía.js"
 import { addPrefixesToBaseForm } from "./prefixes.js"
 import { regular_verb_suffixes } from "./regular-verb-rules.js"
@@ -13,29 +14,9 @@ function getRegularParticiples(conj_and_deriv_rules: ConjugationAndDerivationRul
     const suffixes = regular_verb_suffixes[verb_family].participle_rules
     const gerundio_base = stem + suffixes.pres.suffix
     const participio_base = stem + suffixes.past.suffix
-    const regular: Participios = {gerundio: gerundio_base, participio: participio_base}
+    const regular: Participios = {gerundio: [gerundio_base], participio: [participio_base]}
     rules_applied.push({regular})
     return regular
-
-    // // if (infinitivo !== infinitivo_sin_prefijos) {
-    // if (prefixes) {
-    //     const prefixed: Participios = {}
-
-    //     const gerundio_prefixed = addPrefixesToBaseForm(gerundio_base, prefixes)
-    //     if (gerundio_prefixed !== gerundio_base) {
-    //         prefixed.gerundio = gerundio_prefixed
-    //     }
-    //     const participio_prefixed =  addPrefixesToBaseForm(participio_base, prefixes)
-    //     if (participio_prefixed !== participio_base) {
-    //         prefixed.participio = participio_prefixed
-    //     }
-    //     if (Object.keys(prefixed).length > 0) {
-    //         rules_applied.push({prefixed})
-    //     }
-    //     return {...regular, ...prefixed}
-    // } else {
-    //     return regular
-    // }
 }
 
 
@@ -45,24 +26,24 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
     if (!excepciones_léxicas) return
     const {gerundio, participio} = excepciones_léxicas
     if (gerundio || participio) {
-        const {prefixes} = conj_and_deriv_rules
         rules_applied.push({excepciones_léxicas: {gerundio, participio}})
+        const {prefixes} = conj_and_deriv_rules
         const result: Participios = {}
-        const prefixed: Participios = {}
-        if (excepciones_léxicas.gerundio) {
+        const prefix_rules_applied: Participios = {}
+        if (gerundio) {
             result.gerundio = addPrefixesToBaseForm(excepciones_léxicas.gerundio, prefixes)
             if (result.gerundio !== excepciones_léxicas.gerundio) {
-                prefixed.gerundio = result.gerundio
+                prefix_rules_applied.gerundio = result.gerundio
             }
         }
-        if (excepciones_léxicas.participio) {
-            result.participio = addPrefixesToBaseForm(excepciones_léxicas.participio, prefixes)
-            if (result.participio !== excepciones_léxicas.participio) {
-                prefixed.participio = result.participio
+        if (participio) {
+            result.participio = addPrefixesToBaseForm(participio, prefixes)
+            if (! formsAreEqual(result.participio, participio)) {
+                prefix_rules_applied.participio = result.participio
             }
         }
-        if (Object.keys(prefixed).length > 0) {
-            rules_applied.push({prefixed})
+        if (Object.keys(prefix_rules_applied).length > 0) {
+            rules_applied.push({prefixed: prefix_rules_applied})
         }
         return result
     }
@@ -79,18 +60,32 @@ function getOrthographicChangesForParticiples(rules: ConjugationAndDerivationRul
     }
     const {infinitivo, verb_family, morphological_rules} = rules
     const alternancia = morphological_rules?.combinados?.alternancia_vocálica
-    const {gerund_stem, ending} = splitGerund(regulares.gerundio, verb_family)
+    let alternate: ReturnType<typeof splitGerund>
+    const split_default = splitGerund(regulares.gerundio[0], verb_family)
+    if (regulares.gerundio.length > 1) {
+        const alternate = splitGerund(regulares.gerundio[1], verb_family)
+        if (split_default.ending !== alternate.ending) {
+            throw new Error(`${infinitivo}: gerundios terminan diferente: ${regulares.gerundio}`)
+        }
+    }
     const excepcion = morphological_rules?.combinados?.excepciones_léxicas?.gerundio_tema_cambio_excepcional
     const gerundio_tema_cambio = excepcion ?? stem_change_patterns[alternancia!]?.gerund_rule
     const excepcional = !!excepcion
-    const gerundio = gerundio_tema_cambio
-            ? applyStemChangeToGerundStem({gerund_stem, verb_family, gerundio_tema_cambio,excepcional, rules_applied}) + ending
-            : regulares.gerundio
+    const gerundio_temas: VerbForms = [split_default.gerund_stem]
+    if (alternate) {
+        gerundio_temas.push(alternate.gerund_stem)
+    }
+    const gerundios_w_stem_changes = applyToVerbForms(gerundio_temas, (gerundio_tema, i) => {
+        const updated = gerundio_tema_cambio
+                ? applyStemChangeToGerundStem({gerund_stem: gerundio_tema, verb_family, gerundio_tema_cambio, excepcional, rules_applied}) + split_default.ending
+                : regulares.gerundio[i]
+        return updated
+    })
     // const do_correct_diéresis = infinitivo.includes("ü")
     const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll")
     const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
-    const orthographical_changes = applyOrthographicalChangesForParticiples({...regulares, gerundio}, ending, do_correct_diéresis, do_correct_ñi_yi, rules_applied)
-    const result = {...regulares, gerundio, ...orthographical_changes}
+    const orthographical_changes = applyOrthographicalChangesForParticiples(infinitivo, {...regulares, gerundio: gerundios_w_stem_changes}, split_default.ending, do_correct_diéresis, do_correct_ñi_yi, rules_applied)
+    const result = {...regulares, gerundio: gerundios_w_stem_changes, ...orthographical_changes}
     if (result.gerundio === regulares.gerundio) delete result.gerundio
     if (result.participio === regulares.participio) delete result.participio
     return result

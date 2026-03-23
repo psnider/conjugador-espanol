@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo sobre- y cargar.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"sobrecargar","gerundio":"sobrecargando","participio":"sobrecargado"},
+  "formas_no_personales": {"infinitivo":"sobrecargar","gerundio":["sobrecargando"], "participio":["sobrecargado"]},
   "formas_personales": {
     "IndPres": {"s1":["sobrecargo"],"s2":["sobrecargas"],"vos":["sobrecargás"],"s3":["sobrecarga"],"p1":["sobrecargamos"],"p2":["sobrecargáis"],"p3":["sobrecargan"]},
     "IndImp": {"s1":["sobrecargaba"],"s2":["sobrecargabas"],"vos":["sobrecargabas"],"s3":["sobrecargaba"],"p1":["sobrecargábamos"],"p2":["sobrecargabais"],"p3":["sobrecargaban"]},

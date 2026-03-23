@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"mandar","gerundio":"mandando","participio":"mandado"},
+  "formas_no_personales": {"infinitivo":"mandar","gerundio":["mandando"], "participio":["mandado"]},
   "formas_personales": {
     "IndPres": {"s1":["mando"],"s2":["mandas"],"vos":["mandás"],"s3":["manda"],"p1":["mandamos"],"p2":["mandáis"],"p3":["mandan"]},
     "IndImp": {"s1":["mandaba"],"s2":["mandabas"],"vos":["mandabas"],"s3":["mandaba"],"p1":["mandábamos"],"p2":["mandabais"],"p3":["mandaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín adquirere[1], de adquaerere, compuesto de ad-&nbsp;('hacia') y quaerō, quaerere&nbsp;('buscar').",
     "modelos": ["discernir"]
   },
-  "formas_no_personales": {"infinitivo":"adquirir","gerundio":"adquiriendo","participio":"adquirido"},
+  "formas_no_personales": {"infinitivo":"adquirir","gerundio":["adquiriendo"], "participio":["adquirido"]},
   "formas_personales": {
     "IndPres": {"s1":["adquiero"],"s2":["adquieres"],"vos":["adquirís"],"s3":["adquiere"],"p1":["adquirimos"],"p2":["adquirís"],"p3":["adquieren"]},
     "IndImp": {"s1":["adquiría"],"s2":["adquirías"],"vos":["adquirías"],"s3":["adquiría"],"p1":["adquiríamos"],"p2":["adquiríais"],"p3":["adquirían"]},

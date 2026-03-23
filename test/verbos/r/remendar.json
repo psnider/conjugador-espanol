@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo remendar ('reparar'), y este de re- y emendar, del latín emendāre&nbsp;('enmendar').[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"remendar","gerundio":"remendando","participio":"remendado"},
+  "formas_no_personales": {"infinitivo":"remendar","gerundio":["remendando"], "participio":["remendado"]},
   "formas_personales": {
     "IndPres": {"s1":["remiendo"],"s2":["remiendas"],"vos":["remendás"],"s3":["remienda"],"p1":["remendamos"],"p2":["remendáis"],"p3":["remiendan"]},
     "IndImp": {"s1":["remendaba"],"s2":["remendabas"],"vos":["remendabas"],"s3":["remendaba"],"p1":["remendábamos"],"p2":["remendabais"],"p3":["remendaban"]},

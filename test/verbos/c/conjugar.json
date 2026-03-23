@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"conjugar","gerundio":"conjugando","participio":"conjugado"},
+  "formas_no_personales": {"infinitivo":"conjugar","gerundio":["conjugando"], "participio":["conjugado"]},
   "formas_personales": {
     "IndPres": {"s1":["conjugo"],"s2":["conjugas"],"vos":["conjugás"],"s3":["conjuga"],"p1":["conjugamos"],"p2":["conjugáis"],"p3":["conjugan"]},
     "IndImp": {"s1":["conjugaba"],"s2":["conjugabas"],"vos":["conjugabas"],"s3":["conjugaba"],"p1":["conjugábamos"],"p2":["conjugabais"],"p3":["conjugaban"]},

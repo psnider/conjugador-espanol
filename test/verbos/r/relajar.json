@@ -6,7 +6,7 @@
     "etimologia": "Del latín relaxare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"relajar","gerundio":"relajando","participio":"relajado"},
+  "formas_no_personales": {"infinitivo":"relajar","gerundio":["relajando"], "participio":["relajado"]},
   "formas_personales": {
     "IndPres": {"s1":["relajo"],"s2":["relajas"],"vos":["relajás"],"s3":["relaja"],"p1":["relajamos"],"p2":["relajáis"],"p3":["relajan"]},
     "IndImp": {"s1":["relajaba"],"s2":["relajabas"],"vos":["relajabas"],"s3":["relajaba"],"p1":["relajábamos"],"p2":["relajabais"],"p3":["relajaban"]},

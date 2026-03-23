@@ -6,7 +6,7 @@
     "etimologia": "De granizo y el sufijo -ar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"granizar","gerundio":"granizando","participio":"granizado"},
+  "formas_no_personales": {"infinitivo":"granizar","gerundio":["granizando"], "participio":["granizado"]},
   "formas_personales": {
     "IndPres": {"s1":["granizo"],"s3":["graniza"],"p3":["granizan"]},
     "IndImp": {"s1":["granizaba"],"s3":["granizaba"],"p3":["granizaban"]},

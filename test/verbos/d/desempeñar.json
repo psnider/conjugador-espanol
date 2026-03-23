@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y empeñar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desempeñar","gerundio":"desempeñando","participio":"desempeñado"},
+  "formas_no_personales": {"infinitivo":"desempeñar","gerundio":["desempeñando"], "participio":["desempeñado"]},
   "formas_personales": {
     "IndPres": {"s1":["desempeño"],"s2":["desempeñas"],"vos":["desempeñás"],"s3":["desempeña"],"p1":["desempeñamos"],"p2":["desempeñáis"],"p3":["desempeñan"]},
     "IndImp": {"s1":["desempeñaba"],"s2":["desempeñabas"],"vos":["desempeñabas"],"s3":["desempeñaba"],"p1":["desempeñábamos"],"p2":["desempeñabais"],"p3":["desempeñaban"]},

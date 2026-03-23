@@ -6,7 +6,7 @@
     "etimologia": "Del latín consuere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"coser","gerundio":"cosiendo","participio":"cosido"},
+  "formas_no_personales": {"infinitivo":"coser","gerundio":["cosiendo"], "participio":["cosido"]},
   "formas_personales": {
     "IndPres": {"s1":["coso"],"s2":["coses"],"vos":["cosés"],"s3":["cose"],"p1":["cosemos"],"p2":["coséis"],"p3":["cosen"]},
     "IndImp": {"s1":["cosía"],"s2":["cosías"],"vos":["cosías"],"s3":["cosía"],"p1":["cosíamos"],"p2":["cosíais"],"p3":["cosían"]},

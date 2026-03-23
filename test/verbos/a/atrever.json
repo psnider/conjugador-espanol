@@ -6,7 +6,7 @@
     "etimologia": "Del latín tribuere ('atribuir').",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"atrever","gerundio":"atreviendo","participio":"atrevido"},
+  "formas_no_personales": {"infinitivo":"atrever","gerundio":["atreviendo"], "participio":["atrevido"]},
   "formas_personales": {
     "IndPres": {"s1":["atrevo"],"s2":["atreves"],"vos":["atrevés"],"s3":["atreve"],"p1":["atrevemos"],"p2":["atrevéis"],"p3":["atreven"]},
     "IndImp": {"s1":["atrevía"],"s2":["atrevías"],"vos":["atrevías"],"s3":["atrevía"],"p1":["atrevíamos"],"p2":["atrevíais"],"p3":["atrevían"]},

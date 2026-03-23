@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *comperāre, del latín comparare. Doblete con comparar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"comprar","gerundio":"comprando","participio":"comprado"},
+  "formas_no_personales": {"infinitivo":"comprar","gerundio":["comprando"], "participio":["comprado"]},
   "formas_personales": {
     "IndPres": {"s1":["compro"],"s2":["compras"],"vos":["comprás"],"s3":["compra"],"p1":["compramos"],"p2":["compráis"],"p3":["compran"]},
     "IndImp": {"s1":["compraba"],"s2":["comprabas"],"vos":["comprabas"],"s3":["compraba"],"p1":["comprábamos"],"p2":["comprabais"],"p3":["compraban"]},

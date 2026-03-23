@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo con- y seguir, del latín consequi (\"acompañar\", \"buscar\", \"obtener\"), compuesto del prefijo con-&nbsp;('con') y el verbo sequor&nbsp;('seguir'), este del protoindoeuropeo *sekʷ-, con el mismo significado.",
     "modelos": ["distinguir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"conseguir","gerundio":"consiguiendo","participio":"conseguido"},
+  "formas_no_personales": {"infinitivo":"conseguir","gerundio":["consiguiendo"], "participio":["conseguido"]},
   "formas_personales": {
     "IndPres": {"s1":["consigo"],"s2":["consigues"],"vos":["conseguís"],"s3":["consigue"],"p1":["conseguimos"],"p2":["conseguís"],"p3":["consiguen"]},
     "IndImp": {"s1":["conseguía"],"s2":["conseguías"],"vos":["conseguías"],"s3":["conseguía"],"p1":["conseguíamos"],"p2":["conseguíais"],"p3":["conseguían"]},

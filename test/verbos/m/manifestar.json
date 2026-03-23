@@ -6,7 +6,7 @@
     "etimologia": "Del latín manifestō, manifestāre, derivado de manifestus (\"patente, palpable\"), compuesto de manus&nbsp;('mano') y *fendō, *fendere (\"cortar, hender\"), variante de findō, findere",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"manifestar","gerundio":"manifestando","participio":"manifestado"},
+  "formas_no_personales": {"infinitivo":"manifestar","gerundio":["manifestando"], "participio":["manifestado"]},
   "formas_personales": {
     "IndPres": {"s1":["manifiesto"],"s2":["manifiestas"],"vos":["manifestás"],"s3":["manifiesta"],"p1":["manifestamos"],"p2":["manifestáis"],"p3":["manifiestan"]},
     "IndImp": {"s1":["manifestaba"],"s2":["manifestabas"],"vos":["manifestabas"],"s3":["manifestaba"],"p1":["manifestábamos"],"p2":["manifestabais"],"p3":["manifestaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De flanco y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"flanquear","gerundio":"flanqueando","participio":"flanqueado"},
+  "formas_no_personales": {"infinitivo":"flanquear","gerundio":["flanqueando"], "participio":["flanqueado"]},
   "formas_personales": {
     "IndPres": {"s1":["flanqueo"],"s2":["flanqueas"],"vos":["flanqueás"],"s3":["flanquea"],"p1":["flanqueamos"],"p2":["flanqueáis"],"p3":["flanquean"]},
     "IndImp": {"s1":["flanqueaba"],"s2":["flanqueabas"],"vos":["flanqueabas"],"s3":["flanqueaba"],"p1":["flanqueábamos"],"p2":["flanqueabais"],"p3":["flanqueaban"]},

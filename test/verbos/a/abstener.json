@@ -6,7 +6,7 @@
     "etimologia": "Del latín abstinēre",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"abstener","gerundio":"absteniendo","participio":"abstenido"},
+  "formas_no_personales": {"infinitivo":"abstener","gerundio":["absteniendo"], "participio":["abstenido"]},
   "formas_personales": {
     "IndPres": {"s1":["abstengo"],"s2":["abstienes"],"vos":["abstenés"],"s3":["abstiene"],"p1":["abstenemos"],"p2":["abstenéis"],"p3":["abstienen"]},
     "IndImp": {"s1":["abstenía"],"s2":["abstenías"],"vos":["abstenías"],"s3":["abstenía"],"p1":["absteníamos"],"p2":["absteníais"],"p3":["abstenían"]},

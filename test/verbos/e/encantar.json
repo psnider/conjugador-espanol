@@ -6,7 +6,7 @@
     "etimologia": "Del latín incantāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"encantar","gerundio":"encantando","participio":"encantado"},
+  "formas_no_personales": {"infinitivo":"encantar","gerundio":["encantando"], "participio":["encantado"]},
   "formas_personales": {
     "IndPres": {"s1":["encanto"],"s2":["encantas"],"vos":["encantás"],"s3":["encanta"],"p1":["encantamos"],"p2":["encantáis"],"p3":["encantan"]},
     "IndImp": {"s1":["encantaba"],"s2":["encantabas"],"vos":["encantabas"],"s3":["encantaba"],"p1":["encantábamos"],"p2":["encantabais"],"p3":["encantaban"]},

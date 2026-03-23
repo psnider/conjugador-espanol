@@ -5,7 +5,7 @@
     "etimologia": "De vacío",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"vaciar","gerundio":"vaciando","participio":"vaciado"},
+  "formas_no_personales": {"infinitivo":"vaciar","gerundio":["vaciando"], "participio":["vaciado"]},
   "formas_personales": {
     "IndPres": {"s1":["vacío"],"s2":["vacías"],"vos":["vaciás"],"s3":["vacía"],"p1":["vaciamos"],"p2":["vaciáis"],"p3":["vacían"]},
     "IndImp": {"s1":["vaciaba"],"s2":["vaciabas"],"vos":["vaciabas"],"s3":["vaciaba"],"p1":["vaciábamos"],"p2":["vaciabais"],"p3":["vaciaban"]},

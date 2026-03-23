@@ -6,7 +6,7 @@
     "etimologia": "Del latín mendicare",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"mendigar","gerundio":"mendigando","participio":"mendigado"},
+  "formas_no_personales": {"infinitivo":"mendigar","gerundio":["mendigando"], "participio":["mendigado"]},
   "formas_personales": {
     "IndPres": {"s1":["mendigo"],"s2":["mendigas"],"vos":["mendigás"],"s3":["mendiga"],"p1":["mendigamos"],"p2":["mendigáis"],"p3":["mendigan"]},
     "IndImp": {"s1":["mendigaba"],"s2":["mendigabas"],"vos":["mendigabas"],"s3":["mendigaba"],"p1":["mendigábamos"],"p2":["mendigabais"],"p3":["mendigaban"]},

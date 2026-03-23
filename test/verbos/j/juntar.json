@@ -6,7 +6,7 @@
     "etimologia": "De junto y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"juntar","gerundio":"juntando","participio":"juntado"},
+  "formas_no_personales": {"infinitivo":"juntar","gerundio":["juntando"], "participio":["juntado"]},
   "formas_personales": {
     "IndPres": {"s1":["junto"],"s2":["juntas"],"vos":["juntás"],"s3":["junta"],"p1":["juntamos"],"p2":["juntáis"],"p3":["juntan"]},
     "IndImp": {"s1":["juntaba"],"s2":["juntabas"],"vos":["juntabas"],"s3":["juntaba"],"p1":["juntábamos"],"p2":["juntabais"],"p3":["juntaban"]},

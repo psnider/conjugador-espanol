@@ -6,7 +6,7 @@
     "etimologia": "Del latín sapere (\"tener inteligencia\").",
     "modelos": ["saber"]
   },
-  "formas_no_personales": {"infinitivo":"saber","gerundio":"sabiendo","participio":"sabido"},
+  "formas_no_personales": {"infinitivo":"saber","gerundio":["sabiendo"], "participio":["sabido"]},
   "formas_personales": {
     "IndPres": {"s1":{"estándar":["sé"],"atípicos":[{"forma":"sabo","etiquetas":["no normativo"]}]},"s2":["sabes"],"vos":["sabés"],"s3":["sabe"],"p1":["sabemos"],"p2":["sabéis"],"p3":["saben"]},
     "IndImp": {"s1":["sabía"],"s2":["sabías"],"vos":["sabías"],"s3":["sabía"],"p1":["sabíamos"],"p2":["sabíais"],"p3":["sabían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"ramificar","gerundio":"ramificando","participio":"ramificado"},
+  "formas_no_personales": {"infinitivo":"ramificar","gerundio":["ramificando"], "participio":["ramificado"]},
   "formas_personales": {
     "IndPres": {"s1":["ramifico"],"s2":["ramificas"],"vos":["ramificás"],"s3":["ramifica"],"p1":["ramificamos"],"p2":["ramificáis"],"p3":["ramifican"]},
     "IndImp": {"s1":["ramificaba"],"s2":["ramificabas"],"vos":["ramificabas"],"s3":["ramificaba"],"p1":["ramificábamos"],"p2":["ramificabais"],"p3":["ramificaban"]},

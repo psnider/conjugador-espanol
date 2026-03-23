@@ -6,7 +6,7 @@
     "etimologia": "Del latín corrigere.",
     "modelos": ["dirigir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"corregir","gerundio":"corrigiendo","participio":"corregido"},
+  "formas_no_personales": {"infinitivo":"corregir","gerundio":["corrigiendo"], "participio":["corregido"]},
   "formas_personales": {
     "IndPres": {"s1":["corrijo"],"s2":["corriges"],"vos":["corregís"],"s3":["corrige"],"p1":["corregimos"],"p2":["corregís"],"p3":["corrigen"]},
     "IndImp": {"s1":["corregía"],"s2":["corregías"],"vos":["corregías"],"s3":["corregía"],"p1":["corregíamos"],"p2":["corregíais"],"p3":["corregían"]},

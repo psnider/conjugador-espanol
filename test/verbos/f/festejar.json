@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"festejar","gerundio":"festejando","participio":"festejado"},
+  "formas_no_personales": {"infinitivo":"festejar","gerundio":["festejando"], "participio":["festejado"]},
   "formas_personales": {
     "IndPres": {"s1":["festejo"],"s2":["festejas"],"vos":["festejás"],"s3":["festeja"],"p1":["festejamos"],"p2":["festejáis"],"p3":["festejan"]},
     "IndImp": {"s1":["festejaba"],"s2":["festejabas"],"vos":["festejabas"],"s3":["festejaba"],"p1":["festejábamos"],"p2":["festejabais"],"p3":["festejaban"]},

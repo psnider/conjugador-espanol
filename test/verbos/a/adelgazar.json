@@ -6,7 +6,7 @@
     "etimologia": "De delgazar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"adelgazar","gerundio":"adelgazando","participio":"adelgazado"},
+  "formas_no_personales": {"infinitivo":"adelgazar","gerundio":["adelgazando"], "participio":["adelgazado"]},
   "formas_personales": {
     "IndPres": {"s1":["adelgazo"],"s2":["adelgazas"],"vos":["adelgazás"],"s3":["adelgaza"],"p1":["adelgazamos"],"p2":["adelgazáis"],"p3":["adelgazan"]},
     "IndImp": {"s1":["adelgazaba"],"s2":["adelgazabas"],"vos":["adelgazabas"],"s3":["adelgazaba"],"p1":["adelgazábamos"],"p2":["adelgazabais"],"p3":["adelgazaban"]},

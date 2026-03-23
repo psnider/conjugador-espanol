@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"retumbar","gerundio":"retumbando","participio":"retumbado"},
+  "formas_no_personales": {"infinitivo":"retumbar","gerundio":["retumbando"], "participio":["retumbado"]},
   "formas_personales": {
     "IndPres": {"s1":["retumbo"],"s2":["retumbas"],"vos":["retumbás"],"s3":["retumba"],"p1":["retumbamos"],"p2":["retumbáis"],"p3":["retumban"]},
     "IndImp": {"s1":["retumbaba"],"s2":["retumbabas"],"vos":["retumbabas"],"s3":["retumbaba"],"p1":["retumbábamos"],"p2":["retumbabais"],"p3":["retumbaban"]},

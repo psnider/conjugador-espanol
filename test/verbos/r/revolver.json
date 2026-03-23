@@ -6,7 +6,7 @@
     "etimologia": "Del latín revolvere",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"revolver","gerundio":"revolviendo","participio":"revuelto"},
+  "formas_no_personales": {"infinitivo":"revolver","gerundio":["revolviendo"], "participio":["revuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["revuelvo"],"s2":["revuelves"],"vos":["revolvés"],"s3":["revuelve"],"p1":["revolvemos"],"p2":["revolvéis"],"p3":["revuelven"]},
     "IndImp": {"s1":["revolvía"],"s2":["revolvías"],"vos":["revolvías"],"s3":["revolvía"],"p1":["revolvíamos"],"p2":["revolvíais"],"p3":["revolvían"]},

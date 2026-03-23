@@ -6,7 +6,7 @@
     "etimologia": "Del latín rebellāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rebelar","gerundio":"rebelando","participio":"rebelado"},
+  "formas_no_personales": {"infinitivo":"rebelar","gerundio":["rebelando"], "participio":["rebelado"]},
   "formas_personales": {
     "IndPres": {"s1":["rebelo"],"s2":["rebelas"],"vos":["rebelás"],"s3":["rebela"],"p1":["rebelamos"],"p2":["rebeláis"],"p3":["rebelan"]},
     "IndImp": {"s1":["rebelaba"],"s2":["rebelabas"],"vos":["rebelabas"],"s3":["rebelaba"],"p1":["rebelábamos"],"p2":["rebelabais"],"p3":["rebelaban"]},

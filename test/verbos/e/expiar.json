@@ -5,7 +5,7 @@
     "etimologia": "Del latín expiare ('expiāre').",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"expiar","gerundio":"expiando","participio":"expiado"},
+  "formas_no_personales": {"infinitivo":"expiar","gerundio":["expiando"], "participio":["expiado"]},
   "formas_personales": {
     "IndPres": {"s1":["expío"],"s2":["expías"],"vos":["expiás"],"s3":["expía"],"p1":["expiamos"],"p2":["expiáis"],"p3":["expían"]},
     "IndImp": {"s1":["expiaba"],"s2":["expiabas"],"vos":["expiabas"],"s3":["expiaba"],"p1":["expiábamos"],"p2":["expiabais"],"p3":["expiaban"]},

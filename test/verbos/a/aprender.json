@@ -6,7 +6,7 @@
     "etimologia": "Del latín apprehendĕre, a su vez de ad&nbsp;('a') y prehendĕre (\"percibir, asir, agarrar\").[1] Doblete del cultismo aprehender.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"aprender","gerundio":"aprendiendo","participio":"aprendido"},
+  "formas_no_personales": {"infinitivo":"aprender","gerundio":["aprendiendo"], "participio":["aprendido"]},
   "formas_personales": {
     "IndPres": {"s1":["aprendo"],"s2":["aprendes"],"vos":["aprendés"],"s3":["aprende"],"p1":["aprendemos"],"p2":["aprendéis"],"p3":["aprenden"]},
     "IndImp": {"s1":["aprendía"],"s2":["aprendías"],"vos":["aprendías"],"s3":["aprendía"],"p1":["aprendíamos"],"p2":["aprendíais"],"p3":["aprendían"]},

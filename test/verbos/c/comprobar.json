@@ -6,7 +6,7 @@
     "etimologia": "Del latín comprobāre ('comprobar').",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"comprobar","gerundio":"comprobando","participio":"comprobado"},
+  "formas_no_personales": {"infinitivo":"comprobar","gerundio":["comprobando"], "participio":["comprobado"]},
   "formas_personales": {
     "IndPres": {"s1":["compruebo"],"s2":["compruebas"],"vos":["comprobás"],"s3":["comprueba"],"p1":["comprobamos"],"p2":["comprobáis"],"p3":["comprueban"]},
     "IndImp": {"s1":["comprobaba"],"s2":["comprobabas"],"vos":["comprobabas"],"s3":["comprobaba"],"p1":["comprobábamos"],"p2":["comprobabais"],"p3":["comprobaban"]},

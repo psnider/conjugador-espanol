@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, plasta y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aplastar","gerundio":"aplastando","participio":"aplastado"},
+  "formas_no_personales": {"infinitivo":"aplastar","gerundio":["aplastando"], "participio":["aplastado"]},
   "formas_personales": {
     "IndPres": {"s1":["aplasto"],"s2":["aplastas"],"vos":["aplastás"],"s3":["aplasta"],"p1":["aplastamos"],"p2":["aplastáis"],"p3":["aplastan"]},
     "IndImp": {"s1":["aplastaba"],"s2":["aplastabas"],"vos":["aplastabas"],"s3":["aplastaba"],"p1":["aplastábamos"],"p2":["aplastabais"],"p3":["aplastaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De riesgo y su vez del latín resecum.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"arriesgar","gerundio":"arriesgando","participio":"arriesgado"},
+  "formas_no_personales": {"infinitivo":"arriesgar","gerundio":["arriesgando"], "participio":["arriesgado"]},
   "formas_personales": {
     "IndPres": {"s1":["arriesgo"],"s2":["arriesgas"],"vos":["arriesgás"],"s3":["arriesga"],"p1":["arriesgamos"],"p2":["arriesgáis"],"p3":["arriesgan"]},
     "IndImp": {"s1":["arriesgaba"],"s2":["arriesgabas"],"vos":["arriesgabas"],"s3":["arriesgaba"],"p1":["arriesgábamos"],"p2":["arriesgabais"],"p3":["arriesgaban"]},

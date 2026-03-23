@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"duchar","gerundio":"duchando","participio":"duchado"},
+  "formas_no_personales": {"infinitivo":"duchar","gerundio":["duchando"], "participio":["duchado"]},
   "formas_personales": {
     "IndPres": {"s1":["ducho"],"s2":["duchas"],"vos":["duchás"],"s3":["ducha"],"p1":["duchamos"],"p2":["ducháis"],"p3":["duchan"]},
     "IndImp": {"s1":["duchaba"],"s2":["duchabas"],"vos":["duchabas"],"s3":["duchaba"],"p1":["duchábamos"],"p2":["duchabais"],"p3":["duchaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y afiar (\"prometer no hacer daño\"), a su vez de fiar.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"desafiar","gerundio":"desafiando","participio":"desafiado"},
+  "formas_no_personales": {"infinitivo":"desafiar","gerundio":["desafiando"], "participio":["desafiado"]},
   "formas_personales": {
     "IndPres": {"s1":["desafío"],"s2":["desafías"],"vos":["desafiás"],"s3":["desafía"],"p1":["desafiamos"],"p2":["desafiáis"],"p3":["desafían"]},
     "IndImp": {"s1":["desafiaba"],"s2":["desafiabas"],"vos":["desafiabas"],"s3":["desafiaba"],"p1":["desafiábamos"],"p2":["desafiabais"],"p3":["desafiaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín subfrigere.[1]",
     "modelos": ["reír","freír"]
   },
-  "formas_no_personales": {"infinitivo":"sofreír","gerundio":"sofriendo","participio":"sofrito"},
+  "formas_no_personales": {"infinitivo":"sofreír","gerundio":["sofriendo"], "participio":["sofrito"]},
   "formas_personales": {
     "IndPres": {"s1":["sofrío"],"s2":["sofríes"],"vos":["sofreís"],"s3":["sofríe"],"p1":["sofreímos"],"p2":["sofreís"],"p3":["sofríen"]},
     "IndImp": {"s1":["sofreía"],"s2":["sofreías"],"vos":["sofreías"],"s3":["sofreía"],"p1":["sofreíamos"],"p2":["sofreíais"],"p3":["sofreían"]},

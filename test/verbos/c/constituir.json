@@ -5,7 +5,7 @@
     "etimologia": "Del latín constituo.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"constituir","gerundio":"constituyendo","participio":"constituido"},
+  "formas_no_personales": {"infinitivo":"constituir","gerundio":["constituyendo"], "participio":["constituido"]},
   "formas_personales": {
     "IndPres": {"s1":["constituyo"],"s2":["constituyes"],"vos":["constituís"],"s3":["constituye"],"p1":["constituimos"],"p2":["constituís"],"p3":["constituyen"]},
     "IndImp": {"s1":["constituía"],"s2":["constituías"],"vos":["constituías"],"s3":["constituía"],"p1":["constituíamos"],"p2":["constituíais"],"p3":["constituían"]},

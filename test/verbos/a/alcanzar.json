@@ -6,7 +6,7 @@
     "etimologia": "Del latín incalciāre (a su vez de calx&nbsp;('talón')), con posible influencia del artículo árabe ال&nbsp;(al,&nbsp;'el').[1]",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"alcanzar","gerundio":"alcanzando","participio":"alcanzado"},
+  "formas_no_personales": {"infinitivo":"alcanzar","gerundio":["alcanzando"], "participio":["alcanzado"]},
   "formas_personales": {
     "IndPres": {"s1":["alcanzo"],"s2":["alcanzas"],"vos":["alcanzás"],"s3":["alcanza"],"p1":["alcanzamos"],"p2":["alcanzáis"],"p3":["alcanzan"]},
     "IndImp": {"s1":["alcanzaba"],"s2":["alcanzabas"],"vos":["alcanzabas"],"s3":["alcanzaba"],"p1":["alcanzábamos"],"p2":["alcanzabais"],"p3":["alcanzaban"]},

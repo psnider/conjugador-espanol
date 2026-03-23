@@ -6,7 +6,7 @@
     "etimologia": "De modelo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"modelar","gerundio":"modelando","participio":"modelado"},
+  "formas_no_personales": {"infinitivo":"modelar","gerundio":["modelando"], "participio":["modelado"]},
   "formas_personales": {
     "IndPres": {"s1":["modelo"],"s2":["modelas"],"vos":["modelás"],"s3":["modela"],"p1":["modelamos"],"p2":["modeláis"],"p3":["modelan"]},
     "IndImp": {"s1":["modelaba"],"s2":["modelabas"],"vos":["modelabas"],"s3":["modelaba"],"p1":["modelábamos"],"p2":["modelabais"],"p3":["modelaban"]},

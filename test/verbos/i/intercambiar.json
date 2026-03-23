@@ -5,7 +5,7 @@
     "etimologia": "De intercambio y el sufijo -ar",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"intercambiar","gerundio":"intercambiando","participio":"intercambiado"},
+  "formas_no_personales": {"infinitivo":"intercambiar","gerundio":["intercambiando"], "participio":["intercambiado"]},
   "formas_personales": {
     "IndPres": {"s1":["intercambio"],"s2":["intercambias"],"vos":["intercambiás"],"s3":["intercambia"],"p1":["intercambiamos"],"p2":["intercambiáis"],"p3":["intercambian"]},
     "IndImp": {"s1":["intercambiaba"],"s2":["intercambiabas"],"vos":["intercambiabas"],"s3":["intercambiaba"],"p1":["intercambiábamos"],"p2":["intercambiabais"],"p3":["intercambiaban"]},

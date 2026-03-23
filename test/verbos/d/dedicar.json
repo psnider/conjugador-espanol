@@ -6,7 +6,7 @@
     "etimologia": "Del latín dedicāre",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"dedicar","gerundio":"dedicando","participio":"dedicado"},
+  "formas_no_personales": {"infinitivo":"dedicar","gerundio":["dedicando"], "participio":["dedicado"]},
   "formas_personales": {
     "IndPres": {"s1":["dedico"],"s2":["dedicas"],"vos":["dedicás"],"s3":["dedica"],"p1":["dedicamos"],"p2":["dedicáis"],"p3":["dedican"]},
     "IndImp": {"s1":["dedicaba"],"s2":["dedicabas"],"vos":["dedicabas"],"s3":["dedicaba"],"p1":["dedicábamos"],"p2":["dedicabais"],"p3":["dedicaban"]},

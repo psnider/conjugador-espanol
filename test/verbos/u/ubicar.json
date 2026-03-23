@@ -6,7 +6,7 @@
     "etimologia": "Del latín ubi ('dónde').",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"ubicar","gerundio":"ubicando","participio":"ubicado"},
+  "formas_no_personales": {"infinitivo":"ubicar","gerundio":["ubicando"], "participio":["ubicado"]},
   "formas_personales": {
     "IndPres": {"s1":["ubico"],"s2":["ubicas"],"vos":["ubicás"],"s3":["ubica"],"p1":["ubicamos"],"p2":["ubicáis"],"p3":["ubican"]},
     "IndImp": {"s1":["ubicaba"],"s2":["ubicabas"],"vos":["ubicabas"],"s3":["ubicaba"],"p1":["ubicábamos"],"p2":["ubicabais"],"p3":["ubicaban"]},

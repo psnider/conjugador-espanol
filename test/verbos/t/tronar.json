@@ -6,7 +6,7 @@
     "etimologia": "Del latín tonare, con la r del español tronido.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"tronar","gerundio":"tronando","participio":"tronado"},
+  "formas_no_personales": {"infinitivo":"tronar","gerundio":["tronando"], "participio":["tronado"]},
   "formas_personales": {
     "IndPres": {"s1":["trueno"],"s2":["truenas"],"vos":["tronás"],"s3":["truena"],"p1":["tronamos"],"p2":["tronáis"],"p3":["truenan"]},
     "IndImp": {"s1":["tronaba"],"s2":["tronabas"],"vos":["tronabas"],"s3":["tronaba"],"p1":["tronábamos"],"p2":["tronabais"],"p3":["tronaban"]},

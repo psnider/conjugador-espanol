@@ -6,7 +6,7 @@
     "etimologia": "Onomatopéyica, debido al ruido que hacían antiguamente los caños al encastrar unos con otros. Se documenta por primera vez en 1856.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enchufar","gerundio":"enchufando","participio":"enchufado"},
+  "formas_no_personales": {"infinitivo":"enchufar","gerundio":["enchufando"], "participio":["enchufado"]},
   "formas_personales": {
     "IndPres": {"s1":["enchufo"],"s2":["enchufas"],"vos":["enchufás"],"s3":["enchufa"],"p1":["enchufamos"],"p2":["enchufáis"],"p3":["enchufan"]},
     "IndImp": {"s1":["enchufaba"],"s2":["enchufabas"],"vos":["enchufabas"],"s3":["enchufaba"],"p1":["enchufábamos"],"p2":["enchufabais"],"p3":["enchufaban"]},

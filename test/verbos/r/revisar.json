@@ -6,7 +6,7 @@
     "etimologia": "Del latín revisare, de re- y visare, frecuentativo de videre, del protoindoeuropeo *weyd-, \"ver, saber\". Compárese el cognado rever, así como el francés réviser, el inglés revise o el portugués revisar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"revisar","gerundio":"revisando","participio":"revisado"},
+  "formas_no_personales": {"infinitivo":"revisar","gerundio":["revisando"], "participio":["revisado"]},
   "formas_personales": {
     "IndPres": {"s1":["reviso"],"s2":["revisas"],"vos":["revisás"],"s3":["revisa"],"p1":["revisamos"],"p2":["revisáis"],"p3":["revisan"]},
     "IndImp": {"s1":["revisaba"],"s2":["revisabas"],"vos":["revisabas"],"s3":["revisaba"],"p1":["revisábamos"],"p2":["revisabais"],"p3":["revisaban"]},

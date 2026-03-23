@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tartamudear","gerundio":"tartamudeando","participio":"tartamudeado"},
+  "formas_no_personales": {"infinitivo":"tartamudear","gerundio":["tartamudeando"], "participio":["tartamudeado"]},
   "formas_personales": {
     "IndPres": {"s1":["tartamudeo"],"s2":["tartamudeas"],"vos":["tartamudeás"],"s3":["tartamudea"],"p1":["tartamudeamos"],"p2":["tartamudeáis"],"p3":["tartamudean"]},
     "IndImp": {"s1":["tartamudeaba"],"s2":["tartamudeabas"],"vos":["tartamudeabas"],"s3":["tartamudeaba"],"p1":["tartamudeábamos"],"p2":["tartamudeabais"],"p3":["tartamudeaban"]},

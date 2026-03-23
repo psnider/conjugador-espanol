@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y remeter.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"arremeter","gerundio":"arremetiendo","participio":"arremetido"},
+  "formas_no_personales": {"infinitivo":"arremeter","gerundio":["arremetiendo"], "participio":["arremetido"]},
   "formas_personales": {
     "IndPres": {"s1":["arremeto"],"s2":["arremetes"],"vos":["arremetés"],"s3":["arremete"],"p1":["arremetemos"],"p2":["arremetéis"],"p3":["arremeten"]},
     "IndImp": {"s1":["arremetía"],"s2":["arremetías"],"vos":["arremetías"],"s3":["arremetía"],"p1":["arremetíamos"],"p2":["arremetíais"],"p3":["arremetían"]},

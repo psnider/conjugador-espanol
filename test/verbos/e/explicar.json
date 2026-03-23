@@ -6,7 +6,7 @@
     "etimologia": "Del latín explicāre.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"explicar","gerundio":"explicando","participio":"explicado"},
+  "formas_no_personales": {"infinitivo":"explicar","gerundio":["explicando"], "participio":["explicado"]},
   "formas_personales": {
     "IndPres": {"s1":["explico"],"s2":["explicas"],"vos":["explicás"],"s3":["explica"],"p1":["explicamos"],"p2":["explicáis"],"p3":["explican"]},
     "IndImp": {"s1":["explicaba"],"s2":["explicabas"],"vos":["explicabas"],"s3":["explicaba"],"p1":["explicábamos"],"p2":["explicabais"],"p3":["explicaban"]},

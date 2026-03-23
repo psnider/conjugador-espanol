@@ -6,7 +6,7 @@
     "etimologia": "Compuesto de esparcir y derramar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desparramar","gerundio":"desparramando","participio":"desparramado"},
+  "formas_no_personales": {"infinitivo":"desparramar","gerundio":["desparramando"], "participio":["desparramado"]},
   "formas_personales": {
     "IndPres": {"s1":["desparramo"],"s2":["desparramas"],"vos":["desparramás"],"s3":["desparrama"],"p1":["desparramamos"],"p2":["desparramáis"],"p3":["desparraman"]},
     "IndImp": {"s1":["desparramaba"],"s2":["desparramabas"],"vos":["desparramabas"],"s3":["desparramaba"],"p1":["desparramábamos"],"p2":["desparramabais"],"p3":["desparramaban"]},

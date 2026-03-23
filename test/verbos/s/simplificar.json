@@ -6,7 +6,7 @@
     "etimologia": "Del latín medieval simplificārī. De simple y el sufijo -ificar.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"simplificar","gerundio":"simplificando","participio":"simplificado"},
+  "formas_no_personales": {"infinitivo":"simplificar","gerundio":["simplificando"], "participio":["simplificado"]},
   "formas_personales": {
     "IndPres": {"s1":["simplifico"],"s2":["simplificas"],"vos":["simplificás"],"s3":["simplifica"],"p1":["simplificamos"],"p2":["simplificáis"],"p3":["simplifican"]},
     "IndImp": {"s1":["simplificaba"],"s2":["simplificabas"],"vos":["simplificabas"],"s3":["simplificaba"],"p1":["simplificábamos"],"p2":["simplificabais"],"p3":["simplificaban"]},

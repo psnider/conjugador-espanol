@@ -6,7 +6,7 @@
     "etimologia": "Del latín declarāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"declarar","gerundio":"declarando","participio":"declarado"},
+  "formas_no_personales": {"infinitivo":"declarar","gerundio":["declarando"], "participio":["declarado"]},
   "formas_personales": {
     "IndPres": {"s1":["declaro"],"s2":["declaras"],"vos":["declarás"],"s3":["declara"],"p1":["declaramos"],"p2":["declaráis"],"p3":["declaran"]},
     "IndImp": {"s1":["declaraba"],"s2":["declarabas"],"vos":["declarabas"],"s3":["declaraba"],"p1":["declarábamos"],"p2":["declarabais"],"p3":["declaraban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín mortificare ('mortificar')",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"amortiguar","gerundio":"amortiguando","participio":"amortiguado"},
+  "formas_no_personales": {"infinitivo":"amortiguar","gerundio":["amortiguando"], "participio":["amortiguado"]},
   "formas_personales": {
     "IndPres": {"s1":["amortiguo"],"s2":["amortiguas"],"vos":["amortiguás"],"s3":["amortigua"],"p1":["amortiguamos"],"p2":["amortiguáis"],"p3":["amortiguan"]},
     "IndImp": {"s1":["amortiguaba"],"s2":["amortiguabas"],"vos":["amortiguabas"],"s3":["amortiguaba"],"p1":["amortiguábamos"],"p2":["amortiguabais"],"p3":["amortiguaban"]},

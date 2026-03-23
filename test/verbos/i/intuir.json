@@ -5,7 +5,7 @@
     "etimologia": "Del latín intueor, intuērī (\"observar, considerar\"), compuesto de in (\"en, dentro\") y tueor, tuērī&nbsp;('mirar').",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"intuir","gerundio":"intuyendo","participio":"intuido"},
+  "formas_no_personales": {"infinitivo":"intuir","gerundio":["intuyendo"], "participio":["intuido"]},
   "formas_personales": {
     "IndPres": {"s1":["intuyo"],"s2":["intuyes"],"vos":["intuís"],"s3":["intuye"],"p1":["intuimos"],"p2":["intuís"],"p3":["intuyen"]},
     "IndImp": {"s1":["intuía"],"s2":["intuías"],"vos":["intuías"],"s3":["intuía"],"p1":["intuíamos"],"p2":["intuíais"],"p3":["intuían"]},

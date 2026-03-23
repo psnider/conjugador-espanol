@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estrechar","gerundio":"estrechando","participio":"estrechado"},
+  "formas_no_personales": {"infinitivo":"estrechar","gerundio":["estrechando"], "participio":["estrechado"]},
   "formas_personales": {
     "IndPres": {"s1":["estrecho"],"s2":["estrechas"],"vos":["estrechás"],"s3":["estrecha"],"p1":["estrechamos"],"p2":["estrecháis"],"p3":["estrechan"]},
     "IndImp": {"s1":["estrechaba"],"s2":["estrechabas"],"vos":["estrechabas"],"s3":["estrechaba"],"p1":["estrechábamos"],"p2":["estrechabais"],"p3":["estrechaban"]},

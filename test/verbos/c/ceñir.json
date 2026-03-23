@@ -6,7 +6,7 @@
     "etimologia": "Del latín cingĕre.",
     "modelos": ["gruñir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"ceñir","gerundio":"ciñendo","participio":"ceñido"},
+  "formas_no_personales": {"infinitivo":"ceñir","gerundio":["ciñendo"], "participio":["ceñido"]},
   "formas_personales": {
     "IndPres": {"s1":["ciño"],"s2":["ciñes"],"vos":["ceñís"],"s3":["ciñe"],"p1":["ceñimos"],"p2":["ceñís"],"p3":["ciñen"]},
     "IndImp": {"s1":["ceñía"],"s2":["ceñías"],"vos":["ceñías"],"s3":["ceñía"],"p1":["ceñíamos"],"p2":["ceñíais"],"p3":["ceñían"]},

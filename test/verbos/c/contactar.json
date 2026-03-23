@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"contactar","gerundio":"contactando","participio":"contactado"},
+  "formas_no_personales": {"infinitivo":"contactar","gerundio":["contactando"], "participio":["contactado"]},
   "formas_personales": {
     "IndPres": {"s1":["contacto"],"s2":["contactas"],"vos":["contactás"],"s3":["contacta"],"p1":["contactamos"],"p2":["contactáis"],"p3":["contactan"]},
     "IndImp": {"s1":["contactaba"],"s2":["contactabas"],"vos":["contactabas"],"s3":["contactaba"],"p1":["contactábamos"],"p2":["contactabais"],"p3":["contactaban"]},

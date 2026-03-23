@@ -5,7 +5,7 @@
     "etimologia": "Del nombre de la empresa y marca registrada Xerox que popularizó el empleo de la fotocopiadora",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"xerografiar","gerundio":"xerografiando","participio":"xerografiado"},
+  "formas_no_personales": {"infinitivo":"xerografiar","gerundio":["xerografiando"], "participio":["xerografiado"]},
   "formas_personales": {
     "IndPres": {"s1":["xerografío"],"s2":["xerografías"],"vos":["xerografiás"],"s3":["xerografía"],"p1":["xerografiamos"],"p2":["xerografiáis"],"p3":["xerografían"]},
     "IndImp": {"s1":["xerografiaba"],"s2":["xerografiabas"],"vos":["xerografiabas"],"s3":["xerografiaba"],"p1":["xerografiábamos"],"p2":["xerografiabais"],"p3":["xerografiaban"]},

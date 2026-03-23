@@ -6,7 +6,7 @@
     "etimologia": "Del latín movēre.",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"mover","gerundio":"moviendo","participio":"movido"},
+  "formas_no_personales": {"infinitivo":"mover","gerundio":["moviendo"], "participio":["movido"]},
   "formas_personales": {
     "IndPres": {"s1":["muevo"],"s2":["mueves"],"vos":["movés"],"s3":["mueve"],"p1":["movemos"],"p2":["movéis"],"p3":["mueven"]},
     "IndImp": {"s1":["movía"],"s2":["movías"],"vos":["movías"],"s3":["movía"],"p1":["movíamos"],"p2":["movíais"],"p3":["movían"]},

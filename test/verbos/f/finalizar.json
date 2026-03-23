@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"finalizar","gerundio":"finalizando","participio":"finalizado"},
+  "formas_no_personales": {"infinitivo":"finalizar","gerundio":["finalizando"], "participio":["finalizado"]},
   "formas_personales": {
     "IndPres": {"s1":["finalizo"],"s2":["finalizas"],"vos":["finalizás"],"s3":["finaliza"],"p1":["finalizamos"],"p2":["finalizáis"],"p3":["finalizan"]},
     "IndImp": {"s1":["finalizaba"],"s2":["finalizabas"],"vos":["finalizabas"],"s3":["finalizaba"],"p1":["finalizábamos"],"p2":["finalizabais"],"p3":["finalizaban"]},

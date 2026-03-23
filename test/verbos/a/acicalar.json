@@ -6,7 +6,7 @@
     "etimologia": "Del árabe صقل ('pulimento').[2] [3]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acicalar","gerundio":"acicalando","participio":"acicalado"},
+  "formas_no_personales": {"infinitivo":"acicalar","gerundio":["acicalando"], "participio":["acicalado"]},
   "formas_personales": {
     "IndPres": {"s1":["acicalo"],"s2":["acicalas"],"vos":["acicalás"],"s3":["acicala"],"p1":["acicalamos"],"p2":["acicaláis"],"p3":["acicalan"]},
     "IndImp": {"s1":["acicalaba"],"s2":["acicalabas"],"vos":["acicalabas"],"s3":["acicalaba"],"p1":["acicalábamos"],"p2":["acicalabais"],"p3":["acicalaban"]},

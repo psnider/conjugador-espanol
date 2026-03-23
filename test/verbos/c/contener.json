@@ -6,7 +6,7 @@
     "etimologia": "Del latín continēre ('mantener unido').",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"contener","gerundio":"conteniendo","participio":"contenido"},
+  "formas_no_personales": {"infinitivo":"contener","gerundio":["conteniendo"], "participio":["contenido"]},
   "formas_personales": {
     "IndPres": {"s1":["contengo"],"s2":["contienes"],"vos":["contenés"],"s3":["contiene"],"p1":["contenemos"],"p2":["contenéis"],"p3":["contienen"]},
     "IndImp": {"s1":["contenía"],"s2":["contenías"],"vos":["contenías"],"s3":["contenía"],"p1":["conteníamos"],"p2":["conteníais"],"p3":["contenían"]},

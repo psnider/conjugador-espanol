@@ -6,7 +6,7 @@
     "etimologia": "Del latín recuperare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"recuperar","gerundio":"recuperando","participio":"recuperado"},
+  "formas_no_personales": {"infinitivo":"recuperar","gerundio":["recuperando"], "participio":["recuperado"]},
   "formas_personales": {
     "IndPres": {"s1":["recupero"],"s2":["recuperas"],"vos":["recuperás"],"s3":["recupera"],"p1":["recuperamos"],"p2":["recuperáis"],"p3":["recuperan"]},
     "IndImp": {"s1":["recuperaba"],"s2":["recuperabas"],"vos":["recuperabas"],"s3":["recuperaba"],"p1":["recuperábamos"],"p2":["recuperabais"],"p3":["recuperaban"]},

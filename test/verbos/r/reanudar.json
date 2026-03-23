@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reanudar","gerundio":"reanudando","participio":"reanudado"},
+  "formas_no_personales": {"infinitivo":"reanudar","gerundio":["reanudando"], "participio":["reanudado"]},
   "formas_personales": {
     "IndPres": {"s1":["reanudo"],"s2":["reanudas"],"vos":["reanudás"],"s3":["reanuda"],"p1":["reanudamos"],"p2":["reanudáis"],"p3":["reanudan"]},
     "IndImp": {"s1":["reanudaba"],"s2":["reanudabas"],"vos":["reanudabas"],"s3":["reanudaba"],"p1":["reanudábamos"],"p2":["reanudabais"],"p3":["reanudaban"]},

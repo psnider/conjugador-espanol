@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"desplegar","gerundio":"desplegando","participio":"desplegado"},
+  "formas_no_personales": {"infinitivo":"desplegar","gerundio":["desplegando"], "participio":["desplegado"]},
   "formas_personales": {
     "IndPres": {"s1":["despliego"],"s2":["despliegas"],"vos":["desplegás"],"s3":["despliega"],"p1":["desplegamos"],"p2":["desplegáis"],"p3":["despliegan"]},
     "IndImp": {"s1":["desplegaba"],"s2":["desplegabas"],"vos":["desplegabas"],"s3":["desplegaba"],"p1":["desplegábamos"],"p2":["desplegabais"],"p3":["desplegaban"]},

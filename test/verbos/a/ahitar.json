@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ajˈt̪aɾ]",
+    "silabacion": "ahi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, hito ('mojón') y el sufijo -ar.",
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahitar","gerundio":["ahitando"], "participio":["ahitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ahíto"],"s2":["ahítas"],"vos":["ahitás"],"s3":["ahíta"],"p1":["ahitamos"],"p2":["ahitáis"],"p3":["ahítan"]},
+    "IndImp": {"s1":["ahitaba"],"s2":["ahitabas"],"vos":["ahitabas"],"s3":["ahitaba"],"p1":["ahitábamos"],"p2":["ahitabais"],"p3":["ahitaban"]},
+    "IndPret": {"s1":["ahité"],"s2":["ahitaste"],"vos":["ahitaste"],"s3":["ahitó"],"p1":["ahitamos"],"p2":["ahitasteis"],"p3":["ahitaron"]},
+    "IndFut": {"s1":["ahitaré"],"s2":["ahitarás"],"vos":["ahitarás"],"s3":["ahitará"],"p1":["ahitaremos"],"p2":["ahitaréis"],"p3":["ahitarán"]},
+    "IndCond": {"s1":["ahitaría"],"s2":["ahitarías"],"vos":["ahitarías"],"s3":["ahitaría"],"p1":["ahitaríamos"],"p2":["ahitaríais"],"p3":["ahitarían"]},
+    "SubPres": {"s1":["ahíte"],"s2":["ahítes"],"vos":["ahítes","ahités"],"s3":["ahíte"],"p1":["ahitemos"],"p2":["ahitéis"],"p3":["ahíten"]},
+    "SubImp": {"s1":["ahitara","ahitase"],"s2":["ahitaras","ahitases"],"vos":["ahitaras","ahitases"],"s3":["ahitara","ahitase"],"p1":["ahitáramos","ahitásemos"],"p2":["ahitarais","ahitaseis"],"p3":["ahitaran","ahitasen"]},
+    "SubFut": {"s1":["ahitare"],"s2":["ahitares"],"vos":["ahitares"],"s3":["ahitare"],"p1":["ahitáremos"],"p2":["ahitareis"],"p3":["ahitaren"]},
+    "CmdPos": {"s2":["ahíta"],"vos":["ahitá"],"s3":["ahíte"],"p1":["ahitemos"],"p2":["ahitad"],"p3":["ahíten"]}
+  }
+}

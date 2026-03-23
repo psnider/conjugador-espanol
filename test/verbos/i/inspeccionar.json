@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inspeccionar","gerundio":"inspeccionando","participio":"inspeccionado"},
+  "formas_no_personales": {"infinitivo":"inspeccionar","gerundio":["inspeccionando"], "participio":["inspeccionado"]},
   "formas_personales": {
     "IndPres": {"s1":["inspecciono"],"s2":["inspeccionas"],"vos":["inspeccionás"],"s3":["inspecciona"],"p1":["inspeccionamos"],"p2":["inspeccionáis"],"p3":["inspeccionan"]},
     "IndImp": {"s1":["inspeccionaba"],"s2":["inspeccionabas"],"vos":["inspeccionabas"],"s3":["inspeccionaba"],"p1":["inspeccionábamos"],"p2":["inspeccionabais"],"p3":["inspeccionaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"citar","gerundio":"citando","participio":"citado"},
+  "formas_no_personales": {"infinitivo":"citar","gerundio":["citando"], "participio":["citado"]},
   "formas_personales": {
     "IndPres": {"s1":["cito"],"s2":["citas"],"vos":["citás"],"s3":["cita"],"p1":["citamos"],"p2":["citáis"],"p3":["citan"]},
     "IndImp": {"s1":["citaba"],"s2":["citabas"],"vos":["citabas"],"s3":["citaba"],"p1":["citábamos"],"p2":["citabais"],"p3":["citaban"]},

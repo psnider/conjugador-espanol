@@ -6,7 +6,7 @@
     "etimologia": "De asesino y el sufijo -ar. Denominal del español asesino.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asesinar","gerundio":"asesinando","participio":"asesinado"},
+  "formas_no_personales": {"infinitivo":"asesinar","gerundio":["asesinando"], "participio":["asesinado"]},
   "formas_personales": {
     "IndPres": {"s1":["asesino"],"s2":["asesinas"],"vos":["asesinás"],"s3":["asesina"],"p1":["asesinamos"],"p2":["asesináis"],"p3":["asesinan"]},
     "IndImp": {"s1":["asesinaba"],"s2":["asesinabas"],"vos":["asesinabas"],"s3":["asesinaba"],"p1":["asesinábamos"],"p2":["asesinabais"],"p3":["asesinaban"]},

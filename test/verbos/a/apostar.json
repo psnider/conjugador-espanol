@@ -6,7 +6,7 @@
     "etimologia": "Del latín apposĭtum, de apponĕre, colocar.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"apostar","gerundio":"apostando","participio":"apostado"},
+  "formas_no_personales": {"infinitivo":"apostar","gerundio":["apostando"], "participio":["apostado"]},
   "formas_personales": {
     "IndPres": {"s1":["apuesto"],"s2":["apuestas"],"vos":["apostás"],"s3":["apuesta"],"p1":["apostamos"],"p2":["apostáis"],"p3":["apuestan"]},
     "IndImp": {"s1":["apostaba"],"s2":["apostabas"],"vos":["apostabas"],"s3":["apostaba"],"p1":["apostábamos"],"p2":["apostabais"],"p3":["apostaban"]},

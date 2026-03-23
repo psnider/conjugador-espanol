@@ -6,7 +6,7 @@
     "etimologia": "Del latín interrogō, interrogāre ('preguntar'), compuesto de inter&nbsp;('entre') y rogō, rogāre.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"interrogar","gerundio":"interrogando","participio":"interrogado"},
+  "formas_no_personales": {"infinitivo":"interrogar","gerundio":["interrogando"], "participio":["interrogado"]},
   "formas_personales": {
     "IndPres": {"s1":["interrogo"],"s2":["interrogas"],"vos":["interrogás"],"s3":["interroga"],"p1":["interrogamos"],"p2":["interrogáis"],"p3":["interrogan"]},
     "IndImp": {"s1":["interrogaba"],"s2":["interrogabas"],"vos":["interrogabas"],"s3":["interrogaba"],"p1":["interrogábamos"],"p2":["interrogabais"],"p3":["interrogaban"]},

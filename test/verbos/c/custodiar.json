@@ -5,7 +5,7 @@
     "etimologia": "De custodia y el sufijo -ar",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"custodiar","gerundio":"custodiando","participio":"custodiado"},
+  "formas_no_personales": {"infinitivo":"custodiar","gerundio":["custodiando"], "participio":["custodiado"]},
   "formas_personales": {
     "IndPres": {"s1":["custodio"],"s2":["custodias"],"vos":["custodiás"],"s3":["custodia"],"p1":["custodiamos"],"p2":["custodiáis"],"p3":["custodian"]},
     "IndImp": {"s1":["custodiaba"],"s2":["custodiabas"],"vos":["custodiabas"],"s3":["custodiaba"],"p1":["custodiábamos"],"p2":["custodiabais"],"p3":["custodiaban"]},

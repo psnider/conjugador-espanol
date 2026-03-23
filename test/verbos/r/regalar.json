@@ -6,7 +6,7 @@
     "etimologia": "De regalo y el sufijo -ar, del francés régal, proveniente de galer (cfr. galopar y galante)",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"regalar","gerundio":"regalando","participio":"regalado"},
+  "formas_no_personales": {"infinitivo":"regalar","gerundio":["regalando"], "participio":["regalado"]},
   "formas_personales": {
     "IndPres": {"s1":["regalo"],"s2":["regalas"],"vos":["regalás"],"s3":["regala"],"p1":["regalamos"],"p2":["regaláis"],"p3":["regalan"]},
     "IndImp": {"s1":["regalaba"],"s2":["regalabas"],"vos":["regalabas"],"s3":["regalaba"],"p1":["regalábamos"],"p2":["regalabais"],"p3":["regalaban"]},

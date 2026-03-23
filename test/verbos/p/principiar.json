@@ -5,7 +5,7 @@
     "etimologia": "Del latín principiāre,[2] derivado de prīncipium, prīncipiī (\"comienzo\", \"fundación\"), a su vez compuesto de prīmus&nbsp;('primero') y capiō, capere&nbsp;('tomar').",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"principiar","gerundio":"principiando","participio":"principiado"},
+  "formas_no_personales": {"infinitivo":"principiar","gerundio":["principiando"], "participio":["principiado"]},
   "formas_personales": {
     "IndPres": {"s1":["principio"],"s2":["principias"],"vos":["principiás"],"s3":["principia"],"p1":["principiamos"],"p2":["principiáis"],"p3":["principian"]},
     "IndImp": {"s1":["principiaba"],"s2":["principiabas"],"vos":["principiabas"],"s3":["principiaba"],"p1":["principiábamos"],"p2":["principiabais"],"p3":["principiaban"]},

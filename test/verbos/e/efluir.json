@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eˈflwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"efluir","gerundio":["efluyendo"], "participio":["efluido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["efluyo"],"s2":["efluyes"],"vos":["efluís"],"s3":["efluye"],"p1":["efluimos"],"p2":["efluís"],"p3":["efluyen"]},
+    "IndImp": {"s1":["efluía"],"s2":["efluías"],"vos":["efluías"],"s3":["efluía"],"p1":["efluíamos"],"p2":["efluíais"],"p3":["efluían"]},
+    "IndPret": {"s1":["efluí"],"s2":["efluiste"],"vos":["efluiste"],"s3":["efluyó"],"p1":["efluimos"],"p2":["efluisteis"],"p3":["efluyeron"]},
+    "IndFut": {"s1":["efluiré"],"s2":["efluirás"],"vos":["efluirás"],"s3":["efluirá"],"p1":["efluiremos"],"p2":["efluiréis"],"p3":["efluirán"]},
+    "IndCond": {"s1":["efluiría"],"s2":["efluirías"],"vos":["efluirías"],"s3":["efluiría"],"p1":["efluiríamos"],"p2":["efluiríais"],"p3":["efluirían"]},
+    "SubPres": {"s1":["efluya"],"s2":["efluyas"],"vos":["efluyas","efluyás"],"s3":["efluya"],"p1":["efluyamos"],"p2":["efluyáis"],"p3":["efluyan"]},
+    "SubImp": {"s1":["efluyera","efluyese"],"s2":["efluyeras","efluyeses"],"vos":["efluyeras","efluyeses"],"s3":["efluyera","efluyese"],"p1":["efluyéramos","efluyésemos"],"p2":["efluyerais","efluyeseis"],"p3":["efluyeran","efluyesen"]},
+    "SubFut": {"s1":["efluyere"],"s2":["efluyeres"],"vos":["efluyeres"],"s3":["efluyere"],"p1":["efluyéremos"],"p2":["efluyereis"],"p3":["efluyeren"]},
+    "CmdPos": {"s2":["efluye"],"vos":["efluí"],"s3":["efluya"],"p1":["efluyamos"],"p2":["efluid"],"p3":["efluyan"]}
+  }
+}

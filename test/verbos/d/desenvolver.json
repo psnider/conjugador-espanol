@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"desenvolver","gerundio":"desenvolviendo","participio":"desenvuelto"},
+  "formas_no_personales": {"infinitivo":"desenvolver","gerundio":["desenvolviendo"], "participio":["desenvuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["desenvuelvo"],"s2":["desenvuelves"],"vos":["desenvolvés"],"s3":["desenvuelve"],"p1":["desenvolvemos"],"p2":["desenvolvéis"],"p3":["desenvuelven"]},
     "IndImp": {"s1":["desenvolvía"],"s2":["desenvolvías"],"vos":["desenvolvías"],"s3":["desenvolvía"],"p1":["desenvolvíamos"],"p2":["desenvolvíais"],"p3":["desenvolvían"]},

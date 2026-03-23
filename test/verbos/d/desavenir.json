@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"desavenir","gerundio":"desaviniendo","participio":"desavenido"},
+  "formas_no_personales": {"infinitivo":"desavenir","gerundio":["desaviniendo"], "participio":["desavenido"]},
   "formas_personales": {
     "IndPres": {"s1":["desavengo"],"s2":["desavienes"],"vos":["desavenís"],"s3":["desaviene"],"p1":["desavenimos"],"p2":["desavenís"],"p3":["desavienen"]},
     "IndImp": {"s1":["desavenía"],"s2":["desavenías"],"vos":["desavenías"],"s3":["desavenía"],"p1":["desaveníamos"],"p2":["desaveníais"],"p3":["desavenían"]},

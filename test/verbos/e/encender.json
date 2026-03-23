@@ -6,7 +6,7 @@
     "etimologia": "Del latín incendere",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"encender","gerundio":"encendiendo","participio":"encendido"},
+  "formas_no_personales": {"infinitivo":"encender","gerundio":["encendiendo"], "participio":["encendido"]},
   "formas_personales": {
     "IndPres": {"s1":["enciendo"],"s2":["enciendes"],"vos":["encendés"],"s3":["enciende"],"p1":["encendemos"],"p2":["encendéis"],"p3":["encienden"]},
     "IndImp": {"s1":["encendía"],"s2":["encendías"],"vos":["encendías"],"s3":["encendía"],"p1":["encendíamos"],"p2":["encendíais"],"p3":["encendían"]},

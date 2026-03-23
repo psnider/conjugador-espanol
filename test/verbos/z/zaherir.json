@@ -6,7 +6,7 @@
     "etimologia": "Se documenta su uso desde 1475.[1] Del castellano antiguo façerir, de faz y herir.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"zaherir","gerundio":"zahiriendo","participio":"zaherido"},
+  "formas_no_personales": {"infinitivo":"zaherir","gerundio":["zahiriendo"], "participio":["zaherido"]},
   "formas_personales": {
     "IndPres": {"s1":["zahiero"],"s2":["zahieres"],"vos":["zaherís"],"s3":["zahiere"],"p1":["zaherimos"],"p2":["zaherís"],"p3":["zahieren"]},
     "IndImp": {"s1":["zahería"],"s2":["zaherías"],"vos":["zaherías"],"s3":["zahería"],"p1":["zaheríamos"],"p2":["zaheríais"],"p3":["zaherían"]},

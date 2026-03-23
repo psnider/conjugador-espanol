@@ -6,7 +6,7 @@
     "etimologia": "Del latín digerere (dīgerere)",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"digerir","gerundio":"digiriendo","participio":"digerido"},
+  "formas_no_personales": {"infinitivo":"digerir","gerundio":["digiriendo"], "participio":["digerido"]},
   "formas_personales": {
     "IndPres": {"s1":["digiero"],"s2":["digieres"],"vos":["digerís"],"s3":["digiere"],"p1":["digerimos"],"p2":["digerís"],"p3":["digieren"]},
     "IndImp": {"s1":["digería"],"s2":["digerías"],"vos":["digerías"],"s3":["digería"],"p1":["digeríamos"],"p2":["digeríais"],"p3":["digerían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"emperejilar","gerundio":"emperejilando","participio":"emperejilado"},
+  "formas_no_personales": {"infinitivo":"emperejilar","gerundio":["emperejilando"], "participio":["emperejilado"]},
   "formas_personales": {
     "IndPres": {"s1":["emperejilo"],"s2":["emperejilas"],"vos":["emperejilás"],"s3":["emperejila"],"p1":["emperejilamos"],"p2":["emperejiláis"],"p3":["emperejilan"]},
     "IndImp": {"s1":["emperejilaba"],"s2":["emperejilabas"],"vos":["emperejilabas"],"s3":["emperejilaba"],"p1":["emperejilábamos"],"p2":["emperejilabais"],"p3":["emperejilaban"]},

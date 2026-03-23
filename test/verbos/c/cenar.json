@@ -6,7 +6,7 @@
     "etimologia": "Del latín cenare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cenar","gerundio":"cenando","participio":"cenado"},
+  "formas_no_personales": {"infinitivo":"cenar","gerundio":["cenando"], "participio":["cenado"]},
   "formas_personales": {
     "IndPres": {"s1":["ceno"],"s2":["cenas"],"vos":["cenás"],"s3":["cena"],"p1":["cenamos"],"p2":["cenáis"],"p3":["cenan"]},
     "IndImp": {"s1":["cenaba"],"s2":["cenabas"],"vos":["cenabas"],"s3":["cenaba"],"p1":["cenábamos"],"p2":["cenabais"],"p3":["cenaban"]},

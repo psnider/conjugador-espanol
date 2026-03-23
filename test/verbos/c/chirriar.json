@@ -5,7 +5,7 @@
     "etimologia": "Onomatopéyica.[3]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"chirriar","gerundio":"chirriando","participio":"chirriado"},
+  "formas_no_personales": {"infinitivo":"chirriar","gerundio":["chirriando"], "participio":["chirriado"]},
   "formas_personales": {
     "IndPres": {"s1":["chirrío"],"s2":["chirrías"],"vos":["chirriás"],"s3":["chirría"],"p1":["chirriamos"],"p2":["chirriáis"],"p3":["chirrían"]},
     "IndImp": {"s1":["chirriaba"],"s2":["chirriabas"],"vos":["chirriabas"],"s3":["chirriaba"],"p1":["chirriábamos"],"p2":["chirriabais"],"p3":["chirriaban"]},

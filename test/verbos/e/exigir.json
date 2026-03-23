@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1391.[1] Del latín exigere.",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"infinitivo":"exigir","gerundio":"exigiendo","participio":"exigido"},
+  "formas_no_personales": {"infinitivo":"exigir","gerundio":["exigiendo"], "participio":["exigido"]},
   "formas_personales": {
     "IndPres": {"s1":["exijo"],"s2":["exiges"],"vos":["exigís"],"s3":["exige"],"p1":["exigimos"],"p2":["exigís"],"p3":["exigen"]},
     "IndImp": {"s1":["exigía"],"s2":["exigías"],"vos":["exigías"],"s3":["exigía"],"p1":["exigíamos"],"p2":["exigíais"],"p3":["exigían"]},

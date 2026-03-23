@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"sosegar","gerundio":"sosegando","participio":"sosegado"},
+  "formas_no_personales": {"infinitivo":"sosegar","gerundio":["sosegando"], "participio":["sosegado"]},
   "formas_personales": {
     "IndPres": {"s1":["sosiego"],"s2":["sosiegas"],"vos":["sosegás"],"s3":["sosiega"],"p1":["sosegamos"],"p2":["sosegáis"],"p3":["sosiegan"]},
     "IndImp": {"s1":["sosegaba"],"s2":["sosegabas"],"vos":["sosegabas"],"s3":["sosegaba"],"p1":["sosegábamos"],"p2":["sosegabais"],"p3":["sosegaban"]},

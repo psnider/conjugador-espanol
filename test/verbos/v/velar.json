@@ -6,7 +6,7 @@
     "etimologia": "Del latín vigilare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"velar","gerundio":"velando","participio":"velado"},
+  "formas_no_personales": {"infinitivo":"velar","gerundio":["velando"], "participio":["velado"]},
   "formas_personales": {
     "IndPres": {"s1":["velo"],"s2":["velas"],"vos":["velás"],"s3":["vela"],"p1":["velamos"],"p2":["veláis"],"p3":["velan"]},
     "IndImp": {"s1":["velaba"],"s2":["velabas"],"vos":["velabas"],"s3":["velaba"],"p1":["velábamos"],"p2":["velabais"],"p3":["velaban"]},

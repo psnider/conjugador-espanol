@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"emborrachar","gerundio":"emborrachando","participio":"emborrachado"},
+  "formas_no_personales": {"infinitivo":"emborrachar","gerundio":["emborrachando"], "participio":["emborrachado"]},
   "formas_personales": {
     "IndPres": {"s1":["emborracho"],"s2":["emborrachas"],"vos":["emborrachás"],"s3":["emborracha"],"p1":["emborrachamos"],"p2":["emborracháis"],"p3":["emborrachan"]},
     "IndImp": {"s1":["emborrachaba"],"s2":["emborrachabas"],"vos":["emborrachabas"],"s3":["emborrachaba"],"p1":["emborrachábamos"],"p2":["emborrachabais"],"p3":["emborrachaban"]},

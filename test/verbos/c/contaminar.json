@@ -6,7 +6,7 @@
     "etimologia": "Del latín contamināre ('entrar una cosa en contacto con la otra')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"contaminar","gerundio":"contaminando","participio":"contaminado"},
+  "formas_no_personales": {"infinitivo":"contaminar","gerundio":["contaminando"], "participio":["contaminado"]},
   "formas_personales": {
     "IndPres": {"s1":["contamino"],"s2":["contaminas"],"vos":["contaminás"],"s3":["contamina"],"p1":["contaminamos"],"p2":["contamináis"],"p3":["contaminan"]},
     "IndImp": {"s1":["contaminaba"],"s2":["contaminabas"],"vos":["contaminabas"],"s3":["contaminaba"],"p1":["contaminábamos"],"p2":["contaminabais"],"p3":["contaminaban"]},

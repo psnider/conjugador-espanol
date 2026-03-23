@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"codiciar","gerundio":"codiciando","participio":"codiciado"},
+  "formas_no_personales": {"infinitivo":"codiciar","gerundio":["codiciando"], "participio":["codiciado"]},
   "formas_personales": {
     "IndPres": {"s1":["codicio"],"s2":["codicias"],"vos":["codiciás"],"s3":["codicia"],"p1":["codiciamos"],"p2":["codiciáis"],"p3":["codician"]},
     "IndImp": {"s1":["codiciaba"],"s2":["codiciabas"],"vos":["codiciabas"],"s3":["codiciaba"],"p1":["codiciábamos"],"p2":["codiciabais"],"p3":["codiciaban"]},

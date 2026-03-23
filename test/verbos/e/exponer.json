@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"exponer","gerundio":"exponiendo","participio":"expuesto"},
+  "formas_no_personales": {"infinitivo":"exponer","gerundio":["exponiendo"], "participio":["expuesto"]},
   "formas_personales": {
     "IndPres": {"s1":["expongo"],"s2":["expones"],"vos":["exponés"],"s3":["expone"],"p1":["exponemos"],"p2":["exponéis"],"p3":["exponen"]},
     "IndImp": {"s1":["exponía"],"s2":["exponías"],"vos":["exponías"],"s3":["exponía"],"p1":["exponíamos"],"p2":["exponíais"],"p3":["exponían"]},

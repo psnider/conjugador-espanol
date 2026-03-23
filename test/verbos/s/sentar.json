@@ -6,7 +6,7 @@
     "etimologia": "Del latín sedentare y este de sedens, sedentis, participio presente activo de sedere (\"estar sentado\").",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"sentar","gerundio":"sentando","participio":"sentado"},
+  "formas_no_personales": {"infinitivo":"sentar","gerundio":["sentando"], "participio":["sentado"]},
   "formas_personales": {
     "IndPres": {"s1":["siento"],"s2":["sientas"],"vos":["sentás"],"s3":["sienta"],"p1":["sentamos"],"p2":["sentáis"],"p3":["sientan"]},
     "IndImp": {"s1":["sentaba"],"s2":["sentabas"],"vos":["sentabas"],"s3":["sentaba"],"p1":["sentábamos"],"p2":["sentabais"],"p3":["sentaban"]},

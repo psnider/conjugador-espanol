@@ -6,7 +6,7 @@
     "etimologia": "Del latín probāre.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"probar","gerundio":"probando","participio":"probado"},
+  "formas_no_personales": {"infinitivo":"probar","gerundio":["probando"], "participio":["probado"]},
   "formas_personales": {
     "IndPres": {"s1":["pruebo"],"s2":["pruebas"],"vos":["probás"],"s3":["prueba"],"p1":["probamos"],"p2":["probáis"],"p3":["prueban"]},
     "IndImp": {"s1":["probaba"],"s2":["probabas"],"vos":["probabas"],"s3":["probaba"],"p1":["probábamos"],"p2":["probabais"],"p3":["probaban"]},

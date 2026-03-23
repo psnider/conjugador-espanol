@@ -6,7 +6,7 @@
     "etimologia": "De cepillo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cepillar","gerundio":"cepillando","participio":"cepillado"},
+  "formas_no_personales": {"infinitivo":"cepillar","gerundio":["cepillando"], "participio":["cepillado"]},
   "formas_personales": {
     "IndPres": {"s1":["cepillo"],"s2":["cepillas"],"vos":["cepillás"],"s3":["cepilla"],"p1":["cepillamos"],"p2":["cepilláis"],"p3":["cepillan"]},
     "IndImp": {"s1":["cepillaba"],"s2":["cepillabas"],"vos":["cepillabas"],"s3":["cepillaba"],"p1":["cepillábamos"],"p2":["cepillabais"],"p3":["cepillaban"]},

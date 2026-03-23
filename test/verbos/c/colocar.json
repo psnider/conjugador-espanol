@@ -6,7 +6,7 @@
     "etimologia": "Del latín collocāre.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"colocar","gerundio":"colocando","participio":"colocado"},
+  "formas_no_personales": {"infinitivo":"colocar","gerundio":["colocando"], "participio":["colocado"]},
   "formas_personales": {
     "IndPres": {"s1":["coloco"],"s2":["colocas"],"vos":["colocás"],"s3":["coloca"],"p1":["colocamos"],"p2":["colocáis"],"p3":["colocan"]},
     "IndImp": {"s1":["colocaba"],"s2":["colocabas"],"vos":["colocabas"],"s3":["colocaba"],"p1":["colocábamos"],"p2":["colocabais"],"p3":["colocaban"]},

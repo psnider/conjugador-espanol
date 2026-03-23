@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"implantar","gerundio":"implantando","participio":"implantado"},
+  "formas_no_personales": {"infinitivo":"implantar","gerundio":["implantando"], "participio":["implantado"]},
   "formas_personales": {
     "IndPres": {"s1":["implanto"],"s2":["implantas"],"vos":["implantás"],"s3":["implanta"],"p1":["implantamos"],"p2":["implantáis"],"p3":["implantan"]},
     "IndImp": {"s1":["implantaba"],"s2":["implantabas"],"vos":["implantabas"],"s3":["implantaba"],"p1":["implantábamos"],"p2":["implantabais"],"p3":["implantaban"]},

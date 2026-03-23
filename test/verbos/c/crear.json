@@ -6,7 +6,7 @@
     "etimologia": "Del latín creare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"crear","gerundio":"creando","participio":"creado"},
+  "formas_no_personales": {"infinitivo":"crear","gerundio":["creando"], "participio":["creado"]},
   "formas_personales": {
     "IndPres": {"s1":["creo"],"s2":["creas"],"vos":["creás"],"s3":["crea"],"p1":["creamos"],"p2":["creáis"],"p3":["crean"]},
     "IndImp": {"s1":["creaba"],"s2":["creabas"],"vos":["creabas"],"s3":["creaba"],"p1":["creábamos"],"p2":["creabais"],"p3":["creaban"]},

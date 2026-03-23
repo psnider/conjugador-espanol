@@ -6,7 +6,7 @@
     "etimologia": "Del latín respirare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"respirar","gerundio":"respirando","participio":"respirado"},
+  "formas_no_personales": {"infinitivo":"respirar","gerundio":["respirando"], "participio":["respirado"]},
   "formas_personales": {
     "IndPres": {"s1":["respiro"],"s2":["respiras"],"vos":["respirás"],"s3":["respira"],"p1":["respiramos"],"p2":["respiráis"],"p3":["respiran"]},
     "IndImp": {"s1":["respiraba"],"s2":["respirabas"],"vos":["respirabas"],"s3":["respiraba"],"p1":["respirábamos"],"p2":["respirabais"],"p3":["respiraban"]},

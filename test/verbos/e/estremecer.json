@@ -6,7 +6,7 @@
     "etimologia": "Del latín ex ('fuera') y tremiscere (\"comenzar a temblar\").[1]",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"estremecer","gerundio":"estremeciendo","participio":"estremecido"},
+  "formas_no_personales": {"infinitivo":"estremecer","gerundio":["estremeciendo"], "participio":["estremecido"]},
   "formas_personales": {
     "IndPres": {"s1":["estremezco"],"s2":["estremeces"],"vos":["estremecés"],"s3":["estremece"],"p1":["estremecemos"],"p2":["estremecéis"],"p3":["estremecen"]},
     "IndImp": {"s1":["estremecía"],"s2":["estremecías"],"vos":["estremecías"],"s3":["estremecía"],"p1":["estremecíamos"],"p2":["estremecíais"],"p3":["estremecían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín intumescĕre ('hincharse').",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"entumecer","gerundio":"entumeciendo","participio":"entumecido"},
+  "formas_no_personales": {"infinitivo":"entumecer","gerundio":["entumeciendo"], "participio":["entumecido"]},
   "formas_personales": {
     "IndPres": {"s1":["entumezco"],"s2":["entumeces"],"vos":["entumecés"],"s3":["entumece"],"p1":["entumecemos"],"p2":["entumecéis"],"p3":["entumecen"]},
     "IndImp": {"s1":["entumecía"],"s2":["entumecías"],"vos":["entumecías"],"s3":["entumecía"],"p1":["entumecíamos"],"p2":["entumecíais"],"p3":["entumecían"]},

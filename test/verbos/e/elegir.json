@@ -6,7 +6,7 @@
     "etimologia": "Cultismo del latín ēligere. Sustituyó el patrimonialismo desusado esleír, del español antiguo esleer, y este del latín ēligere.",
     "modelos": ["dirigir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"elegir","gerundio":"eligiendo","participio":"elegido"},
+  "formas_no_personales": {"infinitivo":"elegir","gerundio":["eligiendo"], "participio":["elegido"]},
   "formas_personales": {
     "IndPres": {"s1":["elijo"],"s2":["eliges"],"vos":["elegís"],"s3":["elige"],"p1":["elegimos"],"p2":["elegís"],"p3":["eligen"]},
     "IndImp": {"s1":["elegía"],"s2":["elegías"],"vos":["elegías"],"s3":["elegía"],"p1":["elegíamos"],"p2":["elegíais"],"p3":["elegían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín transcendere (\"escalar, sobrepasar\").",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"trascender","gerundio":"trascendiendo","participio":"trascendido"},
+  "formas_no_personales": {"infinitivo":"trascender","gerundio":["trascendiendo"], "participio":["trascendido"]},
   "formas_personales": {
     "IndPres": {"s1":["trasciendo"],"s2":["trasciendes"],"vos":["trascendés"],"s3":["trasciende"],"p1":["trascendemos"],"p2":["trascendéis"],"p3":["trascienden"]},
     "IndImp": {"s1":["trascendía"],"s2":["trascendías"],"vos":["trascendías"],"s3":["trascendía"],"p1":["trascendíamos"],"p2":["trascendíais"],"p3":["trascendían"]},

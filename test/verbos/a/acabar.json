@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *accapāre. Del prefijo a-, cabo y el sufijo -ar (\"hasta el cabo\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acabar","gerundio":"acabando","participio":"acabado"},
+  "formas_no_personales": {"infinitivo":"acabar","gerundio":["acabando"], "participio":["acabado"]},
   "formas_personales": {
     "IndPres": {"s1":["acabo"],"s2":["acabas"],"vos":["acabás"],"s3":["acaba"],"p1":["acabamos"],"p2":["acabáis"],"p3":["acaban"]},
     "IndImp": {"s1":["acababa"],"s2":["acababas"],"vos":["acababas"],"s3":["acababa"],"p1":["acabábamos"],"p2":["acababais"],"p3":["acababan"]},

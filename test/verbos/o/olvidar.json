@@ -6,7 +6,7 @@
     "etimologia": "Del latín oblitare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"olvidar","gerundio":"olvidando","participio":"olvidado"},
+  "formas_no_personales": {"infinitivo":"olvidar","gerundio":["olvidando"], "participio":["olvidado"]},
   "formas_personales": {
     "IndPres": {"s1":["olvido"],"s2":["olvidas"],"vos":["olvidás"],"s3":["olvida"],"p1":["olvidamos"],"p2":["olvidáis"],"p3":["olvidan"]},
     "IndImp": {"s1":["olvidaba"],"s2":["olvidabas"],"vos":["olvidabas"],"s3":["olvidaba"],"p1":["olvidábamos"],"p2":["olvidabais"],"p3":["olvidaban"]},

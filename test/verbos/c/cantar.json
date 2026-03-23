@@ -6,7 +6,7 @@
     "etimologia": "Del latín cantare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cantar","gerundio":"cantando","participio":"cantado"},
+  "formas_no_personales": {"infinitivo":"cantar","gerundio":["cantando"], "participio":["cantado"]},
   "formas_personales": {
     "IndPres": {"s1":["canto"],"s2":["cantas"],"vos":["cantás"],"s3":["canta"],"p1":["cantamos"],"p2":["cantáis"],"p3":["cantan"]},
     "IndImp": {"s1":["cantaba"],"s2":["cantabas"],"vos":["cantabas"],"s3":["cantaba"],"p1":["cantábamos"],"p2":["cantabais"],"p3":["cantaban"]},

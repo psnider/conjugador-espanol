@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"intrigar","gerundio":"intrigando","participio":"intrigado"},
+  "formas_no_personales": {"infinitivo":"intrigar","gerundio":["intrigando"], "participio":["intrigado"]},
   "formas_personales": {
     "IndPres": {"s1":["intrigo"],"s2":["intrigas"],"vos":["intrigás"],"s3":["intriga"],"p1":["intrigamos"],"p2":["intrigáis"],"p3":["intrigan"]},
     "IndImp": {"s1":["intrigaba"],"s2":["intrigabas"],"vos":["intrigabas"],"s3":["intrigaba"],"p1":["intrigábamos"],"p2":["intrigabais"],"p3":["intrigaban"]},

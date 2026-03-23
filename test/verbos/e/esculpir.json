@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"esculpir","gerundio":"esculpiendo","participio":"esculpido"},
+  "formas_no_personales": {"infinitivo":"esculpir","gerundio":["esculpiendo"], "participio":["esculpido"]},
   "formas_personales": {
     "IndPres": {"s1":["esculpo"],"s2":["esculpes"],"vos":["esculpís"],"s3":["esculpe"],"p1":["esculpimos"],"p2":["esculpís"],"p3":["esculpen"]},
     "IndImp": {"s1":["esculpía"],"s2":["esculpías"],"vos":["esculpías"],"s3":["esculpía"],"p1":["esculpíamos"],"p2":["esculpíais"],"p3":["esculpían"]},

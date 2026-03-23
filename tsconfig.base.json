@@ -1,0 +1,13 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "ES2020",
+        "rootDir": ".", 
+        "outDir": "generated",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    }
+}

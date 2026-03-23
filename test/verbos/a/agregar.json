@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"agregar","gerundio":"agregando","participio":"agregado"},
+  "formas_no_personales": {"infinitivo":"agregar","gerundio":["agregando"], "participio":["agregado"]},
   "formas_personales": {
     "IndPres": {"s1":["agrego"],"s2":["agregas"],"vos":["agregás"],"s3":["agrega"],"p1":["agregamos"],"p2":["agregáis"],"p3":["agregan"]},
     "IndImp": {"s1":["agregaba"],"s2":["agregabas"],"vos":["agregabas"],"s3":["agregaba"],"p1":["agregábamos"],"p2":["agregabais"],"p3":["agregaban"]},

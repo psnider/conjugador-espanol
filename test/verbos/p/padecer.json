@@ -6,7 +6,7 @@
     "etimologia": "Del latín patiscere",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"padecer","gerundio":"padeciendo","participio":"padecido"},
+  "formas_no_personales": {"infinitivo":"padecer","gerundio":["padeciendo"], "participio":["padecido"]},
   "formas_personales": {
     "IndPres": {"s1":["padezco"],"s2":["padeces"],"vos":["padecés"],"s3":["padece"],"p1":["padecemos"],"p2":["padecéis"],"p3":["padecen"]},
     "IndImp": {"s1":["padecía"],"s2":["padecías"],"vos":["padecías"],"s3":["padecía"],"p1":["padecíamos"],"p2":["padecíais"],"p3":["padecían"]},

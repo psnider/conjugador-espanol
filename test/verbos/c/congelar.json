@@ -6,7 +6,7 @@
     "etimologia": "Del latín congelāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"congelar","gerundio":"congelando","participio":"congelado"},
+  "formas_no_personales": {"infinitivo":"congelar","gerundio":["congelando"], "participio":["congelado"]},
   "formas_personales": {
     "IndPres": {"s1":["congelo"],"s2":["congelas"],"vos":["congelás"],"s3":["congela"],"p1":["congelamos"],"p2":["congeláis"],"p3":["congelan"]},
     "IndImp": {"s1":["congelaba"],"s2":["congelabas"],"vos":["congelabas"],"s3":["congelaba"],"p1":["congelábamos"],"p2":["congelabais"],"p3":["congelaban"]},

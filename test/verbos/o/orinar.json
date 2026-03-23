@@ -6,7 +6,7 @@
     "etimologia": "Del latín urinare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"orinar","gerundio":"orinando","participio":"orinado"},
+  "formas_no_personales": {"infinitivo":"orinar","gerundio":["orinando"], "participio":["orinado"]},
   "formas_personales": {
     "IndPres": {"s1":["orino"],"s2":["orinas"],"vos":["orinás"],"s3":["orina"],"p1":["orinamos"],"p2":["orináis"],"p3":["orinan"]},
     "IndImp": {"s1":["orinaba"],"s2":["orinabas"],"vos":["orinabas"],"s3":["orinaba"],"p1":["orinábamos"],"p2":["orinabais"],"p3":["orinaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín volvō, volvere ('rodar'), habiendo pasado por el latín vulgar *volvicāre.[1]",
     "modelos": ["contar","complicar"]
   },
-  "formas_no_personales": {"infinitivo":"volcar","gerundio":"volcando","participio":"volcado"},
+  "formas_no_personales": {"infinitivo":"volcar","gerundio":["volcando"], "participio":["volcado"]},
   "formas_personales": {
     "IndPres": {"s1":["vuelco"],"s2":["vuelcas"],"vos":["volcás"],"s3":["vuelca"],"p1":["volcamos"],"p2":["volcáis"],"p3":["vuelcan"]},
     "IndImp": {"s1":["volcaba"],"s2":["volcabas"],"vos":["volcabas"],"s3":["volcaba"],"p1":["volcábamos"],"p2":["volcabais"],"p3":["volcaban"]},

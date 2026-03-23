@@ -6,7 +6,7 @@
     "etimologia": "de entrevista",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"entrevistar","gerundio":"entrevistando","participio":"entrevistado"},
+  "formas_no_personales": {"infinitivo":"entrevistar","gerundio":["entrevistando"], "participio":["entrevistado"]},
   "formas_personales": {
     "IndPres": {"s1":["entrevisto"],"s2":["entrevistas"],"vos":["entrevistás"],"s3":["entrevista"],"p1":["entrevistamos"],"p2":["entrevistáis"],"p3":["entrevistan"]},
     "IndImp": {"s1":["entrevistaba"],"s2":["entrevistabas"],"vos":["entrevistabas"],"s3":["entrevistaba"],"p1":["entrevistábamos"],"p2":["entrevistabais"],"p3":["entrevistaban"]},

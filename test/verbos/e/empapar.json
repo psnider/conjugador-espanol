@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en- (en su variante em-') y papar ('comer').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"empapar","gerundio":"empapando","participio":"empapado"},
+  "formas_no_personales": {"infinitivo":"empapar","gerundio":["empapando"], "participio":["empapado"]},
   "formas_personales": {
     "IndPres": {"s1":["empapo"],"s2":["empapas"],"vos":["empapás"],"s3":["empapa"],"p1":["empapamos"],"p2":["empapáis"],"p3":["empapan"]},
     "IndImp": {"s1":["empapaba"],"s2":["empapabas"],"vos":["empapabas"],"s3":["empapaba"],"p1":["empapábamos"],"p2":["empapabais"],"p3":["empapaban"]},

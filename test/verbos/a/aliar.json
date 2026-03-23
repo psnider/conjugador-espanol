@@ -5,7 +5,7 @@
     "etimologia": "Del latín alligō, alligāre ('atar'), compuesto de ad- (\"a, hacia\") y ligō, ligāre.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"aliar","gerundio":"aliando","participio":"aliado"},
+  "formas_no_personales": {"infinitivo":"aliar","gerundio":["aliando"], "participio":["aliado"]},
   "formas_personales": {
     "IndPres": {"s1":["alío"],"s2":["alías"],"vos":["aliás"],"s3":["alía"],"p1":["aliamos"],"p2":["aliáis"],"p3":["alían"]},
     "IndImp": {"s1":["aliaba"],"s2":["aliabas"],"vos":["aliabas"],"s3":["aliaba"],"p1":["aliábamos"],"p2":["aliabais"],"p3":["aliaban"]},

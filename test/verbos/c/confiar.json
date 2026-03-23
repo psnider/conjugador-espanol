@@ -5,7 +5,7 @@
     "etimologia": "Del latín vulgar *confīdāre, y este del latín cōnfīdō, -ere.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"confiar","gerundio":"confiando","participio":"confiado"},
+  "formas_no_personales": {"infinitivo":"confiar","gerundio":["confiando"], "participio":["confiado"]},
   "formas_personales": {
     "IndPres": {"s1":["confío"],"s2":["confías"],"vos":["confiás"],"s3":["confía"],"p1":["confiamos"],"p2":["confiáis"],"p3":["confían"]},
     "IndImp": {"s1":["confiaba"],"s2":["confiabas"],"vos":["confiabas"],"s3":["confiaba"],"p1":["confiábamos"],"p2":["confiabais"],"p3":["confiaban"]},

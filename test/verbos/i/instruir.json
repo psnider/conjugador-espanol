@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnsˈt̪ɾwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín īnstrūĕre.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"instruir","gerundio":["instruyendo"], "participio":["instruido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["instruyo"],"s2":["instruyes"],"vos":["instruís"],"s3":["instruye"],"p1":["instruimos"],"p2":["instruís"],"p3":["instruyen"]},
+    "IndImp": {"s1":["instruía"],"s2":["instruías"],"vos":["instruías"],"s3":["instruía"],"p1":["instruíamos"],"p2":["instruíais"],"p3":["instruían"]},
+    "IndPret": {"s1":["instruí"],"s2":["instruiste"],"vos":["instruiste"],"s3":["instruyó"],"p1":["instruimos"],"p2":["instruisteis"],"p3":["instruyeron"]},
+    "IndFut": {"s1":["instruiré"],"s2":["instruirás"],"vos":["instruirás"],"s3":["instruirá"],"p1":["instruiremos"],"p2":["instruiréis"],"p3":["instruirán"]},
+    "IndCond": {"s1":["instruiría"],"s2":["instruirías"],"vos":["instruirías"],"s3":["instruiría"],"p1":["instruiríamos"],"p2":["instruiríais"],"p3":["instruirían"]},
+    "SubPres": {"s1":["instruya"],"s2":["instruyas"],"vos":["instruyas","instruyás"],"s3":["instruya"],"p1":["instruyamos"],"p2":["instruyáis"],"p3":["instruyan"]},
+    "SubImp": {"s1":["instruyera","instruyese"],"s2":["instruyeras","instruyeses"],"vos":["instruyeras","instruyeses"],"s3":["instruyera","instruyese"],"p1":["instruyéramos","instruyésemos"],"p2":["instruyerais","instruyeseis"],"p3":["instruyeran","instruyesen"]},
+    "SubFut": {"s1":["instruyere"],"s2":["instruyeres"],"vos":["instruyeres"],"s3":["instruyere"],"p1":["instruyéremos"],"p2":["instruyereis"],"p3":["instruyeren"]},
+    "CmdPos": {"s2":["instruye"],"vos":["instruí"],"s3":["instruya"],"p1":["instruyamos"],"p2":["instruid"],"p3":["instruyan"]}
+  }
+}

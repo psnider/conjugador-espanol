@@ -1,4 +1,4 @@
-import { GrammaticalPerson, StemChangeRuleId, MoodTense, MoodTenseMap, VerbConjugation, VerbConjugationAnnotation, VerbConjugationChanges, VerbForms } from "."
+import { GrammaticalPerson, StemChangeRuleId, MoodTense, MoodTenseMap, VerbConjugation, VerbConjugationAnnotation, VerbConjugationChanges, VerbForms, ConjugationOrDerivation, Participios } from "."
 import { FailedTests } from "../test/test-support"
 import { VerbAspectModifications } from "./regular-verb-rules"
 import { version, license } from "./version.js"
@@ -20,7 +20,7 @@ export type ModeloConjugacional =
         | "delinquir"
         | "caber"    | "caer"    | "conducir" | "dar"     | "decir"   | "dormir"
         | "enraizar" | "erguir"  | "estar"
-        | "guiar"    | "haber"   | "hacer"    | "huir"    | "ir"      | "jugar"  | "leer"
+        | "guiar"    | "haber"   | "hacer"    | "ir"      | "jugar"   | "leer"
         | "mover"    | "oír"     | "pedir"    | "poder"   | "poner" 
         | "querer"   | "reír"    | "saber"    | "salir"   | "seguir"  | "ser"
         | "tener"    | "traer"   | "vaciar"   | "venir"   | "ver"     | "volver"
@@ -38,11 +38,9 @@ export interface VerbAspectRulesWithFullyIrregularForms extends VerbAspectModifi
 }
 
 
-export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas {
+export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas extends Participios {
     // irregulares como: "ir", "ser"
     supletivo?: true,
-    participio?: string
-    gerundio?: string
     // Solo para casos irregulares, sí para "poder", no para "dormir"
     gerundio_tema_cambio_excepcional?: StemChangeRuleId
     imperativo_tú?: string | VerbForms
@@ -85,9 +83,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     abandonar:      {},
     abrasar:        {},
     abrazar:        {},
-    abrir:          { excepciones_léxicas: { participio: "abierto" } },
+    abrir:          { excepciones_léxicas: { participio: ["abierto"] } },
     abrumar:        {},
-    absolver:       { alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "absuelto" } },
+    absolver:       { alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["absuelto"] } },
     absorber:       {},
     abstener:       { modelo: "tener" },
     abundar:        {},
@@ -98,6 +96,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     acceder:        {},
     acechar:        {},
     acelerar:       {},
+    acentuar:       {},
     aceptar:        {},
     acercar:        {},
     acertar:        { alternancia_vocálica: "e:ie" },
@@ -131,20 +130,26 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     afligir:        {},
     aflojar:        {},
     aflorar:        {},
+    afluir:         {},
     agachar:        {},
     agarrar:        {},
     agasajar:       {},
     agitar:         {},
     agolpar:        {},
     agradar:        {},
+    agradecer:      {},
     agravar:        {},
     agregar:        {},
     agrupar:        {},
     aguantar:       {},
     aguar:          {},
     agudizar:       {},
+    ahijar:         {},
+    ahitar:         {},
     ahorrar:        {},
+    ahusar:         {},
     ahuyentar:      {},
+    airar:          {},
     aislar:         {},
     ajustar:        {},
     alargar:        {},
@@ -169,6 +174,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     amarrar:        {},
     amasar:         {},
     amnistiar:      { modelo: "vaciar" },
+    amohinar:       {},
     amortiguar:     {},
     amparar:        {},
     ampliar:        { modelo: "vaciar" },
@@ -177,7 +183,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     anhelar:        {},
     animar:         {},
     aniquilar:      {},
+    anotar:         {},
     ansiar:         { modelo: "vaciar" },
+    anticuar:       {},
     anudar:         {},
     anunciar:       {},
     apacentar:      { alternancia_vocálica: "e:ie" },
@@ -198,8 +206,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     apresar:        {},
     apresurar:      {},
     apretar:        { alternancia_vocálica: "e:ie" },
-    aprobar:        { alternancia_vocálica: "o:ue" }, // Remove once a- prefixes are handled correctly
+    aprobar:        { alternancia_vocálica: "o:ue" },
     aprovechar:     {},
+    apuntalar:      {},
     apuntar:        {},
     apurar:         {},
     aquilatar:      {},
@@ -251,11 +260,14 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     atrever:        {},
     atribuir:       {},
     atropellar:     {},
+    aullar:         {},
     aumentar:       {},
+    aunar:          {},
+    aupar:          {},
     auscultar:      {},
     autoinfligir:   {},
     avenir:         { modelo: "venir" },
-    avergonzar:     { alternancia_vocálica: "o:ue" },    // FIX: must ADD diérisis
+    avergonzar:     { alternancia_vocálica: "o:ue" },
     averiar:        { modelo: "vaciar" },
     averiguar:      {},
     avisar:         {},
@@ -349,6 +361,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     comprometer:    {},
     comunicar:      {},
     concentrar:     {},
+    conceptuar:     {},
     concertar:      { alternancia_vocálica: "e:ie" },
     concienciar:    {},
     concluir:       {},
@@ -363,6 +376,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     confesar:       { alternancia_vocálica: "e:ie" },
     confiar:        { modelo: "vaciar" },
     confirmar:      {},
+    confluir:       {},
     conformar:      {},
     confortar:      {},
     confundir:      {},
@@ -375,6 +389,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     conocer:        {},
     conquerir:      {},
     conseguir:      { alternancia_vocálica: "e:i" },
+    consensuar:     {},
     consentir:      { alternancia_vocálica: "e:ie" },
     conservar:      {},
     considerar:     {},
@@ -416,7 +431,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     criar:          { modelo: "vaciar" },
     cruzar:         {},
     cuadrar:        {},
-    cubrir:         { excepciones_léxicas: { participio: "cubierto" } },
+    cubrir:         { excepciones_léxicas: { participio: ["cubierto"] } },
     cuestionar:     {},
     cuidar:         {},
     cultivar:       {},
@@ -451,8 +466,8 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         tema_futuro: "dir",
         alternancia_vocálica: "e:i",
         excepciones_léxicas: {
-            participio: "dicho",
-            gerundio: "diciendo",
+            participio: ["dicho"],
+            gerundio: ["diciendo"],
             imperativo_tú: "di"
         }
     },
@@ -482,6 +497,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     derruir:        {},
     desafiar:       { modelo: "vaciar" },
     desaguar:       {},
+    desahijar:      {},
     desahogar:      {},
     desahuciar:     {},
     desalentar:     { alternancia_vocálica: "e:ie" },
@@ -495,18 +511,20 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desayunar:      {},
     desbaratar:     {},
     desbordar:      {},
+    descafeinar:    {},
     descansar:      {},
     descargar:      {},
     descender:      { alternancia_vocálica: "e:ie" },
     descolgar:      { alternancia_vocálica: "o:ue" },
     descolorar:     {},
     desconcentrar:  {},
+    desconceptuar:  {},
     desconfiar:     { modelo: "vaciar" },
     desconectar:    {},
     descontar:      { alternancia_vocálica: "o:ue" },
     descreer:       {},
-    describir:      { excepciones_léxicas: { participio: "descrito" } },
-    descubrir:      { excepciones_léxicas: { participio: "descubierto" } },
+    describir:      { excepciones_léxicas: { participio: ["descrito"] } },
+    descubrir:      { excepciones_léxicas: { participio: ["descubierto"] } },
     desdoblar:      {},
     desear:         {},
     desembocar:     {},
@@ -520,6 +538,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desgajar:       {},
     desgarrar:      {},
     desgraciar:     {},
+    deshabituar:    {},
     deshacer:       {},
     deshierbar:     {},
     deshumanizar:   {},
@@ -547,13 +566,17 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     destartalar:    {},
     desterrar:      { alternancia_vocálica: "e:ie" },
     destilar:       {},
+    destituir:      {},
     destruir:       {},
+    desvaír:        {},
     desvariar:      {},
     desviar:        { modelo: "vaciar" },
+    desvirtuar:     {},
     detallar:       {},
     detener:        {},    // FIX: setting modelo causes a failure, but it should work     {modelo: "tener"},
     deteriorar:     {},
     determinar:     {},
+    devaluar:       {},
     devastar:       {},
     devenir:        { modelo: "venir" },
     devolver:       { modelo: "volver" },
@@ -577,6 +600,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     disparar:       {},
     disponer:       {},
     distender:      { alternancia_vocálica: "e:ie" },
+    distinguir:     {},
     distribuir:     {},
     disuadir:       {},
     divertir:       { alternancia_vocálica: "e:ie" },
@@ -594,6 +618,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     durar:          {},
     echar:          {},
     efectuar:       {},
+    efluir:         {},
     ejercer:        {},
     elaborar:       {},
     elegir:         { alternancia_vocálica: "e:i" },
@@ -658,6 +683,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     entregar:       {},
     entrever:       {},
     entrevistar:    {},
+    entristecer:    {},
     entumecer:      {},
     entusiasmar:    {},
     enviar:         { modelo: "vaciar" },
@@ -666,7 +692,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     erguir:         {
         alternancia_vocálica: "e:ie",
         tema_presente_yo: "yerg",  // FIX: tema_presente_yo: ["irg", "yerg"],
-        excepciones_léxicas: { gerundio: "irguiendo" }
+        excepciones_léxicas: { gerundio: ["irguiendo"] }
     },
     errar:          {}, // FIX: tiene dos formas
     eructar:        {},
@@ -676,7 +702,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     escapar:        {},
     escoger:        {},
     esconder:       {},
-    escribir:       { excepciones_léxicas: { participio: "escrito" } },
+    escribir:       { excepciones_léxicas: { participio: ["escrito"] } },
     escuchar:       {},
     esculpir:       {},
     esforzar:       { alternancia_vocálica: "o:ue" },
@@ -702,6 +728,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
             }
         }
     },
+    estatuir:       {},
     estimar:        {},
     estipular:      {},
     estofar:        {},
@@ -713,11 +740,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     estrenar:       {},
     estropear:      {},
     estudiar:       {},
+    evadir:         {},
     evaluar:        {},
     evitar:         {},
     examinar:       {},
     exasperar:      {},
     exceder:        {},
+    exceptuar:      {},
     excluir:        {},
     exhalar:        {},
     exigir:         {},
@@ -731,16 +760,19 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     expresar:       {},
     extender:       { alternancia_vocálica: "e:ie" },
     extenuar:       {},
+    extinguir:      {},
     extraer:        {},
     extrañar:       {},
     fabricar:       {},
     facilitar:      {},
+    facturar:       {},
     fallar:         {},
     fallecer:       {},
     faltar:         {},
     fascinar:       {},
     felicitar:      {},
     festejar:       {},
+    figurar:        {},
     fijar:          {},
     finalizar:      {},
     firmar:         {},
@@ -776,6 +808,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     graduar:        {},
     granizar:       {},
     gritar:         {},
+    gruir:          {},
     gruñir:         {},
     guardar:        {},
     guiar:          {
@@ -798,7 +831,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         }
     },
     guisar:         {},
-    gustar: {},
+    gustar:         {},
     haber: {
         tema_pretérito: "hub",
         tema_futuro: "habr",
@@ -815,6 +848,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         }
     },
     habitar:        {},
+    habituar:       {},
     hablar:         {},
     hacer:          {
         modelo: "hacer",
@@ -823,7 +857,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         tema_pretérito: "hic",
         tema_futuro: "har",
         excepciones_léxicas: {
-            participio: "hecho",
+            participio: ["hecho"],
             imperativo_tú: "haz",
             reglas: {
                 // FIX: linguist: should "hizo" be managed with sound preserving transformations?
@@ -831,30 +865,19 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
             }
         }
     },
-    halar: {},
-    hallar: {},
+    halar:          {},
+    hallar:         {},
     hartar:         {},
-    heder: { alternancia_vocálica: "e:ie" },
-    helar: { alternancia_vocálica: "e:ie" },
-    hendir: { alternancia_vocálica: "e:ie" },  // but not the "e:i" for IndPret...
-    herir: { alternancia_vocálica: "e:ie" },
-    herrar: { alternancia_vocálica: "e:ie" },
-    hervir: { alternancia_vocálica: "e:ie" },
+    heder:          { alternancia_vocálica: "e:ie" },
+    helar:          { alternancia_vocálica: "e:ie" },
+    hendir:         { alternancia_vocálica: "e:ie" },  // but not the "e:i" for IndPret...
+    herir:          { alternancia_vocálica: "e:ie" },
+    herrar:         { alternancia_vocálica: "e:ie" },
+    hervir:         { alternancia_vocálica: "e:ie" },
     hilvanar:       {},
     hornear:        {},
     hospedar:       {},
-    huir: {
-        modelo: "huir",
-        clase_conjugacional: "-uir",
-        excepciones_léxicas: {
-            reglas: {
-                // NOTE: the vos form is not inherited by derived forms!
-                IndPres: { suffixes: {p2: ["is"], vos: ["is"]}},
-                IndPret: { suffixes: { s1: ["i"] } },
-                CmdPos:  { suffixes: { vos: ["i"] } }
-            },
-        }
-    },
+    huir:           { /* se conjuga de forma regular, solo hay reglas especiales de ortografía */ },
     humanizar:      {},
     humillar:       {},
     hundir:         {},
@@ -863,6 +886,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     igualar:        {},
     iluminar:       {},
     imaginar:       {},
+    imbuir:         {},
     impedir:        { alternancia_vocálica: "e:i" },
     implantar:      {},
     implorar:       {},
@@ -882,6 +906,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     inferir:        { alternancia_vocálica: "e:ie" },
     infestar:       {},
     infligir:       {},
+    influir:        {},
     informar:       {},
     infundir:       {},
     ingeniar:       {},
@@ -892,14 +917,20 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     iniciar:        {},
     injerir:        { alternancia_vocálica: "e:ie" },
     inmigrar:       {},
+    inmiscuir:      {},
     inquietar:      {},
     inquirir:       { alternancia_vocálica: "i:ie" },
+    inscribir:      {},
     insertar:       {},
+    insinuar:       {},
     insistir:       {},
     inspeccionar:   {},
     instalar:       {},
     instar:         {},
+    instituir:      {},
+    instruir:       {},
     intentar:       {},
+    interactuar:    {},
     intercalar:     {},
     intercambiar:   {},
     interesar:      {},
@@ -910,7 +941,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     intervenir:     { modelo: "venir" },
     intrigar:       {},
     introducir:     {},
-    intuir:         { modelo: "huir" },
+    intuir:         { /* modelo: "huir" */ },
     inundar:        {},
     invadir:        {},
     invertir:       { alternancia_vocálica: "e:ie" },
@@ -923,8 +954,8 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         sufijo_presente_yo: "oy",
         excepciones_léxicas: {
             supletivo: true,
-            participio: "ido",
-            gerundio: "yendo",
+            participio: ["ido"],
+            gerundio: ["yendo"],
             reglas: {
                 // The default "-ir" verb pattern of accent the last sylable doesn't apply to vos forms of "ir", since "ir" is only one sylable
                 IndPres: { forms: { s1: ["voy"], s2: ["vas"],    s3: ["va"],   p1: ["vamos"],  p2: ["vais"],     p3: ["van"], vos: null } },
@@ -984,12 +1015,14 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     marchar:        {},
     martillar:      {},
     matar:          {},
+    maullar:        {},
     medir:          { alternancia_vocálica: "e:i" },
     meditar:        {},
     mejorar:        {},
     mencionar:      {},
     mendigar:       {},
     menguar:        {},
+    menstruar:      {},
     mentar:         { alternancia_vocálica: "e:ie" },
     mentir:         { alternancia_vocálica: "e:ie" },
     merecer:        {},
@@ -1018,8 +1051,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     obedecer:       {},
     obligar:        {},
     observar:       {},
+    obstruir:       {},
     obtener:        { modelo: "tener" },
     ocasionar:      {},
+    ocluir:         {},
     ocupar:         {},
     ocurrir:        {},
     odiar:          {},
@@ -1067,6 +1102,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     permanecer:     {},
     permitir:       {},
     perpetrar:      {},
+    perpetuar:      {},
     perseguir:      { alternancia_vocálica: "e:i" },
     pertenecer:     {},
     pervertir:      { alternancia_vocálica: "e:ie" },
@@ -1096,7 +1132,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         tema_pretérito: "pus",
         tema_futuro: "pondr",
         excepciones_léxicas: {
-            participio: "puesto",
+            participio: ["puesto"],
             imperativo_tú: "pon",
             reglas: {
                 CmdPos:  { derivations: {preserve_stress_from_base: ["s2"] }},
@@ -1108,6 +1144,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     posar:          {},
     poseer:         {},
     practicar:      {},
+    precluir:       {},
     preferir:       { alternancia_vocálica: "e:ie" },
     preguntar:      {},
     prender:        {},
@@ -1129,6 +1166,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     producir:       {},
     proferir:       { alternancia_vocálica: "e:ie" },
     prohibir:       {},
+    prohijar:       {},
     proliferar:     {},
     prometer:       {},
     promover:       { alternancia_vocálica: "o:ue" },
@@ -1137,6 +1175,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     proporcionar:   {},
     propugnar:      {},
     proseguir:      { alternancia_vocálica: "e:i" },
+    prostituir:     {},
     proteger:       {},
     proveer:        {},
     provenir:       { modelo: "venir" },
@@ -1144,6 +1183,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     publicar:       {},
     pudrir:         {},
     pulir:          {},
+    puntuar:        {},
     quebrantar:     {},
     quebrar:        { alternancia_vocálica: "e:ie" },
     quedar:         {},
@@ -1177,20 +1217,27 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     recomenzar:     { alternancia_vocálica: "e:ie" },
     reconfortar:    {},
     reconocer:      {},
+    reconstituir:   {},
+    reconstruir:    {},
     recontar:       {},
     reconvenir:     { modelo: "venir" },
     recordar:       { alternancia_vocálica: "o:ue" },
     recorrer:       {},
     recuperar:      {},
     recurrir:       {},
+    redistribuir:   {},
+    redituar:       {},
     reducir:        {},
     reemplazar:     {},
     reencontrar:    {},
     reenviar:       { modelo: "vaciar" },
+    reevaluar:      {},
     referir:        { alternancia_vocálica: "e:ie" },
+    refluir:        {},
     reformar:       {},
     reforzar:       { alternancia_vocálica: "o:ue" },
     refugiar:       {},
+    refutar:        {},
     regalar:        {},
     regañar:        {},
     regar:          { alternancia_vocálica: "e:ie" },
@@ -1198,6 +1245,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     registrar:      {},
     regresar:       {},
     regular:        {},
+    rehilar:        {},
     rehogar:        {},
     rehuir:         {},
     rehusar:        {},
@@ -1207,8 +1255,8 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         alternancia_vocálica: "e:ie",  // añado po DeepSeek 27 feb 2026
         // alternancia_vocálica: "i:í",  FIX: linguist: is there a vowel change rule?
         excepciones_léxicas: {
-            gerundio: "riendo",
-            participio: "reído",
+            gerundio: ["riendo"],
+            participio: ["reído"],
             reglas: {
                 // FIX: linguist: are there other reglas I can use?
                 // FIX: must formalize the relationship of CmdPos on SubPres
@@ -1254,12 +1302,15 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     resfriar:       { modelo: "vaciar" },
     resolver:       { modelo: "mover" },
     responder:      {},
+    restituir:      {},
     resultar:       {},
     retener:        { modelo: "tener" },
     retornar:       {},
     retozar:        {},
+    retribuir:      {},
     retumbar:       {},
     reunir:         { alternancia_vocálica: "u:ú" },
+    revaluar:       {},
     revelar:        {},
     reventar:       { alternancia_vocálica: "e:ie" },
     revertir:       { alternancia_vocálica: "e:ie" },
@@ -1271,7 +1322,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     rociar:         { modelo: "vaciar" },
     rodar:          { alternancia_vocálica: "o:ue" },
     rogar:          { alternancia_vocálica: "o:ue" },
-    romper:         { excepciones_léxicas: { participio: "roto" } },
+    romper:         { excepciones_léxicas: { participio: ["roto"] } },
     rondar:         {},
     saber:          {
         tema_pretérito: "sup",
@@ -1290,6 +1341,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sacar:          {},
     saciar:         {},
     sacudir:        {},
+    sahumar:        {},
     salir:          {
         tema_presente_yo: "salg",
         tema_futuro: "saldr",
@@ -1298,7 +1350,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     salpimentar:    { alternancia_vocálica: "e:ie" },
     saludar:        {},
     santiguar:      {},
-    satisfacer:     {modelo: "hacer"},    // FIX: support rules to generate this verb from this list
+    satisfacer:     {modelo: "hacer"},
     secar:          {},
     seducir:        {},
     seguir:         {
@@ -1331,8 +1383,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     servir:         { alternancia_vocálica: "e:i" },
     significar:     {},
     simplificar:    {},
+    situar:         {},
     sobrecargar:    {},
     sobrecoger:     {},
+    sobrehilar:     {},
     sobresalir:     {},
     sobrevenir:     { modelo: "venir" },
     sobrevivir:     {},
@@ -1356,6 +1410,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sostener:       {},
     soterrar:       {},
     subir:          {},
+    substituir:     {},
     substraer:      {},
     subvenir:       { modelo: "venir" },
     subvertir:      { alternancia_vocálica: "e:ie" },
@@ -1367,19 +1422,21 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sujetar:        {},
     suministrar:    {},
     suplicar:       {},
-    suponer: {},
+    suponer:        {},
     supurar:        {},
-    surgir: {},
+    surgir:         {},
     suscribir:      {},
     suspender:      {},
     suspirar:       {},
     sustentar:      {},
+    sustituir:      {},
     sustraer:       {},
     tallar:         {},
     tapar:          {},
     tapiar:         {},
     tardar:         {},
     tartamudear:    {},
+    tatuar:         {},
     temblar: { alternancia_vocálica: "e:ie" },
     temer:          {},
     tender: { alternancia_vocálica: "e:ie" },
@@ -1454,6 +1511,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     },
     vacilar:        {},
     valer:          { tema_presente_yo: "valg", tema_futuro: "valdr" },
+    valuar:         {},
     variar:         { modelo: "vaciar" },
     velar:          {},
     vencer:         {},
@@ -1465,7 +1523,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         tema_futuro: "vendr",
         alternancia_vocálica: "e:ie",
         excepciones_léxicas: {
-            gerundio: "viniendo",
+            gerundio: ["viniendo"],
             imperativo_tú: "ven",
             reglas: {
                 CmdPos:  { derivations: {preserve_stress_from_base: ["s2"] }},
@@ -1477,10 +1535,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
         // parece que no conforma bien a estas reglas
         // sí prefijo_ind_pres_yo cambia, pero no con "g", y no con los mismos cambios
         // no aplican ni tema_pretérito ni tema_futuro ni alternancia_vocálica
-        // el resto con excepciones_léxicas
+        // el resto son excepciones_léxicas
         excepciones_léxicas: {
-            gerundio: "viendo",
-            participio: "visto",
+            gerundio: ["viendo"],
+            participio: ["visto"],
             // hay varias excepciones_léxicas que probablemente tienen que ver con el hecho que ver es solo una sílaba
             reglas: {
                 // p2 => accent dropped
@@ -1514,18 +1572,18 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     volar:          {alternancia_vocálica: "o:ue"},
     volcar:         { alternancia_vocálica: "o:ue" },
     voltear:        {},
-    volver:         { modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: "vuelto" } },
+    volver:         { modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["vuelto"] } },
     votar:          {},
     xerografiar:    { modelo: "vaciar" },
+    yacer:          {},
     zaherir:        { alternancia_vocálica: "e:ie" },
+    zambuir:        {},
+    zambullir:      {},
     zumbar:         {},
 }
 
 
-// FIX: restore after refactoring complete
-export function getAnnotations(infinitivo: string, modelo: ModeloConjugacional, mood_tense: MoodTense) : VerbConjugationAnnotation {
-    const annotations: VerbConjugationAnnotation = {version, license, modelo: undefined}
-    // const unconfirmed = !(infinitivo in morphophonemic_verb_conjugation_rules) || undefined
-    // const annotations: VerbConjugationAnnotation = {model, mood_tense, unconfirmed}
+export function getAnnotations(infinitivo: string, modelo: ModeloConjugacional, mood_tense_derivation: ConjugationOrDerivation) : VerbConjugationAnnotation {
+    const annotations: VerbConjugationAnnotation = {infinitivo, mood_tense_derivation, modelo, version, license}
     return annotations
 }

@@ -1,6 +1,47 @@
+# Next release
+✅ separate code from web-app
+✅ add participios
+✅ transition table changes
+✅ Repair comparision of forms to be order agnostic
+  See haber: "ha","hay" 
+✅ delinquir, distinguir, extinguir, fluir
+rehuir
+zambuir
 
-# Repair comparision of forms to be order agnostic
-See haber: "ha","hay" 
+- linguist: the relation of CmdNeg being derived from SubPres is a fixed rule, right? If so, I can move this into code...
+- problemas ortograficos
+- simplificar getPreterite3PStem() y llamelo en resolveConjugationClass()
+- # verbos con otros problemas
+    avergonzar      
+    aguar
+    amortiguar
+    apaciguar
+    atestiguar
+    averiguar
+    cocer        (🔴 cuezco) ✅ cuezo
+    degollar
+    delinquir    (🔴 delinqua) ✅ delinca
+    desaguar
+    desosar      (🔴 desuese) ✅ deshuese
+    discernir    (🔴 discirnió) ✅ discernió
+    enraizar     (🔴 yenraizo) ✅ enraízo
+    fluir        (🔴 flui) ✅ fluí
+    freír        (🔴 frio) ✅ frió
+    gemir        (🔴 gemió) ✅ gimió
+    guiar        (🔴 guie) ✅ guié
+    hendir       (🔴 hindió) ✅ hendió
+    huir         huyes   •   (🔴 huis) ✅ huís
+    intuir       intuyes   •   (🔴 intuis) ✅ intuís
+    morir        (🔴 morió) ✅ murió
+    prever       (🔴 previ) ✅ preví
+    rendir       (🔴 rendió) ✅ rindió
+    rendir       🟢 rendiera , 🟢 rendiese
+    reír         (🔴 rio) ✅ rió
+    resolver     "participio": "resuelto"
+    sofreír      (🔴 sofrio) ✅ sofrió
+    sonreír      (🔴 sonrio) ✅ sonrió
+    torcer       (🔴 tuerzco) ✅ tuerzo
+
 
 
 # verbos con dos formas
@@ -13,137 +54,12 @@ errar            (🔴 erro) ✅ yerro , ✅ erro
 estregar         (🔴 estriego) ✅ estriego , ✅ estrego  
 freír            dos participios
 
-# verbos con otros problemas
-## añadir diérisis
-avergonzar      
-aguar
-amortiguar
-apaciguar
-atestiguar
-averiguar
-cocer        (🔴 cuezco) ✅ cuezo
-degollar
-delinquir    (🔴 delinqua) ✅ delinca
-desaguar
-desosar      (🔴 desuese) ✅ deshuese
-discernir    (🔴 discirnió) ✅ discernió
-enraizar     (🔴 yenraizo) ✅ enraízo
-fluir        (🔴 flui) ✅ fluí
-freír        (🔴 frio) ✅ frió
-gemir        (🔴 gemió) ✅ gimió
-guiar        (🔴 guie) ✅ guié
-hendir       (🔴 hindió) ✅ hendió
-huir         huyes   •   (🔴 huis) ✅ huís
-intuir       intuyes   •   (🔴 intuis) ✅ intuís
-morir        (🔴 morió) ✅ murió
-prever       (🔴 previ) ✅ preví
-rendir       (🔴 rendió) ✅ rindió
-rendir       🟢 rendiera , 🟢 rendiese
-reír         (🔴 rio) ✅ rió
-resolver     "participio": "resuelto"
-sofreír      (🔴 sofrio) ✅ sofrió
-sonreír      (🔴 sonrio) ✅ sonrió
-torcer       (🔴 tuerzco) ✅ tuerzo
 
-
-## mover el estres
-ahijar
-ahitar
-airar
-aislar
-amohinar
-aullar
-ahusar
-aunar
-aupar
-contribuir
-criar
-desahijar
-descafeinar
-maullar
-prohijar
-rehilar
-rehusar
-sahumar
-sobrehilar
-valuar
-entristecer
-evadir 
 
 
 # suciedades
 limpiar las reglas para reír (tb. sonreír, freír)
-simplificar getPreterite3PStem() y llamelo en resolveConjugationClass()
 
-
-# más verbos
-acentuar
-anticuar
-atenuar
-conceptuar
-consensuar
-continuar
-desconceptuar
-deshabituar
-desvirtuar
-devaluar
-efectuar
-evaluar
-exceptuar
-extenuar
-fluctuar
-graduar
-habituar
-insinuar
-interactuar
-menstruar
-perpetuar
-puntuar
-redituar
-reevaluar
-revaluar
-situar
-tatuar
-afluir
-atribuir
-concluir
-confluir
-constituir
-construir
-contribuir
-derruir
-destituir
-destruir
-desvaír
-diluir
-disminuir
-distribuir
-efluir
-estatuir
-excluir
-fluir
-gruir
-imbuir
-incluir
-influir
-inmiscuirse
-instituir
-instruir
-intuir
-obstruir
-ocluir
-precluir
-prostituir
-recluir
-reconstituir
-reconstruir
-redistribuir
-refluir
-restituir
-retribuir
-substituir
-sustituir
-zambuir
 
 # extras
 apoya otras formas de vos, ej: saques, *saqués

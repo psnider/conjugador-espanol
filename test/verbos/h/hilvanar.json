@@ -6,7 +6,7 @@
     "etimologia": "De hilván y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hilvanar","gerundio":"hilvanando","participio":"hilvanado"},
+  "formas_no_personales": {"infinitivo":"hilvanar","gerundio":["hilvanando"], "participio":["hilvanado"]},
   "formas_personales": {
     "IndPres": {"s1":["hilvano"],"s2":["hilvanas"],"vos":["hilvanás"],"s3":["hilvana"],"p1":["hilvanamos"],"p2":["hilvanáis"],"p3":["hilvanan"]},
     "IndImp": {"s1":["hilvanaba"],"s2":["hilvanabas"],"vos":["hilvanabas"],"s3":["hilvanaba"],"p1":["hilvanábamos"],"p2":["hilvanabais"],"p3":["hilvanaban"]},

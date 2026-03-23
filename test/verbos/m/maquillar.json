@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1932.[1] Del francés maquiller.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"maquillar","gerundio":"maquillando","participio":"maquillado"},
+  "formas_no_personales": {"infinitivo":"maquillar","gerundio":["maquillando"], "participio":["maquillado"]},
   "formas_personales": {
     "IndPres": {"s1":["maquillo"],"s2":["maquillas"],"vos":["maquillás"],"s3":["maquilla"],"p1":["maquillamos"],"p2":["maquilláis"],"p3":["maquillan"]},
     "IndImp": {"s1":["maquillaba"],"s2":["maquillabas"],"vos":["maquillabas"],"s3":["maquillaba"],"p1":["maquillábamos"],"p2":["maquillabais"],"p3":["maquillaban"]},

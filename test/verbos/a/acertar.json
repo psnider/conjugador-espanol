@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"acertar","gerundio":"acertando","participio":"acertado"},
+  "formas_no_personales": {"infinitivo":"acertar","gerundio":["acertando"], "participio":["acertado"]},
   "formas_personales": {
     "IndPres": {"s1":["acierto"],"s2":["aciertas"],"vos":["acertás"],"s3":["acierta"],"p1":["acertamos"],"p2":["acertáis"],"p3":["aciertan"]},
     "IndImp": {"s1":["acertaba"],"s2":["acertabas"],"vos":["acertabas"],"s3":["acertaba"],"p1":["acertábamos"],"p2":["acertabais"],"p3":["acertaban"]},

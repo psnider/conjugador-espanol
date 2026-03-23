@@ -6,7 +6,7 @@
     "etimologia": "Del latín erigere ('erigir').",
     "modelos": ["pedir","distinguir","erguir"]
   },
-  "formas_no_personales": {"infinitivo":"erguir","gerundio":"irguiendo","participio":"erguido"},
+  "formas_no_personales": {"infinitivo":"erguir","gerundio":["irguiendo"], "participio":["erguido"]},
   "formas_personales": {
     "IndPres": {"s1":["yergo","irgo"],"s2":["yergues","irgues"],"vos":["erguís"],"s3":["yergue","irgue"],"p1":["erguimos"],"p2":["erguís"],"p3":["yerguen","irguen"]},
     "IndImp": {"s1":["erguía"],"s2":["erguías"],"vos":["erguías"],"s3":["erguía"],"p1":["erguíamos"],"p2":["erguíais"],"p3":["erguían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, furia (\"ira, cólera\") y el sufijo -ecer.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"enfurecer","gerundio":"enfureciendo","participio":"enfurecido"},
+  "formas_no_personales": {"infinitivo":"enfurecer","gerundio":["enfureciendo"], "participio":["enfurecido"]},
   "formas_personales": {
     "IndPres": {"s1":["enfurezco"],"s2":["enfureces"],"vos":["enfurecés"],"s3":["enfurece"],"p1":["enfurecemos"],"p2":["enfurecéis"],"p3":["enfurecen"]},
     "IndImp": {"s1":["enfurecía"],"s2":["enfurecías"],"vos":["enfurecías"],"s3":["enfurecía"],"p1":["enfurecíamos"],"p2":["enfurecíais"],"p3":["enfurecían"]},

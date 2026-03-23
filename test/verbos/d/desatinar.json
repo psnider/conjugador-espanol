@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y atinar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desatinar","gerundio":"desatinando","participio":"desatinado"},
+  "formas_no_personales": {"infinitivo":"desatinar","gerundio":["desatinando"], "participio":["desatinado"]},
   "formas_personales": {
     "IndPres": {"s1":["desatino"],"s2":["desatinas"],"vos":["desatinás"],"s3":["desatina"],"p1":["desatinamos"],"p2":["desatináis"],"p3":["desatinan"]},
     "IndImp": {"s1":["desatinaba"],"s2":["desatinabas"],"vos":["desatinabas"],"s3":["desatinaba"],"p1":["desatinábamos"],"p2":["desatinabais"],"p3":["desatinaban"]},

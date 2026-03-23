@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sustentar","gerundio":"sustentando","participio":"sustentado"},
+  "formas_no_personales": {"infinitivo":"sustentar","gerundio":["sustentando"], "participio":["sustentado"]},
   "formas_personales": {
     "IndPres": {"s1":["sustento"],"s2":["sustentas"],"vos":["sustentás"],"s3":["sustenta"],"p1":["sustentamos"],"p2":["sustentáis"],"p3":["sustentan"]},
     "IndImp": {"s1":["sustentaba"],"s2":["sustentabas"],"vos":["sustentabas"],"s3":["sustentaba"],"p1":["sustentábamos"],"p2":["sustentabais"],"p3":["sustentaban"]},

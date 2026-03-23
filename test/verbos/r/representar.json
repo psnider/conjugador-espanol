@@ -6,7 +6,7 @@
     "etimologia": "Del latín repraesentāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"representar","gerundio":"representando","participio":"representado"},
+  "formas_no_personales": {"infinitivo":"representar","gerundio":["representando"], "participio":["representado"]},
   "formas_personales": {
     "IndPres": {"s1":["represento"],"s2":["representas"],"vos":["representás"],"s3":["representa"],"p1":["representamos"],"p2":["representáis"],"p3":["representan"]},
     "IndImp": {"s1":["representaba"],"s2":["representabas"],"vos":["representabas"],"s3":["representaba"],"p1":["representábamos"],"p2":["representabais"],"p3":["representaban"]},

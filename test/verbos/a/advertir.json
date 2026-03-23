@@ -6,7 +6,7 @@
     "etimologia": "Del latín advertĕre.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"advertir","gerundio":"advirtiendo","participio":"advertido"},
+  "formas_no_personales": {"infinitivo":"advertir","gerundio":["advirtiendo"], "participio":["advertido"]},
   "formas_personales": {
     "IndPres": {"s1":["advierto"],"s2":["adviertes"],"vos":["advertís"],"s3":["advierte"],"p1":["advertimos"],"p2":["advertís"],"p3":["advierten"]},
     "IndImp": {"s1":["advertía"],"s2":["advertías"],"vos":["advertías"],"s3":["advertía"],"p1":["advertíamos"],"p2":["advertíais"],"p3":["advertían"]},

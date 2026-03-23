@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"delirar","gerundio":"delirando","participio":"delirado"},
+  "formas_no_personales": {"infinitivo":"delirar","gerundio":["delirando"], "participio":["delirado"]},
   "formas_personales": {
     "IndPres": {"s1":["deliro"],"s2":["deliras"],"vos":["delirás"],"s3":["delira"],"p1":["deliramos"],"p2":["deliráis"],"p3":["deliran"]},
     "IndImp": {"s1":["deliraba"],"s2":["delirabas"],"vos":["delirabas"],"s3":["deliraba"],"p1":["delirábamos"],"p2":["delirabais"],"p3":["deliraban"]},

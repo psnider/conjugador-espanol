@@ -6,7 +6,7 @@
     "etimologia": "Del francés aviser, y este del latín advisare (\"ver a, mirar a\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"avisar","gerundio":"avisando","participio":"avisado"},
+  "formas_no_personales": {"infinitivo":"avisar","gerundio":["avisando"], "participio":["avisado"]},
   "formas_personales": {
     "IndPres": {"s1":["aviso"],"s2":["avisas"],"vos":["avisás"],"s3":["avisa"],"p1":["avisamos"],"p2":["avisáis"],"p3":["avisan"]},
     "IndImp": {"s1":["avisaba"],"s2":["avisabas"],"vos":["avisabas"],"s3":["avisaba"],"p1":["avisábamos"],"p2":["avisabais"],"p3":["avisaban"]},

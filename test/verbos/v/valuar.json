@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈlwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín valuī, forma del perfecto activo del verbo valeō, valēre&nbsp;('valer'), proveniente de la raíz indoeuropea *wal (\"ser fuerte\").",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"valuar","gerundio":["valuando"], "participio":["valuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["valúo"],"s2":["valúas"],"vos":["valuás"],"s3":["valúa"],"p1":["valuamos"],"p2":["valuáis"],"p3":["valúan"]},
+    "IndImp": {"s1":["valuaba"],"s2":["valuabas"],"vos":["valuabas"],"s3":["valuaba"],"p1":["valuábamos"],"p2":["valuabais"],"p3":["valuaban"]},
+    "IndPret": {"s1":["valué"],"s2":["valuaste"],"vos":["valuaste"],"s3":["valuó"],"p1":["valuamos"],"p2":["valuasteis"],"p3":["valuaron"]},
+    "IndFut": {"s1":["valuaré"],"s2":["valuarás"],"vos":["valuarás"],"s3":["valuará"],"p1":["valuaremos"],"p2":["valuaréis"],"p3":["valuarán"]},
+    "IndCond": {"s1":["valuaría"],"s2":["valuarías"],"vos":["valuarías"],"s3":["valuaría"],"p1":["valuaríamos"],"p2":["valuaríais"],"p3":["valuarían"]},
+    "SubPres": {"s1":["valúe"],"s2":["valúes"],"vos":["valúes","valués"],"s3":["valúe"],"p1":["valuemos"],"p2":["valuéis"],"p3":["valúen"]},
+    "SubImp": {"s1":["valuara","valuase"],"s2":["valuaras","valuases"],"vos":["valuaras","valuases"],"s3":["valuara","valuase"],"p1":["valuáramos","valuásemos"],"p2":["valuarais","valuaseis"],"p3":["valuaran","valuasen"]},
+    "SubFut": {"s1":["valuare"],"s2":["valuares"],"vos":["valuares"],"s3":["valuare"],"p1":["valuáremos"],"p2":["valuareis"],"p3":["valuaren"]},
+    "CmdPos": {"s2":["valúa"],"vos":["valuá"],"s3":["valúe"],"p1":["valuemos"],"p2":["valuad"],"p3":["valúen"]}
+  }
+}

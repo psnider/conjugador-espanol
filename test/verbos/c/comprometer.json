@@ -6,7 +6,7 @@
     "etimologia": "Del latín compromittere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"comprometer","gerundio":"comprometiendo","participio":"comprometido"},
+  "formas_no_personales": {"infinitivo":"comprometer","gerundio":["comprometiendo"], "participio":["comprometido"]},
   "formas_personales": {
     "IndPres": {"s1":["comprometo"],"s2":["comprometes"],"vos":["comprometés"],"s3":["compromete"],"p1":["comprometemos"],"p2":["comprometéis"],"p3":["comprometen"]},
     "IndImp": {"s1":["comprometía"],"s2":["comprometías"],"vos":["comprometías"],"s3":["comprometía"],"p1":["comprometíamos"],"p2":["comprometíais"],"p3":["comprometían"]},

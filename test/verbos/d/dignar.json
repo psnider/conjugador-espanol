@@ -6,7 +6,7 @@
     "etimologia": "Del latín dignare, con el pronombre reflexivo átono.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dignar","gerundio":"dignando","participio":"dignado"},
+  "formas_no_personales": {"infinitivo":"dignar","gerundio":["dignando"], "participio":["dignado"]},
   "formas_personales": {
     "IndPres": {"s1":["digno"],"s2":["dignas"],"vos":["dignás"],"s3":["digna"],"p1":["dignamos"],"p2":["dignáis"],"p3":["dignan"]},
     "IndImp": {"s1":["dignaba"],"s2":["dignabas"],"vos":["dignabas"],"s3":["dignaba"],"p1":["dignábamos"],"p2":["dignabais"],"p3":["dignaban"]},

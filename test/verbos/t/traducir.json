@@ -6,7 +6,7 @@
     "etimologia": "Del latín traducere.",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"traducir","gerundio":"traduciendo","participio":"traducido"},
+  "formas_no_personales": {"infinitivo":"traducir","gerundio":["traduciendo"], "participio":["traducido"]},
   "formas_personales": {
     "IndPres": {"s1":["traduzco"],"s2":["traduces"],"vos":["traducís"],"s3":["traduce"],"p1":["traducimos"],"p2":["traducís"],"p3":["traducen"]},
     "IndImp": {"s1":["traducía"],"s2":["traducías"],"vos":["traducías"],"s3":["traducía"],"p1":["traducíamos"],"p2":["traducíais"],"p3":["traducían"]},

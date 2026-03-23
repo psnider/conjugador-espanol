@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"desperdiciar","gerundio":"desperdiciando","participio":"desperdiciado"},
+  "formas_no_personales": {"infinitivo":"desperdiciar","gerundio":["desperdiciando"], "participio":["desperdiciado"]},
   "formas_personales": {
     "IndPres": {"s1":["desperdicio"],"s2":["desperdicias"],"vos":["desperdiciás"],"s3":["desperdicia"],"p1":["desperdiciamos"],"p2":["desperdiciáis"],"p3":["desperdician"]},
     "IndImp": {"s1":["desperdiciaba"],"s2":["desperdiciabas"],"vos":["desperdiciabas"],"s3":["desperdiciaba"],"p1":["desperdiciábamos"],"p2":["desperdiciabais"],"p3":["desperdiciaban"]},

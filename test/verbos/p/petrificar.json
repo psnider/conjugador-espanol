@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"petrificar","gerundio":"petrificando","participio":"petrificado"},
+  "formas_no_personales": {"infinitivo":"petrificar","gerundio":["petrificando"], "participio":["petrificado"]},
   "formas_personales": {
     "IndPres": {"s1":["petrifico"],"s2":["petrificas"],"vos":["petrificás"],"s3":["petrifica"],"p1":["petrificamos"],"p2":["petrificáis"],"p3":["petrifican"]},
     "IndImp": {"s1":["petrificaba"],"s2":["petrificabas"],"vos":["petrificabas"],"s3":["petrificaba"],"p1":["petrificábamos"],"p2":["petrificabais"],"p3":["petrificaban"]},

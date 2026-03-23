@@ -6,7 +6,7 @@
     "etimologia": "Del latín exercēre",
     "modelos": ["vencer"]
   },
-  "formas_no_personales": {"infinitivo":"ejercer","gerundio":"ejerciendo","participio":"ejercido"},
+  "formas_no_personales": {"infinitivo":"ejercer","gerundio":["ejerciendo"], "participio":["ejercido"]},
   "formas_personales": {
     "IndPres": {"s1":["ejerzo"],"s2":["ejerces"],"vos":["ejercés"],"s3":["ejerce"],"p1":["ejercemos"],"p2":["ejercéis"],"p3":["ejercen"]},
     "IndImp": {"s1":["ejercía"],"s2":["ejercías"],"vos":["ejercías"],"s3":["ejercía"],"p1":["ejercíamos"],"p2":["ejercíais"],"p3":["ejercían"]},

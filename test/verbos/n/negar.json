@@ -6,7 +6,7 @@
     "etimologia": "Del latín negāre.",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"negar","gerundio":"negando","participio":"negado"},
+  "formas_no_personales": {"infinitivo":"negar","gerundio":["negando"], "participio":["negado"]},
   "formas_personales": {
     "IndPres": {"s1":["niego"],"s2":["niegas"],"vos":["negás"],"s3":["niega"],"p1":["negamos"],"p2":["negáis"],"p3":["niegan"]},
     "IndImp": {"s1":["negaba"],"s2":["negabas"],"vos":["negabas"],"s3":["negaba"],"p1":["negábamos"],"p2":["negabais"],"p3":["negaban"]},

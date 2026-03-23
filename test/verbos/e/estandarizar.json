@@ -6,7 +6,7 @@
     "etimologia": "De estándar y el sufijo -izar",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"estandarizar","gerundio":"estandarizando","participio":"estandarizado"},
+  "formas_no_personales": {"infinitivo":"estandarizar","gerundio":["estandarizando"], "participio":["estandarizado"]},
   "formas_personales": {
     "IndPres": {"s1":["estandarizo"],"s2":["estandarizas"],"vos":["estandarizás"],"s3":["estandariza"],"p1":["estandarizamos"],"p2":["estandarizáis"],"p3":["estandarizan"]},
     "IndImp": {"s1":["estandarizaba"],"s2":["estandarizabas"],"vos":["estandarizabas"],"s3":["estandarizaba"],"p1":["estandarizábamos"],"p2":["estandarizabais"],"p3":["estandarizaban"]},

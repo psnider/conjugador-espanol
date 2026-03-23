@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"disculpar","gerundio":"disculpando","participio":"disculpado"},
+  "formas_no_personales": {"infinitivo":"disculpar","gerundio":["disculpando"], "participio":["disculpado"]},
   "formas_personales": {
     "IndPres": {"s1":["disculpo"],"s2":["disculpas"],"vos":["disculpás"],"s3":["disculpa"],"p1":["disculpamos"],"p2":["disculpáis"],"p3":["disculpan"]},
     "IndImp": {"s1":["disculpaba"],"s2":["disculpabas"],"vos":["disculpabas"],"s3":["disculpaba"],"p1":["disculpábamos"],"p2":["disculpabais"],"p3":["disculpaban"]},

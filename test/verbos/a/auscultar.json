@@ -6,7 +6,7 @@
     "etimologia": "Del latín auscultāre (\"escuchar con atención\"), infinitivo presente activo del latín ausculto, y este del latín auris— y del protoindoeuropeo *klei-. Compárese el doblete heredado escuchar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"auscultar","gerundio":"auscultando","participio":"auscultado"},
+  "formas_no_personales": {"infinitivo":"auscultar","gerundio":["auscultando"], "participio":["auscultado"]},
   "formas_personales": {
     "IndPres": {"s1":["ausculto"],"s2":["auscultas"],"vos":["auscultás"],"s3":["ausculta"],"p1":["auscultamos"],"p2":["auscultáis"],"p3":["auscultan"]},
     "IndImp": {"s1":["auscultaba"],"s2":["auscultabas"],"vos":["auscultabas"],"s3":["auscultaba"],"p1":["auscultábamos"],"p2":["auscultabais"],"p3":["auscultaban"]},

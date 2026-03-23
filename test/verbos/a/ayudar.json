@@ -6,7 +6,7 @@
     "etimologia": "Del latín adiutare ('servir')[1], frecuentativo del latín adiuvare, del latín iuvare, quizás del latín iuvenis, del protoindoeuropeo *h₂yuh₁en-.[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ayudar","gerundio":"ayudando","participio":"ayudado"},
+  "formas_no_personales": {"infinitivo":"ayudar","gerundio":["ayudando"], "participio":["ayudado"]},
   "formas_personales": {
     "IndPres": {"s1":["ayudo"],"s2":["ayudas"],"vos":["ayudás"],"s3":["ayuda"],"p1":["ayudamos"],"p2":["ayudáis"],"p3":["ayudan"]},
     "IndImp": {"s1":["ayudaba"],"s2":["ayudabas"],"vos":["ayudabas"],"s3":["ayudaba"],"p1":["ayudábamos"],"p2":["ayudabais"],"p3":["ayudaban"]},

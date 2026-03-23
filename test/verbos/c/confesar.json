@@ -6,7 +6,7 @@
     "etimologia": "De confeso (del latín confessus, participio pasado de cōnfiteor, \"admitir\") y el sufijo -ar.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"confesar","gerundio":"confesando","participio":"confesado"},
+  "formas_no_personales": {"infinitivo":"confesar","gerundio":["confesando"], "participio":["confesado"]},
   "formas_personales": {
     "IndPres": {"s1":["confieso"],"s2":["confiesas"],"vos":["confesás"],"s3":["confiesa"],"p1":["confesamos"],"p2":["confesáis"],"p3":["confiesan"]},
     "IndImp": {"s1":["confesaba"],"s2":["confesabas"],"vos":["confesabas"],"s3":["confesaba"],"p1":["confesábamos"],"p2":["confesabais"],"p3":["confesaban"]},

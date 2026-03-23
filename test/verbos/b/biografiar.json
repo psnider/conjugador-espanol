@@ -5,7 +5,7 @@
     "etimologia": "De biografía y el sufijo -ar.[2]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"biografiar","gerundio":"biografiando","participio":"biografiado"},
+  "formas_no_personales": {"infinitivo":"biografiar","gerundio":["biografiando"], "participio":["biografiado"]},
   "formas_personales": {
     "IndPres": {"s1":["biografío"],"s2":["biografías"],"vos":["biografiás"],"s3":["biografía"],"p1":["biografiamos"],"p2":["biografiáis"],"p3":["biografían"]},
     "IndImp": {"s1":["biografiaba"],"s2":["biografiabas"],"vos":["biografiabas"],"s3":["biografiaba"],"p1":["biografiábamos"],"p2":["biografiabais"],"p3":["biografiaban"]},

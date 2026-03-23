@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, flojo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aflojar","gerundio":"aflojando","participio":"aflojado"},
+  "formas_no_personales": {"infinitivo":"aflojar","gerundio":["aflojando"], "participio":["aflojado"]},
   "formas_personales": {
     "IndPres": {"s1":["aflojo"],"s2":["aflojas"],"vos":["aflojás"],"s3":["afloja"],"p1":["aflojamos"],"p2":["aflojáis"],"p3":["aflojan"]},
     "IndImp": {"s1":["aflojaba"],"s2":["aflojabas"],"vos":["aflojabas"],"s3":["aflojaba"],"p1":["aflojábamos"],"p2":["aflojabais"],"p3":["aflojaban"]},

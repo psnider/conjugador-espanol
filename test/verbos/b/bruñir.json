@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1250.[1] Del germánico *brūnjan, de brûn ('moreno').[2]",
     "modelos": ["gruñir"]
   },
-  "formas_no_personales": {"infinitivo":"bruñir","gerundio":"bruñendo","participio":"bruñido"},
+  "formas_no_personales": {"infinitivo":"bruñir","gerundio":["bruñendo"], "participio":["bruñido"]},
   "formas_personales": {
     "IndPres": {"s1":["bruño"],"s2":["bruñes"],"vos":["bruñís"],"s3":["bruñe"],"p1":["bruñimos"],"p2":["bruñís"],"p3":["bruñen"]},
     "IndImp": {"s1":["bruñía"],"s2":["bruñías"],"vos":["bruñías"],"s3":["bruñía"],"p1":["bruñíamos"],"p2":["bruñíais"],"p3":["bruñían"]},

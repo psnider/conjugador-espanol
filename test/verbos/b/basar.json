@@ -6,7 +6,7 @@
     "etimologia": "De base y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"basar","gerundio":"basando","participio":"basado"},
+  "formas_no_personales": {"infinitivo":"basar","gerundio":["basando"], "participio":["basado"]},
   "formas_personales": {
     "IndPres": {"s1":["baso"],"s2":["basas"],"vos":["basás"],"s3":["basa"],"p1":["basamos"],"p2":["basáis"],"p3":["basan"]},
     "IndImp": {"s1":["basaba"],"s2":["basabas"],"vos":["basabas"],"s3":["basaba"],"p1":["basábamos"],"p2":["basabais"],"p3":["basaban"]},

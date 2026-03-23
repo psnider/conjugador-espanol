@@ -5,7 +5,7 @@
     "etimologia": "De ingenio y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"ingeniar","gerundio":"ingeniando","participio":"ingeniado"},
+  "formas_no_personales": {"infinitivo":"ingeniar","gerundio":["ingeniando"], "participio":["ingeniado"]},
   "formas_personales": {
     "IndPres": {"s1":["ingenio"],"s2":["ingenias"],"vos":["ingeniás"],"s3":["ingenia"],"p1":["ingeniamos"],"p2":["ingeniáis"],"p3":["ingenian"]},
     "IndImp": {"s1":["ingeniaba"],"s2":["ingeniabas"],"vos":["ingeniabas"],"s3":["ingeniaba"],"p1":["ingeniábamos"],"p2":["ingeniabais"],"p3":["ingeniaban"]},

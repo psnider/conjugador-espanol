@@ -6,7 +6,7 @@
     "etimologia": "Del latín foetere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"heder","gerundio":"hediendo","participio":"hedido"},
+  "formas_no_personales": {"infinitivo":"heder","gerundio":["hediendo"], "participio":["hedido"]},
   "formas_personales": {
     "IndPres": {"s1":["hiedo"],"s2":["hiedes"],"vos":["hedés"],"s3":["hiede"],"p1":["hedemos"],"p2":["hedéis"],"p3":["hieden"]},
     "IndImp": {"s1":["hedía"],"s2":["hedías"],"vos":["hedías"],"s3":["hedía"],"p1":["hedíamos"],"p2":["hedíais"],"p3":["hedían"]},

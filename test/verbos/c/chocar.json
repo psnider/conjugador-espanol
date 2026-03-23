@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"chocar","gerundio":"chocando","participio":"chocado"},
+  "formas_no_personales": {"infinitivo":"chocar","gerundio":["chocando"], "participio":["chocado"]},
   "formas_personales": {
     "IndPres": {"s1":["choco"],"s2":["chocas"],"vos":["chocás"],"s3":["choca"],"p1":["chocamos"],"p2":["chocáis"],"p3":["chocan"]},
     "IndImp": {"s1":["chocaba"],"s2":["chocabas"],"vos":["chocabas"],"s3":["chocaba"],"p1":["chocábamos"],"p2":["chocabais"],"p3":["chocaban"]},

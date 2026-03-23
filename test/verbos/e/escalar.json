@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"escalar","gerundio":"escalando","participio":"escalado"},
+  "formas_no_personales": {"infinitivo":"escalar","gerundio":["escalando"], "participio":["escalado"]},
   "formas_personales": {
     "IndPres": {"s1":["escalo"],"s2":["escalas"],"vos":["escalás"],"s3":["escala"],"p1":["escalamos"],"p2":["escaláis"],"p3":["escalan"]},
     "IndImp": {"s1":["escalaba"],"s2":["escalabas"],"vos":["escalabas"],"s3":["escalaba"],"p1":["escalábamos"],"p2":["escalabais"],"p3":["escalaban"]},

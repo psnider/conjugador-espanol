@@ -6,7 +6,7 @@
     "etimologia": "Del latín absolvere.",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"absolver","gerundio":"absolviendo","participio":"absuelto"},
+  "formas_no_personales": {"infinitivo":"absolver","gerundio":["absolviendo"], "participio":["absuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["absuelvo"],"s2":["absuelves"],"vos":["absolvés"],"s3":["absuelve"],"p1":["absolvemos"],"p2":["absolvéis"],"p3":["absuelven"]},
     "IndImp": {"s1":["absolvía"],"s2":["absolvías"],"vos":["absolvías"],"s3":["absolvía"],"p1":["absolvíamos"],"p2":["absolvíais"],"p3":["absolvían"]},

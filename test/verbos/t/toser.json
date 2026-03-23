@@ -6,7 +6,7 @@
     "etimologia": "Del latín tussīre",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"toser","gerundio":"tosiendo","participio":"tosido"},
+  "formas_no_personales": {"infinitivo":"toser","gerundio":["tosiendo"], "participio":["tosido"]},
   "formas_personales": {
     "IndPres": {"s1":["toso"],"s2":["toses"],"vos":["tosés"],"s3":["tose"],"p1":["tosemos"],"p2":["toséis"],"p3":["tosen"]},
     "IndImp": {"s1":["tosía"],"s2":["tosías"],"vos":["tosías"],"s3":["tosía"],"p1":["tosíamos"],"p2":["tosíais"],"p3":["tosían"]},

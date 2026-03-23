@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y rasar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arrasar","gerundio":"arrasando","participio":"arrasado"},
+  "formas_no_personales": {"infinitivo":"arrasar","gerundio":["arrasando"], "participio":["arrasado"]},
   "formas_personales": {
     "IndPres": {"s1":["arraso"],"s2":["arrasas"],"vos":["arrasás"],"s3":["arrasa"],"p1":["arrasamos"],"p2":["arrasáis"],"p3":["arrasan"]},
     "IndImp": {"s1":["arrasaba"],"s2":["arrasabas"],"vos":["arrasabas"],"s3":["arrasaba"],"p1":["arrasábamos"],"p2":["arrasabais"],"p3":["arrasaban"]},

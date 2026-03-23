@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"recobrar","gerundio":"recobrando","participio":"recobrado"},
+  "formas_no_personales": {"infinitivo":"recobrar","gerundio":["recobrando"], "participio":["recobrado"]},
   "formas_personales": {
     "IndPres": {"s1":["recobro"],"s2":["recobras"],"vos":["recobrás"],"s3":["recobra"],"p1":["recobramos"],"p2":["recobráis"],"p3":["recobran"]},
     "IndImp": {"s1":["recobraba"],"s2":["recobrabas"],"vos":["recobrabas"],"s3":["recobraba"],"p1":["recobrábamos"],"p2":["recobrabais"],"p3":["recobraban"]},

@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bucear","gerundio":"buceando","participio":"buceado"},
+  "formas_no_personales": {"infinitivo":"bucear","gerundio":["buceando"], "participio":["buceado"]},
   "formas_personales": {
     "IndPres": {"s1":["buceo"],"s2":["buceas"],"vos":["buceás"],"s3":["bucea"],"p1":["buceamos"],"p2":["buceáis"],"p3":["bucean"]},
     "IndImp": {"s1":["buceaba"],"s2":["buceabas"],"vos":["buceabas"],"s3":["buceaba"],"p1":["buceábamos"],"p2":["buceabais"],"p3":["buceaban"]},

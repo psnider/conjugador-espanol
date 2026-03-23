@@ -6,7 +6,7 @@
     "etimologia": "De borde y el sufijo -ear",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bordear","gerundio":"bordeando","participio":"bordeado"},
+  "formas_no_personales": {"infinitivo":"bordear","gerundio":["bordeando"], "participio":["bordeado"]},
   "formas_personales": {
     "IndPres": {"s1":["bordeo"],"s2":["bordeas"],"vos":["bordeás"],"s3":["bordea"],"p1":["bordeamos"],"p2":["bordeáis"],"p3":["bordean"]},
     "IndImp": {"s1":["bordeaba"],"s2":["bordeabas"],"vos":["bordeabas"],"s3":["bordeaba"],"p1":["bordeábamos"],"p2":["bordeabais"],"p3":["bordeaban"]},

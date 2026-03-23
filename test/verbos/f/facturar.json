@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fakt̪uˈɾaɾ]",
+    "silabacion": "fac-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"facturar","gerundio":["facturando"],"participio":["facturado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["facturo"],"s2":["facturas"],"vos":["facturás"],"s3":["factura"],"p1":["facturamos"],"p2":["facturáis"],"p3":["facturan"]},
+    "IndImp": {"s1":["facturaba"],"s2":["facturabas"],"vos":["facturabas"],"s3":["facturaba"],"p1":["facturábamos"],"p2":["facturabais"],"p3":["facturaban"]},
+    "IndPret": {"s1":["facturé"],"s2":["facturaste"],"vos":["facturaste"],"s3":["facturó"],"p1":["facturamos"],"p2":["facturasteis"],"p3":["facturaron"]},
+    "IndFut": {"s1":["facturaré"],"s2":["facturarás"],"vos":["facturarás"],"s3":["facturará"],"p1":["facturaremos"],"p2":["facturaréis"],"p3":["facturarán"]},
+    "IndCond": {"s1":["facturaría"],"s2":["facturarías"],"vos":["facturarías"],"s3":["facturaría"],"p1":["facturaríamos"],"p2":["facturaríais"],"p3":["facturarían"]},
+    "SubPres": {"s1":["facture"],"s2":["factures"],"vos":["factures","facturés"],"s3":["facture"],"p1":["facturemos"],"p2":["facturéis"],"p3":["facturen"]},
+    "SubImp": {"s1":["facturara","facturase"],"s2":["facturaras","facturases"],"vos":["facturaras","facturases"],"s3":["facturara","facturase"],"p1":["facturáramos","facturásemos"],"p2":["facturarais","facturaseis"],"p3":["facturaran","facturasen"]},
+    "SubFut": {"s1":["facturare"],"s2":["facturares"],"vos":["facturares"],"s3":["facturare"],"p1":["facturáremos"],"p2":["facturareis"],"p3":["facturaren"]},
+    "CmdPos": {"s2":["factura"],"vos":["facturá"],"s3":["facture"],"p1":["facturemos"],"p2":["facturad"],"p3":["facturen"]}
+  }
+}

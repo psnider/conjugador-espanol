@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1251. Del castellano antiguo empuxar, del latín tardío impulsāre.[1] Alternativamente, del prefijo en- y pujar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"empujar","gerundio":"empujando","participio":"empujado"},
+  "formas_no_personales": {"infinitivo":"empujar","gerundio":["empujando"], "participio":["empujado"]},
   "formas_personales": {
     "IndPres": {"s1":["empujo"],"s2":["empujas"],"vos":["empujás"],"s3":["empuja"],"p1":["empujamos"],"p2":["empujáis"],"p3":["empujan"]},
     "IndImp": {"s1":["empujaba"],"s2":["empujabas"],"vos":["empujabas"],"s3":["empujaba"],"p1":["empujábamos"],"p2":["empujabais"],"p3":["empujaban"]},

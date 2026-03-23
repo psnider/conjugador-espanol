@@ -6,7 +6,7 @@
     "etimologia": "Del latín tardío nascere, y este del latín nasci, del latín gnasci, a su vez del protoindoeuropeo *gen-, en última instancia del protoindoeuropeo *ǵénh₁os, \"linaje\".",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"nacer","gerundio":"naciendo","participio":"nacido"},
+  "formas_no_personales": {"infinitivo":"nacer","gerundio":["naciendo"], "participio":["nacido"]},
   "formas_personales": {
     "IndPres": {"s1":["nazco"],"s2":["naces"],"vos":["nacés"],"s3":["nace"],"p1":["nacemos"],"p2":["nacéis"],"p3":["nacen"]},
     "IndImp": {"s1":["nacía"],"s2":["nacías"],"vos":["nacías"],"s3":["nacía"],"p1":["nacíamos"],"p2":["nacíais"],"p3":["nacían"]},

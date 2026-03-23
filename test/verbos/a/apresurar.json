@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"apresurar","gerundio":"apresurando","participio":"apresurado"},
+  "formas_no_personales": {"infinitivo":"apresurar","gerundio":["apresurando"], "participio":["apresurado"]},
   "formas_personales": {
     "IndPres": {"s1":["apresuro"],"s2":["apresuras"],"vos":["apresurás"],"s3":["apresura"],"p1":["apresuramos"],"p2":["apresuráis"],"p3":["apresuran"]},
     "IndImp": {"s1":["apresuraba"],"s2":["apresurabas"],"vos":["apresurabas"],"s3":["apresuraba"],"p1":["apresurábamos"],"p2":["apresurabais"],"p3":["apresuraban"]},

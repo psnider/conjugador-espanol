@@ -6,7 +6,7 @@
     "etimologia": "De alimento y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alimentar","gerundio":"alimentando","participio":"alimentado"},
+  "formas_no_personales": {"infinitivo":"alimentar","gerundio":["alimentando"], "participio":["alimentado"]},
   "formas_personales": {
     "IndPres": {"s1":["alimento"],"s2":["alimentas"],"vos":["alimentás"],"s3":["alimenta"],"p1":["alimentamos"],"p2":["alimentáis"],"p3":["alimentan"]},
     "IndImp": {"s1":["alimentaba"],"s2":["alimentabas"],"vos":["alimentabas"],"s3":["alimentaba"],"p1":["alimentábamos"],"p2":["alimentabais"],"p3":["alimentaban"]},

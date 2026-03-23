@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"reencontrar","gerundio":"reencontrando","participio":"reencontrado"},
+  "formas_no_personales": {"infinitivo":"reencontrar","gerundio":["reencontrando"], "participio":["reencontrado"]},
   "formas_personales": {
     "IndPres": {"s1":["reencuentro"],"s2":["reencuentras"],"vos":["reencontrás"],"s3":["reencuentra"],"p1":["reencontramos"],"p2":["reencontráis"],"p3":["reencuentran"]},
     "IndImp": {"s1":["reencontraba"],"s2":["reencontrabas"],"vos":["reencontrabas"],"s3":["reencontraba"],"p1":["reencontrábamos"],"p2":["reencontrabais"],"p3":["reencontraban"]},

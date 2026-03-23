@@ -6,7 +6,7 @@
     "etimologia": "Del latín indagare.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"indagar","gerundio":"indagando","participio":"indagado"},
+  "formas_no_personales": {"infinitivo":"indagar","gerundio":["indagando"], "participio":["indagado"]},
   "formas_personales": {
     "IndPres": {"s1":["indago"],"s2":["indagas"],"vos":["indagás"],"s3":["indaga"],"p1":["indagamos"],"p2":["indagáis"],"p3":["indagan"]},
     "IndImp": {"s1":["indagaba"],"s2":["indagabas"],"vos":["indagabas"],"s3":["indagaba"],"p1":["indagábamos"],"p2":["indagabais"],"p3":["indagaban"]},

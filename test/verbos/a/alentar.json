@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar alenitāre, por anhelitare, y este del latín anhelāre ('exhalar').",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"alentar","gerundio":"alentando","participio":"alentado"},
+  "formas_no_personales": {"infinitivo":"alentar","gerundio":["alentando"], "participio":["alentado"]},
   "formas_personales": {
     "IndPres": {"s1":["aliento"],"s2":["alientas"],"vos":["alentás"],"s3":["alienta"],"p1":["alentamos"],"p2":["alentáis"],"p3":["alientan"]},
     "IndImp": {"s1":["alentaba"],"s2":["alentabas"],"vos":["alentabas"],"s3":["alentaba"],"p1":["alentábamos"],"p2":["alentabais"],"p3":["alentaban"]},

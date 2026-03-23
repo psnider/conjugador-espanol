@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"escoger","gerundio":"escogiendo","participio":"escogido"},
+  "formas_no_personales": {"infinitivo":"escoger","gerundio":["escogiendo"], "participio":["escogido"]},
   "formas_personales": {
     "IndPres": {"s1":["escojo"],"s2":["escoges"],"vos":["escogés"],"s3":["escoge"],"p1":["escogemos"],"p2":["escogéis"],"p3":["escogen"]},
     "IndImp": {"s1":["escogía"],"s2":["escogías"],"vos":["escogías"],"s3":["escogía"],"p1":["escogíamos"],"p2":["escogíais"],"p3":["escogían"]},

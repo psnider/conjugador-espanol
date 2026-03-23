@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en- y barco.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"embarcar","gerundio":"embarcando","participio":"embarcado"},
+  "formas_no_personales": {"infinitivo":"embarcar","gerundio":["embarcando"], "participio":["embarcado"]},
   "formas_personales": {
     "IndPres": {"s1":["embarco"],"s2":["embarcas"],"vos":["embarcás"],"s3":["embarca"],"p1":["embarcamos"],"p2":["embarcáis"],"p3":["embarcan"]},
     "IndImp": {"s1":["embarcaba"],"s2":["embarcabas"],"vos":["embarcabas"],"s3":["embarcaba"],"p1":["embarcábamos"],"p2":["embarcabais"],"p3":["embarcaban"]},

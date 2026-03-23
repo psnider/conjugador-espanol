@@ -6,7 +6,7 @@
     "etimologia": "Del latín vacillō, vacillāre ('oscilar').[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"vacilar","gerundio":"vacilando","participio":"vacilado"},
+  "formas_no_personales": {"infinitivo":"vacilar","gerundio":["vacilando"], "participio":["vacilado"]},
   "formas_personales": {
     "IndPres": {"s1":["vacilo"],"s2":["vacilas"],"vos":["vacilás"],"s3":["vacila"],"p1":["vacilamos"],"p2":["vaciláis"],"p3":["vacilan"]},
     "IndImp": {"s1":["vacilaba"],"s2":["vacilabas"],"vos":["vacilabas"],"s3":["vacilaba"],"p1":["vacilábamos"],"p2":["vacilabais"],"p3":["vacilaban"]},

@@ -7,7 +7,7 @@
     "modelos": ["parecer"],
     "impersonal": true
   },
-  "formas_no_personales": {"infinitivo":"atardecer","gerundio":"atardeciendo","participio":"atardecido"},
+  "formas_no_personales": {"infinitivo":"atardecer","gerundio":["atardeciendo"], "participio":["atardecido"]},
   "formas_personales": {
     "IndPres": {"s1":["atardezco"],"s2":["atardeces"],"vos":["atardecés"],"s3":["atardece"],"p1":["atardecemos"],"p2":["atardecéis"],"p3":["atardecen"]},
     "IndImp": {"s1":["atardecía"],"s2":["atardecías"],"vos":["atardecías"],"s3":["atardecía"],"p1":["atardecíamos"],"p2":["atardecíais"],"p3":["atardecían"]},

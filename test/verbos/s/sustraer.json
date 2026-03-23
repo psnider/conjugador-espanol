@@ -6,7 +6,7 @@
     "etimologia": "Acortamiento ((por síncopa)) de substraer,[1] y este del latín subtrahō, subtrahere&nbsp;('sacar'), compuesto de sub&nbsp;('debajo') y trahō, trahere (\"halar, arrastrar\").",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"sustraer","gerundio":"sustrayendo","participio":"sustraído"},
+  "formas_no_personales": {"infinitivo":"sustraer","gerundio":["sustrayendo"], "participio":["sustraído"]},
   "formas_personales": {
     "IndPres": {"s1":["sustraigo"],"s2":["sustraes"],"vos":["sustraés"],"s3":["sustrae"],"p1":["sustraemos"],"p2":["sustraéis"],"p3":["sustraen"]},
     "IndImp": {"s1":["sustraía"],"s2":["sustraías"],"vos":["sustraías"],"s3":["sustraía"],"p1":["sustraíamos"],"p2":["sustraíais"],"p3":["sustraían"]},

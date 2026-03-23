@@ -6,7 +6,7 @@
     "etimologia": "Del latín tolerāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tolerar","gerundio":"tolerando","participio":"tolerado"},
+  "formas_no_personales": {"infinitivo":"tolerar","gerundio":["tolerando"], "participio":["tolerado"]},
   "formas_personales": {
     "IndPres": {"s1":["tolero"],"s2":["toleras"],"vos":["tolerás"],"s3":["tolera"],"p1":["toleramos"],"p2":["toleráis"],"p3":["toleran"]},
     "IndImp": {"s1":["toleraba"],"s2":["tolerabas"],"vos":["tolerabas"],"s3":["toleraba"],"p1":["tolerábamos"],"p2":["tolerabais"],"p3":["toleraban"]},

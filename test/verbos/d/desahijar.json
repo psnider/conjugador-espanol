@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esajˈxaɾ]",
+    "silabacion": "des-ahi-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"desahijar","gerundio":["desahijando"], "participio":["desahijado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desahíjo"],"s2":["desahíjas"],"vos":["desahijás"],"s3":["desahíja"],"p1":["desahijamos"],"p2":["desahijáis"],"p3":["desahíjan"]},
+    "IndImp": {"s1":["desahijaba"],"s2":["desahijabas"],"vos":["desahijabas"],"s3":["desahijaba"],"p1":["desahijábamos"],"p2":["desahijabais"],"p3":["desahijaban"]},
+    "IndPret": {"s1":["desahijé"],"s2":["desahijaste"],"vos":["desahijaste"],"s3":["desahijó"],"p1":["desahijamos"],"p2":["desahijasteis"],"p3":["desahijaron"]},
+    "IndFut": {"s1":["desahijaré"],"s2":["desahijarás"],"vos":["desahijarás"],"s3":["desahijará"],"p1":["desahijaremos"],"p2":["desahijaréis"],"p3":["desahijarán"]},
+    "IndCond": {"s1":["desahijaría"],"s2":["desahijarías"],"vos":["desahijarías"],"s3":["desahijaría"],"p1":["desahijaríamos"],"p2":["desahijaríais"],"p3":["desahijarían"]},
+    "SubPres": {"s1":["desahíje"],"s2":["desahíjes"],"vos":["desahíjes","desahijés"],"s3":["desahíje"],"p1":["desahijemos"],"p2":["desahijéis"],"p3":["desahíjen"]},
+    "SubImp": {"s1":["desahijara","desahijase"],"s2":["desahijaras","desahijases"],"vos":["desahijaras","desahijases"],"s3":["desahijara","desahijase"],"p1":["desahijáramos","desahijásemos"],"p2":["desahijarais","desahijaseis"],"p3":["desahijaran","desahijasen"]},
+    "SubFut": {"s1":["desahijare"],"s2":["desahijares"],"vos":["desahijares"],"s3":["desahijare"],"p1":["desahijáremos"],"p2":["desahijareis"],"p3":["desahijaren"]},
+    "CmdPos": {"s2":["desahíja"],"vos":["desahijá"],"s3":["desahíje"],"p1":["desahijemos"],"p2":["desahijad"],"p3":["desahíjen"]}
+  }
+}

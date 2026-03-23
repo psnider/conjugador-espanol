@@ -6,7 +6,7 @@
     "etimologia": "Del latín expedire",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"expedir","gerundio":"expidiendo","participio":"expedido"},
+  "formas_no_personales": {"infinitivo":"expedir","gerundio":["expidiendo"], "participio":["expedido"]},
   "formas_personales": {
     "IndPres": {"s1":["expido"],"s2":["expides"],"vos":["expedís"],"s3":["expide"],"p1":["expedimos"],"p2":["expedís"],"p3":["expiden"]},
     "IndImp": {"s1":["expedía"],"s2":["expedías"],"vos":["expedías"],"s3":["expedía"],"p1":["expedíamos"],"p2":["expedíais"],"p3":["expedían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín involvere.",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"envolver","gerundio":"envolviendo","participio":"envuelto"},
+  "formas_no_personales": {"infinitivo":"envolver","gerundio":["envolviendo"], "participio":["envuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["envuelvo"],"s2":["envuelves"],"vos":["envolvés"],"s3":["envuelve"],"p1":["envolvemos"],"p2":["envolvéis"],"p3":["envuelven"]},
     "IndImp": {"s1":["envolvía"],"s2":["envolvías"],"vos":["envolvías"],"s3":["envolvía"],"p1":["envolvíamos"],"p2":["envolvíais"],"p3":["envolvían"]},

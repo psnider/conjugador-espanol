@@ -6,7 +6,7 @@
     "etimologia": "Del latín pausare, de pausa y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pausar","gerundio":"pausando","participio":"pausado"},
+  "formas_no_personales": {"infinitivo":"pausar","gerundio":["pausando"], "participio":["pausado"]},
   "formas_personales": {
     "IndPres": {"s1":["pauso"],"s2":["pausas"],"vos":["pausás"],"s3":["pausa"],"p1":["pausamos"],"p2":["pausáis"],"p3":["pausan"]},
     "IndImp": {"s1":["pausaba"],"s2":["pausabas"],"vos":["pausabas"],"s3":["pausaba"],"p1":["pausábamos"],"p2":["pausabais"],"p3":["pausaban"]},

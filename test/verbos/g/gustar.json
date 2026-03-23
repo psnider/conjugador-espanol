@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo gustar ('saborear'), y este del latín gusto, del latín gustus.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"gustar","gerundio":"gustando","participio":"gustado"},
+  "formas_no_personales": {"infinitivo":"gustar","gerundio":["gustando"], "participio":["gustado"]},
   "formas_personales": {
     "IndPres": {"s1":["gusto"],"s2":["gustas"],"vos":["gustás"],"s3":["gusta"],"p1":["gustamos"],"p2":["gustáis"],"p3":["gustan"]},
     "IndImp": {"s1":["gustaba"],"s2":["gustabas"],"vos":["gustabas"],"s3":["gustaba"],"p1":["gustábamos"],"p2":["gustabais"],"p3":["gustaban"]},

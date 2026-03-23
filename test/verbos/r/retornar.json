@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"retornar","gerundio":"retornando","participio":"retornado"},
+  "formas_no_personales": {"infinitivo":"retornar","gerundio":["retornando"], "participio":["retornado"]},
   "formas_personales": {
     "IndPres": {"s1":["retorno"],"s2":["retornas"],"vos":["retornás"],"s3":["retorna"],"p1":["retornamos"],"p2":["retornáis"],"p3":["retornan"]},
     "IndImp": {"s1":["retornaba"],"s2":["retornabas"],"vos":["retornabas"],"s3":["retornaba"],"p1":["retornábamos"],"p2":["retornabais"],"p3":["retornaban"]},

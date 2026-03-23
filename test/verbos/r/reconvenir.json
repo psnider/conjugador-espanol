@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y convenir.",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"reconvenir","gerundio":"reconviniendo","participio":"reconvenido"},
+  "formas_no_personales": {"infinitivo":"reconvenir","gerundio":["reconviniendo"], "participio":["reconvenido"]},
   "formas_personales": {
     "IndPres": {"s1":["reconvengo"],"s2":["reconvienes"],"vos":["reconvenís"],"s3":["reconviene"],"p1":["reconvenimos"],"p2":["reconvenís"],"p3":["reconvienen"]},
     "IndImp": {"s1":["reconvenía"],"s2":["reconvenías"],"vos":["reconvenías"],"s3":["reconvenía"],"p1":["reconveníamos"],"p2":["reconveníais"],"p3":["reconvenían"]},

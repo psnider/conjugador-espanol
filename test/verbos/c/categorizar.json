@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"categorizar","gerundio":"categorizando","participio":"categorizado"},
+  "formas_no_personales": {"infinitivo":"categorizar","gerundio":["categorizando"], "participio":["categorizado"]},
   "formas_personales": {
     "IndPres": {"s1":["categorizo"],"s2":["categorizas"],"vos":["categorizás"],"s3":["categoriza"],"p1":["categorizamos"],"p2":["categorizáis"],"p3":["categorizan"]},
     "IndImp": {"s1":["categorizaba"],"s2":["categorizabas"],"vos":["categorizabas"],"s3":["categorizaba"],"p1":["categorizábamos"],"p2":["categorizabais"],"p3":["categorizaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del árabe hispánico alkirá ('alquiler'), a su vez del árabe clásico kira",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alquilar","gerundio":"alquilando","participio":"alquilado"},
+  "formas_no_personales": {"infinitivo":"alquilar","gerundio":["alquilando"], "participio":["alquilado"]},
   "formas_personales": {
     "IndPres": {"s1":["alquilo"],"s2":["alquilas"],"vos":["alquilás"],"s3":["alquila"],"p1":["alquilamos"],"p2":["alquiláis"],"p3":["alquilan"]},
     "IndImp": {"s1":["alquilaba"],"s2":["alquilabas"],"vos":["alquilabas"],"s3":["alquilaba"],"p1":["alquilábamos"],"p2":["alquilabais"],"p3":["alquilaban"]},

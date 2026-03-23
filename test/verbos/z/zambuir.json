@@ -1,0 +1,22 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sãmbuˈiɾ]",
+    "silabacion": "zam-bu-ir",
+    "acentuacion": "aguda",
+    "etimologia": "Alteración fonética de zambullir.",
+    "modelos": ["huir"]
+  },
+  "urls": ["https://www.wordreference.com/conj/esverbs.aspx?v=zambuir"],
+  "formas_no_personales": {"infinitivo":"zambuir","gerundio":["zambuyendo"], "participio":["zambuido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["zambuyo"],"s2":["zambuyes"],"vos":["zambuís"],"s3":["zambuye"],"p1":["zambuimos"],"p2":["zambuís"],"p3":["zambuyen"]},
+    "IndImp": {"s1":["zambuía"],"s2":["zambuías"],"vos":["zambuías"],"s3":["zambuía"],"p1":["zambuíamos"],"p2":["zambuíais"],"p3":["zambuían"]},
+    "IndPret": {"s1":["zambuí"],"s2":["zambuiste"],"vos":["zambuiste"],"s3":["zambuyó"],"p1":["zambuimos"],"p2":["zambuisteis"],"p3":["zambuyeron"]},
+    "IndFut": {"s1":["zambuiré"],"s2":["zambuirás"],"vos":["zambuirás"],"s3":["zambuirá"],"p1":["zambuiremos"],"p2":["zambuiréis"],"p3":["zambuirán"]},
+    "IndCond": {"s1":["zambuiría"],"s2":["zambuirías"],"vos":["zambuirías"],"s3":["zambuiría"],"p1":["zambuiríamos"],"p2":["zambuiríais"],"p3":["zambuirían"]},
+    "SubPres": {"s1":["zambuya"],"s2":["zambuyas"],"vos":["zambuyas","zambuyás"],"s3":["zambuya"],"p1":["zambuyamos"],"p2":["zambuyáis"],"p3":["zambuyan"]},
+    "SubImp": {"s1":["zambuyera","zambuyese"],"s2":["zambuyeras","zambuyeses"],"vos":["zambuyeras","zambuyeses"],"s3":["zambuyera","zambuyese"],"p1":["zambuyéramos","zambuyésemos"],"p2":["zambuyerais","zambuyeseis"],"p3":["zambuyeran","zambuyesen"]},
+    "SubFut": {"s1":["zambuyere"],"s2":["zambuyeres"],"vos":["zambuyeres"],"s3":["zambuyere"],"p1":["zambuyéremos"],"p2":["zambuyereis"],"p3":["zambuyeren"]},
+    "CmdPos": {"s2":["zambuye"],"vos":["zambuí"],"s3":["zambuya"],"p1":["zambuyamos"],"p2":["zambuid"],"p3":["zambuyan"]}
+  }
+}

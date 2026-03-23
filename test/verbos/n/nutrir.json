@@ -6,7 +6,7 @@
     "etimologia": "Del latín nūtriō, nūtrīre ('amamantar').",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"nutrir","gerundio":"nutriendo","participio":"nutrido"},
+  "formas_no_personales": {"infinitivo":"nutrir","gerundio":["nutriendo"], "participio":["nutrido"]},
   "formas_personales": {
     "IndPres": {"s1":["nutro"],"s2":["nutres"],"vos":["nutrís"],"s3":["nutre"],"p1":["nutrimos"],"p2":["nutrís"],"p3":["nutren"]},
     "IndImp": {"s1":["nutría"],"s2":["nutrías"],"vos":["nutrías"],"s3":["nutría"],"p1":["nutríamos"],"p2":["nutríais"],"p3":["nutrían"]},

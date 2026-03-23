@@ -1,6 +1,6 @@
 import * as fs from 'node:fs/promises';
-import { GrammaticalPerson, ConjugaciónTabla, ConjugationSlot, FormaAtípico } from '../src/index.js';
-import { ConjugaciónEntero } from './index.js';
+import { GrammaticalPerson, ConjugaciónTabla, ConjugationSlot, FormaAtípico, Participios } from '../src/index.js';
+import { ConjugaciónEntero, FormasNoPersonales } from './index.js';
 
 
 const desired_mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"]
@@ -84,7 +84,7 @@ function extractParticipio(html: string): string | null {
 }
 
 
-function getFormasNoPersonales(html: string) {
+function getFormasNoPersonales(html: string) : FormasNoPersonales {
     let infinitivo: string
     // const infMatch = html.match(/Infinitivo[\s\S]*?>([^<>]+)<\/a>/i);
     const infMatch = html.match(/Infinitivo<\/th>\s*<td[^>]*>([^<]+)<\/td>/i)
@@ -93,7 +93,7 @@ function getFormasNoPersonales(html: string) {
     }
     const gerundio = extractGerundio(html)
     const participio = extractParticipio(html)
-    return {infinitivo, gerundio, participio}
+    return {infinitivo, gerundio: [gerundio], participio: [participio]}
 }
 
 

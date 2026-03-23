@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"tapiar","gerundio":"tapiando","participio":"tapiado"},
+  "formas_no_personales": {"infinitivo":"tapiar","gerundio":["tapiando"], "participio":["tapiado"]},
   "formas_personales": {
     "IndPres": {"s1":["tapio"],"s2":["tapias"],"vos":["tapiás"],"s3":["tapia"],"p1":["tapiamos"],"p2":["tapiáis"],"p3":["tapian"]},
     "IndImp": {"s1":["tapiaba"],"s2":["tapiabas"],"vos":["tapiabas"],"s3":["tapiaba"],"p1":["tapiábamos"],"p2":["tapiabais"],"p3":["tapiaban"]},

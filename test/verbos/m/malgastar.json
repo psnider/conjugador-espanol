@@ -6,7 +6,7 @@
     "etimologia": "Compuesto de mal2 y gastar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"malgastar","gerundio":"malgastando","participio":"malgastado"},
+  "formas_no_personales": {"infinitivo":"malgastar","gerundio":["malgastando"], "participio":["malgastado"]},
   "formas_personales": {
     "IndPres": {"s1":["malgasto"],"s2":["malgastas"],"vos":["malgastás"],"s3":["malgasta"],"p1":["malgastamos"],"p2":["malgastáis"],"p3":["malgastan"]},
     "IndImp": {"s1":["malgastaba"],"s2":["malgastabas"],"vos":["malgastabas"],"s3":["malgastaba"],"p1":["malgastábamos"],"p2":["malgastabais"],"p3":["malgastaban"]},

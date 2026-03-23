@@ -6,7 +6,7 @@
     "etimologia": "Del latín exasperare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"exasperar","gerundio":"exasperando","participio":"exasperado"},
+  "formas_no_personales": {"infinitivo":"exasperar","gerundio":["exasperando"], "participio":["exasperado"]},
   "formas_personales": {
     "IndPres": {"s1":["exaspero"],"s2":["exasperas"],"vos":["exasperás"],"s3":["exaspera"],"p1":["exasperamos"],"p2":["exasperáis"],"p3":["exasperan"]},
     "IndImp": {"s1":["exasperaba"],"s2":["exasperabas"],"vos":["exasperabas"],"s3":["exasperaba"],"p1":["exasperábamos"],"p2":["exasperabais"],"p3":["exasperaban"]},

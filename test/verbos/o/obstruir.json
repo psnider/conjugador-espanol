@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oβ̞sˈt̪ɾwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín obstruere.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"obstruir","gerundio":["obstruyendo"], "participio":["obstruido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["obstruyo"],"s2":["obstruyes"],"vos":["obstruís"],"s3":["obstruye"],"p1":["obstruimos"],"p2":["obstruís"],"p3":["obstruyen"]},
+    "IndImp": {"s1":["obstruía"],"s2":["obstruías"],"vos":["obstruías"],"s3":["obstruía"],"p1":["obstruíamos"],"p2":["obstruíais"],"p3":["obstruían"]},
+    "IndPret": {"s1":["obstruí"],"s2":["obstruiste"],"vos":["obstruiste"],"s3":["obstruyó"],"p1":["obstruimos"],"p2":["obstruisteis"],"p3":["obstruyeron"]},
+    "IndFut": {"s1":["obstruiré"],"s2":["obstruirás"],"vos":["obstruirás"],"s3":["obstruirá"],"p1":["obstruiremos"],"p2":["obstruiréis"],"p3":["obstruirán"]},
+    "IndCond": {"s1":["obstruiría"],"s2":["obstruirías"],"vos":["obstruirías"],"s3":["obstruiría"],"p1":["obstruiríamos"],"p2":["obstruiríais"],"p3":["obstruirían"]},
+    "SubPres": {"s1":["obstruya"],"s2":["obstruyas"],"vos":["obstruyas","obstruyás"],"s3":["obstruya"],"p1":["obstruyamos"],"p2":["obstruyáis"],"p3":["obstruyan"]},
+    "SubImp": {"s1":["obstruyera","obstruyese"],"s2":["obstruyeras","obstruyeses"],"vos":["obstruyeras","obstruyeses"],"s3":["obstruyera","obstruyese"],"p1":["obstruyéramos","obstruyésemos"],"p2":["obstruyerais","obstruyeseis"],"p3":["obstruyeran","obstruyesen"]},
+    "SubFut": {"s1":["obstruyere"],"s2":["obstruyeres"],"vos":["obstruyeres"],"s3":["obstruyere"],"p1":["obstruyéremos"],"p2":["obstruyereis"],"p3":["obstruyeren"]},
+    "CmdPos": {"s2":["obstruye"],"vos":["obstruí"],"s3":["obstruya"],"p1":["obstruyamos"],"p2":["obstruid"],"p3":["obstruyan"]}
+  }
+}

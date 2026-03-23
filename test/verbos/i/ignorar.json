@@ -6,7 +6,7 @@
     "etimologia": "Del latín ignorare, \"no saber\", derivado negativo de la raíz gnō- de (g)noscere (\"saber\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ignorar","gerundio":"ignorando","participio":"ignorado"},
+  "formas_no_personales": {"infinitivo":"ignorar","gerundio":["ignorando"], "participio":["ignorado"]},
   "formas_personales": {
     "IndPres": {"s1":["ignoro"],"s2":["ignoras"],"vos":["ignorás"],"s3":["ignora"],"p1":["ignoramos"],"p2":["ignoráis"],"p3":["ignoran"]},
     "IndImp": {"s1":["ignoraba"],"s2":["ignorabas"],"vos":["ignorabas"],"s3":["ignoraba"],"p1":["ignorábamos"],"p2":["ignorabais"],"p3":["ignoraban"]},

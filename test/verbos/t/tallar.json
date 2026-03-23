@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tallar","gerundio":"tallando","participio":"tallado"},
+  "formas_no_personales": {"infinitivo":"tallar","gerundio":["tallando"], "participio":["tallado"]},
   "formas_personales": {
     "IndPres": {"s1":["tallo"],"s2":["tallas"],"vos":["tallás"],"s3":["talla"],"p1":["tallamos"],"p2":["talláis"],"p3":["tallan"]},
     "IndImp": {"s1":["tallaba"],"s2":["tallabas"],"vos":["tallabas"],"s3":["tallaba"],"p1":["tallábamos"],"p2":["tallabais"],"p3":["tallaban"]},

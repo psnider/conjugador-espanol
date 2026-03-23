@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, compaña y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acompañar","gerundio":"acompañando","participio":"acompañado"},
+  "formas_no_personales": {"infinitivo":"acompañar","gerundio":["acompañando"], "participio":["acompañado"]},
   "formas_personales": {
     "IndPres": {"s1":["acompaño"],"s2":["acompañas"],"vos":["acompañás"],"s3":["acompaña"],"p1":["acompañamos"],"p2":["acompañáis"],"p3":["acompañan"]},
     "IndImp": {"s1":["acompañaba"],"s2":["acompañabas"],"vos":["acompañabas"],"s3":["acompañaba"],"p1":["acompañábamos"],"p2":["acompañabais"],"p3":["acompañaban"]},

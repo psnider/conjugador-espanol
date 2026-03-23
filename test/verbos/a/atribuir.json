@@ -5,7 +5,7 @@
     "etimologia": "Del latín attribuere.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"atribuir","gerundio":"atribuyendo","participio":"atribuido"},
+  "formas_no_personales": {"infinitivo":"atribuir","gerundio":["atribuyendo"], "participio":["atribuido"]},
   "formas_personales": {
     "IndPres": {"s1":["atribuyo"],"s2":["atribuyes"],"vos":["atribuís"],"s3":["atribuye"],"p1":["atribuimos"],"p2":["atribuís"],"p3":["atribuyen"]},
     "IndImp": {"s1":["atribuía"],"s2":["atribuías"],"vos":["atribuías"],"s3":["atribuía"],"p1":["atribuíamos"],"p2":["atribuíais"],"p3":["atribuían"]},

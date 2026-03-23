@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"ofuscar","gerundio":"ofuscando","participio":"ofuscado"},
+  "formas_no_personales": {"infinitivo":"ofuscar","gerundio":["ofuscando"], "participio":["ofuscado"]},
   "formas_personales": {
     "IndPres": {"s1":["ofusco"],"s2":["ofuscas"],"vos":["ofuscás"],"s3":["ofusca"],"p1":["ofuscamos"],"p2":["ofuscáis"],"p3":["ofuscan"]},
     "IndImp": {"s1":["ofuscaba"],"s2":["ofuscabas"],"vos":["ofuscabas"],"s3":["ofuscaba"],"p1":["ofuscábamos"],"p2":["ofuscabais"],"p3":["ofuscaban"]},

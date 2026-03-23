@@ -6,7 +6,7 @@
     "etimologia": "De ronda y el sufijo -ar.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rondar","gerundio":"rondando","participio":"rondado"},
+  "formas_no_personales": {"infinitivo":"rondar","gerundio":["rondando"], "participio":["rondado"]},
   "formas_personales": {
     "IndPres": {"s1":["rondo"],"s2":["rondas"],"vos":["rondás"],"s3":["ronda"],"p1":["rondamos"],"p2":["rondáis"],"p3":["rondan"]},
     "IndImp": {"s1":["rondaba"],"s2":["rondabas"],"vos":["rondabas"],"s3":["rondaba"],"p1":["rondábamos"],"p2":["rondabais"],"p3":["rondaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De impresión y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"impresionar","gerundio":"impresionando","participio":"impresionado"},
+  "formas_no_personales": {"infinitivo":"impresionar","gerundio":["impresionando"], "participio":["impresionado"]},
   "formas_personales": {
     "IndPres": {"s1":["impresiono"],"s2":["impresionas"],"vos":["impresionás"],"s3":["impresiona"],"p1":["impresionamos"],"p2":["impresionáis"],"p3":["impresionan"]},
     "IndImp": {"s1":["impresionaba"],"s2":["impresionabas"],"vos":["impresionabas"],"s3":["impresionaba"],"p1":["impresionábamos"],"p2":["impresionabais"],"p3":["impresionaban"]},

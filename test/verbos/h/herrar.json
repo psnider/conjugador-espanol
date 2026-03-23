@@ -6,7 +6,7 @@
     "etimologia": "De hierro (del latín ferrum) y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"herrar","gerundio":"herrando","participio":"herrado"},
+  "formas_no_personales": {"infinitivo":"herrar","gerundio":["herrando"], "participio":["herrado"]},
   "formas_personales": {
     "IndPres": {"s1":["hierro"],"s2":["hierras"],"vos":["herrás"],"s3":["hierra"],"p1":["herramos"],"p2":["herráis"],"p3":["hierran"]},
     "IndImp": {"s1":["herraba"],"s2":["herrabas"],"vos":["herrabas"],"s3":["herraba"],"p1":["herrábamos"],"p2":["herrabais"],"p3":["herraban"]},

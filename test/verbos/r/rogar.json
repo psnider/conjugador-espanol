@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo rogar ('rogar'), y este del latín rogāre&nbsp;('pedir').",
     "modelos": ["llegar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"rogar","gerundio":"rogando","participio":"rogado"},
+  "formas_no_personales": {"infinitivo":"rogar","gerundio":["rogando"], "participio":["rogado"]},
   "formas_personales": {
     "IndPres": {"s1":["ruego"],"s2":["ruegas"],"vos":["rogás"],"s3":["ruega"],"p1":["rogamos"],"p2":["rogáis"],"p3":["ruegan"]},
     "IndImp": {"s1":["rogaba"],"s2":["rogabas"],"vos":["rogabas"],"s3":["rogaba"],"p1":["rogábamos"],"p2":["rogabais"],"p3":["rogaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"divertir","gerundio":"divirtiendo","participio":"divertido"},
+  "formas_no_personales": {"infinitivo":"divertir","gerundio":["divirtiendo"], "participio":["divertido"]},
   "formas_personales": {
     "IndPres": {"s1":["divierto"],"s2":["diviertes"],"vos":["divertís"],"s3":["divierte"],"p1":["divertimos"],"p2":["divertís"],"p3":["divierten"]},
     "IndImp": {"s1":["divertía"],"s2":["divertías"],"vos":["divertías"],"s3":["divertía"],"p1":["divertíamos"],"p2":["divertíais"],"p3":["divertían"]},

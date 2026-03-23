@@ -6,7 +6,7 @@
     "etimologia": "Del latín suspendĕre, y este de sus- y pendere, del protoindoeuropeo *(s)pen(d)-.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"suspender","gerundio":"suspendiendo","participio":"suspendido"},
+  "formas_no_personales": {"infinitivo":"suspender","gerundio":["suspendiendo"], "participio":["suspendido"]},
   "formas_personales": {
     "IndPres": {"s1":["suspendo"],"s2":["suspendes"],"vos":["suspendés"],"s3":["suspende"],"p1":["suspendemos"],"p2":["suspendéis"],"p3":["suspenden"]},
     "IndImp": {"s1":["suspendía"],"s2":["suspendías"],"vos":["suspendías"],"s3":["suspendía"],"p1":["suspendíamos"],"p2":["suspendíais"],"p3":["suspendían"]},

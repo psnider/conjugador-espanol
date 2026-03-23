@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *mattāre, del latín medieval inicial mactāre ('sacrificar, inmolar'). Otros autores descreen de este étimo, fundamentalmente debido a la mutación inesperada del grupo -ct- a -tt-. Según Corominas, debemos remitirnos a la voz mattus ('embrutecido'), con una distancia semántica muy grande. Yakov Makiel propuso un *mattiāre, verbo formado a partir de *mattea (maza), que según él es lo que mejor se ajusta a las leyes de evolución fonética, pero no hay evidencia que apoye una reconstrucción por esta vía al comparar otras lenguas romances. Por último, hay otras teorías que postulan un origen árabe del término, pero siendo éste de uso tan temprano y elemental es difícil creer que tuviera un origen tan remoto.[1][2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"matar","gerundio":"matando","participio":"matado"},
+  "formas_no_personales": {"infinitivo":"matar","gerundio":["matando"], "participio":["matado"]},
   "formas_personales": {
     "IndPres": {"s1":["mato"],"s2":["matas"],"vos":["matás"],"s3":["mata"],"p1":["matamos"],"p2":["matáis"],"p3":["matan"]},
     "IndImp": {"s1":["mataba"],"s2":["matabas"],"vos":["matabas"],"s3":["mataba"],"p1":["matábamos"],"p2":["matabais"],"p3":["mataban"]},

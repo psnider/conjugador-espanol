@@ -6,7 +6,7 @@
     "etimologia": "Del latín differre (\"separar, apartar, llevarse\"), compuesto de dis-&nbsp;('lejos') y ferre&nbsp;('llevar')",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"diferir","gerundio":"difiriendo","participio":"diferido"},
+  "formas_no_personales": {"infinitivo":"diferir","gerundio":["difiriendo"], "participio":["diferido"]},
   "formas_personales": {
     "IndPres": {"s1":["difiero"],"s2":["difieres"],"vos":["diferís"],"s3":["difiere"],"p1":["diferimos"],"p2":["diferís"],"p3":["difieren"]},
     "IndImp": {"s1":["difería"],"s2":["diferías"],"vos":["diferías"],"s3":["difería"],"p1":["diferíamos"],"p2":["diferíais"],"p3":["diferían"]},

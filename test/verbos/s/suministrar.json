@@ -6,7 +6,7 @@
     "etimologia": "Del latín subministrāre ('dar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"suministrar","gerundio":"suministrando","participio":"suministrado"},
+  "formas_no_personales": {"infinitivo":"suministrar","gerundio":["suministrando"], "participio":["suministrado"]},
   "formas_personales": {
     "IndPres": {"s1":["suministro"],"s2":["suministras"],"vos":["suministrás"],"s3":["suministra"],"p1":["suministramos"],"p2":["suministráis"],"p3":["suministran"]},
     "IndImp": {"s1":["suministraba"],"s2":["suministrabas"],"vos":["suministrabas"],"s3":["suministraba"],"p1":["suministrábamos"],"p2":["suministrabais"],"p3":["suministraban"]},

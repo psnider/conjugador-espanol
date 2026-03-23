@@ -6,7 +6,7 @@
     "etimologia": "Del latín revēlō, revēlāre ('mostrar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"revelar","gerundio":"revelando","participio":"revelado"},
+  "formas_no_personales": {"infinitivo":"revelar","gerundio":["revelando"], "participio":["revelado"]},
   "formas_personales": {
     "IndPres": {"s1":["revelo"],"s2":["revelas"],"vos":["revelás"],"s3":["revela"],"p1":["revelamos"],"p2":["reveláis"],"p3":["revelan"]},
     "IndImp": {"s1":["revelaba"],"s2":["revelabas"],"vos":["revelabas"],"s3":["revelaba"],"p1":["revelábamos"],"p2":["revelabais"],"p3":["revelaban"]},

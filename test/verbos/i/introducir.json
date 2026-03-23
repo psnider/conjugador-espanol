@@ -6,7 +6,7 @@
     "etimologia": "Del latín introducere.",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"introducir","gerundio":"introduciendo","participio":"introducido"},
+  "formas_no_personales": {"infinitivo":"introducir","gerundio":["introduciendo"], "participio":["introducido"]},
   "formas_personales": {
     "IndPres": {"s1":["introduzco"],"s2":["introduces"],"vos":["introducís"],"s3":["introduce"],"p1":["introducimos"],"p2":["introducís"],"p3":["introducen"]},
     "IndImp": {"s1":["introducía"],"s2":["introducías"],"vos":["introducías"],"s3":["introducía"],"p1":["introducíamos"],"p2":["introducíais"],"p3":["introducían"]},

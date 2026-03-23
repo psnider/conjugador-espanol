@@ -6,7 +6,7 @@
     "etimologia": "Del latín occupare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ocupar","gerundio":"ocupando","participio":"ocupado"},
+  "formas_no_personales": {"infinitivo":"ocupar","gerundio":["ocupando"], "participio":["ocupado"]},
   "formas_personales": {
     "IndPres": {"s1":["ocupo"],"s2":["ocupas"],"vos":["ocupás"],"s3":["ocupa"],"p1":["ocupamos"],"p2":["ocupáis"],"p3":["ocupan"]},
     "IndImp": {"s1":["ocupaba"],"s2":["ocupabas"],"vos":["ocupabas"],"s3":["ocupaba"],"p1":["ocupábamos"],"p2":["ocupabais"],"p3":["ocupaban"]},

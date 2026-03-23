@@ -6,7 +6,7 @@
     "etimologia": "De útil y el sufijo -izar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"utilizar","gerundio":"utilizando","participio":"utilizado"},
+  "formas_no_personales": {"infinitivo":"utilizar","gerundio":["utilizando"], "participio":["utilizado"]},
   "formas_personales": {
     "IndPres": {"s1":["utilizo"],"s2":["utilizas"],"vos":["utilizás"],"s3":["utiliza"],"p1":["utilizamos"],"p2":["utilizáis"],"p3":["utilizan"]},
     "IndImp": {"s1":["utilizaba"],"s2":["utilizabas"],"vos":["utilizabas"],"s3":["utilizaba"],"p1":["utilizábamos"],"p2":["utilizabais"],"p3":["utilizaban"]},

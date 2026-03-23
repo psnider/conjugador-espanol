@@ -6,7 +6,7 @@
     "etimologia": "Del latín parāre ('preparar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"parar","gerundio":"parando","participio":"parado"},
+  "formas_no_personales": {"infinitivo":"parar","gerundio":["parando"], "participio":["parado"]},
   "formas_personales": {
     "IndPres": {"s1":["paro"],"s2":["paras"],"vos":["parás"],"s3":["para"],"p1":["paramos"],"p2":["paráis"],"p3":["paran"]},
     "IndImp": {"s1":["paraba"],"s2":["parabas"],"vos":["parabas"],"s3":["paraba"],"p1":["parábamos"],"p2":["parabais"],"p3":["paraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín submittĕre , del prefijo sub-&nbsp;('debajo') y el verbo mittere (\"soltar\",\"enviar\")",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"someter","gerundio":"sometiendo","participio":"sometido"},
+  "formas_no_personales": {"infinitivo":"someter","gerundio":["sometiendo"], "participio":["sometido"]},
   "formas_personales": {
     "IndPres": {"s1":["someto"],"s2":["sometes"],"vos":["sometés"],"s3":["somete"],"p1":["sometemos"],"p2":["sometéis"],"p3":["someten"]},
     "IndImp": {"s1":["sometía"],"s2":["sometías"],"vos":["sometías"],"s3":["sometía"],"p1":["sometíamos"],"p2":["sometíais"],"p3":["sometían"]},

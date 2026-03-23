@@ -6,7 +6,7 @@
     "etimologia": "Del latín capācitās.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"capacitar","gerundio":"capacitando","participio":"capacitado"},
+  "formas_no_personales": {"infinitivo":"capacitar","gerundio":["capacitando"], "participio":["capacitado"]},
   "formas_personales": {
     "IndPres": {"s1":["capacito"],"s2":["capacitas"],"vos":["capacitás"],"s3":["capacita"],"p1":["capacitamos"],"p2":["capacitáis"],"p3":["capacitan"]},
     "IndImp": {"s1":["capacitaba"],"s2":["capacitabas"],"vos":["capacitabas"],"s3":["capacitaba"],"p1":["capacitábamos"],"p2":["capacitabais"],"p3":["capacitaban"]},

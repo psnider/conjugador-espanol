@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"restaurar","gerundio":"restaurando","participio":"restaurado"},
+  "formas_no_personales": {"infinitivo":"restaurar","gerundio":["restaurando"], "participio":["restaurado"]},
   "formas_personales": {
     "IndPres": {"s1":["restauro"],"s2":["restauras"],"vos":["restaurás"],"s3":["restaura"],"p1":["restauramos"],"p2":["restauráis"],"p3":["restauran"]},
     "IndImp": {"s1":["restauraba"],"s2":["restaurabas"],"vos":["restaurabas"],"s3":["restauraba"],"p1":["restaurábamos"],"p2":["restaurabais"],"p3":["restauraban"]},

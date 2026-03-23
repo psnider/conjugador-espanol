@@ -6,7 +6,7 @@
     "etimologia": "Del latín convertĕre ('volver completamente').",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"convertir","gerundio":"convirtiendo","participio":"convertido"},
+  "formas_no_personales": {"infinitivo":"convertir","gerundio":["convirtiendo"], "participio":["convertido"]},
   "formas_personales": {
     "IndPres": {"s1":["convierto"],"s2":["conviertes"],"vos":["convertís"],"s3":["convierte"],"p1":["convertimos"],"p2":["convertís"],"p3":["convierten"]},
     "IndImp": {"s1":["convertía"],"s2":["convertías"],"vos":["convertías"],"s3":["convertía"],"p1":["convertíamos"],"p2":["convertíais"],"p3":["convertían"]},

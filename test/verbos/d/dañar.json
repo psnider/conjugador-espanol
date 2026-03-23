@@ -6,7 +6,7 @@
     "etimologia": "Del latín damnare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dañar","gerundio":"dañando","participio":"dañado"},
+  "formas_no_personales": {"infinitivo":"dañar","gerundio":["dañando"], "participio":["dañado"]},
   "formas_personales": {
     "IndPres": {"s1":["daño"],"s2":["dañas"],"vos":["dañás"],"s3":["daña"],"p1":["dañamos"],"p2":["dañáis"],"p3":["dañan"]},
     "IndImp": {"s1":["dañaba"],"s2":["dañabas"],"vos":["dañabas"],"s3":["dañaba"],"p1":["dañábamos"],"p2":["dañabais"],"p3":["dañaban"]},

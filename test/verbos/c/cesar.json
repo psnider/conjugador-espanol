@@ -6,7 +6,7 @@
     "etimologia": "Del latín cessāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cesar","gerundio":"cesando","participio":"cesado"},
+  "formas_no_personales": {"infinitivo":"cesar","gerundio":["cesando"], "participio":["cesado"]},
   "formas_personales": {
     "IndPres": {"s1":["ceso"],"s2":["cesas"],"vos":["cesás"],"s3":["cesa"],"p1":["cesamos"],"p2":["cesáis"],"p3":["cesan"]},
     "IndImp": {"s1":["cesaba"],"s2":["cesabas"],"vos":["cesabas"],"s3":["cesaba"],"p1":["cesábamos"],"p2":["cesabais"],"p3":["cesaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín invitare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"invitar","gerundio":"invitando","participio":"invitado"},
+  "formas_no_personales": {"infinitivo":"invitar","gerundio":["invitando"], "participio":["invitado"]},
   "formas_personales": {
     "IndPres": {"s1":["invito"],"s2":["invitas"],"vos":["invitás"],"s3":["invita"],"p1":["invitamos"],"p2":["invitáis"],"p3":["invitan"]},
     "IndImp": {"s1":["invitaba"],"s2":["invitabas"],"vos":["invitabas"],"s3":["invitaba"],"p1":["invitábamos"],"p2":["invitabais"],"p3":["invitaban"]},

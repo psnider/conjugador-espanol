@@ -6,7 +6,7 @@
     "etimologia": "Del latín capitāre, del latín captare («coger»).",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"cazar","gerundio":"cazando","participio":"cazado"},
+  "formas_no_personales": {"infinitivo":"cazar","gerundio":["cazando"], "participio":["cazado"]},
   "formas_personales": {
     "IndPres": {"s1":["cazo"],"s2":["cazas"],"vos":["cazás"],"s3":["caza"],"p1":["cazamos"],"p2":["cazáis"],"p3":["cazan"]},
     "IndImp": {"s1":["cazaba"],"s2":["cazabas"],"vos":["cazabas"],"s3":["cazaba"],"p1":["cazábamos"],"p2":["cazabais"],"p3":["cazaban"]},

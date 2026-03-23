@@ -6,7 +6,7 @@
     "etimologia": "Del latín metīri.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"medir","gerundio":"midiendo","participio":"medido"},
+  "formas_no_personales": {"infinitivo":"medir","gerundio":["midiendo"], "participio":["medido"]},
   "formas_personales": {
     "IndPres": {"s1":["mido"],"s2":["mides"],"vos":["medís"],"s3":["mide"],"p1":["medimos"],"p2":["medís"],"p3":["miden"]},
     "IndImp": {"s1":["medía"],"s2":["medías"],"vos":["medías"],"s3":["medía"],"p1":["medíamos"],"p2":["medíais"],"p3":["medían"]},

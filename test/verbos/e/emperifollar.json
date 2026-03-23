@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"emperifollar","gerundio":"emperifollando","participio":"emperifollado"},
+  "formas_no_personales": {"infinitivo":"emperifollar","gerundio":["emperifollando"], "participio":["emperifollado"]},
   "formas_personales": {
     "IndPres": {"s1":["emperifollo"],"s2":["emperifollas"],"vos":["emperifollás"],"s3":["emperifolla"],"p1":["emperifollamos"],"p2":["emperifolláis"],"p3":["emperifollan"]},
     "IndImp": {"s1":["emperifollaba"],"s2":["emperifollabas"],"vos":["emperifollabas"],"s3":["emperifollaba"],"p1":["emperifollábamos"],"p2":["emperifollabais"],"p3":["emperifollaban"]},

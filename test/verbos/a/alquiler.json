@@ -7,7 +7,7 @@
     "modelos": ["amar"],
     "regional": ["rioplatense", "AR", "UY", "PY"]
   },
-  "formas_no_personales": {"infinitivo":"alquilar","gerundio":"alquilando","participio":"alquilado"},
+  "formas_no_personales": {"infinitivo":"alquilar","gerundio":["alquilando"], "participio":["alquilado"]},
 "formas_personales": {
     "IndPres": {"s1":["alquiler"],"s2":["alquileres"],"vos":["alquilerés"],"s3":["alquiler"],"p1":["alquileremos"],"p2":["alquiléis"],"p3":["alquileren"]},
     "IndImp": {"s1":["alquilía"],"s2":["alquilías"],"vos":["alquilías"],"s3":["alquilía"],"p1":["alquilíamos"],"p2":["alquilíais"],"p3":["alquilían"]},

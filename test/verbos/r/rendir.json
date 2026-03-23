@@ -6,7 +6,7 @@
     "etimologia": "Del latín reddere.[1]",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"rendir","gerundio":"rindiendo","participio":"rendido"},
+  "formas_no_personales": {"infinitivo":"rendir","gerundio":["rindiendo"], "participio":["rendido"]},
   "formas_personales": {
     "IndPres": {"s1":["rindo"],"s2":["rindes"],"vos":["rendís"],"s3":["rinde"],"p1":["rendimos"],"p2":["rendís"],"p3":["rinden"]},
     "IndImp": {"s1":["rendía"],"s2":["rendías"],"vos":["rendías"],"s3":["rendía"],"p1":["rendíamos"],"p2":["rendíais"],"p3":["rendían"]},

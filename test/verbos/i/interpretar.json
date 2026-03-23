@@ -6,7 +6,7 @@
     "etimologia": "Del latín interpretārī, y este del latín interpres.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"interpretar","gerundio":"interpretando","participio":"interpretado"},
+  "formas_no_personales": {"infinitivo":"interpretar","gerundio":["interpretando"], "participio":["interpretado"]},
   "formas_personales": {
     "IndPres": {"s1":["interpreto"],"s2":["interpretas"],"vos":["interpretás"],"s3":["interpreta"],"p1":["interpretamos"],"p2":["interpretáis"],"p3":["interpretan"]},
     "IndImp": {"s1":["interpretaba"],"s2":["interpretabas"],"vos":["interpretabas"],"s3":["interpretaba"],"p1":["interpretábamos"],"p2":["interpretabais"],"p3":["interpretaban"]},

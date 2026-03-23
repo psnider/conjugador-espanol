@@ -6,7 +6,7 @@
     "etimologia": "de solución",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"solucionar","gerundio":"solucionando","participio":"solucionado"},
+  "formas_no_personales": {"infinitivo":"solucionar","gerundio":["solucionando"], "participio":["solucionado"]},
   "formas_personales": {
     "IndPres": {"s1":["soluciono"],"s2":["solucionas"],"vos":["solucionás"],"s3":["soluciona"],"p1":["solucionamos"],"p2":["solucionáis"],"p3":["solucionan"]},
     "IndImp": {"s1":["solucionaba"],"s2":["solucionabas"],"vos":["solucionabas"],"s3":["solucionaba"],"p1":["solucionábamos"],"p2":["solucionabais"],"p3":["solucionaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín succedĕre.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"suceder","gerundio":"sucediendo","participio":"sucedido"},
+  "formas_no_personales": {"infinitivo":"suceder","gerundio":["sucediendo"], "participio":["sucedido"]},
   "formas_personales": {
     "IndPres": {"s1":["sucedo"],"s2":["sucedes"],"vos":["sucedés"],"s3":["sucede"],"p1":["sucedemos"],"p2":["sucedéis"],"p3":["suceden"]},
     "IndImp": {"s1":["sucedía"],"s2":["sucedías"],"vos":["sucedías"],"s3":["sucedía"],"p1":["sucedíamos"],"p2":["sucedíais"],"p3":["sucedían"]},

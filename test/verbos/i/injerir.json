@@ -6,7 +6,7 @@
     "etimologia": "Del latín īnsero, īnserere ('introducir').[1]",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"injerir","gerundio":"injiriendo","participio":"injerido"},
+  "formas_no_personales": {"infinitivo":"injerir","gerundio":["injiriendo"], "participio":["injerido"]},
   "formas_personales": {
     "IndPres": {"s1":["injiero"],"s2":["injieres"],"vos":["injerís"],"s3":["injiere"],"p1":["injerimos"],"p2":["injerís"],"p3":["injieren"]},
     "IndImp": {"s1":["injería"],"s2":["injerías"],"vos":["injerías"],"s3":["injería"],"p1":["injeríamos"],"p2":["injeríais"],"p3":["injerían"]},

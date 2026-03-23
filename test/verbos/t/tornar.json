@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo tornar ('tornar'), y este del latín tornāre&nbsp;('tornear').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tornar","gerundio":"tornando","participio":"tornado"},
+  "formas_no_personales": {"infinitivo":"tornar","gerundio":["tornando"], "participio":["tornado"]},
   "formas_personales": {
     "IndPres": {"s1":["torno"],"s2":["tornas"],"vos":["tornás"],"s3":["torna"],"p1":["tornamos"],"p2":["tornáis"],"p3":["tornan"]},
     "IndImp": {"s1":["tornaba"],"s2":["tornabas"],"vos":["tornabas"],"s3":["tornaba"],"p1":["tornábamos"],"p2":["tornabais"],"p3":["tornaban"]},

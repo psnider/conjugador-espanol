@@ -6,7 +6,7 @@
     "etimologia": "Del francés antiguo adober (\"nombrar caballero, equipar\"), y este del fráncico *dubban (\"golpear, empujar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"adobar","gerundio":"adobando","participio":"adobado"},
+  "formas_no_personales": {"infinitivo":"adobar","gerundio":["adobando"], "participio":["adobado"]},
   "formas_personales": {
     "IndPres": {"s1":["adobo"],"s2":["adobas"],"vos":["adobás"],"s3":["adoba"],"p1":["adobamos"],"p2":["adobáis"],"p3":["adoban"]},
     "IndImp": {"s1":["adobaba"],"s2":["adobabas"],"vos":["adobabas"],"s3":["adobaba"],"p1":["adobábamos"],"p2":["adobabais"],"p3":["adobaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín mordēre.",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"morder","gerundio":"mordiendo","participio":"mordido"},
+  "formas_no_personales": {"infinitivo":"morder","gerundio":["mordiendo"], "participio":["mordido"]},
   "formas_personales": {
     "IndPres": {"s1":["muerdo"],"s2":["muerdes"],"vos":["mordés"],"s3":["muerde"],"p1":["mordemos"],"p2":["mordéis"],"p3":["muerden"]},
     "IndImp": {"s1":["mordía"],"s2":["mordías"],"vos":["mordías"],"s3":["mordía"],"p1":["mordíamos"],"p2":["mordíais"],"p3":["mordían"]},

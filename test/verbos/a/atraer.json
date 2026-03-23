@@ -6,7 +6,7 @@
     "etimologia": "Del latín attrahĕre.",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"atraer","gerundio":"atrayendo","participio":"atraído"},
+  "formas_no_personales": {"infinitivo":"atraer","gerundio":["atrayendo"], "participio":["atraído"]},
   "formas_personales": {
     "IndPres": {"s1":["atraigo"],"s2":["atraes"],"vos":["atraés"],"s3":["atrae"],"p1":["atraemos"],"p2":["atraéis"],"p3":["atraen"]},
     "IndImp": {"s1":["atraía"],"s2":["atraías"],"vos":["atraías"],"s3":["atraía"],"p1":["atraíamos"],"p2":["atraíais"],"p3":["atraían"]},

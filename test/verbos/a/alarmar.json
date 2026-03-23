@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alarmar","gerundio":"alarmando","participio":"alarmado"},
+  "formas_no_personales": {"infinitivo":"alarmar","gerundio":["alarmando"], "participio":["alarmado"]},
   "formas_personales": {
     "IndPres": {"s1":["alarmo"],"s2":["alarmas"],"vos":["alarmás"],"s3":["alarma"],"p1":["alarmamos"],"p2":["alarmáis"],"p3":["alarman"]},
     "IndImp": {"s1":["alarmaba"],"s2":["alarmabas"],"vos":["alarmabas"],"s3":["alarmaba"],"p1":["alarmábamos"],"p2":["alarmabais"],"p3":["alarmaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y punta.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"despuntar","gerundio":"despuntando","participio":"despuntado"},
+  "formas_no_personales": {"infinitivo":"despuntar","gerundio":["despuntando"], "participio":["despuntado"]},
   "formas_personales": {
     "IndPres": {"s1":["despunto"],"s2":["despuntas"],"vos":["despuntás"],"s3":["despunta"],"p1":["despuntamos"],"p2":["despuntáis"],"p3":["despuntan"]},
     "IndImp": {"s1":["despuntaba"],"s2":["despuntabas"],"vos":["despuntabas"],"s3":["despuntaba"],"p1":["despuntábamos"],"p2":["despuntabais"],"p3":["despuntaban"]},

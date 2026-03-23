@@ -6,7 +6,7 @@
     "etimologia": "Del latín reverti ('volver')",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"revertir","gerundio":"revirtiendo","participio":"revertido"},
+  "formas_no_personales": {"infinitivo":"revertir","gerundio":["revirtiendo"], "participio":["revertido"]},
   "formas_personales": {
     "IndPres": {"s1":["revierto"],"s2":["reviertes"],"vos":["revertís"],"s3":["revierte"],"p1":["revertimos"],"p2":["revertís"],"p3":["revierten"]},
     "IndImp": {"s1":["revertía"],"s2":["revertías"],"vos":["revertías"],"s3":["revertía"],"p1":["revertíamos"],"p2":["revertíais"],"p3":["revertían"]},

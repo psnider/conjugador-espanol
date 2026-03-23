@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1141.[1] Del latín alterō, alterāre, derivado del latín alter.[2] De allí también altercar y alternar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alterar","gerundio":"alterando","participio":"alterado"},
+  "formas_no_personales": {"infinitivo":"alterar","gerundio":["alterando"], "participio":["alterado"]},
   "formas_personales": {
     "IndPres": {"s1":["altero"],"s2":["alteras"],"vos":["alterás"],"s3":["altera"],"p1":["alteramos"],"p2":["alteráis"],"p3":["alteran"]},
     "IndImp": {"s1":["alteraba"],"s2":["alterabas"],"vos":["alterabas"],"s3":["alteraba"],"p1":["alterábamos"],"p2":["alterabais"],"p3":["alteraban"]},

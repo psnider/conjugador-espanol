@@ -6,7 +6,7 @@
     "etimologia": "Del francés frotter",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"frotar","gerundio":"frotando","participio":"frotado"},
+  "formas_no_personales": {"infinitivo":"frotar","gerundio":["frotando"], "participio":["frotado"]},
   "formas_personales": {
     "IndPres": {"s1":["froto"],"s2":["frotas"],"vos":["frotás"],"s3":["frota"],"p1":["frotamos"],"p2":["frotáis"],"p3":["frotan"]},
     "IndImp": {"s1":["frotaba"],"s2":["frotabas"],"vos":["frotabas"],"s3":["frotaba"],"p1":["frotábamos"],"p2":["frotabais"],"p3":["frotaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De largo y el sufijo -ar.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"largar","gerundio":"largando","participio":"largado"},
+  "formas_no_personales": {"infinitivo":"largar","gerundio":["largando"], "participio":["largado"]},
   "formas_personales": {
     "IndPres": {"s1":["largo"],"s2":["largas"],"vos":["largás"],"s3":["larga"],"p1":["largamos"],"p2":["largáis"],"p3":["largan"]},
     "IndImp": {"s1":["largaba"],"s2":["largabas"],"vos":["largabas"],"s3":["largaba"],"p1":["largábamos"],"p2":["largabais"],"p3":["largaban"]},

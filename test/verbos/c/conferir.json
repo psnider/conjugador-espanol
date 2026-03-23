@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnferō.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"conferir","gerundio":"confiriendo","participio":"conferido"},
+  "formas_no_personales": {"infinitivo":"conferir","gerundio":["confiriendo"], "participio":["conferido"]},
   "formas_personales": {
     "IndPres": {"s1":["confiero"],"s2":["confieres"],"vos":["conferís"],"s3":["confiere"],"p1":["conferimos"],"p2":["conferís"],"p3":["confieren"]},
     "IndImp": {"s1":["confería"],"s2":["conferías"],"vos":["conferías"],"s3":["confería"],"p1":["conferíamos"],"p2":["conferíais"],"p3":["conferían"]},

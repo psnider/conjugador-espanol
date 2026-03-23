@@ -6,7 +6,7 @@
     "etimologia": "Del latín *cominitiare.[1] Compárese el gallego comezar, catalán començar, portugués começar, italiano cominciare, francés commencer.",
     "modelos": ["realizar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"comenzar","gerundio":"comenzando","participio":"comenzado"},
+  "formas_no_personales": {"infinitivo":"comenzar","gerundio":["comenzando"], "participio":["comenzado"]},
   "formas_personales": {
     "IndPres": {"s1":["comienzo"],"s2":["comienzas"],"vos":["comenzás"],"s3":["comienza"],"p1":["comenzamos"],"p2":["comenzáis"],"p3":["comienzan"]},
     "IndImp": {"s1":["comenzaba"],"s2":["comenzabas"],"vos":["comenzabas"],"s3":["comenzaba"],"p1":["comenzábamos"],"p2":["comenzabais"],"p3":["comenzaban"]},

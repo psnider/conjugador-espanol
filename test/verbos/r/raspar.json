@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *raspāre, del fráncico *hraspōn, del protogermánico *hraspōną, hrespaną.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"raspar","gerundio":"raspando","participio":"raspado"},
+  "formas_no_personales": {"infinitivo":"raspar","gerundio":["raspando"], "participio":["raspado"]},
   "formas_personales": {
     "IndPres": {"s1":["raspo"],"s2":["raspas"],"vos":["raspás"],"s3":["raspa"],"p1":["raspamos"],"p2":["raspáis"],"p3":["raspan"]},
     "IndImp": {"s1":["raspaba"],"s2":["raspabas"],"vos":["raspabas"],"s3":["raspaba"],"p1":["raspábamos"],"p2":["raspabais"],"p3":["raspaban"]},

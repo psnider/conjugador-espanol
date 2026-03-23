@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"meditar","gerundio":"meditando","participio":"meditado"},
+  "formas_no_personales": {"infinitivo":"meditar","gerundio":["meditando"], "participio":["meditado"]},
   "formas_personales": {
     "IndPres": {"s1":["medito"],"s2":["meditas"],"vos":["meditás"],"s3":["medita"],"p1":["meditamos"],"p2":["meditáis"],"p3":["meditan"]},
     "IndImp": {"s1":["meditaba"],"s2":["meditabas"],"vos":["meditabas"],"s3":["meditaba"],"p1":["meditábamos"],"p2":["meditabais"],"p3":["meditaban"]},

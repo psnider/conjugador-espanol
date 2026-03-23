@@ -6,7 +6,7 @@
     "etimologia": "De despierto",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"despertar","gerundio":"despertando","participio":"despertado"},
+  "formas_no_personales": {"infinitivo":"despertar","gerundio":["despertando"], "participio":["despertado"]},
   "formas_personales": {
     "IndPres": {"s1":["despierto"],"s2":["despiertas"],"vos":["despertás"],"s3":["despierta"],"p1":["despertamos"],"p2":["despertáis"],"p3":["despiertan"]},
     "IndImp": {"s1":["despertaba"],"s2":["despertabas"],"vos":["despertabas"],"s3":["despertaba"],"p1":["despertábamos"],"p2":["despertabais"],"p3":["despertaban"]},

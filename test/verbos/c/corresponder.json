@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo co- y responder",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"corresponder","gerundio":"correspondiendo","participio":"correspondido"},
+  "formas_no_personales": {"infinitivo":"corresponder","gerundio":["correspondiendo"], "participio":["correspondido"]},
   "formas_personales": {
     "IndPres": {"s1":["correspondo"],"s2":["correspondes"],"vos":["correspondés"],"s3":["corresponde"],"p1":["correspondemos"],"p2":["correspondéis"],"p3":["corresponden"]},
     "IndImp": {"s1":["correspondía"],"s2":["correspondías"],"vos":["correspondías"],"s3":["correspondía"],"p1":["correspondíamos"],"p2":["correspondíais"],"p3":["correspondían"]},

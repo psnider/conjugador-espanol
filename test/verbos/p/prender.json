@@ -6,7 +6,7 @@
     "etimologia": "Del latín prehendere ('atrapar, agarrar').",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"prender","gerundio":"prendiendo","participio":"prendido"},
+  "formas_no_personales": {"infinitivo":"prender","gerundio":["prendiendo"], "participio":["prendido"]},
   "formas_personales": {
     "IndPres": {"s1":["prendo"],"s2":["prendes"],"vos":["prendés"],"s3":["prende"],"p1":["prendemos"],"p2":["prendéis"],"p3":["prenden"]},
     "IndImp": {"s1":["prendía"],"s2":["prendías"],"vos":["prendías"],"s3":["prendía"],"p1":["prendíamos"],"p2":["prendíais"],"p3":["prendían"]},

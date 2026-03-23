@@ -6,7 +6,7 @@
     "etimologia": "Del italiano impattare (acabar iguales, sin ganar ni perder)",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"empatar","gerundio":"empatando","participio":"empatado"},
+  "formas_no_personales": {"infinitivo":"empatar","gerundio":["empatando"], "participio":["empatado"]},
   "formas_personales": {
     "IndPres": {"s1":["empato"],"s2":["empatas"],"vos":["empatás"],"s3":["empata"],"p1":["empatamos"],"p2":["empatáis"],"p3":["empatan"]},
     "IndImp": {"s1":["empataba"],"s2":["empatabas"],"vos":["empatabas"],"s3":["empataba"],"p1":["empatábamos"],"p2":["empatabais"],"p3":["empataban"]},

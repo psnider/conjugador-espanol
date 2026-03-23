@@ -6,7 +6,7 @@
     "etimologia": "Del latín fundĕre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"fundir","gerundio":"fundiendo","participio":"fundido"},
+  "formas_no_personales": {"infinitivo":"fundir","gerundio":["fundiendo"], "participio":["fundido"]},
   "formas_personales": {
     "IndPres": {"s1":["fundo"],"s2":["fundes"],"vos":["fundís"],"s3":["funde"],"p1":["fundimos"],"p2":["fundís"],"p3":["funden"]},
     "IndImp": {"s1":["fundía"],"s2":["fundías"],"vos":["fundías"],"s3":["fundía"],"p1":["fundíamos"],"p2":["fundíais"],"p3":["fundían"]},

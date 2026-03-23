@@ -6,7 +6,7 @@
     "etimologia": "Del latín rotare.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"rodar","gerundio":"rodando","participio":"rodado"},
+  "formas_no_personales": {"infinitivo":"rodar","gerundio":["rodando"], "participio":["rodado"]},
   "formas_personales": {
     "IndPres": {"s1":["ruedo"],"s2":["ruedas"],"vos":["rodás"],"s3":["rueda"],"p1":["rodamos"],"p2":["rodáis"],"p3":["ruedan"]},
     "IndImp": {"s1":["rodaba"],"s2":["rodabas"],"vos":["rodabas"],"s3":["rodaba"],"p1":["rodábamos"],"p2":["rodabais"],"p3":["rodaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo sobre- y coger.",
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"sobrecoger","gerundio":"sobrecogiendo","participio":"sobrecogido"},
+  "formas_no_personales": {"infinitivo":"sobrecoger","gerundio":["sobrecogiendo"], "participio":["sobrecogido"]},
   "formas_personales": {
     "IndPres": {"s1":["sobrecojo"],"s2":["sobrecoges"],"vos":["sobrecogés"],"s3":["sobrecoge"],"p1":["sobrecogemos"],"p2":["sobrecogéis"],"p3":["sobrecogen"]},
     "IndImp": {"s1":["sobrecogía"],"s2":["sobrecogías"],"vos":["sobrecogías"],"s3":["sobrecogía"],"p1":["sobrecogíamos"],"p2":["sobrecogíais"],"p3":["sobrecogían"]},

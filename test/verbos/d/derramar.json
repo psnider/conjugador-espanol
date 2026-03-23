@@ -6,7 +6,7 @@
     "etimologia": "Atestiguado desde el siglo XVI.[1] Del prefijo de-, ramo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"derramar","gerundio":"derramando","participio":"derramado"},
+  "formas_no_personales": {"infinitivo":"derramar","gerundio":["derramando"], "participio":["derramado"]},
   "formas_personales": {
     "IndPres": {"s1":["derramo"],"s2":["derramas"],"vos":["derramás"],"s3":["derrama"],"p1":["derramamos"],"p2":["derramáis"],"p3":["derraman"]},
     "IndImp": {"s1":["derramaba"],"s2":["derramabas"],"vos":["derramabas"],"s3":["derramaba"],"p1":["derramábamos"],"p2":["derramabais"],"p3":["derramaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín mutāre ('cambiar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"mudar","gerundio":"mudando","participio":"mudado"},
+  "formas_no_personales": {"infinitivo":"mudar","gerundio":["mudando"], "participio":["mudado"]},
   "formas_personales": {
     "IndPres": {"s1":["mudo"],"s2":["mudas"],"vos":["mudás"],"s3":["muda"],"p1":["mudamos"],"p2":["mudáis"],"p3":["mudan"]},
     "IndImp": {"s1":["mudaba"],"s2":["mudabas"],"vos":["mudabas"],"s3":["mudaba"],"p1":["mudábamos"],"p2":["mudabais"],"p3":["mudaban"]},

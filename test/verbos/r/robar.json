@@ -6,7 +6,7 @@
     "etimologia": "Del latín tardío raubare ('saquear')[1], del protogermánico *raubōną, del protogermánico *raubō, del protogermánico *reufaną, del protoindoeuropeo *hₓréup-. Compárese el catalán robar, el francés rober, el italiano rubare, el portugués roubar, o el provenzal raubar. La misma raíz indoeuropea es el origen del español romper.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"robar","gerundio":"robando","participio":"robado"},
+  "formas_no_personales": {"infinitivo":"robar","gerundio":["robando"], "participio":["robado"]},
   "formas_personales": {
     "IndPres": {"s1":["robo"],"s2":["robas"],"vos":["robás"],"s3":["roba"],"p1":["robamos"],"p2":["robáis"],"p3":["roban"]},
     "IndImp": {"s1":["robaba"],"s2":["robabas"],"vos":["robabas"],"s3":["robaba"],"p1":["robábamos"],"p2":["robabais"],"p3":["robaban"]},

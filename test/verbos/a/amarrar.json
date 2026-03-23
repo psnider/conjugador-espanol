@@ -6,7 +6,7 @@
     "etimologia": "Del francés amarrer, y este del neerlandés anmarren&nbsp;('atar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"amarrar","gerundio":"amarrando","participio":"amarrado"},
+  "formas_no_personales": {"infinitivo":"amarrar","gerundio":["amarrando"], "participio":["amarrado"]},
   "formas_personales": {
     "IndPres": {"s1":["amarro"],"s2":["amarras"],"vos":["amarrás"],"s3":["amarra"],"p1":["amarramos"],"p2":["amarráis"],"p3":["amarran"]},
     "IndImp": {"s1":["amarraba"],"s2":["amarrabas"],"vos":["amarrabas"],"s3":["amarraba"],"p1":["amarrábamos"],"p2":["amarrabais"],"p3":["amarraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y rastrar, de rastro.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arrastrar","gerundio":"arrastrando","participio":"arrastrado"},
+  "formas_no_personales": {"infinitivo":"arrastrar","gerundio":["arrastrando"], "participio":["arrastrado"]},
   "formas_personales": {
     "IndPres": {"s1":["arrastro"],"s2":["arrastras"],"vos":["arrastrás"],"s3":["arrastra"],"p1":["arrastramos"],"p2":["arrastráis"],"p3":["arrastran"]},
     "IndImp": {"s1":["arrastraba"],"s2":["arrastrabas"],"vos":["arrastrabas"],"s3":["arrastraba"],"p1":["arrastrábamos"],"p2":["arrastrabais"],"p3":["arrastraban"]},

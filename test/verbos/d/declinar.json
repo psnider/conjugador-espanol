@@ -6,7 +6,7 @@
     "etimologia": "Del latín declinare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"declinar","gerundio":"declinando","participio":"declinado"},
+  "formas_no_personales": {"infinitivo":"declinar","gerundio":["declinando"], "participio":["declinado"]},
   "formas_personales": {
     "IndPres": {"s1":["declino"],"s2":["declinas"],"vos":["declinás"],"s3":["declina"],"p1":["declinamos"],"p2":["declináis"],"p3":["declinan"]},
     "IndImp": {"s1":["declinaba"],"s2":["declinabas"],"vos":["declinabas"],"s3":["declinaba"],"p1":["declinábamos"],"p2":["declinabais"],"p3":["declinaban"]},

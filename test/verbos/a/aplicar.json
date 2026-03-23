@@ -6,7 +6,7 @@
     "etimologia": "Del latín applicare ('arrimar').",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"aplicar","gerundio":"aplicando","participio":"aplicado"},
+  "formas_no_personales": {"infinitivo":"aplicar","gerundio":["aplicando"], "participio":["aplicado"]},
   "formas_personales": {
     "IndPres": {"s1":["aplico"],"s2":["aplicas"],"vos":["aplicás"],"s3":["aplica"],"p1":["aplicamos"],"p2":["aplicáis"],"p3":["aplican"]},
     "IndImp": {"s1":["aplicaba"],"s2":["aplicabas"],"vos":["aplicabas"],"s3":["aplicaba"],"p1":["aplicábamos"],"p2":["aplicabais"],"p3":["aplicaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"repasar","gerundio":"repasando","participio":"repasado"},
+  "formas_no_personales": {"infinitivo":"repasar","gerundio":["repasando"], "participio":["repasado"]},
   "formas_personales": {
     "IndPres": {"s1":["repaso"],"s2":["repasas"],"vos":["repasás"],"s3":["repasa"],"p1":["repasamos"],"p2":["repasáis"],"p3":["repasan"]},
     "IndImp": {"s1":["repasaba"],"s2":["repasabas"],"vos":["repasabas"],"s3":["repasaba"],"p1":["repasábamos"],"p2":["repasabais"],"p3":["repasaban"]},

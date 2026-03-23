@@ -6,7 +6,7 @@
     "etimologia": "De harto y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hartar","gerundio":"hartando","participio":"hartado"},
+  "formas_no_personales": {"infinitivo":"hartar","gerundio":["hartando"], "participio":["hartado"]},
   "formas_personales": {
     "IndPres": {"s1":["harto"],"s2":["hartas"],"vos":["hartás"],"s3":["harta"],"p1":["hartamos"],"p2":["hartáis"],"p3":["hartan"]},
     "IndImp": {"s1":["hartaba"],"s2":["hartabas"],"vos":["hartabas"],"s3":["hartaba"],"p1":["hartábamos"],"p2":["hartabais"],"p3":["hartaban"]},

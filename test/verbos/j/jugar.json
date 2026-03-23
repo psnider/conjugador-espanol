@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín iocari.",
     "modelos": ["llegar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"jugar","gerundio":"jugando","participio":"jugado"},
+  "formas_no_personales": {"infinitivo":"jugar","gerundio":["jugando"], "participio":["jugado"]},
   "formas_personales": {
     "IndPres": {"s1":["juego"],"s2":["juegas"],"vos":["jugás"],"s3":["juega"],"p1":["jugamos"],"p2":["jugáis"],"p3":["juegan"]},
     "IndImp": {"s1":["jugaba"],"s2":["jugabas"],"vos":["jugabas"],"s3":["jugaba"],"p1":["jugábamos"],"p2":["jugabais"],"p3":["jugaban"]},

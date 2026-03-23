@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y monte",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desmontar","gerundio":"desmontando","participio":"desmontado"},
+  "formas_no_personales": {"infinitivo":"desmontar","gerundio":["desmontando"], "participio":["desmontado"]},
   "formas_personales": {
     "IndPres": {"s1":["desmonto"],"s2":["desmontas"],"vos":["desmontás"],"s3":["desmonta"],"p1":["desmontamos"],"p2":["desmontáis"],"p3":["desmontan"]},
     "IndImp": {"s1":["desmontaba"],"s2":["desmontabas"],"vos":["desmontabas"],"s3":["desmontaba"],"p1":["desmontábamos"],"p2":["desmontabais"],"p3":["desmontaban"]},

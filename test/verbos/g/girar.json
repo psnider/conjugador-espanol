@@ -6,7 +6,7 @@
     "etimologia": "Del latín gyrare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"girar","gerundio":"girando","participio":"girado"},
+  "formas_no_personales": {"infinitivo":"girar","gerundio":["girando"], "participio":["girado"]},
   "formas_personales": {
     "IndPres": {"s1":["giro"],"s2":["giras"],"vos":["girás"],"s3":["gira"],"p1":["giramos"],"p2":["giráis"],"p3":["giran"]},
     "IndImp": {"s1":["giraba"],"s2":["girabas"],"vos":["girabas"],"s3":["giraba"],"p1":["girábamos"],"p2":["girabais"],"p3":["giraban"]},

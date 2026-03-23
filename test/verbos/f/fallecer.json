@@ -6,7 +6,7 @@
     "etimologia": "Del latín fallere.[1]",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"fallecer","gerundio":"falleciendo","participio":"fallecido"},
+  "formas_no_personales": {"infinitivo":"fallecer","gerundio":["falleciendo"], "participio":["fallecido"]},
   "formas_personales": {
     "IndPres": {"s1":["fallezco"],"s2":["falleces"],"vos":["fallecés"],"s3":["fallece"],"p1":["fallecemos"],"p2":["fallecéis"],"p3":["fallecen"]},
     "IndImp": {"s1":["fallecía"],"s2":["fallecías"],"vos":["fallecías"],"s3":["fallecía"],"p1":["fallecíamos"],"p2":["fallecíais"],"p3":["fallecían"]},

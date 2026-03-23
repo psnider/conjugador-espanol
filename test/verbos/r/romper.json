@@ -6,7 +6,7 @@
     "etimologia": "Del latín rumpere",
     "modelos": ["romper"]
   },
-  "formas_no_personales": {"infinitivo":"romper","gerundio":"rompiendo","participio":"roto"},
+  "formas_no_personales": {"infinitivo":"romper","gerundio":["rompiendo"], "participio":["roto"]},
   "formas_personales": {
     "IndPres": {"s1":["rompo"],"s2":["rompes"],"vos":["rompés"],"s3":["rompe"],"p1":["rompemos"],"p2":["rompéis"],"p3":["rompen"]},
     "IndImp": {"s1":["rompía"],"s2":["rompías"],"vos":["rompías"],"s3":["rompía"],"p1":["rompíamos"],"p2":["rompíais"],"p3":["rompían"]},

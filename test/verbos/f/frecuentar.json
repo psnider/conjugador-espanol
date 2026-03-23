@@ -6,7 +6,7 @@
     "etimologia": "Del latín frequentāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"frecuentar","gerundio":"frecuentando","participio":"frecuentado"},
+  "formas_no_personales": {"infinitivo":"frecuentar","gerundio":["frecuentando"], "participio":["frecuentado"]},
   "formas_personales": {
     "IndPres": {"s1":["frecuento"],"s2":["frecuentas"],"vos":["frecuentás"],"s3":["frecuenta"],"p1":["frecuentamos"],"p2":["frecuentáis"],"p3":["frecuentan"]},
     "IndImp": {"s1":["frecuentaba"],"s2":["frecuentabas"],"vos":["frecuentabas"],"s3":["frecuentaba"],"p1":["frecuentábamos"],"p2":["frecuentabais"],"p3":["frecuentaban"]},

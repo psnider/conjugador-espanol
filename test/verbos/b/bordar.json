@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bordar","gerundio":"bordando","participio":"bordado"},
+  "formas_no_personales": {"infinitivo":"bordar","gerundio":["bordando"], "participio":["bordado"]},
   "formas_personales": {
     "IndPres": {"s1":["bordo"],"s2":["bordas"],"vos":["bordás"],"s3":["borda"],"p1":["bordamos"],"p2":["bordáis"],"p3":["bordan"]},
     "IndImp": {"s1":["bordaba"],"s2":["bordabas"],"vos":["bordabas"],"s3":["bordaba"],"p1":["bordábamos"],"p2":["bordabais"],"p3":["bordaban"]},

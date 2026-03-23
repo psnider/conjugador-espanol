@@ -6,7 +6,7 @@
     "etimologia": "Del latín praesentiō, praesentīre, compuesto de prae&nbsp;('antes') y sentiō, sentīre (\"sentir (emociones), percibir, opinar\").",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"presentir","gerundio":"presintiendo","participio":"presentido"},
+  "formas_no_personales": {"infinitivo":"presentir","gerundio":["presintiendo"], "participio":["presentido"]},
   "formas_personales": {
     "IndPres": {"s1":["presiento"],"s2":["presientes"],"vos":["presentís"],"s3":["presiente"],"p1":["presentimos"],"p2":["presentís"],"p3":["presienten"]},
     "IndImp": {"s1":["presentía"],"s2":["presentías"],"vos":["presentías"],"s3":["presentía"],"p1":["presentíamos"],"p2":["presentíais"],"p3":["presentían"]},

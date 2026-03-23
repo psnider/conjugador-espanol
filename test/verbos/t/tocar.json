@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *toccāre, del fráncico *tukkōn o bien onomatopéyica.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"tocar","gerundio":"tocando","participio":"tocado"},
+  "formas_no_personales": {"infinitivo":"tocar","gerundio":["tocando"], "participio":["tocado"]},
   "formas_personales": {
     "IndPres": {"s1":["toco"],"s2":["tocas"],"vos":["tocás"],"s3":["toca"],"p1":["tocamos"],"p2":["tocáis"],"p3":["tocan"]},
     "IndImp": {"s1":["tocaba"],"s2":["tocabas"],"vos":["tocabas"],"s3":["tocaba"],"p1":["tocábamos"],"p2":["tocabais"],"p3":["tocaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reformar","gerundio":"reformando","participio":"reformado"},
+  "formas_no_personales": {"infinitivo":"reformar","gerundio":["reformando"], "participio":["reformado"]},
   "formas_personales": {
     "IndPres": {"s1":["reformo"],"s2":["reformas"],"vos":["reformás"],"s3":["reforma"],"p1":["reformamos"],"p2":["reformáis"],"p3":["reforman"]},
     "IndImp": {"s1":["reformaba"],"s2":["reformabas"],"vos":["reformabas"],"s3":["reformaba"],"p1":["reformábamos"],"p2":["reformabais"],"p3":["reformaban"]},

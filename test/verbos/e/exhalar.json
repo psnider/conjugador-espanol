@@ -6,7 +6,7 @@
     "etimologia": "Del latín exhālō, exhālāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"exhalar","gerundio":"exhalando","participio":"exhalado"},
+  "formas_no_personales": {"infinitivo":"exhalar","gerundio":["exhalando"], "participio":["exhalado"]},
   "formas_personales": {
     "IndPres": {"s1":["exhalo"],"s2":["exhalas"],"vos":["exhalás"],"s3":["exhala"],"p1":["exhalamos"],"p2":["exhaláis"],"p3":["exhalan"]},
     "IndImp": {"s1":["exhalaba"],"s2":["exhalabas"],"vos":["exhalabas"],"s3":["exhalaba"],"p1":["exhalábamos"],"p2":["exhalabais"],"p3":["exhalaban"]},

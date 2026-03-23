@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, consejo y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aconsejar","gerundio":"aconsejando","participio":"aconsejado"},
+  "formas_no_personales": {"infinitivo":"aconsejar","gerundio":["aconsejando"], "participio":["aconsejado"]},
   "formas_personales": {
     "IndPres": {"s1":["aconsejo"],"s2":["aconsejas"],"vos":["aconsejás"],"s3":["aconseja"],"p1":["aconsejamos"],"p2":["aconsejáis"],"p3":["aconsejan"]},
     "IndImp": {"s1":["aconsejaba"],"s2":["aconsejabas"],"vos":["aconsejabas"],"s3":["aconsejaba"],"p1":["aconsejábamos"],"p2":["aconsejabais"],"p3":["aconsejaban"]},

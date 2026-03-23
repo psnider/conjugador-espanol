@@ -6,7 +6,7 @@
     "etimologia": "Del latín irritare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"irritar","gerundio":"irritando","participio":"irritado"},
+  "formas_no_personales": {"infinitivo":"irritar","gerundio":["irritando"], "participio":["irritado"]},
   "formas_personales": {
     "IndPres": {"s1":["irrito"],"s2":["irritas"],"vos":["irritás"],"s3":["irrita"],"p1":["irritamos"],"p2":["irritáis"],"p3":["irritan"]},
     "IndImp": {"s1":["irritaba"],"s2":["irritabas"],"vos":["irritabas"],"s3":["irritaba"],"p1":["irritábamos"],"p2":["irritabais"],"p3":["irritaban"]},

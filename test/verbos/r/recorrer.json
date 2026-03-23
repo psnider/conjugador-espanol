@@ -6,7 +6,7 @@
     "etimologia": "Del latín recurrere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"recorrer","gerundio":"recorriendo","participio":"recorrido"},
+  "formas_no_personales": {"infinitivo":"recorrer","gerundio":["recorriendo"], "participio":["recorrido"]},
   "formas_personales": {
     "IndPres": {"s1":["recorro"],"s2":["recorres"],"vos":["recorrés"],"s3":["recorre"],"p1":["recorremos"],"p2":["recorréis"],"p3":["recorren"]},
     "IndImp": {"s1":["recorría"],"s2":["recorrías"],"vos":["recorrías"],"s3":["recorría"],"p1":["recorríamos"],"p2":["recorríais"],"p3":["recorrían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re-, zaga y el sufijo -ar.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"rezagar","gerundio":"rezagando","participio":"rezagado"},
+  "formas_no_personales": {"infinitivo":"rezagar","gerundio":["rezagando"], "participio":["rezagado"]},
   "formas_personales": {
     "IndPres": {"s1":["rezago"],"s2":["rezagas"],"vos":["rezagás"],"s3":["rezaga"],"p1":["rezagamos"],"p2":["rezagáis"],"p3":["rezagan"]},
     "IndImp": {"s1":["rezagaba"],"s2":["rezagabas"],"vos":["rezagabas"],"s3":["rezagaba"],"p1":["rezagábamos"],"p2":["rezagabais"],"p3":["rezagaban"]},

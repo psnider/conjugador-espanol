@@ -6,7 +6,7 @@
     "etimologia": "Del latín invadere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"invadir","gerundio":"invadiendo","participio":"invadido"},
+  "formas_no_personales": {"infinitivo":"invadir","gerundio":["invadiendo"], "participio":["invadido"]},
   "formas_personales": {
     "IndPres": {"s1":["invado"],"s2":["invades"],"vos":["invadís"],"s3":["invade"],"p1":["invadimos"],"p2":["invadís"],"p3":["invaden"]},
     "IndImp": {"s1":["invadía"],"s2":["invadías"],"vos":["invadías"],"s3":["invadía"],"p1":["invadíamos"],"p2":["invadíais"],"p3":["invadían"]},

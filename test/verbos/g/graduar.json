@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"graduar","gerundio":"graduando","participio":"graduado"},
+  "formas_no_personales": {"infinitivo":"graduar","gerundio":["graduando"], "participio":["graduado"]},
   "formas_personales": {
     "IndPres": {"s1":["gradúo"],"s2":["gradúas"],"vos":["graduás"],"s3":["gradúa"],"p1":["graduamos"],"p2":["graduáis"],"p3":["gradúan"]},
     "IndImp": {"s1":["graduaba"],"s2":["graduabas"],"vos":["graduabas"],"s3":["graduaba"],"p1":["graduábamos"],"p2":["graduabais"],"p3":["graduaban"]},

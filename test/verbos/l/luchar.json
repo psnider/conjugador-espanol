@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo luchar ('luchar'), y este del latín vulgar luctāre, del latín luctārī&nbsp;('esforzarse').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"luchar","gerundio":"luchando","participio":"luchado"},
+  "formas_no_personales": {"infinitivo":"luchar","gerundio":["luchando"], "participio":["luchado"]},
   "formas_personales": {
     "IndPres": {"s1":["lucho"],"s2":["luchas"],"vos":["luchás"],"s3":["lucha"],"p1":["luchamos"],"p2":["lucháis"],"p3":["luchan"]},
     "IndImp": {"s1":["luchaba"],"s2":["luchabas"],"vos":["luchabas"],"s3":["luchaba"],"p1":["luchábamos"],"p2":["luchabais"],"p3":["luchaban"]},

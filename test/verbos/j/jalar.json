@@ -6,7 +6,7 @@
     "etimologia": "Alteración fonética de halar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"jalar","gerundio":"jalando","participio":"jalado"},
+  "formas_no_personales": {"infinitivo":"jalar","gerundio":["jalando"], "participio":["jalado"]},
   "formas_personales": {
     "IndPres": {"s1":["jalo"],"s2":["jalas"],"vos":["jalás"],"s3":["jala"],"p1":["jalamos"],"p2":["jaláis"],"p3":["jalan"]},
     "IndImp": {"s1":["jalaba"],"s2":["jalabas"],"vos":["jalabas"],"s3":["jalaba"],"p1":["jalábamos"],"p2":["jalabais"],"p3":["jalaban"]},

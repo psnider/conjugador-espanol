@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desconectar","gerundio":"desconectando","participio":"desconectado"},
+  "formas_no_personales": {"infinitivo":"desconectar","gerundio":["desconectando"], "participio":["desconectado"]},
   "formas_personales": {
     "IndPres": {"s1":["desconecto"],"s2":["desconectas"],"vos":["desconectás"],"s3":["desconecta"],"p1":["desconectamos"],"p2":["desconectáis"],"p3":["desconectan"]},
     "IndImp": {"s1":["desconectaba"],"s2":["desconectabas"],"vos":["desconectabas"],"s3":["desconectaba"],"p1":["desconectábamos"],"p2":["desconectabais"],"p3":["desconectaban"]},

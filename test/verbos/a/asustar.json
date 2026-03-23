@@ -6,7 +6,7 @@
     "etimologia": "Del latín suscitāre ('levantar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asustar","gerundio":"asustando","participio":"asustado"},
+  "formas_no_personales": {"infinitivo":"asustar","gerundio":["asustando"], "participio":["asustado"]},
   "formas_personales": {
     "IndPres": {"s1":["asusto"],"s2":["asustas"],"vos":["asustás"],"s3":["asusta"],"p1":["asustamos"],"p2":["asustáis"],"p3":["asustan"]},
     "IndImp": {"s1":["asustaba"],"s2":["asustabas"],"vos":["asustabas"],"s3":["asustaba"],"p1":["asustábamos"],"p2":["asustabais"],"p3":["asustaban"]},

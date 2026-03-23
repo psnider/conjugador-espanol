@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"desesperanzar","gerundio":"desesperanzando","participio":"desesperanzado"},
+  "formas_no_personales": {"infinitivo":"desesperanzar","gerundio":["desesperanzando"], "participio":["desesperanzado"]},
   "formas_personales": {
     "IndPres": {"s1":["desesperanzo"],"s2":["desesperanzas"],"vos":["desesperanzás"],"s3":["desesperanza"],"p1":["desesperanzamos"],"p2":["desesperanzáis"],"p3":["desesperanzan"]},
     "IndImp": {"s1":["desesperanzaba"],"s2":["desesperanzabas"],"vos":["desesperanzabas"],"s3":["desesperanzaba"],"p1":["desesperanzábamos"],"p2":["desesperanzabais"],"p3":["desesperanzaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"empachar","gerundio":"empachando","participio":"empachado"},
+  "formas_no_personales": {"infinitivo":"empachar","gerundio":["empachando"], "participio":["empachado"]},
   "formas_personales": {
     "IndPres": {"s1":["empacho"],"s2":["empachas"],"vos":["empachás"],"s3":["empacha"],"p1":["empachamos"],"p2":["empacháis"],"p3":["empachan"]},
     "IndImp": {"s1":["empachaba"],"s2":["empachabas"],"vos":["empachabas"],"s3":["empachaba"],"p1":["empachábamos"],"p2":["empachabais"],"p3":["empachaban"]},

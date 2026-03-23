@@ -6,7 +6,7 @@
     "etimologia": "Del latín integrare (\"completar, renovar o poner al día\"), y este del latín integer (o, literal y originalmente, \"intacto\".",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enterar","gerundio":"enterando","participio":"enterado"},
+  "formas_no_personales": {"infinitivo":"enterar","gerundio":["enterando"], "participio":["enterado"]},
   "formas_personales": {
     "IndPres": {"s1":["entero"],"s2":["enteras"],"vos":["enterás"],"s3":["entera"],"p1":["enteramos"],"p2":["enteráis"],"p3":["enteran"]},
     "IndImp": {"s1":["enteraba"],"s2":["enterabas"],"vos":["enterabas"],"s3":["enteraba"],"p1":["enterábamos"],"p2":["enterabais"],"p3":["enteraban"]},

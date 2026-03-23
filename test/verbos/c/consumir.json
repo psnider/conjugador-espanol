@@ -6,7 +6,7 @@
     "etimologia": "Del latín consumĕre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"consumir","gerundio":"consumiendo","participio":"consumido"},
+  "formas_no_personales": {"infinitivo":"consumir","gerundio":["consumiendo"], "participio":["consumido"]},
   "formas_personales": {
     "IndPres": {"s1":["consumo"],"s2":["consumes"],"vos":["consumís"],"s3":["consume"],"p1":["consumimos"],"p2":["consumís"],"p3":["consumen"]},
     "IndImp": {"s1":["consumía"],"s2":["consumías"],"vos":["consumías"],"s3":["consumía"],"p1":["consumíamos"],"p2":["consumíais"],"p3":["consumían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín sūdō, -āre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sudar","gerundio":"sudando","participio":"sudado"},
+  "formas_no_personales": {"infinitivo":"sudar","gerundio":["sudando"], "participio":["sudado"]},
   "formas_personales": {
     "IndPres": {"s1":["sudo"],"s2":["sudas"],"vos":["sudás"],"s3":["suda"],"p1":["sudamos"],"p2":["sudáis"],"p3":["sudan"]},
     "IndImp": {"s1":["sudaba"],"s2":["sudabas"],"vos":["sudabas"],"s3":["sudaba"],"p1":["sudábamos"],"p2":["sudabais"],"p3":["sudaban"]},

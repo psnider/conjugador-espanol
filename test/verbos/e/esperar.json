@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo esperar ('esperar'), y este del latín spērāre&nbsp;('esperar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"esperar","gerundio":"esperando","participio":"esperado"},
+  "formas_no_personales": {"infinitivo":"esperar","gerundio":["esperando"], "participio":["esperado"]},
   "formas_personales": {
     "IndPres": {"s1":["espero"],"s2":["esperas"],"vos":["esperás"],"s3":["espera"],"p1":["esperamos"],"p2":["esperáis"],"p3":["esperan"]},
     "IndImp": {"s1":["esperaba"],"s2":["esperabas"],"vos":["esperabas"],"s3":["esperaba"],"p1":["esperábamos"],"p2":["esperabais"],"p3":["esperaban"]},

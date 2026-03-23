@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞iɾˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"desvirtuar","gerundio":["desvirtuando"], "participio":["desvirtuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desvirtúo"],"s2":["desvirtúas"],"vos":["desvirtuás"],"s3":["desvirtúa"],"p1":["desvirtuamos"],"p2":["desvirtuáis"],"p3":["desvirtúan"]},
+    "IndImp": {"s1":["desvirtuaba"],"s2":["desvirtuabas"],"vos":["desvirtuabas"],"s3":["desvirtuaba"],"p1":["desvirtuábamos"],"p2":["desvirtuabais"],"p3":["desvirtuaban"]},
+    "IndPret": {"s1":["desvirtué"],"s2":["desvirtuaste"],"vos":["desvirtuaste"],"s3":["desvirtuó"],"p1":["desvirtuamos"],"p2":["desvirtuasteis"],"p3":["desvirtuaron"]},
+    "IndFut": {"s1":["desvirtuaré"],"s2":["desvirtuarás"],"vos":["desvirtuarás"],"s3":["desvirtuará"],"p1":["desvirtuaremos"],"p2":["desvirtuaréis"],"p3":["desvirtuarán"]},
+    "IndCond": {"s1":["desvirtuaría"],"s2":["desvirtuarías"],"vos":["desvirtuarías"],"s3":["desvirtuaría"],"p1":["desvirtuaríamos"],"p2":["desvirtuaríais"],"p3":["desvirtuarían"]},
+    "SubPres": {"s1":["desvirtúe"],"s2":["desvirtúes"],"vos":["desvirtúes","desvirtués"],"s3":["desvirtúe"],"p1":["desvirtuemos"],"p2":["desvirtuéis"],"p3":["desvirtúen"]},
+    "SubImp": {"s1":["desvirtuara","desvirtuase"],"s2":["desvirtuaras","desvirtuases"],"vos":["desvirtuaras","desvirtuases"],"s3":["desvirtuara","desvirtuase"],"p1":["desvirtuáramos","desvirtuásemos"],"p2":["desvirtuarais","desvirtuaseis"],"p3":["desvirtuaran","desvirtuasen"]},
+    "SubFut": {"s1":["desvirtuare"],"s2":["desvirtuares"],"vos":["desvirtuares"],"s3":["desvirtuare"],"p1":["desvirtuáremos"],"p2":["desvirtuareis"],"p3":["desvirtuaren"]},
+    "CmdPos": {"s2":["desvirtúa"],"vos":["desvirtuá"],"s3":["desvirtúe"],"p1":["desvirtuemos"],"p2":["desvirtuad"],"p3":["desvirtúen"]}
+  }
+}

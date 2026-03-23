@@ -6,7 +6,7 @@
     "etimologia": "Cultismo. Se documenta por primera vez en 1140. Del latín ponĕre.",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"poner","gerundio":"poniendo","participio":"puesto"},
+  "formas_no_personales": {"infinitivo":"poner","gerundio":["poniendo"], "participio":["puesto"]},
   "formas_personales": {
     "IndPres": {"s1":["pongo"],"s2":["pones"],"vos":["ponés"],"s3":["pone"],"p1":["ponemos"],"p2":["ponéis"],"p3":["ponen"]},
     "IndImp": {"s1":["ponía"],"s2":["ponías"],"vos":["ponías"],"s3":["ponía"],"p1":["poníamos"],"p2":["poníais"],"p3":["ponían"]},

@@ -6,7 +6,7 @@
     "etimologia": "De trapo y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"trapear","gerundio":"trapeando","participio":"trapeado"},
+  "formas_no_personales": {"infinitivo":"trapear","gerundio":["trapeando"], "participio":["trapeado"]},
   "formas_personales": {
     "IndPres": {"s1":["trapeo"],"s2":["trapeas"],"vos":["trapeás"],"s3":["trapea"],"p1":["trapeamos"],"p2":["trapeáis"],"p3":["trapean"]},
     "IndImp": {"s1":["trapeaba"],"s2":["trapeabas"],"vos":["trapeabas"],"s3":["trapeaba"],"p1":["trapeábamos"],"p2":["trapeabais"],"p3":["trapeaban"]},

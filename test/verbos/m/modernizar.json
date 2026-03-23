@@ -6,7 +6,7 @@
     "etimologia": "De moderno y el sufijo -izar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"modernizar","gerundio":"modernizando","participio":"modernizado"},
+  "formas_no_personales": {"infinitivo":"modernizar","gerundio":["modernizando"], "participio":["modernizado"]},
   "formas_personales": {
     "IndPres": {"s1":["modernizo"],"s2":["modernizas"],"vos":["modernizás"],"s3":["moderniza"],"p1":["modernizamos"],"p2":["modernizáis"],"p3":["modernizan"]},
     "IndImp": {"s1":["modernizaba"],"s2":["modernizabas"],"vos":["modernizabas"],"s3":["modernizaba"],"p1":["modernizábamos"],"p2":["modernizabais"],"p3":["modernizaban"]},

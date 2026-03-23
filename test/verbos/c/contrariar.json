@@ -5,7 +5,7 @@
     "etimologia": "De contrario.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"contrariar","gerundio":"contrariando","participio":"contrariado"},
+  "formas_no_personales": {"infinitivo":"contrariar","gerundio":["contrariando"], "participio":["contrariado"]},
   "formas_personales": {
     "IndPres": {"s1":["contrarío"],"s2":["contrarías"],"vos":["contrariás"],"s3":["contraría"],"p1":["contrariamos"],"p2":["contrariáis"],"p3":["contrarían"]},
     "IndImp": {"s1":["contrariaba"],"s2":["contrariabas"],"vos":["contrariabas"],"s3":["contrariaba"],"p1":["contrariábamos"],"p2":["contrariabais"],"p3":["contrariaban"]},

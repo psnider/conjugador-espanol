@@ -6,7 +6,7 @@
     "etimologia": "Del francés tourner.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"turnar","gerundio":"turnando","participio":"turnado"},
+  "formas_no_personales": {"infinitivo":"turnar","gerundio":["turnando"], "participio":["turnado"]},
   "formas_personales": {
     "IndPres": {"s1":["turno"],"s2":["turnas"],"vos":["turnás"],"s3":["turna"],"p1":["turnamos"],"p2":["turnáis"],"p3":["turnan"]},
     "IndImp": {"s1":["turnaba"],"s2":["turnabas"],"vos":["turnabas"],"s3":["turnaba"],"p1":["turnábamos"],"p2":["turnabais"],"p3":["turnaban"]},

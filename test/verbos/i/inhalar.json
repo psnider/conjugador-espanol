@@ -5,7 +5,7 @@
     "etimologia": "Del latín inhalare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inhalar","gerundio":"inhalando","participio":"inhalado"},
+  "formas_no_personales": {"infinitivo":"inhalar","gerundio":["inhalando"], "participio":["inhalado"]},
   "formas_personales": {
     "IndPres": {"s1":["inhalo"],"s2":["inhalas"],"vos":["inhalás"],"s3":["inhala"],"p1":["inhalamos"],"p2":["inhaláis"],"p3":["inhalan"]},
     "IndImp": {"s1":["inhalaba"],"s2":["inhalabas"],"vos":["inhalabas"],"s3":["inhalaba"],"p1":["inhalábamos"],"p2":["inhalabais"],"p3":["inhalaban"]},

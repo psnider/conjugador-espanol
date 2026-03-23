@@ -6,7 +6,7 @@
     "etimologia": "Del latín transcurrere,[1] compuesto de trāns&nbsp;('a través') y currō, currere&nbsp;('correr').",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"transcurrir","gerundio":"transcurriendo","participio":"transcurrido"},
+  "formas_no_personales": {"infinitivo":"transcurrir","gerundio":["transcurriendo"], "participio":["transcurrido"]},
   "formas_personales": {
     "IndPres": {"s1":["transcurro"],"s2":["transcurres"],"vos":["transcurrís"],"s3":["transcurre"],"p1":["transcurrimos"],"p2":["transcurrís"],"p3":["transcurren"]},
     "IndImp": {"s1":["transcurría"],"s2":["transcurrías"],"vos":["transcurrías"],"s3":["transcurría"],"p1":["transcurríamos"],"p2":["transcurríais"],"p3":["transcurrían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"eludir","gerundio":"eludiendo","participio":"eludido"},
+  "formas_no_personales": {"infinitivo":"eludir","gerundio":["eludiendo"], "participio":["eludido"]},
   "formas_personales": {
     "IndPres": {"s1":["eludo"],"s2":["eludes"],"vos":["eludís"],"s3":["elude"],"p1":["eludimos"],"p2":["eludís"],"p3":["eluden"]},
     "IndImp": {"s1":["eludía"],"s2":["eludías"],"vos":["eludías"],"s3":["eludía"],"p1":["eludíamos"],"p2":["eludíais"],"p3":["eludían"]},

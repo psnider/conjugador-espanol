@@ -5,16 +5,16 @@
     "etimologia": "Del latín tardío fugire.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"huir","gerundio":"huyendo","participio":"huido"},
+  "formas_no_personales": {"infinitivo":"huir","gerundio":["huyendo"], "participio":["huido"]},
   "formas_personales": {
-    "IndPres": {"s1":["huyo"],"s2":["huyes"],"vos":["huís"],"s3":["huye"],"p1":["huimos"],"p2":["huís"],"p3":["huyen"]},
+    "IndPres": {"s1":["huyo"],"s2":["huyes"],"vos":["huis"],"s3":["huye"],"p1":["huimos"],"p2":["huis"],"p3":["huyen"]},
     "IndImp": {"s1":["huía"],"s2":["huías"],"vos":["huías"],"s3":["huía"],"p1":["huíamos"],"p2":["huíais"],"p3":["huían"]},
-    "IndPret": {"s1":["huí"],"s2":["huiste"],"vos":["huiste"],"s3":["huyó"],"p1":["huimos"],"p2":["huisteis"],"p3":["huyeron"]},
+    "IndPret": {"s1":["hui"],"s2":["huiste"],"vos":["huiste"],"s3":["huyó"],"p1":["huimos"],"p2":["huisteis"],"p3":["huyeron"]},
     "IndFut": {"s1":["huiré"],"s2":["huirás"],"vos":["huirás"],"s3":["huirá"],"p1":["huiremos"],"p2":["huiréis"],"p3":["huirán"]},
     "IndCond": {"s1":["huiría"],"s2":["huirías"],"vos":["huirías"],"s3":["huiría"],"p1":["huiríamos"],"p2":["huiríais"],"p3":["huirían"]},
     "SubPres": {"s1":["huya"],"s2":["huyas"],"vos":["huyas","huyás"],"s3":["huya"],"p1":["huyamos"],"p2":["huyáis"],"p3":["huyan"]},
     "SubImp": {"s1":["huyera","huyese"],"s2":["huyeras","huyeses"],"vos":["huyeras","huyeses"],"s3":["huyera","huyese"],"p1":["huyéramos","huyésemos"],"p2":["huyerais","huyeseis"],"p3":["huyeran","huyesen"]},
     "SubFut": {"s1":["huyere"],"s2":["huyeres"],"vos":["huyeres"],"s3":["huyere"],"p1":["huyéremos"],"p2":["huyereis"],"p3":["huyeren"]},
-    "CmdPos": {"s2":["huye"],"vos":["huí"],"s3":["huya"],"p1":["huyamos"],"p2":["huid"],"p3":["huyan"]}
+    "CmdPos": {"s2":["huye"],"vos":["hui"],"s3":["huya"],"p1":["huyamos"],"p2":["huid"],"p3":["huyan"]}
   }
 }

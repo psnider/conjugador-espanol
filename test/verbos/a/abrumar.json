@@ -5,7 +5,7 @@
     "etimologia": "De bruma, variante de \"broma\"",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"abrumar","gerundio":"abrumando","participio":"abrumado"},
+  "formas_no_personales": {"infinitivo":"abrumar","gerundio":["abrumando"], "participio":["abrumado"]},
   "formas_personales": {
     "IndPres": {"s1":["abrumo"],"s2":["abrumas"],"vos":["abrumás"],"s3":["abruma"],"p1":["abrumamos"],"p2":["abrumáis"],"p3":["abruman"]},
     "IndImp": {"s1":["abrumaba"],"s2":["abrumabas"],"vos":["abrumabas"],"s3":["abrumaba"],"p1":["abrumábamos"],"p2":["abrumabais"],"p3":["abrumaban"]},

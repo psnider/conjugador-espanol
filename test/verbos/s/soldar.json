@@ -6,7 +6,7 @@
     "etimologia": "Del latín solidāre ('consolidar').",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"soldar","gerundio":"soldando","participio":"soldado"},
+  "formas_no_personales": {"infinitivo":"soldar","gerundio":["soldando"], "participio":["soldado"]},
   "formas_personales": {
     "IndPres": {"s1":["sueldo"],"s2":["sueldas"],"vos":["soldás"],"s3":["suelda"],"p1":["soldamos"],"p2":["soldáis"],"p3":["sueldan"]},
     "IndImp": {"s1":["soldaba"],"s2":["soldabas"],"vos":["soldabas"],"s3":["soldaba"],"p1":["soldábamos"],"p2":["soldabais"],"p3":["soldaban"]},

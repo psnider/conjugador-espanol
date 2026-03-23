@@ -6,7 +6,7 @@
     "etimologia": "Del latín separare ('apartar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"separar","gerundio":"separando","participio":"separado"},
+  "formas_no_personales": {"infinitivo":"separar","gerundio":["separando"], "participio":["separado"]},
   "formas_personales": {
     "IndPres": {"s1":["separo"],"s2":["separas"],"vos":["separás"],"s3":["separa"],"p1":["separamos"],"p2":["separáis"],"p3":["separan"]},
     "IndImp": {"s1":["separaba"],"s2":["separabas"],"vos":["separabas"],"s3":["separaba"],"p1":["separábamos"],"p2":["separabais"],"p3":["separaban"]},

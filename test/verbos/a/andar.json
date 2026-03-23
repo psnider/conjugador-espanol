@@ -6,7 +6,7 @@
     "etimologia": "Del latín ambulare. El origen del pretérito indefinido, del español hube, hubiera, hubiere (verbo haber).",
     "modelos": ["andar"]
   },
-  "formas_no_personales": {"infinitivo":"andar","gerundio":"andando","participio":"andado"},
+  "formas_no_personales": {"infinitivo":"andar","gerundio":["andando"], "participio":["andado"]},
   "formas_personales": {
     "IndPres": {"s1":["ando"],"s2":["andas"],"vos":["andás"],"s3":["anda"],"p1":["andamos"],"p2":["andáis"],"p3":["andan"]},
     "IndImp": {"s1":["andaba"],"s2":["andabas"],"vos":["andabas"],"s3":["andaba"],"p1":["andábamos"],"p2":["andabais"],"p3":["andaban"]},

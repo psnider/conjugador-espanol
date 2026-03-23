@@ -6,7 +6,7 @@
     "etimologia": "Del latín fricāre (\"frotar\", \"friccionar\").",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"fregar","gerundio":"fregando","participio":"fregado"},
+  "formas_no_personales": {"infinitivo":"fregar","gerundio":["fregando"], "participio":["fregado"]},
   "formas_personales": {
     "IndPres": {"s1":["friego"],"s2":["friegas"],"vos":["fregás"],"s3":["friega"],"p1":["fregamos"],"p2":["fregáis"],"p3":["friegan"]},
     "IndImp": {"s1":["fregaba"],"s2":["fregabas"],"vos":["fregabas"],"s3":["fregaba"],"p1":["fregábamos"],"p2":["fregabais"],"p3":["fregaban"]},

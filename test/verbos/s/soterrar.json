@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo so-, tierra y el sufijo -ar",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"soterrar","gerundio":"soterrando","participio":"soterrado"},
+  "formas_no_personales": {"infinitivo":"soterrar","gerundio":["soterrando"], "participio":["soterrado"]},
   "formas_personales": {
     "IndPres": {"s1":["sotierro","soterro"],"s2":["sotierras","soterras"],"vos":["soterrás"],"s3":["sotierra","soterra"],"p1":["soterramos"],"p2":["soterráis"],"p3":["sotierran","soterran"]},
     "IndImp": {"s1":["soterraba"],"s2":["soterrabas"],"vos":["soterrabas"],"s3":["soterraba"],"p1":["soterrábamos"],"p2":["soterrabais"],"p3":["soterraban"]},

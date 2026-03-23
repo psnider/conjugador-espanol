@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"intercalar","gerundio":"intercalando","participio":"intercalado"},
+  "formas_no_personales": {"infinitivo":"intercalar","gerundio":["intercalando"], "participio":["intercalado"]},
   "formas_personales": {
     "IndPres": {"s1":["intercalo"],"s2":["intercalas"],"vos":["intercalás"],"s3":["intercala"],"p1":["intercalamos"],"p2":["intercaláis"],"p3":["intercalan"]},
     "IndImp": {"s1":["intercalaba"],"s2":["intercalabas"],"vos":["intercalabas"],"s3":["intercalaba"],"p1":["intercalábamos"],"p2":["intercalabais"],"p3":["intercalaban"]},

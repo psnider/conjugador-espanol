@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alegrar","gerundio":"alegrando","participio":"alegrado"},
+  "formas_no_personales": {"infinitivo":"alegrar","gerundio":["alegrando"], "participio":["alegrado"]},
   "formas_personales": {
     "IndPres": {"s1":["alegro"],"s2":["alegras"],"vos":["alegrás"],"s3":["alegra"],"p1":["alegramos"],"p2":["alegráis"],"p3":["alegran"]},
     "IndImp": {"s1":["alegraba"],"s2":["alegrabas"],"vos":["alegrabas"],"s3":["alegraba"],"p1":["alegrábamos"],"p2":["alegrabais"],"p3":["alegraban"]},

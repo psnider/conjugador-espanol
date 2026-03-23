@@ -6,7 +6,7 @@
     "etimologia": "Del latín cooperīre, (\"cubrir\", \"sumir\").",
     "modelos": ["abrir"]
   },
-  "formas_no_personales": {"infinitivo":"cubrir","gerundio":"cubriendo","participio":"cubierto"},
+  "formas_no_personales": {"infinitivo":"cubrir","gerundio":["cubriendo"], "participio":["cubierto"]},
   "formas_personales": {
     "IndPres": {"s1":["cubro"],"s2":["cubres"],"vos":["cubrís"],"s3":["cubre"],"p1":["cubrimos"],"p2":["cubrís"],"p3":["cubren"]},
     "IndImp": {"s1":["cubría"],"s2":["cubrías"],"vos":["cubrías"],"s3":["cubría"],"p1":["cubríamos"],"p2":["cubríais"],"p3":["cubrían"]},

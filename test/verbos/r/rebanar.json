@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rebanar","gerundio":"rebanando","participio":"rebanado"},
+  "formas_no_personales": {"infinitivo":"rebanar","gerundio":["rebanando"], "participio":["rebanado"]},
   "formas_personales": {
     "IndPres": {"s1":["rebano"],"s2":["rebanas"],"vos":["rebanás"],"s3":["rebana"],"p1":["rebanamos"],"p2":["rebanáis"],"p3":["rebanan"]},
     "IndImp": {"s1":["rebanaba"],"s2":["rebanabas"],"vos":["rebanabas"],"s3":["rebanaba"],"p1":["rebanábamos"],"p2":["rebanabais"],"p3":["rebanaban"]},

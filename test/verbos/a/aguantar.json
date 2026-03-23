@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1377.[1] Del italiano agguantare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aguantar","gerundio":"aguantando","participio":"aguantado"},
+  "formas_no_personales": {"infinitivo":"aguantar","gerundio":["aguantando"], "participio":["aguantado"]},
   "formas_personales": {
     "IndPres": {"s1":["aguanto"],"s2":["aguantas"],"vos":["aguantás"],"s3":["aguanta"],"p1":["aguantamos"],"p2":["aguantáis"],"p3":["aguantan"]},
     "IndImp": {"s1":["aguantaba"],"s2":["aguantabas"],"vos":["aguantabas"],"s3":["aguantaba"],"p1":["aguantábamos"],"p2":["aguantabais"],"p3":["aguantaban"]},

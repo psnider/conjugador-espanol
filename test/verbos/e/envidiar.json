@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"envidiar","gerundio":"envidiando","participio":"envidiado"},
+  "formas_no_personales": {"infinitivo":"envidiar","gerundio":["envidiando"], "participio":["envidiado"]},
   "formas_personales": {
     "IndPres": {"s1":["envidio"],"s2":["envidias"],"vos":["envidiás"],"s3":["envidia"],"p1":["envidiamos"],"p2":["envidiáis"],"p3":["envidian"]},
     "IndImp": {"s1":["envidiaba"],"s2":["envidiabas"],"vos":["envidiabas"],"s3":["envidiaba"],"p1":["envidiábamos"],"p2":["envidiabais"],"p3":["envidiaban"]},

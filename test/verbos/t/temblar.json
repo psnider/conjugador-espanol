@@ -6,7 +6,7 @@
     "etimologia": "Del latín tremulō, tremulāre, de la raíz indoeuropea *trem-&nbsp;(temblar).",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"temblar","gerundio":"temblando","participio":"temblado"},
+  "formas_no_personales": {"infinitivo":"temblar","gerundio":["temblando"], "participio":["temblado"]},
   "formas_personales": {
     "IndPres": {"s1":["tiemblo"],"s2":["tiemblas"],"vos":["temblás"],"s3":["tiembla"],"p1":["temblamos"],"p2":["tembláis"],"p3":["tiemblan"]},
     "IndImp": {"s1":["temblaba"],"s2":["temblabas"],"vos":["temblabas"],"s3":["temblaba"],"p1":["temblábamos"],"p2":["temblabais"],"p3":["temblaban"]},

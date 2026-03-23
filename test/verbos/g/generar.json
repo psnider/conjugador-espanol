@@ -6,7 +6,7 @@
     "etimologia": "Del latín generare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"generar","gerundio":"generando","participio":"generado"},
+  "formas_no_personales": {"infinitivo":"generar","gerundio":["generando"], "participio":["generado"]},
   "formas_personales": {
     "IndPres": {"s1":["genero"],"s2":["generas"],"vos":["generás"],"s3":["genera"],"p1":["generamos"],"p2":["generáis"],"p3":["generan"]},
     "IndImp": {"s1":["generaba"],"s2":["generabas"],"vos":["generabas"],"s3":["generaba"],"p1":["generábamos"],"p2":["generabais"],"p3":["generaban"]},

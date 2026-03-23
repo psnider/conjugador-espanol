@@ -6,7 +6,7 @@
     "etimologia": "Del francés haler.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"halar","gerundio":"halando","participio":"halado"},
+  "formas_no_personales": {"infinitivo":"halar","gerundio":["halando"], "participio":["halado"]},
   "formas_personales": {
     "IndPres": {"s1":["halo"],"s2":["halas"],"vos":["halás"],"s3":["hala"],"p1":["halamos"],"p2":["haláis"],"p3":["halan"]},
     "IndImp": {"s1":["halaba"],"s2":["halabas"],"vos":["halabas"],"s3":["halaba"],"p1":["halábamos"],"p2":["halabais"],"p3":["halaban"]},

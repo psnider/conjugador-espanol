@@ -6,7 +6,7 @@
     "etimologia": "Del latín necessĭtas y necesse ('inevitable'), el prefijo \"ne\" de necesse significa \"no\" y el verbo \"cedere\", también de necesse, significa \"parar\". Lo que conjuntamente significa \"no parar\", es decir, algo a lo cuál se dirige el individuo sin parar o sin detenerse hasta alcanzarlo.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"necesitar","gerundio":"necesitando","participio":"necesitado"},
+  "formas_no_personales": {"infinitivo":"necesitar","gerundio":["necesitando"], "participio":["necesitado"]},
   "formas_personales": {
     "IndPres": {"s1":["necesito"],"s2":["necesitas"],"vos":["necesitás"],"s3":["necesita"],"p1":["necesitamos"],"p2":["necesitáis"],"p3":["necesitan"]},
     "IndImp": {"s1":["necesitaba"],"s2":["necesitabas"],"vos":["necesitabas"],"s3":["necesitaba"],"p1":["necesitábamos"],"p2":["necesitabais"],"p3":["necesitaban"]},

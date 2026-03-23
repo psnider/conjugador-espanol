@@ -6,7 +6,7 @@
     "etimologia": "De adición y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"adicionar","gerundio":"adicionando","participio":"adicionado"},
+  "formas_no_personales": {"infinitivo":"adicionar","gerundio":["adicionando"], "participio":["adicionado"]},
   "formas_personales": {
     "IndPres": {"s1":["adiciono"],"s2":["adicionas"],"vos":["adicionás"],"s3":["adiciona"],"p1":["adicionamos"],"p2":["adicionáis"],"p3":["adicionan"]},
     "IndImp": {"s1":["adicionaba"],"s2":["adicionabas"],"vos":["adicionabas"],"s3":["adicionaba"],"p1":["adicionábamos"],"p2":["adicionabais"],"p3":["adicionaban"]},

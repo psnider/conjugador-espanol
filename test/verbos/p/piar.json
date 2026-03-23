@@ -5,7 +5,7 @@
     "etimologia": "De origen incierto.[2]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"piar","gerundio":"piando","participio":"piado"},
+  "formas_no_personales": {"infinitivo":"piar","gerundio":["piando"], "participio":["piado"]},
   "formas_personales": {
     "IndPres": {"s1":["pío"],"s2":["pías"],"vos":["pias"],"s3":["pía"],"p1":["piamos"],"p2":["piais"],"p3":["pían"]},
     "IndImp": {"s1":["piaba"],"s2":["piabas"],"vos":["piabas"],"s3":["piaba"],"p1":["piábamos"],"p2":["piabais"],"p3":["piaban"]},

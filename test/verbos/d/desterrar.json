@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des-, tierra y el sufijo -ar",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"desterrar","gerundio":"desterrando","participio":"desterrado"},
+  "formas_no_personales": {"infinitivo":"desterrar","gerundio":["desterrando"], "participio":["desterrado"]},
   "formas_personales": {
     "IndPres": {"s1":["destierro"],"s2":["destierras"],"vos":["desterrás"],"s3":["destierra"],"p1":["desterramos"],"p2":["desterráis"],"p3":["destierran"]},
     "IndImp": {"s1":["desterraba"],"s2":["desterrabas"],"vos":["desterrabas"],"s3":["desterraba"],"p1":["desterrábamos"],"p2":["desterrabais"],"p3":["desterraban"]},

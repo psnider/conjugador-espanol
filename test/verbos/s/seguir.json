@@ -6,7 +6,7 @@
     "etimologia": "Del latín sequi.",
     "modelos": ["distinguir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"seguir","gerundio":"siguiendo","participio":"seguido"},
+  "formas_no_personales": {"infinitivo":"seguir","gerundio":["siguiendo"], "participio":["seguido"]},
   "formas_personales": {
     "IndPres": {"s1":["sigo"],"s2":["sigues"],"vos":["seguís"],"s3":["sigue"],"p1":["seguimos"],"p2":["seguís"],"p3":["siguen"]},
     "IndImp": {"s1":["seguía"],"s2":["seguías"],"vos":["seguías"],"s3":["seguía"],"p1":["seguíamos"],"p2":["seguíais"],"p3":["seguían"]},

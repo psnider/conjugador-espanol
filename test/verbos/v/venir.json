@@ -6,7 +6,7 @@
     "etimologia": "Del latín venīre.",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"venir","gerundio":"viniendo","participio":"venido"},
+  "formas_no_personales": {"infinitivo":"venir","gerundio":["viniendo"], "participio":["venido"]},
   "formas_personales": {
     "IndPres": {"s1":["vengo"],"s2":["vienes"],"vos":["venís"],"s3":["viene"],"p1":["venimos"],"p2":["venís"],"p3":["vienen"]},
     "IndImp": {"s1":["venía"],"s2":["venías"],"vos":["venías"],"s3":["venía"],"p1":["veníamos"],"p2":["veníais"],"p3":["venían"]},

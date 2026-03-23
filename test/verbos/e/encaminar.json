@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"encaminar","gerundio":"encaminando","participio":"encaminado"},
+  "formas_no_personales": {"infinitivo":"encaminar","gerundio":["encaminando"], "participio":["encaminado"]},
   "formas_personales": {
     "IndPres": {"s1":["encamino"],"s2":["encaminas"],"vos":["encaminás"],"s3":["encamina"],"p1":["encaminamos"],"p2":["encamináis"],"p3":["encaminan"]},
     "IndImp": {"s1":["encaminaba"],"s2":["encaminabas"],"vos":["encaminabas"],"s3":["encaminaba"],"p1":["encaminábamos"],"p2":["encaminabais"],"p3":["encaminaban"]},

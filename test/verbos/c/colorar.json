@@ -6,7 +6,7 @@
     "etimologia": "De color.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"colorar","gerundio":"colorando","participio":"colorado"},
+  "formas_no_personales": {"infinitivo":"colorar","gerundio":["colorando"], "participio":["colorado"]},
   "formas_personales": {
     "IndPres": {"s1":["coloro"],"s2":["coloras"],"vos":["colorás"],"s3":["colora"],"p1":["coloramos"],"p2":["coloráis"],"p3":["coloran"]},
     "IndImp": {"s1":["coloraba"],"s2":["colorabas"],"vos":["colorabas"],"s3":["coloraba"],"p1":["colorábamos"],"p2":["colorabais"],"p3":["coloraban"]},

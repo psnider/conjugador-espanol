@@ -6,7 +6,7 @@
     "etimologia": "Del latín contra, con el mismo significado y restare (resistir).",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"contrarrestar","gerundio":"contrarrestando","participio":"contrarrestado"},
+  "formas_no_personales": {"infinitivo":"contrarrestar","gerundio":["contrarrestando"], "participio":["contrarrestado"]},
   "formas_personales": {
     "IndPres": {"s1":["contrarresto"],"s2":["contrarrestas"],"vos":["contrarrestás"],"s3":["contrarresta"],"p1":["contrarrestamos"],"p2":["contrarrestáis"],"p3":["contrarrestan"]},
     "IndImp": {"s1":["contrarrestaba"],"s2":["contrarrestabas"],"vos":["contrarrestabas"],"s3":["contrarrestaba"],"p1":["contrarrestábamos"],"p2":["contrarrestabais"],"p3":["contrarrestaban"]},

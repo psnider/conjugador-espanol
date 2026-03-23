@@ -6,7 +6,7 @@
     "etimologia": "Del latín quietare ('descansar')",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"quedar","gerundio":"quedando","participio":"quedado"},
+  "formas_no_personales": {"infinitivo":"quedar","gerundio":["quedando"], "participio":["quedado"]},
   "formas_personales": {
     "IndPres": {"s1":["quedo"],"s2":["quedas"],"vos":["quedás"],"s3":["queda"],"p1":["quedamos"],"p2":["quedáis"],"p3":["quedan"]},
     "IndImp": {"s1":["quedaba"],"s2":["quedabas"],"vos":["quedabas"],"s3":["quedaba"],"p1":["quedábamos"],"p2":["quedabais"],"p3":["quedaban"]},

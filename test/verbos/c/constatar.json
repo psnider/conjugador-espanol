@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"constatar","gerundio":"constatando","participio":"constatado"},
+  "formas_no_personales": {"infinitivo":"constatar","gerundio":["constatando"], "participio":["constatado"]},
   "formas_personales": {
     "IndPres": {"s1":["constato"],"s2":["constatas"],"vos":["constatás"],"s3":["constata"],"p1":["constatamos"],"p2":["constatáis"],"p3":["constatan"]},
     "IndImp": {"s1":["constataba"],"s2":["constatabas"],"vos":["constatabas"],"s3":["constataba"],"p1":["constatábamos"],"p2":["constatabais"],"p3":["constataban"]},

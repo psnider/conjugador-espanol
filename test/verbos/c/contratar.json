@@ -6,7 +6,7 @@
     "etimologia": "Del latín contractāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"contratar","gerundio":"contratando","participio":"contratado"},
+  "formas_no_personales": {"infinitivo":"contratar","gerundio":["contratando"], "participio":["contratado"]},
   "formas_personales": {
     "IndPres": {"s1":["contrato"],"s2":["contratas"],"vos":["contratás"],"s3":["contrata"],"p1":["contratamos"],"p2":["contratáis"],"p3":["contratan"]},
     "IndImp": {"s1":["contrataba"],"s2":["contratabas"],"vos":["contratabas"],"s3":["contrataba"],"p1":["contratábamos"],"p2":["contratabais"],"p3":["contrataban"]},

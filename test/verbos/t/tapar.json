@@ -6,7 +6,7 @@
     "etimologia": "De tapa y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tapar","gerundio":"tapando","participio":"tapado"},
+  "formas_no_personales": {"infinitivo":"tapar","gerundio":["tapando"], "participio":["tapado"]},
   "formas_personales": {
     "IndPres": {"s1":["tapo"],"s2":["tapas"],"vos":["tapás"],"s3":["tapa"],"p1":["tapamos"],"p2":["tapáis"],"p3":["tapan"]},
     "IndImp": {"s1":["tapaba"],"s2":["tapabas"],"vos":["tapabas"],"s3":["tapaba"],"p1":["tapábamos"],"p2":["tapabais"],"p3":["tapaban"]},

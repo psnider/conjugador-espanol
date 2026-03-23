@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"adjuntar","gerundio":"adjuntando","participio":"adjuntado"},
+  "formas_no_personales": {"infinitivo":"adjuntar","gerundio":["adjuntando"], "participio":["adjuntado"]},
   "formas_personales": {
     "IndPres": {"s1":["adjunto"],"s2":["adjuntas"],"vos":["adjuntás"],"s3":["adjunta"],"p1":["adjuntamos"],"p2":["adjuntáis"],"p3":["adjuntan"]},
     "IndImp": {"s1":["adjuntaba"],"s2":["adjuntabas"],"vos":["adjuntabas"],"s3":["adjuntaba"],"p1":["adjuntábamos"],"p2":["adjuntabais"],"p3":["adjuntaban"]},

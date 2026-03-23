@@ -6,7 +6,7 @@
     "etimologia": "Del latín manu tenere ('tener en la mano')",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"mantener","gerundio":"manteniendo","participio":"mantenido"},
+  "formas_no_personales": {"infinitivo":"mantener","gerundio":["manteniendo"], "participio":["mantenido"]},
   "formas_personales": {
     "IndPres": {"s1":["mantengo"],"s2":["mantienes"],"vos":["mantenés"],"s3":["mantiene"],"p1":["mantenemos"],"p2":["mantenéis"],"p3":["mantienen"]},
     "IndImp": {"s1":["mantenía"],"s2":["mantenías"],"vos":["mantenías"],"s3":["mantenía"],"p1":["manteníamos"],"p2":["manteníais"],"p3":["mantenían"]},

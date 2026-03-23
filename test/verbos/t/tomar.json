@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto. Corominas propone una aféresis del latín autumāre ('afirmar (el derecho de posesión sobre algún bien)'), con varias dificultades semánticas.[1] Teniendo en cuenta que se comenzó usando como sinónimo de apropiarse (de algo), la hipótesis de Walsh resulta más simple y directa: una alteración de domar.[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tomar","gerundio":"tomando","participio":"tomado"},
+  "formas_no_personales": {"infinitivo":"tomar","gerundio":["tomando"], "participio":["tomado"]},
   "formas_personales": {
     "IndPres": {"s1":["tomo"],"s2":["tomas"],"vos":["tomás"],"s3":["toma"],"p1":["tomamos"],"p2":["tomáis"],"p3":["toman"]},
     "IndImp": {"s1":["tomaba"],"s2":["tomabas"],"vos":["tomabas"],"s3":["tomaba"],"p1":["tomábamos"],"p2":["tomabais"],"p3":["tomaban"]},

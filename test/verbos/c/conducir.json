@@ -6,7 +6,7 @@
     "etimologia": "Del latín conducere, y este formado por cum, \"con\" y ducere, \"sacar\" o \"guiar\".",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"conducir","gerundio":"conduciendo","participio":"conducido"},
+  "formas_no_personales": {"infinitivo":"conducir","gerundio":["conduciendo"], "participio":["conducido"]},
   "formas_personales": {
     "IndPres": {"s1":["conduzco"],"s2":["conduces"],"vos":["conducís"],"s3":["conduce"],"p1":["conducimos"],"p2":["conducís"],"p3":["conducen"]},
     "IndImp": {"s1":["conducía"],"s2":["conducías"],"vos":["conducías"],"s3":["conducía"],"p1":["conducíamos"],"p2":["conducíais"],"p3":["conducían"]},

@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["desosar"]
   },
-  "formas_no_personales": {"infinitivo":"desosar","gerundio":"desosando","participio":"desosado"},
+  "formas_no_personales": {"infinitivo":"desosar","gerundio":["desosando"], "participio":["desosado"]},
   "formas_personales": {
     "IndPres": {"s1":["deshueso"],"s2":["deshuesas"],"vos":["desosás"],"s3":["deshuesa"],"p1":["desosamos"],"p2":["desosáis"],"p3":["deshuesan"]},
     "IndImp": {"s1":["desosaba"],"s2":["desosabas"],"vos":["desosabas"],"s3":["desosaba"],"p1":["desosábamos"],"p2":["desosabais"],"p3":["desosaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo despojar ('despojar'), y este del latín dēspoliāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"despojar","gerundio":"despojando","participio":"despojado"},
+  "formas_no_personales": {"infinitivo":"despojar","gerundio":["despojando"], "participio":["despojado"]},
   "formas_personales": {
     "IndPres": {"s1":["despojo"],"s2":["despojas"],"vos":["despojás"],"s3":["despoja"],"p1":["despojamos"],"p2":["despojáis"],"p3":["despojan"]},
     "IndImp": {"s1":["despojaba"],"s2":["despojabas"],"vos":["despojabas"],"s3":["despojaba"],"p1":["despojábamos"],"p2":["despojabais"],"p3":["despojaban"]},

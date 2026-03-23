@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desgajar","gerundio":"desgajando","participio":"desgajado"},
+  "formas_no_personales": {"infinitivo":"desgajar","gerundio":["desgajando"], "participio":["desgajado"]},
   "formas_personales": {
     "IndPres": {"s1":["desgajo"],"s2":["desgajas"],"vos":["desgajás"],"s3":["desgaja"],"p1":["desgajamos"],"p2":["desgajáis"],"p3":["desgajan"]},
     "IndImp": {"s1":["desgajaba"],"s2":["desgajabas"],"vos":["desgajabas"],"s3":["desgajaba"],"p1":["desgajábamos"],"p2":["desgajabais"],"p3":["desgajaban"]},

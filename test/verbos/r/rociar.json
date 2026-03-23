@@ -5,7 +5,7 @@
     "etimologia": "Del latín roscidus ('rocío') o húmedo, de ros, roris: rocío.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"rociar","gerundio":"rociando","participio":"rociado"},
+  "formas_no_personales": {"infinitivo":"rociar","gerundio":["rociando"], "participio":["rociado"]},
   "formas_personales": {
     "IndPres": {"s1":["rocío"],"s2":["rocías"],"vos":["rociás"],"s3":["rocía"],"p1":["rociamos"],"p2":["rociáis"],"p3":["rocían"]},
     "IndImp": {"s1":["rociaba"],"s2":["rociabas"],"vos":["rociabas"],"s3":["rociaba"],"p1":["rociábamos"],"p2":["rociabais"],"p3":["rociaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reciclar","gerundio":"reciclando","participio":"reciclado"},
+  "formas_no_personales": {"infinitivo":"reciclar","gerundio":["reciclando"], "participio":["reciclado"]},
   "formas_personales": {
     "IndPres": {"s1":["reciclo"],"s2":["reciclas"],"vos":["reciclás"],"s3":["recicla"],"p1":["reciclamos"],"p2":["recicláis"],"p3":["reciclan"]},
     "IndImp": {"s1":["reciclaba"],"s2":["reciclabas"],"vos":["reciclabas"],"s3":["reciclaba"],"p1":["reciclábamos"],"p2":["reciclabais"],"p3":["reciclaban"]},

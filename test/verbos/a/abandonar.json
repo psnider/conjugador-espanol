@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1292.[1] Del francés abandonner.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"abandonar","gerundio":"abandonando","participio":"abandonado"},
+  "formas_no_personales": {"infinitivo":"abandonar","gerundio":["abandonando"], "participio":["abandonado"]},
   "formas_personales": {
     "IndPres": {"s1":["abandono"],"s2":["abandonas"],"vos":["abandonás"],"s3":["abandona"],"p1":["abandonamos"],"p2":["abandonáis"],"p3":["abandonan"]},
     "IndImp": {"s1":["abandonaba"],"s2":["abandonabas"],"vos":["abandonabas"],"s3":["abandonaba"],"p1":["abandonábamos"],"p2":["abandonabais"],"p3":["abandonaban"]},

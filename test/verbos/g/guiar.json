@@ -5,7 +5,7 @@
     "etimologia": "De origen incierto.[2]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"guiar","gerundio":"guiando","participio":"guiado"},
+  "formas_no_personales": {"infinitivo":"guiar","gerundio":["guiando"], "participio":["guiado"]},
   "formas_personales": {
     "IndPres": {"s1":["guío"],"s2":["guías"],"vos":["guiás"],"s3":["guía"],"p1":["guiamos"],"p2":["guiáis"],"p3":["guían"]},
     "IndImp": {"s1":["guiaba"],"s2":["guiabas"],"vos":["guiabas"],"s3":["guiaba"],"p1":["guiábamos"],"p2":["guiabais"],"p3":["guiaban"]},

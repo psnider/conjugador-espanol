@@ -6,7 +6,7 @@
     "etimologia": "Del latín conservāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"conservar","gerundio":"conservando","participio":"conservado"},
+  "formas_no_personales": {"infinitivo":"conservar","gerundio":["conservando"], "participio":["conservado"]},
   "formas_personales": {
     "IndPres": {"s1":["conservo"],"s2":["conservas"],"vos":["conservás"],"s3":["conserva"],"p1":["conservamos"],"p2":["conserváis"],"p3":["conservan"]},
     "IndImp": {"s1":["conservaba"],"s2":["conservabas"],"vos":["conservabas"],"s3":["conservaba"],"p1":["conservábamos"],"p2":["conservabais"],"p3":["conservaban"]},

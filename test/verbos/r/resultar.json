@@ -6,7 +6,7 @@
     "etimologia": "Del latín resultāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"resultar","gerundio":"resultando","participio":"resultado"},
+  "formas_no_personales": {"infinitivo":"resultar","gerundio":["resultando"], "participio":["resultado"]},
   "formas_personales": {
     "IndPres": {"s1":["resulto"],"s2":["resultas"],"vos":["resultás"],"s3":["resulta"],"p1":["resultamos"],"p2":["resultáis"],"p3":["resultan"]},
     "IndImp": {"s1":["resultaba"],"s2":["resultabas"],"vos":["resultabas"],"s3":["resultaba"],"p1":["resultábamos"],"p2":["resultabais"],"p3":["resultaban"]},

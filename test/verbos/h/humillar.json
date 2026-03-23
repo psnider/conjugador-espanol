@@ -6,7 +6,7 @@
     "etimologia": "Del latín humiliare[1], del latín humilis[2], del latín humus, del protoindoeuropeo *dʰéǵʰōm. Compárese humilde, humus, el catalán humiliar, el francés humilier, el italiano umiliare, el portugués humilhar o el rumano umili.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"humillar","gerundio":"humillando","participio":"humillado"},
+  "formas_no_personales": {"infinitivo":"humillar","gerundio":["humillando"], "participio":["humillado"]},
   "formas_personales": {
     "IndPres": {"s1":["humillo"],"s2":["humillas"],"vos":["humillás"],"s3":["humilla"],"p1":["humillamos"],"p2":["humilláis"],"p3":["humillan"]},
     "IndImp": {"s1":["humillaba"],"s2":["humillabas"],"vos":["humillabas"],"s3":["humillaba"],"p1":["humillábamos"],"p2":["humillabais"],"p3":["humillaban"]},

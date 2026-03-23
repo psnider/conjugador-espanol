@@ -6,7 +6,7 @@
     "etimologia": "Del latín repausare, de re y pausare, detenerse, descansar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reposar","gerundio":"reposando","participio":"reposado"},
+  "formas_no_personales": {"infinitivo":"reposar","gerundio":["reposando"], "participio":["reposado"]},
   "formas_personales": {
     "IndPres": {"s1":["reposo"],"s2":["reposas"],"vos":["reposás"],"s3":["reposa"],"p1":["reposamos"],"p2":["reposáis"],"p3":["reposan"]},
     "IndImp": {"s1":["reposaba"],"s2":["reposabas"],"vos":["reposabas"],"s3":["reposaba"],"p1":["reposábamos"],"p2":["reposabais"],"p3":["reposaban"]},

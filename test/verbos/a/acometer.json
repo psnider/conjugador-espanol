@@ -6,7 +6,7 @@
     "etimologia": "de cometer..",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"acometer","gerundio":"acometiendo","participio":"acometido"},
+  "formas_no_personales": {"infinitivo":"acometer","gerundio":["acometiendo"], "participio":["acometido"]},
   "formas_personales": {
     "IndPres": {"s1":["acometo"],"s2":["acometes"],"vos":["acometés"],"s3":["acomete"],"p1":["acometemos"],"p2":["acometéis"],"p3":["acometen"]},
     "IndImp": {"s1":["acometía"],"s2":["acometías"],"vos":["acometías"],"s3":["acometía"],"p1":["acometíamos"],"p2":["acometíais"],"p3":["acometían"]},

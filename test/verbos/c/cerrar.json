@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar serrāre, del latín tardío serare, del latín sera.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"cerrar","gerundio":"cerrando","participio":"cerrado"},
+  "formas_no_personales": {"infinitivo":"cerrar","gerundio":["cerrando"], "participio":["cerrado"]},
   "formas_personales": {
     "IndPres": {"s1":["cierro"],"s2":["cierras"],"vos":["cerrás"],"s3":["cierra"],"p1":["cerramos"],"p2":["cerráis"],"p3":["cierran"]},
     "IndImp": {"s1":["cerraba"],"s2":["cerrabas"],"vos":["cerrabas"],"s3":["cerraba"],"p1":["cerrábamos"],"p2":["cerrabais"],"p3":["cerraban"]},

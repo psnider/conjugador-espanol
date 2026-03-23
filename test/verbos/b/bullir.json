@@ -6,7 +6,7 @@
     "etimologia": "Del latín bullire.",
     "modelos": ["escabullir"]
   },
-  "formas_no_personales": {"infinitivo":"bullir","gerundio":"bullendo","participio":"bullido"},
+  "formas_no_personales": {"infinitivo":"bullir","gerundio":["bullendo"], "participio":["bullido"]},
   "formas_personales": {
     "IndPres": {"s1":["bullo"],"s2":["bulles"],"vos":["bullís"],"s3":["bulle"],"p1":["bullimos"],"p2":["bullís"],"p3":["bullen"]},
     "IndImp": {"s1":["bullía"],"s2":["bullías"],"vos":["bullías"],"s3":["bullía"],"p1":["bullíamos"],"p2":["bullíais"],"p3":["bullían"]},

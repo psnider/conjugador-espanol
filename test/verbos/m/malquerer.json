@@ -6,7 +6,7 @@
     "etimologia": "Compuesto de mal y querer",
     "modelos": ["entender","querer"]
   },
-  "formas_no_personales": {"infinitivo":"malquerer","gerundio":"malqueriendo","participio":"malquerido"},
+  "formas_no_personales": {"infinitivo":"malquerer","gerundio":["malqueriendo"], "participio":["malquerido"]},
   "formas_personales": {
     "IndPres": {"s1":["malquiero"],"s2":["malquieres"],"vos":["malquerés"],"s3":["malquiere"],"p1":["malqueremos"],"p2":["malqueréis"],"p3":["malquieren"]},
     "IndImp": {"s1":["malquería"],"s2":["malquerías"],"vos":["malquerías"],"s3":["malquería"],"p1":["malqueríamos"],"p2":["malqueríais"],"p3":["malquerían"]},

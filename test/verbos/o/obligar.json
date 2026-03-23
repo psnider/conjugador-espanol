@@ -6,7 +6,7 @@
     "etimologia": "Del latín obligare.[1]",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"obligar","gerundio":"obligando","participio":"obligado"},
+  "formas_no_personales": {"infinitivo":"obligar","gerundio":["obligando"], "participio":["obligado"]},
   "formas_personales": {
     "IndPres": {"s1":["obligo"],"s2":["obligas"],"vos":["obligás"],"s3":["obliga"],"p1":["obligamos"],"p2":["obligáis"],"p3":["obligan"]},
     "IndImp": {"s1":["obligaba"],"s2":["obligabas"],"vos":["obligabas"],"s3":["obligaba"],"p1":["obligábamos"],"p2":["obligabais"],"p3":["obligaban"]},

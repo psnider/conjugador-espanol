@@ -6,7 +6,7 @@
     "etimologia": "Del latín contrahere.",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"contraer","gerundio":"contrayendo","participio":"contraído"},
+  "formas_no_personales": {"infinitivo":"contraer","gerundio":["contrayendo"], "participio":["contraído"]},
   "formas_personales": {
     "IndPres": {"s1":["contraigo"],"s2":["contraes"],"vos":["contraés"],"s3":["contrae"],"p1":["contraemos"],"p2":["contraéis"],"p3":["contraen"]},
     "IndImp": {"s1":["contraía"],"s2":["contraías"],"vos":["contraías"],"s3":["contraía"],"p1":["contraíamos"],"p2":["contraíais"],"p3":["contraían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atinar","gerundio":"atinando","participio":"atinado"},
+  "formas_no_personales": {"infinitivo":"atinar","gerundio":["atinando"], "participio":["atinado"]},
   "formas_personales": {
     "IndPres": {"s1":["atino"],"s2":["atinas"],"vos":["atinás"],"s3":["atina"],"p1":["atinamos"],"p2":["atináis"],"p3":["atinan"]},
     "IndImp": {"s1":["atinaba"],"s2":["atinabas"],"vos":["atinabas"],"s3":["atinaba"],"p1":["atinábamos"],"p2":["atinabais"],"p3":["atinaban"]},

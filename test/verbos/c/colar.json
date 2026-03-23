@@ -6,7 +6,7 @@
     "etimologia": "Del latín colare.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"colar","gerundio":"colando","participio":"colado"},
+  "formas_no_personales": {"infinitivo":"colar","gerundio":["colando"], "participio":["colado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuelo"],"s2":["cuelas"],"vos":["colás"],"s3":["cuela"],"p1":["colamos"],"p2":["coláis"],"p3":["cuelan"]},
     "IndImp": {"s1":["colaba"],"s2":["colabas"],"vos":["colabas"],"s3":["colaba"],"p1":["colábamos"],"p2":["colabais"],"p3":["colaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín extendĕre",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"extender","gerundio":"extendiendo","participio":"extendido"},
+  "formas_no_personales": {"infinitivo":"extender","gerundio":["extendiendo"], "participio":["extendido"]},
   "formas_personales": {
     "IndPres": {"s1":["extiendo"],"s2":["extiendes"],"vos":["extendés"],"s3":["extiende"],"p1":["extendemos"],"p2":["extendéis"],"p3":["extienden"]},
     "IndImp": {"s1":["extendía"],"s2":["extendías"],"vos":["extendías"],"s3":["extendía"],"p1":["extendíamos"],"p2":["extendíais"],"p3":["extendían"]},

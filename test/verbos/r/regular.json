@@ -6,7 +6,7 @@
     "etimologia": "Del latín regulāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"regular","gerundio":"regulando","participio":"regulado"},
+  "formas_no_personales": {"infinitivo":"regular","gerundio":["regulando"], "participio":["regulado"]},
   "formas_personales": {
     "IndPres": {"s1":["regulo"],"s2":["regulas"],"vos":["regulás"],"s3":["regula"],"p1":["regulamos"],"p2":["reguláis"],"p3":["regulan"]},
     "IndImp": {"s1":["regulaba"],"s2":["regulabas"],"vos":["regulabas"],"s3":["regulaba"],"p1":["regulábamos"],"p2":["regulabais"],"p3":["regulaban"]},

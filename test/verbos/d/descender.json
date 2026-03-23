@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"descender","gerundio":"descendiendo","participio":"descendido"},
+  "formas_no_personales": {"infinitivo":"descender","gerundio":["descendiendo"], "participio":["descendido"]},
   "formas_personales": {
     "IndPres": {"s1":["desciendo"],"s2":["desciendes"],"vos":["descendés"],"s3":["desciende"],"p1":["descendemos"],"p2":["descendéis"],"p3":["descienden"]},
     "IndImp": {"s1":["descendía"],"s2":["descendías"],"vos":["descendías"],"s3":["descendía"],"p1":["descendíamos"],"p2":["descendíais"],"p3":["descendían"]},

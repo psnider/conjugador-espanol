@@ -6,7 +6,7 @@
     "etimologia": "Del latín perforare, \"pasar de parte a parte\"; compuesto de la per&nbsp;('a través'), y forare&nbsp;('horadar'), y este de una raíz protoindoeuropea.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"perforar","gerundio":"perforando","participio":"perforado"},
+  "formas_no_personales": {"infinitivo":"perforar","gerundio":["perforando"], "participio":["perforado"]},
   "formas_personales": {
     "IndPres": {"s1":["perforo"],"s2":["perforas"],"vos":["perforás"],"s3":["perfora"],"p1":["perforamos"],"p2":["perforáis"],"p3":["perforan"]},
     "IndImp": {"s1":["perforaba"],"s2":["perforabas"],"vos":["perforabas"],"s3":["perforaba"],"p1":["perforábamos"],"p2":["perforabais"],"p3":["perforaban"]},

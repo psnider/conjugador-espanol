@@ -6,7 +6,7 @@
     "etimologia": "Del latín medieval cultivare, y este de cultivus, \"cultivado\", del clásico cultus, participio de colere, a su vez del preclásico *quelō, en última instancia del protoindoeuropeo *kʷel-, \"remover\"",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cultivar","gerundio":"cultivando","participio":"cultivado"},
+  "formas_no_personales": {"infinitivo":"cultivar","gerundio":["cultivando"], "participio":["cultivado"]},
   "formas_personales": {
     "IndPres": {"s1":["cultivo"],"s2":["cultivas"],"vos":["cultivás"],"s3":["cultiva"],"p1":["cultivamos"],"p2":["cultiváis"],"p3":["cultivan"]},
     "IndImp": {"s1":["cultivaba"],"s2":["cultivabas"],"vos":["cultivabas"],"s3":["cultivaba"],"p1":["cultivábamos"],"p2":["cultivabais"],"p3":["cultivaban"]},

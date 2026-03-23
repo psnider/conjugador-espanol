@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar plovĕre, y este del latín pluere ('pluĕre').",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"llover","gerundio":"lloviendo","participio":"llovido"},
+  "formas_no_personales": {"infinitivo":"llover","gerundio":["lloviendo"], "participio":["llovido"]},
   "formas_personales": {
     "IndPres": {"s1":["lluevo"],"s2":["llueves"],"vos":["llovés"],"s3":["llueve"],"p1":["llovemos"],"p2":["llovéis"],"p3":["llueven"]},
     "IndImp": {"s1":["llovía"],"s2":["llovías"],"vos":["llovías"],"s3":["llovía"],"p1":["llovíamos"],"p2":["llovíais"],"p3":["llovían"]},

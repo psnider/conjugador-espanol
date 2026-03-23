@@ -5,7 +5,7 @@
     "etimologia": "Del latín pronuntiāre",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"pronunciar","gerundio":"pronunciando","participio":"pronunciado"},
+  "formas_no_personales": {"infinitivo":"pronunciar","gerundio":["pronunciando"], "participio":["pronunciado"]},
   "formas_personales": {
     "IndPres": {"s1":["pronuncio"],"s2":["pronuncias"],"vos":["pronunciás"],"s3":["pronuncia"],"p1":["pronunciamos"],"p2":["pronunciáis"],"p3":["pronuncian"]},
     "IndImp": {"s1":["pronunciaba"],"s2":["pronunciabas"],"vos":["pronunciabas"],"s3":["pronunciaba"],"p1":["pronunciábamos"],"p2":["pronunciabais"],"p3":["pronunciaban"]},

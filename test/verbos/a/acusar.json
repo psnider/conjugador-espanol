@@ -6,7 +6,7 @@
     "etimologia": "Del latín accūsō, accūsāre,[1] compuesto del latín causa.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acusar","gerundio":"acusando","participio":"acusado"},
+  "formas_no_personales": {"infinitivo":"acusar","gerundio":["acusando"], "participio":["acusado"]},
   "formas_personales": {
     "IndPres": {"s1":["acuso"],"s2":["acusas"],"vos":["acusás"],"s3":["acusa"],"p1":["acusamos"],"p2":["acusáis"],"p3":["acusan"]},
     "IndImp": {"s1":["acusaba"],"s2":["acusabas"],"vos":["acusabas"],"s3":["acusaba"],"p1":["acusábamos"],"p2":["acusabais"],"p3":["acusaban"]},

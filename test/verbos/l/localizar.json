@@ -6,7 +6,7 @@
     "etimologia": "De local y el sufijo -izar",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"localizar","gerundio":"localizando","participio":"localizado"},
+  "formas_no_personales": {"infinitivo":"localizar","gerundio":["localizando"], "participio":["localizado"]},
   "formas_personales": {
     "IndPres": {"s1":["localizo"],"s2":["localizas"],"vos":["localizás"],"s3":["localiza"],"p1":["localizamos"],"p2":["localizáis"],"p3":["localizan"]},
     "IndImp": {"s1":["localizaba"],"s2":["localizabas"],"vos":["localizabas"],"s3":["localizaba"],"p1":["localizábamos"],"p2":["localizabais"],"p3":["localizaban"]},

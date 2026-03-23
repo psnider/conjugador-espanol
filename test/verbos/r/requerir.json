@@ -6,7 +6,7 @@
     "etimologia": "Del latín requirere.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"requerir","gerundio":"requiriendo","participio":"requerido"},
+  "formas_no_personales": {"infinitivo":"requerir","gerundio":["requiriendo"], "participio":["requerido"]},
   "formas_personales": {
     "IndPres": {"s1":["requiero"],"s2":["requieres"],"vos":["requerís"],"s3":["requiere"],"p1":["requerimos"],"p2":["requerís"],"p3":["requieren"]},
     "IndImp": {"s1":["requería"],"s2":["requerías"],"vos":["requerías"],"s3":["requería"],"p1":["requeríamos"],"p2":["requeríais"],"p3":["requerían"]},

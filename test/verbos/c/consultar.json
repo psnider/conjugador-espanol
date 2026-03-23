@@ -6,7 +6,7 @@
     "etimologia": "Del latín consultare ('intensivo de cosulere'), consultar, deliberar (Dice el DRAE).",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"consultar","gerundio":"consultando","participio":"consultado"},
+  "formas_no_personales": {"infinitivo":"consultar","gerundio":["consultando"], "participio":["consultado"]},
   "formas_personales": {
     "IndPres": {"s1":["consulto"],"s2":["consultas"],"vos":["consultás"],"s3":["consulta"],"p1":["consultamos"],"p2":["consultáis"],"p3":["consultan"]},
     "IndImp": {"s1":["consultaba"],"s2":["consultabas"],"vos":["consultabas"],"s3":["consultaba"],"p1":["consultábamos"],"p2":["consultabais"],"p3":["consultaban"]},

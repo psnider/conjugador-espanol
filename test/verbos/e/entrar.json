@@ -6,7 +6,7 @@
     "etimologia": "Del latín intrare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"entrar","gerundio":"entrando","participio":"entrado"},
+  "formas_no_personales": {"infinitivo":"entrar","gerundio":["entrando"], "participio":["entrado"]},
   "formas_personales": {
     "IndPres": {"s1":["entro"],"s2":["entras"],"vos":["entrás"],"s3":["entra"],"p1":["entramos"],"p2":["entráis"],"p3":["entran"]},
     "IndImp": {"s1":["entraba"],"s2":["entrabas"],"vos":["entrabas"],"s3":["entraba"],"p1":["entrábamos"],"p2":["entrabais"],"p3":["entraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín codex, -ĭcis&nbsp;('código'), y el sufijo -ficar.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"codificar","gerundio":"codificando","participio":"codificado"},
+  "formas_no_personales": {"infinitivo":"codificar","gerundio":["codificando"], "participio":["codificado"]},
   "formas_personales": {
     "IndPres": {"s1":["codifico"],"s2":["codificas"],"vos":["codificás"],"s3":["codifica"],"p1":["codificamos"],"p2":["codificáis"],"p3":["codifican"]},
     "IndImp": {"s1":["codificaba"],"s2":["codificabas"],"vos":["codificabas"],"s3":["codificaba"],"p1":["codificábamos"],"p2":["codificabais"],"p3":["codificaban"]},

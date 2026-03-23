@@ -6,7 +6,7 @@
     "etimologia": "Del latín aptare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atar","gerundio":"atando","participio":"atado"},
+  "formas_no_personales": {"infinitivo":"atar","gerundio":["atando"], "participio":["atado"]},
   "formas_personales": {
     "IndPres": {"s1":["ato"],"s2":["atas"],"vos":["atás"],"s3":["ata"],"p1":["atamos"],"p2":["atáis"],"p3":["atan"]},
     "IndImp": {"s1":["ataba"],"s2":["atabas"],"vos":["atabas"],"s3":["ataba"],"p1":["atábamos"],"p2":["atabais"],"p3":["ataban"]},

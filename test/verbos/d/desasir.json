@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y asir.",
     "modelos": ["asir"]
   },
-  "formas_no_personales": {"infinitivo":"desasir","gerundio":"desasiendo","participio":"desasido"},
+  "formas_no_personales": {"infinitivo":"desasir","gerundio":["desasiendo"], "participio":["desasido"]},
   "formas_personales": {
     "IndPres": {"s1":["desasgo"],"s2":["desases"],"vos":["desasís"],"s3":["desase"],"p1":["desasimos"],"p2":["desasís"],"p3":["desasen"]},
     "IndImp": {"s1":["desasía"],"s2":["desasías"],"vos":["desasías"],"s3":["desasía"],"p1":["desasíamos"],"p2":["desasíais"],"p3":["desasían"]},

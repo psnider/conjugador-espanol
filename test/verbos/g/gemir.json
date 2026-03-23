@@ -6,7 +6,7 @@
     "etimologia": "Del latín gemere.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"gemir","gerundio":"gimiendo","participio":"gemido"},
+  "formas_no_personales": {"infinitivo":"gemir","gerundio":["gimiendo"], "participio":["gemido"]},
   "formas_personales": {
     "IndPres": {"s1":["gimo"],"s2":["gimes"],"vos":["gemís"],"s3":["gime"],"p1":["gemimos"],"p2":["gemís"],"p3":["gimen"]},
     "IndImp": {"s1":["gemía"],"s2":["gemías"],"vos":["gemías"],"s3":["gemía"],"p1":["gemíamos"],"p2":["gemíais"],"p3":["gemían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín quassare (\"golpear con violencia\"), habiendo pasado al latín vulgar como *quassiare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"quejar","gerundio":"quejando","participio":"quejado"},
+  "formas_no_personales": {"infinitivo":"quejar","gerundio":["quejando"], "participio":["quejado"]},
   "formas_personales": {
     "IndPres": {"s1":["quejo"],"s2":["quejas"],"vos":["quejás"],"s3":["queja"],"p1":["quejamos"],"p2":["quejáis"],"p3":["quejan"]},
     "IndImp": {"s1":["quejaba"],"s2":["quejabas"],"vos":["quejabas"],"s3":["quejaba"],"p1":["quejábamos"],"p2":["quejabais"],"p3":["quejaban"]},

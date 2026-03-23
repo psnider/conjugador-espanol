@@ -6,7 +6,7 @@
     "etimologia": "Del latín caecāre.",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"cegar","gerundio":"cegando","participio":"cegado"},
+  "formas_no_personales": {"infinitivo":"cegar","gerundio":["cegando"], "participio":["cegado"]},
   "formas_personales": {
     "IndPres": {"s1":["ciego"],"s2":["ciegas"],"vos":["cegás"],"s3":["ciega"],"p1":["cegamos"],"p2":["cegáis"],"p3":["ciegan"]},
     "IndImp": {"s1":["cegaba"],"s2":["cegabas"],"vos":["cegabas"],"s3":["cegaba"],"p1":["cegábamos"],"p2":["cegabais"],"p3":["cegaban"]},

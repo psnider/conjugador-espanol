@@ -6,7 +6,7 @@
     "etimologia": "Del latín detinēre, infinitivo activo de presente de dētineō",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"detener","gerundio":"deteniendo","participio":"detenido"},
+  "formas_no_personales": {"infinitivo":"detener","gerundio":["deteniendo"], "participio":["detenido"]},
   "formas_personales": {
     "IndPres": {"s1":["detengo"],"s2":["detienes"],"vos":["detenés"],"s3":["detiene"],"p1":["detenemos"],"p2":["detenéis"],"p3":["detienen"]},
     "IndImp": {"s1":["detenía"],"s2":["detenías"],"vos":["detenías"],"s3":["detenía"],"p1":["deteníamos"],"p2":["deteníais"],"p3":["detenían"]},

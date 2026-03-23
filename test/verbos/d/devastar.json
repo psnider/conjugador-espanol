@@ -6,7 +6,7 @@
     "etimologia": "Del latín dēvastō, dēvastāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"devastar","gerundio":"devastando","participio":"devastado"},
+  "formas_no_personales": {"infinitivo":"devastar","gerundio":["devastando"], "participio":["devastado"]},
   "formas_personales": {
     "IndPres": {"s1":["devasto"],"s2":["devastas"],"vos":["devastás"],"s3":["devasta"],"p1":["devastamos"],"p2":["devastáis"],"p3":["devastan"]},
     "IndImp": {"s1":["devastaba"],"s2":["devastabas"],"vos":["devastabas"],"s3":["devastaba"],"p1":["devastábamos"],"p2":["devastabais"],"p3":["devastaban"]},

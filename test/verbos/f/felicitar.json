@@ -6,7 +6,7 @@
     "etimologia": "Del latín felicitare (\"hacer feliz\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"felicitar","gerundio":"felicitando","participio":"felicitado"},
+  "formas_no_personales": {"infinitivo":"felicitar","gerundio":["felicitando"], "participio":["felicitado"]},
   "formas_personales": {
     "IndPres": {"s1":["felicito"],"s2":["felicitas"],"vos":["felicitás"],"s3":["felicita"],"p1":["felicitamos"],"p2":["felicitáis"],"p3":["felicitan"]},
     "IndImp": {"s1":["felicitaba"],"s2":["felicitabas"],"vos":["felicitabas"],"s3":["felicitaba"],"p1":["felicitábamos"],"p2":["felicitabais"],"p3":["felicitaban"]},

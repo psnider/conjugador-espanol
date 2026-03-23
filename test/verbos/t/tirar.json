@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *tīrāre, y este de origen incierto, presuntamente germánico.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tirar","gerundio":"tirando","participio":"tirado"},
+  "formas_no_personales": {"infinitivo":"tirar","gerundio":["tirando"], "participio":["tirado"]},
   "formas_personales": {
     "IndPres": {"s1":["tiro"],"s2":["tiras"],"vos":["tirás"],"s3":["tira"],"p1":["tiramos"],"p2":["tiráis"],"p3":["tiran"]},
     "IndImp": {"s1":["tiraba"],"s2":["tirabas"],"vos":["tirabas"],"s3":["tiraba"],"p1":["tirábamos"],"p2":["tirabais"],"p3":["tiraban"]},

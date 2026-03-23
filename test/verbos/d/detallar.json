@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"detallar","gerundio":"detallando","participio":"detallado"},
+  "formas_no_personales": {"infinitivo":"detallar","gerundio":["detallando"], "participio":["detallado"]},
   "formas_personales": {
     "IndPres": {"s1":["detallo"],"s2":["detallas"],"vos":["detallás"],"s3":["detalla"],"p1":["detallamos"],"p2":["detalláis"],"p3":["detallan"]},
     "IndImp": {"s1":["detallaba"],"s2":["detallabas"],"vos":["detallabas"],"s3":["detallaba"],"p1":["detallábamos"],"p2":["detallabais"],"p3":["detallaban"]},

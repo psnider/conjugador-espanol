@@ -6,7 +6,7 @@
     "etimologia": "Del latín polīre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"pulir","gerundio":"puliendo","participio":"pulido"},
+  "formas_no_personales": {"infinitivo":"pulir","gerundio":["puliendo"], "participio":["pulido"]},
   "formas_personales": {
     "IndPres": {"s1":["pulo"],"s2":["pules"],"vos":["pulís"],"s3":["pule"],"p1":["pulimos"],"p2":["pulís"],"p3":["pulen"]},
     "IndImp": {"s1":["pulía"],"s2":["pulías"],"vos":["pulías"],"s3":["pulía"],"p1":["pulíamos"],"p2":["pulíais"],"p3":["pulían"]},

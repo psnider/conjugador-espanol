@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"proliferar","gerundio":"proliferando","participio":"proliferado"},
+  "formas_no_personales": {"infinitivo":"proliferar","gerundio":["proliferando"], "participio":["proliferado"]},
   "formas_personales": {
     "IndPres": {"s1":["prolifero"],"s2":["proliferas"],"vos":["proliferás"],"s3":["prolifera"],"p1":["proliferamos"],"p2":["proliferáis"],"p3":["proliferan"]},
     "IndImp": {"s1":["proliferaba"],"s2":["proliferabas"],"vos":["proliferabas"],"s3":["proliferaba"],"p1":["proliferábamos"],"p2":["proliferabais"],"p3":["proliferaban"]},

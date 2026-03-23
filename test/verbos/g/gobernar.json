@@ -6,7 +6,7 @@
     "etimologia": "Del latín gubernare.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"gobernar","gerundio":"gobernando","participio":"gobernado"},
+  "formas_no_personales": {"infinitivo":"gobernar","gerundio":["gobernando"], "participio":["gobernado"]},
   "formas_personales": {
     "IndPres": {"s1":["gobierno"],"s2":["gobiernas"],"vos":["gobernás"],"s3":["gobierna"],"p1":["gobernamos"],"p2":["gobernáis"],"p3":["gobiernan"]},
     "IndImp": {"s1":["gobernaba"],"s2":["gobernabas"],"vos":["gobernabas"],"s3":["gobernaba"],"p1":["gobernábamos"],"p2":["gobernabais"],"p3":["gobernaban"]},

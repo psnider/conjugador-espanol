@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"incubar","gerundio":"incubando","participio":"incubado"},
+  "formas_no_personales": {"infinitivo":"incubar","gerundio":["incubando"], "participio":["incubado"]},
   "formas_personales": {
     "IndPres": {"s1":["incubo"],"s2":["incubas"],"vos":["incubás"],"s3":["incuba"],"p1":["incubamos"],"p2":["incubáis"],"p3":["incuban"]},
     "IndImp": {"s1":["incubaba"],"s2":["incubabas"],"vos":["incubabas"],"s3":["incubaba"],"p1":["incubábamos"],"p2":["incubabais"],"p3":["incubaban"]},

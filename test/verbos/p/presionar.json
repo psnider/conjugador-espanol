@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"presionar","gerundio":"presionando","participio":"presionado"},
+  "formas_no_personales": {"infinitivo":"presionar","gerundio":["presionando"], "participio":["presionado"]},
   "formas_personales": {
     "IndPres": {"s1":["presiono"],"s2":["presionas"],"vos":["presionás"],"s3":["presiona"],"p1":["presionamos"],"p2":["presionáis"],"p3":["presionan"]},
     "IndImp": {"s1":["presionaba"],"s2":["presionabas"],"vos":["presionabas"],"s3":["presionaba"],"p1":["presionábamos"],"p2":["presionabais"],"p3":["presionaban"]},

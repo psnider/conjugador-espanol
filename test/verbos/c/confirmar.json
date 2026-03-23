@@ -6,7 +6,7 @@
     "etimologia": "Del latín confirmāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"confirmar","gerundio":"confirmando","participio":"confirmado"},
+  "formas_no_personales": {"infinitivo":"confirmar","gerundio":["confirmando"], "participio":["confirmado"]},
   "formas_personales": {
     "IndPres": {"s1":["confirmo"],"s2":["confirmas"],"vos":["confirmás"],"s3":["confirma"],"p1":["confirmamos"],"p2":["confirmáis"],"p3":["confirman"]},
     "IndImp": {"s1":["confirmaba"],"s2":["confirmabas"],"vos":["confirmabas"],"s3":["confirmaba"],"p1":["confirmábamos"],"p2":["confirmabais"],"p3":["confirmaban"]},

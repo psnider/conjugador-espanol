@@ -6,7 +6,7 @@
     "etimologia": "Del latín dissolvĕre ('separar'), compuesto por el sufijo dis- y el verbo transitivo solvo: soltar.",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"disolver","gerundio":"disolviendo","participio":"disuelto"},
+  "formas_no_personales": {"infinitivo":"disolver","gerundio":["disolviendo"], "participio":["disuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["disuelvo"],"s2":["disuelves"],"vos":["disolvés"],"s3":["disuelve"],"p1":["disolvemos"],"p2":["disolvéis"],"p3":["disuelven"]},
     "IndImp": {"s1":["disolvía"],"s2":["disolvías"],"vos":["disolvías"],"s3":["disolvía"],"p1":["disolvíamos"],"p2":["disolvíais"],"p3":["disolvían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín examplāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ensanchar","gerundio":"ensanchando","participio":"ensanchado"},
+  "formas_no_personales": {"infinitivo":"ensanchar","gerundio":["ensanchando"], "participio":["ensanchado"]},
   "formas_personales": {
     "IndPres": {"s1":["ensancho"],"s2":["ensanchas"],"vos":["ensanchás"],"s3":["ensancha"],"p1":["ensanchamos"],"p2":["ensancháis"],"p3":["ensanchan"]},
     "IndImp": {"s1":["ensanchaba"],"s2":["ensanchabas"],"vos":["ensanchabas"],"s3":["ensanchaba"],"p1":["ensanchábamos"],"p2":["ensanchabais"],"p3":["ensanchaban"]},

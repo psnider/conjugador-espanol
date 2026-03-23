@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fiɣ̞uˈɾaɾ]",
+    "silabacion": "fi-gu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"figurar","gerundio":["figurando"],"participio":["figurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["figuro"],"s2":["figuras"],"vos":["figurás"],"s3":["figura"],"p1":["figuramos"],"p2":["figuráis"],"p3":["figuran"]},
+    "IndImp": {"s1":["figuraba"],"s2":["figurabas"],"vos":["figurabas"],"s3":["figuraba"],"p1":["figurábamos"],"p2":["figurabais"],"p3":["figuraban"]},
+    "IndPret": {"s1":["figuré"],"s2":["figuraste"],"vos":["figuraste"],"s3":["figuró"],"p1":["figuramos"],"p2":["figurasteis"],"p3":["figuraron"]},
+    "IndFut": {"s1":["figuraré"],"s2":["figurarás"],"vos":["figurarás"],"s3":["figurará"],"p1":["figuraremos"],"p2":["figuraréis"],"p3":["figurarán"]},
+    "IndCond": {"s1":["figuraría"],"s2":["figurarías"],"vos":["figurarías"],"s3":["figuraría"],"p1":["figuraríamos"],"p2":["figuraríais"],"p3":["figurarían"]},
+    "SubPres": {"s1":["figure"],"s2":["figures"],"vos":["figures","figurés"],"s3":["figure"],"p1":["figuremos"],"p2":["figuréis"],"p3":["figuren"]},
+    "SubImp": {"s1":["figurara","figurase"],"s2":["figuraras","figurases"],"vos":["figuraras","figurases"],"s3":["figurara","figurase"],"p1":["figuráramos","figurásemos"],"p2":["figurarais","figuraseis"],"p3":["figuraran","figurasen"]},
+    "SubFut": {"s1":["figurare"],"s2":["figurares"],"vos":["figurares"],"s3":["figurare"],"p1":["figuráremos"],"p2":["figurareis"],"p3":["figuraren"]},
+    "CmdPos": {"s2":["figura"],"vos":["figurá"],"s3":["figure"],"p1":["figuremos"],"p2":["figurad"],"p3":["figuren"]}
+  }
+}

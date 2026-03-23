@@ -6,7 +6,7 @@
     "etimologia": "De congestión y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"congestionar","gerundio":"congestionando","participio":"congestionado"},
+  "formas_no_personales": {"infinitivo":"congestionar","gerundio":["congestionando"], "participio":["congestionado"]},
   "formas_personales": {
     "IndPres": {"s1":["congestiono"],"s2":["congestionas"],"vos":["congestionás"],"s3":["congestiona"],"p1":["congestionamos"],"p2":["congestionáis"],"p3":["congestionan"]},
     "IndImp": {"s1":["congestionaba"],"s2":["congestionabas"],"vos":["congestionabas"],"s3":["congestionaba"],"p1":["congestionábamos"],"p2":["congestionabais"],"p3":["congestionaban"]},

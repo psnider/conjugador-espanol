@@ -6,7 +6,7 @@
     "etimologia": "Del latín consolāre.[1]",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"consolar","gerundio":"consolando","participio":"consolado"},
+  "formas_no_personales": {"infinitivo":"consolar","gerundio":["consolando"], "participio":["consolado"]},
   "formas_personales": {
     "IndPres": {"s1":["consuelo"],"s2":["consuelas"],"vos":["consolás"],"s3":["consuela"],"p1":["consolamos"],"p2":["consoláis"],"p3":["consuelan"]},
     "IndImp": {"s1":["consolaba"],"s2":["consolabas"],"vos":["consolabas"],"s3":["consolaba"],"p1":["consolábamos"],"p2":["consolabais"],"p3":["consolaban"]},

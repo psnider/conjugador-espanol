@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y ayunar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desayunar","gerundio":"desayunando","participio":"desayunado"},
+  "formas_no_personales": {"infinitivo":"desayunar","gerundio":["desayunando"], "participio":["desayunado"]},
   "formas_personales": {
     "IndPres": {"s1":["desayuno"],"s2":["desayunas"],"vos":["desayunás"],"s3":["desayuna"],"p1":["desayunamos"],"p2":["desayunáis"],"p3":["desayunan"]},
     "IndImp": {"s1":["desayunaba"],"s2":["desayunabas"],"vos":["desayunabas"],"s3":["desayunaba"],"p1":["desayunábamos"],"p2":["desayunabais"],"p3":["desayunaban"]},

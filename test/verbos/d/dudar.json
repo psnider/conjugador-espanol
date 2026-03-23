@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1200.[1] Del latín dubitāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dudar","gerundio":"dudando","participio":"dudado"},
+  "formas_no_personales": {"infinitivo":"dudar","gerundio":["dudando"], "participio":["dudado"]},
   "formas_personales": {
     "IndPres": {"s1":["dudo"],"s2":["dudas"],"vos":["dudás"],"s3":["duda"],"p1":["dudamos"],"p2":["dudáis"],"p3":["dudan"]},
     "IndImp": {"s1":["dudaba"],"s2":["dudabas"],"vos":["dudabas"],"s3":["dudaba"],"p1":["dudábamos"],"p2":["dudabais"],"p3":["dudaban"]},

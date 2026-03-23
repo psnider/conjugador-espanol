@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"documentar","gerundio":"documentando","participio":"documentado"},
+  "formas_no_personales": {"infinitivo":"documentar","gerundio":["documentando"], "participio":["documentado"]},
   "formas_personales": {
     "IndPres": {"s1":["documento"],"s2":["documentas"],"vos":["documentás"],"s3":["documenta"],"p1":["documentamos"],"p2":["documentáis"],"p3":["documentan"]},
     "IndImp": {"s1":["documentaba"],"s2":["documentabas"],"vos":["documentabas"],"s3":["documentaba"],"p1":["documentábamos"],"p2":["documentabais"],"p3":["documentaban"]},

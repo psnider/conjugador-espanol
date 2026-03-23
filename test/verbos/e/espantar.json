@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo espantar ('espantar'), y este del latín vulgar *expaventāre&nbsp;('aterrorizar'), del latín expavēre. Cognado del catalán espantar, el francés épouvanter, el italiano spaventare, el judeoespañol espantar y el portugués espantar. Compárese el rumano înspăimânta.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"espantar","gerundio":"espantando","participio":"espantado"},
+  "formas_no_personales": {"infinitivo":"espantar","gerundio":["espantando"], "participio":["espantado"]},
   "formas_personales": {
     "IndPres": {"s1":["espanto"],"s2":["espantas"],"vos":["espantás"],"s3":["espanta"],"p1":["espantamos"],"p2":["espantáis"],"p3":["espantan"]},
     "IndImp": {"s1":["espantaba"],"s2":["espantabas"],"vos":["espantabas"],"s3":["espantaba"],"p1":["espantábamos"],"p2":["espantabais"],"p3":["espantaban"]},

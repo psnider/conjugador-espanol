@@ -6,7 +6,7 @@
     "etimologia": "Del latín dissuadēre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"disuadir","gerundio":"disuadiendo","participio":"disuadido"},
+  "formas_no_personales": {"infinitivo":"disuadir","gerundio":["disuadiendo"], "participio":["disuadido"]},
   "formas_personales": {
     "IndPres": {"s1":["disuado"],"s2":["disuades"],"vos":["disuadís"],"s3":["disuade"],"p1":["disuadimos"],"p2":["disuadís"],"p3":["disuaden"]},
     "IndImp": {"s1":["disuadía"],"s2":["disuadías"],"vos":["disuadías"],"s3":["disuadía"],"p1":["disuadíamos"],"p2":["disuadíais"],"p3":["disuadían"]},

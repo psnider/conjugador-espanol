@@ -6,7 +6,7 @@
     "etimologia": "Del latín invertĕre",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"invertir","gerundio":"invirtiendo","participio":"invertido"},
+  "formas_no_personales": {"infinitivo":"invertir","gerundio":["invirtiendo"], "participio":["invertido"]},
   "formas_personales": {
     "IndPres": {"s1":["invierto"],"s2":["inviertes"],"vos":["invertís"],"s3":["invierte"],"p1":["invertimos"],"p2":["invertís"],"p3":["invierten"]},
     "IndImp": {"s1":["invertía"],"s2":["invertías"],"vos":["invertías"],"s3":["invertía"],"p1":["invertíamos"],"p2":["invertíais"],"p3":["invertían"]},

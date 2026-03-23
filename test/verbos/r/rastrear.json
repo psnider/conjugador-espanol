@@ -6,7 +6,7 @@
     "etimologia": "De rastro y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rastrear","gerundio":"rastreando","participio":"rastreado"},
+  "formas_no_personales": {"infinitivo":"rastrear","gerundio":["rastreando"], "participio":["rastreado"]},
   "formas_personales": {
     "IndPres": {"s1":["rastreo"],"s2":["rastreas"],"vos":["rastreás"],"s3":["rastrea"],"p1":["rastreamos"],"p2":["rastreáis"],"p3":["rastrean"]},
     "IndImp": {"s1":["rastreaba"],"s2":["rastreabas"],"vos":["rastreabas"],"s3":["rastreaba"],"p1":["rastreábamos"],"p2":["rastreabais"],"p3":["rastreaban"]},

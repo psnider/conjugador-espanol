@@ -6,7 +6,7 @@
     "etimologia": "Del latín crepāre ‘crujir, chasquear, estallar’.[1] Sufrió un proceso de metátesis, por lo que la -r pasó a estar entre el sonido oclusivo (que sonorizó en -b) y la vocal.[2]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"quebrar","gerundio":"quebrando","participio":"quebrado"},
+  "formas_no_personales": {"infinitivo":"quebrar","gerundio":["quebrando"], "participio":["quebrado"]},
   "formas_personales": {
     "IndPres": {"s1":["quiebro"],"s2":["quiebras"],"vos":["quebrás"],"s3":["quiebra"],"p1":["quebramos"],"p2":["quebráis"],"p3":["quiebran"]},
     "IndImp": {"s1":["quebraba"],"s2":["quebrabas"],"vos":["quebrabas"],"s3":["quebraba"],"p1":["quebrábamos"],"p2":["quebrabais"],"p3":["quebraban"]},

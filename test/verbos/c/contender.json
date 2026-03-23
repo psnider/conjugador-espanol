@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"contender","gerundio":"contendiendo","participio":"contendido"},
+  "formas_no_personales": {"infinitivo":"contender","gerundio":["contendiendo"], "participio":["contendido"]},
   "formas_personales": {
     "IndPres": {"s1":["contiendo"],"s2":["contiendes"],"vos":["contendés"],"s3":["contiende"],"p1":["contendemos"],"p2":["contendéis"],"p3":["contienden"]},
     "IndImp": {"s1":["contendía"],"s2":["contendías"],"vos":["contendías"],"s3":["contendía"],"p1":["contendíamos"],"p2":["contendíais"],"p3":["contendían"]},

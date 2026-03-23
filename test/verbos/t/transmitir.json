@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"transmitir","gerundio":"transmitiendo","participio":"transmitido"},
+  "formas_no_personales": {"infinitivo":"transmitir","gerundio":["transmitiendo"], "participio":["transmitido"]},
   "formas_personales": {
     "IndPres": {"s1":["transmito"],"s2":["transmites"],"vos":["transmitís"],"s3":["transmite"],"p1":["transmitimos"],"p2":["transmitís"],"p3":["transmiten"]},
     "IndImp": {"s1":["transmitía"],"s2":["transmitías"],"vos":["transmitías"],"s3":["transmitía"],"p1":["transmitíamos"],"p2":["transmitíais"],"p3":["transmitían"]},

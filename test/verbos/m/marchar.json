@@ -6,7 +6,7 @@
     "etimologia": "Del francés marcher",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"marchar","gerundio":"marchando","participio":"marchado"},
+  "formas_no_personales": {"infinitivo":"marchar","gerundio":["marchando"], "participio":["marchado"]},
   "formas_personales": {
     "IndPres": {"s1":["marcho"],"s2":["marchas"],"vos":["marchás"],"s3":["marcha"],"p1":["marchamos"],"p2":["marcháis"],"p3":["marchan"]},
     "IndImp": {"s1":["marchaba"],"s2":["marchabas"],"vos":["marchabas"],"s3":["marchaba"],"p1":["marchábamos"],"p2":["marchabais"],"p3":["marchaban"]},

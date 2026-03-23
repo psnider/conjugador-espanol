@@ -6,7 +6,7 @@
     "etimologia": "Del latín absorbeō, absorbēre, formado de ab&nbsp;('a') y sorbeō, sorbēre&nbsp;('sorber').",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"absorber","gerundio":"absorbiendo","participio":"absorbido"},
+  "formas_no_personales": {"infinitivo":"absorber","gerundio":["absorbiendo"], "participio":["absorbido"]},
   "formas_personales": {
     "IndPres": {"s1":["absorbo"],"s2":["absorbes"],"vos":["absorbés"],"s3":["absorbe"],"p1":["absorbemos"],"p2":["absorbéis"],"p3":["absorben"]},
     "IndImp": {"s1":["absorbía"],"s2":["absorbías"],"vos":["absorbías"],"s3":["absorbía"],"p1":["absorbíamos"],"p2":["absorbíais"],"p3":["absorbían"]},

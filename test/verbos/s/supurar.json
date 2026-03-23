@@ -6,7 +6,7 @@
     "etimologia": "Del latín suppurāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"supurar","gerundio":"supurando","participio":"supurado"},
+  "formas_no_personales": {"infinitivo":"supurar","gerundio":["supurando"], "participio":["supurado"]},
   "formas_personales": {
     "IndPres": {"s1":["supuro"],"s2":["supuras"],"vos":["supurás"],"s3":["supura"],"p1":["supuramos"],"p2":["supuráis"],"p3":["supuran"]},
     "IndImp": {"s1":["supuraba"],"s2":["supurabas"],"vos":["supurabas"],"s3":["supuraba"],"p1":["supurábamos"],"p2":["supurabais"],"p3":["supuraban"]},

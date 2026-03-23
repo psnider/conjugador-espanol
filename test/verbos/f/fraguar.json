@@ -5,7 +5,7 @@
     "etimologia": "Del latín fabricare ('forjar').",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"fraguar","gerundio":"fraguando","participio":"fraguado"},
+  "formas_no_personales": {"infinitivo":"fraguar","gerundio":["fraguando"], "participio":["fraguado"]},
   "formas_personales": {
     "IndPres": {"s1":["fraguo"],"s2":["fraguas"],"vos":["fraguás"],"s3":["fragua"],"p1":["fraguamos"],"p2":["fraguáis"],"p3":["fraguan"]},
     "IndImp": {"s1":["fraguaba"],"s2":["fraguabas"],"vos":["fraguabas"],"s3":["fraguaba"],"p1":["fraguábamos"],"p2":["fraguabais"],"p3":["fraguaban"]},

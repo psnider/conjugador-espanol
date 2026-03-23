@@ -6,7 +6,7 @@
     "etimologia": "De estrena y el sufijo -ar del latín strena.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estrenar","gerundio":"estrenando","participio":"estrenado"},
+  "formas_no_personales": {"infinitivo":"estrenar","gerundio":["estrenando"], "participio":["estrenado"]},
   "formas_personales": {
     "IndPres": {"s1":["estreno"],"s2":["estrenas"],"vos":["estrenás"],"s3":["estrena"],"p1":["estrenamos"],"p2":["estrenáis"],"p3":["estrenan"]},
     "IndImp": {"s1":["estrenaba"],"s2":["estrenabas"],"vos":["estrenabas"],"s3":["estrenaba"],"p1":["estrenábamos"],"p2":["estrenabais"],"p3":["estrenaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín assistĕre ('detenerse'), pararse junto a un lugar.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"asistir","gerundio":"asistiendo","participio":"asistido"},
+  "formas_no_personales": {"infinitivo":"asistir","gerundio":["asistiendo"], "participio":["asistido"]},
   "formas_personales": {
     "IndPres": {"s1":["asisto"],"s2":["asistes"],"vos":["asistís"],"s3":["asiste"],"p1":["asistimos"],"p2":["asistís"],"p3":["asisten"]},
     "IndImp": {"s1":["asistía"],"s2":["asistías"],"vos":["asistías"],"s3":["asistía"],"p1":["asistíamos"],"p2":["asistíais"],"p3":["asistían"]},

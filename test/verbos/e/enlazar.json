@@ -6,7 +6,7 @@
     "etimologia": "Del latín inlaqueāre, de inlaqueo, variante de illaqueō (\"atrapar\", \"enredar\").",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"enlazar","gerundio":"enlazando","participio":"enlazado"},
+  "formas_no_personales": {"infinitivo":"enlazar","gerundio":["enlazando"], "participio":["enlazado"]},
   "formas_personales": {
     "IndPres": {"s1":["enlazo"],"s2":["enlazas"],"vos":["enlazás"],"s3":["enlaza"],"p1":["enlazamos"],"p2":["enlazáis"],"p3":["enlazan"]},
     "IndImp": {"s1":["enlazaba"],"s2":["enlazabas"],"vos":["enlazabas"],"s3":["enlazaba"],"p1":["enlazábamos"],"p2":["enlazabais"],"p3":["enlazaban"]},

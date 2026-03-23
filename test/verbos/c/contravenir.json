@@ -6,7 +6,7 @@
     "etimologia": "Del latín contravenire.",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"contravenir","gerundio":"contraviniendo","participio":"contravenido"},
+  "formas_no_personales": {"infinitivo":"contravenir","gerundio":["contraviniendo"], "participio":["contravenido"]},
   "formas_personales": {
     "IndPres": {"s1":["contravengo"],"s2":["contravienes"],"vos":["contravenís"],"s3":["contraviene"],"p1":["contravenimos"],"p2":["contravenís"],"p3":["contravienen"]},
     "IndImp": {"s1":["contravenía"],"s2":["contravenías"],"vos":["contravenías"],"s3":["contravenía"],"p1":["contraveníamos"],"p2":["contraveníais"],"p3":["contravenían"]},

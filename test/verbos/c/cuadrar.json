@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cuadrar","gerundio":"cuadrando","participio":"cuadrado"},
+  "formas_no_personales": {"infinitivo":"cuadrar","gerundio":["cuadrando"], "participio":["cuadrado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuadro"],"s2":["cuadras"],"vos":["cuadrás"],"s3":["cuadra"],"p1":["cuadramos"],"p2":["cuadráis"],"p3":["cuadran"]},
     "IndImp": {"s1":["cuadraba"],"s2":["cuadrabas"],"vos":["cuadrabas"],"s3":["cuadraba"],"p1":["cuadrábamos"],"p2":["cuadrabais"],"p3":["cuadraban"]},

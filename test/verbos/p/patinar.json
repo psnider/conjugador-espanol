@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"patinar","gerundio":"patinando","participio":"patinado"},
+  "formas_no_personales": {"infinitivo":"patinar","gerundio":["patinando"], "participio":["patinado"]},
   "formas_personales": {
     "IndPres": {"s1":["patino"],"s2":["patinas"],"vos":["patinás"],"s3":["patina"],"p1":["patinamos"],"p2":["patináis"],"p3":["patinan"]},
     "IndImp": {"s1":["patinaba"],"s2":["patinabas"],"vos":["patinabas"],"s3":["patinaba"],"p1":["patinábamos"],"p2":["patinabais"],"p3":["patinaban"]},

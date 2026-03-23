@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"repetir","gerundio":"repitiendo","participio":"repetido"},
+  "formas_no_personales": {"infinitivo":"repetir","gerundio":["repitiendo"], "participio":["repetido"]},
   "formas_personales": {
     "IndPres": {"s1":["repito"],"s2":["repites"],"vos":["repetís"],"s3":["repite"],"p1":["repetimos"],"p2":["repetís"],"p3":["repiten"]},
     "IndImp": {"s1":["repetía"],"s2":["repetías"],"vos":["repetías"],"s3":["repetía"],"p1":["repetíamos"],"p2":["repetíais"],"p3":["repetían"]},

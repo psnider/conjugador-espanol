@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"transportar","gerundio":"transportando","participio":"transportado"},
+  "formas_no_personales": {"infinitivo":"transportar","gerundio":["transportando"], "participio":["transportado"]},
   "formas_personales": {
     "IndPres": {"s1":["transporto"],"s2":["transportas"],"vos":["transportás"],"s3":["transporta"],"p1":["transportamos"],"p2":["transportáis"],"p3":["transportan"]},
     "IndImp": {"s1":["transportaba"],"s2":["transportabas"],"vos":["transportabas"],"s3":["transportaba"],"p1":["transportábamos"],"p2":["transportabais"],"p3":["transportaban"]},

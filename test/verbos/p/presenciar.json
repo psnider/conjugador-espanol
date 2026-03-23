@@ -5,7 +5,7 @@
     "etimologia": "De presencia y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"presenciar","gerundio":"presenciando","participio":"presenciado"},
+  "formas_no_personales": {"infinitivo":"presenciar","gerundio":["presenciando"], "participio":["presenciado"]},
   "formas_personales": {
     "IndPres": {"s1":["presencio"],"s2":["presencias"],"vos":["presenciás"],"s3":["presencia"],"p1":["presenciamos"],"p2":["presenciáis"],"p3":["presencian"]},
     "IndImp": {"s1":["presenciaba"],"s2":["presenciabas"],"vos":["presenciabas"],"s3":["presenciaba"],"p1":["presenciábamos"],"p2":["presenciabais"],"p3":["presenciaban"]},

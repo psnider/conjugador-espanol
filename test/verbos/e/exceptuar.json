@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksepˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De excepto (del latín exceptus, \"sacado\") y el sufijo -ar.",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"exceptuar","gerundio":["exceptuando"], "participio":["exceptuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exceptúo"],"s2":["exceptúas"],"vos":["exceptuás"],"s3":["exceptúa"],"p1":["exceptuamos"],"p2":["exceptuáis"],"p3":["exceptúan"]},
+    "IndImp": {"s1":["exceptuaba"],"s2":["exceptuabas"],"vos":["exceptuabas"],"s3":["exceptuaba"],"p1":["exceptuábamos"],"p2":["exceptuabais"],"p3":["exceptuaban"]},
+    "IndPret": {"s1":["exceptué"],"s2":["exceptuaste"],"vos":["exceptuaste"],"s3":["exceptuó"],"p1":["exceptuamos"],"p2":["exceptuasteis"],"p3":["exceptuaron"]},
+    "IndFut": {"s1":["exceptuaré"],"s2":["exceptuarás"],"vos":["exceptuarás"],"s3":["exceptuará"],"p1":["exceptuaremos"],"p2":["exceptuaréis"],"p3":["exceptuarán"]},
+    "IndCond": {"s1":["exceptuaría"],"s2":["exceptuarías"],"vos":["exceptuarías"],"s3":["exceptuaría"],"p1":["exceptuaríamos"],"p2":["exceptuaríais"],"p3":["exceptuarían"]},
+    "SubPres": {"s1":["exceptúe"],"s2":["exceptúes"],"vos":["exceptúes","exceptués"],"s3":["exceptúe"],"p1":["exceptuemos"],"p2":["exceptuéis"],"p3":["exceptúen"]},
+    "SubImp": {"s1":["exceptuara","exceptuase"],"s2":["exceptuaras","exceptuases"],"vos":["exceptuaras","exceptuases"],"s3":["exceptuara","exceptuase"],"p1":["exceptuáramos","exceptuásemos"],"p2":["exceptuarais","exceptuaseis"],"p3":["exceptuaran","exceptuasen"]},
+    "SubFut": {"s1":["exceptuare"],"s2":["exceptuares"],"vos":["exceptuares"],"s3":["exceptuare"],"p1":["exceptuáremos"],"p2":["exceptuareis"],"p3":["exceptuaren"]},
+    "CmdPos": {"s2":["exceptúa"],"vos":["exceptuá"],"s3":["exceptúe"],"p1":["exceptuemos"],"p2":["exceptuad"],"p3":["exceptúen"]}
+  }
+}

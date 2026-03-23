@@ -6,7 +6,7 @@
     "etimologia": "Del latín dicĕre.",
     "modelos": ["decir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"decir","gerundio":"diciendo","participio":"dicho"},
+  "formas_no_personales": {"infinitivo":"decir","gerundio":["diciendo"], "participio":["dicho"]},
   "formas_personales": {
     "IndPres": {"s1":["digo"],"s2":["dices"],"vos":["decís"],"s3":["dice"],"p1":["decimos"],"p2":["decís"],"p3":["dicen"]},
     "IndImp": {"s1":["decía"],"s2":["decías"],"vos":["decías"],"s3":["decía"],"p1":["decíamos"],"p2":["decíais"],"p3":["decían"]},

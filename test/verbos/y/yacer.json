@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ʝaˈseɾ]",
+    "silabacion": "ya-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iacēre, verbo estativo de iacere, lanzar, en última instancia del protoindoeuropeo *(H)ieh₁-, arrojar. Compárese el portugués jazer, el francés gésir y el italiano giacere, y para los cognados indoeuropeos, el griego antiguo ἵημι (híēmi), el hitita u-iezzi.",
+    "modelos": ["yacer"]
+  },
+  "formas_no_personales": {"infinitivo":"yacer","gerundio":["yaciendo"], "participio":["yacido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["yazco","yazgo","yago"],"s2":["yaces"],"vos":["yacés"],"s3":["yace"],"p1":["yacemos"],"p2":["yacéis"],"p3":["yacen"]},
+    "IndImp": {"s1":["yacía"],"s2":["yacías"],"vos":["yacías"],"s3":["yacía"],"p1":["yacíamos"],"p2":["yacíais"],"p3":["yacían"]},
+    "IndPret": {"s1":["yací"],"s2":["yaciste"],"vos":["yaciste"],"s3":["yació"],"p1":["yacimos"],"p2":["yacisteis"],"p3":["yacieron"]},
+    "IndFut": {"s1":["yaceré"],"s2":["yacerás"],"vos":["yacerás"],"s3":["yacerá"],"p1":["yaceremos"],"p2":["yaceréis"],"p3":["yacerán"]},
+    "IndCond": {"s1":["yacería"],"s2":["yacerías"],"vos":["yacerías"],"s3":["yacería"],"p1":["yaceríamos"],"p2":["yaceríais"],"p3":["yacerían"]},
+    "SubPres": {"s1":["yazca","yazga","yaga"],"s2":["yazcas","yazgas","yagas"],"vos":["yazcas","yazgas","yagas","yazcás","yazgás","yagás"],"s3":["yazca","yazga","yaga"],"p1":["yazcamos","yazgamos","yagamos"],"p2":["yazcáis","yazgáis","yagáis"],"p3":["yazcan","yazgan","yagan"]},
+    "SubImp": {"s1":["yaciera","yaciese"],"s2":["yacieras","yacieses"],"vos":["yacieras","yacieses"],"s3":["yaciera","yaciese"],"p1":["yaciéramos","yaciésemos"],"p2":["yacierais","yacieseis"],"p3":["yacieran","yaciesen"]},
+    "SubFut": {"s1":["yaciere"],"s2":["yacieres"],"vos":["yacieres"],"s3":["yaciere"],"p1":["yaciéremos"],"p2":["yaciereis"],"p3":["yacieren"]},
+    "CmdPos": {"s2":["yace","yaz"],"vos":["yacé"],"s3":["yazca","yazga","yaga"],"p1":["yazcamos","yazgamos","yagamos"],"p2":["yaced"],"p3":["yazcan","yazgan","yagan"]}
+  }
+}

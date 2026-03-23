@@ -6,7 +6,7 @@
     "etimologia": "Del latín ad y fligere ('chocar, sacudir').[1]",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"infinitivo":"afligir","gerundio":"afligiendo","participio":"afligido"},
+  "formas_no_personales": {"infinitivo":"afligir","gerundio":["afligiendo"], "participio":["afligido"]},
   "formas_personales": {
     "IndPres": {"s1":["aflijo"],"s2":["afliges"],"vos":["afligís"],"s3":["aflige"],"p1":["afligimos"],"p2":["afligís"],"p3":["afligen"]},
     "IndImp": {"s1":["afligía"],"s2":["afligías"],"vos":["afligías"],"s3":["afligía"],"p1":["afligíamos"],"p2":["afligíais"],"p3":["afligían"]},

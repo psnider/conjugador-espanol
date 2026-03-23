@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *passare, y este del latín passus, del latín pandere, y este aféresis del latín spandere, en última instancia del protoindoeuropeo *spa-.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pasar","gerundio":"pasando","participio":"pasado"},
+  "formas_no_personales": {"infinitivo":"pasar","gerundio":["pasando"], "participio":["pasado"]},
   "formas_personales": {
     "IndPres": {"s1":["paso"],"s2":["pasas"],"vos":["pasás"],"s3":["pasa"],"p1":["pasamos"],"p2":["pasáis"],"p3":["pasan"]},
     "IndImp": {"s1":["pasaba"],"s2":["pasabas"],"vos":["pasabas"],"s3":["pasaba"],"p1":["pasábamos"],"p2":["pasabais"],"p3":["pasaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *tostare ('chamuscar'), y este frecuentativo del clásico torrare, del protoindoeuropeo *ters-&nbsp;('seco'). Compárese torrar, tierra, terreno",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"tostar","gerundio":"tostando","participio":"tostado"},
+  "formas_no_personales": {"infinitivo":"tostar","gerundio":["tostando"], "participio":["tostado"]},
   "formas_personales": {
     "IndPres": {"s1":["tuesto"],"s2":["tuestas"],"vos":["tostás"],"s3":["tuesta"],"p1":["tostamos"],"p2":["tostáis"],"p3":["tuestan"]},
     "IndImp": {"s1":["tostaba"],"s2":["tostabas"],"vos":["tostabas"],"s3":["tostaba"],"p1":["tostábamos"],"p2":["tostabais"],"p3":["tostaban"]},

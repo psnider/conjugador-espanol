@@ -6,7 +6,7 @@
     "etimologia": "De texto y -ear, por adapt. del ingl. to text.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"textear","gerundio":"texteando","participio":"texteado"},
+  "formas_no_personales": {"infinitivo":"textear","gerundio":["texteando"], "participio":["texteado"]},
 "formas_personales": {
     "IndPres": {"s1":["texteo"],"s2":["texteas"],"vos":["texteás"],"s3":["textean"],"p1":["texteamos"],"p2":["texteáis"],"p3":["textean"]},
     "IndImp": {"s1":["texteaba"],"s2":["texteabas"],"vos":["texteabas"],"s3":["texteaba"],"p1":["texteábamos"],"p2":["texteabais"],"p3":["texteaban"]},

@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"contribuir","gerundio":"contribuyendo","participio":"contribuido"},
+  "formas_no_personales": {"infinitivo":"contribuir","gerundio":["contribuyendo"], "participio":["contribuido"]},
   "formas_personales": {
     "IndPres": {"s1":["contribuyo"],"s2":["contribuyes"],"vos":["contribuís"],"s3":["contribuye"],"p1":["contribuimos"],"p2":["contribuís"],"p3":["contribuyen"]},
     "IndImp": {"s1":["contribuía"],"s2":["contribuías"],"vos":["contribuías"],"s3":["contribuía"],"p1":["contribuíamos"],"p2":["contribuíais"],"p3":["contribuían"]},

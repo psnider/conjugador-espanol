@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"recluir","gerundio":"recluyendo","participio":"recluido"},
+  "formas_no_personales": {"infinitivo":"recluir","gerundio":["recluyendo"], "participio":["recluido"]},
   "formas_personales": {
     "IndPres": {"s1":["recluyo"],"s2":["recluyes"],"vos":["recluís"],"s3":["recluye"],"p1":["recluimos"],"p2":["recluís"],"p3":["recluyen"]},
     "IndImp": {"s1":["recluía"],"s2":["recluías"],"vos":["recluías"],"s3":["recluía"],"p1":["recluíamos"],"p2":["recluíais"],"p3":["recluían"]},

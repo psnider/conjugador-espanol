@@ -6,7 +6,7 @@
     "etimologia": "Alteración fonética de hender.",
     "modelos": ["discernir"]
   },
-  "formas_no_personales": {"infinitivo":"hendir","gerundio":"hendiendo","participio":"hendido"},
+  "formas_no_personales": {"infinitivo":"hendir","gerundio":["hendiendo"], "participio":["hendido"]},
   "formas_personales": {
     "IndPres": {"s1":["hiendo"],"s2":["hiendes"],"vos":["hendís"],"s3":["hiende"],"p1":["hendimos"],"p2":["hendís"],"p3":["hienden"]},
     "IndImp": {"s1":["hendía"],"s2":["hendías"],"vos":["hendías"],"s3":["hendía"],"p1":["hendíamos"],"p2":["hendíais"],"p3":["hendían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín sonō, sonāre.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"sonar","gerundio":"sonando","participio":"sonado"},
+  "formas_no_personales": {"infinitivo":"sonar","gerundio":["sonando"], "participio":["sonado"]},
   "formas_personales": {
     "IndPres": {"s1":["sueno"],"s2":["suenas"],"vos":["sonás"],"s3":["suena"],"p1":["sonamos"],"p2":["sonáis"],"p3":["suenan"]},
     "IndImp": {"s1":["sonaba"],"s2":["sonabas"],"vos":["sonabas"],"s3":["sonaba"],"p1":["sonábamos"],"p2":["sonabais"],"p3":["sonaban"]},

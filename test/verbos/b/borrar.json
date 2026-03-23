@@ -6,7 +6,7 @@
     "etimologia": "De borra.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"borrar","gerundio":"borrando","participio":"borrado"},
+  "formas_no_personales": {"infinitivo":"borrar","gerundio":["borrando"], "participio":["borrado"]},
   "formas_personales": {
     "IndPres": {"s1":["borro"],"s2":["borras"],"vos":["borrás"],"s3":["borra"],"p1":["borramos"],"p2":["borráis"],"p3":["borran"]},
     "IndImp": {"s1":["borraba"],"s2":["borrabas"],"vos":["borrabas"],"s3":["borraba"],"p1":["borrábamos"],"p2":["borrabais"],"p3":["borraban"]},

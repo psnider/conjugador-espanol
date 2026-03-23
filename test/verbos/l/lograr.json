@@ -6,7 +6,7 @@
     "etimologia": "Del latín lucrari ('beneficiarse').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lograr","gerundio":"logrando","participio":"logrado"},
+  "formas_no_personales": {"infinitivo":"lograr","gerundio":["logrando"], "participio":["logrado"]},
   "formas_personales": {
     "IndPres": {"s1":["logro"],"s2":["logras"],"vos":["lográs"],"s3":["logra"],"p1":["logramos"],"p2":["lográis"],"p3":["logran"]},
     "IndImp": {"s1":["lograba"],"s2":["lograbas"],"vos":["lograbas"],"s3":["lograba"],"p1":["lográbamos"],"p2":["lograbais"],"p3":["lograban"]},

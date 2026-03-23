@@ -6,7 +6,7 @@
     "etimologia": "Del latín clavāre y este de clavus, clavo.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"clavar","gerundio":"clavando","participio":"clavado"},
+  "formas_no_personales": {"infinitivo":"clavar","gerundio":["clavando"], "participio":["clavado"]},
   "formas_personales": {
     "IndPres": {"s1":["clavo"],"s2":["clavas"],"vos":["clavás"],"s3":["clava"],"p1":["clavamos"],"p2":["claváis"],"p3":["clavan"]},
     "IndImp": {"s1":["clavaba"],"s2":["clavabas"],"vos":["clavabas"],"s3":["clavaba"],"p1":["clavábamos"],"p2":["clavabais"],"p3":["clavaban"]},

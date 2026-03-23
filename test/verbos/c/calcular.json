@@ -6,7 +6,7 @@
     "etimologia": "Del latín calculāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"calcular","gerundio":"calculando","participio":"calculado"},
+  "formas_no_personales": {"infinitivo":"calcular","gerundio":["calculando"], "participio":["calculado"]},
   "formas_personales": {
     "IndPres": {"s1":["calculo"],"s2":["calculas"],"vos":["calculás"],"s3":["calcula"],"p1":["calculamos"],"p2":["calculáis"],"p3":["calculan"]},
     "IndImp": {"s1":["calculaba"],"s2":["calculabas"],"vos":["calculabas"],"s3":["calculaba"],"p1":["calculábamos"],"p2":["calculabais"],"p3":["calculaban"]},

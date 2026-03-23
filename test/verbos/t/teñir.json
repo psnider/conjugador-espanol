@@ -6,7 +6,7 @@
     "etimologia": "Del latín tingĕre",
     "modelos": ["gruñir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"teñir","gerundio":"tiñendo","participio":"teñido"},
+  "formas_no_personales": {"infinitivo":"teñir","gerundio":["tiñendo"], "participio":["teñido"]},
   "formas_personales": {
     "IndPres": {"s1":["tiño"],"s2":["tiñes"],"vos":["teñís"],"s3":["tiñe"],"p1":["teñimos"],"p2":["teñís"],"p3":["tiñen"]},
     "IndImp": {"s1":["teñía"],"s2":["teñías"],"vos":["teñías"],"s3":["teñía"],"p1":["teñíamos"],"p2":["teñíais"],"p3":["teñían"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín initiare.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"iniciar","gerundio":"iniciando","participio":"iniciado"},
+  "formas_no_personales": {"infinitivo":"iniciar","gerundio":["iniciando"], "participio":["iniciado"]},
   "formas_personales": {
     "IndPres": {"s1":["inicio"],"s2":["inicias"],"vos":["iniciás"],"s3":["inicia"],"p1":["iniciamos"],"p2":["iniciáis"],"p3":["inician"]},
     "IndImp": {"s1":["iniciaba"],"s2":["iniciabas"],"vos":["iniciabas"],"s3":["iniciaba"],"p1":["iniciábamos"],"p2":["iniciabais"],"p3":["iniciaban"]},

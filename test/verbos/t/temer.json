@@ -6,7 +6,7 @@
     "etimologia": "Del latín timēre.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"temer","gerundio":"temiendo","participio":"temido"},
+  "formas_no_personales": {"infinitivo":"temer","gerundio":["temiendo"], "participio":["temido"]},
   "formas_personales": {
     "IndPres": {"s1":["temo"],"s2":["temes"],"vos":["temés"],"s3":["teme"],"p1":["tememos"],"p2":["teméis"],"p3":["temen"]},
     "IndImp": {"s1":["temía"],"s2":["temías"],"vos":["temías"],"s3":["temía"],"p1":["temíamos"],"p2":["temíais"],"p3":["temían"]},

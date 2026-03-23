@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del castellano antiguo estar ('estar'), y este del latín stāre&nbsp;('erguirse'), del protoitálico *sta-ē-je- o *sta-ē-jo-, del protoindoeuropeo *sth₂-eh₁-ie/o-. Las formas del pretérito indefinido vienen de la analogía con las de haber.",
     "modelos": ["estar"]
   },
-  "formas_no_personales": {"infinitivo":"estar","gerundio":"estando","participio":"estado"},
+  "formas_no_personales": {"infinitivo":"estar","gerundio":["estando"], "participio":["estado"]},
   "formas_personales": {
     "IndPres": {"s1":["estoy"],"s2":["estás"],"vos":["estás"],"s3":["está"],"p1":["estamos"],"p2":["estáis"],"p3":["están"]},
     "IndImp": {"s1":["estaba"],"s2":["estabas"],"vos":["estabas"],"s3":["estaba"],"p1":["estábamos"],"p2":["estabais"],"p3":["estaban"]},

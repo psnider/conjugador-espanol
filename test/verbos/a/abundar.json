@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"abundar","gerundio":"abundando","participio":"abundado"},
+  "formas_no_personales": {"infinitivo":"abundar","gerundio":["abundando"], "participio":["abundado"]},
   "formas_personales": {
     "IndPres": {"s1":["abundo"],"s2":["abundas"],"vos":["abundás"],"s3":["abunda"],"p1":["abundamos"],"p2":["abundáis"],"p3":["abundan"]},
     "IndImp": {"s1":["abundaba"],"s2":["abundabas"],"vos":["abundabas"],"s3":["abundaba"],"p1":["abundábamos"],"p2":["abundabais"],"p3":["abundaban"]},

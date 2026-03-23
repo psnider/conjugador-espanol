@@ -6,7 +6,7 @@
     "etimologia": "Del latín germināre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"germinar","gerundio":"germinando","participio":"germinado"},
+  "formas_no_personales": {"infinitivo":"germinar","gerundio":["germinando"], "participio":["germinado"]},
   "formas_personales": {
     "IndPres": {"s1":["germino"],"s2":["germinas"],"vos":["germinás"],"s3":["germina"],"p1":["germinamos"],"p2":["germináis"],"p3":["germinan"]},
     "IndImp": {"s1":["germinaba"],"s2":["germinabas"],"vos":["germinabas"],"s3":["germinaba"],"p1":["germinábamos"],"p2":["germinabais"],"p3":["germinaban"]},

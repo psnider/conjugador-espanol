@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnsistō, cōnsistere,[1] compuesto del latín sisto.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"consistir","gerundio":"consistiendo","participio":"consistido"},
+  "formas_no_personales": {"infinitivo":"consistir","gerundio":["consistiendo"], "participio":["consistido"]},
   "formas_personales": {
     "IndPres": {"s1":["consisto"],"s2":["consistes"],"vos":["consistís"],"s3":["consiste"],"p1":["consistimos"],"p2":["consistís"],"p3":["consisten"]},
     "IndImp": {"s1":["consistía"],"s2":["consistías"],"vos":["consistías"],"s3":["consistía"],"p1":["consistíamos"],"p2":["consistíais"],"p3":["consistían"]},

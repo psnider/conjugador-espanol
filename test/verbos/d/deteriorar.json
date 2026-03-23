@@ -6,7 +6,7 @@
     "etimologia": "Del latín deteriorāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"deteriorar","gerundio":"deteriorando","participio":"deteriorado"},
+  "formas_no_personales": {"infinitivo":"deteriorar","gerundio":["deteriorando"], "participio":["deteriorado"]},
   "formas_personales": {
     "IndPres": {"s1":["deterioro"],"s2":["deterioras"],"vos":["deteriorás"],"s3":["deteriora"],"p1":["deterioramos"],"p2":["deterioráis"],"p3":["deterioran"]},
     "IndImp": {"s1":["deterioraba"],"s2":["deteriorabas"],"vos":["deteriorabas"],"s3":["deterioraba"],"p1":["deteriorábamos"],"p2":["deteriorabais"],"p3":["deterioraban"]},

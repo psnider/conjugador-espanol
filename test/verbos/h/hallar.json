@@ -6,7 +6,7 @@
     "etimologia": "Del latín afflare ('soplar'), oler, encontrar lo que se está siguiendo o dar con algo.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hallar","gerundio":"hallando","participio":"hallado"},
+  "formas_no_personales": {"infinitivo":"hallar","gerundio":["hallando"], "participio":["hallado"]},
   "formas_personales": {
     "IndPres": {"s1":["hallo"],"s2":["hallas"],"vos":["hallás"],"s3":["halla"],"p1":["hallamos"],"p2":["halláis"],"p3":["hallan"]},
     "IndImp": {"s1":["hallaba"],"s2":["hallabas"],"vos":["hallabas"],"s3":["hallaba"],"p1":["hallábamos"],"p2":["hallabais"],"p3":["hallaban"]},

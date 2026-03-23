@@ -6,7 +6,7 @@
     "etimologia": "Del latín mittere.[1]",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"meter","gerundio":"metiendo","participio":"metido"},
+  "formas_no_personales": {"infinitivo":"meter","gerundio":["metiendo"], "participio":["metido"]},
   "formas_personales": {
     "IndPres": {"s1":["meto"],"s2":["metes"],"vos":["metés"],"s3":["mete"],"p1":["metemos"],"p2":["metéis"],"p3":["meten"]},
     "IndImp": {"s1":["metía"],"s2":["metías"],"vos":["metías"],"s3":["metía"],"p1":["metíamos"],"p2":["metíais"],"p3":["metían"]},

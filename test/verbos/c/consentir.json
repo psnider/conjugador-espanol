@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnsentiō, cōnsentīre ('acordar').",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"consentir","gerundio":"consintiendo","participio":"consentido"},
+  "formas_no_personales": {"infinitivo":"consentir","gerundio":["consintiendo"], "participio":["consentido"]},
   "formas_personales": {
     "IndPres": {"s1":["consiento"],"s2":["consientes"],"vos":["consentís"],"s3":["consiente"],"p1":["consentimos"],"p2":["consentís"],"p3":["consienten"]},
     "IndImp": {"s1":["consentía"],"s2":["consentías"],"vos":["consentías"],"s3":["consentía"],"p1":["consentíamos"],"p2":["consentíais"],"p3":["consentían"]},

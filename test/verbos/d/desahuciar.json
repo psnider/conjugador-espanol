@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y ahuciar.[1]",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"desahuciar","gerundio":"desahuciando","participio":"desahuciado"},
+  "formas_no_personales": {"infinitivo":"desahuciar","gerundio":["desahuciando"], "participio":["desahuciado"]},
   "formas_personales": {
     "IndPres": {"s1":["desahucio"],"s2":["desahucias"],"vos":["desahuciás"],"s3":["desahucia"],"p1":["desahuciamos"],"p2":["desahuciáis"],"p3":["desahucian"]},
     "IndImp": {"s1":["desahuciaba"],"s2":["desahuciabas"],"vos":["desahuciabas"],"s3":["desahuciaba"],"p1":["desahuciábamos"],"p2":["desahuciabais"],"p3":["desahuciaban"]},

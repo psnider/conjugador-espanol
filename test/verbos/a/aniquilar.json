@@ -5,7 +5,7 @@
     "etimologia": "Del latín annichilare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aniquilar","gerundio":"aniquilando","participio":"aniquilado"},
+  "formas_no_personales": {"infinitivo":"aniquilar","gerundio":["aniquilando"], "participio":["aniquilado"]},
   "formas_personales": {
     "IndPres": {"s1":["aniquilo"],"s2":["aniquilas"],"vos":["aniquilás"],"s3":["aniquila"],"p1":["aniquilamos"],"p2":["aniquiláis"],"p3":["aniquilan"]},
     "IndImp": {"s1":["aniquilaba"],"s2":["aniquilabas"],"vos":["aniquilabas"],"s3":["aniquilaba"],"p1":["aniquilábamos"],"p2":["aniquilabais"],"p3":["aniquilaban"]},

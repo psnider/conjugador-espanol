@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sust̪iˈt̪wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín substituĕre (\"poner junto a, debajo o en lugar de\")",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"sustituir","gerundio":["sustituyendo"], "participio":["sustituido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sustituyo"],"s2":["sustituyes"],"vos":["sustituís"],"s3":["sustituye"],"p1":["sustituimos"],"p2":["sustituís"],"p3":["sustituyen"]},
+    "IndImp": {"s1":["sustituía"],"s2":["sustituías"],"vos":["sustituías"],"s3":["sustituía"],"p1":["sustituíamos"],"p2":["sustituíais"],"p3":["sustituían"]},
+    "IndPret": {"s1":["sustituí"],"s2":["sustituiste"],"vos":["sustituiste"],"s3":["sustituyó"],"p1":["sustituimos"],"p2":["sustituisteis"],"p3":["sustituyeron"]},
+    "IndFut": {"s1":["sustituiré"],"s2":["sustituirás"],"vos":["sustituirás"],"s3":["sustituirá"],"p1":["sustituiremos"],"p2":["sustituiréis"],"p3":["sustituirán"]},
+    "IndCond": {"s1":["sustituiría"],"s2":["sustituirías"],"vos":["sustituirías"],"s3":["sustituiría"],"p1":["sustituiríamos"],"p2":["sustituiríais"],"p3":["sustituirían"]},
+    "SubPres": {"s1":["sustituya"],"s2":["sustituyas"],"vos":["sustituyas","sustituyás"],"s3":["sustituya"],"p1":["sustituyamos"],"p2":["sustituyáis"],"p3":["sustituyan"]},
+    "SubImp": {"s1":["sustituyera","sustituyese"],"s2":["sustituyeras","sustituyeses"],"vos":["sustituyeras","sustituyeses"],"s3":["sustituyera","sustituyese"],"p1":["sustituyéramos","sustituyésemos"],"p2":["sustituyerais","sustituyeseis"],"p3":["sustituyeran","sustituyesen"]},
+    "SubFut": {"s1":["sustituyere"],"s2":["sustituyeres"],"vos":["sustituyeres"],"s3":["sustituyere"],"p1":["sustituyéremos"],"p2":["sustituyereis"],"p3":["sustituyeren"]},
+    "CmdPos": {"s2":["sustituye"],"vos":["sustituí"],"s3":["sustituya"],"p1":["sustituyamos"],"p2":["sustituid"],"p3":["sustituyan"]}
+  }
+}

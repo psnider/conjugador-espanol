@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"patrullar","gerundio":"patrullando","participio":"patrullado"},
+  "formas_no_personales": {"infinitivo":"patrullar","gerundio":["patrullando"], "participio":["patrullado"]},
   "formas_personales": {
     "IndPres": {"s1":["patrullo"],"s2":["patrullas"],"vos":["patrullás"],"s3":["patrulla"],"p1":["patrullamos"],"p2":["patrulláis"],"p3":["patrullan"]},
     "IndImp": {"s1":["patrullaba"],"s2":["patrullabas"],"vos":["patrullabas"],"s3":["patrullaba"],"p1":["patrullábamos"],"p2":["patrullabais"],"p3":["patrullaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín verrere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"barrer","gerundio":"barriendo","participio":"barrido"},
+  "formas_no_personales": {"infinitivo":"barrer","gerundio":["barriendo"], "participio":["barrido"]},
   "formas_personales": {
     "IndPres": {"s1":["barro"],"s2":["barres"],"vos":["barrés"],"s3":["barre"],"p1":["barremos"],"p2":["barréis"],"p3":["barren"]},
     "IndImp": {"s1":["barría"],"s2":["barrías"],"vos":["barrías"],"s3":["barría"],"p1":["barríamos"],"p2":["barríais"],"p3":["barrían"]},

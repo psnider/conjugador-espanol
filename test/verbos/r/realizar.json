@@ -6,7 +6,7 @@
     "etimologia": "De real y el sufijo -izar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"realizar","gerundio":"realizando","participio":"realizado"},
+  "formas_no_personales": {"infinitivo":"realizar","gerundio":["realizando"], "participio":["realizado"]},
   "formas_personales": {
     "IndPres": {"s1":["realizo"],"s2":["realizas"],"vos":["realizás"],"s3":["realiza"],"p1":["realizamos"],"p2":["realizáis"],"p3":["realizan"]},
     "IndImp": {"s1":["realizaba"],"s2":["realizabas"],"vos":["realizabas"],"s3":["realizaba"],"p1":["realizábamos"],"p2":["realizabais"],"p3":["realizaban"]},

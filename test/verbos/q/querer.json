@@ -6,7 +6,7 @@
     "etimologia": "Del latín quaerere ('buscar'), \"requerir\" o \"pedir\".",
     "modelos": ["entender","querer"]
   },
-  "formas_no_personales": {"infinitivo":"querer","gerundio":"queriendo","participio":"querido"},
+  "formas_no_personales": {"infinitivo":"querer","gerundio":["queriendo"], "participio":["querido"]},
   "formas_personales": {
     "IndPres": {"s1":["quiero"],"s2":["quieres"],"vos":["querés"],"s3":["quiere"],"p1":["queremos"],"p2":["queréis"],"p3":["quieren"]},
     "IndImp": {"s1":["quería"],"s2":["querías"],"vos":["querías"],"s3":["quería"],"p1":["queríamos"],"p2":["queríais"],"p3":["querían"]},

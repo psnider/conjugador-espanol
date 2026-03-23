@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo en-, sucio y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"ensuciar","gerundio":"ensuciando","participio":"ensuciado"},
+  "formas_no_personales": {"infinitivo":"ensuciar","gerundio":["ensuciando"], "participio":["ensuciado"]},
   "formas_personales": {
     "IndPres": {"s1":["ensucio"],"s2":["ensucias"],"vos":["ensuciás"],"s3":["ensucia"],"p1":["ensuciamos"],"p2":["ensuciáis"],"p3":["ensucian"]},
     "IndImp": {"s1":["ensuciaba"],"s2":["ensuciabas"],"vos":["ensuciabas"],"s3":["ensuciaba"],"p1":["ensuciábamos"],"p2":["ensuciabais"],"p3":["ensuciaban"]},

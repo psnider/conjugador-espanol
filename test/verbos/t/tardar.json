@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tardar","gerundio":"tardando","participio":"tardado"},
+  "formas_no_personales": {"infinitivo":"tardar","gerundio":["tardando"], "participio":["tardado"]},
   "formas_personales": {
     "IndPres": {"s1":["tardo"],"s2":["tardas"],"vos":["tardás"],"s3":["tarda"],"p1":["tardamos"],"p2":["tardáis"],"p3":["tardan"]},
     "IndImp": {"s1":["tardaba"],"s2":["tardabas"],"vos":["tardabas"],"s3":["tardaba"],"p1":["tardábamos"],"p2":["tardabais"],"p3":["tardaban"]},

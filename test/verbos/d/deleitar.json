@@ -6,7 +6,7 @@
     "etimologia": "Del provenzal antiguo deleitar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"deleitar","gerundio":"deleitando","participio":"deleitado"},
+  "formas_no_personales": {"infinitivo":"deleitar","gerundio":["deleitando"], "participio":["deleitado"]},
   "formas_personales": {
     "IndPres": {"s1":["deleito"],"s2":["deleitas"],"vos":["deleitás"],"s3":["deleita"],"p1":["deleitamos"],"p2":["deleitáis"],"p3":["deleitan"]},
     "IndImp": {"s1":["deleitaba"],"s2":["deleitabas"],"vos":["deleitabas"],"s3":["deleitaba"],"p1":["deleitábamos"],"p2":["deleitabais"],"p3":["deleitaban"]},

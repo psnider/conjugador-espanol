@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"mencionar","gerundio":"mencionando","participio":"mencionado"},
+  "formas_no_personales": {"infinitivo":"mencionar","gerundio":["mencionando"], "participio":["mencionado"]},
   "formas_personales": {
     "IndPres": {"s1":["menciono"],"s2":["mencionas"],"vos":["mencionás"],"s3":["menciona"],"p1":["mencionamos"],"p2":["mencionáis"],"p3":["mencionan"]},
     "IndImp": {"s1":["mencionaba"],"s2":["mencionabas"],"vos":["mencionabas"],"s3":["mencionaba"],"p1":["mencionábamos"],"p2":["mencionabais"],"p3":["mencionaban"]},

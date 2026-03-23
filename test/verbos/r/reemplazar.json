@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y emplazar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"reemplazar","gerundio":"reemplazando","participio":"reemplazado"},
+  "formas_no_personales": {"infinitivo":"reemplazar","gerundio":["reemplazando"], "participio":["reemplazado"]},
   "formas_personales": {
     "IndPres": {"s1":["reemplazo"],"s2":["reemplazas"],"vos":["reemplazás"],"s3":["reemplaza"],"p1":["reemplazamos"],"p2":["reemplazáis"],"p3":["reemplazan"]},
     "IndImp": {"s1":["reemplazaba"],"s2":["reemplazabas"],"vos":["reemplazabas"],"s3":["reemplazaba"],"p1":["reemplazábamos"],"p2":["reemplazabais"],"p3":["reemplazaban"]},

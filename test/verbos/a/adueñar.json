@@ -6,7 +6,7 @@
     "etimologia": "del latín 'dominus', que significa 'señor', 'amo' o 'dueño de una casa'",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"adueñar","gerundio":"adueñando","participio":"adueñado"},
+  "formas_no_personales": {"infinitivo":"adueñar","gerundio":["adueñando"], "participio":["adueñado"]},
   "formas_personales": {
     "IndPres": {"s1":["adueño"],"s2":["adueñas"],"vos":["adueñás"],"s3":["adueña"],"p1":["adueñamos"],"p2":["adueñáis"],"p3":["adueñan"]},
     "IndImp": {"s1":["adueñaba"],"s2":["adueñabas"],"vos":["adueñabas"],"s3":["adueñaba"],"p1":["adueñábamos"],"p2":["adueñabais"],"p3":["adueñaban"]},

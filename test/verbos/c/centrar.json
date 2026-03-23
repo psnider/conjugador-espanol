@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"centrar","gerundio":"centrando","participio":"centrado"},
+  "formas_no_personales": {"infinitivo":"centrar","gerundio":["centrando"], "participio":["centrado"]},
   "formas_personales": {
     "IndPres": {"s1":["centro"],"s2":["centras"],"vos":["centrás"],"s3":["centra"],"p1":["centramos"],"p2":["centráis"],"p3":["centran"]},
     "IndImp": {"s1":["centraba"],"s2":["centrabas"],"vos":["centrabas"],"s3":["centraba"],"p1":["centrábamos"],"p2":["centrabais"],"p3":["centraban"]},

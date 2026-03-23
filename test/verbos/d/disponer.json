@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"disponer","gerundio":"disponiendo","participio":"dispuesto"},
+  "formas_no_personales": {"infinitivo":"disponer","gerundio":["disponiendo"], "participio":["dispuesto"]},
   "formas_personales": {
     "IndPres": {"s1":["dispongo"],"s2":["dispones"],"vos":["disponés"],"s3":["dispone"],"p1":["disponemos"],"p2":["disponéis"],"p3":["disponen"]},
     "IndImp": {"s1":["disponía"],"s2":["disponías"],"vos":["disponías"],"s3":["disponía"],"p1":["disponíamos"],"p2":["disponíais"],"p3":["disponían"]},

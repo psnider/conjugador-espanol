@@ -6,7 +6,7 @@
     "etimologia": "Del latín abhorrēre.[1]",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"aburrir","gerundio":"aburriendo","participio":"aburrido"},
+  "formas_no_personales": {"infinitivo":"aburrir","gerundio":["aburriendo"], "participio":["aburrido"]},
   "formas_personales": {
     "IndPres": {"s1":["aburro"],"s2":["aburres"],"vos":["aburrís"],"s3":["aburre"],"p1":["aburrimos"],"p2":["aburrís"],"p3":["aburren"]},
     "IndImp": {"s1":["aburría"],"s2":["aburrías"],"vos":["aburrías"],"s3":["aburría"],"p1":["aburríamos"],"p2":["aburríais"],"p3":["aburrían"]},

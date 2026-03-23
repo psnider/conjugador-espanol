@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y estimar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desestimar","gerundio":"desestimando","participio":"desestimado"},
+  "formas_no_personales": {"infinitivo":"desestimar","gerundio":["desestimando"], "participio":["desestimado"]},
   "formas_personales": {
     "IndPres": {"s1":["desestimo"],"s2":["desestimas"],"vos":["desestimás"],"s3":["desestima"],"p1":["desestimamos"],"p2":["desestimáis"],"p3":["desestiman"]},
     "IndImp": {"s1":["desestimaba"],"s2":["desestimabas"],"vos":["desestimabas"],"s3":["desestimaba"],"p1":["desestimábamos"],"p2":["desestimabais"],"p3":["desestimaban"]},

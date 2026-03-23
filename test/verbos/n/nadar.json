@@ -6,7 +6,7 @@
     "etimologia": "Del latín natare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"nadar","gerundio":"nadando","participio":"nadado"},
+  "formas_no_personales": {"infinitivo":"nadar","gerundio":["nadando"], "participio":["nadado"]},
   "formas_personales": {
     "IndPres": {"s1":["nado"],"s2":["nadas"],"vos":["nadás"],"s3":["nada"],"p1":["nadamos"],"p2":["nadáis"],"p3":["nadan"]},
     "IndImp": {"s1":["nadaba"],"s2":["nadabas"],"vos":["nadabas"],"s3":["nadaba"],"p1":["nadábamos"],"p2":["nadabais"],"p3":["nadaban"]},

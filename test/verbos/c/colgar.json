@@ -6,7 +6,7 @@
     "etimologia": "Del latín collocāre ('colocar').",
     "modelos": ["llegar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"colgar","gerundio":"colgando","participio":"colgado"},
+  "formas_no_personales": {"infinitivo":"colgar","gerundio":["colgando"], "participio":["colgado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuelgo"],"s2":["cuelgas"],"vos":["colgás"],"s3":["cuelga"],"p1":["colgamos"],"p2":["colgáis"],"p3":["cuelgan"]},
     "IndImp": {"s1":["colgaba"],"s2":["colgabas"],"vos":["colgabas"],"s3":["colgaba"],"p1":["colgábamos"],"p2":["colgabais"],"p3":["colgaban"]},

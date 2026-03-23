@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞aˈiɾ]",
+    "silabacion": "des-va-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Derivación regresiva de desvaído.[1]",
+    "modelos": ["desvaír"]
+  },
+  "formas_no_personales": {"infinitivo":"desvaír","gerundio":["desvayendo"], "participio":["desvaído"]},
+  "formas_personales": {
+    "IndPres": {"vos":["desvaís"],"p1":["desvaímos"],"p2":["desvaís"]},
+    "IndImp": {"s1":["desvaía"],"s2":["desvaías"],"vos":["desvaías"],"s3":["desvaía"],"p1":["desvaíamos"],"p2":["desvaíais"],"p3":["desvaían"]},
+    "IndPret": {"s1":["desvaí"],"s2":["desvaíste"],"vos":["desvaíste"],"p1":["desvaímos"],"p2":["desvaísteis"]},
+    "IndFut": {"s1":["desvairé"],"s2":["desvairás"],"vos":["desvairás"],"s3":["desvairá"],"p1":["desvairemos"],"p2":["desvairéis"],"p3":["desvairán"]},
+    "IndCond": {"s1":["desvairía"],"s2":["desvairías"],"vos":["desvairías"],"s3":["desvairía"],"p1":["desvairíamos"],"p2":["desvairíais"],"p3":["desvairían"]},
+    "SubPres": {},
+    "SubImp": {},
+    "SubFut": {},
+    "CmdPos": {"vos":["desvaí"],"p2":["desvaíd"]}
+  }
+}

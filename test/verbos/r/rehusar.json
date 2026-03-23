@@ -6,7 +6,7 @@
     "etimologia": "Del latín refusāre y refūsus ('rechazado')",
     "modelos": ["aunar"]
   },
-  "formas_no_personales": {"infinitivo":"rehusar","gerundio":"rehusando","participio":"rehusado"},
+  "formas_no_personales": {"infinitivo":"rehusar","gerundio":["rehusando"], "participio":["rehusado"]},
   "formas_personales": {
     "IndPres": {"s1":["rehúso"],"s2":["rehúsas"],"vos":["rehusás"],"s3":["rehúsa"],"p1":["rehusamos"],"p2":["rehusáis"],"p3":["rehúsan"]},
     "IndImp": {"s1":["rehusaba"],"s2":["rehusabas"],"vos":["rehusabas"],"s3":["rehusaba"],"p1":["rehusábamos"],"p2":["rehusabais"],"p3":["rehusaban"]},

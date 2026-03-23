@@ -6,7 +6,7 @@
     "etimologia": "Del italiano investire ('acometer')",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"embestir","gerundio":"embistiendo","participio":"embestido"},
+  "formas_no_personales": {"infinitivo":"embestir","gerundio":["embistiendo"], "participio":["embestido"]},
   "formas_personales": {
     "IndPres": {"s1":["embisto"],"s2":["embistes"],"vos":["embestís"],"s3":["embiste"],"p1":["embestimos"],"p2":["embestís"],"p3":["embisten"]},
     "IndImp": {"s1":["embestía"],"s2":["embestías"],"vos":["embestías"],"s3":["embestía"],"p1":["embestíamos"],"p2":["embestíais"],"p3":["embestían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín impraegnare ('preñar').[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"impregnar","gerundio":"impregnando","participio":"impregnado"},
+  "formas_no_personales": {"infinitivo":"impregnar","gerundio":["impregnando"], "participio":["impregnado"]},
   "formas_personales": {
     "IndPres": {"s1":["impregno"],"s2":["impregnas"],"vos":["impregnás"],"s3":["impregna"],"p1":["impregnamos"],"p2":["impregnáis"],"p3":["impregnan"]},
     "IndImp": {"s1":["impregnaba"],"s2":["impregnabas"],"vos":["impregnabas"],"s3":["impregnaba"],"p1":["impregnábamos"],"p2":["impregnabais"],"p3":["impregnaban"]},

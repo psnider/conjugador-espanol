@@ -6,7 +6,7 @@
     "etimologia": "Del latín conmovēre",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"conmover","gerundio":"conmoviendo","participio":"conmovido"},
+  "formas_no_personales": {"infinitivo":"conmover","gerundio":["conmoviendo"], "participio":["conmovido"]},
   "formas_personales": {
     "IndPres": {"s1":["conmuevo"],"s2":["conmueves"],"vos":["conmovés"],"s3":["conmueve"],"p1":["conmovemos"],"p2":["conmovéis"],"p3":["conmueven"]},
     "IndImp": {"s1":["conmovía"],"s2":["conmovías"],"vos":["conmovías"],"s3":["conmovía"],"p1":["conmovíamos"],"p2":["conmovíais"],"p3":["conmovían"]},

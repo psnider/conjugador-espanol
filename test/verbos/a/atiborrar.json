@@ -6,7 +6,7 @@
     "etimologia": "Compuesto de atibar y borra.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atiborrar","gerundio":"atiborrando","participio":"atiborrado"},
+  "formas_no_personales": {"infinitivo":"atiborrar","gerundio":["atiborrando"], "participio":["atiborrado"]},
   "formas_personales": {
     "IndPres": {"s1":["atiborro"],"s2":["atiborras"],"vos":["atiborrás"],"s3":["atiborra"],"p1":["atiborramos"],"p2":["atiborráis"],"p3":["atiborran"]},
     "IndImp": {"s1":["atiborraba"],"s2":["atiborrabas"],"vos":["atiborrabas"],"s3":["atiborraba"],"p1":["atiborrábamos"],"p2":["atiborrabais"],"p3":["atiborraban"]},

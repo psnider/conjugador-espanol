@@ -6,7 +6,7 @@
     "etimologia": "Del latín transferens.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"transferir","gerundio":"transfiriendo","participio":"transferido"},
+  "formas_no_personales": {"infinitivo":"transferir","gerundio":["transfiriendo"], "participio":["transferido"]},
   "formas_personales": {
     "IndPres": {"s1":["transfiero"],"s2":["transfieres"],"vos":["transferís"],"s3":["transfiere"],"p1":["transferimos"],"p2":["transferís"],"p3":["transfieren"]},
     "IndImp": {"s1":["transfería"],"s2":["transferías"],"vos":["transferías"],"s3":["transfería"],"p1":["transferíamos"],"p2":["transferíais"],"p3":["transferían"]},

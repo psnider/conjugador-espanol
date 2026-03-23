@@ -6,7 +6,7 @@
     "etimologia": "Del latín recolligĕre.",
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"recoger","gerundio":"recogiendo","participio":"recogido"},
+  "formas_no_personales": {"infinitivo":"recoger","gerundio":["recogiendo"], "participio":["recogido"]},
   "formas_personales": {
     "IndPres": {"s1":["recojo"],"s2":["recoges"],"vos":["recogés"],"s3":["recoge"],"p1":["recogemos"],"p2":["recogéis"],"p3":["recogen"]},
     "IndImp": {"s1":["recogía"],"s2":["recogías"],"vos":["recogías"],"s3":["recogía"],"p1":["recogíamos"],"p2":["recogíais"],"p3":["recogían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"flexionar","gerundio":"flexionando","participio":"flexionado"},
+  "formas_no_personales": {"infinitivo":"flexionar","gerundio":["flexionando"], "participio":["flexionado"]},
   "formas_personales": {
     "IndPres": {"s1":["flexiono"],"s2":["flexionas"],"vos":["flexionás"],"s3":["flexiona"],"p1":["flexionamos"],"p2":["flexionáis"],"p3":["flexionan"]},
     "IndImp": {"s1":["flexionaba"],"s2":["flexionabas"],"vos":["flexionabas"],"s3":["flexionaba"],"p1":["flexionábamos"],"p2":["flexionabais"],"p3":["flexionaban"]},

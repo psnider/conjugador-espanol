@@ -6,7 +6,7 @@
     "etimologia": "Del latín orīgo ('origen'), que se verbalizó en el latín tardío como *originare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"originar","gerundio":"originando","participio":"originado"},
+  "formas_no_personales": {"infinitivo":"originar","gerundio":["originando"], "participio":["originado"]},
   "formas_personales": {
     "IndPres": {"s1":["origino"],"s2":["originas"],"vos":["originás"],"s3":["origina"],"p1":["originamos"],"p2":["origináis"],"p3":["originan"]},
     "IndImp": {"s1":["originaba"],"s2":["originabas"],"vos":["originabas"],"s3":["originaba"],"p1":["originábamos"],"p2":["originabais"],"p3":["originaban"]},

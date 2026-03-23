@@ -6,7 +6,7 @@
     "etimologia": "Del latín arguere.[1]",
     "modelos": ["argüir"]
   },
-  "formas_no_personales": {"infinitivo":"argüir","gerundio":"arguyendo","participio":"argüido"},
+  "formas_no_personales": {"infinitivo":"argüir","gerundio":["arguyendo"], "participio":["argüido"]},
   "formas_personales": {
     "IndPres": {"s1":["arguyo"],"s2":["arguyes"],"vos":["argüís"],"s3":["arguye"],"p1":["argüimos"],"p2":["argüís"],"p3":["arguyen"]},
     "IndImp": {"s1":["argüía"],"s2":["argüías"],"vos":["argüías"],"s3":["argüía"],"p1":["argüíamos"],"p2":["argüíais"],"p3":["argüían"]},

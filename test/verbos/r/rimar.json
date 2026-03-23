@@ -6,7 +6,7 @@
     "etimologia": "De rima y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rimar","gerundio":"rimando","participio":"rimado"},
+  "formas_no_personales": {"infinitivo":"rimar","gerundio":["rimando"], "participio":["rimado"]},
   "formas_personales": {
     "IndPres": {"s1":["rimo"],"s2":["rimas"],"vos":["rimás"],"s3":["rima"],"p1":["rimamos"],"p2":["rimáis"],"p3":["riman"]},
     "IndImp": {"s1":["rimaba"],"s2":["rimabas"],"vos":["rimabas"],"s3":["rimaba"],"p1":["rimábamos"],"p2":["rimabais"],"p3":["rimaban"]},

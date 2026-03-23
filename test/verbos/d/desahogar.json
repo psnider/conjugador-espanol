@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y ahogar.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"desahogar","gerundio":"desahogando","participio":"desahogado"},
+  "formas_no_personales": {"infinitivo":"desahogar","gerundio":["desahogando"], "participio":["desahogado"]},
   "formas_personales": {
     "IndPres": {"s1":["desahogo"],"s2":["desahogas"],"vos":["desahogás"],"s3":["desahoga"],"p1":["desahogamos"],"p2":["desahogáis"],"p3":["desahogan"]},
     "IndImp": {"s1":["desahogaba"],"s2":["desahogabas"],"vos":["desahogabas"],"s3":["desahogaba"],"p1":["desahogábamos"],"p2":["desahogabais"],"p3":["desahogaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín appretiāre.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"apreciar","gerundio":"apreciando","participio":"apreciado"},
+  "formas_no_personales": {"infinitivo":"apreciar","gerundio":["apreciando"], "participio":["apreciado"]},
   "formas_personales": {
     "IndPres": {"s1":["aprecio"],"s2":["aprecias"],"vos":["apreciás"],"s3":["aprecia"],"p1":["apreciamos"],"p2":["apreciáis"],"p3":["aprecian"]},
     "IndImp": {"s1":["apreciaba"],"s2":["apreciabas"],"vos":["apreciabas"],"s3":["apreciaba"],"p1":["apreciábamos"],"p2":["apreciabais"],"p3":["apreciaban"]},

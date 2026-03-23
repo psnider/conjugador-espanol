@@ -6,7 +6,7 @@
     "etimologia": "Del español calzado.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"calzar","gerundio":"calzando","participio":"calzado"},
+  "formas_no_personales": {"infinitivo":"calzar","gerundio":["calzando"], "participio":["calzado"]},
   "formas_personales": {
     "IndPres": {"s1":["calzo"],"s2":["calzas"],"vos":["calzás"],"s3":["calza"],"p1":["calzamos"],"p2":["calzáis"],"p3":["calzan"]},
     "IndImp": {"s1":["calzaba"],"s2":["calzabas"],"vos":["calzabas"],"s3":["calzaba"],"p1":["calzábamos"],"p2":["calzabais"],"p3":["calzaban"]},

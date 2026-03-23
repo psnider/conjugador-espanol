@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"destartalar","gerundio":"destartalando","participio":"destartalado"},
+  "formas_no_personales": {"infinitivo":"destartalar","gerundio":["destartalando"], "participio":["destartalado"]},
   "formas_personales": {
     "IndPres": {"s1":["destartalo"],"s2":["destartalas"],"vos":["destartalás"],"s3":["destartala"],"p1":["destartalamos"],"p2":["destartaláis"],"p3":["destartalan"]},
     "IndImp": {"s1":["destartalaba"],"s2":["destartalabas"],"vos":["destartalabas"],"s3":["destartalaba"],"p1":["destartalábamos"],"p2":["destartalabais"],"p3":["destartalaban"]},

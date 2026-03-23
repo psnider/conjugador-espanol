@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekõnst̪iˈt̪wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y constituir.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"reconstituir","gerundio":["reconstituyendo"], "participio":["reconstituido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reconstituyo"],"s2":["reconstituyes"],"vos":["reconstituís"],"s3":["reconstituye"],"p1":["reconstituimos"],"p2":["reconstituís"],"p3":["reconstituyen"]},
+    "IndImp": {"s1":["reconstituía"],"s2":["reconstituías"],"vos":["reconstituías"],"s3":["reconstituía"],"p1":["reconstituíamos"],"p2":["reconstituíais"],"p3":["reconstituían"]},
+    "IndPret": {"s1":["reconstituí"],"s2":["reconstituiste"],"vos":["reconstituiste"],"s3":["reconstituyó"],"p1":["reconstituimos"],"p2":["reconstituisteis"],"p3":["reconstituyeron"]},
+    "IndFut": {"s1":["reconstituiré"],"s2":["reconstituirás"],"vos":["reconstituirás"],"s3":["reconstituirá"],"p1":["reconstituiremos"],"p2":["reconstituiréis"],"p3":["reconstituirán"]},
+    "IndCond": {"s1":["reconstituiría"],"s2":["reconstituirías"],"vos":["reconstituirías"],"s3":["reconstituiría"],"p1":["reconstituiríamos"],"p2":["reconstituiríais"],"p3":["reconstituirían"]},
+    "SubPres": {"s1":["reconstituya"],"s2":["reconstituyas"],"vos":["reconstituyas","reconstituyás"],"s3":["reconstituya"],"p1":["reconstituyamos"],"p2":["reconstituyáis"],"p3":["reconstituyan"]},
+    "SubImp": {"s1":["reconstituyera","reconstituyese"],"s2":["reconstituyeras","reconstituyeses"],"vos":["reconstituyeras","reconstituyeses"],"s3":["reconstituyera","reconstituyese"],"p1":["reconstituyéramos","reconstituyésemos"],"p2":["reconstituyerais","reconstituyeseis"],"p3":["reconstituyeran","reconstituyesen"]},
+    "SubFut": {"s1":["reconstituyere"],"s2":["reconstituyeres"],"vos":["reconstituyeres"],"s3":["reconstituyere"],"p1":["reconstituyéremos"],"p2":["reconstituyereis"],"p3":["reconstituyeren"]},
+    "CmdPos": {"s2":["reconstituye"],"vos":["reconstituí"],"s3":["reconstituya"],"p1":["reconstituyamos"],"p2":["reconstituid"],"p3":["reconstituyan"]}
+  }
+}

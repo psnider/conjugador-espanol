@@ -6,7 +6,7 @@
     "etimologia": "Del francés surprendre.[2]",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"sorprender","gerundio":"sorprendiendo","participio":"sorprendido"},
+  "formas_no_personales": {"infinitivo":"sorprender","gerundio":["sorprendiendo"], "participio":["sorprendido"]},
   "formas_personales": {
     "IndPres": {"s1":["sorprendo"],"s2":["sorprendes"],"vos":["sorprendés"],"s3":["sorprende"],"p1":["sorprendemos"],"p2":["sorprendéis"],"p3":["sorprenden"]},
     "IndImp": {"s1":["sorprendía"],"s2":["sorprendías"],"vos":["sorprendías"],"s3":["sorprendía"],"p1":["sorprendíamos"],"p2":["sorprendíais"],"p3":["sorprendían"]},

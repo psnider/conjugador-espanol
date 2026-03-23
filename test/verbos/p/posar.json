@@ -6,7 +6,7 @@
     "etimologia": "Del latín pausāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"posar","gerundio":"posando","participio":"posado"},
+  "formas_no_personales": {"infinitivo":"posar","gerundio":["posando"], "participio":["posado"]},
   "formas_personales": {
     "IndPres": {"s1":["poso"],"s2":["posas"],"vos":["posás"],"s3":["posa"],"p1":["posamos"],"p2":["posáis"],"p3":["posan"]},
     "IndImp": {"s1":["posaba"],"s2":["posabas"],"vos":["posabas"],"s3":["posaba"],"p1":["posábamos"],"p2":["posabais"],"p3":["posaban"]},

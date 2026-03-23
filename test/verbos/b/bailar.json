@@ -6,7 +6,7 @@
     "etimologia": "Del latín tardío ballare, documentado desde el siglo VII, de etimología ulterior incierta, quizás del griego antiguo βάλλω, del griego antiguo βαλλίζο[1], del latín balla, de origen germánico.[2] Compárese ballet, el catalán ballar, el francés baller, el gallego bailar, el inglés obsoleto bale, el italiano ballare, el occitano balar o el portugués bailar; no hay registros de cognados en la rama oriental del romance.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bailar","gerundio":"bailando","participio":"bailado"},
+  "formas_no_personales": {"infinitivo":"bailar","gerundio":["bailando"], "participio":["bailado"]},
   "formas_personales": {
     "IndPres": {"s1":["bailo"],"s2":["bailas"],"vos":["bailás"],"s3":["baila"],"p1":["bailamos"],"p2":["bailáis"],"p3":["bailan"]},
     "IndImp": {"s1":["bailaba"],"s2":["bailabas"],"vos":["bailabas"],"s3":["bailaba"],"p1":["bailábamos"],"p2":["bailabais"],"p3":["bailaban"]},

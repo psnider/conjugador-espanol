@@ -6,7 +6,7 @@
     "etimologia": "Del latín operare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"operar","gerundio":"operando","participio":"operado"},
+  "formas_no_personales": {"infinitivo":"operar","gerundio":["operando"], "participio":["operado"]},
   "formas_personales": {
     "IndPres": {"s1":["opero"],"s2":["operas"],"vos":["operás"],"s3":["opera"],"p1":["operamos"],"p2":["operáis"],"p3":["operan"]},
     "IndImp": {"s1":["operaba"],"s2":["operabas"],"vos":["operabas"],"s3":["operaba"],"p1":["operábamos"],"p2":["operabais"],"p3":["operaban"]},

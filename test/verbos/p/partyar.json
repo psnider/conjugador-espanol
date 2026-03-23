@@ -6,7 +6,7 @@
     "etimologia": "Del inglés party",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"partyar","gerundio":"partyando","participio":"partyado"},
+  "formas_no_personales": {"infinitivo":"partyar","gerundio":["partyando"], "participio":["partyado"]},
   "formas_personales": {
     "IndPres": {"s1":["partyo"],"s2":["partyas"],"vos":["partyás"],"s3":["partya"],"p1":["partyamos"],"p2":["partyáis"],"p3":["partyan"]},
     "IndImp": {"s1":["partyaba"],"s2":["partyabas"],"vos":["partyabas"],"s3":["partyaba"],"p1":["partyábamos"],"p2":["partyabais"],"p3":["partyaban"]},

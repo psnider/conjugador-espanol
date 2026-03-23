@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reconfortar","gerundio":"reconfortando","participio":"reconfortado"},
+  "formas_no_personales": {"infinitivo":"reconfortar","gerundio":["reconfortando"], "participio":["reconfortado"]},
   "formas_personales": {
     "IndPres": {"s1":["reconforto"],"s2":["reconfortas"],"vos":["reconfortás"],"s3":["reconforta"],"p1":["reconfortamos"],"p2":["reconfortáis"],"p3":["reconfortan"]},
     "IndImp": {"s1":["reconfortaba"],"s2":["reconfortabas"],"vos":["reconfortabas"],"s3":["reconfortaba"],"p1":["reconfortábamos"],"p2":["reconfortabais"],"p3":["reconfortaban"]},

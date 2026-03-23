@@ -6,7 +6,7 @@
     "etimologia": "Del latín recipere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"recibir","gerundio":"recibiendo","participio":"recibido"},
+  "formas_no_personales": {"infinitivo":"recibir","gerundio":["recibiendo"], "participio":["recibido"]},
   "formas_personales": {
     "IndPres": {"s1":["recibo"],"s2":["recibes"],"vos":["recibís"],"s3":["recibe"],"p1":["recibimos"],"p2":["recibís"],"p3":["reciben"]},
     "IndImp": {"s1":["recibía"],"s2":["recibías"],"vos":["recibías"],"s3":["recibía"],"p1":["recibíamos"],"p2":["recibíais"],"p3":["recibían"]},

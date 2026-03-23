@@ -5,7 +5,7 @@
     "etimologia": "Del latín anxiāre.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"ansiar","gerundio":"ansiando","participio":"ansiado"},
+  "formas_no_personales": {"infinitivo":"ansiar","gerundio":["ansiando"], "participio":["ansiado"]},
   "formas_personales": {
     "IndPres": {"s1":["ansío"],"s2":["ansías"],"vos":["ansiás"],"s3":["ansía"],"p1":["ansiamos"],"p2":["ansiáis"],"p3":["ansían"]},
     "IndImp": {"s1":["ansiaba"],"s2":["ansiabas"],"vos":["ansiabas"],"s3":["ansiaba"],"p1":["ansiábamos"],"p2":["ansiabais"],"p3":["ansiaban"]},

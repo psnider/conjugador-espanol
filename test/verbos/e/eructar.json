@@ -6,7 +6,7 @@
     "etimologia": "Del latín eructare; formado a partir de ex, \"afuera\", y ructare, \"eructar\"",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"eructar","gerundio":"eructando","participio":"eructado"},
+  "formas_no_personales": {"infinitivo":"eructar","gerundio":["eructando"], "participio":["eructado"]},
   "formas_personales": {
     "IndPres": {"s1":["eructo"],"s2":["eructas"],"vos":["eructás"],"s3":["eructa"],"p1":["eructamos"],"p2":["eructáis"],"p3":["eructan"]},
     "IndImp": {"s1":["eructaba"],"s2":["eructabas"],"vos":["eructabas"],"s3":["eructaba"],"p1":["eructábamos"],"p2":["eructabais"],"p3":["eructaban"]},

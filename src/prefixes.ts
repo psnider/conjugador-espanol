@@ -1,4 +1,4 @@
-import { VerbRulesApplied, VerbConjugation } from ".";
+import { VerbRulesApplied, VerbConjugation, VerbForms } from ".";
 import { applyToVerbForms } from "./lib.js";
 import { ConjugationAndDerivationRules, Prefixes } from "./resolve-conjugation-class.js";
 
@@ -69,24 +69,26 @@ export function findProductiveVerbPrefix(verb_part: string, min_ending_length: n
 }
 
 
-
-export function addPrefixesToBaseForm(base_form: string, prefixes?: Prefixes) {
+export function addPrefixesToBaseForm(base_forms: VerbForms, prefixes?: Prefixes) {
     if (prefixes) {
         const {productive_prefixes, nonproductive_prefix, clase_de_conjugación} = prefixes
         const productive = productive_prefixes?.join("") || ""
         const nonproductive = nonproductive_prefix || ""
-        let updated_form: string
-        if (clase_de_conjugación) {
-            const {prefijo_aditivo, prefijo_sustractivo} = clase_de_conjugación
-            const terminación = base_form.slice(prefijo_sustractivo.length)
-            updated_form = prefijo_aditivo + terminación
-        } else {
-            updated_form = base_form
-        }
-        const prefixed = productive + nonproductive + updated_form
-        return prefixed
+        const updated_forms = applyToVerbForms(base_forms, (base_form) => {
+            let updated_form: string
+            if (clase_de_conjugación) {
+                const {prefijo_aditivo, prefijo_sustractivo} = clase_de_conjugación
+                const terminación = base_form.slice(prefijo_sustractivo.length)
+                updated_form = prefijo_aditivo + terminación
+            } else {
+                updated_form = base_form
+            }
+            const prefixed = productive + nonproductive + updated_form
+            return prefixed
+        })
+        return updated_forms
     } else {
-        return base_form
+        return base_forms
     }
 }
 

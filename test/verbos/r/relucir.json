@@ -6,7 +6,7 @@
     "etimologia": "Del latín relucēre",
     "modelos": ["lucir"]
   },
-  "formas_no_personales": {"infinitivo":"relucir","gerundio":"reluciendo","participio":"relucido"},
+  "formas_no_personales": {"infinitivo":"relucir","gerundio":["reluciendo"], "participio":["relucido"]},
   "formas_personales": {
     "IndPres": {"s1":["reluzco"],"s2":["reluces"],"vos":["relucís"],"s3":["reluce"],"p1":["relucimos"],"p2":["relucís"],"p3":["relucen"]},
     "IndImp": {"s1":["relucía"],"s2":["relucías"],"vos":["relucías"],"s3":["relucía"],"p1":["relucíamos"],"p2":["relucíais"],"p3":["relucían"]},

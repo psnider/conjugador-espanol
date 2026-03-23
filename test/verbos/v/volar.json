@@ -6,7 +6,7 @@
     "etimologia": "Del latín volo",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"volar","gerundio":"volando","participio":"volado"},
+  "formas_no_personales": {"infinitivo":"volar","gerundio":["volando"], "participio":["volado"]},
   "formas_personales": {
     "IndPres": {"s1":["vuelo"],"s2":["vuelas"],"vos":["volás"],"s3":["vuela"],"p1":["volamos"],"p2":["voláis"],"p3":["vuelan"]},
     "IndImp": {"s1":["volaba"],"s2":["volabas"],"vos":["volabas"],"s3":["volaba"],"p1":["volábamos"],"p2":["volabais"],"p3":["volaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín plicāre.",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"plegar","gerundio":"plegando","participio":"plegado"},
+  "formas_no_personales": {"infinitivo":"plegar","gerundio":["plegando"], "participio":["plegado"]},
   "formas_personales": {
     "IndPres": {"s1":["pliego"],"s2":["pliegas"],"vos":["plegás"],"s3":["pliega"],"p1":["plegamos"],"p2":["plegáis"],"p3":["pliegan"]},
     "IndImp": {"s1":["plegaba"],"s2":["plegabas"],"vos":["plegabas"],"s3":["plegaba"],"p1":["plegábamos"],"p2":["plegabais"],"p3":["plegaban"]},

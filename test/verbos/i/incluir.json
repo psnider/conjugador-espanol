@@ -5,7 +5,7 @@
     "etimologia": "Del latín inclūdĕre.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"incluir","gerundio":"incluyendo","participio":"incluido"},
+  "formas_no_personales": {"infinitivo":"incluir","gerundio":["incluyendo"], "participio":["incluido"]},
   "formas_personales": {
     "IndPres": {"s1":["incluyo"],"s2":["incluyes"],"vos":["incluís"],"s3":["incluye"],"p1":["incluimos"],"p2":["incluís"],"p3":["incluyen"]},
     "IndImp": {"s1":["incluía"],"s2":["incluías"],"vos":["incluías"],"s3":["incluía"],"p1":["incluíamos"],"p2":["incluíais"],"p3":["incluían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asombrar","gerundio":"asombrando","participio":"asombrado"},
+  "formas_no_personales": {"infinitivo":"asombrar","gerundio":["asombrando"], "participio":["asombrado"]},
   "formas_personales": {
     "IndPres": {"s1":["asombro"],"s2":["asombras"],"vos":["asombrás"],"s3":["asombra"],"p1":["asombramos"],"p2":["asombráis"],"p3":["asombran"]},
     "IndImp": {"s1":["asombraba"],"s2":["asombrabas"],"vos":["asombrabas"],"s3":["asombraba"],"p1":["asombrábamos"],"p2":["asombrabais"],"p3":["asombraban"]},

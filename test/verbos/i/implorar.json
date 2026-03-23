@@ -6,7 +6,7 @@
     "etimologia": "Del latín implorāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"implorar","gerundio":"implorando","participio":"implorado"},
+  "formas_no_personales": {"infinitivo":"implorar","gerundio":["implorando"], "participio":["implorado"]},
   "formas_personales": {
     "IndPres": {"s1":["imploro"],"s2":["imploras"],"vos":["implorás"],"s3":["implora"],"p1":["imploramos"],"p2":["imploráis"],"p3":["imploran"]},
     "IndImp": {"s1":["imploraba"],"s2":["implorabas"],"vos":["implorabas"],"s3":["imploraba"],"p1":["implorábamos"],"p2":["implorabais"],"p3":["imploraban"]},

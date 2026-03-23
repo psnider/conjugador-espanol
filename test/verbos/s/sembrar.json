@@ -6,7 +6,7 @@
     "etimologia": "Del latín seminare.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"sembrar","gerundio":"sembrando","participio":"sembrado"},
+  "formas_no_personales": {"infinitivo":"sembrar","gerundio":["sembrando"], "participio":["sembrado"]},
   "formas_personales": {
     "IndPres": {"s1":["siembro"],"s2":["siembras"],"vos":["sembrás"],"s3":["siembra"],"p1":["sembramos"],"p2":["sembráis"],"p3":["siembran"]},
     "IndImp": {"s1":["sembraba"],"s2":["sembrabas"],"vos":["sembrabas"],"s3":["sembraba"],"p1":["sembrábamos"],"p2":["sembrabais"],"p3":["sembraban"]},

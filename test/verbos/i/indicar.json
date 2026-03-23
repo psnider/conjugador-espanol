@@ -6,7 +6,7 @@
     "etimologia": "Del latín indicare",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"indicar","gerundio":"indicando","participio":"indicado"},
+  "formas_no_personales": {"infinitivo":"indicar","gerundio":["indicando"], "participio":["indicado"]},
   "formas_personales": {
     "IndPres": {"s1":["indico"],"s2":["indicas"],"vos":["indicás"],"s3":["indica"],"p1":["indicamos"],"p2":["indicáis"],"p3":["indican"]},
     "IndImp": {"s1":["indicaba"],"s2":["indicabas"],"vos":["indicabas"],"s3":["indicaba"],"p1":["indicábamos"],"p2":["indicabais"],"p3":["indicaban"]},

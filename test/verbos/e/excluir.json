@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"excluir","gerundio":"excluyendo","participio":"excluido"},
+  "formas_no_personales": {"infinitivo":"excluir","gerundio":["excluyendo"], "participio":["excluido"]},
   "formas_personales": {
     "IndPres": {"s1":["excluyo"],"s2":["excluyes"],"vos":["excluís"],"s3":["excluye"],"p1":["excluimos"],"p2":["excluís"],"p3":["excluyen"]},
     "IndImp": {"s1":["excluía"],"s2":["excluías"],"vos":["excluías"],"s3":["excluía"],"p1":["excluíamos"],"p2":["excluíais"],"p3":["excluían"]},

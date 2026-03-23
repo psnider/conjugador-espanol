@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"conformar","gerundio":"conformando","participio":"conformado"},
+  "formas_no_personales": {"infinitivo":"conformar","gerundio":["conformando"], "participio":["conformado"]},
   "formas_personales": {
     "IndPres": {"s1":["conformo"],"s2":["conformas"],"vos":["conformás"],"s3":["conforma"],"p1":["conformamos"],"p2":["conformáis"],"p3":["conforman"]},
     "IndImp": {"s1":["conformaba"],"s2":["conformabas"],"vos":["conformabas"],"s3":["conformaba"],"p1":["conformábamos"],"p2":["conformabais"],"p3":["conformaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín reducĕre.",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"reducir","gerundio":"reduciendo","participio":"reducido"},
+  "formas_no_personales": {"infinitivo":"reducir","gerundio":["reduciendo"], "participio":["reducido"]},
   "formas_personales": {
     "IndPres": {"s1":["reduzco"],"s2":["reduces"],"vos":["reducís"],"s3":["reduce"],"p1":["reducimos"],"p2":["reducís"],"p3":["reducen"]},
     "IndImp": {"s1":["reducía"],"s2":["reducías"],"vos":["reducías"],"s3":["reducía"],"p1":["reducíamos"],"p2":["reducíais"],"p3":["reducían"]},

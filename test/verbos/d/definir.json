@@ -6,7 +6,7 @@
     "etimologia": "Del latín definīre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"definir","gerundio":"definiendo","participio":"definido"},
+  "formas_no_personales": {"infinitivo":"definir","gerundio":["definiendo"], "participio":["definido"]},
   "formas_personales": {
     "IndPres": {"s1":["defino"],"s2":["defines"],"vos":["definís"],"s3":["define"],"p1":["definimos"],"p2":["definís"],"p3":["definen"]},
     "IndImp": {"s1":["definía"],"s2":["definías"],"vos":["definías"],"s3":["definía"],"p1":["definíamos"],"p2":["definíais"],"p3":["definían"]},

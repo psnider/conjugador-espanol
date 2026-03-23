@@ -6,7 +6,7 @@
     "etimologia": "Del latín in ('en') y prendō, prendere ('aprehender').[1]",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"emprender","gerundio":"emprendiendo","participio":"emprendido"},
+  "formas_no_personales": {"infinitivo":"emprender","gerundio":["emprendiendo"], "participio":["emprendido"]},
   "formas_personales": {
     "IndPres": {"s1":["emprendo"],"s2":["emprendes"],"vos":["emprendés"],"s3":["emprende"],"p1":["emprendemos"],"p2":["emprendéis"],"p3":["emprenden"]},
     "IndImp": {"s1":["emprendía"],"s2":["emprendías"],"vos":["emprendías"],"s3":["emprendía"],"p1":["emprendíamos"],"p2":["emprendíais"],"p3":["emprendían"]},

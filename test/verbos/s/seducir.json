@@ -6,7 +6,7 @@
     "etimologia": "Del latín sēdūcere.",
     "modelos": ["producir"]
   },
-  "formas_no_personales": {"infinitivo":"seducir","gerundio":"seduciendo","participio":"seducido"},
+  "formas_no_personales": {"infinitivo":"seducir","gerundio":["seduciendo"], "participio":["seducido"]},
   "formas_personales": {
     "IndPres": {"s1":["seduzco"],"s2":["seduces"],"vos":["seducís"],"s3":["seduce"],"p1":["seducimos"],"p2":["seducís"],"p3":["seducen"]},
     "IndImp": {"s1":["seducía"],"s2":["seducías"],"vos":["seducías"],"s3":["seducía"],"p1":["seducíamos"],"p2":["seducíais"],"p3":["seducían"]},

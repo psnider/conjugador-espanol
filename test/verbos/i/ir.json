@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140. Del castellano antiguo ir ('ir'), y este del latín eo, en última instancia del protoindoeuropeo *h₁ey-. El presente de los tres modos es supletorio, y procede del latín vadere, al haberse perdido en romance las formas correspondientes del latín ire. El indefinido de indicativo y el imperfecto y futuro de subjuntivo son supletorios, procediendo del latín sum o bien del latín fugio.",
     "modelos": ["ir"]
   },
-  "formas_no_personales": {"infinitivo":"ir","gerundio":"yendo","participio":"ido"},
+  "formas_no_personales": {"infinitivo":"ir","gerundio":["yendo"], "participio":["ido"]},
   "formas_personales": {
     "IndPres": {"s1":["voy"],"s2":["vas"],"vos":["vas"],"s3":["va"],"p1":["vamos"],"p2":["vais"],"p3":["van"]},
     "IndImp": {"s1":["iba"],"s2":["ibas"],"vos":["ibas"],"s3":["iba"],"p1":["íbamos"],"p2":["ibais"],"p3":["iban"]},

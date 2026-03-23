@@ -6,7 +6,7 @@
     "etimologia": "Del latín vigilare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"vigilar","gerundio":"vigilando","participio":"vigilado"},
+  "formas_no_personales": {"infinitivo":"vigilar","gerundio":["vigilando"], "participio":["vigilado"]},
   "formas_personales": {
     "IndPres": {"s1":["vigilo"],"s2":["vigilas"],"vos":["vigilás"],"s3":["vigila"],"p1":["vigilamos"],"p2":["vigiláis"],"p3":["vigilan"]},
     "IndImp": {"s1":["vigilaba"],"s2":["vigilabas"],"vos":["vigilabas"],"s3":["vigilaba"],"p1":["vigilábamos"],"p2":["vigilabais"],"p3":["vigilaban"]},

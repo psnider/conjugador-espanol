@@ -6,7 +6,7 @@
     "etimologia": "De actual y el sufijo -izar",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"actualizar","gerundio":"actualizando","participio":"actualizado"},
+  "formas_no_personales": {"infinitivo":"actualizar","gerundio":["actualizando"], "participio":["actualizado"]},
   "formas_personales": {
     "IndPres": {"s1":["actualizo"],"s2":["actualizas"],"vos":["actualizás"],"s3":["actualiza"],"p1":["actualizamos"],"p2":["actualizáis"],"p3":["actualizan"]},
     "IndImp": {"s1":["actualizaba"],"s2":["actualizabas"],"vos":["actualizabas"],"s3":["actualizaba"],"p1":["actualizábamos"],"p2":["actualizabais"],"p3":["actualizaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín arripāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arribar","gerundio":"arribando","participio":"arribado"},
+  "formas_no_personales": {"infinitivo":"arribar","gerundio":["arribando"], "participio":["arribado"]},
   "formas_personales": {
     "IndPres": {"s1":["arribo"],"s2":["arribas"],"vos":["arribás"],"s3":["arriba"],"p1":["arribamos"],"p2":["arribáis"],"p3":["arriban"]},
     "IndImp": {"s1":["arribaba"],"s2":["arribabas"],"vos":["arribabas"],"s3":["arribaba"],"p1":["arribábamos"],"p2":["arribabais"],"p3":["arribaban"]},

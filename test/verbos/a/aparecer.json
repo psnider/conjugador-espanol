@@ -6,7 +6,7 @@
     "etimologia": "Del latín appārēscere, derivado del latín appareo, a su vez compuesto del latín pareo (\"hacerse visible\").",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"aparecer","gerundio":"apareciendo","participio":"aparecido"},
+  "formas_no_personales": {"infinitivo":"aparecer","gerundio":["apareciendo"], "participio":["aparecido"]},
   "formas_personales": {
     "IndPres": {"s1":["aparezco"],"s2":["apareces"],"vos":["aparecés"],"s3":["aparece"],"p1":["aparecemos"],"p2":["aparecéis"],"p3":["aparecen"]},
     "IndImp": {"s1":["aparecía"],"s2":["aparecías"],"vos":["aparecías"],"s3":["aparecía"],"p1":["aparecíamos"],"p2":["aparecíais"],"p3":["aparecían"]},

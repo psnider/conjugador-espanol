@@ -6,7 +6,7 @@
     "etimologia": "De camino.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"caminar","gerundio":"caminando","participio":"caminado"},
+  "formas_no_personales": {"infinitivo":"caminar","gerundio":["caminando"], "participio":["caminado"]},
   "formas_personales": {
     "IndPres": {"s1":["camino"],"s2":["caminas"],"vos":["caminás"],"s3":["camina"],"p1":["caminamos"],"p2":["camináis"],"p3":["caminan"]},
     "IndImp": {"s1":["caminaba"],"s2":["caminabas"],"vos":["caminabas"],"s3":["caminaba"],"p1":["caminábamos"],"p2":["caminabais"],"p3":["caminaban"]},

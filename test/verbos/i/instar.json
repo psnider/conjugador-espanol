@@ -6,7 +6,7 @@
     "etimologia": "Del latín īnstāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"instar","gerundio":"instando","participio":"instado"},
+  "formas_no_personales": {"infinitivo":"instar","gerundio":["instando"], "participio":["instado"]},
   "formas_personales": {
     "IndPres": {"s1":["insto"],"s2":["instas"],"vos":["instás"],"s3":["insta"],"p1":["instamos"],"p2":["instáis"],"p3":["instan"]},
     "IndImp": {"s1":["instaba"],"s2":["instabas"],"vos":["instabas"],"s3":["instaba"],"p1":["instábamos"],"p2":["instabais"],"p3":["instaban"]},

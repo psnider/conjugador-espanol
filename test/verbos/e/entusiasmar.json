@@ -6,7 +6,7 @@
     "etimologia": "Denominal de entusiasmo. De entusiasmo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"entusiasmar","gerundio":"entusiasmando","participio":"entusiasmado"},
+  "formas_no_personales": {"infinitivo":"entusiasmar","gerundio":["entusiasmando"], "participio":["entusiasmado"]},
   "formas_personales": {
     "IndPres": {"s1":["entusiasmo"],"s2":["entusiasmas"],"vos":["entusiasmás"],"s3":["entusiasma"],"p1":["entusiasmamos"],"p2":["entusiasmáis"],"p3":["entusiasman"]},
     "IndImp": {"s1":["entusiasmaba"],"s2":["entusiasmabas"],"vos":["entusiasmabas"],"s3":["entusiasmaba"],"p1":["entusiasmábamos"],"p2":["entusiasmabais"],"p3":["entusiasmaban"]},

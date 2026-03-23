@@ -6,7 +6,7 @@
     "etimologia": "Del latín cernere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"cerner","gerundio":"cerniendo","participio":"cernido"},
+  "formas_no_personales": {"infinitivo":"cerner","gerundio":["cerniendo"], "participio":["cernido"]},
   "formas_personales": {
     "IndPres": {"s1":["cierno"],"s2":["ciernes"],"vos":["cernés"],"s3":["cierne"],"p1":["cernemos"],"p2":["cernéis"],"p3":["ciernen"]},
     "IndImp": {"s1":["cernía"],"s2":["cernías"],"vos":["cernías"],"s3":["cernía"],"p1":["cerníamos"],"p2":["cerníais"],"p3":["cernían"]},

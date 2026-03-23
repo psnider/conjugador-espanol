@@ -6,7 +6,7 @@
     "etimologia": "Del latín affectāre, frecuentativo del latín aficio (\"influir en el ánimo\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"afectar","gerundio":"afectando","participio":"afectado"},
+  "formas_no_personales": {"infinitivo":"afectar","gerundio":["afectando"], "participio":["afectado"]},
   "formas_personales": {
     "IndPres": {"s1":["afecto"],"s2":["afectas"],"vos":["afectás"],"s3":["afecta"],"p1":["afectamos"],"p2":["afectáis"],"p3":["afectan"]},
     "IndImp": {"s1":["afectaba"],"s2":["afectabas"],"vos":["afectabas"],"s3":["afectaba"],"p1":["afectábamos"],"p2":["afectabais"],"p3":["afectaban"]},

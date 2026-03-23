@@ -6,7 +6,7 @@
     "etimologia": "Del latín temptō, temptāre (\"poner a prueba, incitar, tocar\").",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"tentar","gerundio":"tentando","participio":"tentado"},
+  "formas_no_personales": {"infinitivo":"tentar","gerundio":["tentando"], "participio":["tentado"]},
   "formas_personales": {
     "IndPres": {"s1":["tiento"],"s2":["tientas"],"vos":["tentás"],"s3":["tienta"],"p1":["tentamos"],"p2":["tentáis"],"p3":["tientan"]},
     "IndImp": {"s1":["tentaba"],"s2":["tentabas"],"vos":["tentabas"],"s3":["tentaba"],"p1":["tentábamos"],"p2":["tentabais"],"p3":["tentaban"]},

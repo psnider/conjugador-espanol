@@ -6,7 +6,7 @@
     "etimologia": "Del latín distendere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"distender","gerundio":"distendiendo","participio":"distendido"},
+  "formas_no_personales": {"infinitivo":"distender","gerundio":["distendiendo"], "participio":["distendido"]},
   "formas_personales": {
     "IndPres": {"s1":["distiendo"],"s2":["distiendes"],"vos":["distendés"],"s3":["distiende"],"p1":["distendemos"],"p2":["distendéis"],"p3":["distienden"]},
     "IndImp": {"s1":["distendía"],"s2":["distendías"],"vos":["distendías"],"s3":["distendía"],"p1":["distendíamos"],"p2":["distendíais"],"p3":["distendían"]},

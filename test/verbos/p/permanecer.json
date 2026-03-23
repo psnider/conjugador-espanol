@@ -6,7 +6,7 @@
     "etimologia": "Orígen latino: verbo permanere, permaneo",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"permanecer","gerundio":"permaneciendo","participio":"permanecido"},
+  "formas_no_personales": {"infinitivo":"permanecer","gerundio":["permaneciendo"], "participio":["permanecido"]},
   "formas_personales": {
     "IndPres": {"s1":["permanezco"],"s2":["permaneces"],"vos":["permanecés"],"s3":["permanece"],"p1":["permanecemos"],"p2":["permanecéis"],"p3":["permanecen"]},
     "IndImp": {"s1":["permanecía"],"s2":["permanecías"],"vos":["permanecías"],"s3":["permanecía"],"p1":["permanecíamos"],"p2":["permanecíais"],"p3":["permanecían"]},

@@ -5,7 +5,7 @@
     "etimologia": "De agua.",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"aguar","gerundio":"aguando","participio":"aguado"},
+  "formas_no_personales": {"infinitivo":"aguar","gerundio":["aguando"], "participio":["aguado"]},
   "formas_personales": {
     "IndPres": {"s1":["aguo"],"s2":["aguas"],"vos":["aguás"],"s3":["agua"],"p1":["aguamos"],"p2":["aguáis"],"p3":["aguan"]},
     "IndImp": {"s1":["aguaba"],"s2":["aguabas"],"vos":["aguabas"],"s3":["aguaba"],"p1":["aguábamos"],"p2":["aguabais"],"p3":["aguaban"]},

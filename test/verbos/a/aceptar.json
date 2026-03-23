@@ -6,7 +6,7 @@
     "etimologia": "Del latín acceptāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aceptar","gerundio":"aceptando","participio":"aceptado"},
+  "formas_no_personales": {"infinitivo":"aceptar","gerundio":["aceptando"], "participio":["aceptado"]},
   "formas_personales": {
     "IndPres": {"s1":["acepto"],"s2":["aceptas"],"vos":["aceptás"],"s3":["acepta"],"p1":["aceptamos"],"p2":["aceptáis"],"p3":["aceptan"]},
     "IndImp": {"s1":["aceptaba"],"s2":["aceptabas"],"vos":["aceptabas"],"s3":["aceptaba"],"p1":["aceptábamos"],"p2":["aceptabais"],"p3":["aceptaban"]},

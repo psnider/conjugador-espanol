@@ -6,7 +6,7 @@
     "etimologia": "De estación y el sufijo -ar.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estacionar","gerundio":"estacionando","participio":"estacionado"},
+  "formas_no_personales": {"infinitivo":"estacionar","gerundio":["estacionando"], "participio":["estacionado"]},
   "formas_personales": {
     "IndPres": {"s1":["estaciono"],"s2":["estacionas"],"vos":["estacionás"],"s3":["estaciona"],"p1":["estacionamos"],"p2":["estacionáis"],"p3":["estacionan"]},
     "IndImp": {"s1":["estacionaba"],"s2":["estacionabas"],"vos":["estacionabas"],"s3":["estacionaba"],"p1":["estacionábamos"],"p2":["estacionabais"],"p3":["estacionaban"]},

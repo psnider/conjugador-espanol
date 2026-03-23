@@ -6,7 +6,7 @@
     "etimologia": "Del latín pacare ('apaciguar'), calmar, satisfacer.[1]",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"pagar","gerundio":"pagando","participio":"pagado"},
+  "formas_no_personales": {"infinitivo":"pagar","gerundio":["pagando"], "participio":["pagado"]},
   "formas_personales": {
     "IndPres": {"s1":["pago"],"s2":["pagas"],"vos":["pagás"],"s3":["paga"],"p1":["pagamos"],"p2":["pagáis"],"p3":["pagan"]},
     "IndImp": {"s1":["pagaba"],"s2":["pagabas"],"vos":["pagabas"],"s3":["pagaba"],"p1":["pagábamos"],"p2":["pagabais"],"p3":["pagaban"]},

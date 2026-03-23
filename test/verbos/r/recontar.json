@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"recontar","gerundio":"recontando","participio":"recontado"},
+  "formas_no_personales": {"infinitivo":"recontar","gerundio":["recontando"], "participio":["recontado"]},
   "formas_personales": {
     "IndPres": {"s1":["recuento"],"s2":["recuentas"],"vos":["recontás"],"s3":["recuenta"],"p1":["recontamos"],"p2":["recontáis"],"p3":["recuentan"]},
     "IndImp": {"s1":["recontaba"],"s2":["recontabas"],"vos":["recontabas"],"s3":["recontaba"],"p1":["recontábamos"],"p2":["recontabais"],"p3":["recontaban"]},

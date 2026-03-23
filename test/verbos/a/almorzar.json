@@ -6,7 +6,7 @@
     "etimologia": "De almuerzo y el sufijo -ar.",
     "modelos": ["realizar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"almorzar","gerundio":"almorzando","participio":"almorzado"},
+  "formas_no_personales": {"infinitivo":"almorzar","gerundio":["almorzando"], "participio":["almorzado"]},
   "formas_personales": {
     "IndPres": {"s1":["almuerzo"],"s2":["almuerzas"],"vos":["almorzás"],"s3":["almuerza"],"p1":["almorzamos"],"p2":["almorzáis"],"p3":["almuerzan"]},
     "IndImp": {"s1":["almorzaba"],"s2":["almorzabas"],"vos":["almorzabas"],"s3":["almorzaba"],"p1":["almorzábamos"],"p2":["almorzabais"],"p3":["almorzaban"]},

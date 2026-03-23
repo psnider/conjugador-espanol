@@ -5,7 +5,7 @@
     "etimologia": "Del latín depretiare, y este de de y pretium, \"precio\". Compárese el doblete depreciar, el italiano disprezzare o el portugués desprezar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"despreciar","gerundio":"despreciando","participio":"despreciado"},
+  "formas_no_personales": {"infinitivo":"despreciar","gerundio":["despreciando"], "participio":["despreciado"]},
   "formas_personales": {
     "IndPres": {"s1":["desprecio"],"s2":["desprecias"],"vos":["despreciás"],"s3":["desprecia"],"p1":["despreciamos"],"p2":["despreciáis"],"p3":["desprecian"]},
     "IndImp": {"s1":["despreciaba"],"s2":["despreciabas"],"vos":["despreciabas"],"s3":["despreciaba"],"p1":["despreciábamos"],"p2":["despreciabais"],"p3":["despreciaban"]},

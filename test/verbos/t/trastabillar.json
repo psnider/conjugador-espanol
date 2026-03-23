@@ -6,7 +6,7 @@
     "etimologia": "De trastrabillar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"trastabillar","gerundio":"trastabillando","participio":"trastabillado"},
+  "formas_no_personales": {"infinitivo":"trastabillar","gerundio":["trastabillando"], "participio":["trastabillado"]},
   "formas_personales": {
     "IndPres": {"s1":["trastabillo"],"s2":["trastabillas"],"vos":["trastabillás"],"s3":["trastabilla"],"p1":["trastabillamos"],"p2":["trastabilláis"],"p3":["trastabillan"]},
     "IndImp": {"s1":["trastabillaba"],"s2":["trastabillabas"],"vos":["trastabillabas"],"s3":["trastabillaba"],"p1":["trastabillábamos"],"p2":["trastabillabais"],"p3":["trastabillaban"]},

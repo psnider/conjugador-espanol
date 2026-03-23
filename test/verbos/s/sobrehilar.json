@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾejˈlaɾ]",
+    "silabacion": "so-brehi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo sobre- y hilar",
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrehilar","gerundio":["sobrehilando"], "participio":["sobrehilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobrehílo"],"s2":["sobrehílas"],"vos":["sobrehilás"],"s3":["sobrehíla"],"p1":["sobrehilamos"],"p2":["sobrehiláis"],"p3":["sobrehílan"]},
+    "IndImp": {"s1":["sobrehilaba"],"s2":["sobrehilabas"],"vos":["sobrehilabas"],"s3":["sobrehilaba"],"p1":["sobrehilábamos"],"p2":["sobrehilabais"],"p3":["sobrehilaban"]},
+    "IndPret": {"s1":["sobrehilé"],"s2":["sobrehilaste"],"vos":["sobrehilaste"],"s3":["sobrehiló"],"p1":["sobrehilamos"],"p2":["sobrehilasteis"],"p3":["sobrehilaron"]},
+    "IndFut": {"s1":["sobrehilaré"],"s2":["sobrehilarás"],"vos":["sobrehilarás"],"s3":["sobrehilará"],"p1":["sobrehilaremos"],"p2":["sobrehilaréis"],"p3":["sobrehilarán"]},
+    "IndCond": {"s1":["sobrehilaría"],"s2":["sobrehilarías"],"vos":["sobrehilarías"],"s3":["sobrehilaría"],"p1":["sobrehilaríamos"],"p2":["sobrehilaríais"],"p3":["sobrehilarían"]},
+    "SubPres": {"s1":["sobrehíle"],"s2":["sobrehíles"],"vos":["sobrehíles","sobrehilés"],"s3":["sobrehíle"],"p1":["sobrehilemos"],"p2":["sobrehiléis"],"p3":["sobrehílen"]},
+    "SubImp": {"s1":["sobrehilara","sobrehilase"],"s2":["sobrehilaras","sobrehilases"],"vos":["sobrehilaras","sobrehilases"],"s3":["sobrehilara","sobrehilase"],"p1":["sobrehiláramos","sobrehilásemos"],"p2":["sobrehilarais","sobrehilaseis"],"p3":["sobrehilaran","sobrehilasen"]},
+    "SubFut": {"s1":["sobrehilare"],"s2":["sobrehilares"],"vos":["sobrehilares"],"s3":["sobrehilare"],"p1":["sobrehiláremos"],"p2":["sobrehilareis"],"p3":["sobrehilaren"]},
+    "CmdPos": {"s2":["sobrehíla"],"vos":["sobrehilá"],"s3":["sobrehíle"],"p1":["sobrehilemos"],"p2":["sobrehilad"],"p3":["sobrehílen"]}
+  }
+}

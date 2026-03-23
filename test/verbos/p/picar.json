@@ -6,7 +6,7 @@
     "etimologia": "De pico y el sufijo -ar. Denominal del español pico.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"picar","gerundio":"picando","participio":"picado"},
+  "formas_no_personales": {"infinitivo":"picar","gerundio":["picando"], "participio":["picado"]},
   "formas_personales": {
     "IndPres": {"s1":["pico"],"s2":["picas"],"vos":["picás"],"s3":["pica"],"p1":["picamos"],"p2":["picáis"],"p3":["pican"]},
     "IndImp": {"s1":["picaba"],"s2":["picabas"],"vos":["picabas"],"s3":["picaba"],"p1":["picábamos"],"p2":["picabais"],"p3":["picaban"]},

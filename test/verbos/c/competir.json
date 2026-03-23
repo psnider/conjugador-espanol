@@ -6,7 +6,7 @@
     "etimologia": "Del latín tardío competere, \"esforzarse conjuntamente\", y más antiguamente \"acordar\", de cum y petere, \"intentar\".",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"competir","gerundio":"compitiendo","participio":"competido"},
+  "formas_no_personales": {"infinitivo":"competir","gerundio":["compitiendo"], "participio":["competido"]},
   "formas_personales": {
     "IndPres": {"s1":["compito"],"s2":["compites"],"vos":["competís"],"s3":["compite"],"p1":["competimos"],"p2":["competís"],"p3":["compiten"]},
     "IndImp": {"s1":["competía"],"s2":["competías"],"vos":["competías"],"s3":["competía"],"p1":["competíamos"],"p2":["competíais"],"p3":["competían"]},

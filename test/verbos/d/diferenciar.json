@@ -5,7 +5,7 @@
     "etimologia": "De diferencia y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"diferenciar","gerundio":"diferenciando","participio":"diferenciado"},
+  "formas_no_personales": {"infinitivo":"diferenciar","gerundio":["diferenciando"], "participio":["diferenciado"]},
   "formas_personales": {
     "IndPres": {"s1":["diferencio"],"s2":["diferencias"],"vos":["diferenciás"],"s3":["diferencia"],"p1":["diferenciamos"],"p2":["diferenciáis"],"p3":["diferencian"]},
     "IndImp": {"s1":["diferenciaba"],"s2":["diferenciabas"],"vos":["diferenciabas"],"s3":["diferenciaba"],"p1":["diferenciábamos"],"p2":["diferenciabais"],"p3":["diferenciaban"]},

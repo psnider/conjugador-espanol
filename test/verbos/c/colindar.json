@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo co- y lindar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"colindar","gerundio":"colindando","participio":"colindado"},
+  "formas_no_personales": {"infinitivo":"colindar","gerundio":["colindando"], "participio":["colindado"]},
   "formas_personales": {
     "IndPres": {"s1":["colindo"],"s2":["colindas"],"vos":["colindás"],"s3":["colinda"],"p1":["colindamos"],"p2":["colindáis"],"p3":["colindan"]},
     "IndImp": {"s1":["colindaba"],"s2":["colindabas"],"vos":["colindabas"],"s3":["colindaba"],"p1":["colindábamos"],"p2":["colindabais"],"p3":["colindaban"]},

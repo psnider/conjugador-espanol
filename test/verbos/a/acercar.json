@@ -6,7 +6,7 @@
     "etimologia": "De cerca.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"acercar","gerundio":"acercando","participio":"acercado"},
+  "formas_no_personales": {"infinitivo":"acercar","gerundio":["acercando"], "participio":["acercado"]},
   "formas_personales": {
     "IndPres": {"s1":["acerco"],"s2":["acercas"],"vos":["acercás"],"s3":["acerca"],"p1":["acercamos"],"p2":["acercáis"],"p3":["acercan"]},
     "IndImp": {"s1":["acercaba"],"s2":["acercabas"],"vos":["acercabas"],"s3":["acercaba"],"p1":["acercábamos"],"p2":["acercabais"],"p3":["acercaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín aspirāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aspirar","gerundio":"aspirando","participio":"aspirado"},
+  "formas_no_personales": {"infinitivo":"aspirar","gerundio":["aspirando"], "participio":["aspirado"]},
   "formas_personales": {
     "IndPres": {"s1":["aspiro"],"s2":["aspiras"],"vos":["aspirás"],"s3":["aspira"],"p1":["aspiramos"],"p2":["aspiráis"],"p3":["aspiran"]},
     "IndImp": {"s1":["aspiraba"],"s2":["aspirabas"],"vos":["aspirabas"],"s3":["aspiraba"],"p1":["aspirábamos"],"p2":["aspirabais"],"p3":["aspiraban"]},

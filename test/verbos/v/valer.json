@@ -6,7 +6,7 @@
     "etimologia": "Del latín valēre, infinitivo activo presente del latín valeo (\"ser fuerte, tener valor\"), y este del protoindoeuropeo *wal (\"ser fuerte\").",
     "modelos": ["valer"]
   },
-  "formas_no_personales": {"infinitivo":"valer","gerundio":"valiendo","participio":"valido"},
+  "formas_no_personales": {"infinitivo":"valer","gerundio":["valiendo"], "participio":["valido"]},
   "formas_personales": {
     "IndPres": {"s1":["valgo"],"s2":["vales"],"vos":["valés"],"s3":["vale"],"p1":["valemos"],"p2":["valéis"],"p3":["valen"]},
     "IndImp": {"s1":["valía"],"s2":["valías"],"vos":["valías"],"s3":["valía"],"p1":["valíamos"],"p2":["valíais"],"p3":["valían"]},

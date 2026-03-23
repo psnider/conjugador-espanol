@@ -6,7 +6,7 @@
     "etimologia": "Compuesto de mano y atar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"maniatar","gerundio":"maniatando","participio":"maniatado"},
+  "formas_no_personales": {"infinitivo":"maniatar","gerundio":["maniatando"], "participio":["maniatado"]},
   "formas_personales": {
     "IndPres": {"s1":["maniato"],"s2":["maniatas"],"vos":["maniatás"],"s3":["maniata"],"p1":["maniatamos"],"p2":["maniatáis"],"p3":["maniatan"]},
     "IndImp": {"s1":["maniataba"],"s2":["maniatabas"],"vos":["maniatabas"],"s3":["maniataba"],"p1":["maniatábamos"],"p2":["maniatabais"],"p3":["maniataban"]},

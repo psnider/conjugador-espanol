@@ -5,8 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --sourceMap --outDir generated",
-    "gen-web-page": "node generated/html/combine-code-into-template.js",
+    "build:node": "tsc -p tsconfig.node.json",
+    "build:web": "tsc -p tsconfig.web.json",
+    "build": "npm run build:node && npm run build:web",
+    "cp-web-page": "cp html/página-conjugador.html ./index.html",
+    "update-web-page": "npm run build && npm run update-verbos-with-test-results && npm run cp-web-page",
     "validate": "node generated/test/validate-stem-change-patterns.js && node generated/test/validate-verbs-list.js",
     "test-full": "npm run validate && npm run test",
     "test-list": "node generated/test/test.js",
@@ -15,7 +18,8 @@
     "update-verbos-with-test-results": "node generated/test/update-verbos-with-test-results.js",
     "insert-verbs-into-verbs-list": "node generated/test/insert-verbs-into-verbs-list.js",
     "clean": "rm -rf generated",
-    "prep-release": "npm run clean && npm run build && npm run validate && npm run test && npm run update-verbos-with-test-results && npm run gen-web-page"
+    "server": "npx --no-clipboard serve",
+    "prep-release": "npm run clean && npm run build && npm run validate && npm run test && npm run update-verbos-with-test-results && npm run cp-web-page && npm run server"
   },
   "author": "Peter Snider",
   "license": "CC-BY-NC-4.0",

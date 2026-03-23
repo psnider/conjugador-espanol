@@ -6,7 +6,7 @@
     "etimologia": "Del latín advenire ('llegar'); a su vez compuesto de ad&nbsp;('a') y venire&nbsp;('venir').",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"advenir","gerundio":"adviniendo","participio":"advenido"},
+  "formas_no_personales": {"infinitivo":"advenir","gerundio":["adviniendo"], "participio":["advenido"]},
   "formas_personales": {
     "IndPres": {"s1":["advengo"],"s2":["advienes"],"vos":["advenís"],"s3":["adviene"],"p1":["advenimos"],"p2":["advenís"],"p3":["advienen"]},
     "IndImp": {"s1":["advenía"],"s2":["advenías"],"vos":["advenías"],"s3":["advenía"],"p1":["adveníamos"],"p2":["adveníais"],"p3":["advenían"]},

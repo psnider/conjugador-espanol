@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo asconder, del latín abscondĕre. El cambio de e- por a- es producto de un reanálisis a partir de una mayoría de verbos que comienzan por es- (escocer, escoger, escribir, escaldar, escampar, escarbar, espantar, estorbar, estrujar), y se dio también en escuchar &lt; ascuchar &lt; ascultare (latín vulgar) &lt; auscŭltārĕ (latín clásico).",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"esconder","gerundio":"escondiendo","participio":"escondido"},
+  "formas_no_personales": {"infinitivo":"esconder","gerundio":["escondiendo"], "participio":["escondido"]},
   "formas_personales": {
     "IndPres": {"s1":["escondo"],"s2":["escondes"],"vos":["escondés"],"s3":["esconde"],"p1":["escondemos"],"p2":["escondéis"],"p3":["esconden"]},
     "IndImp": {"s1":["escondía"],"s2":["escondías"],"vos":["escondías"],"s3":["escondía"],"p1":["escondíamos"],"p2":["escondíais"],"p3":["escondían"]},

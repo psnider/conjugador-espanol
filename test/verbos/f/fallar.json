@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo fallar, del latín afflāre ('olfatear'), rozar con el aliento.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"fallar","gerundio":"fallando","participio":"fallado"},
+  "formas_no_personales": {"infinitivo":"fallar","gerundio":["fallando"], "participio":["fallado"]},
   "formas_personales": {
     "IndPres": {"s1":["fallo"],"s2":["fallas"],"vos":["fallás"],"s3":["falla"],"p1":["fallamos"],"p2":["falláis"],"p3":["fallan"]},
     "IndImp": {"s1":["fallaba"],"s2":["fallabas"],"vos":["fallabas"],"s3":["fallaba"],"p1":["fallábamos"],"p2":["fallabais"],"p3":["fallaban"]},

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ist̪ĩŋˈgiɾ]",
+    "silabacion": "dis-tin-guir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín distinguere",
+    "modelos": ["distinguir"]
+  },
+  "formas_no_personales": {"infinitivo":"distinguir","gerundio":["distinguiendo"],"participio":["distinguido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["distingo"],"s2":["distingues"],"vos":["distinguís"],"s3":["distingue"],"p1":["distinguimos"],"p2":["distinguís"],"p3":["distinguen"]},
+    "IndImp": {"s1":["distinguía"],"s2":["distinguías"],"vos":["distinguías"],"s3":["distinguía"],"p1":["distinguíamos"],"p2":["distinguíais"],"p3":["distinguían"]},
+    "IndPret": {"s1":["distinguí"],"s2":["distinguiste"],"vos":["distinguiste"],"s3":["distinguió"],"p1":["distinguimos"],"p2":["distinguisteis"],"p3":["distinguieron"]},
+    "IndFut": {"s1":["distinguiré"],"s2":["distinguirás"],"vos":["distinguirás"],"s3":["distinguirá"],"p1":["distinguiremos"],"p2":["distinguiréis"],"p3":["distinguirán"]},
+    "IndCond": {"s1":["distinguiría"],"s2":["distinguirías"],"vos":["distinguirías"],"s3":["distinguiría"],"p1":["distinguiríamos"],"p2":["distinguiríais"],"p3":["distinguirían"]},
+    "SubPres": {"s1":["distinga"],"s2":["distingas"],"vos":["distingas","distingás"],"s3":["distinga"],"p1":["distingamos"],"p2":["distingáis"],"p3":["distingan"]},
+    "SubImp": {"s1":["distinguiera","distinguiese"],"s2":["distinguieras","distinguieses"],"vos":["distinguieras","distinguieses"],"s3":["distinguiera","distinguiese"],"p1":["distinguiéramos","distinguiésemos"],"p2":["distinguierais","distinguieseis"],"p3":["distinguieran","distinguiesen"]},
+    "SubFut": {"s1":["distinguiere"],"s2":["distinguieres"],"vos":["distinguieres"],"s3":["distinguiere"],"p1":["distinguiéremos"],"p2":["distinguiereis"],"p3":["distinguieren"]},
+    "CmdPos": {"s2":["distingue"],"vos":["distinguí"],"s3":["distinga"],"p1":["distingamos"],"p2":["distinguid"],"p3":["distingan"]}
+  }
+}

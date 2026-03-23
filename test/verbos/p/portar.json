@@ -6,7 +6,7 @@
     "etimologia": "Del latín portāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"portar","gerundio":"portando","participio":"portado"},
+  "formas_no_personales": {"infinitivo":"portar","gerundio":["portando"], "participio":["portado"]},
   "formas_personales": {
     "IndPres": {"s1":["porto"],"s2":["portas"],"vos":["portás"],"s3":["porta"],"p1":["portamos"],"p2":["portáis"],"p3":["portan"]},
     "IndImp": {"s1":["portaba"],"s2":["portabas"],"vos":["portabas"],"s3":["portaba"],"p1":["portábamos"],"p2":["portabais"],"p3":["portaban"]},

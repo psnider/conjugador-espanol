@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ensamblar","gerundio":"ensamblando","participio":"ensamblado"},
+  "formas_no_personales": {"infinitivo":"ensamblar","gerundio":["ensamblando"], "participio":["ensamblado"]},
   "formas_personales": {
     "IndPres": {"s1":["ensamblo"],"s2":["ensamblas"],"vos":["ensamblás"],"s3":["ensambla"],"p1":["ensamblamos"],"p2":["ensambláis"],"p3":["ensamblan"]},
     "IndImp": {"s1":["ensamblaba"],"s2":["ensamblabas"],"vos":["ensamblabas"],"s3":["ensamblaba"],"p1":["ensamblábamos"],"p2":["ensamblabais"],"p3":["ensamblaban"]},

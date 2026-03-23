@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y sentir.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"resentir","gerundio":"resintiendo","participio":"resentido"},
+  "formas_no_personales": {"infinitivo":"resentir","gerundio":["resintiendo"], "participio":["resentido"]},
   "formas_personales": {
     "IndPres": {"s1":["resiento"],"s2":["resientes"],"vos":["resentís"],"s3":["resiente"],"p1":["resentimos"],"p2":["resentís"],"p3":["resienten"]},
     "IndImp": {"s1":["resentía"],"s2":["resentías"],"vos":["resentías"],"s3":["resentía"],"p1":["resentíamos"],"p2":["resentíais"],"p3":["resentían"]},

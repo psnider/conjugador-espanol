@@ -6,7 +6,7 @@
     "etimologia": "Del latín delinquĕre.",
     "modelos": ["delinquir"]
   },
-  "formas_no_personales": {"infinitivo":"delinquir","gerundio":"delinquiendo","participio":"delinquido"},
+  "formas_no_personales": {"infinitivo":"delinquir","gerundio":["delinquiendo"], "participio":["delinquido"]},
   "formas_personales": {
     "IndPres": {"s1":["delinco"],"s2":["delinques"],"vos":["delinquís"],"s3":["delinque"],"p1":["delinquimos"],"p2":["delinquís"],"p3":["delinquen"]},
     "IndImp": {"s1":["delinquía"],"s2":["delinquías"],"vos":["delinquías"],"s3":["delinquía"],"p1":["delinquíamos"],"p2":["delinquíais"],"p3":["delinquían"]},

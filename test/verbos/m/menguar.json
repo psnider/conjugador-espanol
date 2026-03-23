@@ -5,7 +5,7 @@
     "etimologia": "Del latín minuare.",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"menguar","gerundio":"menguando","participio":"menguado"},
+  "formas_no_personales": {"infinitivo":"menguar","gerundio":["menguando"], "participio":["menguado"]},
   "formas_personales": {
     "IndPres": {"s1":["menguo"],"s2":["menguas"],"vos":["menguás"],"s3":["mengua"],"p1":["menguamos"],"p2":["menguáis"],"p3":["menguan"]},
     "IndImp": {"s1":["menguaba"],"s2":["menguabas"],"vos":["menguabas"],"s3":["menguaba"],"p1":["menguábamos"],"p2":["menguabais"],"p3":["menguaban"]},

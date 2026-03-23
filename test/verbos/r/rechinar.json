@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re-, china3 (piedrecilla) y el sufijo -ar.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rechinar","gerundio":"rechinando","participio":"rechinado"},
+  "formas_no_personales": {"infinitivo":"rechinar","gerundio":["rechinando"], "participio":["rechinado"]},
   "formas_personales": {
     "IndPres": {"s1":["rechino"],"s2":["rechinas"],"vos":["rechinás"],"s3":["rechina"],"p1":["rechinamos"],"p2":["rechináis"],"p3":["rechinan"]},
     "IndImp": {"s1":["rechinaba"],"s2":["rechinabas"],"vos":["rechinabas"],"s3":["rechinaba"],"p1":["rechinábamos"],"p2":["rechinabais"],"p3":["rechinaban"]},

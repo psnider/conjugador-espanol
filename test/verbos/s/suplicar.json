@@ -6,7 +6,7 @@
     "etimologia": "Del latín supplicāre.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"suplicar","gerundio":"suplicando","participio":"suplicado"},
+  "formas_no_personales": {"infinitivo":"suplicar","gerundio":["suplicando"], "participio":["suplicado"]},
   "formas_personales": {
     "IndPres": {"s1":["suplico"],"s2":["suplicas"],"vos":["suplicás"],"s3":["suplica"],"p1":["suplicamos"],"p2":["suplicáis"],"p3":["suplican"]},
     "IndImp": {"s1":["suplicaba"],"s2":["suplicabas"],"vos":["suplicabas"],"s3":["suplicaba"],"p1":["suplicábamos"],"p2":["suplicabais"],"p3":["suplicaban"]},

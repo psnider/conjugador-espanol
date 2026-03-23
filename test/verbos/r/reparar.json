@@ -6,7 +6,7 @@
     "etimologia": "Del latín reparāre, y este del latín parare, del protoindoeuropeo *pere.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reparar","gerundio":"reparando","participio":"reparado"},
+  "formas_no_personales": {"infinitivo":"reparar","gerundio":["reparando"], "participio":["reparado"]},
   "formas_personales": {
     "IndPres": {"s1":["reparo"],"s2":["reparas"],"vos":["reparás"],"s3":["repara"],"p1":["reparamos"],"p2":["reparáis"],"p3":["reparan"]},
     "IndImp": {"s1":["reparaba"],"s2":["reparabas"],"vos":["reparabas"],"s3":["reparaba"],"p1":["reparábamos"],"p2":["reparabais"],"p3":["reparaban"]},

@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"contar","gerundio":"contando","participio":"contado"},
+  "formas_no_personales": {"infinitivo":"contar","gerundio":["contando"], "participio":["contado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuento"],"s2":["cuentas"],"vos":["contás"],"s3":["cuenta"],"p1":["contamos"],"p2":["contáis"],"p3":["cuentan"]},
     "IndImp": {"s1":["contaba"],"s2":["contabas"],"vos":["contabas"],"s3":["contaba"],"p1":["contábamos"],"p2":["contabais"],"p3":["contaban"]},

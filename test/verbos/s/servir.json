@@ -6,7 +6,7 @@
     "etimologia": "Del latín servire, del protoindoeuropeo *ser-.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"servir","gerundio":"sirviendo","participio":"servido"},
+  "formas_no_personales": {"infinitivo":"servir","gerundio":["sirviendo"], "participio":["servido"]},
   "formas_personales": {
     "IndPres": {"s1":["sirvo"],"s2":["sirves"],"vos":["servís"],"s3":["sirve"],"p1":["servimos"],"p2":["servís"],"p3":["sirven"]},
     "IndImp": {"s1":["servía"],"s2":["servías"],"vos":["servías"],"s3":["servía"],"p1":["servíamos"],"p2":["servíais"],"p3":["servían"]},

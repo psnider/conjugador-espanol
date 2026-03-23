@@ -6,7 +6,7 @@
     "etimologia": "Del latín sternutare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estornudar","gerundio":"estornudando","participio":"estornudado"},
+  "formas_no_personales": {"infinitivo":"estornudar","gerundio":["estornudando"], "participio":["estornudado"]},
   "formas_personales": {
     "IndPres": {"s1":["estornudo"],"s2":["estornudas"],"vos":["estornudás"],"s3":["estornuda"],"p1":["estornudamos"],"p2":["estornudáis"],"p3":["estornudan"]},
     "IndImp": {"s1":["estornudaba"],"s2":["estornudabas"],"vos":["estornudabas"],"s3":["estornudaba"],"p1":["estornudábamos"],"p2":["estornudabais"],"p3":["estornudaban"]},

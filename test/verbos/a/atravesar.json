@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, través y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"atravesar","gerundio":"atravesando","participio":"atravesado"},
+  "formas_no_personales": {"infinitivo":"atravesar","gerundio":["atravesando"], "participio":["atravesado"]},
   "formas_personales": {
     "IndPres": {"s1":["atravieso"],"s2":["atraviesas"],"vos":["atravesás"],"s3":["atraviesa"],"p1":["atravesamos"],"p2":["atravesáis"],"p3":["atraviesan"]},
     "IndImp": {"s1":["atravesaba"],"s2":["atravesabas"],"vos":["atravesabas"],"s3":["atravesaba"],"p1":["atravesábamos"],"p2":["atravesabais"],"p3":["atravesaban"]},

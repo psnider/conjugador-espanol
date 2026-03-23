@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pintar","gerundio":"pintando","participio":"pintado"},
+  "formas_no_personales": {"infinitivo":"pintar","gerundio":["pintando"], "participio":["pintado"]},
   "formas_personales": {
     "IndPres": {"s1":["pinto"],"s2":["pintas"],"vos":["pintás"],"s3":["pinta"],"p1":["pintamos"],"p2":["pintáis"],"p3":["pintan"]},
     "IndImp": {"s1":["pintaba"],"s2":["pintabas"],"vos":["pintabas"],"s3":["pintaba"],"p1":["pintábamos"],"p2":["pintabais"],"p3":["pintaban"]},

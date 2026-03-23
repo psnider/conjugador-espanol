@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãn̪t̪iˈkwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín antiquāre",
+    "modelos": ["evacuar"]
+  },
+  "formas_no_personales": {"infinitivo":"anticuar","gerundio":["anticuando"], "participio":["anticuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anticúo"],"s2":["anticúas"],"vos":["anticuás"],"s3":["anticúa"],"p1":["anticuamos"],"p2":["anticuáis"],"p3":["anticúan"]},
+    "IndImp": {"s1":["anticuaba"],"s2":["anticuabas"],"vos":["anticuabas"],"s3":["anticuaba"],"p1":["anticuábamos"],"p2":["anticuabais"],"p3":["anticuaban"]},
+    "IndPret": {"s1":["anticué"],"s2":["anticuaste"],"vos":["anticuaste"],"s3":["anticuó"],"p1":["anticuamos"],"p2":["anticuasteis"],"p3":["anticuaron"]},
+    "IndFut": {"s1":["anticuaré"],"s2":["anticuarás"],"vos":["anticuarás"],"s3":["anticuará"],"p1":["anticuaremos"],"p2":["anticuaréis"],"p3":["anticuarán"]},
+    "IndCond": {"s1":["anticuaría"],"s2":["anticuarías"],"vos":["anticuarías"],"s3":["anticuaría"],"p1":["anticuaríamos"],"p2":["anticuaríais"],"p3":["anticuarían"]},
+    "SubPres": {"s1":["anticúe"],"s2":["anticúes"],"vos":["anticúes","anticués"],"s3":["anticúe"],"p1":["anticuemos"],"p2":["anticuéis"],"p3":["anticúen"]},
+    "SubImp": {"s1":["anticuara","anticuase"],"s2":["anticuaras","anticuases"],"vos":["anticuaras","anticuases"],"s3":["anticuara","anticuase"],"p1":["anticuáramos","anticuásemos"],"p2":["anticuarais","anticuaseis"],"p3":["anticuaran","anticuasen"]},
+    "SubFut": {"s1":["anticuare"],"s2":["anticuares"],"vos":["anticuares"],"s3":["anticuare"],"p1":["anticuáremos"],"p2":["anticuareis"],"p3":["anticuaren"]},
+    "CmdPos": {"s2":["anticúa"],"vos":["anticuá"],"s3":["anticúe"],"p1":["anticuemos"],"p2":["anticuad"],"p3":["anticúen"]}
+  }
+}

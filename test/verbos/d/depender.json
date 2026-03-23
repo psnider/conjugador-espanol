@@ -6,7 +6,7 @@
     "etimologia": "Del latín dēpendeō, dēpendēre (\"pender, colgar, esperar\").",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"depender","gerundio":"dependiendo","participio":"dependido"},
+  "formas_no_personales": {"infinitivo":"depender","gerundio":["dependiendo"], "participio":["dependido"]},
   "formas_personales": {
     "IndPres": {"s1":["dependo"],"s2":["dependes"],"vos":["dependés"],"s3":["depende"],"p1":["dependemos"],"p2":["dependéis"],"p3":["dependen"]},
     "IndImp": {"s1":["dependía"],"s2":["dependías"],"vos":["dependías"],"s3":["dependía"],"p1":["dependíamos"],"p2":["dependíais"],"p3":["dependían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnsīderō, cōnsīderāre ('examinar'), por la observación de los astros: del latín sidus (\"constelación, estrella, cielo nocturno\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"considerar","gerundio":"considerando","participio":"considerado"},
+  "formas_no_personales": {"infinitivo":"considerar","gerundio":["considerando"], "participio":["considerado"]},
   "formas_personales": {
     "IndPres": {"s1":["considero"],"s2":["consideras"],"vos":["considerás"],"s3":["considera"],"p1":["consideramos"],"p2":["consideráis"],"p3":["consideran"]},
     "IndImp": {"s1":["consideraba"],"s2":["considerabas"],"vos":["considerabas"],"s3":["consideraba"],"p1":["considerábamos"],"p2":["considerabais"],"p3":["consideraban"]},

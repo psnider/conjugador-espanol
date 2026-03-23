@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des-, borde y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desbordar","gerundio":"desbordando","participio":"desbordado"},
+  "formas_no_personales": {"infinitivo":"desbordar","gerundio":["desbordando"], "participio":["desbordado"]},
   "formas_personales": {
     "IndPres": {"s1":["desbordo"],"s2":["desbordas"],"vos":["desbordás"],"s3":["desborda"],"p1":["desbordamos"],"p2":["desbordáis"],"p3":["desbordan"]},
     "IndImp": {"s1":["desbordaba"],"s2":["desbordabas"],"vos":["desbordabas"],"s3":["desbordaba"],"p1":["desbordábamos"],"p2":["desbordabais"],"p3":["desbordaban"]},

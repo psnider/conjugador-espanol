@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo des- y variar.[2]",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"desvariar","gerundio":"desvariando","participio":"desvariado"},
+  "formas_no_personales": {"infinitivo":"desvariar","gerundio":["desvariando"], "participio":["desvariado"]},
   "formas_personales": {
     "IndPres": {"s1":["desvarío"],"s2":["desvarías"],"vos":["desvariás"],"s3":["desvaría"],"p1":["desvariamos"],"p2":["desvariáis"],"p3":["desvarían"]},
     "IndImp": {"s1":["desvariaba"],"s2":["desvariabas"],"vos":["desvariabas"],"s3":["desvariaba"],"p1":["desvariábamos"],"p2":["desvariabais"],"p3":["desvariaban"]},

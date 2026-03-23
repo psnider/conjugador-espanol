@@ -6,7 +6,7 @@
     "etimologia": "Del latín gelare",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"helar","gerundio":"helando","participio":"helado"},
+  "formas_no_personales": {"infinitivo":"helar","gerundio":["helando"], "participio":["helado"]},
   "formas_personales": {
     "IndPres": {"s1":["hielo"],"s2":["hielas"],"vos":["helás"],"s3":["hiela"],"p1":["helamos"],"p2":["heláis"],"p3":["hielan"]},
     "IndImp": {"s1":["helaba"],"s2":["helabas"],"vos":["helabas"],"s3":["helaba"],"p1":["helábamos"],"p2":["helabais"],"p3":["helaban"]},

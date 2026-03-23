@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo em-, paca y el sufijo -ar.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"empacar","gerundio":"empacando","participio":"empacado"},
+  "formas_no_personales": {"infinitivo":"empacar","gerundio":["empacando"], "participio":["empacado"]},
   "formas_personales": {
     "IndPres": {"s1":["empaco"],"s2":["empacas"],"vos":["empacás"],"s3":["empaca"],"p1":["empacamos"],"p2":["empacáis"],"p3":["empacan"]},
     "IndImp": {"s1":["empacaba"],"s2":["empacabas"],"vos":["empacabas"],"s3":["empacaba"],"p1":["empacábamos"],"p2":["empacabais"],"p3":["empacaban"]},

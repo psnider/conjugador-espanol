@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"depositar","gerundio":"depositando","participio":"depositado"},
+  "formas_no_personales": {"infinitivo":"depositar","gerundio":["depositando"], "participio":["depositado"]},
   "formas_personales": {
     "IndPres": {"s1":["deposito"],"s2":["depositas"],"vos":["depositás"],"s3":["deposita"],"p1":["depositamos"],"p2":["depositáis"],"p3":["depositan"]},
     "IndImp": {"s1":["depositaba"],"s2":["depositabas"],"vos":["depositabas"],"s3":["depositaba"],"p1":["depositábamos"],"p2":["depositabais"],"p3":["depositaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín alleviāre",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"aliviar","gerundio":"aliviando","participio":"aliviado"},
+  "formas_no_personales": {"infinitivo":"aliviar","gerundio":["aliviando"], "participio":["aliviado"]},
   "formas_personales": {
     "IndPres": {"s1":["alivio"],"s2":["alivias"],"vos":["aliviás"],"s3":["alivia"],"p1":["aliviamos"],"p2":["aliviáis"],"p3":["alivian"]},
     "IndImp": {"s1":["aliviaba"],"s2":["aliviabas"],"vos":["aliviabas"],"s3":["aliviaba"],"p1":["aliviábamos"],"p2":["aliviabais"],"p3":["aliviaban"]},

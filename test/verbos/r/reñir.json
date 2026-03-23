@@ -6,7 +6,7 @@
     "etimologia": "Del latín ringere, y este del clásico ringī.",
     "modelos": ["gruñir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"reñir","gerundio":"riñendo","participio":"reñido"},
+  "formas_no_personales": {"infinitivo":"reñir","gerundio":["riñendo"], "participio":["reñido"]},
   "formas_personales": {
     "IndPres": {"s1":["riño"],"s2":["riñes"],"vos":["reñís"],"s3":["riñe"],"p1":["reñimos"],"p2":["reñís"],"p3":["riñen"]},
     "IndImp": {"s1":["reñía"],"s2":["reñías"],"vos":["reñías"],"s3":["reñía"],"p1":["reñíamos"],"p2":["reñíais"],"p3":["reñían"]},

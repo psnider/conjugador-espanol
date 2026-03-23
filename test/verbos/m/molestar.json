@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo molestar ('molestar'), y este del latín molestare&nbsp;('molestar'), probablemente de moles, \"estorbo, mole\", del protoindoeuropeo *móh₃l-, \"esfuerzo, incomodidad\"[1]. Compárese el francés molester, el inglés molest o el italiano molestare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"molestar","gerundio":"molestando","participio":"molestado"},
+  "formas_no_personales": {"infinitivo":"molestar","gerundio":["molestando"], "participio":["molestado"]},
   "formas_personales": {
     "IndPres": {"s1":["molesto"],"s2":["molestas"],"vos":["molestás"],"s3":["molesta"],"p1":["molestamos"],"p2":["molestáis"],"p3":["molestan"]},
     "IndImp": {"s1":["molestaba"],"s2":["molestabas"],"vos":["molestabas"],"s3":["molestaba"],"p1":["molestábamos"],"p2":["molestabais"],"p3":["molestaban"]},

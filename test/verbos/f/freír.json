@@ -6,7 +6,7 @@
     "etimologia": "Del latín frigere, del protoindoeuropeo *bʰer-. Compárese el catalán fregir, el francés frire, el gallego frigir, el italiano friggere, el portugués frigir o el occitano frir",
     "modelos": ["reír","freír"]
   },
-  "formas_no_personales": {"infinitivo":"freír","gerundio":"friendo","participio":"frito"},
+  "formas_no_personales": {"infinitivo":"freír","gerundio":["friendo"], "participio":["frito"]},
   "formas_personales": {
     "IndPres": {"s1":["frío"],"s2":["fríes"],"vos":["freís"],"s3":["fríe"],"p1":["freímos"],"p2":["freís"],"p3":["fríen"]},
     "IndImp": {"s1":["freía"],"s2":["freías"],"vos":["freías"],"s3":["freía"],"p1":["freíamos"],"p2":["freíais"],"p3":["freían"]},

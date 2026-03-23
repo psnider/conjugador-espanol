@@ -6,7 +6,7 @@
     "etimologia": "Del latín partire, y este del latín pars, \"parte\", del protoindoeuropeo *pr̥(h₃)tis[1], en última instancia del protoindoeuropeo *ph₃r-, \"dividir\". Compárese el irlandés antiguo rann, \"parte\", el griego antiguo περάω, \"vender\", el lituano pir̃kti, \"comprar\", o el hitita pár-ši-ya-az-zi, \"él divide\".",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"partir","gerundio":"partiendo","participio":"partido"},
+  "formas_no_personales": {"infinitivo":"partir","gerundio":["partiendo"], "participio":["partido"]},
   "formas_personales": {
     "IndPres": {"s1":["parto"],"s2":["partes"],"vos":["partís"],"s3":["parte"],"p1":["partimos"],"p2":["partís"],"p3":["parten"]},
     "IndImp": {"s1":["partía"],"s2":["partías"],"vos":["partías"],"s3":["partía"],"p1":["partíamos"],"p2":["partíais"],"p3":["partían"]},

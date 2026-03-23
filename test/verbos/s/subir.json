@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del castellano antiguo subir y sobir ('subir'), y estos del latín subīre ('llegar').",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"subir","gerundio":"subiendo","participio":"subido"},
+  "formas_no_personales": {"infinitivo":"subir","gerundio":["subiendo"], "participio":["subido"]},
   "formas_personales": {
     "IndPres": {"s1":["subo"],"s2":["subes"],"vos":["subís"],"s3":["sube"],"p1":["subimos"],"p2":["subís"],"p3":["suben"]},
     "IndImp": {"s1":["subía"],"s2":["subías"],"vos":["subías"],"s3":["subía"],"p1":["subíamos"],"p2":["subíais"],"p3":["subían"]},

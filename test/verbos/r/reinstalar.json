@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reinstalar","gerundio":"reinstalando","participio":"reinstalado"},
+  "formas_no_personales": {"infinitivo":"reinstalar","gerundio":["reinstalando"], "participio":["reinstalado"]},
   "formas_personales": {
     "IndPres": {"s1":["reinstalo"],"s2":["reinstalas"],"vos":["reinstalás"],"s3":["reinstala"],"p1":["reinstalamos"],"p2":["reinstaláis"],"p3":["reinstalan"]},
     "IndImp": {"s1":["reinstalaba"],"s2":["reinstalabas"],"vos":["reinstalabas"],"s3":["reinstalaba"],"p1":["reinstalábamos"],"p2":["reinstalabais"],"p3":["reinstalaban"]},

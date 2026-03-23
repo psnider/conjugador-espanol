@@ -6,7 +6,7 @@
     "etimologia": "Del latín rigāre.",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"regar","gerundio":"regando","participio":"regado"},
+  "formas_no_personales": {"infinitivo":"regar","gerundio":["regando"], "participio":["regado"]},
   "formas_personales": {
     "IndPres": {"s1":["riego"],"s2":["riegas"],"vos":["regás"],"s3":["riega"],"p1":["regamos"],"p2":["regáis"],"p3":["riegan"]},
     "IndImp": {"s1":["regaba"],"s2":["regabas"],"vos":["regabas"],"s3":["regaba"],"p1":["regábamos"],"p2":["regabais"],"p3":["regaban"]},

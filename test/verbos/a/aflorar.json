@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, flor y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aflorar","gerundio":"aflorando","participio":"aflorado"},
+  "formas_no_personales": {"infinitivo":"aflorar","gerundio":["aflorando"], "participio":["aflorado"]},
   "formas_personales": {
     "IndPres": {"s1":["afloro"],"s2":["afloras"],"vos":["aflorás"],"s3":["aflora"],"p1":["afloramos"],"p2":["afloráis"],"p3":["afloran"]},
     "IndImp": {"s1":["afloraba"],"s2":["aflorabas"],"vos":["aflorabas"],"s3":["afloraba"],"p1":["aflorábamos"],"p2":["aflorabais"],"p3":["afloraban"]},

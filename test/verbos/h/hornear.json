@@ -6,7 +6,7 @@
     "etimologia": "De horno y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hornear","gerundio":"horneando","participio":"horneado"},
+  "formas_no_personales": {"infinitivo":"hornear","gerundio":["horneando"], "participio":["horneado"]},
   "formas_personales": {
     "IndPres": {"s1":["horneo"],"s2":["horneas"],"vos":["horneás"],"s3":["hornea"],"p1":["horneamos"],"p2":["horneáis"],"p3":["hornean"]},
     "IndImp": {"s1":["horneaba"],"s2":["horneabas"],"vos":["horneabas"],"s3":["horneaba"],"p1":["horneábamos"],"p2":["horneabais"],"p3":["horneaban"]},

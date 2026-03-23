@@ -6,7 +6,7 @@
     "etimologia": "Del latín causāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"causar","gerundio":"causando","participio":"causado"},
+  "formas_no_personales": {"infinitivo":"causar","gerundio":["causando"], "participio":["causado"]},
   "formas_personales": {
     "IndPres": {"s1":["causo"],"s2":["causas"],"vos":["causás"],"s3":["causa"],"p1":["causamos"],"p2":["causáis"],"p3":["causan"]},
     "IndImp": {"s1":["causaba"],"s2":["causabas"],"vos":["causabas"],"s3":["causaba"],"p1":["causábamos"],"p2":["causabais"],"p3":["causaban"]},

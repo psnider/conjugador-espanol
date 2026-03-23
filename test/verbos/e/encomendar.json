@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en- y del castellano antiguo comendar ('encomendar').",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"encomendar","gerundio":"encomendando","participio":"encomendado"},
+  "formas_no_personales": {"infinitivo":"encomendar","gerundio":["encomendando"], "participio":["encomendado"]},
   "formas_personales": {
     "IndPres": {"s1":["encomiendo"],"s2":["encomiendas"],"vos":["encomendás"],"s3":["encomienda"],"p1":["encomendamos"],"p2":["encomendáis"],"p3":["encomiendan"]},
     "IndImp": {"s1":["encomendaba"],"s2":["encomendabas"],"vos":["encomendabas"],"s3":["encomendaba"],"p1":["encomendábamos"],"p2":["encomendabais"],"p3":["encomendaban"]},

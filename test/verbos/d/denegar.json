@@ -6,7 +6,7 @@
     "etimologia": "Del latín denegāre, del prefijo de- y negar.",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"denegar","gerundio":"denegando","participio":"denegado"},
+  "formas_no_personales": {"infinitivo":"denegar","gerundio":["denegando"], "participio":["denegado"]},
   "formas_personales": {
     "IndPres": {"s1":["deniego"],"s2":["deniegas"],"vos":["denegás"],"s3":["deniega"],"p1":["denegamos"],"p2":["denegáis"],"p3":["deniegan"]},
     "IndImp": {"s1":["denegaba"],"s2":["denegabas"],"vos":["denegabas"],"s3":["denegaba"],"p1":["denegábamos"],"p2":["denegabais"],"p3":["denegaban"]},

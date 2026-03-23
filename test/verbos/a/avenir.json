@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"avenir","gerundio":"aviniendo","participio":"avenido"},
+  "formas_no_personales": {"infinitivo":"avenir","gerundio":["aviniendo"], "participio":["avenido"]},
   "formas_personales": {
     "IndPres": {"s1":["avengo"],"s2":["avienes"],"vos":["avenís"],"s3":["aviene"],"p1":["avenimos"],"p2":["avenís"],"p3":["avienen"]},
     "IndImp": {"s1":["avenía"],"s2":["avenías"],"vos":["avenías"],"s3":["avenía"],"p1":["aveníamos"],"p2":["aveníais"],"p3":["avenían"]},

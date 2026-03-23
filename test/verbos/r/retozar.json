@@ -6,7 +6,7 @@
     "etimologia": "Del latín retunsare.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"retozar","gerundio":"retozando","participio":"retozado"},
+  "formas_no_personales": {"infinitivo":"retozar","gerundio":["retozando"], "participio":["retozado"]},
   "formas_personales": {
     "IndPres": {"s1":["retozo"],"s2":["retozas"],"vos":["retozás"],"s3":["retoza"],"p1":["retozamos"],"p2":["retozáis"],"p3":["retozan"]},
     "IndImp": {"s1":["retozaba"],"s2":["retozabas"],"vos":["retozabas"],"s3":["retozaba"],"p1":["retozábamos"],"p2":["retozabais"],"p3":["retozaban"]},

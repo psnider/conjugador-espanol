@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y huir.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"rehuir","gerundio":"rehuyendo","participio":"rehuido"},
+  "formas_no_personales": {"infinitivo":"rehuir","gerundio":["rehuyendo"], "participio":["rehuido"]},
   "formas_personales": {
     "IndPres": {"s1":["rehúyo"],"s2":["rehúyes"],"vos":["rehuís"],"s3":["rehúye"],"p1":["rehuimos"],"p2":["rehuís"],"p3":["rehúyen"]},
     "IndImp": {"s1":["rehuía"],"s2":["rehuías"],"vos":["rehuías"],"s3":["rehuía"],"p1":["rehuíamos"],"p2":["rehuíais"],"p3":["rehuían"]},

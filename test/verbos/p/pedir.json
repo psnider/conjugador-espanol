@@ -6,7 +6,7 @@
     "etimologia": "Del latín petere ('solicitar, buscar').",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"pedir","gerundio":"pidiendo","participio":"pedido"},
+  "formas_no_personales": {"infinitivo":"pedir","gerundio":["pidiendo"], "participio":["pedido"]},
   "formas_personales": {
     "IndPres": {"s1":["pido"],"s2":["pides"],"vos":["pedís"],"s3":["pide"],"p1":["pedimos"],"p2":["pedís"],"p3":["piden"]},
     "IndImp": {"s1":["pedía"],"s2":["pedías"],"vos":["pedías"],"s3":["pedía"],"p1":["pedíamos"],"p2":["pedíais"],"p3":["pedían"]},

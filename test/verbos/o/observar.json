@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo observar ('observar'), y este del latín observāre&nbsp;('observar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"observar","gerundio":"observando","participio":"observado"},
+  "formas_no_personales": {"infinitivo":"observar","gerundio":["observando"], "participio":["observado"]},
   "formas_personales": {
     "IndPres": {"s1":["observo"],"s2":["observas"],"vos":["observás"],"s3":["observa"],"p1":["observamos"],"p2":["observáis"],"p3":["observan"]},
     "IndImp": {"s1":["observaba"],"s2":["observabas"],"vos":["observabas"],"s3":["observaba"],"p1":["observábamos"],"p2":["observabais"],"p3":["observaban"]},

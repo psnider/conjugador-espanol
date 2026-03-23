@@ -6,7 +6,7 @@
     "etimologia": "Del latín hospitare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"hospedar","gerundio":"hospedando","participio":"hospedado"},
+  "formas_no_personales": {"infinitivo":"hospedar","gerundio":["hospedando"], "participio":["hospedado"]},
   "formas_personales": {
     "IndPres": {"s1":["hospedo"],"s2":["hospedas"],"vos":["hospedás"],"s3":["hospeda"],"p1":["hospedamos"],"p2":["hospedáis"],"p3":["hospedan"]},
     "IndImp": {"s1":["hospedaba"],"s2":["hospedabas"],"vos":["hospedabas"],"s3":["hospedaba"],"p1":["hospedábamos"],"p2":["hospedabais"],"p3":["hospedaban"]},

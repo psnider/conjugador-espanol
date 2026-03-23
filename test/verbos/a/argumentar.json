@@ -6,7 +6,7 @@
     "etimologia": "Del latín argumentāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"argumentar","gerundio":"argumentando","participio":"argumentado"},
+  "formas_no_personales": {"infinitivo":"argumentar","gerundio":["argumentando"], "participio":["argumentado"]},
   "formas_personales": {
     "IndPres": {"s1":["argumento"],"s2":["argumentas"],"vos":["argumentás"],"s3":["argumenta"],"p1":["argumentamos"],"p2":["argumentáis"],"p3":["argumentan"]},
     "IndImp": {"s1":["argumentaba"],"s2":["argumentabas"],"vos":["argumentabas"],"s3":["argumentaba"],"p1":["argumentábamos"],"p2":["argumentabais"],"p3":["argumentaban"]},

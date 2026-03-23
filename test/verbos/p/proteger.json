@@ -6,7 +6,7 @@
     "etimologia": "Del latín protegĕre.",
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"proteger","gerundio":"protegiendo","participio":"protegido"},
+  "formas_no_personales": {"infinitivo":"proteger","gerundio":["protegiendo"], "participio":["protegido"]},
   "formas_personales": {
     "IndPres": {"s1":["protejo"],"s2":["proteges"],"vos":["protegés"],"s3":["protege"],"p1":["protegemos"],"p2":["protegéis"],"p3":["protegen"]},
     "IndImp": {"s1":["protegía"],"s2":["protegías"],"vos":["protegías"],"s3":["protegía"],"p1":["protegíamos"],"p2":["protegíais"],"p3":["protegían"]},

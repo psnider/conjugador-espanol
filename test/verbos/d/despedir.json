@@ -6,7 +6,7 @@
     "etimologia": "Del latín expetere ('reclamar').",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"despedir","gerundio":"despidiendo","participio":"despedido"},
+  "formas_no_personales": {"infinitivo":"despedir","gerundio":["despidiendo"], "participio":["despedido"]},
   "formas_personales": {
     "IndPres": {"s1":["despido"],"s2":["despides"],"vos":["despedís"],"s3":["despide"],"p1":["despedimos"],"p2":["despedís"],"p3":["despiden"]},
     "IndImp": {"s1":["despedía"],"s2":["despedías"],"vos":["despedías"],"s3":["despedía"],"p1":["despedíamos"],"p2":["despedíais"],"p3":["despedían"]},

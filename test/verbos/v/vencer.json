@@ -6,7 +6,7 @@
     "etimologia": "Del latín vincere, y este del protoindoeuropeo *weik-. Compárese el francés vaincre o el rumano învinge",
     "modelos": ["vencer"]
   },
-  "formas_no_personales": {"infinitivo":"vencer","gerundio":"venciendo","participio":"vencido"},
+  "formas_no_personales": {"infinitivo":"vencer","gerundio":["venciendo"], "participio":["vencido"]},
   "formas_personales": {
     "IndPres": {"s1":["venzo"],"s2":["vences"],"vos":["vencés"],"s3":["vence"],"p1":["vencemos"],"p2":["vencéis"],"p3":["vencen"]},
     "IndImp": {"s1":["vencía"],"s2":["vencías"],"vos":["vencías"],"s3":["vencía"],"p1":["vencíamos"],"p2":["vencíais"],"p3":["vencían"]},

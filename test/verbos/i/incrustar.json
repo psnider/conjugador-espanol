@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"incrustar","gerundio":"incrustando","participio":"incrustado"},
+  "formas_no_personales": {"infinitivo":"incrustar","gerundio":["incrustando"], "participio":["incrustado"]},
   "formas_personales": {
     "IndPres": {"s1":["incrusto"],"s2":["incrustas"],"vos":["incrustás"],"s3":["incrusta"],"p1":["incrustamos"],"p2":["incrustáis"],"p3":["incrustan"]},
     "IndImp": {"s1":["incrustaba"],"s2":["incrustabas"],"vos":["incrustabas"],"s3":["incrustaba"],"p1":["incrustábamos"],"p2":["incrustabais"],"p3":["incrustaban"]},

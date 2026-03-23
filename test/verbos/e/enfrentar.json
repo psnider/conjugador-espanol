@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, frente y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enfrentar","gerundio":"enfrentando","participio":"enfrentado"},
+  "formas_no_personales": {"infinitivo":"enfrentar","gerundio":["enfrentando"], "participio":["enfrentado"]},
   "formas_personales": {
     "IndPres": {"s1":["enfrento"],"s2":["enfrentas"],"vos":["enfrentás"],"s3":["enfrenta"],"p1":["enfrentamos"],"p2":["enfrentáis"],"p3":["enfrentan"]},
     "IndImp": {"s1":["enfrentaba"],"s2":["enfrentabas"],"vos":["enfrentabas"],"s3":["enfrentaba"],"p1":["enfrentábamos"],"p2":["enfrentabais"],"p3":["enfrentaban"]},

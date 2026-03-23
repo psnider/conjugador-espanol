@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín dormire.",
     "modelos": ["dormir"]
   },
-  "formas_no_personales": {"infinitivo":"dormir","gerundio":"durmiendo","participio":"dormido"},
+  "formas_no_personales": {"infinitivo":"dormir","gerundio":["durmiendo"], "participio":["dormido"]},
   "formas_personales": {
     "IndPres": {"s1":["duermo"],"s2":["duermes"],"vos":["dormís"],"s3":["duerme"],"p1":["dormimos"],"p2":["dormís"],"p3":["duermen"]},
     "IndImp": {"s1":["dormía"],"s2":["dormías"],"vos":["dormías"],"s3":["dormía"],"p1":["dormíamos"],"p2":["dormíais"],"p3":["dormían"]},

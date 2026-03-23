@@ -6,7 +6,7 @@
     "etimologia": "Del latín percontāri",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"preguntar","gerundio":"preguntando","participio":"preguntado"},
+  "formas_no_personales": {"infinitivo":"preguntar","gerundio":["preguntando"], "participio":["preguntado"]},
   "formas_personales": {
     "IndPres": {"s1":["pregunto"],"s2":["preguntas"],"vos":["preguntás"],"s3":["pregunta"],"p1":["preguntamos"],"p2":["preguntáis"],"p3":["preguntan"]},
     "IndImp": {"s1":["preguntaba"],"s2":["preguntabas"],"vos":["preguntabas"],"s3":["preguntaba"],"p1":["preguntábamos"],"p2":["preguntabais"],"p3":["preguntaban"]},

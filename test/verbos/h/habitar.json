@@ -6,7 +6,7 @@
     "etimologia": "Del latín habitāre ('habitar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"habitar","gerundio":"habitando","participio":"habitado"},
+  "formas_no_personales": {"infinitivo":"habitar","gerundio":["habitando"], "participio":["habitado"]},
   "formas_personales": {
     "IndPres": {"s1":["habito"],"s2":["habitas"],"vos":["habitás"],"s3":["habita"],"p1":["habitamos"],"p2":["habitáis"],"p3":["habitan"]},
     "IndImp": {"s1":["habitaba"],"s2":["habitabas"],"vos":["habitabas"],"s3":["habitaba"],"p1":["habitábamos"],"p2":["habitabais"],"p3":["habitaban"]},

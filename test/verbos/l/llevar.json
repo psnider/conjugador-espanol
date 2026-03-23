@@ -6,7 +6,7 @@
     "etimologia": "Del latín levāre ('levantar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"llevar","gerundio":"llevando","participio":"llevado"},
+  "formas_no_personales": {"infinitivo":"llevar","gerundio":["llevando"], "participio":["llevado"]},
   "formas_personales": {
     "IndPres": {"s1":["llevo"],"s2":["llevas"],"vos":["llevás"],"s3":["lleva"],"p1":["llevamos"],"p2":["lleváis"],"p3":["llevan"]},
     "IndImp": {"s1":["llevaba"],"s2":["llevabas"],"vos":["llevabas"],"s3":["llevaba"],"p1":["llevábamos"],"p2":["llevabais"],"p3":["llevaban"]},

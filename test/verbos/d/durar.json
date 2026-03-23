@@ -6,7 +6,7 @@
     "etimologia": "Del latín durāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"durar","gerundio":"durando","participio":"durado"},
+  "formas_no_personales": {"infinitivo":"durar","gerundio":["durando"], "participio":["durado"]},
   "formas_personales": {
     "IndPres": {"s1":["duro"],"s2":["duras"],"vos":["durás"],"s3":["dura"],"p1":["duramos"],"p2":["duráis"],"p3":["duran"]},
     "IndImp": {"s1":["duraba"],"s2":["durabas"],"vos":["durabas"],"s3":["duraba"],"p1":["durábamos"],"p2":["durabais"],"p3":["duraban"]},

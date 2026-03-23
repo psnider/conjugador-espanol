@@ -6,7 +6,7 @@
     "etimologia": "Del latín termināre (\"delimitar\", \"definir\", \"terminar\"), del protoindoeuropeo *ter-. En la antigua Roma Terminus era la deidad de los lindes y las fronteras, y centro de la Terminalia, fiesta que marcaba el fin del año romano (23 de febrero).[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"terminar","gerundio":"terminando","participio":"terminado"},
+  "formas_no_personales": {"infinitivo":"terminar","gerundio":["terminando"], "participio":["terminado"]},
   "formas_personales": {
     "IndPres": {"s1":["termino"],"s2":["terminas"],"vos":["terminás"],"s3":["termina"],"p1":["terminamos"],"p2":["termináis"],"p3":["terminan"]},
     "IndImp": {"s1":["terminaba"],"s2":["terminabas"],"vos":["terminabas"],"s3":["terminaba"],"p1":["terminábamos"],"p2":["terminabais"],"p3":["terminaban"]},

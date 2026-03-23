@@ -5,7 +5,7 @@
     "acentuacion": "aguda",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"autoinfinitivo":"autoinfligir","gerundio":"autoinfligiendo","participio":"autoinfligido"},
+  "formas_no_personales": {"autoinfinitivo":"autoinfligir","gerundio":["autoinfligiendo"], "participio":["autoinfligido"]},
   "formas_personales": {
     "IndPres": {"s1":["autoinflijo"],"s2":["autoinfliges"],"vos":["autoinfligís"],"s3":["autoinflige"],"p1":["autoinfligimos"],"p2":["autoinfligís"],"p3":["autoinfligen"]},
     "IndImp": {"s1":["autoinfligía"],"s2":["autoinfligías"],"vos":["autoinfligías"],"s3":["autoinfligía"],"p1":["autoinfligíamos"],"p2":["autoinfligíais"],"p3":["autoinfligían"]},

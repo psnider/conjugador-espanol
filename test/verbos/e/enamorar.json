@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enamorar","gerundio":"enamorando","participio":"enamorado"},
+  "formas_no_personales": {"infinitivo":"enamorar","gerundio":["enamorando"], "participio":["enamorado"]},
   "formas_personales": {
     "IndPres": {"s1":["enamoro"],"s2":["enamoras"],"vos":["enamorás"],"s3":["enamora"],"p1":["enamoramos"],"p2":["enamoráis"],"p3":["enamoran"]},
     "IndImp": {"s1":["enamoraba"],"s2":["enamorabas"],"vos":["enamorabas"],"s3":["enamoraba"],"p1":["enamorábamos"],"p2":["enamorabais"],"p3":["enamoraban"]},

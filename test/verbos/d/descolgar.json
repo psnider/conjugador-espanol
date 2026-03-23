@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y colgar",
     "modelos": ["llegar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"descolgar","gerundio":"descolgando","participio":"descolgado"},
+  "formas_no_personales": {"infinitivo":"descolgar","gerundio":["descolgando"], "participio":["descolgado"]},
   "formas_personales": {
     "IndPres": {"s1":["descuelgo"],"s2":["descuelgas"],"vos":["descolgás"],"s3":["descuelga"],"p1":["descolgamos"],"p2":["descolgáis"],"p3":["descuelgan"]},
     "IndImp": {"s1":["descolgaba"],"s2":["descolgabas"],"vos":["descolgabas"],"s3":["descolgaba"],"p1":["descolgábamos"],"p2":["descolgabais"],"p3":["descolgaban"]},

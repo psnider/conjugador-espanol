@@ -6,7 +6,7 @@
     "etimologia": "Del latín subscribĕre",
     "modelos": ["inscribir"]
   },
-  "formas_no_personales": {"infinitivo":"suscribir","gerundio":"suscribiendo","participio":"suscrito"},
+  "formas_no_personales": {"infinitivo":"suscribir","gerundio":["suscribiendo"], "participio":["suscrito"]},
   "formas_personales": {
     "IndPres": {"s1":["suscribo"],"s2":["suscribes"],"vos":["suscribís"],"s3":["suscribe"],"p1":["suscribimos"],"p2":["suscribís"],"p3":["suscriben"]},
     "IndImp": {"s1":["suscribía"],"s2":["suscribías"],"vos":["suscribías"],"s3":["suscribía"],"p1":["suscribíamos"],"p2":["suscribíais"],"p3":["suscribían"]},

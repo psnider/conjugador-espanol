@@ -6,7 +6,7 @@
     "etimologia": "De guarda",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"guardar","gerundio":"guardando","participio":"guardado"},
+  "formas_no_personales": {"infinitivo":"guardar","gerundio":["guardando"], "participio":["guardado"]},
   "formas_personales": {
     "IndPres": {"s1":["guardo"],"s2":["guardas"],"vos":["guardás"],"s3":["guarda"],"p1":["guardamos"],"p2":["guardáis"],"p3":["guardan"]},
     "IndImp": {"s1":["guardaba"],"s2":["guardabas"],"vos":["guardabas"],"s3":["guardaba"],"p1":["guardábamos"],"p2":["guardabais"],"p3":["guardaban"]},

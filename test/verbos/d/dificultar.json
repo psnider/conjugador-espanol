@@ -6,7 +6,7 @@
     "etimologia": "Del latín difficultāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dificultar","gerundio":"dificultando","participio":"dificultado"},
+  "formas_no_personales": {"infinitivo":"dificultar","gerundio":["dificultando"], "participio":["dificultado"]},
   "formas_personales": {
     "IndPres": {"s1":["dificulto"],"s2":["dificultas"],"vos":["dificultás"],"s3":["dificulta"],"p1":["dificultamos"],"p2":["dificultáis"],"p3":["dificultan"]},
     "IndImp": {"s1":["dificultaba"],"s2":["dificultabas"],"vos":["dificultabas"],"s3":["dificultaba"],"p1":["dificultábamos"],"p2":["dificultabais"],"p3":["dificultaban"]},

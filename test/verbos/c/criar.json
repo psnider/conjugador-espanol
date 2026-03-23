@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"criar","gerundio":"criando","participio":"criado"},
+  "formas_no_personales": {"infinitivo":"criar","gerundio":["criando"], "participio":["criado"]},
   "formas_personales": {
     "IndPres": {"s1":["crío"],"s2":["crías"],"vos":["crias"],"s3":["cría"],"p1":["criamos"],"p2":["criais"],"p3":["crían"]},
     "IndImp": {"s1":["criaba"],"s2":["criabas"],"vos":["criabas"],"s3":["criaba"],"p1":["criábamos"],"p2":["criabais"],"p3":["criaban"]},

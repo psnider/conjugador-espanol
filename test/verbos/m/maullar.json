@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mawˈʝaɾ]",
+    "silabacion": "mau-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica",
+    "modelos": ["aunar"]
+  },
+  "formas_no_personales": {"infinitivo":"maullar","gerundio":["maullando"], "participio":["maullado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["maúllo"],"s2":["maúllas"],"vos":["maullás"],"s3":["maúlla"],"p1":["maullamos"],"p2":["maulláis"],"p3":["maúllan"]},
+    "IndImp": {"s1":["maullaba"],"s2":["maullabas"],"vos":["maullabas"],"s3":["maullaba"],"p1":["maullábamos"],"p2":["maullabais"],"p3":["maullaban"]},
+    "IndPret": {"s1":["maullé"],"s2":["maullaste"],"vos":["maullaste"],"s3":["maulló"],"p1":["maullamos"],"p2":["maullasteis"],"p3":["maullaron"]},
+    "IndFut": {"s1":["maullaré"],"s2":["maullarás"],"vos":["maullarás"],"s3":["maullará"],"p1":["maullaremos"],"p2":["maullaréis"],"p3":["maullarán"]},
+    "IndCond": {"s1":["maullaría"],"s2":["maullarías"],"vos":["maullarías"],"s3":["maullaría"],"p1":["maullaríamos"],"p2":["maullaríais"],"p3":["maullarían"]},
+    "SubPres": {"s1":["maúlle"],"s2":["maúlles"],"vos":["maúlles","maullés"],"s3":["maúlle"],"p1":["maullemos"],"p2":["maulléis"],"p3":["maúllen"]},
+    "SubImp": {"s1":["maullara","maullase"],"s2":["maullaras","maullases"],"vos":["maullaras","maullases"],"s3":["maullara","maullase"],"p1":["maulláramos","maullásemos"],"p2":["maullarais","maullaseis"],"p3":["maullaran","maullasen"]},
+    "SubFut": {"s1":["maullare"],"s2":["maullares"],"vos":["maullares"],"s3":["maullare"],"p1":["maulláremos"],"p2":["maullareis"],"p3":["maullaren"]},
+    "CmdPos": {"s2":["maúlla"],"vos":["maullá"],"s3":["maúlle"],"p1":["maullemos"],"p2":["maullad"],"p3":["maúllen"]}
+  }
+}

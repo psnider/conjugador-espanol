@@ -6,7 +6,7 @@
     "etimologia": "Del latín vēndō, vēndere",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"vender","gerundio":"vendiendo","participio":"vendido"},
+  "formas_no_personales": {"infinitivo":"vender","gerundio":["vendiendo"], "participio":["vendido"]},
   "formas_personales": {
     "IndPres": {"s1":["vendo"],"s2":["vendes"],"vos":["vendés"],"s3":["vende"],"p1":["vendemos"],"p2":["vendéis"],"p3":["venden"]},
     "IndImp": {"s1":["vendía"],"s2":["vendías"],"vos":["vendías"],"s3":["vendía"],"p1":["vendíamos"],"p2":["vendíais"],"p3":["vendían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín debattuĕre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"debatir","gerundio":"debatiendo","participio":"debatido"},
+  "formas_no_personales": {"infinitivo":"debatir","gerundio":["debatiendo"], "participio":["debatido"]},
   "formas_personales": {
     "IndPres": {"s1":["debato"],"s2":["debates"],"vos":["debatís"],"s3":["debate"],"p1":["debatimos"],"p2":["debatís"],"p3":["debaten"]},
     "IndImp": {"s1":["debatía"],"s2":["debatías"],"vos":["debatías"],"s3":["debatía"],"p1":["debatíamos"],"p2":["debatíais"],"p3":["debatían"]},

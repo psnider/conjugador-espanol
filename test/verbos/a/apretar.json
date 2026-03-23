@@ -6,7 +6,7 @@
     "etimologia": "Del latín appectorāre, derivado de pectus&nbsp;('pecho')",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"apretar","gerundio":"apretando","participio":"apretado"},
+  "formas_no_personales": {"infinitivo":"apretar","gerundio":["apretando"], "participio":["apretado"]},
   "formas_personales": {
     "IndPres": {"s1":["aprieto"],"s2":["aprietas"],"vos":["apretás"],"s3":["aprieta"],"p1":["apretamos"],"p2":["apretáis"],"p3":["aprietan"]},
     "IndImp": {"s1":["apretaba"],"s2":["apretabas"],"vos":["apretabas"],"s3":["apretaba"],"p1":["apretábamos"],"p2":["apretabais"],"p3":["apretaban"]},

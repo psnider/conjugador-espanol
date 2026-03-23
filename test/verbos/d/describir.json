@@ -6,7 +6,7 @@
     "etimologia": "Del latín describĕre",
     "modelos": ["inscribir"]
   },
-  "formas_no_personales": {"infinitivo":"describir","gerundio":"describiendo","participio":"descrito"},
+  "formas_no_personales": {"infinitivo":"describir","gerundio":["describiendo"], "participio":["descrito"]},
   "formas_personales": {
     "IndPres": {"s1":["describo"],"s2":["describes"],"vos":["describís"],"s3":["describe"],"p1":["describimos"],"p2":["describís"],"p3":["describen"]},
     "IndImp": {"s1":["describía"],"s2":["describías"],"vos":["describías"],"s3":["describía"],"p1":["describíamos"],"p2":["describíais"],"p3":["describían"]},

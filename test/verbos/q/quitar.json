@@ -6,7 +6,7 @@
     "etimologia": "Del latín quitare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"quitar","gerundio":"quitando","participio":"quitado"},
+  "formas_no_personales": {"infinitivo":"quitar","gerundio":["quitando"], "participio":["quitado"]},
   "formas_personales": {
     "IndPres": {"s1":["quito"],"s2":["quitas"],"vos":["quitás"],"s3":["quita"],"p1":["quitamos"],"p2":["quitáis"],"p3":["quitan"]},
     "IndImp": {"s1":["quitaba"],"s2":["quitabas"],"vos":["quitabas"],"s3":["quitaba"],"p1":["quitábamos"],"p2":["quitabais"],"p3":["quitaban"]},

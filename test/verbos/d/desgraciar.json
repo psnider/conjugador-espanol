@@ -5,7 +5,7 @@
     "etimologia": "De desgracia y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"desgraciar","gerundio":"desgraciando","participio":"desgraciado"},
+  "formas_no_personales": {"infinitivo":"desgraciar","gerundio":["desgraciando"], "participio":["desgraciado"]},
   "formas_personales": {
     "IndPres": {"s1":["desgracio"],"s2":["desgracias"],"vos":["desgraciás"],"s3":["desgracia"],"p1":["desgraciamos"],"p2":["desgraciáis"],"p3":["desgracian"]},
     "IndImp": {"s1":["desgraciaba"],"s2":["desgraciabas"],"vos":["desgraciabas"],"s3":["desgraciaba"],"p1":["desgraciábamos"],"p2":["desgraciabais"],"p3":["desgraciaban"]},

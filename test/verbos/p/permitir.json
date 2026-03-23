@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1290.[1] Del latín permittere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"permitir","gerundio":"permitiendo","participio":"permitido"},
+  "formas_no_personales": {"infinitivo":"permitir","gerundio":["permitiendo"], "participio":["permitido"]},
   "formas_personales": {
     "IndPres": {"s1":["permito"],"s2":["permites"],"vos":["permitís"],"s3":["permite"],"p1":["permitimos"],"p2":["permitís"],"p3":["permiten"]},
     "IndImp": {"s1":["permitía"],"s2":["permitías"],"vos":["permitías"],"s3":["permitía"],"p1":["permitíamos"],"p2":["permitíais"],"p3":["permitían"]},

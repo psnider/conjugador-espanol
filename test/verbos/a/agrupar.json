@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, grupo y el sufijo -ar.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agrupar","gerundio":"agrupando","participio":"agrupado"},
+  "formas_no_personales": {"infinitivo":"agrupar","gerundio":["agrupando"], "participio":["agrupado"]},
   "formas_personales": {
     "IndPres": {"s1":["agrupo"],"s2":["agrupas"],"vos":["agrupás"],"s3":["agrupa"],"p1":["agrupamos"],"p2":["agrupáis"],"p3":["agrupan"]},
     "IndImp": {"s1":["agrupaba"],"s2":["agrupabas"],"vos":["agrupabas"],"s3":["agrupaba"],"p1":["agrupábamos"],"p2":["agrupabais"],"p3":["agrupaban"]},

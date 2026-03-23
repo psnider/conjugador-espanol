@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["gruñir"]
   },
-  "formas_no_personales": {"infinitivo":"gruñir","gerundio":"gruñendo","participio":"gruñido"},
+  "formas_no_personales": {"infinitivo":"gruñir","gerundio":["gruñendo"], "participio":["gruñido"]},
   "formas_personales": {
     "IndPres": {"s1":["gruño"],"s2":["gruñes"],"vos":["gruñís"],"s3":["gruñe"],"p1":["gruñimos"],"p2":["gruñís"],"p3":["gruñen"]},
     "IndImp": {"s1":["gruñía"],"s2":["gruñías"],"vos":["gruñías"],"s3":["gruñía"],"p1":["gruñíamos"],"p2":["gruñíais"],"p3":["gruñían"]},

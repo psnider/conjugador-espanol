@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"tipificar","gerundio":"tipificando","participio":"tipificado"},
+  "formas_no_personales": {"infinitivo":"tipificar","gerundio":["tipificando"], "participio":["tipificado"]},
   "formas_personales": {
     "IndPres": {"s1":["tipifico"],"s2":["tipificas"],"vos":["tipificás"],"s3":["tipifica"],"p1":["tipificamos"],"p2":["tipificáis"],"p3":["tipifican"]},
     "IndImp": {"s1":["tipificaba"],"s2":["tipificabas"],"vos":["tipificabas"],"s3":["tipificaba"],"p1":["tipificábamos"],"p2":["tipificabais"],"p3":["tipificaban"]},

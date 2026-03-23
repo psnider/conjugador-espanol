@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"apresar","gerundio":"apresando","participio":"apresado"},
+  "formas_no_personales": {"infinitivo":"apresar","gerundio":["apresando"], "participio":["apresado"]},
   "formas_personales": {
     "IndPres": {"s1":["apreso"],"s2":["apresas"],"vos":["apresás"],"s3":["apresa"],"p1":["apresamos"],"p2":["apresáis"],"p3":["apresan"]},
     "IndImp": {"s1":["apresaba"],"s2":["apresabas"],"vos":["apresabas"],"s3":["apresaba"],"p1":["apresábamos"],"p2":["apresabais"],"p3":["apresaban"]},

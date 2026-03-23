@@ -5,7 +5,7 @@
     "etimologia": "Cultismo. Del latín dīminuere, infinitivo de dīminuō.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"disminuir","gerundio":"disminuyendo","participio":"disminuido"},
+  "formas_no_personales": {"infinitivo":"disminuir","gerundio":["disminuyendo"], "participio":["disminuido"]},
   "formas_personales": {
     "IndPres": {"s1":["disminuyo"],"s2":["disminuyes"],"vos":["disminuís"],"s3":["disminuye"],"p1":["disminuimos"],"p2":["disminuís"],"p3":["disminuyen"]},
     "IndImp": {"s1":["disminuía"],"s2":["disminuías"],"vos":["disminuías"],"s3":["disminuía"],"p1":["disminuíamos"],"p2":["disminuíais"],"p3":["disminuían"]},

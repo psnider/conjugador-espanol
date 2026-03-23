@@ -6,7 +6,7 @@
     "etimologia": "Del latín exsucāre (\"sacar el jugo\")",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"enjugar","gerundio":"enjugando","participio":"enjugado"},
+  "formas_no_personales": {"infinitivo":"enjugar","gerundio":["enjugando"], "participio":["enjugado"]},
   "formas_personales": {
     "IndPres": {"s1":["enjugo"],"s2":["enjugas"],"vos":["enjugás"],"s3":["enjuga"],"p1":["enjugamos"],"p2":["enjugáis"],"p3":["enjugan"]},
     "IndImp": {"s1":["enjugaba"],"s2":["enjugabas"],"vos":["enjugabas"],"s3":["enjugaba"],"p1":["enjugábamos"],"p2":["enjugabais"],"p3":["enjugaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo rebentar, arrebentar, del latín vulgar *repentare ('surgir repentinamente'), del latín repente.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"reventar","gerundio":"reventando","participio":"reventado"},
+  "formas_no_personales": {"infinitivo":"reventar","gerundio":["reventando"], "participio":["reventado"]},
   "formas_personales": {
     "IndPres": {"s1":["reviento"],"s2":["revientas"],"vos":["reventás"],"s3":["revienta"],"p1":["reventamos"],"p2":["reventáis"],"p3":["revientan"]},
     "IndImp": {"s1":["reventaba"],"s2":["reventabas"],"vos":["reventabas"],"s3":["reventaba"],"p1":["reventábamos"],"p2":["reventabais"],"p3":["reventaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín recognoscere, compuesto de re- (\"de nuevo\") y cognōscō, cognōscere&nbsp;('conocer'), a su vez compuesto de co-&nbsp;(de cum,&nbsp;'con') y gnōscō, gnōscere (\"saber, tener noción\").",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"reconocer","gerundio":"reconociendo","participio":"reconocido"},
+  "formas_no_personales": {"infinitivo":"reconocer","gerundio":["reconociendo"], "participio":["reconocido"]},
   "formas_personales": {
     "IndPres": {"s1":["reconozco"],"s2":["reconoces"],"vos":["reconocés"],"s3":["reconoce"],"p1":["reconocemos"],"p2":["reconocéis"],"p3":["reconocen"]},
     "IndImp": {"s1":["reconocía"],"s2":["reconocías"],"vos":["reconocías"],"s3":["reconocía"],"p1":["reconocíamos"],"p2":["reconocíais"],"p3":["reconocían"]},

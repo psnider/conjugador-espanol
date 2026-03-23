@@ -6,7 +6,7 @@
     "etimologia": "Del latín assignāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asignar","gerundio":"asignando","participio":"asignado"},
+  "formas_no_personales": {"infinitivo":"asignar","gerundio":["asignando"], "participio":["asignado"]},
   "formas_personales": {
     "IndPres": {"s1":["asigno"],"s2":["asignas"],"vos":["asignás"],"s3":["asigna"],"p1":["asignamos"],"p2":["asignáis"],"p3":["asignan"]},
     "IndImp": {"s1":["asignaba"],"s2":["asignabas"],"vos":["asignabas"],"s3":["asignaba"],"p1":["asignábamos"],"p2":["asignabais"],"p3":["asignaban"]},

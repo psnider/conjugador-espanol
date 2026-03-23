@@ -5,7 +5,7 @@
     "etimologia": "De anhelo y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"anhelar","gerundio":"anhelando","participio":"anhelado"},
+  "formas_no_personales": {"infinitivo":"anhelar","gerundio":["anhelando"], "participio":["anhelado"]},
   "formas_personales": {
     "IndPres": {"s1":["anhelo"],"s2":["anhelas"],"vos":["anhelás"],"s3":["anhela"],"p1":["anhelamos"],"p2":["anheláis"],"p3":["anhelan"]},
     "IndImp": {"s1":["anhelaba"],"s2":["anhelabas"],"vos":["anhelabas"],"s3":["anhelaba"],"p1":["anhelábamos"],"p2":["anhelabais"],"p3":["anhelaban"]},

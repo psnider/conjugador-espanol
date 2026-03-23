@@ -6,7 +6,7 @@
     "etimologia": "Del latín capere ('coger')",
     "modelos": ["caber"]
   },
-  "formas_no_personales": {"infinitivo":"caber","gerundio":"cabiendo","participio":"cabido"},
+  "formas_no_personales": {"infinitivo":"caber","gerundio":["cabiendo"], "participio":["cabido"]},
   "formas_personales": {
     "IndPres": {"s1":["quepo"],"s2":["cabes"],"vos":["cabés"],"s3":["cabe"],"p1":["cabemos"],"p2":["cabéis"],"p3":["caben"]},
     "IndImp": {"s1":["cabía"],"s2":["cabías"],"vos":["cabías"],"s3":["cabía"],"p1":["cabíamos"],"p2":["cabíais"],"p3":["cabían"]},

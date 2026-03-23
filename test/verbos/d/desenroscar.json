@@ -6,7 +6,7 @@
     "etimologia": "De des-, prefijo de negación, y enroscar, torcer como una rosca",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"desenroscar","gerundio":"desenroscando","participio":"desenroscado"},
+  "formas_no_personales": {"infinitivo":"desenroscar","gerundio":["desenroscando"], "participio":["desenroscado"]},
   "formas_personales": {
     "IndPres": {"s1":["desenrosco"],"s2":["desenroscas"],"vos":["desenroscás"],"s3":["desenrosca"],"p1":["desenroscamos"],"p2":["desenroscáis"],"p3":["desenroscan"]},
     "IndImp": {"s1":["desenroscaba"],"s2":["desenroscabas"],"vos":["desenroscabas"],"s3":["desenroscaba"],"p1":["desenroscábamos"],"p2":["desenroscabais"],"p3":["desenroscaban"]},

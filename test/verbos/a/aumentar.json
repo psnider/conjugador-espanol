@@ -6,7 +6,7 @@
     "etimologia": "Del latín augmentō, augmentāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aumentar","gerundio":"aumentando","participio":"aumentado"},
+  "formas_no_personales": {"infinitivo":"aumentar","gerundio":["aumentando"], "participio":["aumentado"]},
   "formas_personales": {
     "IndPres": {"s1":["aumento"],"s2":["aumentas"],"vos":["aumentás"],"s3":["aumenta"],"p1":["aumentamos"],"p2":["aumentáis"],"p3":["aumentan"]},
     "IndImp": {"s1":["aumentaba"],"s2":["aumentabas"],"vos":["aumentabas"],"s3":["aumentaba"],"p1":["aumentábamos"],"p2":["aumentabais"],"p3":["aumentaban"]},

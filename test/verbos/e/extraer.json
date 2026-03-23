@@ -6,7 +6,7 @@
     "etimologia": "Semicultismo. Del latín extraho; del prefijo ex- y traer por etimología superficial.",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"extraer","gerundio":"extrayendo","participio":"extraído"},
+  "formas_no_personales": {"infinitivo":"extraer","gerundio":["extrayendo"], "participio":["extraído"]},
   "formas_personales": {
     "IndPres": {"s1":["extraigo"],"s2":["extraes"],"vos":["extraés"],"s3":["extrae"],"p1":["extraemos"],"p2":["extraéis"],"p3":["extraen"]},
     "IndImp": {"s1":["extraía"],"s2":["extraías"],"vos":["extraías"],"s3":["extraía"],"p1":["extraíamos"],"p2":["extraíais"],"p3":["extraían"]},

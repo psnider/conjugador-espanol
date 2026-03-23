@@ -6,7 +6,7 @@
     "etimologia": "De cimiento y el sufijo -ar",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"cimentar","gerundio":"cimentando","participio":"cimentado"},
+  "formas_no_personales": {"infinitivo":"cimentar","gerundio":["cimentando"], "participio":["cimentado"]},
   "formas_personales": {
     "IndPres": {"s1":["cimiento","cimento"],"s2":["cimientas"],"vos":["cimentás"],"s3":["cimienta"],"p1":["cimentamos"],"p2":["cimentáis"],"p3":["cimientan"]},
     "IndImp": {"s1":["cimentaba"],"s2":["cimentabas"],"vos":["cimentabas"],"s3":["cimentaba"],"p1":["cimentábamos"],"p2":["cimentabais"],"p3":["cimentaban"]},

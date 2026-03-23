@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atormentar","gerundio":"atormentando","participio":"atormentado"},
+  "formas_no_personales": {"infinitivo":"atormentar","gerundio":["atormentando"], "participio":["atormentado"]},
   "formas_personales": {
     "IndPres": {"s1":["atormento"],"s2":["atormentas"],"vos":["atormentás"],"s3":["atormenta"],"p1":["atormentamos"],"p2":["atormentáis"],"p3":["atormentan"]},
     "IndImp": {"s1":["atormentaba"],"s2":["atormentabas"],"vos":["atormentabas"],"s3":["atormentaba"],"p1":["atormentábamos"],"p2":["atormentabais"],"p3":["atormentaban"]},

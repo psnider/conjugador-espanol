@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arreglar","gerundio":"arreglando","participio":"arreglado"},
+  "formas_no_personales": {"infinitivo":"arreglar","gerundio":["arreglando"], "participio":["arreglado"]},
   "formas_personales": {
     "IndPres": {"s1":["arreglo"],"s2":["arreglas"],"vos":["arreglás"],"s3":["arregla"],"p1":["arreglamos"],"p2":["arregláis"],"p3":["arreglan"]},
     "IndImp": {"s1":["arreglaba"],"s2":["arreglabas"],"vos":["arreglabas"],"s3":["arreglaba"],"p1":["arreglábamos"],"p2":["arreglabais"],"p3":["arreglaban"]},

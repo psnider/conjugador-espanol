@@ -6,7 +6,7 @@
     "etimologia": "Del latín prōmittĕre.[1]",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"prometer","gerundio":"prometiendo","participio":"prometido"},
+  "formas_no_personales": {"infinitivo":"prometer","gerundio":["prometiendo"], "participio":["prometido"]},
   "formas_personales": {
     "IndPres": {"s1":["prometo"],"s2":["prometes"],"vos":["prometés"],"s3":["promete"],"p1":["prometemos"],"p2":["prometéis"],"p3":["prometen"]},
     "IndImp": {"s1":["prometía"],"s2":["prometías"],"vos":["prometías"],"s3":["prometía"],"p1":["prometíamos"],"p2":["prometíais"],"p3":["prometían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín tendere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"tender","gerundio":"tendiendo","participio":"tendido"},
+  "formas_no_personales": {"infinitivo":"tender","gerundio":["tendiendo"], "participio":["tendido"]},
   "formas_personales": {
     "IndPres": {"s1":["tiendo"],"s2":["tiendes"],"vos":["tendés"],"s3":["tiende"],"p1":["tendemos"],"p2":["tendéis"],"p3":["tienden"]},
     "IndImp": {"s1":["tendía"],"s2":["tendías"],"vos":["tendías"],"s3":["tendía"],"p1":["tendíamos"],"p2":["tendíais"],"p3":["tendían"]},

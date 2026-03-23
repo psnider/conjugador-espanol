@@ -5,7 +5,7 @@
     "etimologia": "Del latín satiare ('bastar'), de satis: bastante.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"saciar","gerundio":"saciando","participio":"saciado"},
+  "formas_no_personales": {"infinitivo":"saciar","gerundio":["saciando"], "participio":["saciado"]},
   "formas_personales": {
     "IndPres": {"s1":["sacio"],"s2":["sacias"],"vos":["saciás"],"s3":["sacia"],"p1":["saciamos"],"p2":["saciáis"],"p3":["sacian"]},
     "IndImp": {"s1":["saciaba"],"s2":["saciabas"],"vos":["saciabas"],"s3":["saciaba"],"p1":["saciábamos"],"p2":["saciabais"],"p3":["saciaban"]},

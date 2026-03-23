@@ -6,7 +6,7 @@
     "etimologia": "De uso.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"usar","gerundio":"usando","participio":"usado"},
+  "formas_no_personales": {"infinitivo":"usar","gerundio":["usando"], "participio":["usado"]},
   "formas_personales": {
     "IndPres": {"s1":["uso"],"s2":["usas"],"vos":["usás"],"s3":["usa"],"p1":["usamos"],"p2":["usáis"],"p3":["usan"]},
     "IndImp": {"s1":["usaba"],"s2":["usabas"],"vos":["usabas"],"s3":["usaba"],"p1":["usábamos"],"p2":["usabais"],"p3":["usaban"]},

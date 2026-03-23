@@ -6,7 +6,7 @@
     "etimologia": "Del latín quaestionāre, derivado de quaestio&nbsp;('indagación').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cuestionar","gerundio":"cuestionando","participio":"cuestionado"},
+  "formas_no_personales": {"infinitivo":"cuestionar","gerundio":["cuestionando"], "participio":["cuestionado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuestiono"],"s2":["cuestionas"],"vos":["cuestionás"],"s3":["cuestiona"],"p1":["cuestionamos"],"p2":["cuestionáis"],"p3":["cuestionan"]},
     "IndImp": {"s1":["cuestionaba"],"s2":["cuestionabas"],"vos":["cuestionabas"],"s3":["cuestionaba"],"p1":["cuestionábamos"],"p2":["cuestionabais"],"p3":["cuestionaban"]},

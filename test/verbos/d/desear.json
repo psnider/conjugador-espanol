@@ -6,7 +6,7 @@
     "etimologia": "De deseo y el sufijo -ar. Denominal del español deseo.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desear","gerundio":"deseando","participio":"deseado"},
+  "formas_no_personales": {"infinitivo":"desear","gerundio":["deseando"], "participio":["deseado"]},
   "formas_personales": {
     "IndPres": {"s1":["deseo"],"s2":["deseas"],"vos":["deseás"],"s3":["desea"],"p1":["deseamos"],"p2":["deseáis"],"p3":["desean"]},
     "IndImp": {"s1":["deseaba"],"s2":["deseabas"],"vos":["deseabas"],"s3":["deseaba"],"p1":["deseábamos"],"p2":["deseabais"],"p3":["deseaban"]},

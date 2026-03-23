@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"empeorar","gerundio":"empeorando","participio":"empeorado"},
+  "formas_no_personales": {"infinitivo":"empeorar","gerundio":["empeorando"], "participio":["empeorado"]},
   "formas_personales": {
     "IndPres": {"s1":["empeoro"],"s2":["empeoras"],"vos":["empeorás"],"s3":["empeora"],"p1":["empeoramos"],"p2":["empeoráis"],"p3":["empeoran"]},
     "IndImp": {"s1":["empeoraba"],"s2":["empeorabas"],"vos":["empeorabas"],"s3":["empeoraba"],"p1":["empeorábamos"],"p2":["empeorabais"],"p3":["empeoraban"]},

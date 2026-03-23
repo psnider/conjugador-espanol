@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *indirectiāre; del prefijo en-, derecho y el sufijo -ar. Se documenta por primera vez en 1155.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"enderezar","gerundio":"enderezando","participio":"enderezado"},
+  "formas_no_personales": {"infinitivo":"enderezar","gerundio":["enderezando"], "participio":["enderezado"]},
   "formas_personales": {
     "IndPres": {"s1":["enderezo"],"s2":["enderezas"],"vos":["enderezás"],"s3":["endereza"],"p1":["enderezamos"],"p2":["enderezáis"],"p3":["enderezan"]},
     "IndImp": {"s1":["enderezaba"],"s2":["enderezabas"],"vos":["enderezabas"],"s3":["enderezaba"],"p1":["enderezábamos"],"p2":["enderezabais"],"p3":["enderezaban"]},

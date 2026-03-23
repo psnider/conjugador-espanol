@@ -6,7 +6,7 @@
     "etimologia": "Del latín mereō, merēre (\"tener mérito, ganarse\"), habiendo pasado por el latín vulgar *merescere.[1]",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"merecer","gerundio":"mereciendo","participio":"merecido"},
+  "formas_no_personales": {"infinitivo":"merecer","gerundio":["mereciendo"], "participio":["merecido"]},
   "formas_personales": {
     "IndPres": {"s1":["merezco"],"s2":["mereces"],"vos":["merecés"],"s3":["merece"],"p1":["merecemos"],"p2":["merecéis"],"p3":["merecen"]},
     "IndImp": {"s1":["merecía"],"s2":["merecías"],"vos":["merecías"],"s3":["merecía"],"p1":["merecíamos"],"p2":["merecíais"],"p3":["merecían"]},

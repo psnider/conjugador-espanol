@@ -6,7 +6,7 @@
     "etimologia": "Del latín allucināri ('soñar').[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"alucinar","gerundio":"alucinando","participio":"alucinado"},
+  "formas_no_personales": {"infinitivo":"alucinar","gerundio":["alucinando"], "participio":["alucinado"]},
   "formas_personales": {
     "IndPres": {"s1":["alucino"],"s2":["alucinas"],"vos":["alucinás"],"s3":["alucina"],"p1":["alucinamos"],"p2":["alucináis"],"p3":["alucinan"]},
     "IndImp": {"s1":["alucinaba"],"s2":["alucinabas"],"vos":["alucinabas"],"s3":["alucinaba"],"p1":["alucinábamos"],"p2":["alucinabais"],"p3":["alucinaban"]},

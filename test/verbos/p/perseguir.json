@@ -6,7 +6,7 @@
     "etimologia": "Del latín persequi, y este compuesto del latín sequi.",
     "modelos": ["distinguir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"perseguir","gerundio":"persiguiendo","participio":"perseguido"},
+  "formas_no_personales": {"infinitivo":"perseguir","gerundio":["persiguiendo"], "participio":["perseguido"]},
   "formas_personales": {
     "IndPres": {"s1":["persigo"],"s2":["persigues"],"vos":["perseguís"],"s3":["persigue"],"p1":["perseguimos"],"p2":["perseguís"],"p3":["persiguen"]},
     "IndImp": {"s1":["perseguía"],"s2":["perseguías"],"vos":["perseguías"],"s3":["perseguía"],"p1":["perseguíamos"],"p2":["perseguíais"],"p3":["perseguían"]},

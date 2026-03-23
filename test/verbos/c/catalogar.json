@@ -6,7 +6,7 @@
     "etimologia": "De catálogo y el sufijo -ar",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"catalogar","gerundio":"catalogando","participio":"catalogado"},
+  "formas_no_personales": {"infinitivo":"catalogar","gerundio":["catalogando"], "participio":["catalogado"]},
   "formas_personales": {
     "IndPres": {"s1":["catalogo"],"s2":["catalogas"],"vos":["catalogás"],"s3":["cataloga"],"p1":["catalogamos"],"p2":["catalogáis"],"p3":["catalogan"]},
     "IndImp": {"s1":["catalogaba"],"s2":["catalogabas"],"vos":["catalogabas"],"s3":["catalogaba"],"p1":["catalogábamos"],"p2":["catalogabais"],"p3":["catalogaban"]},

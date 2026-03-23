@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo serrar ('serrar'), y este del latín serrāre&nbsp;('serrar').",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"serrar","gerundio":"serrando","participio":"serrado"},
+  "formas_no_personales": {"infinitivo":"serrar","gerundio":["serrando"], "participio":["serrado"]},
   "formas_personales": {
     "IndPres": {"s1":["sierro"],"s2":["sierras"],"vos":["serrás"],"s3":["sierra"],"p1":["serramos"],"p2":["serráis"],"p3":["sierran"]},
     "IndImp": {"s1":["serraba"],"s2":["serrabas"],"vos":["serrabas"],"s3":["serraba"],"p1":["serrábamos"],"p2":["serrabais"],"p3":["serraban"]},

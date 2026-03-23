@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo poder ('poder'), y este del latín vulgar *potēre, del latín posse, del latín potis, en última instancia del protoindoeuropeo *pótis. Corominas[1] indica que el verbo tardolatino no es idéntico al arcaico que diera origen a potens, sino una recreación regular a partir del latín posse, contracto del latín esse.",
     "modelos": ["poder","mover"]
   },
-  "formas_no_personales": {"infinitivo":"poder","gerundio":"pudiendo","participio":"podido"},
+  "formas_no_personales": {"infinitivo":"poder","gerundio":["pudiendo"], "participio":["podido"]},
   "formas_personales": {
     "IndPres": {"s1":["puedo"],"s2":["puedes"],"vos":["podés"],"s3":["puede"],"p1":["podemos"],"p2":["podéis"],"p3":["pueden"]},
     "IndImp": {"s1":["podía"],"s2":["podías"],"vos":["podías"],"s3":["podía"],"p1":["podíamos"],"p2":["podíais"],"p3":["podían"]},

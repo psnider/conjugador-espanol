@@ -6,7 +6,7 @@
     "etimologia": "Del latín pēnsō, pēnsāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pesar","gerundio":"pesando","participio":"pesado"},
+  "formas_no_personales": {"infinitivo":"pesar","gerundio":["pesando"], "participio":["pesado"]},
   "formas_personales": {
     "IndPres": {"s1":["peso"],"s2":["pesas"],"vos":["pesás"],"s3":["pesa"],"p1":["pesamos"],"p2":["pesáis"],"p3":["pesan"]},
     "IndImp": {"s1":["pesaba"],"s2":["pesabas"],"vos":["pesabas"],"s3":["pesaba"],"p1":["pesábamos"],"p2":["pesabais"],"p3":["pesaban"]},

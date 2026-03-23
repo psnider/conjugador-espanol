@@ -6,7 +6,7 @@
     "etimologia": "Del latín constare.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"costar","gerundio":"costando","participio":"costado"},
+  "formas_no_personales": {"infinitivo":"costar","gerundio":["costando"], "participio":["costado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuesto"],"s2":["cuestas"],"vos":["costás"],"s3":["cuesta"],"p1":["costamos"],"p2":["costáis"],"p3":["cuestan"]},
     "IndImp": {"s1":["costaba"],"s2":["costabas"],"vos":["costabas"],"s3":["costaba"],"p1":["costábamos"],"p2":["costabais"],"p3":["costaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, ferro (ancla de una galera) y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"aferrar","gerundio":"aferrando","participio":"aferrado"},
+  "formas_no_personales": {"infinitivo":"aferrar","gerundio":["aferrando"], "participio":["aferrado"]},
   "formas_personales": {
     "IndPres": {"s1":["aferro","afierro"],"s2":["aferras","afierras"],"vos":["aferrás"],"s3":["aferra","afierra"],"p1":["aferramos"],"p2":["aferráis"],"p3":["aferran","afierran"]},
     "IndImp": {"s1":["aferraba"],"s2":["aferrabas"],"vos":["aferrabas"],"s3":["aferraba"],"p1":["aferrábamos"],"p2":["aferrabais"],"p3":["aferraban"]},

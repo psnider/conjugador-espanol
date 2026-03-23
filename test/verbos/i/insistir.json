@@ -6,7 +6,7 @@
     "etimologia": "Del latín insistĕre, formado por el prefijo in- (\"hacia adentro\", \"en\") y sistĕre (\"adoptar una postura, ponerse en pie, mantenerse\").",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"insistir","gerundio":"insistiendo","participio":"insistido"},
+  "formas_no_personales": {"infinitivo":"insistir","gerundio":["insistiendo"], "participio":["insistido"]},
   "formas_personales": {
     "IndPres": {"s1":["insisto"],"s2":["insistes"],"vos":["insistís"],"s3":["insiste"],"p1":["insistimos"],"p2":["insistís"],"p3":["insisten"]},
     "IndImp": {"s1":["insistía"],"s2":["insistías"],"vos":["insistías"],"s3":["insistía"],"p1":["insistíamos"],"p2":["insistíais"],"p3":["insistían"]},

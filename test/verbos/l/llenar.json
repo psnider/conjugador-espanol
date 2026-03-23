@@ -6,7 +6,7 @@
     "etimologia": "De lleno.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"llenar","gerundio":"llenando","participio":"llenado"},
+  "formas_no_personales": {"infinitivo":"llenar","gerundio":["llenando"], "participio":["llenado"]},
   "formas_personales": {
     "IndPres": {"s1":["lleno"],"s2":["llenas"],"vos":["llenás"],"s3":["llena"],"p1":["llenamos"],"p2":["llenáis"],"p3":["llenan"]},
     "IndImp": {"s1":["llenaba"],"s2":["llenabas"],"vos":["llenabas"],"s3":["llenaba"],"p1":["llenábamos"],"p2":["llenabais"],"p3":["llenaban"]},

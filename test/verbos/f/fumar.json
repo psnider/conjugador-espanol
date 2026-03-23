@@ -6,7 +6,7 @@
     "etimologia": "Del latín fumare ('humear'), y este del latín fumus, \"humo\", a su vez del protoindoeuropeo *dʰuh₂mós. Compárese el doblete ahumar, así como el francés fumer, el italiano fumare, o para cognados más remotos el griego antiguo θυμός (thymós) o el sánscrito धूम (dhūmá).",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"fumar","gerundio":"fumando","participio":"fumado"},
+  "formas_no_personales": {"infinitivo":"fumar","gerundio":["fumando"], "participio":["fumado"]},
   "formas_personales": {
     "IndPres": {"s1":["fumo"],"s2":["fumas"],"vos":["fumás"],"s3":["fuma"],"p1":["fumamos"],"p2":["fumáis"],"p3":["fuman"]},
     "IndImp": {"s1":["fumaba"],"s2":["fumabas"],"vos":["fumabas"],"s3":["fumaba"],"p1":["fumábamos"],"p2":["fumabais"],"p3":["fumaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asaltar","gerundio":"asaltando","participio":"asaltado"},
+  "formas_no_personales": {"infinitivo":"asaltar","gerundio":["asaltando"], "participio":["asaltado"]},
   "formas_personales": {
     "IndPres": {"s1":["asalto"],"s2":["asaltas"],"vos":["asaltás"],"s3":["asalta"],"p1":["asaltamos"],"p2":["asaltáis"],"p3":["asaltan"]},
     "IndImp": {"s1":["asaltaba"],"s2":["asaltabas"],"vos":["asaltabas"],"s3":["asaltaba"],"p1":["asaltábamos"],"p2":["asaltabais"],"p3":["asaltaban"]},

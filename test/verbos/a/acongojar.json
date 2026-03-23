@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y congojar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acongojar","gerundio":"acongojando","participio":"acongojado"},
+  "formas_no_personales": {"infinitivo":"acongojar","gerundio":["acongojando"], "participio":["acongojado"]},
   "formas_personales": {
     "IndPres": {"s1":["acongojo"],"s2":["acongojas"],"vos":["acongojás"],"s3":["acongoja"],"p1":["acongojamos"],"p2":["acongojáis"],"p3":["acongojan"]},
     "IndImp": {"s1":["acongojaba"],"s2":["acongojabas"],"vos":["acongojabas"],"s3":["acongojaba"],"p1":["acongojábamos"],"p2":["acongojabais"],"p3":["acongojaban"]},

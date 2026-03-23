@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾoiˈxaɾ]",
+    "silabacion": "pro-hi-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pro ('por') y filius ('hijo)') .",
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"prohijar","gerundio":["prohijando"], "participio":["prohijado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["prohíjo"],"s2":["prohíjas"],"vos":["prohijás"],"s3":["prohíja"],"p1":["prohijamos"],"p2":["prohijáis"],"p3":["prohíjan"]},
+    "IndImp": {"s1":["prohijaba"],"s2":["prohijabas"],"vos":["prohijabas"],"s3":["prohijaba"],"p1":["prohijábamos"],"p2":["prohijabais"],"p3":["prohijaban"]},
+    "IndPret": {"s1":["prohijé"],"s2":["prohijaste"],"vos":["prohijaste"],"s3":["prohijó"],"p1":["prohijamos"],"p2":["prohijasteis"],"p3":["prohijaron"]},
+    "IndFut": {"s1":["prohijaré"],"s2":["prohijarás"],"vos":["prohijarás"],"s3":["prohijará"],"p1":["prohijaremos"],"p2":["prohijaréis"],"p3":["prohijarán"]},
+    "IndCond": {"s1":["prohijaría"],"s2":["prohijarías"],"vos":["prohijarías"],"s3":["prohijaría"],"p1":["prohijaríamos"],"p2":["prohijaríais"],"p3":["prohijarían"]},
+    "SubPres": {"s1":["prohíje"],"s2":["prohíjes"],"vos":["prohíjes","prohijés"],"s3":["prohíje"],"p1":["prohijemos"],"p2":["prohijéis"],"p3":["prohíjen"]},
+    "SubImp": {"s1":["prohijara","prohijase"],"s2":["prohijaras","prohijases"],"vos":["prohijaras","prohijases"],"s3":["prohijara","prohijase"],"p1":["prohijáramos","prohijásemos"],"p2":["prohijarais","prohijaseis"],"p3":["prohijaran","prohijasen"]},
+    "SubFut": {"s1":["prohijare"],"s2":["prohijares"],"vos":["prohijares"],"s3":["prohijare"],"p1":["prohijáremos"],"p2":["prohijareis"],"p3":["prohijaren"]},
+    "CmdPos": {"s2":["prohíja"],"vos":["prohijá"],"s3":["prohíje"],"p1":["prohijemos"],"p2":["prohijad"],"p3":["prohíjen"]}
+  }
+}

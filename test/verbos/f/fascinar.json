@@ -6,7 +6,7 @@
     "etimologia": "Cultismo. Del latín fascināre ('encantar')[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"fascinar","gerundio":"fascinando","participio":"fascinado"},
+  "formas_no_personales": {"infinitivo":"fascinar","gerundio":["fascinando"], "participio":["fascinado"]},
   "formas_personales": {
     "IndPres": {"s1":["fascino"],"s2":["fascinas"],"vos":["fascinás"],"s3":["fascina"],"p1":["fascinamos"],"p2":["fascináis"],"p3":["fascinan"]},
     "IndImp": {"s1":["fascinaba"],"s2":["fascinabas"],"vos":["fascinabas"],"s3":["fascinaba"],"p1":["fascinábamos"],"p2":["fascinabais"],"p3":["fascinaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín decidĕre ('cortar').",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"decidir","gerundio":"decidiendo","participio":"decidido"},
+  "formas_no_personales": {"infinitivo":"decidir","gerundio":["decidiendo"], "participio":["decidido"]},
   "formas_personales": {
     "IndPres": {"s1":["decido"],"s2":["decides"],"vos":["decidís"],"s3":["decide"],"p1":["decidimos"],"p2":["decidís"],"p3":["deciden"]},
     "IndImp": {"s1":["decidía"],"s2":["decidías"],"vos":["decidías"],"s3":["decidía"],"p1":["decidíamos"],"p2":["decidíais"],"p3":["decidían"]},

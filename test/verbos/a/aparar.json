@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aparar","gerundio":"aparando","participio":"aparado"},
+  "formas_no_personales": {"infinitivo":"aparar","gerundio":["aparando"], "participio":["aparado"]},
   "formas_personales": {
     "IndPres": {"s1":["aparo"],"s2":["aparas"],"vos":["aparás"],"s3":["apara"],"p1":["aparamos"],"p2":["aparáis"],"p3":["aparan"]},
     "IndImp": {"s1":["aparaba"],"s2":["aparabas"],"vos":["aparabas"],"s3":["aparaba"],"p1":["aparábamos"],"p2":["aparabais"],"p3":["aparaban"]},

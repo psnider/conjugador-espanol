@@ -6,7 +6,7 @@
     "etimologia": "Del latín inodiare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enojar","gerundio":"enojando","participio":"enojado"},
+  "formas_no_personales": {"infinitivo":"enojar","gerundio":["enojando"], "participio":["enojado"]},
   "formas_personales": {
     "IndPres": {"s1":["enojo"],"s2":["enojas"],"vos":["enojás"],"s3":["enoja"],"p1":["enojamos"],"p2":["enojáis"],"p3":["enojan"]},
     "IndImp": {"s1":["enojaba"],"s2":["enojabas"],"vos":["enojabas"],"s3":["enojaba"],"p1":["enojábamos"],"p2":["enojabais"],"p3":["enojaban"]},

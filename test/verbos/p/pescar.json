@@ -6,7 +6,7 @@
     "etimologia": "Del latín piscari",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"pescar","gerundio":"pescando","participio":"pescado"},
+  "formas_no_personales": {"infinitivo":"pescar","gerundio":["pescando"], "participio":["pescado"]},
   "formas_personales": {
     "IndPres": {"s1":["pesco"],"s2":["pescas"],"vos":["pescás"],"s3":["pesca"],"p1":["pescamos"],"p2":["pescáis"],"p3":["pescan"]},
     "IndImp": {"s1":["pescaba"],"s2":["pescabas"],"vos":["pescabas"],"s3":["pescaba"],"p1":["pescábamos"],"p2":["pescabais"],"p3":["pescaban"]},

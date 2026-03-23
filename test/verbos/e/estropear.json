@@ -6,7 +6,7 @@
     "etimologia": "Del italiano stroppiare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estropear","gerundio":"estropeando","participio":"estropeado"},
+  "formas_no_personales": {"infinitivo":"estropear","gerundio":["estropeando"], "participio":["estropeado"]},
   "formas_personales": {
     "IndPres": {"s1":["estropeo"],"s2":["estropeas"],"vos":["estropeás"],"s3":["estropea"],"p1":["estropeamos"],"p2":["estropeáis"],"p3":["estropean"]},
     "IndImp": {"s1":["estropeaba"],"s2":["estropeabas"],"vos":["estropeabas"],"s3":["estropeaba"],"p1":["estropeábamos"],"p2":["estropeabais"],"p3":["estropeaban"]},

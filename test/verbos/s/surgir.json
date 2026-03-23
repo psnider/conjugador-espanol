@@ -6,7 +6,7 @@
     "etimologia": "Del latín surgĕre ('elevarse')",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"infinitivo":"surgir","gerundio":"surgiendo","participio":"surgido"},
+  "formas_no_personales": {"infinitivo":"surgir","gerundio":["surgiendo"], "participio":["surgido"]},
   "formas_personales": {
     "IndPres": {"s1":["surjo"],"s2":["surges"],"vos":["surgís"],"s3":["surge"],"p1":["surgimos"],"p2":["surgís"],"p3":["surgen"]},
     "IndImp": {"s1":["surgía"],"s2":["surgías"],"vos":["surgías"],"s3":["surgía"],"p1":["surgíamos"],"p2":["surgíais"],"p3":["surgían"]},

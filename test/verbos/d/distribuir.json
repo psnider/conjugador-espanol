@@ -5,7 +5,7 @@
     "etimologia": "Del latín distribuĕre.",
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"distribuir","gerundio":"distribuyendo","participio":"distribuido"},
+  "formas_no_personales": {"infinitivo":"distribuir","gerundio":["distribuyendo"], "participio":["distribuido"]},
   "formas_personales": {
     "IndPres": {"s1":["distribuyo"],"s2":["distribuyes"],"vos":["distribuís"],"s3":["distribuye"],"p1":["distribuimos"],"p2":["distribuís"],"p3":["distribuyen"]},
     "IndImp": {"s1":["distribuía"],"s2":["distribuías"],"vos":["distribuías"],"s3":["distribuía"],"p1":["distribuíamos"],"p2":["distribuíais"],"p3":["distribuían"]},

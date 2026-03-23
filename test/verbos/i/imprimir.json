@@ -6,7 +6,7 @@
     "etimologia": "Del latín imprimĕre, infinitivo presente activo de imprimō, compuesto de in&nbsp;('en') y premō, premere, pressī (\"hacer presión\"), de la raíz indoeuropea *per-&nbsp;('golpe'). Cfr. comprimir, deprimir, exprimir, oprimir, reprimir, suprimir.",
     "modelos": ["imprimir"]
   },
-  "formas_no_personales": {"infinitivo":"imprimir","gerundio":"imprimiendo","participio":"impreso"},
+  "formas_no_personales": {"infinitivo":"imprimir","gerundio":["imprimiendo"], "participio":["impreso"]},
   "formas_personales": {
     "IndPres": {"s1":["imprimo"],"s2":["imprimes"],"vos":["imprimís"],"s3":["imprime"],"p1":["imprimimos"],"p2":["imprimís"],"p3":["imprimen"]},
     "IndImp": {"s1":["imprimía"],"s2":["imprimías"],"vos":["imprimías"],"s3":["imprimía"],"p1":["imprimíamos"],"p2":["imprimíais"],"p3":["imprimían"]},

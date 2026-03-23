@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"humanizar","gerundio":"humanizando","participio":"humanizado"},
+  "formas_no_personales": {"infinitivo":"humanizar","gerundio":["humanizando"], "participio":["humanizado"]},
   "formas_personales": {
     "IndPres": {"s1":["humanizo"],"s2":["humanizas"],"vos":["humanizás"],"s3":["humaniza"],"p1":["humanizamos"],"p2":["humanizáis"],"p3":["humanizan"]},
     "IndImp": {"s1":["humanizaba"],"s2":["humanizabas"],"vos":["humanizabas"],"s3":["humanizaba"],"p1":["humanizábamos"],"p2":["humanizabais"],"p3":["humanizaban"]},

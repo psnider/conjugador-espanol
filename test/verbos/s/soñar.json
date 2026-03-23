@@ -6,7 +6,7 @@
     "etimologia": "Del latín somniāre",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"soñar","gerundio":"soñando","participio":"soñado"},
+  "formas_no_personales": {"infinitivo":"soñar","gerundio":["soñando"], "participio":["soñado"]},
   "formas_personales": {
     "IndPres": {"s1":["sueño"],"s2":["sueñas"],"vos":["soñás"],"s3":["sueña"],"p1":["soñamos"],"p2":["soñáis"],"p3":["sueñan"]},
     "IndImp": {"s1":["soñaba"],"s2":["soñabas"],"vos":["soñabas"],"s3":["soñaba"],"p1":["soñábamos"],"p2":["soñabais"],"p3":["soñaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"agudizar","gerundio":"agudizando","participio":"agudizado"},
+  "formas_no_personales": {"infinitivo":"agudizar","gerundio":["agudizando"], "participio":["agudizado"]},
   "formas_personales": {
     "IndPres": {"s1":["agudizo"],"s2":["agudizas"],"vos":["agudizás"],"s3":["agudiza"],"p1":["agudizamos"],"p2":["agudizáis"],"p3":["agudizan"]},
     "IndImp": {"s1":["agudizaba"],"s2":["agudizabas"],"vos":["agudizabas"],"s3":["agudizaba"],"p1":["agudizábamos"],"p2":["agudizabais"],"p3":["agudizaban"]},

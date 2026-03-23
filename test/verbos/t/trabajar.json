@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar tripaliare, y éste de tripalium ‘instrumento de tortura’, formado por tripālis.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"trabajar","gerundio":"trabajando","participio":"trabajado"},
+  "formas_no_personales": {"infinitivo":"trabajar","gerundio":["trabajando"], "participio":["trabajado"]},
   "formas_personales": {
     "IndPres": {"s1":["trabajo"],"s2":["trabajas"],"vos":["trabajás"],"s3":["trabaja"],"p1":["trabajamos"],"p2":["trabajáis"],"p3":["trabajan"]},
     "IndImp": {"s1":["trabajaba"],"s2":["trabajabas"],"vos":["trabajabas"],"s3":["trabajaba"],"p1":["trabajábamos"],"p2":["trabajabais"],"p3":["trabajaban"]},

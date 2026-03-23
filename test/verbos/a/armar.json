@@ -6,7 +6,7 @@
     "etimologia": "Del latín armāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"armar","gerundio":"armando","participio":"armado"},
+  "formas_no_personales": {"infinitivo":"armar","gerundio":["armando"], "participio":["armado"]},
   "formas_personales": {
     "IndPres": {"s1":["armo"],"s2":["armas"],"vos":["armás"],"s3":["arma"],"p1":["armamos"],"p2":["armáis"],"p3":["arman"]},
     "IndImp": {"s1":["armaba"],"s2":["armabas"],"vos":["armabas"],"s3":["armaba"],"p1":["armábamos"],"p2":["armabais"],"p3":["armaban"]},

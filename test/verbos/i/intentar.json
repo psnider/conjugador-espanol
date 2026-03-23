@@ -6,7 +6,7 @@
     "etimologia": "Del latín intentāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"intentar","gerundio":"intentando","participio":"intentado"},
+  "formas_no_personales": {"infinitivo":"intentar","gerundio":["intentando"], "participio":["intentado"]},
   "formas_personales": {
     "IndPres": {"s1":["intento"],"s2":["intentas"],"vos":["intentás"],"s3":["intenta"],"p1":["intentamos"],"p2":["intentáis"],"p3":["intentan"]},
     "IndImp": {"s1":["intentaba"],"s2":["intentabas"],"vos":["intentabas"],"s3":["intentaba"],"p1":["intentábamos"],"p2":["intentabais"],"p3":["intentaban"]},

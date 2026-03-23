@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"soltar","gerundio":"soltando","participio":"soltado"},
+  "formas_no_personales": {"infinitivo":"soltar","gerundio":["soltando"], "participio":["soltado"]},
   "formas_personales": {
     "IndPres": {"s1":["suelto"],"s2":["sueltas"],"vos":["soltás"],"s3":["suelta"],"p1":["soltamos"],"p2":["soltáis"],"p3":["sueltan"]},
     "IndImp": {"s1":["soltaba"],"s2":["soltabas"],"vos":["soltabas"],"s3":["soltaba"],"p1":["soltábamos"],"p2":["soltabais"],"p3":["soltaban"]},

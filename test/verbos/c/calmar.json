@@ -6,7 +6,7 @@
     "etimologia": "De calma",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"calmar","gerundio":"calmando","participio":"calmado"},
+  "formas_no_personales": {"infinitivo":"calmar","gerundio":["calmando"], "participio":["calmado"]},
   "formas_personales": {
     "IndPres": {"s1":["calmo"],"s2":["calmas"],"vos":["calmás"],"s3":["calma"],"p1":["calmamos"],"p2":["calmáis"],"p3":["calman"]},
     "IndImp": {"s1":["calmaba"],"s2":["calmabas"],"vos":["calmabas"],"s3":["calmaba"],"p1":["calmábamos"],"p2":["calmabais"],"p3":["calmaban"]},

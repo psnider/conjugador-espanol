@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo sobre- y salir",
     "modelos": ["salir"]
   },
-  "formas_no_personales": {"infinitivo":"sobresalir","gerundio":"sobresaliendo","participio":"sobresalido"},
+  "formas_no_personales": {"infinitivo":"sobresalir","gerundio":["sobresaliendo"], "participio":["sobresalido"]},
   "formas_personales": {
     "IndPres": {"s1":["sobresalgo"],"s2":["sobresales"],"vos":["sobresalís"],"s3":["sobresale"],"p1":["sobresalimos"],"p2":["sobresalís"],"p3":["sobresalen"]},
     "IndImp": {"s1":["sobresalía"],"s2":["sobresalías"],"vos":["sobresalías"],"s3":["sobresalía"],"p1":["sobresalíamos"],"p2":["sobresalíais"],"p3":["sobresalían"]},

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmˈbwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"imbuir","gerundio":["imbuyendo"], "participio":["imbuido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["imbuyo"],"s2":["imbuyes"],"vos":["imbuís"],"s3":["imbuye"],"p1":["imbuimos"],"p2":["imbuís"],"p3":["imbuyen"]},
+    "IndImp": {"s1":["imbuía"],"s2":["imbuías"],"vos":["imbuías"],"s3":["imbuía"],"p1":["imbuíamos"],"p2":["imbuíais"],"p3":["imbuían"]},
+    "IndPret": {"s1":["imbuí"],"s2":["imbuiste"],"vos":["imbuiste"],"s3":["imbuyó"],"p1":["imbuimos"],"p2":["imbuisteis"],"p3":["imbuyeron"]},
+    "IndFut": {"s1":["imbuiré"],"s2":["imbuirás"],"vos":["imbuirás"],"s3":["imbuirá"],"p1":["imbuiremos"],"p2":["imbuiréis"],"p3":["imbuirán"]},
+    "IndCond": {"s1":["imbuiría"],"s2":["imbuirías"],"vos":["imbuirías"],"s3":["imbuiría"],"p1":["imbuiríamos"],"p2":["imbuiríais"],"p3":["imbuirían"]},
+    "SubPres": {"s1":["imbuya"],"s2":["imbuyas"],"vos":["imbuyas","imbuyás"],"s3":["imbuya"],"p1":["imbuyamos"],"p2":["imbuyáis"],"p3":["imbuyan"]},
+    "SubImp": {"s1":["imbuyera","imbuyese"],"s2":["imbuyeras","imbuyeses"],"vos":["imbuyeras","imbuyeses"],"s3":["imbuyera","imbuyese"],"p1":["imbuyéramos","imbuyésemos"],"p2":["imbuyerais","imbuyeseis"],"p3":["imbuyeran","imbuyesen"]},
+    "SubFut": {"s1":["imbuyere"],"s2":["imbuyeres"],"vos":["imbuyeres"],"s3":["imbuyere"],"p1":["imbuyéremos"],"p2":["imbuyereis"],"p3":["imbuyeren"]},
+    "CmdPos": {"s2":["imbuye"],"vos":["imbuí"],"s3":["imbuya"],"p1":["imbuyamos"],"p2":["imbuid"],"p3":["imbuyan"]}
+  }
+}

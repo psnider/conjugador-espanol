@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo verter, del latín vertere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"verter","gerundio":"vertiendo","participio":"vertido"},
+  "formas_no_personales": {"infinitivo":"verter","gerundio":["vertiendo"], "participio":["vertido"]},
   "formas_personales": {
     "IndPres": {"s1":["vierto"],"s2":["viertes"],"vos":["vertés"],"s3":["vierte"],"p1":["vertemos"],"p2":["vertéis"],"p3":["vierten"]},
     "IndImp": {"s1":["vertía"],"s2":["vertías"],"vos":["vertías"],"s3":["vertía"],"p1":["vertíamos"],"p2":["vertíais"],"p3":["vertían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del francés antiguo rechacier, de re-, \"repetición, nuevamente\", + captare.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"rechazar","gerundio":"rechazando","participio":"rechazado"},
+  "formas_no_personales": {"infinitivo":"rechazar","gerundio":["rechazando"], "participio":["rechazado"]},
   "formas_personales": {
     "IndPres": {"s1":["rechazo"],"s2":["rechazas"],"vos":["rechazás"],"s3":["rechaza"],"p1":["rechazamos"],"p2":["rechazáis"],"p3":["rechazan"]},
     "IndImp": {"s1":["rechazaba"],"s2":["rechazabas"],"vos":["rechazabas"],"s3":["rechazaba"],"p1":["rechazábamos"],"p2":["rechazabais"],"p3":["rechazaban"]},

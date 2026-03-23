@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"determinar","gerundio":"determinando","participio":"determinado"},
+  "formas_no_personales": {"infinitivo":"determinar","gerundio":["determinando"], "participio":["determinado"]},
   "formas_personales": {
     "IndPres": {"s1":["determino"],"s2":["determinas"],"vos":["determinás"],"s3":["determina"],"p1":["determinamos"],"p2":["determináis"],"p3":["determinan"]},
     "IndImp": {"s1":["determinaba"],"s2":["determinabas"],"vos":["determinabas"],"s3":["determinaba"],"p1":["determinábamos"],"p2":["determinabais"],"p3":["determinaban"]},

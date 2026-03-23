@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"martillar","gerundio":"martillando","participio":"martillado"},
+  "formas_no_personales": {"infinitivo":"martillar","gerundio":["martillando"], "participio":["martillado"]},
   "formas_personales": {
     "IndPres": {"s1":["martillo"],"s2":["martillas"],"vos":["martillás"],"s3":["martilla"],"p1":["martillamos"],"p2":["martilláis"],"p3":["martillan"]},
     "IndImp": {"s1":["martillaba"],"s2":["martillabas"],"vos":["martillabas"],"s3":["martillaba"],"p1":["martillábamos"],"p2":["martillabais"],"p3":["martillaban"]},

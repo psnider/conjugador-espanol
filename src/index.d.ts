@@ -2,12 +2,13 @@ import { VerbAspectRules } from "./regular-verb-rules.js"
 import { ModeloConjugacional, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
 
 // FIX: nomenclature: InfinitiveThemeVowelClass, or ConjugationClass, or InfinitiveConjugationClass
-type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg"
+type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg" 
+type ConjugationOrDerivation = MoodTense | "Participles"
 
 
 interface Participios {
-    gerundio?: string
-    participio?: string
+    gerundio?: VerbForms
+    participio?: VerbForms
 }
 
 
@@ -51,7 +52,7 @@ type VerbConjugation = GrammaticalPersons<VerbForms>
 
 export interface FormaAtípico {
     forma: string            // la forma limpia
-    etiquetas?: string[]     // ["no normativo", "arcaico", "regional", etc.]
+    etiquetas?: string[]     // ["no normativo", "arcaico", "regional", "pre-2010", etc.]
     nota?: string            // opcional, explicación corta si se quiere
 }
 
@@ -84,14 +85,14 @@ export type ConjugaciónTabla = MoodTenseMap<ConjugaciónEstándarYAtípico>
 type VerbForms = [string] | [string, string] | null
 
 interface VerbConjugationAnnotation {
-    version: string
-    license: string
+    infinitivo: string
+    mood_tense_derivation?: ConjugationOrDerivation
     modelo: ModeloConjugacional
-    // filled in for returned conjugations.
-    mood_tense?: MoodTense
     // The non regular rules applied to this verb
     rules_applied?: any[]
     ok?: 0 | 1
+    version: string
+    license: string
 }
 
 interface VerbConjugationAnnotated {

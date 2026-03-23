@@ -6,7 +6,7 @@
     "etimologia": "Del latín ingerō, ingerere,[1] compuesto de in&nbsp;('dentro') y gerō, gerere&nbsp;('llevar').",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"ingerir","gerundio":"ingiriendo","participio":"ingerido"},
+  "formas_no_personales": {"infinitivo":"ingerir","gerundio":["ingiriendo"], "participio":["ingerido"]},
   "formas_personales": {
     "IndPres": {"s1":["ingiero"],"s2":["ingieres"],"vos":["ingerís"],"s3":["ingiere"],"p1":["ingerimos"],"p2":["ingerís"],"p3":["ingieren"]},
     "IndImp": {"s1":["ingería"],"s2":["ingerías"],"vos":["ingerías"],"s3":["ingería"],"p1":["ingeríamos"],"p2":["ingeríais"],"p3":["ingerían"]},

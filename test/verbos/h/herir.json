@@ -6,7 +6,7 @@
     "etimologia": "Del latín ferīre ‘golpear, dar (con cualquier objeto)’, y este de una raíz protoindoeuropea *bʰer- perforar.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"herir","gerundio":"hiriendo","participio":"herido"},
+  "formas_no_personales": {"infinitivo":"herir","gerundio":["hiriendo"], "participio":["herido"]},
   "formas_personales": {
     "IndPres": {"s1":["hiero"],"s2":["hieres"],"vos":["herís"],"s3":["hiere"],"p1":["herimos"],"p2":["herís"],"p3":["hieren"]},
     "IndImp": {"s1":["hería"],"s2":["herías"],"vos":["herías"],"s3":["hería"],"p1":["heríamos"],"p2":["heríais"],"p3":["herían"]},

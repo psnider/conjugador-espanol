@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y sentar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"asentar","gerundio":"asentando","participio":"asentado"},
+  "formas_no_personales": {"infinitivo":"asentar","gerundio":["asentando"], "participio":["asentado"]},
   "formas_personales": {
     "IndPres": {"s1":["asiento"],"s2":["asientas"],"vos":["asentás"],"s3":["asienta"],"p1":["asentamos"],"p2":["asentáis"],"p3":["asientan"]},
     "IndImp": {"s1":["asentaba"],"s2":["asentabas"],"vos":["asentabas"],"s3":["asentaba"],"p1":["asentábamos"],"p2":["asentabais"],"p3":["asentaban"]},

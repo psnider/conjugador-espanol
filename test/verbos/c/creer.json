@@ -6,7 +6,7 @@
     "etimologia": "Del latín credere, y este del protoindoeuropeo *ḱréd dʰédʰeh₁ti.",
     "modelos": ["leer"]
   },
-  "formas_no_personales": {"infinitivo":"creer","gerundio":"creyendo","participio":"creído"},
+  "formas_no_personales": {"infinitivo":"creer","gerundio":["creyendo"], "participio":["creído"]},
   "formas_personales": {
     "IndPres": {"s1":["creo"],"s2":["crees"],"vos":["creés"],"s3":["cree"],"p1":["creemos"],"p2":["creéis"],"p3":["creen"]},
     "IndImp": {"s1":["creía"],"s2":["creías"],"vos":["creías"],"s3":["creía"],"p1":["creíamos"],"p2":["creíais"],"p3":["creían"]},

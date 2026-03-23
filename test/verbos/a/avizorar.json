@@ -6,7 +6,7 @@
     "etimologia": "De avizor y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"avizorar","gerundio":"avizorando","participio":"avizorado"},
+  "formas_no_personales": {"infinitivo":"avizorar","gerundio":["avizorando"], "participio":["avizorado"]},
   "formas_personales": {
     "IndPres": {"s1":["avizoro"],"s2":["avizoras"],"vos":["avizorás"],"s3":["avizora"],"p1":["avizoramos"],"p2":["avizoráis"],"p3":["avizoran"]},
     "IndImp": {"s1":["avizoraba"],"s2":["avizorabas"],"vos":["avizorabas"],"s3":["avizoraba"],"p1":["avizorábamos"],"p2":["avizorabais"],"p3":["avizoraban"]},

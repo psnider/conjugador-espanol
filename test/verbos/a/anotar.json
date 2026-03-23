@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[anoˈt̪aɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín annotāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anotar","gerundio":["anotando"],"participio":["anotado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anoto"],"s2":["anotas"],"vos":["anotás"],"s3":["anota"],"p1":["anotamos"],"p2":["anotáis"],"p3":["anotan"]},
+    "IndImp": {"s1":["anotaba"],"s2":["anotabas"],"vos":["anotabas"],"s3":["anotaba"],"p1":["anotábamos"],"p2":["anotabais"],"p3":["anotaban"]},
+    "IndPret": {"s1":["anoté"],"s2":["anotaste"],"vos":["anotaste"],"s3":["anotó"],"p1":["anotamos"],"p2":["anotasteis"],"p3":["anotaron"]},
+    "IndFut": {"s1":["anotaré"],"s2":["anotarás"],"vos":["anotarás"],"s3":["anotará"],"p1":["anotaremos"],"p2":["anotaréis"],"p3":["anotarán"]},
+    "IndCond": {"s1":["anotaría"],"s2":["anotarías"],"vos":["anotarías"],"s3":["anotaría"],"p1":["anotaríamos"],"p2":["anotaríais"],"p3":["anotarían"]},
+    "SubPres": {"s1":["anote"],"s2":["anotes"],"vos":["anotes","anotés"],"s3":["anote"],"p1":["anotemos"],"p2":["anotéis"],"p3":["anoten"]},
+    "SubImp": {"s1":["anotara","anotase"],"s2":["anotaras","anotases"],"vos":["anotaras","anotases"],"s3":["anotara","anotase"],"p1":["anotáramos","anotásemos"],"p2":["anotarais","anotaseis"],"p3":["anotaran","anotasen"]},
+    "SubFut": {"s1":["anotare"],"s2":["anotares"],"vos":["anotares"],"s3":["anotare"],"p1":["anotáremos"],"p2":["anotareis"],"p3":["anotaren"]},
+    "CmdPos": {"s2":["anota"],"vos":["anotá"],"s3":["anote"],"p1":["anotemos"],"p2":["anotad"],"p3":["anoten"]}
+  }
+}

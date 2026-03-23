@@ -6,7 +6,7 @@
     "etimologia": "Del latín pervertere.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"pervertir","gerundio":"pervirtiendo","participio":"pervertido"},
+  "formas_no_personales": {"infinitivo":"pervertir","gerundio":["pervirtiendo"], "participio":["pervertido"]},
   "formas_personales": {
     "IndPres": {"s1":["pervierto"],"s2":["perviertes"],"vos":["pervertís"],"s3":["pervierte"],"p1":["pervertimos"],"p2":["pervertís"],"p3":["pervierten"]},
     "IndImp": {"s1":["pervertía"],"s2":["pervertías"],"vos":["pervertías"],"s3":["pervertía"],"p1":["pervertíamos"],"p2":["pervertíais"],"p3":["pervertían"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín effectus ('efecto') y el sufijo -ar para formar verbos.",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"efectuar","gerundio":"efectuando","participio":"efectuado"},
+  "formas_no_personales": {"infinitivo":"efectuar","gerundio":["efectuando"], "participio":["efectuado"]},
   "formas_personales": {
     "IndPres": {"s1":["efectúo"],"s2":["efectúas"],"vos":["efectuás"],"s3":["efectúa"],"p1":["efectuamos"],"p2":["efectuáis"],"p3":["efectúan"]},
     "IndImp": {"s1":["efectuaba"],"s2":["efectuabas"],"vos":["efectuabas"],"s3":["efectuaba"],"p1":["efectuábamos"],"p2":["efectuabais"],"p3":["efectuaban"]},

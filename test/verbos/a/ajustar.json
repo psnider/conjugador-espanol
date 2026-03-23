@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *adiuxtāre; del prefijo a-, justo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ajustar","gerundio":"ajustando","participio":"ajustado"},
+  "formas_no_personales": {"infinitivo":"ajustar","gerundio":["ajustando"], "participio":["ajustado"]},
   "formas_personales": {
     "IndPres": {"s1":["ajusto"],"s2":["ajustas"],"vos":["ajustás"],"s3":["ajusta"],"p1":["ajustamos"],"p2":["ajustáis"],"p3":["ajustan"]},
     "IndImp": {"s1":["ajustaba"],"s2":["ajustabas"],"vos":["ajustabas"],"s3":["ajustaba"],"p1":["ajustábamos"],"p2":["ajustabais"],"p3":["ajustaban"]},

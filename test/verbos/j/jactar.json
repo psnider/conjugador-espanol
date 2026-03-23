@@ -6,7 +6,7 @@
     "etimologia": "Del latín iactāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"jactar","gerundio":"jactando","participio":"jactado"},
+  "formas_no_personales": {"infinitivo":"jactar","gerundio":["jactando"], "participio":["jactado"]},
   "formas_personales": {
     "IndPres": {"s1":["jacto"],"s2":["jactas"],"vos":["jactás"],"s3":["jacta"],"p1":["jactamos"],"p2":["jactáis"],"p3":["jactan"]},
     "IndImp": {"s1":["jactaba"],"s2":["jactabas"],"vos":["jactabas"],"s3":["jactaba"],"p1":["jactábamos"],"p2":["jactabais"],"p3":["jactaban"]},

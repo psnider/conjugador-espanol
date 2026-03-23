@@ -6,7 +6,7 @@
     "etimologia": "Del latín cremare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"quemar","gerundio":"quemando","participio":"quemado"},
+  "formas_no_personales": {"infinitivo":"quemar","gerundio":["quemando"], "participio":["quemado"]},
   "formas_personales": {
     "IndPres": {"s1":["quemo"],"s2":["quemas"],"vos":["quemás"],"s3":["quema"],"p1":["quemamos"],"p2":["quemáis"],"p3":["queman"]},
     "IndImp": {"s1":["quemaba"],"s2":["quemabas"],"vos":["quemabas"],"s3":["quemaba"],"p1":["quemábamos"],"p2":["quemabais"],"p3":["quemaban"]},

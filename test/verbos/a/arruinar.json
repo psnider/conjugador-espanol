@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, ruina y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arruinar","gerundio":"arruinando","participio":"arruinado"},
+  "formas_no_personales": {"infinitivo":"arruinar","gerundio":["arruinando"], "participio":["arruinado"]},
   "formas_personales": {
     "IndPres": {"s1":["arruino"],"s2":["arruinas"],"vos":["arruinás"],"s3":["arruina"],"p1":["arruinamos"],"p2":["arruináis"],"p3":["arruinan"]},
     "IndImp": {"s1":["arruinaba"],"s2":["arruinabas"],"vos":["arruinabas"],"s3":["arruinaba"],"p1":["arruinábamos"],"p2":["arruinabais"],"p3":["arruinaban"]},

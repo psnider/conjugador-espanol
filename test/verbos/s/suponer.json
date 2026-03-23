@@ -6,7 +6,7 @@
     "etimologia": "Del latín suppōnō, suppōnere, compuesto del latín pono.",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"suponer","gerundio":"suponiendo","participio":"supuesto"},
+  "formas_no_personales": {"infinitivo":"suponer","gerundio":["suponiendo"], "participio":["supuesto"]},
   "formas_personales": {
     "IndPres": {"s1":["supongo"],"s2":["supones"],"vos":["suponés"],"s3":["supone"],"p1":["suponemos"],"p2":["suponéis"],"p3":["suponen"]},
     "IndImp": {"s1":["suponía"],"s2":["suponías"],"vos":["suponías"],"s3":["suponía"],"p1":["suponíamos"],"p2":["suponíais"],"p3":["suponían"]},

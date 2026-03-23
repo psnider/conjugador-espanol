@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín praestāre ('garantizar', 'responsabilizarse').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"prestar","gerundio":"prestando","participio":"prestado"},
+  "formas_no_personales": {"infinitivo":"prestar","gerundio":["prestando"], "participio":["prestado"]},
   "formas_personales": {
     "IndPres": {"s1":["presto"],"s2":["prestas"],"vos":["prestás"],"s3":["presta"],"p1":["prestamos"],"p2":["prestáis"],"p3":["prestan"]},
     "IndImp": {"s1":["prestaba"],"s2":["prestabas"],"vos":["prestabas"],"s3":["prestaba"],"p1":["prestábamos"],"p2":["prestabais"],"p3":["prestaban"]},

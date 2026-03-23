@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"despellejar","gerundio":"despellejando","participio":"despellejado"},
+  "formas_no_personales": {"infinitivo":"despellejar","gerundio":["despellejando"], "participio":["despellejado"]},
   "formas_personales": {
     "IndPres": {"s1":["despellejo"],"s2":["despellejas"],"vos":["despellejás"],"s3":["despelleja"],"p1":["despellejamos"],"p2":["despellejáis"],"p3":["despellejan"]},
     "IndImp": {"s1":["despellejaba"],"s2":["despellejabas"],"vos":["despellejabas"],"s3":["despellejaba"],"p1":["despellejábamos"],"p2":["despellejabais"],"p3":["despellejaban"]},

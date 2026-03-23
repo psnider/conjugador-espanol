@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"licenciar","gerundio":"licenciando","participio":"licenciado"},
+  "formas_no_personales": {"infinitivo":"licenciar","gerundio":["licenciando"], "participio":["licenciado"]},
   "formas_personales": {
     "IndPres": {"s1":["licencio"],"s2":["licencias"],"vos":["licenciás"],"s3":["licencia"],"p1":["licenciamos"],"p2":["licenciáis"],"p3":["licencian"]},
     "IndImp": {"s1":["licenciaba"],"s2":["licenciabas"],"vos":["licenciabas"],"s3":["licenciaba"],"p1":["licenciábamos"],"p2":["licenciabais"],"p3":["licenciaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín dēformō, dēformāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"deformar","gerundio":"deformando","participio":"deformado"},
+  "formas_no_personales": {"infinitivo":"deformar","gerundio":["deformando"], "participio":["deformado"]},
   "formas_personales": {
     "IndPres": {"s1":["deformo"],"s2":["deformas"],"vos":["deformás"],"s3":["deforma"],"p1":["deformamos"],"p2":["deformáis"],"p3":["deforman"]},
     "IndImp": {"s1":["deformaba"],"s2":["deformabas"],"vos":["deformabas"],"s3":["deformaba"],"p1":["deformábamos"],"p2":["deformabais"],"p3":["deformaban"]},

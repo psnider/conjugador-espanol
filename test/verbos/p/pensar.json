@@ -6,7 +6,7 @@
     "etimologia": "Del latín pensāre (\"pensar, calcular\")",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"pensar","gerundio":"pensando","participio":"pensado"},
+  "formas_no_personales": {"infinitivo":"pensar","gerundio":["pensando"], "participio":["pensado"]},
   "formas_personales": {
     "IndPres": {"s1":["pienso"],"s2":["piensas"],"vos":["pensás"],"s3":["piensa"],"p1":["pensamos"],"p2":["pensáis"],"p3":["piensan"]},
     "IndImp": {"s1":["pensaba"],"s2":["pensabas"],"vos":["pensabas"],"s3":["pensaba"],"p1":["pensábamos"],"p2":["pensabais"],"p3":["pensaban"]},

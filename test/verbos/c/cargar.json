@@ -6,7 +6,7 @@
     "etimologia": "Del latín carricāre y este del latín carrus (\"carro\").",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"cargar","gerundio":"cargando","participio":"cargado"},
+  "formas_no_personales": {"infinitivo":"cargar","gerundio":["cargando"], "participio":["cargado"]},
   "formas_personales": {
     "IndPres": {"s1":["cargo"],"s2":["cargas"],"vos":["cargás"],"s3":["carga"],"p1":["cargamos"],"p2":["cargáis"],"p3":["cargan"]},
     "IndImp": {"s1":["cargaba"],"s2":["cargabas"],"vos":["cargabas"],"s3":["cargaba"],"p1":["cargábamos"],"p2":["cargabais"],"p3":["cargaban"]},

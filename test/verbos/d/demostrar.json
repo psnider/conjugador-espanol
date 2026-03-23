@@ -6,7 +6,7 @@
     "etimologia": "Del latín demonstrāre (\"demostrar, probar\"), compuesto a su vez de la preposición de&nbsp;('desde') y el verbo mōnstrō, mōnstrāre&nbsp;('mostrar').",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"demostrar","gerundio":"demostrando","participio":"demostrado"},
+  "formas_no_personales": {"infinitivo":"demostrar","gerundio":["demostrando"], "participio":["demostrado"]},
   "formas_personales": {
     "IndPres": {"s1":["demuestro"],"s2":["demuestras"],"vos":["demostrás"],"s3":["demuestra"],"p1":["demostramos"],"p2":["demostráis"],"p3":["demuestran"]},
     "IndImp": {"s1":["demostraba"],"s2":["demostrabas"],"vos":["demostrabas"],"s3":["demostraba"],"p1":["demostrábamos"],"p2":["demostrabais"],"p3":["demostraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estrangular","gerundio":"estrangulando","participio":"estrangulado"},
+  "formas_no_personales": {"infinitivo":"estrangular","gerundio":["estrangulando"], "participio":["estrangulado"]},
   "formas_personales": {
     "IndPres": {"s1":["estrangulo"],"s2":["estrangulas"],"vos":["estrangulás"],"s3":["estrangula"],"p1":["estrangulamos"],"p2":["estranguláis"],"p3":["estrangulan"]},
     "IndImp": {"s1":["estrangulaba"],"s2":["estrangulabas"],"vos":["estrangulabas"],"s3":["estrangulaba"],"p1":["estrangulábamos"],"p2":["estrangulabais"],"p3":["estrangulaban"]},

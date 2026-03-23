@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"significar","gerundio":"significando","participio":"significado"},
+  "formas_no_personales": {"infinitivo":"significar","gerundio":["significando"], "participio":["significado"]},
   "formas_personales": {
     "IndPres": {"s1":["significo"],"s2":["significas"],"vos":["significás"],"s3":["significa"],"p1":["significamos"],"p2":["significáis"],"p3":["significan"]},
     "IndImp": {"s1":["significaba"],"s2":["significabas"],"vos":["significabas"],"s3":["significaba"],"p1":["significábamos"],"p2":["significabais"],"p3":["significaban"]},

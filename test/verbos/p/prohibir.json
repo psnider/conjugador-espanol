@@ -5,7 +5,7 @@
     "etimologia": "Del latín prohibeō, prohibēre, compuesto de pro&nbsp;('antes') y habeō, habēre&nbsp;('tener'). Compárense haber, exhibir, cohibir e inhibir.",
     "modelos": ["prohibir"]
   },
-  "formas_no_personales": {"infinitivo":"prohibir","gerundio":"prohibiendo","participio":"prohibido"},
+  "formas_no_personales": {"infinitivo":"prohibir","gerundio":["prohibiendo"], "participio":["prohibido"]},
   "formas_personales": {
     "IndPres": {"s1":["prohíbo"],"s2":["prohíbes"],"vos":["prohibís"],"s3":["prohíbe"],"p1":["prohibimos"],"p2":["prohibís"],"p3":["prohíben"]},
     "IndImp": {"s1":["prohibía"],"s2":["prohibías"],"vos":["prohibías"],"s3":["prohibía"],"p1":["prohibíamos"],"p2":["prohibíais"],"p3":["prohibían"]},

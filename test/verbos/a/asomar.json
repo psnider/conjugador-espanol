@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, somo y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"asomar","gerundio":"asomando","participio":"asomado"},
+  "formas_no_personales": {"infinitivo":"asomar","gerundio":["asomando"], "participio":["asomado"]},
   "formas_personales": {
     "IndPres": {"s1":["asomo"],"s2":["asomas"],"vos":["asomás"],"s3":["asoma"],"p1":["asomamos"],"p2":["asomáis"],"p3":["asoman"]},
     "IndImp": {"s1":["asomaba"],"s2":["asomabas"],"vos":["asomabas"],"s3":["asomaba"],"p1":["asomábamos"],"p2":["asomabais"],"p3":["asomaban"]},

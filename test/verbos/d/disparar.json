@@ -6,7 +6,7 @@
     "etimologia": "Del latín disparare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"disparar","gerundio":"disparando","participio":"disparado"},
+  "formas_no_personales": {"infinitivo":"disparar","gerundio":["disparando"], "participio":["disparado"]},
   "formas_personales": {
     "IndPres": {"s1":["disparo"],"s2":["disparas"],"vos":["disparás"],"s3":["dispara"],"p1":["disparamos"],"p2":["disparáis"],"p3":["disparan"]},
     "IndImp": {"s1":["disparaba"],"s2":["disparabas"],"vos":["disparabas"],"s3":["disparaba"],"p1":["disparábamos"],"p2":["disparabais"],"p3":["disparaban"]},

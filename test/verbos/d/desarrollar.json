@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y arrollar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desarrollar","gerundio":"desarrollando","participio":"desarrollado"},
+  "formas_no_personales": {"infinitivo":"desarrollar","gerundio":["desarrollando"], "participio":["desarrollado"]},
   "formas_personales": {
     "IndPres": {"s1":["desarrollo"],"s2":["desarrollas"],"vos":["desarrollás"],"s3":["desarrolla"],"p1":["desarrollamos"],"p2":["desarrolláis"],"p3":["desarrollan"]},
     "IndImp": {"s1":["desarrollaba"],"s2":["desarrollabas"],"vos":["desarrollabas"],"s3":["desarrollaba"],"p1":["desarrollábamos"],"p2":["desarrollabais"],"p3":["desarrollaban"]},

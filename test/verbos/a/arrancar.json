@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto. Coromines[1] lo da por derivado de una forma antigua *esrancar, a su vez del provenzal antiguo ranc o el francés antiguo ranc, \"rango, hilera\", dado el significado original de \"desbandar\"; es probable un cruce con los vocablos latinos eruncare, eradicare, o una hipotética *eradicinare.[2] Véase también rancar.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"arrancar","gerundio":"arrancando","participio":"arrancado"},
+  "formas_no_personales": {"infinitivo":"arrancar","gerundio":["arrancando"], "participio":["arrancado"]},
   "formas_personales": {
     "IndPres": {"s1":["arranco"],"s2":["arrancas"],"vos":["arrancás"],"s3":["arranca"],"p1":["arrancamos"],"p2":["arrancáis"],"p3":["arrancan"]},
     "IndImp": {"s1":["arrancaba"],"s2":["arrancabas"],"vos":["arrancabas"],"s3":["arrancaba"],"p1":["arrancábamos"],"p2":["arrancabais"],"p3":["arrancaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín sollicitāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"solicitar","gerundio":"solicitando","participio":"solicitado"},
+  "formas_no_personales": {"infinitivo":"solicitar","gerundio":["solicitando"], "participio":["solicitado"]},
   "formas_personales": {
     "IndPres": {"s1":["solicito"],"s2":["solicitas"],"vos":["solicitás"],"s3":["solicita"],"p1":["solicitamos"],"p2":["solicitáis"],"p3":["solicitan"]},
     "IndImp": {"s1":["solicitaba"],"s2":["solicitabas"],"vos":["solicitabas"],"s3":["solicitaba"],"p1":["solicitábamos"],"p2":["solicitabais"],"p3":["solicitaban"]},

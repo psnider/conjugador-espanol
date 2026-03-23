@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo tras- y pasar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"traspasar","gerundio":"traspasando","participio":"traspasado"},
+  "formas_no_personales": {"infinitivo":"traspasar","gerundio":["traspasando"], "participio":["traspasado"]},
   "formas_personales": {
     "IndPres": {"s1":["traspaso"],"s2":["traspasas"],"vos":["traspasás"],"s3":["traspasa"],"p1":["traspasamos"],"p2":["traspasáis"],"p3":["traspasan"]},
     "IndImp": {"s1":["traspasaba"],"s2":["traspasabas"],"vos":["traspasabas"],"s3":["traspasaba"],"p1":["traspasábamos"],"p2":["traspasabais"],"p3":["traspasaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De pico",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"picotear","gerundio":"picoteando","participio":"picoteado"},
+  "formas_no_personales": {"infinitivo":"picotear","gerundio":["picoteando"], "participio":["picoteado"]},
   "formas_personales": {
     "IndPres": {"s1":["picoteo"],"s2":["picoteas"],"vos":["picoteás"],"s3":["picotea"],"p1":["picoteamos"],"p2":["picoteáis"],"p3":["picotean"]},
     "IndImp": {"s1":["picoteaba"],"s2":["picoteabas"],"vos":["picoteabas"],"s3":["picoteaba"],"p1":["picoteábamos"],"p2":["picoteabais"],"p3":["picoteaban"]},

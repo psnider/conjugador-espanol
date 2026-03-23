@@ -6,7 +6,7 @@
     "etimologia": "Del aragonés afeitar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"afeitar","gerundio":"afeitando","participio":"afeitado"},
+  "formas_no_personales": {"infinitivo":"afeitar","gerundio":["afeitando"], "participio":["afeitado"]},
   "formas_personales": {
     "IndPres": {"s1":["afeito"],"s2":["afeitas"],"vos":["afeitás"],"s3":["afeita"],"p1":["afeitamos"],"p2":["afeitáis"],"p3":["afeitan"]},
     "IndImp": {"s1":["afeitaba"],"s2":["afeitabas"],"vos":["afeitabas"],"s3":["afeitaba"],"p1":["afeitábamos"],"p2":["afeitabais"],"p3":["afeitaban"]},

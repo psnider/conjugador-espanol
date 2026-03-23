@@ -5,7 +5,7 @@
     "etimologia": "Del latín extenuāre, derivado del latín tenuis.",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"extenuar","gerundio":"extenuando","participio":"extenuado"},
+  "formas_no_personales": {"infinitivo":"extenuar","gerundio":["extenuando"], "participio":["extenuado"]},
   "formas_personales": {
     "IndPres": {"s1":["extenúo"],"s2":["extenúas"],"vos":["extenuás"],"s3":["extenúa"],"p1":["extenuamos"],"p2":["extenuáis"],"p3":["extenúan"]},
     "IndImp": {"s1":["extenuaba"],"s2":["extenuabas"],"vos":["extenuabas"],"s3":["extenuaba"],"p1":["extenuábamos"],"p2":["extenuabais"],"p3":["extenuaban"]},

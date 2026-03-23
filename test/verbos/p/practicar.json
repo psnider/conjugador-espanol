@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"practicar","gerundio":"practicando","participio":"practicado"},
+  "formas_no_personales": {"infinitivo":"practicar","gerundio":["practicando"], "participio":["practicado"]},
   "formas_personales": {
     "IndPres": {"s1":["practico"],"s2":["practicas"],"vos":["practicás"],"s3":["practica"],"p1":["practicamos"],"p2":["practicáis"],"p3":["practican"]},
     "IndImp": {"s1":["practicaba"],"s2":["practicabas"],"vos":["practicabas"],"s3":["practicaba"],"p1":["practicábamos"],"p2":["practicabais"],"p3":["practicaban"]},

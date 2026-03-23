@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"descontar","gerundio":"descontando","participio":"descontado"},
+  "formas_no_personales": {"infinitivo":"descontar","gerundio":["descontando"], "participio":["descontado"]},
   "formas_personales": {
     "IndPres": {"s1":["descuento"],"s2":["descuentas"],"vos":["descontás"],"s3":["descuenta"],"p1":["descontamos"],"p2":["descontáis"],"p3":["descuentan"]},
     "IndImp": {"s1":["descontaba"],"s2":["descontabas"],"vos":["descontabas"],"s3":["descontaba"],"p1":["descontábamos"],"p2":["descontabais"],"p3":["descontaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín inferre.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"inferir","gerundio":"infiriendo","participio":"inferido"},
+  "formas_no_personales": {"infinitivo":"inferir","gerundio":["infiriendo"], "participio":["inferido"]},
   "formas_personales": {
     "IndPres": {"s1":["infiero"],"s2":["infieres"],"vos":["inferís"],"s3":["infiere"],"p1":["inferimos"],"p2":["inferís"],"p3":["infieren"]},
     "IndImp": {"s1":["infería"],"s2":["inferías"],"vos":["inferías"],"s3":["infería"],"p1":["inferíamos"],"p2":["inferíais"],"p3":["inferían"]},

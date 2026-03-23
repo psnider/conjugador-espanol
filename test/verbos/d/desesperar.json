@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y esperar. Convivió des del español desperar y la forma más plena desesperanzar, suplantándolos prácticamente por completo en la lengua moderna. Compárese el catalán desesperar, el francés désespérer o el portugués desesperar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desesperar","gerundio":"desesperando","participio":"desesperado"},
+  "formas_no_personales": {"infinitivo":"desesperar","gerundio":["desesperando"], "participio":["desesperado"]},
   "formas_personales": {
     "IndPres": {"s1":["desespero"],"s2":["desesperas"],"vos":["desesperás"],"s3":["desespera"],"p1":["desesperamos"],"p2":["desesperáis"],"p3":["desesperan"]},
     "IndImp": {"s1":["desesperaba"],"s2":["desesperabas"],"vos":["desesperabas"],"s3":["desesperaba"],"p1":["desesperábamos"],"p2":["desesperabais"],"p3":["desesperaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín iustificāre; de iustus&nbsp;('justo') y ficāre, tema frecuentativo de facĕre&nbsp;('hacer')[1]",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"justificar","gerundio":"justificando","participio":"justificado"},
+  "formas_no_personales": {"infinitivo":"justificar","gerundio":["justificando"], "participio":["justificado"]},
   "formas_personales": {
     "IndPres": {"s1":["justifico"],"s2":["justificas"],"vos":["justificás"],"s3":["justifica"],"p1":["justificamos"],"p2":["justificáis"],"p3":["justifican"]},
     "IndImp": {"s1":["justificaba"],"s2":["justificabas"],"vos":["justificabas"],"s3":["justificaba"],"p1":["justificábamos"],"p2":["justificabais"],"p3":["justificaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De plática y el sufijo -ar, y aquel del castellano antiguo plática, variante correlativa del castellano antiguo prática tipica de la región occidental, del latín tardío practica[1], uso sustantivado de practicus&nbsp;('práctico'), del verbo πράσσω&nbsp;(prássō), πράττω&nbsp;(práttō), probablemente del protoindoeuropeo *per-&nbsp;('atravesar'). La simplificación del grupo consonántico fue común a la mayoría de las lenguas romances; compárese el francés pratique, el italiano pratico o el portugués prático.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"platicar","gerundio":"platicando","participio":"platicado"},
+  "formas_no_personales": {"infinitivo":"platicar","gerundio":["platicando"], "participio":["platicado"]},
   "formas_personales": {
     "IndPres": {"s1":["platico"],"s2":["platicas"],"vos":["platicás"],"s3":["platica"],"p1":["platicamos"],"p2":["platicáis"],"p3":["platican"]},
     "IndImp": {"s1":["platicaba"],"s2":["platicabas"],"vos":["platicabas"],"s3":["platicaba"],"p1":["platicábamos"],"p2":["platicabais"],"p3":["platicaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del latín inundāre.[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inundar","gerundio":"inundando","participio":"inundado"},
+  "formas_no_personales": {"infinitivo":"inundar","gerundio":["inundando"], "participio":["inundado"]},
   "formas_personales": {
     "IndPres": {"s1":["inundo"],"s2":["inundas"],"vos":["inundás"],"s3":["inunda"],"p1":["inundamos"],"p2":["inundáis"],"p3":["inundan"]},
     "IndImp": {"s1":["inundaba"],"s2":["inundabas"],"vos":["inundabas"],"s3":["inundaba"],"p1":["inundábamos"],"p2":["inundabais"],"p3":["inundaban"]},

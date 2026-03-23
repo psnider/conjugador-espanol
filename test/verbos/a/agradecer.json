@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾað̞eˈseɾ]",
+    "silabacion": "a-gra-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y gradecer, a su vez del latín gratus– y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"agradecer","gerundio":["agradeciendo"], "participio":["agradecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agradezco"],"s2":["agradeces"],"vos":["agradecés"],"s3":["agradece"],"p1":["agradecemos"],"p2":["agradecéis"],"p3":["agradecen"]},
+    "IndImp": {"s1":["agradecía"],"s2":["agradecías"],"vos":["agradecías"],"s3":["agradecía"],"p1":["agradecíamos"],"p2":["agradecíais"],"p3":["agradecían"]},
+    "IndPret": {"s1":["agradecí"],"s2":["agradeciste"],"vos":["agradeciste"],"s3":["agradeció"],"p1":["agradecimos"],"p2":["agradecisteis"],"p3":["agradecieron"]},
+    "IndFut": {"s1":["agradeceré"],"s2":["agradecerás"],"vos":["agradecerás"],"s3":["agradecerá"],"p1":["agradeceremos"],"p2":["agradeceréis"],"p3":["agradecerán"]},
+    "IndCond": {"s1":["agradecería"],"s2":["agradecerías"],"vos":["agradecerías"],"s3":["agradecería"],"p1":["agradeceríamos"],"p2":["agradeceríais"],"p3":["agradecerían"]},
+    "SubPres": {"s1":["agradezca"],"s2":["agradezcas"],"vos":["agradezcas","agradezcás"],"s3":["agradezca"],"p1":["agradezcamos"],"p2":["agradezcáis"],"p3":["agradezcan"]},
+    "SubImp": {"s1":["agradeciera","agradeciese"],"s2":["agradecieras","agradecieses"],"vos":["agradecieras","agradecieses"],"s3":["agradeciera","agradeciese"],"p1":["agradeciéramos","agradeciésemos"],"p2":["agradecierais","agradecieseis"],"p3":["agradecieran","agradeciesen"]},
+    "SubFut": {"s1":["agradeciere"],"s2":["agradecieres"],"vos":["agradecieres"],"s3":["agradeciere"],"p1":["agradeciéremos"],"p2":["agradeciereis"],"p3":["agradecieren"]},
+    "CmdPos": {"s2":["agradece"],"vos":["agradecé"],"s3":["agradezca"],"p1":["agradezcamos"],"p2":["agradeced"],"p3":["agradezcan"]}
+  }
+}

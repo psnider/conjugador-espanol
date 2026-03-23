@@ -6,7 +6,7 @@
     "etimologia": "Del latín discolōrō, discolōrāre,[1] de dis-&nbsp;('pérdida') y colōrō, colōrāre&nbsp;('teñir').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"descolorar","gerundio":"descolorando","participio":"descolorado"},
+  "formas_no_personales": {"infinitivo":"descolorar","gerundio":["descolorando"], "participio":["descolorado"]},
   "formas_personales": {
     "IndPres": {"s1":["descoloro"],"s2":["descoloras"],"vos":["descolorás"],"s3":["descolora"],"p1":["descoloramos"],"p2":["descoloráis"],"p3":["descoloran"]},
     "IndImp": {"s1":["descoloraba"],"s2":["descolorabas"],"vos":["descolorabas"],"s3":["descoloraba"],"p1":["descolorábamos"],"p2":["descolorabais"],"p3":["descoloraban"]},

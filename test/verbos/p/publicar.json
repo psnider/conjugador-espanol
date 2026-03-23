@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1208.[1] Del latín publicāre (\"hacer público\").",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"publicar","gerundio":"publicando","participio":"publicado"},
+  "formas_no_personales": {"infinitivo":"publicar","gerundio":["publicando"], "participio":["publicado"]},
   "formas_personales": {
     "IndPres": {"s1":["publico"],"s2":["publicas"],"vos":["publicás"],"s3":["publica"],"p1":["publicamos"],"p2":["publicáis"],"p3":["publican"]},
     "IndImp": {"s1":["publicaba"],"s2":["publicabas"],"vos":["publicabas"],"s3":["publicaba"],"p1":["publicábamos"],"p2":["publicabais"],"p3":["publicaban"]},

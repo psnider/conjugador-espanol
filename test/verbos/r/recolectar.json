@@ -6,7 +6,7 @@
     "etimologia": "Del latín recollectum, supino de recolligĕre&nbsp;('recoger').[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"recolectar","gerundio":"recolectando","participio":"recolectado"},
+  "formas_no_personales": {"infinitivo":"recolectar","gerundio":["recolectando"], "participio":["recolectado"]},
   "formas_personales": {
     "IndPres": {"s1":["recolecto"],"s2":["recolectas"],"vos":["recolectás"],"s3":["recolecta"],"p1":["recolectamos"],"p2":["recolectáis"],"p3":["recolectan"]},
     "IndImp": {"s1":["recolectaba"],"s2":["recolectabas"],"vos":["recolectabas"],"s3":["recolectaba"],"p1":["recolectábamos"],"p2":["recolectabais"],"p3":["recolectaban"]},

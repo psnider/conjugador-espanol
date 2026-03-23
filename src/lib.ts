@@ -1,6 +1,10 @@
 import {GrammaticalPerson, MoodTense, VerbConjugation, VerbConjugationStems, VerbForms} from "."
-import { aplicaPrefijosClaseConjugacional } from "./prefixes.js"
-import { Prefixes } from "./resolve-conjugation-class.js"
+
+
+export const persons_standard = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3"]
+export const persons_w_vos = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
+export const persons_w_vos_index: {[person: string]: 1} = {s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1}
+export const mood_tenses : MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"]
 
 
 // Apply a change to each verb form for a single conjugation (for mood + tense + gramatical person).
@@ -13,19 +17,13 @@ export function applyToVerbForms(source_forms: VerbForms, change: (form: string,
     if (source_forms) {
         const changed_forms = <VerbForms> source_forms.map((source_form, i) => {
             const changed_form = change(source_form, i)
-            return (changed_form !== undefined) ? changed_form : source_form
+            return (changed_form || source_form)
         })
         return changed_forms
     } else {
         return source_forms
     }
 }
-
-
-export const persons_standard = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3"]
-export const persons_w_vos = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
-export const persons_w_vos_index: {[person: string]: 1} = {s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1}
-export const mood_tenses : MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"]
 
 
 export function setStem(temas_modelo: [string] | [string, string], only_persons?: GrammaticalPerson[]) {
@@ -36,4 +34,29 @@ export function setStem(temas_modelo: [string] | [string, string], only_persons?
         temas_base[persona_gramatical] = temas_modelo
     }
     return temas_base
+}
+
+
+export function formsAreEqual(lhs: string | [string] | [string, string] | undefined, rhs: string | [string] | [string, string] | undefined) {
+    // handle degenerate cases
+    if ((lhs == null) && (rhs == null)) {
+        return true
+    } else if ((lhs == null) || (rhs == null)) {
+        return false
+    }
+    // both have values
+    // normalize to array copies
+    const lhs_a = (typeof lhs === 'string') ? [lhs] : [...lhs]
+    const rhs_a = (typeof rhs === 'string') ? [rhs] : [...rhs]
+    if (lhs_a.length !== rhs_a.length) {
+        return false
+    }
+    lhs_a.sort()
+    rhs_a.sort()
+    for (let i = 0 ; i < lhs_a.length ; ++i) {
+        if (lhs_a[i] !== rhs_a[i]) {
+            return false
+        }
+    }
+    return true
 }

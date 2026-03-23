@@ -6,7 +6,7 @@
     "etimologia": "Del latín corrodere.",
     "modelos": ["roer"]
   },
-  "formas_no_personales": {"infinitivo":"corroer","gerundio":"corroyendo","participio":"corroído"},
+  "formas_no_personales": {"infinitivo":"corroer","gerundio":["corroyendo"], "participio":["corroído"]},
   "formas_personales": {
     "IndPres": {"s1":["corroo","corroigo","corroyo"],"s2":["corroes"],"vos":["corroés"],"s3":["corroe"],"p1":["corroemos"],"p2":["corroéis"],"p3":["corroen"]},
     "IndImp": {"s1":["corroía"],"s2":["corroías"],"vos":["corroías"],"s3":["corroía"],"p1":["corroíamos"],"p2":["corroíais"],"p3":["corroían"]},

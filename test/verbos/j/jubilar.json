@@ -6,7 +6,7 @@
     "etimologia": "Del latín iubilāre,[1] cruzado con iubilaeus&nbsp;('jubileo'), a su vez del hebreo יובל (\"ciervo, cabra\") (el año del cirevo o jubileo ocurría cada cincuenta años, edad de jubilarse).[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"jubilar","gerundio":"jubilando","participio":"jubilado"},
+  "formas_no_personales": {"infinitivo":"jubilar","gerundio":["jubilando"], "participio":["jubilado"]},
   "formas_personales": {
     "IndPres": {"s1":["jubilo"],"s2":["jubilas"],"vos":["jubilás"],"s3":["jubila"],"p1":["jubilamos"],"p2":["jubiláis"],"p3":["jubilan"]},
     "IndImp": {"s1":["jubilaba"],"s2":["jubilabas"],"vos":["jubilabas"],"s3":["jubilaba"],"p1":["jubilábamos"],"p2":["jubilabais"],"p3":["jubilaban"]},

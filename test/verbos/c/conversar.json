@@ -6,7 +6,7 @@
     "etimologia": "Del latín conversare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"conversar","gerundio":"conversando","participio":"conversado"},
+  "formas_no_personales": {"infinitivo":"conversar","gerundio":["conversando"], "participio":["conversado"]},
   "formas_personales": {
     "IndPres": {"s1":["converso"],"s2":["conversas"],"vos":["conversás"],"s3":["conversa"],"p1":["conversamos"],"p2":["conversáis"],"p3":["conversan"]},
     "IndImp": {"s1":["conversaba"],"s2":["conversabas"],"vos":["conversabas"],"s3":["conversaba"],"p1":["conversábamos"],"p2":["conversabais"],"p3":["conversaban"]},

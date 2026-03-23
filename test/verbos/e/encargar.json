@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, cargo y el sufijo -ar",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"encargar","gerundio":"encargando","participio":"encargado"},
+  "formas_no_personales": {"infinitivo":"encargar","gerundio":["encargando"], "participio":["encargado"]},
   "formas_personales": {
     "IndPres": {"s1":["encargo"],"s2":["encargas"],"vos":["encargás"],"s3":["encarga"],"p1":["encargamos"],"p2":["encargáis"],"p3":["encargan"]},
     "IndImp": {"s1":["encargaba"],"s2":["encargabas"],"vos":["encargabas"],"s3":["encargaba"],"p1":["encargábamos"],"p2":["encargabais"],"p3":["encargaban"]},

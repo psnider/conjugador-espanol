@@ -6,7 +6,7 @@
     "etimologia": "Del latín errare.",
     "modelos": ["errar"]
   },
-  "formas_no_personales": {"infinitivo":"errar","gerundio":"errando","participio":"errado"},
+  "formas_no_personales": {"infinitivo":"errar","gerundio":["errando"], "participio":["errado"]},
   "formas_personales": {
     "IndPres": {"s1":["yerro","erro"],"s2":["yerras","erras"],"vos":["errás"],"s3":["yerra","erra"],"p1":["erramos"],"p2":["erráis"],"p3":["yerran","erran"]},
     "IndImp": {"s1":["erraba"],"s2":["errabas"],"vos":["errabas"],"s3":["erraba"],"p1":["errábamos"],"p2":["errabais"],"p3":["erraban"]},

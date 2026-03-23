@@ -6,7 +6,7 @@
     "etimologia": "Del latín cogitare ('pensar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cuidar","gerundio":"cuidando","participio":"cuidado"},
+  "formas_no_personales": {"infinitivo":"cuidar","gerundio":["cuidando"], "participio":["cuidado"]},
   "formas_personales": {
     "IndPres": {"s1":["cuido"],"s2":["cuidas"],"vos":["cuidás"],"s3":["cuida"],"p1":["cuidamos"],"p2":["cuidáis"],"p3":["cuidan"]},
     "IndImp": {"s1":["cuidaba"],"s2":["cuidabas"],"vos":["cuidabas"],"s3":["cuidaba"],"p1":["cuidábamos"],"p2":["cuidabais"],"p3":["cuidaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín accelerāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acelerar","gerundio":"acelerando","participio":"acelerado"},
+  "formas_no_personales": {"infinitivo":"acelerar","gerundio":["acelerando"], "participio":["acelerado"]},
   "formas_personales": {
     "IndPres": {"s1":["acelero"],"s2":["aceleras"],"vos":["acelerás"],"s3":["acelera"],"p1":["aceleramos"],"p2":["aceleráis"],"p3":["aceleran"]},
     "IndImp": {"s1":["aceleraba"],"s2":["acelerabas"],"vos":["acelerabas"],"s3":["aceleraba"],"p1":["acelerábamos"],"p2":["acelerabais"],"p3":["aceleraban"]},

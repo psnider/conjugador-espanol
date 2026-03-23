@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar accordare (\"unir los corazones\", \"traer al corazon\").",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"acordar","gerundio":"acordando","participio":"acordado"},
+  "formas_no_personales": {"infinitivo":"acordar","gerundio":["acordando"], "participio":["acordado"]},
   "formas_personales": {
     "IndPres": {"s1":["acuerdo"],"s2":["acuerdas"],"vos":["acordás"],"s3":["acuerda"],"p1":["acordamos"],"p2":["acordáis"],"p3":["acuerdan"]},
     "IndImp": {"s1":["acordaba"],"s2":["acordabas"],"vos":["acordabas"],"s3":["acordaba"],"p1":["acordábamos"],"p2":["acordabais"],"p3":["acordaban"]},

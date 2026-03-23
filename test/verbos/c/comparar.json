@@ -6,7 +6,7 @@
     "etimologia": "Del latín comparō, comparāre (\"cotejar, adquirir\"), derivado de parō, parāre (\"preparar, proveer, solucionar\"). Doblete con comprar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"comparar","gerundio":"comparando","participio":"comparado"},
+  "formas_no_personales": {"infinitivo":"comparar","gerundio":["comparando"], "participio":["comparado"]},
   "formas_personales": {
     "IndPres": {"s1":["comparo"],"s2":["comparas"],"vos":["comparás"],"s3":["compara"],"p1":["comparamos"],"p2":["comparáis"],"p3":["comparan"]},
     "IndImp": {"s1":["comparaba"],"s2":["comparabas"],"vos":["comparabas"],"s3":["comparaba"],"p1":["comparábamos"],"p2":["comparabais"],"p3":["comparaban"]},

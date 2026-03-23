@@ -6,7 +6,7 @@
     "etimologia": "Del latín assentīre, infinitivo presente de assentiō (\"aprobar, estar de acuerdo\")",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"asentir","gerundio":"asintiendo","participio":"asentido"},
+  "formas_no_personales": {"infinitivo":"asentir","gerundio":["asintiendo"], "participio":["asentido"]},
   "formas_personales": {
     "IndPres": {"s1":["asiento"],"s2":["asientes"],"vos":["asentís"],"s3":["asiente"],"p1":["asentimos"],"p2":["asentís"],"p3":["asienten"]},
     "IndImp": {"s1":["asentía"],"s2":["asentías"],"vos":["asentías"],"s3":["asentía"],"p1":["asentíamos"],"p2":["asentíais"],"p3":["asentían"]},

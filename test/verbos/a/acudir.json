@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"acudir","gerundio":"acudiendo","participio":"acudido"},
+  "formas_no_personales": {"infinitivo":"acudir","gerundio":["acudiendo"], "participio":["acudido"]},
   "formas_personales": {
     "IndPres": {"s1":["acudo"],"s2":["acudes"],"vos":["acudís"],"s3":["acude"],"p1":["acudimos"],"p2":["acudís"],"p3":["acuden"]},
     "IndImp": {"s1":["acudía"],"s2":["acudías"],"vos":["acudías"],"s3":["acudía"],"p1":["acudíamos"],"p2":["acudíais"],"p3":["acudían"]},

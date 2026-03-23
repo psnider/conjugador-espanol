@@ -6,7 +6,7 @@
     "etimologia": "Del latín destillare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"destilar","gerundio":"destilando","participio":"destilado"},
+  "formas_no_personales": {"infinitivo":"destilar","gerundio":["destilando"], "participio":["destilado"]},
   "formas_personales": {
     "IndPres": {"s1":["destilo"],"s2":["destilas"],"vos":["destilás"],"s3":["destila"],"p1":["destilamos"],"p2":["destiláis"],"p3":["destilan"]},
     "IndImp": {"s1":["destilaba"],"s2":["destilabas"],"vos":["destilabas"],"s3":["destilaba"],"p1":["destilábamos"],"p2":["destilabais"],"p3":["destilaban"]},

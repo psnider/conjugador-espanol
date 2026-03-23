@@ -6,7 +6,7 @@
     "etimologia": "Del latín clāmāre (\"invocar, implorar, rogar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"llamar","gerundio":"llamando","participio":"llamado"},
+  "formas_no_personales": {"infinitivo":"llamar","gerundio":["llamando"], "participio":["llamado"]},
   "formas_personales": {
     "IndPres": {"s1":["llamo"],"s2":["llamas"],"vos":["llamás"],"s3":["llama"],"p1":["llamamos"],"p2":["llamáis"],"p3":["llaman"]},
     "IndImp": {"s1":["llamaba"],"s2":["llamabas"],"vos":["llamabas"],"s3":["llamaba"],"p1":["llamábamos"],"p2":["llamabais"],"p3":["llamaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del castellano antiguo continuar ('continuar'), y este del latín continuāre.",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"continuar","gerundio":"continuando","participio":"continuado"},
+  "formas_no_personales": {"infinitivo":"continuar","gerundio":["continuando"], "participio":["continuado"]},
   "formas_personales": {
     "IndPres": {"s1":["continúo"],"s2":["continúas"],"vos":["continuás"],"s3":["continúa"],"p1":["continuamos"],"p2":["continuáis"],"p3":["continúan"]},
     "IndImp": {"s1":["continuaba"],"s2":["continuabas"],"vos":["continuabas"],"s3":["continuaba"],"p1":["continuábamos"],"p2":["continuabais"],"p3":["continuaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín coquere",
     "modelos": ["mover","cocer"]
   },
-  "formas_no_personales": {"infinitivo":"cocer","gerundio":"cociendo","participio":"cocido"},
+  "formas_no_personales": {"infinitivo":"cocer","gerundio":["cociendo"], "participio":["cocido"]},
   "formas_personales": {
     "IndPres": {"s1":["cuezo"],"s2":["cueces"],"vos":["cocés"],"s3":["cuece"],"p1":["cocemos"],"p2":["cocéis"],"p3":["cuecen"]},
     "IndImp": {"s1":["cocía"],"s2":["cocías"],"vos":["cocías"],"s3":["cocía"],"p1":["cocíamos"],"p2":["cocíais"],"p3":["cocían"]},

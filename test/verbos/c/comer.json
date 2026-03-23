@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín comedĕre, infinitivo del latín comedo, formado a partir cum&nbsp;('con') y edō&nbsp;('comer').",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"comer","gerundio":"comiendo","participio":"comido"},
+  "formas_no_personales": {"infinitivo":"comer","gerundio":["comiendo"], "participio":["comido"]},
   "formas_personales": {
     "IndPres": {"s1":["como"],"s2":["comes"],"vos":["comés"],"s3":["come"],"p1":["comemos"],"p2":["coméis"],"p3":["comen"]},
     "IndImp": {"s1":["comía"],"s2":["comías"],"vos":["comías"],"s3":["comía"],"p1":["comíamos"],"p2":["comíais"],"p3":["comían"]},

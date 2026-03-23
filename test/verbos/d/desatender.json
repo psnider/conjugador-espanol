@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo des- y atender.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"desatender","gerundio":"desatendiendo","participio":"desatendido"},
+  "formas_no_personales": {"infinitivo":"desatender","gerundio":["desatendiendo"], "participio":["desatendido"]},
   "formas_personales": {
     "IndPres": {"s1":["desatiendo"],"s2":["desatiendes"],"vos":["desatendés"],"s3":["desatiende"],"p1":["desatendemos"],"p2":["desatendéis"],"p3":["desatienden"]},
     "IndImp": {"s1":["desatendía"],"s2":["desatendías"],"vos":["desatendías"],"s3":["desatendía"],"p1":["desatendíamos"],"p2":["desatendíais"],"p3":["desatendían"]},

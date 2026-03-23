@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto. Quizás del gótico *haribaírgôn ('alojar una tropa').",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"albergar","gerundio":"albergando","participio":"albergado"},
+  "formas_no_personales": {"infinitivo":"albergar","gerundio":["albergando"], "participio":["albergado"]},
   "formas_personales": {
     "IndPres": {"s1":["albergo"],"s2":["albergas"],"vos":["albergás"],"s3":["alberga"],"p1":["albergamos"],"p2":["albergáis"],"p3":["albergan"]},
     "IndImp": {"s1":["albergaba"],"s2":["albergabas"],"vos":["albergabas"],"s3":["albergaba"],"p1":["albergábamos"],"p2":["albergabais"],"p3":["albergaban"]},

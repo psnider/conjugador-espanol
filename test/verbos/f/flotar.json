@@ -6,7 +6,7 @@
     "etimologia": "Del francés flotter",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"flotar","gerundio":"flotando","participio":"flotado"},
+  "formas_no_personales": {"infinitivo":"flotar","gerundio":["flotando"], "participio":["flotado"]},
   "formas_personales": {
     "IndPres": {"s1":["floto"],"s2":["flotas"],"vos":["flotás"],"s3":["flota"],"p1":["flotamos"],"p2":["flotáis"],"p3":["flotan"]},
     "IndImp": {"s1":["flotaba"],"s2":["flotabas"],"vos":["flotabas"],"s3":["flotaba"],"p1":["flotábamos"],"p2":["flotabais"],"p3":["flotaban"]},

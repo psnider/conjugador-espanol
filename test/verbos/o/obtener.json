@@ -6,7 +6,7 @@
     "etimologia": "Del latín obtinere",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"obtener","gerundio":"obteniendo","participio":"obtenido"},
+  "formas_no_personales": {"infinitivo":"obtener","gerundio":["obteniendo"], "participio":["obtenido"]},
   "formas_personales": {
     "IndPres": {"s1":["obtengo"],"s2":["obtienes"],"vos":["obtenés"],"s3":["obtiene"],"p1":["obtenemos"],"p2":["obtenéis"],"p3":["obtienen"]},
     "IndImp": {"s1":["obtenía"],"s2":["obtenías"],"vos":["obtenías"],"s3":["obtenía"],"p1":["obteníamos"],"p2":["obteníais"],"p3":["obtenían"]},

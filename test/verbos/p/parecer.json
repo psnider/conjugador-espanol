@@ -6,7 +6,7 @@
     "etimologia": "Del latín pāreō, pārēre (\"ser visible o aparente\"), habiendo pasado por el latín vulgar *parescere.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"parecer","gerundio":"pareciendo","participio":"parecido"},
+  "formas_no_personales": {"infinitivo":"parecer","gerundio":["pareciendo"], "participio":["parecido"]},
   "formas_personales": {
     "IndPres": {"s1":["parezco"],"s2":["pareces"],"vos":["parecés"],"s3":["parece"],"p1":["parecemos"],"p2":["parecéis"],"p3":["parecen"]},
     "IndImp": {"s1":["parecía"],"s2":["parecías"],"vos":["parecías"],"s3":["parecía"],"p1":["parecíamos"],"p2":["parecíais"],"p3":["parecían"]},

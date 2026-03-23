@@ -8,7 +8,6 @@ import * as fs from 'node:fs'
 
 // verbs to insert into verbos_con_cambios_morfológicos[]
 const verbos_para_insertar = [
-
 ]
 
 const verbs_list_filename = "./src/verbos-con-cambios-morfológicas.ts"

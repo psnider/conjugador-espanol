@@ -5,7 +5,7 @@
     "etimologia": "De vidrio y el sufijo -ar.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"vidriar","gerundio":"vidriando","participio":"vidriado"},
+  "formas_no_personales": {"infinitivo":"vidriar","gerundio":["vidriando"], "participio":["vidriado"]},
   "formas_personales": {
     "IndPres": {"s1":["vidrío","vidrio"],"s2":["vidrías","vidrias"],"vos":["vidriás"],"s3":["vidría","vidria"],"p1":["vidriamos"],"p2":["vidriáis"],"p3":["vidrían","vidrian"]},
     "IndImp": {"s1":["vidriaba"],"s2":["vidriabas"],"vos":["vidriabas"],"s3":["vidriaba"],"p1":["vidriábamos"],"p2":["vidriabais"],"p3":["vidriaban"]},

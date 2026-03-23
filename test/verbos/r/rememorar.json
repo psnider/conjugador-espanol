@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1427.[1] Del latín rememorāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"rememorar","gerundio":"rememorando","participio":"rememorado"},
+  "formas_no_personales": {"infinitivo":"rememorar","gerundio":["rememorando"], "participio":["rememorado"]},
   "formas_personales": {
     "IndPres": {"s1":["rememoro"],"s2":["rememoras"],"vos":["rememorás"],"s3":["rememora"],"p1":["rememoramos"],"p2":["rememoráis"],"p3":["rememoran"]},
     "IndImp": {"s1":["rememoraba"],"s2":["rememorabas"],"vos":["rememorabas"],"s3":["rememoraba"],"p1":["rememorábamos"],"p2":["rememorabais"],"p3":["rememoraban"]},

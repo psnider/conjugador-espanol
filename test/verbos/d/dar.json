@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo dar ('dar'), y este del latín do.",
     "modelos": ["dar"]
   },
-  "formas_no_personales": {"infinitivo":"dar","gerundio":"dando","participio":"dado"},
+  "formas_no_personales": {"infinitivo":"dar","gerundio":["dando"], "participio":["dado"]},
   "formas_personales": {
     "IndPres": {"s1":["doy"],"s2":["das"],"vos":["das"],"s3":["da"],"p1":["damos"],"p2":["dais"],"p3":["dan"]},
     "IndImp": {"s1":["daba"],"s2":["dabas"],"vos":["dabas"],"s3":["daba"],"p1":["dábamos"],"p2":["dabais"],"p3":["daban"]},

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awˈsaɾ]",
+    "silabacion": "ahu-sar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["aunar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahusar","gerundio":["ahusando"], "participio":["ahusado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ahúso"],"s2":["ahúsas"],"vos":["ahusás"],"s3":["ahúsa"],"p1":["ahusamos"],"p2":["ahusáis"],"p3":["ahúsan"]},
+    "IndImp": {"s1":["ahusaba"],"s2":["ahusabas"],"vos":["ahusabas"],"s3":["ahusaba"],"p1":["ahusábamos"],"p2":["ahusabais"],"p3":["ahusaban"]},
+    "IndPret": {"s1":["ahusé"],"s2":["ahusaste"],"vos":["ahusaste"],"s3":["ahusó"],"p1":["ahusamos"],"p2":["ahusasteis"],"p3":["ahusaron"]},
+    "IndFut": {"s1":["ahusaré"],"s2":["ahusarás"],"vos":["ahusarás"],"s3":["ahusará"],"p1":["ahusaremos"],"p2":["ahusaréis"],"p3":["ahusarán"]},
+    "IndCond": {"s1":["ahusaría"],"s2":["ahusarías"],"vos":["ahusarías"],"s3":["ahusaría"],"p1":["ahusaríamos"],"p2":["ahusaríais"],"p3":["ahusarían"]},
+    "SubPres": {"s1":["ahúse"],"s2":["ahúses"],"vos":["ahúses","ahusés"],"s3":["ahúse"],"p1":["ahusemos"],"p2":["ahuséis"],"p3":["ahúsen"]},
+    "SubImp": {"s1":["ahusara","ahusase"],"s2":["ahusaras","ahusases"],"vos":["ahusaras","ahusases"],"s3":["ahusara","ahusase"],"p1":["ahusáramos","ahusásemos"],"p2":["ahusarais","ahusaseis"],"p3":["ahusaran","ahusasen"]},
+    "SubFut": {"s1":["ahusare"],"s2":["ahusares"],"vos":["ahusares"],"s3":["ahusare"],"p1":["ahusáremos"],"p2":["ahusareis"],"p3":["ahusaren"]},
+    "CmdPos": {"s2":["ahúsa"],"vos":["ahusá"],"s3":["ahúse"],"p1":["ahusemos"],"p2":["ahusad"],"p3":["ahúsen"]}
+  }
+}

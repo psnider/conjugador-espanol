@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"derribar","gerundio":"derribando","participio":"derribado"},
+  "formas_no_personales": {"infinitivo":"derribar","gerundio":["derribando"], "participio":["derribado"]},
   "formas_personales": {
     "IndPres": {"s1":["derribo"],"s2":["derribas"],"vos":["derribás"],"s3":["derriba"],"p1":["derribamos"],"p2":["derribáis"],"p3":["derriban"]},
     "IndImp": {"s1":["derribaba"],"s2":["derribabas"],"vos":["derribabas"],"s3":["derribaba"],"p1":["derribábamos"],"p2":["derribabais"],"p3":["derribaban"]},

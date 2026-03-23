@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"insertar","gerundio":"insertando","participio":"insertado"},
+  "formas_no_personales": {"infinitivo":"insertar","gerundio":["insertando"], "participio":["insertado"]},
   "formas_personales": {
     "IndPres": {"s1":["inserto"],"s2":["insertas"],"vos":["insertás"],"s3":["inserta"],"p1":["insertamos"],"p2":["insertáis"],"p3":["insertan"]},
     "IndImp": {"s1":["insertaba"],"s2":["insertabas"],"vos":["insertabas"],"s3":["insertaba"],"p1":["insertábamos"],"p2":["insertabais"],"p3":["insertaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De expreso ('claro') y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"expresar","gerundio":"expresando","participio":"expresado"},
+  "formas_no_personales": {"infinitivo":"expresar","gerundio":["expresando"], "participio":["expresado"]},
   "formas_personales": {
     "IndPres": {"s1":["expreso"],"s2":["expresas"],"vos":["expresás"],"s3":["expresa"],"p1":["expresamos"],"p2":["expresáis"],"p3":["expresan"]},
     "IndImp": {"s1":["expresaba"],"s2":["expresabas"],"vos":["expresabas"],"s3":["expresaba"],"p1":["expresábamos"],"p2":["expresabais"],"p3":["expresaban"]},

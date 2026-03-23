@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eβ̞aˈlwaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo de-, valor y el sufijo -ar.",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"devaluar","gerundio":["devaluando"], "participio":["devaluado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["devalúo"],"s2":["devalúas"],"vos":["devaluás"],"s3":["devalúa"],"p1":["devaluamos"],"p2":["devaluáis"],"p3":["devalúan"]},
+    "IndImp": {"s1":["devaluaba"],"s2":["devaluabas"],"vos":["devaluabas"],"s3":["devaluaba"],"p1":["devaluábamos"],"p2":["devaluabais"],"p3":["devaluaban"]},
+    "IndPret": {"s1":["devalué"],"s2":["devaluaste"],"vos":["devaluaste"],"s3":["devaluó"],"p1":["devaluamos"],"p2":["devaluasteis"],"p3":["devaluaron"]},
+    "IndFut": {"s1":["devaluaré"],"s2":["devaluarás"],"vos":["devaluarás"],"s3":["devaluará"],"p1":["devaluaremos"],"p2":["devaluaréis"],"p3":["devaluarán"]},
+    "IndCond": {"s1":["devaluaría"],"s2":["devaluarías"],"vos":["devaluarías"],"s3":["devaluaría"],"p1":["devaluaríamos"],"p2":["devaluaríais"],"p3":["devaluarían"]},
+    "SubPres": {"s1":["devalúe"],"s2":["devalúes"],"vos":["devalúes","devalués"],"s3":["devalúe"],"p1":["devaluemos"],"p2":["devaluéis"],"p3":["devalúen"]},
+    "SubImp": {"s1":["devaluara","devaluase"],"s2":["devaluaras","devaluases"],"vos":["devaluaras","devaluases"],"s3":["devaluara","devaluase"],"p1":["devaluáramos","devaluásemos"],"p2":["devaluarais","devaluaseis"],"p3":["devaluaran","devaluasen"]},
+    "SubFut": {"s1":["devaluare"],"s2":["devaluares"],"vos":["devaluares"],"s3":["devaluare"],"p1":["devaluáremos"],"p2":["devaluareis"],"p3":["devaluaren"]},
+    "CmdPos": {"s2":["devalúa"],"vos":["devaluá"],"s3":["devalúe"],"p1":["devaluemos"],"p2":["devaluad"],"p3":["devalúen"]}
+  }
+}

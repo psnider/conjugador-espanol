@@ -6,7 +6,7 @@
     "etimologia": "De idéntico y el sufijo -ficar (con supresión de la última sílaba en idénti-co).",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"identificar","gerundio":"identificando","participio":"identificado"},
+  "formas_no_personales": {"infinitivo":"identificar","gerundio":["identificando"], "participio":["identificado"]},
   "formas_personales": {
     "IndPres": {"s1":["identifico"],"s2":["identificas"],"vos":["identificás"],"s3":["identifica"],"p1":["identificamos"],"p2":["identificáis"],"p3":["identifican"]},
     "IndImp": {"s1":["identificaba"],"s2":["identificabas"],"vos":["identificabas"],"s3":["identificaba"],"p1":["identificábamos"],"p2":["identificabais"],"p3":["identificaban"]},

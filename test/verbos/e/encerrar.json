@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"encerrar","gerundio":"encerrando","participio":"encerrado"},
+  "formas_no_personales": {"infinitivo":"encerrar","gerundio":["encerrando"], "participio":["encerrado"]},
   "formas_personales": {
     "IndPres": {"s1":["encierro"],"s2":["encierras"],"vos":["encerrás"],"s3":["encierra"],"p1":["encerramos"],"p2":["encerráis"],"p3":["encierran"]},
     "IndImp": {"s1":["encerraba"],"s2":["encerrabas"],"vos":["encerrabas"],"s3":["encerraba"],"p1":["encerrábamos"],"p2":["encerrabais"],"p3":["encerraban"]},

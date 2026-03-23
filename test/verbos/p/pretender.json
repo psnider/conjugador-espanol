@@ -6,7 +6,7 @@
     "etimologia": "Del latín praetendere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"pretender","gerundio":"pretendiendo","participio":"pretendido"},
+  "formas_no_personales": {"infinitivo":"pretender","gerundio":["pretendiendo"], "participio":["pretendido"]},
   "formas_personales": {
     "IndPres": {"s1":["pretendo"],"s2":["pretendes"],"vos":["pretendés"],"s3":["pretende"],"p1":["pretendemos"],"p2":["pretendéis"],"p3":["pretenden"]},
     "IndImp": {"s1":["pretendía"],"s2":["pretendías"],"vos":["pretendías"],"s3":["pretendía"],"p1":["pretendíamos"],"p2":["pretendíais"],"p3":["pretendían"]},

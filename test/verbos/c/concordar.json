@@ -6,7 +6,7 @@
     "etimologia": "Del latín concordō, concordāre",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"concordar","gerundio":"concordando","participio":"concordado"},
+  "formas_no_personales": {"infinitivo":"concordar","gerundio":["concordando"], "participio":["concordado"]},
   "formas_personales": {
     "IndPres": {"s1":["concuerdo"],"s2":["concuerdas"],"vos":["concordás"],"s3":["concuerda"],"p1":["concordamos"],"p2":["concordáis"],"p3":["concuerdan"]},
     "IndImp": {"s1":["concordaba"],"s2":["concordabas"],"vos":["concordabas"],"s3":["concordaba"],"p1":["concordábamos"],"p2":["concordabais"],"p3":["concordaban"]},

@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aprovechar","gerundio":"aprovechando","participio":"aprovechado"},
+  "formas_no_personales": {"infinitivo":"aprovechar","gerundio":["aprovechando"], "participio":["aprovechado"]},
   "formas_personales": {
     "IndPres": {"s1":["aprovecho"],"s2":["aprovechas"],"vos":["aprovechás"],"s3":["aprovecha"],"p1":["aprovechamos"],"p2":["aprovecháis"],"p3":["aprovechan"]},
     "IndImp": {"s1":["aprovechaba"],"s2":["aprovechabas"],"vos":["aprovechabas"],"s3":["aprovechaba"],"p1":["aprovechábamos"],"p2":["aprovechabais"],"p3":["aprovechaban"]},

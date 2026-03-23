@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lamentar","gerundio":"lamentando","participio":"lamentado"},
+  "formas_no_personales": {"infinitivo":"lamentar","gerundio":["lamentando"], "participio":["lamentado"]},
   "formas_personales": {
     "IndPres": {"s1":["lamento"],"s2":["lamentas"],"vos":["lamentás"],"s3":["lamenta"],"p1":["lamentamos"],"p2":["lamentáis"],"p3":["lamentan"]},
     "IndImp": {"s1":["lamentaba"],"s2":["lamentabas"],"vos":["lamentabas"],"s3":["lamentaba"],"p1":["lamentábamos"],"p2":["lamentabais"],"p3":["lamentaban"]},

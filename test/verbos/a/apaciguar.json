@@ -5,7 +5,7 @@
     "etimologia": "Del latín pacificāre.",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"apaciguar","gerundio":"apaciguando","participio":"apaciguado"},
+  "formas_no_personales": {"infinitivo":"apaciguar","gerundio":["apaciguando"], "participio":["apaciguado"]},
   "formas_personales": {
     "IndPres": {"s1":["apaciguo"],"s2":["apaciguas"],"vos":["apaciguás"],"s3":["apacigua"],"p1":["apaciguamos"],"p2":["apaciguáis"],"p3":["apaciguan"]},
     "IndImp": {"s1":["apaciguaba"],"s2":["apaciguabas"],"vos":["apaciguabas"],"s3":["apaciguaba"],"p1":["apaciguábamos"],"p2":["apaciguabais"],"p3":["apaciguaban"]},

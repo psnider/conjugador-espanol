@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y cansar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"descansar","gerundio":"descansando","participio":"descansado"},
+  "formas_no_personales": {"infinitivo":"descansar","gerundio":["descansando"], "participio":["descansado"]},
   "formas_personales": {
     "IndPres": {"s1":["descanso"],"s2":["descansas"],"vos":["descansás"],"s3":["descansa"],"p1":["descansamos"],"p2":["descansáis"],"p3":["descansan"]},
     "IndImp": {"s1":["descansaba"],"s2":["descansabas"],"vos":["descansabas"],"s3":["descansaba"],"p1":["descansábamos"],"p2":["descansabais"],"p3":["descansaban"]},

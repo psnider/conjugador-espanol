@@ -6,7 +6,7 @@
     "etimologia": "Del francés graver.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"grabar","gerundio":"grabando","participio":"grabado"},
+  "formas_no_personales": {"infinitivo":"grabar","gerundio":["grabando"], "participio":["grabado"]},
   "formas_personales": {
     "IndPres": {"s1":["grabo"],"s2":["grabas"],"vos":["grabás"],"s3":["graba"],"p1":["grabamos"],"p2":["grabáis"],"p3":["graban"]},
     "IndImp": {"s1":["grababa"],"s2":["grababas"],"vos":["grababas"],"s3":["grababa"],"p1":["grabábamos"],"p2":["grababais"],"p3":["grababan"]},

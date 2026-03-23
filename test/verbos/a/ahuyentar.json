@@ -6,7 +6,7 @@
     "etimologia": "Del latín effugientāre, de fugiens, -entis (\"que huye\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ahuyentar","gerundio":"ahuyentando","participio":"ahuyentado"},
+  "formas_no_personales": {"infinitivo":"ahuyentar","gerundio":["ahuyentando"], "participio":["ahuyentado"]},
   "formas_personales": {
     "IndPres": {"s1":["ahuyento"],"s2":["ahuyentas"],"vos":["ahuyentás"],"s3":["ahuyenta"],"p1":["ahuyentamos"],"p2":["ahuyentáis"],"p3":["ahuyentan"]},
     "IndImp": {"s1":["ahuyentaba"],"s2":["ahuyentabas"],"vos":["ahuyentabas"],"s3":["ahuyentaba"],"p1":["ahuyentábamos"],"p2":["ahuyentabais"],"p3":["ahuyentaban"]},

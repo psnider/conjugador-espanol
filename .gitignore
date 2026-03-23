@@ -1,6 +1,6 @@
 .DS_Store
 .env
-generated
+generated/test
 node_modules
 tmp
 *.log

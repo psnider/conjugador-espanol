@@ -6,7 +6,7 @@
     "etimologia": "Del latín dēmōlīrī.",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"demoler","gerundio":"demoliendo","participio":"demolido"},
+  "formas_no_personales": {"infinitivo":"demoler","gerundio":["demoliendo"], "participio":["demolido"]},
   "formas_personales": {
     "IndPres": {"s1":["demuelo"],"s2":["demueles"],"vos":["demolés"],"s3":["demuele"],"p1":["demolemos"],"p2":["demoléis"],"p3":["demuelen"]},
     "IndImp": {"s1":["demolía"],"s2":["demolías"],"vos":["demolías"],"s3":["demolía"],"p1":["demolíamos"],"p2":["demolíais"],"p3":["demolían"]},

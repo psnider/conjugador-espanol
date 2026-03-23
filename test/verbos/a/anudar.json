@@ -5,7 +5,7 @@
     "etimologia": "de añudar, influido por nudo.[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"anudar","gerundio":"anudando","participio":"anudado"},
+  "formas_no_personales": {"infinitivo":"anudar","gerundio":["anudando"], "participio":["anudado"]},
   "formas_personales": {
     "IndPres": {"s1":["anudo"],"s2":["anudas"],"vos":["anudás"],"s3":["anuda"],"p1":["anudamos"],"p2":["anudáis"],"p3":["anudan"]},
     "IndImp": {"s1":["anudaba"],"s2":["anudabas"],"vos":["anudabas"],"s3":["anudaba"],"p1":["anudábamos"],"p2":["anudabais"],"p3":["anudaban"]},

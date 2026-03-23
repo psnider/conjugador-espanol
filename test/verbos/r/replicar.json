@@ -6,7 +6,7 @@
     "etimologia": "Del latín reduplicāre,[1] compuesto de re&nbsp;('re-') y el verbo plicāre (\"plegar\", doblar\").",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"replicar","gerundio":"replicando","participio":"replicado"},
+  "formas_no_personales": {"infinitivo":"replicar","gerundio":["replicando"], "participio":["replicado"]},
   "formas_personales": {
     "IndPres": {"s1":["replico"],"s2":["replicas"],"vos":["replicás"],"s3":["replica"],"p1":["replicamos"],"p2":["replicáis"],"p3":["replican"]},
     "IndImp": {"s1":["replicaba"],"s2":["replicabas"],"vos":["replicabas"],"s3":["replicaba"],"p1":["replicábamos"],"p2":["replicabais"],"p3":["replicaban"]},

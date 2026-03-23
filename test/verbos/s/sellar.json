@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sellar","gerundio":"sellando","participio":"sellado"},
+  "formas_no_personales": {"infinitivo":"sellar","gerundio":["sellando"], "participio":["sellado"]},
   "formas_personales": {
     "IndPres": {"s1":["sello"],"s2":["sellas"],"vos":["sellás"],"s3":["sella"],"p1":["sellamos"],"p2":["selláis"],"p3":["sellan"]},
     "IndImp": {"s1":["sellaba"],"s2":["sellabas"],"vos":["sellabas"],"s3":["sellaba"],"p1":["sellábamos"],"p2":["sellabais"],"p3":["sellaban"]},

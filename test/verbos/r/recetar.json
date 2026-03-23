@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"recetar","gerundio":"recetando","participio":"recetado"},
+  "formas_no_personales": {"infinitivo":"recetar","gerundio":["recetando"], "participio":["recetado"]},
   "formas_personales": {
     "IndPres": {"s1":["receto"],"s2":["recetas"],"vos":["recetás"],"s3":["receta"],"p1":["recetamos"],"p2":["recetáis"],"p3":["recetan"]},
     "IndImp": {"s1":["recetaba"],"s2":["recetabas"],"vos":["recetabas"],"s3":["recetaba"],"p1":["recetábamos"],"p2":["recetabais"],"p3":["recetaban"]},

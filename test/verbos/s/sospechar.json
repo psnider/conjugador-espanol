@@ -6,7 +6,7 @@
     "etimologia": "Del latín suspectāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sospechar","gerundio":"sospechando","participio":"sospechado"},
+  "formas_no_personales": {"infinitivo":"sospechar","gerundio":["sospechando"], "participio":["sospechado"]},
   "formas_personales": {
     "IndPres": {"s1":["sospecho"],"s2":["sospechas"],"vos":["sospechás"],"s3":["sospecha"],"p1":["sospechamos"],"p2":["sospecháis"],"p3":["sospechan"]},
     "IndImp": {"s1":["sospechaba"],"s2":["sospechabas"],"vos":["sospechabas"],"s3":["sospechaba"],"p1":["sospechábamos"],"p2":["sospechabais"],"p3":["sospechaban"]},

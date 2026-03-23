@@ -6,7 +6,7 @@
     "etimologia": "Del latín inclināre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inclinar","gerundio":"inclinando","participio":"inclinado"},
+  "formas_no_personales": {"infinitivo":"inclinar","gerundio":["inclinando"], "participio":["inclinado"]},
   "formas_personales": {
     "IndPres": {"s1":["inclino"],"s2":["inclinas"],"vos":["inclinás"],"s3":["inclina"],"p1":["inclinamos"],"p2":["inclináis"],"p3":["inclinan"]},
     "IndImp": {"s1":["inclinaba"],"s2":["inclinabas"],"vos":["inclinabas"],"s3":["inclinaba"],"p1":["inclinábamos"],"p2":["inclinabais"],"p3":["inclinaban"]},

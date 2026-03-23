@@ -6,7 +6,7 @@
     "etimologia": "Del francés antiguo deboissier ('esculpir'), y este de de-, bois&nbsp;('madera') &amp; -ier. Compárense el aragonés debuxar, el asturiano dibuxar, el gallego debuxar y el portugués debuxar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dibujar","gerundio":"dibujando","participio":"dibujado"},
+  "formas_no_personales": {"infinitivo":"dibujar","gerundio":["dibujando"], "participio":["dibujado"]},
   "formas_personales": {
     "IndPres": {"s1":["dibujo"],"s2":["dibujas"],"vos":["dibujás"],"s3":["dibuja"],"p1":["dibujamos"],"p2":["dibujáis"],"p3":["dibujan"]},
     "IndImp": {"s1":["dibujaba"],"s2":["dibujabas"],"vos":["dibujabas"],"s3":["dibujaba"],"p1":["dibujábamos"],"p2":["dibujabais"],"p3":["dibujaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín reclāmō, reclāmāre, compuesto del latín clamo (\"gritar, clamar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"reclamar","gerundio":"reclamando","participio":"reclamado"},
+  "formas_no_personales": {"infinitivo":"reclamar","gerundio":["reclamando"], "participio":["reclamado"]},
   "formas_personales": {
     "IndPres": {"s1":["reclamo"],"s2":["reclamas"],"vos":["reclamás"],"s3":["reclama"],"p1":["reclamamos"],"p2":["reclamáis"],"p3":["reclaman"]},
     "IndImp": {"s1":["reclamaba"],"s2":["reclamabas"],"vos":["reclamabas"],"s3":["reclamaba"],"p1":["reclamábamos"],"p2":["reclamabais"],"p3":["reclamaban"]},

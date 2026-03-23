@@ -6,7 +6,7 @@
     "etimologia": "Del latín expandō, expandere.[1]",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"expandir","gerundio":"expandiendo","participio":"expandido"},
+  "formas_no_personales": {"infinitivo":"expandir","gerundio":["expandiendo"], "participio":["expandido"]},
   "formas_personales": {
     "IndPres": {"s1":["expando"],"s2":["expandes"],"vos":["expandís"],"s3":["expande"],"p1":["expandimos"],"p2":["expandís"],"p3":["expanden"]},
     "IndImp": {"s1":["expandía"],"s2":["expandías"],"vos":["expandías"],"s3":["expandía"],"p1":["expandíamos"],"p2":["expandíais"],"p3":["expandían"]},

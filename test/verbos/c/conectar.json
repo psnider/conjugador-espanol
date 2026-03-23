@@ -6,7 +6,7 @@
     "etimologia": "Del inglés connect",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"conectar","gerundio":"conectando","participio":"conectado"},
+  "formas_no_personales": {"infinitivo":"conectar","gerundio":["conectando"], "participio":["conectado"]},
   "formas_personales": {
     "IndPres": {"s1":["conecto"],"s2":["conectas"],"vos":["conectás"],"s3":["conecta"],"p1":["conectamos"],"p2":["conectáis"],"p3":["conectan"]},
     "IndImp": {"s1":["conectaba"],"s2":["conectabas"],"vos":["conectabas"],"s3":["conectaba"],"p1":["conectábamos"],"p2":["conectabais"],"p3":["conectaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De mente y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"mentar","gerundio":"mentando","participio":"mentado"},
+  "formas_no_personales": {"infinitivo":"mentar","gerundio":["mentando"], "participio":["mentado"]},
   "formas_personales": {
     "IndPres": {"s1":["miento"],"s2":["mientas"],"vos":["mentás"],"s3":["mienta"],"p1":["mentamos"],"p2":["mentáis"],"p3":["mientan"]},
     "IndImp": {"s1":["mentaba"],"s2":["mentabas"],"vos":["mentabas"],"s3":["mentaba"],"p1":["mentábamos"],"p2":["mentabais"],"p3":["mentaban"]},

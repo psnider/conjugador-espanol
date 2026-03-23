@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y aparecer.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"desaparecer","gerundio":"desapareciendo","participio":"desaparecido"},
+  "formas_no_personales": {"infinitivo":"desaparecer","gerundio":["desapareciendo"], "participio":["desaparecido"]},
   "formas_personales": {
     "IndPres": {"s1":["desaparezco"],"s2":["desapareces"],"vos":["desaparecés"],"s3":["desaparece"],"p1":["desaparecemos"],"p2":["desaparecéis"],"p3":["desaparecen"]},
     "IndImp": {"s1":["desaparecía"],"s2":["desaparecías"],"vos":["desaparecías"],"s3":["desaparecía"],"p1":["desaparecíamos"],"p2":["desaparecíais"],"p3":["desaparecían"]},

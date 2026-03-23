@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, vergüenza (del latín verecundia) y el sufijo -ar.",
     "modelos": ["realizar","agorar"]
   },
-  "formas_no_personales": {"infinitivo":"avergonzar","gerundio":"avergonzando","participio":"avergonzado"},
+  "formas_no_personales": {"infinitivo":"avergonzar","gerundio":["avergonzando"], "participio":["avergonzado"]},
   "formas_personales": {
     "IndPres": {"s1":["avergüenzo"],"s2":["avergüenzas"],"vos":["avergonzás"],"s3":["avergüenza"],"p1":["avergonzamos"],"p2":["avergonzáis"],"p3":["avergüenzan"]},
     "IndImp": {"s1":["avergonzaba"],"s2":["avergonzabas"],"vos":["avergonzabas"],"s3":["avergonzaba"],"p1":["avergonzábamos"],"p2":["avergonzabais"],"p3":["avergonzaban"]},

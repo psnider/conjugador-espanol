@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pordiosear","gerundio":"pordioseando","participio":"pordioseado"},
+  "formas_no_personales": {"infinitivo":"pordiosear","gerundio":["pordioseando"], "participio":["pordioseado"]},
   "formas_personales": {
     "IndPres": {"s1":["pordioseo"],"s2":["pordioseas"],"vos":["pordioseás"],"s3":["pordiosea"],"p1":["pordioseamos"],"p2":["pordioseáis"],"p3":["pordiosean"]},
     "IndImp": {"s1":["pordioseaba"],"s2":["pordioseabas"],"vos":["pordioseabas"],"s3":["pordioseaba"],"p1":["pordioseábamos"],"p2":["pordioseabais"],"p3":["pordioseaban"]},

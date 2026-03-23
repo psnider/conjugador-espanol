@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *accolligere, y este de ad y colligere, \"recoger\", y este de con- y legere, \"juntar, tomar\", del protoindoeuropeo *leg-",
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"acoger","gerundio":"acogiendo","participio":"acogido"},
+  "formas_no_personales": {"infinitivo":"acoger","gerundio":["acogiendo"], "participio":["acogido"]},
   "formas_personales": {
     "IndPres": {"s1":["acojo"],"s2":["acoges"],"vos":["acogés"],"s3":["acoge"],"p1":["acogemos"],"p2":["acogéis"],"p3":["acogen"]},
     "IndImp": {"s1":["acogía"],"s2":["acogías"],"vos":["acogías"],"s3":["acogía"],"p1":["acogíamos"],"p2":["acogíais"],"p3":["acogían"]},

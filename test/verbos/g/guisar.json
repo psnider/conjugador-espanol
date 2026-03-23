@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"guisar","gerundio":"guisando","participio":"guisado"},
+  "formas_no_personales": {"infinitivo":"guisar","gerundio":["guisando"], "participio":["guisado"]},
   "formas_personales": {
     "IndPres": {"s1":["guiso"],"s2":["guisas"],"vos":["guisás"],"s3":["guisa"],"p1":["guisamos"],"p2":["guisáis"],"p3":["guisan"]},
     "IndImp": {"s1":["guisaba"],"s2":["guisabas"],"vos":["guisabas"],"s3":["guisaba"],"p1":["guisábamos"],"p2":["guisabais"],"p3":["guisaban"]},

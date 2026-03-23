@@ -6,7 +6,7 @@
     "etimologia": "Del latín agitare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agitar","gerundio":"agitando","participio":"agitado"},
+  "formas_no_personales": {"infinitivo":"agitar","gerundio":["agitando"], "participio":["agitado"]},
   "formas_personales": {
     "IndPres": {"s1":["agito"],"s2":["agitas"],"vos":["agitás"],"s3":["agita"],"p1":["agitamos"],"p2":["agitáis"],"p3":["agitan"]},
     "IndImp": {"s1":["agitaba"],"s2":["agitabas"],"vos":["agitabas"],"s3":["agitaba"],"p1":["agitábamos"],"p2":["agitabais"],"p3":["agitaban"]},

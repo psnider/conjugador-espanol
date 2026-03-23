@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bañar","gerundio":"bañando","participio":"bañado"},
+  "formas_no_personales": {"infinitivo":"bañar","gerundio":["bañando"], "participio":["bañado"]},
   "formas_personales": {
     "IndPres": {"s1":["baño"],"s2":["bañas"],"vos":["bañás"],"s3":["baña"],"p1":["bañamos"],"p2":["bañáis"],"p3":["bañan"]},
     "IndImp": {"s1":["bañaba"],"s2":["bañabas"],"vos":["bañabas"],"s3":["bañaba"],"p1":["bañábamos"],"p2":["bañabais"],"p3":["bañaban"]},

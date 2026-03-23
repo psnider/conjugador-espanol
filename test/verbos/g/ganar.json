@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo ganar, del latín medieval ganāre, y este del gótico *𐌲𐌰𐌽𐌰𐌽 (*ganan, 'codiciar'), con influencia de *wadaniāre&nbsp;('guadañar'), verbo que provendría del verbo germánico *waiþanjaną.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ganar","gerundio":"ganando","participio":"ganado"},
+  "formas_no_personales": {"infinitivo":"ganar","gerundio":["ganando"], "participio":["ganado"]},
   "formas_personales": {
     "IndPres": {"s1":["gano"],"s2":["ganas"],"vos":["ganás"],"s3":["gana"],"p1":["ganamos"],"p2":["ganáis"],"p3":["ganan"]},
     "IndImp": {"s1":["ganaba"],"s2":["ganabas"],"vos":["ganabas"],"s3":["ganaba"],"p1":["ganábamos"],"p2":["ganabais"],"p3":["ganaban"]},

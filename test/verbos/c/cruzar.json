@@ -6,7 +6,7 @@
     "etimologia": "De cruz y el sufijo -ar. Denominal de cruz.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"cruzar","gerundio":"cruzando","participio":"cruzado"},
+  "formas_no_personales": {"infinitivo":"cruzar","gerundio":["cruzando"], "participio":["cruzado"]},
   "formas_personales": {
     "IndPres": {"s1":["cruzo"],"s2":["cruzas"],"vos":["cruzás"],"s3":["cruza"],"p1":["cruzamos"],"p2":["cruzáis"],"p3":["cruzan"]},
     "IndImp": {"s1":["cruzaba"],"s2":["cruzabas"],"vos":["cruzabas"],"s3":["cruzaba"],"p1":["cruzábamos"],"p2":["cruzabais"],"p3":["cruzaban"]},

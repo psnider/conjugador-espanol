@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eβ̞aˈð̞iɾ]",
+    "silabacion": "e-va-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín evadĕre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"evadir","gerundio":["evadiendo"], "participio":["evadido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["evado"],"s2":["evades"],"vos":["evadís"],"s3":["evade"],"p1":["evadimos"],"p2":["evadís"],"p3":["evaden"]},
+    "IndImp": {"s1":["evadía"],"s2":["evadías"],"vos":["evadías"],"s3":["evadía"],"p1":["evadíamos"],"p2":["evadíais"],"p3":["evadían"]},
+    "IndPret": {"s1":["evadí"],"s2":["evadiste"],"vos":["evadiste"],"s3":["evadió"],"p1":["evadimos"],"p2":["evadisteis"],"p3":["evadieron"]},
+    "IndFut": {"s1":["evadiré"],"s2":["evadirás"],"vos":["evadirás"],"s3":["evadirá"],"p1":["evadiremos"],"p2":["evadiréis"],"p3":["evadirán"]},
+    "IndCond": {"s1":["evadiría"],"s2":["evadirías"],"vos":["evadirías"],"s3":["evadiría"],"p1":["evadiríamos"],"p2":["evadiríais"],"p3":["evadirían"]},
+    "SubPres": {"s1":["evada"],"s2":["evadas"],"vos":["evadas","evadás"],"s3":["evada"],"p1":["evadamos"],"p2":["evadáis"],"p3":["evadan"]},
+    "SubImp": {"s1":["evadiera","evadiese"],"s2":["evadieras","evadieses"],"vos":["evadieras","evadieses"],"s3":["evadiera","evadiese"],"p1":["evadiéramos","evadiésemos"],"p2":["evadierais","evadieseis"],"p3":["evadieran","evadiesen"]},
+    "SubFut": {"s1":["evadiere"],"s2":["evadieres"],"vos":["evadieres"],"s3":["evadiere"],"p1":["evadiéremos"],"p2":["evadiereis"],"p3":["evadieren"]},
+    "CmdPos": {"s2":["evade"],"vos":["evadí"],"s3":["evada"],"p1":["evadamos"],"p2":["evadid"],"p3":["evadan"]}
+  }
+}

@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo bevir, bivir, y este del latín vivere, a su vez del protoindoeuropeo *gʷeyh₃w-.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"vivir","gerundio":"viviendo","participio":"vivido"},
+  "formas_no_personales": {"infinitivo":"vivir","gerundio":["viviendo"], "participio":["vivido"]},
   "formas_personales": {
     "IndPres": {"s1":["vivo"],"s2":["vives"],"vos":["vivís"],"s3":["vive"],"p1":["vivimos"],"p2":["vivís"],"p3":["viven"]},
     "IndImp": {"s1":["vivía"],"s2":["vivías"],"vos":["vivías"],"s3":["vivía"],"p1":["vivíamos"],"p2":["vivíais"],"p3":["vivían"]},

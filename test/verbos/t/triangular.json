@@ -6,7 +6,7 @@
     "etimologia": "De triángulo y el sufijo -ar2.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"triangular","gerundio":"triangulando","participio":"triangulado"},
+  "formas_no_personales": {"infinitivo":"triangular","gerundio":["triangulando"], "participio":["triangulado"]},
   "formas_personales": {
     "IndPres": {"s1":["triangulo"],"s2":["triangulas"],"vos":["triangulás"],"s3":["triangula"],"p1":["triangulamos"],"p2":["trianguláis"],"p3":["triangulan"]},
     "IndImp": {"s1":["triangulaba"],"s2":["triangulabas"],"vos":["triangulabas"],"s3":["triangulaba"],"p1":["triangulábamos"],"p2":["triangulabais"],"p3":["triangulaban"]},

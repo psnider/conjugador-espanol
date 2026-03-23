@@ -6,7 +6,7 @@
     "etimologia": "De chat y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"chatear","gerundio":"chateando","participio":"chateado"},
+  "formas_no_personales": {"infinitivo":"chatear","gerundio":["chateando"], "participio":["chateado"]},
   "formas_personales": {
     "IndPres": {"s1":["chateo"],"s2":["chateas"],"vos":["chateás"],"s3":["chatea"],"p1":["chateamos"],"p2":["chateáis"],"p3":["chatean"]},
     "IndImp": {"s1":["chateaba"],"s2":["chateabas"],"vos":["chateabas"],"s3":["chateaba"],"p1":["chateábamos"],"p2":["chateabais"],"p3":["chateaban"]},

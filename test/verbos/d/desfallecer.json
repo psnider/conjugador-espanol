@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y fallecer",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"desfallecer","gerundio":"desfalleciendo","participio":"desfallecido"},
+  "formas_no_personales": {"infinitivo":"desfallecer","gerundio":["desfalleciendo"], "participio":["desfallecido"]},
   "formas_personales": {
     "IndPres": {"s1":["desfallezco"],"s2":["desfalleces"],"vos":["desfallecés"],"s3":["desfallece"],"p1":["desfallecemos"],"p2":["desfallecéis"],"p3":["desfallecen"]},
     "IndImp": {"s1":["desfallecía"],"s2":["desfallecías"],"vos":["desfallecías"],"s3":["desfallecía"],"p1":["desfallecíamos"],"p2":["desfallecíais"],"p3":["desfallecían"]},

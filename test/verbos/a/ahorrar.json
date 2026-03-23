@@ -6,7 +6,7 @@
     "etimologia": "Del árabe hurr ('libre').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ahorrar","gerundio":"ahorrando","participio":"ahorrado"},
+  "formas_no_personales": {"infinitivo":"ahorrar","gerundio":["ahorrando"], "participio":["ahorrado"]},
   "formas_personales": {
     "IndPres": {"s1":["ahorro"],"s2":["ahorras"],"vos":["ahorrás"],"s3":["ahorra"],"p1":["ahorramos"],"p2":["ahorráis"],"p3":["ahorran"]},
     "IndImp": {"s1":["ahorraba"],"s2":["ahorrabas"],"vos":["ahorrabas"],"s3":["ahorraba"],"p1":["ahorrábamos"],"p2":["ahorrabais"],"p3":["ahorraban"]},

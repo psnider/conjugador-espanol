@@ -6,7 +6,7 @@
     "etimologia": "Del latín participāre.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"participar","gerundio":"participando","participio":"participado"},
+  "formas_no_personales": {"infinitivo":"participar","gerundio":["participando"], "participio":["participado"]},
   "formas_personales": {
     "IndPres": {"s1":["participo"],"s2":["participas"],"vos":["participás"],"s3":["participa"],"p1":["participamos"],"p2":["participáis"],"p3":["participan"]},
     "IndImp": {"s1":["participaba"],"s2":["participabas"],"vos":["participabas"],"s3":["participaba"],"p1":["participábamos"],"p2":["participabais"],"p3":["participaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín medieval concentrāre, y este del latín con- y centrum y -āre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"concentrar","gerundio":"concentrando","participio":"concentrado"},
+  "formas_no_personales": {"infinitivo":"concentrar","gerundio":["concentrando"], "participio":["concentrado"]},
   "formas_personales": {
     "IndPres": {"s1":["concentro"],"s2":["concentras"],"vos":["concentrás"],"s3":["concentra"],"p1":["concentramos"],"p2":["concentráis"],"p3":["concentran"]},
     "IndImp": {"s1":["concentraba"],"s2":["concentrabas"],"vos":["concentrabas"],"s3":["concentraba"],"p1":["concentrábamos"],"p2":["concentrabais"],"p3":["concentraban"]},

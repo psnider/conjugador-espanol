@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"sobrevenir","gerundio":"sobreviniendo","participio":"sobrevenido"},
+  "formas_no_personales": {"infinitivo":"sobrevenir","gerundio":["sobreviniendo"], "participio":["sobrevenido"]},
   "formas_personales": {
     "IndPres": {"s1":["sobrevengo"],"s2":["sobrevienes"],"vos":["sobrevenís"],"s3":["sobreviene"],"p1":["sobrevenimos"],"p2":["sobrevenís"],"p3":["sobrevienen"]},
     "IndImp": {"s1":["sobrevenía"],"s2":["sobrevenías"],"vos":["sobrevenías"],"s3":["sobrevenía"],"p1":["sobreveníamos"],"p2":["sobreveníais"],"p3":["sobrevenían"]},

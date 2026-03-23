@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ocasionar","gerundio":"ocasionando","participio":"ocasionado"},
+  "formas_no_personales": {"infinitivo":"ocasionar","gerundio":["ocasionando"], "participio":["ocasionado"]},
   "formas_personales": {
     "IndPres": {"s1":["ocasiono"],"s2":["ocasionas"],"vos":["ocasionás"],"s3":["ocasiona"],"p1":["ocasionamos"],"p2":["ocasionáis"],"p3":["ocasionan"]},
     "IndImp": {"s1":["ocasionaba"],"s2":["ocasionabas"],"vos":["ocasionabas"],"s3":["ocasionaba"],"p1":["ocasionábamos"],"p2":["ocasionabais"],"p3":["ocasionaban"]},

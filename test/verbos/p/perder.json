@@ -6,7 +6,7 @@
     "etimologia": "Del latín perdere.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"perder","gerundio":"perdiendo","participio":"perdido"},
+  "formas_no_personales": {"infinitivo":"perder","gerundio":["perdiendo"], "participio":["perdido"]},
   "formas_personales": {
     "IndPres": {"s1":["pierdo"],"s2":["pierdes"],"vos":["perdés"],"s3":["pierde"],"p1":["perdemos"],"p2":["perdéis"],"p3":["pierden"]},
     "IndImp": {"s1":["perdía"],"s2":["perdías"],"vos":["perdías"],"s3":["perdía"],"p1":["perdíamos"],"p2":["perdíais"],"p3":["perdían"]},

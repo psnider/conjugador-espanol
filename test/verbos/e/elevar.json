@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo elevar ('elevar'), y este del latín ēlevāre&nbsp;('elevar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"elevar","gerundio":"elevando","participio":"elevado"},
+  "formas_no_personales": {"infinitivo":"elevar","gerundio":["elevando"], "participio":["elevado"]},
   "formas_personales": {
     "IndPres": {"s1":["elevo"],"s2":["elevas"],"vos":["elevás"],"s3":["eleva"],"p1":["elevamos"],"p2":["eleváis"],"p3":["elevan"]},
     "IndImp": {"s1":["elevaba"],"s2":["elevabas"],"vos":["elevabas"],"s3":["elevaba"],"p1":["elevábamos"],"p2":["elevabais"],"p3":["elevaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo trans- y formar, a través del latín trānsfōrmō, trānsfōrmāre (trāns +‎ fōrmō, \"cambiar de forma\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"transformar","gerundio":"transformando","participio":"transformado"},
+  "formas_no_personales": {"infinitivo":"transformar","gerundio":["transformando"], "participio":["transformado"]},
   "formas_personales": {
     "IndPres": {"s1":["transformo"],"s2":["transformas"],"vos":["transformás"],"s3":["transforma"],"p1":["transformamos"],"p2":["transformáis"],"p3":["transforman"]},
     "IndImp": {"s1":["transformaba"],"s2":["transformabas"],"vos":["transformabas"],"s3":["transformaba"],"p1":["transformábamos"],"p2":["transformabais"],"p3":["transformaban"]},

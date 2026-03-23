@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"esquiar","gerundio":"esquiando","participio":"esquiado"},
+  "formas_no_personales": {"infinitivo":"esquiar","gerundio":["esquiando"], "participio":["esquiado"]},
   "formas_personales": {
     "IndPres": {"s1":["esquío"],"s2":["esquías"],"vos":["esquiás"],"s3":["esquía"],"p1":["esquiamos"],"p2":["esquiáis"],"p3":["esquían"]},
     "IndImp": {"s1":["esquiaba"],"s2":["esquiabas"],"vos":["esquiabas"],"s3":["esquiaba"],"p1":["esquiábamos"],"p2":["esquiabais"],"p3":["esquiaban"]},

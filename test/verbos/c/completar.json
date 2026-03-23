@@ -6,7 +6,7 @@
     "etimologia": "De completo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"completar","gerundio":"completando","participio":"completado"},
+  "formas_no_personales": {"infinitivo":"completar","gerundio":["completando"], "participio":["completado"]},
   "formas_personales": {
     "IndPres": {"s1":["completo"],"s2":["completas"],"vos":["completás"],"s3":["completa"],"p1":["completamos"],"p2":["completáis"],"p3":["completan"]},
     "IndImp": {"s1":["completaba"],"s2":["completabas"],"vos":["completabas"],"s3":["completaba"],"p1":["completábamos"],"p2":["completabais"],"p3":["completaban"]},

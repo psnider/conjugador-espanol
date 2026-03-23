@@ -6,7 +6,7 @@
     "etimologia": "Del latín attendĕre",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"atender","gerundio":"atendiendo","participio":"atendido"},
+  "formas_no_personales": {"infinitivo":"atender","gerundio":["atendiendo"], "participio":["atendido"]},
   "formas_personales": {
     "IndPres": {"s1":["atiendo"],"s2":["atiendes"],"vos":["atendés"],"s3":["atiende"],"p1":["atendemos"],"p2":["atendéis"],"p3":["atienden"]},
     "IndImp": {"s1":["atendía"],"s2":["atendías"],"vos":["atendías"],"s3":["atendía"],"p1":["atendíamos"],"p2":["atendíais"],"p3":["atendían"]},

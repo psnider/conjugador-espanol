@@ -6,7 +6,7 @@
     "etimologia": "Del latín evitare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"evitar","gerundio":"evitando","participio":"evitado"},
+  "formas_no_personales": {"infinitivo":"evitar","gerundio":["evitando"], "participio":["evitado"]},
   "formas_personales": {
     "IndPres": {"s1":["evito"],"s2":["evitas"],"vos":["evitás"],"s3":["evita"],"p1":["evitamos"],"p2":["evitáis"],"p3":["evitan"]},
     "IndImp": {"s1":["evitaba"],"s2":["evitabas"],"vos":["evitabas"],"s3":["evitaba"],"p1":["evitábamos"],"p2":["evitabais"],"p3":["evitaban"]},

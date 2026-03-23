@@ -6,7 +6,7 @@
     "etimologia": "Del latín impedire.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"impedir","gerundio":"impidiendo","participio":"impedido"},
+  "formas_no_personales": {"infinitivo":"impedir","gerundio":["impidiendo"], "participio":["impedido"]},
   "formas_personales": {
     "IndPres": {"s1":["impido"],"s2":["impides"],"vos":["impedís"],"s3":["impide"],"p1":["impedimos"],"p2":["impedís"],"p3":["impiden"]},
     "IndImp": {"s1":["impedía"],"s2":["impedías"],"vos":["impedías"],"s3":["impedía"],"p1":["impedíamos"],"p2":["impedíais"],"p3":["impedían"]},

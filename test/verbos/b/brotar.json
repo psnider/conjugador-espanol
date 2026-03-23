@@ -6,7 +6,7 @@
     "etimologia": "De brote",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"brotar","gerundio":"brotando","participio":"brotado"},
+  "formas_no_personales": {"infinitivo":"brotar","gerundio":["brotando"], "participio":["brotado"]},
   "formas_personales": {
     "IndPres": {"s1":["broto"],"s2":["brotas"],"vos":["brotás"],"s3":["brota"],"p1":["brotamos"],"p2":["brotáis"],"p3":["brotan"]},
     "IndImp": {"s1":["brotaba"],"s2":["brotabas"],"vos":["brotabas"],"s3":["brotaba"],"p1":["brotábamos"],"p2":["brotabais"],"p3":["brotaban"]},

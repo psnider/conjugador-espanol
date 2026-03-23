@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, carro y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acarrear","gerundio":"acarreando","participio":"acarreado"},
+  "formas_no_personales": {"infinitivo":"acarrear","gerundio":["acarreando"], "participio":["acarreado"]},
   "formas_personales": {
     "IndPres": {"s1":["acarreo"],"s2":["acarreas"],"vos":["acarreás"],"s3":["acarrea"],"p1":["acarreamos"],"p2":["acarreáis"],"p3":["acarrean"]},
     "IndImp": {"s1":["acarreaba"],"s2":["acarreabas"],"vos":["acarreabas"],"s3":["acarreaba"],"p1":["acarreábamos"],"p2":["acarreabais"],"p3":["acarreaban"]},

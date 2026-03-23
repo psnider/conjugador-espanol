@@ -6,7 +6,7 @@
     "etimologia": "Del latín murmurō, murmurāre,[1] derivado de murmur, murmuris&nbsp;('murmullo').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"murmurar","gerundio":"murmurando","participio":"murmurado"},
+  "formas_no_personales": {"infinitivo":"murmurar","gerundio":["murmurando"], "participio":["murmurado"]},
   "formas_personales": {
     "IndPres": {"s1":["murmuro"],"s2":["murmuras"],"vos":["murmurás"],"s3":["murmura"],"p1":["murmuramos"],"p2":["murmuráis"],"p3":["murmuran"]},
     "IndImp": {"s1":["murmuraba"],"s2":["murmurabas"],"vos":["murmurabas"],"s3":["murmuraba"],"p1":["murmurábamos"],"p2":["murmurabais"],"p3":["murmuraban"]},

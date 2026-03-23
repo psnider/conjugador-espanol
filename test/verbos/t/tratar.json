@@ -6,7 +6,7 @@
     "etimologia": "Semicultismo. Del latín tractāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tratar","gerundio":"tratando","participio":"tratado"},
+  "formas_no_personales": {"infinitivo":"tratar","gerundio":["tratando"], "participio":["tratado"]},
   "formas_personales": {
     "IndPres": {"s1":["trato"],"s2":["tratas"],"vos":["tratás"],"s3":["trata"],"p1":["tratamos"],"p2":["tratáis"],"p3":["tratan"]},
     "IndImp": {"s1":["trataba"],"s2":["tratabas"],"vos":["tratabas"],"s3":["trataba"],"p1":["tratábamos"],"p2":["tratabais"],"p3":["trataban"]},

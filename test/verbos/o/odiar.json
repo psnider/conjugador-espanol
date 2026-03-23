@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"odiar","gerundio":"odiando","participio":"odiado"},
+  "formas_no_personales": {"infinitivo":"odiar","gerundio":["odiando"], "participio":["odiado"]},
   "formas_personales": {
     "IndPres": {"s1":["odio"],"s2":["odias"],"vos":["odiás"],"s3":["odia"],"p1":["odiamos"],"p2":["odiáis"],"p3":["odian"]},
     "IndImp": {"s1":["odiaba"],"s2":["odiabas"],"vos":["odiabas"],"s3":["odiaba"],"p1":["odiábamos"],"p2":["odiabais"],"p3":["odiaban"]},

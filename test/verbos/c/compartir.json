@@ -6,7 +6,7 @@
     "etimologia": "Del latín compartiri y éste de cum (con) y partire (dividir).",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"compartir","gerundio":"compartiendo","participio":"compartido"},
+  "formas_no_personales": {"infinitivo":"compartir","gerundio":["compartiendo"], "participio":["compartido"]},
   "formas_personales": {
     "IndPres": {"s1":["comparto"],"s2":["compartes"],"vos":["compartís"],"s3":["comparte"],"p1":["compartimos"],"p2":["compartís"],"p3":["comparten"]},
     "IndImp": {"s1":["compartía"],"s2":["compartías"],"vos":["compartías"],"s3":["compartía"],"p1":["compartíamos"],"p2":["compartíais"],"p3":["compartían"]},

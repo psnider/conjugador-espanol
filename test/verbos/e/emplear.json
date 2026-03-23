@@ -6,7 +6,7 @@
     "etimologia": "Del latín implicare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"emplear","gerundio":"empleando","participio":"empleado"},
+  "formas_no_personales": {"infinitivo":"emplear","gerundio":["empleando"], "participio":["empleado"]},
   "formas_personales": {
     "IndPres": {"s1":["empleo"],"s2":["empleas"],"vos":["empleás"],"s3":["emplea"],"p1":["empleamos"],"p2":["empleáis"],"p3":["emplean"]},
     "IndImp": {"s1":["empleaba"],"s2":["empleabas"],"vos":["empleabas"],"s3":["empleaba"],"p1":["empleábamos"],"p2":["empleabais"],"p3":["empleaban"]},

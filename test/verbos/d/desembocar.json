@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"desembocar","gerundio":"desembocando","participio":"desembocado"},
+  "formas_no_personales": {"infinitivo":"desembocar","gerundio":["desembocando"], "participio":["desembocado"]},
   "formas_personales": {
     "IndPres": {"s1":["desemboco"],"s2":["desembocas"],"vos":["desembocás"],"s3":["desemboca"],"p1":["desembocamos"],"p2":["desembocáis"],"p3":["desembocan"]},
     "IndImp": {"s1":["desembocaba"],"s2":["desembocabas"],"vos":["desembocabas"],"s3":["desembocaba"],"p1":["desembocábamos"],"p2":["desembocabais"],"p3":["desembocaban"]},

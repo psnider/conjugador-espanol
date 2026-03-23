@@ -6,7 +6,7 @@
     "etimologia": "Del latín divulgare",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"divulgar","gerundio":"divulgando","participio":"divulgado"},
+  "formas_no_personales": {"infinitivo":"divulgar","gerundio":["divulgando"], "participio":["divulgado"]},
   "formas_personales": {
     "IndPres": {"s1":["divulgo"],"s2":["divulgas"],"vos":["divulgás"],"s3":["divulga"],"p1":["divulgamos"],"p2":["divulgáis"],"p3":["divulgan"]},
     "IndImp": {"s1":["divulgaba"],"s2":["divulgabas"],"vos":["divulgabas"],"s3":["divulgaba"],"p1":["divulgábamos"],"p2":["divulgabais"],"p3":["divulgaban"]},

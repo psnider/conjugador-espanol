@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar montare y este del latín clásico montem.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"montar","gerundio":"montando","participio":"montado"},
+  "formas_no_personales": {"infinitivo":"montar","gerundio":["montando"], "participio":["montado"]},
   "formas_personales": {
     "IndPres": {"s1":["monto"],"s2":["montas"],"vos":["montás"],"s3":["monta"],"p1":["montamos"],"p2":["montáis"],"p3":["montan"]},
     "IndImp": {"s1":["montaba"],"s2":["montabas"],"vos":["montabas"],"s3":["montaba"],"p1":["montábamos"],"p2":["montabais"],"p3":["montaban"]},

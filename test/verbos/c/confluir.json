@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõɱˈflwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"confluir","gerundio":["confluyendo"], "participio":["confluido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["confluyo"],"s2":["confluyes"],"vos":["confluís"],"s3":["confluye"],"p1":["confluimos"],"p2":["confluís"],"p3":["confluyen"]},
+    "IndImp": {"s1":["confluía"],"s2":["confluías"],"vos":["confluías"],"s3":["confluía"],"p1":["confluíamos"],"p2":["confluíais"],"p3":["confluían"]},
+    "IndPret": {"s1":["confluí"],"s2":["confluiste"],"vos":["confluiste"],"s3":["confluyó"],"p1":["confluimos"],"p2":["confluisteis"],"p3":["confluyeron"]},
+    "IndFut": {"s1":["confluiré"],"s2":["confluirás"],"vos":["confluirás"],"s3":["confluirá"],"p1":["confluiremos"],"p2":["confluiréis"],"p3":["confluirán"]},
+    "IndCond": {"s1":["confluiría"],"s2":["confluirías"],"vos":["confluirías"],"s3":["confluiría"],"p1":["confluiríamos"],"p2":["confluiríais"],"p3":["confluirían"]},
+    "SubPres": {"s1":["confluya"],"s2":["confluyas"],"vos":["confluyas","confluyás"],"s3":["confluya"],"p1":["confluyamos"],"p2":["confluyáis"],"p3":["confluyan"]},
+    "SubImp": {"s1":["confluyera","confluyese"],"s2":["confluyeras","confluyeses"],"vos":["confluyeras","confluyeses"],"s3":["confluyera","confluyese"],"p1":["confluyéramos","confluyésemos"],"p2":["confluyerais","confluyeseis"],"p3":["confluyeran","confluyesen"]},
+    "SubFut": {"s1":["confluyere"],"s2":["confluyeres"],"vos":["confluyeres"],"s3":["confluyere"],"p1":["confluyéremos"],"p2":["confluyereis"],"p3":["confluyeren"]},
+    "CmdPos": {"s2":["confluye"],"vos":["confluí"],"s3":["confluya"],"p1":["confluyamos"],"p2":["confluid"],"p3":["confluyan"]}
+  }
+}

@@ -6,7 +6,7 @@
     "etimologia": "Del latín cognōscō, cognōscere, compuesto del latín cum ('con') y gnōscō, gnōscere (\"saber, tener noción\").[1]",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"conocer","gerundio":"conociendo","participio":"conocido"},
+  "formas_no_personales": {"infinitivo":"conocer","gerundio":["conociendo"], "participio":["conocido"]},
   "formas_personales": {
     "IndPres": {"s1":["conozco"],"s2":["conoces"],"vos":["conocés"],"s3":["conoce"],"p1":["conocemos"],"p2":["conocéis"],"p3":["conocen"]},
     "IndImp": {"s1":["conocía"],"s2":["conocías"],"vos":["conocías"],"s3":["conocía"],"p1":["conocíamos"],"p2":["conocíais"],"p3":["conocían"]},

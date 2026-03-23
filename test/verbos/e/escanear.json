@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"escanear","gerundio":"escaneando","participio":"escaneado"},
+  "formas_no_personales": {"infinitivo":"escanear","gerundio":["escaneando"], "participio":["escaneado"]},
   "formas_personales": {
     "IndPres": {"s1":["escaneo"],"s2":["escaneas"],"vos":["escaneás"],"s3":["escanea"],"p1":["escaneamos"],"p2":["escaneáis"],"p3":["escanean"]},
     "IndImp": {"s1":["escaneaba"],"s2":["escaneabas"],"vos":["escaneabas"],"s3":["escaneaba"],"p1":["escaneábamos"],"p2":["escaneabais"],"p3":["escaneaban"]},

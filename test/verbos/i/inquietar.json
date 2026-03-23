@@ -6,7 +6,7 @@
     "etimologia": "Del latín inquietāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inquietar","gerundio":"inquietando","participio":"inquietado"},
+  "formas_no_personales": {"infinitivo":"inquietar","gerundio":["inquietando"], "participio":["inquietado"]},
   "formas_personales": {
     "IndPres": {"s1":["inquieto"],"s2":["inquietas"],"vos":["inquietás"],"s3":["inquieta"],"p1":["inquietamos"],"p2":["inquietáis"],"p3":["inquietan"]},
     "IndImp": {"s1":["inquietaba"],"s2":["inquietabas"],"vos":["inquietabas"],"s3":["inquietaba"],"p1":["inquietábamos"],"p2":["inquietabais"],"p3":["inquietaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín supervivere, compuesto de super y vīvō, vīvere.[1]",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"sobrevivir","gerundio":"sobreviviendo","participio":"sobrevivido"},
+  "formas_no_personales": {"infinitivo":"sobrevivir","gerundio":["sobreviviendo"], "participio":["sobrevivido"]},
   "formas_personales": {
     "IndPres": {"s1":["sobrevivo"],"s2":["sobrevives"],"vos":["sobrevivís"],"s3":["sobrevive"],"p1":["sobrevivimos"],"p2":["sobrevivís"],"p3":["sobreviven"]},
     "IndImp": {"s1":["sobrevivía"],"s2":["sobrevivías"],"vos":["sobrevivías"],"s3":["sobrevivía"],"p1":["sobrevivíamos"],"p2":["sobrevivíais"],"p3":["sobrevivían"]},

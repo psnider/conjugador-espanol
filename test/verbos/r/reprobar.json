@@ -6,7 +6,7 @@
     "etimologia": "Del latín reprobāre.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"reprobar","gerundio":"reprobando","participio":"reprobado"},
+  "formas_no_personales": {"infinitivo":"reprobar","gerundio":["reprobando"], "participio":["reprobado"]},
   "formas_personales": {
     "IndPres": {"s1":["repruebo"],"s2":["repruebas"],"vos":["reprobás"],"s3":["reprueba"],"p1":["reprobamos"],"p2":["reprobáis"],"p3":["reprueban"]},
     "IndImp": {"s1":["reprobaba"],"s2":["reprobabas"],"vos":["reprobabas"],"s3":["reprobaba"],"p1":["reprobábamos"],"p2":["reprobabais"],"p3":["reprobaban"]},

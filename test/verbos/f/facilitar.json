@@ -6,7 +6,7 @@
     "etimologia": "De fácil y el sufijo -itar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"facilitar","gerundio":"facilitando","participio":"facilitado"},
+  "formas_no_personales": {"infinitivo":"facilitar","gerundio":["facilitando"], "participio":["facilitado"]},
   "formas_personales": {
     "IndPres": {"s1":["facilito"],"s2":["facilitas"],"vos":["facilitás"],"s3":["facilita"],"p1":["facilitamos"],"p2":["facilitáis"],"p3":["facilitan"]},
     "IndImp": {"s1":["facilitaba"],"s2":["facilitabas"],"vos":["facilitabas"],"s3":["facilitaba"],"p1":["facilitábamos"],"p2":["facilitabais"],"p3":["facilitaban"]},

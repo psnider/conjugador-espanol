@@ -6,7 +6,7 @@
     "etimologia": "Del latín exsistō, exsistere, compuesto de ex&nbsp;('afuera') y sistō, sistere, stitī/stetī, statum (\"colocar\", \"parar\", causativo de stō, stāre), de la raíz indoeuropea *sti-sth₂-[1] (\"estar parado\"). De allí también el griego clásico ἵστημι&nbsp;(hístēmi) (\"estar parado\").",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"existir","gerundio":"existiendo","participio":"existido"},
+  "formas_no_personales": {"infinitivo":"existir","gerundio":["existiendo"], "participio":["existido"]},
   "formas_personales": {
     "IndPres": {"s1":["existo"],"s2":["existes"],"vos":["existís"],"s3":["existe"],"p1":["existimos"],"p2":["existís"],"p3":["existen"]},
     "IndImp": {"s1":["existía"],"s2":["existías"],"vos":["existías"],"s3":["existía"],"p1":["existíamos"],"p2":["existíais"],"p3":["existían"]},

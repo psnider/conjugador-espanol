@@ -6,7 +6,7 @@
     "etimologia": "De pasmo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"pasmar","gerundio":"pasmando","participio":"pasmado"},
+  "formas_no_personales": {"infinitivo":"pasmar","gerundio":["pasmando"], "participio":["pasmado"]},
   "formas_personales": {
     "IndPres": {"s1":["pasmo"],"s2":["pasmas"],"vos":["pasmás"],"s3":["pasma"],"p1":["pasmamos"],"p2":["pasmáis"],"p3":["pasman"]},
     "IndImp": {"s1":["pasmaba"],"s2":["pasmabas"],"vos":["pasmabas"],"s3":["pasmaba"],"p1":["pasmábamos"],"p2":["pasmabais"],"p3":["pasmaban"]},

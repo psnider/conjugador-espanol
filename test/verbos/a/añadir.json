@@ -6,7 +6,7 @@
     "etimologia": "Del latín addĕre, habiendo pasado por el latín vulgar *inaddere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"añadir","gerundio":"añadiendo","participio":"añadido"},
+  "formas_no_personales": {"infinitivo":"añadir","gerundio":["añadiendo"], "participio":["añadido"]},
   "formas_personales": {
     "IndPres": {"s1":["añado"],"s2":["añades"],"vos":["añadís"],"s3":["añade"],"p1":["añadimos"],"p2":["añadís"],"p3":["añaden"]},
     "IndImp": {"s1":["añadía"],"s2":["añadías"],"vos":["añadías"],"s3":["añadía"],"p1":["añadíamos"],"p2":["añadíais"],"p3":["añadían"]},

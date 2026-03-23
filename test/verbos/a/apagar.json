@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"apagar","gerundio":"apagando","participio":"apagado"},
+  "formas_no_personales": {"infinitivo":"apagar","gerundio":["apagando"], "participio":["apagado"]},
   "formas_personales": {
     "IndPres": {"s1":["apago"],"s2":["apagas"],"vos":["apagás"],"s3":["apaga"],"p1":["apagamos"],"p2":["apagáis"],"p3":["apagan"]},
     "IndImp": {"s1":["apagaba"],"s2":["apagabas"],"vos":["apagabas"],"s3":["apagaba"],"p1":["apagábamos"],"p2":["apagabais"],"p3":["apagaban"]},

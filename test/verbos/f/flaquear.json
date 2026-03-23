@@ -6,7 +6,7 @@
     "etimologia": "De flaco y el sufijo -ear.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"flaquear","gerundio":"flaqueando","participio":"flaqueado"},
+  "formas_no_personales": {"infinitivo":"flaquear","gerundio":["flaqueando"], "participio":["flaqueado"]},
   "formas_personales": {
     "IndPres": {"s1":["flaqueo"],"s2":["flaqueas"],"vos":["flaqueás"],"s3":["flaquea"],"p1":["flaqueamos"],"p2":["flaqueáis"],"p3":["flaquean"]},
     "IndImp": {"s1":["flaqueaba"],"s2":["flaqueabas"],"vos":["flaqueabas"],"s3":["flaqueaba"],"p1":["flaqueábamos"],"p2":["flaqueabais"],"p3":["flaqueaban"]},

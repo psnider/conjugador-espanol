@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y esbarar.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"resbalar","gerundio":"resbalando","participio":"resbalado"},
+  "formas_no_personales": {"infinitivo":"resbalar","gerundio":["resbalando"], "participio":["resbalado"]},
   "formas_personales": {
     "IndPres": {"s1":["resbalo"],"s2":["resbalas"],"vos":["resbalás"],"s3":["resbala"],"p1":["resbalamos"],"p2":["resbaláis"],"p3":["resbalan"]},
     "IndImp": {"s1":["resbalaba"],"s2":["resbalabas"],"vos":["resbalabas"],"s3":["resbalaba"],"p1":["resbalábamos"],"p2":["resbalabais"],"p3":["resbalaban"]},

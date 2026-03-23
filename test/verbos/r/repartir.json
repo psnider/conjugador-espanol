@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y partir",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"repartir","gerundio":"repartiendo","participio":"repartido"},
+  "formas_no_personales": {"infinitivo":"repartir","gerundio":["repartiendo"], "participio":["repartido"]},
   "formas_personales": {
     "IndPres": {"s1":["reparto"],"s2":["repartes"],"vos":["repartís"],"s3":["reparte"],"p1":["repartimos"],"p2":["repartís"],"p3":["reparten"]},
     "IndImp": {"s1":["repartía"],"s2":["repartías"],"vos":["repartías"],"s3":["repartía"],"p1":["repartíamos"],"p2":["repartíais"],"p3":["repartían"]},

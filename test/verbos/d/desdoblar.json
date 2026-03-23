@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y doblar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desdoblar","gerundio":"desdoblando","participio":"desdoblado"},
+  "formas_no_personales": {"infinitivo":"desdoblar","gerundio":["desdoblando"], "participio":["desdoblado"]},
   "formas_personales": {
     "IndPres": {"s1":["desdoblo"],"s2":["desdoblas"],"vos":["desdoblás"],"s3":["desdobla"],"p1":["desdoblamos"],"p2":["desdobláis"],"p3":["desdoblan"]},
     "IndImp": {"s1":["desdoblaba"],"s2":["desdoblabas"],"vos":["desdoblabas"],"s3":["desdoblaba"],"p1":["desdoblábamos"],"p2":["desdoblabais"],"p3":["desdoblaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín plico. Compárese el portugués chegar y también el rumano pleca.",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"llegar","gerundio":"llegando","participio":"llegado"},
+  "formas_no_personales": {"infinitivo":"llegar","gerundio":["llegando"], "participio":["llegado"]},
   "formas_personales": {
     "IndPres": {"s1":["llego"],"s2":["llegas"],"vos":["llegás"],"s3":["llega"],"p1":["llegamos"],"p2":["llegáis"],"p3":["llegan"]},
     "IndImp": {"s1":["llegaba"],"s2":["llegabas"],"vos":["llegabas"],"s3":["llegaba"],"p1":["llegábamos"],"p2":["llegabais"],"p3":["llegaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desconcentrar","gerundio":"desconcentrando","participio":"desconcentrado"},
+  "formas_no_personales": {"infinitivo":"desconcentrar","gerundio":["desconcentrando"], "participio":["desconcentrado"]},
   "formas_personales": {
     "IndPres": {"s1":["desconcentro"],"s2":["desconcentras"],"vos":["desconcentrás"],"s3":["desconcentra"],"p1":["desconcentramos"],"p2":["desconcentráis"],"p3":["desconcentran"]},
     "IndImp": {"s1":["desconcentraba"],"s2":["desconcentrabas"],"vos":["desconcentrabas"],"s3":["desconcentraba"],"p1":["desconcentrábamos"],"p2":["desconcentrabais"],"p3":["desconcentraban"]},

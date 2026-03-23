@@ -5,7 +5,7 @@
     "etimologia": "Del latín variāre.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"variar","gerundio":"variando","participio":"variado"},
+  "formas_no_personales": {"infinitivo":"variar","gerundio":["variando"], "participio":["variado"]},
   "formas_personales": {
     "IndPres": {"s1":["varío"],"s2":["varías"],"vos":["variás"],"s3":["varía"],"p1":["variamos"],"p2":["variáis"],"p3":["varían"]},
     "IndImp": {"s1":["variaba"],"s2":["variabas"],"vos":["variabas"],"s3":["variaba"],"p1":["variábamos"],"p2":["variabais"],"p3":["variaban"]},

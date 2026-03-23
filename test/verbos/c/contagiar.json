@@ -5,7 +5,7 @@
     "etimologia": "De contagio y el sufijo -ar",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"contagiar","gerundio":"contagiando","participio":"contagiado"},
+  "formas_no_personales": {"infinitivo":"contagiar","gerundio":["contagiando"], "participio":["contagiado"]},
   "formas_personales": {
     "IndPres": {"s1":["contagio"],"s2":["contagias"],"vos":["contagiás"],"s3":["contagia"],"p1":["contagiamos"],"p2":["contagiáis"],"p3":["contagian"]},
     "IndImp": {"s1":["contagiaba"],"s2":["contagiabas"],"vos":["contagiabas"],"s3":["contagiaba"],"p1":["contagiábamos"],"p2":["contagiabais"],"p3":["contagiaban"]},

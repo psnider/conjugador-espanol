@@ -6,7 +6,7 @@
     "etimologia": "Del latín compensāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"compensar","gerundio":"compensando","participio":"compensado"},
+  "formas_no_personales": {"infinitivo":"compensar","gerundio":["compensando"], "participio":["compensado"]},
   "formas_personales": {
     "IndPres": {"s1":["compenso"],"s2":["compensas"],"vos":["compensás"],"s3":["compensa"],"p1":["compensamos"],"p2":["compensáis"],"p3":["compensan"]},
     "IndImp": {"s1":["compensaba"],"s2":["compensabas"],"vos":["compensabas"],"s3":["compensaba"],"p1":["compensábamos"],"p2":["compensabais"],"p3":["compensaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín sufferre.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"sufrir","gerundio":"sufriendo","participio":"sufrido"},
+  "formas_no_personales": {"infinitivo":"sufrir","gerundio":["sufriendo"], "participio":["sufrido"]},
   "formas_personales": {
     "IndPres": {"s1":["sufro"],"s2":["sufres"],"vos":["sufrís"],"s3":["sufre"],"p1":["sufrimos"],"p2":["sufrís"],"p3":["sufren"]},
     "IndImp": {"s1":["sufría"],"s2":["sufrías"],"vos":["sufrías"],"s3":["sufría"],"p1":["sufríamos"],"p2":["sufríais"],"p3":["sufrían"]},

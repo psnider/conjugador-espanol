@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, punta y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"apuntar","gerundio":"apuntando","participio":"apuntado"},
+  "formas_no_personales": {"infinitivo":"apuntar","gerundio":["apuntando"], "participio":["apuntado"]},
   "formas_personales": {
     "IndPres": {"s1":["apunto"],"s2":["apuntas"],"vos":["apuntás"],"s3":["apunta"],"p1":["apuntamos"],"p2":["apuntáis"],"p3":["apuntan"]},
     "IndImp": {"s1":["apuntaba"],"s2":["apuntabas"],"vos":["apuntabas"],"s3":["apuntaba"],"p1":["apuntábamos"],"p2":["apuntabais"],"p3":["apuntaban"]},

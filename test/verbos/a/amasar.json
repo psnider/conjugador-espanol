@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, masa y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"amasar","gerundio":"amasando","participio":"amasado"},
+  "formas_no_personales": {"infinitivo":"amasar","gerundio":["amasando"], "participio":["amasado"]},
   "formas_personales": {
     "IndPres": {"s1":["amaso"],"s2":["amasas"],"vos":["amasás"],"s3":["amasa"],"p1":["amasamos"],"p2":["amasáis"],"p3":["amasan"]},
     "IndImp": {"s1":["amasaba"],"s2":["amasabas"],"vos":["amasabas"],"s3":["amasaba"],"p1":["amasábamos"],"p2":["amasabais"],"p3":["amasaban"]},

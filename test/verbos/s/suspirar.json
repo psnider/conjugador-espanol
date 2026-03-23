@@ -6,7 +6,7 @@
     "etimologia": "Del latín suspirāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"suspirar","gerundio":"suspirando","participio":"suspirado"},
+  "formas_no_personales": {"infinitivo":"suspirar","gerundio":["suspirando"], "participio":["suspirado"]},
   "formas_personales": {
     "IndPres": {"s1":["suspiro"],"s2":["suspiras"],"vos":["suspirás"],"s3":["suspira"],"p1":["suspiramos"],"p2":["suspiráis"],"p3":["suspiran"]},
     "IndImp": {"s1":["suspiraba"],"s2":["suspirabas"],"vos":["suspirabas"],"s3":["suspiraba"],"p1":["suspirábamos"],"p2":["suspirabais"],"p3":["suspiraban"]},

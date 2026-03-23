@@ -5,7 +5,7 @@
     "etimologia": "Del latín sanctificare,[2]",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"santiguar","gerundio":"santiguando","participio":"santiguado"},
+  "formas_no_personales": {"infinitivo":"santiguar","gerundio":["santiguando"], "participio":["santiguado"]},
   "formas_personales": {
     "IndPres": {"s1":["santiguo"],"s2":["santiguas"],"vos":["santiguás"],"s3":["santigua"],"p1":["santiguamos"],"p2":["santiguáis"],"p3":["santiguan"]},
     "IndImp": {"s1":["santiguaba"],"s2":["santiguabas"],"vos":["santiguabas"],"s3":["santiguaba"],"p1":["santiguábamos"],"p2":["santiguabais"],"p3":["santiguaban"]},

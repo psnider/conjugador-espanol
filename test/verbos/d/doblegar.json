@@ -6,7 +6,7 @@
     "etimologia": "Del latín duplicāre ('doblar').[1]",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"doblegar","gerundio":"doblegando","participio":"doblegado"},
+  "formas_no_personales": {"infinitivo":"doblegar","gerundio":["doblegando"], "participio":["doblegado"]},
   "formas_personales": {
     "IndPres": {"s1":["doblego"],"s2":["doblegas"],"vos":["doblegás"],"s3":["doblega"],"p1":["doblegamos"],"p2":["doblegáis"],"p3":["doblegan"]},
     "IndImp": {"s1":["doblegaba"],"s2":["doblegabas"],"vos":["doblegabas"],"s3":["doblegaba"],"p1":["doblegábamos"],"p2":["doblegabais"],"p3":["doblegaban"]},

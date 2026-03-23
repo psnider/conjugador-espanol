@@ -6,7 +6,7 @@
     "etimologia": "De imposible y el sufijo -itar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"imposibilitar","gerundio":"imposibilitando","participio":"imposibilitado"},
+  "formas_no_personales": {"infinitivo":"imposibilitar","gerundio":["imposibilitando"], "participio":["imposibilitado"]},
   "formas_personales": {
     "IndPres": {"s1":["imposibilito"],"s2":["imposibilitas"],"vos":["imposibilitás"],"s3":["imposibilita"],"p1":["imposibilitamos"],"p2":["imposibilitáis"],"p3":["imposibilitan"]},
     "IndImp": {"s1":["imposibilitaba"],"s2":["imposibilitabas"],"vos":["imposibilitabas"],"s3":["imposibilitaba"],"p1":["imposibilitábamos"],"p2":["imposibilitabais"],"p3":["imposibilitaban"]},

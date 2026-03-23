@@ -6,7 +6,7 @@
     "etimologia": "De derrota y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"derrotar","gerundio":"derrotando","participio":"derrotado"},
+  "formas_no_personales": {"infinitivo":"derrotar","gerundio":["derrotando"], "participio":["derrotado"]},
   "formas_personales": {
     "IndPres": {"s1":["derroto"],"s2":["derrotas"],"vos":["derrotás"],"s3":["derrota"],"p1":["derrotamos"],"p2":["derrotáis"],"p3":["derrotan"]},
     "IndImp": {"s1":["derrotaba"],"s2":["derrotabas"],"vos":["derrotabas"],"s3":["derrotaba"],"p1":["derrotábamos"],"p2":["derrotabais"],"p3":["derrotaban"]},

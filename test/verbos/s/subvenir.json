@@ -6,7 +6,7 @@
     "etimologia": "Del latín subveniō, subvenīre",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"subvenir","gerundio":"subviniendo","participio":"subvenido"},
+  "formas_no_personales": {"infinitivo":"subvenir","gerundio":["subviniendo"], "participio":["subvenido"]},
   "formas_personales": {
     "IndPres": {"s1":["subvengo"],"s2":["subvienes"],"vos":["subvenís"],"s3":["subviene"],"p1":["subvenimos"],"p2":["subvenís"],"p3":["subvienen"]},
     "IndImp": {"s1":["subvenía"],"s2":["subvenías"],"vos":["subvenías"],"s3":["subvenía"],"p1":["subveníamos"],"p2":["subveníais"],"p3":["subvenían"]},

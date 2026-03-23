@@ -6,7 +6,7 @@
     "etimologia": "De plancha y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"planchar","gerundio":"planchando","participio":"planchado"},
+  "formas_no_personales": {"infinitivo":"planchar","gerundio":["planchando"], "participio":["planchado"]},
   "formas_personales": {
     "IndPres": {"s1":["plancho"],"s2":["planchas"],"vos":["planchás"],"s3":["plancha"],"p1":["planchamos"],"p2":["plancháis"],"p3":["planchan"]},
     "IndImp": {"s1":["planchaba"],"s2":["planchabas"],"vos":["planchabas"],"s3":["planchaba"],"p1":["planchábamos"],"p2":["planchabais"],"p3":["planchaban"]},

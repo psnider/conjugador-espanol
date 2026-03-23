@@ -6,7 +6,7 @@
     "etimologia": "Del latín putrēre.[1]",
     "modelos": ["pudrir"]
   },
-  "formas_no_personales": {"infinitivo":"pudrir","gerundio":"pudriendo","participio":"podrido"},
+  "formas_no_personales": {"infinitivo":"pudrir","gerundio":["pudriendo"], "participio":["podrido"]},
   "formas_personales": {
     "IndPres": {"s1":["pudro"],"s2":["pudres"],"vos":["pudrís"],"s3":["pudre"],"p1":["pudrimos"],"p2":["pudrís"],"p3":["pudren"]},
     "IndImp": {"s1":["pudría"],"s2":["pudrías"],"vos":["pudrías"],"s3":["pudría"],"p1":["pudríamos"],"p2":["pudríais"],"p3":["pudrían"]},

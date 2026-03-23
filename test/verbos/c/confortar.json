@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnfortō, cōnfortāre (—derivado de fortis, \"fuerte\"—, 'dar o cobrar fuerzas').[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"confortar","gerundio":"confortando","participio":"confortado"},
+  "formas_no_personales": {"infinitivo":"confortar","gerundio":["confortando"], "participio":["confortado"]},
   "formas_personales": {
     "IndPres": {"s1":["conforto"],"s2":["confortas"],"vos":["confortás"],"s3":["conforta"],"p1":["confortamos"],"p2":["confortáis"],"p3":["confortan"]},
     "IndImp": {"s1":["confortaba"],"s2":["confortabas"],"vos":["confortabas"],"s3":["confortaba"],"p1":["confortábamos"],"p2":["confortabais"],"p3":["confortaban"]},

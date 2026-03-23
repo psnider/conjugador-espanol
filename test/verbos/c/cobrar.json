@@ -6,7 +6,7 @@
     "etimologia": "Acortamiento (aféresis) de recobrar, y este de a su vez del latín recuperare (\"recobrar\", \"recuperar\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cobrar","gerundio":"cobrando","participio":"cobrado"},
+  "formas_no_personales": {"infinitivo":"cobrar","gerundio":["cobrando"], "participio":["cobrado"]},
   "formas_personales": {
     "IndPres": {"s1":["cobro"],"s2":["cobras"],"vos":["cobrás"],"s3":["cobra"],"p1":["cobramos"],"p2":["cobráis"],"p3":["cobran"]},
     "IndImp": {"s1":["cobraba"],"s2":["cobrabas"],"vos":["cobrabas"],"s3":["cobraba"],"p1":["cobrábamos"],"p2":["cobrabais"],"p3":["cobraban"]},

@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reð̞iˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reditus ('rédito').[2]",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"redituar","gerundio":["redituando"], "participio":["redituado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reditúo"],"s2":["reditúas"],"vos":["redituás"],"s3":["reditúa"],"p1":["redituamos"],"p2":["redituáis"],"p3":["reditúan"]},
+    "IndImp": {"s1":["redituaba"],"s2":["redituabas"],"vos":["redituabas"],"s3":["redituaba"],"p1":["redituábamos"],"p2":["redituabais"],"p3":["redituaban"]},
+    "IndPret": {"s1":["reditué"],"s2":["redituaste"],"vos":["redituaste"],"s3":["redituó"],"p1":["redituamos"],"p2":["redituasteis"],"p3":["redituaron"]},
+    "IndFut": {"s1":["redituaré"],"s2":["redituarás"],"vos":["redituarás"],"s3":["redituará"],"p1":["redituaremos"],"p2":["redituaréis"],"p3":["redituarán"]},
+    "IndCond": {"s1":["redituaría"],"s2":["redituarías"],"vos":["redituarías"],"s3":["redituaría"],"p1":["redituaríamos"],"p2":["redituaríais"],"p3":["redituarían"]},
+    "SubPres": {"s1":["reditúe"],"s2":["reditúes"],"vos":["reditúes","reditués"],"s3":["reditúe"],"p1":["redituemos"],"p2":["redituéis"],"p3":["reditúen"]},
+    "SubImp": {"s1":["redituara","redituase"],"s2":["redituaras","redituases"],"vos":["redituaras","redituases"],"s3":["redituara","redituase"],"p1":["redituáramos","redituásemos"],"p2":["redituarais","redituaseis"],"p3":["redituaran","redituasen"]},
+    "SubFut": {"s1":["redituare"],"s2":["redituares"],"vos":["redituares"],"s3":["redituare"],"p1":["redituáremos"],"p2":["redituareis"],"p3":["redituaren"]},
+    "CmdPos": {"s2":["reditúa"],"vos":["redituá"],"s3":["reditúe"],"p1":["redituemos"],"p2":["redituad"],"p3":["reditúen"]}
+  }
+}

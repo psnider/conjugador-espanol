@@ -6,7 +6,7 @@
     "etimologia": "Del latín cadĕre.",
     "modelos": ["caer"]
   },
-  "formas_no_personales": {"infinitivo":"caer","gerundio":"cayendo","participio":"caído"},
+  "formas_no_personales": {"infinitivo":"caer","gerundio":["cayendo"], "participio":["caído"]},
   "formas_personales": {
     "IndPres": {"s1":["caigo"],"s2":["caes"],"vos":["caés"],"s3":["cae"],"p1":["caemos"],"p2":["caéis"],"p3":["caen"]},
     "IndImp": {"s1":["caía"],"s2":["caías"],"vos":["caías"],"s3":["caía"],"p1":["caíamos"],"p2":["caíais"],"p3":["caían"]},

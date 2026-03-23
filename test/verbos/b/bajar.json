@@ -6,7 +6,7 @@
     "etimologia": "Del latín bassare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bajar","gerundio":"bajando","participio":"bajado"},
+  "formas_no_personales": {"infinitivo":"bajar","gerundio":["bajando"], "participio":["bajado"]},
   "formas_personales": {
     "IndPres": {"s1":["bajo"],"s2":["bajas"],"vos":["bajás"],"s3":["baja"],"p1":["bajamos"],"p2":["bajáis"],"p3":["bajan"]},
     "IndImp": {"s1":["bajaba"],"s2":["bajabas"],"vos":["bajabas"],"s3":["bajaba"],"p1":["bajábamos"],"p2":["bajabais"],"p3":["bajaban"]},

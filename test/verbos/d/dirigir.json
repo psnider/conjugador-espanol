@@ -6,7 +6,7 @@
     "etimologia": "Del latín dīrigere.",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"infinitivo":"dirigir","gerundio":"dirigiendo","participio":"dirigido"},
+  "formas_no_personales": {"infinitivo":"dirigir","gerundio":["dirigiendo"], "participio":["dirigido"]},
   "formas_personales": {
     "IndPres": {"s1":["dirijo"],"s2":["diriges"],"vos":["dirigís"],"s3":["dirige"],"p1":["dirigimos"],"p2":["dirigís"],"p3":["dirigen"]},
     "IndImp": {"s1":["dirigía"],"s2":["dirigías"],"vos":["dirigías"],"s3":["dirigía"],"p1":["dirigíamos"],"p2":["dirigíais"],"p3":["dirigían"]},

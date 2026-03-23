@@ -6,7 +6,7 @@
     "etimologia": "Del latín unire",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"unir","gerundio":"uniendo","participio":"unido"},
+  "formas_no_personales": {"infinitivo":"unir","gerundio":["uniendo"], "participio":["unido"]},
   "formas_personales": {
     "IndPres": {"s1":["uno"],"s2":["unes"],"vos":["unís"],"s3":["une"],"p1":["unimos"],"p2":["unís"],"p3":["unen"]},
     "IndImp": {"s1":["unía"],"s2":["unías"],"vos":["unías"],"s3":["unía"],"p1":["uníamos"],"p2":["uníais"],"p3":["unían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín investīre.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"investir","gerundio":"invistiendo","participio":"investido"},
+  "formas_no_personales": {"infinitivo":"investir","gerundio":["invistiendo"], "participio":["investido"]},
   "formas_personales": {
     "IndPres": {"s1":["invisto"],"s2":["invistes"],"vos":["investís"],"s3":["inviste"],"p1":["investimos"],"p2":["investís"],"p3":["invisten"]},
     "IndImp": {"s1":["investía"],"s2":["investías"],"vos":["investías"],"s3":["investía"],"p1":["investíamos"],"p2":["investíais"],"p3":["investían"]},

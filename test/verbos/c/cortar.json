@@ -6,7 +6,7 @@
     "etimologia": "Del latín curtare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cortar","gerundio":"cortando","participio":"cortado"},
+  "formas_no_personales": {"infinitivo":"cortar","gerundio":["cortando"], "participio":["cortado"]},
   "formas_personales": {
     "IndPres": {"s1":["corto"],"s2":["cortas"],"vos":["cortás"],"s3":["corta"],"p1":["cortamos"],"p2":["cortáis"],"p3":["cortan"]},
     "IndImp": {"s1":["cortaba"],"s2":["cortabas"],"vos":["cortabas"],"s3":["cortaba"],"p1":["cortábamos"],"p2":["cortabais"],"p3":["cortaban"]},

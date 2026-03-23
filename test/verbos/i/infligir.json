@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["dirigir"]
   },
-  "formas_no_personales": {"infinitivo":"infligir","gerundio":"infligiendo","participio":"infligido"},
+  "formas_no_personales": {"infinitivo":"infligir","gerundio":["infligiendo"], "participio":["infligido"]},
   "formas_personales": {
     "IndPres": {"s1":["inflijo"],"s2":["infliges"],"vos":["infligís"],"s3":["inflige"],"p1":["infligimos"],"p2":["infligís"],"p3":["infligen"]},
     "IndImp": {"s1":["infligía"],"s2":["infligías"],"vos":["infligías"],"s3":["infligía"],"p1":["infligíamos"],"p2":["infligíais"],"p3":["infligían"]},

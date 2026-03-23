@@ -6,7 +6,7 @@
     "etimologia": "Del latín succutĕre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"sacudir","gerundio":"sacudiendo","participio":"sacudido"},
+  "formas_no_personales": {"infinitivo":"sacudir","gerundio":["sacudiendo"], "participio":["sacudido"]},
   "formas_personales": {
     "IndPres": {"s1":["sacudo"],"s2":["sacudes"],"vos":["sacudís"],"s3":["sacude"],"p1":["sacudimos"],"p2":["sacudís"],"p3":["sacuden"]},
     "IndImp": {"s1":["sacudía"],"s2":["sacudías"],"vos":["sacudías"],"s3":["sacudía"],"p1":["sacudíamos"],"p2":["sacudíais"],"p3":["sacudían"]},

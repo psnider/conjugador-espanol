@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desplumar","gerundio":"desplumando","participio":"desplumado"},
+  "formas_no_personales": {"infinitivo":"desplumar","gerundio":["desplumando"], "participio":["desplumado"]},
   "formas_personales": {
     "IndPres": {"s1":["desplumo"],"s2":["desplumas"],"vos":["desplumás"],"s3":["despluma"],"p1":["desplumamos"],"p2":["desplumáis"],"p3":["despluman"]},
     "IndImp": {"s1":["desplumaba"],"s2":["desplumabas"],"vos":["desplumabas"],"s3":["desplumaba"],"p1":["desplumábamos"],"p2":["desplumabais"],"p3":["desplumaban"]},

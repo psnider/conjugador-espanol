@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo traher y traer, y estos del latín traho.",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"traer","gerundio":"trayendo","participio":"traído"},
+  "formas_no_personales": {"infinitivo":"traer","gerundio":["trayendo"], "participio":["traído"]},
   "formas_personales": {
     "IndPres": {"s1":["traigo"],"s2":["traes"],"vos":["traés"],"s3":["trae"],"p1":["traemos"],"p2":["traéis"],"p3":["traen"]},
     "IndImp": {"s1":["traía"],"s2":["traías"],"vos":["traías"],"s3":["traía"],"p1":["traíamos"],"p2":["traíais"],"p3":["traían"]},

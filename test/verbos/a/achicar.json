@@ -6,7 +6,7 @@
     "etimologia": "De chico.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"achicar","gerundio":"achicando","participio":"achicado"},
+  "formas_no_personales": {"infinitivo":"achicar","gerundio":["achicando"], "participio":["achicado"]},
   "formas_personales": {
     "IndPres": {"s1":["achico"],"s2":["achicas"],"vos":["achicás"],"s3":["achica"],"p1":["achicamos"],"p2":["achicáis"],"p3":["achican"]},
     "IndImp": {"s1":["achicaba"],"s2":["achicabas"],"vos":["achicabas"],"s3":["achicaba"],"p1":["achicábamos"],"p2":["achicabais"],"p3":["achicaban"]},

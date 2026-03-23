@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"quebrantar","gerundio":"quebrantando","participio":"quebrantado"},
+  "formas_no_personales": {"infinitivo":"quebrantar","gerundio":["quebrantando"], "participio":["quebrantado"]},
   "formas_personales": {
     "IndPres": {"s1":["quebranto"],"s2":["quebrantas"],"vos":["quebrantás"],"s3":["quebranta"],"p1":["quebrantamos"],"p2":["quebrantáis"],"p3":["quebrantan"]},
     "IndImp": {"s1":["quebrantaba"],"s2":["quebrantabas"],"vos":["quebrantabas"],"s3":["quebrantaba"],"p1":["quebrantábamos"],"p2":["quebrantabais"],"p3":["quebrantaban"]},

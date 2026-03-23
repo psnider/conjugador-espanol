@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y prender.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"desprender","gerundio":"desprendiendo","participio":"desprendido"},
+  "formas_no_personales": {"infinitivo":"desprender","gerundio":["desprendiendo"], "participio":["desprendido"]},
   "formas_personales": {
     "IndPres": {"s1":["desprendo"],"s2":["desprendes"],"vos":["desprendés"],"s3":["desprende"],"p1":["desprendemos"],"p2":["desprendéis"],"p3":["desprenden"]},
     "IndImp": {"s1":["desprendía"],"s2":["desprendías"],"vos":["desprendías"],"s3":["desprendía"],"p1":["desprendíamos"],"p2":["desprendíais"],"p3":["desprendían"]},

@@ -6,7 +6,7 @@
     "etimologia": "de función",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"funcionar","gerundio":"funcionando","participio":"funcionado"},
+  "formas_no_personales": {"infinitivo":"funcionar","gerundio":["funcionando"], "participio":["funcionado"]},
   "formas_personales": {
     "IndPres": {"s1":["funciono"],"s2":["funcionas"],"vos":["funcionás"],"s3":["funciona"],"p1":["funcionamos"],"p2":["funcionáis"],"p3":["funcionan"]},
     "IndImp": {"s1":["funcionaba"],"s2":["funcionabas"],"vos":["funcionabas"],"s3":["funcionaba"],"p1":["funcionábamos"],"p2":["funcionabais"],"p3":["funcionaban"]},

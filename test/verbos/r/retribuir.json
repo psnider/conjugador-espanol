@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪ɾiˈβ̞wiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín retribuō, retribuere,[2] de re-&nbsp;('acción repetida') y tribuō, tribuere&nbsp;('otorgar').",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"retribuir","gerundio":["retribuyendo"], "participio":["retribuido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["retribuyo"],"s2":["retribuyes"],"vos":["retribuís"],"s3":["retribuye"],"p1":["retribuimos"],"p2":["retribuís"],"p3":["retribuyen"]},
+    "IndImp": {"s1":["retribuía"],"s2":["retribuías"],"vos":["retribuías"],"s3":["retribuía"],"p1":["retribuíamos"],"p2":["retribuíais"],"p3":["retribuían"]},
+    "IndPret": {"s1":["retribuí"],"s2":["retribuiste"],"vos":["retribuiste"],"s3":["retribuyó"],"p1":["retribuimos"],"p2":["retribuisteis"],"p3":["retribuyeron"]},
+    "IndFut": {"s1":["retribuiré"],"s2":["retribuirás"],"vos":["retribuirás"],"s3":["retribuirá"],"p1":["retribuiremos"],"p2":["retribuiréis"],"p3":["retribuirán"]},
+    "IndCond": {"s1":["retribuiría"],"s2":["retribuirías"],"vos":["retribuirías"],"s3":["retribuiría"],"p1":["retribuiríamos"],"p2":["retribuiríais"],"p3":["retribuirían"]},
+    "SubPres": {"s1":["retribuya"],"s2":["retribuyas"],"vos":["retribuyas","retribuyás"],"s3":["retribuya"],"p1":["retribuyamos"],"p2":["retribuyáis"],"p3":["retribuyan"]},
+    "SubImp": {"s1":["retribuyera","retribuyese"],"s2":["retribuyeras","retribuyeses"],"vos":["retribuyeras","retribuyeses"],"s3":["retribuyera","retribuyese"],"p1":["retribuyéramos","retribuyésemos"],"p2":["retribuyerais","retribuyeseis"],"p3":["retribuyeran","retribuyesen"]},
+    "SubFut": {"s1":["retribuyere"],"s2":["retribuyeres"],"vos":["retribuyeres"],"s3":["retribuyere"],"p1":["retribuyéremos"],"p2":["retribuyereis"],"p3":["retribuyeren"]},
+    "CmdPos": {"s2":["retribuye"],"vos":["retribuí"],"s3":["retribuya"],"p1":["retribuyamos"],"p2":["retribuid"],"p3":["retribuyan"]}
+  }
+}

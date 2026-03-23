@@ -6,7 +6,7 @@
     "etimologia": "Del latín fundere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"hundir","gerundio":"hundiendo","participio":"hundido"},
+  "formas_no_personales": {"infinitivo":"hundir","gerundio":["hundiendo"], "participio":["hundido"]},
   "formas_personales": {
     "IndPres": {"s1":["hundo"],"s2":["hundes"],"vos":["hundís"],"s3":["hunde"],"p1":["hundimos"],"p2":["hundís"],"p3":["hunden"]},
     "IndImp": {"s1":["hundía"],"s2":["hundías"],"vos":["hundías"],"s3":["hundía"],"p1":["hundíamos"],"p2":["hundíais"],"p3":["hundían"]},

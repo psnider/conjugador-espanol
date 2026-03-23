@@ -6,7 +6,7 @@
     "etimologia": "Del latín possidere, a su vez de potis, \"capaz\", y sedere, \"sentarse\", en última instancia del protoindoeuropeo *sed-",
     "modelos": ["leer"]
   },
-  "formas_no_personales": {"infinitivo":"poseer","gerundio":"poseyendo","participio":"poseído"},
+  "formas_no_personales": {"infinitivo":"poseer","gerundio":["poseyendo"], "participio":["poseído"]},
   "formas_personales": {
     "IndPres": {"s1":["poseo"],"s2":["posees"],"vos":["poseés"],"s3":["posee"],"p1":["poseemos"],"p2":["poseéis"],"p3":["poseen"]},
     "IndImp": {"s1":["poseía"],"s2":["poseías"],"vos":["poseías"],"s3":["poseía"],"p1":["poseíamos"],"p2":["poseíais"],"p3":["poseían"]},

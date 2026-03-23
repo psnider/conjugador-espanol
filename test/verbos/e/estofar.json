@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estofar","gerundio":"estofando","participio":"estofado"},
+  "formas_no_personales": {"infinitivo":"estofar","gerundio":["estofando"], "participio":["estofado"]},
   "formas_personales": {
     "IndPres": {"s1":["estofo"],"s2":["estofas"],"vos":["estofás"],"s3":["estofa"],"p1":["estofamos"],"p2":["estofáis"],"p3":["estofan"]},
     "IndImp": {"s1":["estofaba"],"s2":["estofabas"],"vos":["estofabas"],"s3":["estofaba"],"p1":["estofábamos"],"p2":["estofabais"],"p3":["estofaban"]},

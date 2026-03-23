@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"mentir","gerundio":"mintiendo","participio":"mentido"},
+  "formas_no_personales": {"infinitivo":"mentir","gerundio":["mintiendo"], "participio":["mentido"]},
   "formas_personales": {
     "IndPres": {"s1":["miento"],"s2":["mientes"],"vos":["mentís"],"s3":["miente"],"p1":["mentimos"],"p2":["mentís"],"p3":["mienten"]},
     "IndImp": {"s1":["mentía"],"s2":["mentías"],"vos":["mentías"],"s3":["mentía"],"p1":["mentíamos"],"p2":["mentíais"],"p3":["mentían"]},

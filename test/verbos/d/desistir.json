@@ -6,7 +6,7 @@
     "etimologia": "Del latín dēsistere.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"desistir","gerundio":"desistiendo","participio":"desistido"},
+  "formas_no_personales": {"infinitivo":"desistir","gerundio":["desistiendo"], "participio":["desistido"]},
   "formas_personales": {
     "IndPres": {"s1":["desisto"],"s2":["desistes"],"vos":["desistís"],"s3":["desiste"],"p1":["desistimos"],"p2":["desistís"],"p3":["desisten"]},
     "IndImp": {"s1":["desistía"],"s2":["desistías"],"vos":["desistías"],"s3":["desistía"],"p1":["desistíamos"],"p2":["desistíais"],"p3":["desistían"]},

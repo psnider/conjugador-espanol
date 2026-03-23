@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo bastar ('bastar'), y este del latín vulgar *bastāre, del griego antiguo βαστάζειν&nbsp;(bastazein) (\"llevar o sostener un peso\").",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"bastar","gerundio":"bastando","participio":"bastado"},
+  "formas_no_personales": {"infinitivo":"bastar","gerundio":["bastando"], "participio":["bastado"]},
   "formas_personales": {
     "IndPres": {"s1":["basto"],"s2":["bastas"],"vos":["bastás"],"s3":["basta"],"p1":["bastamos"],"p2":["bastáis"],"p3":["bastan"]},
     "IndImp": {"s1":["bastaba"],"s2":["bastabas"],"vos":["bastabas"],"s3":["bastaba"],"p1":["bastábamos"],"p2":["bastabais"],"p3":["bastaban"]},

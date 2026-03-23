@@ -5,7 +5,7 @@
     "etimologia": "Del latín deviāre.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"desviar","gerundio":"desviando","participio":"desviado"},
+  "formas_no_personales": {"infinitivo":"desviar","gerundio":["desviando"], "participio":["desviado"]},
   "formas_personales": {
     "IndPres": {"s1":["desvío"],"s2":["desvías"],"vos":["desviás"],"s3":["desvía"],"p1":["desviamos"],"p2":["desviáis"],"p3":["desvían"]},
     "IndImp": {"s1":["desviaba"],"s2":["desviabas"],"vos":["desviabas"],"s3":["desviaba"],"p1":["desviábamos"],"p2":["desviabais"],"p3":["desviaban"]},

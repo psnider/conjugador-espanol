@@ -6,7 +6,7 @@
     "etimologia": "Del inglés interfere",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"interferir","gerundio":"interfiriendo","participio":"interferido"},
+  "formas_no_personales": {"infinitivo":"interferir","gerundio":["interfiriendo"], "participio":["interferido"]},
   "formas_personales": {
     "IndPres": {"s1":["interfiero"],"s2":["interfieres"],"vos":["interferís"],"s3":["interfiere"],"p1":["interferimos"],"p2":["interferís"],"p3":["interfieren"]},
     "IndImp": {"s1":["interfería"],"s2":["interferías"],"vos":["interferías"],"s3":["interfería"],"p1":["interferíamos"],"p2":["interferíais"],"p3":["interferían"]},

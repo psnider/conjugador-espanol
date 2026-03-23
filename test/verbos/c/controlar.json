@@ -6,7 +6,7 @@
     "etimologia": "Del francés contrôler",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"controlar","gerundio":"controlando","participio":"controlado"},
+  "formas_no_personales": {"infinitivo":"controlar","gerundio":["controlando"], "participio":["controlado"]},
   "formas_personales": {
     "IndPres": {"s1":["controlo"],"s2":["controlas"],"vos":["controlás"],"s3":["controla"],"p1":["controlamos"],"p2":["controláis"],"p3":["controlan"]},
     "IndImp": {"s1":["controlaba"],"s2":["controlabas"],"vos":["controlabas"],"s3":["controlaba"],"p1":["controlábamos"],"p2":["controlabais"],"p3":["controlaban"]},

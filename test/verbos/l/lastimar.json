@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *blastēmāre, decir blasfemias, calumniar, alteración del tardío blasphēmāre, y este del griego βλασφημεῖν&nbsp;(blasphēmein). Compárese el catalán blasmar, el romanche blastmer y el rumano blestema, todos con el significado de «decir blasfemias».",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"lastimar","gerundio":"lastimando","participio":"lastimado"},
+  "formas_no_personales": {"infinitivo":"lastimar","gerundio":["lastimando"], "participio":["lastimado"]},
   "formas_personales": {
     "IndPres": {"s1":["lastimo"],"s2":["lastimas"],"vos":["lastimás"],"s3":["lastima"],"p1":["lastimamos"],"p2":["lastimáis"],"p3":["lastiman"]},
     "IndImp": {"s1":["lastimaba"],"s2":["lastimabas"],"vos":["lastimabas"],"s3":["lastimaba"],"p1":["lastimábamos"],"p2":["lastimabais"],"p3":["lastimaban"]},

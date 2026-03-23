@@ -6,7 +6,7 @@
     "etimologia": "Del latín propugnare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"propugnar","gerundio":"propugnando","participio":"propugnado"},
+  "formas_no_personales": {"infinitivo":"propugnar","gerundio":["propugnando"], "participio":["propugnado"]},
   "formas_personales": {
     "IndPres": {"s1":["propugno"],"s2":["propugnas"],"vos":["propugnás"],"s3":["propugna"],"p1":["propugnamos"],"p2":["propugnáis"],"p3":["propugnan"]},
     "IndImp": {"s1":["propugnaba"],"s2":["propugnabas"],"vos":["propugnabas"],"s3":["propugnaba"],"p1":["propugnábamos"],"p2":["propugnabais"],"p3":["propugnaban"]},

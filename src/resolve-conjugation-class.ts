@@ -147,13 +147,12 @@ export const conjugation_families: {[conjugation_family: string]: ModeloYInfinit
     decir:      {modelo: "decir",     },          // ChatGPT said that all "-decir" verbs conjugate the same
     traer:      {modelo: "traer",     },          // ChatGPT said that all "-traer" verbs conjugate the same
     // FIX: linguist: hacer verbs are a different family from -acer? e.g. "nacer"
-    // FIX: linguist: change modelo from "-acer" to "hacer"
     // FIX: perhaps this requires a partner rule for "-facer" ?
     hacer:      {modelo: "hacer",     clase_conjugacional: "-acer"},          // ChatGPT said that all "-hacer" verbs conjugate the same, but "satisfacer" follows this model as well
     ducir:      {modelo: "conducir",  clase_conjugacional: "-ducir"},       // ChatGPT said that all "-ducir" verbs conjugate like conducir
     eer:        {modelo: "leer",      clase_conjugacional: "-eer"},           // ChatGPT said that all "-eer" verbs conjugate like leer
     oír:        {modelo: "oír",       },            // ChatGPT said that all "-oír" verbs conjugate the same
-    uir:        {modelo: "huir",      clase_conjugacional: "-uir"},           // ChatGPT said that all "-uir" verbs conjugate like huir
+    // uir:        {modelo: "huir",      clase_conjugacional: "-uir"},           // ChatGPT said that all "-uir" verbs conjugate like huir
     // NOT valid conjugation families:
     // -iar NOT => vaciar, e.g.: cambiar, estudiar
     // FIX: linguistics: consider all of these

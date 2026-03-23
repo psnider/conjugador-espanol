@@ -5,7 +5,7 @@
     "etimologia": "Del latín actuare.",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"actuar","gerundio":"actuando","participio":"actuado"},
+  "formas_no_personales": {"infinitivo":"actuar","gerundio":["actuando"], "participio":["actuado"]},
   "formas_personales": {
     "IndPres": {"s1":["actúo"],"s2":["actúas"],"vos":["actuás"],"s3":["actúa"],"p1":["actuamos"],"p2":["actuáis"],"p3":["actúan"]},
     "IndImp": {"s1":["actuaba"],"s2":["actuabas"],"vos":["actuabas"],"s3":["actuaba"],"p1":["actuábamos"],"p2":["actuabais"],"p3":["actuaban"]},

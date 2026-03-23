@@ -6,7 +6,7 @@
     "etimologia": "Del latín oboedescĕre",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"obedecer","gerundio":"obedeciendo","participio":"obedecido"},
+  "formas_no_personales": {"infinitivo":"obedecer","gerundio":["obedeciendo"], "participio":["obedecido"]},
   "formas_personales": {
     "IndPres": {"s1":["obedezco"],"s2":["obedeces"],"vos":["obedecés"],"s3":["obedece"],"p1":["obedecemos"],"p2":["obedecéis"],"p3":["obedecen"]},
     "IndImp": {"s1":["obedecía"],"s2":["obedecías"],"vos":["obedecías"],"s3":["obedecía"],"p1":["obedecíamos"],"p2":["obedecíais"],"p3":["obedecían"]},

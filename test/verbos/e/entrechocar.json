@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"entrechocar","gerundio":"entrechocando","participio":"entrechocado"},
+  "formas_no_personales": {"infinitivo":"entrechocar","gerundio":["entrechocando"], "participio":["entrechocado"]},
   "formas_personales": {
     "IndPres": {"s1":["entrechoco"],"s2":["entrechocas"],"vos":["entrechocás"],"s3":["entrechoca"],"p1":["entrechocamos"],"p2":["entrechocáis"],"p3":["entrechocan"]},
     "IndImp": {"s1":["entrechocaba"],"s2":["entrechocabas"],"vos":["entrechocabas"],"s3":["entrechocaba"],"p1":["entrechocábamos"],"p2":["entrechocabais"],"p3":["entrechocaban"]},

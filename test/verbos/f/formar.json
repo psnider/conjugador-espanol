@@ -6,7 +6,7 @@
     "etimologia": "Semicultismo. Del latín fōrmō, fōrmāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"formar","gerundio":"formando","participio":"formado"},
+  "formas_no_personales": {"infinitivo":"formar","gerundio":["formando"], "participio":["formado"]},
   "formas_personales": {
     "IndPres": {"s1":["formo"],"s2":["formas"],"vos":["formás"],"s3":["forma"],"p1":["formamos"],"p2":["formáis"],"p3":["forman"]},
     "IndImp": {"s1":["formaba"],"s2":["formabas"],"vos":["formabas"],"s3":["formaba"],"p1":["formábamos"],"p2":["formabais"],"p3":["formaban"]},

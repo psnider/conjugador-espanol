@@ -6,7 +6,7 @@
     "etimologia": "Onomatopéyica.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"tumbar","gerundio":"tumbando","participio":"tumbado"},
+  "formas_no_personales": {"infinitivo":"tumbar","gerundio":["tumbando"], "participio":["tumbado"]},
   "formas_personales": {
     "IndPres": {"s1":["tumbo"],"s2":["tumbas"],"vos":["tumbás"],"s3":["tumba"],"p1":["tumbamos"],"p2":["tumbáis"],"p3":["tumban"]},
     "IndImp": {"s1":["tumbaba"],"s2":["tumbabas"],"vos":["tumbabas"],"s3":["tumbaba"],"p1":["tumbábamos"],"p2":["tumbabais"],"p3":["tumbaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín penetrare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"penetrar","gerundio":"penetrando","participio":"penetrado"},
+  "formas_no_personales": {"infinitivo":"penetrar","gerundio":["penetrando"], "participio":["penetrado"]},
   "formas_personales": {
     "IndPres": {"s1":["penetro"],"s2":["penetras"],"vos":["penetrás"],"s3":["penetra"],"p1":["penetramos"],"p2":["penetráis"],"p3":["penetran"]},
     "IndImp": {"s1":["penetraba"],"s2":["penetrabas"],"vos":["penetrabas"],"s3":["penetraba"],"p1":["penetrábamos"],"p2":["penetrabais"],"p3":["penetraban"]},

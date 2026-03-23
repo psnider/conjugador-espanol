@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y rugar, y este del latín rugo, deverbal del latín ruga, del protoindoeuropeo *kreu,[1] o *reu&nbsp;('arrancar').[2]",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"arrugar","gerundio":"arrugando","participio":"arrugado"},
+  "formas_no_personales": {"infinitivo":"arrugar","gerundio":["arrugando"], "participio":["arrugado"]},
   "formas_personales": {
     "IndPres": {"s1":["arrugo"],"s2":["arrugas"],"vos":["arrugás"],"s3":["arruga"],"p1":["arrugamos"],"p2":["arrugáis"],"p3":["arrugan"]},
     "IndImp": {"s1":["arrugaba"],"s2":["arrugabas"],"vos":["arrugabas"],"s3":["arrugaba"],"p1":["arrugábamos"],"p2":["arrugabais"],"p3":["arrugaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, temor y el sufijo -izar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"atemorizar","gerundio":"atemorizando","participio":"atemorizado"},
+  "formas_no_personales": {"infinitivo":"atemorizar","gerundio":["atemorizando"], "participio":["atemorizado"]},
   "formas_personales": {
     "IndPres": {"s1":["atemorizo"],"s2":["atemorizas"],"vos":["atemorizás"],"s3":["atemoriza"],"p1":["atemorizamos"],"p2":["atemorizáis"],"p3":["atemorizan"]},
     "IndImp": {"s1":["atemorizaba"],"s2":["atemorizabas"],"vos":["atemorizabas"],"s3":["atemorizaba"],"p1":["atemorizábamos"],"p2":["atemorizabais"],"p3":["atemorizaban"]},

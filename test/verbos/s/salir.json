@@ -6,7 +6,7 @@
     "etimologia": "Del latín salīre ('brotar').",
     "modelos": ["salir"]
   },
-  "formas_no_personales": {"infinitivo":"salir","gerundio":"saliendo","participio":"salido"},
+  "formas_no_personales": {"infinitivo":"salir","gerundio":["saliendo"], "participio":["salido"]},
   "formas_personales": {
     "IndPres": {"s1":["salgo"],"s2":["sales"],"vos":["salís"],"s3":["sale"],"p1":["salimos"],"p2":["salís"],"p3":["salen"]},
     "IndImp": {"s1":["salía"],"s2":["salías"],"vos":["salías"],"s3":["salía"],"p1":["salíamos"],"p2":["salíais"],"p3":["salían"]},

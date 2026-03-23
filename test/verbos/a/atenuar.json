@@ -5,7 +5,7 @@
     "etimologia": "Del latín attenuare, derivado del adjetivo tenuis&nbsp;('tenue').",
     "modelos": ["actuar"]
   },
-  "formas_no_personales": {"infinitivo":"atenuar","gerundio":"atenuando","participio":"atenuado"},
+  "formas_no_personales": {"infinitivo":"atenuar","gerundio":["atenuando"], "participio":["atenuado"]},
   "formas_personales": {
     "IndPres": {"s1":["atenúo"],"s2":["atenúas"],"vos":["atenuás"],"s3":["atenúa"],"p1":["atenuamos"],"p2":["atenuáis"],"p3":["atenúan"]},
     "IndImp": {"s1":["atenuaba"],"s2":["atenuabas"],"vos":["atenuabas"],"s3":["atenuaba"],"p1":["atenuábamos"],"p2":["atenuabais"],"p3":["atenuaban"]},

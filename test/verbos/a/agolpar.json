@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agolpar","gerundio":"agolpando","participio":"agolpado"},
+  "formas_no_personales": {"infinitivo":"agolpar","gerundio":["agolpando"], "participio":["agolpado"]},
   "formas_personales": {
     "IndPres": {"s1":["agolpo"],"s2":["agolpas"],"vos":["agolpás"],"s3":["agolpa"],"p1":["agolpamos"],"p2":["agolpáis"],"p3":["agolpan"]},
     "IndImp": {"s1":["agolpaba"],"s2":["agolpabas"],"vos":["agolpabas"],"s3":["agolpaba"],"p1":["agolpábamos"],"p2":["agolpabais"],"p3":["agolpaban"]},

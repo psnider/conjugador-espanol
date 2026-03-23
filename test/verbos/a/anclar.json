@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"anclar","gerundio":"anclando","participio":"anclado"},
+  "formas_no_personales": {"infinitivo":"anclar","gerundio":["anclando"], "participio":["anclado"]},
   "formas_personales": {
     "IndPres": {"s1":["anclo"],"s2":["anclas"],"vos":["anclás"],"s3":["ancla"],"p1":["anclamos"],"p2":["ancláis"],"p3":["anclan"]},
     "IndImp": {"s1":["anclaba"],"s2":["anclabas"],"vos":["anclabas"],"s3":["anclaba"],"p1":["anclábamos"],"p2":["anclabais"],"p3":["anclaban"]},

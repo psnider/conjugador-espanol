@@ -6,7 +6,7 @@
     "etimologia": "De falta y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"faltar","gerundio":"faltando","participio":"faltado"},
+  "formas_no_personales": {"infinitivo":"faltar","gerundio":["faltando"], "participio":["faltado"]},
   "formas_personales": {
     "IndPres": {"s1":["falto"],"s2":["faltas"],"vos":["faltás"],"s3":["falta"],"p1":["faltamos"],"p2":["faltáis"],"p3":["faltan"]},
     "IndImp": {"s1":["faltaba"],"s2":["faltabas"],"vos":["faltabas"],"s3":["faltaba"],"p1":["faltábamos"],"p2":["faltabais"],"p3":["faltaban"]},

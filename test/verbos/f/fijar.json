@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"fijar","gerundio":"fijando","participio":"fijado"},
+  "formas_no_personales": {"infinitivo":"fijar","gerundio":["fijando"], "participio":["fijado"]},
   "formas_personales": {
     "IndPres": {"s1":["fijo"],"s2":["fijas"],"vos":["fijás"],"s3":["fija"],"p1":["fijamos"],"p2":["fijáis"],"p3":["fijan"]},
     "IndImp": {"s1":["fijaba"],"s2":["fijabas"],"vos":["fijabas"],"s3":["fijaba"],"p1":["fijábamos"],"p2":["fijabais"],"p3":["fijaban"]},

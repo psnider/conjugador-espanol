@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnsepˈt̪waɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De concepto (del latín conceptus) y el sufijo -ar.",
+    "modelos": ["actuar"]
+  },
+  "formas_no_personales": {"infinitivo":"conceptuar","gerundio":["conceptuando"], "participio":["conceptuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["conceptúo"],"s2":["conceptúas"],"vos":["conceptuás"],"s3":["conceptúa"],"p1":["conceptuamos"],"p2":["conceptuáis"],"p3":["conceptúan"]},
+    "IndImp": {"s1":["conceptuaba"],"s2":["conceptuabas"],"vos":["conceptuabas"],"s3":["conceptuaba"],"p1":["conceptuábamos"],"p2":["conceptuabais"],"p3":["conceptuaban"]},
+    "IndPret": {"s1":["conceptué"],"s2":["conceptuaste"],"vos":["conceptuaste"],"s3":["conceptuó"],"p1":["conceptuamos"],"p2":["conceptuasteis"],"p3":["conceptuaron"]},
+    "IndFut": {"s1":["conceptuaré"],"s2":["conceptuarás"],"vos":["conceptuarás"],"s3":["conceptuará"],"p1":["conceptuaremos"],"p2":["conceptuaréis"],"p3":["conceptuarán"]},
+    "IndCond": {"s1":["conceptuaría"],"s2":["conceptuarías"],"vos":["conceptuarías"],"s3":["conceptuaría"],"p1":["conceptuaríamos"],"p2":["conceptuaríais"],"p3":["conceptuarían"]},
+    "SubPres": {"s1":["conceptúe"],"s2":["conceptúes"],"vos":["conceptúes","conceptués"],"s3":["conceptúe"],"p1":["conceptuemos"],"p2":["conceptuéis"],"p3":["conceptúen"]},
+    "SubImp": {"s1":["conceptuara","conceptuase"],"s2":["conceptuaras","conceptuases"],"vos":["conceptuaras","conceptuases"],"s3":["conceptuara","conceptuase"],"p1":["conceptuáramos","conceptuásemos"],"p2":["conceptuarais","conceptuaseis"],"p3":["conceptuaran","conceptuasen"]},
+    "SubFut": {"s1":["conceptuare"],"s2":["conceptuares"],"vos":["conceptuares"],"s3":["conceptuare"],"p1":["conceptuáremos"],"p2":["conceptuareis"],"p3":["conceptuaren"]},
+    "CmdPos": {"s2":["conceptúa"],"vos":["conceptuá"],"s3":["conceptúe"],"p1":["conceptuemos"],"p2":["conceptuad"],"p3":["conceptúen"]}
+  }
+}

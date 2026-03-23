@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"recurrir","gerundio":"recurriendo","participio":"recurrido"},
+  "formas_no_personales": {"infinitivo":"recurrir","gerundio":["recurriendo"], "participio":["recurrido"]},
   "formas_personales": {
     "IndPres": {"s1":["recurro"],"s2":["recurres"],"vos":["recurrís"],"s3":["recurre"],"p1":["recurrimos"],"p2":["recurrís"],"p3":["recurren"]},
     "IndImp": {"s1":["recurría"],"s2":["recurrías"],"vos":["recurrías"],"s3":["recurría"],"p1":["recurríamos"],"p2":["recurríais"],"p3":["recurrían"]},

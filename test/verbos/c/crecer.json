@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo creçer, y este del latín crescere.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"crecer","gerundio":"creciendo","participio":"crecido"},
+  "formas_no_personales": {"infinitivo":"crecer","gerundio":["creciendo"], "participio":["crecido"]},
   "formas_personales": {
     "IndPres": {"s1":["crezco"],"s2":["creces"],"vos":["crecés"],"s3":["crece"],"p1":["crecemos"],"p2":["crecéis"],"p3":["crecen"]},
     "IndImp": {"s1":["crecía"],"s2":["crecías"],"vos":["crecías"],"s3":["crecía"],"p1":["crecíamos"],"p2":["crecíais"],"p3":["crecían"]},

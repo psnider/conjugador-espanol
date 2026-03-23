@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo re- y enviar",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"reenviar","gerundio":"reenviando","participio":"reenviado"},
+  "formas_no_personales": {"infinitivo":"reenviar","gerundio":["reenviando"], "participio":["reenviado"]},
   "formas_personales": {
     "IndPres": {"s1":["reenvío"],"s2":["reenvías"],"vos":["reenviás"],"s3":["reenvía"],"p1":["reenviamos"],"p2":["reenviáis"],"p3":["reenvían"]},
     "IndImp": {"s1":["reenviaba"],"s2":["reenviabas"],"vos":["reenviabas"],"s3":["reenviaba"],"p1":["reenviábamos"],"p2":["reenviabais"],"p3":["reenviaban"]},

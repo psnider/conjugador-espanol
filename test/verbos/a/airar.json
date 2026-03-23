@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ajˈɾaɾ]",
+    "silabacion": "ai-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, ira y el sufijo -ar.",
+    "modelos": ["aislar"]
+  },
+  "formas_no_personales": {"infinitivo":"airar","gerundio":["airando"], "participio":["airado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aíro"],"s2":["aíras"],"vos":["airás"],"s3":["aíra"],"p1":["airamos"],"p2":["airáis"],"p3":["aíran"]},
+    "IndImp": {"s1":["airaba"],"s2":["airabas"],"vos":["airabas"],"s3":["airaba"],"p1":["airábamos"],"p2":["airabais"],"p3":["airaban"]},
+    "IndPret": {"s1":["airé"],"s2":["airaste"],"vos":["airaste"],"s3":["airó"],"p1":["airamos"],"p2":["airasteis"],"p3":["airaron"]},
+    "IndFut": {"s1":["airaré"],"s2":["airarás"],"vos":["airarás"],"s3":["airará"],"p1":["airaremos"],"p2":["airaréis"],"p3":["airarán"]},
+    "IndCond": {"s1":["airaría"],"s2":["airarías"],"vos":["airarías"],"s3":["airaría"],"p1":["airaríamos"],"p2":["airaríais"],"p3":["airarían"]},
+    "SubPres": {"s1":["aíre"],"s2":["aíres"],"vos":["aíres","airés"],"s3":["aíre"],"p1":["airemos"],"p2":["airéis"],"p3":["aíren"]},
+    "SubImp": {"s1":["airara","airase"],"s2":["airaras","airases"],"vos":["airaras","airases"],"s3":["airara","airase"],"p1":["airáramos","airásemos"],"p2":["airarais","airaseis"],"p3":["airaran","airasen"]},
+    "SubFut": {"s1":["airare"],"s2":["airares"],"vos":["airares"],"s3":["airare"],"p1":["airáremos"],"p2":["airareis"],"p3":["airaren"]},
+    "CmdPos": {"s2":["aíra"],"vos":["airá"],"s3":["aíre"],"p1":["airemos"],"p2":["airad"],"p3":["aíren"]}
+  }
+}

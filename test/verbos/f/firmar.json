@@ -6,7 +6,7 @@
     "etimologia": "Del latín firmare ('afirmar'), dar fuerza.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"firmar","gerundio":"firmando","participio":"firmado"},
+  "formas_no_personales": {"infinitivo":"firmar","gerundio":["firmando"], "participio":["firmado"]},
   "formas_personales": {
     "IndPres": {"s1":["firmo"],"s2":["firmas"],"vos":["firmás"],"s3":["firma"],"p1":["firmamos"],"p2":["firmáis"],"p3":["firman"]},
     "IndImp": {"s1":["firmaba"],"s2":["firmabas"],"vos":["firmabas"],"s3":["firmaba"],"p1":["firmábamos"],"p2":["firmabais"],"p3":["firmaban"]},

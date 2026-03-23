@@ -6,7 +6,7 @@
     "etimologia": "Del caló currar, del sánscrito कृणोति (kṛṇoti, 'hacer'), करोति&nbsp;(karoti).",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"currar","gerundio":"currando","participio":"currado"},
+  "formas_no_personales": {"infinitivo":"currar","gerundio":["currando"], "participio":["currado"]},
   "formas_personales": {
     "IndPres": {"s1":["curro"],"s2":["curras"],"vos":["currás"],"s3":["curra"],"p1":["curramos"],"p2":["curráis"],"p3":["curran"]},
     "IndImp": {"s1":["curraba"],"s2":["currabas"],"vos":["currabas"],"s3":["curraba"],"p1":["currábamos"],"p2":["currabais"],"p3":["curraban"]},

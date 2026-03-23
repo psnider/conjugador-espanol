@@ -5,7 +5,7 @@
     "etimologia": "Del latín ampliāre.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"ampliar","gerundio":"ampliando","participio":"ampliado"},
+  "formas_no_personales": {"infinitivo":"ampliar","gerundio":["ampliando"], "participio":["ampliado"]},
   "formas_personales": {
     "IndPres": {"s1":["amplío"],"s2":["amplías"],"vos":["ampliás"],"s3":["amplía"],"p1":["ampliamos"],"p2":["ampliáis"],"p3":["amplían"]},
     "IndImp": {"s1":["ampliaba"],"s2":["ampliabas"],"vos":["ampliabas"],"s3":["ampliaba"],"p1":["ampliábamos"],"p2":["ampliabais"],"p3":["ampliaban"]},

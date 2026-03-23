@@ -6,7 +6,7 @@
     "etimologia": "Del latín videre y este del protoindoeuropeo *weyd-.",
     "modelos": ["ver"]
   },
-  "formas_no_personales": {"infinitivo":"ver","gerundio":"viendo","participio":"visto"},
+  "formas_no_personales": {"infinitivo":"ver","gerundio":["viendo"], "participio":["visto"]},
   "formas_personales": {
     "IndPres": {"s1":["veo"],"s2":["ves"],"vos":["ves"],"s3":["ve"],"p1":["vemos"],"p2":["veis"],"p3":["ven"]},
     "IndImp": {"s1":["veía"],"s2":["veías"],"vos":["veías"],"s3":["veía"],"p1":["veíamos"],"p2":["veíais"],"p3":["veían"]},

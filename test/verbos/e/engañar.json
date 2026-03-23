@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar *ingannare ('burlar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"engañar","gerundio":"engañando","participio":"engañado"},
+  "formas_no_personales": {"infinitivo":"engañar","gerundio":["engañando"], "participio":["engañado"]},
   "formas_personales": {
     "IndPres": {"s1":["engaño"],"s2":["engañas"],"vos":["engañás"],"s3":["engaña"],"p1":["engañamos"],"p2":["engañáis"],"p3":["engañan"]},
     "IndImp": {"s1":["engañaba"],"s2":["engañabas"],"vos":["engañabas"],"s3":["engañaba"],"p1":["engañábamos"],"p2":["engañabais"],"p3":["engañaban"]},

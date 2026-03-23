@@ -6,7 +6,7 @@
     "etimologia": "Del latín proceděre, 'adelantar', 'ir adelante', de donde 'pasar a otra cosa'.[1]",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"proceder","gerundio":"procediendo","participio":"procedido"},
+  "formas_no_personales": {"infinitivo":"proceder","gerundio":["procediendo"], "participio":["procedido"]},
   "formas_personales": {
     "IndPres": {"s1":["procedo"],"s2":["procedes"],"vos":["procedés"],"s3":["procede"],"p1":["procedemos"],"p2":["procedéis"],"p3":["proceden"]},
     "IndImp": {"s1":["procedía"],"s2":["procedías"],"vos":["procedías"],"s3":["procedía"],"p1":["procedíamos"],"p2":["procedíais"],"p3":["procedían"]},

@@ -6,7 +6,7 @@
     "etimologia": "De titubar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"titubear","gerundio":"titubeando","participio":"titubeado"},
+  "formas_no_personales": {"infinitivo":"titubear","gerundio":["titubeando"], "participio":["titubeado"]},
   "formas_personales": {
     "IndPres": {"s1":["titubeo"],"s2":["titubeas"],"vos":["titubeás"],"s3":["titubea"],"p1":["titubeamos"],"p2":["titubeáis"],"p3":["titubean"]},
     "IndImp": {"s1":["titubeaba"],"s2":["titubeabas"],"vos":["titubeabas"],"s3":["titubeaba"],"p1":["titubeábamos"],"p2":["titubeabais"],"p3":["titubeaban"]},

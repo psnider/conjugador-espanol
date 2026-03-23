@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awˈnaɾ]",
+    "silabacion": "au-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adunare. Del prefijo a-, uno y el sufijo -ar.",
+    "modelos": ["aunar"]
+  },
+  "formas_no_personales": {"infinitivo":"aunar","gerundio":["aunando"], "participio":["aunado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aúno"],"s2":["aúnas"],"vos":["aunás"],"s3":["aúna"],"p1":["aunamos"],"p2":["aunáis"],"p3":["aúnan"]},
+    "IndImp": {"s1":["aunaba"],"s2":["aunabas"],"vos":["aunabas"],"s3":["aunaba"],"p1":["aunábamos"],"p2":["aunabais"],"p3":["aunaban"]},
+    "IndPret": {"s1":["auné"],"s2":["aunaste"],"vos":["aunaste"],"s3":["aunó"],"p1":["aunamos"],"p2":["aunasteis"],"p3":["aunaron"]},
+    "IndFut": {"s1":["aunaré"],"s2":["aunarás"],"vos":["aunarás"],"s3":["aunará"],"p1":["aunaremos"],"p2":["aunaréis"],"p3":["aunarán"]},
+    "IndCond": {"s1":["aunaría"],"s2":["aunarías"],"vos":["aunarías"],"s3":["aunaría"],"p1":["aunaríamos"],"p2":["aunaríais"],"p3":["aunarían"]},
+    "SubPres": {"s1":["aúne"],"s2":["aúnes"],"vos":["aúnes","aunés"],"s3":["aúne"],"p1":["aunemos"],"p2":["aunéis"],"p3":["aúnen"]},
+    "SubImp": {"s1":["aunara","aunase"],"s2":["aunaras","aunases"],"vos":["aunaras","aunases"],"s3":["aunara","aunase"],"p1":["aunáramos","aunásemos"],"p2":["aunarais","aunaseis"],"p3":["aunaran","aunasen"]},
+    "SubFut": {"s1":["aunare"],"s2":["aunares"],"vos":["aunares"],"s3":["aunare"],"p1":["aunáremos"],"p2":["aunareis"],"p3":["aunaren"]},
+    "CmdPos": {"s2":["aúna"],"vos":["auná"],"s3":["aúne"],"p1":["aunemos"],"p2":["aunad"],"p3":["aúnen"]}
+  }
+}

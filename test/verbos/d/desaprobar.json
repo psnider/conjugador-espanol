@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"desaprobar","gerundio":"desaprobando","participio":"desaprobado"},
+  "formas_no_personales": {"infinitivo":"desaprobar","gerundio":["desaprobando"], "participio":["desaprobado"]},
   "formas_personales": {
     "IndPres": {"s1":["desapruebo"],"s2":["desapruebas"],"vos":["desaprobás"],"s3":["desaprueba"],"p1":["desaprobamos"],"p2":["desaprobáis"],"p3":["desaprueban"]},
     "IndImp": {"s1":["desaprobaba"],"s2":["desaprobabas"],"vos":["desaprobabas"],"s3":["desaprobaba"],"p1":["desaprobábamos"],"p2":["desaprobabais"],"p3":["desaprobaban"]},

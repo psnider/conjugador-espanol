@@ -6,7 +6,7 @@
     "etimologia": "Del latín obturare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atorar","gerundio":"atorando","participio":"atorado"},
+  "formas_no_personales": {"infinitivo":"atorar","gerundio":["atorando"], "participio":["atorado"]},
   "formas_personales": {
     "IndPres": {"s1":["atoro"],"s2":["atoras"],"vos":["atorás"],"s3":["atora"],"p1":["atoramos"],"p2":["atoráis"],"p3":["atoran"]},
     "IndImp": {"s1":["atoraba"],"s2":["atorabas"],"vos":["atorabas"],"s3":["atoraba"],"p1":["atorábamos"],"p2":["atorabais"],"p3":["atoraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín infestare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"infestar","gerundio":"infestando","participio":"infestado"},
+  "formas_no_personales": {"infinitivo":"infestar","gerundio":["infestando"], "participio":["infestado"]},
   "formas_personales": {
     "IndPres": {"s1":["infesto"],"s2":["infestas"],"vos":["infestás"],"s3":["infesta"],"p1":["infestamos"],"p2":["infestáis"],"p3":["infestan"]},
     "IndImp": {"s1":["infestaba"],"s2":["infestabas"],"vos":["infestabas"],"s3":["infestaba"],"p1":["infestábamos"],"p2":["infestabais"],"p3":["infestaban"]},

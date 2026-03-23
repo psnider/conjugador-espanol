@@ -6,7 +6,7 @@
     "etimologia": "Del latín dissentīre, infinitivo presente de dissentiō (\"diferir, no estar de acuerdo\")",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"disentir","gerundio":"disintiendo","participio":"disentido"},
+  "formas_no_personales": {"infinitivo":"disentir","gerundio":["disintiendo"], "participio":["disentido"]},
   "formas_personales": {
     "IndPres": {"s1":["disiento"],"s2":["disientes"],"vos":["disentís"],"s3":["disiente"],"p1":["disentimos"],"p2":["disentís"],"p3":["disienten"]},
     "IndImp": {"s1":["disentía"],"s2":["disentías"],"vos":["disentías"],"s3":["disentía"],"p1":["disentíamos"],"p2":["disentíais"],"p3":["disentían"]},

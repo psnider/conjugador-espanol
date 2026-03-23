@@ -6,7 +6,7 @@
     "etimologia": "Del latín supportāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"soportar","gerundio":"soportando","participio":"soportado"},
+  "formas_no_personales": {"infinitivo":"soportar","gerundio":["soportando"], "participio":["soportado"]},
   "formas_personales": {
     "IndPres": {"s1":["soporto"],"s2":["soportas"],"vos":["soportás"],"s3":["soporta"],"p1":["soportamos"],"p2":["soportáis"],"p3":["soportan"]},
     "IndImp": {"s1":["soportaba"],"s2":["soportabas"],"vos":["soportabas"],"s3":["soportaba"],"p1":["soportábamos"],"p2":["soportabais"],"p3":["soportaban"]},

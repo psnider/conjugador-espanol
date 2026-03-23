@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo a-, brazo y el sufijo -ar",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"abrazar","gerundio":"abrazando","participio":"abrazado"},
+  "formas_no_personales": {"infinitivo":"abrazar","gerundio":["abrazando"], "participio":["abrazado"]},
   "formas_personales": {
     "IndPres": {"s1":["abrazo"],"s2":["abrazas"],"vos":["abrazás"],"s3":["abraza"],"p1":["abrazamos"],"p2":["abrazáis"],"p3":["abrazan"]},
     "IndImp": {"s1":["abrazaba"],"s2":["abrazabas"],"vos":["abrazabas"],"s3":["abrazaba"],"p1":["abrazábamos"],"p2":["abrazabais"],"p3":["abrazaban"]},

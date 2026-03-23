@@ -6,7 +6,7 @@
     "etimologia": "Del latín interrumpĕre.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"interrumpir","gerundio":"interrumpiendo","participio":"interrumpido"},
+  "formas_no_personales": {"infinitivo":"interrumpir","gerundio":["interrumpiendo"], "participio":["interrumpido"]},
   "formas_personales": {
     "IndPres": {"s1":["interrumpo"],"s2":["interrumpes"],"vos":["interrumpís"],"s3":["interrumpe"],"p1":["interrumpimos"],"p2":["interrumpís"],"p3":["interrumpen"]},
     "IndImp": {"s1":["interrumpía"],"s2":["interrumpías"],"vos":["interrumpías"],"s3":["interrumpía"],"p1":["interrumpíamos"],"p2":["interrumpíais"],"p3":["interrumpían"]},

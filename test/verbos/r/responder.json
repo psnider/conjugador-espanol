@@ -6,7 +6,7 @@
     "etimologia": "Se documenta su uso desde el siglo X.[1] Del latín respondēre.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"responder","gerundio":"respondiendo","participio":"respondido"},
+  "formas_no_personales": {"infinitivo":"responder","gerundio":["respondiendo"], "participio":["respondido"]},
   "formas_personales": {
     "IndPres": {"s1":["respondo"],"s2":["respondes"],"vos":["respondés"],"s3":["responde"],"p1":["respondemos"],"p2":["respondéis"],"p3":["responden"]},
     "IndImp": {"s1":["respondía"],"s2":["respondías"],"vos":["respondías"],"s3":["respondía"],"p1":["respondíamos"],"p2":["respondíais"],"p3":["respondían"]},

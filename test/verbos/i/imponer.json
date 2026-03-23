@@ -6,7 +6,7 @@
     "etimologia": "Del latín imponĕre ('poner encima').",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"imponer","gerundio":"imponiendo","participio":"impuesto"},
+  "formas_no_personales": {"infinitivo":"imponer","gerundio":["imponiendo"], "participio":["impuesto"]},
   "formas_personales": {
     "IndPres": {"s1":["impongo"],"s2":["impones"],"vos":["imponés"],"s3":["impone"],"p1":["imponemos"],"p2":["imponéis"],"p3":["imponen"]},
     "IndImp": {"s1":["imponía"],"s2":["imponías"],"vos":["imponías"],"s3":["imponía"],"p1":["imponíamos"],"p2":["imponíais"],"p3":["imponían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín iudicare, del latín ius, \"derecho\", a su vez del latín *ious, del protoindoeuropeo *yew(e)s[1]; y dicere, \"decir\", del protoindoeuropeo *deyḱ-, \"mostrar\".",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"juzgar","gerundio":"juzgando","participio":"juzgado"},
+  "formas_no_personales": {"infinitivo":"juzgar","gerundio":["juzgando"], "participio":["juzgado"]},
   "formas_personales": {
     "IndPres": {"s1":["juzgo"],"s2":["juzgas"],"vos":["juzgás"],"s3":["juzga"],"p1":["juzgamos"],"p2":["juzgáis"],"p3":["juzgan"]},
     "IndImp": {"s1":["juzgaba"],"s2":["juzgabas"],"vos":["juzgabas"],"s3":["juzgaba"],"p1":["juzgábamos"],"p2":["juzgabais"],"p3":["juzgaban"]},

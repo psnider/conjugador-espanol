@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, poder y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"apoderar","gerundio":"apoderando","participio":"apoderado"},
+  "formas_no_personales": {"infinitivo":"apoderar","gerundio":["apoderando"], "participio":["apoderado"]},
   "formas_personales": {
     "IndPres": {"s1":["apodero"],"s2":["apoderas"],"vos":["apoderás"],"s3":["apodera"],"p1":["apoderamos"],"p2":["apoderáis"],"p3":["apoderan"]},
     "IndImp": {"s1":["apoderaba"],"s2":["apoderabas"],"vos":["apoderabas"],"s3":["apoderaba"],"p1":["apoderábamos"],"p2":["apoderabais"],"p3":["apoderaban"]},

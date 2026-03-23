@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, máscara y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enmascarar","gerundio":"enmascarando","participio":"enmascarado"},
+  "formas_no_personales": {"infinitivo":"enmascarar","gerundio":["enmascarando"], "participio":["enmascarado"]},
   "formas_personales": {
     "IndPres": {"s1":["enmascaro"],"s2":["enmascaras"],"vos":["enmascarás"],"s3":["enmascara"],"p1":["enmascaramos"],"p2":["enmascaráis"],"p3":["enmascaran"]},
     "IndImp": {"s1":["enmascaraba"],"s2":["enmascarabas"],"vos":["enmascarabas"],"s3":["enmascaraba"],"p1":["enmascarábamos"],"p2":["enmascarabais"],"p3":["enmascaraban"]},

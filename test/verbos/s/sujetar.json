@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"sujetar","gerundio":"sujetando","participio":"sujetado"},
+  "formas_no_personales": {"infinitivo":"sujetar","gerundio":["sujetando"], "participio":["sujetado"]},
   "formas_personales": {
     "IndPres": {"s1":["sujeto"],"s2":["sujetas"],"vos":["sujetás"],"s3":["sujeta"],"p1":["sujetamos"],"p2":["sujetáis"],"p3":["sujetan"]},
     "IndImp": {"s1":["sujetaba"],"s2":["sujetabas"],"vos":["sujetabas"],"s3":["sujetaba"],"p1":["sujetábamos"],"p2":["sujetabais"],"p3":["sujetaban"]},

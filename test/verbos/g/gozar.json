@@ -6,7 +6,7 @@
     "etimologia": "De gozo y el sufijo -ar.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"gozar","gerundio":"gozando","participio":"gozado"},
+  "formas_no_personales": {"infinitivo":"gozar","gerundio":["gozando"], "participio":["gozado"]},
   "formas_personales": {
     "IndPres": {"s1":["gozo"],"s2":["gozas"],"vos":["gozás"],"s3":["goza"],"p1":["gozamos"],"p2":["gozáis"],"p3":["gozan"]},
     "IndImp": {"s1":["gozaba"],"s2":["gozabas"],"vos":["gozabas"],"s3":["gozaba"],"p1":["gozábamos"],"p2":["gozabais"],"p3":["gozaban"]},

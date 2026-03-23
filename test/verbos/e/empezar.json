@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["realizar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"empezar","gerundio":"empezando","participio":"empezado"},
+  "formas_no_personales": {"infinitivo":"empezar","gerundio":["empezando"], "participio":["empezado"]},
   "formas_personales": {
     "IndPres": {"s1":["empiezo"],"s2":["empiezas"],"vos":["empezás"],"s3":["empieza"],"p1":["empezamos"],"p2":["empezáis"],"p3":["empiezan"]},
     "IndImp": {"s1":["empezaba"],"s2":["empezabas"],"vos":["empezabas"],"s3":["empezaba"],"p1":["empezábamos"],"p2":["empezabais"],"p3":["empezaban"]},

@@ -5,7 +5,7 @@
     "etimologia": "De refugio y el sufijo -ar.",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"refugiar","gerundio":"refugiando","participio":"refugiado"},
+  "formas_no_personales": {"infinitivo":"refugiar","gerundio":["refugiando"], "participio":["refugiado"]},
   "formas_personales": {
     "IndPres": {"s1":["refugio"],"s2":["refugias"],"vos":["refugiás"],"s3":["refugia"],"p1":["refugiamos"],"p2":["refugiáis"],"p3":["refugian"]},
     "IndImp": {"s1":["refugiaba"],"s2":["refugiabas"],"vos":["refugiabas"],"s3":["refugiaba"],"p1":["refugiábamos"],"p2":["refugiabais"],"p3":["refugiaban"]},

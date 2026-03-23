@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, garra y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agarrar","gerundio":"agarrando","participio":"agarrado"},
+  "formas_no_personales": {"infinitivo":"agarrar","gerundio":["agarrando"], "participio":["agarrado"]},
   "formas_personales": {
     "IndPres": {"s1":["agarro"],"s2":["agarras"],"vos":["agarrás"],"s3":["agarra"],"p1":["agarramos"],"p2":["agarráis"],"p3":["agarran"]},
     "IndImp": {"s1":["agarraba"],"s2":["agarrabas"],"vos":["agarrabas"],"s3":["agarraba"],"p1":["agarrábamos"],"p2":["agarrabais"],"p3":["agarraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín multiplicāre, compuesto de multi&nbsp;('muchos') y el verbo plicāre (\"plegar\", doblar\").",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"multiplicar","gerundio":"multiplicando","participio":"multiplicado"},
+  "formas_no_personales": {"infinitivo":"multiplicar","gerundio":["multiplicando"], "participio":["multiplicado"]},
   "formas_personales": {
     "IndPres": {"s1":["multiplico"],"s2":["multiplicas"],"vos":["multiplicás"],"s3":["multiplica"],"p1":["multiplicamos"],"p2":["multiplicáis"],"p3":["multiplican"]},
     "IndImp": {"s1":["multiplicaba"],"s2":["multiplicabas"],"vos":["multiplicabas"],"s3":["multiplicaba"],"p1":["multiplicábamos"],"p2":["multiplicabais"],"p3":["multiplicaban"]},

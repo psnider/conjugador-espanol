@@ -6,7 +6,7 @@
     "etimologia": "Del latín intendere (\"dirigirse\", tender a\"),[2] compuesto de in&nbsp;('dentro') y tendō, tendere (\"tender\", \"ir hacia\").",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"entender","gerundio":"entendiendo","participio":"entendido"},
+  "formas_no_personales": {"infinitivo":"entender","gerundio":["entendiendo"], "participio":["entendido"]},
   "formas_personales": {
     "IndPres": {"s1":["entiendo"],"s2":["entiendes"],"vos":["entendés"],"s3":["entiende"],"p1":["entendemos"],"p2":["entendéis"],"p3":["entienden"]},
     "IndImp": {"s1":["entendía"],"s2":["entendías"],"vos":["entendías"],"s3":["entendía"],"p1":["entendíamos"],"p2":["entendíais"],"p3":["entendían"]},

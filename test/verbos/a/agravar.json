@@ -6,7 +6,7 @@
     "etimologia": "Del latín aggravāre, compuesto del latín gravo.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agravar","gerundio":"agravando","participio":"agravado"},
+  "formas_no_personales": {"infinitivo":"agravar","gerundio":["agravando"], "participio":["agravado"]},
   "formas_personales": {
     "IndPres": {"s1":["agravo"],"s2":["agravas"],"vos":["agravás"],"s3":["agrava"],"p1":["agravamos"],"p2":["agraváis"],"p3":["agravan"]},
     "IndImp": {"s1":["agravaba"],"s2":["agravabas"],"vos":["agravabas"],"s3":["agravaba"],"p1":["agravábamos"],"p2":["agravabais"],"p3":["agravaban"]},

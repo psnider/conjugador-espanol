@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo fervir, y este del latín fervere, del protoindoeuropeo *bʰrw-. Compárese efervescente, enfervorizar, fermento, férvido, ferviente, fervor, el italiano fervere, el portugués ferver o el rumano fierbe.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"hervir","gerundio":"hirviendo","participio":"hervido"},
+  "formas_no_personales": {"infinitivo":"hervir","gerundio":["hirviendo"], "participio":["hervido"]},
   "formas_personales": {
     "IndPres": {"s1":["hiervo"],"s2":["hierves"],"vos":["hervís"],"s3":["hierve"],"p1":["hervimos"],"p2":["hervís"],"p3":["hierven"]},
     "IndImp": {"s1":["hervía"],"s2":["hervías"],"vos":["hervías"],"s3":["hervía"],"p1":["hervíamos"],"p2":["hervíais"],"p3":["hervían"]},

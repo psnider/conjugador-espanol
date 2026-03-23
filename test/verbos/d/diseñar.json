@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"diseñar","gerundio":"diseñando","participio":"diseñado"},
+  "formas_no_personales": {"infinitivo":"diseñar","gerundio":["diseñando"], "participio":["diseñado"]},
   "formas_personales": {
     "IndPres": {"s1":["diseño"],"s2":["diseñas"],"vos":["diseñás"],"s3":["diseña"],"p1":["diseñamos"],"p2":["diseñáis"],"p3":["diseñan"]},
     "IndImp": {"s1":["diseñaba"],"s2":["diseñabas"],"vos":["diseñabas"],"s3":["diseñaba"],"p1":["diseñábamos"],"p2":["diseñabais"],"p3":["diseñaban"]},

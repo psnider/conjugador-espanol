@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo violar, y este del latín violare[1], y este del latín vis[2], del protoindoeuropeo *weih₁-.[3] Compárese el catalán violar, el francés violer, el italiano violare o el portugués violar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"violar","gerundio":"violando","participio":"violado"},
+  "formas_no_personales": {"infinitivo":"violar","gerundio":["violando"], "participio":["violado"]},
   "formas_personales": {
     "IndPres": {"s1":["violo"],"s2":["violas"],"vos":["violás"],"s3":["viola"],"p1":["violamos"],"p2":["violáis"],"p3":["violan"]},
     "IndImp": {"s1":["violaba"],"s2":["violabas"],"vos":["violabas"],"s3":["violaba"],"p1":["violábamos"],"p2":["violabais"],"p3":["violaban"]},

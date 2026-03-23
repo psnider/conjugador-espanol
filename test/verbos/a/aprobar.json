@@ -6,7 +6,7 @@
     "etimologia": "Del latín approbāre",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"aprobar","gerundio":"aprobando","participio":"aprobado"},
+  "formas_no_personales": {"infinitivo":"aprobar","gerundio":["aprobando"], "participio":["aprobado"]},
   "formas_personales": {
     "IndPres": {"s1":["apruebo"],"s2":["apruebas"],"vos":["aprobás"],"s3":["aprueba"],"p1":["aprobamos"],"p2":["aprobáis"],"p3":["aprueban"]},
     "IndImp": {"s1":["aprobaba"],"s2":["aprobabas"],"vos":["aprobabas"],"s3":["aprobaba"],"p1":["aprobábamos"],"p2":["aprobabais"],"p3":["aprobaban"]},

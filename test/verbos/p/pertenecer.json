@@ -6,7 +6,7 @@
     "etimologia": "Del latín pertineō, pertinēre (\"ser pertinente, concernir, ser propiedad de\"), compuesto del latín per (\"por, a través de\") y teneō, tenēre&nbsp;('tener'); con adición de la terminación verbal -sco, -scere (como en cognōscō, cognōscere).",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"pertenecer","gerundio":"perteneciendo","participio":"pertenecido"},
+  "formas_no_personales": {"infinitivo":"pertenecer","gerundio":["perteneciendo"], "participio":["pertenecido"]},
   "formas_personales": {
     "IndPres": {"s1":["pertenezco"],"s2":["perteneces"],"vos":["pertenecés"],"s3":["pertenece"],"p1":["pertenecemos"],"p2":["pertenecéis"],"p3":["pertenecen"]},
     "IndImp": {"s1":["pertenecía"],"s2":["pertenecías"],"vos":["pertenecías"],"s3":["pertenecía"],"p1":["pertenecíamos"],"p2":["pertenecíais"],"p3":["pertenecían"]},

@@ -6,7 +6,7 @@
     "etimologia": "De salpimienta y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"salpimentar","gerundio":"salpimentando","participio":"salpimentado"},
+  "formas_no_personales": {"infinitivo":"salpimentar","gerundio":["salpimentando"], "participio":["salpimentado"]},
   "formas_personales": {
     "IndPres": {"s1":["salpimiento"],"s2":["salpimientas"],"vos":["salpimentás"],"s3":["salpimienta"],"p1":["salpimentamos"],"p2":["salpimentáis"],"p3":["salpimientan"]},
     "IndImp": {"s1":["salpimentaba"],"s2":["salpimentabas"],"vos":["salpimentabas"],"s3":["salpimentaba"],"p1":["salpimentábamos"],"p2":["salpimentabais"],"p3":["salpimentaban"]},

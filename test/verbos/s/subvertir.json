@@ -6,7 +6,7 @@
     "etimologia": "Del latín subvertĕre.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"subvertir","gerundio":"subvirtiendo","participio":"subvertido"},
+  "formas_no_personales": {"infinitivo":"subvertir","gerundio":["subvirtiendo"], "participio":["subvertido"]},
   "formas_personales": {
     "IndPres": {"s1":["subvierto"],"s2":["subviertes"],"vos":["subvertís"],"s3":["subvierte"],"p1":["subvertimos"],"p2":["subvertís"],"p3":["subvierten"]},
     "IndImp": {"s1":["subvertía"],"s2":["subvertías"],"vos":["subvertías"],"s3":["subvertía"],"p1":["subvertíamos"],"p2":["subvertíais"],"p3":["subvertían"]},

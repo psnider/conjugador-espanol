@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arrimar","gerundio":"arrimando","participio":"arrimado"},
+  "formas_no_personales": {"infinitivo":"arrimar","gerundio":["arrimando"], "participio":["arrimado"]},
   "formas_personales": {
     "IndPres": {"s1":["arrimo"],"s2":["arrimas"],"vos":["arrimás"],"s3":["arrima"],"p1":["arrimamos"],"p2":["arrimáis"],"p3":["arriman"]},
     "IndImp": {"s1":["arrimaba"],"s2":["arrimabas"],"vos":["arrimabas"],"s3":["arrimaba"],"p1":["arrimábamos"],"p2":["arrimabais"],"p3":["arrimaban"]},

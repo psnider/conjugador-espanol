@@ -6,7 +6,7 @@
     "etimologia": "Del latín discarricāre.[1]",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"descargar","gerundio":"descargando","participio":"descargado"},
+  "formas_no_personales": {"infinitivo":"descargar","gerundio":["descargando"], "participio":["descargado"]},
   "formas_personales": {
     "IndPres": {"s1":["descargo"],"s2":["descargas"],"vos":["descargás"],"s3":["descarga"],"p1":["descargamos"],"p2":["descargáis"],"p3":["descargan"]},
     "IndImp": {"s1":["descargaba"],"s2":["descargabas"],"vos":["descargabas"],"s3":["descargaba"],"p1":["descargábamos"],"p2":["descargabais"],"p3":["descargaban"]},

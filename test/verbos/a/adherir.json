@@ -6,7 +6,7 @@
     "etimologia": "Del latín adhaerēre",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"adherir","gerundio":"adhiriendo","participio":"adherido"},
+  "formas_no_personales": {"infinitivo":"adherir","gerundio":["adhiriendo"], "participio":["adherido"]},
   "formas_personales": {
     "IndPres": {"s1":["adhiero"],"s2":["adhieres"],"vos":["adherís"],"s3":["adhiere"],"p1":["adherimos"],"p2":["adherís"],"p3":["adhieren"]},
     "IndImp": {"s1":["adhería"],"s2":["adherías"],"vos":["adherías"],"s3":["adhería"],"p1":["adheríamos"],"p2":["adheríais"],"p3":["adherían"]},

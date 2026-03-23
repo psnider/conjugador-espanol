@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, puro y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"apurar","gerundio":"apurando","participio":"apurado"},
+  "formas_no_personales": {"infinitivo":"apurar","gerundio":["apurando"], "participio":["apurado"]},
   "formas_personales": {
     "IndPres": {"s1":["apuro"],"s2":["apuras"],"vos":["apurás"],"s3":["apura"],"p1":["apuramos"],"p2":["apuráis"],"p3":["apuran"]},
     "IndImp": {"s1":["apuraba"],"s2":["apurabas"],"vos":["apurabas"],"s3":["apuraba"],"p1":["apurábamos"],"p2":["apurabais"],"p3":["apuraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"acceder","gerundio":"accediendo","participio":"accedido"},
+  "formas_no_personales": {"infinitivo":"acceder","gerundio":["accediendo"], "participio":["accedido"]},
   "formas_personales": {
     "IndPres": {"s1":["accedo"],"s2":["accedes"],"vos":["accedés"],"s3":["accede"],"p1":["accedemos"],"p2":["accedéis"],"p3":["acceden"]},
     "IndImp": {"s1":["accedía"],"s2":["accedías"],"vos":["accedías"],"s3":["accedía"],"p1":["accedíamos"],"p2":["accedíais"],"p3":["accedían"]},

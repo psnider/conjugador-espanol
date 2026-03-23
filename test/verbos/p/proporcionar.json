@@ -6,7 +6,7 @@
     "etimologia": "De proporción y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"proporcionar","gerundio":"proporcionando","participio":"proporcionado"},
+  "formas_no_personales": {"infinitivo":"proporcionar","gerundio":["proporcionando"], "participio":["proporcionado"]},
   "formas_personales": {
     "IndPres": {"s1":["proporciono"],"s2":["proporcionas"],"vos":["proporcionás"],"s3":["proporciona"],"p1":["proporcionamos"],"p2":["proporcionáis"],"p3":["proporcionan"]},
     "IndImp": {"s1":["proporcionaba"],"s2":["proporcionabas"],"vos":["proporcionabas"],"s3":["proporcionaba"],"p1":["proporcionábamos"],"p2":["proporcionabais"],"p3":["proporcionaban"]},

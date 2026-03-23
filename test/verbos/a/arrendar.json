@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, renta (véase) y el sufijo -ar.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"arrendar","gerundio":"arrendando","participio":"arrendado"},
+  "formas_no_personales": {"infinitivo":"arrendar","gerundio":["arrendando"], "participio":["arrendado"]},
   "formas_personales": {
     "IndPres": {"s1":["arriendo"],"s2":["arriendas"],"vos":["arrendás"],"s3":["arrienda"],"p1":["arrendamos"],"p2":["arrendáis"],"p3":["arriendan"]},
     "IndImp": {"s1":["arrendaba"],"s2":["arrendabas"],"vos":["arrendabas"],"s3":["arrendaba"],"p1":["arrendábamos"],"p2":["arrendabais"],"p3":["arrendaban"]},

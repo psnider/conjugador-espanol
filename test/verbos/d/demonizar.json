@@ -6,7 +6,7 @@
     "etimologia": "De demonio",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"demonizar","gerundio":"demonizando","participio":"demonizado"},
+  "formas_no_personales": {"infinitivo":"demonizar","gerundio":["demonizando"], "participio":["demonizado"]},
   "formas_personales": {
     "IndPres": {"s1":["demonizo"],"s2":["demonizas"],"vos":["demonizás"],"s3":["demoniza"],"p1":["demonizamos"],"p2":["demonizáis"],"p3":["demonizan"]},
     "IndImp": {"s1":["demonizaba"],"s2":["demonizabas"],"vos":["demonizabas"],"s3":["demonizaba"],"p1":["demonizábamos"],"p2":["demonizabais"],"p3":["demonizaban"]},

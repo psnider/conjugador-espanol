@@ -6,7 +6,7 @@
     "etimologia": "Del latín processus ('avance').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"procesar","gerundio":"procesando","participio":"procesado"},
+  "formas_no_personales": {"infinitivo":"procesar","gerundio":["procesando"], "participio":["procesado"]},
   "formas_personales": {
     "IndPres": {"s1":["proceso"],"s2":["procesas"],"vos":["procesás"],"s3":["procesa"],"p1":["procesamos"],"p2":["procesáis"],"p3":["procesan"]},
     "IndImp": {"s1":["procesaba"],"s2":["procesabas"],"vos":["procesabas"],"s3":["procesaba"],"p1":["procesábamos"],"p2":["procesabais"],"p3":["procesaban"]},

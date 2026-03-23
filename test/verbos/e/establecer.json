@@ -6,7 +6,7 @@
     "etimologia": "Del latín stabilīre ('establir'), establecer.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"establecer","gerundio":"estableciendo","participio":"establecido"},
+  "formas_no_personales": {"infinitivo":"establecer","gerundio":["estableciendo"], "participio":["establecido"]},
   "formas_personales": {
     "IndPres": {"s1":["establezco"],"s2":["estableces"],"vos":["establecés"],"s3":["establece"],"p1":["establecemos"],"p2":["establecéis"],"p3":["establecen"]},
     "IndImp": {"s1":["establecía"],"s2":["establecías"],"vos":["establecías"],"s3":["establecía"],"p1":["establecíamos"],"p2":["establecíais"],"p3":["establecían"]},

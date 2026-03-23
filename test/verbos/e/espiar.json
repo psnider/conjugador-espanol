@@ -5,7 +5,7 @@
     "etimologia": "Del latín vulgar *spiāre, del fráncico *spehōn, del protogermánico *spehōną, del protoindoeuropeo *speḱ- ('mirar'). Por análisis superficial, de espía y el sufijo -ar.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"espiar","gerundio":"espiando","participio":"espiado"},
+  "formas_no_personales": {"infinitivo":"espiar","gerundio":["espiando"], "participio":["espiado"]},
   "formas_personales": {
     "IndPres": {"s1":["espío"],"s2":["espías"],"vos":["espiás"],"s3":["espía"],"p1":["espiamos"],"p2":["espiáis"],"p3":["espían"]},
     "IndImp": {"s1":["espiaba"],"s2":["espiabas"],"vos":["espiabas"],"s3":["espiaba"],"p1":["espiábamos"],"p2":["espiabais"],"p3":["espiaban"]},

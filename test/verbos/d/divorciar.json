@@ -5,7 +5,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"divorciar","gerundio":"divorciando","participio":"divorciado"},
+  "formas_no_personales": {"infinitivo":"divorciar","gerundio":["divorciando"], "participio":["divorciado"]},
   "formas_personales": {
     "IndPres": {"s1":["divorcio"],"s2":["divorcias"],"vos":["divorciás"],"s3":["divorcia"],"p1":["divorciamos"],"p2":["divorciáis"],"p3":["divorcian"]},
     "IndImp": {"s1":["divorciaba"],"s2":["divorciabas"],"vos":["divorciabas"],"s3":["divorciaba"],"p1":["divorciábamos"],"p2":["divorciabais"],"p3":["divorciaban"]},

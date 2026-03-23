@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo encontrar, del latín vulgar *incontrāre; que equivale a del prefijo en-, contra y el sufijo -ar.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"encontrar","gerundio":"encontrando","participio":"encontrado"},
+  "formas_no_personales": {"infinitivo":"encontrar","gerundio":["encontrando"], "participio":["encontrado"]},
   "formas_personales": {
     "IndPres": {"s1":["encuentro"],"s2":["encuentras"],"vos":["encontrás"],"s3":["encuentra"],"p1":["encontramos"],"p2":["encontráis"],"p3":["encuentran"]},
     "IndImp": {"s1":["encontraba"],"s2":["encontrabas"],"vos":["encontrabas"],"s3":["encontraba"],"p1":["encontrábamos"],"p2":["encontrabais"],"p3":["encontraban"]},

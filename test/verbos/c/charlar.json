@@ -6,7 +6,7 @@
     "etimologia": "Del italiano ciarlare, de creación expresiva.[1] Compárese el catalán xarrar, xerrar, el occitano charrar o el portugués charlar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"charlar","gerundio":"charlando","participio":"charlado"},
+  "formas_no_personales": {"infinitivo":"charlar","gerundio":["charlando"], "participio":["charlado"]},
   "formas_personales": {
     "IndPres": {"s1":["charlo"],"s2":["charlas"],"vos":["charlás"],"s3":["charla"],"p1":["charlamos"],"p2":["charláis"],"p3":["charlan"]},
     "IndImp": {"s1":["charlaba"],"s2":["charlabas"],"vos":["charlabas"],"s3":["charlaba"],"p1":["charlábamos"],"p2":["charlabais"],"p3":["charlaban"]},

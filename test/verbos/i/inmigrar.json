@@ -6,7 +6,7 @@
     "etimologia": "Del latín immigrāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"inmigrar","gerundio":"inmigrando","participio":"inmigrado"},
+  "formas_no_personales": {"infinitivo":"inmigrar","gerundio":["inmigrando"], "participio":["inmigrado"]},
   "formas_personales": {
     "IndPres": {"s1":["inmigro"],"s2":["inmigras"],"vos":["inmigrás"],"s3":["inmigra"],"p1":["inmigramos"],"p2":["inmigráis"],"p3":["inmigran"]},
     "IndImp": {"s1":["inmigraba"],"s2":["inmigrabas"],"vos":["inmigrabas"],"s3":["inmigraba"],"p1":["inmigrábamos"],"p2":["inmigrabais"],"p3":["inmigraban"]},

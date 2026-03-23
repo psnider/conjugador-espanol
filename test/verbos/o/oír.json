@@ -6,7 +6,7 @@
     "etimologia": "Del latín audīre.",
     "modelos": ["oír"]
   },
-  "formas_no_personales": {"infinitivo":"oír","gerundio":"oyendo","participio":"oído"},
+  "formas_no_personales": {"infinitivo":"oír","gerundio":["oyendo"], "participio":["oído"]},
   "formas_personales": {
     "IndPres": {"s1":["oigo"],"s2":["oyes"],"vos":["oís"],"s3":["oye"],"p1":["oímos"],"p2":["oís"],"p3":["oyen"]},
     "IndImp": {"s1":["oía"],"s2":["oías"],"vos":["oías"],"s3":["oía"],"p1":["oíamos"],"p2":["oíais"],"p3":["oían"]},

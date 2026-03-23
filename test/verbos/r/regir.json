@@ -6,7 +6,7 @@
     "etimologia": "Semicultismo. Del latín regĕre",
     "modelos": ["dirigir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"regir","gerundio":"rigiendo","participio":"regido"},
+  "formas_no_personales": {"infinitivo":"regir","gerundio":["rigiendo"], "participio":["regido"]},
   "formas_personales": {
     "IndPres": {"s1":["rijo"],"s2":["riges"],"vos":["regís"],"s3":["rige"],"p1":["regimos"],"p2":["regís"],"p3":["rigen"]},
     "IndImp": {"s1":["regía"],"s2":["regías"],"vos":["regías"],"s3":["regía"],"p1":["regíamos"],"p2":["regíais"],"p3":["regían"]},

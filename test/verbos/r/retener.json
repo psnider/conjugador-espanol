@@ -6,7 +6,7 @@
     "etimologia": "Del latín retinēre",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"retener","gerundio":"reteniendo","participio":"retenido"},
+  "formas_no_personales": {"infinitivo":"retener","gerundio":["reteniendo"], "participio":["retenido"]},
   "formas_personales": {
     "IndPres": {"s1":["retengo"],"s2":["retienes"],"vos":["retenés"],"s3":["retiene"],"p1":["retenemos"],"p2":["retenéis"],"p3":["retienen"]},
     "IndImp": {"s1":["retenía"],"s2":["retenías"],"vos":["retenías"],"s3":["retenía"],"p1":["reteníamos"],"p2":["reteníais"],"p3":["retenían"]},

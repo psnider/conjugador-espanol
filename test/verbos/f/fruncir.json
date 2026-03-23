@@ -6,7 +6,7 @@
     "etimologia": "Del latín frons, frontis, frente.",
     "modelos": ["fruncir"]
   },
-  "formas_no_personales": {"infinitivo":"fruncir","gerundio":"frunciendo","participio":"fruncido"},
+  "formas_no_personales": {"infinitivo":"fruncir","gerundio":["frunciendo"], "participio":["fruncido"]},
   "formas_personales": {
     "IndPres": {"s1":["frunzo"],"s2":["frunces"],"vos":["fruncís"],"s3":["frunce"],"p1":["fruncimos"],"p2":["fruncís"],"p3":["fruncen"]},
     "IndImp": {"s1":["fruncía"],"s2":["fruncías"],"vos":["fruncías"],"s3":["fruncía"],"p1":["fruncíamos"],"p2":["fruncíais"],"p3":["fruncían"]},

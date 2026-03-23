@@ -6,7 +6,7 @@
     "etimologia": "Del celtíbero *virāre, compárese el galés gwyro.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"virar","gerundio":"virando","participio":"virado"},
+  "formas_no_personales": {"infinitivo":"virar","gerundio":["virando"], "participio":["virado"]},
   "formas_personales": {
     "IndPres": {"s1":["viro"],"s2":["viras"],"vos":["virás"],"s3":["vira"],"p1":["viramos"],"p2":["viráis"],"p3":["viran"]},
     "IndImp": {"s1":["viraba"],"s2":["virabas"],"vos":["virabas"],"s3":["viraba"],"p1":["virábamos"],"p2":["virabais"],"p3":["viraban"]},

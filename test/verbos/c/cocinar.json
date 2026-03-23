@@ -6,7 +6,7 @@
     "etimologia": "Del latín coquināre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"cocinar","gerundio":"cocinando","participio":"cocinado"},
+  "formas_no_personales": {"infinitivo":"cocinar","gerundio":["cocinando"], "participio":["cocinado"]},
   "formas_personales": {
     "IndPres": {"s1":["cocino"],"s2":["cocinas"],"vos":["cocinás"],"s3":["cocina"],"p1":["cocinamos"],"p2":["cocináis"],"p3":["cocinan"]},
     "IndImp": {"s1":["cocinaba"],"s2":["cocinabas"],"vos":["cocinabas"],"s3":["cocinaba"],"p1":["cocinábamos"],"p2":["cocinabais"],"p3":["cocinaban"]},

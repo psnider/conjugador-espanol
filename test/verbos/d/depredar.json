@@ -6,7 +6,7 @@
     "etimologia": "Del latín depraedāri.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"depredar","gerundio":"depredando","participio":"depredado"},
+  "formas_no_personales": {"infinitivo":"depredar","gerundio":["depredando"], "participio":["depredado"]},
   "formas_personales": {
     "IndPres": {"s1":["depredo"],"s2":["depredas"],"vos":["depredás"],"s3":["depreda"],"p1":["depredamos"],"p2":["depredáis"],"p3":["depredan"]},
     "IndImp": {"s1":["depredaba"],"s2":["depredabas"],"vos":["depredabas"],"s3":["depredaba"],"p1":["depredábamos"],"p2":["depredabais"],"p3":["depredaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín sustinēre.",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"sostener","gerundio":"sosteniendo","participio":"sostenido"},
+  "formas_no_personales": {"infinitivo":"sostener","gerundio":["sosteniendo"], "participio":["sostenido"]},
   "formas_personales": {
     "IndPres": {"s1":["sostengo"],"s2":["sostienes"],"vos":["sostenés"],"s3":["sostiene"],"p1":["sostenemos"],"p2":["sostenéis"],"p3":["sostienen"]},
     "IndImp": {"s1":["sostenía"],"s2":["sostenías"],"vos":["sostenías"],"s3":["sostenía"],"p1":["sosteníamos"],"p2":["sosteníais"],"p3":["sostenían"]},

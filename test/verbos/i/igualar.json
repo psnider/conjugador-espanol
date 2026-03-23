@@ -6,7 +6,7 @@
     "etimologia": "De igual y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"igualar","gerundio":"igualando","participio":"igualado"},
+  "formas_no_personales": {"infinitivo":"igualar","gerundio":["igualando"], "participio":["igualado"]},
   "formas_personales": {
     "IndPres": {"s1":["igualo"],"s2":["igualas"],"vos":["igualás"],"s3":["iguala"],"p1":["igualamos"],"p2":["igualáis"],"p3":["igualan"]},
     "IndImp": {"s1":["igualaba"],"s2":["igualabas"],"vos":["igualabas"],"s3":["igualaba"],"p1":["igualábamos"],"p2":["igualabais"],"p3":["igualaban"]},

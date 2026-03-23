@@ -6,7 +6,7 @@
     "etimologia": "Del latín spargō, spargere.[2]",
     "modelos": ["fruncir"]
   },
-  "formas_no_personales": {"infinitivo":"esparcir","gerundio":"esparciendo","participio":"esparcido"},
+  "formas_no_personales": {"infinitivo":"esparcir","gerundio":["esparciendo"], "participio":["esparcido"]},
   "formas_personales": {
     "IndPres": {"s1":["esparzo"],"s2":["esparces"],"vos":["esparcís"],"s3":["esparce"],"p1":["esparcimos"],"p2":["esparcís"],"p3":["esparcen"]},
     "IndImp": {"s1":["esparcía"],"s2":["esparcías"],"vos":["esparcías"],"s3":["esparcía"],"p1":["esparcíamos"],"p2":["esparcíais"],"p3":["esparcían"]},

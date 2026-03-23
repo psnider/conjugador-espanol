@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"jurar","gerundio":"jurando","participio":"jurado"},
+  "formas_no_personales": {"infinitivo":"jurar","gerundio":["jurando"], "participio":["jurado"]},
   "formas_personales": {
     "IndPres": {"s1":["juro"],"s2":["juras"],"vos":["jurás"],"s3":["jura"],"p1":["juramos"],"p2":["juráis"],"p3":["juran"]},
     "IndImp": {"s1":["juraba"],"s2":["jurabas"],"vos":["jurabas"],"s3":["juraba"],"p1":["jurábamos"],"p2":["jurabais"],"p3":["juraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De regreso y el sufijo -ar. Denominal de regreso.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"regresar","gerundio":"regresando","participio":"regresado"},
+  "formas_no_personales": {"infinitivo":"regresar","gerundio":["regresando"], "participio":["regresado"]},
   "formas_personales": {
     "IndPres": {"s1":["regreso"],"s2":["regresas"],"vos":["regresás"],"s3":["regresa"],"p1":["regresamos"],"p2":["regresáis"],"p3":["regresan"]},
     "IndImp": {"s1":["regresaba"],"s2":["regresabas"],"vos":["regresabas"],"s3":["regresaba"],"p1":["regresábamos"],"p2":["regresabais"],"p3":["regresaban"]},

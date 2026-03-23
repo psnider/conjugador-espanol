@@ -6,7 +6,7 @@
     "etimologia": "Del latín qualificare.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"calificar","gerundio":"calificando","participio":"calificado"},
+  "formas_no_personales": {"infinitivo":"calificar","gerundio":["calificando"], "participio":["calificado"]},
   "formas_personales": {
     "IndPres": {"s1":["califico"],"s2":["calificas"],"vos":["calificás"],"s3":["califica"],"p1":["calificamos"],"p2":["calificáis"],"p3":["califican"]},
     "IndImp": {"s1":["calificaba"],"s2":["calificabas"],"vos":["calificabas"],"s3":["calificaba"],"p1":["calificábamos"],"p2":["calificabais"],"p3":["calificaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín mori.",
     "modelos": ["morir","dormir"]
   },
-  "formas_no_personales": {"infinitivo":"morir","gerundio":"muriendo","participio":"muerto"},
+  "formas_no_personales": {"infinitivo":"morir","gerundio":["muriendo"], "participio":["muerto"]},
   "formas_personales": {
     "IndPres": {"s1":["muero"],"s2":["mueres"],"vos":["morís"],"s3":["muere"],"p1":["morimos"],"p2":["morís"],"p3":["mueren"]},
     "IndImp": {"s1":["moría"],"s2":["morías"],"vos":["morías"],"s3":["moría"],"p1":["moríamos"],"p2":["moríais"],"p3":["morían"]},

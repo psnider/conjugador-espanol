@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["mover"]
   },
-  "formas_no_personales": {"infinitivo":"remorder","gerundio":"remordiendo","participio":"remordido"},
+  "formas_no_personales": {"infinitivo":"remorder","gerundio":["remordiendo"], "participio":["remordido"]},
   "formas_personales": {
     "IndPres": {"s1":["remuerdo"],"s2":["remuerdes"],"vos":["remordés"],"s3":["remuerde"],"p1":["remordemos"],"p2":["remordéis"],"p3":["remuerden"]},
     "IndImp": {"s1":["remordía"],"s2":["remordías"],"vos":["remordías"],"s3":["remordía"],"p1":["remordíamos"],"p2":["remordíais"],"p3":["remordían"]},

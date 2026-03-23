@@ -6,7 +6,7 @@
     "etimologia": "Del latín vestīre[1], y este del latín vestis[2], del protoindoeuropeo *wes-.",
     "modelos": ["pedir"]
   },
-  "formas_no_personales": {"infinitivo":"vestir","gerundio":"vistiendo","participio":"vestido"},
+  "formas_no_personales": {"infinitivo":"vestir","gerundio":["vistiendo"], "participio":["vestido"]},
   "formas_personales": {
     "IndPres": {"s1":["visto"],"s2":["vistes"],"vos":["vestís"],"s3":["viste"],"p1":["vestimos"],"p2":["vestís"],"p3":["visten"]},
     "IndImp": {"s1":["vestía"],"s2":["vestías"],"vos":["vestías"],"s3":["vestía"],"p1":["vestíamos"],"p2":["vestíais"],"p3":["vestían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín nivāre",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"nevar","gerundio":"nevando","participio":"nevado"},
+  "formas_no_personales": {"infinitivo":"nevar","gerundio":["nevando"], "participio":["nevado"]},
   "formas_personales": {
     "IndPres": {"s1":["nievo"],"s2":["nievas"],"vos":["nevás"],"s3":["nieva"],"p1":["nevamos"],"p2":["neváis"],"p3":["nievan"]},
     "IndImp": {"s1":["nevaba"],"s2":["nevabas"],"vos":["nevabas"],"s3":["nevaba"],"p1":["nevábamos"],"p2":["nevabais"],"p3":["nevaban"]},

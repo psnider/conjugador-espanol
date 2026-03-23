@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"voltear","gerundio":"volteando","participio":"volteado"},
+  "formas_no_personales": {"infinitivo":"voltear","gerundio":["volteando"], "participio":["volteado"]},
   "formas_personales": {
     "IndPres": {"s1":["volteo"],"s2":["volteas"],"vos":["volteás"],"s3":["voltea"],"p1":["volteamos"],"p2":["volteáis"],"p3":["voltean"]},
     "IndImp": {"s1":["volteaba"],"s2":["volteabas"],"vos":["volteabas"],"s3":["volteaba"],"p1":["volteábamos"],"p2":["volteabais"],"p3":["volteaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín assolāre ('derribar').",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"asolar","gerundio":"asolando","participio":"asolado"},
+  "formas_no_personales": {"infinitivo":"asolar","gerundio":["asolando"], "participio":["asolado"]},
   "formas_personales": {
     "IndPres": {"s1":["asuelo","asolo"],"s2":["asuelas","asolas"],"vos":["asolás"],"s3":["asuela","asola"],"p1":["asolamos"],"p2":["asoláis"],"p3":["asuelan","asolan"]},
     "IndImp": {"s1":["asolaba"],"s2":["asolabas"],"vos":["asolabas"],"s3":["asolaba"],"p1":["asolábamos"],"p2":["asolabais"],"p3":["asolaban"]},

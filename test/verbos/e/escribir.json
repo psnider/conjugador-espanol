@@ -6,7 +6,7 @@
     "etimologia": "Del latín scribere",
     "modelos": ["escribir"]
   },
-  "formas_no_personales": {"infinitivo":"escribir","gerundio":"escribiendo","participio":"escrito"},
+  "formas_no_personales": {"infinitivo":"escribir","gerundio":["escribiendo"], "participio":["escrito"]},
   "formas_personales": {
     "IndPres": {"s1":["escribo"],"s2":["escribes"],"vos":["escribís"],"s3":["escribe"],"p1":["escribimos"],"p2":["escribís"],"p3":["escriben"]},
     "IndImp": {"s1":["escribía"],"s2":["escribías"],"vos":["escribías"],"s3":["escribía"],"p1":["escribíamos"],"p2":["escribíais"],"p3":["escribían"]},

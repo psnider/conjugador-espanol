@@ -6,7 +6,7 @@
     "etimologia": "Del latín sentīre, infinitivo presente activo del latín sentio.",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"sentir","gerundio":"sintiendo","participio":"sentido"},
+  "formas_no_personales": {"infinitivo":"sentir","gerundio":["sintiendo"], "participio":["sentido"]},
   "formas_personales": {
     "IndPres": {"s1":["siento"],"s2":["sientes"],"vos":["sentís"],"s3":["siente"],"p1":["sentimos"],"p2":["sentís"],"p3":["sienten"]},
     "IndImp": {"s1":["sentía"],"s2":["sentías"],"vos":["sentías"],"s3":["sentía"],"p1":["sentíamos"],"p2":["sentíais"],"p3":["sentían"]},

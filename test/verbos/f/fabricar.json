@@ -6,7 +6,7 @@
     "etimologia": "Del latín fabricāre.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"fabricar","gerundio":"fabricando","participio":"fabricado"},
+  "formas_no_personales": {"infinitivo":"fabricar","gerundio":["fabricando"], "participio":["fabricado"]},
   "formas_personales": {
     "IndPres": {"s1":["fabrico"],"s2":["fabricas"],"vos":["fabricás"],"s3":["fabrica"],"p1":["fabricamos"],"p2":["fabricáis"],"p3":["fabrican"]},
     "IndImp": {"s1":["fabricaba"],"s2":["fabricabas"],"vos":["fabricabas"],"s3":["fabricaba"],"p1":["fabricábamos"],"p2":["fabricabais"],"p3":["fabricaban"]},

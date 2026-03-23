@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["reír"]
   },
-  "formas_no_personales": {"infinitivo":"sonreír","gerundio":"sonriendo","participio":"sonreído"},
+  "formas_no_personales": {"infinitivo":"sonreír","gerundio":["sonriendo"], "participio":["sonreído"]},
   "formas_personales": {
     "IndPres": {"s1":["sonrío"],"s2":["sonríes"],"vos":["sonreís"],"s3":["sonríe"],"p1":["sonreímos"],"p2":["sonreís"],"p3":["sonríen"]},
     "IndImp": {"s1":["sonreía"],"s2":["sonreías"],"vos":["sonreías"],"s3":["sonreía"],"p1":["sonreíamos"],"p2":["sonreíais"],"p3":["sonreían"]},

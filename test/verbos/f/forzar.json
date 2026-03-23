@@ -6,7 +6,7 @@
     "etimologia": "Del latín fortiāre.",
     "modelos": ["realizar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"forzar","gerundio":"forzando","participio":"forzado"},
+  "formas_no_personales": {"infinitivo":"forzar","gerundio":["forzando"], "participio":["forzado"]},
   "formas_personales": {
     "IndPres": {"s1":["fuerzo"],"s2":["fuerzas"],"vos":["forzás"],"s3":["fuerza"],"p1":["forzamos"],"p2":["forzáis"],"p3":["fuerzan"]},
     "IndImp": {"s1":["forzaba"],"s2":["forzabas"],"vos":["forzabas"],"s3":["forzaba"],"p1":["forzábamos"],"p2":["forzabais"],"p3":["forzaban"]},

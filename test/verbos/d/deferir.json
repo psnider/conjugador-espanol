@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"deferir","gerundio":"defiriendo","participio":"deferido"},
+  "formas_no_personales": {"infinitivo":"deferir","gerundio":["defiriendo"], "participio":["deferido"]},
   "formas_personales": {
     "IndPres": {"s1":["defiero"],"s2":["defieres"],"vos":["deferís"],"s3":["defiere"],"p1":["deferimos"],"p2":["deferís"],"p3":["defieren"]},
     "IndImp": {"s1":["defería"],"s2":["deferías"],"vos":["deferías"],"s3":["defería"],"p1":["deferíamos"],"p2":["deferíais"],"p3":["deferían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín bibere, del protoindoeuropeo *peh₃-. Compárese el aragonés beber, el catalán beure, el corso bia, el francés boire, el gallego beber, el italiano bere, el occitano beure, el portugués beber, el rumano bea o el siciliano bìviri.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"beber","gerundio":"bebiendo","participio":"bebido"},
+  "formas_no_personales": {"infinitivo":"beber","gerundio":["bebiendo"], "participio":["bebido"]},
   "formas_personales": {
     "IndPres": {"s1":["bebo"],"s2":["bebes"],"vos":["bebés"],"s3":["bebe"],"p1":["bebemos"],"p2":["bebéis"],"p3":["beben"]},
     "IndImp": {"s1":["bebía"],"s2":["bebías"],"vos":["bebías"],"s3":["bebía"],"p1":["bebíamos"],"p2":["bebíais"],"p3":["bebían"]},

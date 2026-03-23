@@ -5,7 +5,7 @@
     "etimologia": "Del latín infrigidare",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"enfriar","gerundio":"enfriando","participio":"enfriado"},
+  "formas_no_personales": {"infinitivo":"enfriar","gerundio":["enfriando"], "participio":["enfriado"]},
   "formas_personales": {
     "IndPres": {"s1":["enfrío"],"s2":["enfrías"],"vos":["enfriás"],"s3":["enfría"],"p1":["enfriamos"],"p2":["enfriáis"],"p3":["enfrían"]},
     "IndImp": {"s1":["enfriaba"],"s2":["enfriabas"],"vos":["enfriabas"],"s3":["enfriaba"],"p1":["enfriábamos"],"p2":["enfriabais"],"p3":["enfriaban"]},

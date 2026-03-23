@@ -6,7 +6,7 @@
     "etimologia": "Del latín deaurāre (\"hacer de oro\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dorar","gerundio":"dorando","participio":"dorado"},
+  "formas_no_personales": {"infinitivo":"dorar","gerundio":["dorando"], "participio":["dorado"]},
   "formas_personales": {
     "IndPres": {"s1":["doro"],"s2":["doras"],"vos":["dorás"],"s3":["dora"],"p1":["doramos"],"p2":["doráis"],"p3":["doran"]},
     "IndImp": {"s1":["doraba"],"s2":["dorabas"],"vos":["dorabas"],"s3":["doraba"],"p1":["dorábamos"],"p2":["dorabais"],"p3":["doraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín cōnfundō, -ere.[1]",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"confundir","gerundio":"confundiendo","participio":"confundido"},
+  "formas_no_personales": {"infinitivo":"confundir","gerundio":["confundiendo"], "participio":["confundido"]},
   "formas_personales": {
     "IndPres": {"s1":["confundo"],"s2":["confundes"],"vos":["confundís"],"s3":["confunde"],"p1":["confundimos"],"p2":["confundís"],"p3":["confunden"]},
     "IndImp": {"s1":["confundía"],"s2":["confundías"],"vos":["confundías"],"s3":["confundía"],"p1":["confundíamos"],"p2":["confundíais"],"p3":["confundían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"aquilatar","gerundio":"aquilatando","participio":"aquilatado"},
+  "formas_no_personales": {"infinitivo":"aquilatar","gerundio":["aquilatando"], "participio":["aquilatado"]},
   "formas_personales": {
     "IndPres": {"s1":["aquilato"],"s2":["aquilatas"],"vos":["aquilatás"],"s3":["aquilata"],"p1":["aquilatamos"],"p2":["aquilatáis"],"p3":["aquilatan"]},
     "IndImp": {"s1":["aquilataba"],"s2":["aquilatabas"],"vos":["aquilatabas"],"s3":["aquilataba"],"p1":["aquilatábamos"],"p2":["aquilatabais"],"p3":["aquilataban"]},

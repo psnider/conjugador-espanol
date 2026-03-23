@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des-, garra y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"desgarrar","gerundio":"desgarrando","participio":"desgarrado"},
+  "formas_no_personales": {"infinitivo":"desgarrar","gerundio":["desgarrando"], "participio":["desgarrado"]},
   "formas_personales": {
     "IndPres": {"s1":["desgarro"],"s2":["desgarras"],"vos":["desgarrás"],"s3":["desgarra"],"p1":["desgarramos"],"p2":["desgarráis"],"p3":["desgarran"]},
     "IndImp": {"s1":["desgarraba"],"s2":["desgarrabas"],"vos":["desgarrabas"],"s3":["desgarraba"],"p1":["desgarrábamos"],"p2":["desgarrabais"],"p3":["desgarraban"]},

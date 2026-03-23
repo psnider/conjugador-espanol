@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar exfortiare y este del latín clásico fortis.",
     "modelos": ["realizar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"esforzar","gerundio":"esforzando","participio":"esforzado"},
+  "formas_no_personales": {"infinitivo":"esforzar","gerundio":["esforzando"], "participio":["esforzado"]},
   "formas_personales": {
     "IndPres": {"s1":["esfuerzo"],"s2":["esfuerzas"],"vos":["esforzás"],"s3":["esfuerza"],"p1":["esforzamos"],"p2":["esforzáis"],"p3":["esfuerzan"]},
     "IndImp": {"s1":["esforzaba"],"s2":["esforzabas"],"vos":["esforzabas"],"s3":["esforzaba"],"p1":["esforzábamos"],"p2":["esforzabais"],"p3":["esforzaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"preferir","gerundio":"prefiriendo","participio":"preferido"},
+  "formas_no_personales": {"infinitivo":"preferir","gerundio":["prefiriendo"], "participio":["preferido"]},
   "formas_personales": {
     "IndPres": {"s1":["prefiero"],"s2":["prefieres"],"vos":["preferís"],"s3":["prefiere"],"p1":["preferimos"],"p2":["preferís"],"p3":["prefieren"]},
     "IndImp": {"s1":["prefería"],"s2":["preferías"],"vos":["preferías"],"s3":["prefería"],"p1":["preferíamos"],"p2":["preferíais"],"p3":["preferían"]},

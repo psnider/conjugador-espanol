@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"congregar","gerundio":"congregando","participio":"congregado"},
+  "formas_no_personales": {"infinitivo":"congregar","gerundio":["congregando"], "participio":["congregado"]},
   "formas_personales": {
     "IndPres": {"s1":["congrego"],"s2":["congregas"],"vos":["congregás"],"s3":["congrega"],"p1":["congregamos"],"p2":["congregáis"],"p3":["congregan"]},
     "IndImp": {"s1":["congregaba"],"s2":["congregabas"],"vos":["congregabas"],"s3":["congregaba"],"p1":["congregábamos"],"p2":["congregabais"],"p3":["congregaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín circumvenire, de circum&nbsp;('alrededor') y venire&nbsp;('venir').[1]",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"circunvenir","gerundio":"circunviniendo","participio":"circunvenido"},
+  "formas_no_personales": {"infinitivo":"circunvenir","gerundio":["circunviniendo"], "participio":["circunvenido"]},
   "formas_personales": {
     "IndPres": {"s1":["circunvengo"],"s2":["circunvienes"],"vos":["circunvenís"],"s3":["circunviene"],"p1":["circunvenimos"],"p2":["circunvenís"],"p3":["circunvienen"]},
     "IndImp": {"s1":["circunvenía"],"s2":["circunvenías"],"vos":["circunvenías"],"s3":["circunvenía"],"p1":["circunveníamos"],"p2":["circunveníais"],"p3":["circunvenían"]},

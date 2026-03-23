@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en- y coger.[1]",
     "modelos": ["proteger"]
   },
-  "formas_no_personales": {"infinitivo":"encoger","gerundio":"encogiendo","participio":"encogido"},
+  "formas_no_personales": {"infinitivo":"encoger","gerundio":["encogiendo"], "participio":["encogido"]},
   "formas_personales": {
     "IndPres": {"s1":["encojo"],"s2":["encoges"],"vos":["encogés"],"s3":["encoge"],"p1":["encogemos"],"p2":["encogéis"],"p3":["encogen"]},
     "IndImp": {"s1":["encogía"],"s2":["encogías"],"vos":["encogías"],"s3":["encogía"],"p1":["encogíamos"],"p2":["encogíais"],"p3":["encogían"]},

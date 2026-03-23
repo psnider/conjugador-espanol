@@ -6,7 +6,7 @@
     "etimologia": "Del latín infundĕre.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"infundir","gerundio":"infundiendo","participio":"infundido"},
+  "formas_no_personales": {"infinitivo":"infundir","gerundio":["infundiendo"], "participio":["infundido"]},
   "formas_personales": {
     "IndPres": {"s1":["infundo"],"s2":["infundes"],"vos":["infundís"],"s3":["infunde"],"p1":["infundimos"],"p2":["infundís"],"p3":["infunden"]},
     "IndImp": {"s1":["infundía"],"s2":["infundías"],"vos":["infundías"],"s3":["infundía"],"p1":["infundíamos"],"p2":["infundíais"],"p3":["infundían"]},

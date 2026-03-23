@@ -6,7 +6,7 @@
     "etimologia": "Derivación regresiva de condescendiente.",
     "modelos": ["entender"]
   },
-  "formas_no_personales": {"infinitivo":"condescender","gerundio":"condescendiendo","participio":"condescendido"},
+  "formas_no_personales": {"infinitivo":"condescender","gerundio":["condescendiendo"], "participio":["condescendido"]},
   "formas_personales": {
     "IndPres": {"s1":["condesciendo"],"s2":["condesciendes"],"vos":["condescendés"],"s3":["condesciende"],"p1":["condescendemos"],"p2":["condescendéis"],"p3":["condescienden"]},
     "IndImp": {"s1":["condescendía"],"s2":["condescendías"],"vos":["condescendías"],"s3":["condescendía"],"p1":["condescendíamos"],"p2":["condescendíais"],"p3":["condescendían"]},

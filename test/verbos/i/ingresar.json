@@ -6,7 +6,7 @@
     "etimologia": "De ingreso y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"ingresar","gerundio":"ingresando","participio":"ingresado"},
+  "formas_no_personales": {"infinitivo":"ingresar","gerundio":["ingresando"], "participio":["ingresado"]},
   "formas_personales": {
     "IndPres": {"s1":["ingreso"],"s2":["ingresas"],"vos":["ingresás"],"s3":["ingresa"],"p1":["ingresamos"],"p2":["ingresáis"],"p3":["ingresan"]},
     "IndImp": {"s1":["ingresaba"],"s2":["ingresabas"],"vos":["ingresabas"],"s3":["ingresaba"],"p1":["ingresábamos"],"p2":["ingresabais"],"p3":["ingresaban"]},

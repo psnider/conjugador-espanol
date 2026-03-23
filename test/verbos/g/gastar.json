@@ -6,7 +6,7 @@
     "etimologia": "Del latín vastāre ('devastar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"gastar","gerundio":"gastando","participio":"gastado"},
+  "formas_no_personales": {"infinitivo":"gastar","gerundio":["gastando"], "participio":["gastado"]},
   "formas_personales": {
     "IndPres": {"s1":["gasto"],"s2":["gastas"],"vos":["gastás"],"s3":["gasta"],"p1":["gastamos"],"p2":["gastáis"],"p3":["gastan"]},
     "IndImp": {"s1":["gastaba"],"s2":["gastabas"],"vos":["gastabas"],"s3":["gastaba"],"p1":["gastábamos"],"p2":["gastabais"],"p3":["gastaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1140.[1] Del latín recordāri, y este a su vez de re- y cor, cordis ('corazón'), pues se creía que este era el órgano responsable de la memoria, el pensamiento y los recuerdos.",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"recordar","gerundio":"recordando","participio":"recordado"},
+  "formas_no_personales": {"infinitivo":"recordar","gerundio":["recordando"], "participio":["recordado"]},
   "formas_personales": {
     "IndPres": {"s1":["recuerdo"],"s2":["recuerdas"],"vos":["recordás"],"s3":["recuerda"],"p1":["recordamos"],"p2":["recordáis"],"p3":["recuerdan"]},
     "IndImp": {"s1":["recordaba"],"s2":["recordabas"],"vos":["recordabas"],"s3":["recordaba"],"p1":["recordábamos"],"p2":["recordabais"],"p3":["recordaban"]},

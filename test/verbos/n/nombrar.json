@@ -6,7 +6,7 @@
     "etimologia": "Del latín nomināre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"nombrar","gerundio":"nombrando","participio":"nombrado"},
+  "formas_no_personales": {"infinitivo":"nombrar","gerundio":["nombrando"], "participio":["nombrado"]},
   "formas_personales": {
     "IndPres": {"s1":["nombro"],"s2":["nombras"],"vos":["nombrás"],"s3":["nombra"],"p1":["nombramos"],"p2":["nombráis"],"p3":["nombran"]},
     "IndImp": {"s1":["nombraba"],"s2":["nombrabas"],"vos":["nombrabas"],"s3":["nombraba"],"p1":["nombrábamos"],"p2":["nombrabais"],"p3":["nombraban"]},

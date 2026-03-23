@@ -6,7 +6,7 @@
     "etimologia": "Del latín picare ('peguntar'), \"untar con pez\".",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"pegar","gerundio":"pegando","participio":"pegado"},
+  "formas_no_personales": {"infinitivo":"pegar","gerundio":["pegando"], "participio":["pegado"]},
   "formas_personales": {
     "IndPres": {"s1":["pego"],"s2":["pegas"],"vos":["pegás"],"s3":["pega"],"p1":["pegamos"],"p2":["pegáis"],"p3":["pegan"]},
     "IndImp": {"s1":["pegaba"],"s2":["pegabas"],"vos":["pegabas"],"s3":["pegaba"],"p1":["pegábamos"],"p2":["pegabais"],"p3":["pegaban"]},

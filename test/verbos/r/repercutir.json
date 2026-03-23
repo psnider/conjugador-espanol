@@ -6,7 +6,7 @@
     "etimologia": "Del latín repercutĕre (\"rechazar de golpe\").",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"repercutir","gerundio":"repercutiendo","participio":"repercutido"},
+  "formas_no_personales": {"infinitivo":"repercutir","gerundio":["repercutiendo"], "participio":["repercutido"]},
   "formas_personales": {
     "IndPres": {"s1":["repercuto"],"s2":["repercutes"],"vos":["repercutís"],"s3":["repercute"],"p1":["repercutimos"],"p2":["repercutís"],"p3":["repercuten"]},
     "IndImp": {"s1":["repercutía"],"s2":["repercutías"],"vos":["repercutías"],"s3":["repercutía"],"p1":["repercutíamos"],"p2":["repercutíais"],"p3":["repercutían"]},

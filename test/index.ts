@@ -1,9 +1,8 @@
-import { ConjugaciónTabla } from "../src"
+import { ConjugaciónTabla, Participios } from "../src"
 
-interface FormasNoPersonales {
+
+export interface FormasNoPersonales extends Participios {
     infinitivo: string
-    gerundio: string
-    participio: string
 }
 
 

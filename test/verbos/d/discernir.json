@@ -6,7 +6,7 @@
     "etimologia": "Del latín discernĕre (\"separar, distinguir, reconocer\"), compuesto del latín cernĕre.",
     "modelos": ["discernir"]
   },
-  "formas_no_personales": {"infinitivo":"discernir","gerundio":"discerniendo","participio":"discernido"},
+  "formas_no_personales": {"infinitivo":"discernir","gerundio":["discerniendo"], "participio":["discernido"]},
   "formas_personales": {
     "IndPres": {"s1":["discierno"],"s2":["disciernes"],"vos":["discernís"],"s3":["discierne"],"p1":["discernimos"],"p2":["discernís"],"p3":["disciernen"]},
     "IndImp": {"s1":["discernía"],"s2":["discernías"],"vos":["discernías"],"s3":["discernía"],"p1":["discerníamos"],"p2":["discerníais"],"p3":["discernían"]},

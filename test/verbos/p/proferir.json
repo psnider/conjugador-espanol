@@ -6,7 +6,7 @@
     "etimologia": "Del latín prōferre.[1]",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"proferir","gerundio":"profiriendo","participio":"proferido"},
+  "formas_no_personales": {"infinitivo":"proferir","gerundio":["profiriendo"], "participio":["proferido"]},
   "formas_personales": {
     "IndPres": {"s1":["profiero"],"s2":["profieres"],"vos":["proferís"],"s3":["profiere"],"p1":["proferimos"],"p2":["proferís"],"p3":["profieren"]},
     "IndImp": {"s1":["profería"],"s2":["proferías"],"vos":["proferías"],"s3":["profería"],"p1":["proferíamos"],"p2":["proferíais"],"p3":["proferían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín complicāre.",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"complicar","gerundio":"complicando","participio":"complicado"},
+  "formas_no_personales": {"infinitivo":"complicar","gerundio":["complicando"], "participio":["complicado"]},
   "formas_personales": {
     "IndPres": {"s1":["complico"],"s2":["complicas"],"vos":["complicás"],"s3":["complica"],"p1":["complicamos"],"p2":["complicáis"],"p3":["complican"]},
     "IndImp": {"s1":["complicaba"],"s2":["complicabas"],"vos":["complicabas"],"s3":["complicaba"],"p1":["complicábamos"],"p2":["complicabais"],"p3":["complicaban"]},

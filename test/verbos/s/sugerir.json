@@ -6,7 +6,7 @@
     "etimologia": "Del latín suggerĕre",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"sugerir","gerundio":"sugiriendo","participio":"sugerido"},
+  "formas_no_personales": {"infinitivo":"sugerir","gerundio":["sugiriendo"], "participio":["sugerido"]},
   "formas_personales": {
     "IndPres": {"s1":["sugiero"],"s2":["sugieres"],"vos":["sugerís"],"s3":["sugiere"],"p1":["sugerimos"],"p2":["sugerís"],"p3":["sugieren"]},
     "IndImp": {"s1":["sugería"],"s2":["sugerías"],"vos":["sugerías"],"s3":["sugería"],"p1":["sugeríamos"],"p2":["sugeríais"],"p3":["sugerían"]},

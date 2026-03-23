@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"notar","gerundio":"notando","participio":"notado"},
+  "formas_no_personales": {"infinitivo":"notar","gerundio":["notando"], "participio":["notado"]},
   "formas_personales": {
     "IndPres": {"s1":["noto"],"s2":["notas"],"vos":["notás"],"s3":["nota"],"p1":["notamos"],"p2":["notáis"],"p3":["notan"]},
     "IndImp": {"s1":["notaba"],"s2":["notabas"],"vos":["notabas"],"s3":["notaba"],"p1":["notábamos"],"p2":["notabais"],"p3":["notaban"]},

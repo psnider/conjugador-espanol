@@ -6,7 +6,7 @@
     "etimologia": "Del latín volvere.",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"volver","gerundio":"volviendo","participio":"vuelto"},
+  "formas_no_personales": {"infinitivo":"volver","gerundio":["volviendo"], "participio":["vuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["vuelvo"],"s2":["vuelves"],"vos":["volvés"],"s3":["vuelve"],"p1":["volvemos"],"p2":["volvéis"],"p3":["vuelven"]},
     "IndImp": {"s1":["volvía"],"s2":["volvías"],"vos":["volvías"],"s3":["volvía"],"p1":["volvíamos"],"p2":["volvíais"],"p3":["volvían"]},

@@ -5,7 +5,7 @@
     "etimologia": "Del castellano antiguo abrasar ('abrasar'), y este de a-, brasa y -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"abrasar","gerundio":"abrasando","participio":"abrasado"},
+  "formas_no_personales": {"infinitivo":"abrasar","gerundio":["abrasando"], "participio":["abrasado"]},
   "formas_personales": {
     "IndPres": {"s1":["abraso"],"s2":["abrasas"],"vos":["abrasás"],"s3":["abrasa"],"p1":["abrasamos"],"p2":["abrasáis"],"p3":["abrasan"]},
     "IndImp": {"s1":["abrasaba"],"s2":["abrasabas"],"vos":["abrasabas"],"s3":["abrasaba"],"p1":["abrasábamos"],"p2":["abrasabais"],"p3":["abrasaban"]},

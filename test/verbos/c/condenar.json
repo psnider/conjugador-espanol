@@ -6,7 +6,7 @@
     "etimologia": "Del latín condemnāre ('sentenciar'), de com- y damnare (\"hacer daño\", \"maldecir\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"condenar","gerundio":"condenando","participio":"condenado"},
+  "formas_no_personales": {"infinitivo":"condenar","gerundio":["condenando"], "participio":["condenado"]},
   "formas_personales": {
     "IndPres": {"s1":["condeno"],"s2":["condenas"],"vos":["condenás"],"s3":["condena"],"p1":["condenamos"],"p2":["condenáis"],"p3":["condenan"]},
     "IndImp": {"s1":["condenaba"],"s2":["condenabas"],"vos":["condenabas"],"s3":["condenaba"],"p1":["condenábamos"],"p2":["condenabais"],"p3":["condenaban"]},

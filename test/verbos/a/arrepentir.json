@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"arrepentir","gerundio":"arrepintiendo","participio":"arrepentido"},
+  "formas_no_personales": {"infinitivo":"arrepentir","gerundio":["arrepintiendo"], "participio":["arrepentido"]},
   "formas_personales": {
     "IndPres": {"s1":["arrepiento"],"s2":["arrepientes"],"vos":["arrepentís"],"s3":["arrepiente"],"p1":["arrepentimos"],"p2":["arrepentís"],"p3":["arrepienten"]},
     "IndImp": {"s1":["arrepentía"],"s2":["arrepentías"],"vos":["arrepentías"],"s3":["arrepentía"],"p1":["arrepentíamos"],"p2":["arrepentíais"],"p3":["arrepentían"]},

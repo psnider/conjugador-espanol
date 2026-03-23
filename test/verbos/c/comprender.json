@@ -6,7 +6,7 @@
     "etimologia": "Del latín comprehendere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"comprender","gerundio":"comprendiendo","participio":"comprendido"},
+  "formas_no_personales": {"infinitivo":"comprender","gerundio":["comprendiendo"], "participio":["comprendido"]},
   "formas_personales": {
     "IndPres": {"s1":["comprendo"],"s2":["comprendes"],"vos":["comprendés"],"s3":["comprende"],"p1":["comprendemos"],"p2":["comprendéis"],"p3":["comprenden"]},
     "IndImp": {"s1":["comprendía"],"s2":["comprendías"],"vos":["comprendías"],"s3":["comprendía"],"p1":["comprendíamos"],"p2":["comprendíais"],"p3":["comprendían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Denominal de carcoma. De carcoma y el sufijo -er.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"carcomer","gerundio":"carcomiendo","participio":"carcomido"},
+  "formas_no_personales": {"infinitivo":"carcomer","gerundio":["carcomiendo"], "participio":["carcomido"]},
   "formas_personales": {
     "IndPres": {"s1":["carcomo"],"s2":["carcomes"],"vos":["carcomés"],"s3":["carcome"],"p1":["carcomemos"],"p2":["carcoméis"],"p3":["carcomen"]},
     "IndImp": {"s1":["carcomía"],"s2":["carcomías"],"vos":["carcomías"],"s3":["carcomía"],"p1":["carcomíamos"],"p2":["carcomíais"],"p3":["carcomían"]},

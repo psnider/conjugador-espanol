@@ -6,7 +6,7 @@
     "etimologia": "De voto y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"votar","gerundio":"votando","participio":"votado"},
+  "formas_no_personales": {"infinitivo":"votar","gerundio":["votando"], "participio":["votado"]},
   "formas_personales": {
     "IndPres": {"s1":["voto"],"s2":["votas"],"vos":["votás"],"s3":["vota"],"p1":["votamos"],"p2":["votáis"],"p3":["votan"]},
     "IndImp": {"s1":["votaba"],"s2":["votabas"],"vos":["votabas"],"s3":["votaba"],"p1":["votábamos"],"p2":["votabais"],"p3":["votaban"]},

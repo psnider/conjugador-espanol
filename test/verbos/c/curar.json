@@ -6,7 +6,7 @@
     "etimologia": "Del latín curāre ('cuidar').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"curar","gerundio":"curando","participio":"curado"},
+  "formas_no_personales": {"infinitivo":"curar","gerundio":["curando"], "participio":["curado"]},
   "formas_personales": {
     "IndPres": {"s1":["curo"],"s2":["curas"],"vos":["curás"],"s3":["cura"],"p1":["curamos"],"p2":["curáis"],"p3":["curan"]},
     "IndImp": {"s1":["curaba"],"s2":["curabas"],"vos":["curabas"],"s3":["curaba"],"p1":["curábamos"],"p2":["curabais"],"p3":["curaban"]},

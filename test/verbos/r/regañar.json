@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto, posiblemente asociada con gañir y reñir.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"regañar","gerundio":"regañando","participio":"regañado"},
+  "formas_no_personales": {"infinitivo":"regañar","gerundio":["regañando"], "participio":["regañado"]},
   "formas_personales": {
     "IndPres": {"s1":["regaño"],"s2":["regañas"],"vos":["regañás"],"s3":["regaña"],"p1":["regañamos"],"p2":["regañáis"],"p3":["regañan"]},
     "IndImp": {"s1":["regañaba"],"s2":["regañabas"],"vos":["regañabas"],"s3":["regañaba"],"p1":["regañábamos"],"p2":["regañabais"],"p3":["regañaban"]},

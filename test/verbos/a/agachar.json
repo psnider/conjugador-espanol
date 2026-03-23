@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto, posiblemente del latín coactare, frecuentativo de cōgō, cōgere (\"reunir, confinar\").[1] Compárese acocharse.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agachar","gerundio":"agachando","participio":"agachado"},
+  "formas_no_personales": {"infinitivo":"agachar","gerundio":["agachando"], "participio":["agachado"]},
   "formas_personales": {
     "IndPres": {"s1":["agacho"],"s2":["agachas"],"vos":["agachás"],"s3":["agacha"],"p1":["agachamos"],"p2":["agacháis"],"p3":["agachan"]},
     "IndImp": {"s1":["agachaba"],"s2":["agachabas"],"vos":["agachabas"],"s3":["agachaba"],"p1":["agachábamos"],"p2":["agachabais"],"p3":["agachaban"]},

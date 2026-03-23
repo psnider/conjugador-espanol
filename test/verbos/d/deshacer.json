@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y hacer.[2]",
     "modelos": ["hacer"]
   },
-  "formas_no_personales": {"infinitivo":"deshacer","gerundio":"deshaciendo","participio":"deshecho"},
+  "formas_no_personales": {"infinitivo":"deshacer","gerundio":["deshaciendo"], "participio":["deshecho"]},
   "formas_personales": {
     "IndPres": {"s1":["deshago"],"s2":["deshaces"],"vos":["deshacés"],"s3":["deshace"],"p1":["deshacemos"],"p2":["deshacéis"],"p3":["deshacen"]},
     "IndImp": {"s1":["deshacía"],"s2":["deshacías"],"vos":["deshacías"],"s3":["deshacía"],"p1":["deshacíamos"],"p2":["deshacíais"],"p3":["deshacían"]},

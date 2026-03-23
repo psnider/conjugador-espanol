@@ -6,7 +6,7 @@
     "etimologia": "Del latín bāsiāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"besar","gerundio":"besando","participio":"besado"},
+  "formas_no_personales": {"infinitivo":"besar","gerundio":["besando"], "participio":["besado"]},
   "formas_personales": {
     "IndPres": {"s1":["beso"],"s2":["besas"],"vos":["besás"],"s3":["besa"],"p1":["besamos"],"p2":["besáis"],"p3":["besan"]},
     "IndImp": {"s1":["besaba"],"s2":["besabas"],"vos":["besabas"],"s3":["besaba"],"p1":["besábamos"],"p2":["besabais"],"p3":["besaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo tener ('tener'), y este del latín teneo. Las formas del préterito indefinido son por analogía con haber.",
     "modelos": ["entender","tener"]
   },
-  "formas_no_personales": {"infinitivo":"tener","gerundio":"teniendo","participio":"tenido"},
+  "formas_no_personales": {"infinitivo":"tener","gerundio":["teniendo"], "participio":["tenido"]},
   "formas_personales": {
     "IndPres": {"s1":["tengo"],"s2":["tienes"],"vos":["tenés"],"s3":["tiene"],"p1":["tenemos"],"p2":["tenéis"],"p3":["tienen"]},
     "IndImp": {"s1":["tenía"],"s2":["tenías"],"vos":["tenías"],"s3":["tenía"],"p1":["teníamos"],"p2":["teníais"],"p3":["tenían"]},

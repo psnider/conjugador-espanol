@@ -6,7 +6,7 @@
     "etimologia": "Del latín debere.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"deber","gerundio":"debiendo","participio":"debido"},
+  "formas_no_personales": {"infinitivo":"deber","gerundio":["debiendo"], "participio":["debido"]},
   "formas_personales": {
     "IndPres": {"s1":["debo"],"s2":["debes"],"vos":["debés"],"s3":["debe"],"p1":["debemos"],"p2":["debéis"],"p3":["deben"]},
     "IndImp": {"s1":["debía"],"s2":["debías"],"vos":["debías"],"s3":["debía"],"p1":["debíamos"],"p2":["debíais"],"p3":["debían"]},

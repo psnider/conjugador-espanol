@@ -6,7 +6,7 @@
     "etimologia": "De condición y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"condicionar","gerundio":"condicionando","participio":"condicionado"},
+  "formas_no_personales": {"infinitivo":"condicionar","gerundio":["condicionando"], "participio":["condicionado"]},
   "formas_personales": {
     "IndPres": {"s1":["condiciono"],"s2":["condicionas"],"vos":["condicionás"],"s3":["condiciona"],"p1":["condicionamos"],"p2":["condicionáis"],"p3":["condicionan"]},
     "IndImp": {"s1":["condicionaba"],"s2":["condicionabas"],"vos":["condicionabas"],"s3":["condicionaba"],"p1":["condicionábamos"],"p2":["condicionabais"],"p3":["condicionaban"]},

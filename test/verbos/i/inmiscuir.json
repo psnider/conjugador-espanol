@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmmisˈkwiɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inmiscere.",
+    "modelos": ["construir"]
+  },
+  "formas_no_personales": {"infinitivo":"inmiscuir","gerundio":["inmiscuyendo"], "participio":["inmiscuido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inmiscuyo"],"s2":["inmiscuyes"],"vos":["inmiscuís"],"s3":["inmiscuye"],"p1":["inmiscuimos"],"p2":["inmiscuís"],"p3":["inmiscuyen"]},
+    "IndImp": {"s1":["inmiscuía"],"s2":["inmiscuías"],"vos":["inmiscuías"],"s3":["inmiscuía"],"p1":["inmiscuíamos"],"p2":["inmiscuíais"],"p3":["inmiscuían"]},
+    "IndPret": {"s1":["inmiscuí"],"s2":["inmiscuiste"],"vos":["inmiscuiste"],"s3":["inmiscuyó"],"p1":["inmiscuimos"],"p2":["inmiscuisteis"],"p3":["inmiscuyeron"]},
+    "IndFut": {"s1":["inmiscuiré"],"s2":["inmiscuirás"],"vos":["inmiscuirás"],"s3":["inmiscuirá"],"p1":["inmiscuiremos"],"p2":["inmiscuiréis"],"p3":["inmiscuirán"]},
+    "IndCond": {"s1":["inmiscuiría"],"s2":["inmiscuirías"],"vos":["inmiscuirías"],"s3":["inmiscuiría"],"p1":["inmiscuiríamos"],"p2":["inmiscuiríais"],"p3":["inmiscuirían"]},
+    "SubPres": {"s1":["inmiscuya"],"s2":["inmiscuyas"],"vos":["inmiscuyas","inmiscuyás"],"s3":["inmiscuya"],"p1":["inmiscuyamos"],"p2":["inmiscuyáis"],"p3":["inmiscuyan"]},
+    "SubImp": {"s1":["inmiscuyera","inmiscuyese"],"s2":["inmiscuyeras","inmiscuyeses"],"vos":["inmiscuyeras","inmiscuyeses"],"s3":["inmiscuyera","inmiscuyese"],"p1":["inmiscuyéramos","inmiscuyésemos"],"p2":["inmiscuyerais","inmiscuyeseis"],"p3":["inmiscuyeran","inmiscuyesen"]},
+    "SubFut": {"s1":["inmiscuyere"],"s2":["inmiscuyeres"],"vos":["inmiscuyeres"],"s3":["inmiscuyere"],"p1":["inmiscuyéremos"],"p2":["inmiscuyereis"],"p3":["inmiscuyeren"]},
+    "CmdPos": {"s2":["inmiscuye"],"vos":["inmiscuí"],"s3":["inmiscuya"],"p1":["inmiscuyamos"],"p2":["inmiscuid"],"p3":["inmiscuyan"]}
+  }
+}

@@ -6,7 +6,7 @@
     "etimologia": "Del castellano antiguo fazer, y este del latín facere, del protoindoeuropeo *dʰeh₁-.",
     "modelos": ["hacer"]
   },
-  "formas_no_personales": {"infinitivo":"hacer","gerundio":"haciendo","participio":"hecho"},
+  "formas_no_personales": {"infinitivo":"hacer","gerundio":["haciendo"], "participio":["hecho"]},
   "formas_personales": {
     "IndPres": {"s1":["hago"],"s2":["haces"],"vos":["hacés"],"s3":["hace"],"p1":["hacemos"],"p2":["hacéis"],"p3":["hacen"]},
     "IndImp": {"s1":["hacía"],"s2":["hacías"],"vos":["hacías"],"s3":["hacía"],"p1":["hacíamos"],"p2":["hacíais"],"p3":["hacían"]},

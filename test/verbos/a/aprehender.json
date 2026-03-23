@@ -6,7 +6,7 @@
     "etimologia": "Del latín apprehendĕre, a su vez de ad&nbsp;('a') y prehendĕre (\"percibir, asir, agarrar\").[1] Doblete de la voz patrimonial aprender.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"aprehender","gerundio":"aprehendiendo","participio":"aprehendido"},
+  "formas_no_personales": {"infinitivo":"aprehender","gerundio":["aprehendiendo"], "participio":["aprehendido"]},
   "formas_personales": {
     "IndPres": {"s1":["aprehendo"],"s2":["aprehendes"],"vos":["aprehendés"],"s3":["aprehende"],"p1":["aprehendemos"],"p2":["aprehendéis"],"p3":["aprehenden"]},
     "IndImp": {"s1":["aprehendía"],"s2":["aprehendías"],"vos":["aprehendías"],"s3":["aprehendía"],"p1":["aprehendíamos"],"p2":["aprehendíais"],"p3":["aprehendían"]},

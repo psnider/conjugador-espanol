@@ -6,7 +6,7 @@
     "etimologia": "Del latín singultus ('sollozo')",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"sollozar","gerundio":"sollozando","participio":"sollozado"},
+  "formas_no_personales": {"infinitivo":"sollozar","gerundio":["sollozando"], "participio":["sollozado"]},
   "formas_personales": {
     "IndPres": {"s1":["sollozo"],"s2":["sollozas"],"vos":["sollozás"],"s3":["solloza"],"p1":["sollozamos"],"p2":["sollozáis"],"p3":["sollozan"]},
     "IndImp": {"s1":["sollozaba"],"s2":["sollozabas"],"vos":["sollozabas"],"s3":["sollozaba"],"p1":["sollozábamos"],"p2":["sollozabais"],"p3":["sollozaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y forzar.",
     "modelos": ["realizar","contar"]
   },
-  "formas_no_personales": {"infinitivo":"reforzar","gerundio":"reforzando","participio":"reforzado"},
+  "formas_no_personales": {"infinitivo":"reforzar","gerundio":["reforzando"], "participio":["reforzado"]},
   "formas_personales": {
     "IndPres": {"s1":["refuerzo"],"s2":["refuerzas"],"vos":["reforzás"],"s3":["refuerza"],"p1":["reforzamos"],"p2":["reforzáis"],"p3":["refuerzan"]},
     "IndImp": {"s1":["reforzaba"],"s2":["reforzabas"],"vos":["reforzabas"],"s3":["reforzaba"],"p1":["reforzábamos"],"p2":["reforzabais"],"p3":["reforzaban"]},

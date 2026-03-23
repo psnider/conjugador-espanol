@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾist̪eˈseɾ]",
+    "silabacion": "en-tris-te-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, triste y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"entristecer","gerundio":["entristeciendo"], "participio":["entristecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entristezco"],"s2":["entristeces"],"vos":["entristecés"],"s3":["entristece"],"p1":["entristecemos"],"p2":["entristecéis"],"p3":["entristecen"]},
+    "IndImp": {"s1":["entristecía"],"s2":["entristecías"],"vos":["entristecías"],"s3":["entristecía"],"p1":["entristecíamos"],"p2":["entristecíais"],"p3":["entristecían"]},
+    "IndPret": {"s1":["entristecí"],"s2":["entristeciste"],"vos":["entristeciste"],"s3":["entristeció"],"p1":["entristecimos"],"p2":["entristecisteis"],"p3":["entristecieron"]},
+    "IndFut": {"s1":["entristeceré"],"s2":["entristecerás"],"vos":["entristecerás"],"s3":["entristecerá"],"p1":["entristeceremos"],"p2":["entristeceréis"],"p3":["entristecerán"]},
+    "IndCond": {"s1":["entristecería"],"s2":["entristecerías"],"vos":["entristecerías"],"s3":["entristecería"],"p1":["entristeceríamos"],"p2":["entristeceríais"],"p3":["entristecerían"]},
+    "SubPres": {"s1":["entristezca"],"s2":["entristezcas"],"vos":["entristezcas","entristezcás"],"s3":["entristezca"],"p1":["entristezcamos"],"p2":["entristezcáis"],"p3":["entristezcan"]},
+    "SubImp": {"s1":["entristeciera","entristeciese"],"s2":["entristecieras","entristecieses"],"vos":["entristecieras","entristecieses"],"s3":["entristeciera","entristeciese"],"p1":["entristeciéramos","entristeciésemos"],"p2":["entristecierais","entristecieseis"],"p3":["entristecieran","entristeciesen"]},
+    "SubFut": {"s1":["entristeciere"],"s2":["entristecieres"],"vos":["entristecieres"],"s3":["entristeciere"],"p1":["entristeciéremos"],"p2":["entristeciereis"],"p3":["entristecieren"]},
+    "CmdPos": {"s2":["entristece"],"vos":["entristecé"],"s3":["entristezca"],"p1":["entristezcamos"],"p2":["entristeced"],"p3":["entristezcan"]}
+  }
+}

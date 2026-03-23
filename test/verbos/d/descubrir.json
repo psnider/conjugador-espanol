@@ -6,7 +6,7 @@
     "etimologia": "Del latín discooperīre, compuesto de dis- y cooperīre&nbsp;('cubrir').",
     "modelos": ["abrir"]
   },
-  "formas_no_personales": {"infinitivo":"descubrir","gerundio":"descubriendo","participio":"descubierto"},
+  "formas_no_personales": {"infinitivo":"descubrir","gerundio":["descubriendo"], "participio":["descubierto"]},
   "formas_personales": {
     "IndPres": {"s1":["descubro"],"s2":["descubres"],"vos":["descubrís"],"s3":["descubre"],"p1":["descubrimos"],"p2":["descubrís"],"p3":["descubren"]},
     "IndImp": {"s1":["descubría"],"s2":["descubrías"],"vos":["descubrías"],"s3":["descubría"],"p1":["descubríamos"],"p2":["descubríais"],"p3":["descubrían"]},

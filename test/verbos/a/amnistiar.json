@@ -5,7 +5,7 @@
     "etimologia": "De amnistía y el sufijo -ar.",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"amnistiar","gerundio":"amnistiando","participio":"amnistiado"},
+  "formas_no_personales": {"infinitivo":"amnistiar","gerundio":["amnistiando"], "participio":["amnistiado"]},
   "formas_personales": {
     "IndPres": {"s1":["amnistío"],"s2":["amnistías"],"vos":["amnistiás"],"s3":["amnistía"],"p1":["amnistiamos"],"p2":["amnistiáis"],"p3":["amnistían"]},
     "IndImp": {"s1":["amnistiaba"],"s2":["amnistiabas"],"vos":["amnistiabas"],"s3":["amnistiaba"],"p1":["amnistiábamos"],"p2":["amnistiabais"],"p3":["amnistiaban"]},

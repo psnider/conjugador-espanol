@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"apacentar","gerundio":"apacentando","participio":"apacentado"},
+  "formas_no_personales": {"infinitivo":"apacentar","gerundio":["apacentando"], "participio":["apacentado"]},
   "formas_personales": {
     "IndPres": {"s1":["apaciento"],"s2":["apacientas"],"vos":["apacentás"],"s3":["apacienta"],"p1":["apacentamos"],"p2":["apacentáis"],"p3":["apacientan"]},
     "IndImp": {"s1":["apacentaba"],"s2":["apacentabas"],"vos":["apacentabas"],"s3":["apacentaba"],"p1":["apacentábamos"],"p2":["apacentabais"],"p3":["apacentaban"]},

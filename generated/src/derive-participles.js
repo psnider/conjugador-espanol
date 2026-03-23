@@ -1,0 +1,108 @@
+import { applyToVerbForms, formsAreEqual } from "./lib.js";
+import { applyOrthographicalChangesForParticiples } from "./ortografía.js";
+import { addPrefixesToBaseForm } from "./prefixes.js";
+import { regular_verb_suffixes } from "./regular-verb-rules.js";
+import { resolveConjugationClass } from "./resolve-conjugation-class.js";
+import { applyStemChangeToGerundStem, stem_change_patterns } from "./stem-changes.js";
+function getRegularParticiples(conj_and_deriv_rules, rules_applied) {
+    const { infinitivo, verb_family } = conj_and_deriv_rules;
+    const stem = infinitivo.slice(0, -2);
+    const suffixes = regular_verb_suffixes[verb_family].participle_rules;
+    const gerundio_base = stem + suffixes.pres.suffix;
+    const participio_base = stem + suffixes.past.suffix;
+    const regular = { gerundio: [gerundio_base], participio: [participio_base] };
+    rules_applied.push({ regular });
+    return regular;
+}
+function getParticipiosExcepcionales(conj_and_deriv_rules, rules_applied) {
+    const reglas_combinado = conj_and_deriv_rules.morphological_rules?.combinados;
+    const excepciones_léxicas = reglas_combinado?.excepciones_léxicas;
+    if (!excepciones_léxicas)
+        return;
+    const { gerundio, participio } = excepciones_léxicas;
+    if (gerundio || participio) {
+        rules_applied.push({ excepciones_léxicas: { gerundio, participio } });
+        const { prefixes } = conj_and_deriv_rules;
+        const result = {};
+        const prefix_rules_applied = {};
+        if (gerundio) {
+            result.gerundio = addPrefixesToBaseForm(excepciones_léxicas.gerundio, prefixes);
+            if (result.gerundio !== excepciones_léxicas.gerundio) {
+                prefix_rules_applied.gerundio = result.gerundio;
+            }
+        }
+        if (participio) {
+            result.participio = addPrefixesToBaseForm(participio, prefixes);
+            if (!formsAreEqual(result.participio, participio)) {
+                prefix_rules_applied.participio = result.participio;
+            }
+        }
+        if (Object.keys(prefix_rules_applied).length > 0) {
+            rules_applied.push({ prefixed: prefix_rules_applied });
+        }
+        return result;
+    }
+}
+function getOrthographicChangesForParticiples(rules, regulares, rules_applied) {
+    function splitGerund(form, verb_family) {
+        const len = verb_family === "-ar" ? 4 : 5;
+        return {
+            gerund_stem: form.slice(0, -len),
+            ending: form.slice(-len)
+        };
+    }
+    const { infinitivo, verb_family, morphological_rules } = rules;
+    const alternancia = morphological_rules?.combinados?.alternancia_vocálica;
+    let alternate;
+    const split_default = splitGerund(regulares.gerundio[0], verb_family);
+    if (regulares.gerundio.length > 1) {
+        const alternate = splitGerund(regulares.gerundio[1], verb_family);
+        if (split_default.ending !== alternate.ending) {
+            throw new Error(`${infinitivo}: gerundios terminan diferente: ${regulares.gerundio}`);
+        }
+    }
+    const excepcion = morphological_rules?.combinados?.excepciones_léxicas?.gerundio_tema_cambio_excepcional;
+    const gerundio_tema_cambio = excepcion ?? stem_change_patterns[alternancia]?.gerund_rule;
+    const excepcional = !!excepcion;
+    const gerundio_temas = [split_default.gerund_stem];
+    if (alternate) {
+        gerundio_temas.push(alternate.gerund_stem);
+    }
+    const gerundios_w_stem_changes = applyToVerbForms(gerundio_temas, (gerundio_tema, i) => {
+        const updated = gerundio_tema_cambio
+            ? applyStemChangeToGerundStem({ gerund_stem: gerundio_tema, verb_family, gerundio_tema_cambio, excepcional, rules_applied }) + split_default.ending
+            : regulares.gerundio[i];
+        return updated;
+    });
+    // const do_correct_diéresis = infinitivo.includes("ü")
+    const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
+    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
+    const orthographical_changes = applyOrthographicalChangesForParticiples(infinitivo, { ...regulares, gerundio: gerundios_w_stem_changes }, split_default.ending, do_correct_diéresis, do_correct_ñi_yi, rules_applied);
+    const result = { ...regulares, gerundio: gerundios_w_stem_changes, ...orthographical_changes };
+    if (result.gerundio === regulares.gerundio)
+        delete result.gerundio;
+    if (result.participio === regulares.participio)
+        delete result.participio;
+    return result;
+}
+function _deriveParticiples(rules) {
+    const rules_applied = [];
+    const excepcionales = getParticipiosExcepcionales(rules, rules_applied);
+    if (excepcionales?.gerundio && excepcionales?.participio) {
+        return { participles: excepcionales, rules_applied };
+    }
+    const regulares = getRegularParticiples(rules, rules_applied);
+    const ortográficos = getOrthographicChangesForParticiples(rules, regulares, rules_applied);
+    const final_forms = { ...regulares, ...ortográficos, ...excepcionales };
+    return { participles: final_forms, rules_applied };
+}
+export function deriveParticiples(infinitivo) {
+    console.log(`deriveParticiples(${infinitivo})`);
+    const conj_and_deriv_rules = resolveConjugationClass(infinitivo);
+    if (!conj_and_deriv_rules) {
+        return undefined;
+    }
+    let { participles, rules_applied } = _deriveParticiples(conj_and_deriv_rules);
+    return { participles, rules_applied };
+}
+//# sourceMappingURL=derive-participles.js.map

@@ -6,7 +6,7 @@
     "etimologia": "Del latín olēre.",
     "modelos": ["oler"]
   },
-  "formas_no_personales": {"infinitivo":"oler","gerundio":"oliendo","participio":"olido"},
+  "formas_no_personales": {"infinitivo":"oler","gerundio":["oliendo"], "participio":["olido"]},
   "formas_personales": {
     "IndPres": {"s1":["huelo"],"s2":["hueles"],"vos":["olés"],"s3":["huele"],"p1":["olemos"],"p2":["oléis"],"p3":["huelen"]},
     "IndImp": {"s1":["olía"],"s2":["olías"],"vos":["olías"],"s3":["olía"],"p1":["olíamos"],"p2":["olíais"],"p3":["olían"]},

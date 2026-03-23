@@ -6,7 +6,7 @@
     "etimologia": "Del latín applaudere",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"aplaudir","gerundio":"aplaudiendo","participio":"aplaudido"},
+  "formas_no_personales": {"infinitivo":"aplaudir","gerundio":["aplaudiendo"], "participio":["aplaudido"]},
   "formas_personales": {
     "IndPres": {"s1":["aplaudo"],"s2":["aplaudes"],"vos":["aplaudís"],"s3":["aplaude"],"p1":["aplaudimos"],"p2":["aplaudís"],"p3":["aplauden"]},
     "IndImp": {"s1":["aplaudía"],"s2":["aplaudías"],"vos":["aplaudías"],"s3":["aplaudía"],"p1":["aplaudíamos"],"p2":["aplaudíais"],"p3":["aplaudían"]},

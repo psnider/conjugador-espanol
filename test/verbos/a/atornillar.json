@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, tornillo y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"atornillar","gerundio":"atornillando","participio":"atornillado"},
+  "formas_no_personales": {"infinitivo":"atornillar","gerundio":["atornillando"], "participio":["atornillado"]},
   "formas_personales": {
     "IndPres": {"s1":["atornillo"],"s2":["atornillas"],"vos":["atornillás"],"s3":["atornilla"],"p1":["atornillamos"],"p2":["atornilláis"],"p3":["atornillan"]},
     "IndImp": {"s1":["atornillaba"],"s2":["atornillabas"],"vos":["atornillabas"],"s3":["atornillaba"],"p1":["atornillábamos"],"p2":["atornillabais"],"p3":["atornillaban"]},

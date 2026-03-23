@@ -6,7 +6,7 @@
     "etimologia": "Del latín emigrāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"emigrar","gerundio":"emigrando","participio":"emigrado"},
+  "formas_no_personales": {"infinitivo":"emigrar","gerundio":["emigrando"], "participio":["emigrado"]},
   "formas_personales": {
     "IndPres": {"s1":["emigro"],"s2":["emigras"],"vos":["emigrás"],"s3":["emigra"],"p1":["emigramos"],"p2":["emigráis"],"p3":["emigran"]},
     "IndImp": {"s1":["emigraba"],"s2":["emigrabas"],"vos":["emigrabas"],"s3":["emigraba"],"p1":["emigrábamos"],"p2":["emigrabais"],"p3":["emigraban"]},

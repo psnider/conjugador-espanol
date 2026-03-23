@@ -6,7 +6,7 @@
     "etimologia": "Del latín dictatus, participio perfecto pasivo de dicto (\"pronunciar o declarar repetidamente; dictar\"), frecuentativo de dico (\"decir, hablar\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"dictar","gerundio":"dictando","participio":"dictado"},
+  "formas_no_personales": {"infinitivo":"dictar","gerundio":["dictando"], "participio":["dictado"]},
   "formas_personales": {
     "IndPres": {"s1":["dicto"],"s2":["dictas"],"vos":["dictás"],"s3":["dicta"],"p1":["dictamos"],"p2":["dictáis"],"p3":["dictan"]},
     "IndImp": {"s1":["dictaba"],"s2":["dictabas"],"vos":["dictabas"],"s3":["dictaba"],"p1":["dictábamos"],"p2":["dictabais"],"p3":["dictaban"]},

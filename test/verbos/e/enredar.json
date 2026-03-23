@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, red y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enredar","gerundio":"enredando","participio":"enredado"},
+  "formas_no_personales": {"infinitivo":"enredar","gerundio":["enredando"], "participio":["enredado"]},
   "formas_personales": {
     "IndPres": {"s1":["enredo"],"s2":["enredas"],"vos":["enredás"],"s3":["enreda"],"p1":["enredamos"],"p2":["enredáis"],"p3":["enredan"]},
     "IndImp": {"s1":["enredaba"],"s2":["enredabas"],"vos":["enredabas"],"s3":["enredaba"],"p1":["enredábamos"],"p2":["enredabais"],"p3":["enredaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín examināre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"examinar","gerundio":"examinando","participio":"examinado"},
+  "formas_no_personales": {"infinitivo":"examinar","gerundio":["examinando"], "participio":["examinado"]},
   "formas_personales": {
     "IndPres": {"s1":["examino"],"s2":["examinas"],"vos":["examinás"],"s3":["examina"],"p1":["examinamos"],"p2":["examináis"],"p3":["examinan"]},
     "IndImp": {"s1":["examinaba"],"s2":["examinabas"],"vos":["examinabas"],"s3":["examinaba"],"p1":["examinábamos"],"p2":["examinabais"],"p3":["examinaban"]},

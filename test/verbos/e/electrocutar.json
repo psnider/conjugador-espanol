@@ -6,7 +6,7 @@
     "etimologia": "Del francés électrocuter y este del inglés electrocute.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"electrocutar","gerundio":"electrocutando","participio":"electrocutado"},
+  "formas_no_personales": {"infinitivo":"electrocutar","gerundio":["electrocutando"], "participio":["electrocutado"]},
   "formas_personales": {
     "IndPres": {"s1":["electrocuto"],"s2":["electrocutas"],"vos":["electrocutás"],"s3":["electrocuta"],"p1":["electrocutamos"],"p2":["electrocutáis"],"p3":["electrocutan"]},
     "IndImp": {"s1":["electrocutaba"],"s2":["electrocutabas"],"vos":["electrocutabas"],"s3":["electrocutaba"],"p1":["electrocutábamos"],"p2":["electrocutabais"],"p3":["electrocutaban"]},

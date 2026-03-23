@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y comenzar",
     "modelos": ["realizar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"recomenzar","gerundio":"recomenzando","participio":"recomenzado"},
+  "formas_no_personales": {"infinitivo":"recomenzar","gerundio":["recomenzando"], "participio":["recomenzado"]},
   "formas_personales": {
     "IndPres": {"s1":["recomienzo"],"s2":["recomienzas"],"vos":["recomenzás"],"s3":["recomienza"],"p1":["recomenzamos"],"p2":["recomenzáis"],"p3":["recomienzan"]},
     "IndImp": {"s1":["recomenzaba"],"s2":["recomenzabas"],"vos":["recomenzabas"],"s3":["recomenzaba"],"p1":["recomenzábamos"],"p2":["recomenzabais"],"p3":["recomenzaban"]},

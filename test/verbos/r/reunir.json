@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y unir.",
     "modelos": ["reunir"]
   },
-  "formas_no_personales": {"infinitivo":"reunir","gerundio":"reuniendo","participio":"reunido"},
+  "formas_no_personales": {"infinitivo":"reunir","gerundio":["reuniendo"], "participio":["reunido"]},
   "formas_personales": {
     "IndPres": {"s1":["reúno"],"s2":["reúnes"],"vos":["reunís"],"s3":["reúne"],"p1":["reunimos"],"p2":["reunís"],"p3":["reúnen"]},
     "IndImp": {"s1":["reunía"],"s2":["reunías"],"vos":["reunías"],"s3":["reunía"],"p1":["reuníamos"],"p2":["reuníais"],"p3":["reunían"]},

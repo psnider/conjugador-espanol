@@ -6,7 +6,7 @@
     "etimologia": "Del latín prōveniō, prōvenīre (\"crecer, aparecer, originarse\"), compuesto de prō (\"de, por\") y veniō, venīre&nbsp;('venir').",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"provenir","gerundio":"proviniendo","participio":"provenido"},
+  "formas_no_personales": {"infinitivo":"provenir","gerundio":["proviniendo"], "participio":["provenido"]},
   "formas_personales": {
     "IndPres": {"s1":["provengo"],"s2":["provienes"],"vos":["provenís"],"s3":["proviene"],"p1":["provenimos"],"p2":["provenís"],"p3":["provienen"]},
     "IndImp": {"s1":["provenía"],"s2":["provenías"],"vos":["provenías"],"s3":["provenía"],"p1":["proveníamos"],"p2":["proveníais"],"p3":["provenían"]},

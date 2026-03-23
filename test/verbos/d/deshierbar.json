@@ -5,7 +5,7 @@
     "etimologia": "Del prefijo des-, hierba y el sufijo -ar.[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"deshierbar","gerundio":"deshierbando","participio":"deshierbado"},
+  "formas_no_personales": {"infinitivo":"deshierbar","gerundio":["deshierbando"], "participio":["deshierbado"]},
   "formas_personales": {
     "IndPres": {"s1":["deshierbo"],"s2":["deshierbas"],"vos":["deshierbás"],"s3":["deshierba"],"p1":["deshierbamos"],"p2":["deshierbáis"],"p3":["deshierban"]},
     "IndImp": {"s1":["deshierbaba"],"s2":["deshierbabas"],"vos":["deshierbabas"],"s3":["deshierbaba"],"p1":["deshierbábamos"],"p2":["deshierbabais"],"p3":["deshierbaban"]},

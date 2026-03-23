@@ -6,7 +6,7 @@
     "etimologia": "Del latín merendāre",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"merendar","gerundio":"merendando","participio":"merendado"},
+  "formas_no_personales": {"infinitivo":"merendar","gerundio":["merendando"], "participio":["merendado"]},
   "formas_personales": {
     "IndPres": {"s1":["meriendo"],"s2":["meriendas"],"vos":["merendás"],"s3":["merienda"],"p1":["merendamos"],"p2":["merendáis"],"p3":["meriendan"]},
     "IndImp": {"s1":["merendaba"],"s2":["merendabas"],"vos":["merendabas"],"s3":["merendaba"],"p1":["merendábamos"],"p2":["merendabais"],"p3":["merendaban"]},

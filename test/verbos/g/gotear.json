@@ -6,7 +6,7 @@
     "etimologia": "De gota y el sufijo -ear.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"gotear","gerundio":"goteando","participio":"goteado"},
+  "formas_no_personales": {"infinitivo":"gotear","gerundio":["goteando"], "participio":["goteado"]},
   "formas_personales": {
     "IndPres": {"s1":["goteo"],"s2":["goteas"],"vos":["goteás"],"s3":["gotea"],"p1":["goteamos"],"p2":["goteáis"],"p3":["gotean"]},
     "IndImp": {"s1":["goteaba"],"s2":["goteabas"],"vos":["goteabas"],"s3":["goteaba"],"p1":["goteábamos"],"p2":["goteabais"],"p3":["goteaban"]},

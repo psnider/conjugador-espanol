@@ -6,7 +6,7 @@
     "etimologia": "Del latín stipulāri (\"demandar una garantía\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estipular","gerundio":"estipulando","participio":"estipulado"},
+  "formas_no_personales": {"infinitivo":"estipular","gerundio":["estipulando"], "participio":["estipulado"]},
   "formas_personales": {
     "IndPres": {"s1":["estipulo"],"s2":["estipulas"],"vos":["estipulás"],"s3":["estipula"],"p1":["estipulamos"],"p2":["estipuláis"],"p3":["estipulan"]},
     "IndImp": {"s1":["estipulaba"],"s2":["estipulabas"],"vos":["estipulabas"],"s3":["estipulaba"],"p1":["estipulábamos"],"p2":["estipulabais"],"p3":["estipulaban"]},

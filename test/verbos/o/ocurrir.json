@@ -6,7 +6,7 @@
     "etimologia": "Del latín occurrĕre.",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"ocurrir","gerundio":"ocurriendo","participio":"ocurrido"},
+  "formas_no_personales": {"infinitivo":"ocurrir","gerundio":["ocurriendo"], "participio":["ocurrido"]},
   "formas_personales": {
     "IndPres": {"s1":["ocurro"],"s2":["ocurres"],"vos":["ocurrís"],"s3":["ocurre"],"p1":["ocurrimos"],"p2":["ocurrís"],"p3":["ocurren"]},
     "IndImp": {"s1":["ocurría"],"s2":["ocurrías"],"vos":["ocurrías"],"s3":["ocurría"],"p1":["ocurríamos"],"p2":["ocurríais"],"p3":["ocurrían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a- y gasajar,[1] a su vez de gasajo&nbsp;('placer en compañía').[2]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"agasajar","gerundio":"agasajando","participio":"agasajado"},
+  "formas_no_personales": {"infinitivo":"agasajar","gerundio":["agasajando"], "participio":["agasajado"]},
   "formas_personales": {
     "IndPres": {"s1":["agasajo"],"s2":["agasajas"],"vos":["agasajás"],"s3":["agasaja"],"p1":["agasajamos"],"p2":["agasajáis"],"p3":["agasajan"]},
     "IndImp": {"s1":["agasajaba"],"s2":["agasajabas"],"vos":["agasajabas"],"s3":["agasajaba"],"p1":["agasajábamos"],"p2":["agasajabais"],"p3":["agasajaban"]},

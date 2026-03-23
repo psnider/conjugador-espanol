@@ -6,7 +6,7 @@
     "etimologia": "Del latín populus ('pueblo').",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"poblar","gerundio":"poblando","participio":"poblado"},
+  "formas_no_personales": {"infinitivo":"poblar","gerundio":["poblando"], "participio":["poblado"]},
   "formas_personales": {
     "IndPres": {"s1":["pueblo"],"s2":["pueblas"],"vos":["poblás"],"s3":["puebla"],"p1":["poblamos"],"p2":["pobláis"],"p3":["pueblan"]},
     "IndImp": {"s1":["poblaba"],"s2":["poblabas"],"vos":["poblabas"],"s3":["poblaba"],"p1":["poblábamos"],"p2":["poblabais"],"p3":["poblaban"]},

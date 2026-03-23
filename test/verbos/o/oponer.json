@@ -6,7 +6,7 @@
     "etimologia": "Del latín opponere.[1]",
     "modelos": ["poner"]
   },
-  "formas_no_personales": {"infinitivo":"oponer","gerundio":"oponiendo","participio":"opuesto"},
+  "formas_no_personales": {"infinitivo":"oponer","gerundio":["oponiendo"], "participio":["opuesto"]},
   "formas_personales": {
     "IndPres": {"s1":["opongo"],"s2":["opones"],"vos":["oponés"],"s3":["opone"],"p1":["oponemos"],"p2":["oponéis"],"p3":["oponen"]},
     "IndImp": {"s1":["oponía"],"s2":["oponías"],"vos":["oponías"],"s3":["oponía"],"p1":["oponíamos"],"p2":["oponíais"],"p3":["oponían"]},

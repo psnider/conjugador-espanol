@@ -6,7 +6,7 @@
     "etimologia": "Del latín organizare.",
     "modelos": ["realizar"]
   },
-  "formas_no_personales": {"infinitivo":"organizar","gerundio":"organizando","participio":"organizado"},
+  "formas_no_personales": {"infinitivo":"organizar","gerundio":["organizando"], "participio":["organizado"]},
   "formas_personales": {
     "IndPres": {"s1":["organizo"],"s2":["organizas"],"vos":["organizás"],"s3":["organiza"],"p1":["organizamos"],"p2":["organizáis"],"p3":["organizan"]},
     "IndImp": {"s1":["organizaba"],"s2":["organizabas"],"vos":["organizabas"],"s3":["organizaba"],"p1":["organizábamos"],"p2":["organizabais"],"p3":["organizaban"]},

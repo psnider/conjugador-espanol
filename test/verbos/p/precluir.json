@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾe.kluˈiɾ]",
+    "silabacion": "pre-clu-ir",
+    "acentuacion": "aguda",
+    "etimologia": "del latín praecludere: prae- = 'antes', claudere = 'cerrar'",
+    "modelos": ["huir"]
+  },
+  "formas_no_personales": {"infinitivo":"precluir","gerundio":["precluyendo"], "participio":["precluido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["precluyo"],"s2":["precluyes"],"vos":["precluís"],"s3":["precluye"],"p1":["precluimos"],"p2":["precluís"],"p3":["precluyen"]},
+    "IndImp": {"s1":["precluía"],"s2":["precluías"],"vos":["precluías"],"s3":["precluía"],"p1":["precluíamos"],"p2":["precluíais"],"p3":["precluían"]},
+    "IndPret": {"s1":["precluí"],"s2":["precluiste"],"vos":["precluiste"],"s3":["precluyó"],"p1":["precluimos"],"p2":["precluisteis"],"p3":["precluyeron"]},
+    "IndFut": {"s1":["precluiré"],"s2":["precluirás"],"vos":["precluirás"],"s3":["precluirá"],"p1":["precluiremos"],"p2":["precluiréis"],"p3":["precluirán"]},
+    "IndCond": {"s1":["precluiría"],"s2":["precluirías"],"vos":["precluirías"],"s3":["precluiría"],"p1":["precluiríamos"],"p2":["precluiríais"],"p3":["precluirían"]},
+    "SubPres": {"s1":["precluya"],"s2":["precluyas"],"vos":["precluyas","precluyás"],"s3":["precluya"],"p1":["precluyamos"],"p2":["precluyáis"],"p3":["precluyan"]},
+    "SubImp": {"s1":["precluyera","precluyese"],"s2":["precluyeras","precluyeses"],"vos":["precluyeras","precluyeses"],"s3":["precluyera","precluyese"],"p1":["precluyéramos","precluyésemos"],"p2":["precluyerais","precluyeseis"],"p3":["precluyeran","precluyesen"]},
+    "SubFut": {"s1":["precluyere"],"s2":["precluyeres"],"vos":["precluyeres"],"s3":["precluyere"],"p1":["precluyéremos"],"p2":["precluyereis"],"p3":["precluyeren"]},
+    "CmdPos": {"s2":["precluye"],"vos":["precluí"],"s3":["precluya"],"p1":["precluyamos"],"p2":["precluid"],"p3":["precluyan"]}
+  }
+}

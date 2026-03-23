@@ -6,7 +6,7 @@
     "etimologia": "Del latín auscultāre",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"escuchar","gerundio":"escuchando","participio":"escuchado"},
+  "formas_no_personales": {"infinitivo":"escuchar","gerundio":["escuchando"], "participio":["escuchado"]},
   "formas_personales": {
     "IndPres": {"s1":["escucho"],"s2":["escuchas"],"vos":["escuchás"],"s3":["escucha"],"p1":["escuchamos"],"p2":["escucháis"],"p3":["escuchan"]},
     "IndImp": {"s1":["escuchaba"],"s2":["escuchabas"],"vos":["escuchabas"],"s3":["escuchaba"],"p1":["escuchábamos"],"p2":["escuchabais"],"p3":["escuchaban"]},

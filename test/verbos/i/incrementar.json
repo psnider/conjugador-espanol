@@ -6,7 +6,7 @@
     "etimologia": "Del latín incrementare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"incrementar","gerundio":"incrementando","participio":"incrementado"},
+  "formas_no_personales": {"infinitivo":"incrementar","gerundio":["incrementando"], "participio":["incrementado"]},
   "formas_personales": {
     "IndPres": {"s1":["incremento"],"s2":["incrementas"],"vos":["incrementás"],"s3":["incrementa"],"p1":["incrementamos"],"p2":["incrementáis"],"p3":["incrementan"]},
     "IndImp": {"s1":["incrementaba"],"s2":["incrementabas"],"vos":["incrementabas"],"s3":["incrementaba"],"p1":["incrementábamos"],"p2":["incrementabais"],"p3":["incrementaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del italiano marcare.[1]",
     "modelos": ["complicar"]
   },
-  "formas_no_personales": {"infinitivo":"marcar","gerundio":"marcando","participio":"marcado"},
+  "formas_no_personales": {"infinitivo":"marcar","gerundio":["marcando"], "participio":["marcado"]},
   "formas_personales": {
     "IndPres": {"s1":["marco"],"s2":["marcas"],"vos":["marcás"],"s3":["marca"],"p1":["marcamos"],"p2":["marcáis"],"p3":["marcan"]},
     "IndImp": {"s1":["marcaba"],"s2":["marcabas"],"vos":["marcabas"],"s3":["marcaba"],"p1":["marcábamos"],"p2":["marcabais"],"p3":["marcaban"]},

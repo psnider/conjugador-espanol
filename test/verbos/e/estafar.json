@@ -6,7 +6,7 @@
     "etimologia": "Del italiano staffare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"estafar","gerundio":"estafando","participio":"estafado"},
+  "formas_no_personales": {"infinitivo":"estafar","gerundio":["estafando"], "participio":["estafado"]},
   "formas_personales": {
     "IndPres": {"s1":["estafo"],"s2":["estafas"],"vos":["estafás"],"s3":["estafa"],"p1":["estafamos"],"p2":["estafáis"],"p3":["estafan"]},
     "IndImp": {"s1":["estafaba"],"s2":["estafabas"],"vos":["estafabas"],"s3":["estafaba"],"p1":["estafábamos"],"p2":["estafabais"],"p3":["estafaban"]},

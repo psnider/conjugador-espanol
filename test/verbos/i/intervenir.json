@@ -6,7 +6,7 @@
     "etimologia": "Del latín intervenire",
     "modelos": ["venir","sentir"]
   },
-  "formas_no_personales": {"infinitivo":"intervenir","gerundio":"interviniendo","participio":"intervenido"},
+  "formas_no_personales": {"infinitivo":"intervenir","gerundio":["interviniendo"], "participio":["intervenido"]},
   "formas_personales": {
     "IndPres": {"s1":["intervengo"],"s2":["intervienes"],"vos":["intervenís"],"s3":["interviene"],"p1":["intervenimos"],"p2":["intervenís"],"p3":["intervienen"]},
     "IndImp": {"s1":["intervenía"],"s2":["intervenías"],"vos":["intervenías"],"s3":["intervenía"],"p1":["interveníamos"],"p2":["interveníais"],"p3":["intervenían"]},

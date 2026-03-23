@@ -6,7 +6,7 @@
     "etimologia": "De registro y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"registrar","gerundio":"registrando","participio":"registrado"},
+  "formas_no_personales": {"infinitivo":"registrar","gerundio":["registrando"], "participio":["registrado"]},
   "formas_personales": {
     "IndPres": {"s1":["registro"],"s2":["registras"],"vos":["registrás"],"s3":["registra"],"p1":["registramos"],"p2":["registráis"],"p3":["registran"]},
     "IndImp": {"s1":["registraba"],"s2":["registrabas"],"vos":["registrabas"],"s3":["registraba"],"p1":["registrábamos"],"p2":["registrabais"],"p3":["registraban"]},

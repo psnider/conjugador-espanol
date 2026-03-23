@@ -6,7 +6,7 @@
     "etimologia": "De origen incierto, quizás de asa o del francés saisir.[1]",
     "modelos": ["asir"]
   },
-  "formas_no_personales": {"infinitivo":"asir","gerundio":"asiendo","participio":"asido"},
+  "formas_no_personales": {"infinitivo":"asir","gerundio":["asiendo"], "participio":["asido"]},
   "formas_personales": {
     "IndPres": {"s1":["asgo"],"s2":["ases"],"vos":["asís"],"s3":["ase"],"p1":["asimos"],"p2":["asís"],"p3":["asen"]},
     "IndImp": {"s1":["asía"],"s2":["asías"],"vos":["asías"],"s3":["asía"],"p1":["asíamos"],"p2":["asíais"],"p3":["asían"]},

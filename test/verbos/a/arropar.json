@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo a-, ropa y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arropar","gerundio":"arropando","participio":"arropado"},
+  "formas_no_personales": {"infinitivo":"arropar","gerundio":["arropando"], "participio":["arropado"]},
   "formas_personales": {
     "IndPres": {"s1":["arropo"],"s2":["arropas"],"vos":["arropás"],"s3":["arropa"],"p1":["arropamos"],"p2":["arropáis"],"p3":["arropan"]},
     "IndImp": {"s1":["arropaba"],"s2":["arropabas"],"vos":["arropabas"],"s3":["arropaba"],"p1":["arropábamos"],"p2":["arropabais"],"p3":["arropaban"]},

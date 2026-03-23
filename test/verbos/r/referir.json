@@ -6,7 +6,7 @@
     "etimologia": "Del latín referō, referre (\"devolver, repetir, responder, relatar, anunciar\"), compuesto de re- y ferō, ferre&nbsp;('llevar')",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"referir","gerundio":"refiriendo","participio":"referido"},
+  "formas_no_personales": {"infinitivo":"referir","gerundio":["refiriendo"], "participio":["referido"]},
   "formas_personales": {
     "IndPres": {"s1":["refiero"],"s2":["refieres"],"vos":["referís"],"s3":["refiere"],"p1":["referimos"],"p2":["referís"],"p3":["refieren"]},
     "IndImp": {"s1":["refería"],"s2":["referías"],"vos":["referías"],"s3":["refería"],"p1":["referíamos"],"p2":["referíais"],"p3":["referían"]},

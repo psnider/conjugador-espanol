@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo pre- y ver.",
     "modelos": ["prever"]
   },
-  "formas_no_personales": {"infinitivo":"prever","gerundio":"previendo","participio":"previsto"},
+  "formas_no_personales": {"infinitivo":"prever","gerundio":["previendo"], "participio":["previsto"]},
   "formas_personales": {
     "IndPres": {"s1":["preveo"],"s2":["prevés"],"vos":["prevés"],"s3":["prevé"],"p1":["prevemos"],"p2":["prevéis"],"p3":["prevén"]},
     "IndImp": {"s1":["preveía"],"s2":["preveías"],"vos":["preveías"],"s3":["preveía"],"p1":["preveíamos"],"p2":["preveíais"],"p3":["preveían"]},

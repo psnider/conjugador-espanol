@@ -6,7 +6,7 @@
     "etimologia": "Del latín integrare ('restituir a su primer estado') (Dice el DRAE)",
     "modelos": ["llegar"]
   },
-  "formas_no_personales": {"infinitivo":"entregar","gerundio":"entregando","participio":"entregado"},
+  "formas_no_personales": {"infinitivo":"entregar","gerundio":["entregando"], "participio":["entregado"]},
   "formas_personales": {
     "IndPres": {"s1":["entrego"],"s2":["entregas"],"vos":["entregás"],"s3":["entrega"],"p1":["entregamos"],"p2":["entregáis"],"p3":["entregan"]},
     "IndImp": {"s1":["entregaba"],"s2":["entregabas"],"vos":["entregabas"],"s3":["entregaba"],"p1":["entregábamos"],"p2":["entregabais"],"p3":["entregaban"]},

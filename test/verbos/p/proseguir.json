@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["distinguir","pedir"]
   },
-  "formas_no_personales": {"infinitivo":"proseguir","gerundio":"prosiguiendo","participio":"proseguido"},
+  "formas_no_personales": {"infinitivo":"proseguir","gerundio":["prosiguiendo"], "participio":["proseguido"]},
   "formas_personales": {
     "IndPres": {"s1":["prosigo"],"s2":["prosigues"],"vos":["proseguís"],"s3":["prosigue"],"p1":["proseguimos"],"p2":["proseguís"],"p3":["prosiguen"]},
     "IndImp": {"s1":["proseguía"],"s2":["proseguías"],"vos":["proseguías"],"s3":["proseguía"],"p1":["proseguíamos"],"p2":["proseguíais"],"p3":["proseguían"]},

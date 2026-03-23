@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo entre- y ver. Compárese el francés entrevoir, el italiano intravedere.",
     "modelos": ["prever"]
   },
-  "formas_no_personales": {"infinitivo":"entrever","gerundio":"entreviendo","participio":"entrevisto"},
+  "formas_no_personales": {"infinitivo":"entrever","gerundio":["entreviendo"], "participio":["entrevisto"]},
   "formas_personales": {
     "IndPres": {"s1":["entreveo"],"s2":["entrevés"],"vos":["entrevés"],"s3":["entrevé"],"p1":["entrevemos"],"p2":["entrevéis"],"p3":["entrevén"]},
     "IndImp": {"s1":["entreveía"],"s2":["entreveías"],"vos":["entreveías"],"s3":["entreveía"],"p1":["entreveíamos"],"p2":["entreveíais"],"p3":["entreveían"]},

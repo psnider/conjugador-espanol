@@ -6,7 +6,7 @@
     "etimologia": "Del latín appetere, y este de ad- y petere, \"pedir\", en última instancia del protoindoeuropeo *pet-, \"apurar\". Compárese apetito.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"apetecer","gerundio":"apeteciendo","participio":"apetecido"},
+  "formas_no_personales": {"infinitivo":"apetecer","gerundio":["apeteciendo"], "participio":["apetecido"]},
   "formas_personales": {
     "IndPres": {"s1":["apetezco"],"s2":["apeteces"],"vos":["apetecés"],"s3":["apetece"],"p1":["apetecemos"],"p2":["apetecéis"],"p3":["apetecen"]},
     "IndImp": {"s1":["apetecía"],"s2":["apetecías"],"vos":["apetecías"],"s3":["apetecía"],"p1":["apetecíamos"],"p2":["apetecíais"],"p3":["apetecían"]},

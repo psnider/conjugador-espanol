@@ -5,7 +5,7 @@
     "etimologia": "Del latín studere ('esforzarse')",
     "modelos": ["anunciar"]
   },
-  "formas_no_personales": {"infinitivo":"estudiar","gerundio":"estudiando","participio":"estudiado"},
+  "formas_no_personales": {"infinitivo":"estudiar","gerundio":["estudiando"], "participio":["estudiado"]},
   "formas_personales": {
     "IndPres": {"s1":["estudio"],"s2":["estudias"],"vos":["estudiás"],"s3":["estudia"],"p1":["estudiamos"],"p2":["estudiáis"],"p3":["estudian"]},
     "IndImp": {"s1":["estudiaba"],"s2":["estudiabas"],"vos":["estudiabas"],"s3":["estudiaba"],"p1":["estudiábamos"],"p2":["estudiabais"],"p3":["estudiaban"]},

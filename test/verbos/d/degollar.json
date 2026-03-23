@@ -6,7 +6,7 @@
     "etimologia": "Del latín decollāre",
     "modelos": ["agorar"]
   },
-  "formas_no_personales": {"infinitivo":"degollar","gerundio":"degollando","participio":"degollado"},
+  "formas_no_personales": {"infinitivo":"degollar","gerundio":["degollando"], "participio":["degollado"]},
   "formas_personales": {
     "IndPres": {"s1":["degüello"],"s2":["degüellas"],"vos":["degollás"],"s3":["degüella"],"p1":["degollamos"],"p2":["degolláis"],"p3":["degüellan"]},
     "IndImp": {"s1":["degollaba"],"s2":["degollabas"],"vos":["degollabas"],"s3":["degollaba"],"p1":["degollábamos"],"p2":["degollabais"],"p3":["degollaban"]},

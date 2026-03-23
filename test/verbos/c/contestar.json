@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"contestar","gerundio":"contestando","participio":"contestado"},
+  "formas_no_personales": {"infinitivo":"contestar","gerundio":["contestando"], "participio":["contestado"]},
   "formas_personales": {
     "IndPres": {"s1":["contesto"],"s2":["contestas"],"vos":["contestás"],"s3":["contesta"],"p1":["contestamos"],"p2":["contestáis"],"p3":["contestan"]},
     "IndImp": {"s1":["contestaba"],"s2":["contestabas"],"vos":["contestabas"],"s3":["contestaba"],"p1":["contestábamos"],"p2":["contestabais"],"p3":["contestaban"]},

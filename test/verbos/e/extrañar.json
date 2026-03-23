@@ -6,7 +6,7 @@
     "etimologia": "Del latín extraneāre, y este del italiano stranare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"extrañar","gerundio":"extrañando","participio":"extrañado"},
+  "formas_no_personales": {"infinitivo":"extrañar","gerundio":["extrañando"], "participio":["extrañado"]},
   "formas_personales": {
     "IndPres": {"s1":["extraño"],"s2":["extrañas"],"vos":["extrañás"],"s3":["extraña"],"p1":["extrañamos"],"p2":["extrañáis"],"p3":["extrañan"]},
     "IndImp": {"s1":["extrañaba"],"s2":["extrañabas"],"vos":["extrañabas"],"s3":["extrañaba"],"p1":["extrañábamos"],"p2":["extrañabais"],"p3":["extrañaban"]},

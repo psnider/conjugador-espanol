@@ -6,7 +6,7 @@
     "etimologia": "compuesto de &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;l+&quot;,&quot;href&quot;:&quot;./Plantilla:l+&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;la&quot;},&quot;2&quot;:{&quot;wt&quot;:&quot;sub&quot;},&quot;glosa&quot;:{&quot;wt&quot;:&quot;debajo&quot;}},&quot;i&quot;:1}},&quot; y &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;l+&quot;,&quot;href&quot;:&quot;./Plantilla:l+&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;la&quot;},&quot;2&quot;:{&quot;wt&quot;:&quot;traho&quot;},&quot;3&quot;:{&quot;wt&quot;:&quot;trahō, trahere&quot;}},&quot;i&quot;:2}},&quot; (\\&quot;[[halar]], [[arrastrar]]\\&quot;).&quot;]}\" id=\"mwCQ\">Del latín subtrahō, subtrahere (con epéntesis de -s- por posible influencia de extraer'),[1] compuesto de sub&nbsp;('debajo') y trahō, trahere (\"halar, arrastrar\").",
     "modelos": ["traer"]
   },
-  "formas_no_personales": {"infinitivo":"substraer","gerundio":"substrayendo","participio":"substraído"},
+  "formas_no_personales": {"infinitivo":"substraer","gerundio":["substrayendo"], "participio":["substraído"]},
   "formas_personales": {
     "IndPres": {"s1":["substraigo"],"s2":["substraes"],"vos":["substraés"],"s3":["substrae"],"p1":["substraemos"],"p2":["substraéis"],"p3":["substraen"]},
     "IndImp": {"s1":["substraía"],"s2":["substraías"],"vos":["substraías"],"s3":["substraía"],"p1":["substraíamos"],"p2":["substraíais"],"p3":["substraían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo re- y comendar",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"recomendar","gerundio":"recomendando","participio":"recomendado"},
+  "formas_no_personales": {"infinitivo":"recomendar","gerundio":["recomendando"], "participio":["recomendado"]},
   "formas_personales": {
     "IndPres": {"s1":["recomiendo"],"s2":["recomiendas"],"vos":["recomendás"],"s3":["recomienda"],"p1":["recomendamos"],"p2":["recomendáis"],"p3":["recomiendan"]},
     "IndImp": {"s1":["recomendaba"],"s2":["recomendabas"],"vos":["recomendabas"],"s3":["recomendaba"],"p1":["recomendábamos"],"p2":["recomendabais"],"p3":["recomendaban"]},

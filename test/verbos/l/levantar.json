@@ -6,7 +6,7 @@
     "etimologia": "Del latín levāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"levantar","gerundio":"levantando","participio":"levantado"},
+  "formas_no_personales": {"infinitivo":"levantar","gerundio":["levantando"], "participio":["levantado"]},
   "formas_personales": {
     "IndPres": {"s1":["levanto"],"s2":["levantas"],"vos":["levantás"],"s3":["levanta"],"p1":["levantamos"],"p2":["levantáis"],"p3":["levantan"]},
     "IndImp": {"s1":["levantaba"],"s2":["levantabas"],"vos":["levantabas"],"s3":["levantaba"],"p1":["levantábamos"],"p2":["levantabais"],"p3":["levantaban"]},

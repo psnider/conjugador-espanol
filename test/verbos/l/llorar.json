@@ -6,7 +6,7 @@
     "etimologia": "Del latín plorare",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"llorar","gerundio":"llorando","participio":"llorado"},
+  "formas_no_personales": {"infinitivo":"llorar","gerundio":["llorando"], "participio":["llorado"]},
   "formas_personales": {
     "IndPres": {"s1":["lloro"],"s2":["lloras"],"vos":["llorás"],"s3":["llora"],"p1":["lloramos"],"p2":["lloráis"],"p3":["lloran"]},
     "IndImp": {"s1":["lloraba"],"s2":["llorabas"],"vos":["llorabas"],"s3":["lloraba"],"p1":["llorábamos"],"p2":["llorabais"],"p3":["lloraban"]},

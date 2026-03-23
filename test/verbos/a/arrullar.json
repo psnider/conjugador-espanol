@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"arrullar","gerundio":"arrullando","participio":"arrullado"},
+  "formas_no_personales": {"infinitivo":"arrullar","gerundio":["arrullando"], "participio":["arrullado"]},
   "formas_personales": {
     "IndPres": {"s1":["arrullo"],"s2":["arrullas"],"vos":["arrullás"],"s3":["arrulla"],"p1":["arrullamos"],"p2":["arrulláis"],"p3":["arrullan"]},
     "IndImp": {"s1":["arrullaba"],"s2":["arrullabas"],"vos":["arrullabas"],"s3":["arrullaba"],"p1":["arrullábamos"],"p2":["arrullabais"],"p3":["arrullaban"]},

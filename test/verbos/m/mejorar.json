@@ -6,7 +6,7 @@
     "etimologia": "Del latín meliorare.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"mejorar","gerundio":"mejorando","participio":"mejorado"},
+  "formas_no_personales": {"infinitivo":"mejorar","gerundio":["mejorando"], "participio":["mejorado"]},
   "formas_personales": {
     "IndPres": {"s1":["mejoro"],"s2":["mejoras"],"vos":["mejorás"],"s3":["mejora"],"p1":["mejoramos"],"p2":["mejoráis"],"p3":["mejoran"]},
     "IndImp": {"s1":["mejoraba"],"s2":["mejorabas"],"vos":["mejorabas"],"s3":["mejoraba"],"p1":["mejorábamos"],"p2":["mejorabais"],"p3":["mejoraban"]},

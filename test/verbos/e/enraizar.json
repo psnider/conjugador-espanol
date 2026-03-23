@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo en-, raíz y el sufijo -ar.",
     "modelos": ["realizar","aislar"]
   },
-  "formas_no_personales": {"infinitivo":"enraizar","gerundio":"enraizando","participio":"enraizado"},
+  "formas_no_personales": {"infinitivo":"enraizar","gerundio":["enraizando"], "participio":["enraizado"]},
   "formas_personales": {
     "IndPres": {"s1":["enraízo"],"s2":["enraízas"],"vos":["enraizás"],"s3":["enraíza"],"p1":["enraizamos"],"p2":["enraizáis"],"p3":["enraízan"]},
     "IndImp": {"s1":["enraizaba"],"s2":["enraizabas"],"vos":["enraizabas"],"s3":["enraizaba"],"p1":["enraizábamos"],"p2":["enraizabais"],"p3":["enraizaban"]},

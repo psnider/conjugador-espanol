@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"trasferir","gerundio":"trasfiriendo","participio":"trasferido"},
+  "formas_no_personales": {"infinitivo":"trasferir","gerundio":["trasfiriendo"], "participio":["trasferido"]},
   "formas_personales": {
     "IndPres": {"s1":["trasfiero"],"s2":["trasfieres"],"vos":["trasferís"],"s3":["trasfiere"],"p1":["trasferimos"],"p2":["trasferís"],"p3":["trasfieren"]},
     "IndImp": {"s1":["trasfería"],"s2":["trasferías"],"vos":["trasferías"],"s3":["trasfería"],"p1":["trasferíamos"],"p2":["trasferíais"],"p3":["trasferían"]},

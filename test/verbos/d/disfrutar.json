@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo dis- y fruto.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"disfrutar","gerundio":"disfrutando","participio":"disfrutado"},
+  "formas_no_personales": {"infinitivo":"disfrutar","gerundio":["disfrutando"], "participio":["disfrutado"]},
   "formas_personales": {
     "IndPres": {"s1":["disfruto"],"s2":["disfrutas"],"vos":["disfrutás"],"s3":["disfruta"],"p1":["disfrutamos"],"p2":["disfrutáis"],"p3":["disfrutan"]},
     "IndImp": {"s1":["disfrutaba"],"s2":["disfrutabas"],"vos":["disfrutabas"],"s3":["disfrutaba"],"p1":["disfrutábamos"],"p2":["disfrutabais"],"p3":["disfrutaban"]},

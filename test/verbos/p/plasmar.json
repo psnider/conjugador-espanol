@@ -6,7 +6,7 @@
     "etimologia": "Del latín plasmō, plasmāre, a su vez del griego antiguo πλάσσω ,πλάσσειν&nbsp;(plassō, plassein) (\"modelar, formar\")",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"plasmar","gerundio":"plasmando","participio":"plasmado"},
+  "formas_no_personales": {"infinitivo":"plasmar","gerundio":["plasmando"], "participio":["plasmado"]},
   "formas_personales": {
     "IndPres": {"s1":["plasmo"],"s2":["plasmas"],"vos":["plasmás"],"s3":["plasma"],"p1":["plasmamos"],"p2":["plasmáis"],"p3":["plasman"]},
     "IndImp": {"s1":["plasmaba"],"s2":["plasmabas"],"vos":["plasmabas"],"s3":["plasmaba"],"p1":["plasmábamos"],"p2":["plasmabais"],"p3":["plasmaban"]},

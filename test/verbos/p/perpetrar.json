@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"perpetrar","gerundio":"perpetrando","participio":"perpetrado"},
+  "formas_no_personales": {"infinitivo":"perpetrar","gerundio":["perpetrando"], "participio":["perpetrado"]},
   "formas_personales": {
     "IndPres": {"s1":["perpetro"],"s2":["perpetras"],"vos":["perpetrás"],"s3":["perpetra"],"p1":["perpetramos"],"p2":["perpetráis"],"p3":["perpetran"]},
     "IndImp": {"s1":["perpetraba"],"s2":["perpetrabas"],"vos":["perpetrabas"],"s3":["perpetraba"],"p1":["perpetrábamos"],"p2":["perpetrabais"],"p3":["perpetraban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y obedecer.",
     "modelos": ["parecer"]
   },
-  "formas_no_personales": {"infinitivo":"desobedecer","gerundio":"desobedeciendo","participio":"desobedecido"},
+  "formas_no_personales": {"infinitivo":"desobedecer","gerundio":["desobedeciendo"], "participio":["desobedecido"]},
   "formas_personales": {
     "IndPres": {"s1":["desobedezco"],"s2":["desobedeces"],"vos":["desobedecés"],"s3":["desobedece"],"p1":["desobedecemos"],"p2":["desobedecéis"],"p3":["desobedecen"]},
     "IndImp": {"s1":["desobedecía"],"s2":["desobedecías"],"vos":["desobedecías"],"s3":["desobedecía"],"p1":["desobedecíamos"],"p2":["desobedecíais"],"p3":["desobedecían"]},

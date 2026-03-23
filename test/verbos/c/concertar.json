@@ -6,7 +6,7 @@
     "etimologia": "Del latín concertare.",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"concertar","gerundio":"concertando","participio":"concertado"},
+  "formas_no_personales": {"infinitivo":"concertar","gerundio":["concertando"], "participio":["concertado"]},
   "formas_personales": {
     "IndPres": {"s1":["concierto"],"s2":["conciertas"],"vos":["concertás"],"s3":["concierta"],"p1":["concertamos"],"p2":["concertáis"],"p3":["conciertan"]},
     "IndImp": {"s1":["concertaba"],"s2":["concertabas"],"vos":["concertabas"],"s3":["concertaba"],"p1":["concertábamos"],"p2":["concertabais"],"p3":["concertaban"]},

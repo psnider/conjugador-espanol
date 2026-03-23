@@ -6,7 +6,7 @@
     "etimologia": "Del latín triturare, con el significado de 'trillar las mieses'.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"triturar","gerundio":"triturando","participio":"triturado"},
+  "formas_no_personales": {"infinitivo":"triturar","gerundio":["triturando"], "participio":["triturado"]},
   "formas_personales": {
     "IndPres": {"s1":["trituro"],"s2":["trituras"],"vos":["triturás"],"s3":["tritura"],"p1":["trituramos"],"p2":["trituráis"],"p3":["trituran"]},
     "IndImp": {"s1":["trituraba"],"s2":["triturabas"],"vos":["triturabas"],"s3":["trituraba"],"p1":["triturábamos"],"p2":["triturabais"],"p3":["trituraban"]},

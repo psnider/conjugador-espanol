@@ -6,7 +6,7 @@
     "etimologia": "Del latín vulgar stricāre.[1]",
     "modelos": ["llegar","pensar"]
   },
-  "formas_no_personales": {"infinitivo":"estregar","gerundio":"estregando","participio":"estregado"},
+  "formas_no_personales": {"infinitivo":"estregar","gerundio":["estregando"], "participio":["estregado"]},
   "formas_personales": {
     "IndPres": {"s1":["estriego","estrego"],"s2":["estriegas","estregas"],"vos":["estregás"],"s3":["estriega","estrega"],"p1":["estregamos"],"p2":["estregáis"],"p3":["estriegan","estregan"]},
     "IndImp": {"s1":["estregaba"],"s2":["estregabas"],"vos":["estregabas"],"s3":["estregaba"],"p1":["estregábamos"],"p2":["estregabais"],"p3":["estregaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"encaramar","gerundio":"encaramando","participio":"encaramado"},
+  "formas_no_personales": {"infinitivo":"encaramar","gerundio":["encaramando"], "participio":["encaramado"]},
   "formas_personales": {
     "IndPres": {"s1":["encaramo"],"s2":["encaramas"],"vos":["encaramás"],"s3":["encarama"],"p1":["encaramamos"],"p2":["encaramáis"],"p3":["encaraman"]},
     "IndImp": {"s1":["encaramaba"],"s2":["encaramabas"],"vos":["encaramabas"],"s3":["encaramaba"],"p1":["encaramábamos"],"p2":["encaramabais"],"p3":["encaramaban"]},

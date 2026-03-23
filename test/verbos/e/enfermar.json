@@ -6,7 +6,7 @@
     "etimologia": "Del latín infirmāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enfermar","gerundio":"enfermando","participio":"enfermado"},
+  "formas_no_personales": {"infinitivo":"enfermar","gerundio":["enfermando"], "participio":["enfermado"]},
   "formas_personales": {
     "IndPres": {"s1":["enfermo"],"s2":["enfermas"],"vos":["enfermás"],"s3":["enferma"],"p1":["enfermamos"],"p2":["enfermáis"],"p3":["enferman"]},
     "IndImp": {"s1":["enfermaba"],"s2":["enfermabas"],"vos":["enfermabas"],"s3":["enfermaba"],"p1":["enfermábamos"],"p2":["enfermabais"],"p3":["enfermaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín mirare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"mirar","gerundio":"mirando","participio":"mirado"},
+  "formas_no_personales": {"infinitivo":"mirar","gerundio":["mirando"], "participio":["mirado"]},
   "formas_personales": {
     "IndPres": {"s1":["miro"],"s2":["miras"],"vos":["mirás"],"s3":["mira"],"p1":["miramos"],"p2":["miráis"],"p3":["miran"]},
     "IndImp": {"s1":["miraba"],"s2":["mirabas"],"vos":["mirabas"],"s3":["miraba"],"p1":["mirábamos"],"p2":["mirabais"],"p3":["miraban"]},

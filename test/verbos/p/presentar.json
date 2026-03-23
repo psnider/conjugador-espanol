@@ -6,7 +6,7 @@
     "etimologia": "Del latín praesentāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"presentar","gerundio":"presentando","participio":"presentado"},
+  "formas_no_personales": {"infinitivo":"presentar","gerundio":["presentando"], "participio":["presentado"]},
   "formas_personales": {
     "IndPres": {"s1":["presento"],"s2":["presentas"],"vos":["presentás"],"s3":["presenta"],"p1":["presentamos"],"p2":["presentáis"],"p3":["presentan"]},
     "IndImp": {"s1":["presentaba"],"s2":["presentabas"],"vos":["presentabas"],"s3":["presentaba"],"p1":["presentábamos"],"p2":["presentabais"],"p3":["presentaban"]},

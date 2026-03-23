@@ -6,7 +6,7 @@
     "etimologia": "Del latín excēdere, y este de ex- y cēdere&nbsp;('ir'), del protoitálico *kesd-e/o-, del protoindoeuropeo *ḱiesdʰ-.",
     "modelos": ["temer"]
   },
-  "formas_no_personales": {"infinitivo":"exceder","gerundio":"excediendo","participio":"excedido"},
+  "formas_no_personales": {"infinitivo":"exceder","gerundio":["excediendo"], "participio":["excedido"]},
   "formas_personales": {
     "IndPres": {"s1":["excedo"],"s2":["excedes"],"vos":["excedés"],"s3":["excede"],"p1":["excedemos"],"p2":["excedéis"],"p3":["exceden"]},
     "IndImp": {"s1":["excedía"],"s2":["excedías"],"vos":["excedías"],"s3":["excedía"],"p1":["excedíamos"],"p2":["excedíais"],"p3":["excedían"]},

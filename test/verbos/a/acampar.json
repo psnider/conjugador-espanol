@@ -6,7 +6,7 @@
     "etimologia": "Del italiano accampare.[1]",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"acampar","gerundio":"acampando","participio":"acampado"},
+  "formas_no_personales": {"infinitivo":"acampar","gerundio":["acampando"], "participio":["acampado"]},
   "formas_personales": {
     "IndPres": {"s1":["acampo"],"s2":["acampas"],"vos":["acampás"],"s3":["acampa"],"p1":["acampamos"],"p2":["acampáis"],"p3":["acampan"]},
     "IndImp": {"s1":["acampaba"],"s2":["acampabas"],"vos":["acampabas"],"s3":["acampaba"],"p1":["acampábamos"],"p2":["acampabais"],"p3":["acampaban"]},

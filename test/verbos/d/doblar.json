@@ -6,7 +6,7 @@
     "etimologia": "Del latín duplāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"doblar","gerundio":"doblando","participio":"doblado"},
+  "formas_no_personales": {"infinitivo":"doblar","gerundio":["doblando"], "participio":["doblado"]},
   "formas_personales": {
     "IndPres": {"s1":["doblo"],"s2":["doblas"],"vos":["doblás"],"s3":["dobla"],"p1":["doblamos"],"p2":["dobláis"],"p3":["doblan"]},
     "IndImp": {"s1":["doblaba"],"s2":["doblabas"],"vos":["doblabas"],"s3":["doblaba"],"p1":["doblábamos"],"p2":["doblabais"],"p3":["doblaban"]},

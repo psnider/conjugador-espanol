@@ -5,7 +5,7 @@
     "etimologia": null,
     "modelos": ["construir"]
   },
-  "formas_no_personales": {"infinitivo":"derruir","gerundio":"derruyendo","participio":"derruido"},
+  "formas_no_personales": {"infinitivo":"derruir","gerundio":["derruyendo"], "participio":["derruido"]},
   "formas_personales": {
     "IndPres": {"s1":["derruyo"],"s2":["derruyes"],"vos":["derruís"],"s3":["derruye"],"p1":["derruimos"],"p2":["derruís"],"p3":["derruyen"]},
     "IndImp": {"s1":["derruía"],"s2":["derruías"],"vos":["derruías"],"s3":["derruía"],"p1":["derruíamos"],"p2":["derruíais"],"p3":["derruían"]},

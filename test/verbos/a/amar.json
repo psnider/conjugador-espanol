@@ -6,7 +6,7 @@
     "etimologia": "Del latín amāre.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"amar","gerundio":"amando","participio":"amado"},
+  "formas_no_personales": {"infinitivo":"amar","gerundio":["amando"], "participio":["amado"]},
   "formas_personales": {
     "IndPres": {"s1":["amo"],"s2":["amas"],"vos":["amás"],"s3":["ama"],"p1":["amamos"],"p2":["amáis"],"p3":["aman"]},
     "IndImp": {"s1":["amaba"],"s2":["amabas"],"vos":["amabas"],"s3":["amaba"],"p1":["amábamos"],"p2":["amabais"],"p3":["amaban"]},

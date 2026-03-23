@@ -6,7 +6,7 @@
     "etimologia": "Del latín affirmo, affirmare, compuesto de ad&nbsp;('hacia') y firmo&nbsp;('dar firmeza').",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"afirmar","gerundio":"afirmando","participio":"afirmado"},
+  "formas_no_personales": {"infinitivo":"afirmar","gerundio":["afirmando"], "participio":["afirmado"]},
   "formas_personales": {
     "IndPres": {"s1":["afirmo"],"s2":["afirmas"],"vos":["afirmás"],"s3":["afirma"],"p1":["afirmamos"],"p2":["afirmáis"],"p3":["afirman"]},
     "IndImp": {"s1":["afirmaba"],"s2":["afirmabas"],"vos":["afirmabas"],"s3":["afirmaba"],"p1":["afirmábamos"],"p2":["afirmabais"],"p3":["afirmaban"]},

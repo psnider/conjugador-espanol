@@ -6,7 +6,7 @@
     "etimologia": "Del prefijo des- y proveer",
     "modelos": ["proveer","leer"]
   },
-  "formas_no_personales": {"infinitivo":"desproveer","gerundio":"desproveyendo","participio":"desprovisto"},
+  "formas_no_personales": {"infinitivo":"desproveer","gerundio":["desproveyendo"], "participio":["desprovisto"]},
   "formas_personales": {
     "IndPres": {"s1":["desproveo"],"s2":["desprovees"],"vos":["desproveés"],"s3":["desprovee"],"p1":["desproveemos"],"p2":["desproveéis"],"p3":["desproveen"]},
     "IndImp": {"s1":["desproveía"],"s2":["desproveías"],"vos":["desproveías"],"s3":["desproveía"],"p1":["desproveíamos"],"p2":["desproveíais"],"p3":["desproveían"]},

@@ -6,7 +6,7 @@
     "etimologia": "Del latín conquirĕre ('reunir'), buscar con diligencia.[1]",
     "modelos": ["sentir"]
   },
-  "formas_no_personales": {"infinitivo":"conquerir","gerundio":"conquiriendo","participio":"conquerido"},
+  "formas_no_personales": {"infinitivo":"conquerir","gerundio":["conquiriendo"], "participio":["conquerido"]},
   "formas_personales": {
     "IndPres": {"s1":["conquiero"],"s2":["conquieres"],"vos":["conquerís"],"s3":["conquiere"],"p1":["conquerimos"],"p2":["conquerís"],"p3":["conquieren"]},
     "IndImp": {"s1":["conquería"],"s2":["conquerías"],"vos":["conquerías"],"s3":["conquería"],"p1":["conqueríamos"],"p2":["conqueríais"],"p3":["conquerían"]},

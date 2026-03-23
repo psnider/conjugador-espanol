@@ -6,7 +6,7 @@
     "etimologia": "De enganche y el sufijo -ar",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"enganchar","gerundio":"enganchando","participio":"enganchado"},
+  "formas_no_personales": {"infinitivo":"enganchar","gerundio":["enganchando"], "participio":["enganchado"]},
   "formas_personales": {
     "IndPres": {"s1":["engancho"],"s2":["enganchas"],"vos":["enganchás"],"s3":["engancha"],"p1":["enganchamos"],"p2":["engancháis"],"p3":["enganchan"]},
     "IndImp": {"s1":["enganchaba"],"s2":["enganchabas"],"vos":["enganchabas"],"s3":["enganchaba"],"p1":["enganchábamos"],"p2":["enganchabais"],"p3":["enganchaban"]},

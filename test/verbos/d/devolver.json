@@ -6,7 +6,7 @@
     "etimologia": "Del latín devolvere.",
     "modelos": ["volver","mover"]
   },
-  "formas_no_personales": {"infinitivo":"devolver","gerundio":"devolviendo","participio":"devuelto"},
+  "formas_no_personales": {"infinitivo":"devolver","gerundio":["devolviendo"], "participio":["devuelto"]},
   "formas_personales": {
     "IndPres": {"s1":["devuelvo"],"s2":["devuelves"],"vos":["devolvés"],"s3":["devuelve"],"p1":["devolvemos"],"p2":["devolvéis"],"p3":["devuelven"]},
     "IndImp": {"s1":["devolvía"],"s2":["devolvías"],"vos":["devolvías"],"s3":["devolvía"],"p1":["devolvíamos"],"p2":["devolvíais"],"p3":["devolvían"]},

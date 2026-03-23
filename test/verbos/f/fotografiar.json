@@ -5,7 +5,7 @@
     "etimologia": "De fotografía y el sufijo -ar",
     "modelos": ["enviar"]
   },
-  "formas_no_personales": {"infinitivo":"fotografiar","gerundio":"fotografiando","participio":"fotografiado"},
+  "formas_no_personales": {"infinitivo":"fotografiar","gerundio":["fotografiando"], "participio":["fotografiado"]},
   "formas_personales": {
     "IndPres": {"s1":["fotografío"],"s2":["fotografías"],"vos":["fotografiás"],"s3":["fotografía"],"p1":["fotografiamos"],"p2":["fotografiáis"],"p3":["fotografían"]},
     "IndImp": {"s1":["fotografiaba"],"s2":["fotografiabas"],"vos":["fotografiabas"],"s3":["fotografiaba"],"p1":["fotografiábamos"],"p2":["fotografiabais"],"p3":["fotografiaban"]},

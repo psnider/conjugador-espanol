@@ -5,7 +5,7 @@
     "etimologia": "De a- y del castellano antiguo testiguar",
     "modelos": ["averiguar"]
   },
-  "formas_no_personales": {"infinitivo":"atestiguar","gerundio":"atestiguando","participio":"atestiguado"},
+  "formas_no_personales": {"infinitivo":"atestiguar","gerundio":["atestiguando"], "participio":["atestiguado"]},
   "formas_personales": {
     "IndPres": {"s1":["atestiguo"],"s2":["atestiguas"],"vos":["atestiguás"],"s3":["atestigua"],"p1":["atestiguamos"],"p2":["atestiguáis"],"p3":["atestiguan"]},
     "IndImp": {"s1":["atestiguaba"],"s2":["atestiguabas"],"vos":["atestiguabas"],"s3":["atestiguaba"],"p1":["atestiguábamos"],"p2":["atestiguabais"],"p3":["atestiguaban"]},

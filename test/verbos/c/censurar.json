@@ -6,7 +6,7 @@
     "etimologia": null,
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"censurar","gerundio":"censurando","participio":"censurado"},
+  "formas_no_personales": {"infinitivo":"censurar","gerundio":["censurando"], "participio":["censurado"]},
   "formas_personales": {
     "IndPres": {"s1":["censuro"],"s2":["censuras"],"vos":["censurás"],"s3":["censura"],"p1":["censuramos"],"p2":["censuráis"],"p3":["censuran"]},
     "IndImp": {"s1":["censuraba"],"s2":["censurabas"],"vos":["censurabas"],"s3":["censuraba"],"p1":["censurábamos"],"p2":["censurabais"],"p3":["censuraban"]},

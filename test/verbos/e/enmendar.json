@@ -6,7 +6,7 @@
     "etimologia": "De emendar, con epéntesis de [ n ] por influencia del prefijo en-.[1]",
     "modelos": ["pensar"]
   },
-  "formas_no_personales": {"infinitivo":"enmendar","gerundio":"enmendando","participio":"enmendado"},
+  "formas_no_personales": {"infinitivo":"enmendar","gerundio":["enmendando"], "participio":["enmendado"]},
   "formas_personales": {
     "IndPres": {"s1":["enmiendo"],"s2":["enmiendas"],"vos":["enmendás"],"s3":["enmienda"],"p1":["enmendamos"],"p2":["enmendáis"],"p3":["enmiendan"]},
     "IndImp": {"s1":["enmendaba"],"s2":["enmendabas"],"vos":["enmendabas"],"s3":["enmendaba"],"p1":["enmendábamos"],"p2":["enmendabais"],"p3":["enmendaban"]},

@@ -6,7 +6,7 @@
     "etimologia": "De interés y el sufijo -ar.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"interesar","gerundio":"interesando","participio":"interesado"},
+  "formas_no_personales": {"infinitivo":"interesar","gerundio":["interesando"], "participio":["interesado"]},
   "formas_personales": {
     "IndPres": {"s1":["intereso"],"s2":["interesas"],"vos":["interesás"],"s3":["interesa"],"p1":["interesamos"],"p2":["interesáis"],"p3":["interesan"]},
     "IndImp": {"s1":["interesaba"],"s2":["interesabas"],"vos":["interesabas"],"s3":["interesaba"],"p1":["interesábamos"],"p2":["interesabais"],"p3":["interesaban"]},

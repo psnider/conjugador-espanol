@@ -6,7 +6,7 @@
     "etimologia": "Del latín emittĕre",
     "modelos": ["partir"]
   },
-  "formas_no_personales": {"infinitivo":"emitir","gerundio":"emitiendo","participio":"emitido"},
+  "formas_no_personales": {"infinitivo":"emitir","gerundio":["emitiendo"], "participio":["emitido"]},
   "formas_personales": {
     "IndPres": {"s1":["emito"],"s2":["emites"],"vos":["emitís"],"s3":["emite"],"p1":["emitimos"],"p2":["emitís"],"p3":["emiten"]},
     "IndImp": {"s1":["emitía"],"s2":["emitías"],"vos":["emitías"],"s3":["emitía"],"p1":["emitíamos"],"p2":["emitíais"],"p3":["emitían"]},

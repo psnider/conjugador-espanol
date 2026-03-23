@@ -6,7 +6,7 @@
     "etimologia": "Onomatopéyica.",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"chupar","gerundio":"chupando","participio":"chupado"},
+  "formas_no_personales": {"infinitivo":"chupar","gerundio":["chupando"], "participio":["chupado"]},
   "formas_personales": {
     "IndPres": {"s1":["chupo"],"s2":["chupas"],"vos":["chupás"],"s3":["chupa"],"p1":["chupamos"],"p2":["chupáis"],"p3":["chupan"]},
     "IndImp": {"s1":["chupaba"],"s2":["chupabas"],"vos":["chupabas"],"s3":["chupaba"],"p1":["chupábamos"],"p2":["chupabais"],"p3":["chupaban"]},

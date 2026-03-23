@@ -6,7 +6,7 @@
     "etimologia": "Del latín medieval decadĕre, y este compuesto del latín cadere, del protoindoeuropeo *ḱad-. Compárese el catalán decaure, el francés déchoir, el inglés decay, el italiano decadere, el portugués decahir o el rumano decădea.",
     "modelos": ["caer"]
   },
-  "formas_no_personales": {"infinitivo":"decaer","gerundio":"decayendo","participio":"decaído"},
+  "formas_no_personales": {"infinitivo":"decaer","gerundio":["decayendo"], "participio":["decaído"]},
   "formas_personales": {
     "IndPres": {"s1":["decaigo"],"s2":["decaes"],"vos":["decaés"],"s3":["decae"],"p1":["decaemos"],"p2":["decaéis"],"p3":["decaen"]},
     "IndImp": {"s1":["decaía"],"s2":["decaías"],"vos":["decaías"],"s3":["decaía"],"p1":["decaíamos"],"p2":["decaíais"],"p3":["decaían"]},

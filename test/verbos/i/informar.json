@@ -6,7 +6,7 @@
     "etimologia": "Si puedes, incorpórala: ver cómo",
     "modelos": ["amar"]
   },
-  "formas_no_personales": {"infinitivo":"informar","gerundio":"informando","participio":"informado"},
+  "formas_no_personales": {"infinitivo":"informar","gerundio":["informando"], "participio":["informado"]},
   "formas_personales": {
     "IndPres": {"s1":["informo"],"s2":["informas"],"vos":["informás"],"s3":["informa"],"p1":["informamos"],"p2":["informáis"],"p3":["informan"]},
     "IndImp": {"s1":["informaba"],"s2":["informabas"],"vos":["informabas"],"s3":["informaba"],"p1":["informábamos"],"p2":["informabais"],"p3":["informaban"]},

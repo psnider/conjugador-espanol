@@ -6,7 +6,7 @@
     "etimologia": "Del latín renovō, renovāre.[1]",
     "modelos": ["contar"]
   },
-  "formas_no_personales": {"infinitivo":"renovar","gerundio":"renovando","participio":"renovado"},
+  "formas_no_personales": {"infinitivo":"renovar","gerundio":["renovando"], "participio":["renovado"]},
   "formas_personales": {
     "IndPres": {"s1":["renuevo"],"s2":["renuevas"],"vos":["renovás"],"s3":["renueva"],"p1":["renovamos"],"p2":["renováis"],"p3":["renuevan"]},
     "IndImp": {"s1":["renovaba"],"s2":["renovabas"],"vos":["renovabas"],"s3":["renovaba"],"p1":["renovábamos"],"p2":["renovabais"],"p3":["renovaban"]},
