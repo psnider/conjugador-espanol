@@ -13,7 +13,7 @@
     "IndPret": {"s1":["agregué"],"s2":["agregaste"],"vos":["agregaste"],"s3":["agregó"],"p1":["agregamos"],"p2":["agregasteis"],"p3":["agregaron"]},
     "IndFut": {"s1":["agregaré"],"s2":["agregarás"],"vos":["agregarás"],"s3":["agregará"],"p1":["agregaremos"],"p2":["agregaréis"],"p3":["agregarán"]},
     "IndCond": {"s1":["agregaría"],"s2":["agregarías"],"vos":["agregarías"],"s3":["agregaría"],"p1":["agregaríamos"],"p2":["agregaríais"],"p3":["agregarían"]},
-    "SubPres": {"s1":["agregue"],"s2":["agregues"],"vos":["agregues","agregués"],"s3":["agregue"],"p1":["agreguemos"],"p2":["agreguéis"],"p3":["agreguen"]},
+    "SubPres": {"s1":["agregue"],"s2":["agregues"],"vos":[{"forma": "agregues","uso":"Riop."},{"forma":"agregués","uso":"C.Am."}],"s3":["agregue"],"p1":["agreguemos"],"p2":["agreguéis"],"p3":["agreguen"]},
     "SubImp": {"s1":["agregara","agregase"],"s2":["agregaras","agregases"],"vos":["agregaras","agregases"],"s3":["agregara","agregase"],"p1":["agregáramos","agregásemos"],"p2":["agregarais","agregaseis"],"p3":["agregaran","agregasen"]},
     "SubFut": {"s1":["agregare"],"s2":["agregares"],"vos":["agregares"],"s3":["agregare"],"p1":["agregáremos"],"p2":["agregareis"],"p3":["agregaren"]},
     "CmdPos": {"s2":["agrega"],"vos":["agregá"],"s3":["agregue"],"p1":["agreguemos"],"p2":["agregad"],"p3":["agreguen"]}

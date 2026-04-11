@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desprendí"],"s2":["desprendiste"],"vos":["desprendiste"],"s3":["desprendió"],"p1":["desprendimos"],"p2":["desprendisteis"],"p3":["desprendieron"]},
     "IndFut": {"s1":["desprenderé"],"s2":["desprenderás"],"vos":["desprenderás"],"s3":["desprenderá"],"p1":["desprenderemos"],"p2":["desprenderéis"],"p3":["desprenderán"]},
     "IndCond": {"s1":["desprendería"],"s2":["desprenderías"],"vos":["desprenderías"],"s3":["desprendería"],"p1":["desprenderíamos"],"p2":["desprenderíais"],"p3":["desprenderían"]},
-    "SubPres": {"s1":["desprenda"],"s2":["desprendas"],"vos":["desprendas","desprendás"],"s3":["desprenda"],"p1":["desprendamos"],"p2":["desprendáis"],"p3":["desprendan"]},
+    "SubPres": {"s1":["desprenda"],"s2":["desprendas"],"vos":[{"forma": "desprendas","uso":"Riop."},{"forma":"desprendás","uso":"C.Am."}],"s3":["desprenda"],"p1":["desprendamos"],"p2":["desprendáis"],"p3":["desprendan"]},
     "SubImp": {"s1":["desprendiera","desprendiese"],"s2":["desprendieras","desprendieses"],"vos":["desprendieras","desprendieses"],"s3":["desprendiera","desprendiese"],"p1":["desprendiéramos","desprendiésemos"],"p2":["desprendierais","desprendieseis"],"p3":["desprendieran","desprendiesen"]},
     "SubFut": {"s1":["desprendiere"],"s2":["desprendieres"],"vos":["desprendieres"],"s3":["desprendiere"],"p1":["desprendiéremos"],"p2":["desprendiereis"],"p3":["desprendieren"]},
     "CmdPos": {"s2":["desprende"],"vos":["desprendé"],"s3":["desprenda"],"p1":["desprendamos"],"p2":["desprended"],"p3":["desprendan"]}

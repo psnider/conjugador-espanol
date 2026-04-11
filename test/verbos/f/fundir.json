@@ -13,7 +13,7 @@
     "IndPret": {"s1":["fundí"],"s2":["fundiste"],"vos":["fundiste"],"s3":["fundió"],"p1":["fundimos"],"p2":["fundisteis"],"p3":["fundieron"]},
     "IndFut": {"s1":["fundiré"],"s2":["fundirás"],"vos":["fundirás"],"s3":["fundirá"],"p1":["fundiremos"],"p2":["fundiréis"],"p3":["fundirán"]},
     "IndCond": {"s1":["fundiría"],"s2":["fundirías"],"vos":["fundirías"],"s3":["fundiría"],"p1":["fundiríamos"],"p2":["fundiríais"],"p3":["fundirían"]},
-    "SubPres": {"s1":["funda"],"s2":["fundas"],"vos":["fundas","fundás"],"s3":["funda"],"p1":["fundamos"],"p2":["fundáis"],"p3":["fundan"]},
+    "SubPres": {"s1":["funda"],"s2":["fundas"],"vos":[{"forma": "fundas","uso":"Riop."},{"forma":"fundás","uso":"C.Am."}],"s3":["funda"],"p1":["fundamos"],"p2":["fundáis"],"p3":["fundan"]},
     "SubImp": {"s1":["fundiera","fundiese"],"s2":["fundieras","fundieses"],"vos":["fundieras","fundieses"],"s3":["fundiera","fundiese"],"p1":["fundiéramos","fundiésemos"],"p2":["fundierais","fundieseis"],"p3":["fundieran","fundiesen"]},
     "SubFut": {"s1":["fundiere"],"s2":["fundieres"],"vos":["fundieres"],"s3":["fundiere"],"p1":["fundiéremos"],"p2":["fundiereis"],"p3":["fundieren"]},
     "CmdPos": {"s2":["funde"],"vos":["fundí"],"s3":["funda"],"p1":["fundamos"],"p2":["fundid"],"p3":["fundan"]}

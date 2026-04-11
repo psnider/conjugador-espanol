@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rehuí"],"s2":["rehuiste"],"vos":["rehuiste"],"s3":["rehuyó"],"p1":["rehuimos"],"p2":["rehuisteis"],"p3":["rehuyeron"]},
     "IndFut": {"s1":["rehuiré"],"s2":["rehuirás"],"vos":["rehuirás"],"s3":["rehuirá"],"p1":["rehuiremos"],"p2":["rehuiréis"],"p3":["rehuirán"]},
     "IndCond": {"s1":["rehuiría"],"s2":["rehuirías"],"vos":["rehuirías"],"s3":["rehuiría"],"p1":["rehuiríamos"],"p2":["rehuiríais"],"p3":["rehuirían"]},
-    "SubPres": {"s1":["rehúya"],"s2":["rehúyas"],"vos":["rehúyas","rehuyás"],"s3":["rehúya"],"p1":["rehuyamos"],"p2":["rehuyáis"],"p3":["rehúyan"]},
+    "SubPres": {"s1":["rehúya"],"s2":["rehúyas"],"vos":[{"forma": "rehúyas","uso":"Riop."},{"forma":"rehuyás","uso":"C.Am."}],"s3":["rehúya"],"p1":["rehuyamos"],"p2":["rehuyáis"],"p3":["rehúyan"]},
     "SubImp": {"s1":["rehuyera","rehuyese"],"s2":["rehuyeras","rehuyeses"],"vos":["rehuyeras","rehuyeses"],"s3":["rehuyera","rehuyese"],"p1":["rehuyéramos","rehuyésemos"],"p2":["rehuyerais","rehuyeseis"],"p3":["rehuyeran","rehuyesen"]},
     "SubFut": {"s1":["rehuyere"],"s2":["rehuyeres"],"vos":["rehuyeres"],"s3":["rehuyere"],"p1":["rehuyéremos"],"p2":["rehuyereis"],"p3":["rehuyeren"]},
     "CmdPos": {"s2":["rehúye"],"vos":["rehuí"],"s3":["rehúya"],"p1":["rehuyamos"],"p2":["rehuid"],"p3":["rehúyan"]}

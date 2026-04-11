@@ -13,7 +13,7 @@
     "IndPret": {"s1":["patiné"],"s2":["patinaste"],"vos":["patinaste"],"s3":["patinó"],"p1":["patinamos"],"p2":["patinasteis"],"p3":["patinaron"]},
     "IndFut": {"s1":["patinaré"],"s2":["patinarás"],"vos":["patinarás"],"s3":["patinará"],"p1":["patinaremos"],"p2":["patinaréis"],"p3":["patinarán"]},
     "IndCond": {"s1":["patinaría"],"s2":["patinarías"],"vos":["patinarías"],"s3":["patinaría"],"p1":["patinaríamos"],"p2":["patinaríais"],"p3":["patinarían"]},
-    "SubPres": {"s1":["patine"],"s2":["patines"],"vos":["patines","patinés"],"s3":["patine"],"p1":["patinemos"],"p2":["patinéis"],"p3":["patinen"]},
+    "SubPres": {"s1":["patine"],"s2":["patines"],"vos":[{"forma": "patines","uso":"Riop."},{"forma":"patinés","uso":"C.Am."}],"s3":["patine"],"p1":["patinemos"],"p2":["patinéis"],"p3":["patinen"]},
     "SubImp": {"s1":["patinara","patinase"],"s2":["patinaras","patinases"],"vos":["patinaras","patinases"],"s3":["patinara","patinase"],"p1":["patináramos","patinásemos"],"p2":["patinarais","patinaseis"],"p3":["patinaran","patinasen"]},
     "SubFut": {"s1":["patinare"],"s2":["patinares"],"vos":["patinares"],"s3":["patinare"],"p1":["patináremos"],"p2":["patinareis"],"p3":["patinaren"]},
     "CmdPos": {"s2":["patina"],"vos":["patiná"],"s3":["patine"],"p1":["patinemos"],"p2":["patinad"],"p3":["patinen"]}

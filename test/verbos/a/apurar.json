@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apuré"],"s2":["apuraste"],"vos":["apuraste"],"s3":["apuró"],"p1":["apuramos"],"p2":["apurasteis"],"p3":["apuraron"]},
     "IndFut": {"s1":["apuraré"],"s2":["apurarás"],"vos":["apurarás"],"s3":["apurará"],"p1":["apuraremos"],"p2":["apuraréis"],"p3":["apurarán"]},
     "IndCond": {"s1":["apuraría"],"s2":["apurarías"],"vos":["apurarías"],"s3":["apuraría"],"p1":["apuraríamos"],"p2":["apuraríais"],"p3":["apurarían"]},
-    "SubPres": {"s1":["apure"],"s2":["apures"],"vos":["apures","apurés"],"s3":["apure"],"p1":["apuremos"],"p2":["apuréis"],"p3":["apuren"]},
+    "SubPres": {"s1":["apure"],"s2":["apures"],"vos":[{"forma": "apures","uso":"Riop."},{"forma":"apurés","uso":"C.Am."}],"s3":["apure"],"p1":["apuremos"],"p2":["apuréis"],"p3":["apuren"]},
     "SubImp": {"s1":["apurara","apurase"],"s2":["apuraras","apurases"],"vos":["apuraras","apurases"],"s3":["apurara","apurase"],"p1":["apuráramos","apurásemos"],"p2":["apurarais","apuraseis"],"p3":["apuraran","apurasen"]},
     "SubFut": {"s1":["apurare"],"s2":["apurares"],"vos":["apurares"],"s3":["apurare"],"p1":["apuráremos"],"p2":["apurareis"],"p3":["apuraren"]},
     "CmdPos": {"s2":["apura"],"vos":["apurá"],"s3":["apure"],"p1":["apuremos"],"p2":["apurad"],"p3":["apuren"]}

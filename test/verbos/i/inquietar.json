@@ -13,7 +13,7 @@
     "IndPret": {"s1":["inquieté"],"s2":["inquietaste"],"vos":["inquietaste"],"s3":["inquietó"],"p1":["inquietamos"],"p2":["inquietasteis"],"p3":["inquietaron"]},
     "IndFut": {"s1":["inquietaré"],"s2":["inquietarás"],"vos":["inquietarás"],"s3":["inquietará"],"p1":["inquietaremos"],"p2":["inquietaréis"],"p3":["inquietarán"]},
     "IndCond": {"s1":["inquietaría"],"s2":["inquietarías"],"vos":["inquietarías"],"s3":["inquietaría"],"p1":["inquietaríamos"],"p2":["inquietaríais"],"p3":["inquietarían"]},
-    "SubPres": {"s1":["inquiete"],"s2":["inquietes"],"vos":["inquietes","inquietés"],"s3":["inquiete"],"p1":["inquietemos"],"p2":["inquietéis"],"p3":["inquieten"]},
+    "SubPres": {"s1":["inquiete"],"s2":["inquietes"],"vos":[{"forma": "inquietes","uso":"Riop."},{"forma":"inquietés","uso":"C.Am."}],"s3":["inquiete"],"p1":["inquietemos"],"p2":["inquietéis"],"p3":["inquieten"]},
     "SubImp": {"s1":["inquietara","inquietase"],"s2":["inquietaras","inquietases"],"vos":["inquietaras","inquietases"],"s3":["inquietara","inquietase"],"p1":["inquietáramos","inquietásemos"],"p2":["inquietarais","inquietaseis"],"p3":["inquietaran","inquietasen"]},
     "SubFut": {"s1":["inquietare"],"s2":["inquietares"],"vos":["inquietares"],"s3":["inquietare"],"p1":["inquietáremos"],"p2":["inquietareis"],"p3":["inquietaren"]},
     "CmdPos": {"s2":["inquieta"],"vos":["inquietá"],"s3":["inquiete"],"p1":["inquietemos"],"p2":["inquietad"],"p3":["inquieten"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desprecié"],"s2":["despreciaste"],"vos":["despreciaste"],"s3":["despreció"],"p1":["despreciamos"],"p2":["despreciasteis"],"p3":["despreciaron"]},
     "IndFut": {"s1":["despreciaré"],"s2":["despreciarás"],"vos":["despreciarás"],"s3":["despreciará"],"p1":["despreciaremos"],"p2":["despreciaréis"],"p3":["despreciarán"]},
     "IndCond": {"s1":["despreciaría"],"s2":["despreciarías"],"vos":["despreciarías"],"s3":["despreciaría"],"p1":["despreciaríamos"],"p2":["despreciaríais"],"p3":["despreciarían"]},
-    "SubPres": {"s1":["desprecie"],"s2":["desprecies"],"vos":["desprecies","despreciés"],"s3":["desprecie"],"p1":["despreciemos"],"p2":["despreciéis"],"p3":["desprecien"]},
+    "SubPres": {"s1":["desprecie"],"s2":["desprecies"],"vos":[{"forma": "desprecies","uso":"Riop."},{"forma":"despreciés","uso":"C.Am."}],"s3":["desprecie"],"p1":["despreciemos"],"p2":["despreciéis"],"p3":["desprecien"]},
     "SubImp": {"s1":["despreciara","despreciase"],"s2":["despreciaras","despreciases"],"vos":["despreciaras","despreciases"],"s3":["despreciara","despreciase"],"p1":["despreciáramos","despreciásemos"],"p2":["despreciarais","despreciaseis"],"p3":["despreciaran","despreciasen"]},
     "SubFut": {"s1":["despreciare"],"s2":["despreciares"],"vos":["despreciares"],"s3":["despreciare"],"p1":["despreciáremos"],"p2":["despreciareis"],"p3":["despreciaren"]},
     "CmdPos": {"s2":["desprecia"],"vos":["despreciá"],"s3":["desprecie"],"p1":["despreciemos"],"p2":["despreciad"],"p3":["desprecien"]}

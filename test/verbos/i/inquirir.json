@@ -13,7 +13,7 @@
     "IndPret": {"s1":["inquirí"],"s2":["inquiriste"],"vos":["inquiriste"],"s3":["inquirió"],"p1":["inquirimos"],"p2":["inquiristeis"],"p3":["inquirieron"]},
     "IndFut": {"s1":["inquiriré"],"s2":["inquirirás"],"vos":["inquirirás"],"s3":["inquirirá"],"p1":["inquiriremos"],"p2":["inquiriréis"],"p3":["inquirirán"]},
     "IndCond": {"s1":["inquiriría"],"s2":["inquirirías"],"vos":["inquirirías"],"s3":["inquiriría"],"p1":["inquiriríamos"],"p2":["inquiriríais"],"p3":["inquirirían"]},
-    "SubPres": {"s1":["inquiera"],"s2":["inquieras"],"vos":["inquieras","inquirás"],"s3":["inquiera"],"p1":["inquiramos"],"p2":["inquiráis"],"p3":["inquieran"]},
+    "SubPres": {"s1":["inquiera"],"s2":["inquieras"],"vos":[{"forma": "inquieras","uso":"Riop."},{"forma":"inquirás","uso":"C.Am."}],"s3":["inquiera"],"p1":["inquiramos"],"p2":["inquiráis"],"p3":["inquieran"]},
     "SubImp": {"s1":["inquiriera","inquiriese"],"s2":["inquirieras","inquirieses"],"vos":["inquirieras","inquirieses"],"s3":["inquiriera","inquiriese"],"p1":["inquiriéramos","inquiriésemos"],"p2":["inquirierais","inquirieseis"],"p3":["inquirieran","inquiriesen"]},
     "SubFut": {"s1":["inquiriere"],"s2":["inquirieres"],"vos":["inquirieres"],"s3":["inquiriere"],"p1":["inquiriéremos"],"p2":["inquiriereis"],"p3":["inquirieren"]},
     "CmdPos": {"s2":["inquiere"],"vos":["inquirí"],"s3":["inquiera"],"p1":["inquiramos"],"p2":["inquirid"],"p3":["inquieran"]}

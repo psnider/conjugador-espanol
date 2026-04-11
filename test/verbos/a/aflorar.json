@@ -13,7 +13,7 @@
     "IndPret": {"s1":["afloré"],"s2":["afloraste"],"vos":["afloraste"],"s3":["afloró"],"p1":["afloramos"],"p2":["aflorasteis"],"p3":["afloraron"]},
     "IndFut": {"s1":["afloraré"],"s2":["aflorarás"],"vos":["aflorarás"],"s3":["aflorará"],"p1":["afloraremos"],"p2":["afloraréis"],"p3":["aflorarán"]},
     "IndCond": {"s1":["afloraría"],"s2":["aflorarías"],"vos":["aflorarías"],"s3":["afloraría"],"p1":["afloraríamos"],"p2":["afloraríais"],"p3":["aflorarían"]},
-    "SubPres": {"s1":["aflore"],"s2":["aflores"],"vos":["aflores","aflorés"],"s3":["aflore"],"p1":["afloremos"],"p2":["afloréis"],"p3":["afloren"]},
+    "SubPres": {"s1":["aflore"],"s2":["aflores"],"vos":[{"forma": "aflores","uso":"Riop."},{"forma":"aflorés","uso":"C.Am."}],"s3":["aflore"],"p1":["afloremos"],"p2":["afloréis"],"p3":["afloren"]},
     "SubImp": {"s1":["aflorara","aflorase"],"s2":["afloraras","aflorases"],"vos":["afloraras","aflorases"],"s3":["aflorara","aflorase"],"p1":["afloráramos","aflorásemos"],"p2":["aflorarais","afloraseis"],"p3":["afloraran","aflorasen"]},
     "SubFut": {"s1":["aflorare"],"s2":["aflorares"],"vos":["aflorares"],"s3":["aflorare"],"p1":["afloráremos"],"p2":["aflorareis"],"p3":["afloraren"]},
     "CmdPos": {"s2":["aflora"],"vos":["aflorá"],"s3":["aflore"],"p1":["afloremos"],"p2":["aflorad"],"p3":["afloren"]}

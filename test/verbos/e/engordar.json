@@ -13,7 +13,7 @@
     "IndPret": {"s1":["engordé"],"s2":["engordaste"],"vos":["engordaste"],"s3":["engordó"],"p1":["engordamos"],"p2":["engordasteis"],"p3":["engordaron"]},
     "IndFut": {"s1":["engordaré"],"s2":["engordarás"],"vos":["engordarás"],"s3":["engordará"],"p1":["engordaremos"],"p2":["engordaréis"],"p3":["engordarán"]},
     "IndCond": {"s1":["engordaría"],"s2":["engordarías"],"vos":["engordarías"],"s3":["engordaría"],"p1":["engordaríamos"],"p2":["engordaríais"],"p3":["engordarían"]},
-    "SubPres": {"s1":["engorde"],"s2":["engordes"],"vos":["engordes","engordés"],"s3":["engorde"],"p1":["engordemos"],"p2":["engordéis"],"p3":["engorden"]},
+    "SubPres": {"s1":["engorde"],"s2":["engordes"],"vos":[{"forma": "engordes","uso":"Riop."},{"forma":"engordés","uso":"C.Am."}],"s3":["engorde"],"p1":["engordemos"],"p2":["engordéis"],"p3":["engorden"]},
     "SubImp": {"s1":["engordara","engordase"],"s2":["engordaras","engordases"],"vos":["engordaras","engordases"],"s3":["engordara","engordase"],"p1":["engordáramos","engordásemos"],"p2":["engordarais","engordaseis"],"p3":["engordaran","engordasen"]},
     "SubFut": {"s1":["engordare"],"s2":["engordares"],"vos":["engordares"],"s3":["engordare"],"p1":["engordáremos"],"p2":["engordareis"],"p3":["engordaren"]},
     "CmdPos": {"s2":["engorda"],"vos":["engordá"],"s3":["engorde"],"p1":["engordemos"],"p2":["engordad"],"p3":["engorden"]}

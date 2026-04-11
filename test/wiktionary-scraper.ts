@@ -1,7 +1,6 @@
 import * as fs from 'node:fs/promises';
-import { GrammaticalPerson, ConjugaciónTabla, ConjugationSlot, FormaAtípico, Participios } from '../src/index.js';
-import { ConjugaciónEntero, FormasNoPersonales } from './index.js';
-
+import type { GrammaticalPerson, ConjugaciónTabla, FormaConjugada, FormaRestringida, Uso } from '../src/index';
+import {FormasNoPersonales, ConjugaciónEntero} from "./index"
 
 const desired_mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"]
 
@@ -153,19 +152,19 @@ function getLegendMap(html: string) {
  */
 function buildConjugationSlot(
     estándar: [string] | [string, string],
-    atípicos?: FormaAtípico[]
-): ConjugationSlot {
-    if (!atípicos || atípicos.length === 0) {
+    restringido?: FormaRestringida[]
+): FormaConjugada[] {
+    if (!restringido || restringido.length === 0) {
         return estándar
     }
-    return { estándar, atípicos }
+    return [...estándar, ...restringido]
 }
 
 
-function parseCell(cellHtml: string, legendMap: Record<string,string>): ConjugationSlot | undefined {
+function parseCell(cellHtml: string, legendMap: Record<string,string>): FormaConjugada[] | undefined {
     // FIX: resolve this type-fighting in favor of code simplicity
     const estándar: [string] | [string, string] = <[string]><unknown> []
-    const atípicos: FormaAtípico[] = []
+    const restringido: FormaRestringida[] = []
 
     for (const m of cellHtml.matchAll(RE_LINK_BLOCK)) {
         const forma = m[1].trim()
@@ -173,9 +172,9 @@ function parseCell(cellHtml: string, legendMap: Record<string,string>): Conjugat
             continue
         const symbol = m[2]?.trim()
         if (symbol && legendMap[symbol]) {
-            atípicos.push({
+            restringido.push({
                 forma,
-                etiquetas: [legendMap[symbol]]
+                uso: <Uso> legendMap[symbol]
             })
         }
         else {
@@ -183,12 +182,12 @@ function parseCell(cellHtml: string, legendMap: Record<string,string>): Conjugat
         }
     }
 
-    if (!estándar.length && !atípicos.length)
+    if (!estándar.length && !restringido.length)
         return undefined
 
     return buildConjugationSlot(
         estándar,
-        atípicos.length ? atípicos : undefined
+        restringido.length ? restringido : undefined
     )
 }
 
@@ -265,6 +264,14 @@ export function scrapeVerbConjugation(html: string): ConjugaciónEntero {
 }
 
 
+// Wictionary has two forms for SubPres.vos, the first is standard, the second regional
+function clarifySubPresVos(entero: ConjugaciónEntero) {
+    const SubPres = entero.formas_personales.SubPres
+
+    SubPres.vos
+
+}
+
 export function stringifyConjugaciónEntero(entero: ConjugaciónEntero) {
     const lexicografía_template = {...entero.lexicografía}
     const json_modelos = JSON.stringify(entero.lexicografía.modelos)
@@ -309,6 +316,7 @@ const json_filename = `test/verbos/${first_letter}/${infinitivo}.json`
 const html = fs.readFile(html_filename, {encoding: "utf8"}).then((buffer) => {
    const html = buffer.toString()
    let conjugation = scrapeVerbConjugation(html)
+   clarifySubPresVos(conjugation)
    conjugation.urls = [html_filename]
    saveConjugaciónEntero(conjugation, json_filename)
 //    console.log(`conjugation=\n${JSON.stringify(conjugation, null, 4)}`)

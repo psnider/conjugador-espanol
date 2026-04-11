@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tiré"],"s2":["tiraste"],"vos":["tiraste"],"s3":["tiró"],"p1":["tiramos"],"p2":["tirasteis"],"p3":["tiraron"]},
     "IndFut": {"s1":["tiraré"],"s2":["tirarás"],"vos":["tirarás"],"s3":["tirará"],"p1":["tiraremos"],"p2":["tiraréis"],"p3":["tirarán"]},
     "IndCond": {"s1":["tiraría"],"s2":["tirarías"],"vos":["tirarías"],"s3":["tiraría"],"p1":["tiraríamos"],"p2":["tiraríais"],"p3":["tirarían"]},
-    "SubPres": {"s1":["tire"],"s2":["tires"],"vos":["tires","tirés"],"s3":["tire"],"p1":["tiremos"],"p2":["tiréis"],"p3":["tiren"]},
+    "SubPres": {"s1":["tire"],"s2":["tires"],"vos":[{"forma": "tires","uso":"Riop."},{"forma":"tirés","uso":"C.Am."}],"s3":["tire"],"p1":["tiremos"],"p2":["tiréis"],"p3":["tiren"]},
     "SubImp": {"s1":["tirara","tirase"],"s2":["tiraras","tirases"],"vos":["tiraras","tirases"],"s3":["tirara","tirase"],"p1":["tiráramos","tirásemos"],"p2":["tirarais","tiraseis"],"p3":["tiraran","tirasen"]},
     "SubFut": {"s1":["tirare"],"s2":["tirares"],"vos":["tirares"],"s3":["tirare"],"p1":["tiráremos"],"p2":["tirareis"],"p3":["tiraren"]},
     "CmdPos": {"s2":["tira"],"vos":["tirá"],"s3":["tire"],"p1":["tiremos"],"p2":["tirad"],"p3":["tiren"]}

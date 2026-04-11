@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pensé"],"s2":["pensaste"],"vos":["pensaste"],"s3":["pensó"],"p1":["pensamos"],"p2":["pensasteis"],"p3":["pensaron"]},
     "IndFut": {"s1":["pensaré"],"s2":["pensarás"],"vos":["pensarás"],"s3":["pensará"],"p1":["pensaremos"],"p2":["pensaréis"],"p3":["pensarán"]},
     "IndCond": {"s1":["pensaría"],"s2":["pensarías"],"vos":["pensarías"],"s3":["pensaría"],"p1":["pensaríamos"],"p2":["pensaríais"],"p3":["pensarían"]},
-    "SubPres": {"s1":["piense"],"s2":["pienses"],"vos":["pienses","pensés"],"s3":["piense"],"p1":["pensemos"],"p2":["penséis"],"p3":["piensen"]},
+    "SubPres": {"s1":["piense"],"s2":["pienses"],"vos":[{"forma":"pienses","uso":"Riop."},{"forma":"pensés","uso":"C.Am."}],"s3":["piense"],"p1":["pensemos"],"p2":["penséis"],"p3":["piensen"]},
     "SubImp": {"s1":["pensara","pensase"],"s2":["pensaras","pensases"],"vos":["pensaras","pensases"],"s3":["pensara","pensase"],"p1":["pensáramos","pensásemos"],"p2":["pensarais","pensaseis"],"p3":["pensaran","pensasen"]},
     "SubFut": {"s1":["pensare"],"s2":["pensares"],"vos":["pensares"],"s3":["pensare"],"p1":["pensáremos"],"p2":["pensareis"],"p3":["pensaren"]},
     "CmdPos": {"s2":["piensa"],"vos":["pensá"],"s3":["piense"],"p1":["pensemos"],"p2":["pensad"],"p3":["piensen"]}

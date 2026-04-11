@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cuadré"],"s2":["cuadraste"],"vos":["cuadraste"],"s3":["cuadró"],"p1":["cuadramos"],"p2":["cuadrasteis"],"p3":["cuadraron"]},
     "IndFut": {"s1":["cuadraré"],"s2":["cuadrarás"],"vos":["cuadrarás"],"s3":["cuadrará"],"p1":["cuadraremos"],"p2":["cuadraréis"],"p3":["cuadrarán"]},
     "IndCond": {"s1":["cuadraría"],"s2":["cuadrarías"],"vos":["cuadrarías"],"s3":["cuadraría"],"p1":["cuadraríamos"],"p2":["cuadraríais"],"p3":["cuadrarían"]},
-    "SubPres": {"s1":["cuadre"],"s2":["cuadres"],"vos":["cuadres","cuadrés"],"s3":["cuadre"],"p1":["cuadremos"],"p2":["cuadréis"],"p3":["cuadren"]},
+    "SubPres": {"s1":["cuadre"],"s2":["cuadres"],"vos":[{"forma": "cuadres","uso":"Riop."},{"forma":"cuadrés","uso":"C.Am."}],"s3":["cuadre"],"p1":["cuadremos"],"p2":["cuadréis"],"p3":["cuadren"]},
     "SubImp": {"s1":["cuadrara","cuadrase"],"s2":["cuadraras","cuadrases"],"vos":["cuadraras","cuadrases"],"s3":["cuadrara","cuadrase"],"p1":["cuadráramos","cuadrásemos"],"p2":["cuadrarais","cuadraseis"],"p3":["cuadraran","cuadrasen"]},
     "SubFut": {"s1":["cuadrare"],"s2":["cuadrares"],"vos":["cuadrares"],"s3":["cuadrare"],"p1":["cuadráremos"],"p2":["cuadrareis"],"p3":["cuadraren"]},
     "CmdPos": {"s2":["cuadra"],"vos":["cuadrá"],"s3":["cuadre"],"p1":["cuadremos"],"p2":["cuadrad"],"p3":["cuadren"]}

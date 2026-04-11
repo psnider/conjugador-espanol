@@ -13,7 +13,7 @@
     "IndPret": {"s1":["resolví"],"s2":["resolviste"],"vos":["resolviste"],"s3":["resolvió"],"p1":["resolvimos"],"p2":["resolvisteis"],"p3":["resolvieron"]},
     "IndFut": {"s1":["resolveré"],"s2":["resolverás"],"vos":["resolverás"],"s3":["resolverá"],"p1":["resolveremos"],"p2":["resolveréis"],"p3":["resolverán"]},
     "IndCond": {"s1":["resolvería"],"s2":["resolverías"],"vos":["resolverías"],"s3":["resolvería"],"p1":["resolveríamos"],"p2":["resolveríais"],"p3":["resolverían"]},
-    "SubPres": {"s1":["resuelva"],"s2":["resuelvas"],"vos":["resuelvas","resolvás"],"s3":["resuelva"],"p1":["resolvamos"],"p2":["resolváis"],"p3":["resuelvan"]},
+    "SubPres": {"s1":["resuelva"],"s2":["resuelvas"],"vos":[{"forma": "resuelvas","uso":"Riop."},{"forma":"resolvás","uso":"C.Am."}],"s3":["resuelva"],"p1":["resolvamos"],"p2":["resolváis"],"p3":["resuelvan"]},
     "SubImp": {"s1":["resolviera","resolviese"],"s2":["resolvieras","resolvieses"],"vos":["resolvieras","resolvieses"],"s3":["resolviera","resolviese"],"p1":["resolviéramos","resolviésemos"],"p2":["resolvierais","resolvieseis"],"p3":["resolvieran","resolviesen"]},
     "SubFut": {"s1":["resolviere"],"s2":["resolvieres"],"vos":["resolvieres"],"s3":["resolviere"],"p1":["resolviéremos"],"p2":["resolviereis"],"p3":["resolvieren"]},
     "CmdPos": {"s2":["resuelve"],"vos":["resolvé"],"s3":["resuelva"],"p1":["resolvamos"],"p2":["resolved"],"p3":["resuelvan"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["cambié"],"s2":["cambiaste"],"vos":["cambiaste"],"s3":["cambió"],"p1":["cambiamos"],"p2":["cambiasteis"],"p3":["cambiaron"]},
     "IndFut": {"s1":["cambiaré"],"s2":["cambiarás"],"vos":["cambiarás"],"s3":["cambiará"],"p1":["cambiaremos"],"p2":["cambiaréis"],"p3":["cambiarán"]},
     "IndCond": {"s1":["cambiaría"],"s2":["cambiarías"],"vos":["cambiarías"],"s3":["cambiaría"],"p1":["cambiaríamos"],"p2":["cambiaríais"],"p3":["cambiarían"]},
-    "SubPres": {"s1":["cambie"],"s2":["cambies"],"vos":["cambies","cambiés"],"s3":["cambie"],"p1":["cambiemos"],"p2":["cambiéis"],"p3":["cambien"]},
+    "SubPres": {"s1":["cambie"],"s2":["cambies"],"vos":[{"forma": "cambies","uso":"Riop."},{"forma":"cambiés","uso":"C.Am."}],"s3":["cambie"],"p1":["cambiemos"],"p2":["cambiéis"],"p3":["cambien"]},
     "SubImp": {"s1":["cambiara","cambiase"],"s2":["cambiaras","cambiases"],"vos":["cambiaras","cambiases"],"s3":["cambiara","cambiase"],"p1":["cambiáramos","cambiásemos"],"p2":["cambiarais","cambiaseis"],"p3":["cambiaran","cambiasen"]},
     "SubFut": {"s1":["cambiare"],"s2":["cambiares"],"vos":["cambiares"],"s3":["cambiare"],"p1":["cambiáremos"],"p2":["cambiareis"],"p3":["cambiaren"]},
     "CmdPos": {"s2":["cambia"],"vos":["cambiá"],"s3":["cambie"],"p1":["cambiemos"],"p2":["cambiad"],"p3":["cambien"]}

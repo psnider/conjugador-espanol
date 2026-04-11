@@ -13,7 +13,7 @@
     "IndPret": {"s1":["contesté"],"s2":["contestaste"],"vos":["contestaste"],"s3":["contestó"],"p1":["contestamos"],"p2":["contestasteis"],"p3":["contestaron"]},
     "IndFut": {"s1":["contestaré"],"s2":["contestarás"],"vos":["contestarás"],"s3":["contestará"],"p1":["contestaremos"],"p2":["contestaréis"],"p3":["contestarán"]},
     "IndCond": {"s1":["contestaría"],"s2":["contestarías"],"vos":["contestarías"],"s3":["contestaría"],"p1":["contestaríamos"],"p2":["contestaríais"],"p3":["contestarían"]},
-    "SubPres": {"s1":["conteste"],"s2":["contestes"],"vos":["contestes","contestés"],"s3":["conteste"],"p1":["contestemos"],"p2":["contestéis"],"p3":["contesten"]},
+    "SubPres": {"s1":["conteste"],"s2":["contestes"],"vos":[{"forma": "contestes","uso":"Riop."},{"forma":"contestés","uso":"C.Am."}],"s3":["conteste"],"p1":["contestemos"],"p2":["contestéis"],"p3":["contesten"]},
     "SubImp": {"s1":["contestara","contestase"],"s2":["contestaras","contestases"],"vos":["contestaras","contestases"],"s3":["contestara","contestase"],"p1":["contestáramos","contestásemos"],"p2":["contestarais","contestaseis"],"p3":["contestaran","contestasen"]},
     "SubFut": {"s1":["contestare"],"s2":["contestares"],"vos":["contestares"],"s3":["contestare"],"p1":["contestáremos"],"p2":["contestareis"],"p3":["contestaren"]},
     "CmdPos": {"s2":["contesta"],"vos":["contestá"],"s3":["conteste"],"p1":["contestemos"],"p2":["contestad"],"p3":["contesten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["flexioné"],"s2":["flexionaste"],"vos":["flexionaste"],"s3":["flexionó"],"p1":["flexionamos"],"p2":["flexionasteis"],"p3":["flexionaron"]},
     "IndFut": {"s1":["flexionaré"],"s2":["flexionarás"],"vos":["flexionarás"],"s3":["flexionará"],"p1":["flexionaremos"],"p2":["flexionaréis"],"p3":["flexionarán"]},
     "IndCond": {"s1":["flexionaría"],"s2":["flexionarías"],"vos":["flexionarías"],"s3":["flexionaría"],"p1":["flexionaríamos"],"p2":["flexionaríais"],"p3":["flexionarían"]},
-    "SubPres": {"s1":["flexione"],"s2":["flexiones"],"vos":["flexiones","flexionés"],"s3":["flexione"],"p1":["flexionemos"],"p2":["flexionéis"],"p3":["flexionen"]},
+    "SubPres": {"s1":["flexione"],"s2":["flexiones"],"vos":[{"forma": "flexiones","uso":"Riop."},{"forma":"flexionés","uso":"C.Am."}],"s3":["flexione"],"p1":["flexionemos"],"p2":["flexionéis"],"p3":["flexionen"]},
     "SubImp": {"s1":["flexionara","flexionase"],"s2":["flexionaras","flexionases"],"vos":["flexionaras","flexionases"],"s3":["flexionara","flexionase"],"p1":["flexionáramos","flexionásemos"],"p2":["flexionarais","flexionaseis"],"p3":["flexionaran","flexionasen"]},
     "SubFut": {"s1":["flexionare"],"s2":["flexionares"],"vos":["flexionares"],"s3":["flexionare"],"p1":["flexionáremos"],"p2":["flexionareis"],"p3":["flexionaren"]},
     "CmdPos": {"s2":["flexiona"],"vos":["flexioná"],"s3":["flexione"],"p1":["flexionemos"],"p2":["flexionad"],"p3":["flexionen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["choqué"],"s2":["chocaste"],"vos":["chocaste"],"s3":["chocó"],"p1":["chocamos"],"p2":["chocasteis"],"p3":["chocaron"]},
     "IndFut": {"s1":["chocaré"],"s2":["chocarás"],"vos":["chocarás"],"s3":["chocará"],"p1":["chocaremos"],"p2":["chocaréis"],"p3":["chocarán"]},
     "IndCond": {"s1":["chocaría"],"s2":["chocarías"],"vos":["chocarías"],"s3":["chocaría"],"p1":["chocaríamos"],"p2":["chocaríais"],"p3":["chocarían"]},
-    "SubPres": {"s1":["choque"],"s2":["choques"],"vos":["choques","choqués"],"s3":["choque"],"p1":["choquemos"],"p2":["choquéis"],"p3":["choquen"]},
+    "SubPres": {"s1":["choque"],"s2":["choques"],"vos":[{"forma": "choques","uso":"Riop."},{"forma":"choqués","uso":"C.Am."}],"s3":["choque"],"p1":["choquemos"],"p2":["choquéis"],"p3":["choquen"]},
     "SubImp": {"s1":["chocara","chocase"],"s2":["chocaras","chocases"],"vos":["chocaras","chocases"],"s3":["chocara","chocase"],"p1":["chocáramos","chocásemos"],"p2":["chocarais","chocaseis"],"p3":["chocaran","chocasen"]},
     "SubFut": {"s1":["chocare"],"s2":["chocares"],"vos":["chocares"],"s3":["chocare"],"p1":["chocáremos"],"p2":["chocareis"],"p3":["chocaren"]},
     "CmdPos": {"s2":["choca"],"vos":["chocá"],"s3":["choque"],"p1":["choquemos"],"p2":["chocad"],"p3":["choquen"]}

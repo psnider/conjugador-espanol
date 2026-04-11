@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaɾˈt̪aɾ]",
+    "silabacion": "a-par-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, parte y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apartar","gerundio":["apartando"],"participio":["apartado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aparto"],"s2":["apartas"],"vos":["apartás"],"s3":["aparta"],"p1":["apartamos"],"p2":["apartáis"],"p3":["apartan"]},
+    "IndImp": {"s1":["apartaba"],"s2":["apartabas"],"vos":["apartabas"],"s3":["apartaba"],"p1":["apartábamos"],"p2":["apartabais"],"p3":["apartaban"]},
+    "IndPret": {"s1":["aparté"],"s2":["apartaste"],"vos":["apartaste"],"s3":["apartó"],"p1":["apartamos"],"p2":["apartasteis"],"p3":["apartaron"]},
+    "IndFut": {"s1":["apartaré"],"s2":["apartarás"],"vos":["apartarás"],"s3":["apartará"],"p1":["apartaremos"],"p2":["apartaréis"],"p3":["apartarán"]},
+    "IndCond": {"s1":["apartaría"],"s2":["apartarías"],"vos":["apartarías"],"s3":["apartaría"],"p1":["apartaríamos"],"p2":["apartaríais"],"p3":["apartarían"]},
+    "SubPres": {"s1":["aparte"],"s2":["apartes"],"vos":["apartes","apartés"],"s3":["aparte"],"p1":["apartemos"],"p2":["apartéis"],"p3":["aparten"]},
+    "SubImp": {"s1":["apartara","apartase"],"s2":["apartaras","apartases"],"vos":["apartaras","apartases"],"s3":["apartara","apartase"],"p1":["apartáramos","apartásemos"],"p2":["apartarais","apartaseis"],"p3":["apartaran","apartasen"]},
+    "SubFut": {"s1":["apartare"],"s2":["apartares"],"vos":["apartares"],"s3":["apartare"],"p1":["apartáremos"],"p2":["apartareis"],"p3":["apartaren"]},
+    "CmdPos": {"s2":["aparta"],"vos":["apartá"],"s3":["aparte"],"p1":["apartemos"],"p2":["apartad"],"p3":["aparten"]}
+  }
+}

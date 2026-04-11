@@ -13,7 +13,7 @@
     "IndPret": {"s1":["habité"],"s2":["habitaste"],"vos":["habitaste"],"s3":["habitó"],"p1":["habitamos"],"p2":["habitasteis"],"p3":["habitaron"]},
     "IndFut": {"s1":["habitaré"],"s2":["habitarás"],"vos":["habitarás"],"s3":["habitará"],"p1":["habitaremos"],"p2":["habitaréis"],"p3":["habitarán"]},
     "IndCond": {"s1":["habitaría"],"s2":["habitarías"],"vos":["habitarías"],"s3":["habitaría"],"p1":["habitaríamos"],"p2":["habitaríais"],"p3":["habitarían"]},
-    "SubPres": {"s1":["habite"],"s2":["habites"],"vos":["habites","habités"],"s3":["habite"],"p1":["habitemos"],"p2":["habitéis"],"p3":["habiten"]},
+    "SubPres": {"s1":["habite"],"s2":["habites"],"vos":[{"forma": "habites","uso":"Riop."},{"forma":"habités","uso":"C.Am."}],"s3":["habite"],"p1":["habitemos"],"p2":["habitéis"],"p3":["habiten"]},
     "SubImp": {"s1":["habitara","habitase"],"s2":["habitaras","habitases"],"vos":["habitaras","habitases"],"s3":["habitara","habitase"],"p1":["habitáramos","habitásemos"],"p2":["habitarais","habitaseis"],"p3":["habitaran","habitasen"]},
     "SubFut": {"s1":["habitare"],"s2":["habitares"],"vos":["habitares"],"s3":["habitare"],"p1":["habitáremos"],"p2":["habitareis"],"p3":["habitaren"]},
     "CmdPos": {"s2":["habita"],"vos":["habitá"],"s3":["habite"],"p1":["habitemos"],"p2":["habitad"],"p3":["habiten"]}

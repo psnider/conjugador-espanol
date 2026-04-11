@@ -12,7 +12,7 @@
     "IndPret": {"s1":["vacié"],"s2":["vaciaste"],"vos":["vaciaste"],"s3":["vació"],"p1":["vaciamos"],"p2":["vaciasteis"],"p3":["vaciaron"]},
     "IndFut": {"s1":["vaciaré"],"s2":["vaciarás"],"vos":["vaciarás"],"s3":["vaciará"],"p1":["vaciaremos"],"p2":["vaciaréis"],"p3":["vaciarán"]},
     "IndCond": {"s1":["vaciaría"],"s2":["vaciarías"],"vos":["vaciarías"],"s3":["vaciaría"],"p1":["vaciaríamos"],"p2":["vaciaríais"],"p3":["vaciarían"]},
-    "SubPres": {"s1":["vacíe"],"s2":["vacíes"],"vos":["vacíes","vaciés"],"s3":["vacíe"],"p1":["vaciemos"],"p2":["vaciéis"],"p3":["vacíen"]},
+    "SubPres": {"s1":["vacíe"],"s2":["vacíes"],"vos":[{"forma": "vacíes","uso":"Riop."},{"forma":"vaciés","uso":"C.Am."}],"s3":["vacíe"],"p1":["vaciemos"],"p2":["vaciéis"],"p3":["vacíen"]},
     "SubImp": {"s1":["vaciara","vaciase"],"s2":["vaciaras","vaciases"],"vos":["vaciaras","vaciases"],"s3":["vaciara","vaciase"],"p1":["vaciáramos","vaciásemos"],"p2":["vaciarais","vaciaseis"],"p3":["vaciaran","vaciasen"]},
     "SubFut": {"s1":["vaciare"],"s2":["vaciares"],"vos":["vaciares"],"s3":["vaciare"],"p1":["vaciáremos"],"p2":["vaciareis"],"p3":["vaciaren"]},
     "CmdPos": {"s2":["vacía"],"vos":["vaciá"],"s3":["vacíe"],"p1":["vaciemos"],"p2":["vaciad"],"p3":["vacíen"]}

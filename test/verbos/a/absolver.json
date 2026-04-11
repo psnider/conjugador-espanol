@@ -13,9 +13,7 @@
     "IndPret": {"s1":["absolví"],"s2":["absolviste"],"vos":["absolviste"],"s3":["absolvió"],"p1":["absolvimos"],"p2":["absolvisteis"],"p3":["absolvieron"]},
     "IndFut": {"s1":["absolveré"],"s2":["absolverás"],"vos":["absolverás"],"s3":["absolverá"],"p1":["absolveremos"],"p2":["absolveréis"],"p3":["absolverán"]},
     "IndCond": {"s1":["absolvería"],"s2":["absolverías"],"vos":["absolverías"],"s3":["absolvería"],"p1":["absolveríamos"],"p2":["absolveríais"],"p3":["absolverían"]},
-    "SubPres": {"s1":["absuelva"],"s2":["absuelvas"],
-      "vos": {"estándar": ["absuelvas"], "atípicos": [{"forma": "absolvás", "etiquetas": "regional"}]},
-    "s3":["absuelva"],"p1":["absolvamos"],"p2":["absolváis"],"p3":["absuelvan"]},
+    "SubPres": {"s1":["absuelva"],"s2":["absuelvas"],"vos":[{"forma": "absuelvas","uso":"Riop."},{"forma":"absolvás","uso":"C.Am."}],"s3":["absuelva"],"p1":["absolvamos"],"p2":["absolváis"],"p3":["absuelvan"]},
     "SubImp": {"s1":["absolviera","absolviese"],"s2":["absolvieras","absolvieses"],"vos":["absolvieras","absolvieses"],"s3":["absolviera","absolviese"],"p1":["absolviéramos","absolviésemos"],"p2":["absolvierais","absolvieseis"],"p3":["absolvieran","absolviesen"]},
     "SubFut": {"s1":["absolviere"],"s2":["absolvieres"],"vos":["absolvieres"],"s3":["absolviere"],"p1":["absolviéremos"],"p2":["absolviereis"],"p3":["absolvieren"]},
     "CmdPos": {"s2":["absuelve"],"vos":["absolvé"],"s3":["absuelva"],"p1":["absolvamos"],"p2":["absolved"],"p3":["absuelvan"]}

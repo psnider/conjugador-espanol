@@ -13,9 +13,9 @@
     "IndPret": {"s1":["vine"],"s2":["viniste"],"vos":["viniste"],"s3":["vino"],"p1":["vinimos"],"p2":["vinisteis"],"p3":["vinieron"]},
     "IndFut": {"s1":["vendré"],"s2":["vendrás"],"vos":["vendrás"],"s3":["vendrá"],"p1":["vendremos"],"p2":["vendréis"],"p3":["vendrán"]},
     "IndCond": {"s1":["vendría"],"s2":["vendrías"],"vos":["vendrías"],"s3":["vendría"],"p1":["vendríamos"],"p2":["vendríais"],"p3":["vendrían"]},
-    "SubPres": {"s1":["venga"],"s2":["vengas"],"vos":["vengas","vengás"],"s3":["venga"],"p1":["vengamos"],"p2":["vengáis"],"p3":["vengan"]},
+    "SubPres": {"s1":["venga"],"s2":["vengas"],"vos":[{"forma":"vengas","uso":"Riop."},{"forma":"vengás","uso":"C.Am."}],"s3":["venga"],"p1":["vengamos"],"p2":["vengáis"],"p3":["vengan"]},
     "SubImp": {"s1":["viniera","viniese"],"s2":["vinieras","vinieses"],"vos":["vinieras","vinieses"],"s3":["viniera","viniese"],"p1":["viniéramos","viniésemos"],"p2":["vinierais","vinieseis"],"p3":["vinieran","viniesen"]},
     "SubFut": {"s1":["viniere"],"s2":["vinieres"],"vos":["vinieres"],"s3":["viniere"],"p1":["viniéremos"],"p2":["viniereis"],"p3":["vinieren"]},
-    "CmdPos": {"s2":{"estándar":["ven"],"atípicos":[{"forma":"viene","etiquetas":["no normativo"]}]},"vos":["vení"],"s3":["venga"],"p1":["vengamos"],"p2":["venid"],"p3":["vengan"]}
+    "CmdPos": {"s2":["ven"],"vos":["vení"],"s3":["venga"],"p1":["vengamos"],"p2":["venid"],"p3":["vengan"]}
   }
 }

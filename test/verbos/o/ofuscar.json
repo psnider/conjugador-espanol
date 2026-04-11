@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ofusqué"],"s2":["ofuscaste"],"vos":["ofuscaste"],"s3":["ofuscó"],"p1":["ofuscamos"],"p2":["ofuscasteis"],"p3":["ofuscaron"]},
     "IndFut": {"s1":["ofuscaré"],"s2":["ofuscarás"],"vos":["ofuscarás"],"s3":["ofuscará"],"p1":["ofuscaremos"],"p2":["ofuscaréis"],"p3":["ofuscarán"]},
     "IndCond": {"s1":["ofuscaría"],"s2":["ofuscarías"],"vos":["ofuscarías"],"s3":["ofuscaría"],"p1":["ofuscaríamos"],"p2":["ofuscaríais"],"p3":["ofuscarían"]},
-    "SubPres": {"s1":["ofusque"],"s2":["ofusques"],"vos":["ofusques","ofusqués"],"s3":["ofusque"],"p1":["ofusquemos"],"p2":["ofusquéis"],"p3":["ofusquen"]},
+    "SubPres": {"s1":["ofusque"],"s2":["ofusques"],"vos":[{"forma": "ofusques","uso":"Riop."},{"forma":"ofusqués","uso":"C.Am."}],"s3":["ofusque"],"p1":["ofusquemos"],"p2":["ofusquéis"],"p3":["ofusquen"]},
     "SubImp": {"s1":["ofuscara","ofuscase"],"s2":["ofuscaras","ofuscases"],"vos":["ofuscaras","ofuscases"],"s3":["ofuscara","ofuscase"],"p1":["ofuscáramos","ofuscásemos"],"p2":["ofuscarais","ofuscaseis"],"p3":["ofuscaran","ofuscasen"]},
     "SubFut": {"s1":["ofuscare"],"s2":["ofuscares"],"vos":["ofuscares"],"s3":["ofuscare"],"p1":["ofuscáremos"],"p2":["ofuscareis"],"p3":["ofuscaren"]},
     "CmdPos": {"s2":["ofusca"],"vos":["ofuscá"],"s3":["ofusque"],"p1":["ofusquemos"],"p2":["ofuscad"],"p3":["ofusquen"]}

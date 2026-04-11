@@ -13,7 +13,7 @@
     "IndPret": {"s1":["trasferí"],"s2":["trasferiste"],"vos":["trasferiste"],"s3":["trasfirió"],"p1":["trasferimos"],"p2":["trasferisteis"],"p3":["trasfirieron"]},
     "IndFut": {"s1":["trasferiré"],"s2":["trasferirás"],"vos":["trasferirás"],"s3":["trasferirá"],"p1":["trasferiremos"],"p2":["trasferiréis"],"p3":["trasferirán"]},
     "IndCond": {"s1":["trasferiría"],"s2":["trasferirías"],"vos":["trasferirías"],"s3":["trasferiría"],"p1":["trasferiríamos"],"p2":["trasferiríais"],"p3":["trasferirían"]},
-    "SubPres": {"s1":["trasfiera"],"s2":["trasfieras"],"vos":["trasfieras","trasfirás"],"s3":["trasfiera"],"p1":["trasfiramos"],"p2":["trasfiráis"],"p3":["trasfieran"]},
+    "SubPres": {"s1":["trasfiera"],"s2":["trasfieras"],"vos":[{"forma": "trasfieras","uso":"Riop."},{"forma":"trasfirás","uso":"C.Am."}],"s3":["trasfiera"],"p1":["trasfiramos"],"p2":["trasfiráis"],"p3":["trasfieran"]},
     "SubImp": {"s1":["trasfiriera","trasfiriese"],"s2":["trasfirieras","trasfirieses"],"vos":["trasfirieras","trasfirieses"],"s3":["trasfiriera","trasfiriese"],"p1":["trasfiriéramos","trasfiriésemos"],"p2":["trasfirierais","trasfirieseis"],"p3":["trasfirieran","trasfiriesen"]},
     "SubFut": {"s1":["trasfiriere"],"s2":["trasfirieres"],"vos":["trasfirieres"],"s3":["trasfiriere"],"p1":["trasfiriéremos"],"p2":["trasfiriereis"],"p3":["trasfirieren"]},
     "CmdPos": {"s2":["trasfiere"],"vos":["trasferí"],"s3":["trasfiera"],"p1":["trasfiramos"],"p2":["trasferid"],"p3":["trasfieran"]}

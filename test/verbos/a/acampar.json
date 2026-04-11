@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acampé"],"s2":["acampaste"],"vos":["acampaste"],"s3":["acampó"],"p1":["acampamos"],"p2":["acampasteis"],"p3":["acamparon"]},
     "IndFut": {"s1":["acamparé"],"s2":["acamparás"],"vos":["acamparás"],"s3":["acampará"],"p1":["acamparemos"],"p2":["acamparéis"],"p3":["acamparán"]},
     "IndCond": {"s1":["acamparía"],"s2":["acamparías"],"vos":["acamparías"],"s3":["acamparía"],"p1":["acamparíamos"],"p2":["acamparíais"],"p3":["acamparían"]},
-    "SubPres": {"s1":["acampe"],"s2":["acampes"],"vos":["acampes","acampés"],"s3":["acampe"],"p1":["acampemos"],"p2":["acampéis"],"p3":["acampen"]},
+    "SubPres": {"s1":["acampe"],"s2":["acampes"],"vos":[{"forma": "acampes","uso":"Riop."},{"forma":"acampés","uso":"C.Am."}],"s3":["acampe"],"p1":["acampemos"],"p2":["acampéis"],"p3":["acampen"]},
     "SubImp": {"s1":["acampara","acampase"],"s2":["acamparas","acampases"],"vos":["acamparas","acampases"],"s3":["acampara","acampase"],"p1":["acampáramos","acampásemos"],"p2":["acamparais","acampaseis"],"p3":["acamparan","acampasen"]},
     "SubFut": {"s1":["acampare"],"s2":["acampares"],"vos":["acampares"],"s3":["acampare"],"p1":["acampáremos"],"p2":["acampareis"],"p3":["acamparen"]},
     "CmdPos": {"s2":["acampa"],"vos":["acampá"],"s3":["acampe"],"p1":["acampemos"],"p2":["acampad"],"p3":["acampen"]}

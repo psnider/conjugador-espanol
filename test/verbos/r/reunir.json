@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reuní"],"s2":["reuniste"],"vos":["reuniste"],"s3":["reunió"],"p1":["reunimos"],"p2":["reunisteis"],"p3":["reunieron"]},
     "IndFut": {"s1":["reuniré"],"s2":["reunirás"],"vos":["reunirás"],"s3":["reunirá"],"p1":["reuniremos"],"p2":["reuniréis"],"p3":["reunirán"]},
     "IndCond": {"s1":["reuniría"],"s2":["reunirías"],"vos":["reunirías"],"s3":["reuniría"],"p1":["reuniríamos"],"p2":["reuniríais"],"p3":["reunirían"]},
-    "SubPres": {"s1":["reúna"],"s2":["reúnas"],"vos":["reúnas","reunás"],"s3":["reúna"],"p1":["reunamos"],"p2":["reunáis"],"p3":["reúnan"]},
+    "SubPres": {"s1":["reúna"],"s2":["reúnas"],"vos":[{"forma":"reúnas","uso":"Riop."},{"forma":"reunás","uso":"C.Am."}],"s3":["reúna"],"p1":["reunamos"],"p2":["reunáis"],"p3":["reúnan"]},
     "SubImp": {"s1":["reuniera","reuniese"],"s2":["reunieras","reunieses"],"vos":["reunieras","reunieses"],"s3":["reuniera","reuniese"],"p1":["reuniéramos","reuniésemos"],"p2":["reunierais","reunieseis"],"p3":["reunieran","reuniesen"]},
     "SubFut": {"s1":["reuniere"],"s2":["reunieres"],"vos":["reunieres"],"s3":["reuniere"],"p1":["reuniéremos"],"p2":["reuniereis"],"p3":["reunieren"]},
     "CmdPos": {"s2":["reúne"],"vos":["reuní"],"s3":["reúna"],"p1":["reunamos"],"p2":["reunid"],"p3":["reúnan"]}

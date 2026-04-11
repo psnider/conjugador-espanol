@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dudé"],"s2":["dudaste"],"vos":["dudaste"],"s3":["dudó"],"p1":["dudamos"],"p2":["dudasteis"],"p3":["dudaron"]},
     "IndFut": {"s1":["dudaré"],"s2":["dudarás"],"vos":["dudarás"],"s3":["dudará"],"p1":["dudaremos"],"p2":["dudaréis"],"p3":["dudarán"]},
     "IndCond": {"s1":["dudaría"],"s2":["dudarías"],"vos":["dudarías"],"s3":["dudaría"],"p1":["dudaríamos"],"p2":["dudaríais"],"p3":["dudarían"]},
-    "SubPres": {"s1":["dude"],"s2":["dudes"],"vos":["dudes","dudés"],"s3":["dude"],"p1":["dudemos"],"p2":["dudéis"],"p3":["duden"]},
+    "SubPres": {"s1":["dude"],"s2":["dudes"],"vos":[{"forma": "dudes","uso":"Riop."},{"forma":"dudés","uso":"C.Am."}],"s3":["dude"],"p1":["dudemos"],"p2":["dudéis"],"p3":["duden"]},
     "SubImp": {"s1":["dudara","dudase"],"s2":["dudaras","dudases"],"vos":["dudaras","dudases"],"s3":["dudara","dudase"],"p1":["dudáramos","dudásemos"],"p2":["dudarais","dudaseis"],"p3":["dudaran","dudasen"]},
     "SubFut": {"s1":["dudare"],"s2":["dudares"],"vos":["dudares"],"s3":["dudare"],"p1":["dudáremos"],"p2":["dudareis"],"p3":["dudaren"]},
     "CmdPos": {"s2":["duda"],"vos":["dudá"],"s3":["dude"],"p1":["dudemos"],"p2":["dudad"],"p3":["duden"]}

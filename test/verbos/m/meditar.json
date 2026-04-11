@@ -13,7 +13,7 @@
     "IndPret": {"s1":["medité"],"s2":["meditaste"],"vos":["meditaste"],"s3":["meditó"],"p1":["meditamos"],"p2":["meditasteis"],"p3":["meditaron"]},
     "IndFut": {"s1":["meditaré"],"s2":["meditarás"],"vos":["meditarás"],"s3":["meditará"],"p1":["meditaremos"],"p2":["meditaréis"],"p3":["meditarán"]},
     "IndCond": {"s1":["meditaría"],"s2":["meditarías"],"vos":["meditarías"],"s3":["meditaría"],"p1":["meditaríamos"],"p2":["meditaríais"],"p3":["meditarían"]},
-    "SubPres": {"s1":["medite"],"s2":["medites"],"vos":["medites","medités"],"s3":["medite"],"p1":["meditemos"],"p2":["meditéis"],"p3":["mediten"]},
+    "SubPres": {"s1":["medite"],"s2":["medites"],"vos":[{"forma": "medites","uso":"Riop."},{"forma":"medités","uso":"C.Am."}],"s3":["medite"],"p1":["meditemos"],"p2":["meditéis"],"p3":["mediten"]},
     "SubImp": {"s1":["meditara","meditase"],"s2":["meditaras","meditases"],"vos":["meditaras","meditases"],"s3":["meditara","meditase"],"p1":["meditáramos","meditásemos"],"p2":["meditarais","meditaseis"],"p3":["meditaran","meditasen"]},
     "SubFut": {"s1":["meditare"],"s2":["meditares"],"vos":["meditares"],"s3":["meditare"],"p1":["meditáremos"],"p2":["meditareis"],"p3":["meditaren"]},
     "CmdPos": {"s2":["medita"],"vos":["meditá"],"s3":["medite"],"p1":["meditemos"],"p2":["meditad"],"p3":["mediten"]}

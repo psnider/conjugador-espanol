@@ -13,7 +13,7 @@
     "IndPret": {"s1":["devasté"],"s2":["devastaste"],"vos":["devastaste"],"s3":["devastó"],"p1":["devastamos"],"p2":["devastasteis"],"p3":["devastaron"]},
     "IndFut": {"s1":["devastaré"],"s2":["devastarás"],"vos":["devastarás"],"s3":["devastará"],"p1":["devastaremos"],"p2":["devastaréis"],"p3":["devastarán"]},
     "IndCond": {"s1":["devastaría"],"s2":["devastarías"],"vos":["devastarías"],"s3":["devastaría"],"p1":["devastaríamos"],"p2":["devastaríais"],"p3":["devastarían"]},
-    "SubPres": {"s1":["devaste"],"s2":["devastes"],"vos":["devastes","devastés"],"s3":["devaste"],"p1":["devastemos"],"p2":["devastéis"],"p3":["devasten"]},
+    "SubPres": {"s1":["devaste"],"s2":["devastes"],"vos":[{"forma": "devastes","uso":"Riop."},{"forma":"devastés","uso":"C.Am."}],"s3":["devaste"],"p1":["devastemos"],"p2":["devastéis"],"p3":["devasten"]},
     "SubImp": {"s1":["devastara","devastase"],"s2":["devastaras","devastases"],"vos":["devastaras","devastases"],"s3":["devastara","devastase"],"p1":["devastáramos","devastásemos"],"p2":["devastarais","devastaseis"],"p3":["devastaran","devastasen"]},
     "SubFut": {"s1":["devastare"],"s2":["devastares"],"vos":["devastares"],"s3":["devastare"],"p1":["devastáremos"],"p2":["devastareis"],"p3":["devastaren"]},
     "CmdPos": {"s2":["devasta"],"vos":["devastá"],"s3":["devaste"],"p1":["devastemos"],"p2":["devastad"],"p3":["devasten"]}

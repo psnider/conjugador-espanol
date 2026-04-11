@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aplasté"],"s2":["aplastaste"],"vos":["aplastaste"],"s3":["aplastó"],"p1":["aplastamos"],"p2":["aplastasteis"],"p3":["aplastaron"]},
     "IndFut": {"s1":["aplastaré"],"s2":["aplastarás"],"vos":["aplastarás"],"s3":["aplastará"],"p1":["aplastaremos"],"p2":["aplastaréis"],"p3":["aplastarán"]},
     "IndCond": {"s1":["aplastaría"],"s2":["aplastarías"],"vos":["aplastarías"],"s3":["aplastaría"],"p1":["aplastaríamos"],"p2":["aplastaríais"],"p3":["aplastarían"]},
-    "SubPres": {"s1":["aplaste"],"s2":["aplastes"],"vos":["aplastes","aplastés"],"s3":["aplaste"],"p1":["aplastemos"],"p2":["aplastéis"],"p3":["aplasten"]},
+    "SubPres": {"s1":["aplaste"],"s2":["aplastes"],"vos":[{"forma": "aplastes","uso":"Riop."},{"forma":"aplastés","uso":"C.Am."}],"s3":["aplaste"],"p1":["aplastemos"],"p2":["aplastéis"],"p3":["aplasten"]},
     "SubImp": {"s1":["aplastara","aplastase"],"s2":["aplastaras","aplastases"],"vos":["aplastaras","aplastases"],"s3":["aplastara","aplastase"],"p1":["aplastáramos","aplastásemos"],"p2":["aplastarais","aplastaseis"],"p3":["aplastaran","aplastasen"]},
     "SubFut": {"s1":["aplastare"],"s2":["aplastares"],"vos":["aplastares"],"s3":["aplastare"],"p1":["aplastáremos"],"p2":["aplastareis"],"p3":["aplastaren"]},
     "CmdPos": {"s2":["aplasta"],"vos":["aplastá"],"s3":["aplaste"],"p1":["aplastemos"],"p2":["aplastad"],"p3":["aplasten"]}

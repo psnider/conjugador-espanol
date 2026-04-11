@@ -13,7 +13,7 @@
     "IndPret": {"s1":["zambullí"],"s2":["zambulliste"],"vos":["zambulliste"],"s3":["zambulló"],"p1":["zambullimos"],"p2":["zambullisteis"],"p3":["zambulleron"]},
     "IndFut": {"s1":["zambulliré"],"s2":["zambullirás"],"vos":["zambullirás"],"s3":["zambullirá"],"p1":["zambulliremos"],"p2":["zambulliréis"],"p3":["zambullirán"]},
     "IndCond": {"s1":["zambulliría"],"s2":["zambullirías"],"vos":["zambullirías"],"s3":["zambulliría"],"p1":["zambulliríamos"],"p2":["zambulliríais"],"p3":["zambullirían"]},
-    "SubPres": {"s1":["zambulla"],"s2":["zambullas"],"vos":["zambullas","zambullás"],"s3":["zambulla"],"p1":["zambullamos"],"p2":["zambulláis"],"p3":["zambullan"]},
+    "SubPres": {"s1":["zambulla"],"s2":["zambullas"],"vos":[{"forma": "zambullas","uso":"Riop."},{"forma":"zambullás","uso":"C.Am."}],"s3":["zambulla"],"p1":["zambullamos"],"p2":["zambulláis"],"p3":["zambullan"]},
     "SubImp": {"s1":["zambullera","zambullese"],"s2":["zambulleras","zambulleses"],"vos":["zambulleras","zambulleses"],"s3":["zambullera","zambullese"],"p1":["zambulléramos","zambullésemos"],"p2":["zambullerais","zambulleseis"],"p3":["zambulleran","zambullesen"]},
     "SubFut": {"s1":["zambullere"],"s2":["zambulleres"],"vos":["zambulleres"],"s3":["zambullere"],"p1":["zambulléremos"],"p2":["zambullereis"],"p3":["zambulleren"]},
     "CmdPos": {"s2":["zambulle"],"vos":["zambullí"],"s3":["zambulla"],"p1":["zambullamos"],"p2":["zambullid"],"p3":["zambullan"]}

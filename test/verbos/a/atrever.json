@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atreví"],"s2":["atreviste"],"vos":["atreviste"],"s3":["atrevió"],"p1":["atrevimos"],"p2":["atrevisteis"],"p3":["atrevieron"]},
     "IndFut": {"s1":["atreveré"],"s2":["atreverás"],"vos":["atreverás"],"s3":["atreverá"],"p1":["atreveremos"],"p2":["atreveréis"],"p3":["atreverán"]},
     "IndCond": {"s1":["atrevería"],"s2":["atreverías"],"vos":["atreverías"],"s3":["atrevería"],"p1":["atreveríamos"],"p2":["atreveríais"],"p3":["atreverían"]},
-    "SubPres": {"s1":["atreva"],"s2":["atrevas"],"vos":["atrevas","atrevás"],"s3":["atreva"],"p1":["atrevamos"],"p2":["atreváis"],"p3":["atrevan"]},
+    "SubPres": {"s1":["atreva"],"s2":["atrevas"],"vos":[{"forma": "atrevas","uso":"Riop."},{"forma":"atrevás","uso":"C.Am."}],"s3":["atreva"],"p1":["atrevamos"],"p2":["atreváis"],"p3":["atrevan"]},
     "SubImp": {"s1":["atreviera","atreviese"],"s2":["atrevieras","atrevieses"],"vos":["atrevieras","atrevieses"],"s3":["atreviera","atreviese"],"p1":["atreviéramos","atreviésemos"],"p2":["atrevierais","atrevieseis"],"p3":["atrevieran","atreviesen"]},
     "SubFut": {"s1":["atreviere"],"s2":["atrevieres"],"vos":["atrevieres"],"s3":["atreviere"],"p1":["atreviéremos"],"p2":["atreviereis"],"p3":["atrevieren"]},
     "CmdPos": {"s2":["atreve"],"vos":["atrevé"],"s3":["atreva"],"p1":["atrevamos"],"p2":["atreved"],"p3":["atrevan"]}

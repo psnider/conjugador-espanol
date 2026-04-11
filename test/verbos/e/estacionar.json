@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estacioné"],"s2":["estacionaste"],"vos":["estacionaste"],"s3":["estacionó"],"p1":["estacionamos"],"p2":["estacionasteis"],"p3":["estacionaron"]},
     "IndFut": {"s1":["estacionaré"],"s2":["estacionarás"],"vos":["estacionarás"],"s3":["estacionará"],"p1":["estacionaremos"],"p2":["estacionaréis"],"p3":["estacionarán"]},
     "IndCond": {"s1":["estacionaría"],"s2":["estacionarías"],"vos":["estacionarías"],"s3":["estacionaría"],"p1":["estacionaríamos"],"p2":["estacionaríais"],"p3":["estacionarían"]},
-    "SubPres": {"s1":["estacione"],"s2":["estaciones"],"vos":["estaciones","estacionés"],"s3":["estacione"],"p1":["estacionemos"],"p2":["estacionéis"],"p3":["estacionen"]},
+    "SubPres": {"s1":["estacione"],"s2":["estaciones"],"vos":[{"forma": "estaciones","uso":"Riop."},{"forma":"estacionés","uso":"C.Am."}],"s3":["estacione"],"p1":["estacionemos"],"p2":["estacionéis"],"p3":["estacionen"]},
     "SubImp": {"s1":["estacionara","estacionase"],"s2":["estacionaras","estacionases"],"vos":["estacionaras","estacionases"],"s3":["estacionara","estacionase"],"p1":["estacionáramos","estacionásemos"],"p2":["estacionarais","estacionaseis"],"p3":["estacionaran","estacionasen"]},
     "SubFut": {"s1":["estacionare"],"s2":["estacionares"],"vos":["estacionares"],"s3":["estacionare"],"p1":["estacionáremos"],"p2":["estacionareis"],"p3":["estacionaren"]},
     "CmdPos": {"s2":["estaciona"],"vos":["estacioná"],"s3":["estacione"],"p1":["estacionemos"],"p2":["estacionad"],"p3":["estacionen"]}

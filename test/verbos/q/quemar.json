@@ -13,7 +13,7 @@
     "IndPret": {"s1":["quemé"],"s2":["quemaste"],"vos":["quemaste"],"s3":["quemó"],"p1":["quemamos"],"p2":["quemasteis"],"p3":["quemaron"]},
     "IndFut": {"s1":["quemaré"],"s2":["quemarás"],"vos":["quemarás"],"s3":["quemará"],"p1":["quemaremos"],"p2":["quemaréis"],"p3":["quemarán"]},
     "IndCond": {"s1":["quemaría"],"s2":["quemarías"],"vos":["quemarías"],"s3":["quemaría"],"p1":["quemaríamos"],"p2":["quemaríais"],"p3":["quemarían"]},
-    "SubPres": {"s1":["queme"],"s2":["quemes"],"vos":["quemes","quemés"],"s3":["queme"],"p1":["quememos"],"p2":["queméis"],"p3":["quemen"]},
+    "SubPres": {"s1":["queme"],"s2":["quemes"],"vos":[{"forma": "quemes","uso":"Riop."},{"forma":"quemés","uso":"C.Am."}],"s3":["queme"],"p1":["quememos"],"p2":["queméis"],"p3":["quemen"]},
     "SubImp": {"s1":["quemara","quemase"],"s2":["quemaras","quemases"],"vos":["quemaras","quemases"],"s3":["quemara","quemase"],"p1":["quemáramos","quemásemos"],"p2":["quemarais","quemaseis"],"p3":["quemaran","quemasen"]},
     "SubFut": {"s1":["quemare"],"s2":["quemares"],"vos":["quemares"],"s3":["quemare"],"p1":["quemáremos"],"p2":["quemareis"],"p3":["quemaren"]},
     "CmdPos": {"s2":["quema"],"vos":["quemá"],"s3":["queme"],"p1":["quememos"],"p2":["quemad"],"p3":["quemen"]}

@@ -3,7 +3,9 @@
     "compilerOptions": {
         "lib": ["es2020"],
         "types": ["node"],
-        "moduleResolution": "node"
+        "ignoreDeprecations": "6.0",
+        "moduleResolution": "node",
+        "strict": false,
     },
     "include": [
         "src/**/*.ts",

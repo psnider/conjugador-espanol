@@ -12,7 +12,7 @@
     "IndPret": {"s1":["interactué"],"s2":["interactuaste"],"vos":["interactuaste"],"s3":["interactuó"],"p1":["interactuamos"],"p2":["interactuasteis"],"p3":["interactuaron"]},
     "IndFut": {"s1":["interactuaré"],"s2":["interactuarás"],"vos":["interactuarás"],"s3":["interactuará"],"p1":["interactuaremos"],"p2":["interactuaréis"],"p3":["interactuarán"]},
     "IndCond": {"s1":["interactuaría"],"s2":["interactuarías"],"vos":["interactuarías"],"s3":["interactuaría"],"p1":["interactuaríamos"],"p2":["interactuaríais"],"p3":["interactuarían"]},
-    "SubPres": {"s1":["interactúe"],"s2":["interactúes"],"vos":["interactúes","interactués"],"s3":["interactúe"],"p1":["interactuemos"],"p2":["interactuéis"],"p3":["interactúen"]},
+    "SubPres": {"s1":["interactúe"],"s2":["interactúes"],"vos":[{"forma": "interactúes","uso":"Riop."},{"forma":"interactués","uso":"C.Am."}],"s3":["interactúe"],"p1":["interactuemos"],"p2":["interactuéis"],"p3":["interactúen"]},
     "SubImp": {"s1":["interactuara","interactuase"],"s2":["interactuaras","interactuases"],"vos":["interactuaras","interactuases"],"s3":["interactuara","interactuase"],"p1":["interactuáramos","interactuásemos"],"p2":["interactuarais","interactuaseis"],"p3":["interactuaran","interactuasen"]},
     "SubFut": {"s1":["interactuare"],"s2":["interactuares"],"vos":["interactuares"],"s3":["interactuare"],"p1":["interactuáremos"],"p2":["interactuareis"],"p3":["interactuaren"]},
     "CmdPos": {"s2":["interactúa"],"vos":["interactuá"],"s3":["interactúe"],"p1":["interactuemos"],"p2":["interactuad"],"p3":["interactúen"]}

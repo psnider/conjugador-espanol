@@ -13,9 +13,9 @@
     "IndPret": {"s1":["devine"],"s2":["deviniste"],"vos":["deviniste"],"s3":["devino"],"p1":["devinimos"],"p2":["devinisteis"],"p3":["devinieron"]},
     "IndFut": {"s1":["devendré"],"s2":["devendrás"],"vos":["devendrás"],"s3":["devendrá"],"p1":["devendremos"],"p2":["devendréis"],"p3":["devendrán"]},
     "IndCond": {"s1":["devendría"],"s2":["devendrías"],"vos":["devendrías"],"s3":["devendría"],"p1":["devendríamos"],"p2":["devendríais"],"p3":["devendrían"]},
-    "SubPres": {"s1":["devenga"],"s2":["devengas"],"vos":["devengas","devengás"],"s3":["devenga"],"p1":["devengamos"],"p2":["devengáis"],"p3":["devengan"]},
+    "SubPres": {"s1":["devenga"],"s2":["devengas"],"vos":[{"forma": "devengas","uso":"Riop."},{"forma":"devengás","uso":"C.Am."}],"s3":["devenga"],"p1":["devengamos"],"p2":["devengáis"],"p3":["devengan"]},
     "SubImp": {"s1":["deviniera","deviniese"],"s2":["devinieras","devinieses"],"vos":["devinieras","devinieses"],"s3":["deviniera","deviniese"],"p1":["deviniéramos","deviniésemos"],"p2":["devinierais","devinieseis"],"p3":["devinieran","deviniesen"]},
     "SubFut": {"s1":["deviniere"],"s2":["devinieres"],"vos":["devinieres"],"s3":["deviniere"],"p1":["deviniéremos"],"p2":["deviniereis"],"p3":["devinieren"]},
-    "CmdPos": {"s2":{"estándar":["devén"],"atípicos":[{"forma":"deviene","etiquetas":["no normativo"]}]},"vos":["devení"],"s3":["devenga"],"p1":["devengamos"],"p2":["devenid"],"p3":["devengan"]}
+    "CmdPos": {"s2":["devén"],"vos":["devení"],"s3":["devenga"],"p1":["devengamos"],"p2":["devenid"],"p3":["devengan"]}
   }
 }

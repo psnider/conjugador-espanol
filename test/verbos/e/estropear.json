@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estropeé"],"s2":["estropeaste"],"vos":["estropeaste"],"s3":["estropeó"],"p1":["estropeamos"],"p2":["estropeasteis"],"p3":["estropearon"]},
     "IndFut": {"s1":["estropearé"],"s2":["estropearás"],"vos":["estropearás"],"s3":["estropeará"],"p1":["estropearemos"],"p2":["estropearéis"],"p3":["estropearán"]},
     "IndCond": {"s1":["estropearía"],"s2":["estropearías"],"vos":["estropearías"],"s3":["estropearía"],"p1":["estropearíamos"],"p2":["estropearíais"],"p3":["estropearían"]},
-    "SubPres": {"s1":["estropee"],"s2":["estropees"],"vos":["estropees","estropeés"],"s3":["estropee"],"p1":["estropeemos"],"p2":["estropeéis"],"p3":["estropeen"]},
+    "SubPres": {"s1":["estropee"],"s2":["estropees"],"vos":[{"forma": "estropees","uso":"Riop."},{"forma":"estropeés","uso":"C.Am."}],"s3":["estropee"],"p1":["estropeemos"],"p2":["estropeéis"],"p3":["estropeen"]},
     "SubImp": {"s1":["estropeara","estropease"],"s2":["estropearas","estropeases"],"vos":["estropearas","estropeases"],"s3":["estropeara","estropease"],"p1":["estropeáramos","estropeásemos"],"p2":["estropearais","estropeaseis"],"p3":["estropearan","estropeasen"]},
     "SubFut": {"s1":["estropeare"],"s2":["estropeares"],"vos":["estropeares"],"s3":["estropeare"],"p1":["estropeáremos"],"p2":["estropeareis"],"p3":["estropearen"]},
     "CmdPos": {"s2":["estropea"],"vos":["estropeá"],"s3":["estropee"],"p1":["estropeemos"],"p2":["estropead"],"p3":["estropeen"]}

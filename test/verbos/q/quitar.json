@@ -13,7 +13,7 @@
     "IndPret": {"s1":["quité"],"s2":["quitaste"],"vos":["quitaste"],"s3":["quitó"],"p1":["quitamos"],"p2":["quitasteis"],"p3":["quitaron"]},
     "IndFut": {"s1":["quitaré"],"s2":["quitarás"],"vos":["quitarás"],"s3":["quitará"],"p1":["quitaremos"],"p2":["quitaréis"],"p3":["quitarán"]},
     "IndCond": {"s1":["quitaría"],"s2":["quitarías"],"vos":["quitarías"],"s3":["quitaría"],"p1":["quitaríamos"],"p2":["quitaríais"],"p3":["quitarían"]},
-    "SubPres": {"s1":["quite"],"s2":["quites"],"vos":["quites","quités"],"s3":["quite"],"p1":["quitemos"],"p2":["quitéis"],"p3":["quiten"]},
+    "SubPres": {"s1":["quite"],"s2":["quites"],"vos":[{"forma": "quites","uso":"Riop."},{"forma":"quités","uso":"C.Am."}],"s3":["quite"],"p1":["quitemos"],"p2":["quitéis"],"p3":["quiten"]},
     "SubImp": {"s1":["quitara","quitase"],"s2":["quitaras","quitases"],"vos":["quitaras","quitases"],"s3":["quitara","quitase"],"p1":["quitáramos","quitásemos"],"p2":["quitarais","quitaseis"],"p3":["quitaran","quitasen"]},
     "SubFut": {"s1":["quitare"],"s2":["quitares"],"vos":["quitares"],"s3":["quitare"],"p1":["quitáremos"],"p2":["quitareis"],"p3":["quitaren"]},
     "CmdPos": {"s2":["quita"],"vos":["quitá"],"s3":["quite"],"p1":["quitemos"],"p2":["quitad"],"p3":["quiten"]}

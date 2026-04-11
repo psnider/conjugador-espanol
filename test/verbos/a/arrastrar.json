@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arrastré"],"s2":["arrastraste"],"vos":["arrastraste"],"s3":["arrastró"],"p1":["arrastramos"],"p2":["arrastrasteis"],"p3":["arrastraron"]},
     "IndFut": {"s1":["arrastraré"],"s2":["arrastrarás"],"vos":["arrastrarás"],"s3":["arrastrará"],"p1":["arrastraremos"],"p2":["arrastraréis"],"p3":["arrastrarán"]},
     "IndCond": {"s1":["arrastraría"],"s2":["arrastrarías"],"vos":["arrastrarías"],"s3":["arrastraría"],"p1":["arrastraríamos"],"p2":["arrastraríais"],"p3":["arrastrarían"]},
-    "SubPres": {"s1":["arrastre"],"s2":["arrastres"],"vos":["arrastres","arrastrés"],"s3":["arrastre"],"p1":["arrastremos"],"p2":["arrastréis"],"p3":["arrastren"]},
+    "SubPres": {"s1":["arrastre"],"s2":["arrastres"],"vos":[{"forma": "arrastres","uso":"Riop."},{"forma":"arrastrés","uso":"C.Am."}],"s3":["arrastre"],"p1":["arrastremos"],"p2":["arrastréis"],"p3":["arrastren"]},
     "SubImp": {"s1":["arrastrara","arrastrase"],"s2":["arrastraras","arrastrases"],"vos":["arrastraras","arrastrases"],"s3":["arrastrara","arrastrase"],"p1":["arrastráramos","arrastrásemos"],"p2":["arrastrarais","arrastraseis"],"p3":["arrastraran","arrastrasen"]},
     "SubFut": {"s1":["arrastrare"],"s2":["arrastrares"],"vos":["arrastrares"],"s3":["arrastrare"],"p1":["arrastráremos"],"p2":["arrastrareis"],"p3":["arrastraren"]},
     "CmdPos": {"s2":["arrastra"],"vos":["arrastrá"],"s3":["arrastre"],"p1":["arrastremos"],"p2":["arrastrad"],"p3":["arrastren"]}

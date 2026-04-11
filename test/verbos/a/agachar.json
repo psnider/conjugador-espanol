@@ -13,7 +13,7 @@
     "IndPret": {"s1":["agaché"],"s2":["agachaste"],"vos":["agachaste"],"s3":["agachó"],"p1":["agachamos"],"p2":["agachasteis"],"p3":["agacharon"]},
     "IndFut": {"s1":["agacharé"],"s2":["agacharás"],"vos":["agacharás"],"s3":["agachará"],"p1":["agacharemos"],"p2":["agacharéis"],"p3":["agacharán"]},
     "IndCond": {"s1":["agacharía"],"s2":["agacharías"],"vos":["agacharías"],"s3":["agacharía"],"p1":["agacharíamos"],"p2":["agacharíais"],"p3":["agacharían"]},
-    "SubPres": {"s1":["agache"],"s2":["agaches"],"vos":["agaches","agachés"],"s3":["agache"],"p1":["agachemos"],"p2":["agachéis"],"p3":["agachen"]},
+    "SubPres": {"s1":["agache"],"s2":["agaches"],"vos":[{"forma": "agaches","uso":"Riop."},{"forma":"agachés","uso":"C.Am."}],"s3":["agache"],"p1":["agachemos"],"p2":["agachéis"],"p3":["agachen"]},
     "SubImp": {"s1":["agachara","agachase"],"s2":["agacharas","agachases"],"vos":["agacharas","agachases"],"s3":["agachara","agachase"],"p1":["agacháramos","agachásemos"],"p2":["agacharais","agachaseis"],"p3":["agacharan","agachasen"]},
     "SubFut": {"s1":["agachare"],"s2":["agachares"],"vos":["agachares"],"s3":["agachare"],"p1":["agacháremos"],"p2":["agachareis"],"p3":["agacharen"]},
     "CmdPos": {"s2":["agacha"],"vos":["agachá"],"s3":["agache"],"p1":["agachemos"],"p2":["agachad"],"p3":["agachen"]}

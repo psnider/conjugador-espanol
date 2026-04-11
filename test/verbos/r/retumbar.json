@@ -13,7 +13,7 @@
     "IndPret": {"s1":["retumbé"],"s2":["retumbaste"],"vos":["retumbaste"],"s3":["retumbó"],"p1":["retumbamos"],"p2":["retumbasteis"],"p3":["retumbaron"]},
     "IndFut": {"s1":["retumbaré"],"s2":["retumbarás"],"vos":["retumbarás"],"s3":["retumbará"],"p1":["retumbaremos"],"p2":["retumbaréis"],"p3":["retumbarán"]},
     "IndCond": {"s1":["retumbaría"],"s2":["retumbarías"],"vos":["retumbarías"],"s3":["retumbaría"],"p1":["retumbaríamos"],"p2":["retumbaríais"],"p3":["retumbarían"]},
-    "SubPres": {"s1":["retumbe"],"s2":["retumbes"],"vos":["retumbes","retumbés"],"s3":["retumbe"],"p1":["retumbemos"],"p2":["retumbéis"],"p3":["retumben"]},
+    "SubPres": {"s1":["retumbe"],"s2":["retumbes"],"vos":[{"forma": "retumbes","uso":"Riop."},{"forma":"retumbés","uso":"C.Am."}],"s3":["retumbe"],"p1":["retumbemos"],"p2":["retumbéis"],"p3":["retumben"]},
     "SubImp": {"s1":["retumbara","retumbase"],"s2":["retumbaras","retumbases"],"vos":["retumbaras","retumbases"],"s3":["retumbara","retumbase"],"p1":["retumbáramos","retumbásemos"],"p2":["retumbarais","retumbaseis"],"p3":["retumbaran","retumbasen"]},
     "SubFut": {"s1":["retumbare"],"s2":["retumbares"],"vos":["retumbares"],"s3":["retumbare"],"p1":["retumbáremos"],"p2":["retumbareis"],"p3":["retumbaren"]},
     "CmdPos": {"s2":["retumba"],"vos":["retumbá"],"s3":["retumbe"],"p1":["retumbemos"],"p2":["retumbad"],"p3":["retumben"]}

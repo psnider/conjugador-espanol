@@ -13,7 +13,7 @@
     "IndPret": {"s1":["asusté"],"s2":["asustaste"],"vos":["asustaste"],"s3":["asustó"],"p1":["asustamos"],"p2":["asustasteis"],"p3":["asustaron"]},
     "IndFut": {"s1":["asustaré"],"s2":["asustarás"],"vos":["asustarás"],"s3":["asustará"],"p1":["asustaremos"],"p2":["asustaréis"],"p3":["asustarán"]},
     "IndCond": {"s1":["asustaría"],"s2":["asustarías"],"vos":["asustarías"],"s3":["asustaría"],"p1":["asustaríamos"],"p2":["asustaríais"],"p3":["asustarían"]},
-    "SubPres": {"s1":["asuste"],"s2":["asustes"],"vos":["asustes","asustés"],"s3":["asuste"],"p1":["asustemos"],"p2":["asustéis"],"p3":["asusten"]},
+    "SubPres": {"s1":["asuste"],"s2":["asustes"],"vos":[{"forma": "asustes","uso":"Riop."},{"forma":"asustés","uso":"C.Am."}],"s3":["asuste"],"p1":["asustemos"],"p2":["asustéis"],"p3":["asusten"]},
     "SubImp": {"s1":["asustara","asustase"],"s2":["asustaras","asustases"],"vos":["asustaras","asustases"],"s3":["asustara","asustase"],"p1":["asustáramos","asustásemos"],"p2":["asustarais","asustaseis"],"p3":["asustaran","asustasen"]},
     "SubFut": {"s1":["asustare"],"s2":["asustares"],"vos":["asustares"],"s3":["asustare"],"p1":["asustáremos"],"p2":["asustareis"],"p3":["asustaren"]},
     "CmdPos": {"s2":["asusta"],"vos":["asustá"],"s3":["asuste"],"p1":["asustemos"],"p2":["asustad"],"p3":["asusten"]}

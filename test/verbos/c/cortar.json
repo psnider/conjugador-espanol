@@ -13,7 +13,7 @@
     "IndPret": {"s1":["corté"],"s2":["cortaste"],"vos":["cortaste"],"s3":["cortó"],"p1":["cortamos"],"p2":["cortasteis"],"p3":["cortaron"]},
     "IndFut": {"s1":["cortaré"],"s2":["cortarás"],"vos":["cortarás"],"s3":["cortará"],"p1":["cortaremos"],"p2":["cortaréis"],"p3":["cortarán"]},
     "IndCond": {"s1":["cortaría"],"s2":["cortarías"],"vos":["cortarías"],"s3":["cortaría"],"p1":["cortaríamos"],"p2":["cortaríais"],"p3":["cortarían"]},
-    "SubPres": {"s1":["corte"],"s2":["cortes"],"vos":["cortes","cortés"],"s3":["corte"],"p1":["cortemos"],"p2":["cortéis"],"p3":["corten"]},
+    "SubPres": {"s1":["corte"],"s2":["cortes"],"vos":[{"forma": "cortes","uso":"Riop."},{"forma":"cortés","uso":"C.Am."}],"s3":["corte"],"p1":["cortemos"],"p2":["cortéis"],"p3":["corten"]},
     "SubImp": {"s1":["cortara","cortase"],"s2":["cortaras","cortases"],"vos":["cortaras","cortases"],"s3":["cortara","cortase"],"p1":["cortáramos","cortásemos"],"p2":["cortarais","cortaseis"],"p3":["cortaran","cortasen"]},
     "SubFut": {"s1":["cortare"],"s2":["cortares"],"vos":["cortares"],"s3":["cortare"],"p1":["cortáremos"],"p2":["cortareis"],"p3":["cortaren"]},
     "CmdPos": {"s2":["corta"],"vos":["cortá"],"s3":["corte"],"p1":["cortemos"],"p2":["cortad"],"p3":["corten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["observé"],"s2":["observaste"],"vos":["observaste"],"s3":["observó"],"p1":["observamos"],"p2":["observasteis"],"p3":["observaron"]},
     "IndFut": {"s1":["observaré"],"s2":["observarás"],"vos":["observarás"],"s3":["observará"],"p1":["observaremos"],"p2":["observaréis"],"p3":["observarán"]},
     "IndCond": {"s1":["observaría"],"s2":["observarías"],"vos":["observarías"],"s3":["observaría"],"p1":["observaríamos"],"p2":["observaríais"],"p3":["observarían"]},
-    "SubPres": {"s1":["observe"],"s2":["observes"],"vos":["observes","observés"],"s3":["observe"],"p1":["observemos"],"p2":["observéis"],"p3":["observen"]},
+    "SubPres": {"s1":["observe"],"s2":["observes"],"vos":[{"forma": "observes","uso":"Riop."},{"forma":"observés","uso":"C.Am."}],"s3":["observe"],"p1":["observemos"],"p2":["observéis"],"p3":["observen"]},
     "SubImp": {"s1":["observara","observase"],"s2":["observaras","observases"],"vos":["observaras","observases"],"s3":["observara","observase"],"p1":["observáramos","observásemos"],"p2":["observarais","observaseis"],"p3":["observaran","observasen"]},
     "SubFut": {"s1":["observare"],"s2":["observares"],"vos":["observares"],"s3":["observare"],"p1":["observáremos"],"p2":["observareis"],"p3":["observaren"]},
     "CmdPos": {"s2":["observa"],"vos":["observá"],"s3":["observe"],"p1":["observemos"],"p2":["observad"],"p3":["observen"]}

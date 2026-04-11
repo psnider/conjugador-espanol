@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acompañé"],"s2":["acompañaste"],"vos":["acompañaste"],"s3":["acompañó"],"p1":["acompañamos"],"p2":["acompañasteis"],"p3":["acompañaron"]},
     "IndFut": {"s1":["acompañaré"],"s2":["acompañarás"],"vos":["acompañarás"],"s3":["acompañará"],"p1":["acompañaremos"],"p2":["acompañaréis"],"p3":["acompañarán"]},
     "IndCond": {"s1":["acompañaría"],"s2":["acompañarías"],"vos":["acompañarías"],"s3":["acompañaría"],"p1":["acompañaríamos"],"p2":["acompañaríais"],"p3":["acompañarían"]},
-    "SubPres": {"s1":["acompañe"],"s2":["acompañes"],"vos":["acompañes","acompañés"],"s3":["acompañe"],"p1":["acompañemos"],"p2":["acompañéis"],"p3":["acompañen"]},
+    "SubPres": {"s1":["acompañe"],"s2":["acompañes"],"vos":[{"forma": "acompañes","uso":"Riop."},{"forma":"acompañés","uso":"C.Am."}],"s3":["acompañe"],"p1":["acompañemos"],"p2":["acompañéis"],"p3":["acompañen"]},
     "SubImp": {"s1":["acompañara","acompañase"],"s2":["acompañaras","acompañases"],"vos":["acompañaras","acompañases"],"s3":["acompañara","acompañase"],"p1":["acompañáramos","acompañásemos"],"p2":["acompañarais","acompañaseis"],"p3":["acompañaran","acompañasen"]},
     "SubFut": {"s1":["acompañare"],"s2":["acompañares"],"vos":["acompañares"],"s3":["acompañare"],"p1":["acompañáremos"],"p2":["acompañareis"],"p3":["acompañaren"]},
     "CmdPos": {"s2":["acompaña"],"vos":["acompañá"],"s3":["acompañe"],"p1":["acompañemos"],"p2":["acompañad"],"p3":["acompañen"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["abracé"],"s2":["abrazaste"],"vos":["abrazaste"],"s3":["abrazó"],"p1":["abrazamos"],"p2":["abrazasteis"],"p3":["abrazaron"]},
     "IndFut": {"s1":["abrazaré"],"s2":["abrazarás"],"vos":["abrazarás"],"s3":["abrazará"],"p1":["abrazaremos"],"p2":["abrazaréis"],"p3":["abrazarán"]},
     "IndCond": {"s1":["abrazaría"],"s2":["abrazarías"],"vos":["abrazarías"],"s3":["abrazaría"],"p1":["abrazaríamos"],"p2":["abrazaríais"],"p3":["abrazarían"]},
-    "SubPres": {"s1":["abrace"],"s2":["abraces"],"vos":["abraces","abracés"],"s3":["abrace"],"p1":["abracemos"],"p2":["abracéis"],"p3":["abracen"]},
+    "SubPres": {"s1":["abrace"],"s2":["abraces"],"vos":[{"forma": "abraces","uso":"Riop."},{"forma":"abracés","uso":"C.Am."}],"s3":["abrace"],"p1":["abracemos"],"p2":["abracéis"],"p3":["abracen"]},
     "SubImp": {"s1":["abrazara","abrazase"],"s2":["abrazaras","abrazases"],"vos":["abrazaras","abrazases"],"s3":["abrazara","abrazase"],"p1":["abrazáramos","abrazásemos"],"p2":["abrazarais","abrazaseis"],"p3":["abrazaran","abrazasen"]},
     "SubFut": {"s1":["abrazare"],"s2":["abrazares"],"vos":["abrazares"],"s3":["abrazare"],"p1":["abrazáremos"],"p2":["abrazareis"],"p3":["abrazaren"]},
     "CmdPos": {"s2":["abraza"],"vos":["abrazá"],"s3":["abrace"],"p1":["abracemos"],"p2":["abrazad"],"p3":["abracen"]}

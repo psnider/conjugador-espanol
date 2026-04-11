@@ -13,7 +13,7 @@
     "IndPret": {"s1":["escalé"],"s2":["escalaste"],"vos":["escalaste"],"s3":["escaló"],"p1":["escalamos"],"p2":["escalasteis"],"p3":["escalaron"]},
     "IndFut": {"s1":["escalaré"],"s2":["escalarás"],"vos":["escalarás"],"s3":["escalará"],"p1":["escalaremos"],"p2":["escalaréis"],"p3":["escalarán"]},
     "IndCond": {"s1":["escalaría"],"s2":["escalarías"],"vos":["escalarías"],"s3":["escalaría"],"p1":["escalaríamos"],"p2":["escalaríais"],"p3":["escalarían"]},
-    "SubPres": {"s1":["escale"],"s2":["escales"],"vos":["escales","escalés"],"s3":["escale"],"p1":["escalemos"],"p2":["escaléis"],"p3":["escalen"]},
+    "SubPres": {"s1":["escale"],"s2":["escales"],"vos":[{"forma": "escales","uso":"Riop."},{"forma":"escalés","uso":"C.Am."}],"s3":["escale"],"p1":["escalemos"],"p2":["escaléis"],"p3":["escalen"]},
     "SubImp": {"s1":["escalara","escalase"],"s2":["escalaras","escalases"],"vos":["escalaras","escalases"],"s3":["escalara","escalase"],"p1":["escaláramos","escalásemos"],"p2":["escalarais","escalaseis"],"p3":["escalaran","escalasen"]},
     "SubFut": {"s1":["escalare"],"s2":["escalares"],"vos":["escalares"],"s3":["escalare"],"p1":["escaláremos"],"p2":["escalareis"],"p3":["escalaren"]},
     "CmdPos": {"s2":["escala"],"vos":["escalá"],"s3":["escale"],"p1":["escalemos"],"p2":["escalad"],"p3":["escalen"]}

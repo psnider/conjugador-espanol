@@ -13,7 +13,7 @@
     "IndPret": {"s1":["resté"],"s2":["restaste"],"vos":["restaste"],"s3":["restó"],"p1":["restamos"],"p2":["restasteis"],"p3":["restaron"]},
     "IndFut": {"s1":["restaré"],"s2":["restarás"],"vos":["restarás"],"s3":["restará"],"p1":["restaremos"],"p2":["restaréis"],"p3":["restarán"]},
     "IndCond": {"s1":["restaría"],"s2":["restarías"],"vos":["restarías"],"s3":["restaría"],"p1":["restaríamos"],"p2":["restaríais"],"p3":["restarían"]},
-    "SubPres": {"s1":["reste"],"s2":["restes"],"vos":["restes","restés"],"s3":["reste"],"p1":["restemos"],"p2":["restéis"],"p3":["resten"]},
+    "SubPres": {"s1":["reste"],"s2":["restes"],"vos":[{"forma": "restes","uso":"Riop."},{"forma":"restés","uso":"C.Am."}],"s3":["reste"],"p1":["restemos"],"p2":["restéis"],"p3":["resten"]},
     "SubImp": {"s1":["restara","restase"],"s2":["restaras","restases"],"vos":["restaras","restases"],"s3":["restara","restase"],"p1":["restáramos","restásemos"],"p2":["restarais","restaseis"],"p3":["restaran","restasen"]},
     "SubFut": {"s1":["restare"],"s2":["restares"],"vos":["restares"],"s3":["restare"],"p1":["restáremos"],"p2":["restareis"],"p3":["restaren"]},
     "CmdPos": {"s2":["resta"],"vos":["restá"],"s3":["reste"],"p1":["restemos"],"p2":["restad"],"p3":["resten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["agité"],"s2":["agitaste"],"vos":["agitaste"],"s3":["agitó"],"p1":["agitamos"],"p2":["agitasteis"],"p3":["agitaron"]},
     "IndFut": {"s1":["agitaré"],"s2":["agitarás"],"vos":["agitarás"],"s3":["agitará"],"p1":["agitaremos"],"p2":["agitaréis"],"p3":["agitarán"]},
     "IndCond": {"s1":["agitaría"],"s2":["agitarías"],"vos":["agitarías"],"s3":["agitaría"],"p1":["agitaríamos"],"p2":["agitaríais"],"p3":["agitarían"]},
-    "SubPres": {"s1":["agite"],"s2":["agites"],"vos":["agites","agités"],"s3":["agite"],"p1":["agitemos"],"p2":["agitéis"],"p3":["agiten"]},
+    "SubPres": {"s1":["agite"],"s2":["agites"],"vos":[{"forma": "agites","uso":"Riop."},{"forma":"agités","uso":"C.Am."}],"s3":["agite"],"p1":["agitemos"],"p2":["agitéis"],"p3":["agiten"]},
     "SubImp": {"s1":["agitara","agitase"],"s2":["agitaras","agitases"],"vos":["agitaras","agitases"],"s3":["agitara","agitase"],"p1":["agitáramos","agitásemos"],"p2":["agitarais","agitaseis"],"p3":["agitaran","agitasen"]},
     "SubFut": {"s1":["agitare"],"s2":["agitares"],"vos":["agitares"],"s3":["agitare"],"p1":["agitáremos"],"p2":["agitareis"],"p3":["agitaren"]},
     "CmdPos": {"s2":["agita"],"vos":["agitá"],"s3":["agite"],"p1":["agitemos"],"p2":["agitad"],"p3":["agiten"]}

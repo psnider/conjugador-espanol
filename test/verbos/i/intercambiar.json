@@ -12,7 +12,7 @@
     "IndPret": {"s1":["intercambié"],"s2":["intercambiaste"],"vos":["intercambiaste"],"s3":["intercambió"],"p1":["intercambiamos"],"p2":["intercambiasteis"],"p3":["intercambiaron"]},
     "IndFut": {"s1":["intercambiaré"],"s2":["intercambiarás"],"vos":["intercambiarás"],"s3":["intercambiará"],"p1":["intercambiaremos"],"p2":["intercambiaréis"],"p3":["intercambiarán"]},
     "IndCond": {"s1":["intercambiaría"],"s2":["intercambiarías"],"vos":["intercambiarías"],"s3":["intercambiaría"],"p1":["intercambiaríamos"],"p2":["intercambiaríais"],"p3":["intercambiarían"]},
-    "SubPres": {"s1":["intercambie"],"s2":["intercambies"],"vos":["intercambies","intercambiés"],"s3":["intercambie"],"p1":["intercambiemos"],"p2":["intercambiéis"],"p3":["intercambien"]},
+    "SubPres": {"s1":["intercambie"],"s2":["intercambies"],"vos":[{"forma": "intercambies","uso":"Riop."},{"forma":"intercambiés","uso":"C.Am."}],"s3":["intercambie"],"p1":["intercambiemos"],"p2":["intercambiéis"],"p3":["intercambien"]},
     "SubImp": {"s1":["intercambiara","intercambiase"],"s2":["intercambiaras","intercambiases"],"vos":["intercambiaras","intercambiases"],"s3":["intercambiara","intercambiase"],"p1":["intercambiáramos","intercambiásemos"],"p2":["intercambiarais","intercambiaseis"],"p3":["intercambiaran","intercambiasen"]},
     "SubFut": {"s1":["intercambiare"],"s2":["intercambiares"],"vos":["intercambiares"],"s3":["intercambiare"],"p1":["intercambiáremos"],"p2":["intercambiareis"],"p3":["intercambiaren"]},
     "CmdPos": {"s2":["intercambia"],"vos":["intercambiá"],"s3":["intercambie"],"p1":["intercambiemos"],"p2":["intercambiad"],"p3":["intercambien"]}

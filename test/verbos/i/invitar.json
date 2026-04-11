@@ -13,7 +13,7 @@
     "IndPret": {"s1":["invité"],"s2":["invitaste"],"vos":["invitaste"],"s3":["invitó"],"p1":["invitamos"],"p2":["invitasteis"],"p3":["invitaron"]},
     "IndFut": {"s1":["invitaré"],"s2":["invitarás"],"vos":["invitarás"],"s3":["invitará"],"p1":["invitaremos"],"p2":["invitaréis"],"p3":["invitarán"]},
     "IndCond": {"s1":["invitaría"],"s2":["invitarías"],"vos":["invitarías"],"s3":["invitaría"],"p1":["invitaríamos"],"p2":["invitaríais"],"p3":["invitarían"]},
-    "SubPres": {"s1":["invite"],"s2":["invites"],"vos":["invites","invités"],"s3":["invite"],"p1":["invitemos"],"p2":["invitéis"],"p3":["inviten"]},
+    "SubPres": {"s1":["invite"],"s2":["invites"],"vos":[{"forma": "invites","uso":"Riop."},{"forma":"invités","uso":"C.Am."}],"s3":["invite"],"p1":["invitemos"],"p2":["invitéis"],"p3":["inviten"]},
     "SubImp": {"s1":["invitara","invitase"],"s2":["invitaras","invitases"],"vos":["invitaras","invitases"],"s3":["invitara","invitase"],"p1":["invitáramos","invitásemos"],"p2":["invitarais","invitaseis"],"p3":["invitaran","invitasen"]},
     "SubFut": {"s1":["invitare"],"s2":["invitares"],"vos":["invitares"],"s3":["invitare"],"p1":["invitáremos"],"p2":["invitareis"],"p3":["invitaren"]},
     "CmdPos": {"s2":["invita"],"vos":["invitá"],"s3":["invite"],"p1":["invitemos"],"p2":["invitad"],"p3":["inviten"]}

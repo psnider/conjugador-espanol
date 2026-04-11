@@ -13,7 +13,7 @@
     "IndPret": {"s1":["serví"],"s2":["serviste"],"vos":["serviste"],"s3":["sirvió"],"p1":["servimos"],"p2":["servisteis"],"p3":["sirvieron"]},
     "IndFut": {"s1":["serviré"],"s2":["servirás"],"vos":["servirás"],"s3":["servirá"],"p1":["serviremos"],"p2":["serviréis"],"p3":["servirán"]},
     "IndCond": {"s1":["serviría"],"s2":["servirías"],"vos":["servirías"],"s3":["serviría"],"p1":["serviríamos"],"p2":["serviríais"],"p3":["servirían"]},
-    "SubPres": {"s1":["sirva"],"s2":["sirvas"],"vos":["sirvas","sirvás"],"s3":["sirva"],"p1":["sirvamos"],"p2":["sirváis"],"p3":["sirvan"]},
+    "SubPres": {"s1":["sirva"],"s2":["sirvas"],"vos":[{"forma": "sirvas","uso":"Riop."},{"forma":"sirvás","uso":"C.Am."}],"s3":["sirva"],"p1":["sirvamos"],"p2":["sirváis"],"p3":["sirvan"]},
     "SubImp": {"s1":["sirviera","sirviese"],"s2":["sirvieras","sirvieses"],"vos":["sirvieras","sirvieses"],"s3":["sirviera","sirviese"],"p1":["sirviéramos","sirviésemos"],"p2":["sirvierais","sirvieseis"],"p3":["sirvieran","sirviesen"]},
     "SubFut": {"s1":["sirviere"],"s2":["sirvieres"],"vos":["sirvieres"],"s3":["sirviere"],"p1":["sirviéremos"],"p2":["sirviereis"],"p3":["sirvieren"]},
     "CmdPos": {"s2":["sirve"],"vos":["serví"],"s3":["sirva"],"p1":["sirvamos"],"p2":["servid"],"p3":["sirvan"]}

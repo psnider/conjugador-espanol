@@ -13,7 +13,7 @@
     "IndPret": {"s1":["colgué"],"s2":["colgaste"],"vos":["colgaste"],"s3":["colgó"],"p1":["colgamos"],"p2":["colgasteis"],"p3":["colgaron"]},
     "IndFut": {"s1":["colgaré"],"s2":["colgarás"],"vos":["colgarás"],"s3":["colgará"],"p1":["colgaremos"],"p2":["colgaréis"],"p3":["colgarán"]},
     "IndCond": {"s1":["colgaría"],"s2":["colgarías"],"vos":["colgarías"],"s3":["colgaría"],"p1":["colgaríamos"],"p2":["colgaríais"],"p3":["colgarían"]},
-    "SubPres": {"s1":["cuelgue"],"s2":["cuelgues"],"vos":["cuelgues","colgués"],"s3":["cuelgue"],"p1":["colguemos"],"p2":["colguéis"],"p3":["cuelguen"]},
+    "SubPres": {"s1":["cuelgue"],"s2":["cuelgues"],"vos":[{"forma": "cuelgues","uso":"Riop."},{"forma":"colgués","uso":"C.Am."}],"s3":["cuelgue"],"p1":["colguemos"],"p2":["colguéis"],"p3":["cuelguen"]},
     "SubImp": {"s1":["colgara","colgase"],"s2":["colgaras","colgases"],"vos":["colgaras","colgases"],"s3":["colgara","colgase"],"p1":["colgáramos","colgásemos"],"p2":["colgarais","colgaseis"],"p3":["colgaran","colgasen"]},
     "SubFut": {"s1":["colgare"],"s2":["colgares"],"vos":["colgares"],"s3":["colgare"],"p1":["colgáremos"],"p2":["colgareis"],"p3":["colgaren"]},
     "CmdPos": {"s2":["cuelga"],"vos":["colgá"],"s3":["cuelgue"],"p1":["colguemos"],"p2":["colgad"],"p3":["cuelguen"]}

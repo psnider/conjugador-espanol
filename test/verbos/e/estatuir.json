@@ -12,7 +12,7 @@
     "IndPret": {"s1":["estatuí"],"s2":["estatuiste"],"vos":["estatuiste"],"s3":["estatuyó"],"p1":["estatuimos"],"p2":["estatuisteis"],"p3":["estatuyeron"]},
     "IndFut": {"s1":["estatuiré"],"s2":["estatuirás"],"vos":["estatuirás"],"s3":["estatuirá"],"p1":["estatuiremos"],"p2":["estatuiréis"],"p3":["estatuirán"]},
     "IndCond": {"s1":["estatuiría"],"s2":["estatuirías"],"vos":["estatuirías"],"s3":["estatuiría"],"p1":["estatuiríamos"],"p2":["estatuiríais"],"p3":["estatuirían"]},
-    "SubPres": {"s1":["estatuya"],"s2":["estatuyas"],"vos":["estatuyas","estatuyás"],"s3":["estatuya"],"p1":["estatuyamos"],"p2":["estatuyáis"],"p3":["estatuyan"]},
+    "SubPres": {"s1":["estatuya"],"s2":["estatuyas"],"vos":[{"forma": "estatuyas","uso":"Riop."},{"forma":"estatuyás","uso":"C.Am."}],"s3":["estatuya"],"p1":["estatuyamos"],"p2":["estatuyáis"],"p3":["estatuyan"]},
     "SubImp": {"s1":["estatuyera","estatuyese"],"s2":["estatuyeras","estatuyeses"],"vos":["estatuyeras","estatuyeses"],"s3":["estatuyera","estatuyese"],"p1":["estatuyéramos","estatuyésemos"],"p2":["estatuyerais","estatuyeseis"],"p3":["estatuyeran","estatuyesen"]},
     "SubFut": {"s1":["estatuyere"],"s2":["estatuyeres"],"vos":["estatuyeres"],"s3":["estatuyere"],"p1":["estatuyéremos"],"p2":["estatuyereis"],"p3":["estatuyeren"]},
     "CmdPos": {"s2":["estatuye"],"vos":["estatuí"],"s3":["estatuya"],"p1":["estatuyamos"],"p2":["estatuid"],"p3":["estatuyan"]}

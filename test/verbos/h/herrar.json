@@ -13,7 +13,7 @@
     "IndPret": {"s1":["herré"],"s2":["herraste"],"vos":["herraste"],"s3":["herró"],"p1":["herramos"],"p2":["herrasteis"],"p3":["herraron"]},
     "IndFut": {"s1":["herraré"],"s2":["herrarás"],"vos":["herrarás"],"s3":["herrará"],"p1":["herraremos"],"p2":["herraréis"],"p3":["herrarán"]},
     "IndCond": {"s1":["herraría"],"s2":["herrarías"],"vos":["herrarías"],"s3":["herraría"],"p1":["herraríamos"],"p2":["herraríais"],"p3":["herrarían"]},
-    "SubPres": {"s1":["hierre"],"s2":["hierres"],"vos":["hierres","herrés"],"s3":["hierre"],"p1":["herremos"],"p2":["herréis"],"p3":["hierren"]},
+    "SubPres": {"s1":["hierre"],"s2":["hierres"],"vos":[{"forma": "hierres","uso":"Riop."},{"forma":"herrés","uso":"C.Am."}],"s3":["hierre"],"p1":["herremos"],"p2":["herréis"],"p3":["hierren"]},
     "SubImp": {"s1":["herrara","herrase"],"s2":["herraras","herrases"],"vos":["herraras","herrases"],"s3":["herrara","herrase"],"p1":["herráramos","herrásemos"],"p2":["herrarais","herraseis"],"p3":["herraran","herrasen"]},
     "SubFut": {"s1":["herrare"],"s2":["herrares"],"vos":["herrares"],"s3":["herrare"],"p1":["herráremos"],"p2":["herrareis"],"p3":["herraren"]},
     "CmdPos": {"s2":["hierra"],"vos":["herrá"],"s3":["hierre"],"p1":["herremos"],"p2":["herrad"],"p3":["hierren"]}

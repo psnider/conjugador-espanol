@@ -12,7 +12,7 @@
     "IndPret": {"s1":["xerografié"],"s2":["xerografiaste"],"vos":["xerografiaste"],"s3":["xerografió"],"p1":["xerografiamos"],"p2":["xerografiasteis"],"p3":["xerografiaron"]},
     "IndFut": {"s1":["xerografiaré"],"s2":["xerografiarás"],"vos":["xerografiarás"],"s3":["xerografiará"],"p1":["xerografiaremos"],"p2":["xerografiaréis"],"p3":["xerografiarán"]},
     "IndCond": {"s1":["xerografiaría"],"s2":["xerografiarías"],"vos":["xerografiarías"],"s3":["xerografiaría"],"p1":["xerografiaríamos"],"p2":["xerografiaríais"],"p3":["xerografiarían"]},
-    "SubPres": {"s1":["xerografíe"],"s2":["xerografíes"],"vos":["xerografíes","xerografiés"],"s3":["xerografíe"],"p1":["xerografiemos"],"p2":["xerografiéis"],"p3":["xerografíen"]},
+    "SubPres": {"s1":["xerografíe"],"s2":["xerografíes"],"vos":[{"forma": "xerografíes","uso":"Riop."},{"forma":"xerografiés","uso":"C.Am."}],"s3":["xerografíe"],"p1":["xerografiemos"],"p2":["xerografiéis"],"p3":["xerografíen"]},
     "SubImp": {"s1":["xerografiara","xerografiase"],"s2":["xerografiaras","xerografiases"],"vos":["xerografiaras","xerografiases"],"s3":["xerografiara","xerografiase"],"p1":["xerografiáramos","xerografiásemos"],"p2":["xerografiarais","xerografiaseis"],"p3":["xerografiaran","xerografiasen"]},
     "SubFut": {"s1":["xerografiare"],"s2":["xerografiares"],"vos":["xerografiares"],"s3":["xerografiare"],"p1":["xerografiáremos"],"p2":["xerografiareis"],"p3":["xerografiaren"]},
     "CmdPos": {"s2":["xerografía"],"vos":["xerografiá"],"s3":["xerografíe"],"p1":["xerografiemos"],"p2":["xerografiad"],"p3":["xerografíen"]}

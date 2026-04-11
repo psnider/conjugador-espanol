@@ -13,7 +13,7 @@
     "IndPret": {"s1":["eructé"],"s2":["eructaste"],"vos":["eructaste"],"s3":["eructó"],"p1":["eructamos"],"p2":["eructasteis"],"p3":["eructaron"]},
     "IndFut": {"s1":["eructaré"],"s2":["eructarás"],"vos":["eructarás"],"s3":["eructará"],"p1":["eructaremos"],"p2":["eructaréis"],"p3":["eructarán"]},
     "IndCond": {"s1":["eructaría"],"s2":["eructarías"],"vos":["eructarías"],"s3":["eructaría"],"p1":["eructaríamos"],"p2":["eructaríais"],"p3":["eructarían"]},
-    "SubPres": {"s1":["eructe"],"s2":["eructes"],"vos":["eructes","eructés"],"s3":["eructe"],"p1":["eructemos"],"p2":["eructéis"],"p3":["eructen"]},
+    "SubPres": {"s1":["eructe"],"s2":["eructes"],"vos":[{"forma": "eructes","uso":"Riop."},{"forma":"eructés","uso":"C.Am."}],"s3":["eructe"],"p1":["eructemos"],"p2":["eructéis"],"p3":["eructen"]},
     "SubImp": {"s1":["eructara","eructase"],"s2":["eructaras","eructases"],"vos":["eructaras","eructases"],"s3":["eructara","eructase"],"p1":["eructáramos","eructásemos"],"p2":["eructarais","eructaseis"],"p3":["eructaran","eructasen"]},
     "SubFut": {"s1":["eructare"],"s2":["eructares"],"vos":["eructares"],"s3":["eructare"],"p1":["eructáremos"],"p2":["eructareis"],"p3":["eructaren"]},
     "CmdPos": {"s2":["eructa"],"vos":["eructá"],"s3":["eructe"],"p1":["eructemos"],"p2":["eructad"],"p3":["eructen"]}

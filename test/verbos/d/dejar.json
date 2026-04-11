@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dejé"],"s2":["dejaste"],"vos":["dejaste"],"s3":["dejó"],"p1":["dejamos"],"p2":["dejasteis"],"p3":["dejaron"]},
     "IndFut": {"s1":["dejaré"],"s2":["dejarás"],"vos":["dejarás"],"s3":["dejará"],"p1":["dejaremos"],"p2":["dejaréis"],"p3":["dejarán"]},
     "IndCond": {"s1":["dejaría"],"s2":["dejarías"],"vos":["dejarías"],"s3":["dejaría"],"p1":["dejaríamos"],"p2":["dejaríais"],"p3":["dejarían"]},
-    "SubPres": {"s1":["deje"],"s2":["dejes"],"vos":["dejes","dejés"],"s3":["deje"],"p1":["dejemos"],"p2":["dejéis"],"p3":["dejen"]},
+    "SubPres": {"s1":["deje"],"s2":["dejes"],"vos":[{"forma": "dejes","uso":"Riop."},{"forma":"dejés","uso":"C.Am."}],"s3":["deje"],"p1":["dejemos"],"p2":["dejéis"],"p3":["dejen"]},
     "SubImp": {"s1":["dejara","dejase"],"s2":["dejaras","dejases"],"vos":["dejaras","dejases"],"s3":["dejara","dejase"],"p1":["dejáramos","dejásemos"],"p2":["dejarais","dejaseis"],"p3":["dejaran","dejasen"]},
     "SubFut": {"s1":["dejare"],"s2":["dejares"],"vos":["dejares"],"s3":["dejare"],"p1":["dejáremos"],"p2":["dejareis"],"p3":["dejaren"]},
     "CmdPos": {"s2":["deja"],"vos":["dejá"],"s3":["deje"],"p1":["dejemos"],"p2":["dejad"],"p3":["dejen"]}

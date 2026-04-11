@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sosegué"],"s2":["sosegaste"],"vos":["sosegaste"],"s3":["sosegó"],"p1":["sosegamos"],"p2":["sosegasteis"],"p3":["sosegaron"]},
     "IndFut": {"s1":["sosegaré"],"s2":["sosegarás"],"vos":["sosegarás"],"s3":["sosegará"],"p1":["sosegaremos"],"p2":["sosegaréis"],"p3":["sosegarán"]},
     "IndCond": {"s1":["sosegaría"],"s2":["sosegarías"],"vos":["sosegarías"],"s3":["sosegaría"],"p1":["sosegaríamos"],"p2":["sosegaríais"],"p3":["sosegarían"]},
-    "SubPres": {"s1":["sosiegue"],"s2":["sosiegues"],"vos":["sosiegues","sosegués"],"s3":["sosiegue"],"p1":["soseguemos"],"p2":["soseguéis"],"p3":["sosieguen"]},
+    "SubPres": {"s1":["sosiegue"],"s2":["sosiegues"],"vos":[{"forma": "sosiegues","uso":"Riop."},{"forma":"sosegués","uso":"C.Am."}],"s3":["sosiegue"],"p1":["soseguemos"],"p2":["soseguéis"],"p3":["sosieguen"]},
     "SubImp": {"s1":["sosegara","sosegase"],"s2":["sosegaras","sosegases"],"vos":["sosegaras","sosegases"],"s3":["sosegara","sosegase"],"p1":["sosegáramos","sosegásemos"],"p2":["sosegarais","sosegaseis"],"p3":["sosegaran","sosegasen"]},
     "SubFut": {"s1":["sosegare"],"s2":["sosegares"],"vos":["sosegares"],"s3":["sosegare"],"p1":["sosegáremos"],"p2":["sosegareis"],"p3":["sosegaren"]},
     "CmdPos": {"s2":["sosiega"],"vos":["sosegá"],"s3":["sosiegue"],"p1":["soseguemos"],"p2":["sosegad"],"p3":["sosieguen"]}

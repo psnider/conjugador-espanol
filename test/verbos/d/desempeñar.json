@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desempeñé"],"s2":["desempeñaste"],"vos":["desempeñaste"],"s3":["desempeñó"],"p1":["desempeñamos"],"p2":["desempeñasteis"],"p3":["desempeñaron"]},
     "IndFut": {"s1":["desempeñaré"],"s2":["desempeñarás"],"vos":["desempeñarás"],"s3":["desempeñará"],"p1":["desempeñaremos"],"p2":["desempeñaréis"],"p3":["desempeñarán"]},
     "IndCond": {"s1":["desempeñaría"],"s2":["desempeñarías"],"vos":["desempeñarías"],"s3":["desempeñaría"],"p1":["desempeñaríamos"],"p2":["desempeñaríais"],"p3":["desempeñarían"]},
-    "SubPres": {"s1":["desempeñe"],"s2":["desempeñes"],"vos":["desempeñes","desempeñés"],"s3":["desempeñe"],"p1":["desempeñemos"],"p2":["desempeñéis"],"p3":["desempeñen"]},
+    "SubPres": {"s1":["desempeñe"],"s2":["desempeñes"],"vos":[{"forma": "desempeñes","uso":"Riop."},{"forma":"desempeñés","uso":"C.Am."}],"s3":["desempeñe"],"p1":["desempeñemos"],"p2":["desempeñéis"],"p3":["desempeñen"]},
     "SubImp": {"s1":["desempeñara","desempeñase"],"s2":["desempeñaras","desempeñases"],"vos":["desempeñaras","desempeñases"],"s3":["desempeñara","desempeñase"],"p1":["desempeñáramos","desempeñásemos"],"p2":["desempeñarais","desempeñaseis"],"p3":["desempeñaran","desempeñasen"]},
     "SubFut": {"s1":["desempeñare"],"s2":["desempeñares"],"vos":["desempeñares"],"s3":["desempeñare"],"p1":["desempeñáremos"],"p2":["desempeñareis"],"p3":["desempeñaren"]},
     "CmdPos": {"s2":["desempeña"],"vos":["desempeñá"],"s3":["desempeñe"],"p1":["desempeñemos"],"p2":["desempeñad"],"p3":["desempeñen"]}

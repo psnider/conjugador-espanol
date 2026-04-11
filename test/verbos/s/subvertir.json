@@ -13,7 +13,7 @@
     "IndPret": {"s1":["subvertí"],"s2":["subvertiste"],"vos":["subvertiste"],"s3":["subvirtió"],"p1":["subvertimos"],"p2":["subvertisteis"],"p3":["subvirtieron"]},
     "IndFut": {"s1":["subvertiré"],"s2":["subvertirás"],"vos":["subvertirás"],"s3":["subvertirá"],"p1":["subvertiremos"],"p2":["subvertiréis"],"p3":["subvertirán"]},
     "IndCond": {"s1":["subvertiría"],"s2":["subvertirías"],"vos":["subvertirías"],"s3":["subvertiría"],"p1":["subvertiríamos"],"p2":["subvertiríais"],"p3":["subvertirían"]},
-    "SubPres": {"s1":["subvierta"],"s2":["subviertas"],"vos":["subviertas","subvirtás"],"s3":["subvierta"],"p1":["subvirtamos"],"p2":["subvirtáis"],"p3":["subviertan"]},
+    "SubPres": {"s1":["subvierta"],"s2":["subviertas"],"vos":[{"forma": "subviertas","uso":"Riop."},{"forma":"subvirtás","uso":"C.Am."}],"s3":["subvierta"],"p1":["subvirtamos"],"p2":["subvirtáis"],"p3":["subviertan"]},
     "SubImp": {"s1":["subvirtiera","subvirtiese"],"s2":["subvirtieras","subvirtieses"],"vos":["subvirtieras","subvirtieses"],"s3":["subvirtiera","subvirtiese"],"p1":["subvirtiéramos","subvirtiésemos"],"p2":["subvirtierais","subvirtieseis"],"p3":["subvirtieran","subvirtiesen"]},
     "SubFut": {"s1":["subvirtiere"],"s2":["subvirtieres"],"vos":["subvirtieres"],"s3":["subvirtiere"],"p1":["subvirtiéremos"],"p2":["subvirtiereis"],"p3":["subvirtieren"]},
     "CmdPos": {"s2":["subvierte"],"vos":["subvertí"],"s3":["subvierta"],"p1":["subvirtamos"],"p2":["subvertid"],"p3":["subviertan"]}

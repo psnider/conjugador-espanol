@@ -13,7 +13,7 @@
     "IndPret": {"s1":["amparé"],"s2":["amparaste"],"vos":["amparaste"],"s3":["amparó"],"p1":["amparamos"],"p2":["amparasteis"],"p3":["ampararon"]},
     "IndFut": {"s1":["ampararé"],"s2":["ampararás"],"vos":["ampararás"],"s3":["amparará"],"p1":["ampararemos"],"p2":["ampararéis"],"p3":["ampararán"]},
     "IndCond": {"s1":["ampararía"],"s2":["ampararías"],"vos":["ampararías"],"s3":["ampararía"],"p1":["ampararíamos"],"p2":["ampararíais"],"p3":["ampararían"]},
-    "SubPres": {"s1":["ampare"],"s2":["ampares"],"vos":["ampares","amparés"],"s3":["ampare"],"p1":["amparemos"],"p2":["amparéis"],"p3":["amparen"]},
+    "SubPres": {"s1":["ampare"],"s2":["ampares"],"vos":[{"forma": "ampares","uso":"Riop."},{"forma":"amparés","uso":"C.Am."}],"s3":["ampare"],"p1":["amparemos"],"p2":["amparéis"],"p3":["amparen"]},
     "SubImp": {"s1":["amparara","amparase"],"s2":["ampararas","amparases"],"vos":["ampararas","amparases"],"s3":["amparara","amparase"],"p1":["amparáramos","amparásemos"],"p2":["ampararais","amparaseis"],"p3":["ampararan","amparasen"]},
     "SubFut": {"s1":["amparare"],"s2":["amparares"],"vos":["amparares"],"s3":["amparare"],"p1":["amparáremos"],"p2":["amparareis"],"p3":["ampararen"]},
     "CmdPos": {"s2":["ampara"],"vos":["ampará"],"s3":["ampare"],"p1":["amparemos"],"p2":["amparad"],"p3":["amparen"]}

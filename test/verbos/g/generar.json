@@ -13,7 +13,7 @@
     "IndPret": {"s1":["generé"],"s2":["generaste"],"vos":["generaste"],"s3":["generó"],"p1":["generamos"],"p2":["generasteis"],"p3":["generaron"]},
     "IndFut": {"s1":["generaré"],"s2":["generarás"],"vos":["generarás"],"s3":["generará"],"p1":["generaremos"],"p2":["generaréis"],"p3":["generarán"]},
     "IndCond": {"s1":["generaría"],"s2":["generarías"],"vos":["generarías"],"s3":["generaría"],"p1":["generaríamos"],"p2":["generaríais"],"p3":["generarían"]},
-    "SubPres": {"s1":["genere"],"s2":["generes"],"vos":["generes","generés"],"s3":["genere"],"p1":["generemos"],"p2":["generéis"],"p3":["generen"]},
+    "SubPres": {"s1":["genere"],"s2":["generes"],"vos":[{"forma": "generes","uso":"Riop."},{"forma":"generés","uso":"C.Am."}],"s3":["genere"],"p1":["generemos"],"p2":["generéis"],"p3":["generen"]},
     "SubImp": {"s1":["generara","generase"],"s2":["generaras","generases"],"vos":["generaras","generases"],"s3":["generara","generase"],"p1":["generáramos","generásemos"],"p2":["generarais","generaseis"],"p3":["generaran","generasen"]},
     "SubFut": {"s1":["generare"],"s2":["generares"],"vos":["generares"],"s3":["generare"],"p1":["generáremos"],"p2":["generareis"],"p3":["generaren"]},
     "CmdPos": {"s2":["genera"],"vos":["generá"],"s3":["genere"],"p1":["generemos"],"p2":["generad"],"p3":["generen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["seduje"],"s2":["sedujiste"],"vos":["sedujiste"],"s3":["sedujo"],"p1":["sedujimos"],"p2":["sedujisteis"],"p3":["sedujeron"]},
     "IndFut": {"s1":["seduciré"],"s2":["seducirás"],"vos":["seducirás"],"s3":["seducirá"],"p1":["seduciremos"],"p2":["seduciréis"],"p3":["seducirán"]},
     "IndCond": {"s1":["seduciría"],"s2":["seducirías"],"vos":["seducirías"],"s3":["seduciría"],"p1":["seduciríamos"],"p2":["seduciríais"],"p3":["seducirían"]},
-    "SubPres": {"s1":["seduzca"],"s2":["seduzcas"],"vos":["seduzcas","seduzcás"],"s3":["seduzca"],"p1":["seduzcamos"],"p2":["seduzcáis"],"p3":["seduzcan"]},
+    "SubPres": {"s1":["seduzca"],"s2":["seduzcas"],"vos":[{"forma": "seduzcas","uso":"Riop."},{"forma":"seduzcás","uso":"C.Am."}],"s3":["seduzca"],"p1":["seduzcamos"],"p2":["seduzcáis"],"p3":["seduzcan"]},
     "SubImp": {"s1":["sedujera","sedujese"],"s2":["sedujeras","sedujeses"],"vos":["sedujeras","sedujeses"],"s3":["sedujera","sedujese"],"p1":["sedujéramos","sedujésemos"],"p2":["sedujerais","sedujeseis"],"p3":["sedujeran","sedujesen"]},
     "SubFut": {"s1":["sedujere"],"s2":["sedujeres"],"vos":["sedujeres"],"s3":["sedujere"],"p1":["sedujéremos"],"p2":["sedujereis"],"p3":["sedujeren"]},
     "CmdPos": {"s2":["seduce"],"vos":["seducí"],"s3":["seduzca"],"p1":["seduzcamos"],"p2":["seducid"],"p3":["seduzcan"]}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskaɾˈt̪aɾ]",
+    "silabacion": "des-car-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, carta y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descartar","gerundio":["descartando"],"participio":["descartado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descarto"],"s2":["descartas"],"vos":["descartás"],"s3":["descarta"],"p1":["descartamos"],"p2":["descartáis"],"p3":["descartan"]},
+    "IndImp": {"s1":["descartaba"],"s2":["descartabas"],"vos":["descartabas"],"s3":["descartaba"],"p1":["descartábamos"],"p2":["descartabais"],"p3":["descartaban"]},
+    "IndPret": {"s1":["descarté"],"s2":["descartaste"],"vos":["descartaste"],"s3":["descartó"],"p1":["descartamos"],"p2":["descartasteis"],"p3":["descartaron"]},
+    "IndFut": {"s1":["descartaré"],"s2":["descartarás"],"vos":["descartarás"],"s3":["descartará"],"p1":["descartaremos"],"p2":["descartaréis"],"p3":["descartarán"]},
+    "IndCond": {"s1":["descartaría"],"s2":["descartarías"],"vos":["descartarías"],"s3":["descartaría"],"p1":["descartaríamos"],"p2":["descartaríais"],"p3":["descartarían"]},
+    "SubPres": {"s1":["descarte"],"s2":["descartes"],"vos":["descartes","descartés"],"s3":["descarte"],"p1":["descartemos"],"p2":["descartéis"],"p3":["descarten"]},
+    "SubImp": {"s1":["descartara","descartase"],"s2":["descartaras","descartases"],"vos":["descartaras","descartases"],"s3":["descartara","descartase"],"p1":["descartáramos","descartásemos"],"p2":["descartarais","descartaseis"],"p3":["descartaran","descartasen"]},
+    "SubFut": {"s1":["descartare"],"s2":["descartares"],"vos":["descartares"],"s3":["descartare"],"p1":["descartáremos"],"p2":["descartareis"],"p3":["descartaren"]},
+    "CmdPos": {"s2":["descarta"],"vos":["descartá"],"s3":["descarte"],"p1":["descartemos"],"p2":["descartad"],"p3":["descarten"]}
+  }
+}

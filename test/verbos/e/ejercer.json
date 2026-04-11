@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ejercí"],"s2":["ejerciste"],"vos":["ejerciste"],"s3":["ejerció"],"p1":["ejercimos"],"p2":["ejercisteis"],"p3":["ejercieron"]},
     "IndFut": {"s1":["ejerceré"],"s2":["ejercerás"],"vos":["ejercerás"],"s3":["ejercerá"],"p1":["ejerceremos"],"p2":["ejerceréis"],"p3":["ejercerán"]},
     "IndCond": {"s1":["ejercería"],"s2":["ejercerías"],"vos":["ejercerías"],"s3":["ejercería"],"p1":["ejerceríamos"],"p2":["ejerceríais"],"p3":["ejercerían"]},
-    "SubPres": {"s1":["ejerza"],"s2":["ejerzas"],"vos":["ejerzas","ejerzás"],"s3":["ejerza"],"p1":["ejerzamos"],"p2":["ejerzáis"],"p3":["ejerzan"]},
+    "SubPres": {"s1":["ejerza"],"s2":["ejerzas"],"vos":[{"forma": "ejerzas","uso":"Riop."},{"forma":"ejerzás","uso":"C.Am."}],"s3":["ejerza"],"p1":["ejerzamos"],"p2":["ejerzáis"],"p3":["ejerzan"]},
     "SubImp": {"s1":["ejerciera","ejerciese"],"s2":["ejercieras","ejercieses"],"vos":["ejercieras","ejercieses"],"s3":["ejerciera","ejerciese"],"p1":["ejerciéramos","ejerciésemos"],"p2":["ejercierais","ejercieseis"],"p3":["ejercieran","ejerciesen"]},
     "SubFut": {"s1":["ejerciere"],"s2":["ejercieres"],"vos":["ejercieres"],"s3":["ejerciere"],"p1":["ejerciéremos"],"p2":["ejerciereis"],"p3":["ejercieren"]},
     "CmdPos": {"s2":["ejerce"],"vos":["ejercé"],"s3":["ejerza"],"p1":["ejerzamos"],"p2":["ejerced"],"p3":["ejerzan"]}

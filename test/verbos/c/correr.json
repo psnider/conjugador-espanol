@@ -13,7 +13,7 @@
     "IndPret": {"s1":["corrí"],"s2":["corriste"],"vos":["corriste"],"s3":["corrió"],"p1":["corrimos"],"p2":["corristeis"],"p3":["corrieron"]},
     "IndFut": {"s1":["correré"],"s2":["correrás"],"vos":["correrás"],"s3":["correrá"],"p1":["correremos"],"p2":["correréis"],"p3":["correrán"]},
     "IndCond": {"s1":["correría"],"s2":["correrías"],"vos":["correrías"],"s3":["correría"],"p1":["correríamos"],"p2":["correríais"],"p3":["correrían"]},
-    "SubPres": {"s1":["corra"],"s2":["corras"],"vos":["corras","corrás"],"s3":["corra"],"p1":["corramos"],"p2":["corráis"],"p3":["corran"]},
+    "SubPres": {"s1":["corra"],"s2":["corras"],"vos":[{"forma": "corras","uso":"Riop."},{"forma":"corrás","uso":"C.Am."}],"s3":["corra"],"p1":["corramos"],"p2":["corráis"],"p3":["corran"]},
     "SubImp": {"s1":["corriera","corriese"],"s2":["corrieras","corrieses"],"vos":["corrieras","corrieses"],"s3":["corriera","corriese"],"p1":["corriéramos","corriésemos"],"p2":["corrierais","corrieseis"],"p3":["corrieran","corriesen"]},
     "SubFut": {"s1":["corriere"],"s2":["corrieres"],"vos":["corrieres"],"s3":["corriere"],"p1":["corriéremos"],"p2":["corriereis"],"p3":["corrieren"]},
     "CmdPos": {"s2":["corre"],"vos":["corré"],"s3":["corra"],"p1":["corramos"],"p2":["corred"],"p3":["corran"]}

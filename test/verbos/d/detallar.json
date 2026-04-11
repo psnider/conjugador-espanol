@@ -13,7 +13,7 @@
     "IndPret": {"s1":["detallé"],"s2":["detallaste"],"vos":["detallaste"],"s3":["detalló"],"p1":["detallamos"],"p2":["detallasteis"],"p3":["detallaron"]},
     "IndFut": {"s1":["detallaré"],"s2":["detallarás"],"vos":["detallarás"],"s3":["detallará"],"p1":["detallaremos"],"p2":["detallaréis"],"p3":["detallarán"]},
     "IndCond": {"s1":["detallaría"],"s2":["detallarías"],"vos":["detallarías"],"s3":["detallaría"],"p1":["detallaríamos"],"p2":["detallaríais"],"p3":["detallarían"]},
-    "SubPres": {"s1":["detalle"],"s2":["detalles"],"vos":["detalles","detallés"],"s3":["detalle"],"p1":["detallemos"],"p2":["detalléis"],"p3":["detallen"]},
+    "SubPres": {"s1":["detalle"],"s2":["detalles"],"vos":[{"forma": "detalles","uso":"Riop."},{"forma":"detallés","uso":"C.Am."}],"s3":["detalle"],"p1":["detallemos"],"p2":["detalléis"],"p3":["detallen"]},
     "SubImp": {"s1":["detallara","detallase"],"s2":["detallaras","detallases"],"vos":["detallaras","detallases"],"s3":["detallara","detallase"],"p1":["detalláramos","detallásemos"],"p2":["detallarais","detallaseis"],"p3":["detallaran","detallasen"]},
     "SubFut": {"s1":["detallare"],"s2":["detallares"],"vos":["detallares"],"s3":["detallare"],"p1":["detalláremos"],"p2":["detallareis"],"p3":["detallaren"]},
     "CmdPos": {"s2":["detalla"],"vos":["detallá"],"s3":["detalle"],"p1":["detallemos"],"p2":["detallad"],"p3":["detallen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["asalté"],"s2":["asaltaste"],"vos":["asaltaste"],"s3":["asaltó"],"p1":["asaltamos"],"p2":["asaltasteis"],"p3":["asaltaron"]},
     "IndFut": {"s1":["asaltaré"],"s2":["asaltarás"],"vos":["asaltarás"],"s3":["asaltará"],"p1":["asaltaremos"],"p2":["asaltaréis"],"p3":["asaltarán"]},
     "IndCond": {"s1":["asaltaría"],"s2":["asaltarías"],"vos":["asaltarías"],"s3":["asaltaría"],"p1":["asaltaríamos"],"p2":["asaltaríais"],"p3":["asaltarían"]},
-    "SubPres": {"s1":["asalte"],"s2":["asaltes"],"vos":["asaltes","asaltés"],"s3":["asalte"],"p1":["asaltemos"],"p2":["asaltéis"],"p3":["asalten"]},
+    "SubPres": {"s1":["asalte"],"s2":["asaltes"],"vos":[{"forma": "asaltes","uso":"Riop."},{"forma":"asaltés","uso":"C.Am."}],"s3":["asalte"],"p1":["asaltemos"],"p2":["asaltéis"],"p3":["asalten"]},
     "SubImp": {"s1":["asaltara","asaltase"],"s2":["asaltaras","asaltases"],"vos":["asaltaras","asaltases"],"s3":["asaltara","asaltase"],"p1":["asaltáramos","asaltásemos"],"p2":["asaltarais","asaltaseis"],"p3":["asaltaran","asaltasen"]},
     "SubFut": {"s1":["asaltare"],"s2":["asaltares"],"vos":["asaltares"],"s3":["asaltare"],"p1":["asaltáremos"],"p2":["asaltareis"],"p3":["asaltaren"]},
     "CmdPos": {"s2":["asalta"],"vos":["asaltá"],"s3":["asalte"],"p1":["asaltemos"],"p2":["asaltad"],"p3":["asalten"]}

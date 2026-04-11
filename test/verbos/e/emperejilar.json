@@ -13,7 +13,7 @@
     "IndPret": {"s1":["emperejilé"],"s2":["emperejilaste"],"vos":["emperejilaste"],"s3":["emperejiló"],"p1":["emperejilamos"],"p2":["emperejilasteis"],"p3":["emperejilaron"]},
     "IndFut": {"s1":["emperejilaré"],"s2":["emperejilarás"],"vos":["emperejilarás"],"s3":["emperejilará"],"p1":["emperejilaremos"],"p2":["emperejilaréis"],"p3":["emperejilarán"]},
     "IndCond": {"s1":["emperejilaría"],"s2":["emperejilarías"],"vos":["emperejilarías"],"s3":["emperejilaría"],"p1":["emperejilaríamos"],"p2":["emperejilaríais"],"p3":["emperejilarían"]},
-    "SubPres": {"s1":["emperejile"],"s2":["emperejiles"],"vos":["emperejiles","emperejilés"],"s3":["emperejile"],"p1":["emperejilemos"],"p2":["emperejiléis"],"p3":["emperejilen"]},
+    "SubPres": {"s1":["emperejile"],"s2":["emperejiles"],"vos":[{"forma": "emperejiles","uso":"Riop."},{"forma":"emperejilés","uso":"C.Am."}],"s3":["emperejile"],"p1":["emperejilemos"],"p2":["emperejiléis"],"p3":["emperejilen"]},
     "SubImp": {"s1":["emperejilara","emperejilase"],"s2":["emperejilaras","emperejilases"],"vos":["emperejilaras","emperejilases"],"s3":["emperejilara","emperejilase"],"p1":["emperejiláramos","emperejilásemos"],"p2":["emperejilarais","emperejilaseis"],"p3":["emperejilaran","emperejilasen"]},
     "SubFut": {"s1":["emperejilare"],"s2":["emperejilares"],"vos":["emperejilares"],"s3":["emperejilare"],"p1":["emperejiláremos"],"p2":["emperejilareis"],"p3":["emperejilaren"]},
     "CmdPos": {"s2":["emperejila"],"vos":["emperejilá"],"s3":["emperejile"],"p1":["emperejilemos"],"p2":["emperejilad"],"p3":["emperejilen"]}

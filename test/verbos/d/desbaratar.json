@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desbaraté"],"s2":["desbarataste"],"vos":["desbarataste"],"s3":["desbarató"],"p1":["desbaratamos"],"p2":["desbaratasteis"],"p3":["desbarataron"]},
     "IndFut": {"s1":["desbarataré"],"s2":["desbaratarás"],"vos":["desbaratarás"],"s3":["desbaratará"],"p1":["desbarataremos"],"p2":["desbarataréis"],"p3":["desbaratarán"]},
     "IndCond": {"s1":["desbarataría"],"s2":["desbaratarías"],"vos":["desbaratarías"],"s3":["desbarataría"],"p1":["desbarataríamos"],"p2":["desbarataríais"],"p3":["desbaratarían"]},
-    "SubPres": {"s1":["desbarate"],"s2":["desbarates"],"vos":["desbarates","desbaratés"],"s3":["desbarate"],"p1":["desbaratemos"],"p2":["desbaratéis"],"p3":["desbaraten"]},
+    "SubPres": {"s1":["desbarate"],"s2":["desbarates"],"vos":[{"forma": "desbarates","uso":"Riop."},{"forma":"desbaratés","uso":"C.Am."}],"s3":["desbarate"],"p1":["desbaratemos"],"p2":["desbaratéis"],"p3":["desbaraten"]},
     "SubImp": {"s1":["desbaratara","desbaratase"],"s2":["desbarataras","desbaratases"],"vos":["desbarataras","desbaratases"],"s3":["desbaratara","desbaratase"],"p1":["desbaratáramos","desbaratásemos"],"p2":["desbaratarais","desbarataseis"],"p3":["desbarataran","desbaratasen"]},
     "SubFut": {"s1":["desbaratare"],"s2":["desbaratares"],"vos":["desbaratares"],"s3":["desbaratare"],"p1":["desbaratáremos"],"p2":["desbaratareis"],"p3":["desbarataren"]},
     "CmdPos": {"s2":["desbarata"],"vos":["desbaratá"],"s3":["desbarate"],"p1":["desbaratemos"],"p2":["desbaratad"],"p3":["desbaraten"]}

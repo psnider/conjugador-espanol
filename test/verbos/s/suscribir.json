@@ -13,7 +13,7 @@
     "IndPret": {"s1":["suscribí"],"s2":["suscribiste"],"vos":["suscribiste"],"s3":["suscribió"],"p1":["suscribimos"],"p2":["suscribisteis"],"p3":["suscribieron"]},
     "IndFut": {"s1":["suscribiré"],"s2":["suscribirás"],"vos":["suscribirás"],"s3":["suscribirá"],"p1":["suscribiremos"],"p2":["suscribiréis"],"p3":["suscribirán"]},
     "IndCond": {"s1":["suscribiría"],"s2":["suscribirías"],"vos":["suscribirías"],"s3":["suscribiría"],"p1":["suscribiríamos"],"p2":["suscribiríais"],"p3":["suscribirían"]},
-    "SubPres": {"s1":["suscriba"],"s2":["suscribas"],"vos":["suscribas","suscribás"],"s3":["suscriba"],"p1":["suscribamos"],"p2":["suscribáis"],"p3":["suscriban"]},
+    "SubPres": {"s1":["suscriba"],"s2":["suscribas"],"vos":[{"forma": "suscribas","uso":"Riop."},{"forma":"suscribás","uso":"C.Am."}],"s3":["suscriba"],"p1":["suscribamos"],"p2":["suscribáis"],"p3":["suscriban"]},
     "SubImp": {"s1":["suscribiera","suscribiese"],"s2":["suscribieras","suscribieses"],"vos":["suscribieras","suscribieses"],"s3":["suscribiera","suscribiese"],"p1":["suscribiéramos","suscribiésemos"],"p2":["suscribierais","suscribieseis"],"p3":["suscribieran","suscribiesen"]},
     "SubFut": {"s1":["suscribiere"],"s2":["suscribieres"],"vos":["suscribieres"],"s3":["suscribiere"],"p1":["suscribiéremos"],"p2":["suscribiereis"],"p3":["suscribieren"]},
     "CmdPos": {"s2":["suscribe"],"vos":["suscribí"],"s3":["suscriba"],"p1":["suscribamos"],"p2":["suscribid"],"p3":["suscriban"]}

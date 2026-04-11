@@ -12,7 +12,7 @@
     "IndPret": {"s1":["chirrié"],"s2":["chirriaste"],"vos":["chirriaste"],"s3":["chirrió"],"p1":["chirriamos"],"p2":["chirriasteis"],"p3":["chirriaron"]},
     "IndFut": {"s1":["chirriaré"],"s2":["chirriarás"],"vos":["chirriarás"],"s3":["chirriará"],"p1":["chirriaremos"],"p2":["chirriaréis"],"p3":["chirriarán"]},
     "IndCond": {"s1":["chirriaría"],"s2":["chirriarías"],"vos":["chirriarías"],"s3":["chirriaría"],"p1":["chirriaríamos"],"p2":["chirriaríais"],"p3":["chirriarían"]},
-    "SubPres": {"s1":["chirríe"],"s2":["chirríes"],"vos":["chirríes","chirriés"],"s3":["chirríe"],"p1":["chirriemos"],"p2":["chirriéis"],"p3":["chirríen"]},
+    "SubPres": {"s1":["chirríe"],"s2":["chirríes"],"vos":[{"forma": "chirríes","uso":"Riop."},{"forma":"chirriés","uso":"C.Am."}],"s3":["chirríe"],"p1":["chirriemos"],"p2":["chirriéis"],"p3":["chirríen"]},
     "SubImp": {"s1":["chirriara","chirriase"],"s2":["chirriaras","chirriases"],"vos":["chirriaras","chirriases"],"s3":["chirriara","chirriase"],"p1":["chirriáramos","chirriásemos"],"p2":["chirriarais","chirriaseis"],"p3":["chirriaran","chirriasen"]},
     "SubFut": {"s1":["chirriare"],"s2":["chirriares"],"vos":["chirriares"],"s3":["chirriare"],"p1":["chirriáremos"],"p2":["chirriareis"],"p3":["chirriaren"]},
     "CmdPos": {"s2":["chirría"],"vos":["chirriá"],"s3":["chirríe"],"p1":["chirriemos"],"p2":["chirriad"],"p3":["chirríen"]}

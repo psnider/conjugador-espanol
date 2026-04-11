@@ -13,7 +13,7 @@
     "IndPret": {"s1":["triangulé"],"s2":["triangulaste"],"vos":["triangulaste"],"s3":["trianguló"],"p1":["triangulamos"],"p2":["triangulasteis"],"p3":["triangularon"]},
     "IndFut": {"s1":["triangularé"],"s2":["triangularás"],"vos":["triangularás"],"s3":["triangulará"],"p1":["triangularemos"],"p2":["triangularéis"],"p3":["triangularán"]},
     "IndCond": {"s1":["triangularía"],"s2":["triangularías"],"vos":["triangularías"],"s3":["triangularía"],"p1":["triangularíamos"],"p2":["triangularíais"],"p3":["triangularían"]},
-    "SubPres": {"s1":["triangule"],"s2":["triangules"],"vos":["triangules","triangulés"],"s3":["triangule"],"p1":["triangulemos"],"p2":["trianguléis"],"p3":["triangulen"]},
+    "SubPres": {"s1":["triangule"],"s2":["triangules"],"vos":[{"forma": "triangules","uso":"Riop."},{"forma":"triangulés","uso":"C.Am."}],"s3":["triangule"],"p1":["triangulemos"],"p2":["trianguléis"],"p3":["triangulen"]},
     "SubImp": {"s1":["triangulara","triangulase"],"s2":["triangularas","triangulases"],"vos":["triangularas","triangulases"],"s3":["triangulara","triangulase"],"p1":["trianguláramos","triangulásemos"],"p2":["triangularais","triangulaseis"],"p3":["triangularan","triangulasen"]},
     "SubFut": {"s1":["triangulare"],"s2":["triangulares"],"vos":["triangulares"],"s3":["triangulare"],"p1":["trianguláremos"],"p2":["triangulareis"],"p3":["triangularen"]},
     "CmdPos": {"s2":["triangula"],"vos":["triangulá"],"s3":["triangule"],"p1":["triangulemos"],"p2":["triangulad"],"p3":["triangulen"]}

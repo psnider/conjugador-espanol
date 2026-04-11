@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cené"],"s2":["cenaste"],"vos":["cenaste"],"s3":["cenó"],"p1":["cenamos"],"p2":["cenasteis"],"p3":["cenaron"]},
     "IndFut": {"s1":["cenaré"],"s2":["cenarás"],"vos":["cenarás"],"s3":["cenará"],"p1":["cenaremos"],"p2":["cenaréis"],"p3":["cenarán"]},
     "IndCond": {"s1":["cenaría"],"s2":["cenarías"],"vos":["cenarías"],"s3":["cenaría"],"p1":["cenaríamos"],"p2":["cenaríais"],"p3":["cenarían"]},
-    "SubPres": {"s1":["cene"],"s2":["cenes"],"vos":["cenes","cenés"],"s3":["cene"],"p1":["cenemos"],"p2":["cenéis"],"p3":["cenen"]},
+    "SubPres": {"s1":["cene"],"s2":["cenes"],"vos":[{"forma": "cenes","uso":"Riop."},{"forma":"cenés","uso":"C.Am."}],"s3":["cene"],"p1":["cenemos"],"p2":["cenéis"],"p3":["cenen"]},
     "SubImp": {"s1":["cenara","cenase"],"s2":["cenaras","cenases"],"vos":["cenaras","cenases"],"s3":["cenara","cenase"],"p1":["cenáramos","cenásemos"],"p2":["cenarais","cenaseis"],"p3":["cenaran","cenasen"]},
     "SubFut": {"s1":["cenare"],"s2":["cenares"],"vos":["cenares"],"s3":["cenare"],"p1":["cenáremos"],"p2":["cenareis"],"p3":["cenaren"]},
     "CmdPos": {"s2":["cena"],"vos":["cená"],"s3":["cene"],"p1":["cenemos"],"p2":["cenad"],"p3":["cenen"]}

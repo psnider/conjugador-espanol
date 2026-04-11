@@ -13,7 +13,7 @@
     "IndPret": {"s1":["consolé"],"s2":["consolaste"],"vos":["consolaste"],"s3":["consoló"],"p1":["consolamos"],"p2":["consolasteis"],"p3":["consolaron"]},
     "IndFut": {"s1":["consolaré"],"s2":["consolarás"],"vos":["consolarás"],"s3":["consolará"],"p1":["consolaremos"],"p2":["consolaréis"],"p3":["consolarán"]},
     "IndCond": {"s1":["consolaría"],"s2":["consolarías"],"vos":["consolarías"],"s3":["consolaría"],"p1":["consolaríamos"],"p2":["consolaríais"],"p3":["consolarían"]},
-    "SubPres": {"s1":["consuele"],"s2":["consueles"],"vos":["consueles","consolés"],"s3":["consuele"],"p1":["consolemos"],"p2":["consoléis"],"p3":["consuelen"]},
+    "SubPres": {"s1":["consuele"],"s2":["consueles"],"vos":[{"forma": "consueles","uso":"Riop."},{"forma":"consolés","uso":"C.Am."}],"s3":["consuele"],"p1":["consolemos"],"p2":["consoléis"],"p3":["consuelen"]},
     "SubImp": {"s1":["consolara","consolase"],"s2":["consolaras","consolases"],"vos":["consolaras","consolases"],"s3":["consolara","consolase"],"p1":["consoláramos","consolásemos"],"p2":["consolarais","consolaseis"],"p3":["consolaran","consolasen"]},
     "SubFut": {"s1":["consolare"],"s2":["consolares"],"vos":["consolares"],"s3":["consolare"],"p1":["consoláremos"],"p2":["consolareis"],"p3":["consolaren"]},
     "CmdPos": {"s2":["consuela"],"vos":["consolá"],"s3":["consuele"],"p1":["consolemos"],"p2":["consolad"],"p3":["consuelen"]}

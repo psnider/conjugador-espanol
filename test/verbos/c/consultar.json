@@ -13,7 +13,7 @@
     "IndPret": {"s1":["consulté"],"s2":["consultaste"],"vos":["consultaste"],"s3":["consultó"],"p1":["consultamos"],"p2":["consultasteis"],"p3":["consultaron"]},
     "IndFut": {"s1":["consultaré"],"s2":["consultarás"],"vos":["consultarás"],"s3":["consultará"],"p1":["consultaremos"],"p2":["consultaréis"],"p3":["consultarán"]},
     "IndCond": {"s1":["consultaría"],"s2":["consultarías"],"vos":["consultarías"],"s3":["consultaría"],"p1":["consultaríamos"],"p2":["consultaríais"],"p3":["consultarían"]},
-    "SubPres": {"s1":["consulte"],"s2":["consultes"],"vos":["consultes","consultés"],"s3":["consulte"],"p1":["consultemos"],"p2":["consultéis"],"p3":["consulten"]},
+    "SubPres": {"s1":["consulte"],"s2":["consultes"],"vos":[{"forma": "consultes","uso":"Riop."},{"forma":"consultés","uso":"C.Am."}],"s3":["consulte"],"p1":["consultemos"],"p2":["consultéis"],"p3":["consulten"]},
     "SubImp": {"s1":["consultara","consultase"],"s2":["consultaras","consultases"],"vos":["consultaras","consultases"],"s3":["consultara","consultase"],"p1":["consultáramos","consultásemos"],"p2":["consultarais","consultaseis"],"p3":["consultaran","consultasen"]},
     "SubFut": {"s1":["consultare"],"s2":["consultares"],"vos":["consultares"],"s3":["consultare"],"p1":["consultáremos"],"p2":["consultareis"],"p3":["consultaren"]},
     "CmdPos": {"s2":["consulta"],"vos":["consultá"],"s3":["consulte"],"p1":["consultemos"],"p2":["consultad"],"p3":["consulten"]}

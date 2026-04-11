@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arruiné"],"s2":["arruinaste"],"vos":["arruinaste"],"s3":["arruinó"],"p1":["arruinamos"],"p2":["arruinasteis"],"p3":["arruinaron"]},
     "IndFut": {"s1":["arruinaré"],"s2":["arruinarás"],"vos":["arruinarás"],"s3":["arruinará"],"p1":["arruinaremos"],"p2":["arruinaréis"],"p3":["arruinarán"]},
     "IndCond": {"s1":["arruinaría"],"s2":["arruinarías"],"vos":["arruinarías"],"s3":["arruinaría"],"p1":["arruinaríamos"],"p2":["arruinaríais"],"p3":["arruinarían"]},
-    "SubPres": {"s1":["arruine"],"s2":["arruines"],"vos":["arruines","arruinés"],"s3":["arruine"],"p1":["arruinemos"],"p2":["arruinéis"],"p3":["arruinen"]},
+    "SubPres": {"s1":["arruine"],"s2":["arruines"],"vos":[{"forma": "arruines","uso":"Riop."},{"forma":"arruinés","uso":"C.Am."}],"s3":["arruine"],"p1":["arruinemos"],"p2":["arruinéis"],"p3":["arruinen"]},
     "SubImp": {"s1":["arruinara","arruinase"],"s2":["arruinaras","arruinases"],"vos":["arruinaras","arruinases"],"s3":["arruinara","arruinase"],"p1":["arruináramos","arruinásemos"],"p2":["arruinarais","arruinaseis"],"p3":["arruinaran","arruinasen"]},
     "SubFut": {"s1":["arruinare"],"s2":["arruinares"],"vos":["arruinares"],"s3":["arruinare"],"p1":["arruináremos"],"p2":["arruinareis"],"p3":["arruinaren"]},
     "CmdPos": {"s2":["arruina"],"vos":["arruiná"],"s3":["arruine"],"p1":["arruinemos"],"p2":["arruinad"],"p3":["arruinen"]}

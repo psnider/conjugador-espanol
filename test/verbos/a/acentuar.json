@@ -12,7 +12,7 @@
     "IndPret": {"s1":["acentué"],"s2":["acentuaste"],"vos":["acentuaste"],"s3":["acentuó"],"p1":["acentuamos"],"p2":["acentuasteis"],"p3":["acentuaron"]},
     "IndFut": {"s1":["acentuaré"],"s2":["acentuarás"],"vos":["acentuarás"],"s3":["acentuará"],"p1":["acentuaremos"],"p2":["acentuaréis"],"p3":["acentuarán"]},
     "IndCond": {"s1":["acentuaría"],"s2":["acentuarías"],"vos":["acentuarías"],"s3":["acentuaría"],"p1":["acentuaríamos"],"p2":["acentuaríais"],"p3":["acentuarían"]},
-    "SubPres": {"s1":["acentúe"],"s2":["acentúes"],"vos":["acentúes","acentués"],"s3":["acentúe"],"p1":["acentuemos"],"p2":["acentuéis"],"p3":["acentúen"]},
+    "SubPres": {"s1":["acentúe"],"s2":["acentúes"],"vos":[{"forma": "acentúes","uso":"Riop."},{"forma":"acentués","uso":"C.Am."}],"s3":["acentúe"],"p1":["acentuemos"],"p2":["acentuéis"],"p3":["acentúen"]},
     "SubImp": {"s1":["acentuara","acentuase"],"s2":["acentuaras","acentuases"],"vos":["acentuaras","acentuases"],"s3":["acentuara","acentuase"],"p1":["acentuáramos","acentuásemos"],"p2":["acentuarais","acentuaseis"],"p3":["acentuaran","acentuasen"]},
     "SubFut": {"s1":["acentuare"],"s2":["acentuares"],"vos":["acentuares"],"s3":["acentuare"],"p1":["acentuáremos"],"p2":["acentuareis"],"p3":["acentuaren"]},
     "CmdPos": {"s2":["acentúa"],"vos":["acentuá"],"s3":["acentúe"],"p1":["acentuemos"],"p2":["acentuad"],"p3":["acentúen"]}

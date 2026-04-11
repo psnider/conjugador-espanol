@@ -12,7 +12,7 @@
     "IndPret": {"s1":["restituí"],"s2":["restituiste"],"vos":["restituiste"],"s3":["restituyó"],"p1":["restituimos"],"p2":["restituisteis"],"p3":["restituyeron"]},
     "IndFut": {"s1":["restituiré"],"s2":["restituirás"],"vos":["restituirás"],"s3":["restituirá"],"p1":["restituiremos"],"p2":["restituiréis"],"p3":["restituirán"]},
     "IndCond": {"s1":["restituiría"],"s2":["restituirías"],"vos":["restituirías"],"s3":["restituiría"],"p1":["restituiríamos"],"p2":["restituiríais"],"p3":["restituirían"]},
-    "SubPres": {"s1":["restituya"],"s2":["restituyas"],"vos":["restituyas","restituyás"],"s3":["restituya"],"p1":["restituyamos"],"p2":["restituyáis"],"p3":["restituyan"]},
+    "SubPres": {"s1":["restituya"],"s2":["restituyas"],"vos":[{"forma": "restituyas","uso":"Riop."},{"forma":"restituyás","uso":"C.Am."}],"s3":["restituya"],"p1":["restituyamos"],"p2":["restituyáis"],"p3":["restituyan"]},
     "SubImp": {"s1":["restituyera","restituyese"],"s2":["restituyeras","restituyeses"],"vos":["restituyeras","restituyeses"],"s3":["restituyera","restituyese"],"p1":["restituyéramos","restituyésemos"],"p2":["restituyerais","restituyeseis"],"p3":["restituyeran","restituyesen"]},
     "SubFut": {"s1":["restituyere"],"s2":["restituyeres"],"vos":["restituyeres"],"s3":["restituyere"],"p1":["restituyéremos"],"p2":["restituyereis"],"p3":["restituyeren"]},
     "CmdPos": {"s2":["restituye"],"vos":["restituí"],"s3":["restituya"],"p1":["restituyamos"],"p2":["restituid"],"p3":["restituyan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["regalé"],"s2":["regalaste"],"vos":["regalaste"],"s3":["regaló"],"p1":["regalamos"],"p2":["regalasteis"],"p3":["regalaron"]},
     "IndFut": {"s1":["regalaré"],"s2":["regalarás"],"vos":["regalarás"],"s3":["regalará"],"p1":["regalaremos"],"p2":["regalaréis"],"p3":["regalarán"]},
     "IndCond": {"s1":["regalaría"],"s2":["regalarías"],"vos":["regalarías"],"s3":["regalaría"],"p1":["regalaríamos"],"p2":["regalaríais"],"p3":["regalarían"]},
-    "SubPres": {"s1":["regale"],"s2":["regales"],"vos":["regales","regalés"],"s3":["regale"],"p1":["regalemos"],"p2":["regaléis"],"p3":["regalen"]},
+    "SubPres": {"s1":["regale"],"s2":["regales"],"vos":[{"forma": "regales","uso":"Riop."},{"forma":"regalés","uso":"C.Am."}],"s3":["regale"],"p1":["regalemos"],"p2":["regaléis"],"p3":["regalen"]},
     "SubImp": {"s1":["regalara","regalase"],"s2":["regalaras","regalases"],"vos":["regalaras","regalases"],"s3":["regalara","regalase"],"p1":["regaláramos","regalásemos"],"p2":["regalarais","regalaseis"],"p3":["regalaran","regalasen"]},
     "SubFut": {"s1":["regalare"],"s2":["regalares"],"vos":["regalares"],"s3":["regalare"],"p1":["regaláremos"],"p2":["regalareis"],"p3":["regalaren"]},
     "CmdPos": {"s2":["regala"],"vos":["regalá"],"s3":["regale"],"p1":["regalemos"],"p2":["regalad"],"p3":["regalen"]}

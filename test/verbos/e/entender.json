@@ -13,7 +13,7 @@
     "IndPret": {"s1":["entendí"],"s2":["entendiste"],"vos":["entendiste"],"s3":["entendió"],"p1":["entendimos"],"p2":["entendisteis"],"p3":["entendieron"]},
     "IndFut": {"s1":["entenderé"],"s2":["entenderás"],"vos":["entenderás"],"s3":["entenderá"],"p1":["entenderemos"],"p2":["entenderéis"],"p3":["entenderán"]},
     "IndCond": {"s1":["entendería"],"s2":["entenderías"],"vos":["entenderías"],"s3":["entendería"],"p1":["entenderíamos"],"p2":["entenderíais"],"p3":["entenderían"]},
-    "SubPres": {"s1":["entienda"],"s2":["entiendas"],"vos":["entiendas","entendás"],"s3":["entienda"],"p1":["entendamos"],"p2":["entendáis"],"p3":["entiendan"]},
+    "SubPres": {"s1":["entienda"],"s2":["entiendas"],"vos":[{"forma": "entiendas","uso":"Riop."},{"forma":"entendás","uso":"C.Am."}],"s3":["entienda"],"p1":["entendamos"],"p2":["entendáis"],"p3":["entiendan"]},
     "SubImp": {"s1":["entendiera","entendiese"],"s2":["entendieras","entendieses"],"vos":["entendieras","entendieses"],"s3":["entendiera","entendiese"],"p1":["entendiéramos","entendiésemos"],"p2":["entendierais","entendieseis"],"p3":["entendieran","entendiesen"]},
     "SubFut": {"s1":["entendiere"],"s2":["entendieres"],"vos":["entendieres"],"s3":["entendiere"],"p1":["entendiéremos"],"p2":["entendiereis"],"p3":["entendieren"]},
     "CmdPos": {"s2":["entiende"],"vos":["entendé"],"s3":["entienda"],"p1":["entendamos"],"p2":["entended"],"p3":["entiendan"]}

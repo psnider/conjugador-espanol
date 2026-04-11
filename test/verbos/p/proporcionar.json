@@ -13,7 +13,7 @@
     "IndPret": {"s1":["proporcioné"],"s2":["proporcionaste"],"vos":["proporcionaste"],"s3":["proporcionó"],"p1":["proporcionamos"],"p2":["proporcionasteis"],"p3":["proporcionaron"]},
     "IndFut": {"s1":["proporcionaré"],"s2":["proporcionarás"],"vos":["proporcionarás"],"s3":["proporcionará"],"p1":["proporcionaremos"],"p2":["proporcionaréis"],"p3":["proporcionarán"]},
     "IndCond": {"s1":["proporcionaría"],"s2":["proporcionarías"],"vos":["proporcionarías"],"s3":["proporcionaría"],"p1":["proporcionaríamos"],"p2":["proporcionaríais"],"p3":["proporcionarían"]},
-    "SubPres": {"s1":["proporcione"],"s2":["proporciones"],"vos":["proporciones","proporcionés"],"s3":["proporcione"],"p1":["proporcionemos"],"p2":["proporcionéis"],"p3":["proporcionen"]},
+    "SubPres": {"s1":["proporcione"],"s2":["proporciones"],"vos":[{"forma": "proporciones","uso":"Riop."},{"forma":"proporcionés","uso":"C.Am."}],"s3":["proporcione"],"p1":["proporcionemos"],"p2":["proporcionéis"],"p3":["proporcionen"]},
     "SubImp": {"s1":["proporcionara","proporcionase"],"s2":["proporcionaras","proporcionases"],"vos":["proporcionaras","proporcionases"],"s3":["proporcionara","proporcionase"],"p1":["proporcionáramos","proporcionásemos"],"p2":["proporcionarais","proporcionaseis"],"p3":["proporcionaran","proporcionasen"]},
     "SubFut": {"s1":["proporcionare"],"s2":["proporcionares"],"vos":["proporcionares"],"s3":["proporcionare"],"p1":["proporcionáremos"],"p2":["proporcionareis"],"p3":["proporcionaren"]},
     "CmdPos": {"s2":["proporciona"],"vos":["proporcioná"],"s3":["proporcione"],"p1":["proporcionemos"],"p2":["proporcionad"],"p3":["proporcionen"]}

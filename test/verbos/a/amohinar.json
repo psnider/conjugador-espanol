@@ -13,7 +13,7 @@
     "IndPret": {"s1":["amohiné"],"s2":["amohinaste"],"vos":["amohinaste"],"s3":["amohinó"],"p1":["amohinamos"],"p2":["amohinasteis"],"p3":["amohinaron"]},
     "IndFut": {"s1":["amohinaré"],"s2":["amohinarás"],"vos":["amohinarás"],"s3":["amohinará"],"p1":["amohinaremos"],"p2":["amohinaréis"],"p3":["amohinarán"]},
     "IndCond": {"s1":["amohinaría"],"s2":["amohinarías"],"vos":["amohinarías"],"s3":["amohinaría"],"p1":["amohinaríamos"],"p2":["amohinaríais"],"p3":["amohinarían"]},
-    "SubPres": {"s1":["amohíne"],"s2":["amohínes"],"vos":["amohínes","amohinés"],"s3":["amohíne"],"p1":["amohinemos"],"p2":["amohinéis"],"p3":["amohínen"]},
+    "SubPres": {"s1":["amohíne"],"s2":["amohínes"],"vos":[{"forma": "amohínes","uso":"Riop."},{"forma":"amohinés","uso":"C.Am."}],"s3":["amohíne"],"p1":["amohinemos"],"p2":["amohinéis"],"p3":["amohínen"]},
     "SubImp": {"s1":["amohinara","amohinase"],"s2":["amohinaras","amohinases"],"vos":["amohinaras","amohinases"],"s3":["amohinara","amohinase"],"p1":["amohináramos","amohinásemos"],"p2":["amohinarais","amohinaseis"],"p3":["amohinaran","amohinasen"]},
     "SubFut": {"s1":["amohinare"],"s2":["amohinares"],"vos":["amohinares"],"s3":["amohinare"],"p1":["amohináremos"],"p2":["amohinareis"],"p3":["amohinaren"]},
     "CmdPos": {"s2":["amohína"],"vos":["amohiná"],"s3":["amohíne"],"p1":["amohinemos"],"p2":["amohinad"],"p3":["amohínen"]}

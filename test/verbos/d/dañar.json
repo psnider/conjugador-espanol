@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dañé"],"s2":["dañaste"],"vos":["dañaste"],"s3":["dañó"],"p1":["dañamos"],"p2":["dañasteis"],"p3":["dañaron"]},
     "IndFut": {"s1":["dañaré"],"s2":["dañarás"],"vos":["dañarás"],"s3":["dañará"],"p1":["dañaremos"],"p2":["dañaréis"],"p3":["dañarán"]},
     "IndCond": {"s1":["dañaría"],"s2":["dañarías"],"vos":["dañarías"],"s3":["dañaría"],"p1":["dañaríamos"],"p2":["dañaríais"],"p3":["dañarían"]},
-    "SubPres": {"s1":["dañe"],"s2":["dañes"],"vos":["dañes","dañés"],"s3":["dañe"],"p1":["dañemos"],"p2":["dañéis"],"p3":["dañen"]},
+    "SubPres": {"s1":["dañe"],"s2":["dañes"],"vos":[{"forma": "dañes","uso":"Riop."},{"forma":"dañés","uso":"C.Am."}],"s3":["dañe"],"p1":["dañemos"],"p2":["dañéis"],"p3":["dañen"]},
     "SubImp": {"s1":["dañara","dañase"],"s2":["dañaras","dañases"],"vos":["dañaras","dañases"],"s3":["dañara","dañase"],"p1":["dañáramos","dañásemos"],"p2":["dañarais","dañaseis"],"p3":["dañaran","dañasen"]},
     "SubFut": {"s1":["dañare"],"s2":["dañares"],"vos":["dañares"],"s3":["dañare"],"p1":["dañáremos"],"p2":["dañareis"],"p3":["dañaren"]},
     "CmdPos": {"s2":["daña"],"vos":["dañá"],"s3":["dañe"],"p1":["dañemos"],"p2":["dañad"],"p3":["dañen"]}

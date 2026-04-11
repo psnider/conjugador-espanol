@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reconocí"],"s2":["reconociste"],"vos":["reconociste"],"s3":["reconoció"],"p1":["reconocimos"],"p2":["reconocisteis"],"p3":["reconocieron"]},
     "IndFut": {"s1":["reconoceré"],"s2":["reconocerás"],"vos":["reconocerás"],"s3":["reconocerá"],"p1":["reconoceremos"],"p2":["reconoceréis"],"p3":["reconocerán"]},
     "IndCond": {"s1":["reconocería"],"s2":["reconocerías"],"vos":["reconocerías"],"s3":["reconocería"],"p1":["reconoceríamos"],"p2":["reconoceríais"],"p3":["reconocerían"]},
-    "SubPres": {"s1":["reconozca"],"s2":["reconozcas"],"vos":["reconozcas","reconozcás"],"s3":["reconozca"],"p1":["reconozcamos"],"p2":["reconozcáis"],"p3":["reconozcan"]},
+    "SubPres": {"s1":["reconozca"],"s2":["reconozcas"],"vos":[{"forma": "reconozcas","uso":"Riop."},{"forma":"reconozcás","uso":"C.Am."}],"s3":["reconozca"],"p1":["reconozcamos"],"p2":["reconozcáis"],"p3":["reconozcan"]},
     "SubImp": {"s1":["reconociera","reconociese"],"s2":["reconocieras","reconocieses"],"vos":["reconocieras","reconocieses"],"s3":["reconociera","reconociese"],"p1":["reconociéramos","reconociésemos"],"p2":["reconocierais","reconocieseis"],"p3":["reconocieran","reconociesen"]},
     "SubFut": {"s1":["reconociere"],"s2":["reconocieres"],"vos":["reconocieres"],"s3":["reconociere"],"p1":["reconociéremos"],"p2":["reconociereis"],"p3":["reconocieren"]},
     "CmdPos": {"s2":["reconoce"],"vos":["reconocé"],"s3":["reconozca"],"p1":["reconozcamos"],"p2":["reconoced"],"p3":["reconozcan"]}

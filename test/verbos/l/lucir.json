@@ -13,7 +13,7 @@
     "IndPret": {"s1":["lucí"],"s2":["luciste"],"vos":["luciste"],"s3":["lució"],"p1":["lucimos"],"p2":["lucisteis"],"p3":["lucieron"]},
     "IndFut": {"s1":["luciré"],"s2":["lucirás"],"vos":["lucirás"],"s3":["lucirá"],"p1":["luciremos"],"p2":["luciréis"],"p3":["lucirán"]},
     "IndCond": {"s1":["luciría"],"s2":["lucirías"],"vos":["lucirías"],"s3":["luciría"],"p1":["luciríamos"],"p2":["luciríais"],"p3":["lucirían"]},
-    "SubPres": {"s1":["luzca"],"s2":["luzcas"],"vos":["luzcas","luzcás"],"s3":["luzca"],"p1":["luzcamos"],"p2":["luzcáis"],"p3":["luzcan"]},
+    "SubPres": {"s1":["luzca"],"s2":["luzcas"],"vos":[{"forma": "luzcas","uso":"Riop."},{"forma":"luzcás","uso":"C.Am."}],"s3":["luzca"],"p1":["luzcamos"],"p2":["luzcáis"],"p3":["luzcan"]},
     "SubImp": {"s1":["luciera","luciese"],"s2":["lucieras","lucieses"],"vos":["lucieras","lucieses"],"s3":["luciera","luciese"],"p1":["luciéramos","luciésemos"],"p2":["lucierais","lucieseis"],"p3":["lucieran","luciesen"]},
     "SubFut": {"s1":["luciere"],"s2":["lucieres"],"vos":["lucieres"],"s3":["luciere"],"p1":["luciéremos"],"p2":["luciereis"],"p3":["lucieren"]},
     "CmdPos": {"s2":["luce"],"vos":["lucí"],"s3":["luzca"],"p1":["luzcamos"],"p2":["lucid"],"p3":["luzcan"]}

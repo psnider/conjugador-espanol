@@ -13,7 +13,7 @@
     "IndPret": {"s1":["fregué"],"s2":["fregaste"],"vos":["fregaste"],"s3":["fregó"],"p1":["fregamos"],"p2":["fregasteis"],"p3":["fregaron"]},
     "IndFut": {"s1":["fregaré"],"s2":["fregarás"],"vos":["fregarás"],"s3":["fregará"],"p1":["fregaremos"],"p2":["fregaréis"],"p3":["fregarán"]},
     "IndCond": {"s1":["fregaría"],"s2":["fregarías"],"vos":["fregarías"],"s3":["fregaría"],"p1":["fregaríamos"],"p2":["fregaríais"],"p3":["fregarían"]},
-    "SubPres": {"s1":["friegue"],"s2":["friegues"],"vos":["friegues","fregués"],"s3":["friegue"],"p1":["freguemos"],"p2":["freguéis"],"p3":["frieguen"]},
+    "SubPres": {"s1":["friegue"],"s2":["friegues"],"vos":[{"forma": "friegues","uso":"Riop."},{"forma":"fregués","uso":"C.Am."}],"s3":["friegue"],"p1":["freguemos"],"p2":["freguéis"],"p3":["frieguen"]},
     "SubImp": {"s1":["fregara","fregase"],"s2":["fregaras","fregases"],"vos":["fregaras","fregases"],"s3":["fregara","fregase"],"p1":["fregáramos","fregásemos"],"p2":["fregarais","fregaseis"],"p3":["fregaran","fregasen"]},
     "SubFut": {"s1":["fregare"],"s2":["fregares"],"vos":["fregares"],"s3":["fregare"],"p1":["fregáremos"],"p2":["fregareis"],"p3":["fregaren"]},
     "CmdPos": {"s2":["friega"],"vos":["fregá"],"s3":["friegue"],"p1":["freguemos"],"p2":["fregad"],"p3":["frieguen"]}

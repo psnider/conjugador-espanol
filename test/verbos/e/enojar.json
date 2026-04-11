@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enojé"],"s2":["enojaste"],"vos":["enojaste"],"s3":["enojó"],"p1":["enojamos"],"p2":["enojasteis"],"p3":["enojaron"]},
     "IndFut": {"s1":["enojaré"],"s2":["enojarás"],"vos":["enojarás"],"s3":["enojará"],"p1":["enojaremos"],"p2":["enojaréis"],"p3":["enojarán"]},
     "IndCond": {"s1":["enojaría"],"s2":["enojarías"],"vos":["enojarías"],"s3":["enojaría"],"p1":["enojaríamos"],"p2":["enojaríais"],"p3":["enojarían"]},
-    "SubPres": {"s1":["enoje"],"s2":["enojes"],"vos":["enojes","enojés"],"s3":["enoje"],"p1":["enojemos"],"p2":["enojéis"],"p3":["enojen"]},
+    "SubPres": {"s1":["enoje"],"s2":["enojes"],"vos":[{"forma": "enojes","uso":"Riop."},{"forma":"enojés","uso":"C.Am."}],"s3":["enoje"],"p1":["enojemos"],"p2":["enojéis"],"p3":["enojen"]},
     "SubImp": {"s1":["enojara","enojase"],"s2":["enojaras","enojases"],"vos":["enojaras","enojases"],"s3":["enojara","enojase"],"p1":["enojáramos","enojásemos"],"p2":["enojarais","enojaseis"],"p3":["enojaran","enojasen"]},
     "SubFut": {"s1":["enojare"],"s2":["enojares"],"vos":["enojares"],"s3":["enojare"],"p1":["enojáremos"],"p2":["enojareis"],"p3":["enojaren"]},
     "CmdPos": {"s2":["enoja"],"vos":["enojá"],"s3":["enoje"],"p1":["enojemos"],"p2":["enojad"],"p3":["enojen"]}

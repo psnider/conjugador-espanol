@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conmoví"],"s2":["conmoviste"],"vos":["conmoviste"],"s3":["conmovió"],"p1":["conmovimos"],"p2":["conmovisteis"],"p3":["conmovieron"]},
     "IndFut": {"s1":["conmoveré"],"s2":["conmoverás"],"vos":["conmoverás"],"s3":["conmoverá"],"p1":["conmoveremos"],"p2":["conmoveréis"],"p3":["conmoverán"]},
     "IndCond": {"s1":["conmovería"],"s2":["conmoverías"],"vos":["conmoverías"],"s3":["conmovería"],"p1":["conmoveríamos"],"p2":["conmoveríais"],"p3":["conmoverían"]},
-    "SubPres": {"s1":["conmueva"],"s2":["conmuevas"],"vos":["conmuevas","conmovás"],"s3":["conmueva"],"p1":["conmovamos"],"p2":["conmováis"],"p3":["conmuevan"]},
+    "SubPres": {"s1":["conmueva"],"s2":["conmuevas"],"vos":[{"forma": "conmuevas","uso":"Riop."},{"forma":"conmovás","uso":"C.Am."}],"s3":["conmueva"],"p1":["conmovamos"],"p2":["conmováis"],"p3":["conmuevan"]},
     "SubImp": {"s1":["conmoviera","conmoviese"],"s2":["conmovieras","conmovieses"],"vos":["conmovieras","conmovieses"],"s3":["conmoviera","conmoviese"],"p1":["conmoviéramos","conmoviésemos"],"p2":["conmovierais","conmovieseis"],"p3":["conmovieran","conmoviesen"]},
     "SubFut": {"s1":["conmoviere"],"s2":["conmovieres"],"vos":["conmovieres"],"s3":["conmoviere"],"p1":["conmoviéremos"],"p2":["conmoviereis"],"p3":["conmovieren"]},
     "CmdPos": {"s2":["conmueve"],"vos":["conmové"],"s3":["conmueva"],"p1":["conmovamos"],"p2":["conmoved"],"p3":["conmuevan"]}

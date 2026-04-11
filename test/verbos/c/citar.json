@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cité"],"s2":["citaste"],"vos":["citaste"],"s3":["citó"],"p1":["citamos"],"p2":["citasteis"],"p3":["citaron"]},
     "IndFut": {"s1":["citaré"],"s2":["citarás"],"vos":["citarás"],"s3":["citará"],"p1":["citaremos"],"p2":["citaréis"],"p3":["citarán"]},
     "IndCond": {"s1":["citaría"],"s2":["citarías"],"vos":["citarías"],"s3":["citaría"],"p1":["citaríamos"],"p2":["citaríais"],"p3":["citarían"]},
-    "SubPres": {"s1":["cite"],"s2":["cites"],"vos":["cites","cités"],"s3":["cite"],"p1":["citemos"],"p2":["citéis"],"p3":["citen"]},
+    "SubPres": {"s1":["cite"],"s2":["cites"],"vos":[{"forma": "cites","uso":"Riop."},{"forma":"cités","uso":"C.Am."}],"s3":["cite"],"p1":["citemos"],"p2":["citéis"],"p3":["citen"]},
     "SubImp": {"s1":["citara","citase"],"s2":["citaras","citases"],"vos":["citaras","citases"],"s3":["citara","citase"],"p1":["citáramos","citásemos"],"p2":["citarais","citaseis"],"p3":["citaran","citasen"]},
     "SubFut": {"s1":["citare"],"s2":["citares"],"vos":["citares"],"s3":["citare"],"p1":["citáremos"],"p2":["citareis"],"p3":["citaren"]},
     "CmdPos": {"s2":["cita"],"vos":["citá"],"s3":["cite"],"p1":["citemos"],"p2":["citad"],"p3":["citen"]}

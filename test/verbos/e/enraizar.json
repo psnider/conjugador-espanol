@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enraicé"],"s2":["enraizaste"],"vos":["enraizaste"],"s3":["enraizó"],"p1":["enraizamos"],"p2":["enraizasteis"],"p3":["enraizaron"]},
     "IndFut": {"s1":["enraizaré"],"s2":["enraizarás"],"vos":["enraizarás"],"s3":["enraizará"],"p1":["enraizaremos"],"p2":["enraizaréis"],"p3":["enraizarán"]},
     "IndCond": {"s1":["enraizaría"],"s2":["enraizarías"],"vos":["enraizarías"],"s3":["enraizaría"],"p1":["enraizaríamos"],"p2":["enraizaríais"],"p3":["enraizarían"]},
-    "SubPres": {"s1":["enraíce"],"s2":["enraíces"],"vos":["enraíces","enraicés"],"s3":["enraíce"],"p1":["enraicemos"],"p2":["enraicéis"],"p3":["enraícen"]},
+    "SubPres": {"s1":["enraíce"],"s2":["enraíces"],"vos":[{"forma": "enraíces","uso":"Riop."},{"forma":"enraicés","uso":"C.Am."}],"s3":["enraíce"],"p1":["enraicemos"],"p2":["enraicéis"],"p3":["enraícen"]},
     "SubImp": {"s1":["enraizara","enraizase"],"s2":["enraizaras","enraizases"],"vos":["enraizaras","enraizases"],"s3":["enraizara","enraizase"],"p1":["enraizáramos","enraizásemos"],"p2":["enraizarais","enraizaseis"],"p3":["enraizaran","enraizasen"]},
     "SubFut": {"s1":["enraizare"],"s2":["enraizares"],"vos":["enraizares"],"s3":["enraizare"],"p1":["enraizáremos"],"p2":["enraizareis"],"p3":["enraizaren"]},
     "CmdPos": {"s2":["enraíza"],"vos":["enraizá"],"s3":["enraíce"],"p1":["enraicemos"],"p2":["enraizad"],"p3":["enraícen"]}

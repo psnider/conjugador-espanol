@@ -13,7 +13,7 @@
     "IndPret": {"s1":["recibí"],"s2":["recibiste"],"vos":["recibiste"],"s3":["recibió"],"p1":["recibimos"],"p2":["recibisteis"],"p3":["recibieron"]},
     "IndFut": {"s1":["recibiré"],"s2":["recibirás"],"vos":["recibirás"],"s3":["recibirá"],"p1":["recibiremos"],"p2":["recibiréis"],"p3":["recibirán"]},
     "IndCond": {"s1":["recibiría"],"s2":["recibirías"],"vos":["recibirías"],"s3":["recibiría"],"p1":["recibiríamos"],"p2":["recibiríais"],"p3":["recibirían"]},
-    "SubPres": {"s1":["reciba"],"s2":["recibas"],"vos":["recibas","recibás"],"s3":["reciba"],"p1":["recibamos"],"p2":["recibáis"],"p3":["reciban"]},
+    "SubPres": {"s1":["reciba"],"s2":["recibas"],"vos":[{"forma": "recibas","uso":"Riop."},{"forma":"recibás","uso":"C.Am."}],"s3":["reciba"],"p1":["recibamos"],"p2":["recibáis"],"p3":["reciban"]},
     "SubImp": {"s1":["recibiera","recibiese"],"s2":["recibieras","recibieses"],"vos":["recibieras","recibieses"],"s3":["recibiera","recibiese"],"p1":["recibiéramos","recibiésemos"],"p2":["recibierais","recibieseis"],"p3":["recibieran","recibiesen"]},
     "SubFut": {"s1":["recibiere"],"s2":["recibieres"],"vos":["recibieres"],"s3":["recibiere"],"p1":["recibiéremos"],"p2":["recibiereis"],"p3":["recibieren"]},
     "CmdPos": {"s2":["recibe"],"vos":["recibí"],"s3":["reciba"],"p1":["recibamos"],"p2":["recibid"],"p3":["reciban"]}

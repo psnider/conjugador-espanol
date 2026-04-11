@@ -13,7 +13,7 @@
     "IndPret": {"s1":["accedí"],"s2":["accediste"],"vos":["accediste"],"s3":["accedió"],"p1":["accedimos"],"p2":["accedisteis"],"p3":["accedieron"]},
     "IndFut": {"s1":["accederé"],"s2":["accederás"],"vos":["accederás"],"s3":["accederá"],"p1":["accederemos"],"p2":["accederéis"],"p3":["accederán"]},
     "IndCond": {"s1":["accedería"],"s2":["accederías"],"vos":["accederías"],"s3":["accedería"],"p1":["accederíamos"],"p2":["accederíais"],"p3":["accederían"]},
-    "SubPres": {"s1":["acceda"],"s2":["accedas"],"vos":["accedas","accedás"],"s3":["acceda"],"p1":["accedamos"],"p2":["accedáis"],"p3":["accedan"]},
+    "SubPres": {"s1":["acceda"],"s2":["accedas"],"vos":[{"forma": "accedas","uso":"Riop."},{"forma":"accedás","uso":"C.Am."}],"s3":["acceda"],"p1":["accedamos"],"p2":["accedáis"],"p3":["accedan"]},
     "SubImp": {"s1":["accediera","accediese"],"s2":["accedieras","accedieses"],"vos":["accedieras","accedieses"],"s3":["accediera","accediese"],"p1":["accediéramos","accediésemos"],"p2":["accedierais","accedieseis"],"p3":["accedieran","accediesen"]},
     "SubFut": {"s1":["accediere"],"s2":["accedieres"],"vos":["accedieres"],"s3":["accediere"],"p1":["accediéremos"],"p2":["accediereis"],"p3":["accedieren"]},
     "CmdPos": {"s2":["accede"],"vos":["accedé"],"s3":["acceda"],"p1":["accedamos"],"p2":["acceded"],"p3":["accedan"]}

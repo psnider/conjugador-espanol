@@ -13,7 +13,7 @@
     "IndPret": {"s1":["implanté"],"s2":["implantaste"],"vos":["implantaste"],"s3":["implantó"],"p1":["implantamos"],"p2":["implantasteis"],"p3":["implantaron"]},
     "IndFut": {"s1":["implantaré"],"s2":["implantarás"],"vos":["implantarás"],"s3":["implantará"],"p1":["implantaremos"],"p2":["implantaréis"],"p3":["implantarán"]},
     "IndCond": {"s1":["implantaría"],"s2":["implantarías"],"vos":["implantarías"],"s3":["implantaría"],"p1":["implantaríamos"],"p2":["implantaríais"],"p3":["implantarían"]},
-    "SubPres": {"s1":["implante"],"s2":["implantes"],"vos":["implantes","implantés"],"s3":["implante"],"p1":["implantemos"],"p2":["implantéis"],"p3":["implanten"]},
+    "SubPres": {"s1":["implante"],"s2":["implantes"],"vos":[{"forma": "implantes","uso":"Riop."},{"forma":"implantés","uso":"C.Am."}],"s3":["implante"],"p1":["implantemos"],"p2":["implantéis"],"p3":["implanten"]},
     "SubImp": {"s1":["implantara","implantase"],"s2":["implantaras","implantases"],"vos":["implantaras","implantases"],"s3":["implantara","implantase"],"p1":["implantáramos","implantásemos"],"p2":["implantarais","implantaseis"],"p3":["implantaran","implantasen"]},
     "SubFut": {"s1":["implantare"],"s2":["implantares"],"vos":["implantares"],"s3":["implantare"],"p1":["implantáremos"],"p2":["implantareis"],"p3":["implantaren"]},
     "CmdPos": {"s2":["implanta"],"vos":["implantá"],"s3":["implante"],"p1":["implantemos"],"p2":["implantad"],"p3":["implanten"]}

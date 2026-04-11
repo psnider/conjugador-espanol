@@ -13,7 +13,7 @@
     "IndPret": {"s1":["resbalé"],"s2":["resbalaste"],"vos":["resbalaste"],"s3":["resbaló"],"p1":["resbalamos"],"p2":["resbalasteis"],"p3":["resbalaron"]},
     "IndFut": {"s1":["resbalaré"],"s2":["resbalarás"],"vos":["resbalarás"],"s3":["resbalará"],"p1":["resbalaremos"],"p2":["resbalaréis"],"p3":["resbalarán"]},
     "IndCond": {"s1":["resbalaría"],"s2":["resbalarías"],"vos":["resbalarías"],"s3":["resbalaría"],"p1":["resbalaríamos"],"p2":["resbalaríais"],"p3":["resbalarían"]},
-    "SubPres": {"s1":["resbale"],"s2":["resbales"],"vos":["resbales","resbalés"],"s3":["resbale"],"p1":["resbalemos"],"p2":["resbaléis"],"p3":["resbalen"]},
+    "SubPres": {"s1":["resbale"],"s2":["resbales"],"vos":[{"forma": "resbales","uso":"Riop."},{"forma":"resbalés","uso":"C.Am."}],"s3":["resbale"],"p1":["resbalemos"],"p2":["resbaléis"],"p3":["resbalen"]},
     "SubImp": {"s1":["resbalara","resbalase"],"s2":["resbalaras","resbalases"],"vos":["resbalaras","resbalases"],"s3":["resbalara","resbalase"],"p1":["resbaláramos","resbalásemos"],"p2":["resbalarais","resbalaseis"],"p3":["resbalaran","resbalasen"]},
     "SubFut": {"s1":["resbalare"],"s2":["resbalares"],"vos":["resbalares"],"s3":["resbalare"],"p1":["resbaláremos"],"p2":["resbalareis"],"p3":["resbalaren"]},
     "CmdPos": {"s2":["resbala"],"vos":["resbalá"],"s3":["resbale"],"p1":["resbalemos"],"p2":["resbalad"],"p3":["resbalen"]}

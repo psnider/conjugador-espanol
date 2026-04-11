@@ -12,7 +12,7 @@
     "IndPret": {"s1":["efectué"],"s2":["efectuaste"],"vos":["efectuaste"],"s3":["efectuó"],"p1":["efectuamos"],"p2":["efectuasteis"],"p3":["efectuaron"]},
     "IndFut": {"s1":["efectuaré"],"s2":["efectuarás"],"vos":["efectuarás"],"s3":["efectuará"],"p1":["efectuaremos"],"p2":["efectuaréis"],"p3":["efectuarán"]},
     "IndCond": {"s1":["efectuaría"],"s2":["efectuarías"],"vos":["efectuarías"],"s3":["efectuaría"],"p1":["efectuaríamos"],"p2":["efectuaríais"],"p3":["efectuarían"]},
-    "SubPres": {"s1":["efectúe"],"s2":["efectúes"],"vos":["efectúes","efectués"],"s3":["efectúe"],"p1":["efectuemos"],"p2":["efectuéis"],"p3":["efectúen"]},
+    "SubPres": {"s1":["efectúe"],"s2":["efectúes"],"vos":[{"forma": "efectúes","uso":"Riop."},{"forma":"efectués","uso":"C.Am."}],"s3":["efectúe"],"p1":["efectuemos"],"p2":["efectuéis"],"p3":["efectúen"]},
     "SubImp": {"s1":["efectuara","efectuase"],"s2":["efectuaras","efectuases"],"vos":["efectuaras","efectuases"],"s3":["efectuara","efectuase"],"p1":["efectuáramos","efectuásemos"],"p2":["efectuarais","efectuaseis"],"p3":["efectuaran","efectuasen"]},
     "SubFut": {"s1":["efectuare"],"s2":["efectuares"],"vos":["efectuares"],"s3":["efectuare"],"p1":["efectuáremos"],"p2":["efectuareis"],"p3":["efectuaren"]},
     "CmdPos": {"s2":["efectúa"],"vos":["efectuá"],"s3":["efectúe"],"p1":["efectuemos"],"p2":["efectuad"],"p3":["efectúen"]}

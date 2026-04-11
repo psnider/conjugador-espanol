@@ -13,7 +13,7 @@
     "IndPret": {"s1":["preví"],"s2":["previste"],"vos":["previste"],"s3":["previó"],"p1":["previmos"],"p2":["previsteis"],"p3":["previeron"]},
     "IndFut": {"s1":["preveré"],"s2":["preverás"],"vos":["preverás"],"s3":["preverá"],"p1":["preveremos"],"p2":["preveréis"],"p3":["preverán"]},
     "IndCond": {"s1":["prevería"],"s2":["preverías"],"vos":["preverías"],"s3":["prevería"],"p1":["preveríamos"],"p2":["preveríais"],"p3":["preverían"]},
-    "SubPres": {"s1":["prevea"],"s2":["preveas"],"vos":["preveas","preveás"],"s3":["prevea"],"p1":["preveamos"],"p2":["preveáis"],"p3":["prevean"]},
+    "SubPres": {"s1":["prevea"],"s2":["preveas"],"vos":[{"forma": "preveas","uso":"Riop."},{"forma":"preveás","uso":"C.Am."}],"s3":["prevea"],"p1":["preveamos"],"p2":["preveáis"],"p3":["prevean"]},
     "SubImp": {"s1":["previera","previese"],"s2":["previeras","previeses"],"vos":["previeras","previeses"],"s3":["previera","previese"],"p1":["previéramos","previésemos"],"p2":["previerais","previeseis"],"p3":["previeran","previesen"]},
     "SubFut": {"s1":["previere"],"s2":["previeres"],"vos":["previeres"],"s3":["previere"],"p1":["previéremos"],"p2":["previereis"],"p3":["previeren"]},
     "CmdPos": {"s2":["prevé"],"vos":["prevé"],"s3":["prevea"],"p1":["preveamos"],"p2":["preved"],"p3":["prevean"]}

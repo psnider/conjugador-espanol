@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enfermé"],"s2":["enfermaste"],"vos":["enfermaste"],"s3":["enfermó"],"p1":["enfermamos"],"p2":["enfermasteis"],"p3":["enfermaron"]},
     "IndFut": {"s1":["enfermaré"],"s2":["enfermarás"],"vos":["enfermarás"],"s3":["enfermará"],"p1":["enfermaremos"],"p2":["enfermaréis"],"p3":["enfermarán"]},
     "IndCond": {"s1":["enfermaría"],"s2":["enfermarías"],"vos":["enfermarías"],"s3":["enfermaría"],"p1":["enfermaríamos"],"p2":["enfermaríais"],"p3":["enfermarían"]},
-    "SubPres": {"s1":["enferme"],"s2":["enfermes"],"vos":["enfermes","enfermés"],"s3":["enferme"],"p1":["enfermemos"],"p2":["enferméis"],"p3":["enfermen"]},
+    "SubPres": {"s1":["enferme"],"s2":["enfermes"],"vos":[{"forma": "enfermes","uso":"Riop."},{"forma":"enfermés","uso":"C.Am."}],"s3":["enferme"],"p1":["enfermemos"],"p2":["enferméis"],"p3":["enfermen"]},
     "SubImp": {"s1":["enfermara","enfermase"],"s2":["enfermaras","enfermases"],"vos":["enfermaras","enfermases"],"s3":["enfermara","enfermase"],"p1":["enfermáramos","enfermásemos"],"p2":["enfermarais","enfermaseis"],"p3":["enfermaran","enfermasen"]},
     "SubFut": {"s1":["enfermare"],"s2":["enfermares"],"vos":["enfermares"],"s3":["enfermare"],"p1":["enfermáremos"],"p2":["enfermareis"],"p3":["enfermaren"]},
     "CmdPos": {"s2":["enferma"],"vos":["enfermá"],"s3":["enferme"],"p1":["enfermemos"],"p2":["enfermad"],"p3":["enfermen"]}

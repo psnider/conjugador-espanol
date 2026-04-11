@@ -13,7 +13,7 @@
     "IndPret": {"s1":["inferí"],"s2":["inferiste"],"vos":["inferiste"],"s3":["infirió"],"p1":["inferimos"],"p2":["inferisteis"],"p3":["infirieron"]},
     "IndFut": {"s1":["inferiré"],"s2":["inferirás"],"vos":["inferirás"],"s3":["inferirá"],"p1":["inferiremos"],"p2":["inferiréis"],"p3":["inferirán"]},
     "IndCond": {"s1":["inferiría"],"s2":["inferirías"],"vos":["inferirías"],"s3":["inferiría"],"p1":["inferiríamos"],"p2":["inferiríais"],"p3":["inferirían"]},
-    "SubPres": {"s1":["infiera"],"s2":["infieras"],"vos":["infieras","infirás"],"s3":["infiera"],"p1":["infiramos"],"p2":["infiráis"],"p3":["infieran"]},
+    "SubPres": {"s1":["infiera"],"s2":["infieras"],"vos":[{"forma": "infieras","uso":"Riop."},{"forma":"infirás","uso":"C.Am."}],"s3":["infiera"],"p1":["infiramos"],"p2":["infiráis"],"p3":["infieran"]},
     "SubImp": {"s1":["infiriera","infiriese"],"s2":["infirieras","infirieses"],"vos":["infirieras","infirieses"],"s3":["infiriera","infiriese"],"p1":["infiriéramos","infiriésemos"],"p2":["infirierais","infirieseis"],"p3":["infirieran","infiriesen"]},
     "SubFut": {"s1":["infiriere"],"s2":["infirieres"],"vos":["infirieres"],"s3":["infiriere"],"p1":["infiriéremos"],"p2":["infiriereis"],"p3":["infirieren"]},
     "CmdPos": {"s2":["infiere"],"vos":["inferí"],"s3":["infiera"],"p1":["infiramos"],"p2":["inferid"],"p3":["infieran"]}

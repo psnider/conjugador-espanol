@@ -13,7 +13,7 @@
     "IndPret": {"s1":["chateé"],"s2":["chateaste"],"vos":["chateaste"],"s3":["chateó"],"p1":["chateamos"],"p2":["chateasteis"],"p3":["chatearon"]},
     "IndFut": {"s1":["chatearé"],"s2":["chatearás"],"vos":["chatearás"],"s3":["chateará"],"p1":["chatearemos"],"p2":["chatearéis"],"p3":["chatearán"]},
     "IndCond": {"s1":["chatearía"],"s2":["chatearías"],"vos":["chatearías"],"s3":["chatearía"],"p1":["chatearíamos"],"p2":["chatearíais"],"p3":["chatearían"]},
-    "SubPres": {"s1":["chatee"],"s2":["chatees"],"vos":["chatees","chateés"],"s3":["chatee"],"p1":["chateemos"],"p2":["chateéis"],"p3":["chateen"]},
+    "SubPres": {"s1":["chatee"],"s2":["chatees"],"vos":[{"forma": "chatees","uso":"Riop."},{"forma":"chateés","uso":"C.Am."}],"s3":["chatee"],"p1":["chateemos"],"p2":["chateéis"],"p3":["chateen"]},
     "SubImp": {"s1":["chateara","chatease"],"s2":["chatearas","chateases"],"vos":["chatearas","chateases"],"s3":["chateara","chatease"],"p1":["chateáramos","chateásemos"],"p2":["chatearais","chateaseis"],"p3":["chatearan","chateasen"]},
     "SubFut": {"s1":["chateare"],"s2":["chateares"],"vos":["chateares"],"s3":["chateare"],"p1":["chateáremos"],"p2":["chateareis"],"p3":["chatearen"]},
     "CmdPos": {"s2":["chatea"],"vos":["chateá"],"s3":["chatee"],"p1":["chateemos"],"p2":["chatead"],"p3":["chateen"]}

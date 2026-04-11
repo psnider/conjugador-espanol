@@ -13,7 +13,7 @@
     "IndPret": {"s1":["perdí"],"s2":["perdiste"],"vos":["perdiste"],"s3":["perdió"],"p1":["perdimos"],"p2":["perdisteis"],"p3":["perdieron"]},
     "IndFut": {"s1":["perderé"],"s2":["perderás"],"vos":["perderás"],"s3":["perderá"],"p1":["perderemos"],"p2":["perderéis"],"p3":["perderán"]},
     "IndCond": {"s1":["perdería"],"s2":["perderías"],"vos":["perderías"],"s3":["perdería"],"p1":["perderíamos"],"p2":["perderíais"],"p3":["perderían"]},
-    "SubPres": {"s1":["pierda"],"s2":["pierdas"],"vos":["pierdas","perdás"],"s3":["pierda"],"p1":["perdamos"],"p2":["perdáis"],"p3":["pierdan"]},
+    "SubPres": {"s1":["pierda"],"s2":["pierdas"],"vos":[{"forma": "pierdas","uso":"Riop."},{"forma":"perdás","uso":"C.Am."}],"s3":["pierda"],"p1":["perdamos"],"p2":["perdáis"],"p3":["pierdan"]},
     "SubImp": {"s1":["perdiera","perdiese"],"s2":["perdieras","perdieses"],"vos":["perdieras","perdieses"],"s3":["perdiera","perdiese"],"p1":["perdiéramos","perdiésemos"],"p2":["perdierais","perdieseis"],"p3":["perdieran","perdiesen"]},
     "SubFut": {"s1":["perdiere"],"s2":["perdieres"],"vos":["perdieres"],"s3":["perdiere"],"p1":["perdiéremos"],"p2":["perdiereis"],"p3":["perdieren"]},
     "CmdPos": {"s2":["pierde"],"vos":["perdé"],"s3":["pierda"],"p1":["perdamos"],"p2":["perded"],"p3":["pierdan"]}

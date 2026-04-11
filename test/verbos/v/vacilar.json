@@ -13,7 +13,7 @@
     "IndPret": {"s1":["vacilé"],"s2":["vacilaste"],"vos":["vacilaste"],"s3":["vaciló"],"p1":["vacilamos"],"p2":["vacilasteis"],"p3":["vacilaron"]},
     "IndFut": {"s1":["vacilaré"],"s2":["vacilarás"],"vos":["vacilarás"],"s3":["vacilará"],"p1":["vacilaremos"],"p2":["vacilaréis"],"p3":["vacilarán"]},
     "IndCond": {"s1":["vacilaría"],"s2":["vacilarías"],"vos":["vacilarías"],"s3":["vacilaría"],"p1":["vacilaríamos"],"p2":["vacilaríais"],"p3":["vacilarían"]},
-    "SubPres": {"s1":["vacile"],"s2":["vaciles"],"vos":["vaciles","vacilés"],"s3":["vacile"],"p1":["vacilemos"],"p2":["vaciléis"],"p3":["vacilen"]},
+    "SubPres": {"s1":["vacile"],"s2":["vaciles"],"vos":[{"forma": "vaciles","uso":"Riop."},{"forma":"vacilés","uso":"C.Am."}],"s3":["vacile"],"p1":["vacilemos"],"p2":["vaciléis"],"p3":["vacilen"]},
     "SubImp": {"s1":["vacilara","vacilase"],"s2":["vacilaras","vacilases"],"vos":["vacilaras","vacilases"],"s3":["vacilara","vacilase"],"p1":["vaciláramos","vacilásemos"],"p2":["vacilarais","vacilaseis"],"p3":["vacilaran","vacilasen"]},
     "SubFut": {"s1":["vacilare"],"s2":["vacilares"],"vos":["vacilares"],"s3":["vacilare"],"p1":["vaciláremos"],"p2":["vacilareis"],"p3":["vacilaren"]},
     "CmdPos": {"s2":["vacila"],"vos":["vacilá"],"s3":["vacile"],"p1":["vacilemos"],"p2":["vacilad"],"p3":["vacilen"]}

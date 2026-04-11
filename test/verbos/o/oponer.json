@@ -13,9 +13,9 @@
     "IndPret": {"s1":["opuse"],"s2":["opusiste"],"vos":["opusiste"],"s3":["opuso"],"p1":["opusimos"],"p2":["opusisteis"],"p3":["opusieron"]},
     "IndFut": {"s1":["opondré"],"s2":["opondrás"],"vos":["opondrás"],"s3":["opondrá"],"p1":["opondremos"],"p2":["opondréis"],"p3":["opondrán"]},
     "IndCond": {"s1":["opondría"],"s2":["opondrías"],"vos":["opondrías"],"s3":["opondría"],"p1":["opondríamos"],"p2":["opondríais"],"p3":["opondrían"]},
-    "SubPres": {"s1":["oponga"],"s2":["opongas"],"vos":["opongas","opongás"],"s3":["oponga"],"p1":["opongamos"],"p2":["opongáis"],"p3":["opongan"]},
+    "SubPres": {"s1":["oponga"],"s2":["opongas"],"vos":[{"forma": "opongas","uso":"Riop."},{"forma":"opongás","uso":"C.Am."}],"s3":["oponga"],"p1":["opongamos"],"p2":["opongáis"],"p3":["opongan"]},
     "SubImp": {"s1":["opusiera","opusiese"],"s2":["opusieras","opusieses"],"vos":["opusieras","opusieses"],"s3":["opusiera","opusiese"],"p1":["opusiéramos","opusiésemos"],"p2":["opusierais","opusieseis"],"p3":["opusieran","opusiesen"]},
     "SubFut": {"s1":["opusiere"],"s2":["opusieres"],"vos":["opusieres"],"s3":["opusiere"],"p1":["opusiéremos"],"p2":["opusiereis"],"p3":["opusieren"]},
-    "CmdPos": {"s2":{"estándar":["opón"],"atípicos":[{"forma":"opone","etiquetas":["no normativo"]}]},"vos":["oponé"],"s3":["oponga"],"p1":["opongamos"],"p2":["oponed"],"p3":["opongan"]}
+    "CmdPos": {"s2":["opón"],"vos":["oponé"],"s3":["oponga"],"p1":["opongamos"],"p2":["oponed"],"p3":["opongan"]}
   }
 }

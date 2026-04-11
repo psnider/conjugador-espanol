@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mandé"],"s2":["mandaste"],"vos":["mandaste"],"s3":["mandó"],"p1":["mandamos"],"p2":["mandasteis"],"p3":["mandaron"]},
     "IndFut": {"s1":["mandaré"],"s2":["mandarás"],"vos":["mandarás"],"s3":["mandará"],"p1":["mandaremos"],"p2":["mandaréis"],"p3":["mandarán"]},
     "IndCond": {"s1":["mandaría"],"s2":["mandarías"],"vos":["mandarías"],"s3":["mandaría"],"p1":["mandaríamos"],"p2":["mandaríais"],"p3":["mandarían"]},
-    "SubPres": {"s1":["mande"],"s2":["mandes"],"vos":["mandes","mandés"],"s3":["mande"],"p1":["mandemos"],"p2":["mandéis"],"p3":["manden"]},
+    "SubPres": {"s1":["mande"],"s2":["mandes"],"vos":[{"forma": "mandes","uso":"Riop."},{"forma":"mandés","uso":"C.Am."}],"s3":["mande"],"p1":["mandemos"],"p2":["mandéis"],"p3":["manden"]},
     "SubImp": {"s1":["mandara","mandase"],"s2":["mandaras","mandases"],"vos":["mandaras","mandases"],"s3":["mandara","mandase"],"p1":["mandáramos","mandásemos"],"p2":["mandarais","mandaseis"],"p3":["mandaran","mandasen"]},
     "SubFut": {"s1":["mandare"],"s2":["mandares"],"vos":["mandares"],"s3":["mandare"],"p1":["mandáremos"],"p2":["mandareis"],"p3":["mandaren"]},
     "CmdPos": {"s2":["manda"],"vos":["mandá"],"s3":["mande"],"p1":["mandemos"],"p2":["mandad"],"p3":["manden"]}

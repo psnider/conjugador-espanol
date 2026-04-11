@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comencé"],"s2":["comenzaste"],"vos":["comenzaste"],"s3":["comenzó"],"p1":["comenzamos"],"p2":["comenzasteis"],"p3":["comenzaron"]},
     "IndFut": {"s1":["comenzaré"],"s2":["comenzarás"],"vos":["comenzarás"],"s3":["comenzará"],"p1":["comenzaremos"],"p2":["comenzaréis"],"p3":["comenzarán"]},
     "IndCond": {"s1":["comenzaría"],"s2":["comenzarías"],"vos":["comenzarías"],"s3":["comenzaría"],"p1":["comenzaríamos"],"p2":["comenzaríais"],"p3":["comenzarían"]},
-    "SubPres": {"s1":["comience"],"s2":["comiences"],"vos":["comiences","comencés"],"s3":["comience"],"p1":["comencemos"],"p2":["comencéis"],"p3":["comiencen"]},
+    "SubPres": {"s1":["comience"],"s2":["comiences"],"vos":[{"forma": "comiences","uso":"Riop."},{"forma":"comencés","uso":"C.Am."}],"s3":["comience"],"p1":["comencemos"],"p2":["comencéis"],"p3":["comiencen"]},
     "SubImp": {"s1":["comenzara","comenzase"],"s2":["comenzaras","comenzases"],"vos":["comenzaras","comenzases"],"s3":["comenzara","comenzase"],"p1":["comenzáramos","comenzásemos"],"p2":["comenzarais","comenzaseis"],"p3":["comenzaran","comenzasen"]},
     "SubFut": {"s1":["comenzare"],"s2":["comenzares"],"vos":["comenzares"],"s3":["comenzare"],"p1":["comenzáremos"],"p2":["comenzareis"],"p3":["comenzaren"]},
     "CmdPos": {"s2":["comienza"],"vos":["comenzá"],"s3":["comience"],"p1":["comencemos"],"p2":["comenzad"],"p3":["comiencen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apresé"],"s2":["apresaste"],"vos":["apresaste"],"s3":["apresó"],"p1":["apresamos"],"p2":["apresasteis"],"p3":["apresaron"]},
     "IndFut": {"s1":["apresaré"],"s2":["apresarás"],"vos":["apresarás"],"s3":["apresará"],"p1":["apresaremos"],"p2":["apresaréis"],"p3":["apresarán"]},
     "IndCond": {"s1":["apresaría"],"s2":["apresarías"],"vos":["apresarías"],"s3":["apresaría"],"p1":["apresaríamos"],"p2":["apresaríais"],"p3":["apresarían"]},
-    "SubPres": {"s1":["aprese"],"s2":["apreses"],"vos":["apreses","apresés"],"s3":["aprese"],"p1":["apresemos"],"p2":["apreséis"],"p3":["apresen"]},
+    "SubPres": {"s1":["aprese"],"s2":["apreses"],"vos":[{"forma": "apreses","uso":"Riop."},{"forma":"apresés","uso":"C.Am."}],"s3":["aprese"],"p1":["apresemos"],"p2":["apreséis"],"p3":["apresen"]},
     "SubImp": {"s1":["apresara","apresase"],"s2":["apresaras","apresases"],"vos":["apresaras","apresases"],"s3":["apresara","apresase"],"p1":["apresáramos","apresásemos"],"p2":["apresarais","apresaseis"],"p3":["apresaran","apresasen"]},
     "SubFut": {"s1":["apresare"],"s2":["apresares"],"vos":["apresares"],"s3":["apresare"],"p1":["apresáremos"],"p2":["apresareis"],"p3":["apresaren"]},
     "CmdPos": {"s2":["apresa"],"vos":["apresá"],"s3":["aprese"],"p1":["apresemos"],"p2":["apresad"],"p3":["apresen"]}

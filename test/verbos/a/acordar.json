@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acordé"],"s2":["acordaste"],"vos":["acordaste"],"s3":["acordó"],"p1":["acordamos"],"p2":["acordasteis"],"p3":["acordaron"]},
     "IndFut": {"s1":["acordaré"],"s2":["acordarás"],"vos":["acordarás"],"s3":["acordará"],"p1":["acordaremos"],"p2":["acordaréis"],"p3":["acordarán"]},
     "IndCond": {"s1":["acordaría"],"s2":["acordarías"],"vos":["acordarías"],"s3":["acordaría"],"p1":["acordaríamos"],"p2":["acordaríais"],"p3":["acordarían"]},
-    "SubPres": {"s1":["acuerde"],"s2":["acuerdes"],"vos":["acuerdes","acordés"],"s3":["acuerde"],"p1":["acordemos"],"p2":["acordéis"],"p3":["acuerden"]},
+    "SubPres": {"s1":["acuerde"],"s2":["acuerdes"],"vos":[{"forma": "acuerdes","uso":"Riop."},{"forma":"acordés","uso":"C.Am."}],"s3":["acuerde"],"p1":["acordemos"],"p2":["acordéis"],"p3":["acuerden"]},
     "SubImp": {"s1":["acordara","acordase"],"s2":["acordaras","acordases"],"vos":["acordaras","acordases"],"s3":["acordara","acordase"],"p1":["acordáramos","acordásemos"],"p2":["acordarais","acordaseis"],"p3":["acordaran","acordasen"]},
     "SubFut": {"s1":["acordare"],"s2":["acordares"],"vos":["acordares"],"s3":["acordare"],"p1":["acordáremos"],"p2":["acordareis"],"p3":["acordaren"]},
     "CmdPos": {"s2":["acuerda"],"vos":["acordá"],"s3":["acuerde"],"p1":["acordemos"],"p2":["acordad"],"p3":["acuerden"]}

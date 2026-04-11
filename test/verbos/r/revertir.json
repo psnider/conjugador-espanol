@@ -13,7 +13,7 @@
     "IndPret": {"s1":["revertí"],"s2":["revertiste"],"vos":["revertiste"],"s3":["revirtió"],"p1":["revertimos"],"p2":["revertisteis"],"p3":["revirtieron"]},
     "IndFut": {"s1":["revertiré"],"s2":["revertirás"],"vos":["revertirás"],"s3":["revertirá"],"p1":["revertiremos"],"p2":["revertiréis"],"p3":["revertirán"]},
     "IndCond": {"s1":["revertiría"],"s2":["revertirías"],"vos":["revertirías"],"s3":["revertiría"],"p1":["revertiríamos"],"p2":["revertiríais"],"p3":["revertirían"]},
-    "SubPres": {"s1":["revierta"],"s2":["reviertas"],"vos":["reviertas","revirtás"],"s3":["revierta"],"p1":["revirtamos"],"p2":["revirtáis"],"p3":["reviertan"]},
+    "SubPres": {"s1":["revierta"],"s2":["reviertas"],"vos":[{"forma": "reviertas","uso":"Riop."},{"forma":"revirtás","uso":"C.Am."}],"s3":["revierta"],"p1":["revirtamos"],"p2":["revirtáis"],"p3":["reviertan"]},
     "SubImp": {"s1":["revirtiera","revirtiese"],"s2":["revirtieras","revirtieses"],"vos":["revirtieras","revirtieses"],"s3":["revirtiera","revirtiese"],"p1":["revirtiéramos","revirtiésemos"],"p2":["revirtierais","revirtieseis"],"p3":["revirtieran","revirtiesen"]},
     "SubFut": {"s1":["revirtiere"],"s2":["revirtieres"],"vos":["revirtieres"],"s3":["revirtiere"],"p1":["revirtiéremos"],"p2":["revirtiereis"],"p3":["revirtieren"]},
     "CmdPos": {"s2":["revierte"],"vos":["revertí"],"s3":["revierta"],"p1":["revirtamos"],"p2":["revertid"],"p3":["reviertan"]}

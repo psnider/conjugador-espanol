@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esakt̪iˈβ̞aɾ]",
+    "silabacion": "des-ac-ti-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y activar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desactivar","gerundio":["desactivando"],"participio":["desactivado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desactivo"],"s2":["desactivas"],"vos":["desactivás"],"s3":["desactiva"],"p1":["desactivamos"],"p2":["desactiváis"],"p3":["desactivan"]},
+    "IndImp": {"s1":["desactivaba"],"s2":["desactivabas"],"vos":["desactivabas"],"s3":["desactivaba"],"p1":["desactivábamos"],"p2":["desactivabais"],"p3":["desactivaban"]},
+    "IndPret": {"s1":["desactivé"],"s2":["desactivaste"],"vos":["desactivaste"],"s3":["desactivó"],"p1":["desactivamos"],"p2":["desactivasteis"],"p3":["desactivaron"]},
+    "IndFut": {"s1":["desactivaré"],"s2":["desactivarás"],"vos":["desactivarás"],"s3":["desactivará"],"p1":["desactivaremos"],"p2":["desactivaréis"],"p3":["desactivarán"]},
+    "IndCond": {"s1":["desactivaría"],"s2":["desactivarías"],"vos":["desactivarías"],"s3":["desactivaría"],"p1":["desactivaríamos"],"p2":["desactivaríais"],"p3":["desactivarían"]},
+    "SubPres": {"s1":["desactive"],"s2":["desactives"],"vos":["desactives","desactivés"],"s3":["desactive"],"p1":["desactivemos"],"p2":["desactivéis"],"p3":["desactiven"]},
+    "SubImp": {"s1":["desactivara","desactivase"],"s2":["desactivaras","desactivases"],"vos":["desactivaras","desactivases"],"s3":["desactivara","desactivase"],"p1":["desactiváramos","desactivásemos"],"p2":["desactivarais","desactivaseis"],"p3":["desactivaran","desactivasen"]},
+    "SubFut": {"s1":["desactivare"],"s2":["desactivares"],"vos":["desactivares"],"s3":["desactivare"],"p1":["desactiváremos"],"p2":["desactivareis"],"p3":["desactivaren"]},
+    "CmdPos": {"s2":["desactiva"],"vos":["desactivá"],"s3":["desactive"],"p1":["desactivemos"],"p2":["desactivad"],"p3":["desactiven"]}
+  }
+}

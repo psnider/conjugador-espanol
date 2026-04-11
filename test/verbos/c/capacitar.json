@@ -13,7 +13,7 @@
     "IndPret": {"s1":["capacité"],"s2":["capacitaste"],"vos":["capacitaste"],"s3":["capacitó"],"p1":["capacitamos"],"p2":["capacitasteis"],"p3":["capacitaron"]},
     "IndFut": {"s1":["capacitaré"],"s2":["capacitarás"],"vos":["capacitarás"],"s3":["capacitará"],"p1":["capacitaremos"],"p2":["capacitaréis"],"p3":["capacitarán"]},
     "IndCond": {"s1":["capacitaría"],"s2":["capacitarías"],"vos":["capacitarías"],"s3":["capacitaría"],"p1":["capacitaríamos"],"p2":["capacitaríais"],"p3":["capacitarían"]},
-    "SubPres": {"s1":["capacite"],"s2":["capacites"],"vos":["capacites","capacités"],"s3":["capacite"],"p1":["capacitemos"],"p2":["capacitéis"],"p3":["capaciten"]},
+    "SubPres": {"s1":["capacite"],"s2":["capacites"],"vos":[{"forma": "capacites","uso":"Riop."},{"forma":"capacités","uso":"C.Am."}],"s3":["capacite"],"p1":["capacitemos"],"p2":["capacitéis"],"p3":["capaciten"]},
     "SubImp": {"s1":["capacitara","capacitase"],"s2":["capacitaras","capacitases"],"vos":["capacitaras","capacitases"],"s3":["capacitara","capacitase"],"p1":["capacitáramos","capacitásemos"],"p2":["capacitarais","capacitaseis"],"p3":["capacitaran","capacitasen"]},
     "SubFut": {"s1":["capacitare"],"s2":["capacitares"],"vos":["capacitares"],"s3":["capacitare"],"p1":["capacitáremos"],"p2":["capacitareis"],"p3":["capacitaren"]},
     "CmdPos": {"s2":["capacita"],"vos":["capacitá"],"s3":["capacite"],"p1":["capacitemos"],"p2":["capacitad"],"p3":["capaciten"]}

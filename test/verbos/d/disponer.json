@@ -13,9 +13,9 @@
     "IndPret": {"s1":["dispuse"],"s2":["dispusiste"],"vos":["dispusiste"],"s3":["dispuso"],"p1":["dispusimos"],"p2":["dispusisteis"],"p3":["dispusieron"]},
     "IndFut": {"s1":["dispondré"],"s2":["dispondrás"],"vos":["dispondrás"],"s3":["dispondrá"],"p1":["dispondremos"],"p2":["dispondréis"],"p3":["dispondrán"]},
     "IndCond": {"s1":["dispondría"],"s2":["dispondrías"],"vos":["dispondrías"],"s3":["dispondría"],"p1":["dispondríamos"],"p2":["dispondríais"],"p3":["dispondrían"]},
-    "SubPres": {"s1":["disponga"],"s2":["dispongas"],"vos":["dispongas","dispongás"],"s3":["disponga"],"p1":["dispongamos"],"p2":["dispongáis"],"p3":["dispongan"]},
+    "SubPres": {"s1":["disponga"],"s2":["dispongas"],"vos":[{"forma": "dispongas","uso":"Riop."},{"forma":"dispongás","uso":"C.Am."}],"s3":["disponga"],"p1":["dispongamos"],"p2":["dispongáis"],"p3":["dispongan"]},
     "SubImp": {"s1":["dispusiera","dispusiese"],"s2":["dispusieras","dispusieses"],"vos":["dispusieras","dispusieses"],"s3":["dispusiera","dispusiese"],"p1":["dispusiéramos","dispusiésemos"],"p2":["dispusierais","dispusieseis"],"p3":["dispusieran","dispusiesen"]},
     "SubFut": {"s1":["dispusiere"],"s2":["dispusieres"],"vos":["dispusieres"],"s3":["dispusiere"],"p1":["dispusiéremos"],"p2":["dispusiereis"],"p3":["dispusieren"]},
-    "CmdPos": {"s2":{"estándar":["dispón"],"atípicos":[{"forma":"dispone","etiquetas":["no normativo"]}]},"vos":["disponé"],"s3":["disponga"],"p1":["dispongamos"],"p2":["disponed"],"p3":["dispongan"]}
+    "CmdPos": {"s2":["dispón"],"vos":["disponé"],"s3":["disponga"],"p1":["dispongamos"],"p2":["disponed"],"p3":["dispongan"]}
   }
 }

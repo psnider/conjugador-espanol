@@ -13,7 +13,7 @@
     "IndPret": {"s1":["supliqué"],"s2":["suplicaste"],"vos":["suplicaste"],"s3":["suplicó"],"p1":["suplicamos"],"p2":["suplicasteis"],"p3":["suplicaron"]},
     "IndFut": {"s1":["suplicaré"],"s2":["suplicarás"],"vos":["suplicarás"],"s3":["suplicará"],"p1":["suplicaremos"],"p2":["suplicaréis"],"p3":["suplicarán"]},
     "IndCond": {"s1":["suplicaría"],"s2":["suplicarías"],"vos":["suplicarías"],"s3":["suplicaría"],"p1":["suplicaríamos"],"p2":["suplicaríais"],"p3":["suplicarían"]},
-    "SubPres": {"s1":["suplique"],"s2":["supliques"],"vos":["supliques","supliqués"],"s3":["suplique"],"p1":["supliquemos"],"p2":["supliquéis"],"p3":["supliquen"]},
+    "SubPres": {"s1":["suplique"],"s2":["supliques"],"vos":[{"forma": "supliques","uso":"Riop."},{"forma":"supliqués","uso":"C.Am."}],"s3":["suplique"],"p1":["supliquemos"],"p2":["supliquéis"],"p3":["supliquen"]},
     "SubImp": {"s1":["suplicara","suplicase"],"s2":["suplicaras","suplicases"],"vos":["suplicaras","suplicases"],"s3":["suplicara","suplicase"],"p1":["suplicáramos","suplicásemos"],"p2":["suplicarais","suplicaseis"],"p3":["suplicaran","suplicasen"]},
     "SubFut": {"s1":["suplicare"],"s2":["suplicares"],"vos":["suplicares"],"s3":["suplicare"],"p1":["suplicáremos"],"p2":["suplicareis"],"p3":["suplicaren"]},
     "CmdPos": {"s2":["suplica"],"vos":["suplicá"],"s3":["suplique"],"p1":["supliquemos"],"p2":["suplicad"],"p3":["supliquen"]}

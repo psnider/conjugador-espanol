@@ -13,7 +13,7 @@
     "IndPret": {"s1":["embarqué"],"s2":["embarcaste"],"vos":["embarcaste"],"s3":["embarcó"],"p1":["embarcamos"],"p2":["embarcasteis"],"p3":["embarcaron"]},
     "IndFut": {"s1":["embarcaré"],"s2":["embarcarás"],"vos":["embarcarás"],"s3":["embarcará"],"p1":["embarcaremos"],"p2":["embarcaréis"],"p3":["embarcarán"]},
     "IndCond": {"s1":["embarcaría"],"s2":["embarcarías"],"vos":["embarcarías"],"s3":["embarcaría"],"p1":["embarcaríamos"],"p2":["embarcaríais"],"p3":["embarcarían"]},
-    "SubPres": {"s1":["embarque"],"s2":["embarques"],"vos":["embarques","embarqués"],"s3":["embarque"],"p1":["embarquemos"],"p2":["embarquéis"],"p3":["embarquen"]},
+    "SubPres": {"s1":["embarque"],"s2":["embarques"],"vos":[{"forma": "embarques","uso":"Riop."},{"forma":"embarqués","uso":"C.Am."}],"s3":["embarque"],"p1":["embarquemos"],"p2":["embarquéis"],"p3":["embarquen"]},
     "SubImp": {"s1":["embarcara","embarcase"],"s2":["embarcaras","embarcases"],"vos":["embarcaras","embarcases"],"s3":["embarcara","embarcase"],"p1":["embarcáramos","embarcásemos"],"p2":["embarcarais","embarcaseis"],"p3":["embarcaran","embarcasen"]},
     "SubFut": {"s1":["embarcare"],"s2":["embarcares"],"vos":["embarcares"],"s3":["embarcare"],"p1":["embarcáremos"],"p2":["embarcareis"],"p3":["embarcaren"]},
     "CmdPos": {"s2":["embarca"],"vos":["embarcá"],"s3":["embarque"],"p1":["embarquemos"],"p2":["embarcad"],"p3":["embarquen"]}

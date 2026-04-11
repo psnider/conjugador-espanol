@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dificulté"],"s2":["dificultaste"],"vos":["dificultaste"],"s3":["dificultó"],"p1":["dificultamos"],"p2":["dificultasteis"],"p3":["dificultaron"]},
     "IndFut": {"s1":["dificultaré"],"s2":["dificultarás"],"vos":["dificultarás"],"s3":["dificultará"],"p1":["dificultaremos"],"p2":["dificultaréis"],"p3":["dificultarán"]},
     "IndCond": {"s1":["dificultaría"],"s2":["dificultarías"],"vos":["dificultarías"],"s3":["dificultaría"],"p1":["dificultaríamos"],"p2":["dificultaríais"],"p3":["dificultarían"]},
-    "SubPres": {"s1":["dificulte"],"s2":["dificultes"],"vos":["dificultes","dificultés"],"s3":["dificulte"],"p1":["dificultemos"],"p2":["dificultéis"],"p3":["dificulten"]},
+    "SubPres": {"s1":["dificulte"],"s2":["dificultes"],"vos":[{"forma": "dificultes","uso":"Riop."},{"forma":"dificultés","uso":"C.Am."}],"s3":["dificulte"],"p1":["dificultemos"],"p2":["dificultéis"],"p3":["dificulten"]},
     "SubImp": {"s1":["dificultara","dificultase"],"s2":["dificultaras","dificultases"],"vos":["dificultaras","dificultases"],"s3":["dificultara","dificultase"],"p1":["dificultáramos","dificultásemos"],"p2":["dificultarais","dificultaseis"],"p3":["dificultaran","dificultasen"]},
     "SubFut": {"s1":["dificultare"],"s2":["dificultares"],"vos":["dificultares"],"s3":["dificultare"],"p1":["dificultáremos"],"p2":["dificultareis"],"p3":["dificultaren"]},
     "CmdPos": {"s2":["dificulta"],"vos":["dificultá"],"s3":["dificulte"],"p1":["dificultemos"],"p2":["dificultad"],"p3":["dificulten"]}

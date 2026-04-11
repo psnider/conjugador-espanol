@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sugerí"],"s2":["sugeriste"],"vos":["sugeriste"],"s3":["sugirió"],"p1":["sugerimos"],"p2":["sugeristeis"],"p3":["sugirieron"]},
     "IndFut": {"s1":["sugeriré"],"s2":["sugerirás"],"vos":["sugerirás"],"s3":["sugerirá"],"p1":["sugeriremos"],"p2":["sugeriréis"],"p3":["sugerirán"]},
     "IndCond": {"s1":["sugeriría"],"s2":["sugerirías"],"vos":["sugerirías"],"s3":["sugeriría"],"p1":["sugeriríamos"],"p2":["sugeriríais"],"p3":["sugerirían"]},
-    "SubPres": {"s1":["sugiera"],"s2":["sugieras"],"vos":["sugieras","sugirás"],"s3":["sugiera"],"p1":["sugiramos"],"p2":["sugiráis"],"p3":["sugieran"]},
+    "SubPres": {"s1":["sugiera"],"s2":["sugieras"],"vos":[{"forma": "sugieras","uso":"Riop."},{"forma":"sugirás","uso":"C.Am."}],"s3":["sugiera"],"p1":["sugiramos"],"p2":["sugiráis"],"p3":["sugieran"]},
     "SubImp": {"s1":["sugiriera","sugiriese"],"s2":["sugirieras","sugirieses"],"vos":["sugirieras","sugirieses"],"s3":["sugiriera","sugiriese"],"p1":["sugiriéramos","sugiriésemos"],"p2":["sugirierais","sugirieseis"],"p3":["sugirieran","sugiriesen"]},
     "SubFut": {"s1":["sugiriere"],"s2":["sugirieres"],"vos":["sugirieres"],"s3":["sugiriere"],"p1":["sugiriéremos"],"p2":["sugiriereis"],"p3":["sugirieren"]},
     "CmdPos": {"s2":["sugiere"],"vos":["sugerí"],"s3":["sugiera"],"p1":["sugiramos"],"p2":["sugerid"],"p3":["sugieran"]}

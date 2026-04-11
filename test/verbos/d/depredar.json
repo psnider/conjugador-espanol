@@ -13,7 +13,7 @@
     "IndPret": {"s1":["depredé"],"s2":["depredaste"],"vos":["depredaste"],"s3":["depredó"],"p1":["depredamos"],"p2":["depredasteis"],"p3":["depredaron"]},
     "IndFut": {"s1":["depredaré"],"s2":["depredarás"],"vos":["depredarás"],"s3":["depredará"],"p1":["depredaremos"],"p2":["depredaréis"],"p3":["depredarán"]},
     "IndCond": {"s1":["depredaría"],"s2":["depredarías"],"vos":["depredarías"],"s3":["depredaría"],"p1":["depredaríamos"],"p2":["depredaríais"],"p3":["depredarían"]},
-    "SubPres": {"s1":["deprede"],"s2":["depredes"],"vos":["depredes","depredés"],"s3":["deprede"],"p1":["depredemos"],"p2":["depredéis"],"p3":["depreden"]},
+    "SubPres": {"s1":["deprede"],"s2":["depredes"],"vos":[{"forma": "depredes","uso":"Riop."},{"forma":"depredés","uso":"C.Am."}],"s3":["deprede"],"p1":["depredemos"],"p2":["depredéis"],"p3":["depreden"]},
     "SubImp": {"s1":["depredara","depredase"],"s2":["depredaras","depredases"],"vos":["depredaras","depredases"],"s3":["depredara","depredase"],"p1":["depredáramos","depredásemos"],"p2":["depredarais","depredaseis"],"p3":["depredaran","depredasen"]},
     "SubFut": {"s1":["depredare"],"s2":["depredares"],"vos":["depredares"],"s3":["depredare"],"p1":["depredáremos"],"p2":["depredareis"],"p3":["depredaren"]},
     "CmdPos": {"s2":["depreda"],"vos":["depredá"],"s3":["deprede"],"p1":["depredemos"],"p2":["depredad"],"p3":["depreden"]}

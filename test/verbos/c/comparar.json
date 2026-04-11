@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comparé"],"s2":["comparaste"],"vos":["comparaste"],"s3":["comparó"],"p1":["comparamos"],"p2":["comparasteis"],"p3":["compararon"]},
     "IndFut": {"s1":["compararé"],"s2":["compararás"],"vos":["compararás"],"s3":["comparará"],"p1":["compararemos"],"p2":["compararéis"],"p3":["compararán"]},
     "IndCond": {"s1":["compararía"],"s2":["compararías"],"vos":["compararías"],"s3":["compararía"],"p1":["compararíamos"],"p2":["compararíais"],"p3":["compararían"]},
-    "SubPres": {"s1":["compare"],"s2":["compares"],"vos":["compares","comparés"],"s3":["compare"],"p1":["comparemos"],"p2":["comparéis"],"p3":["comparen"]},
+    "SubPres": {"s1":["compare"],"s2":["compares"],"vos":[{"forma": "compares","uso":"Riop."},{"forma":"comparés","uso":"C.Am."}],"s3":["compare"],"p1":["comparemos"],"p2":["comparéis"],"p3":["comparen"]},
     "SubImp": {"s1":["comparara","comparase"],"s2":["compararas","comparases"],"vos":["compararas","comparases"],"s3":["comparara","comparase"],"p1":["comparáramos","comparásemos"],"p2":["compararais","comparaseis"],"p3":["compararan","comparasen"]},
     "SubFut": {"s1":["comparare"],"s2":["comparares"],"vos":["comparares"],"s3":["comparare"],"p1":["comparáremos"],"p2":["comparareis"],"p3":["compararen"]},
     "CmdPos": {"s2":["compara"],"vos":["compará"],"s3":["compare"],"p1":["comparemos"],"p2":["comparad"],"p3":["comparen"]}

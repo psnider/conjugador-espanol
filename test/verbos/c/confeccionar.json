@@ -13,7 +13,7 @@
     "IndPret": {"s1":["confeccioné"],"s2":["confeccionaste"],"vos":["confeccionaste"],"s3":["confeccionó"],"p1":["confeccionamos"],"p2":["confeccionasteis"],"p3":["confeccionaron"]},
     "IndFut": {"s1":["confeccionaré"],"s2":["confeccionarás"],"vos":["confeccionarás"],"s3":["confeccionará"],"p1":["confeccionaremos"],"p2":["confeccionaréis"],"p3":["confeccionarán"]},
     "IndCond": {"s1":["confeccionaría"],"s2":["confeccionarías"],"vos":["confeccionarías"],"s3":["confeccionaría"],"p1":["confeccionaríamos"],"p2":["confeccionaríais"],"p3":["confeccionarían"]},
-    "SubPres": {"s1":["confeccione"],"s2":["confecciones"],"vos":["confecciones","confeccionés"],"s3":["confeccione"],"p1":["confeccionemos"],"p2":["confeccionéis"],"p3":["confeccionen"]},
+    "SubPres": {"s1":["confeccione"],"s2":["confecciones"],"vos":[{"forma": "confecciones","uso":"Riop."},{"forma":"confeccionés","uso":"C.Am."}],"s3":["confeccione"],"p1":["confeccionemos"],"p2":["confeccionéis"],"p3":["confeccionen"]},
     "SubImp": {"s1":["confeccionara","confeccionase"],"s2":["confeccionaras","confeccionases"],"vos":["confeccionaras","confeccionases"],"s3":["confeccionara","confeccionase"],"p1":["confeccionáramos","confeccionásemos"],"p2":["confeccionarais","confeccionaseis"],"p3":["confeccionaran","confeccionasen"]},
     "SubFut": {"s1":["confeccionare"],"s2":["confeccionares"],"vos":["confeccionares"],"s3":["confeccionare"],"p1":["confeccionáremos"],"p2":["confeccionareis"],"p3":["confeccionaren"]},
     "CmdPos": {"s2":["confecciona"],"vos":["confeccioná"],"s3":["confeccione"],"p1":["confeccionemos"],"p2":["confeccionad"],"p3":["confeccionen"]}

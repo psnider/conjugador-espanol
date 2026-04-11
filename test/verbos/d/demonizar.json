@@ -13,7 +13,7 @@
     "IndPret": {"s1":["demonicé"],"s2":["demonizaste"],"vos":["demonizaste"],"s3":["demonizó"],"p1":["demonizamos"],"p2":["demonizasteis"],"p3":["demonizaron"]},
     "IndFut": {"s1":["demonizaré"],"s2":["demonizarás"],"vos":["demonizarás"],"s3":["demonizará"],"p1":["demonizaremos"],"p2":["demonizaréis"],"p3":["demonizarán"]},
     "IndCond": {"s1":["demonizaría"],"s2":["demonizarías"],"vos":["demonizarías"],"s3":["demonizaría"],"p1":["demonizaríamos"],"p2":["demonizaríais"],"p3":["demonizarían"]},
-    "SubPres": {"s1":["demonice"],"s2":["demonices"],"vos":["demonices","demonicés"],"s3":["demonice"],"p1":["demonicemos"],"p2":["demonicéis"],"p3":["demonicen"]},
+    "SubPres": {"s1":["demonice"],"s2":["demonices"],"vos":[{"forma": "demonices","uso":"Riop."},{"forma":"demonicés","uso":"C.Am."}],"s3":["demonice"],"p1":["demonicemos"],"p2":["demonicéis"],"p3":["demonicen"]},
     "SubImp": {"s1":["demonizara","demonizase"],"s2":["demonizaras","demonizases"],"vos":["demonizaras","demonizases"],"s3":["demonizara","demonizase"],"p1":["demonizáramos","demonizásemos"],"p2":["demonizarais","demonizaseis"],"p3":["demonizaran","demonizasen"]},
     "SubFut": {"s1":["demonizare"],"s2":["demonizares"],"vos":["demonizares"],"s3":["demonizare"],"p1":["demonizáremos"],"p2":["demonizareis"],"p3":["demonizaren"]},
     "CmdPos": {"s2":["demoniza"],"vos":["demonizá"],"s3":["demonice"],"p1":["demonicemos"],"p2":["demonizad"],"p3":["demonicen"]}

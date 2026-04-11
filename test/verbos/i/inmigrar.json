@@ -13,7 +13,7 @@
     "IndPret": {"s1":["inmigré"],"s2":["inmigraste"],"vos":["inmigraste"],"s3":["inmigró"],"p1":["inmigramos"],"p2":["inmigrasteis"],"p3":["inmigraron"]},
     "IndFut": {"s1":["inmigraré"],"s2":["inmigrarás"],"vos":["inmigrarás"],"s3":["inmigrará"],"p1":["inmigraremos"],"p2":["inmigraréis"],"p3":["inmigrarán"]},
     "IndCond": {"s1":["inmigraría"],"s2":["inmigrarías"],"vos":["inmigrarías"],"s3":["inmigraría"],"p1":["inmigraríamos"],"p2":["inmigraríais"],"p3":["inmigrarían"]},
-    "SubPres": {"s1":["inmigre"],"s2":["inmigres"],"vos":["inmigres","inmigrés"],"s3":["inmigre"],"p1":["inmigremos"],"p2":["inmigréis"],"p3":["inmigren"]},
+    "SubPres": {"s1":["inmigre"],"s2":["inmigres"],"vos":[{"forma": "inmigres","uso":"Riop."},{"forma":"inmigrés","uso":"C.Am."}],"s3":["inmigre"],"p1":["inmigremos"],"p2":["inmigréis"],"p3":["inmigren"]},
     "SubImp": {"s1":["inmigrara","inmigrase"],"s2":["inmigraras","inmigrases"],"vos":["inmigraras","inmigrases"],"s3":["inmigrara","inmigrase"],"p1":["inmigráramos","inmigrásemos"],"p2":["inmigrarais","inmigraseis"],"p3":["inmigraran","inmigrasen"]},
     "SubFut": {"s1":["inmigrare"],"s2":["inmigrares"],"vos":["inmigrares"],"s3":["inmigrare"],"p1":["inmigráremos"],"p2":["inmigrareis"],"p3":["inmigraren"]},
     "CmdPos": {"s2":["inmigra"],"vos":["inmigrá"],"s3":["inmigre"],"p1":["inmigremos"],"p2":["inmigrad"],"p3":["inmigren"]}

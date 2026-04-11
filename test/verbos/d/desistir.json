@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desistí"],"s2":["desististe"],"vos":["desististe"],"s3":["desistió"],"p1":["desistimos"],"p2":["desististeis"],"p3":["desistieron"]},
     "IndFut": {"s1":["desistiré"],"s2":["desistirás"],"vos":["desistirás"],"s3":["desistirá"],"p1":["desistiremos"],"p2":["desistiréis"],"p3":["desistirán"]},
     "IndCond": {"s1":["desistiría"],"s2":["desistirías"],"vos":["desistirías"],"s3":["desistiría"],"p1":["desistiríamos"],"p2":["desistiríais"],"p3":["desistirían"]},
-    "SubPres": {"s1":["desista"],"s2":["desistas"],"vos":["desistas","desistás"],"s3":["desista"],"p1":["desistamos"],"p2":["desistáis"],"p3":["desistan"]},
+    "SubPres": {"s1":["desista"],"s2":["desistas"],"vos":[{"forma": "desistas","uso":"Riop."},{"forma":"desistás","uso":"C.Am."}],"s3":["desista"],"p1":["desistamos"],"p2":["desistáis"],"p3":["desistan"]},
     "SubImp": {"s1":["desistiera","desistiese"],"s2":["desistieras","desistieses"],"vos":["desistieras","desistieses"],"s3":["desistiera","desistiese"],"p1":["desistiéramos","desistiésemos"],"p2":["desistierais","desistieseis"],"p3":["desistieran","desistiesen"]},
     "SubFut": {"s1":["desistiere"],"s2":["desistieres"],"vos":["desistieres"],"s3":["desistiere"],"p1":["desistiéremos"],"p2":["desistiereis"],"p3":["desistieren"]},
     "CmdPos": {"s2":["desiste"],"vos":["desistí"],"s3":["desista"],"p1":["desistamos"],"p2":["desistid"],"p3":["desistan"]}

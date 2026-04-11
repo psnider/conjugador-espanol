@@ -12,7 +12,7 @@
     "IndPret": {"s1":["concluí"],"s2":["concluiste"],"vos":["concluiste"],"s3":["concluyó"],"p1":["concluimos"],"p2":["concluisteis"],"p3":["concluyeron"]},
     "IndFut": {"s1":["concluiré"],"s2":["concluirás"],"vos":["concluirás"],"s3":["concluirá"],"p1":["concluiremos"],"p2":["concluiréis"],"p3":["concluirán"]},
     "IndCond": {"s1":["concluiría"],"s2":["concluirías"],"vos":["concluirías"],"s3":["concluiría"],"p1":["concluiríamos"],"p2":["concluiríais"],"p3":["concluirían"]},
-    "SubPres": {"s1":["concluya"],"s2":["concluyas"],"vos":["concluyas","concluyás"],"s3":["concluya"],"p1":["concluyamos"],"p2":["concluyáis"],"p3":["concluyan"]},
+    "SubPres": {"s1":["concluya"],"s2":["concluyas"],"vos":[{"forma": "concluyas","uso":"Riop."},{"forma":"concluyás","uso":"C.Am."}],"s3":["concluya"],"p1":["concluyamos"],"p2":["concluyáis"],"p3":["concluyan"]},
     "SubImp": {"s1":["concluyera","concluyese"],"s2":["concluyeras","concluyeses"],"vos":["concluyeras","concluyeses"],"s3":["concluyera","concluyese"],"p1":["concluyéramos","concluyésemos"],"p2":["concluyerais","concluyeseis"],"p3":["concluyeran","concluyesen"]},
     "SubFut": {"s1":["concluyere"],"s2":["concluyeres"],"vos":["concluyeres"],"s3":["concluyere"],"p1":["concluyéremos"],"p2":["concluyereis"],"p3":["concluyeren"]},
     "CmdPos": {"s2":["concluye"],"vos":["concluí"],"s3":["concluya"],"p1":["concluyamos"],"p2":["concluid"],"p3":["concluyan"]}

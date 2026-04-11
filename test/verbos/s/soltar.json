@@ -13,7 +13,7 @@
     "IndPret": {"s1":["solté"],"s2":["soltaste"],"vos":["soltaste"],"s3":["soltó"],"p1":["soltamos"],"p2":["soltasteis"],"p3":["soltaron"]},
     "IndFut": {"s1":["soltaré"],"s2":["soltarás"],"vos":["soltarás"],"s3":["soltará"],"p1":["soltaremos"],"p2":["soltaréis"],"p3":["soltarán"]},
     "IndCond": {"s1":["soltaría"],"s2":["soltarías"],"vos":["soltarías"],"s3":["soltaría"],"p1":["soltaríamos"],"p2":["soltaríais"],"p3":["soltarían"]},
-    "SubPres": {"s1":["suelte"],"s2":["sueltes"],"vos":["sueltes","soltés"],"s3":["suelte"],"p1":["soltemos"],"p2":["soltéis"],"p3":["suelten"]},
+    "SubPres": {"s1":["suelte"],"s2":["sueltes"],"vos":[{"forma": "sueltes","uso":"Riop."},{"forma":"soltés","uso":"C.Am."}],"s3":["suelte"],"p1":["soltemos"],"p2":["soltéis"],"p3":["suelten"]},
     "SubImp": {"s1":["soltara","soltase"],"s2":["soltaras","soltases"],"vos":["soltaras","soltases"],"s3":["soltara","soltase"],"p1":["soltáramos","soltásemos"],"p2":["soltarais","soltaseis"],"p3":["soltaran","soltasen"]},
     "SubFut": {"s1":["soltare"],"s2":["soltares"],"vos":["soltares"],"s3":["soltare"],"p1":["soltáremos"],"p2":["soltareis"],"p3":["soltaren"]},
     "CmdPos": {"s2":["suelta"],"vos":["soltá"],"s3":["suelte"],"p1":["soltemos"],"p2":["soltad"],"p3":["suelten"]}

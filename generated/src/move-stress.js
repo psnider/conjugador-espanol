@@ -20,11 +20,11 @@ export function moveStress(word, move) {
     }
     return chars.join("");
 }
-const stressed_regex = /[áéíóú]/;
+export const stressed_regex = /[áéíóú]/;
 const unstressed_regex = /[aeiou][bcdfghjklmnpqrstvwxyz]?$/;
 // FIX: add remaining dipthongs
 const unstressed_dipthong_regex = /(ei)[bcdfghjklmnpqrstvwxyz]?$/;
-function findIndexOfStress(verb_form) {
+export function findIndexOfStress(verb_form) {
     let match = verb_form.match(stressed_regex);
     if (match) {
         return match.index;

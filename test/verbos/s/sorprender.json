@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sorprendí"],"s2":["sorprendiste"],"vos":["sorprendiste"],"s3":["sorprendió"],"p1":["sorprendimos"],"p2":["sorprendisteis"],"p3":["sorprendieron"]},
     "IndFut": {"s1":["sorprenderé"],"s2":["sorprenderás"],"vos":["sorprenderás"],"s3":["sorprenderá"],"p1":["sorprenderemos"],"p2":["sorprenderéis"],"p3":["sorprenderán"]},
     "IndCond": {"s1":["sorprendería"],"s2":["sorprenderías"],"vos":["sorprenderías"],"s3":["sorprendería"],"p1":["sorprenderíamos"],"p2":["sorprenderíais"],"p3":["sorprenderían"]},
-    "SubPres": {"s1":["sorprenda"],"s2":["sorprendas"],"vos":["sorprendas","sorprendás"],"s3":["sorprenda"],"p1":["sorprendamos"],"p2":["sorprendáis"],"p3":["sorprendan"]},
+    "SubPres": {"s1":["sorprenda"],"s2":["sorprendas"],"vos":[{"forma": "sorprendas","uso":"Riop."},{"forma":"sorprendás","uso":"C.Am."}],"s3":["sorprenda"],"p1":["sorprendamos"],"p2":["sorprendáis"],"p3":["sorprendan"]},
     "SubImp": {"s1":["sorprendiera","sorprendiese"],"s2":["sorprendieras","sorprendieses"],"vos":["sorprendieras","sorprendieses"],"s3":["sorprendiera","sorprendiese"],"p1":["sorprendiéramos","sorprendiésemos"],"p2":["sorprendierais","sorprendieseis"],"p3":["sorprendieran","sorprendiesen"]},
     "SubFut": {"s1":["sorprendiere"],"s2":["sorprendieres"],"vos":["sorprendieres"],"s3":["sorprendiere"],"p1":["sorprendiéremos"],"p2":["sorprendiereis"],"p3":["sorprendieren"]},
     "CmdPos": {"s2":["sorprende"],"vos":["sorprendé"],"s3":["sorprenda"],"p1":["sorprendamos"],"p2":["sorprended"],"p3":["sorprendan"]}

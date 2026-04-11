@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cultivé"],"s2":["cultivaste"],"vos":["cultivaste"],"s3":["cultivó"],"p1":["cultivamos"],"p2":["cultivasteis"],"p3":["cultivaron"]},
     "IndFut": {"s1":["cultivaré"],"s2":["cultivarás"],"vos":["cultivarás"],"s3":["cultivará"],"p1":["cultivaremos"],"p2":["cultivaréis"],"p3":["cultivarán"]},
     "IndCond": {"s1":["cultivaría"],"s2":["cultivarías"],"vos":["cultivarías"],"s3":["cultivaría"],"p1":["cultivaríamos"],"p2":["cultivaríais"],"p3":["cultivarían"]},
-    "SubPres": {"s1":["cultive"],"s2":["cultives"],"vos":["cultives","cultivés"],"s3":["cultive"],"p1":["cultivemos"],"p2":["cultivéis"],"p3":["cultiven"]},
+    "SubPres": {"s1":["cultive"],"s2":["cultives"],"vos":[{"forma": "cultives","uso":"Riop."},{"forma":"cultivés","uso":"C.Am."}],"s3":["cultive"],"p1":["cultivemos"],"p2":["cultivéis"],"p3":["cultiven"]},
     "SubImp": {"s1":["cultivara","cultivase"],"s2":["cultivaras","cultivases"],"vos":["cultivaras","cultivases"],"s3":["cultivara","cultivase"],"p1":["cultiváramos","cultivásemos"],"p2":["cultivarais","cultivaseis"],"p3":["cultivaran","cultivasen"]},
     "SubFut": {"s1":["cultivare"],"s2":["cultivares"],"vos":["cultivares"],"s3":["cultivare"],"p1":["cultiváremos"],"p2":["cultivareis"],"p3":["cultivaren"]},
     "CmdPos": {"s2":["cultiva"],"vos":["cultivá"],"s3":["cultive"],"p1":["cultivemos"],"p2":["cultivad"],"p3":["cultiven"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sujeté"],"s2":["sujetaste"],"vos":["sujetaste"],"s3":["sujetó"],"p1":["sujetamos"],"p2":["sujetasteis"],"p3":["sujetaron"]},
     "IndFut": {"s1":["sujetaré"],"s2":["sujetarás"],"vos":["sujetarás"],"s3":["sujetará"],"p1":["sujetaremos"],"p2":["sujetaréis"],"p3":["sujetarán"]},
     "IndCond": {"s1":["sujetaría"],"s2":["sujetarías"],"vos":["sujetarías"],"s3":["sujetaría"],"p1":["sujetaríamos"],"p2":["sujetaríais"],"p3":["sujetarían"]},
-    "SubPres": {"s1":["sujete"],"s2":["sujetes"],"vos":["sujetes","sujetés"],"s3":["sujete"],"p1":["sujetemos"],"p2":["sujetéis"],"p3":["sujeten"]},
+    "SubPres": {"s1":["sujete"],"s2":["sujetes"],"vos":[{"forma": "sujetes","uso":"Riop."},{"forma":"sujetés","uso":"C.Am."}],"s3":["sujete"],"p1":["sujetemos"],"p2":["sujetéis"],"p3":["sujeten"]},
     "SubImp": {"s1":["sujetara","sujetase"],"s2":["sujetaras","sujetases"],"vos":["sujetaras","sujetases"],"s3":["sujetara","sujetase"],"p1":["sujetáramos","sujetásemos"],"p2":["sujetarais","sujetaseis"],"p3":["sujetaran","sujetasen"]},
     "SubFut": {"s1":["sujetare"],"s2":["sujetares"],"vos":["sujetares"],"s3":["sujetare"],"p1":["sujetáremos"],"p2":["sujetareis"],"p3":["sujetaren"]},
     "CmdPos": {"s2":["sujeta"],"vos":["sujetá"],"s3":["sujete"],"p1":["sujetemos"],"p2":["sujetad"],"p3":["sujeten"]}

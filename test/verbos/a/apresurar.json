@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apresuré"],"s2":["apresuraste"],"vos":["apresuraste"],"s3":["apresuró"],"p1":["apresuramos"],"p2":["apresurasteis"],"p3":["apresuraron"]},
     "IndFut": {"s1":["apresuraré"],"s2":["apresurarás"],"vos":["apresurarás"],"s3":["apresurará"],"p1":["apresuraremos"],"p2":["apresuraréis"],"p3":["apresurarán"]},
     "IndCond": {"s1":["apresuraría"],"s2":["apresurarías"],"vos":["apresurarías"],"s3":["apresuraría"],"p1":["apresuraríamos"],"p2":["apresuraríais"],"p3":["apresurarían"]},
-    "SubPres": {"s1":["apresure"],"s2":["apresures"],"vos":["apresures","apresurés"],"s3":["apresure"],"p1":["apresuremos"],"p2":["apresuréis"],"p3":["apresuren"]},
+    "SubPres": {"s1":["apresure"],"s2":["apresures"],"vos":[{"forma": "apresures","uso":"Riop."},{"forma":"apresurés","uso":"C.Am."}],"s3":["apresure"],"p1":["apresuremos"],"p2":["apresuréis"],"p3":["apresuren"]},
     "SubImp": {"s1":["apresurara","apresurase"],"s2":["apresuraras","apresurases"],"vos":["apresuraras","apresurases"],"s3":["apresurara","apresurase"],"p1":["apresuráramos","apresurásemos"],"p2":["apresurarais","apresuraseis"],"p3":["apresuraran","apresurasen"]},
     "SubFut": {"s1":["apresurare"],"s2":["apresurares"],"vos":["apresurares"],"s3":["apresurare"],"p1":["apresuráremos"],"p2":["apresurareis"],"p3":["apresuraren"]},
     "CmdPos": {"s2":["apresura"],"vos":["apresurá"],"s3":["apresure"],"p1":["apresuremos"],"p2":["apresurad"],"p3":["apresuren"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["expandí"],"s2":["expandiste"],"vos":["expandiste"],"s3":["expandió"],"p1":["expandimos"],"p2":["expandisteis"],"p3":["expandieron"]},
     "IndFut": {"s1":["expandiré"],"s2":["expandirás"],"vos":["expandirás"],"s3":["expandirá"],"p1":["expandiremos"],"p2":["expandiréis"],"p3":["expandirán"]},
     "IndCond": {"s1":["expandiría"],"s2":["expandirías"],"vos":["expandirías"],"s3":["expandiría"],"p1":["expandiríamos"],"p2":["expandiríais"],"p3":["expandirían"]},
-    "SubPres": {"s1":["expanda"],"s2":["expandas"],"vos":["expandas","expandás"],"s3":["expanda"],"p1":["expandamos"],"p2":["expandáis"],"p3":["expandan"]},
+    "SubPres": {"s1":["expanda"],"s2":["expandas"],"vos":[{"forma": "expandas","uso":"Riop."},{"forma":"expandás","uso":"C.Am."}],"s3":["expanda"],"p1":["expandamos"],"p2":["expandáis"],"p3":["expandan"]},
     "SubImp": {"s1":["expandiera","expandiese"],"s2":["expandieras","expandieses"],"vos":["expandieras","expandieses"],"s3":["expandiera","expandiese"],"p1":["expandiéramos","expandiésemos"],"p2":["expandierais","expandieseis"],"p3":["expandieran","expandiesen"]},
     "SubFut": {"s1":["expandiere"],"s2":["expandieres"],"vos":["expandieres"],"s3":["expandiere"],"p1":["expandiéremos"],"p2":["expandiereis"],"p3":["expandieren"]},
     "CmdPos": {"s2":["expande"],"vos":["expandí"],"s3":["expanda"],"p1":["expandamos"],"p2":["expandid"],"p3":["expandan"]}

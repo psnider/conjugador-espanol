@@ -13,7 +13,7 @@
     "IndPret": {"s1":["visité"],"s2":["visitaste"],"vos":["visitaste"],"s3":["visitó"],"p1":["visitamos"],"p2":["visitasteis"],"p3":["visitaron"]},
     "IndFut": {"s1":["visitaré"],"s2":["visitarás"],"vos":["visitarás"],"s3":["visitará"],"p1":["visitaremos"],"p2":["visitaréis"],"p3":["visitarán"]},
     "IndCond": {"s1":["visitaría"],"s2":["visitarías"],"vos":["visitarías"],"s3":["visitaría"],"p1":["visitaríamos"],"p2":["visitaríais"],"p3":["visitarían"]},
-    "SubPres": {"s1":["visite"],"s2":["visites"],"vos":["visites","visités"],"s3":["visite"],"p1":["visitemos"],"p2":["visitéis"],"p3":["visiten"]},
+    "SubPres": {"s1":["visite"],"s2":["visites"],"vos":[{"forma": "visites","uso":"Riop."},{"forma":"visités","uso":"C.Am."}],"s3":["visite"],"p1":["visitemos"],"p2":["visitéis"],"p3":["visiten"]},
     "SubImp": {"s1":["visitara","visitase"],"s2":["visitaras","visitases"],"vos":["visitaras","visitases"],"s3":["visitara","visitase"],"p1":["visitáramos","visitásemos"],"p2":["visitarais","visitaseis"],"p3":["visitaran","visitasen"]},
     "SubFut": {"s1":["visitare"],"s2":["visitares"],"vos":["visitares"],"s3":["visitare"],"p1":["visitáremos"],"p2":["visitareis"],"p3":["visitaren"]},
     "CmdPos": {"s2":["visita"],"vos":["visitá"],"s3":["visite"],"p1":["visitemos"],"p2":["visitad"],"p3":["visiten"]}

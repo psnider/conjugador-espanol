@@ -13,7 +13,7 @@
     "IndPret": {"s1":["troqué"],"s2":["trocaste"],"vos":["trocaste"],"s3":["trocó"],"p1":["trocamos"],"p2":["trocasteis"],"p3":["trocaron"]},
     "IndFut": {"s1":["trocaré"],"s2":["trocarás"],"vos":["trocarás"],"s3":["trocará"],"p1":["trocaremos"],"p2":["trocaréis"],"p3":["trocarán"]},
     "IndCond": {"s1":["trocaría"],"s2":["trocarías"],"vos":["trocarías"],"s3":["trocaría"],"p1":["trocaríamos"],"p2":["trocaríais"],"p3":["trocarían"]},
-    "SubPres": {"s1":["trueque"],"s2":["trueques"],"vos":["trueques","troqués"],"s3":["trueque"],"p1":["troquemos"],"p2":["troquéis"],"p3":["truequen"]},
+    "SubPres": {"s1":["trueque"],"s2":["trueques"],"vos":[{"forma": "trueques","uso":"Riop."},{"forma":"troqués","uso":"C.Am."}],"s3":["trueque"],"p1":["troquemos"],"p2":["troquéis"],"p3":["truequen"]},
     "SubImp": {"s1":["trocara","trocase"],"s2":["trocaras","trocases"],"vos":["trocaras","trocases"],"s3":["trocara","trocase"],"p1":["trocáramos","trocásemos"],"p2":["trocarais","trocaseis"],"p3":["trocaran","trocasen"]},
     "SubFut": {"s1":["trocare"],"s2":["trocares"],"vos":["trocares"],"s3":["trocare"],"p1":["trocáremos"],"p2":["trocareis"],"p3":["trocaren"]},
     "CmdPos": {"s2":["trueca"],"vos":["trocá"],"s3":["trueque"],"p1":["troquemos"],"p2":["trocad"],"p3":["truequen"]}

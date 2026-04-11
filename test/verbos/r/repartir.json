@@ -13,7 +13,7 @@
     "IndPret": {"s1":["repartí"],"s2":["repartiste"],"vos":["repartiste"],"s3":["repartió"],"p1":["repartimos"],"p2":["repartisteis"],"p3":["repartieron"]},
     "IndFut": {"s1":["repartiré"],"s2":["repartirás"],"vos":["repartirás"],"s3":["repartirá"],"p1":["repartiremos"],"p2":["repartiréis"],"p3":["repartirán"]},
     "IndCond": {"s1":["repartiría"],"s2":["repartirías"],"vos":["repartirías"],"s3":["repartiría"],"p1":["repartiríamos"],"p2":["repartiríais"],"p3":["repartirían"]},
-    "SubPres": {"s1":["reparta"],"s2":["repartas"],"vos":["repartas","repartás"],"s3":["reparta"],"p1":["repartamos"],"p2":["repartáis"],"p3":["repartan"]},
+    "SubPres": {"s1":["reparta"],"s2":["repartas"],"vos":[{"forma": "repartas","uso":"Riop."},{"forma":"repartás","uso":"C.Am."}],"s3":["reparta"],"p1":["repartamos"],"p2":["repartáis"],"p3":["repartan"]},
     "SubImp": {"s1":["repartiera","repartiese"],"s2":["repartieras","repartieses"],"vos":["repartieras","repartieses"],"s3":["repartiera","repartiese"],"p1":["repartiéramos","repartiésemos"],"p2":["repartierais","repartieseis"],"p3":["repartieran","repartiesen"]},
     "SubFut": {"s1":["repartiere"],"s2":["repartieres"],"vos":["repartieres"],"s3":["repartiere"],"p1":["repartiéremos"],"p2":["repartiereis"],"p3":["repartieren"]},
     "CmdPos": {"s2":["reparte"],"vos":["repartí"],"s3":["reparta"],"p1":["repartamos"],"p2":["repartid"],"p3":["repartan"]}

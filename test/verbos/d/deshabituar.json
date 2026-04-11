@@ -12,7 +12,7 @@
     "IndPret": {"s1":["deshabitué"],"s2":["deshabituaste"],"vos":["deshabituaste"],"s3":["deshabituó"],"p1":["deshabituamos"],"p2":["deshabituasteis"],"p3":["deshabituaron"]},
     "IndFut": {"s1":["deshabituaré"],"s2":["deshabituarás"],"vos":["deshabituarás"],"s3":["deshabituará"],"p1":["deshabituaremos"],"p2":["deshabituaréis"],"p3":["deshabituarán"]},
     "IndCond": {"s1":["deshabituaría"],"s2":["deshabituarías"],"vos":["deshabituarías"],"s3":["deshabituaría"],"p1":["deshabituaríamos"],"p2":["deshabituaríais"],"p3":["deshabituarían"]},
-    "SubPres": {"s1":["deshabitúe"],"s2":["deshabitúes"],"vos":["deshabitúes","deshabitués"],"s3":["deshabitúe"],"p1":["deshabituemos"],"p2":["deshabituéis"],"p3":["deshabitúen"]},
+    "SubPres": {"s1":["deshabitúe"],"s2":["deshabitúes"],"vos":[{"forma": "deshabitúes","uso":"Riop."},{"forma":"deshabitués","uso":"C.Am."}],"s3":["deshabitúe"],"p1":["deshabituemos"],"p2":["deshabituéis"],"p3":["deshabitúen"]},
     "SubImp": {"s1":["deshabituara","deshabituase"],"s2":["deshabituaras","deshabituases"],"vos":["deshabituaras","deshabituases"],"s3":["deshabituara","deshabituase"],"p1":["deshabituáramos","deshabituásemos"],"p2":["deshabituarais","deshabituaseis"],"p3":["deshabituaran","deshabituasen"]},
     "SubFut": {"s1":["deshabituare"],"s2":["deshabituares"],"vos":["deshabituares"],"s3":["deshabituare"],"p1":["deshabituáremos"],"p2":["deshabituareis"],"p3":["deshabituaren"]},
     "CmdPos": {"s2":["deshabitúa"],"vos":["deshabituá"],"s3":["deshabitúe"],"p1":["deshabituemos"],"p2":["deshabituad"],"p3":["deshabitúen"]}

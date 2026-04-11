@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reciclé"],"s2":["reciclaste"],"vos":["reciclaste"],"s3":["recicló"],"p1":["reciclamos"],"p2":["reciclasteis"],"p3":["reciclaron"]},
     "IndFut": {"s1":["reciclaré"],"s2":["reciclarás"],"vos":["reciclarás"],"s3":["reciclará"],"p1":["reciclaremos"],"p2":["reciclaréis"],"p3":["reciclarán"]},
     "IndCond": {"s1":["reciclaría"],"s2":["reciclarías"],"vos":["reciclarías"],"s3":["reciclaría"],"p1":["reciclaríamos"],"p2":["reciclaríais"],"p3":["reciclarían"]},
-    "SubPres": {"s1":["recicle"],"s2":["recicles"],"vos":["recicles","reciclés"],"s3":["recicle"],"p1":["reciclemos"],"p2":["recicléis"],"p3":["reciclen"]},
+    "SubPres": {"s1":["recicle"],"s2":["recicles"],"vos":[{"forma": "recicles","uso":"Riop."},{"forma":"reciclés","uso":"C.Am."}],"s3":["recicle"],"p1":["reciclemos"],"p2":["recicléis"],"p3":["reciclen"]},
     "SubImp": {"s1":["reciclara","reciclase"],"s2":["reciclaras","reciclases"],"vos":["reciclaras","reciclases"],"s3":["reciclara","reciclase"],"p1":["recicláramos","reciclásemos"],"p2":["reciclarais","reciclaseis"],"p3":["reciclaran","reciclasen"]},
     "SubFut": {"s1":["reciclare"],"s2":["reciclares"],"vos":["reciclares"],"s3":["reciclare"],"p1":["recicláremos"],"p2":["reciclareis"],"p3":["reciclaren"]},
     "CmdPos": {"s2":["recicla"],"vos":["reciclá"],"s3":["recicle"],"p1":["reciclemos"],"p2":["reciclad"],"p3":["reciclen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["levanté"],"s2":["levantaste"],"vos":["levantaste"],"s3":["levantó"],"p1":["levantamos"],"p2":["levantasteis"],"p3":["levantaron"]},
     "IndFut": {"s1":["levantaré"],"s2":["levantarás"],"vos":["levantarás"],"s3":["levantará"],"p1":["levantaremos"],"p2":["levantaréis"],"p3":["levantarán"]},
     "IndCond": {"s1":["levantaría"],"s2":["levantarías"],"vos":["levantarías"],"s3":["levantaría"],"p1":["levantaríamos"],"p2":["levantaríais"],"p3":["levantarían"]},
-    "SubPres": {"s1":["levante"],"s2":["levantes"],"vos":["levantes","levantés"],"s3":["levante"],"p1":["levantemos"],"p2":["levantéis"],"p3":["levanten"]},
+    "SubPres": {"s1":["levante"],"s2":["levantes"],"vos":[{"forma": "levantes","uso":"Riop."},{"forma":"levantés","uso":"C.Am."}],"s3":["levante"],"p1":["levantemos"],"p2":["levantéis"],"p3":["levanten"]},
     "SubImp": {"s1":["levantara","levantase"],"s2":["levantaras","levantases"],"vos":["levantaras","levantases"],"s3":["levantara","levantase"],"p1":["levantáramos","levantásemos"],"p2":["levantarais","levantaseis"],"p3":["levantaran","levantasen"]},
     "SubFut": {"s1":["levantare"],"s2":["levantares"],"vos":["levantares"],"s3":["levantare"],"p1":["levantáremos"],"p2":["levantareis"],"p3":["levantaren"]},
     "CmdPos": {"s2":["levanta"],"vos":["levantá"],"s3":["levante"],"p1":["levantemos"],"p2":["levantad"],"p3":["levanten"]}

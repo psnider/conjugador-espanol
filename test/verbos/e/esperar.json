@@ -13,7 +13,7 @@
     "IndPret": {"s1":["esperé"],"s2":["esperaste"],"vos":["esperaste"],"s3":["esperó"],"p1":["esperamos"],"p2":["esperasteis"],"p3":["esperaron"]},
     "IndFut": {"s1":["esperaré"],"s2":["esperarás"],"vos":["esperarás"],"s3":["esperará"],"p1":["esperaremos"],"p2":["esperaréis"],"p3":["esperarán"]},
     "IndCond": {"s1":["esperaría"],"s2":["esperarías"],"vos":["esperarías"],"s3":["esperaría"],"p1":["esperaríamos"],"p2":["esperaríais"],"p3":["esperarían"]},
-    "SubPres": {"s1":["espere"],"s2":["esperes"],"vos":["esperes","esperés"],"s3":["espere"],"p1":["esperemos"],"p2":["esperéis"],"p3":["esperen"]},
+    "SubPres": {"s1":["espere"],"s2":["esperes"],"vos":[{"forma": "esperes","uso":"Riop."},{"forma":"esperés","uso":"C.Am."}],"s3":["espere"],"p1":["esperemos"],"p2":["esperéis"],"p3":["esperen"]},
     "SubImp": {"s1":["esperara","esperase"],"s2":["esperaras","esperases"],"vos":["esperaras","esperases"],"s3":["esperara","esperase"],"p1":["esperáramos","esperásemos"],"p2":["esperarais","esperaseis"],"p3":["esperaran","esperasen"]},
     "SubFut": {"s1":["esperare"],"s2":["esperares"],"vos":["esperares"],"s3":["esperare"],"p1":["esperáremos"],"p2":["esperareis"],"p3":["esperaren"]},
     "CmdPos": {"s2":["espera"],"vos":["esperá"],"s3":["espere"],"p1":["esperemos"],"p2":["esperad"],"p3":["esperen"]}

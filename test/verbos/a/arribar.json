@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arribé"],"s2":["arribaste"],"vos":["arribaste"],"s3":["arribó"],"p1":["arribamos"],"p2":["arribasteis"],"p3":["arribaron"]},
     "IndFut": {"s1":["arribaré"],"s2":["arribarás"],"vos":["arribarás"],"s3":["arribará"],"p1":["arribaremos"],"p2":["arribaréis"],"p3":["arribarán"]},
     "IndCond": {"s1":["arribaría"],"s2":["arribarías"],"vos":["arribarías"],"s3":["arribaría"],"p1":["arribaríamos"],"p2":["arribaríais"],"p3":["arribarían"]},
-    "SubPres": {"s1":["arribe"],"s2":["arribes"],"vos":["arribes","arribés"],"s3":["arribe"],"p1":["arribemos"],"p2":["arribéis"],"p3":["arriben"]},
+    "SubPres": {"s1":["arribe"],"s2":["arribes"],"vos":[{"forma": "arribes","uso":"Riop."},{"forma":"arribés","uso":"C.Am."}],"s3":["arribe"],"p1":["arribemos"],"p2":["arribéis"],"p3":["arriben"]},
     "SubImp": {"s1":["arribara","arribase"],"s2":["arribaras","arribases"],"vos":["arribaras","arribases"],"s3":["arribara","arribase"],"p1":["arribáramos","arribásemos"],"p2":["arribarais","arribaseis"],"p3":["arribaran","arribasen"]},
     "SubFut": {"s1":["arribare"],"s2":["arribares"],"vos":["arribares"],"s3":["arribare"],"p1":["arribáremos"],"p2":["arribareis"],"p3":["arribaren"]},
     "CmdPos": {"s2":["arriba"],"vos":["arribá"],"s3":["arribe"],"p1":["arribemos"],"p2":["arribad"],"p3":["arriben"]}

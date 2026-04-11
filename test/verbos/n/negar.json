@@ -13,7 +13,7 @@
     "IndPret": {"s1":["negué"],"s2":["negaste"],"vos":["negaste"],"s3":["negó"],"p1":["negamos"],"p2":["negasteis"],"p3":["negaron"]},
     "IndFut": {"s1":["negaré"],"s2":["negarás"],"vos":["negarás"],"s3":["negará"],"p1":["negaremos"],"p2":["negaréis"],"p3":["negarán"]},
     "IndCond": {"s1":["negaría"],"s2":["negarías"],"vos":["negarías"],"s3":["negaría"],"p1":["negaríamos"],"p2":["negaríais"],"p3":["negarían"]},
-    "SubPres": {"s1":["niegue"],"s2":["niegues"],"vos":["niegues","negués"],"s3":["niegue"],"p1":["neguemos"],"p2":["neguéis"],"p3":["nieguen"]},
+    "SubPres": {"s1":["niegue"],"s2":["niegues"],"vos":[{"forma": "niegues","uso":"Riop."},{"forma":"negués","uso":"C.Am."}],"s3":["niegue"],"p1":["neguemos"],"p2":["neguéis"],"p3":["nieguen"]},
     "SubImp": {"s1":["negara","negase"],"s2":["negaras","negases"],"vos":["negaras","negases"],"s3":["negara","negase"],"p1":["negáramos","negásemos"],"p2":["negarais","negaseis"],"p3":["negaran","negasen"]},
     "SubFut": {"s1":["negare"],"s2":["negares"],"vos":["negares"],"s3":["negare"],"p1":["negáremos"],"p2":["negareis"],"p3":["negaren"]},
     "CmdPos": {"s2":["niega"],"vos":["negá"],"s3":["niegue"],"p1":["neguemos"],"p2":["negad"],"p3":["nieguen"]}

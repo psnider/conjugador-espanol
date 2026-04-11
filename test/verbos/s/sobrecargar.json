@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sobrecargué"],"s2":["sobrecargaste"],"vos":["sobrecargaste"],"s3":["sobrecargó"],"p1":["sobrecargamos"],"p2":["sobrecargasteis"],"p3":["sobrecargaron"]},
     "IndFut": {"s1":["sobrecargaré"],"s2":["sobrecargarás"],"vos":["sobrecargarás"],"s3":["sobrecargará"],"p1":["sobrecargaremos"],"p2":["sobrecargaréis"],"p3":["sobrecargarán"]},
     "IndCond": {"s1":["sobrecargaría"],"s2":["sobrecargarías"],"vos":["sobrecargarías"],"s3":["sobrecargaría"],"p1":["sobrecargaríamos"],"p2":["sobrecargaríais"],"p3":["sobrecargarían"]},
-    "SubPres": {"s1":["sobrecargue"],"s2":["sobrecargues"],"vos":["sobrecargues","sobrecargués"],"s3":["sobrecargue"],"p1":["sobrecarguemos"],"p2":["sobrecarguéis"],"p3":["sobrecarguen"]},
+    "SubPres": {"s1":["sobrecargue"],"s2":["sobrecargues"],"vos":[{"forma": "sobrecargues","uso":"Riop."},{"forma":"sobrecargués","uso":"C.Am."}],"s3":["sobrecargue"],"p1":["sobrecarguemos"],"p2":["sobrecarguéis"],"p3":["sobrecarguen"]},
     "SubImp": {"s1":["sobrecargara","sobrecargase"],"s2":["sobrecargaras","sobrecargases"],"vos":["sobrecargaras","sobrecargases"],"s3":["sobrecargara","sobrecargase"],"p1":["sobrecargáramos","sobrecargásemos"],"p2":["sobrecargarais","sobrecargaseis"],"p3":["sobrecargaran","sobrecargasen"]},
     "SubFut": {"s1":["sobrecargare"],"s2":["sobrecargares"],"vos":["sobrecargares"],"s3":["sobrecargare"],"p1":["sobrecargáremos"],"p2":["sobrecargareis"],"p3":["sobrecargaren"]},
     "CmdPos": {"s2":["sobrecarga"],"vos":["sobrecargá"],"s3":["sobrecargue"],"p1":["sobrecarguemos"],"p2":["sobrecargad"],"p3":["sobrecarguen"]}

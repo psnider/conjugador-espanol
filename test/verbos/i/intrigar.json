@@ -13,7 +13,7 @@
     "IndPret": {"s1":["intrigué"],"s2":["intrigaste"],"vos":["intrigaste"],"s3":["intrigó"],"p1":["intrigamos"],"p2":["intrigasteis"],"p3":["intrigaron"]},
     "IndFut": {"s1":["intrigaré"],"s2":["intrigarás"],"vos":["intrigarás"],"s3":["intrigará"],"p1":["intrigaremos"],"p2":["intrigaréis"],"p3":["intrigarán"]},
     "IndCond": {"s1":["intrigaría"],"s2":["intrigarías"],"vos":["intrigarías"],"s3":["intrigaría"],"p1":["intrigaríamos"],"p2":["intrigaríais"],"p3":["intrigarían"]},
-    "SubPres": {"s1":["intrigue"],"s2":["intrigues"],"vos":["intrigues","intrigués"],"s3":["intrigue"],"p1":["intriguemos"],"p2":["intriguéis"],"p3":["intriguen"]},
+    "SubPres": {"s1":["intrigue"],"s2":["intrigues"],"vos":[{"forma": "intrigues","uso":"Riop."},{"forma":"intrigués","uso":"C.Am."}],"s3":["intrigue"],"p1":["intriguemos"],"p2":["intriguéis"],"p3":["intriguen"]},
     "SubImp": {"s1":["intrigara","intrigase"],"s2":["intrigaras","intrigases"],"vos":["intrigaras","intrigases"],"s3":["intrigara","intrigase"],"p1":["intrigáramos","intrigásemos"],"p2":["intrigarais","intrigaseis"],"p3":["intrigaran","intrigasen"]},
     "SubFut": {"s1":["intrigare"],"s2":["intrigares"],"vos":["intrigares"],"s3":["intrigare"],"p1":["intrigáremos"],"p2":["intrigareis"],"p3":["intrigaren"]},
     "CmdPos": {"s2":["intriga"],"vos":["intrigá"],"s3":["intrigue"],"p1":["intriguemos"],"p2":["intrigad"],"p3":["intriguen"]}

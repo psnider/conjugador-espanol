@@ -13,7 +13,7 @@
     "IndPret": {"s1":["originé"],"s2":["originaste"],"vos":["originaste"],"s3":["originó"],"p1":["originamos"],"p2":["originasteis"],"p3":["originaron"]},
     "IndFut": {"s1":["originaré"],"s2":["originarás"],"vos":["originarás"],"s3":["originará"],"p1":["originaremos"],"p2":["originaréis"],"p3":["originarán"]},
     "IndCond": {"s1":["originaría"],"s2":["originarías"],"vos":["originarías"],"s3":["originaría"],"p1":["originaríamos"],"p2":["originaríais"],"p3":["originarían"]},
-    "SubPres": {"s1":["origine"],"s2":["origines"],"vos":["origines","originés"],"s3":["origine"],"p1":["originemos"],"p2":["originéis"],"p3":["originen"]},
+    "SubPres": {"s1":["origine"],"s2":["origines"],"vos":[{"forma": "origines","uso":"Riop."},{"forma":"originés","uso":"C.Am."}],"s3":["origine"],"p1":["originemos"],"p2":["originéis"],"p3":["originen"]},
     "SubImp": {"s1":["originara","originase"],"s2":["originaras","originases"],"vos":["originaras","originases"],"s3":["originara","originase"],"p1":["origináramos","originásemos"],"p2":["originarais","originaseis"],"p3":["originaran","originasen"]},
     "SubFut": {"s1":["originare"],"s2":["originares"],"vos":["originares"],"s3":["originare"],"p1":["origináremos"],"p2":["originareis"],"p3":["originaren"]},
     "CmdPos": {"s2":["origina"],"vos":["originá"],"s3":["origine"],"p1":["originemos"],"p2":["originad"],"p3":["originen"]}

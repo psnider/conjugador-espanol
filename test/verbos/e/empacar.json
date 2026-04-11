@@ -13,7 +13,7 @@
     "IndPret": {"s1":["empaqué"],"s2":["empacaste"],"vos":["empacaste"],"s3":["empacó"],"p1":["empacamos"],"p2":["empacasteis"],"p3":["empacaron"]},
     "IndFut": {"s1":["empacaré"],"s2":["empacarás"],"vos":["empacarás"],"s3":["empacará"],"p1":["empacaremos"],"p2":["empacaréis"],"p3":["empacarán"]},
     "IndCond": {"s1":["empacaría"],"s2":["empacarías"],"vos":["empacarías"],"s3":["empacaría"],"p1":["empacaríamos"],"p2":["empacaríais"],"p3":["empacarían"]},
-    "SubPres": {"s1":["empaque"],"s2":["empaques"],"vos":["empaques","empaqués"],"s3":["empaque"],"p1":["empaquemos"],"p2":["empaquéis"],"p3":["empaquen"]},
+    "SubPres": {"s1":["empaque"],"s2":["empaques"],"vos":[{"forma": "empaques","uso":"Riop."},{"forma":"empaqués","uso":"C.Am."}],"s3":["empaque"],"p1":["empaquemos"],"p2":["empaquéis"],"p3":["empaquen"]},
     "SubImp": {"s1":["empacara","empacase"],"s2":["empacaras","empacases"],"vos":["empacaras","empacases"],"s3":["empacara","empacase"],"p1":["empacáramos","empacásemos"],"p2":["empacarais","empacaseis"],"p3":["empacaran","empacasen"]},
     "SubFut": {"s1":["empacare"],"s2":["empacares"],"vos":["empacares"],"s3":["empacare"],"p1":["empacáremos"],"p2":["empacareis"],"p3":["empacaren"]},
     "CmdPos": {"s2":["empaca"],"vos":["empacá"],"s3":["empaque"],"p1":["empaquemos"],"p2":["empacad"],"p3":["empaquen"]}

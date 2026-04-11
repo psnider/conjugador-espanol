@@ -13,9 +13,9 @@
     "IndPret": {"s1":["obtuve"],"s2":["obtuviste"],"vos":["obtuviste"],"s3":["obtuvo"],"p1":["obtuvimos"],"p2":["obtuvisteis"],"p3":["obtuvieron"]},
     "IndFut": {"s1":["obtendré"],"s2":["obtendrás"],"vos":["obtendrás"],"s3":["obtendrá"],"p1":["obtendremos"],"p2":["obtendréis"],"p3":["obtendrán"]},
     "IndCond": {"s1":["obtendría"],"s2":["obtendrías"],"vos":["obtendrías"],"s3":["obtendría"],"p1":["obtendríamos"],"p2":["obtendríais"],"p3":["obtendrían"]},
-    "SubPres": {"s1":["obtenga"],"s2":["obtengas"],"vos":["obtengas","obtengás"],"s3":["obtenga"],"p1":["obtengamos"],"p2":["obtengáis"],"p3":["obtengan"]},
+    "SubPres": {"s1":["obtenga"],"s2":["obtengas"],"vos":[{"forma": "obtengas","uso":"Riop."},{"forma":"obtengás","uso":"C.Am."}],"s3":["obtenga"],"p1":["obtengamos"],"p2":["obtengáis"],"p3":["obtengan"]},
     "SubImp": {"s1":["obtuviera","obtuviese"],"s2":["obtuvieras","obtuvieses"],"vos":["obtuvieras","obtuvieses"],"s3":["obtuviera","obtuviese"],"p1":["obtuviéramos","obtuviésemos"],"p2":["obtuvierais","obtuvieseis"],"p3":["obtuvieran","obtuviesen"]},
     "SubFut": {"s1":["obtuviere"],"s2":["obtuvieres"],"vos":["obtuvieres"],"s3":["obtuviere"],"p1":["obtuviéremos"],"p2":["obtuviereis"],"p3":["obtuvieren"]},
-    "CmdPos": {"s2":{"estándar":["obtén"],"atípicos":[{"forma":"obtiene","etiquetas":["no normativo"]}]},"vos":["obtené"],"s3":["obtenga"],"p1":["obtengamos"],"p2":["obtened"],"p3":["obtengan"]}
+    "CmdPos": {"s2":["obtén"],"vos":["obtené"],"s3":["obtenga"],"p1":["obtengamos"],"p2":["obtened"],"p3":["obtengan"]}
   }
 }

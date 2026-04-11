@@ -13,7 +13,7 @@
     "IndPret": {"s1":["disfruté"],"s2":["disfrutaste"],"vos":["disfrutaste"],"s3":["disfrutó"],"p1":["disfrutamos"],"p2":["disfrutasteis"],"p3":["disfrutaron"]},
     "IndFut": {"s1":["disfrutaré"],"s2":["disfrutarás"],"vos":["disfrutarás"],"s3":["disfrutará"],"p1":["disfrutaremos"],"p2":["disfrutaréis"],"p3":["disfrutarán"]},
     "IndCond": {"s1":["disfrutaría"],"s2":["disfrutarías"],"vos":["disfrutarías"],"s3":["disfrutaría"],"p1":["disfrutaríamos"],"p2":["disfrutaríais"],"p3":["disfrutarían"]},
-    "SubPres": {"s1":["disfrute"],"s2":["disfrutes"],"vos":["disfrutes","disfrutés"],"s3":["disfrute"],"p1":["disfrutemos"],"p2":["disfrutéis"],"p3":["disfruten"]},
+    "SubPres": {"s1":["disfrute"],"s2":["disfrutes"],"vos":[{"forma": "disfrutes","uso":"Riop."},{"forma":"disfrutés","uso":"C.Am."}],"s3":["disfrute"],"p1":["disfrutemos"],"p2":["disfrutéis"],"p3":["disfruten"]},
     "SubImp": {"s1":["disfrutara","disfrutase"],"s2":["disfrutaras","disfrutases"],"vos":["disfrutaras","disfrutases"],"s3":["disfrutara","disfrutase"],"p1":["disfrutáramos","disfrutásemos"],"p2":["disfrutarais","disfrutaseis"],"p3":["disfrutaran","disfrutasen"]},
     "SubFut": {"s1":["disfrutare"],"s2":["disfrutares"],"vos":["disfrutares"],"s3":["disfrutare"],"p1":["disfrutáremos"],"p2":["disfrutareis"],"p3":["disfrutaren"]},
     "CmdPos": {"s2":["disfruta"],"vos":["disfrutá"],"s3":["disfrute"],"p1":["disfrutemos"],"p2":["disfrutad"],"p3":["disfruten"]}

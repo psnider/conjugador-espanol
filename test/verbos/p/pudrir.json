@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pudrí"],"s2":["pudriste"],"vos":["pudriste"],"s3":["pudrió"],"p1":["pudrimos"],"p2":["pudristeis"],"p3":["pudrieron"]},
     "IndFut": {"s1":["pudriré"],"s2":["pudrirás"],"vos":["pudrirás"],"s3":["pudrirá"],"p1":["pudriremos"],"p2":["pudriréis"],"p3":["pudrirán"]},
     "IndCond": {"s1":["pudriría"],"s2":["pudrirías"],"vos":["pudrirías"],"s3":["pudriría"],"p1":["pudriríamos"],"p2":["pudriríais"],"p3":["pudrirían"]},
-    "SubPres": {"s1":["pudra"],"s2":["pudras"],"vos":["pudras","pudrás"],"s3":["pudra"],"p1":["pudramos"],"p2":["pudráis"],"p3":["pudran"]},
+    "SubPres": {"s1":["pudra"],"s2":["pudras"],"vos":[{"forma": "pudras","uso":"Riop."},{"forma":"pudrás","uso":"C.Am."}],"s3":["pudra"],"p1":["pudramos"],"p2":["pudráis"],"p3":["pudran"]},
     "SubImp": {"s1":["pudriera","pudriese"],"s2":["pudrieras","pudrieses"],"vos":["pudrieras","pudrieses"],"s3":["pudriera","pudriese"],"p1":["pudriéramos","pudriésemos"],"p2":["pudrierais","pudrieseis"],"p3":["pudrieran","pudriesen"]},
     "SubFut": {"s1":["pudriere"],"s2":["pudrieres"],"vos":["pudrieres"],"s3":["pudriere"],"p1":["pudriéremos"],"p2":["pudriereis"],"p3":["pudrieren"]},
     "CmdPos": {"s2":["pudre"],"vos":["pudrí"],"s3":["pudra"],"p1":["pudramos"],"p2":["pudrid"],"p3":["pudran"]}

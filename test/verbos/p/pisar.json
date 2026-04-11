@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pisé"],"s2":["pisaste"],"vos":["pisaste"],"s3":["pisó"],"p1":["pisamos"],"p2":["pisasteis"],"p3":["pisaron"]},
     "IndFut": {"s1":["pisaré"],"s2":["pisarás"],"vos":["pisarás"],"s3":["pisará"],"p1":["pisaremos"],"p2":["pisaréis"],"p3":["pisarán"]},
     "IndCond": {"s1":["pisaría"],"s2":["pisarías"],"vos":["pisarías"],"s3":["pisaría"],"p1":["pisaríamos"],"p2":["pisaríais"],"p3":["pisarían"]},
-    "SubPres": {"s1":["pise"],"s2":["pises"],"vos":["pises","pisés"],"s3":["pise"],"p1":["pisemos"],"p2":["piséis"],"p3":["pisen"]},
+    "SubPres": {"s1":["pise"],"s2":["pises"],"vos":[{"forma": "pises","uso":"Riop."},{"forma":"pisés","uso":"C.Am."}],"s3":["pise"],"p1":["pisemos"],"p2":["piséis"],"p3":["pisen"]},
     "SubImp": {"s1":["pisara","pisase"],"s2":["pisaras","pisases"],"vos":["pisaras","pisases"],"s3":["pisara","pisase"],"p1":["pisáramos","pisásemos"],"p2":["pisarais","pisaseis"],"p3":["pisaran","pisasen"]},
     "SubFut": {"s1":["pisare"],"s2":["pisares"],"vos":["pisares"],"s3":["pisare"],"p1":["pisáremos"],"p2":["pisareis"],"p3":["pisaren"]},
     "CmdPos": {"s2":["pisa"],"vos":["pisá"],"s3":["pise"],"p1":["pisemos"],"p2":["pisad"],"p3":["pisen"]}

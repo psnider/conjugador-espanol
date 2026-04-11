@@ -13,7 +13,7 @@
     "IndPret": {"s1":["molesté"],"s2":["molestaste"],"vos":["molestaste"],"s3":["molestó"],"p1":["molestamos"],"p2":["molestasteis"],"p3":["molestaron"]},
     "IndFut": {"s1":["molestaré"],"s2":["molestarás"],"vos":["molestarás"],"s3":["molestará"],"p1":["molestaremos"],"p2":["molestaréis"],"p3":["molestarán"]},
     "IndCond": {"s1":["molestaría"],"s2":["molestarías"],"vos":["molestarías"],"s3":["molestaría"],"p1":["molestaríamos"],"p2":["molestaríais"],"p3":["molestarían"]},
-    "SubPres": {"s1":["moleste"],"s2":["molestes"],"vos":["molestes","molestés"],"s3":["moleste"],"p1":["molestemos"],"p2":["molestéis"],"p3":["molesten"]},
+    "SubPres": {"s1":["moleste"],"s2":["molestes"],"vos":[{"forma": "molestes","uso":"Riop."},{"forma":"molestés","uso":"C.Am."}],"s3":["moleste"],"p1":["molestemos"],"p2":["molestéis"],"p3":["molesten"]},
     "SubImp": {"s1":["molestara","molestase"],"s2":["molestaras","molestases"],"vos":["molestaras","molestases"],"s3":["molestara","molestase"],"p1":["molestáramos","molestásemos"],"p2":["molestarais","molestaseis"],"p3":["molestaran","molestasen"]},
     "SubFut": {"s1":["molestare"],"s2":["molestares"],"vos":["molestares"],"s3":["molestare"],"p1":["molestáremos"],"p2":["molestareis"],"p3":["molestaren"]},
     "CmdPos": {"s2":["molesta"],"vos":["molestá"],"s3":["moleste"],"p1":["molestemos"],"p2":["molestad"],"p3":["molesten"]}

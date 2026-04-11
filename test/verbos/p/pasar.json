@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pasé"],"s2":["pasaste"],"vos":["pasaste"],"s3":["pasó"],"p1":["pasamos"],"p2":["pasasteis"],"p3":["pasaron"]},
     "IndFut": {"s1":["pasaré"],"s2":["pasarás"],"vos":["pasarás"],"s3":["pasará"],"p1":["pasaremos"],"p2":["pasaréis"],"p3":["pasarán"]},
     "IndCond": {"s1":["pasaría"],"s2":["pasarías"],"vos":["pasarías"],"s3":["pasaría"],"p1":["pasaríamos"],"p2":["pasaríais"],"p3":["pasarían"]},
-    "SubPres": {"s1":["pase"],"s2":["pases"],"vos":["pases","pasés"],"s3":["pase"],"p1":["pasemos"],"p2":["paséis"],"p3":["pasen"]},
+    "SubPres": {"s1":["pase"],"s2":["pases"],"vos":[{"forma": "pases","uso":"Riop."},{"forma":"pasés","uso":"C.Am."}],"s3":["pase"],"p1":["pasemos"],"p2":["paséis"],"p3":["pasen"]},
     "SubImp": {"s1":["pasara","pasase"],"s2":["pasaras","pasases"],"vos":["pasaras","pasases"],"s3":["pasara","pasase"],"p1":["pasáramos","pasásemos"],"p2":["pasarais","pasaseis"],"p3":["pasaran","pasasen"]},
     "SubFut": {"s1":["pasare"],"s2":["pasares"],"vos":["pasares"],"s3":["pasare"],"p1":["pasáremos"],"p2":["pasareis"],"p3":["pasaren"]},
     "CmdPos": {"s2":["pasa"],"vos":["pasá"],"s3":["pase"],"p1":["pasemos"],"p2":["pasad"],"p3":["pasen"]}

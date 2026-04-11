@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pegué"],"s2":["pegaste"],"vos":["pegaste"],"s3":["pegó"],"p1":["pegamos"],"p2":["pegasteis"],"p3":["pegaron"]},
     "IndFut": {"s1":["pegaré"],"s2":["pegarás"],"vos":["pegarás"],"s3":["pegará"],"p1":["pegaremos"],"p2":["pegaréis"],"p3":["pegarán"]},
     "IndCond": {"s1":["pegaría"],"s2":["pegarías"],"vos":["pegarías"],"s3":["pegaría"],"p1":["pegaríamos"],"p2":["pegaríais"],"p3":["pegarían"]},
-    "SubPres": {"s1":["pegue"],"s2":["pegues"],"vos":["pegues","pegués"],"s3":["pegue"],"p1":["peguemos"],"p2":["peguéis"],"p3":["peguen"]},
+    "SubPres": {"s1":["pegue"],"s2":["pegues"],"vos":[{"forma": "pegues","uso":"Riop."},{"forma":"pegués","uso":"C.Am."}],"s3":["pegue"],"p1":["peguemos"],"p2":["peguéis"],"p3":["peguen"]},
     "SubImp": {"s1":["pegara","pegase"],"s2":["pegaras","pegases"],"vos":["pegaras","pegases"],"s3":["pegara","pegase"],"p1":["pegáramos","pegásemos"],"p2":["pegarais","pegaseis"],"p3":["pegaran","pegasen"]},
     "SubFut": {"s1":["pegare"],"s2":["pegares"],"vos":["pegares"],"s3":["pegare"],"p1":["pegáremos"],"p2":["pegareis"],"p3":["pegaren"]},
     "CmdPos": {"s2":["pega"],"vos":["pegá"],"s3":["pegue"],"p1":["peguemos"],"p2":["pegad"],"p3":["peguen"]}

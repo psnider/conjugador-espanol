@@ -13,7 +13,7 @@
     "IndPret": {"s1":["posé"],"s2":["posaste"],"vos":["posaste"],"s3":["posó"],"p1":["posamos"],"p2":["posasteis"],"p3":["posaron"]},
     "IndFut": {"s1":["posaré"],"s2":["posarás"],"vos":["posarás"],"s3":["posará"],"p1":["posaremos"],"p2":["posaréis"],"p3":["posarán"]},
     "IndCond": {"s1":["posaría"],"s2":["posarías"],"vos":["posarías"],"s3":["posaría"],"p1":["posaríamos"],"p2":["posaríais"],"p3":["posarían"]},
-    "SubPres": {"s1":["pose"],"s2":["poses"],"vos":["poses","posés"],"s3":["pose"],"p1":["posemos"],"p2":["poséis"],"p3":["posen"]},
+    "SubPres": {"s1":["pose"],"s2":["poses"],"vos":[{"forma": "poses","uso":"Riop."},{"forma":"posés","uso":"C.Am."}],"s3":["pose"],"p1":["posemos"],"p2":["poséis"],"p3":["posen"]},
     "SubImp": {"s1":["posara","posase"],"s2":["posaras","posases"],"vos":["posaras","posases"],"s3":["posara","posase"],"p1":["posáramos","posásemos"],"p2":["posarais","posaseis"],"p3":["posaran","posasen"]},
     "SubFut": {"s1":["posare"],"s2":["posares"],"vos":["posares"],"s3":["posare"],"p1":["posáremos"],"p2":["posareis"],"p3":["posaren"]},
     "CmdPos": {"s2":["posa"],"vos":["posá"],"s3":["pose"],"p1":["posemos"],"p2":["posad"],"p3":["posen"]}

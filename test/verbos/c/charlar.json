@@ -13,7 +13,7 @@
     "IndPret": {"s1":["charlé"],"s2":["charlaste"],"vos":["charlaste"],"s3":["charló"],"p1":["charlamos"],"p2":["charlasteis"],"p3":["charlaron"]},
     "IndFut": {"s1":["charlaré"],"s2":["charlarás"],"vos":["charlarás"],"s3":["charlará"],"p1":["charlaremos"],"p2":["charlaréis"],"p3":["charlarán"]},
     "IndCond": {"s1":["charlaría"],"s2":["charlarías"],"vos":["charlarías"],"s3":["charlaría"],"p1":["charlaríamos"],"p2":["charlaríais"],"p3":["charlarían"]},
-    "SubPres": {"s1":["charle"],"s2":["charles"],"vos":["charles","charlés"],"s3":["charle"],"p1":["charlemos"],"p2":["charléis"],"p3":["charlen"]},
+    "SubPres": {"s1":["charle"],"s2":["charles"],"vos":[{"forma": "charles","uso":"Riop."},{"forma":"charlés","uso":"C.Am."}],"s3":["charle"],"p1":["charlemos"],"p2":["charléis"],"p3":["charlen"]},
     "SubImp": {"s1":["charlara","charlase"],"s2":["charlaras","charlases"],"vos":["charlaras","charlases"],"s3":["charlara","charlase"],"p1":["charláramos","charlásemos"],"p2":["charlarais","charlaseis"],"p3":["charlaran","charlasen"]},
     "SubFut": {"s1":["charlare"],"s2":["charlares"],"vos":["charlares"],"s3":["charlare"],"p1":["charláremos"],"p2":["charlareis"],"p3":["charlaren"]},
     "CmdPos": {"s2":["charla"],"vos":["charlá"],"s3":["charle"],"p1":["charlemos"],"p2":["charlad"],"p3":["charlen"]}

@@ -1,0 +1,23 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnseɾˈniɾ]",
+    "silabacion": "con-cer-nir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín concernō, concernĕre.",
+    "modelos": ["discernir"],
+    "impersonal": true,
+    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+  },
+  "formas_no_personales": {"infinitivo":"concernir","gerundio":["concerniendo"],"participio":["concernido"]},
+  "formas_personales": {
+    "IndPres": {"s3":["concierne"],"p3":["conciernen"]},
+    "IndImp": {"s3":["concernía"],"p3":["concernían"]},
+    "IndPret": {"s3":["concernió"],"p3":["concernieron"]},
+    "IndFut": {"s3":["concernirá"],"p3":["concernirán"]},
+    "IndCond": {"s3":["concerniría"],"p3":["concernirían"]},
+    "SubPres": {"s3":["concierna"],"p3":["conciernan"]},
+    "SubImp": {"s3":["concerniera","concerniese"],"p3":["concernieran","concerniesen"]},
+    "SubFut": {"s3":["concerniere"],"p3":["concernieren"]},
+    "CmdPos": null
+  }
+}

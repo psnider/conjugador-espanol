@@ -13,7 +13,7 @@
     "IndPret": {"s1":["colé"],"s2":["colaste"],"vos":["colaste"],"s3":["coló"],"p1":["colamos"],"p2":["colasteis"],"p3":["colaron"]},
     "IndFut": {"s1":["colaré"],"s2":["colarás"],"vos":["colarás"],"s3":["colará"],"p1":["colaremos"],"p2":["colaréis"],"p3":["colarán"]},
     "IndCond": {"s1":["colaría"],"s2":["colarías"],"vos":["colarías"],"s3":["colaría"],"p1":["colaríamos"],"p2":["colaríais"],"p3":["colarían"]},
-    "SubPres": {"s1":["cuele"],"s2":["cueles"],"vos":["cueles","colés"],"s3":["cuele"],"p1":["colemos"],"p2":["coléis"],"p3":["cuelen"]},
+    "SubPres": {"s1":["cuele"],"s2":["cueles"],"vos":[{"forma": "cueles","uso":"Riop."},{"forma":"colés","uso":"C.Am."}],"s3":["cuele"],"p1":["colemos"],"p2":["coléis"],"p3":["cuelen"]},
     "SubImp": {"s1":["colara","colase"],"s2":["colaras","colases"],"vos":["colaras","colases"],"s3":["colara","colase"],"p1":["coláramos","colásemos"],"p2":["colarais","colaseis"],"p3":["colaran","colasen"]},
     "SubFut": {"s1":["colare"],"s2":["colares"],"vos":["colares"],"s3":["colare"],"p1":["coláremos"],"p2":["colareis"],"p3":["colaren"]},
     "CmdPos": {"s2":["cuela"],"vos":["colá"],"s3":["cuele"],"p1":["colemos"],"p2":["colad"],"p3":["cuelen"]}

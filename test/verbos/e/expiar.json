@@ -12,7 +12,7 @@
     "IndPret": {"s1":["expié"],"s2":["expiaste"],"vos":["expiaste"],"s3":["expió"],"p1":["expiamos"],"p2":["expiasteis"],"p3":["expiaron"]},
     "IndFut": {"s1":["expiaré"],"s2":["expiarás"],"vos":["expiarás"],"s3":["expiará"],"p1":["expiaremos"],"p2":["expiaréis"],"p3":["expiarán"]},
     "IndCond": {"s1":["expiaría"],"s2":["expiarías"],"vos":["expiarías"],"s3":["expiaría"],"p1":["expiaríamos"],"p2":["expiaríais"],"p3":["expiarían"]},
-    "SubPres": {"s1":["expíe"],"s2":["expíes"],"vos":["expíes","expiés"],"s3":["expíe"],"p1":["expiemos"],"p2":["expiéis"],"p3":["expíen"]},
+    "SubPres": {"s1":["expíe"],"s2":["expíes"],"vos":[{"forma": "expíes","uso":"Riop."},{"forma":"expiés","uso":"C.Am."}],"s3":["expíe"],"p1":["expiemos"],"p2":["expiéis"],"p3":["expíen"]},
     "SubImp": {"s1":["expiara","expiase"],"s2":["expiaras","expiases"],"vos":["expiaras","expiases"],"s3":["expiara","expiase"],"p1":["expiáramos","expiásemos"],"p2":["expiarais","expiaseis"],"p3":["expiaran","expiasen"]},
     "SubFut": {"s1":["expiare"],"s2":["expiares"],"vos":["expiares"],"s3":["expiare"],"p1":["expiáremos"],"p2":["expiareis"],"p3":["expiaren"]},
     "CmdPos": {"s2":["expía"],"vos":["expiá"],"s3":["expíe"],"p1":["expiemos"],"p2":["expiad"],"p3":["expíen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["regañé"],"s2":["regañaste"],"vos":["regañaste"],"s3":["regañó"],"p1":["regañamos"],"p2":["regañasteis"],"p3":["regañaron"]},
     "IndFut": {"s1":["regañaré"],"s2":["regañarás"],"vos":["regañarás"],"s3":["regañará"],"p1":["regañaremos"],"p2":["regañaréis"],"p3":["regañarán"]},
     "IndCond": {"s1":["regañaría"],"s2":["regañarías"],"vos":["regañarías"],"s3":["regañaría"],"p1":["regañaríamos"],"p2":["regañaríais"],"p3":["regañarían"]},
-    "SubPres": {"s1":["regañe"],"s2":["regañes"],"vos":["regañes","regañés"],"s3":["regañe"],"p1":["regañemos"],"p2":["regañéis"],"p3":["regañen"]},
+    "SubPres": {"s1":["regañe"],"s2":["regañes"],"vos":[{"forma": "regañes","uso":"Riop."},{"forma":"regañés","uso":"C.Am."}],"s3":["regañe"],"p1":["regañemos"],"p2":["regañéis"],"p3":["regañen"]},
     "SubImp": {"s1":["regañara","regañase"],"s2":["regañaras","regañases"],"vos":["regañaras","regañases"],"s3":["regañara","regañase"],"p1":["regañáramos","regañásemos"],"p2":["regañarais","regañaseis"],"p3":["regañaran","regañasen"]},
     "SubFut": {"s1":["regañare"],"s2":["regañares"],"vos":["regañares"],"s3":["regañare"],"p1":["regañáremos"],"p2":["regañareis"],"p3":["regañaren"]},
     "CmdPos": {"s2":["regaña"],"vos":["regañá"],"s3":["regañe"],"p1":["regañemos"],"p2":["regañad"],"p3":["regañen"]}

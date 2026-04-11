@@ -13,7 +13,7 @@
     "IndPret": {"s1":["publiqué"],"s2":["publicaste"],"vos":["publicaste"],"s3":["publicó"],"p1":["publicamos"],"p2":["publicasteis"],"p3":["publicaron"]},
     "IndFut": {"s1":["publicaré"],"s2":["publicarás"],"vos":["publicarás"],"s3":["publicará"],"p1":["publicaremos"],"p2":["publicaréis"],"p3":["publicarán"]},
     "IndCond": {"s1":["publicaría"],"s2":["publicarías"],"vos":["publicarías"],"s3":["publicaría"],"p1":["publicaríamos"],"p2":["publicaríais"],"p3":["publicarían"]},
-    "SubPres": {"s1":["publique"],"s2":["publiques"],"vos":["publiques","publiqués"],"s3":["publique"],"p1":["publiquemos"],"p2":["publiquéis"],"p3":["publiquen"]},
+    "SubPres": {"s1":["publique"],"s2":["publiques"],"vos":[{"forma": "publiques","uso":"Riop."},{"forma":"publiqués","uso":"C.Am."}],"s3":["publique"],"p1":["publiquemos"],"p2":["publiquéis"],"p3":["publiquen"]},
     "SubImp": {"s1":["publicara","publicase"],"s2":["publicaras","publicases"],"vos":["publicaras","publicases"],"s3":["publicara","publicase"],"p1":["publicáramos","publicásemos"],"p2":["publicarais","publicaseis"],"p3":["publicaran","publicasen"]},
     "SubFut": {"s1":["publicare"],"s2":["publicares"],"vos":["publicares"],"s3":["publicare"],"p1":["publicáremos"],"p2":["publicareis"],"p3":["publicaren"]},
     "CmdPos": {"s2":["publica"],"vos":["publicá"],"s3":["publique"],"p1":["publiquemos"],"p2":["publicad"],"p3":["publiquen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["distendí"],"s2":["distendiste"],"vos":["distendiste"],"s3":["distendió"],"p1":["distendimos"],"p2":["distendisteis"],"p3":["distendieron"]},
     "IndFut": {"s1":["distenderé"],"s2":["distenderás"],"vos":["distenderás"],"s3":["distenderá"],"p1":["distenderemos"],"p2":["distenderéis"],"p3":["distenderán"]},
     "IndCond": {"s1":["distendería"],"s2":["distenderías"],"vos":["distenderías"],"s3":["distendería"],"p1":["distenderíamos"],"p2":["distenderíais"],"p3":["distenderían"]},
-    "SubPres": {"s1":["distienda"],"s2":["distiendas"],"vos":["distiendas","distendás"],"s3":["distienda"],"p1":["distendamos"],"p2":["distendáis"],"p3":["distiendan"]},
+    "SubPres": {"s1":["distienda"],"s2":["distiendas"],"vos":[{"forma": "distiendas","uso":"Riop."},{"forma":"distendás","uso":"C.Am."}],"s3":["distienda"],"p1":["distendamos"],"p2":["distendáis"],"p3":["distiendan"]},
     "SubImp": {"s1":["distendiera","distendiese"],"s2":["distendieras","distendieses"],"vos":["distendieras","distendieses"],"s3":["distendiera","distendiese"],"p1":["distendiéramos","distendiésemos"],"p2":["distendierais","distendieseis"],"p3":["distendieran","distendiesen"]},
     "SubFut": {"s1":["distendiere"],"s2":["distendieres"],"vos":["distendieres"],"s3":["distendiere"],"p1":["distendiéremos"],"p2":["distendiereis"],"p3":["distendieren"]},
     "CmdPos": {"s2":["distiende"],"vos":["distendé"],"s3":["distienda"],"p1":["distendamos"],"p2":["distended"],"p3":["distiendan"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["situé"],"s2":["situaste"],"vos":["situaste"],"s3":["situó"],"p1":["situamos"],"p2":["situasteis"],"p3":["situaron"]},
     "IndFut": {"s1":["situaré"],"s2":["situarás"],"vos":["situarás"],"s3":["situará"],"p1":["situaremos"],"p2":["situaréis"],"p3":["situarán"]},
     "IndCond": {"s1":["situaría"],"s2":["situarías"],"vos":["situarías"],"s3":["situaría"],"p1":["situaríamos"],"p2":["situaríais"],"p3":["situarían"]},
-    "SubPres": {"s1":["sitúe"],"s2":["sitúes"],"vos":["sitúes","situés"],"s3":["sitúe"],"p1":["situemos"],"p2":["situéis"],"p3":["sitúen"]},
+    "SubPres": {"s1":["sitúe"],"s2":["sitúes"],"vos":[{"forma": "sitúes","uso":"Riop."},{"forma":"situés","uso":"C.Am."}],"s3":["sitúe"],"p1":["situemos"],"p2":["situéis"],"p3":["sitúen"]},
     "SubImp": {"s1":["situara","situase"],"s2":["situaras","situases"],"vos":["situaras","situases"],"s3":["situara","situase"],"p1":["situáramos","situásemos"],"p2":["situarais","situaseis"],"p3":["situaran","situasen"]},
     "SubFut": {"s1":["situare"],"s2":["situares"],"vos":["situares"],"s3":["situare"],"p1":["situáremos"],"p2":["situareis"],"p3":["situaren"]},
     "CmdPos": {"s2":["sitúa"],"vos":["situá"],"s3":["sitúe"],"p1":["situemos"],"p2":["situad"],"p3":["sitúen"]}

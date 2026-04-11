@@ -13,7 +13,7 @@
     "IndPret": {"s1":["evité"],"s2":["evitaste"],"vos":["evitaste"],"s3":["evitó"],"p1":["evitamos"],"p2":["evitasteis"],"p3":["evitaron"]},
     "IndFut": {"s1":["evitaré"],"s2":["evitarás"],"vos":["evitarás"],"s3":["evitará"],"p1":["evitaremos"],"p2":["evitaréis"],"p3":["evitarán"]},
     "IndCond": {"s1":["evitaría"],"s2":["evitarías"],"vos":["evitarías"],"s3":["evitaría"],"p1":["evitaríamos"],"p2":["evitaríais"],"p3":["evitarían"]},
-    "SubPres": {"s1":["evite"],"s2":["evites"],"vos":["evites","evités"],"s3":["evite"],"p1":["evitemos"],"p2":["evitéis"],"p3":["eviten"]},
+    "SubPres": {"s1":["evite"],"s2":["evites"],"vos":[{"forma": "evites","uso":"Riop."},{"forma":"evités","uso":"C.Am."}],"s3":["evite"],"p1":["evitemos"],"p2":["evitéis"],"p3":["eviten"]},
     "SubImp": {"s1":["evitara","evitase"],"s2":["evitaras","evitases"],"vos":["evitaras","evitases"],"s3":["evitara","evitase"],"p1":["evitáramos","evitásemos"],"p2":["evitarais","evitaseis"],"p3":["evitaran","evitasen"]},
     "SubFut": {"s1":["evitare"],"s2":["evitares"],"vos":["evitares"],"s3":["evitare"],"p1":["evitáremos"],"p2":["evitareis"],"p3":["evitaren"]},
     "CmdPos": {"s2":["evita"],"vos":["evitá"],"s3":["evite"],"p1":["evitemos"],"p2":["evitad"],"p3":["eviten"]}

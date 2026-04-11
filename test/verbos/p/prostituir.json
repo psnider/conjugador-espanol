@@ -12,7 +12,7 @@
     "IndPret": {"s1":["prostituí"],"s2":["prostituiste"],"vos":["prostituiste"],"s3":["prostituyó"],"p1":["prostituimos"],"p2":["prostituisteis"],"p3":["prostituyeron"]},
     "IndFut": {"s1":["prostituiré"],"s2":["prostituirás"],"vos":["prostituirás"],"s3":["prostituirá"],"p1":["prostituiremos"],"p2":["prostituiréis"],"p3":["prostituirán"]},
     "IndCond": {"s1":["prostituiría"],"s2":["prostituirías"],"vos":["prostituirías"],"s3":["prostituiría"],"p1":["prostituiríamos"],"p2":["prostituiríais"],"p3":["prostituirían"]},
-    "SubPres": {"s1":["prostituya"],"s2":["prostituyas"],"vos":["prostituyas","prostituyás"],"s3":["prostituya"],"p1":["prostituyamos"],"p2":["prostituyáis"],"p3":["prostituyan"]},
+    "SubPres": {"s1":["prostituya"],"s2":["prostituyas"],"vos":[{"forma": "prostituyas","uso":"Riop."},{"forma":"prostituyás","uso":"C.Am."}],"s3":["prostituya"],"p1":["prostituyamos"],"p2":["prostituyáis"],"p3":["prostituyan"]},
     "SubImp": {"s1":["prostituyera","prostituyese"],"s2":["prostituyeras","prostituyeses"],"vos":["prostituyeras","prostituyeses"],"s3":["prostituyera","prostituyese"],"p1":["prostituyéramos","prostituyésemos"],"p2":["prostituyerais","prostituyeseis"],"p3":["prostituyeran","prostituyesen"]},
     "SubFut": {"s1":["prostituyere"],"s2":["prostituyeres"],"vos":["prostituyeres"],"s3":["prostituyere"],"p1":["prostituyéremos"],"p2":["prostituyereis"],"p3":["prostituyeren"]},
     "CmdPos": {"s2":["prostituye"],"vos":["prostituí"],"s3":["prostituya"],"p1":["prostituyamos"],"p2":["prostituid"],"p3":["prostituyan"]}

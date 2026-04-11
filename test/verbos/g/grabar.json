@@ -13,7 +13,7 @@
     "IndPret": {"s1":["grabé"],"s2":["grabaste"],"vos":["grabaste"],"s3":["grabó"],"p1":["grabamos"],"p2":["grabasteis"],"p3":["grabaron"]},
     "IndFut": {"s1":["grabaré"],"s2":["grabarás"],"vos":["grabarás"],"s3":["grabará"],"p1":["grabaremos"],"p2":["grabaréis"],"p3":["grabarán"]},
     "IndCond": {"s1":["grabaría"],"s2":["grabarías"],"vos":["grabarías"],"s3":["grabaría"],"p1":["grabaríamos"],"p2":["grabaríais"],"p3":["grabarían"]},
-    "SubPres": {"s1":["grabe"],"s2":["grabes"],"vos":["grabes","grabés"],"s3":["grabe"],"p1":["grabemos"],"p2":["grabéis"],"p3":["graben"]},
+    "SubPres": {"s1":["grabe"],"s2":["grabes"],"vos":[{"forma": "grabes","uso":"Riop."},{"forma":"grabés","uso":"C.Am."}],"s3":["grabe"],"p1":["grabemos"],"p2":["grabéis"],"p3":["graben"]},
     "SubImp": {"s1":["grabara","grabase"],"s2":["grabaras","grabases"],"vos":["grabaras","grabases"],"s3":["grabara","grabase"],"p1":["grabáramos","grabásemos"],"p2":["grabarais","grabaseis"],"p3":["grabaran","grabasen"]},
     "SubFut": {"s1":["grabare"],"s2":["grabares"],"vos":["grabares"],"s3":["grabare"],"p1":["grabáremos"],"p2":["grabareis"],"p3":["grabaren"]},
     "CmdPos": {"s2":["graba"],"vos":["grabá"],"s3":["grabe"],"p1":["grabemos"],"p2":["grabad"],"p3":["graben"]}

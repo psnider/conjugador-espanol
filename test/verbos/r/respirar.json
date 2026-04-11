@@ -13,7 +13,7 @@
     "IndPret": {"s1":["respiré"],"s2":["respiraste"],"vos":["respiraste"],"s3":["respiró"],"p1":["respiramos"],"p2":["respirasteis"],"p3":["respiraron"]},
     "IndFut": {"s1":["respiraré"],"s2":["respirarás"],"vos":["respirarás"],"s3":["respirará"],"p1":["respiraremos"],"p2":["respiraréis"],"p3":["respirarán"]},
     "IndCond": {"s1":["respiraría"],"s2":["respirarías"],"vos":["respirarías"],"s3":["respiraría"],"p1":["respiraríamos"],"p2":["respiraríais"],"p3":["respirarían"]},
-    "SubPres": {"s1":["respire"],"s2":["respires"],"vos":["respires","respirés"],"s3":["respire"],"p1":["respiremos"],"p2":["respiréis"],"p3":["respiren"]},
+    "SubPres": {"s1":["respire"],"s2":["respires"],"vos":[{"forma": "respires","uso":"Riop."},{"forma":"respirés","uso":"C.Am."}],"s3":["respire"],"p1":["respiremos"],"p2":["respiréis"],"p3":["respiren"]},
     "SubImp": {"s1":["respirara","respirase"],"s2":["respiraras","respirases"],"vos":["respiraras","respirases"],"s3":["respirara","respirase"],"p1":["respiráramos","respirásemos"],"p2":["respirarais","respiraseis"],"p3":["respiraran","respirasen"]},
     "SubFut": {"s1":["respirare"],"s2":["respirares"],"vos":["respirares"],"s3":["respirare"],"p1":["respiráremos"],"p2":["respirareis"],"p3":["respiraren"]},
     "CmdPos": {"s2":["respira"],"vos":["respirá"],"s3":["respire"],"p1":["respiremos"],"p2":["respirad"],"p3":["respiren"]}

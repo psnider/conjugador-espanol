@@ -13,7 +13,7 @@
     "IndPret": {"s1":["chismeé"],"s2":["chismeaste"],"vos":["chismeaste"],"s3":["chismeó"],"p1":["chismeamos"],"p2":["chismeasteis"],"p3":["chismearon"]},
     "IndFut": {"s1":["chismearé"],"s2":["chismearás"],"vos":["chismearás"],"s3":["chismeará"],"p1":["chismearemos"],"p2":["chismearéis"],"p3":["chismearán"]},
     "IndCond": {"s1":["chismearía"],"s2":["chismearías"],"vos":["chismearías"],"s3":["chismearía"],"p1":["chismearíamos"],"p2":["chismearíais"],"p3":["chismearían"]},
-    "SubPres": {"s1":["chismee"],"s2":["chismees"],"vos":["chismees","chismeés"],"s3":["chismee"],"p1":["chismeemos"],"p2":["chismeéis"],"p3":["chismeen"]},
+    "SubPres": {"s1":["chismee"],"s2":["chismees"],"vos":[{"forma": "chismees","uso":"Riop."},{"forma":"chismeés","uso":"C.Am."}],"s3":["chismee"],"p1":["chismeemos"],"p2":["chismeéis"],"p3":["chismeen"]},
     "SubImp": {"s1":["chismeara","chismease"],"s2":["chismearas","chismeases"],"vos":["chismearas","chismeases"],"s3":["chismeara","chismease"],"p1":["chismeáramos","chismeásemos"],"p2":["chismearais","chismeaseis"],"p3":["chismearan","chismeasen"]},
     "SubFut": {"s1":["chismeare"],"s2":["chismeares"],"vos":["chismeares"],"s3":["chismeare"],"p1":["chismeáremos"],"p2":["chismeareis"],"p3":["chismearen"]},
     "CmdPos": {"s2":["chismea"],"vos":["chismeá"],"s3":["chismee"],"p1":["chismeemos"],"p2":["chismead"],"p3":["chismeen"]}

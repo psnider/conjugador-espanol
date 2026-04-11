@@ -29,11 +29,11 @@ export function moveStress(word: string, move: {from?: number, to?: number}) {
 }
 
 
-const stressed_regex = /[áéíóú]/
+export const stressed_regex = /[áéíóú]/
 const unstressed_regex = /[aeiou][bcdfghjklmnpqrstvwxyz]?$/
 // FIX: add remaining dipthongs
 const unstressed_dipthong_regex = /(ei)[bcdfghjklmnpqrstvwxyz]?$/
-function findIndexOfStress(verb_form: string) : number | undefined {
+export function findIndexOfStress(verb_form: string) : number | undefined {
     let match = verb_form.match(stressed_regex)
     if (match) {
         return match.index

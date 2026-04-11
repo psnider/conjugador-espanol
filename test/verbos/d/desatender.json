@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desatendí"],"s2":["desatendiste"],"vos":["desatendiste"],"s3":["desatendió"],"p1":["desatendimos"],"p2":["desatendisteis"],"p3":["desatendieron"]},
     "IndFut": {"s1":["desatenderé"],"s2":["desatenderás"],"vos":["desatenderás"],"s3":["desatenderá"],"p1":["desatenderemos"],"p2":["desatenderéis"],"p3":["desatenderán"]},
     "IndCond": {"s1":["desatendería"],"s2":["desatenderías"],"vos":["desatenderías"],"s3":["desatendería"],"p1":["desatenderíamos"],"p2":["desatenderíais"],"p3":["desatenderían"]},
-    "SubPres": {"s1":["desatienda"],"s2":["desatiendas"],"vos":["desatiendas","desatendás"],"s3":["desatienda"],"p1":["desatendamos"],"p2":["desatendáis"],"p3":["desatiendan"]},
+    "SubPres": {"s1":["desatienda"],"s2":["desatiendas"],"vos":[{"forma": "desatiendas","uso":"Riop."},{"forma":"desatendás","uso":"C.Am."}],"s3":["desatienda"],"p1":["desatendamos"],"p2":["desatendáis"],"p3":["desatiendan"]},
     "SubImp": {"s1":["desatendiera","desatendiese"],"s2":["desatendieras","desatendieses"],"vos":["desatendieras","desatendieses"],"s3":["desatendiera","desatendiese"],"p1":["desatendiéramos","desatendiésemos"],"p2":["desatendierais","desatendieseis"],"p3":["desatendieran","desatendiesen"]},
     "SubFut": {"s1":["desatendiere"],"s2":["desatendieres"],"vos":["desatendieres"],"s3":["desatendiere"],"p1":["desatendiéremos"],"p2":["desatendiereis"],"p3":["desatendieren"]},
     "CmdPos": {"s2":["desatiende"],"vos":["desatendé"],"s3":["desatienda"],"p1":["desatendamos"],"p2":["desatended"],"p3":["desatiendan"]}

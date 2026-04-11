@@ -12,7 +12,7 @@
     "IndPret": {"s1":["atribuí"],"s2":["atribuiste"],"vos":["atribuiste"],"s3":["atribuyó"],"p1":["atribuimos"],"p2":["atribuisteis"],"p3":["atribuyeron"]},
     "IndFut": {"s1":["atribuiré"],"s2":["atribuirás"],"vos":["atribuirás"],"s3":["atribuirá"],"p1":["atribuiremos"],"p2":["atribuiréis"],"p3":["atribuirán"]},
     "IndCond": {"s1":["atribuiría"],"s2":["atribuirías"],"vos":["atribuirías"],"s3":["atribuiría"],"p1":["atribuiríamos"],"p2":["atribuiríais"],"p3":["atribuirían"]},
-    "SubPres": {"s1":["atribuya"],"s2":["atribuyas"],"vos":["atribuyas","atribuyás"],"s3":["atribuya"],"p1":["atribuyamos"],"p2":["atribuyáis"],"p3":["atribuyan"]},
+    "SubPres": {"s1":["atribuya"],"s2":["atribuyas"],"vos":[{"forma": "atribuyas","uso":"Riop."},{"forma":"atribuyás","uso":"C.Am."}],"s3":["atribuya"],"p1":["atribuyamos"],"p2":["atribuyáis"],"p3":["atribuyan"]},
     "SubImp": {"s1":["atribuyera","atribuyese"],"s2":["atribuyeras","atribuyeses"],"vos":["atribuyeras","atribuyeses"],"s3":["atribuyera","atribuyese"],"p1":["atribuyéramos","atribuyésemos"],"p2":["atribuyerais","atribuyeseis"],"p3":["atribuyeran","atribuyesen"]},
     "SubFut": {"s1":["atribuyere"],"s2":["atribuyeres"],"vos":["atribuyeres"],"s3":["atribuyere"],"p1":["atribuyéremos"],"p2":["atribuyereis"],"p3":["atribuyeren"]},
     "CmdPos": {"s2":["atribuye"],"vos":["atribuí"],"s3":["atribuya"],"p1":["atribuyamos"],"p2":["atribuid"],"p3":["atribuyan"]}

@@ -13,9 +13,9 @@
     "IndPret": {"s1":["sostuve"],"s2":["sostuviste"],"vos":["sostuviste"],"s3":["sostuvo"],"p1":["sostuvimos"],"p2":["sostuvisteis"],"p3":["sostuvieron"]},
     "IndFut": {"s1":["sostendré"],"s2":["sostendrás"],"vos":["sostendrás"],"s3":["sostendrá"],"p1":["sostendremos"],"p2":["sostendréis"],"p3":["sostendrán"]},
     "IndCond": {"s1":["sostendría"],"s2":["sostendrías"],"vos":["sostendrías"],"s3":["sostendría"],"p1":["sostendríamos"],"p2":["sostendríais"],"p3":["sostendrían"]},
-    "SubPres": {"s1":["sostenga"],"s2":["sostengas"],"vos":["sostengas","sostengás"],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostengáis"],"p3":["sostengan"]},
+    "SubPres": {"s1":["sostenga"],"s2":["sostengas"],"vos":[{"forma": "sostengas","uso":"Riop."},{"forma":"sostengás","uso":"C.Am."}],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostengáis"],"p3":["sostengan"]},
     "SubImp": {"s1":["sostuviera","sostuviese"],"s2":["sostuvieras","sostuvieses"],"vos":["sostuvieras","sostuvieses"],"s3":["sostuviera","sostuviese"],"p1":["sostuviéramos","sostuviésemos"],"p2":["sostuvierais","sostuvieseis"],"p3":["sostuvieran","sostuviesen"]},
     "SubFut": {"s1":["sostuviere"],"s2":["sostuvieres"],"vos":["sostuvieres"],"s3":["sostuviere"],"p1":["sostuviéremos"],"p2":["sostuviereis"],"p3":["sostuvieren"]},
-    "CmdPos": {"s2":{"estándar":["sostén"],"atípicos":[{"forma":"sostiene","etiquetas":["no normativo"]}]},"vos":["sostené"],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostened"],"p3":["sostengan"]}
+    "CmdPos": {"s2":["sostén"],"vos":["sostené"],"s3":["sostenga"],"p1":["sostengamos"],"p2":["sostened"],"p3":["sostengan"]}
   }
 }

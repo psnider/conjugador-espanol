@@ -13,7 +13,7 @@
     "IndPret": {"s1":["invertí"],"s2":["invertiste"],"vos":["invertiste"],"s3":["invirtió"],"p1":["invertimos"],"p2":["invertisteis"],"p3":["invirtieron"]},
     "IndFut": {"s1":["invertiré"],"s2":["invertirás"],"vos":["invertirás"],"s3":["invertirá"],"p1":["invertiremos"],"p2":["invertiréis"],"p3":["invertirán"]},
     "IndCond": {"s1":["invertiría"],"s2":["invertirías"],"vos":["invertirías"],"s3":["invertiría"],"p1":["invertiríamos"],"p2":["invertiríais"],"p3":["invertirían"]},
-    "SubPres": {"s1":["invierta"],"s2":["inviertas"],"vos":["inviertas","invirtás"],"s3":["invierta"],"p1":["invirtamos"],"p2":["invirtáis"],"p3":["inviertan"]},
+    "SubPres": {"s1":["invierta"],"s2":["inviertas"],"vos":[{"forma": "inviertas","uso":"Riop."},{"forma":"invirtás","uso":"C.Am."}],"s3":["invierta"],"p1":["invirtamos"],"p2":["invirtáis"],"p3":["inviertan"]},
     "SubImp": {"s1":["invirtiera","invirtiese"],"s2":["invirtieras","invirtieses"],"vos":["invirtieras","invirtieses"],"s3":["invirtiera","invirtiese"],"p1":["invirtiéramos","invirtiésemos"],"p2":["invirtierais","invirtieseis"],"p3":["invirtieran","invirtiesen"]},
     "SubFut": {"s1":["invirtiere"],"s2":["invirtieres"],"vos":["invirtieres"],"s3":["invirtiere"],"p1":["invirtiéremos"],"p2":["invirtiereis"],"p3":["invirtieren"]},
     "CmdPos": {"s2":["invierte"],"vos":["invertí"],"s3":["invierta"],"p1":["invirtamos"],"p2":["invertid"],"p3":["inviertan"]}

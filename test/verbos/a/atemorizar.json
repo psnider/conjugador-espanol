@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atemoricé"],"s2":["atemorizaste"],"vos":["atemorizaste"],"s3":["atemorizó"],"p1":["atemorizamos"],"p2":["atemorizasteis"],"p3":["atemorizaron"]},
     "IndFut": {"s1":["atemorizaré"],"s2":["atemorizarás"],"vos":["atemorizarás"],"s3":["atemorizará"],"p1":["atemorizaremos"],"p2":["atemorizaréis"],"p3":["atemorizarán"]},
     "IndCond": {"s1":["atemorizaría"],"s2":["atemorizarías"],"vos":["atemorizarías"],"s3":["atemorizaría"],"p1":["atemorizaríamos"],"p2":["atemorizaríais"],"p3":["atemorizarían"]},
-    "SubPres": {"s1":["atemorice"],"s2":["atemorices"],"vos":["atemorices","atemoricés"],"s3":["atemorice"],"p1":["atemoricemos"],"p2":["atemoricéis"],"p3":["atemoricen"]},
+    "SubPres": {"s1":["atemorice"],"s2":["atemorices"],"vos":[{"forma": "atemorices","uso":"Riop."},{"forma":"atemoricés","uso":"C.Am."}],"s3":["atemorice"],"p1":["atemoricemos"],"p2":["atemoricéis"],"p3":["atemoricen"]},
     "SubImp": {"s1":["atemorizara","atemorizase"],"s2":["atemorizaras","atemorizases"],"vos":["atemorizaras","atemorizases"],"s3":["atemorizara","atemorizase"],"p1":["atemorizáramos","atemorizásemos"],"p2":["atemorizarais","atemorizaseis"],"p3":["atemorizaran","atemorizasen"]},
     "SubFut": {"s1":["atemorizare"],"s2":["atemorizares"],"vos":["atemorizares"],"s3":["atemorizare"],"p1":["atemorizáremos"],"p2":["atemorizareis"],"p3":["atemorizaren"]},
     "CmdPos": {"s2":["atemoriza"],"vos":["atemorizá"],"s3":["atemorice"],"p1":["atemoricemos"],"p2":["atemorizad"],"p3":["atemoricen"]}

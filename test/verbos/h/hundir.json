@@ -13,7 +13,7 @@
     "IndPret": {"s1":["hundí"],"s2":["hundiste"],"vos":["hundiste"],"s3":["hundió"],"p1":["hundimos"],"p2":["hundisteis"],"p3":["hundieron"]},
     "IndFut": {"s1":["hundiré"],"s2":["hundirás"],"vos":["hundirás"],"s3":["hundirá"],"p1":["hundiremos"],"p2":["hundiréis"],"p3":["hundirán"]},
     "IndCond": {"s1":["hundiría"],"s2":["hundirías"],"vos":["hundirías"],"s3":["hundiría"],"p1":["hundiríamos"],"p2":["hundiríais"],"p3":["hundirían"]},
-    "SubPres": {"s1":["hunda"],"s2":["hundas"],"vos":["hundas","hundás"],"s3":["hunda"],"p1":["hundamos"],"p2":["hundáis"],"p3":["hundan"]},
+    "SubPres": {"s1":["hunda"],"s2":["hundas"],"vos":[{"forma": "hundas","uso":"Riop."},{"forma":"hundás","uso":"C.Am."}],"s3":["hunda"],"p1":["hundamos"],"p2":["hundáis"],"p3":["hundan"]},
     "SubImp": {"s1":["hundiera","hundiese"],"s2":["hundieras","hundieses"],"vos":["hundieras","hundieses"],"s3":["hundiera","hundiese"],"p1":["hundiéramos","hundiésemos"],"p2":["hundierais","hundieseis"],"p3":["hundieran","hundiesen"]},
     "SubFut": {"s1":["hundiere"],"s2":["hundieres"],"vos":["hundieres"],"s3":["hundiere"],"p1":["hundiéremos"],"p2":["hundiereis"],"p3":["hundieren"]},
     "CmdPos": {"s2":["hunde"],"vos":["hundí"],"s3":["hunda"],"p1":["hundamos"],"p2":["hundid"],"p3":["hundan"]}

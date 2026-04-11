@@ -13,7 +13,7 @@
     "IndPret": {"s1":["matcheé"],"s2":["matcheaste"],"vos":["matcheaste"],"s3":["matcheó"],"p1":["matcheamos"],"p2":["matcheasteis"],"p3":["matchearon"]},
     "IndFut": {"s1":["matchearé"],"s2":["matchearás"],"vos":["matchearás"],"s3":["matcheará"],"p1":["matchearemos"],"p2":["matchearéis"],"p3":["matchearán"]},
     "IndCond": {"s1":["matchearía"],"s2":["matchearías"],"vos":["matchearías"],"s3":["matchearía"],"p1":["matchearíamos"],"p2":["matchearíais"],"p3":["matchearían"]},
-    "SubPres": {"s1":["matchee"],"s2":["matchees"],"vos":["matchees","matcheés"],"s3":["matchee"],"p1":["matcheemos"],"p2":["matcheéis"],"p3":["matcheen"]},
+    "SubPres": {"s1":["matchee"],"s2":["matchees"],"vos":[{"forma": "matchees","uso":"Riop."},{"forma":"matcheés","uso":"C.Am."}],"s3":["matchee"],"p1":["matcheemos"],"p2":["matcheéis"],"p3":["matcheen"]},
     "SubImp": {"s1":["matcheara","matchease"],"s2":["matchearas","matcheases"],"vos":["matchearas","matcheases"],"s3":["matcheara","matchease"],"p1":["matcheáramos","matcheásemos"],"p2":["matchearais","matcheaseis"],"p3":["matchearan","matcheasen"]},
     "SubFut": {"s1":["matcheare"],"s2":["matcheares"],"vos":["matcheares"],"s3":["matcheare"],"p1":["matcheáremos"],"p2":["matcheareis"],"p3":["matchearen"]},
     "CmdPos": {"s2":["matchea"],"vos":["matcheá"],"s3":["matchee"],"p1":["matcheemos"],"p2":["matchead"],"p3":["matcheen"]}

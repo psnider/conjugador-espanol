@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞aˈt̪iɾ]",
+    "silabacion": "a-ba-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y batir.[1]",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"abatir","gerundio":["abatiendo"],"participio":["abatido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["abato"],"s2":["abates"],"vos":["abatís"],"s3":["abate"],"p1":["abatimos"],"p2":["abatís"],"p3":["abaten"]},
+    "IndImp": {"s1":["abatía"],"s2":["abatías"],"vos":["abatías"],"s3":["abatía"],"p1":["abatíamos"],"p2":["abatíais"],"p3":["abatían"]},
+    "IndPret": {"s1":["abatí"],"s2":["abatiste"],"vos":["abatiste"],"s3":["abatió"],"p1":["abatimos"],"p2":["abatisteis"],"p3":["abatieron"]},
+    "IndFut": {"s1":["abatiré"],"s2":["abatirás"],"vos":["abatirás"],"s3":["abatirá"],"p1":["abatiremos"],"p2":["abatiréis"],"p3":["abatirán"]},
+    "IndCond": {"s1":["abatiría"],"s2":["abatirías"],"vos":["abatirías"],"s3":["abatiría"],"p1":["abatiríamos"],"p2":["abatiríais"],"p3":["abatirían"]},
+    "SubPres": {"s1":["abata"],"s2":["abatas"],"vos":["abatas","abatás"],"s3":["abata"],"p1":["abatamos"],"p2":["abatáis"],"p3":["abatan"]},
+    "SubImp": {"s1":["abatiera","abatiese"],"s2":["abatieras","abatieses"],"vos":["abatieras","abatieses"],"s3":["abatiera","abatiese"],"p1":["abatiéramos","abatiésemos"],"p2":["abatierais","abatieseis"],"p3":["abatieran","abatiesen"]},
+    "SubFut": {"s1":["abatiere"],"s2":["abatieres"],"vos":["abatieres"],"s3":["abatiere"],"p1":["abatiéremos"],"p2":["abatiereis"],"p3":["abatieren"]},
+    "CmdPos": {"s2":["abate"],"vos":["abatí"],"s3":["abata"],"p1":["abatamos"],"p2":["abatid"],"p3":["abatan"]}
+  }
+}

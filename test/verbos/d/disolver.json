@@ -13,7 +13,7 @@
     "IndPret": {"s1":["disolví"],"s2":["disolviste"],"vos":["disolviste"],"s3":["disolvió"],"p1":["disolvimos"],"p2":["disolvisteis"],"p3":["disolvieron"]},
     "IndFut": {"s1":["disolveré"],"s2":["disolverás"],"vos":["disolverás"],"s3":["disolverá"],"p1":["disolveremos"],"p2":["disolveréis"],"p3":["disolverán"]},
     "IndCond": {"s1":["disolvería"],"s2":["disolverías"],"vos":["disolverías"],"s3":["disolvería"],"p1":["disolveríamos"],"p2":["disolveríais"],"p3":["disolverían"]},
-    "SubPres": {"s1":["disuelva"],"s2":["disuelvas"],"vos":["disuelvas","disolvás"],"s3":["disuelva"],"p1":["disolvamos"],"p2":["disolváis"],"p3":["disuelvan"]},
+    "SubPres": {"s1":["disuelva"],"s2":["disuelvas"],"vos":[{"forma": "disuelvas","uso":"Riop."},{"forma":"disolvás","uso":"C.Am."}],"s3":["disuelva"],"p1":["disolvamos"],"p2":["disolváis"],"p3":["disuelvan"]},
     "SubImp": {"s1":["disolviera","disolviese"],"s2":["disolvieras","disolvieses"],"vos":["disolvieras","disolvieses"],"s3":["disolviera","disolviese"],"p1":["disolviéramos","disolviésemos"],"p2":["disolvierais","disolvieseis"],"p3":["disolvieran","disolviesen"]},
     "SubFut": {"s1":["disolviere"],"s2":["disolvieres"],"vos":["disolvieres"],"s3":["disolviere"],"p1":["disolviéremos"],"p2":["disolviereis"],"p3":["disolvieren"]},
     "CmdPos": {"s2":["disuelve"],"vos":["disolvé"],"s3":["disuelva"],"p1":["disolvamos"],"p2":["disolved"],"p3":["disuelvan"]}

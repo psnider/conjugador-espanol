@@ -12,7 +12,7 @@
     "IndPret": {"s1":["inicié"],"s2":["iniciaste"],"vos":["iniciaste"],"s3":["inició"],"p1":["iniciamos"],"p2":["iniciasteis"],"p3":["iniciaron"]},
     "IndFut": {"s1":["iniciaré"],"s2":["iniciarás"],"vos":["iniciarás"],"s3":["iniciará"],"p1":["iniciaremos"],"p2":["iniciaréis"],"p3":["iniciarán"]},
     "IndCond": {"s1":["iniciaría"],"s2":["iniciarías"],"vos":["iniciarías"],"s3":["iniciaría"],"p1":["iniciaríamos"],"p2":["iniciaríais"],"p3":["iniciarían"]},
-    "SubPres": {"s1":["inicie"],"s2":["inicies"],"vos":["inicies","iniciés"],"s3":["inicie"],"p1":["iniciemos"],"p2":["iniciéis"],"p3":["inicien"]},
+    "SubPres": {"s1":["inicie"],"s2":["inicies"],"vos":[{"forma": "inicies","uso":"Riop."},{"forma":"iniciés","uso":"C.Am."}],"s3":["inicie"],"p1":["iniciemos"],"p2":["iniciéis"],"p3":["inicien"]},
     "SubImp": {"s1":["iniciara","iniciase"],"s2":["iniciaras","iniciases"],"vos":["iniciaras","iniciases"],"s3":["iniciara","iniciase"],"p1":["iniciáramos","iniciásemos"],"p2":["iniciarais","iniciaseis"],"p3":["iniciaran","iniciasen"]},
     "SubFut": {"s1":["iniciare"],"s2":["iniciares"],"vos":["iniciares"],"s3":["iniciare"],"p1":["iniciáremos"],"p2":["iniciareis"],"p3":["iniciaren"]},
     "CmdPos": {"s2":["inicia"],"vos":["iniciá"],"s3":["inicie"],"p1":["iniciemos"],"p2":["iniciad"],"p3":["inicien"]}

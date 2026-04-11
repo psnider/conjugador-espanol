@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ofrecí"],"s2":["ofreciste"],"vos":["ofreciste"],"s3":["ofreció"],"p1":["ofrecimos"],"p2":["ofrecisteis"],"p3":["ofrecieron"]},
     "IndFut": {"s1":["ofreceré"],"s2":["ofrecerás"],"vos":["ofrecerás"],"s3":["ofrecerá"],"p1":["ofreceremos"],"p2":["ofreceréis"],"p3":["ofrecerán"]},
     "IndCond": {"s1":["ofrecería"],"s2":["ofrecerías"],"vos":["ofrecerías"],"s3":["ofrecería"],"p1":["ofreceríamos"],"p2":["ofreceríais"],"p3":["ofrecerían"]},
-    "SubPres": {"s1":["ofrezca"],"s2":["ofrezcas"],"vos":["ofrezcas","ofrezcás"],"s3":["ofrezca"],"p1":["ofrezcamos"],"p2":["ofrezcáis"],"p3":["ofrezcan"]},
+    "SubPres": {"s1":["ofrezca"],"s2":["ofrezcas"],"vos":[{"forma": "ofrezcas","uso":"Riop."},{"forma":"ofrezcás","uso":"C.Am."}],"s3":["ofrezca"],"p1":["ofrezcamos"],"p2":["ofrezcáis"],"p3":["ofrezcan"]},
     "SubImp": {"s1":["ofreciera","ofreciese"],"s2":["ofrecieras","ofrecieses"],"vos":["ofrecieras","ofrecieses"],"s3":["ofreciera","ofreciese"],"p1":["ofreciéramos","ofreciésemos"],"p2":["ofrecierais","ofrecieseis"],"p3":["ofrecieran","ofreciesen"]},
     "SubFut": {"s1":["ofreciere"],"s2":["ofrecieres"],"vos":["ofrecieres"],"s3":["ofreciere"],"p1":["ofreciéremos"],"p2":["ofreciereis"],"p3":["ofrecieren"]},
     "CmdPos": {"s2":["ofrece"],"vos":["ofrecé"],"s3":["ofrezca"],"p1":["ofrezcamos"],"p2":["ofreced"],"p3":["ofrezcan"]}

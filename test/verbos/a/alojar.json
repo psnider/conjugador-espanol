@@ -13,7 +13,7 @@
     "IndPret": {"s1":["alojé"],"s2":["alojaste"],"vos":["alojaste"],"s3":["alojó"],"p1":["alojamos"],"p2":["alojasteis"],"p3":["alojaron"]},
     "IndFut": {"s1":["alojaré"],"s2":["alojarás"],"vos":["alojarás"],"s3":["alojará"],"p1":["alojaremos"],"p2":["alojaréis"],"p3":["alojarán"]},
     "IndCond": {"s1":["alojaría"],"s2":["alojarías"],"vos":["alojarías"],"s3":["alojaría"],"p1":["alojaríamos"],"p2":["alojaríais"],"p3":["alojarían"]},
-    "SubPres": {"s1":["aloje"],"s2":["alojes"],"vos":["alojes","alojés"],"s3":["aloje"],"p1":["alojemos"],"p2":["alojéis"],"p3":["alojen"]},
+    "SubPres": {"s1":["aloje"],"s2":["alojes"],"vos":[{"forma": "alojes","uso":"Riop."},{"forma":"alojés","uso":"C.Am."}],"s3":["aloje"],"p1":["alojemos"],"p2":["alojéis"],"p3":["alojen"]},
     "SubImp": {"s1":["alojara","alojase"],"s2":["alojaras","alojases"],"vos":["alojaras","alojases"],"s3":["alojara","alojase"],"p1":["alojáramos","alojásemos"],"p2":["alojarais","alojaseis"],"p3":["alojaran","alojasen"]},
     "SubFut": {"s1":["alojare"],"s2":["alojares"],"vos":["alojares"],"s3":["alojare"],"p1":["alojáremos"],"p2":["alojareis"],"p3":["alojaren"]},
     "CmdPos": {"s2":["aloja"],"vos":["alojá"],"s3":["aloje"],"p1":["alojemos"],"p2":["alojad"],"p3":["alojen"]}

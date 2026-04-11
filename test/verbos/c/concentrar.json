@@ -13,7 +13,7 @@
     "IndPret": {"s1":["concentré"],"s2":["concentraste"],"vos":["concentraste"],"s3":["concentró"],"p1":["concentramos"],"p2":["concentrasteis"],"p3":["concentraron"]},
     "IndFut": {"s1":["concentraré"],"s2":["concentrarás"],"vos":["concentrarás"],"s3":["concentrará"],"p1":["concentraremos"],"p2":["concentraréis"],"p3":["concentrarán"]},
     "IndCond": {"s1":["concentraría"],"s2":["concentrarías"],"vos":["concentrarías"],"s3":["concentraría"],"p1":["concentraríamos"],"p2":["concentraríais"],"p3":["concentrarían"]},
-    "SubPres": {"s1":["concentre"],"s2":["concentres"],"vos":["concentres","concentrés"],"s3":["concentre"],"p1":["concentremos"],"p2":["concentréis"],"p3":["concentren"]},
+    "SubPres": {"s1":["concentre"],"s2":["concentres"],"vos":[{"forma": "concentres","uso":"Riop."},{"forma":"concentrés","uso":"C.Am."}],"s3":["concentre"],"p1":["concentremos"],"p2":["concentréis"],"p3":["concentren"]},
     "SubImp": {"s1":["concentrara","concentrase"],"s2":["concentraras","concentrases"],"vos":["concentraras","concentrases"],"s3":["concentrara","concentrase"],"p1":["concentráramos","concentrásemos"],"p2":["concentrarais","concentraseis"],"p3":["concentraran","concentrasen"]},
     "SubFut": {"s1":["concentrare"],"s2":["concentrares"],"vos":["concentrares"],"s3":["concentrare"],"p1":["concentráremos"],"p2":["concentrareis"],"p3":["concentraren"]},
     "CmdPos": {"s2":["concentra"],"vos":["concentrá"],"s3":["concentre"],"p1":["concentremos"],"p2":["concentrad"],"p3":["concentren"]}

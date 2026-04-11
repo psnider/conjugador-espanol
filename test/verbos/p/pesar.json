@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pesé"],"s2":["pesaste"],"vos":["pesaste"],"s3":["pesó"],"p1":["pesamos"],"p2":["pesasteis"],"p3":["pesaron"]},
     "IndFut": {"s1":["pesaré"],"s2":["pesarás"],"vos":["pesarás"],"s3":["pesará"],"p1":["pesaremos"],"p2":["pesaréis"],"p3":["pesarán"]},
     "IndCond": {"s1":["pesaría"],"s2":["pesarías"],"vos":["pesarías"],"s3":["pesaría"],"p1":["pesaríamos"],"p2":["pesaríais"],"p3":["pesarían"]},
-    "SubPres": {"s1":["pese"],"s2":["peses"],"vos":["peses","pesés"],"s3":["pese"],"p1":["pesemos"],"p2":["peséis"],"p3":["pesen"]},
+    "SubPres": {"s1":["pese"],"s2":["peses"],"vos":[{"forma": "peses","uso":"Riop."},{"forma":"pesés","uso":"C.Am."}],"s3":["pese"],"p1":["pesemos"],"p2":["peséis"],"p3":["pesen"]},
     "SubImp": {"s1":["pesara","pesase"],"s2":["pesaras","pesases"],"vos":["pesaras","pesases"],"s3":["pesara","pesase"],"p1":["pesáramos","pesásemos"],"p2":["pesarais","pesaseis"],"p3":["pesaran","pesasen"]},
     "SubFut": {"s1":["pesare"],"s2":["pesares"],"vos":["pesares"],"s3":["pesare"],"p1":["pesáremos"],"p2":["pesareis"],"p3":["pesaren"]},
     "CmdPos": {"s2":["pesa"],"vos":["pesá"],"s3":["pese"],"p1":["pesemos"],"p2":["pesad"],"p3":["pesen"]}

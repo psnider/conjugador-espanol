@@ -13,7 +13,7 @@
     "IndPret": {"s1":["codifiqué"],"s2":["codificaste"],"vos":["codificaste"],"s3":["codificó"],"p1":["codificamos"],"p2":["codificasteis"],"p3":["codificaron"]},
     "IndFut": {"s1":["codificaré"],"s2":["codificarás"],"vos":["codificarás"],"s3":["codificará"],"p1":["codificaremos"],"p2":["codificaréis"],"p3":["codificarán"]},
     "IndCond": {"s1":["codificaría"],"s2":["codificarías"],"vos":["codificarías"],"s3":["codificaría"],"p1":["codificaríamos"],"p2":["codificaríais"],"p3":["codificarían"]},
-    "SubPres": {"s1":["codifique"],"s2":["codifiques"],"vos":["codifiques","codifiqués"],"s3":["codifique"],"p1":["codifiquemos"],"p2":["codifiquéis"],"p3":["codifiquen"]},
+    "SubPres": {"s1":["codifique"],"s2":["codifiques"],"vos":[{"forma": "codifiques","uso":"Riop."},{"forma":"codifiqués","uso":"C.Am."}],"s3":["codifique"],"p1":["codifiquemos"],"p2":["codifiquéis"],"p3":["codifiquen"]},
     "SubImp": {"s1":["codificara","codificase"],"s2":["codificaras","codificases"],"vos":["codificaras","codificases"],"s3":["codificara","codificase"],"p1":["codificáramos","codificásemos"],"p2":["codificarais","codificaseis"],"p3":["codificaran","codificasen"]},
     "SubFut": {"s1":["codificare"],"s2":["codificares"],"vos":["codificares"],"s3":["codificare"],"p1":["codificáremos"],"p2":["codificareis"],"p3":["codificaren"]},
     "CmdPos": {"s2":["codifica"],"vos":["codificá"],"s3":["codifique"],"p1":["codifiquemos"],"p2":["codificad"],"p3":["codifiquen"]}

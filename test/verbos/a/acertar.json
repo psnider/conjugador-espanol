@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acerté"],"s2":["acertaste"],"vos":["acertaste"],"s3":["acertó"],"p1":["acertamos"],"p2":["acertasteis"],"p3":["acertaron"]},
     "IndFut": {"s1":["acertaré"],"s2":["acertarás"],"vos":["acertarás"],"s3":["acertará"],"p1":["acertaremos"],"p2":["acertaréis"],"p3":["acertarán"]},
     "IndCond": {"s1":["acertaría"],"s2":["acertarías"],"vos":["acertarías"],"s3":["acertaría"],"p1":["acertaríamos"],"p2":["acertaríais"],"p3":["acertarían"]},
-    "SubPres": {"s1":["acierte"],"s2":["aciertes"],"vos":["aciertes","acertés"],"s3":["acierte"],"p1":["acertemos"],"p2":["acertéis"],"p3":["acierten"]},
+    "SubPres": {"s1":["acierte"],"s2":["aciertes"],"vos":[{"forma": "aciertes","uso":"Riop."},{"forma":"acertés","uso":"C.Am."}],"s3":["acierte"],"p1":["acertemos"],"p2":["acertéis"],"p3":["acierten"]},
     "SubImp": {"s1":["acertara","acertase"],"s2":["acertaras","acertases"],"vos":["acertaras","acertases"],"s3":["acertara","acertase"],"p1":["acertáramos","acertásemos"],"p2":["acertarais","acertaseis"],"p3":["acertaran","acertasen"]},
     "SubFut": {"s1":["acertare"],"s2":["acertares"],"vos":["acertares"],"s3":["acertare"],"p1":["acertáremos"],"p2":["acertareis"],"p3":["acertaren"]},
     "CmdPos": {"s2":["acierta"],"vos":["acertá"],"s3":["acierte"],"p1":["acertemos"],"p2":["acertad"],"p3":["acierten"]}

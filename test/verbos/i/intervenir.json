@@ -13,9 +13,9 @@
     "IndPret": {"s1":["intervine"],"s2":["interviniste"],"vos":["interviniste"],"s3":["intervino"],"p1":["intervinimos"],"p2":["intervinisteis"],"p3":["intervinieron"]},
     "IndFut": {"s1":["intervendré"],"s2":["intervendrás"],"vos":["intervendrás"],"s3":["intervendrá"],"p1":["intervendremos"],"p2":["intervendréis"],"p3":["intervendrán"]},
     "IndCond": {"s1":["intervendría"],"s2":["intervendrías"],"vos":["intervendrías"],"s3":["intervendría"],"p1":["intervendríamos"],"p2":["intervendríais"],"p3":["intervendrían"]},
-    "SubPres": {"s1":["intervenga"],"s2":["intervengas"],"vos":["intervengas","intervengás"],"s3":["intervenga"],"p1":["intervengamos"],"p2":["intervengáis"],"p3":["intervengan"]},
+    "SubPres": {"s1":["intervenga"],"s2":["intervengas"],"vos":[{"forma": "intervengas","uso":"Riop."},{"forma":"intervengás","uso":"C.Am."}],"s3":["intervenga"],"p1":["intervengamos"],"p2":["intervengáis"],"p3":["intervengan"]},
     "SubImp": {"s1":["interviniera","interviniese"],"s2":["intervinieras","intervinieses"],"vos":["intervinieras","intervinieses"],"s3":["interviniera","interviniese"],"p1":["interviniéramos","interviniésemos"],"p2":["intervinierais","intervinieseis"],"p3":["intervinieran","interviniesen"]},
     "SubFut": {"s1":["interviniere"],"s2":["intervinieres"],"vos":["intervinieres"],"s3":["interviniere"],"p1":["interviniéremos"],"p2":["interviniereis"],"p3":["intervinieren"]},
-    "CmdPos": {"s2":{"estándar":["intervén"],"atípicos":[{"forma":"interviene","etiquetas":["no normativo"]}]},"vos":["intervení"],"s3":["intervenga"],"p1":["intervengamos"],"p2":["intervenid"],"p3":["intervengan"]}
+    "CmdPos": {"s2":["intervén"],"vos":["intervení"],"s3":["intervenga"],"p1":["intervengamos"],"p2":["intervenid"],"p3":["intervengan"]}
   }
 }

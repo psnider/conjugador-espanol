@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪ɾoˈsaɾ]",
+    "silabacion": "des-tro-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, trozo y el sufijo -ar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"destrozar","gerundio":["destrozando"],"participio":["destrozado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["destrozo"],"s2":["destrozas"],"vos":["destrozás"],"s3":["destroza"],"p1":["destrozamos"],"p2":["destrozáis"],"p3":["destrozan"]},
+    "IndImp": {"s1":["destrozaba"],"s2":["destrozabas"],"vos":["destrozabas"],"s3":["destrozaba"],"p1":["destrozábamos"],"p2":["destrozabais"],"p3":["destrozaban"]},
+    "IndPret": {"s1":["destrocé"],"s2":["destrozaste"],"vos":["destrozaste"],"s3":["destrozó"],"p1":["destrozamos"],"p2":["destrozasteis"],"p3":["destrozaron"]},
+    "IndFut": {"s1":["destrozaré"],"s2":["destrozarás"],"vos":["destrozarás"],"s3":["destrozará"],"p1":["destrozaremos"],"p2":["destrozaréis"],"p3":["destrozarán"]},
+    "IndCond": {"s1":["destrozaría"],"s2":["destrozarías"],"vos":["destrozarías"],"s3":["destrozaría"],"p1":["destrozaríamos"],"p2":["destrozaríais"],"p3":["destrozarían"]},
+    "SubPres": {"s1":["destroce"],"s2":["destroces"],"vos":["destroces","destrocés"],"s3":["destroce"],"p1":["destrocemos"],"p2":["destrocéis"],"p3":["destrocen"]},
+    "SubImp": {"s1":["destrozara","destrozase"],"s2":["destrozaras","destrozases"],"vos":["destrozaras","destrozases"],"s3":["destrozara","destrozase"],"p1":["destrozáramos","destrozásemos"],"p2":["destrozarais","destrozaseis"],"p3":["destrozaran","destrozasen"]},
+    "SubFut": {"s1":["destrozare"],"s2":["destrozares"],"vos":["destrozares"],"s3":["destrozare"],"p1":["destrozáremos"],"p2":["destrozareis"],"p3":["destrozaren"]},
+    "CmdPos": {"s2":["destroza"],"vos":["destrozá"],"s3":["destroce"],"p1":["destrocemos"],"p2":["destrozad"],"p3":["destrocen"]}
+  }
+}

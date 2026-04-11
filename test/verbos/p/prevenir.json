@@ -13,9 +13,9 @@
     "IndPret": {"s1":["previne"],"s2":["previniste"],"vos":["previniste"],"s3":["previno"],"p1":["previnimos"],"p2":["previnisteis"],"p3":["previnieron"]},
     "IndFut": {"s1":["prevendré"],"s2":["prevendrás"],"vos":["prevendrás"],"s3":["prevendrá"],"p1":["prevendremos"],"p2":["prevendréis"],"p3":["prevendrán"]},
     "IndCond": {"s1":["prevendría"],"s2":["prevendrías"],"vos":["prevendrías"],"s3":["prevendría"],"p1":["prevendríamos"],"p2":["prevendríais"],"p3":["prevendrían"]},
-    "SubPres": {"s1":["prevenga"],"s2":["prevengas"],"vos":["prevengas","prevengás"],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevengáis"],"p3":["prevengan"]},
+    "SubPres": {"s1":["prevenga"],"s2":["prevengas"],"vos":[{"forma": "prevengas","uso":"Riop."},{"forma":"prevengás","uso":"C.Am."}],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevengáis"],"p3":["prevengan"]},
     "SubImp": {"s1":["previniera","previniese"],"s2":["previnieras","previnieses"],"vos":["previnieras","previnieses"],"s3":["previniera","previniese"],"p1":["previniéramos","previniésemos"],"p2":["previnierais","previnieseis"],"p3":["previnieran","previniesen"]},
     "SubFut": {"s1":["previniere"],"s2":["previnieres"],"vos":["previnieres"],"s3":["previniere"],"p1":["previniéremos"],"p2":["previniereis"],"p3":["previnieren"]},
-    "CmdPos": {"s2":{"estándar":["prevén"],"atípicos":[{"forma":"previene","etiquetas":["no normativo"]}]},"vos":["prevení"],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevenid"],"p3":["prevengan"]}
+    "CmdPos": {"s2":["prevén"],"vos":["prevení"],"s3":["prevenga"],"p1":["prevengamos"],"p2":["prevenid"],"p3":["prevengan"]}
   }
 }

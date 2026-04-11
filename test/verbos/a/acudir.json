@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acudí"],"s2":["acudiste"],"vos":["acudiste"],"s3":["acudió"],"p1":["acudimos"],"p2":["acudisteis"],"p3":["acudieron"]},
     "IndFut": {"s1":["acudiré"],"s2":["acudirás"],"vos":["acudirás"],"s3":["acudirá"],"p1":["acudiremos"],"p2":["acudiréis"],"p3":["acudirán"]},
     "IndCond": {"s1":["acudiría"],"s2":["acudirías"],"vos":["acudirías"],"s3":["acudiría"],"p1":["acudiríamos"],"p2":["acudiríais"],"p3":["acudirían"]},
-    "SubPres": {"s1":["acuda"],"s2":["acudas"],"vos":["acudas","acudás"],"s3":["acuda"],"p1":["acudamos"],"p2":["acudáis"],"p3":["acudan"]},
+    "SubPres": {"s1":["acuda"],"s2":["acudas"],"vos":[{"forma": "acudas","uso":"Riop."},{"forma":"acudás","uso":"C.Am."}],"s3":["acuda"],"p1":["acudamos"],"p2":["acudáis"],"p3":["acudan"]},
     "SubImp": {"s1":["acudiera","acudiese"],"s2":["acudieras","acudieses"],"vos":["acudieras","acudieses"],"s3":["acudiera","acudiese"],"p1":["acudiéramos","acudiésemos"],"p2":["acudierais","acudieseis"],"p3":["acudieran","acudiesen"]},
     "SubFut": {"s1":["acudiere"],"s2":["acudieres"],"vos":["acudieres"],"s3":["acudiere"],"p1":["acudiéremos"],"p2":["acudiereis"],"p3":["acudieren"]},
     "CmdPos": {"s2":["acude"],"vos":["acudí"],"s3":["acuda"],"p1":["acudamos"],"p2":["acudid"],"p3":["acudan"]}

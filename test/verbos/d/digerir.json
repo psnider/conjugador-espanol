@@ -13,7 +13,7 @@
     "IndPret": {"s1":["digerí"],"s2":["digeriste"],"vos":["digeriste"],"s3":["digirió"],"p1":["digerimos"],"p2":["digeristeis"],"p3":["digirieron"]},
     "IndFut": {"s1":["digeriré"],"s2":["digerirás"],"vos":["digerirás"],"s3":["digerirá"],"p1":["digeriremos"],"p2":["digeriréis"],"p3":["digerirán"]},
     "IndCond": {"s1":["digeriría"],"s2":["digerirías"],"vos":["digerirías"],"s3":["digeriría"],"p1":["digeriríamos"],"p2":["digeriríais"],"p3":["digerirían"]},
-    "SubPres": {"s1":["digiera"],"s2":["digieras"],"vos":["digieras","digirás"],"s3":["digiera"],"p1":["digiramos"],"p2":["digiráis"],"p3":["digieran"]},
+    "SubPres": {"s1":["digiera"],"s2":["digieras"],"vos":[{"forma": "digieras","uso":"Riop."},{"forma":"digirás","uso":"C.Am."}],"s3":["digiera"],"p1":["digiramos"],"p2":["digiráis"],"p3":["digieran"]},
     "SubImp": {"s1":["digiriera","digiriese"],"s2":["digirieras","digirieses"],"vos":["digirieras","digirieses"],"s3":["digiriera","digiriese"],"p1":["digiriéramos","digiriésemos"],"p2":["digirierais","digirieseis"],"p3":["digirieran","digiriesen"]},
     "SubFut": {"s1":["digiriere"],"s2":["digirieres"],"vos":["digirieres"],"s3":["digiriere"],"p1":["digiriéremos"],"p2":["digiriereis"],"p3":["digirieren"]},
     "CmdPos": {"s2":["digiere"],"vos":["digerí"],"s3":["digiera"],"p1":["digiramos"],"p2":["digerid"],"p3":["digieran"]}

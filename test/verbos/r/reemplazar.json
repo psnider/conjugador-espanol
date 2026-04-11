@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reemplacé"],"s2":["reemplazaste"],"vos":["reemplazaste"],"s3":["reemplazó"],"p1":["reemplazamos"],"p2":["reemplazasteis"],"p3":["reemplazaron"]},
     "IndFut": {"s1":["reemplazaré"],"s2":["reemplazarás"],"vos":["reemplazarás"],"s3":["reemplazará"],"p1":["reemplazaremos"],"p2":["reemplazaréis"],"p3":["reemplazarán"]},
     "IndCond": {"s1":["reemplazaría"],"s2":["reemplazarías"],"vos":["reemplazarías"],"s3":["reemplazaría"],"p1":["reemplazaríamos"],"p2":["reemplazaríais"],"p3":["reemplazarían"]},
-    "SubPres": {"s1":["reemplace"],"s2":["reemplaces"],"vos":["reemplaces","reemplacés"],"s3":["reemplace"],"p1":["reemplacemos"],"p2":["reemplacéis"],"p3":["reemplacen"]},
+    "SubPres": {"s1":["reemplace"],"s2":["reemplaces"],"vos":[{"forma": "reemplaces","uso":"Riop."},{"forma":"reemplacés","uso":"C.Am."}],"s3":["reemplace"],"p1":["reemplacemos"],"p2":["reemplacéis"],"p3":["reemplacen"]},
     "SubImp": {"s1":["reemplazara","reemplazase"],"s2":["reemplazaras","reemplazases"],"vos":["reemplazaras","reemplazases"],"s3":["reemplazara","reemplazase"],"p1":["reemplazáramos","reemplazásemos"],"p2":["reemplazarais","reemplazaseis"],"p3":["reemplazaran","reemplazasen"]},
     "SubFut": {"s1":["reemplazare"],"s2":["reemplazares"],"vos":["reemplazares"],"s3":["reemplazare"],"p1":["reemplazáremos"],"p2":["reemplazareis"],"p3":["reemplazaren"]},
     "CmdPos": {"s2":["reemplaza"],"vos":["reemplazá"],"s3":["reemplace"],"p1":["reemplacemos"],"p2":["reemplazad"],"p3":["reemplacen"]}

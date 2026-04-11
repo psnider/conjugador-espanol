@@ -12,7 +12,7 @@
     "IndPret": {"s1":["redistribuí"],"s2":["redistribuiste"],"vos":["redistribuiste"],"s3":["redistribuyó"],"p1":["redistribuimos"],"p2":["redistribuisteis"],"p3":["redistribuyeron"]},
     "IndFut": {"s1":["redistribuiré"],"s2":["redistribuirás"],"vos":["redistribuirás"],"s3":["redistribuirá"],"p1":["redistribuiremos"],"p2":["redistribuiréis"],"p3":["redistribuirán"]},
     "IndCond": {"s1":["redistribuiría"],"s2":["redistribuirías"],"vos":["redistribuirías"],"s3":["redistribuiría"],"p1":["redistribuiríamos"],"p2":["redistribuiríais"],"p3":["redistribuirían"]},
-    "SubPres": {"s1":["redistribuya"],"s2":["redistribuyas"],"vos":["redistribuyas","redistribuyás"],"s3":["redistribuya"],"p1":["redistribuyamos"],"p2":["redistribuyáis"],"p3":["redistribuyan"]},
+    "SubPres": {"s1":["redistribuya"],"s2":["redistribuyas"],"vos":[{"forma": "redistribuyas","uso":"Riop."},{"forma":"redistribuyás","uso":"C.Am."}],"s3":["redistribuya"],"p1":["redistribuyamos"],"p2":["redistribuyáis"],"p3":["redistribuyan"]},
     "SubImp": {"s1":["redistribuyera","redistribuyese"],"s2":["redistribuyeras","redistribuyeses"],"vos":["redistribuyeras","redistribuyeses"],"s3":["redistribuyera","redistribuyese"],"p1":["redistribuyéramos","redistribuyésemos"],"p2":["redistribuyerais","redistribuyeseis"],"p3":["redistribuyeran","redistribuyesen"]},
     "SubFut": {"s1":["redistribuyere"],"s2":["redistribuyeres"],"vos":["redistribuyeres"],"s3":["redistribuyere"],"p1":["redistribuyéremos"],"p2":["redistribuyereis"],"p3":["redistribuyeren"]},
     "CmdPos": {"s2":["redistribuye"],"vos":["redistribuí"],"s3":["redistribuya"],"p1":["redistribuyamos"],"p2":["redistribuid"],"p3":["redistribuyan"]}

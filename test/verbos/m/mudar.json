@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mudé"],"s2":["mudaste"],"vos":["mudaste"],"s3":["mudó"],"p1":["mudamos"],"p2":["mudasteis"],"p3":["mudaron"]},
     "IndFut": {"s1":["mudaré"],"s2":["mudarás"],"vos":["mudarás"],"s3":["mudará"],"p1":["mudaremos"],"p2":["mudaréis"],"p3":["mudarán"]},
     "IndCond": {"s1":["mudaría"],"s2":["mudarías"],"vos":["mudarías"],"s3":["mudaría"],"p1":["mudaríamos"],"p2":["mudaríais"],"p3":["mudarían"]},
-    "SubPres": {"s1":["mude"],"s2":["mudes"],"vos":["mudes","mudés"],"s3":["mude"],"p1":["mudemos"],"p2":["mudéis"],"p3":["muden"]},
+    "SubPres": {"s1":["mude"],"s2":["mudes"],"vos":[{"forma": "mudes","uso":"Riop."},{"forma":"mudés","uso":"C.Am."}],"s3":["mude"],"p1":["mudemos"],"p2":["mudéis"],"p3":["muden"]},
     "SubImp": {"s1":["mudara","mudase"],"s2":["mudaras","mudases"],"vos":["mudaras","mudases"],"s3":["mudara","mudase"],"p1":["mudáramos","mudásemos"],"p2":["mudarais","mudaseis"],"p3":["mudaran","mudasen"]},
     "SubFut": {"s1":["mudare"],"s2":["mudares"],"vos":["mudares"],"s3":["mudare"],"p1":["mudáremos"],"p2":["mudareis"],"p3":["mudaren"]},
     "CmdPos": {"s2":["muda"],"vos":["mudá"],"s3":["mude"],"p1":["mudemos"],"p2":["mudad"],"p3":["muden"]}

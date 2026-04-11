@@ -13,7 +13,7 @@
     "IndPret": {"s1":["guisé"],"s2":["guisaste"],"vos":["guisaste"],"s3":["guisó"],"p1":["guisamos"],"p2":["guisasteis"],"p3":["guisaron"]},
     "IndFut": {"s1":["guisaré"],"s2":["guisarás"],"vos":["guisarás"],"s3":["guisará"],"p1":["guisaremos"],"p2":["guisaréis"],"p3":["guisarán"]},
     "IndCond": {"s1":["guisaría"],"s2":["guisarías"],"vos":["guisarías"],"s3":["guisaría"],"p1":["guisaríamos"],"p2":["guisaríais"],"p3":["guisarían"]},
-    "SubPres": {"s1":["guise"],"s2":["guises"],"vos":["guises","guisés"],"s3":["guise"],"p1":["guisemos"],"p2":["guiséis"],"p3":["guisen"]},
+    "SubPres": {"s1":["guise"],"s2":["guises"],"vos":[{"forma": "guises","uso":"Riop."},{"forma":"guisés","uso":"C.Am."}],"s3":["guise"],"p1":["guisemos"],"p2":["guiséis"],"p3":["guisen"]},
     "SubImp": {"s1":["guisara","guisase"],"s2":["guisaras","guisases"],"vos":["guisaras","guisases"],"s3":["guisara","guisase"],"p1":["guisáramos","guisásemos"],"p2":["guisarais","guisaseis"],"p3":["guisaran","guisasen"]},
     "SubFut": {"s1":["guisare"],"s2":["guisares"],"vos":["guisares"],"s3":["guisare"],"p1":["guisáremos"],"p2":["guisareis"],"p3":["guisaren"]},
     "CmdPos": {"s2":["guisa"],"vos":["guisá"],"s3":["guise"],"p1":["guisemos"],"p2":["guisad"],"p3":["guisen"]}

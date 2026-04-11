@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enterré"],"s2":["enterraste"],"vos":["enterraste"],"s3":["enterró"],"p1":["enterramos"],"p2":["enterrasteis"],"p3":["enterraron"]},
     "IndFut": {"s1":["enterraré"],"s2":["enterrarás"],"vos":["enterrarás"],"s3":["enterrará"],"p1":["enterraremos"],"p2":["enterraréis"],"p3":["enterrarán"]},
     "IndCond": {"s1":["enterraría"],"s2":["enterrarías"],"vos":["enterrarías"],"s3":["enterraría"],"p1":["enterraríamos"],"p2":["enterraríais"],"p3":["enterrarían"]},
-    "SubPres": {"s1":["entierre"],"s2":["entierres"],"vos":["entierres","enterrés"],"s3":["entierre"],"p1":["enterremos"],"p2":["enterréis"],"p3":["entierren"]},
+    "SubPres": {"s1":["entierre"],"s2":["entierres"],"vos":[{"forma": "entierres","uso":"Riop."},{"forma":"enterrés","uso":"C.Am."}],"s3":["entierre"],"p1":["enterremos"],"p2":["enterréis"],"p3":["entierren"]},
     "SubImp": {"s1":["enterrara","enterrase"],"s2":["enterraras","enterrases"],"vos":["enterraras","enterrases"],"s3":["enterrara","enterrase"],"p1":["enterráramos","enterrásemos"],"p2":["enterrarais","enterraseis"],"p3":["enterraran","enterrasen"]},
     "SubFut": {"s1":["enterrare"],"s2":["enterrares"],"vos":["enterrares"],"s3":["enterrare"],"p1":["enterráremos"],"p2":["enterrareis"],"p3":["enterraren"]},
     "CmdPos": {"s2":["entierra"],"vos":["enterrá"],"s3":["entierre"],"p1":["enterremos"],"p2":["enterrad"],"p3":["entierren"]}

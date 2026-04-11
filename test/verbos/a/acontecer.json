@@ -5,17 +5,19 @@
     "acentuacion": "aguda",
     "etimologia": "Del prefijo a- y contecer.",
     "modelos": ["parecer"],
-    "impersonal": true
+    "impersonal": true,
+    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
   },
   "formas_no_personales": {"infinitivo":"acontecer","gerundio":["aconteciendo"], "participio":["acontecido"]},
   "formas_personales": {
-    "IndPres": {"s3":["acontece"],                 "p3":["acontecen"]},
-    "IndImp": {"s3":["acontecía"],                 "p3":["acontecían"]},
-    "IndPret": {"s3":["aconteció"],                "p3":["acontecieron"]},
-    "IndFut": {"s3":["acontecerá"],                "p3":["acontecerán"]},
-    "IndCond": {"s3":["acontecería"],              "p3":["acontecerían"]},
-    "SubPres": {"s3":["acontezca"],                "p3":["acontezcan"]},
-    "SubImp": {"s3":["aconteciera","aconteciese"], "p3":["acontecieran","aconteciesen"]},
-    "SubFut": {"s3":["aconteciere"],               "p3":["acontecieren"]}
+    "IndPres": {"s1":["acontezco"],"s2":["aconteces"],"vos":["acontecés"],"s3":["acontece"],"p1":["acontecemos"],"p2":["acontecéis"],"p3":["acontecen"]},
+    "IndImp": {"s1":["acontecía"],"s2":["acontecías"],"vos":["acontecías"],"s3":["acontecía"],"p1":["acontecíamos"],"p2":["acontecíais"],"p3":["acontecían"]},
+    "IndPret": {"s1":["acontecí"],"s2":["aconteciste"],"vos":["aconteciste"],"s3":["aconteció"],"p1":["acontecimos"],"p2":["acontecisteis"],"p3":["acontecieron"]},
+    "IndFut": {"s1":["aconteceré"],"s2":["acontecerás"],"vos":["acontecerás"],"s3":["acontecerá"],"p1":["aconteceremos"],"p2":["aconteceréis"],"p3":["acontecerán"]},
+    "IndCond": {"s1":["acontecería"],"s2":["acontecerías"],"vos":["acontecerías"],"s3":["acontecería"],"p1":["aconteceríamos"],"p2":["aconteceríais"],"p3":["acontecerían"]},
+    "SubPres": {"s1":["acontezca"],"s2":["acontezcas"],"vos":[{"forma": "acontezcas","uso":"Riop."},{"forma":"acontezcás","uso":"C.Am."}],"s3":["acontezca"],"p1":["acontezcamos"],"p2":["acontezcáis"],"p3":["acontezcan"]},
+    "SubImp": {"s1":["aconteciera","aconteciese"],"s2":["acontecieras","acontecieses"],"vos":["acontecieras","acontecieses"],"s3":["aconteciera","aconteciese"],"p1":["aconteciéramos","aconteciésemos"],"p2":["acontecierais","acontecieseis"],"p3":["acontecieran","aconteciesen"]},
+    "SubFut": {"s1":["aconteciere"],"s2":["acontecieres"],"vos":["acontecieres"],"s3":["aconteciere"],"p1":["aconteciéremos"],"p2":["aconteciereis"],"p3":["acontecieren"]},
+    "CmdPos": {"s2":["acontece"],"vos":["acontecé"],"s3":["acontezca"],"p1":["acontezcamos"],"p2":["aconteced"],"p3":["acontezcan"]}
   }
 }

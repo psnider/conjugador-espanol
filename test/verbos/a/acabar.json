@@ -13,7 +13,7 @@
     "IndPret": {"s1":["acabé"],"s2":["acabaste"],"vos":["acabaste"],"s3":["acabó"],"p1":["acabamos"],"p2":["acabasteis"],"p3":["acabaron"]},
     "IndFut": {"s1":["acabaré"],"s2":["acabarás"],"vos":["acabarás"],"s3":["acabará"],"p1":["acabaremos"],"p2":["acabaréis"],"p3":["acabarán"]},
     "IndCond": {"s1":["acabaría"],"s2":["acabarías"],"vos":["acabarías"],"s3":["acabaría"],"p1":["acabaríamos"],"p2":["acabaríais"],"p3":["acabarían"]},
-    "SubPres": {"s1":["acabe"],"s2":["acabes"],"vos":["acabes","acabés"],"s3":["acabe"],"p1":["acabemos"],"p2":["acabéis"],"p3":["acaben"]},
+    "SubPres": {"s1":["acabe"],"s2":["acabes"],"vos":[{"forma": "acabes","uso":"Riop."},{"forma":"acabés","uso":"C.Am."}],"s3":["acabe"],"p1":["acabemos"],"p2":["acabéis"],"p3":["acaben"]},
     "SubImp": {"s1":["acabara","acabase"],"s2":["acabaras","acabases"],"vos":["acabaras","acabases"],"s3":["acabara","acabase"],"p1":["acabáramos","acabásemos"],"p2":["acabarais","acabaseis"],"p3":["acabaran","acabasen"]},
     "SubFut": {"s1":["acabare"],"s2":["acabares"],"vos":["acabares"],"s3":["acabare"],"p1":["acabáremos"],"p2":["acabareis"],"p3":["acabaren"]},
     "CmdPos": {"s2":["acaba"],"vos":["acabá"],"s3":["acabe"],"p1":["acabemos"],"p2":["acabad"],"p3":["acaben"]}

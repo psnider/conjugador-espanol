@@ -13,9 +13,10 @@
     "IndPret": {"s1":["hube"],"s2":["hubiste"],"vos":["hubiste"],"s3":["hubo"],"p1":["hubimos"],"p2":["hubisteis"],"p3":["hubieron"]},
     "IndFut": {"s1":["habré"],"s2":["habrás"],"vos":["habrás"],"s3":["habrá"],"p1":["habremos"],"p2":["habréis"],"p3":["habrán"]},
     "IndCond": {"s1":["habría"],"s2":["habrías"],"vos":["habrías"],"s3":["habría"],"p1":["habríamos"],"p2":["habríais"],"p3":["habrían"]},
-    "SubPres": {"s1":["haya"],"s2":["hayas"],"vos":["hayas","hayás"],"s3":["haya"],"p1":["hayamos"],"p2":["hayáis"],"p3":["hayan"]},
+    "SubPres": {"s1":["haya"],"s2":["hayas"],"vos":[{"forma":"hayas","uso":"Riop."},{"forma":"hayás","uso":"C.Am."}],"s3":["haya"],"p1":["hayamos"],"p2":["hayáis"],"p3":["hayan"]},
     "SubImp": {"s1":["hubiera","hubiese"],"s2":["hubieras","hubieses"],"vos":["hubieras","hubieses"],"s3":["hubiera","hubiese"],"p1":["hubiéramos","hubiésemos"],"p2":["hubierais","hubieseis"],"p3":["hubieran","hubiesen"]},
     "SubFut": {"s1":["hubiere"],"s2":["hubieres"],"vos":["hubieres"],"s3":["hubiere"],"p1":["hubiéremos"],"p2":["hubiereis"],"p3":["hubieren"]},
-    "CmdPos": {"s2":{"estándar":[],"atípicos":[{"forma":"he","etiquetas":["arcaico"]}]},"vos":{"estándar":[],"atípicos":[{"forma":"he","etiquetas":["arcaico"]}]},"s3":{"estándar":[],"atípicos":[{"forma":"haya","etiquetas":["arcaico"]}]},"p1":{"estándar":[],"atípicos":[{"forma":"hayamos","etiquetas":["arcaico"]}]},"p2":["habed"],"p3":{"estándar":[],"atípicos":[{"forma":"hayan","etiquetas":["arcaico"]}]}}
+    "CmdPos": {"s2":[{"forma":"he","uso":"arcaico"},{"forma":"habe","uso":"arcaico"}],"vos":[{"forma":"he","uso":"arcaico"},{"forma":"habe","uso":"arcaico"}],"s3":[{"forma":"haya","uso":"arcaico"}],
+               "p1":[{"forma":"hayamos","uso":"arcaico"}],"p2":["habed"],"p3":[{"forma":"hayan","uso":"arcaico"}]}
   }
 }

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["merendé"],"s2":["merendaste"],"vos":["merendaste"],"s3":["merendó"],"p1":["merendamos"],"p2":["merendasteis"],"p3":["merendaron"]},
     "IndFut": {"s1":["merendaré"],"s2":["merendarás"],"vos":["merendarás"],"s3":["merendará"],"p1":["merendaremos"],"p2":["merendaréis"],"p3":["merendarán"]},
     "IndCond": {"s1":["merendaría"],"s2":["merendarías"],"vos":["merendarías"],"s3":["merendaría"],"p1":["merendaríamos"],"p2":["merendaríais"],"p3":["merendarían"]},
-    "SubPres": {"s1":["meriende"],"s2":["meriendes"],"vos":["meriendes","merendés"],"s3":["meriende"],"p1":["merendemos"],"p2":["merendéis"],"p3":["merienden"]},
+    "SubPres": {"s1":["meriende"],"s2":["meriendes"],"vos":[{"forma": "meriendes","uso":"Riop."},{"forma":"merendés","uso":"C.Am."}],"s3":["meriende"],"p1":["merendemos"],"p2":["merendéis"],"p3":["merienden"]},
     "SubImp": {"s1":["merendara","merendase"],"s2":["merendaras","merendases"],"vos":["merendaras","merendases"],"s3":["merendara","merendase"],"p1":["merendáramos","merendásemos"],"p2":["merendarais","merendaseis"],"p3":["merendaran","merendasen"]},
     "SubFut": {"s1":["merendare"],"s2":["merendares"],"vos":["merendares"],"s3":["merendare"],"p1":["merendáremos"],"p2":["merendareis"],"p3":["merendaren"]},
     "CmdPos": {"s2":["merienda"],"vos":["merendá"],"s3":["meriende"],"p1":["merendemos"],"p2":["merendad"],"p3":["merienden"]}

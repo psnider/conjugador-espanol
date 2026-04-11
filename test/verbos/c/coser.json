@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cosí"],"s2":["cosiste"],"vos":["cosiste"],"s3":["cosió"],"p1":["cosimos"],"p2":["cosisteis"],"p3":["cosieron"]},
     "IndFut": {"s1":["coseré"],"s2":["coserás"],"vos":["coserás"],"s3":["coserá"],"p1":["coseremos"],"p2":["coseréis"],"p3":["coserán"]},
     "IndCond": {"s1":["cosería"],"s2":["coserías"],"vos":["coserías"],"s3":["cosería"],"p1":["coseríamos"],"p2":["coseríais"],"p3":["coserían"]},
-    "SubPres": {"s1":["cosa"],"s2":["cosas"],"vos":["cosas","cosás"],"s3":["cosa"],"p1":["cosamos"],"p2":["cosáis"],"p3":["cosan"]},
+    "SubPres": {"s1":["cosa"],"s2":["cosas"],"vos":[{"forma": "cosas","uso":"Riop."},{"forma":"cosás","uso":"C.Am."}],"s3":["cosa"],"p1":["cosamos"],"p2":["cosáis"],"p3":["cosan"]},
     "SubImp": {"s1":["cosiera","cosiese"],"s2":["cosieras","cosieses"],"vos":["cosieras","cosieses"],"s3":["cosiera","cosiese"],"p1":["cosiéramos","cosiésemos"],"p2":["cosierais","cosieseis"],"p3":["cosieran","cosiesen"]},
     "SubFut": {"s1":["cosiere"],"s2":["cosieres"],"vos":["cosieres"],"s3":["cosiere"],"p1":["cosiéremos"],"p2":["cosiereis"],"p3":["cosieren"]},
     "CmdPos": {"s2":["cose"],"vos":["cosé"],"s3":["cosa"],"p1":["cosamos"],"p2":["cosed"],"p3":["cosan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["subí"],"s2":["subiste"],"vos":["subiste"],"s3":["subió"],"p1":["subimos"],"p2":["subisteis"],"p3":["subieron"]},
     "IndFut": {"s1":["subiré"],"s2":["subirás"],"vos":["subirás"],"s3":["subirá"],"p1":["subiremos"],"p2":["subiréis"],"p3":["subirán"]},
     "IndCond": {"s1":["subiría"],"s2":["subirías"],"vos":["subirías"],"s3":["subiría"],"p1":["subiríamos"],"p2":["subiríais"],"p3":["subirían"]},
-    "SubPres": {"s1":["suba"],"s2":["subas"],"vos":["subas","subás"],"s3":["suba"],"p1":["subamos"],"p2":["subáis"],"p3":["suban"]},
+    "SubPres": {"s1":["suba"],"s2":["subas"],"vos":[{"forma": "subas","uso":"Riop."},{"forma":"subás","uso":"C.Am."}],"s3":["suba"],"p1":["subamos"],"p2":["subáis"],"p3":["suban"]},
     "SubImp": {"s1":["subiera","subiese"],"s2":["subieras","subieses"],"vos":["subieras","subieses"],"s3":["subiera","subiese"],"p1":["subiéramos","subiésemos"],"p2":["subierais","subieseis"],"p3":["subieran","subiesen"]},
     "SubFut": {"s1":["subiere"],"s2":["subieres"],"vos":["subieres"],"s3":["subiere"],"p1":["subiéremos"],"p2":["subiereis"],"p3":["subieren"]},
     "CmdPos": {"s2":["sube"],"vos":["subí"],"s3":["suba"],"p1":["subamos"],"p2":["subid"],"p3":["suban"]}

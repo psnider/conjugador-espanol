@@ -13,7 +13,7 @@
     "IndPret": {"s1":["olvidé"],"s2":["olvidaste"],"vos":["olvidaste"],"s3":["olvidó"],"p1":["olvidamos"],"p2":["olvidasteis"],"p3":["olvidaron"]},
     "IndFut": {"s1":["olvidaré"],"s2":["olvidarás"],"vos":["olvidarás"],"s3":["olvidará"],"p1":["olvidaremos"],"p2":["olvidaréis"],"p3":["olvidarán"]},
     "IndCond": {"s1":["olvidaría"],"s2":["olvidarías"],"vos":["olvidarías"],"s3":["olvidaría"],"p1":["olvidaríamos"],"p2":["olvidaríais"],"p3":["olvidarían"]},
-    "SubPres": {"s1":["olvide"],"s2":["olvides"],"vos":["olvides","olvidés"],"s3":["olvide"],"p1":["olvidemos"],"p2":["olvidéis"],"p3":["olviden"]},
+    "SubPres": {"s1":["olvide"],"s2":["olvides"],"vos":[{"forma": "olvides","uso":"Riop."},{"forma":"olvidés","uso":"C.Am."}],"s3":["olvide"],"p1":["olvidemos"],"p2":["olvidéis"],"p3":["olviden"]},
     "SubImp": {"s1":["olvidara","olvidase"],"s2":["olvidaras","olvidases"],"vos":["olvidaras","olvidases"],"s3":["olvidara","olvidase"],"p1":["olvidáramos","olvidásemos"],"p2":["olvidarais","olvidaseis"],"p3":["olvidaran","olvidasen"]},
     "SubFut": {"s1":["olvidare"],"s2":["olvidares"],"vos":["olvidares"],"s3":["olvidare"],"p1":["olvidáremos"],"p2":["olvidareis"],"p3":["olvidaren"]},
     "CmdPos": {"s2":["olvida"],"vos":["olvidá"],"s3":["olvide"],"p1":["olvidemos"],"p2":["olvidad"],"p3":["olviden"]}

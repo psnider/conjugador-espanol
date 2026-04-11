@@ -13,7 +13,7 @@
     "IndPret": {"s1":["noté"],"s2":["notaste"],"vos":["notaste"],"s3":["notó"],"p1":["notamos"],"p2":["notasteis"],"p3":["notaron"]},
     "IndFut": {"s1":["notaré"],"s2":["notarás"],"vos":["notarás"],"s3":["notará"],"p1":["notaremos"],"p2":["notaréis"],"p3":["notarán"]},
     "IndCond": {"s1":["notaría"],"s2":["notarías"],"vos":["notarías"],"s3":["notaría"],"p1":["notaríamos"],"p2":["notaríais"],"p3":["notarían"]},
-    "SubPres": {"s1":["note"],"s2":["notes"],"vos":["notes","notés"],"s3":["note"],"p1":["notemos"],"p2":["notéis"],"p3":["noten"]},
+    "SubPres": {"s1":["note"],"s2":["notes"],"vos":[{"forma": "notes","uso":"Riop."},{"forma":"notés","uso":"C.Am."}],"s3":["note"],"p1":["notemos"],"p2":["notéis"],"p3":["noten"]},
     "SubImp": {"s1":["notara","notase"],"s2":["notaras","notases"],"vos":["notaras","notases"],"s3":["notara","notase"],"p1":["notáramos","notásemos"],"p2":["notarais","notaseis"],"p3":["notaran","notasen"]},
     "SubFut": {"s1":["notare"],"s2":["notares"],"vos":["notares"],"s3":["notare"],"p1":["notáremos"],"p2":["notareis"],"p3":["notaren"]},
     "CmdPos": {"s2":["nota"],"vos":["notá"],"s3":["note"],"p1":["notemos"],"p2":["notad"],"p3":["noten"]}

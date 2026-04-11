@@ -13,7 +13,7 @@
     "IndPret": {"s1":["realicé"],"s2":["realizaste"],"vos":["realizaste"],"s3":["realizó"],"p1":["realizamos"],"p2":["realizasteis"],"p3":["realizaron"]},
     "IndFut": {"s1":["realizaré"],"s2":["realizarás"],"vos":["realizarás"],"s3":["realizará"],"p1":["realizaremos"],"p2":["realizaréis"],"p3":["realizarán"]},
     "IndCond": {"s1":["realizaría"],"s2":["realizarías"],"vos":["realizarías"],"s3":["realizaría"],"p1":["realizaríamos"],"p2":["realizaríais"],"p3":["realizarían"]},
-    "SubPres": {"s1":["realice"],"s2":["realices"],"vos":["realices","realicés"],"s3":["realice"],"p1":["realicemos"],"p2":["realicéis"],"p3":["realicen"]},
+    "SubPres": {"s1":["realice"],"s2":["realices"],"vos":[{"forma": "realices","uso":"Riop."},{"forma":"realicés","uso":"C.Am."}],"s3":["realice"],"p1":["realicemos"],"p2":["realicéis"],"p3":["realicen"]},
     "SubImp": {"s1":["realizara","realizase"],"s2":["realizaras","realizases"],"vos":["realizaras","realizases"],"s3":["realizara","realizase"],"p1":["realizáramos","realizásemos"],"p2":["realizarais","realizaseis"],"p3":["realizaran","realizasen"]},
     "SubFut": {"s1":["realizare"],"s2":["realizares"],"vos":["realizares"],"s3":["realizare"],"p1":["realizáremos"],"p2":["realizareis"],"p3":["realizaren"]},
     "CmdPos": {"s2":["realiza"],"vos":["realizá"],"s3":["realice"],"p1":["realicemos"],"p2":["realizad"],"p3":["realicen"]}

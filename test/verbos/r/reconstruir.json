@@ -12,7 +12,7 @@
     "IndPret": {"s1":["reconstruí"],"s2":["reconstruiste"],"vos":["reconstruiste"],"s3":["reconstruyó"],"p1":["reconstruimos"],"p2":["reconstruisteis"],"p3":["reconstruyeron"]},
     "IndFut": {"s1":["reconstruiré"],"s2":["reconstruirás"],"vos":["reconstruirás"],"s3":["reconstruirá"],"p1":["reconstruiremos"],"p2":["reconstruiréis"],"p3":["reconstruirán"]},
     "IndCond": {"s1":["reconstruiría"],"s2":["reconstruirías"],"vos":["reconstruirías"],"s3":["reconstruiría"],"p1":["reconstruiríamos"],"p2":["reconstruiríais"],"p3":["reconstruirían"]},
-    "SubPres": {"s1":["reconstruya"],"s2":["reconstruyas"],"vos":["reconstruyas","reconstruyás"],"s3":["reconstruya"],"p1":["reconstruyamos"],"p2":["reconstruyáis"],"p3":["reconstruyan"]},
+    "SubPres": {"s1":["reconstruya"],"s2":["reconstruyas"],"vos":[{"forma": "reconstruyas","uso":"Riop."},{"forma":"reconstruyás","uso":"C.Am."}],"s3":["reconstruya"],"p1":["reconstruyamos"],"p2":["reconstruyáis"],"p3":["reconstruyan"]},
     "SubImp": {"s1":["reconstruyera","reconstruyese"],"s2":["reconstruyeras","reconstruyeses"],"vos":["reconstruyeras","reconstruyeses"],"s3":["reconstruyera","reconstruyese"],"p1":["reconstruyéramos","reconstruyésemos"],"p2":["reconstruyerais","reconstruyeseis"],"p3":["reconstruyeran","reconstruyesen"]},
     "SubFut": {"s1":["reconstruyere"],"s2":["reconstruyeres"],"vos":["reconstruyeres"],"s3":["reconstruyere"],"p1":["reconstruyéremos"],"p2":["reconstruyereis"],"p3":["reconstruyeren"]},
     "CmdPos": {"s2":["reconstruye"],"vos":["reconstruí"],"s3":["reconstruya"],"p1":["reconstruyamos"],"p2":["reconstruid"],"p3":["reconstruyan"]}

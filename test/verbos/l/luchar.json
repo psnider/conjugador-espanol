@@ -13,7 +13,7 @@
     "IndPret": {"s1":["luché"],"s2":["luchaste"],"vos":["luchaste"],"s3":["luchó"],"p1":["luchamos"],"p2":["luchasteis"],"p3":["lucharon"]},
     "IndFut": {"s1":["lucharé"],"s2":["lucharás"],"vos":["lucharás"],"s3":["luchará"],"p1":["lucharemos"],"p2":["lucharéis"],"p3":["lucharán"]},
     "IndCond": {"s1":["lucharía"],"s2":["lucharías"],"vos":["lucharías"],"s3":["lucharía"],"p1":["lucharíamos"],"p2":["lucharíais"],"p3":["lucharían"]},
-    "SubPres": {"s1":["luche"],"s2":["luches"],"vos":["luches","luchés"],"s3":["luche"],"p1":["luchemos"],"p2":["luchéis"],"p3":["luchen"]},
+    "SubPres": {"s1":["luche"],"s2":["luches"],"vos":[{"forma": "luches","uso":"Riop."},{"forma":"luchés","uso":"C.Am."}],"s3":["luche"],"p1":["luchemos"],"p2":["luchéis"],"p3":["luchen"]},
     "SubImp": {"s1":["luchara","luchase"],"s2":["lucharas","luchases"],"vos":["lucharas","luchases"],"s3":["luchara","luchase"],"p1":["lucháramos","luchásemos"],"p2":["lucharais","luchaseis"],"p3":["lucharan","luchasen"]},
     "SubFut": {"s1":["luchare"],"s2":["luchares"],"vos":["luchares"],"s3":["luchare"],"p1":["lucháremos"],"p2":["luchareis"],"p3":["lucharen"]},
     "CmdPos": {"s2":["lucha"],"vos":["luchá"],"s3":["luche"],"p1":["luchemos"],"p2":["luchad"],"p3":["luchen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["delinquí"],"s2":["delinquiste"],"vos":["delinquiste"],"s3":["delinquió"],"p1":["delinquimos"],"p2":["delinquisteis"],"p3":["delinquieron"]},
     "IndFut": {"s1":["delinquiré"],"s2":["delinquirás"],"vos":["delinquirás"],"s3":["delinquirá"],"p1":["delinquiremos"],"p2":["delinquiréis"],"p3":["delinquirán"]},
     "IndCond": {"s1":["delinquiría"],"s2":["delinquirías"],"vos":["delinquirías"],"s3":["delinquiría"],"p1":["delinquiríamos"],"p2":["delinquiríais"],"p3":["delinquirían"]},
-    "SubPres": {"s1":["delinca"],"s2":["delincas"],"vos":["delincas","delincás"],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]},
+    "SubPres": {"s1":["delinca"],"s2":["delincas"],"vos":[{"forma": "delincas","uso":"Riop."},{"forma":"delincás","uso":"C.Am."}],"s3":["delinca"],"p1":["delincamos"],"p2":["delincáis"],"p3":["delincan"]},
     "SubImp": {"s1":["delinquiera","delinquiese"],"s2":["delinquieras","delinquieses"],"vos":["delinquieras","delinquieses"],"s3":["delinquiera","delinquiese"],"p1":["delinquiéramos","delinquiésemos"],"p2":["delinquierais","delinquieseis"],"p3":["delinquieran","delinquiesen"]},
     "SubFut": {"s1":["delinquiere"],"s2":["delinquieres"],"vos":["delinquieres"],"s3":["delinquiere"],"p1":["delinquiéremos"],"p2":["delinquiereis"],"p3":["delinquieren"]},
     "CmdPos": {"s2":["delinque"],"vos":["delinquí"],"s3":["delinca"],"p1":["delincamos"],"p2":["delinquid"],"p3":["delincan"]}

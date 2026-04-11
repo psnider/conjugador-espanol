@@ -13,7 +13,7 @@
     "IndPret": {"s1":["hablé"],"s2":["hablaste"],"vos":["hablaste"],"s3":["habló"],"p1":["hablamos"],"p2":["hablasteis"],"p3":["hablaron"]},
     "IndFut": {"s1":["hablaré"],"s2":["hablarás"],"vos":["hablarás"],"s3":["hablará"],"p1":["hablaremos"],"p2":["hablaréis"],"p3":["hablarán"]},
     "IndCond": {"s1":["hablaría"],"s2":["hablarías"],"vos":["hablarías"],"s3":["hablaría"],"p1":["hablaríamos"],"p2":["hablaríais"],"p3":["hablarían"]},
-    "SubPres": {"s1":["hable"],"s2":["hables"],"vos":["hables","hablés"],"s3":["hable"],"p1":["hablemos"],"p2":["habléis"],"p3":["hablen"]},
+    "SubPres": {"s1":["hable"],"s2":["hables"],"vos":[{"forma": "hables","uso":"Riop."},{"forma":"hablés","uso":"C.Am."}],"s3":["hable"],"p1":["hablemos"],"p2":["habléis"],"p3":["hablen"]},
     "SubImp": {"s1":["hablara","hablase"],"s2":["hablaras","hablases"],"vos":["hablaras","hablases"],"s3":["hablara","hablase"],"p1":["habláramos","hablásemos"],"p2":["hablarais","hablaseis"],"p3":["hablaran","hablasen"]},
     "SubFut": {"s1":["hablare"],"s2":["hablares"],"vos":["hablares"],"s3":["hablare"],"p1":["habláremos"],"p2":["hablareis"],"p3":["hablaren"]},
     "CmdPos": {"s2":["habla"],"vos":["hablá"],"s3":["hable"],"p1":["hablemos"],"p2":["hablad"],"p3":["hablen"]}

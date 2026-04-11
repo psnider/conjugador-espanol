@@ -13,7 +13,7 @@
     "IndPret": {"s1":["extrañé"],"s2":["extrañaste"],"vos":["extrañaste"],"s3":["extrañó"],"p1":["extrañamos"],"p2":["extrañasteis"],"p3":["extrañaron"]},
     "IndFut": {"s1":["extrañaré"],"s2":["extrañarás"],"vos":["extrañarás"],"s3":["extrañará"],"p1":["extrañaremos"],"p2":["extrañaréis"],"p3":["extrañarán"]},
     "IndCond": {"s1":["extrañaría"],"s2":["extrañarías"],"vos":["extrañarías"],"s3":["extrañaría"],"p1":["extrañaríamos"],"p2":["extrañaríais"],"p3":["extrañarían"]},
-    "SubPres": {"s1":["extrañe"],"s2":["extrañes"],"vos":["extrañes","extrañés"],"s3":["extrañe"],"p1":["extrañemos"],"p2":["extrañéis"],"p3":["extrañen"]},
+    "SubPres": {"s1":["extrañe"],"s2":["extrañes"],"vos":[{"forma": "extrañes","uso":"Riop."},{"forma":"extrañés","uso":"C.Am."}],"s3":["extrañe"],"p1":["extrañemos"],"p2":["extrañéis"],"p3":["extrañen"]},
     "SubImp": {"s1":["extrañara","extrañase"],"s2":["extrañaras","extrañases"],"vos":["extrañaras","extrañases"],"s3":["extrañara","extrañase"],"p1":["extrañáramos","extrañásemos"],"p2":["extrañarais","extrañaseis"],"p3":["extrañaran","extrañasen"]},
     "SubFut": {"s1":["extrañare"],"s2":["extrañares"],"vos":["extrañares"],"s3":["extrañare"],"p1":["extrañáremos"],"p2":["extrañareis"],"p3":["extrañaren"]},
     "CmdPos": {"s2":["extraña"],"vos":["extrañá"],"s3":["extrañe"],"p1":["extrañemos"],"p2":["extrañad"],"p3":["extrañen"]}

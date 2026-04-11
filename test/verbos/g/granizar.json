@@ -4,7 +4,8 @@
     "silabacion": "gra-ni-zar",
     "acentuacion": "aguda",
     "etimologia": "De granizo y el sufijo -ar.",
-    "modelos": ["realizar"]
+    "modelos": ["realizar"],
+    "defectos": {"personas": ["s3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
   },
   "formas_no_personales": {"infinitivo":"granizar","gerundio":["granizando"], "participio":["granizado"]},
   "formas_personales": {

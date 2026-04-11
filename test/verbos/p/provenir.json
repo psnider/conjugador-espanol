@@ -13,9 +13,9 @@
     "IndPret": {"s1":["provine"],"s2":["proviniste"],"vos":["proviniste"],"s3":["provino"],"p1":["provinimos"],"p2":["provinisteis"],"p3":["provinieron"]},
     "IndFut": {"s1":["provendré"],"s2":["provendrás"],"vos":["provendrás"],"s3":["provendrá"],"p1":["provendremos"],"p2":["provendréis"],"p3":["provendrán"]},
     "IndCond": {"s1":["provendría"],"s2":["provendrías"],"vos":["provendrías"],"s3":["provendría"],"p1":["provendríamos"],"p2":["provendríais"],"p3":["provendrían"]},
-    "SubPres": {"s1":["provenga"],"s2":["provengas"],"vos":["provengas","provengás"],"s3":["provenga"],"p1":["provengamos"],"p2":["provengáis"],"p3":["provengan"]},
+    "SubPres": {"s1":["provenga"],"s2":["provengas"],"vos":[{"forma": "provengas","uso":"Riop."},{"forma":"provengás","uso":"C.Am."}],"s3":["provenga"],"p1":["provengamos"],"p2":["provengáis"],"p3":["provengan"]},
     "SubImp": {"s1":["proviniera","proviniese"],"s2":["provinieras","provinieses"],"vos":["provinieras","provinieses"],"s3":["proviniera","proviniese"],"p1":["proviniéramos","proviniésemos"],"p2":["provinierais","provinieseis"],"p3":["provinieran","proviniesen"]},
     "SubFut": {"s1":["proviniere"],"s2":["provinieres"],"vos":["provinieres"],"s3":["proviniere"],"p1":["proviniéremos"],"p2":["proviniereis"],"p3":["provinieren"]},
-    "CmdPos": {"s2":{"estándar":["provén"],"atípicos":[{"forma":"proviene","etiquetas":["no normativo"]}]},"vos":["provení"],"s3":["provenga"],"p1":["provengamos"],"p2":["provenid"],"p3":["provengan"]}
+    "CmdPos": {"s2":["provén"],"vos":["provení"],"s3":["provenga"],"p1":["provengamos"],"p2":["provenid"],"p3":["provengan"]}
   }
 }

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estofé"],"s2":["estofaste"],"vos":["estofaste"],"s3":["estofó"],"p1":["estofamos"],"p2":["estofasteis"],"p3":["estofaron"]},
     "IndFut": {"s1":["estofaré"],"s2":["estofarás"],"vos":["estofarás"],"s3":["estofará"],"p1":["estofaremos"],"p2":["estofaréis"],"p3":["estofarán"]},
     "IndCond": {"s1":["estofaría"],"s2":["estofarías"],"vos":["estofarías"],"s3":["estofaría"],"p1":["estofaríamos"],"p2":["estofaríais"],"p3":["estofarían"]},
-    "SubPres": {"s1":["estofe"],"s2":["estofes"],"vos":["estofes","estofés"],"s3":["estofe"],"p1":["estofemos"],"p2":["estoféis"],"p3":["estofen"]},
+    "SubPres": {"s1":["estofe"],"s2":["estofes"],"vos":[{"forma": "estofes","uso":"Riop."},{"forma":"estofés","uso":"C.Am."}],"s3":["estofe"],"p1":["estofemos"],"p2":["estoféis"],"p3":["estofen"]},
     "SubImp": {"s1":["estofara","estofase"],"s2":["estofaras","estofases"],"vos":["estofaras","estofases"],"s3":["estofara","estofase"],"p1":["estofáramos","estofásemos"],"p2":["estofarais","estofaseis"],"p3":["estofaran","estofasen"]},
     "SubFut": {"s1":["estofare"],"s2":["estofares"],"vos":["estofares"],"s3":["estofare"],"p1":["estofáremos"],"p2":["estofareis"],"p3":["estofaren"]},
     "CmdPos": {"s2":["estofa"],"vos":["estofá"],"s3":["estofe"],"p1":["estofemos"],"p2":["estofad"],"p3":["estofen"]}

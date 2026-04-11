@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reconté"],"s2":["recontaste"],"vos":["recontaste"],"s3":["recontó"],"p1":["recontamos"],"p2":["recontasteis"],"p3":["recontaron"]},
     "IndFut": {"s1":["recontaré"],"s2":["recontarás"],"vos":["recontarás"],"s3":["recontará"],"p1":["recontaremos"],"p2":["recontaréis"],"p3":["recontarán"]},
     "IndCond": {"s1":["recontaría"],"s2":["recontarías"],"vos":["recontarías"],"s3":["recontaría"],"p1":["recontaríamos"],"p2":["recontaríais"],"p3":["recontarían"]},
-    "SubPres": {"s1":["recuente"],"s2":["recuentes"],"vos":["recuentes","recontés"],"s3":["recuente"],"p1":["recontemos"],"p2":["recontéis"],"p3":["recuenten"]},
+    "SubPres": {"s1":["recuente"],"s2":["recuentes"],"vos":[{"forma": "recuentes","uso":"Riop."},{"forma":"recontés","uso":"C.Am."}],"s3":["recuente"],"p1":["recontemos"],"p2":["recontéis"],"p3":["recuenten"]},
     "SubImp": {"s1":["recontara","recontase"],"s2":["recontaras","recontases"],"vos":["recontaras","recontases"],"s3":["recontara","recontase"],"p1":["recontáramos","recontásemos"],"p2":["recontarais","recontaseis"],"p3":["recontaran","recontasen"]},
     "SubFut": {"s1":["recontare"],"s2":["recontares"],"vos":["recontares"],"s3":["recontare"],"p1":["recontáremos"],"p2":["recontareis"],"p3":["recontaren"]},
     "CmdPos": {"s2":["recuenta"],"vos":["recontá"],"s3":["recuente"],"p1":["recontemos"],"p2":["recontad"],"p3":["recuenten"]}

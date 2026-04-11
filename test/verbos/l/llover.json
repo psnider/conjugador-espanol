@@ -4,7 +4,8 @@
     "silabacion": "llo-ver",
     "acentuacion": "aguda",
     "etimologia": "Del latín vulgar plovĕre, y este del latín pluere ('pluĕre').",
-    "modelos": ["mover"]
+    "modelos": ["mover"],
+    "defectos": {"personas": ["s3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
   },
   "formas_no_personales": {"infinitivo":"llover","gerundio":["lloviendo"], "participio":["llovido"]},
   "formas_personales": {
@@ -13,7 +14,7 @@
     "IndPret": {"s1":["lloví"],"s2":["lloviste"],"vos":["lloviste"],"s3":["llovió"],"p1":["llovimos"],"p2":["llovisteis"],"p3":["llovieron"]},
     "IndFut": {"s1":["lloveré"],"s2":["lloverás"],"vos":["lloverás"],"s3":["lloverá"],"p1":["lloveremos"],"p2":["lloveréis"],"p3":["lloverán"]},
     "IndCond": {"s1":["llovería"],"s2":["lloverías"],"vos":["lloverías"],"s3":["llovería"],"p1":["lloveríamos"],"p2":["lloveríais"],"p3":["lloverían"]},
-    "SubPres": {"s1":["llueva"],"s2":["lluevas"],"vos":["lluevas","llovás"],"s3":["llueva"],"p1":["llovamos"],"p2":["llováis"],"p3":["lluevan"]},
+    "SubPres": {"s1":["llueva"],"s2":["lluevas"],"vos":[{"forma": "lluevas","uso":"Riop."},{"forma":"llovás","uso":"C.Am."}],"s3":["llueva"],"p1":["llovamos"],"p2":["llováis"],"p3":["lluevan"]},
     "SubImp": {"s1":["lloviera","lloviese"],"s2":["llovieras","llovieses"],"vos":["llovieras","llovieses"],"s3":["lloviera","lloviese"],"p1":["lloviéramos","lloviésemos"],"p2":["llovierais","llovieseis"],"p3":["llovieran","lloviesen"]},
     "SubFut": {"s1":["lloviere"],"s2":["llovieres"],"vos":["llovieres"],"s3":["lloviere"],"p1":["lloviéremos"],"p2":["lloviereis"],"p3":["llovieren"]},
     "CmdPos": {"s2":["llueve"],"vos":["llové"],"s3":["llueva"],"p1":["llovamos"],"p2":["lloved"],"p3":["lluevan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reventé"],"s2":["reventaste"],"vos":["reventaste"],"s3":["reventó"],"p1":["reventamos"],"p2":["reventasteis"],"p3":["reventaron"]},
     "IndFut": {"s1":["reventaré"],"s2":["reventarás"],"vos":["reventarás"],"s3":["reventará"],"p1":["reventaremos"],"p2":["reventaréis"],"p3":["reventarán"]},
     "IndCond": {"s1":["reventaría"],"s2":["reventarías"],"vos":["reventarías"],"s3":["reventaría"],"p1":["reventaríamos"],"p2":["reventaríais"],"p3":["reventarían"]},
-    "SubPres": {"s1":["reviente"],"s2":["revientes"],"vos":["revientes","reventés"],"s3":["reviente"],"p1":["reventemos"],"p2":["reventéis"],"p3":["revienten"]},
+    "SubPres": {"s1":["reviente"],"s2":["revientes"],"vos":[{"forma": "revientes","uso":"Riop."},{"forma":"reventés","uso":"C.Am."}],"s3":["reviente"],"p1":["reventemos"],"p2":["reventéis"],"p3":["revienten"]},
     "SubImp": {"s1":["reventara","reventase"],"s2":["reventaras","reventases"],"vos":["reventaras","reventases"],"s3":["reventara","reventase"],"p1":["reventáramos","reventásemos"],"p2":["reventarais","reventaseis"],"p3":["reventaran","reventasen"]},
     "SubFut": {"s1":["reventare"],"s2":["reventares"],"vos":["reventares"],"s3":["reventare"],"p1":["reventáremos"],"p2":["reventareis"],"p3":["reventaren"]},
     "CmdPos": {"s2":["revienta"],"vos":["reventá"],"s3":["reviente"],"p1":["reventemos"],"p2":["reventad"],"p3":["revienten"]}

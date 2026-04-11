@@ -12,7 +12,7 @@
     "IndPret": {"s1":["tapié"],"s2":["tapiaste"],"vos":["tapiaste"],"s3":["tapió"],"p1":["tapiamos"],"p2":["tapiasteis"],"p3":["tapiaron"]},
     "IndFut": {"s1":["tapiaré"],"s2":["tapiarás"],"vos":["tapiarás"],"s3":["tapiará"],"p1":["tapiaremos"],"p2":["tapiaréis"],"p3":["tapiarán"]},
     "IndCond": {"s1":["tapiaría"],"s2":["tapiarías"],"vos":["tapiarías"],"s3":["tapiaría"],"p1":["tapiaríamos"],"p2":["tapiaríais"],"p3":["tapiarían"]},
-    "SubPres": {"s1":["tapie"],"s2":["tapies"],"vos":["tapies","tapiés"],"s3":["tapie"],"p1":["tapiemos"],"p2":["tapiéis"],"p3":["tapien"]},
+    "SubPres": {"s1":["tapie"],"s2":["tapies"],"vos":[{"forma": "tapies","uso":"Riop."},{"forma":"tapiés","uso":"C.Am."}],"s3":["tapie"],"p1":["tapiemos"],"p2":["tapiéis"],"p3":["tapien"]},
     "SubImp": {"s1":["tapiara","tapiase"],"s2":["tapiaras","tapiases"],"vos":["tapiaras","tapiases"],"s3":["tapiara","tapiase"],"p1":["tapiáramos","tapiásemos"],"p2":["tapiarais","tapiaseis"],"p3":["tapiaran","tapiasen"]},
     "SubFut": {"s1":["tapiare"],"s2":["tapiares"],"vos":["tapiares"],"s3":["tapiare"],"p1":["tapiáremos"],"p2":["tapiareis"],"p3":["tapiaren"]},
     "CmdPos": {"s2":["tapia"],"vos":["tapiá"],"s3":["tapie"],"p1":["tapiemos"],"p2":["tapiad"],"p3":["tapien"]}

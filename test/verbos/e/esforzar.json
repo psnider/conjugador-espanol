@@ -13,7 +13,7 @@
     "IndPret": {"s1":["esforcé"],"s2":["esforzaste"],"vos":["esforzaste"],"s3":["esforzó"],"p1":["esforzamos"],"p2":["esforzasteis"],"p3":["esforzaron"]},
     "IndFut": {"s1":["esforzaré"],"s2":["esforzarás"],"vos":["esforzarás"],"s3":["esforzará"],"p1":["esforzaremos"],"p2":["esforzaréis"],"p3":["esforzarán"]},
     "IndCond": {"s1":["esforzaría"],"s2":["esforzarías"],"vos":["esforzarías"],"s3":["esforzaría"],"p1":["esforzaríamos"],"p2":["esforzaríais"],"p3":["esforzarían"]},
-    "SubPres": {"s1":["esfuerce"],"s2":["esfuerces"],"vos":["esfuerces","esforcés"],"s3":["esfuerce"],"p1":["esforcemos"],"p2":["esforcéis"],"p3":["esfuercen"]},
+    "SubPres": {"s1":["esfuerce"],"s2":["esfuerces"],"vos":[{"forma": "esfuerces","uso":"Riop."},{"forma":"esforcés","uso":"C.Am."}],"s3":["esfuerce"],"p1":["esforcemos"],"p2":["esforcéis"],"p3":["esfuercen"]},
     "SubImp": {"s1":["esforzara","esforzase"],"s2":["esforzaras","esforzases"],"vos":["esforzaras","esforzases"],"s3":["esforzara","esforzase"],"p1":["esforzáramos","esforzásemos"],"p2":["esforzarais","esforzaseis"],"p3":["esforzaran","esforzasen"]},
     "SubFut": {"s1":["esforzare"],"s2":["esforzares"],"vos":["esforzares"],"s3":["esforzare"],"p1":["esforzáremos"],"p2":["esforzareis"],"p3":["esforzaren"]},
     "CmdPos": {"s2":["esfuerza"],"vos":["esforzá"],"s3":["esfuerce"],"p1":["esforcemos"],"p2":["esforzad"],"p3":["esfuercen"]}

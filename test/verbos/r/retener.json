@@ -13,9 +13,9 @@
     "IndPret": {"s1":["retuve"],"s2":["retuviste"],"vos":["retuviste"],"s3":["retuvo"],"p1":["retuvimos"],"p2":["retuvisteis"],"p3":["retuvieron"]},
     "IndFut": {"s1":["retendré"],"s2":["retendrás"],"vos":["retendrás"],"s3":["retendrá"],"p1":["retendremos"],"p2":["retendréis"],"p3":["retendrán"]},
     "IndCond": {"s1":["retendría"],"s2":["retendrías"],"vos":["retendrías"],"s3":["retendría"],"p1":["retendríamos"],"p2":["retendríais"],"p3":["retendrían"]},
-    "SubPres": {"s1":["retenga"],"s2":["retengas"],"vos":["retengas","retengás"],"s3":["retenga"],"p1":["retengamos"],"p2":["retengáis"],"p3":["retengan"]},
+    "SubPres": {"s1":["retenga"],"s2":["retengas"],"vos":[{"forma": "retengas","uso":"Riop."},{"forma":"retengás","uso":"C.Am."}],"s3":["retenga"],"p1":["retengamos"],"p2":["retengáis"],"p3":["retengan"]},
     "SubImp": {"s1":["retuviera","retuviese"],"s2":["retuvieras","retuvieses"],"vos":["retuvieras","retuvieses"],"s3":["retuviera","retuviese"],"p1":["retuviéramos","retuviésemos"],"p2":["retuvierais","retuvieseis"],"p3":["retuvieran","retuviesen"]},
     "SubFut": {"s1":["retuviere"],"s2":["retuvieres"],"vos":["retuvieres"],"s3":["retuviere"],"p1":["retuviéremos"],"p2":["retuviereis"],"p3":["retuvieren"]},
-    "CmdPos": {"s2":{"estándar":["retén"],"atípicos":[{"forma":"retiene","etiquetas":["no normativo"]}]},"vos":["retené"],"s3":["retenga"],"p1":["retengamos"],"p2":["retened"],"p3":["retengan"]}
+    "CmdPos": {"s2":["retén"],"vos":["retené"],"s3":["retenga"],"p1":["retengamos"],"p2":["retened"],"p3":["retengan"]}
   }
 }

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["asigné"],"s2":["asignaste"],"vos":["asignaste"],"s3":["asignó"],"p1":["asignamos"],"p2":["asignasteis"],"p3":["asignaron"]},
     "IndFut": {"s1":["asignaré"],"s2":["asignarás"],"vos":["asignarás"],"s3":["asignará"],"p1":["asignaremos"],"p2":["asignaréis"],"p3":["asignarán"]},
     "IndCond": {"s1":["asignaría"],"s2":["asignarías"],"vos":["asignarías"],"s3":["asignaría"],"p1":["asignaríamos"],"p2":["asignaríais"],"p3":["asignarían"]},
-    "SubPres": {"s1":["asigne"],"s2":["asignes"],"vos":["asignes","asignés"],"s3":["asigne"],"p1":["asignemos"],"p2":["asignéis"],"p3":["asignen"]},
+    "SubPres": {"s1":["asigne"],"s2":["asignes"],"vos":[{"forma": "asignes","uso":"Riop."},{"forma":"asignés","uso":"C.Am."}],"s3":["asigne"],"p1":["asignemos"],"p2":["asignéis"],"p3":["asignen"]},
     "SubImp": {"s1":["asignara","asignase"],"s2":["asignaras","asignases"],"vos":["asignaras","asignases"],"s3":["asignara","asignase"],"p1":["asignáramos","asignásemos"],"p2":["asignarais","asignaseis"],"p3":["asignaran","asignasen"]},
     "SubFut": {"s1":["asignare"],"s2":["asignares"],"vos":["asignares"],"s3":["asignare"],"p1":["asignáremos"],"p2":["asignareis"],"p3":["asignaren"]},
     "CmdPos": {"s2":["asigna"],"vos":["asigná"],"s3":["asigne"],"p1":["asignemos"],"p2":["asignad"],"p3":["asignen"]}

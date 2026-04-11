@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atiné"],"s2":["atinaste"],"vos":["atinaste"],"s3":["atinó"],"p1":["atinamos"],"p2":["atinasteis"],"p3":["atinaron"]},
     "IndFut": {"s1":["atinaré"],"s2":["atinarás"],"vos":["atinarás"],"s3":["atinará"],"p1":["atinaremos"],"p2":["atinaréis"],"p3":["atinarán"]},
     "IndCond": {"s1":["atinaría"],"s2":["atinarías"],"vos":["atinarías"],"s3":["atinaría"],"p1":["atinaríamos"],"p2":["atinaríais"],"p3":["atinarían"]},
-    "SubPres": {"s1":["atine"],"s2":["atines"],"vos":["atines","atinés"],"s3":["atine"],"p1":["atinemos"],"p2":["atinéis"],"p3":["atinen"]},
+    "SubPres": {"s1":["atine"],"s2":["atines"],"vos":[{"forma": "atines","uso":"Riop."},{"forma":"atinés","uso":"C.Am."}],"s3":["atine"],"p1":["atinemos"],"p2":["atinéis"],"p3":["atinen"]},
     "SubImp": {"s1":["atinara","atinase"],"s2":["atinaras","atinases"],"vos":["atinaras","atinases"],"s3":["atinara","atinase"],"p1":["atináramos","atinásemos"],"p2":["atinarais","atinaseis"],"p3":["atinaran","atinasen"]},
     "SubFut": {"s1":["atinare"],"s2":["atinares"],"vos":["atinares"],"s3":["atinare"],"p1":["atináremos"],"p2":["atinareis"],"p3":["atinaren"]},
     "CmdPos": {"s2":["atina"],"vos":["atiná"],"s3":["atine"],"p1":["atinemos"],"p2":["atinad"],"p3":["atinen"]}

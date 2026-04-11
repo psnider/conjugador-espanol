@@ -1,4 +1,4 @@
-import { applyToVerbForms } from "./lib.js";
+import { applyToFormasConjugadas, combinaFormasConjugadas, vowels } from "./lib.js";
 // Prefixes that precede irregular verbs.
 // This isn't a list of all known prefixes.
 // These are in order of: first letter, then longest first when there is a prefix match.
@@ -66,10 +66,11 @@ export function addPrefixesToBaseForm(base_forms, prefixes) {
         const { productive_prefixes, nonproductive_prefix, clase_de_conjugación } = prefixes;
         const productive = productive_prefixes?.join("") || "";
         const nonproductive = nonproductive_prefix || "";
-        const updated_forms = applyToVerbForms(base_forms, (base_form) => {
+        const w_Prefijos_clase_de_conjugación = applyToFormasConjugadas(base_forms, (base_form) => {
             let updated_form;
             if (clase_de_conjugación) {
-                const { prefijo_aditivo, prefijo_sustractivo } = clase_de_conjugación;
+                const { prefijo_aditivo } = clase_de_conjugación;
+                const prefijo_sustractivo = clase_de_conjugación.prefijo_sustractivo || "";
                 const terminación = base_form.slice(prefijo_sustractivo.length);
                 updated_form = prefijo_aditivo + terminación;
             }
@@ -79,45 +80,61 @@ export function addPrefixesToBaseForm(base_forms, prefixes) {
             const prefixed = productive + nonproductive + updated_form;
             return prefixed;
         });
+        const updated_forms = combinaFormasConjugadas(base_forms, w_Prefijos_clase_de_conjugación);
         return updated_forms;
     }
     else {
         return base_forms;
     }
 }
+// // Return prefixed forms, or undefined if there are no prefixes.
+// export function aplicaPrefijosProductivos(conjugated_forms: VerbConjugation, prefijos: Prefixes | undefined, rules_applied: VerbRulesApplied[]) : VerbConjugation | undefined {
+//     if (prefijos) {
+//         const {productive_prefixes, nonproductive_prefix} = prefijos
+//         const productive = productive_prefixes?.join("") || ""
+//         const nonproductive  = nonproductive_prefix || ""
+//         const prefix = productive + nonproductive 
+//         if (prefix.length > 0) {
+//             const prefixed: VerbConjugation = {}
+//             for (const key in conjugated_forms) {
+//                 const grammatical_person = key as keyof typeof conjugated_forms
+//                 prefixed[grammatical_person] = applyToFormasConjugadas(conjugated_forms[grammatical_person], (base_form: string) => {
+//                     return prefix + base_form
+//                 })
+//             }
+//             if (Object.keys(prefixed).length > 1) {
+//                 rules_applied.push({prefixed})
+//             }
+//             return prefixed
+//         }
+//     }
+// }
 // Return prefixed forms, or undefined if there are no prefixes.
-export function aplicaPrefijosProductivos(conjugated_forms, prefijos, rules_applied) {
-    if (prefijos) {
-        const { productive_prefixes, nonproductive_prefix } = prefijos;
-        const productive = productive_prefixes?.join("") || "";
-        const nonproductive = nonproductive_prefix || "";
-        const prefix = productive + nonproductive;
-        if (prefix.length > 0) {
-            const prefixed = {};
-            for (const key in conjugated_forms) {
-                const grammatical_person = key;
-                prefixed[grammatical_person] = applyToVerbForms(conjugated_forms[grammatical_person], (base_form) => {
-                    return prefix + base_form;
-                });
-            }
-            if (Object.keys(prefixed).length > 1) {
-                rules_applied.push({ prefixed });
-            }
-            return prefixed;
-        }
-    }
-}
-// Return prefixed forms, or undefined if there are no prefixes.
+// Note that it is possible for both the model class and the derived class to have excepciones_léxicas,
+// so this must re-prefix the model class but not the derived class
 export function aplicaPrefijosClaseConjugacional(model_form, prefijos) {
     const clase_de_conjugación = prefijos?.clase_de_conjugación;
     if (clase_de_conjugación) {
-        const { prefijo_aditivo, prefijo_sustractivo } = clase_de_conjugación;
+        const { prefijo_aditivo } = clase_de_conjugación;
+        let prefijo_sustractivo = clase_de_conjugación.prefijo_sustractivo || "";
         if (!model_form.startsWith(prefijo_sustractivo)) {
-            throw new Error(`expected ${model_form}.startsWith(${prefijo_sustractivo}) with prefijo=${prefijo_aditivo} `);
+            // busca patrón del modelo, preserva los vocales
+            const modelo_regex = new RegExp(`^([^${vowels}]+)([${vowels}]+)([^${vowels}]+)([${vowels}]*)?\$`);
+            const match_modelo = model_form.match(modelo_regex);
+            const infinitivo_regex = new RegExp(`([^${vowels}]+)([${vowels}]+)([^${vowels}]*)\$`);
+            const match_infinitivo = prefijo_aditivo.match(infinitivo_regex);
+            if (!match_modelo || !match_infinitivo) {
+                throw new Error(`cannot match ${model_form} to clase_de_conjugación=${JSON.stringify(clase_de_conjugación)} `);
+            }
+            // eg: model_form === "pid"  para  "gem" (de "gemir")
+            const changed = match_infinitivo[1] + match_modelo[2] + match_infinitivo[3] + match_modelo[4];
+            return changed;
         }
-        const ending = model_form.slice(prefijo_sustractivo.length);
-        const prefixed = prefijo_aditivo + ending;
-        return prefixed;
+        else {
+            const ending = model_form.slice(prefijo_sustractivo.length);
+            const prefixed = prefijo_aditivo + ending;
+            return prefixed;
+        }
     }
     else {
         return model_form;

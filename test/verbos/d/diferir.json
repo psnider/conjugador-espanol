@@ -13,7 +13,7 @@
     "IndPret": {"s1":["diferí"],"s2":["diferiste"],"vos":["diferiste"],"s3":["difirió"],"p1":["diferimos"],"p2":["diferisteis"],"p3":["difirieron"]},
     "IndFut": {"s1":["diferiré"],"s2":["diferirás"],"vos":["diferirás"],"s3":["diferirá"],"p1":["diferiremos"],"p2":["diferiréis"],"p3":["diferirán"]},
     "IndCond": {"s1":["diferiría"],"s2":["diferirías"],"vos":["diferirías"],"s3":["diferiría"],"p1":["diferiríamos"],"p2":["diferiríais"],"p3":["diferirían"]},
-    "SubPres": {"s1":["difiera"],"s2":["difieras"],"vos":["difieras","difirás"],"s3":["difiera"],"p1":["difiramos"],"p2":["difiráis"],"p3":["difieran"]},
+    "SubPres": {"s1":["difiera"],"s2":["difieras"],"vos":[{"forma": "difieras","uso":"Riop."},{"forma":"difirás","uso":"C.Am."}],"s3":["difiera"],"p1":["difiramos"],"p2":["difiráis"],"p3":["difieran"]},
     "SubImp": {"s1":["difiriera","difiriese"],"s2":["difirieras","difirieses"],"vos":["difirieras","difirieses"],"s3":["difiriera","difiriese"],"p1":["difiriéramos","difiriésemos"],"p2":["difirierais","difirieseis"],"p3":["difirieran","difiriesen"]},
     "SubFut": {"s1":["difiriere"],"s2":["difirieres"],"vos":["difirieres"],"s3":["difiriere"],"p1":["difiriéremos"],"p2":["difiriereis"],"p3":["difirieren"]},
     "CmdPos": {"s2":["difiere"],"vos":["diferí"],"s3":["difiera"],"p1":["difiramos"],"p2":["diferid"],"p3":["difieran"]}

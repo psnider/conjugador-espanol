@@ -13,7 +13,7 @@
     "IndPret": {"s1":["adelgacé"],"s2":["adelgazaste"],"vos":["adelgazaste"],"s3":["adelgazó"],"p1":["adelgazamos"],"p2":["adelgazasteis"],"p3":["adelgazaron"]},
     "IndFut": {"s1":["adelgazaré"],"s2":["adelgazarás"],"vos":["adelgazarás"],"s3":["adelgazará"],"p1":["adelgazaremos"],"p2":["adelgazaréis"],"p3":["adelgazarán"]},
     "IndCond": {"s1":["adelgazaría"],"s2":["adelgazarías"],"vos":["adelgazarías"],"s3":["adelgazaría"],"p1":["adelgazaríamos"],"p2":["adelgazaríais"],"p3":["adelgazarían"]},
-    "SubPres": {"s1":["adelgace"],"s2":["adelgaces"],"vos":["adelgaces","adelgacés"],"s3":["adelgace"],"p1":["adelgacemos"],"p2":["adelgacéis"],"p3":["adelgacen"]},
+    "SubPres": {"s1":["adelgace"],"s2":["adelgaces"],"vos":[{"forma": "adelgaces","uso":"Riop."},{"forma":"adelgacés","uso":"C.Am."}],"s3":["adelgace"],"p1":["adelgacemos"],"p2":["adelgacéis"],"p3":["adelgacen"]},
     "SubImp": {"s1":["adelgazara","adelgazase"],"s2":["adelgazaras","adelgazases"],"vos":["adelgazaras","adelgazases"],"s3":["adelgazara","adelgazase"],"p1":["adelgazáramos","adelgazásemos"],"p2":["adelgazarais","adelgazaseis"],"p3":["adelgazaran","adelgazasen"]},
     "SubFut": {"s1":["adelgazare"],"s2":["adelgazares"],"vos":["adelgazares"],"s3":["adelgazare"],"p1":["adelgazáremos"],"p2":["adelgazareis"],"p3":["adelgazaren"]},
     "CmdPos": {"s2":["adelgaza"],"vos":["adelgazá"],"s3":["adelgace"],"p1":["adelgacemos"],"p2":["adelgazad"],"p3":["adelgacen"]}

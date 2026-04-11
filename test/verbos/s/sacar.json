@@ -13,7 +13,7 @@
     "IndPret": {"s1":["saqué"],"s2":["sacaste"],"vos":["sacaste"],"s3":["sacó"],"p1":["sacamos"],"p2":["sacasteis"],"p3":["sacaron"]},
     "IndFut": {"s1":["sacaré"],"s2":["sacarás"],"vos":["sacarás"],"s3":["sacará"],"p1":["sacaremos"],"p2":["sacaréis"],"p3":["sacarán"]},
     "IndCond": {"s1":["sacaría"],"s2":["sacarías"],"vos":["sacarías"],"s3":["sacaría"],"p1":["sacaríamos"],"p2":["sacaríais"],"p3":["sacarían"]},
-    "SubPres": {"s1":["saque"],"s2":["saques"],"vos":["saques","saqués"],"s3":["saque"],"p1":["saquemos"],"p2":["saquéis"],"p3":["saquen"]},
+    "SubPres": {"s1":["saque"],"s2":["saques"],"vos":[{"forma": "saques","uso":"Riop."},{"forma":"saqués","uso":"C.Am."}],"s3":["saque"],"p1":["saquemos"],"p2":["saquéis"],"p3":["saquen"]},
     "SubImp": {"s1":["sacara","sacase"],"s2":["sacaras","sacases"],"vos":["sacaras","sacases"],"s3":["sacara","sacase"],"p1":["sacáramos","sacásemos"],"p2":["sacarais","sacaseis"],"p3":["sacaran","sacasen"]},
     "SubFut": {"s1":["sacare"],"s2":["sacares"],"vos":["sacares"],"s3":["sacare"],"p1":["sacáremos"],"p2":["sacareis"],"p3":["sacaren"]},
     "CmdPos": {"s2":["saca"],"vos":["sacá"],"s3":["saque"],"p1":["saquemos"],"p2":["sacad"],"p3":["saquen"]}

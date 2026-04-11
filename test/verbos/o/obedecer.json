@@ -13,7 +13,7 @@
     "IndPret": {"s1":["obedecí"],"s2":["obedeciste"],"vos":["obedeciste"],"s3":["obedeció"],"p1":["obedecimos"],"p2":["obedecisteis"],"p3":["obedecieron"]},
     "IndFut": {"s1":["obedeceré"],"s2":["obedecerás"],"vos":["obedecerás"],"s3":["obedecerá"],"p1":["obedeceremos"],"p2":["obedeceréis"],"p3":["obedecerán"]},
     "IndCond": {"s1":["obedecería"],"s2":["obedecerías"],"vos":["obedecerías"],"s3":["obedecería"],"p1":["obedeceríamos"],"p2":["obedeceríais"],"p3":["obedecerían"]},
-    "SubPres": {"s1":["obedezca"],"s2":["obedezcas"],"vos":["obedezcas","obedezcás"],"s3":["obedezca"],"p1":["obedezcamos"],"p2":["obedezcáis"],"p3":["obedezcan"]},
+    "SubPres": {"s1":["obedezca"],"s2":["obedezcas"],"vos":[{"forma": "obedezcas","uso":"Riop."},{"forma":"obedezcás","uso":"C.Am."}],"s3":["obedezca"],"p1":["obedezcamos"],"p2":["obedezcáis"],"p3":["obedezcan"]},
     "SubImp": {"s1":["obedeciera","obedeciese"],"s2":["obedecieras","obedecieses"],"vos":["obedecieras","obedecieses"],"s3":["obedeciera","obedeciese"],"p1":["obedeciéramos","obedeciésemos"],"p2":["obedecierais","obedecieseis"],"p3":["obedecieran","obedeciesen"]},
     "SubFut": {"s1":["obedeciere"],"s2":["obedecieres"],"vos":["obedecieres"],"s3":["obedeciere"],"p1":["obedeciéremos"],"p2":["obedeciereis"],"p3":["obedecieren"]},
     "CmdPos": {"s2":["obedece"],"vos":["obedecé"],"s3":["obedezca"],"p1":["obedezcamos"],"p2":["obedeced"],"p3":["obedezcan"]}

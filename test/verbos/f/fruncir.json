@@ -13,7 +13,7 @@
     "IndPret": {"s1":["fruncí"],"s2":["frunciste"],"vos":["frunciste"],"s3":["frunció"],"p1":["fruncimos"],"p2":["fruncisteis"],"p3":["fruncieron"]},
     "IndFut": {"s1":["frunciré"],"s2":["fruncirás"],"vos":["fruncirás"],"s3":["fruncirá"],"p1":["frunciremos"],"p2":["frunciréis"],"p3":["fruncirán"]},
     "IndCond": {"s1":["frunciría"],"s2":["fruncirías"],"vos":["fruncirías"],"s3":["frunciría"],"p1":["frunciríamos"],"p2":["frunciríais"],"p3":["fruncirían"]},
-    "SubPres": {"s1":["frunza"],"s2":["frunzas"],"vos":["frunzas","frunzás"],"s3":["frunza"],"p1":["frunzamos"],"p2":["frunzáis"],"p3":["frunzan"]},
+    "SubPres": {"s1":["frunza"],"s2":["frunzas"],"vos":[{"forma": "frunzas","uso":"Riop."},{"forma":"frunzás","uso":"C.Am."}],"s3":["frunza"],"p1":["frunzamos"],"p2":["frunzáis"],"p3":["frunzan"]},
     "SubImp": {"s1":["frunciera","frunciese"],"s2":["fruncieras","fruncieses"],"vos":["fruncieras","fruncieses"],"s3":["frunciera","frunciese"],"p1":["frunciéramos","frunciésemos"],"p2":["fruncierais","fruncieseis"],"p3":["fruncieran","frunciesen"]},
     "SubFut": {"s1":["frunciere"],"s2":["fruncieres"],"vos":["fruncieres"],"s3":["frunciere"],"p1":["frunciéremos"],"p2":["frunciereis"],"p3":["fruncieren"]},
     "CmdPos": {"s2":["frunce"],"vos":["fruncí"],"s3":["frunza"],"p1":["frunzamos"],"p2":["fruncid"],"p3":["frunzan"]}

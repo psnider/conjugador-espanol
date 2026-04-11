@@ -12,7 +12,7 @@
     "IndPret": {"s1":["intuí"],"s2":["intuiste"],"vos":["intuiste"],"s3":["intuyó"],"p1":["intuimos"],"p2":["intuisteis"],"p3":["intuyeron"]},
     "IndFut": {"s1":["intuiré"],"s2":["intuirás"],"vos":["intuirás"],"s3":["intuirá"],"p1":["intuiremos"],"p2":["intuiréis"],"p3":["intuirán"]},
     "IndCond": {"s1":["intuiría"],"s2":["intuirías"],"vos":["intuirías"],"s3":["intuiría"],"p1":["intuiríamos"],"p2":["intuiríais"],"p3":["intuirían"]},
-    "SubPres": {"s1":["intuya"],"s2":["intuyas"],"vos":["intuyas","intuyás"],"s3":["intuya"],"p1":["intuyamos"],"p2":["intuyáis"],"p3":["intuyan"]},
+    "SubPres": {"s1":["intuya"],"s2":["intuyas"],"vos":[{"forma": "intuyas","uso":"Riop."},{"forma":"intuyás","uso":"C.Am."}],"s3":["intuya"],"p1":["intuyamos"],"p2":["intuyáis"],"p3":["intuyan"]},
     "SubImp": {"s1":["intuyera","intuyese"],"s2":["intuyeras","intuyeses"],"vos":["intuyeras","intuyeses"],"s3":["intuyera","intuyese"],"p1":["intuyéramos","intuyésemos"],"p2":["intuyerais","intuyeseis"],"p3":["intuyeran","intuyesen"]},
     "SubFut": {"s1":["intuyere"],"s2":["intuyeres"],"vos":["intuyeres"],"s3":["intuyere"],"p1":["intuyéremos"],"p2":["intuyereis"],"p3":["intuyeren"]},
     "CmdPos": {"s2":["intuye"],"vos":["intuí"],"s3":["intuya"],"p1":["intuyamos"],"p2":["intuid"],"p3":["intuyan"]}

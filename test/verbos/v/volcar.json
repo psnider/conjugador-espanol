@@ -13,7 +13,7 @@
     "IndPret": {"s1":["volqué"],"s2":["volcaste"],"vos":["volcaste"],"s3":["volcó"],"p1":["volcamos"],"p2":["volcasteis"],"p3":["volcaron"]},
     "IndFut": {"s1":["volcaré"],"s2":["volcarás"],"vos":["volcarás"],"s3":["volcará"],"p1":["volcaremos"],"p2":["volcaréis"],"p3":["volcarán"]},
     "IndCond": {"s1":["volcaría"],"s2":["volcarías"],"vos":["volcarías"],"s3":["volcaría"],"p1":["volcaríamos"],"p2":["volcaríais"],"p3":["volcarían"]},
-    "SubPres": {"s1":["vuelque"],"s2":["vuelques"],"vos":["vuelques","volqués"],"s3":["vuelque"],"p1":["volquemos"],"p2":["volquéis"],"p3":["vuelquen"]},
+    "SubPres": {"s1":["vuelque"],"s2":["vuelques"],"vos":[{"forma": "vuelques","uso":"Riop."},{"forma":"volqués","uso":"C.Am."}],"s3":["vuelque"],"p1":["volquemos"],"p2":["volquéis"],"p3":["vuelquen"]},
     "SubImp": {"s1":["volcara","volcase"],"s2":["volcaras","volcases"],"vos":["volcaras","volcases"],"s3":["volcara","volcase"],"p1":["volcáramos","volcásemos"],"p2":["volcarais","volcaseis"],"p3":["volcaran","volcasen"]},
     "SubFut": {"s1":["volcare"],"s2":["volcares"],"vos":["volcares"],"s3":["volcare"],"p1":["volcáremos"],"p2":["volcareis"],"p3":["volcaren"]},
     "CmdPos": {"s2":["vuelca"],"vos":["volcá"],"s3":["vuelque"],"p1":["volquemos"],"p2":["volcad"],"p3":["vuelquen"]}

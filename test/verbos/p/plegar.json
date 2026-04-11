@@ -13,7 +13,7 @@
     "IndPret": {"s1":["plegué"],"s2":["plegaste"],"vos":["plegaste"],"s3":["plegó"],"p1":["plegamos"],"p2":["plegasteis"],"p3":["plegaron"]},
     "IndFut": {"s1":["plegaré"],"s2":["plegarás"],"vos":["plegarás"],"s3":["plegará"],"p1":["plegaremos"],"p2":["plegaréis"],"p3":["plegarán"]},
     "IndCond": {"s1":["plegaría"],"s2":["plegarías"],"vos":["plegarías"],"s3":["plegaría"],"p1":["plegaríamos"],"p2":["plegaríais"],"p3":["plegarían"]},
-    "SubPres": {"s1":["pliegue"],"s2":["pliegues"],"vos":["pliegues","plegués"],"s3":["pliegue"],"p1":["pleguemos"],"p2":["pleguéis"],"p3":["plieguen"]},
+    "SubPres": {"s1":["pliegue"],"s2":["pliegues"],"vos":[{"forma": "pliegues","uso":"Riop."},{"forma":"plegués","uso":"C.Am."}],"s3":["pliegue"],"p1":["pleguemos"],"p2":["pleguéis"],"p3":["plieguen"]},
     "SubImp": {"s1":["plegara","plegase"],"s2":["plegaras","plegases"],"vos":["plegaras","plegases"],"s3":["plegara","plegase"],"p1":["plegáramos","plegásemos"],"p2":["plegarais","plegaseis"],"p3":["plegaran","plegasen"]},
     "SubFut": {"s1":["plegare"],"s2":["plegares"],"vos":["plegares"],"s3":["plegare"],"p1":["plegáremos"],"p2":["plegareis"],"p3":["plegaren"]},
     "CmdPos": {"s2":["pliega"],"vos":["plegá"],"s3":["pliegue"],"p1":["pleguemos"],"p2":["plegad"],"p3":["plieguen"]}

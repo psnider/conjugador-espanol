@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aupé"],"s2":["aupaste"],"vos":["aupaste"],"s3":["aupó"],"p1":["aupamos"],"p2":["aupasteis"],"p3":["auparon"]},
     "IndFut": {"s1":["auparé"],"s2":["auparás"],"vos":["auparás"],"s3":["aupará"],"p1":["auparemos"],"p2":["auparéis"],"p3":["auparán"]},
     "IndCond": {"s1":["auparía"],"s2":["auparías"],"vos":["auparías"],"s3":["auparía"],"p1":["auparíamos"],"p2":["auparíais"],"p3":["auparían"]},
-    "SubPres": {"s1":["aúpe"],"s2":["aúpes"],"vos":["aúpes","aupés"],"s3":["aúpe"],"p1":["aupemos"],"p2":["aupéis"],"p3":["aúpen"]},
+    "SubPres": {"s1":["aúpe"],"s2":["aúpes"],"vos":[{"forma": "aúpes","uso":"Riop."},{"forma":"aupés","uso":"C.Am."}],"s3":["aúpe"],"p1":["aupemos"],"p2":["aupéis"],"p3":["aúpen"]},
     "SubImp": {"s1":["aupara","aupase"],"s2":["auparas","aupases"],"vos":["auparas","aupases"],"s3":["aupara","aupase"],"p1":["aupáramos","aupásemos"],"p2":["auparais","aupaseis"],"p3":["auparan","aupasen"]},
     "SubFut": {"s1":["aupare"],"s2":["aupares"],"vos":["aupares"],"s3":["aupare"],"p1":["aupáremos"],"p2":["aupareis"],"p3":["auparen"]},
     "CmdPos": {"s2":["aúpa"],"vos":["aupá"],"s3":["aúpe"],"p1":["aupemos"],"p2":["aupad"],"p3":["aúpen"]}

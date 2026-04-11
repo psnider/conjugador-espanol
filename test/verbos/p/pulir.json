@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pulí"],"s2":["puliste"],"vos":["puliste"],"s3":["pulió"],"p1":["pulimos"],"p2":["pulisteis"],"p3":["pulieron"]},
     "IndFut": {"s1":["puliré"],"s2":["pulirás"],"vos":["pulirás"],"s3":["pulirá"],"p1":["puliremos"],"p2":["puliréis"],"p3":["pulirán"]},
     "IndCond": {"s1":["puliría"],"s2":["pulirías"],"vos":["pulirías"],"s3":["puliría"],"p1":["puliríamos"],"p2":["puliríais"],"p3":["pulirían"]},
-    "SubPres": {"s1":["pula"],"s2":["pulas"],"vos":["pulas","pulás"],"s3":["pula"],"p1":["pulamos"],"p2":["puláis"],"p3":["pulan"]},
+    "SubPres": {"s1":["pula"],"s2":["pulas"],"vos":[{"forma": "pulas","uso":"Riop."},{"forma":"pulás","uso":"C.Am."}],"s3":["pula"],"p1":["pulamos"],"p2":["puláis"],"p3":["pulan"]},
     "SubImp": {"s1":["puliera","puliese"],"s2":["pulieras","pulieses"],"vos":["pulieras","pulieses"],"s3":["puliera","puliese"],"p1":["puliéramos","puliésemos"],"p2":["pulierais","pulieseis"],"p3":["pulieran","puliesen"]},
     "SubFut": {"s1":["puliere"],"s2":["pulieres"],"vos":["pulieres"],"s3":["puliere"],"p1":["puliéremos"],"p2":["puliereis"],"p3":["pulieren"]},
     "CmdPos": {"s2":["pule"],"vos":["pulí"],"s3":["pula"],"p1":["pulamos"],"p2":["pulid"],"p3":["pulan"]}

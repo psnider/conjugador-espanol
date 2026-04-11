@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conseguí"],"s2":["conseguiste"],"vos":["conseguiste"],"s3":["consiguió"],"p1":["conseguimos"],"p2":["conseguisteis"],"p3":["consiguieron"]},
     "IndFut": {"s1":["conseguiré"],"s2":["conseguirás"],"vos":["conseguirás"],"s3":["conseguirá"],"p1":["conseguiremos"],"p2":["conseguiréis"],"p3":["conseguirán"]},
     "IndCond": {"s1":["conseguiría"],"s2":["conseguirías"],"vos":["conseguirías"],"s3":["conseguiría"],"p1":["conseguiríamos"],"p2":["conseguiríais"],"p3":["conseguirían"]},
-    "SubPres": {"s1":["consiga"],"s2":["consigas"],"vos":["consigas","consigás"],"s3":["consiga"],"p1":["consigamos"],"p2":["consigáis"],"p3":["consigan"]},
+    "SubPres": {"s1":["consiga"],"s2":["consigas"],"vos":[{"forma": "consigas","uso":"Riop."},{"forma":"consigás","uso":"C.Am."}],"s3":["consiga"],"p1":["consigamos"],"p2":["consigáis"],"p3":["consigan"]},
     "SubImp": {"s1":["consiguiera","consiguiese"],"s2":["consiguieras","consiguieses"],"vos":["consiguieras","consiguieses"],"s3":["consiguiera","consiguiese"],"p1":["consiguiéramos","consiguiésemos"],"p2":["consiguierais","consiguieseis"],"p3":["consiguieran","consiguiesen"]},
     "SubFut": {"s1":["consiguiere"],"s2":["consiguieres"],"vos":["consiguieres"],"s3":["consiguiere"],"p1":["consiguiéremos"],"p2":["consiguiereis"],"p3":["consiguieren"]},
     "CmdPos": {"s2":["consigue"],"vos":["conseguí"],"s3":["consiga"],"p1":["consigamos"],"p2":["conseguid"],"p3":["consigan"]}

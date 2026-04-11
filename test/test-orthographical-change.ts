@@ -4,7 +4,7 @@ export function test_applyOrthographicalChanges(args: {conjugated_form: string, 
     const {conjugated_form, suffix, infinitivo} = args
     const rule = findInfinitiveBaseEndingSoundRule(infinitivo)
     if (rule) {
-        const changed = applyOrthographicalChangesToConjugatedForm(infinitivo, conjugated_form, suffix, true, true)
+        const changed = applyOrthographicalChangesToConjugatedForm(infinitivo, conjugated_form, true, true)
         return changed
     }
 }

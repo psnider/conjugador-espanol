@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tosí"],"s2":["tosiste"],"vos":["tosiste"],"s3":["tosió"],"p1":["tosimos"],"p2":["tosisteis"],"p3":["tosieron"]},
     "IndFut": {"s1":["toseré"],"s2":["toserás"],"vos":["toserás"],"s3":["toserá"],"p1":["toseremos"],"p2":["toseréis"],"p3":["toserán"]},
     "IndCond": {"s1":["tosería"],"s2":["toserías"],"vos":["toserías"],"s3":["tosería"],"p1":["toseríamos"],"p2":["toseríais"],"p3":["toserían"]},
-    "SubPres": {"s1":["tosa"],"s2":["tosas"],"vos":["tosas","tosás"],"s3":["tosa"],"p1":["tosamos"],"p2":["tosáis"],"p3":["tosan"]},
+    "SubPres": {"s1":["tosa"],"s2":["tosas"],"vos":[{"forma": "tosas","uso":"Riop."},{"forma":"tosás","uso":"C.Am."}],"s3":["tosa"],"p1":["tosamos"],"p2":["tosáis"],"p3":["tosan"]},
     "SubImp": {"s1":["tosiera","tosiese"],"s2":["tosieras","tosieses"],"vos":["tosieras","tosieses"],"s3":["tosiera","tosiese"],"p1":["tosiéramos","tosiésemos"],"p2":["tosierais","tosieseis"],"p3":["tosieran","tosiesen"]},
     "SubFut": {"s1":["tosiere"],"s2":["tosieres"],"vos":["tosieres"],"s3":["tosiere"],"p1":["tosiéremos"],"p2":["tosiereis"],"p3":["tosieren"]},
     "CmdPos": {"s2":["tose"],"vos":["tosé"],"s3":["tosa"],"p1":["tosamos"],"p2":["tosed"],"p3":["tosan"]}

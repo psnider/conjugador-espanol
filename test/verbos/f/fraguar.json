@@ -12,7 +12,7 @@
     "IndPret": {"s1":["fragüé"],"s2":["fraguaste"],"vos":["fraguaste"],"s3":["fraguó"],"p1":["fraguamos"],"p2":["fraguasteis"],"p3":["fraguaron"]},
     "IndFut": {"s1":["fraguaré"],"s2":["fraguarás"],"vos":["fraguarás"],"s3":["fraguará"],"p1":["fraguaremos"],"p2":["fraguaréis"],"p3":["fraguarán"]},
     "IndCond": {"s1":["fraguaría"],"s2":["fraguarías"],"vos":["fraguarías"],"s3":["fraguaría"],"p1":["fraguaríamos"],"p2":["fraguaríais"],"p3":["fraguarían"]},
-    "SubPres": {"s1":["fragüe"],"s2":["fragües"],"vos":["fragües","fragüés"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fragüéis"],"p3":["fragüen"]},
+    "SubPres": {"s1":["fragüe"],"s2":["fragües"],"vos":[{"forma": "fragües","uso":"Riop."},{"forma":"fragüés","uso":"C.Am."}],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fragüéis"],"p3":["fragüen"]},
     "SubImp": {"s1":["fraguara","fraguase"],"s2":["fraguaras","fraguases"],"vos":["fraguaras","fraguases"],"s3":["fraguara","fraguase"],"p1":["fraguáramos","fraguásemos"],"p2":["fraguarais","fraguaseis"],"p3":["fraguaran","fraguasen"]},
     "SubFut": {"s1":["fraguare"],"s2":["fraguares"],"vos":["fraguares"],"s3":["fraguare"],"p1":["fraguáremos"],"p2":["fraguareis"],"p3":["fraguaren"]},
     "CmdPos": {"s2":["fragua"],"vos":["fraguá"],"s3":["fragüe"],"p1":["fragüemos"],"p2":["fraguad"],"p3":["fragüen"]}

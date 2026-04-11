@@ -13,7 +13,7 @@
     "IndPret": {"s1":["llegué"],"s2":["llegaste"],"vos":["llegaste"],"s3":["llegó"],"p1":["llegamos"],"p2":["llegasteis"],"p3":["llegaron"]},
     "IndFut": {"s1":["llegaré"],"s2":["llegarás"],"vos":["llegarás"],"s3":["llegará"],"p1":["llegaremos"],"p2":["llegaréis"],"p3":["llegarán"]},
     "IndCond": {"s1":["llegaría"],"s2":["llegarías"],"vos":["llegarías"],"s3":["llegaría"],"p1":["llegaríamos"],"p2":["llegaríais"],"p3":["llegarían"]},
-    "SubPres": {"s1":["llegue"],"s2":["llegues"],"vos":["llegues","llegués"],"s3":["llegue"],"p1":["lleguemos"],"p2":["lleguéis"],"p3":["lleguen"]},
+    "SubPres": {"s1":["llegue"],"s2":["llegues"],"vos":[{"forma": "llegues","uso":"Riop."},{"forma":"llegués","uso":"C.Am."}],"s3":["llegue"],"p1":["lleguemos"],"p2":["lleguéis"],"p3":["lleguen"]},
     "SubImp": {"s1":["llegara","llegase"],"s2":["llegaras","llegases"],"vos":["llegaras","llegases"],"s3":["llegara","llegase"],"p1":["llegáramos","llegásemos"],"p2":["llegarais","llegaseis"],"p3":["llegaran","llegasen"]},
     "SubFut": {"s1":["llegare"],"s2":["llegares"],"vos":["llegares"],"s3":["llegare"],"p1":["llegáremos"],"p2":["llegareis"],"p3":["llegaren"]},
     "CmdPos": {"s2":["llega"],"vos":["llegá"],"s3":["llegue"],"p1":["lleguemos"],"p2":["llegad"],"p3":["lleguen"]}

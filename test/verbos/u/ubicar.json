@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ubiqué"],"s2":["ubicaste"],"vos":["ubicaste"],"s3":["ubicó"],"p1":["ubicamos"],"p2":["ubicasteis"],"p3":["ubicaron"]},
     "IndFut": {"s1":["ubicaré"],"s2":["ubicarás"],"vos":["ubicarás"],"s3":["ubicará"],"p1":["ubicaremos"],"p2":["ubicaréis"],"p3":["ubicarán"]},
     "IndCond": {"s1":["ubicaría"],"s2":["ubicarías"],"vos":["ubicarías"],"s3":["ubicaría"],"p1":["ubicaríamos"],"p2":["ubicaríais"],"p3":["ubicarían"]},
-    "SubPres": {"s1":["ubique"],"s2":["ubiques"],"vos":["ubiques","ubiqués"],"s3":["ubique"],"p1":["ubiquemos"],"p2":["ubiquéis"],"p3":["ubiquen"]},
+    "SubPres": {"s1":["ubique"],"s2":["ubiques"],"vos":[{"forma": "ubiques","uso":"Riop."},{"forma":"ubiqués","uso":"C.Am."}],"s3":["ubique"],"p1":["ubiquemos"],"p2":["ubiquéis"],"p3":["ubiquen"]},
     "SubImp": {"s1":["ubicara","ubicase"],"s2":["ubicaras","ubicases"],"vos":["ubicaras","ubicases"],"s3":["ubicara","ubicase"],"p1":["ubicáramos","ubicásemos"],"p2":["ubicarais","ubicaseis"],"p3":["ubicaran","ubicasen"]},
     "SubFut": {"s1":["ubicare"],"s2":["ubicares"],"vos":["ubicares"],"s3":["ubicare"],"p1":["ubicáremos"],"p2":["ubicareis"],"p3":["ubicaren"]},
     "CmdPos": {"s2":["ubica"],"vos":["ubicá"],"s3":["ubique"],"p1":["ubiquemos"],"p2":["ubicad"],"p3":["ubiquen"]}

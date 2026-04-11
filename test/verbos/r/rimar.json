@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rimé"],"s2":["rimaste"],"vos":["rimaste"],"s3":["rimó"],"p1":["rimamos"],"p2":["rimasteis"],"p3":["rimaron"]},
     "IndFut": {"s1":["rimaré"],"s2":["rimarás"],"vos":["rimarás"],"s3":["rimará"],"p1":["rimaremos"],"p2":["rimaréis"],"p3":["rimarán"]},
     "IndCond": {"s1":["rimaría"],"s2":["rimarías"],"vos":["rimarías"],"s3":["rimaría"],"p1":["rimaríamos"],"p2":["rimaríais"],"p3":["rimarían"]},
-    "SubPres": {"s1":["rime"],"s2":["rimes"],"vos":["rimes","rimés"],"s3":["rime"],"p1":["rimemos"],"p2":["riméis"],"p3":["rimen"]},
+    "SubPres": {"s1":["rime"],"s2":["rimes"],"vos":[{"forma": "rimes","uso":"Riop."},{"forma":"rimés","uso":"C.Am."}],"s3":["rime"],"p1":["rimemos"],"p2":["riméis"],"p3":["rimen"]},
     "SubImp": {"s1":["rimara","rimase"],"s2":["rimaras","rimases"],"vos":["rimaras","rimases"],"s3":["rimara","rimase"],"p1":["rimáramos","rimásemos"],"p2":["rimarais","rimaseis"],"p3":["rimaran","rimasen"]},
     "SubFut": {"s1":["rimare"],"s2":["rimares"],"vos":["rimares"],"s3":["rimare"],"p1":["rimáremos"],"p2":["rimareis"],"p3":["rimaren"]},
     "CmdPos": {"s2":["rima"],"vos":["rimá"],"s3":["rime"],"p1":["rimemos"],"p2":["rimad"],"p3":["rimen"]}

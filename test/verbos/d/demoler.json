@@ -13,7 +13,7 @@
     "IndPret": {"s1":["demolí"],"s2":["demoliste"],"vos":["demoliste"],"s3":["demolió"],"p1":["demolimos"],"p2":["demolisteis"],"p3":["demolieron"]},
     "IndFut": {"s1":["demoleré"],"s2":["demolerás"],"vos":["demolerás"],"s3":["demolerá"],"p1":["demoleremos"],"p2":["demoleréis"],"p3":["demolerán"]},
     "IndCond": {"s1":["demolería"],"s2":["demolerías"],"vos":["demolerías"],"s3":["demolería"],"p1":["demoleríamos"],"p2":["demoleríais"],"p3":["demolerían"]},
-    "SubPres": {"s1":["demuela"],"s2":["demuelas"],"vos":["demuelas","demolás"],"s3":["demuela"],"p1":["demolamos"],"p2":["demoláis"],"p3":["demuelan"]},
+    "SubPres": {"s1":["demuela"],"s2":["demuelas"],"vos":[{"forma": "demuelas","uso":"Riop."},{"forma":"demolás","uso":"C.Am."}],"s3":["demuela"],"p1":["demolamos"],"p2":["demoláis"],"p3":["demuelan"]},
     "SubImp": {"s1":["demoliera","demoliese"],"s2":["demolieras","demolieses"],"vos":["demolieras","demolieses"],"s3":["demoliera","demoliese"],"p1":["demoliéramos","demoliésemos"],"p2":["demolierais","demolieseis"],"p3":["demolieran","demoliesen"]},
     "SubFut": {"s1":["demoliere"],"s2":["demolieres"],"vos":["demolieres"],"s3":["demoliere"],"p1":["demoliéremos"],"p2":["demoliereis"],"p3":["demolieren"]},
     "CmdPos": {"s2":["demuele"],"vos":["demolé"],"s3":["demuela"],"p1":["demolamos"],"p2":["demoled"],"p3":["demuelan"]}

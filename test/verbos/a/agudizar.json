@@ -13,7 +13,7 @@
     "IndPret": {"s1":["agudicé"],"s2":["agudizaste"],"vos":["agudizaste"],"s3":["agudizó"],"p1":["agudizamos"],"p2":["agudizasteis"],"p3":["agudizaron"]},
     "IndFut": {"s1":["agudizaré"],"s2":["agudizarás"],"vos":["agudizarás"],"s3":["agudizará"],"p1":["agudizaremos"],"p2":["agudizaréis"],"p3":["agudizarán"]},
     "IndCond": {"s1":["agudizaría"],"s2":["agudizarías"],"vos":["agudizarías"],"s3":["agudizaría"],"p1":["agudizaríamos"],"p2":["agudizaríais"],"p3":["agudizarían"]},
-    "SubPres": {"s1":["agudice"],"s2":["agudices"],"vos":["agudices","agudicés"],"s3":["agudice"],"p1":["agudicemos"],"p2":["agudicéis"],"p3":["agudicen"]},
+    "SubPres": {"s1":["agudice"],"s2":["agudices"],"vos":[{"forma": "agudices","uso":"Riop."},{"forma":"agudicés","uso":"C.Am."}],"s3":["agudice"],"p1":["agudicemos"],"p2":["agudicéis"],"p3":["agudicen"]},
     "SubImp": {"s1":["agudizara","agudizase"],"s2":["agudizaras","agudizases"],"vos":["agudizaras","agudizases"],"s3":["agudizara","agudizase"],"p1":["agudizáramos","agudizásemos"],"p2":["agudizarais","agudizaseis"],"p3":["agudizaran","agudizasen"]},
     "SubFut": {"s1":["agudizare"],"s2":["agudizares"],"vos":["agudizares"],"s3":["agudizare"],"p1":["agudizáremos"],"p2":["agudizareis"],"p3":["agudizaren"]},
     "CmdPos": {"s2":["agudiza"],"vos":["agudizá"],"s3":["agudice"],"p1":["agudicemos"],"p2":["agudizad"],"p3":["agudicen"]}

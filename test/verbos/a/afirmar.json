@@ -13,7 +13,7 @@
     "IndPret": {"s1":["afirmé"],"s2":["afirmaste"],"vos":["afirmaste"],"s3":["afirmó"],"p1":["afirmamos"],"p2":["afirmasteis"],"p3":["afirmaron"]},
     "IndFut": {"s1":["afirmaré"],"s2":["afirmarás"],"vos":["afirmarás"],"s3":["afirmará"],"p1":["afirmaremos"],"p2":["afirmaréis"],"p3":["afirmarán"]},
     "IndCond": {"s1":["afirmaría"],"s2":["afirmarías"],"vos":["afirmarías"],"s3":["afirmaría"],"p1":["afirmaríamos"],"p2":["afirmaríais"],"p3":["afirmarían"]},
-    "SubPres": {"s1":["afirme"],"s2":["afirmes"],"vos":["afirmes","afirmés"],"s3":["afirme"],"p1":["afirmemos"],"p2":["afirméis"],"p3":["afirmen"]},
+    "SubPres": {"s1":["afirme"],"s2":["afirmes"],"vos":[{"forma": "afirmes","uso":"Riop."},{"forma":"afirmés","uso":"C.Am."}],"s3":["afirme"],"p1":["afirmemos"],"p2":["afirméis"],"p3":["afirmen"]},
     "SubImp": {"s1":["afirmara","afirmase"],"s2":["afirmaras","afirmases"],"vos":["afirmaras","afirmases"],"s3":["afirmara","afirmase"],"p1":["afirmáramos","afirmásemos"],"p2":["afirmarais","afirmaseis"],"p3":["afirmaran","afirmasen"]},
     "SubFut": {"s1":["afirmare"],"s2":["afirmares"],"vos":["afirmares"],"s3":["afirmare"],"p1":["afirmáremos"],"p2":["afirmareis"],"p3":["afirmaren"]},
     "CmdPos": {"s2":["afirma"],"vos":["afirmá"],"s3":["afirme"],"p1":["afirmemos"],"p2":["afirmad"],"p3":["afirmen"]}

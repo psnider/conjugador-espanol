@@ -13,7 +13,7 @@
     "IndPret": {"s1":["vestí"],"s2":["vestiste"],"vos":["vestiste"],"s3":["vistió"],"p1":["vestimos"],"p2":["vestisteis"],"p3":["vistieron"]},
     "IndFut": {"s1":["vestiré"],"s2":["vestirás"],"vos":["vestirás"],"s3":["vestirá"],"p1":["vestiremos"],"p2":["vestiréis"],"p3":["vestirán"]},
     "IndCond": {"s1":["vestiría"],"s2":["vestirías"],"vos":["vestirías"],"s3":["vestiría"],"p1":["vestiríamos"],"p2":["vestiríais"],"p3":["vestirían"]},
-    "SubPres": {"s1":["vista"],"s2":["vistas"],"vos":["vistas","vistás"],"s3":["vista"],"p1":["vistamos"],"p2":["vistáis"],"p3":["vistan"]},
+    "SubPres": {"s1":["vista"],"s2":["vistas"],"vos":[{"forma": "vistas","uso":"Riop."},{"forma":"vistás","uso":"C.Am."}],"s3":["vista"],"p1":["vistamos"],"p2":["vistáis"],"p3":["vistan"]},
     "SubImp": {"s1":["vistiera","vistiese"],"s2":["vistieras","vistieses"],"vos":["vistieras","vistieses"],"s3":["vistiera","vistiese"],"p1":["vistiéramos","vistiésemos"],"p2":["vistierais","vistieseis"],"p3":["vistieran","vistiesen"]},
     "SubFut": {"s1":["vistiere"],"s2":["vistieres"],"vos":["vistieres"],"s3":["vistiere"],"p1":["vistiéremos"],"p2":["vistiereis"],"p3":["vistieren"]},
     "CmdPos": {"s2":["viste"],"vos":["vestí"],"s3":["vista"],"p1":["vistamos"],"p2":["vestid"],"p3":["vistan"]}

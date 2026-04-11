@@ -12,7 +12,7 @@
     "IndPret": {"s1":["incluí"],"s2":["incluiste"],"vos":["incluiste"],"s3":["incluyó"],"p1":["incluimos"],"p2":["incluisteis"],"p3":["incluyeron"]},
     "IndFut": {"s1":["incluiré"],"s2":["incluirás"],"vos":["incluirás"],"s3":["incluirá"],"p1":["incluiremos"],"p2":["incluiréis"],"p3":["incluirán"]},
     "IndCond": {"s1":["incluiría"],"s2":["incluirías"],"vos":["incluirías"],"s3":["incluiría"],"p1":["incluiríamos"],"p2":["incluiríais"],"p3":["incluirían"]},
-    "SubPres": {"s1":["incluya"],"s2":["incluyas"],"vos":["incluyas","incluyás"],"s3":["incluya"],"p1":["incluyamos"],"p2":["incluyáis"],"p3":["incluyan"]},
+    "SubPres": {"s1":["incluya"],"s2":["incluyas"],"vos":[{"forma": "incluyas","uso":"Riop."},{"forma":"incluyás","uso":"C.Am."}],"s3":["incluya"],"p1":["incluyamos"],"p2":["incluyáis"],"p3":["incluyan"]},
     "SubImp": {"s1":["incluyera","incluyese"],"s2":["incluyeras","incluyeses"],"vos":["incluyeras","incluyeses"],"s3":["incluyera","incluyese"],"p1":["incluyéramos","incluyésemos"],"p2":["incluyerais","incluyeseis"],"p3":["incluyeran","incluyesen"]},
     "SubFut": {"s1":["incluyere"],"s2":["incluyeres"],"vos":["incluyeres"],"s3":["incluyere"],"p1":["incluyéremos"],"p2":["incluyereis"],"p3":["incluyeren"]},
     "CmdPos": {"s2":["incluye"],"vos":["incluí"],"s3":["incluya"],"p1":["incluyamos"],"p2":["incluid"],"p3":["incluyan"]}

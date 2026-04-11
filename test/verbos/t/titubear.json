@@ -13,7 +13,7 @@
     "IndPret": {"s1":["titubeé"],"s2":["titubeaste"],"vos":["titubeaste"],"s3":["titubeó"],"p1":["titubeamos"],"p2":["titubeasteis"],"p3":["titubearon"]},
     "IndFut": {"s1":["titubearé"],"s2":["titubearás"],"vos":["titubearás"],"s3":["titubeará"],"p1":["titubearemos"],"p2":["titubearéis"],"p3":["titubearán"]},
     "IndCond": {"s1":["titubearía"],"s2":["titubearías"],"vos":["titubearías"],"s3":["titubearía"],"p1":["titubearíamos"],"p2":["titubearíais"],"p3":["titubearían"]},
-    "SubPres": {"s1":["titubee"],"s2":["titubees"],"vos":["titubees","titubeés"],"s3":["titubee"],"p1":["titubeemos"],"p2":["titubeéis"],"p3":["titubeen"]},
+    "SubPres": {"s1":["titubee"],"s2":["titubees"],"vos":[{"forma": "titubees","uso":"Riop."},{"forma":"titubeés","uso":"C.Am."}],"s3":["titubee"],"p1":["titubeemos"],"p2":["titubeéis"],"p3":["titubeen"]},
     "SubImp": {"s1":["titubeara","titubease"],"s2":["titubearas","titubeases"],"vos":["titubearas","titubeases"],"s3":["titubeara","titubease"],"p1":["titubeáramos","titubeásemos"],"p2":["titubearais","titubeaseis"],"p3":["titubearan","titubeasen"]},
     "SubFut": {"s1":["titubeare"],"s2":["titubeares"],"vos":["titubeares"],"s3":["titubeare"],"p1":["titubeáremos"],"p2":["titubeareis"],"p3":["titubearen"]},
     "CmdPos": {"s2":["titubea"],"vos":["titubeá"],"s3":["titubee"],"p1":["titubeemos"],"p2":["titubead"],"p3":["titubeen"]}

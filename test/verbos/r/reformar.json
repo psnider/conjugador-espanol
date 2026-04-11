@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reformé"],"s2":["reformaste"],"vos":["reformaste"],"s3":["reformó"],"p1":["reformamos"],"p2":["reformasteis"],"p3":["reformaron"]},
     "IndFut": {"s1":["reformaré"],"s2":["reformarás"],"vos":["reformarás"],"s3":["reformará"],"p1":["reformaremos"],"p2":["reformaréis"],"p3":["reformarán"]},
     "IndCond": {"s1":["reformaría"],"s2":["reformarías"],"vos":["reformarías"],"s3":["reformaría"],"p1":["reformaríamos"],"p2":["reformaríais"],"p3":["reformarían"]},
-    "SubPres": {"s1":["reforme"],"s2":["reformes"],"vos":["reformes","reformés"],"s3":["reforme"],"p1":["reformemos"],"p2":["reforméis"],"p3":["reformen"]},
+    "SubPres": {"s1":["reforme"],"s2":["reformes"],"vos":[{"forma": "reformes","uso":"Riop."},{"forma":"reformés","uso":"C.Am."}],"s3":["reforme"],"p1":["reformemos"],"p2":["reforméis"],"p3":["reformen"]},
     "SubImp": {"s1":["reformara","reformase"],"s2":["reformaras","reformases"],"vos":["reformaras","reformases"],"s3":["reformara","reformase"],"p1":["reformáramos","reformásemos"],"p2":["reformarais","reformaseis"],"p3":["reformaran","reformasen"]},
     "SubFut": {"s1":["reformare"],"s2":["reformares"],"vos":["reformares"],"s3":["reformare"],"p1":["reformáremos"],"p2":["reformareis"],"p3":["reformaren"]},
     "CmdPos": {"s2":["reforma"],"vos":["reformá"],"s3":["reforme"],"p1":["reformemos"],"p2":["reformad"],"p3":["reformen"]}

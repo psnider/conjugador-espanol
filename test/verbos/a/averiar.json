@@ -12,7 +12,7 @@
     "IndPret": {"s1":["averié"],"s2":["averiaste"],"vos":["averiaste"],"s3":["averió"],"p1":["averiamos"],"p2":["averiasteis"],"p3":["averiaron"]},
     "IndFut": {"s1":["averiaré"],"s2":["averiarás"],"vos":["averiarás"],"s3":["averiará"],"p1":["averiaremos"],"p2":["averiaréis"],"p3":["averiarán"]},
     "IndCond": {"s1":["averiaría"],"s2":["averiarías"],"vos":["averiarías"],"s3":["averiaría"],"p1":["averiaríamos"],"p2":["averiaríais"],"p3":["averiarían"]},
-    "SubPres": {"s1":["averíe"],"s2":["averíes"],"vos":["averíes","averiés"],"s3":["averíe"],"p1":["averiemos"],"p2":["averiéis"],"p3":["averíen"]},
+    "SubPres": {"s1":["averíe"],"s2":["averíes"],"vos":[{"forma": "averíes","uso":"Riop."},{"forma":"averiés","uso":"C.Am."}],"s3":["averíe"],"p1":["averiemos"],"p2":["averiéis"],"p3":["averíen"]},
     "SubImp": {"s1":["averiara","averiase"],"s2":["averiaras","averiases"],"vos":["averiaras","averiases"],"s3":["averiara","averiase"],"p1":["averiáramos","averiásemos"],"p2":["averiarais","averiaseis"],"p3":["averiaran","averiasen"]},
     "SubFut": {"s1":["averiare"],"s2":["averiares"],"vos":["averiares"],"s3":["averiare"],"p1":["averiáremos"],"p2":["averiareis"],"p3":["averiaren"]},
     "CmdPos": {"s2":["avería"],"vos":["averiá"],"s3":["averíe"],"p1":["averiemos"],"p2":["averiad"],"p3":["averíen"]}

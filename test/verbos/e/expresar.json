@@ -13,7 +13,7 @@
     "IndPret": {"s1":["expresé"],"s2":["expresaste"],"vos":["expresaste"],"s3":["expresó"],"p1":["expresamos"],"p2":["expresasteis"],"p3":["expresaron"]},
     "IndFut": {"s1":["expresaré"],"s2":["expresarás"],"vos":["expresarás"],"s3":["expresará"],"p1":["expresaremos"],"p2":["expresaréis"],"p3":["expresarán"]},
     "IndCond": {"s1":["expresaría"],"s2":["expresarías"],"vos":["expresarías"],"s3":["expresaría"],"p1":["expresaríamos"],"p2":["expresaríais"],"p3":["expresarían"]},
-    "SubPres": {"s1":["exprese"],"s2":["expreses"],"vos":["expreses","expresés"],"s3":["exprese"],"p1":["expresemos"],"p2":["expreséis"],"p3":["expresen"]},
+    "SubPres": {"s1":["exprese"],"s2":["expreses"],"vos":[{"forma": "expreses","uso":"Riop."},{"forma":"expresés","uso":"C.Am."}],"s3":["exprese"],"p1":["expresemos"],"p2":["expreséis"],"p3":["expresen"]},
     "SubImp": {"s1":["expresara","expresase"],"s2":["expresaras","expresases"],"vos":["expresaras","expresases"],"s3":["expresara","expresase"],"p1":["expresáramos","expresásemos"],"p2":["expresarais","expresaseis"],"p3":["expresaran","expresasen"]},
     "SubFut": {"s1":["expresare"],"s2":["expresares"],"vos":["expresares"],"s3":["expresare"],"p1":["expresáremos"],"p2":["expresareis"],"p3":["expresaren"]},
     "CmdPos": {"s2":["expresa"],"vos":["expresá"],"s3":["exprese"],"p1":["expresemos"],"p2":["expresad"],"p3":["expresen"]}

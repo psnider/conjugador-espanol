@@ -13,7 +13,7 @@
     "IndPret": {"s1":["viví"],"s2":["viviste"],"vos":["viviste"],"s3":["vivió"],"p1":["vivimos"],"p2":["vivisteis"],"p3":["vivieron"]},
     "IndFut": {"s1":["viviré"],"s2":["vivirás"],"vos":["vivirás"],"s3":["vivirá"],"p1":["viviremos"],"p2":["viviréis"],"p3":["vivirán"]},
     "IndCond": {"s1":["viviría"],"s2":["vivirías"],"vos":["vivirías"],"s3":["viviría"],"p1":["viviríamos"],"p2":["viviríais"],"p3":["vivirían"]},
-    "SubPres": {"s1":["viva"],"s2":["vivas"],"vos":["vivas","vivás"],"s3":["viva"],"p1":["vivamos"],"p2":["viváis"],"p3":["vivan"]},
+    "SubPres": {"s1":["viva"],"s2":["vivas"],"vos":[{"forma": "vivas","uso":"Riop."},{"forma":"vivás","uso":"C.Am."}],"s3":["viva"],"p1":["vivamos"],"p2":["viváis"],"p3":["vivan"]},
     "SubImp": {"s1":["viviera","viviese"],"s2":["vivieras","vivieses"],"vos":["vivieras","vivieses"],"s3":["viviera","viviese"],"p1":["viviéramos","viviésemos"],"p2":["vivierais","vivieseis"],"p3":["vivieran","viviesen"]},
     "SubFut": {"s1":["viviere"],"s2":["vivieres"],"vos":["vivieres"],"s3":["viviere"],"p1":["viviéremos"],"p2":["viviereis"],"p3":["vivieren"]},
     "CmdPos": {"s2":["vive"],"vos":["viví"],"s3":["viva"],"p1":["vivamos"],"p2":["vivid"],"p3":["vivan"]}

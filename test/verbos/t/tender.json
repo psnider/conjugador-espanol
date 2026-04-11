@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tendí"],"s2":["tendiste"],"vos":["tendiste"],"s3":["tendió"],"p1":["tendimos"],"p2":["tendisteis"],"p3":["tendieron"]},
     "IndFut": {"s1":["tenderé"],"s2":["tenderás"],"vos":["tenderás"],"s3":["tenderá"],"p1":["tenderemos"],"p2":["tenderéis"],"p3":["tenderán"]},
     "IndCond": {"s1":["tendería"],"s2":["tenderías"],"vos":["tenderías"],"s3":["tendería"],"p1":["tenderíamos"],"p2":["tenderíais"],"p3":["tenderían"]},
-    "SubPres": {"s1":["tienda"],"s2":["tiendas"],"vos":["tiendas","tendás"],"s3":["tienda"],"p1":["tendamos"],"p2":["tendáis"],"p3":["tiendan"]},
+    "SubPres": {"s1":["tienda"],"s2":["tiendas"],"vos":[{"forma": "tiendas","uso":"Riop."},{"forma":"tendás","uso":"C.Am."}],"s3":["tienda"],"p1":["tendamos"],"p2":["tendáis"],"p3":["tiendan"]},
     "SubImp": {"s1":["tendiera","tendiese"],"s2":["tendieras","tendieses"],"vos":["tendieras","tendieses"],"s3":["tendiera","tendiese"],"p1":["tendiéramos","tendiésemos"],"p2":["tendierais","tendieseis"],"p3":["tendieran","tendiesen"]},
     "SubFut": {"s1":["tendiere"],"s2":["tendieres"],"vos":["tendieres"],"s3":["tendiere"],"p1":["tendiéremos"],"p2":["tendiereis"],"p3":["tendieren"]},
     "CmdPos": {"s2":["tiende"],"vos":["tendé"],"s3":["tienda"],"p1":["tendamos"],"p2":["tended"],"p3":["tiendan"]}

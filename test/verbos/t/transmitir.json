@@ -13,7 +13,7 @@
     "IndPret": {"s1":["transmití"],"s2":["transmitiste"],"vos":["transmitiste"],"s3":["transmitió"],"p1":["transmitimos"],"p2":["transmitisteis"],"p3":["transmitieron"]},
     "IndFut": {"s1":["transmitiré"],"s2":["transmitirás"],"vos":["transmitirás"],"s3":["transmitirá"],"p1":["transmitiremos"],"p2":["transmitiréis"],"p3":["transmitirán"]},
     "IndCond": {"s1":["transmitiría"],"s2":["transmitirías"],"vos":["transmitirías"],"s3":["transmitiría"],"p1":["transmitiríamos"],"p2":["transmitiríais"],"p3":["transmitirían"]},
-    "SubPres": {"s1":["transmita"],"s2":["transmitas"],"vos":["transmitas","transmitás"],"s3":["transmita"],"p1":["transmitamos"],"p2":["transmitáis"],"p3":["transmitan"]},
+    "SubPres": {"s1":["transmita"],"s2":["transmitas"],"vos":[{"forma": "transmitas","uso":"Riop."},{"forma":"transmitás","uso":"C.Am."}],"s3":["transmita"],"p1":["transmitamos"],"p2":["transmitáis"],"p3":["transmitan"]},
     "SubImp": {"s1":["transmitiera","transmitiese"],"s2":["transmitieras","transmitieses"],"vos":["transmitieras","transmitieses"],"s3":["transmitiera","transmitiese"],"p1":["transmitiéramos","transmitiésemos"],"p2":["transmitierais","transmitieseis"],"p3":["transmitieran","transmitiesen"]},
     "SubFut": {"s1":["transmitiere"],"s2":["transmitieres"],"vos":["transmitieres"],"s3":["transmitiere"],"p1":["transmitiéremos"],"p2":["transmitiereis"],"p3":["transmitieren"]},
     "CmdPos": {"s2":["transmite"],"vos":["transmití"],"s3":["transmita"],"p1":["transmitamos"],"p2":["transmitid"],"p3":["transmitan"]}

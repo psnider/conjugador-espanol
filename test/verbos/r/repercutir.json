@@ -13,7 +13,7 @@
     "IndPret": {"s1":["repercutí"],"s2":["repercutiste"],"vos":["repercutiste"],"s3":["repercutió"],"p1":["repercutimos"],"p2":["repercutisteis"],"p3":["repercutieron"]},
     "IndFut": {"s1":["repercutiré"],"s2":["repercutirás"],"vos":["repercutirás"],"s3":["repercutirá"],"p1":["repercutiremos"],"p2":["repercutiréis"],"p3":["repercutirán"]},
     "IndCond": {"s1":["repercutiría"],"s2":["repercutirías"],"vos":["repercutirías"],"s3":["repercutiría"],"p1":["repercutiríamos"],"p2":["repercutiríais"],"p3":["repercutirían"]},
-    "SubPres": {"s1":["repercuta"],"s2":["repercutas"],"vos":["repercutas","repercutás"],"s3":["repercuta"],"p1":["repercutamos"],"p2":["repercutáis"],"p3":["repercutan"]},
+    "SubPres": {"s1":["repercuta"],"s2":["repercutas"],"vos":[{"forma": "repercutas","uso":"Riop."},{"forma":"repercutás","uso":"C.Am."}],"s3":["repercuta"],"p1":["repercutamos"],"p2":["repercutáis"],"p3":["repercutan"]},
     "SubImp": {"s1":["repercutiera","repercutiese"],"s2":["repercutieras","repercutieses"],"vos":["repercutieras","repercutieses"],"s3":["repercutiera","repercutiese"],"p1":["repercutiéramos","repercutiésemos"],"p2":["repercutierais","repercutieseis"],"p3":["repercutieran","repercutiesen"]},
     "SubFut": {"s1":["repercutiere"],"s2":["repercutieres"],"vos":["repercutieres"],"s3":["repercutiere"],"p1":["repercutiéremos"],"p2":["repercutiereis"],"p3":["repercutieren"]},
     "CmdPos": {"s2":["repercute"],"vos":["repercutí"],"s3":["repercuta"],"p1":["repercutamos"],"p2":["repercutid"],"p3":["repercutan"]}

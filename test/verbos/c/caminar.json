@@ -13,7 +13,7 @@
     "IndPret": {"s1":["caminé"],"s2":["caminaste"],"vos":["caminaste"],"s3":["caminó"],"p1":["caminamos"],"p2":["caminasteis"],"p3":["caminaron"]},
     "IndFut": {"s1":["caminaré"],"s2":["caminarás"],"vos":["caminarás"],"s3":["caminará"],"p1":["caminaremos"],"p2":["caminaréis"],"p3":["caminarán"]},
     "IndCond": {"s1":["caminaría"],"s2":["caminarías"],"vos":["caminarías"],"s3":["caminaría"],"p1":["caminaríamos"],"p2":["caminaríais"],"p3":["caminarían"]},
-    "SubPres": {"s1":["camine"],"s2":["camines"],"vos":["camines","caminés"],"s3":["camine"],"p1":["caminemos"],"p2":["caminéis"],"p3":["caminen"]},
+    "SubPres": {"s1":["camine"],"s2":["camines"],"vos":[{"forma": "camines","uso":"Riop."},{"forma":"caminés","uso":"C.Am."}],"s3":["camine"],"p1":["caminemos"],"p2":["caminéis"],"p3":["caminen"]},
     "SubImp": {"s1":["caminara","caminase"],"s2":["caminaras","caminases"],"vos":["caminaras","caminases"],"s3":["caminara","caminase"],"p1":["camináramos","caminásemos"],"p2":["caminarais","caminaseis"],"p3":["caminaran","caminasen"]},
     "SubFut": {"s1":["caminare"],"s2":["caminares"],"vos":["caminares"],"s3":["caminare"],"p1":["camináremos"],"p2":["caminareis"],"p3":["caminaren"]},
     "CmdPos": {"s2":["camina"],"vos":["caminá"],"s3":["camine"],"p1":["caminemos"],"p2":["caminad"],"p3":["caminen"]}

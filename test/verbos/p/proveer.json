@@ -13,7 +13,7 @@
     "IndPret": {"s1":["proveí"],"s2":["proveíste"],"vos":["proveíste"],"s3":["proveyó"],"p1":["proveímos"],"p2":["proveísteis"],"p3":["proveyeron"]},
     "IndFut": {"s1":["proveeré"],"s2":["proveerás"],"vos":["proveerás"],"s3":["proveerá"],"p1":["proveeremos"],"p2":["proveeréis"],"p3":["proveerán"]},
     "IndCond": {"s1":["proveería"],"s2":["proveerías"],"vos":["proveerías"],"s3":["proveería"],"p1":["proveeríamos"],"p2":["proveeríais"],"p3":["proveerían"]},
-    "SubPres": {"s1":["provea"],"s2":["proveas"],"vos":["proveas","proveás"],"s3":["provea"],"p1":["proveamos"],"p2":["proveáis"],"p3":["provean"]},
+    "SubPres": {"s1":["provea"],"s2":["proveas"],"vos":[{"forma": "proveas","uso":"Riop."},{"forma":"proveás","uso":"C.Am."}],"s3":["provea"],"p1":["proveamos"],"p2":["proveáis"],"p3":["provean"]},
     "SubImp": {"s1":["proveyera","proveyese"],"s2":["proveyeras","proveyeses"],"vos":["proveyeras","proveyeses"],"s3":["proveyera","proveyese"],"p1":["proveyéramos","proveyésemos"],"p2":["proveyerais","proveyeseis"],"p3":["proveyeran","proveyesen"]},
     "SubFut": {"s1":["proveyere"],"s2":["proveyeres"],"vos":["proveyeres"],"s3":["proveyere"],"p1":["proveyéremos"],"p2":["proveyereis"],"p3":["proveyeren"]},
     "CmdPos": {"s2":["provee"],"vos":["proveé"],"s3":["provea"],"p1":["proveamos"],"p2":["proveed"],"p3":["provean"]}

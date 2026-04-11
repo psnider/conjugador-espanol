@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mordí"],"s2":["mordiste"],"vos":["mordiste"],"s3":["mordió"],"p1":["mordimos"],"p2":["mordisteis"],"p3":["mordieron"]},
     "IndFut": {"s1":["morderé"],"s2":["morderás"],"vos":["morderás"],"s3":["morderá"],"p1":["morderemos"],"p2":["morderéis"],"p3":["morderán"]},
     "IndCond": {"s1":["mordería"],"s2":["morderías"],"vos":["morderías"],"s3":["mordería"],"p1":["morderíamos"],"p2":["morderíais"],"p3":["morderían"]},
-    "SubPres": {"s1":["muerda"],"s2":["muerdas"],"vos":["muerdas","mordás"],"s3":["muerda"],"p1":["mordamos"],"p2":["mordáis"],"p3":["muerdan"]},
+    "SubPres": {"s1":["muerda"],"s2":["muerdas"],"vos":[{"forma": "muerdas","uso":"Riop."},{"forma":"mordás","uso":"C.Am."}],"s3":["muerda"],"p1":["mordamos"],"p2":["mordáis"],"p3":["muerdan"]},
     "SubImp": {"s1":["mordiera","mordiese"],"s2":["mordieras","mordieses"],"vos":["mordieras","mordieses"],"s3":["mordiera","mordiese"],"p1":["mordiéramos","mordiésemos"],"p2":["mordierais","mordieseis"],"p3":["mordieran","mordiesen"]},
     "SubFut": {"s1":["mordiere"],"s2":["mordieres"],"vos":["mordieres"],"s3":["mordiere"],"p1":["mordiéremos"],"p2":["mordiereis"],"p3":["mordieren"]},
     "CmdPos": {"s2":["muerde"],"vos":["mordé"],"s3":["muerda"],"p1":["mordamos"],"p2":["morded"],"p3":["muerdan"]}

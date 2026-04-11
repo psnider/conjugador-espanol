@@ -13,7 +13,7 @@
     "IndPret": {"s1":["basté"],"s2":["bastaste"],"vos":["bastaste"],"s3":["bastó"],"p1":["bastamos"],"p2":["bastasteis"],"p3":["bastaron"]},
     "IndFut": {"s1":["bastaré"],"s2":["bastarás"],"vos":["bastarás"],"s3":["bastará"],"p1":["bastaremos"],"p2":["bastaréis"],"p3":["bastarán"]},
     "IndCond": {"s1":["bastaría"],"s2":["bastarías"],"vos":["bastarías"],"s3":["bastaría"],"p1":["bastaríamos"],"p2":["bastaríais"],"p3":["bastarían"]},
-    "SubPres": {"s1":["baste"],"s2":["bastes"],"vos":["bastes","bastés"],"s3":["baste"],"p1":["bastemos"],"p2":["bastéis"],"p3":["basten"]},
+    "SubPres": {"s1":["baste"],"s2":["bastes"],"vos":[{"forma": "bastes","uso":"Riop."},{"forma":"bastés","uso":"C.Am."}],"s3":["baste"],"p1":["bastemos"],"p2":["bastéis"],"p3":["basten"]},
     "SubImp": {"s1":["bastara","bastase"],"s2":["bastaras","bastases"],"vos":["bastaras","bastases"],"s3":["bastara","bastase"],"p1":["bastáramos","bastásemos"],"p2":["bastarais","bastaseis"],"p3":["bastaran","bastasen"]},
     "SubFut": {"s1":["bastare"],"s2":["bastares"],"vos":["bastares"],"s3":["bastare"],"p1":["bastáremos"],"p2":["bastareis"],"p3":["bastaren"]},
     "CmdPos": {"s2":["basta"],"vos":["bastá"],"s3":["baste"],"p1":["bastemos"],"p2":["bastad"],"p3":["basten"]}

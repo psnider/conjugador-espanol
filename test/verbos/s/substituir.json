@@ -12,7 +12,7 @@
     "IndPret": {"s1":["substituí"],"s2":["substituiste"],"vos":["substituiste"],"s3":["substituyó"],"p1":["substituimos"],"p2":["substituisteis"],"p3":["substituyeron"]},
     "IndFut": {"s1":["substituiré"],"s2":["substituirás"],"vos":["substituirás"],"s3":["substituirá"],"p1":["substituiremos"],"p2":["substituiréis"],"p3":["substituirán"]},
     "IndCond": {"s1":["substituiría"],"s2":["substituirías"],"vos":["substituirías"],"s3":["substituiría"],"p1":["substituiríamos"],"p2":["substituiríais"],"p3":["substituirían"]},
-    "SubPres": {"s1":["substituya"],"s2":["substituyas"],"vos":["substituyas","substituyás"],"s3":["substituya"],"p1":["substituyamos"],"p2":["substituyáis"],"p3":["substituyan"]},
+    "SubPres": {"s1":["substituya"],"s2":["substituyas"],"vos":[{"forma": "substituyas","uso":"Riop."},{"forma":"substituyás","uso":"C.Am."}],"s3":["substituya"],"p1":["substituyamos"],"p2":["substituyáis"],"p3":["substituyan"]},
     "SubImp": {"s1":["substituyera","substituyese"],"s2":["substituyeras","substituyeses"],"vos":["substituyeras","substituyeses"],"s3":["substituyera","substituyese"],"p1":["substituyéramos","substituyésemos"],"p2":["substituyerais","substituyeseis"],"p3":["substituyeran","substituyesen"]},
     "SubFut": {"s1":["substituyere"],"s2":["substituyeres"],"vos":["substituyeres"],"s3":["substituyere"],"p1":["substituyéremos"],"p2":["substituyereis"],"p3":["substituyeren"]},
     "CmdPos": {"s2":["substituye"],"vos":["substituí"],"s3":["substituya"],"p1":["substituyamos"],"p2":["substituid"],"p3":["substituyan"]}

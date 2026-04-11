@@ -1,16 +1,24 @@
+# This release
+- added more verbs
+- disallow invalid chars into input, and convert to lowercase
+- remove CmdNeg
+- present both vos forms of SubPres
+- simplificar getPreterite3PStem() y llamelo en resolveConjugationClass()
+
+
 # Next release
-- acepta caracteres sin o con acentos como iguales para busquedas
-- historia de entradas
-- gemir, rendir no sigue el modelo de pedir correctamente?
-- inscribir debe sigue el modelo de escribir?
-- morir no sigue el modelo de dormir correctamente?
-- prever no sigue el modelo de ver correctamente?
-- corregir y simplificar reír, *reír
-- vidriar no sigue el modelo de vaciar correctamente?
-- yacer tiene 3 formas de IndPres,s1
-
-
+- add acknowledgements to es.wictionary and to DEM
+- add SEO terms
+- give message if user enters non-verb
 - ZC -> Z: cocer, torcer, ejercer, esparcir, fruncir, vencer
+- distingua entre conjugación completa y conjugación de <rasgo=modo+tiempo+polaridad>
+- reconoce verbos pronominales
+
+
+# luego
+- desvaír
+- abolir no usa todos los tiempos
+  considera que algunos verbos no tienen todas las formas del paradigma de conjugación (defectivos)
 - REMOVER ACENTO: criar
 - PONER ACENTO: romper diptongo
   - anticuar, consensuar, menstruar
@@ -30,12 +38,24 @@
   - freír, guiar, piar
 
 - maldecir es una mezcla de reglas...
+- acepta caracteres sin o con acentos como iguales para busquedas
+- gemir, rendir no sigue el modelo de pedir correctamente?
+- inscribir debe sigue el modelo de escribir?
+- morir no sigue el modelo de dormir correctamente?
+- prever no sigue el modelo de ver correctamente?
+- corregir y simplificar reír, *reír
+- vidriar no sigue el modelo de vaciar correctamente?
+- yacer tiene 3 formas de IndPres,s1
+
+- determine whether acontecer ever has forms other than impersonal, formalize notion of impersonal if not
 
 
-# verbos con dos formas
+# verbos con dos o más formas
 adecuar          adecuo, adecúo
+aferrar          (🔴 aferre) ✅ aferre , ✅ afierre
 asolar           (🔴 asuelo) ✅ asuelo , ✅ asolo
 cimentar         (🔴 cimiento) ✅ cimiento , ✅ cimento
+corroer          3: corroo o corroigo o corroyo
 describir        dos participios: descrito o descripto	
 desproveer       dos participios: desproveído o desprovisto	
 elevar           en vaias regiones
@@ -48,11 +68,15 @@ proveer          dos participios: proveído o provisto
 resolver         dos participios: resoluto o resuelto	
 sofreír          dos participios: sofreído o sofrito	
 soterrar         (🔴 soterro) ✅ sotierro , ✅ soterro
+torcer           dos participios: torcido o tuerto
 vidriar          dos participios: 
+
+
+- historia de entradas
+
 
 - linguist: the relation of CmdNeg being derived from SubPres is a fixed rule, right? If so, I can move this into code...
 - problemas ortograficos
-- simplificar getPreterite3PStem() y llamelo en resolveConjugationClass()
 - # verbos con otros problemas
     avergonzar      
     aguar

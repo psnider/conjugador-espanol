@@ -13,7 +13,7 @@
     "IndPret": {"s1":["confesé"],"s2":["confesaste"],"vos":["confesaste"],"s3":["confesó"],"p1":["confesamos"],"p2":["confesasteis"],"p3":["confesaron"]},
     "IndFut": {"s1":["confesaré"],"s2":["confesarás"],"vos":["confesarás"],"s3":["confesará"],"p1":["confesaremos"],"p2":["confesaréis"],"p3":["confesarán"]},
     "IndCond": {"s1":["confesaría"],"s2":["confesarías"],"vos":["confesarías"],"s3":["confesaría"],"p1":["confesaríamos"],"p2":["confesaríais"],"p3":["confesarían"]},
-    "SubPres": {"s1":["confiese"],"s2":["confieses"],"vos":["confieses","confesés"],"s3":["confiese"],"p1":["confesemos"],"p2":["confeséis"],"p3":["confiesen"]},
+    "SubPres": {"s1":["confiese"],"s2":["confieses"],"vos":[{"forma": "confieses","uso":"Riop."},{"forma":"confesés","uso":"C.Am."}],"s3":["confiese"],"p1":["confesemos"],"p2":["confeséis"],"p3":["confiesen"]},
     "SubImp": {"s1":["confesara","confesase"],"s2":["confesaras","confesases"],"vos":["confesaras","confesases"],"s3":["confesara","confesase"],"p1":["confesáramos","confesásemos"],"p2":["confesarais","confesaseis"],"p3":["confesaran","confesasen"]},
     "SubFut": {"s1":["confesare"],"s2":["confesares"],"vos":["confesares"],"s3":["confesare"],"p1":["confesáremos"],"p2":["confesareis"],"p3":["confesaren"]},
     "CmdPos": {"s2":["confiesa"],"vos":["confesá"],"s3":["confiese"],"p1":["confesemos"],"p2":["confesad"],"p3":["confiesen"]}

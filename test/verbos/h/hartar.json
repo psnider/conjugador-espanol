@@ -13,7 +13,7 @@
     "IndPret": {"s1":["harté"],"s2":["hartaste"],"vos":["hartaste"],"s3":["hartó"],"p1":["hartamos"],"p2":["hartasteis"],"p3":["hartaron"]},
     "IndFut": {"s1":["hartaré"],"s2":["hartarás"],"vos":["hartarás"],"s3":["hartará"],"p1":["hartaremos"],"p2":["hartaréis"],"p3":["hartarán"]},
     "IndCond": {"s1":["hartaría"],"s2":["hartarías"],"vos":["hartarías"],"s3":["hartaría"],"p1":["hartaríamos"],"p2":["hartaríais"],"p3":["hartarían"]},
-    "SubPres": {"s1":["harte"],"s2":["hartes"],"vos":["hartes","hartés"],"s3":["harte"],"p1":["hartemos"],"p2":["hartéis"],"p3":["harten"]},
+    "SubPres": {"s1":["harte"],"s2":["hartes"],"vos":[{"forma": "hartes","uso":"Riop."},{"forma":"hartés","uso":"C.Am."}],"s3":["harte"],"p1":["hartemos"],"p2":["hartéis"],"p3":["harten"]},
     "SubImp": {"s1":["hartara","hartase"],"s2":["hartaras","hartases"],"vos":["hartaras","hartases"],"s3":["hartara","hartase"],"p1":["hartáramos","hartásemos"],"p2":["hartarais","hartaseis"],"p3":["hartaran","hartasen"]},
     "SubFut": {"s1":["hartare"],"s2":["hartares"],"vos":["hartares"],"s3":["hartare"],"p1":["hartáremos"],"p2":["hartareis"],"p3":["hartaren"]},
     "CmdPos": {"s2":["harta"],"vos":["hartá"],"s3":["harte"],"p1":["hartemos"],"p2":["hartad"],"p3":["harten"]}

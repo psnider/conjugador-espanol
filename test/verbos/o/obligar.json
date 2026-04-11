@@ -13,7 +13,7 @@
     "IndPret": {"s1":["obligué"],"s2":["obligaste"],"vos":["obligaste"],"s3":["obligó"],"p1":["obligamos"],"p2":["obligasteis"],"p3":["obligaron"]},
     "IndFut": {"s1":["obligaré"],"s2":["obligarás"],"vos":["obligarás"],"s3":["obligará"],"p1":["obligaremos"],"p2":["obligaréis"],"p3":["obligarán"]},
     "IndCond": {"s1":["obligaría"],"s2":["obligarías"],"vos":["obligarías"],"s3":["obligaría"],"p1":["obligaríamos"],"p2":["obligaríais"],"p3":["obligarían"]},
-    "SubPres": {"s1":["obligue"],"s2":["obligues"],"vos":["obligues","obligués"],"s3":["obligue"],"p1":["obliguemos"],"p2":["obliguéis"],"p3":["obliguen"]},
+    "SubPres": {"s1":["obligue"],"s2":["obligues"],"vos":[{"forma": "obligues","uso":"Riop."},{"forma":"obligués","uso":"C.Am."}],"s3":["obligue"],"p1":["obliguemos"],"p2":["obliguéis"],"p3":["obliguen"]},
     "SubImp": {"s1":["obligara","obligase"],"s2":["obligaras","obligases"],"vos":["obligaras","obligases"],"s3":["obligara","obligase"],"p1":["obligáramos","obligásemos"],"p2":["obligarais","obligaseis"],"p3":["obligaran","obligasen"]},
     "SubFut": {"s1":["obligare"],"s2":["obligares"],"vos":["obligares"],"s3":["obligare"],"p1":["obligáremos"],"p2":["obligareis"],"p3":["obligaren"]},
     "CmdPos": {"s2":["obliga"],"vos":["obligá"],"s3":["obligue"],"p1":["obliguemos"],"p2":["obligad"],"p3":["obliguen"]}

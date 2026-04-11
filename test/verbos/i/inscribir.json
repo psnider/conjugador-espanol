@@ -13,7 +13,7 @@
     "IndPret": {"s1":["inscribí"],"s2":["inscribiste"],"vos":["inscribiste"],"s3":["inscribió"],"p1":["inscribimos"],"p2":["inscribisteis"],"p3":["inscribieron"]},
     "IndFut": {"s1":["inscribiré"],"s2":["inscribirás"],"vos":["inscribirás"],"s3":["inscribirá"],"p1":["inscribiremos"],"p2":["inscribiréis"],"p3":["inscribirán"]},
     "IndCond": {"s1":["inscribiría"],"s2":["inscribirías"],"vos":["inscribirías"],"s3":["inscribiría"],"p1":["inscribiríamos"],"p2":["inscribiríais"],"p3":["inscribirían"]},
-    "SubPres": {"s1":["inscriba"],"s2":["inscribas"],"vos":["inscribas","inscribás"],"s3":["inscriba"],"p1":["inscribamos"],"p2":["inscribáis"],"p3":["inscriban"]},
+    "SubPres": {"s1":["inscriba"],"s2":["inscribas"],"vos":[{"forma": "inscribas","uso":"Riop."},{"forma":"inscribás","uso":"C.Am."}],"s3":["inscriba"],"p1":["inscribamos"],"p2":["inscribáis"],"p3":["inscriban"]},
     "SubImp": {"s1":["inscribiera","inscribiese"],"s2":["inscribieras","inscribieses"],"vos":["inscribieras","inscribieses"],"s3":["inscribiera","inscribiese"],"p1":["inscribiéramos","inscribiésemos"],"p2":["inscribierais","inscribieseis"],"p3":["inscribieran","inscribiesen"]},
     "SubFut": {"s1":["inscribiere"],"s2":["inscribieres"],"vos":["inscribieres"],"s3":["inscribiere"],"p1":["inscribiéremos"],"p2":["inscribiereis"],"p3":["inscribieren"]},
     "CmdPos": {"s2":["inscribe"],"vos":["inscribí"],"s3":["inscriba"],"p1":["inscribamos"],"p2":["inscribid"],"p3":["inscriban"]}

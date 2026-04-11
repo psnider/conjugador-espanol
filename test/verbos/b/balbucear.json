@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[balβ̞useˈaɾ]",
+    "silabacion": "bal-bu-ce-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De balbucir y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"balbucear","gerundio":["balbuceando"],"participio":["balbuceado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["balbuceo"],"s2":["balbuceas"],"vos":["balbuceás"],"s3":["balbucea"],"p1":["balbuceamos"],"p2":["balbuceáis"],"p3":["balbucean"]},
+    "IndImp": {"s1":["balbuceaba"],"s2":["balbuceabas"],"vos":["balbuceabas"],"s3":["balbuceaba"],"p1":["balbuceábamos"],"p2":["balbuceabais"],"p3":["balbuceaban"]},
+    "IndPret": {"s1":["balbuceé"],"s2":["balbuceaste"],"vos":["balbuceaste"],"s3":["balbuceó"],"p1":["balbuceamos"],"p2":["balbuceasteis"],"p3":["balbucearon"]},
+    "IndFut": {"s1":["balbucearé"],"s2":["balbucearás"],"vos":["balbucearás"],"s3":["balbuceará"],"p1":["balbucearemos"],"p2":["balbucearéis"],"p3":["balbucearán"]},
+    "IndCond": {"s1":["balbucearía"],"s2":["balbucearías"],"vos":["balbucearías"],"s3":["balbucearía"],"p1":["balbucearíamos"],"p2":["balbucearíais"],"p3":["balbucearían"]},
+    "SubPres": {"s1":["balbucee"],"s2":["balbucees"],"vos":["balbucees","balbuceés"],"s3":["balbucee"],"p1":["balbuceemos"],"p2":["balbuceéis"],"p3":["balbuceen"]},
+    "SubImp": {"s1":["balbuceara","balbucease"],"s2":["balbucearas","balbuceases"],"vos":["balbucearas","balbuceases"],"s3":["balbuceara","balbucease"],"p1":["balbuceáramos","balbuceásemos"],"p2":["balbucearais","balbuceaseis"],"p3":["balbucearan","balbuceasen"]},
+    "SubFut": {"s1":["balbuceare"],"s2":["balbuceares"],"vos":["balbuceares"],"s3":["balbuceare"],"p1":["balbuceáremos"],"p2":["balbuceareis"],"p3":["balbucearen"]},
+    "CmdPos": {"s2":["balbucea"],"vos":["balbuceá"],"s3":["balbucee"],"p1":["balbuceemos"],"p2":["balbucead"],"p3":["balbuceen"]}
+  }
+}

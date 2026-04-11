@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tosté"],"s2":["tostaste"],"vos":["tostaste"],"s3":["tostó"],"p1":["tostamos"],"p2":["tostasteis"],"p3":["tostaron"]},
     "IndFut": {"s1":["tostaré"],"s2":["tostarás"],"vos":["tostarás"],"s3":["tostará"],"p1":["tostaremos"],"p2":["tostaréis"],"p3":["tostarán"]},
     "IndCond": {"s1":["tostaría"],"s2":["tostarías"],"vos":["tostarías"],"s3":["tostaría"],"p1":["tostaríamos"],"p2":["tostaríais"],"p3":["tostarían"]},
-    "SubPres": {"s1":["tueste"],"s2":["tuestes"],"vos":["tuestes","tostés"],"s3":["tueste"],"p1":["tostemos"],"p2":["tostéis"],"p3":["tuesten"]},
+    "SubPres": {"s1":["tueste"],"s2":["tuestes"],"vos":[{"forma": "tuestes","uso":"Riop."},{"forma":"tostés","uso":"C.Am."}],"s3":["tueste"],"p1":["tostemos"],"p2":["tostéis"],"p3":["tuesten"]},
     "SubImp": {"s1":["tostara","tostase"],"s2":["tostaras","tostases"],"vos":["tostaras","tostases"],"s3":["tostara","tostase"],"p1":["tostáramos","tostásemos"],"p2":["tostarais","tostaseis"],"p3":["tostaran","tostasen"]},
     "SubFut": {"s1":["tostare"],"s2":["tostares"],"vos":["tostares"],"s3":["tostare"],"p1":["tostáremos"],"p2":["tostareis"],"p3":["tostaren"]},
     "CmdPos": {"s2":["tuesta"],"vos":["tostá"],"s3":["tueste"],"p1":["tostemos"],"p2":["tostad"],"p3":["tuesten"]}

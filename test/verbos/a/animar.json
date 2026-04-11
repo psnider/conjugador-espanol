@@ -12,7 +12,7 @@
     "IndPret": {"s1":["animé"],"s2":["animaste"],"vos":["animaste"],"s3":["animó"],"p1":["animamos"],"p2":["animasteis"],"p3":["animaron"]},
     "IndFut": {"s1":["animaré"],"s2":["animarás"],"vos":["animarás"],"s3":["animará"],"p1":["animaremos"],"p2":["animaréis"],"p3":["animarán"]},
     "IndCond": {"s1":["animaría"],"s2":["animarías"],"vos":["animarías"],"s3":["animaría"],"p1":["animaríamos"],"p2":["animaríais"],"p3":["animarían"]},
-    "SubPres": {"s1":["anime"],"s2":["animes"],"vos":["animes","animés"],"s3":["anime"],"p1":["animemos"],"p2":["animéis"],"p3":["animen"]},
+    "SubPres": {"s1":["anime"],"s2":["animes"],"vos":[{"forma": "animes","uso":"Riop."},{"forma":"animés","uso":"C.Am."}],"s3":["anime"],"p1":["animemos"],"p2":["animéis"],"p3":["animen"]},
     "SubImp": {"s1":["animara","animase"],"s2":["animaras","animases"],"vos":["animaras","animases"],"s3":["animara","animase"],"p1":["animáramos","animásemos"],"p2":["animarais","animaseis"],"p3":["animaran","animasen"]},
     "SubFut": {"s1":["animare"],"s2":["animares"],"vos":["animares"],"s3":["animare"],"p1":["animáremos"],"p2":["animareis"],"p3":["animaren"]},
     "CmdPos": {"s2":["anima"],"vos":["animá"],"s3":["anime"],"p1":["animemos"],"p2":["animad"],"p3":["animen"]}

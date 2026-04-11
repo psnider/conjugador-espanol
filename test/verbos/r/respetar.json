@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[respeˈt̪aɾ]",
+    "silabacion": "res-pe-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín respectō, respectāre (\"mirar atrás, dar consideración\"), habiendo pasado al español antes como respectar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"respetar","gerundio":["respetando"],"participio":["respetado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["respeto"],"s2":["respetas"],"vos":["respetás"],"s3":["respeta"],"p1":["respetamos"],"p2":["respetáis"],"p3":["respetan"]},
+    "IndImp": {"s1":["respetaba"],"s2":["respetabas"],"vos":["respetabas"],"s3":["respetaba"],"p1":["respetábamos"],"p2":["respetabais"],"p3":["respetaban"]},
+    "IndPret": {"s1":["respeté"],"s2":["respetaste"],"vos":["respetaste"],"s3":["respetó"],"p1":["respetamos"],"p2":["respetasteis"],"p3":["respetaron"]},
+    "IndFut": {"s1":["respetaré"],"s2":["respetarás"],"vos":["respetarás"],"s3":["respetará"],"p1":["respetaremos"],"p2":["respetaréis"],"p3":["respetarán"]},
+    "IndCond": {"s1":["respetaría"],"s2":["respetarías"],"vos":["respetarías"],"s3":["respetaría"],"p1":["respetaríamos"],"p2":["respetaríais"],"p3":["respetarían"]},
+    "SubPres": {"s1":["respete"],"s2":["respetes"],"vos":["respetes","respetés"],"s3":["respete"],"p1":["respetemos"],"p2":["respetéis"],"p3":["respeten"]},
+    "SubImp": {"s1":["respetara","respetase"],"s2":["respetaras","respetases"],"vos":["respetaras","respetases"],"s3":["respetara","respetase"],"p1":["respetáramos","respetásemos"],"p2":["respetarais","respetaseis"],"p3":["respetaran","respetasen"]},
+    "SubFut": {"s1":["respetare"],"s2":["respetares"],"vos":["respetares"],"s3":["respetare"],"p1":["respetáremos"],"p2":["respetareis"],"p3":["respetaren"]},
+    "CmdPos": {"s2":["respeta"],"vos":["respetá"],"s3":["respete"],"p1":["respetemos"],"p2":["respetad"],"p3":["respeten"]}
+  }
+}

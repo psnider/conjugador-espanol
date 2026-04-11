@@ -12,7 +12,7 @@
     "IndPret": {"s1":["influí"],"s2":["influiste"],"vos":["influiste"],"s3":["influyó"],"p1":["influimos"],"p2":["influisteis"],"p3":["influyeron"]},
     "IndFut": {"s1":["influiré"],"s2":["influirás"],"vos":["influirás"],"s3":["influirá"],"p1":["influiremos"],"p2":["influiréis"],"p3":["influirán"]},
     "IndCond": {"s1":["influiría"],"s2":["influirías"],"vos":["influirías"],"s3":["influiría"],"p1":["influiríamos"],"p2":["influiríais"],"p3":["influirían"]},
-    "SubPres": {"s1":["influya"],"s2":["influyas"],"vos":["influyas","influyás"],"s3":["influya"],"p1":["influyamos"],"p2":["influyáis"],"p3":["influyan"]},
+    "SubPres": {"s1":["influya"],"s2":["influyas"],"vos":[{"forma": "influyas","uso":"Riop."},{"forma":"influyás","uso":"C.Am."}],"s3":["influya"],"p1":["influyamos"],"p2":["influyáis"],"p3":["influyan"]},
     "SubImp": {"s1":["influyera","influyese"],"s2":["influyeras","influyeses"],"vos":["influyeras","influyeses"],"s3":["influyera","influyese"],"p1":["influyéramos","influyésemos"],"p2":["influyerais","influyeseis"],"p3":["influyeran","influyesen"]},
     "SubFut": {"s1":["influyere"],"s2":["influyeres"],"vos":["influyeres"],"s3":["influyere"],"p1":["influyéremos"],"p2":["influyereis"],"p3":["influyeren"]},
     "CmdPos": {"s2":["influye"],"vos":["influí"],"s3":["influya"],"p1":["influyamos"],"p2":["influid"],"p3":["influyan"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desperdicié"],"s2":["desperdiciaste"],"vos":["desperdiciaste"],"s3":["desperdició"],"p1":["desperdiciamos"],"p2":["desperdiciasteis"],"p3":["desperdiciaron"]},
     "IndFut": {"s1":["desperdiciaré"],"s2":["desperdiciarás"],"vos":["desperdiciarás"],"s3":["desperdiciará"],"p1":["desperdiciaremos"],"p2":["desperdiciaréis"],"p3":["desperdiciarán"]},
     "IndCond": {"s1":["desperdiciaría"],"s2":["desperdiciarías"],"vos":["desperdiciarías"],"s3":["desperdiciaría"],"p1":["desperdiciaríamos"],"p2":["desperdiciaríais"],"p3":["desperdiciarían"]},
-    "SubPres": {"s1":["desperdicie"],"s2":["desperdicies"],"vos":["desperdicies","desperdiciés"],"s3":["desperdicie"],"p1":["desperdiciemos"],"p2":["desperdiciéis"],"p3":["desperdicien"]},
+    "SubPres": {"s1":["desperdicie"],"s2":["desperdicies"],"vos":[{"forma": "desperdicies","uso":"Riop."},{"forma":"desperdiciés","uso":"C.Am."}],"s3":["desperdicie"],"p1":["desperdiciemos"],"p2":["desperdiciéis"],"p3":["desperdicien"]},
     "SubImp": {"s1":["desperdiciara","desperdiciase"],"s2":["desperdiciaras","desperdiciases"],"vos":["desperdiciaras","desperdiciases"],"s3":["desperdiciara","desperdiciase"],"p1":["desperdiciáramos","desperdiciásemos"],"p2":["desperdiciarais","desperdiciaseis"],"p3":["desperdiciaran","desperdiciasen"]},
     "SubFut": {"s1":["desperdiciare"],"s2":["desperdiciares"],"vos":["desperdiciares"],"s3":["desperdiciare"],"p1":["desperdiciáremos"],"p2":["desperdiciareis"],"p3":["desperdiciaren"]},
     "CmdPos": {"s2":["desperdicia"],"vos":["desperdiciá"],"s3":["desperdicie"],"p1":["desperdiciemos"],"p2":["desperdiciad"],"p3":["desperdicien"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["extinguí"],"s2":["extinguiste"],"vos":["extinguiste"],"s3":["extinguió"],"p1":["extinguimos"],"p2":["extinguisteis"],"p3":["extinguieron"]},
     "IndFut": {"s1":["extinguiré"],"s2":["extinguirás"],"vos":["extinguirás"],"s3":["extinguirá"],"p1":["extinguiremos"],"p2":["extinguiréis"],"p3":["extinguirán"]},
     "IndCond": {"s1":["extinguiría"],"s2":["extinguirías"],"vos":["extinguirías"],"s3":["extinguiría"],"p1":["extinguiríamos"],"p2":["extinguiríais"],"p3":["extinguirían"]},
-    "SubPres": {"s1":["extinga"],"s2":["extingas"],"vos":["extingas","extingás"],"s3":["extinga"],"p1":["extingamos"],"p2":["extingáis"],"p3":["extingan"]},
+    "SubPres": {"s1":["extinga"],"s2":["extingas"],"vos":[{"forma": "extingas","uso":"Riop."},{"forma":"extingás","uso":"C.Am."}],"s3":["extinga"],"p1":["extingamos"],"p2":["extingáis"],"p3":["extingan"]},
     "SubImp": {"s1":["extinguiera","extinguiese"],"s2":["extinguieras","extinguieses"],"vos":["extinguieras","extinguieses"],"s3":["extinguiera","extinguiese"],"p1":["extinguiéramos","extinguiésemos"],"p2":["extinguierais","extinguieseis"],"p3":["extinguieran","extinguiesen"]},
     "SubFut": {"s1":["extinguiere"],"s2":["extinguieres"],"vos":["extinguieres"],"s3":["extinguiere"],"p1":["extinguiéremos"],"p2":["extinguiereis"],"p3":["extinguieren"]},
     "CmdPos": {"s2":["extingue"],"vos":["extinguí"],"s3":["extinga"],"p1":["extingamos"],"p2":["extinguid"],"p3":["extingan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["morí"],"s2":["moriste"],"vos":["moriste"],"s3":["murió"],"p1":["morimos"],"p2":["moristeis"],"p3":["murieron"]},
     "IndFut": {"s1":["moriré"],"s2":["morirás"],"vos":["morirás"],"s3":["morirá"],"p1":["moriremos"],"p2":["moriréis"],"p3":["morirán"]},
     "IndCond": {"s1":["moriría"],"s2":["morirías"],"vos":["morirías"],"s3":["moriría"],"p1":["moriríamos"],"p2":["moriríais"],"p3":["morirían"]},
-    "SubPres": {"s1":["muera"],"s2":["mueras"],"vos":["mueras","murás"],"s3":["muera"],"p1":["muramos"],"p2":["muráis"],"p3":["mueran"]},
+    "SubPres": {"s1":["muera"],"s2":["mueras"],"vos":[{"forma": "mueras","uso":"Riop."},{"forma":"murás","uso":"C.Am."}],"s3":["muera"],"p1":["muramos"],"p2":["muráis"],"p3":["mueran"]},
     "SubImp": {"s1":["muriera","muriese"],"s2":["murieras","murieses"],"vos":["murieras","murieses"],"s3":["muriera","muriese"],"p1":["muriéramos","muriésemos"],"p2":["murierais","murieseis"],"p3":["murieran","muriesen"]},
     "SubFut": {"s1":["muriere"],"s2":["murieres"],"vos":["murieres"],"s3":["muriere"],"p1":["muriéremos"],"p2":["muriereis"],"p3":["murieren"]},
     "CmdPos": {"s2":["muere"],"vos":["morí"],"s3":["muera"],"p1":["muramos"],"p2":["morid"],"p3":["mueran"]}

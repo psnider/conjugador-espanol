@@ -13,9 +13,9 @@
     "IndPret": {"s1":["hice"],"s2":["hiciste"],"vos":["hiciste"],"s3":["hizo"],"p1":["hicimos"],"p2":["hicisteis"],"p3":["hicieron"]},
     "IndFut": {"s1":["haré"],"s2":["harás"],"vos":["harás"],"s3":["hará"],"p1":["haremos"],"p2":["haréis"],"p3":["harán"]},
     "IndCond": {"s1":["haría"],"s2":["harías"],"vos":["harías"],"s3":["haría"],"p1":["haríamos"],"p2":["haríais"],"p3":["harían"]},
-    "SubPres": {"s1":["haga"],"s2":["hagas"],"vos":["hagas","hagás"],"s3":["haga"],"p1":["hagamos"],"p2":["hagáis"],"p3":["hagan"]},
+    "SubPres": {"s1":["haga"],"s2":["hagas"],"vos":[{"forma":"hagas","uso":"Riop."}, {"forma":"hagás","uso":"C.Am."}],"s3":["haga"],"p1":["hagamos"],"p2":["hagáis"],"p3":["hagan"]},
     "SubImp": {"s1":["hiciera","hiciese"],"s2":["hicieras","hicieses"],"vos":["hicieras","hicieses"],"s3":["hiciera","hiciese"],"p1":["hiciéramos","hiciésemos"],"p2":["hicierais","hicieseis"],"p3":["hicieran","hiciesen"]},
     "SubFut": {"s1":["hiciere"],"s2":["hicieres"],"vos":["hicieres"],"s3":["hiciere"],"p1":["hiciéremos"],"p2":["hiciereis"],"p3":["hicieren"]},
-    "CmdPos": {"s2":{"estándar":["haz"],"atípicos":[{"forma":"hace","etiquetas":["no normativo"]}]},"vos":["hacé"],"s3":["haga"],"p1":["hagamos"],"p2":["haced"],"p3":["hagan"]}
+    "CmdPos": {"s2":["haz"],"vos":["hacé"],"s3":["haga"],"p1":["hagamos"],"p2":["haced"],"p3":["hagan"]}
   }
 }

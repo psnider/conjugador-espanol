@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apliqué"],"s2":["aplicaste"],"vos":["aplicaste"],"s3":["aplicó"],"p1":["aplicamos"],"p2":["aplicasteis"],"p3":["aplicaron"]},
     "IndFut": {"s1":["aplicaré"],"s2":["aplicarás"],"vos":["aplicarás"],"s3":["aplicará"],"p1":["aplicaremos"],"p2":["aplicaréis"],"p3":["aplicarán"]},
     "IndCond": {"s1":["aplicaría"],"s2":["aplicarías"],"vos":["aplicarías"],"s3":["aplicaría"],"p1":["aplicaríamos"],"p2":["aplicaríais"],"p3":["aplicarían"]},
-    "SubPres": {"s1":["aplique"],"s2":["apliques"],"vos":["apliques","apliqués"],"s3":["aplique"],"p1":["apliquemos"],"p2":["apliquéis"],"p3":["apliquen"]},
+    "SubPres": {"s1":["aplique"],"s2":["apliques"],"vos":[{"forma": "apliques","uso":"Riop."},{"forma":"apliqués","uso":"C.Am."}],"s3":["aplique"],"p1":["apliquemos"],"p2":["apliquéis"],"p3":["apliquen"]},
     "SubImp": {"s1":["aplicara","aplicase"],"s2":["aplicaras","aplicases"],"vos":["aplicaras","aplicases"],"s3":["aplicara","aplicase"],"p1":["aplicáramos","aplicásemos"],"p2":["aplicarais","aplicaseis"],"p3":["aplicaran","aplicasen"]},
     "SubFut": {"s1":["aplicare"],"s2":["aplicares"],"vos":["aplicares"],"s3":["aplicare"],"p1":["aplicáremos"],"p2":["aplicareis"],"p3":["aplicaren"]},
     "CmdPos": {"s2":["aplica"],"vos":["aplicá"],"s3":["aplique"],"p1":["apliquemos"],"p2":["aplicad"],"p3":["apliquen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["emperifollé"],"s2":["emperifollaste"],"vos":["emperifollaste"],"s3":["emperifolló"],"p1":["emperifollamos"],"p2":["emperifollasteis"],"p3":["emperifollaron"]},
     "IndFut": {"s1":["emperifollaré"],"s2":["emperifollarás"],"vos":["emperifollarás"],"s3":["emperifollará"],"p1":["emperifollaremos"],"p2":["emperifollaréis"],"p3":["emperifollarán"]},
     "IndCond": {"s1":["emperifollaría"],"s2":["emperifollarías"],"vos":["emperifollarías"],"s3":["emperifollaría"],"p1":["emperifollaríamos"],"p2":["emperifollaríais"],"p3":["emperifollarían"]},
-    "SubPres": {"s1":["emperifolle"],"s2":["emperifolles"],"vos":["emperifolles","emperifollés"],"s3":["emperifolle"],"p1":["emperifollemos"],"p2":["emperifolléis"],"p3":["emperifollen"]},
+    "SubPres": {"s1":["emperifolle"],"s2":["emperifolles"],"vos":[{"forma": "emperifolles","uso":"Riop."},{"forma":"emperifollés","uso":"C.Am."}],"s3":["emperifolle"],"p1":["emperifollemos"],"p2":["emperifolléis"],"p3":["emperifollen"]},
     "SubImp": {"s1":["emperifollara","emperifollase"],"s2":["emperifollaras","emperifollases"],"vos":["emperifollaras","emperifollases"],"s3":["emperifollara","emperifollase"],"p1":["emperifolláramos","emperifollásemos"],"p2":["emperifollarais","emperifollaseis"],"p3":["emperifollaran","emperifollasen"]},
     "SubFut": {"s1":["emperifollare"],"s2":["emperifollares"],"vos":["emperifollares"],"s3":["emperifollare"],"p1":["emperifolláremos"],"p2":["emperifollareis"],"p3":["emperifollaren"]},
     "CmdPos": {"s2":["emperifolla"],"vos":["emperifollá"],"s3":["emperifolle"],"p1":["emperifollemos"],"p2":["emperifollad"],"p3":["emperifollen"]}

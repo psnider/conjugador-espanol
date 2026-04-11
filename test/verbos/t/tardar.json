@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tardé"],"s2":["tardaste"],"vos":["tardaste"],"s3":["tardó"],"p1":["tardamos"],"p2":["tardasteis"],"p3":["tardaron"]},
     "IndFut": {"s1":["tardaré"],"s2":["tardarás"],"vos":["tardarás"],"s3":["tardará"],"p1":["tardaremos"],"p2":["tardaréis"],"p3":["tardarán"]},
     "IndCond": {"s1":["tardaría"],"s2":["tardarías"],"vos":["tardarías"],"s3":["tardaría"],"p1":["tardaríamos"],"p2":["tardaríais"],"p3":["tardarían"]},
-    "SubPres": {"s1":["tarde"],"s2":["tardes"],"vos":["tardes","tardés"],"s3":["tarde"],"p1":["tardemos"],"p2":["tardéis"],"p3":["tarden"]},
+    "SubPres": {"s1":["tarde"],"s2":["tardes"],"vos":[{"forma": "tardes","uso":"Riop."},{"forma":"tardés","uso":"C.Am."}],"s3":["tarde"],"p1":["tardemos"],"p2":["tardéis"],"p3":["tarden"]},
     "SubImp": {"s1":["tardara","tardase"],"s2":["tardaras","tardases"],"vos":["tardaras","tardases"],"s3":["tardara","tardase"],"p1":["tardáramos","tardásemos"],"p2":["tardarais","tardaseis"],"p3":["tardaran","tardasen"]},
     "SubFut": {"s1":["tardare"],"s2":["tardares"],"vos":["tardares"],"s3":["tardare"],"p1":["tardáremos"],"p2":["tardareis"],"p3":["tardaren"]},
     "CmdPos": {"s2":["tarda"],"vos":["tardá"],"s3":["tarde"],"p1":["tardemos"],"p2":["tardad"],"p3":["tarden"]}

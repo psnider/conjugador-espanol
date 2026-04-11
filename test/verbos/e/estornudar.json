@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estornudé"],"s2":["estornudaste"],"vos":["estornudaste"],"s3":["estornudó"],"p1":["estornudamos"],"p2":["estornudasteis"],"p3":["estornudaron"]},
     "IndFut": {"s1":["estornudaré"],"s2":["estornudarás"],"vos":["estornudarás"],"s3":["estornudará"],"p1":["estornudaremos"],"p2":["estornudaréis"],"p3":["estornudarán"]},
     "IndCond": {"s1":["estornudaría"],"s2":["estornudarías"],"vos":["estornudarías"],"s3":["estornudaría"],"p1":["estornudaríamos"],"p2":["estornudaríais"],"p3":["estornudarían"]},
-    "SubPres": {"s1":["estornude"],"s2":["estornudes"],"vos":["estornudes","estornudés"],"s3":["estornude"],"p1":["estornudemos"],"p2":["estornudéis"],"p3":["estornuden"]},
+    "SubPres": {"s1":["estornude"],"s2":["estornudes"],"vos":[{"forma": "estornudes","uso":"Riop."},{"forma":"estornudés","uso":"C.Am."}],"s3":["estornude"],"p1":["estornudemos"],"p2":["estornudéis"],"p3":["estornuden"]},
     "SubImp": {"s1":["estornudara","estornudase"],"s2":["estornudaras","estornudases"],"vos":["estornudaras","estornudases"],"s3":["estornudara","estornudase"],"p1":["estornudáramos","estornudásemos"],"p2":["estornudarais","estornudaseis"],"p3":["estornudaran","estornudasen"]},
     "SubFut": {"s1":["estornudare"],"s2":["estornudares"],"vos":["estornudares"],"s3":["estornudare"],"p1":["estornudáremos"],"p2":["estornudareis"],"p3":["estornudaren"]},
     "CmdPos": {"s2":["estornuda"],"vos":["estornudá"],"s3":["estornude"],"p1":["estornudemos"],"p2":["estornudad"],"p3":["estornuden"]}

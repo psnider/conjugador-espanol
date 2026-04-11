@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akumuˈlaɾ]",
+    "silabacion": "a-cu-mu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín accumulō, accumulāre,[1] compuesto del latín cumulo, vinculado con cumulus, cumulī&nbsp;('montón').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acumular","gerundio":["acumulando"],"participio":["acumulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acumulo"],"s2":["acumulas"],"vos":["acumulás"],"s3":["acumula"],"p1":["acumulamos"],"p2":["acumuláis"],"p3":["acumulan"]},
+    "IndImp": {"s1":["acumulaba"],"s2":["acumulabas"],"vos":["acumulabas"],"s3":["acumulaba"],"p1":["acumulábamos"],"p2":["acumulabais"],"p3":["acumulaban"]},
+    "IndPret": {"s1":["acumulé"],"s2":["acumulaste"],"vos":["acumulaste"],"s3":["acumuló"],"p1":["acumulamos"],"p2":["acumulasteis"],"p3":["acumularon"]},
+    "IndFut": {"s1":["acumularé"],"s2":["acumularás"],"vos":["acumularás"],"s3":["acumulará"],"p1":["acumularemos"],"p2":["acumularéis"],"p3":["acumularán"]},
+    "IndCond": {"s1":["acumularía"],"s2":["acumularías"],"vos":["acumularías"],"s3":["acumularía"],"p1":["acumularíamos"],"p2":["acumularíais"],"p3":["acumularían"]},
+    "SubPres": {"s1":["acumule"],"s2":["acumules"],"vos":["acumules","acumulés"],"s3":["acumule"],"p1":["acumulemos"],"p2":["acumuléis"],"p3":["acumulen"]},
+    "SubImp": {"s1":["acumulara","acumulase"],"s2":["acumularas","acumulases"],"vos":["acumularas","acumulases"],"s3":["acumulara","acumulase"],"p1":["acumuláramos","acumulásemos"],"p2":["acumularais","acumulaseis"],"p3":["acumularan","acumulasen"]},
+    "SubFut": {"s1":["acumulare"],"s2":["acumulares"],"vos":["acumulares"],"s3":["acumulare"],"p1":["acumuláremos"],"p2":["acumulareis"],"p3":["acumularen"]},
+    "CmdPos": {"s2":["acumula"],"vos":["acumulá"],"s3":["acumule"],"p1":["acumulemos"],"p2":["acumulad"],"p3":["acumulen"]}
+  }
+}

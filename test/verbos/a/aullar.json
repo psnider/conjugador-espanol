@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aullé"],"s2":["aullaste"],"vos":["aullaste"],"s3":["aulló"],"p1":["aullamos"],"p2":["aullasteis"],"p3":["aullaron"]},
     "IndFut": {"s1":["aullaré"],"s2":["aullarás"],"vos":["aullarás"],"s3":["aullará"],"p1":["aullaremos"],"p2":["aullaréis"],"p3":["aullarán"]},
     "IndCond": {"s1":["aullaría"],"s2":["aullarías"],"vos":["aullarías"],"s3":["aullaría"],"p1":["aullaríamos"],"p2":["aullaríais"],"p3":["aullarían"]},
-    "SubPres": {"s1":["aúlle"],"s2":["aúlles"],"vos":["aúlles","aullés"],"s3":["aúlle"],"p1":["aullemos"],"p2":["aulléis"],"p3":["aúllen"]},
+    "SubPres": {"s1":["aúlle"],"s2":["aúlles"],"vos":[{"forma": "aúlles","uso":"Riop."},{"forma":"aullés","uso":"C.Am."}],"s3":["aúlle"],"p1":["aullemos"],"p2":["aulléis"],"p3":["aúllen"]},
     "SubImp": {"s1":["aullara","aullase"],"s2":["aullaras","aullases"],"vos":["aullaras","aullases"],"s3":["aullara","aullase"],"p1":["aulláramos","aullásemos"],"p2":["aullarais","aullaseis"],"p3":["aullaran","aullasen"]},
     "SubFut": {"s1":["aullare"],"s2":["aullares"],"vos":["aullares"],"s3":["aullare"],"p1":["aulláremos"],"p2":["aullareis"],"p3":["aullaren"]},
     "CmdPos": {"s2":["aúlla"],"vos":["aullá"],"s3":["aúlle"],"p1":["aullemos"],"p2":["aullad"],"p3":["aúllen"]}

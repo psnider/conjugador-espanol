@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comprobé"],"s2":["comprobaste"],"vos":["comprobaste"],"s3":["comprobó"],"p1":["comprobamos"],"p2":["comprobasteis"],"p3":["comprobaron"]},
     "IndFut": {"s1":["comprobaré"],"s2":["comprobarás"],"vos":["comprobarás"],"s3":["comprobará"],"p1":["comprobaremos"],"p2":["comprobaréis"],"p3":["comprobarán"]},
     "IndCond": {"s1":["comprobaría"],"s2":["comprobarías"],"vos":["comprobarías"],"s3":["comprobaría"],"p1":["comprobaríamos"],"p2":["comprobaríais"],"p3":["comprobarían"]},
-    "SubPres": {"s1":["compruebe"],"s2":["compruebes"],"vos":["compruebes","comprobés"],"s3":["compruebe"],"p1":["comprobemos"],"p2":["comprobéis"],"p3":["comprueben"]},
+    "SubPres": {"s1":["compruebe"],"s2":["compruebes"],"vos":[{"forma": "compruebes","uso":"Riop."},{"forma":"comprobés","uso":"C.Am."}],"s3":["compruebe"],"p1":["comprobemos"],"p2":["comprobéis"],"p3":["comprueben"]},
     "SubImp": {"s1":["comprobara","comprobase"],"s2":["comprobaras","comprobases"],"vos":["comprobaras","comprobases"],"s3":["comprobara","comprobase"],"p1":["comprobáramos","comprobásemos"],"p2":["comprobarais","comprobaseis"],"p3":["comprobaran","comprobasen"]},
     "SubFut": {"s1":["comprobare"],"s2":["comprobares"],"vos":["comprobares"],"s3":["comprobare"],"p1":["comprobáremos"],"p2":["comprobareis"],"p3":["comprobaren"]},
     "CmdPos": {"s2":["comprueba"],"vos":["comprobá"],"s3":["compruebe"],"p1":["comprobemos"],"p2":["comprobad"],"p3":["comprueben"]}

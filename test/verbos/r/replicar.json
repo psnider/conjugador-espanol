@@ -13,7 +13,7 @@
     "IndPret": {"s1":["repliqué"],"s2":["replicaste"],"vos":["replicaste"],"s3":["replicó"],"p1":["replicamos"],"p2":["replicasteis"],"p3":["replicaron"]},
     "IndFut": {"s1":["replicaré"],"s2":["replicarás"],"vos":["replicarás"],"s3":["replicará"],"p1":["replicaremos"],"p2":["replicaréis"],"p3":["replicarán"]},
     "IndCond": {"s1":["replicaría"],"s2":["replicarías"],"vos":["replicarías"],"s3":["replicaría"],"p1":["replicaríamos"],"p2":["replicaríais"],"p3":["replicarían"]},
-    "SubPres": {"s1":["replique"],"s2":["repliques"],"vos":["repliques","repliqués"],"s3":["replique"],"p1":["repliquemos"],"p2":["repliquéis"],"p3":["repliquen"]},
+    "SubPres": {"s1":["replique"],"s2":["repliques"],"vos":[{"forma": "repliques","uso":"Riop."},{"forma":"repliqués","uso":"C.Am."}],"s3":["replique"],"p1":["repliquemos"],"p2":["repliquéis"],"p3":["repliquen"]},
     "SubImp": {"s1":["replicara","replicase"],"s2":["replicaras","replicases"],"vos":["replicaras","replicases"],"s3":["replicara","replicase"],"p1":["replicáramos","replicásemos"],"p2":["replicarais","replicaseis"],"p3":["replicaran","replicasen"]},
     "SubFut": {"s1":["replicare"],"s2":["replicares"],"vos":["replicares"],"s3":["replicare"],"p1":["replicáremos"],"p2":["replicareis"],"p3":["replicaren"]},
     "CmdPos": {"s2":["replica"],"vos":["replicá"],"s3":["replique"],"p1":["repliquemos"],"p2":["replicad"],"p3":["repliquen"]}

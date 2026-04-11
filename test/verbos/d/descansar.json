@@ -13,7 +13,7 @@
     "IndPret": {"s1":["descansé"],"s2":["descansaste"],"vos":["descansaste"],"s3":["descansó"],"p1":["descansamos"],"p2":["descansasteis"],"p3":["descansaron"]},
     "IndFut": {"s1":["descansaré"],"s2":["descansarás"],"vos":["descansarás"],"s3":["descansará"],"p1":["descansaremos"],"p2":["descansaréis"],"p3":["descansarán"]},
     "IndCond": {"s1":["descansaría"],"s2":["descansarías"],"vos":["descansarías"],"s3":["descansaría"],"p1":["descansaríamos"],"p2":["descansaríais"],"p3":["descansarían"]},
-    "SubPres": {"s1":["descanse"],"s2":["descanses"],"vos":["descanses","descansés"],"s3":["descanse"],"p1":["descansemos"],"p2":["descanséis"],"p3":["descansen"]},
+    "SubPres": {"s1":["descanse"],"s2":["descanses"],"vos":[{"forma": "descanses","uso":"Riop."},{"forma":"descansés","uso":"C.Am."}],"s3":["descanse"],"p1":["descansemos"],"p2":["descanséis"],"p3":["descansen"]},
     "SubImp": {"s1":["descansara","descansase"],"s2":["descansaras","descansases"],"vos":["descansaras","descansases"],"s3":["descansara","descansase"],"p1":["descansáramos","descansásemos"],"p2":["descansarais","descansaseis"],"p3":["descansaran","descansasen"]},
     "SubFut": {"s1":["descansare"],"s2":["descansares"],"vos":["descansares"],"s3":["descansare"],"p1":["descansáremos"],"p2":["descansareis"],"p3":["descansaren"]},
     "CmdPos": {"s2":["descansa"],"vos":["descansá"],"s3":["descanse"],"p1":["descansemos"],"p2":["descansad"],"p3":["descansen"]}

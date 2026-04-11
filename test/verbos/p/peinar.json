@@ -13,7 +13,7 @@
     "IndPret": {"s1":["peiné"],"s2":["peinaste"],"vos":["peinaste"],"s3":["peinó"],"p1":["peinamos"],"p2":["peinasteis"],"p3":["peinaron"]},
     "IndFut": {"s1":["peinaré"],"s2":["peinarás"],"vos":["peinarás"],"s3":["peinará"],"p1":["peinaremos"],"p2":["peinaréis"],"p3":["peinarán"]},
     "IndCond": {"s1":["peinaría"],"s2":["peinarías"],"vos":["peinarías"],"s3":["peinaría"],"p1":["peinaríamos"],"p2":["peinaríais"],"p3":["peinarían"]},
-    "SubPres": {"s1":["peine"],"s2":["peines"],"vos":["peines","peinés"],"s3":["peine"],"p1":["peinemos"],"p2":["peinéis"],"p3":["peinen"]},
+    "SubPres": {"s1":["peine"],"s2":["peines"],"vos":[{"forma": "peines","uso":"Riop."},{"forma":"peinés","uso":"C.Am."}],"s3":["peine"],"p1":["peinemos"],"p2":["peinéis"],"p3":["peinen"]},
     "SubImp": {"s1":["peinara","peinase"],"s2":["peinaras","peinases"],"vos":["peinaras","peinases"],"s3":["peinara","peinase"],"p1":["peináramos","peinásemos"],"p2":["peinarais","peinaseis"],"p3":["peinaran","peinasen"]},
     "SubFut": {"s1":["peinare"],"s2":["peinares"],"vos":["peinares"],"s3":["peinare"],"p1":["peináremos"],"p2":["peinareis"],"p3":["peinaren"]},
     "CmdPos": {"s2":["peina"],"vos":["peiná"],"s3":["peine"],"p1":["peinemos"],"p2":["peinad"],"p3":["peinen"]}

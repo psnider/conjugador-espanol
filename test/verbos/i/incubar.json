@@ -13,7 +13,7 @@
     "IndPret": {"s1":["incubé"],"s2":["incubaste"],"vos":["incubaste"],"s3":["incubó"],"p1":["incubamos"],"p2":["incubasteis"],"p3":["incubaron"]},
     "IndFut": {"s1":["incubaré"],"s2":["incubarás"],"vos":["incubarás"],"s3":["incubará"],"p1":["incubaremos"],"p2":["incubaréis"],"p3":["incubarán"]},
     "IndCond": {"s1":["incubaría"],"s2":["incubarías"],"vos":["incubarías"],"s3":["incubaría"],"p1":["incubaríamos"],"p2":["incubaríais"],"p3":["incubarían"]},
-    "SubPres": {"s1":["incube"],"s2":["incubes"],"vos":["incubes","incubés"],"s3":["incube"],"p1":["incubemos"],"p2":["incubéis"],"p3":["incuben"]},
+    "SubPres": {"s1":["incube"],"s2":["incubes"],"vos":[{"forma": "incubes","uso":"Riop."},{"forma":"incubés","uso":"C.Am."}],"s3":["incube"],"p1":["incubemos"],"p2":["incubéis"],"p3":["incuben"]},
     "SubImp": {"s1":["incubara","incubase"],"s2":["incubaras","incubases"],"vos":["incubaras","incubases"],"s3":["incubara","incubase"],"p1":["incubáramos","incubásemos"],"p2":["incubarais","incubaseis"],"p3":["incubaran","incubasen"]},
     "SubFut": {"s1":["incubare"],"s2":["incubares"],"vos":["incubares"],"s3":["incubare"],"p1":["incubáremos"],"p2":["incubareis"],"p3":["incubaren"]},
     "CmdPos": {"s2":["incuba"],"vos":["incubá"],"s3":["incube"],"p1":["incubemos"],"p2":["incubad"],"p3":["incuben"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enteré"],"s2":["enteraste"],"vos":["enteraste"],"s3":["enteró"],"p1":["enteramos"],"p2":["enterasteis"],"p3":["enteraron"]},
     "IndFut": {"s1":["enteraré"],"s2":["enterarás"],"vos":["enterarás"],"s3":["enterará"],"p1":["enteraremos"],"p2":["enteraréis"],"p3":["enterarán"]},
     "IndCond": {"s1":["enteraría"],"s2":["enterarías"],"vos":["enterarías"],"s3":["enteraría"],"p1":["enteraríamos"],"p2":["enteraríais"],"p3":["enterarían"]},
-    "SubPres": {"s1":["entere"],"s2":["enteres"],"vos":["enteres","enterés"],"s3":["entere"],"p1":["enteremos"],"p2":["enteréis"],"p3":["enteren"]},
+    "SubPres": {"s1":["entere"],"s2":["enteres"],"vos":[{"forma": "enteres","uso":"Riop."},{"forma":"enterés","uso":"C.Am."}],"s3":["entere"],"p1":["enteremos"],"p2":["enteréis"],"p3":["enteren"]},
     "SubImp": {"s1":["enterara","enterase"],"s2":["enteraras","enterases"],"vos":["enteraras","enterases"],"s3":["enterara","enterase"],"p1":["enteráramos","enterásemos"],"p2":["enterarais","enteraseis"],"p3":["enteraran","enterasen"]},
     "SubFut": {"s1":["enterare"],"s2":["enterares"],"vos":["enterares"],"s3":["enterare"],"p1":["enteráremos"],"p2":["enterareis"],"p3":["enteraren"]},
     "CmdPos": {"s2":["entera"],"vos":["enterá"],"s3":["entere"],"p1":["enteremos"],"p2":["enterad"],"p3":["enteren"]}

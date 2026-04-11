@@ -13,7 +13,7 @@
     "IndPret": {"s1":["substraje"],"s2":["substrajiste"],"vos":["substrajiste"],"s3":["substrajo"],"p1":["substrajimos"],"p2":["substrajisteis"],"p3":["substrajeron"]},
     "IndFut": {"s1":["substraeré"],"s2":["substraerás"],"vos":["substraerás"],"s3":["substraerá"],"p1":["substraeremos"],"p2":["substraeréis"],"p3":["substraerán"]},
     "IndCond": {"s1":["substraería"],"s2":["substraerías"],"vos":["substraerías"],"s3":["substraería"],"p1":["substraeríamos"],"p2":["substraeríais"],"p3":["substraerían"]},
-    "SubPres": {"s1":["substraiga"],"s2":["substraigas"],"vos":["substraigas","substraigás"],"s3":["substraiga"],"p1":["substraigamos"],"p2":["substraigáis"],"p3":["substraigan"]},
+    "SubPres": {"s1":["substraiga"],"s2":["substraigas"],"vos":[{"forma": "substraigas","uso":"Riop."},{"forma":"substraigás","uso":"C.Am."}],"s3":["substraiga"],"p1":["substraigamos"],"p2":["substraigáis"],"p3":["substraigan"]},
     "SubImp": {"s1":["substrajera","substrajese"],"s2":["substrajeras","substrajeses"],"vos":["substrajeras","substrajeses"],"s3":["substrajera","substrajese"],"p1":["substrajéramos","substrajésemos"],"p2":["substrajerais","substrajeseis"],"p3":["substrajeran","substrajesen"]},
     "SubFut": {"s1":["substrajere"],"s2":["substrajeres"],"vos":["substrajeres"],"s3":["substrajere"],"p1":["substrajéremos"],"p2":["substrajereis"],"p3":["substrajeren"]},
     "CmdPos": {"s2":["substrae"],"vos":["substraé"],"s3":["substraiga"],"p1":["substraigamos"],"p2":["substraed"],"p3":["substraigan"]}

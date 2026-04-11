@@ -13,7 +13,7 @@
     "IndPret": {"s1":["hospedé"],"s2":["hospedaste"],"vos":["hospedaste"],"s3":["hospedó"],"p1":["hospedamos"],"p2":["hospedasteis"],"p3":["hospedaron"]},
     "IndFut": {"s1":["hospedaré"],"s2":["hospedarás"],"vos":["hospedarás"],"s3":["hospedará"],"p1":["hospedaremos"],"p2":["hospedaréis"],"p3":["hospedarán"]},
     "IndCond": {"s1":["hospedaría"],"s2":["hospedarías"],"vos":["hospedarías"],"s3":["hospedaría"],"p1":["hospedaríamos"],"p2":["hospedaríais"],"p3":["hospedarían"]},
-    "SubPres": {"s1":["hospede"],"s2":["hospedes"],"vos":["hospedes","hospedés"],"s3":["hospede"],"p1":["hospedemos"],"p2":["hospedéis"],"p3":["hospeden"]},
+    "SubPres": {"s1":["hospede"],"s2":["hospedes"],"vos":[{"forma": "hospedes","uso":"Riop."},{"forma":"hospedés","uso":"C.Am."}],"s3":["hospede"],"p1":["hospedemos"],"p2":["hospedéis"],"p3":["hospeden"]},
     "SubImp": {"s1":["hospedara","hospedase"],"s2":["hospedaras","hospedases"],"vos":["hospedaras","hospedases"],"s3":["hospedara","hospedase"],"p1":["hospedáramos","hospedásemos"],"p2":["hospedarais","hospedaseis"],"p3":["hospedaran","hospedasen"]},
     "SubFut": {"s1":["hospedare"],"s2":["hospedares"],"vos":["hospedares"],"s3":["hospedare"],"p1":["hospedáremos"],"p2":["hospedareis"],"p3":["hospedaren"]},
     "CmdPos": {"s2":["hospeda"],"vos":["hospedá"],"s3":["hospede"],"p1":["hospedemos"],"p2":["hospedad"],"p3":["hospeden"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aposté"],"s2":["apostaste"],"vos":["apostaste"],"s3":["apostó"],"p1":["apostamos"],"p2":["apostasteis"],"p3":["apostaron"]},
     "IndFut": {"s1":["apostaré"],"s2":["apostarás"],"vos":["apostarás"],"s3":["apostará"],"p1":["apostaremos"],"p2":["apostaréis"],"p3":["apostarán"]},
     "IndCond": {"s1":["apostaría"],"s2":["apostarías"],"vos":["apostarías"],"s3":["apostaría"],"p1":["apostaríamos"],"p2":["apostaríais"],"p3":["apostarían"]},
-    "SubPres": {"s1":["apueste"],"s2":["apuestes"],"vos":["apuestes","apostés"],"s3":["apueste"],"p1":["apostemos"],"p2":["apostéis"],"p3":["apuesten"]},
+    "SubPres": {"s1":["apueste"],"s2":["apuestes"],"vos":[{"forma": "apuestes","uso":"Riop."},{"forma":"apostés","uso":"C.Am."}],"s3":["apueste"],"p1":["apostemos"],"p2":["apostéis"],"p3":["apuesten"]},
     "SubImp": {"s1":["apostara","apostase"],"s2":["apostaras","apostases"],"vos":["apostaras","apostases"],"s3":["apostara","apostase"],"p1":["apostáramos","apostásemos"],"p2":["apostarais","apostaseis"],"p3":["apostaran","apostasen"]},
     "SubFut": {"s1":["apostare"],"s2":["apostares"],"vos":["apostares"],"s3":["apostare"],"p1":["apostáremos"],"p2":["apostareis"],"p3":["apostaren"]},
     "CmdPos": {"s2":["apuesta"],"vos":["apostá"],"s3":["apueste"],"p1":["apostemos"],"p2":["apostad"],"p3":["apuesten"]}

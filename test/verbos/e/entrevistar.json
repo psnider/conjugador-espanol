@@ -13,7 +13,7 @@
     "IndPret": {"s1":["entrevisté"],"s2":["entrevistaste"],"vos":["entrevistaste"],"s3":["entrevistó"],"p1":["entrevistamos"],"p2":["entrevistasteis"],"p3":["entrevistaron"]},
     "IndFut": {"s1":["entrevistaré"],"s2":["entrevistarás"],"vos":["entrevistarás"],"s3":["entrevistará"],"p1":["entrevistaremos"],"p2":["entrevistaréis"],"p3":["entrevistarán"]},
     "IndCond": {"s1":["entrevistaría"],"s2":["entrevistarías"],"vos":["entrevistarías"],"s3":["entrevistaría"],"p1":["entrevistaríamos"],"p2":["entrevistaríais"],"p3":["entrevistarían"]},
-    "SubPres": {"s1":["entreviste"],"s2":["entrevistes"],"vos":["entrevistes","entrevistés"],"s3":["entreviste"],"p1":["entrevistemos"],"p2":["entrevistéis"],"p3":["entrevisten"]},
+    "SubPres": {"s1":["entreviste"],"s2":["entrevistes"],"vos":[{"forma": "entrevistes","uso":"Riop."},{"forma":"entrevistés","uso":"C.Am."}],"s3":["entreviste"],"p1":["entrevistemos"],"p2":["entrevistéis"],"p3":["entrevisten"]},
     "SubImp": {"s1":["entrevistara","entrevistase"],"s2":["entrevistaras","entrevistases"],"vos":["entrevistaras","entrevistases"],"s3":["entrevistara","entrevistase"],"p1":["entrevistáramos","entrevistásemos"],"p2":["entrevistarais","entrevistaseis"],"p3":["entrevistaran","entrevistasen"]},
     "SubFut": {"s1":["entrevistare"],"s2":["entrevistares"],"vos":["entrevistares"],"s3":["entrevistare"],"p1":["entrevistáremos"],"p2":["entrevistareis"],"p3":["entrevistaren"]},
     "CmdPos": {"s2":["entrevista"],"vos":["entrevistá"],"s3":["entreviste"],"p1":["entrevistemos"],"p2":["entrevistad"],"p3":["entrevisten"]}

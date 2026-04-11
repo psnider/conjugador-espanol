@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rehilé"],"s2":["rehilaste"],"vos":["rehilaste"],"s3":["rehiló"],"p1":["rehilamos"],"p2":["rehilasteis"],"p3":["rehilaron"]},
     "IndFut": {"s1":["rehilaré"],"s2":["rehilarás"],"vos":["rehilarás"],"s3":["rehilará"],"p1":["rehilaremos"],"p2":["rehilaréis"],"p3":["rehilarán"]},
     "IndCond": {"s1":["rehilaría"],"s2":["rehilarías"],"vos":["rehilarías"],"s3":["rehilaría"],"p1":["rehilaríamos"],"p2":["rehilaríais"],"p3":["rehilarían"]},
-    "SubPres": {"s1":["rehíle"],"s2":["rehíles"],"vos":["rehíles","rehilés"],"s3":["rehíle"],"p1":["rehilemos"],"p2":["rehiléis"],"p3":["rehílen"]},
+    "SubPres": {"s1":["rehíle"],"s2":["rehíles"],"vos":[{"forma": "rehíles","uso":"Riop."},{"forma":"rehilés","uso":"C.Am."}],"s3":["rehíle"],"p1":["rehilemos"],"p2":["rehiléis"],"p3":["rehílen"]},
     "SubImp": {"s1":["rehilara","rehilase"],"s2":["rehilaras","rehilases"],"vos":["rehilaras","rehilases"],"s3":["rehilara","rehilase"],"p1":["rehiláramos","rehilásemos"],"p2":["rehilarais","rehilaseis"],"p3":["rehilaran","rehilasen"]},
     "SubFut": {"s1":["rehilare"],"s2":["rehilares"],"vos":["rehilares"],"s3":["rehilare"],"p1":["rehiláremos"],"p2":["rehilareis"],"p3":["rehilaren"]},
     "CmdPos": {"s2":["rehíla"],"vos":["rehilá"],"s3":["rehíle"],"p1":["rehilemos"],"p2":["rehilad"],"p3":["rehílen"]}

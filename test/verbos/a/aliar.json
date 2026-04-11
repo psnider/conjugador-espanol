@@ -12,7 +12,7 @@
     "IndPret": {"s1":["alié"],"s2":["aliaste"],"vos":["aliaste"],"s3":["alió"],"p1":["aliamos"],"p2":["aliasteis"],"p3":["aliaron"]},
     "IndFut": {"s1":["aliaré"],"s2":["aliarás"],"vos":["aliarás"],"s3":["aliará"],"p1":["aliaremos"],"p2":["aliaréis"],"p3":["aliarán"]},
     "IndCond": {"s1":["aliaría"],"s2":["aliarías"],"vos":["aliarías"],"s3":["aliaría"],"p1":["aliaríamos"],"p2":["aliaríais"],"p3":["aliarían"]},
-    "SubPres": {"s1":["alíe"],"s2":["alíes"],"vos":["alíes","aliés"],"s3":["alíe"],"p1":["aliemos"],"p2":["aliéis"],"p3":["alíen"]},
+    "SubPres": {"s1":["alíe"],"s2":["alíes"],"vos":[{"forma": "alíes","uso":"Riop."},{"forma":"aliés","uso":"C.Am."}],"s3":["alíe"],"p1":["aliemos"],"p2":["aliéis"],"p3":["alíen"]},
     "SubImp": {"s1":["aliara","aliase"],"s2":["aliaras","aliases"],"vos":["aliaras","aliases"],"s3":["aliara","aliase"],"p1":["aliáramos","aliásemos"],"p2":["aliarais","aliaseis"],"p3":["aliaran","aliasen"]},
     "SubFut": {"s1":["aliare"],"s2":["aliares"],"vos":["aliares"],"s3":["aliare"],"p1":["aliáremos"],"p2":["aliareis"],"p3":["aliaren"]},
     "CmdPos": {"s2":["alía"],"vos":["aliá"],"s3":["alíe"],"p1":["aliemos"],"p2":["aliad"],"p3":["alíen"]}

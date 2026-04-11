@@ -13,7 +13,7 @@
     "IndPret": {"s1":["quejé"],"s2":["quejaste"],"vos":["quejaste"],"s3":["quejó"],"p1":["quejamos"],"p2":["quejasteis"],"p3":["quejaron"]},
     "IndFut": {"s1":["quejaré"],"s2":["quejarás"],"vos":["quejarás"],"s3":["quejará"],"p1":["quejaremos"],"p2":["quejaréis"],"p3":["quejarán"]},
     "IndCond": {"s1":["quejaría"],"s2":["quejarías"],"vos":["quejarías"],"s3":["quejaría"],"p1":["quejaríamos"],"p2":["quejaríais"],"p3":["quejarían"]},
-    "SubPres": {"s1":["queje"],"s2":["quejes"],"vos":["quejes","quejés"],"s3":["queje"],"p1":["quejemos"],"p2":["quejéis"],"p3":["quejen"]},
+    "SubPres": {"s1":["queje"],"s2":["quejes"],"vos":[{"forma": "quejes","uso":"Riop."},{"forma":"quejés","uso":"C.Am."}],"s3":["queje"],"p1":["quejemos"],"p2":["quejéis"],"p3":["quejen"]},
     "SubImp": {"s1":["quejara","quejase"],"s2":["quejaras","quejases"],"vos":["quejaras","quejases"],"s3":["quejara","quejase"],"p1":["quejáramos","quejásemos"],"p2":["quejarais","quejaseis"],"p3":["quejaran","quejasen"]},
     "SubFut": {"s1":["quejare"],"s2":["quejares"],"vos":["quejares"],"s3":["quejare"],"p1":["quejáremos"],"p2":["quejareis"],"p3":["quejaren"]},
     "CmdPos": {"s2":["queja"],"vos":["quejá"],"s3":["queje"],"p1":["quejemos"],"p2":["quejad"],"p3":["quejen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sollocé"],"s2":["sollozaste"],"vos":["sollozaste"],"s3":["sollozó"],"p1":["sollozamos"],"p2":["sollozasteis"],"p3":["sollozaron"]},
     "IndFut": {"s1":["sollozaré"],"s2":["sollozarás"],"vos":["sollozarás"],"s3":["sollozará"],"p1":["sollozaremos"],"p2":["sollozaréis"],"p3":["sollozarán"]},
     "IndCond": {"s1":["sollozaría"],"s2":["sollozarías"],"vos":["sollozarías"],"s3":["sollozaría"],"p1":["sollozaríamos"],"p2":["sollozaríais"],"p3":["sollozarían"]},
-    "SubPres": {"s1":["solloce"],"s2":["solloces"],"vos":["solloces","sollocés"],"s3":["solloce"],"p1":["sollocemos"],"p2":["sollocéis"],"p3":["sollocen"]},
+    "SubPres": {"s1":["solloce"],"s2":["solloces"],"vos":[{"forma": "solloces","uso":"Riop."},{"forma":"sollocés","uso":"C.Am."}],"s3":["solloce"],"p1":["sollocemos"],"p2":["sollocéis"],"p3":["sollocen"]},
     "SubImp": {"s1":["sollozara","sollozase"],"s2":["sollozaras","sollozases"],"vos":["sollozaras","sollozases"],"s3":["sollozara","sollozase"],"p1":["sollozáramos","sollozásemos"],"p2":["sollozarais","sollozaseis"],"p3":["sollozaran","sollozasen"]},
     "SubFut": {"s1":["sollozare"],"s2":["sollozares"],"vos":["sollozares"],"s3":["sollozare"],"p1":["sollozáremos"],"p2":["sollozareis"],"p3":["sollozaren"]},
     "CmdPos": {"s2":["solloza"],"vos":["sollozá"],"s3":["solloce"],"p1":["sollocemos"],"p2":["sollozad"],"p3":["sollocen"]}

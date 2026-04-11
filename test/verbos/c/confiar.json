@@ -12,7 +12,7 @@
     "IndPret": {"s1":["confié"],"s2":["confiaste"],"vos":["confiaste"],"s3":["confió"],"p1":["confiamos"],"p2":["confiasteis"],"p3":["confiaron"]},
     "IndFut": {"s1":["confiaré"],"s2":["confiarás"],"vos":["confiarás"],"s3":["confiará"],"p1":["confiaremos"],"p2":["confiaréis"],"p3":["confiarán"]},
     "IndCond": {"s1":["confiaría"],"s2":["confiarías"],"vos":["confiarías"],"s3":["confiaría"],"p1":["confiaríamos"],"p2":["confiaríais"],"p3":["confiarían"]},
-    "SubPres": {"s1":["confíe"],"s2":["confíes"],"vos":["confíes","confiés"],"s3":["confíe"],"p1":["confiemos"],"p2":["confiéis"],"p3":["confíen"]},
+    "SubPres": {"s1":["confíe"],"s2":["confíes"],"vos":[{"forma": "confíes","uso":"Riop."},{"forma":"confiés","uso":"C.Am."}],"s3":["confíe"],"p1":["confiemos"],"p2":["confiéis"],"p3":["confíen"]},
     "SubImp": {"s1":["confiara","confiase"],"s2":["confiaras","confiases"],"vos":["confiaras","confiases"],"s3":["confiara","confiase"],"p1":["confiáramos","confiásemos"],"p2":["confiarais","confiaseis"],"p3":["confiaran","confiasen"]},
     "SubFut": {"s1":["confiare"],"s2":["confiares"],"vos":["confiares"],"s3":["confiare"],"p1":["confiáremos"],"p2":["confiareis"],"p3":["confiaren"]},
     "CmdPos": {"s2":["confía"],"vos":["confiá"],"s3":["confíe"],"p1":["confiemos"],"p2":["confiad"],"p3":["confíen"]}

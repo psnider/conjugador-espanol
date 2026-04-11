@@ -12,7 +12,7 @@
     "IndPret": {"s1":["refluí"],"s2":["refluiste"],"vos":["refluiste"],"s3":["refluyó"],"p1":["refluimos"],"p2":["refluisteis"],"p3":["refluyeron"]},
     "IndFut": {"s1":["refluiré"],"s2":["refluirás"],"vos":["refluirás"],"s3":["refluirá"],"p1":["refluiremos"],"p2":["refluiréis"],"p3":["refluirán"]},
     "IndCond": {"s1":["refluiría"],"s2":["refluirías"],"vos":["refluirías"],"s3":["refluiría"],"p1":["refluiríamos"],"p2":["refluiríais"],"p3":["refluirían"]},
-    "SubPres": {"s1":["refluya"],"s2":["refluyas"],"vos":["refluyas","refluyás"],"s3":["refluya"],"p1":["refluyamos"],"p2":["refluyáis"],"p3":["refluyan"]},
+    "SubPres": {"s1":["refluya"],"s2":["refluyas"],"vos":[{"forma": "refluyas","uso":"Riop."},{"forma":"refluyás","uso":"C.Am."}],"s3":["refluya"],"p1":["refluyamos"],"p2":["refluyáis"],"p3":["refluyan"]},
     "SubImp": {"s1":["refluyera","refluyese"],"s2":["refluyeras","refluyeses"],"vos":["refluyeras","refluyeses"],"s3":["refluyera","refluyese"],"p1":["refluyéramos","refluyésemos"],"p2":["refluyerais","refluyeseis"],"p3":["refluyeran","refluyesen"]},
     "SubFut": {"s1":["refluyere"],"s2":["refluyeres"],"vos":["refluyeres"],"s3":["refluyere"],"p1":["refluyéremos"],"p2":["refluyereis"],"p3":["refluyeren"]},
     "CmdPos": {"s2":["refluye"],"vos":["refluí"],"s3":["refluya"],"p1":["refluyamos"],"p2":["refluid"],"p3":["refluyan"]}

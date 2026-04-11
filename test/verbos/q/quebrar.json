@@ -13,7 +13,7 @@
     "IndPret": {"s1":["quebré"],"s2":["quebraste"],"vos":["quebraste"],"s3":["quebró"],"p1":["quebramos"],"p2":["quebrasteis"],"p3":["quebraron"]},
     "IndFut": {"s1":["quebraré"],"s2":["quebrarás"],"vos":["quebrarás"],"s3":["quebrará"],"p1":["quebraremos"],"p2":["quebraréis"],"p3":["quebrarán"]},
     "IndCond": {"s1":["quebraría"],"s2":["quebrarías"],"vos":["quebrarías"],"s3":["quebraría"],"p1":["quebraríamos"],"p2":["quebraríais"],"p3":["quebrarían"]},
-    "SubPres": {"s1":["quiebre"],"s2":["quiebres"],"vos":["quiebres","quebrés"],"s3":["quiebre"],"p1":["quebremos"],"p2":["quebréis"],"p3":["quiebren"]},
+    "SubPres": {"s1":["quiebre"],"s2":["quiebres"],"vos":[{"forma": "quiebres","uso":"Riop."},{"forma":"quebrés","uso":"C.Am."}],"s3":["quiebre"],"p1":["quebremos"],"p2":["quebréis"],"p3":["quiebren"]},
     "SubImp": {"s1":["quebrara","quebrase"],"s2":["quebraras","quebrases"],"vos":["quebraras","quebrases"],"s3":["quebrara","quebrase"],"p1":["quebráramos","quebrásemos"],"p2":["quebrarais","quebraseis"],"p3":["quebraran","quebrasen"]},
     "SubFut": {"s1":["quebrare"],"s2":["quebrares"],"vos":["quebrares"],"s3":["quebrare"],"p1":["quebráremos"],"p2":["quebrareis"],"p3":["quebraren"]},
     "CmdPos": {"s2":["quiebra"],"vos":["quebrá"],"s3":["quiebre"],"p1":["quebremos"],"p2":["quebrad"],"p3":["quiebren"]}

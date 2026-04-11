@@ -12,7 +12,7 @@
     "IndPret": {"s1":["gradué"],"s2":["graduaste"],"vos":["graduaste"],"s3":["graduó"],"p1":["graduamos"],"p2":["graduasteis"],"p3":["graduaron"]},
     "IndFut": {"s1":["graduaré"],"s2":["graduarás"],"vos":["graduarás"],"s3":["graduará"],"p1":["graduaremos"],"p2":["graduaréis"],"p3":["graduarán"]},
     "IndCond": {"s1":["graduaría"],"s2":["graduarías"],"vos":["graduarías"],"s3":["graduaría"],"p1":["graduaríamos"],"p2":["graduaríais"],"p3":["graduarían"]},
-    "SubPres": {"s1":["gradúe"],"s2":["gradúes"],"vos":["gradúes","gradués"],"s3":["gradúe"],"p1":["graduemos"],"p2":["graduéis"],"p3":["gradúen"]},
+    "SubPres": {"s1":["gradúe"],"s2":["gradúes"],"vos":[{"forma": "gradúes","uso":"Riop."},{"forma":"gradués","uso":"C.Am."}],"s3":["gradúe"],"p1":["graduemos"],"p2":["graduéis"],"p3":["gradúen"]},
     "SubImp": {"s1":["graduara","graduase"],"s2":["graduaras","graduases"],"vos":["graduaras","graduases"],"s3":["graduara","graduase"],"p1":["graduáramos","graduásemos"],"p2":["graduarais","graduaseis"],"p3":["graduaran","graduasen"]},
     "SubFut": {"s1":["graduare"],"s2":["graduares"],"vos":["graduares"],"s3":["graduare"],"p1":["graduáremos"],"p2":["graduareis"],"p3":["graduaren"]},
     "CmdPos": {"s2":["gradúa"],"vos":["graduá"],"s3":["gradúe"],"p1":["graduemos"],"p2":["graduad"],"p3":["gradúen"]}

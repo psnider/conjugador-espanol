@@ -12,7 +12,7 @@
     "IndPret": {"s1":["presencié"],"s2":["presenciaste"],"vos":["presenciaste"],"s3":["presenció"],"p1":["presenciamos"],"p2":["presenciasteis"],"p3":["presenciaron"]},
     "IndFut": {"s1":["presenciaré"],"s2":["presenciarás"],"vos":["presenciarás"],"s3":["presenciará"],"p1":["presenciaremos"],"p2":["presenciaréis"],"p3":["presenciarán"]},
     "IndCond": {"s1":["presenciaría"],"s2":["presenciarías"],"vos":["presenciarías"],"s3":["presenciaría"],"p1":["presenciaríamos"],"p2":["presenciaríais"],"p3":["presenciarían"]},
-    "SubPres": {"s1":["presencie"],"s2":["presencies"],"vos":["presencies","presenciés"],"s3":["presencie"],"p1":["presenciemos"],"p2":["presenciéis"],"p3":["presencien"]},
+    "SubPres": {"s1":["presencie"],"s2":["presencies"],"vos":[{"forma": "presencies","uso":"Riop."},{"forma":"presenciés","uso":"C.Am."}],"s3":["presencie"],"p1":["presenciemos"],"p2":["presenciéis"],"p3":["presencien"]},
     "SubImp": {"s1":["presenciara","presenciase"],"s2":["presenciaras","presenciases"],"vos":["presenciaras","presenciases"],"s3":["presenciara","presenciase"],"p1":["presenciáramos","presenciásemos"],"p2":["presenciarais","presenciaseis"],"p3":["presenciaran","presenciasen"]},
     "SubFut": {"s1":["presenciare"],"s2":["presenciares"],"vos":["presenciares"],"s3":["presenciare"],"p1":["presenciáremos"],"p2":["presenciareis"],"p3":["presenciaren"]},
     "CmdPos": {"s2":["presencia"],"vos":["presenciá"],"s3":["presencie"],"p1":["presenciemos"],"p2":["presenciad"],"p3":["presencien"]}

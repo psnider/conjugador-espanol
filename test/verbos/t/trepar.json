@@ -13,7 +13,7 @@
     "IndPret": {"s1":["trepé"],"s2":["trepaste"],"vos":["trepaste"],"s3":["trepó"],"p1":["trepamos"],"p2":["trepasteis"],"p3":["treparon"]},
     "IndFut": {"s1":["treparé"],"s2":["treparás"],"vos":["treparás"],"s3":["trepará"],"p1":["treparemos"],"p2":["treparéis"],"p3":["treparán"]},
     "IndCond": {"s1":["treparía"],"s2":["treparías"],"vos":["treparías"],"s3":["treparía"],"p1":["treparíamos"],"p2":["treparíais"],"p3":["treparían"]},
-    "SubPres": {"s1":["trepe"],"s2":["trepes"],"vos":["trepes","trepés"],"s3":["trepe"],"p1":["trepemos"],"p2":["trepéis"],"p3":["trepen"]},
+    "SubPres": {"s1":["trepe"],"s2":["trepes"],"vos":[{"forma": "trepes","uso":"Riop."},{"forma":"trepés","uso":"C.Am."}],"s3":["trepe"],"p1":["trepemos"],"p2":["trepéis"],"p3":["trepen"]},
     "SubImp": {"s1":["trepara","trepase"],"s2":["treparas","trepases"],"vos":["treparas","trepases"],"s3":["trepara","trepase"],"p1":["trepáramos","trepásemos"],"p2":["treparais","trepaseis"],"p3":["treparan","trepasen"]},
     "SubFut": {"s1":["trepare"],"s2":["trepares"],"vos":["trepares"],"s3":["trepare"],"p1":["trepáremos"],"p2":["trepareis"],"p3":["treparen"]},
     "CmdPos": {"s2":["trepa"],"vos":["trepá"],"s3":["trepe"],"p1":["trepemos"],"p2":["trepad"],"p3":["trepen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aflojé"],"s2":["aflojaste"],"vos":["aflojaste"],"s3":["aflojó"],"p1":["aflojamos"],"p2":["aflojasteis"],"p3":["aflojaron"]},
     "IndFut": {"s1":["aflojaré"],"s2":["aflojarás"],"vos":["aflojarás"],"s3":["aflojará"],"p1":["aflojaremos"],"p2":["aflojaréis"],"p3":["aflojarán"]},
     "IndCond": {"s1":["aflojaría"],"s2":["aflojarías"],"vos":["aflojarías"],"s3":["aflojaría"],"p1":["aflojaríamos"],"p2":["aflojaríais"],"p3":["aflojarían"]},
-    "SubPres": {"s1":["afloje"],"s2":["aflojes"],"vos":["aflojes","aflojés"],"s3":["afloje"],"p1":["aflojemos"],"p2":["aflojéis"],"p3":["aflojen"]},
+    "SubPres": {"s1":["afloje"],"s2":["aflojes"],"vos":[{"forma": "aflojes","uso":"Riop."},{"forma":"aflojés","uso":"C.Am."}],"s3":["afloje"],"p1":["aflojemos"],"p2":["aflojéis"],"p3":["aflojen"]},
     "SubImp": {"s1":["aflojara","aflojase"],"s2":["aflojaras","aflojases"],"vos":["aflojaras","aflojases"],"s3":["aflojara","aflojase"],"p1":["aflojáramos","aflojásemos"],"p2":["aflojarais","aflojaseis"],"p3":["aflojaran","aflojasen"]},
     "SubFut": {"s1":["aflojare"],"s2":["aflojares"],"vos":["aflojares"],"s3":["aflojare"],"p1":["aflojáremos"],"p2":["aflojareis"],"p3":["aflojaren"]},
     "CmdPos": {"s2":["afloja"],"vos":["aflojá"],"s3":["afloje"],"p1":["aflojemos"],"p2":["aflojad"],"p3":["aflojen"]}

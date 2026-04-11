@@ -13,7 +13,7 @@
     "IndPret": {"s1":["extendí"],"s2":["extendiste"],"vos":["extendiste"],"s3":["extendió"],"p1":["extendimos"],"p2":["extendisteis"],"p3":["extendieron"]},
     "IndFut": {"s1":["extenderé"],"s2":["extenderás"],"vos":["extenderás"],"s3":["extenderá"],"p1":["extenderemos"],"p2":["extenderéis"],"p3":["extenderán"]},
     "IndCond": {"s1":["extendería"],"s2":["extenderías"],"vos":["extenderías"],"s3":["extendería"],"p1":["extenderíamos"],"p2":["extenderíais"],"p3":["extenderían"]},
-    "SubPres": {"s1":["extienda"],"s2":["extiendas"],"vos":["extiendas","extendás"],"s3":["extienda"],"p1":["extendamos"],"p2":["extendáis"],"p3":["extiendan"]},
+    "SubPres": {"s1":["extienda"],"s2":["extiendas"],"vos":[{"forma": "extiendas","uso":"Riop."},{"forma":"extendás","uso":"C.Am."}],"s3":["extienda"],"p1":["extendamos"],"p2":["extendáis"],"p3":["extiendan"]},
     "SubImp": {"s1":["extendiera","extendiese"],"s2":["extendieras","extendieses"],"vos":["extendieras","extendieses"],"s3":["extendiera","extendiese"],"p1":["extendiéramos","extendiésemos"],"p2":["extendierais","extendieseis"],"p3":["extendieran","extendiesen"]},
     "SubFut": {"s1":["extendiere"],"s2":["extendieres"],"vos":["extendieres"],"s3":["extendiere"],"p1":["extendiéremos"],"p2":["extendiereis"],"p3":["extendieren"]},
     "CmdPos": {"s2":["extiende"],"vos":["extendé"],"s3":["extienda"],"p1":["extendamos"],"p2":["extended"],"p3":["extiendan"]}

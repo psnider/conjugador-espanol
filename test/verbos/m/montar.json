@@ -13,7 +13,7 @@
     "IndPret": {"s1":["monté"],"s2":["montaste"],"vos":["montaste"],"s3":["montó"],"p1":["montamos"],"p2":["montasteis"],"p3":["montaron"]},
     "IndFut": {"s1":["montaré"],"s2":["montarás"],"vos":["montarás"],"s3":["montará"],"p1":["montaremos"],"p2":["montaréis"],"p3":["montarán"]},
     "IndCond": {"s1":["montaría"],"s2":["montarías"],"vos":["montarías"],"s3":["montaría"],"p1":["montaríamos"],"p2":["montaríais"],"p3":["montarían"]},
-    "SubPres": {"s1":["monte"],"s2":["montes"],"vos":["montes","montés"],"s3":["monte"],"p1":["montemos"],"p2":["montéis"],"p3":["monten"]},
+    "SubPres": {"s1":["monte"],"s2":["montes"],"vos":[{"forma": "montes","uso":"Riop."},{"forma":"montés","uso":"C.Am."}],"s3":["monte"],"p1":["montemos"],"p2":["montéis"],"p3":["monten"]},
     "SubImp": {"s1":["montara","montase"],"s2":["montaras","montases"],"vos":["montaras","montases"],"s3":["montara","montase"],"p1":["montáramos","montásemos"],"p2":["montarais","montaseis"],"p3":["montaran","montasen"]},
     "SubFut": {"s1":["montare"],"s2":["montares"],"vos":["montares"],"s3":["montare"],"p1":["montáremos"],"p2":["montareis"],"p3":["montaren"]},
     "CmdPos": {"s2":["monta"],"vos":["montá"],"s3":["monte"],"p1":["montemos"],"p2":["montad"],"p3":["monten"]}

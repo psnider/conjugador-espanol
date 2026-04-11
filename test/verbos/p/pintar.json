@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pinté"],"s2":["pintaste"],"vos":["pintaste"],"s3":["pintó"],"p1":["pintamos"],"p2":["pintasteis"],"p3":["pintaron"]},
     "IndFut": {"s1":["pintaré"],"s2":["pintarás"],"vos":["pintarás"],"s3":["pintará"],"p1":["pintaremos"],"p2":["pintaréis"],"p3":["pintarán"]},
     "IndCond": {"s1":["pintaría"],"s2":["pintarías"],"vos":["pintarías"],"s3":["pintaría"],"p1":["pintaríamos"],"p2":["pintaríais"],"p3":["pintarían"]},
-    "SubPres": {"s1":["pinte"],"s2":["pintes"],"vos":["pintes","pintés"],"s3":["pinte"],"p1":["pintemos"],"p2":["pintéis"],"p3":["pinten"]},
+    "SubPres": {"s1":["pinte"],"s2":["pintes"],"vos":[{"forma": "pintes","uso":"Riop."},{"forma":"pintés","uso":"C.Am."}],"s3":["pinte"],"p1":["pintemos"],"p2":["pintéis"],"p3":["pinten"]},
     "SubImp": {"s1":["pintara","pintase"],"s2":["pintaras","pintases"],"vos":["pintaras","pintases"],"s3":["pintara","pintase"],"p1":["pintáramos","pintásemos"],"p2":["pintarais","pintaseis"],"p3":["pintaran","pintasen"]},
     "SubFut": {"s1":["pintare"],"s2":["pintares"],"vos":["pintares"],"s3":["pintare"],"p1":["pintáremos"],"p2":["pintareis"],"p3":["pintaren"]},
     "CmdPos": {"s2":["pinta"],"vos":["pintá"],"s3":["pinte"],"p1":["pintemos"],"p2":["pintad"],"p3":["pinten"]}

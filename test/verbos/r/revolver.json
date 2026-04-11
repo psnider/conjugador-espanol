@@ -13,7 +13,7 @@
     "IndPret": {"s1":["revolví"],"s2":["revolviste"],"vos":["revolviste"],"s3":["revolvió"],"p1":["revolvimos"],"p2":["revolvisteis"],"p3":["revolvieron"]},
     "IndFut": {"s1":["revolveré"],"s2":["revolverás"],"vos":["revolverás"],"s3":["revolverá"],"p1":["revolveremos"],"p2":["revolveréis"],"p3":["revolverán"]},
     "IndCond": {"s1":["revolvería"],"s2":["revolverías"],"vos":["revolverías"],"s3":["revolvería"],"p1":["revolveríamos"],"p2":["revolveríais"],"p3":["revolverían"]},
-    "SubPres": {"s1":["revuelva"],"s2":["revuelvas"],"vos":["revuelvas","revolvás"],"s3":["revuelva"],"p1":["revolvamos"],"p2":["revolváis"],"p3":["revuelvan"]},
+    "SubPres": {"s1":["revuelva"],"s2":["revuelvas"],"vos":[{"forma": "revuelvas","uso":"Riop."},{"forma":"revolvás","uso":"C.Am."}],"s3":["revuelva"],"p1":["revolvamos"],"p2":["revolváis"],"p3":["revuelvan"]},
     "SubImp": {"s1":["revolviera","revolviese"],"s2":["revolvieras","revolvieses"],"vos":["revolvieras","revolvieses"],"s3":["revolviera","revolviese"],"p1":["revolviéramos","revolviésemos"],"p2":["revolvierais","revolvieseis"],"p3":["revolvieran","revolviesen"]},
     "SubFut": {"s1":["revolviere"],"s2":["revolvieres"],"vos":["revolvieres"],"s3":["revolviere"],"p1":["revolviéremos"],"p2":["revolviereis"],"p3":["revolvieren"]},
     "CmdPos": {"s2":["revuelve"],"vos":["revolvé"],"s3":["revuelva"],"p1":["revolvamos"],"p2":["revolved"],"p3":["revuelvan"]}

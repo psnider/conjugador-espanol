@@ -13,7 +13,7 @@
     "IndPret": {"s1":["embestí"],"s2":["embestiste"],"vos":["embestiste"],"s3":["embistió"],"p1":["embestimos"],"p2":["embestisteis"],"p3":["embistieron"]},
     "IndFut": {"s1":["embestiré"],"s2":["embestirás"],"vos":["embestirás"],"s3":["embestirá"],"p1":["embestiremos"],"p2":["embestiréis"],"p3":["embestirán"]},
     "IndCond": {"s1":["embestiría"],"s2":["embestirías"],"vos":["embestirías"],"s3":["embestiría"],"p1":["embestiríamos"],"p2":["embestiríais"],"p3":["embestirían"]},
-    "SubPres": {"s1":["embista"],"s2":["embistas"],"vos":["embistas","embistás"],"s3":["embista"],"p1":["embistamos"],"p2":["embistáis"],"p3":["embistan"]},
+    "SubPres": {"s1":["embista"],"s2":["embistas"],"vos":[{"forma": "embistas","uso":"Riop."},{"forma":"embistás","uso":"C.Am."}],"s3":["embista"],"p1":["embistamos"],"p2":["embistáis"],"p3":["embistan"]},
     "SubImp": {"s1":["embistiera","embistiese"],"s2":["embistieras","embistieses"],"vos":["embistieras","embistieses"],"s3":["embistiera","embistiese"],"p1":["embistiéramos","embistiésemos"],"p2":["embistierais","embistieseis"],"p3":["embistieran","embistiesen"]},
     "SubFut": {"s1":["embistiere"],"s2":["embistieres"],"vos":["embistieres"],"s3":["embistiere"],"p1":["embistiéremos"],"p2":["embistiereis"],"p3":["embistieren"]},
     "CmdPos": {"s2":["embiste"],"vos":["embestí"],"s3":["embista"],"p1":["embistamos"],"p2":["embestid"],"p3":["embistan"]}

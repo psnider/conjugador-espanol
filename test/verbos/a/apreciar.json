@@ -12,7 +12,7 @@
     "IndPret": {"s1":["aprecié"],"s2":["apreciaste"],"vos":["apreciaste"],"s3":["apreció"],"p1":["apreciamos"],"p2":["apreciasteis"],"p3":["apreciaron"]},
     "IndFut": {"s1":["apreciaré"],"s2":["apreciarás"],"vos":["apreciarás"],"s3":["apreciará"],"p1":["apreciaremos"],"p2":["apreciaréis"],"p3":["apreciarán"]},
     "IndCond": {"s1":["apreciaría"],"s2":["apreciarías"],"vos":["apreciarías"],"s3":["apreciaría"],"p1":["apreciaríamos"],"p2":["apreciaríais"],"p3":["apreciarían"]},
-    "SubPres": {"s1":["aprecie"],"s2":["aprecies"],"vos":["aprecies","apreciés"],"s3":["aprecie"],"p1":["apreciemos"],"p2":["apreciéis"],"p3":["aprecien"]},
+    "SubPres": {"s1":["aprecie"],"s2":["aprecies"],"vos":[{"forma": "aprecies","uso":"Riop."},{"forma":"apreciés","uso":"C.Am."}],"s3":["aprecie"],"p1":["apreciemos"],"p2":["apreciéis"],"p3":["aprecien"]},
     "SubImp": {"s1":["apreciara","apreciase"],"s2":["apreciaras","apreciases"],"vos":["apreciaras","apreciases"],"s3":["apreciara","apreciase"],"p1":["apreciáramos","apreciásemos"],"p2":["apreciarais","apreciaseis"],"p3":["apreciaran","apreciasen"]},
     "SubFut": {"s1":["apreciare"],"s2":["apreciares"],"vos":["apreciares"],"s3":["apreciare"],"p1":["apreciáremos"],"p2":["apreciareis"],"p3":["apreciaren"]},
     "CmdPos": {"s2":["aprecia"],"vos":["apreciá"],"s3":["aprecie"],"p1":["apreciemos"],"p2":["apreciad"],"p3":["aprecien"]}

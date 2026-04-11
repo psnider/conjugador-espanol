@@ -13,9 +13,9 @@
     "IndPret": {"s1":["reconvine"],"s2":["reconviniste"],"vos":["reconviniste"],"s3":["reconvino"],"p1":["reconvinimos"],"p2":["reconvinisteis"],"p3":["reconvinieron"]},
     "IndFut": {"s1":["reconvendré"],"s2":["reconvendrás"],"vos":["reconvendrás"],"s3":["reconvendrá"],"p1":["reconvendremos"],"p2":["reconvendréis"],"p3":["reconvendrán"]},
     "IndCond": {"s1":["reconvendría"],"s2":["reconvendrías"],"vos":["reconvendrías"],"s3":["reconvendría"],"p1":["reconvendríamos"],"p2":["reconvendríais"],"p3":["reconvendrían"]},
-    "SubPres": {"s1":["reconvenga"],"s2":["reconvengas"],"vos":["reconvengas","reconvengás"],"s3":["reconvenga"],"p1":["reconvengamos"],"p2":["reconvengáis"],"p3":["reconvengan"]},
+    "SubPres": {"s1":["reconvenga"],"s2":["reconvengas"],"vos":[{"forma": "reconvengas","uso":"Riop."},{"forma":"reconvengás","uso":"C.Am."}],"s3":["reconvenga"],"p1":["reconvengamos"],"p2":["reconvengáis"],"p3":["reconvengan"]},
     "SubImp": {"s1":["reconviniera","reconviniese"],"s2":["reconvinieras","reconvinieses"],"vos":["reconvinieras","reconvinieses"],"s3":["reconviniera","reconviniese"],"p1":["reconviniéramos","reconviniésemos"],"p2":["reconvinierais","reconvinieseis"],"p3":["reconvinieran","reconviniesen"]},
     "SubFut": {"s1":["reconviniere"],"s2":["reconvinieres"],"vos":["reconvinieres"],"s3":["reconviniere"],"p1":["reconviniéremos"],"p2":["reconviniereis"],"p3":["reconvinieren"]},
-    "CmdPos": {"s2":{"estándar":["reconvén"],"atípicos":[{"forma":"reconviene","etiquetas":["no normativo"]}]},"vos":["reconvení"],"s3":["reconvenga"],"p1":["reconvengamos"],"p2":["reconvenid"],"p3":["reconvengan"]}
+    "CmdPos": {"s2":["reconvén"],"vos":["reconvení"],"s3":["reconvenga"],"p1":["reconvengamos"],"p2":["reconvenid"],"p3":["reconvengan"]}
   }
 }

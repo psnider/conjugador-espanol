@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enredé"],"s2":["enredaste"],"vos":["enredaste"],"s3":["enredó"],"p1":["enredamos"],"p2":["enredasteis"],"p3":["enredaron"]},
     "IndFut": {"s1":["enredaré"],"s2":["enredarás"],"vos":["enredarás"],"s3":["enredará"],"p1":["enredaremos"],"p2":["enredaréis"],"p3":["enredarán"]},
     "IndCond": {"s1":["enredaría"],"s2":["enredarías"],"vos":["enredarías"],"s3":["enredaría"],"p1":["enredaríamos"],"p2":["enredaríais"],"p3":["enredarían"]},
-    "SubPres": {"s1":["enrede"],"s2":["enredes"],"vos":["enredes","enredés"],"s3":["enrede"],"p1":["enredemos"],"p2":["enredéis"],"p3":["enreden"]},
+    "SubPres": {"s1":["enrede"],"s2":["enredes"],"vos":[{"forma": "enredes","uso":"Riop."},{"forma":"enredés","uso":"C.Am."}],"s3":["enrede"],"p1":["enredemos"],"p2":["enredéis"],"p3":["enreden"]},
     "SubImp": {"s1":["enredara","enredase"],"s2":["enredaras","enredases"],"vos":["enredaras","enredases"],"s3":["enredara","enredase"],"p1":["enredáramos","enredásemos"],"p2":["enredarais","enredaseis"],"p3":["enredaran","enredasen"]},
     "SubFut": {"s1":["enredare"],"s2":["enredares"],"vos":["enredares"],"s3":["enredare"],"p1":["enredáremos"],"p2":["enredareis"],"p3":["enredaren"]},
     "CmdPos": {"s2":["enreda"],"vos":["enredá"],"s3":["enrede"],"p1":["enredemos"],"p2":["enredad"],"p3":["enreden"]}

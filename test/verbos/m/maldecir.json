@@ -13,7 +13,7 @@
     "IndPret": {"s1":["maldije"],"s2":["maldijiste"],"vos":["maldijiste"],"s3":["maldijo"],"p1":["maldijimos"],"p2":["maldijisteis"],"p3":["maldijeron"]},
     "IndFut": {"s1":["maldeciré"],"s2":["maldecirás"],"vos":["maldecirás"],"s3":["maldecirá"],"p1":["maldeciremos"],"p2":["maldeciréis"],"p3":["maldecirán"]},
     "IndCond": {"s1":["maldeciría"],"s2":["maldecirías"],"vos":["maldecirías"],"s3":["maldeciría"],"p1":["maldeciríamos"],"p2":["maldeciríais"],"p3":["maldecirían"]},
-    "SubPres": {"s1":["maldiga"],"s2":["maldigas"],"vos":["maldigas","maldigás"],"s3":["maldiga"],"p1":["maldigamos"],"p2":["maldigáis"],"p3":["maldigan"]},
+    "SubPres": {"s1":["maldiga"],"s2":["maldigas"],"vos":[{"forma": "maldigas","uso":"Riop."},{"forma":"maldigás","uso":"C.Am."}],"s3":["maldiga"],"p1":["maldigamos"],"p2":["maldigáis"],"p3":["maldigan"]},
     "SubImp": {"s1":["maldijera","maldijese"],"s2":["maldijeras","maldijeses"],"vos":["maldijeras","maldijeses"],"s3":["maldijera","maldijese"],"p1":["maldijéramos","maldijésemos"],"p2":["maldijerais","maldijeseis"],"p3":["maldijeran","maldijesen"]},
     "SubFut": {"s1":["maldijere"],"s2":["maldijeres"],"vos":["maldijeres"],"s3":["maldijere"],"p1":["maldijéremos"],"p2":["maldijereis"],"p3":["maldijeren"]},
     "CmdPos": {"s2":["maldice"],"vos":["maldecí"],"s3":["maldiga"],"p1":["maldigamos"],"p2":["maldecid"],"p3":["maldigan"]}

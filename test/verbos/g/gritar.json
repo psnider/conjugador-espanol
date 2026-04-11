@@ -13,7 +13,7 @@
     "IndPret": {"s1":["grité"],"s2":["gritaste"],"vos":["gritaste"],"s3":["gritó"],"p1":["gritamos"],"p2":["gritasteis"],"p3":["gritaron"]},
     "IndFut": {"s1":["gritaré"],"s2":["gritarás"],"vos":["gritarás"],"s3":["gritará"],"p1":["gritaremos"],"p2":["gritaréis"],"p3":["gritarán"]},
     "IndCond": {"s1":["gritaría"],"s2":["gritarías"],"vos":["gritarías"],"s3":["gritaría"],"p1":["gritaríamos"],"p2":["gritaríais"],"p3":["gritarían"]},
-    "SubPres": {"s1":["grite"],"s2":["grites"],"vos":["grites","grités"],"s3":["grite"],"p1":["gritemos"],"p2":["gritéis"],"p3":["griten"]},
+    "SubPres": {"s1":["grite"],"s2":["grites"],"vos":[{"forma": "grites","uso":"Riop."},{"forma":"grités","uso":"C.Am."}],"s3":["grite"],"p1":["gritemos"],"p2":["gritéis"],"p3":["griten"]},
     "SubImp": {"s1":["gritara","gritase"],"s2":["gritaras","gritases"],"vos":["gritaras","gritases"],"s3":["gritara","gritase"],"p1":["gritáramos","gritásemos"],"p2":["gritarais","gritaseis"],"p3":["gritaran","gritasen"]},
     "SubFut": {"s1":["gritare"],"s2":["gritares"],"vos":["gritares"],"s3":["gritare"],"p1":["gritáremos"],"p2":["gritareis"],"p3":["gritaren"]},
     "CmdPos": {"s2":["grita"],"vos":["gritá"],"s3":["grite"],"p1":["gritemos"],"p2":["gritad"],"p3":["griten"]}

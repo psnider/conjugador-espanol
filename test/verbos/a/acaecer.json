@@ -1,0 +1,23 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akaeˈseɾ]",
+    "silabacion": "a-ca-e-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar accadiscere.",
+    "modelos": ["parecer"],
+    "impersonal": true,
+    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+  },
+  "formas_no_personales": {"infinitivo":"acaecer","gerundio":["acaeciendo"],"participio":["acaecido"]},
+  "formas_personales": {
+    "IndPres": {"s3":["acaece"],"p3":["acaecen"]},
+    "IndImp": {"s3":["acaecía"],"p3":["acaecían"]},
+    "IndPret": {"s3":["acaeció"],"p3":["acaecieron"]},
+    "IndFut": {"s3":["acaecerá"],"p3":["acaecerán"]},
+    "IndCond": {"s3":["acaecería"],"p3":["acaecerían"]},
+    "SubPres": {"s3":["acaezca"],"p3":["acaezcan"]},
+    "SubImp": {"s3":["acaeciera","acaeciese"],"p3":["acaecieran","acaeciesen"]},
+    "SubFut": {"s3":["acaeciere"],"p3":["acaecieren"]},
+    "CmdPos": null
+  }
+}

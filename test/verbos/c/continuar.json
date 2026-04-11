@@ -12,7 +12,7 @@
     "IndPret": {"s1":["continué"],"s2":["continuaste"],"vos":["continuaste"],"s3":["continuó"],"p1":["continuamos"],"p2":["continuasteis"],"p3":["continuaron"]},
     "IndFut": {"s1":["continuaré"],"s2":["continuarás"],"vos":["continuarás"],"s3":["continuará"],"p1":["continuaremos"],"p2":["continuaréis"],"p3":["continuarán"]},
     "IndCond": {"s1":["continuaría"],"s2":["continuarías"],"vos":["continuarías"],"s3":["continuaría"],"p1":["continuaríamos"],"p2":["continuaríais"],"p3":["continuarían"]},
-    "SubPres": {"s1":["continúe"],"s2":["continúes"],"vos":["continúes","continués"],"s3":["continúe"],"p1":["continuemos"],"p2":["continuéis"],"p3":["continúen"]},
+    "SubPres": {"s1":["continúe"],"s2":["continúes"],"vos":[{"forma": "continúes","uso":"Riop."},{"forma":"continués","uso":"C.Am."}],"s3":["continúe"],"p1":["continuemos"],"p2":["continuéis"],"p3":["continúen"]},
     "SubImp": {"s1":["continuara","continuase"],"s2":["continuaras","continuases"],"vos":["continuaras","continuases"],"s3":["continuara","continuase"],"p1":["continuáramos","continuásemos"],"p2":["continuarais","continuaseis"],"p3":["continuaran","continuasen"]},
     "SubFut": {"s1":["continuare"],"s2":["continuares"],"vos":["continuares"],"s3":["continuare"],"p1":["continuáremos"],"p2":["continuareis"],"p3":["continuaren"]},
     "CmdPos": {"s2":["continúa"],"vos":["continuá"],"s3":["continúe"],"p1":["continuemos"],"p2":["continuad"],"p3":["continúen"]}

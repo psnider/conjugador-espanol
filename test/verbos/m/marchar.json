@@ -13,7 +13,7 @@
     "IndPret": {"s1":["marché"],"s2":["marchaste"],"vos":["marchaste"],"s3":["marchó"],"p1":["marchamos"],"p2":["marchasteis"],"p3":["marcharon"]},
     "IndFut": {"s1":["marcharé"],"s2":["marcharás"],"vos":["marcharás"],"s3":["marchará"],"p1":["marcharemos"],"p2":["marcharéis"],"p3":["marcharán"]},
     "IndCond": {"s1":["marcharía"],"s2":["marcharías"],"vos":["marcharías"],"s3":["marcharía"],"p1":["marcharíamos"],"p2":["marcharíais"],"p3":["marcharían"]},
-    "SubPres": {"s1":["marche"],"s2":["marches"],"vos":["marches","marchés"],"s3":["marche"],"p1":["marchemos"],"p2":["marchéis"],"p3":["marchen"]},
+    "SubPres": {"s1":["marche"],"s2":["marches"],"vos":[{"forma": "marches","uso":"Riop."},{"forma":"marchés","uso":"C.Am."}],"s3":["marche"],"p1":["marchemos"],"p2":["marchéis"],"p3":["marchen"]},
     "SubImp": {"s1":["marchara","marchase"],"s2":["marcharas","marchases"],"vos":["marcharas","marchases"],"s3":["marchara","marchase"],"p1":["marcháramos","marchásemos"],"p2":["marcharais","marchaseis"],"p3":["marcharan","marchasen"]},
     "SubFut": {"s1":["marchare"],"s2":["marchares"],"vos":["marchares"],"s3":["marchare"],"p1":["marcháremos"],"p2":["marchareis"],"p3":["marcharen"]},
     "CmdPos": {"s2":["marcha"],"vos":["marchá"],"s3":["marche"],"p1":["marchemos"],"p2":["marchad"],"p3":["marchen"]}

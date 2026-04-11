@@ -12,7 +12,7 @@
     "IndPret": {"s1":["varié"],"s2":["variaste"],"vos":["variaste"],"s3":["varió"],"p1":["variamos"],"p2":["variasteis"],"p3":["variaron"]},
     "IndFut": {"s1":["variaré"],"s2":["variarás"],"vos":["variarás"],"s3":["variará"],"p1":["variaremos"],"p2":["variaréis"],"p3":["variarán"]},
     "IndCond": {"s1":["variaría"],"s2":["variarías"],"vos":["variarías"],"s3":["variaría"],"p1":["variaríamos"],"p2":["variaríais"],"p3":["variarían"]},
-    "SubPres": {"s1":["varíe"],"s2":["varíes"],"vos":["varíes","variés"],"s3":["varíe"],"p1":["variemos"],"p2":["variéis"],"p3":["varíen"]},
+    "SubPres": {"s1":["varíe"],"s2":["varíes"],"vos":[{"forma": "varíes","uso":"Riop."},{"forma":"variés","uso":"C.Am."}],"s3":["varíe"],"p1":["variemos"],"p2":["variéis"],"p3":["varíen"]},
     "SubImp": {"s1":["variara","variase"],"s2":["variaras","variases"],"vos":["variaras","variases"],"s3":["variara","variase"],"p1":["variáramos","variásemos"],"p2":["variarais","variaseis"],"p3":["variaran","variasen"]},
     "SubFut": {"s1":["variare"],"s2":["variares"],"vos":["variares"],"s3":["variare"],"p1":["variáremos"],"p2":["variareis"],"p3":["variaren"]},
     "CmdPos": {"s2":["varía"],"vos":["variá"],"s3":["varíe"],"p1":["variemos"],"p2":["variad"],"p3":["varíen"]}

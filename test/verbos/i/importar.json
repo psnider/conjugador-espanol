@@ -13,7 +13,7 @@
     "IndPret": {"s1":["importé"],"s2":["importaste"],"vos":["importaste"],"s3":["importó"],"p1":["importamos"],"p2":["importasteis"],"p3":["importaron"]},
     "IndFut": {"s1":["importaré"],"s2":["importarás"],"vos":["importarás"],"s3":["importará"],"p1":["importaremos"],"p2":["importaréis"],"p3":["importarán"]},
     "IndCond": {"s1":["importaría"],"s2":["importarías"],"vos":["importarías"],"s3":["importaría"],"p1":["importaríamos"],"p2":["importaríais"],"p3":["importarían"]},
-    "SubPres": {"s1":["importe"],"s2":["importes"],"vos":["importes","importés"],"s3":["importe"],"p1":["importemos"],"p2":["importéis"],"p3":["importen"]},
+    "SubPres": {"s1":["importe"],"s2":["importes"],"vos":[{"forma": "importes","uso":"Riop."},{"forma":"importés","uso":"C.Am."}],"s3":["importe"],"p1":["importemos"],"p2":["importéis"],"p3":["importen"]},
     "SubImp": {"s1":["importara","importase"],"s2":["importaras","importases"],"vos":["importaras","importases"],"s3":["importara","importase"],"p1":["importáramos","importásemos"],"p2":["importarais","importaseis"],"p3":["importaran","importasen"]},
     "SubFut": {"s1":["importare"],"s2":["importares"],"vos":["importares"],"s3":["importare"],"p1":["importáremos"],"p2":["importareis"],"p3":["importaren"]},
     "CmdPos": {"s2":["importa"],"vos":["importá"],"s3":["importe"],"p1":["importemos"],"p2":["importad"],"p3":["importen"]}

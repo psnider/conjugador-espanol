@@ -13,7 +13,7 @@
     "IndPret": {"s1":["representé"],"s2":["representaste"],"vos":["representaste"],"s3":["representó"],"p1":["representamos"],"p2":["representasteis"],"p3":["representaron"]},
     "IndFut": {"s1":["representaré"],"s2":["representarás"],"vos":["representarás"],"s3":["representará"],"p1":["representaremos"],"p2":["representaréis"],"p3":["representarán"]},
     "IndCond": {"s1":["representaría"],"s2":["representarías"],"vos":["representarías"],"s3":["representaría"],"p1":["representaríamos"],"p2":["representaríais"],"p3":["representarían"]},
-    "SubPres": {"s1":["represente"],"s2":["representes"],"vos":["representes","representés"],"s3":["represente"],"p1":["representemos"],"p2":["representéis"],"p3":["representen"]},
+    "SubPres": {"s1":["represente"],"s2":["representes"],"vos":[{"forma": "representes","uso":"Riop."},{"forma":"representés","uso":"C.Am."}],"s3":["represente"],"p1":["representemos"],"p2":["representéis"],"p3":["representen"]},
     "SubImp": {"s1":["representara","representase"],"s2":["representaras","representases"],"vos":["representaras","representases"],"s3":["representara","representase"],"p1":["representáramos","representásemos"],"p2":["representarais","representaseis"],"p3":["representaran","representasen"]},
     "SubFut": {"s1":["representare"],"s2":["representares"],"vos":["representares"],"s3":["representare"],"p1":["representáremos"],"p2":["representareis"],"p3":["representaren"]},
     "CmdPos": {"s2":["representa"],"vos":["representá"],"s3":["represente"],"p1":["representemos"],"p2":["representad"],"p3":["representen"]}

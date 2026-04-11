@@ -13,7 +13,7 @@
     "IndPret": {"s1":["amaestré"],"s2":["amaestraste"],"vos":["amaestraste"],"s3":["amaestró"],"p1":["amaestramos"],"p2":["amaestrasteis"],"p3":["amaestraron"]},
     "IndFut": {"s1":["amaestraré"],"s2":["amaestrarás"],"vos":["amaestrarás"],"s3":["amaestrará"],"p1":["amaestraremos"],"p2":["amaestraréis"],"p3":["amaestrarán"]},
     "IndCond": {"s1":["amaestraría"],"s2":["amaestrarías"],"vos":["amaestrarías"],"s3":["amaestraría"],"p1":["amaestraríamos"],"p2":["amaestraríais"],"p3":["amaestrarían"]},
-    "SubPres": {"s1":["amaestre"],"s2":["amaestres"],"vos":["amaestres","amaestrés"],"s3":["amaestre"],"p1":["amaestremos"],"p2":["amaestréis"],"p3":["amaestren"]},
+    "SubPres": {"s1":["amaestre"],"s2":["amaestres"],"vos":[{"forma": "amaestres","uso":"Riop."},{"forma":"amaestrés","uso":"C.Am."}],"s3":["amaestre"],"p1":["amaestremos"],"p2":["amaestréis"],"p3":["amaestren"]},
     "SubImp": {"s1":["amaestrara","amaestrase"],"s2":["amaestraras","amaestrases"],"vos":["amaestraras","amaestrases"],"s3":["amaestrara","amaestrase"],"p1":["amaestráramos","amaestrásemos"],"p2":["amaestrarais","amaestraseis"],"p3":["amaestraran","amaestrasen"]},
     "SubFut": {"s1":["amaestrare"],"s2":["amaestrares"],"vos":["amaestrares"],"s3":["amaestrare"],"p1":["amaestráremos"],"p2":["amaestrareis"],"p3":["amaestraren"]},
     "CmdPos": {"s2":["amaestra"],"vos":["amaestrá"],"s3":["amaestre"],"p1":["amaestremos"],"p2":["amaestrad"],"p3":["amaestren"]}

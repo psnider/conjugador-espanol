@@ -13,7 +13,7 @@
     "IndPret": {"s1":["exasperé"],"s2":["exasperaste"],"vos":["exasperaste"],"s3":["exasperó"],"p1":["exasperamos"],"p2":["exasperasteis"],"p3":["exasperaron"]},
     "IndFut": {"s1":["exasperaré"],"s2":["exasperarás"],"vos":["exasperarás"],"s3":["exasperará"],"p1":["exasperaremos"],"p2":["exasperaréis"],"p3":["exasperarán"]},
     "IndCond": {"s1":["exasperaría"],"s2":["exasperarías"],"vos":["exasperarías"],"s3":["exasperaría"],"p1":["exasperaríamos"],"p2":["exasperaríais"],"p3":["exasperarían"]},
-    "SubPres": {"s1":["exaspere"],"s2":["exasperes"],"vos":["exasperes","exasperés"],"s3":["exaspere"],"p1":["exasperemos"],"p2":["exasperéis"],"p3":["exasperen"]},
+    "SubPres": {"s1":["exaspere"],"s2":["exasperes"],"vos":[{"forma": "exasperes","uso":"Riop."},{"forma":"exasperés","uso":"C.Am."}],"s3":["exaspere"],"p1":["exasperemos"],"p2":["exasperéis"],"p3":["exasperen"]},
     "SubImp": {"s1":["exasperara","exasperase"],"s2":["exasperaras","exasperases"],"vos":["exasperaras","exasperases"],"s3":["exasperara","exasperase"],"p1":["exasperáramos","exasperásemos"],"p2":["exasperarais","exasperaseis"],"p3":["exasperaran","exasperasen"]},
     "SubFut": {"s1":["exasperare"],"s2":["exasperares"],"vos":["exasperares"],"s3":["exasperare"],"p1":["exasperáremos"],"p2":["exasperareis"],"p3":["exasperaren"]},
     "CmdPos": {"s2":["exaspera"],"vos":["exasperá"],"s3":["exaspere"],"p1":["exasperemos"],"p2":["exasperad"],"p3":["exasperen"]}

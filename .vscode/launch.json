@@ -2,6 +2,32 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "test-conjugate-verb",
+            "program": "${workspaceFolder}/test/test-conjugate-verb.ts",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/generated/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "test-resolve-conjugation-class",
+            "program": "${workspaceFolder}/test/test-resolve-conjugation-class.ts",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/generated/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
             "name": "test-verbs-using-saved-conjugations",
             "program": "${workspaceFolder}/test/test-verbs-using-saved-conjugations.ts",
             "type": "node",
@@ -15,8 +41,8 @@
             ]
         },
         {
-            "name": "test-conjugate-verb",
-            "program": "${workspaceFolder}/test/test-conjugate-verb.ts",
+            "name": "update-verbos-with-test-results",
+            "program": "${workspaceFolder}/test/update-verbos-with-test-results.ts",
             "type": "node",
             "request": "launch",
             "preLaunchTask": "tsc: build - tsconfig.json",

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["provoqué"],"s2":["provocaste"],"vos":["provocaste"],"s3":["provocó"],"p1":["provocamos"],"p2":["provocasteis"],"p3":["provocaron"]},
     "IndFut": {"s1":["provocaré"],"s2":["provocarás"],"vos":["provocarás"],"s3":["provocará"],"p1":["provocaremos"],"p2":["provocaréis"],"p3":["provocarán"]},
     "IndCond": {"s1":["provocaría"],"s2":["provocarías"],"vos":["provocarías"],"s3":["provocaría"],"p1":["provocaríamos"],"p2":["provocaríais"],"p3":["provocarían"]},
-    "SubPres": {"s1":["provoque"],"s2":["provoques"],"vos":["provoques","provoqués"],"s3":["provoque"],"p1":["provoquemos"],"p2":["provoquéis"],"p3":["provoquen"]},
+    "SubPres": {"s1":["provoque"],"s2":["provoques"],"vos":[{"forma": "provoques","uso":"Riop."},{"forma":"provoqués","uso":"C.Am."}],"s3":["provoque"],"p1":["provoquemos"],"p2":["provoquéis"],"p3":["provoquen"]},
     "SubImp": {"s1":["provocara","provocase"],"s2":["provocaras","provocases"],"vos":["provocaras","provocases"],"s3":["provocara","provocase"],"p1":["provocáramos","provocásemos"],"p2":["provocarais","provocaseis"],"p3":["provocaran","provocasen"]},
     "SubFut": {"s1":["provocare"],"s2":["provocares"],"vos":["provocares"],"s3":["provocare"],"p1":["provocáremos"],"p2":["provocareis"],"p3":["provocaren"]},
     "CmdPos": {"s2":["provoca"],"vos":["provocá"],"s3":["provoque"],"p1":["provoquemos"],"p2":["provocad"],"p3":["provoquen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conforté"],"s2":["confortaste"],"vos":["confortaste"],"s3":["confortó"],"p1":["confortamos"],"p2":["confortasteis"],"p3":["confortaron"]},
     "IndFut": {"s1":["confortaré"],"s2":["confortarás"],"vos":["confortarás"],"s3":["confortará"],"p1":["confortaremos"],"p2":["confortaréis"],"p3":["confortarán"]},
     "IndCond": {"s1":["confortaría"],"s2":["confortarías"],"vos":["confortarías"],"s3":["confortaría"],"p1":["confortaríamos"],"p2":["confortaríais"],"p3":["confortarían"]},
-    "SubPres": {"s1":["conforte"],"s2":["confortes"],"vos":["confortes","confortés"],"s3":["conforte"],"p1":["confortemos"],"p2":["confortéis"],"p3":["conforten"]},
+    "SubPres": {"s1":["conforte"],"s2":["confortes"],"vos":[{"forma": "confortes","uso":"Riop."},{"forma":"confortés","uso":"C.Am."}],"s3":["conforte"],"p1":["confortemos"],"p2":["confortéis"],"p3":["conforten"]},
     "SubImp": {"s1":["confortara","confortase"],"s2":["confortaras","confortases"],"vos":["confortaras","confortases"],"s3":["confortara","confortase"],"p1":["confortáramos","confortásemos"],"p2":["confortarais","confortaseis"],"p3":["confortaran","confortasen"]},
     "SubFut": {"s1":["confortare"],"s2":["confortares"],"vos":["confortares"],"s3":["confortare"],"p1":["confortáremos"],"p2":["confortareis"],"p3":["confortaren"]},
     "CmdPos": {"s2":["conforta"],"vos":["confortá"],"s3":["conforte"],"p1":["confortemos"],"p2":["confortad"],"p3":["conforten"]}

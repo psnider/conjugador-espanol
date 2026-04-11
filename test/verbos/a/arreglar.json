@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arreglé"],"s2":["arreglaste"],"vos":["arreglaste"],"s3":["arregló"],"p1":["arreglamos"],"p2":["arreglasteis"],"p3":["arreglaron"]},
     "IndFut": {"s1":["arreglaré"],"s2":["arreglarás"],"vos":["arreglarás"],"s3":["arreglará"],"p1":["arreglaremos"],"p2":["arreglaréis"],"p3":["arreglarán"]},
     "IndCond": {"s1":["arreglaría"],"s2":["arreglarías"],"vos":["arreglarías"],"s3":["arreglaría"],"p1":["arreglaríamos"],"p2":["arreglaríais"],"p3":["arreglarían"]},
-    "SubPres": {"s1":["arregle"],"s2":["arregles"],"vos":["arregles","arreglés"],"s3":["arregle"],"p1":["arreglemos"],"p2":["arregléis"],"p3":["arreglen"]},
+    "SubPres": {"s1":["arregle"],"s2":["arregles"],"vos":[{"forma": "arregles","uso":"Riop."},{"forma":"arreglés","uso":"C.Am."}],"s3":["arregle"],"p1":["arreglemos"],"p2":["arregléis"],"p3":["arreglen"]},
     "SubImp": {"s1":["arreglara","arreglase"],"s2":["arreglaras","arreglases"],"vos":["arreglaras","arreglases"],"s3":["arreglara","arreglase"],"p1":["arregláramos","arreglásemos"],"p2":["arreglarais","arreglaseis"],"p3":["arreglaran","arreglasen"]},
     "SubFut": {"s1":["arreglare"],"s2":["arreglares"],"vos":["arreglares"],"s3":["arreglare"],"p1":["arregláremos"],"p2":["arreglareis"],"p3":["arreglaren"]},
     "CmdPos": {"s2":["arregla"],"vos":["arreglá"],"s3":["arregle"],"p1":["arreglemos"],"p2":["arreglad"],"p3":["arreglen"]}

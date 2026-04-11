@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sembré"],"s2":["sembraste"],"vos":["sembraste"],"s3":["sembró"],"p1":["sembramos"],"p2":["sembrasteis"],"p3":["sembraron"]},
     "IndFut": {"s1":["sembraré"],"s2":["sembrarás"],"vos":["sembrarás"],"s3":["sembrará"],"p1":["sembraremos"],"p2":["sembraréis"],"p3":["sembrarán"]},
     "IndCond": {"s1":["sembraría"],"s2":["sembrarías"],"vos":["sembrarías"],"s3":["sembraría"],"p1":["sembraríamos"],"p2":["sembraríais"],"p3":["sembrarían"]},
-    "SubPres": {"s1":["siembre"],"s2":["siembres"],"vos":["siembres","sembrés"],"s3":["siembre"],"p1":["sembremos"],"p2":["sembréis"],"p3":["siembren"]},
+    "SubPres": {"s1":["siembre"],"s2":["siembres"],"vos":[{"forma": "siembres","uso":"Riop."},{"forma":"sembrés","uso":"C.Am."}],"s3":["siembre"],"p1":["sembremos"],"p2":["sembréis"],"p3":["siembren"]},
     "SubImp": {"s1":["sembrara","sembrase"],"s2":["sembraras","sembrases"],"vos":["sembraras","sembrases"],"s3":["sembrara","sembrase"],"p1":["sembráramos","sembrásemos"],"p2":["sembrarais","sembraseis"],"p3":["sembraran","sembrasen"]},
     "SubFut": {"s1":["sembrare"],"s2":["sembrares"],"vos":["sembrares"],"s3":["sembrare"],"p1":["sembráremos"],"p2":["sembrareis"],"p3":["sembraren"]},
     "CmdPos": {"s2":["siembra"],"vos":["sembrá"],"s3":["siembre"],"p1":["sembremos"],"p2":["sembrad"],"p3":["siembren"]}

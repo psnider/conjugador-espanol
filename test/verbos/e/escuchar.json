@@ -13,7 +13,7 @@
     "IndPret": {"s1":["escuché"],"s2":["escuchaste"],"vos":["escuchaste"],"s3":["escuchó"],"p1":["escuchamos"],"p2":["escuchasteis"],"p3":["escucharon"]},
     "IndFut": {"s1":["escucharé"],"s2":["escucharás"],"vos":["escucharás"],"s3":["escuchará"],"p1":["escucharemos"],"p2":["escucharéis"],"p3":["escucharán"]},
     "IndCond": {"s1":["escucharía"],"s2":["escucharías"],"vos":["escucharías"],"s3":["escucharía"],"p1":["escucharíamos"],"p2":["escucharíais"],"p3":["escucharían"]},
-    "SubPres": {"s1":["escuche"],"s2":["escuches"],"vos":["escuches","escuchés"],"s3":["escuche"],"p1":["escuchemos"],"p2":["escuchéis"],"p3":["escuchen"]},
+    "SubPres": {"s1":["escuche"],"s2":["escuches"],"vos":[{"forma": "escuches","uso":"Riop."},{"forma":"escuchés","uso":"C.Am."}],"s3":["escuche"],"p1":["escuchemos"],"p2":["escuchéis"],"p3":["escuchen"]},
     "SubImp": {"s1":["escuchara","escuchase"],"s2":["escucharas","escuchases"],"vos":["escucharas","escuchases"],"s3":["escuchara","escuchase"],"p1":["escucháramos","escuchásemos"],"p2":["escucharais","escuchaseis"],"p3":["escucharan","escuchasen"]},
     "SubFut": {"s1":["escuchare"],"s2":["escuchares"],"vos":["escuchares"],"s3":["escuchare"],"p1":["escucháremos"],"p2":["escuchareis"],"p3":["escucharen"]},
     "CmdPos": {"s2":["escucha"],"vos":["escuchá"],"s3":["escuche"],"p1":["escuchemos"],"p2":["escuchad"],"p3":["escuchen"]}

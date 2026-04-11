@@ -13,7 +13,7 @@
     "IndPret": {"s1":["marqué"],"s2":["marcaste"],"vos":["marcaste"],"s3":["marcó"],"p1":["marcamos"],"p2":["marcasteis"],"p3":["marcaron"]},
     "IndFut": {"s1":["marcaré"],"s2":["marcarás"],"vos":["marcarás"],"s3":["marcará"],"p1":["marcaremos"],"p2":["marcaréis"],"p3":["marcarán"]},
     "IndCond": {"s1":["marcaría"],"s2":["marcarías"],"vos":["marcarías"],"s3":["marcaría"],"p1":["marcaríamos"],"p2":["marcaríais"],"p3":["marcarían"]},
-    "SubPres": {"s1":["marque"],"s2":["marques"],"vos":["marques","marqués"],"s3":["marque"],"p1":["marquemos"],"p2":["marquéis"],"p3":["marquen"]},
+    "SubPres": {"s1":["marque"],"s2":["marques"],"vos":[{"forma": "marques","uso":"Riop."},{"forma":"marqués","uso":"C.Am."}],"s3":["marque"],"p1":["marquemos"],"p2":["marquéis"],"p3":["marquen"]},
     "SubImp": {"s1":["marcara","marcase"],"s2":["marcaras","marcases"],"vos":["marcaras","marcases"],"s3":["marcara","marcase"],"p1":["marcáramos","marcásemos"],"p2":["marcarais","marcaseis"],"p3":["marcaran","marcasen"]},
     "SubFut": {"s1":["marcare"],"s2":["marcares"],"vos":["marcares"],"s3":["marcare"],"p1":["marcáremos"],"p2":["marcareis"],"p3":["marcaren"]},
     "CmdPos": {"s2":["marca"],"vos":["marcá"],"s3":["marque"],"p1":["marquemos"],"p2":["marcad"],"p3":["marquen"]}

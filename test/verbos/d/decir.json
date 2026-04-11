@@ -13,9 +13,9 @@
     "IndPret": {"s1":["dije"],"s2":["dijiste"],"vos":["dijiste"],"s3":["dijo"],"p1":["dijimos"],"p2":["dijisteis"],"p3":["dijeron"]},
     "IndFut": {"s1":["diré"],"s2":["dirás"],"vos":["dirás"],"s3":["dirá"],"p1":["diremos"],"p2":["diréis"],"p3":["dirán"]},
     "IndCond": {"s1":["diría"],"s2":["dirías"],"vos":["dirías"],"s3":["diría"],"p1":["diríamos"],"p2":["diríais"],"p3":["dirían"]},
-    "SubPres": {"s1":["diga"],"s2":["digas"],"vos":["digas","digás"],"s3":["diga"],"p1":["digamos"],"p2":["digáis"],"p3":["digan"]},
+    "SubPres": {"s1":["diga"],"s2":["digas"],"vos":[{"forma": "digas","uso":"Riop."},{"forma":"digás","uso":"C.Am."}],"s3":["diga"],"p1":["digamos"],"p2":["digáis"],"p3":["digan"]},
     "SubImp": {"s1":["dijera","dijese"],"s2":["dijeras","dijeses"],"vos":["dijeras","dijeses"],"s3":["dijera","dijese"],"p1":["dijéramos","dijésemos"],"p2":["dijerais","dijeseis"],"p3":["dijeran","dijesen"]},
     "SubFut": {"s1":["dijere"],"s2":["dijeres"],"vos":["dijeres"],"s3":["dijere"],"p1":["dijéremos"],"p2":["dijereis"],"p3":["dijeren"]},
-    "CmdPos": {"s2":{"estándar":["di"],"atípicos":[{"forma":"dice","etiquetas":["no normativo"]}]},"vos":["decí"],"s3":["diga"],"p1":["digamos"],"p2":["decid"],"p3":["digan"]}
+    "CmdPos": {"s2":["di"],"vos":["decí"],"s3":["diga"],"p1":["digamos"],"p2":["decid"],"p3":["digan"]}
   }
 }

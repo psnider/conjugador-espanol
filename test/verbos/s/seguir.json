@@ -13,7 +13,7 @@
     "IndPret": {"s1":["seguí"],"s2":["seguiste"],"vos":["seguiste"],"s3":["siguió"],"p1":["seguimos"],"p2":["seguisteis"],"p3":["siguieron"]},
     "IndFut": {"s1":["seguiré"],"s2":["seguirás"],"vos":["seguirás"],"s3":["seguirá"],"p1":["seguiremos"],"p2":["seguiréis"],"p3":["seguirán"]},
     "IndCond": {"s1":["seguiría"],"s2":["seguirías"],"vos":["seguirías"],"s3":["seguiría"],"p1":["seguiríamos"],"p2":["seguiríais"],"p3":["seguirían"]},
-    "SubPres": {"s1":["siga"],"s2":["sigas"],"vos":["sigas","sigás"],"s3":["siga"],"p1":["sigamos"],"p2":["sigáis"],"p3":["sigan"]},
+    "SubPres": {"s1":["siga"],"s2":["sigas"],"vos":[{"forma": "sigas","uso":"Riop."},{"forma":"sigás","uso":"C.Am."}],"s3":["siga"],"p1":["sigamos"],"p2":["sigáis"],"p3":["sigan"]},
     "SubImp": {"s1":["siguiera","siguiese"],"s2":["siguieras","siguieses"],"vos":["siguieras","siguieses"],"s3":["siguiera","siguiese"],"p1":["siguiéramos","siguiésemos"],"p2":["siguierais","siguieseis"],"p3":["siguieran","siguiesen"]},
     "SubFut": {"s1":["siguiere"],"s2":["siguieres"],"vos":["siguieres"],"s3":["siguiere"],"p1":["siguiéremos"],"p2":["siguiereis"],"p3":["siguieren"]},
     "CmdPos": {"s2":["sigue"],"vos":["seguí"],"s3":["siga"],"p1":["sigamos"],"p2":["seguid"],"p3":["sigan"]}

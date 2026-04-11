@@ -1,0 +1,23 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪aˈɲeɾ]",
+    "silabacion": "a-ta-ñer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *attangere, variante del latín attingere (\"entrar en contacto con\"), compuesto del latín tangere.",
+    "modelos": ["atañer"],
+    "impersonal": true,
+    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+  },
+  "formas_no_personales": {"infinitivo":"atañer","gerundio":["atañendo"],"participio":["atañido"]},
+  "formas_personales": {
+    "IndPres": {"s3":["atañe"],"p3":["atañen"]},
+    "IndImp": {"s3":["atañía"],"p3":["atañían"]},
+    "IndPret": {"s3":["atañó"],"p3":["atañeron"]},
+    "IndFut": {"s3":["atañerá"],"p3":["atañerán"]},
+    "IndCond": {"s3":["atañería"],"p3":["atañerían"]},
+    "SubPres": {"s3":["ataña"],"p3":["atañan"]},
+    "SubImp": {"s3":["atañera","atañese"],"p3":["atañeran","atañesen"]},
+    "SubFut": {"s3":["atañere"],"p3":["atañeren"]},
+    "CmdPos": null
+  }
+}

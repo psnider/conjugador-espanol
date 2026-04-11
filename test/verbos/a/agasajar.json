@@ -13,7 +13,7 @@
     "IndPret": {"s1":["agasajé"],"s2":["agasajaste"],"vos":["agasajaste"],"s3":["agasajó"],"p1":["agasajamos"],"p2":["agasajasteis"],"p3":["agasajaron"]},
     "IndFut": {"s1":["agasajaré"],"s2":["agasajarás"],"vos":["agasajarás"],"s3":["agasajará"],"p1":["agasajaremos"],"p2":["agasajaréis"],"p3":["agasajarán"]},
     "IndCond": {"s1":["agasajaría"],"s2":["agasajarías"],"vos":["agasajarías"],"s3":["agasajaría"],"p1":["agasajaríamos"],"p2":["agasajaríais"],"p3":["agasajarían"]},
-    "SubPres": {"s1":["agasaje"],"s2":["agasajes"],"vos":["agasajes","agasajés"],"s3":["agasaje"],"p1":["agasajemos"],"p2":["agasajéis"],"p3":["agasajen"]},
+    "SubPres": {"s1":["agasaje"],"s2":["agasajes"],"vos":[{"forma": "agasajes","uso":"Riop."},{"forma":"agasajés","uso":"C.Am."}],"s3":["agasaje"],"p1":["agasajemos"],"p2":["agasajéis"],"p3":["agasajen"]},
     "SubImp": {"s1":["agasajara","agasajase"],"s2":["agasajaras","agasajases"],"vos":["agasajaras","agasajases"],"s3":["agasajara","agasajase"],"p1":["agasajáramos","agasajásemos"],"p2":["agasajarais","agasajaseis"],"p3":["agasajaran","agasajasen"]},
     "SubFut": {"s1":["agasajare"],"s2":["agasajares"],"vos":["agasajares"],"s3":["agasajare"],"p1":["agasajáremos"],"p2":["agasajareis"],"p3":["agasajaren"]},
     "CmdPos": {"s2":["agasaja"],"vos":["agasajá"],"s3":["agasaje"],"p1":["agasajemos"],"p2":["agasajad"],"p3":["agasajen"]}

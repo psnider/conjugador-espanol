@@ -13,7 +13,7 @@
     "IndPret": {"s1":["deposité"],"s2":["depositaste"],"vos":["depositaste"],"s3":["depositó"],"p1":["depositamos"],"p2":["depositasteis"],"p3":["depositaron"]},
     "IndFut": {"s1":["depositaré"],"s2":["depositarás"],"vos":["depositarás"],"s3":["depositará"],"p1":["depositaremos"],"p2":["depositaréis"],"p3":["depositarán"]},
     "IndCond": {"s1":["depositaría"],"s2":["depositarías"],"vos":["depositarías"],"s3":["depositaría"],"p1":["depositaríamos"],"p2":["depositaríais"],"p3":["depositarían"]},
-    "SubPres": {"s1":["deposite"],"s2":["deposites"],"vos":["deposites","deposités"],"s3":["deposite"],"p1":["depositemos"],"p2":["depositéis"],"p3":["depositen"]},
+    "SubPres": {"s1":["deposite"],"s2":["deposites"],"vos":[{"forma": "deposites","uso":"Riop."},{"forma":"deposités","uso":"C.Am."}],"s3":["deposite"],"p1":["depositemos"],"p2":["depositéis"],"p3":["depositen"]},
     "SubImp": {"s1":["depositara","depositase"],"s2":["depositaras","depositases"],"vos":["depositaras","depositases"],"s3":["depositara","depositase"],"p1":["depositáramos","depositásemos"],"p2":["depositarais","depositaseis"],"p3":["depositaran","depositasen"]},
     "SubFut": {"s1":["depositare"],"s2":["depositares"],"vos":["depositares"],"s3":["depositare"],"p1":["depositáremos"],"p2":["depositareis"],"p3":["depositaren"]},
     "CmdPos": {"s2":["deposita"],"vos":["depositá"],"s3":["deposite"],"p1":["depositemos"],"p2":["depositad"],"p3":["depositen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["causé"],"s2":["causaste"],"vos":["causaste"],"s3":["causó"],"p1":["causamos"],"p2":["causasteis"],"p3":["causaron"]},
     "IndFut": {"s1":["causaré"],"s2":["causarás"],"vos":["causarás"],"s3":["causará"],"p1":["causaremos"],"p2":["causaréis"],"p3":["causarán"]},
     "IndCond": {"s1":["causaría"],"s2":["causarías"],"vos":["causarías"],"s3":["causaría"],"p1":["causaríamos"],"p2":["causaríais"],"p3":["causarían"]},
-    "SubPres": {"s1":["cause"],"s2":["causes"],"vos":["causes","causés"],"s3":["cause"],"p1":["causemos"],"p2":["causéis"],"p3":["causen"]},
+    "SubPres": {"s1":["cause"],"s2":["causes"],"vos":[{"forma": "causes","uso":"Riop."},{"forma":"causés","uso":"C.Am."}],"s3":["cause"],"p1":["causemos"],"p2":["causéis"],"p3":["causen"]},
     "SubImp": {"s1":["causara","causase"],"s2":["causaras","causases"],"vos":["causaras","causases"],"s3":["causara","causase"],"p1":["causáramos","causásemos"],"p2":["causarais","causaseis"],"p3":["causaran","causasen"]},
     "SubFut": {"s1":["causare"],"s2":["causares"],"vos":["causares"],"s3":["causare"],"p1":["causáremos"],"p2":["causareis"],"p3":["causaren"]},
     "CmdPos": {"s2":["causa"],"vos":["causá"],"s3":["cause"],"p1":["causemos"],"p2":["causad"],"p3":["causen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["llamé"],"s2":["llamaste"],"vos":["llamaste"],"s3":["llamó"],"p1":["llamamos"],"p2":["llamasteis"],"p3":["llamaron"]},
     "IndFut": {"s1":["llamaré"],"s2":["llamarás"],"vos":["llamarás"],"s3":["llamará"],"p1":["llamaremos"],"p2":["llamaréis"],"p3":["llamarán"]},
     "IndCond": {"s1":["llamaría"],"s2":["llamarías"],"vos":["llamarías"],"s3":["llamaría"],"p1":["llamaríamos"],"p2":["llamaríais"],"p3":["llamarían"]},
-    "SubPres": {"s1":["llame"],"s2":["llames"],"vos":["llames","llamés"],"s3":["llame"],"p1":["llamemos"],"p2":["llaméis"],"p3":["llamen"]},
+    "SubPres": {"s1":["llame"],"s2":["llames"],"vos":[{"forma": "llames","uso":"Riop."},{"forma":"llamés","uso":"C.Am."}],"s3":["llame"],"p1":["llamemos"],"p2":["llaméis"],"p3":["llamen"]},
     "SubImp": {"s1":["llamara","llamase"],"s2":["llamaras","llamases"],"vos":["llamaras","llamases"],"s3":["llamara","llamase"],"p1":["llamáramos","llamásemos"],"p2":["llamarais","llamaseis"],"p3":["llamaran","llamasen"]},
     "SubFut": {"s1":["llamare"],"s2":["llamares"],"vos":["llamares"],"s3":["llamare"],"p1":["llamáremos"],"p2":["llamareis"],"p3":["llamaren"]},
     "CmdPos": {"s2":["llama"],"vos":["llamá"],"s3":["llame"],"p1":["llamemos"],"p2":["llamad"],"p3":["llamen"]}

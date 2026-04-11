@@ -12,7 +12,7 @@
     "IndPret": {"s1":["reenvié"],"s2":["reenviaste"],"vos":["reenviaste"],"s3":["reenvió"],"p1":["reenviamos"],"p2":["reenviasteis"],"p3":["reenviaron"]},
     "IndFut": {"s1":["reenviaré"],"s2":["reenviarás"],"vos":["reenviarás"],"s3":["reenviará"],"p1":["reenviaremos"],"p2":["reenviaréis"],"p3":["reenviarán"]},
     "IndCond": {"s1":["reenviaría"],"s2":["reenviarías"],"vos":["reenviarías"],"s3":["reenviaría"],"p1":["reenviaríamos"],"p2":["reenviaríais"],"p3":["reenviarían"]},
-    "SubPres": {"s1":["reenvíe"],"s2":["reenvíes"],"vos":["reenvíes","reenviés"],"s3":["reenvíe"],"p1":["reenviemos"],"p2":["reenviéis"],"p3":["reenvíen"]},
+    "SubPres": {"s1":["reenvíe"],"s2":["reenvíes"],"vos":[{"forma": "reenvíes","uso":"Riop."},{"forma":"reenviés","uso":"C.Am."}],"s3":["reenvíe"],"p1":["reenviemos"],"p2":["reenviéis"],"p3":["reenvíen"]},
     "SubImp": {"s1":["reenviara","reenviase"],"s2":["reenviaras","reenviases"],"vos":["reenviaras","reenviases"],"s3":["reenviara","reenviase"],"p1":["reenviáramos","reenviásemos"],"p2":["reenviarais","reenviaseis"],"p3":["reenviaran","reenviasen"]},
     "SubFut": {"s1":["reenviare"],"s2":["reenviares"],"vos":["reenviares"],"s3":["reenviare"],"p1":["reenviáremos"],"p2":["reenviareis"],"p3":["reenviaren"]},
     "CmdPos": {"s2":["reenvía"],"vos":["reenviá"],"s3":["reenvíe"],"p1":["reenviemos"],"p2":["reenviad"],"p3":["reenvíen"]}

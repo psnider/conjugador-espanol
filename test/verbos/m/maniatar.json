@@ -13,7 +13,7 @@
     "IndPret": {"s1":["maniaté"],"s2":["maniataste"],"vos":["maniataste"],"s3":["maniató"],"p1":["maniatamos"],"p2":["maniatasteis"],"p3":["maniataron"]},
     "IndFut": {"s1":["maniataré"],"s2":["maniatarás"],"vos":["maniatarás"],"s3":["maniatará"],"p1":["maniataremos"],"p2":["maniataréis"],"p3":["maniatarán"]},
     "IndCond": {"s1":["maniataría"],"s2":["maniatarías"],"vos":["maniatarías"],"s3":["maniataría"],"p1":["maniataríamos"],"p2":["maniataríais"],"p3":["maniatarían"]},
-    "SubPres": {"s1":["maniate"],"s2":["maniates"],"vos":["maniates","maniatés"],"s3":["maniate"],"p1":["maniatemos"],"p2":["maniatéis"],"p3":["maniaten"]},
+    "SubPres": {"s1":["maniate"],"s2":["maniates"],"vos":[{"forma": "maniates","uso":"Riop."},{"forma":"maniatés","uso":"C.Am."}],"s3":["maniate"],"p1":["maniatemos"],"p2":["maniatéis"],"p3":["maniaten"]},
     "SubImp": {"s1":["maniatara","maniatase"],"s2":["maniataras","maniatases"],"vos":["maniataras","maniatases"],"s3":["maniatara","maniatase"],"p1":["maniatáramos","maniatásemos"],"p2":["maniatarais","maniataseis"],"p3":["maniataran","maniatasen"]},
     "SubFut": {"s1":["maniatare"],"s2":["maniatares"],"vos":["maniatares"],"s3":["maniatare"],"p1":["maniatáremos"],"p2":["maniatareis"],"p3":["maniataren"]},
     "CmdPos": {"s2":["maniata"],"vos":["maniatá"],"s3":["maniate"],"p1":["maniatemos"],"p2":["maniatad"],"p3":["maniaten"]}

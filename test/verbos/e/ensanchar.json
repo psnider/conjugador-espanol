@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ensanché"],"s2":["ensanchaste"],"vos":["ensanchaste"],"s3":["ensanchó"],"p1":["ensanchamos"],"p2":["ensanchasteis"],"p3":["ensancharon"]},
     "IndFut": {"s1":["ensancharé"],"s2":["ensancharás"],"vos":["ensancharás"],"s3":["ensanchará"],"p1":["ensancharemos"],"p2":["ensancharéis"],"p3":["ensancharán"]},
     "IndCond": {"s1":["ensancharía"],"s2":["ensancharías"],"vos":["ensancharías"],"s3":["ensancharía"],"p1":["ensancharíamos"],"p2":["ensancharíais"],"p3":["ensancharían"]},
-    "SubPres": {"s1":["ensanche"],"s2":["ensanches"],"vos":["ensanches","ensanchés"],"s3":["ensanche"],"p1":["ensanchemos"],"p2":["ensanchéis"],"p3":["ensanchen"]},
+    "SubPres": {"s1":["ensanche"],"s2":["ensanches"],"vos":[{"forma": "ensanches","uso":"Riop."},{"forma":"ensanchés","uso":"C.Am."}],"s3":["ensanche"],"p1":["ensanchemos"],"p2":["ensanchéis"],"p3":["ensanchen"]},
     "SubImp": {"s1":["ensanchara","ensanchase"],"s2":["ensancharas","ensanchases"],"vos":["ensancharas","ensanchases"],"s3":["ensanchara","ensanchase"],"p1":["ensancháramos","ensanchásemos"],"p2":["ensancharais","ensanchaseis"],"p3":["ensancharan","ensanchasen"]},
     "SubFut": {"s1":["ensanchare"],"s2":["ensanchares"],"vos":["ensanchares"],"s3":["ensanchare"],"p1":["ensancháremos"],"p2":["ensanchareis"],"p3":["ensancharen"]},
     "CmdPos": {"s2":["ensancha"],"vos":["ensanchá"],"s3":["ensanche"],"p1":["ensanchemos"],"p2":["ensanchad"],"p3":["ensanchen"]}

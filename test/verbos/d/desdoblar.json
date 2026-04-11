@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desdoblé"],"s2":["desdoblaste"],"vos":["desdoblaste"],"s3":["desdobló"],"p1":["desdoblamos"],"p2":["desdoblasteis"],"p3":["desdoblaron"]},
     "IndFut": {"s1":["desdoblaré"],"s2":["desdoblarás"],"vos":["desdoblarás"],"s3":["desdoblará"],"p1":["desdoblaremos"],"p2":["desdoblaréis"],"p3":["desdoblarán"]},
     "IndCond": {"s1":["desdoblaría"],"s2":["desdoblarías"],"vos":["desdoblarías"],"s3":["desdoblaría"],"p1":["desdoblaríamos"],"p2":["desdoblaríais"],"p3":["desdoblarían"]},
-    "SubPres": {"s1":["desdoble"],"s2":["desdobles"],"vos":["desdobles","desdoblés"],"s3":["desdoble"],"p1":["desdoblemos"],"p2":["desdobléis"],"p3":["desdoblen"]},
+    "SubPres": {"s1":["desdoble"],"s2":["desdobles"],"vos":[{"forma": "desdobles","uso":"Riop."},{"forma":"desdoblés","uso":"C.Am."}],"s3":["desdoble"],"p1":["desdoblemos"],"p2":["desdobléis"],"p3":["desdoblen"]},
     "SubImp": {"s1":["desdoblara","desdoblase"],"s2":["desdoblaras","desdoblases"],"vos":["desdoblaras","desdoblases"],"s3":["desdoblara","desdoblase"],"p1":["desdobláramos","desdoblásemos"],"p2":["desdoblarais","desdoblaseis"],"p3":["desdoblaran","desdoblasen"]},
     "SubFut": {"s1":["desdoblare"],"s2":["desdoblares"],"vos":["desdoblares"],"s3":["desdoblare"],"p1":["desdobláremos"],"p2":["desdoblareis"],"p3":["desdoblaren"]},
     "CmdPos": {"s2":["desdobla"],"vos":["desdoblá"],"s3":["desdoble"],"p1":["desdoblemos"],"p2":["desdoblad"],"p3":["desdoblen"]}

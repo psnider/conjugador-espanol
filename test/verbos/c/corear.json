@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koɾeˈaɾ]",
+    "silabacion": "co-re-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De coro y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"corear","gerundio":["coreando"],"participio":["coreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["coreo"],"s2":["coreas"],"vos":["coreás"],"s3":["corea"],"p1":["coreamos"],"p2":["coreáis"],"p3":["corean"]},
+    "IndImp": {"s1":["coreaba"],"s2":["coreabas"],"vos":["coreabas"],"s3":["coreaba"],"p1":["coreábamos"],"p2":["coreabais"],"p3":["coreaban"]},
+    "IndPret": {"s1":["coreé"],"s2":["coreaste"],"vos":["coreaste"],"s3":["coreó"],"p1":["coreamos"],"p2":["coreasteis"],"p3":["corearon"]},
+    "IndFut": {"s1":["corearé"],"s2":["corearás"],"vos":["corearás"],"s3":["coreará"],"p1":["corearemos"],"p2":["corearéis"],"p3":["corearán"]},
+    "IndCond": {"s1":["corearía"],"s2":["corearías"],"vos":["corearías"],"s3":["corearía"],"p1":["corearíamos"],"p2":["corearíais"],"p3":["corearían"]},
+    "SubPres": {"s1":["coree"],"s2":["corees"],"vos":["corees","coreés"],"s3":["coree"],"p1":["coreemos"],"p2":["coreéis"],"p3":["coreen"]},
+    "SubImp": {"s1":["coreara","corease"],"s2":["corearas","coreases"],"vos":["corearas","coreases"],"s3":["coreara","corease"],"p1":["coreáramos","coreásemos"],"p2":["corearais","coreaseis"],"p3":["corearan","coreasen"]},
+    "SubFut": {"s1":["coreare"],"s2":["coreares"],"vos":["coreares"],"s3":["coreare"],"p1":["coreáremos"],"p2":["coreareis"],"p3":["corearen"]},
+    "CmdPos": {"s2":["corea"],"vos":["coreá"],"s3":["coree"],"p1":["coreemos"],"p2":["coread"],"p3":["coreen"]}
+  }
+}

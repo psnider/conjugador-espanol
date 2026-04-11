@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desvié"],"s2":["desviaste"],"vos":["desviaste"],"s3":["desvió"],"p1":["desviamos"],"p2":["desviasteis"],"p3":["desviaron"]},
     "IndFut": {"s1":["desviaré"],"s2":["desviarás"],"vos":["desviarás"],"s3":["desviará"],"p1":["desviaremos"],"p2":["desviaréis"],"p3":["desviarán"]},
     "IndCond": {"s1":["desviaría"],"s2":["desviarías"],"vos":["desviarías"],"s3":["desviaría"],"p1":["desviaríamos"],"p2":["desviaríais"],"p3":["desviarían"]},
-    "SubPres": {"s1":["desvíe"],"s2":["desvíes"],"vos":["desvíes","desviés"],"s3":["desvíe"],"p1":["desviemos"],"p2":["desviéis"],"p3":["desvíen"]},
+    "SubPres": {"s1":["desvíe"],"s2":["desvíes"],"vos":[{"forma": "desvíes","uso":"Riop."},{"forma":"desviés","uso":"C.Am."}],"s3":["desvíe"],"p1":["desviemos"],"p2":["desviéis"],"p3":["desvíen"]},
     "SubImp": {"s1":["desviara","desviase"],"s2":["desviaras","desviases"],"vos":["desviaras","desviases"],"s3":["desviara","desviase"],"p1":["desviáramos","desviásemos"],"p2":["desviarais","desviaseis"],"p3":["desviaran","desviasen"]},
     "SubFut": {"s1":["desviare"],"s2":["desviares"],"vos":["desviares"],"s3":["desviare"],"p1":["desviáremos"],"p2":["desviareis"],"p3":["desviaren"]},
     "CmdPos": {"s2":["desvía"],"vos":["desviá"],"s3":["desvíe"],"p1":["desviemos"],"p2":["desviad"],"p3":["desvíen"]}

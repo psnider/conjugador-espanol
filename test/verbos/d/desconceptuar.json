@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desconceptué"],"s2":["desconceptuaste"],"vos":["desconceptuaste"],"s3":["desconceptuó"],"p1":["desconceptuamos"],"p2":["desconceptuasteis"],"p3":["desconceptuaron"]},
     "IndFut": {"s1":["desconceptuaré"],"s2":["desconceptuarás"],"vos":["desconceptuarás"],"s3":["desconceptuará"],"p1":["desconceptuaremos"],"p2":["desconceptuaréis"],"p3":["desconceptuarán"]},
     "IndCond": {"s1":["desconceptuaría"],"s2":["desconceptuarías"],"vos":["desconceptuarías"],"s3":["desconceptuaría"],"p1":["desconceptuaríamos"],"p2":["desconceptuaríais"],"p3":["desconceptuarían"]},
-    "SubPres": {"s1":["desconceptúe"],"s2":["desconceptúes"],"vos":["desconceptúes","desconceptués"],"s3":["desconceptúe"],"p1":["desconceptuemos"],"p2":["desconceptuéis"],"p3":["desconceptúen"]},
+    "SubPres": {"s1":["desconceptúe"],"s2":["desconceptúes"],"vos":[{"forma": "desconceptúes","uso":"Riop."},{"forma":"desconceptués","uso":"C.Am."}],"s3":["desconceptúe"],"p1":["desconceptuemos"],"p2":["desconceptuéis"],"p3":["desconceptúen"]},
     "SubImp": {"s1":["desconceptuara","desconceptuase"],"s2":["desconceptuaras","desconceptuases"],"vos":["desconceptuaras","desconceptuases"],"s3":["desconceptuara","desconceptuase"],"p1":["desconceptuáramos","desconceptuásemos"],"p2":["desconceptuarais","desconceptuaseis"],"p3":["desconceptuaran","desconceptuasen"]},
     "SubFut": {"s1":["desconceptuare"],"s2":["desconceptuares"],"vos":["desconceptuares"],"s3":["desconceptuare"],"p1":["desconceptuáremos"],"p2":["desconceptuareis"],"p3":["desconceptuaren"]},
     "CmdPos": {"s2":["desconceptúa"],"vos":["desconceptuá"],"s3":["desconceptúe"],"p1":["desconceptuemos"],"p2":["desconceptuad"],"p3":["desconceptúen"]}

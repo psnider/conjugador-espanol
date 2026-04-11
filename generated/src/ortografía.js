@@ -1,4 +1,4 @@
-import { applyToVerbForms } from "./lib.js";
+import { applyToFormasConjugadas, combinaFormasConjugadas, isValueless } from "./lib.js";
 // A mapping of the last 3-5 characters of an infinitivo to the possible typographic change rule.
 // NOTE: these are searched in the same order that they are presented in this list, and the first match is selected.
 const infinitive_ending_sound_rules = {
@@ -8,8 +8,8 @@ const infinitive_ending_sound_rules = {
     guar: "break-ue-dipthong-after-gu",
     guir: "preserve-hard-g-sound",
     car: "preserve-hard-c-sound-of-c",
-    cer: "preserve-soft-c-sound",
-    cir: "preserve-soft-c-sound",
+    // cer: "preserve-soft-c-sound",
+    cir: "soften-hard-c-sound",
     gar: "preserve-hard-g-sound",
     ger: "preserve-soft-g-sound",
     gir: "preserve-soft-g-sound",
@@ -19,14 +19,22 @@ const infinitive_ending_sound_rules = {
 };
 // FIX: linguist: are these patterns correct?
 // Verb changes made solely for phonetic reasons, and using changes in typography.
-const orthographical_change_rules = {
-    "preserve-soft-c-sound": [{
-            // example: conocer,IndPres,s1: conoco => conozco
-            // counter-example: hacer,IndPret,s3: hico !=> hizco
-            // NOTE: this rule is only for verb terminations
-            match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u,
-            replacement_pattern: "zc$1"
-        }],
+const orthographical_change_rules_for_terminations = {
+    // "preserve-soft-c-sound": [
+    //     {
+    //     // example: conocer,IndPres,s1: conoco => conozco
+    //     // counter-example: hacer,IndPret,s3: hico !=> hizco
+    //     // NOTE: this rule is only for verb terminations
+    //     match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u, 
+    //     replacement_pattern: "zc$1"
+    // },
+    // {
+    //     // example: cocer,IndPres,s1: cueco => cuezo
+    //     // example: torcer,IndPres,s1: tuerco => tuerzo
+    //     match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u, 
+    //     replacement_pattern: "z$1"
+    // }
+    // ],
     "preserve-hard-c-sound-of-c": [{
             // example: sacar,IndPret,s1: sacé => saqué
             match_pattern: /c([eéií](s|mos|is|n)?)$/u,
@@ -72,10 +80,11 @@ const orthographical_change_rules = {
             replacement_pattern: "$1hú$2"
         }],
     "break-u-dipthong-after-hard-sound": [{
+            // anticuar
             // example: actuar,IndPres,s1: actuo => actúo
             // counter-example: aguar,IndPres,s1: aguo !=> agúo
             // NOTE: this rule is only for verb terminations
-            match_pattern: /([dlnt])u([aeo](s|n)?)$/u,
+            match_pattern: /([cdlnst])u([aeo](s|n)?)$/u,
             replacement_pattern: "$1ú$2"
         }],
     "break-ue-dipthong-after-gu": [{
@@ -85,65 +94,80 @@ const orthographical_change_rules = {
             replacement_pattern: "gü$1"
         }],
 };
-// Apply any orthographical changes to the given part of a verb conjugation or participle derivation
-export function applyOrthographicalChangesCommon(args) {
-    const { infinitivo, forms, do_correct_dieresis, do_correct_ñi_yi } = args;
-    const changed_forms = applyToVerbForms(forms, (form) => {
-        let changed = form;
-        if (do_correct_dieresis) {
-            changed = correctDiéresis(changed);
-        }
-        if (do_correct_ñi_yi) {
-            changed = correctYir(changed);
-        }
-        // FIX: if possible separte to reduce call complexity
-        // mantener hiato
-        changed = changed.replace(/([aeo])i(ste|mos|steis|do)$/, "$1í$2");
-        // ahijar, ahitar, airar, enairar, desairar
-        changed = changed.replace(/(ah?)i([jrt](o|as|a|an|e|es|en))$/, "$1í$2");
-        // vocal débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants
-        changed = changed.replace(/(?<![gq])([aeouü])i([eó])/, "$1y$2");
-        // // u débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants
-        // changed = changed.replace(/(?<![gq])u([aeo])/, "y$1")
+const orthographical_change_rules_general = {
+    "mantener hiato": [
+        { match_pattern: /([aeo])i(ste|mos|steis|do)$/, replacement_pattern: "$1í$2" },
+        // ahijar, ahitar, airar, aislar, amohinar, enairar, desairar
+        { match_pattern: /([ao]h?)i(([jnrt]|sl)(o|as|a|an|e|es|en))$/, replacement_pattern: "$1í$2" }
+    ],
+    "vocal débil → 'y'": [
+        // after other vowel, but not after "gu" or "qu" which are considered a single consonants
+        { match_pattern: /(?<![gq])([aeouü])i([eó])/, replacement_pattern: "$1y$2" }
+    ],
+    "romper diptongo delantero 'oe', 'ie'": [
         // vocal débil → y   at start of word, e.g. "erguir", "oyer"
-        changed = changed.replace(/^(?:(o)|i)e/, "$1ye");
+        { match_pattern: /^(?:(o)|i)e/, replacement_pattern: "$1ye" }
+    ],
+    "remover tilde single sílaba": [
         // remove accent on single sylable forms with dipthong "ui"
         // This was added to support the idea that huir is regular, but unusual ortografía aplica
-        changed = changed.replace(/^([bcdfhjlmnpqrstvwxz]+u)í(s)?$/, "$1i$2");
-        // changed = accentuate(full_form, suffix).  FAILED
-        return changed;
-    });
-    return changed_forms;
+        { match_pattern: /^([bcdfhjlmnpqrstvwxz]+u)í(s)?$/, replacement_pattern: "$1i$2" }
+    ],
+    "romper diptongo 'au'": [
+        // aullar, aunar, aupar, maullar
+        // This was added to support the idea that huir is regular, but unusual ortografía aplica
+        { match_pattern: /au(([np]|ll)(o|as|a|an|e|es|en))$/, replacement_pattern: "aú$1" }
+    ]
+};
+// Apply any orthographical changes to the given part of a verb conjugation or participle derivation
+export function applyOrthographicalChangesCommon(args) {
+    const { infinitivo, forma, do_correct_diéresis, do_correct_ñi_yi } = args;
+    let updated = forma;
+    if (do_correct_diéresis) {
+        const diéresis_corregido = correctDiéresis(updated);
+        updated = diéresis_corregido || updated;
+    }
+    if (do_correct_ñi_yi) {
+        const ñi_yi_corregido = correctÑiYi(updated);
+        updated = ñi_yi_corregido || updated;
+    }
+    // FIX: if possible separte to reduce call complexity
+    // mantener hiato
+    // changed = changed.replace(/([aeo])i(ste|mos|steis|do)$/, "$1í$2")
+    // ahijar, ahitar, airar, aislar, amohinar, enairar, desairar
+    // changed = changed.replace(/([ao]h?)i(([jnrt]|sl)(o|as|a|an|e|es|en))$/, "$1í$2")
+    // vocal débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants
+    // changed = changed.replace(/(?<![gq])([aeouü])i([eó])/, "$1y$2")
+    // // u débil → y   after other vowel, but not after "gu" or "qu" which are considered a single consonants
+    // changed = changed.replace(/(?<![gq])u([aeo])/, "y$1")
+    // vocal débil → y   at start of word, e.g. "erguir", "oyer"
+    // changed = changed.replace(/^(?:(o)|i)e/, "$1ye")
+    // remove accent on single sylable forms with dipthong "ui"
+    // This was added to support the idea that huir is regular, but unusual ortografía aplica
+    // changed = changed.replace(/^([bcdfhjlmnpqrstvwxz]+u)í(s)?$/, "$1i$2")
+    // changed = accentuate(full_form, suffix).  FAILED
+    for (const rule_name in orthographical_change_rules_general) {
+        const rules = orthographical_change_rules_general[rule_name];
+        for (const rule of rules) {
+            updated = updated.replace(rule.match_pattern, rule.replacement_pattern);
+        }
+    }
+    return (updated !== forma) ? updated : undefined;
 }
 // Apply any orthographical changes to the given form of a verb conjugation.
-export function applyOrthographicalChangesToConjugatedForm(infinitivo, form, suffix, do_correct_dieresis, do_correct_ñi_yi) {
-    let updated = form;
+export function applyOrthographicalChangesToConjugatedForm(infinitivo, forma, do_correct_diéresis, do_correct_ñi_yi) {
+    let updated = forma;
     const rules = findInfinitiveBaseEndingSoundRule(infinitivo);
     if (rules) {
         for (const rule of rules) {
             updated = updated.replace(rule.match_pattern, rule.replacement_pattern);
         }
     }
-    [updated] = applyOrthographicalChangesCommon({ infinitivo, forms: [updated], suffix, do_correct_dieresis, do_correct_ñi_yi });
-    return updated;
-}
-export function applyOrthographicalChangesForParticiples(infinitivo, participles, gerund_ending, do_correct_dieresis, do_correct_ñi_yi, rules_applied) {
-    const orthography = {};
-    const gerundio = applyOrthographicalChangesCommon({ infinitivo, forms: participles.gerundio, suffix: gerund_ending, do_correct_dieresis, do_correct_ñi_yi });
-    if (participles.participio.length !== 1) {
-        throw new Error(`${infinitivo}: can't yet handle case of multiple participios: ${participles.participio}`);
+    const w_orthographic_changes = applyOrthographicalChangesCommon({ infinitivo, forma: updated, do_correct_diéresis, do_correct_ñi_yi });
+    if (w_orthographic_changes) {
+        updated = w_orthographic_changes;
     }
-    const participio = applyOrthographicalChangesCommon({ infinitivo, forms: participles.participio, suffix: participles.participio[0].slice(-3), do_correct_dieresis, do_correct_ñi_yi });
-    if (gerundio && (gerundio !== participles.gerundio)) {
-        orthography.gerundio = gerundio;
-    }
-    if (participio && (participio !== participles.participio)) {
-        orthography.participio = participio;
-    }
-    if (Object.keys(orthography).length > 0) {
-        rules_applied.push({ orthography });
-    }
-    return orthography;
+    return (updated !== forma) ? updated : undefined;
 }
 export function findInfinitiveBaseEndingSoundRule(infinitivo) {
     for (const len of [5, 4, 3]) {
@@ -151,24 +175,35 @@ export function findInfinitiveBaseEndingSoundRule(infinitivo) {
             let ending = infinitivo.slice(-len);
             let rule_name = infinitive_ending_sound_rules[ending];
             if (rule_name) {
-                const rules = orthographical_change_rules[rule_name];
+                const rules = orthographical_change_rules_for_terminations[rule_name];
                 return rules;
             }
         }
     }
 }
-export function correctDiéresis(conjugation) {
+export function correctDiéresis(forma) {
     // Order matters here: first resolve üi/ü + vowel, then restore güi/güí
-    conjugation = conjugation.replace(/üi?([aáeéoó])/, "uy$1");
-    return conjugation.replace(/gu([eéií])/, "gü$1");
+    let updated = forma.replace(/üi?([aáeéoó])/, "uy$1");
+    updated = updated.replace(/gu([eéií])/, "gü$1");
+    if (updated !== forma) {
+        return updated;
+    }
 }
-export function correctYir(conjugation) {
-    conjugation = conjugation.replace(/([ñy])i([eéoó])/, "$1$2");
-    return conjugation;
+export function correctÑiYi(forma) {
+    let updated = forma.replace(/([ñy]|ll)i([eéoó])/, "$1$2");
+    if (updated !== forma) {
+        return updated;
+    }
+}
+export function getOrthographicChanges_IndPret3P(infinitivo, form) {
+    const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
+    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
+    let changed = applyOrthographicalChangesToConjugatedForm(infinitivo, form, do_correct_diéresis, do_correct_ñi_yi);
+    return changed;
 }
 // @return The conjugated forms after applying the orthographical change rules.
 // @param @output rules_applied Contains the names of the rules that were applied to the input verb.
-// export function __getOrthographicChanges(stem: string, ending: string, form: string, do_correct_dieresis: boolean): string | undefined {
+// export function __getOrthographicChanges(stem: string, ending: string, form: string, do_correct_diéresis: boolean): string | undefined {
 //     return
 // }
 export function getOrthographicChanges(infinitivo, mood_tense, forms, suffixes, rules_applied) {
@@ -178,12 +213,17 @@ export function getOrthographicChanges(infinitivo, mood_tense, forms, suffixes, 
     const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
     for (const key in forms) {
         const gramatical_person = key;
-        const changed_forms = applyToVerbForms(forms[gramatical_person], (form, i) => {
-            const suffixes_for_person = suffixes[gramatical_person];
-            const suffix = suffixes_for_person[i] || suffixes_for_person[0];
-            return applyOrthographicalChangesToConjugatedForm(infinitivo, form, suffix, do_correct_diéresis, do_correct_ñi_yi);
+        const changed_forms = applyToFormasConjugadas(forms[gramatical_person], (forma, i) => {
+            // const suffixes_for_person = suffixes[gramatical_person]
+            // const suffix = suffixes_for_person[i] || suffixes_for_person[0] 
+            let changed = applyOrthographicalChangesToConjugatedForm(infinitivo, forma, do_correct_diéresis, do_correct_ñi_yi);
+            return (changed && (changed !== forma)) ? changed : undefined;
         });
-        orthography[gramatical_person] = changed_forms;
+        const combined = combinaFormasConjugadas(forms[gramatical_person], changed_forms);
+        // only save entries that have changes
+        if (!isValueless(combined)) {
+            orthography[gramatical_person] = combined;
+        }
     }
     rules_applied.push({ orthography });
     return orthography;

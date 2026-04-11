@@ -13,7 +13,7 @@
     "IndPret": {"s1":["merecí"],"s2":["mereciste"],"vos":["mereciste"],"s3":["mereció"],"p1":["merecimos"],"p2":["merecisteis"],"p3":["merecieron"]},
     "IndFut": {"s1":["mereceré"],"s2":["merecerás"],"vos":["merecerás"],"s3":["merecerá"],"p1":["mereceremos"],"p2":["mereceréis"],"p3":["merecerán"]},
     "IndCond": {"s1":["merecería"],"s2":["merecerías"],"vos":["merecerías"],"s3":["merecería"],"p1":["mereceríamos"],"p2":["mereceríais"],"p3":["merecerían"]},
-    "SubPres": {"s1":["merezca"],"s2":["merezcas"],"vos":["merezcas","merezcás"],"s3":["merezca"],"p1":["merezcamos"],"p2":["merezcáis"],"p3":["merezcan"]},
+    "SubPres": {"s1":["merezca"],"s2":["merezcas"],"vos":[{"forma": "merezcas","uso":"Riop."},{"forma":"merezcás","uso":"C.Am."}],"s3":["merezca"],"p1":["merezcamos"],"p2":["merezcáis"],"p3":["merezcan"]},
     "SubImp": {"s1":["mereciera","mereciese"],"s2":["merecieras","merecieses"],"vos":["merecieras","merecieses"],"s3":["mereciera","mereciese"],"p1":["mereciéramos","mereciésemos"],"p2":["merecierais","merecieseis"],"p3":["merecieran","mereciesen"]},
     "SubFut": {"s1":["mereciere"],"s2":["merecieres"],"vos":["merecieres"],"s3":["mereciere"],"p1":["mereciéremos"],"p2":["mereciereis"],"p3":["merecieren"]},
     "CmdPos": {"s2":["merece"],"vos":["merecé"],"s3":["merezca"],"p1":["merezcamos"],"p2":["mereced"],"p3":["merezcan"]}

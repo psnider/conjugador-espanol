@@ -12,7 +12,7 @@
     "IndPret": {"s1":["alivié"],"s2":["aliviaste"],"vos":["aliviaste"],"s3":["alivió"],"p1":["aliviamos"],"p2":["aliviasteis"],"p3":["aliviaron"]},
     "IndFut": {"s1":["aliviaré"],"s2":["aliviarás"],"vos":["aliviarás"],"s3":["aliviará"],"p1":["aliviaremos"],"p2":["aliviaréis"],"p3":["aliviarán"]},
     "IndCond": {"s1":["aliviaría"],"s2":["aliviarías"],"vos":["aliviarías"],"s3":["aliviaría"],"p1":["aliviaríamos"],"p2":["aliviaríais"],"p3":["aliviarían"]},
-    "SubPres": {"s1":["alivie"],"s2":["alivies"],"vos":["alivies","aliviés"],"s3":["alivie"],"p1":["aliviemos"],"p2":["aliviéis"],"p3":["alivien"]},
+    "SubPres": {"s1":["alivie"],"s2":["alivies"],"vos":[{"forma": "alivies","uso":"Riop."},{"forma":"aliviés","uso":"C.Am."}],"s3":["alivie"],"p1":["aliviemos"],"p2":["aliviéis"],"p3":["alivien"]},
     "SubImp": {"s1":["aliviara","aliviase"],"s2":["aliviaras","aliviases"],"vos":["aliviaras","aliviases"],"s3":["aliviara","aliviase"],"p1":["aliviáramos","aliviásemos"],"p2":["aliviarais","aliviaseis"],"p3":["aliviaran","aliviasen"]},
     "SubFut": {"s1":["aliviare"],"s2":["aliviares"],"vos":["aliviares"],"s3":["aliviare"],"p1":["aliviáremos"],"p2":["aliviareis"],"p3":["aliviaren"]},
     "CmdPos": {"s2":["alivia"],"vos":["aliviá"],"s3":["alivie"],"p1":["aliviemos"],"p2":["aliviad"],"p3":["alivien"]}

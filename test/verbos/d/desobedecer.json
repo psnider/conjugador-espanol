@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desobedecí"],"s2":["desobedeciste"],"vos":["desobedeciste"],"s3":["desobedeció"],"p1":["desobedecimos"],"p2":["desobedecisteis"],"p3":["desobedecieron"]},
     "IndFut": {"s1":["desobedeceré"],"s2":["desobedecerás"],"vos":["desobedecerás"],"s3":["desobedecerá"],"p1":["desobedeceremos"],"p2":["desobedeceréis"],"p3":["desobedecerán"]},
     "IndCond": {"s1":["desobedecería"],"s2":["desobedecerías"],"vos":["desobedecerías"],"s3":["desobedecería"],"p1":["desobedeceríamos"],"p2":["desobedeceríais"],"p3":["desobedecerían"]},
-    "SubPres": {"s1":["desobedezca"],"s2":["desobedezcas"],"vos":["desobedezcas","desobedezcás"],"s3":["desobedezca"],"p1":["desobedezcamos"],"p2":["desobedezcáis"],"p3":["desobedezcan"]},
+    "SubPres": {"s1":["desobedezca"],"s2":["desobedezcas"],"vos":[{"forma": "desobedezcas","uso":"Riop."},{"forma":"desobedezcás","uso":"C.Am."}],"s3":["desobedezca"],"p1":["desobedezcamos"],"p2":["desobedezcáis"],"p3":["desobedezcan"]},
     "SubImp": {"s1":["desobedeciera","desobedeciese"],"s2":["desobedecieras","desobedecieses"],"vos":["desobedecieras","desobedecieses"],"s3":["desobedeciera","desobedeciese"],"p1":["desobedeciéramos","desobedeciésemos"],"p2":["desobedecierais","desobedecieseis"],"p3":["desobedecieran","desobedeciesen"]},
     "SubFut": {"s1":["desobedeciere"],"s2":["desobedecieres"],"vos":["desobedecieres"],"s3":["desobedeciere"],"p1":["desobedeciéremos"],"p2":["desobedeciereis"],"p3":["desobedecieren"]},
     "CmdPos": {"s2":["desobedece"],"vos":["desobedecé"],"s3":["desobedezca"],"p1":["desobedezcamos"],"p2":["desobedeced"],"p3":["desobedezcan"]}

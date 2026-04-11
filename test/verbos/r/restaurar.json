@@ -13,7 +13,7 @@
     "IndPret": {"s1":["restauré"],"s2":["restauraste"],"vos":["restauraste"],"s3":["restauró"],"p1":["restauramos"],"p2":["restaurasteis"],"p3":["restauraron"]},
     "IndFut": {"s1":["restauraré"],"s2":["restaurarás"],"vos":["restaurarás"],"s3":["restaurará"],"p1":["restauraremos"],"p2":["restauraréis"],"p3":["restaurarán"]},
     "IndCond": {"s1":["restauraría"],"s2":["restaurarías"],"vos":["restaurarías"],"s3":["restauraría"],"p1":["restauraríamos"],"p2":["restauraríais"],"p3":["restaurarían"]},
-    "SubPres": {"s1":["restaure"],"s2":["restaures"],"vos":["restaures","restaurés"],"s3":["restaure"],"p1":["restauremos"],"p2":["restauréis"],"p3":["restauren"]},
+    "SubPres": {"s1":["restaure"],"s2":["restaures"],"vos":[{"forma": "restaures","uso":"Riop."},{"forma":"restaurés","uso":"C.Am."}],"s3":["restaure"],"p1":["restauremos"],"p2":["restauréis"],"p3":["restauren"]},
     "SubImp": {"s1":["restaurara","restaurase"],"s2":["restauraras","restaurases"],"vos":["restauraras","restaurases"],"s3":["restaurara","restaurase"],"p1":["restauráramos","restaurásemos"],"p2":["restaurarais","restauraseis"],"p3":["restauraran","restaurasen"]},
     "SubFut": {"s1":["restaurare"],"s2":["restaurares"],"vos":["restaurares"],"s3":["restaurare"],"p1":["restauráremos"],"p2":["restaurareis"],"p3":["restauraren"]},
     "CmdPos": {"s2":["restaura"],"vos":["restaurá"],"s3":["restaure"],"p1":["restauremos"],"p2":["restaurad"],"p3":["restauren"]}

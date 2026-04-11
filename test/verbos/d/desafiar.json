@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desafié"],"s2":["desafiaste"],"vos":["desafiaste"],"s3":["desafió"],"p1":["desafiamos"],"p2":["desafiasteis"],"p3":["desafiaron"]},
     "IndFut": {"s1":["desafiaré"],"s2":["desafiarás"],"vos":["desafiarás"],"s3":["desafiará"],"p1":["desafiaremos"],"p2":["desafiaréis"],"p3":["desafiarán"]},
     "IndCond": {"s1":["desafiaría"],"s2":["desafiarías"],"vos":["desafiarías"],"s3":["desafiaría"],"p1":["desafiaríamos"],"p2":["desafiaríais"],"p3":["desafiarían"]},
-    "SubPres": {"s1":["desafíe"],"s2":["desafíes"],"vos":["desafíes","desafiés"],"s3":["desafíe"],"p1":["desafiemos"],"p2":["desafiéis"],"p3":["desafíen"]},
+    "SubPres": {"s1":["desafíe"],"s2":["desafíes"],"vos":[{"forma": "desafíes","uso":"Riop."},{"forma":"desafiés","uso":"C.Am."}],"s3":["desafíe"],"p1":["desafiemos"],"p2":["desafiéis"],"p3":["desafíen"]},
     "SubImp": {"s1":["desafiara","desafiase"],"s2":["desafiaras","desafiases"],"vos":["desafiaras","desafiases"],"s3":["desafiara","desafiase"],"p1":["desafiáramos","desafiásemos"],"p2":["desafiarais","desafiaseis"],"p3":["desafiaran","desafiasen"]},
     "SubFut": {"s1":["desafiare"],"s2":["desafiares"],"vos":["desafiares"],"s3":["desafiare"],"p1":["desafiáremos"],"p2":["desafiareis"],"p3":["desafiaren"]},
     "CmdPos": {"s2":["desafía"],"vos":["desafiá"],"s3":["desafíe"],"p1":["desafiemos"],"p2":["desafiad"],"p3":["desafíen"]}

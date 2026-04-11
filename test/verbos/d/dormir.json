@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dormí"],"s2":["dormiste"],"vos":["dormiste"],"s3":["durmió"],"p1":["dormimos"],"p2":["dormisteis"],"p3":["durmieron"]},
     "IndFut": {"s1":["dormiré"],"s2":["dormirás"],"vos":["dormirás"],"s3":["dormirá"],"p1":["dormiremos"],"p2":["dormiréis"],"p3":["dormirán"]},
     "IndCond": {"s1":["dormiría"],"s2":["dormirías"],"vos":["dormirías"],"s3":["dormiría"],"p1":["dormiríamos"],"p2":["dormiríais"],"p3":["dormirían"]},
-    "SubPres": {"s1":["duerma"],"s2":["duermas"],"vos":["duermas","durmás"],"s3":["duerma"],"p1":["durmamos"],"p2":["durmáis"],"p3":["duerman"]},
+    "SubPres": {"s1":["duerma"],"s2":["duermas"],"vos":[{"forma":"duermas","uso":"Riop."},{"forma":"durmás","uso":"C.Am."}],"s3":["duerma"],"p1":["durmamos"],"p2":["durmáis"],"p3":["duerman"]},
     "SubImp": {"s1":["durmiera","durmiese"],"s2":["durmieras","durmieses"],"vos":["durmieras","durmieses"],"s3":["durmiera","durmiese"],"p1":["durmiéramos","durmiésemos"],"p2":["durmierais","durmieseis"],"p3":["durmieran","durmiesen"]},
     "SubFut": {"s1":["durmiere"],"s2":["durmieres"],"vos":["durmieres"],"s3":["durmiere"],"p1":["durmiéremos"],"p2":["durmiereis"],"p3":["durmieren"]},
     "CmdPos": {"s2":["duerme"],"vos":["dormí"],"s3":["duerma"],"p1":["durmamos"],"p2":["dormid"],"p3":["duerman"]}

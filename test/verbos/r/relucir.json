@@ -13,7 +13,7 @@
     "IndPret": {"s1":["relucí"],"s2":["reluciste"],"vos":["reluciste"],"s3":["relució"],"p1":["relucimos"],"p2":["relucisteis"],"p3":["relucieron"]},
     "IndFut": {"s1":["reluciré"],"s2":["relucirás"],"vos":["relucirás"],"s3":["relucirá"],"p1":["reluciremos"],"p2":["reluciréis"],"p3":["relucirán"]},
     "IndCond": {"s1":["reluciría"],"s2":["relucirías"],"vos":["relucirías"],"s3":["reluciría"],"p1":["reluciríamos"],"p2":["reluciríais"],"p3":["relucirían"]},
-    "SubPres": {"s1":["reluzca"],"s2":["reluzcas"],"vos":["reluzcas","reluzcás"],"s3":["reluzca"],"p1":["reluzcamos"],"p2":["reluzcáis"],"p3":["reluzcan"]},
+    "SubPres": {"s1":["reluzca"],"s2":["reluzcas"],"vos":[{"forma": "reluzcas","uso":"Riop."},{"forma":"reluzcás","uso":"C.Am."}],"s3":["reluzca"],"p1":["reluzcamos"],"p2":["reluzcáis"],"p3":["reluzcan"]},
     "SubImp": {"s1":["reluciera","reluciese"],"s2":["relucieras","relucieses"],"vos":["relucieras","relucieses"],"s3":["reluciera","reluciese"],"p1":["reluciéramos","reluciésemos"],"p2":["relucierais","relucieseis"],"p3":["relucieran","reluciesen"]},
     "SubFut": {"s1":["reluciere"],"s2":["relucieres"],"vos":["relucieres"],"s3":["reluciere"],"p1":["reluciéremos"],"p2":["reluciereis"],"p3":["relucieren"]},
     "CmdPos": {"s2":["reluce"],"vos":["relucí"],"s3":["reluzca"],"p1":["reluzcamos"],"p2":["relucid"],"p3":["reluzcan"]}

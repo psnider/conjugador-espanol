@@ -12,7 +12,7 @@
     "IndPret": {"s1":["afluí"],"s2":["afluiste"],"vos":["afluiste"],"s3":["afluyó"],"p1":["afluimos"],"p2":["afluisteis"],"p3":["afluyeron"]},
     "IndFut": {"s1":["afluiré"],"s2":["afluirás"],"vos":["afluirás"],"s3":["afluirá"],"p1":["afluiremos"],"p2":["afluiréis"],"p3":["afluirán"]},
     "IndCond": {"s1":["afluiría"],"s2":["afluirías"],"vos":["afluirías"],"s3":["afluiría"],"p1":["afluiríamos"],"p2":["afluiríais"],"p3":["afluirían"]},
-    "SubPres": {"s1":["afluya"],"s2":["afluyas"],"vos":["afluyas","afluyás"],"s3":["afluya"],"p1":["afluyamos"],"p2":["afluyáis"],"p3":["afluyan"]},
+    "SubPres": {"s1":["afluya"],"s2":["afluyas"],"vos":[{"forma": "afluyas","uso":"Riop."},{"forma":"afluyás","uso":"C.Am."}],"s3":["afluya"],"p1":["afluyamos"],"p2":["afluyáis"],"p3":["afluyan"]},
     "SubImp": {"s1":["afluyera","afluyese"],"s2":["afluyeras","afluyeses"],"vos":["afluyeras","afluyeses"],"s3":["afluyera","afluyese"],"p1":["afluyéramos","afluyésemos"],"p2":["afluyerais","afluyeseis"],"p3":["afluyeran","afluyesen"]},
     "SubFut": {"s1":["afluyere"],"s2":["afluyeres"],"vos":["afluyeres"],"s3":["afluyere"],"p1":["afluyéremos"],"p2":["afluyereis"],"p3":["afluyeren"]},
     "CmdPos": {"s2":["afluye"],"vos":["afluí"],"s3":["afluya"],"p1":["afluyamos"],"p2":["afluid"],"p3":["afluyan"]}

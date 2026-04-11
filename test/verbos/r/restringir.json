@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rest̪ɾĩŋˈxiɾ]",
+    "silabacion": "res-trin-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"restringir","gerundio":["restringiendo"],"participio":["restringido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["restrinjo"],"s2":["restringes"],"vos":["restringís"],"s3":["restringe"],"p1":["restringimos"],"p2":["restringís"],"p3":["restringen"]},
+    "IndImp": {"s1":["restringía"],"s2":["restringías"],"vos":["restringías"],"s3":["restringía"],"p1":["restringíamos"],"p2":["restringíais"],"p3":["restringían"]},
+    "IndPret": {"s1":["restringí"],"s2":["restringiste"],"vos":["restringiste"],"s3":["restringió"],"p1":["restringimos"],"p2":["restringisteis"],"p3":["restringieron"]},
+    "IndFut": {"s1":["restringiré"],"s2":["restringirás"],"vos":["restringirás"],"s3":["restringirá"],"p1":["restringiremos"],"p2":["restringiréis"],"p3":["restringirán"]},
+    "IndCond": {"s1":["restringiría"],"s2":["restringirías"],"vos":["restringirías"],"s3":["restringiría"],"p1":["restringiríamos"],"p2":["restringiríais"],"p3":["restringirían"]},
+    "SubPres": {"s1":["restrinja"],"s2":["restrinjas"],"vos":["restrinjas","restrinjás"],"s3":["restrinja"],"p1":["restrinjamos"],"p2":["restrinjáis"],"p3":["restrinjan"]},
+    "SubImp": {"s1":["restringiera","restringiese"],"s2":["restringieras","restringieses"],"vos":["restringieras","restringieses"],"s3":["restringiera","restringiese"],"p1":["restringiéramos","restringiésemos"],"p2":["restringierais","restringieseis"],"p3":["restringieran","restringiesen"]},
+    "SubFut": {"s1":["restringiere"],"s2":["restringieres"],"vos":["restringieres"],"s3":["restringiere"],"p1":["restringiéremos"],"p2":["restringiereis"],"p3":["restringieren"]},
+    "CmdPos": {"s2":["restringe"],"vos":["restringí"],"s3":["restrinja"],"p1":["restrinjamos"],"p2":["restringid"],"p3":["restrinjan"]}
+  }
+}

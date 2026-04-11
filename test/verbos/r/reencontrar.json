@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reencontré"],"s2":["reencontraste"],"vos":["reencontraste"],"s3":["reencontró"],"p1":["reencontramos"],"p2":["reencontrasteis"],"p3":["reencontraron"]},
     "IndFut": {"s1":["reencontraré"],"s2":["reencontrarás"],"vos":["reencontrarás"],"s3":["reencontrará"],"p1":["reencontraremos"],"p2":["reencontraréis"],"p3":["reencontrarán"]},
     "IndCond": {"s1":["reencontraría"],"s2":["reencontrarías"],"vos":["reencontrarías"],"s3":["reencontraría"],"p1":["reencontraríamos"],"p2":["reencontraríais"],"p3":["reencontrarían"]},
-    "SubPres": {"s1":["reencuentre"],"s2":["reencuentres"],"vos":["reencuentres","reencontrés"],"s3":["reencuentre"],"p1":["reencontremos"],"p2":["reencontréis"],"p3":["reencuentren"]},
+    "SubPres": {"s1":["reencuentre"],"s2":["reencuentres"],"vos":[{"forma": "reencuentres","uso":"Riop."},{"forma":"reencontrés","uso":"C.Am."}],"s3":["reencuentre"],"p1":["reencontremos"],"p2":["reencontréis"],"p3":["reencuentren"]},
     "SubImp": {"s1":["reencontrara","reencontrase"],"s2":["reencontraras","reencontrases"],"vos":["reencontraras","reencontrases"],"s3":["reencontrara","reencontrase"],"p1":["reencontráramos","reencontrásemos"],"p2":["reencontrarais","reencontraseis"],"p3":["reencontraran","reencontrasen"]},
     "SubFut": {"s1":["reencontrare"],"s2":["reencontrares"],"vos":["reencontrares"],"s3":["reencontrare"],"p1":["reencontráremos"],"p2":["reencontrareis"],"p3":["reencontraren"]},
     "CmdPos": {"s2":["reencuentra"],"vos":["reencontrá"],"s3":["reencuentre"],"p1":["reencontremos"],"p2":["reencontrad"],"p3":["reencuentren"]}

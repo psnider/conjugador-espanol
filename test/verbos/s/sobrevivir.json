@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sobreviví"],"s2":["sobreviviste"],"vos":["sobreviviste"],"s3":["sobrevivió"],"p1":["sobrevivimos"],"p2":["sobrevivisteis"],"p3":["sobrevivieron"]},
     "IndFut": {"s1":["sobreviviré"],"s2":["sobrevivirás"],"vos":["sobrevivirás"],"s3":["sobrevivirá"],"p1":["sobreviviremos"],"p2":["sobreviviréis"],"p3":["sobrevivirán"]},
     "IndCond": {"s1":["sobreviviría"],"s2":["sobrevivirías"],"vos":["sobrevivirías"],"s3":["sobreviviría"],"p1":["sobreviviríamos"],"p2":["sobreviviríais"],"p3":["sobrevivirían"]},
-    "SubPres": {"s1":["sobreviva"],"s2":["sobrevivas"],"vos":["sobrevivas","sobrevivás"],"s3":["sobreviva"],"p1":["sobrevivamos"],"p2":["sobreviváis"],"p3":["sobrevivan"]},
+    "SubPres": {"s1":["sobreviva"],"s2":["sobrevivas"],"vos":[{"forma": "sobrevivas","uso":"Riop."},{"forma":"sobrevivás","uso":"C.Am."}],"s3":["sobreviva"],"p1":["sobrevivamos"],"p2":["sobreviváis"],"p3":["sobrevivan"]},
     "SubImp": {"s1":["sobreviviera","sobreviviese"],"s2":["sobrevivieras","sobrevivieses"],"vos":["sobrevivieras","sobrevivieses"],"s3":["sobreviviera","sobreviviese"],"p1":["sobreviviéramos","sobreviviésemos"],"p2":["sobrevivierais","sobrevivieseis"],"p3":["sobrevivieran","sobreviviesen"]},
     "SubFut": {"s1":["sobreviviere"],"s2":["sobrevivieres"],"vos":["sobrevivieres"],"s3":["sobreviviere"],"p1":["sobreviviéremos"],"p2":["sobreviviereis"],"p3":["sobrevivieren"]},
     "CmdPos": {"s2":["sobrevive"],"vos":["sobreviví"],"s3":["sobreviva"],"p1":["sobrevivamos"],"p2":["sobrevivid"],"p3":["sobrevivan"]}

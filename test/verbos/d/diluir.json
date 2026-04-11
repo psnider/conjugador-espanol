@@ -12,7 +12,7 @@
     "IndPret": {"s1":["diluí"],"s2":["diluiste"],"vos":["diluiste"],"s3":["diluyó"],"p1":["diluimos"],"p2":["diluisteis"],"p3":["diluyeron"]},
     "IndFut": {"s1":["diluiré"],"s2":["diluirás"],"vos":["diluirás"],"s3":["diluirá"],"p1":["diluiremos"],"p2":["diluiréis"],"p3":["diluirán"]},
     "IndCond": {"s1":["diluiría"],"s2":["diluirías"],"vos":["diluirías"],"s3":["diluiría"],"p1":["diluiríamos"],"p2":["diluiríais"],"p3":["diluirían"]},
-    "SubPres": {"s1":["diluya"],"s2":["diluyas"],"vos":["diluyas","diluyás"],"s3":["diluya"],"p1":["diluyamos"],"p2":["diluyáis"],"p3":["diluyan"]},
+    "SubPres": {"s1":["diluya"],"s2":["diluyas"],"vos":[{"forma": "diluyas","uso":"Riop."},{"forma":"diluyás","uso":"C.Am."}],"s3":["diluya"],"p1":["diluyamos"],"p2":["diluyáis"],"p3":["diluyan"]},
     "SubImp": {"s1":["diluyera","diluyese"],"s2":["diluyeras","diluyeses"],"vos":["diluyeras","diluyeses"],"s3":["diluyera","diluyese"],"p1":["diluyéramos","diluyésemos"],"p2":["diluyerais","diluyeseis"],"p3":["diluyeran","diluyesen"]},
     "SubFut": {"s1":["diluyere"],"s2":["diluyeres"],"vos":["diluyeres"],"s3":["diluyere"],"p1":["diluyéremos"],"p2":["diluyereis"],"p3":["diluyeren"]},
     "CmdPos": {"s2":["diluye"],"vos":["diluí"],"s3":["diluya"],"p1":["diluyamos"],"p2":["diluid"],"p3":["diluyan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sospeché"],"s2":["sospechaste"],"vos":["sospechaste"],"s3":["sospechó"],"p1":["sospechamos"],"p2":["sospechasteis"],"p3":["sospecharon"]},
     "IndFut": {"s1":["sospecharé"],"s2":["sospecharás"],"vos":["sospecharás"],"s3":["sospechará"],"p1":["sospecharemos"],"p2":["sospecharéis"],"p3":["sospecharán"]},
     "IndCond": {"s1":["sospecharía"],"s2":["sospecharías"],"vos":["sospecharías"],"s3":["sospecharía"],"p1":["sospecharíamos"],"p2":["sospecharíais"],"p3":["sospecharían"]},
-    "SubPres": {"s1":["sospeche"],"s2":["sospeches"],"vos":["sospeches","sospechés"],"s3":["sospeche"],"p1":["sospechemos"],"p2":["sospechéis"],"p3":["sospechen"]},
+    "SubPres": {"s1":["sospeche"],"s2":["sospeches"],"vos":[{"forma": "sospeches","uso":"Riop."},{"forma":"sospechés","uso":"C.Am."}],"s3":["sospeche"],"p1":["sospechemos"],"p2":["sospechéis"],"p3":["sospechen"]},
     "SubImp": {"s1":["sospechara","sospechase"],"s2":["sospecharas","sospechases"],"vos":["sospecharas","sospechases"],"s3":["sospechara","sospechase"],"p1":["sospecháramos","sospechásemos"],"p2":["sospecharais","sospechaseis"],"p3":["sospecharan","sospechasen"]},
     "SubFut": {"s1":["sospechare"],"s2":["sospechares"],"vos":["sospechares"],"s3":["sospechare"],"p1":["sospecháremos"],"p2":["sospechareis"],"p3":["sospecharen"]},
     "CmdPos": {"s2":["sospecha"],"vos":["sospechá"],"s3":["sospeche"],"p1":["sospechemos"],"p2":["sospechad"],"p3":["sospechen"]}

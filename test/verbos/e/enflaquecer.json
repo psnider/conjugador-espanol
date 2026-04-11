@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enflaquecí"],"s2":["enflaqueciste"],"vos":["enflaqueciste"],"s3":["enflaqueció"],"p1":["enflaquecimos"],"p2":["enflaquecisteis"],"p3":["enflaquecieron"]},
     "IndFut": {"s1":["enflaqueceré"],"s2":["enflaquecerás"],"vos":["enflaquecerás"],"s3":["enflaquecerá"],"p1":["enflaqueceremos"],"p2":["enflaqueceréis"],"p3":["enflaquecerán"]},
     "IndCond": {"s1":["enflaquecería"],"s2":["enflaquecerías"],"vos":["enflaquecerías"],"s3":["enflaquecería"],"p1":["enflaqueceríamos"],"p2":["enflaqueceríais"],"p3":["enflaquecerían"]},
-    "SubPres": {"s1":["enflaquezca"],"s2":["enflaquezcas"],"vos":["enflaquezcas","enflaquezcás"],"s3":["enflaquezca"],"p1":["enflaquezcamos"],"p2":["enflaquezcáis"],"p3":["enflaquezcan"]},
+    "SubPres": {"s1":["enflaquezca"],"s2":["enflaquezcas"],"vos":[{"forma": "enflaquezcas","uso":"Riop."},{"forma":"enflaquezcás","uso":"C.Am."}],"s3":["enflaquezca"],"p1":["enflaquezcamos"],"p2":["enflaquezcáis"],"p3":["enflaquezcan"]},
     "SubImp": {"s1":["enflaqueciera","enflaqueciese"],"s2":["enflaquecieras","enflaquecieses"],"vos":["enflaquecieras","enflaquecieses"],"s3":["enflaqueciera","enflaqueciese"],"p1":["enflaqueciéramos","enflaqueciésemos"],"p2":["enflaquecierais","enflaquecieseis"],"p3":["enflaquecieran","enflaqueciesen"]},
     "SubFut": {"s1":["enflaqueciere"],"s2":["enflaquecieres"],"vos":["enflaquecieres"],"s3":["enflaqueciere"],"p1":["enflaqueciéremos"],"p2":["enflaqueciereis"],"p3":["enflaquecieren"]},
     "CmdPos": {"s2":["enflaquece"],"vos":["enflaquecé"],"s3":["enflaquezca"],"p1":["enflaquezcamos"],"p2":["enflaqueced"],"p3":["enflaquezcan"]}

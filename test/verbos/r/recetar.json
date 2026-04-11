@@ -13,7 +13,7 @@
     "IndPret": {"s1":["receté"],"s2":["recetaste"],"vos":["recetaste"],"s3":["recetó"],"p1":["recetamos"],"p2":["recetasteis"],"p3":["recetaron"]},
     "IndFut": {"s1":["recetaré"],"s2":["recetarás"],"vos":["recetarás"],"s3":["recetará"],"p1":["recetaremos"],"p2":["recetaréis"],"p3":["recetarán"]},
     "IndCond": {"s1":["recetaría"],"s2":["recetarías"],"vos":["recetarías"],"s3":["recetaría"],"p1":["recetaríamos"],"p2":["recetaríais"],"p3":["recetarían"]},
-    "SubPres": {"s1":["recete"],"s2":["recetes"],"vos":["recetes","recetés"],"s3":["recete"],"p1":["recetemos"],"p2":["recetéis"],"p3":["receten"]},
+    "SubPres": {"s1":["recete"],"s2":["recetes"],"vos":[{"forma": "recetes","uso":"Riop."},{"forma":"recetés","uso":"C.Am."}],"s3":["recete"],"p1":["recetemos"],"p2":["recetéis"],"p3":["receten"]},
     "SubImp": {"s1":["recetara","recetase"],"s2":["recetaras","recetases"],"vos":["recetaras","recetases"],"s3":["recetara","recetase"],"p1":["recetáramos","recetásemos"],"p2":["recetarais","recetaseis"],"p3":["recetaran","recetasen"]},
     "SubFut": {"s1":["recetare"],"s2":["recetares"],"vos":["recetares"],"s3":["recetare"],"p1":["recetáremos"],"p2":["recetareis"],"p3":["recetaren"]},
     "CmdPos": {"s2":["receta"],"vos":["recetá"],"s3":["recete"],"p1":["recetemos"],"p2":["recetad"],"p3":["receten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["descolgué"],"s2":["descolgaste"],"vos":["descolgaste"],"s3":["descolgó"],"p1":["descolgamos"],"p2":["descolgasteis"],"p3":["descolgaron"]},
     "IndFut": {"s1":["descolgaré"],"s2":["descolgarás"],"vos":["descolgarás"],"s3":["descolgará"],"p1":["descolgaremos"],"p2":["descolgaréis"],"p3":["descolgarán"]},
     "IndCond": {"s1":["descolgaría"],"s2":["descolgarías"],"vos":["descolgarías"],"s3":["descolgaría"],"p1":["descolgaríamos"],"p2":["descolgaríais"],"p3":["descolgarían"]},
-    "SubPres": {"s1":["descuelgue"],"s2":["descuelgues"],"vos":["descuelgues","descolgués"],"s3":["descuelgue"],"p1":["descolguemos"],"p2":["descolguéis"],"p3":["descuelguen"]},
+    "SubPres": {"s1":["descuelgue"],"s2":["descuelgues"],"vos":[{"forma": "descuelgues","uso":"Riop."},{"forma":"descolgués","uso":"C.Am."}],"s3":["descuelgue"],"p1":["descolguemos"],"p2":["descolguéis"],"p3":["descuelguen"]},
     "SubImp": {"s1":["descolgara","descolgase"],"s2":["descolgaras","descolgases"],"vos":["descolgaras","descolgases"],"s3":["descolgara","descolgase"],"p1":["descolgáramos","descolgásemos"],"p2":["descolgarais","descolgaseis"],"p3":["descolgaran","descolgasen"]},
     "SubFut": {"s1":["descolgare"],"s2":["descolgares"],"vos":["descolgares"],"s3":["descolgare"],"p1":["descolgáremos"],"p2":["descolgareis"],"p3":["descolgaren"]},
     "CmdPos": {"s2":["descuelga"],"vos":["descolgá"],"s3":["descuelgue"],"p1":["descolguemos"],"p2":["descolgad"],"p3":["descuelguen"]}

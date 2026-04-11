@@ -13,7 +13,7 @@
     "IndPret": {"s1":["promoví"],"s2":["promoviste"],"vos":["promoviste"],"s3":["promovió"],"p1":["promovimos"],"p2":["promovisteis"],"p3":["promovieron"]},
     "IndFut": {"s1":["promoveré"],"s2":["promoverás"],"vos":["promoverás"],"s3":["promoverá"],"p1":["promoveremos"],"p2":["promoveréis"],"p3":["promoverán"]},
     "IndCond": {"s1":["promovería"],"s2":["promoverías"],"vos":["promoverías"],"s3":["promovería"],"p1":["promoveríamos"],"p2":["promoveríais"],"p3":["promoverían"]},
-    "SubPres": {"s1":["promueva"],"s2":["promuevas"],"vos":["promuevas","promovás"],"s3":["promueva"],"p1":["promovamos"],"p2":["promováis"],"p3":["promuevan"]},
+    "SubPres": {"s1":["promueva"],"s2":["promuevas"],"vos":[{"forma": "promuevas","uso":"Riop."},{"forma":"promovás","uso":"C.Am."}],"s3":["promueva"],"p1":["promovamos"],"p2":["promováis"],"p3":["promuevan"]},
     "SubImp": {"s1":["promoviera","promoviese"],"s2":["promovieras","promovieses"],"vos":["promovieras","promovieses"],"s3":["promoviera","promoviese"],"p1":["promoviéramos","promoviésemos"],"p2":["promovierais","promovieseis"],"p3":["promovieran","promoviesen"]},
     "SubFut": {"s1":["promoviere"],"s2":["promovieres"],"vos":["promovieres"],"s3":["promoviere"],"p1":["promoviéremos"],"p2":["promoviereis"],"p3":["promovieren"]},
     "CmdPos": {"s2":["promueve"],"vos":["promové"],"s3":["promueva"],"p1":["promovamos"],"p2":["promoved"],"p3":["promuevan"]}

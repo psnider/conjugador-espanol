@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dolí"],"s2":["doliste"],"vos":["doliste"],"s3":["dolió"],"p1":["dolimos"],"p2":["dolisteis"],"p3":["dolieron"]},
     "IndFut": {"s1":["doleré"],"s2":["dolerás"],"vos":["dolerás"],"s3":["dolerá"],"p1":["doleremos"],"p2":["doleréis"],"p3":["dolerán"]},
     "IndCond": {"s1":["dolería"],"s2":["dolerías"],"vos":["dolerías"],"s3":["dolería"],"p1":["doleríamos"],"p2":["doleríais"],"p3":["dolerían"]},
-    "SubPres": {"s1":["duela"],"s2":["duelas"],"vos":["duelas","dolás"],"s3":["duela"],"p1":["dolamos"],"p2":["doláis"],"p3":["duelan"]},
+    "SubPres": {"s1":["duela"],"s2":["duelas"],"vos":[{"forma": "duelas","uso":"Riop."},{"forma":"dolás","uso":"C.Am."}],"s3":["duela"],"p1":["dolamos"],"p2":["doláis"],"p3":["duelan"]},
     "SubImp": {"s1":["doliera","doliese"],"s2":["dolieras","dolieses"],"vos":["dolieras","dolieses"],"s3":["doliera","doliese"],"p1":["doliéramos","doliésemos"],"p2":["dolierais","dolieseis"],"p3":["dolieran","doliesen"]},
     "SubFut": {"s1":["doliere"],"s2":["dolieres"],"vos":["dolieres"],"s3":["doliere"],"p1":["doliéremos"],"p2":["doliereis"],"p3":["dolieren"]},
     "CmdPos": {"s2":["duele"],"vos":["dolé"],"s3":["duela"],"p1":["dolamos"],"p2":["doled"],"p3":["duelan"]}

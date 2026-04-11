@@ -12,9 +12,9 @@
     "IndPret": {"s1":["desavine"],"s2":["desaviniste"],"vos":["desaviniste"],"s3":["desavino"],"p1":["desavinimos"],"p2":["desavinisteis"],"p3":["desavinieron"]},
     "IndFut": {"s1":["desavendré"],"s2":["desavendrás"],"vos":["desavendrás"],"s3":["desavendrá"],"p1":["desavendremos"],"p2":["desavendréis"],"p3":["desavendrán"]},
     "IndCond": {"s1":["desavendría"],"s2":["desavendrías"],"vos":["desavendrías"],"s3":["desavendría"],"p1":["desavendríamos"],"p2":["desavendríais"],"p3":["desavendrían"]},
-    "SubPres": {"s1":["desavenga"],"s2":["desavengas"],"vos":["desavengas","desavengás"],"s3":["desavenga"],"p1":["desavengamos"],"p2":["desavengáis"],"p3":["desavengan"]},
+    "SubPres": {"s1":["desavenga"],"s2":["desavengas"],"vos":[{"forma": "desavengas","uso":"Riop."},{"forma":"desavengás","uso":"C.Am."}],"s3":["desavenga"],"p1":["desavengamos"],"p2":["desavengáis"],"p3":["desavengan"]},
     "SubImp": {"s1":["desaviniera","desaviniese"],"s2":["desavinieras","desavinieses"],"vos":["desavinieras","desavinieses"],"s3":["desaviniera","desaviniese"],"p1":["desaviniéramos","desaviniésemos"],"p2":["desavinierais","desavinieseis"],"p3":["desavinieran","desaviniesen"]},
     "SubFut": {"s1":["desaviniere"],"s2":["desavinieres"],"vos":["desavinieres"],"s3":["desaviniere"],"p1":["desaviniéremos"],"p2":["desaviniereis"],"p3":["desavinieren"]},
-    "CmdPos": {"s2":{"estándar":["desavén"],"atípicos":[{"forma":"desaviene","etiquetas":["no normativo"]}]},"vos":["desavení"],"s3":["desavenga"],"p1":["desavengamos"],"p2":["desavenid"],"p3":["desavengan"]}
+    "CmdPos": {"s2":["desavén"],"vos":["desavení"],"s3":["desavenga"],"p1":["desavengamos"],"p2":["desavenid"],"p3":["desavengan"]}
   }
 }

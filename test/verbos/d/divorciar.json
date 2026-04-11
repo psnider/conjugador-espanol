@@ -12,7 +12,7 @@
     "IndPret": {"s1":["divorcié"],"s2":["divorciaste"],"vos":["divorciaste"],"s3":["divorció"],"p1":["divorciamos"],"p2":["divorciasteis"],"p3":["divorciaron"]},
     "IndFut": {"s1":["divorciaré"],"s2":["divorciarás"],"vos":["divorciarás"],"s3":["divorciará"],"p1":["divorciaremos"],"p2":["divorciaréis"],"p3":["divorciarán"]},
     "IndCond": {"s1":["divorciaría"],"s2":["divorciarías"],"vos":["divorciarías"],"s3":["divorciaría"],"p1":["divorciaríamos"],"p2":["divorciaríais"],"p3":["divorciarían"]},
-    "SubPres": {"s1":["divorcie"],"s2":["divorcies"],"vos":["divorcies","divorciés"],"s3":["divorcie"],"p1":["divorciemos"],"p2":["divorciéis"],"p3":["divorcien"]},
+    "SubPres": {"s1":["divorcie"],"s2":["divorcies"],"vos":[{"forma": "divorcies","uso":"Riop."},{"forma":"divorciés","uso":"C.Am."}],"s3":["divorcie"],"p1":["divorciemos"],"p2":["divorciéis"],"p3":["divorcien"]},
     "SubImp": {"s1":["divorciara","divorciase"],"s2":["divorciaras","divorciases"],"vos":["divorciaras","divorciases"],"s3":["divorciara","divorciase"],"p1":["divorciáramos","divorciásemos"],"p2":["divorciarais","divorciaseis"],"p3":["divorciaran","divorciasen"]},
     "SubFut": {"s1":["divorciare"],"s2":["divorciares"],"vos":["divorciares"],"s3":["divorciare"],"p1":["divorciáremos"],"p2":["divorciareis"],"p3":["divorciaren"]},
     "CmdPos": {"s2":["divorcia"],"vos":["divorciá"],"s3":["divorcie"],"p1":["divorciemos"],"p2":["divorciad"],"p3":["divorcien"]}

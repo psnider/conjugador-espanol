@@ -13,7 +13,7 @@
     "IndPret": {"s1":["solucioné"],"s2":["solucionaste"],"vos":["solucionaste"],"s3":["solucionó"],"p1":["solucionamos"],"p2":["solucionasteis"],"p3":["solucionaron"]},
     "IndFut": {"s1":["solucionaré"],"s2":["solucionarás"],"vos":["solucionarás"],"s3":["solucionará"],"p1":["solucionaremos"],"p2":["solucionaréis"],"p3":["solucionarán"]},
     "IndCond": {"s1":["solucionaría"],"s2":["solucionarías"],"vos":["solucionarías"],"s3":["solucionaría"],"p1":["solucionaríamos"],"p2":["solucionaríais"],"p3":["solucionarían"]},
-    "SubPres": {"s1":["solucione"],"s2":["soluciones"],"vos":["soluciones","solucionés"],"s3":["solucione"],"p1":["solucionemos"],"p2":["solucionéis"],"p3":["solucionen"]},
+    "SubPres": {"s1":["solucione"],"s2":["soluciones"],"vos":[{"forma": "soluciones","uso":"Riop."},{"forma":"solucionés","uso":"C.Am."}],"s3":["solucione"],"p1":["solucionemos"],"p2":["solucionéis"],"p3":["solucionen"]},
     "SubImp": {"s1":["solucionara","solucionase"],"s2":["solucionaras","solucionases"],"vos":["solucionaras","solucionases"],"s3":["solucionara","solucionase"],"p1":["solucionáramos","solucionásemos"],"p2":["solucionarais","solucionaseis"],"p3":["solucionaran","solucionasen"]},
     "SubFut": {"s1":["solucionare"],"s2":["solucionares"],"vos":["solucionares"],"s3":["solucionare"],"p1":["solucionáremos"],"p2":["solucionareis"],"p3":["solucionaren"]},
     "CmdPos": {"s2":["soluciona"],"vos":["solucioná"],"s3":["solucione"],"p1":["solucionemos"],"p2":["solucionad"],"p3":["solucionen"]}

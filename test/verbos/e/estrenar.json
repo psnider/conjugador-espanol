@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estrené"],"s2":["estrenaste"],"vos":["estrenaste"],"s3":["estrenó"],"p1":["estrenamos"],"p2":["estrenasteis"],"p3":["estrenaron"]},
     "IndFut": {"s1":["estrenaré"],"s2":["estrenarás"],"vos":["estrenarás"],"s3":["estrenará"],"p1":["estrenaremos"],"p2":["estrenaréis"],"p3":["estrenarán"]},
     "IndCond": {"s1":["estrenaría"],"s2":["estrenarías"],"vos":["estrenarías"],"s3":["estrenaría"],"p1":["estrenaríamos"],"p2":["estrenaríais"],"p3":["estrenarían"]},
-    "SubPres": {"s1":["estrene"],"s2":["estrenes"],"vos":["estrenes","estrenés"],"s3":["estrene"],"p1":["estrenemos"],"p2":["estrenéis"],"p3":["estrenen"]},
+    "SubPres": {"s1":["estrene"],"s2":["estrenes"],"vos":[{"forma": "estrenes","uso":"Riop."},{"forma":"estrenés","uso":"C.Am."}],"s3":["estrene"],"p1":["estrenemos"],"p2":["estrenéis"],"p3":["estrenen"]},
     "SubImp": {"s1":["estrenara","estrenase"],"s2":["estrenaras","estrenases"],"vos":["estrenaras","estrenases"],"s3":["estrenara","estrenase"],"p1":["estrenáramos","estrenásemos"],"p2":["estrenarais","estrenaseis"],"p3":["estrenaran","estrenasen"]},
     "SubFut": {"s1":["estrenare"],"s2":["estrenares"],"vos":["estrenares"],"s3":["estrenare"],"p1":["estrenáremos"],"p2":["estrenareis"],"p3":["estrenaren"]},
     "CmdPos": {"s2":["estrena"],"vos":["estrená"],"s3":["estrene"],"p1":["estrenemos"],"p2":["estrenad"],"p3":["estrenen"]}

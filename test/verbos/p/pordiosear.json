@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pordioseé"],"s2":["pordioseaste"],"vos":["pordioseaste"],"s3":["pordioseó"],"p1":["pordioseamos"],"p2":["pordioseasteis"],"p3":["pordiosearon"]},
     "IndFut": {"s1":["pordiosearé"],"s2":["pordiosearás"],"vos":["pordiosearás"],"s3":["pordioseará"],"p1":["pordiosearemos"],"p2":["pordiosearéis"],"p3":["pordiosearán"]},
     "IndCond": {"s1":["pordiosearía"],"s2":["pordiosearías"],"vos":["pordiosearías"],"s3":["pordiosearía"],"p1":["pordiosearíamos"],"p2":["pordiosearíais"],"p3":["pordiosearían"]},
-    "SubPres": {"s1":["pordiosee"],"s2":["pordiosees"],"vos":["pordiosees","pordioseés"],"s3":["pordiosee"],"p1":["pordioseemos"],"p2":["pordioseéis"],"p3":["pordioseen"]},
+    "SubPres": {"s1":["pordiosee"],"s2":["pordiosees"],"vos":[{"forma": "pordiosees","uso":"Riop."},{"forma":"pordioseés","uso":"C.Am."}],"s3":["pordiosee"],"p1":["pordioseemos"],"p2":["pordioseéis"],"p3":["pordioseen"]},
     "SubImp": {"s1":["pordioseara","pordiosease"],"s2":["pordiosearas","pordioseases"],"vos":["pordiosearas","pordioseases"],"s3":["pordioseara","pordiosease"],"p1":["pordioseáramos","pordioseásemos"],"p2":["pordiosearais","pordioseaseis"],"p3":["pordiosearan","pordioseasen"]},
     "SubFut": {"s1":["pordioseare"],"s2":["pordioseares"],"vos":["pordioseares"],"s3":["pordioseare"],"p1":["pordioseáremos"],"p2":["pordioseareis"],"p3":["pordiosearen"]},
     "CmdPos": {"s2":["pordiosea"],"vos":["pordioseá"],"s3":["pordiosee"],"p1":["pordioseemos"],"p2":["pordiosead"],"p3":["pordioseen"]}

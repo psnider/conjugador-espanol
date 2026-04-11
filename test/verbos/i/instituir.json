@@ -12,7 +12,7 @@
     "IndPret": {"s1":["instituí"],"s2":["instituiste"],"vos":["instituiste"],"s3":["instituyó"],"p1":["instituimos"],"p2":["instituisteis"],"p3":["instituyeron"]},
     "IndFut": {"s1":["instituiré"],"s2":["instituirás"],"vos":["instituirás"],"s3":["instituirá"],"p1":["instituiremos"],"p2":["instituiréis"],"p3":["instituirán"]},
     "IndCond": {"s1":["instituiría"],"s2":["instituirías"],"vos":["instituirías"],"s3":["instituiría"],"p1":["instituiríamos"],"p2":["instituiríais"],"p3":["instituirían"]},
-    "SubPres": {"s1":["instituya"],"s2":["instituyas"],"vos":["instituyas","instituyás"],"s3":["instituya"],"p1":["instituyamos"],"p2":["instituyáis"],"p3":["instituyan"]},
+    "SubPres": {"s1":["instituya"],"s2":["instituyas"],"vos":[{"forma": "instituyas","uso":"Riop."},{"forma":"instituyás","uso":"C.Am."}],"s3":["instituya"],"p1":["instituyamos"],"p2":["instituyáis"],"p3":["instituyan"]},
     "SubImp": {"s1":["instituyera","instituyese"],"s2":["instituyeras","instituyeses"],"vos":["instituyeras","instituyeses"],"s3":["instituyera","instituyese"],"p1":["instituyéramos","instituyésemos"],"p2":["instituyerais","instituyeseis"],"p3":["instituyeran","instituyesen"]},
     "SubFut": {"s1":["instituyere"],"s2":["instituyeres"],"vos":["instituyeres"],"s3":["instituyere"],"p1":["instituyéremos"],"p2":["instituyereis"],"p3":["instituyeren"]},
     "CmdPos": {"s2":["instituye"],"vos":["instituí"],"s3":["instituya"],"p1":["instituyamos"],"p2":["instituid"],"p3":["instituyan"]}

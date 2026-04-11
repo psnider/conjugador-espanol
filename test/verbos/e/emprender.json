@@ -13,7 +13,7 @@
     "IndPret": {"s1":["emprendí"],"s2":["emprendiste"],"vos":["emprendiste"],"s3":["emprendió"],"p1":["emprendimos"],"p2":["emprendisteis"],"p3":["emprendieron"]},
     "IndFut": {"s1":["emprenderé"],"s2":["emprenderás"],"vos":["emprenderás"],"s3":["emprenderá"],"p1":["emprenderemos"],"p2":["emprenderéis"],"p3":["emprenderán"]},
     "IndCond": {"s1":["emprendería"],"s2":["emprenderías"],"vos":["emprenderías"],"s3":["emprendería"],"p1":["emprenderíamos"],"p2":["emprenderíais"],"p3":["emprenderían"]},
-    "SubPres": {"s1":["emprenda"],"s2":["emprendas"],"vos":["emprendas","emprendás"],"s3":["emprenda"],"p1":["emprendamos"],"p2":["emprendáis"],"p3":["emprendan"]},
+    "SubPres": {"s1":["emprenda"],"s2":["emprendas"],"vos":[{"forma": "emprendas","uso":"Riop."},{"forma":"emprendás","uso":"C.Am."}],"s3":["emprenda"],"p1":["emprendamos"],"p2":["emprendáis"],"p3":["emprendan"]},
     "SubImp": {"s1":["emprendiera","emprendiese"],"s2":["emprendieras","emprendieses"],"vos":["emprendieras","emprendieses"],"s3":["emprendiera","emprendiese"],"p1":["emprendiéramos","emprendiésemos"],"p2":["emprendierais","emprendieseis"],"p3":["emprendieran","emprendiesen"]},
     "SubFut": {"s1":["emprendiere"],"s2":["emprendieres"],"vos":["emprendieres"],"s3":["emprendiere"],"p1":["emprendiéremos"],"p2":["emprendiereis"],"p3":["emprendieren"]},
     "CmdPos": {"s2":["emprende"],"vos":["emprendé"],"s3":["emprenda"],"p1":["emprendamos"],"p2":["emprended"],"p3":["emprendan"]}

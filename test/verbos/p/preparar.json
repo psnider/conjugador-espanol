@@ -13,7 +13,7 @@
     "IndPret": {"s1":["preparé"],"s2":["preparaste"],"vos":["preparaste"],"s3":["preparó"],"p1":["preparamos"],"p2":["preparasteis"],"p3":["prepararon"]},
     "IndFut": {"s1":["prepararé"],"s2":["prepararás"],"vos":["prepararás"],"s3":["preparará"],"p1":["prepararemos"],"p2":["prepararéis"],"p3":["prepararán"]},
     "IndCond": {"s1":["prepararía"],"s2":["prepararías"],"vos":["prepararías"],"s3":["prepararía"],"p1":["prepararíamos"],"p2":["prepararíais"],"p3":["prepararían"]},
-    "SubPres": {"s1":["prepare"],"s2":["prepares"],"vos":["prepares","preparés"],"s3":["prepare"],"p1":["preparemos"],"p2":["preparéis"],"p3":["preparen"]},
+    "SubPres": {"s1":["prepare"],"s2":["prepares"],"vos":[{"forma": "prepares","uso":"Riop."},{"forma":"preparés","uso":"C.Am."}],"s3":["prepare"],"p1":["preparemos"],"p2":["preparéis"],"p3":["preparen"]},
     "SubImp": {"s1":["preparara","preparase"],"s2":["prepararas","preparases"],"vos":["prepararas","preparases"],"s3":["preparara","preparase"],"p1":["preparáramos","preparásemos"],"p2":["prepararais","preparaseis"],"p3":["prepararan","preparasen"]},
     "SubFut": {"s1":["preparare"],"s2":["preparares"],"vos":["preparares"],"s3":["preparare"],"p1":["preparáremos"],"p2":["preparareis"],"p3":["prepararen"]},
     "CmdPos": {"s2":["prepara"],"vos":["prepará"],"s3":["prepare"],"p1":["preparemos"],"p2":["preparad"],"p3":["preparen"]}

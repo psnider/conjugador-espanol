@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sequé"],"s2":["secaste"],"vos":["secaste"],"s3":["secó"],"p1":["secamos"],"p2":["secasteis"],"p3":["secaron"]},
     "IndFut": {"s1":["secaré"],"s2":["secarás"],"vos":["secarás"],"s3":["secará"],"p1":["secaremos"],"p2":["secaréis"],"p3":["secarán"]},
     "IndCond": {"s1":["secaría"],"s2":["secarías"],"vos":["secarías"],"s3":["secaría"],"p1":["secaríamos"],"p2":["secaríais"],"p3":["secarían"]},
-    "SubPres": {"s1":["seque"],"s2":["seques"],"vos":["seques","sequés"],"s3":["seque"],"p1":["sequemos"],"p2":["sequéis"],"p3":["sequen"]},
+    "SubPres": {"s1":["seque"],"s2":["seques"],"vos":[{"forma": "seques","uso":"Riop."},{"forma":"sequés","uso":"C.Am."}],"s3":["seque"],"p1":["sequemos"],"p2":["sequéis"],"p3":["sequen"]},
     "SubImp": {"s1":["secara","secase"],"s2":["secaras","secases"],"vos":["secaras","secases"],"s3":["secara","secase"],"p1":["secáramos","secásemos"],"p2":["secarais","secaseis"],"p3":["secaran","secasen"]},
     "SubFut": {"s1":["secare"],"s2":["secares"],"vos":["secares"],"s3":["secare"],"p1":["secáremos"],"p2":["secareis"],"p3":["secaren"]},
     "CmdPos": {"s2":["seca"],"vos":["secá"],"s3":["seque"],"p1":["sequemos"],"p2":["secad"],"p3":["sequen"]}

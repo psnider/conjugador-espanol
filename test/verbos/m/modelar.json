@@ -13,7 +13,7 @@
     "IndPret": {"s1":["modelé"],"s2":["modelaste"],"vos":["modelaste"],"s3":["modeló"],"p1":["modelamos"],"p2":["modelasteis"],"p3":["modelaron"]},
     "IndFut": {"s1":["modelaré"],"s2":["modelarás"],"vos":["modelarás"],"s3":["modelará"],"p1":["modelaremos"],"p2":["modelaréis"],"p3":["modelarán"]},
     "IndCond": {"s1":["modelaría"],"s2":["modelarías"],"vos":["modelarías"],"s3":["modelaría"],"p1":["modelaríamos"],"p2":["modelaríais"],"p3":["modelarían"]},
-    "SubPres": {"s1":["modele"],"s2":["modeles"],"vos":["modeles","modelés"],"s3":["modele"],"p1":["modelemos"],"p2":["modeléis"],"p3":["modelen"]},
+    "SubPres": {"s1":["modele"],"s2":["modeles"],"vos":[{"forma": "modeles","uso":"Riop."},{"forma":"modelés","uso":"C.Am."}],"s3":["modele"],"p1":["modelemos"],"p2":["modeléis"],"p3":["modelen"]},
     "SubImp": {"s1":["modelara","modelase"],"s2":["modelaras","modelases"],"vos":["modelaras","modelases"],"s3":["modelara","modelase"],"p1":["modeláramos","modelásemos"],"p2":["modelarais","modelaseis"],"p3":["modelaran","modelasen"]},
     "SubFut": {"s1":["modelare"],"s2":["modelares"],"vos":["modelares"],"s3":["modelare"],"p1":["modeláremos"],"p2":["modelareis"],"p3":["modelaren"]},
     "CmdPos": {"s2":["modela"],"vos":["modelá"],"s3":["modele"],"p1":["modelemos"],"p2":["modelad"],"p3":["modelen"]}

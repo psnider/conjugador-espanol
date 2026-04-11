@@ -13,7 +13,7 @@
     "IndPret": {"s1":["adherí"],"s2":["adheriste"],"vos":["adheriste"],"s3":["adhirió"],"p1":["adherimos"],"p2":["adheristeis"],"p3":["adhirieron"]},
     "IndFut": {"s1":["adheriré"],"s2":["adherirás"],"vos":["adherirás"],"s3":["adherirá"],"p1":["adheriremos"],"p2":["adheriréis"],"p3":["adherirán"]},
     "IndCond": {"s1":["adheriría"],"s2":["adherirías"],"vos":["adherirías"],"s3":["adheriría"],"p1":["adheriríamos"],"p2":["adheriríais"],"p3":["adherirían"]},
-    "SubPres": {"s1":["adhiera"],"s2":["adhieras"],"vos":["adhieras","adhirás"],"s3":["adhiera"],"p1":["adhiramos"],"p2":["adhiráis"],"p3":["adhieran"]},
+    "SubPres": {"s1":["adhiera"],"s2":["adhieras"],"vos":[{"forma": "adhieras","uso":"Riop."},{"forma":"adhirás","uso":"C.Am."}],"s3":["adhiera"],"p1":["adhiramos"],"p2":["adhiráis"],"p3":["adhieran"]},
     "SubImp": {"s1":["adhiriera","adhiriese"],"s2":["adhirieras","adhirieses"],"vos":["adhirieras","adhirieses"],"s3":["adhiriera","adhiriese"],"p1":["adhiriéramos","adhiriésemos"],"p2":["adhirierais","adhirieseis"],"p3":["adhirieran","adhiriesen"]},
     "SubFut": {"s1":["adhiriere"],"s2":["adhirieres"],"vos":["adhirieres"],"s3":["adhiriere"],"p1":["adhiriéremos"],"p2":["adhiriereis"],"p3":["adhirieren"]},
     "CmdPos": {"s2":["adhiere"],"vos":["adherí"],"s3":["adhiera"],"p1":["adhiramos"],"p2":["adherid"],"p3":["adhieran"]}

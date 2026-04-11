@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desplumé"],"s2":["desplumaste"],"vos":["desplumaste"],"s3":["desplumó"],"p1":["desplumamos"],"p2":["desplumasteis"],"p3":["desplumaron"]},
     "IndFut": {"s1":["desplumaré"],"s2":["desplumarás"],"vos":["desplumarás"],"s3":["desplumará"],"p1":["desplumaremos"],"p2":["desplumaréis"],"p3":["desplumarán"]},
     "IndCond": {"s1":["desplumaría"],"s2":["desplumarías"],"vos":["desplumarías"],"s3":["desplumaría"],"p1":["desplumaríamos"],"p2":["desplumaríais"],"p3":["desplumarían"]},
-    "SubPres": {"s1":["desplume"],"s2":["desplumes"],"vos":["desplumes","desplumés"],"s3":["desplume"],"p1":["desplumemos"],"p2":["despluméis"],"p3":["desplumen"]},
+    "SubPres": {"s1":["desplume"],"s2":["desplumes"],"vos":[{"forma": "desplumes","uso":"Riop."},{"forma":"desplumés","uso":"C.Am."}],"s3":["desplume"],"p1":["desplumemos"],"p2":["despluméis"],"p3":["desplumen"]},
     "SubImp": {"s1":["desplumara","desplumase"],"s2":["desplumaras","desplumases"],"vos":["desplumaras","desplumases"],"s3":["desplumara","desplumase"],"p1":["desplumáramos","desplumásemos"],"p2":["desplumarais","desplumaseis"],"p3":["desplumaran","desplumasen"]},
     "SubFut": {"s1":["desplumare"],"s2":["desplumares"],"vos":["desplumares"],"s3":["desplumare"],"p1":["desplumáremos"],"p2":["desplumareis"],"p3":["desplumaren"]},
     "CmdPos": {"s2":["despluma"],"vos":["desplumá"],"s3":["desplume"],"p1":["desplumemos"],"p2":["desplumad"],"p3":["desplumen"]}

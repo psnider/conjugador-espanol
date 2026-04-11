@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atropellé"],"s2":["atropellaste"],"vos":["atropellaste"],"s3":["atropelló"],"p1":["atropellamos"],"p2":["atropellasteis"],"p3":["atropellaron"]},
     "IndFut": {"s1":["atropellaré"],"s2":["atropellarás"],"vos":["atropellarás"],"s3":["atropellará"],"p1":["atropellaremos"],"p2":["atropellaréis"],"p3":["atropellarán"]},
     "IndCond": {"s1":["atropellaría"],"s2":["atropellarías"],"vos":["atropellarías"],"s3":["atropellaría"],"p1":["atropellaríamos"],"p2":["atropellaríais"],"p3":["atropellarían"]},
-    "SubPres": {"s1":["atropelle"],"s2":["atropelles"],"vos":["atropelles","atropellés"],"s3":["atropelle"],"p1":["atropellemos"],"p2":["atropelléis"],"p3":["atropellen"]},
+    "SubPres": {"s1":["atropelle"],"s2":["atropelles"],"vos":[{"forma": "atropelles","uso":"Riop."},{"forma":"atropellés","uso":"C.Am."}],"s3":["atropelle"],"p1":["atropellemos"],"p2":["atropelléis"],"p3":["atropellen"]},
     "SubImp": {"s1":["atropellara","atropellase"],"s2":["atropellaras","atropellases"],"vos":["atropellaras","atropellases"],"s3":["atropellara","atropellase"],"p1":["atropelláramos","atropellásemos"],"p2":["atropellarais","atropellaseis"],"p3":["atropellaran","atropellasen"]},
     "SubFut": {"s1":["atropellare"],"s2":["atropellares"],"vos":["atropellares"],"s3":["atropellare"],"p1":["atropelláremos"],"p2":["atropellareis"],"p3":["atropellaren"]},
     "CmdPos": {"s2":["atropella"],"vos":["atropellá"],"s3":["atropelle"],"p1":["atropellemos"],"p2":["atropellad"],"p3":["atropellen"]}

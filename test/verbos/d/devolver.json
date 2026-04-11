@@ -13,7 +13,7 @@
     "IndPret": {"s1":["devolví"],"s2":["devolviste"],"vos":["devolviste"],"s3":["devolvió"],"p1":["devolvimos"],"p2":["devolvisteis"],"p3":["devolvieron"]},
     "IndFut": {"s1":["devolveré"],"s2":["devolverás"],"vos":["devolverás"],"s3":["devolverá"],"p1":["devolveremos"],"p2":["devolveréis"],"p3":["devolverán"]},
     "IndCond": {"s1":["devolvería"],"s2":["devolverías"],"vos":["devolverías"],"s3":["devolvería"],"p1":["devolveríamos"],"p2":["devolveríais"],"p3":["devolverían"]},
-    "SubPres": {"s1":["devuelva"],"s2":["devuelvas"],"vos":["devuelvas","devolvás"],"s3":["devuelva"],"p1":["devolvamos"],"p2":["devolváis"],"p3":["devuelvan"]},
+    "SubPres": {"s1":["devuelva"],"s2":["devuelvas"],"vos":[{"forma": "devuelvas","uso":"Riop."},{"forma":"devolvás","uso":"C.Am."}],"s3":["devuelva"],"p1":["devolvamos"],"p2":["devolváis"],"p3":["devuelvan"]},
     "SubImp": {"s1":["devolviera","devolviese"],"s2":["devolvieras","devolvieses"],"vos":["devolvieras","devolvieses"],"s3":["devolviera","devolviese"],"p1":["devolviéramos","devolviésemos"],"p2":["devolvierais","devolvieseis"],"p3":["devolvieran","devolviesen"]},
     "SubFut": {"s1":["devolviere"],"s2":["devolvieres"],"vos":["devolvieres"],"s3":["devolviere"],"p1":["devolviéremos"],"p2":["devolviereis"],"p3":["devolvieren"]},
     "CmdPos": {"s2":["devuelve"],"vos":["devolvé"],"s3":["devuelva"],"p1":["devolvamos"],"p2":["devolved"],"p3":["devuelvan"]}

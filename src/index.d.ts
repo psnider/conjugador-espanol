@@ -2,13 +2,14 @@ import { VerbAspectRules } from "./regular-verb-rules.js"
 import { ModeloConjugacional, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
 
 // FIX: nomenclature: InfinitiveThemeVowelClass, or ConjugationClass, or InfinitiveConjugationClass
+// FIX: aclare esto: Note que "CmdNeg" se forma de "SubPres", y no es un propio modo_tiempo
 type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg" 
 type ConjugationOrDerivation = MoodTense | "Participles"
 
 
 interface Participios {
-    gerundio?: VerbForms
-    participio?: VerbForms
+    gerundio?: FormaConjugada[]
+    participio?: FormaConjugada[]
 }
 
 
@@ -24,57 +25,54 @@ interface MoodTenseMap<T> {
     SubFut?: T
 
     CmdPos?: T
-    CmdNeg?: T
 }
 
 
 // Person-number notation:
 // s = singular, p = plural
 // s1 = 1st person singular, p2 = 2nd person plural, etc.
-// Keys of GrammaticalPersons<T>
+// Keys of PersonasGramaticalesConVos<T>
 // This must match conjugation_keys[]
 type GrammaticalPerson = "s1" | "s2" | "s3" | "p1" | "p2" | "p3" | "vos"
 
 
-interface GrammaticalPersons<T> {
+interface PersonasGramaticalesConVos<T, T_Vos=T> {
     s1?: T
     s2?: T
     s3?: T
     p1?: T
     p2?: T
     p3?: T
-    // The absence of "vos" implies that it is the same as the "s2" form.
-    vos?: T
-}
-type VerbConjugation = GrammaticalPersons<VerbForms>
-
-
-
-export interface FormaAtípico {
-    forma: string            // la forma limpia
-    etiquetas?: string[]     // ["no normativo", "arcaico", "regional", "pre-2010", etc.]
-    nota?: string            // opcional, explicación corta si se quiere
+    // This may be set to null, in which case it forces the assumption of the value of the "s2" form.
+    vos?: T_Vos | null
 }
 
 
-export interface ConjugatedForms {
-    // La forma estándar
-    estándar: string[]
-    atípicos?: FormaAtípico[]
+// A collection of fully or partially conjugated verb forms.
+// Depending on the context, this may contain verb stems or suffixes in any stage of procssing.
+// In the case of stems, if this contains a single value, it is shared with and applied to all suffixes.
+// But in case when stems differ for each suffix, then the number of stems must match the number of suffixes.
+// In the case of "vos", the value may be only be either:
+// - a single shared value (a string)
+// - two FormasRestringidas, one with "uso"=="Riop." and one with "uso"=="C.Am.", in this order
+type VerbConjugation = PersonasGramaticalesConVos<FormaConjugada[]>
+
+
+export type Region = "Arg." | "C.Am." | "Col." | "Ur." | "Par." | "Riop."
+export type Uso = Region | "impersonal" | "no normativo" | "arcaico" | "pre-2010"
+
+
+// Para el subjuntivo de presente:
+// Rioplatense (Argentina, Paraguay y Uruguay) usa el estándar.
+// Centroamérica (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, y Chiapas, MX) y Colombia usa el otro.
+export interface FormaRestringida<T=string> {
+    // This may be unset/undefined by a transformation that doesnt change the value
+    forma?: T
+    uso: Uso
 }
 
 
-export type ConjugationSlot = VerbForms | ConjugatedForms
-
-
-export type ConjugaciónEstándarYAtípico = GrammaticalPersons<ConjugationSlot>
-
-
-export type ConjugaciónTabla = MoodTenseMap<ConjugaciónEstándarYAtípico>
-
-
-
-// The conjugated forms of a verb, or null if the form is disallowed.
+// The conjugated form of a verb, or null if the form is disallowed.
 // Two forms occur for:
 // - alternations (e.g. SubImp: -ra / -se)
 //   - amar,SubImp,p1 has ["amara", "amase"]
@@ -82,12 +80,44 @@ export type ConjugaciónTabla = MoodTenseMap<ConjugaciónEstándarYAtípico>
 //   - haber,IndPres,s2 has ["hay", "ha"]
 //   - ir,CmdPos,p1 has ["vayamos", "vamos"]
 // null occurs for weather verbs (llover) and commands, and for the s1 forms of Commands.
-type VerbForms = [string] | [string, string] | null
+
+
+// The conjugated forms of a verb, or null if the form is disallowed.
+// During conjugation, this may also hold a stem or a suffix of a form of a verb.
+// In lists of FormaConjugada, two forms occur for:
+// - alternations (e.g. SubImp: -ra / -se)
+//   - amar,SubImp,p1 has ["amara", "amase"]
+// - genuine lexical variants:
+//   - haber,IndPres,s2 has ["hay", "ha"]
+//   - ir,CmdPos,p1 has ["vayamos", "vamos"]
+// In some unusual cases, 3 forms are present, e.g.: yacer,IndPres,s1: ["yazco", "yazgo", "yago"]
+// And it appears that in other cases, such as regionalisms, even more forms could exist.
+// null is required for disallowed forms, such as for weather verbs (llover), and for the s1 forms of Commands.
+// For ease of reading, normal forms are specified with plain strings.
+// Restricted forms indicate the type of restriction in way that can be displayed to the user.
+export type FormaConjugada<T = string> = (string | FormaRestringida<T>)
+
+
+export type ConjugaciónEstándarYAtípico = PersonasGramaticalesConVos<FormaConjugada[]>
+
+
+export type ConjugaciónTabla = MoodTenseMap<ConjugaciónEstándarYAtípico>
+
+
+// Formas que no usan normalmente.
+// Por ejemplo para "acontecer" o "llover"
+export interface Defectos {
+    // Las personas que sí conjuga
+    personas?: GrammaticalPerson[]
+    // Las rasgos que sí conjuga
+    rasgos?: MoodTense[]
+}
 
 interface VerbConjugationAnnotation {
     infinitivo: string
     mood_tense_derivation?: ConjugationOrDerivation
     modelo: ModeloConjugacional
+    defectos?: Defectos
     // The non regular rules applied to this verb
     rules_applied?: any[]
     ok?: 0 | 1
@@ -155,13 +185,17 @@ export interface VerbConjugationRules<T> {
     // Only specified for the canonical verb, to which all others in the family refer.
     conjugation_family?: VerboClaseConjugacional
     stem_change_rule_id?: StemChangeRuleId
-    participle_rules?: ParticipleRules
+    participle_rules: ParticipleRules
     aspects: MoodTenseMap<T> 
 }
 
 
-export type StemChangeRuleId = "e:i" | "e:ie" | "i:í" | "i:ie" | "o:u" | "o:ue" | "u:ú" | "u:ue"
-type SuffixChangeType = "eer"
+
+// This "no change" rule is only for the case of skipping a stem change for a particular FormaConjugada.uso, e.g. para "vos"
+// It should not be used generally.
+// The special form of "e:" indicates that the "e" should be replaced with nothing, that is, it should be eliminated.
+export type StemChangeRuleId = "no change" | "e:" | "e:i" | "e:í" | "e:ie" | "i:í" | "i:ie" | "o:u" | "o:ue" | "u:ú" | "u:ue"
+// type SuffixChangeType = "eer"
 
 
 export interface VerbRulesApplied {
@@ -175,7 +209,8 @@ export interface VerbRulesApplied {
     suplicaciones?: VerbConjugation
     imperativo_tú?: VerbConjugation
     maintain_stressed_last_sylable?: VerbConjugation
-    prefixed?: VerbConjugation
+    prefijos_clase_conjugacional?: VerbConjugation
+    prefijos_productivos_y_no?: VerbConjugation
 }
 
 export interface ParticipleRulesApplied {

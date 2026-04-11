@@ -13,7 +13,7 @@
     "IndPret": {"s1":["soldé"],"s2":["soldaste"],"vos":["soldaste"],"s3":["soldó"],"p1":["soldamos"],"p2":["soldasteis"],"p3":["soldaron"]},
     "IndFut": {"s1":["soldaré"],"s2":["soldarás"],"vos":["soldarás"],"s3":["soldará"],"p1":["soldaremos"],"p2":["soldaréis"],"p3":["soldarán"]},
     "IndCond": {"s1":["soldaría"],"s2":["soldarías"],"vos":["soldarías"],"s3":["soldaría"],"p1":["soldaríamos"],"p2":["soldaríais"],"p3":["soldarían"]},
-    "SubPres": {"s1":["suelde"],"s2":["sueldes"],"vos":["sueldes","soldés"],"s3":["suelde"],"p1":["soldemos"],"p2":["soldéis"],"p3":["suelden"]},
+    "SubPres": {"s1":["suelde"],"s2":["sueldes"],"vos":[{"forma": "sueldes","uso":"Riop."},{"forma":"soldés","uso":"C.Am."}],"s3":["suelde"],"p1":["soldemos"],"p2":["soldéis"],"p3":["suelden"]},
     "SubImp": {"s1":["soldara","soldase"],"s2":["soldaras","soldases"],"vos":["soldaras","soldases"],"s3":["soldara","soldase"],"p1":["soldáramos","soldásemos"],"p2":["soldarais","soldaseis"],"p3":["soldaran","soldasen"]},
     "SubFut": {"s1":["soldare"],"s2":["soldares"],"vos":["soldares"],"s3":["soldare"],"p1":["soldáremos"],"p2":["soldareis"],"p3":["soldaren"]},
     "CmdPos": {"s2":["suelda"],"vos":["soldá"],"s3":["suelde"],"p1":["soldemos"],"p2":["soldad"],"p3":["suelden"]}

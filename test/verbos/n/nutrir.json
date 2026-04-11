@@ -13,7 +13,7 @@
     "IndPret": {"s1":["nutrí"],"s2":["nutriste"],"vos":["nutriste"],"s3":["nutrió"],"p1":["nutrimos"],"p2":["nutristeis"],"p3":["nutrieron"]},
     "IndFut": {"s1":["nutriré"],"s2":["nutrirás"],"vos":["nutrirás"],"s3":["nutrirá"],"p1":["nutriremos"],"p2":["nutriréis"],"p3":["nutrirán"]},
     "IndCond": {"s1":["nutriría"],"s2":["nutrirías"],"vos":["nutrirías"],"s3":["nutriría"],"p1":["nutriríamos"],"p2":["nutriríais"],"p3":["nutrirían"]},
-    "SubPres": {"s1":["nutra"],"s2":["nutras"],"vos":["nutras","nutrás"],"s3":["nutra"],"p1":["nutramos"],"p2":["nutráis"],"p3":["nutran"]},
+    "SubPres": {"s1":["nutra"],"s2":["nutras"],"vos":[{"forma": "nutras","uso":"Riop."},{"forma":"nutrás","uso":"C.Am."}],"s3":["nutra"],"p1":["nutramos"],"p2":["nutráis"],"p3":["nutran"]},
     "SubImp": {"s1":["nutriera","nutriese"],"s2":["nutrieras","nutrieses"],"vos":["nutrieras","nutrieses"],"s3":["nutriera","nutriese"],"p1":["nutriéramos","nutriésemos"],"p2":["nutrierais","nutrieseis"],"p3":["nutrieran","nutriesen"]},
     "SubFut": {"s1":["nutriere"],"s2":["nutrieres"],"vos":["nutrieres"],"s3":["nutriere"],"p1":["nutriéremos"],"p2":["nutriereis"],"p3":["nutrieren"]},
     "CmdPos": {"s2":["nutre"],"vos":["nutrí"],"s3":["nutra"],"p1":["nutramos"],"p2":["nutrid"],"p3":["nutran"]}

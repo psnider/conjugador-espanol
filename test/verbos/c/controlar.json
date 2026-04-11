@@ -13,7 +13,7 @@
     "IndPret": {"s1":["controlé"],"s2":["controlaste"],"vos":["controlaste"],"s3":["controló"],"p1":["controlamos"],"p2":["controlasteis"],"p3":["controlaron"]},
     "IndFut": {"s1":["controlaré"],"s2":["controlarás"],"vos":["controlarás"],"s3":["controlará"],"p1":["controlaremos"],"p2":["controlaréis"],"p3":["controlarán"]},
     "IndCond": {"s1":["controlaría"],"s2":["controlarías"],"vos":["controlarías"],"s3":["controlaría"],"p1":["controlaríamos"],"p2":["controlaríais"],"p3":["controlarían"]},
-    "SubPres": {"s1":["controle"],"s2":["controles"],"vos":["controles","controlés"],"s3":["controle"],"p1":["controlemos"],"p2":["controléis"],"p3":["controlen"]},
+    "SubPres": {"s1":["controle"],"s2":["controles"],"vos":[{"forma": "controles","uso":"Riop."},{"forma":"controlés","uso":"C.Am."}],"s3":["controle"],"p1":["controlemos"],"p2":["controléis"],"p3":["controlen"]},
     "SubImp": {"s1":["controlara","controlase"],"s2":["controlaras","controlases"],"vos":["controlaras","controlases"],"s3":["controlara","controlase"],"p1":["controláramos","controlásemos"],"p2":["controlarais","controlaseis"],"p3":["controlaran","controlasen"]},
     "SubFut": {"s1":["controlare"],"s2":["controlares"],"vos":["controlares"],"s3":["controlare"],"p1":["controláremos"],"p2":["controlareis"],"p3":["controlaren"]},
     "CmdPos": {"s2":["controla"],"vos":["controlá"],"s3":["controle"],"p1":["controlemos"],"p2":["controlad"],"p3":["controlen"]}

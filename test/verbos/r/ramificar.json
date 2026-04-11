@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ramifiqué"],"s2":["ramificaste"],"vos":["ramificaste"],"s3":["ramificó"],"p1":["ramificamos"],"p2":["ramificasteis"],"p3":["ramificaron"]},
     "IndFut": {"s1":["ramificaré"],"s2":["ramificarás"],"vos":["ramificarás"],"s3":["ramificará"],"p1":["ramificaremos"],"p2":["ramificaréis"],"p3":["ramificarán"]},
     "IndCond": {"s1":["ramificaría"],"s2":["ramificarías"],"vos":["ramificarías"],"s3":["ramificaría"],"p1":["ramificaríamos"],"p2":["ramificaríais"],"p3":["ramificarían"]},
-    "SubPres": {"s1":["ramifique"],"s2":["ramifiques"],"vos":["ramifiques","ramifiqués"],"s3":["ramifique"],"p1":["ramifiquemos"],"p2":["ramifiquéis"],"p3":["ramifiquen"]},
+    "SubPres": {"s1":["ramifique"],"s2":["ramifiques"],"vos":[{"forma": "ramifiques","uso":"Riop."},{"forma":"ramifiqués","uso":"C.Am."}],"s3":["ramifique"],"p1":["ramifiquemos"],"p2":["ramifiquéis"],"p3":["ramifiquen"]},
     "SubImp": {"s1":["ramificara","ramificase"],"s2":["ramificaras","ramificases"],"vos":["ramificaras","ramificases"],"s3":["ramificara","ramificase"],"p1":["ramificáramos","ramificásemos"],"p2":["ramificarais","ramificaseis"],"p3":["ramificaran","ramificasen"]},
     "SubFut": {"s1":["ramificare"],"s2":["ramificares"],"vos":["ramificares"],"s3":["ramificare"],"p1":["ramificáremos"],"p2":["ramificareis"],"p3":["ramificaren"]},
     "CmdPos": {"s2":["ramifica"],"vos":["ramificá"],"s3":["ramifique"],"p1":["ramifiquemos"],"p2":["ramificad"],"p3":["ramifiquen"]}

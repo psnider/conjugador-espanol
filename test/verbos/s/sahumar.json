@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sahumé"],"s2":["sahumaste"],"vos":["sahumaste"],"s3":["sahumó"],"p1":["sahumamos"],"p2":["sahumasteis"],"p3":["sahumaron"]},
     "IndFut": {"s1":["sahumaré"],"s2":["sahumarás"],"vos":["sahumarás"],"s3":["sahumará"],"p1":["sahumaremos"],"p2":["sahumaréis"],"p3":["sahumarán"]},
     "IndCond": {"s1":["sahumaría"],"s2":["sahumarías"],"vos":["sahumarías"],"s3":["sahumaría"],"p1":["sahumaríamos"],"p2":["sahumaríais"],"p3":["sahumarían"]},
-    "SubPres": {"s1":["sahúme"],"s2":["sahúmes"],"vos":["sahúmes","sahumés"],"s3":["sahúme"],"p1":["sahumemos"],"p2":["sahuméis"],"p3":["sahúmen"]},
+    "SubPres": {"s1":["sahúme"],"s2":["sahúmes"],"vos":[{"forma": "sahúmes","uso":"Riop."},{"forma":"sahumés","uso":"C.Am."}],"s3":["sahúme"],"p1":["sahumemos"],"p2":["sahuméis"],"p3":["sahúmen"]},
     "SubImp": {"s1":["sahumara","sahumase"],"s2":["sahumaras","sahumases"],"vos":["sahumaras","sahumases"],"s3":["sahumara","sahumase"],"p1":["sahumáramos","sahumásemos"],"p2":["sahumarais","sahumaseis"],"p3":["sahumaran","sahumasen"]},
     "SubFut": {"s1":["sahumare"],"s2":["sahumares"],"vos":["sahumares"],"s3":["sahumare"],"p1":["sahumáremos"],"p2":["sahumareis"],"p3":["sahumaren"]},
     "CmdPos": {"s2":["sahúma"],"vos":["sahumá"],"s3":["sahúme"],"p1":["sahumemos"],"p2":["sahumad"],"p3":["sahúmen"]}

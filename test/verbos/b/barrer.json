@@ -13,7 +13,7 @@
     "IndPret": {"s1":["barrí"],"s2":["barriste"],"vos":["barriste"],"s3":["barrió"],"p1":["barrimos"],"p2":["barristeis"],"p3":["barrieron"]},
     "IndFut": {"s1":["barreré"],"s2":["barrerás"],"vos":["barrerás"],"s3":["barrerá"],"p1":["barreremos"],"p2":["barreréis"],"p3":["barrerán"]},
     "IndCond": {"s1":["barrería"],"s2":["barrerías"],"vos":["barrerías"],"s3":["barrería"],"p1":["barreríamos"],"p2":["barreríais"],"p3":["barrerían"]},
-    "SubPres": {"s1":["barra"],"s2":["barras"],"vos":["barras","barrás"],"s3":["barra"],"p1":["barramos"],"p2":["barráis"],"p3":["barran"]},
+    "SubPres": {"s1":["barra"],"s2":["barras"],"vos":[{"forma": "barras","uso":"Riop."},{"forma":"barrás","uso":"C.Am."}],"s3":["barra"],"p1":["barramos"],"p2":["barráis"],"p3":["barran"]},
     "SubImp": {"s1":["barriera","barriese"],"s2":["barrieras","barrieses"],"vos":["barrieras","barrieses"],"s3":["barriera","barriese"],"p1":["barriéramos","barriésemos"],"p2":["barrierais","barrieseis"],"p3":["barrieran","barriesen"]},
     "SubFut": {"s1":["barriere"],"s2":["barrieres"],"vos":["barrieres"],"s3":["barriere"],"p1":["barriéremos"],"p2":["barriereis"],"p3":["barrieren"]},
     "CmdPos": {"s2":["barre"],"vos":["barré"],"s3":["barra"],"p1":["barramos"],"p2":["barred"],"p3":["barran"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conquisté"],"s2":["conquistaste"],"vos":["conquistaste"],"s3":["conquistó"],"p1":["conquistamos"],"p2":["conquistasteis"],"p3":["conquistaron"]},
     "IndFut": {"s1":["conquistaré"],"s2":["conquistarás"],"vos":["conquistarás"],"s3":["conquistará"],"p1":["conquistaremos"],"p2":["conquistaréis"],"p3":["conquistarán"]},
     "IndCond": {"s1":["conquistaría"],"s2":["conquistarías"],"vos":["conquistarías"],"s3":["conquistaría"],"p1":["conquistaríamos"],"p2":["conquistaríais"],"p3":["conquistarían"]},
-    "SubPres": {"s1":["conquiste"],"s2":["conquistes"],"vos":["conquistes","conquistés"],"s3":["conquiste"],"p1":["conquistemos"],"p2":["conquistéis"],"p3":["conquisten"]},
+    "SubPres": {"s1":["conquiste"],"s2":["conquistes"],"vos":[{"forma": "conquistes","uso":"Riop."},{"forma":"conquistés","uso":"C.Am."}],"s3":["conquiste"],"p1":["conquistemos"],"p2":["conquistéis"],"p3":["conquisten"]},
     "SubImp": {"s1":["conquistara","conquistase"],"s2":["conquistaras","conquistases"],"vos":["conquistaras","conquistases"],"s3":["conquistara","conquistase"],"p1":["conquistáramos","conquistásemos"],"p2":["conquistarais","conquistaseis"],"p3":["conquistaran","conquistasen"]},
     "SubFut": {"s1":["conquistare"],"s2":["conquistares"],"vos":["conquistares"],"s3":["conquistare"],"p1":["conquistáremos"],"p2":["conquistareis"],"p3":["conquistaren"]},
     "CmdPos": {"s2":["conquista"],"vos":["conquistá"],"s3":["conquiste"],"p1":["conquistemos"],"p2":["conquistad"],"p3":["conquisten"]}

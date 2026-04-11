@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reprimí"],"s2":["reprimiste"],"vos":["reprimiste"],"s3":["reprimió"],"p1":["reprimimos"],"p2":["reprimisteis"],"p3":["reprimieron"]},
     "IndFut": {"s1":["reprimiré"],"s2":["reprimirás"],"vos":["reprimirás"],"s3":["reprimirá"],"p1":["reprimiremos"],"p2":["reprimiréis"],"p3":["reprimirán"]},
     "IndCond": {"s1":["reprimiría"],"s2":["reprimirías"],"vos":["reprimirías"],"s3":["reprimiría"],"p1":["reprimiríamos"],"p2":["reprimiríais"],"p3":["reprimirían"]},
-    "SubPres": {"s1":["reprima"],"s2":["reprimas"],"vos":["reprimas","reprimás"],"s3":["reprima"],"p1":["reprimamos"],"p2":["reprimáis"],"p3":["repriman"]},
+    "SubPres": {"s1":["reprima"],"s2":["reprimas"],"vos":[{"forma": "reprimas","uso":"Riop."},{"forma":"reprimás","uso":"C.Am."}],"s3":["reprima"],"p1":["reprimamos"],"p2":["reprimáis"],"p3":["repriman"]},
     "SubImp": {"s1":["reprimiera","reprimiese"],"s2":["reprimieras","reprimieses"],"vos":["reprimieras","reprimieses"],"s3":["reprimiera","reprimiese"],"p1":["reprimiéramos","reprimiésemos"],"p2":["reprimierais","reprimieseis"],"p3":["reprimieran","reprimiesen"]},
     "SubFut": {"s1":["reprimiere"],"s2":["reprimieres"],"vos":["reprimieres"],"s3":["reprimiere"],"p1":["reprimiéremos"],"p2":["reprimiereis"],"p3":["reprimieren"]},
     "CmdPos": {"s2":["reprime"],"vos":["reprimí"],"s3":["reprima"],"p1":["reprimamos"],"p2":["reprimid"],"p3":["repriman"]}

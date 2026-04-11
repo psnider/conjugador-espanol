@@ -13,7 +13,7 @@
     "IndPret": {"s1":["suministré"],"s2":["suministraste"],"vos":["suministraste"],"s3":["suministró"],"p1":["suministramos"],"p2":["suministrasteis"],"p3":["suministraron"]},
     "IndFut": {"s1":["suministraré"],"s2":["suministrarás"],"vos":["suministrarás"],"s3":["suministrará"],"p1":["suministraremos"],"p2":["suministraréis"],"p3":["suministrarán"]},
     "IndCond": {"s1":["suministraría"],"s2":["suministrarías"],"vos":["suministrarías"],"s3":["suministraría"],"p1":["suministraríamos"],"p2":["suministraríais"],"p3":["suministrarían"]},
-    "SubPres": {"s1":["suministre"],"s2":["suministres"],"vos":["suministres","suministrés"],"s3":["suministre"],"p1":["suministremos"],"p2":["suministréis"],"p3":["suministren"]},
+    "SubPres": {"s1":["suministre"],"s2":["suministres"],"vos":[{"forma": "suministres","uso":"Riop."},{"forma":"suministrés","uso":"C.Am."}],"s3":["suministre"],"p1":["suministremos"],"p2":["suministréis"],"p3":["suministren"]},
     "SubImp": {"s1":["suministrara","suministrase"],"s2":["suministraras","suministrases"],"vos":["suministraras","suministrases"],"s3":["suministrara","suministrase"],"p1":["suministráramos","suministrásemos"],"p2":["suministrarais","suministraseis"],"p3":["suministraran","suministrasen"]},
     "SubFut": {"s1":["suministrare"],"s2":["suministrares"],"vos":["suministrares"],"s3":["suministrare"],"p1":["suministráremos"],"p2":["suministrareis"],"p3":["suministraren"]},
     "CmdPos": {"s2":["suministra"],"vos":["suministrá"],"s3":["suministre"],"p1":["suministremos"],"p2":["suministrad"],"p3":["suministren"]}

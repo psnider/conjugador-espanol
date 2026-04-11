@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atraje"],"s2":["atrajiste"],"vos":["atrajiste"],"s3":["atrajo"],"p1":["atrajimos"],"p2":["atrajisteis"],"p3":["atrajeron"]},
     "IndFut": {"s1":["atraeré"],"s2":["atraerás"],"vos":["atraerás"],"s3":["atraerá"],"p1":["atraeremos"],"p2":["atraeréis"],"p3":["atraerán"]},
     "IndCond": {"s1":["atraería"],"s2":["atraerías"],"vos":["atraerías"],"s3":["atraería"],"p1":["atraeríamos"],"p2":["atraeríais"],"p3":["atraerían"]},
-    "SubPres": {"s1":["atraiga"],"s2":["atraigas"],"vos":["atraigas","atraigás"],"s3":["atraiga"],"p1":["atraigamos"],"p2":["atraigáis"],"p3":["atraigan"]},
+    "SubPres": {"s1":["atraiga"],"s2":["atraigas"],"vos":[{"forma": "atraigas","uso":"Riop."},{"forma":"atraigás","uso":"C.Am."}],"s3":["atraiga"],"p1":["atraigamos"],"p2":["atraigáis"],"p3":["atraigan"]},
     "SubImp": {"s1":["atrajera","atrajese"],"s2":["atrajeras","atrajeses"],"vos":["atrajeras","atrajeses"],"s3":["atrajera","atrajese"],"p1":["atrajéramos","atrajésemos"],"p2":["atrajerais","atrajeseis"],"p3":["atrajeran","atrajesen"]},
     "SubFut": {"s1":["atrajere"],"s2":["atrajeres"],"vos":["atrajeres"],"s3":["atrajere"],"p1":["atrajéremos"],"p2":["atrajereis"],"p3":["atrajeren"]},
     "CmdPos": {"s2":["atrae"],"vos":["atraé"],"s3":["atraiga"],"p1":["atraigamos"],"p2":["atraed"],"p3":["atraigan"]}

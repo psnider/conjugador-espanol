@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pervertí"],"s2":["pervertiste"],"vos":["pervertiste"],"s3":["pervirtió"],"p1":["pervertimos"],"p2":["pervertisteis"],"p3":["pervirtieron"]},
     "IndFut": {"s1":["pervertiré"],"s2":["pervertirás"],"vos":["pervertirás"],"s3":["pervertirá"],"p1":["pervertiremos"],"p2":["pervertiréis"],"p3":["pervertirán"]},
     "IndCond": {"s1":["pervertiría"],"s2":["pervertirías"],"vos":["pervertirías"],"s3":["pervertiría"],"p1":["pervertiríamos"],"p2":["pervertiríais"],"p3":["pervertirían"]},
-    "SubPres": {"s1":["pervierta"],"s2":["perviertas"],"vos":["perviertas","pervirtás"],"s3":["pervierta"],"p1":["pervirtamos"],"p2":["pervirtáis"],"p3":["perviertan"]},
+    "SubPres": {"s1":["pervierta"],"s2":["perviertas"],"vos":[{"forma": "perviertas","uso":"Riop."},{"forma":"pervirtás","uso":"C.Am."}],"s3":["pervierta"],"p1":["pervirtamos"],"p2":["pervirtáis"],"p3":["perviertan"]},
     "SubImp": {"s1":["pervirtiera","pervirtiese"],"s2":["pervirtieras","pervirtieses"],"vos":["pervirtieras","pervirtieses"],"s3":["pervirtiera","pervirtiese"],"p1":["pervirtiéramos","pervirtiésemos"],"p2":["pervirtierais","pervirtieseis"],"p3":["pervirtieran","pervirtiesen"]},
     "SubFut": {"s1":["pervirtiere"],"s2":["pervirtieres"],"vos":["pervirtieres"],"s3":["pervirtiere"],"p1":["pervirtiéremos"],"p2":["pervirtiereis"],"p3":["pervirtieren"]},
     "CmdPos": {"s2":["pervierte"],"vos":["pervertí"],"s3":["pervierta"],"p1":["pervirtamos"],"p2":["pervertid"],"p3":["perviertan"]}

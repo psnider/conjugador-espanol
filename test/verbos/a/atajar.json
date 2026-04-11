@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atajé"],"s2":["atajaste"],"vos":["atajaste"],"s3":["atajó"],"p1":["atajamos"],"p2":["atajasteis"],"p3":["atajaron"]},
     "IndFut": {"s1":["atajaré"],"s2":["atajarás"],"vos":["atajarás"],"s3":["atajará"],"p1":["atajaremos"],"p2":["atajaréis"],"p3":["atajarán"]},
     "IndCond": {"s1":["atajaría"],"s2":["atajarías"],"vos":["atajarías"],"s3":["atajaría"],"p1":["atajaríamos"],"p2":["atajaríais"],"p3":["atajarían"]},
-    "SubPres": {"s1":["ataje"],"s2":["atajes"],"vos":["atajes","atajés"],"s3":["ataje"],"p1":["atajemos"],"p2":["atajéis"],"p3":["atajen"]},
+    "SubPres": {"s1":["ataje"],"s2":["atajes"],"vos":[{"forma": "atajes","uso":"Riop."},{"forma":"atajés","uso":"C.Am."}],"s3":["ataje"],"p1":["atajemos"],"p2":["atajéis"],"p3":["atajen"]},
     "SubImp": {"s1":["atajara","atajase"],"s2":["atajaras","atajases"],"vos":["atajaras","atajases"],"s3":["atajara","atajase"],"p1":["atajáramos","atajásemos"],"p2":["atajarais","atajaseis"],"p3":["atajaran","atajasen"]},
     "SubFut": {"s1":["atajare"],"s2":["atajares"],"vos":["atajares"],"s3":["atajare"],"p1":["atajáremos"],"p2":["atajareis"],"p3":["atajaren"]},
     "CmdPos": {"s2":["ataja"],"vos":["atajá"],"s3":["ataje"],"p1":["atajemos"],"p2":["atajad"],"p3":["atajen"]}

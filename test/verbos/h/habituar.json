@@ -12,7 +12,7 @@
     "IndPret": {"s1":["habitué"],"s2":["habituaste"],"vos":["habituaste"],"s3":["habituó"],"p1":["habituamos"],"p2":["habituasteis"],"p3":["habituaron"]},
     "IndFut": {"s1":["habituaré"],"s2":["habituarás"],"vos":["habituarás"],"s3":["habituará"],"p1":["habituaremos"],"p2":["habituaréis"],"p3":["habituarán"]},
     "IndCond": {"s1":["habituaría"],"s2":["habituarías"],"vos":["habituarías"],"s3":["habituaría"],"p1":["habituaríamos"],"p2":["habituaríais"],"p3":["habituarían"]},
-    "SubPres": {"s1":["habitúe"],"s2":["habitúes"],"vos":["habitúes","habitués"],"s3":["habitúe"],"p1":["habituemos"],"p2":["habituéis"],"p3":["habitúen"]},
+    "SubPres": {"s1":["habitúe"],"s2":["habitúes"],"vos":[{"forma": "habitúes","uso":"Riop."},{"forma":"habitués","uso":"C.Am."}],"s3":["habitúe"],"p1":["habituemos"],"p2":["habituéis"],"p3":["habitúen"]},
     "SubImp": {"s1":["habituara","habituase"],"s2":["habituaras","habituases"],"vos":["habituaras","habituases"],"s3":["habituara","habituase"],"p1":["habituáramos","habituásemos"],"p2":["habituarais","habituaseis"],"p3":["habituaran","habituasen"]},
     "SubFut": {"s1":["habituare"],"s2":["habituares"],"vos":["habituares"],"s3":["habituare"],"p1":["habituáremos"],"p2":["habituareis"],"p3":["habituaren"]},
     "CmdPos": {"s2":["habitúa"],"vos":["habituá"],"s3":["habitúe"],"p1":["habituemos"],"p2":["habituad"],"p3":["habitúen"]}

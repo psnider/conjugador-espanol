@@ -13,7 +13,7 @@
     "IndPret": {"s1":["creí"],"s2":["creíste"],"vos":["creíste"],"s3":["creyó"],"p1":["creímos"],"p2":["creísteis"],"p3":["creyeron"]},
     "IndFut": {"s1":["creeré"],"s2":["creerás"],"vos":["creerás"],"s3":["creerá"],"p1":["creeremos"],"p2":["creeréis"],"p3":["creerán"]},
     "IndCond": {"s1":["creería"],"s2":["creerías"],"vos":["creerías"],"s3":["creería"],"p1":["creeríamos"],"p2":["creeríais"],"p3":["creerían"]},
-    "SubPres": {"s1":["crea"],"s2":["creas"],"vos":["creas","creás"],"s3":["crea"],"p1":["creamos"],"p2":["creáis"],"p3":["crean"]},
+    "SubPres": {"s1":["crea"],"s2":["creas"],"vos":[{"forma": "creas","uso":"Riop."},{"forma":"creás","uso":"C.Am."}],"s3":["crea"],"p1":["creamos"],"p2":["creáis"],"p3":["crean"]},
     "SubImp": {"s1":["creyera","creyese"],"s2":["creyeras","creyeses"],"vos":["creyeras","creyeses"],"s3":["creyera","creyese"],"p1":["creyéramos","creyésemos"],"p2":["creyerais","creyeseis"],"p3":["creyeran","creyesen"]},
     "SubFut": {"s1":["creyere"],"s2":["creyeres"],"vos":["creyeres"],"s3":["creyere"],"p1":["creyéremos"],"p2":["creyereis"],"p3":["creyeren"]},
     "CmdPos": {"s2":["cree"],"vos":["creé"],"s3":["crea"],"p1":["creamos"],"p2":["creed"],"p3":["crean"]}

@@ -13,9 +13,9 @@
     "IndPret": {"s1":["abstuve"],"s2":["abstuviste"],"vos":["abstuviste"],"s3":["abstuvo"],"p1":["abstuvimos"],"p2":["abstuvisteis"],"p3":["abstuvieron"]},
     "IndFut": {"s1":["abstendré"],"s2":["abstendrás"],"vos":["abstendrás"],"s3":["abstendrá"],"p1":["abstendremos"],"p2":["abstendréis"],"p3":["abstendrán"]},
     "IndCond": {"s1":["abstendría"],"s2":["abstendrías"],"vos":["abstendrías"],"s3":["abstendría"],"p1":["abstendríamos"],"p2":["abstendríais"],"p3":["abstendrían"]},
-    "SubPres": {"s1":["abstenga"],"s2":["abstengas"],"vos":["abstengas","abstengás"],"s3":["abstenga"],"p1":["abstengamos"],"p2":["abstengáis"],"p3":["abstengan"]},
+    "SubPres": {"s1":["abstenga"],"s2":["abstengas"],"vos":[{"forma": "abstengas","uso":"Riop."},{"forma":"abstengás","uso":"C.Am."}],"s3":["abstenga"],"p1":["abstengamos"],"p2":["abstengáis"],"p3":["abstengan"]},
     "SubImp": {"s1":["abstuviera","abstuviese"],"s2":["abstuvieras","abstuvieses"],"vos":["abstuvieras","abstuvieses"],"s3":["abstuviera","abstuviese"],"p1":["abstuviéramos","abstuviésemos"],"p2":["abstuvierais","abstuvieseis"],"p3":["abstuvieran","abstuviesen"]},
     "SubFut": {"s1":["abstuviere"],"s2":["abstuvieres"],"vos":["abstuvieres"],"s3":["abstuviere"],"p1":["abstuviéremos"],"p2":["abstuviereis"],"p3":["abstuvieren"]},
-    "CmdPos": {"s2":{"estándar":["abstén"],"atípicos":[{"forma":"abstiene","etiquetas":["no normativo"]}]},"vos":["abstené"],"s3":["abstenga"],"p1":["abstengamos"],"p2":["abstened"],"p3":["abstengan"]}
+    "CmdPos": {"s2":["abstén"],"vos":["abstené"],"s3":["abstenga"],"p1":["abstengamos"],"p2":["abstened"],"p3":["abstengan"]}
   }
 }

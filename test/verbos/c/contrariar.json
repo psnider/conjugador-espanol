@@ -12,7 +12,7 @@
     "IndPret": {"s1":["contrarié"],"s2":["contrariaste"],"vos":["contrariaste"],"s3":["contrarió"],"p1":["contrariamos"],"p2":["contrariasteis"],"p3":["contrariaron"]},
     "IndFut": {"s1":["contrariaré"],"s2":["contrariarás"],"vos":["contrariarás"],"s3":["contrariará"],"p1":["contrariaremos"],"p2":["contrariaréis"],"p3":["contrariarán"]},
     "IndCond": {"s1":["contrariaría"],"s2":["contrariarías"],"vos":["contrariarías"],"s3":["contrariaría"],"p1":["contrariaríamos"],"p2":["contrariaríais"],"p3":["contrariarían"]},
-    "SubPres": {"s1":["contraríe"],"s2":["contraríes"],"vos":["contraríes","contrariés"],"s3":["contraríe"],"p1":["contrariemos"],"p2":["contrariéis"],"p3":["contraríen"]},
+    "SubPres": {"s1":["contraríe"],"s2":["contraríes"],"vos":[{"forma": "contraríes","uso":"Riop."},{"forma":"contrariés","uso":"C.Am."}],"s3":["contraríe"],"p1":["contrariemos"],"p2":["contrariéis"],"p3":["contraríen"]},
     "SubImp": {"s1":["contrariara","contrariase"],"s2":["contrariaras","contrariases"],"vos":["contrariaras","contrariases"],"s3":["contrariara","contrariase"],"p1":["contrariáramos","contrariásemos"],"p2":["contrariarais","contrariaseis"],"p3":["contrariaran","contrariasen"]},
     "SubFut": {"s1":["contrariare"],"s2":["contrariares"],"vos":["contrariares"],"s3":["contrariare"],"p1":["contrariáremos"],"p2":["contrariareis"],"p3":["contrariaren"]},
     "CmdPos": {"s2":["contraría"],"vos":["contrariá"],"s3":["contraríe"],"p1":["contrariemos"],"p2":["contrariad"],"p3":["contraríen"]}

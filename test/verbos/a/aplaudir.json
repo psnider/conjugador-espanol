@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aplaudí"],"s2":["aplaudiste"],"vos":["aplaudiste"],"s3":["aplaudió"],"p1":["aplaudimos"],"p2":["aplaudisteis"],"p3":["aplaudieron"]},
     "IndFut": {"s1":["aplaudiré"],"s2":["aplaudirás"],"vos":["aplaudirás"],"s3":["aplaudirá"],"p1":["aplaudiremos"],"p2":["aplaudiréis"],"p3":["aplaudirán"]},
     "IndCond": {"s1":["aplaudiría"],"s2":["aplaudirías"],"vos":["aplaudirías"],"s3":["aplaudiría"],"p1":["aplaudiríamos"],"p2":["aplaudiríais"],"p3":["aplaudirían"]},
-    "SubPres": {"s1":["aplauda"],"s2":["aplaudas"],"vos":["aplaudas","aplaudás"],"s3":["aplauda"],"p1":["aplaudamos"],"p2":["aplaudáis"],"p3":["aplaudan"]},
+    "SubPres": {"s1":["aplauda"],"s2":["aplaudas"],"vos":[{"forma": "aplaudas","uso":"Riop."},{"forma":"aplaudás","uso":"C.Am."}],"s3":["aplauda"],"p1":["aplaudamos"],"p2":["aplaudáis"],"p3":["aplaudan"]},
     "SubImp": {"s1":["aplaudiera","aplaudiese"],"s2":["aplaudieras","aplaudieses"],"vos":["aplaudieras","aplaudieses"],"s3":["aplaudiera","aplaudiese"],"p1":["aplaudiéramos","aplaudiésemos"],"p2":["aplaudierais","aplaudieseis"],"p3":["aplaudieran","aplaudiesen"]},
     "SubFut": {"s1":["aplaudiere"],"s2":["aplaudieres"],"vos":["aplaudieres"],"s3":["aplaudiere"],"p1":["aplaudiéremos"],"p2":["aplaudiereis"],"p3":["aplaudieren"]},
     "CmdPos": {"s2":["aplaude"],"vos":["aplaudí"],"s3":["aplauda"],"p1":["aplaudamos"],"p2":["aplaudid"],"p3":["aplaudan"]}

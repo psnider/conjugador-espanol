@@ -13,7 +13,7 @@
     "IndPret": {"s1":["bordé"],"s2":["bordaste"],"vos":["bordaste"],"s3":["bordó"],"p1":["bordamos"],"p2":["bordasteis"],"p3":["bordaron"]},
     "IndFut": {"s1":["bordaré"],"s2":["bordarás"],"vos":["bordarás"],"s3":["bordará"],"p1":["bordaremos"],"p2":["bordaréis"],"p3":["bordarán"]},
     "IndCond": {"s1":["bordaría"],"s2":["bordarías"],"vos":["bordarías"],"s3":["bordaría"],"p1":["bordaríamos"],"p2":["bordaríais"],"p3":["bordarían"]},
-    "SubPres": {"s1":["borde"],"s2":["bordes"],"vos":["bordes","bordés"],"s3":["borde"],"p1":["bordemos"],"p2":["bordéis"],"p3":["borden"]},
+    "SubPres": {"s1":["borde"],"s2":["bordes"],"vos":[{"forma": "bordes","uso":"Riop."},{"forma":"bordés","uso":"C.Am."}],"s3":["borde"],"p1":["bordemos"],"p2":["bordéis"],"p3":["borden"]},
     "SubImp": {"s1":["bordara","bordase"],"s2":["bordaras","bordases"],"vos":["bordaras","bordases"],"s3":["bordara","bordase"],"p1":["bordáramos","bordásemos"],"p2":["bordarais","bordaseis"],"p3":["bordaran","bordasen"]},
     "SubFut": {"s1":["bordare"],"s2":["bordares"],"vos":["bordares"],"s3":["bordare"],"p1":["bordáremos"],"p2":["bordareis"],"p3":["bordaren"]},
     "CmdPos": {"s2":["borda"],"vos":["bordá"],"s3":["borde"],"p1":["bordemos"],"p2":["bordad"],"p3":["borden"]}

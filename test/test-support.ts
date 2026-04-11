@@ -1,20 +1,11 @@
 import * as fs from 'node:fs'
-import { ConjugaciónEntero } from "."
-import { GrammaticalPersons, Participios, MoodTense, ConjugaciónEstándarYAtípico, VerbForms, MoodTenseMap} from "../src"
+import { ConjugaciónEntero, FailedTests } from "."
+import { Participios, MoodTense, ConjugaciónEstándarYAtípico, MoodTenseMap, FormaConjugada, GrammaticalPerson} from "../src"
 import { conjugateVerb } from "../src/conjugate-verb.js"
 import { deriveParticiples } from "../src/derive-participles.js";
-import { formsAreEqual, persons_w_vos_index } from "../src/lib.js";
-import { test_applyOrthographicalChanges } from "./test-orthographical-change.js"
+import { formasConjugadasIgual, persons_w_vos_index } from "../src/lib.js";
 
 
-export type ConjugaciónesFallidas = MoodTenseMap<VerbForms>
-
-
-export interface FailedTests {
-    gerundio?: VerbForms
-    participio?: VerbForms
-    conjugaciones?: ConjugaciónesFallidas
-}
 
 
 export function loadConjugaciónEntero(verb_filename: string) : ConjugaciónEntero {
@@ -30,14 +21,17 @@ export function findFailedTestsForParticiples(infinitivo: string, expected: Part
     expected_keys.forEach((expected_key: keyof Participios) => {
         const actual_value = actual[expected_key]
         const expected_value = expected[expected_key]
-        if (! formsAreEqual(actual_value, expected_value)) {
+        if (! formasConjugadasIgual(actual_value, expected_value)) {
             errors[expected_key] = expected_value
+            console.log(`ERROR: ${infinitivo},${expected_key}: actual=${JSON.stringify(actual_value)} expected=${JSON.stringify(expected_value)}`)
+            debugger
         }
     })
 }
 
 
-export function findFailedTestsForConjugations(infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, errors: FailedTests) {
+export function findFailedTestsForConjugations(args: {infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, defectos_personas?: GrammaticalPerson[], errors: FailedTests}) {
+    const {infinitivo, mood_tense, expected, defectos_personas, errors} = args
     const {forms: actual} = conjugateVerb(infinitivo, mood_tense)
     if (!expected) {
         if (actual) {
@@ -48,32 +42,28 @@ export function findFailedTestsForConjugations(infinitivo: string, mood_tense: M
     }
     const expected_keys = <Array <keyof ConjugaciónEstándarYAtípico>> Object.keys(expected)
     const remaining_keys = {...persons_w_vos_index}
+    // nota que si una forma no está en la lista canónica, no tiene que probarla
     for (const expected_key of expected_keys) {
+        // no evite pruebas para formas que existen en 
         const actual_forms = actual[expected_key]
-        const expected_forms = expected[expected_key]
-        if (Array.isArray(actual_forms) && Array.isArray(expected_forms)) {
-            if ((expected_key === "vos") && !actual.vos) {
-                if (Array.isArray(expected.s2)) {
-                    if (! formsAreEqual(expected_forms, expected.s2)) {
-                        errors[mood_tense] = errors[mood_tense] || {}
-                        errors[mood_tense].vos = expected_forms
-                    }
-                } else {
-                    const expected_s2_estándar = expected.s2.estándar
-                    // as of Mar 8, 2026: only test standard forms, y no los atípicos
-                    if (! formsAreEqual(expected_forms, <VerbForms> expected_s2_estándar)) {
-                        errors[mood_tense] = errors[mood_tense] || {}
-                        errors[mood_tense].vos = expected_forms
-                    }
-                }
-            } else {
-                if (! formsAreEqual(actual_forms, expected_forms)) {
-                    errors[mood_tense] = errors[mood_tense] || {}
-                    errors[mood_tense][expected_key] = expected_forms
-                }
+        let expected_forms = expected[expected_key]
+        if ((expected_key === "vos") && !actual.vos) {
+            if (! formasConjugadasIgual(expected.vos, expected.s2)) {
+                errors[mood_tense] = errors[mood_tense] || {}
+                errors[mood_tense][expected_key] = expected.vos
+                console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=undefined expected=${JSON.stringify(expected.vos)}`)
+                debugger
             }
-            delete remaining_keys[expected_key]
+        } else {
+            // as of Mar 25, 2026: test all forms
+            if (! formasConjugadasIgual(actual_forms, expected_forms)) {
+                errors[mood_tense] = errors[mood_tense] || {}
+                errors[mood_tense][expected_key] = expected_forms
+                console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=${JSON.stringify(actual_forms)} expected=${JSON.stringify(expected_forms)}`)
+                debugger
+            }
         }
+        delete remaining_keys[expected_key]
     }
     // FIX: is this even possible anymore?
     if (remaining_keys.length > 0) {
@@ -82,7 +72,7 @@ export function findFailedTestsForConjugations(infinitivo: string, mood_tense: M
 }
 
 
-const all_mood_tenses: MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos", "CmdNeg"]
+const all_mood_tenses: MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"]
 
 
 export function runTestsForInfinitive(infinitivo: string, verb_filename: string) : FailedTests {
@@ -92,11 +82,11 @@ export function runTestsForInfinitive(infinitivo: string, verb_filename: string)
     delete entero.formas_no_personales.infinitivo
     findFailedTestsForParticiples(infinitivo, entero.formas_no_personales, errors)
     for (const mood_tense of all_mood_tenses) {
-        if ((mood_tense === "CmdNeg") && !entero.formas_personales["CmdNeg"]) {
-            entero.formas_personales["CmdNeg"] = {...entero.formas_personales.SubPres}
-            delete entero.formas_personales["CmdNeg"].s1
+        const defectos = entero.defectos
+        if (!defectos?.rasgos?.includes(mood_tense)) {
+            const defectos_personas = defectos?.personas
+            findFailedTestsForConjugations({infinitivo, mood_tense, expected: entero.formas_personales[mood_tense], defectos_personas, errors})
         }
-        findFailedTestsForConjugations(infinitivo, mood_tense, entero.formas_personales[mood_tense], errors)
     }
     const has_errors = (Object.keys(errors).length > 0)
     return (has_errors ? errors : undefined)

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reinstalé"],"s2":["reinstalaste"],"vos":["reinstalaste"],"s3":["reinstaló"],"p1":["reinstalamos"],"p2":["reinstalasteis"],"p3":["reinstalaron"]},
     "IndFut": {"s1":["reinstalaré"],"s2":["reinstalarás"],"vos":["reinstalarás"],"s3":["reinstalará"],"p1":["reinstalaremos"],"p2":["reinstalaréis"],"p3":["reinstalarán"]},
     "IndCond": {"s1":["reinstalaría"],"s2":["reinstalarías"],"vos":["reinstalarías"],"s3":["reinstalaría"],"p1":["reinstalaríamos"],"p2":["reinstalaríais"],"p3":["reinstalarían"]},
-    "SubPres": {"s1":["reinstale"],"s2":["reinstales"],"vos":["reinstales","reinstalés"],"s3":["reinstale"],"p1":["reinstalemos"],"p2":["reinstaléis"],"p3":["reinstalen"]},
+    "SubPres": {"s1":["reinstale"],"s2":["reinstales"],"vos":[{"forma": "reinstales","uso":"Riop."},{"forma":"reinstalés","uso":"C.Am."}],"s3":["reinstale"],"p1":["reinstalemos"],"p2":["reinstaléis"],"p3":["reinstalen"]},
     "SubImp": {"s1":["reinstalara","reinstalase"],"s2":["reinstalaras","reinstalases"],"vos":["reinstalaras","reinstalases"],"s3":["reinstalara","reinstalase"],"p1":["reinstaláramos","reinstalásemos"],"p2":["reinstalarais","reinstalaseis"],"p3":["reinstalaran","reinstalasen"]},
     "SubFut": {"s1":["reinstalare"],"s2":["reinstalares"],"vos":["reinstalares"],"s3":["reinstalare"],"p1":["reinstaláremos"],"p2":["reinstalareis"],"p3":["reinstalaren"]},
     "CmdPos": {"s2":["reinstala"],"vos":["reinstalá"],"s3":["reinstale"],"p1":["reinstalemos"],"p2":["reinstalad"],"p3":["reinstalen"]}

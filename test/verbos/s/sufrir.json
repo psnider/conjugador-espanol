@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sufrí"],"s2":["sufriste"],"vos":["sufriste"],"s3":["sufrió"],"p1":["sufrimos"],"p2":["sufristeis"],"p3":["sufrieron"]},
     "IndFut": {"s1":["sufriré"],"s2":["sufrirás"],"vos":["sufrirás"],"s3":["sufrirá"],"p1":["sufriremos"],"p2":["sufriréis"],"p3":["sufrirán"]},
     "IndCond": {"s1":["sufriría"],"s2":["sufrirías"],"vos":["sufrirías"],"s3":["sufriría"],"p1":["sufriríamos"],"p2":["sufriríais"],"p3":["sufrirían"]},
-    "SubPres": {"s1":["sufra"],"s2":["sufras"],"vos":["sufras","sufrás"],"s3":["sufra"],"p1":["suframos"],"p2":["sufráis"],"p3":["sufran"]},
+    "SubPres": {"s1":["sufra"],"s2":["sufras"],"vos":[{"forma": "sufras","uso":"Riop."},{"forma":"sufrás","uso":"C.Am."}],"s3":["sufra"],"p1":["suframos"],"p2":["sufráis"],"p3":["sufran"]},
     "SubImp": {"s1":["sufriera","sufriese"],"s2":["sufrieras","sufrieses"],"vos":["sufrieras","sufrieses"],"s3":["sufriera","sufriese"],"p1":["sufriéramos","sufriésemos"],"p2":["sufrierais","sufrieseis"],"p3":["sufrieran","sufriesen"]},
     "SubFut": {"s1":["sufriere"],"s2":["sufrieres"],"vos":["sufrieres"],"s3":["sufriere"],"p1":["sufriéremos"],"p2":["sufriereis"],"p3":["sufrieren"]},
     "CmdPos": {"s2":["sufre"],"vos":["sufrí"],"s3":["sufra"],"p1":["suframos"],"p2":["sufrid"],"p3":["sufran"]}

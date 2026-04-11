@@ -13,7 +13,7 @@
     "IndPret": {"s1":["germiné"],"s2":["germinaste"],"vos":["germinaste"],"s3":["germinó"],"p1":["germinamos"],"p2":["germinasteis"],"p3":["germinaron"]},
     "IndFut": {"s1":["germinaré"],"s2":["germinarás"],"vos":["germinarás"],"s3":["germinará"],"p1":["germinaremos"],"p2":["germinaréis"],"p3":["germinarán"]},
     "IndCond": {"s1":["germinaría"],"s2":["germinarías"],"vos":["germinarías"],"s3":["germinaría"],"p1":["germinaríamos"],"p2":["germinaríais"],"p3":["germinarían"]},
-    "SubPres": {"s1":["germine"],"s2":["germines"],"vos":["germines","germinés"],"s3":["germine"],"p1":["germinemos"],"p2":["germinéis"],"p3":["germinen"]},
+    "SubPres": {"s1":["germine"],"s2":["germines"],"vos":[{"forma": "germines","uso":"Riop."},{"forma":"germinés","uso":"C.Am."}],"s3":["germine"],"p1":["germinemos"],"p2":["germinéis"],"p3":["germinen"]},
     "SubImp": {"s1":["germinara","germinase"],"s2":["germinaras","germinases"],"vos":["germinaras","germinases"],"s3":["germinara","germinase"],"p1":["germináramos","germinásemos"],"p2":["germinarais","germinaseis"],"p3":["germinaran","germinasen"]},
     "SubFut": {"s1":["germinare"],"s2":["germinares"],"vos":["germinares"],"s3":["germinare"],"p1":["germináremos"],"p2":["germinareis"],"p3":["germinaren"]},
     "CmdPos": {"s2":["germina"],"vos":["germiná"],"s3":["germine"],"p1":["germinemos"],"p2":["germinad"],"p3":["germinen"]}

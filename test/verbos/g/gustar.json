@@ -13,7 +13,7 @@
     "IndPret": {"s1":["gusté"],"s2":["gustaste"],"vos":["gustaste"],"s3":["gustó"],"p1":["gustamos"],"p2":["gustasteis"],"p3":["gustaron"]},
     "IndFut": {"s1":["gustaré"],"s2":["gustarás"],"vos":["gustarás"],"s3":["gustará"],"p1":["gustaremos"],"p2":["gustaréis"],"p3":["gustarán"]},
     "IndCond": {"s1":["gustaría"],"s2":["gustarías"],"vos":["gustarías"],"s3":["gustaría"],"p1":["gustaríamos"],"p2":["gustaríais"],"p3":["gustarían"]},
-    "SubPres": {"s1":["guste"],"s2":["gustes"],"vos":["gustes","gustés"],"s3":["guste"],"p1":["gustemos"],"p2":["gustéis"],"p3":["gusten"]},
+    "SubPres": {"s1":["guste"],"s2":["gustes"],"vos":[{"forma": "gustes","uso":"Riop."},{"forma":"gustés","uso":"C.Am."}],"s3":["guste"],"p1":["gustemos"],"p2":["gustéis"],"p3":["gusten"]},
     "SubImp": {"s1":["gustara","gustase"],"s2":["gustaras","gustases"],"vos":["gustaras","gustases"],"s3":["gustara","gustase"],"p1":["gustáramos","gustásemos"],"p2":["gustarais","gustaseis"],"p3":["gustaran","gustasen"]},
     "SubFut": {"s1":["gustare"],"s2":["gustares"],"vos":["gustares"],"s3":["gustare"],"p1":["gustáremos"],"p2":["gustareis"],"p3":["gustaren"]},
     "CmdPos": {"s2":["gusta"],"vos":["gustá"],"s3":["guste"],"p1":["gustemos"],"p2":["gustad"],"p3":["gusten"]}

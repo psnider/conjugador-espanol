@@ -13,7 +13,7 @@
     "IndPret": {"s1":["despedí"],"s2":["despediste"],"vos":["despediste"],"s3":["despidió"],"p1":["despedimos"],"p2":["despedisteis"],"p3":["despidieron"]},
     "IndFut": {"s1":["despediré"],"s2":["despedirás"],"vos":["despedirás"],"s3":["despedirá"],"p1":["despediremos"],"p2":["despediréis"],"p3":["despedirán"]},
     "IndCond": {"s1":["despediría"],"s2":["despedirías"],"vos":["despedirías"],"s3":["despediría"],"p1":["despediríamos"],"p2":["despediríais"],"p3":["despedirían"]},
-    "SubPres": {"s1":["despida"],"s2":["despidas"],"vos":["despidas","despidás"],"s3":["despida"],"p1":["despidamos"],"p2":["despidáis"],"p3":["despidan"]},
+    "SubPres": {"s1":["despida"],"s2":["despidas"],"vos":[{"forma": "despidas","uso":"Riop."},{"forma":"despidás","uso":"C.Am."}],"s3":["despida"],"p1":["despidamos"],"p2":["despidáis"],"p3":["despidan"]},
     "SubImp": {"s1":["despidiera","despidiese"],"s2":["despidieras","despidieses"],"vos":["despidieras","despidieses"],"s3":["despidiera","despidiese"],"p1":["despidiéramos","despidiésemos"],"p2":["despidierais","despidieseis"],"p3":["despidieran","despidiesen"]},
     "SubFut": {"s1":["despidiere"],"s2":["despidieres"],"vos":["despidieres"],"s3":["despidiere"],"p1":["despidiéremos"],"p2":["despidiereis"],"p3":["despidieren"]},
     "CmdPos": {"s2":["despide"],"vos":["despedí"],"s3":["despida"],"p1":["despidamos"],"p2":["despedid"],"p3":["despidan"]}

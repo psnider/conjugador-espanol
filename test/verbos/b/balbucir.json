@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[balβ̞uˈsiɾ]",
+    "silabacion": "bal-bu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín balbutīre.[1]",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"balbucir","gerundio":["balbuciendo"],"participio":["balbucido"]},
+  "formas_personales": {
+    "IndPres": {"s2":["balbuces"],"vos":["balbucís"],"s3":["balbuce"],"p1":["balbucimos"],"p2":["balbucís"],"p3":["balbucen"]},
+    "IndImp": {"s1":["balbucía"],"s2":["balbucías"],"vos":["balbucías"],"s3":["balbucía"],"p1":["balbucíamos"],"p2":["balbucíais"],"p3":["balbucían"]},
+    "IndPret": {"s1":["balbucí"],"s2":["balbuciste"],"vos":["balbuciste"],"s3":["balbució"],"p1":["balbucimos"],"p2":["balbucisteis"],"p3":["balbucieron"]},
+    "IndFut": {"s1":["balbuciré"],"s2":["balbucirás"],"vos":["balbucirás"],"s3":["balbucirá"],"p1":["balbuciremos"],"p2":["balbuciréis"],"p3":["balbucirán"]},
+    "IndCond": {"s1":["balbuciría"],"s2":["balbucirías"],"vos":["balbucirías"],"s3":["balbuciría"],"p1":["balbuciríamos"],"p2":["balbuciríais"],"p3":["balbucirían"]},
+    "SubPres": {},
+    "SubImp": {"s1":["balbuciera","balbuciese"],"s2":["balbucieras","balbucieses"],"vos":["balbucieras","balbucieses"],"s3":["balbuciera","balbuciese"],"p1":["balbuciéramos","balbuciésemos"],"p2":["balbucierais","balbucieseis"],"p3":["balbucieran","balbuciesen"]},
+    "SubFut": {"s1":["balbuciere"],"s2":["balbucieres"],"vos":["balbucieres"],"s3":["balbuciere"],"p1":["balbuciéremos"],"p2":["balbuciereis"],"p3":["balbucieren"]},
+    "CmdPos": {"s2":["balbuce"],"vos":["balbucí"],"p2":["balbucid"]}
+  }
+}

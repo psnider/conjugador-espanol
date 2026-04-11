@@ -13,7 +13,7 @@
     "IndPret": {"s1":["planché"],"s2":["planchaste"],"vos":["planchaste"],"s3":["planchó"],"p1":["planchamos"],"p2":["planchasteis"],"p3":["plancharon"]},
     "IndFut": {"s1":["plancharé"],"s2":["plancharás"],"vos":["plancharás"],"s3":["planchará"],"p1":["plancharemos"],"p2":["plancharéis"],"p3":["plancharán"]},
     "IndCond": {"s1":["plancharía"],"s2":["plancharías"],"vos":["plancharías"],"s3":["plancharía"],"p1":["plancharíamos"],"p2":["plancharíais"],"p3":["plancharían"]},
-    "SubPres": {"s1":["planche"],"s2":["planches"],"vos":["planches","planchés"],"s3":["planche"],"p1":["planchemos"],"p2":["planchéis"],"p3":["planchen"]},
+    "SubPres": {"s1":["planche"],"s2":["planches"],"vos":[{"forma": "planches","uso":"Riop."},{"forma":"planchés","uso":"C.Am."}],"s3":["planche"],"p1":["planchemos"],"p2":["planchéis"],"p3":["planchen"]},
     "SubImp": {"s1":["planchara","planchase"],"s2":["plancharas","planchases"],"vos":["plancharas","planchases"],"s3":["planchara","planchase"],"p1":["plancháramos","planchásemos"],"p2":["plancharais","planchaseis"],"p3":["plancharan","planchasen"]},
     "SubFut": {"s1":["planchare"],"s2":["planchares"],"vos":["planchares"],"s3":["planchare"],"p1":["plancháremos"],"p2":["planchareis"],"p3":["plancharen"]},
     "CmdPos": {"s2":["plancha"],"vos":["planchá"],"s3":["planche"],"p1":["planchemos"],"p2":["planchad"],"p3":["planchen"]}

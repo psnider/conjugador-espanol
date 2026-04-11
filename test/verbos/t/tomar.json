@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tomé"],"s2":["tomaste"],"vos":["tomaste"],"s3":["tomó"],"p1":["tomamos"],"p2":["tomasteis"],"p3":["tomaron"]},
     "IndFut": {"s1":["tomaré"],"s2":["tomarás"],"vos":["tomarás"],"s3":["tomará"],"p1":["tomaremos"],"p2":["tomaréis"],"p3":["tomarán"]},
     "IndCond": {"s1":["tomaría"],"s2":["tomarías"],"vos":["tomarías"],"s3":["tomaría"],"p1":["tomaríamos"],"p2":["tomaríais"],"p3":["tomarían"]},
-    "SubPres": {"s1":["tome"],"s2":["tomes"],"vos":["tomes","tomés"],"s3":["tome"],"p1":["tomemos"],"p2":["toméis"],"p3":["tomen"]},
+    "SubPres": {"s1":["tome"],"s2":["tomes"],"vos":[{"forma": "tomes","uso":"Riop."},{"forma":"tomés","uso":"C.Am."}],"s3":["tome"],"p1":["tomemos"],"p2":["toméis"],"p3":["tomen"]},
     "SubImp": {"s1":["tomara","tomase"],"s2":["tomaras","tomases"],"vos":["tomaras","tomases"],"s3":["tomara","tomase"],"p1":["tomáramos","tomásemos"],"p2":["tomarais","tomaseis"],"p3":["tomaran","tomasen"]},
     "SubFut": {"s1":["tomare"],"s2":["tomares"],"vos":["tomares"],"s3":["tomare"],"p1":["tomáremos"],"p2":["tomareis"],"p3":["tomaren"]},
     "CmdPos": {"s2":["toma"],"vos":["tomá"],"s3":["tome"],"p1":["tomemos"],"p2":["tomad"],"p3":["tomen"]}

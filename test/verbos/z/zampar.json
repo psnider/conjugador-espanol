@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sãmˈpaɾ]",
+    "silabacion": "zam-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"zampar","gerundio":["zampando"],"participio":["zampado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["zampo"],"s2":["zampas"],"vos":["zampás"],"s3":["zampa"],"p1":["zampamos"],"p2":["zampáis"],"p3":["zampan"]},
+    "IndImp": {"s1":["zampaba"],"s2":["zampabas"],"vos":["zampabas"],"s3":["zampaba"],"p1":["zampábamos"],"p2":["zampabais"],"p3":["zampaban"]},
+    "IndPret": {"s1":["zampé"],"s2":["zampaste"],"vos":["zampaste"],"s3":["zampó"],"p1":["zampamos"],"p2":["zampasteis"],"p3":["zamparon"]},
+    "IndFut": {"s1":["zamparé"],"s2":["zamparás"],"vos":["zamparás"],"s3":["zampará"],"p1":["zamparemos"],"p2":["zamparéis"],"p3":["zamparán"]},
+    "IndCond": {"s1":["zamparía"],"s2":["zamparías"],"vos":["zamparías"],"s3":["zamparía"],"p1":["zamparíamos"],"p2":["zamparíais"],"p3":["zamparían"]},
+    "SubPres": {"s1":["zampe"],"s2":["zampes"],"vos":["zampes","zampés"],"s3":["zampe"],"p1":["zampemos"],"p2":["zampéis"],"p3":["zampen"]},
+    "SubImp": {"s1":["zampara","zampase"],"s2":["zamparas","zampases"],"vos":["zamparas","zampases"],"s3":["zampara","zampase"],"p1":["zampáramos","zampásemos"],"p2":["zamparais","zampaseis"],"p3":["zamparan","zampasen"]},
+    "SubFut": {"s1":["zampare"],"s2":["zampares"],"vos":["zampares"],"s3":["zampare"],"p1":["zampáremos"],"p2":["zampareis"],"p3":["zamparen"]},
+    "CmdPos": {"s2":["zampa"],"vos":["zampá"],"s3":["zampe"],"p1":["zampemos"],"p2":["zampad"],"p3":["zampen"]}
+  }
+}

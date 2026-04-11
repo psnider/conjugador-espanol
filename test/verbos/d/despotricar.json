@@ -13,7 +13,7 @@
     "IndPret": {"s1":["despotriqué"],"s2":["despotricaste"],"vos":["despotricaste"],"s3":["despotricó"],"p1":["despotricamos"],"p2":["despotricasteis"],"p3":["despotricaron"]},
     "IndFut": {"s1":["despotricaré"],"s2":["despotricarás"],"vos":["despotricarás"],"s3":["despotricará"],"p1":["despotricaremos"],"p2":["despotricaréis"],"p3":["despotricarán"]},
     "IndCond": {"s1":["despotricaría"],"s2":["despotricarías"],"vos":["despotricarías"],"s3":["despotricaría"],"p1":["despotricaríamos"],"p2":["despotricaríais"],"p3":["despotricarían"]},
-    "SubPres": {"s1":["despotrique"],"s2":["despotriques"],"vos":["despotriques","despotriqués"],"s3":["despotrique"],"p1":["despotriquemos"],"p2":["despotriquéis"],"p3":["despotriquen"]},
+    "SubPres": {"s1":["despotrique"],"s2":["despotriques"],"vos":[{"forma": "despotriques","uso":"Riop."},{"forma":"despotriqués","uso":"C.Am."}],"s3":["despotrique"],"p1":["despotriquemos"],"p2":["despotriquéis"],"p3":["despotriquen"]},
     "SubImp": {"s1":["despotricara","despotricase"],"s2":["despotricaras","despotricases"],"vos":["despotricaras","despotricases"],"s3":["despotricara","despotricase"],"p1":["despotricáramos","despotricásemos"],"p2":["despotricarais","despotricaseis"],"p3":["despotricaran","despotricasen"]},
     "SubFut": {"s1":["despotricare"],"s2":["despotricares"],"vos":["despotricares"],"s3":["despotricare"],"p1":["despotricáremos"],"p2":["despotricareis"],"p3":["despotricaren"]},
     "CmdPos": {"s2":["despotrica"],"vos":["despotricá"],"s3":["despotrique"],"p1":["despotriquemos"],"p2":["despotricad"],"p3":["despotriquen"]}

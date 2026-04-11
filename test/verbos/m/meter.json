@@ -13,7 +13,7 @@
     "IndPret": {"s1":["metí"],"s2":["metiste"],"vos":["metiste"],"s3":["metió"],"p1":["metimos"],"p2":["metisteis"],"p3":["metieron"]},
     "IndFut": {"s1":["meteré"],"s2":["meterás"],"vos":["meterás"],"s3":["meterá"],"p1":["meteremos"],"p2":["meteréis"],"p3":["meterán"]},
     "IndCond": {"s1":["metería"],"s2":["meterías"],"vos":["meterías"],"s3":["metería"],"p1":["meteríamos"],"p2":["meteríais"],"p3":["meterían"]},
-    "SubPres": {"s1":["meta"],"s2":["metas"],"vos":["metas","metás"],"s3":["meta"],"p1":["metamos"],"p2":["metáis"],"p3":["metan"]},
+    "SubPres": {"s1":["meta"],"s2":["metas"],"vos":[{"forma": "metas","uso":"Riop."},{"forma":"metás","uso":"C.Am."}],"s3":["meta"],"p1":["metamos"],"p2":["metáis"],"p3":["metan"]},
     "SubImp": {"s1":["metiera","metiese"],"s2":["metieras","metieses"],"vos":["metieras","metieses"],"s3":["metiera","metiese"],"p1":["metiéramos","metiésemos"],"p2":["metierais","metieseis"],"p3":["metieran","metiesen"]},
     "SubFut": {"s1":["metiere"],"s2":["metieres"],"vos":["metieres"],"s3":["metiere"],"p1":["metiéremos"],"p2":["metiereis"],"p3":["metieren"]},
     "CmdPos": {"s2":["mete"],"vos":["meté"],"s3":["meta"],"p1":["metamos"],"p2":["meted"],"p3":["metan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["alegré"],"s2":["alegraste"],"vos":["alegraste"],"s3":["alegró"],"p1":["alegramos"],"p2":["alegrasteis"],"p3":["alegraron"]},
     "IndFut": {"s1":["alegraré"],"s2":["alegrarás"],"vos":["alegrarás"],"s3":["alegrará"],"p1":["alegraremos"],"p2":["alegraréis"],"p3":["alegrarán"]},
     "IndCond": {"s1":["alegraría"],"s2":["alegrarías"],"vos":["alegrarías"],"s3":["alegraría"],"p1":["alegraríamos"],"p2":["alegraríais"],"p3":["alegrarían"]},
-    "SubPres": {"s1":["alegre"],"s2":["alegres"],"vos":["alegres","alegrés"],"s3":["alegre"],"p1":["alegremos"],"p2":["alegréis"],"p3":["alegren"]},
+    "SubPres": {"s1":["alegre"],"s2":["alegres"],"vos":[{"forma": "alegres","uso":"Riop."},{"forma":"alegrés","uso":"C.Am."}],"s3":["alegre"],"p1":["alegremos"],"p2":["alegréis"],"p3":["alegren"]},
     "SubImp": {"s1":["alegrara","alegrase"],"s2":["alegraras","alegrases"],"vos":["alegraras","alegrases"],"s3":["alegrara","alegrase"],"p1":["alegráramos","alegrásemos"],"p2":["alegrarais","alegraseis"],"p3":["alegraran","alegrasen"]},
     "SubFut": {"s1":["alegrare"],"s2":["alegrares"],"vos":["alegrares"],"s3":["alegrare"],"p1":["alegráremos"],"p2":["alegrareis"],"p3":["alegraren"]},
     "CmdPos": {"s2":["alegra"],"vos":["alegrá"],"s3":["alegre"],"p1":["alegremos"],"p2":["alegrad"],"p3":["alegren"]}

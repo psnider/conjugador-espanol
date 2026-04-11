@@ -1,10 +1,10 @@
 import * as fs from 'node:fs'
 import { runTestsForInfinitive } from "./test-support.js"
 import { TestResults } from '../src/verbos-con-cambios-morfológicas.js'
+import { verb_terminations_all } from '../src/lib.js'
 
 
 const verbs_dir = "test/verbos"
-const verb_terminations = ["ar", "er", "ir", "ír"]
 
 const test_results: {[infinitive: string]: TestResults} = {}
 
@@ -23,24 +23,72 @@ function getLeadingCharMap() {
 const verb_start_char = getLeadingCharMap()
 
 
+// Todos estos infinitivos van a pruebar antes de otros.
+const infinitivos_basicas = {
+    regulares: [ "amar", "temer", "partir" ],
+    irregulares: [ "andar", "dar", "estar", "haber", "hacer", "ir", "ser", "tener", "venir", "ver" ],
+    //                 "e:i".   "e:ie"    "i:ie"      "o:ue"-ar    "o:ue"-ir   "u:ú"
+    temas_cambiados: [ "pedir", "pensar", "adquirir", "contar", "dormir", "reunir" ],
+    modelos:    [ "caber", "caer", "conducir", "conocer", "dar", "decir", "dormir",
+                  "enraizar", "erguir", "estar", "guiar", "haber", "hacer", "ir", "jugar", "leer",
+                  "mover", "oír", "pedir", "poder", "poner", "querer", "reír",
+                  "saber", "salir", "seguir", "ser",
+                  "tener", "traer", "vaciar", "venir", "ver", "volver"],
+    basada_en_modelos: ["confiar"],
+    prefijos: [ "retener", "creer" ]
+}
+
+
+function runBasicTests() {
+    for (const categoría in infinitivos_basicas) {
+        for (const infinitivo of infinitivos_basicas[categoría]) {
+            runTestForInfinitivo(infinitivo)
+        }
+    }
+    // si hay errores hasta ahora, termina
+    let hay_errores = false
+    for (const infinitivo in test_results) {
+        if (test_results[infinitivo] !== true) {
+            if (!hay_errores) {
+                console.log(`ERRORES: -----------------------------------------`)
+            }
+            hay_errores = true
+            console.log(`${infinitivo}: ${JSON.stringify(test_results[infinitivo])}`)
+        }
+    }
+    if (hay_errores) {
+        console.log(`Por favor, corrige los errores mostrados arriba...`)
+        process.exit(1)
+    }
+    console.log(`-----------------   Las pruebas básicas pasaron...   -----------------`)
+}
+
+
+function runTestForInfinitivo(infinitivo: string) {
+    const first_ch = infinitivo[0]
+    const verb_filename = `${verbs_dir}/${first_ch}/${infinitivo}.json`
+    if (verb_terminations_all.includes(infinitivo.slice(-2))) {
+        const corrections_of_failures = runTestsForInfinitive(infinitivo, verb_filename)
+        if (corrections_of_failures) {
+            test_results[infinitivo] = corrections_of_failures
+        } else {
+            test_results[infinitivo] = true
+        }
+    } else {
+        console.log(`unexpected file: ${verb_filename}`)
+    }
+
+}
+
 function runTestsForSavedVerbsInDir(dir: string) {
     const verb_files = fs.readdirSync(dir)
     for (const verb_file of verb_files) {
         if (verb_file.endsWith(".json")) {
             let infinitivo = verb_file.slice(0, -5)
-            const first_ch = infinitivo[0]
-            const verb_filename = `${verbs_dir}/${first_ch}/${infinitivo}.json`
-            if (infinitivo.endsWith("-FIX")) {
-                console.log(`skipping infinitivo=${infinitivo}, must repair: ${verb_filename}`)
-            } else if (verb_terminations.includes(infinitivo.slice(-2))) {
-                const corrections_of_failures = runTestsForInfinitive(infinitivo, verb_filename)
-                if (corrections_of_failures) {
-                    test_results[infinitivo] = corrections_of_failures
-                } else {
-                    test_results[infinitivo] = true
-                }
+            if (verb_terminations_all.includes(infinitivo.slice(-2))) {
+                runTestForInfinitivo(infinitivo)
             } else {
-                console.log(`unexpected file: ${verb_file}`)
+                console.log(`skipping infinitivo=${infinitivo}, must repair: ${verb_file}`)
             }
         }
     }
@@ -74,6 +122,7 @@ function saveTestResults() {
 }
 
 
+runBasicTests()
 runTestsForSavedVerbs()
 saveTestResults()
 

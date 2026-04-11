@@ -13,7 +13,7 @@
     "IndPret": {"s1":["concerté"],"s2":["concertaste"],"vos":["concertaste"],"s3":["concertó"],"p1":["concertamos"],"p2":["concertasteis"],"p3":["concertaron"]},
     "IndFut": {"s1":["concertaré"],"s2":["concertarás"],"vos":["concertarás"],"s3":["concertará"],"p1":["concertaremos"],"p2":["concertaréis"],"p3":["concertarán"]},
     "IndCond": {"s1":["concertaría"],"s2":["concertarías"],"vos":["concertarías"],"s3":["concertaría"],"p1":["concertaríamos"],"p2":["concertaríais"],"p3":["concertarían"]},
-    "SubPres": {"s1":["concierte"],"s2":["conciertes"],"vos":["conciertes","concertés"],"s3":["concierte"],"p1":["concertemos"],"p2":["concertéis"],"p3":["concierten"]},
+    "SubPres": {"s1":["concierte"],"s2":["conciertes"],"vos":[{"forma": "conciertes","uso":"Riop."},{"forma":"concertés","uso":"C.Am."}],"s3":["concierte"],"p1":["concertemos"],"p2":["concertéis"],"p3":["concierten"]},
     "SubImp": {"s1":["concertara","concertase"],"s2":["concertaras","concertases"],"vos":["concertaras","concertases"],"s3":["concertara","concertase"],"p1":["concertáramos","concertásemos"],"p2":["concertarais","concertaseis"],"p3":["concertaran","concertasen"]},
     "SubFut": {"s1":["concertare"],"s2":["concertares"],"vos":["concertares"],"s3":["concertare"],"p1":["concertáremos"],"p2":["concertareis"],"p3":["concertaren"]},
     "CmdPos": {"s2":["concierta"],"vos":["concertá"],"s3":["concierte"],"p1":["concertemos"],"p2":["concertad"],"p3":["concierten"]}

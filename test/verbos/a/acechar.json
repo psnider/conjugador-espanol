@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aceché"],"s2":["acechaste"],"vos":["acechaste"],"s3":["acechó"],"p1":["acechamos"],"p2":["acechasteis"],"p3":["acecharon"]},
     "IndFut": {"s1":["acecharé"],"s2":["acecharás"],"vos":["acecharás"],"s3":["acechará"],"p1":["acecharemos"],"p2":["acecharéis"],"p3":["acecharán"]},
     "IndCond": {"s1":["acecharía"],"s2":["acecharías"],"vos":["acecharías"],"s3":["acecharía"],"p1":["acecharíamos"],"p2":["acecharíais"],"p3":["acecharían"]},
-    "SubPres": {"s1":["aceche"],"s2":["aceches"],"vos":["aceches","acechés"],"s3":["aceche"],"p1":["acechemos"],"p2":["acechéis"],"p3":["acechen"]},
+    "SubPres": {"s1":["aceche"],"s2":["aceches"],"vos":[{"forma": "aceches","uso":"Riop."},{"forma":"acechés","uso":"C.Am."}],"s3":["aceche"],"p1":["acechemos"],"p2":["acechéis"],"p3":["acechen"]},
     "SubImp": {"s1":["acechara","acechase"],"s2":["acecharas","acechases"],"vos":["acecharas","acechases"],"s3":["acechara","acechase"],"p1":["acecháramos","acechásemos"],"p2":["acecharais","acechaseis"],"p3":["acecharan","acechasen"]},
     "SubFut": {"s1":["acechare"],"s2":["acechares"],"vos":["acechares"],"s3":["acechare"],"p1":["acecháremos"],"p2":["acechareis"],"p3":["acecharen"]},
     "CmdPos": {"s2":["acecha"],"vos":["acechá"],"s3":["aceche"],"p1":["acechemos"],"p2":["acechad"],"p3":["acechen"]}

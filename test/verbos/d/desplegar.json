@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desplegué"],"s2":["desplegaste"],"vos":["desplegaste"],"s3":["desplegó"],"p1":["desplegamos"],"p2":["desplegasteis"],"p3":["desplegaron"]},
     "IndFut": {"s1":["desplegaré"],"s2":["desplegarás"],"vos":["desplegarás"],"s3":["desplegará"],"p1":["desplegaremos"],"p2":["desplegaréis"],"p3":["desplegarán"]},
     "IndCond": {"s1":["desplegaría"],"s2":["desplegarías"],"vos":["desplegarías"],"s3":["desplegaría"],"p1":["desplegaríamos"],"p2":["desplegaríais"],"p3":["desplegarían"]},
-    "SubPres": {"s1":["despliegue"],"s2":["despliegues"],"vos":["despliegues","desplegués"],"s3":["despliegue"],"p1":["despleguemos"],"p2":["despleguéis"],"p3":["desplieguen"]},
+    "SubPres": {"s1":["despliegue"],"s2":["despliegues"],"vos":[{"forma": "despliegues","uso":"Riop."},{"forma":"desplegués","uso":"C.Am."}],"s3":["despliegue"],"p1":["despleguemos"],"p2":["despleguéis"],"p3":["desplieguen"]},
     "SubImp": {"s1":["desplegara","desplegase"],"s2":["desplegaras","desplegases"],"vos":["desplegaras","desplegases"],"s3":["desplegara","desplegase"],"p1":["desplegáramos","desplegásemos"],"p2":["desplegarais","desplegaseis"],"p3":["desplegaran","desplegasen"]},
     "SubFut": {"s1":["desplegare"],"s2":["desplegares"],"vos":["desplegares"],"s3":["desplegare"],"p1":["desplegáremos"],"p2":["desplegareis"],"p3":["desplegaren"]},
     "CmdPos": {"s2":["despliega"],"vos":["desplegá"],"s3":["despliegue"],"p1":["despleguemos"],"p2":["desplegad"],"p3":["desplieguen"]}

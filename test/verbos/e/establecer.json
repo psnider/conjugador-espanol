@@ -13,7 +13,7 @@
     "IndPret": {"s1":["establecí"],"s2":["estableciste"],"vos":["estableciste"],"s3":["estableció"],"p1":["establecimos"],"p2":["establecisteis"],"p3":["establecieron"]},
     "IndFut": {"s1":["estableceré"],"s2":["establecerás"],"vos":["establecerás"],"s3":["establecerá"],"p1":["estableceremos"],"p2":["estableceréis"],"p3":["establecerán"]},
     "IndCond": {"s1":["establecería"],"s2":["establecerías"],"vos":["establecerías"],"s3":["establecería"],"p1":["estableceríamos"],"p2":["estableceríais"],"p3":["establecerían"]},
-    "SubPres": {"s1":["establezca"],"s2":["establezcas"],"vos":["establezcas","establezcás"],"s3":["establezca"],"p1":["establezcamos"],"p2":["establezcáis"],"p3":["establezcan"]},
+    "SubPres": {"s1":["establezca"],"s2":["establezcas"],"vos":[{"forma": "establezcas","uso":"Riop."},{"forma":"establezcás","uso":"C.Am."}],"s3":["establezca"],"p1":["establezcamos"],"p2":["establezcáis"],"p3":["establezcan"]},
     "SubImp": {"s1":["estableciera","estableciese"],"s2":["establecieras","establecieses"],"vos":["establecieras","establecieses"],"s3":["estableciera","estableciese"],"p1":["estableciéramos","estableciésemos"],"p2":["establecierais","establecieseis"],"p3":["establecieran","estableciesen"]},
     "SubFut": {"s1":["estableciere"],"s2":["establecieres"],"vos":["establecieres"],"s3":["estableciere"],"p1":["estableciéremos"],"p2":["estableciereis"],"p3":["establecieren"]},
     "CmdPos": {"s2":["establece"],"vos":["establecé"],"s3":["establezca"],"p1":["establezcamos"],"p2":["estableced"],"p3":["establezcan"]}

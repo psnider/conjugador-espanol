@@ -13,7 +13,7 @@
     "IndPret": {"s1":["toqué"],"s2":["tocaste"],"vos":["tocaste"],"s3":["tocó"],"p1":["tocamos"],"p2":["tocasteis"],"p3":["tocaron"]},
     "IndFut": {"s1":["tocaré"],"s2":["tocarás"],"vos":["tocarás"],"s3":["tocará"],"p1":["tocaremos"],"p2":["tocaréis"],"p3":["tocarán"]},
     "IndCond": {"s1":["tocaría"],"s2":["tocarías"],"vos":["tocarías"],"s3":["tocaría"],"p1":["tocaríamos"],"p2":["tocaríais"],"p3":["tocarían"]},
-    "SubPres": {"s1":["toque"],"s2":["toques"],"vos":["toques","toqués"],"s3":["toque"],"p1":["toquemos"],"p2":["toquéis"],"p3":["toquen"]},
+    "SubPres": {"s1":["toque"],"s2":["toques"],"vos":[{"forma": "toques","uso":"Riop."},{"forma":"toqués","uso":"C.Am."}],"s3":["toque"],"p1":["toquemos"],"p2":["toquéis"],"p3":["toquen"]},
     "SubImp": {"s1":["tocara","tocase"],"s2":["tocaras","tocases"],"vos":["tocaras","tocases"],"s3":["tocara","tocase"],"p1":["tocáramos","tocásemos"],"p2":["tocarais","tocaseis"],"p3":["tocaran","tocasen"]},
     "SubFut": {"s1":["tocare"],"s2":["tocares"],"vos":["tocares"],"s3":["tocare"],"p1":["tocáremos"],"p2":["tocareis"],"p3":["tocaren"]},
     "CmdPos": {"s2":["toca"],"vos":["tocá"],"s3":["toque"],"p1":["toquemos"],"p2":["tocad"],"p3":["toquen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["impregné"],"s2":["impregnaste"],"vos":["impregnaste"],"s3":["impregnó"],"p1":["impregnamos"],"p2":["impregnasteis"],"p3":["impregnaron"]},
     "IndFut": {"s1":["impregnaré"],"s2":["impregnarás"],"vos":["impregnarás"],"s3":["impregnará"],"p1":["impregnaremos"],"p2":["impregnaréis"],"p3":["impregnarán"]},
     "IndCond": {"s1":["impregnaría"],"s2":["impregnarías"],"vos":["impregnarías"],"s3":["impregnaría"],"p1":["impregnaríamos"],"p2":["impregnaríais"],"p3":["impregnarían"]},
-    "SubPres": {"s1":["impregne"],"s2":["impregnes"],"vos":["impregnes","impregnés"],"s3":["impregne"],"p1":["impregnemos"],"p2":["impregnéis"],"p3":["impregnen"]},
+    "SubPres": {"s1":["impregne"],"s2":["impregnes"],"vos":[{"forma": "impregnes","uso":"Riop."},{"forma":"impregnés","uso":"C.Am."}],"s3":["impregne"],"p1":["impregnemos"],"p2":["impregnéis"],"p3":["impregnen"]},
     "SubImp": {"s1":["impregnara","impregnase"],"s2":["impregnaras","impregnases"],"vos":["impregnaras","impregnases"],"s3":["impregnara","impregnase"],"p1":["impregnáramos","impregnásemos"],"p2":["impregnarais","impregnaseis"],"p3":["impregnaran","impregnasen"]},
     "SubFut": {"s1":["impregnare"],"s2":["impregnares"],"vos":["impregnares"],"s3":["impregnare"],"p1":["impregnáremos"],"p2":["impregnareis"],"p3":["impregnaren"]},
     "CmdPos": {"s2":["impregna"],"vos":["impregná"],"s3":["impregne"],"p1":["impregnemos"],"p2":["impregnad"],"p3":["impregnen"]}

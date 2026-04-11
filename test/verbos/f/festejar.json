@@ -13,7 +13,7 @@
     "IndPret": {"s1":["festejé"],"s2":["festejaste"],"vos":["festejaste"],"s3":["festejó"],"p1":["festejamos"],"p2":["festejasteis"],"p3":["festejaron"]},
     "IndFut": {"s1":["festejaré"],"s2":["festejarás"],"vos":["festejarás"],"s3":["festejará"],"p1":["festejaremos"],"p2":["festejaréis"],"p3":["festejarán"]},
     "IndCond": {"s1":["festejaría"],"s2":["festejarías"],"vos":["festejarías"],"s3":["festejaría"],"p1":["festejaríamos"],"p2":["festejaríais"],"p3":["festejarían"]},
-    "SubPres": {"s1":["festeje"],"s2":["festejes"],"vos":["festejes","festejés"],"s3":["festeje"],"p1":["festejemos"],"p2":["festejéis"],"p3":["festejen"]},
+    "SubPres": {"s1":["festeje"],"s2":["festejes"],"vos":[{"forma": "festejes","uso":"Riop."},{"forma":"festejés","uso":"C.Am."}],"s3":["festeje"],"p1":["festejemos"],"p2":["festejéis"],"p3":["festejen"]},
     "SubImp": {"s1":["festejara","festejase"],"s2":["festejaras","festejases"],"vos":["festejaras","festejases"],"s3":["festejara","festejase"],"p1":["festejáramos","festejásemos"],"p2":["festejarais","festejaseis"],"p3":["festejaran","festejasen"]},
     "SubFut": {"s1":["festejare"],"s2":["festejares"],"vos":["festejares"],"s3":["festejare"],"p1":["festejáremos"],"p2":["festejareis"],"p3":["festejaren"]},
     "CmdPos": {"s2":["festeja"],"vos":["festejá"],"s3":["festeje"],"p1":["festejemos"],"p2":["festejad"],"p3":["festejen"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["inhalé"],"s2":["inhalaste"],"vos":["inhalaste"],"s3":["inhaló"],"p1":["inhalamos"],"p2":["inhalasteis"],"p3":["inhalaron"]},
     "IndFut": {"s1":["inhalaré"],"s2":["inhalarás"],"vos":["inhalarás"],"s3":["inhalará"],"p1":["inhalaremos"],"p2":["inhalaréis"],"p3":["inhalarán"]},
     "IndCond": {"s1":["inhalaría"],"s2":["inhalarías"],"vos":["inhalarías"],"s3":["inhalaría"],"p1":["inhalaríamos"],"p2":["inhalaríais"],"p3":["inhalarían"]},
-    "SubPres": {"s1":["inhale"],"s2":["inhales"],"vos":["inhales","inhalés"],"s3":["inhale"],"p1":["inhalemos"],"p2":["inhaléis"],"p3":["inhalen"]},
+    "SubPres": {"s1":["inhale"],"s2":["inhales"],"vos":[{"forma": "inhales","uso":"Riop."},{"forma":"inhalés","uso":"C.Am."}],"s3":["inhale"],"p1":["inhalemos"],"p2":["inhaléis"],"p3":["inhalen"]},
     "SubImp": {"s1":["inhalara","inhalase"],"s2":["inhalaras","inhalases"],"vos":["inhalaras","inhalases"],"s3":["inhalara","inhalase"],"p1":["inhaláramos","inhalásemos"],"p2":["inhalarais","inhalaseis"],"p3":["inhalaran","inhalasen"]},
     "SubFut": {"s1":["inhalare"],"s2":["inhalares"],"vos":["inhalares"],"s3":["inhalare"],"p1":["inhaláremos"],"p2":["inhalareis"],"p3":["inhalaren"]},
     "CmdPos": {"s2":["inhala"],"vos":["inhalá"],"s3":["inhale"],"p1":["inhalemos"],"p2":["inhalad"],"p3":["inhalen"]}

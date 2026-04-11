@@ -13,7 +13,7 @@
     "IndPret": {"s1":["fasciné"],"s2":["fascinaste"],"vos":["fascinaste"],"s3":["fascinó"],"p1":["fascinamos"],"p2":["fascinasteis"],"p3":["fascinaron"]},
     "IndFut": {"s1":["fascinaré"],"s2":["fascinarás"],"vos":["fascinarás"],"s3":["fascinará"],"p1":["fascinaremos"],"p2":["fascinaréis"],"p3":["fascinarán"]},
     "IndCond": {"s1":["fascinaría"],"s2":["fascinarías"],"vos":["fascinarías"],"s3":["fascinaría"],"p1":["fascinaríamos"],"p2":["fascinaríais"],"p3":["fascinarían"]},
-    "SubPres": {"s1":["fascine"],"s2":["fascines"],"vos":["fascines","fascinés"],"s3":["fascine"],"p1":["fascinemos"],"p2":["fascinéis"],"p3":["fascinen"]},
+    "SubPres": {"s1":["fascine"],"s2":["fascines"],"vos":[{"forma": "fascines","uso":"Riop."},{"forma":"fascinés","uso":"C.Am."}],"s3":["fascine"],"p1":["fascinemos"],"p2":["fascinéis"],"p3":["fascinen"]},
     "SubImp": {"s1":["fascinara","fascinase"],"s2":["fascinaras","fascinases"],"vos":["fascinaras","fascinases"],"s3":["fascinara","fascinase"],"p1":["fascináramos","fascinásemos"],"p2":["fascinarais","fascinaseis"],"p3":["fascinaran","fascinasen"]},
     "SubFut": {"s1":["fascinare"],"s2":["fascinares"],"vos":["fascinares"],"s3":["fascinare"],"p1":["fascináremos"],"p2":["fascinareis"],"p3":["fascinaren"]},
     "CmdPos": {"s2":["fascina"],"vos":["fasciná"],"s3":["fascine"],"p1":["fascinemos"],"p2":["fascinad"],"p3":["fascinen"]}

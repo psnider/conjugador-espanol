@@ -8,12 +8,12 @@
   },
   "formas_no_personales": {"infinitivo":"ser","gerundio":["siendo"], "participio":["sido"]},
   "formas_personales": {
-    "IndPres": {"s1":["soy"],"s2":["eres"],"vos":["sos"],"s3":["es"],"p1":["somos"],"p2":{"estándar":["sois"],"atípicos":[{"forma":"ereis","etiquetas":["arcaico"]}]},"p3":["son"]},
+    "IndPres": {"s1":["soy"],"s2":["eres"],"vos":["sos"],"s3":["es"],"p1":["somos"],"p2":["sois"],"p3":["son"]},
     "IndImp": {"s1":["era"],"s2":["eras"],"vos":["eras"],"s3":["era"],"p1":["éramos"],"p2":["erais"],"p3":["eran"]},
     "IndPret": {"s1":["fui"],"s2":["fuiste"],"vos":["fuiste"],"s3":["fue"],"p1":["fuimos"],"p2":["fuisteis"],"p3":["fueron"]},
     "IndFut": {"s1":["seré"],"s2":["serás"],"vos":["serás"],"s3":["será"],"p1":["seremos"],"p2":["seréis"],"p3":["serán"]},
     "IndCond": {"s1":["sería"],"s2":["serías"],"vos":["serías"],"s3":["sería"],"p1":["seríamos"],"p2":["seríais"],"p3":["serían"]},
-    "SubPres": {"s1":["sea"],"s2":["seas"],"vos":["seas","seás"],"s3":["sea"],"p1":["seamos"],"p2":["seáis"],"p3":["sean"]},
+    "SubPres": {"s1":["sea"],"s2":["seas"],"vos":[{"forma":"seas","uso":"Riop."},{"forma":"seás","uso":"C.Am."}],"s3":["sea"],"p1":["seamos"],"p2":["seáis"],"p3":["sean"]},
     "SubImp": {"s1":["fuera","fuese"],"s2":["fueras","fueses"],"vos":["fueras","fueses"],"s3":["fuera","fuese"],"p1":["fuéramos","fuésemos"],"p2":["fuerais","fueseis"],"p3":["fueran","fuesen"]},
     "SubFut": {"s1":["fuere"],"s2":["fueres"],"vos":["fueres"],"s3":["fuere"],"p1":["fuéremos"],"p2":["fuereis"],"p3":["fueren"]},
     "CmdPos": {"s2":["sé"],"vos":["sé"],"s3":["sea"],"p1":["seamos"],"p2":["sed"],"p3":["sean"]}

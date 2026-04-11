@@ -1,4 +1,4 @@
-import { ConjugaciónTabla, Participios } from "../src"
+import { ConjugaciónTabla, GrammaticalPerson, MoodTense, Participios, Defectos, FormaConjugada, MoodTenseMap } from "../src"
 
 
 export interface FormasNoPersonales extends Participios {
@@ -21,7 +21,19 @@ export interface ConjugaciónEntero {
     }
     formas_no_personales: FormasNoPersonales
     formas_personales: ConjugaciónTabla
+    defectos?: Defectos
     // URLs de los sitios de dondé consiguió esta información
     urls?: string[] 
+    // comentarios sobre los conjugaciones inesperadas
+    notas?: string[]
+}
+
+export type ConjugaciónesFallidas = MoodTenseMap<FormaConjugada[]>
+
+
+export interface FailedTests {
+    gerundio?: FormaConjugada[]
+    participio?: FormaConjugada[]
+    conjugaciones?: ConjugaciónesFallidas
 }
 

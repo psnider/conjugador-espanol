@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desconté"],"s2":["descontaste"],"vos":["descontaste"],"s3":["descontó"],"p1":["descontamos"],"p2":["descontasteis"],"p3":["descontaron"]},
     "IndFut": {"s1":["descontaré"],"s2":["descontarás"],"vos":["descontarás"],"s3":["descontará"],"p1":["descontaremos"],"p2":["descontaréis"],"p3":["descontarán"]},
     "IndCond": {"s1":["descontaría"],"s2":["descontarías"],"vos":["descontarías"],"s3":["descontaría"],"p1":["descontaríamos"],"p2":["descontaríais"],"p3":["descontarían"]},
-    "SubPres": {"s1":["descuente"],"s2":["descuentes"],"vos":["descuentes","descontés"],"s3":["descuente"],"p1":["descontemos"],"p2":["descontéis"],"p3":["descuenten"]},
+    "SubPres": {"s1":["descuente"],"s2":["descuentes"],"vos":[{"forma": "descuentes","uso":"Riop."},{"forma":"descontés","uso":"C.Am."}],"s3":["descuente"],"p1":["descontemos"],"p2":["descontéis"],"p3":["descuenten"]},
     "SubImp": {"s1":["descontara","descontase"],"s2":["descontaras","descontases"],"vos":["descontaras","descontases"],"s3":["descontara","descontase"],"p1":["descontáramos","descontásemos"],"p2":["descontarais","descontaseis"],"p3":["descontaran","descontasen"]},
     "SubFut": {"s1":["descontare"],"s2":["descontares"],"vos":["descontares"],"s3":["descontare"],"p1":["descontáremos"],"p2":["descontareis"],"p3":["descontaren"]},
     "CmdPos": {"s2":["descuenta"],"vos":["descontá"],"s3":["descuente"],"p1":["descontemos"],"p2":["descontad"],"p3":["descuenten"]}

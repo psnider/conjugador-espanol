@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atravesé"],"s2":["atravesaste"],"vos":["atravesaste"],"s3":["atravesó"],"p1":["atravesamos"],"p2":["atravesasteis"],"p3":["atravesaron"]},
     "IndFut": {"s1":["atravesaré"],"s2":["atravesarás"],"vos":["atravesarás"],"s3":["atravesará"],"p1":["atravesaremos"],"p2":["atravesaréis"],"p3":["atravesarán"]},
     "IndCond": {"s1":["atravesaría"],"s2":["atravesarías"],"vos":["atravesarías"],"s3":["atravesaría"],"p1":["atravesaríamos"],"p2":["atravesaríais"],"p3":["atravesarían"]},
-    "SubPres": {"s1":["atraviese"],"s2":["atravieses"],"vos":["atravieses","atravesés"],"s3":["atraviese"],"p1":["atravesemos"],"p2":["atraveséis"],"p3":["atraviesen"]},
+    "SubPres": {"s1":["atraviese"],"s2":["atravieses"],"vos":[{"forma": "atravieses","uso":"Riop."},{"forma":"atravesés","uso":"C.Am."}],"s3":["atraviese"],"p1":["atravesemos"],"p2":["atraveséis"],"p3":["atraviesen"]},
     "SubImp": {"s1":["atravesara","atravesase"],"s2":["atravesaras","atravesases"],"vos":["atravesaras","atravesases"],"s3":["atravesara","atravesase"],"p1":["atravesáramos","atravesásemos"],"p2":["atravesarais","atravesaseis"],"p3":["atravesaran","atravesasen"]},
     "SubFut": {"s1":["atravesare"],"s2":["atravesares"],"vos":["atravesares"],"s3":["atravesare"],"p1":["atravesáremos"],"p2":["atravesareis"],"p3":["atravesaren"]},
     "CmdPos": {"s2":["atraviesa"],"vos":["atravesá"],"s3":["atraviese"],"p1":["atravesemos"],"p2":["atravesad"],"p3":["atraviesen"]}

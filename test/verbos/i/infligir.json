@@ -13,7 +13,7 @@
     "IndPret": {"s1":["infligí"],"s2":["infligiste"],"vos":["infligiste"],"s3":["infligió"],"p1":["infligimos"],"p2":["infligisteis"],"p3":["infligieron"]},
     "IndFut": {"s1":["infligiré"],"s2":["infligirás"],"vos":["infligirás"],"s3":["infligirá"],"p1":["infligiremos"],"p2":["infligiréis"],"p3":["infligirán"]},
     "IndCond": {"s1":["infligiría"],"s2":["infligirías"],"vos":["infligirías"],"s3":["infligiría"],"p1":["infligiríamos"],"p2":["infligiríais"],"p3":["infligirían"]},
-    "SubPres": {"s1":["inflija"],"s2":["inflijas"],"vos":["inflijas","inflijás"],"s3":["inflija"],"p1":["inflijamos"],"p2":["inflijáis"],"p3":["inflijan"]},
+    "SubPres": {"s1":["inflija"],"s2":["inflijas"],"vos":[{"forma": "inflijas","uso":"Riop."},{"forma":"inflijás","uso":"C.Am."}],"s3":["inflija"],"p1":["inflijamos"],"p2":["inflijáis"],"p3":["inflijan"]},
     "SubImp": {"s1":["infligiera","infligiese"],"s2":["infligieras","infligieses"],"vos":["infligieras","infligieses"],"s3":["infligiera","infligiese"],"p1":["infligiéramos","infligiésemos"],"p2":["infligierais","infligieseis"],"p3":["infligieran","infligiesen"]},
     "SubFut": {"s1":["infligiere"],"s2":["infligieres"],"vos":["infligieres"],"s3":["infligiere"],"p1":["infligiéremos"],"p2":["infligiereis"],"p3":["infligieren"]},
     "CmdPos": {"s2":["inflige"],"vos":["infligí"],"s3":["inflija"],"p1":["inflijamos"],"p2":["infligid"],"p3":["inflijan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desmonté"],"s2":["desmontaste"],"vos":["desmontaste"],"s3":["desmontó"],"p1":["desmontamos"],"p2":["desmontasteis"],"p3":["desmontaron"]},
     "IndFut": {"s1":["desmontaré"],"s2":["desmontarás"],"vos":["desmontarás"],"s3":["desmontará"],"p1":["desmontaremos"],"p2":["desmontaréis"],"p3":["desmontarán"]},
     "IndCond": {"s1":["desmontaría"],"s2":["desmontarías"],"vos":["desmontarías"],"s3":["desmontaría"],"p1":["desmontaríamos"],"p2":["desmontaríais"],"p3":["desmontarían"]},
-    "SubPres": {"s1":["desmonte"],"s2":["desmontes"],"vos":["desmontes","desmontés"],"s3":["desmonte"],"p1":["desmontemos"],"p2":["desmontéis"],"p3":["desmonten"]},
+    "SubPres": {"s1":["desmonte"],"s2":["desmontes"],"vos":[{"forma": "desmontes","uso":"Riop."},{"forma":"desmontés","uso":"C.Am."}],"s3":["desmonte"],"p1":["desmontemos"],"p2":["desmontéis"],"p3":["desmonten"]},
     "SubImp": {"s1":["desmontara","desmontase"],"s2":["desmontaras","desmontases"],"vos":["desmontaras","desmontases"],"s3":["desmontara","desmontase"],"p1":["desmontáramos","desmontásemos"],"p2":["desmontarais","desmontaseis"],"p3":["desmontaran","desmontasen"]},
     "SubFut": {"s1":["desmontare"],"s2":["desmontares"],"vos":["desmontares"],"s3":["desmontare"],"p1":["desmontáremos"],"p2":["desmontareis"],"p3":["desmontaren"]},
     "CmdPos": {"s2":["desmonta"],"vos":["desmontá"],"s3":["desmonte"],"p1":["desmontemos"],"p2":["desmontad"],"p3":["desmonten"]}

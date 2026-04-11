@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cumplí"],"s2":["cumpliste"],"vos":["cumpliste"],"s3":["cumplió"],"p1":["cumplimos"],"p2":["cumplisteis"],"p3":["cumplieron"]},
     "IndFut": {"s1":["cumpliré"],"s2":["cumplirás"],"vos":["cumplirás"],"s3":["cumplirá"],"p1":["cumpliremos"],"p2":["cumpliréis"],"p3":["cumplirán"]},
     "IndCond": {"s1":["cumpliría"],"s2":["cumplirías"],"vos":["cumplirías"],"s3":["cumpliría"],"p1":["cumpliríamos"],"p2":["cumpliríais"],"p3":["cumplirían"]},
-    "SubPres": {"s1":["cumpla"],"s2":["cumplas"],"vos":["cumplas","cumplás"],"s3":["cumpla"],"p1":["cumplamos"],"p2":["cumpláis"],"p3":["cumplan"]},
+    "SubPres": {"s1":["cumpla"],"s2":["cumplas"],"vos":[{"forma": "cumplas","uso":"Riop."},{"forma":"cumplás","uso":"C.Am."}],"s3":["cumpla"],"p1":["cumplamos"],"p2":["cumpláis"],"p3":["cumplan"]},
     "SubImp": {"s1":["cumpliera","cumpliese"],"s2":["cumplieras","cumplieses"],"vos":["cumplieras","cumplieses"],"s3":["cumpliera","cumpliese"],"p1":["cumpliéramos","cumpliésemos"],"p2":["cumplierais","cumplieseis"],"p3":["cumplieran","cumpliesen"]},
     "SubFut": {"s1":["cumpliere"],"s2":["cumplieres"],"vos":["cumplieres"],"s3":["cumpliere"],"p1":["cumpliéremos"],"p2":["cumpliereis"],"p3":["cumplieren"]},
     "CmdPos": {"s2":["cumple"],"vos":["cumplí"],"s3":["cumpla"],"p1":["cumplamos"],"p2":["cumplid"],"p3":["cumplan"]}

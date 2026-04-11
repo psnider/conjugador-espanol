@@ -13,7 +13,7 @@
     "IndPret": {"s1":["leí"],"s2":["leíste"],"vos":["leíste"],"s3":["leyó"],"p1":["leímos"],"p2":["leísteis"],"p3":["leyeron"]},
     "IndFut": {"s1":["leeré"],"s2":["leerás"],"vos":["leerás"],"s3":["leerá"],"p1":["leeremos"],"p2":["leeréis"],"p3":["leerán"]},
     "IndCond": {"s1":["leería"],"s2":["leerías"],"vos":["leerías"],"s3":["leería"],"p1":["leeríamos"],"p2":["leeríais"],"p3":["leerían"]},
-    "SubPres": {"s1":["lea"],"s2":["leas"],"vos":["leas","leás"],"s3":["lea"],"p1":["leamos"],"p2":["leáis"],"p3":["lean"]},
+    "SubPres": {"s1":["lea"],"s2":["leas"],"vos":[{"forma": "leas","uso":"Riop."},{"forma":"leás","uso":"C.Am."}],"s3":["lea"],"p1":["leamos"],"p2":["leáis"],"p3":["lean"]},
     "SubImp": {"s1":["leyera","leyese"],"s2":["leyeras","leyeses"],"vos":["leyeras","leyeses"],"s3":["leyera","leyese"],"p1":["leyéramos","leyésemos"],"p2":["leyerais","leyeseis"],"p3":["leyeran","leyesen"]},
     "SubFut": {"s1":["leyere"],"s2":["leyeres"],"vos":["leyeres"],"s3":["leyere"],"p1":["leyéremos"],"p2":["leyereis"],"p3":["leyeren"]},
     "CmdPos": {"s2":["lee"],"vos":["leé"],"s3":["lea"],"p1":["leamos"],"p2":["leed"],"p3":["lean"]}

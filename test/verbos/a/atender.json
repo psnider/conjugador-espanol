@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atendí"],"s2":["atendiste"],"vos":["atendiste"],"s3":["atendió"],"p1":["atendimos"],"p2":["atendisteis"],"p3":["atendieron"]},
     "IndFut": {"s1":["atenderé"],"s2":["atenderás"],"vos":["atenderás"],"s3":["atenderá"],"p1":["atenderemos"],"p2":["atenderéis"],"p3":["atenderán"]},
     "IndCond": {"s1":["atendería"],"s2":["atenderías"],"vos":["atenderías"],"s3":["atendería"],"p1":["atenderíamos"],"p2":["atenderíais"],"p3":["atenderían"]},
-    "SubPres": {"s1":["atienda"],"s2":["atiendas"],"vos":["atiendas","atendás"],"s3":["atienda"],"p1":["atendamos"],"p2":["atendáis"],"p3":["atiendan"]},
+    "SubPres": {"s1":["atienda"],"s2":["atiendas"],"vos":[{"forma": "atiendas","uso":"Riop."},{"forma":"atendás","uso":"C.Am."}],"s3":["atienda"],"p1":["atendamos"],"p2":["atendáis"],"p3":["atiendan"]},
     "SubImp": {"s1":["atendiera","atendiese"],"s2":["atendieras","atendieses"],"vos":["atendieras","atendieses"],"s3":["atendiera","atendiese"],"p1":["atendiéramos","atendiésemos"],"p2":["atendierais","atendieseis"],"p3":["atendieran","atendiesen"]},
     "SubFut": {"s1":["atendiere"],"s2":["atendieres"],"vos":["atendieres"],"s3":["atendiere"],"p1":["atendiéremos"],"p2":["atendiereis"],"p3":["atendieren"]},
     "CmdPos": {"s2":["atiende"],"vos":["atendé"],"s3":["atienda"],"p1":["atendamos"],"p2":["atended"],"p3":["atiendan"]}

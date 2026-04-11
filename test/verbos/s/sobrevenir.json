@@ -13,9 +13,9 @@
     "IndPret": {"s1":["sobrevine"],"s2":["sobreviniste"],"vos":["sobreviniste"],"s3":["sobrevino"],"p1":["sobrevinimos"],"p2":["sobrevinisteis"],"p3":["sobrevinieron"]},
     "IndFut": {"s1":["sobrevendré"],"s2":["sobrevendrás"],"vos":["sobrevendrás"],"s3":["sobrevendrá"],"p1":["sobrevendremos"],"p2":["sobrevendréis"],"p3":["sobrevendrán"]},
     "IndCond": {"s1":["sobrevendría"],"s2":["sobrevendrías"],"vos":["sobrevendrías"],"s3":["sobrevendría"],"p1":["sobrevendríamos"],"p2":["sobrevendríais"],"p3":["sobrevendrían"]},
-    "SubPres": {"s1":["sobrevenga"],"s2":["sobrevengas"],"vos":["sobrevengas","sobrevengás"],"s3":["sobrevenga"],"p1":["sobrevengamos"],"p2":["sobrevengáis"],"p3":["sobrevengan"]},
+    "SubPres": {"s1":["sobrevenga"],"s2":["sobrevengas"],"vos":[{"forma": "sobrevengas","uso":"Riop."},{"forma":"sobrevengás","uso":"C.Am."}],"s3":["sobrevenga"],"p1":["sobrevengamos"],"p2":["sobrevengáis"],"p3":["sobrevengan"]},
     "SubImp": {"s1":["sobreviniera","sobreviniese"],"s2":["sobrevinieras","sobrevinieses"],"vos":["sobrevinieras","sobrevinieses"],"s3":["sobreviniera","sobreviniese"],"p1":["sobreviniéramos","sobreviniésemos"],"p2":["sobrevinierais","sobrevinieseis"],"p3":["sobrevinieran","sobreviniesen"]},
     "SubFut": {"s1":["sobreviniere"],"s2":["sobrevinieres"],"vos":["sobrevinieres"],"s3":["sobreviniere"],"p1":["sobreviniéremos"],"p2":["sobreviniereis"],"p3":["sobrevinieren"]},
-    "CmdPos": {"s2":{"estándar":["sobrevén"],"atípicos":[{"forma":"sobreviene","etiquetas":["no normativo"]}]},"vos":["sobrevení"],"s3":["sobrevenga"],"p1":["sobrevengamos"],"p2":["sobrevenid"],"p3":["sobrevengan"]}
+    "CmdPos": {"s2":["sobrevén"],"vos":["sobrevení"],"s3":["sobrevenga"],"p1":["sobrevengamos"],"p2":["sobrevenid"],"p3":["sobrevengan"]}
   }
 }

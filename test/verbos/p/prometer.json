@@ -13,7 +13,7 @@
     "IndPret": {"s1":["prometí"],"s2":["prometiste"],"vos":["prometiste"],"s3":["prometió"],"p1":["prometimos"],"p2":["prometisteis"],"p3":["prometieron"]},
     "IndFut": {"s1":["prometeré"],"s2":["prometerás"],"vos":["prometerás"],"s3":["prometerá"],"p1":["prometeremos"],"p2":["prometeréis"],"p3":["prometerán"]},
     "IndCond": {"s1":["prometería"],"s2":["prometerías"],"vos":["prometerías"],"s3":["prometería"],"p1":["prometeríamos"],"p2":["prometeríais"],"p3":["prometerían"]},
-    "SubPres": {"s1":["prometa"],"s2":["prometas"],"vos":["prometas","prometás"],"s3":["prometa"],"p1":["prometamos"],"p2":["prometáis"],"p3":["prometan"]},
+    "SubPres": {"s1":["prometa"],"s2":["prometas"],"vos":[{"forma": "prometas","uso":"Riop."},{"forma":"prometás","uso":"C.Am."}],"s3":["prometa"],"p1":["prometamos"],"p2":["prometáis"],"p3":["prometan"]},
     "SubImp": {"s1":["prometiera","prometiese"],"s2":["prometieras","prometieses"],"vos":["prometieras","prometieses"],"s3":["prometiera","prometiese"],"p1":["prometiéramos","prometiésemos"],"p2":["prometierais","prometieseis"],"p3":["prometieran","prometiesen"]},
     "SubFut": {"s1":["prometiere"],"s2":["prometieres"],"vos":["prometieres"],"s3":["prometiere"],"p1":["prometiéremos"],"p2":["prometiereis"],"p3":["prometieren"]},
     "CmdPos": {"s2":["promete"],"vos":["prometé"],"s3":["prometa"],"p1":["prometamos"],"p2":["prometed"],"p3":["prometan"]}

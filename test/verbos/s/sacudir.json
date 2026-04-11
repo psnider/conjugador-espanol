@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sacudí"],"s2":["sacudiste"],"vos":["sacudiste"],"s3":["sacudió"],"p1":["sacudimos"],"p2":["sacudisteis"],"p3":["sacudieron"]},
     "IndFut": {"s1":["sacudiré"],"s2":["sacudirás"],"vos":["sacudirás"],"s3":["sacudirá"],"p1":["sacudiremos"],"p2":["sacudiréis"],"p3":["sacudirán"]},
     "IndCond": {"s1":["sacudiría"],"s2":["sacudirías"],"vos":["sacudirías"],"s3":["sacudiría"],"p1":["sacudiríamos"],"p2":["sacudiríais"],"p3":["sacudirían"]},
-    "SubPres": {"s1":["sacuda"],"s2":["sacudas"],"vos":["sacudas","sacudás"],"s3":["sacuda"],"p1":["sacudamos"],"p2":["sacudáis"],"p3":["sacudan"]},
+    "SubPres": {"s1":["sacuda"],"s2":["sacudas"],"vos":[{"forma": "sacudas","uso":"Riop."},{"forma":"sacudás","uso":"C.Am."}],"s3":["sacuda"],"p1":["sacudamos"],"p2":["sacudáis"],"p3":["sacudan"]},
     "SubImp": {"s1":["sacudiera","sacudiese"],"s2":["sacudieras","sacudieses"],"vos":["sacudieras","sacudieses"],"s3":["sacudiera","sacudiese"],"p1":["sacudiéramos","sacudiésemos"],"p2":["sacudierais","sacudieseis"],"p3":["sacudieran","sacudiesen"]},
     "SubFut": {"s1":["sacudiere"],"s2":["sacudieres"],"vos":["sacudieres"],"s3":["sacudiere"],"p1":["sacudiéremos"],"p2":["sacudiereis"],"p3":["sacudieren"]},
     "CmdPos": {"s2":["sacude"],"vos":["sacudí"],"s3":["sacuda"],"p1":["sacudamos"],"p2":["sacudid"],"p3":["sacudan"]}

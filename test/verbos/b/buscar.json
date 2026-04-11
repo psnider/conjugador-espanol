@@ -13,7 +13,7 @@
     "IndPret": {"s1":["busqué"],"s2":["buscaste"],"vos":["buscaste"],"s3":["buscó"],"p1":["buscamos"],"p2":["buscasteis"],"p3":["buscaron"]},
     "IndFut": {"s1":["buscaré"],"s2":["buscarás"],"vos":["buscarás"],"s3":["buscará"],"p1":["buscaremos"],"p2":["buscaréis"],"p3":["buscarán"]},
     "IndCond": {"s1":["buscaría"],"s2":["buscarías"],"vos":["buscarías"],"s3":["buscaría"],"p1":["buscaríamos"],"p2":["buscaríais"],"p3":["buscarían"]},
-    "SubPres": {"s1":["busque"],"s2":["busques"],"vos":["busques","busqués"],"s3":["busque"],"p1":["busquemos"],"p2":["busquéis"],"p3":["busquen"]},
+    "SubPres": {"s1":["busque"],"s2":["busques"],"vos":[{"forma": "busques","uso":"Riop."},{"forma":"busqués","uso":"C.Am."}],"s3":["busque"],"p1":["busquemos"],"p2":["busquéis"],"p3":["busquen"]},
     "SubImp": {"s1":["buscara","buscase"],"s2":["buscaras","buscases"],"vos":["buscaras","buscases"],"s3":["buscara","buscase"],"p1":["buscáramos","buscásemos"],"p2":["buscarais","buscaseis"],"p3":["buscaran","buscasen"]},
     "SubFut": {"s1":["buscare"],"s2":["buscares"],"vos":["buscares"],"s3":["buscare"],"p1":["buscáremos"],"p2":["buscareis"],"p3":["buscaren"]},
     "CmdPos": {"s2":["busca"],"vos":["buscá"],"s3":["busque"],"p1":["busquemos"],"p2":["buscad"],"p3":["busquen"]}

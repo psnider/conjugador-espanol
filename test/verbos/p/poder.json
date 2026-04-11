@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pude"],"s2":["pudiste"],"vos":["pudiste"],"s3":["pudo"],"p1":["pudimos"],"p2":["pudisteis"],"p3":["pudieron"]},
     "IndFut": {"s1":["podré"],"s2":["podrás"],"vos":["podrás"],"s3":["podrá"],"p1":["podremos"],"p2":["podréis"],"p3":["podrán"]},
     "IndCond": {"s1":["podría"],"s2":["podrías"],"vos":["podrías"],"s3":["podría"],"p1":["podríamos"],"p2":["podríais"],"p3":["podrían"]},
-    "SubPres": {"s1":["pueda"],"s2":["puedas"],"vos":["puedas","podás"],"s3":["pueda"],"p1":["podamos"],"p2":["podáis"],"p3":["puedan"]},
+    "SubPres": {"s1":["pueda"],"s2":["puedas"],"vos":[{"forma": "puedas","uso":"Riop."},{"forma":"podás","uso":"C.Am."}],"s3":["pueda"],"p1":["podamos"],"p2":["podáis"],"p3":["puedan"]},
     "SubImp": {"s1":["pudiera","pudiese"],"s2":["pudieras","pudieses"],"vos":["pudieras","pudieses"],"s3":["pudiera","pudiese"],"p1":["pudiéramos","pudiésemos"],"p2":["pudierais","pudieseis"],"p3":["pudieran","pudiesen"]},
     "SubFut": {"s1":["pudiere"],"s2":["pudieres"],"vos":["pudieres"],"s3":["pudiere"],"p1":["pudiéremos"],"p2":["pudiereis"],"p3":["pudieren"]},
     "CmdPos": {"s2":["puede"],"vos":["podé"],"s3":["pueda"],"p1":["podamos"],"p2":["poded"],"p3":["puedan"]}

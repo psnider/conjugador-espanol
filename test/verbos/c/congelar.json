@@ -13,7 +13,7 @@
     "IndPret": {"s1":["congelé"],"s2":["congelaste"],"vos":["congelaste"],"s3":["congeló"],"p1":["congelamos"],"p2":["congelasteis"],"p3":["congelaron"]},
     "IndFut": {"s1":["congelaré"],"s2":["congelarás"],"vos":["congelarás"],"s3":["congelará"],"p1":["congelaremos"],"p2":["congelaréis"],"p3":["congelarán"]},
     "IndCond": {"s1":["congelaría"],"s2":["congelarías"],"vos":["congelarías"],"s3":["congelaría"],"p1":["congelaríamos"],"p2":["congelaríais"],"p3":["congelarían"]},
-    "SubPres": {"s1":["congele"],"s2":["congeles"],"vos":["congeles","congelés"],"s3":["congele"],"p1":["congelemos"],"p2":["congeléis"],"p3":["congelen"]},
+    "SubPres": {"s1":["congele"],"s2":["congeles"],"vos":[{"forma": "congeles","uso":"Riop."},{"forma":"congelés","uso":"C.Am."}],"s3":["congele"],"p1":["congelemos"],"p2":["congeléis"],"p3":["congelen"]},
     "SubImp": {"s1":["congelara","congelase"],"s2":["congelaras","congelases"],"vos":["congelaras","congelases"],"s3":["congelara","congelase"],"p1":["congeláramos","congelásemos"],"p2":["congelarais","congelaseis"],"p3":["congelaran","congelasen"]},
     "SubFut": {"s1":["congelare"],"s2":["congelares"],"vos":["congelares"],"s3":["congelare"],"p1":["congeláremos"],"p2":["congelareis"],"p3":["congelaren"]},
     "CmdPos": {"s2":["congela"],"vos":["congelá"],"s3":["congele"],"p1":["congelemos"],"p2":["congelad"],"p3":["congelen"]}

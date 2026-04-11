@@ -13,7 +13,7 @@
     "IndPret": {"s1":["presentí"],"s2":["presentiste"],"vos":["presentiste"],"s3":["presintió"],"p1":["presentimos"],"p2":["presentisteis"],"p3":["presintieron"]},
     "IndFut": {"s1":["presentiré"],"s2":["presentirás"],"vos":["presentirás"],"s3":["presentirá"],"p1":["presentiremos"],"p2":["presentiréis"],"p3":["presentirán"]},
     "IndCond": {"s1":["presentiría"],"s2":["presentirías"],"vos":["presentirías"],"s3":["presentiría"],"p1":["presentiríamos"],"p2":["presentiríais"],"p3":["presentirían"]},
-    "SubPres": {"s1":["presienta"],"s2":["presientas"],"vos":["presientas","presintás"],"s3":["presienta"],"p1":["presintamos"],"p2":["presintáis"],"p3":["presientan"]},
+    "SubPres": {"s1":["presienta"],"s2":["presientas"],"vos":[{"forma": "presientas","uso":"Riop."},{"forma":"presintás","uso":"C.Am."}],"s3":["presienta"],"p1":["presintamos"],"p2":["presintáis"],"p3":["presientan"]},
     "SubImp": {"s1":["presintiera","presintiese"],"s2":["presintieras","presintieses"],"vos":["presintieras","presintieses"],"s3":["presintiera","presintiese"],"p1":["presintiéramos","presintiésemos"],"p2":["presintierais","presintieseis"],"p3":["presintieran","presintiesen"]},
     "SubFut": {"s1":["presintiere"],"s2":["presintieres"],"vos":["presintieres"],"s3":["presintiere"],"p1":["presintiéremos"],"p2":["presintiereis"],"p3":["presintieren"]},
     "CmdPos": {"s2":["presiente"],"vos":["presentí"],"s3":["presienta"],"p1":["presintamos"],"p2":["presentid"],"p3":["presientan"]}

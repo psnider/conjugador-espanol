@@ -13,7 +13,7 @@
     "IndPret": {"s1":["actualicé"],"s2":["actualizaste"],"vos":["actualizaste"],"s3":["actualizó"],"p1":["actualizamos"],"p2":["actualizasteis"],"p3":["actualizaron"]},
     "IndFut": {"s1":["actualizaré"],"s2":["actualizarás"],"vos":["actualizarás"],"s3":["actualizará"],"p1":["actualizaremos"],"p2":["actualizaréis"],"p3":["actualizarán"]},
     "IndCond": {"s1":["actualizaría"],"s2":["actualizarías"],"vos":["actualizarías"],"s3":["actualizaría"],"p1":["actualizaríamos"],"p2":["actualizaríais"],"p3":["actualizarían"]},
-    "SubPres": {"s1":["actualice"],"s2":["actualices"],"vos":["actualices","actualicés"],"s3":["actualice"],"p1":["actualicemos"],"p2":["actualicéis"],"p3":["actualicen"]},
+    "SubPres": {"s1":["actualice"],"s2":["actualices"],"vos":[{"forma": "actualices","uso":"Riop."},{"forma":"actualicés","uso":"C.Am."}],"s3":["actualice"],"p1":["actualicemos"],"p2":["actualicéis"],"p3":["actualicen"]},
     "SubImp": {"s1":["actualizara","actualizase"],"s2":["actualizaras","actualizases"],"vos":["actualizaras","actualizases"],"s3":["actualizara","actualizase"],"p1":["actualizáramos","actualizásemos"],"p2":["actualizarais","actualizaseis"],"p3":["actualizaran","actualizasen"]},
     "SubFut": {"s1":["actualizare"],"s2":["actualizares"],"vos":["actualizares"],"s3":["actualizare"],"p1":["actualizáremos"],"p2":["actualizareis"],"p3":["actualizaren"]},
     "CmdPos": {"s2":["actualiza"],"vos":["actualizá"],"s3":["actualice"],"p1":["actualicemos"],"p2":["actualizad"],"p3":["actualicen"]}

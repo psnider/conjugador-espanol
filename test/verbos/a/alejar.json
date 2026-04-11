@@ -13,7 +13,7 @@
     "IndPret": {"s1":["alejé"],"s2":["alejaste"],"vos":["alejaste"],"s3":["alejó"],"p1":["alejamos"],"p2":["alejasteis"],"p3":["alejaron"]},
     "IndFut": {"s1":["alejaré"],"s2":["alejarás"],"vos":["alejarás"],"s3":["alejará"],"p1":["alejaremos"],"p2":["alejaréis"],"p3":["alejarán"]},
     "IndCond": {"s1":["alejaría"],"s2":["alejarías"],"vos":["alejarías"],"s3":["alejaría"],"p1":["alejaríamos"],"p2":["alejaríais"],"p3":["alejarían"]},
-    "SubPres": {"s1":["aleje"],"s2":["alejes"],"vos":["alejes","alejés"],"s3":["aleje"],"p1":["alejemos"],"p2":["alejéis"],"p3":["alejen"]},
+    "SubPres": {"s1":["aleje"],"s2":["alejes"],"vos":[{"forma": "alejes","uso":"Riop."},{"forma":"alejés","uso":"C.Am."}],"s3":["aleje"],"p1":["alejemos"],"p2":["alejéis"],"p3":["alejen"]},
     "SubImp": {"s1":["alejara","alejase"],"s2":["alejaras","alejases"],"vos":["alejaras","alejases"],"s3":["alejara","alejase"],"p1":["alejáramos","alejásemos"],"p2":["alejarais","alejaseis"],"p3":["alejaran","alejasen"]},
     "SubFut": {"s1":["alejare"],"s2":["alejares"],"vos":["alejares"],"s3":["alejare"],"p1":["alejáremos"],"p2":["alejareis"],"p3":["alejaren"]},
     "CmdPos": {"s2":["aleja"],"vos":["alejá"],"s3":["aleje"],"p1":["alejemos"],"p2":["alejad"],"p3":["alejen"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["puntué"],"s2":["puntuaste"],"vos":["puntuaste"],"s3":["puntuó"],"p1":["puntuamos"],"p2":["puntuasteis"],"p3":["puntuaron"]},
     "IndFut": {"s1":["puntuaré"],"s2":["puntuarás"],"vos":["puntuarás"],"s3":["puntuará"],"p1":["puntuaremos"],"p2":["puntuaréis"],"p3":["puntuarán"]},
     "IndCond": {"s1":["puntuaría"],"s2":["puntuarías"],"vos":["puntuarías"],"s3":["puntuaría"],"p1":["puntuaríamos"],"p2":["puntuaríais"],"p3":["puntuarían"]},
-    "SubPres": {"s1":["puntúe"],"s2":["puntúes"],"vos":["puntúes","puntués"],"s3":["puntúe"],"p1":["puntuemos"],"p2":["puntuéis"],"p3":["puntúen"]},
+    "SubPres": {"s1":["puntúe"],"s2":["puntúes"],"vos":[{"forma": "puntúes","uso":"Riop."},{"forma":"puntués","uso":"C.Am."}],"s3":["puntúe"],"p1":["puntuemos"],"p2":["puntuéis"],"p3":["puntúen"]},
     "SubImp": {"s1":["puntuara","puntuase"],"s2":["puntuaras","puntuases"],"vos":["puntuaras","puntuases"],"s3":["puntuara","puntuase"],"p1":["puntuáramos","puntuásemos"],"p2":["puntuarais","puntuaseis"],"p3":["puntuaran","puntuasen"]},
     "SubFut": {"s1":["puntuare"],"s2":["puntuares"],"vos":["puntuares"],"s3":["puntuare"],"p1":["puntuáremos"],"p2":["puntuareis"],"p3":["puntuaren"]},
     "CmdPos": {"s2":["puntúa"],"vos":["puntuá"],"s3":["puntúe"],"p1":["puntuemos"],"p2":["puntuad"],"p3":["puntúen"]}

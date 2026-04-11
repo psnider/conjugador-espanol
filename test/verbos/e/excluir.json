@@ -12,7 +12,7 @@
     "IndPret": {"s1":["excluí"],"s2":["excluiste"],"vos":["excluiste"],"s3":["excluyó"],"p1":["excluimos"],"p2":["excluisteis"],"p3":["excluyeron"]},
     "IndFut": {"s1":["excluiré"],"s2":["excluirás"],"vos":["excluirás"],"s3":["excluirá"],"p1":["excluiremos"],"p2":["excluiréis"],"p3":["excluirán"]},
     "IndCond": {"s1":["excluiría"],"s2":["excluirías"],"vos":["excluirías"],"s3":["excluiría"],"p1":["excluiríamos"],"p2":["excluiríais"],"p3":["excluirían"]},
-    "SubPres": {"s1":["excluya"],"s2":["excluyas"],"vos":["excluyas","excluyás"],"s3":["excluya"],"p1":["excluyamos"],"p2":["excluyáis"],"p3":["excluyan"]},
+    "SubPres": {"s1":["excluya"],"s2":["excluyas"],"vos":[{"forma": "excluyas","uso":"Riop."},{"forma":"excluyás","uso":"C.Am."}],"s3":["excluya"],"p1":["excluyamos"],"p2":["excluyáis"],"p3":["excluyan"]},
     "SubImp": {"s1":["excluyera","excluyese"],"s2":["excluyeras","excluyeses"],"vos":["excluyeras","excluyeses"],"s3":["excluyera","excluyese"],"p1":["excluyéramos","excluyésemos"],"p2":["excluyerais","excluyeseis"],"p3":["excluyeran","excluyesen"]},
     "SubFut": {"s1":["excluyere"],"s2":["excluyeres"],"vos":["excluyeres"],"s3":["excluyere"],"p1":["excluyéremos"],"p2":["excluyereis"],"p3":["excluyeren"]},
     "CmdPos": {"s2":["excluye"],"vos":["excluí"],"s3":["excluya"],"p1":["excluyamos"],"p2":["excluid"],"p3":["excluyan"]}

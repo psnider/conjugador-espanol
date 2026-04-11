@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enlacé"],"s2":["enlazaste"],"vos":["enlazaste"],"s3":["enlazó"],"p1":["enlazamos"],"p2":["enlazasteis"],"p3":["enlazaron"]},
     "IndFut": {"s1":["enlazaré"],"s2":["enlazarás"],"vos":["enlazarás"],"s3":["enlazará"],"p1":["enlazaremos"],"p2":["enlazaréis"],"p3":["enlazarán"]},
     "IndCond": {"s1":["enlazaría"],"s2":["enlazarías"],"vos":["enlazarías"],"s3":["enlazaría"],"p1":["enlazaríamos"],"p2":["enlazaríais"],"p3":["enlazarían"]},
-    "SubPres": {"s1":["enlace"],"s2":["enlaces"],"vos":["enlaces","enlacés"],"s3":["enlace"],"p1":["enlacemos"],"p2":["enlacéis"],"p3":["enlacen"]},
+    "SubPres": {"s1":["enlace"],"s2":["enlaces"],"vos":[{"forma": "enlaces","uso":"Riop."},{"forma":"enlacés","uso":"C.Am."}],"s3":["enlace"],"p1":["enlacemos"],"p2":["enlacéis"],"p3":["enlacen"]},
     "SubImp": {"s1":["enlazara","enlazase"],"s2":["enlazaras","enlazases"],"vos":["enlazaras","enlazases"],"s3":["enlazara","enlazase"],"p1":["enlazáramos","enlazásemos"],"p2":["enlazarais","enlazaseis"],"p3":["enlazaran","enlazasen"]},
     "SubFut": {"s1":["enlazare"],"s2":["enlazares"],"vos":["enlazares"],"s3":["enlazare"],"p1":["enlazáremos"],"p2":["enlazareis"],"p3":["enlazaren"]},
     "CmdPos": {"s2":["enlaza"],"vos":["enlazá"],"s3":["enlace"],"p1":["enlacemos"],"p2":["enlazad"],"p3":["enlacen"]}

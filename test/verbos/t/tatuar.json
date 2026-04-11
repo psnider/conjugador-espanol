@@ -12,7 +12,7 @@
     "IndPret": {"s1":["tatué"],"s2":["tatuaste"],"vos":["tatuaste"],"s3":["tatuó"],"p1":["tatuamos"],"p2":["tatuasteis"],"p3":["tatuaron"]},
     "IndFut": {"s1":["tatuaré"],"s2":["tatuarás"],"vos":["tatuarás"],"s3":["tatuará"],"p1":["tatuaremos"],"p2":["tatuaréis"],"p3":["tatuarán"]},
     "IndCond": {"s1":["tatuaría"],"s2":["tatuarías"],"vos":["tatuarías"],"s3":["tatuaría"],"p1":["tatuaríamos"],"p2":["tatuaríais"],"p3":["tatuarían"]},
-    "SubPres": {"s1":["tatúe"],"s2":["tatúes"],"vos":["tatúes","tatués"],"s3":["tatúe"],"p1":["tatuemos"],"p2":["tatuéis"],"p3":["tatúen"]},
+    "SubPres": {"s1":["tatúe"],"s2":["tatúes"],"vos":[{"forma": "tatúes","uso":"Riop."},{"forma":"tatués","uso":"C.Am."}],"s3":["tatúe"],"p1":["tatuemos"],"p2":["tatuéis"],"p3":["tatúen"]},
     "SubImp": {"s1":["tatuara","tatuase"],"s2":["tatuaras","tatuases"],"vos":["tatuaras","tatuases"],"s3":["tatuara","tatuase"],"p1":["tatuáramos","tatuásemos"],"p2":["tatuarais","tatuaseis"],"p3":["tatuaran","tatuasen"]},
     "SubFut": {"s1":["tatuare"],"s2":["tatuares"],"vos":["tatuares"],"s3":["tatuare"],"p1":["tatuáremos"],"p2":["tatuareis"],"p3":["tatuaren"]},
     "CmdPos": {"s2":["tatúa"],"vos":["tatuá"],"s3":["tatúe"],"p1":["tatuemos"],"p2":["tatuad"],"p3":["tatúen"]}

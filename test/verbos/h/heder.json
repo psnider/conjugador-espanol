@@ -13,7 +13,7 @@
     "IndPret": {"s1":["hedí"],"s2":["hediste"],"vos":["hediste"],"s3":["hedió"],"p1":["hedimos"],"p2":["hedisteis"],"p3":["hedieron"]},
     "IndFut": {"s1":["hederé"],"s2":["hederás"],"vos":["hederás"],"s3":["hederá"],"p1":["hederemos"],"p2":["hederéis"],"p3":["hederán"]},
     "IndCond": {"s1":["hedería"],"s2":["hederías"],"vos":["hederías"],"s3":["hedería"],"p1":["hederíamos"],"p2":["hederíais"],"p3":["hederían"]},
-    "SubPres": {"s1":["hieda"],"s2":["hiedas"],"vos":["hiedas","hedás"],"s3":["hieda"],"p1":["hedamos"],"p2":["hedáis"],"p3":["hiedan"]},
+    "SubPres": {"s1":["hieda"],"s2":["hiedas"],"vos":[{"forma": "hiedas","uso":"Riop."},{"forma":"hedás","uso":"C.Am."}],"s3":["hieda"],"p1":["hedamos"],"p2":["hedáis"],"p3":["hiedan"]},
     "SubImp": {"s1":["hediera","hediese"],"s2":["hedieras","hedieses"],"vos":["hedieras","hedieses"],"s3":["hediera","hediese"],"p1":["hediéramos","hediésemos"],"p2":["hedierais","hedieseis"],"p3":["hedieran","hediesen"]},
     "SubFut": {"s1":["hediere"],"s2":["hedieres"],"vos":["hedieres"],"s3":["hediere"],"p1":["hediéremos"],"p2":["hediereis"],"p3":["hedieren"]},
     "CmdPos": {"s2":["hiede"],"vos":["hedé"],"s3":["hieda"],"p1":["hedamos"],"p2":["heded"],"p3":["hiedan"]}

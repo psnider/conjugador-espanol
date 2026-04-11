@@ -13,7 +13,7 @@
     "IndPret": {"s1":["concordé"],"s2":["concordaste"],"vos":["concordaste"],"s3":["concordó"],"p1":["concordamos"],"p2":["concordasteis"],"p3":["concordaron"]},
     "IndFut": {"s1":["concordaré"],"s2":["concordarás"],"vos":["concordarás"],"s3":["concordará"],"p1":["concordaremos"],"p2":["concordaréis"],"p3":["concordarán"]},
     "IndCond": {"s1":["concordaría"],"s2":["concordarías"],"vos":["concordarías"],"s3":["concordaría"],"p1":["concordaríamos"],"p2":["concordaríais"],"p3":["concordarían"]},
-    "SubPres": {"s1":["concuerde"],"s2":["concuerdes"],"vos":["concuerdes","concordés"],"s3":["concuerde"],"p1":["concordemos"],"p2":["concordéis"],"p3":["concuerden"]},
+    "SubPres": {"s1":["concuerde"],"s2":["concuerdes"],"vos":[{"forma": "concuerdes","uso":"Riop."},{"forma":"concordés","uso":"C.Am."}],"s3":["concuerde"],"p1":["concordemos"],"p2":["concordéis"],"p3":["concuerden"]},
     "SubImp": {"s1":["concordara","concordase"],"s2":["concordaras","concordases"],"vos":["concordaras","concordases"],"s3":["concordara","concordase"],"p1":["concordáramos","concordásemos"],"p2":["concordarais","concordaseis"],"p3":["concordaran","concordasen"]},
     "SubFut": {"s1":["concordare"],"s2":["concordares"],"vos":["concordares"],"s3":["concordare"],"p1":["concordáremos"],"p2":["concordareis"],"p3":["concordaren"]},
     "CmdPos": {"s2":["concuerda"],"vos":["concordá"],"s3":["concuerde"],"p1":["concordemos"],"p2":["concordad"],"p3":["concuerden"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conocí"],"s2":["conociste"],"vos":["conociste"],"s3":["conoció"],"p1":["conocimos"],"p2":["conocisteis"],"p3":["conocieron"]},
     "IndFut": {"s1":["conoceré"],"s2":["conocerás"],"vos":["conocerás"],"s3":["conocerá"],"p1":["conoceremos"],"p2":["conoceréis"],"p3":["conocerán"]},
     "IndCond": {"s1":["conocería"],"s2":["conocerías"],"vos":["conocerías"],"s3":["conocería"],"p1":["conoceríamos"],"p2":["conoceríais"],"p3":["conocerían"]},
-    "SubPres": {"s1":["conozca"],"s2":["conozcas"],"vos":["conozcas","conozcás"],"s3":["conozca"],"p1":["conozcamos"],"p2":["conozcáis"],"p3":["conozcan"]},
+    "SubPres": {"s1":["conozca"],"s2":["conozcas"],"vos":[{"forma": "conozcas","uso":"Riop."},{"forma":"conozcás","uso":"C.Am."}],"s3":["conozca"],"p1":["conozcamos"],"p2":["conozcáis"],"p3":["conozcan"]},
     "SubImp": {"s1":["conociera","conociese"],"s2":["conocieras","conocieses"],"vos":["conocieras","conocieses"],"s3":["conociera","conociese"],"p1":["conociéramos","conociésemos"],"p2":["conocierais","conocieseis"],"p3":["conocieran","conociesen"]},
     "SubFut": {"s1":["conociere"],"s2":["conocieres"],"vos":["conocieres"],"s3":["conociere"],"p1":["conociéremos"],"p2":["conociereis"],"p3":["conocieren"]},
     "CmdPos": {"s2":["conoce"],"vos":["conocé"],"s3":["conozca"],"p1":["conozcamos"],"p2":["conoced"],"p3":["conozcan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["denegué"],"s2":["denegaste"],"vos":["denegaste"],"s3":["denegó"],"p1":["denegamos"],"p2":["denegasteis"],"p3":["denegaron"]},
     "IndFut": {"s1":["denegaré"],"s2":["denegarás"],"vos":["denegarás"],"s3":["denegará"],"p1":["denegaremos"],"p2":["denegaréis"],"p3":["denegarán"]},
     "IndCond": {"s1":["denegaría"],"s2":["denegarías"],"vos":["denegarías"],"s3":["denegaría"],"p1":["denegaríamos"],"p2":["denegaríais"],"p3":["denegarían"]},
-    "SubPres": {"s1":["deniegue"],"s2":["deniegues"],"vos":["deniegues","denegués"],"s3":["deniegue"],"p1":["deneguemos"],"p2":["deneguéis"],"p3":["denieguen"]},
+    "SubPres": {"s1":["deniegue"],"s2":["deniegues"],"vos":[{"forma": "deniegues","uso":"Riop."},{"forma":"denegués","uso":"C.Am."}],"s3":["deniegue"],"p1":["deneguemos"],"p2":["deneguéis"],"p3":["denieguen"]},
     "SubImp": {"s1":["denegara","denegase"],"s2":["denegaras","denegases"],"vos":["denegaras","denegases"],"s3":["denegara","denegase"],"p1":["denegáramos","denegásemos"],"p2":["denegarais","denegaseis"],"p3":["denegaran","denegasen"]},
     "SubFut": {"s1":["denegare"],"s2":["denegares"],"vos":["denegares"],"s3":["denegare"],"p1":["denegáremos"],"p2":["denegareis"],"p3":["denegaren"]},
     "CmdPos": {"s2":["deniega"],"vos":["denegá"],"s3":["deniegue"],"p1":["deneguemos"],"p2":["denegad"],"p3":["denieguen"]}

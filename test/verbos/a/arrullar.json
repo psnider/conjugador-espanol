@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arrullé"],"s2":["arrullaste"],"vos":["arrullaste"],"s3":["arrulló"],"p1":["arrullamos"],"p2":["arrullasteis"],"p3":["arrullaron"]},
     "IndFut": {"s1":["arrullaré"],"s2":["arrullarás"],"vos":["arrullarás"],"s3":["arrullará"],"p1":["arrullaremos"],"p2":["arrullaréis"],"p3":["arrullarán"]},
     "IndCond": {"s1":["arrullaría"],"s2":["arrullarías"],"vos":["arrullarías"],"s3":["arrullaría"],"p1":["arrullaríamos"],"p2":["arrullaríais"],"p3":["arrullarían"]},
-    "SubPres": {"s1":["arrulle"],"s2":["arrulles"],"vos":["arrulles","arrullés"],"s3":["arrulle"],"p1":["arrullemos"],"p2":["arrulléis"],"p3":["arrullen"]},
+    "SubPres": {"s1":["arrulle"],"s2":["arrulles"],"vos":[{"forma": "arrulles","uso":"Riop."},{"forma":"arrullés","uso":"C.Am."}],"s3":["arrulle"],"p1":["arrullemos"],"p2":["arrulléis"],"p3":["arrullen"]},
     "SubImp": {"s1":["arrullara","arrullase"],"s2":["arrullaras","arrullases"],"vos":["arrullaras","arrullases"],"s3":["arrullara","arrullase"],"p1":["arrulláramos","arrullásemos"],"p2":["arrullarais","arrullaseis"],"p3":["arrullaran","arrullasen"]},
     "SubFut": {"s1":["arrullare"],"s2":["arrullares"],"vos":["arrullares"],"s3":["arrullare"],"p1":["arrulláremos"],"p2":["arrullareis"],"p3":["arrullaren"]},
     "CmdPos": {"s2":["arrulla"],"vos":["arrullá"],"s3":["arrulle"],"p1":["arrullemos"],"p2":["arrullad"],"p3":["arrullen"]}

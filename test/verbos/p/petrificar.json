@@ -13,7 +13,7 @@
     "IndPret": {"s1":["petrifiqué"],"s2":["petrificaste"],"vos":["petrificaste"],"s3":["petrificó"],"p1":["petrificamos"],"p2":["petrificasteis"],"p3":["petrificaron"]},
     "IndFut": {"s1":["petrificaré"],"s2":["petrificarás"],"vos":["petrificarás"],"s3":["petrificará"],"p1":["petrificaremos"],"p2":["petrificaréis"],"p3":["petrificarán"]},
     "IndCond": {"s1":["petrificaría"],"s2":["petrificarías"],"vos":["petrificarías"],"s3":["petrificaría"],"p1":["petrificaríamos"],"p2":["petrificaríais"],"p3":["petrificarían"]},
-    "SubPres": {"s1":["petrifique"],"s2":["petrifiques"],"vos":["petrifiques","petrifiqués"],"s3":["petrifique"],"p1":["petrifiquemos"],"p2":["petrifiquéis"],"p3":["petrifiquen"]},
+    "SubPres": {"s1":["petrifique"],"s2":["petrifiques"],"vos":[{"forma": "petrifiques","uso":"Riop."},{"forma":"petrifiqués","uso":"C.Am."}],"s3":["petrifique"],"p1":["petrifiquemos"],"p2":["petrifiquéis"],"p3":["petrifiquen"]},
     "SubImp": {"s1":["petrificara","petrificase"],"s2":["petrificaras","petrificases"],"vos":["petrificaras","petrificases"],"s3":["petrificara","petrificase"],"p1":["petrificáramos","petrificásemos"],"p2":["petrificarais","petrificaseis"],"p3":["petrificaran","petrificasen"]},
     "SubFut": {"s1":["petrificare"],"s2":["petrificares"],"vos":["petrificares"],"s3":["petrificare"],"p1":["petrificáremos"],"p2":["petrificareis"],"p3":["petrificaren"]},
     "CmdPos": {"s2":["petrifica"],"vos":["petrificá"],"s3":["petrifique"],"p1":["petrifiquemos"],"p2":["petrificad"],"p3":["petrifiquen"]}

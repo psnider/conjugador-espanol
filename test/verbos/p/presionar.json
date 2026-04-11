@@ -13,7 +13,7 @@
     "IndPret": {"s1":["presioné"],"s2":["presionaste"],"vos":["presionaste"],"s3":["presionó"],"p1":["presionamos"],"p2":["presionasteis"],"p3":["presionaron"]},
     "IndFut": {"s1":["presionaré"],"s2":["presionarás"],"vos":["presionarás"],"s3":["presionará"],"p1":["presionaremos"],"p2":["presionaréis"],"p3":["presionarán"]},
     "IndCond": {"s1":["presionaría"],"s2":["presionarías"],"vos":["presionarías"],"s3":["presionaría"],"p1":["presionaríamos"],"p2":["presionaríais"],"p3":["presionarían"]},
-    "SubPres": {"s1":["presione"],"s2":["presiones"],"vos":["presiones","presionés"],"s3":["presione"],"p1":["presionemos"],"p2":["presionéis"],"p3":["presionen"]},
+    "SubPres": {"s1":["presione"],"s2":["presiones"],"vos":[{"forma": "presiones","uso":"Riop."},{"forma":"presionés","uso":"C.Am."}],"s3":["presione"],"p1":["presionemos"],"p2":["presionéis"],"p3":["presionen"]},
     "SubImp": {"s1":["presionara","presionase"],"s2":["presionaras","presionases"],"vos":["presionaras","presionases"],"s3":["presionara","presionase"],"p1":["presionáramos","presionásemos"],"p2":["presionarais","presionaseis"],"p3":["presionaran","presionasen"]},
     "SubFut": {"s1":["presionare"],"s2":["presionares"],"vos":["presionares"],"s3":["presionare"],"p1":["presionáremos"],"p2":["presionareis"],"p3":["presionaren"]},
     "CmdPos": {"s2":["presiona"],"vos":["presioná"],"s3":["presione"],"p1":["presionemos"],"p2":["presionad"],"p3":["presionen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["menté"],"s2":["mentaste"],"vos":["mentaste"],"s3":["mentó"],"p1":["mentamos"],"p2":["mentasteis"],"p3":["mentaron"]},
     "IndFut": {"s1":["mentaré"],"s2":["mentarás"],"vos":["mentarás"],"s3":["mentará"],"p1":["mentaremos"],"p2":["mentaréis"],"p3":["mentarán"]},
     "IndCond": {"s1":["mentaría"],"s2":["mentarías"],"vos":["mentarías"],"s3":["mentaría"],"p1":["mentaríamos"],"p2":["mentaríais"],"p3":["mentarían"]},
-    "SubPres": {"s1":["miente"],"s2":["mientes"],"vos":["mientes","mentés"],"s3":["miente"],"p1":["mentemos"],"p2":["mentéis"],"p3":["mienten"]},
+    "SubPres": {"s1":["miente"],"s2":["mientes"],"vos":[{"forma": "mientes","uso":"Riop."},{"forma":"mentés","uso":"C.Am."}],"s3":["miente"],"p1":["mentemos"],"p2":["mentéis"],"p3":["mienten"]},
     "SubImp": {"s1":["mentara","mentase"],"s2":["mentaras","mentases"],"vos":["mentaras","mentases"],"s3":["mentara","mentase"],"p1":["mentáramos","mentásemos"],"p2":["mentarais","mentaseis"],"p3":["mentaran","mentasen"]},
     "SubFut": {"s1":["mentare"],"s2":["mentares"],"vos":["mentares"],"s3":["mentare"],"p1":["mentáremos"],"p2":["mentareis"],"p3":["mentaren"]},
     "CmdPos": {"s2":["mienta"],"vos":["mentá"],"s3":["miente"],"p1":["mentemos"],"p2":["mentad"],"p3":["mienten"]}

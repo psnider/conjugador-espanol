@@ -13,7 +13,7 @@
     "IndPret": {"s1":["felicité"],"s2":["felicitaste"],"vos":["felicitaste"],"s3":["felicitó"],"p1":["felicitamos"],"p2":["felicitasteis"],"p3":["felicitaron"]},
     "IndFut": {"s1":["felicitaré"],"s2":["felicitarás"],"vos":["felicitarás"],"s3":["felicitará"],"p1":["felicitaremos"],"p2":["felicitaréis"],"p3":["felicitarán"]},
     "IndCond": {"s1":["felicitaría"],"s2":["felicitarías"],"vos":["felicitarías"],"s3":["felicitaría"],"p1":["felicitaríamos"],"p2":["felicitaríais"],"p3":["felicitarían"]},
-    "SubPres": {"s1":["felicite"],"s2":["felicites"],"vos":["felicites","felicités"],"s3":["felicite"],"p1":["felicitemos"],"p2":["felicitéis"],"p3":["feliciten"]},
+    "SubPres": {"s1":["felicite"],"s2":["felicites"],"vos":[{"forma": "felicites","uso":"Riop."},{"forma":"felicités","uso":"C.Am."}],"s3":["felicite"],"p1":["felicitemos"],"p2":["felicitéis"],"p3":["feliciten"]},
     "SubImp": {"s1":["felicitara","felicitase"],"s2":["felicitaras","felicitases"],"vos":["felicitaras","felicitases"],"s3":["felicitara","felicitase"],"p1":["felicitáramos","felicitásemos"],"p2":["felicitarais","felicitaseis"],"p3":["felicitaran","felicitasen"]},
     "SubFut": {"s1":["felicitare"],"s2":["felicitares"],"vos":["felicitares"],"s3":["felicitare"],"p1":["felicitáremos"],"p2":["felicitareis"],"p3":["felicitaren"]},
     "CmdPos": {"s2":["felicita"],"vos":["felicitá"],"s3":["felicite"],"p1":["felicitemos"],"p2":["felicitad"],"p3":["feliciten"]}

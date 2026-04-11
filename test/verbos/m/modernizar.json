@@ -13,7 +13,7 @@
     "IndPret": {"s1":["modernicé"],"s2":["modernizaste"],"vos":["modernizaste"],"s3":["modernizó"],"p1":["modernizamos"],"p2":["modernizasteis"],"p3":["modernizaron"]},
     "IndFut": {"s1":["modernizaré"],"s2":["modernizarás"],"vos":["modernizarás"],"s3":["modernizará"],"p1":["modernizaremos"],"p2":["modernizaréis"],"p3":["modernizarán"]},
     "IndCond": {"s1":["modernizaría"],"s2":["modernizarías"],"vos":["modernizarías"],"s3":["modernizaría"],"p1":["modernizaríamos"],"p2":["modernizaríais"],"p3":["modernizarían"]},
-    "SubPres": {"s1":["modernice"],"s2":["modernices"],"vos":["modernices","modernicés"],"s3":["modernice"],"p1":["modernicemos"],"p2":["modernicéis"],"p3":["modernicen"]},
+    "SubPres": {"s1":["modernice"],"s2":["modernices"],"vos":[{"forma": "modernices","uso":"Riop."},{"forma":"modernicés","uso":"C.Am."}],"s3":["modernice"],"p1":["modernicemos"],"p2":["modernicéis"],"p3":["modernicen"]},
     "SubImp": {"s1":["modernizara","modernizase"],"s2":["modernizaras","modernizases"],"vos":["modernizaras","modernizases"],"s3":["modernizara","modernizase"],"p1":["modernizáramos","modernizásemos"],"p2":["modernizarais","modernizaseis"],"p3":["modernizaran","modernizasen"]},
     "SubFut": {"s1":["modernizare"],"s2":["modernizares"],"vos":["modernizares"],"s3":["modernizare"],"p1":["modernizáremos"],"p2":["modernizareis"],"p3":["modernizaren"]},
     "CmdPos": {"s2":["moderniza"],"vos":["modernizá"],"s3":["modernice"],"p1":["modernicemos"],"p2":["modernizad"],"p3":["modernicen"]}

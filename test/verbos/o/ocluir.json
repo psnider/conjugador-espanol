@@ -12,7 +12,7 @@
     "IndPret": {"s1":["ocluí"],"s2":["ocluiste"],"vos":["ocluiste"],"s3":["ocluyó"],"p1":["ocluimos"],"p2":["ocluisteis"],"p3":["ocluyeron"]},
     "IndFut": {"s1":["ocluiré"],"s2":["ocluirás"],"vos":["ocluirás"],"s3":["ocluirá"],"p1":["ocluiremos"],"p2":["ocluiréis"],"p3":["ocluirán"]},
     "IndCond": {"s1":["ocluiría"],"s2":["ocluirías"],"vos":["ocluirías"],"s3":["ocluiría"],"p1":["ocluiríamos"],"p2":["ocluiríais"],"p3":["ocluirían"]},
-    "SubPres": {"s1":["ocluya"],"s2":["ocluyas"],"vos":["ocluyas","ocluyás"],"s3":["ocluya"],"p1":["ocluyamos"],"p2":["ocluyáis"],"p3":["ocluyan"]},
+    "SubPres": {"s1":["ocluya"],"s2":["ocluyas"],"vos":[{"forma": "ocluyas","uso":"Riop."},{"forma":"ocluyás","uso":"C.Am."}],"s3":["ocluya"],"p1":["ocluyamos"],"p2":["ocluyáis"],"p3":["ocluyan"]},
     "SubImp": {"s1":["ocluyera","ocluyese"],"s2":["ocluyeras","ocluyeses"],"vos":["ocluyeras","ocluyeses"],"s3":["ocluyera","ocluyese"],"p1":["ocluyéramos","ocluyésemos"],"p2":["ocluyerais","ocluyeseis"],"p3":["ocluyeran","ocluyesen"]},
     "SubFut": {"s1":["ocluyere"],"s2":["ocluyeres"],"vos":["ocluyeres"],"s3":["ocluyere"],"p1":["ocluyéremos"],"p2":["ocluyereis"],"p3":["ocluyeren"]},
     "CmdPos": {"s2":["ocluye"],"vos":["ocluí"],"s3":["ocluya"],"p1":["ocluyamos"],"p2":["ocluid"],"p3":["ocluyan"]}

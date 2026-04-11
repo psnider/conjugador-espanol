@@ -13,7 +13,7 @@
     "IndPret": {"s1":["simplifiqué"],"s2":["simplificaste"],"vos":["simplificaste"],"s3":["simplificó"],"p1":["simplificamos"],"p2":["simplificasteis"],"p3":["simplificaron"]},
     "IndFut": {"s1":["simplificaré"],"s2":["simplificarás"],"vos":["simplificarás"],"s3":["simplificará"],"p1":["simplificaremos"],"p2":["simplificaréis"],"p3":["simplificarán"]},
     "IndCond": {"s1":["simplificaría"],"s2":["simplificarías"],"vos":["simplificarías"],"s3":["simplificaría"],"p1":["simplificaríamos"],"p2":["simplificaríais"],"p3":["simplificarían"]},
-    "SubPres": {"s1":["simplifique"],"s2":["simplifiques"],"vos":["simplifiques","simplifiqués"],"s3":["simplifique"],"p1":["simplifiquemos"],"p2":["simplifiquéis"],"p3":["simplifiquen"]},
+    "SubPres": {"s1":["simplifique"],"s2":["simplifiques"],"vos":[{"forma": "simplifiques","uso":"Riop."},{"forma":"simplifiqués","uso":"C.Am."}],"s3":["simplifique"],"p1":["simplifiquemos"],"p2":["simplifiquéis"],"p3":["simplifiquen"]},
     "SubImp": {"s1":["simplificara","simplificase"],"s2":["simplificaras","simplificases"],"vos":["simplificaras","simplificases"],"s3":["simplificara","simplificase"],"p1":["simplificáramos","simplificásemos"],"p2":["simplificarais","simplificaseis"],"p3":["simplificaran","simplificasen"]},
     "SubFut": {"s1":["simplificare"],"s2":["simplificares"],"vos":["simplificares"],"s3":["simplificare"],"p1":["simplificáremos"],"p2":["simplificareis"],"p3":["simplificaren"]},
     "CmdPos": {"s2":["simplifica"],"vos":["simplificá"],"s3":["simplifique"],"p1":["simplifiquemos"],"p2":["simplificad"],"p3":["simplifiquen"]}

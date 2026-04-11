@@ -12,7 +12,7 @@
     "IndPret": {"s1":["destituí"],"s2":["destituiste"],"vos":["destituiste"],"s3":["destituyó"],"p1":["destituimos"],"p2":["destituisteis"],"p3":["destituyeron"]},
     "IndFut": {"s1":["destituiré"],"s2":["destituirás"],"vos":["destituirás"],"s3":["destituirá"],"p1":["destituiremos"],"p2":["destituiréis"],"p3":["destituirán"]},
     "IndCond": {"s1":["destituiría"],"s2":["destituirías"],"vos":["destituirías"],"s3":["destituiría"],"p1":["destituiríamos"],"p2":["destituiríais"],"p3":["destituirían"]},
-    "SubPres": {"s1":["destituya"],"s2":["destituyas"],"vos":["destituyas","destituyás"],"s3":["destituya"],"p1":["destituyamos"],"p2":["destituyáis"],"p3":["destituyan"]},
+    "SubPres": {"s1":["destituya"],"s2":["destituyas"],"vos":[{"forma": "destituyas","uso":"Riop."},{"forma":"destituyás","uso":"C.Am."}],"s3":["destituya"],"p1":["destituyamos"],"p2":["destituyáis"],"p3":["destituyan"]},
     "SubImp": {"s1":["destituyera","destituyese"],"s2":["destituyeras","destituyeses"],"vos":["destituyeras","destituyeses"],"s3":["destituyera","destituyese"],"p1":["destituyéramos","destituyésemos"],"p2":["destituyerais","destituyeseis"],"p3":["destituyeran","destituyesen"]},
     "SubFut": {"s1":["destituyere"],"s2":["destituyeres"],"vos":["destituyeres"],"s3":["destituyere"],"p1":["destituyéremos"],"p2":["destituyereis"],"p3":["destituyeren"]},
     "CmdPos": {"s2":["destituye"],"vos":["destituí"],"s3":["destituya"],"p1":["destituyamos"],"p2":["destituid"],"p3":["destituyan"]}

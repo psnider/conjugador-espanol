@@ -13,7 +13,7 @@
     "IndPret": {"s1":["intenté"],"s2":["intentaste"],"vos":["intentaste"],"s3":["intentó"],"p1":["intentamos"],"p2":["intentasteis"],"p3":["intentaron"]},
     "IndFut": {"s1":["intentaré"],"s2":["intentarás"],"vos":["intentarás"],"s3":["intentará"],"p1":["intentaremos"],"p2":["intentaréis"],"p3":["intentarán"]},
     "IndCond": {"s1":["intentaría"],"s2":["intentarías"],"vos":["intentarías"],"s3":["intentaría"],"p1":["intentaríamos"],"p2":["intentaríais"],"p3":["intentarían"]},
-    "SubPres": {"s1":["intente"],"s2":["intentes"],"vos":["intentes","intentés"],"s3":["intente"],"p1":["intentemos"],"p2":["intentéis"],"p3":["intenten"]},
+    "SubPres": {"s1":["intente"],"s2":["intentes"],"vos":[{"forma": "intentes","uso":"Riop."},{"forma":"intentés","uso":"C.Am."}],"s3":["intente"],"p1":["intentemos"],"p2":["intentéis"],"p3":["intenten"]},
     "SubImp": {"s1":["intentara","intentase"],"s2":["intentaras","intentases"],"vos":["intentaras","intentases"],"s3":["intentara","intentase"],"p1":["intentáramos","intentásemos"],"p2":["intentarais","intentaseis"],"p3":["intentaran","intentasen"]},
     "SubFut": {"s1":["intentare"],"s2":["intentares"],"vos":["intentares"],"s3":["intentare"],"p1":["intentáremos"],"p2":["intentareis"],"p3":["intentaren"]},
     "CmdPos": {"s2":["intenta"],"vos":["intentá"],"s3":["intente"],"p1":["intentemos"],"p2":["intentad"],"p3":["intenten"]}

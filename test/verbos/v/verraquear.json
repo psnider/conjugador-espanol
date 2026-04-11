@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[berakeˈaɾ]",
+    "silabacion": "ve-rra-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"verraquear","gerundio":["verraqueando"],"participio":["verraqueado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["verraqueo"],"s2":["verraqueas"],"vos":["verraqueás"],"s3":["verraquea"],"p1":["verraqueamos"],"p2":["verraqueáis"],"p3":["verraquean"]},
+    "IndImp": {"s1":["verraqueaba"],"s2":["verraqueabas"],"vos":["verraqueabas"],"s3":["verraqueaba"],"p1":["verraqueábamos"],"p2":["verraqueabais"],"p3":["verraqueaban"]},
+    "IndPret": {"s1":["verraqueé"],"s2":["verraqueaste"],"vos":["verraqueaste"],"s3":["verraqueó"],"p1":["verraqueamos"],"p2":["verraqueasteis"],"p3":["verraquearon"]},
+    "IndFut": {"s1":["verraquearé"],"s2":["verraquearás"],"vos":["verraquearás"],"s3":["verraqueará"],"p1":["verraquearemos"],"p2":["verraquearéis"],"p3":["verraquearán"]},
+    "IndCond": {"s1":["verraquearía"],"s2":["verraquearías"],"vos":["verraquearías"],"s3":["verraquearía"],"p1":["verraquearíamos"],"p2":["verraquearíais"],"p3":["verraquearían"]},
+    "SubPres": {"s1":["verraquee"],"s2":["verraquees"],"vos":["verraquees","verraqueés"],"s3":["verraquee"],"p1":["verraqueemos"],"p2":["verraqueéis"],"p3":["verraqueen"]},
+    "SubImp": {"s1":["verraqueara","verraquease"],"s2":["verraquearas","verraqueases"],"vos":["verraquearas","verraqueases"],"s3":["verraqueara","verraquease"],"p1":["verraqueáramos","verraqueásemos"],"p2":["verraquearais","verraqueaseis"],"p3":["verraquearan","verraqueasen"]},
+    "SubFut": {"s1":["verraqueare"],"s2":["verraqueares"],"vos":["verraqueares"],"s3":["verraqueare"],"p1":["verraqueáremos"],"p2":["verraqueareis"],"p3":["verraquearen"]},
+    "CmdPos": {"s2":["verraquea"],"vos":["verraqueá"],"s3":["verraquee"],"p1":["verraqueemos"],"p2":["verraquead"],"p3":["verraqueen"]}
+  }
+}

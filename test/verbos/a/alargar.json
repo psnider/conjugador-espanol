@@ -13,7 +13,7 @@
     "IndPret": {"s1":["alargué"],"s2":["alargaste"],"vos":["alargaste"],"s3":["alargó"],"p1":["alargamos"],"p2":["alargasteis"],"p3":["alargaron"]},
     "IndFut": {"s1":["alargaré"],"s2":["alargarás"],"vos":["alargarás"],"s3":["alargará"],"p1":["alargaremos"],"p2":["alargaréis"],"p3":["alargarán"]},
     "IndCond": {"s1":["alargaría"],"s2":["alargarías"],"vos":["alargarías"],"s3":["alargaría"],"p1":["alargaríamos"],"p2":["alargaríais"],"p3":["alargarían"]},
-    "SubPres": {"s1":["alargue"],"s2":["alargues"],"vos":["alargues","alargués"],"s3":["alargue"],"p1":["alarguemos"],"p2":["alarguéis"],"p3":["alarguen"]},
+    "SubPres": {"s1":["alargue"],"s2":["alargues"],"vos":[{"forma": "alargues","uso":"Riop."},{"forma":"alargués","uso":"C.Am."}],"s3":["alargue"],"p1":["alarguemos"],"p2":["alarguéis"],"p3":["alarguen"]},
     "SubImp": {"s1":["alargara","alargase"],"s2":["alargaras","alargases"],"vos":["alargaras","alargases"],"s3":["alargara","alargase"],"p1":["alargáramos","alargásemos"],"p2":["alargarais","alargaseis"],"p3":["alargaran","alargasen"]},
     "SubFut": {"s1":["alargare"],"s2":["alargares"],"vos":["alargares"],"s3":["alargare"],"p1":["alargáremos"],"p2":["alargareis"],"p3":["alargaren"]},
     "CmdPos": {"s2":["alarga"],"vos":["alargá"],"s3":["alargue"],"p1":["alarguemos"],"p2":["alargad"],"p3":["alarguen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aproveché"],"s2":["aprovechaste"],"vos":["aprovechaste"],"s3":["aprovechó"],"p1":["aprovechamos"],"p2":["aprovechasteis"],"p3":["aprovecharon"]},
     "IndFut": {"s1":["aprovecharé"],"s2":["aprovecharás"],"vos":["aprovecharás"],"s3":["aprovechará"],"p1":["aprovecharemos"],"p2":["aprovecharéis"],"p3":["aprovecharán"]},
     "IndCond": {"s1":["aprovecharía"],"s2":["aprovecharías"],"vos":["aprovecharías"],"s3":["aprovecharía"],"p1":["aprovecharíamos"],"p2":["aprovecharíais"],"p3":["aprovecharían"]},
-    "SubPres": {"s1":["aproveche"],"s2":["aproveches"],"vos":["aproveches","aprovechés"],"s3":["aproveche"],"p1":["aprovechemos"],"p2":["aprovechéis"],"p3":["aprovechen"]},
+    "SubPres": {"s1":["aproveche"],"s2":["aproveches"],"vos":[{"forma": "aproveches","uso":"Riop."},{"forma":"aprovechés","uso":"C.Am."}],"s3":["aproveche"],"p1":["aprovechemos"],"p2":["aprovechéis"],"p3":["aprovechen"]},
     "SubImp": {"s1":["aprovechara","aprovechase"],"s2":["aprovecharas","aprovechases"],"vos":["aprovecharas","aprovechases"],"s3":["aprovechara","aprovechase"],"p1":["aprovecháramos","aprovechásemos"],"p2":["aprovecharais","aprovechaseis"],"p3":["aprovecharan","aprovechasen"]},
     "SubFut": {"s1":["aprovechare"],"s2":["aprovechares"],"vos":["aprovechares"],"s3":["aprovechare"],"p1":["aprovecháremos"],"p2":["aprovechareis"],"p3":["aprovecharen"]},
     "CmdPos": {"s2":["aprovecha"],"vos":["aprovechá"],"s3":["aproveche"],"p1":["aprovechemos"],"p2":["aprovechad"],"p3":["aprovechen"]}

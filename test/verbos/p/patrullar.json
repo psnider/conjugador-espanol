@@ -13,7 +13,7 @@
     "IndPret": {"s1":["patrullé"],"s2":["patrullaste"],"vos":["patrullaste"],"s3":["patrulló"],"p1":["patrullamos"],"p2":["patrullasteis"],"p3":["patrullaron"]},
     "IndFut": {"s1":["patrullaré"],"s2":["patrullarás"],"vos":["patrullarás"],"s3":["patrullará"],"p1":["patrullaremos"],"p2":["patrullaréis"],"p3":["patrullarán"]},
     "IndCond": {"s1":["patrullaría"],"s2":["patrullarías"],"vos":["patrullarías"],"s3":["patrullaría"],"p1":["patrullaríamos"],"p2":["patrullaríais"],"p3":["patrullarían"]},
-    "SubPres": {"s1":["patrulle"],"s2":["patrulles"],"vos":["patrulles","patrullés"],"s3":["patrulle"],"p1":["patrullemos"],"p2":["patrulléis"],"p3":["patrullen"]},
+    "SubPres": {"s1":["patrulle"],"s2":["patrulles"],"vos":[{"forma": "patrulles","uso":"Riop."},{"forma":"patrullés","uso":"C.Am."}],"s3":["patrulle"],"p1":["patrullemos"],"p2":["patrulléis"],"p3":["patrullen"]},
     "SubImp": {"s1":["patrullara","patrullase"],"s2":["patrullaras","patrullases"],"vos":["patrullaras","patrullases"],"s3":["patrullara","patrullase"],"p1":["patrulláramos","patrullásemos"],"p2":["patrullarais","patrullaseis"],"p3":["patrullaran","patrullasen"]},
     "SubFut": {"s1":["patrullare"],"s2":["patrullares"],"vos":["patrullares"],"s3":["patrullare"],"p1":["patrulláremos"],"p2":["patrullareis"],"p3":["patrullaren"]},
     "CmdPos": {"s2":["patrulla"],"vos":["patrullá"],"s3":["patrulle"],"p1":["patrullemos"],"p2":["patrullad"],"p3":["patrullen"]}

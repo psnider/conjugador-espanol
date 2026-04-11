@@ -13,7 +13,7 @@
     "IndPret": {"s1":["deseé"],"s2":["deseaste"],"vos":["deseaste"],"s3":["deseó"],"p1":["deseamos"],"p2":["deseasteis"],"p3":["desearon"]},
     "IndFut": {"s1":["desearé"],"s2":["desearás"],"vos":["desearás"],"s3":["deseará"],"p1":["desearemos"],"p2":["desearéis"],"p3":["desearán"]},
     "IndCond": {"s1":["desearía"],"s2":["desearías"],"vos":["desearías"],"s3":["desearía"],"p1":["desearíamos"],"p2":["desearíais"],"p3":["desearían"]},
-    "SubPres": {"s1":["desee"],"s2":["desees"],"vos":["desees","deseés"],"s3":["desee"],"p1":["deseemos"],"p2":["deseéis"],"p3":["deseen"]},
+    "SubPres": {"s1":["desee"],"s2":["desees"],"vos":[{"forma": "desees","uso":"Riop."},{"forma":"deseés","uso":"C.Am."}],"s3":["desee"],"p1":["deseemos"],"p2":["deseéis"],"p3":["deseen"]},
     "SubImp": {"s1":["deseara","desease"],"s2":["desearas","deseases"],"vos":["desearas","deseases"],"s3":["deseara","desease"],"p1":["deseáramos","deseásemos"],"p2":["desearais","deseaseis"],"p3":["desearan","deseasen"]},
     "SubFut": {"s1":["deseare"],"s2":["deseares"],"vos":["deseares"],"s3":["deseare"],"p1":["deseáremos"],"p2":["deseareis"],"p3":["desearen"]},
     "CmdPos": {"s2":["desea"],"vos":["deseá"],"s3":["desee"],"p1":["deseemos"],"p2":["desead"],"p3":["deseen"]}

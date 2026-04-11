@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[uɾˈxiɾ]",
+    "silabacion": "ur-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín urgere.",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"urgir","gerundio":["urgiendo"],"participio":["urgido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["urjo"],"s2":["urges"],"vos":["urgís"],"s3":["urge"],"p1":["urgimos"],"p2":["urgís"],"p3":["urgen"]},
+    "IndImp": {"s1":["urgía"],"s2":["urgías"],"vos":["urgías"],"s3":["urgía"],"p1":["urgíamos"],"p2":["urgíais"],"p3":["urgían"]},
+    "IndPret": {"s1":["urgí"],"s2":["urgiste"],"vos":["urgiste"],"s3":["urgió"],"p1":["urgimos"],"p2":["urgisteis"],"p3":["urgieron"]},
+    "IndFut": {"s1":["urgiré"],"s2":["urgirás"],"vos":["urgirás"],"s3":["urgirá"],"p1":["urgiremos"],"p2":["urgiréis"],"p3":["urgirán"]},
+    "IndCond": {"s1":["urgiría"],"s2":["urgirías"],"vos":["urgirías"],"s3":["urgiría"],"p1":["urgiríamos"],"p2":["urgiríais"],"p3":["urgirían"]},
+    "SubPres": {"s1":["urja"],"s2":["urjas"],"vos":["urjas","urjás"],"s3":["urja"],"p1":["urjamos"],"p2":["urjáis"],"p3":["urjan"]},
+    "SubImp": {"s1":["urgiera","urgiese"],"s2":["urgieras","urgieses"],"vos":["urgieras","urgieses"],"s3":["urgiera","urgiese"],"p1":["urgiéramos","urgiésemos"],"p2":["urgierais","urgieseis"],"p3":["urgieran","urgiesen"]},
+    "SubFut": {"s1":["urgiere"],"s2":["urgieres"],"vos":["urgieres"],"s3":["urgiere"],"p1":["urgiéremos"],"p2":["urgiereis"],"p3":["urgieren"]},
+    "CmdPos": {"s2":["urge"],"vos":["urgí"],"s3":["urja"],"p1":["urjamos"],"p2":["urgid"],"p3":["urjan"]}
+  }
+}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["referí"],"s2":["referiste"],"vos":["referiste"],"s3":["refirió"],"p1":["referimos"],"p2":["referisteis"],"p3":["refirieron"]},
     "IndFut": {"s1":["referiré"],"s2":["referirás"],"vos":["referirás"],"s3":["referirá"],"p1":["referiremos"],"p2":["referiréis"],"p3":["referirán"]},
     "IndCond": {"s1":["referiría"],"s2":["referirías"],"vos":["referirías"],"s3":["referiría"],"p1":["referiríamos"],"p2":["referiríais"],"p3":["referirían"]},
-    "SubPres": {"s1":["refiera"],"s2":["refieras"],"vos":["refieras","refirás"],"s3":["refiera"],"p1":["refiramos"],"p2":["refiráis"],"p3":["refieran"]},
+    "SubPres": {"s1":["refiera"],"s2":["refieras"],"vos":[{"forma": "refieras","uso":"Riop."},{"forma":"refirás","uso":"C.Am."}],"s3":["refiera"],"p1":["refiramos"],"p2":["refiráis"],"p3":["refieran"]},
     "SubImp": {"s1":["refiriera","refiriese"],"s2":["refirieras","refirieses"],"vos":["refirieras","refirieses"],"s3":["refiriera","refiriese"],"p1":["refiriéramos","refiriésemos"],"p2":["refirierais","refirieseis"],"p3":["refirieran","refiriesen"]},
     "SubFut": {"s1":["refiriere"],"s2":["refirieres"],"vos":["refirieres"],"s3":["refiriere"],"p1":["refiriéremos"],"p2":["refiriereis"],"p3":["refirieren"]},
     "CmdPos": {"s2":["refiere"],"vos":["referí"],"s3":["refiera"],"p1":["refiramos"],"p2":["referid"],"p3":["refieran"]}

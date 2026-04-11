@@ -13,7 +13,7 @@
     "IndPret": {"s1":["exhalé"],"s2":["exhalaste"],"vos":["exhalaste"],"s3":["exhaló"],"p1":["exhalamos"],"p2":["exhalasteis"],"p3":["exhalaron"]},
     "IndFut": {"s1":["exhalaré"],"s2":["exhalarás"],"vos":["exhalarás"],"s3":["exhalará"],"p1":["exhalaremos"],"p2":["exhalaréis"],"p3":["exhalarán"]},
     "IndCond": {"s1":["exhalaría"],"s2":["exhalarías"],"vos":["exhalarías"],"s3":["exhalaría"],"p1":["exhalaríamos"],"p2":["exhalaríais"],"p3":["exhalarían"]},
-    "SubPres": {"s1":["exhale"],"s2":["exhales"],"vos":["exhales","exhalés"],"s3":["exhale"],"p1":["exhalemos"],"p2":["exhaléis"],"p3":["exhalen"]},
+    "SubPres": {"s1":["exhale"],"s2":["exhales"],"vos":[{"forma": "exhales","uso":"Riop."},{"forma":"exhalés","uso":"C.Am."}],"s3":["exhale"],"p1":["exhalemos"],"p2":["exhaléis"],"p3":["exhalen"]},
     "SubImp": {"s1":["exhalara","exhalase"],"s2":["exhalaras","exhalases"],"vos":["exhalaras","exhalases"],"s3":["exhalara","exhalase"],"p1":["exhaláramos","exhalásemos"],"p2":["exhalarais","exhalaseis"],"p3":["exhalaran","exhalasen"]},
     "SubFut": {"s1":["exhalare"],"s2":["exhalares"],"vos":["exhalares"],"s3":["exhalare"],"p1":["exhaláremos"],"p2":["exhalareis"],"p3":["exhalaren"]},
     "CmdPos": {"s2":["exhala"],"vos":["exhalá"],"s3":["exhale"],"p1":["exhalemos"],"p2":["exhalad"],"p3":["exhalen"]}

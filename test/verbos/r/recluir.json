@@ -12,7 +12,7 @@
     "IndPret": {"s1":["recluí"],"s2":["recluiste"],"vos":["recluiste"],"s3":["recluyó"],"p1":["recluimos"],"p2":["recluisteis"],"p3":["recluyeron"]},
     "IndFut": {"s1":["recluiré"],"s2":["recluirás"],"vos":["recluirás"],"s3":["recluirá"],"p1":["recluiremos"],"p2":["recluiréis"],"p3":["recluirán"]},
     "IndCond": {"s1":["recluiría"],"s2":["recluirías"],"vos":["recluirías"],"s3":["recluiría"],"p1":["recluiríamos"],"p2":["recluiríais"],"p3":["recluirían"]},
-    "SubPres": {"s1":["recluya"],"s2":["recluyas"],"vos":["recluyas","recluyás"],"s3":["recluya"],"p1":["recluyamos"],"p2":["recluyáis"],"p3":["recluyan"]},
+    "SubPres": {"s1":["recluya"],"s2":["recluyas"],"vos":[{"forma": "recluyas","uso":"Riop."},{"forma":"recluyás","uso":"C.Am."}],"s3":["recluya"],"p1":["recluyamos"],"p2":["recluyáis"],"p3":["recluyan"]},
     "SubImp": {"s1":["recluyera","recluyese"],"s2":["recluyeras","recluyeses"],"vos":["recluyeras","recluyeses"],"s3":["recluyera","recluyese"],"p1":["recluyéramos","recluyésemos"],"p2":["recluyerais","recluyeseis"],"p3":["recluyeran","recluyesen"]},
     "SubFut": {"s1":["recluyere"],"s2":["recluyeres"],"vos":["recluyeres"],"s3":["recluyere"],"p1":["recluyéremos"],"p2":["recluyereis"],"p3":["recluyeren"]},
     "CmdPos": {"s2":["recluye"],"vos":["recluí"],"s3":["recluya"],"p1":["recluyamos"],"p2":["recluid"],"p3":["recluyan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["eludí"],"s2":["eludiste"],"vos":["eludiste"],"s3":["eludió"],"p1":["eludimos"],"p2":["eludisteis"],"p3":["eludieron"]},
     "IndFut": {"s1":["eludiré"],"s2":["eludirás"],"vos":["eludirás"],"s3":["eludirá"],"p1":["eludiremos"],"p2":["eludiréis"],"p3":["eludirán"]},
     "IndCond": {"s1":["eludiría"],"s2":["eludirías"],"vos":["eludirías"],"s3":["eludiría"],"p1":["eludiríamos"],"p2":["eludiríais"],"p3":["eludirían"]},
-    "SubPres": {"s1":["eluda"],"s2":["eludas"],"vos":["eludas","eludás"],"s3":["eluda"],"p1":["eludamos"],"p2":["eludáis"],"p3":["eludan"]},
+    "SubPres": {"s1":["eluda"],"s2":["eludas"],"vos":[{"forma": "eludas","uso":"Riop."},{"forma":"eludás","uso":"C.Am."}],"s3":["eluda"],"p1":["eludamos"],"p2":["eludáis"],"p3":["eludan"]},
     "SubImp": {"s1":["eludiera","eludiese"],"s2":["eludieras","eludieses"],"vos":["eludieras","eludieses"],"s3":["eludiera","eludiese"],"p1":["eludiéramos","eludiésemos"],"p2":["eludierais","eludieseis"],"p3":["eludieran","eludiesen"]},
     "SubFut": {"s1":["eludiere"],"s2":["eludieres"],"vos":["eludieres"],"s3":["eludiere"],"p1":["eludiéremos"],"p2":["eludiereis"],"p3":["eludieren"]},
     "CmdPos": {"s2":["elude"],"vos":["eludí"],"s3":["eluda"],"p1":["eludamos"],"p2":["eludid"],"p3":["eludan"]}

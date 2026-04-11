@@ -13,7 +13,7 @@
     "IndPret": {"s1":["protegí"],"s2":["protegiste"],"vos":["protegiste"],"s3":["protegió"],"p1":["protegimos"],"p2":["protegisteis"],"p3":["protegieron"]},
     "IndFut": {"s1":["protegeré"],"s2":["protegerás"],"vos":["protegerás"],"s3":["protegerá"],"p1":["protegeremos"],"p2":["protegeréis"],"p3":["protegerán"]},
     "IndCond": {"s1":["protegería"],"s2":["protegerías"],"vos":["protegerías"],"s3":["protegería"],"p1":["protegeríamos"],"p2":["protegeríais"],"p3":["protegerían"]},
-    "SubPres": {"s1":["proteja"],"s2":["protejas"],"vos":["protejas","protejás"],"s3":["proteja"],"p1":["protejamos"],"p2":["protejáis"],"p3":["protejan"]},
+    "SubPres": {"s1":["proteja"],"s2":["protejas"],"vos":[{"forma": "protejas","uso":"Riop."},{"forma":"protejás","uso":"C.Am."}],"s3":["proteja"],"p1":["protejamos"],"p2":["protejáis"],"p3":["protejan"]},
     "SubImp": {"s1":["protegiera","protegiese"],"s2":["protegieras","protegieses"],"vos":["protegieras","protegieses"],"s3":["protegiera","protegiese"],"p1":["protegiéramos","protegiésemos"],"p2":["protegierais","protegieseis"],"p3":["protegieran","protegiesen"]},
     "SubFut": {"s1":["protegiere"],"s2":["protegieres"],"vos":["protegieres"],"s3":["protegiere"],"p1":["protegiéremos"],"p2":["protegiereis"],"p3":["protegieren"]},
     "CmdPos": {"s2":["protege"],"vos":["protegé"],"s3":["proteja"],"p1":["protejamos"],"p2":["proteged"],"p3":["protejan"]}

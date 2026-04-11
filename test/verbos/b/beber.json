@@ -13,7 +13,7 @@
     "IndPret": {"s1":["bebí"],"s2":["bebiste"],"vos":["bebiste"],"s3":["bebió"],"p1":["bebimos"],"p2":["bebisteis"],"p3":["bebieron"]},
     "IndFut": {"s1":["beberé"],"s2":["beberás"],"vos":["beberás"],"s3":["beberá"],"p1":["beberemos"],"p2":["beberéis"],"p3":["beberán"]},
     "IndCond": {"s1":["bebería"],"s2":["beberías"],"vos":["beberías"],"s3":["bebería"],"p1":["beberíamos"],"p2":["beberíais"],"p3":["beberían"]},
-    "SubPres": {"s1":["beba"],"s2":["bebas"],"vos":["bebas","bebás"],"s3":["beba"],"p1":["bebamos"],"p2":["bebáis"],"p3":["beban"]},
+    "SubPres": {"s1":["beba"],"s2":["bebas"],"vos":[{"forma":"bebas","uso":"Riop."},{"forma":"bebás","uso":"C.Am."}],"s3":["beba"],"p1":["bebamos"],"p2":["bebáis"],"p3":["beban"]},
     "SubImp": {"s1":["bebiera","bebiese"],"s2":["bebieras","bebieses"],"vos":["bebieras","bebieses"],"s3":["bebiera","bebiese"],"p1":["bebiéramos","bebiésemos"],"p2":["bebierais","bebieseis"],"p3":["bebieran","bebiesen"]},
     "SubFut": {"s1":["bebiere"],"s2":["bebieres"],"vos":["bebieres"],"s3":["bebiere"],"p1":["bebiéremos"],"p2":["bebiereis"],"p3":["bebieren"]},
     "CmdPos": {"s2":["bebe"],"vos":["bebé"],"s3":["beba"],"p1":["bebamos"],"p2":["bebed"],"p3":["beban"]}

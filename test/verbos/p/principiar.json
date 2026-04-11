@@ -12,7 +12,7 @@
     "IndPret": {"s1":["principié"],"s2":["principiaste"],"vos":["principiaste"],"s3":["principió"],"p1":["principiamos"],"p2":["principiasteis"],"p3":["principiaron"]},
     "IndFut": {"s1":["principiaré"],"s2":["principiarás"],"vos":["principiarás"],"s3":["principiará"],"p1":["principiaremos"],"p2":["principiaréis"],"p3":["principiarán"]},
     "IndCond": {"s1":["principiaría"],"s2":["principiarías"],"vos":["principiarías"],"s3":["principiaría"],"p1":["principiaríamos"],"p2":["principiaríais"],"p3":["principiarían"]},
-    "SubPres": {"s1":["principie"],"s2":["principies"],"vos":["principies","principiés"],"s3":["principie"],"p1":["principiemos"],"p2":["principiéis"],"p3":["principien"]},
+    "SubPres": {"s1":["principie"],"s2":["principies"],"vos":[{"forma": "principies","uso":"Riop."},{"forma":"principiés","uso":"C.Am."}],"s3":["principie"],"p1":["principiemos"],"p2":["principiéis"],"p3":["principien"]},
     "SubImp": {"s1":["principiara","principiase"],"s2":["principiaras","principiases"],"vos":["principiaras","principiases"],"s3":["principiara","principiase"],"p1":["principiáramos","principiásemos"],"p2":["principiarais","principiaseis"],"p3":["principiaran","principiasen"]},
     "SubFut": {"s1":["principiare"],"s2":["principiares"],"vos":["principiares"],"s3":["principiare"],"p1":["principiáremos"],"p2":["principiareis"],"p3":["principiaren"]},
     "CmdPos": {"s2":["principia"],"vos":["principiá"],"s3":["principie"],"p1":["principiemos"],"p2":["principiad"],"p3":["principien"]}

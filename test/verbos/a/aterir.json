@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪eˈɾiɾ]",
+    "silabacion": "a-te-rir",
+    "acentuacion": "aguda",
+    "etimologia": "De origen incierto, posiblemente de la misma base onomatopéyica de tiritar (tir por el temblor).[1]",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"aterir","gerundio":["ateriendo"],"participio":["aterido"]},
+  "formas_personales": {
+    "IndPres": {"vos":["aterís"],"p1":["aterimos"],"p2":["aterís"]},
+    "IndImp": {"s1":["atería"],"s2":["aterías"],"vos":["aterías"],"s3":["atería"],"p1":["ateríamos"],"p2":["ateríais"],"p3":["aterían"]},
+    "IndPret": {"s1":["aterí"],"s2":["ateriste"],"vos":["ateriste"],"s3":["aterió"],"p1":["aterimos"],"p2":["ateristeis"],"p3":["aterieron"]},
+    "IndFut": {"s1":["ateriré"],"s2":["aterirás"],"vos":["aterirás"],"s3":["aterirá"],"p1":["ateriremos"],"p2":["ateriréis"],"p3":["aterirán"]},
+    "IndCond": {"s1":["ateriría"],"s2":["aterirías"],"vos":["aterirías"],"s3":["ateriría"],"p1":["ateriríamos"],"p2":["ateriríais"],"p3":["aterirían"]},
+    "SubPres": {},
+    "SubImp": {"s1":["ateriera","ateriese"],"s2":["aterieras","aterieses"],"vos":["aterieras","aterieses"],"s3":["ateriera","ateriese"],"p1":["ateriéramos","ateriésemos"],"p2":["aterierais","aterieseis"],"p3":["aterieran","ateriesen"]},
+    "SubFut": {"s1":["ateriere"],"s2":["aterieres"],"vos":["aterieres"],"s3":["ateriere"],"p1":["ateriéremos"],"p2":["ateriereis"],"p3":["aterieren"]},
+    "CmdPos": {"vos":["aterí"],"p2":["aterid"]}
+  }
+}

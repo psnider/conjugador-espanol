@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rezagué"],"s2":["rezagaste"],"vos":["rezagaste"],"s3":["rezagó"],"p1":["rezagamos"],"p2":["rezagasteis"],"p3":["rezagaron"]},
     "IndFut": {"s1":["rezagaré"],"s2":["rezagarás"],"vos":["rezagarás"],"s3":["rezagará"],"p1":["rezagaremos"],"p2":["rezagaréis"],"p3":["rezagarán"]},
     "IndCond": {"s1":["rezagaría"],"s2":["rezagarías"],"vos":["rezagarías"],"s3":["rezagaría"],"p1":["rezagaríamos"],"p2":["rezagaríais"],"p3":["rezagarían"]},
-    "SubPres": {"s1":["rezague"],"s2":["rezagues"],"vos":["rezagues","rezagués"],"s3":["rezague"],"p1":["rezaguemos"],"p2":["rezaguéis"],"p3":["rezaguen"]},
+    "SubPres": {"s1":["rezague"],"s2":["rezagues"],"vos":[{"forma": "rezagues","uso":"Riop."},{"forma":"rezagués","uso":"C.Am."}],"s3":["rezague"],"p1":["rezaguemos"],"p2":["rezaguéis"],"p3":["rezaguen"]},
     "SubImp": {"s1":["rezagara","rezagase"],"s2":["rezagaras","rezagases"],"vos":["rezagaras","rezagases"],"s3":["rezagara","rezagase"],"p1":["rezagáramos","rezagásemos"],"p2":["rezagarais","rezagaseis"],"p3":["rezagaran","rezagasen"]},
     "SubFut": {"s1":["rezagare"],"s2":["rezagares"],"vos":["rezagares"],"s3":["rezagare"],"p1":["rezagáremos"],"p2":["rezagareis"],"p3":["rezagaren"]},
     "CmdPos": {"s2":["rezaga"],"vos":["rezagá"],"s3":["rezague"],"p1":["rezaguemos"],"p2":["rezagad"],"p3":["rezaguen"]}

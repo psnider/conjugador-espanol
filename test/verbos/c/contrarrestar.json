@@ -13,7 +13,7 @@
     "IndPret": {"s1":["contrarresté"],"s2":["contrarrestaste"],"vos":["contrarrestaste"],"s3":["contrarrestó"],"p1":["contrarrestamos"],"p2":["contrarrestasteis"],"p3":["contrarrestaron"]},
     "IndFut": {"s1":["contrarrestaré"],"s2":["contrarrestarás"],"vos":["contrarrestarás"],"s3":["contrarrestará"],"p1":["contrarrestaremos"],"p2":["contrarrestaréis"],"p3":["contrarrestarán"]},
     "IndCond": {"s1":["contrarrestaría"],"s2":["contrarrestarías"],"vos":["contrarrestarías"],"s3":["contrarrestaría"],"p1":["contrarrestaríamos"],"p2":["contrarrestaríais"],"p3":["contrarrestarían"]},
-    "SubPres": {"s1":["contrarreste"],"s2":["contrarrestes"],"vos":["contrarrestes","contrarrestés"],"s3":["contrarreste"],"p1":["contrarrestemos"],"p2":["contrarrestéis"],"p3":["contrarresten"]},
+    "SubPres": {"s1":["contrarreste"],"s2":["contrarrestes"],"vos":[{"forma": "contrarrestes","uso":"Riop."},{"forma":"contrarrestés","uso":"C.Am."}],"s3":["contrarreste"],"p1":["contrarrestemos"],"p2":["contrarrestéis"],"p3":["contrarresten"]},
     "SubImp": {"s1":["contrarrestara","contrarrestase"],"s2":["contrarrestaras","contrarrestases"],"vos":["contrarrestaras","contrarrestases"],"s3":["contrarrestara","contrarrestase"],"p1":["contrarrestáramos","contrarrestásemos"],"p2":["contrarrestarais","contrarrestaseis"],"p3":["contrarrestaran","contrarrestasen"]},
     "SubFut": {"s1":["contrarrestare"],"s2":["contrarrestares"],"vos":["contrarrestares"],"s3":["contrarrestare"],"p1":["contrarrestáremos"],"p2":["contrarrestareis"],"p3":["contrarrestaren"]},
     "CmdPos": {"s2":["contrarresta"],"vos":["contrarrestá"],"s3":["contrarreste"],"p1":["contrarrestemos"],"p2":["contrarrestad"],"p3":["contrarresten"]}

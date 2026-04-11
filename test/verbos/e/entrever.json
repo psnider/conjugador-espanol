@@ -13,7 +13,7 @@
     "IndPret": {"s1":["entreví"],"s2":["entreviste"],"vos":["entreviste"],"s3":["entrevió"],"p1":["entrevimos"],"p2":["entrevisteis"],"p3":["entrevieron"]},
     "IndFut": {"s1":["entreveré"],"s2":["entreverás"],"vos":["entreverás"],"s3":["entreverá"],"p1":["entreveremos"],"p2":["entreveréis"],"p3":["entreverán"]},
     "IndCond": {"s1":["entrevería"],"s2":["entreverías"],"vos":["entreverías"],"s3":["entrevería"],"p1":["entreveríamos"],"p2":["entreveríais"],"p3":["entreverían"]},
-    "SubPres": {"s1":["entrevea"],"s2":["entreveas"],"vos":["entreveas","entreveás"],"s3":["entrevea"],"p1":["entreveamos"],"p2":["entreveáis"],"p3":["entrevean"]},
+    "SubPres": {"s1":["entrevea"],"s2":["entreveas"],"vos":[{"forma": "entreveas","uso":"Riop."},{"forma":"entreveás","uso":"C.Am."}],"s3":["entrevea"],"p1":["entreveamos"],"p2":["entreveáis"],"p3":["entrevean"]},
     "SubImp": {"s1":["entreviera","entreviese"],"s2":["entrevieras","entrevieses"],"vos":["entrevieras","entrevieses"],"s3":["entreviera","entreviese"],"p1":["entreviéramos","entreviésemos"],"p2":["entrevierais","entrevieseis"],"p3":["entrevieran","entreviesen"]},
     "SubFut": {"s1":["entreviere"],"s2":["entrevieres"],"vos":["entrevieres"],"s3":["entreviere"],"p1":["entreviéremos"],"p2":["entreviereis"],"p3":["entrevieren"]},
     "CmdPos": {"s2":["entrevé"],"vos":["entrevé"],"s3":["entrevea"],"p1":["entreveamos"],"p2":["entreved"],"p3":["entrevean"]}

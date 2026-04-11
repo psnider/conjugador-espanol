@@ -1,14 +1,14 @@
 import { MoodTense } from "../src";
 import { conjugateVerb } from "../src/conjugate-verb.js";
 import { deriveParticiples } from "../src/derive-participles.js";
-import { mood_tenses } from "../src/lib.js";
-import { verb_terminations } from "../src/regular-verb-rules.js";
+import { mood_tenses, verb_terminations_all } from "../src/lib.js";
+import { test_resolveConjugationClass } from "./test-resolve-conjugation-class";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "suponer"
-// one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"
-let mood_tense: MoodTense = "IndPret"
+let infinitivo: string = "introducir" 
+// one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos"
+let mood_tense: MoodTense = "IndPres"
 
 
 if (process.argv.length !== 4) {
@@ -23,8 +23,8 @@ if (process.argv.length !== 4) {
 
 console.log(`${infinitivo} ${mood_tense}`)
 let error = false
-if ( ! verb_terminations.includes(infinitivo.slice(-2))) {
-    console.log(`infinitivo must end with one of "ar","er","ir"`)
+if ( ! verb_terminations_all.includes(infinitivo.slice(-2))) {
+    console.log(`infinitivo must end with one of "ar","er","ir","ír"`)
     error = true
 }
 if ( ! mood_tenses.includes(mood_tense)) {
@@ -34,6 +34,7 @@ if ( ! mood_tenses.includes(mood_tense)) {
 if (error) {
     process.exit(1)
 }
+
 
 
 let participles = deriveParticiples(infinitivo)

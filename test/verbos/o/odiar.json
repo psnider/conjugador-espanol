@@ -12,7 +12,7 @@
     "IndPret": {"s1":["odié"],"s2":["odiaste"],"vos":["odiaste"],"s3":["odió"],"p1":["odiamos"],"p2":["odiasteis"],"p3":["odiaron"]},
     "IndFut": {"s1":["odiaré"],"s2":["odiarás"],"vos":["odiarás"],"s3":["odiará"],"p1":["odiaremos"],"p2":["odiaréis"],"p3":["odiarán"]},
     "IndCond": {"s1":["odiaría"],"s2":["odiarías"],"vos":["odiarías"],"s3":["odiaría"],"p1":["odiaríamos"],"p2":["odiaríais"],"p3":["odiarían"]},
-    "SubPres": {"s1":["odie"],"s2":["odies"],"vos":["odies","odiés"],"s3":["odie"],"p1":["odiemos"],"p2":["odiéis"],"p3":["odien"]},
+    "SubPres": {"s1":["odie"],"s2":["odies"],"vos":[{"forma": "odies","uso":"Riop."},{"forma":"odiés","uso":"C.Am."}],"s3":["odie"],"p1":["odiemos"],"p2":["odiéis"],"p3":["odien"]},
     "SubImp": {"s1":["odiara","odiase"],"s2":["odiaras","odiases"],"vos":["odiaras","odiases"],"s3":["odiara","odiase"],"p1":["odiáramos","odiásemos"],"p2":["odiarais","odiaseis"],"p3":["odiaran","odiasen"]},
     "SubFut": {"s1":["odiare"],"s2":["odiares"],"vos":["odiares"],"s3":["odiare"],"p1":["odiáremos"],"p2":["odiareis"],"p3":["odiaren"]},
     "CmdPos": {"s2":["odia"],"vos":["odiá"],"s3":["odie"],"p1":["odiemos"],"p2":["odiad"],"p3":["odien"]}

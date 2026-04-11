@@ -13,7 +13,7 @@
     "IndPret": {"s1":["contraté"],"s2":["contrataste"],"vos":["contrataste"],"s3":["contrató"],"p1":["contratamos"],"p2":["contratasteis"],"p3":["contrataron"]},
     "IndFut": {"s1":["contrataré"],"s2":["contratarás"],"vos":["contratarás"],"s3":["contratará"],"p1":["contrataremos"],"p2":["contrataréis"],"p3":["contratarán"]},
     "IndCond": {"s1":["contrataría"],"s2":["contratarías"],"vos":["contratarías"],"s3":["contrataría"],"p1":["contrataríamos"],"p2":["contrataríais"],"p3":["contratarían"]},
-    "SubPres": {"s1":["contrate"],"s2":["contrates"],"vos":["contrates","contratés"],"s3":["contrate"],"p1":["contratemos"],"p2":["contratéis"],"p3":["contraten"]},
+    "SubPres": {"s1":["contrate"],"s2":["contrates"],"vos":[{"forma": "contrates","uso":"Riop."},{"forma":"contratés","uso":"C.Am."}],"s3":["contrate"],"p1":["contratemos"],"p2":["contratéis"],"p3":["contraten"]},
     "SubImp": {"s1":["contratara","contratase"],"s2":["contrataras","contratases"],"vos":["contrataras","contratases"],"s3":["contratara","contratase"],"p1":["contratáramos","contratásemos"],"p2":["contratarais","contrataseis"],"p3":["contrataran","contratasen"]},
     "SubFut": {"s1":["contratare"],"s2":["contratares"],"vos":["contratares"],"s3":["contratare"],"p1":["contratáremos"],"p2":["contratareis"],"p3":["contrataren"]},
     "CmdPos": {"s2":["contrata"],"vos":["contratá"],"s3":["contrate"],"p1":["contratemos"],"p2":["contratad"],"p3":["contraten"]}

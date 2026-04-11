@@ -12,7 +12,7 @@
     "IndPret": {"s1":["pronuncié"],"s2":["pronunciaste"],"vos":["pronunciaste"],"s3":["pronunció"],"p1":["pronunciamos"],"p2":["pronunciasteis"],"p3":["pronunciaron"]},
     "IndFut": {"s1":["pronunciaré"],"s2":["pronunciarás"],"vos":["pronunciarás"],"s3":["pronunciará"],"p1":["pronunciaremos"],"p2":["pronunciaréis"],"p3":["pronunciarán"]},
     "IndCond": {"s1":["pronunciaría"],"s2":["pronunciarías"],"vos":["pronunciarías"],"s3":["pronunciaría"],"p1":["pronunciaríamos"],"p2":["pronunciaríais"],"p3":["pronunciarían"]},
-    "SubPres": {"s1":["pronuncie"],"s2":["pronuncies"],"vos":["pronuncies","pronunciés"],"s3":["pronuncie"],"p1":["pronunciemos"],"p2":["pronunciéis"],"p3":["pronuncien"]},
+    "SubPres": {"s1":["pronuncie"],"s2":["pronuncies"],"vos":[{"forma": "pronuncies","uso":"Riop."},{"forma":"pronunciés","uso":"C.Am."}],"s3":["pronuncie"],"p1":["pronunciemos"],"p2":["pronunciéis"],"p3":["pronuncien"]},
     "SubImp": {"s1":["pronunciara","pronunciase"],"s2":["pronunciaras","pronunciases"],"vos":["pronunciaras","pronunciases"],"s3":["pronunciara","pronunciase"],"p1":["pronunciáramos","pronunciásemos"],"p2":["pronunciarais","pronunciaseis"],"p3":["pronunciaran","pronunciasen"]},
     "SubFut": {"s1":["pronunciare"],"s2":["pronunciares"],"vos":["pronunciares"],"s3":["pronunciare"],"p1":["pronunciáremos"],"p2":["pronunciareis"],"p3":["pronunciaren"]},
     "CmdPos": {"s2":["pronuncia"],"vos":["pronunciá"],"s3":["pronuncie"],"p1":["pronunciemos"],"p2":["pronunciad"],"p3":["pronuncien"]}

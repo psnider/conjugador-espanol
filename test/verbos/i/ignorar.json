@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ignoré"],"s2":["ignoraste"],"vos":["ignoraste"],"s3":["ignoró"],"p1":["ignoramos"],"p2":["ignorasteis"],"p3":["ignoraron"]},
     "IndFut": {"s1":["ignoraré"],"s2":["ignorarás"],"vos":["ignorarás"],"s3":["ignorará"],"p1":["ignoraremos"],"p2":["ignoraréis"],"p3":["ignorarán"]},
     "IndCond": {"s1":["ignoraría"],"s2":["ignorarías"],"vos":["ignorarías"],"s3":["ignoraría"],"p1":["ignoraríamos"],"p2":["ignoraríais"],"p3":["ignorarían"]},
-    "SubPres": {"s1":["ignore"],"s2":["ignores"],"vos":["ignores","ignorés"],"s3":["ignore"],"p1":["ignoremos"],"p2":["ignoréis"],"p3":["ignoren"]},
+    "SubPres": {"s1":["ignore"],"s2":["ignores"],"vos":[{"forma": "ignores","uso":"Riop."},{"forma":"ignorés","uso":"C.Am."}],"s3":["ignore"],"p1":["ignoremos"],"p2":["ignoréis"],"p3":["ignoren"]},
     "SubImp": {"s1":["ignorara","ignorase"],"s2":["ignoraras","ignorases"],"vos":["ignoraras","ignorases"],"s3":["ignorara","ignorase"],"p1":["ignoráramos","ignorásemos"],"p2":["ignorarais","ignoraseis"],"p3":["ignoraran","ignorasen"]},
     "SubFut": {"s1":["ignorare"],"s2":["ignorares"],"vos":["ignorares"],"s3":["ignorare"],"p1":["ignoráremos"],"p2":["ignorareis"],"p3":["ignoraren"]},
     "CmdPos": {"s2":["ignora"],"vos":["ignorá"],"s3":["ignore"],"p1":["ignoremos"],"p2":["ignorad"],"p3":["ignoren"]}

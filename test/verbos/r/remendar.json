@@ -13,7 +13,7 @@
     "IndPret": {"s1":["remendé"],"s2":["remendaste"],"vos":["remendaste"],"s3":["remendó"],"p1":["remendamos"],"p2":["remendasteis"],"p3":["remendaron"]},
     "IndFut": {"s1":["remendaré"],"s2":["remendarás"],"vos":["remendarás"],"s3":["remendará"],"p1":["remendaremos"],"p2":["remendaréis"],"p3":["remendarán"]},
     "IndCond": {"s1":["remendaría"],"s2":["remendarías"],"vos":["remendarías"],"s3":["remendaría"],"p1":["remendaríamos"],"p2":["remendaríais"],"p3":["remendarían"]},
-    "SubPres": {"s1":["remiende"],"s2":["remiendes"],"vos":["remiendes","remendés"],"s3":["remiende"],"p1":["remendemos"],"p2":["remendéis"],"p3":["remienden"]},
+    "SubPres": {"s1":["remiende"],"s2":["remiendes"],"vos":[{"forma": "remiendes","uso":"Riop."},{"forma":"remendés","uso":"C.Am."}],"s3":["remiende"],"p1":["remendemos"],"p2":["remendéis"],"p3":["remienden"]},
     "SubImp": {"s1":["remendara","remendase"],"s2":["remendaras","remendases"],"vos":["remendaras","remendases"],"s3":["remendara","remendase"],"p1":["remendáramos","remendásemos"],"p2":["remendarais","remendaseis"],"p3":["remendaran","remendasen"]},
     "SubFut": {"s1":["remendare"],"s2":["remendares"],"vos":["remendares"],"s3":["remendare"],"p1":["remendáremos"],"p2":["remendareis"],"p3":["remendaren"]},
     "CmdPos": {"s2":["remienda"],"vos":["remendá"],"s3":["remiende"],"p1":["remendemos"],"p2":["remendad"],"p3":["remienden"]}

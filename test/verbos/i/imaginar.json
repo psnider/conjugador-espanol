@@ -13,7 +13,7 @@
     "IndPret": {"s1":["imaginé"],"s2":["imaginaste"],"vos":["imaginaste"],"s3":["imaginó"],"p1":["imaginamos"],"p2":["imaginasteis"],"p3":["imaginaron"]},
     "IndFut": {"s1":["imaginaré"],"s2":["imaginarás"],"vos":["imaginarás"],"s3":["imaginará"],"p1":["imaginaremos"],"p2":["imaginaréis"],"p3":["imaginarán"]},
     "IndCond": {"s1":["imaginaría"],"s2":["imaginarías"],"vos":["imaginarías"],"s3":["imaginaría"],"p1":["imaginaríamos"],"p2":["imaginaríais"],"p3":["imaginarían"]},
-    "SubPres": {"s1":["imagine"],"s2":["imagines"],"vos":["imagines","imaginés"],"s3":["imagine"],"p1":["imaginemos"],"p2":["imaginéis"],"p3":["imaginen"]},
+    "SubPres": {"s1":["imagine"],"s2":["imagines"],"vos":[{"forma": "imagines","uso":"Riop."},{"forma":"imaginés","uso":"C.Am."}],"s3":["imagine"],"p1":["imaginemos"],"p2":["imaginéis"],"p3":["imaginen"]},
     "SubImp": {"s1":["imaginara","imaginase"],"s2":["imaginaras","imaginases"],"vos":["imaginaras","imaginases"],"s3":["imaginara","imaginase"],"p1":["imagináramos","imaginásemos"],"p2":["imaginarais","imaginaseis"],"p3":["imaginaran","imaginasen"]},
     "SubFut": {"s1":["imaginare"],"s2":["imaginares"],"vos":["imaginares"],"s3":["imaginare"],"p1":["imagináremos"],"p2":["imaginareis"],"p3":["imaginaren"]},
     "CmdPos": {"s2":["imagina"],"vos":["imaginá"],"s3":["imagine"],"p1":["imaginemos"],"p2":["imaginad"],"p3":["imaginen"]}

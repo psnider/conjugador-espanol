@@ -13,7 +13,7 @@
     "IndPret": {"s1":["engañé"],"s2":["engañaste"],"vos":["engañaste"],"s3":["engañó"],"p1":["engañamos"],"p2":["engañasteis"],"p3":["engañaron"]},
     "IndFut": {"s1":["engañaré"],"s2":["engañarás"],"vos":["engañarás"],"s3":["engañará"],"p1":["engañaremos"],"p2":["engañaréis"],"p3":["engañarán"]},
     "IndCond": {"s1":["engañaría"],"s2":["engañarías"],"vos":["engañarías"],"s3":["engañaría"],"p1":["engañaríamos"],"p2":["engañaríais"],"p3":["engañarían"]},
-    "SubPres": {"s1":["engañe"],"s2":["engañes"],"vos":["engañes","engañés"],"s3":["engañe"],"p1":["engañemos"],"p2":["engañéis"],"p3":["engañen"]},
+    "SubPres": {"s1":["engañe"],"s2":["engañes"],"vos":[{"forma": "engañes","uso":"Riop."},{"forma":"engañés","uso":"C.Am."}],"s3":["engañe"],"p1":["engañemos"],"p2":["engañéis"],"p3":["engañen"]},
     "SubImp": {"s1":["engañara","engañase"],"s2":["engañaras","engañases"],"vos":["engañaras","engañases"],"s3":["engañara","engañase"],"p1":["engañáramos","engañásemos"],"p2":["engañarais","engañaseis"],"p3":["engañaran","engañasen"]},
     "SubFut": {"s1":["engañare"],"s2":["engañares"],"vos":["engañares"],"s3":["engañare"],"p1":["engañáremos"],"p2":["engañareis"],"p3":["engañaren"]},
     "CmdPos": {"s2":["engaña"],"vos":["engañá"],"s3":["engañe"],"p1":["engañemos"],"p2":["engañad"],"p3":["engañen"]}

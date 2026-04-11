@@ -13,7 +13,7 @@
     "IndPret": {"s1":["soné"],"s2":["sonaste"],"vos":["sonaste"],"s3":["sonó"],"p1":["sonamos"],"p2":["sonasteis"],"p3":["sonaron"]},
     "IndFut": {"s1":["sonaré"],"s2":["sonarás"],"vos":["sonarás"],"s3":["sonará"],"p1":["sonaremos"],"p2":["sonaréis"],"p3":["sonarán"]},
     "IndCond": {"s1":["sonaría"],"s2":["sonarías"],"vos":["sonarías"],"s3":["sonaría"],"p1":["sonaríamos"],"p2":["sonaríais"],"p3":["sonarían"]},
-    "SubPres": {"s1":["suene"],"s2":["suenes"],"vos":["suenes","sonés"],"s3":["suene"],"p1":["sonemos"],"p2":["sonéis"],"p3":["suenen"]},
+    "SubPres": {"s1":["suene"],"s2":["suenes"],"vos":[{"forma": "suenes","uso":"Riop."},{"forma":"sonés","uso":"C.Am."}],"s3":["suene"],"p1":["sonemos"],"p2":["sonéis"],"p3":["suenen"]},
     "SubImp": {"s1":["sonara","sonase"],"s2":["sonaras","sonases"],"vos":["sonaras","sonases"],"s3":["sonara","sonase"],"p1":["sonáramos","sonásemos"],"p2":["sonarais","sonaseis"],"p3":["sonaran","sonasen"]},
     "SubFut": {"s1":["sonare"],"s2":["sonares"],"vos":["sonares"],"s3":["sonare"],"p1":["sonáremos"],"p2":["sonareis"],"p3":["sonaren"]},
     "CmdPos": {"s2":["suena"],"vos":["soná"],"s3":["suene"],"p1":["sonemos"],"p2":["sonad"],"p3":["suenen"]}

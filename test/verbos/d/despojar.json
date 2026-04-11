@@ -13,7 +13,7 @@
     "IndPret": {"s1":["despojé"],"s2":["despojaste"],"vos":["despojaste"],"s3":["despojó"],"p1":["despojamos"],"p2":["despojasteis"],"p3":["despojaron"]},
     "IndFut": {"s1":["despojaré"],"s2":["despojarás"],"vos":["despojarás"],"s3":["despojará"],"p1":["despojaremos"],"p2":["despojaréis"],"p3":["despojarán"]},
     "IndCond": {"s1":["despojaría"],"s2":["despojarías"],"vos":["despojarías"],"s3":["despojaría"],"p1":["despojaríamos"],"p2":["despojaríais"],"p3":["despojarían"]},
-    "SubPres": {"s1":["despoje"],"s2":["despojes"],"vos":["despojes","despojés"],"s3":["despoje"],"p1":["despojemos"],"p2":["despojéis"],"p3":["despojen"]},
+    "SubPres": {"s1":["despoje"],"s2":["despojes"],"vos":[{"forma": "despojes","uso":"Riop."},{"forma":"despojés","uso":"C.Am."}],"s3":["despoje"],"p1":["despojemos"],"p2":["despojéis"],"p3":["despojen"]},
     "SubImp": {"s1":["despojara","despojase"],"s2":["despojaras","despojases"],"vos":["despojaras","despojases"],"s3":["despojara","despojase"],"p1":["despojáramos","despojásemos"],"p2":["despojarais","despojaseis"],"p3":["despojaran","despojasen"]},
     "SubFut": {"s1":["despojare"],"s2":["despojares"],"vos":["despojares"],"s3":["despojare"],"p1":["despojáremos"],"p2":["despojareis"],"p3":["despojaren"]},
     "CmdPos": {"s2":["despoja"],"vos":["despojá"],"s3":["despoje"],"p1":["despojemos"],"p2":["despojad"],"p3":["despojen"]}

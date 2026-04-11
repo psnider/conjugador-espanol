@@ -12,7 +12,7 @@
     "IndPret": {"s1":["envidié"],"s2":["envidiaste"],"vos":["envidiaste"],"s3":["envidió"],"p1":["envidiamos"],"p2":["envidiasteis"],"p3":["envidiaron"]},
     "IndFut": {"s1":["envidiaré"],"s2":["envidiarás"],"vos":["envidiarás"],"s3":["envidiará"],"p1":["envidiaremos"],"p2":["envidiaréis"],"p3":["envidiarán"]},
     "IndCond": {"s1":["envidiaría"],"s2":["envidiarías"],"vos":["envidiarías"],"s3":["envidiaría"],"p1":["envidiaríamos"],"p2":["envidiaríais"],"p3":["envidiarían"]},
-    "SubPres": {"s1":["envidie"],"s2":["envidies"],"vos":["envidies","envidiés"],"s3":["envidie"],"p1":["envidiemos"],"p2":["envidiéis"],"p3":["envidien"]},
+    "SubPres": {"s1":["envidie"],"s2":["envidies"],"vos":[{"forma": "envidies","uso":"Riop."},{"forma":"envidiés","uso":"C.Am."}],"s3":["envidie"],"p1":["envidiemos"],"p2":["envidiéis"],"p3":["envidien"]},
     "SubImp": {"s1":["envidiara","envidiase"],"s2":["envidiaras","envidiases"],"vos":["envidiaras","envidiases"],"s3":["envidiara","envidiase"],"p1":["envidiáramos","envidiásemos"],"p2":["envidiarais","envidiaseis"],"p3":["envidiaran","envidiasen"]},
     "SubFut": {"s1":["envidiare"],"s2":["envidiares"],"vos":["envidiares"],"s3":["envidiare"],"p1":["envidiáremos"],"p2":["envidiareis"],"p3":["envidiaren"]},
     "CmdPos": {"s2":["envidia"],"vos":["envidiá"],"s3":["envidie"],"p1":["envidiemos"],"p2":["envidiad"],"p3":["envidien"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["descafeiné"],"s2":["descafeinaste"],"vos":["descafeinaste"],"s3":["descafeinó"],"p1":["descafeinamos"],"p2":["descafeinasteis"],"p3":["descafeinaron"]},
     "IndFut": {"s1":["descafeinaré"],"s2":["descafeinarás"],"vos":["descafeinarás"],"s3":["descafeinará"],"p1":["descafeinaremos"],"p2":["descafeinaréis"],"p3":["descafeinarán"]},
     "IndCond": {"s1":["descafeinaría"],"s2":["descafeinarías"],"vos":["descafeinarías"],"s3":["descafeinaría"],"p1":["descafeinaríamos"],"p2":["descafeinaríais"],"p3":["descafeinarían"]},
-    "SubPres": {"s1":["descafeíne"],"s2":["descafeínes"],"vos":["descafeínes","descafeinés"],"s3":["descafeíne"],"p1":["descafeinemos"],"p2":["descafeinéis"],"p3":["descafeínen"]},
+    "SubPres": {"s1":["descafeíne"],"s2":["descafeínes"],"vos":[{"forma": "descafeínes","uso":"Riop."},{"forma":"descafeinés","uso":"C.Am."}],"s3":["descafeíne"],"p1":["descafeinemos"],"p2":["descafeinéis"],"p3":["descafeínen"]},
     "SubImp": {"s1":["descafeinara","descafeinase"],"s2":["descafeinaras","descafeinases"],"vos":["descafeinaras","descafeinases"],"s3":["descafeinara","descafeinase"],"p1":["descafeináramos","descafeinásemos"],"p2":["descafeinarais","descafeinaseis"],"p3":["descafeinaran","descafeinasen"]},
     "SubFut": {"s1":["descafeinare"],"s2":["descafeinares"],"vos":["descafeinares"],"s3":["descafeinare"],"p1":["descafeináremos"],"p2":["descafeinareis"],"p3":["descafeinaren"]},
     "CmdPos": {"s2":["descafeína"],"vos":["descafeiná"],"s3":["descafeíne"],"p1":["descafeinemos"],"p2":["descafeinad"],"p3":["descafeínen"]}

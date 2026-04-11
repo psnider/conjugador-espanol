@@ -12,7 +12,7 @@
     "IndPret": {"s1":["abrasé"],"s2":["abrasaste"],"vos":["abrasaste"],"s3":["abrasó"],"p1":["abrasamos"],"p2":["abrasasteis"],"p3":["abrasaron"]},
     "IndFut": {"s1":["abrasaré"],"s2":["abrasarás"],"vos":["abrasarás"],"s3":["abrasará"],"p1":["abrasaremos"],"p2":["abrasaréis"],"p3":["abrasarán"]},
     "IndCond": {"s1":["abrasaría"],"s2":["abrasarías"],"vos":["abrasarías"],"s3":["abrasaría"],"p1":["abrasaríamos"],"p2":["abrasaríais"],"p3":["abrasarían"]},
-    "SubPres": {"s1":["abrase"],"s2":["abrases"],"vos":["abrases","abrasés"],"s3":["abrase"],"p1":["abrasemos"],"p2":["abraséis"],"p3":["abrasen"]},
+    "SubPres": {"s1":["abrase"],"s2":["abrases"],"vos":[{"forma": "abrases","uso":"Riop."},{"forma":"abrasés","uso":"C.Am."}],"s3":["abrase"],"p1":["abrasemos"],"p2":["abraséis"],"p3":["abrasen"]},
     "SubImp": {"s1":["abrasara","abrasase"],"s2":["abrasaras","abrasases"],"vos":["abrasaras","abrasases"],"s3":["abrasara","abrasase"],"p1":["abrasáramos","abrasásemos"],"p2":["abrasarais","abrasaseis"],"p3":["abrasaran","abrasasen"]},
     "SubFut": {"s1":["abrasare"],"s2":["abrasares"],"vos":["abrasares"],"s3":["abrasare"],"p1":["abrasáremos"],"p2":["abrasareis"],"p3":["abrasaren"]},
     "CmdPos": {"s2":["abrasa"],"vos":["abrasá"],"s3":["abrase"],"p1":["abrasemos"],"p2":["abrasad"],"p3":["abrasen"]}

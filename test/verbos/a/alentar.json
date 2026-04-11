@@ -13,7 +13,7 @@
     "IndPret": {"s1":["alenté"],"s2":["alentaste"],"vos":["alentaste"],"s3":["alentó"],"p1":["alentamos"],"p2":["alentasteis"],"p3":["alentaron"]},
     "IndFut": {"s1":["alentaré"],"s2":["alentarás"],"vos":["alentarás"],"s3":["alentará"],"p1":["alentaremos"],"p2":["alentaréis"],"p3":["alentarán"]},
     "IndCond": {"s1":["alentaría"],"s2":["alentarías"],"vos":["alentarías"],"s3":["alentaría"],"p1":["alentaríamos"],"p2":["alentaríais"],"p3":["alentarían"]},
-    "SubPres": {"s1":["aliente"],"s2":["alientes"],"vos":["alientes","alentés"],"s3":["aliente"],"p1":["alentemos"],"p2":["alentéis"],"p3":["alienten"]},
+    "SubPres": {"s1":["aliente"],"s2":["alientes"],"vos":[{"forma": "alientes","uso":"Riop."},{"forma":"alentés","uso":"C.Am."}],"s3":["aliente"],"p1":["alentemos"],"p2":["alentéis"],"p3":["alienten"]},
     "SubImp": {"s1":["alentara","alentase"],"s2":["alentaras","alentases"],"vos":["alentaras","alentases"],"s3":["alentara","alentase"],"p1":["alentáramos","alentásemos"],"p2":["alentarais","alentaseis"],"p3":["alentaran","alentasen"]},
     "SubFut": {"s1":["alentare"],"s2":["alentares"],"vos":["alentares"],"s3":["alentare"],"p1":["alentáremos"],"p2":["alentareis"],"p3":["alentaren"]},
     "CmdPos": {"s2":["alienta"],"vos":["alentá"],"s3":["aliente"],"p1":["alentemos"],"p2":["alentad"],"p3":["alienten"]}

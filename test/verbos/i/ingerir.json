@@ -13,7 +13,7 @@
     "IndPret": {"s1":["ingerí"],"s2":["ingeriste"],"vos":["ingeriste"],"s3":["ingirió"],"p1":["ingerimos"],"p2":["ingeristeis"],"p3":["ingirieron"]},
     "IndFut": {"s1":["ingeriré"],"s2":["ingerirás"],"vos":["ingerirás"],"s3":["ingerirá"],"p1":["ingeriremos"],"p2":["ingeriréis"],"p3":["ingerirán"]},
     "IndCond": {"s1":["ingeriría"],"s2":["ingerirías"],"vos":["ingerirías"],"s3":["ingeriría"],"p1":["ingeriríamos"],"p2":["ingeriríais"],"p3":["ingerirían"]},
-    "SubPres": {"s1":["ingiera"],"s2":["ingieras"],"vos":["ingieras","ingirás"],"s3":["ingiera"],"p1":["ingiramos"],"p2":["ingiráis"],"p3":["ingieran"]},
+    "SubPres": {"s1":["ingiera"],"s2":["ingieras"],"vos":[{"forma": "ingieras","uso":"Riop."},{"forma":"ingirás","uso":"C.Am."}],"s3":["ingiera"],"p1":["ingiramos"],"p2":["ingiráis"],"p3":["ingieran"]},
     "SubImp": {"s1":["ingiriera","ingiriese"],"s2":["ingirieras","ingirieses"],"vos":["ingirieras","ingirieses"],"s3":["ingiriera","ingiriese"],"p1":["ingiriéramos","ingiriésemos"],"p2":["ingirierais","ingirieseis"],"p3":["ingirieran","ingiriesen"]},
     "SubFut": {"s1":["ingiriere"],"s2":["ingirieres"],"vos":["ingirieres"],"s3":["ingiriere"],"p1":["ingiriéremos"],"p2":["ingiriereis"],"p3":["ingirieren"]},
     "CmdPos": {"s2":["ingiere"],"vos":["ingerí"],"s3":["ingiera"],"p1":["ingiramos"],"p2":["ingerid"],"p3":["ingieran"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conduje"],"s2":["condujiste"],"vos":["condujiste"],"s3":["condujo"],"p1":["condujimos"],"p2":["condujisteis"],"p3":["condujeron"]},
     "IndFut": {"s1":["conduciré"],"s2":["conducirás"],"vos":["conducirás"],"s3":["conducirá"],"p1":["conduciremos"],"p2":["conduciréis"],"p3":["conducirán"]},
     "IndCond": {"s1":["conduciría"],"s2":["conducirías"],"vos":["conducirías"],"s3":["conduciría"],"p1":["conduciríamos"],"p2":["conduciríais"],"p3":["conducirían"]},
-    "SubPres": {"s1":["conduzca"],"s2":["conduzcas"],"vos":["conduzcas","conduzcás"],"s3":["conduzca"],"p1":["conduzcamos"],"p2":["conduzcáis"],"p3":["conduzcan"]},
+    "SubPres": {"s1":["conduzca"],"s2":["conduzcas"],"vos":[{"forma": "conduzcas","uso":"Riop."},{"forma":"conduzcás","uso":"C.Am."}],"s3":["conduzca"],"p1":["conduzcamos"],"p2":["conduzcáis"],"p3":["conduzcan"]},
     "SubImp": {"s1":["condujera","condujese"],"s2":["condujeras","condujeses"],"vos":["condujeras","condujeses"],"s3":["condujera","condujese"],"p1":["condujéramos","condujésemos"],"p2":["condujerais","condujeseis"],"p3":["condujeran","condujesen"]},
     "SubFut": {"s1":["condujere"],"s2":["condujeres"],"vos":["condujeres"],"s3":["condujere"],"p1":["condujéremos"],"p2":["condujereis"],"p3":["condujeren"]},
     "CmdPos": {"s2":["conduce"],"vos":["conducí"],"s3":["conduzca"],"p1":["conduzcamos"],"p2":["conducid"],"p3":["conduzcan"]}

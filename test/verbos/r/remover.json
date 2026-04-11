@@ -13,7 +13,7 @@
     "IndPret": {"s1":["removí"],"s2":["removiste"],"vos":["removiste"],"s3":["removió"],"p1":["removimos"],"p2":["removisteis"],"p3":["removieron"]},
     "IndFut": {"s1":["removeré"],"s2":["removerás"],"vos":["removerás"],"s3":["removerá"],"p1":["removeremos"],"p2":["removeréis"],"p3":["removerán"]},
     "IndCond": {"s1":["removería"],"s2":["removerías"],"vos":["removerías"],"s3":["removería"],"p1":["removeríamos"],"p2":["removeríais"],"p3":["removerían"]},
-    "SubPres": {"s1":["remueva"],"s2":["remuevas"],"vos":["remuevas","removás"],"s3":["remueva"],"p1":["removamos"],"p2":["remováis"],"p3":["remuevan"]},
+    "SubPres": {"s1":["remueva"],"s2":["remuevas"],"vos":[{"forma": "remuevas","uso":"Riop."},{"forma":"removás","uso":"C.Am."}],"s3":["remueva"],"p1":["removamos"],"p2":["remováis"],"p3":["remuevan"]},
     "SubImp": {"s1":["removiera","removiese"],"s2":["removieras","removieses"],"vos":["removieras","removieses"],"s3":["removiera","removiese"],"p1":["removiéramos","removiésemos"],"p2":["removierais","removieseis"],"p3":["removieran","removiesen"]},
     "SubFut": {"s1":["removiere"],"s2":["removieres"],"vos":["removieres"],"s3":["removiere"],"p1":["removiéremos"],"p2":["removiereis"],"p3":["removieren"]},
     "CmdPos": {"s2":["remueve"],"vos":["remové"],"s3":["remueva"],"p1":["removamos"],"p2":["removed"],"p3":["remuevan"]}

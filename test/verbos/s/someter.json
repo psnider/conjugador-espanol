@@ -13,7 +13,7 @@
     "IndPret": {"s1":["sometí"],"s2":["sometiste"],"vos":["sometiste"],"s3":["sometió"],"p1":["sometimos"],"p2":["sometisteis"],"p3":["sometieron"]},
     "IndFut": {"s1":["someteré"],"s2":["someterás"],"vos":["someterás"],"s3":["someterá"],"p1":["someteremos"],"p2":["someteréis"],"p3":["someterán"]},
     "IndCond": {"s1":["sometería"],"s2":["someterías"],"vos":["someterías"],"s3":["sometería"],"p1":["someteríamos"],"p2":["someteríais"],"p3":["someterían"]},
-    "SubPres": {"s1":["someta"],"s2":["sometas"],"vos":["sometas","sometás"],"s3":["someta"],"p1":["sometamos"],"p2":["sometáis"],"p3":["sometan"]},
+    "SubPres": {"s1":["someta"],"s2":["sometas"],"vos":[{"forma": "sometas","uso":"Riop."},{"forma":"sometás","uso":"C.Am."}],"s3":["someta"],"p1":["sometamos"],"p2":["sometáis"],"p3":["sometan"]},
     "SubImp": {"s1":["sometiera","sometiese"],"s2":["sometieras","sometieses"],"vos":["sometieras","sometieses"],"s3":["sometiera","sometiese"],"p1":["sometiéramos","sometiésemos"],"p2":["sometierais","sometieseis"],"p3":["sometieran","sometiesen"]},
     "SubFut": {"s1":["sometiere"],"s2":["sometieres"],"vos":["sometieres"],"s3":["sometiere"],"p1":["sometiéremos"],"p2":["sometiereis"],"p3":["sometieren"]},
     "CmdPos": {"s2":["somete"],"vos":["someté"],"s3":["someta"],"p1":["sometamos"],"p2":["someted"],"p3":["sometan"]}

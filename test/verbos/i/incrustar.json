@@ -13,7 +13,7 @@
     "IndPret": {"s1":["incrusté"],"s2":["incrustaste"],"vos":["incrustaste"],"s3":["incrustó"],"p1":["incrustamos"],"p2":["incrustasteis"],"p3":["incrustaron"]},
     "IndFut": {"s1":["incrustaré"],"s2":["incrustarás"],"vos":["incrustarás"],"s3":["incrustará"],"p1":["incrustaremos"],"p2":["incrustaréis"],"p3":["incrustarán"]},
     "IndCond": {"s1":["incrustaría"],"s2":["incrustarías"],"vos":["incrustarías"],"s3":["incrustaría"],"p1":["incrustaríamos"],"p2":["incrustaríais"],"p3":["incrustarían"]},
-    "SubPres": {"s1":["incruste"],"s2":["incrustes"],"vos":["incrustes","incrustés"],"s3":["incruste"],"p1":["incrustemos"],"p2":["incrustéis"],"p3":["incrusten"]},
+    "SubPres": {"s1":["incruste"],"s2":["incrustes"],"vos":[{"forma": "incrustes","uso":"Riop."},{"forma":"incrustés","uso":"C.Am."}],"s3":["incruste"],"p1":["incrustemos"],"p2":["incrustéis"],"p3":["incrusten"]},
     "SubImp": {"s1":["incrustara","incrustase"],"s2":["incrustaras","incrustases"],"vos":["incrustaras","incrustases"],"s3":["incrustara","incrustase"],"p1":["incrustáramos","incrustásemos"],"p2":["incrustarais","incrustaseis"],"p3":["incrustaran","incrustasen"]},
     "SubFut": {"s1":["incrustare"],"s2":["incrustares"],"vos":["incrustares"],"s3":["incrustare"],"p1":["incrustáremos"],"p2":["incrustareis"],"p3":["incrustaren"]},
     "CmdPos": {"s2":["incrusta"],"vos":["incrustá"],"s3":["incruste"],"p1":["incrustemos"],"p2":["incrustad"],"p3":["incrusten"]}

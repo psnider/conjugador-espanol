@@ -12,7 +12,7 @@
     "IndPret": {"s1":["aniquilé"],"s2":["aniquilaste"],"vos":["aniquilaste"],"s3":["aniquiló"],"p1":["aniquilamos"],"p2":["aniquilasteis"],"p3":["aniquilaron"]},
     "IndFut": {"s1":["aniquilaré"],"s2":["aniquilarás"],"vos":["aniquilarás"],"s3":["aniquilará"],"p1":["aniquilaremos"],"p2":["aniquilaréis"],"p3":["aniquilarán"]},
     "IndCond": {"s1":["aniquilaría"],"s2":["aniquilarías"],"vos":["aniquilarías"],"s3":["aniquilaría"],"p1":["aniquilaríamos"],"p2":["aniquilaríais"],"p3":["aniquilarían"]},
-    "SubPres": {"s1":["aniquile"],"s2":["aniquiles"],"vos":["aniquiles","aniquilés"],"s3":["aniquile"],"p1":["aniquilemos"],"p2":["aniquiléis"],"p3":["aniquilen"]},
+    "SubPres": {"s1":["aniquile"],"s2":["aniquiles"],"vos":[{"forma": "aniquiles","uso":"Riop."},{"forma":"aniquilés","uso":"C.Am."}],"s3":["aniquile"],"p1":["aniquilemos"],"p2":["aniquiléis"],"p3":["aniquilen"]},
     "SubImp": {"s1":["aniquilara","aniquilase"],"s2":["aniquilaras","aniquilases"],"vos":["aniquilaras","aniquilases"],"s3":["aniquilara","aniquilase"],"p1":["aniquiláramos","aniquilásemos"],"p2":["aniquilarais","aniquilaseis"],"p3":["aniquilaran","aniquilasen"]},
     "SubFut": {"s1":["aniquilare"],"s2":["aniquilares"],"vos":["aniquilares"],"s3":["aniquilare"],"p1":["aniquiláremos"],"p2":["aniquilareis"],"p3":["aniquilaren"]},
     "CmdPos": {"s2":["aniquila"],"vos":["aniquilá"],"s3":["aniquile"],"p1":["aniquilemos"],"p2":["aniquilad"],"p3":["aniquilen"]}

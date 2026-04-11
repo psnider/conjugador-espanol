@@ -13,7 +13,7 @@
     "IndPret": {"s1":["prendí"],"s2":["prendiste"],"vos":["prendiste"],"s3":["prendió"],"p1":["prendimos"],"p2":["prendisteis"],"p3":["prendieron"]},
     "IndFut": {"s1":["prenderé"],"s2":["prenderás"],"vos":["prenderás"],"s3":["prenderá"],"p1":["prenderemos"],"p2":["prenderéis"],"p3":["prenderán"]},
     "IndCond": {"s1":["prendería"],"s2":["prenderías"],"vos":["prenderías"],"s3":["prendería"],"p1":["prenderíamos"],"p2":["prenderíais"],"p3":["prenderían"]},
-    "SubPres": {"s1":["prenda"],"s2":["prendas"],"vos":["prendas","prendás"],"s3":["prenda"],"p1":["prendamos"],"p2":["prendáis"],"p3":["prendan"]},
+    "SubPres": {"s1":["prenda"],"s2":["prendas"],"vos":[{"forma": "prendas","uso":"Riop."},{"forma":"prendás","uso":"C.Am."}],"s3":["prenda"],"p1":["prendamos"],"p2":["prendáis"],"p3":["prendan"]},
     "SubImp": {"s1":["prendiera","prendiese"],"s2":["prendieras","prendieses"],"vos":["prendieras","prendieses"],"s3":["prendiera","prendiese"],"p1":["prendiéramos","prendiésemos"],"p2":["prendierais","prendieseis"],"p3":["prendieran","prendiesen"]},
     "SubFut": {"s1":["prendiere"],"s2":["prendieres"],"vos":["prendieres"],"s3":["prendiere"],"p1":["prendiéremos"],"p2":["prendiereis"],"p3":["prendieren"]},
     "CmdPos": {"s2":["prende"],"vos":["prendé"],"s3":["prenda"],"p1":["prendamos"],"p2":["prended"],"p3":["prendan"]}

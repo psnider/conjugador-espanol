@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[anot͡ʃeˈseɾ]",
+    "silabacion": "a-no-che-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y del latín noctescĕre",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"anochecer","gerundio":["anocheciendo"],"participio":["anochecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anochezco"],"s2":["anocheces"],"vos":["anochecés"],"s3":["anochece"],"p1":["anochecemos"],"p2":["anochecéis"],"p3":["anochecen"]},
+    "IndImp": {"s1":["anochecía"],"s2":["anochecías"],"vos":["anochecías"],"s3":["anochecía"],"p1":["anochecíamos"],"p2":["anochecíais"],"p3":["anochecían"]},
+    "IndPret": {"s1":["anochecí"],"s2":["anocheciste"],"vos":["anocheciste"],"s3":["anocheció"],"p1":["anochecimos"],"p2":["anochecisteis"],"p3":["anochecieron"]},
+    "IndFut": {"s1":["anocheceré"],"s2":["anochecerás"],"vos":["anochecerás"],"s3":["anochecerá"],"p1":["anocheceremos"],"p2":["anocheceréis"],"p3":["anochecerán"]},
+    "IndCond": {"s1":["anochecería"],"s2":["anochecerías"],"vos":["anochecerías"],"s3":["anochecería"],"p1":["anocheceríamos"],"p2":["anocheceríais"],"p3":["anochecerían"]},
+    "SubPres": {"s1":["anochezca"],"s2":["anochezcas"],"vos":["anochezcas","anochezcás"],"s3":["anochezca"],"p1":["anochezcamos"],"p2":["anochezcáis"],"p3":["anochezcan"]},
+    "SubImp": {"s1":["anocheciera","anocheciese"],"s2":["anochecieras","anochecieses"],"vos":["anochecieras","anochecieses"],"s3":["anocheciera","anocheciese"],"p1":["anocheciéramos","anocheciésemos"],"p2":["anochecierais","anochecieseis"],"p3":["anochecieran","anocheciesen"]},
+    "SubFut": {"s1":["anocheciere"],"s2":["anochecieres"],"vos":["anochecieres"],"s3":["anocheciere"],"p1":["anocheciéremos"],"p2":["anocheciereis"],"p3":["anochecieren"]},
+    "CmdPos": {"s2":["anochece"],"vos":["anochecé"],"s3":["anochezca"],"p1":["anochezcamos"],"p2":["anocheced"],"p3":["anochezcan"]}
+  }
+}

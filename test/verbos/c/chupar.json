@@ -13,7 +13,7 @@
     "IndPret": {"s1":["chupé"],"s2":["chupaste"],"vos":["chupaste"],"s3":["chupó"],"p1":["chupamos"],"p2":["chupasteis"],"p3":["chuparon"]},
     "IndFut": {"s1":["chuparé"],"s2":["chuparás"],"vos":["chuparás"],"s3":["chupará"],"p1":["chuparemos"],"p2":["chuparéis"],"p3":["chuparán"]},
     "IndCond": {"s1":["chuparía"],"s2":["chuparías"],"vos":["chuparías"],"s3":["chuparía"],"p1":["chuparíamos"],"p2":["chuparíais"],"p3":["chuparían"]},
-    "SubPres": {"s1":["chupe"],"s2":["chupes"],"vos":["chupes","chupés"],"s3":["chupe"],"p1":["chupemos"],"p2":["chupéis"],"p3":["chupen"]},
+    "SubPres": {"s1":["chupe"],"s2":["chupes"],"vos":[{"forma": "chupes","uso":"Riop."},{"forma":"chupés","uso":"C.Am."}],"s3":["chupe"],"p1":["chupemos"],"p2":["chupéis"],"p3":["chupen"]},
     "SubImp": {"s1":["chupara","chupase"],"s2":["chuparas","chupases"],"vos":["chuparas","chupases"],"s3":["chupara","chupase"],"p1":["chupáramos","chupásemos"],"p2":["chuparais","chupaseis"],"p3":["chuparan","chupasen"]},
     "SubFut": {"s1":["chupare"],"s2":["chupares"],"vos":["chupares"],"s3":["chupare"],"p1":["chupáremos"],"p2":["chupareis"],"p3":["chuparen"]},
     "CmdPos": {"s2":["chupa"],"vos":["chupá"],"s3":["chupe"],"p1":["chupemos"],"p2":["chupad"],"p3":["chupen"]}

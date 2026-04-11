@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tapé"],"s2":["tapaste"],"vos":["tapaste"],"s3":["tapó"],"p1":["tapamos"],"p2":["tapasteis"],"p3":["taparon"]},
     "IndFut": {"s1":["taparé"],"s2":["taparás"],"vos":["taparás"],"s3":["tapará"],"p1":["taparemos"],"p2":["taparéis"],"p3":["taparán"]},
     "IndCond": {"s1":["taparía"],"s2":["taparías"],"vos":["taparías"],"s3":["taparía"],"p1":["taparíamos"],"p2":["taparíais"],"p3":["taparían"]},
-    "SubPres": {"s1":["tape"],"s2":["tapes"],"vos":["tapes","tapés"],"s3":["tape"],"p1":["tapemos"],"p2":["tapéis"],"p3":["tapen"]},
+    "SubPres": {"s1":["tape"],"s2":["tapes"],"vos":[{"forma": "tapes","uso":"Riop."},{"forma":"tapés","uso":"C.Am."}],"s3":["tape"],"p1":["tapemos"],"p2":["tapéis"],"p3":["tapen"]},
     "SubImp": {"s1":["tapara","tapase"],"s2":["taparas","tapases"],"vos":["taparas","tapases"],"s3":["tapara","tapase"],"p1":["tapáramos","tapásemos"],"p2":["taparais","tapaseis"],"p3":["taparan","tapasen"]},
     "SubFut": {"s1":["tapare"],"s2":["tapares"],"vos":["tapares"],"s3":["tapare"],"p1":["tapáremos"],"p2":["tapareis"],"p3":["taparen"]},
     "CmdPos": {"s2":["tapa"],"vos":["tapá"],"s3":["tape"],"p1":["tapemos"],"p2":["tapad"],"p3":["tapen"]}

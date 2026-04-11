@@ -1,3 +1,4 @@
+"use strict";
 const prefijos = {
     a: "negación o privación de lo expresado por la base",
     an: "a-",

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["examiné"],"s2":["examinaste"],"vos":["examinaste"],"s3":["examinó"],"p1":["examinamos"],"p2":["examinasteis"],"p3":["examinaron"]},
     "IndFut": {"s1":["examinaré"],"s2":["examinarás"],"vos":["examinarás"],"s3":["examinará"],"p1":["examinaremos"],"p2":["examinaréis"],"p3":["examinarán"]},
     "IndCond": {"s1":["examinaría"],"s2":["examinarías"],"vos":["examinarías"],"s3":["examinaría"],"p1":["examinaríamos"],"p2":["examinaríais"],"p3":["examinarían"]},
-    "SubPres": {"s1":["examine"],"s2":["examines"],"vos":["examines","examinés"],"s3":["examine"],"p1":["examinemos"],"p2":["examinéis"],"p3":["examinen"]},
+    "SubPres": {"s1":["examine"],"s2":["examines"],"vos":[{"forma": "examines","uso":"Riop."},{"forma":"examinés","uso":"C.Am."}],"s3":["examine"],"p1":["examinemos"],"p2":["examinéis"],"p3":["examinen"]},
     "SubImp": {"s1":["examinara","examinase"],"s2":["examinaras","examinases"],"vos":["examinaras","examinases"],"s3":["examinara","examinase"],"p1":["examináramos","examinásemos"],"p2":["examinarais","examinaseis"],"p3":["examinaran","examinasen"]},
     "SubFut": {"s1":["examinare"],"s2":["examinares"],"vos":["examinares"],"s3":["examinare"],"p1":["examináremos"],"p2":["examinareis"],"p3":["examinaren"]},
     "CmdPos": {"s2":["examina"],"vos":["examiná"],"s3":["examine"],"p1":["examinemos"],"p2":["examinad"],"p3":["examinen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["refuté"],"s2":["refutaste"],"vos":["refutaste"],"s3":["refutó"],"p1":["refutamos"],"p2":["refutasteis"],"p3":["refutaron"]},
     "IndFut": {"s1":["refutaré"],"s2":["refutarás"],"vos":["refutarás"],"s3":["refutará"],"p1":["refutaremos"],"p2":["refutaréis"],"p3":["refutarán"]},
     "IndCond": {"s1":["refutaría"],"s2":["refutarías"],"vos":["refutarías"],"s3":["refutaría"],"p1":["refutaríamos"],"p2":["refutaríais"],"p3":["refutarían"]},
-    "SubPres": {"s1":["refute"],"s2":["refutes"],"vos":["refutes","refutés"],"s3":["refute"],"p1":["refutemos"],"p2":["refutéis"],"p3":["refuten"]},
+    "SubPres": {"s1":["refute"],"s2":["refutes"],"vos":[{"forma": "refutes","uso":"Riop."},{"forma":"refutés","uso":"C.Am."}],"s3":["refute"],"p1":["refutemos"],"p2":["refutéis"],"p3":["refuten"]},
     "SubImp": {"s1":["refutara","refutase"],"s2":["refutaras","refutases"],"vos":["refutaras","refutases"],"s3":["refutara","refutase"],"p1":["refutáramos","refutásemos"],"p2":["refutarais","refutaseis"],"p3":["refutaran","refutasen"]},
     "SubFut": {"s1":["refutare"],"s2":["refutares"],"vos":["refutares"],"s3":["refutare"],"p1":["refutáremos"],"p2":["refutareis"],"p3":["refutaren"]},
     "CmdPos": {"s2":["refuta"],"vos":["refutá"],"s3":["refute"],"p1":["refutemos"],"p2":["refutad"],"p3":["refuten"]}

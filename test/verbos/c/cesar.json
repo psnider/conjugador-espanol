@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cesé"],"s2":["cesaste"],"vos":["cesaste"],"s3":["cesó"],"p1":["cesamos"],"p2":["cesasteis"],"p3":["cesaron"]},
     "IndFut": {"s1":["cesaré"],"s2":["cesarás"],"vos":["cesarás"],"s3":["cesará"],"p1":["cesaremos"],"p2":["cesaréis"],"p3":["cesarán"]},
     "IndCond": {"s1":["cesaría"],"s2":["cesarías"],"vos":["cesarías"],"s3":["cesaría"],"p1":["cesaríamos"],"p2":["cesaríais"],"p3":["cesarían"]},
-    "SubPres": {"s1":["cese"],"s2":["ceses"],"vos":["ceses","cesés"],"s3":["cese"],"p1":["cesemos"],"p2":["ceséis"],"p3":["cesen"]},
+    "SubPres": {"s1":["cese"],"s2":["ceses"],"vos":[{"forma": "ceses","uso":"Riop."},{"forma":"cesés","uso":"C.Am."}],"s3":["cese"],"p1":["cesemos"],"p2":["ceséis"],"p3":["cesen"]},
     "SubImp": {"s1":["cesara","cesase"],"s2":["cesaras","cesases"],"vos":["cesaras","cesases"],"s3":["cesara","cesase"],"p1":["cesáramos","cesásemos"],"p2":["cesarais","cesaseis"],"p3":["cesaran","cesasen"]},
     "SubFut": {"s1":["cesare"],"s2":["cesares"],"vos":["cesares"],"s3":["cesare"],"p1":["cesáremos"],"p2":["cesareis"],"p3":["cesaren"]},
     "CmdPos": {"s2":["cesa"],"vos":["cesá"],"s3":["cese"],"p1":["cesemos"],"p2":["cesad"],"p3":["cesen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["identifiqué"],"s2":["identificaste"],"vos":["identificaste"],"s3":["identificó"],"p1":["identificamos"],"p2":["identificasteis"],"p3":["identificaron"]},
     "IndFut": {"s1":["identificaré"],"s2":["identificarás"],"vos":["identificarás"],"s3":["identificará"],"p1":["identificaremos"],"p2":["identificaréis"],"p3":["identificarán"]},
     "IndCond": {"s1":["identificaría"],"s2":["identificarías"],"vos":["identificarías"],"s3":["identificaría"],"p1":["identificaríamos"],"p2":["identificaríais"],"p3":["identificarían"]},
-    "SubPres": {"s1":["identifique"],"s2":["identifiques"],"vos":["identifiques","identifiqués"],"s3":["identifique"],"p1":["identifiquemos"],"p2":["identifiquéis"],"p3":["identifiquen"]},
+    "SubPres": {"s1":["identifique"],"s2":["identifiques"],"vos":[{"forma": "identifiques","uso":"Riop."},{"forma":"identifiqués","uso":"C.Am."}],"s3":["identifique"],"p1":["identifiquemos"],"p2":["identifiquéis"],"p3":["identifiquen"]},
     "SubImp": {"s1":["identificara","identificase"],"s2":["identificaras","identificases"],"vos":["identificaras","identificases"],"s3":["identificara","identificase"],"p1":["identificáramos","identificásemos"],"p2":["identificarais","identificaseis"],"p3":["identificaran","identificasen"]},
     "SubFut": {"s1":["identificare"],"s2":["identificares"],"vos":["identificares"],"s3":["identificare"],"p1":["identificáremos"],"p2":["identificareis"],"p3":["identificaren"]},
     "CmdPos": {"s2":["identifica"],"vos":["identificá"],"s3":["identifique"],"p1":["identifiquemos"],"p2":["identificad"],"p3":["identifiquen"]}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[meˈseɾ]",
+    "silabacion": "me-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín miscere ('mezclar')",
+    "modelos": ["mecer"]
+  },
+  "formas_no_personales": {"infinitivo":"mecer","gerundio":["meciendo"],"participio":["mecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mezo"],"s2":["meces"],"vos":["mecés"],"s3":["mece"],"p1":["mecemos"],"p2":["mecéis"],"p3":["mecen"]},
+    "IndImp": {"s1":["mecía"],"s2":["mecías"],"vos":["mecías"],"s3":["mecía"],"p1":["mecíamos"],"p2":["mecíais"],"p3":["mecían"]},
+    "IndPret": {"s1":["mecí"],"s2":["meciste"],"vos":["meciste"],"s3":["meció"],"p1":["mecimos"],"p2":["mecisteis"],"p3":["mecieron"]},
+    "IndFut": {"s1":["meceré"],"s2":["mecerás"],"vos":["mecerás"],"s3":["mecerá"],"p1":["meceremos"],"p2":["meceréis"],"p3":["mecerán"]},
+    "IndCond": {"s1":["mecería"],"s2":["mecerías"],"vos":["mecerías"],"s3":["mecería"],"p1":["meceríamos"],"p2":["meceríais"],"p3":["mecerían"]},
+    "SubPres": {"s1":["meza"],"s2":["mezas"],"vos":[{"forma": "mezas","uso":"Riop."},{"forma":"mezás","uso":"C.Am."}],"s3":["meza"],"p1":["mezamos"],"p2":["mezáis"],"p3":["mezan"]},
+    "SubImp": {"s1":["meciera","meciese"],"s2":["mecieras","mecieses"],"vos":["mecieras","mecieses"],"s3":["meciera","meciese"],"p1":["meciéramos","meciésemos"],"p2":["mecierais","mecieseis"],"p3":["mecieran","meciesen"]},
+    "SubFut": {"s1":["meciere"],"s2":["mecieres"],"vos":["mecieres"],"s3":["meciere"],"p1":["meciéremos"],"p2":["meciereis"],"p3":["mecieren"]},
+    "CmdPos": {"s2":["mece"],"vos":["mecé"],"s3":["meza"],"p1":["mezamos"],"p2":["meced"],"p3":["mezan"]}
+  }
+}

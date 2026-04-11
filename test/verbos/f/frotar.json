@@ -13,7 +13,7 @@
     "IndPret": {"s1":["froté"],"s2":["frotaste"],"vos":["frotaste"],"s3":["frotó"],"p1":["frotamos"],"p2":["frotasteis"],"p3":["frotaron"]},
     "IndFut": {"s1":["frotaré"],"s2":["frotarás"],"vos":["frotarás"],"s3":["frotará"],"p1":["frotaremos"],"p2":["frotaréis"],"p3":["frotarán"]},
     "IndCond": {"s1":["frotaría"],"s2":["frotarías"],"vos":["frotarías"],"s3":["frotaría"],"p1":["frotaríamos"],"p2":["frotaríais"],"p3":["frotarían"]},
-    "SubPres": {"s1":["frote"],"s2":["frotes"],"vos":["frotes","frotés"],"s3":["frote"],"p1":["frotemos"],"p2":["frotéis"],"p3":["froten"]},
+    "SubPres": {"s1":["frote"],"s2":["frotes"],"vos":[{"forma": "frotes","uso":"Riop."},{"forma":"frotés","uso":"C.Am."}],"s3":["frote"],"p1":["frotemos"],"p2":["frotéis"],"p3":["froten"]},
     "SubImp": {"s1":["frotara","frotase"],"s2":["frotaras","frotases"],"vos":["frotaras","frotases"],"s3":["frotara","frotase"],"p1":["frotáramos","frotásemos"],"p2":["frotarais","frotaseis"],"p3":["frotaran","frotasen"]},
     "SubFut": {"s1":["frotare"],"s2":["frotares"],"vos":["frotares"],"s3":["frotare"],"p1":["frotáremos"],"p2":["frotareis"],"p3":["frotaren"]},
     "CmdPos": {"s2":["frota"],"vos":["frotá"],"s3":["frote"],"p1":["frotemos"],"p2":["frotad"],"p3":["froten"]}

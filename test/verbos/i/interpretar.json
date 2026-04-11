@@ -13,7 +13,7 @@
     "IndPret": {"s1":["interpreté"],"s2":["interpretaste"],"vos":["interpretaste"],"s3":["interpretó"],"p1":["interpretamos"],"p2":["interpretasteis"],"p3":["interpretaron"]},
     "IndFut": {"s1":["interpretaré"],"s2":["interpretarás"],"vos":["interpretarás"],"s3":["interpretará"],"p1":["interpretaremos"],"p2":["interpretaréis"],"p3":["interpretarán"]},
     "IndCond": {"s1":["interpretaría"],"s2":["interpretarías"],"vos":["interpretarías"],"s3":["interpretaría"],"p1":["interpretaríamos"],"p2":["interpretaríais"],"p3":["interpretarían"]},
-    "SubPres": {"s1":["interprete"],"s2":["interpretes"],"vos":["interpretes","interpretés"],"s3":["interprete"],"p1":["interpretemos"],"p2":["interpretéis"],"p3":["interpreten"]},
+    "SubPres": {"s1":["interprete"],"s2":["interpretes"],"vos":[{"forma": "interpretes","uso":"Riop."},{"forma":"interpretés","uso":"C.Am."}],"s3":["interprete"],"p1":["interpretemos"],"p2":["interpretéis"],"p3":["interpreten"]},
     "SubImp": {"s1":["interpretara","interpretase"],"s2":["interpretaras","interpretases"],"vos":["interpretaras","interpretases"],"s3":["interpretara","interpretase"],"p1":["interpretáramos","interpretásemos"],"p2":["interpretarais","interpretaseis"],"p3":["interpretaran","interpretasen"]},
     "SubFut": {"s1":["interpretare"],"s2":["interpretares"],"vos":["interpretares"],"s3":["interpretare"],"p1":["interpretáremos"],"p2":["interpretareis"],"p3":["interpretaren"]},
     "CmdPos": {"s2":["interpreta"],"vos":["interpretá"],"s3":["interprete"],"p1":["interpretemos"],"p2":["interpretad"],"p3":["interpreten"]}

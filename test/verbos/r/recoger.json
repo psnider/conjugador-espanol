@@ -13,7 +13,7 @@
     "IndPret": {"s1":["recogí"],"s2":["recogiste"],"vos":["recogiste"],"s3":["recogió"],"p1":["recogimos"],"p2":["recogisteis"],"p3":["recogieron"]},
     "IndFut": {"s1":["recogeré"],"s2":["recogerás"],"vos":["recogerás"],"s3":["recogerá"],"p1":["recogeremos"],"p2":["recogeréis"],"p3":["recogerán"]},
     "IndCond": {"s1":["recogería"],"s2":["recogerías"],"vos":["recogerías"],"s3":["recogería"],"p1":["recogeríamos"],"p2":["recogeríais"],"p3":["recogerían"]},
-    "SubPres": {"s1":["recoja"],"s2":["recojas"],"vos":["recojas","recojás"],"s3":["recoja"],"p1":["recojamos"],"p2":["recojáis"],"p3":["recojan"]},
+    "SubPres": {"s1":["recoja"],"s2":["recojas"],"vos":[{"forma": "recojas","uso":"Riop."},{"forma":"recojás","uso":"C.Am."}],"s3":["recoja"],"p1":["recojamos"],"p2":["recojáis"],"p3":["recojan"]},
     "SubImp": {"s1":["recogiera","recogiese"],"s2":["recogieras","recogieses"],"vos":["recogieras","recogieses"],"s3":["recogiera","recogiese"],"p1":["recogiéramos","recogiésemos"],"p2":["recogierais","recogieseis"],"p3":["recogieran","recogiesen"]},
     "SubFut": {"s1":["recogiere"],"s2":["recogieres"],"vos":["recogieres"],"s3":["recogiere"],"p1":["recogiéremos"],"p2":["recogiereis"],"p3":["recogieren"]},
     "CmdPos": {"s2":["recoge"],"vos":["recogé"],"s3":["recoja"],"p1":["recojamos"],"p2":["recoged"],"p3":["recojan"]}

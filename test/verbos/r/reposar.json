@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reposé"],"s2":["reposaste"],"vos":["reposaste"],"s3":["reposó"],"p1":["reposamos"],"p2":["reposasteis"],"p3":["reposaron"]},
     "IndFut": {"s1":["reposaré"],"s2":["reposarás"],"vos":["reposarás"],"s3":["reposará"],"p1":["reposaremos"],"p2":["reposaréis"],"p3":["reposarán"]},
     "IndCond": {"s1":["reposaría"],"s2":["reposarías"],"vos":["reposarías"],"s3":["reposaría"],"p1":["reposaríamos"],"p2":["reposaríais"],"p3":["reposarían"]},
-    "SubPres": {"s1":["repose"],"s2":["reposes"],"vos":["reposes","reposés"],"s3":["repose"],"p1":["reposemos"],"p2":["reposéis"],"p3":["reposen"]},
+    "SubPres": {"s1":["repose"],"s2":["reposes"],"vos":[{"forma": "reposes","uso":"Riop."},{"forma":"reposés","uso":"C.Am."}],"s3":["repose"],"p1":["reposemos"],"p2":["reposéis"],"p3":["reposen"]},
     "SubImp": {"s1":["reposara","reposase"],"s2":["reposaras","reposases"],"vos":["reposaras","reposases"],"s3":["reposara","reposase"],"p1":["reposáramos","reposásemos"],"p2":["reposarais","reposaseis"],"p3":["reposaran","reposasen"]},
     "SubFut": {"s1":["reposare"],"s2":["reposares"],"vos":["reposares"],"s3":["reposare"],"p1":["reposáremos"],"p2":["reposareis"],"p3":["reposaren"]},
     "CmdPos": {"s2":["reposa"],"vos":["reposá"],"s3":["repose"],"p1":["reposemos"],"p2":["reposad"],"p3":["reposen"]}

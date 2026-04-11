@@ -2,7 +2,8 @@
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
         "lib": ["es2020", "dom"],
-        "moduleResolution": "bundler"
+        "moduleResolution": "bundler",
+        "strict": false,
     },
     "include": [
         "html/**/*.ts"

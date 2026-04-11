@@ -13,9 +13,9 @@
     "IndPret": {"s1":["circunvine"],"s2":["circunviniste"],"vos":["circunviniste"],"s3":["circunvino"],"p1":["circunvinimos"],"p2":["circunvinisteis"],"p3":["circunvinieron"]},
     "IndFut": {"s1":["circunvendré"],"s2":["circunvendrás"],"vos":["circunvendrás"],"s3":["circunvendrá"],"p1":["circunvendremos"],"p2":["circunvendréis"],"p3":["circunvendrán"]},
     "IndCond": {"s1":["circunvendría"],"s2":["circunvendrías"],"vos":["circunvendrías"],"s3":["circunvendría"],"p1":["circunvendríamos"],"p2":["circunvendríais"],"p3":["circunvendrían"]},
-    "SubPres": {"s1":["circunvenga"],"s2":["circunvengas"],"vos":["circunvengas","circunvengás"],"s3":["circunvenga"],"p1":["circunvengamos"],"p2":["circunvengáis"],"p3":["circunvengan"]},
+    "SubPres": {"s1":["circunvenga"],"s2":["circunvengas"],"vos":[{"forma": "circunvengas","uso":"Riop."},{"forma":"circunvengás","uso":"C.Am."}],"s3":["circunvenga"],"p1":["circunvengamos"],"p2":["circunvengáis"],"p3":["circunvengan"]},
     "SubImp": {"s1":["circunviniera","circunviniese"],"s2":["circunvinieras","circunvinieses"],"vos":["circunvinieras","circunvinieses"],"s3":["circunviniera","circunviniese"],"p1":["circunviniéramos","circunviniésemos"],"p2":["circunvinierais","circunvinieseis"],"p3":["circunvinieran","circunviniesen"]},
     "SubFut": {"s1":["circunviniere"],"s2":["circunvinieres"],"vos":["circunvinieres"],"s3":["circunviniere"],"p1":["circunviniéremos"],"p2":["circunviniereis"],"p3":["circunvinieren"]},
-    "CmdPos": {"s2":{"estándar":["circunvén"],"atípicos":[{"forma":"circunviene","etiquetas":["no normativo"]}]},"vos":["circunvení"],"s3":["circunvenga"],"p1":["circunvengamos"],"p2":["circunvenid"],"p3":["circunvengan"]}
+    "CmdPos": {"s2":["circunvén"],"vos":["circunvení"],"s3":["circunvenga"],"p1":["circunvengamos"],"p2":["circunvenid"],"p3":["circunvengan"]}
   }
 }

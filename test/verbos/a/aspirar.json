@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aspiré"],"s2":["aspiraste"],"vos":["aspiraste"],"s3":["aspiró"],"p1":["aspiramos"],"p2":["aspirasteis"],"p3":["aspiraron"]},
     "IndFut": {"s1":["aspiraré"],"s2":["aspirarás"],"vos":["aspirarás"],"s3":["aspirará"],"p1":["aspiraremos"],"p2":["aspiraréis"],"p3":["aspirarán"]},
     "IndCond": {"s1":["aspiraría"],"s2":["aspirarías"],"vos":["aspirarías"],"s3":["aspiraría"],"p1":["aspiraríamos"],"p2":["aspiraríais"],"p3":["aspirarían"]},
-    "SubPres": {"s1":["aspire"],"s2":["aspires"],"vos":["aspires","aspirés"],"s3":["aspire"],"p1":["aspiremos"],"p2":["aspiréis"],"p3":["aspiren"]},
+    "SubPres": {"s1":["aspire"],"s2":["aspires"],"vos":[{"forma": "aspires","uso":"Riop."},{"forma":"aspirés","uso":"C.Am."}],"s3":["aspire"],"p1":["aspiremos"],"p2":["aspiréis"],"p3":["aspiren"]},
     "SubImp": {"s1":["aspirara","aspirase"],"s2":["aspiraras","aspirases"],"vos":["aspiraras","aspirases"],"s3":["aspirara","aspirase"],"p1":["aspiráramos","aspirásemos"],"p2":["aspirarais","aspiraseis"],"p3":["aspiraran","aspirasen"]},
     "SubFut": {"s1":["aspirare"],"s2":["aspirares"],"vos":["aspirares"],"s3":["aspirare"],"p1":["aspiráremos"],"p2":["aspirareis"],"p3":["aspiraren"]},
     "CmdPos": {"s2":["aspira"],"vos":["aspirá"],"s3":["aspire"],"p1":["aspiremos"],"p2":["aspirad"],"p3":["aspiren"]}

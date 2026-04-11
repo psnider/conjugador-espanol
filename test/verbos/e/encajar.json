@@ -13,7 +13,7 @@
     "IndPret": {"s1":["encajé"],"s2":["encajaste"],"vos":["encajaste"],"s3":["encajó"],"p1":["encajamos"],"p2":["encajasteis"],"p3":["encajaron"]},
     "IndFut": {"s1":["encajaré"],"s2":["encajarás"],"vos":["encajarás"],"s3":["encajará"],"p1":["encajaremos"],"p2":["encajaréis"],"p3":["encajarán"]},
     "IndCond": {"s1":["encajaría"],"s2":["encajarías"],"vos":["encajarías"],"s3":["encajaría"],"p1":["encajaríamos"],"p2":["encajaríais"],"p3":["encajarían"]},
-    "SubPres": {"s1":["encaje"],"s2":["encajes"],"vos":["encajes","encajés"],"s3":["encaje"],"p1":["encajemos"],"p2":["encajéis"],"p3":["encajen"]},
+    "SubPres": {"s1":["encaje"],"s2":["encajes"],"vos":[{"forma": "encajes","uso":"Riop."},{"forma":"encajés","uso":"C.Am."}],"s3":["encaje"],"p1":["encajemos"],"p2":["encajéis"],"p3":["encajen"]},
     "SubImp": {"s1":["encajara","encajase"],"s2":["encajaras","encajases"],"vos":["encajaras","encajases"],"s3":["encajara","encajase"],"p1":["encajáramos","encajásemos"],"p2":["encajarais","encajaseis"],"p3":["encajaran","encajasen"]},
     "SubFut": {"s1":["encajare"],"s2":["encajares"],"vos":["encajares"],"s3":["encajare"],"p1":["encajáremos"],"p2":["encajareis"],"p3":["encajaren"]},
     "CmdPos": {"s2":["encaja"],"vos":["encajá"],"s3":["encaje"],"p1":["encajemos"],"p2":["encajad"],"p3":["encajen"]}

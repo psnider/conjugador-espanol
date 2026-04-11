@@ -13,19 +13,20 @@
     "validate": "node generated/test/validate-stem-change-patterns.js && node generated/test/validate-verbs-list.js",
     "test-full": "npm run validate && npm run test",
     "test-list": "node generated/test/test.js",
+    "test-resolve-conjugation-class": "node generated/test/test-resolve-conjugation-class.js",
     "test": "node generated/test/test-verbs-using-saved-conjugations.js",
     "test-conjugate-verb": "node generated/test/test-conjugate-verb.js",
     "update-verbos-with-test-results": "node generated/test/update-verbos-with-test-results.js",
     "insert-verbs-into-verbs-list": "node generated/test/insert-verbs-into-verbs-list.js",
     "clean": "rm -rf generated",
     "update-version": "bash scripts/update-version.sh",
-    "server": "npx --no-clipboard serve",
-    "prep-release": "npm run clean && npm run build && npm run validate && npm run test && npm run update-verbos-with-test-results && npm run cp-web-page && npm run server"
+    "server": "npx serve --no-clipboard",
+    "prep-release": "npm run clean && npm run update-version && npm run build && npm run validate && npm run test-resolve-conjugation-class && npm run test && npm run update-verbos-with-test-results && npm run cp-web-page && npm run server"
   },
   "author": "Peter Snider",
   "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "@types/node": "^20.3.3",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }

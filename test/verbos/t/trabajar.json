@@ -13,7 +13,7 @@
     "IndPret": {"s1":["trabajé"],"s2":["trabajaste"],"vos":["trabajaste"],"s3":["trabajó"],"p1":["trabajamos"],"p2":["trabajasteis"],"p3":["trabajaron"]},
     "IndFut": {"s1":["trabajaré"],"s2":["trabajarás"],"vos":["trabajarás"],"s3":["trabajará"],"p1":["trabajaremos"],"p2":["trabajaréis"],"p3":["trabajarán"]},
     "IndCond": {"s1":["trabajaría"],"s2":["trabajarías"],"vos":["trabajarías"],"s3":["trabajaría"],"p1":["trabajaríamos"],"p2":["trabajaríais"],"p3":["trabajarían"]},
-    "SubPres": {"s1":["trabaje"],"s2":["trabajes"],"vos":["trabajes","trabajés"],"s3":["trabaje"],"p1":["trabajemos"],"p2":["trabajéis"],"p3":["trabajen"]},
+    "SubPres": {"s1":["trabaje"],"s2":["trabajes"],"vos":[{"forma": "trabajes","uso":"Riop."},{"forma":"trabajés","uso":"C.Am."}],"s3":["trabaje"],"p1":["trabajemos"],"p2":["trabajéis"],"p3":["trabajen"]},
     "SubImp": {"s1":["trabajara","trabajase"],"s2":["trabajaras","trabajases"],"vos":["trabajaras","trabajases"],"s3":["trabajara","trabajase"],"p1":["trabajáramos","trabajásemos"],"p2":["trabajarais","trabajaseis"],"p3":["trabajaran","trabajasen"]},
     "SubFut": {"s1":["trabajare"],"s2":["trabajares"],"vos":["trabajares"],"s3":["trabajare"],"p1":["trabajáremos"],"p2":["trabajareis"],"p3":["trabajaren"]},
     "CmdPos": {"s2":["trabaja"],"vos":["trabajá"],"s3":["trabaje"],"p1":["trabajemos"],"p2":["trabajad"],"p3":["trabajen"]}

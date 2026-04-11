@@ -13,7 +13,7 @@
     "IndPret": {"s1":["imploré"],"s2":["imploraste"],"vos":["imploraste"],"s3":["imploró"],"p1":["imploramos"],"p2":["implorasteis"],"p3":["imploraron"]},
     "IndFut": {"s1":["imploraré"],"s2":["implorarás"],"vos":["implorarás"],"s3":["implorará"],"p1":["imploraremos"],"p2":["imploraréis"],"p3":["implorarán"]},
     "IndCond": {"s1":["imploraría"],"s2":["implorarías"],"vos":["implorarías"],"s3":["imploraría"],"p1":["imploraríamos"],"p2":["imploraríais"],"p3":["implorarían"]},
-    "SubPres": {"s1":["implore"],"s2":["implores"],"vos":["implores","implorés"],"s3":["implore"],"p1":["imploremos"],"p2":["imploréis"],"p3":["imploren"]},
+    "SubPres": {"s1":["implore"],"s2":["implores"],"vos":[{"forma": "implores","uso":"Riop."},{"forma":"implorés","uso":"C.Am."}],"s3":["implore"],"p1":["imploremos"],"p2":["imploréis"],"p3":["imploren"]},
     "SubImp": {"s1":["implorara","implorase"],"s2":["imploraras","implorases"],"vos":["imploraras","implorases"],"s3":["implorara","implorase"],"p1":["imploráramos","implorásemos"],"p2":["implorarais","imploraseis"],"p3":["imploraran","implorasen"]},
     "SubFut": {"s1":["implorare"],"s2":["implorares"],"vos":["implorares"],"s3":["implorare"],"p1":["imploráremos"],"p2":["implorareis"],"p3":["imploraren"]},
     "CmdPos": {"s2":["implora"],"vos":["implorá"],"s3":["implore"],"p1":["imploremos"],"p2":["implorad"],"p3":["imploren"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["seleccioné"],"s2":["seleccionaste"],"vos":["seleccionaste"],"s3":["seleccionó"],"p1":["seleccionamos"],"p2":["seleccionasteis"],"p3":["seleccionaron"]},
     "IndFut": {"s1":["seleccionaré"],"s2":["seleccionarás"],"vos":["seleccionarás"],"s3":["seleccionará"],"p1":["seleccionaremos"],"p2":["seleccionaréis"],"p3":["seleccionarán"]},
     "IndCond": {"s1":["seleccionaría"],"s2":["seleccionarías"],"vos":["seleccionarías"],"s3":["seleccionaría"],"p1":["seleccionaríamos"],"p2":["seleccionaríais"],"p3":["seleccionarían"]},
-    "SubPres": {"s1":["seleccione"],"s2":["selecciones"],"vos":["selecciones","seleccionés"],"s3":["seleccione"],"p1":["seleccionemos"],"p2":["seleccionéis"],"p3":["seleccionen"]},
+    "SubPres": {"s1":["seleccione"],"s2":["selecciones"],"vos":[{"forma": "selecciones","uso":"Riop."},{"forma":"seleccionés","uso":"C.Am."}],"s3":["seleccione"],"p1":["seleccionemos"],"p2":["seleccionéis"],"p3":["seleccionen"]},
     "SubImp": {"s1":["seleccionara","seleccionase"],"s2":["seleccionaras","seleccionases"],"vos":["seleccionaras","seleccionases"],"s3":["seleccionara","seleccionase"],"p1":["seleccionáramos","seleccionásemos"],"p2":["seleccionarais","seleccionaseis"],"p3":["seleccionaran","seleccionasen"]},
     "SubFut": {"s1":["seleccionare"],"s2":["seleccionares"],"vos":["seleccionares"],"s3":["seleccionare"],"p1":["seleccionáremos"],"p2":["seleccionareis"],"p3":["seleccionaren"]},
     "CmdPos": {"s2":["selecciona"],"vos":["seleccioná"],"s3":["seleccione"],"p1":["seleccionemos"],"p2":["seleccionad"],"p3":["seleccionen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["reforcé"],"s2":["reforzaste"],"vos":["reforzaste"],"s3":["reforzó"],"p1":["reforzamos"],"p2":["reforzasteis"],"p3":["reforzaron"]},
     "IndFut": {"s1":["reforzaré"],"s2":["reforzarás"],"vos":["reforzarás"],"s3":["reforzará"],"p1":["reforzaremos"],"p2":["reforzaréis"],"p3":["reforzarán"]},
     "IndCond": {"s1":["reforzaría"],"s2":["reforzarías"],"vos":["reforzarías"],"s3":["reforzaría"],"p1":["reforzaríamos"],"p2":["reforzaríais"],"p3":["reforzarían"]},
-    "SubPres": {"s1":["refuerce"],"s2":["refuerces"],"vos":["refuerces","reforcés"],"s3":["refuerce"],"p1":["reforcemos"],"p2":["reforcéis"],"p3":["refuercen"]},
+    "SubPres": {"s1":["refuerce"],"s2":["refuerces"],"vos":[{"forma": "refuerces","uso":"Riop."},{"forma":"reforcés","uso":"C.Am."}],"s3":["refuerce"],"p1":["reforcemos"],"p2":["reforcéis"],"p3":["refuercen"]},
     "SubImp": {"s1":["reforzara","reforzase"],"s2":["reforzaras","reforzases"],"vos":["reforzaras","reforzases"],"s3":["reforzara","reforzase"],"p1":["reforzáramos","reforzásemos"],"p2":["reforzarais","reforzaseis"],"p3":["reforzaran","reforzasen"]},
     "SubFut": {"s1":["reforzare"],"s2":["reforzares"],"vos":["reforzares"],"s3":["reforzare"],"p1":["reforzáremos"],"p2":["reforzareis"],"p3":["reforzaren"]},
     "CmdPos": {"s2":["refuerza"],"vos":["reforzá"],"s3":["refuerce"],"p1":["reforcemos"],"p2":["reforzad"],"p3":["refuercen"]}

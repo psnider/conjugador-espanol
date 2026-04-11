@@ -13,7 +13,7 @@
     "IndPret": {"s1":["procedí"],"s2":["procediste"],"vos":["procediste"],"s3":["procedió"],"p1":["procedimos"],"p2":["procedisteis"],"p3":["procedieron"]},
     "IndFut": {"s1":["procederé"],"s2":["procederás"],"vos":["procederás"],"s3":["procederá"],"p1":["procederemos"],"p2":["procederéis"],"p3":["procederán"]},
     "IndCond": {"s1":["procedería"],"s2":["procederías"],"vos":["procederías"],"s3":["procedería"],"p1":["procederíamos"],"p2":["procederíais"],"p3":["procederían"]},
-    "SubPres": {"s1":["proceda"],"s2":["procedas"],"vos":["procedas","procedás"],"s3":["proceda"],"p1":["procedamos"],"p2":["procedáis"],"p3":["procedan"]},
+    "SubPres": {"s1":["proceda"],"s2":["procedas"],"vos":[{"forma": "procedas","uso":"Riop."},{"forma":"procedás","uso":"C.Am."}],"s3":["proceda"],"p1":["procedamos"],"p2":["procedáis"],"p3":["procedan"]},
     "SubImp": {"s1":["procediera","procediese"],"s2":["procedieras","procedieses"],"vos":["procedieras","procedieses"],"s3":["procediera","procediese"],"p1":["procediéramos","procediésemos"],"p2":["procedierais","procedieseis"],"p3":["procedieran","procediesen"]},
     "SubFut": {"s1":["procediere"],"s2":["procedieres"],"vos":["procedieres"],"s3":["procediere"],"p1":["procediéremos"],"p2":["procediereis"],"p3":["procedieren"]},
     "CmdPos": {"s2":["procede"],"vos":["procedé"],"s3":["proceda"],"p1":["procedamos"],"p2":["proceded"],"p3":["procedan"]}

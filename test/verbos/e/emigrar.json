@@ -13,7 +13,7 @@
     "IndPret": {"s1":["emigré"],"s2":["emigraste"],"vos":["emigraste"],"s3":["emigró"],"p1":["emigramos"],"p2":["emigrasteis"],"p3":["emigraron"]},
     "IndFut": {"s1":["emigraré"],"s2":["emigrarás"],"vos":["emigrarás"],"s3":["emigrará"],"p1":["emigraremos"],"p2":["emigraréis"],"p3":["emigrarán"]},
     "IndCond": {"s1":["emigraría"],"s2":["emigrarías"],"vos":["emigrarías"],"s3":["emigraría"],"p1":["emigraríamos"],"p2":["emigraríais"],"p3":["emigrarían"]},
-    "SubPres": {"s1":["emigre"],"s2":["emigres"],"vos":["emigres","emigrés"],"s3":["emigre"],"p1":["emigremos"],"p2":["emigréis"],"p3":["emigren"]},
+    "SubPres": {"s1":["emigre"],"s2":["emigres"],"vos":[{"forma": "emigres","uso":"Riop."},{"forma":"emigrés","uso":"C.Am."}],"s3":["emigre"],"p1":["emigremos"],"p2":["emigréis"],"p3":["emigren"]},
     "SubImp": {"s1":["emigrara","emigrase"],"s2":["emigraras","emigrases"],"vos":["emigraras","emigrases"],"s3":["emigrara","emigrase"],"p1":["emigráramos","emigrásemos"],"p2":["emigrarais","emigraseis"],"p3":["emigraran","emigrasen"]},
     "SubFut": {"s1":["emigrare"],"s2":["emigrares"],"vos":["emigrares"],"s3":["emigrare"],"p1":["emigráremos"],"p2":["emigrareis"],"p3":["emigraren"]},
     "CmdPos": {"s2":["emigra"],"vos":["emigrá"],"s3":["emigre"],"p1":["emigremos"],"p2":["emigrad"],"p3":["emigren"]}

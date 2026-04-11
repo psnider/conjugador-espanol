@@ -13,7 +13,7 @@
     "IndPret": {"s1":["perforé"],"s2":["perforaste"],"vos":["perforaste"],"s3":["perforó"],"p1":["perforamos"],"p2":["perforasteis"],"p3":["perforaron"]},
     "IndFut": {"s1":["perforaré"],"s2":["perforarás"],"vos":["perforarás"],"s3":["perforará"],"p1":["perforaremos"],"p2":["perforaréis"],"p3":["perforarán"]},
     "IndCond": {"s1":["perforaría"],"s2":["perforarías"],"vos":["perforarías"],"s3":["perforaría"],"p1":["perforaríamos"],"p2":["perforaríais"],"p3":["perforarían"]},
-    "SubPres": {"s1":["perfore"],"s2":["perfores"],"vos":["perfores","perforés"],"s3":["perfore"],"p1":["perforemos"],"p2":["perforéis"],"p3":["perforen"]},
+    "SubPres": {"s1":["perfore"],"s2":["perfores"],"vos":[{"forma": "perfores","uso":"Riop."},{"forma":"perforés","uso":"C.Am."}],"s3":["perfore"],"p1":["perforemos"],"p2":["perforéis"],"p3":["perforen"]},
     "SubImp": {"s1":["perforara","perforase"],"s2":["perforaras","perforases"],"vos":["perforaras","perforases"],"s3":["perforara","perforase"],"p1":["perforáramos","perforásemos"],"p2":["perforarais","perforaseis"],"p3":["perforaran","perforasen"]},
     "SubFut": {"s1":["perforare"],"s2":["perforares"],"vos":["perforares"],"s3":["perforare"],"p1":["perforáremos"],"p2":["perforareis"],"p3":["perforaren"]},
     "CmdPos": {"s2":["perfora"],"vos":["perforá"],"s3":["perfore"],"p1":["perforemos"],"p2":["perforad"],"p3":["perforen"]}

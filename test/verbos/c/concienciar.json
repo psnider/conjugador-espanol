@@ -12,7 +12,7 @@
     "IndPret": {"s1":["conciencié"],"s2":["concienciaste"],"vos":["concienciaste"],"s3":["concienció"],"p1":["concienciamos"],"p2":["concienciasteis"],"p3":["concienciaron"]},
     "IndFut": {"s1":["concienciaré"],"s2":["concienciarás"],"vos":["concienciarás"],"s3":["concienciará"],"p1":["concienciaremos"],"p2":["concienciaréis"],"p3":["concienciarán"]},
     "IndCond": {"s1":["concienciaría"],"s2":["concienciarías"],"vos":["concienciarías"],"s3":["concienciaría"],"p1":["concienciaríamos"],"p2":["concienciaríais"],"p3":["concienciarían"]},
-    "SubPres": {"s1":["conciencie"],"s2":["conciencies"],"vos":["conciencies","concienciés"],"s3":["conciencie"],"p1":["concienciemos"],"p2":["concienciéis"],"p3":["conciencien"]},
+    "SubPres": {"s1":["conciencie"],"s2":["conciencies"],"vos":[{"forma": "conciencies","uso":"Riop."},{"forma":"concienciés","uso":"C.Am."}],"s3":["conciencie"],"p1":["concienciemos"],"p2":["concienciéis"],"p3":["conciencien"]},
     "SubImp": {"s1":["concienciara","concienciase"],"s2":["concienciaras","concienciases"],"vos":["concienciaras","concienciases"],"s3":["concienciara","concienciase"],"p1":["concienciáramos","concienciásemos"],"p2":["concienciarais","concienciaseis"],"p3":["concienciaran","concienciasen"]},
     "SubFut": {"s1":["concienciare"],"s2":["concienciares"],"vos":["concienciares"],"s3":["concienciare"],"p1":["concienciáremos"],"p2":["concienciareis"],"p3":["concienciaren"]},
     "CmdPos": {"s2":["conciencia"],"vos":["concienciá"],"s3":["conciencie"],"p1":["concienciemos"],"p2":["concienciad"],"p3":["conciencien"]}

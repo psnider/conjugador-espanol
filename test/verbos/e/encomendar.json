@@ -13,7 +13,7 @@
     "IndPret": {"s1":["encomendé"],"s2":["encomendaste"],"vos":["encomendaste"],"s3":["encomendó"],"p1":["encomendamos"],"p2":["encomendasteis"],"p3":["encomendaron"]},
     "IndFut": {"s1":["encomendaré"],"s2":["encomendarás"],"vos":["encomendarás"],"s3":["encomendará"],"p1":["encomendaremos"],"p2":["encomendaréis"],"p3":["encomendarán"]},
     "IndCond": {"s1":["encomendaría"],"s2":["encomendarías"],"vos":["encomendarías"],"s3":["encomendaría"],"p1":["encomendaríamos"],"p2":["encomendaríais"],"p3":["encomendarían"]},
-    "SubPres": {"s1":["encomiende"],"s2":["encomiendes"],"vos":["encomiendes","encomendés"],"s3":["encomiende"],"p1":["encomendemos"],"p2":["encomendéis"],"p3":["encomienden"]},
+    "SubPres": {"s1":["encomiende"],"s2":["encomiendes"],"vos":[{"forma": "encomiendes","uso":"Riop."},{"forma":"encomendés","uso":"C.Am."}],"s3":["encomiende"],"p1":["encomendemos"],"p2":["encomendéis"],"p3":["encomienden"]},
     "SubImp": {"s1":["encomendara","encomendase"],"s2":["encomendaras","encomendases"],"vos":["encomendaras","encomendases"],"s3":["encomendara","encomendase"],"p1":["encomendáramos","encomendásemos"],"p2":["encomendarais","encomendaseis"],"p3":["encomendaran","encomendasen"]},
     "SubFut": {"s1":["encomendare"],"s2":["encomendares"],"vos":["encomendares"],"s3":["encomendare"],"p1":["encomendáremos"],"p2":["encomendareis"],"p3":["encomendaren"]},
     "CmdPos": {"s2":["encomienda"],"vos":["encomendá"],"s3":["encomiende"],"p1":["encomendemos"],"p2":["encomendad"],"p3":["encomienden"]}

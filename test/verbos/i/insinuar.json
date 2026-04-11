@@ -12,7 +12,7 @@
     "IndPret": {"s1":["insinué"],"s2":["insinuaste"],"vos":["insinuaste"],"s3":["insinuó"],"p1":["insinuamos"],"p2":["insinuasteis"],"p3":["insinuaron"]},
     "IndFut": {"s1":["insinuaré"],"s2":["insinuarás"],"vos":["insinuarás"],"s3":["insinuará"],"p1":["insinuaremos"],"p2":["insinuaréis"],"p3":["insinuarán"]},
     "IndCond": {"s1":["insinuaría"],"s2":["insinuarías"],"vos":["insinuarías"],"s3":["insinuaría"],"p1":["insinuaríamos"],"p2":["insinuaríais"],"p3":["insinuarían"]},
-    "SubPres": {"s1":["insinúe"],"s2":["insinúes"],"vos":["insinúes","insinués"],"s3":["insinúe"],"p1":["insinuemos"],"p2":["insinuéis"],"p3":["insinúen"]},
+    "SubPres": {"s1":["insinúe"],"s2":["insinúes"],"vos":[{"forma": "insinúes","uso":"Riop."},{"forma":"insinués","uso":"C.Am."}],"s3":["insinúe"],"p1":["insinuemos"],"p2":["insinuéis"],"p3":["insinúen"]},
     "SubImp": {"s1":["insinuara","insinuase"],"s2":["insinuaras","insinuases"],"vos":["insinuaras","insinuases"],"s3":["insinuara","insinuase"],"p1":["insinuáramos","insinuásemos"],"p2":["insinuarais","insinuaseis"],"p3":["insinuaran","insinuasen"]},
     "SubFut": {"s1":["insinuare"],"s2":["insinuares"],"vos":["insinuares"],"s3":["insinuare"],"p1":["insinuáremos"],"p2":["insinuareis"],"p3":["insinuaren"]},
     "CmdPos": {"s2":["insinúa"],"vos":["insinuá"],"s3":["insinúe"],"p1":["insinuemos"],"p2":["insinuad"],"p3":["insinúen"]}

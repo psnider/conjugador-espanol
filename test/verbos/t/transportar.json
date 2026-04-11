@@ -13,7 +13,7 @@
     "IndPret": {"s1":["transporté"],"s2":["transportaste"],"vos":["transportaste"],"s3":["transportó"],"p1":["transportamos"],"p2":["transportasteis"],"p3":["transportaron"]},
     "IndFut": {"s1":["transportaré"],"s2":["transportarás"],"vos":["transportarás"],"s3":["transportará"],"p1":["transportaremos"],"p2":["transportaréis"],"p3":["transportarán"]},
     "IndCond": {"s1":["transportaría"],"s2":["transportarías"],"vos":["transportarías"],"s3":["transportaría"],"p1":["transportaríamos"],"p2":["transportaríais"],"p3":["transportarían"]},
-    "SubPres": {"s1":["transporte"],"s2":["transportes"],"vos":["transportes","transportés"],"s3":["transporte"],"p1":["transportemos"],"p2":["transportéis"],"p3":["transporten"]},
+    "SubPres": {"s1":["transporte"],"s2":["transportes"],"vos":[{"forma": "transportes","uso":"Riop."},{"forma":"transportés","uso":"C.Am."}],"s3":["transporte"],"p1":["transportemos"],"p2":["transportéis"],"p3":["transporten"]},
     "SubImp": {"s1":["transportara","transportase"],"s2":["transportaras","transportases"],"vos":["transportaras","transportases"],"s3":["transportara","transportase"],"p1":["transportáramos","transportásemos"],"p2":["transportarais","transportaseis"],"p3":["transportaran","transportasen"]},
     "SubFut": {"s1":["transportare"],"s2":["transportares"],"vos":["transportares"],"s3":["transportare"],"p1":["transportáremos"],"p2":["transportareis"],"p3":["transportaren"]},
     "CmdPos": {"s2":["transporta"],"vos":["transportá"],"s3":["transporte"],"p1":["transportemos"],"p2":["transportad"],"p3":["transporten"]}

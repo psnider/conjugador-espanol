@@ -12,7 +12,7 @@
     "IndPret": {"s1":["contribuí"],"s2":["contribuiste"],"vos":["contribuiste"],"s3":["contribuyó"],"p1":["contribuimos"],"p2":["contribuisteis"],"p3":["contribuyeron"]},
     "IndFut": {"s1":["contribuiré"],"s2":["contribuirás"],"vos":["contribuirás"],"s3":["contribuirá"],"p1":["contribuiremos"],"p2":["contribuiréis"],"p3":["contribuirán"]},
     "IndCond": {"s1":["contribuiría"],"s2":["contribuirías"],"vos":["contribuirías"],"s3":["contribuiría"],"p1":["contribuiríamos"],"p2":["contribuiríais"],"p3":["contribuirían"]},
-    "SubPres": {"s1":["contribuya"],"s2":["contribuyas"],"vos":["contribuyas","contribuyás"],"s3":["contribuya"],"p1":["contribuyamos"],"p2":["contribuyáis"],"p3":["contribuyan"]},
+    "SubPres": {"s1":["contribuya"],"s2":["contribuyas"],"vos":[{"forma": "contribuyas","uso":"Riop."},{"forma":"contribuyás","uso":"C.Am."}],"s3":["contribuya"],"p1":["contribuyamos"],"p2":["contribuyáis"],"p3":["contribuyan"]},
     "SubImp": {"s1":["contribuyera","contribuyese"],"s2":["contribuyeras","contribuyeses"],"vos":["contribuyeras","contribuyeses"],"s3":["contribuyera","contribuyese"],"p1":["contribuyéramos","contribuyésemos"],"p2":["contribuyerais","contribuyeseis"],"p3":["contribuyeran","contribuyesen"]},
     "SubFut": {"s1":["contribuyere"],"s2":["contribuyeres"],"vos":["contribuyeres"],"s3":["contribuyere"],"p1":["contribuyéremos"],"p2":["contribuyereis"],"p3":["contribuyeren"]},
     "CmdPos": {"s2":["contribuye"],"vos":["contribuí"],"s3":["contribuya"],"p1":["contribuyamos"],"p2":["contribuid"],"p3":["contribuyan"]}

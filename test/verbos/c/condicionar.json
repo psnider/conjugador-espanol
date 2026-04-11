@@ -13,7 +13,7 @@
     "IndPret": {"s1":["condicioné"],"s2":["condicionaste"],"vos":["condicionaste"],"s3":["condicionó"],"p1":["condicionamos"],"p2":["condicionasteis"],"p3":["condicionaron"]},
     "IndFut": {"s1":["condicionaré"],"s2":["condicionarás"],"vos":["condicionarás"],"s3":["condicionará"],"p1":["condicionaremos"],"p2":["condicionaréis"],"p3":["condicionarán"]},
     "IndCond": {"s1":["condicionaría"],"s2":["condicionarías"],"vos":["condicionarías"],"s3":["condicionaría"],"p1":["condicionaríamos"],"p2":["condicionaríais"],"p3":["condicionarían"]},
-    "SubPres": {"s1":["condicione"],"s2":["condiciones"],"vos":["condiciones","condicionés"],"s3":["condicione"],"p1":["condicionemos"],"p2":["condicionéis"],"p3":["condicionen"]},
+    "SubPres": {"s1":["condicione"],"s2":["condiciones"],"vos":[{"forma": "condiciones","uso":"Riop."},{"forma":"condicionés","uso":"C.Am."}],"s3":["condicione"],"p1":["condicionemos"],"p2":["condicionéis"],"p3":["condicionen"]},
     "SubImp": {"s1":["condicionara","condicionase"],"s2":["condicionaras","condicionases"],"vos":["condicionaras","condicionases"],"s3":["condicionara","condicionase"],"p1":["condicionáramos","condicionásemos"],"p2":["condicionarais","condicionaseis"],"p3":["condicionaran","condicionasen"]},
     "SubFut": {"s1":["condicionare"],"s2":["condicionares"],"vos":["condicionares"],"s3":["condicionare"],"p1":["condicionáremos"],"p2":["condicionareis"],"p3":["condicionaren"]},
     "CmdPos": {"s2":["condiciona"],"vos":["condicioná"],"s3":["condicione"],"p1":["condicionemos"],"p2":["condicionad"],"p3":["condicionen"]}

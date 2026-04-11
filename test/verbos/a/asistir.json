@@ -13,7 +13,7 @@
     "IndPret": {"s1":["asistí"],"s2":["asististe"],"vos":["asististe"],"s3":["asistió"],"p1":["asistimos"],"p2":["asististeis"],"p3":["asistieron"]},
     "IndFut": {"s1":["asistiré"],"s2":["asistirás"],"vos":["asistirás"],"s3":["asistirá"],"p1":["asistiremos"],"p2":["asistiréis"],"p3":["asistirán"]},
     "IndCond": {"s1":["asistiría"],"s2":["asistirías"],"vos":["asistirías"],"s3":["asistiría"],"p1":["asistiríamos"],"p2":["asistiríais"],"p3":["asistirían"]},
-    "SubPres": {"s1":["asista"],"s2":["asistas"],"vos":["asistas","asistás"],"s3":["asista"],"p1":["asistamos"],"p2":["asistáis"],"p3":["asistan"]},
+    "SubPres": {"s1":["asista"],"s2":["asistas"],"vos":[{"forma": "asistas","uso":"Riop."},{"forma":"asistás","uso":"C.Am."}],"s3":["asista"],"p1":["asistamos"],"p2":["asistáis"],"p3":["asistan"]},
     "SubImp": {"s1":["asistiera","asistiese"],"s2":["asistieras","asistieses"],"vos":["asistieras","asistieses"],"s3":["asistiera","asistiese"],"p1":["asistiéramos","asistiésemos"],"p2":["asistierais","asistieseis"],"p3":["asistieran","asistiesen"]},
     "SubFut": {"s1":["asistiere"],"s2":["asistieres"],"vos":["asistieres"],"s3":["asistiere"],"p1":["asistiéremos"],"p2":["asistiereis"],"p3":["asistieren"]},
     "CmdPos": {"s2":["asiste"],"vos":["asistí"],"s3":["asista"],"p1":["asistamos"],"p2":["asistid"],"p3":["asistan"]}

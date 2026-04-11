@@ -13,7 +13,7 @@
     "IndPret": {"s1":["deformé"],"s2":["deformaste"],"vos":["deformaste"],"s3":["deformó"],"p1":["deformamos"],"p2":["deformasteis"],"p3":["deformaron"]},
     "IndFut": {"s1":["deformaré"],"s2":["deformarás"],"vos":["deformarás"],"s3":["deformará"],"p1":["deformaremos"],"p2":["deformaréis"],"p3":["deformarán"]},
     "IndCond": {"s1":["deformaría"],"s2":["deformarías"],"vos":["deformarías"],"s3":["deformaría"],"p1":["deformaríamos"],"p2":["deformaríais"],"p3":["deformarían"]},
-    "SubPres": {"s1":["deforme"],"s2":["deformes"],"vos":["deformes","deformés"],"s3":["deforme"],"p1":["deformemos"],"p2":["deforméis"],"p3":["deformen"]},
+    "SubPres": {"s1":["deforme"],"s2":["deformes"],"vos":[{"forma": "deformes","uso":"Riop."},{"forma":"deformés","uso":"C.Am."}],"s3":["deforme"],"p1":["deformemos"],"p2":["deforméis"],"p3":["deformen"]},
     "SubImp": {"s1":["deformara","deformase"],"s2":["deformaras","deformases"],"vos":["deformaras","deformases"],"s3":["deformara","deformase"],"p1":["deformáramos","deformásemos"],"p2":["deformarais","deformaseis"],"p3":["deformaran","deformasen"]},
     "SubFut": {"s1":["deformare"],"s2":["deformares"],"vos":["deformares"],"s3":["deformare"],"p1":["deformáremos"],"p2":["deformareis"],"p3":["deformaren"]},
     "CmdPos": {"s2":["deforma"],"vos":["deformá"],"s3":["deforme"],"p1":["deformemos"],"p2":["deformad"],"p3":["deformen"]}

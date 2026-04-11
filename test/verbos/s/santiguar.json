@@ -12,7 +12,7 @@
     "IndPret": {"s1":["santigüé"],"s2":["santiguaste"],"vos":["santiguaste"],"s3":["santiguó"],"p1":["santiguamos"],"p2":["santiguasteis"],"p3":["santiguaron"]},
     "IndFut": {"s1":["santiguaré"],"s2":["santiguarás"],"vos":["santiguarás"],"s3":["santiguará"],"p1":["santiguaremos"],"p2":["santiguaréis"],"p3":["santiguarán"]},
     "IndCond": {"s1":["santiguaría"],"s2":["santiguarías"],"vos":["santiguarías"],"s3":["santiguaría"],"p1":["santiguaríamos"],"p2":["santiguaríais"],"p3":["santiguarían"]},
-    "SubPres": {"s1":["santigüe"],"s2":["santigües"],"vos":["santigües","santigüés"],"s3":["santigüe"],"p1":["santigüemos"],"p2":["santigüéis"],"p3":["santigüen"]},
+    "SubPres": {"s1":["santigüe"],"s2":["santigües"],"vos":[{"forma": "santigües","uso":"Riop."},{"forma":"santigüés","uso":"C.Am."}],"s3":["santigüe"],"p1":["santigüemos"],"p2":["santigüéis"],"p3":["santigüen"]},
     "SubImp": {"s1":["santiguara","santiguase"],"s2":["santiguaras","santiguases"],"vos":["santiguaras","santiguases"],"s3":["santiguara","santiguase"],"p1":["santiguáramos","santiguásemos"],"p2":["santiguarais","santiguaseis"],"p3":["santiguaran","santiguasen"]},
     "SubFut": {"s1":["santiguare"],"s2":["santiguares"],"vos":["santiguares"],"s3":["santiguare"],"p1":["santiguáremos"],"p2":["santiguareis"],"p3":["santiguaren"]},
     "CmdPos": {"s2":["santigua"],"vos":["santiguá"],"s3":["santigüe"],"p1":["santigüemos"],"p2":["santiguad"],"p3":["santigüen"]}

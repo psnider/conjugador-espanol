@@ -13,9 +13,9 @@
     "IndPret": {"s1":["impuse"],"s2":["impusiste"],"vos":["impusiste"],"s3":["impuso"],"p1":["impusimos"],"p2":["impusisteis"],"p3":["impusieron"]},
     "IndFut": {"s1":["impondré"],"s2":["impondrás"],"vos":["impondrás"],"s3":["impondrá"],"p1":["impondremos"],"p2":["impondréis"],"p3":["impondrán"]},
     "IndCond": {"s1":["impondría"],"s2":["impondrías"],"vos":["impondrías"],"s3":["impondría"],"p1":["impondríamos"],"p2":["impondríais"],"p3":["impondrían"]},
-    "SubPres": {"s1":["imponga"],"s2":["impongas"],"vos":["impongas","impongás"],"s3":["imponga"],"p1":["impongamos"],"p2":["impongáis"],"p3":["impongan"]},
+    "SubPres": {"s1":["imponga"],"s2":["impongas"],"vos":[{"forma": "impongas","uso":"Riop."},{"forma":"impongás","uso":"C.Am."}],"s3":["imponga"],"p1":["impongamos"],"p2":["impongáis"],"p3":["impongan"]},
     "SubImp": {"s1":["impusiera","impusiese"],"s2":["impusieras","impusieses"],"vos":["impusieras","impusieses"],"s3":["impusiera","impusiese"],"p1":["impusiéramos","impusiésemos"],"p2":["impusierais","impusieseis"],"p3":["impusieran","impusiesen"]},
     "SubFut": {"s1":["impusiere"],"s2":["impusieres"],"vos":["impusieres"],"s3":["impusiere"],"p1":["impusiéremos"],"p2":["impusiereis"],"p3":["impusieren"]},
-    "CmdPos": {"s2":{"estándar":["impón"],"atípicos":[{"forma":"impone","etiquetas":["no normativo"]}]},"vos":["imponé"],"s3":["imponga"],"p1":["impongamos"],"p2":["imponed"],"p3":["impongan"]}
+    "CmdPos": {"s2":["impón"],"vos":["imponé"],"s3":["imponga"],"p1":["impongamos"],"p2":["imponed"],"p3":["impongan"]}
   }
 }

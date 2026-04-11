@@ -13,7 +13,7 @@
     "IndPret": {"s1":["funcioné"],"s2":["funcionaste"],"vos":["funcionaste"],"s3":["funcionó"],"p1":["funcionamos"],"p2":["funcionasteis"],"p3":["funcionaron"]},
     "IndFut": {"s1":["funcionaré"],"s2":["funcionarás"],"vos":["funcionarás"],"s3":["funcionará"],"p1":["funcionaremos"],"p2":["funcionaréis"],"p3":["funcionarán"]},
     "IndCond": {"s1":["funcionaría"],"s2":["funcionarías"],"vos":["funcionarías"],"s3":["funcionaría"],"p1":["funcionaríamos"],"p2":["funcionaríais"],"p3":["funcionarían"]},
-    "SubPres": {"s1":["funcione"],"s2":["funciones"],"vos":["funciones","funcionés"],"s3":["funcione"],"p1":["funcionemos"],"p2":["funcionéis"],"p3":["funcionen"]},
+    "SubPres": {"s1":["funcione"],"s2":["funciones"],"vos":[{"forma": "funciones","uso":"Riop."},{"forma":"funcionés","uso":"C.Am."}],"s3":["funcione"],"p1":["funcionemos"],"p2":["funcionéis"],"p3":["funcionen"]},
     "SubImp": {"s1":["funcionara","funcionase"],"s2":["funcionaras","funcionases"],"vos":["funcionaras","funcionases"],"s3":["funcionara","funcionase"],"p1":["funcionáramos","funcionásemos"],"p2":["funcionarais","funcionaseis"],"p3":["funcionaran","funcionasen"]},
     "SubFut": {"s1":["funcionare"],"s2":["funcionares"],"vos":["funcionares"],"s3":["funcionare"],"p1":["funcionáremos"],"p2":["funcionareis"],"p3":["funcionaren"]},
     "CmdPos": {"s2":["funciona"],"vos":["funcioná"],"s3":["funcione"],"p1":["funcionemos"],"p2":["funcionad"],"p3":["funcionen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["absorbí"],"s2":["absorbiste"],"vos":["absorbiste"],"s3":["absorbió"],"p1":["absorbimos"],"p2":["absorbisteis"],"p3":["absorbieron"]},
     "IndFut": {"s1":["absorberé"],"s2":["absorberás"],"vos":["absorberás"],"s3":["absorberá"],"p1":["absorberemos"],"p2":["absorberéis"],"p3":["absorberán"]},
     "IndCond": {"s1":["absorbería"],"s2":["absorberías"],"vos":["absorberías"],"s3":["absorbería"],"p1":["absorberíamos"],"p2":["absorberíais"],"p3":["absorberían"]},
-    "SubPres": {"s1":["absorba"],"s2":["absorbas"],"vos":["absorbas","absorbás"],"s3":["absorba"],"p1":["absorbamos"],"p2":["absorbáis"],"p3":["absorban"]},
+    "SubPres": {"s1":["absorba"],"s2":["absorbas"],"vos":[{"forma": "absorbas","uso":"Riop."},{"forma":"absorbás","uso":"C.Am."}],"s3":["absorba"],"p1":["absorbamos"],"p2":["absorbáis"],"p3":["absorban"]},
     "SubImp": {"s1":["absorbiera","absorbiese"],"s2":["absorbieras","absorbieses"],"vos":["absorbieras","absorbieses"],"s3":["absorbiera","absorbiese"],"p1":["absorbiéramos","absorbiésemos"],"p2":["absorbierais","absorbieseis"],"p3":["absorbieran","absorbiesen"]},
     "SubFut": {"s1":["absorbiere"],"s2":["absorbieres"],"vos":["absorbieres"],"s3":["absorbiere"],"p1":["absorbiéremos"],"p2":["absorbiereis"],"p3":["absorbieren"]},
     "CmdPos": {"s2":["absorbe"],"vos":["absorbé"],"s3":["absorba"],"p1":["absorbamos"],"p2":["absorbed"],"p3":["absorban"]}

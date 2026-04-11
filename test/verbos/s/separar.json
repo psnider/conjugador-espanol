@@ -13,7 +13,7 @@
     "IndPret": {"s1":["separé"],"s2":["separaste"],"vos":["separaste"],"s3":["separó"],"p1":["separamos"],"p2":["separasteis"],"p3":["separaron"]},
     "IndFut": {"s1":["separaré"],"s2":["separarás"],"vos":["separarás"],"s3":["separará"],"p1":["separaremos"],"p2":["separaréis"],"p3":["separarán"]},
     "IndCond": {"s1":["separaría"],"s2":["separarías"],"vos":["separarías"],"s3":["separaría"],"p1":["separaríamos"],"p2":["separaríais"],"p3":["separarían"]},
-    "SubPres": {"s1":["separe"],"s2":["separes"],"vos":["separes","separés"],"s3":["separe"],"p1":["separemos"],"p2":["separéis"],"p3":["separen"]},
+    "SubPres": {"s1":["separe"],"s2":["separes"],"vos":[{"forma": "separes","uso":"Riop."},{"forma":"separés","uso":"C.Am."}],"s3":["separe"],"p1":["separemos"],"p2":["separéis"],"p3":["separen"]},
     "SubImp": {"s1":["separara","separase"],"s2":["separaras","separases"],"vos":["separaras","separases"],"s3":["separara","separase"],"p1":["separáramos","separásemos"],"p2":["separarais","separaseis"],"p3":["separaran","separasen"]},
     "SubFut": {"s1":["separare"],"s2":["separares"],"vos":["separares"],"s3":["separare"],"p1":["separáremos"],"p2":["separareis"],"p3":["separaren"]},
     "CmdPos": {"s2":["separa"],"vos":["separá"],"s3":["separe"],"p1":["separemos"],"p2":["separad"],"p3":["separen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["congregué"],"s2":["congregaste"],"vos":["congregaste"],"s3":["congregó"],"p1":["congregamos"],"p2":["congregasteis"],"p3":["congregaron"]},
     "IndFut": {"s1":["congregaré"],"s2":["congregarás"],"vos":["congregarás"],"s3":["congregará"],"p1":["congregaremos"],"p2":["congregaréis"],"p3":["congregarán"]},
     "IndCond": {"s1":["congregaría"],"s2":["congregarías"],"vos":["congregarías"],"s3":["congregaría"],"p1":["congregaríamos"],"p2":["congregaríais"],"p3":["congregarían"]},
-    "SubPres": {"s1":["congregue"],"s2":["congregues"],"vos":["congregues","congregués"],"s3":["congregue"],"p1":["congreguemos"],"p2":["congreguéis"],"p3":["congreguen"]},
+    "SubPres": {"s1":["congregue"],"s2":["congregues"],"vos":[{"forma": "congregues","uso":"Riop."},{"forma":"congregués","uso":"C.Am."}],"s3":["congregue"],"p1":["congreguemos"],"p2":["congreguéis"],"p3":["congreguen"]},
     "SubImp": {"s1":["congregara","congregase"],"s2":["congregaras","congregases"],"vos":["congregaras","congregases"],"s3":["congregara","congregase"],"p1":["congregáramos","congregásemos"],"p2":["congregarais","congregaseis"],"p3":["congregaran","congregasen"]},
     "SubFut": {"s1":["congregare"],"s2":["congregares"],"vos":["congregares"],"s3":["congregare"],"p1":["congregáremos"],"p2":["congregareis"],"p3":["congregaren"]},
     "CmdPos": {"s2":["congrega"],"vos":["congregá"],"s3":["congregue"],"p1":["congreguemos"],"p2":["congregad"],"p3":["congreguen"]}

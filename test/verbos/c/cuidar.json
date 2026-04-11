@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cuidé"],"s2":["cuidaste"],"vos":["cuidaste"],"s3":["cuidó"],"p1":["cuidamos"],"p2":["cuidasteis"],"p3":["cuidaron"]},
     "IndFut": {"s1":["cuidaré"],"s2":["cuidarás"],"vos":["cuidarás"],"s3":["cuidará"],"p1":["cuidaremos"],"p2":["cuidaréis"],"p3":["cuidarán"]},
     "IndCond": {"s1":["cuidaría"],"s2":["cuidarías"],"vos":["cuidarías"],"s3":["cuidaría"],"p1":["cuidaríamos"],"p2":["cuidaríais"],"p3":["cuidarían"]},
-    "SubPres": {"s1":["cuide"],"s2":["cuides"],"vos":["cuides","cuidés"],"s3":["cuide"],"p1":["cuidemos"],"p2":["cuidéis"],"p3":["cuiden"]},
+    "SubPres": {"s1":["cuide"],"s2":["cuides"],"vos":[{"forma": "cuides","uso":"Riop."},{"forma":"cuidés","uso":"C.Am."}],"s3":["cuide"],"p1":["cuidemos"],"p2":["cuidéis"],"p3":["cuiden"]},
     "SubImp": {"s1":["cuidara","cuidase"],"s2":["cuidaras","cuidases"],"vos":["cuidaras","cuidases"],"s3":["cuidara","cuidase"],"p1":["cuidáramos","cuidásemos"],"p2":["cuidarais","cuidaseis"],"p3":["cuidaran","cuidasen"]},
     "SubFut": {"s1":["cuidare"],"s2":["cuidares"],"vos":["cuidares"],"s3":["cuidare"],"p1":["cuidáremos"],"p2":["cuidareis"],"p3":["cuidaren"]},
     "CmdPos": {"s2":["cuida"],"vos":["cuidá"],"s3":["cuide"],"p1":["cuidemos"],"p2":["cuidad"],"p3":["cuiden"]}

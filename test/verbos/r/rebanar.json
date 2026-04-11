@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rebané"],"s2":["rebanaste"],"vos":["rebanaste"],"s3":["rebanó"],"p1":["rebanamos"],"p2":["rebanasteis"],"p3":["rebanaron"]},
     "IndFut": {"s1":["rebanaré"],"s2":["rebanarás"],"vos":["rebanarás"],"s3":["rebanará"],"p1":["rebanaremos"],"p2":["rebanaréis"],"p3":["rebanarán"]},
     "IndCond": {"s1":["rebanaría"],"s2":["rebanarías"],"vos":["rebanarías"],"s3":["rebanaría"],"p1":["rebanaríamos"],"p2":["rebanaríais"],"p3":["rebanarían"]},
-    "SubPres": {"s1":["rebane"],"s2":["rebanes"],"vos":["rebanes","rebanés"],"s3":["rebane"],"p1":["rebanemos"],"p2":["rebanéis"],"p3":["rebanen"]},
+    "SubPres": {"s1":["rebane"],"s2":["rebanes"],"vos":[{"forma": "rebanes","uso":"Riop."},{"forma":"rebanés","uso":"C.Am."}],"s3":["rebane"],"p1":["rebanemos"],"p2":["rebanéis"],"p3":["rebanen"]},
     "SubImp": {"s1":["rebanara","rebanase"],"s2":["rebanaras","rebanases"],"vos":["rebanaras","rebanases"],"s3":["rebanara","rebanase"],"p1":["rebanáramos","rebanásemos"],"p2":["rebanarais","rebanaseis"],"p3":["rebanaran","rebanasen"]},
     "SubFut": {"s1":["rebanare"],"s2":["rebanares"],"vos":["rebanares"],"s3":["rebanare"],"p1":["rebanáremos"],"p2":["rebanareis"],"p3":["rebanaren"]},
     "CmdPos": {"s2":["rebana"],"vos":["rebaná"],"s3":["rebane"],"p1":["rebanemos"],"p2":["rebanad"],"p3":["rebanen"]}

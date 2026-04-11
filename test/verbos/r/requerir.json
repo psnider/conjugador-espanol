@@ -13,7 +13,7 @@
     "IndPret": {"s1":["requerí"],"s2":["requeriste"],"vos":["requeriste"],"s3":["requirió"],"p1":["requerimos"],"p2":["requeristeis"],"p3":["requirieron"]},
     "IndFut": {"s1":["requeriré"],"s2":["requerirás"],"vos":["requerirás"],"s3":["requerirá"],"p1":["requeriremos"],"p2":["requeriréis"],"p3":["requerirán"]},
     "IndCond": {"s1":["requeriría"],"s2":["requerirías"],"vos":["requerirías"],"s3":["requeriría"],"p1":["requeriríamos"],"p2":["requeriríais"],"p3":["requerirían"]},
-    "SubPres": {"s1":["requiera"],"s2":["requieras"],"vos":["requieras","requirás"],"s3":["requiera"],"p1":["requiramos"],"p2":["requiráis"],"p3":["requieran"]},
+    "SubPres": {"s1":["requiera"],"s2":["requieras"],"vos":[{"forma": "requieras","uso":"Riop."},{"forma":"requirás","uso":"C.Am."}],"s3":["requiera"],"p1":["requiramos"],"p2":["requiráis"],"p3":["requieran"]},
     "SubImp": {"s1":["requiriera","requiriese"],"s2":["requirieras","requirieses"],"vos":["requirieras","requirieses"],"s3":["requiriera","requiriese"],"p1":["requiriéramos","requiriésemos"],"p2":["requirierais","requirieseis"],"p3":["requirieran","requiriesen"]},
     "SubFut": {"s1":["requiriere"],"s2":["requirieres"],"vos":["requirieres"],"s3":["requiriere"],"p1":["requiriéremos"],"p2":["requiriereis"],"p3":["requirieren"]},
     "CmdPos": {"s2":["requiere"],"vos":["requerí"],"s3":["requiera"],"p1":["requiramos"],"p2":["requerid"],"p3":["requieran"]}

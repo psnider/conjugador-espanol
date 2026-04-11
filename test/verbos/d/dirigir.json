@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dirigí"],"s2":["dirigiste"],"vos":["dirigiste"],"s3":["dirigió"],"p1":["dirigimos"],"p2":["dirigisteis"],"p3":["dirigieron"]},
     "IndFut": {"s1":["dirigiré"],"s2":["dirigirás"],"vos":["dirigirás"],"s3":["dirigirá"],"p1":["dirigiremos"],"p2":["dirigiréis"],"p3":["dirigirán"]},
     "IndCond": {"s1":["dirigiría"],"s2":["dirigirías"],"vos":["dirigirías"],"s3":["dirigiría"],"p1":["dirigiríamos"],"p2":["dirigiríais"],"p3":["dirigirían"]},
-    "SubPres": {"s1":["dirija"],"s2":["dirijas"],"vos":["dirijas","dirijás"],"s3":["dirija"],"p1":["dirijamos"],"p2":["dirijáis"],"p3":["dirijan"]},
+    "SubPres": {"s1":["dirija"],"s2":["dirijas"],"vos":[{"forma": "dirijas","uso":"Riop."},{"forma":"dirijás","uso":"C.Am."}],"s3":["dirija"],"p1":["dirijamos"],"p2":["dirijáis"],"p3":["dirijan"]},
     "SubImp": {"s1":["dirigiera","dirigiese"],"s2":["dirigieras","dirigieses"],"vos":["dirigieras","dirigieses"],"s3":["dirigiera","dirigiese"],"p1":["dirigiéramos","dirigiésemos"],"p2":["dirigierais","dirigieseis"],"p3":["dirigieran","dirigiesen"]},
     "SubFut": {"s1":["dirigiere"],"s2":["dirigieres"],"vos":["dirigieres"],"s3":["dirigiere"],"p1":["dirigiéremos"],"p2":["dirigiereis"],"p3":["dirigieren"]},
     "CmdPos": {"s2":["dirige"],"vos":["dirigí"],"s3":["dirija"],"p1":["dirijamos"],"p2":["dirigid"],"p3":["dirijan"]}

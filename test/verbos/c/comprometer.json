@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comprometí"],"s2":["comprometiste"],"vos":["comprometiste"],"s3":["comprometió"],"p1":["comprometimos"],"p2":["comprometisteis"],"p3":["comprometieron"]},
     "IndFut": {"s1":["comprometeré"],"s2":["comprometerás"],"vos":["comprometerás"],"s3":["comprometerá"],"p1":["comprometeremos"],"p2":["comprometeréis"],"p3":["comprometerán"]},
     "IndCond": {"s1":["comprometería"],"s2":["comprometerías"],"vos":["comprometerías"],"s3":["comprometería"],"p1":["comprometeríamos"],"p2":["comprometeríais"],"p3":["comprometerían"]},
-    "SubPres": {"s1":["comprometa"],"s2":["comprometas"],"vos":["comprometas","comprometás"],"s3":["comprometa"],"p1":["comprometamos"],"p2":["comprometáis"],"p3":["comprometan"]},
+    "SubPres": {"s1":["comprometa"],"s2":["comprometas"],"vos":[{"forma": "comprometas","uso":"Riop."},{"forma":"comprometás","uso":"C.Am."}],"s3":["comprometa"],"p1":["comprometamos"],"p2":["comprometáis"],"p3":["comprometan"]},
     "SubImp": {"s1":["comprometiera","comprometiese"],"s2":["comprometieras","comprometieses"],"vos":["comprometieras","comprometieses"],"s3":["comprometiera","comprometiese"],"p1":["comprometiéramos","comprometiésemos"],"p2":["comprometierais","comprometieseis"],"p3":["comprometieran","comprometiesen"]},
     "SubFut": {"s1":["comprometiere"],"s2":["comprometieres"],"vos":["comprometieres"],"s3":["comprometiere"],"p1":["comprometiéremos"],"p2":["comprometiereis"],"p3":["comprometieren"]},
     "CmdPos": {"s2":["compromete"],"vos":["comprometé"],"s3":["comprometa"],"p1":["comprometamos"],"p2":["comprometed"],"p3":["comprometan"]}

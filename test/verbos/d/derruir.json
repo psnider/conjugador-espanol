@@ -12,7 +12,7 @@
     "IndPret": {"s1":["derruí"],"s2":["derruiste"],"vos":["derruiste"],"s3":["derruyó"],"p1":["derruimos"],"p2":["derruisteis"],"p3":["derruyeron"]},
     "IndFut": {"s1":["derruiré"],"s2":["derruirás"],"vos":["derruirás"],"s3":["derruirá"],"p1":["derruiremos"],"p2":["derruiréis"],"p3":["derruirán"]},
     "IndCond": {"s1":["derruiría"],"s2":["derruirías"],"vos":["derruirías"],"s3":["derruiría"],"p1":["derruiríamos"],"p2":["derruiríais"],"p3":["derruirían"]},
-    "SubPres": {"s1":["derruya"],"s2":["derruyas"],"vos":["derruyas","derruyás"],"s3":["derruya"],"p1":["derruyamos"],"p2":["derruyáis"],"p3":["derruyan"]},
+    "SubPres": {"s1":["derruya"],"s2":["derruyas"],"vos":[{"forma": "derruyas","uso":"Riop."},{"forma":"derruyás","uso":"C.Am."}],"s3":["derruya"],"p1":["derruyamos"],"p2":["derruyáis"],"p3":["derruyan"]},
     "SubImp": {"s1":["derruyera","derruyese"],"s2":["derruyeras","derruyeses"],"vos":["derruyeras","derruyeses"],"s3":["derruyera","derruyese"],"p1":["derruyéramos","derruyésemos"],"p2":["derruyerais","derruyeseis"],"p3":["derruyeran","derruyesen"]},
     "SubFut": {"s1":["derruyere"],"s2":["derruyeres"],"vos":["derruyeres"],"s3":["derruyere"],"p1":["derruyéremos"],"p2":["derruyereis"],"p3":["derruyeren"]},
     "CmdPos": {"s2":["derruye"],"vos":["derruí"],"s3":["derruya"],"p1":["derruyamos"],"p2":["derruid"],"p3":["derruyan"]}

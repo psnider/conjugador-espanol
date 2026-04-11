@@ -13,7 +13,7 @@
     "IndPret": {"s1":["recurrí"],"s2":["recurriste"],"vos":["recurriste"],"s3":["recurrió"],"p1":["recurrimos"],"p2":["recurristeis"],"p3":["recurrieron"]},
     "IndFut": {"s1":["recurriré"],"s2":["recurrirás"],"vos":["recurrirás"],"s3":["recurrirá"],"p1":["recurriremos"],"p2":["recurriréis"],"p3":["recurrirán"]},
     "IndCond": {"s1":["recurriría"],"s2":["recurrirías"],"vos":["recurrirías"],"s3":["recurriría"],"p1":["recurriríamos"],"p2":["recurriríais"],"p3":["recurrirían"]},
-    "SubPres": {"s1":["recurra"],"s2":["recurras"],"vos":["recurras","recurrás"],"s3":["recurra"],"p1":["recurramos"],"p2":["recurráis"],"p3":["recurran"]},
+    "SubPres": {"s1":["recurra"],"s2":["recurras"],"vos":[{"forma": "recurras","uso":"Riop."},{"forma":"recurrás","uso":"C.Am."}],"s3":["recurra"],"p1":["recurramos"],"p2":["recurráis"],"p3":["recurran"]},
     "SubImp": {"s1":["recurriera","recurriese"],"s2":["recurrieras","recurrieses"],"vos":["recurrieras","recurrieses"],"s3":["recurriera","recurriese"],"p1":["recurriéramos","recurriésemos"],"p2":["recurrierais","recurrieseis"],"p3":["recurrieran","recurriesen"]},
     "SubFut": {"s1":["recurriere"],"s2":["recurrieres"],"vos":["recurrieres"],"s3":["recurriere"],"p1":["recurriéremos"],"p2":["recurriereis"],"p3":["recurrieren"]},
     "CmdPos": {"s2":["recurre"],"vos":["recurrí"],"s3":["recurra"],"p1":["recurramos"],"p2":["recurrid"],"p3":["recurran"]}

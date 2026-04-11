@@ -13,7 +13,7 @@
     "IndPret": {"s1":["resentí"],"s2":["resentiste"],"vos":["resentiste"],"s3":["resintió"],"p1":["resentimos"],"p2":["resentisteis"],"p3":["resintieron"]},
     "IndFut": {"s1":["resentiré"],"s2":["resentirás"],"vos":["resentirás"],"s3":["resentirá"],"p1":["resentiremos"],"p2":["resentiréis"],"p3":["resentirán"]},
     "IndCond": {"s1":["resentiría"],"s2":["resentirías"],"vos":["resentirías"],"s3":["resentiría"],"p1":["resentiríamos"],"p2":["resentiríais"],"p3":["resentirían"]},
-    "SubPres": {"s1":["resienta"],"s2":["resientas"],"vos":["resientas","resintás"],"s3":["resienta"],"p1":["resintamos"],"p2":["resintáis"],"p3":["resientan"]},
+    "SubPres": {"s1":["resienta"],"s2":["resientas"],"vos":[{"forma": "resientas","uso":"Riop."},{"forma":"resintás","uso":"C.Am."}],"s3":["resienta"],"p1":["resintamos"],"p2":["resintáis"],"p3":["resientan"]},
     "SubImp": {"s1":["resintiera","resintiese"],"s2":["resintieras","resintieses"],"vos":["resintieras","resintieses"],"s3":["resintiera","resintiese"],"p1":["resintiéramos","resintiésemos"],"p2":["resintierais","resintieseis"],"p3":["resintieran","resintiesen"]},
     "SubFut": {"s1":["resintiere"],"s2":["resintieres"],"vos":["resintieres"],"s3":["resintiere"],"p1":["resintiéremos"],"p2":["resintiereis"],"p3":["resintieren"]},
     "CmdPos": {"s2":["resiente"],"vos":["resentí"],"s3":["resienta"],"p1":["resintamos"],"p2":["resentid"],"p3":["resientan"]}

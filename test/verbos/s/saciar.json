@@ -12,7 +12,7 @@
     "IndPret": {"s1":["sacié"],"s2":["saciaste"],"vos":["saciaste"],"s3":["sació"],"p1":["saciamos"],"p2":["saciasteis"],"p3":["saciaron"]},
     "IndFut": {"s1":["saciaré"],"s2":["saciarás"],"vos":["saciarás"],"s3":["saciará"],"p1":["saciaremos"],"p2":["saciaréis"],"p3":["saciarán"]},
     "IndCond": {"s1":["saciaría"],"s2":["saciarías"],"vos":["saciarías"],"s3":["saciaría"],"p1":["saciaríamos"],"p2":["saciaríais"],"p3":["saciarían"]},
-    "SubPres": {"s1":["sacie"],"s2":["sacies"],"vos":["sacies","saciés"],"s3":["sacie"],"p1":["saciemos"],"p2":["saciéis"],"p3":["sacien"]},
+    "SubPres": {"s1":["sacie"],"s2":["sacies"],"vos":[{"forma": "sacies","uso":"Riop."},{"forma":"saciés","uso":"C.Am."}],"s3":["sacie"],"p1":["saciemos"],"p2":["saciéis"],"p3":["sacien"]},
     "SubImp": {"s1":["saciara","saciase"],"s2":["saciaras","saciases"],"vos":["saciaras","saciases"],"s3":["saciara","saciase"],"p1":["saciáramos","saciásemos"],"p2":["saciarais","saciaseis"],"p3":["saciaran","saciasen"]},
     "SubFut": {"s1":["saciare"],"s2":["saciares"],"vos":["saciares"],"s3":["saciare"],"p1":["saciáremos"],"p2":["saciareis"],"p3":["saciaren"]},
     "CmdPos": {"s2":["sacia"],"vos":["saciá"],"s3":["sacie"],"p1":["saciemos"],"p2":["saciad"],"p3":["sacien"]}

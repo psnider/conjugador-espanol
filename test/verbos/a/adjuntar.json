@@ -13,7 +13,7 @@
     "IndPret": {"s1":["adjunté"],"s2":["adjuntaste"],"vos":["adjuntaste"],"s3":["adjuntó"],"p1":["adjuntamos"],"p2":["adjuntasteis"],"p3":["adjuntaron"]},
     "IndFut": {"s1":["adjuntaré"],"s2":["adjuntarás"],"vos":["adjuntarás"],"s3":["adjuntará"],"p1":["adjuntaremos"],"p2":["adjuntaréis"],"p3":["adjuntarán"]},
     "IndCond": {"s1":["adjuntaría"],"s2":["adjuntarías"],"vos":["adjuntarías"],"s3":["adjuntaría"],"p1":["adjuntaríamos"],"p2":["adjuntaríais"],"p3":["adjuntarían"]},
-    "SubPres": {"s1":["adjunte"],"s2":["adjuntes"],"vos":["adjuntes","adjuntés"],"s3":["adjunte"],"p1":["adjuntemos"],"p2":["adjuntéis"],"p3":["adjunten"]},
+    "SubPres": {"s1":["adjunte"],"s2":["adjuntes"],"vos":[{"forma": "adjuntes","uso":"Riop."},{"forma":"adjuntés","uso":"C.Am."}],"s3":["adjunte"],"p1":["adjuntemos"],"p2":["adjuntéis"],"p3":["adjunten"]},
     "SubImp": {"s1":["adjuntara","adjuntase"],"s2":["adjuntaras","adjuntases"],"vos":["adjuntaras","adjuntases"],"s3":["adjuntara","adjuntase"],"p1":["adjuntáramos","adjuntásemos"],"p2":["adjuntarais","adjuntaseis"],"p3":["adjuntaran","adjuntasen"]},
     "SubFut": {"s1":["adjuntare"],"s2":["adjuntares"],"vos":["adjuntares"],"s3":["adjuntare"],"p1":["adjuntáremos"],"p2":["adjuntareis"],"p3":["adjuntaren"]},
     "CmdPos": {"s2":["adjunta"],"vos":["adjuntá"],"s3":["adjunte"],"p1":["adjuntemos"],"p2":["adjuntad"],"p3":["adjunten"]}

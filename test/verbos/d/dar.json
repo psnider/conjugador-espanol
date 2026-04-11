@@ -13,7 +13,7 @@
     "IndPret": {"s1":["di"],"s2":["diste"],"vos":["diste"],"s3":["dio"],"p1":["dimos"],"p2":["disteis"],"p3":["dieron"]},
     "IndFut": {"s1":["daré"],"s2":["darás"],"vos":["darás"],"s3":["dará"],"p1":["daremos"],"p2":["daréis"],"p3":["darán"]},
     "IndCond": {"s1":["daría"],"s2":["darías"],"vos":["darías"],"s3":["daría"],"p1":["daríamos"],"p2":["daríais"],"p3":["darían"]},
-    "SubPres": {"s1":["dé"],"s2":["des"],"vos":["des","des"],"s3":["dé"],"p1":["demos"],"p2":["deis"],"p3":["den"]},
+    "SubPres": {"s1":["dé"],"s2":["des"],"vos":["des"],"s3":["dé"],"p1":["demos"],"p2":["deis"],"p3":["den"]},
     "SubImp": {"s1":["diera","diese"],"s2":["dieras","dieses"],"vos":["dieras","dieses"],"s3":["diera","diese"],"p1":["diéramos","diésemos"],"p2":["dierais","dieseis"],"p3":["dieran","diesen"]},
     "SubFut": {"s1":["diere"],"s2":["dieres"],"vos":["dieres"],"s3":["diere"],"p1":["diéremos"],"p2":["diereis"],"p3":["dieren"]},
     "CmdPos": {"s2":["da"],"vos":["da"],"s3":["dé"],"p1":["demos"],"p2":["dad"],"p3":["den"]}

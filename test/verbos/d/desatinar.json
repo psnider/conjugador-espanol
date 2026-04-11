@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desatiné"],"s2":["desatinaste"],"vos":["desatinaste"],"s3":["desatinó"],"p1":["desatinamos"],"p2":["desatinasteis"],"p3":["desatinaron"]},
     "IndFut": {"s1":["desatinaré"],"s2":["desatinarás"],"vos":["desatinarás"],"s3":["desatinará"],"p1":["desatinaremos"],"p2":["desatinaréis"],"p3":["desatinarán"]},
     "IndCond": {"s1":["desatinaría"],"s2":["desatinarías"],"vos":["desatinarías"],"s3":["desatinaría"],"p1":["desatinaríamos"],"p2":["desatinaríais"],"p3":["desatinarían"]},
-    "SubPres": {"s1":["desatine"],"s2":["desatines"],"vos":["desatines","desatinés"],"s3":["desatine"],"p1":["desatinemos"],"p2":["desatinéis"],"p3":["desatinen"]},
+    "SubPres": {"s1":["desatine"],"s2":["desatines"],"vos":[{"forma": "desatines","uso":"Riop."},{"forma":"desatinés","uso":"C.Am."}],"s3":["desatine"],"p1":["desatinemos"],"p2":["desatinéis"],"p3":["desatinen"]},
     "SubImp": {"s1":["desatinara","desatinase"],"s2":["desatinaras","desatinases"],"vos":["desatinaras","desatinases"],"s3":["desatinara","desatinase"],"p1":["desatináramos","desatinásemos"],"p2":["desatinarais","desatinaseis"],"p3":["desatinaran","desatinasen"]},
     "SubFut": {"s1":["desatinare"],"s2":["desatinares"],"vos":["desatinares"],"s3":["desatinare"],"p1":["desatináremos"],"p2":["desatinareis"],"p3":["desatinaren"]},
     "CmdPos": {"s2":["desatina"],"vos":["desatiná"],"s3":["desatine"],"p1":["desatinemos"],"p2":["desatinad"],"p3":["desatinen"]}

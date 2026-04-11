@@ -13,7 +13,7 @@
     "IndPret": {"s1":["introduje"],"s2":["introdujiste"],"vos":["introdujiste"],"s3":["introdujo"],"p1":["introdujimos"],"p2":["introdujisteis"],"p3":["introdujeron"]},
     "IndFut": {"s1":["introduciré"],"s2":["introducirás"],"vos":["introducirás"],"s3":["introducirá"],"p1":["introduciremos"],"p2":["introduciréis"],"p3":["introducirán"]},
     "IndCond": {"s1":["introduciría"],"s2":["introducirías"],"vos":["introducirías"],"s3":["introduciría"],"p1":["introduciríamos"],"p2":["introduciríais"],"p3":["introducirían"]},
-    "SubPres": {"s1":["introduzca"],"s2":["introduzcas"],"vos":["introduzcas","introduzcás"],"s3":["introduzca"],"p1":["introduzcamos"],"p2":["introduzcáis"],"p3":["introduzcan"]},
+    "SubPres": {"s1":["introduzca"],"s2":["introduzcas"],"vos":[{"forma": "introduzcas","uso":"Riop."},{"forma":"introduzcás","uso":"C.Am."}],"s3":["introduzca"],"p1":["introduzcamos"],"p2":["introduzcáis"],"p3":["introduzcan"]},
     "SubImp": {"s1":["introdujera","introdujese"],"s2":["introdujeras","introdujeses"],"vos":["introdujeras","introdujeses"],"s3":["introdujera","introdujese"],"p1":["introdujéramos","introdujésemos"],"p2":["introdujerais","introdujeseis"],"p3":["introdujeran","introdujesen"]},
     "SubFut": {"s1":["introdujere"],"s2":["introdujeres"],"vos":["introdujeres"],"s3":["introdujere"],"p1":["introdujéremos"],"p2":["introdujereis"],"p3":["introdujeren"]},
     "CmdPos": {"s2":["introduce"],"vos":["introducí"],"s3":["introduzca"],"p1":["introduzcamos"],"p2":["introducid"],"p3":["introduzcan"]}

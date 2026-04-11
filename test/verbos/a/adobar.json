@@ -13,7 +13,7 @@
     "IndPret": {"s1":["adobé"],"s2":["adobaste"],"vos":["adobaste"],"s3":["adobó"],"p1":["adobamos"],"p2":["adobasteis"],"p3":["adobaron"]},
     "IndFut": {"s1":["adobaré"],"s2":["adobarás"],"vos":["adobarás"],"s3":["adobará"],"p1":["adobaremos"],"p2":["adobaréis"],"p3":["adobarán"]},
     "IndCond": {"s1":["adobaría"],"s2":["adobarías"],"vos":["adobarías"],"s3":["adobaría"],"p1":["adobaríamos"],"p2":["adobaríais"],"p3":["adobarían"]},
-    "SubPres": {"s1":["adobe"],"s2":["adobes"],"vos":["adobes","adobés"],"s3":["adobe"],"p1":["adobemos"],"p2":["adobéis"],"p3":["adoben"]},
+    "SubPres": {"s1":["adobe"],"s2":["adobes"],"vos":[{"forma": "adobes","uso":"Riop."},{"forma":"adobés","uso":"C.Am."}],"s3":["adobe"],"p1":["adobemos"],"p2":["adobéis"],"p3":["adoben"]},
     "SubImp": {"s1":["adobara","adobase"],"s2":["adobaras","adobases"],"vos":["adobaras","adobases"],"s3":["adobara","adobase"],"p1":["adobáramos","adobásemos"],"p2":["adobarais","adobaseis"],"p3":["adobaran","adobasen"]},
     "SubFut": {"s1":["adobare"],"s2":["adobares"],"vos":["adobares"],"s3":["adobare"],"p1":["adobáremos"],"p2":["adobareis"],"p3":["adobaren"]},
     "CmdPos": {"s2":["adoba"],"vos":["adobá"],"s3":["adobe"],"p1":["adobemos"],"p2":["adobad"],"p3":["adoben"]}

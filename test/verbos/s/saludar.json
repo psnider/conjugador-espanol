@@ -13,7 +13,7 @@
     "IndPret": {"s1":["saludé"],"s2":["saludaste"],"vos":["saludaste"],"s3":["saludó"],"p1":["saludamos"],"p2":["saludasteis"],"p3":["saludaron"]},
     "IndFut": {"s1":["saludaré"],"s2":["saludarás"],"vos":["saludarás"],"s3":["saludará"],"p1":["saludaremos"],"p2":["saludaréis"],"p3":["saludarán"]},
     "IndCond": {"s1":["saludaría"],"s2":["saludarías"],"vos":["saludarías"],"s3":["saludaría"],"p1":["saludaríamos"],"p2":["saludaríais"],"p3":["saludarían"]},
-    "SubPres": {"s1":["salude"],"s2":["saludes"],"vos":["saludes","saludés"],"s3":["salude"],"p1":["saludemos"],"p2":["saludéis"],"p3":["saluden"]},
+    "SubPres": {"s1":["salude"],"s2":["saludes"],"vos":[{"forma": "saludes","uso":"Riop."},{"forma":"saludés","uso":"C.Am."}],"s3":["salude"],"p1":["saludemos"],"p2":["saludéis"],"p3":["saluden"]},
     "SubImp": {"s1":["saludara","saludase"],"s2":["saludaras","saludases"],"vos":["saludaras","saludases"],"s3":["saludara","saludase"],"p1":["saludáramos","saludásemos"],"p2":["saludarais","saludaseis"],"p3":["saludaran","saludasen"]},
     "SubFut": {"s1":["saludare"],"s2":["saludares"],"vos":["saludares"],"s3":["saludare"],"p1":["saludáremos"],"p2":["saludareis"],"p3":["saludaren"]},
     "CmdPos": {"s2":["saluda"],"vos":["saludá"],"s3":["salude"],"p1":["saludemos"],"p2":["saludad"],"p3":["saluden"]}

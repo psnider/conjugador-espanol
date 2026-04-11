@@ -13,9 +13,9 @@
     "IndPret": {"s1":["convine"],"s2":["conviniste"],"vos":["conviniste"],"s3":["convino"],"p1":["convinimos"],"p2":["convinisteis"],"p3":["convinieron"]},
     "IndFut": {"s1":["convendré"],"s2":["convendrás"],"vos":["convendrás"],"s3":["convendrá"],"p1":["convendremos"],"p2":["convendréis"],"p3":["convendrán"]},
     "IndCond": {"s1":["convendría"],"s2":["convendrías"],"vos":["convendrías"],"s3":["convendría"],"p1":["convendríamos"],"p2":["convendríais"],"p3":["convendrían"]},
-    "SubPres": {"s1":["convenga"],"s2":["convengas"],"vos":["convengas","convengás"],"s3":["convenga"],"p1":["convengamos"],"p2":["convengáis"],"p3":["convengan"]},
+    "SubPres": {"s1":["convenga"],"s2":["convengas"],"vos":[{"forma": "convengas","uso":"Riop."},{"forma":"convengás","uso":"C.Am."}],"s3":["convenga"],"p1":["convengamos"],"p2":["convengáis"],"p3":["convengan"]},
     "SubImp": {"s1":["conviniera","conviniese"],"s2":["convinieras","convinieses"],"vos":["convinieras","convinieses"],"s3":["conviniera","conviniese"],"p1":["conviniéramos","conviniésemos"],"p2":["convinierais","convinieseis"],"p3":["convinieran","conviniesen"]},
     "SubFut": {"s1":["conviniere"],"s2":["convinieres"],"vos":["convinieres"],"s3":["conviniere"],"p1":["conviniéremos"],"p2":["conviniereis"],"p3":["convinieren"]},
-    "CmdPos": {"s2":{"estándar":["convén"],"atípicos":[{"forma":"conviene","etiquetas":["no normativo"]}]},"vos":["convení"],"s3":["convenga"],"p1":["convengamos"],"p2":["convenid"],"p3":["convengan"]}
+    "CmdPos": {"s2":["convén"],"vos":["convení"],"s3":["convenga"],"p1":["convengamos"],"p2":["convenid"],"p3":["convengan"]}
   }
 }

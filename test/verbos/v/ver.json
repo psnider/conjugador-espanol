@@ -13,9 +13,9 @@
     "IndPret": {"s1":["vi"],"s2":["viste"],"vos":["viste"],"s3":["vio"],"p1":["vimos"],"p2":["visteis"],"p3":["vieron"]},
     "IndFut": {"s1":["veré"],"s2":["verás"],"vos":["verás"],"s3":["verá"],"p1":["veremos"],"p2":["veréis"],"p3":["verán"]},
     "IndCond": {"s1":["vería"],"s2":["verías"],"vos":["verías"],"s3":["vería"],"p1":["veríamos"],"p2":["veríais"],"p3":["verían"]},
-    "SubPres": {"s1":["vea"],"s2":["veas"],"vos":["veas","veás"],"s3":["vea"],"p1":["veamos"],"p2":["veáis"],"p3":["vean"]},
+    "SubPres": {"s1":["vea"],"s2":["veas"],"vos":[{"forma":"veas","uso":"Riop."},{"forma":"veás","uso":"C.Am."}],"s3":["vea"],"p1":["veamos"],"p2":["veáis"],"p3":["vean"]},
     "SubImp": {"s1":["viera","viese"],"s2":["vieras","vieses"],"vos":["vieras","vieses"],"s3":["viera","viese"],"p1":["viéramos","viésemos"],"p2":["vierais","vieseis"],"p3":["vieran","viesen"]},
     "SubFut": {"s1":["viere"],"s2":["vieres"],"vos":["vieres"],"s3":["viere"],"p1":["viéremos"],"p2":["viereis"],"p3":["vieren"]},
-    "CmdPos": {"s2":["ve"],"vos":["mirá"],"s3":["vea"],"p1":["veamos"],"p2":["ved"],"p3":["vean"]}
+    "CmdPos": {"s2":["ve"],"vos":["ve"],"s3":["vea"],"p1":["veamos"],"p2":["ved"],"p3":["vean"]}
   }
 }

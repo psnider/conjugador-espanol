@@ -13,7 +13,7 @@
     "IndPret": {"s1":["probé"],"s2":["probaste"],"vos":["probaste"],"s3":["probó"],"p1":["probamos"],"p2":["probasteis"],"p3":["probaron"]},
     "IndFut": {"s1":["probaré"],"s2":["probarás"],"vos":["probarás"],"s3":["probará"],"p1":["probaremos"],"p2":["probaréis"],"p3":["probarán"]},
     "IndCond": {"s1":["probaría"],"s2":["probarías"],"vos":["probarías"],"s3":["probaría"],"p1":["probaríamos"],"p2":["probaríais"],"p3":["probarían"]},
-    "SubPres": {"s1":["pruebe"],"s2":["pruebes"],"vos":["pruebes","probés"],"s3":["pruebe"],"p1":["probemos"],"p2":["probéis"],"p3":["prueben"]},
+    "SubPres": {"s1":["pruebe"],"s2":["pruebes"],"vos":[{"forma": "pruebes","uso":"Riop."},{"forma":"probés","uso":"C.Am."}],"s3":["pruebe"],"p1":["probemos"],"p2":["probéis"],"p3":["prueben"]},
     "SubImp": {"s1":["probara","probase"],"s2":["probaras","probases"],"vos":["probaras","probases"],"s3":["probara","probase"],"p1":["probáramos","probásemos"],"p2":["probarais","probaseis"],"p3":["probaran","probasen"]},
     "SubFut": {"s1":["probare"],"s2":["probares"],"vos":["probares"],"s3":["probare"],"p1":["probáremos"],"p2":["probareis"],"p3":["probaren"]},
     "CmdPos": {"s2":["prueba"],"vos":["probá"],"s3":["pruebe"],"p1":["probemos"],"p2":["probad"],"p3":["prueben"]}

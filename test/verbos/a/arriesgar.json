@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arriesgué"],"s2":["arriesgaste"],"vos":["arriesgaste"],"s3":["arriesgó"],"p1":["arriesgamos"],"p2":["arriesgasteis"],"p3":["arriesgaron"]},
     "IndFut": {"s1":["arriesgaré"],"s2":["arriesgarás"],"vos":["arriesgarás"],"s3":["arriesgará"],"p1":["arriesgaremos"],"p2":["arriesgaréis"],"p3":["arriesgarán"]},
     "IndCond": {"s1":["arriesgaría"],"s2":["arriesgarías"],"vos":["arriesgarías"],"s3":["arriesgaría"],"p1":["arriesgaríamos"],"p2":["arriesgaríais"],"p3":["arriesgarían"]},
-    "SubPres": {"s1":["arriesgue"],"s2":["arriesgues"],"vos":["arriesgues","arriesgués"],"s3":["arriesgue"],"p1":["arriesguemos"],"p2":["arriesguéis"],"p3":["arriesguen"]},
+    "SubPres": {"s1":["arriesgue"],"s2":["arriesgues"],"vos":[{"forma": "arriesgues","uso":"Riop."},{"forma":"arriesgués","uso":"C.Am."}],"s3":["arriesgue"],"p1":["arriesguemos"],"p2":["arriesguéis"],"p3":["arriesguen"]},
     "SubImp": {"s1":["arriesgara","arriesgase"],"s2":["arriesgaras","arriesgases"],"vos":["arriesgaras","arriesgases"],"s3":["arriesgara","arriesgase"],"p1":["arriesgáramos","arriesgásemos"],"p2":["arriesgarais","arriesgaseis"],"p3":["arriesgaran","arriesgasen"]},
     "SubFut": {"s1":["arriesgare"],"s2":["arriesgares"],"vos":["arriesgares"],"s3":["arriesgare"],"p1":["arriesgáremos"],"p2":["arriesgareis"],"p3":["arriesgaren"]},
     "CmdPos": {"s2":["arriesga"],"vos":["arriesgá"],"s3":["arriesgue"],"p1":["arriesguemos"],"p2":["arriesgad"],"p3":["arriesguen"]}

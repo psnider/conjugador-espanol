@@ -13,7 +13,7 @@
     "IndPret": {"s1":["categoricé"],"s2":["categorizaste"],"vos":["categorizaste"],"s3":["categorizó"],"p1":["categorizamos"],"p2":["categorizasteis"],"p3":["categorizaron"]},
     "IndFut": {"s1":["categorizaré"],"s2":["categorizarás"],"vos":["categorizarás"],"s3":["categorizará"],"p1":["categorizaremos"],"p2":["categorizaréis"],"p3":["categorizarán"]},
     "IndCond": {"s1":["categorizaría"],"s2":["categorizarías"],"vos":["categorizarías"],"s3":["categorizaría"],"p1":["categorizaríamos"],"p2":["categorizaríais"],"p3":["categorizarían"]},
-    "SubPres": {"s1":["categorice"],"s2":["categorices"],"vos":["categorices","categoricés"],"s3":["categorice"],"p1":["categoricemos"],"p2":["categoricéis"],"p3":["categoricen"]},
+    "SubPres": {"s1":["categorice"],"s2":["categorices"],"vos":[{"forma": "categorices","uso":"Riop."},{"forma":"categoricés","uso":"C.Am."}],"s3":["categorice"],"p1":["categoricemos"],"p2":["categoricéis"],"p3":["categoricen"]},
     "SubImp": {"s1":["categorizara","categorizase"],"s2":["categorizaras","categorizases"],"vos":["categorizaras","categorizases"],"s3":["categorizara","categorizase"],"p1":["categorizáramos","categorizásemos"],"p2":["categorizarais","categorizaseis"],"p3":["categorizaran","categorizasen"]},
     "SubFut": {"s1":["categorizare"],"s2":["categorizares"],"vos":["categorizares"],"s3":["categorizare"],"p1":["categorizáremos"],"p2":["categorizareis"],"p3":["categorizaren"]},
     "CmdPos": {"s2":["categoriza"],"vos":["categorizá"],"s3":["categorice"],"p1":["categoricemos"],"p2":["categorizad"],"p3":["categoricen"]}

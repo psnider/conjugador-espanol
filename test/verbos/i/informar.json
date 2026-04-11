@@ -13,7 +13,7 @@
     "IndPret": {"s1":["informé"],"s2":["informaste"],"vos":["informaste"],"s3":["informó"],"p1":["informamos"],"p2":["informasteis"],"p3":["informaron"]},
     "IndFut": {"s1":["informaré"],"s2":["informarás"],"vos":["informarás"],"s3":["informará"],"p1":["informaremos"],"p2":["informaréis"],"p3":["informarán"]},
     "IndCond": {"s1":["informaría"],"s2":["informarías"],"vos":["informarías"],"s3":["informaría"],"p1":["informaríamos"],"p2":["informaríais"],"p3":["informarían"]},
-    "SubPres": {"s1":["informe"],"s2":["informes"],"vos":["informes","informés"],"s3":["informe"],"p1":["informemos"],"p2":["informéis"],"p3":["informen"]},
+    "SubPres": {"s1":["informe"],"s2":["informes"],"vos":[{"forma": "informes","uso":"Riop."},{"forma":"informés","uso":"C.Am."}],"s3":["informe"],"p1":["informemos"],"p2":["informéis"],"p3":["informen"]},
     "SubImp": {"s1":["informara","informase"],"s2":["informaras","informases"],"vos":["informaras","informases"],"s3":["informara","informase"],"p1":["informáramos","informásemos"],"p2":["informarais","informaseis"],"p3":["informaran","informasen"]},
     "SubFut": {"s1":["informare"],"s2":["informares"],"vos":["informares"],"s3":["informare"],"p1":["informáremos"],"p2":["informareis"],"p3":["informaren"]},
     "CmdPos": {"s2":["informa"],"vos":["informá"],"s3":["informe"],"p1":["informemos"],"p2":["informad"],"p3":["informen"]}

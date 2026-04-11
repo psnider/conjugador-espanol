@@ -13,7 +13,7 @@
     "IndPret": {"s1":["facilité"],"s2":["facilitaste"],"vos":["facilitaste"],"s3":["facilitó"],"p1":["facilitamos"],"p2":["facilitasteis"],"p3":["facilitaron"]},
     "IndFut": {"s1":["facilitaré"],"s2":["facilitarás"],"vos":["facilitarás"],"s3":["facilitará"],"p1":["facilitaremos"],"p2":["facilitaréis"],"p3":["facilitarán"]},
     "IndCond": {"s1":["facilitaría"],"s2":["facilitarías"],"vos":["facilitarías"],"s3":["facilitaría"],"p1":["facilitaríamos"],"p2":["facilitaríais"],"p3":["facilitarían"]},
-    "SubPres": {"s1":["facilite"],"s2":["facilites"],"vos":["facilites","facilités"],"s3":["facilite"],"p1":["facilitemos"],"p2":["facilitéis"],"p3":["faciliten"]},
+    "SubPres": {"s1":["facilite"],"s2":["facilites"],"vos":[{"forma": "facilites","uso":"Riop."},{"forma":"facilités","uso":"C.Am."}],"s3":["facilite"],"p1":["facilitemos"],"p2":["facilitéis"],"p3":["faciliten"]},
     "SubImp": {"s1":["facilitara","facilitase"],"s2":["facilitaras","facilitases"],"vos":["facilitaras","facilitases"],"s3":["facilitara","facilitase"],"p1":["facilitáramos","facilitásemos"],"p2":["facilitarais","facilitaseis"],"p3":["facilitaran","facilitasen"]},
     "SubFut": {"s1":["facilitare"],"s2":["facilitares"],"vos":["facilitares"],"s3":["facilitare"],"p1":["facilitáremos"],"p2":["facilitareis"],"p3":["facilitaren"]},
     "CmdPos": {"s2":["facilita"],"vos":["facilitá"],"s3":["facilite"],"p1":["facilitemos"],"p2":["facilitad"],"p3":["faciliten"]}

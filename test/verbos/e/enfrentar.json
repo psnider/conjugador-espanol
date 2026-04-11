@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enfrenté"],"s2":["enfrentaste"],"vos":["enfrentaste"],"s3":["enfrentó"],"p1":["enfrentamos"],"p2":["enfrentasteis"],"p3":["enfrentaron"]},
     "IndFut": {"s1":["enfrentaré"],"s2":["enfrentarás"],"vos":["enfrentarás"],"s3":["enfrentará"],"p1":["enfrentaremos"],"p2":["enfrentaréis"],"p3":["enfrentarán"]},
     "IndCond": {"s1":["enfrentaría"],"s2":["enfrentarías"],"vos":["enfrentarías"],"s3":["enfrentaría"],"p1":["enfrentaríamos"],"p2":["enfrentaríais"],"p3":["enfrentarían"]},
-    "SubPres": {"s1":["enfrente"],"s2":["enfrentes"],"vos":["enfrentes","enfrentés"],"s3":["enfrente"],"p1":["enfrentemos"],"p2":["enfrentéis"],"p3":["enfrenten"]},
+    "SubPres": {"s1":["enfrente"],"s2":["enfrentes"],"vos":[{"forma": "enfrentes","uso":"Riop."},{"forma":"enfrentés","uso":"C.Am."}],"s3":["enfrente"],"p1":["enfrentemos"],"p2":["enfrentéis"],"p3":["enfrenten"]},
     "SubImp": {"s1":["enfrentara","enfrentase"],"s2":["enfrentaras","enfrentases"],"vos":["enfrentaras","enfrentases"],"s3":["enfrentara","enfrentase"],"p1":["enfrentáramos","enfrentásemos"],"p2":["enfrentarais","enfrentaseis"],"p3":["enfrentaran","enfrentasen"]},
     "SubFut": {"s1":["enfrentare"],"s2":["enfrentares"],"vos":["enfrentares"],"s3":["enfrentare"],"p1":["enfrentáremos"],"p2":["enfrentareis"],"p3":["enfrentaren"]},
     "CmdPos": {"s2":["enfrenta"],"vos":["enfrentá"],"s3":["enfrente"],"p1":["enfrentemos"],"p2":["enfrentad"],"p3":["enfrenten"]}

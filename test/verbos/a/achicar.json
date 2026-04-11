@@ -13,7 +13,7 @@
     "IndPret": {"s1":["achiqué"],"s2":["achicaste"],"vos":["achicaste"],"s3":["achicó"],"p1":["achicamos"],"p2":["achicasteis"],"p3":["achicaron"]},
     "IndFut": {"s1":["achicaré"],"s2":["achicarás"],"vos":["achicarás"],"s3":["achicará"],"p1":["achicaremos"],"p2":["achicaréis"],"p3":["achicarán"]},
     "IndCond": {"s1":["achicaría"],"s2":["achicarías"],"vos":["achicarías"],"s3":["achicaría"],"p1":["achicaríamos"],"p2":["achicaríais"],"p3":["achicarían"]},
-    "SubPres": {"s1":["achique"],"s2":["achiques"],"vos":["achiques","achiqués"],"s3":["achique"],"p1":["achiquemos"],"p2":["achiquéis"],"p3":["achiquen"]},
+    "SubPres": {"s1":["achique"],"s2":["achiques"],"vos":[{"forma": "achiques","uso":"Riop."},{"forma":"achiqués","uso":"C.Am."}],"s3":["achique"],"p1":["achiquemos"],"p2":["achiquéis"],"p3":["achiquen"]},
     "SubImp": {"s1":["achicara","achicase"],"s2":["achicaras","achicases"],"vos":["achicaras","achicases"],"s3":["achicara","achicase"],"p1":["achicáramos","achicásemos"],"p2":["achicarais","achicaseis"],"p3":["achicaran","achicasen"]},
     "SubFut": {"s1":["achicare"],"s2":["achicares"],"vos":["achicares"],"s3":["achicare"],"p1":["achicáremos"],"p2":["achicareis"],"p3":["achicaren"]},
     "CmdPos": {"s2":["achica"],"vos":["achicá"],"s3":["achique"],"p1":["achiquemos"],"p2":["achicad"],"p3":["achiquen"]}

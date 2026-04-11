@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aniˈð̞aɾ]",
+    "silabacion": "a-ni-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, nido y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anidar","gerundio":["anidando"],"participio":["anidado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anido"],"s2":["anidas"],"vos":["anidás"],"s3":["anida"],"p1":["anidamos"],"p2":["anidáis"],"p3":["anidan"]},
+    "IndImp": {"s1":["anidaba"],"s2":["anidabas"],"vos":["anidabas"],"s3":["anidaba"],"p1":["anidábamos"],"p2":["anidabais"],"p3":["anidaban"]},
+    "IndPret": {"s1":["anidé"],"s2":["anidaste"],"vos":["anidaste"],"s3":["anidó"],"p1":["anidamos"],"p2":["anidasteis"],"p3":["anidaron"]},
+    "IndFut": {"s1":["anidaré"],"s2":["anidarás"],"vos":["anidarás"],"s3":["anidará"],"p1":["anidaremos"],"p2":["anidaréis"],"p3":["anidarán"]},
+    "IndCond": {"s1":["anidaría"],"s2":["anidarías"],"vos":["anidarías"],"s3":["anidaría"],"p1":["anidaríamos"],"p2":["anidaríais"],"p3":["anidarían"]},
+    "SubPres": {"s1":["anide"],"s2":["anides"],"vos":["anides","anidés"],"s3":["anide"],"p1":["anidemos"],"p2":["anidéis"],"p3":["aniden"]},
+    "SubImp": {"s1":["anidara","anidase"],"s2":["anidaras","anidases"],"vos":["anidaras","anidases"],"s3":["anidara","anidase"],"p1":["anidáramos","anidásemos"],"p2":["anidarais","anidaseis"],"p3":["anidaran","anidasen"]},
+    "SubFut": {"s1":["anidare"],"s2":["anidares"],"vos":["anidares"],"s3":["anidare"],"p1":["anidáremos"],"p2":["anidareis"],"p3":["anidaren"]},
+    "CmdPos": {"s2":["anida"],"vos":["anidá"],"s3":["anide"],"p1":["anidemos"],"p2":["anidad"],"p3":["aniden"]}
+  }
+}

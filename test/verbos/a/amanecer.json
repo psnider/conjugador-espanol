@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amaneˈseɾ]",
+    "silabacion": "a-ma-ne-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *admanescĕre, del latín mane ('por la mañana').[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"amanecer","gerundio":["amaneciendo"],"participio":["amanecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amanezco"],"s2":["amaneces"],"vos":["amanecés"],"s3":["amanece"],"p1":["amanecemos"],"p2":["amanecéis"],"p3":["amanecen"]},
+    "IndImp": {"s1":["amanecía"],"s2":["amanecías"],"vos":["amanecías"],"s3":["amanecía"],"p1":["amanecíamos"],"p2":["amanecíais"],"p3":["amanecían"]},
+    "IndPret": {"s1":["amanecí"],"s2":["amaneciste"],"vos":["amaneciste"],"s3":["amaneció"],"p1":["amanecimos"],"p2":["amanecisteis"],"p3":["amanecieron"]},
+    "IndFut": {"s1":["amaneceré"],"s2":["amanecerás"],"vos":["amanecerás"],"s3":["amanecerá"],"p1":["amaneceremos"],"p2":["amaneceréis"],"p3":["amanecerán"]},
+    "IndCond": {"s1":["amanecería"],"s2":["amanecerías"],"vos":["amanecerías"],"s3":["amanecería"],"p1":["amaneceríamos"],"p2":["amaneceríais"],"p3":["amanecerían"]},
+    "SubPres": {"s1":["amanezca"],"s2":["amanezcas"],"vos":["amanezcas","amanezcás"],"s3":["amanezca"],"p1":["amanezcamos"],"p2":["amanezcáis"],"p3":["amanezcan"]},
+    "SubImp": {"s1":["amaneciera","amaneciese"],"s2":["amanecieras","amanecieses"],"vos":["amanecieras","amanecieses"],"s3":["amaneciera","amaneciese"],"p1":["amaneciéramos","amaneciésemos"],"p2":["amanecierais","amanecieseis"],"p3":["amanecieran","amaneciesen"]},
+    "SubFut": {"s1":["amaneciere"],"s2":["amanecieres"],"vos":["amanecieres"],"s3":["amaneciere"],"p1":["amaneciéremos"],"p2":["amaneciereis"],"p3":["amanecieren"]},
+    "CmdPos": {"s2":["amanece"],"vos":["amanecé"],"s3":["amanezca"],"p1":["amanezcamos"],"p2":["amaneced"],"p3":["amanezcan"]}
+  }
+}

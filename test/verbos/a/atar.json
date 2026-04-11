@@ -13,7 +13,7 @@
     "IndPret": {"s1":["até"],"s2":["ataste"],"vos":["ataste"],"s3":["ató"],"p1":["atamos"],"p2":["atasteis"],"p3":["ataron"]},
     "IndFut": {"s1":["ataré"],"s2":["atarás"],"vos":["atarás"],"s3":["atará"],"p1":["ataremos"],"p2":["ataréis"],"p3":["atarán"]},
     "IndCond": {"s1":["ataría"],"s2":["atarías"],"vos":["atarías"],"s3":["ataría"],"p1":["ataríamos"],"p2":["ataríais"],"p3":["atarían"]},
-    "SubPres": {"s1":["ate"],"s2":["ates"],"vos":["ates","atés"],"s3":["ate"],"p1":["atemos"],"p2":["atéis"],"p3":["aten"]},
+    "SubPres": {"s1":["ate"],"s2":["ates"],"vos":[{"forma": "ates","uso":"Riop."},{"forma":"atés","uso":"C.Am."}],"s3":["ate"],"p1":["atemos"],"p2":["atéis"],"p3":["aten"]},
     "SubImp": {"s1":["atara","atase"],"s2":["ataras","atases"],"vos":["ataras","atases"],"s3":["atara","atase"],"p1":["atáramos","atásemos"],"p2":["atarais","ataseis"],"p3":["ataran","atasen"]},
     "SubFut": {"s1":["atare"],"s2":["atares"],"vos":["atares"],"s3":["atare"],"p1":["atáremos"],"p2":["atareis"],"p3":["ataren"]},
     "CmdPos": {"s2":["ata"],"vos":["atá"],"s3":["ate"],"p1":["atemos"],"p2":["atad"],"p3":["aten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["parecí"],"s2":["pareciste"],"vos":["pareciste"],"s3":["pareció"],"p1":["parecimos"],"p2":["parecisteis"],"p3":["parecieron"]},
     "IndFut": {"s1":["pareceré"],"s2":["parecerás"],"vos":["parecerás"],"s3":["parecerá"],"p1":["pareceremos"],"p2":["pareceréis"],"p3":["parecerán"]},
     "IndCond": {"s1":["parecería"],"s2":["parecerías"],"vos":["parecerías"],"s3":["parecería"],"p1":["pareceríamos"],"p2":["pareceríais"],"p3":["parecerían"]},
-    "SubPres": {"s1":["parezca"],"s2":["parezcas"],"vos":["parezcas","parezcás"],"s3":["parezca"],"p1":["parezcamos"],"p2":["parezcáis"],"p3":["parezcan"]},
+    "SubPres": {"s1":["parezca"],"s2":["parezcas"],"vos":[{"forma": "parezcas","uso":"Riop."},{"forma":"parezcás","uso":"C.Am."}],"s3":["parezca"],"p1":["parezcamos"],"p2":["parezcáis"],"p3":["parezcan"]},
     "SubImp": {"s1":["pareciera","pareciese"],"s2":["parecieras","parecieses"],"vos":["parecieras","parecieses"],"s3":["pareciera","pareciese"],"p1":["pareciéramos","pareciésemos"],"p2":["parecierais","parecieseis"],"p3":["parecieran","pareciesen"]},
     "SubFut": {"s1":["pareciere"],"s2":["parecieres"],"vos":["parecieres"],"s3":["pareciere"],"p1":["pareciéremos"],"p2":["pareciereis"],"p3":["parecieren"]},
     "CmdPos": {"s2":["parece"],"vos":["parecé"],"s3":["parezca"],"p1":["parezcamos"],"p2":["pareced"],"p3":["parezcan"]}

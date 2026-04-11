@@ -13,7 +13,7 @@
     "IndPret": {"s1":["consumí"],"s2":["consumiste"],"vos":["consumiste"],"s3":["consumió"],"p1":["consumimos"],"p2":["consumisteis"],"p3":["consumieron"]},
     "IndFut": {"s1":["consumiré"],"s2":["consumirás"],"vos":["consumirás"],"s3":["consumirá"],"p1":["consumiremos"],"p2":["consumiréis"],"p3":["consumirán"]},
     "IndCond": {"s1":["consumiría"],"s2":["consumirías"],"vos":["consumirías"],"s3":["consumiría"],"p1":["consumiríamos"],"p2":["consumiríais"],"p3":["consumirían"]},
-    "SubPres": {"s1":["consuma"],"s2":["consumas"],"vos":["consumas","consumás"],"s3":["consuma"],"p1":["consumamos"],"p2":["consumáis"],"p3":["consuman"]},
+    "SubPres": {"s1":["consuma"],"s2":["consumas"],"vos":[{"forma": "consumas","uso":"Riop."},{"forma":"consumás","uso":"C.Am."}],"s3":["consuma"],"p1":["consumamos"],"p2":["consumáis"],"p3":["consuman"]},
     "SubImp": {"s1":["consumiera","consumiese"],"s2":["consumieras","consumieses"],"vos":["consumieras","consumieses"],"s3":["consumiera","consumiese"],"p1":["consumiéramos","consumiésemos"],"p2":["consumierais","consumieseis"],"p3":["consumieran","consumiesen"]},
     "SubFut": {"s1":["consumiere"],"s2":["consumieres"],"vos":["consumieres"],"s3":["consumiere"],"p1":["consumiéremos"],"p2":["consumiereis"],"p3":["consumieren"]},
     "CmdPos": {"s2":["consume"],"vos":["consumí"],"s3":["consuma"],"p1":["consumamos"],"p2":["consumid"],"p3":["consuman"]}

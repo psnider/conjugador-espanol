@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arrasé"],"s2":["arrasaste"],"vos":["arrasaste"],"s3":["arrasó"],"p1":["arrasamos"],"p2":["arrasasteis"],"p3":["arrasaron"]},
     "IndFut": {"s1":["arrasaré"],"s2":["arrasarás"],"vos":["arrasarás"],"s3":["arrasará"],"p1":["arrasaremos"],"p2":["arrasaréis"],"p3":["arrasarán"]},
     "IndCond": {"s1":["arrasaría"],"s2":["arrasarías"],"vos":["arrasarías"],"s3":["arrasaría"],"p1":["arrasaríamos"],"p2":["arrasaríais"],"p3":["arrasarían"]},
-    "SubPres": {"s1":["arrase"],"s2":["arrases"],"vos":["arrases","arrasés"],"s3":["arrase"],"p1":["arrasemos"],"p2":["arraséis"],"p3":["arrasen"]},
+    "SubPres": {"s1":["arrase"],"s2":["arrases"],"vos":[{"forma": "arrases","uso":"Riop."},{"forma":"arrasés","uso":"C.Am."}],"s3":["arrase"],"p1":["arrasemos"],"p2":["arraséis"],"p3":["arrasen"]},
     "SubImp": {"s1":["arrasara","arrasase"],"s2":["arrasaras","arrasases"],"vos":["arrasaras","arrasases"],"s3":["arrasara","arrasase"],"p1":["arrasáramos","arrasásemos"],"p2":["arrasarais","arrasaseis"],"p3":["arrasaran","arrasasen"]},
     "SubFut": {"s1":["arrasare"],"s2":["arrasares"],"vos":["arrasares"],"s3":["arrasare"],"p1":["arrasáremos"],"p2":["arrasareis"],"p3":["arrasaren"]},
     "CmdPos": {"s2":["arrasa"],"vos":["arrasá"],"s3":["arrase"],"p1":["arrasemos"],"p2":["arrasad"],"p3":["arrasen"]}

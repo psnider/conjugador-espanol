@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aprobé"],"s2":["aprobaste"],"vos":["aprobaste"],"s3":["aprobó"],"p1":["aprobamos"],"p2":["aprobasteis"],"p3":["aprobaron"]},
     "IndFut": {"s1":["aprobaré"],"s2":["aprobarás"],"vos":["aprobarás"],"s3":["aprobará"],"p1":["aprobaremos"],"p2":["aprobaréis"],"p3":["aprobarán"]},
     "IndCond": {"s1":["aprobaría"],"s2":["aprobarías"],"vos":["aprobarías"],"s3":["aprobaría"],"p1":["aprobaríamos"],"p2":["aprobaríais"],"p3":["aprobarían"]},
-    "SubPres": {"s1":["apruebe"],"s2":["apruebes"],"vos":["apruebes","aprobés"],"s3":["apruebe"],"p1":["aprobemos"],"p2":["aprobéis"],"p3":["aprueben"]},
+    "SubPres": {"s1":["apruebe"],"s2":["apruebes"],"vos":[{"forma": "apruebes","uso":"Riop."},{"forma":"aprobés","uso":"C.Am."}],"s3":["apruebe"],"p1":["aprobemos"],"p2":["aprobéis"],"p3":["aprueben"]},
     "SubImp": {"s1":["aprobara","aprobase"],"s2":["aprobaras","aprobases"],"vos":["aprobaras","aprobases"],"s3":["aprobara","aprobase"],"p1":["aprobáramos","aprobásemos"],"p2":["aprobarais","aprobaseis"],"p3":["aprobaran","aprobasen"]},
     "SubFut": {"s1":["aprobare"],"s2":["aprobares"],"vos":["aprobares"],"s3":["aprobare"],"p1":["aprobáremos"],"p2":["aprobareis"],"p3":["aprobaren"]},
     "CmdPos": {"s2":["aprueba"],"vos":["aprobá"],"s3":["apruebe"],"p1":["aprobemos"],"p2":["aprobad"],"p3":["aprueben"]}

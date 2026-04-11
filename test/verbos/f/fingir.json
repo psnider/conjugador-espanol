@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fĩŋˈxiɾ]",
+    "silabacion": "fin-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fingere ('moldear'), y este del protoindoeuropeo *dʰeiǵʰ-. Compárese el doblete heñir, el catalán fingir, el francés feindre, el inglés feign, el italiano fingere, el occitano fénher o el portugués fingir.",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"fingir","gerundio":["fingiendo"],"participio":["fingido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["finjo"],"s2":["finges"],"vos":["fingís"],"s3":["finge"],"p1":["fingimos"],"p2":["fingís"],"p3":["fingen"]},
+    "IndImp": {"s1":["fingía"],"s2":["fingías"],"vos":["fingías"],"s3":["fingía"],"p1":["fingíamos"],"p2":["fingíais"],"p3":["fingían"]},
+    "IndPret": {"s1":["fingí"],"s2":["fingiste"],"vos":["fingiste"],"s3":["fingió"],"p1":["fingimos"],"p2":["fingisteis"],"p3":["fingieron"]},
+    "IndFut": {"s1":["fingiré"],"s2":["fingirás"],"vos":["fingirás"],"s3":["fingirá"],"p1":["fingiremos"],"p2":["fingiréis"],"p3":["fingirán"]},
+    "IndCond": {"s1":["fingiría"],"s2":["fingirías"],"vos":["fingirías"],"s3":["fingiría"],"p1":["fingiríamos"],"p2":["fingiríais"],"p3":["fingirían"]},
+    "SubPres": {"s1":["finja"],"s2":["finjas"],"vos":["finjas","finjás"],"s3":["finja"],"p1":["finjamos"],"p2":["finjáis"],"p3":["finjan"]},
+    "SubImp": {"s1":["fingiera","fingiese"],"s2":["fingieras","fingieses"],"vos":["fingieras","fingieses"],"s3":["fingiera","fingiese"],"p1":["fingiéramos","fingiésemos"],"p2":["fingierais","fingieseis"],"p3":["fingieran","fingiesen"]},
+    "SubFut": {"s1":["fingiere"],"s2":["fingieres"],"vos":["fingieres"],"s3":["fingiere"],"p1":["fingiéremos"],"p2":["fingiereis"],"p3":["fingieren"]},
+    "CmdPos": {"s2":["finge"],"vos":["fingí"],"s3":["finja"],"p1":["finjamos"],"p2":["fingid"],"p3":["finjan"]}
+  }
+}

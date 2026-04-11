@@ -13,7 +13,7 @@
     "IndPret": {"s1":["encontré"],"s2":["encontraste"],"vos":["encontraste"],"s3":["encontró"],"p1":["encontramos"],"p2":["encontrasteis"],"p3":["encontraron"]},
     "IndFut": {"s1":["encontraré"],"s2":["encontrarás"],"vos":["encontrarás"],"s3":["encontrará"],"p1":["encontraremos"],"p2":["encontraréis"],"p3":["encontrarán"]},
     "IndCond": {"s1":["encontraría"],"s2":["encontrarías"],"vos":["encontrarías"],"s3":["encontraría"],"p1":["encontraríamos"],"p2":["encontraríais"],"p3":["encontrarían"]},
-    "SubPres": {"s1":["encuentre"],"s2":["encuentres"],"vos":["encuentres","encontrés"],"s3":["encuentre"],"p1":["encontremos"],"p2":["encontréis"],"p3":["encuentren"]},
+    "SubPres": {"s1":["encuentre"],"s2":["encuentres"],"vos":[{"forma": "encuentres","uso":"Riop."},{"forma":"encontrés","uso":"C.Am."}],"s3":["encuentre"],"p1":["encontremos"],"p2":["encontréis"],"p3":["encuentren"]},
     "SubImp": {"s1":["encontrara","encontrase"],"s2":["encontraras","encontrases"],"vos":["encontraras","encontrases"],"s3":["encontrara","encontrase"],"p1":["encontráramos","encontrásemos"],"p2":["encontrarais","encontraseis"],"p3":["encontraran","encontrasen"]},
     "SubFut": {"s1":["encontrare"],"s2":["encontrares"],"vos":["encontrares"],"s3":["encontrare"],"p1":["encontráremos"],"p2":["encontrareis"],"p3":["encontraren"]},
     "CmdPos": {"s2":["encuentra"],"vos":["encontrá"],"s3":["encuentre"],"p1":["encontremos"],"p2":["encontrad"],"p3":["encuentren"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["derroté"],"s2":["derrotaste"],"vos":["derrotaste"],"s3":["derrotó"],"p1":["derrotamos"],"p2":["derrotasteis"],"p3":["derrotaron"]},
     "IndFut": {"s1":["derrotaré"],"s2":["derrotarás"],"vos":["derrotarás"],"s3":["derrotará"],"p1":["derrotaremos"],"p2":["derrotaréis"],"p3":["derrotarán"]},
     "IndCond": {"s1":["derrotaría"],"s2":["derrotarías"],"vos":["derrotarías"],"s3":["derrotaría"],"p1":["derrotaríamos"],"p2":["derrotaríais"],"p3":["derrotarían"]},
-    "SubPres": {"s1":["derrote"],"s2":["derrotes"],"vos":["derrotes","derrotés"],"s3":["derrote"],"p1":["derrotemos"],"p2":["derrotéis"],"p3":["derroten"]},
+    "SubPres": {"s1":["derrote"],"s2":["derrotes"],"vos":[{"forma": "derrotes","uso":"Riop."},{"forma":"derrotés","uso":"C.Am."}],"s3":["derrote"],"p1":["derrotemos"],"p2":["derrotéis"],"p3":["derroten"]},
     "SubImp": {"s1":["derrotara","derrotase"],"s2":["derrotaras","derrotases"],"vos":["derrotaras","derrotases"],"s3":["derrotara","derrotase"],"p1":["derrotáramos","derrotásemos"],"p2":["derrotarais","derrotaseis"],"p3":["derrotaran","derrotasen"]},
     "SubFut": {"s1":["derrotare"],"s2":["derrotares"],"vos":["derrotares"],"s3":["derrotare"],"p1":["derrotáremos"],"p2":["derrotareis"],"p3":["derrotaren"]},
     "CmdPos": {"s2":["derrota"],"vos":["derrotá"],"s3":["derrote"],"p1":["derrotemos"],"p2":["derrotad"],"p3":["derroten"]}

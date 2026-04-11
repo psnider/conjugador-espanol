@@ -13,7 +13,7 @@
     "IndPret": {"s1":["procesé"],"s2":["procesaste"],"vos":["procesaste"],"s3":["procesó"],"p1":["procesamos"],"p2":["procesasteis"],"p3":["procesaron"]},
     "IndFut": {"s1":["procesaré"],"s2":["procesarás"],"vos":["procesarás"],"s3":["procesará"],"p1":["procesaremos"],"p2":["procesaréis"],"p3":["procesarán"]},
     "IndCond": {"s1":["procesaría"],"s2":["procesarías"],"vos":["procesarías"],"s3":["procesaría"],"p1":["procesaríamos"],"p2":["procesaríais"],"p3":["procesarían"]},
-    "SubPres": {"s1":["procese"],"s2":["proceses"],"vos":["proceses","procesés"],"s3":["procese"],"p1":["procesemos"],"p2":["proceséis"],"p3":["procesen"]},
+    "SubPres": {"s1":["procese"],"s2":["proceses"],"vos":[{"forma": "proceses","uso":"Riop."},{"forma":"procesés","uso":"C.Am."}],"s3":["procese"],"p1":["procesemos"],"p2":["proceséis"],"p3":["procesen"]},
     "SubImp": {"s1":["procesara","procesase"],"s2":["procesaras","procesases"],"vos":["procesaras","procesases"],"s3":["procesara","procesase"],"p1":["procesáramos","procesásemos"],"p2":["procesarais","procesaseis"],"p3":["procesaran","procesasen"]},
     "SubFut": {"s1":["procesare"],"s2":["procesares"],"vos":["procesares"],"s3":["procesare"],"p1":["procesáremos"],"p2":["procesareis"],"p3":["procesaren"]},
     "CmdPos": {"s2":["procesa"],"vos":["procesá"],"s3":["procese"],"p1":["procesemos"],"p2":["procesad"],"p3":["procesen"]}

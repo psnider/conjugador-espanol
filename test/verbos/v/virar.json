@@ -13,7 +13,7 @@
     "IndPret": {"s1":["viré"],"s2":["viraste"],"vos":["viraste"],"s3":["viró"],"p1":["viramos"],"p2":["virasteis"],"p3":["viraron"]},
     "IndFut": {"s1":["viraré"],"s2":["virarás"],"vos":["virarás"],"s3":["virará"],"p1":["viraremos"],"p2":["viraréis"],"p3":["virarán"]},
     "IndCond": {"s1":["viraría"],"s2":["virarías"],"vos":["virarías"],"s3":["viraría"],"p1":["viraríamos"],"p2":["viraríais"],"p3":["virarían"]},
-    "SubPres": {"s1":["vire"],"s2":["vires"],"vos":["vires","virés"],"s3":["vire"],"p1":["viremos"],"p2":["viréis"],"p3":["viren"]},
+    "SubPres": {"s1":["vire"],"s2":["vires"],"vos":[{"forma": "vires","uso":"Riop."},{"forma":"virés","uso":"C.Am."}],"s3":["vire"],"p1":["viremos"],"p2":["viréis"],"p3":["viren"]},
     "SubImp": {"s1":["virara","virase"],"s2":["viraras","virases"],"vos":["viraras","virases"],"s3":["virara","virase"],"p1":["viráramos","virásemos"],"p2":["virarais","viraseis"],"p3":["viraran","virasen"]},
     "SubFut": {"s1":["virare"],"s2":["virares"],"vos":["virares"],"s3":["virare"],"p1":["viráremos"],"p2":["virareis"],"p3":["viraren"]},
     "CmdPos": {"s2":["vira"],"vos":["virá"],"s3":["vire"],"p1":["viremos"],"p2":["virad"],"p3":["viren"]}

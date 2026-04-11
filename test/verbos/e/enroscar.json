@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enrosqué"],"s2":["enroscaste"],"vos":["enroscaste"],"s3":["enroscó"],"p1":["enroscamos"],"p2":["enroscasteis"],"p3":["enroscaron"]},
     "IndFut": {"s1":["enroscaré"],"s2":["enroscarás"],"vos":["enroscarás"],"s3":["enroscará"],"p1":["enroscaremos"],"p2":["enroscaréis"],"p3":["enroscarán"]},
     "IndCond": {"s1":["enroscaría"],"s2":["enroscarías"],"vos":["enroscarías"],"s3":["enroscaría"],"p1":["enroscaríamos"],"p2":["enroscaríais"],"p3":["enroscarían"]},
-    "SubPres": {"s1":["enrosque"],"s2":["enrosques"],"vos":["enrosques","enrosqués"],"s3":["enrosque"],"p1":["enrosquemos"],"p2":["enrosquéis"],"p3":["enrosquen"]},
+    "SubPres": {"s1":["enrosque"],"s2":["enrosques"],"vos":[{"forma": "enrosques","uso":"Riop."},{"forma":"enrosqués","uso":"C.Am."}],"s3":["enrosque"],"p1":["enrosquemos"],"p2":["enrosquéis"],"p3":["enrosquen"]},
     "SubImp": {"s1":["enroscara","enroscase"],"s2":["enroscaras","enroscases"],"vos":["enroscaras","enroscases"],"s3":["enroscara","enroscase"],"p1":["enroscáramos","enroscásemos"],"p2":["enroscarais","enroscaseis"],"p3":["enroscaran","enroscasen"]},
     "SubFut": {"s1":["enroscare"],"s2":["enroscares"],"vos":["enroscares"],"s3":["enroscare"],"p1":["enroscáremos"],"p2":["enroscareis"],"p3":["enroscaren"]},
     "CmdPos": {"s2":["enrosca"],"vos":["enroscá"],"s3":["enrosque"],"p1":["enrosquemos"],"p2":["enroscad"],"p3":["enrosquen"]}

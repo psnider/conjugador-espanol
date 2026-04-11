@@ -13,7 +13,7 @@
     "IndPret": {"s1":["suspiré"],"s2":["suspiraste"],"vos":["suspiraste"],"s3":["suspiró"],"p1":["suspiramos"],"p2":["suspirasteis"],"p3":["suspiraron"]},
     "IndFut": {"s1":["suspiraré"],"s2":["suspirarás"],"vos":["suspirarás"],"s3":["suspirará"],"p1":["suspiraremos"],"p2":["suspiraréis"],"p3":["suspirarán"]},
     "IndCond": {"s1":["suspiraría"],"s2":["suspirarías"],"vos":["suspirarías"],"s3":["suspiraría"],"p1":["suspiraríamos"],"p2":["suspiraríais"],"p3":["suspirarían"]},
-    "SubPres": {"s1":["suspire"],"s2":["suspires"],"vos":["suspires","suspirés"],"s3":["suspire"],"p1":["suspiremos"],"p2":["suspiréis"],"p3":["suspiren"]},
+    "SubPres": {"s1":["suspire"],"s2":["suspires"],"vos":[{"forma": "suspires","uso":"Riop."},{"forma":"suspirés","uso":"C.Am."}],"s3":["suspire"],"p1":["suspiremos"],"p2":["suspiréis"],"p3":["suspiren"]},
     "SubImp": {"s1":["suspirara","suspirase"],"s2":["suspiraras","suspirases"],"vos":["suspiraras","suspirases"],"s3":["suspirara","suspirase"],"p1":["suspiráramos","suspirásemos"],"p2":["suspirarais","suspiraseis"],"p3":["suspiraran","suspirasen"]},
     "SubFut": {"s1":["suspirare"],"s2":["suspirares"],"vos":["suspirares"],"s3":["suspirare"],"p1":["suspiráremos"],"p2":["suspirareis"],"p3":["suspiraren"]},
     "CmdPos": {"s2":["suspira"],"vos":["suspirá"],"s3":["suspire"],"p1":["suspiremos"],"p2":["suspirad"],"p3":["suspiren"]}

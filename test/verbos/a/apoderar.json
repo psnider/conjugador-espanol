@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apoderé"],"s2":["apoderaste"],"vos":["apoderaste"],"s3":["apoderó"],"p1":["apoderamos"],"p2":["apoderasteis"],"p3":["apoderaron"]},
     "IndFut": {"s1":["apoderaré"],"s2":["apoderarás"],"vos":["apoderarás"],"s3":["apoderará"],"p1":["apoderaremos"],"p2":["apoderaréis"],"p3":["apoderarán"]},
     "IndCond": {"s1":["apoderaría"],"s2":["apoderarías"],"vos":["apoderarías"],"s3":["apoderaría"],"p1":["apoderaríamos"],"p2":["apoderaríais"],"p3":["apoderarían"]},
-    "SubPres": {"s1":["apodere"],"s2":["apoderes"],"vos":["apoderes","apoderés"],"s3":["apodere"],"p1":["apoderemos"],"p2":["apoderéis"],"p3":["apoderen"]},
+    "SubPres": {"s1":["apodere"],"s2":["apoderes"],"vos":[{"forma": "apoderes","uso":"Riop."},{"forma":"apoderés","uso":"C.Am."}],"s3":["apodere"],"p1":["apoderemos"],"p2":["apoderéis"],"p3":["apoderen"]},
     "SubImp": {"s1":["apoderara","apoderase"],"s2":["apoderaras","apoderases"],"vos":["apoderaras","apoderases"],"s3":["apoderara","apoderase"],"p1":["apoderáramos","apoderásemos"],"p2":["apoderarais","apoderaseis"],"p3":["apoderaran","apoderasen"]},
     "SubFut": {"s1":["apoderare"],"s2":["apoderares"],"vos":["apoderares"],"s3":["apoderare"],"p1":["apoderáremos"],"p2":["apoderareis"],"p3":["apoderaren"]},
     "CmdPos": {"s2":["apodera"],"vos":["apoderá"],"s3":["apodere"],"p1":["apoderemos"],"p2":["apoderad"],"p3":["apoderen"]}

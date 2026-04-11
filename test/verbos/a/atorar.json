@@ -13,7 +13,7 @@
     "IndPret": {"s1":["atoré"],"s2":["atoraste"],"vos":["atoraste"],"s3":["atoró"],"p1":["atoramos"],"p2":["atorasteis"],"p3":["atoraron"]},
     "IndFut": {"s1":["atoraré"],"s2":["atorarás"],"vos":["atorarás"],"s3":["atorará"],"p1":["atoraremos"],"p2":["atoraréis"],"p3":["atorarán"]},
     "IndCond": {"s1":["atoraría"],"s2":["atorarías"],"vos":["atorarías"],"s3":["atoraría"],"p1":["atoraríamos"],"p2":["atoraríais"],"p3":["atorarían"]},
-    "SubPres": {"s1":["atore"],"s2":["atores"],"vos":["atores","atorés"],"s3":["atore"],"p1":["atoremos"],"p2":["atoréis"],"p3":["atoren"]},
+    "SubPres": {"s1":["atore"],"s2":["atores"],"vos":[{"forma": "atores","uso":"Riop."},{"forma":"atorés","uso":"C.Am."}],"s3":["atore"],"p1":["atoremos"],"p2":["atoréis"],"p3":["atoren"]},
     "SubImp": {"s1":["atorara","atorase"],"s2":["atoraras","atorases"],"vos":["atoraras","atorases"],"s3":["atorara","atorase"],"p1":["atoráramos","atorásemos"],"p2":["atorarais","atoraseis"],"p3":["atoraran","atorasen"]},
     "SubFut": {"s1":["atorare"],"s2":["atorares"],"vos":["atorares"],"s3":["atorare"],"p1":["atoráremos"],"p2":["atorareis"],"p3":["atoraren"]},
     "CmdPos": {"s2":["atora"],"vos":["atorá"],"s3":["atore"],"p1":["atoremos"],"p2":["atorad"],"p3":["atoren"]}

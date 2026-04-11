@@ -13,7 +13,7 @@
     "IndPret": {"s1":["revisé"],"s2":["revisaste"],"vos":["revisaste"],"s3":["revisó"],"p1":["revisamos"],"p2":["revisasteis"],"p3":["revisaron"]},
     "IndFut": {"s1":["revisaré"],"s2":["revisarás"],"vos":["revisarás"],"s3":["revisará"],"p1":["revisaremos"],"p2":["revisaréis"],"p3":["revisarán"]},
     "IndCond": {"s1":["revisaría"],"s2":["revisarías"],"vos":["revisarías"],"s3":["revisaría"],"p1":["revisaríamos"],"p2":["revisaríais"],"p3":["revisarían"]},
-    "SubPres": {"s1":["revise"],"s2":["revises"],"vos":["revises","revisés"],"s3":["revise"],"p1":["revisemos"],"p2":["reviséis"],"p3":["revisen"]},
+    "SubPres": {"s1":["revise"],"s2":["revises"],"vos":[{"forma": "revises","uso":"Riop."},{"forma":"revisés","uso":"C.Am."}],"s3":["revise"],"p1":["revisemos"],"p2":["reviséis"],"p3":["revisen"]},
     "SubImp": {"s1":["revisara","revisase"],"s2":["revisaras","revisases"],"vos":["revisaras","revisases"],"s3":["revisara","revisase"],"p1":["revisáramos","revisásemos"],"p2":["revisarais","revisaseis"],"p3":["revisaran","revisasen"]},
     "SubFut": {"s1":["revisare"],"s2":["revisares"],"vos":["revisares"],"s3":["revisare"],"p1":["revisáremos"],"p2":["revisareis"],"p3":["revisaren"]},
     "CmdPos": {"s2":["revisa"],"vos":["revisá"],"s3":["revise"],"p1":["revisemos"],"p2":["revisad"],"p3":["revisen"]}

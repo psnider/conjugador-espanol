@@ -12,7 +12,7 @@
     "IndPret": {"s1":["inmiscuí"],"s2":["inmiscuiste"],"vos":["inmiscuiste"],"s3":["inmiscuyó"],"p1":["inmiscuimos"],"p2":["inmiscuisteis"],"p3":["inmiscuyeron"]},
     "IndFut": {"s1":["inmiscuiré"],"s2":["inmiscuirás"],"vos":["inmiscuirás"],"s3":["inmiscuirá"],"p1":["inmiscuiremos"],"p2":["inmiscuiréis"],"p3":["inmiscuirán"]},
     "IndCond": {"s1":["inmiscuiría"],"s2":["inmiscuirías"],"vos":["inmiscuirías"],"s3":["inmiscuiría"],"p1":["inmiscuiríamos"],"p2":["inmiscuiríais"],"p3":["inmiscuirían"]},
-    "SubPres": {"s1":["inmiscuya"],"s2":["inmiscuyas"],"vos":["inmiscuyas","inmiscuyás"],"s3":["inmiscuya"],"p1":["inmiscuyamos"],"p2":["inmiscuyáis"],"p3":["inmiscuyan"]},
+    "SubPres": {"s1":["inmiscuya"],"s2":["inmiscuyas"],"vos":[{"forma": "inmiscuyas","uso":"Riop."},{"forma":"inmiscuyás","uso":"C.Am."}],"s3":["inmiscuya"],"p1":["inmiscuyamos"],"p2":["inmiscuyáis"],"p3":["inmiscuyan"]},
     "SubImp": {"s1":["inmiscuyera","inmiscuyese"],"s2":["inmiscuyeras","inmiscuyeses"],"vos":["inmiscuyeras","inmiscuyeses"],"s3":["inmiscuyera","inmiscuyese"],"p1":["inmiscuyéramos","inmiscuyésemos"],"p2":["inmiscuyerais","inmiscuyeseis"],"p3":["inmiscuyeran","inmiscuyesen"]},
     "SubFut": {"s1":["inmiscuyere"],"s2":["inmiscuyeres"],"vos":["inmiscuyeres"],"s3":["inmiscuyere"],"p1":["inmiscuyéremos"],"p2":["inmiscuyereis"],"p3":["inmiscuyeren"]},
     "CmdPos": {"s2":["inmiscuye"],"vos":["inmiscuí"],"s3":["inmiscuya"],"p1":["inmiscuyamos"],"p2":["inmiscuid"],"p3":["inmiscuyan"]}

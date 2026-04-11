@@ -13,7 +13,7 @@
     "IndPret": {"s1":["llevé"],"s2":["llevaste"],"vos":["llevaste"],"s3":["llevó"],"p1":["llevamos"],"p2":["llevasteis"],"p3":["llevaron"]},
     "IndFut": {"s1":["llevaré"],"s2":["llevarás"],"vos":["llevarás"],"s3":["llevará"],"p1":["llevaremos"],"p2":["llevaréis"],"p3":["llevarán"]},
     "IndCond": {"s1":["llevaría"],"s2":["llevarías"],"vos":["llevarías"],"s3":["llevaría"],"p1":["llevaríamos"],"p2":["llevaríais"],"p3":["llevarían"]},
-    "SubPres": {"s1":["lleve"],"s2":["lleves"],"vos":["lleves","llevés"],"s3":["lleve"],"p1":["llevemos"],"p2":["llevéis"],"p3":["lleven"]},
+    "SubPres": {"s1":["lleve"],"s2":["lleves"],"vos":[{"forma": "lleves","uso":"Riop."},{"forma":"llevés","uso":"C.Am."}],"s3":["lleve"],"p1":["llevemos"],"p2":["llevéis"],"p3":["lleven"]},
     "SubImp": {"s1":["llevara","llevase"],"s2":["llevaras","llevases"],"vos":["llevaras","llevases"],"s3":["llevara","llevase"],"p1":["lleváramos","llevásemos"],"p2":["llevarais","llevaseis"],"p3":["llevaran","llevasen"]},
     "SubFut": {"s1":["llevare"],"s2":["llevares"],"vos":["llevares"],"s3":["llevare"],"p1":["lleváremos"],"p2":["llevareis"],"p3":["llevaren"]},
     "CmdPos": {"s2":["lleva"],"vos":["llevá"],"s3":["lleve"],"p1":["llevemos"],"p2":["llevad"],"p3":["lleven"]}

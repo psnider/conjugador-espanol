@@ -13,7 +13,7 @@
     "IndPret": {"s1":["humillé"],"s2":["humillaste"],"vos":["humillaste"],"s3":["humilló"],"p1":["humillamos"],"p2":["humillasteis"],"p3":["humillaron"]},
     "IndFut": {"s1":["humillaré"],"s2":["humillarás"],"vos":["humillarás"],"s3":["humillará"],"p1":["humillaremos"],"p2":["humillaréis"],"p3":["humillarán"]},
     "IndCond": {"s1":["humillaría"],"s2":["humillarías"],"vos":["humillarías"],"s3":["humillaría"],"p1":["humillaríamos"],"p2":["humillaríais"],"p3":["humillarían"]},
-    "SubPres": {"s1":["humille"],"s2":["humilles"],"vos":["humilles","humillés"],"s3":["humille"],"p1":["humillemos"],"p2":["humilléis"],"p3":["humillen"]},
+    "SubPres": {"s1":["humille"],"s2":["humilles"],"vos":[{"forma": "humilles","uso":"Riop."},{"forma":"humillés","uso":"C.Am."}],"s3":["humille"],"p1":["humillemos"],"p2":["humilléis"],"p3":["humillen"]},
     "SubImp": {"s1":["humillara","humillase"],"s2":["humillaras","humillases"],"vos":["humillaras","humillases"],"s3":["humillara","humillase"],"p1":["humilláramos","humillásemos"],"p2":["humillarais","humillaseis"],"p3":["humillaran","humillasen"]},
     "SubFut": {"s1":["humillare"],"s2":["humillares"],"vos":["humillares"],"s3":["humillare"],"p1":["humilláremos"],"p2":["humillareis"],"p3":["humillaren"]},
     "CmdPos": {"s2":["humilla"],"vos":["humillá"],"s3":["humille"],"p1":["humillemos"],"p2":["humillad"],"p3":["humillen"]}

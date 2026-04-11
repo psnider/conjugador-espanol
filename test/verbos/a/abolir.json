@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞oˈliɾ]",
+    "silabacion": "a-bo-lir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín abolēre ('terminar'). Atestiguado desde el siglo XV.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"abolir","gerundio":["aboliendo"],"participio":["abolido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["abolo"],"s2":["aboles"],"vos":["abolís"],"s3":["abole"],"p1":["abolimos"],"p2":["abolís"],"p3":["abolen"]},
+    "IndImp": {"s1":["abolía"],"s2":["abolías"],"vos":["abolías"],"s3":["abolía"],"p1":["abolíamos"],"p2":["abolíais"],"p3":["abolían"]},
+    "IndPret": {"s1":["abolí"],"s2":["aboliste"],"vos":["aboliste"],"s3":["abolió"],"p1":["abolimos"],"p2":["abolisteis"],"p3":["abolieron"]},
+    "IndFut": {"s1":["aboliré"],"s2":["abolirás"],"vos":["abolirás"],"s3":["abolirá"],"p1":["aboliremos"],"p2":["aboliréis"],"p3":["abolirán"]},
+    "IndCond": {"s1":["aboliría"],"s2":["abolirías"],"vos":["abolirías"],"s3":["aboliría"],"p1":["aboliríamos"],"p2":["aboliríais"],"p3":["abolirían"]},
+    "SubPres": {"s1":["abola"],"s2":["abolas"],"vos":["abolas","abolás"],"s3":["abola"],"p1":["abolamos"],"p2":["aboláis"],"p3":["abolan"]},
+    "SubImp": {"s1":["aboliera","aboliese"],"s2":["abolieras","abolieses"],"vos":["abolieras","abolieses"],"s3":["aboliera","aboliese"],"p1":["aboliéramos","aboliésemos"],"p2":["abolierais","abolieseis"],"p3":["abolieran","aboliesen"]},
+    "SubFut": {"s1":["aboliere"],"s2":["abolieres"],"vos":["abolieres"],"s3":["aboliere"],"p1":["aboliéremos"],"p2":["aboliereis"],"p3":["abolieren"]},
+    "CmdPos": {"s2":["abole"],"vos":["abolí"],"s3":["abola"],"p1":["abolamos"],"p2":["abolid"],"p3":["abolan"]}
+  }
+}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mostré"],"s2":["mostraste"],"vos":["mostraste"],"s3":["mostró"],"p1":["mostramos"],"p2":["mostrasteis"],"p3":["mostraron"]},
     "IndFut": {"s1":["mostraré"],"s2":["mostrarás"],"vos":["mostrarás"],"s3":["mostrará"],"p1":["mostraremos"],"p2":["mostraréis"],"p3":["mostrarán"]},
     "IndCond": {"s1":["mostraría"],"s2":["mostrarías"],"vos":["mostrarías"],"s3":["mostraría"],"p1":["mostraríamos"],"p2":["mostraríais"],"p3":["mostrarían"]},
-    "SubPres": {"s1":["muestre"],"s2":["muestres"],"vos":["muestres","mostrés"],"s3":["muestre"],"p1":["mostremos"],"p2":["mostréis"],"p3":["muestren"]},
+    "SubPres": {"s1":["muestre"],"s2":["muestres"],"vos":[{"forma": "muestres","uso":"Riop."},{"forma":"mostrés","uso":"C.Am."}],"s3":["muestre"],"p1":["mostremos"],"p2":["mostréis"],"p3":["muestren"]},
     "SubImp": {"s1":["mostrara","mostrase"],"s2":["mostraras","mostrases"],"vos":["mostraras","mostrases"],"s3":["mostrara","mostrase"],"p1":["mostráramos","mostrásemos"],"p2":["mostrarais","mostraseis"],"p3":["mostraran","mostrasen"]},
     "SubFut": {"s1":["mostrare"],"s2":["mostrares"],"vos":["mostrares"],"s3":["mostrare"],"p1":["mostráremos"],"p2":["mostrareis"],"p3":["mostraren"]},
     "CmdPos": {"s2":["muestra"],"vos":["mostrá"],"s3":["muestre"],"p1":["mostremos"],"p2":["mostrad"],"p3":["muestren"]}

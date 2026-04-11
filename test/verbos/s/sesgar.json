@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sesˈɣ̞aɾ]",
+    "silabacion": "ses-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sessicare, formación verbal a partír de sessus, \"sentado\". Estar sentado era una acción propia de los sastres, que por su oficio cortaban telas",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"sesgar","gerundio":["sesgando"],"participio":["sesgado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sesgo"],"s2":["sesgas"],"vos":["sesgás"],"s3":["sesga"],"p1":["sesgamos"],"p2":["sesgáis"],"p3":["sesgan"]},
+    "IndImp": {"s1":["sesgaba"],"s2":["sesgabas"],"vos":["sesgabas"],"s3":["sesgaba"],"p1":["sesgábamos"],"p2":["sesgabais"],"p3":["sesgaban"]},
+    "IndPret": {"s1":["sesgué"],"s2":["sesgaste"],"vos":["sesgaste"],"s3":["sesgó"],"p1":["sesgamos"],"p2":["sesgasteis"],"p3":["sesgaron"]},
+    "IndFut": {"s1":["sesgaré"],"s2":["sesgarás"],"vos":["sesgarás"],"s3":["sesgará"],"p1":["sesgaremos"],"p2":["sesgaréis"],"p3":["sesgarán"]},
+    "IndCond": {"s1":["sesgaría"],"s2":["sesgarías"],"vos":["sesgarías"],"s3":["sesgaría"],"p1":["sesgaríamos"],"p2":["sesgaríais"],"p3":["sesgarían"]},
+    "SubPres": {"s1":["sesgue"],"s2":["sesgues"],"vos":["sesgues","sesgués"],"s3":["sesgue"],"p1":["sesguemos"],"p2":["sesguéis"],"p3":["sesguen"]},
+    "SubImp": {"s1":["sesgara","sesgase"],"s2":["sesgaras","sesgases"],"vos":["sesgaras","sesgases"],"s3":["sesgara","sesgase"],"p1":["sesgáramos","sesgásemos"],"p2":["sesgarais","sesgaseis"],"p3":["sesgaran","sesgasen"]},
+    "SubFut": {"s1":["sesgare"],"s2":["sesgares"],"vos":["sesgares"],"s3":["sesgare"],"p1":["sesgáremos"],"p2":["sesgareis"],"p3":["sesgaren"]},
+    "CmdPos": {"s2":["sesga"],"vos":["sesgá"],"s3":["sesgue"],"p1":["sesguemos"],"p2":["sesgad"],"p3":["sesguen"]}
+  }
+}

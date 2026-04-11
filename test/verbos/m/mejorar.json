@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mejoré"],"s2":["mejoraste"],"vos":["mejoraste"],"s3":["mejoró"],"p1":["mejoramos"],"p2":["mejorasteis"],"p3":["mejoraron"]},
     "IndFut": {"s1":["mejoraré"],"s2":["mejorarás"],"vos":["mejorarás"],"s3":["mejorará"],"p1":["mejoraremos"],"p2":["mejoraréis"],"p3":["mejorarán"]},
     "IndCond": {"s1":["mejoraría"],"s2":["mejorarías"],"vos":["mejorarías"],"s3":["mejoraría"],"p1":["mejoraríamos"],"p2":["mejoraríais"],"p3":["mejorarían"]},
-    "SubPres": {"s1":["mejore"],"s2":["mejores"],"vos":["mejores","mejorés"],"s3":["mejore"],"p1":["mejoremos"],"p2":["mejoréis"],"p3":["mejoren"]},
+    "SubPres": {"s1":["mejore"],"s2":["mejores"],"vos":[{"forma": "mejores","uso":"Riop."},{"forma":"mejorés","uso":"C.Am."}],"s3":["mejore"],"p1":["mejoremos"],"p2":["mejoréis"],"p3":["mejoren"]},
     "SubImp": {"s1":["mejorara","mejorase"],"s2":["mejoraras","mejorases"],"vos":["mejoraras","mejorases"],"s3":["mejorara","mejorase"],"p1":["mejoráramos","mejorásemos"],"p2":["mejorarais","mejoraseis"],"p3":["mejoraran","mejorasen"]},
     "SubFut": {"s1":["mejorare"],"s2":["mejorares"],"vos":["mejorares"],"s3":["mejorare"],"p1":["mejoráremos"],"p2":["mejorareis"],"p3":["mejoraren"]},
     "CmdPos": {"s2":["mejora"],"vos":["mejorá"],"s3":["mejore"],"p1":["mejoremos"],"p2":["mejorad"],"p3":["mejoren"]}

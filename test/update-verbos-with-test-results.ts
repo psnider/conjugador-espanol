@@ -1,4 +1,5 @@
 import * as fs from 'node:fs'
+import { compareSpanishWords } from '../src/lib.js'
 
 
 // verbs found from verbos_con_cambios_morfológicos[]
@@ -14,12 +15,40 @@ const resultados_de_pruebas = JSON.parse(resultados_de_pruebas_json)
 
 
 function annotateVerbAttributesFileWithTestResults() {
+    function copyToStartOfVerbsList() {
+        while (true) {
+            let línea_original = líneas_originales[line_index++]
+            líneas_anotadas.push(línea_original)
+            if (línea_original.startsWith(start_of_table)) {
+                break
+            }
+        }
+    }
+    function copyRemainder() {
+        while (line_index < líneas_originales.length) {
+            let línea_original = líneas_originales[line_index++]
+            líneas_anotadas.push(línea_original)
+        }
+    }
+    const start_of_table = "export const verbos_con_cambios_morfológicos"
+    const end_of_table = "}"
     const líneas_originales = fs.readFileSync(verbos_archivo_nombre).toString().split("\n")
     const líneas_anotadas = []
-    for (const línea_original of líneas_originales) {
+    let line_index = 0
+    copyToStartOfVerbsList()
+    let previous_verb = "aaaaaaa"  // something guaranteed to test earlier than any actual word
+    while (true) {
+        let línea_original = líneas_originales[line_index++]
+        if (línea_original.startsWith(end_of_table)) {
+            líneas_anotadas.push(línea_original)
+            break
+        }
         const match = línea_original.match(/^    ([a-zñáéíóúü]+):(\s+){/)
         if (match) {
             const verbo = match[1]
+            if (compareSpanishWords(previous_verb, verbo) > 0) {
+                console.log(`${verbo} is out of order`)
+            }
             verbs_in_verbos_con_cambios_morfológicos[verbo] = true
             if (verbo in resultados_de_pruebas) {
                 const resultados_por_verbo = resultados_de_pruebas[verbo]
@@ -31,10 +60,12 @@ function annotateVerbAttributesFileWithTestResults() {
                 líneas_anotadas.push(línea_original)
                 verbs_missing_validation_data.push(verbo)
             }
+            previous_verb = verbo
         } else {
             líneas_anotadas.push(línea_original)
         }
     }
+    copyRemainder()
     const líneas_anotadas_juntado = líneas_anotadas.join("\n")
     fs.writeFileSync(verbos_archivo_nombre, líneas_anotadas_juntado)
     console.log(`added test results as "ok" fields in ${verbos_archivo_nombre}`)

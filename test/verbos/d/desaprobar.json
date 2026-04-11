@@ -12,7 +12,7 @@
     "IndPret": {"s1":["desaprobé"],"s2":["desaprobaste"],"vos":["desaprobaste"],"s3":["desaprobó"],"p1":["desaprobamos"],"p2":["desaprobasteis"],"p3":["desaprobaron"]},
     "IndFut": {"s1":["desaprobaré"],"s2":["desaprobarás"],"vos":["desaprobarás"],"s3":["desaprobará"],"p1":["desaprobaremos"],"p2":["desaprobaréis"],"p3":["desaprobarán"]},
     "IndCond": {"s1":["desaprobaría"],"s2":["desaprobarías"],"vos":["desaprobarías"],"s3":["desaprobaría"],"p1":["desaprobaríamos"],"p2":["desaprobaríais"],"p3":["desaprobarían"]},
-    "SubPres": {"s1":["desapruebe"],"s2":["desapruebes"],"vos":["desapruebes","desaprobés"],"s3":["desapruebe"],"p1":["desaprobemos"],"p2":["desaprobéis"],"p3":["desaprueben"]},
+    "SubPres": {"s1":["desapruebe"],"s2":["desapruebes"],"vos":[{"forma": "desapruebes","uso":"Riop."},{"forma":"desaprobés","uso":"C.Am."}],"s3":["desapruebe"],"p1":["desaprobemos"],"p2":["desaprobéis"],"p3":["desaprueben"]},
     "SubImp": {"s1":["desaprobara","desaprobase"],"s2":["desaprobaras","desaprobases"],"vos":["desaprobaras","desaprobases"],"s3":["desaprobara","desaprobase"],"p1":["desaprobáramos","desaprobásemos"],"p2":["desaprobarais","desaprobaseis"],"p3":["desaprobaran","desaprobasen"]},
     "SubFut": {"s1":["desaprobare"],"s2":["desaprobares"],"vos":["desaprobares"],"s3":["desaprobare"],"p1":["desaprobáremos"],"p2":["desaprobareis"],"p3":["desaprobaren"]},
     "CmdPos": {"s2":["desaprueba"],"vos":["desaprobá"],"s3":["desapruebe"],"p1":["desaprobemos"],"p2":["desaprobad"],"p3":["desaprueben"]}

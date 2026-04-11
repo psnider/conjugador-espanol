@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmbiˈβ̞iɾ]",
+    "silabacion": "con-vi-vir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo con- y vivir, del latín convivere.[1]",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"convivir","gerundio":["conviviendo"],"participio":["convivido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["convivo"],"s2":["convives"],"vos":["convivís"],"s3":["convive"],"p1":["convivimos"],"p2":["convivís"],"p3":["conviven"]},
+    "IndImp": {"s1":["convivía"],"s2":["convivías"],"vos":["convivías"],"s3":["convivía"],"p1":["convivíamos"],"p2":["convivíais"],"p3":["convivían"]},
+    "IndPret": {"s1":["conviví"],"s2":["conviviste"],"vos":["conviviste"],"s3":["convivió"],"p1":["convivimos"],"p2":["convivisteis"],"p3":["convivieron"]},
+    "IndFut": {"s1":["conviviré"],"s2":["convivirás"],"vos":["convivirás"],"s3":["convivirá"],"p1":["conviviremos"],"p2":["conviviréis"],"p3":["convivirán"]},
+    "IndCond": {"s1":["conviviría"],"s2":["convivirías"],"vos":["convivirías"],"s3":["conviviría"],"p1":["conviviríamos"],"p2":["conviviríais"],"p3":["convivirían"]},
+    "SubPres": {"s1":["conviva"],"s2":["convivas"],"vos":["convivas","convivás"],"s3":["conviva"],"p1":["convivamos"],"p2":["conviváis"],"p3":["convivan"]},
+    "SubImp": {"s1":["conviviera","conviviese"],"s2":["convivieras","convivieses"],"vos":["convivieras","convivieses"],"s3":["conviviera","conviviese"],"p1":["conviviéramos","conviviésemos"],"p2":["convivierais","convivieseis"],"p3":["convivieran","conviviesen"]},
+    "SubFut": {"s1":["conviviere"],"s2":["convivieres"],"vos":["convivieres"],"s3":["conviviere"],"p1":["conviviéremos"],"p2":["conviviereis"],"p3":["convivieren"]},
+    "CmdPos": {"s2":["convive"],"vos":["conviví"],"s3":["conviva"],"p1":["convivamos"],"p2":["convivid"],"p3":["convivan"]}
+  }
+}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["remodelé"],"s2":["remodelaste"],"vos":["remodelaste"],"s3":["remodeló"],"p1":["remodelamos"],"p2":["remodelasteis"],"p3":["remodelaron"]},
     "IndFut": {"s1":["remodelaré"],"s2":["remodelarás"],"vos":["remodelarás"],"s3":["remodelará"],"p1":["remodelaremos"],"p2":["remodelaréis"],"p3":["remodelarán"]},
     "IndCond": {"s1":["remodelaría"],"s2":["remodelarías"],"vos":["remodelarías"],"s3":["remodelaría"],"p1":["remodelaríamos"],"p2":["remodelaríais"],"p3":["remodelarían"]},
-    "SubPres": {"s1":["remodele"],"s2":["remodeles"],"vos":["remodeles","remodelés"],"s3":["remodele"],"p1":["remodelemos"],"p2":["remodeléis"],"p3":["remodelen"]},
+    "SubPres": {"s1":["remodele"],"s2":["remodeles"],"vos":[{"forma": "remodeles","uso":"Riop."},{"forma":"remodelés","uso":"C.Am."}],"s3":["remodele"],"p1":["remodelemos"],"p2":["remodeléis"],"p3":["remodelen"]},
     "SubImp": {"s1":["remodelara","remodelase"],"s2":["remodelaras","remodelases"],"vos":["remodelaras","remodelases"],"s3":["remodelara","remodelase"],"p1":["remodeláramos","remodelásemos"],"p2":["remodelarais","remodelaseis"],"p3":["remodelaran","remodelasen"]},
     "SubFut": {"s1":["remodelare"],"s2":["remodelares"],"vos":["remodelares"],"s3":["remodelare"],"p1":["remodeláremos"],"p2":["remodelareis"],"p3":["remodelaren"]},
     "CmdPos": {"s2":["remodela"],"vos":["remodelá"],"s3":["remodele"],"p1":["remodelemos"],"p2":["remodelad"],"p3":["remodelen"]}

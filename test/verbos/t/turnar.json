@@ -13,7 +13,7 @@
     "IndPret": {"s1":["turné"],"s2":["turnaste"],"vos":["turnaste"],"s3":["turnó"],"p1":["turnamos"],"p2":["turnasteis"],"p3":["turnaron"]},
     "IndFut": {"s1":["turnaré"],"s2":["turnarás"],"vos":["turnarás"],"s3":["turnará"],"p1":["turnaremos"],"p2":["turnaréis"],"p3":["turnarán"]},
     "IndCond": {"s1":["turnaría"],"s2":["turnarías"],"vos":["turnarías"],"s3":["turnaría"],"p1":["turnaríamos"],"p2":["turnaríais"],"p3":["turnarían"]},
-    "SubPres": {"s1":["turne"],"s2":["turnes"],"vos":["turnes","turnés"],"s3":["turne"],"p1":["turnemos"],"p2":["turnéis"],"p3":["turnen"]},
+    "SubPres": {"s1":["turne"],"s2":["turnes"],"vos":[{"forma": "turnes","uso":"Riop."},{"forma":"turnés","uso":"C.Am."}],"s3":["turne"],"p1":["turnemos"],"p2":["turnéis"],"p3":["turnen"]},
     "SubImp": {"s1":["turnara","turnase"],"s2":["turnaras","turnases"],"vos":["turnaras","turnases"],"s3":["turnara","turnase"],"p1":["turnáramos","turnásemos"],"p2":["turnarais","turnaseis"],"p3":["turnaran","turnasen"]},
     "SubFut": {"s1":["turnare"],"s2":["turnares"],"vos":["turnares"],"s3":["turnare"],"p1":["turnáremos"],"p2":["turnareis"],"p3":["turnaren"]},
     "CmdPos": {"s2":["turna"],"vos":["turná"],"s3":["turne"],"p1":["turnemos"],"p2":["turnad"],"p3":["turnen"]}

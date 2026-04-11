@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arremetí"],"s2":["arremetiste"],"vos":["arremetiste"],"s3":["arremetió"],"p1":["arremetimos"],"p2":["arremetisteis"],"p3":["arremetieron"]},
     "IndFut": {"s1":["arremeteré"],"s2":["arremeterás"],"vos":["arremeterás"],"s3":["arremeterá"],"p1":["arremeteremos"],"p2":["arremeteréis"],"p3":["arremeterán"]},
     "IndCond": {"s1":["arremetería"],"s2":["arremeterías"],"vos":["arremeterías"],"s3":["arremetería"],"p1":["arremeteríamos"],"p2":["arremeteríais"],"p3":["arremeterían"]},
-    "SubPres": {"s1":["arremeta"],"s2":["arremetas"],"vos":["arremetas","arremetás"],"s3":["arremeta"],"p1":["arremetamos"],"p2":["arremetáis"],"p3":["arremetan"]},
+    "SubPres": {"s1":["arremeta"],"s2":["arremetas"],"vos":[{"forma": "arremetas","uso":"Riop."},{"forma":"arremetás","uso":"C.Am."}],"s3":["arremeta"],"p1":["arremetamos"],"p2":["arremetáis"],"p3":["arremetan"]},
     "SubImp": {"s1":["arremetiera","arremetiese"],"s2":["arremetieras","arremetieses"],"vos":["arremetieras","arremetieses"],"s3":["arremetiera","arremetiese"],"p1":["arremetiéramos","arremetiésemos"],"p2":["arremetierais","arremetieseis"],"p3":["arremetieran","arremetiesen"]},
     "SubFut": {"s1":["arremetiere"],"s2":["arremetieres"],"vos":["arremetieres"],"s3":["arremetiere"],"p1":["arremetiéremos"],"p2":["arremetiereis"],"p3":["arremetieren"]},
     "CmdPos": {"s2":["arremete"],"vos":["arremeté"],"s3":["arremeta"],"p1":["arremetamos"],"p2":["arremeted"],"p3":["arremetan"]}

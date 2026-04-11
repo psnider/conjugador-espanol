@@ -13,7 +13,7 @@
     "IndPret": {"s1":["besé"],"s2":["besaste"],"vos":["besaste"],"s3":["besó"],"p1":["besamos"],"p2":["besasteis"],"p3":["besaron"]},
     "IndFut": {"s1":["besaré"],"s2":["besarás"],"vos":["besarás"],"s3":["besará"],"p1":["besaremos"],"p2":["besaréis"],"p3":["besarán"]},
     "IndCond": {"s1":["besaría"],"s2":["besarías"],"vos":["besarías"],"s3":["besaría"],"p1":["besaríamos"],"p2":["besaríais"],"p3":["besarían"]},
-    "SubPres": {"s1":["bese"],"s2":["beses"],"vos":["beses","besés"],"s3":["bese"],"p1":["besemos"],"p2":["beséis"],"p3":["besen"]},
+    "SubPres": {"s1":["bese"],"s2":["beses"],"vos":[{"forma": "beses","uso":"Riop."},{"forma":"besés","uso":"C.Am."}],"s3":["bese"],"p1":["besemos"],"p2":["beséis"],"p3":["besen"]},
     "SubImp": {"s1":["besara","besase"],"s2":["besaras","besases"],"vos":["besaras","besases"],"s3":["besara","besase"],"p1":["besáramos","besásemos"],"p2":["besarais","besaseis"],"p3":["besaran","besasen"]},
     "SubFut": {"s1":["besare"],"s2":["besares"],"vos":["besares"],"s3":["besare"],"p1":["besáremos"],"p2":["besareis"],"p3":["besaren"]},
     "CmdPos": {"s2":["besa"],"vos":["besá"],"s3":["bese"],"p1":["besemos"],"p2":["besad"],"p3":["besen"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["destruí"],"s2":["destruiste"],"vos":["destruiste"],"s3":["destruyó"],"p1":["destruimos"],"p2":["destruisteis"],"p3":["destruyeron"]},
     "IndFut": {"s1":["destruiré"],"s2":["destruirás"],"vos":["destruirás"],"s3":["destruirá"],"p1":["destruiremos"],"p2":["destruiréis"],"p3":["destruirán"]},
     "IndCond": {"s1":["destruiría"],"s2":["destruirías"],"vos":["destruirías"],"s3":["destruiría"],"p1":["destruiríamos"],"p2":["destruiríais"],"p3":["destruirían"]},
-    "SubPres": {"s1":["destruya"],"s2":["destruyas"],"vos":["destruyas","destruyás"],"s3":["destruya"],"p1":["destruyamos"],"p2":["destruyáis"],"p3":["destruyan"]},
+    "SubPres": {"s1":["destruya"],"s2":["destruyas"],"vos":[{"forma": "destruyas","uso":"Riop."},{"forma":"destruyás","uso":"C.Am."}],"s3":["destruya"],"p1":["destruyamos"],"p2":["destruyáis"],"p3":["destruyan"]},
     "SubImp": {"s1":["destruyera","destruyese"],"s2":["destruyeras","destruyeses"],"vos":["destruyeras","destruyeses"],"s3":["destruyera","destruyese"],"p1":["destruyéramos","destruyésemos"],"p2":["destruyerais","destruyeseis"],"p3":["destruyeran","destruyesen"]},
     "SubFut": {"s1":["destruyere"],"s2":["destruyeres"],"vos":["destruyeres"],"s3":["destruyere"],"p1":["destruyéremos"],"p2":["destruyereis"],"p3":["destruyeren"]},
     "CmdPos": {"s2":["destruye"],"vos":["destruí"],"s3":["destruya"],"p1":["destruyamos"],"p2":["destruid"],"p3":["destruyan"]}

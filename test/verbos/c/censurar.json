@@ -13,7 +13,7 @@
     "IndPret": {"s1":["censuré"],"s2":["censuraste"],"vos":["censuraste"],"s3":["censuró"],"p1":["censuramos"],"p2":["censurasteis"],"p3":["censuraron"]},
     "IndFut": {"s1":["censuraré"],"s2":["censurarás"],"vos":["censurarás"],"s3":["censurará"],"p1":["censuraremos"],"p2":["censuraréis"],"p3":["censurarán"]},
     "IndCond": {"s1":["censuraría"],"s2":["censurarías"],"vos":["censurarías"],"s3":["censuraría"],"p1":["censuraríamos"],"p2":["censuraríais"],"p3":["censurarían"]},
-    "SubPres": {"s1":["censure"],"s2":["censures"],"vos":["censures","censurés"],"s3":["censure"],"p1":["censuremos"],"p2":["censuréis"],"p3":["censuren"]},
+    "SubPres": {"s1":["censure"],"s2":["censures"],"vos":[{"forma": "censures","uso":"Riop."},{"forma":"censurés","uso":"C.Am."}],"s3":["censure"],"p1":["censuremos"],"p2":["censuréis"],"p3":["censuren"]},
     "SubImp": {"s1":["censurara","censurase"],"s2":["censuraras","censurases"],"vos":["censuraras","censurases"],"s3":["censurara","censurase"],"p1":["censuráramos","censurásemos"],"p2":["censurarais","censuraseis"],"p3":["censuraran","censurasen"]},
     "SubFut": {"s1":["censurare"],"s2":["censurares"],"vos":["censurares"],"s3":["censurare"],"p1":["censuráremos"],"p2":["censurareis"],"p3":["censuraren"]},
     "CmdPos": {"s2":["censura"],"vos":["censurá"],"s3":["censure"],"p1":["censuremos"],"p2":["censurad"],"p3":["censuren"]}

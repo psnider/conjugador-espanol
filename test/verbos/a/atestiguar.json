@@ -12,7 +12,7 @@
     "IndPret": {"s1":["atestigüé"],"s2":["atestiguaste"],"vos":["atestiguaste"],"s3":["atestiguó"],"p1":["atestiguamos"],"p2":["atestiguasteis"],"p3":["atestiguaron"]},
     "IndFut": {"s1":["atestiguaré"],"s2":["atestiguarás"],"vos":["atestiguarás"],"s3":["atestiguará"],"p1":["atestiguaremos"],"p2":["atestiguaréis"],"p3":["atestiguarán"]},
     "IndCond": {"s1":["atestiguaría"],"s2":["atestiguarías"],"vos":["atestiguarías"],"s3":["atestiguaría"],"p1":["atestiguaríamos"],"p2":["atestiguaríais"],"p3":["atestiguarían"]},
-    "SubPres": {"s1":["atestigüe"],"s2":["atestigües"],"vos":["atestigües","atestigüés"],"s3":["atestigüe"],"p1":["atestigüemos"],"p2":["atestigüéis"],"p3":["atestigüen"]},
+    "SubPres": {"s1":["atestigüe"],"s2":["atestigües"],"vos":[{"forma": "atestigües","uso":"Riop."},{"forma":"atestigüés","uso":"C.Am."}],"s3":["atestigüe"],"p1":["atestigüemos"],"p2":["atestigüéis"],"p3":["atestigüen"]},
     "SubImp": {"s1":["atestiguara","atestiguase"],"s2":["atestiguaras","atestiguases"],"vos":["atestiguaras","atestiguases"],"s3":["atestiguara","atestiguase"],"p1":["atestiguáramos","atestiguásemos"],"p2":["atestiguarais","atestiguaseis"],"p3":["atestiguaran","atestiguasen"]},
     "SubFut": {"s1":["atestiguare"],"s2":["atestiguares"],"vos":["atestiguares"],"s3":["atestiguare"],"p1":["atestiguáremos"],"p2":["atestiguareis"],"p3":["atestiguaren"]},
     "CmdPos": {"s2":["atestigua"],"vos":["atestiguá"],"s3":["atestigüe"],"p1":["atestigüemos"],"p2":["atestiguad"],"p3":["atestigüen"]}

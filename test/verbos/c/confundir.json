@@ -13,7 +13,7 @@
     "IndPret": {"s1":["confundí"],"s2":["confundiste"],"vos":["confundiste"],"s3":["confundió"],"p1":["confundimos"],"p2":["confundisteis"],"p3":["confundieron"]},
     "IndFut": {"s1":["confundiré"],"s2":["confundirás"],"vos":["confundirás"],"s3":["confundirá"],"p1":["confundiremos"],"p2":["confundiréis"],"p3":["confundirán"]},
     "IndCond": {"s1":["confundiría"],"s2":["confundirías"],"vos":["confundirías"],"s3":["confundiría"],"p1":["confundiríamos"],"p2":["confundiríais"],"p3":["confundirían"]},
-    "SubPres": {"s1":["confunda"],"s2":["confundas"],"vos":["confundas","confundás"],"s3":["confunda"],"p1":["confundamos"],"p2":["confundáis"],"p3":["confundan"]},
+    "SubPres": {"s1":["confunda"],"s2":["confundas"],"vos":[{"forma": "confundas","uso":"Riop."},{"forma":"confundás","uso":"C.Am."}],"s3":["confunda"],"p1":["confundamos"],"p2":["confundáis"],"p3":["confundan"]},
     "SubImp": {"s1":["confundiera","confundiese"],"s2":["confundieras","confundieses"],"vos":["confundieras","confundieses"],"s3":["confundiera","confundiese"],"p1":["confundiéramos","confundiésemos"],"p2":["confundierais","confundieseis"],"p3":["confundieran","confundiesen"]},
     "SubFut": {"s1":["confundiere"],"s2":["confundieres"],"vos":["confundieres"],"s3":["confundiere"],"p1":["confundiéremos"],"p2":["confundiereis"],"p3":["confundieren"]},
     "CmdPos": {"s2":["confunde"],"vos":["confundí"],"s3":["confunda"],"p1":["confundamos"],"p2":["confundid"],"p3":["confundan"]}

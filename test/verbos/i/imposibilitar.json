@@ -13,7 +13,7 @@
     "IndPret": {"s1":["imposibilité"],"s2":["imposibilitaste"],"vos":["imposibilitaste"],"s3":["imposibilitó"],"p1":["imposibilitamos"],"p2":["imposibilitasteis"],"p3":["imposibilitaron"]},
     "IndFut": {"s1":["imposibilitaré"],"s2":["imposibilitarás"],"vos":["imposibilitarás"],"s3":["imposibilitará"],"p1":["imposibilitaremos"],"p2":["imposibilitaréis"],"p3":["imposibilitarán"]},
     "IndCond": {"s1":["imposibilitaría"],"s2":["imposibilitarías"],"vos":["imposibilitarías"],"s3":["imposibilitaría"],"p1":["imposibilitaríamos"],"p2":["imposibilitaríais"],"p3":["imposibilitarían"]},
-    "SubPres": {"s1":["imposibilite"],"s2":["imposibilites"],"vos":["imposibilites","imposibilités"],"s3":["imposibilite"],"p1":["imposibilitemos"],"p2":["imposibilitéis"],"p3":["imposibiliten"]},
+    "SubPres": {"s1":["imposibilite"],"s2":["imposibilites"],"vos":[{"forma": "imposibilites","uso":"Riop."},{"forma":"imposibilités","uso":"C.Am."}],"s3":["imposibilite"],"p1":["imposibilitemos"],"p2":["imposibilitéis"],"p3":["imposibiliten"]},
     "SubImp": {"s1":["imposibilitara","imposibilitase"],"s2":["imposibilitaras","imposibilitases"],"vos":["imposibilitaras","imposibilitases"],"s3":["imposibilitara","imposibilitase"],"p1":["imposibilitáramos","imposibilitásemos"],"p2":["imposibilitarais","imposibilitaseis"],"p3":["imposibilitaran","imposibilitasen"]},
     "SubFut": {"s1":["imposibilitare"],"s2":["imposibilitares"],"vos":["imposibilitares"],"s3":["imposibilitare"],"p1":["imposibilitáremos"],"p2":["imposibilitareis"],"p3":["imposibilitaren"]},
     "CmdPos": {"s2":["imposibilita"],"vos":["imposibilitá"],"s3":["imposibilite"],"p1":["imposibilitemos"],"p2":["imposibilitad"],"p3":["imposibiliten"]}

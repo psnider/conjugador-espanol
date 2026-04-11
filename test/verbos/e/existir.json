@@ -13,7 +13,7 @@
     "IndPret": {"s1":["existí"],"s2":["exististe"],"vos":["exististe"],"s3":["existió"],"p1":["existimos"],"p2":["exististeis"],"p3":["existieron"]},
     "IndFut": {"s1":["existiré"],"s2":["existirás"],"vos":["existirás"],"s3":["existirá"],"p1":["existiremos"],"p2":["existiréis"],"p3":["existirán"]},
     "IndCond": {"s1":["existiría"],"s2":["existirías"],"vos":["existirías"],"s3":["existiría"],"p1":["existiríamos"],"p2":["existiríais"],"p3":["existirían"]},
-    "SubPres": {"s1":["exista"],"s2":["existas"],"vos":["existas","existás"],"s3":["exista"],"p1":["existamos"],"p2":["existáis"],"p3":["existan"]},
+    "SubPres": {"s1":["exista"],"s2":["existas"],"vos":[{"forma": "existas","uso":"Riop."},{"forma":"existás","uso":"C.Am."}],"s3":["exista"],"p1":["existamos"],"p2":["existáis"],"p3":["existan"]},
     "SubImp": {"s1":["existiera","existiese"],"s2":["existieras","existieses"],"vos":["existieras","existieses"],"s3":["existiera","existiese"],"p1":["existiéramos","existiésemos"],"p2":["existierais","existieseis"],"p3":["existieran","existiesen"]},
     "SubFut": {"s1":["existiere"],"s2":["existieres"],"vos":["existieres"],"s3":["existiere"],"p1":["existiéremos"],"p2":["existiereis"],"p3":["existieren"]},
     "CmdPos": {"s2":["existe"],"vos":["existí"],"s3":["exista"],"p1":["existamos"],"p2":["existid"],"p3":["existan"]}

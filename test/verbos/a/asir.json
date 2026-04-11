@@ -13,7 +13,7 @@
     "IndPret": {"s1":["así"],"s2":["asiste"],"vos":["asiste"],"s3":["asió"],"p1":["asimos"],"p2":["asisteis"],"p3":["asieron"]},
     "IndFut": {"s1":["asiré"],"s2":["asirás"],"vos":["asirás"],"s3":["asirá"],"p1":["asiremos"],"p2":["asiréis"],"p3":["asirán"]},
     "IndCond": {"s1":["asiría"],"s2":["asirías"],"vos":["asirías"],"s3":["asiría"],"p1":["asiríamos"],"p2":["asiríais"],"p3":["asirían"]},
-    "SubPres": {"s1":["asga"],"s2":["asgas"],"vos":["asgas","asgás"],"s3":["asga"],"p1":["asgamos"],"p2":["asgáis"],"p3":["asgan"]},
+    "SubPres": {"s1":["asga"],"s2":["asgas"],"vos":[{"forma": "asgas","uso":"Riop."},{"forma":"asgás","uso":"C.Am."}],"s3":["asga"],"p1":["asgamos"],"p2":["asgáis"],"p3":["asgan"]},
     "SubImp": {"s1":["asiera","asiese"],"s2":["asieras","asieses"],"vos":["asieras","asieses"],"s3":["asiera","asiese"],"p1":["asiéramos","asiésemos"],"p2":["asierais","asieseis"],"p3":["asieran","asiesen"]},
     "SubFut": {"s1":["asiere"],"s2":["asieres"],"vos":["asieres"],"s3":["asiere"],"p1":["asiéremos"],"p2":["asiereis"],"p3":["asieren"]},
     "CmdPos": {"s2":["ase"],"vos":["así"],"s3":["asga"],"p1":["asgamos"],"p2":["asid"],"p3":["asgan"]}

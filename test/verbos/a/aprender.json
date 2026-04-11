@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aprendí"],"s2":["aprendiste"],"vos":["aprendiste"],"s3":["aprendió"],"p1":["aprendimos"],"p2":["aprendisteis"],"p3":["aprendieron"]},
     "IndFut": {"s1":["aprenderé"],"s2":["aprenderás"],"vos":["aprenderás"],"s3":["aprenderá"],"p1":["aprenderemos"],"p2":["aprenderéis"],"p3":["aprenderán"]},
     "IndCond": {"s1":["aprendería"],"s2":["aprenderías"],"vos":["aprenderías"],"s3":["aprendería"],"p1":["aprenderíamos"],"p2":["aprenderíais"],"p3":["aprenderían"]},
-    "SubPres": {"s1":["aprenda"],"s2":["aprendas"],"vos":["aprendas","aprendás"],"s3":["aprenda"],"p1":["aprendamos"],"p2":["aprendáis"],"p3":["aprendan"]},
+    "SubPres": {"s1":["aprenda"],"s2":["aprendas"],"vos":[{"forma": "aprendas","uso":"Riop."},{"forma":"aprendás","uso":"C.Am."}],"s3":["aprenda"],"p1":["aprendamos"],"p2":["aprendáis"],"p3":["aprendan"]},
     "SubImp": {"s1":["aprendiera","aprendiese"],"s2":["aprendieras","aprendieses"],"vos":["aprendieras","aprendieses"],"s3":["aprendiera","aprendiese"],"p1":["aprendiéramos","aprendiésemos"],"p2":["aprendierais","aprendieseis"],"p3":["aprendieran","aprendiesen"]},
     "SubFut": {"s1":["aprendiere"],"s2":["aprendieres"],"vos":["aprendieres"],"s3":["aprendiere"],"p1":["aprendiéremos"],"p2":["aprendiereis"],"p3":["aprendieren"]},
     "CmdPos": {"s2":["aprende"],"vos":["aprendé"],"s3":["aprenda"],"p1":["aprendamos"],"p2":["aprended"],"p3":["aprendan"]}

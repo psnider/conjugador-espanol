@@ -13,7 +13,7 @@
     "IndPret": {"s1":["quedé"],"s2":["quedaste"],"vos":["quedaste"],"s3":["quedó"],"p1":["quedamos"],"p2":["quedasteis"],"p3":["quedaron"]},
     "IndFut": {"s1":["quedaré"],"s2":["quedarás"],"vos":["quedarás"],"s3":["quedará"],"p1":["quedaremos"],"p2":["quedaréis"],"p3":["quedarán"]},
     "IndCond": {"s1":["quedaría"],"s2":["quedarías"],"vos":["quedarías"],"s3":["quedaría"],"p1":["quedaríamos"],"p2":["quedaríais"],"p3":["quedarían"]},
-    "SubPres": {"s1":["quede"],"s2":["quedes"],"vos":["quedes","quedés"],"s3":["quede"],"p1":["quedemos"],"p2":["quedéis"],"p3":["queden"]},
+    "SubPres": {"s1":["quede"],"s2":["quedes"],"vos":[{"forma": "quedes","uso":"Riop."},{"forma":"quedés","uso":"C.Am."}],"s3":["quede"],"p1":["quedemos"],"p2":["quedéis"],"p3":["queden"]},
     "SubImp": {"s1":["quedara","quedase"],"s2":["quedaras","quedases"],"vos":["quedaras","quedases"],"s3":["quedara","quedase"],"p1":["quedáramos","quedásemos"],"p2":["quedarais","quedaseis"],"p3":["quedaran","quedasen"]},
     "SubFut": {"s1":["quedare"],"s2":["quedares"],"vos":["quedares"],"s3":["quedare"],"p1":["quedáremos"],"p2":["quedareis"],"p3":["quedaren"]},
     "CmdPos": {"s2":["queda"],"vos":["quedá"],"s3":["quede"],"p1":["quedemos"],"p2":["quedad"],"p3":["queden"]}

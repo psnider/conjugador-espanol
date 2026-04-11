@@ -13,7 +13,7 @@
     "IndPret": {"s1":["pagué"],"s2":["pagaste"],"vos":["pagaste"],"s3":["pagó"],"p1":["pagamos"],"p2":["pagasteis"],"p3":["pagaron"]},
     "IndFut": {"s1":["pagaré"],"s2":["pagarás"],"vos":["pagarás"],"s3":["pagará"],"p1":["pagaremos"],"p2":["pagaréis"],"p3":["pagarán"]},
     "IndCond": {"s1":["pagaría"],"s2":["pagarías"],"vos":["pagarías"],"s3":["pagaría"],"p1":["pagaríamos"],"p2":["pagaríais"],"p3":["pagarían"]},
-    "SubPres": {"s1":["pague"],"s2":["pagues"],"vos":["pagues","pagués"],"s3":["pague"],"p1":["paguemos"],"p2":["paguéis"],"p3":["paguen"]},
+    "SubPres": {"s1":["pague"],"s2":["pagues"],"vos":[{"forma": "pagues","uso":"Riop."},{"forma":"pagués","uso":"C.Am."}],"s3":["pague"],"p1":["paguemos"],"p2":["paguéis"],"p3":["paguen"]},
     "SubImp": {"s1":["pagara","pagase"],"s2":["pagaras","pagases"],"vos":["pagaras","pagases"],"s3":["pagara","pagase"],"p1":["pagáramos","pagásemos"],"p2":["pagarais","pagaseis"],"p3":["pagaran","pagasen"]},
     "SubFut": {"s1":["pagare"],"s2":["pagares"],"vos":["pagares"],"s3":["pagare"],"p1":["pagáremos"],"p2":["pagareis"],"p3":["pagaren"]},
     "CmdPos": {"s2":["paga"],"vos":["pagá"],"s3":["pague"],"p1":["paguemos"],"p2":["pagad"],"p3":["paguen"]}

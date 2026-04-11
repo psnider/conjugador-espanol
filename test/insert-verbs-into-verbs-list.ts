@@ -1,4 +1,5 @@
 import * as fs from 'node:fs'
+import { compareSpanishWords } from '../src/lib'
 
 
 
@@ -14,56 +15,7 @@ const verbs_list_filename = "./src/verbos-con-cambios-morfológicas.ts"
 const updated_verbs_list_filename = "./src/verbos-con-cambios-morfológicas-WITH-NEW.ts"
 
 
-const order = [
-    "a", "á",
-    "b",
-    "c",
-    "d",
-    "e", "é",
-    "f",
-    "g",
-    "h",
-    "i", "í",
-    "j",
-    "k",
-    "l",
-    "m",
-    "n",
-    "ñ",
-    "o", "ó",
-    "p",
-    "q",
-    "r",
-    "s",
-    "t",
-    "u", "ú", "ü",
-    "v",
-    "w",
-    "x",
-    "y",
-    "z"
-]
-const rank = new Map<string, number>();
-order.forEach((char, i) => rank.set(char, i));
-
 const verb_endings = ["ar","er","ir", "ír"]
-
-function compareSpanishWords(lhs: string, rhs: string) : number {
-    const len = Math.min(lhs.length, rhs.length);
-    for (let i = 0; i < len; i++) {
-        const l = lhs[i];
-        const r = rhs[i];
-        if (l === r) continue;
-        const rl = rank.get(l);
-        const rr = rank.get(r);
-        if (rl === undefined || rr === undefined) {
-            throw new Error(`Caracter inválido: '${l}' o '${r}'`);
-        }
-        return rl - rr;
-    }
-    // Si uno es prefijo del otro
-    return lhs.length - rhs.length;
-}
 
 
 function insertVerbsIntoVerbsFile() {

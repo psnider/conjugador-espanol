@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rechacé"],"s2":["rechazaste"],"vos":["rechazaste"],"s3":["rechazó"],"p1":["rechazamos"],"p2":["rechazasteis"],"p3":["rechazaron"]},
     "IndFut": {"s1":["rechazaré"],"s2":["rechazarás"],"vos":["rechazarás"],"s3":["rechazará"],"p1":["rechazaremos"],"p2":["rechazaréis"],"p3":["rechazarán"]},
     "IndCond": {"s1":["rechazaría"],"s2":["rechazarías"],"vos":["rechazarías"],"s3":["rechazaría"],"p1":["rechazaríamos"],"p2":["rechazaríais"],"p3":["rechazarían"]},
-    "SubPres": {"s1":["rechace"],"s2":["rechaces"],"vos":["rechaces","rechacés"],"s3":["rechace"],"p1":["rechacemos"],"p2":["rechacéis"],"p3":["rechacen"]},
+    "SubPres": {"s1":["rechace"],"s2":["rechaces"],"vos":[{"forma": "rechaces","uso":"Riop."},{"forma":"rechacés","uso":"C.Am."}],"s3":["rechace"],"p1":["rechacemos"],"p2":["rechacéis"],"p3":["rechacen"]},
     "SubImp": {"s1":["rechazara","rechazase"],"s2":["rechazaras","rechazases"],"vos":["rechazaras","rechazases"],"s3":["rechazara","rechazase"],"p1":["rechazáramos","rechazásemos"],"p2":["rechazarais","rechazaseis"],"p3":["rechazaran","rechazasen"]},
     "SubFut": {"s1":["rechazare"],"s2":["rechazares"],"vos":["rechazares"],"s3":["rechazare"],"p1":["rechazáremos"],"p2":["rechazareis"],"p3":["rechazaren"]},
     "CmdPos": {"s2":["rechaza"],"vos":["rechazá"],"s3":["rechace"],"p1":["rechacemos"],"p2":["rechazad"],"p3":["rechacen"]}

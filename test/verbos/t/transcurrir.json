@@ -13,7 +13,7 @@
     "IndPret": {"s1":["transcurrí"],"s2":["transcurriste"],"vos":["transcurriste"],"s3":["transcurrió"],"p1":["transcurrimos"],"p2":["transcurristeis"],"p3":["transcurrieron"]},
     "IndFut": {"s1":["transcurriré"],"s2":["transcurrirás"],"vos":["transcurrirás"],"s3":["transcurrirá"],"p1":["transcurriremos"],"p2":["transcurriréis"],"p3":["transcurrirán"]},
     "IndCond": {"s1":["transcurriría"],"s2":["transcurrirías"],"vos":["transcurrirías"],"s3":["transcurriría"],"p1":["transcurriríamos"],"p2":["transcurriríais"],"p3":["transcurrirían"]},
-    "SubPres": {"s1":["transcurra"],"s2":["transcurras"],"vos":["transcurras","transcurrás"],"s3":["transcurra"],"p1":["transcurramos"],"p2":["transcurráis"],"p3":["transcurran"]},
+    "SubPres": {"s1":["transcurra"],"s2":["transcurras"],"vos":[{"forma": "transcurras","uso":"Riop."},{"forma":"transcurrás","uso":"C.Am."}],"s3":["transcurra"],"p1":["transcurramos"],"p2":["transcurráis"],"p3":["transcurran"]},
     "SubImp": {"s1":["transcurriera","transcurriese"],"s2":["transcurrieras","transcurrieses"],"vos":["transcurrieras","transcurrieses"],"s3":["transcurriera","transcurriese"],"p1":["transcurriéramos","transcurriésemos"],"p2":["transcurrierais","transcurrieseis"],"p3":["transcurrieran","transcurriesen"]},
     "SubFut": {"s1":["transcurriere"],"s2":["transcurrieres"],"vos":["transcurrieres"],"s3":["transcurriere"],"p1":["transcurriéremos"],"p2":["transcurriereis"],"p3":["transcurrieren"]},
     "CmdPos": {"s2":["transcurre"],"vos":["transcurrí"],"s3":["transcurra"],"p1":["transcurramos"],"p2":["transcurrid"],"p3":["transcurran"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["teñí"],"s2":["teñiste"],"vos":["teñiste"],"s3":["tiñó"],"p1":["teñimos"],"p2":["teñisteis"],"p3":["tiñeron"]},
     "IndFut": {"s1":["teñiré"],"s2":["teñirás"],"vos":["teñirás"],"s3":["teñirá"],"p1":["teñiremos"],"p2":["teñiréis"],"p3":["teñirán"]},
     "IndCond": {"s1":["teñiría"],"s2":["teñirías"],"vos":["teñirías"],"s3":["teñiría"],"p1":["teñiríamos"],"p2":["teñiríais"],"p3":["teñirían"]},
-    "SubPres": {"s1":["tiña"],"s2":["tiñas"],"vos":["tiñas","tiñás"],"s3":["tiña"],"p1":["tiñamos"],"p2":["tiñáis"],"p3":["tiñan"]},
+    "SubPres": {"s1":["tiña"],"s2":["tiñas"],"vos":[{"forma": "tiñas","uso":"Riop."},{"forma":"tiñás","uso":"C.Am."}],"s3":["tiña"],"p1":["tiñamos"],"p2":["tiñáis"],"p3":["tiñan"]},
     "SubImp": {"s1":["tiñera","tiñese"],"s2":["tiñeras","tiñeses"],"vos":["tiñeras","tiñeses"],"s3":["tiñera","tiñese"],"p1":["tiñéramos","tiñésemos"],"p2":["tiñerais","tiñeseis"],"p3":["tiñeran","tiñesen"]},
     "SubFut": {"s1":["tiñere"],"s2":["tiñeres"],"vos":["tiñeres"],"s3":["tiñere"],"p1":["tiñéremos"],"p2":["tiñereis"],"p3":["tiñeren"]},
     "CmdPos": {"s2":["tiñe"],"vos":["teñí"],"s3":["tiña"],"p1":["tiñamos"],"p2":["teñid"],"p3":["tiñan"]}

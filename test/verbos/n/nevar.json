@@ -4,7 +4,8 @@
     "silabacion": "ne-var",
     "acentuacion": "aguda",
     "etimologia": "Del latín nivāre",
-    "modelos": ["pensar"]
+    "modelos": ["pensar"],
+    "defectos": {"personas": ["s3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
   },
   "formas_no_personales": {"infinitivo":"nevar","gerundio":["nevando"], "participio":["nevado"]},
   "formas_personales": {
@@ -13,7 +14,7 @@
     "IndPret": {"s1":["nevé"],"s2":["nevaste"],"vos":["nevaste"],"s3":["nevó"],"p1":["nevamos"],"p2":["nevasteis"],"p3":["nevaron"]},
     "IndFut": {"s1":["nevaré"],"s2":["nevarás"],"vos":["nevarás"],"s3":["nevará"],"p1":["nevaremos"],"p2":["nevaréis"],"p3":["nevarán"]},
     "IndCond": {"s1":["nevaría"],"s2":["nevarías"],"vos":["nevarías"],"s3":["nevaría"],"p1":["nevaríamos"],"p2":["nevaríais"],"p3":["nevarían"]},
-    "SubPres": {"s1":["nieve"],"s2":["nieves"],"vos":["nieves","nevés"],"s3":["nieve"],"p1":["nevemos"],"p2":["nevéis"],"p3":["nieven"]},
+    "SubPres": {"s1":["nieve"],"s2":["nieves"],"vos":[{"forma": "nieves","uso":"Riop."},{"forma":"nevés","uso":"C.Am."}],"s3":["nieve"],"p1":["nevemos"],"p2":["nevéis"],"p3":["nieven"]},
     "SubImp": {"s1":["nevara","nevase"],"s2":["nevaras","nevases"],"vos":["nevaras","nevases"],"s3":["nevara","nevase"],"p1":["neváramos","nevásemos"],"p2":["nevarais","nevaseis"],"p3":["nevaran","nevasen"]},
     "SubFut": {"s1":["nevare"],"s2":["nevares"],"vos":["nevares"],"s3":["nevare"],"p1":["neváremos"],"p2":["nevareis"],"p3":["nevaren"]},
     "CmdPos": {"s2":["nieva"],"vos":["nevá"],"s3":["nieve"],"p1":["nevemos"],"p2":["nevad"],"p3":["nieven"]}

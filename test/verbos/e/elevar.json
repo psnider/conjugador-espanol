@@ -13,7 +13,7 @@
     "IndPret": {"s1":["elevé"],"s2":["elevaste"],"vos":["elevaste"],"s3":["elevó"],"p1":["elevamos"],"p2":["elevasteis"],"p3":["elevaron"]},
     "IndFut": {"s1":["elevaré"],"s2":["elevarás"],"vos":["elevarás"],"s3":["elevará"],"p1":["elevaremos"],"p2":["elevaréis"],"p3":["elevarán"]},
     "IndCond": {"s1":["elevaría"],"s2":["elevarías"],"vos":["elevarías"],"s3":["elevaría"],"p1":["elevaríamos"],"p2":["elevaríais"],"p3":["elevarían"]},
-    "SubPres": {"s1":["eleve"],"s2":["eleves"],"vos":["eleves","elevés"],"s3":["eleve"],"p1":["elevemos"],"p2":["elevéis"],"p3":["eleven"]},
+    "SubPres": {"s1":["eleve"],"s2":["eleves"],"vos":[{"forma": "eleves","uso":"Riop."},{"forma":"elevés","uso":"C.Am."}],"s3":["eleve"],"p1":["elevemos"],"p2":["elevéis"],"p3":["eleven"]},
     "SubImp": {"s1":["elevara","elevase"],"s2":["elevaras","elevases"],"vos":["elevaras","elevases"],"s3":["elevara","elevase"],"p1":["eleváramos","elevásemos"],"p2":["elevarais","elevaseis"],"p3":["elevaran","elevasen"]},
     "SubFut": {"s1":["elevare"],"s2":["elevares"],"vos":["elevares"],"s3":["elevare"],"p1":["eleváremos"],"p2":["elevareis"],"p3":["elevaren"]},
     "CmdPos": {"s2":["eleva"],"vos":["elevá"],"s3":["eleve"],"p1":["elevemos"],"p2":["elevad"],"p3":["eleven"]}

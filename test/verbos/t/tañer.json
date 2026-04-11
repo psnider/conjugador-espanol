@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪aˈɲeɾ]",
+    "silabacion": "ta-ñer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tangō, tangere ('tocar').[1] Comparar con su doble, tangir.",
+    "modelos": ["atañer"]
+  },
+  "formas_no_personales": {"infinitivo":"tañer","gerundio":["tañendo"],"participio":["tañido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["taño"],"s2":["tañes"],"vos":["tañés"],"s3":["tañe"],"p1":["tañemos"],"p2":["tañéis"],"p3":["tañen"]},
+    "IndImp": {"s1":["tañía"],"s2":["tañías"],"vos":["tañías"],"s3":["tañía"],"p1":["tañíamos"],"p2":["tañíais"],"p3":["tañían"]},
+    "IndPret": {"s1":["tañí"],"s2":["tañiste"],"vos":["tañiste"],"s3":["tañó"],"p1":["tañimos"],"p2":["tañisteis"],"p3":["tañeron"]},
+    "IndFut": {"s1":["tañeré"],"s2":["tañerás"],"vos":["tañerás"],"s3":["tañerá"],"p1":["tañeremos"],"p2":["tañeréis"],"p3":["tañerán"]},
+    "IndCond": {"s1":["tañería"],"s2":["tañerías"],"vos":["tañerías"],"s3":["tañería"],"p1":["tañeríamos"],"p2":["tañeríais"],"p3":["tañerían"]},
+    "SubPres": {"s1":["taña"],"s2":["tañas"],"vos":["tañas","tañás"],"s3":["taña"],"p1":["tañamos"],"p2":["tañáis"],"p3":["tañan"]},
+    "SubImp": {"s1":["tañera","tañese"],"s2":["tañeras","tañeses"],"vos":["tañeras","tañeses"],"s3":["tañera","tañese"],"p1":["tañéramos","tañésemos"],"p2":["tañerais","tañeseis"],"p3":["tañeran","tañesen"]},
+    "SubFut": {"s1":["tañere"],"s2":["tañeres"],"vos":["tañeres"],"s3":["tañere"],"p1":["tañéremos"],"p2":["tañereis"],"p3":["tañeren"]},
+    "CmdPos": {"s2":["tañe"],"vos":["tañé"],"s3":["taña"],"p1":["tañamos"],"p2":["tañed"],"p3":["tañan"]}
+  }
+}

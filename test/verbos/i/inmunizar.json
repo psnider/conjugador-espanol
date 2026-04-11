@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmmuniˈsaɾ]",
+    "silabacion": "in-mu-ni-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"inmunizar","gerundio":["inmunizando"],"participio":["inmunizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inmunizo"],"s2":["inmunizas"],"vos":["inmunizás"],"s3":["inmuniza"],"p1":["inmunizamos"],"p2":["inmunizáis"],"p3":["inmunizan"]},
+    "IndImp": {"s1":["inmunizaba"],"s2":["inmunizabas"],"vos":["inmunizabas"],"s3":["inmunizaba"],"p1":["inmunizábamos"],"p2":["inmunizabais"],"p3":["inmunizaban"]},
+    "IndPret": {"s1":["inmunicé"],"s2":["inmunizaste"],"vos":["inmunizaste"],"s3":["inmunizó"],"p1":["inmunizamos"],"p2":["inmunizasteis"],"p3":["inmunizaron"]},
+    "IndFut": {"s1":["inmunizaré"],"s2":["inmunizarás"],"vos":["inmunizarás"],"s3":["inmunizará"],"p1":["inmunizaremos"],"p2":["inmunizaréis"],"p3":["inmunizarán"]},
+    "IndCond": {"s1":["inmunizaría"],"s2":["inmunizarías"],"vos":["inmunizarías"],"s3":["inmunizaría"],"p1":["inmunizaríamos"],"p2":["inmunizaríais"],"p3":["inmunizarían"]},
+    "SubPres": {"s1":["inmunice"],"s2":["inmunices"],"vos":["inmunices","inmunicés"],"s3":["inmunice"],"p1":["inmunicemos"],"p2":["inmunicéis"],"p3":["inmunicen"]},
+    "SubImp": {"s1":["inmunizara","inmunizase"],"s2":["inmunizaras","inmunizases"],"vos":["inmunizaras","inmunizases"],"s3":["inmunizara","inmunizase"],"p1":["inmunizáramos","inmunizásemos"],"p2":["inmunizarais","inmunizaseis"],"p3":["inmunizaran","inmunizasen"]},
+    "SubFut": {"s1":["inmunizare"],"s2":["inmunizares"],"vos":["inmunizares"],"s3":["inmunizare"],"p1":["inmunizáremos"],"p2":["inmunizareis"],"p3":["inmunizaren"]},
+    "CmdPos": {"s2":["inmuniza"],"vos":["inmunizá"],"s3":["inmunice"],"p1":["inmunicemos"],"p2":["inmunizad"],"p3":["inmunicen"]}
+  }
+}

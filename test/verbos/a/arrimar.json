@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arrimé"],"s2":["arrimaste"],"vos":["arrimaste"],"s3":["arrimó"],"p1":["arrimamos"],"p2":["arrimasteis"],"p3":["arrimaron"]},
     "IndFut": {"s1":["arrimaré"],"s2":["arrimarás"],"vos":["arrimarás"],"s3":["arrimará"],"p1":["arrimaremos"],"p2":["arrimaréis"],"p3":["arrimarán"]},
     "IndCond": {"s1":["arrimaría"],"s2":["arrimarías"],"vos":["arrimarías"],"s3":["arrimaría"],"p1":["arrimaríamos"],"p2":["arrimaríais"],"p3":["arrimarían"]},
-    "SubPres": {"s1":["arrime"],"s2":["arrimes"],"vos":["arrimes","arrimés"],"s3":["arrime"],"p1":["arrimemos"],"p2":["arriméis"],"p3":["arrimen"]},
+    "SubPres": {"s1":["arrime"],"s2":["arrimes"],"vos":[{"forma": "arrimes","uso":"Riop."},{"forma":"arrimés","uso":"C.Am."}],"s3":["arrime"],"p1":["arrimemos"],"p2":["arriméis"],"p3":["arrimen"]},
     "SubImp": {"s1":["arrimara","arrimase"],"s2":["arrimaras","arrimases"],"vos":["arrimaras","arrimases"],"s3":["arrimara","arrimase"],"p1":["arrimáramos","arrimásemos"],"p2":["arrimarais","arrimaseis"],"p3":["arrimaran","arrimasen"]},
     "SubFut": {"s1":["arrimare"],"s2":["arrimares"],"vos":["arrimares"],"s3":["arrimare"],"p1":["arrimáremos"],"p2":["arrimareis"],"p3":["arrimaren"]},
     "CmdPos": {"s2":["arrima"],"vos":["arrimá"],"s3":["arrime"],"p1":["arrimemos"],"p2":["arrimad"],"p3":["arrimen"]}

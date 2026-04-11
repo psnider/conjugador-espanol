@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koloɾeˈaɾ]",
+    "silabacion": "co-lo-re-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De color y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"colorear","gerundio":["coloreando"],"participio":["coloreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["coloreo"],"s2":["coloreas"],"vos":["coloreás"],"s3":["colorea"],"p1":["coloreamos"],"p2":["coloreáis"],"p3":["colorean"]},
+    "IndImp": {"s1":["coloreaba"],"s2":["coloreabas"],"vos":["coloreabas"],"s3":["coloreaba"],"p1":["coloreábamos"],"p2":["coloreabais"],"p3":["coloreaban"]},
+    "IndPret": {"s1":["coloreé"],"s2":["coloreaste"],"vos":["coloreaste"],"s3":["coloreó"],"p1":["coloreamos"],"p2":["coloreasteis"],"p3":["colorearon"]},
+    "IndFut": {"s1":["colorearé"],"s2":["colorearás"],"vos":["colorearás"],"s3":["coloreará"],"p1":["colorearemos"],"p2":["colorearéis"],"p3":["colorearán"]},
+    "IndCond": {"s1":["colorearía"],"s2":["colorearías"],"vos":["colorearías"],"s3":["colorearía"],"p1":["colorearíamos"],"p2":["colorearíais"],"p3":["colorearían"]},
+    "SubPres": {"s1":["coloree"],"s2":["colorees"],"vos":["colorees","coloreés"],"s3":["coloree"],"p1":["coloreemos"],"p2":["coloreéis"],"p3":["coloreen"]},
+    "SubImp": {"s1":["coloreara","colorease"],"s2":["colorearas","coloreases"],"vos":["colorearas","coloreases"],"s3":["coloreara","colorease"],"p1":["coloreáramos","coloreásemos"],"p2":["colorearais","coloreaseis"],"p3":["colorearan","coloreasen"]},
+    "SubFut": {"s1":["coloreare"],"s2":["coloreares"],"vos":["coloreares"],"s3":["coloreare"],"p1":["coloreáremos"],"p2":["coloreareis"],"p3":["colorearen"]},
+    "CmdPos": {"s2":["colorea"],"vos":["coloreá"],"s3":["coloree"],"p1":["coloreemos"],"p2":["coloread"],"p3":["coloreen"]}
+  }
+}

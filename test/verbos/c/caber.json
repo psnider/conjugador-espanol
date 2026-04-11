@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cupe"],"s2":["cupiste"],"vos":["cupiste"],"s3":["cupo"],"p1":["cupimos"],"p2":["cupisteis"],"p3":["cupieron"]},
     "IndFut": {"s1":["cabré"],"s2":["cabrás"],"vos":["cabrás"],"s3":["cabrá"],"p1":["cabremos"],"p2":["cabréis"],"p3":["cabrán"]},
     "IndCond": {"s1":["cabría"],"s2":["cabrías"],"vos":["cabrías"],"s3":["cabría"],"p1":["cabríamos"],"p2":["cabríais"],"p3":["cabrían"]},
-    "SubPres": {"s1":["quepa"],"s2":["quepas"],"vos":["quepas","quepás"],"s3":["quepa"],"p1":["quepamos"],"p2":["quepáis"],"p3":["quepan"]},
+    "SubPres": {"s1":["quepa"],"s2":["quepas"],"vos":[{"forma": "quepas","uso":"Riop."},{"forma":"quepás","uso":"C.Am."}],"s3":["quepa"],"p1":["quepamos"],"p2":["quepáis"],"p3":["quepan"]},
     "SubImp": {"s1":["cupiera","cupiese"],"s2":["cupieras","cupieses"],"vos":["cupieras","cupieses"],"s3":["cupiera","cupiese"],"p1":["cupiéramos","cupiésemos"],"p2":["cupierais","cupieseis"],"p3":["cupieran","cupiesen"]},
     "SubFut": {"s1":["cupiere"],"s2":["cupieres"],"vos":["cupieres"],"s3":["cupiere"],"p1":["cupiéremos"],"p2":["cupiereis"],"p3":["cupieren"]},
     "CmdPos": {"s2":["cabe"],"vos":["cabé"],"s3":["quepa"],"p1":["quepamos"],"p2":["cabed"],"p3":["quepan"]}

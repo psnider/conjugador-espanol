@@ -12,7 +12,7 @@
     "IndPret": {"s1":["renuncié"],"s2":["renunciaste"],"vos":["renunciaste"],"s3":["renunció"],"p1":["renunciamos"],"p2":["renunciasteis"],"p3":["renunciaron"]},
     "IndFut": {"s1":["renunciaré"],"s2":["renunciarás"],"vos":["renunciarás"],"s3":["renunciará"],"p1":["renunciaremos"],"p2":["renunciaréis"],"p3":["renunciarán"]},
     "IndCond": {"s1":["renunciaría"],"s2":["renunciarías"],"vos":["renunciarías"],"s3":["renunciaría"],"p1":["renunciaríamos"],"p2":["renunciaríais"],"p3":["renunciarían"]},
-    "SubPres": {"s1":["renuncie"],"s2":["renuncies"],"vos":["renuncies","renunciés"],"s3":["renuncie"],"p1":["renunciemos"],"p2":["renunciéis"],"p3":["renuncien"]},
+    "SubPres": {"s1":["renuncie"],"s2":["renuncies"],"vos":[{"forma": "renuncies","uso":"Riop."},{"forma":"renunciés","uso":"C.Am."}],"s3":["renuncie"],"p1":["renunciemos"],"p2":["renunciéis"],"p3":["renuncien"]},
     "SubImp": {"s1":["renunciara","renunciase"],"s2":["renunciaras","renunciases"],"vos":["renunciaras","renunciases"],"s3":["renunciara","renunciase"],"p1":["renunciáramos","renunciásemos"],"p2":["renunciarais","renunciaseis"],"p3":["renunciaran","renunciasen"]},
     "SubFut": {"s1":["renunciare"],"s2":["renunciares"],"vos":["renunciares"],"s3":["renunciare"],"p1":["renunciáremos"],"p2":["renunciareis"],"p3":["renunciaren"]},
     "CmdPos": {"s2":["renuncia"],"vos":["renunciá"],"s3":["renuncie"],"p1":["renunciemos"],"p2":["renunciad"],"p3":["renuncien"]}

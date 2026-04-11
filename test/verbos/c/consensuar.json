@@ -12,7 +12,7 @@
     "IndPret": {"s1":["consensué"],"s2":["consensuaste"],"vos":["consensuaste"],"s3":["consensuó"],"p1":["consensuamos"],"p2":["consensuasteis"],"p3":["consensuaron"]},
     "IndFut": {"s1":["consensuaré"],"s2":["consensuarás"],"vos":["consensuarás"],"s3":["consensuará"],"p1":["consensuaremos"],"p2":["consensuaréis"],"p3":["consensuarán"]},
     "IndCond": {"s1":["consensuaría"],"s2":["consensuarías"],"vos":["consensuarías"],"s3":["consensuaría"],"p1":["consensuaríamos"],"p2":["consensuaríais"],"p3":["consensuarían"]},
-    "SubPres": {"s1":["consensúe"],"s2":["consensúes"],"vos":["consensúes","consensués"],"s3":["consensúe"],"p1":["consensuemos"],"p2":["consensuéis"],"p3":["consensúen"]},
+    "SubPres": {"s1":["consensúe"],"s2":["consensúes"],"vos":[{"forma": "consensúes","uso":"Riop."},{"forma":"consensués","uso":"C.Am."}],"s3":["consensúe"],"p1":["consensuemos"],"p2":["consensuéis"],"p3":["consensúen"]},
     "SubImp": {"s1":["consensuara","consensuase"],"s2":["consensuaras","consensuases"],"vos":["consensuaras","consensuases"],"s3":["consensuara","consensuase"],"p1":["consensuáramos","consensuásemos"],"p2":["consensuarais","consensuaseis"],"p3":["consensuaran","consensuasen"]},
     "SubFut": {"s1":["consensuare"],"s2":["consensuares"],"vos":["consensuares"],"s3":["consensuare"],"p1":["consensuáremos"],"p2":["consensuareis"],"p3":["consensuaren"]},
     "CmdPos": {"s2":["consensúa"],"vos":["consensuá"],"s3":["consensúe"],"p1":["consensuemos"],"p2":["consensuad"],"p3":["consensúen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desparramé"],"s2":["desparramaste"],"vos":["desparramaste"],"s3":["desparramó"],"p1":["desparramamos"],"p2":["desparramasteis"],"p3":["desparramaron"]},
     "IndFut": {"s1":["desparramaré"],"s2":["desparramarás"],"vos":["desparramarás"],"s3":["desparramará"],"p1":["desparramaremos"],"p2":["desparramaréis"],"p3":["desparramarán"]},
     "IndCond": {"s1":["desparramaría"],"s2":["desparramarías"],"vos":["desparramarías"],"s3":["desparramaría"],"p1":["desparramaríamos"],"p2":["desparramaríais"],"p3":["desparramarían"]},
-    "SubPres": {"s1":["desparrame"],"s2":["desparrames"],"vos":["desparrames","desparramés"],"s3":["desparrame"],"p1":["desparramemos"],"p2":["desparraméis"],"p3":["desparramen"]},
+    "SubPres": {"s1":["desparrame"],"s2":["desparrames"],"vos":[{"forma": "desparrames","uso":"Riop."},{"forma":"desparramés","uso":"C.Am."}],"s3":["desparrame"],"p1":["desparramemos"],"p2":["desparraméis"],"p3":["desparramen"]},
     "SubImp": {"s1":["desparramara","desparramase"],"s2":["desparramaras","desparramases"],"vos":["desparramaras","desparramases"],"s3":["desparramara","desparramase"],"p1":["desparramáramos","desparramásemos"],"p2":["desparramarais","desparramaseis"],"p3":["desparramaran","desparramasen"]},
     "SubFut": {"s1":["desparramare"],"s2":["desparramares"],"vos":["desparramares"],"s3":["desparramare"],"p1":["desparramáremos"],"p2":["desparramareis"],"p3":["desparramaren"]},
     "CmdPos": {"s2":["desparrama"],"vos":["desparramá"],"s3":["desparrame"],"p1":["desparramemos"],"p2":["desparramad"],"p3":["desparramen"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["perpetué"],"s2":["perpetuaste"],"vos":["perpetuaste"],"s3":["perpetuó"],"p1":["perpetuamos"],"p2":["perpetuasteis"],"p3":["perpetuaron"]},
     "IndFut": {"s1":["perpetuaré"],"s2":["perpetuarás"],"vos":["perpetuarás"],"s3":["perpetuará"],"p1":["perpetuaremos"],"p2":["perpetuaréis"],"p3":["perpetuarán"]},
     "IndCond": {"s1":["perpetuaría"],"s2":["perpetuarías"],"vos":["perpetuarías"],"s3":["perpetuaría"],"p1":["perpetuaríamos"],"p2":["perpetuaríais"],"p3":["perpetuarían"]},
-    "SubPres": {"s1":["perpetúe"],"s2":["perpetúes"],"vos":["perpetúes","perpetués"],"s3":["perpetúe"],"p1":["perpetuemos"],"p2":["perpetuéis"],"p3":["perpetúen"]},
+    "SubPres": {"s1":["perpetúe"],"s2":["perpetúes"],"vos":[{"forma": "perpetúes","uso":"Riop."},{"forma":"perpetués","uso":"C.Am."}],"s3":["perpetúe"],"p1":["perpetuemos"],"p2":["perpetuéis"],"p3":["perpetúen"]},
     "SubImp": {"s1":["perpetuara","perpetuase"],"s2":["perpetuaras","perpetuases"],"vos":["perpetuaras","perpetuases"],"s3":["perpetuara","perpetuase"],"p1":["perpetuáramos","perpetuásemos"],"p2":["perpetuarais","perpetuaseis"],"p3":["perpetuaran","perpetuasen"]},
     "SubFut": {"s1":["perpetuare"],"s2":["perpetuares"],"vos":["perpetuares"],"s3":["perpetuare"],"p1":["perpetuáremos"],"p2":["perpetuareis"],"p3":["perpetuaren"]},
     "CmdPos": {"s2":["perpetúa"],"vos":["perpetuá"],"s3":["perpetúe"],"p1":["perpetuemos"],"p2":["perpetuad"],"p3":["perpetúen"]}

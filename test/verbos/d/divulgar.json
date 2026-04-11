@@ -13,7 +13,7 @@
     "IndPret": {"s1":["divulgué"],"s2":["divulgaste"],"vos":["divulgaste"],"s3":["divulgó"],"p1":["divulgamos"],"p2":["divulgasteis"],"p3":["divulgaron"]},
     "IndFut": {"s1":["divulgaré"],"s2":["divulgarás"],"vos":["divulgarás"],"s3":["divulgará"],"p1":["divulgaremos"],"p2":["divulgaréis"],"p3":["divulgarán"]},
     "IndCond": {"s1":["divulgaría"],"s2":["divulgarías"],"vos":["divulgarías"],"s3":["divulgaría"],"p1":["divulgaríamos"],"p2":["divulgaríais"],"p3":["divulgarían"]},
-    "SubPres": {"s1":["divulgue"],"s2":["divulgues"],"vos":["divulgues","divulgués"],"s3":["divulgue"],"p1":["divulguemos"],"p2":["divulguéis"],"p3":["divulguen"]},
+    "SubPres": {"s1":["divulgue"],"s2":["divulgues"],"vos":[{"forma": "divulgues","uso":"Riop."},{"forma":"divulgués","uso":"C.Am."}],"s3":["divulgue"],"p1":["divulguemos"],"p2":["divulguéis"],"p3":["divulguen"]},
     "SubImp": {"s1":["divulgara","divulgase"],"s2":["divulgaras","divulgases"],"vos":["divulgaras","divulgases"],"s3":["divulgara","divulgase"],"p1":["divulgáramos","divulgásemos"],"p2":["divulgarais","divulgaseis"],"p3":["divulgaran","divulgasen"]},
     "SubFut": {"s1":["divulgare"],"s2":["divulgares"],"vos":["divulgares"],"s3":["divulgare"],"p1":["divulgáremos"],"p2":["divulgareis"],"p3":["divulgaren"]},
     "CmdPos": {"s2":["divulga"],"vos":["divulgá"],"s3":["divulgue"],"p1":["divulguemos"],"p2":["divulgad"],"p3":["divulguen"]}

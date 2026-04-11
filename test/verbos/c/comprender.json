@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comprendí"],"s2":["comprendiste"],"vos":["comprendiste"],"s3":["comprendió"],"p1":["comprendimos"],"p2":["comprendisteis"],"p3":["comprendieron"]},
     "IndFut": {"s1":["comprenderé"],"s2":["comprenderás"],"vos":["comprenderás"],"s3":["comprenderá"],"p1":["comprenderemos"],"p2":["comprenderéis"],"p3":["comprenderán"]},
     "IndCond": {"s1":["comprendería"],"s2":["comprenderías"],"vos":["comprenderías"],"s3":["comprendería"],"p1":["comprenderíamos"],"p2":["comprenderíais"],"p3":["comprenderían"]},
-    "SubPres": {"s1":["comprenda"],"s2":["comprendas"],"vos":["comprendas","comprendás"],"s3":["comprenda"],"p1":["comprendamos"],"p2":["comprendáis"],"p3":["comprendan"]},
+    "SubPres": {"s1":["comprenda"],"s2":["comprendas"],"vos":[{"forma": "comprendas","uso":"Riop."},{"forma":"comprendás","uso":"C.Am."}],"s3":["comprenda"],"p1":["comprendamos"],"p2":["comprendáis"],"p3":["comprendan"]},
     "SubImp": {"s1":["comprendiera","comprendiese"],"s2":["comprendieras","comprendieses"],"vos":["comprendieras","comprendieses"],"s3":["comprendiera","comprendiese"],"p1":["comprendiéramos","comprendiésemos"],"p2":["comprendierais","comprendieseis"],"p3":["comprendieran","comprendiesen"]},
     "SubFut": {"s1":["comprendiere"],"s2":["comprendieres"],"vos":["comprendieres"],"s3":["comprendiere"],"p1":["comprendiéremos"],"p2":["comprendiereis"],"p3":["comprendieren"]},
     "CmdPos": {"s2":["comprende"],"vos":["comprendé"],"s3":["comprenda"],"p1":["comprendamos"],"p2":["comprended"],"p3":["comprendan"]}

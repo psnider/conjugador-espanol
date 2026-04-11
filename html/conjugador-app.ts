@@ -1,22 +1,18 @@
-import { Participios } from "../src"
+import { ConjugaciónEstándarYAtípico, FormaConjugada, MoodTense, Participios } from "../src"
 import { conjugateVerb } from "../src/conjugate-verb.js"
-import {deriveParticiples} from "../src/derive-participles.js"
-import { verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js"
+import { deriveParticiples } from "../src/derive-participles.js"
+import { TestResults, verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js"
 import { version } from "../src/version.js"
+import { FailedTests } from "../test"
 
-// var navigator
-// var window
-// var screen
-// var document
-// var localStorage
 
 let reportInProgress = false
-let themeSlider
-let infinitiveInput
-let moodTenseSelect
-let formasHeaderAnnotation
-let conjugationBodyDiv
-let reportErrorButton
+let themeSlider: HTMLInputElement
+let infinitiveInput: HTMLInputElement
+let moodTenseSelect: HTMLSelectElement
+let formasHeaderAnnotation: HTMLSpanElement
+let conjugationBodyDiv: HTMLTableSectionElement
+let reportErrorButton: HTMLButtonElement
 let lastInfinitive = ""
 let latest_conjugated_forms = {}
 
@@ -67,7 +63,8 @@ function updateTableRows(newRows: string[]) {
     }
 }
 
-function handleInfinitiveBlur(event) {
+
+function handleInfinitiveBlur(event: FocusEvent) {
     const infinitive = infinitiveInput.value.trim().toLowerCase()
     if (!infinitive || infinitive === lastInfinitive) {
         return
@@ -85,6 +82,7 @@ function handleMoodTenseChange(event) {
     handleConjugate()
 }
 
+type MoodTenseDerivation = MoodTense| "Participios"
 
 
 
@@ -93,25 +91,38 @@ function handleMoodTenseChange(event) {
  */
 function handleConjugate() {
     const infinitive = infinitiveInput.value.trim().toLowerCase();
-    const mood_tense = moodTenseSelect.value;
+    const mood_tense = <MoodTenseDerivation> moodTenseSelect.value;
     if (!infinitive) {
         conjugationBodyDiv.innerHTML = "<p>Por favor, escriba un infinitivo.</p>";
         return;
     }
     if (mood_tense === "Participios") {
         const participios = deriveParticiples (infinitive)
-        renderParticipiosTable(infinitive, mood_tense, participios.participles)
-
+        renderParticipiosTable(infinitive, participios.participles)
     } else {
-        const conj = conjugateVerb(infinitive, mood_tense); // VerbConjugationAnnotated
+        const isCmdNeg = (mood_tense === "CmdNeg")
+        const conj = conjugateVerb(infinitive, isCmdNeg ? "SubPres" : mood_tense); // VerbConjugationAnnotated
         if (!conj || !conj.forms) {
             const innerHTML = "<p>No hay formas para este verbo / modo-tiempo.</p>";
-            conjugationBodyDiv(innerHTML)
+            conjugationBodyDiv.innerHTML = innerHTML
             return;
+        }
+        if (isCmdNeg) {
+            conj.forms.s1 = null
         }
         latest_conjugated_forms = conj.forms
         renderConjugationTable(infinitive, mood_tense, conj.forms);
     }
+}
+
+
+const validChars = /^[a-záéíóúñü]$/i
+const controlKeys = ['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'Tab', 'Escape', 'Home', 'End']
+
+
+function handleInfinitiveInput(event) {
+    // Eliminar caracteres no válidos
+    this.value = this.value.toLowerCase().split('').filter(char => validChars.test(char)).join('')
 }
 
 
@@ -122,20 +133,31 @@ function handleInfinitiveEnter(event) {
             event.preventDefault()
             handleConjugate()
         }
+    } else {
+        // Permitir teclas de control (backspace, delete, flechas, etc.)
+        if (controlKeys.includes(event.key)) return
+        // Bloquear teclas que no son letras válidas
+        if (!validChars.test(event.key)) {
+            event.preventDefault()
+        }
     }
 }
 
 
-
-function getFormaHeaderAnnotation(ok, forms, mood_tense) {
+function getFormaHeaderAnnotation(ok: TestResults, mood_tense_deriv: MoodTenseDerivation) {
     let header_annotation: string
     if (ok === true) {
         header_annotation = "🟢 verificadas"
     } else if (ok == null) {
         header_annotation = "🔵 no verificadas"
     } else {
-        const corrections = ok[mood_tense]
-        if (corrections) {
+        let has_corrections = false
+        if (mood_tense_deriv === "Participios") {
+            has_corrections = !!(ok.participio || ok.gerundio)
+        } else {
+            has_corrections = !!(ok.conjugaciones?.[mood_tense_deriv])
+        }
+        if (has_corrections) {
             header_annotation = "🔴 incorrectas  ✅ corregidas"
         } else {
             header_annotation = "🟢 verificadas"
@@ -148,14 +170,13 @@ function getFormaHeaderAnnotation(ok, forms, mood_tense) {
 /**
  * Renderiza la tabla de formas
  */
-function renderParticipiosTable(infinitive, mood_tense, participios: Participios) {
+function renderParticipiosTable(infinitive, participios: Participios) {
     const ok = verbos_con_cambios_morfológicos[infinitive]?.ok
-    const corrections = ok?.[mood_tense]
-    formasHeaderAnnotation.textContent = getFormaHeaderAnnotation(ok, participios, mood_tense)
+    formasHeaderAnnotation.textContent = getFormaHeaderAnnotation(ok, "Participios")
     let rows = ["gerundio", "participio"]
     let rows_html = []
     for (const key of rows) {
-        let span_text = getVerbFormsText(participios[key], corrections?.[key])
+        let span_text = getVerbFormsText(participios[key], ok?.[key])
         const row_html = `<tr><td>${key}</td><td>${span_text}</td></tr>`
         rows_html.push(row_html)
     }
@@ -167,7 +188,7 @@ function renderParticipiosTable(infinitive, mood_tense, participios: Participios
 /**
  * Renderiza la tabla de formas
  */
-function renderConjugationTable(infinitive, mood_tense, forms) {
+function renderConjugationTable(infinitive: string, mood_tense: MoodTense, forms: ConjugaciónEstándarYAtípico) {
     function combineTuVos(s2, vos, corrections){
         // if (!s2 && !vos){
         //     const span=document.createElement("span")
@@ -186,7 +207,7 @@ function renderConjugationTable(infinitive, mood_tense, forms) {
         return span_text
     }
     const ok = verbos_con_cambios_morfológicos[infinitive]?.ok
-    formasHeaderAnnotation.textContent = getFormaHeaderAnnotation(ok, forms, mood_tense)
+    formasHeaderAnnotation.textContent = getFormaHeaderAnnotation(ok, mood_tense)
     let rows = [
         ["s1", "yo"],
         ["s2", "tú = vos"],
@@ -217,33 +238,48 @@ function renderConjugationTable(infinitive, mood_tense, forms) {
 }
 
 
-function getVerbFormsText(verbForms, corrections) {
+function getDisplayTextForFormaConjugada(forma_conjugada: FormaConjugada) {
+    if (forma_conjugada == null) {
+        return "???"
+    } else if (typeof forma_conjugada === "string") {
+        return forma_conjugada
+    } else {
+        return `${forma_conjugada.forma} (${forma_conjugada.uso})` 
+    }
+}
+
+
+function getVerbFormsText(formas_conjugadas: FormaConjugada[], corrections: FormaConjugada[]) {
     let span_text
-    if(verbForms==null){
-        span_text="—"
+    if(formas_conjugadas == null) {
+        span_text = "—"
         return span_text
     }
-    if (verbForms?.length===1) {
+    const text_formas_conjugadas_0 = getDisplayTextForFormaConjugada(formas_conjugadas?.[0])
+    const text_corrections_0       = getDisplayTextForFormaConjugada(corrections?.[0])
+    const text_formas_conjugadas_1 = getDisplayTextForFormaConjugada(formas_conjugadas?.[1])
+    const text_corrections_1       = getDisplayTextForFormaConjugada(corrections?.[1])
+    if (formas_conjugadas?.length===1) {
         if (corrections) {
-            let corrections_text = `✅ ${corrections[0]}`
+            let corrections_text = `✅ ${text_corrections_0}`
             if (corrections.length === 2) {
-                corrections_text += ` , ✅ ${corrections[1]}`
+                corrections_text += ` , ✅ ${text_corrections_1}`
             }
-            span_text = `(🔴 ${verbForms[0]})  ${corrections_text}`
+            span_text = `(🔴 ${text_formas_conjugadas_0})  ${corrections_text}`
             return span_text
         } else {
-            span_text = verbForms[0]
+            span_text = text_formas_conjugadas_0
             return span_text
         }
     }
     if (corrections) {
-        const form_0_ok = !corrections.includes(verbForms[0])
-        const form_1_ok = !corrections.includes(verbForms[1])
-        const span_content_0 = form_0_ok ? `🟢 ${verbForms[0]}` : `(🔴 ${verbForms[0]}) ✅ ${corrections[0]}` 
-        const span_content_1 = form_1_ok ? `🟢 ${verbForms[1]}` : `(🔴 ${verbForms[1]}) ✅ ${corrections[1]}` 
+        const form_0_ok = !corrections.includes(formas_conjugadas[0])
+        const form_1_ok = !corrections.includes(formas_conjugadas[1])
+        const span_content_0 = form_0_ok ? `🟢 ${text_formas_conjugadas_0}` : `(🔴 ${text_formas_conjugadas_0}) ✅ ${text_corrections_0}` 
+        const span_content_1 = form_1_ok ? `🟢 ${text_formas_conjugadas_1}` : `(🔴 ${text_formas_conjugadas_1}) ✅ ${text_corrections_1}` 
         span_text = `${span_content_0} , ${span_content_1}`
     } else {
-        span_text = `${verbForms[0]} , ${verbForms[1]}`
+        span_text = `${text_formas_conjugadas_0} , ${text_formas_conjugadas_1}`
     }
     return span_text
 }
@@ -324,16 +360,17 @@ ${json}
 function initPage() {
     console.log('initPage()')
     // set variable text content
-    document.getElementById("versión").innerText = version
+    ;(<HTMLSpanElement> document.getElementById("versión")).innerText = version
     // set variables for elements
-    themeSlider = document.getElementById("themeToggle")
-    infinitiveInput = document.getElementById("infinitiveInput")
-    moodTenseSelect = document.getElementById("moodTenseSelect")
-    formasHeaderAnnotation = document.getElementById("formas-annotation")
-    conjugationBodyDiv = document.getElementById("conjugation-body")
-    reportErrorButton = document.getElementById("report-error-button")
+    themeSlider = <HTMLInputElement> document.getElementById("themeToggle")
+    infinitiveInput = <HTMLInputElement> document.getElementById("infinitiveInput")
+    moodTenseSelect = <HTMLSelectElement> document.getElementById("moodTenseSelect")
+    formasHeaderAnnotation = <HTMLSpanElement> document.getElementById("formas-annotation")
+    conjugationBodyDiv = <HTMLTableSectionElement> document.getElementById("conjugation-body")
+    reportErrorButton = <HTMLButtonElement> document.getElementById("report-error-button")
     // set handlers on HTML elements
     themeSlider.addEventListener("change", handleThemeToggle);
+    infinitiveInput.addEventListener("input", handleInfinitiveInput)
     infinitiveInput.addEventListener("keydown", handleInfinitiveEnter);
     infinitiveInput.addEventListener("blur", handleInfinitiveBlur);
     moodTenseSelect.addEventListener("change", handleMoodTenseChange);

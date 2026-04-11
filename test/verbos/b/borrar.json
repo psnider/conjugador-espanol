@@ -13,7 +13,7 @@
     "IndPret": {"s1":["borré"],"s2":["borraste"],"vos":["borraste"],"s3":["borró"],"p1":["borramos"],"p2":["borrasteis"],"p3":["borraron"]},
     "IndFut": {"s1":["borraré"],"s2":["borrarás"],"vos":["borrarás"],"s3":["borrará"],"p1":["borraremos"],"p2":["borraréis"],"p3":["borrarán"]},
     "IndCond": {"s1":["borraría"],"s2":["borrarías"],"vos":["borrarías"],"s3":["borraría"],"p1":["borraríamos"],"p2":["borraríais"],"p3":["borrarían"]},
-    "SubPres": {"s1":["borre"],"s2":["borres"],"vos":["borres","borrés"],"s3":["borre"],"p1":["borremos"],"p2":["borréis"],"p3":["borren"]},
+    "SubPres": {"s1":["borre"],"s2":["borres"],"vos":[{"forma": "borres","uso":"Riop."},{"forma":"borrés","uso":"C.Am."}],"s3":["borre"],"p1":["borremos"],"p2":["borréis"],"p3":["borren"]},
     "SubImp": {"s1":["borrara","borrase"],"s2":["borraras","borrases"],"vos":["borraras","borrases"],"s3":["borrara","borrase"],"p1":["borráramos","borrásemos"],"p2":["borrarais","borraseis"],"p3":["borraran","borrasen"]},
     "SubFut": {"s1":["borrare"],"s2":["borrares"],"vos":["borrares"],"s3":["borrare"],"p1":["borráremos"],"p2":["borrareis"],"p3":["borraren"]},
     "CmdPos": {"s2":["borra"],"vos":["borrá"],"s3":["borre"],"p1":["borremos"],"p2":["borrad"],"p3":["borren"]}

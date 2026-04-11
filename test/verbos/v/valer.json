@@ -13,7 +13,7 @@
     "IndPret": {"s1":["valí"],"s2":["valiste"],"vos":["valiste"],"s3":["valió"],"p1":["valimos"],"p2":["valisteis"],"p3":["valieron"]},
     "IndFut": {"s1":["valdré"],"s2":["valdrás"],"vos":["valdrás"],"s3":["valdrá"],"p1":["valdremos"],"p2":["valdréis"],"p3":["valdrán"]},
     "IndCond": {"s1":["valdría"],"s2":["valdrías"],"vos":["valdrías"],"s3":["valdría"],"p1":["valdríamos"],"p2":["valdríais"],"p3":["valdrían"]},
-    "SubPres": {"s1":["valga"],"s2":["valgas"],"vos":["valgas","valgás"],"s3":["valga"],"p1":["valgamos"],"p2":["valgáis"],"p3":["valgan"]},
+    "SubPres": {"s1":["valga"],"s2":["valgas"],"vos":[{"forma": "valgas","uso":"Riop."},{"forma":"valgás","uso":"C.Am."}],"s3":["valga"],"p1":["valgamos"],"p2":["valgáis"],"p3":["valgan"]},
     "SubImp": {"s1":["valiera","valiese"],"s2":["valieras","valieses"],"vos":["valieras","valieses"],"s3":["valiera","valiese"],"p1":["valiéramos","valiésemos"],"p2":["valierais","valieseis"],"p3":["valieran","valiesen"]},
     "SubFut": {"s1":["valiere"],"s2":["valieres"],"vos":["valieres"],"s3":["valiere"],"p1":["valiéremos"],"p2":["valiereis"],"p3":["valieren"]},
     "CmdPos": {"s2":["vale"],"vos":["valé"],"s3":["valga"],"p1":["valgamos"],"p2":["valed"],"p3":["valgan"]}

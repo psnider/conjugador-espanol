@@ -12,7 +12,7 @@
     "IndPret": {"s1":["amortigüé"],"s2":["amortiguaste"],"vos":["amortiguaste"],"s3":["amortiguó"],"p1":["amortiguamos"],"p2":["amortiguasteis"],"p3":["amortiguaron"]},
     "IndFut": {"s1":["amortiguaré"],"s2":["amortiguarás"],"vos":["amortiguarás"],"s3":["amortiguará"],"p1":["amortiguaremos"],"p2":["amortiguaréis"],"p3":["amortiguarán"]},
     "IndCond": {"s1":["amortiguaría"],"s2":["amortiguarías"],"vos":["amortiguarías"],"s3":["amortiguaría"],"p1":["amortiguaríamos"],"p2":["amortiguaríais"],"p3":["amortiguarían"]},
-    "SubPres": {"s1":["amortigüe"],"s2":["amortigües"],"vos":["amortigües","amortigüés"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortigüéis"],"p3":["amortigüen"]},
+    "SubPres": {"s1":["amortigüe"],"s2":["amortigües"],"vos":[{"forma": "amortigües","uso":"Riop."},{"forma":"amortigüés","uso":"C.Am."}],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortigüéis"],"p3":["amortigüen"]},
     "SubImp": {"s1":["amortiguara","amortiguase"],"s2":["amortiguaras","amortiguases"],"vos":["amortiguaras","amortiguases"],"s3":["amortiguara","amortiguase"],"p1":["amortiguáramos","amortiguásemos"],"p2":["amortiguarais","amortiguaseis"],"p3":["amortiguaran","amortiguasen"]},
     "SubFut": {"s1":["amortiguare"],"s2":["amortiguares"],"vos":["amortiguares"],"s3":["amortiguare"],"p1":["amortiguáremos"],"p2":["amortiguareis"],"p3":["amortiguaren"]},
     "CmdPos": {"s2":["amortigua"],"vos":["amortiguá"],"s3":["amortigüe"],"p1":["amortigüemos"],"p2":["amortiguad"],"p3":["amortigüen"]}

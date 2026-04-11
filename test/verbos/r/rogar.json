@@ -13,7 +13,7 @@
     "IndPret": {"s1":["rogué"],"s2":["rogaste"],"vos":["rogaste"],"s3":["rogó"],"p1":["rogamos"],"p2":["rogasteis"],"p3":["rogaron"]},
     "IndFut": {"s1":["rogaré"],"s2":["rogarás"],"vos":["rogarás"],"s3":["rogará"],"p1":["rogaremos"],"p2":["rogaréis"],"p3":["rogarán"]},
     "IndCond": {"s1":["rogaría"],"s2":["rogarías"],"vos":["rogarías"],"s3":["rogaría"],"p1":["rogaríamos"],"p2":["rogaríais"],"p3":["rogarían"]},
-    "SubPres": {"s1":["ruegue"],"s2":["ruegues"],"vos":["ruegues","rogués"],"s3":["ruegue"],"p1":["roguemos"],"p2":["roguéis"],"p3":["rueguen"]},
+    "SubPres": {"s1":["ruegue"],"s2":["ruegues"],"vos":[{"forma": "ruegues","uso":"Riop."},{"forma":"rogués","uso":"C.Am."}],"s3":["ruegue"],"p1":["roguemos"],"p2":["roguéis"],"p3":["rueguen"]},
     "SubImp": {"s1":["rogara","rogase"],"s2":["rogaras","rogases"],"vos":["rogaras","rogases"],"s3":["rogara","rogase"],"p1":["rogáramos","rogásemos"],"p2":["rogarais","rogaseis"],"p3":["rogaran","rogasen"]},
     "SubFut": {"s1":["rogare"],"s2":["rogares"],"vos":["rogares"],"s3":["rogare"],"p1":["rogáremos"],"p2":["rogareis"],"p3":["rogaren"]},
     "CmdPos": {"s2":["ruega"],"vos":["rogá"],"s3":["ruegue"],"p1":["roguemos"],"p2":["rogad"],"p3":["rueguen"]}

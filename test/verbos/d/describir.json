@@ -13,7 +13,7 @@
     "IndPret": {"s1":["describí"],"s2":["describiste"],"vos":["describiste"],"s3":["describió"],"p1":["describimos"],"p2":["describisteis"],"p3":["describieron"]},
     "IndFut": {"s1":["describiré"],"s2":["describirás"],"vos":["describirás"],"s3":["describirá"],"p1":["describiremos"],"p2":["describiréis"],"p3":["describirán"]},
     "IndCond": {"s1":["describiría"],"s2":["describirías"],"vos":["describirías"],"s3":["describiría"],"p1":["describiríamos"],"p2":["describiríais"],"p3":["describirían"]},
-    "SubPres": {"s1":["describa"],"s2":["describas"],"vos":["describas","describás"],"s3":["describa"],"p1":["describamos"],"p2":["describáis"],"p3":["describan"]},
+    "SubPres": {"s1":["describa"],"s2":["describas"],"vos":[{"forma": "describas","uso":"Riop."},{"forma":"describás","uso":"C.Am."}],"s3":["describa"],"p1":["describamos"],"p2":["describáis"],"p3":["describan"]},
     "SubImp": {"s1":["describiera","describiese"],"s2":["describieras","describieses"],"vos":["describieras","describieses"],"s3":["describiera","describiese"],"p1":["describiéramos","describiésemos"],"p2":["describierais","describieseis"],"p3":["describieran","describiesen"]},
     "SubFut": {"s1":["describiere"],"s2":["describieres"],"vos":["describieres"],"s3":["describiere"],"p1":["describiéremos"],"p2":["describiereis"],"p3":["describieren"]},
     "CmdPos": {"s2":["describe"],"vos":["describí"],"s3":["describa"],"p1":["describamos"],"p2":["describid"],"p3":["describan"]}

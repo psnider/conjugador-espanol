@@ -13,7 +13,7 @@
     "IndPret": {"s1":["empapé"],"s2":["empapaste"],"vos":["empapaste"],"s3":["empapó"],"p1":["empapamos"],"p2":["empapasteis"],"p3":["empaparon"]},
     "IndFut": {"s1":["empaparé"],"s2":["empaparás"],"vos":["empaparás"],"s3":["empapará"],"p1":["empaparemos"],"p2":["empaparéis"],"p3":["empaparán"]},
     "IndCond": {"s1":["empaparía"],"s2":["empaparías"],"vos":["empaparías"],"s3":["empaparía"],"p1":["empaparíamos"],"p2":["empaparíais"],"p3":["empaparían"]},
-    "SubPres": {"s1":["empape"],"s2":["empapes"],"vos":["empapes","empapés"],"s3":["empape"],"p1":["empapemos"],"p2":["empapéis"],"p3":["empapen"]},
+    "SubPres": {"s1":["empape"],"s2":["empapes"],"vos":[{"forma": "empapes","uso":"Riop."},{"forma":"empapés","uso":"C.Am."}],"s3":["empape"],"p1":["empapemos"],"p2":["empapéis"],"p3":["empapen"]},
     "SubImp": {"s1":["empapara","empapase"],"s2":["empaparas","empapases"],"vos":["empaparas","empapases"],"s3":["empapara","empapase"],"p1":["empapáramos","empapásemos"],"p2":["empaparais","empapaseis"],"p3":["empaparan","empapasen"]},
     "SubFut": {"s1":["empapare"],"s2":["empapares"],"vos":["empapares"],"s3":["empapare"],"p1":["empapáremos"],"p2":["empapareis"],"p3":["empaparen"]},
     "CmdPos": {"s2":["empapa"],"vos":["empapá"],"s3":["empape"],"p1":["empapemos"],"p2":["empapad"],"p3":["empapen"]}

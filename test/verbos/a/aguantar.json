@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aguanté"],"s2":["aguantaste"],"vos":["aguantaste"],"s3":["aguantó"],"p1":["aguantamos"],"p2":["aguantasteis"],"p3":["aguantaron"]},
     "IndFut": {"s1":["aguantaré"],"s2":["aguantarás"],"vos":["aguantarás"],"s3":["aguantará"],"p1":["aguantaremos"],"p2":["aguantaréis"],"p3":["aguantarán"]},
     "IndCond": {"s1":["aguantaría"],"s2":["aguantarías"],"vos":["aguantarías"],"s3":["aguantaría"],"p1":["aguantaríamos"],"p2":["aguantaríais"],"p3":["aguantarían"]},
-    "SubPres": {"s1":["aguante"],"s2":["aguantes"],"vos":["aguantes","aguantés"],"s3":["aguante"],"p1":["aguantemos"],"p2":["aguantéis"],"p3":["aguanten"]},
+    "SubPres": {"s1":["aguante"],"s2":["aguantes"],"vos":[{"forma": "aguantes","uso":"Riop."},{"forma":"aguantés","uso":"C.Am."}],"s3":["aguante"],"p1":["aguantemos"],"p2":["aguantéis"],"p3":["aguanten"]},
     "SubImp": {"s1":["aguantara","aguantase"],"s2":["aguantaras","aguantases"],"vos":["aguantaras","aguantases"],"s3":["aguantara","aguantase"],"p1":["aguantáramos","aguantásemos"],"p2":["aguantarais","aguantaseis"],"p3":["aguantaran","aguantasen"]},
     "SubFut": {"s1":["aguantare"],"s2":["aguantares"],"vos":["aguantares"],"s3":["aguantare"],"p1":["aguantáremos"],"p2":["aguantareis"],"p3":["aguantaren"]},
     "CmdPos": {"s2":["aguanta"],"vos":["aguantá"],"s3":["aguante"],"p1":["aguantemos"],"p2":["aguantad"],"p3":["aguanten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["comuniqué"],"s2":["comunicaste"],"vos":["comunicaste"],"s3":["comunicó"],"p1":["comunicamos"],"p2":["comunicasteis"],"p3":["comunicaron"]},
     "IndFut": {"s1":["comunicaré"],"s2":["comunicarás"],"vos":["comunicarás"],"s3":["comunicará"],"p1":["comunicaremos"],"p2":["comunicaréis"],"p3":["comunicarán"]},
     "IndCond": {"s1":["comunicaría"],"s2":["comunicarías"],"vos":["comunicarías"],"s3":["comunicaría"],"p1":["comunicaríamos"],"p2":["comunicaríais"],"p3":["comunicarían"]},
-    "SubPres": {"s1":["comunique"],"s2":["comuniques"],"vos":["comuniques","comuniqués"],"s3":["comunique"],"p1":["comuniquemos"],"p2":["comuniquéis"],"p3":["comuniquen"]},
+    "SubPres": {"s1":["comunique"],"s2":["comuniques"],"vos":[{"forma": "comuniques","uso":"Riop."},{"forma":"comuniqués","uso":"C.Am."}],"s3":["comunique"],"p1":["comuniquemos"],"p2":["comuniquéis"],"p3":["comuniquen"]},
     "SubImp": {"s1":["comunicara","comunicase"],"s2":["comunicaras","comunicases"],"vos":["comunicaras","comunicases"],"s3":["comunicara","comunicase"],"p1":["comunicáramos","comunicásemos"],"p2":["comunicarais","comunicaseis"],"p3":["comunicaran","comunicasen"]},
     "SubFut": {"s1":["comunicare"],"s2":["comunicares"],"vos":["comunicares"],"s3":["comunicare"],"p1":["comunicáremos"],"p2":["comunicareis"],"p3":["comunicaren"]},
     "CmdPos": {"s2":["comunica"],"vos":["comunicá"],"s3":["comunique"],"p1":["comuniquemos"],"p2":["comunicad"],"p3":["comuniquen"]}

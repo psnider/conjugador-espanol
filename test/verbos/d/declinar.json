@@ -13,7 +13,7 @@
     "IndPret": {"s1":["decliné"],"s2":["declinaste"],"vos":["declinaste"],"s3":["declinó"],"p1":["declinamos"],"p2":["declinasteis"],"p3":["declinaron"]},
     "IndFut": {"s1":["declinaré"],"s2":["declinarás"],"vos":["declinarás"],"s3":["declinará"],"p1":["declinaremos"],"p2":["declinaréis"],"p3":["declinarán"]},
     "IndCond": {"s1":["declinaría"],"s2":["declinarías"],"vos":["declinarías"],"s3":["declinaría"],"p1":["declinaríamos"],"p2":["declinaríais"],"p3":["declinarían"]},
-    "SubPres": {"s1":["decline"],"s2":["declines"],"vos":["declines","declinés"],"s3":["decline"],"p1":["declinemos"],"p2":["declinéis"],"p3":["declinen"]},
+    "SubPres": {"s1":["decline"],"s2":["declines"],"vos":[{"forma": "declines","uso":"Riop."},{"forma":"declinés","uso":"C.Am."}],"s3":["decline"],"p1":["declinemos"],"p2":["declinéis"],"p3":["declinen"]},
     "SubImp": {"s1":["declinara","declinase"],"s2":["declinaras","declinases"],"vos":["declinaras","declinases"],"s3":["declinara","declinase"],"p1":["declináramos","declinásemos"],"p2":["declinarais","declinaseis"],"p3":["declinaran","declinasen"]},
     "SubFut": {"s1":["declinare"],"s2":["declinares"],"vos":["declinares"],"s3":["declinare"],"p1":["declináremos"],"p2":["declinareis"],"p3":["declinaren"]},
     "CmdPos": {"s2":["declina"],"vos":["decliná"],"s3":["decline"],"p1":["declinemos"],"p2":["declinad"],"p3":["declinen"]}

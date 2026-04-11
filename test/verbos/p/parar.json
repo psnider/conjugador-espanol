@@ -13,7 +13,7 @@
     "IndPret": {"s1":["paré"],"s2":["paraste"],"vos":["paraste"],"s3":["paró"],"p1":["paramos"],"p2":["parasteis"],"p3":["pararon"]},
     "IndFut": {"s1":["pararé"],"s2":["pararás"],"vos":["pararás"],"s3":["parará"],"p1":["pararemos"],"p2":["pararéis"],"p3":["pararán"]},
     "IndCond": {"s1":["pararía"],"s2":["pararías"],"vos":["pararías"],"s3":["pararía"],"p1":["pararíamos"],"p2":["pararíais"],"p3":["pararían"]},
-    "SubPres": {"s1":["pare"],"s2":["pares"],"vos":["pares","parés"],"s3":["pare"],"p1":["paremos"],"p2":["paréis"],"p3":["paren"]},
+    "SubPres": {"s1":["pare"],"s2":["pares"],"vos":[{"forma": "pares","uso":"Riop."},{"forma":"parés","uso":"C.Am."}],"s3":["pare"],"p1":["paremos"],"p2":["paréis"],"p3":["paren"]},
     "SubImp": {"s1":["parara","parase"],"s2":["pararas","parases"],"vos":["pararas","parases"],"s3":["parara","parase"],"p1":["paráramos","parásemos"],"p2":["pararais","paraseis"],"p3":["pararan","parasen"]},
     "SubFut": {"s1":["parare"],"s2":["parares"],"vos":["parares"],"s3":["parare"],"p1":["paráremos"],"p2":["parareis"],"p3":["pararen"]},
     "CmdPos": {"s2":["para"],"vos":["pará"],"s3":["pare"],"p1":["paremos"],"p2":["parad"],"p3":["paren"]}

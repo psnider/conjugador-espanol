@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cubrí"],"s2":["cubriste"],"vos":["cubriste"],"s3":["cubrió"],"p1":["cubrimos"],"p2":["cubristeis"],"p3":["cubrieron"]},
     "IndFut": {"s1":["cubriré"],"s2":["cubrirás"],"vos":["cubrirás"],"s3":["cubrirá"],"p1":["cubriremos"],"p2":["cubriréis"],"p3":["cubrirán"]},
     "IndCond": {"s1":["cubriría"],"s2":["cubrirías"],"vos":["cubrirías"],"s3":["cubriría"],"p1":["cubriríamos"],"p2":["cubriríais"],"p3":["cubrirían"]},
-    "SubPres": {"s1":["cubra"],"s2":["cubras"],"vos":["cubras","cubrás"],"s3":["cubra"],"p1":["cubramos"],"p2":["cubráis"],"p3":["cubran"]},
+    "SubPres": {"s1":["cubra"],"s2":["cubras"],"vos":[{"forma": "cubras","uso":"Riop."},{"forma":"cubrás","uso":"C.Am."}],"s3":["cubra"],"p1":["cubramos"],"p2":["cubráis"],"p3":["cubran"]},
     "SubImp": {"s1":["cubriera","cubriese"],"s2":["cubrieras","cubrieses"],"vos":["cubrieras","cubrieses"],"s3":["cubriera","cubriese"],"p1":["cubriéramos","cubriésemos"],"p2":["cubrierais","cubrieseis"],"p3":["cubrieran","cubriesen"]},
     "SubFut": {"s1":["cubriere"],"s2":["cubrieres"],"vos":["cubrieres"],"s3":["cubriere"],"p1":["cubriéremos"],"p2":["cubriereis"],"p3":["cubrieren"]},
     "CmdPos": {"s2":["cubre"],"vos":["cubrí"],"s3":["cubra"],"p1":["cubramos"],"p2":["cubrid"],"p3":["cubran"]}

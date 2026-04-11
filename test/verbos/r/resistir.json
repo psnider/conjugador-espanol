@@ -13,7 +13,7 @@
     "IndPret": {"s1":["resistí"],"s2":["resististe"],"vos":["resististe"],"s3":["resistió"],"p1":["resistimos"],"p2":["resististeis"],"p3":["resistieron"]},
     "IndFut": {"s1":["resistiré"],"s2":["resistirás"],"vos":["resistirás"],"s3":["resistirá"],"p1":["resistiremos"],"p2":["resistiréis"],"p3":["resistirán"]},
     "IndCond": {"s1":["resistiría"],"s2":["resistirías"],"vos":["resistirías"],"s3":["resistiría"],"p1":["resistiríamos"],"p2":["resistiríais"],"p3":["resistirían"]},
-    "SubPres": {"s1":["resista"],"s2":["resistas"],"vos":["resistas","resistás"],"s3":["resista"],"p1":["resistamos"],"p2":["resistáis"],"p3":["resistan"]},
+    "SubPres": {"s1":["resista"],"s2":["resistas"],"vos":[{"forma": "resistas","uso":"Riop."},{"forma":"resistás","uso":"C.Am."}],"s3":["resista"],"p1":["resistamos"],"p2":["resistáis"],"p3":["resistan"]},
     "SubImp": {"s1":["resistiera","resistiese"],"s2":["resistieras","resistieses"],"vos":["resistieras","resistieses"],"s3":["resistiera","resistiese"],"p1":["resistiéramos","resistiésemos"],"p2":["resistierais","resistieseis"],"p3":["resistieran","resistiesen"]},
     "SubFut": {"s1":["resistiere"],"s2":["resistieres"],"vos":["resistieres"],"s3":["resistiere"],"p1":["resistiéremos"],"p2":["resistiereis"],"p3":["resistieren"]},
     "CmdPos": {"s2":["resiste"],"vos":["resistí"],"s3":["resista"],"p1":["resistamos"],"p2":["resistid"],"p3":["resistan"]}

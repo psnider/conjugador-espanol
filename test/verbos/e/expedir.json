@@ -13,7 +13,7 @@
     "IndPret": {"s1":["expedí"],"s2":["expediste"],"vos":["expediste"],"s3":["expidió"],"p1":["expedimos"],"p2":["expedisteis"],"p3":["expidieron"]},
     "IndFut": {"s1":["expediré"],"s2":["expedirás"],"vos":["expedirás"],"s3":["expedirá"],"p1":["expediremos"],"p2":["expediréis"],"p3":["expedirán"]},
     "IndCond": {"s1":["expediría"],"s2":["expedirías"],"vos":["expedirías"],"s3":["expediría"],"p1":["expediríamos"],"p2":["expediríais"],"p3":["expedirían"]},
-    "SubPres": {"s1":["expida"],"s2":["expidas"],"vos":["expidas","expidás"],"s3":["expida"],"p1":["expidamos"],"p2":["expidáis"],"p3":["expidan"]},
+    "SubPres": {"s1":["expida"],"s2":["expidas"],"vos":[{"forma": "expidas","uso":"Riop."},{"forma":"expidás","uso":"C.Am."}],"s3":["expida"],"p1":["expidamos"],"p2":["expidáis"],"p3":["expidan"]},
     "SubImp": {"s1":["expidiera","expidiese"],"s2":["expidieras","expidieses"],"vos":["expidieras","expidieses"],"s3":["expidiera","expidiese"],"p1":["expidiéramos","expidiésemos"],"p2":["expidierais","expidieseis"],"p3":["expidieran","expidiesen"]},
     "SubFut": {"s1":["expidiere"],"s2":["expidieres"],"vos":["expidieres"],"s3":["expidiere"],"p1":["expidiéremos"],"p2":["expidiereis"],"p3":["expidieren"]},
     "CmdPos": {"s2":["expide"],"vos":["expedí"],"s3":["expida"],"p1":["expidamos"],"p2":["expedid"],"p3":["expidan"]}

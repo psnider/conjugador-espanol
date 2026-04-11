@@ -13,7 +13,7 @@
     "IndPret": {"s1":["estimé"],"s2":["estimaste"],"vos":["estimaste"],"s3":["estimó"],"p1":["estimamos"],"p2":["estimasteis"],"p3":["estimaron"]},
     "IndFut": {"s1":["estimaré"],"s2":["estimarás"],"vos":["estimarás"],"s3":["estimará"],"p1":["estimaremos"],"p2":["estimaréis"],"p3":["estimarán"]},
     "IndCond": {"s1":["estimaría"],"s2":["estimarías"],"vos":["estimarías"],"s3":["estimaría"],"p1":["estimaríamos"],"p2":["estimaríais"],"p3":["estimarían"]},
-    "SubPres": {"s1":["estime"],"s2":["estimes"],"vos":["estimes","estimés"],"s3":["estime"],"p1":["estimemos"],"p2":["estiméis"],"p3":["estimen"]},
+    "SubPres": {"s1":["estime"],"s2":["estimes"],"vos":[{"forma": "estimes","uso":"Riop."},{"forma":"estimés","uso":"C.Am."}],"s3":["estime"],"p1":["estimemos"],"p2":["estiméis"],"p3":["estimen"]},
     "SubImp": {"s1":["estimara","estimase"],"s2":["estimaras","estimases"],"vos":["estimaras","estimases"],"s3":["estimara","estimase"],"p1":["estimáramos","estimásemos"],"p2":["estimarais","estimaseis"],"p3":["estimaran","estimasen"]},
     "SubFut": {"s1":["estimare"],"s2":["estimares"],"vos":["estimares"],"s3":["estimare"],"p1":["estimáremos"],"p2":["estimareis"],"p3":["estimaren"]},
     "CmdPos": {"s2":["estima"],"vos":["estimá"],"s3":["estime"],"p1":["estimemos"],"p2":["estimad"],"p3":["estimen"]}

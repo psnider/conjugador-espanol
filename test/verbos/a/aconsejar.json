@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aconsejé"],"s2":["aconsejaste"],"vos":["aconsejaste"],"s3":["aconsejó"],"p1":["aconsejamos"],"p2":["aconsejasteis"],"p3":["aconsejaron"]},
     "IndFut": {"s1":["aconsejaré"],"s2":["aconsejarás"],"vos":["aconsejarás"],"s3":["aconsejará"],"p1":["aconsejaremos"],"p2":["aconsejaréis"],"p3":["aconsejarán"]},
     "IndCond": {"s1":["aconsejaría"],"s2":["aconsejarías"],"vos":["aconsejarías"],"s3":["aconsejaría"],"p1":["aconsejaríamos"],"p2":["aconsejaríais"],"p3":["aconsejarían"]},
-    "SubPres": {"s1":["aconseje"],"s2":["aconsejes"],"vos":["aconsejes","aconsejés"],"s3":["aconseje"],"p1":["aconsejemos"],"p2":["aconsejéis"],"p3":["aconsejen"]},
+    "SubPres": {"s1":["aconseje"],"s2":["aconsejes"],"vos":[{"forma": "aconsejes","uso":"Riop."},{"forma":"aconsejés","uso":"C.Am."}],"s3":["aconseje"],"p1":["aconsejemos"],"p2":["aconsejéis"],"p3":["aconsejen"]},
     "SubImp": {"s1":["aconsejara","aconsejase"],"s2":["aconsejaras","aconsejases"],"vos":["aconsejaras","aconsejases"],"s3":["aconsejara","aconsejase"],"p1":["aconsejáramos","aconsejásemos"],"p2":["aconsejarais","aconsejaseis"],"p3":["aconsejaran","aconsejasen"]},
     "SubFut": {"s1":["aconsejare"],"s2":["aconsejares"],"vos":["aconsejares"],"s3":["aconsejare"],"p1":["aconsejáremos"],"p2":["aconsejareis"],"p3":["aconsejaren"]},
     "CmdPos": {"s2":["aconseja"],"vos":["aconsejá"],"s3":["aconseje"],"p1":["aconsejemos"],"p2":["aconsejad"],"p3":["aconsejen"]}

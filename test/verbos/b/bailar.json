@@ -13,7 +13,7 @@
     "IndPret": {"s1":["bailé"],"s2":["bailaste"],"vos":["bailaste"],"s3":["bailó"],"p1":["bailamos"],"p2":["bailasteis"],"p3":["bailaron"]},
     "IndFut": {"s1":["bailaré"],"s2":["bailarás"],"vos":["bailarás"],"s3":["bailará"],"p1":["bailaremos"],"p2":["bailaréis"],"p3":["bailarán"]},
     "IndCond": {"s1":["bailaría"],"s2":["bailarías"],"vos":["bailarías"],"s3":["bailaría"],"p1":["bailaríamos"],"p2":["bailaríais"],"p3":["bailarían"]},
-    "SubPres": {"s1":["baile"],"s2":["bailes"],"vos":["bailes","bailés"],"s3":["baile"],"p1":["bailemos"],"p2":["bailéis"],"p3":["bailen"]},
+    "SubPres": {"s1":["baile"],"s2":["bailes"],"vos":[{"forma": "bailes","uso":"Riop."},{"forma":"bailés","uso":"C.Am."}],"s3":["baile"],"p1":["bailemos"],"p2":["bailéis"],"p3":["bailen"]},
     "SubImp": {"s1":["bailara","bailase"],"s2":["bailaras","bailases"],"vos":["bailaras","bailases"],"s3":["bailara","bailase"],"p1":["bailáramos","bailásemos"],"p2":["bailarais","bailaseis"],"p3":["bailaran","bailasen"]},
     "SubFut": {"s1":["bailare"],"s2":["bailares"],"vos":["bailares"],"s3":["bailare"],"p1":["bailáremos"],"p2":["bailareis"],"p3":["bailaren"]},
     "CmdPos": {"s2":["baila"],"vos":["bailá"],"s3":["baile"],"p1":["bailemos"],"p2":["bailad"],"p3":["bailen"]}

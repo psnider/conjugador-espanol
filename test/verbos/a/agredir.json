@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾeˈð̞iɾ]",
+    "silabacion": "a-gre-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aggrĕdi",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"agredir","gerundio":["agrediendo"],"participio":["agredido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agredo"],"s2":["agredes"],"vos":["agredís"],"s3":["agrede"],"p1":["agredimos"],"p2":["agredís"],"p3":["agreden"]},
+    "IndImp": {"s1":["agredía"],"s2":["agredías"],"vos":["agredías"],"s3":["agredía"],"p1":["agredíamos"],"p2":["agredíais"],"p3":["agredían"]},
+    "IndPret": {"s1":["agredí"],"s2":["agrediste"],"vos":["agrediste"],"s3":["agredió"],"p1":["agredimos"],"p2":["agredisteis"],"p3":["agredieron"]},
+    "IndFut": {"s1":["agrediré"],"s2":["agredirás"],"vos":["agredirás"],"s3":["agredirá"],"p1":["agrediremos"],"p2":["agrediréis"],"p3":["agredirán"]},
+    "IndCond": {"s1":["agrediría"],"s2":["agredirías"],"vos":["agredirías"],"s3":["agrediría"],"p1":["agrediríamos"],"p2":["agrediríais"],"p3":["agredirían"]},
+    "SubPres": {"s1":["agreda"],"s2":["agredas"],"vos":["agredas","agredás"],"s3":["agreda"],"p1":["agredamos"],"p2":["agredáis"],"p3":["agredan"]},
+    "SubImp": {"s1":["agrediera","agrediese"],"s2":["agredieras","agredieses"],"vos":["agredieras","agredieses"],"s3":["agrediera","agrediese"],"p1":["agrediéramos","agrediésemos"],"p2":["agredierais","agredieseis"],"p3":["agredieran","agrediesen"]},
+    "SubFut": {"s1":["agrediere"],"s2":["agredieres"],"vos":["agredieres"],"s3":["agrediere"],"p1":["agrediéremos"],"p2":["agrediereis"],"p3":["agredieren"]},
+    "CmdPos": {"s2":["agrede"],"vos":["agredí"],"s3":["agreda"],"p1":["agredamos"],"p2":["agredid"],"p3":["agredan"]}
+  }
+}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["jubilé"],"s2":["jubilaste"],"vos":["jubilaste"],"s3":["jubiló"],"p1":["jubilamos"],"p2":["jubilasteis"],"p3":["jubilaron"]},
     "IndFut": {"s1":["jubilaré"],"s2":["jubilarás"],"vos":["jubilarás"],"s3":["jubilará"],"p1":["jubilaremos"],"p2":["jubilaréis"],"p3":["jubilarán"]},
     "IndCond": {"s1":["jubilaría"],"s2":["jubilarías"],"vos":["jubilarías"],"s3":["jubilaría"],"p1":["jubilaríamos"],"p2":["jubilaríais"],"p3":["jubilarían"]},
-    "SubPres": {"s1":["jubile"],"s2":["jubiles"],"vos":["jubiles","jubilés"],"s3":["jubile"],"p1":["jubilemos"],"p2":["jubiléis"],"p3":["jubilen"]},
+    "SubPres": {"s1":["jubile"],"s2":["jubiles"],"vos":[{"forma": "jubiles","uso":"Riop."},{"forma":"jubilés","uso":"C.Am."}],"s3":["jubile"],"p1":["jubilemos"],"p2":["jubiléis"],"p3":["jubilen"]},
     "SubImp": {"s1":["jubilara","jubilase"],"s2":["jubilaras","jubilases"],"vos":["jubilaras","jubilases"],"s3":["jubilara","jubilase"],"p1":["jubiláramos","jubilásemos"],"p2":["jubilarais","jubilaseis"],"p3":["jubilaran","jubilasen"]},
     "SubFut": {"s1":["jubilare"],"s2":["jubilares"],"vos":["jubilares"],"s3":["jubilare"],"p1":["jubiláremos"],"p2":["jubilareis"],"p3":["jubilaren"]},
     "CmdPos": {"s2":["jubila"],"vos":["jubilá"],"s3":["jubile"],"p1":["jubilemos"],"p2":["jubilad"],"p3":["jubilen"]}

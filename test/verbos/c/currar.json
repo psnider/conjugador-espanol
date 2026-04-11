@@ -13,7 +13,7 @@
     "IndPret": {"s1":["curré"],"s2":["curraste"],"vos":["curraste"],"s3":["curró"],"p1":["curramos"],"p2":["currasteis"],"p3":["curraron"]},
     "IndFut": {"s1":["curraré"],"s2":["currarás"],"vos":["currarás"],"s3":["currará"],"p1":["curraremos"],"p2":["curraréis"],"p3":["currarán"]},
     "IndCond": {"s1":["curraría"],"s2":["currarías"],"vos":["currarías"],"s3":["curraría"],"p1":["curraríamos"],"p2":["curraríais"],"p3":["currarían"]},
-    "SubPres": {"s1":["curre"],"s2":["curres"],"vos":["curres","currés"],"s3":["curre"],"p1":["curremos"],"p2":["curréis"],"p3":["curren"]},
+    "SubPres": {"s1":["curre"],"s2":["curres"],"vos":[{"forma": "curres","uso":"Riop."},{"forma":"currés","uso":"C.Am."}],"s3":["curre"],"p1":["curremos"],"p2":["curréis"],"p3":["curren"]},
     "SubImp": {"s1":["currara","currase"],"s2":["curraras","currases"],"vos":["curraras","currases"],"s3":["currara","currase"],"p1":["curráramos","currásemos"],"p2":["currarais","curraseis"],"p3":["curraran","currasen"]},
     "SubFut": {"s1":["currare"],"s2":["currares"],"vos":["currares"],"s3":["currare"],"p1":["curráremos"],"p2":["currareis"],"p3":["curraren"]},
     "CmdPos": {"s2":["curra"],"vos":["currá"],"s3":["curre"],"p1":["curremos"],"p2":["currad"],"p3":["curren"]}

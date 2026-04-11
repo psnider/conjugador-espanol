@@ -13,7 +13,7 @@
     "IndPret": {"s1":["emborraché"],"s2":["emborrachaste"],"vos":["emborrachaste"],"s3":["emborrachó"],"p1":["emborrachamos"],"p2":["emborrachasteis"],"p3":["emborracharon"]},
     "IndFut": {"s1":["emborracharé"],"s2":["emborracharás"],"vos":["emborracharás"],"s3":["emborrachará"],"p1":["emborracharemos"],"p2":["emborracharéis"],"p3":["emborracharán"]},
     "IndCond": {"s1":["emborracharía"],"s2":["emborracharías"],"vos":["emborracharías"],"s3":["emborracharía"],"p1":["emborracharíamos"],"p2":["emborracharíais"],"p3":["emborracharían"]},
-    "SubPres": {"s1":["emborrache"],"s2":["emborraches"],"vos":["emborraches","emborrachés"],"s3":["emborrache"],"p1":["emborrachemos"],"p2":["emborrachéis"],"p3":["emborrachen"]},
+    "SubPres": {"s1":["emborrache"],"s2":["emborraches"],"vos":[{"forma": "emborraches","uso":"Riop."},{"forma":"emborrachés","uso":"C.Am."}],"s3":["emborrache"],"p1":["emborrachemos"],"p2":["emborrachéis"],"p3":["emborrachen"]},
     "SubImp": {"s1":["emborrachara","emborrachase"],"s2":["emborracharas","emborrachases"],"vos":["emborracharas","emborrachases"],"s3":["emborrachara","emborrachase"],"p1":["emborracháramos","emborrachásemos"],"p2":["emborracharais","emborrachaseis"],"p3":["emborracharan","emborrachasen"]},
     "SubFut": {"s1":["emborrachare"],"s2":["emborrachares"],"vos":["emborrachares"],"s3":["emborrachare"],"p1":["emborracháremos"],"p2":["emborrachareis"],"p3":["emborracharen"]},
     "CmdPos": {"s2":["emborracha"],"vos":["emborrachá"],"s3":["emborrache"],"p1":["emborrachemos"],"p2":["emborrachad"],"p3":["emborrachen"]}

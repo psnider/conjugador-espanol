@@ -13,7 +13,7 @@
     "IndPret": {"s1":["repetí"],"s2":["repetiste"],"vos":["repetiste"],"s3":["repitió"],"p1":["repetimos"],"p2":["repetisteis"],"p3":["repitieron"]},
     "IndFut": {"s1":["repetiré"],"s2":["repetirás"],"vos":["repetirás"],"s3":["repetirá"],"p1":["repetiremos"],"p2":["repetiréis"],"p3":["repetirán"]},
     "IndCond": {"s1":["repetiría"],"s2":["repetirías"],"vos":["repetirías"],"s3":["repetiría"],"p1":["repetiríamos"],"p2":["repetiríais"],"p3":["repetirían"]},
-    "SubPres": {"s1":["repita"],"s2":["repitas"],"vos":["repitas","repitás"],"s3":["repita"],"p1":["repitamos"],"p2":["repitáis"],"p3":["repitan"]},
+    "SubPres": {"s1":["repita"],"s2":["repitas"],"vos":[{"forma": "repitas","uso":"Riop."},{"forma":"repitás","uso":"C.Am."}],"s3":["repita"],"p1":["repitamos"],"p2":["repitáis"],"p3":["repitan"]},
     "SubImp": {"s1":["repitiera","repitiese"],"s2":["repitieras","repitieses"],"vos":["repitieras","repitieses"],"s3":["repitiera","repitiese"],"p1":["repitiéramos","repitiésemos"],"p2":["repitierais","repitieseis"],"p3":["repitieran","repitiesen"]},
     "SubFut": {"s1":["repitiere"],"s2":["repitieres"],"vos":["repitieres"],"s3":["repitiere"],"p1":["repitiéremos"],"p2":["repitiereis"],"p3":["repitieren"]},
     "CmdPos": {"s2":["repite"],"vos":["repetí"],"s3":["repita"],"p1":["repitamos"],"p2":["repetid"],"p3":["repitan"]}

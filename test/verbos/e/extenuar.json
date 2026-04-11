@@ -12,7 +12,7 @@
     "IndPret": {"s1":["extenué"],"s2":["extenuaste"],"vos":["extenuaste"],"s3":["extenuó"],"p1":["extenuamos"],"p2":["extenuasteis"],"p3":["extenuaron"]},
     "IndFut": {"s1":["extenuaré"],"s2":["extenuarás"],"vos":["extenuarás"],"s3":["extenuará"],"p1":["extenuaremos"],"p2":["extenuaréis"],"p3":["extenuarán"]},
     "IndCond": {"s1":["extenuaría"],"s2":["extenuarías"],"vos":["extenuarías"],"s3":["extenuaría"],"p1":["extenuaríamos"],"p2":["extenuaríais"],"p3":["extenuarían"]},
-    "SubPres": {"s1":["extenúe"],"s2":["extenúes"],"vos":["extenúes","extenués"],"s3":["extenúe"],"p1":["extenuemos"],"p2":["extenuéis"],"p3":["extenúen"]},
+    "SubPres": {"s1":["extenúe"],"s2":["extenúes"],"vos":[{"forma": "extenúes","uso":"Riop."},{"forma":"extenués","uso":"C.Am."}],"s3":["extenúe"],"p1":["extenuemos"],"p2":["extenuéis"],"p3":["extenúen"]},
     "SubImp": {"s1":["extenuara","extenuase"],"s2":["extenuaras","extenuases"],"vos":["extenuaras","extenuases"],"s3":["extenuara","extenuase"],"p1":["extenuáramos","extenuásemos"],"p2":["extenuarais","extenuaseis"],"p3":["extenuaran","extenuasen"]},
     "SubFut": {"s1":["extenuare"],"s2":["extenuares"],"vos":["extenuares"],"s3":["extenuare"],"p1":["extenuáremos"],"p2":["extenuareis"],"p3":["extenuaren"]},
     "CmdPos": {"s2":["extenúa"],"vos":["extenuá"],"s3":["extenúe"],"p1":["extenuemos"],"p2":["extenuad"],"p3":["extenúen"]}

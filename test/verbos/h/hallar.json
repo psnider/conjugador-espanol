@@ -13,7 +13,7 @@
     "IndPret": {"s1":["hallé"],"s2":["hallaste"],"vos":["hallaste"],"s3":["halló"],"p1":["hallamos"],"p2":["hallasteis"],"p3":["hallaron"]},
     "IndFut": {"s1":["hallaré"],"s2":["hallarás"],"vos":["hallarás"],"s3":["hallará"],"p1":["hallaremos"],"p2":["hallaréis"],"p3":["hallarán"]},
     "IndCond": {"s1":["hallaría"],"s2":["hallarías"],"vos":["hallarías"],"s3":["hallaría"],"p1":["hallaríamos"],"p2":["hallaríais"],"p3":["hallarían"]},
-    "SubPres": {"s1":["halle"],"s2":["halles"],"vos":["halles","hallés"],"s3":["halle"],"p1":["hallemos"],"p2":["halléis"],"p3":["hallen"]},
+    "SubPres": {"s1":["halle"],"s2":["halles"],"vos":[{"forma": "halles","uso":"Riop."},{"forma":"hallés","uso":"C.Am."}],"s3":["halle"],"p1":["hallemos"],"p2":["halléis"],"p3":["hallen"]},
     "SubImp": {"s1":["hallara","hallase"],"s2":["hallaras","hallases"],"vos":["hallaras","hallases"],"s3":["hallara","hallase"],"p1":["halláramos","hallásemos"],"p2":["hallarais","hallaseis"],"p3":["hallaran","hallasen"]},
     "SubFut": {"s1":["hallare"],"s2":["hallares"],"vos":["hallares"],"s3":["hallare"],"p1":["halláremos"],"p2":["hallareis"],"p3":["hallaren"]},
     "CmdPos": {"s2":["halla"],"vos":["hallá"],"s3":["halle"],"p1":["hallemos"],"p2":["hallad"],"p3":["hallen"]}

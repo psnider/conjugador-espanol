@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desahucié"],"s2":["desahuciaste"],"vos":["desahuciaste"],"s3":["desahució"],"p1":["desahuciamos"],"p2":["desahuciasteis"],"p3":["desahuciaron"]},
     "IndFut": {"s1":["desahuciaré"],"s2":["desahuciarás"],"vos":["desahuciarás"],"s3":["desahuciará"],"p1":["desahuciaremos"],"p2":["desahuciaréis"],"p3":["desahuciarán"]},
     "IndCond": {"s1":["desahuciaría"],"s2":["desahuciarías"],"vos":["desahuciarías"],"s3":["desahuciaría"],"p1":["desahuciaríamos"],"p2":["desahuciaríais"],"p3":["desahuciarían"]},
-    "SubPres": {"s1":["desahucie"],"s2":["desahucies"],"vos":["desahucies","desahuciés"],"s3":["desahucie"],"p1":["desahuciemos"],"p2":["desahuciéis"],"p3":["desahucien"]},
+    "SubPres": {"s1":["desahucie"],"s2":["desahucies"],"vos":[{"forma": "desahucies","uso":"Riop."},{"forma":"desahuciés","uso":"C.Am."}],"s3":["desahucie"],"p1":["desahuciemos"],"p2":["desahuciéis"],"p3":["desahucien"]},
     "SubImp": {"s1":["desahuciara","desahuciase"],"s2":["desahuciaras","desahuciases"],"vos":["desahuciaras","desahuciases"],"s3":["desahuciara","desahuciase"],"p1":["desahuciáramos","desahuciásemos"],"p2":["desahuciarais","desahuciaseis"],"p3":["desahuciaran","desahuciasen"]},
     "SubFut": {"s1":["desahuciare"],"s2":["desahuciares"],"vos":["desahuciares"],"s3":["desahuciare"],"p1":["desahuciáremos"],"p2":["desahuciareis"],"p3":["desahuciaren"]},
     "CmdPos": {"s2":["desahucia"],"vos":["desahuciá"],"s3":["desahucie"],"p1":["desahuciemos"],"p2":["desahuciad"],"p3":["desahucien"]}

@@ -10,14 +10,14 @@
 //   - Imperativo:
 //     - tú
 //     - usted / ustedes
-//   (No aplicar a s1 si existe tema_presente_yo)
+//   (No aplicar a s1 si existe tema_presente_yo_del_modelo)
 // 3. Base de aplicación
 //   La alternancia se aplica sobre:
 //   - tema_regular
 //   Nunca sobre:
-//   - tema_presente_yo
-//   - tema_pretérito
-//   - tema_futuro
+//   - tema_presente_yo_del_modelo
+//   - tema_pretérito_del_modelo
+//   - tema_futuro_del_modelo
 // 4. Condición fonológica
 //   Aplicar solo si:
 //   - la vocal afectada está en sílaba tónica
@@ -34,35 +34,105 @@
 //   - participio
 //   - gerundio
 // 7. Orden de ejecución (crítico)
-//   - Seleccionar tema (tema_presente_yo si corresponde)
-//   - Si no hay tema_presente_yo, aplicar alternancia_vocálica
+//   - Seleccionar tema (tema_presente_yo_del_modelo si corresponde)
+//   - Si no hay tema_presente_yo_del_modelo, aplicar alternancia_vocálica
 //   - Aplicar reglas ortográficas
 //   - Añadir terminaciones
+import { applyToFormasConjugadas, combinaFormasConjugadas, isValueless } from "./lib.js";
 import { applyStemChangePattern, getStemChangesFromRule, stem_change_descriptions } from "./stem-changes.js";
-const domains_alternancia_vocálica = ["IndPres", "SubPres", "CmdPos", "CmdNeg"];
-export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense) {
+const domains_alternancia_vocálica = ["IndPres", "SubPres", "CmdPos"];
+export function getTemaConAlternanciaVocálica_IndPret3P(conj_and_deriv_rules, tema_sin_alternancia) {
+    const { verb_family, morphological_rules } = conj_and_deriv_rules;
+    const alternancia_vocálica = morphological_rules?.de_modelo?.alternancia_vocálica || morphological_rules?.de_infinitivo?.alternancia_vocálica;
+    const stem_changes_per_form = getStemChangesFromRule("IndPret", alternancia_vocálica);
+    const stem_change_rule_id = stem_changes_per_form?.p3;
+    if (stem_change_rule_id) {
+        const rule_description = stem_change_descriptions[stem_change_rule_id];
+        if (rule_description) {
+            if (!rule_description.only_for_ir_verbs || verb_family === "-ir") {
+                const changed = applyStemChangePattern(tema_sin_alternancia, rule_description);
+                return changed;
+            }
+        }
+    }
+    return tema_sin_alternancia;
+}
+function moodTenseIsBasedOnIndPret3PStem(mood_tense) {
+    return ["SubImp", "SubFut"].includes(mood_tense);
+}
+export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense, temas_sin_alternancias) {
     const changed_stems = {};
-    if (domains_alternancia_vocálica.includes(mood_tense)) {
-        const { infinitivo_sin_prefijos, verb_family, morphological_rules } = conj_and_deriv_rules;
-        const alternancia_vocálica = morphological_rules?.combinados?.alternancia_vocálica;
+    if (!moodTenseIsBasedOnIndPret3PStem(mood_tense)) {
+        const { verb_family, morphological_rules } = conj_and_deriv_rules;
+        const alternancia_vocálica = morphological_rules?.de_modelo?.alternancia_vocálica || morphological_rules?.de_infinitivo?.alternancia_vocálica;
         if (alternancia_vocálica) {
-            const stem_regular = infinitivo_sin_prefijos.slice(0, -2);
-            const tema_presente_yo = morphological_rules?.combinados?.tema_presente_yo;
-            const sufijo_presente_yo = morphological_rules?.combinados?.sufijo_presente_yo;
-            const dont_apply_to_yo = (mood_tense === "IndPres") && (tema_presente_yo || sufijo_presente_yo);
+            const tema_presente_yo_del_modelo = morphological_rules?.de_modelo?.tema_presente_yo_del_modelo;
+            const sufijo_presente_yo = morphological_rules?.de_modelo?.sufijo_presente_yo;
+            const dont_apply_to_yo = (mood_tense === "IndPres") && (tema_presente_yo_del_modelo || sufijo_presente_yo);
             // FIX: linguist: vocal_en_sílaba_tónica is implied by the existance of alternancia_vocálica, which is manually applied to verbs in verbos_con_cambios_morfológicas[]
+            // FIX: this seems to overlap with getStemChanges()
             const stem_changes_per_form = getStemChangesFromRule(mood_tense, alternancia_vocálica);
             for (const key in stem_changes_per_form) {
                 const gramatical_person = key;
-                const do_apply = (!dont_apply_to_yo || (gramatical_person !== "s1"));
-                if (do_apply) {
-                    const stem_change_rule = stem_changes_per_form?.[gramatical_person];
-                    if (stem_change_rule) {
-                        const rule_description = stem_change_descriptions[stem_change_rule];
-                        if (!rule_description.only_for_ir_verbs || verb_family === "-ir") {
-                            let changed = applyStemChangePattern(stem_regular, rule_description);
-                            if (changed !== stem_regular) {
-                                changed_stems[gramatical_person] = [changed];
+                if (gramatical_person === "vos") {
+                    const stem_change_rule_ids = stem_changes_per_form.vos;
+                    if (stem_change_rule_ids) {
+                        if ((stem_change_rule_ids.length === 1) && (typeof stem_change_rule_ids[0] === "string")) {
+                            const rule_description = stem_change_descriptions[stem_change_rule_ids[0]];
+                            const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias.vos[0]; // FIX: are there other forms here?
+                            const tema_sin_alternancia = (typeof forma_conjugada_tema_sin_alternancia === "string") ? forma_conjugada_tema_sin_alternancia : forma_conjugada_tema_sin_alternancia?.forma;
+                            // FIX: this is fairly tricky, try to clarify how FormaRestringida's are preserved
+                            let updated = tema_sin_alternancia;
+                            if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
+                                if (tema_sin_alternancia) {
+                                    updated = applyStemChangePattern(tema_sin_alternancia, rule_description);
+                                }
+                            }
+                            changed_stems.vos = [updated];
+                        }
+                        else {
+                            const changes = applyToFormasConjugadas(stem_change_rule_ids, (forma, i) => {
+                                const stem_change_rule = forma;
+                                const rule_description = stem_change_descriptions[stem_change_rule];
+                                // FIX: this is too complicated.  In case of two forms, say "Riop." and "C.Am." with one stem, 
+                                const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias.vos?.[i] || temas_sin_alternancias.vos?.[0];
+                                const tema_sin_alternancia = (typeof forma_conjugada_tema_sin_alternancia === "string") ? forma_conjugada_tema_sin_alternancia : forma_conjugada_tema_sin_alternancia?.forma;
+                                // FIX: this is fairly tricky, try to clarify how FormaRestringida's are preserved
+                                if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
+                                    let changed;
+                                    if (tema_sin_alternancia) {
+                                        changed = applyStemChangePattern(tema_sin_alternancia, rule_description);
+                                    }
+                                    return changed || tema_sin_alternancia;
+                                }
+                                else {
+                                    return tema_sin_alternancia;
+                                }
+                            });
+                            const combined = combinaFormasConjugadas(stem_change_rule_ids, changes);
+                            if (!isValueless(changes)) {
+                                changed_stems.vos = changes;
+                            }
+                        }
+                    }
+                }
+                else {
+                    const do_apply = (!dont_apply_to_yo || (gramatical_person !== "s1"));
+                    if (do_apply) {
+                        const stem_change_rule_id = stem_changes_per_form?.[gramatical_person];
+                        if (stem_change_rule_id) {
+                            const rule_description = stem_change_descriptions[stem_change_rule_id];
+                            if (rule_description) {
+                                if (!rule_description.only_for_ir_verbs || verb_family === "-ir") {
+                                    const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias[gramatical_person];
+                                    const changes = applyToFormasConjugadas(forma_conjugada_tema_sin_alternancia, (tema) => {
+                                        const changed = applyStemChangePattern(tema, rule_description);
+                                        return changed;
+                                    });
+                                    if (!isValueless(changes)) {
+                                        changed_stems[gramatical_person] = changes;
+                                    }
+                                }
                             }
                         }
                     }

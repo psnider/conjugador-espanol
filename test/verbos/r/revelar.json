@@ -13,7 +13,7 @@
     "IndPret": {"s1":["revelé"],"s2":["revelaste"],"vos":["revelaste"],"s3":["reveló"],"p1":["revelamos"],"p2":["revelasteis"],"p3":["revelaron"]},
     "IndFut": {"s1":["revelaré"],"s2":["revelarás"],"vos":["revelarás"],"s3":["revelará"],"p1":["revelaremos"],"p2":["revelaréis"],"p3":["revelarán"]},
     "IndCond": {"s1":["revelaría"],"s2":["revelarías"],"vos":["revelarías"],"s3":["revelaría"],"p1":["revelaríamos"],"p2":["revelaríais"],"p3":["revelarían"]},
-    "SubPres": {"s1":["revele"],"s2":["reveles"],"vos":["reveles","revelés"],"s3":["revele"],"p1":["revelemos"],"p2":["reveléis"],"p3":["revelen"]},
+    "SubPres": {"s1":["revele"],"s2":["reveles"],"vos":[{"forma": "reveles","uso":"Riop."},{"forma":"revelés","uso":"C.Am."}],"s3":["revele"],"p1":["revelemos"],"p2":["reveléis"],"p3":["revelen"]},
     "SubImp": {"s1":["revelara","revelase"],"s2":["revelaras","revelases"],"vos":["revelaras","revelases"],"s3":["revelara","revelase"],"p1":["reveláramos","revelásemos"],"p2":["revelarais","revelaseis"],"p3":["revelaran","revelasen"]},
     "SubFut": {"s1":["revelare"],"s2":["revelares"],"vos":["revelares"],"s3":["revelare"],"p1":["reveláremos"],"p2":["revelareis"],"p3":["revelaren"]},
     "CmdPos": {"s2":["revela"],"vos":["revelá"],"s3":["revele"],"p1":["revelemos"],"p2":["revelad"],"p3":["revelen"]}

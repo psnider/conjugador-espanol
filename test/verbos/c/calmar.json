@@ -13,7 +13,7 @@
     "IndPret": {"s1":["calmé"],"s2":["calmaste"],"vos":["calmaste"],"s3":["calmó"],"p1":["calmamos"],"p2":["calmasteis"],"p3":["calmaron"]},
     "IndFut": {"s1":["calmaré"],"s2":["calmarás"],"vos":["calmarás"],"s3":["calmará"],"p1":["calmaremos"],"p2":["calmaréis"],"p3":["calmarán"]},
     "IndCond": {"s1":["calmaría"],"s2":["calmarías"],"vos":["calmarías"],"s3":["calmaría"],"p1":["calmaríamos"],"p2":["calmaríais"],"p3":["calmarían"]},
-    "SubPres": {"s1":["calme"],"s2":["calmes"],"vos":["calmes","calmés"],"s3":["calme"],"p1":["calmemos"],"p2":["calméis"],"p3":["calmen"]},
+    "SubPres": {"s1":["calme"],"s2":["calmes"],"vos":[{"forma": "calmes","uso":"Riop."},{"forma":"calmés","uso":"C.Am."}],"s3":["calme"],"p1":["calmemos"],"p2":["calméis"],"p3":["calmen"]},
     "SubImp": {"s1":["calmara","calmase"],"s2":["calmaras","calmases"],"vos":["calmaras","calmases"],"s3":["calmara","calmase"],"p1":["calmáramos","calmásemos"],"p2":["calmarais","calmaseis"],"p3":["calmaran","calmasen"]},
     "SubFut": {"s1":["calmare"],"s2":["calmares"],"vos":["calmares"],"s3":["calmare"],"p1":["calmáremos"],"p2":["calmareis"],"p3":["calmaren"]},
     "CmdPos": {"s2":["calma"],"vos":["calmá"],"s3":["calme"],"p1":["calmemos"],"p2":["calmad"],"p3":["calmen"]}

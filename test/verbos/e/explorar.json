@@ -13,7 +13,7 @@
     "IndPret": {"s1":["exploré"],"s2":["exploraste"],"vos":["exploraste"],"s3":["exploró"],"p1":["exploramos"],"p2":["explorasteis"],"p3":["exploraron"]},
     "IndFut": {"s1":["exploraré"],"s2":["explorarás"],"vos":["explorarás"],"s3":["explorará"],"p1":["exploraremos"],"p2":["exploraréis"],"p3":["explorarán"]},
     "IndCond": {"s1":["exploraría"],"s2":["explorarías"],"vos":["explorarías"],"s3":["exploraría"],"p1":["exploraríamos"],"p2":["exploraríais"],"p3":["explorarían"]},
-    "SubPres": {"s1":["explore"],"s2":["explores"],"vos":["explores","explorés"],"s3":["explore"],"p1":["exploremos"],"p2":["exploréis"],"p3":["exploren"]},
+    "SubPres": {"s1":["explore"],"s2":["explores"],"vos":[{"forma": "explores","uso":"Riop."},{"forma":"explorés","uso":"C.Am."}],"s3":["explore"],"p1":["exploremos"],"p2":["exploréis"],"p3":["exploren"]},
     "SubImp": {"s1":["explorara","explorase"],"s2":["exploraras","explorases"],"vos":["exploraras","explorases"],"s3":["explorara","explorase"],"p1":["exploráramos","explorásemos"],"p2":["explorarais","exploraseis"],"p3":["exploraran","explorasen"]},
     "SubFut": {"s1":["explorare"],"s2":["explorares"],"vos":["explorares"],"s3":["explorare"],"p1":["exploráremos"],"p2":["explorareis"],"p3":["exploraren"]},
     "CmdPos": {"s2":["explora"],"vos":["explorá"],"s3":["explore"],"p1":["exploremos"],"p2":["explorad"],"p3":["exploren"]}

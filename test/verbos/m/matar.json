@@ -13,7 +13,7 @@
     "IndPret": {"s1":["maté"],"s2":["mataste"],"vos":["mataste"],"s3":["mató"],"p1":["matamos"],"p2":["matasteis"],"p3":["mataron"]},
     "IndFut": {"s1":["mataré"],"s2":["matarás"],"vos":["matarás"],"s3":["matará"],"p1":["mataremos"],"p2":["mataréis"],"p3":["matarán"]},
     "IndCond": {"s1":["mataría"],"s2":["matarías"],"vos":["matarías"],"s3":["mataría"],"p1":["mataríamos"],"p2":["mataríais"],"p3":["matarían"]},
-    "SubPres": {"s1":["mate"],"s2":["mates"],"vos":["mates","matés"],"s3":["mate"],"p1":["matemos"],"p2":["matéis"],"p3":["maten"]},
+    "SubPres": {"s1":["mate"],"s2":["mates"],"vos":[{"forma": "mates","uso":"Riop."},{"forma":"matés","uso":"C.Am."}],"s3":["mate"],"p1":["matemos"],"p2":["matéis"],"p3":["maten"]},
     "SubImp": {"s1":["matara","matase"],"s2":["mataras","matases"],"vos":["mataras","matases"],"s3":["matara","matase"],"p1":["matáramos","matásemos"],"p2":["matarais","mataseis"],"p3":["mataran","matasen"]},
     "SubFut": {"s1":["matare"],"s2":["matares"],"vos":["matares"],"s3":["matare"],"p1":["matáremos"],"p2":["matareis"],"p3":["mataren"]},
     "CmdPos": {"s2":["mata"],"vos":["matá"],"s3":["mate"],"p1":["matemos"],"p2":["matad"],"p3":["maten"]}

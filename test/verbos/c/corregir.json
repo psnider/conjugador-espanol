@@ -13,7 +13,7 @@
     "IndPret": {"s1":["corregí"],"s2":["corregiste"],"vos":["corregiste"],"s3":["corrigió"],"p1":["corregimos"],"p2":["corregisteis"],"p3":["corrigieron"]},
     "IndFut": {"s1":["corregiré"],"s2":["corregirás"],"vos":["corregirás"],"s3":["corregirá"],"p1":["corregiremos"],"p2":["corregiréis"],"p3":["corregirán"]},
     "IndCond": {"s1":["corregiría"],"s2":["corregirías"],"vos":["corregirías"],"s3":["corregiría"],"p1":["corregiríamos"],"p2":["corregiríais"],"p3":["corregirían"]},
-    "SubPres": {"s1":["corrija"],"s2":["corrijas"],"vos":["corrijas","corrijás"],"s3":["corrija"],"p1":["corrijamos"],"p2":["corrijáis"],"p3":["corrijan"]},
+    "SubPres": {"s1":["corrija"],"s2":["corrijas"],"vos":[{"forma": "corrijas","uso":"Riop."},{"forma":"corrijás","uso":"C.Am."}],"s3":["corrija"],"p1":["corrijamos"],"p2":["corrijáis"],"p3":["corrijan"]},
     "SubImp": {"s1":["corrigiera","corrigiese"],"s2":["corrigieras","corrigieses"],"vos":["corrigieras","corrigieses"],"s3":["corrigiera","corrigiese"],"p1":["corrigiéramos","corrigiésemos"],"p2":["corrigierais","corrigieseis"],"p3":["corrigieran","corrigiesen"]},
     "SubFut": {"s1":["corrigiere"],"s2":["corrigieres"],"vos":["corrigieres"],"s3":["corrigiere"],"p1":["corrigiéremos"],"p2":["corrigiereis"],"p3":["corrigieren"]},
     "CmdPos": {"s2":["corrige"],"vos":["corregí"],"s3":["corrija"],"p1":["corrijamos"],"p2":["corregid"],"p3":["corrijan"]}

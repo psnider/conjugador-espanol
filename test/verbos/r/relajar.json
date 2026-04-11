@@ -13,7 +13,7 @@
     "IndPret": {"s1":["relajé"],"s2":["relajaste"],"vos":["relajaste"],"s3":["relajó"],"p1":["relajamos"],"p2":["relajasteis"],"p3":["relajaron"]},
     "IndFut": {"s1":["relajaré"],"s2":["relajarás"],"vos":["relajarás"],"s3":["relajará"],"p1":["relajaremos"],"p2":["relajaréis"],"p3":["relajarán"]},
     "IndCond": {"s1":["relajaría"],"s2":["relajarías"],"vos":["relajarías"],"s3":["relajaría"],"p1":["relajaríamos"],"p2":["relajaríais"],"p3":["relajarían"]},
-    "SubPres": {"s1":["relaje"],"s2":["relajes"],"vos":["relajes","relajés"],"s3":["relaje"],"p1":["relajemos"],"p2":["relajéis"],"p3":["relajen"]},
+    "SubPres": {"s1":["relaje"],"s2":["relajes"],"vos":[{"forma": "relajes","uso":"Riop."},{"forma":"relajés","uso":"C.Am."}],"s3":["relaje"],"p1":["relajemos"],"p2":["relajéis"],"p3":["relajen"]},
     "SubImp": {"s1":["relajara","relajase"],"s2":["relajaras","relajases"],"vos":["relajaras","relajases"],"s3":["relajara","relajase"],"p1":["relajáramos","relajásemos"],"p2":["relajarais","relajaseis"],"p3":["relajaran","relajasen"]},
     "SubFut": {"s1":["relajare"],"s2":["relajares"],"vos":["relajares"],"s3":["relajare"],"p1":["relajáremos"],"p2":["relajareis"],"p3":["relajaren"]},
     "CmdPos": {"s2":["relaja"],"vos":["relajá"],"s3":["relaje"],"p1":["relajemos"],"p2":["relajad"],"p3":["relajen"]}

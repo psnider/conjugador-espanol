@@ -13,7 +13,7 @@
     "IndPret": {"s1":["conformé"],"s2":["conformaste"],"vos":["conformaste"],"s3":["conformó"],"p1":["conformamos"],"p2":["conformasteis"],"p3":["conformaron"]},
     "IndFut": {"s1":["conformaré"],"s2":["conformarás"],"vos":["conformarás"],"s3":["conformará"],"p1":["conformaremos"],"p2":["conformaréis"],"p3":["conformarán"]},
     "IndCond": {"s1":["conformaría"],"s2":["conformarías"],"vos":["conformarías"],"s3":["conformaría"],"p1":["conformaríamos"],"p2":["conformaríais"],"p3":["conformarían"]},
-    "SubPres": {"s1":["conforme"],"s2":["conformes"],"vos":["conformes","conformés"],"s3":["conforme"],"p1":["conformemos"],"p2":["conforméis"],"p3":["conformen"]},
+    "SubPres": {"s1":["conforme"],"s2":["conformes"],"vos":[{"forma": "conformes","uso":"Riop."},{"forma":"conformés","uso":"C.Am."}],"s3":["conforme"],"p1":["conformemos"],"p2":["conforméis"],"p3":["conformen"]},
     "SubImp": {"s1":["conformara","conformase"],"s2":["conformaras","conformases"],"vos":["conformaras","conformases"],"s3":["conformara","conformase"],"p1":["conformáramos","conformásemos"],"p2":["conformarais","conformaseis"],"p3":["conformaran","conformasen"]},
     "SubFut": {"s1":["conformare"],"s2":["conformares"],"vos":["conformares"],"s3":["conformare"],"p1":["conformáremos"],"p2":["conformareis"],"p3":["conformaren"]},
     "CmdPos": {"s2":["conforma"],"vos":["conformá"],"s3":["conforme"],"p1":["conformemos"],"p2":["conformad"],"p3":["conformen"]}

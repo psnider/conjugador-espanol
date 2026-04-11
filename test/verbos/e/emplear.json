@@ -13,7 +13,7 @@
     "IndPret": {"s1":["empleé"],"s2":["empleaste"],"vos":["empleaste"],"s3":["empleó"],"p1":["empleamos"],"p2":["empleasteis"],"p3":["emplearon"]},
     "IndFut": {"s1":["emplearé"],"s2":["emplearás"],"vos":["emplearás"],"s3":["empleará"],"p1":["emplearemos"],"p2":["emplearéis"],"p3":["emplearán"]},
     "IndCond": {"s1":["emplearía"],"s2":["emplearías"],"vos":["emplearías"],"s3":["emplearía"],"p1":["emplearíamos"],"p2":["emplearíais"],"p3":["emplearían"]},
-    "SubPres": {"s1":["emplee"],"s2":["emplees"],"vos":["emplees","empleés"],"s3":["emplee"],"p1":["empleemos"],"p2":["empleéis"],"p3":["empleen"]},
+    "SubPres": {"s1":["emplee"],"s2":["emplees"],"vos":[{"forma": "emplees","uso":"Riop."},{"forma":"empleés","uso":"C.Am."}],"s3":["emplee"],"p1":["empleemos"],"p2":["empleéis"],"p3":["empleen"]},
     "SubImp": {"s1":["empleara","emplease"],"s2":["emplearas","empleases"],"vos":["emplearas","empleases"],"s3":["empleara","emplease"],"p1":["empleáramos","empleásemos"],"p2":["emplearais","empleaseis"],"p3":["emplearan","empleasen"]},
     "SubFut": {"s1":["empleare"],"s2":["empleares"],"vos":["empleares"],"s3":["empleare"],"p1":["empleáremos"],"p2":["empleareis"],"p3":["emplearen"]},
     "CmdPos": {"s2":["emplea"],"vos":["empleá"],"s3":["emplee"],"p1":["empleemos"],"p2":["emplead"],"p3":["empleen"]}

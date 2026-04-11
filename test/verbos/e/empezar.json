@@ -13,7 +13,7 @@
     "IndPret": {"s1":["empecé"],"s2":["empezaste"],"vos":["empezaste"],"s3":["empezó"],"p1":["empezamos"],"p2":["empezasteis"],"p3":["empezaron"]},
     "IndFut": {"s1":["empezaré"],"s2":["empezarás"],"vos":["empezarás"],"s3":["empezará"],"p1":["empezaremos"],"p2":["empezaréis"],"p3":["empezarán"]},
     "IndCond": {"s1":["empezaría"],"s2":["empezarías"],"vos":["empezarías"],"s3":["empezaría"],"p1":["empezaríamos"],"p2":["empezaríais"],"p3":["empezarían"]},
-    "SubPres": {"s1":["empiece"],"s2":["empieces"],"vos":["empieces","empecés"],"s3":["empiece"],"p1":["empecemos"],"p2":["empecéis"],"p3":["empiecen"]},
+    "SubPres": {"s1":["empiece"],"s2":["empieces"],"vos":[{"forma": "empieces","uso":"Riop."},{"forma":"empecés","uso":"C.Am."}],"s3":["empiece"],"p1":["empecemos"],"p2":["empecéis"],"p3":["empiecen"]},
     "SubImp": {"s1":["empezara","empezase"],"s2":["empezaras","empezases"],"vos":["empezaras","empezases"],"s3":["empezara","empezase"],"p1":["empezáramos","empezásemos"],"p2":["empezarais","empezaseis"],"p3":["empezaran","empezasen"]},
     "SubFut": {"s1":["empezare"],"s2":["empezares"],"vos":["empezares"],"s3":["empezare"],"p1":["empezáremos"],"p2":["empezareis"],"p3":["empezaren"]},
     "CmdPos": {"s2":["empieza"],"vos":["empezá"],"s3":["empiece"],"p1":["empecemos"],"p2":["empezad"],"p3":["empiecen"]}

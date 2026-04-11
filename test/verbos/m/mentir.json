@@ -13,7 +13,7 @@
     "IndPret": {"s1":["mentí"],"s2":["mentiste"],"vos":["mentiste"],"s3":["mintió"],"p1":["mentimos"],"p2":["mentisteis"],"p3":["mintieron"]},
     "IndFut": {"s1":["mentiré"],"s2":["mentirás"],"vos":["mentirás"],"s3":["mentirá"],"p1":["mentiremos"],"p2":["mentiréis"],"p3":["mentirán"]},
     "IndCond": {"s1":["mentiría"],"s2":["mentirías"],"vos":["mentirías"],"s3":["mentiría"],"p1":["mentiríamos"],"p2":["mentiríais"],"p3":["mentirían"]},
-    "SubPres": {"s1":["mienta"],"s2":["mientas"],"vos":["mientas","mintás"],"s3":["mienta"],"p1":["mintamos"],"p2":["mintáis"],"p3":["mientan"]},
+    "SubPres": {"s1":["mienta"],"s2":["mientas"],"vos":[{"forma": "mientas","uso":"Riop."},{"forma":"mintás","uso":"C.Am."}],"s3":["mienta"],"p1":["mintamos"],"p2":["mintáis"],"p3":["mientan"]},
     "SubImp": {"s1":["mintiera","mintiese"],"s2":["mintieras","mintieses"],"vos":["mintieras","mintieses"],"s3":["mintiera","mintiese"],"p1":["mintiéramos","mintiésemos"],"p2":["mintierais","mintieseis"],"p3":["mintieran","mintiesen"]},
     "SubFut": {"s1":["mintiere"],"s2":["mintieres"],"vos":["mintieres"],"s3":["mintiere"],"p1":["mintiéremos"],"p2":["mintiereis"],"p3":["mintieren"]},
     "CmdPos": {"s2":["miente"],"vos":["mentí"],"s3":["mienta"],"p1":["mintamos"],"p2":["mentid"],"p3":["mientan"]}

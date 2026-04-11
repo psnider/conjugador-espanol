@@ -13,7 +13,7 @@
     "IndPret": {"s1":["infundí"],"s2":["infundiste"],"vos":["infundiste"],"s3":["infundió"],"p1":["infundimos"],"p2":["infundisteis"],"p3":["infundieron"]},
     "IndFut": {"s1":["infundiré"],"s2":["infundirás"],"vos":["infundirás"],"s3":["infundirá"],"p1":["infundiremos"],"p2":["infundiréis"],"p3":["infundirán"]},
     "IndCond": {"s1":["infundiría"],"s2":["infundirías"],"vos":["infundirías"],"s3":["infundiría"],"p1":["infundiríamos"],"p2":["infundiríais"],"p3":["infundirían"]},
-    "SubPres": {"s1":["infunda"],"s2":["infundas"],"vos":["infundas","infundás"],"s3":["infunda"],"p1":["infundamos"],"p2":["infundáis"],"p3":["infundan"]},
+    "SubPres": {"s1":["infunda"],"s2":["infundas"],"vos":[{"forma": "infundas","uso":"Riop."},{"forma":"infundás","uso":"C.Am."}],"s3":["infunda"],"p1":["infundamos"],"p2":["infundáis"],"p3":["infundan"]},
     "SubImp": {"s1":["infundiera","infundiese"],"s2":["infundieras","infundieses"],"vos":["infundieras","infundieses"],"s3":["infundiera","infundiese"],"p1":["infundiéramos","infundiésemos"],"p2":["infundierais","infundieseis"],"p3":["infundieran","infundiesen"]},
     "SubFut": {"s1":["infundiere"],"s2":["infundieres"],"vos":["infundieres"],"s3":["infundiere"],"p1":["infundiéremos"],"p2":["infundiereis"],"p3":["infundieren"]},
     "CmdPos": {"s2":["infunde"],"vos":["infundí"],"s3":["infunda"],"p1":["infundamos"],"p2":["infundid"],"p3":["infundan"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["recolecté"],"s2":["recolectaste"],"vos":["recolectaste"],"s3":["recolectó"],"p1":["recolectamos"],"p2":["recolectasteis"],"p3":["recolectaron"]},
     "IndFut": {"s1":["recolectaré"],"s2":["recolectarás"],"vos":["recolectarás"],"s3":["recolectará"],"p1":["recolectaremos"],"p2":["recolectaréis"],"p3":["recolectarán"]},
     "IndCond": {"s1":["recolectaría"],"s2":["recolectarías"],"vos":["recolectarías"],"s3":["recolectaría"],"p1":["recolectaríamos"],"p2":["recolectaríais"],"p3":["recolectarían"]},
-    "SubPres": {"s1":["recolecte"],"s2":["recolectes"],"vos":["recolectes","recolectés"],"s3":["recolecte"],"p1":["recolectemos"],"p2":["recolectéis"],"p3":["recolecten"]},
+    "SubPres": {"s1":["recolecte"],"s2":["recolectes"],"vos":[{"forma": "recolectes","uso":"Riop."},{"forma":"recolectés","uso":"C.Am."}],"s3":["recolecte"],"p1":["recolectemos"],"p2":["recolectéis"],"p3":["recolecten"]},
     "SubImp": {"s1":["recolectara","recolectase"],"s2":["recolectaras","recolectases"],"vos":["recolectaras","recolectases"],"s3":["recolectara","recolectase"],"p1":["recolectáramos","recolectásemos"],"p2":["recolectarais","recolectaseis"],"p3":["recolectaran","recolectasen"]},
     "SubFut": {"s1":["recolectare"],"s2":["recolectares"],"vos":["recolectares"],"s3":["recolectare"],"p1":["recolectáremos"],"p2":["recolectareis"],"p3":["recolectaren"]},
     "CmdPos": {"s2":["recolecta"],"vos":["recolectá"],"s3":["recolecte"],"p1":["recolectemos"],"p2":["recolectad"],"p3":["recolecten"]}

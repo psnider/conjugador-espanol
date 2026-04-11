@@ -13,7 +13,7 @@
     "IndPret": {"s1":["disparé"],"s2":["disparaste"],"vos":["disparaste"],"s3":["disparó"],"p1":["disparamos"],"p2":["disparasteis"],"p3":["dispararon"]},
     "IndFut": {"s1":["dispararé"],"s2":["dispararás"],"vos":["dispararás"],"s3":["disparará"],"p1":["dispararemos"],"p2":["dispararéis"],"p3":["dispararán"]},
     "IndCond": {"s1":["dispararía"],"s2":["dispararías"],"vos":["dispararías"],"s3":["dispararía"],"p1":["dispararíamos"],"p2":["dispararíais"],"p3":["dispararían"]},
-    "SubPres": {"s1":["dispare"],"s2":["dispares"],"vos":["dispares","disparés"],"s3":["dispare"],"p1":["disparemos"],"p2":["disparéis"],"p3":["disparen"]},
+    "SubPres": {"s1":["dispare"],"s2":["dispares"],"vos":[{"forma": "dispares","uso":"Riop."},{"forma":"disparés","uso":"C.Am."}],"s3":["dispare"],"p1":["disparemos"],"p2":["disparéis"],"p3":["disparen"]},
     "SubImp": {"s1":["disparara","disparase"],"s2":["dispararas","disparases"],"vos":["dispararas","disparases"],"s3":["disparara","disparase"],"p1":["disparáramos","disparásemos"],"p2":["dispararais","disparaseis"],"p3":["dispararan","disparasen"]},
     "SubFut": {"s1":["disparare"],"s2":["disparares"],"vos":["disparares"],"s3":["disparare"],"p1":["disparáremos"],"p2":["disparareis"],"p3":["dispararen"]},
     "CmdPos": {"s2":["dispara"],"vos":["dispará"],"s3":["dispare"],"p1":["disparemos"],"p2":["disparad"],"p3":["disparen"]}

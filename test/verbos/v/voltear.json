@@ -13,7 +13,7 @@
     "IndPret": {"s1":["volteé"],"s2":["volteaste"],"vos":["volteaste"],"s3":["volteó"],"p1":["volteamos"],"p2":["volteasteis"],"p3":["voltearon"]},
     "IndFut": {"s1":["voltearé"],"s2":["voltearás"],"vos":["voltearás"],"s3":["volteará"],"p1":["voltearemos"],"p2":["voltearéis"],"p3":["voltearán"]},
     "IndCond": {"s1":["voltearía"],"s2":["voltearías"],"vos":["voltearías"],"s3":["voltearía"],"p1":["voltearíamos"],"p2":["voltearíais"],"p3":["voltearían"]},
-    "SubPres": {"s1":["voltee"],"s2":["voltees"],"vos":["voltees","volteés"],"s3":["voltee"],"p1":["volteemos"],"p2":["volteéis"],"p3":["volteen"]},
+    "SubPres": {"s1":["voltee"],"s2":["voltees"],"vos":[{"forma": "voltees","uso":"Riop."},{"forma":"volteés","uso":"C.Am."}],"s3":["voltee"],"p1":["volteemos"],"p2":["volteéis"],"p3":["volteen"]},
     "SubImp": {"s1":["volteara","voltease"],"s2":["voltearas","volteases"],"vos":["voltearas","volteases"],"s3":["volteara","voltease"],"p1":["volteáramos","volteásemos"],"p2":["voltearais","volteaseis"],"p3":["voltearan","volteasen"]},
     "SubFut": {"s1":["volteare"],"s2":["volteares"],"vos":["volteares"],"s3":["volteare"],"p1":["volteáremos"],"p2":["volteareis"],"p3":["voltearen"]},
     "CmdPos": {"s2":["voltea"],"vos":["volteá"],"s3":["voltee"],"p1":["volteemos"],"p2":["voltead"],"p3":["volteen"]}

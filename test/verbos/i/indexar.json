@@ -13,7 +13,7 @@
     "IndPret": {"s1":["indexé"],"s2":["indexaste"],"vos":["indexaste"],"s3":["indexó"],"p1":["indexamos"],"p2":["indexasteis"],"p3":["indexaron"]},
     "IndFut": {"s1":["indexaré"],"s2":["indexarás"],"vos":["indexarás"],"s3":["indexará"],"p1":["indexaremos"],"p2":["indexaréis"],"p3":["indexarán"]},
     "IndCond": {"s1":["indexaría"],"s2":["indexarías"],"vos":["indexarías"],"s3":["indexaría"],"p1":["indexaríamos"],"p2":["indexaríais"],"p3":["indexarían"]},
-    "SubPres": {"s1":["indexe"],"s2":["indexes"],"vos":["indexes","indexés"],"s3":["indexe"],"p1":["indexemos"],"p2":["indexéis"],"p3":["indexen"]},
+    "SubPres": {"s1":["indexe"],"s2":["indexes"],"vos":[{"forma": "indexes","uso":"Riop."},{"forma":"indexés","uso":"C.Am."}],"s3":["indexe"],"p1":["indexemos"],"p2":["indexéis"],"p3":["indexen"]},
     "SubImp": {"s1":["indexara","indexase"],"s2":["indexaras","indexases"],"vos":["indexaras","indexases"],"s3":["indexara","indexase"],"p1":["indexáramos","indexásemos"],"p2":["indexarais","indexaseis"],"p3":["indexaran","indexasen"]},
     "SubFut": {"s1":["indexare"],"s2":["indexares"],"vos":["indexares"],"s3":["indexare"],"p1":["indexáremos"],"p2":["indexareis"],"p3":["indexaren"]},
     "CmdPos": {"s2":["indexa"],"vos":["indexá"],"s3":["indexe"],"p1":["indexemos"],"p2":["indexad"],"p3":["indexen"]}

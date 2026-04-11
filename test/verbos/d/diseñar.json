@@ -13,7 +13,7 @@
     "IndPret": {"s1":["diseñé"],"s2":["diseñaste"],"vos":["diseñaste"],"s3":["diseñó"],"p1":["diseñamos"],"p2":["diseñasteis"],"p3":["diseñaron"]},
     "IndFut": {"s1":["diseñaré"],"s2":["diseñarás"],"vos":["diseñarás"],"s3":["diseñará"],"p1":["diseñaremos"],"p2":["diseñaréis"],"p3":["diseñarán"]},
     "IndCond": {"s1":["diseñaría"],"s2":["diseñarías"],"vos":["diseñarías"],"s3":["diseñaría"],"p1":["diseñaríamos"],"p2":["diseñaríais"],"p3":["diseñarían"]},
-    "SubPres": {"s1":["diseñe"],"s2":["diseñes"],"vos":["diseñes","diseñés"],"s3":["diseñe"],"p1":["diseñemos"],"p2":["diseñéis"],"p3":["diseñen"]},
+    "SubPres": {"s1":["diseñe"],"s2":["diseñes"],"vos":[{"forma": "diseñes","uso":"Riop."},{"forma":"diseñés","uso":"C.Am."}],"s3":["diseñe"],"p1":["diseñemos"],"p2":["diseñéis"],"p3":["diseñen"]},
     "SubImp": {"s1":["diseñara","diseñase"],"s2":["diseñaras","diseñases"],"vos":["diseñaras","diseñases"],"s3":["diseñara","diseñase"],"p1":["diseñáramos","diseñásemos"],"p2":["diseñarais","diseñaseis"],"p3":["diseñaran","diseñasen"]},
     "SubFut": {"s1":["diseñare"],"s2":["diseñares"],"vos":["diseñares"],"s3":["diseñare"],"p1":["diseñáremos"],"p2":["diseñareis"],"p3":["diseñaren"]},
     "CmdPos": {"s2":["diseña"],"vos":["diseñá"],"s3":["diseñe"],"p1":["diseñemos"],"p2":["diseñad"],"p3":["diseñen"]}

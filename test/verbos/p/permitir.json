@@ -13,7 +13,7 @@
     "IndPret": {"s1":["permití"],"s2":["permitiste"],"vos":["permitiste"],"s3":["permitió"],"p1":["permitimos"],"p2":["permitisteis"],"p3":["permitieron"]},
     "IndFut": {"s1":["permitiré"],"s2":["permitirás"],"vos":["permitirás"],"s3":["permitirá"],"p1":["permitiremos"],"p2":["permitiréis"],"p3":["permitirán"]},
     "IndCond": {"s1":["permitiría"],"s2":["permitirías"],"vos":["permitirías"],"s3":["permitiría"],"p1":["permitiríamos"],"p2":["permitiríais"],"p3":["permitirían"]},
-    "SubPres": {"s1":["permita"],"s2":["permitas"],"vos":["permitas","permitás"],"s3":["permita"],"p1":["permitamos"],"p2":["permitáis"],"p3":["permitan"]},
+    "SubPres": {"s1":["permita"],"s2":["permitas"],"vos":[{"forma": "permitas","uso":"Riop."},{"forma":"permitás","uso":"C.Am."}],"s3":["permita"],"p1":["permitamos"],"p2":["permitáis"],"p3":["permitan"]},
     "SubImp": {"s1":["permitiera","permitiese"],"s2":["permitieras","permitieses"],"vos":["permitieras","permitieses"],"s3":["permitiera","permitiese"],"p1":["permitiéramos","permitiésemos"],"p2":["permitierais","permitieseis"],"p3":["permitieran","permitiesen"]},
     "SubFut": {"s1":["permitiere"],"s2":["permitieres"],"vos":["permitieres"],"s3":["permitiere"],"p1":["permitiéremos"],"p2":["permitiereis"],"p3":["permitieren"]},
     "CmdPos": {"s2":["permite"],"vos":["permití"],"s3":["permita"],"p1":["permitamos"],"p2":["permitid"],"p3":["permitan"]}

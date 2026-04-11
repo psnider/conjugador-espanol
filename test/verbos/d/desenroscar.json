@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desenrosqué"],"s2":["desenroscaste"],"vos":["desenroscaste"],"s3":["desenroscó"],"p1":["desenroscamos"],"p2":["desenroscasteis"],"p3":["desenroscaron"]},
     "IndFut": {"s1":["desenroscaré"],"s2":["desenroscarás"],"vos":["desenroscarás"],"s3":["desenroscará"],"p1":["desenroscaremos"],"p2":["desenroscaréis"],"p3":["desenroscarán"]},
     "IndCond": {"s1":["desenroscaría"],"s2":["desenroscarías"],"vos":["desenroscarías"],"s3":["desenroscaría"],"p1":["desenroscaríamos"],"p2":["desenroscaríais"],"p3":["desenroscarían"]},
-    "SubPres": {"s1":["desenrosque"],"s2":["desenrosques"],"vos":["desenrosques","desenrosqués"],"s3":["desenrosque"],"p1":["desenrosquemos"],"p2":["desenrosquéis"],"p3":["desenrosquen"]},
+    "SubPres": {"s1":["desenrosque"],"s2":["desenrosques"],"vos":[{"forma": "desenrosques","uso":"Riop."},{"forma":"desenrosqués","uso":"C.Am."}],"s3":["desenrosque"],"p1":["desenrosquemos"],"p2":["desenrosquéis"],"p3":["desenrosquen"]},
     "SubImp": {"s1":["desenroscara","desenroscase"],"s2":["desenroscaras","desenroscases"],"vos":["desenroscaras","desenroscases"],"s3":["desenroscara","desenroscase"],"p1":["desenroscáramos","desenroscásemos"],"p2":["desenroscarais","desenroscaseis"],"p3":["desenroscaran","desenroscasen"]},
     "SubFut": {"s1":["desenroscare"],"s2":["desenroscares"],"vos":["desenroscares"],"s3":["desenroscare"],"p1":["desenroscáremos"],"p2":["desenroscareis"],"p3":["desenroscaren"]},
     "CmdPos": {"s2":["desenrosca"],"vos":["desenroscá"],"s3":["desenrosque"],"p1":["desenrosquemos"],"p2":["desenroscad"],"p3":["desenrosquen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desfallecí"],"s2":["desfalleciste"],"vos":["desfalleciste"],"s3":["desfalleció"],"p1":["desfallecimos"],"p2":["desfallecisteis"],"p3":["desfallecieron"]},
     "IndFut": {"s1":["desfalleceré"],"s2":["desfallecerás"],"vos":["desfallecerás"],"s3":["desfallecerá"],"p1":["desfalleceremos"],"p2":["desfalleceréis"],"p3":["desfallecerán"]},
     "IndCond": {"s1":["desfallecería"],"s2":["desfallecerías"],"vos":["desfallecerías"],"s3":["desfallecería"],"p1":["desfalleceríamos"],"p2":["desfalleceríais"],"p3":["desfallecerían"]},
-    "SubPres": {"s1":["desfallezca"],"s2":["desfallezcas"],"vos":["desfallezcas","desfallezcás"],"s3":["desfallezca"],"p1":["desfallezcamos"],"p2":["desfallezcáis"],"p3":["desfallezcan"]},
+    "SubPres": {"s1":["desfallezca"],"s2":["desfallezcas"],"vos":[{"forma": "desfallezcas","uso":"Riop."},{"forma":"desfallezcás","uso":"C.Am."}],"s3":["desfallezca"],"p1":["desfallezcamos"],"p2":["desfallezcáis"],"p3":["desfallezcan"]},
     "SubImp": {"s1":["desfalleciera","desfalleciese"],"s2":["desfallecieras","desfallecieses"],"vos":["desfallecieras","desfallecieses"],"s3":["desfalleciera","desfalleciese"],"p1":["desfalleciéramos","desfalleciésemos"],"p2":["desfallecierais","desfallecieseis"],"p3":["desfallecieran","desfalleciesen"]},
     "SubFut": {"s1":["desfalleciere"],"s2":["desfallecieres"],"vos":["desfallecieres"],"s3":["desfalleciere"],"p1":["desfalleciéremos"],"p2":["desfalleciereis"],"p3":["desfallecieren"]},
     "CmdPos": {"s2":["desfallece"],"vos":["desfallecé"],"s3":["desfallezca"],"p1":["desfallezcamos"],"p2":["desfalleced"],"p3":["desfallezcan"]}

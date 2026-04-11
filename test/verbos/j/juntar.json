@@ -13,7 +13,7 @@
     "IndPret": {"s1":["junté"],"s2":["juntaste"],"vos":["juntaste"],"s3":["juntó"],"p1":["juntamos"],"p2":["juntasteis"],"p3":["juntaron"]},
     "IndFut": {"s1":["juntaré"],"s2":["juntarás"],"vos":["juntarás"],"s3":["juntará"],"p1":["juntaremos"],"p2":["juntaréis"],"p3":["juntarán"]},
     "IndCond": {"s1":["juntaría"],"s2":["juntarías"],"vos":["juntarías"],"s3":["juntaría"],"p1":["juntaríamos"],"p2":["juntaríais"],"p3":["juntarían"]},
-    "SubPres": {"s1":["junte"],"s2":["juntes"],"vos":["juntes","juntés"],"s3":["junte"],"p1":["juntemos"],"p2":["juntéis"],"p3":["junten"]},
+    "SubPres": {"s1":["junte"],"s2":["juntes"],"vos":[{"forma": "juntes","uso":"Riop."},{"forma":"juntés","uso":"C.Am."}],"s3":["junte"],"p1":["juntemos"],"p2":["juntéis"],"p3":["junten"]},
     "SubImp": {"s1":["juntara","juntase"],"s2":["juntaras","juntases"],"vos":["juntaras","juntases"],"s3":["juntara","juntase"],"p1":["juntáramos","juntásemos"],"p2":["juntarais","juntaseis"],"p3":["juntaran","juntasen"]},
     "SubFut": {"s1":["juntare"],"s2":["juntares"],"vos":["juntares"],"s3":["juntare"],"p1":["juntáremos"],"p2":["juntareis"],"p3":["juntaren"]},
     "CmdPos": {"s2":["junta"],"vos":["juntá"],"s3":["junte"],"p1":["juntemos"],"p2":["juntad"],"p3":["junten"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["consideré"],"s2":["consideraste"],"vos":["consideraste"],"s3":["consideró"],"p1":["consideramos"],"p2":["considerasteis"],"p3":["consideraron"]},
     "IndFut": {"s1":["consideraré"],"s2":["considerarás"],"vos":["considerarás"],"s3":["considerará"],"p1":["consideraremos"],"p2":["consideraréis"],"p3":["considerarán"]},
     "IndCond": {"s1":["consideraría"],"s2":["considerarías"],"vos":["considerarías"],"s3":["consideraría"],"p1":["consideraríamos"],"p2":["consideraríais"],"p3":["considerarían"]},
-    "SubPres": {"s1":["considere"],"s2":["consideres"],"vos":["consideres","considerés"],"s3":["considere"],"p1":["consideremos"],"p2":["consideréis"],"p3":["consideren"]},
+    "SubPres": {"s1":["considere"],"s2":["consideres"],"vos":[{"forma": "consideres","uso":"Riop."},{"forma":"considerés","uso":"C.Am."}],"s3":["considere"],"p1":["consideremos"],"p2":["consideréis"],"p3":["consideren"]},
     "SubImp": {"s1":["considerara","considerase"],"s2":["consideraras","considerases"],"vos":["consideraras","considerases"],"s3":["considerara","considerase"],"p1":["consideráramos","considerásemos"],"p2":["considerarais","consideraseis"],"p3":["consideraran","considerasen"]},
     "SubFut": {"s1":["considerare"],"s2":["considerares"],"vos":["considerares"],"s3":["considerare"],"p1":["consideráremos"],"p2":["considerareis"],"p3":["consideraren"]},
     "CmdPos": {"s2":["considera"],"vos":["considerá"],"s3":["considere"],"p1":["consideremos"],"p2":["considerad"],"p3":["consideren"]}

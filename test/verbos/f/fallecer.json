@@ -13,7 +13,7 @@
     "IndPret": {"s1":["fallecí"],"s2":["falleciste"],"vos":["falleciste"],"s3":["falleció"],"p1":["fallecimos"],"p2":["fallecisteis"],"p3":["fallecieron"]},
     "IndFut": {"s1":["falleceré"],"s2":["fallecerás"],"vos":["fallecerás"],"s3":["fallecerá"],"p1":["falleceremos"],"p2":["falleceréis"],"p3":["fallecerán"]},
     "IndCond": {"s1":["fallecería"],"s2":["fallecerías"],"vos":["fallecerías"],"s3":["fallecería"],"p1":["falleceríamos"],"p2":["falleceríais"],"p3":["fallecerían"]},
-    "SubPres": {"s1":["fallezca"],"s2":["fallezcas"],"vos":["fallezcas","fallezcás"],"s3":["fallezca"],"p1":["fallezcamos"],"p2":["fallezcáis"],"p3":["fallezcan"]},
+    "SubPres": {"s1":["fallezca"],"s2":["fallezcas"],"vos":[{"forma": "fallezcas","uso":"Riop."},{"forma":"fallezcás","uso":"C.Am."}],"s3":["fallezca"],"p1":["fallezcamos"],"p2":["fallezcáis"],"p3":["fallezcan"]},
     "SubImp": {"s1":["falleciera","falleciese"],"s2":["fallecieras","fallecieses"],"vos":["fallecieras","fallecieses"],"s3":["falleciera","falleciese"],"p1":["falleciéramos","falleciésemos"],"p2":["fallecierais","fallecieseis"],"p3":["fallecieran","falleciesen"]},
     "SubFut": {"s1":["falleciere"],"s2":["fallecieres"],"vos":["fallecieres"],"s3":["falleciere"],"p1":["falleciéremos"],"p2":["falleciereis"],"p3":["fallecieren"]},
     "CmdPos": {"s2":["fallece"],"vos":["fallecé"],"s3":["fallezca"],"p1":["fallezcamos"],"p2":["falleced"],"p3":["fallezcan"]}

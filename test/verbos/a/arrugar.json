@@ -13,7 +13,7 @@
     "IndPret": {"s1":["arrugué"],"s2":["arrugaste"],"vos":["arrugaste"],"s3":["arrugó"],"p1":["arrugamos"],"p2":["arrugasteis"],"p3":["arrugaron"]},
     "IndFut": {"s1":["arrugaré"],"s2":["arrugarás"],"vos":["arrugarás"],"s3":["arrugará"],"p1":["arrugaremos"],"p2":["arrugaréis"],"p3":["arrugarán"]},
     "IndCond": {"s1":["arrugaría"],"s2":["arrugarías"],"vos":["arrugarías"],"s3":["arrugaría"],"p1":["arrugaríamos"],"p2":["arrugaríais"],"p3":["arrugarían"]},
-    "SubPres": {"s1":["arrugue"],"s2":["arrugues"],"vos":["arrugues","arrugués"],"s3":["arrugue"],"p1":["arruguemos"],"p2":["arruguéis"],"p3":["arruguen"]},
+    "SubPres": {"s1":["arrugue"],"s2":["arrugues"],"vos":[{"forma": "arrugues","uso":"Riop."},{"forma":"arrugués","uso":"C.Am."}],"s3":["arrugue"],"p1":["arruguemos"],"p2":["arruguéis"],"p3":["arruguen"]},
     "SubImp": {"s1":["arrugara","arrugase"],"s2":["arrugaras","arrugases"],"vos":["arrugaras","arrugases"],"s3":["arrugara","arrugase"],"p1":["arrugáramos","arrugásemos"],"p2":["arrugarais","arrugaseis"],"p3":["arrugaran","arrugasen"]},
     "SubFut": {"s1":["arrugare"],"s2":["arrugares"],"vos":["arrugares"],"s3":["arrugare"],"p1":["arrugáremos"],"p2":["arrugareis"],"p3":["arrugaren"]},
     "CmdPos": {"s2":["arruga"],"vos":["arrugá"],"s3":["arrugue"],"p1":["arruguemos"],"p2":["arrugad"],"p3":["arruguen"]}

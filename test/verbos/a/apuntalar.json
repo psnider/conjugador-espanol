@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apuntalé"],"s2":["apuntalaste"],"vos":["apuntalaste"],"s3":["apuntaló"],"p1":["apuntalamos"],"p2":["apuntalasteis"],"p3":["apuntalaron"]},
     "IndFut": {"s1":["apuntalaré"],"s2":["apuntalarás"],"vos":["apuntalarás"],"s3":["apuntalará"],"p1":["apuntalaremos"],"p2":["apuntalaréis"],"p3":["apuntalarán"]},
     "IndCond": {"s1":["apuntalaría"],"s2":["apuntalarías"],"vos":["apuntalarías"],"s3":["apuntalaría"],"p1":["apuntalaríamos"],"p2":["apuntalaríais"],"p3":["apuntalarían"]},
-    "SubPres": {"s1":["apuntale"],"s2":["apuntales"],"vos":["apuntales","apuntalés"],"s3":["apuntale"],"p1":["apuntalemos"],"p2":["apuntaléis"],"p3":["apuntalen"]},
+    "SubPres": {"s1":["apuntale"],"s2":["apuntales"],"vos":[{"forma": "apuntales","uso":"Riop."},{"forma":"apuntalés","uso":"C.Am."}],"s3":["apuntale"],"p1":["apuntalemos"],"p2":["apuntaléis"],"p3":["apuntalen"]},
     "SubImp": {"s1":["apuntalara","apuntalase"],"s2":["apuntalaras","apuntalases"],"vos":["apuntalaras","apuntalases"],"s3":["apuntalara","apuntalase"],"p1":["apuntaláramos","apuntalásemos"],"p2":["apuntalarais","apuntalaseis"],"p3":["apuntalaran","apuntalasen"]},
     "SubFut": {"s1":["apuntalare"],"s2":["apuntalares"],"vos":["apuntalares"],"s3":["apuntalare"],"p1":["apuntaláremos"],"p2":["apuntalareis"],"p3":["apuntalaren"]},
     "CmdPos": {"s2":["apuntala"],"vos":["apuntalá"],"s3":["apuntale"],"p1":["apuntalemos"],"p2":["apuntalad"],"p3":["apuntalen"]}

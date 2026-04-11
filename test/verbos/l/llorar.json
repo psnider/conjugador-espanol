@@ -13,7 +13,7 @@
     "IndPret": {"s1":["lloré"],"s2":["lloraste"],"vos":["lloraste"],"s3":["lloró"],"p1":["lloramos"],"p2":["llorasteis"],"p3":["lloraron"]},
     "IndFut": {"s1":["lloraré"],"s2":["llorarás"],"vos":["llorarás"],"s3":["llorará"],"p1":["lloraremos"],"p2":["lloraréis"],"p3":["llorarán"]},
     "IndCond": {"s1":["lloraría"],"s2":["llorarías"],"vos":["llorarías"],"s3":["lloraría"],"p1":["lloraríamos"],"p2":["lloraríais"],"p3":["llorarían"]},
-    "SubPres": {"s1":["llore"],"s2":["llores"],"vos":["llores","llorés"],"s3":["llore"],"p1":["lloremos"],"p2":["lloréis"],"p3":["lloren"]},
+    "SubPres": {"s1":["llore"],"s2":["llores"],"vos":[{"forma": "llores","uso":"Riop."},{"forma":"llorés","uso":"C.Am."}],"s3":["llore"],"p1":["lloremos"],"p2":["lloréis"],"p3":["lloren"]},
     "SubImp": {"s1":["llorara","llorase"],"s2":["lloraras","llorases"],"vos":["lloraras","llorases"],"s3":["llorara","llorase"],"p1":["lloráramos","llorásemos"],"p2":["llorarais","lloraseis"],"p3":["lloraran","llorasen"]},
     "SubFut": {"s1":["llorare"],"s2":["llorares"],"vos":["llorares"],"s3":["llorare"],"p1":["lloráremos"],"p2":["llorareis"],"p3":["lloraren"]},
     "CmdPos": {"s2":["llora"],"vos":["llorá"],"s3":["llore"],"p1":["lloremos"],"p2":["llorad"],"p3":["lloren"]}

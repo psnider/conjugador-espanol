@@ -13,7 +13,7 @@
     "IndPret": {"s1":["expliqué"],"s2":["explicaste"],"vos":["explicaste"],"s3":["explicó"],"p1":["explicamos"],"p2":["explicasteis"],"p3":["explicaron"]},
     "IndFut": {"s1":["explicaré"],"s2":["explicarás"],"vos":["explicarás"],"s3":["explicará"],"p1":["explicaremos"],"p2":["explicaréis"],"p3":["explicarán"]},
     "IndCond": {"s1":["explicaría"],"s2":["explicarías"],"vos":["explicarías"],"s3":["explicaría"],"p1":["explicaríamos"],"p2":["explicaríais"],"p3":["explicarían"]},
-    "SubPres": {"s1":["explique"],"s2":["expliques"],"vos":["expliques","expliqués"],"s3":["explique"],"p1":["expliquemos"],"p2":["expliquéis"],"p3":["expliquen"]},
+    "SubPres": {"s1":["explique"],"s2":["expliques"],"vos":[{"forma": "expliques","uso":"Riop."},{"forma":"expliqués","uso":"C.Am."}],"s3":["explique"],"p1":["expliquemos"],"p2":["expliquéis"],"p3":["expliquen"]},
     "SubImp": {"s1":["explicara","explicase"],"s2":["explicaras","explicases"],"vos":["explicaras","explicases"],"s3":["explicara","explicase"],"p1":["explicáramos","explicásemos"],"p2":["explicarais","explicaseis"],"p3":["explicaran","explicasen"]},
     "SubFut": {"s1":["explicare"],"s2":["explicares"],"vos":["explicares"],"s3":["explicare"],"p1":["explicáremos"],"p2":["explicareis"],"p3":["explicaren"]},
     "CmdPos": {"s2":["explica"],"vos":["explicá"],"s3":["explique"],"p1":["expliquemos"],"p2":["explicad"],"p3":["expliquen"]}

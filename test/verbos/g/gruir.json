@@ -12,7 +12,7 @@
     "IndPret": {"s1":["gruí"],"s2":["gruiste"],"vos":["gruiste"],"s3":["gruyó"],"p1":["gruimos"],"p2":["gruisteis"],"p3":["gruyeron"]},
     "IndFut": {"s1":["gruiré"],"s2":["gruirás"],"vos":["gruirás"],"s3":["gruirá"],"p1":["gruiremos"],"p2":["gruiréis"],"p3":["gruirán"]},
     "IndCond": {"s1":["gruiría"],"s2":["gruirías"],"vos":["gruirías"],"s3":["gruiría"],"p1":["gruiríamos"],"p2":["gruiríais"],"p3":["gruirían"]},
-    "SubPres": {"s1":["gruya"],"s2":["gruyas"],"vos":["gruyas","gruyás"],"s3":["gruya"],"p1":["gruyamos"],"p2":["gruyáis"],"p3":["gruyan"]},
+    "SubPres": {"s1":["gruya"],"s2":["gruyas"],"vos":[{"forma": "gruyas","uso":"Riop."},{"forma":"gruyás","uso":"C.Am."}],"s3":["gruya"],"p1":["gruyamos"],"p2":["gruyáis"],"p3":["gruyan"]},
     "SubImp": {"s1":["gruyera","gruyese"],"s2":["gruyeras","gruyeses"],"vos":["gruyeras","gruyeses"],"s3":["gruyera","gruyese"],"p1":["gruyéramos","gruyésemos"],"p2":["gruyerais","gruyeseis"],"p3":["gruyeran","gruyesen"]},
     "SubFut": {"s1":["gruyere"],"s2":["gruyeres"],"vos":["gruyeres"],"s3":["gruyere"],"p1":["gruyéremos"],"p2":["gruyereis"],"p3":["gruyeren"]},
     "CmdPos": {"s2":["gruye"],"vos":["gruí"],"s3":["gruya"],"p1":["gruyamos"],"p2":["gruid"],"p3":["gruyan"]}

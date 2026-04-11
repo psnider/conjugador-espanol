@@ -13,7 +13,7 @@
     "IndPret": {"s1":["aislé"],"s2":["aislaste"],"vos":["aislaste"],"s3":["aisló"],"p1":["aislamos"],"p2":["aislasteis"],"p3":["aislaron"]},
     "IndFut": {"s1":["aislaré"],"s2":["aislarás"],"vos":["aislarás"],"s3":["aislará"],"p1":["aislaremos"],"p2":["aislaréis"],"p3":["aislarán"]},
     "IndCond": {"s1":["aislaría"],"s2":["aislarías"],"vos":["aislarías"],"s3":["aislaría"],"p1":["aislaríamos"],"p2":["aislaríais"],"p3":["aislarían"]},
-    "SubPres": {"s1":["aísle"],"s2":["aísles"],"vos":["aísles","aislés"],"s3":["aísle"],"p1":["aislemos"],"p2":["aisléis"],"p3":["aíslen"]},
+    "SubPres": {"s1":["aísle"],"s2":["aísles"],"vos":[{"forma": "aísles","uso":"Riop."},{"forma":"aislés","uso":"C.Am."}],"s3":["aísle"],"p1":["aislemos"],"p2":["aisléis"],"p3":["aíslen"]},
     "SubImp": {"s1":["aislara","aislase"],"s2":["aislaras","aislases"],"vos":["aislaras","aislases"],"s3":["aislara","aislase"],"p1":["aisláramos","aislásemos"],"p2":["aislarais","aislaseis"],"p3":["aislaran","aislasen"]},
     "SubFut": {"s1":["aislare"],"s2":["aislares"],"vos":["aislares"],"s3":["aislare"],"p1":["aisláremos"],"p2":["aislareis"],"p3":["aislaren"]},
     "CmdPos": {"s2":["aísla"],"vos":["aislá"],"s3":["aísle"],"p1":["aislemos"],"p2":["aislad"],"p3":["aíslen"]}

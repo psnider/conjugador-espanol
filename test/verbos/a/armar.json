@@ -13,7 +13,7 @@
     "IndPret": {"s1":["armé"],"s2":["armaste"],"vos":["armaste"],"s3":["armó"],"p1":["armamos"],"p2":["armasteis"],"p3":["armaron"]},
     "IndFut": {"s1":["armaré"],"s2":["armarás"],"vos":["armarás"],"s3":["armará"],"p1":["armaremos"],"p2":["armaréis"],"p3":["armarán"]},
     "IndCond": {"s1":["armaría"],"s2":["armarías"],"vos":["armarías"],"s3":["armaría"],"p1":["armaríamos"],"p2":["armaríais"],"p3":["armarían"]},
-    "SubPres": {"s1":["arme"],"s2":["armes"],"vos":["armes","armés"],"s3":["arme"],"p1":["armemos"],"p2":["arméis"],"p3":["armen"]},
+    "SubPres": {"s1":["arme"],"s2":["armes"],"vos":[{"forma": "armes","uso":"Riop."},{"forma":"armés","uso":"C.Am."}],"s3":["arme"],"p1":["armemos"],"p2":["arméis"],"p3":["armen"]},
     "SubImp": {"s1":["armara","armase"],"s2":["armaras","armases"],"vos":["armaras","armases"],"s3":["armara","armase"],"p1":["armáramos","armásemos"],"p2":["armarais","armaseis"],"p3":["armaran","armasen"]},
     "SubFut": {"s1":["armare"],"s2":["armares"],"vos":["armares"],"s3":["armare"],"p1":["armáremos"],"p2":["armareis"],"p3":["armaren"]},
     "CmdPos": {"s2":["arma"],"vos":["armá"],"s3":["arme"],"p1":["armemos"],"p2":["armad"],"p3":["armen"]}

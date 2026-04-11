@@ -13,7 +13,7 @@
     "IndPret": {"s1":["manejé"],"s2":["manejaste"],"vos":["manejaste"],"s3":["manejó"],"p1":["manejamos"],"p2":["manejasteis"],"p3":["manejaron"]},
     "IndFut": {"s1":["manejaré"],"s2":["manejarás"],"vos":["manejarás"],"s3":["manejará"],"p1":["manejaremos"],"p2":["manejaréis"],"p3":["manejarán"]},
     "IndCond": {"s1":["manejaría"],"s2":["manejarías"],"vos":["manejarías"],"s3":["manejaría"],"p1":["manejaríamos"],"p2":["manejaríais"],"p3":["manejarían"]},
-    "SubPres": {"s1":["maneje"],"s2":["manejes"],"vos":["manejes","manejés"],"s3":["maneje"],"p1":["manejemos"],"p2":["manejéis"],"p3":["manejen"]},
+    "SubPres": {"s1":["maneje"],"s2":["manejes"],"vos":[{"forma": "manejes","uso":"Riop."},{"forma":"manejés","uso":"C.Am."}],"s3":["maneje"],"p1":["manejemos"],"p2":["manejéis"],"p3":["manejen"]},
     "SubImp": {"s1":["manejara","manejase"],"s2":["manejaras","manejases"],"vos":["manejaras","manejases"],"s3":["manejara","manejase"],"p1":["manejáramos","manejásemos"],"p2":["manejarais","manejaseis"],"p3":["manejaran","manejasen"]},
     "SubFut": {"s1":["manejare"],"s2":["manejares"],"vos":["manejares"],"s3":["manejare"],"p1":["manejáremos"],"p2":["manejareis"],"p3":["manejaren"]},
     "CmdPos": {"s2":["maneja"],"vos":["manejá"],"s3":["maneje"],"p1":["manejemos"],"p2":["manejad"],"p3":["manejen"]}

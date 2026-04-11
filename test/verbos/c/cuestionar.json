@@ -13,7 +13,7 @@
     "IndPret": {"s1":["cuestioné"],"s2":["cuestionaste"],"vos":["cuestionaste"],"s3":["cuestionó"],"p1":["cuestionamos"],"p2":["cuestionasteis"],"p3":["cuestionaron"]},
     "IndFut": {"s1":["cuestionaré"],"s2":["cuestionarás"],"vos":["cuestionarás"],"s3":["cuestionará"],"p1":["cuestionaremos"],"p2":["cuestionaréis"],"p3":["cuestionarán"]},
     "IndCond": {"s1":["cuestionaría"],"s2":["cuestionarías"],"vos":["cuestionarías"],"s3":["cuestionaría"],"p1":["cuestionaríamos"],"p2":["cuestionaríais"],"p3":["cuestionarían"]},
-    "SubPres": {"s1":["cuestione"],"s2":["cuestiones"],"vos":["cuestiones","cuestionés"],"s3":["cuestione"],"p1":["cuestionemos"],"p2":["cuestionéis"],"p3":["cuestionen"]},
+    "SubPres": {"s1":["cuestione"],"s2":["cuestiones"],"vos":[{"forma": "cuestiones","uso":"Riop."},{"forma":"cuestionés","uso":"C.Am."}],"s3":["cuestione"],"p1":["cuestionemos"],"p2":["cuestionéis"],"p3":["cuestionen"]},
     "SubImp": {"s1":["cuestionara","cuestionase"],"s2":["cuestionaras","cuestionases"],"vos":["cuestionaras","cuestionases"],"s3":["cuestionara","cuestionase"],"p1":["cuestionáramos","cuestionásemos"],"p2":["cuestionarais","cuestionaseis"],"p3":["cuestionaran","cuestionasen"]},
     "SubFut": {"s1":["cuestionare"],"s2":["cuestionares"],"vos":["cuestionares"],"s3":["cuestionare"],"p1":["cuestionáremos"],"p2":["cuestionareis"],"p3":["cuestionaren"]},
     "CmdPos": {"s2":["cuestiona"],"vos":["cuestioná"],"s3":["cuestione"],"p1":["cuestionemos"],"p2":["cuestionad"],"p3":["cuestionen"]}

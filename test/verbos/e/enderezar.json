@@ -13,7 +13,7 @@
     "IndPret": {"s1":["enderecé"],"s2":["enderezaste"],"vos":["enderezaste"],"s3":["enderezó"],"p1":["enderezamos"],"p2":["enderezasteis"],"p3":["enderezaron"]},
     "IndFut": {"s1":["enderezaré"],"s2":["enderezarás"],"vos":["enderezarás"],"s3":["enderezará"],"p1":["enderezaremos"],"p2":["enderezaréis"],"p3":["enderezarán"]},
     "IndCond": {"s1":["enderezaría"],"s2":["enderezarías"],"vos":["enderezarías"],"s3":["enderezaría"],"p1":["enderezaríamos"],"p2":["enderezaríais"],"p3":["enderezarían"]},
-    "SubPres": {"s1":["enderece"],"s2":["endereces"],"vos":["endereces","enderecés"],"s3":["enderece"],"p1":["enderecemos"],"p2":["enderecéis"],"p3":["enderecen"]},
+    "SubPres": {"s1":["enderece"],"s2":["endereces"],"vos":[{"forma": "endereces","uso":"Riop."},{"forma":"enderecés","uso":"C.Am."}],"s3":["enderece"],"p1":["enderecemos"],"p2":["enderecéis"],"p3":["enderecen"]},
     "SubImp": {"s1":["enderezara","enderezase"],"s2":["enderezaras","enderezases"],"vos":["enderezaras","enderezases"],"s3":["enderezara","enderezase"],"p1":["enderezáramos","enderezásemos"],"p2":["enderezarais","enderezaseis"],"p3":["enderezaran","enderezasen"]},
     "SubFut": {"s1":["enderezare"],"s2":["enderezares"],"vos":["enderezares"],"s3":["enderezare"],"p1":["enderezáremos"],"p2":["enderezareis"],"p3":["enderezaren"]},
     "CmdPos": {"s2":["endereza"],"vos":["enderezá"],"s3":["enderece"],"p1":["enderecemos"],"p2":["enderezad"],"p3":["enderecen"]}

@@ -13,7 +13,7 @@
     "IndPret": {"s1":["compartí"],"s2":["compartiste"],"vos":["compartiste"],"s3":["compartió"],"p1":["compartimos"],"p2":["compartisteis"],"p3":["compartieron"]},
     "IndFut": {"s1":["compartiré"],"s2":["compartirás"],"vos":["compartirás"],"s3":["compartirá"],"p1":["compartiremos"],"p2":["compartiréis"],"p3":["compartirán"]},
     "IndCond": {"s1":["compartiría"],"s2":["compartirías"],"vos":["compartirías"],"s3":["compartiría"],"p1":["compartiríamos"],"p2":["compartiríais"],"p3":["compartirían"]},
-    "SubPres": {"s1":["comparta"],"s2":["compartas"],"vos":["compartas","compartás"],"s3":["comparta"],"p1":["compartamos"],"p2":["compartáis"],"p3":["compartan"]},
+    "SubPres": {"s1":["comparta"],"s2":["compartas"],"vos":[{"forma": "compartas","uso":"Riop."},{"forma":"compartás","uso":"C.Am."}],"s3":["comparta"],"p1":["compartamos"],"p2":["compartáis"],"p3":["compartan"]},
     "SubImp": {"s1":["compartiera","compartiese"],"s2":["compartieras","compartieses"],"vos":["compartieras","compartieses"],"s3":["compartiera","compartiese"],"p1":["compartiéramos","compartiésemos"],"p2":["compartierais","compartieseis"],"p3":["compartieran","compartiesen"]},
     "SubFut": {"s1":["compartiere"],"s2":["compartieres"],"vos":["compartieres"],"s3":["compartiere"],"p1":["compartiéremos"],"p2":["compartiereis"],"p3":["compartieren"]},
     "CmdPos": {"s2":["comparte"],"vos":["compartí"],"s3":["comparta"],"p1":["compartamos"],"p2":["compartid"],"p3":["compartan"]}

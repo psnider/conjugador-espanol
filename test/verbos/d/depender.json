@@ -13,7 +13,7 @@
     "IndPret": {"s1":["dependí"],"s2":["dependiste"],"vos":["dependiste"],"s3":["dependió"],"p1":["dependimos"],"p2":["dependisteis"],"p3":["dependieron"]},
     "IndFut": {"s1":["dependeré"],"s2":["dependerás"],"vos":["dependerás"],"s3":["dependerá"],"p1":["dependeremos"],"p2":["dependeréis"],"p3":["dependerán"]},
     "IndCond": {"s1":["dependería"],"s2":["dependerías"],"vos":["dependerías"],"s3":["dependería"],"p1":["dependeríamos"],"p2":["dependeríais"],"p3":["dependerían"]},
-    "SubPres": {"s1":["dependa"],"s2":["dependas"],"vos":["dependas","dependás"],"s3":["dependa"],"p1":["dependamos"],"p2":["dependáis"],"p3":["dependan"]},
+    "SubPres": {"s1":["dependa"],"s2":["dependas"],"vos":[{"forma": "dependas","uso":"Riop."},{"forma":"dependás","uso":"C.Am."}],"s3":["dependa"],"p1":["dependamos"],"p2":["dependáis"],"p3":["dependan"]},
     "SubImp": {"s1":["dependiera","dependiese"],"s2":["dependieras","dependieses"],"vos":["dependieras","dependieses"],"s3":["dependiera","dependiese"],"p1":["dependiéramos","dependiésemos"],"p2":["dependierais","dependieseis"],"p3":["dependieran","dependiesen"]},
     "SubFut": {"s1":["dependiere"],"s2":["dependieres"],"vos":["dependieres"],"s3":["dependiere"],"p1":["dependiéremos"],"p2":["dependiereis"],"p3":["dependieren"]},
     "CmdPos": {"s2":["depende"],"vos":["dependé"],"s3":["dependa"],"p1":["dependamos"],"p2":["depended"],"p3":["dependan"]}

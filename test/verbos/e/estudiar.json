@@ -12,7 +12,7 @@
     "IndPret": {"s1":["estudié"],"s2":["estudiaste"],"vos":["estudiaste"],"s3":["estudió"],"p1":["estudiamos"],"p2":["estudiasteis"],"p3":["estudiaron"]},
     "IndFut": {"s1":["estudiaré"],"s2":["estudiarás"],"vos":["estudiarás"],"s3":["estudiará"],"p1":["estudiaremos"],"p2":["estudiaréis"],"p3":["estudiarán"]},
     "IndCond": {"s1":["estudiaría"],"s2":["estudiarías"],"vos":["estudiarías"],"s3":["estudiaría"],"p1":["estudiaríamos"],"p2":["estudiaríais"],"p3":["estudiarían"]},
-    "SubPres": {"s1":["estudie"],"s2":["estudies"],"vos":["estudies","estudiés"],"s3":["estudie"],"p1":["estudiemos"],"p2":["estudiéis"],"p3":["estudien"]},
+    "SubPres": {"s1":["estudie"],"s2":["estudies"],"vos":[{"forma": "estudies","uso":"Riop."},{"forma":"estudiés","uso":"C.Am."}],"s3":["estudie"],"p1":["estudiemos"],"p2":["estudiéis"],"p3":["estudien"]},
     "SubImp": {"s1":["estudiara","estudiase"],"s2":["estudiaras","estudiases"],"vos":["estudiaras","estudiases"],"s3":["estudiara","estudiase"],"p1":["estudiáramos","estudiásemos"],"p2":["estudiarais","estudiaseis"],"p3":["estudiaran","estudiasen"]},
     "SubFut": {"s1":["estudiare"],"s2":["estudiares"],"vos":["estudiares"],"s3":["estudiare"],"p1":["estudiáremos"],"p2":["estudiareis"],"p3":["estudiaren"]},
     "CmdPos": {"s2":["estudia"],"vos":["estudiá"],"s3":["estudie"],"p1":["estudiemos"],"p2":["estudiad"],"p3":["estudien"]}

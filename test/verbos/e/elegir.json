@@ -13,7 +13,7 @@
     "IndPret": {"s1":["elegí"],"s2":["elegiste"],"vos":["elegiste"],"s3":["eligió"],"p1":["elegimos"],"p2":["elegisteis"],"p3":["eligieron"]},
     "IndFut": {"s1":["elegiré"],"s2":["elegirás"],"vos":["elegirás"],"s3":["elegirá"],"p1":["elegiremos"],"p2":["elegiréis"],"p3":["elegirán"]},
     "IndCond": {"s1":["elegiría"],"s2":["elegirías"],"vos":["elegirías"],"s3":["elegiría"],"p1":["elegiríamos"],"p2":["elegiríais"],"p3":["elegirían"]},
-    "SubPres": {"s1":["elija"],"s2":["elijas"],"vos":["elijas","elijás"],"s3":["elija"],"p1":["elijamos"],"p2":["elijáis"],"p3":["elijan"]},
+    "SubPres": {"s1":["elija"],"s2":["elijas"],"vos":[{"forma": "elijas","uso":"Riop."},{"forma":"elijás","uso":"C.Am."}],"s3":["elija"],"p1":["elijamos"],"p2":["elijáis"],"p3":["elijan"]},
     "SubImp": {"s1":["eligiera","eligiese"],"s2":["eligieras","eligieses"],"vos":["eligieras","eligieses"],"s3":["eligiera","eligiese"],"p1":["eligiéramos","eligiésemos"],"p2":["eligierais","eligieseis"],"p3":["eligieran","eligiesen"]},
     "SubFut": {"s1":["eligiere"],"s2":["eligieres"],"vos":["eligieres"],"s3":["eligiere"],"p1":["eligiéremos"],"p2":["eligiereis"],"p3":["eligieren"]},
     "CmdPos": {"s2":["elige"],"vos":["elegí"],"s3":["elija"],"p1":["elijamos"],"p2":["elegid"],"p3":["elijan"]}

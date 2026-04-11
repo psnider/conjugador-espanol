@@ -13,7 +13,7 @@
     "IndPret": {"s1":["tipifiqué"],"s2":["tipificaste"],"vos":["tipificaste"],"s3":["tipificó"],"p1":["tipificamos"],"p2":["tipificasteis"],"p3":["tipificaron"]},
     "IndFut": {"s1":["tipificaré"],"s2":["tipificarás"],"vos":["tipificarás"],"s3":["tipificará"],"p1":["tipificaremos"],"p2":["tipificaréis"],"p3":["tipificarán"]},
     "IndCond": {"s1":["tipificaría"],"s2":["tipificarías"],"vos":["tipificarías"],"s3":["tipificaría"],"p1":["tipificaríamos"],"p2":["tipificaríais"],"p3":["tipificarían"]},
-    "SubPres": {"s1":["tipifique"],"s2":["tipifiques"],"vos":["tipifiques","tipifiqués"],"s3":["tipifique"],"p1":["tipifiquemos"],"p2":["tipifiquéis"],"p3":["tipifiquen"]},
+    "SubPres": {"s1":["tipifique"],"s2":["tipifiques"],"vos":[{"forma": "tipifiques","uso":"Riop."},{"forma":"tipifiqués","uso":"C.Am."}],"s3":["tipifique"],"p1":["tipifiquemos"],"p2":["tipifiquéis"],"p3":["tipifiquen"]},
     "SubImp": {"s1":["tipificara","tipificase"],"s2":["tipificaras","tipificases"],"vos":["tipificaras","tipificases"],"s3":["tipificara","tipificase"],"p1":["tipificáramos","tipificásemos"],"p2":["tipificarais","tipificaseis"],"p3":["tipificaran","tipificasen"]},
     "SubFut": {"s1":["tipificare"],"s2":["tipificares"],"vos":["tipificares"],"s3":["tipificare"],"p1":["tipificáremos"],"p2":["tipificareis"],"p3":["tipificaren"]},
     "CmdPos": {"s2":["tipifica"],"vos":["tipificá"],"s3":["tipifique"],"p1":["tipifiquemos"],"p2":["tipificad"],"p3":["tipifiquen"]}

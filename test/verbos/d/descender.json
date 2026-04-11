@@ -13,7 +13,7 @@
     "IndPret": {"s1":["descendí"],"s2":["descendiste"],"vos":["descendiste"],"s3":["descendió"],"p1":["descendimos"],"p2":["descendisteis"],"p3":["descendieron"]},
     "IndFut": {"s1":["descenderé"],"s2":["descenderás"],"vos":["descenderás"],"s3":["descenderá"],"p1":["descenderemos"],"p2":["descenderéis"],"p3":["descenderán"]},
     "IndCond": {"s1":["descendería"],"s2":["descenderías"],"vos":["descenderías"],"s3":["descendería"],"p1":["descenderíamos"],"p2":["descenderíais"],"p3":["descenderían"]},
-    "SubPres": {"s1":["descienda"],"s2":["desciendas"],"vos":["desciendas","descendás"],"s3":["descienda"],"p1":["descendamos"],"p2":["descendáis"],"p3":["desciendan"]},
+    "SubPres": {"s1":["descienda"],"s2":["desciendas"],"vos":[{"forma": "desciendas","uso":"Riop."},{"forma":"descendás","uso":"C.Am."}],"s3":["descienda"],"p1":["descendamos"],"p2":["descendáis"],"p3":["desciendan"]},
     "SubImp": {"s1":["descendiera","descendiese"],"s2":["descendieras","descendieses"],"vos":["descendieras","descendieses"],"s3":["descendiera","descendiese"],"p1":["descendiéramos","descendiésemos"],"p2":["descendierais","descendieseis"],"p3":["descendieran","descendiesen"]},
     "SubFut": {"s1":["descendiere"],"s2":["descendieres"],"vos":["descendieres"],"s3":["descendiere"],"p1":["descendiéremos"],"p2":["descendiereis"],"p3":["descendieren"]},
     "CmdPos": {"s2":["desciende"],"vos":["descendé"],"s3":["descienda"],"p1":["descendamos"],"p2":["descended"],"p3":["desciendan"]}

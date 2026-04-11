@@ -13,7 +13,7 @@
     "IndPret": {"s1":["permanecí"],"s2":["permaneciste"],"vos":["permaneciste"],"s3":["permaneció"],"p1":["permanecimos"],"p2":["permanecisteis"],"p3":["permanecieron"]},
     "IndFut": {"s1":["permaneceré"],"s2":["permanecerás"],"vos":["permanecerás"],"s3":["permanecerá"],"p1":["permaneceremos"],"p2":["permaneceréis"],"p3":["permanecerán"]},
     "IndCond": {"s1":["permanecería"],"s2":["permanecerías"],"vos":["permanecerías"],"s3":["permanecería"],"p1":["permaneceríamos"],"p2":["permaneceríais"],"p3":["permanecerían"]},
-    "SubPres": {"s1":["permanezca"],"s2":["permanezcas"],"vos":["permanezcas","permanezcás"],"s3":["permanezca"],"p1":["permanezcamos"],"p2":["permanezcáis"],"p3":["permanezcan"]},
+    "SubPres": {"s1":["permanezca"],"s2":["permanezcas"],"vos":[{"forma": "permanezcas","uso":"Riop."},{"forma":"permanezcás","uso":"C.Am."}],"s3":["permanezca"],"p1":["permanezcamos"],"p2":["permanezcáis"],"p3":["permanezcan"]},
     "SubImp": {"s1":["permaneciera","permaneciese"],"s2":["permanecieras","permanecieses"],"vos":["permanecieras","permanecieses"],"s3":["permaneciera","permaneciese"],"p1":["permaneciéramos","permaneciésemos"],"p2":["permanecierais","permanecieseis"],"p3":["permanecieran","permaneciesen"]},
     "SubFut": {"s1":["permaneciere"],"s2":["permanecieres"],"vos":["permanecieres"],"s3":["permaneciere"],"p1":["permaneciéremos"],"p2":["permaneciereis"],"p3":["permanecieren"]},
     "CmdPos": {"s2":["permanece"],"vos":["permanecé"],"s3":["permanezca"],"p1":["permanezcamos"],"p2":["permaneced"],"p3":["permanezcan"]}

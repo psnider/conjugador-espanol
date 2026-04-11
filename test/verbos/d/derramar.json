@@ -13,7 +13,7 @@
     "IndPret": {"s1":["derramé"],"s2":["derramaste"],"vos":["derramaste"],"s3":["derramó"],"p1":["derramamos"],"p2":["derramasteis"],"p3":["derramaron"]},
     "IndFut": {"s1":["derramaré"],"s2":["derramarás"],"vos":["derramarás"],"s3":["derramará"],"p1":["derramaremos"],"p2":["derramaréis"],"p3":["derramarán"]},
     "IndCond": {"s1":["derramaría"],"s2":["derramarías"],"vos":["derramarías"],"s3":["derramaría"],"p1":["derramaríamos"],"p2":["derramaríais"],"p3":["derramarían"]},
-    "SubPres": {"s1":["derrame"],"s2":["derrames"],"vos":["derrames","derramés"],"s3":["derrame"],"p1":["derramemos"],"p2":["derraméis"],"p3":["derramen"]},
+    "SubPres": {"s1":["derrame"],"s2":["derrames"],"vos":[{"forma": "derrames","uso":"Riop."},{"forma":"derramés","uso":"C.Am."}],"s3":["derrame"],"p1":["derramemos"],"p2":["derraméis"],"p3":["derramen"]},
     "SubImp": {"s1":["derramara","derramase"],"s2":["derramaras","derramases"],"vos":["derramaras","derramases"],"s3":["derramara","derramase"],"p1":["derramáramos","derramásemos"],"p2":["derramarais","derramaseis"],"p3":["derramaran","derramasen"]},
     "SubFut": {"s1":["derramare"],"s2":["derramares"],"vos":["derramares"],"s3":["derramare"],"p1":["derramáremos"],"p2":["derramareis"],"p3":["derramaren"]},
     "CmdPos": {"s2":["derrama"],"vos":["derramá"],"s3":["derrame"],"p1":["derramemos"],"p2":["derramad"],"p3":["derramen"]}

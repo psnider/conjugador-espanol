@@ -13,7 +13,7 @@
     "IndPret": {"s1":["trascendí"],"s2":["trascendiste"],"vos":["trascendiste"],"s3":["trascendió"],"p1":["trascendimos"],"p2":["trascendisteis"],"p3":["trascendieron"]},
     "IndFut": {"s1":["trascenderé"],"s2":["trascenderás"],"vos":["trascenderás"],"s3":["trascenderá"],"p1":["trascenderemos"],"p2":["trascenderéis"],"p3":["trascenderán"]},
     "IndCond": {"s1":["trascendería"],"s2":["trascenderías"],"vos":["trascenderías"],"s3":["trascendería"],"p1":["trascenderíamos"],"p2":["trascenderíais"],"p3":["trascenderían"]},
-    "SubPres": {"s1":["trascienda"],"s2":["trasciendas"],"vos":["trasciendas","trascendás"],"s3":["trascienda"],"p1":["trascendamos"],"p2":["trascendáis"],"p3":["trasciendan"]},
+    "SubPres": {"s1":["trascienda"],"s2":["trasciendas"],"vos":[{"forma": "trasciendas","uso":"Riop."},{"forma":"trascendás","uso":"C.Am."}],"s3":["trascienda"],"p1":["trascendamos"],"p2":["trascendáis"],"p3":["trasciendan"]},
     "SubImp": {"s1":["trascendiera","trascendiese"],"s2":["trascendieras","trascendieses"],"vos":["trascendieras","trascendieses"],"s3":["trascendiera","trascendiese"],"p1":["trascendiéramos","trascendiésemos"],"p2":["trascendierais","trascendieseis"],"p3":["trascendieran","trascendiesen"]},
     "SubFut": {"s1":["trascendiere"],"s2":["trascendieres"],"vos":["trascendieres"],"s3":["trascendiere"],"p1":["trascendiéremos"],"p2":["trascendiereis"],"p3":["trascendieren"]},
     "CmdPos": {"s2":["trasciende"],"vos":["trascendé"],"s3":["trascienda"],"p1":["trascendamos"],"p2":["trascended"],"p3":["trasciendan"]}

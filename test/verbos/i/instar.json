@@ -13,7 +13,7 @@
     "IndPret": {"s1":["insté"],"s2":["instaste"],"vos":["instaste"],"s3":["instó"],"p1":["instamos"],"p2":["instasteis"],"p3":["instaron"]},
     "IndFut": {"s1":["instaré"],"s2":["instarás"],"vos":["instarás"],"s3":["instará"],"p1":["instaremos"],"p2":["instaréis"],"p3":["instarán"]},
     "IndCond": {"s1":["instaría"],"s2":["instarías"],"vos":["instarías"],"s3":["instaría"],"p1":["instaríamos"],"p2":["instaríais"],"p3":["instarían"]},
-    "SubPres": {"s1":["inste"],"s2":["instes"],"vos":["instes","instés"],"s3":["inste"],"p1":["instemos"],"p2":["instéis"],"p3":["insten"]},
+    "SubPres": {"s1":["inste"],"s2":["instes"],"vos":[{"forma": "instes","uso":"Riop."},{"forma":"instés","uso":"C.Am."}],"s3":["inste"],"p1":["instemos"],"p2":["instéis"],"p3":["insten"]},
     "SubImp": {"s1":["instara","instase"],"s2":["instaras","instases"],"vos":["instaras","instases"],"s3":["instara","instase"],"p1":["instáramos","instásemos"],"p2":["instarais","instaseis"],"p3":["instaran","instasen"]},
     "SubFut": {"s1":["instare"],"s2":["instares"],"vos":["instares"],"s3":["instare"],"p1":["instáremos"],"p2":["instareis"],"p3":["instaren"]},
     "CmdPos": {"s2":["insta"],"vos":["instá"],"s3":["inste"],"p1":["instemos"],"p2":["instad"],"p3":["insten"]}

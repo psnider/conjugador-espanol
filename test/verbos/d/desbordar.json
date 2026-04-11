@@ -13,7 +13,7 @@
     "IndPret": {"s1":["desbordé"],"s2":["desbordaste"],"vos":["desbordaste"],"s3":["desbordó"],"p1":["desbordamos"],"p2":["desbordasteis"],"p3":["desbordaron"]},
     "IndFut": {"s1":["desbordaré"],"s2":["desbordarás"],"vos":["desbordarás"],"s3":["desbordará"],"p1":["desbordaremos"],"p2":["desbordaréis"],"p3":["desbordarán"]},
     "IndCond": {"s1":["desbordaría"],"s2":["desbordarías"],"vos":["desbordarías"],"s3":["desbordaría"],"p1":["desbordaríamos"],"p2":["desbordaríais"],"p3":["desbordarían"]},
-    "SubPres": {"s1":["desborde"],"s2":["desbordes"],"vos":["desbordes","desbordés"],"s3":["desborde"],"p1":["desbordemos"],"p2":["desbordéis"],"p3":["desborden"]},
+    "SubPres": {"s1":["desborde"],"s2":["desbordes"],"vos":[{"forma": "desbordes","uso":"Riop."},{"forma":"desbordés","uso":"C.Am."}],"s3":["desborde"],"p1":["desbordemos"],"p2":["desbordéis"],"p3":["desborden"]},
     "SubImp": {"s1":["desbordara","desbordase"],"s2":["desbordaras","desbordases"],"vos":["desbordaras","desbordases"],"s3":["desbordara","desbordase"],"p1":["desbordáramos","desbordásemos"],"p2":["desbordarais","desbordaseis"],"p3":["desbordaran","desbordasen"]},
     "SubFut": {"s1":["desbordare"],"s2":["desbordares"],"vos":["desbordares"],"s3":["desbordare"],"p1":["desbordáremos"],"p2":["desbordareis"],"p3":["desbordaren"]},
     "CmdPos": {"s2":["desborda"],"vos":["desbordá"],"s3":["desborde"],"p1":["desbordemos"],"p2":["desbordad"],"p3":["desborden"]}

@@ -12,7 +12,7 @@
     "IndPret": {"s1":["atenué"],"s2":["atenuaste"],"vos":["atenuaste"],"s3":["atenuó"],"p1":["atenuamos"],"p2":["atenuasteis"],"p3":["atenuaron"]},
     "IndFut": {"s1":["atenuaré"],"s2":["atenuarás"],"vos":["atenuarás"],"s3":["atenuará"],"p1":["atenuaremos"],"p2":["atenuaréis"],"p3":["atenuarán"]},
     "IndCond": {"s1":["atenuaría"],"s2":["atenuarías"],"vos":["atenuarías"],"s3":["atenuaría"],"p1":["atenuaríamos"],"p2":["atenuaríais"],"p3":["atenuarían"]},
-    "SubPres": {"s1":["atenúe"],"s2":["atenúes"],"vos":["atenúes","atenués"],"s3":["atenúe"],"p1":["atenuemos"],"p2":["atenuéis"],"p3":["atenúen"]},
+    "SubPres": {"s1":["atenúe"],"s2":["atenúes"],"vos":[{"forma": "atenúes","uso":"Riop."},{"forma":"atenués","uso":"C.Am."}],"s3":["atenúe"],"p1":["atenuemos"],"p2":["atenuéis"],"p3":["atenúen"]},
     "SubImp": {"s1":["atenuara","atenuase"],"s2":["atenuaras","atenuases"],"vos":["atenuaras","atenuases"],"s3":["atenuara","atenuase"],"p1":["atenuáramos","atenuásemos"],"p2":["atenuarais","atenuaseis"],"p3":["atenuaran","atenuasen"]},
     "SubFut": {"s1":["atenuare"],"s2":["atenuares"],"vos":["atenuares"],"s3":["atenuare"],"p1":["atenuáremos"],"p2":["atenuareis"],"p3":["atenuaren"]},
     "CmdPos": {"s2":["atenúa"],"vos":["atenuá"],"s3":["atenúe"],"p1":["atenuemos"],"p2":["atenuad"],"p3":["atenúen"]}

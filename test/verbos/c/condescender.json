@@ -13,7 +13,7 @@
     "IndPret": {"s1":["condescendí"],"s2":["condescendiste"],"vos":["condescendiste"],"s3":["condescendió"],"p1":["condescendimos"],"p2":["condescendisteis"],"p3":["condescendieron"]},
     "IndFut": {"s1":["condescenderé"],"s2":["condescenderás"],"vos":["condescenderás"],"s3":["condescenderá"],"p1":["condescenderemos"],"p2":["condescenderéis"],"p3":["condescenderán"]},
     "IndCond": {"s1":["condescendería"],"s2":["condescenderías"],"vos":["condescenderías"],"s3":["condescendería"],"p1":["condescenderíamos"],"p2":["condescenderíais"],"p3":["condescenderían"]},
-    "SubPres": {"s1":["condescienda"],"s2":["condesciendas"],"vos":["condesciendas","condescendás"],"s3":["condescienda"],"p1":["condescendamos"],"p2":["condescendáis"],"p3":["condesciendan"]},
+    "SubPres": {"s1":["condescienda"],"s2":["condesciendas"],"vos":[{"forma": "condesciendas","uso":"Riop."},{"forma":"condescendás","uso":"C.Am."}],"s3":["condescienda"],"p1":["condescendamos"],"p2":["condescendáis"],"p3":["condesciendan"]},
     "SubImp": {"s1":["condescendiera","condescendiese"],"s2":["condescendieras","condescendieses"],"vos":["condescendieras","condescendieses"],"s3":["condescendiera","condescendiese"],"p1":["condescendiéramos","condescendiésemos"],"p2":["condescendierais","condescendieseis"],"p3":["condescendieran","condescendiesen"]},
     "SubFut": {"s1":["condescendiere"],"s2":["condescendieres"],"vos":["condescendieres"],"s3":["condescendiere"],"p1":["condescendiéremos"],"p2":["condescendiereis"],"p3":["condescendieren"]},
     "CmdPos": {"s2":["condesciende"],"vos":["condescendé"],"s3":["condescienda"],"p1":["condescendamos"],"p2":["condescended"],"p3":["condesciendan"]}

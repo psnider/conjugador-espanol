@@ -13,7 +13,7 @@
     "IndPret": {"s1":["crecí"],"s2":["creciste"],"vos":["creciste"],"s3":["creció"],"p1":["crecimos"],"p2":["crecisteis"],"p3":["crecieron"]},
     "IndFut": {"s1":["creceré"],"s2":["crecerás"],"vos":["crecerás"],"s3":["crecerá"],"p1":["creceremos"],"p2":["creceréis"],"p3":["crecerán"]},
     "IndCond": {"s1":["crecería"],"s2":["crecerías"],"vos":["crecerías"],"s3":["crecería"],"p1":["creceríamos"],"p2":["creceríais"],"p3":["crecerían"]},
-    "SubPres": {"s1":["crezca"],"s2":["crezcas"],"vos":["crezcas","crezcás"],"s3":["crezca"],"p1":["crezcamos"],"p2":["crezcáis"],"p3":["crezcan"]},
+    "SubPres": {"s1":["crezca"],"s2":["crezcas"],"vos":[{"forma": "crezcas","uso":"Riop."},{"forma":"crezcás","uso":"C.Am."}],"s3":["crezca"],"p1":["crezcamos"],"p2":["crezcáis"],"p3":["crezcan"]},
     "SubImp": {"s1":["creciera","creciese"],"s2":["crecieras","crecieses"],"vos":["crecieras","crecieses"],"s3":["creciera","creciese"],"p1":["creciéramos","creciésemos"],"p2":["crecierais","crecieseis"],"p3":["crecieran","creciesen"]},
     "SubFut": {"s1":["creciere"],"s2":["crecieres"],"vos":["crecieres"],"s3":["creciere"],"p1":["creciéremos"],"p2":["creciereis"],"p3":["crecieren"]},
     "CmdPos": {"s2":["crece"],"vos":["crecé"],"s3":["crezca"],"p1":["crezcamos"],"p2":["creced"],"p3":["crezcan"]}

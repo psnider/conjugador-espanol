@@ -13,7 +13,7 @@
     "IndPret": {"s1":["digné"],"s2":["dignaste"],"vos":["dignaste"],"s3":["dignó"],"p1":["dignamos"],"p2":["dignasteis"],"p3":["dignaron"]},
     "IndFut": {"s1":["dignaré"],"s2":["dignarás"],"vos":["dignarás"],"s3":["dignará"],"p1":["dignaremos"],"p2":["dignaréis"],"p3":["dignarán"]},
     "IndCond": {"s1":["dignaría"],"s2":["dignarías"],"vos":["dignarías"],"s3":["dignaría"],"p1":["dignaríamos"],"p2":["dignaríais"],"p3":["dignarían"]},
-    "SubPres": {"s1":["digne"],"s2":["dignes"],"vos":["dignes","dignés"],"s3":["digne"],"p1":["dignemos"],"p2":["dignéis"],"p3":["dignen"]},
+    "SubPres": {"s1":["digne"],"s2":["dignes"],"vos":[{"forma": "dignes","uso":"Riop."},{"forma":"dignés","uso":"C.Am."}],"s3":["digne"],"p1":["dignemos"],"p2":["dignéis"],"p3":["dignen"]},
     "SubImp": {"s1":["dignara","dignase"],"s2":["dignaras","dignases"],"vos":["dignaras","dignases"],"s3":["dignara","dignase"],"p1":["dignáramos","dignásemos"],"p2":["dignarais","dignaseis"],"p3":["dignaran","dignasen"]},
     "SubFut": {"s1":["dignare"],"s2":["dignares"],"vos":["dignares"],"s3":["dignare"],"p1":["dignáremos"],"p2":["dignareis"],"p3":["dignaren"]},
     "CmdPos": {"s2":["digna"],"vos":["digná"],"s3":["dígne"],"p1":["dignemos"],"p2":["dignad"],"p3":["dignen"]}

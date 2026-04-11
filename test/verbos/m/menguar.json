@@ -12,7 +12,7 @@
     "IndPret": {"s1":["mengüé"],"s2":["menguaste"],"vos":["menguaste"],"s3":["menguó"],"p1":["menguamos"],"p2":["menguasteis"],"p3":["menguaron"]},
     "IndFut": {"s1":["menguaré"],"s2":["menguarás"],"vos":["menguarás"],"s3":["menguará"],"p1":["menguaremos"],"p2":["menguaréis"],"p3":["menguarán"]},
     "IndCond": {"s1":["menguaría"],"s2":["menguarías"],"vos":["menguarías"],"s3":["menguaría"],"p1":["menguaríamos"],"p2":["menguaríais"],"p3":["menguarían"]},
-    "SubPres": {"s1":["mengüe"],"s2":["mengües"],"vos":["mengües","mengüés"],"s3":["mengüe"],"p1":["mengüemos"],"p2":["mengüéis"],"p3":["mengüen"]},
+    "SubPres": {"s1":["mengüe"],"s2":["mengües"],"vos":[{"forma": "mengües","uso":"Riop."},{"forma":"mengüés","uso":"C.Am."}],"s3":["mengüe"],"p1":["mengüemos"],"p2":["mengüéis"],"p3":["mengüen"]},
     "SubImp": {"s1":["menguara","menguase"],"s2":["menguaras","menguases"],"vos":["menguaras","menguases"],"s3":["menguara","menguase"],"p1":["menguáramos","menguásemos"],"p2":["menguarais","menguaseis"],"p3":["menguaran","menguasen"]},
     "SubFut": {"s1":["menguare"],"s2":["menguares"],"vos":["menguares"],"s3":["menguare"],"p1":["menguáremos"],"p2":["menguareis"],"p3":["menguaren"]},
     "CmdPos": {"s2":["mengua"],"vos":["menguá"],"s3":["mengüe"],"p1":["mengüemos"],"p2":["menguad"],"p3":["mengüen"]}

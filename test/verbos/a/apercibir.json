@@ -13,7 +13,7 @@
     "IndPret": {"s1":["apercibí"],"s2":["apercibiste"],"vos":["apercibiste"],"s3":["apercibió"],"p1":["apercibimos"],"p2":["apercibisteis"],"p3":["apercibieron"]},
     "IndFut": {"s1":["apercibiré"],"s2":["apercibirás"],"vos":["apercibirás"],"s3":["apercibirá"],"p1":["apercibiremos"],"p2":["apercibiréis"],"p3":["apercibirán"]},
     "IndCond": {"s1":["apercibiría"],"s2":["apercibirías"],"vos":["apercibirías"],"s3":["apercibiría"],"p1":["apercibiríamos"],"p2":["apercibiríais"],"p3":["apercibirían"]},
-    "SubPres": {"s1":["aperciba"],"s2":["apercibas"],"vos":["apercibas","apercibás"],"s3":["aperciba"],"p1":["apercibamos"],"p2":["apercibáis"],"p3":["aperciban"]},
+    "SubPres": {"s1":["aperciba"],"s2":["apercibas"],"vos":[{"forma": "apercibas","uso":"Riop."},{"forma":"apercibás","uso":"C.Am."}],"s3":["aperciba"],"p1":["apercibamos"],"p2":["apercibáis"],"p3":["aperciban"]},
     "SubImp": {"s1":["apercibiera","apercibiese"],"s2":["apercibieras","apercibieses"],"vos":["apercibieras","apercibieses"],"s3":["apercibiera","apercibiese"],"p1":["apercibiéramos","apercibiésemos"],"p2":["apercibierais","apercibieseis"],"p3":["apercibieran","apercibiesen"]},
     "SubFut": {"s1":["apercibiere"],"s2":["apercibieres"],"vos":["apercibieres"],"s3":["apercibiere"],"p1":["apercibiéremos"],"p2":["apercibiereis"],"p3":["apercibieren"]},
     "CmdPos": {"s2":["apercibe"],"vos":["apercibí"],"s3":["aperciba"],"p1":["apercibamos"],"p2":["apercibid"],"p3":["aperciban"]}

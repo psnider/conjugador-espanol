@@ -13,7 +13,7 @@
     "IndPret": {"s1":["compliqué"],"s2":["complicaste"],"vos":["complicaste"],"s3":["complicó"],"p1":["complicamos"],"p2":["complicasteis"],"p3":["complicaron"]},
     "IndFut": {"s1":["complicaré"],"s2":["complicarás"],"vos":["complicarás"],"s3":["complicará"],"p1":["complicaremos"],"p2":["complicaréis"],"p3":["complicarán"]},
     "IndCond": {"s1":["complicaría"],"s2":["complicarías"],"vos":["complicarías"],"s3":["complicaría"],"p1":["complicaríamos"],"p2":["complicaríais"],"p3":["complicarían"]},
-    "SubPres": {"s1":["complique"],"s2":["compliques"],"vos":["compliques","compliqués"],"s3":["complique"],"p1":["compliquemos"],"p2":["compliquéis"],"p3":["compliquen"]},
+    "SubPres": {"s1":["complique"],"s2":["compliques"],"vos":[{"forma": "compliques","uso":"Riop."},{"forma":"compliqués","uso":"C.Am."}],"s3":["complique"],"p1":["compliquemos"],"p2":["compliquéis"],"p3":["compliquen"]},
     "SubImp": {"s1":["complicara","complicase"],"s2":["complicaras","complicases"],"vos":["complicaras","complicases"],"s3":["complicara","complicase"],"p1":["complicáramos","complicásemos"],"p2":["complicarais","complicaseis"],"p3":["complicaran","complicasen"]},
     "SubFut": {"s1":["complicare"],"s2":["complicares"],"vos":["complicares"],"s3":["complicare"],"p1":["complicáremos"],"p2":["complicareis"],"p3":["complicaren"]},
     "CmdPos": {"s2":["complica"],"vos":["complicá"],"s3":["complique"],"p1":["compliquemos"],"p2":["complicad"],"p3":["compliquen"]}
