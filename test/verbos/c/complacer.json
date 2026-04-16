@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmplaˈseɾ]",
+    "silabacion": "com-pla-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín complaceō, complacere, derivado de placeō&nbsp;('placer'), relacionado también con plācō&nbsp;('aplacar').",
+    "modelos": ["placer","parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"complacer","gerundio":["complaciendo"],"participio":["complacido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["complazco"],"s2":["complaces"],"vos":["complacés"],"s3":["complace"],"p1":["complacemos"],"p2":["complacéis"],"p3":["complacen"]},
+    "IndImp": {"s1":["complacía"],"s2":["complacías"],"vos":["complacías"],"s3":["complacía"],"p1":["complacíamos"],"p2":["complacíais"],"p3":["complacían"]},
+    "IndPret": {"s1":["complací"],"s2":["complaciste"],"vos":["complaciste"],"s3":["complació"],"p1":["complacimos"],"p2":["complacisteis"],"p3":["complacieron"]},
+    "IndFut": {"s1":["complaceré"],"s2":["complacerás"],"vos":["complacerás"],"s3":["complacerá"],"p1":["complaceremos"],"p2":["complaceréis"],"p3":["complacerán"]},
+    "IndCond": {"s1":["complacería"],"s2":["complacerías"],"vos":["complacerías"],"s3":["complacería"],"p1":["complaceríamos"],"p2":["complaceríais"],"p3":["complacerían"]},
+    "SubPres": {"s1":["complazca"],"s2":["complazcas"],"vos":["complazcas","complazcás"],"s3":["complazca"],"p1":["complazcamos"],"p2":["complazcáis"],"p3":["complazcan"]},
+    "SubImp": {"s1":["complaciera","complaciese"],"s2":["complacieras","complacieses"],"vos":["complacieras","complacieses"],"s3":["complaciera","complaciese"],"p1":["complaciéramos","complaciésemos"],"p2":["complacierais","complacieseis"],"p3":["complacieran","complaciesen"]},
+    "SubFut": {"s1":["complaciere"],"s2":["complacieres"],"vos":["complacieres"],"s3":["complaciere"],"p1":["complaciéremos"],"p2":["complaciereis"],"p3":["complacieren"]},
+    "CmdPos": {"s2":["complace"],"vos":["complacé"],"s3":["complazca"],"p1":["complazcamos"],"p2":["complaced"],"p3":["complazcan"]}
+  }
+}

@@ -22,7 +22,7 @@ export const regular_verb_suffixes = {
             SubFut: { add_suffix_to_preterite_p3_stem: true, stress_last_char_of_p1_stem: true,
                 suffixes: { s1: ["re"], s2: ["res"], s3: ["re"], p1: ["remos"], p2: ["reis"], p3: ["ren"] } },
             CmdPos: { suffixes: { s1: null, s2: ["a"], s3: ["e"], p1: ["emos"], p2: ["ad"], p3: ["en"], vos: ["á"] } }
-            //  CmdNeg:  siempre sigue la forma SubPres, excepto no existe la forma de s1
+            //  CmdNeg:  siempre sigue la forma SubPres, excepto no existe la forma de s1, este patrón se maneja en el código
         }
     },
     "-er": {

@@ -1,5 +1,5 @@
 import { getTemaConAlternanciaVocálica, getTemaConAlternanciaVocálica_IndPret3P } from "./alternancia-vocálica.js";
-import { applyToFormasConjugadas, combinaFormasConjugadas, isValueless, setStem, vowels } from "./lib.js";
+import { applyToFormasConjugadas, combinaFormasConjugadas, formaConjugadaIgual, isValueless, persons_w_vos, setStem, vowels } from "./lib.js";
 import { moveStress, removeStress, stressed_regex } from "./move-stress.js";
 import { aplicaPrefijosClaseConjugacional } from "./prefixes.js";
 import { getRegularRules, getRegularSuffixes } from "./regular-verb-rules.js";
@@ -47,7 +47,9 @@ import { getAnnotations } from "./verbos-con-cambios-morfológicas.js";
 //   - imperativo_tú
 //   - vos
 //   - participio / gerundio
-export function accumulateChangedForms(base, updates) {
+export function accumulateChangedForms(args) {
+    let base = args.base;
+    const updates = args.updates;
     const accumulated = { ...base };
     for (const key in updates) {
         const gramatical_person = key;
@@ -172,12 +174,12 @@ export function getUnprefixedStems(conj_and_deriv_rules, mood_tense, ancestor_ru
     }
     const temas_regulares = getTemasRegulares(conj_and_deriv_rules, mood_tense, ancestor_rule_sets);
     const temas_prefijadas_clase = applicaPrefijosClaseConjugacional(conj_and_deriv_rules, temas_regulares, rules_applied);
-    const temas_con_prefijadas_clase = accumulateChangedForms(temas_regulares, temas_prefijadas_clase);
+    const temas_con_prefijadas_clase = accumulateChangedForms({ base: temas_regulares, updates: temas_prefijadas_clase });
     const temas_con_alternancias = getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense, temas_con_prefijadas_clase);
-    const regulares_con_alternancias = accumulateChangedForms(temas_con_prefijadas_clase, temas_con_alternancias);
+    const regulares_con_alternancias = accumulateChangedForms({ base: temas_con_prefijadas_clase, updates: temas_con_alternancias });
     const temas_de_modo_tiempo_prefijadas_clase = applicaPrefijosClaseConjugacional(conj_and_deriv_rules, temas_de_modo_tiempo, rules_applied);
-    const temas_de_modo_tiempo_con_prefijos_clase = accumulateChangedForms(temas_de_modo_tiempo, temas_de_modo_tiempo_prefijadas_clase);
-    const temas_finales_sin_prefijos_productivos = accumulateChangedForms(regulares_con_alternancias, temas_de_modo_tiempo_con_prefijos_clase);
+    const temas_de_modo_tiempo_con_prefijos_clase = accumulateChangedForms({ base: temas_de_modo_tiempo, updates: temas_de_modo_tiempo_prefijadas_clase });
+    const temas_finales_sin_prefijos_productivos = accumulateChangedForms({ base: regulares_con_alternancias, updates: temas_de_modo_tiempo_con_prefijos_clase });
     rules_applied.push({ stems: temas_finales_sin_prefijos_productivos });
     return temas_finales_sin_prefijos_productivos;
 }
@@ -203,7 +205,7 @@ function applicaPrefijosClaseConjugacional(conj_and_deriv_rules, unprefixed_stem
     const { prefixes } = conj_and_deriv_rules;
     if (unprefixed_stems && prefixes) {
         const prefijos_clase_conjugacional = getPrefijosClaseConjugacional();
-        let updated_stems = accumulateChangedForms(unprefixed_stems, prefijos_clase_conjugacional);
+        let updated_stems = accumulateChangedForms({ base: unprefixed_stems, updates: prefijos_clase_conjugacional });
         if (Object.keys(prefijos_clase_conjugacional).length > 0) {
             rules_applied.push({ prefijos_clase_conjugacional });
         }
@@ -254,12 +256,34 @@ function aplicaPrefijosProductivos(conj_and_deriv_rules, unprefixed_stems, rules
     if (prefixes) {
         const prefijos_productivos_y_no = aplicaPrefijosProductivosYNo(unprefixed_stems);
         if (Object.keys(prefijos_productivos_y_no).length > 0) {
-            unprefixed_stems = accumulateChangedForms(unprefixed_stems, prefijos_productivos_y_no);
+            unprefixed_stems = accumulateChangedForms({ base: unprefixed_stems, updates: prefijos_productivos_y_no });
             rules_applied.push({ prefijos_productivos_y_no });
         }
         return unprefixed_stems;
     }
 }
+function mergeFormas(primario, segudario) {
+    function formasIncluyen(formas_primarias, forma_segundaria) {
+        for (const forma_primaria of formas_primarias) {
+            // Probablemente sea suficiente comprarar solo la forma y no el uso
+            if (formaConjugadaIgual(forma_primaria, forma_segundaria)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    for (let key in segudario) {
+        const formas_primarias = primario[key];
+        const formas_segonarias = segudario[key];
+        const formas_combinados = [...formas_primarias];
+        for (const forma_segundaria of formas_segonarias) {
+            if (!formasIncluyen(formas_primarias, forma_segundaria)) {
+                formas_primarias.push(forma_segundaria);
+            }
+        }
+    }
+}
+const modo_tiempos_por_acepta_regular = ["IndPres", "SubPres", "CmdPos", "CmdNeg"];
 export function conjugateVerb(infinitivo, mood_tense) {
     console.log(`conjugateVerb(${infinitivo}, ${mood_tense})`);
     const conj_and_deriv_rules = resolveConjugationClass(infinitivo);
@@ -268,7 +292,25 @@ export function conjugateVerb(infinitivo, mood_tense) {
     }
     const modelo = conj_and_deriv_rules.modelo;
     const notes = getAnnotations(infinitivo, modelo, mood_tense);
-    const { forms, rules_applied } = _conjugateVerb(conj_and_deriv_rules, mood_tense);
+    let { forms, rules_applied } = _conjugateVerb(conj_and_deriv_rules, mood_tense);
+    const acepta_regular = conj_and_deriv_rules?.morphological_rules?.de_infinitivo?.acepta_regular || conj_and_deriv_rules?.morphological_rules?.de_modelo?.acepta_regular;
+    if (acepta_regular) {
+        if (modo_tiempos_por_acepta_regular.includes(mood_tense)) {
+            conj_and_deriv_rules.infinitivo_sin_prefijos = conj_and_deriv_rules.infinitivo;
+            conj_and_deriv_rules.modelo;
+            conj_and_deriv_rules.prefixes;
+            delete conj_and_deriv_rules.morphological_rules?.de_infinitivo;
+            delete conj_and_deriv_rules.morphological_rules?.de_modelo;
+            const secondary = _conjugateVerb(conj_and_deriv_rules, mood_tense);
+            if (acepta_regular === "primaria") {
+                mergeFormas(secondary.forms, forms);
+                forms = secondary.forms;
+            }
+            else {
+                mergeFormas(forms, secondary.forms);
+            }
+        }
+    }
     notes.rules_applied = rules_applied;
     return { notes, forms };
 }
@@ -376,10 +418,19 @@ export function appendSuffixesToStems(infinitivo, stems, regular_suffixes, rules
                     const combined = combineStemsWithSuffix(stem_forms, suffix_forms[0]);
                     combined_stems_w_suffixes[gramatical_person] = combined;
                 }
-                else if ((stem_forms.length == 2) && (suffix_forms.length == 2)) {
-                    // const tipo_combinacional = (gramatical_person === "vos") ? "matrice" : "secuencial"
-                    const combined = combine2StemsWith2Suffixes(stem_forms, suffix_forms);
-                    combined_stems_w_suffixes[gramatical_person] = combined;
+                else if (suffix_forms.length == 2) {
+                    if (stem_forms.length == 2) {
+                        // const tipo_combinacional = (gramatical_person === "vos") ? "matrice" : "secuencial"
+                        const combined = combine2StemsWith2Suffixes(stem_forms, suffix_forms);
+                        combined_stems_w_suffixes[gramatical_person] = combined;
+                    }
+                    else {
+                        // Guess that if there are more than 2 stems, this will be replaced later by specific overrides, not yet encountered...
+                        // FIX: figure out how to support these combinations more reliably: probably need to gather exceptional forms first, that is reverse of the current order
+                        const stem_form_0 = stem_forms[0];
+                        const combined = combineStemWithSuffixes(stem_forms[0], suffix_forms);
+                        combined_stems_w_suffixes[gramatical_person] = combined;
+                    }
                 }
                 else {
                     throw new Error(`FIX: ${infinitivo},${gramatical_person}: support multiple stems=${JSON.stringify(stem_forms)} with mulltiple suffixes=${JSON.stringify(suffix_forms)}`);
@@ -467,22 +518,49 @@ const last_vowel_regex = new RegExp(`[${vowels}]([^${vowels}]*)$`, "u");
 function getStemsForLexicalExceptions(conj_and_deriv_rules, mood_tense, stems, forms_to_stress_last_char_of_stem) {
     let exceptional_stems = {};
     const { morphological_rules, prefixes, cached_tema_pretérito_p3_de_modelo } = conj_and_deriv_rules;
-    const lexical_exceptions_for_stems_for_mood_tense = morphological_rules?.de_modelo?.excepciones_léxicas?.reglas?.[mood_tense];
-    if (lexical_exceptions_for_stems_for_mood_tense?.tema) {
-        const temas_excepcionales = lexical_exceptions_for_stems_for_mood_tense.tema;
-        const prefijados = applyToFormasConjugadas(temas_excepcionales, (tema) => {
+    const reglas_excepcionales_de_modelo = morphological_rules?.de_modelo?.excepciones_léxicas?.reglas?.[mood_tense];
+    const reglas_excepcionales_de_infinitivo = morphological_rules?.de_infinitivo?.excepciones_léxicas?.reglas?.[mood_tense];
+    const tema_suplicativo = reglas_excepcionales_de_modelo?.tema_suplicativo;
+    if (tema_suplicativo) {
+        const prefijados = applyToFormasConjugadas(tema_suplicativo, (tema) => {
             const tema_base = aplicaPrefijosClaseConjugacional(tema, prefixes);
             return tema_base;
         });
-        const temas_base = combinaFormasConjugadas(temas_excepcionales, prefijados);
+        const temas_base = combinaFormasConjugadas(tema_suplicativo, prefijados);
         exceptional_stems = setStem(temas_base);
     }
     else {
-        const add_suffix_to_preterite_p3_stem = lexical_exceptions_for_stems_for_mood_tense?.add_suffix_to_preterite_p3_stem;
+        const add_suffix_to_preterite_p3_stem = reglas_excepcionales_de_modelo?.add_suffix_to_preterite_p3_stem;
         if (add_suffix_to_preterite_p3_stem) {
             const stem = cached_tema_pretérito_p3_de_modelo;
             const tema_con_cambios_clase_conjugcional = aplicaPrefijosClaseConjugacional(stem, prefixes);
             exceptional_stems = setStem([tema_con_cambios_clase_conjugcional]);
+        }
+    }
+    const temas_excepcionales = {};
+    if (reglas_excepcionales_de_modelo?.temas) {
+        for (const key in reglas_excepcionales_de_modelo?.temas) {
+            const temas = reglas_excepcionales_de_modelo.temas[key];
+            const prefijados = applyToFormasConjugadas(temas, (tema) => {
+                const prefijado = aplicaPrefijosClaseConjugacional(tema, prefixes);
+                return prefijado;
+            });
+            const temas_base = combinaFormasConjugadas(temas, prefijados);
+            temas_excepcionales[key] = temas_base;
+        }
+    }
+    if (reglas_excepcionales_de_infinitivo?.temas) {
+        for (const key in reglas_excepcionales_de_infinitivo?.temas) {
+            const temas = reglas_excepcionales_de_infinitivo.temas[key];
+            temas_excepcionales[key] = temas;
+        }
+    }
+    if (temas_excepcionales) {
+        for (const key in temas_excepcionales) {
+            if (exceptional_stems[key]) {
+                throw new Error(`${conj_and_deriv_rules.infinitivo}: sobreescribiendo con temas=${JSON.stringify(temas_excepcionales[key])}`);
+            }
+            exceptional_stems[key] = temas_excepcionales[key];
         }
     }
     if (forms_to_stress_last_char_of_stem?.length > 0) {
@@ -507,8 +585,8 @@ export function getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets
     const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets);
     const strong_pretérito_suffixes = getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense);
     const presente_yo_suffixes = getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense);
-    const regular_w_pretérito = accumulateChangedForms(regular_suffixes, strong_pretérito_suffixes);
-    const suffixes = accumulateChangedForms(regular_w_pretérito, presente_yo_suffixes);
+    const regular_w_pretérito = accumulateChangedForms({ base: regular_suffixes, updates: strong_pretérito_suffixes });
+    const suffixes = accumulateChangedForms({ base: regular_w_pretérito, updates: presente_yo_suffixes });
     rules_applied.push({ suffixes });
     return suffixes;
 }
@@ -519,7 +597,7 @@ export function getSuffixFor3p(conj_and_deriv_rules, mood_tense, ancestor_rule_s
     const suffixes = { p3: strong_pretérito_suffixes?.p3 || regular_suffixes.p3 };
     return suffixes;
 }
-export function applyLexicalExceptions(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, rules_and_prefixes) {
+function applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, rules_and_prefixes) {
     const rules_applied = [];
     const forms_to_stress_last_char_of_stem = getPersonsTosStressLastCharOfStem(conj_and_deriv_rules, mood_tense);
     const lexical_exceptions_stems = getStemsForLexicalExceptions(conj_and_deriv_rules, mood_tense, unprefixed_stems, forms_to_stress_last_char_of_stem);
@@ -566,24 +644,35 @@ export function getLexicalSuplications_IndPret3P(conj_and_deriv_rules) {
     const suffix = sufijos_IndPret_p3_de_infinitivo?.[0] || sufijos_IndPret_p3_de_modelo?.[0];
     return { form, suffix };
 }
-export function getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied) {
+export function getLexicalSuplicationForms(conj_and_deriv_rules, mood_tense, rules_applied) {
+    function getSupplicationFromReglasGrupo(reglas_grupo) {
+        const lexical_suplications_de_modelo = morphological_rules?.[reglas_grupo]?.excepciones_léxicas?.reglas?.[mood_tense]?.forms;
+        if (lexical_suplications_de_modelo) {
+            for (const key in lexical_suplications_de_modelo) {
+                const grammatical_person = key;
+                const formas_modelo = lexical_suplications_de_modelo[grammatical_person];
+                let formas_base;
+                if (reglas_grupo === "de_modelo") {
+                    const w_prefijos = applyToFormasConjugadas(formas_modelo, (forma) => {
+                        const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
+                        return tema_base;
+                    });
+                    formas_base = combinaFormasConjugadas(formas_modelo, w_prefijos);
+                }
+                else {
+                    formas_base = formas_modelo;
+                }
+                const formas_prefijadas = aplicaPrefijosProductivosAFormas(formas_base, prefixes);
+                const combined = combinaFormasConjugadas(formas_base, formas_prefijadas);
+                suplicaciones[grammatical_person] = combined;
+            }
+        }
+    }
     const { prefixes, morphological_rules } = conj_and_deriv_rules;
     const suplicaciones = {};
     const lexical_suplications_de_modelo = morphological_rules?.de_modelo?.excepciones_léxicas?.reglas?.[mood_tense]?.forms;
-    if (lexical_suplications_de_modelo) {
-        for (const key in lexical_suplications_de_modelo) {
-            const grammatical_person = key;
-            const formas_modelo = lexical_suplications_de_modelo[grammatical_person];
-            const w_prefijos = applyToFormasConjugadas(formas_modelo, (forma) => {
-                const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
-                return tema_base;
-            });
-            const formas_base = combinaFormasConjugadas(formas_modelo, w_prefijos);
-            const formas_prefijadas = aplicaPrefijosProductivosAFormas(formas_base, prefixes);
-            const combined = combinaFormasConjugadas(formas_base, formas_prefijadas);
-            suplicaciones[grammatical_person] = combined;
-        }
-    }
+    getSupplicationFromReglasGrupo("de_modelo");
+    getSupplicationFromReglasGrupo("de_infinitivo");
     if (Object.keys(suplicaciones).length > 0) {
         rules_applied.push({ suplicaciones });
     }
@@ -591,19 +680,21 @@ export function getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_a
 }
 export function applyImperativoTú(args) {
     const { conj_and_deriv_rules, mood_tense, formas_casi_finales, rules_applied } = args;
-    const { prefixes, morphological_rules } = conj_and_deriv_rules;
-    let imperativo_tú = morphological_rules?.de_modelo?.excepciones_léxicas?.imperativo_tú;
-    if (imperativo_tú && (mood_tense === "CmdPos")) {
-        const productive = prefixes?.productive_prefixes?.join("") || "";
-        const nonproductive = prefixes?.nonproductive_prefix || "";
-        const prefijo_productivo_y_no = productive + nonproductive;
-        const formas_base = applyToFormasConjugadas(imperativo_tú, (forma) => {
-            const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
-            return prefijo_productivo_y_no + tema_base;
-        });
-        const combined = combinaFormasConjugadas(imperativo_tú, formas_base);
-        formas_casi_finales.s2 = combined;
-        rules_applied.push({ imperativo_tú: { s2: combined } });
+    if (formas_casi_finales.s2 != null) {
+        const { prefixes, morphological_rules } = conj_and_deriv_rules;
+        let imperativo_tú = morphological_rules?.de_modelo?.excepciones_léxicas?.imperativo_tú;
+        if (imperativo_tú && (mood_tense === "CmdPos")) {
+            const productive = prefixes?.productive_prefixes?.join("") || "";
+            const nonproductive = prefixes?.nonproductive_prefix || "";
+            const prefijo_productivo_y_no = productive + nonproductive;
+            const formas_base = applyToFormasConjugadas(imperativo_tú, (forma) => {
+                const tema_base = aplicaPrefijosClaseConjugacional(forma, prefixes);
+                return prefijo_productivo_y_no + tema_base;
+            });
+            const combined = combinaFormasConjugadas(imperativo_tú, formas_base);
+            formas_casi_finales.s2 = combined;
+            rules_applied.push({ imperativo_tú: { s2: combined } });
+        }
     }
 }
 // Hay varias casos en que Tiene que mantener el estres en la última sílaba:
@@ -692,47 +783,112 @@ export function getIndPretP3StemOfModel(conj_and_deriv_rules) {
     const final_stem = final_form.slice(0, -3);
     return final_stem;
 }
+// Cuáles formas aceptan las formas impersonales.
+const formas_por_defecto = {
+    natural: {
+        admite_personificación: true,
+        personas: ["s3"],
+        rasgos: ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut"]
+    },
+    gramatical: {
+        admite_personificación: false,
+        personas: ["s3", "p3"],
+        rasgos: ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut"]
+    },
+    soler: {
+        admite_personificación: false,
+        rasgos: ["IndPres", "IndImp", "SubPres", "SubImp"]
+    }
+};
 export function _conjugateVerb(conj_and_deriv_rules, mood_tense) {
+    function conjugaciónExiste(morphological_rules, mood_tense) {
+        // Hasta 13 abr 2026, no hay verbos de modelos en la tabla verbos_con_cambios_morfológicos con defectos
+        const impersonal = morphological_rules?.de_infinitivo?.impersonal;
+        if (impersonal) {
+            const restricciones = formas_por_defecto[impersonal];
+            if (!restricciones.admite_personificación) {
+                const rasgos_admitidas = formas_por_defecto[impersonal].rasgos;
+                if (rasgos_admitidas) {
+                    if (!rasgos_admitidas.includes(mood_tense)) {
+                        rules_applied.push({ impersonal: mood_tense });
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+    function quitarPersonasPersonales(formas_finales) {
+        const impersonal = morphological_rules?.de_infinitivo?.impersonal;
+        if (impersonal) {
+            const restricciones = formas_por_defecto[impersonal];
+            if (!restricciones.admite_personificación) {
+                // Ya ha determinado conjugaciónExiste() que mood_tense está admitido
+                const personas_admitidas = formas_por_defecto[impersonal].personas;
+                if (personas_admitidas) {
+                    const personas_no_admitadas = [];
+                    for (const persona of persons_w_vos) {
+                        if (!personas_admitidas.includes(persona)) {
+                            personas_no_admitadas.push(persona);
+                            formas_finales[persona] = null;
+                        }
+                    }
+                    rules_applied.push({ impersonal: personas_no_admitadas });
+                }
+            }
+        }
+    }
     function normalizaVos(formas_casi_finales) {
         // only show the "vos" form if it differs from "tú"
-        if (formas_casi_finales?.vos === null) {
+        if (formas_casi_finales?.vos == null) {
             delete formas_casi_finales.vos;
         }
-        else if (formas_casi_finales.s2[0] === formas_casi_finales?.vos?.[0]) {
-            if (formas_casi_finales.s2[1] === formas_casi_finales?.vos?.[1]) {
-                delete formas_casi_finales.vos;
+        else if (formas_casi_finales.s2 && formas_casi_finales.vos) {
+            if (formas_casi_finales.s2[0] === formas_casi_finales.vos[0]) {
+                if (formas_casi_finales.s2[1] === formas_casi_finales.vos[1]) {
+                    delete formas_casi_finales.vos;
+                }
             }
         }
         return formas_casi_finales;
     }
-    const { infinitivo_sin_prefijos, prefixes } = conj_and_deriv_rules;
+    const { infinitivo_sin_prefijos, prefixes, morphological_rules } = conj_and_deriv_rules;
+    let formas_finales = {};
     const rules_applied = [];
-    const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense, rules_applied);
-    // resolve suffixes first, as they help determine the forms used by getStems()
-    const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, rules_applied);
-    // find the stems, including any prefix changes from the model to the base infinitive
-    const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, rules_applied);
-    // Este también añada los prefijos de Prefixes.clase_de_conjugación
-    applyLexicalExceptions(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, rules_applied);
-    // FIX: this is returning all forms, even unchanged ones
-    const prefixed_stems = aplicaPrefijosProductivos(conj_and_deriv_rules, unprefixed_stems, rules_applied);
-    const full_stems = accumulateChangedForms(unprefixed_stems, prefixed_stems);
-    // 8. añadir terminaciones morfológicas
-    const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, full_stems, suffixes, rules_applied);
-    // 9. ortografía
-    // FIX: this is returning all forms, even unchanged ones
-    const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied);
-    const forms_w_orthoography = accumulateChangedForms(combined_stems_w_suffixes, orthography);
-    // 11. Supletivo
-    const suplicaciones = getLexicalSuplications(conj_and_deriv_rules, mood_tense, rules_applied);
-    let formas_casi_finales = accumulateChangedForms(forms_w_orthoography, suplicaciones);
-    // 10. excepciones léxicas finales
-    applyImperativoTú({ conj_and_deriv_rules, mood_tense, formas_casi_finales, rules_applied });
-    if (prefixes) {
-        const con_sílabas_finales_estresadas = maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_casi_finales, rules_applied);
-        formas_casi_finales = accumulateChangedForms(formas_casi_finales, con_sílabas_finales_estresadas);
+    if (conjugaciónExiste(morphological_rules, mood_tense)) {
+        const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense, rules_applied);
+        // resolve suffixes first, as they help determine the forms used by getStems()
+        const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, rules_applied);
+        // find the stems, including any prefix changes from the model to the base infinitive, and alternancia_vocálica
+        const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, rules_applied);
+        // Este también añada los prefijos de Prefixes.clase_de_conjugación
+        applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, rules_applied);
+        // FIX: this is returning all forms, even unchanged ones
+        const prefixed_stems = aplicaPrefijosProductivos(conj_and_deriv_rules, unprefixed_stems, rules_applied);
+        const full_stems = accumulateChangedForms({ base: unprefixed_stems, updates: prefixed_stems });
+        // 8. añadir terminaciones morfológicas
+        const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, full_stems, suffixes, rules_applied);
+        // 9. ortografía
+        // FIX: this is returning all forms, even unchanged ones
+        const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, rules_applied);
+        const forms_w_orthoography = accumulateChangedForms({ base: combined_stems_w_suffixes, updates: orthography });
+        // 11. Supletivo
+        const suplicaciones = getLexicalSuplicationForms(conj_and_deriv_rules, mood_tense, rules_applied);
+        let formas_casi_finales = accumulateChangedForms({ base: forms_w_orthoography, updates: suplicaciones });
+        // 10. excepciones léxicas finales
+        applyImperativoTú({ conj_and_deriv_rules, mood_tense, formas_casi_finales, rules_applied });
+        if (prefixes) {
+            const con_sílabas_finales_estresadas = maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_casi_finales, rules_applied);
+            formas_casi_finales = accumulateChangedForms({ base: formas_casi_finales, updates: con_sílabas_finales_estresadas });
+        }
+        formas_finales = normalizaVos(formas_casi_finales);
+        if (morphological_rules?.de_infinitivo?.impersonal) { // no existe morphological_rules.de_modelo.impersonal
+            quitarPersonasPersonales(formas_finales);
+        }
     }
-    const formas_finales = normalizaVos(formas_casi_finales);
+    else {
+        formas_finales = null;
+    }
     return { forms: formas_finales, rules_applied };
 }
 //# sourceMappingURL=conjugate-verb.js.map

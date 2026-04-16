@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resoˈʝaɾ]",
+    "silabacion": "re-so-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín re- y sufflare ('soplar').",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"resollar","gerundio":["resollando"],"participio":["resollado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resuello"],"s2":["resuellas"],"vos":["resollás"],"s3":["resuella"],"p1":["resollamos"],"p2":["resolláis"],"p3":["resuellan"]},
+    "IndImp": {"s1":["resollaba"],"s2":["resollabas"],"vos":["resollabas"],"s3":["resollaba"],"p1":["resollábamos"],"p2":["resollabais"],"p3":["resollaban"]},
+    "IndPret": {"s1":["resollé"],"s2":["resollaste"],"vos":["resollaste"],"s3":["resolló"],"p1":["resollamos"],"p2":["resollasteis"],"p3":["resollaron"]},
+    "IndFut": {"s1":["resollaré"],"s2":["resollarás"],"vos":["resollarás"],"s3":["resollará"],"p1":["resollaremos"],"p2":["resollaréis"],"p3":["resollarán"]},
+    "IndCond": {"s1":["resollaría"],"s2":["resollarías"],"vos":["resollarías"],"s3":["resollaría"],"p1":["resollaríamos"],"p2":["resollaríais"],"p3":["resollarían"]},
+    "SubPres": {"s1":["resuelle"],"s2":["resuelles"],"vos":["resuelles","resollés"],"s3":["resuelle"],"p1":["resollemos"],"p2":["resolléis"],"p3":["resuellen"]},
+    "SubImp": {"s1":["resollara","resollase"],"s2":["resollaras","resollases"],"vos":["resollaras","resollases"],"s3":["resollara","resollase"],"p1":["resolláramos","resollásemos"],"p2":["resollarais","resollaseis"],"p3":["resollaran","resollasen"]},
+    "SubFut": {"s1":["resollare"],"s2":["resollares"],"vos":["resollares"],"s3":["resollare"],"p1":["resolláremos"],"p2":["resollareis"],"p3":["resollaren"]},
+    "CmdPos": {"s2":["resuella"],"vos":["resollá"],"s3":["resuelle"],"p1":["resollemos"],"p2":["resollad"],"p3":["resuellen"]}
+  }
+}

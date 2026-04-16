@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪oɾˈseɾ]",
+    "silabacion": "re-tor-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["mover","vencer"]
+  },
+  "formas_no_personales": {"infinitivo":"retorcer","gerundio":["retorciendo"],"participio":["retorcido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["retuerzo"],"s2":["retuerces"],"vos":["retorcés"],"s3":["retuerce"],"p1":["retorcemos"],"p2":["retorcéis"],"p3":["retuercen"]},
+    "IndImp": {"s1":["retorcía"],"s2":["retorcías"],"vos":["retorcías"],"s3":["retorcía"],"p1":["retorcíamos"],"p2":["retorcíais"],"p3":["retorcían"]},
+    "IndPret": {"s1":["retorcí"],"s2":["retorciste"],"vos":["retorciste"],"s3":["retorció"],"p1":["retorcimos"],"p2":["retorcisteis"],"p3":["retorcieron"]},
+    "IndFut": {"s1":["retorceré"],"s2":["retorcerás"],"vos":["retorcerás"],"s3":["retorcerá"],"p1":["retorceremos"],"p2":["retorceréis"],"p3":["retorcerán"]},
+    "IndCond": {"s1":["retorcería"],"s2":["retorcerías"],"vos":["retorcerías"],"s3":["retorcería"],"p1":["retorceríamos"],"p2":["retorceríais"],"p3":["retorcerían"]},
+    "SubPres": {"s1":["retuerza"],"s2":["retuerzas"],"vos":["retuerzas","retorzás"],"s3":["retuerza"],"p1":["retorzamos"],"p2":["retorzáis"],"p3":["retuerzan"]},
+    "SubImp": {"s1":["retorciera","retorciese"],"s2":["retorcieras","retorcieses"],"vos":["retorcieras","retorcieses"],"s3":["retorciera","retorciese"],"p1":["retorciéramos","retorciésemos"],"p2":["retorcierais","retorcieseis"],"p3":["retorcieran","retorciesen"]},
+    "SubFut": {"s1":["retorciere"],"s2":["retorcieres"],"vos":["retorcieres"],"s3":["retorciere"],"p1":["retorciéremos"],"p2":["retorciereis"],"p3":["retorcieren"]},
+    "CmdPos": {"s2":["retuerce"],"vos":["retorcé"],"s3":["retuerza"],"p1":["retorzamos"],"p2":["retorced"],"p3":["retuerzan"]}
+  }
+}

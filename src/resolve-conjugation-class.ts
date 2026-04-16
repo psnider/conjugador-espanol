@@ -1,4 +1,4 @@
-import {assert} from "./lib.js"
+import {assert, consonantes, vowels} from "./lib.js"
 import { _conjugateVerb, getIndPretP3StemOfModel } from "./conjugate-verb.js"
 import { MoodTenseMap } from "./index.js"
 import { findProductiveVerbPrefix } from "./prefixes.js"
@@ -142,7 +142,7 @@ export const conjugation_families: {[conjugation_family: string]: ModeloYInfinit
     venir:      {modelo: "venir",     },          // ChatGPT said that all "-venir" verbs conjugate the same
     tener:      {modelo: "tener",     },          // ChatGPT said that there are no modern "-tener" verbs that conjugate differently, but that the origin of the word could make a difference
     poner:      {modelo: "poner",     },          // ChatGPT said that all "-poner" verbs conjugate the same, that this is 100% reliable
-    decir:      {modelo: "decir",     },          // ChatGPT said that all "-decir" verbs conjugate the same
+    // decir:      {modelo: "decir",     },       // Not all "-decir" verbs conjugate the same, p.ej. "maldecir"
     traer:      {modelo: "traer",     },          // ChatGPT said that all "-traer" verbs conjugate the same
     // FIX: linguist: hacer verbs are a different family from -acer? e.g. "nacer"
     // FIX: perhaps this requires a partner rule for "-facer" ?
@@ -228,12 +228,35 @@ interface DeterminePrefixesResult {
 }
 
 
+// This considers matching sequences of either vowels or consonants.
+// p.ej. el modelo de "rendir" es "pedir", pero terminación que corresponde es "ir" y no "dir", porque "nd" no igual "d".
 function findSharedEnding(infinitivo: string, modelo: ModeloConjugacional) : string {
-    let terminación: string = modelo
-    for ( ; terminación.length > 2 ; terminación = terminación.slice(1)) {
-        if (infinitivo.slice(-terminación.length) === terminación) {
-            break
-        }
+    let do_match_consonantes = true
+    const vocales_regex = new RegExp(`[${vowels}]+\$`)
+    const consonantes_regex = new RegExp(`[${consonantes}]+\$`)
+    let terminación: string = ""
+    if (modelo.length > 2) {
+        let remainder_modelo: string = modelo
+        let remainder_infinitivo: string = infinitivo
+        let does_match: boolean = true
+        do {
+            const which_regex = (do_match_consonantes ? consonantes_regex : vocales_regex)
+            const match_modelo = remainder_modelo.match(which_regex)
+            const match_infinitivo = remainder_infinitivo.match(which_regex)
+            const char_count = match_modelo[0].length
+            does_match = (char_count === match_infinitivo[0].length) 
+            if (does_match) {
+                const char_group_modelo = remainder_modelo.slice(-char_count)
+                const char_group_infinitivo = remainder_infinitivo.slice(-char_count)
+                does_match = (char_group_modelo === char_group_infinitivo) 
+                if (does_match) {
+                    terminación = char_group_modelo + terminación
+                    remainder_modelo = remainder_modelo.slice(0, -char_count)
+                    remainder_infinitivo = remainder_infinitivo.slice(0, -char_count)
+                }
+            } 
+            do_match_consonantes = !do_match_consonantes
+        } while (does_match && (remainder_modelo.length > 0))
     }
     // NOTE: terminación.length can degenerate to the InfinitiveClass, e.g. "gemir" follows the model "pedir"
     return terminación
@@ -559,13 +582,15 @@ export function resolveConjugationClass(infinitivo: string): ConjugationAndDeriv
     // }
     // FIX: don't allow null or empty prefixes 
     const {prefixes, base, base_rules} = determinePrefixes(infinitivo, modelo, morphological_rules)
-    if (base_rules?.modelo) {
-        if (base_rules.modelo !== modelo) {
-            throw new Error(`unexpected conflict of verb models: ${base_rules.modelo} vs. ${base_rules.modelo} from determinePrefixes()`)
-        }
-        // FIX: this concept may have value one productive prefixes are considered
-        // _combinaReglasDeConjugaciónDeVerbo({combinados, adicionales: morphological_rules.de_prefijos})
-    }
+    // TODO: FIX: not sure what the value of determinePrefixes() will be...
+    // TODO: FIX: for "maldecir", t
+    // if (base_rules?.modelo) {
+    //     if (base_rules.modelo !== modelo) {
+    //         throw new Error(`unexpected conflict of verb models: ${base_rules.modelo} vs. ${base_rules.modelo} from determinePrefixes()`)
+    //     }
+    //     // FIX: this concept may have value one productive prefixes are considered
+    //     // _combinaReglasDeConjugaciónDeVerbo({combinados, adicionales: morphological_rules.de_prefijos})
+    // }
     const infinitivo_sin_prefijos = getInfinitivoSinPrefijos(infinitivo, modelo, prefixes)
     // if (morphological_rules.de_prefijos) {
     //     morphological_rules.combinados = combinados

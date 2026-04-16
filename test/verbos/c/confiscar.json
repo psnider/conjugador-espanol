@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõɱfisˈkaɾ]",
+    "silabacion": "con-fis-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín confiscāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"confiscar","gerundio":["confiscando"],"participio":["confiscado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["confisco"],"s2":["confiscas"],"vos":["confiscás"],"s3":["confisca"],"p1":["confiscamos"],"p2":["confiscáis"],"p3":["confiscan"]},
+    "IndImp": {"s1":["confiscaba"],"s2":["confiscabas"],"vos":["confiscabas"],"s3":["confiscaba"],"p1":["confiscábamos"],"p2":["confiscabais"],"p3":["confiscaban"]},
+    "IndPret": {"s1":["confisqué"],"s2":["confiscaste"],"vos":["confiscaste"],"s3":["confiscó"],"p1":["confiscamos"],"p2":["confiscasteis"],"p3":["confiscaron"]},
+    "IndFut": {"s1":["confiscaré"],"s2":["confiscarás"],"vos":["confiscarás"],"s3":["confiscará"],"p1":["confiscaremos"],"p2":["confiscaréis"],"p3":["confiscarán"]},
+    "IndCond": {"s1":["confiscaría"],"s2":["confiscarías"],"vos":["confiscarías"],"s3":["confiscaría"],"p1":["confiscaríamos"],"p2":["confiscaríais"],"p3":["confiscarían"]},
+    "SubPres": {"s1":["confisque"],"s2":["confisques"],"vos":["confisques","confisqués"],"s3":["confisque"],"p1":["confisquemos"],"p2":["confisquéis"],"p3":["confisquen"]},
+    "SubImp": {"s1":["confiscara","confiscase"],"s2":["confiscaras","confiscases"],"vos":["confiscaras","confiscases"],"s3":["confiscara","confiscase"],"p1":["confiscáramos","confiscásemos"],"p2":["confiscarais","confiscaseis"],"p3":["confiscaran","confiscasen"]},
+    "SubFut": {"s1":["confiscare"],"s2":["confiscares"],"vos":["confiscares"],"s3":["confiscare"],"p1":["confiscáremos"],"p2":["confiscareis"],"p3":["confiscaren"]},
+    "CmdPos": {"s2":["confisca"],"vos":["confiscá"],"s3":["confisque"],"p1":["confisquemos"],"p2":["confiscad"],"p3":["confisquen"]}
+  }
+}

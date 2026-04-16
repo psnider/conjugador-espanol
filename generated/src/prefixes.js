@@ -119,6 +119,9 @@ export function aplicaPrefijosClaseConjugacional(model_form, prefijos) {
         let prefijo_sustractivo = clase_de_conjugación.prefijo_sustractivo || "";
         if (!model_form.startsWith(prefijo_sustractivo)) {
             // busca patrón del modelo, preserva los vocales
+            // infinitivo: rendir -> rindieron
+            // modelo: pedir -> rindieron
+            // clase_de_conjugación = {prefijo_sustractivo: "pe", prefijo_aditivo: "ren"}
             const modelo_regex = new RegExp(`^([^${vowels}]+)([${vowels}]+)([^${vowels}]+)([${vowels}]*)?\$`);
             const match_modelo = model_form.match(modelo_regex);
             const infinitivo_regex = new RegExp(`([^${vowels}]+)([${vowels}]+)([^${vowels}]*)\$`);

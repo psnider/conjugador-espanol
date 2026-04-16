@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnluˈsiɾ]",
+    "silabacion": "en-lu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en- y lucir",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"enlucir","gerundio":["enluciendo"],"participio":["enlucido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enluzco"],"s2":["enluces"],"vos":["enlucís"],"s3":["enluce"],"p1":["enlucimos"],"p2":["enlucís"],"p3":["enlucen"]},
+    "IndImp": {"s1":["enlucía"],"s2":["enlucías"],"vos":["enlucías"],"s3":["enlucía"],"p1":["enlucíamos"],"p2":["enlucíais"],"p3":["enlucían"]},
+    "IndPret": {"s1":["enlucí"],"s2":["enluciste"],"vos":["enluciste"],"s3":["enlució"],"p1":["enlucimos"],"p2":["enlucisteis"],"p3":["enlucieron"]},
+    "IndFut": {"s1":["enluciré"],"s2":["enlucirás"],"vos":["enlucirás"],"s3":["enlucirá"],"p1":["enluciremos"],"p2":["enluciréis"],"p3":["enlucirán"]},
+    "IndCond": {"s1":["enluciría"],"s2":["enlucirías"],"vos":["enlucirías"],"s3":["enluciría"],"p1":["enluciríamos"],"p2":["enluciríais"],"p3":["enlucirían"]},
+    "SubPres": {"s1":["enluzca"],"s2":["enluzcas"],"vos":["enluzcas","enluzcás"],"s3":["enluzca"],"p1":["enluzcamos"],"p2":["enluzcáis"],"p3":["enluzcan"]},
+    "SubImp": {"s1":["enluciera","enluciese"],"s2":["enlucieras","enlucieses"],"vos":["enlucieras","enlucieses"],"s3":["enluciera","enluciese"],"p1":["enluciéramos","enluciésemos"],"p2":["enlucierais","enlucieseis"],"p3":["enlucieran","enluciesen"]},
+    "SubFut": {"s1":["enluciere"],"s2":["enlucieres"],"vos":["enlucieres"],"s3":["enluciere"],"p1":["enluciéremos"],"p2":["enluciereis"],"p3":["enlucieren"]},
+    "CmdPos": {"s2":["enluce"],"vos":["enlucí"],"s3":["enluzca"],"p1":["enluzcamos"],"p2":["enlucid"],"p3":["enluzcan"]}
+  }
+}

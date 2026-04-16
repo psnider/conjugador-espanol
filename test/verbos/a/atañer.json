@@ -4,9 +4,7 @@
     "silabacion": "a-ta-ñer",
     "acentuacion": "aguda",
     "etimologia": "Del latín vulgar *attangere, variante del latín attingere (\"entrar en contacto con\"), compuesto del latín tangere.",
-    "modelos": ["atañer"],
-    "impersonal": true,
-    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+    "modelos": ["atañer"]
   },
   "formas_no_personales": {"infinitivo":"atañer","gerundio":["atañendo"],"participio":["atañido"]},
   "formas_personales": {

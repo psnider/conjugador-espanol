@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsluˈsiɾ]",
+    "silabacion": "trans-lu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín translucēre, compuesto de trāns y lūceō&nbsp;('lucir').",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"translucir","gerundio":["transluciendo"],"participio":["translucido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["transluzco"],"s2":["transluces"],"vos":["translucís"],"s3":["transluce"],"p1":["translucimos"],"p2":["translucís"],"p3":["translucen"]},
+    "IndImp": {"s1":["translucía"],"s2":["translucías"],"vos":["translucías"],"s3":["translucía"],"p1":["translucíamos"],"p2":["translucíais"],"p3":["translucían"]},
+    "IndPret": {"s1":["translucí"],"s2":["transluciste"],"vos":["transluciste"],"s3":["translució"],"p1":["translucimos"],"p2":["translucisteis"],"p3":["translucieron"]},
+    "IndFut": {"s1":["transluciré"],"s2":["translucirás"],"vos":["translucirás"],"s3":["translucirá"],"p1":["transluciremos"],"p2":["transluciréis"],"p3":["translucirán"]},
+    "IndCond": {"s1":["transluciría"],"s2":["translucirías"],"vos":["translucirías"],"s3":["transluciría"],"p1":["transluciríamos"],"p2":["transluciríais"],"p3":["translucirían"]},
+    "SubPres": {"s1":["transluzca"],"s2":["transluzcas"],"vos":["transluzcas","transluzcás"],"s3":["transluzca"],"p1":["transluzcamos"],"p2":["transluzcáis"],"p3":["transluzcan"]},
+    "SubImp": {"s1":["transluciera","transluciese"],"s2":["translucieras","translucieses"],"vos":["translucieras","translucieses"],"s3":["transluciera","transluciese"],"p1":["transluciéramos","transluciésemos"],"p2":["translucierais","translucieseis"],"p3":["translucieran","transluciesen"]},
+    "SubFut": {"s1":["transluciere"],"s2":["translucieres"],"vos":["translucieres"],"s3":["transluciere"],"p1":["transluciéremos"],"p2":["transluciereis"],"p3":["translucieren"]},
+    "CmdPos": {"s2":["transluce"],"vos":["translucí"],"s3":["transluzca"],"p1":["transluzcamos"],"p2":["translucid"],"p3":["transluzcan"]}
+  }
+}

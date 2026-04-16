@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾasluˈsiɾ]",
+    "silabacion": "tras-lu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín translucēre,[1] compuesto del latín luceo.",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"traslucir","gerundio":["trasluciendo"],"participio":["traslucido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trasluzco"],"s2":["trasluces"],"vos":["traslucís"],"s3":["trasluce"],"p1":["traslucimos"],"p2":["traslucís"],"p3":["traslucen"]},
+    "IndImp": {"s1":["traslucía"],"s2":["traslucías"],"vos":["traslucías"],"s3":["traslucía"],"p1":["traslucíamos"],"p2":["traslucíais"],"p3":["traslucían"]},
+    "IndPret": {"s1":["traslucí"],"s2":["trasluciste"],"vos":["trasluciste"],"s3":["traslució"],"p1":["traslucimos"],"p2":["traslucisteis"],"p3":["traslucieron"]},
+    "IndFut": {"s1":["trasluciré"],"s2":["traslucirás"],"vos":["traslucirás"],"s3":["traslucirá"],"p1":["trasluciremos"],"p2":["trasluciréis"],"p3":["traslucirán"]},
+    "IndCond": {"s1":["trasluciría"],"s2":["traslucirías"],"vos":["traslucirías"],"s3":["trasluciría"],"p1":["trasluciríamos"],"p2":["trasluciríais"],"p3":["traslucirían"]},
+    "SubPres": {"s1":["trasluzca"],"s2":["trasluzcas"],"vos":["trasluzcas","trasluzcás"],"s3":["trasluzca"],"p1":["trasluzcamos"],"p2":["trasluzcáis"],"p3":["trasluzcan"]},
+    "SubImp": {"s1":["trasluciera","trasluciese"],"s2":["traslucieras","traslucieses"],"vos":["traslucieras","traslucieses"],"s3":["trasluciera","trasluciese"],"p1":["trasluciéramos","trasluciésemos"],"p2":["traslucierais","traslucieseis"],"p3":["traslucieran","trasluciesen"]},
+    "SubFut": {"s1":["trasluciere"],"s2":["traslucieres"],"vos":["traslucieres"],"s3":["trasluciere"],"p1":["trasluciéremos"],"p2":["trasluciereis"],"p3":["traslucieren"]},
+    "CmdPos": {"s2":["trasluce"],"vos":["traslucí"],"s3":["trasluzca"],"p1":["trasluzcamos"],"p2":["traslucid"],"p3":["trasluzcan"]}
+  }
+}

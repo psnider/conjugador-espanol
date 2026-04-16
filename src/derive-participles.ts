@@ -59,9 +59,14 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
             }
         }
         if (participio) {
-            result.participio = addPrefixesToBaseForm(participio, prefixes)
-            if (! formasConjugadasIgual(result.participio, participio)) {
+            if (reglas_de_infinitivo?.excepciones_léxicas?.participio) {
+                result.participio = reglas_de_infinitivo?.excepciones_léxicas.participio
                 prefix_rules_applied.participio = result.participio
+            } else {
+                result.participio = addPrefixesToBaseForm(participio, prefixes)
+                if (! formasConjugadasIgual(result.participio, participio)) {
+                    prefix_rules_applied.participio = result.participio
+                }
             }
         }
         if (Object.keys(prefix_rules_applied).length > 0) {
@@ -85,8 +90,9 @@ function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationA
     const reglas_de_infinitivo = conj_and_deriv_rules.morphological_rules?.de_infinitivo
     const excepciones_léxicas = reglas_de_infinitivo?.excepciones_léxicas || reglas_de_modelo?.excepciones_léxicas
     const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll")
-    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
+    const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
     const alternancia = reglas_de_modelo?.alternancia_vocálica || reglas_de_infinitivo?.alternancia_vocálica
+    const ponga_hiato = morphological_rules?.de_modelo?.ponga_hiato || morphological_rules?.de_infinitivo?.ponga_hiato
     const gerundios_cambiados = applyToFormasConjugadas(regulares.gerundio!, (gerundio) => {
         const split = splitGerund(gerundio, verb_family)
         const gerund_stem = split.gerund_stem
@@ -94,7 +100,7 @@ function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationA
         const gerundio_tema_cambio = gerundio_tema_cambio_excepcional ?? stem_change_patterns[alternancia!]?.gerund_rule
         const excepcional = !!gerundio_tema_cambio_excepcional
         const w_stem_change = gerundio_tema_cambio
-                ? applyStemChangeToGerundStem({gerund_stem, verb_family, gerundio_tema_cambio, excepcional, rules_applied}) + split.ending
+                ? applyStemChangeToGerundStem({gerund_stem, verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, rules_applied}) + split.ending
                 : gerundio
         const w_ortography = applyOrthographicalChangesCommon({infinitivo, forma: w_stem_change, do_correct_diéresis, do_correct_ñi_yi})
         const updated = w_ortography || w_stem_change

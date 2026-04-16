@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esluˈsiɾ]",
+    "silabacion": "des-lu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y lucir.",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"deslucir","gerundio":["desluciendo"],"participio":["deslucido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desluzco"],"s2":["desluces"],"vos":["deslucís"],"s3":["desluce"],"p1":["deslucimos"],"p2":["deslucís"],"p3":["deslucen"]},
+    "IndImp": {"s1":["deslucía"],"s2":["deslucías"],"vos":["deslucías"],"s3":["deslucía"],"p1":["deslucíamos"],"p2":["deslucíais"],"p3":["deslucían"]},
+    "IndPret": {"s1":["deslucí"],"s2":["desluciste"],"vos":["desluciste"],"s3":["deslució"],"p1":["deslucimos"],"p2":["deslucisteis"],"p3":["deslucieron"]},
+    "IndFut": {"s1":["desluciré"],"s2":["deslucirás"],"vos":["deslucirás"],"s3":["deslucirá"],"p1":["desluciremos"],"p2":["desluciréis"],"p3":["deslucirán"]},
+    "IndCond": {"s1":["desluciría"],"s2":["deslucirías"],"vos":["deslucirías"],"s3":["desluciría"],"p1":["desluciríamos"],"p2":["desluciríais"],"p3":["deslucirían"]},
+    "SubPres": {"s1":["desluzca"],"s2":["desluzcas"],"vos":["desluzcas","desluzcás"],"s3":["desluzca"],"p1":["desluzcamos"],"p2":["desluzcáis"],"p3":["desluzcan"]},
+    "SubImp": {"s1":["desluciera","desluciese"],"s2":["deslucieras","deslucieses"],"vos":["deslucieras","deslucieses"],"s3":["desluciera","desluciese"],"p1":["desluciéramos","desluciésemos"],"p2":["deslucierais","deslucieseis"],"p3":["deslucieran","desluciesen"]},
+    "SubFut": {"s1":["desluciere"],"s2":["deslucieres"],"vos":["deslucieres"],"s3":["desluciere"],"p1":["desluciéremos"],"p2":["desluciereis"],"p3":["deslucieren"]},
+    "CmdPos": {"s2":["desluce"],"vos":["deslucí"],"s3":["desluzca"],"p1":["desluzcamos"],"p2":["deslucid"],"p3":["desluzcan"]}
+  }
+}

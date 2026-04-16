@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ʝoβ̞isˈnaɾ]",
+    "silabacion": "llo-viz-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De llover.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"lloviznar","gerundio":["lloviznando"], "participio":["lloviznado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["llovizno"],"s2":["lloviznas"],"vos":["lloviznás"],"s3":["llovizna"],"p1":["lloviznamos"],"p2":["lloviznáis"],"p3":["lloviznan"]},
+    "IndImp": {"s1":["lloviznaba"],"s2":["lloviznabas"],"vos":["lloviznabas"],"s3":["lloviznaba"],"p1":["lloviznábamos"],"p2":["lloviznabais"],"p3":["lloviznaban"]},
+    "IndPret": {"s1":["llovizné"],"s2":["lloviznaste"],"vos":["lloviznaste"],"s3":["lloviznó"],"p1":["lloviznamos"],"p2":["lloviznasteis"],"p3":["lloviznaron"]},
+    "IndFut": {"s1":["lloviznaré"],"s2":["lloviznarás"],"vos":["lloviznarás"],"s3":["lloviznará"],"p1":["lloviznaremos"],"p2":["lloviznaréis"],"p3":["lloviznarán"]},
+    "IndCond": {"s1":["lloviznaría"],"s2":["lloviznarías"],"vos":["lloviznarías"],"s3":["lloviznaría"],"p1":["lloviznaríamos"],"p2":["lloviznaríais"],"p3":["lloviznarían"]},
+    "SubPres": {"s1":["llovizne"],"s2":["lloviznes"],"vos":[{"forma": "lloviznes","uso":"Riop."},{"forma":"lloviznés","uso":"C.Am."}],"s3":["llovizne"],"p1":["lloviznemos"],"p2":["lloviznéis"],"p3":["lloviznen"]},
+    "SubImp": {"s1":["lloviznara","lloviznase"],"s2":["lloviznaras","lloviznases"],"vos":["lloviznaras","lloviznases"],"s3":["lloviznara","lloviznase"],"p1":["lloviznáramos","lloviznásemos"],"p2":["lloviznarais","lloviznaseis"],"p3":["lloviznaran","lloviznasen"]},
+    "SubFut": {"s1":["lloviznare"],"s2":["lloviznares"],"vos":["lloviznares"],"s3":["lloviznare"],"p1":["lloviznáremos"],"p2":["lloviznareis"],"p3":["lloviznaren"]},
+    "CmdPos": {"s2":["llovizna"],"vos":["llovizná"],"s3":["llovizne"],"p1":["lloviznemos"],"p2":["lloviznad"],"p3":["lloviznen"]}
+  }
+}

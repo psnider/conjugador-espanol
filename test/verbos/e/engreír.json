@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋgɾeˈiɾ]",
+    "silabacion": "en-gre-ír",
+    "acentuacion": "aguda",
+    "etimologia": "Derivación regresiva de engreído.",
+    "modelos": ["reír"]
+  },
+  "formas_no_personales": {"infinitivo":"engreír","gerundio":["engriendo"],"participio":["engreído"]},
+  "formas_personales": {
+    "IndPres": {"s1":["engrío"],"s2":["engríes"],"vos":["engreís"],"s3":["engríe"],"p1":["engreímos"],"p2":["engreís"],"p3":["engríen"]},
+    "IndImp": {"s1":["engreía"],"s2":["engreías"],"vos":["engreías"],"s3":["engreía"],"p1":["engreíamos"],"p2":["engreíais"],"p3":["engreían"]},
+    "IndPret": {"s1":["engreí"],"s2":["engreíste"],"vos":["engreíste"],"s3":["engrio",{"forma":"engrió","uso":"pre-2010"}],"p1":["engreímos"],"p2":["engreísteis"],"p3":["engrieron"]},
+    "IndFut": {"s1":["engreiré"],"s2":["engreirás"],"vos":["engreirás"],"s3":["engreirá"],"p1":["engreiremos"],"p2":["engreiréis"],"p3":["engreirán"]},
+    "IndCond": {"s1":["engreiría"],"s2":["engreirías"],"vos":["engreirías"],"s3":["engreiría"],"p1":["engreiríamos"],"p2":["engreiríais"],"p3":["engreirían"]},
+    "SubPres": {"s1":["engría"],"s2":["engrías"],"vos":[{"forma": "engrías","uso":"Riop."},{"forma":"engriás","uso":"C.Am."}],"s3":["engría"],"p1":["engriamos"],"p2":["engriais",{"forma":"engriáis","uso":"pre-2010"}],"p3":["engrían"]},
+    "SubImp": {"s1":["engriera","engriese"],"s2":["engrieras","engrieses"],"vos":["engrieras","engrieses"],"s3":["engriera","engriese"],"p1":["engriéramos","engriésemos"],"p2":["engrierais","engrieseis"],"p3":["engrieran","engriesen"]},
+    "SubFut": {"s1":["engriere"],"s2":["engrieres"],"vos":["engrieres"],"s3":["engriere"],"p1":["engriéremos"],"p2":["engriereis"],"p3":["engrieren"]},
+    "CmdPos": {"s2":["engríe"],"vos":["engreí"],"s3":["engría"],"p1":["engriamos"],"p2":["engreíd"],"p3":["engrían"]}
+  }
+}

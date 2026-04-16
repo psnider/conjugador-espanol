@@ -6,7 +6,7 @@ import { test_resolveConjugationClass } from "./test-resolve-conjugation-class";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "introducir" 
+let infinitivo: string = "desvaír" 
 // one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos"
 let mood_tense: MoodTense = "IndPres"
 

@@ -6,7 +6,7 @@
     "etimologia": "Del latín providēre.",
     "modelos": ["proveer","leer"]
   },
-  "formas_no_personales": {"infinitivo":"proveer","gerundio":["proveyendo"], "participio":["provisto"]},
+  "formas_no_personales": {"infinitivo":"proveer","gerundio":["proveyendo"], "participio":["proveído","provisto"]},
   "formas_personales": {
     "IndPres": {"s1":["proveo"],"s2":["provees"],"vos":["proveés"],"s3":["provee"],"p1":["proveemos"],"p2":["proveéis"],"p3":["proveen"]},
     "IndImp": {"s1":["proveía"],"s2":["proveías"],"vos":["proveías"],"s3":["proveía"],"p1":["proveíamos"],"p2":["proveíais"],"p3":["proveían"]},

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saɾãn̪d̪eˈaɾ]",
+    "silabacion": "za-ran-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De zaranda y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"zarandear","gerundio":["zarandeando"],"participio":["zarandeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["zarandeo"],"s2":["zarandeas"],"vos":["zarandeás"],"s3":["zarandea"],"p1":["zarandeamos"],"p2":["zarandeáis"],"p3":["zarandean"]},
+    "IndImp": {"s1":["zarandeaba"],"s2":["zarandeabas"],"vos":["zarandeabas"],"s3":["zarandeaba"],"p1":["zarandeábamos"],"p2":["zarandeabais"],"p3":["zarandeaban"]},
+    "IndPret": {"s1":["zarandeé"],"s2":["zarandeaste"],"vos":["zarandeaste"],"s3":["zarandeó"],"p1":["zarandeamos"],"p2":["zarandeasteis"],"p3":["zarandearon"]},
+    "IndFut": {"s1":["zarandearé"],"s2":["zarandearás"],"vos":["zarandearás"],"s3":["zarandeará"],"p1":["zarandearemos"],"p2":["zarandearéis"],"p3":["zarandearán"]},
+    "IndCond": {"s1":["zarandearía"],"s2":["zarandearías"],"vos":["zarandearías"],"s3":["zarandearía"],"p1":["zarandearíamos"],"p2":["zarandearíais"],"p3":["zarandearían"]},
+    "SubPres": {"s1":["zarandee"],"s2":["zarandees"],"vos":["zarandees","zarandeés"],"s3":["zarandee"],"p1":["zarandeemos"],"p2":["zarandeéis"],"p3":["zarandeen"]},
+    "SubImp": {"s1":["zarandeara","zarandease"],"s2":["zarandearas","zarandeases"],"vos":["zarandearas","zarandeases"],"s3":["zarandeara","zarandease"],"p1":["zarandeáramos","zarandeásemos"],"p2":["zarandearais","zarandeaseis"],"p3":["zarandearan","zarandeasen"]},
+    "SubFut": {"s1":["zarandeare"],"s2":["zarandeares"],"vos":["zarandeares"],"s3":["zarandeare"],"p1":["zarandeáremos"],"p2":["zarandeareis"],"p3":["zarandearen"]},
+    "CmdPos": {"s2":["zarandea"],"vos":["zarandeá"],"s3":["zarandee"],"p1":["zarandeemos"],"p2":["zarandead"],"p3":["zarandeen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[plaˈseɾ]",
+    "silabacion": "pla-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín placeō, placere ('gustar').",
+    "modelos": ["placer","parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"placer","gerundio":["placiendo"],"participio":["placido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["plazco"],"s2":["places"],"vos":["placés"],"s3":["place"],"p1":["placemos"],"p2":["placéis"],"p3":["placen"]},
+    "IndImp": {"s1":["placía"],"s2":["placías"],"vos":["placías"],"s3":["placía"],"p1":["placíamos"],"p2":["placíais"],"p3":["placían"]},
+    "IndPret": {"s1":["plací"],"s2":["placiste"],"vos":["placiste"],"s3":["plació","plugo"],"p1":["placimos"],"p2":["placisteis"],"p3":["placieron","pluguieron"]},
+    "IndFut": {"s1":["placeré"],"s2":["placerás"],"vos":["placerás"],"s3":["placerá"],"p1":["placeremos"],"p2":["placeréis"],"p3":["placerán"]},
+    "IndCond": {"s1":["placería"],"s2":["placerías"],"vos":["placerías"],"s3":["placería"],"p1":["placeríamos"],"p2":["placeríais"],"p3":["placerían"]},
+    "SubPres": {"s1":["plazca"],"s2":["plazcas"],"vos":["plazcas","plazcás"],"s3":["plazca"],"p1":["plazcamos"],"p2":["plazcáis"],"p3":["plazcan"]},
+    "SubImp": {"s1":["placiera","placiese"],"s2":["placieras","placieses"],"vos":["placieras","placieses"],"s3":["placiera","placiese","pluguiera","pluguiese"],"p1":["placiéramos","placiésemos"],"p2":["placierais","placieseis"],"p3":["placieran","placiesen"]},
+    "SubFut": {"s1":["placiere"],"s2":["placieres"],"vos":["placieres"],"s3":["placiere","pluguiere"],"p1":["placiéremos"],"p2":["placiereis"],"p3":["placieren"]},
+    "CmdPos": {"s2":["place"],"vos":["placé"],"s3":["plazca"],"p1":["plazcamos"],"p2":["placed"],"p3":["plazcan"]}
+  }
+}

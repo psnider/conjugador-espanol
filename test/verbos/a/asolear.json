@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asoleˈaɾ]",
+    "silabacion": "a-so-le-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asolear","gerundio":["asoleando"],"participio":["asoleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asoleo"],"s2":["asoleas"],"vos":["asoleás"],"s3":["asolea"],"p1":["asoleamos"],"p2":["asoleáis"],"p3":["asolean"]},
+    "IndImp": {"s1":["asoleaba"],"s2":["asoleabas"],"vos":["asoleabas"],"s3":["asoleaba"],"p1":["asoleábamos"],"p2":["asoleabais"],"p3":["asoleaban"]},
+    "IndPret": {"s1":["asoleé"],"s2":["asoleaste"],"vos":["asoleaste"],"s3":["asoleó"],"p1":["asoleamos"],"p2":["asoleasteis"],"p3":["asolearon"]},
+    "IndFut": {"s1":["asolearé"],"s2":["asolearás"],"vos":["asolearás"],"s3":["asoleará"],"p1":["asolearemos"],"p2":["asolearéis"],"p3":["asolearán"]},
+    "IndCond": {"s1":["asolearía"],"s2":["asolearías"],"vos":["asolearías"],"s3":["asolearía"],"p1":["asolearíamos"],"p2":["asolearíais"],"p3":["asolearían"]},
+    "SubPres": {"s1":["asolee"],"s2":["asolees"],"vos":["asolees","asoleés"],"s3":["asolee"],"p1":["asoleemos"],"p2":["asoleéis"],"p3":["asoleen"]},
+    "SubImp": {"s1":["asoleara","asolease"],"s2":["asolearas","asoleases"],"vos":["asolearas","asoleases"],"s3":["asoleara","asolease"],"p1":["asoleáramos","asoleásemos"],"p2":["asolearais","asoleaseis"],"p3":["asolearan","asoleasen"]},
+    "SubFut": {"s1":["asoleare"],"s2":["asoleares"],"vos":["asoleares"],"s3":["asoleare"],"p1":["asoleáremos"],"p2":["asoleareis"],"p3":["asolearen"]},
+    "CmdPos": {"s2":["asolea"],"vos":["asoleá"],"s3":["asolee"],"p1":["asoleemos"],"p2":["asolead"],"p3":["asoleen"]}
+  }
+}

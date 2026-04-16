@@ -6,7 +6,7 @@
     "etimologia": "Se documenta por primera vez en 1200.[1] Del latín maledicĕre.",
     "modelos": ["pedir","bendecir"]
   },
-  "formas_no_personales": {"infinitivo":"maldecir","gerundio":["maldiciendo"], "participio":["maldecido"]},
+  "formas_no_personales": {"infinitivo":"maldecir","gerundio":["maldiciendo"], "participio":["maldecido", "maldito"]},
   "formas_personales": {
     "IndPres": {"s1":["maldigo"],"s2":["maldices"],"vos":["maldecís"],"s3":["maldice"],"p1":["maldecimos"],"p2":["maldecís"],"p3":["maldicen"]},
     "IndImp": {"s1":["maldecía"],"s2":["maldecías"],"vos":["maldecías"],"s3":["maldecía"],"p1":["maldecíamos"],"p2":["maldecíais"],"p3":["maldecían"]},

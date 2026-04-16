@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bɾiˈʝaɾ]",
+    "silabacion": "bri-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano brillare (\"emitir luz viva y temblante\").[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"brillar","gerundio":["brillando"],"participio":["brillado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["brillo"],"s2":["brillas"],"vos":["brillás"],"s3":["brilla"],"p1":["brillamos"],"p2":["brilláis"],"p3":["brillan"]},
+    "IndImp": {"s1":["brillaba"],"s2":["brillabas"],"vos":["brillabas"],"s3":["brillaba"],"p1":["brillábamos"],"p2":["brillabais"],"p3":["brillaban"]},
+    "IndPret": {"s1":["brillé"],"s2":["brillaste"],"vos":["brillaste"],"s3":["brilló"],"p1":["brillamos"],"p2":["brillasteis"],"p3":["brillaron"]},
+    "IndFut": {"s1":["brillaré"],"s2":["brillarás"],"vos":["brillarás"],"s3":["brillará"],"p1":["brillaremos"],"p2":["brillaréis"],"p3":["brillarán"]},
+    "IndCond": {"s1":["brillaría"],"s2":["brillarías"],"vos":["brillarías"],"s3":["brillaría"],"p1":["brillaríamos"],"p2":["brillaríais"],"p3":["brillarían"]},
+    "SubPres": {"s1":["brille"],"s2":["brilles"],"vos":["brilles","brillés"],"s3":["brille"],"p1":["brillemos"],"p2":["brilléis"],"p3":["brillen"]},
+    "SubImp": {"s1":["brillara","brillase"],"s2":["brillaras","brillases"],"vos":["brillaras","brillases"],"s3":["brillara","brillase"],"p1":["brilláramos","brillásemos"],"p2":["brillarais","brillaseis"],"p3":["brillaran","brillasen"]},
+    "SubFut": {"s1":["brillare"],"s2":["brillares"],"vos":["brillares"],"s3":["brillare"],"p1":["brilláremos"],"p2":["brillareis"],"p3":["brillaren"]},
+    "CmdPos": {"s2":["brilla"],"vos":["brillá"],"s3":["brille"],"p1":["brillemos"],"p2":["brillad"],"p3":["brillen"]}
+  }
+}

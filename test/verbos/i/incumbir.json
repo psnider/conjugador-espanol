@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkũmˈbiɾ]",
+    "silabacion": "in-cum-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incumbĕre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"incumbir","gerundio":["incumbiendo"],"participio":["incumbido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["incumbo"],"s2":["incumbes"],"vos":["incumbís"],"s3":["incumbe"],"p1":["incumbimos"],"p2":["incumbís"],"p3":["incumben"]},
+    "IndImp": {"s1":["incumbía"],"s2":["incumbías"],"vos":["incumbías"],"s3":["incumbía"],"p1":["incumbíamos"],"p2":["incumbíais"],"p3":["incumbían"]},
+    "IndPret": {"s1":["incumbí"],"s2":["incumbiste"],"vos":["incumbiste"],"s3":["incumbió"],"p1":["incumbimos"],"p2":["incumbisteis"],"p3":["incumbieron"]},
+    "IndFut": {"s1":["incumbiré"],"s2":["incumbirás"],"vos":["incumbirás"],"s3":["incumbirá"],"p1":["incumbiremos"],"p2":["incumbiréis"],"p3":["incumbirán"]},
+    "IndCond": {"s1":["incumbiría"],"s2":["incumbirías"],"vos":["incumbirías"],"s3":["incumbiría"],"p1":["incumbiríamos"],"p2":["incumbiríais"],"p3":["incumbirían"]},
+    "SubPres": {"s1":["incumba"],"s2":["incumbas"],"vos":["incumbas","incumbás"],"s3":["incumba"],"p1":["incumbamos"],"p2":["incumbáis"],"p3":["incumban"]},
+    "SubImp": {"s1":["incumbiera","incumbiese"],"s2":["incumbieras","incumbieses"],"vos":["incumbieras","incumbieses"],"s3":["incumbiera","incumbiese"],"p1":["incumbiéramos","incumbiésemos"],"p2":["incumbierais","incumbieseis"],"p3":["incumbieran","incumbiesen"]},
+    "SubFut": {"s1":["incumbiere"],"s2":["incumbieres"],"vos":["incumbieres"],"s3":["incumbiere"],"p1":["incumbiéremos"],"p2":["incumbiereis"],"p3":["incumbieren"]},
+    "CmdPos": {"s2":["incumbe"],"vos":["incumbí"],"s3":["incumba"],"p1":["incumbamos"],"p2":["incumbid"],"p3":["incumban"]}
+  }
+}

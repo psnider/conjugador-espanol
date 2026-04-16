@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roˈeɾ]",
+    "silabacion": "ro-er",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rodĕre[1], a su vez del protoindoeuropeo *wréh₂d-.[2] Compárese el catalán rosegar, el aragonés rosigar o rader, el francés roder, el italiano rodere, el portugués roer o el rumano roade.",
+    "modelos": ["roer"]
+  },
+  "formas_no_personales": {"infinitivo":"roer","gerundio":["royendo"],"participio":["roído"]},
+  "formas_personales": {
+    "IndPres": {"s1":["roo","roigo","royo"],"s2":["roes"],"vos":["roés"],"s3":["roe"],"p1":["roemos"],"p2":["roéis"],"p3":["roen"]},
+    "IndImp": {"s1":["roía"],"s2":["roías"],"vos":["roías"],"s3":["roía"],"p1":["roíamos"],"p2":["roíais"],"p3":["roían"]},
+    "IndPret": {"s1":["roí"],"s2":["roíste"],"vos":["roíste"],"s3":["royó"],"p1":["roímos"],"p2":["roísteis"],"p3":["royeron"]},
+    "IndFut": {"s1":["roeré"],"s2":["roerás"],"vos":["roerás"],"s3":["roerá"],"p1":["roeremos"],"p2":["roeréis"],"p3":["roerán"]},
+    "IndCond": {"s1":["roería"],"s2":["roerías"],"vos":["roerías"],"s3":["roería"],"p1":["roeríamos"],"p2":["roeríais"],"p3":["roerían"]},
+    "SubPres": {"s1":["roa","roiga","roya"],"s2":["roas","roigas","royas"],"vos":[{"forma": "roas","uso":"Riop."},{"forma":"roás","uso":"C.Am."}],"s3":["roa","roiga","roya"],"p1":["roamos","roigamos","royamos"],"p2":["roáis","roigáis","royáis"],"p3":["roan","roigan","royan"]},
+    "SubImp": {"s1":["royera","royese"],"s2":["royeras","royeses"],"vos":["royeras","royeses"],"s3":["royera","royese"],"p1":["royéramos","royésemos"],"p2":["royerais","royeseis"],"p3":["royeran","royesen"]},
+    "SubFut": {"s1":["royere"],"s2":["royeres"],"vos":["royeres"],"s3":["royere"],"p1":["royéremos"],"p2":["royereis"],"p3":["royeren"]},
+    "CmdPos": {"s2":["roe"],"vos":["roé"],"s3":["roa","roiga","roya"],"p1":["roamos","roigamos","royamos"],"p2":["roed"],"p3":["roan","roigan","royan"]}
+  }
+}

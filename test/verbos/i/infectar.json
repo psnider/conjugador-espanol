@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩɱfekˈt̪aɾ]",
+    "silabacion": "in-fec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"infectar","gerundio":["infectando"],"participio":["infectado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["infecto"],"s2":["infectas"],"vos":["infectás"],"s3":["infecta"],"p1":["infectamos"],"p2":["infectáis"],"p3":["infectan"]},
+    "IndImp": {"s1":["infectaba"],"s2":["infectabas"],"vos":["infectabas"],"s3":["infectaba"],"p1":["infectábamos"],"p2":["infectabais"],"p3":["infectaban"]},
+    "IndPret": {"s1":["infecté"],"s2":["infectaste"],"vos":["infectaste"],"s3":["infectó"],"p1":["infectamos"],"p2":["infectasteis"],"p3":["infectaron"]},
+    "IndFut": {"s1":["infectaré"],"s2":["infectarás"],"vos":["infectarás"],"s3":["infectará"],"p1":["infectaremos"],"p2":["infectaréis"],"p3":["infectarán"]},
+    "IndCond": {"s1":["infectaría"],"s2":["infectarías"],"vos":["infectarías"],"s3":["infectaría"],"p1":["infectaríamos"],"p2":["infectaríais"],"p3":["infectarían"]},
+    "SubPres": {"s1":["infecte"],"s2":["infectes"],"vos":["infectes","infectés"],"s3":["infecte"],"p1":["infectemos"],"p2":["infectéis"],"p3":["infecten"]},
+    "SubImp": {"s1":["infectara","infectase"],"s2":["infectaras","infectases"],"vos":["infectaras","infectases"],"s3":["infectara","infectase"],"p1":["infectáramos","infectásemos"],"p2":["infectarais","infectaseis"],"p3":["infectaran","infectasen"]},
+    "SubFut": {"s1":["infectare"],"s2":["infectares"],"vos":["infectares"],"s3":["infectare"],"p1":["infectáremos"],"p2":["infectareis"],"p3":["infectaren"]},
+    "CmdPos": {"s2":["infecta"],"vos":["infectá"],"s3":["infecte"],"p1":["infectemos"],"p2":["infectad"],"p3":["infecten"]}
+  }
+}

@@ -30,40 +30,48 @@ export function findFailedTestsForParticiples(infinitivo: string, expected: Part
 }
 
 
-export function findFailedTestsForConjugations(args: {infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, defectos_personas?: GrammaticalPerson[], errors: FailedTests}) {
-    const {infinitivo, mood_tense, expected, defectos_personas, errors} = args
+export function findFailedTestsForConjugations(args: {infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, errors: FailedTests}) {
+    const {infinitivo, mood_tense, expected, errors} = args
     const {forms: actual} = conjugateVerb(infinitivo, mood_tense)
     if (!expected) {
         if (actual) {
             errors.conjugaciones = errors.conjugaciones || {}
             errors.conjugaciones[mood_tense] = null
-            return
+            console.log(`ERROR: ${infinitivo},${mood_tense},actual=${JSON.stringify(actual)} expected=null`)
         }
+        return
     }
     const expected_keys = <Array <keyof ConjugaciónEstándarYAtípico>> Object.keys(expected)
     const remaining_keys = {...persons_w_vos_index}
     // nota que si una forma no está en la lista canónica, no tiene que probarla
     for (const expected_key of expected_keys) {
-        // no evite pruebas para formas que existen en 
-        const actual_forms = actual[expected_key]
-        let expected_forms = expected[expected_key]
-        if ((expected_key === "vos") && !actual.vos) {
-            if (! formasConjugadasIgual(expected.vos, expected.s2)) {
-                errors[mood_tense] = errors[mood_tense] || {}
-                errors[mood_tense][expected_key] = expected.vos
-                console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=undefined expected=${JSON.stringify(expected.vos)}`)
+        if (actual === null) {
+            if (expected) {
+                console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=null expected=${JSON.stringify(expected)}`)
                 debugger
             }
         } else {
-            // as of Mar 25, 2026: test all forms
-            if (! formasConjugadasIgual(actual_forms, expected_forms)) {
-                errors[mood_tense] = errors[mood_tense] || {}
-                errors[mood_tense][expected_key] = expected_forms
-                console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=${JSON.stringify(actual_forms)} expected=${JSON.stringify(expected_forms)}`)
-                debugger
+            // no evite pruebas para formas que existen en 
+            const actual_forms = actual[expected_key]
+            let expected_forms = expected[expected_key]
+            if ((expected_key === "vos") && !actual.vos) {
+                if (! formasConjugadasIgual(expected.vos, expected.s2)) {
+                    errors[mood_tense] = errors[mood_tense] || {}
+                    errors[mood_tense][expected_key] = expected.vos
+                    console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=undefined expected=${JSON.stringify(expected.vos)}`)
+                    debugger
+                }
+            } else {
+                // as of Mar 25, 2026: test all forms
+                if (! formasConjugadasIgual(actual_forms, expected_forms)) {
+                    errors[mood_tense] = errors[mood_tense] || {}
+                    errors[mood_tense][expected_key] = expected_forms
+                    console.log(`ERROR: ${infinitivo},${mood_tense},${expected_key}: actual=${JSON.stringify(actual_forms)} expected=${JSON.stringify(expected_forms)}`)
+                    debugger
+                }
             }
+            delete remaining_keys[expected_key]
         }
-        delete remaining_keys[expected_key]
     }
     // FIX: is this even possible anymore?
     if (remaining_keys.length > 0) {
@@ -82,11 +90,7 @@ export function runTestsForInfinitive(infinitivo: string, verb_filename: string)
     delete entero.formas_no_personales.infinitivo
     findFailedTestsForParticiples(infinitivo, entero.formas_no_personales, errors)
     for (const mood_tense of all_mood_tenses) {
-        const defectos = entero.defectos
-        if (!defectos?.rasgos?.includes(mood_tense)) {
-            const defectos_personas = defectos?.personas
-            findFailedTestsForConjugations({infinitivo, mood_tense, expected: entero.formas_personales[mood_tense], defectos_personas, errors})
-        }
+        findFailedTestsForConjugations({infinitivo, mood_tense, expected: entero.formas_personales[mood_tense], errors})
     }
     const has_errors = (Object.keys(errors).length > 0)
     return (has_errors ? errors : undefined)

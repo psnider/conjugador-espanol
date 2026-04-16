@@ -4,9 +4,7 @@
     "silabacion": "con-cer-nir",
     "acentuacion": "aguda",
     "etimologia": "Del latín concernō, concernĕre.",
-    "modelos": ["discernir"],
-    "impersonal": true,
-    "defectos": {"personas": ["s3", "p3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+    "modelos": ["discernir"]
   },
   "formas_no_personales": {"infinitivo":"concernir","gerundio":["concerniendo"],"participio":["concernido"]},
   "formas_personales": {

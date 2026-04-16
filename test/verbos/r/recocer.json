@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekoˈseɾ]",
+    "silabacion": "re-co-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y cocer",
+    "modelos": ["mover","cocer"]
+  },
+  "formas_no_personales": {"infinitivo":"recocer","gerundio":["recociendo"],"participio":["recocido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["recuezo"],"s2":["recueces"],"vos":["recocés"],"s3":["recuece"],"p1":["recocemos"],"p2":["recocéis"],"p3":["recuecen"]},
+    "IndImp": {"s1":["recocía"],"s2":["recocías"],"vos":["recocías"],"s3":["recocía"],"p1":["recocíamos"],"p2":["recocíais"],"p3":["recocían"]},
+    "IndPret": {"s1":["recocí"],"s2":["recociste"],"vos":["recociste"],"s3":["recoció"],"p1":["recocimos"],"p2":["recocisteis"],"p3":["recocieron"]},
+    "IndFut": {"s1":["recoceré"],"s2":["recocerás"],"vos":["recocerás"],"s3":["recocerá"],"p1":["recoceremos"],"p2":["recoceréis"],"p3":["recocerán"]},
+    "IndCond": {"s1":["recocería"],"s2":["recocerías"],"vos":["recocerías"],"s3":["recocería"],"p1":["recoceríamos"],"p2":["recoceríais"],"p3":["recocerían"]},
+    "SubPres": {"s1":["recueza"],"s2":["recuezas"],"vos":["recuezas","recozás"],"s3":["recueza"],"p1":["recozamos"],"p2":["recozáis"],"p3":["recuezan"]},
+    "SubImp": {"s1":["recociera","recociese"],"s2":["recocieras","recocieses"],"vos":["recocieras","recocieses"],"s3":["recociera","recociese"],"p1":["recociéramos","recociésemos"],"p2":["recocierais","recocieseis"],"p3":["recocieran","recociesen"]},
+    "SubFut": {"s1":["recociere"],"s2":["recocieres"],"vos":["recocieres"],"s3":["recociere"],"p1":["recociéremos"],"p2":["recociereis"],"p3":["recocieren"]},
+    "CmdPos": {"s2":["recuece"],"vos":["recocé"],"s3":["recueza"],"p1":["recozamos"],"p2":["recoced"],"p3":["recuezan"]}
+  }
+}

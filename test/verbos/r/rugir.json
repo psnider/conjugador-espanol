@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ruˈxiɾ]",
+    "silabacion": "ru-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rugire.",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"rugir","gerundio":["rugiendo"],"participio":["rugido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rujo"],"s2":["ruges"],"vos":["rugís"],"s3":["ruge"],"p1":["rugimos"],"p2":["rugís"],"p3":["rugen"]},
+    "IndImp": {"s1":["rugía"],"s2":["rugías"],"vos":["rugías"],"s3":["rugía"],"p1":["rugíamos"],"p2":["rugíais"],"p3":["rugían"]},
+    "IndPret": {"s1":["rugí"],"s2":["rugiste"],"vos":["rugiste"],"s3":["rugió"],"p1":["rugimos"],"p2":["rugisteis"],"p3":["rugieron"]},
+    "IndFut": {"s1":["rugiré"],"s2":["rugirás"],"vos":["rugirás"],"s3":["rugirá"],"p1":["rugiremos"],"p2":["rugiréis"],"p3":["rugirán"]},
+    "IndCond": {"s1":["rugiría"],"s2":["rugirías"],"vos":["rugirías"],"s3":["rugiría"],"p1":["rugiríamos"],"p2":["rugiríais"],"p3":["rugirían"]},
+    "SubPres": {"s1":["ruja"],"s2":["rujas"],"vos":["rujas","rujás"],"s3":["ruja"],"p1":["rujamos"],"p2":["rujáis"],"p3":["rujan"]},
+    "SubImp": {"s1":["rugiera","rugiese"],"s2":["rugieras","rugieses"],"vos":["rugieras","rugieses"],"s3":["rugiera","rugiese"],"p1":["rugiéramos","rugiésemos"],"p2":["rugierais","rugieseis"],"p3":["rugieran","rugiesen"]},
+    "SubFut": {"s1":["rugiere"],"s2":["rugieres"],"vos":["rugieres"],"s3":["rugiere"],"p1":["rugiéremos"],"p2":["rugiereis"],"p3":["rugieren"]},
+    "CmdPos": {"s2":["ruge"],"vos":["rugí"],"s3":["ruja"],"p1":["rujamos"],"p2":["rugid"],"p3":["rujan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bẽn̪d̪eˈsiɾ]",
+    "silabacion": "ben-de-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo bendeçir, y este del latín benedīcere, y este de bene, \"bien\", y dicere, \"decir\"",
+    "modelos": ["pedir","bendecir"]
+  },
+  "formas_no_personales": {"infinitivo":"bendecir","gerundio":["bendiciendo"],"participio":["bendecido","bendito"]},
+  "formas_personales": {
+    "IndPres": {"s1":["bendigo"],"s2":["bendices"],"vos":["bendecís"],"s3":["bendice"],"p1":["bendecimos"],"p2":["bendecís"],"p3":["bendicen"]},
+    "IndImp": {"s1":["bendecía"],"s2":["bendecías"],"vos":["bendecías"],"s3":["bendecía"],"p1":["bendecíamos"],"p2":["bendecíais"],"p3":["bendecían"]},
+    "IndPret": {"s1":["bendije"],"s2":["bendijiste"],"vos":["bendijiste"],"s3":["bendijo"],"p1":["bendijimos"],"p2":["bendijisteis"],"p3":["bendijeron"]},
+    "IndFut": {"s1":["bendeciré"],"s2":["bendecirás"],"vos":["bendecirás"],"s3":["bendecirá"],"p1":["bendeciremos"],"p2":["bendeciréis"],"p3":["bendecirán"]},
+    "IndCond": {"s1":["bendeciría"],"s2":["bendecirías"],"vos":["bendecirías"],"s3":["bendeciría"],"p1":["bendeciríamos"],"p2":["bendeciríais"],"p3":["bendecirían"]},
+    "SubPres": {"s1":["bendiga"],"s2":["bendigas"],"vos":["bendigas","bendigás"],"s3":["bendiga"],"p1":["bendigamos"],"p2":["bendigáis"],"p3":["bendigan"]},
+    "SubImp": {"s1":["bendijera","bendijese"],"s2":["bendijeras","bendijeses"],"vos":["bendijeras","bendijeses"],"s3":["bendijera","bendijese"],"p1":["bendijéramos","bendijésemos"],"p2":["bendijerais","bendijeseis"],"p3":["bendijeran","bendijesen"]},
+    "SubFut": {"s1":["bendijere"],"s2":["bendijeres"],"vos":["bendijeres"],"s3":["bendijere"],"p1":["bendijéremos"],"p2":["bendijereis"],"p3":["bendijeren"]},
+    "CmdPos": {"s2":["bendice"],"vos":["bendecí"],"s3":["bendiga"],"p1":["bendigamos"],"p2":["bendecid"],"p3":["bendigan"]}
+  }
+}

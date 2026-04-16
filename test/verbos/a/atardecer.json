@@ -4,8 +4,7 @@
     "silabacion": "a-tar-de-cer",
     "acentuacion": "aguda",
     "etimologia": "Del prefijo a-, tarde y el sufijo -ecer",
-    "modelos": ["parecer"],
-    "impersonal": true
+    "modelos": ["parecer"]
   },
   "formas_no_personales": {"infinitivo":"atardecer","gerundio":["atardeciendo"], "participio":["atardecido"]},
   "formas_personales": {

@@ -1,10 +1,15 @@
 import { VerbAspectRules } from "./regular-verb-rules.js"
 import { ModeloConjugacional, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
 
-// FIX: nomenclature: InfinitiveThemeVowelClass, or ConjugationClass, or InfinitiveConjugationClass
-// FIX: aclare esto: Note que "CmdNeg" se forma de "SubPres", y no es un propio modo_tiempo
+
 type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg" 
 type ConjugationOrDerivation = MoodTense | "Participles"
+
+
+// El verbo tiene dos formas: la de este descripción y la regular, p. ej. "asolar"
+// El valor indica si forma regular se considera la forma como primaria o variante.
+// Los formas extras se genera solo para estos modos/tiempos ["IndPres", "SubPres", "CmdPos", "CmdNeg"]
+type IrregularYRegular = "primaria" | "variante"
 
 
 interface Participios {
@@ -59,7 +64,8 @@ type VerbConjugation = PersonasGramaticalesConVos<FormaConjugada[]>
 
 
 export type Region = "Arg." | "C.Am." | "Col." | "Ur." | "Par." | "Riop."
-export type Uso = Region | "impersonal" | "no normativo" | "arcaico" | "pre-2010"
+// Ya no incluye "no normativo", porque no contribuye información entendible.
+export type Uso = Region | "impersonal" | "arcaico" | "pre-2010"  
 
 
 // Para el subjuntivo de presente:
@@ -190,6 +196,9 @@ export interface VerbConjugationRules<T> {
 }
 
 
+// Each is a name of a conjugation family that uses a fixed pattern of alternancias vocálicas 
+export type StemChangeFamily =  "e:i" | "e:í" | "e:ie" | "e:ie (cernir)" | "i:ie" | "o:ue" | "u:ú" | "u:ue"
+
 
 // This "no change" rule is only for the case of skipping a stem change for a particular FormaConjugada.uso, e.g. para "vos"
 // It should not be used generally.
@@ -198,7 +207,11 @@ export type StemChangeRuleId = "no change" | "e:" | "e:i" | "e:í" | "e:ie" | "i
 // type SuffixChangeType = "eer"
 
 
+// Las reglas que producen los cambios que diferen de las formas regulares.
 export interface VerbRulesApplied {
+    // En caso de "impersonal", el cambio es la eliminación de formas.
+    // Entonces cuando este parece, significa la remoción de formas de la conjugación
+    impersonal?: MoodTense | GrammaticalPerson[]
     ancestor_rule_sets?: VerbAspectRules[]
     suffixes?: VerbConjugation
     stems?: VerbConjugation

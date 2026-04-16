@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaɾˈkaɾ]",
+    "silabacion": "a-par-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, parque y el sufijo -ar.[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"aparcar","gerundio":["aparcando"],"participio":["aparcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aparco"],"s2":["aparcas"],"vos":["aparcás"],"s3":["aparca"],"p1":["aparcamos"],"p2":["aparcáis"],"p3":["aparcan"]},
+    "IndImp": {"s1":["aparcaba"],"s2":["aparcabas"],"vos":["aparcabas"],"s3":["aparcaba"],"p1":["aparcábamos"],"p2":["aparcabais"],"p3":["aparcaban"]},
+    "IndPret": {"s1":["aparqué"],"s2":["aparcaste"],"vos":["aparcaste"],"s3":["aparcó"],"p1":["aparcamos"],"p2":["aparcasteis"],"p3":["aparcaron"]},
+    "IndFut": {"s1":["aparcaré"],"s2":["aparcarás"],"vos":["aparcarás"],"s3":["aparcará"],"p1":["aparcaremos"],"p2":["aparcaréis"],"p3":["aparcarán"]},
+    "IndCond": {"s1":["aparcaría"],"s2":["aparcarías"],"vos":["aparcarías"],"s3":["aparcaría"],"p1":["aparcaríamos"],"p2":["aparcaríais"],"p3":["aparcarían"]},
+    "SubPres": {"s1":["aparque"],"s2":["aparques"],"vos":["aparques","aparqués"],"s3":["aparque"],"p1":["aparquemos"],"p2":["aparquéis"],"p3":["aparquen"]},
+    "SubImp": {"s1":["aparcara","aparcase"],"s2":["aparcaras","aparcases"],"vos":["aparcaras","aparcases"],"s3":["aparcara","aparcase"],"p1":["aparcáramos","aparcásemos"],"p2":["aparcarais","aparcaseis"],"p3":["aparcaran","aparcasen"]},
+    "SubFut": {"s1":["aparcare"],"s2":["aparcares"],"vos":["aparcares"],"s3":["aparcare"],"p1":["aparcáremos"],"p2":["aparcareis"],"p3":["aparcaren"]},
+    "CmdPos": {"s2":["aparca"],"vos":["aparcá"],"s3":["aparque"],"p1":["aparquemos"],"p2":["aparcad"],"p3":["aparquen"]}
+  }
+}

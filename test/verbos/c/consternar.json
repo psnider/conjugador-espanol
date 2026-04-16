@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnst̪eɾˈnaɾ]",
+    "silabacion": "cons-ter-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cōnsternāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"consternar","gerundio":["consternando"],"participio":["consternado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["consterno"],"s2":["consternas"],"vos":["consternás"],"s3":["consterna"],"p1":["consternamos"],"p2":["consternáis"],"p3":["consternan"]},
+    "IndImp": {"s1":["consternaba"],"s2":["consternabas"],"vos":["consternabas"],"s3":["consternaba"],"p1":["consternábamos"],"p2":["consternabais"],"p3":["consternaban"]},
+    "IndPret": {"s1":["consterné"],"s2":["consternaste"],"vos":["consternaste"],"s3":["consternó"],"p1":["consternamos"],"p2":["consternasteis"],"p3":["consternaron"]},
+    "IndFut": {"s1":["consternaré"],"s2":["consternarás"],"vos":["consternarás"],"s3":["consternará"],"p1":["consternaremos"],"p2":["consternaréis"],"p3":["consternarán"]},
+    "IndCond": {"s1":["consternaría"],"s2":["consternarías"],"vos":["consternarías"],"s3":["consternaría"],"p1":["consternaríamos"],"p2":["consternaríais"],"p3":["consternarían"]},
+    "SubPres": {"s1":["consterne"],"s2":["consternes"],"vos":["consternes","consternés"],"s3":["consterne"],"p1":["consternemos"],"p2":["consternéis"],"p3":["consternen"]},
+    "SubImp": {"s1":["consternara","consternase"],"s2":["consternaras","consternases"],"vos":["consternaras","consternases"],"s3":["consternara","consternase"],"p1":["consternáramos","consternásemos"],"p2":["consternarais","consternaseis"],"p3":["consternaran","consternasen"]},
+    "SubFut": {"s1":["consternare"],"s2":["consternares"],"vos":["consternares"],"s3":["consternare"],"p1":["consternáremos"],"p2":["consternareis"],"p3":["consternaren"]},
+    "CmdPos": {"s2":["consterna"],"vos":["consterná"],"s3":["consterne"],"p1":["consternemos"],"p2":["consternad"],"p3":["consternen"]}
+  }
+}

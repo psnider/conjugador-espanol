@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾeluˈsiɾ]",
+    "silabacion": "en-tre-lu-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["lucir"]
+  },
+  "formas_no_personales": {"infinitivo":"entrelucir","gerundio":["entreluciendo"],"participio":["entrelucido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entreluzco"],"s2":["entreluces"],"vos":["entrelucís"],"s3":["entreluce"],"p1":["entrelucimos"],"p2":["entrelucís"],"p3":["entrelucen"]},
+    "IndImp": {"s1":["entrelucía"],"s2":["entrelucías"],"vos":["entrelucías"],"s3":["entrelucía"],"p1":["entrelucíamos"],"p2":["entrelucíais"],"p3":["entrelucían"]},
+    "IndPret": {"s1":["entrelucí"],"s2":["entreluciste"],"vos":["entreluciste"],"s3":["entrelució"],"p1":["entrelucimos"],"p2":["entrelucisteis"],"p3":["entrelucieron"]},
+    "IndFut": {"s1":["entreluciré"],"s2":["entrelucirás"],"vos":["entrelucirás"],"s3":["entrelucirá"],"p1":["entreluciremos"],"p2":["entreluciréis"],"p3":["entrelucirán"]},
+    "IndCond": {"s1":["entreluciría"],"s2":["entrelucirías"],"vos":["entrelucirías"],"s3":["entreluciría"],"p1":["entreluciríamos"],"p2":["entreluciríais"],"p3":["entrelucirían"]},
+    "SubPres": {"s1":["entreluzca"],"s2":["entreluzcas"],"vos":["entreluzcas","entreluzcás"],"s3":["entreluzca"],"p1":["entreluzcamos"],"p2":["entreluzcáis"],"p3":["entreluzcan"]},
+    "SubImp": {"s1":["entreluciera","entreluciese"],"s2":["entrelucieras","entrelucieses"],"vos":["entrelucieras","entrelucieses"],"s3":["entreluciera","entreluciese"],"p1":["entreluciéramos","entreluciésemos"],"p2":["entrelucierais","entrelucieseis"],"p3":["entrelucieran","entreluciesen"]},
+    "SubFut": {"s1":["entreluciere"],"s2":["entrelucieres"],"vos":["entrelucieres"],"s3":["entreluciere"],"p1":["entreluciéremos"],"p2":["entreluciereis"],"p3":["entrelucieren"]},
+    "CmdPos": {"s2":["entreluce"],"vos":["entrelucí"],"s3":["entreluzca"],"p1":["entreluzcamos"],"p2":["entrelucid"],"p3":["entreluzcan"]}
+  }
+}

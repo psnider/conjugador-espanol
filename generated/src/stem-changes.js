@@ -46,7 +46,7 @@ export const stem_change_patterns = {
     "e:í": {
         // "reír" sigue un cambio similar a "e:i", exepto por CmdPos, y el estres del "í"
         allowed_transforms: ["e:í", "e:i", "e:"],
-        gerund_rule: "e:i",
+        gerund_rule: "e:",
         IndPres: { s1: "e:í", s2: "e:í", s3: "e:í", p3: "e:í" },
         IndPret: { s3: "e:i", p3: "e:" },
         SubPres: { s1: "e:í", s2: "e:í", s3: "e:í", p1: "e:i", p2: "e:i", p3: "e:í", vos: ["e:í"] },
@@ -66,6 +66,13 @@ export const stem_change_patterns = {
         SubImp: { s1: "e:i", s2: "e:i", s3: "e:i", p1: "e:i", p2: "e:i", p3: "e:i" },
         SubFut: { s1: "e:i", s2: "e:i", s3: "e:i", p1: "e:i", p2: "e:i", p3: "e:i" },
         CmdPos: { s2: "e:ie", s3: "e:ie", p1: "e:i", p3: "e:ie" }
+    },
+    "e:ie (cernir)": {
+        // "discernir" sigue un cambio similar a "e:ie", exepto no cambie las formas de IndPret
+        allowed_transforms: ["e:ie", "no change"],
+        IndPres: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p3: "e:ie" },
+        SubPres: { s1: "e:ie", s2: "e:ie", s3: "e:ie", p3: "e:ie", vos: [{ "forma": "e:ie", "uso": "Riop." }, { "forma": "no change", "uso": "C.Am." }] },
+        CmdPos: { s2: "e:ie", s3: "e:ie", p3: "e:ie" }
     },
     "i:ie": {
         // This seems to be related to e:ie, if you look at "qu" as similar to "e": e.g. adquirir, inquirir
@@ -132,20 +139,18 @@ export function getStemChangeForGerrundFromRule(alternancia_vocálica) {
         return stem_changes_for_type.gerund_rule;
     }
 }
-export function applyStemChangePattern(verb_part, stem_change_description) {
+export function applyStemChangePattern(verb_part, stem_change_description, ponga_hiato) {
     if (stem_change_description.kind !== "no change") {
         const i = verb_part.lastIndexOf(stem_change_description.from);
         if (i === -1) {
             const rule_id = `${stem_change_description.from}:${stem_change_description.to}`;
             throw new Error(`can't apply stem_change_rule_id=${rule_id} to verb_part=${verb_part}`);
         }
-        let changed_part = verb_part.slice(0, i) + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length);
         // Spanish doesn't allow a word to start with the dipthong "ue"
         // but apparently this doesn't apply to the dipthong "ie"
         // FIX: perhaps it does? "ie" -> "ye" or "e"?
-        if (changed_part.startsWith("ue")) {
-            changed_part = "h" + changed_part;
-        }
+        const carácter_para_romper_diptongo = ((i === 0) || ponga_hiato) ? "h" : "";
+        let changed_part = verb_part.slice(0, i) + carácter_para_romper_diptongo + stem_change_description.to + verb_part.slice(i + stem_change_description.from.length);
         return changed_part;
     }
     else {
@@ -222,15 +227,16 @@ export function applyStemChangePattern(verb_part, stem_change_description) {
 // }
 // Get gerund with any stem changes.
 export function applyStemChangeToGerundStem(args) {
-    const { verb_family, gerundio_tema_cambio, excepcional, rules_applied } = args;
+    const { verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, rules_applied } = args;
     let gerund_stem = args.gerund_stem;
     if (gerundio_tema_cambio) {
         const stem_change_description = stem_change_descriptions[gerundio_tema_cambio];
-        if (stem_change_description.kind !== "vowel raising") {
-            throw new Error(`for gerund_stem=${gerund_stem} verb_family=${verb_family} expect stem_change_description.kind=${stem_change_description.kind} to be "vowel raising"`);
+        const allowed_transforms = ["vowel raising", "blending"];
+        if (!allowed_transforms.includes(stem_change_description.kind)) {
+            throw new Error(`for gerund_stem=${gerund_stem} verb_family=${verb_family} expect stem_change_description.kind=${stem_change_description.kind} to be one of ${allowed_transforms},`);
         }
         if (excepcional || !stem_change_description.only_for_ir_verbs || (verb_family === "-ir")) {
-            gerund_stem = applyStemChangePattern(gerund_stem, stem_change_description);
+            gerund_stem = applyStemChangePattern(gerund_stem, stem_change_description, ponga_hiato);
         }
     }
     if (gerund_stem !== args.gerund_stem) {

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bẽn̪t̪eˈaɾ]",
+    "silabacion": "ven-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De viento y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ventear","gerundio":["venteando"],"participio":["venteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["venteo"],"s2":["venteas"],"vos":["venteás"],"s3":["ventea"],"p1":["venteamos"],"p2":["venteáis"],"p3":["ventean"]},
+    "IndImp": {"s1":["venteaba"],"s2":["venteabas"],"vos":["venteabas"],"s3":["venteaba"],"p1":["venteábamos"],"p2":["venteabais"],"p3":["venteaban"]},
+    "IndPret": {"s1":["venteé"],"s2":["venteaste"],"vos":["venteaste"],"s3":["venteó"],"p1":["venteamos"],"p2":["venteasteis"],"p3":["ventearon"]},
+    "IndFut": {"s1":["ventearé"],"s2":["ventearás"],"vos":["ventearás"],"s3":["venteará"],"p1":["ventearemos"],"p2":["ventearéis"],"p3":["ventearán"]},
+    "IndCond": {"s1":["ventearía"],"s2":["ventearías"],"vos":["ventearías"],"s3":["ventearía"],"p1":["ventearíamos"],"p2":["ventearíais"],"p3":["ventearían"]},
+    "SubPres": {"s1":["ventee"],"s2":["ventees"],"vos":["ventees","venteés"],"s3":["ventee"],"p1":["venteemos"],"p2":["venteéis"],"p3":["venteen"]},
+    "SubImp": {"s1":["venteara","ventease"],"s2":["ventearas","venteases"],"vos":["ventearas","venteases"],"s3":["venteara","ventease"],"p1":["venteáramos","venteásemos"],"p2":["ventearais","venteaseis"],"p3":["ventearan","venteasen"]},
+    "SubFut": {"s1":["venteare"],"s2":["venteares"],"vos":["venteares"],"s3":["venteare"],"p1":["venteáremos"],"p2":["venteareis"],"p3":["ventearen"]},
+    "CmdPos": {"s2":["ventea"],"vos":["venteá"],"s3":["ventee"],"p1":["venteemos"],"p2":["ventead"],"p3":["venteen"]}
+  }
+}

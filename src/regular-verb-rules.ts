@@ -9,7 +9,7 @@ export interface VerbAspectModifications {
     // The next two fields can change that behavior.
     // true if the suffixes should be appended to the infinitivo form.
     add_suffix_to_infinitive?: boolean
-    // true if the stress should be placed on the last sylable of the stem of the 3rd-person plural form.
+    // true if the preterite 3rd-person plural stem is the base of the form.
     add_suffix_to_preterite_p3_stem?: boolean
     // prosody
     // true if the last char of the 1st-person plural form a verb stem must be accented.
@@ -20,6 +20,7 @@ export interface VerbAspectModifications {
     // Note que aplica a la sílaba, no solo al último carácter
     stress_last_vowel_of_s123p3_stem?: boolean
     // true if the stress should be placed on the last sylable of the stem of the vos,Riop. form.
+    // FIX: investigate, rename, and clarify, p.ej.: "prohíbas"
     stress_last_char_of_vos_riop_stem?: boolean
 }
 
@@ -57,7 +58,7 @@ export const regular_verb_suffixes: { [ending: string]: VerbConjugationRules<Ver
             SubFut:  { add_suffix_to_preterite_p3_stem: true, stress_last_char_of_p1_stem: true,
                        suffixes: { s1: ["re"],  s2: ["res"],  s3: ["re"],  p1: ["remos"],  p2: ["reis"],   p3: ["ren"]} },
             CmdPos:  { suffixes: { s1: null,    s2: ["a"],    s3: ["e"],   p1: ["emos"],   p2: ["ad"],     p3: ["en"],      vos: ["á"] } }
-        //  CmdNeg:  siempre sigue la forma SubPres, excepto no existe la forma de s1
+        //  CmdNeg:  siempre sigue la forma SubPres, excepto no existe la forma de s1, este patrón se maneja en el código
         }
     },
     "-er": {   // er: like "temer"

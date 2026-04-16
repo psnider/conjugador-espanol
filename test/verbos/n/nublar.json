@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[nuˈβ̞laɾ]",
+    "silabacion": "nu-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"nublar","gerundio":["nublando"],"participio":["nublado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["nublo"],"s2":["nublas"],"vos":["nublás"],"s3":["nubla"],"p1":["nublamos"],"p2":["nubláis"],"p3":["nublan"]},
+    "IndImp": {"s1":["nublaba"],"s2":["nublabas"],"vos":["nublabas"],"s3":["nublaba"],"p1":["nublábamos"],"p2":["nublabais"],"p3":["nublaban"]},
+    "IndPret": {"s1":["nublé"],"s2":["nublaste"],"vos":["nublaste"],"s3":["nubló"],"p1":["nublamos"],"p2":["nublasteis"],"p3":["nublaron"]},
+    "IndFut": {"s1":["nublaré"],"s2":["nublarás"],"vos":["nublarás"],"s3":["nublará"],"p1":["nublaremos"],"p2":["nublaréis"],"p3":["nublarán"]},
+    "IndCond": {"s1":["nublaría"],"s2":["nublarías"],"vos":["nublarías"],"s3":["nublaría"],"p1":["nublaríamos"],"p2":["nublaríais"],"p3":["nublarían"]},
+    "SubPres": {"s1":["nuble"],"s2":["nubles"],"vos":["nubles","nublés"],"s3":["nuble"],"p1":["nublemos"],"p2":["nubléis"],"p3":["nublen"]},
+    "SubImp": {"s1":["nublara","nublase"],"s2":["nublaras","nublases"],"vos":["nublaras","nublases"],"s3":["nublara","nublase"],"p1":["nubláramos","nublásemos"],"p2":["nublarais","nublaseis"],"p3":["nublaran","nublasen"]},
+    "SubFut": {"s1":["nublare"],"s2":["nublares"],"vos":["nublares"],"s3":["nublare"],"p1":["nubláremos"],"p2":["nublareis"],"p3":["nublaren"]},
+    "CmdPos": {"s2":["nubla"],"vos":["nublá"],"s3":["nuble"],"p1":["nublemos"],"p2":["nublad"],"p3":["nublen"]}
+  }
+}

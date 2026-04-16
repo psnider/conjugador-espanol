@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bojkot̪eˈaɾ]",
+    "silabacion": "boi-co-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"boicotear","gerundio":["boicoteando"],"participio":["boicoteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["boicoteo"],"s2":["boicoteas"],"vos":["boicoteás"],"s3":["boicotea"],"p1":["boicoteamos"],"p2":["boicoteáis"],"p3":["boicotean"]},
+    "IndImp": {"s1":["boicoteaba"],"s2":["boicoteabas"],"vos":["boicoteabas"],"s3":["boicoteaba"],"p1":["boicoteábamos"],"p2":["boicoteabais"],"p3":["boicoteaban"]},
+    "IndPret": {"s1":["boicoteé"],"s2":["boicoteaste"],"vos":["boicoteaste"],"s3":["boicoteó"],"p1":["boicoteamos"],"p2":["boicoteasteis"],"p3":["boicotearon"]},
+    "IndFut": {"s1":["boicotearé"],"s2":["boicotearás"],"vos":["boicotearás"],"s3":["boicoteará"],"p1":["boicotearemos"],"p2":["boicotearéis"],"p3":["boicotearán"]},
+    "IndCond": {"s1":["boicotearía"],"s2":["boicotearías"],"vos":["boicotearías"],"s3":["boicotearía"],"p1":["boicotearíamos"],"p2":["boicotearíais"],"p3":["boicotearían"]},
+    "SubPres": {"s1":["boicotee"],"s2":["boicotees"],"vos":["boicotees","boicoteés"],"s3":["boicotee"],"p1":["boicoteemos"],"p2":["boicoteéis"],"p3":["boicoteen"]},
+    "SubImp": {"s1":["boicoteara","boicotease"],"s2":["boicotearas","boicoteases"],"vos":["boicotearas","boicoteases"],"s3":["boicoteara","boicotease"],"p1":["boicoteáramos","boicoteásemos"],"p2":["boicotearais","boicoteaseis"],"p3":["boicotearan","boicoteasen"]},
+    "SubFut": {"s1":["boicoteare"],"s2":["boicoteares"],"vos":["boicoteares"],"s3":["boicoteare"],"p1":["boicoteáremos"],"p2":["boicoteareis"],"p3":["boicotearen"]},
+    "CmdPos": {"s2":["boicotea"],"vos":["boicoteá"],"s3":["boicotee"],"p1":["boicoteemos"],"p2":["boicotead"],"p3":["boicoteen"]}
+  }
+}

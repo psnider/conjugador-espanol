@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espeˈxaɾ]",
+    "silabacion": "des-pe-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del portugués despejar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"despejar","gerundio":["despejando"],"participio":["despejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["despejo"],"s2":["despejas"],"vos":["despejás"],"s3":["despeja"],"p1":["despejamos"],"p2":["despejáis"],"p3":["despejan"]},
+    "IndImp": {"s1":["despejaba"],"s2":["despejabas"],"vos":["despejabas"],"s3":["despejaba"],"p1":["despejábamos"],"p2":["despejabais"],"p3":["despejaban"]},
+    "IndPret": {"s1":["despejé"],"s2":["despejaste"],"vos":["despejaste"],"s3":["despejó"],"p1":["despejamos"],"p2":["despejasteis"],"p3":["despejaron"]},
+    "IndFut": {"s1":["despejaré"],"s2":["despejarás"],"vos":["despejarás"],"s3":["despejará"],"p1":["despejaremos"],"p2":["despejaréis"],"p3":["despejarán"]},
+    "IndCond": {"s1":["despejaría"],"s2":["despejarías"],"vos":["despejarías"],"s3":["despejaría"],"p1":["despejaríamos"],"p2":["despejaríais"],"p3":["despejarían"]},
+    "SubPres": {"s1":["despeje"],"s2":["despejes"],"vos":["despejes","despejés"],"s3":["despeje"],"p1":["despejemos"],"p2":["despejéis"],"p3":["despejen"]},
+    "SubImp": {"s1":["despejara","despejase"],"s2":["despejaras","despejases"],"vos":["despejaras","despejases"],"s3":["despejara","despejase"],"p1":["despejáramos","despejásemos"],"p2":["despejarais","despejaseis"],"p3":["despejaran","despejasen"]},
+    "SubFut": {"s1":["despejare"],"s2":["despejares"],"vos":["despejares"],"s3":["despejare"],"p1":["despejáremos"],"p2":["despejareis"],"p3":["despejaren"]},
+    "CmdPos": {"s2":["despeja"],"vos":["despejá"],"s3":["despeje"],"p1":["despejemos"],"p2":["despejad"],"p3":["despejen"]}
+  }
+}

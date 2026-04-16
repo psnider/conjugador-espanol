@@ -78,15 +78,11 @@ function handleConjugate() {
         renderParticipiosTable(infinitive, participios.participles);
     }
     else {
-        const isCmdNeg = (mood_tense === "CmdNeg");
-        const conj = conjugateVerb(infinitive, isCmdNeg ? "SubPres" : mood_tense); // VerbConjugationAnnotated
+        const conj = conjugateVerb(infinitive, mood_tense);
         if (!conj || !conj.forms) {
             const innerHTML = "<p>No hay formas para este verbo / modo-tiempo.</p>";
             conjugationBodyDiv.innerHTML = innerHTML;
             return;
-        }
-        if (isCmdNeg) {
-            conj.forms.s1 = null;
         }
         latest_conjugated_forms = conj.forms;
         renderConjugationTable(infinitive, mood_tense, conj.forms);
@@ -222,7 +218,7 @@ function getDisplayTextForFormaConjugada(forma_conjugada) {
     }
 }
 function getVerbFormsText(formas_conjugadas, corrections) {
-    let span_text;
+    let span_text = "";
     if (formas_conjugadas == null) {
         span_text = "—";
         return span_text;
@@ -246,14 +242,25 @@ function getVerbFormsText(formas_conjugadas, corrections) {
         }
     }
     if (corrections) {
-        const form_0_ok = !corrections.includes(formas_conjugadas[0]);
-        const form_1_ok = !corrections.includes(formas_conjugadas[1]);
-        const span_content_0 = form_0_ok ? `🟢 ${text_formas_conjugadas_0}` : `(🔴 ${text_formas_conjugadas_0}) ✅ ${text_corrections_0}`;
-        const span_content_1 = form_1_ok ? `🟢 ${text_formas_conjugadas_1}` : `(🔴 ${text_formas_conjugadas_1}) ✅ ${text_corrections_1}`;
-        span_text = `${span_content_0} , ${span_content_1}`;
+        for (let i = 0; i < formas_conjugadas.length; ++i) {
+            const is_last = (i === (formas_conjugadas.length - 1));
+            const forma_conjugada = formas_conjugadas[i];
+            const text_forma_conjugada = getDisplayTextForFormaConjugada(forma_conjugada);
+            span_text += `${text_forma_conjugada}${is_last ? "" : " , "}`;
+        }
+        // const form_0_ok = !corrections.includes([0])
+        // const form_1_ok = !corrections.includes(formas_conjugadas[1])
+        // const span_content_0 = form_0_ok ? `🟢 ${teformas_conjugadasxt_formas_conjugadas_0}` : `(🔴 ${text_formas_conjugadas_0}) ✅ ${text_corrections_0}` 
+        // const span_content_1 = form_1_ok ? `🟢 ${text_formas_conjugadas_1}` : `(🔴 ${text_formas_conjugadas_1}) ✅ ${text_corrections_1}` 
+        // span_text = `${span_content_0} , ${span_content_1}`
     }
     else {
-        span_text = `${text_formas_conjugadas_0} , ${text_formas_conjugadas_1}`;
+        for (let i = 0; i < formas_conjugadas.length; ++i) {
+            const is_last = (i === (formas_conjugadas.length - 1));
+            const forma_conjugada = formas_conjugadas[i];
+            const text_forma_conjugada = getDisplayTextForFormaConjugada(forma_conjugada);
+            span_text += `${text_forma_conjugada}${is_last ? "" : " , "}`;
+        }
     }
     return span_text;
 }

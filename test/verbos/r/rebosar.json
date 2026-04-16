@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞oˈsaɾ]",
+    "silabacion": "re-bo-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rebosar","gerundio":["rebosando"],"participio":["rebosado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reboso"],"s2":["rebosas"],"vos":["rebosás"],"s3":["rebosa"],"p1":["rebosamos"],"p2":["rebosáis"],"p3":["rebosan"]},
+    "IndImp": {"s1":["rebosaba"],"s2":["rebosabas"],"vos":["rebosabas"],"s3":["rebosaba"],"p1":["rebosábamos"],"p2":["rebosabais"],"p3":["rebosaban"]},
+    "IndPret": {"s1":["rebosé"],"s2":["rebosaste"],"vos":["rebosaste"],"s3":["rebosó"],"p1":["rebosamos"],"p2":["rebosasteis"],"p3":["rebosaron"]},
+    "IndFut": {"s1":["rebosaré"],"s2":["rebosarás"],"vos":["rebosarás"],"s3":["rebosará"],"p1":["rebosaremos"],"p2":["rebosaréis"],"p3":["rebosarán"]},
+    "IndCond": {"s1":["rebosaría"],"s2":["rebosarías"],"vos":["rebosarías"],"s3":["rebosaría"],"p1":["rebosaríamos"],"p2":["rebosaríais"],"p3":["rebosarían"]},
+    "SubPres": {"s1":["rebose"],"s2":["reboses"],"vos":["reboses","rebosés"],"s3":["rebose"],"p1":["rebosemos"],"p2":["reboséis"],"p3":["rebosen"]},
+    "SubImp": {"s1":["rebosara","rebosase"],"s2":["rebosaras","rebosases"],"vos":["rebosaras","rebosases"],"s3":["rebosara","rebosase"],"p1":["rebosáramos","rebosásemos"],"p2":["rebosarais","rebosaseis"],"p3":["rebosaran","rebosasen"]},
+    "SubFut": {"s1":["rebosare"],"s2":["rebosares"],"vos":["rebosares"],"s3":["rebosare"],"p1":["rebosáremos"],"p2":["rebosareis"],"p3":["rebosaren"]},
+    "CmdPos": {"s2":["rebosa"],"vos":["rebosá"],"s3":["rebose"],"p1":["rebosemos"],"p2":["rebosad"],"p3":["rebosen"]}
+  }
+}

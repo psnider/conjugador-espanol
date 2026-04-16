@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈt̪iɾ]",
+    "silabacion": "ba-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín battuĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"batir","gerundio":["batiendo"],"participio":["batido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["bato"],"s2":["bates"],"vos":["batís"],"s3":["bate"],"p1":["batimos"],"p2":["batís"],"p3":["baten"]},
+    "IndImp": {"s1":["batía"],"s2":["batías"],"vos":["batías"],"s3":["batía"],"p1":["batíamos"],"p2":["batíais"],"p3":["batían"]},
+    "IndPret": {"s1":["batí"],"s2":["batiste"],"vos":["batiste"],"s3":["batió"],"p1":["batimos"],"p2":["batisteis"],"p3":["batieron"]},
+    "IndFut": {"s1":["batiré"],"s2":["batirás"],"vos":["batirás"],"s3":["batirá"],"p1":["batiremos"],"p2":["batiréis"],"p3":["batirán"]},
+    "IndCond": {"s1":["batiría"],"s2":["batirías"],"vos":["batirías"],"s3":["batiría"],"p1":["batiríamos"],"p2":["batiríais"],"p3":["batirían"]},
+    "SubPres": {"s1":["bata"],"s2":["batas"],"vos":["batas","batás"],"s3":["bata"],"p1":["batamos"],"p2":["batáis"],"p3":["batan"]},
+    "SubImp": {"s1":["batiera","batiese"],"s2":["batieras","batieses"],"vos":["batieras","batieses"],"s3":["batiera","batiese"],"p1":["batiéramos","batiésemos"],"p2":["batierais","batieseis"],"p3":["batieran","batiesen"]},
+    "SubFut": {"s1":["batiere"],"s2":["batieres"],"vos":["batieres"],"s3":["batiere"],"p1":["batiéremos"],"p2":["batiereis"],"p3":["batieren"]},
+    "CmdPos": {"s2":["bate"],"vos":["batí"],"s3":["bata"],"p1":["batamos"],"p2":["batid"],"p3":["batan"]}
+  }
+}

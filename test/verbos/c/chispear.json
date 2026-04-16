@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃispeˈaɾ]",
+    "silabacion": "chis-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De chispa.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"chispear","gerundio":["chispeando"],"participio":["chispeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["chispeo"],"s2":["chispeas"],"vos":["chispeás"],"s3":["chispea"],"p1":["chispeamos"],"p2":["chispeáis"],"p3":["chispean"]},
+    "IndImp": {"s1":["chispeaba"],"s2":["chispeabas"],"vos":["chispeabas"],"s3":["chispeaba"],"p1":["chispeábamos"],"p2":["chispeabais"],"p3":["chispeaban"]},
+    "IndPret": {"s1":["chispeé"],"s2":["chispeaste"],"vos":["chispeaste"],"s3":["chispeó"],"p1":["chispeamos"],"p2":["chispeasteis"],"p3":["chispearon"]},
+    "IndFut": {"s1":["chispearé"],"s2":["chispearás"],"vos":["chispearás"],"s3":["chispeará"],"p1":["chispearemos"],"p2":["chispearéis"],"p3":["chispearán"]},
+    "IndCond": {"s1":["chispearía"],"s2":["chispearías"],"vos":["chispearías"],"s3":["chispearía"],"p1":["chispearíamos"],"p2":["chispearíais"],"p3":["chispearían"]},
+    "SubPres": {"s1":["chispee"],"s2":["chispees"],"vos":["chispees","chispeés"],"s3":["chispee"],"p1":["chispeemos"],"p2":["chispeéis"],"p3":["chispeen"]},
+    "SubImp": {"s1":["chispeara","chispease"],"s2":["chispearas","chispeases"],"vos":["chispearas","chispeases"],"s3":["chispeara","chispease"],"p1":["chispeáramos","chispeásemos"],"p2":["chispearais","chispeaseis"],"p3":["chispearan","chispeasen"]},
+    "SubFut": {"s1":["chispeare"],"s2":["chispeares"],"vos":["chispeares"],"s3":["chispeare"],"p1":["chispeáremos"],"p2":["chispeareis"],"p3":["chispearen"]},
+    "CmdPos": {"s2":["chispea"],"vos":["chispeá"],"s3":["chispee"],"p1":["chispeemos"],"p2":["chispead"],"p3":["chispeen"]}
+  }
+}

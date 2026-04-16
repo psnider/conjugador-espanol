@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resplãn̪d̪eˈseɾ]",
+    "silabacion": "res-plan-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín resplendescĕre, este de re- con splendescere.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"resplandecer","gerundio":["resplandeciendo"],"participio":["resplandecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resplandezco"],"s2":["resplandeces"],"vos":["resplandecés"],"s3":["resplandece"],"p1":["resplandecemos"],"p2":["resplandecéis"],"p3":["resplandecen"]},
+    "IndImp": {"s1":["resplandecía"],"s2":["resplandecías"],"vos":["resplandecías"],"s3":["resplandecía"],"p1":["resplandecíamos"],"p2":["resplandecíais"],"p3":["resplandecían"]},
+    "IndPret": {"s1":["resplandecí"],"s2":["resplandeciste"],"vos":["resplandeciste"],"s3":["resplandeció"],"p1":["resplandecimos"],"p2":["resplandecisteis"],"p3":["resplandecieron"]},
+    "IndFut": {"s1":["resplandeceré"],"s2":["resplandecerás"],"vos":["resplandecerás"],"s3":["resplandecerá"],"p1":["resplandeceremos"],"p2":["resplandeceréis"],"p3":["resplandecerán"]},
+    "IndCond": {"s1":["resplandecería"],"s2":["resplandecerías"],"vos":["resplandecerías"],"s3":["resplandecería"],"p1":["resplandeceríamos"],"p2":["resplandeceríais"],"p3":["resplandecerían"]},
+    "SubPres": {"s1":["resplandezca"],"s2":["resplandezcas"],"vos":["resplandezcas","resplandezcás"],"s3":["resplandezca"],"p1":["resplandezcamos"],"p2":["resplandezcáis"],"p3":["resplandezcan"]},
+    "SubImp": {"s1":["resplandeciera","resplandeciese"],"s2":["resplandecieras","resplandecieses"],"vos":["resplandecieras","resplandecieses"],"s3":["resplandeciera","resplandeciese"],"p1":["resplandeciéramos","resplandeciésemos"],"p2":["resplandecierais","resplandecieseis"],"p3":["resplandecieran","resplandeciesen"]},
+    "SubFut": {"s1":["resplandeciere"],"s2":["resplandecieres"],"vos":["resplandecieres"],"s3":["resplandeciere"],"p1":["resplandeciéremos"],"p2":["resplandeciereis"],"p3":["resplandecieren"]},
+    "CmdPos": {"s2":["resplandece"],"vos":["resplandecé"],"s3":["resplandezca"],"p1":["resplandezcamos"],"p2":["resplandeced"],"p3":["resplandezcan"]}
+  }
+}

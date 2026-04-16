@@ -8,14 +8,14 @@
   },
   "formas_no_personales": {"infinitivo":"desvaír","gerundio":["desvayendo"], "participio":["desvaído"]},
   "formas_personales": {
-    "IndPres": {"vos":["desvaís"],"p1":["desvaímos"],"p2":["desvaís"]},
+    "IndPres": {"s1":["desvayo"],"s2":["desvayes"],"vos":["desvaís"],"s3":["desvaye"],"p1":["desvaímos"],"p2":["desvaís"],"p3":["desvayen"]},
     "IndImp": {"s1":["desvaía"],"s2":["desvaías"],"vos":["desvaías"],"s3":["desvaía"],"p1":["desvaíamos"],"p2":["desvaíais"],"p3":["desvaían"]},
-    "IndPret": {"s1":["desvaí"],"s2":["desvaíste"],"vos":["desvaíste"],"p1":["desvaímos"],"p2":["desvaísteis"]},
+    "IndPret": {"s1":["desvaí"],"s2":["desvaíste"],"vos":["desvaíste"],"s3":["desvayó"],"p1":["desvaímos"],"p2":["desvaísteis"],"p3":["desvayeron"]},
     "IndFut": {"s1":["desvairé"],"s2":["desvairás"],"vos":["desvairás"],"s3":["desvairá"],"p1":["desvairemos"],"p2":["desvairéis"],"p3":["desvairán"]},
     "IndCond": {"s1":["desvairía"],"s2":["desvairías"],"vos":["desvairías"],"s3":["desvairía"],"p1":["desvairíamos"],"p2":["desvairíais"],"p3":["desvairían"]},
-    "SubPres": {},
-    "SubImp": {},
-    "SubFut": {},
-    "CmdPos": {"vos":["desvaí"],"p2":["desvaíd"]}
+    "SubPres": {"s1":["desvaya"],"s2":["desvayas"],"vos":[{"forma":"desvayas","uso":"Riop."},{"forma":"desvayás","uso":"C.Am."}],"s3":["desvaya"],"p1":["desvayamos"],"p2":["desvayáis"],"p3":["desvayan"]},
+    "SubImp": {"s1":["desvayera","desvayese"],"s2":["desvayeras","desvayeses"],"vos":["desvayeras","desvayeses"],"s3":["desvayera","desvayese"],"p1":["desvayéramos","desvayésemos"],"p2":["desvayerais","desvayeseis"],"p3":["desvayeran","desvayesen"]},
+    "SubFut": {"s1":["desvayere"],"s2":["desvayeres"],"vos":["desvayeres"],"s3":["desvayere"],"p1":["desvayéremos"],"p2":["desvayereis"],"p3":["desvayeren"]},
+    "CmdPos": {"s2":["desvaye"],"vos":["desvaí"],"s3":["desvaya"],"p1":["desvayamos"],"p2":["desvaid"],"p3":["desvayan"]}
   }
 }

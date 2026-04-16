@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪oksiˈkaɾ]",
+    "silabacion": "in-to-xi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"intoxicar","gerundio":["intoxicando"],"participio":["intoxicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["intoxico"],"s2":["intoxicas"],"vos":["intoxicás"],"s3":["intoxica"],"p1":["intoxicamos"],"p2":["intoxicáis"],"p3":["intoxican"]},
+    "IndImp": {"s1":["intoxicaba"],"s2":["intoxicabas"],"vos":["intoxicabas"],"s3":["intoxicaba"],"p1":["intoxicábamos"],"p2":["intoxicabais"],"p3":["intoxicaban"]},
+    "IndPret": {"s1":["intoxiqué"],"s2":["intoxicaste"],"vos":["intoxicaste"],"s3":["intoxicó"],"p1":["intoxicamos"],"p2":["intoxicasteis"],"p3":["intoxicaron"]},
+    "IndFut": {"s1":["intoxicaré"],"s2":["intoxicarás"],"vos":["intoxicarás"],"s3":["intoxicará"],"p1":["intoxicaremos"],"p2":["intoxicaréis"],"p3":["intoxicarán"]},
+    "IndCond": {"s1":["intoxicaría"],"s2":["intoxicarías"],"vos":["intoxicarías"],"s3":["intoxicaría"],"p1":["intoxicaríamos"],"p2":["intoxicaríais"],"p3":["intoxicarían"]},
+    "SubPres": {"s1":["intoxique"],"s2":["intoxiques"],"vos":["intoxiques","intoxiqués"],"s3":["intoxique"],"p1":["intoxiquemos"],"p2":["intoxiquéis"],"p3":["intoxiquen"]},
+    "SubImp": {"s1":["intoxicara","intoxicase"],"s2":["intoxicaras","intoxicases"],"vos":["intoxicaras","intoxicases"],"s3":["intoxicara","intoxicase"],"p1":["intoxicáramos","intoxicásemos"],"p2":["intoxicarais","intoxicaseis"],"p3":["intoxicaran","intoxicasen"]},
+    "SubFut": {"s1":["intoxicare"],"s2":["intoxicares"],"vos":["intoxicares"],"s3":["intoxicare"],"p1":["intoxicáremos"],"p2":["intoxicareis"],"p3":["intoxicaren"]},
+    "CmdPos": {"s2":["intoxica"],"vos":["intoxicá"],"s3":["intoxique"],"p1":["intoxiquemos"],"p2":["intoxicad"],"p3":["intoxiquen"]}
+  }
+}

@@ -8,14 +8,14 @@
   },
   "formas_no_personales": {"infinitivo":"cimentar","gerundio":["cimentando"], "participio":["cimentado"]},
   "formas_personales": {
-    "IndPres": {"s1":["cimiento","cimento"],"s2":["cimientas"],"vos":["cimentás"],"s3":["cimienta"],"p1":["cimentamos"],"p2":["cimentáis"],"p3":["cimientan"]},
+    "IndPres": {"s1":["cimento","cimiento"],"s2":["cimentas","cimientas"],"vos":["cimentás"],"s3":["cimenta","cimienta"],"p1":["cimentamos"],"p2":["cimentáis"],"p3":["cimentan","cimientan"]},
     "IndImp": {"s1":["cimentaba"],"s2":["cimentabas"],"vos":["cimentabas"],"s3":["cimentaba"],"p1":["cimentábamos"],"p2":["cimentabais"],"p3":["cimentaban"]},
     "IndPret": {"s1":["cimenté"],"s2":["cimentaste"],"vos":["cimentaste"],"s3":["cimentó"],"p1":["cimentamos"],"p2":["cimentasteis"],"p3":["cimentaron"]},
     "IndFut": {"s1":["cimentaré"],"s2":["cimentarás"],"vos":["cimentarás"],"s3":["cimentará"],"p1":["cimentaremos"],"p2":["cimentaréis"],"p3":["cimentarán"]},
     "IndCond": {"s1":["cimentaría"],"s2":["cimentarías"],"vos":["cimentarías"],"s3":["cimentaría"],"p1":["cimentaríamos"],"p2":["cimentaríais"],"p3":["cimentarían"]},
-    "SubPres": {"s1":["cimiente"],"s2":["cimientes"],"vos":[{"forma": "cimientes","uso":"Riop."},{"forma":"cimentés","uso":"C.Am."}],"s3":["cimiente"],"p1":["cimentemos"],"p2":["cimentéis"],"p3":["cimienten"]},
+    "SubPres": {"s1":["cimente","cimiente"],"s2":["cimentes","cimientes"],"vos":[{"forma": "cimentes","uso":"Riop."},{"forma": "cimientes","uso":"Riop."},{"forma":"cimentés","uso":"C.Am."}],"s3":["cimente","cimiente"],"p1":["cimentemos"],"p2":["cimentéis"],"p3":["cimenten","cimienten"]},
     "SubImp": {"s1":["cimentara","cimentase"],"s2":["cimentaras","cimentases"],"vos":["cimentaras","cimentases"],"s3":["cimentara","cimentase"],"p1":["cimentáramos","cimentásemos"],"p2":["cimentarais","cimentaseis"],"p3":["cimentaran","cimentasen"]},
     "SubFut": {"s1":["cimentare"],"s2":["cimentares"],"vos":["cimentares"],"s3":["cimentare"],"p1":["cimentáremos"],"p2":["cimentareis"],"p3":["cimentaren"]},
-    "CmdPos": {"s2":["cimienta"],"vos":["cimentá"],"s3":["cimiente"],"p1":["cimentemos"],"p2":["cimentad"],"p3":["cimienten"]}
+    "CmdPos": {"s2":["cimenta","cimienta"],"vos":["cimentá"],"s3":["cimente","cimiente"],"p1":["cimentemos"],"p2":["cimentad"],"p3":["cimenten","cimienten"]}
   }
 }

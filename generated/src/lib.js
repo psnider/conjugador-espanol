@@ -1,4 +1,5 @@
 export const vowels = "aáeéiíoóuúü";
+export const consonantes = "bcdfghjklmnñpqrstvwxyz";
 export const verb_terminations_normalized = ["ar", "er", "ir"];
 export const verb_terminations_all = ["ar", "er", "ir", "ír"];
 export const persons_standard = ["s1", "s2", "s3", "p1", "p2", "p3"];
@@ -252,7 +253,7 @@ export function compareSpanishWords(lhs, rhs) {
         const sl = subRank.get(l);
         const sr = subRank.get(r);
         if (sl === undefined || sr === undefined) {
-            throw new Error(`Caracter inválido: '${l}' o '${r}'`);
+            throw new Error(`carácter inválido: '${l}' o '${r}'`);
         }
         if (sl !== sr) {
             return sl - sr;

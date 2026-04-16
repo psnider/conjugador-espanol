@@ -6,14 +6,14 @@
     "etimologia": "Del latín frigere, del protoindoeuropeo *bʰer-. Compárese el catalán fregir, el francés frire, el gallego frigir, el italiano friggere, el portugués frigir o el occitano frir",
     "modelos": ["reír","freír"]
   },
-  "formas_no_personales": {"infinitivo":"freír","gerundio":["friendo"], "participio":["frito"]},
+  "formas_no_personales": {"infinitivo":"freír","gerundio":["friendo"], "participio":["frito","freído"]},
   "formas_personales": {
     "IndPres": {"s1":["frío"],"s2":["fríes"],"vos":["freís"],"s3":["fríe"],"p1":["freímos"],"p2":["freís"],"p3":["fríen"]},
     "IndImp": {"s1":["freía"],"s2":["freías"],"vos":["freías"],"s3":["freía"],"p1":["freíamos"],"p2":["freíais"],"p3":["freían"]},
-    "IndPret": {"s1":["freí"],"s2":["freíste"],"vos":["freíste"],"s3":["frió"],"p1":["freímos"],"p2":["freísteis"],"p3":["frieron"]},
+    "IndPret": {"s1":["freí"],"s2":["freíste"],"vos":["freíste"],"s3":["frio",{"forma":"frió","uso":"pre-2010"}],"p1":["freímos"],"p2":["freísteis"],"p3":["frieron"]},
     "IndFut": {"s1":["freiré"],"s2":["freirás"],"vos":["freirás"],"s3":["freirá"],"p1":["freiremos"],"p2":["freiréis"],"p3":["freirán"]},
     "IndCond": {"s1":["freiría"],"s2":["freirías"],"vos":["freirías"],"s3":["freiría"],"p1":["freiríamos"],"p2":["freiríais"],"p3":["freirían"]},
-    "SubPres": {"s1":["fría"],"s2":["frías"],"vos":["frías","friás"],"s3":["fría"],"p1":["friamos"],"p2":["friáis"],"p3":["frían"]},
+    "SubPres": {"s1":["fría"],"s2":["frías"],"vos":["frías","friás"],"s3":["fría"],"p1":["friamos"],"p2":["friais",{"forma":"friáis","uso":"pre-2010"}],"p3":["frían"]},
     "SubImp": {"s1":["friera","friese"],"s2":["frieras","frieses"],"vos":["frieras","frieses"],"s3":["friera","friese"],"p1":["friéramos","friésemos"],"p2":["frierais","frieseis"],"p3":["frieran","friesen"]},
     "SubFut": {"s1":["friere"],"s2":["frieres"],"vos":["frieres"],"s3":["friere"],"p1":["friéremos"],"p2":["friereis"],"p3":["frieren"]},
     "CmdPos": {"s2":["fríe"],"vos":["freí"],"s3":["fría"],"p1":["friamos"],"p2":["freíd"],"p3":["frían"]}

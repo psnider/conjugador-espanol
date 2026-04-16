@@ -2,6 +2,7 @@ import { FormaConjugada, GrammaticalPerson, MoodTense, VerbConjugation, VerbConj
 
 
 export const vowels = "aáeéiíoóuúü"
+export const consonantes = "bcdfghjklmnñpqrstvwxyz"
 export const verb_terminations_normalized = ["ar", "er", "ir"]
 export const verb_terminations_all = ["ar", "er", "ir", "ír"]
 
@@ -281,7 +282,7 @@ export function compareSpanishWords(lhs: string, rhs: string): number {
         const sr = subRank.get(r);
 
         if (sl === undefined || sr === undefined) {
-            throw new Error(`Caracter inválido: '${l}' o '${r}'`);
+            throw new Error(`carácter inválido: '${l}' o '${r}'`);
         }
 
         if (sl !== sr) {

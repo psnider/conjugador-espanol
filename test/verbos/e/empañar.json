@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpaˈɲaɾ]",
+    "silabacion": "em-pa-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, paño y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"empañar","gerundio":["empañando"],"participio":["empañado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empaño"],"s2":["empañas"],"vos":["empañás"],"s3":["empaña"],"p1":["empañamos"],"p2":["empañáis"],"p3":["empañan"]},
+    "IndImp": {"s1":["empañaba"],"s2":["empañabas"],"vos":["empañabas"],"s3":["empañaba"],"p1":["empañábamos"],"p2":["empañabais"],"p3":["empañaban"]},
+    "IndPret": {"s1":["empañé"],"s2":["empañaste"],"vos":["empañaste"],"s3":["empañó"],"p1":["empañamos"],"p2":["empañasteis"],"p3":["empañaron"]},
+    "IndFut": {"s1":["empañaré"],"s2":["empañarás"],"vos":["empañarás"],"s3":["empañará"],"p1":["empañaremos"],"p2":["empañaréis"],"p3":["empañarán"]},
+    "IndCond": {"s1":["empañaría"],"s2":["empañarías"],"vos":["empañarías"],"s3":["empañaría"],"p1":["empañaríamos"],"p2":["empañaríais"],"p3":["empañarían"]},
+    "SubPres": {"s1":["empañe"],"s2":["empañes"],"vos":["empañes","empañés"],"s3":["empañe"],"p1":["empañemos"],"p2":["empañéis"],"p3":["empañen"]},
+    "SubImp": {"s1":["empañara","empañase"],"s2":["empañaras","empañases"],"vos":["empañaras","empañases"],"s3":["empañara","empañase"],"p1":["empañáramos","empañásemos"],"p2":["empañarais","empañaseis"],"p3":["empañaran","empañasen"]},
+    "SubFut": {"s1":["empañare"],"s2":["empañares"],"vos":["empañares"],"s3":["empañare"],"p1":["empañáremos"],"p2":["empañareis"],"p3":["empañaren"]},
+    "CmdPos": {"s2":["empaña"],"vos":["empañá"],"s3":["empañe"],"p1":["empañemos"],"p2":["empañad"],"p3":["empañen"]}
+  }
+}

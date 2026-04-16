@@ -4,8 +4,7 @@
     "silabacion": "ne-var",
     "acentuacion": "aguda",
     "etimologia": "Del latín nivāre",
-    "modelos": ["pensar"],
-    "defectos": {"personas": ["s3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+    "modelos": ["pensar"]
   },
   "formas_no_personales": {"infinitivo":"nevar","gerundio":["nevando"], "participio":["nevado"]},
   "formas_personales": {

@@ -4,8 +4,7 @@
     "silabacion": "llo-ver",
     "acentuacion": "aguda",
     "etimologia": "Del latín vulgar plovĕre, y este del latín pluere ('pluĕre').",
-    "modelos": ["mover"],
-    "defectos": {"personas": ["s3"], "rasgos": ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut"]}
+    "modelos": ["mover"]
   },
   "formas_no_personales": {"infinitivo":"llover","gerundio":["lloviendo"], "participio":["llovido"]},
   "formas_personales": {

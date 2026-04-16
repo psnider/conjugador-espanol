@@ -1,4 +1,10 @@
 import { applyToFormasConjugadas, combinaFormasConjugadas, isValueless } from "./lib.js";
+// Vocal cerrada átona + vocal abierta
+const diptongos_creciente = ["ia", "ie", "io", "ua", "ue", "uo"];
+// Vocal abierta + vocal cerrada átona
+const diptongos_decreciente = ["ai", "au", "ei", "eu", "oi", "ou"];
+// Dos vocales cerradas diferentes
+const diptongos_homogéneo = ["iu", "ui"];
 // A mapping of the last 3-5 characters of an infinitivo to the possible typographic change rule.
 // NOTE: these are searched in the same order that they are presented in this list, and the first match is selected.
 const infinitive_ending_sound_rules = {
@@ -7,8 +13,8 @@ const infinitive_ending_sound_rules = {
     quir: "preserve-hard-c-sound-of-q",
     guar: "break-ue-dipthong-after-gu",
     guir: "preserve-hard-g-sound",
+    ecer: "preserve-soft-c-sound-of-ecer",
     car: "preserve-hard-c-sound-of-c",
-    // cer: "preserve-soft-c-sound",
     cir: "soften-hard-c-sound",
     gar: "preserve-hard-g-sound",
     ger: "preserve-soft-g-sound",
@@ -16,25 +22,24 @@ const infinitive_ending_sound_rules = {
     uar: "break-u-dipthong-after-hard-sound",
     uir: "u → uy (hiato)",
     zar: "replace-disallowed-ze-zi",
+    aír: "separa a + vocal-abierto"
 };
 // FIX: linguist: are these patterns correct?
 // Verb changes made solely for phonetic reasons, and using changes in typography.
 const orthographical_change_rules_for_terminations = {
-    // "preserve-soft-c-sound": [
-    //     {
-    //     // example: conocer,IndPres,s1: conoco => conozco
-    //     // counter-example: hacer,IndPret,s3: hico !=> hizco
-    //     // NOTE: this rule is only for verb terminations
-    //     match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u, 
-    //     replacement_pattern: "zc$1"
-    // },
+    "preserve-soft-c-sound-of-ecer": [{
+            // example: amanecer,IndPres,s1: amanezco => amanezco
+            // counter-example: hacer,IndPret,s3: hico !=> hizco
+            // NOTE: this rule is only for verb terminations
+            match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u,
+            replacement_pattern: "zc$1"
+        }],
     // {
     //     // example: cocer,IndPres,s1: cueco => cuezo
     //     // example: torcer,IndPres,s1: tuerco => tuerzo
     //     match_pattern: /c([aáoóuú](s|mos|is|n)?)$/u, 
     //     replacement_pattern: "z$1"
-    // }
-    // ],
+    // }],
     "preserve-hard-c-sound-of-c": [{
             // example: sacar,IndPret,s1: sacé => saqué
             match_pattern: /c([eéií](s|mos|is|n)?)$/u,
@@ -93,6 +98,11 @@ const orthographical_change_rules_for_terminations = {
             match_pattern: /gu([eé](s|mos|is|n)?)$/u,
             replacement_pattern: "gü$1"
         }],
+    "separa a + vocal-abierto": [{
+            // This was added to support the idea that desvaír is regular, but unusual ortografía aplica
+            match_pattern: /a([aáeéoó](s|mos|is|n)?)$/u,
+            replacement_pattern: "ay$1"
+        }]
 };
 const orthographical_change_rules_general = {
     "mantener hiato": [
@@ -117,7 +127,7 @@ const orthographical_change_rules_general = {
         // aullar, aunar, aupar, maullar
         // This was added to support the idea that huir is regular, but unusual ortografía aplica
         { match_pattern: /au(([np]|ll)(o|as|a|an|e|es|en))$/, replacement_pattern: "aú$1" }
-    ]
+    ],
 };
 // Apply any orthographical changes to the given part of a verb conjugation or participle derivation
 export function applyOrthographicalChangesCommon(args) {
@@ -197,7 +207,7 @@ export function correctÑiYi(forma) {
 }
 export function getOrthographicChanges_IndPret3P(infinitivo, form) {
     const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
-    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
+    const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
     let changed = applyOrthographicalChangesToConjugatedForm(infinitivo, form, do_correct_diéresis, do_correct_ñi_yi);
     return changed;
 }
@@ -210,7 +220,8 @@ export function getOrthographicChanges(infinitivo, mood_tense, forms, suffixes, 
     const orthography = {};
     // perhaps this can be merged with other similar tests and changes
     const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll");
-    const do_correct_ñi_yi = infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
+    // FIX: these tests should be specified only once
+    const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir");
     for (const key in forms) {
         const gramatical_person = key;
         const changed_forms = applyToFormasConjugadas(forms[gramatical_person], (forma, i) => {

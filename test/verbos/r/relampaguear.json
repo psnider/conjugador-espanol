@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[relãmpaɣ̞eˈaɾ]",
+    "silabacion": "re-lam-pa-gue-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De relámpago y el sufijo -ear.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"relampaguear","gerundio":["relampagueando"],"participio":["relampagueado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["relampagueo"],"s2":["relampagueas"],"vos":["relampagueás"],"s3":["relampaguea"],"p1":["relampagueamos"],"p2":["relampagueáis"],"p3":["relampaguean"]},
+    "IndImp": {"s1":["relampagueaba"],"s2":["relampagueabas"],"vos":["relampagueabas"],"s3":["relampagueaba"],"p1":["relampagueábamos"],"p2":["relampagueabais"],"p3":["relampagueaban"]},
+    "IndPret": {"s1":["relampagueé"],"s2":["relampagueaste"],"vos":["relampagueaste"],"s3":["relampagueó"],"p1":["relampagueamos"],"p2":["relampagueasteis"],"p3":["relampaguearon"]},
+    "IndFut": {"s1":["relampaguearé"],"s2":["relampaguearás"],"vos":["relampaguearás"],"s3":["relampagueará"],"p1":["relampaguearemos"],"p2":["relampaguearéis"],"p3":["relampaguearán"]},
+    "IndCond": {"s1":["relampaguearía"],"s2":["relampaguearías"],"vos":["relampaguearías"],"s3":["relampaguearía"],"p1":["relampaguearíamos"],"p2":["relampaguearíais"],"p3":["relampaguearían"]},
+    "SubPres": {"s1":["relampaguee"],"s2":["relampaguees"],"vos":["relampaguees","relampagueés"],"s3":["relampaguee"],"p1":["relampagueemos"],"p2":["relampagueéis"],"p3":["relampagueen"]},
+    "SubImp": {"s1":["relampagueara","relampaguease"],"s2":["relampaguearas","relampagueases"],"vos":["relampaguearas","relampagueases"],"s3":["relampagueara","relampaguease"],"p1":["relampagueáramos","relampagueásemos"],"p2":["relampaguearais","relampagueaseis"],"p3":["relampaguearan","relampagueasen"]},
+    "SubFut": {"s1":["relampagueare"],"s2":["relampagueares"],"vos":["relampagueares"],"s3":["relampagueare"],"p1":["relampagueáremos"],"p2":["relampagueareis"],"p3":["relampaguearen"]},
+    "CmdPos": {"s2":["relampaguea"],"vos":["relampagueá"],"s3":["relampaguee"],"p1":["relampagueemos"],"p2":["relampaguead"],"p3":["relampagueen"]}
+  }
+}

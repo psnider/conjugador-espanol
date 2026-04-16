@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kojˈβ̞iɾ]",
+    "silabacion": "cohi-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cohibeō, cohibēre (\"contener, restringir, reprimir\"), compuesto de co-&nbsp;('con') y habeō, habēre&nbsp;('tener'). Compárense haber, exhibir, inhibir y prohibir.",
+    "modelos": ["prohibir"]
+  },
+  "formas_no_personales": {"infinitivo":"cohibir","gerundio":["cohibiendo"],"participio":["cohibido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cohíbo"],"s2":["cohíbes"],"vos":["cohibís"],"s3":["cohíbe"],"p1":["cohibimos"],"p2":["cohibís"],"p3":["cohíben"]},
+    "IndImp": {"s1":["cohibía"],"s2":["cohibías"],"vos":["cohibías"],"s3":["cohibía"],"p1":["cohibíamos"],"p2":["cohibíais"],"p3":["cohibían"]},
+    "IndPret": {"s1":["cohibí"],"s2":["cohibiste"],"vos":["cohibiste"],"s3":["cohibió"],"p1":["cohibimos"],"p2":["cohibisteis"],"p3":["cohibieron"]},
+    "IndFut": {"s1":["cohibiré"],"s2":["cohibirás"],"vos":["cohibirás"],"s3":["cohibirá"],"p1":["cohibiremos"],"p2":["cohibiréis"],"p3":["cohibirán"]},
+    "IndCond": {"s1":["cohibiría"],"s2":["cohibirías"],"vos":["cohibirías"],"s3":["cohibiría"],"p1":["cohibiríamos"],"p2":["cohibiríais"],"p3":["cohibirían"]},
+    "SubPres": {"s1":["cohíba"],"s2":["cohíbas"],"vos":[{"forma": "cohíbas","uso":"Riop."},{"forma":"cohibás","uso":"C.Am."}],"s3":["cohíba"],"p1":["cohibamos"],"p2":["cohibáis"],"p3":["cohíban"]},
+    "SubImp": {"s1":["cohibiera","cohibiese"],"s2":["cohibieras","cohibieses"],"vos":["cohibieras","cohibieses"],"s3":["cohibiera","cohibiese"],"p1":["cohibiéramos","cohibiésemos"],"p2":["cohibierais","cohibieseis"],"p3":["cohibieran","cohibiesen"]},
+    "SubFut": {"s1":["cohibiere"],"s2":["cohibieres"],"vos":["cohibieres"],"s3":["cohibiere"],"p1":["cohibiéremos"],"p2":["cohibiereis"],"p3":["cohibieren"]},
+    "CmdPos": {"s2":["cohíbe"],"vos":["cohibí"],"s3":["cohíba"],"p1":["cohibamos"],"p2":["cohibid"],"p3":["cohíban"]}
+  }
+}

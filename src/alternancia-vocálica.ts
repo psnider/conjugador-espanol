@@ -51,13 +51,14 @@ const domains_alternancia_vocálica: MoodTense[] = ["IndPres", "SubPres", "CmdPo
 export function getTemaConAlternanciaVocálica_IndPret3P(conj_and_deriv_rules: ConjugationAndDerivationRules, tema_sin_alternancia: string) : string {
     const {verb_family, morphological_rules} = conj_and_deriv_rules
     const alternancia_vocálica = morphological_rules?.de_modelo?.alternancia_vocálica || morphological_rules?.de_infinitivo?.alternancia_vocálica
+    const ponga_hiato = morphological_rules?.de_modelo?.ponga_hiato || morphological_rules?.de_infinitivo?.ponga_hiato
     const stem_changes_per_form = getStemChangesFromRule("IndPret", alternancia_vocálica)
     const stem_change_rule_id = stem_changes_per_form?.p3
     if (stem_change_rule_id) {
         const rule_description = stem_change_descriptions[stem_change_rule_id]
         if (rule_description) {
             if (!rule_description.only_for_ir_verbs || verb_family === "-ir") {
-                const changed = applyStemChangePattern(tema_sin_alternancia, rule_description)
+                const changed = applyStemChangePattern(tema_sin_alternancia, rule_description, ponga_hiato)
                 return changed
             }
         }
@@ -77,6 +78,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules: Conjugation
     if (!moodTenseIsBasedOnIndPret3PStem(mood_tense)) {
         const {verb_family, morphological_rules} = conj_and_deriv_rules
         const alternancia_vocálica = morphological_rules?.de_modelo?.alternancia_vocálica || morphological_rules?.de_infinitivo?.alternancia_vocálica
+        const ponga_hiato = morphological_rules?.de_modelo?.ponga_hiato || morphological_rules?.de_infinitivo?.ponga_hiato
         if (alternancia_vocálica) {
             const tema_presente_yo_del_modelo = morphological_rules?.de_modelo?.tema_presente_yo_del_modelo
             const sufijo_presente_yo = morphological_rules?.de_modelo?.sufijo_presente_yo
@@ -97,7 +99,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules: Conjugation
                             let updated = tema_sin_alternancia
                             if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
                                 if (tema_sin_alternancia) {
-                                    updated = applyStemChangePattern(tema_sin_alternancia, rule_description)
+                                    updated = applyStemChangePattern(tema_sin_alternancia, rule_description, ponga_hiato)
                                 }
                             }
                             changed_stems.vos = [updated]
@@ -112,7 +114,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules: Conjugation
                                 if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
                                     let changed
                                     if (tema_sin_alternancia) {
-                                        changed = applyStemChangePattern(tema_sin_alternancia, rule_description)
+                                        changed = applyStemChangePattern(tema_sin_alternancia, rule_description, ponga_hiato)
                                     }
                                     return changed || tema_sin_alternancia
                                 } else {
@@ -135,7 +137,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules: Conjugation
                                 if (!rule_description.only_for_ir_verbs || verb_family === "-ir") {
                                     const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias[gramatical_person]
                                     const changes = applyToFormasConjugadas(forma_conjugada_tema_sin_alternancia, (tema) => {
-                                        const changed = applyStemChangePattern(tema, rule_description)
+                                        const changed = applyStemChangePattern(tema, rule_description, ponga_hiato)
                                         return changed
                                     })
                                     if (!isValueless(changes)) {

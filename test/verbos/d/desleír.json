@@ -7,7 +7,7 @@
     "modelos": ["reír"]
   },
   "formas_no_personales": {"infinitivo":"desleír","gerundio":["desliendo"], "participio":["desleído"]},
-  "formas_personales": {
+  "formas_personales": { 
     "IndPres": {"s1":["deslío"],"s2":["deslíes"],"vos":["desleís"],"s3":["deslíe"],"p1":["desleímos"],"p2":["desleís"],"p3":["deslíen"]},
     "IndImp": {"s1":["desleía"],"s2":["desleías"],"vos":["desleías"],"s3":["desleía"],"p1":["desleíamos"],"p2":["desleíais"],"p3":["desleían"]},
     "IndPret": {"s1":["desleí"],"s2":["desleíste"],"vos":["desleíste"],"s3":["deslió"],"p1":["desleímos"],"p2":["desleísteis"],"p3":["deslieron"]},

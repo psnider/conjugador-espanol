@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ẽmˈplaɾ]",
+    "silabacion": "tem-plar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín temperare.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"templar","gerundio":["templando"],"participio":["templado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["templo","tiemplo"],"s2":["templas","tiemplas"],"vos":["templás"],"s3":["templa","tiempla"],"p1":["templamos"],"p2":["templáis"],"p3":["templan","tiemplan"]},
+    "IndImp": {"s1":["templaba"],"s2":["templabas"],"vos":["templabas"],"s3":["templaba"],"p1":["templábamos"],"p2":["templabais"],"p3":["templaban"]},
+    "IndPret": {"s1":["templé"],"s2":["templaste"],"vos":["templaste"],"s3":["templó"],"p1":["templamos"],"p2":["templasteis"],"p3":["templaron"]},
+    "IndFut": {"s1":["templaré"],"s2":["templarás"],"vos":["templarás"],"s3":["templará"],"p1":["templaremos"],"p2":["templaréis"],"p3":["templarán"]},
+    "IndCond": {"s1":["templaría"],"s2":["templarías"],"vos":["templarías"],"s3":["templaría"],"p1":["templaríamos"],"p2":["templaríais"],"p3":["templarían"]},
+    "SubPres": {"s1":["temple","tiemple"],"s2":["temples","tiemples"],"vos":["temples","templés","tiemples"],"s3":["temple","tiemple"],"p1":["templemos"],"p2":["templéis"],"p3":["templen","tiemplen"]},
+    "SubImp": {"s1":["templara","templase"],"s2":["templaras","templases"],"vos":["templaras","templases"],"s3":["templara","templase"],"p1":["templáramos","templásemos"],"p2":["templarais","templaseis"],"p3":["templaran","templasen"]},
+    "SubFut": {"s1":["templare"],"s2":["templares"],"vos":["templares"],"s3":["templare"],"p1":["templáremos"],"p2":["templareis"],"p3":["templaren"]},
+    "CmdPos": {"s2":["templa","tiempla"],"vos":["templá"],"s3":["temple","tiemple"],"p1":["templemos"],"p2":["templad"],"p3":["templen","tiemplen"]}
+  }
+}

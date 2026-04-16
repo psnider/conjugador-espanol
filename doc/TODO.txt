@@ -1,10 +1,5 @@
 # This release
-- added more verbs
-- disallow invalid chars into input, and convert to lowercase
-- remove CmdNeg
-- present both vos forms of SubPres
-- simplificar getPreterite3PStem() y llamelo en resolveConjugationClass()
-
+- all verbs conjugate correctly and match the saved reference conjugations 
 
 # Next release
 - add acknowledgements to es.wictionary and to DEM
@@ -16,14 +11,7 @@
 
 
 # luego
-- desvaír
 - abolir no usa todos los tiempos
-  considera que algunos verbos no tienen todas las formas del paradigma de conjugación (defectivos)
-- REMOVER ACENTO: criar
-- PONER ACENTO: romper diptongo
-  - anticuar, consensuar, menstruar
-  - descafeinar
-  - aislar, amohinar, aullar, aunar, aupar, enraizar, maullar
     (ojo ! auscultar, autoinfligir)
   - desvaír
 - PONER ACENTO: romper diptongo implicado por LL

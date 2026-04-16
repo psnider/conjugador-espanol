@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskaɾˈt͡ʃaɾ]",
+    "silabacion": "es-car-char",
+    "acentuacion": "aguda",
+    "etimologia": "De escarcha y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"escarchar","gerundio":["escarchando"],"participio":["escarchado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["escarcho"],"s2":["escarchas"],"vos":["escarchás"],"s3":["escarcha"],"p1":["escarchamos"],"p2":["escarcháis"],"p3":["escarchan"]},
+    "IndImp": {"s1":["escarchaba"],"s2":["escarchabas"],"vos":["escarchabas"],"s3":["escarchaba"],"p1":["escarchábamos"],"p2":["escarchabais"],"p3":["escarchaban"]},
+    "IndPret": {"s1":["escarché"],"s2":["escarchaste"],"vos":["escarchaste"],"s3":["escarchó"],"p1":["escarchamos"],"p2":["escarchasteis"],"p3":["escarcharon"]},
+    "IndFut": {"s1":["escarcharé"],"s2":["escarcharás"],"vos":["escarcharás"],"s3":["escarchará"],"p1":["escarcharemos"],"p2":["escarcharéis"],"p3":["escarcharán"]},
+    "IndCond": {"s1":["escarcharía"],"s2":["escarcharías"],"vos":["escarcharías"],"s3":["escarcharía"],"p1":["escarcharíamos"],"p2":["escarcharíais"],"p3":["escarcharían"]},
+    "SubPres": {"s1":["escarche"],"s2":["escarches"],"vos":["escarches","escarchés"],"s3":["escarche"],"p1":["escarchemos"],"p2":["escarchéis"],"p3":["escarchen"]},
+    "SubImp": {"s1":["escarchara","escarchase"],"s2":["escarcharas","escarchases"],"vos":["escarcharas","escarchases"],"s3":["escarchara","escarchase"],"p1":["escarcháramos","escarchásemos"],"p2":["escarcharais","escarchaseis"],"p3":["escarcharan","escarchasen"]},
+    "SubFut": {"s1":["escarchare"],"s2":["escarchares"],"vos":["escarchares"],"s3":["escarchare"],"p1":["escarcháremos"],"p2":["escarchareis"],"p3":["escarcharen"]},
+    "CmdPos": {"s2":["escarcha"],"vos":["escarchá"],"s3":["escarche"],"p1":["escarchemos"],"p2":["escarchad"],"p3":["escarchen"]}
+  }
+}
