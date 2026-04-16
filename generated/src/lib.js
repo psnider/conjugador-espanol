@@ -5,7 +5,7 @@ export const verb_terminations_all = ["ar", "er", "ir", "ír"];
 export const persons_standard = ["s1", "s2", "s3", "p1", "p2", "p3"];
 export const persons_w_vos = ["s1", "s2", "s3", "p1", "p2", "p3", "vos"];
 export const persons_w_vos_index = { s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1 };
-export const mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"];
+export const mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos", "CmdNeg"];
 export function assert(condition, message) {
     if (!condition) {
         throw new Error(message);

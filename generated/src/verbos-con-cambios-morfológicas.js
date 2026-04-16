@@ -2052,6 +2052,9 @@ export const verbos_con_cambios_morfológicos = {
     estafar: {
       ok:true,
       },
+    estancar: {
+      ok:true,
+      },
     estandarizar: {
       ok:true,
       },
@@ -2916,6 +2919,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
        alternancia_vocálica: "e:ie", impersonal: "natural" },
     nombrar: {
+      ok:true,
+      },
+    normalizar: {
       ok:true,
       },
     notar: {
@@ -4028,6 +4034,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     tatuar: {
+      ok:true,
+      },
+    teclear: {
       ok:true,
       },
     temblar: {

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ãŋˈkaɾ]",
+    "silabacion": "es-tan-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar extancare, a su vez del celta *ektankō (\"sujetar, fijar\").[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"estancar","gerundio":["estancando"],"participio":["estancado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estanco"],"s2":["estancas"],"vos":["estancás"],"s3":["estanca"],"p1":["estancamos"],"p2":["estancáis"],"p3":["estancan"]},
+    "IndImp": {"s1":["estancaba"],"s2":["estancabas"],"vos":["estancabas"],"s3":["estancaba"],"p1":["estancábamos"],"p2":["estancabais"],"p3":["estancaban"]},
+    "IndPret": {"s1":["estanqué"],"s2":["estancaste"],"vos":["estancaste"],"s3":["estancó"],"p1":["estancamos"],"p2":["estancasteis"],"p3":["estancaron"]},
+    "IndFut": {"s1":["estancaré"],"s2":["estancarás"],"vos":["estancarás"],"s3":["estancará"],"p1":["estancaremos"],"p2":["estancaréis"],"p3":["estancarán"]},
+    "IndCond": {"s1":["estancaría"],"s2":["estancarías"],"vos":["estancarías"],"s3":["estancaría"],"p1":["estancaríamos"],"p2":["estancaríais"],"p3":["estancarían"]},
+    "SubPres": {"s1":["estanque"],"s2":["estanques"],"vos":["estanques","estanqués"],"s3":["estanque"],"p1":["estanquemos"],"p2":["estanquéis"],"p3":["estanquen"]},
+    "SubImp": {"s1":["estancara","estancase"],"s2":["estancaras","estancases"],"vos":["estancaras","estancases"],"s3":["estancara","estancase"],"p1":["estancáramos","estancásemos"],"p2":["estancarais","estancaseis"],"p3":["estancaran","estancasen"]},
+    "SubFut": {"s1":["estancare"],"s2":["estancares"],"vos":["estancares"],"s3":["estancare"],"p1":["estancáremos"],"p2":["estancareis"],"p3":["estancaren"]},
+    "CmdPos": {"s2":["estanca"],"vos":["estancá"],"s3":["estanque"],"p1":["estanquemos"],"p2":["estancad"],"p3":["estanquen"]}
+  }
+}

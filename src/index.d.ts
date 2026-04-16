@@ -30,6 +30,7 @@ interface MoodTenseMap<T> {
     SubFut?: T
 
     CmdPos?: T
+    CmdNeg?: T
 }
 
 

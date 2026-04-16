@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ekleˈaɾ]",
+    "silabacion": "te-cle-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De tecla y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"teclear","gerundio":["tecleando"],"participio":["tecleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tecleo"],"s2":["tecleas"],"vos":["tecleás"],"s3":["teclea"],"p1":["tecleamos"],"p2":["tecleáis"],"p3":["teclean"]},
+    "IndImp": {"s1":["tecleaba"],"s2":["tecleabas"],"vos":["tecleabas"],"s3":["tecleaba"],"p1":["tecleábamos"],"p2":["tecleabais"],"p3":["tecleaban"]},
+    "IndPret": {"s1":["tecleé"],"s2":["tecleaste"],"vos":["tecleaste"],"s3":["tecleó"],"p1":["tecleamos"],"p2":["tecleasteis"],"p3":["teclearon"]},
+    "IndFut": {"s1":["teclearé"],"s2":["teclearás"],"vos":["teclearás"],"s3":["tecleará"],"p1":["teclearemos"],"p2":["teclearéis"],"p3":["teclearán"]},
+    "IndCond": {"s1":["teclearía"],"s2":["teclearías"],"vos":["teclearías"],"s3":["teclearía"],"p1":["teclearíamos"],"p2":["teclearíais"],"p3":["teclearían"]},
+    "SubPres": {"s1":["teclee"],"s2":["teclees"],"vos":["teclees","tecleés"],"s3":["teclee"],"p1":["tecleemos"],"p2":["tecleéis"],"p3":["tecleen"]},
+    "SubImp": {"s1":["tecleara","teclease"],"s2":["teclearas","tecleases"],"vos":["teclearas","tecleases"],"s3":["tecleara","teclease"],"p1":["tecleáramos","tecleásemos"],"p2":["teclearais","tecleaseis"],"p3":["teclearan","tecleasen"]},
+    "SubFut": {"s1":["tecleare"],"s2":["tecleares"],"vos":["tecleares"],"s3":["tecleare"],"p1":["tecleáremos"],"p2":["tecleareis"],"p3":["teclearen"]},
+    "CmdPos": {"s2":["teclea"],"vos":["tecleá"],"s3":["teclee"],"p1":["tecleemos"],"p2":["teclead"],"p3":["tecleen"]}
+  }
+}

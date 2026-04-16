@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[noɾmaliˈsaɾ]",
+    "silabacion": "nor-ma-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De normal y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"normalizar","gerundio":["normalizando"],"participio":["normalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["normalizo"],"s2":["normalizas"],"vos":["normalizás"],"s3":["normaliza"],"p1":["normalizamos"],"p2":["normalizáis"],"p3":["normalizan"]},
+    "IndImp": {"s1":["normalizaba"],"s2":["normalizabas"],"vos":["normalizabas"],"s3":["normalizaba"],"p1":["normalizábamos"],"p2":["normalizabais"],"p3":["normalizaban"]},
+    "IndPret": {"s1":["normalicé"],"s2":["normalizaste"],"vos":["normalizaste"],"s3":["normalizó"],"p1":["normalizamos"],"p2":["normalizasteis"],"p3":["normalizaron"]},
+    "IndFut": {"s1":["normalizaré"],"s2":["normalizarás"],"vos":["normalizarás"],"s3":["normalizará"],"p1":["normalizaremos"],"p2":["normalizaréis"],"p3":["normalizarán"]},
+    "IndCond": {"s1":["normalizaría"],"s2":["normalizarías"],"vos":["normalizarías"],"s3":["normalizaría"],"p1":["normalizaríamos"],"p2":["normalizaríais"],"p3":["normalizarían"]},
+    "SubPres": {"s1":["normalice"],"s2":["normalices"],"vos":["normalices","normalicés"],"s3":["normalice"],"p1":["normalicemos"],"p2":["normalicéis"],"p3":["normalicen"]},
+    "SubImp": {"s1":["normalizara","normalizase"],"s2":["normalizaras","normalizases"],"vos":["normalizaras","normalizases"],"s3":["normalizara","normalizase"],"p1":["normalizáramos","normalizásemos"],"p2":["normalizarais","normalizaseis"],"p3":["normalizaran","normalizasen"]},
+    "SubFut": {"s1":["normalizare"],"s2":["normalizares"],"vos":["normalizares"],"s3":["normalizare"],"p1":["normalizáremos"],"p2":["normalizareis"],"p3":["normalizaren"]},
+    "CmdPos": {"s2":["normaliza"],"vos":["normalizá"],"s3":["normalice"],"p1":["normalicemos"],"p2":["normalizad"],"p3":["normalicen"]}
+  }
+}

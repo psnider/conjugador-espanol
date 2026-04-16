@@ -591,7 +591,6 @@ export function getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets
     return suffixes;
 }
 export function getSuffixFor3p(conj_and_deriv_rules, mood_tense, ancestor_rule_sets) {
-    let accumulated_suffixes = { ...ancestor_rule_sets[0].suffixes };
     const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets);
     const strong_pretérito_suffixes = getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense);
     const suffixes = { p3: strong_pretérito_suffixes?.p3 || regular_suffixes.p3 };

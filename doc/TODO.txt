@@ -1,5 +1,5 @@
 # This release
-- all verbs conjugate correctly and match the saved reference conjugations 
+- BUG: CmdNeg is not correct 
 
 # Next release
 - add acknowledgements to es.wictionary and to DEM
