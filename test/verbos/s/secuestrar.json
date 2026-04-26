@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sekwesˈt̪ɾaɾ]",
+    "silabacion": "se-cues-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sequestrare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"secuestrar","gerundio":["secuestrando"],"participio":["secuestrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["secuestro"],"s2":["secuestras"],"vos":["secuestrás"],"s3":["secuestra"],"p1":["secuestramos"],"p2":["secuestráis"],"p3":["secuestran"]},
+    "IndImp": {"s1":["secuestraba"],"s2":["secuestrabas"],"vos":["secuestrabas"],"s3":["secuestraba"],"p1":["secuestrábamos"],"p2":["secuestrabais"],"p3":["secuestraban"]},
+    "IndPret": {"s1":["secuestré"],"s2":["secuestraste"],"vos":["secuestraste"],"s3":["secuestró"],"p1":["secuestramos"],"p2":["secuestrasteis"],"p3":["secuestraron"]},
+    "IndFut": {"s1":["secuestraré"],"s2":["secuestrarás"],"vos":["secuestrarás"],"s3":["secuestrará"],"p1":["secuestraremos"],"p2":["secuestraréis"],"p3":["secuestrarán"]},
+    "IndCond": {"s1":["secuestraría"],"s2":["secuestrarías"],"vos":["secuestrarías"],"s3":["secuestraría"],"p1":["secuestraríamos"],"p2":["secuestraríais"],"p3":["secuestrarían"]},
+    "SubPres": {"s1":["secuestre"],"s2":["secuestres"],"vos":["secuestres","secuestrés"],"s3":["secuestre"],"p1":["secuestremos"],"p2":["secuestréis"],"p3":["secuestren"]},
+    "SubImp": {"s1":["secuestrara","secuestrase"],"s2":["secuestraras","secuestrases"],"vos":["secuestraras","secuestrases"],"s3":["secuestrara","secuestrase"],"p1":["secuestráramos","secuestrásemos"],"p2":["secuestrarais","secuestraseis"],"p3":["secuestraran","secuestrasen"]},
+    "SubFut": {"s1":["secuestrare"],"s2":["secuestrares"],"vos":["secuestrares"],"s3":["secuestrare"],"p1":["secuestráremos"],"p2":["secuestrareis"],"p3":["secuestraren"]},
+    "CmdPos": {"s2":["secuestra"],"vos":["secuestrá"],"s3":["secuestre"],"p1":["secuestremos"],"p2":["secuestrad"],"p3":["secuestren"]}
+  }
+}

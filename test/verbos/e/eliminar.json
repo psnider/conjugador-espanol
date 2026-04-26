@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[elimiˈnaɾ]",
+    "silabacion": "e-li-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín elimināre ('expulsar'), sacar de casa.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"eliminar","gerundio":["eliminando"],"participio":["eliminado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["elimino"],"s2":["eliminas"],"vos":["eliminás"],"s3":["elimina"],"p1":["eliminamos"],"p2":["elimináis"],"p3":["eliminan"]},
+    "IndImp": {"s1":["eliminaba"],"s2":["eliminabas"],"vos":["eliminabas"],"s3":["eliminaba"],"p1":["eliminábamos"],"p2":["eliminabais"],"p3":["eliminaban"]},
+    "IndPret": {"s1":["eliminé"],"s2":["eliminaste"],"vos":["eliminaste"],"s3":["eliminó"],"p1":["eliminamos"],"p2":["eliminasteis"],"p3":["eliminaron"]},
+    "IndFut": {"s1":["eliminaré"],"s2":["eliminarás"],"vos":["eliminarás"],"s3":["eliminará"],"p1":["eliminaremos"],"p2":["eliminaréis"],"p3":["eliminarán"]},
+    "IndCond": {"s1":["eliminaría"],"s2":["eliminarías"],"vos":["eliminarías"],"s3":["eliminaría"],"p1":["eliminaríamos"],"p2":["eliminaríais"],"p3":["eliminarían"]},
+    "SubPres": {"s1":["elimine"],"s2":["elimines"],"vos":["elimines","eliminés"],"s3":["elimine"],"p1":["eliminemos"],"p2":["eliminéis"],"p3":["eliminen"]},
+    "SubImp": {"s1":["eliminara","eliminase"],"s2":["eliminaras","eliminases"],"vos":["eliminaras","eliminases"],"s3":["eliminara","eliminase"],"p1":["elimináramos","eliminásemos"],"p2":["eliminarais","eliminaseis"],"p3":["eliminaran","eliminasen"]},
+    "SubFut": {"s1":["eliminare"],"s2":["eliminares"],"vos":["eliminares"],"s3":["eliminare"],"p1":["elimináremos"],"p2":["eliminareis"],"p3":["eliminaren"]},
+    "CmdPos": {"s2":["elimina"],"vos":["eliminá"],"s3":["elimine"],"p1":["eliminemos"],"p2":["eliminad"],"p3":["eliminen"]}
+  }
+}

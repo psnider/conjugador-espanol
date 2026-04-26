@@ -12,6 +12,8 @@ let reportErrorButton;
 let lastInfinitive = "";
 let latest_conjugated_forms = {};
 function updateTableRows(newRows) {
+    // FIX: clear any old message, this should not be necessary, resolve difference
+    conjugationBodyDiv.innerHTML = "";
     const tbody = document.getElementById("conjugation-body");
     const existingRows = Array.from(tbody.querySelectorAll("tr"));
     const max = Math.max(existingRows.length, newRows.length);
@@ -79,12 +81,12 @@ function handleConjugate() {
     }
     else {
         const conj = conjugateVerb(infinitive, mood_tense);
+        latest_conjugated_forms = conj?.forms;
         if (!conj || !conj.forms) {
             const innerHTML = "<p>No hay formas para este verbo / modo-tiempo.</p>";
             conjugationBodyDiv.innerHTML = innerHTML;
             return;
         }
-        latest_conjugated_forms = conj.forms;
         renderConjugationTable(infinitive, mood_tense, conj.forms);
     }
 }

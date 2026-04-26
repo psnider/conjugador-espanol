@@ -1,5 +1,5 @@
 import { FormaConjugada, GrammaticalPerson, StemChangeRuleId } from "../src/index.js"
-import { mood_tenses } from "../src/lib.js"
+import { getForma, mood_tenses } from "../src/lib.js"
 import { stem_change_descriptions, stem_change_patterns } from "../src/stem-changes.js"
 
 
@@ -23,7 +23,7 @@ function validateStemChangePatterns() {
                         const stem_change_rule_ids = <FormaConjugada[]> stem_changes[<GrammaticalPerson>person]
                         if (stem_change_rule_ids) {
                             for (const forma_conjugada of stem_change_rule_ids) {
-                                const stem_change_rule_id = <StemChangeRuleId> ((typeof forma_conjugada === "string") ? forma_conjugada : forma_conjugada.forma)
+                                const stem_change_rule_id = <StemChangeRuleId> getForma(forma_conjugada)
                                 if (!allowed_rule_ids.has(stem_change_rule_id)) {
                                     throw new Error(
                                         `stem_change_patterns.${pattern_id}.${mood_tense}.${person}: rule ${stem_change_rule_id} not in transforms`

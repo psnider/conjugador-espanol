@@ -227,7 +227,7 @@ export function applyStemChangePattern(verb_part, stem_change_description, ponga
 // }
 // Get gerund with any stem changes.
 export function applyStemChangeToGerundStem(args) {
-    const { verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, rules_applied } = args;
+    const { verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, cambios } = args;
     let gerund_stem = args.gerund_stem;
     if (gerundio_tema_cambio) {
         const stem_change_description = stem_change_descriptions[gerundio_tema_cambio];
@@ -240,7 +240,7 @@ export function applyStemChangeToGerundStem(args) {
         }
     }
     if (gerund_stem !== args.gerund_stem) {
-        rules_applied.push({ gerund_stem_change: gerund_stem });
+        cambios.gerundio.push({ regla: gerundio_tema_cambio, temas: [gerund_stem] });
     }
     return gerund_stem;
 }

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roˈsaɾ]",
+    "silabacion": "ro-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo roçar, del latín vulgar ruptiāre.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"rozar","gerundio":["rozando"],"participio":["rozado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rozo"],"s2":["rozas"],"vos":["rozás"],"s3":["roza"],"p1":["rozamos"],"p2":["rozáis"],"p3":["rozan"]},
+    "IndImp": {"s1":["rozaba"],"s2":["rozabas"],"vos":["rozabas"],"s3":["rozaba"],"p1":["rozábamos"],"p2":["rozabais"],"p3":["rozaban"]},
+    "IndPret": {"s1":["rocé"],"s2":["rozaste"],"vos":["rozaste"],"s3":["rozó"],"p1":["rozamos"],"p2":["rozasteis"],"p3":["rozaron"]},
+    "IndFut": {"s1":["rozaré"],"s2":["rozarás"],"vos":["rozarás"],"s3":["rozará"],"p1":["rozaremos"],"p2":["rozaréis"],"p3":["rozarán"]},
+    "IndCond": {"s1":["rozaría"],"s2":["rozarías"],"vos":["rozarías"],"s3":["rozaría"],"p1":["rozaríamos"],"p2":["rozaríais"],"p3":["rozarían"]},
+    "SubPres": {"s1":["roce"],"s2":["roces"],"vos":["roces","rocés"],"s3":["roce"],"p1":["rocemos"],"p2":["rocéis"],"p3":["rocen"]},
+    "SubImp": {"s1":["rozara","rozase"],"s2":["rozaras","rozases"],"vos":["rozaras","rozases"],"s3":["rozara","rozase"],"p1":["rozáramos","rozásemos"],"p2":["rozarais","rozaseis"],"p3":["rozaran","rozasen"]},
+    "SubFut": {"s1":["rozare"],"s2":["rozares"],"vos":["rozares"],"s3":["rozare"],"p1":["rozáremos"],"p2":["rozareis"],"p3":["rozaren"]},
+    "CmdPos": {"s2":["roza"],"vos":["rozá"],"s3":["roce"],"p1":["rocemos"],"p2":["rozad"],"p3":["rocen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[arajˈɣ̞aɾ]",
+    "silabacion": "a-rrai-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"arraigar","gerundio":["arraigando"],"participio":["arraigado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arraigo"],"s2":["arraigas"],"vos":["arraigás"],"s3":["arraiga"],"p1":["arraigamos"],"p2":["arraigáis"],"p3":["arraigan"]},
+    "IndImp": {"s1":["arraigaba"],"s2":["arraigabas"],"vos":["arraigabas"],"s3":["arraigaba"],"p1":["arraigábamos"],"p2":["arraigabais"],"p3":["arraigaban"]},
+    "IndPret": {"s1":["arraigué"],"s2":["arraigaste"],"vos":["arraigaste"],"s3":["arraigó"],"p1":["arraigamos"],"p2":["arraigasteis"],"p3":["arraigaron"]},
+    "IndFut": {"s1":["arraigaré"],"s2":["arraigarás"],"vos":["arraigarás"],"s3":["arraigará"],"p1":["arraigaremos"],"p2":["arraigaréis"],"p3":["arraigarán"]},
+    "IndCond": {"s1":["arraigaría"],"s2":["arraigarías"],"vos":["arraigarías"],"s3":["arraigaría"],"p1":["arraigaríamos"],"p2":["arraigaríais"],"p3":["arraigarían"]},
+    "SubPres": {"s1":["arraigue"],"s2":["arraigues"],"vos":["arraigues","arraigués"],"s3":["arraigue"],"p1":["arraiguemos"],"p2":["arraiguéis"],"p3":["arraiguen"]},
+    "SubImp": {"s1":["arraigara","arraigase"],"s2":["arraigaras","arraigases"],"vos":["arraigaras","arraigases"],"s3":["arraigara","arraigase"],"p1":["arraigáramos","arraigásemos"],"p2":["arraigarais","arraigaseis"],"p3":["arraigaran","arraigasen"]},
+    "SubFut": {"s1":["arraigare"],"s2":["arraigares"],"vos":["arraigares"],"s3":["arraigare"],"p1":["arraigáremos"],"p2":["arraigareis"],"p3":["arraigaren"]},
+    "CmdPos": {"s2":["arraiga"],"vos":["arraigá"],"s3":["arraigue"],"p1":["arraiguemos"],"p2":["arraigad"],"p3":["arraiguen"]}
+  }
+}

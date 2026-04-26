@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pat̪eˈaɾ]",
+    "silabacion": "pa-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pata.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"patear","gerundio":["pateando"],"participio":["pateado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pateo"],"s2":["pateas"],"vos":["pateás"],"s3":["patea"],"p1":["pateamos"],"p2":["pateáis"],"p3":["patean"]},
+    "IndImp": {"s1":["pateaba"],"s2":["pateabas"],"vos":["pateabas"],"s3":["pateaba"],"p1":["pateábamos"],"p2":["pateabais"],"p3":["pateaban"]},
+    "IndPret": {"s1":["pateé"],"s2":["pateaste"],"vos":["pateaste"],"s3":["pateó"],"p1":["pateamos"],"p2":["pateasteis"],"p3":["patearon"]},
+    "IndFut": {"s1":["patearé"],"s2":["patearás"],"vos":["patearás"],"s3":["pateará"],"p1":["patearemos"],"p2":["patearéis"],"p3":["patearán"]},
+    "IndCond": {"s1":["patearía"],"s2":["patearías"],"vos":["patearías"],"s3":["patearía"],"p1":["patearíamos"],"p2":["patearíais"],"p3":["patearían"]},
+    "SubPres": {"s1":["patee"],"s2":["patees"],"vos":["patees","pateés"],"s3":["patee"],"p1":["pateemos"],"p2":["pateéis"],"p3":["pateen"]},
+    "SubImp": {"s1":["pateara","patease"],"s2":["patearas","pateases"],"vos":["patearas","pateases"],"s3":["pateara","patease"],"p1":["pateáramos","pateásemos"],"p2":["patearais","pateaseis"],"p3":["patearan","pateasen"]},
+    "SubFut": {"s1":["pateare"],"s2":["pateares"],"vos":["pateares"],"s3":["pateare"],"p1":["pateáremos"],"p2":["pateareis"],"p3":["patearen"]},
+    "CmdPos": {"s2":["patea"],"vos":["pateá"],"s3":["patee"],"p1":["pateemos"],"p2":["patead"],"p3":["pateen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suˈmaɾ]",
+    "silabacion": "su-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín summare (summāre), de summa; \"suma\".",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sumar","gerundio":["sumando"],"participio":["sumado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sumo"],"s2":["sumas"],"vos":["sumás"],"s3":["suma"],"p1":["sumamos"],"p2":["sumáis"],"p3":["suman"]},
+    "IndImp": {"s1":["sumaba"],"s2":["sumabas"],"vos":["sumabas"],"s3":["sumaba"],"p1":["sumábamos"],"p2":["sumabais"],"p3":["sumaban"]},
+    "IndPret": {"s1":["sumé"],"s2":["sumaste"],"vos":["sumaste"],"s3":["sumó"],"p1":["sumamos"],"p2":["sumasteis"],"p3":["sumaron"]},
+    "IndFut": {"s1":["sumaré"],"s2":["sumarás"],"vos":["sumarás"],"s3":["sumará"],"p1":["sumaremos"],"p2":["sumaréis"],"p3":["sumarán"]},
+    "IndCond": {"s1":["sumaría"],"s2":["sumarías"],"vos":["sumarías"],"s3":["sumaría"],"p1":["sumaríamos"],"p2":["sumaríais"],"p3":["sumarían"]},
+    "SubPres": {"s1":["sume"],"s2":["sumes"],"vos":["sumes","sumés"],"s3":["sume"],"p1":["sumemos"],"p2":["suméis"],"p3":["sumen"]},
+    "SubImp": {"s1":["sumara","sumase"],"s2":["sumaras","sumases"],"vos":["sumaras","sumases"],"s3":["sumara","sumase"],"p1":["sumáramos","sumásemos"],"p2":["sumarais","sumaseis"],"p3":["sumaran","sumasen"]},
+    "SubFut": {"s1":["sumare"],"s2":["sumares"],"vos":["sumares"],"s3":["sumare"],"p1":["sumáremos"],"p2":["sumareis"],"p3":["sumaren"]},
+    "CmdPos": {"s2":["suma"],"vos":["sumá"],"s3":["sume"],"p1":["sumemos"],"p2":["sumad"],"p3":["sumen"]}
+  }
+}

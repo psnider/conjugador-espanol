@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾamiˈt̪aɾ]",
+    "silabacion": "tra-mi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De trámite y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tramitar","gerundio":["tramitando"],"participio":["tramitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tramito"],"s2":["tramitas"],"vos":["tramitás"],"s3":["tramita"],"p1":["tramitamos"],"p2":["tramitáis"],"p3":["tramitan"]},
+    "IndImp": {"s1":["tramitaba"],"s2":["tramitabas"],"vos":["tramitabas"],"s3":["tramitaba"],"p1":["tramitábamos"],"p2":["tramitabais"],"p3":["tramitaban"]},
+    "IndPret": {"s1":["tramité"],"s2":["tramitaste"],"vos":["tramitaste"],"s3":["tramitó"],"p1":["tramitamos"],"p2":["tramitasteis"],"p3":["tramitaron"]},
+    "IndFut": {"s1":["tramitaré"],"s2":["tramitarás"],"vos":["tramitarás"],"s3":["tramitará"],"p1":["tramitaremos"],"p2":["tramitaréis"],"p3":["tramitarán"]},
+    "IndCond": {"s1":["tramitaría"],"s2":["tramitarías"],"vos":["tramitarías"],"s3":["tramitaría"],"p1":["tramitaríamos"],"p2":["tramitaríais"],"p3":["tramitarían"]},
+    "SubPres": {"s1":["tramite"],"s2":["tramites"],"vos":["tramites","tramités"],"s3":["tramite"],"p1":["tramitemos"],"p2":["tramitéis"],"p3":["tramiten"]},
+    "SubImp": {"s1":["tramitara","tramitase"],"s2":["tramitaras","tramitases"],"vos":["tramitaras","tramitases"],"s3":["tramitara","tramitase"],"p1":["tramitáramos","tramitásemos"],"p2":["tramitarais","tramitaseis"],"p3":["tramitaran","tramitasen"]},
+    "SubFut": {"s1":["tramitare"],"s2":["tramitares"],"vos":["tramitares"],"s3":["tramitare"],"p1":["tramitáremos"],"p2":["tramitareis"],"p3":["tramitaren"]},
+    "CmdPos": {"s2":["tramita"],"vos":["tramitá"],"s3":["tramite"],"p1":["tramitemos"],"p2":["tramitad"],"p3":["tramiten"]}
+  }
+}

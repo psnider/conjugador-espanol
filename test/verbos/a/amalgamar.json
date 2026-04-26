@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amalɣ̞aˈmaɾ]",
+    "silabacion": "a-mal-ga-mar",
+    "acentuacion": "aguda",
+    "etimologia": "De amalgama",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amalgamar","gerundio":["amalgamando"],"participio":["amalgamado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amalgamo"],"s2":["amalgamas"],"vos":["amalgamás"],"s3":["amalgama"],"p1":["amalgamamos"],"p2":["amalgamáis"],"p3":["amalgaman"]},
+    "IndImp": {"s1":["amalgamaba"],"s2":["amalgamabas"],"vos":["amalgamabas"],"s3":["amalgamaba"],"p1":["amalgamábamos"],"p2":["amalgamabais"],"p3":["amalgamaban"]},
+    "IndPret": {"s1":["amalgamé"],"s2":["amalgamaste"],"vos":["amalgamaste"],"s3":["amalgamó"],"p1":["amalgamamos"],"p2":["amalgamasteis"],"p3":["amalgamaron"]},
+    "IndFut": {"s1":["amalgamaré"],"s2":["amalgamarás"],"vos":["amalgamarás"],"s3":["amalgamará"],"p1":["amalgamaremos"],"p2":["amalgamaréis"],"p3":["amalgamarán"]},
+    "IndCond": {"s1":["amalgamaría"],"s2":["amalgamarías"],"vos":["amalgamarías"],"s3":["amalgamaría"],"p1":["amalgamaríamos"],"p2":["amalgamaríais"],"p3":["amalgamarían"]},
+    "SubPres": {"s1":["amalgame"],"s2":["amalgames"],"vos":["amalgames","amalgamés"],"s3":["amalgame"],"p1":["amalgamemos"],"p2":["amalgaméis"],"p3":["amalgamen"]},
+    "SubImp": {"s1":["amalgamara","amalgamase"],"s2":["amalgamaras","amalgamases"],"vos":["amalgamaras","amalgamases"],"s3":["amalgamara","amalgamase"],"p1":["amalgamáramos","amalgamásemos"],"p2":["amalgamarais","amalgamaseis"],"p3":["amalgamaran","amalgamasen"]},
+    "SubFut": {"s1":["amalgamare"],"s2":["amalgamares"],"vos":["amalgamares"],"s3":["amalgamare"],"p1":["amalgamáremos"],"p2":["amalgamareis"],"p3":["amalgamaren"]},
+    "CmdPos": {"s2":["amalgama"],"vos":["amalgamá"],"s3":["amalgame"],"p1":["amalgamemos"],"p2":["amalgamad"],"p3":["amalgamen"]}
+  }
+}

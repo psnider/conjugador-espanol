@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bomiˈt̪aɾ]",
+    "silabacion": "vo-mi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vomitāre, intensivo de vomĕre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vomitar","gerundio":["vomitando"],"participio":["vomitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vomito"],"s2":["vomitas"],"vos":["vomitás"],"s3":["vomita"],"p1":["vomitamos"],"p2":["vomitáis"],"p3":["vomitan"]},
+    "IndImp": {"s1":["vomitaba"],"s2":["vomitabas"],"vos":["vomitabas"],"s3":["vomitaba"],"p1":["vomitábamos"],"p2":["vomitabais"],"p3":["vomitaban"]},
+    "IndPret": {"s1":["vomité"],"s2":["vomitaste"],"vos":["vomitaste"],"s3":["vomitó"],"p1":["vomitamos"],"p2":["vomitasteis"],"p3":["vomitaron"]},
+    "IndFut": {"s1":["vomitaré"],"s2":["vomitarás"],"vos":["vomitarás"],"s3":["vomitará"],"p1":["vomitaremos"],"p2":["vomitaréis"],"p3":["vomitarán"]},
+    "IndCond": {"s1":["vomitaría"],"s2":["vomitarías"],"vos":["vomitarías"],"s3":["vomitaría"],"p1":["vomitaríamos"],"p2":["vomitaríais"],"p3":["vomitarían"]},
+    "SubPres": {"s1":["vomite"],"s2":["vomites"],"vos":["vomites","vomités"],"s3":["vomite"],"p1":["vomitemos"],"p2":["vomitéis"],"p3":["vomiten"]},
+    "SubImp": {"s1":["vomitara","vomitase"],"s2":["vomitaras","vomitases"],"vos":["vomitaras","vomitases"],"s3":["vomitara","vomitase"],"p1":["vomitáramos","vomitásemos"],"p2":["vomitarais","vomitaseis"],"p3":["vomitaran","vomitasen"]},
+    "SubFut": {"s1":["vomitare"],"s2":["vomitares"],"vos":["vomitares"],"s3":["vomitare"],"p1":["vomitáremos"],"p2":["vomitareis"],"p3":["vomitaren"]},
+    "CmdPos": {"s2":["vomita"],"vos":["vomitá"],"s3":["vomite"],"p1":["vomitemos"],"p2":["vomitad"],"p3":["vomiten"]}
+  }
+}

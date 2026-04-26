@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sĩnseˈɾaɾ]",
+    "silabacion": "sin-ce-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sincerar","gerundio":["sincerando"],"participio":["sincerado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sincero"],"s2":["sinceras"],"vos":["sincerás"],"s3":["sincera"],"p1":["sinceramos"],"p2":["sinceráis"],"p3":["sinceran"]},
+    "IndImp": {"s1":["sinceraba"],"s2":["sincerabas"],"vos":["sincerabas"],"s3":["sinceraba"],"p1":["sincerábamos"],"p2":["sincerabais"],"p3":["sinceraban"]},
+    "IndPret": {"s1":["sinceré"],"s2":["sinceraste"],"vos":["sinceraste"],"s3":["sinceró"],"p1":["sinceramos"],"p2":["sincerasteis"],"p3":["sinceraron"]},
+    "IndFut": {"s1":["sinceraré"],"s2":["sincerarás"],"vos":["sincerarás"],"s3":["sincerará"],"p1":["sinceraremos"],"p2":["sinceraréis"],"p3":["sincerarán"]},
+    "IndCond": {"s1":["sinceraría"],"s2":["sincerarías"],"vos":["sincerarías"],"s3":["sinceraría"],"p1":["sinceraríamos"],"p2":["sinceraríais"],"p3":["sincerarían"]},
+    "SubPres": {"s1":["sincere"],"s2":["sinceres"],"vos":["sinceres","sincerés"],"s3":["sincere"],"p1":["sinceremos"],"p2":["sinceréis"],"p3":["sinceren"]},
+    "SubImp": {"s1":["sincerara","sincerase"],"s2":["sinceraras","sincerases"],"vos":["sinceraras","sincerases"],"s3":["sincerara","sincerase"],"p1":["sinceráramos","sincerásemos"],"p2":["sincerarais","sinceraseis"],"p3":["sinceraran","sincerasen"]},
+    "SubFut": {"s1":["sincerare"],"s2":["sincerares"],"vos":["sincerares"],"s3":["sincerare"],"p1":["sinceráremos"],"p2":["sincerareis"],"p3":["sinceraren"]},
+    "CmdPos": {"s2":["sincera"],"vos":["sincerá"],"s3":["sincere"],"p1":["sinceremos"],"p2":["sincerad"],"p3":["sinceren"]}
+  }
+}

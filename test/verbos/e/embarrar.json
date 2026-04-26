@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbaˈraɾ]",
+    "silabacion": "em-ba-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, barra y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"embarrar","gerundio":["embarrando"],"participio":["embarrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["embarro"],"s2":["embarras"],"vos":["embarrás"],"s3":["embarra"],"p1":["embarramos"],"p2":["embarráis"],"p3":["embarran"]},
+    "IndImp": {"s1":["embarraba"],"s2":["embarrabas"],"vos":["embarrabas"],"s3":["embarraba"],"p1":["embarrábamos"],"p2":["embarrabais"],"p3":["embarraban"]},
+    "IndPret": {"s1":["embarré"],"s2":["embarraste"],"vos":["embarraste"],"s3":["embarró"],"p1":["embarramos"],"p2":["embarrasteis"],"p3":["embarraron"]},
+    "IndFut": {"s1":["embarraré"],"s2":["embarrarás"],"vos":["embarrarás"],"s3":["embarrará"],"p1":["embarraremos"],"p2":["embarraréis"],"p3":["embarrarán"]},
+    "IndCond": {"s1":["embarraría"],"s2":["embarrarías"],"vos":["embarrarías"],"s3":["embarraría"],"p1":["embarraríamos"],"p2":["embarraríais"],"p3":["embarrarían"]},
+    "SubPres": {"s1":["embarre"],"s2":["embarres"],"vos":["embarres","embarrés"],"s3":["embarre"],"p1":["embarremos"],"p2":["embarréis"],"p3":["embarren"]},
+    "SubImp": {"s1":["embarrara","embarrase"],"s2":["embarraras","embarrases"],"vos":["embarraras","embarrases"],"s3":["embarrara","embarrase"],"p1":["embarráramos","embarrásemos"],"p2":["embarrarais","embarraseis"],"p3":["embarraran","embarrasen"]},
+    "SubFut": {"s1":["embarrare"],"s2":["embarrares"],"vos":["embarrares"],"s3":["embarrare"],"p1":["embarráremos"],"p2":["embarrareis"],"p3":["embarraren"]},
+    "CmdPos": {"s2":["embarra"],"vos":["embarrá"],"s3":["embarre"],"p1":["embarremos"],"p2":["embarrad"],"p3":["embarren"]}
+  }
+}

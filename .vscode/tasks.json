@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build:node",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build:node",
+			"detail": "tsc -p tsconfig.node.json"
+		},
+		{
+            "type": "typescript",
+            "tsconfig": "tsconfig.node.json",
+            "problemMatcher": ["$tsc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "tsc: build - tsconfig.node.json"
+        }
+	]
+}

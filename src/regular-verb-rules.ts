@@ -1,4 +1,4 @@
-import { VerbConjugation, VerbConjugationChanges, MoodTense, VerbConjugationRules, VerbConjugationSuffixes, VerbRulesApplied } from ".";
+import { VerbConjugation, VerbConjugationChanges, MoodTense, VerbConjugationRules, VerbConjugationSuffixes } from ".";
 import { verb_terminations_normalized } from "./lib.js";
 import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 
@@ -126,7 +126,7 @@ function getParentVerb(conjugation_rules: VerbAspectRules, verb_family: Infiniti
 
 
 // Get the rule sets that form the conjugation ancestry of this verb.
-export function getRegularRules(infinitivo: string, mood_tense: MoodTense, rules_applied: VerbRulesApplied[]) : VerbAspectRules[] {
+export function getRegularRules(infinitivo: string, mood_tense: MoodTense) : VerbAspectRules[] {
     let verb_family = getInfinitiveClass(infinitivo)!
     let conjugation_rules = regular_verb_suffixes[verb_family].aspects[mood_tense]!
     const ancestor_rule_sets: VerbAspectRules[] = [conjugation_rules]
@@ -141,7 +141,6 @@ export function getRegularRules(infinitivo: string, mood_tense: MoodTense, rules
             last_rule_set.suffixes.s1 = null
         }
     }
-    rules_applied.push({ancestor_rule_sets})
     return ancestor_rule_sets
 }
 

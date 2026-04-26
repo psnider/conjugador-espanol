@@ -15,6 +15,17 @@ import { ModeloConjugacional, InfinitiveClass, ReglasDeConjugaciónDeVerbo, verb
 //     }
 // }
 
+export interface PrefijosDeClaseConjugacional {
+        // El prefijo del verbo que pertenece a una familia de conjugación.
+        // Por ejemplo, "creer" es miembro de la familia "-eer" (modelo "leer"), entonces 'conjugation_family_prefix' es "cr",
+        // => implica is_conjugation_family
+        prefijo_aditivo?: string
+        // El principio de un verbo que es el modelo/base una clase/familia de conjugación, que no es parte del modelo real.
+        // Por ejemplo, para "leer", el prefijo_sustractivo es "l", la parte antes de la clase_conjugacional, aquí "-eer"
+        prefijo_sustractivo?: string
+    }
+
+
 // These prefixes can be reconstructed using addPrefixesToForm()
 export interface Prefixes {
     // Semantic prefixes (that produce new verbs).
@@ -27,15 +38,7 @@ export interface Prefixes {
     // This handles two classes of conjugation: 
     // - a VerboClaseConjugacional, such as "-eer" (modelo "leer"), e.g. for "creer"/"leer"
     // - a ModeloConjugacional that only partially matches the infinitive, e.g. for "disolver"/"volver"
-    clase_de_conjugación?: {
-        // El prefijo del verbo que pertenece a una familia de conjugación.
-        // Por ejemplo, "creer" es miembro de la familia "-eer" (modelo "leer"), entonces 'conjugation_family_prefix' es "cr",
-        // => implica is_conjugation_family
-        prefijo_aditivo?: string
-        // El principio de un verbo que es el modelo/base una clase/familia de conjugación, que no es parte del modelo real.
-        // Por ejemplo, para "leer", el prefijo_sustractivo es "l", la parte antes de la clase_conjugacional, aquí "-eer"
-        prefijo_sustractivo?: string
-    }
+    clase_de_conjugación?: PrefijosDeClaseConjugacional
 }
 
 

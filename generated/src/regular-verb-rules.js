@@ -82,7 +82,7 @@ function getParentVerb(conjugation_rules, verb_family, mood_tense) {
     return { conjugation_rules, verb_family, mood_tense };
 }
 // Get the rule sets that form the conjugation ancestry of this verb.
-export function getRegularRules(infinitivo, mood_tense, rules_applied) {
+export function getRegularRules(infinitivo, mood_tense) {
     let verb_family = getInfinitiveClass(infinitivo);
     let conjugation_rules = regular_verb_suffixes[verb_family].aspects[mood_tense];
     const ancestor_rule_sets = [conjugation_rules];
@@ -97,7 +97,6 @@ export function getRegularRules(infinitivo, mood_tense, rules_applied) {
             last_rule_set.suffixes.s1 = null;
         }
     }
-    rules_applied.push({ ancestor_rule_sets });
     return ancestor_rule_sets;
 }
 // Get the suffixes for the given verb family, mood, and tense, applying a suffix change if one is given. 

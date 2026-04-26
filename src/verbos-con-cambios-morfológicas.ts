@@ -45,7 +45,7 @@ export interface VerbAspectRulesWithFullyIrregularForms extends VerbAspectModifi
 }
 
 
-export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas extends Participios {
+export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas extends Participios<FormaConjugada[]> {
     // irregulares como: "ir", "ser"
     supletivo?: true,
     // Solo para casos irregulares, sí para "poder", no para "dormir"
@@ -57,6 +57,13 @@ export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas extends Participi
     reglas?: MoodTenseMap<VerbAspectRulesWithFullyIrregularForms>
 }
 
+// Hay dos categorías: verbos que admiten personificación, y los que están retringidos gramaticalmente.
+// La categoría determina como puede conjugarlo.
+// Los "naturales" lleva la conjugación completa, pero normalmente solo usa la forma de tersera persona singular, y no hay formas de mandatos.
+// Los "gramaticales"lleva una conjugación parcial, porque nunca permiten el uso de otras formas
+// Usa las formas de tersera persona singular y tersera persona plural, y no hay formas de mandatos.
+// "soler" es único.
+export type Impersonal = "natural" | "gramatical" | "soler"
 
 // true means all tests passed, otherwise FailedTests lists the correct results for each failed test.
 export type TestResults = true | FailedTests
@@ -73,13 +80,7 @@ export interface ReglasDeConjugaciónDeVerbo {
     no_admite_prefijos?: true
     auxiliar?: true
     // Si el uso del verbo está retringido por defecto.
-    // Hay dos categorías: verbos que admiten personificación, y los que están retringidos gramaticalmente.
-    // La categoría determina como puede conjugarlo.
-    // Los "naturales" lleva la conjugación completa, pero normalmente solo usa la forma de tersera persona singular, y no hay formas de mandatos.
-    // Los "gramaticales"lleva una conjugación parcial, porque nunca permiten el uso de otras formas
-    // Usa las formas de tersera persona singular y tersera persona plural, y no hay formas de mandatos.
-    // "soler" es único.
-    impersonal?: "natural" | "gramatical" | "soler"
+    impersonal?: Impersonal
     // Hay verbos con formas multiples como erguir
     tema_presente_yo_del_modelo?: FormaConjugada[]
     // FIX: lingüista: Cuáles son las diferencias entre esto y excepciones_léxicas de sufijo?
@@ -113,6 +114,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     abolir:         {},    // FIX: abolir no se conjuga como abolo, aboles, abola, etc. Se usan perífrasis: va a abolir
     abrasar:        {},
     abrazar:        {},
+    abreviar:       {},
     abrir:          { excepciones_léxicas: { participio: ["abierto"] } },
     abrumar:        {},
     absolver:       { alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["absuelto"] } },
@@ -141,11 +143,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     acontecer:      { impersonal: "gramatical" },
     acordar:        { alternancia_vocálica: "o:ue" },
     acostar:        { alternancia_vocálica: "o:ue" },
+    acreditar:      {},
     actualizar:     {},
     actuar:         {},
     acudir:         {},
     acumular:       {},
     acusar:         {},
+    adaptar:        {},
     adelgazar:      {},
     adherir:        { alternancia_vocálica: "e:ie" },
     adicionar:      {},
@@ -154,7 +158,8 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     adquirir:       { alternancia_vocálica: "i:ie",
                       excepciones_léxicas: {
                             reglas: {
-                                SubPres: { forms: { vos: [{"forma":"adquieras","uso":"Riop."},{"forma":"adquirás","uso":"C.Am."}]    }},
+                                // FIX: try to use temas instead
+                                SubPres: { forms: { vos: [{"forma":"adquier/as","uso":"Riop."},{"forma":"adquir/ás","uso":"C.Am."}]    }},
                             }
                         }     
                     },
@@ -195,6 +200,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     alarmar:        {},
     albergar:       {},
     alcanzar:       {},
+    alcoholizar:    {},
     alegrar:        {},
     alejar:         {},
     alentar:        { alternancia_vocálica: "e:ie" },
@@ -202,6 +208,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     alimentar:      {},
     aliviar:        {},
     almorzar:       { alternancia_vocálica: "o:ue" },
+    alocar:         {},
     alojar:         {},
     alquilar:       {},
     // alquiler:    no es un verbo según el DEL de la RAE
@@ -209,6 +216,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     alucinar:       {},
     alumbrar:       {},
     amaestrar:      {},
+    amalgamar:      {},
     amanecer:       { impersonal: "natural" },
     amar:           {},
     amarrar:        {},
@@ -261,6 +269,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     apretar:        { alternancia_vocálica: "e:ie" },
     aprobar:        { alternancia_vocálica: "o:ue" },
     aprovechar:     {},
+    apuñalar:       {},
     apuntalar:      {},
     apuntar:        {},
     apurar:         {},
@@ -268,6 +277,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     argüir:         {},
     argumentar:     {},
     armar:          {},
+    arraigar:       {},
     arrancar:       {},
     arrasar:        {},
     arrastrar:      {},
@@ -278,6 +288,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     arribar:        {},
     arriesgar:      {},
     arrimar:        {},
+    arrojar:        {},
     arropar:        {},
     arrugar:        {},
     arruinar:       {},
@@ -436,11 +447,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     complacer:      { modelo: "placer" },
     completar:      {},
     complicar:      {},
+    componer:       { modelo: "poner" },
     comprar:        {},
     comprender:     {},
     comprobar:      { alternancia_vocálica: "o:ue" },
     comprometer:    {},
     comunicar:      {},
+    concebir:       { modelo: "pedir" },
     concentrar:     {},
     conceptuar:     {},
     concernir:      { modelo: "cernir", impersonal: "gramatical" },
@@ -466,6 +479,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     congelar:       {},
     congestionar:   {},
     congregar:      {},
+    conjeturar:     {},
     conjugar:       { modelo: null },   // regular, no sigue el modelo de "jugar"
     conjurar:       {},
     conmover:       { alternancia_vocálica: "o:ue" },
@@ -491,7 +505,8 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     contar:         { alternancia_vocálica: "o:ue",
                       excepciones_léxicas: {
                             reglas: {
-                                SubPres: { forms: { vos: [{"forma":"cuentes","uso":"Riop."},{"forma":"contés","uso":"C.Am."}] }}
+                                // FIX: try to use temas instead
+                                SubPres: { forms: { vos: [{"forma":"cuent/es","uso":"Riop."},{"forma":"cont/és","uso":"C.Am."}] }}
                             }
                         }
                     },
@@ -510,6 +525,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     conversar:      {},
     convertir:      { alternancia_vocálica: "e:ie" },
     convivir:       {},
+    cooperar:       {},
     corear:         {},
     corregir:       { alternancia_vocálica: "e:i" },
     correr:         {},
@@ -518,6 +534,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     cortar:         {},
     coser:          {},
     costar:         { alternancia_vocálica: "o:ue" },
+    cotizar:        {},
     crear:          {},
     crecer:         {},
     creer:          {},
@@ -527,7 +544,6 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                                 IndPres: {suffixes: {p2: ["ais"], vos: ["as"]} },  // elimina tilde por RAE-2010
                                 IndPret: {suffixes: {s1: ["e"], s3: ["o"]} },  // elimina tilde por RAE-2010
                                 SubPres: {suffixes: {p2: ["eis"]}},  // elimina tilde por RAE-2010
-                                        //   forms: {vos: {atípicos: [{forma: "criés"}]}}},
                                 CmdPos:  {suffixes: {vos: ["a"]} }  // elimina tilde por RAE-2010
                             }
                         }
@@ -568,7 +584,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             participio: ["dicho"],
                             gerundio: ["diciendo"],
-                            imperativo_tú: ["di"],
+                            imperativo_tú: ["di/"],
                         }
                     },
     declarar:       {},
@@ -629,6 +645,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desconceptuar:  {},
     desconectar:    {},
     desconfiar:     { modelo: "vaciar" },
+    desconocer:     { modelo: "conocer" },
     descontar:      { alternancia_vocálica: "o:ue" },
     descreer:       {},
     describir:      { excepciones_léxicas: { participio: ["descrito"] } },
@@ -655,10 +672,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         clase_conjugacional: "-eír",
                         excepciones_léxicas: {
                             reglas: {
+                                // FIX: lingúista: es esto correcto?
+                                // Note: este no es obvio... por qué hay dos raíces diferentes: "desl" y "desli"
+                                // FIX: try to use temas y sufijos instead
                                 //                      no existe variante sin tilde proviene de "reír"
-                                IndPret: { forms: { s3: ["deslió"]   }},
+                                IndPret: { forms: { s3: ["desl/ió"]   }},
                                 //                      no existe variante sin tilde proviene de "reír"
-                                SubPres: { forms: { p2: ["desliáis"]   }},
+                                SubPres: { forms: { p2: ["desli/áis"]   }},
                             }
                         }
                     },
@@ -667,6 +687,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desmontar:      {},
     desobedecer:    {},
     desosar:        { alternancia_vocálica: "o:ue", ponga_hiato: true },
+    despachar:      {},
     desparramar:    {},
     despedir:       { alternancia_vocálica: "e:i" },
     despegar:       {},
@@ -674,6 +695,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     despellejar:    {},
     desperdiciar:   {},
     despertar:      { alternancia_vocálica: "e:ie" },
+    desplazar:      {},
     desplegar:      { alternancia_vocálica: "e:ie" },
     desplomar:      {},
     desplumar:      {},
@@ -684,6 +706,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desproveer:     { modelo: "leer", excepciones_léxicas: { participio: ["desprovisto"] } },
     despuntar:      {},
     destartalar:    {},
+    destellar:     {},
     desterrar:      { alternancia_vocálica: "e:ie" },
     destilar:       {},
     destituir:      {},
@@ -745,9 +768,12 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     electrocutar:   {},
     elegir:         { alternancia_vocálica: "e:i" },
     elevar:         {},  // FIX: linguist: solo en varios regiones hay: alternancia_vocálica: "e:ie"
+    eliminar:       {},
     eludir:         {},
     embadurnar:     {},
     embarcar:       {},
+    embargar:       {},
+    embarrar:       {},
     embestir:       { alternancia_vocálica: "e:i" },
     emborrachar:    {},
     emigrar:        {},
@@ -798,9 +824,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             reglas: {
                                 // FIX: lingüista: hay una regla por esta situación?
-                                IndPres: { forms: { s1: ["enraízo"], s2: ["enraízas"], s3: ["enraíza"],                              p3: ["enraízan"]}},
-                                SubPres: { forms: { s1: ["enraíce"], s2: ["enraíces"], s3: ["enraíce"],                              p3: ["enraícen"], vos: [{"forma":"enraíces","uso":"Riop."},{"forma":"enraicés","uso":"C.Am."}] }},
-                                CmdPos:  { forms: { s2: ["enraíza"], s3: ["enraíce"],                                                p3: ["enraícen"]}}
+                                // FIX: perhaps replace this with stress_last_vowel_of_s123p3_stem?
+                                IndPres: { forms: { s1: ["enraíz/o"], s2: ["enraíz/as"], s3: ["enraíz/a"],                              p3: ["enraíz/an"]}},
+                                SubPres: { forms: { s1: ["enraíc/e"], s2: ["enraíc/es"], s3: ["enraíc/e"],                              p3: ["enraíc/en"], vos: [{"forma":"enraíc/es","uso":"Riop."},{"forma":"enraic/és","uso":"C.Am."}] }},
+                                CmdPos:  { forms: { s2: ["enraíz/a"], s3: ["enraíc/e"],                                                 p3: ["enraíc/en"]}}
                             },
                         }
                     },
@@ -822,6 +849,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     entristecer:    {},
     entumecer:      {},
     entusiasmar:    {},
+    envenenar:      {},
     enviar:         { modelo: "vaciar" },
     envidiar:       {},
     envolver:       { modelo: "volver" },
@@ -832,21 +860,23 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                             gerundio: ["irguiendo"],
                             reglas: {
                                 // FIX: lingüista: hay una regla por esta situación?
-                                IndPres: { forms: { s1: ["irgo", "yergo"],       s2: ["irgues", "yergues"], s3: ["irgue", "yergue"],
-                                                                                                            p3: ["irguen", "yerguen"] }},
-                                IndPret: { forms: {                                                         s3: ["irguió"],
-                                                                                                            p3: ["irguieron"]} },
+                                // FIX: perhaps replace this with temas y sufijos?
+                                // FIX: it looks like the sufjios are regular?
+                                IndPres: { forms: { s1: ["irg/o", "yerg/o"],       s2: ["irgu/es", "yergu/es"], s3: ["irgu/e", "yergu/e"],
+                                                                                                            p3: ["irgu/en", "yergu/en"] }},
+                                IndPret: { forms: {                                                         s3: ["irgu/ió"],
+                                                                                                            p3: ["irgu/ieron"]} },
                                 SubPres: { 
                                            // Según ChatGPT: hay un conflicto entre irregularidad heredada vs. regularización del voseo
                                            //    sí existe una forma voseante tipo yergás, pero en la práctica, muchas veces se dice ergás o se evita el verbo
-                                           forms: { vos: [{"forma":"yergas","uso":"Riop."},{"forma":"irgas","uso":"C.Am."},{"forma":"irgás","uso":"C.Am."}] }
+                                           forms: { vos: [{"forma":"yerg/as","uso":"Riop."},{"forma":"irg/as","uso":"C.Am."},{"forma":"irg/ás","uso":"C.Am."}] }
                                         //    forms: { s1: ["irga", "yerga"],       s2: ["irgas", "yergas"],   s3: ["irga", "yerga"],
                                         //             p1:	["irgamos", "yergamos"], p2: ["irgáis", "yergáis"], p3: ["irgan", "yergan"], vos: ["yergas"] }
                                                  },
                                 SubImp: { tema_suplicativo: ["irguie"], stress_last_char_of_p1_stem: true },
                                 SubFut: { tema_suplicativo: ["irguie"], stress_last_char_of_p1_stem: true },
-                                CmdPos: { forms: {                               s2: ["irgue", "yergue"],   s3:	["irga", "yerga"],
-                                                   p1: ["irgamos", "yergamos"],                             p3: ["irgan", "yergan"] }}
+                                CmdPos: { forms: {                               s2: ["irgu/e", "yergu/e"],   s3:	["irg/a", "yerg/a"],
+                                                   p1: ["irg/amos", "yerg/amos"],                             p3: ["irg/an", "yerg/an"] }}
                             },
                         }
                     },
@@ -871,6 +901,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     establecer:     {},
     estacionar:     {},
     estafar:        {},
+    estallar:       {},
     estancar:       {},
     estandarizar:   {},
     estar:         { modelo: "estar",
@@ -878,7 +909,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         sufijo_presente_yo: "oy",
                         tema_pretérito_del_modelo: "estuv", 
                         excepciones_léxicas: {
-                            imperativo_tú: ["está"],
+                            imperativo_tú: ["est/á"],
                             reglas: {
                                 IndPres: { suffixes: {            s2: ["ás"], s3: ["á"], p3: ["án"]}},
                                 IndPret: { suffixes: { s1: ["e"], s2: ["iste"], s3: ["o"],  p1: ["imos"],   p2: ["isteis"], p3: ["ieron"] } },
@@ -894,9 +925,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     estornudar:     {},
     estrangular:    {},
     estrechar:      {},
-    estregar:       { alternancia_vocálica: "e:ie", acepta_regular: "variante" },  // FIX: multiple forms
+    estregar:       { alternancia_vocálica: "e:ie", acepta_regular: "variante" },
     estremecer:     {},
     estrenar:       {},
+    estresar:       {},
     estropear:      {},
     estudiar:       {},
     evadir:         {},
@@ -909,6 +941,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     excluir:        {},
     exhalar:        {},
     exigir:         {},
+    exiliar:        {},
     existir:        {},
     expandir:       {},
     expedir:        { alternancia_vocálica: "e:i" },
@@ -978,13 +1011,14 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             reglas: {
                                 IndPres: { stress_last_vowel_of_s123p3_stem: true,
-                                           forms:    {                                   p2: ["guiais",{"forma":"guiáis","uso":"pre-2010"}],
-                                                                          vos: ["guias",{"forma":"guiás","uso":"pre-2010"}]   }},
-                                IndPret: { forms:    { s1: ["guie",{"forma":"guié","uso":"pre-2010"}],          s3: ["guio",{"forma":"guió","uso":"pre-2010"}],  } },
+                                // FIX: perhaps replace this with temas o sufijos?
+                                           forms:    {                                   p2: ["guia/is",{"forma":"guiá/is","uso":"pre-2010"}],
+                                                                          vos: ["gui/as",{"forma":"gui/ás","uso":"pre-2010"}]   }},
+                                IndPret: { forms:    { s1: ["gui/e",{"forma":"gui/é","uso":"pre-2010"}],          s3: ["gui/o",{"forma":"gui/ó","uso":"pre-2010"}],  } },
                                 SubPres: { stress_last_vowel_of_s123p3_stem: true, stress_last_char_of_vos_riop_stem: true,
-                                        forms: {                                        p2: ["guieis",{"forma":"guiéis","uso":"pre-2010"}] }},
+                                        forms: {                                        p2: ["gui/eis",{"forma":"gui/éis","uso":"pre-2010"}] }},
                                 CmdPos:  { stress_last_vowel_of_s123p3_stem: true,
-                                        forms: {                                                               vos: ["guia"] }}
+                                        forms: {                                                               vos: ["gui/a"] }}
                             }
                         }
                     },
@@ -997,13 +1031,14 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         auxiliar: true,
                         excepciones_léxicas: {
                             supletivo: true,
-                            imperativo_tú: [{"forma":"he","uso":"arcaico"},{"forma":"habe","uso":"arcaico"}],
+                                // FIX: perhaps replace this with temas y sufijos?  
+                            imperativo_tú: [{"forma":"h/e","uso":"arcaico"},{"forma":"hab/e","uso":"arcaico"}],
                             reglas: {
-                                IndPres: { forms: { s1: ["he"],     s2: ["has"],  s3: ["ha", {forma: "hay", uso: "impersonal"}],     
-                                                    p1: ["hemos"],                p3: ["han"],   vos: null} },
+                                IndPres: { forms: { s1: ["h/e"],     s2: ["h/as"],  s3: ["h/a", {forma: "h/ay", uso: "impersonal"}],     
+                                                    p1: ["h/emos"],                p3: ["h/an"],   vos: null} },
                                 SubPres: { tema_suplicativo: ["hay"] },
                                 CmdPos:  { tema_suplicativo: ["hay"],
-                                        forms: {                 p2: ["habed"] ,              vos: null } }
+                                        forms: {                 p2: ["hab/ed"] ,              vos: null } }
                             }
                         }
                     },
@@ -1017,11 +1052,11 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         tema_futuro_del_modelo: "har",
                         excepciones_léxicas: {
                             participio: ["hecho"],
-                            imperativo_tú: ["haz"],
+                            imperativo_tú: ["haz/"],
                             reglas: {
                                 // FIX: linguist: should "hizo" be managed with sound preserving transformations?
-                                IndPret: { forms: {s3: ["hizo"]} },
-                                SubPres: { forms: {vos: [{forma:"hagas",uso:"Riop."}, {forma:"hagás",uso:"C.Am."}]} },
+                                IndPret: { forms: {s3: ["hiz/o"]} },
+                                SubPres: { forms: {vos: [{forma:"hag/as",uso:"Riop."}, {forma:"hag/ás",uso:"C.Am."}]} },
                             }
                         }
                     },
@@ -1049,6 +1084,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     imbuir:         {},
     impedir:        { alternancia_vocálica: "e:i" },
     implantar:      {},
+    implicar:       {},
     implorar:       {},
     imponer:        {},
     importar:       {},
@@ -1058,6 +1094,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     imprimir:       { excepciones_léxicas: { participio: ["imprimido","impreso"] } },
     inclinar:       {},
     incluir:        {},
+    incorporar:     {},
     incrementar:    {},
     incrustar:      {},
     incubar:        {},
@@ -1065,6 +1102,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     indagar:        {},
     indexar:        {},
     indicar:        {},
+    inducir:        {},
     infectar:       {},
     inferir:        { alternancia_vocálica: "e:ie" },
     infestar:       {},
@@ -1080,6 +1118,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     injerir:        { alternancia_vocálica: "e:ie" },
     inmigrar:       {},
     inmiscuir:      {},
+    inmortalizar:   {},
     inmunizar:      {},
     inquietar:      {},
     inquirir:       { alternancia_vocálica: "i:ie" },
@@ -1088,10 +1127,12 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     insinuar:       {},
     insistir:       {},
     inspeccionar:   {},
+    inspirar:       {},
     instalar:       {},
     instar:         {},
     instituir:      {},
     instruir:       {},
+    integrar:       {},
     intentar:       {},
     interactuar:    {},
     intercalar:     {},
@@ -1122,21 +1163,22 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                             gerundio: ["yendo"],
                             reglas: {
                                 // The default "-ir" verb pattern of accent the last sylable doesn't apply to vos forms of "ir", since "ir" is only one sylable
-                                IndPres: { forms: { s1: ["voy"], s2: ["vas"],    s3: ["va"],   p1: ["vamos"],  p2: ["vais"],     p3: ["van"], vos: null } },
+                                IndPres: { forms: { s1: ["v/oy"], s2: ["v/as"],    s3: ["v/a"],   p1: ["v/amos"],  p2: ["v/ais"],     p3: ["v/an"], vos: null } },
                                 SubPres: { tema_suplicativo: ["vay"],
-                                        forms: {                                            vos: [{"forma":"vayas","uso":"Riop."},{"forma":"vayás","uso":"C.Am."}] }
+                                        forms: {                                            vos: [{"forma":"vay/as","uso":"Riop."},{"forma":"vay/ás","uso":"C.Am."}] }
                                 },
-                                IndPret: { forms: { s1: ["fui"], s2: ["fuiste"], s3: ["fue"],  p1: ["fuimos"], p2: ["fuisteis"], p3: ["fueron"] } },
-                                IndImp:  { forms: { s1: ["iba"], s2: ["ibas"],   s3: ["iba"],  p1: ["íbamos"], p2: ["ibais"],    p3: ["iban"] } },
+                                IndPret: { forms: { s1: ["fu/i"], s2: ["fu/iste"], s3: ["fu/e"],  p1: ["fu/imos"], p2: ["fu/isteis"], p3: ["fu/eron"] } },
+                                IndImp:  { forms: { s1: ["ib/a"], s2: ["ib/as"],   s3: ["ib/a"],  p1: ["íb/amos"], p2: ["ib/ais"],    p3: ["ib/an"] } },
                                 // IndFut: uses regular conjugation
                                 // IndCond: uses regular conjugation
-                                CmdPos:  { forms: {              s2: ["ve"],     s3: ["vaya"], p1: ["vayamos", "vamos"],         p3: ["vayan"], vos: ["andá"] } }
+                                CmdPos:  { forms: {              s2: ["v/e"],     s3: ["vay/a"], p1: ["vay/amos", "v/amos"],         p3: ["vay/an"], vos: ["and/á"] } }
                             }
                         }
                     },
     irritar:        {},
     jactar:         {},
     jalar:          {},
+    josear:         {},
     jubilar:        {},
     jugar:          { alternancia_vocálica: "u:ue" },
     juntar:         {},
@@ -1169,7 +1211,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         tema_pretérito_del_modelo: "maldij",
                         alternancia_vocálica: "e:i",
                         excepciones_léxicas: {
-                            imperativo_tú: ["maldice"],
+                            imperativo_tú: ["maldic/e"],
                             participio: ["maldecido", "maldito"],
                         } 
                     },
@@ -1194,6 +1236,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     mencionar:      {},
     mendigar:       {},
     menguar:        {},
+    menospreciar:   {},
     menstruar:      { excepciones_léxicas: {
                         reglas: {
                             IndPres: {stress_last_vowel_of_s123p3_stem: true},
@@ -1209,7 +1252,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     mirar:          {},
     modelar:        {},
     modernizar:     {},
+    modificar:      {},
     molestar:       {},
+    monetizar:      {},
     montar:         {},
     morder:         { alternancia_vocálica: "o:ue" },
     morir:          { alternancia_vocálica: "o:ue", excepciones_léxicas: {participio: ["muerto"]} },
@@ -1266,6 +1311,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     pasar:          {},
     pasear:         {},
     pasmar:         {},
+    patear:         {},
     patinar:        {},
     patrullar:      {},
     pausar:         {},
@@ -1286,11 +1332,12 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     pensar:         { alternancia_vocálica: "e:ie",
                       excepciones_léxicas: {
                             reglas: {
-                                SubPres: { forms: { vos: [{"forma":"pienses","uso":"Riop."},{"forma":"pensés","uso":"C.Am."}] }}
+                                SubPres: { forms: { vos: [{"forma":"piens/es","uso":"Riop."},{"forma":"pens/és","uso":"C.Am."}] }}
                             }
                         }
                     },
     perder:         { alternancia_vocálica: "e:ie" },
+    perdonar:       {},
     perforar:       {},
     permanecer:     {},
     permitir:       {},
@@ -1306,10 +1353,10 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     piar:           { modelo: "vaciar",
                         excepciones_léxicas: {
                             reglas: {
-                                IndPres: { forms: { p2: ["piais",{"forma":"piáis","uso":"pre-2010"}],  vos: ["pias",{"forma":"piás","uso":"pre-2010"}] }},
-                                IndPret: { forms: { s1: ["pie",{"forma":"pié","uso":"pre-2010"}], s3: ["pio",{"forma":"pió","uso":"pre-2010"}]} },
-                                SubPres: { forms: { p2:["pieis",{"forma":"piéis","uso":"pre-2010"}] }},
-                                CmdPos:  { forms: { vos:["pia",{"forma":"piá","uso":"pre-2010"}] }}
+                                IndPres: { forms: { p2: ["pi/ais",{"forma":"pi/áis","uso":"pre-2010"}],  vos: ["pi/as",{"forma":"pi/ás","uso":"pre-2010"}] }},
+                                IndPret: { forms: { s1: ["pi/e",{"forma":"pi/é","uso":"pre-2010"}], s3: ["pi/o",{"forma":"pi/ó","uso":"pre-2010"}]} },
+                                SubPres: { forms: { p2:["pi/eis",{"forma":"pi/éis","uso":"pre-2010"}] }},
+                                CmdPos:  { forms: { vos:["pi/a",{"forma":"pi/á","uso":"pre-2010"}] }}
                             },
                         }
                     },
@@ -1319,6 +1366,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     pisar:          {},
     placer:         { modelo: "placer", tema_presente_yo_del_modelo: ["plazc"] },
     planchar:       {},
+    planificar:     {},
     plasmar:        {},
     platicar:       {},
     plegar:         { alternancia_vocálica: "e:ie" },
@@ -1336,7 +1384,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         tema_futuro_del_modelo: "pondr",
                         excepciones_léxicas: {
                             participio: ["puesto"],
-                            imperativo_tú: ["pon"],
+                            imperativo_tú: ["pon/"],
                             reglas: {
                                 CmdPos:  { derivations: {preserve_stress_from_base: ["s2"] }}
                             }
@@ -1404,11 +1452,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         alternancia_vocálica: "e:ie"
                     },
     quitar:         {},
+    radicar:        {},
     ramificar:      {},
     raspar:         {},
     rastrear:       {},
     realizar:       {},
     reanudar:       {},
+    rearmar:        {},
     rebanar:        {},
     rebelar:        {},
     rebosar:        {},
@@ -1451,6 +1501,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     reenviar:       { modelo: "vaciar" },
     reevaluar:      {},
     referir:        { alternancia_vocálica: "e:ie" },
+    reflejar:       {},
     refluir:        {},
     reformar:       {},
     reforzar:       { alternancia_vocálica: "o:ue" },
@@ -1482,15 +1533,15 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                                 // FIX: linguist: are there other reglas I can use?
                                 // FIX: bring in alternate forms
                                 // FIX: must formalize the relationship of CmdPos on SubPres
-                                IndPres: { stress_last_vowel_of_s123p3_stem: true, stress_last_char_of_vos_riop_stem: true,
+                                IndPres: { stress_last_vowel_of_s123p3_stem: true,
                                     // FIX: considera un campo "formas_adicionales", para que no tengamos repetir la forma que no cambia
                                     // FIX: es posible que podamos usar una regla de ortografía (rompe el diptongo) por el resto?
-                                           forms: {s1: ["río"], /* s2: ["ríes"], s3: ["ríe"],*/ p1: ["reímos"], p2: ["reís"],  /*p3: ["ríen"],   vos: ["reís"], */}},
-                                IndPret: { forms: {                           s3: ["rio",{"forma":"rió","uso":"pre-2010"}],                               /* p3: ["rieron"],*/} },
+                                           forms: {s1: ["rí/o"], /* s2: ["ríes"], s3: ["ríe"],*/ p1: ["re/ímos"], p2: ["re/ís"],  /*p3: ["ríen"],   vos: ["reís"], */}},
+                                IndPret: { forms: {                           s3: ["r/io",{"forma":"r/ió","uso":"pre-2010"}],                               /* p3: ["rieron"],*/} },
                                 SubPres: { tema_suplicativo: ["rí"], stress_last_vowel_of_s123p3_stem: true,
-                                           forms: {                          p1: ["riamos"], p2: ["riais",{"forma":"riáis","uso":"pre-2010"}], /*p3: ["rían"]*/ }},
+                                           forms: {                          p1: ["ri/amos"], p2: ["ri/ais",{"forma":"ri/áis","uso":"pre-2010"}], /*p3: ["rían"]*/ }},
                                 CmdPos:  { tema_suplicativo: ["rí"],
-                                           forms: {                                        p1: ["riamos"], p2: ["reíd"],                  vos: ["reí"]}}
+                                           forms: {                                        p1: ["ri/amos"], p2: ["re/íd"],                  vos: ["re/í"]}}
                             },
                         }
                     },
@@ -1565,14 +1616,15 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             reglas: {
                                 IndPres: { temas: {vos: ["ro"]} },
-                                SubPres: { forms: {vos: [{"forma": "roas","uso":"Riop."},{"forma":"roás","uso":"C.Am."}]} },
+                                SubPres: { forms: {vos: [{"forma": "ro/as","uso":"Riop."},{"forma":"ro/ás","uso":"C.Am."}]} },
                                 CmdPos:  { temas: {vos: ["ro"]} },
                             }
                         }
-     },
+                    },
     rogar:          { alternancia_vocálica: "o:ue" },
     romper:         { excepciones_léxicas: { participio: ["roto"] } },
     rondar:         {},
+    rozar:          {},
     rugir:          {},
     saber:          { modelo: "saber",
                         tema_pretérito_del_modelo: "sup",
@@ -1580,9 +1632,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             reglas: {
                                 // similar a caber
-                                IndPres: { forms: { s1: ["sé"] } },
+                                IndPres: { forms: { s1: ["s/é"] } },
                                 SubPres: { tema_suplicativo: ["sep"] },
-                                CmdPos:  { forms: {                                s3: ["sepa"],  p1: ["sepamos"],                     p3: ["sepan"] } }
+                                CmdPos:  { forms: {                                s3: ["sep/a"],  p1: ["sep/amos"],                     p3: ["sep/an"] } }
                             }
                         }
                     },
@@ -1591,16 +1643,20 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     saciar:         {},
     sacudir:        {},
     sahumar:        {},
+    saldar:         {},
     salir:          { modelo: "salir",
                         tema_presente_yo_del_modelo: ["salg"],
                         tema_futuro_del_modelo: "saldr",
-                        excepciones_léxicas: { imperativo_tú: ["sal"] }
+                        excepciones_léxicas: { imperativo_tú: ["sal/"] }
                     },
     salpimentar:    { alternancia_vocálica: "e:ie" },
     saludar:        {},
+    sanar:          {},
+    sangrar:        {},
     santiguar:      {},
     satisfacer:     { modelo: "hacer" },
     secar:          {},
+    secuestrar:     {},
     seducir:        {},
     seguir:         {
                         // NOTE: this does not conjugate as a "-uir" clase infinitivo
@@ -1610,6 +1666,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     seleccionar:    {},
     sellar:         {},
     sembrar:        { alternancia_vocálica: "e:ie" },
+    señalar:        {},
     sentar:         { alternancia_vocálica: "e:ie" },
     sentir:         { alternancia_vocálica: "e:ie" },
     separar:        {},
@@ -1620,12 +1677,12 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         excepciones_léxicas: {
                             supletivo: true,
                             reglas: {
-                                IndPres: { forms: { s1: ["soy"], s2: ["eres"],   s3: ["es"],    p1: ["somos"],  p2: ["sois"],     p3: ["son"],    vos: ["sos"] } },
-                                IndImp:  { forms: { s1: ["era"], s2: ["eras"],   s3: ["era"],   p1: ["éramos"], p2: ["erais"],    p3: ["eran"]}},
-                                IndPret: { forms: { s1: ["fui"], s2: ["fuiste"], s3: ["fue"],   p1: ["fuimos"], p2: ["fuisteis"], p3: ["fueron"] } },
+                                IndPres: { forms: { s1: ["s/oy"], s2: ["er/es"],   s3: ["/es"],    p1: ["s/omos"],  p2: ["s/ois"],     p3: ["s/on"],    vos: ["s/os"] } },
+                                IndImp:  { forms: { s1: ["er/a"], s2: ["er/as"],   s3: ["er/a"],   p1: ["ér/amos"], p2: ["er/ais"],    p3: ["er/an"]}},
+                                IndPret: { forms: { s1: ["fu/i"], s2: ["fu/iste"], s3: ["fu/e"],   p1: ["fu/imos"], p2: ["fu/isteis"], p3: ["fu/eron"] } },
                                 SubPres: { tema_suplicativo: ["se"],
-                                        forms: {                                             vos: [{"forma":"seas","uso":"Riop."},{"forma":"seás","uso":"C.Am."}] }},
-                                CmdPos:  { forms: {              s2: ["sé"],     s3: ["sea"],   p1: ["seamos"],                   p3: ["sean"],   vos: null} }
+                                           forms: {                                             vos: [{"forma":"se/as","uso":"Riop."},{"forma":"se/ás","uso":"C.Am."}] }},
+                                CmdPos:  { forms: {              s2: ["sé/"],     s3: ["s/ea"],   p1: ["se/amos"],                   p3: ["se/an"],   vos: null} }
                             }
                         }
                     },
@@ -1634,7 +1691,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sesgar:         {},
     significar:     {},
     simplificar:    {},
+    sincerar:       {},
     situar:         {},
+    sobar:          {},
     sobrecargar:    {},
     sobrecoger:     {},
     sobrehilar:     { excepciones_léxicas: {
@@ -1677,6 +1736,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sufrir:         {},
     sugerir:        { alternancia_vocálica: "e:ie" },
     sujetar:        {},
+    sumar:          {},
     suministrar:    {},
     suplicar:       {},
     suponer:        {},
@@ -1707,7 +1767,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         tema_futuro_del_modelo: "tendr",
                         alternancia_vocálica: "e:ie",
                         excepciones_léxicas: {
-                            imperativo_tú: ["ten"],
+                            imperativo_tú: ["ten/"],
                             reglas: {
                                 CmdPos:  { derivations: {preserve_stress_from_base: ["s2"] }}
                             }
@@ -1734,11 +1794,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         }
                     },
     tornar:         {},
+    torturar:       {},
     toser:          {},
     tostar:         { alternancia_vocálica: "o:ue" },
     trabajar:       {},
     traducir:       {},
     traer:          { modelo: "traer", tema_presente_yo_del_modelo: ["traig"], tema_pretérito_del_modelo: "traj" },
+    tramitar:       {},
     transcender:    { alternancia_vocálica: "e:ie" },
     transcurrir:    {},
     transferir:     { alternancia_vocálica: "e:ie" },
@@ -1749,6 +1811,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     trapear:        {},
     trascender:     { alternancia_vocálica: "e:ie" },
     trasferir:      { alternancia_vocálica: "e:ie" },
+    trasladar:      {},
     traslucir:      { modelo: "lucir" },
     traspasar:      {},
     trastabillar:   {},
@@ -1793,9 +1856,9 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                         alternancia_vocálica: "e:ie",
                         excepciones_léxicas: {
                             gerundio: ["viniendo"],
-                            imperativo_tú: ["ven"],
+                            imperativo_tú: ["ven/"],
                             reglas: {
-                                SubPres: {forms: {vos:[{"forma":"vengas","uso":"Riop."},{"forma":"vengás","uso":"C.Am."}] }},
+                                SubPres: {forms: {vos:[{"forma":"veng/as","uso":"Riop."},{"forma":"veng/ás","uso":"C.Am."}] }},
                                 CmdPos:  { derivations: {preserve_stress_from_base: ["s2"] }}
                             }
                         }
@@ -1818,11 +1881,11 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                                         },
                                 SubPres: { tema_suplicativo: ["ve"] },
                                 // accents dropped
-                                IndPret: { forms: { s1: ["vi"], s3: ["vio"] },
+                                IndPret: { forms: { s1: ["v/i"], s3: ["v/io"] },
                                            derivations: {preserve_stress_from_base: ["s1", "s3"]}
                                         },
                                 IndImp: { tema_suplicativo: ["ve" ]},
-                                CmdPos: { forms: {                      s3: ["vea"],           p1: ["veamos"],               p3: ["vean"],            vos: null },
+                                CmdPos: { forms: {                      s3: ["ve/a"],           p1: ["ve/amos"],               p3: ["ve/an"],            vos: null },
                                           derivations: {preserve_stress_from_base: ["s2"] }
                                         }
                             }
@@ -1834,6 +1897,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     viajar:         {},
     vidriar:        { modelo: "vaciar", acepta_regular: "variante" },
     vigilar:        {},
+    vincular:       {},
     violar:         {},
     virar:          {},
     visitar:        {},
@@ -1842,12 +1906,13 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     volcar:         { alternancia_vocálica: "o:ue" },
     voltear:        {},
     volver:         { modelo: "volver", alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["vuelto"] } },
+    vomitar:        {},
     votar:          {},
     xerografiar:    { modelo: "vaciar" },
     yacer:          { tema_presente_yo_del_modelo: ["yazc", "yazg", "yag"],
                         excepciones_léxicas: {
                             reglas: {
-                                SubPres: { forms: {vos: [{"forma":"yazcas","uso":"Riop."},{"forma":"yazgas","uso":"C.Am."}]}
+                                SubPres: { forms: {vos: [{"forma":"yazc/as","uso":"Riop."},{"forma":"yazg/as","uso":"C.Am."}]}
                             
                                 }
                             }

@@ -1,6 +1,6 @@
 import { VerbAspectRules } from "./regular-verb-rules.js"
 import { ModeloConjugacional, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
-
+import { PrefijosDeClaseConjugacional } from "./resolve-conjugation-class.js"
 
 type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg" 
 type ConjugationOrDerivation = MoodTense | "Participles"
@@ -12,9 +12,9 @@ type ConjugationOrDerivation = MoodTense | "Participles"
 type IrregularYRegular = "primaria" | "variante"
 
 
-interface Participios {
-    gerundio?: FormaConjugada[]
-    participio?: FormaConjugada[]
+interface Participios<T> {
+    gerundio?: T
+    participio?: T
 }
 
 
@@ -126,7 +126,8 @@ interface VerbConjugationAnnotation {
     modelo: ModeloConjugacional
     defectos?: Defectos
     // The non regular rules applied to this verb
-    rules_applied?: any[]
+    cambios_conjugacional_primaria?: CambiosConjugacional
+    cambios_conjugacional_secundaria?: CambiosConjugacional
     ok?: 0 | 1
     version: string
     license: string
@@ -208,31 +209,83 @@ export type StemChangeRuleId = "no change" | "e:" | "e:i" | "e:í" | "e:ie" | "i
 // type SuffixChangeType = "eer"
 
 
-// Las reglas que producen los cambios que diferen de las formas regulares.
-export interface VerbRulesApplied {
-    // En caso de "impersonal", el cambio es la eliminación de formas.
-    // Entonces cuando este parece, significa la remoción de formas de la conjugación
-    impersonal?: MoodTense | GrammaticalPerson[]
-    ancestor_rule_sets?: VerbAspectRules[]
-    suffixes?: VerbConjugation
-    stems?: VerbConjugation
-    lexical_exceptions_stems?: VerbConjugation
-    lexical_exceptions_suffixes?: VerbConjugation
-    combined_stems_w_suffixes?: VerbConjugation
-    orthography?: VerbConjugation
-    suplicaciones?: VerbConjugation
-    imperativo_tú?: VerbConjugation
-    maintain_stressed_last_sylable?: VerbConjugation
-    prefijos_clase_conjugacional?: VerbConjugation
-    prefijos_productivos_y_no?: VerbConjugation
+// // Las reglas que producen los cambios que diferen de las formas regulares.
+// export interface VerbRulesAppliedOptions {
+//     // En caso de "impersonal", el cambio es la eliminación de formas.
+//     // Entonces cuando este parece, significa la remoción de formas de la conjugación
+//     impersonal?: MoodTense | GrammaticalPerson[]
+//     ancestor_rule_sets?: VerbAspectRules[]
+//     suffixes?: VerbConjugation
+//     stems?: VerbConjugation
+//     lexical_exceptions_stems?: VerbConjugation
+//     lexical_exceptions_suffixes?: VerbConjugation
+//     combined_stems_w_suffixes?: VerbConjugation
+//     orthography?: VerbConjugation
+//     suplicaciones?: VerbConjugation
+//     imperativo_tú?: VerbConjugation
+//     maintain_stressed_last_sylable?: VerbConjugation
+//     prefijos_clase_conjugacional?: VerbConjugation
+//     prefijos_productivos_y_no?: VerbConjugation
+// }
+
+
+// Estos reglas deben ser legible por usuarios.
+type CambioOrtografico = OrthographicalChangeRuleName | "prefijos de clase conjugacional"
+type CambioEstrés = "estrese última vocal del tema" | "estrese tema 1.ª persona plural" | "elimina el estrese del tema" | "elimina el estrese del sufijo"
+type CambioAlternanciaVocálica = "e → ∅" | "e  → i" | "e  → í" | "e → ie" | "i → í" | "i → ie" | "o → u" | "o → ue" | "u → ú" | "u → ue"
+// Note: nombres de reglas que pueden ser del modelo o del infinitivo deben seguir el formato: tipo_de_cambio + "del" + "modelo|infinitivo"
+type CambioProductivo = "regular" | "excepcional"
+                    | "tema excepcional del modelo" | "tema excepcional del infinitivo"
+                    | "tema futuro excepcional" 
+                    | "tema presente yo" | "imperativo tú"
+                    | "tema pretérito excepcional" | "tema pretérito 3.ª persona plural"
+                    | "tema con alternancia vocálica"
+                    | "tema suplicativo"
+                    | "suplicativo del modelo" | "suplicativo del infinitivo"
+                    | "sufjio excepcional del modelo" | "sufjio excepcional del infinitivo"
+                    | "añade un sufijo a unos temas" | "añade unos sufijos a un tema" | "añade correspondiente 2 sufijos a 2 temas" | "multiplica 2 sufijos por 2 temas"
+                    | "elimina diferencias de vos" | "elimina formas personales"
+
+// Estos reglas deben ser legible por usuarios.
+type ReglaConjugacional =  CambioOrtografico | CambioEstrés | CambioAlternanciaVocálica | CambioProductivo
+
+
+
+// FIX: while populating this data, verify that added forms differ from the immediately preceding forms 
+// Tiene tema o sufijo, o ambos en caso de un suplicativo.
+// Estos corresponden con las formas del conjugación.
+// p.ej.: si hay dos formas, como por "amar",SubImp,s1: "amara" , "amase", 
+//   debe ser dos entradas aquí por sufijos:
+//     [{forma_conjugada:"ara", regla: "regular"},
+//      {forma_conjugada:"ase", regla: "regular"}]
+// Cuando una forma en una lista tiene un cambio y otra no, la sin cambio usa "undefined" para indicar que la forma no cambia.
+interface CambiosPorRegla {
+    regla: ReglaConjugacional
+    temas?: FormaConjugada[]
+    sufijos?: FormaConjugada[]
 }
 
-export interface ParticipleRulesApplied {
-    regular?: Participios
-    excepciones_léxicas?: Participios
-    prefixed?: Participios
-    gerund_stem_change?: string
-    orthography?: Participios
+
+type CambiosPorPersona = PersonasGramaticalesConVos<CambiosPorRegla[]>
+
+interface Cambios_Base {
+    infinitivo: string
+    modelo?: ModeloConjugacional
+    clase_de_conjugación?: PrefijosDeClaseConjugacional
+    impersonal?: Impersonal
 }
+
+export interface CambiosConjugacionales extends Cambios_Base {
+    modo_tiempo: MoodTense
+    cambios: CambiosPorPersona
+}
+
+
+type CambiosPorParticipios = Participios<CambiosPorRegla[]>
+
+interface CambiosDerivacionales extends Cambios_Base {
+    cambios: CambiosPorParticipios
+}
+
 
 

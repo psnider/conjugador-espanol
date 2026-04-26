@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kot̪iˈsaɾ]",
+    "silabacion": "co-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés cotiser (\"contribuir\", \"suscribirse\").",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"cotizar","gerundio":["cotizando"],"participio":["cotizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cotizo"],"s2":["cotizas"],"vos":["cotizás"],"s3":["cotiza"],"p1":["cotizamos"],"p2":["cotizáis"],"p3":["cotizan"]},
+    "IndImp": {"s1":["cotizaba"],"s2":["cotizabas"],"vos":["cotizabas"],"s3":["cotizaba"],"p1":["cotizábamos"],"p2":["cotizabais"],"p3":["cotizaban"]},
+    "IndPret": {"s1":["coticé"],"s2":["cotizaste"],"vos":["cotizaste"],"s3":["cotizó"],"p1":["cotizamos"],"p2":["cotizasteis"],"p3":["cotizaron"]},
+    "IndFut": {"s1":["cotizaré"],"s2":["cotizarás"],"vos":["cotizarás"],"s3":["cotizará"],"p1":["cotizaremos"],"p2":["cotizaréis"],"p3":["cotizarán"]},
+    "IndCond": {"s1":["cotizaría"],"s2":["cotizarías"],"vos":["cotizarías"],"s3":["cotizaría"],"p1":["cotizaríamos"],"p2":["cotizaríais"],"p3":["cotizarían"]},
+    "SubPres": {"s1":["cotice"],"s2":["cotices"],"vos":["cotices","coticés"],"s3":["cotice"],"p1":["coticemos"],"p2":["coticéis"],"p3":["coticen"]},
+    "SubImp": {"s1":["cotizara","cotizase"],"s2":["cotizaras","cotizases"],"vos":["cotizaras","cotizases"],"s3":["cotizara","cotizase"],"p1":["cotizáramos","cotizásemos"],"p2":["cotizarais","cotizaseis"],"p3":["cotizaran","cotizasen"]},
+    "SubFut": {"s1":["cotizare"],"s2":["cotizares"],"vos":["cotizares"],"s3":["cotizare"],"p1":["cotizáremos"],"p2":["cotizareis"],"p3":["cotizaren"]},
+    "CmdPos": {"s2":["cotiza"],"vos":["cotizá"],"s3":["cotice"],"p1":["coticemos"],"p2":["cotizad"],"p3":["coticen"]}
+  }
+}

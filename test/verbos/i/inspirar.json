@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnspiˈɾaɾ]",
+    "silabacion": "ins-pi-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inspirare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inspirar","gerundio":["inspirando"],"participio":["inspirado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inspiro"],"s2":["inspiras"],"vos":["inspirás"],"s3":["inspira"],"p1":["inspiramos"],"p2":["inspiráis"],"p3":["inspiran"]},
+    "IndImp": {"s1":["inspiraba"],"s2":["inspirabas"],"vos":["inspirabas"],"s3":["inspiraba"],"p1":["inspirábamos"],"p2":["inspirabais"],"p3":["inspiraban"]},
+    "IndPret": {"s1":["inspiré"],"s2":["inspiraste"],"vos":["inspiraste"],"s3":["inspiró"],"p1":["inspiramos"],"p2":["inspirasteis"],"p3":["inspiraron"]},
+    "IndFut": {"s1":["inspiraré"],"s2":["inspirarás"],"vos":["inspirarás"],"s3":["inspirará"],"p1":["inspiraremos"],"p2":["inspiraréis"],"p3":["inspirarán"]},
+    "IndCond": {"s1":["inspiraría"],"s2":["inspirarías"],"vos":["inspirarías"],"s3":["inspiraría"],"p1":["inspiraríamos"],"p2":["inspiraríais"],"p3":["inspirarían"]},
+    "SubPres": {"s1":["inspire"],"s2":["inspires"],"vos":["inspires","inspirés"],"s3":["inspire"],"p1":["inspiremos"],"p2":["inspiréis"],"p3":["inspiren"]},
+    "SubImp": {"s1":["inspirara","inspirase"],"s2":["inspiraras","inspirases"],"vos":["inspiraras","inspirases"],"s3":["inspirara","inspirase"],"p1":["inspiráramos","inspirásemos"],"p2":["inspirarais","inspiraseis"],"p3":["inspiraran","inspirasen"]},
+    "SubFut": {"s1":["inspirare"],"s2":["inspirares"],"vos":["inspirares"],"s3":["inspirare"],"p1":["inspiráremos"],"p2":["inspirareis"],"p3":["inspiraren"]},
+    "CmdPos": {"s2":["inspira"],"vos":["inspirá"],"s3":["inspire"],"p1":["inspiremos"],"p2":["inspirad"],"p3":["inspiren"]}
+  }
+}

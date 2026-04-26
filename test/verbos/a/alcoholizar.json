@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alkooliˈsaɾ]",
+    "silabacion": "al-co-ho-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De alcohol y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"alcoholizar","gerundio":["alcoholizando"],"participio":["alcoholizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["alcoholizo"],"s2":["alcoholizas"],"vos":["alcoholizás"],"s3":["alcoholiza"],"p1":["alcoholizamos"],"p2":["alcoholizáis"],"p3":["alcoholizan"]},
+    "IndImp": {"s1":["alcoholizaba"],"s2":["alcoholizabas"],"vos":["alcoholizabas"],"s3":["alcoholizaba"],"p1":["alcoholizábamos"],"p2":["alcoholizabais"],"p3":["alcoholizaban"]},
+    "IndPret": {"s1":["alcoholicé"],"s2":["alcoholizaste"],"vos":["alcoholizaste"],"s3":["alcoholizó"],"p1":["alcoholizamos"],"p2":["alcoholizasteis"],"p3":["alcoholizaron"]},
+    "IndFut": {"s1":["alcoholizaré"],"s2":["alcoholizarás"],"vos":["alcoholizarás"],"s3":["alcoholizará"],"p1":["alcoholizaremos"],"p2":["alcoholizaréis"],"p3":["alcoholizarán"]},
+    "IndCond": {"s1":["alcoholizaría"],"s2":["alcoholizarías"],"vos":["alcoholizarías"],"s3":["alcoholizaría"],"p1":["alcoholizaríamos"],"p2":["alcoholizaríais"],"p3":["alcoholizarían"]},
+    "SubPres": {"s1":["alcoholice"],"s2":["alcoholices"],"vos":["alcoholices","alcoholicés"],"s3":["alcoholice"],"p1":["alcoholicemos"],"p2":["alcoholicéis"],"p3":["alcoholicen"]},
+    "SubImp": {"s1":["alcoholizara","alcoholizase"],"s2":["alcoholizaras","alcoholizases"],"vos":["alcoholizaras","alcoholizases"],"s3":["alcoholizara","alcoholizase"],"p1":["alcoholizáramos","alcoholizásemos"],"p2":["alcoholizarais","alcoholizaseis"],"p3":["alcoholizaran","alcoholizasen"]},
+    "SubFut": {"s1":["alcoholizare"],"s2":["alcoholizares"],"vos":["alcoholizares"],"s3":["alcoholizare"],"p1":["alcoholizáremos"],"p2":["alcoholizareis"],"p3":["alcoholizaren"]},
+    "CmdPos": {"s2":["alcoholiza"],"vos":["alcoholizá"],"s3":["alcoholice"],"p1":["alcoholicemos"],"p2":["alcoholizad"],"p3":["alcoholicen"]}
+  }
+}

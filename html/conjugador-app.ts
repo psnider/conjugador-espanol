@@ -18,6 +18,8 @@ let latest_conjugated_forms = {}
 
 
 function updateTableRows(newRows: string[]) {
+    // FIX: clear any old message, this should not be necessary, resolve difference
+    conjugationBodyDiv.innerHTML = ""
     const tbody = document.getElementById("conjugation-body")!;
     const existingRows = Array.from(tbody.querySelectorAll("tr"));
 
@@ -101,12 +103,12 @@ function handleConjugate() {
         renderParticipiosTable(infinitive, participios.participles)
     } else {
         const conj = conjugateVerb(infinitive, mood_tense)
+        latest_conjugated_forms = conj?.forms
         if (!conj || !conj.forms) {
             const innerHTML = "<p>No hay formas para este verbo / modo-tiempo.</p>";
             conjugationBodyDiv.innerHTML = innerHTML
             return;
         }
-        latest_conjugated_forms = conj.forms
         renderConjugationTable(infinitive, mood_tense, conj.forms);
     }
 }
@@ -166,7 +168,7 @@ function getFormaHeaderAnnotation(ok: TestResults, mood_tense_deriv: MoodTenseDe
 /**
  * Renderiza la tabla de formas
  */
-function renderParticipiosTable(infinitive, participios: Participios) {
+function renderParticipiosTable(infinitive, participios: Participios<FormaConjugada[]>) {
     const ok = verbos_con_cambios_morfológicos[infinitive]?.ok
     formasHeaderAnnotation.textContent = getFormaHeaderAnnotation(ok, "Participios")
     let rows = ["gerundio", "participio"]

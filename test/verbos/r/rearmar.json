@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reaɾˈmaɾ]",
+    "silabacion": "re-ar-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rearmar","gerundio":["rearmando"],"participio":["rearmado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rearmo"],"s2":["rearmas"],"vos":["rearmás"],"s3":["rearma"],"p1":["rearmamos"],"p2":["rearmáis"],"p3":["rearman"]},
+    "IndImp": {"s1":["rearmaba"],"s2":["rearmabas"],"vos":["rearmabas"],"s3":["rearmaba"],"p1":["rearmábamos"],"p2":["rearmabais"],"p3":["rearmaban"]},
+    "IndPret": {"s1":["rearmé"],"s2":["rearmaste"],"vos":["rearmaste"],"s3":["rearmó"],"p1":["rearmamos"],"p2":["rearmasteis"],"p3":["rearmaron"]},
+    "IndFut": {"s1":["rearmaré"],"s2":["rearmarás"],"vos":["rearmarás"],"s3":["rearmará"],"p1":["rearmaremos"],"p2":["rearmaréis"],"p3":["rearmarán"]},
+    "IndCond": {"s1":["rearmaría"],"s2":["rearmarías"],"vos":["rearmarías"],"s3":["rearmaría"],"p1":["rearmaríamos"],"p2":["rearmaríais"],"p3":["rearmarían"]},
+    "SubPres": {"s1":["rearme"],"s2":["rearmes"],"vos":["rearmes","rearmés"],"s3":["rearme"],"p1":["rearmemos"],"p2":["rearméis"],"p3":["rearmen"]},
+    "SubImp": {"s1":["rearmara","rearmase"],"s2":["rearmaras","rearmases"],"vos":["rearmaras","rearmases"],"s3":["rearmara","rearmase"],"p1":["rearmáramos","rearmásemos"],"p2":["rearmarais","rearmaseis"],"p3":["rearmaran","rearmasen"]},
+    "SubFut": {"s1":["rearmare"],"s2":["rearmares"],"vos":["rearmares"],"s3":["rearmare"],"p1":["rearmáremos"],"p2":["rearmareis"],"p3":["rearmaren"]},
+    "CmdPos": {"s2":["rearma"],"vos":["rearmá"],"s3":["rearme"],"p1":["rearmemos"],"p2":["rearmad"],"p3":["rearmen"]}
+  }
+}

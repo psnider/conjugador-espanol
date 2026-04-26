@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[monet̪iˈsaɾ]",
+    "silabacion": "mo-ne-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"monetizar","gerundio":["monetizando"],"participio":["monetizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["monetizo"],"s2":["monetizas"],"vos":["monetizás"],"s3":["monetiza"],"p1":["monetizamos"],"p2":["monetizáis"],"p3":["monetizan"]},
+    "IndImp": {"s1":["monetizaba"],"s2":["monetizabas"],"vos":["monetizabas"],"s3":["monetizaba"],"p1":["monetizábamos"],"p2":["monetizabais"],"p3":["monetizaban"]},
+    "IndPret": {"s1":["moneticé"],"s2":["monetizaste"],"vos":["monetizaste"],"s3":["monetizó"],"p1":["monetizamos"],"p2":["monetizasteis"],"p3":["monetizaron"]},
+    "IndFut": {"s1":["monetizaré"],"s2":["monetizarás"],"vos":["monetizarás"],"s3":["monetizará"],"p1":["monetizaremos"],"p2":["monetizaréis"],"p3":["monetizarán"]},
+    "IndCond": {"s1":["monetizaría"],"s2":["monetizarías"],"vos":["monetizarías"],"s3":["monetizaría"],"p1":["monetizaríamos"],"p2":["monetizaríais"],"p3":["monetizarían"]},
+    "SubPres": {"s1":["monetice"],"s2":["monetices"],"vos":["monetices","moneticés"],"s3":["monetice"],"p1":["moneticemos"],"p2":["moneticéis"],"p3":["moneticen"]},
+    "SubImp": {"s1":["monetizara","monetizase"],"s2":["monetizaras","monetizases"],"vos":["monetizaras","monetizases"],"s3":["monetizara","monetizase"],"p1":["monetizáramos","monetizásemos"],"p2":["monetizarais","monetizaseis"],"p3":["monetizaran","monetizasen"]},
+    "SubFut": {"s1":["monetizare"],"s2":["monetizares"],"vos":["monetizares"],"s3":["monetizare"],"p1":["monetizáremos"],"p2":["monetizareis"],"p3":["monetizaren"]},
+    "CmdPos": {"s2":["monetiza"],"vos":["monetizá"],"s3":["monetice"],"p1":["moneticemos"],"p2":["monetizad"],"p3":["moneticen"]}
+  }
+}

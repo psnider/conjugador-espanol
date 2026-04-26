@@ -1,7 +1,7 @@
 import { ConjugaciónTabla, GrammaticalPerson, MoodTense, Participios, Defectos, FormaConjugada, MoodTenseMap } from "../src"
 
 
-export interface FormasNoPersonales extends Participios {
+export interface FormasNoPersonales extends Participios<FormaConjugada[]> {
     infinitivo: string
 }
 

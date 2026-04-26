@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪d̪uˈsiɾ]",
+    "silabacion": "in-du-cir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inducere.",
+    "modelos": ["producir"]
+  },
+  "formas_no_personales": {"infinitivo":"inducir","gerundio":["induciendo"],"participio":["inducido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["induzco"],"s2":["induces"],"vos":["inducís"],"s3":["induce"],"p1":["inducimos"],"p2":["inducís"],"p3":["inducen"]},
+    "IndImp": {"s1":["inducía"],"s2":["inducías"],"vos":["inducías"],"s3":["inducía"],"p1":["inducíamos"],"p2":["inducíais"],"p3":["inducían"]},
+    "IndPret": {"s1":["induje"],"s2":["indujiste"],"vos":["indujiste"],"s3":["indujo"],"p1":["indujimos"],"p2":["indujisteis"],"p3":["indujeron"]},
+    "IndFut": {"s1":["induciré"],"s2":["inducirás"],"vos":["inducirás"],"s3":["inducirá"],"p1":["induciremos"],"p2":["induciréis"],"p3":["inducirán"]},
+    "IndCond": {"s1":["induciría"],"s2":["inducirías"],"vos":["inducirías"],"s3":["induciría"],"p1":["induciríamos"],"p2":["induciríais"],"p3":["inducirían"]},
+    "SubPres": {"s1":["induzca"],"s2":["induzcas"],"vos":["induzcas","induzcás"],"s3":["induzca"],"p1":["induzcamos"],"p2":["induzcáis"],"p3":["induzcan"]},
+    "SubImp": {"s1":["indujera","indujese"],"s2":["indujeras","indujeses"],"vos":["indujeras","indujeses"],"s3":["indujera","indujese"],"p1":["indujéramos","indujésemos"],"p2":["indujerais","indujeseis"],"p3":["indujeran","indujesen"]},
+    "SubFut": {"s1":["indujere"],"s2":["indujeres"],"vos":["indujeres"],"s3":["indujere"],"p1":["indujéremos"],"p2":["indujereis"],"p3":["indujeren"]},
+    "CmdPos": {"s2":["induce"],"vos":["inducí"],"s3":["induzca"],"p1":["induzcamos"],"p2":["inducid"],"p3":["induzcan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soˈβ̞aɾ]",
+    "silabacion": "so-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobar","gerundio":["sobando"],"participio":["sobado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobo"],"s2":["sobas"],"vos":["sobás"],"s3":["soba"],"p1":["sobamos"],"p2":["sobáis"],"p3":["soban"]},
+    "IndImp": {"s1":["sobaba"],"s2":["sobabas"],"vos":["sobabas"],"s3":["sobaba"],"p1":["sobábamos"],"p2":["sobabais"],"p3":["sobaban"]},
+    "IndPret": {"s1":["sobé"],"s2":["sobaste"],"vos":["sobaste"],"s3":["sobó"],"p1":["sobamos"],"p2":["sobasteis"],"p3":["sobaron"]},
+    "IndFut": {"s1":["sobaré"],"s2":["sobarás"],"vos":["sobarás"],"s3":["sobará"],"p1":["sobaremos"],"p2":["sobaréis"],"p3":["sobarán"]},
+    "IndCond": {"s1":["sobaría"],"s2":["sobarías"],"vos":["sobarías"],"s3":["sobaría"],"p1":["sobaríamos"],"p2":["sobaríais"],"p3":["sobarían"]},
+    "SubPres": {"s1":["sobe"],"s2":["sobes"],"vos":["sobes","sobés"],"s3":["sobe"],"p1":["sobemos"],"p2":["sobéis"],"p3":["soben"]},
+    "SubImp": {"s1":["sobara","sobase"],"s2":["sobaras","sobases"],"vos":["sobaras","sobases"],"s3":["sobara","sobase"],"p1":["sobáramos","sobásemos"],"p2":["sobarais","sobaseis"],"p3":["sobaran","sobasen"]},
+    "SubFut": {"s1":["sobare"],"s2":["sobares"],"vos":["sobares"],"s3":["sobare"],"p1":["sobáremos"],"p2":["sobareis"],"p3":["sobaren"]},
+    "CmdPos": {"s2":["soba"],"vos":["sobá"],"s3":["sobe"],"p1":["sobemos"],"p2":["sobad"],"p3":["soben"]}
+  }
+}

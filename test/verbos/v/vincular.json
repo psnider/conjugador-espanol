@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bĩŋkuˈlaɾ]",
+    "silabacion": "vin-cu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vinculāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vincular","gerundio":["vinculando"],"participio":["vinculado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vinculo"],"s2":["vinculas"],"vos":["vinculás"],"s3":["vincula"],"p1":["vinculamos"],"p2":["vinculáis"],"p3":["vinculan"]},
+    "IndImp": {"s1":["vinculaba"],"s2":["vinculabas"],"vos":["vinculabas"],"s3":["vinculaba"],"p1":["vinculábamos"],"p2":["vinculabais"],"p3":["vinculaban"]},
+    "IndPret": {"s1":["vinculé"],"s2":["vinculaste"],"vos":["vinculaste"],"s3":["vinculó"],"p1":["vinculamos"],"p2":["vinculasteis"],"p3":["vincularon"]},
+    "IndFut": {"s1":["vincularé"],"s2":["vincularás"],"vos":["vincularás"],"s3":["vinculará"],"p1":["vincularemos"],"p2":["vincularéis"],"p3":["vincularán"]},
+    "IndCond": {"s1":["vincularía"],"s2":["vincularías"],"vos":["vincularías"],"s3":["vincularía"],"p1":["vincularíamos"],"p2":["vincularíais"],"p3":["vincularían"]},
+    "SubPres": {"s1":["vincule"],"s2":["vincules"],"vos":["vincules","vinculés"],"s3":["vincule"],"p1":["vinculemos"],"p2":["vinculéis"],"p3":["vinculen"]},
+    "SubImp": {"s1":["vinculara","vinculase"],"s2":["vincularas","vinculases"],"vos":["vincularas","vinculases"],"s3":["vinculara","vinculase"],"p1":["vinculáramos","vinculásemos"],"p2":["vincularais","vinculaseis"],"p3":["vincularan","vinculasen"]},
+    "SubFut": {"s1":["vinculare"],"s2":["vinculares"],"vos":["vinculares"],"s3":["vinculare"],"p1":["vinculáremos"],"p2":["vinculareis"],"p3":["vincularen"]},
+    "CmdPos": {"s2":["vincula"],"vos":["vinculá"],"s3":["vincule"],"p1":["vinculemos"],"p2":["vinculad"],"p3":["vinculen"]}
+  }
+}

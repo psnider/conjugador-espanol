@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbaɾˈɣ̞aɾ]",
+    "silabacion": "em-bar-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *imbarricāre, del latín in- y el latín vulgar *barra (\"barra, barrera\").",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"embargar","gerundio":["embargando"],"participio":["embargado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["embargo"],"s2":["embargas"],"vos":["embargás"],"s3":["embarga"],"p1":["embargamos"],"p2":["embargáis"],"p3":["embargan"]},
+    "IndImp": {"s1":["embargaba"],"s2":["embargabas"],"vos":["embargabas"],"s3":["embargaba"],"p1":["embargábamos"],"p2":["embargabais"],"p3":["embargaban"]},
+    "IndPret": {"s1":["embargué"],"s2":["embargaste"],"vos":["embargaste"],"s3":["embargó"],"p1":["embargamos"],"p2":["embargasteis"],"p3":["embargaron"]},
+    "IndFut": {"s1":["embargaré"],"s2":["embargarás"],"vos":["embargarás"],"s3":["embargará"],"p1":["embargaremos"],"p2":["embargaréis"],"p3":["embargarán"]},
+    "IndCond": {"s1":["embargaría"],"s2":["embargarías"],"vos":["embargarías"],"s3":["embargaría"],"p1":["embargaríamos"],"p2":["embargaríais"],"p3":["embargarían"]},
+    "SubPres": {"s1":["embargue"],"s2":["embargues"],"vos":["embargues","embargués"],"s3":["embargue"],"p1":["embarguemos"],"p2":["embarguéis"],"p3":["embarguen"]},
+    "SubImp": {"s1":["embargara","embargase"],"s2":["embargaras","embargases"],"vos":["embargaras","embargases"],"s3":["embargara","embargase"],"p1":["embargáramos","embargásemos"],"p2":["embargarais","embargaseis"],"p3":["embargaran","embargasen"]},
+    "SubFut": {"s1":["embargare"],"s2":["embargares"],"vos":["embargares"],"s3":["embargare"],"p1":["embargáremos"],"p2":["embargareis"],"p3":["embargaren"]},
+    "CmdPos": {"s2":["embarga"],"vos":["embargá"],"s3":["embargue"],"p1":["embarguemos"],"p2":["embargad"],"p3":["embarguen"]}
+  }
+}

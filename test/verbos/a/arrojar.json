@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aroˈxaɾ]",
+    "silabacion": "a-rro-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rotulus ('rodillo'), verbalizado en el vulgar como *rotulāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrojar","gerundio":["arrojando"],"participio":["arrojado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arrojo"],"s2":["arrojas"],"vos":["arrojás"],"s3":["arroja"],"p1":["arrojamos"],"p2":["arrojáis"],"p3":["arrojan"]},
+    "IndImp": {"s1":["arrojaba"],"s2":["arrojabas"],"vos":["arrojabas"],"s3":["arrojaba"],"p1":["arrojábamos"],"p2":["arrojabais"],"p3":["arrojaban"]},
+    "IndPret": {"s1":["arrojé"],"s2":["arrojaste"],"vos":["arrojaste"],"s3":["arrojó"],"p1":["arrojamos"],"p2":["arrojasteis"],"p3":["arrojaron"]},
+    "IndFut": {"s1":["arrojaré"],"s2":["arrojarás"],"vos":["arrojarás"],"s3":["arrojará"],"p1":["arrojaremos"],"p2":["arrojaréis"],"p3":["arrojarán"]},
+    "IndCond": {"s1":["arrojaría"],"s2":["arrojarías"],"vos":["arrojarías"],"s3":["arrojaría"],"p1":["arrojaríamos"],"p2":["arrojaríais"],"p3":["arrojarían"]},
+    "SubPres": {"s1":["arroje"],"s2":["arrojes"],"vos":["arrojes","arrojés"],"s3":["arroje"],"p1":["arrojemos"],"p2":["arrojéis"],"p3":["arrojen"]},
+    "SubImp": {"s1":["arrojara","arrojase"],"s2":["arrojaras","arrojases"],"vos":["arrojaras","arrojases"],"s3":["arrojara","arrojase"],"p1":["arrojáramos","arrojásemos"],"p2":["arrojarais","arrojaseis"],"p3":["arrojaran","arrojasen"]},
+    "SubFut": {"s1":["arrojare"],"s2":["arrojares"],"vos":["arrojares"],"s3":["arrojare"],"p1":["arrojáremos"],"p2":["arrojareis"],"p3":["arrojaren"]},
+    "CmdPos": {"s2":["arroja"],"vos":["arrojá"],"s3":["arroje"],"p1":["arrojemos"],"p2":["arrojad"],"p3":["arrojen"]}
+  }
+}

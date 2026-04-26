@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkoɾpoˈɾaɾ]",
+    "silabacion": "in-cor-po-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín incorporare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"incorporar","gerundio":["incorporando"],"participio":["incorporado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["incorporo"],"s2":["incorporas"],"vos":["incorporás"],"s3":["incorpora"],"p1":["incorporamos"],"p2":["incorporáis"],"p3":["incorporan"]},
+    "IndImp": {"s1":["incorporaba"],"s2":["incorporabas"],"vos":["incorporabas"],"s3":["incorporaba"],"p1":["incorporábamos"],"p2":["incorporabais"],"p3":["incorporaban"]},
+    "IndPret": {"s1":["incorporé"],"s2":["incorporaste"],"vos":["incorporaste"],"s3":["incorporó"],"p1":["incorporamos"],"p2":["incorporasteis"],"p3":["incorporaron"]},
+    "IndFut": {"s1":["incorporaré"],"s2":["incorporarás"],"vos":["incorporarás"],"s3":["incorporará"],"p1":["incorporaremos"],"p2":["incorporaréis"],"p3":["incorporarán"]},
+    "IndCond": {"s1":["incorporaría"],"s2":["incorporarías"],"vos":["incorporarías"],"s3":["incorporaría"],"p1":["incorporaríamos"],"p2":["incorporaríais"],"p3":["incorporarían"]},
+    "SubPres": {"s1":["incorpore"],"s2":["incorpores"],"vos":["incorpores","incorporés"],"s3":["incorpore"],"p1":["incorporemos"],"p2":["incorporéis"],"p3":["incorporen"]},
+    "SubImp": {"s1":["incorporara","incorporase"],"s2":["incorporaras","incorporases"],"vos":["incorporaras","incorporases"],"s3":["incorporara","incorporase"],"p1":["incorporáramos","incorporásemos"],"p2":["incorporarais","incorporaseis"],"p3":["incorporaran","incorporasen"]},
+    "SubFut": {"s1":["incorporare"],"s2":["incorporares"],"vos":["incorporares"],"s3":["incorporare"],"p1":["incorporáremos"],"p2":["incorporareis"],"p3":["incorporaren"]},
+    "CmdPos": {"s2":["incorpora"],"vos":["incorporá"],"s3":["incorpore"],"p1":["incorporemos"],"p2":["incorporad"],"p3":["incorporen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rað̞iˈkaɾ]",
+    "silabacion": "ra-di-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín radicāre[1], y este del latín radix, del protoitálico *wrādīc, del protoindoeuropeo *wr̥h₂dih₂k-, del protoindoeuropeo *wréh₂ds.[2] Compárese el catalán radicar o el italiano radicare.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"radicar","gerundio":["radicando"],"participio":["radicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["radico"],"s2":["radicas"],"vos":["radicás"],"s3":["radica"],"p1":["radicamos"],"p2":["radicáis"],"p3":["radican"]},
+    "IndImp": {"s1":["radicaba"],"s2":["radicabas"],"vos":["radicabas"],"s3":["radicaba"],"p1":["radicábamos"],"p2":["radicabais"],"p3":["radicaban"]},
+    "IndPret": {"s1":["radiqué"],"s2":["radicaste"],"vos":["radicaste"],"s3":["radicó"],"p1":["radicamos"],"p2":["radicasteis"],"p3":["radicaron"]},
+    "IndFut": {"s1":["radicaré"],"s2":["radicarás"],"vos":["radicarás"],"s3":["radicará"],"p1":["radicaremos"],"p2":["radicaréis"],"p3":["radicarán"]},
+    "IndCond": {"s1":["radicaría"],"s2":["radicarías"],"vos":["radicarías"],"s3":["radicaría"],"p1":["radicaríamos"],"p2":["radicaríais"],"p3":["radicarían"]},
+    "SubPres": {"s1":["radique"],"s2":["radiques"],"vos":["radiques","radiqués"],"s3":["radique"],"p1":["radiquemos"],"p2":["radiquéis"],"p3":["radiquen"]},
+    "SubImp": {"s1":["radicara","radicase"],"s2":["radicaras","radicases"],"vos":["radicaras","radicases"],"s3":["radicara","radicase"],"p1":["radicáramos","radicásemos"],"p2":["radicarais","radicaseis"],"p3":["radicaran","radicasen"]},
+    "SubFut": {"s1":["radicare"],"s2":["radicares"],"vos":["radicares"],"s3":["radicare"],"p1":["radicáremos"],"p2":["radicareis"],"p3":["radicaren"]},
+    "CmdPos": {"s2":["radica"],"vos":["radicá"],"s3":["radique"],"p1":["radiquemos"],"p2":["radicad"],"p3":["radiquen"]}
+  }
+}

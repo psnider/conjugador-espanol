@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sal̪ˈd̪aɾ]",
+    "silabacion": "sal-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano saldare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"saldar","gerundio":["saldando"],"participio":["saldado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["saldo"],"s2":["saldas"],"vos":["saldás"],"s3":["salda"],"p1":["saldamos"],"p2":["saldáis"],"p3":["saldan"]},
+    "IndImp": {"s1":["saldaba"],"s2":["saldabas"],"vos":["saldabas"],"s3":["saldaba"],"p1":["saldábamos"],"p2":["saldabais"],"p3":["saldaban"]},
+    "IndPret": {"s1":["saldé"],"s2":["saldaste"],"vos":["saldaste"],"s3":["saldó"],"p1":["saldamos"],"p2":["saldasteis"],"p3":["saldaron"]},
+    "IndFut": {"s1":["saldaré"],"s2":["saldarás"],"vos":["saldarás"],"s3":["saldará"],"p1":["saldaremos"],"p2":["saldaréis"],"p3":["saldarán"]},
+    "IndCond": {"s1":["saldaría"],"s2":["saldarías"],"vos":["saldarías"],"s3":["saldaría"],"p1":["saldaríamos"],"p2":["saldaríais"],"p3":["saldarían"]},
+    "SubPres": {"s1":["salde"],"s2":["saldes"],"vos":["saldes","saldés"],"s3":["salde"],"p1":["saldemos"],"p2":["saldéis"],"p3":["salden"]},
+    "SubImp": {"s1":["saldara","saldase"],"s2":["saldaras","saldases"],"vos":["saldaras","saldases"],"s3":["saldara","saldase"],"p1":["saldáramos","saldásemos"],"p2":["saldarais","saldaseis"],"p3":["saldaran","saldasen"]},
+    "SubFut": {"s1":["saldare"],"s2":["saldares"],"vos":["saldares"],"s3":["saldare"],"p1":["saldáremos"],"p2":["saldareis"],"p3":["saldaren"]},
+    "CmdPos": {"s2":["salda"],"vos":["saldá"],"s3":["salde"],"p1":["saldemos"],"p2":["saldad"],"p3":["salden"]}
+  }
+}

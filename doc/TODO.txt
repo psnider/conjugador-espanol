@@ -1,11 +1,11 @@
 # This release
-- BUG: CmdNeg is not correct 
+- all remaining verbs handled correcctly
+- corrected CmdNeg 
+- acknowledged es.wictionary and the DEM
 
 # Next release
-- add acknowledgements to es.wictionary and to DEM
 - add SEO terms
 - give message if user enters non-verb
-- ZC -> Z: cocer, torcer, ejercer, esparcir, fruncir, vencer
 - distingua entre conjugación completa y conjugación de <rasgo=modo+tiempo+polaridad>
 - reconoce verbos pronominales
 

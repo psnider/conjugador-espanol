@@ -1,4 +1,4 @@
-import { FormaConjugada, GrammaticalPerson, MoodTense, VerbConjugation, VerbConjugationStems, FormaRestringida, Participios} from "."
+import { FormaConjugada, GrammaticalPerson, MoodTense, VerbConjugation, VerbConjugationStems, FormaRestringida, Participios, Uso, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla } from "."
 
 
 export const vowels = "aáeéiíoóuúü"
@@ -6,8 +6,8 @@ export const consonantes = "bcdfghjklmnñpqrstvwxyz"
 export const verb_terminations_normalized = ["ar", "er", "ir"]
 export const verb_terminations_all = ["ar", "er", "ir", "ír"]
 
-export const persons_standard = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3"]
-export const persons_w_vos = <(keyof VerbConjugation)[]> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
+export const persons_standard = <GrammaticalPerson[]> ["s1", "s2", "s3", "p1", "p2", "p3"]
+export const persons_w_vos = <GrammaticalPerson[]> ["s1", "s2", "s3", "p1", "p2", "p3", "vos"]
 export const persons_w_vos_index: {[person: string]: 1} = {s1: 1, s2: 1, s3: 1, p1: 1, p2: 1, p3: 1, vos: 1}
 export const mood_tenses : MoodTense[] = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"]
 
@@ -21,11 +21,11 @@ export function assert(condition: boolean, message: string) {
 
 // Applies a change to a conjugated form, and returns the changed, but returns undefined if there was no change.
 // @param change applies a transformation to the input, and returns either a changed value or undefined.
-export function applyToFormaConjugada(form: FormaConjugada, i: number, change: (form: string | null | undefined, i: number) => string | null | undefined) : FormaConjugada | undefined {
+export function applyToFormaConjugada(form: FormaConjugada, i: number, change: (form: string | null | undefined, i: number, uso: Uso) => string | null | undefined) : FormaConjugada | undefined {
     const es_restringida = (typeof form !== "string")
     const uso = (<FormaRestringida> form).uso
     const original = (es_restringida ? (<FormaRestringida> form).forma : form)
-    const changed = change(original, i)
+    const changed = change(original, i, uso)
     if (changed && (changed !== original)) {
         return (es_restringida ? {forma: changed, uso} : changed)
     }
@@ -41,7 +41,7 @@ export function applyToFormaConjugada(form: FormaConjugada, i: number, change: (
 // @param source_forms The starting verb forms. This is not modified.
 // @change: Returns the changed form, or undefined if there is no change.
 // @return The 'FormaConjugada' after applying the change()
-export function applyToFormasConjugadas(source_forms: FormaConjugada[], change: (form: string | null | undefined, i: number) => string | null | undefined) : (FormaConjugada | undefined)[] | undefined {
+export function applyToFormasConjugadas(source_forms: FormaConjugada[], change: (form: string | null | undefined, i: number, uso?: Uso) => string | null | undefined) : (FormaConjugada | undefined)[] | undefined {
     if (source_forms) {
         const changed_forms = source_forms.map((source_form, i) => {
             return applyToFormaConjugada(source_form, i, change)
@@ -69,8 +69,8 @@ export function formaConjugadaIgual(lhs: FormaConjugada | undefined, rhs: FormaC
     if (!lhs || !rhs) {
         return false
     }
-    const lhs_str = ((typeof lhs === "string") ? lhs : lhs.forma)
-    const rhs_str = ((typeof rhs === "string") ? rhs : rhs.forma)
+    const lhs_str = getForma(lhs)
+    const rhs_str = getForma(rhs)
     return (lhs_str === rhs_str)
 }
 
@@ -124,8 +124,8 @@ export function isValueless(forma_conjugadas?: (FormaConjugada | undefined)[] | 
     } else {
         const index_first_value = forma_conjugadas.findIndex((forma_conjugada) => {
             if (forma_conjugada != null) {
-                const es_string = (typeof forma_conjugada === "string")
-                return (es_string ? true : (forma_conjugada.forma != null))
+                const is_string = (typeof forma_conjugada === "string")
+                return (is_string ? true : (forma_conjugada.forma != null))
             }
         })
         return (index_first_value === -1)
@@ -145,7 +145,7 @@ export function removeValuelessEntries(conjugation: VerbConjugation) {
 }
 
 
-export function combinaFormasConjugadas(bases: FormaConjugada[], actualizaciones: FormaConjugada[] | undefined) {
+export function combinaFormasConjugadas(bases: FormaConjugada[], actualizaciones: FormaConjugada[] | undefined) : FormaConjugada[] | undefined {
     if ((bases == null) && (actualizaciones == null)) {
         return undefined
     }
@@ -185,7 +185,7 @@ export function combinaFormasConjugadas(bases: FormaConjugada[], actualizaciones
 }
 
 
-export function combinaParticipios(base: Participios, actualización?: Participios) : Participios {
+export function combinaParticipios(base: Participios<FormaConjugada[]>, actualización?: Participios<FormaConjugada[]>) : Participios<FormaConjugada[]> {
     const gerundio = <FormaConjugada[]> combinaFormasConjugadas(base.gerundio!, actualización?.gerundio)
     const participio = <FormaConjugada[]> combinaFormasConjugadas(base.participio!, actualización?.participio)
     return {gerundio, participio}
@@ -291,4 +291,92 @@ export function compareSpanishWords(lhs: string, rhs: string): number {
     }
 
     return lhs.length - rhs.length;
+}
+
+
+export function acumulaCambiosPorPersona(args: {cambios_aplicadas: CambiosPorPersona, persona?: GrammaticalPerson, temas?: VerbConjugation, sufijos?: VerbConjugation, regla: ReglaConjugacional}) {
+    // function añadeReglaAFormaConjugada(formas_conjugadas?: FormaConjugada[]) {
+    //     if (formas_conjugadas) {
+    //         const con_regla = formas_conjugadas.map((forma_conjugada) => {
+    //             return {regla, forma_conjugada}
+    //         })
+    //         return con_regla
+    //     }
+    // }
+    const {cambios_aplicadas, persona, temas, sufijos, regla} = args
+    const personas = (persona ? [persona] : persons_w_vos)
+    for (const persona of personas) {
+        const temas_por_persona = temas?.[persona]
+        const sufijos_por_persona = sufijos?.[persona]
+        if (temas_por_persona || sufijos_por_persona) {
+            const cambio: CambiosPorRegla = {regla, temas: temas_por_persona, sufijos: sufijos_por_persona}
+            cambios_aplicadas[persona] = cambios_aplicadas[persona] || []
+            cambios_aplicadas[persona].push(cambio)
+        }
+    }
+}
+
+
+export function añadeCambiosPorPersona(args: {acumulado: CambiosPorPersona, adicional: CambiosPorPersona}) {
+    const {acumulado, adicional} = args
+    for (const persona in adicional) {
+        acumulado[persona] = acumulado[persona] || []
+        acumulado[persona].push(...adicional[persona])
+    }
+}
+
+
+export function extraeTema(forma_completa: string, sufijos: FormaConjugada[]) : {tema: string, sufijo: string} {
+    function getSufijoAlternativa(sufijo_forma: string) {
+        let alternativa: string
+        if (sufijo_forma.match(/^i[eó]/)) {
+            alternativa = sufijo_forma.replace("i", "y")
+        } else if (sufijo_forma.startsWith("i")) {
+            alternativa = sufijo_forma.replace("i", "í")
+        } else if (["ís","í"].includes(sufijo_forma)) {
+            alternativa = sufijo_forma.replace("í", "i")
+        }if (["eis","en","es","e"].includes(sufijo_forma)) {
+            // "entrever"
+            alternativa = sufijo_forma.replace("e", "é")
+        }
+        return alternativa
+    }
+    for (const sufijo of sufijos) {
+        const sufijo_forma = getForma(sufijo)
+        const sufijo_forma_alternativa = getSufijoAlternativa(sufijo_forma)
+        if (forma_completa.endsWith(sufijo_forma)) {
+            const tema = forma_completa.slice(0, -sufijo_forma.length)
+            return {tema, sufijo: sufijo_forma}
+        } else if (sufijo_forma_alternativa && forma_completa.endsWith(sufijo_forma_alternativa)) {
+            const tema = forma_completa.slice(0, -sufijo_forma.length)
+            return {tema, sufijo: sufijo_forma_alternativa}
+        }
+    }
+    throw new Error(`La forma_completa=${forma_completa} debe terminar con un de los sufijos=${JSON.stringify(sufijos)}`)
+}
+
+
+// Por cada forma en formas_completas, separa la en el tema y el prefijo, según uno de los sufijos, ignorando los 'uso's.
+export function extraeTemas(formas_completas: FormaConjugada[], sufijos: FormaConjugada[]) : {tema: string, sufijo: string}[] {
+    const split_formas: {tema: string, sufijo: string}[] = []
+    for (const forma_completa of formas_completas) {
+        const split = extraeTema(getForma(forma_completa), sufijos)
+        split_formas.push(split)
+    }
+    return split_formas
+}
+
+
+export function getForma(forma_conjugada: FormaConjugada) : string {
+    const forma = ((typeof forma_conjugada === "string") ? forma_conjugada : forma_conjugada?.forma)
+    return forma
+}
+
+
+export function asFormaConjugada(forma: string, model: FormaConjugada) : FormaConjugada {
+    if (typeof model === "string") {
+        return forma
+    } else {
+        return {forma, uso: model.uso}
+    }
 }

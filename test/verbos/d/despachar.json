@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espaˈt͡ʃaɾ]",
+    "silabacion": "des-pa-char",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"despachar","gerundio":["despachando"],"participio":["despachado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["despacho"],"s2":["despachas"],"vos":["despachás"],"s3":["despacha"],"p1":["despachamos"],"p2":["despacháis"],"p3":["despachan"]},
+    "IndImp": {"s1":["despachaba"],"s2":["despachabas"],"vos":["despachabas"],"s3":["despachaba"],"p1":["despachábamos"],"p2":["despachabais"],"p3":["despachaban"]},
+    "IndPret": {"s1":["despaché"],"s2":["despachaste"],"vos":["despachaste"],"s3":["despachó"],"p1":["despachamos"],"p2":["despachasteis"],"p3":["despacharon"]},
+    "IndFut": {"s1":["despacharé"],"s2":["despacharás"],"vos":["despacharás"],"s3":["despachará"],"p1":["despacharemos"],"p2":["despacharéis"],"p3":["despacharán"]},
+    "IndCond": {"s1":["despacharía"],"s2":["despacharías"],"vos":["despacharías"],"s3":["despacharía"],"p1":["despacharíamos"],"p2":["despacharíais"],"p3":["despacharían"]},
+    "SubPres": {"s1":["despache"],"s2":["despaches"],"vos":["despaches","despachés"],"s3":["despache"],"p1":["despachemos"],"p2":["despachéis"],"p3":["despachen"]},
+    "SubImp": {"s1":["despachara","despachase"],"s2":["despacharas","despachases"],"vos":["despacharas","despachases"],"s3":["despachara","despachase"],"p1":["despacháramos","despachásemos"],"p2":["despacharais","despachaseis"],"p3":["despacharan","despachasen"]},
+    "SubFut": {"s1":["despachare"],"s2":["despachares"],"vos":["despachares"],"s3":["despachare"],"p1":["despacháremos"],"p2":["despachareis"],"p3":["despacharen"]},
+    "CmdPos": {"s2":["despacha"],"vos":["despachá"],"s3":["despache"],"p1":["despachemos"],"p2":["despachad"],"p3":["despachen"]}
+  }
+}

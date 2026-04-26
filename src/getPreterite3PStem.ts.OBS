@@ -1,5 +1,6 @@
 
 import { _conjugateVerb } from "./conjugate-verb.js"
+import { getForma } from "./lib.js"
 import { ConjugationAndDerivationRules, Prefixes } from "./resolve-conjugation-class.js"
 
 
@@ -12,7 +13,7 @@ export function getPreterite3PStem(conj_and_deriv_rules: ConjugationAndDerivatio
     const {forms} = _conjugateVerb(conj_and_derviv_rules_conjugable_only, "IndPret")
     // TODO: is this correct? assuming that there is only ONE form
     const ustedes_form = forms["p3"][0]
-    const ustedes_form_str = ((typeof ustedes_form === "string") ? ustedes_form : ustedes_form.forma)
+    const ustedes_form_str = getForma(ustedes_form)
     const tema_base = ustedes_form_str.slice(0, -3)
     return tema_base
 }

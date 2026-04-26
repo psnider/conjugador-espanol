@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾð̞oˈnaɾ]",
+    "silabacion": "per-do-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín per ('por') y donare ('dar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"perdonar","gerundio":["perdonando"],"participio":["perdonado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["perdono"],"s2":["perdonas"],"vos":["perdonás"],"s3":["perdona"],"p1":["perdonamos"],"p2":["perdonáis"],"p3":["perdonan"]},
+    "IndImp": {"s1":["perdonaba"],"s2":["perdonabas"],"vos":["perdonabas"],"s3":["perdonaba"],"p1":["perdonábamos"],"p2":["perdonabais"],"p3":["perdonaban"]},
+    "IndPret": {"s1":["perdoné"],"s2":["perdonaste"],"vos":["perdonaste"],"s3":["perdonó"],"p1":["perdonamos"],"p2":["perdonasteis"],"p3":["perdonaron"]},
+    "IndFut": {"s1":["perdonaré"],"s2":["perdonarás"],"vos":["perdonarás"],"s3":["perdonará"],"p1":["perdonaremos"],"p2":["perdonaréis"],"p3":["perdonarán"]},
+    "IndCond": {"s1":["perdonaría"],"s2":["perdonarías"],"vos":["perdonarías"],"s3":["perdonaría"],"p1":["perdonaríamos"],"p2":["perdonaríais"],"p3":["perdonarían"]},
+    "SubPres": {"s1":["perdone"],"s2":["perdones"],"vos":["perdones","perdonés"],"s3":["perdone"],"p1":["perdonemos"],"p2":["perdonéis"],"p3":["perdonen"]},
+    "SubImp": {"s1":["perdonara","perdonase"],"s2":["perdonaras","perdonases"],"vos":["perdonaras","perdonases"],"s3":["perdonara","perdonase"],"p1":["perdonáramos","perdonásemos"],"p2":["perdonarais","perdonaseis"],"p3":["perdonaran","perdonasen"]},
+    "SubFut": {"s1":["perdonare"],"s2":["perdonares"],"vos":["perdonares"],"s3":["perdonare"],"p1":["perdonáremos"],"p2":["perdonareis"],"p3":["perdonaren"]},
+    "CmdPos": {"s2":["perdona"],"vos":["perdoná"],"s3":["perdone"],"p1":["perdonemos"],"p2":["perdonad"],"p3":["perdonen"]}
+  }
+}

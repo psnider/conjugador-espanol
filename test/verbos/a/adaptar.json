@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞apˈt̪aɾ]",
+    "silabacion": "a-dap-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adaptō, adaptāre,[1] compuesto del latín apto (\"ajustar\", \"adecuar\", \"preparar\", \"hacer apto\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adaptar","gerundio":["adaptando"],"participio":["adaptado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adapto"],"s2":["adaptas"],"vos":["adaptás"],"s3":["adapta"],"p1":["adaptamos"],"p2":["adaptáis"],"p3":["adaptan"]},
+    "IndImp": {"s1":["adaptaba"],"s2":["adaptabas"],"vos":["adaptabas"],"s3":["adaptaba"],"p1":["adaptábamos"],"p2":["adaptabais"],"p3":["adaptaban"]},
+    "IndPret": {"s1":["adapté"],"s2":["adaptaste"],"vos":["adaptaste"],"s3":["adaptó"],"p1":["adaptamos"],"p2":["adaptasteis"],"p3":["adaptaron"]},
+    "IndFut": {"s1":["adaptaré"],"s2":["adaptarás"],"vos":["adaptarás"],"s3":["adaptará"],"p1":["adaptaremos"],"p2":["adaptaréis"],"p3":["adaptarán"]},
+    "IndCond": {"s1":["adaptaría"],"s2":["adaptarías"],"vos":["adaptarías"],"s3":["adaptaría"],"p1":["adaptaríamos"],"p2":["adaptaríais"],"p3":["adaptarían"]},
+    "SubPres": {"s1":["adapte"],"s2":["adaptes"],"vos":["adaptes","adaptés"],"s3":["adapte"],"p1":["adaptemos"],"p2":["adaptéis"],"p3":["adapten"]},
+    "SubImp": {"s1":["adaptara","adaptase"],"s2":["adaptaras","adaptases"],"vos":["adaptaras","adaptases"],"s3":["adaptara","adaptase"],"p1":["adaptáramos","adaptásemos"],"p2":["adaptarais","adaptaseis"],"p3":["adaptaran","adaptasen"]},
+    "SubFut": {"s1":["adaptare"],"s2":["adaptares"],"vos":["adaptares"],"s3":["adaptare"],"p1":["adaptáremos"],"p2":["adaptareis"],"p3":["adaptaren"]},
+    "CmdPos": {"s2":["adapta"],"vos":["adaptá"],"s3":["adapte"],"p1":["adaptemos"],"p2":["adaptad"],"p3":["adapten"]}
+  }
+}

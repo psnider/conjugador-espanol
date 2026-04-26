@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaslaˈð̞aɾ]",
+    "silabacion": "tras-la-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De traslado y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trasladar","gerundio":["trasladando"],"participio":["trasladado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["traslado"],"s2":["trasladas"],"vos":["trasladás"],"s3":["traslada"],"p1":["trasladamos"],"p2":["trasladáis"],"p3":["trasladan"]},
+    "IndImp": {"s1":["trasladaba"],"s2":["trasladabas"],"vos":["trasladabas"],"s3":["trasladaba"],"p1":["trasladábamos"],"p2":["trasladabais"],"p3":["trasladaban"]},
+    "IndPret": {"s1":["trasladé"],"s2":["trasladaste"],"vos":["trasladaste"],"s3":["trasladó"],"p1":["trasladamos"],"p2":["trasladasteis"],"p3":["trasladaron"]},
+    "IndFut": {"s1":["trasladaré"],"s2":["trasladarás"],"vos":["trasladarás"],"s3":["trasladará"],"p1":["trasladaremos"],"p2":["trasladaréis"],"p3":["trasladarán"]},
+    "IndCond": {"s1":["trasladaría"],"s2":["trasladarías"],"vos":["trasladarías"],"s3":["trasladaría"],"p1":["trasladaríamos"],"p2":["trasladaríais"],"p3":["trasladarían"]},
+    "SubPres": {"s1":["traslade"],"s2":["traslades"],"vos":["traslades","trasladés"],"s3":["traslade"],"p1":["traslademos"],"p2":["trasladéis"],"p3":["trasladen"]},
+    "SubImp": {"s1":["trasladara","trasladase"],"s2":["trasladaras","trasladases"],"vos":["trasladaras","trasladases"],"s3":["trasladara","trasladase"],"p1":["trasladáramos","trasladásemos"],"p2":["trasladarais","trasladaseis"],"p3":["trasladaran","trasladasen"]},
+    "SubFut": {"s1":["trasladare"],"s2":["trasladares"],"vos":["trasladares"],"s3":["trasladare"],"p1":["trasladáremos"],"p2":["trasladareis"],"p3":["trasladaren"]},
+    "CmdPos": {"s2":["traslada"],"vos":["trasladá"],"s3":["traslade"],"p1":["traslademos"],"p2":["trasladad"],"p3":["trasladen"]}
+  }
+}

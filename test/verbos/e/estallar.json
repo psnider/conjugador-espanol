@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪aˈʝaɾ]",
+    "silabacion": "es-ta-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo *astellar, \"hacerse astillas o trizas\".[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estallar","gerundio":["estallando"],"participio":["estallado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estallo"],"s2":["estallas"],"vos":["estallás"],"s3":["estalla"],"p1":["estallamos"],"p2":["estalláis"],"p3":["estallan"]},
+    "IndImp": {"s1":["estallaba"],"s2":["estallabas"],"vos":["estallabas"],"s3":["estallaba"],"p1":["estallábamos"],"p2":["estallabais"],"p3":["estallaban"]},
+    "IndPret": {"s1":["estallé"],"s2":["estallaste"],"vos":["estallaste"],"s3":["estalló"],"p1":["estallamos"],"p2":["estallasteis"],"p3":["estallaron"]},
+    "IndFut": {"s1":["estallaré"],"s2":["estallarás"],"vos":["estallarás"],"s3":["estallará"],"p1":["estallaremos"],"p2":["estallaréis"],"p3":["estallarán"]},
+    "IndCond": {"s1":["estallaría"],"s2":["estallarías"],"vos":["estallarías"],"s3":["estallaría"],"p1":["estallaríamos"],"p2":["estallaríais"],"p3":["estallarían"]},
+    "SubPres": {"s1":["estalle"],"s2":["estalles"],"vos":["estalles","estallés"],"s3":["estalle"],"p1":["estallemos"],"p2":["estalléis"],"p3":["estallen"]},
+    "SubImp": {"s1":["estallara","estallase"],"s2":["estallaras","estallases"],"vos":["estallaras","estallases"],"s3":["estallara","estallase"],"p1":["estalláramos","estallásemos"],"p2":["estallarais","estallaseis"],"p3":["estallaran","estallasen"]},
+    "SubFut": {"s1":["estallare"],"s2":["estallares"],"vos":["estallares"],"s3":["estallare"],"p1":["estalláremos"],"p2":["estallareis"],"p3":["estallaren"]},
+    "CmdPos": {"s2":["estalla"],"vos":["estallá"],"s3":["estalle"],"p1":["estallemos"],"p2":["estallad"],"p3":["estallen"]}
+  }
+}

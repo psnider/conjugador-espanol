@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmmoɾt̪aliˈsaɾ]",
+    "silabacion": "in-mor-ta-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"inmortalizar","gerundio":["inmortalizando"],"participio":["inmortalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inmortalizo"],"s2":["inmortalizas"],"vos":["inmortalizás"],"s3":["inmortaliza"],"p1":["inmortalizamos"],"p2":["inmortalizáis"],"p3":["inmortalizan"]},
+    "IndImp": {"s1":["inmortalizaba"],"s2":["inmortalizabas"],"vos":["inmortalizabas"],"s3":["inmortalizaba"],"p1":["inmortalizábamos"],"p2":["inmortalizabais"],"p3":["inmortalizaban"]},
+    "IndPret": {"s1":["inmortalicé"],"s2":["inmortalizaste"],"vos":["inmortalizaste"],"s3":["inmortalizó"],"p1":["inmortalizamos"],"p2":["inmortalizasteis"],"p3":["inmortalizaron"]},
+    "IndFut": {"s1":["inmortalizaré"],"s2":["inmortalizarás"],"vos":["inmortalizarás"],"s3":["inmortalizará"],"p1":["inmortalizaremos"],"p2":["inmortalizaréis"],"p3":["inmortalizarán"]},
+    "IndCond": {"s1":["inmortalizaría"],"s2":["inmortalizarías"],"vos":["inmortalizarías"],"s3":["inmortalizaría"],"p1":["inmortalizaríamos"],"p2":["inmortalizaríais"],"p3":["inmortalizarían"]},
+    "SubPres": {"s1":["inmortalice"],"s2":["inmortalices"],"vos":["inmortalices","inmortalicés"],"s3":["inmortalice"],"p1":["inmortalicemos"],"p2":["inmortalicéis"],"p3":["inmortalicen"]},
+    "SubImp": {"s1":["inmortalizara","inmortalizase"],"s2":["inmortalizaras","inmortalizases"],"vos":["inmortalizaras","inmortalizases"],"s3":["inmortalizara","inmortalizase"],"p1":["inmortalizáramos","inmortalizásemos"],"p2":["inmortalizarais","inmortalizaseis"],"p3":["inmortalizaran","inmortalizasen"]},
+    "SubFut": {"s1":["inmortalizare"],"s2":["inmortalizares"],"vos":["inmortalizares"],"s3":["inmortalizare"],"p1":["inmortalizáremos"],"p2":["inmortalizareis"],"p3":["inmortalizaren"]},
+    "CmdPos": {"s2":["inmortaliza"],"vos":["inmortalizá"],"s3":["inmortalice"],"p1":["inmortalicemos"],"p2":["inmortalizad"],"p3":["inmortalicen"]}
+  }
+}

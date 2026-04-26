@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sãŋˈgɾaɾ]",
+    "silabacion": "san-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sanguinare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sangrar","gerundio":["sangrando"],"participio":["sangrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sangro"],"s2":["sangras"],"vos":["sangrás"],"s3":["sangra"],"p1":["sangramos"],"p2":["sangráis"],"p3":["sangran"]},
+    "IndImp": {"s1":["sangraba"],"s2":["sangrabas"],"vos":["sangrabas"],"s3":["sangraba"],"p1":["sangrábamos"],"p2":["sangrabais"],"p3":["sangraban"]},
+    "IndPret": {"s1":["sangré"],"s2":["sangraste"],"vos":["sangraste"],"s3":["sangró"],"p1":["sangramos"],"p2":["sangrasteis"],"p3":["sangraron"]},
+    "IndFut": {"s1":["sangraré"],"s2":["sangrarás"],"vos":["sangrarás"],"s3":["sangrará"],"p1":["sangraremos"],"p2":["sangraréis"],"p3":["sangrarán"]},
+    "IndCond": {"s1":["sangraría"],"s2":["sangrarías"],"vos":["sangrarías"],"s3":["sangraría"],"p1":["sangraríamos"],"p2":["sangraríais"],"p3":["sangrarían"]},
+    "SubPres": {"s1":["sangre"],"s2":["sangres"],"vos":["sangres","sangrés"],"s3":["sangre"],"p1":["sangremos"],"p2":["sangréis"],"p3":["sangren"]},
+    "SubImp": {"s1":["sangrara","sangrase"],"s2":["sangraras","sangrases"],"vos":["sangraras","sangrases"],"s3":["sangrara","sangrase"],"p1":["sangráramos","sangrásemos"],"p2":["sangrarais","sangraseis"],"p3":["sangraran","sangrasen"]},
+    "SubFut": {"s1":["sangrare"],"s2":["sangrares"],"vos":["sangrares"],"s3":["sangrare"],"p1":["sangráremos"],"p2":["sangrareis"],"p3":["sangraren"]},
+    "CmdPos": {"s2":["sangra"],"vos":["sangrá"],"s3":["sangre"],"p1":["sangremos"],"p2":["sangrad"],"p3":["sangren"]}
+  }
+}

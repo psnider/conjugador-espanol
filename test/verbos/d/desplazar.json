@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esplaˈsaɾ]",
+    "silabacion": "des-pla-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, plaza y el sufijo -ar.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"desplazar","gerundio":["desplazando"],"participio":["desplazado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desplazo"],"s2":["desplazas"],"vos":["desplazás"],"s3":["desplaza"],"p1":["desplazamos"],"p2":["desplazáis"],"p3":["desplazan"]},
+    "IndImp": {"s1":["desplazaba"],"s2":["desplazabas"],"vos":["desplazabas"],"s3":["desplazaba"],"p1":["desplazábamos"],"p2":["desplazabais"],"p3":["desplazaban"]},
+    "IndPret": {"s1":["desplacé"],"s2":["desplazaste"],"vos":["desplazaste"],"s3":["desplazó"],"p1":["desplazamos"],"p2":["desplazasteis"],"p3":["desplazaron"]},
+    "IndFut": {"s1":["desplazaré"],"s2":["desplazarás"],"vos":["desplazarás"],"s3":["desplazará"],"p1":["desplazaremos"],"p2":["desplazaréis"],"p3":["desplazarán"]},
+    "IndCond": {"s1":["desplazaría"],"s2":["desplazarías"],"vos":["desplazarías"],"s3":["desplazaría"],"p1":["desplazaríamos"],"p2":["desplazaríais"],"p3":["desplazarían"]},
+    "SubPres": {"s1":["desplace"],"s2":["desplaces"],"vos":["desplaces","desplacés"],"s3":["desplace"],"p1":["desplacemos"],"p2":["desplacéis"],"p3":["desplacen"]},
+    "SubImp": {"s1":["desplazara","desplazase"],"s2":["desplazaras","desplazases"],"vos":["desplazaras","desplazases"],"s3":["desplazara","desplazase"],"p1":["desplazáramos","desplazásemos"],"p2":["desplazarais","desplazaseis"],"p3":["desplazaran","desplazasen"]},
+    "SubFut": {"s1":["desplazare"],"s2":["desplazares"],"vos":["desplazares"],"s3":["desplazare"],"p1":["desplazáremos"],"p2":["desplazareis"],"p3":["desplazaren"]},
+    "CmdPos": {"s2":["desplaza"],"vos":["desplazá"],"s3":["desplace"],"p1":["desplacemos"],"p2":["desplazad"],"p3":["desplacen"]}
+  }
+}

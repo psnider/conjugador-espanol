@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[planifiˈkaɾ]",
+    "silabacion": "pla-ni-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"planificar","gerundio":["planificando"],"participio":["planificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["planifico"],"s2":["planificas"],"vos":["planificás"],"s3":["planifica"],"p1":["planificamos"],"p2":["planificáis"],"p3":["planifican"]},
+    "IndImp": {"s1":["planificaba"],"s2":["planificabas"],"vos":["planificabas"],"s3":["planificaba"],"p1":["planificábamos"],"p2":["planificabais"],"p3":["planificaban"]},
+    "IndPret": {"s1":["planifiqué"],"s2":["planificaste"],"vos":["planificaste"],"s3":["planificó"],"p1":["planificamos"],"p2":["planificasteis"],"p3":["planificaron"]},
+    "IndFut": {"s1":["planificaré"],"s2":["planificarás"],"vos":["planificarás"],"s3":["planificará"],"p1":["planificaremos"],"p2":["planificaréis"],"p3":["planificarán"]},
+    "IndCond": {"s1":["planificaría"],"s2":["planificarías"],"vos":["planificarías"],"s3":["planificaría"],"p1":["planificaríamos"],"p2":["planificaríais"],"p3":["planificarían"]},
+    "SubPres": {"s1":["planifique"],"s2":["planifiques"],"vos":["planifiques","planifiqués"],"s3":["planifique"],"p1":["planifiquemos"],"p2":["planifiquéis"],"p3":["planifiquen"]},
+    "SubImp": {"s1":["planificara","planificase"],"s2":["planificaras","planificases"],"vos":["planificaras","planificases"],"s3":["planificara","planificase"],"p1":["planificáramos","planificásemos"],"p2":["planificarais","planificaseis"],"p3":["planificaran","planificasen"]},
+    "SubFut": {"s1":["planificare"],"s2":["planificares"],"vos":["planificares"],"s3":["planificare"],"p1":["planificáremos"],"p2":["planificareis"],"p3":["planificaren"]},
+    "CmdPos": {"s2":["planifica"],"vos":["planificá"],"s3":["planifique"],"p1":["planifiquemos"],"p2":["planificad"],"p3":["planifiquen"]}
+  }
+}

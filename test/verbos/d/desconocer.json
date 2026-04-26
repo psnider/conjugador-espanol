@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskonoˈseɾ]",
+    "silabacion": "des-co-no-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y conocer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"desconocer","gerundio":["desconociendo"],"participio":["desconocido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desconozco"],"s2":["desconoces"],"vos":["desconocés"],"s3":["desconoce"],"p1":["desconocemos"],"p2":["desconocéis"],"p3":["desconocen"]},
+    "IndImp": {"s1":["desconocía"],"s2":["desconocías"],"vos":["desconocías"],"s3":["desconocía"],"p1":["desconocíamos"],"p2":["desconocíais"],"p3":["desconocían"]},
+    "IndPret": {"s1":["desconocí"],"s2":["desconociste"],"vos":["desconociste"],"s3":["desconoció"],"p1":["desconocimos"],"p2":["desconocisteis"],"p3":["desconocieron"]},
+    "IndFut": {"s1":["desconoceré"],"s2":["desconocerás"],"vos":["desconocerás"],"s3":["desconocerá"],"p1":["desconoceremos"],"p2":["desconoceréis"],"p3":["desconocerán"]},
+    "IndCond": {"s1":["desconocería"],"s2":["desconocerías"],"vos":["desconocerías"],"s3":["desconocería"],"p1":["desconoceríamos"],"p2":["desconoceríais"],"p3":["desconocerían"]},
+    "SubPres": {"s1":["desconozca"],"s2":["desconozcas"],"vos":["desconozcas","desconozcás"],"s3":["desconozca"],"p1":["desconozcamos"],"p2":["desconozcáis"],"p3":["desconozcan"]},
+    "SubImp": {"s1":["desconociera","desconociese"],"s2":["desconocieras","desconocieses"],"vos":["desconocieras","desconocieses"],"s3":["desconociera","desconociese"],"p1":["desconociéramos","desconociésemos"],"p2":["desconocierais","desconocieseis"],"p3":["desconocieran","desconociesen"]},
+    "SubFut": {"s1":["desconociere"],"s2":["desconocieres"],"vos":["desconocieres"],"s3":["desconociere"],"p1":["desconociéremos"],"p2":["desconociereis"],"p3":["desconocieren"]},
+    "CmdPos": {"s2":["desconoce"],"vos":["desconocé"],"s3":["desconozca"],"p1":["desconozcamos"],"p2":["desconoced"],"p3":["desconozcan"]}
+  }
+}

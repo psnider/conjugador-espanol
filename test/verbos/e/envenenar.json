@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbeneˈnaɾ]",
+    "silabacion": "en-ve-ne-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, veneno y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"envenenar","gerundio":["envenenando"],"participio":["envenenado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enveneno"],"s2":["envenenas"],"vos":["envenenás"],"s3":["envenena"],"p1":["envenenamos"],"p2":["envenenáis"],"p3":["envenenan"]},
+    "IndImp": {"s1":["envenenaba"],"s2":["envenenabas"],"vos":["envenenabas"],"s3":["envenenaba"],"p1":["envenenábamos"],"p2":["envenenabais"],"p3":["envenenaban"]},
+    "IndPret": {"s1":["envenené"],"s2":["envenenaste"],"vos":["envenenaste"],"s3":["envenenó"],"p1":["envenenamos"],"p2":["envenenasteis"],"p3":["envenenaron"]},
+    "IndFut": {"s1":["envenenaré"],"s2":["envenenarás"],"vos":["envenenarás"],"s3":["envenenará"],"p1":["envenenaremos"],"p2":["envenenaréis"],"p3":["envenenarán"]},
+    "IndCond": {"s1":["envenenaría"],"s2":["envenenarías"],"vos":["envenenarías"],"s3":["envenenaría"],"p1":["envenenaríamos"],"p2":["envenenaríais"],"p3":["envenenarían"]},
+    "SubPres": {"s1":["envenene"],"s2":["envenenes"],"vos":["envenenes","envenenés"],"s3":["envenene"],"p1":["envenenemos"],"p2":["envenenéis"],"p3":["envenenen"]},
+    "SubImp": {"s1":["envenenara","envenenase"],"s2":["envenenaras","envenenases"],"vos":["envenenaras","envenenases"],"s3":["envenenara","envenenase"],"p1":["envenenáramos","envenenásemos"],"p2":["envenenarais","envenenaseis"],"p3":["envenenaran","envenenasen"]},
+    "SubFut": {"s1":["envenenare"],"s2":["envenenares"],"vos":["envenenares"],"s3":["envenenare"],"p1":["envenenáremos"],"p2":["envenenareis"],"p3":["envenenaren"]},
+    "CmdPos": {"s2":["envenena"],"vos":["envenená"],"s3":["envenene"],"p1":["envenenemos"],"p2":["envenenad"],"p3":["envenenen"]}
+  }
+}

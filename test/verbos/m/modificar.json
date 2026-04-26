@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[moð̞ifiˈkaɾ]",
+    "silabacion": "mo-di-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"modificar","gerundio":["modificando"],"participio":["modificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["modifico"],"s2":["modificas"],"vos":["modificás"],"s3":["modifica"],"p1":["modificamos"],"p2":["modificáis"],"p3":["modifican"]},
+    "IndImp": {"s1":["modificaba"],"s2":["modificabas"],"vos":["modificabas"],"s3":["modificaba"],"p1":["modificábamos"],"p2":["modificabais"],"p3":["modificaban"]},
+    "IndPret": {"s1":["modifiqué"],"s2":["modificaste"],"vos":["modificaste"],"s3":["modificó"],"p1":["modificamos"],"p2":["modificasteis"],"p3":["modificaron"]},
+    "IndFut": {"s1":["modificaré"],"s2":["modificarás"],"vos":["modificarás"],"s3":["modificará"],"p1":["modificaremos"],"p2":["modificaréis"],"p3":["modificarán"]},
+    "IndCond": {"s1":["modificaría"],"s2":["modificarías"],"vos":["modificarías"],"s3":["modificaría"],"p1":["modificaríamos"],"p2":["modificaríais"],"p3":["modificarían"]},
+    "SubPres": {"s1":["modifique"],"s2":["modifiques"],"vos":["modifiques","modifiqués"],"s3":["modifique"],"p1":["modifiquemos"],"p2":["modifiquéis"],"p3":["modifiquen"]},
+    "SubImp": {"s1":["modificara","modificase"],"s2":["modificaras","modificases"],"vos":["modificaras","modificases"],"s3":["modificara","modificase"],"p1":["modificáramos","modificásemos"],"p2":["modificarais","modificaseis"],"p3":["modificaran","modificasen"]},
+    "SubFut": {"s1":["modificare"],"s2":["modificares"],"vos":["modificares"],"s3":["modificare"],"p1":["modificáremos"],"p2":["modificareis"],"p3":["modificaren"]},
+    "CmdPos": {"s2":["modifica"],"vos":["modificá"],"s3":["modifique"],"p1":["modifiquemos"],"p2":["modificad"],"p3":["modifiquen"]}
+  }
+}

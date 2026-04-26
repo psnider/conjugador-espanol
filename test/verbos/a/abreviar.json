@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ɾeˈβ̞jaɾ]",
+    "silabacion": "a-bre-viar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín abbreviō, abbreviāre, compuesto de ad y breviō, breviāre, de brevis&nbsp;('breve'), a su vez del protoindoeuropeo *mr̥ǵʰú-&nbsp;('corto').[1]",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"abreviar","gerundio":["abreviando"],"participio":["abreviado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["abrevio"],"s2":["abrevias"],"vos":["abreviás"],"s3":["abrevia"],"p1":["abreviamos"],"p2":["abreviáis"],"p3":["abrevian"]},
+    "IndImp": {"s1":["abreviaba"],"s2":["abreviabas"],"vos":["abreviabas"],"s3":["abreviaba"],"p1":["abreviábamos"],"p2":["abreviabais"],"p3":["abreviaban"]},
+    "IndPret": {"s1":["abrevié"],"s2":["abreviaste"],"vos":["abreviaste"],"s3":["abrevió"],"p1":["abreviamos"],"p2":["abreviasteis"],"p3":["abreviaron"]},
+    "IndFut": {"s1":["abreviaré"],"s2":["abreviarás"],"vos":["abreviarás"],"s3":["abreviará"],"p1":["abreviaremos"],"p2":["abreviaréis"],"p3":["abreviarán"]},
+    "IndCond": {"s1":["abreviaría"],"s2":["abreviarías"],"vos":["abreviarías"],"s3":["abreviaría"],"p1":["abreviaríamos"],"p2":["abreviaríais"],"p3":["abreviarían"]},
+    "SubPres": {"s1":["abrevie"],"s2":["abrevies"],"vos":["abrevies","abreviés"],"s3":["abrevie"],"p1":["abreviemos"],"p2":["abreviéis"],"p3":["abrevien"]},
+    "SubImp": {"s1":["abreviara","abreviase"],"s2":["abreviaras","abreviases"],"vos":["abreviaras","abreviases"],"s3":["abreviara","abreviase"],"p1":["abreviáramos","abreviásemos"],"p2":["abreviarais","abreviaseis"],"p3":["abreviaran","abreviasen"]},
+    "SubFut": {"s1":["abreviare"],"s2":["abreviares"],"vos":["abreviares"],"s3":["abreviare"],"p1":["abreviáremos"],"p2":["abreviareis"],"p3":["abreviaren"]},
+    "CmdPos": {"s2":["abrevia"],"vos":["abreviá"],"s3":["abrevie"],"p1":["abreviemos"],"p2":["abreviad"],"p3":["abrevien"]}
+  }
+}

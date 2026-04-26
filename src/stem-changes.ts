@@ -1,5 +1,5 @@
-import { MoodTenseMap, PersonasGramaticalesConVos, MoodTense, VerbConjugation, StemChangeRuleId, VerbRulesApplied, ParticipleRulesApplied, FormaConjugada, FormaRestringida, StemChangeFamily } from "./index.js";
-import { InfinitiveClass, verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas.js";
+import { MoodTenseMap, PersonasGramaticalesConVos, MoodTense, StemChangeRuleId, CambiosPorParticipios, FormaConjugada, StemChangeFamily } from "./index.js";
+import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 
 
 // "blending" refers to combining like sound, for now only in "reír" in subjuntivo-imperfecto and subjuntivo-futuro  // FIX: lingúista
@@ -267,8 +267,8 @@ export function applyStemChangePattern(verb_part: string, stem_change_descriptio
 
 
 // Get gerund with any stem changes.
-export function applyStemChangeToGerundStem(args: {gerund_stem: string, verb_family: InfinitiveClass, gerundio_tema_cambio: StemChangeRuleId, ponga_hiato: boolean, excepcional: boolean, rules_applied: ParticipleRulesApplied[]}): string {
-    const {verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, rules_applied} = args
+export function applyStemChangeToGerundStem(args: {gerund_stem: string, verb_family: InfinitiveClass, gerundio_tema_cambio: StemChangeRuleId, ponga_hiato: boolean, excepcional: boolean, cambios: CambiosPorParticipios}): string {
+    const {verb_family, gerundio_tema_cambio, ponga_hiato, excepcional, cambios} = args
     let gerund_stem = args.gerund_stem
     if (gerundio_tema_cambio) {
         const stem_change_description = stem_change_descriptions[gerundio_tema_cambio]
@@ -281,7 +281,7 @@ export function applyStemChangeToGerundStem(args: {gerund_stem: string, verb_fam
         }
     }
     if (gerund_stem !== args.gerund_stem) {
-        rules_applied.push({gerund_stem_change: gerund_stem})
+        cambios.gerundio.push({regla: gerundio_tema_cambio, temas: [gerund_stem]})
     }
     return gerund_stem
 }

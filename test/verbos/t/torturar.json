@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oɾt̪uˈɾaɾ]",
+    "silabacion": "tor-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"torturar","gerundio":["torturando"],"participio":["torturado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["torturo"],"s2":["torturas"],"vos":["torturás"],"s3":["tortura"],"p1":["torturamos"],"p2":["torturáis"],"p3":["torturan"]},
+    "IndImp": {"s1":["torturaba"],"s2":["torturabas"],"vos":["torturabas"],"s3":["torturaba"],"p1":["torturábamos"],"p2":["torturabais"],"p3":["torturaban"]},
+    "IndPret": {"s1":["torturé"],"s2":["torturaste"],"vos":["torturaste"],"s3":["torturó"],"p1":["torturamos"],"p2":["torturasteis"],"p3":["torturaron"]},
+    "IndFut": {"s1":["torturaré"],"s2":["torturarás"],"vos":["torturarás"],"s3":["torturará"],"p1":["torturaremos"],"p2":["torturaréis"],"p3":["torturarán"]},
+    "IndCond": {"s1":["torturaría"],"s2":["torturarías"],"vos":["torturarías"],"s3":["torturaría"],"p1":["torturaríamos"],"p2":["torturaríais"],"p3":["torturarían"]},
+    "SubPres": {"s1":["torture"],"s2":["tortures"],"vos":["tortures","torturés"],"s3":["torture"],"p1":["torturemos"],"p2":["torturéis"],"p3":["torturen"]},
+    "SubImp": {"s1":["torturara","torturase"],"s2":["torturaras","torturases"],"vos":["torturaras","torturases"],"s3":["torturara","torturase"],"p1":["torturáramos","torturásemos"],"p2":["torturarais","torturaseis"],"p3":["torturaran","torturasen"]},
+    "SubFut": {"s1":["torturare"],"s2":["torturares"],"vos":["torturares"],"s3":["torturare"],"p1":["torturáremos"],"p2":["torturareis"],"p3":["torturaren"]},
+    "CmdPos": {"s2":["tortura"],"vos":["torturá"],"s3":["torture"],"p1":["torturemos"],"p2":["torturad"],"p3":["torturen"]}
+  }
+}

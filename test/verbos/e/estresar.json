@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾeˈsaɾ]",
+    "silabacion": "es-tre-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De estrés y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estresar","gerundio":["estresando"],"participio":["estresado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estreso"],"s2":["estresas"],"vos":["estresás"],"s3":["estresa"],"p1":["estresamos"],"p2":["estresáis"],"p3":["estresan"]},
+    "IndImp": {"s1":["estresaba"],"s2":["estresabas"],"vos":["estresabas"],"s3":["estresaba"],"p1":["estresábamos"],"p2":["estresabais"],"p3":["estresaban"]},
+    "IndPret": {"s1":["estresé"],"s2":["estresaste"],"vos":["estresaste"],"s3":["estresó"],"p1":["estresamos"],"p2":["estresasteis"],"p3":["estresaron"]},
+    "IndFut": {"s1":["estresaré"],"s2":["estresarás"],"vos":["estresarás"],"s3":["estresará"],"p1":["estresaremos"],"p2":["estresaréis"],"p3":["estresarán"]},
+    "IndCond": {"s1":["estresaría"],"s2":["estresarías"],"vos":["estresarías"],"s3":["estresaría"],"p1":["estresaríamos"],"p2":["estresaríais"],"p3":["estresarían"]},
+    "SubPres": {"s1":["estrese"],"s2":["estreses"],"vos":["estreses","estresés"],"s3":["estrese"],"p1":["estresemos"],"p2":["estreséis"],"p3":["estresen"]},
+    "SubImp": {"s1":["estresara","estresase"],"s2":["estresaras","estresases"],"vos":["estresaras","estresases"],"s3":["estresara","estresase"],"p1":["estresáramos","estresásemos"],"p2":["estresarais","estresaseis"],"p3":["estresaran","estresasen"]},
+    "SubFut": {"s1":["estresare"],"s2":["estresares"],"vos":["estresares"],"s3":["estresare"],"p1":["estresáremos"],"p2":["estresareis"],"p3":["estresaren"]},
+    "CmdPos": {"s2":["estresa"],"vos":["estresá"],"s3":["estrese"],"p1":["estresemos"],"p2":["estresad"],"p3":["estresen"]}
+  }
+}

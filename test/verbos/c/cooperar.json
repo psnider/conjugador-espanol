@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koopeˈɾaɾ]",
+    "silabacion": "co-o-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo Del lat. tardío cooperāri.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cooperar","gerundio":["cooperando"],"participio":["cooperado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["coopero"],"s2":["cooperas"],"vos":["cooperás"],"s3":["coopera"],"p1":["cooperamos"],"p2":["cooperáis"],"p3":["cooperan"]},
+    "IndImp": {"s1":["cooperaba"],"s2":["cooperabas"],"vos":["cooperabas"],"s3":["cooperaba"],"p1":["cooperábamos"],"p2":["cooperabais"],"p3":["cooperaban"]},
+    "IndPret": {"s1":["cooperé"],"s2":["cooperaste"],"vos":["cooperaste"],"s3":["cooperó"],"p1":["cooperamos"],"p2":["cooperasteis"],"p3":["cooperaron"]},
+    "IndFut": {"s1":["cooperaré"],"s2":["cooperarás"],"vos":["cooperarás"],"s3":["cooperará"],"p1":["cooperaremos"],"p2":["cooperaréis"],"p3":["cooperarán"]},
+    "IndCond": {"s1":["cooperaría"],"s2":["cooperarías"],"vos":["cooperarías"],"s3":["cooperaría"],"p1":["cooperaríamos"],"p2":["cooperaríais"],"p3":["cooperarían"]},
+    "SubPres": {"s1":["coopere"],"s2":["cooperes"],"vos":["cooperes","cooperés"],"s3":["coopere"],"p1":["cooperemos"],"p2":["cooperéis"],"p3":["cooperen"]},
+    "SubImp": {"s1":["cooperara","cooperase"],"s2":["cooperaras","cooperases"],"vos":["cooperaras","cooperases"],"s3":["cooperara","cooperase"],"p1":["cooperáramos","cooperásemos"],"p2":["cooperarais","cooperaseis"],"p3":["cooperaran","cooperasen"]},
+    "SubFut": {"s1":["cooperare"],"s2":["cooperares"],"vos":["cooperares"],"s3":["cooperare"],"p1":["cooperáremos"],"p2":["cooperareis"],"p3":["cooperaren"]},
+    "CmdPos": {"s2":["coopera"],"vos":["cooperá"],"s3":["coopere"],"p1":["cooperemos"],"p2":["cooperad"],"p3":["cooperen"]}
+  }
+}

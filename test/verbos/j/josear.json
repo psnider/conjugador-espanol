@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xoseˈaɾ]",
+    "silabacion": "jo-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del ingl. to hustle",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"josear","gerundio":["joseando"], "participio":["joseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["joseo"],"s2":["joseas"],"vos":["joseás"],"s3":["josea"],"p1":["joseamos"],"p2":["joseáis"],"p3":["josean"]},
+    "IndImp": {"s1":["joseaba"],"s2":["joseabas"],"vos":["joseabas"],"s3":["joseaba"],"p1":["joseábamos"],"p2":["joseabais"],"p3":["joseaban"]},
+    "IndPret": {"s1":["joseé"],"s2":["joseaste"],"vos":["joseaste"],"s3":["joseó"],"p1":["joseamos"],"p2":["joseasteis"],"p3":["josearon"]},
+    "IndFut": {"s1":["josearé"],"s2":["josearás"],"vos":["josearás"],"s3":["joseará"],"p1":["josearemos"],"p2":["josearéis"],"p3":["josearán"]},
+    "IndCond": {"s1":["josearía"],"s2":["josearías"],"vos":["josearías"],"s3":["josearía"],"p1":["josearíamos"],"p2":["josearíais"],"p3":["josearían"]},
+    "SubPres": {"s1":["josee"],"s2":["josees"],"vos":[{"forma": "josees","uso":"Riop."},{"forma":"joseés","uso":"C.Am."}],"s3":["josee"],"p1":["joseemos"],"p2":["joseéis"],"p3":["joseen"]},
+    "SubImp": {"s1":["joseara","josease"],"s2":["josearas","joseases"],"vos":["josearas","joseases"],"s3":["joseara","josease"],"p1":["joseáramos","joseásemos"],"p2":["josearais","joseaseis"],"p3":["josearan","joseasen"]},
+    "SubFut": {"s1":["joseare"],"s2":["joseares"],"vos":["joseares"],"s3":["joseare"],"p1":["joseáremos"],"p2":["joseareis"],"p3":["josearen"]},
+    "CmdPos": {"s2":["josea"],"vos":["joseá"],"s3":["josee"],"p1":["joseemos"],"p2":["josead"],"p3":["joseen"]}
+  }
+}

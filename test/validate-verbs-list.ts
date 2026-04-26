@@ -1,5 +1,35 @@
-import { verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js";
+import { ReglasDeConjugaciónDeVerbo, verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js";
 import {conjugation_families} from "../src/resolve-conjugation-class.js"
+import { GrammaticalPerson, MoodTense } from "../src/index.js";
+
+
+function validateFormsField(infinitivo: string, reglas_de_infinitivo: ReglasDeConjugaciónDeVerbo) : boolean {
+    let ok = true
+    const reglas = reglas_de_infinitivo?.excepciones_léxicas?.reglas
+    if (reglas) {
+        for (const reglas_key in reglas) {
+            const mood_tense = <MoodTense> reglas_key
+            const forms = reglas[mood_tense]?.forms
+            if (forms) {
+                for (const forms_key in forms) {
+                    const persona = <GrammaticalPerson> forms_key
+                    const formas_conjugadas = forms[persona]
+                    if (formas_conjugadas) {
+                        for (const forma_conjugada of formas_conjugadas) {
+                            const forma = (typeof forma_conjugada === "string") ? forma_conjugada : forma_conjugada?.forma
+                            const is_divided_into_stem_w_suffix = forma?.includes("/")
+                            if (!is_divided_into_stem_w_suffix) {
+                                ok = false
+                                console.log(`${infinitivo} has entry missing separator for stem/suffix: in reglas.${mood_tense}.forms.${persona} which includes: ${JSON.stringify(forma)}`)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return ok
+}
 
 
 function validateVerbsList() {
@@ -7,20 +37,26 @@ function validateVerbsList() {
     const infinitives = Object.keys(verbos_con_cambios_morfológicos)
     for (const infinitivo of infinitives) {
         const reglas_de_infinitivo = verbos_con_cambios_morfológicos[infinitivo]
-        if (reglas_de_infinitivo == null) {
+        if (typeof reglas_de_infinitivo !== "object") {
             had_error = true
-            console.log(`verbos_con_cambios_morfológicos[${infinitivo}] must have a value`)
-        } else if (reglas_de_infinitivo.modelo) {
-            if (reglas_de_infinitivo.modelo !== infinitivo) {
-                const reglas_de_modelo = verbos_con_cambios_morfológicos[reglas_de_infinitivo.modelo]
-                if (reglas_de_modelo == null) {
-                    had_error = true
-                    console.log(`${infinitivo} has modelo=${reglas_de_infinitivo.modelo} but that entry is missing from verbos_con_cambios_morfológicos[]`)
-                } else {
-                    if (reglas_de_infinitivo.modelo !== reglas_de_modelo.modelo) {
+            console.log(`verbos_con_cambios_morfológicos[${infinitivo}] must have an object value`)
+        } else {
+            if (reglas_de_infinitivo.modelo) {
+                if (reglas_de_infinitivo.modelo !== infinitivo) {
+                    const reglas_de_modelo = verbos_con_cambios_morfológicos[reglas_de_infinitivo.modelo]
+                    if (reglas_de_modelo == null) {
                         had_error = true
-                        console.log(`${infinitivo} has modelo=${reglas_de_infinitivo.modelo} but verbos_con_cambios_morfológicos[${reglas_de_infinitivo.modelo}].modelo must reference itself`)
+                        console.log(`${infinitivo} has modelo=${reglas_de_infinitivo.modelo} but that entry is missing from verbos_con_cambios_morfológicos[]`)
+                    } else {
+                        if (reglas_de_infinitivo.modelo !== reglas_de_modelo.modelo) {
+                            had_error = true
+                            console.log(`${infinitivo} has modelo=${reglas_de_infinitivo.modelo} but verbos_con_cambios_morfológicos[${reglas_de_infinitivo.modelo}].modelo must reference itself`)
+                        }
                     }
+                }
+                const ok = validateFormsField(infinitivo, reglas_de_infinitivo)
+                if (!ok) {
+                    had_error = true
                 }
             }
         }

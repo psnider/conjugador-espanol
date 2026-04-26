@@ -38,7 +38,7 @@
 //   - Si no hay tema_presente_yo_del_modelo, aplicar alternancia_vocálica
 //   - Aplicar reglas ortográficas
 //   - Añadir terminaciones
-import { applyToFormasConjugadas, combinaFormasConjugadas, isValueless } from "./lib.js";
+import { applyToFormasConjugadas, combinaFormasConjugadas, getForma, isValueless } from "./lib.js";
 import { applyStemChangePattern, getStemChangesFromRule, stem_change_descriptions } from "./stem-changes.js";
 const domains_alternancia_vocálica = ["IndPres", "SubPres", "CmdPos"];
 export function getTemaConAlternanciaVocálica_IndPret3P(conj_and_deriv_rules, tema_sin_alternancia) {
@@ -62,8 +62,8 @@ function moodTenseIsBasedOnIndPret3PStem(mood_tense) {
     return ["SubImp", "SubFut"].includes(mood_tense);
 }
 export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense, temas_sin_alternancias) {
-    const changed_stems = {};
     if (!moodTenseIsBasedOnIndPret3PStem(mood_tense)) {
+        const changed_stems = {};
         const { verb_family, morphological_rules } = conj_and_deriv_rules;
         const alternancia_vocálica = morphological_rules?.de_modelo?.alternancia_vocálica || morphological_rules?.de_infinitivo?.alternancia_vocálica;
         const ponga_hiato = morphological_rules?.de_modelo?.ponga_hiato || morphological_rules?.de_infinitivo?.ponga_hiato;
@@ -82,7 +82,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense,
                         if ((stem_change_rule_ids.length === 1) && (typeof stem_change_rule_ids[0] === "string")) {
                             const rule_description = stem_change_descriptions[stem_change_rule_ids[0]];
                             const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias.vos[0]; // FIX: are there other forms here?
-                            const tema_sin_alternancia = (typeof forma_conjugada_tema_sin_alternancia === "string") ? forma_conjugada_tema_sin_alternancia : forma_conjugada_tema_sin_alternancia?.forma;
+                            const tema_sin_alternancia = getForma(forma_conjugada_tema_sin_alternancia);
                             // FIX: this is fairly tricky, try to clarify how FormaRestringida's are preserved
                             let updated = tema_sin_alternancia;
                             if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
@@ -94,11 +94,12 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense,
                         }
                         else {
                             const changes = applyToFormasConjugadas(stem_change_rule_ids, (forma, i) => {
+                                // FIX: perhaps use of "uso" can simplify this?
                                 const stem_change_rule = forma;
                                 const rule_description = stem_change_descriptions[stem_change_rule];
                                 // FIX: this is too complicated.  In case of two forms, say "Riop." and "C.Am." with one stem, 
                                 const forma_conjugada_tema_sin_alternancia = temas_sin_alternancias.vos?.[i] || temas_sin_alternancias.vos?.[0];
-                                const tema_sin_alternancia = (typeof forma_conjugada_tema_sin_alternancia === "string") ? forma_conjugada_tema_sin_alternancia : forma_conjugada_tema_sin_alternancia?.forma;
+                                const tema_sin_alternancia = getForma(forma_conjugada_tema_sin_alternancia);
                                 // FIX: this is fairly tricky, try to clarify how FormaRestringida's are preserved
                                 if (rule_description && (!rule_description.only_for_ir_verbs || verb_family === "-ir")) {
                                     let changed;
@@ -141,7 +142,7 @@ export function getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense,
                 }
             }
         }
+        return changed_stems;
     }
-    return changed_stems;
 }
 //# sourceMappingURL=alternancia-voc%C3%A1lica.js.map

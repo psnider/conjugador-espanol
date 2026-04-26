@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akɾeð̞iˈt̪aɾ]",
+    "silabacion": "a-cre-di-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acreditar","gerundio":["acreditando"],"participio":["acreditado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acredito"],"s2":["acreditas"],"vos":["acreditás"],"s3":["acredita"],"p1":["acreditamos"],"p2":["acreditáis"],"p3":["acreditan"]},
+    "IndImp": {"s1":["acreditaba"],"s2":["acreditabas"],"vos":["acreditabas"],"s3":["acreditaba"],"p1":["acreditábamos"],"p2":["acreditabais"],"p3":["acreditaban"]},
+    "IndPret": {"s1":["acredité"],"s2":["acreditaste"],"vos":["acreditaste"],"s3":["acreditó"],"p1":["acreditamos"],"p2":["acreditasteis"],"p3":["acreditaron"]},
+    "IndFut": {"s1":["acreditaré"],"s2":["acreditarás"],"vos":["acreditarás"],"s3":["acreditará"],"p1":["acreditaremos"],"p2":["acreditaréis"],"p3":["acreditarán"]},
+    "IndCond": {"s1":["acreditaría"],"s2":["acreditarías"],"vos":["acreditarías"],"s3":["acreditaría"],"p1":["acreditaríamos"],"p2":["acreditaríais"],"p3":["acreditarían"]},
+    "SubPres": {"s1":["acredite"],"s2":["acredites"],"vos":["acredites","acredités"],"s3":["acredite"],"p1":["acreditemos"],"p2":["acreditéis"],"p3":["acrediten"]},
+    "SubImp": {"s1":["acreditara","acreditase"],"s2":["acreditaras","acreditases"],"vos":["acreditaras","acreditases"],"s3":["acreditara","acreditase"],"p1":["acreditáramos","acreditásemos"],"p2":["acreditarais","acreditaseis"],"p3":["acreditaran","acreditasen"]},
+    "SubFut": {"s1":["acreditare"],"s2":["acreditares"],"vos":["acreditares"],"s3":["acreditare"],"p1":["acreditáremos"],"p2":["acreditareis"],"p3":["acreditaren"]},
+    "CmdPos": {"s2":["acredita"],"vos":["acreditá"],"s3":["acredite"],"p1":["acreditemos"],"p2":["acreditad"],"p3":["acrediten"]}
+  }
+}

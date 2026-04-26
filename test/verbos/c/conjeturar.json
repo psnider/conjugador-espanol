@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋxet̪uˈɾaɾ]",
+    "silabacion": "con-je-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín coniecturāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"conjeturar","gerundio":["conjeturando"],"participio":["conjeturado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["conjeturo"],"s2":["conjeturas"],"vos":["conjeturás"],"s3":["conjetura"],"p1":["conjeturamos"],"p2":["conjeturáis"],"p3":["conjeturan"]},
+    "IndImp": {"s1":["conjeturaba"],"s2":["conjeturabas"],"vos":["conjeturabas"],"s3":["conjeturaba"],"p1":["conjeturábamos"],"p2":["conjeturabais"],"p3":["conjeturaban"]},
+    "IndPret": {"s1":["conjeturé"],"s2":["conjeturaste"],"vos":["conjeturaste"],"s3":["conjeturó"],"p1":["conjeturamos"],"p2":["conjeturasteis"],"p3":["conjeturaron"]},
+    "IndFut": {"s1":["conjeturaré"],"s2":["conjeturarás"],"vos":["conjeturarás"],"s3":["conjeturará"],"p1":["conjeturaremos"],"p2":["conjeturaréis"],"p3":["conjeturarán"]},
+    "IndCond": {"s1":["conjeturaría"],"s2":["conjeturarías"],"vos":["conjeturarías"],"s3":["conjeturaría"],"p1":["conjeturaríamos"],"p2":["conjeturaríais"],"p3":["conjeturarían"]},
+    "SubPres": {"s1":["conjeture"],"s2":["conjetures"],"vos":["conjetures","conjeturés"],"s3":["conjeture"],"p1":["conjeturemos"],"p2":["conjeturéis"],"p3":["conjeturen"]},
+    "SubImp": {"s1":["conjeturara","conjeturase"],"s2":["conjeturaras","conjeturases"],"vos":["conjeturaras","conjeturases"],"s3":["conjeturara","conjeturase"],"p1":["conjeturáramos","conjeturásemos"],"p2":["conjeturarais","conjeturaseis"],"p3":["conjeturaran","conjeturasen"]},
+    "SubFut": {"s1":["conjeturare"],"s2":["conjeturares"],"vos":["conjeturares"],"s3":["conjeturare"],"p1":["conjeturáremos"],"p2":["conjeturareis"],"p3":["conjeturaren"]},
+    "CmdPos": {"s2":["conjetura"],"vos":["conjeturá"],"s3":["conjeture"],"p1":["conjeturemos"],"p2":["conjeturad"],"p3":["conjeturen"]}
+  }
+}

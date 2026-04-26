@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪eˈʝaɾ]",
+    "silabacion": "des-te-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín destillāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"destellar","gerundio":["destellando"],"participio":["destellado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["destello"],"s2":["destellas"],"vos":["destellás"],"s3":["destella"],"p1":["destellamos"],"p2":["destelláis"],"p3":["destellan"]},
+    "IndImp": {"s1":["destellaba"],"s2":["destellabas"],"vos":["destellabas"],"s3":["destellaba"],"p1":["destellábamos"],"p2":["destellabais"],"p3":["destellaban"]},
+    "IndPret": {"s1":["destellé"],"s2":["destellaste"],"vos":["destellaste"],"s3":["destelló"],"p1":["destellamos"],"p2":["destellasteis"],"p3":["destellaron"]},
+    "IndFut": {"s1":["destellaré"],"s2":["destellarás"],"vos":["destellarás"],"s3":["destellará"],"p1":["destellaremos"],"p2":["destellaréis"],"p3":["destellarán"]},
+    "IndCond": {"s1":["destellaría"],"s2":["destellarías"],"vos":["destellarías"],"s3":["destellaría"],"p1":["destellaríamos"],"p2":["destellaríais"],"p3":["destellarían"]},
+    "SubPres": {"s1":["destelle"],"s2":["destelles"],"vos":["destelles","destellés"],"s3":["destelle"],"p1":["destellemos"],"p2":["destelléis"],"p3":["destellen"]},
+    "SubImp": {"s1":["destellara","destellase"],"s2":["destellaras","destellases"],"vos":["destellaras","destellases"],"s3":["destellara","destellase"],"p1":["destelláramos","destellásemos"],"p2":["destellarais","destellaseis"],"p3":["destellaran","destellasen"]},
+    "SubFut": {"s1":["destellare"],"s2":["destellares"],"vos":["destellares"],"s3":["destellare"],"p1":["destelláremos"],"p2":["destellareis"],"p3":["destellaren"]},
+    "CmdPos": {"s2":["destella"],"vos":["destellá"],"s3":["destelle"],"p1":["destellemos"],"p2":["destellad"],"p3":["destellen"]}
+  }
+}

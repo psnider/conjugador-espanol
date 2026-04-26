@@ -15,10 +15,10 @@ export function loadConjugaciónEntero(verb_filename: string) : ConjugaciónEnte
 }
 
 
-export function findFailedTestsForParticiples(infinitivo: string, expected: Participios, errors: FailedTests) {
+export function findFailedTestsForParticiples(infinitivo: string, expected: Participios<FormaConjugada[]>, errors: FailedTests) {
     const {participles: actual} = deriveParticiples(infinitivo)
     const expected_keys = <Array <keyof FailedTests>> Object.keys(expected)
-    expected_keys.forEach((expected_key: keyof Participios) => {
+    expected_keys.forEach((expected_key: keyof Participios<FormaConjugada[]>) => {
         const actual_value = actual[expected_key]
         const expected_value = expected[expected_key]
         if (! formasConjugadasIgual(actual_value, expected_value)) {

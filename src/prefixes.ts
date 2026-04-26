@@ -1,6 +1,6 @@
-import { VerbRulesApplied, VerbConjugation, FormaConjugada, FormaRestringida } from ".";
+import { FormaConjugada } from ".";
 import { applyToFormasConjugadas, combinaFormasConjugadas, vowels } from "./lib.js";
-import { ConjugationAndDerivationRules, Prefixes } from "./resolve-conjugation-class.js";
+import { Prefixes } from "./resolve-conjugation-class.js";
 
 
 // Prefixes that precede irregular verbs.
@@ -130,12 +130,13 @@ export function aplicaPrefijosClaseConjugacional(model_form: string, prefijos?: 
         let prefijo_sustractivo = clase_de_conjugación.prefijo_sustractivo || ""
         if (!model_form.startsWith(prefijo_sustractivo)) {
             // busca patrón del modelo, preserva los vocales
-            // infinitivo: rendir -> rindieron
-            // modelo: pedir -> rindieron
+            // p.ej.: "nd" vs. "d", en  rendir -> rindieron,  del modelo: pedir -> pidieron
+            // p.ej.: "nd" vs. "d", en  concebir -> conibieron,  del modelo: pedir -> pidieron
+            // 
             // clase_de_conjugación = {prefijo_sustractivo: "pe", prefijo_aditivo: "ren"}
             const modelo_regex = new RegExp(`^([^${vowels}]+)([${vowels}]+)([^${vowels}]+)([${vowels}]*)?\$`)
             const match_modelo = model_form.match(modelo_regex)
-            const infinitivo_regex = new RegExp(`([^${vowels}]+)([${vowels}]+)([^${vowels}]*)\$`)
+            const infinitivo_regex = new RegExp(`(.*[^${vowels}]+)([${vowels}]+)([^${vowels}]*)\$`)
             const match_infinitivo = prefijo_aditivo.match(infinitivo_regex)
             if (!match_modelo || !match_infinitivo) {
                 throw new Error(`cannot match ${model_form} to clase_de_conjugación=${JSON.stringify(clase_de_conjugación)} `)

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apuɲaˈlaɾ]",
+    "silabacion": "a-pu-ña-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De puñal.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apuñalar","gerundio":["apuñalando"],"participio":["apuñalado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apuñalo"],"s2":["apuñalas"],"vos":["apuñalás"],"s3":["apuñala"],"p1":["apuñalamos"],"p2":["apuñaláis"],"p3":["apuñalan"]},
+    "IndImp": {"s1":["apuñalaba"],"s2":["apuñalabas"],"vos":["apuñalabas"],"s3":["apuñalaba"],"p1":["apuñalábamos"],"p2":["apuñalabais"],"p3":["apuñalaban"]},
+    "IndPret": {"s1":["apuñalé"],"s2":["apuñalaste"],"vos":["apuñalaste"],"s3":["apuñaló"],"p1":["apuñalamos"],"p2":["apuñalasteis"],"p3":["apuñalaron"]},
+    "IndFut": {"s1":["apuñalaré"],"s2":["apuñalarás"],"vos":["apuñalarás"],"s3":["apuñalará"],"p1":["apuñalaremos"],"p2":["apuñalaréis"],"p3":["apuñalarán"]},
+    "IndCond": {"s1":["apuñalaría"],"s2":["apuñalarías"],"vos":["apuñalarías"],"s3":["apuñalaría"],"p1":["apuñalaríamos"],"p2":["apuñalaríais"],"p3":["apuñalarían"]},
+    "SubPres": {"s1":["apuñale"],"s2":["apuñales"],"vos":["apuñales","apuñalés"],"s3":["apuñale"],"p1":["apuñalemos"],"p2":["apuñaléis"],"p3":["apuñalen"]},
+    "SubImp": {"s1":["apuñalara","apuñalase"],"s2":["apuñalaras","apuñalases"],"vos":["apuñalaras","apuñalases"],"s3":["apuñalara","apuñalase"],"p1":["apuñaláramos","apuñalásemos"],"p2":["apuñalarais","apuñalaseis"],"p3":["apuñalaran","apuñalasen"]},
+    "SubFut": {"s1":["apuñalare"],"s2":["apuñalares"],"vos":["apuñalares"],"s3":["apuñalare"],"p1":["apuñaláremos"],"p2":["apuñalareis"],"p3":["apuñalaren"]},
+    "CmdPos": {"s2":["apuñala"],"vos":["apuñalá"],"s3":["apuñale"],"p1":["apuñalemos"],"p2":["apuñalad"],"p3":["apuñalen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnseˈβ̞iɾ]",
+    "silabacion": "con-ce-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín concipiere.",
+    "modelos": ["pedir"]
+  },
+  "formas_no_personales": {"infinitivo":"concebir","gerundio":["concibiendo"],"participio":["concebido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["concibo"],"s2":["concibes"],"vos":["concebís"],"s3":["concibe"],"p1":["concebimos"],"p2":["concebís"],"p3":["conciben"]},
+    "IndImp": {"s1":["concebía"],"s2":["concebías"],"vos":["concebías"],"s3":["concebía"],"p1":["concebíamos"],"p2":["concebíais"],"p3":["concebían"]},
+    "IndPret": {"s1":["concebí"],"s2":["concebiste"],"vos":["concebiste"],"s3":["concibió"],"p1":["concebimos"],"p2":["concebisteis"],"p3":["concibieron"]},
+    "IndFut": {"s1":["concebiré"],"s2":["concebirás"],"vos":["concebirás"],"s3":["concebirá"],"p1":["concebiremos"],"p2":["concebiréis"],"p3":["concebirán"]},
+    "IndCond": {"s1":["concebiría"],"s2":["concebirías"],"vos":["concebirías"],"s3":["concebiría"],"p1":["concebiríamos"],"p2":["concebiríais"],"p3":["concebirían"]},
+    "SubPres": {"s1":["conciba"],"s2":["concibas"],"vos":["concibas","concibás"],"s3":["conciba"],"p1":["concibamos"],"p2":["concibáis"],"p3":["conciban"]},
+    "SubImp": {"s1":["concibiera","concibiese"],"s2":["concibieras","concibieses"],"vos":["concibieras","concibieses"],"s3":["concibiera","concibiese"],"p1":["concibiéramos","concibiésemos"],"p2":["concibierais","concibieseis"],"p3":["concibieran","concibiesen"]},
+    "SubFut": {"s1":["concibiere"],"s2":["concibieres"],"vos":["concibieres"],"s3":["concibiere"],"p1":["concibiéremos"],"p2":["concibiereis"],"p3":["concibieren"]},
+    "CmdPos": {"s2":["concibe"],"vos":["concebí"],"s3":["conciba"],"p1":["concibamos"],"p2":["concebid"],"p3":["conciban"]}
+  }
+}

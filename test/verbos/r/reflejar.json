@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[refleˈxaɾ]",
+    "silabacion": "re-fle-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reflejar","gerundio":["reflejando"],"participio":["reflejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reflejo"],"s2":["reflejas"],"vos":["reflejás"],"s3":["refleja"],"p1":["reflejamos"],"p2":["reflejáis"],"p3":["reflejan"]},
+    "IndImp": {"s1":["reflejaba"],"s2":["reflejabas"],"vos":["reflejabas"],"s3":["reflejaba"],"p1":["reflejábamos"],"p2":["reflejabais"],"p3":["reflejaban"]},
+    "IndPret": {"s1":["reflejé"],"s2":["reflejaste"],"vos":["reflejaste"],"s3":["reflejó"],"p1":["reflejamos"],"p2":["reflejasteis"],"p3":["reflejaron"]},
+    "IndFut": {"s1":["reflejaré"],"s2":["reflejarás"],"vos":["reflejarás"],"s3":["reflejará"],"p1":["reflejaremos"],"p2":["reflejaréis"],"p3":["reflejarán"]},
+    "IndCond": {"s1":["reflejaría"],"s2":["reflejarías"],"vos":["reflejarías"],"s3":["reflejaría"],"p1":["reflejaríamos"],"p2":["reflejaríais"],"p3":["reflejarían"]},
+    "SubPres": {"s1":["refleje"],"s2":["reflejes"],"vos":["reflejes","reflejés"],"s3":["refleje"],"p1":["reflejemos"],"p2":["reflejéis"],"p3":["reflejen"]},
+    "SubImp": {"s1":["reflejara","reflejase"],"s2":["reflejaras","reflejases"],"vos":["reflejaras","reflejases"],"s3":["reflejara","reflejase"],"p1":["reflejáramos","reflejásemos"],"p2":["reflejarais","reflejaseis"],"p3":["reflejaran","reflejasen"]},
+    "SubFut": {"s1":["reflejare"],"s2":["reflejares"],"vos":["reflejares"],"s3":["reflejare"],"p1":["reflejáremos"],"p2":["reflejareis"],"p3":["reflejaren"]},
+    "CmdPos": {"s2":["refleja"],"vos":["reflejá"],"s3":["refleje"],"p1":["reflejemos"],"p2":["reflejad"],"p3":["reflejen"]}
+  }
+}

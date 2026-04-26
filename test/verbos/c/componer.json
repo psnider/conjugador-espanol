@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmpoˈneɾ]",
+    "silabacion": "com-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"componer","gerundio":["componiendo"],"participio":["compuesto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["compongo"],"s2":["compones"],"vos":["componés"],"s3":["compone"],"p1":["componemos"],"p2":["componéis"],"p3":["componen"]},
+    "IndImp": {"s1":["componía"],"s2":["componías"],"vos":["componías"],"s3":["componía"],"p1":["componíamos"],"p2":["componíais"],"p3":["componían"]},
+    "IndPret": {"s1":["compuse"],"s2":["compusiste"],"vos":["compusiste"],"s3":["compuso"],"p1":["compusimos"],"p2":["compusisteis"],"p3":["compusieron"]},
+    "IndFut": {"s1":["compondré"],"s2":["compondrás"],"vos":["compondrás"],"s3":["compondrá"],"p1":["compondremos"],"p2":["compondréis"],"p3":["compondrán"]},
+    "IndCond": {"s1":["compondría"],"s2":["compondrías"],"vos":["compondrías"],"s3":["compondría"],"p1":["compondríamos"],"p2":["compondríais"],"p3":["compondrían"]},
+    "SubPres": {"s1":["componga"],"s2":["compongas"],"vos":["compongas","compongás"],"s3":["componga"],"p1":["compongamos"],"p2":["compongáis"],"p3":["compongan"]},
+    "SubImp": {"s1":["compusiera","compusiese"],"s2":["compusieras","compusieses"],"vos":["compusieras","compusieses"],"s3":["compusiera","compusiese"],"p1":["compusiéramos","compusiésemos"],"p2":["compusierais","compusieseis"],"p3":["compusieran","compusiesen"]},
+    "SubFut": {"s1":["compusiere"],"s2":["compusieres"],"vos":["compusieres"],"s3":["compusiere"],"p1":["compusiéremos"],"p2":["compusiereis"],"p3":["compusieren"]},
+    "CmdPos": {"s2":["compón"],"vos":["componé"],"s3":["componga"],"p1":["compongamos"],"p2":["componed"],"p3":["compongan"]}
+  }
+}

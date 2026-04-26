@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpliˈkaɾ]",
+    "silabacion": "im-pli-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín implicāre, y este de im- y plicare, lo posterior del protoindoeuropeo *pleḱ-.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"implicar","gerundio":["implicando"],"participio":["implicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["implico"],"s2":["implicas"],"vos":["implicás"],"s3":["implica"],"p1":["implicamos"],"p2":["implicáis"],"p3":["implican"]},
+    "IndImp": {"s1":["implicaba"],"s2":["implicabas"],"vos":["implicabas"],"s3":["implicaba"],"p1":["implicábamos"],"p2":["implicabais"],"p3":["implicaban"]},
+    "IndPret": {"s1":["impliqué"],"s2":["implicaste"],"vos":["implicaste"],"s3":["implicó"],"p1":["implicamos"],"p2":["implicasteis"],"p3":["implicaron"]},
+    "IndFut": {"s1":["implicaré"],"s2":["implicarás"],"vos":["implicarás"],"s3":["implicará"],"p1":["implicaremos"],"p2":["implicaréis"],"p3":["implicarán"]},
+    "IndCond": {"s1":["implicaría"],"s2":["implicarías"],"vos":["implicarías"],"s3":["implicaría"],"p1":["implicaríamos"],"p2":["implicaríais"],"p3":["implicarían"]},
+    "SubPres": {"s1":["implique"],"s2":["impliques"],"vos":["impliques","impliqués"],"s3":["implique"],"p1":["impliquemos"],"p2":["impliquéis"],"p3":["impliquen"]},
+    "SubImp": {"s1":["implicara","implicase"],"s2":["implicaras","implicases"],"vos":["implicaras","implicases"],"s3":["implicara","implicase"],"p1":["implicáramos","implicásemos"],"p2":["implicarais","implicaseis"],"p3":["implicaran","implicasen"]},
+    "SubFut": {"s1":["implicare"],"s2":["implicares"],"vos":["implicares"],"s3":["implicare"],"p1":["implicáremos"],"p2":["implicareis"],"p3":["implicaren"]},
+    "CmdPos": {"s2":["implica"],"vos":["implicá"],"s3":["implique"],"p1":["impliquemos"],"p2":["implicad"],"p3":["impliquen"]}
+  }
+}

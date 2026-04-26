@@ -17,7 +17,7 @@ export function applyToFormaConjugada(form, i, change) {
     const es_restringida = (typeof form !== "string");
     const uso = form.uso;
     const original = (es_restringida ? form.forma : form);
-    const changed = change(original, i);
+    const changed = change(original, i, uso);
     if (changed && (changed !== original)) {
         return (es_restringida ? { forma: changed, uso } : changed);
     }
@@ -55,8 +55,8 @@ export function formaConjugadaIgual(lhs, rhs) {
     if (!lhs || !rhs) {
         return false;
     }
-    const lhs_str = ((typeof lhs === "string") ? lhs : lhs.forma);
-    const rhs_str = ((typeof rhs === "string") ? rhs : rhs.forma);
+    const lhs_str = getForma(lhs);
+    const rhs_str = getForma(rhs);
     return (lhs_str === rhs_str);
 }
 // Compara las formas de una conjugación.
@@ -109,8 +109,8 @@ export function isValueless(forma_conjugadas) {
     else {
         const index_first_value = forma_conjugadas.findIndex((forma_conjugada) => {
             if (forma_conjugada != null) {
-                const es_string = (typeof forma_conjugada === "string");
-                return (es_string ? true : (forma_conjugada.forma != null));
+                const is_string = (typeof forma_conjugada === "string");
+                return (is_string ? true : (forma_conjugada.forma != null));
             }
         });
         return (index_first_value === -1);
@@ -260,5 +260,86 @@ export function compareSpanishWords(lhs, rhs) {
         }
     }
     return lhs.length - rhs.length;
+}
+export function acumulaCambiosPorPersona(args) {
+    // function añadeReglaAFormaConjugada(formas_conjugadas?: FormaConjugada[]) {
+    //     if (formas_conjugadas) {
+    //         const con_regla = formas_conjugadas.map((forma_conjugada) => {
+    //             return {regla, forma_conjugada}
+    //         })
+    //         return con_regla
+    //     }
+    // }
+    const { cambios_aplicadas, persona, temas, sufijos, regla } = args;
+    const personas = (persona ? [persona] : persons_w_vos);
+    for (const persona of personas) {
+        const temas_por_persona = temas?.[persona];
+        const sufijos_por_persona = sufijos?.[persona];
+        if (temas_por_persona || sufijos_por_persona) {
+            const cambio = { regla, temas: temas_por_persona, sufijos: sufijos_por_persona };
+            cambios_aplicadas[persona] = cambios_aplicadas[persona] || [];
+            cambios_aplicadas[persona].push(cambio);
+        }
+    }
+}
+export function añadeCambiosPorPersona(args) {
+    const { acumulado, adicional } = args;
+    for (const persona in adicional) {
+        acumulado[persona] = acumulado[persona] || [];
+        acumulado[persona].push(...adicional[persona]);
+    }
+}
+export function extraeTema(forma_completa, sufijos) {
+    function getSufijoAlternativa(sufijo_forma) {
+        let alternativa;
+        if (sufijo_forma.match(/^i[eó]/)) {
+            alternativa = sufijo_forma.replace("i", "y");
+        }
+        else if (sufijo_forma.startsWith("i")) {
+            alternativa = sufijo_forma.replace("i", "í");
+        }
+        else if (["ís", "í"].includes(sufijo_forma)) {
+            alternativa = sufijo_forma.replace("í", "i");
+        }
+        if (["eis", "en", "es", "e"].includes(sufijo_forma)) {
+            // "entrever"
+            alternativa = sufijo_forma.replace("e", "é");
+        }
+        return alternativa;
+    }
+    for (const sufijo of sufijos) {
+        const sufijo_forma = getForma(sufijo);
+        const sufijo_forma_alternativa = getSufijoAlternativa(sufijo_forma);
+        if (forma_completa.endsWith(sufijo_forma)) {
+            const tema = forma_completa.slice(0, -sufijo_forma.length);
+            return { tema, sufijo: sufijo_forma };
+        }
+        else if (sufijo_forma_alternativa && forma_completa.endsWith(sufijo_forma_alternativa)) {
+            const tema = forma_completa.slice(0, -sufijo_forma.length);
+            return { tema, sufijo: sufijo_forma_alternativa };
+        }
+    }
+    throw new Error(`La forma_completa=${forma_completa} debe terminar con un de los sufijos=${JSON.stringify(sufijos)}`);
+}
+// Por cada forma en formas_completas, separa la en el tema y el prefijo, según uno de los sufijos, ignorando los 'uso's.
+export function extraeTemas(formas_completas, sufijos) {
+    const split_formas = [];
+    for (const forma_completa of formas_completas) {
+        const split = extraeTema(getForma(forma_completa), sufijos);
+        split_formas.push(split);
+    }
+    return split_formas;
+}
+export function getForma(forma_conjugada) {
+    const forma = ((typeof forma_conjugada === "string") ? forma_conjugada : forma_conjugada?.forma);
+    return forma;
+}
+export function asFormaConjugada(forma, model) {
+    if (typeof model === "string") {
+        return forma;
+    }
+    else {
+        return { forma, uso: model.uso };
+    }
 }
 //# sourceMappingURL=lib.js.map

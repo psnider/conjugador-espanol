@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksiˈljaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De exilio y el sufijo -ar.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"exiliar","gerundio":["exiliando"],"participio":["exiliado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exilio"],"s2":["exilias"],"vos":["exiliás"],"s3":["exilia"],"p1":["exiliamos"],"p2":["exiliáis"],"p3":["exilian"]},
+    "IndImp": {"s1":["exiliaba"],"s2":["exiliabas"],"vos":["exiliabas"],"s3":["exiliaba"],"p1":["exiliábamos"],"p2":["exiliabais"],"p3":["exiliaban"]},
+    "IndPret": {"s1":["exilié"],"s2":["exiliaste"],"vos":["exiliaste"],"s3":["exilió"],"p1":["exiliamos"],"p2":["exiliasteis"],"p3":["exiliaron"]},
+    "IndFut": {"s1":["exiliaré"],"s2":["exiliarás"],"vos":["exiliarás"],"s3":["exiliará"],"p1":["exiliaremos"],"p2":["exiliaréis"],"p3":["exiliarán"]},
+    "IndCond": {"s1":["exiliaría"],"s2":["exiliarías"],"vos":["exiliarías"],"s3":["exiliaría"],"p1":["exiliaríamos"],"p2":["exiliaríais"],"p3":["exiliarían"]},
+    "SubPres": {"s1":["exilie"],"s2":["exilies"],"vos":["exilies","exiliés"],"s3":["exilie"],"p1":["exiliemos"],"p2":["exiliéis"],"p3":["exilien"]},
+    "SubImp": {"s1":["exiliara","exiliase"],"s2":["exiliaras","exiliases"],"vos":["exiliaras","exiliases"],"s3":["exiliara","exiliase"],"p1":["exiliáramos","exiliásemos"],"p2":["exiliarais","exiliaseis"],"p3":["exiliaran","exiliasen"]},
+    "SubFut": {"s1":["exiliare"],"s2":["exiliares"],"vos":["exiliares"],"s3":["exiliare"],"p1":["exiliáremos"],"p2":["exiliareis"],"p3":["exiliaren"]},
+    "CmdPos": {"s2":["exilia"],"vos":["exiliá"],"s3":["exilie"],"p1":["exiliemos"],"p2":["exiliad"],"p3":["exilien"]}
+  }
+}

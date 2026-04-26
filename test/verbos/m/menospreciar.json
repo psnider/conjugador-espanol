@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[menospɾeˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de menos y preciar.[2]",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"menospreciar","gerundio":["menospreciando"],"participio":["menospreciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["menosprecio"],"s2":["menosprecias"],"vos":["menospreciás"],"s3":["menosprecia"],"p1":["menospreciamos"],"p2":["menospreciáis"],"p3":["menosprecian"]},
+    "IndImp": {"s1":["menospreciaba"],"s2":["menospreciabas"],"vos":["menospreciabas"],"s3":["menospreciaba"],"p1":["menospreciábamos"],"p2":["menospreciabais"],"p3":["menospreciaban"]},
+    "IndPret": {"s1":["menosprecié"],"s2":["menospreciaste"],"vos":["menospreciaste"],"s3":["menospreció"],"p1":["menospreciamos"],"p2":["menospreciasteis"],"p3":["menospreciaron"]},
+    "IndFut": {"s1":["menospreciaré"],"s2":["menospreciarás"],"vos":["menospreciarás"],"s3":["menospreciará"],"p1":["menospreciaremos"],"p2":["menospreciaréis"],"p3":["menospreciarán"]},
+    "IndCond": {"s1":["menospreciaría"],"s2":["menospreciarías"],"vos":["menospreciarías"],"s3":["menospreciaría"],"p1":["menospreciaríamos"],"p2":["menospreciaríais"],"p3":["menospreciarían"]},
+    "SubPres": {"s1":["menosprecie"],"s2":["menosprecies"],"vos":["menosprecies","menospreciés"],"s3":["menosprecie"],"p1":["menospreciemos"],"p2":["menospreciéis"],"p3":["menosprecien"]},
+    "SubImp": {"s1":["menospreciara","menospreciase"],"s2":["menospreciaras","menospreciases"],"vos":["menospreciaras","menospreciases"],"s3":["menospreciara","menospreciase"],"p1":["menospreciáramos","menospreciásemos"],"p2":["menospreciarais","menospreciaseis"],"p3":["menospreciaran","menospreciasen"]},
+    "SubFut": {"s1":["menospreciare"],"s2":["menospreciares"],"vos":["menospreciares"],"s3":["menospreciare"],"p1":["menospreciáremos"],"p2":["menospreciareis"],"p3":["menospreciaren"]},
+    "CmdPos": {"s2":["menosprecia"],"vos":["menospreciá"],"s3":["menosprecie"],"p1":["menospreciemos"],"p2":["menospreciad"],"p3":["menosprecien"]}
+  }
+}

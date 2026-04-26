@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aloˈkaɾ]",
+    "silabacion": "a-lo-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, loco y el sufijo -ar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"alocar","gerundio":["alocando"],"participio":["alocado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aloco"],"s2":["alocas"],"vos":["alocás"],"s3":["aloca"],"p1":["alocamos"],"p2":["alocáis"],"p3":["alocan"]},
+    "IndImp": {"s1":["alocaba"],"s2":["alocabas"],"vos":["alocabas"],"s3":["alocaba"],"p1":["alocábamos"],"p2":["alocabais"],"p3":["alocaban"]},
+    "IndPret": {"s1":["aloqué"],"s2":["alocaste"],"vos":["alocaste"],"s3":["alocó"],"p1":["alocamos"],"p2":["alocasteis"],"p3":["alocaron"]},
+    "IndFut": {"s1":["alocaré"],"s2":["alocarás"],"vos":["alocarás"],"s3":["alocará"],"p1":["alocaremos"],"p2":["alocaréis"],"p3":["alocarán"]},
+    "IndCond": {"s1":["alocaría"],"s2":["alocarías"],"vos":["alocarías"],"s3":["alocaría"],"p1":["alocaríamos"],"p2":["alocaríais"],"p3":["alocarían"]},
+    "SubPres": {"s1":["aloque"],"s2":["aloques"],"vos":["aloques","aloqués"],"s3":["aloque"],"p1":["aloquemos"],"p2":["aloquéis"],"p3":["aloquen"]},
+    "SubImp": {"s1":["alocara","alocase"],"s2":["alocaras","alocases"],"vos":["alocaras","alocases"],"s3":["alocara","alocase"],"p1":["alocáramos","alocásemos"],"p2":["alocarais","alocaseis"],"p3":["alocaran","alocasen"]},
+    "SubFut": {"s1":["alocare"],"s2":["alocares"],"vos":["alocares"],"s3":["alocare"],"p1":["alocáremos"],"p2":["alocareis"],"p3":["alocaren"]},
+    "CmdPos": {"s2":["aloca"],"vos":["alocá"],"s3":["aloque"],"p1":["aloquemos"],"p2":["alocad"],"p3":["aloquen"]}
+  }
+}

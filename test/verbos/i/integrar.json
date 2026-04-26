@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eˈɣ̞ɾaɾ]",
+    "silabacion": "in-te-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín integrare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"integrar","gerundio":["integrando"],"participio":["integrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["integro"],"s2":["integras"],"vos":["integrás"],"s3":["integra"],"p1":["integramos"],"p2":["integráis"],"p3":["integran"]},
+    "IndImp": {"s1":["integraba"],"s2":["integrabas"],"vos":["integrabas"],"s3":["integraba"],"p1":["integrábamos"],"p2":["integrabais"],"p3":["integraban"]},
+    "IndPret": {"s1":["integré"],"s2":["integraste"],"vos":["integraste"],"s3":["integró"],"p1":["integramos"],"p2":["integrasteis"],"p3":["integraron"]},
+    "IndFut": {"s1":["integraré"],"s2":["integrarás"],"vos":["integrarás"],"s3":["integrará"],"p1":["integraremos"],"p2":["integraréis"],"p3":["integrarán"]},
+    "IndCond": {"s1":["integraría"],"s2":["integrarías"],"vos":["integrarías"],"s3":["integraría"],"p1":["integraríamos"],"p2":["integraríais"],"p3":["integrarían"]},
+    "SubPres": {"s1":["integre"],"s2":["integres"],"vos":["integres","integrés"],"s3":["integre"],"p1":["integremos"],"p2":["integréis"],"p3":["integren"]},
+    "SubImp": {"s1":["integrara","integrase"],"s2":["integraras","integrases"],"vos":["integraras","integrases"],"s3":["integrara","integrase"],"p1":["integráramos","integrásemos"],"p2":["integrarais","integraseis"],"p3":["integraran","integrasen"]},
+    "SubFut": {"s1":["integrare"],"s2":["integrares"],"vos":["integrares"],"s3":["integrare"],"p1":["integráremos"],"p2":["integrareis"],"p3":["integraren"]},
+    "CmdPos": {"s2":["integra"],"vos":["integrá"],"s3":["integre"],"p1":["integremos"],"p2":["integrad"],"p3":["integren"]}
+  }
+}

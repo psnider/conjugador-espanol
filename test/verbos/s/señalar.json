@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seɲaˈlaɾ]",
+    "silabacion": "se-ña-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De señal.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"señalar","gerundio":["señalando"],"participio":["señalado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["señalo"],"s2":["señalas"],"vos":["señalás"],"s3":["señala"],"p1":["señalamos"],"p2":["señaláis"],"p3":["señalan"]},
+    "IndImp": {"s1":["señalaba"],"s2":["señalabas"],"vos":["señalabas"],"s3":["señalaba"],"p1":["señalábamos"],"p2":["señalabais"],"p3":["señalaban"]},
+    "IndPret": {"s1":["señalé"],"s2":["señalaste"],"vos":["señalaste"],"s3":["señaló"],"p1":["señalamos"],"p2":["señalasteis"],"p3":["señalaron"]},
+    "IndFut": {"s1":["señalaré"],"s2":["señalarás"],"vos":["señalarás"],"s3":["señalará"],"p1":["señalaremos"],"p2":["señalaréis"],"p3":["señalarán"]},
+    "IndCond": {"s1":["señalaría"],"s2":["señalarías"],"vos":["señalarías"],"s3":["señalaría"],"p1":["señalaríamos"],"p2":["señalaríais"],"p3":["señalarían"]},
+    "SubPres": {"s1":["señale"],"s2":["señales"],"vos":["señales","señalés"],"s3":["señale"],"p1":["señalemos"],"p2":["señaléis"],"p3":["señalen"]},
+    "SubImp": {"s1":["señalara","señalase"],"s2":["señalaras","señalases"],"vos":["señalaras","señalases"],"s3":["señalara","señalase"],"p1":["señaláramos","señalásemos"],"p2":["señalarais","señalaseis"],"p3":["señalaran","señalasen"]},
+    "SubFut": {"s1":["señalare"],"s2":["señalares"],"vos":["señalares"],"s3":["señalare"],"p1":["señaláremos"],"p2":["señalareis"],"p3":["señalaren"]},
+    "CmdPos": {"s2":["señala"],"vos":["señalá"],"s3":["señale"],"p1":["señalemos"],"p2":["señalad"],"p3":["señalen"]}
+  }
+}

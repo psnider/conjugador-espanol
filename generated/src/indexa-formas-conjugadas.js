@@ -1,8 +1,8 @@
-import { conjugateVerb } from "./conjugate-verb";
-import { mood_tenses } from "./lib";
-import { removeStress } from "./move-stress";
-import { verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas";
-const índice_fonético_formas_conjugadas = new Map();
+import { conjugateVerb } from "./conjugate-verb.js";
+import { getForma, mood_tenses } from "./lib.js";
+import { removeStress } from "./move-stress.js";
+import { verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas.js";
+export const índice_fonético_formas_conjugadas = new Map();
 // Reglas de sustitución para español
 const simplifica_fonemas = [
     { from: /ü/gu, to: "u" },
@@ -23,16 +23,48 @@ function simplificaFormaFonetica(forma) {
     }
     return normalizada;
 }
+function getStems(infinitivo, formas, reglas_conjugacional) {
+    // function findRulesApplied(name: string) {
+    //     for (const rule_applied of rules_applied) {
+    //         const value = rule_applied[name]
+    //         if (value) {
+    //             return value
+    //         }
+    //     }
+    // }
+    const temas = [];
+    const keys = Object.keys(reglas_conjugacional);
+    const is_regular = (keys.length === 0);
+    if (is_regular) {
+        // FIX: for now use the stem of the infinitive, but there could be orthographic changes
+        const tema_regular = infinitivo.slice(0, -2);
+        temas.push(tema_regular);
+    }
+    else {
+        // const suffixes = findRulesApplied("suffixes")
+        // const lexical_exceptions_suffixes = findRulesApplied("lexical_exceptions_suffixes")
+        // const forms = conjugaciones.forms
+        // for (const gramatical_person in forms) {
+        //     const formas_conjugadas = forms[gramatical_person]
+        // }
+    }
+    return temas;
+}
 export function generaIndiceFormasConjugadas() {
     for (const infinitivo in verbos_con_cambios_morfológicos) {
+        const reglas_conjugacional = verbos_con_cambios_morfológicos[infinitivo];
         for (const modo_tiempo of mood_tenses) {
             const conjugaciones = conjugateVerb(infinitivo, modo_tiempo);
-            if (conjugaciones) {
-                for (const persona in conjugaciones) {
-                    const formas_conjugadas = conjugaciones[persona];
+            const formas = conjugaciones?.forms;
+            if (formas) {
+                // const temas = getStems(infinitivo, formas, conjugaciones.notes.reglas_aplicadas_primaria, reglas_conjugacional)
+                // FIX
+                for (const key in formas) {
+                    const persona = key;
+                    const formas_conjugadas = formas[persona];
                     if (formas_conjugadas) {
                         for (const forma_conjugada of formas_conjugadas) {
-                            const forma = ((typeof forma_conjugada === "string") ? forma_conjugada : forma_conjugada.forma);
+                            const forma = getForma(forma_conjugada);
                             const uso = ((typeof forma_conjugada === "string") ? undefined : forma_conjugada.uso);
                             const uso_tail = (uso ? `,${uso}` : "");
                             const clave_normalizada = simplificaFormaFonetica(forma);

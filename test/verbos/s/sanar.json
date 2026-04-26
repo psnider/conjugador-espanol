@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saˈnaɾ]",
+    "silabacion": "sa-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sānō, sānāre,[1] derivado de sānus, sāna, sānum&nbsp;('sano').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sanar","gerundio":["sanando"],"participio":["sanado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sano"],"s2":["sanas"],"vos":["sanás"],"s3":["sana"],"p1":["sanamos"],"p2":["sanáis"],"p3":["sanan"]},
+    "IndImp": {"s1":["sanaba"],"s2":["sanabas"],"vos":["sanabas"],"s3":["sanaba"],"p1":["sanábamos"],"p2":["sanabais"],"p3":["sanaban"]},
+    "IndPret": {"s1":["sané"],"s2":["sanaste"],"vos":["sanaste"],"s3":["sanó"],"p1":["sanamos"],"p2":["sanasteis"],"p3":["sanaron"]},
+    "IndFut": {"s1":["sanaré"],"s2":["sanarás"],"vos":["sanarás"],"s3":["sanará"],"p1":["sanaremos"],"p2":["sanaréis"],"p3":["sanarán"]},
+    "IndCond": {"s1":["sanaría"],"s2":["sanarías"],"vos":["sanarías"],"s3":["sanaría"],"p1":["sanaríamos"],"p2":["sanaríais"],"p3":["sanarían"]},
+    "SubPres": {"s1":["sane"],"s2":["sanes"],"vos":["sanes","sanés"],"s3":["sane"],"p1":["sanemos"],"p2":["sanéis"],"p3":["sanen"]},
+    "SubImp": {"s1":["sanara","sanase"],"s2":["sanaras","sanases"],"vos":["sanaras","sanases"],"s3":["sanara","sanase"],"p1":["sanáramos","sanásemos"],"p2":["sanarais","sanaseis"],"p3":["sanaran","sanasen"]},
+    "SubFut": {"s1":["sanare"],"s2":["sanares"],"vos":["sanares"],"s3":["sanare"],"p1":["sanáremos"],"p2":["sanareis"],"p3":["sanaren"]},
+    "CmdPos": {"s2":["sana"],"vos":["saná"],"s3":["sane"],"p1":["sanemos"],"p2":["sanad"],"p3":["sanen"]}
+  }
+}
