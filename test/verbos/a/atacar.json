@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪aˈkaɾ]",
+    "silabacion": "a-ta-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano attacare pegar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"atacar","gerundio":["atacando"],"participio":["atacado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ataco"],"s2":["atacas"],"vos":["atacás"],"s3":["ataca"],"p1":["atacamos"],"p2":["atacáis"],"p3":["atacan"]},
+    "IndImp": {"s1":["atacaba"],"s2":["atacabas"],"vos":["atacabas"],"s3":["atacaba"],"p1":["atacábamos"],"p2":["atacabais"],"p3":["atacaban"]},
+    "IndPret": {"s1":["ataqué"],"s2":["atacaste"],"vos":["atacaste"],"s3":["atacó"],"p1":["atacamos"],"p2":["atacasteis"],"p3":["atacaron"]},
+    "IndFut": {"s1":["atacaré"],"s2":["atacarás"],"vos":["atacarás"],"s3":["atacará"],"p1":["atacaremos"],"p2":["atacaréis"],"p3":["atacarán"]},
+    "IndCond": {"s1":["atacaría"],"s2":["atacarías"],"vos":["atacarías"],"s3":["atacaría"],"p1":["atacaríamos"],"p2":["atacaríais"],"p3":["atacarían"]},
+    "SubPres": {"s1":["ataque"],"s2":["ataques"],"vos":["ataques","ataqués"],"s3":["ataque"],"p1":["ataquemos"],"p2":["ataquéis"],"p3":["ataquen"]},
+    "SubImp": {"s1":["atacara","atacase"],"s2":["atacaras","atacases"],"vos":["atacaras","atacases"],"s3":["atacara","atacase"],"p1":["atacáramos","atacásemos"],"p2":["atacarais","atacaseis"],"p3":["atacaran","atacasen"]},
+    "SubFut": {"s1":["atacare"],"s2":["atacares"],"vos":["atacares"],"s3":["atacare"],"p1":["atacáremos"],"p2":["atacareis"],"p3":["atacaren"]},
+    "CmdPos": {"s2":["ataca"],"vos":["atacá"],"s3":["ataque"],"p1":["ataquemos"],"p2":["atacad"],"p3":["ataquen"]}
+  }
+}

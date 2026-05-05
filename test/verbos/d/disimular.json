@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isimuˈlaɾ]",
+    "silabacion": "di-si-mu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dissimulare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disimular","gerundio":["disimulando"],"participio":["disimulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["disimulo"],"s2":["disimulas"],"vos":["disimulás"],"s3":["disimula"],"p1":["disimulamos"],"p2":["disimuláis"],"p3":["disimulan"]},
+    "IndImp": {"s1":["disimulaba"],"s2":["disimulabas"],"vos":["disimulabas"],"s3":["disimulaba"],"p1":["disimulábamos"],"p2":["disimulabais"],"p3":["disimulaban"]},
+    "IndPret": {"s1":["disimulé"],"s2":["disimulaste"],"vos":["disimulaste"],"s3":["disimuló"],"p1":["disimulamos"],"p2":["disimulasteis"],"p3":["disimularon"]},
+    "IndFut": {"s1":["disimularé"],"s2":["disimularás"],"vos":["disimularás"],"s3":["disimulará"],"p1":["disimularemos"],"p2":["disimularéis"],"p3":["disimularán"]},
+    "IndCond": {"s1":["disimularía"],"s2":["disimularías"],"vos":["disimularías"],"s3":["disimularía"],"p1":["disimularíamos"],"p2":["disimularíais"],"p3":["disimularían"]},
+    "SubPres": {"s1":["disimule"],"s2":["disimules"],"vos":["disimules","disimulés"],"s3":["disimule"],"p1":["disimulemos"],"p2":["disimuléis"],"p3":["disimulen"]},
+    "SubImp": {"s1":["disimulara","disimulase"],"s2":["disimularas","disimulases"],"vos":["disimularas","disimulases"],"s3":["disimulara","disimulase"],"p1":["disimuláramos","disimulásemos"],"p2":["disimularais","disimulaseis"],"p3":["disimularan","disimulasen"]},
+    "SubFut": {"s1":["disimulare"],"s2":["disimulares"],"vos":["disimulares"],"s3":["disimulare"],"p1":["disimuláremos"],"p2":["disimulareis"],"p3":["disimularen"]},
+    "CmdPos": {"s2":["disimula"],"vos":["disimulá"],"s3":["disimule"],"p1":["disimulemos"],"p2":["disimulad"],"p3":["disimulen"]}
+  }
+}

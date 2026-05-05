@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõŋkuˈriɾ]",
+    "silabacion": "con-cu-rrir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín concurrĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"concurrir","gerundio":["concurriendo"],"participio":["concurrido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["concurro"],"s2":["concurres"],"vos":["concurrís"],"s3":["concurre"],"p1":["concurrimos"],"p2":["concurrís"],"p3":["concurren"]},
+    "IndImp": {"s1":["concurría"],"s2":["concurrías"],"vos":["concurrías"],"s3":["concurría"],"p1":["concurríamos"],"p2":["concurríais"],"p3":["concurrían"]},
+    "IndPret": {"s1":["concurrí"],"s2":["concurriste"],"vos":["concurriste"],"s3":["concurrió"],"p1":["concurrimos"],"p2":["concurristeis"],"p3":["concurrieron"]},
+    "IndFut": {"s1":["concurriré"],"s2":["concurrirás"],"vos":["concurrirás"],"s3":["concurrirá"],"p1":["concurriremos"],"p2":["concurriréis"],"p3":["concurrirán"]},
+    "IndCond": {"s1":["concurriría"],"s2":["concurrirías"],"vos":["concurrirías"],"s3":["concurriría"],"p1":["concurriríamos"],"p2":["concurriríais"],"p3":["concurrirían"]},
+    "SubPres": {"s1":["concurra"],"s2":["concurras"],"vos":["concurras","concurrás"],"s3":["concurra"],"p1":["concurramos"],"p2":["concurráis"],"p3":["concurran"]},
+    "SubImp": {"s1":["concurriera","concurriese"],"s2":["concurrieras","concurrieses"],"vos":["concurrieras","concurrieses"],"s3":["concurriera","concurriese"],"p1":["concurriéramos","concurriésemos"],"p2":["concurrierais","concurrieseis"],"p3":["concurrieran","concurriesen"]},
+    "SubFut": {"s1":["concurriere"],"s2":["concurrieres"],"vos":["concurrieres"],"s3":["concurriere"],"p1":["concurriéremos"],"p2":["concurriereis"],"p3":["concurrieren"]},
+    "CmdPos": {"s2":["concurre"],"vos":["concurrí"],"s3":["concurra"],"p1":["concurramos"],"p2":["concurrid"],"p3":["concurran"]}
+  }
+}

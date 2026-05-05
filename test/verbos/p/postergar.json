@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[post̪eɾˈɣ̞aɾ]",
+    "silabacion": "pos-ter-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín postergāre",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"postergar","gerundio":["postergando"],"participio":["postergado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["postergo"],"s2":["postergas"],"vos":["postergás"],"s3":["posterga"],"p1":["postergamos"],"p2":["postergáis"],"p3":["postergan"]},
+    "IndImp": {"s1":["postergaba"],"s2":["postergabas"],"vos":["postergabas"],"s3":["postergaba"],"p1":["postergábamos"],"p2":["postergabais"],"p3":["postergaban"]},
+    "IndPret": {"s1":["postergué"],"s2":["postergaste"],"vos":["postergaste"],"s3":["postergó"],"p1":["postergamos"],"p2":["postergasteis"],"p3":["postergaron"]},
+    "IndFut": {"s1":["postergaré"],"s2":["postergarás"],"vos":["postergarás"],"s3":["postergará"],"p1":["postergaremos"],"p2":["postergaréis"],"p3":["postergarán"]},
+    "IndCond": {"s1":["postergaría"],"s2":["postergarías"],"vos":["postergarías"],"s3":["postergaría"],"p1":["postergaríamos"],"p2":["postergaríais"],"p3":["postergarían"]},
+    "SubPres": {"s1":["postergue"],"s2":["postergues"],"vos":["postergues","postergués"],"s3":["postergue"],"p1":["posterguemos"],"p2":["posterguéis"],"p3":["posterguen"]},
+    "SubImp": {"s1":["postergara","postergase"],"s2":["postergaras","postergases"],"vos":["postergaras","postergases"],"s3":["postergara","postergase"],"p1":["postergáramos","postergásemos"],"p2":["postergarais","postergaseis"],"p3":["postergaran","postergasen"]},
+    "SubFut": {"s1":["postergare"],"s2":["postergares"],"vos":["postergares"],"s3":["postergare"],"p1":["postergáremos"],"p2":["postergareis"],"p3":["postergaren"]},
+    "CmdPos": {"s2":["posterga"],"vos":["postergá"],"s3":["postergue"],"p1":["posterguemos"],"p2":["postergad"],"p3":["posterguen"]}
+  }
+}

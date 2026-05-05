@@ -11,9 +11,6 @@ import { ReglasDeConjugaciónDeVerbo, verbos_con_cambios_morfológicos } from ".
 type FormaID = string
 
 
-export const índice_fonético_formas_conjugadas = new Map<string, FormaID[]>()
-
-
 // Reglas de sustitución para español
 const simplifica_fonemas: {from: RegExp, to: string}[] = [
     {from: /ü/gu, to: "u"},
@@ -67,30 +64,53 @@ function getStems(infinitivo: string, formas: ConjugaciónEstándarYAtípico, re
 }
 
 
-export function generaIndiceFormasConjugadas() {
+
+// Estas RegExp's deben ser el más restigiendo posible.
+const sufijos_regexes = {
+    //         -ar                     -er,                   -ir                            irregular: estar,haber,prever,ser
+    IndPres: /((o|as|a|amos|áis|an|ás)|(es|e|emos|éis|en|és)|([ií]mos|ís|is)|(yo|yes|ye|yen)|(á|án|ay|é|én|omos|on|os|oy))$/,
+    //         -ar                         -er,-ir                 irregular: ir
+    IndImp: /((aba|abas|abais|aban|ábamos)|(ía|ías|íamos|íais|ían)|(a|as|amos|ais|an))$/,
+    //         -ar                         -er,-ir,-aer                        -uír        -ñ-     irregular: tener
+    IndPret: /((é|aste|ó|amos|asteis|aron)|(í|iste|ió|[ií]mos|[ií]steis|ieron)|(i|yó|yeron)|(eron)|(e|o))$/,
+    //       -ar,-er,-ir
+    IndFut: /(é|ás|á|emos|éis|án)$/,
+    //       -ar,-er,-ir
+    IndCond: /(ía|ías|íamos|íais|ían)$/,
+    //       -ar                           -er,-ir                  irregular: estar
+    SubPres: /(([eé]|[eé]s|emos|[eé]is|en)|(a|[aá]s|amos|[aá]is|an)|(án|én))$/,
+    //       -ar                      -er,-ir 
+    SubImp: /((ra|ras|ramos|rais|ran)|(se|ses|semos|seis|sen))$/,
+    //       -ar,-er,-ir 
+    SubFut: /(re|res|remos|reis|ren)$/,
+    // Nota: probablemente esto no va a funcionar bien por los sufijos defectivos
+    //       -ar                   -er,           -ir             irregular: dar,hacer,poner,saber,salir,ser,tener,venir,ver
+    CmdPos: /(?:(a|á|e|emos|ad|en)|(amos|ed|an|é)|([ií]d|i|í)|(é)|\b(?:ten|ven|pon|sal|haz|di|ve|s[ée])|(?:s[fh]az|[mosux]pón|[e]sal|[bens]tén|[abdenor]vén))$/
+}
+
+
+export function verificaSufijos() : number {
+    let errores = 0
     for (const infinitivo in verbos_con_cambios_morfológicos) {
-        const reglas_conjugacional = verbos_con_cambios_morfológicos[infinitivo]
+        // Note: "ir" no tiene raíz
+        const raíz = infinitivo.slice(0,-2) 
         for (const modo_tiempo of mood_tenses) {
             const conjugaciones = conjugateVerb(infinitivo, modo_tiempo)
             const formas = conjugaciones?.forms
             if (formas) {
-                // const temas = getStems(infinitivo, formas, conjugaciones.notes.reglas_aplicadas_primaria, reglas_conjugacional)
-                // FIX
-                for (const key in formas) {
-                    const persona = <GrammaticalPerson> key
-                    const formas_conjugadas = formas[persona]
-                    if (formas_conjugadas) {
-                        for (const forma_conjugada of formas_conjugadas) {
-                            const forma = getForma(forma_conjugada)
-                            const uso = ((typeof forma_conjugada === "string") ? undefined : forma_conjugada.uso)
-                            const uso_tail = (uso ? `,${uso}` : "")
-                            const clave_normalizada = simplificaFormaFonetica(forma)
-                            const form_id = `${infinitivo},${modo_tiempo},${persona}${uso_tail}`
-                            const lista = índice_fonético_formas_conjugadas.get(clave_normalizada)
-                            if (lista) {
-                                lista.push(form_id)
-                            } else {
-                                índice_fonético_formas_conjugadas.set(clave_normalizada, [form_id])
+                const sufijos_regex = sufijos_regexes[modo_tiempo]
+                if (sufijos_regex) {
+                    for (const key in formas) {
+                        const persona = <GrammaticalPerson> key
+                        const formas_conjugadas = formas[persona]
+                        if (formas_conjugadas) {
+                            for (const forma_conjugada of formas_conjugadas) {
+                                const forma = getForma(forma_conjugada)
+                                const match = forma.match(sufijos_regex)
+                                if (!match) {
+                                    ++errores
+                                    console.log(`${infinitivo},${modo_tiempo},${persona}=${forma} no coincide con sufijo_regex`)
+                                }
                             }
                         }
                     }
@@ -98,4 +118,62 @@ export function generaIndiceFormasConjugadas() {
             }
         }
     }
+    return errores
+}
+
+
+// infinitivo , modo_tiempo , persona [ , uso ]
+type IDDeFormaConjugada = string
+interface IndiceDeSufijos {[sufijo: string]: IDDeFormaConjugada[]}
+interface IndiceDeTemas {[tema: string]: IndiceDeSufijos}
+
+
+export function generaIndiceDeFormasConjugadas() : {temas_por_deletreo: IndiceDeTemas, temas_por_fonética: IndiceDeTemas} {
+    const temas_por_deletreo: IndiceDeTemas = {}
+    const temas_por_fonética: IndiceDeTemas = {}
+    for (const infinitivo in verbos_con_cambios_morfológicos) {
+        // Note: "ir" no tiene raíz
+        const raíz = infinitivo.slice(0,-2) 
+        for (const modo_tiempo of mood_tenses) {
+            const conjugaciones = conjugateVerb(infinitivo, modo_tiempo)
+            const formas = conjugaciones?.forms
+            if (formas) {
+                const sufijos_regex = sufijos_regexes[modo_tiempo]
+                if (sufijos_regex) {
+                    const cambios = conjugaciones.notes.cambios_conjugacional_primaria.cambios
+                    const cambios_2 = conjugaciones.notes.cambios_conjugacional_secundaria?.cambios
+                    for (const key in formas) {
+                        const persona = <GrammaticalPerson> key
+                        const formas_conjugadas = formas[persona]
+                        const cambios_de_forma = cambios[persona]
+                        const cambios_2_de_forma = cambios_2?.[persona]
+                        if (formas_conjugadas) {
+                            for (const forma_conjugada of formas_conjugadas) {
+                                const forma = getForma(forma_conjugada)
+                                const match = forma.match(sufijos_regex)
+                                const sufijo = match[1]
+                                const sufijo_length = sufijo?.length || 0
+                                const tema = forma.slice(0, -sufijo_length)
+                                const uso = ((typeof forma_conjugada === "string") ? undefined : forma_conjugada.uso)
+                                const uso_tail = (uso ? `,${uso}` : "")
+                                const id = `${infinitivo},${modo_tiempo},${persona}${uso_tail}`
+                                // por deletreo
+                                temas_por_deletreo[tema] = temas_por_deletreo[tema] || {}
+                                const sufijos_por_deletreo = temas_por_deletreo[tema]
+                                sufijos_por_deletreo[sufijo] = sufijos_por_deletreo[sufijo] || []
+                                sufijos_por_deletreo[sufijo].push(id)
+                                // por fonética
+                                const tema_fonética = simplificaFormaFonetica(tema)
+                                temas_por_fonética[tema_fonética] = temas_por_fonética[tema_fonética] || {}
+                                const sufijos_por_fonética = temas_por_fonética[tema_fonética]
+                                sufijos_por_fonética[sufijo] = sufijos_por_fonética[sufijo] || []
+                                sufijos_por_fonética[sufijo].push(id)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return {temas_por_deletreo, temas_por_fonética}
 }

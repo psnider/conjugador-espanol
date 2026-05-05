@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪ɾaˈpaɾ]",
+    "silabacion": "a-tra-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés attraper.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atrapar","gerundio":["atrapando"],"participio":["atrapado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atrapo"],"s2":["atrapas"],"vos":["atrapás"],"s3":["atrapa"],"p1":["atrapamos"],"p2":["atrapáis"],"p3":["atrapan"]},
+    "IndImp": {"s1":["atrapaba"],"s2":["atrapabas"],"vos":["atrapabas"],"s3":["atrapaba"],"p1":["atrapábamos"],"p2":["atrapabais"],"p3":["atrapaban"]},
+    "IndPret": {"s1":["atrapé"],"s2":["atrapaste"],"vos":["atrapaste"],"s3":["atrapó"],"p1":["atrapamos"],"p2":["atrapasteis"],"p3":["atraparon"]},
+    "IndFut": {"s1":["atraparé"],"s2":["atraparás"],"vos":["atraparás"],"s3":["atrapará"],"p1":["atraparemos"],"p2":["atraparéis"],"p3":["atraparán"]},
+    "IndCond": {"s1":["atraparía"],"s2":["atraparías"],"vos":["atraparías"],"s3":["atraparía"],"p1":["atraparíamos"],"p2":["atraparíais"],"p3":["atraparían"]},
+    "SubPres": {"s1":["atrape"],"s2":["atrapes"],"vos":["atrapes","atrapés"],"s3":["atrape"],"p1":["atrapemos"],"p2":["atrapéis"],"p3":["atrapen"]},
+    "SubImp": {"s1":["atrapara","atrapase"],"s2":["atraparas","atrapases"],"vos":["atraparas","atrapases"],"s3":["atrapara","atrapase"],"p1":["atrapáramos","atrapásemos"],"p2":["atraparais","atrapaseis"],"p3":["atraparan","atrapasen"]},
+    "SubFut": {"s1":["atrapare"],"s2":["atrapares"],"vos":["atrapares"],"s3":["atrapare"],"p1":["atrapáremos"],"p2":["atrapareis"],"p3":["atraparen"]},
+    "CmdPos": {"s2":["atrapa"],"vos":["atrapá"],"s3":["atrape"],"p1":["atrapemos"],"p2":["atrapad"],"p3":["atrapen"]}
+  }
+}

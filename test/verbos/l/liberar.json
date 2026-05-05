@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[liβ̞eˈɾaɾ]",
+    "silabacion": "li-be-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín līberāre ('libre').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"liberar","gerundio":["liberando"],"participio":["liberado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["libero"],"s2":["liberas"],"vos":["liberás"],"s3":["libera"],"p1":["liberamos"],"p2":["liberáis"],"p3":["liberan"]},
+    "IndImp": {"s1":["liberaba"],"s2":["liberabas"],"vos":["liberabas"],"s3":["liberaba"],"p1":["liberábamos"],"p2":["liberabais"],"p3":["liberaban"]},
+    "IndPret": {"s1":["liberé"],"s2":["liberaste"],"vos":["liberaste"],"s3":["liberó"],"p1":["liberamos"],"p2":["liberasteis"],"p3":["liberaron"]},
+    "IndFut": {"s1":["liberaré"],"s2":["liberarás"],"vos":["liberarás"],"s3":["liberará"],"p1":["liberaremos"],"p2":["liberaréis"],"p3":["liberarán"]},
+    "IndCond": {"s1":["liberaría"],"s2":["liberarías"],"vos":["liberarías"],"s3":["liberaría"],"p1":["liberaríamos"],"p2":["liberaríais"],"p3":["liberarían"]},
+    "SubPres": {"s1":["libere"],"s2":["liberes"],"vos":["liberes","liberés"],"s3":["libere"],"p1":["liberemos"],"p2":["liberéis"],"p3":["liberen"]},
+    "SubImp": {"s1":["liberara","liberase"],"s2":["liberaras","liberases"],"vos":["liberaras","liberases"],"s3":["liberara","liberase"],"p1":["liberáramos","liberásemos"],"p2":["liberarais","liberaseis"],"p3":["liberaran","liberasen"]},
+    "SubFut": {"s1":["liberare"],"s2":["liberares"],"vos":["liberares"],"s3":["liberare"],"p1":["liberáremos"],"p2":["liberareis"],"p3":["liberaren"]},
+    "CmdPos": {"s2":["libera"],"vos":["liberá"],"s3":["libere"],"p1":["liberemos"],"p2":["liberad"],"p3":["liberen"]}
+  }
+}

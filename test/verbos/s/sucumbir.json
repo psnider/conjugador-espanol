@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sukũmˈbiɾ]",
+    "silabacion": "su-cum-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín succumbere ('hundirse').",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"sucumbir","gerundio":["sucumbiendo"],"participio":["sucumbido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sucumbo"],"s2":["sucumbes"],"vos":["sucumbís"],"s3":["sucumbe"],"p1":["sucumbimos"],"p2":["sucumbís"],"p3":["sucumben"]},
+    "IndImp": {"s1":["sucumbía"],"s2":["sucumbías"],"vos":["sucumbías"],"s3":["sucumbía"],"p1":["sucumbíamos"],"p2":["sucumbíais"],"p3":["sucumbían"]},
+    "IndPret": {"s1":["sucumbí"],"s2":["sucumbiste"],"vos":["sucumbiste"],"s3":["sucumbió"],"p1":["sucumbimos"],"p2":["sucumbisteis"],"p3":["sucumbieron"]},
+    "IndFut": {"s1":["sucumbiré"],"s2":["sucumbirás"],"vos":["sucumbirás"],"s3":["sucumbirá"],"p1":["sucumbiremos"],"p2":["sucumbiréis"],"p3":["sucumbirán"]},
+    "IndCond": {"s1":["sucumbiría"],"s2":["sucumbirías"],"vos":["sucumbirías"],"s3":["sucumbiría"],"p1":["sucumbiríamos"],"p2":["sucumbiríais"],"p3":["sucumbirían"]},
+    "SubPres": {"s1":["sucumba"],"s2":["sucumbas"],"vos":["sucumbas","sucumbás"],"s3":["sucumba"],"p1":["sucumbamos"],"p2":["sucumbáis"],"p3":["sucumban"]},
+    "SubImp": {"s1":["sucumbiera","sucumbiese"],"s2":["sucumbieras","sucumbieses"],"vos":["sucumbieras","sucumbieses"],"s3":["sucumbiera","sucumbiese"],"p1":["sucumbiéramos","sucumbiésemos"],"p2":["sucumbierais","sucumbieseis"],"p3":["sucumbieran","sucumbiesen"]},
+    "SubFut": {"s1":["sucumbiere"],"s2":["sucumbieres"],"vos":["sucumbieres"],"s3":["sucumbiere"],"p1":["sucumbiéremos"],"p2":["sucumbiereis"],"p3":["sucumbieren"]},
+    "CmdPos": {"s2":["sucumbe"],"vos":["sucumbí"],"s3":["sucumba"],"p1":["sucumbamos"],"p2":["sucumbid"],"p3":["sucumban"]}
+  }
+}

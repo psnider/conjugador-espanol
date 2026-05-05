@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾeeksiˈt̪aɾ]",
+    "silabacion": "so-bre-ex-ci-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobreexcitar","gerundio":["sobreexcitando"],"participio":["sobreexcitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobreexcito"],"s2":["sobreexcitas"],"vos":["sobreexcitás"],"s3":["sobreexcita"],"p1":["sobreexcitamos"],"p2":["sobreexcitáis"],"p3":["sobreexcitan"]},
+    "IndImp": {"s1":["sobreexcitaba"],"s2":["sobreexcitabas"],"vos":["sobreexcitabas"],"s3":["sobreexcitaba"],"p1":["sobreexcitábamos"],"p2":["sobreexcitabais"],"p3":["sobreexcitaban"]},
+    "IndPret": {"s1":["sobreexcité"],"s2":["sobreexcitaste"],"vos":["sobreexcitaste"],"s3":["sobreexcitó"],"p1":["sobreexcitamos"],"p2":["sobreexcitasteis"],"p3":["sobreexcitaron"]},
+    "IndFut": {"s1":["sobreexcitaré"],"s2":["sobreexcitarás"],"vos":["sobreexcitarás"],"s3":["sobreexcitará"],"p1":["sobreexcitaremos"],"p2":["sobreexcitaréis"],"p3":["sobreexcitarán"]},
+    "IndCond": {"s1":["sobreexcitaría"],"s2":["sobreexcitarías"],"vos":["sobreexcitarías"],"s3":["sobreexcitaría"],"p1":["sobreexcitaríamos"],"p2":["sobreexcitaríais"],"p3":["sobreexcitarían"]},
+    "SubPres": {"s1":["sobreexcite"],"s2":["sobreexcites"],"vos":["sobreexcites","sobreexcités"],"s3":["sobreexcite"],"p1":["sobreexcitemos"],"p2":["sobreexcitéis"],"p3":["sobreexciten"]},
+    "SubImp": {"s1":["sobreexcitara","sobreexcitase"],"s2":["sobreexcitaras","sobreexcitases"],"vos":["sobreexcitaras","sobreexcitases"],"s3":["sobreexcitara","sobreexcitase"],"p1":["sobreexcitáramos","sobreexcitásemos"],"p2":["sobreexcitarais","sobreexcitaseis"],"p3":["sobreexcitaran","sobreexcitasen"]},
+    "SubFut": {"s1":["sobreexcitare"],"s2":["sobreexcitares"],"vos":["sobreexcitares"],"s3":["sobreexcitare"],"p1":["sobreexcitáremos"],"p2":["sobreexcitareis"],"p3":["sobreexcitaren"]},
+    "CmdPos": {"s2":["sobreexcita"],"vos":["sobreexcitá"],"s3":["sobreexcite"],"p1":["sobreexcitemos"],"p2":["sobreexcitad"],"p3":["sobreexciten"]}
+  }
+}

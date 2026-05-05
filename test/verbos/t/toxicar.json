@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oksiˈkaɾ]",
+    "silabacion": "to-xi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"toxicar","gerundio":["toxicando"],"participio":["toxicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["toxico"],"s2":["toxicas"],"vos":["toxicás"],"s3":["toxica"],"p1":["toxicamos"],"p2":["toxicáis"],"p3":["toxican"]},
+    "IndImp": {"s1":["toxicaba"],"s2":["toxicabas"],"vos":["toxicabas"],"s3":["toxicaba"],"p1":["toxicábamos"],"p2":["toxicabais"],"p3":["toxicaban"]},
+    "IndPret": {"s1":["toxiqué"],"s2":["toxicaste"],"vos":["toxicaste"],"s3":["toxicó"],"p1":["toxicamos"],"p2":["toxicasteis"],"p3":["toxicaron"]},
+    "IndFut": {"s1":["toxicaré"],"s2":["toxicarás"],"vos":["toxicarás"],"s3":["toxicará"],"p1":["toxicaremos"],"p2":["toxicaréis"],"p3":["toxicarán"]},
+    "IndCond": {"s1":["toxicaría"],"s2":["toxicarías"],"vos":["toxicarías"],"s3":["toxicaría"],"p1":["toxicaríamos"],"p2":["toxicaríais"],"p3":["toxicarían"]},
+    "SubPres": {"s1":["toxique"],"s2":["toxiques"],"vos":["toxiques","toxiqués"],"s3":["toxique"],"p1":["toxiquemos"],"p2":["toxiquéis"],"p3":["toxiquen"]},
+    "SubImp": {"s1":["toxicara","toxicase"],"s2":["toxicaras","toxicases"],"vos":["toxicaras","toxicases"],"s3":["toxicara","toxicase"],"p1":["toxicáramos","toxicásemos"],"p2":["toxicarais","toxicaseis"],"p3":["toxicaran","toxicasen"]},
+    "SubFut": {"s1":["toxicare"],"s2":["toxicares"],"vos":["toxicares"],"s3":["toxicare"],"p1":["toxicáremos"],"p2":["toxicareis"],"p3":["toxicaren"]},
+    "CmdPos": {"s2":["toxica"],"vos":["toxicá"],"s3":["toxique"],"p1":["toxiquemos"],"p2":["toxicad"],"p3":["toxiquen"]}
+  }
+}

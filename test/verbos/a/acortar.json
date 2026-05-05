@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akoɾˈt̪aɾ]",
+    "silabacion": "a-cor-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y cortar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acortar","gerundio":["acortando"],"participio":["acortado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acorto"],"s2":["acortas"],"vos":["acortás"],"s3":["acorta"],"p1":["acortamos"],"p2":["acortáis"],"p3":["acortan"]},
+    "IndImp": {"s1":["acortaba"],"s2":["acortabas"],"vos":["acortabas"],"s3":["acortaba"],"p1":["acortábamos"],"p2":["acortabais"],"p3":["acortaban"]},
+    "IndPret": {"s1":["acorté"],"s2":["acortaste"],"vos":["acortaste"],"s3":["acortó"],"p1":["acortamos"],"p2":["acortasteis"],"p3":["acortaron"]},
+    "IndFut": {"s1":["acortaré"],"s2":["acortarás"],"vos":["acortarás"],"s3":["acortará"],"p1":["acortaremos"],"p2":["acortaréis"],"p3":["acortarán"]},
+    "IndCond": {"s1":["acortaría"],"s2":["acortarías"],"vos":["acortarías"],"s3":["acortaría"],"p1":["acortaríamos"],"p2":["acortaríais"],"p3":["acortarían"]},
+    "SubPres": {"s1":["acorte"],"s2":["acortes"],"vos":["acortes","acortés"],"s3":["acorte"],"p1":["acortemos"],"p2":["acortéis"],"p3":["acorten"]},
+    "SubImp": {"s1":["acortara","acortase"],"s2":["acortaras","acortases"],"vos":["acortaras","acortases"],"s3":["acortara","acortase"],"p1":["acortáramos","acortásemos"],"p2":["acortarais","acortaseis"],"p3":["acortaran","acortasen"]},
+    "SubFut": {"s1":["acortare"],"s2":["acortares"],"vos":["acortares"],"s3":["acortare"],"p1":["acortáremos"],"p2":["acortareis"],"p3":["acortaren"]},
+    "CmdPos": {"s2":["acorta"],"vos":["acortá"],"s3":["acorte"],"p1":["acortemos"],"p2":["acortad"],"p3":["acorten"]}
+  }
+}

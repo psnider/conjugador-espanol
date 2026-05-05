@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekspulˈsaɾ]",
+    "silabacion": "ex-pul-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín expulsāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"expulsar","gerundio":["expulsando"],"participio":["expulsado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["expulso"],"s2":["expulsas"],"vos":["expulsás"],"s3":["expulsa"],"p1":["expulsamos"],"p2":["expulsáis"],"p3":["expulsan"]},
+    "IndImp": {"s1":["expulsaba"],"s2":["expulsabas"],"vos":["expulsabas"],"s3":["expulsaba"],"p1":["expulsábamos"],"p2":["expulsabais"],"p3":["expulsaban"]},
+    "IndPret": {"s1":["expulsé"],"s2":["expulsaste"],"vos":["expulsaste"],"s3":["expulsó"],"p1":["expulsamos"],"p2":["expulsasteis"],"p3":["expulsaron"]},
+    "IndFut": {"s1":["expulsaré"],"s2":["expulsarás"],"vos":["expulsarás"],"s3":["expulsará"],"p1":["expulsaremos"],"p2":["expulsaréis"],"p3":["expulsarán"]},
+    "IndCond": {"s1":["expulsaría"],"s2":["expulsarías"],"vos":["expulsarías"],"s3":["expulsaría"],"p1":["expulsaríamos"],"p2":["expulsaríais"],"p3":["expulsarían"]},
+    "SubPres": {"s1":["expulse"],"s2":["expulses"],"vos":["expulses","expulsés"],"s3":["expulse"],"p1":["expulsemos"],"p2":["expulséis"],"p3":["expulsen"]},
+    "SubImp": {"s1":["expulsara","expulsase"],"s2":["expulsaras","expulsases"],"vos":["expulsaras","expulsases"],"s3":["expulsara","expulsase"],"p1":["expulsáramos","expulsásemos"],"p2":["expulsarais","expulsaseis"],"p3":["expulsaran","expulsasen"]},
+    "SubFut": {"s1":["expulsare"],"s2":["expulsares"],"vos":["expulsares"],"s3":["expulsare"],"p1":["expulsáremos"],"p2":["expulsareis"],"p3":["expulsaren"]},
+    "CmdPos": {"s2":["expulsa"],"vos":["expulsá"],"s3":["expulse"],"p1":["expulsemos"],"p2":["expulsad"],"p3":["expulsen"]}
+  }
+}

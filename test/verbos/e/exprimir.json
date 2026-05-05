@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekspɾiˈmiɾ]",
+    "silabacion": "ex-pri-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exprimere,[1] infinitivo presente activo de exprimō, compuesto de ex&nbsp;('fuera') y premō, premere, pressī (\"hacer presión\"), de la raíz indoeuropea *per-&nbsp;('golpe'). Cfr. comprimir, deprimir, imprimir, oprimir, reprimir, suprimir.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"exprimir","gerundio":["exprimiendo"],"participio":["exprimido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exprimo"],"s2":["exprimes"],"vos":["exprimís"],"s3":["exprime"],"p1":["exprimimos"],"p2":["exprimís"],"p3":["exprimen"]},
+    "IndImp": {"s1":["exprimía"],"s2":["exprimías"],"vos":["exprimías"],"s3":["exprimía"],"p1":["exprimíamos"],"p2":["exprimíais"],"p3":["exprimían"]},
+    "IndPret": {"s1":["exprimí"],"s2":["exprimiste"],"vos":["exprimiste"],"s3":["exprimió"],"p1":["exprimimos"],"p2":["exprimisteis"],"p3":["exprimieron"]},
+    "IndFut": {"s1":["exprimiré"],"s2":["exprimirás"],"vos":["exprimirás"],"s3":["exprimirá"],"p1":["exprimiremos"],"p2":["exprimiréis"],"p3":["exprimirán"]},
+    "IndCond": {"s1":["exprimiría"],"s2":["exprimirías"],"vos":["exprimirías"],"s3":["exprimiría"],"p1":["exprimiríamos"],"p2":["exprimiríais"],"p3":["exprimirían"]},
+    "SubPres": {"s1":["exprima"],"s2":["exprimas"],"vos":["exprimas","exprimás"],"s3":["exprima"],"p1":["exprimamos"],"p2":["exprimáis"],"p3":["expriman"]},
+    "SubImp": {"s1":["exprimiera","exprimiese"],"s2":["exprimieras","exprimieses"],"vos":["exprimieras","exprimieses"],"s3":["exprimiera","exprimiese"],"p1":["exprimiéramos","exprimiésemos"],"p2":["exprimierais","exprimieseis"],"p3":["exprimieran","exprimiesen"]},
+    "SubFut": {"s1":["exprimiere"],"s2":["exprimieres"],"vos":["exprimieres"],"s3":["exprimiere"],"p1":["exprimiéremos"],"p2":["exprimiereis"],"p3":["exprimieren"]},
+    "CmdPos": {"s2":["exprime"],"vos":["exprimí"],"s3":["exprima"],"p1":["exprimamos"],"p2":["exprimid"],"p3":["expriman"]}
+  }
+}

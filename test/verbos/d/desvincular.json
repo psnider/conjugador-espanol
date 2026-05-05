@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞ĩŋkuˈlaɾ]",
+    "silabacion": "des-vin-cu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y vincular.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desvincular","gerundio":["desvinculando"],"participio":["desvinculado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desvinculo"],"s2":["desvinculas"],"vos":["desvinculás"],"s3":["desvincula"],"p1":["desvinculamos"],"p2":["desvinculáis"],"p3":["desvinculan"]},
+    "IndImp": {"s1":["desvinculaba"],"s2":["desvinculabas"],"vos":["desvinculabas"],"s3":["desvinculaba"],"p1":["desvinculábamos"],"p2":["desvinculabais"],"p3":["desvinculaban"]},
+    "IndPret": {"s1":["desvinculé"],"s2":["desvinculaste"],"vos":["desvinculaste"],"s3":["desvinculó"],"p1":["desvinculamos"],"p2":["desvinculasteis"],"p3":["desvincularon"]},
+    "IndFut": {"s1":["desvincularé"],"s2":["desvincularás"],"vos":["desvincularás"],"s3":["desvinculará"],"p1":["desvincularemos"],"p2":["desvincularéis"],"p3":["desvincularán"]},
+    "IndCond": {"s1":["desvincularía"],"s2":["desvincularías"],"vos":["desvincularías"],"s3":["desvincularía"],"p1":["desvincularíamos"],"p2":["desvincularíais"],"p3":["desvincularían"]},
+    "SubPres": {"s1":["desvincule"],"s2":["desvincules"],"vos":["desvincules","desvinculés"],"s3":["desvincule"],"p1":["desvinculemos"],"p2":["desvinculéis"],"p3":["desvinculen"]},
+    "SubImp": {"s1":["desvinculara","desvinculase"],"s2":["desvincularas","desvinculases"],"vos":["desvincularas","desvinculases"],"s3":["desvinculara","desvinculase"],"p1":["desvinculáramos","desvinculásemos"],"p2":["desvincularais","desvinculaseis"],"p3":["desvincularan","desvinculasen"]},
+    "SubFut": {"s1":["desvinculare"],"s2":["desvinculares"],"vos":["desvinculares"],"s3":["desvinculare"],"p1":["desvinculáremos"],"p2":["desvinculareis"],"p3":["desvincularen"]},
+    "CmdPos": {"s2":["desvincula"],"vos":["desvinculá"],"s3":["desvincule"],"p1":["desvinculemos"],"p2":["desvinculad"],"p3":["desvinculen"]}
+  }
+}

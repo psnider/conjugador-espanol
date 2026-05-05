@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ɾeˈnaɾ]",
+    "silabacion": "dre-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"drenar","gerundio":["drenando"],"participio":["drenado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["dreno"],"s2":["drenas"],"vos":["drenás"],"s3":["drena"],"p1":["drenamos"],"p2":["drenáis"],"p3":["drenan"]},
+    "IndImp": {"s1":["drenaba"],"s2":["drenabas"],"vos":["drenabas"],"s3":["drenaba"],"p1":["drenábamos"],"p2":["drenabais"],"p3":["drenaban"]},
+    "IndPret": {"s1":["drené"],"s2":["drenaste"],"vos":["drenaste"],"s3":["drenó"],"p1":["drenamos"],"p2":["drenasteis"],"p3":["drenaron"]},
+    "IndFut": {"s1":["drenaré"],"s2":["drenarás"],"vos":["drenarás"],"s3":["drenará"],"p1":["drenaremos"],"p2":["drenaréis"],"p3":["drenarán"]},
+    "IndCond": {"s1":["drenaría"],"s2":["drenarías"],"vos":["drenarías"],"s3":["drenaría"],"p1":["drenaríamos"],"p2":["drenaríais"],"p3":["drenarían"]},
+    "SubPres": {"s1":["drene"],"s2":["drenes"],"vos":["drenes","drenés"],"s3":["drene"],"p1":["drenemos"],"p2":["drenéis"],"p3":["drenen"]},
+    "SubImp": {"s1":["drenara","drenase"],"s2":["drenaras","drenases"],"vos":["drenaras","drenases"],"s3":["drenara","drenase"],"p1":["drenáramos","drenásemos"],"p2":["drenarais","drenaseis"],"p3":["drenaran","drenasen"]},
+    "SubFut": {"s1":["drenare"],"s2":["drenares"],"vos":["drenares"],"s3":["drenare"],"p1":["drenáremos"],"p2":["drenareis"],"p3":["drenaren"]},
+    "CmdPos": {"s2":["drena"],"vos":["drená"],"s3":["drene"],"p1":["drenemos"],"p2":["drenad"],"p3":["drenen"]}
+  }
+}

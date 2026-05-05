@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksaxeˈɾaɾ]",
+    "silabacion": "e-xa-ge-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exaggerō, exaggerāre (\"aumentar, amplificar, acumular\")",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"exagerar","gerundio":["exagerando"],"participio":["exagerado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exagero"],"s2":["exageras"],"vos":["exagerás"],"s3":["exagera"],"p1":["exageramos"],"p2":["exageráis"],"p3":["exageran"]},
+    "IndImp": {"s1":["exageraba"],"s2":["exagerabas"],"vos":["exagerabas"],"s3":["exageraba"],"p1":["exagerábamos"],"p2":["exagerabais"],"p3":["exageraban"]},
+    "IndPret": {"s1":["exageré"],"s2":["exageraste"],"vos":["exageraste"],"s3":["exageró"],"p1":["exageramos"],"p2":["exagerasteis"],"p3":["exageraron"]},
+    "IndFut": {"s1":["exageraré"],"s2":["exagerarás"],"vos":["exagerarás"],"s3":["exagerará"],"p1":["exageraremos"],"p2":["exageraréis"],"p3":["exagerarán"]},
+    "IndCond": {"s1":["exageraría"],"s2":["exagerarías"],"vos":["exagerarías"],"s3":["exageraría"],"p1":["exageraríamos"],"p2":["exageraríais"],"p3":["exagerarían"]},
+    "SubPres": {"s1":["exagere"],"s2":["exageres"],"vos":["exageres","exagerés"],"s3":["exagere"],"p1":["exageremos"],"p2":["exageréis"],"p3":["exageren"]},
+    "SubImp": {"s1":["exagerara","exagerase"],"s2":["exageraras","exagerases"],"vos":["exageraras","exagerases"],"s3":["exagerara","exagerase"],"p1":["exageráramos","exagerásemos"],"p2":["exagerarais","exageraseis"],"p3":["exageraran","exagerasen"]},
+    "SubFut": {"s1":["exagerare"],"s2":["exagerares"],"vos":["exagerares"],"s3":["exagerare"],"p1":["exageráremos"],"p2":["exagerareis"],"p3":["exageraren"]},
+    "CmdPos": {"s2":["exagera"],"vos":["exagerá"],"s3":["exagere"],"p1":["exageremos"],"p2":["exagerad"],"p3":["exageren"]}
+  }
+}

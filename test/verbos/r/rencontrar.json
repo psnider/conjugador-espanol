@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rẽŋkõn̪ˈt̪ɾaɾ]",
+    "silabacion": "ren-con-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"rencontrar","gerundio":["rencontrando"],"participio":["rencontrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rencuentro"],"s2":["rencuentras"],"vos":["rencontrás"],"s3":["rencuentra"],"p1":["rencontramos"],"p2":["rencontráis"],"p3":["rencuentran"]},
+    "IndImp": {"s1":["rencontraba"],"s2":["rencontrabas"],"vos":["rencontrabas"],"s3":["rencontraba"],"p1":["rencontrábamos"],"p2":["rencontrabais"],"p3":["rencontraban"]},
+    "IndPret": {"s1":["rencontré"],"s2":["rencontraste"],"vos":["rencontraste"],"s3":["rencontró"],"p1":["rencontramos"],"p2":["rencontrasteis"],"p3":["rencontraron"]},
+    "IndFut": {"s1":["rencontraré"],"s2":["rencontrarás"],"vos":["rencontrarás"],"s3":["rencontrará"],"p1":["rencontraremos"],"p2":["rencontraréis"],"p3":["rencontrarán"]},
+    "IndCond": {"s1":["rencontraría"],"s2":["rencontrarías"],"vos":["rencontrarías"],"s3":["rencontraría"],"p1":["rencontraríamos"],"p2":["rencontraríais"],"p3":["rencontrarían"]},
+    "SubPres": {"s1":["rencuentre"],"s2":["rencuentres"],"vos":["rencuentres","rencontrés"],"s3":["rencuentre"],"p1":["rencontremos"],"p2":["rencontréis"],"p3":["rencuentren"]},
+    "SubImp": {"s1":["rencontrara","rencontrase"],"s2":["rencontraras","rencontrases"],"vos":["rencontraras","rencontrases"],"s3":["rencontrara","rencontrase"],"p1":["rencontráramos","rencontrásemos"],"p2":["rencontrarais","rencontraseis"],"p3":["rencontraran","rencontrasen"]},
+    "SubFut": {"s1":["rencontrare"],"s2":["rencontrares"],"vos":["rencontrares"],"s3":["rencontrare"],"p1":["rencontráremos"],"p2":["rencontrareis"],"p3":["rencontraren"]},
+    "CmdPos": {"s2":["rencuentra"],"vos":["rencontrá"],"s3":["rencuentre"],"p1":["rencontremos"],"p2":["rencontrad"],"p3":["rencuentren"]}
+  }
+}

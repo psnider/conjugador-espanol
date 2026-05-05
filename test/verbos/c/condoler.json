@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪d̪oˈleɾ]",
+    "silabacion": "con-do-ler",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["mover"]
+  },
+  "formas_no_personales": {"infinitivo":"condoler","gerundio":["condoliendo"],"participio":["condolido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["conduelo"],"s2":["condueles"],"vos":["condolés"],"s3":["conduele"],"p1":["condolemos"],"p2":["condoléis"],"p3":["conduelen"]},
+    "IndImp": {"s1":["condolía"],"s2":["condolías"],"vos":["condolías"],"s3":["condolía"],"p1":["condolíamos"],"p2":["condolíais"],"p3":["condolían"]},
+    "IndPret": {"s1":["condolí"],"s2":["condoliste"],"vos":["condoliste"],"s3":["condolió"],"p1":["condolimos"],"p2":["condolisteis"],"p3":["condolieron"]},
+    "IndFut": {"s1":["condoleré"],"s2":["condolerás"],"vos":["condolerás"],"s3":["condolerá"],"p1":["condoleremos"],"p2":["condoleréis"],"p3":["condolerán"]},
+    "IndCond": {"s1":["condolería"],"s2":["condolerías"],"vos":["condolerías"],"s3":["condolería"],"p1":["condoleríamos"],"p2":["condoleríais"],"p3":["condolerían"]},
+    "SubPres": {"s1":["conduela"],"s2":["conduelas"],"vos":["conduelas","condolás"],"s3":["conduela"],"p1":["condolamos"],"p2":["condoláis"],"p3":["conduelan"]},
+    "SubImp": {"s1":["condoliera","condoliese"],"s2":["condolieras","condolieses"],"vos":["condolieras","condolieses"],"s3":["condoliera","condoliese"],"p1":["condoliéramos","condoliésemos"],"p2":["condolierais","condolieseis"],"p3":["condolieran","condoliesen"]},
+    "SubFut": {"s1":["condoliere"],"s2":["condolieres"],"vos":["condolieres"],"s3":["condoliere"],"p1":["condoliéremos"],"p2":["condoliereis"],"p3":["condolieren"]},
+    "CmdPos": {"s2":["conduele"],"vos":["condolé"],"s3":["conduela"],"p1":["condolamos"],"p2":["condoled"],"p3":["conduelan"]}
+  }
+}

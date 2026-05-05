@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reeð̞iˈt̪aɾ]",
+    "silabacion": "re-e-di-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reeditar","gerundio":["reeditando"],"participio":["reeditado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reedito"],"s2":["reeditas"],"vos":["reeditás"],"s3":["reedita"],"p1":["reeditamos"],"p2":["reeditáis"],"p3":["reeditan"]},
+    "IndImp": {"s1":["reeditaba"],"s2":["reeditabas"],"vos":["reeditabas"],"s3":["reeditaba"],"p1":["reeditábamos"],"p2":["reeditabais"],"p3":["reeditaban"]},
+    "IndPret": {"s1":["reedité"],"s2":["reeditaste"],"vos":["reeditaste"],"s3":["reeditó"],"p1":["reeditamos"],"p2":["reeditasteis"],"p3":["reeditaron"]},
+    "IndFut": {"s1":["reeditaré"],"s2":["reeditarás"],"vos":["reeditarás"],"s3":["reeditará"],"p1":["reeditaremos"],"p2":["reeditaréis"],"p3":["reeditarán"]},
+    "IndCond": {"s1":["reeditaría"],"s2":["reeditarías"],"vos":["reeditarías"],"s3":["reeditaría"],"p1":["reeditaríamos"],"p2":["reeditaríais"],"p3":["reeditarían"]},
+    "SubPres": {"s1":["reedite"],"s2":["reedites"],"vos":["reedites","reedités"],"s3":["reedite"],"p1":["reeditemos"],"p2":["reeditéis"],"p3":["reediten"]},
+    "SubImp": {"s1":["reeditara","reeditase"],"s2":["reeditaras","reeditases"],"vos":["reeditaras","reeditases"],"s3":["reeditara","reeditase"],"p1":["reeditáramos","reeditásemos"],"p2":["reeditarais","reeditaseis"],"p3":["reeditaran","reeditasen"]},
+    "SubFut": {"s1":["reeditare"],"s2":["reeditares"],"vos":["reeditares"],"s3":["reeditare"],"p1":["reeditáremos"],"p2":["reeditareis"],"p3":["reeditaren"]},
+    "CmdPos": {"s2":["reedita"],"vos":["reeditá"],"s3":["reedite"],"p1":["reeditemos"],"p2":["reeditad"],"p3":["reediten"]}
+  }
+}

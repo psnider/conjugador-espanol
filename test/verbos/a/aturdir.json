@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪uɾˈð̞iɾ]",
+    "silabacion": "a-tur-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"aturdir","gerundio":["aturdiendo"],"participio":["aturdido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aturdo"],"s2":["aturdes"],"vos":["aturdís"],"s3":["aturde"],"p1":["aturdimos"],"p2":["aturdís"],"p3":["aturden"]},
+    "IndImp": {"s1":["aturdía"],"s2":["aturdías"],"vos":["aturdías"],"s3":["aturdía"],"p1":["aturdíamos"],"p2":["aturdíais"],"p3":["aturdían"]},
+    "IndPret": {"s1":["aturdí"],"s2":["aturdiste"],"vos":["aturdiste"],"s3":["aturdió"],"p1":["aturdimos"],"p2":["aturdisteis"],"p3":["aturdieron"]},
+    "IndFut": {"s1":["aturdiré"],"s2":["aturdirás"],"vos":["aturdirás"],"s3":["aturdirá"],"p1":["aturdiremos"],"p2":["aturdiréis"],"p3":["aturdirán"]},
+    "IndCond": {"s1":["aturdiría"],"s2":["aturdirías"],"vos":["aturdirías"],"s3":["aturdiría"],"p1":["aturdiríamos"],"p2":["aturdiríais"],"p3":["aturdirían"]},
+    "SubPres": {"s1":["aturda"],"s2":["aturdas"],"vos":["aturdas","aturdás"],"s3":["aturda"],"p1":["aturdamos"],"p2":["aturdáis"],"p3":["aturdan"]},
+    "SubImp": {"s1":["aturdiera","aturdiese"],"s2":["aturdieras","aturdieses"],"vos":["aturdieras","aturdieses"],"s3":["aturdiera","aturdiese"],"p1":["aturdiéramos","aturdiésemos"],"p2":["aturdierais","aturdieseis"],"p3":["aturdieran","aturdiesen"]},
+    "SubFut": {"s1":["aturdiere"],"s2":["aturdieres"],"vos":["aturdieres"],"s3":["aturdiere"],"p1":["aturdiéremos"],"p2":["aturdiereis"],"p3":["aturdieren"]},
+    "CmdPos": {"s2":["aturde"],"vos":["aturdí"],"s3":["aturda"],"p1":["aturdamos"],"p2":["aturdid"],"p3":["aturdan"]}
+  }
+}

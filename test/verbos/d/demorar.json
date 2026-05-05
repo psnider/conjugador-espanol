@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪emoˈɾaɾ]",
+    "silabacion": "de-mo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín demorāri.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"demorar","gerundio":["demorando"],"participio":["demorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["demoro"],"s2":["demoras"],"vos":["demorás"],"s3":["demora"],"p1":["demoramos"],"p2":["demoráis"],"p3":["demoran"]},
+    "IndImp": {"s1":["demoraba"],"s2":["demorabas"],"vos":["demorabas"],"s3":["demoraba"],"p1":["demorábamos"],"p2":["demorabais"],"p3":["demoraban"]},
+    "IndPret": {"s1":["demoré"],"s2":["demoraste"],"vos":["demoraste"],"s3":["demoró"],"p1":["demoramos"],"p2":["demorasteis"],"p3":["demoraron"]},
+    "IndFut": {"s1":["demoraré"],"s2":["demorarás"],"vos":["demorarás"],"s3":["demorará"],"p1":["demoraremos"],"p2":["demoraréis"],"p3":["demorarán"]},
+    "IndCond": {"s1":["demoraría"],"s2":["demorarías"],"vos":["demorarías"],"s3":["demoraría"],"p1":["demoraríamos"],"p2":["demoraríais"],"p3":["demorarían"]},
+    "SubPres": {"s1":["demore"],"s2":["demores"],"vos":["demores","demorés"],"s3":["demore"],"p1":["demoremos"],"p2":["demoréis"],"p3":["demoren"]},
+    "SubImp": {"s1":["demorara","demorase"],"s2":["demoraras","demorases"],"vos":["demoraras","demorases"],"s3":["demorara","demorase"],"p1":["demoráramos","demorásemos"],"p2":["demorarais","demoraseis"],"p3":["demoraran","demorasen"]},
+    "SubFut": {"s1":["demorare"],"s2":["demorares"],"vos":["demorares"],"s3":["demorare"],"p1":["demoráremos"],"p2":["demorareis"],"p3":["demoraren"]},
+    "CmdPos": {"s2":["demora"],"vos":["demorá"],"s3":["demore"],"p1":["demoremos"],"p2":["demorad"],"p3":["demoren"]}
+  }
+}

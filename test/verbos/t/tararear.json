@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪aɾaɾeˈaɾ]",
+    "silabacion": "ta-ra-re-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De tarara y el sufijo -ear.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tararear","gerundio":["tarareando"],"participio":["tarareado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tarareo"],"s2":["tarareas"],"vos":["tarareás"],"s3":["tararea"],"p1":["tarareamos"],"p2":["tarareáis"],"p3":["tararean"]},
+    "IndImp": {"s1":["tarareaba"],"s2":["tarareabas"],"vos":["tarareabas"],"s3":["tarareaba"],"p1":["tarareábamos"],"p2":["tarareabais"],"p3":["tarareaban"]},
+    "IndPret": {"s1":["tarareé"],"s2":["tarareaste"],"vos":["tarareaste"],"s3":["tarareó"],"p1":["tarareamos"],"p2":["tarareasteis"],"p3":["tararearon"]},
+    "IndFut": {"s1":["tararearé"],"s2":["tararearás"],"vos":["tararearás"],"s3":["tarareará"],"p1":["tararearemos"],"p2":["tararearéis"],"p3":["tararearán"]},
+    "IndCond": {"s1":["tararearía"],"s2":["tararearías"],"vos":["tararearías"],"s3":["tararearía"],"p1":["tararearíamos"],"p2":["tararearíais"],"p3":["tararearían"]},
+    "SubPres": {"s1":["tararee"],"s2":["tararees"],"vos":["tararees","tarareés"],"s3":["tararee"],"p1":["tarareemos"],"p2":["tarareéis"],"p3":["tarareen"]},
+    "SubImp": {"s1":["tarareara","tararease"],"s2":["tararearas","tarareases"],"vos":["tararearas","tarareases"],"s3":["tarareara","tararease"],"p1":["tarareáramos","tarareásemos"],"p2":["tararearais","tarareaseis"],"p3":["tararearan","tarareasen"]},
+    "SubFut": {"s1":["tarareare"],"s2":["tarareares"],"vos":["tarareares"],"s3":["tarareare"],"p1":["tarareáremos"],"p2":["tarareareis"],"p3":["tararearen"]},
+    "CmdPos": {"s2":["tararea"],"vos":["tarareá"],"s3":["tararee"],"p1":["tarareemos"],"p2":["tararead"],"p3":["tarareen"]}
+  }
+}

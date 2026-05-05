@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[korõmˈpeɾ]",
+    "silabacion": "co-rrom-per",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"corromper","gerundio":["corrompiendo"],"participio":["corrompido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["corrompo"],"s2":["corrompes"],"vos":["corrompés"],"s3":["corrompe"],"p1":["corrompemos"],"p2":["corrompéis"],"p3":["corrompen"]},
+    "IndImp": {"s1":["corrompía"],"s2":["corrompías"],"vos":["corrompías"],"s3":["corrompía"],"p1":["corrompíamos"],"p2":["corrompíais"],"p3":["corrompían"]},
+    "IndPret": {"s1":["corrompí"],"s2":["corrompiste"],"vos":["corrompiste"],"s3":["corrompió"],"p1":["corrompimos"],"p2":["corrompisteis"],"p3":["corrompieron"]},
+    "IndFut": {"s1":["corromperé"],"s2":["corromperás"],"vos":["corromperás"],"s3":["corromperá"],"p1":["corromperemos"],"p2":["corromperéis"],"p3":["corromperán"]},
+    "IndCond": {"s1":["corrompería"],"s2":["corromperías"],"vos":["corromperías"],"s3":["corrompería"],"p1":["corromperíamos"],"p2":["corromperíais"],"p3":["corromperían"]},
+    "SubPres": {"s1":["corrompa"],"s2":["corrompas"],"vos":["corrompas","corrompás"],"s3":["corrompa"],"p1":["corrompamos"],"p2":["corrompáis"],"p3":["corrompan"]},
+    "SubImp": {"s1":["corrompiera","corrompiese"],"s2":["corrompieras","corrompieses"],"vos":["corrompieras","corrompieses"],"s3":["corrompiera","corrompiese"],"p1":["corrompiéramos","corrompiésemos"],"p2":["corrompierais","corrompieseis"],"p3":["corrompieran","corrompiesen"]},
+    "SubFut": {"s1":["corrompiere"],"s2":["corrompieres"],"vos":["corrompieres"],"s3":["corrompiere"],"p1":["corrompiéremos"],"p2":["corrompiereis"],"p3":["corrompieren"]},
+    "CmdPos": {"s2":["corrompe"],"vos":["corrompé"],"s3":["corrompa"],"p1":["corrompamos"],"p2":["corromped"],"p3":["corrompan"]}
+  }
+}

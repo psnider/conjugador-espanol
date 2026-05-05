@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isimiˈlaɾ]",
+    "silabacion": "di-si-mi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disimilar","gerundio":["disimilando"],"participio":["disimilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["disimilo"],"s2":["disimilas"],"vos":["disimilás"],"s3":["disimila"],"p1":["disimilamos"],"p2":["disimiláis"],"p3":["disimilan"]},
+    "IndImp": {"s1":["disimilaba"],"s2":["disimilabas"],"vos":["disimilabas"],"s3":["disimilaba"],"p1":["disimilábamos"],"p2":["disimilabais"],"p3":["disimilaban"]},
+    "IndPret": {"s1":["disimilé"],"s2":["disimilaste"],"vos":["disimilaste"],"s3":["disimiló"],"p1":["disimilamos"],"p2":["disimilasteis"],"p3":["disimilaron"]},
+    "IndFut": {"s1":["disimilaré"],"s2":["disimilarás"],"vos":["disimilarás"],"s3":["disimilará"],"p1":["disimilaremos"],"p2":["disimilaréis"],"p3":["disimilarán"]},
+    "IndCond": {"s1":["disimilaría"],"s2":["disimilarías"],"vos":["disimilarías"],"s3":["disimilaría"],"p1":["disimilaríamos"],"p2":["disimilaríais"],"p3":["disimilarían"]},
+    "SubPres": {"s1":["disimile"],"s2":["disimiles"],"vos":["disimiles","disimilés"],"s3":["disimile"],"p1":["disimilemos"],"p2":["disimiléis"],"p3":["disimilen"]},
+    "SubImp": {"s1":["disimilara","disimilase"],"s2":["disimilaras","disimilases"],"vos":["disimilaras","disimilases"],"s3":["disimilara","disimilase"],"p1":["disimiláramos","disimilásemos"],"p2":["disimilarais","disimilaseis"],"p3":["disimilaran","disimilasen"]},
+    "SubFut": {"s1":["disimilare"],"s2":["disimilares"],"vos":["disimilares"],"s3":["disimilare"],"p1":["disimiláremos"],"p2":["disimilareis"],"p3":["disimilaren"]},
+    "CmdPos": {"s2":["disimila"],"vos":["disimilá"],"s3":["disimile"],"p1":["disimilemos"],"p2":["disimilad"],"p3":["disimilen"]}
+  }
+}

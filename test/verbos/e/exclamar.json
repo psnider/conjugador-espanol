@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksklaˈmaɾ]",
+    "silabacion": "ex-cla-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exclamāre, compuesto de ex&nbsp;('fuera') y clāmō, clāmāre (\"gritar, clamar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"exclamar","gerundio":["exclamando"],"participio":["exclamado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exclamo"],"s2":["exclamas"],"vos":["exclamás"],"s3":["exclama"],"p1":["exclamamos"],"p2":["exclamáis"],"p3":["exclaman"]},
+    "IndImp": {"s1":["exclamaba"],"s2":["exclamabas"],"vos":["exclamabas"],"s3":["exclamaba"],"p1":["exclamábamos"],"p2":["exclamabais"],"p3":["exclamaban"]},
+    "IndPret": {"s1":["exclamé"],"s2":["exclamaste"],"vos":["exclamaste"],"s3":["exclamó"],"p1":["exclamamos"],"p2":["exclamasteis"],"p3":["exclamaron"]},
+    "IndFut": {"s1":["exclamaré"],"s2":["exclamarás"],"vos":["exclamarás"],"s3":["exclamará"],"p1":["exclamaremos"],"p2":["exclamaréis"],"p3":["exclamarán"]},
+    "IndCond": {"s1":["exclamaría"],"s2":["exclamarías"],"vos":["exclamarías"],"s3":["exclamaría"],"p1":["exclamaríamos"],"p2":["exclamaríais"],"p3":["exclamarían"]},
+    "SubPres": {"s1":["exclame"],"s2":["exclames"],"vos":["exclames","exclamés"],"s3":["exclame"],"p1":["exclamemos"],"p2":["exclaméis"],"p3":["exclamen"]},
+    "SubImp": {"s1":["exclamara","exclamase"],"s2":["exclamaras","exclamases"],"vos":["exclamaras","exclamases"],"s3":["exclamara","exclamase"],"p1":["exclamáramos","exclamásemos"],"p2":["exclamarais","exclamaseis"],"p3":["exclamaran","exclamasen"]},
+    "SubFut": {"s1":["exclamare"],"s2":["exclamares"],"vos":["exclamares"],"s3":["exclamare"],"p1":["exclamáremos"],"p2":["exclamareis"],"p3":["exclamaren"]},
+    "CmdPos": {"s2":["exclama"],"vos":["exclamá"],"s3":["exclame"],"p1":["exclamemos"],"p2":["exclamad"],"p3":["exclamen"]}
+  }
+}

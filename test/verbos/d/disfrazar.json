@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isfɾaˈsaɾ]",
+    "silabacion": "dis-fra-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"disfrazar","gerundio":["disfrazando"],"participio":["disfrazado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["disfrazo"],"s2":["disfrazas"],"vos":["disfrazás"],"s3":["disfraza"],"p1":["disfrazamos"],"p2":["disfrazáis"],"p3":["disfrazan"]},
+    "IndImp": {"s1":["disfrazaba"],"s2":["disfrazabas"],"vos":["disfrazabas"],"s3":["disfrazaba"],"p1":["disfrazábamos"],"p2":["disfrazabais"],"p3":["disfrazaban"]},
+    "IndPret": {"s1":["disfracé"],"s2":["disfrazaste"],"vos":["disfrazaste"],"s3":["disfrazó"],"p1":["disfrazamos"],"p2":["disfrazasteis"],"p3":["disfrazaron"]},
+    "IndFut": {"s1":["disfrazaré"],"s2":["disfrazarás"],"vos":["disfrazarás"],"s3":["disfrazará"],"p1":["disfrazaremos"],"p2":["disfrazaréis"],"p3":["disfrazarán"]},
+    "IndCond": {"s1":["disfrazaría"],"s2":["disfrazarías"],"vos":["disfrazarías"],"s3":["disfrazaría"],"p1":["disfrazaríamos"],"p2":["disfrazaríais"],"p3":["disfrazarían"]},
+    "SubPres": {"s1":["disfrace"],"s2":["disfraces"],"vos":["disfraces","disfracés"],"s3":["disfrace"],"p1":["disfracemos"],"p2":["disfracéis"],"p3":["disfracen"]},
+    "SubImp": {"s1":["disfrazara","disfrazase"],"s2":["disfrazaras","disfrazases"],"vos":["disfrazaras","disfrazases"],"s3":["disfrazara","disfrazase"],"p1":["disfrazáramos","disfrazásemos"],"p2":["disfrazarais","disfrazaseis"],"p3":["disfrazaran","disfrazasen"]},
+    "SubFut": {"s1":["disfrazare"],"s2":["disfrazares"],"vos":["disfrazares"],"s3":["disfrazare"],"p1":["disfrazáremos"],"p2":["disfrazareis"],"p3":["disfrazaren"]},
+    "CmdPos": {"s2":["disfraza"],"vos":["disfrazá"],"s3":["disfrace"],"p1":["disfracemos"],"p2":["disfrazad"],"p3":["disfracen"]}
+  }
+}

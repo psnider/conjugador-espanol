@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paβ̞imẽn̪ˈt̪aɾ]",
+    "silabacion": "pa-vi-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "de pavimento",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pavimentar","gerundio":["pavimentando"],"participio":["pavimentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pavimento"],"s2":["pavimentas"],"vos":["pavimentás"],"s3":["pavimenta"],"p1":["pavimentamos"],"p2":["pavimentáis"],"p3":["pavimentan"]},
+    "IndImp": {"s1":["pavimentaba"],"s2":["pavimentabas"],"vos":["pavimentabas"],"s3":["pavimentaba"],"p1":["pavimentábamos"],"p2":["pavimentabais"],"p3":["pavimentaban"]},
+    "IndPret": {"s1":["pavimenté"],"s2":["pavimentaste"],"vos":["pavimentaste"],"s3":["pavimentó"],"p1":["pavimentamos"],"p2":["pavimentasteis"],"p3":["pavimentaron"]},
+    "IndFut": {"s1":["pavimentaré"],"s2":["pavimentarás"],"vos":["pavimentarás"],"s3":["pavimentará"],"p1":["pavimentaremos"],"p2":["pavimentaréis"],"p3":["pavimentarán"]},
+    "IndCond": {"s1":["pavimentaría"],"s2":["pavimentarías"],"vos":["pavimentarías"],"s3":["pavimentaría"],"p1":["pavimentaríamos"],"p2":["pavimentaríais"],"p3":["pavimentarían"]},
+    "SubPres": {"s1":["pavimente"],"s2":["pavimentes"],"vos":["pavimentes","pavimentés"],"s3":["pavimente"],"p1":["pavimentemos"],"p2":["pavimentéis"],"p3":["pavimenten"]},
+    "SubImp": {"s1":["pavimentara","pavimentase"],"s2":["pavimentaras","pavimentases"],"vos":["pavimentaras","pavimentases"],"s3":["pavimentara","pavimentase"],"p1":["pavimentáramos","pavimentásemos"],"p2":["pavimentarais","pavimentaseis"],"p3":["pavimentaran","pavimentasen"]},
+    "SubFut": {"s1":["pavimentare"],"s2":["pavimentares"],"vos":["pavimentares"],"s3":["pavimentare"],"p1":["pavimentáremos"],"p2":["pavimentareis"],"p3":["pavimentaren"]},
+    "CmdPos": {"s2":["pavimenta"],"vos":["pavimentá"],"s3":["pavimente"],"p1":["pavimentemos"],"p2":["pavimentad"],"p3":["pavimenten"]}
+  }
+}

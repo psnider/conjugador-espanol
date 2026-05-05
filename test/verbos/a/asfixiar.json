@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asfikˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "de asfixia",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"asfixiar","gerundio":["asfixiando"],"participio":["asfixiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asfixio"],"s2":["asfixias"],"vos":["asfixiás"],"s3":["asfixia"],"p1":["asfixiamos"],"p2":["asfixiáis"],"p3":["asfixian"]},
+    "IndImp": {"s1":["asfixiaba"],"s2":["asfixiabas"],"vos":["asfixiabas"],"s3":["asfixiaba"],"p1":["asfixiábamos"],"p2":["asfixiabais"],"p3":["asfixiaban"]},
+    "IndPret": {"s1":["asfixié"],"s2":["asfixiaste"],"vos":["asfixiaste"],"s3":["asfixió"],"p1":["asfixiamos"],"p2":["asfixiasteis"],"p3":["asfixiaron"]},
+    "IndFut": {"s1":["asfixiaré"],"s2":["asfixiarás"],"vos":["asfixiarás"],"s3":["asfixiará"],"p1":["asfixiaremos"],"p2":["asfixiaréis"],"p3":["asfixiarán"]},
+    "IndCond": {"s1":["asfixiaría"],"s2":["asfixiarías"],"vos":["asfixiarías"],"s3":["asfixiaría"],"p1":["asfixiaríamos"],"p2":["asfixiaríais"],"p3":["asfixiarían"]},
+    "SubPres": {"s1":["asfixie"],"s2":["asfixies"],"vos":["asfixies","asfixiés"],"s3":["asfixie"],"p1":["asfixiemos"],"p2":["asfixiéis"],"p3":["asfixien"]},
+    "SubImp": {"s1":["asfixiara","asfixiase"],"s2":["asfixiaras","asfixiases"],"vos":["asfixiaras","asfixiases"],"s3":["asfixiara","asfixiase"],"p1":["asfixiáramos","asfixiásemos"],"p2":["asfixiarais","asfixiaseis"],"p3":["asfixiaran","asfixiasen"]},
+    "SubFut": {"s1":["asfixiare"],"s2":["asfixiares"],"vos":["asfixiares"],"s3":["asfixiare"],"p1":["asfixiáremos"],"p2":["asfixiareis"],"p3":["asfixiaren"]},
+    "CmdPos": {"s2":["asfixia"],"vos":["asfixiá"],"s3":["asfixie"],"p1":["asfixiemos"],"p2":["asfixiad"],"p3":["asfixien"]}
+  }
+}

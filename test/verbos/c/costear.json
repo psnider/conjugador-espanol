@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kost̪eˈaɾ]",
+    "silabacion": "cos-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De costa y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"costear","gerundio":["costeando"],"participio":["costeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["costeo"],"s2":["costeas"],"vos":["costeás"],"s3":["costea"],"p1":["costeamos"],"p2":["costeáis"],"p3":["costean"]},
+    "IndImp": {"s1":["costeaba"],"s2":["costeabas"],"vos":["costeabas"],"s3":["costeaba"],"p1":["costeábamos"],"p2":["costeabais"],"p3":["costeaban"]},
+    "IndPret": {"s1":["costeé"],"s2":["costeaste"],"vos":["costeaste"],"s3":["costeó"],"p1":["costeamos"],"p2":["costeasteis"],"p3":["costearon"]},
+    "IndFut": {"s1":["costearé"],"s2":["costearás"],"vos":["costearás"],"s3":["costeará"],"p1":["costearemos"],"p2":["costearéis"],"p3":["costearán"]},
+    "IndCond": {"s1":["costearía"],"s2":["costearías"],"vos":["costearías"],"s3":["costearía"],"p1":["costearíamos"],"p2":["costearíais"],"p3":["costearían"]},
+    "SubPres": {"s1":["costee"],"s2":["costees"],"vos":["costees","costeés"],"s3":["costee"],"p1":["costeemos"],"p2":["costeéis"],"p3":["costeen"]},
+    "SubImp": {"s1":["costeara","costease"],"s2":["costearas","costeases"],"vos":["costearas","costeases"],"s3":["costeara","costease"],"p1":["costeáramos","costeásemos"],"p2":["costearais","costeaseis"],"p3":["costearan","costeasen"]},
+    "SubFut": {"s1":["costeare"],"s2":["costeares"],"vos":["costeares"],"s3":["costeare"],"p1":["costeáremos"],"p2":["costeareis"],"p3":["costearen"]},
+    "CmdPos": {"s2":["costea"],"vos":["costeá"],"s3":["costee"],"p1":["costeemos"],"p2":["costead"],"p3":["costeen"]}
+  }
+}

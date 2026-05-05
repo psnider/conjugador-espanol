@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rexuβ̞eneˈseɾ]",
+    "silabacion": "re-ju-ve-ne-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y juvenecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"rejuvenecer","gerundio":["rejuveneciendo"],"participio":["rejuvenecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rejuvenezco"],"s2":["rejuveneces"],"vos":["rejuvenecés"],"s3":["rejuvenece"],"p1":["rejuvenecemos"],"p2":["rejuvenecéis"],"p3":["rejuvenecen"]},
+    "IndImp": {"s1":["rejuvenecía"],"s2":["rejuvenecías"],"vos":["rejuvenecías"],"s3":["rejuvenecía"],"p1":["rejuvenecíamos"],"p2":["rejuvenecíais"],"p3":["rejuvenecían"]},
+    "IndPret": {"s1":["rejuvenecí"],"s2":["rejuveneciste"],"vos":["rejuveneciste"],"s3":["rejuveneció"],"p1":["rejuvenecimos"],"p2":["rejuvenecisteis"],"p3":["rejuvenecieron"]},
+    "IndFut": {"s1":["rejuveneceré"],"s2":["rejuvenecerás"],"vos":["rejuvenecerás"],"s3":["rejuvenecerá"],"p1":["rejuveneceremos"],"p2":["rejuveneceréis"],"p3":["rejuvenecerán"]},
+    "IndCond": {"s1":["rejuvenecería"],"s2":["rejuvenecerías"],"vos":["rejuvenecerías"],"s3":["rejuvenecería"],"p1":["rejuveneceríamos"],"p2":["rejuveneceríais"],"p3":["rejuvenecerían"]},
+    "SubPres": {"s1":["rejuvenezca"],"s2":["rejuvenezcas"],"vos":["rejuvenezcas","rejuvenezcás"],"s3":["rejuvenezca"],"p1":["rejuvenezcamos"],"p2":["rejuvenezcáis"],"p3":["rejuvenezcan"]},
+    "SubImp": {"s1":["rejuveneciera","rejuveneciese"],"s2":["rejuvenecieras","rejuvenecieses"],"vos":["rejuvenecieras","rejuvenecieses"],"s3":["rejuveneciera","rejuveneciese"],"p1":["rejuveneciéramos","rejuveneciésemos"],"p2":["rejuvenecierais","rejuvenecieseis"],"p3":["rejuvenecieran","rejuveneciesen"]},
+    "SubFut": {"s1":["rejuveneciere"],"s2":["rejuvenecieres"],"vos":["rejuvenecieres"],"s3":["rejuveneciere"],"p1":["rejuveneciéremos"],"p2":["rejuveneciereis"],"p3":["rejuvenecieren"]},
+    "CmdPos": {"s2":["rejuvenece"],"vos":["rejuvenecé"],"s3":["rejuvenezca"],"p1":["rejuvenezcamos"],"p2":["rejuveneced"],"p3":["rejuvenezcan"]}
+  }
+}

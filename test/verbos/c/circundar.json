@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[siɾkũn̪ˈd̪aɾ]",
+    "silabacion": "cir-cun-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"circundar","gerundio":["circundando"],"participio":["circundado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["circundo"],"s2":["circundas"],"vos":["circundás"],"s3":["circunda"],"p1":["circundamos"],"p2":["circundáis"],"p3":["circundan"]},
+    "IndImp": {"s1":["circundaba"],"s2":["circundabas"],"vos":["circundabas"],"s3":["circundaba"],"p1":["circundábamos"],"p2":["circundabais"],"p3":["circundaban"]},
+    "IndPret": {"s1":["circundé"],"s2":["circundaste"],"vos":["circundaste"],"s3":["circundó"],"p1":["circundamos"],"p2":["circundasteis"],"p3":["circundaron"]},
+    "IndFut": {"s1":["circundaré"],"s2":["circundarás"],"vos":["circundarás"],"s3":["circundará"],"p1":["circundaremos"],"p2":["circundaréis"],"p3":["circundarán"]},
+    "IndCond": {"s1":["circundaría"],"s2":["circundarías"],"vos":["circundarías"],"s3":["circundaría"],"p1":["circundaríamos"],"p2":["circundaríais"],"p3":["circundarían"]},
+    "SubPres": {"s1":["circunde"],"s2":["circundes"],"vos":["circundes","circundés"],"s3":["circunde"],"p1":["circundemos"],"p2":["circundéis"],"p3":["circunden"]},
+    "SubImp": {"s1":["circundara","circundase"],"s2":["circundaras","circundases"],"vos":["circundaras","circundases"],"s3":["circundara","circundase"],"p1":["circundáramos","circundásemos"],"p2":["circundarais","circundaseis"],"p3":["circundaran","circundasen"]},
+    "SubFut": {"s1":["circundare"],"s2":["circundares"],"vos":["circundares"],"s3":["circundare"],"p1":["circundáremos"],"p2":["circundareis"],"p3":["circundaren"]},
+    "CmdPos": {"s2":["circunda"],"vos":["circundá"],"s3":["circunde"],"p1":["circundemos"],"p2":["circundad"],"p3":["circunden"]}
+  }
+}

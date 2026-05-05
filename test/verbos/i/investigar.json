@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmbest̪iˈɣ̞aɾ]",
+    "silabacion": "in-ves-ti-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín investigāre",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"investigar","gerundio":["investigando"],"participio":["investigado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["investigo"],"s2":["investigas"],"vos":["investigás"],"s3":["investiga"],"p1":["investigamos"],"p2":["investigáis"],"p3":["investigan"]},
+    "IndImp": {"s1":["investigaba"],"s2":["investigabas"],"vos":["investigabas"],"s3":["investigaba"],"p1":["investigábamos"],"p2":["investigabais"],"p3":["investigaban"]},
+    "IndPret": {"s1":["investigué"],"s2":["investigaste"],"vos":["investigaste"],"s3":["investigó"],"p1":["investigamos"],"p2":["investigasteis"],"p3":["investigaron"]},
+    "IndFut": {"s1":["investigaré"],"s2":["investigarás"],"vos":["investigarás"],"s3":["investigará"],"p1":["investigaremos"],"p2":["investigaréis"],"p3":["investigarán"]},
+    "IndCond": {"s1":["investigaría"],"s2":["investigarías"],"vos":["investigarías"],"s3":["investigaría"],"p1":["investigaríamos"],"p2":["investigaríais"],"p3":["investigarían"]},
+    "SubPres": {"s1":["investigue"],"s2":["investigues"],"vos":["investigues","investigués"],"s3":["investigue"],"p1":["investiguemos"],"p2":["investiguéis"],"p3":["investiguen"]},
+    "SubImp": {"s1":["investigara","investigase"],"s2":["investigaras","investigases"],"vos":["investigaras","investigases"],"s3":["investigara","investigase"],"p1":["investigáramos","investigásemos"],"p2":["investigarais","investigaseis"],"p3":["investigaran","investigasen"]},
+    "SubFut": {"s1":["investigare"],"s2":["investigares"],"vos":["investigares"],"s3":["investigare"],"p1":["investigáremos"],"p2":["investigareis"],"p3":["investigaren"]},
+    "CmdPos": {"s2":["investiga"],"vos":["investigá"],"s3":["investigue"],"p1":["investiguemos"],"p2":["investigad"],"p3":["investiguen"]}
+  }
+}

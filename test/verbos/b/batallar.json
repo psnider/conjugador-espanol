@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bat̪aˈʝaɾ]",
+    "silabacion": "ba-ta-llar",
+    "acentuacion": "aguda",
+    "etimologia": "De batalla y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"batallar","gerundio":["batallando"],"participio":["batallado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["batallo"],"s2":["batallas"],"vos":["batallás"],"s3":["batalla"],"p1":["batallamos"],"p2":["batalláis"],"p3":["batallan"]},
+    "IndImp": {"s1":["batallaba"],"s2":["batallabas"],"vos":["batallabas"],"s3":["batallaba"],"p1":["batallábamos"],"p2":["batallabais"],"p3":["batallaban"]},
+    "IndPret": {"s1":["batallé"],"s2":["batallaste"],"vos":["batallaste"],"s3":["batalló"],"p1":["batallamos"],"p2":["batallasteis"],"p3":["batallaron"]},
+    "IndFut": {"s1":["batallaré"],"s2":["batallarás"],"vos":["batallarás"],"s3":["batallará"],"p1":["batallaremos"],"p2":["batallaréis"],"p3":["batallarán"]},
+    "IndCond": {"s1":["batallaría"],"s2":["batallarías"],"vos":["batallarías"],"s3":["batallaría"],"p1":["batallaríamos"],"p2":["batallaríais"],"p3":["batallarían"]},
+    "SubPres": {"s1":["batalle"],"s2":["batalles"],"vos":["batalles","batallés"],"s3":["batalle"],"p1":["batallemos"],"p2":["batalléis"],"p3":["batallen"]},
+    "SubImp": {"s1":["batallara","batallase"],"s2":["batallaras","batallases"],"vos":["batallaras","batallases"],"s3":["batallara","batallase"],"p1":["batalláramos","batallásemos"],"p2":["batallarais","batallaseis"],"p3":["batallaran","batallasen"]},
+    "SubFut": {"s1":["batallare"],"s2":["batallares"],"vos":["batallares"],"s3":["batallare"],"p1":["batalláremos"],"p2":["batallareis"],"p3":["batallaren"]},
+    "CmdPos": {"s2":["batalla"],"vos":["batallá"],"s3":["batalle"],"p1":["batallemos"],"p2":["batallad"],"p3":["batallen"]}
+  }
+}

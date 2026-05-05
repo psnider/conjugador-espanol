@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[simuˈlaɾ]",
+    "silabacion": "si-mu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín simulō, simulāre,[1] derivado de similis&nbsp;('similar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"simular","gerundio":["simulando"],"participio":["simulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["simulo"],"s2":["simulas"],"vos":["simulás"],"s3":["simula"],"p1":["simulamos"],"p2":["simuláis"],"p3":["simulan"]},
+    "IndImp": {"s1":["simulaba"],"s2":["simulabas"],"vos":["simulabas"],"s3":["simulaba"],"p1":["simulábamos"],"p2":["simulabais"],"p3":["simulaban"]},
+    "IndPret": {"s1":["simulé"],"s2":["simulaste"],"vos":["simulaste"],"s3":["simuló"],"p1":["simulamos"],"p2":["simulasteis"],"p3":["simularon"]},
+    "IndFut": {"s1":["simularé"],"s2":["simularás"],"vos":["simularás"],"s3":["simulará"],"p1":["simularemos"],"p2":["simularéis"],"p3":["simularán"]},
+    "IndCond": {"s1":["simularía"],"s2":["simularías"],"vos":["simularías"],"s3":["simularía"],"p1":["simularíamos"],"p2":["simularíais"],"p3":["simularían"]},
+    "SubPres": {"s1":["simule"],"s2":["simules"],"vos":["simules","simulés"],"s3":["simule"],"p1":["simulemos"],"p2":["simuléis"],"p3":["simulen"]},
+    "SubImp": {"s1":["simulara","simulase"],"s2":["simularas","simulases"],"vos":["simularas","simulases"],"s3":["simulara","simulase"],"p1":["simuláramos","simulásemos"],"p2":["simularais","simulaseis"],"p3":["simularan","simulasen"]},
+    "SubFut": {"s1":["simulare"],"s2":["simulares"],"vos":["simulares"],"s3":["simulare"],"p1":["simuláremos"],"p2":["simulareis"],"p3":["simularen"]},
+    "CmdPos": {"s2":["simula"],"vos":["simulá"],"s3":["simule"],"p1":["simulemos"],"p2":["simulad"],"p3":["simulen"]}
+  }
+}

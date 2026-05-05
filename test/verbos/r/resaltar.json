@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resal̪ˈt̪aɾ]",
+    "silabacion": "re-sal-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"resaltar","gerundio":["resaltando"],"participio":["resaltado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resalto"],"s2":["resaltas"],"vos":["resaltás"],"s3":["resalta"],"p1":["resaltamos"],"p2":["resaltáis"],"p3":["resaltan"]},
+    "IndImp": {"s1":["resaltaba"],"s2":["resaltabas"],"vos":["resaltabas"],"s3":["resaltaba"],"p1":["resaltábamos"],"p2":["resaltabais"],"p3":["resaltaban"]},
+    "IndPret": {"s1":["resalté"],"s2":["resaltaste"],"vos":["resaltaste"],"s3":["resaltó"],"p1":["resaltamos"],"p2":["resaltasteis"],"p3":["resaltaron"]},
+    "IndFut": {"s1":["resaltaré"],"s2":["resaltarás"],"vos":["resaltarás"],"s3":["resaltará"],"p1":["resaltaremos"],"p2":["resaltaréis"],"p3":["resaltarán"]},
+    "IndCond": {"s1":["resaltaría"],"s2":["resaltarías"],"vos":["resaltarías"],"s3":["resaltaría"],"p1":["resaltaríamos"],"p2":["resaltaríais"],"p3":["resaltarían"]},
+    "SubPres": {"s1":["resalte"],"s2":["resaltes"],"vos":["resaltes","resaltés"],"s3":["resalte"],"p1":["resaltemos"],"p2":["resaltéis"],"p3":["resalten"]},
+    "SubImp": {"s1":["resaltara","resaltase"],"s2":["resaltaras","resaltases"],"vos":["resaltaras","resaltases"],"s3":["resaltara","resaltase"],"p1":["resaltáramos","resaltásemos"],"p2":["resaltarais","resaltaseis"],"p3":["resaltaran","resaltasen"]},
+    "SubFut": {"s1":["resaltare"],"s2":["resaltares"],"vos":["resaltares"],"s3":["resaltare"],"p1":["resaltáremos"],"p2":["resaltareis"],"p3":["resaltaren"]},
+    "CmdPos": {"s2":["resalta"],"vos":["resaltá"],"s3":["resalte"],"p1":["resaltemos"],"p2":["resaltad"],"p3":["resalten"]}
+  }
+}

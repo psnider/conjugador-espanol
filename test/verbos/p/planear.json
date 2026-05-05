@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[planeˈaɾ]",
+    "silabacion": "pla-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De plan",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"planear","gerundio":["planeando"],"participio":["planeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["planeo"],"s2":["planeas"],"vos":["planeás"],"s3":["planea"],"p1":["planeamos"],"p2":["planeáis"],"p3":["planean"]},
+    "IndImp": {"s1":["planeaba"],"s2":["planeabas"],"vos":["planeabas"],"s3":["planeaba"],"p1":["planeábamos"],"p2":["planeabais"],"p3":["planeaban"]},
+    "IndPret": {"s1":["planeé"],"s2":["planeaste"],"vos":["planeaste"],"s3":["planeó"],"p1":["planeamos"],"p2":["planeasteis"],"p3":["planearon"]},
+    "IndFut": {"s1":["planearé"],"s2":["planearás"],"vos":["planearás"],"s3":["planeará"],"p1":["planearemos"],"p2":["planearéis"],"p3":["planearán"]},
+    "IndCond": {"s1":["planearía"],"s2":["planearías"],"vos":["planearías"],"s3":["planearía"],"p1":["planearíamos"],"p2":["planearíais"],"p3":["planearían"]},
+    "SubPres": {"s1":["planee"],"s2":["planees"],"vos":["planees","planeés"],"s3":["planee"],"p1":["planeemos"],"p2":["planeéis"],"p3":["planeen"]},
+    "SubImp": {"s1":["planeara","planease"],"s2":["planearas","planeases"],"vos":["planearas","planeases"],"s3":["planeara","planease"],"p1":["planeáramos","planeásemos"],"p2":["planearais","planeaseis"],"p3":["planearan","planeasen"]},
+    "SubFut": {"s1":["planeare"],"s2":["planeares"],"vos":["planeares"],"s3":["planeare"],"p1":["planeáremos"],"p2":["planeareis"],"p3":["planearen"]},
+    "CmdPos": {"s2":["planea"],"vos":["planeá"],"s3":["planee"],"p1":["planeemos"],"p2":["planead"],"p3":["planeen"]}
+  }
+}

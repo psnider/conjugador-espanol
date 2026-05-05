@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sumeɾˈxiɾ]",
+    "silabacion": "su-mer-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"sumergir","gerundio":["sumergiendo"],"participio":["sumergido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sumerjo"],"s2":["sumerges"],"vos":["sumergís"],"s3":["sumerge"],"p1":["sumergimos"],"p2":["sumergís"],"p3":["sumergen"]},
+    "IndImp": {"s1":["sumergía"],"s2":["sumergías"],"vos":["sumergías"],"s3":["sumergía"],"p1":["sumergíamos"],"p2":["sumergíais"],"p3":["sumergían"]},
+    "IndPret": {"s1":["sumergí"],"s2":["sumergiste"],"vos":["sumergiste"],"s3":["sumergió"],"p1":["sumergimos"],"p2":["sumergisteis"],"p3":["sumergieron"]},
+    "IndFut": {"s1":["sumergiré"],"s2":["sumergirás"],"vos":["sumergirás"],"s3":["sumergirá"],"p1":["sumergiremos"],"p2":["sumergiréis"],"p3":["sumergirán"]},
+    "IndCond": {"s1":["sumergiría"],"s2":["sumergirías"],"vos":["sumergirías"],"s3":["sumergiría"],"p1":["sumergiríamos"],"p2":["sumergiríais"],"p3":["sumergirían"]},
+    "SubPres": {"s1":["sumerja"],"s2":["sumerjas"],"vos":["sumerjas","sumerjás"],"s3":["sumerja"],"p1":["sumerjamos"],"p2":["sumerjáis"],"p3":["sumerjan"]},
+    "SubImp": {"s1":["sumergiera","sumergiese"],"s2":["sumergieras","sumergieses"],"vos":["sumergieras","sumergieses"],"s3":["sumergiera","sumergiese"],"p1":["sumergiéramos","sumergiésemos"],"p2":["sumergierais","sumergieseis"],"p3":["sumergieran","sumergiesen"]},
+    "SubFut": {"s1":["sumergiere"],"s2":["sumergieres"],"vos":["sumergieres"],"s3":["sumergiere"],"p1":["sumergiéremos"],"p2":["sumergiereis"],"p3":["sumergieren"]},
+    "CmdPos": {"s2":["sumerge"],"vos":["sumergí"],"s3":["sumerja"],"p1":["sumerjamos"],"p2":["sumergid"],"p3":["sumerjan"]}
+  }
+}

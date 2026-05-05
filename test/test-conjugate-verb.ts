@@ -1,17 +1,19 @@
 import { MoodTense } from "../src";
 import { conjugateVerb } from "../src/conjugate-verb.js";
 import { deriveParticiples } from "../src/derive-participles.js";
-import { generaIndiceFormasConjugadas, índice_fonético_formas_conjugadas } from "../src/indexa-formas-conjugadas.js"
+import { generaIndiceDeFormasConjugadas } from "../src/indexa-formas-conjugadas.js"
 import { mood_tenses, verb_terminations_all } from "../src/lib.js";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "haber"    // 
+let infinitivo: string = "amar"    // 
 // one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos"
 let mood_tense: MoodTense = "IndPres"
 
 
-// generaIndiceFormasConjugadas()
+const {temas_por_deletreo, temas_por_fonética} = generaIndiceDeFormasConjugadas()
+debugger
+// generaIndiceDeFormasConjugadas()
 // let keys = Object.keys(índice_fonético_formas_conjugadas)
 
 

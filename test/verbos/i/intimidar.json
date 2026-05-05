@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪imiˈð̞aɾ]",
+    "silabacion": "in-ti-mi-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín eclesiástico intimidare.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"intimidar","gerundio":["intimidando"],"participio":["intimidado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["intimido"],"s2":["intimidas"],"vos":["intimidás"],"s3":["intimida"],"p1":["intimidamos"],"p2":["intimidáis"],"p3":["intimidan"]},
+    "IndImp": {"s1":["intimidaba"],"s2":["intimidabas"],"vos":["intimidabas"],"s3":["intimidaba"],"p1":["intimidábamos"],"p2":["intimidabais"],"p3":["intimidaban"]},
+    "IndPret": {"s1":["intimidé"],"s2":["intimidaste"],"vos":["intimidaste"],"s3":["intimidó"],"p1":["intimidamos"],"p2":["intimidasteis"],"p3":["intimidaron"]},
+    "IndFut": {"s1":["intimidaré"],"s2":["intimidarás"],"vos":["intimidarás"],"s3":["intimidará"],"p1":["intimidaremos"],"p2":["intimidaréis"],"p3":["intimidarán"]},
+    "IndCond": {"s1":["intimidaría"],"s2":["intimidarías"],"vos":["intimidarías"],"s3":["intimidaría"],"p1":["intimidaríamos"],"p2":["intimidaríais"],"p3":["intimidarían"]},
+    "SubPres": {"s1":["intimide"],"s2":["intimides"],"vos":["intimides","intimidés"],"s3":["intimide"],"p1":["intimidemos"],"p2":["intimidéis"],"p3":["intimiden"]},
+    "SubImp": {"s1":["intimidara","intimidase"],"s2":["intimidaras","intimidases"],"vos":["intimidaras","intimidases"],"s3":["intimidara","intimidase"],"p1":["intimidáramos","intimidásemos"],"p2":["intimidarais","intimidaseis"],"p3":["intimidaran","intimidasen"]},
+    "SubFut": {"s1":["intimidare"],"s2":["intimidares"],"vos":["intimidares"],"s3":["intimidare"],"p1":["intimidáremos"],"p2":["intimidareis"],"p3":["intimidaren"]},
+    "CmdPos": {"s2":["intimida"],"vos":["intimidá"],"s3":["intimide"],"p1":["intimidemos"],"p2":["intimidad"],"p3":["intimiden"]}
+  }
+}

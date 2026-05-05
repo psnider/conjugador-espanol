@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resuˈmiɾ]",
+    "silabacion": "re-su-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"resumir","gerundio":["resumiendo"],"participio":["resumido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resumo"],"s2":["resumes"],"vos":["resumís"],"s3":["resume"],"p1":["resumimos"],"p2":["resumís"],"p3":["resumen"]},
+    "IndImp": {"s1":["resumía"],"s2":["resumías"],"vos":["resumías"],"s3":["resumía"],"p1":["resumíamos"],"p2":["resumíais"],"p3":["resumían"]},
+    "IndPret": {"s1":["resumí"],"s2":["resumiste"],"vos":["resumiste"],"s3":["resumió"],"p1":["resumimos"],"p2":["resumisteis"],"p3":["resumieron"]},
+    "IndFut": {"s1":["resumiré"],"s2":["resumirás"],"vos":["resumirás"],"s3":["resumirá"],"p1":["resumiremos"],"p2":["resumiréis"],"p3":["resumirán"]},
+    "IndCond": {"s1":["resumiría"],"s2":["resumirías"],"vos":["resumirías"],"s3":["resumiría"],"p1":["resumiríamos"],"p2":["resumiríais"],"p3":["resumirían"]},
+    "SubPres": {"s1":["resuma"],"s2":["resumas"],"vos":["resumas","resumás"],"s3":["resuma"],"p1":["resumamos"],"p2":["resumáis"],"p3":["resuman"]},
+    "SubImp": {"s1":["resumiera","resumiese"],"s2":["resumieras","resumieses"],"vos":["resumieras","resumieses"],"s3":["resumiera","resumiese"],"p1":["resumiéramos","resumiésemos"],"p2":["resumierais","resumieseis"],"p3":["resumieran","resumiesen"]},
+    "SubFut": {"s1":["resumiere"],"s2":["resumieres"],"vos":["resumieres"],"s3":["resumiere"],"p1":["resumiéremos"],"p2":["resumiereis"],"p3":["resumieren"]},
+    "CmdPos": {"s2":["resume"],"vos":["resumí"],"s3":["resuma"],"p1":["resumamos"],"p2":["resumid"],"p3":["resuman"]}
+  }
+}

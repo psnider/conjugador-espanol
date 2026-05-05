@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bislũmˈbɾaɾ]",
+    "silabacion": "vis-lum-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vislumbrar","gerundio":["vislumbrando"],"participio":["vislumbrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vislumbro"],"s2":["vislumbras"],"vos":["vislumbrás"],"s3":["vislumbra"],"p1":["vislumbramos"],"p2":["vislumbráis"],"p3":["vislumbran"]},
+    "IndImp": {"s1":["vislumbraba"],"s2":["vislumbrabas"],"vos":["vislumbrabas"],"s3":["vislumbraba"],"p1":["vislumbrábamos"],"p2":["vislumbrabais"],"p3":["vislumbraban"]},
+    "IndPret": {"s1":["vislumbré"],"s2":["vislumbraste"],"vos":["vislumbraste"],"s3":["vislumbró"],"p1":["vislumbramos"],"p2":["vislumbrasteis"],"p3":["vislumbraron"]},
+    "IndFut": {"s1":["vislumbraré"],"s2":["vislumbrarás"],"vos":["vislumbrarás"],"s3":["vislumbrará"],"p1":["vislumbraremos"],"p2":["vislumbraréis"],"p3":["vislumbrarán"]},
+    "IndCond": {"s1":["vislumbraría"],"s2":["vislumbrarías"],"vos":["vislumbrarías"],"s3":["vislumbraría"],"p1":["vislumbraríamos"],"p2":["vislumbraríais"],"p3":["vislumbrarían"]},
+    "SubPres": {"s1":["vislumbre"],"s2":["vislumbres"],"vos":["vislumbres","vislumbrés"],"s3":["vislumbre"],"p1":["vislumbremos"],"p2":["vislumbréis"],"p3":["vislumbren"]},
+    "SubImp": {"s1":["vislumbrara","vislumbrase"],"s2":["vislumbraras","vislumbrases"],"vos":["vislumbraras","vislumbrases"],"s3":["vislumbrara","vislumbrase"],"p1":["vislumbráramos","vislumbrásemos"],"p2":["vislumbrarais","vislumbraseis"],"p3":["vislumbraran","vislumbrasen"]},
+    "SubFut": {"s1":["vislumbrare"],"s2":["vislumbrares"],"vos":["vislumbrares"],"s3":["vislumbrare"],"p1":["vislumbráremos"],"p2":["vislumbrareis"],"p3":["vislumbraren"]},
+    "CmdPos": {"s2":["vislumbra"],"vos":["vislumbrá"],"s3":["vislumbre"],"p1":["vislumbremos"],"p2":["vislumbrad"],"p3":["vislumbren"]}
+  }
+}

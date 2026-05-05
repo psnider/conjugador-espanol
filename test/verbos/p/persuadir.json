@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾswaˈð̞iɾ]",
+    "silabacion": "per-sua-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín persuadēre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"persuadir","gerundio":["persuadiendo"],"participio":["persuadido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["persuado"],"s2":["persuades"],"vos":["persuadís"],"s3":["persuade"],"p1":["persuadimos"],"p2":["persuadís"],"p3":["persuaden"]},
+    "IndImp": {"s1":["persuadía"],"s2":["persuadías"],"vos":["persuadías"],"s3":["persuadía"],"p1":["persuadíamos"],"p2":["persuadíais"],"p3":["persuadían"]},
+    "IndPret": {"s1":["persuadí"],"s2":["persuadiste"],"vos":["persuadiste"],"s3":["persuadió"],"p1":["persuadimos"],"p2":["persuadisteis"],"p3":["persuadieron"]},
+    "IndFut": {"s1":["persuadiré"],"s2":["persuadirás"],"vos":["persuadirás"],"s3":["persuadirá"],"p1":["persuadiremos"],"p2":["persuadiréis"],"p3":["persuadirán"]},
+    "IndCond": {"s1":["persuadiría"],"s2":["persuadirías"],"vos":["persuadirías"],"s3":["persuadiría"],"p1":["persuadiríamos"],"p2":["persuadiríais"],"p3":["persuadirían"]},
+    "SubPres": {"s1":["persuada"],"s2":["persuadas"],"vos":["persuadas","persuadás"],"s3":["persuada"],"p1":["persuadamos"],"p2":["persuadáis"],"p3":["persuadan"]},
+    "SubImp": {"s1":["persuadiera","persuadiese"],"s2":["persuadieras","persuadieses"],"vos":["persuadieras","persuadieses"],"s3":["persuadiera","persuadiese"],"p1":["persuadiéramos","persuadiésemos"],"p2":["persuadierais","persuadieseis"],"p3":["persuadieran","persuadiesen"]},
+    "SubFut": {"s1":["persuadiere"],"s2":["persuadieres"],"vos":["persuadieres"],"s3":["persuadiere"],"p1":["persuadiéremos"],"p2":["persuadiereis"],"p3":["persuadieren"]},
+    "CmdPos": {"s2":["persuade"],"vos":["persuadí"],"s3":["persuada"],"p1":["persuadamos"],"p2":["persuadid"],"p3":["persuadan"]}
+  }
+}

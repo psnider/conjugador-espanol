@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈlaɾ]",
+    "silabacion": "ca-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo calar ('bajar'), y este del latín vulgar *calāre, del latín chalāre, del griego antiguo χαλᾶν&nbsp;(khalân).[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"calar","gerundio":["calando"],"participio":["calado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["calo"],"s2":["calas"],"vos":["calás"],"s3":["cala"],"p1":["calamos"],"p2":["caláis"],"p3":["calan"]},
+    "IndImp": {"s1":["calaba"],"s2":["calabas"],"vos":["calabas"],"s3":["calaba"],"p1":["calábamos"],"p2":["calabais"],"p3":["calaban"]},
+    "IndPret": {"s1":["calé"],"s2":["calaste"],"vos":["calaste"],"s3":["caló"],"p1":["calamos"],"p2":["calasteis"],"p3":["calaron"]},
+    "IndFut": {"s1":["calaré"],"s2":["calarás"],"vos":["calarás"],"s3":["calará"],"p1":["calaremos"],"p2":["calaréis"],"p3":["calarán"]},
+    "IndCond": {"s1":["calaría"],"s2":["calarías"],"vos":["calarías"],"s3":["calaría"],"p1":["calaríamos"],"p2":["calaríais"],"p3":["calarían"]},
+    "SubPres": {"s1":["cale"],"s2":["cales"],"vos":["cales","calés"],"s3":["cale"],"p1":["calemos"],"p2":["caléis"],"p3":["calen"]},
+    "SubImp": {"s1":["calara","calase"],"s2":["calaras","calases"],"vos":["calaras","calases"],"s3":["calara","calase"],"p1":["caláramos","calásemos"],"p2":["calarais","calaseis"],"p3":["calaran","calasen"]},
+    "SubFut": {"s1":["calare"],"s2":["calares"],"vos":["calares"],"s3":["calare"],"p1":["caláremos"],"p2":["calareis"],"p3":["calaren"]},
+    "CmdPos": {"s2":["cala"],"vos":["calá"],"s3":["cale"],"p1":["calemos"],"p2":["calad"],"p3":["calen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esepsjoˈnaɾ]",
+    "silabacion": "de-cep-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"decepcionar","gerundio":["decepcionando"],"participio":["decepcionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["decepciono"],"s2":["decepcionas"],"vos":["decepcionás"],"s3":["decepciona"],"p1":["decepcionamos"],"p2":["decepcionáis"],"p3":["decepcionan"]},
+    "IndImp": {"s1":["decepcionaba"],"s2":["decepcionabas"],"vos":["decepcionabas"],"s3":["decepcionaba"],"p1":["decepcionábamos"],"p2":["decepcionabais"],"p3":["decepcionaban"]},
+    "IndPret": {"s1":["decepcioné"],"s2":["decepcionaste"],"vos":["decepcionaste"],"s3":["decepcionó"],"p1":["decepcionamos"],"p2":["decepcionasteis"],"p3":["decepcionaron"]},
+    "IndFut": {"s1":["decepcionaré"],"s2":["decepcionarás"],"vos":["decepcionarás"],"s3":["decepcionará"],"p1":["decepcionaremos"],"p2":["decepcionaréis"],"p3":["decepcionarán"]},
+    "IndCond": {"s1":["decepcionaría"],"s2":["decepcionarías"],"vos":["decepcionarías"],"s3":["decepcionaría"],"p1":["decepcionaríamos"],"p2":["decepcionaríais"],"p3":["decepcionarían"]},
+    "SubPres": {"s1":["decepcione"],"s2":["decepciones"],"vos":["decepciones","decepcionés"],"s3":["decepcione"],"p1":["decepcionemos"],"p2":["decepcionéis"],"p3":["decepcionen"]},
+    "SubImp": {"s1":["decepcionara","decepcionase"],"s2":["decepcionaras","decepcionases"],"vos":["decepcionaras","decepcionases"],"s3":["decepcionara","decepcionase"],"p1":["decepcionáramos","decepcionásemos"],"p2":["decepcionarais","decepcionaseis"],"p3":["decepcionaran","decepcionasen"]},
+    "SubFut": {"s1":["decepcionare"],"s2":["decepcionares"],"vos":["decepcionares"],"s3":["decepcionare"],"p1":["decepcionáremos"],"p2":["decepcionareis"],"p3":["decepcionaren"]},
+    "CmdPos": {"s2":["decepciona"],"vos":["decepcioná"],"s3":["decepcione"],"p1":["decepcionemos"],"p2":["decepcionad"],"p3":["decepcionen"]}
+  }
+}

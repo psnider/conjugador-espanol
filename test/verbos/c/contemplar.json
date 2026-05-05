@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ẽmˈplaɾ]",
+    "silabacion": "con-tem-plar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín contemplare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"contemplar","gerundio":["contemplando"],"participio":["contemplado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["contemplo"],"s2":["contemplas"],"vos":["contemplás"],"s3":["contempla"],"p1":["contemplamos"],"p2":["contempláis"],"p3":["contemplan"]},
+    "IndImp": {"s1":["contemplaba"],"s2":["contemplabas"],"vos":["contemplabas"],"s3":["contemplaba"],"p1":["contemplábamos"],"p2":["contemplabais"],"p3":["contemplaban"]},
+    "IndPret": {"s1":["contemplé"],"s2":["contemplaste"],"vos":["contemplaste"],"s3":["contempló"],"p1":["contemplamos"],"p2":["contemplasteis"],"p3":["contemplaron"]},
+    "IndFut": {"s1":["contemplaré"],"s2":["contemplarás"],"vos":["contemplarás"],"s3":["contemplará"],"p1":["contemplaremos"],"p2":["contemplaréis"],"p3":["contemplarán"]},
+    "IndCond": {"s1":["contemplaría"],"s2":["contemplarías"],"vos":["contemplarías"],"s3":["contemplaría"],"p1":["contemplaríamos"],"p2":["contemplaríais"],"p3":["contemplarían"]},
+    "SubPres": {"s1":["contemple"],"s2":["contemples"],"vos":["contemples","contemplés"],"s3":["contemple"],"p1":["contemplemos"],"p2":["contempléis"],"p3":["contemplen"]},
+    "SubImp": {"s1":["contemplara","contemplase"],"s2":["contemplaras","contemplases"],"vos":["contemplaras","contemplases"],"s3":["contemplara","contemplase"],"p1":["contempláramos","contemplásemos"],"p2":["contemplarais","contemplaseis"],"p3":["contemplaran","contemplasen"]},
+    "SubFut": {"s1":["contemplare"],"s2":["contemplares"],"vos":["contemplares"],"s3":["contemplare"],"p1":["contempláremos"],"p2":["contemplareis"],"p3":["contemplaren"]},
+    "CmdPos": {"s2":["contempla"],"vos":["contemplá"],"s3":["contemple"],"p1":["contemplemos"],"p2":["contemplad"],"p3":["contemplen"]}
+  }
+}

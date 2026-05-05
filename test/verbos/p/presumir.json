@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾesuˈmiɾ]",
+    "silabacion": "pre-su-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praesumĕre.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"presumir","gerundio":["presumiendo"],"participio":["presumido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["presumo"],"s2":["presumes"],"vos":["presumís"],"s3":["presume"],"p1":["presumimos"],"p2":["presumís"],"p3":["presumen"]},
+    "IndImp": {"s1":["presumía"],"s2":["presumías"],"vos":["presumías"],"s3":["presumía"],"p1":["presumíamos"],"p2":["presumíais"],"p3":["presumían"]},
+    "IndPret": {"s1":["presumí"],"s2":["presumiste"],"vos":["presumiste"],"s3":["presumió"],"p1":["presumimos"],"p2":["presumisteis"],"p3":["presumieron"]},
+    "IndFut": {"s1":["presumiré"],"s2":["presumirás"],"vos":["presumirás"],"s3":["presumirá"],"p1":["presumiremos"],"p2":["presumiréis"],"p3":["presumirán"]},
+    "IndCond": {"s1":["presumiría"],"s2":["presumirías"],"vos":["presumirías"],"s3":["presumiría"],"p1":["presumiríamos"],"p2":["presumiríais"],"p3":["presumirían"]},
+    "SubPres": {"s1":["presuma"],"s2":["presumas"],"vos":["presumas","presumás"],"s3":["presuma"],"p1":["presumamos"],"p2":["presumáis"],"p3":["presuman"]},
+    "SubImp": {"s1":["presumiera","presumiese"],"s2":["presumieras","presumieses"],"vos":["presumieras","presumieses"],"s3":["presumiera","presumiese"],"p1":["presumiéramos","presumiésemos"],"p2":["presumierais","presumieseis"],"p3":["presumieran","presumiesen"]},
+    "SubFut": {"s1":["presumiere"],"s2":["presumieres"],"vos":["presumieres"],"s3":["presumiere"],"p1":["presumiéremos"],"p2":["presumiereis"],"p3":["presumieren"]},
+    "CmdPos": {"s2":["presume"],"vos":["presumí"],"s3":["presuma"],"p1":["presumamos"],"p2":["presumid"],"p3":["presuman"]}
+  }
+}

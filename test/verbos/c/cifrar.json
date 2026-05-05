@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[siˈfɾaɾ]",
+    "silabacion": "ci-frar",
+    "acentuacion": "aguda",
+    "etimologia": "forma infinitiva de cifra",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cifrar","gerundio":["cifrando"],"participio":["cifrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cifro"],"s2":["cifras"],"vos":["cifrás"],"s3":["cifra"],"p1":["ciframos"],"p2":["cifráis"],"p3":["cifran"]},
+    "IndImp": {"s1":["cifraba"],"s2":["cifrabas"],"vos":["cifrabas"],"s3":["cifraba"],"p1":["cifrábamos"],"p2":["cifrabais"],"p3":["cifraban"]},
+    "IndPret": {"s1":["cifré"],"s2":["cifraste"],"vos":["cifraste"],"s3":["cifró"],"p1":["ciframos"],"p2":["cifrasteis"],"p3":["cifraron"]},
+    "IndFut": {"s1":["cifraré"],"s2":["cifrarás"],"vos":["cifrarás"],"s3":["cifrará"],"p1":["cifraremos"],"p2":["cifraréis"],"p3":["cifrarán"]},
+    "IndCond": {"s1":["cifraría"],"s2":["cifrarías"],"vos":["cifrarías"],"s3":["cifraría"],"p1":["cifraríamos"],"p2":["cifraríais"],"p3":["cifrarían"]},
+    "SubPres": {"s1":["cifre"],"s2":["cifres"],"vos":["cifres","cifrés"],"s3":["cifre"],"p1":["cifremos"],"p2":["cifréis"],"p3":["cifren"]},
+    "SubImp": {"s1":["cifrara","cifrase"],"s2":["cifraras","cifrases"],"vos":["cifraras","cifrases"],"s3":["cifrara","cifrase"],"p1":["cifráramos","cifrásemos"],"p2":["cifrarais","cifraseis"],"p3":["cifraran","cifrasen"]},
+    "SubFut": {"s1":["cifrare"],"s2":["cifrares"],"vos":["cifrares"],"s3":["cifrare"],"p1":["cifráremos"],"p2":["cifrareis"],"p3":["cifraren"]},
+    "CmdPos": {"s2":["cifra"],"vos":["cifrá"],"s3":["cifre"],"p1":["cifremos"],"p2":["cifrad"],"p3":["cifren"]}
+  }
+}

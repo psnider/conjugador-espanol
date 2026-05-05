@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sĩn̪t̪et̪iˈsaɾ]",
+    "silabacion": "sin-te-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De síntesis y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"sintetizar","gerundio":["sintetizando"],"participio":["sintetizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sintetizo"],"s2":["sintetizas"],"vos":["sintetizás"],"s3":["sintetiza"],"p1":["sintetizamos"],"p2":["sintetizáis"],"p3":["sintetizan"]},
+    "IndImp": {"s1":["sintetizaba"],"s2":["sintetizabas"],"vos":["sintetizabas"],"s3":["sintetizaba"],"p1":["sintetizábamos"],"p2":["sintetizabais"],"p3":["sintetizaban"]},
+    "IndPret": {"s1":["sinteticé"],"s2":["sintetizaste"],"vos":["sintetizaste"],"s3":["sintetizó"],"p1":["sintetizamos"],"p2":["sintetizasteis"],"p3":["sintetizaron"]},
+    "IndFut": {"s1":["sintetizaré"],"s2":["sintetizarás"],"vos":["sintetizarás"],"s3":["sintetizará"],"p1":["sintetizaremos"],"p2":["sintetizaréis"],"p3":["sintetizarán"]},
+    "IndCond": {"s1":["sintetizaría"],"s2":["sintetizarías"],"vos":["sintetizarías"],"s3":["sintetizaría"],"p1":["sintetizaríamos"],"p2":["sintetizaríais"],"p3":["sintetizarían"]},
+    "SubPres": {"s1":["sintetice"],"s2":["sintetices"],"vos":["sintetices","sinteticés"],"s3":["sintetice"],"p1":["sinteticemos"],"p2":["sinteticéis"],"p3":["sinteticen"]},
+    "SubImp": {"s1":["sintetizara","sintetizase"],"s2":["sintetizaras","sintetizases"],"vos":["sintetizaras","sintetizases"],"s3":["sintetizara","sintetizase"],"p1":["sintetizáramos","sintetizásemos"],"p2":["sintetizarais","sintetizaseis"],"p3":["sintetizaran","sintetizasen"]},
+    "SubFut": {"s1":["sintetizare"],"s2":["sintetizares"],"vos":["sintetizares"],"s3":["sintetizare"],"p1":["sintetizáremos"],"p2":["sintetizareis"],"p3":["sintetizaren"]},
+    "CmdPos": {"s2":["sintetiza"],"vos":["sintetizá"],"s3":["sintetice"],"p1":["sinteticemos"],"p2":["sintetizad"],"p3":["sinteticen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾasfiɣ̞uˈɾaɾ]",
+    "silabacion": "tras-fi-gu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trasfigurar","gerundio":["trasfigurando"],"participio":["trasfigurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trasfiguro"],"s2":["trasfiguras"],"vos":["trasfigurás"],"s3":["trasfigura"],"p1":["trasfiguramos"],"p2":["trasfiguráis"],"p3":["trasfiguran"]},
+    "IndImp": {"s1":["trasfiguraba"],"s2":["trasfigurabas"],"vos":["trasfigurabas"],"s3":["trasfiguraba"],"p1":["trasfigurábamos"],"p2":["trasfigurabais"],"p3":["trasfiguraban"]},
+    "IndPret": {"s1":["trasfiguré"],"s2":["trasfiguraste"],"vos":["trasfiguraste"],"s3":["trasfiguró"],"p1":["trasfiguramos"],"p2":["trasfigurasteis"],"p3":["trasfiguraron"]},
+    "IndFut": {"s1":["trasfiguraré"],"s2":["trasfigurarás"],"vos":["trasfigurarás"],"s3":["trasfigurará"],"p1":["trasfiguraremos"],"p2":["trasfiguraréis"],"p3":["trasfigurarán"]},
+    "IndCond": {"s1":["trasfiguraría"],"s2":["trasfigurarías"],"vos":["trasfigurarías"],"s3":["trasfiguraría"],"p1":["trasfiguraríamos"],"p2":["trasfiguraríais"],"p3":["trasfigurarían"]},
+    "SubPres": {"s1":["trasfigure"],"s2":["trasfigures"],"vos":["trasfigures","trasfigurés"],"s3":["trasfigure"],"p1":["trasfiguremos"],"p2":["trasfiguréis"],"p3":["trasfiguren"]},
+    "SubImp": {"s1":["trasfigurara","trasfigurase"],"s2":["trasfiguraras","trasfigurases"],"vos":["trasfiguraras","trasfigurases"],"s3":["trasfigurara","trasfigurase"],"p1":["trasfiguráramos","trasfigurásemos"],"p2":["trasfigurarais","trasfiguraseis"],"p3":["trasfiguraran","trasfigurasen"]},
+    "SubFut": {"s1":["trasfigurare"],"s2":["trasfigurares"],"vos":["trasfigurares"],"s3":["trasfigurare"],"p1":["trasfiguráremos"],"p2":["trasfigurareis"],"p3":["trasfiguraren"]},
+    "CmdPos": {"s2":["trasfigura"],"vos":["trasfigurá"],"s3":["trasfigure"],"p1":["trasfiguremos"],"p2":["trasfigurad"],"p3":["trasfiguren"]}
+  }
+}

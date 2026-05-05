@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esoɾjẽn̪ˈt̪aɾ]",
+    "silabacion": "des-o-rien-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desorientar","gerundio":["desorientando"],"participio":["desorientado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desoriento"],"s2":["desorientas"],"vos":["desorientás"],"s3":["desorienta"],"p1":["desorientamos"],"p2":["desorientáis"],"p3":["desorientan"]},
+    "IndImp": {"s1":["desorientaba"],"s2":["desorientabas"],"vos":["desorientabas"],"s3":["desorientaba"],"p1":["desorientábamos"],"p2":["desorientabais"],"p3":["desorientaban"]},
+    "IndPret": {"s1":["desorienté"],"s2":["desorientaste"],"vos":["desorientaste"],"s3":["desorientó"],"p1":["desorientamos"],"p2":["desorientasteis"],"p3":["desorientaron"]},
+    "IndFut": {"s1":["desorientaré"],"s2":["desorientarás"],"vos":["desorientarás"],"s3":["desorientará"],"p1":["desorientaremos"],"p2":["desorientaréis"],"p3":["desorientarán"]},
+    "IndCond": {"s1":["desorientaría"],"s2":["desorientarías"],"vos":["desorientarías"],"s3":["desorientaría"],"p1":["desorientaríamos"],"p2":["desorientaríais"],"p3":["desorientarían"]},
+    "SubPres": {"s1":["desoriente"],"s2":["desorientes"],"vos":["desorientes","desorientés"],"s3":["desoriente"],"p1":["desorientemos"],"p2":["desorientéis"],"p3":["desorienten"]},
+    "SubImp": {"s1":["desorientara","desorientase"],"s2":["desorientaras","desorientases"],"vos":["desorientaras","desorientases"],"s3":["desorientara","desorientase"],"p1":["desorientáramos","desorientásemos"],"p2":["desorientarais","desorientaseis"],"p3":["desorientaran","desorientasen"]},
+    "SubFut": {"s1":["desorientare"],"s2":["desorientares"],"vos":["desorientares"],"s3":["desorientare"],"p1":["desorientáremos"],"p2":["desorientareis"],"p3":["desorientaren"]},
+    "CmdPos": {"s2":["desorienta"],"vos":["desorientá"],"s3":["desoriente"],"p1":["desorientemos"],"p2":["desorientad"],"p3":["desorienten"]}
+  }
+}

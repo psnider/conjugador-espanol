@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oβ̞seˈkjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"obsequiar","gerundio":["obsequiando"],"participio":["obsequiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["obsequio"],"s2":["obsequias"],"vos":["obsequiás"],"s3":["obsequia"],"p1":["obsequiamos"],"p2":["obsequiáis"],"p3":["obsequian"]},
+    "IndImp": {"s1":["obsequiaba"],"s2":["obsequiabas"],"vos":["obsequiabas"],"s3":["obsequiaba"],"p1":["obsequiábamos"],"p2":["obsequiabais"],"p3":["obsequiaban"]},
+    "IndPret": {"s1":["obsequié"],"s2":["obsequiaste"],"vos":["obsequiaste"],"s3":["obsequió"],"p1":["obsequiamos"],"p2":["obsequiasteis"],"p3":["obsequiaron"]},
+    "IndFut": {"s1":["obsequiaré"],"s2":["obsequiarás"],"vos":["obsequiarás"],"s3":["obsequiará"],"p1":["obsequiaremos"],"p2":["obsequiaréis"],"p3":["obsequiarán"]},
+    "IndCond": {"s1":["obsequiaría"],"s2":["obsequiarías"],"vos":["obsequiarías"],"s3":["obsequiaría"],"p1":["obsequiaríamos"],"p2":["obsequiaríais"],"p3":["obsequiarían"]},
+    "SubPres": {"s1":["obsequie"],"s2":["obsequies"],"vos":["obsequies","obsequiés"],"s3":["obsequie"],"p1":["obsequiemos"],"p2":["obsequiéis"],"p3":["obsequien"]},
+    "SubImp": {"s1":["obsequiara","obsequiase"],"s2":["obsequiaras","obsequiases"],"vos":["obsequiaras","obsequiases"],"s3":["obsequiara","obsequiase"],"p1":["obsequiáramos","obsequiásemos"],"p2":["obsequiarais","obsequiaseis"],"p3":["obsequiaran","obsequiasen"]},
+    "SubFut": {"s1":["obsequiare"],"s2":["obsequiares"],"vos":["obsequiares"],"s3":["obsequiare"],"p1":["obsequiáremos"],"p2":["obsequiareis"],"p3":["obsequiaren"]},
+    "CmdPos": {"s2":["obsequia"],"vos":["obsequiá"],"s3":["obsequie"],"p1":["obsequiemos"],"p2":["obsequiad"],"p3":["obsequien"]}
+  }
+}

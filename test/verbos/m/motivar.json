@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mot̪iˈβ̞aɾ]",
+    "silabacion": "mo-ti-var",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"motivar","gerundio":["motivando"],"participio":["motivado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["motivo"],"s2":["motivas"],"vos":["motivás"],"s3":["motiva"],"p1":["motivamos"],"p2":["motiváis"],"p3":["motivan"]},
+    "IndImp": {"s1":["motivaba"],"s2":["motivabas"],"vos":["motivabas"],"s3":["motivaba"],"p1":["motivábamos"],"p2":["motivabais"],"p3":["motivaban"]},
+    "IndPret": {"s1":["motivé"],"s2":["motivaste"],"vos":["motivaste"],"s3":["motivó"],"p1":["motivamos"],"p2":["motivasteis"],"p3":["motivaron"]},
+    "IndFut": {"s1":["motivaré"],"s2":["motivarás"],"vos":["motivarás"],"s3":["motivará"],"p1":["motivaremos"],"p2":["motivaréis"],"p3":["motivarán"]},
+    "IndCond": {"s1":["motivaría"],"s2":["motivarías"],"vos":["motivarías"],"s3":["motivaría"],"p1":["motivaríamos"],"p2":["motivaríais"],"p3":["motivarían"]},
+    "SubPres": {"s1":["motive"],"s2":["motives"],"vos":["motives","motivés"],"s3":["motive"],"p1":["motivemos"],"p2":["motivéis"],"p3":["motiven"]},
+    "SubImp": {"s1":["motivara","motivase"],"s2":["motivaras","motivases"],"vos":["motivaras","motivases"],"s3":["motivara","motivase"],"p1":["motiváramos","motivásemos"],"p2":["motivarais","motivaseis"],"p3":["motivaran","motivasen"]},
+    "SubFut": {"s1":["motivare"],"s2":["motivares"],"vos":["motivares"],"s3":["motivare"],"p1":["motiváremos"],"p2":["motivareis"],"p3":["motivaren"]},
+    "CmdPos": {"s2":["motiva"],"vos":["motivá"],"s3":["motive"],"p1":["motivemos"],"p2":["motivad"],"p3":["motiven"]}
+  }
+}

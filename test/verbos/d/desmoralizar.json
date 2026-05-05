@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esmoɾaliˈsaɾ]",
+    "silabacion": "des-mo-ra-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y moralizar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"desmoralizar","gerundio":["desmoralizando"],"participio":["desmoralizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desmoralizo"],"s2":["desmoralizas"],"vos":["desmoralizás"],"s3":["desmoraliza"],"p1":["desmoralizamos"],"p2":["desmoralizáis"],"p3":["desmoralizan"]},
+    "IndImp": {"s1":["desmoralizaba"],"s2":["desmoralizabas"],"vos":["desmoralizabas"],"s3":["desmoralizaba"],"p1":["desmoralizábamos"],"p2":["desmoralizabais"],"p3":["desmoralizaban"]},
+    "IndPret": {"s1":["desmoralicé"],"s2":["desmoralizaste"],"vos":["desmoralizaste"],"s3":["desmoralizó"],"p1":["desmoralizamos"],"p2":["desmoralizasteis"],"p3":["desmoralizaron"]},
+    "IndFut": {"s1":["desmoralizaré"],"s2":["desmoralizarás"],"vos":["desmoralizarás"],"s3":["desmoralizará"],"p1":["desmoralizaremos"],"p2":["desmoralizaréis"],"p3":["desmoralizarán"]},
+    "IndCond": {"s1":["desmoralizaría"],"s2":["desmoralizarías"],"vos":["desmoralizarías"],"s3":["desmoralizaría"],"p1":["desmoralizaríamos"],"p2":["desmoralizaríais"],"p3":["desmoralizarían"]},
+    "SubPres": {"s1":["desmoralice"],"s2":["desmoralices"],"vos":["desmoralices","desmoralicés"],"s3":["desmoralice"],"p1":["desmoralicemos"],"p2":["desmoralicéis"],"p3":["desmoralicen"]},
+    "SubImp": {"s1":["desmoralizara","desmoralizase"],"s2":["desmoralizaras","desmoralizases"],"vos":["desmoralizaras","desmoralizases"],"s3":["desmoralizara","desmoralizase"],"p1":["desmoralizáramos","desmoralizásemos"],"p2":["desmoralizarais","desmoralizaseis"],"p3":["desmoralizaran","desmoralizasen"]},
+    "SubFut": {"s1":["desmoralizare"],"s2":["desmoralizares"],"vos":["desmoralizares"],"s3":["desmoralizare"],"p1":["desmoralizáremos"],"p2":["desmoralizareis"],"p3":["desmoralizaren"]},
+    "CmdPos": {"s2":["desmoraliza"],"vos":["desmoralizá"],"s3":["desmoralice"],"p1":["desmoralicemos"],"p2":["desmoralizad"],"p3":["desmoralicen"]}
+  }
+}

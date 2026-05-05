@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪aˈt͡ʃaɾ]",
+    "silabacion": "ta-char",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tachar","gerundio":["tachando"],"participio":["tachado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tacho"],"s2":["tachas"],"vos":["tachás"],"s3":["tacha"],"p1":["tachamos"],"p2":["tacháis"],"p3":["tachan"]},
+    "IndImp": {"s1":["tachaba"],"s2":["tachabas"],"vos":["tachabas"],"s3":["tachaba"],"p1":["tachábamos"],"p2":["tachabais"],"p3":["tachaban"]},
+    "IndPret": {"s1":["taché"],"s2":["tachaste"],"vos":["tachaste"],"s3":["tachó"],"p1":["tachamos"],"p2":["tachasteis"],"p3":["tacharon"]},
+    "IndFut": {"s1":["tacharé"],"s2":["tacharás"],"vos":["tacharás"],"s3":["tachará"],"p1":["tacharemos"],"p2":["tacharéis"],"p3":["tacharán"]},
+    "IndCond": {"s1":["tacharía"],"s2":["tacharías"],"vos":["tacharías"],"s3":["tacharía"],"p1":["tacharíamos"],"p2":["tacharíais"],"p3":["tacharían"]},
+    "SubPres": {"s1":["tache"],"s2":["taches"],"vos":["taches","tachés"],"s3":["tache"],"p1":["tachemos"],"p2":["tachéis"],"p3":["tachen"]},
+    "SubImp": {"s1":["tachara","tachase"],"s2":["tacharas","tachases"],"vos":["tacharas","tachases"],"s3":["tachara","tachase"],"p1":["tacháramos","tachásemos"],"p2":["tacharais","tachaseis"],"p3":["tacharan","tachasen"]},
+    "SubFut": {"s1":["tachare"],"s2":["tachares"],"vos":["tachares"],"s3":["tachare"],"p1":["tacháremos"],"p2":["tachareis"],"p3":["tacharen"]},
+    "CmdPos": {"s2":["tacha"],"vos":["tachá"],"s3":["tache"],"p1":["tachemos"],"p2":["tachad"],"p3":["tachen"]}
+  }
+}

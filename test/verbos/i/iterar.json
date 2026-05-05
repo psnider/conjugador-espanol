@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[it̪eˈɾaɾ]",
+    "silabacion": "i-te-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iterāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"iterar","gerundio":["iterando"],"participio":["iterado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["itero"],"s2":["iteras"],"vos":["iterás"],"s3":["itera"],"p1":["iteramos"],"p2":["iteráis"],"p3":["iteran"]},
+    "IndImp": {"s1":["iteraba"],"s2":["iterabas"],"vos":["iterabas"],"s3":["iteraba"],"p1":["iterábamos"],"p2":["iterabais"],"p3":["iteraban"]},
+    "IndPret": {"s1":["iteré"],"s2":["iteraste"],"vos":["iteraste"],"s3":["iteró"],"p1":["iteramos"],"p2":["iterasteis"],"p3":["iteraron"]},
+    "IndFut": {"s1":["iteraré"],"s2":["iterarás"],"vos":["iterarás"],"s3":["iterará"],"p1":["iteraremos"],"p2":["iteraréis"],"p3":["iterarán"]},
+    "IndCond": {"s1":["iteraría"],"s2":["iterarías"],"vos":["iterarías"],"s3":["iteraría"],"p1":["iteraríamos"],"p2":["iteraríais"],"p3":["iterarían"]},
+    "SubPres": {"s1":["itere"],"s2":["iteres"],"vos":["iteres","iterés"],"s3":["itere"],"p1":["iteremos"],"p2":["iteréis"],"p3":["iteren"]},
+    "SubImp": {"s1":["iterara","iterase"],"s2":["iteraras","iterases"],"vos":["iteraras","iterases"],"s3":["iterara","iterase"],"p1":["iteráramos","iterásemos"],"p2":["iterarais","iteraseis"],"p3":["iteraran","iterasen"]},
+    "SubFut": {"s1":["iterare"],"s2":["iterares"],"vos":["iterares"],"s3":["iterare"],"p1":["iteráremos"],"p2":["iterareis"],"p3":["iteraren"]},
+    "CmdPos": {"s2":["itera"],"vos":["iterá"],"s3":["itere"],"p1":["iteremos"],"p2":["iterad"],"p3":["iteren"]}
+  }
+}

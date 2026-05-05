@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmboluˈkɾaɾ]",
+    "silabacion": "in-vo-lu-crar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín involūcrum ('envoltura').[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"involucrar","gerundio":["involucrando"],"participio":["involucrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["involucro"],"s2":["involucras"],"vos":["involucrás"],"s3":["involucra"],"p1":["involucramos"],"p2":["involucráis"],"p3":["involucran"]},
+    "IndImp": {"s1":["involucraba"],"s2":["involucrabas"],"vos":["involucrabas"],"s3":["involucraba"],"p1":["involucrábamos"],"p2":["involucrabais"],"p3":["involucraban"]},
+    "IndPret": {"s1":["involucré"],"s2":["involucraste"],"vos":["involucraste"],"s3":["involucró"],"p1":["involucramos"],"p2":["involucrasteis"],"p3":["involucraron"]},
+    "IndFut": {"s1":["involucraré"],"s2":["involucrarás"],"vos":["involucrarás"],"s3":["involucrará"],"p1":["involucraremos"],"p2":["involucraréis"],"p3":["involucrarán"]},
+    "IndCond": {"s1":["involucraría"],"s2":["involucrarías"],"vos":["involucrarías"],"s3":["involucraría"],"p1":["involucraríamos"],"p2":["involucraríais"],"p3":["involucrarían"]},
+    "SubPres": {"s1":["involucre"],"s2":["involucres"],"vos":["involucres","involucrés"],"s3":["involucre"],"p1":["involucremos"],"p2":["involucréis"],"p3":["involucren"]},
+    "SubImp": {"s1":["involucrara","involucrase"],"s2":["involucraras","involucrases"],"vos":["involucraras","involucrases"],"s3":["involucrara","involucrase"],"p1":["involucráramos","involucrásemos"],"p2":["involucrarais","involucraseis"],"p3":["involucraran","involucrasen"]},
+    "SubFut": {"s1":["involucrare"],"s2":["involucrares"],"vos":["involucrares"],"s3":["involucrare"],"p1":["involucráremos"],"p2":["involucrareis"],"p3":["involucraren"]},
+    "CmdPos": {"s2":["involucra"],"vos":["involucrá"],"s3":["involucre"],"p1":["involucremos"],"p2":["involucrad"],"p3":["involucren"]}
+  }
+}

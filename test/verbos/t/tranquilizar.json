@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãŋkiliˈsaɾ]",
+    "silabacion": "tran-qui-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De tranquilo y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"tranquilizar","gerundio":["tranquilizando"],"participio":["tranquilizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tranquilizo"],"s2":["tranquilizas"],"vos":["tranquilizás"],"s3":["tranquiliza"],"p1":["tranquilizamos"],"p2":["tranquilizáis"],"p3":["tranquilizan"]},
+    "IndImp": {"s1":["tranquilizaba"],"s2":["tranquilizabas"],"vos":["tranquilizabas"],"s3":["tranquilizaba"],"p1":["tranquilizábamos"],"p2":["tranquilizabais"],"p3":["tranquilizaban"]},
+    "IndPret": {"s1":["tranquilicé"],"s2":["tranquilizaste"],"vos":["tranquilizaste"],"s3":["tranquilizó"],"p1":["tranquilizamos"],"p2":["tranquilizasteis"],"p3":["tranquilizaron"]},
+    "IndFut": {"s1":["tranquilizaré"],"s2":["tranquilizarás"],"vos":["tranquilizarás"],"s3":["tranquilizará"],"p1":["tranquilizaremos"],"p2":["tranquilizaréis"],"p3":["tranquilizarán"]},
+    "IndCond": {"s1":["tranquilizaría"],"s2":["tranquilizarías"],"vos":["tranquilizarías"],"s3":["tranquilizaría"],"p1":["tranquilizaríamos"],"p2":["tranquilizaríais"],"p3":["tranquilizarían"]},
+    "SubPres": {"s1":["tranquilice"],"s2":["tranquilices"],"vos":["tranquilices","tranquilicés"],"s3":["tranquilice"],"p1":["tranquilicemos"],"p2":["tranquilicéis"],"p3":["tranquilicen"]},
+    "SubImp": {"s1":["tranquilizara","tranquilizase"],"s2":["tranquilizaras","tranquilizases"],"vos":["tranquilizaras","tranquilizases"],"s3":["tranquilizara","tranquilizase"],"p1":["tranquilizáramos","tranquilizásemos"],"p2":["tranquilizarais","tranquilizaseis"],"p3":["tranquilizaran","tranquilizasen"]},
+    "SubFut": {"s1":["tranquilizare"],"s2":["tranquilizares"],"vos":["tranquilizares"],"s3":["tranquilizare"],"p1":["tranquilizáremos"],"p2":["tranquilizareis"],"p3":["tranquilizaren"]},
+    "CmdPos": {"s2":["tranquiliza"],"vos":["tranquilizá"],"s3":["tranquilice"],"p1":["tranquilicemos"],"p2":["tranquilizad"],"p3":["tranquilicen"]}
+  }
+}

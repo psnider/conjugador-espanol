@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[õnˈraɾ]",
+    "silabacion": "hon-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín honorāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"honrar","gerundio":["honrando"],"participio":["honrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["honro"],"s2":["honras"],"vos":["honrás"],"s3":["honra"],"p1":["honramos"],"p2":["honráis"],"p3":["honran"]},
+    "IndImp": {"s1":["honraba"],"s2":["honrabas"],"vos":["honrabas"],"s3":["honraba"],"p1":["honrábamos"],"p2":["honrabais"],"p3":["honraban"]},
+    "IndPret": {"s1":["honré"],"s2":["honraste"],"vos":["honraste"],"s3":["honró"],"p1":["honramos"],"p2":["honrasteis"],"p3":["honraron"]},
+    "IndFut": {"s1":["honraré"],"s2":["honrarás"],"vos":["honrarás"],"s3":["honrará"],"p1":["honraremos"],"p2":["honraréis"],"p3":["honrarán"]},
+    "IndCond": {"s1":["honraría"],"s2":["honrarías"],"vos":["honrarías"],"s3":["honraría"],"p1":["honraríamos"],"p2":["honraríais"],"p3":["honrarían"]},
+    "SubPres": {"s1":["honre"],"s2":["honres"],"vos":["honres","honrés"],"s3":["honre"],"p1":["honremos"],"p2":["honréis"],"p3":["honren"]},
+    "SubImp": {"s1":["honrara","honrase"],"s2":["honraras","honrases"],"vos":["honraras","honrases"],"s3":["honrara","honrase"],"p1":["honráramos","honrásemos"],"p2":["honrarais","honraseis"],"p3":["honraran","honrasen"]},
+    "SubFut": {"s1":["honrare"],"s2":["honrares"],"vos":["honrares"],"s3":["honrare"],"p1":["honráremos"],"p2":["honrareis"],"p3":["honraren"]},
+    "CmdPos": {"s2":["honra"],"vos":["honrá"],"s3":["honre"],"p1":["honremos"],"p2":["honrad"],"p3":["honren"]}
+  }
+}

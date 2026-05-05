@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esfuˈmaɾ]",
+    "silabacion": "es-fu-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano sfumare ('desaparecer').[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"esfumar","gerundio":["esfumando"],"participio":["esfumado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["esfumo"],"s2":["esfumas"],"vos":["esfumás"],"s3":["esfuma"],"p1":["esfumamos"],"p2":["esfumáis"],"p3":["esfuman"]},
+    "IndImp": {"s1":["esfumaba"],"s2":["esfumabas"],"vos":["esfumabas"],"s3":["esfumaba"],"p1":["esfumábamos"],"p2":["esfumabais"],"p3":["esfumaban"]},
+    "IndPret": {"s1":["esfumé"],"s2":["esfumaste"],"vos":["esfumaste"],"s3":["esfumó"],"p1":["esfumamos"],"p2":["esfumasteis"],"p3":["esfumaron"]},
+    "IndFut": {"s1":["esfumaré"],"s2":["esfumarás"],"vos":["esfumarás"],"s3":["esfumará"],"p1":["esfumaremos"],"p2":["esfumaréis"],"p3":["esfumarán"]},
+    "IndCond": {"s1":["esfumaría"],"s2":["esfumarías"],"vos":["esfumarías"],"s3":["esfumaría"],"p1":["esfumaríamos"],"p2":["esfumaríais"],"p3":["esfumarían"]},
+    "SubPres": {"s1":["esfume"],"s2":["esfumes"],"vos":["esfumes","esfumés"],"s3":["esfume"],"p1":["esfumemos"],"p2":["esfuméis"],"p3":["esfumen"]},
+    "SubImp": {"s1":["esfumara","esfumase"],"s2":["esfumaras","esfumases"],"vos":["esfumaras","esfumases"],"s3":["esfumara","esfumase"],"p1":["esfumáramos","esfumásemos"],"p2":["esfumarais","esfumaseis"],"p3":["esfumaran","esfumasen"]},
+    "SubFut": {"s1":["esfumare"],"s2":["esfumares"],"vos":["esfumares"],"s3":["esfumare"],"p1":["esfumáremos"],"p2":["esfumareis"],"p3":["esfumaren"]},
+    "CmdPos": {"s2":["esfuma"],"vos":["esfumá"],"s3":["esfume"],"p1":["esfumemos"],"p2":["esfumad"],"p3":["esfumen"]}
+  }
+}

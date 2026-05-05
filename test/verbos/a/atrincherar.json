@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪ɾĩnʲt͡ʃeˈɾaɾ]",
+    "silabacion": "a-trin-che-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, trinchera y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atrincherar","gerundio":["atrincherando"],"participio":["atrincherado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atrinchero"],"s2":["atrincheras"],"vos":["atrincherás"],"s3":["atrinchera"],"p1":["atrincheramos"],"p2":["atrincheráis"],"p3":["atrincheran"]},
+    "IndImp": {"s1":["atrincheraba"],"s2":["atrincherabas"],"vos":["atrincherabas"],"s3":["atrincheraba"],"p1":["atrincherábamos"],"p2":["atrincherabais"],"p3":["atrincheraban"]},
+    "IndPret": {"s1":["atrincheré"],"s2":["atrincheraste"],"vos":["atrincheraste"],"s3":["atrincheró"],"p1":["atrincheramos"],"p2":["atrincherasteis"],"p3":["atrincheraron"]},
+    "IndFut": {"s1":["atrincheraré"],"s2":["atrincherarás"],"vos":["atrincherarás"],"s3":["atrincherará"],"p1":["atrincheraremos"],"p2":["atrincheraréis"],"p3":["atrincherarán"]},
+    "IndCond": {"s1":["atrincheraría"],"s2":["atrincherarías"],"vos":["atrincherarías"],"s3":["atrincheraría"],"p1":["atrincheraríamos"],"p2":["atrincheraríais"],"p3":["atrincherarían"]},
+    "SubPres": {"s1":["atrinchere"],"s2":["atrincheres"],"vos":["atrincheres","atrincherés"],"s3":["atrinchere"],"p1":["atrincheremos"],"p2":["atrincheréis"],"p3":["atrincheren"]},
+    "SubImp": {"s1":["atrincherara","atrincherase"],"s2":["atrincheraras","atrincherases"],"vos":["atrincheraras","atrincherases"],"s3":["atrincherara","atrincherase"],"p1":["atrincheráramos","atrincherásemos"],"p2":["atrincherarais","atrincheraseis"],"p3":["atrincheraran","atrincherasen"]},
+    "SubFut": {"s1":["atrincherare"],"s2":["atrincherares"],"vos":["atrincherares"],"s3":["atrincherare"],"p1":["atrincheráremos"],"p2":["atrincherareis"],"p3":["atrincheraren"]},
+    "CmdPos": {"s2":["atrinchera"],"vos":["atrincherá"],"s3":["atrinchere"],"p1":["atrincheremos"],"p2":["atrincherad"],"p3":["atrincheren"]}
+  }
+}

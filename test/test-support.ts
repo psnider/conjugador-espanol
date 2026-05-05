@@ -16,6 +16,7 @@ export function loadConjugaciónEntero(verb_filename: string) : ConjugaciónEnte
 
 
 export function findFailedTestsForParticiples(infinitivo: string, expected: Participios<FormaConjugada[]>, errors: FailedTests) {
+    console.log(`deriveParticiples(${infinitivo})`)
     const {participles: actual} = deriveParticiples(infinitivo)
     const expected_keys = <Array <keyof FailedTests>> Object.keys(expected)
     expected_keys.forEach((expected_key: keyof Participios<FormaConjugada[]>) => {
@@ -32,6 +33,7 @@ export function findFailedTestsForParticiples(infinitivo: string, expected: Part
 
 export function findFailedTestsForConjugations(args: {infinitivo: string, mood_tense: MoodTense, expected: ConjugaciónEstándarYAtípico, errors: FailedTests}) {
     const {infinitivo, mood_tense, expected, errors} = args
+    console.log(`conjugateVerb(${infinitivo}, ${mood_tense})`)
     const {forms: actual} = conjugateVerb(infinitivo, mood_tense)
     if (!expected) {
         if (actual) {

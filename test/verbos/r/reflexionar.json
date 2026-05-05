@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[refleksjoˈnaɾ]",
+    "silabacion": "re-fle-xio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De reflexión y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reflexionar","gerundio":["reflexionando"],"participio":["reflexionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reflexiono"],"s2":["reflexionas"],"vos":["reflexionás"],"s3":["reflexiona"],"p1":["reflexionamos"],"p2":["reflexionáis"],"p3":["reflexionan"]},
+    "IndImp": {"s1":["reflexionaba"],"s2":["reflexionabas"],"vos":["reflexionabas"],"s3":["reflexionaba"],"p1":["reflexionábamos"],"p2":["reflexionabais"],"p3":["reflexionaban"]},
+    "IndPret": {"s1":["reflexioné"],"s2":["reflexionaste"],"vos":["reflexionaste"],"s3":["reflexionó"],"p1":["reflexionamos"],"p2":["reflexionasteis"],"p3":["reflexionaron"]},
+    "IndFut": {"s1":["reflexionaré"],"s2":["reflexionarás"],"vos":["reflexionarás"],"s3":["reflexionará"],"p1":["reflexionaremos"],"p2":["reflexionaréis"],"p3":["reflexionarán"]},
+    "IndCond": {"s1":["reflexionaría"],"s2":["reflexionarías"],"vos":["reflexionarías"],"s3":["reflexionaría"],"p1":["reflexionaríamos"],"p2":["reflexionaríais"],"p3":["reflexionarían"]},
+    "SubPres": {"s1":["reflexione"],"s2":["reflexiones"],"vos":["reflexiones","reflexionés"],"s3":["reflexione"],"p1":["reflexionemos"],"p2":["reflexionéis"],"p3":["reflexionen"]},
+    "SubImp": {"s1":["reflexionara","reflexionase"],"s2":["reflexionaras","reflexionases"],"vos":["reflexionaras","reflexionases"],"s3":["reflexionara","reflexionase"],"p1":["reflexionáramos","reflexionásemos"],"p2":["reflexionarais","reflexionaseis"],"p3":["reflexionaran","reflexionasen"]},
+    "SubFut": {"s1":["reflexionare"],"s2":["reflexionares"],"vos":["reflexionares"],"s3":["reflexionare"],"p1":["reflexionáremos"],"p2":["reflexionareis"],"p3":["reflexionaren"]},
+    "CmdPos": {"s2":["reflexiona"],"vos":["reflexioná"],"s3":["reflexione"],"p1":["reflexionemos"],"p2":["reflexionad"],"p3":["reflexionen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[buɾˈlaɾ]",
+    "silabacion": "bur-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín *burrula, a su vez de burrae, -arum, \"tonterías\"",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"burlar","gerundio":["burlando"],"participio":["burlado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["burlo"],"s2":["burlas"],"vos":["burlás"],"s3":["burla"],"p1":["burlamos"],"p2":["burláis"],"p3":["burlan"]},
+    "IndImp": {"s1":["burlaba"],"s2":["burlabas"],"vos":["burlabas"],"s3":["burlaba"],"p1":["burlábamos"],"p2":["burlabais"],"p3":["burlaban"]},
+    "IndPret": {"s1":["burlé"],"s2":["burlaste"],"vos":["burlaste"],"s3":["burló"],"p1":["burlamos"],"p2":["burlasteis"],"p3":["burlaron"]},
+    "IndFut": {"s1":["burlaré"],"s2":["burlarás"],"vos":["burlarás"],"s3":["burlará"],"p1":["burlaremos"],"p2":["burlaréis"],"p3":["burlarán"]},
+    "IndCond": {"s1":["burlaría"],"s2":["burlarías"],"vos":["burlarías"],"s3":["burlaría"],"p1":["burlaríamos"],"p2":["burlaríais"],"p3":["burlarían"]},
+    "SubPres": {"s1":["burle"],"s2":["burles"],"vos":["burles","burlés"],"s3":["burle"],"p1":["burlemos"],"p2":["burléis"],"p3":["burlen"]},
+    "SubImp": {"s1":["burlara","burlase"],"s2":["burlaras","burlases"],"vos":["burlaras","burlases"],"s3":["burlara","burlase"],"p1":["burláramos","burlásemos"],"p2":["burlarais","burlaseis"],"p3":["burlaran","burlasen"]},
+    "SubFut": {"s1":["burlare"],"s2":["burlares"],"vos":["burlares"],"s3":["burlare"],"p1":["burláremos"],"p2":["burlareis"],"p3":["burlaren"]},
+    "CmdPos": {"s2":["burla"],"vos":["burlá"],"s3":["burle"],"p1":["burlemos"],"p2":["burlad"],"p3":["burlen"]}
+  }
+}

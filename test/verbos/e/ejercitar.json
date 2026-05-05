@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[exeɾsiˈt̪aɾ]",
+    "silabacion": "e-jer-ci-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exercitāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ejercitar","gerundio":["ejercitando"],"participio":["ejercitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ejercito"],"s2":["ejercitas"],"vos":["ejercitás"],"s3":["ejercita"],"p1":["ejercitamos"],"p2":["ejercitáis"],"p3":["ejercitan"]},
+    "IndImp": {"s1":["ejercitaba"],"s2":["ejercitabas"],"vos":["ejercitabas"],"s3":["ejercitaba"],"p1":["ejercitábamos"],"p2":["ejercitabais"],"p3":["ejercitaban"]},
+    "IndPret": {"s1":["ejercité"],"s2":["ejercitaste"],"vos":["ejercitaste"],"s3":["ejercitó"],"p1":["ejercitamos"],"p2":["ejercitasteis"],"p3":["ejercitaron"]},
+    "IndFut": {"s1":["ejercitaré"],"s2":["ejercitarás"],"vos":["ejercitarás"],"s3":["ejercitará"],"p1":["ejercitaremos"],"p2":["ejercitaréis"],"p3":["ejercitarán"]},
+    "IndCond": {"s1":["ejercitaría"],"s2":["ejercitarías"],"vos":["ejercitarías"],"s3":["ejercitaría"],"p1":["ejercitaríamos"],"p2":["ejercitaríais"],"p3":["ejercitarían"]},
+    "SubPres": {"s1":["ejercite"],"s2":["ejercites"],"vos":["ejercites","ejercités"],"s3":["ejercite"],"p1":["ejercitemos"],"p2":["ejercitéis"],"p3":["ejerciten"]},
+    "SubImp": {"s1":["ejercitara","ejercitase"],"s2":["ejercitaras","ejercitases"],"vos":["ejercitaras","ejercitases"],"s3":["ejercitara","ejercitase"],"p1":["ejercitáramos","ejercitásemos"],"p2":["ejercitarais","ejercitaseis"],"p3":["ejercitaran","ejercitasen"]},
+    "SubFut": {"s1":["ejercitare"],"s2":["ejercitares"],"vos":["ejercitares"],"s3":["ejercitare"],"p1":["ejercitáremos"],"p2":["ejercitareis"],"p3":["ejercitaren"]},
+    "CmdPos": {"s2":["ejercita"],"vos":["ejercitá"],"s3":["ejercite"],"p1":["ejercitemos"],"p2":["ejercitad"],"p3":["ejerciten"]}
+  }
+}

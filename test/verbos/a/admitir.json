@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞miˈt̪iɾ]",
+    "silabacion": "ad-mi-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín admittĕre ('hacer ir')",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"admitir","gerundio":["admitiendo"],"participio":["admitido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["admito"],"s2":["admites"],"vos":["admitís"],"s3":["admite"],"p1":["admitimos"],"p2":["admitís"],"p3":["admiten"]},
+    "IndImp": {"s1":["admitía"],"s2":["admitías"],"vos":["admitías"],"s3":["admitía"],"p1":["admitíamos"],"p2":["admitíais"],"p3":["admitían"]},
+    "IndPret": {"s1":["admití"],"s2":["admitiste"],"vos":["admitiste"],"s3":["admitió"],"p1":["admitimos"],"p2":["admitisteis"],"p3":["admitieron"]},
+    "IndFut": {"s1":["admitiré"],"s2":["admitirás"],"vos":["admitirás"],"s3":["admitirá"],"p1":["admitiremos"],"p2":["admitiréis"],"p3":["admitirán"]},
+    "IndCond": {"s1":["admitiría"],"s2":["admitirías"],"vos":["admitirías"],"s3":["admitiría"],"p1":["admitiríamos"],"p2":["admitiríais"],"p3":["admitirían"]},
+    "SubPres": {"s1":["admita"],"s2":["admitas"],"vos":["admitas","admitás"],"s3":["admita"],"p1":["admitamos"],"p2":["admitáis"],"p3":["admitan"]},
+    "SubImp": {"s1":["admitiera","admitiese"],"s2":["admitieras","admitieses"],"vos":["admitieras","admitieses"],"s3":["admitiera","admitiese"],"p1":["admitiéramos","admitiésemos"],"p2":["admitierais","admitieseis"],"p3":["admitieran","admitiesen"]},
+    "SubFut": {"s1":["admitiere"],"s2":["admitieres"],"vos":["admitieres"],"s3":["admitiere"],"p1":["admitiéremos"],"p2":["admitiereis"],"p3":["admitieren"]},
+    "CmdPos": {"s2":["admite"],"vos":["admití"],"s3":["admita"],"p1":["admitamos"],"p2":["admitid"],"p3":["admitan"]}
+  }
+}

@@ -15,7 +15,7 @@ const infinitive_ending_sound_rules = {
     guir: "preserve-hard-g-sound",
     ecer: "preserve-soft-c-sound-of-ecer",
     car: "preserve-hard-c-sound-of-c",
-    cir: "soften-hard-c-sound",
+    // cir: "soften-hard-c-sound",         // FIX: unused now, apparently solves some problems
     gar: "preserve-hard-g-sound",
     ger: "preserve-soft-g-sound",
     gir: "preserve-soft-g-sound",
@@ -166,7 +166,8 @@ export function applyOrthographicalChangesCommon(infinitivo, formas_conjugadas_c
     // changed = changed.replace(/^([bcdfhjlmnpqrstvwxz]+u)í(s)?$/, "$1i$2")
     // changed = accentuate(full_form, suffix).  FAILED
     let formas_conjugadas_actualizadas = [...formas_conjugadas_completas];
-    for (const regla_nombre in orthographical_change_rules_general) {
+    for (const key in orthographical_change_rules_general) {
+        const regla_nombre = key;
         const rules = orthographical_change_rules_general[regla_nombre];
         for (const rule of rules) {
             if (rule.match_infinitivo && !infinitivo.match(rule.match_infinitivo)) {
@@ -286,7 +287,6 @@ export function applyOrthographicalChangesToConjugatedForm(infinitivo, formas_co
 // }
 export function getOrthographicChanges_IndPret3P(infinitivo, tema, sufijo) {
     // Nota: no guarda o uso los cambios encontrados para esta forma de IndPret3P, porque es independiente del resto de la conjugación
-    const cambios_aplicadas = {};
     // const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll")
     // const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
     const forma_unidio = tema + sufijo;
@@ -316,36 +316,14 @@ export function getOrthographicChanges(infinitivo, mood_tense, joined_forms, suf
         const joined_forms_por_persona = joined_forms[persona];
         const suffixes_por_persona = suffixes[persona];
         const reglas_aplicadas_por_ortografía = applyOrthographicalChangesToConjugatedForm(infinitivo, joined_forms_por_persona, suffixes_por_persona); // , do_correct_diéresis, do_correct_ñi_yi)
-        // FIX: can't this be formalized so only one test is needed?
+        // FIX: can't this be formalized so only one test is needed? That is, only allow one spelling change?
         if (reglas_aplicadas_por_ortografía?.cambios.length > 0) {
             cambios[persona].push(...reglas_aplicadas_por_ortografía.cambios);
         }
         if (!isValueless(reglas_aplicadas_por_ortografía.formas_conjugadas_cambiadas)) {
             orthography[persona] = combinaFormasConjugadas(orthography[persona], reglas_aplicadas_por_ortografía.formas_conjugadas_cambiadas);
         }
-        // if (!isValueless(combinadas)) {
-        //     orthography[persona] = combinadas
-        //     const cambios_temas: FormaConjugadaConRegla[] = []
-        //     const cambios_sufijos: FormaConjugadaConRegla[] = []
-        //     for (const i in combinadas) {
-        //         const combinada = combinadas[i]
-        //         const reglas_aplicadas = reglas_aplicadas_por_forma[i]
-        //         for (const regla_aplicada of reglas_aplicadas) {
-        //             const regla = regla_aplicada.regla_nombre
-        //             const sufijos_por_persona = suffixes[persona]
-        //             const {tema, sufijo} = extraeTema(regla_aplicada.forma, sufijos_por_persona)
-        //             const tema_forma_conjugada = asFormaConjugada(tema, combinada)
-        //             const sufijo_forma_conjugada = asFormaConjugada(sufijo, combinada)
-        //             cambios_temas.push({forma_conjugada: tema_forma_conjugada, regla})
-        //             cambios_sufijos.push({forma_conjugada: sufijo_forma_conjugada, regla})
-        //         }
-        //     }
-        //     cambios_aplicadas[persona] = cambios_aplicadas[persona] || []
-        //     cambios_aplicadas[persona].push({temas:})
-        // }
     }
-    // FIX: this is very likely too simple
-    // rules_applied.reglas.push({regla: "", temas: reglas_aplicadas})
     return orthography;
 }
 //# sourceMappingURL=ortograf%C3%ADa.js.map

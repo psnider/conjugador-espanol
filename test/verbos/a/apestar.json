@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apesˈt̪aɾ]",
+    "silabacion": "a-pes-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, peste y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apestar","gerundio":["apestando"],"participio":["apestado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apesto"],"s2":["apestas"],"vos":["apestás"],"s3":["apesta"],"p1":["apestamos"],"p2":["apestáis"],"p3":["apestan"]},
+    "IndImp": {"s1":["apestaba"],"s2":["apestabas"],"vos":["apestabas"],"s3":["apestaba"],"p1":["apestábamos"],"p2":["apestabais"],"p3":["apestaban"]},
+    "IndPret": {"s1":["apesté"],"s2":["apestaste"],"vos":["apestaste"],"s3":["apestó"],"p1":["apestamos"],"p2":["apestasteis"],"p3":["apestaron"]},
+    "IndFut": {"s1":["apestaré"],"s2":["apestarás"],"vos":["apestarás"],"s3":["apestará"],"p1":["apestaremos"],"p2":["apestaréis"],"p3":["apestarán"]},
+    "IndCond": {"s1":["apestaría"],"s2":["apestarías"],"vos":["apestarías"],"s3":["apestaría"],"p1":["apestaríamos"],"p2":["apestaríais"],"p3":["apestarían"]},
+    "SubPres": {"s1":["apeste"],"s2":["apestes"],"vos":["apestes","apestés"],"s3":["apeste"],"p1":["apestemos"],"p2":["apestéis"],"p3":["apesten"]},
+    "SubImp": {"s1":["apestara","apestase"],"s2":["apestaras","apestases"],"vos":["apestaras","apestases"],"s3":["apestara","apestase"],"p1":["apestáramos","apestásemos"],"p2":["apestarais","apestaseis"],"p3":["apestaran","apestasen"]},
+    "SubFut": {"s1":["apestare"],"s2":["apestares"],"vos":["apestares"],"s3":["apestare"],"p1":["apestáremos"],"p2":["apestareis"],"p3":["apestaren"]},
+    "CmdPos": {"s2":["apesta"],"vos":["apestá"],"s3":["apeste"],"p1":["apestemos"],"p2":["apestad"],"p3":["apesten"]}
+  }
+}

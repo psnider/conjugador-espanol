@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskiˈβ̞aɾ]",
+    "silabacion": "es-qui-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo esquivar, y este del francés antiguo eschiver, del fráncico *sciuhan, del protogermánico *skiuhwaną&nbsp;('asustar'). Compárese el catalán esquivar, el francés esquiver, el inglés eschew, el italiano schifare, schivare o, más remotamente, el inglés shy",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"esquivar","gerundio":["esquivando"],"participio":["esquivado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["esquivo"],"s2":["esquivas"],"vos":["esquivás"],"s3":["esquiva"],"p1":["esquivamos"],"p2":["esquiváis"],"p3":["esquivan"]},
+    "IndImp": {"s1":["esquivaba"],"s2":["esquivabas"],"vos":["esquivabas"],"s3":["esquivaba"],"p1":["esquivábamos"],"p2":["esquivabais"],"p3":["esquivaban"]},
+    "IndPret": {"s1":["esquivé"],"s2":["esquivaste"],"vos":["esquivaste"],"s3":["esquivó"],"p1":["esquivamos"],"p2":["esquivasteis"],"p3":["esquivaron"]},
+    "IndFut": {"s1":["esquivaré"],"s2":["esquivarás"],"vos":["esquivarás"],"s3":["esquivará"],"p1":["esquivaremos"],"p2":["esquivaréis"],"p3":["esquivarán"]},
+    "IndCond": {"s1":["esquivaría"],"s2":["esquivarías"],"vos":["esquivarías"],"s3":["esquivaría"],"p1":["esquivaríamos"],"p2":["esquivaríais"],"p3":["esquivarían"]},
+    "SubPres": {"s1":["esquive"],"s2":["esquives"],"vos":["esquives","esquivés"],"s3":["esquive"],"p1":["esquivemos"],"p2":["esquivéis"],"p3":["esquiven"]},
+    "SubImp": {"s1":["esquivara","esquivase"],"s2":["esquivaras","esquivases"],"vos":["esquivaras","esquivases"],"s3":["esquivara","esquivase"],"p1":["esquiváramos","esquivásemos"],"p2":["esquivarais","esquivaseis"],"p3":["esquivaran","esquivasen"]},
+    "SubFut": {"s1":["esquivare"],"s2":["esquivares"],"vos":["esquivares"],"s3":["esquivare"],"p1":["esquiváremos"],"p2":["esquivareis"],"p3":["esquivaren"]},
+    "CmdPos": {"s2":["esquiva"],"vos":["esquivá"],"s3":["esquive"],"p1":["esquivemos"],"p2":["esquivad"],"p3":["esquiven"]}
+  }
+}

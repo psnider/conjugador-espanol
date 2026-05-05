@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪eroɾiˈsaɾ]",
+    "silabacion": "a-te-rro-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, terror y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"aterrorizar","gerundio":["aterrorizando"],"participio":["aterrorizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aterrorizo"],"s2":["aterrorizas"],"vos":["aterrorizás"],"s3":["aterroriza"],"p1":["aterrorizamos"],"p2":["aterrorizáis"],"p3":["aterrorizan"]},
+    "IndImp": {"s1":["aterrorizaba"],"s2":["aterrorizabas"],"vos":["aterrorizabas"],"s3":["aterrorizaba"],"p1":["aterrorizábamos"],"p2":["aterrorizabais"],"p3":["aterrorizaban"]},
+    "IndPret": {"s1":["aterroricé"],"s2":["aterrorizaste"],"vos":["aterrorizaste"],"s3":["aterrorizó"],"p1":["aterrorizamos"],"p2":["aterrorizasteis"],"p3":["aterrorizaron"]},
+    "IndFut": {"s1":["aterrorizaré"],"s2":["aterrorizarás"],"vos":["aterrorizarás"],"s3":["aterrorizará"],"p1":["aterrorizaremos"],"p2":["aterrorizaréis"],"p3":["aterrorizarán"]},
+    "IndCond": {"s1":["aterrorizaría"],"s2":["aterrorizarías"],"vos":["aterrorizarías"],"s3":["aterrorizaría"],"p1":["aterrorizaríamos"],"p2":["aterrorizaríais"],"p3":["aterrorizarían"]},
+    "SubPres": {"s1":["aterrorice"],"s2":["aterrorices"],"vos":["aterrorices","aterroricés"],"s3":["aterrorice"],"p1":["aterroricemos"],"p2":["aterroricéis"],"p3":["aterroricen"]},
+    "SubImp": {"s1":["aterrorizara","aterrorizase"],"s2":["aterrorizaras","aterrorizases"],"vos":["aterrorizaras","aterrorizases"],"s3":["aterrorizara","aterrorizase"],"p1":["aterrorizáramos","aterrorizásemos"],"p2":["aterrorizarais","aterrorizaseis"],"p3":["aterrorizaran","aterrorizasen"]},
+    "SubFut": {"s1":["aterrorizare"],"s2":["aterrorizares"],"vos":["aterrorizares"],"s3":["aterrorizare"],"p1":["aterrorizáremos"],"p2":["aterrorizareis"],"p3":["aterrorizaren"]},
+    "CmdPos": {"s2":["aterroriza"],"vos":["aterrorizá"],"s3":["aterrorice"],"p1":["aterroricemos"],"p2":["aterrorizad"],"p3":["aterroricen"]}
+  }
+}

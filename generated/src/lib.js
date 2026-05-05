@@ -262,30 +262,20 @@ export function compareSpanishWords(lhs, rhs) {
     return lhs.length - rhs.length;
 }
 export function acumulaCambiosPorPersona(args) {
-    // function añadeReglaAFormaConjugada(formas_conjugadas?: FormaConjugada[]) {
-    //     if (formas_conjugadas) {
-    //         const con_regla = formas_conjugadas.map((forma_conjugada) => {
-    //             return {regla, forma_conjugada}
-    //         })
-    //         return con_regla
-    //     }
-    // }
-    const { cambios_aplicadas, persona, temas, sufijos, regla } = args;
+    const { cambios, persona, temas, sufijos, regla } = args;
     const personas = (persona ? [persona] : persons_w_vos);
     for (const persona of personas) {
         const temas_por_persona = temas?.[persona];
         const sufijos_por_persona = sufijos?.[persona];
         if (temas_por_persona || sufijos_por_persona) {
             const cambio = { regla, temas: temas_por_persona, sufijos: sufijos_por_persona };
-            cambios_aplicadas[persona] = cambios_aplicadas[persona] || [];
-            cambios_aplicadas[persona].push(cambio);
+            cambios[persona].push(cambio);
         }
     }
 }
 export function añadeCambiosPorPersona(args) {
     const { acumulado, adicional } = args;
     for (const persona in adicional) {
-        acumulado[persona] = acumulado[persona] || [];
         acumulado[persona].push(...adicional[persona]);
     }
 }

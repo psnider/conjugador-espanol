@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[floɾeˈseɾ]",
+    "silabacion": "flo-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo florescer",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"florecer","gerundio":["floreciendo"],"participio":["florecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["florezco"],"s2":["floreces"],"vos":["florecés"],"s3":["florece"],"p1":["florecemos"],"p2":["florecéis"],"p3":["florecen"]},
+    "IndImp": {"s1":["florecía"],"s2":["florecías"],"vos":["florecías"],"s3":["florecía"],"p1":["florecíamos"],"p2":["florecíais"],"p3":["florecían"]},
+    "IndPret": {"s1":["florecí"],"s2":["floreciste"],"vos":["floreciste"],"s3":["floreció"],"p1":["florecimos"],"p2":["florecisteis"],"p3":["florecieron"]},
+    "IndFut": {"s1":["floreceré"],"s2":["florecerás"],"vos":["florecerás"],"s3":["florecerá"],"p1":["floreceremos"],"p2":["floreceréis"],"p3":["florecerán"]},
+    "IndCond": {"s1":["florecería"],"s2":["florecerías"],"vos":["florecerías"],"s3":["florecería"],"p1":["floreceríamos"],"p2":["floreceríais"],"p3":["florecerían"]},
+    "SubPres": {"s1":["florezca"],"s2":["florezcas"],"vos":["florezcas","florezcás"],"s3":["florezca"],"p1":["florezcamos"],"p2":["florezcáis"],"p3":["florezcan"]},
+    "SubImp": {"s1":["floreciera","floreciese"],"s2":["florecieras","florecieses"],"vos":["florecieras","florecieses"],"s3":["floreciera","floreciese"],"p1":["floreciéramos","floreciésemos"],"p2":["florecierais","florecieseis"],"p3":["florecieran","floreciesen"]},
+    "SubFut": {"s1":["floreciere"],"s2":["florecieres"],"vos":["florecieres"],"s3":["floreciere"],"p1":["floreciéremos"],"p2":["floreciereis"],"p3":["florecieren"]},
+    "CmdPos": {"s2":["florece"],"vos":["florecé"],"s3":["florezca"],"p1":["florezcamos"],"p2":["floreced"],"p3":["florezcan"]}
+  }
+}

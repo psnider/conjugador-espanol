@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾt̪uɾˈβ̞aɾ]",
+    "silabacion": "per-tur-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín perturbāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"perturbar","gerundio":["perturbando"],"participio":["perturbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["perturbo"],"s2":["perturbas"],"vos":["perturbás"],"s3":["perturba"],"p1":["perturbamos"],"p2":["perturbáis"],"p3":["perturban"]},
+    "IndImp": {"s1":["perturbaba"],"s2":["perturbabas"],"vos":["perturbabas"],"s3":["perturbaba"],"p1":["perturbábamos"],"p2":["perturbabais"],"p3":["perturbaban"]},
+    "IndPret": {"s1":["perturbé"],"s2":["perturbaste"],"vos":["perturbaste"],"s3":["perturbó"],"p1":["perturbamos"],"p2":["perturbasteis"],"p3":["perturbaron"]},
+    "IndFut": {"s1":["perturbaré"],"s2":["perturbarás"],"vos":["perturbarás"],"s3":["perturbará"],"p1":["perturbaremos"],"p2":["perturbaréis"],"p3":["perturbarán"]},
+    "IndCond": {"s1":["perturbaría"],"s2":["perturbarías"],"vos":["perturbarías"],"s3":["perturbaría"],"p1":["perturbaríamos"],"p2":["perturbaríais"],"p3":["perturbarían"]},
+    "SubPres": {"s1":["perturbe"],"s2":["perturbes"],"vos":["perturbes","perturbés"],"s3":["perturbe"],"p1":["perturbemos"],"p2":["perturbéis"],"p3":["perturben"]},
+    "SubImp": {"s1":["perturbara","perturbase"],"s2":["perturbaras","perturbases"],"vos":["perturbaras","perturbases"],"s3":["perturbara","perturbase"],"p1":["perturbáramos","perturbásemos"],"p2":["perturbarais","perturbaseis"],"p3":["perturbaran","perturbasen"]},
+    "SubFut": {"s1":["perturbare"],"s2":["perturbares"],"vos":["perturbares"],"s3":["perturbare"],"p1":["perturbáremos"],"p2":["perturbareis"],"p3":["perturbaren"]},
+    "CmdPos": {"s2":["perturba"],"vos":["perturbá"],"s3":["perturbe"],"p1":["perturbemos"],"p2":["perturbad"],"p3":["perturben"]}
+  }
+}

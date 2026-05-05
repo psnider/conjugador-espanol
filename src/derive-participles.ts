@@ -1,4 +1,4 @@
-import { FormaConjugada, Participios, CambiosDerivacionales, CambiosPorRegla } from "."
+import { FormaConjugada, Participios, CambiosDerivacionales, CambiosPorRegla, CambiosPorParticipios } from "."
 import { applyToFormasConjugadas, combinaParticipios, extraeTema, formasConjugadasIgual, getForma } from "./lib.js"
 import { applyOrthographicalChangesCommon } from "./ortografía.js"
 import { addPrefixesToBaseForm } from "./prefixes.js"
@@ -33,18 +33,22 @@ function accumulateChangedForms(base: FormaConjugada[], updates?: (FormaConjugad
 }
 
 
-function getRegularParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules, derivaciones: CambiosDerivacionales): Participios<FormaConjugada[]> {
+function getRegularParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules, cambios: CambiosPorParticipios): Participios<FormaConjugada[]> {
     const {infinitivo, verb_family} = conj_and_deriv_rules
     const stem = infinitivo.slice(0, -2)
     const suffixes = regular_verb_suffixes[verb_family].participle_rules
     const gerundio_base = stem + suffixes.pres!.suffix
     const participio_base = stem + suffixes.past!.suffix
     const regular: Participios<FormaConjugada[]> = {gerundio: [gerundio_base], participio: [participio_base]}
+    const cambio_gerundio: CambiosPorRegla = {regla: "regular", temas: [stem], sufijos: [suffixes.pres!.suffix]}
+    const cambio_participio: CambiosPorRegla = {regla: "regular", temas: [stem], sufijos: [suffixes.past!.suffix]}
+    cambios.gerundio.push(cambio_gerundio)
+    cambios.participio.push(cambio_participio)
     return regular
 }
 
 
-function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivationRules, derivaciones: CambiosDerivacionales): Participios<FormaConjugada[]> | undefined {
+function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivationRules, cambios: CambiosPorParticipios): Participios<FormaConjugada[]> | undefined {
     const reglas_de_modelo = conj_and_deriv_rules.morphological_rules?.de_modelo
     const reglas_de_infinitivo = conj_and_deriv_rules.morphological_rules?.de_infinitivo
     const excepciones_léxicas = reglas_de_infinitivo?.excepciones_léxicas || reglas_de_modelo?.excepciones_léxicas
@@ -55,7 +59,7 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
         const result: Participios<FormaConjugada[]> = {}
         const prefix_rules_applied: Participios<CambiosPorRegla[]> = {}
         if (gerundio) {
-            const regla = (reglas_de_infinitivo?.excepciones_léxicas ? "tema excepcional del infinitivo" : "tema excepcional del modelo")
+            const regla = (reglas_de_infinitivo?.excepciones_léxicas ? "supletivo del infinitivo" : "supletivo del modelo")
             const temas: FormaConjugada[] = []
             const sufijos: FormaConjugada[] = []
             for (const gerundio_forma of gerundio) {
@@ -63,11 +67,11 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
                 temas.push(split_gerundios.tema)
                 sufijos.push(split_gerundios.sufijo)
             }
-            derivaciones.cambios.gerundio.push({regla, temas, sufijos})
+            cambios.gerundio.push({regla, temas, sufijos})
             result.gerundio = addPrefixesToBaseForm(gerundio, prefixes)
             if ( ! formasConjugadasIgual(result.gerundio, excepciones_léxicas.gerundio)) {
                 const temas_prefijados = addPrefixesToBaseForm(temas, prefixes)
-                derivaciones.cambios.gerundio.push({regla: "prefijos de clase conjugacional", temas: temas_prefijados})
+                cambios.gerundio.push({regla: "prefijos de clase conjugacional", temas: temas_prefijados})
             }
         }
         if (participio) {
@@ -79,12 +83,12 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
                 sufijos.push(split_participios.sufijo)
             }
             if (reglas_de_infinitivo?.excepciones_léxicas?.participio) {
-                const regla = "tema excepcional del infinitivo"
-                derivaciones.cambios.participio.push({regla, temas, sufijos})
+                const regla = "supletivo del infinitivo"
+                cambios.participio.push({regla, temas, sufijos})
                 result.participio = reglas_de_infinitivo?.excepciones_léxicas.participio
             } else {
-                const regla = "tema excepcional del modelo"
-                derivaciones.cambios.participio.push({regla, temas, sufijos})
+                const regla = "supletivo del modelo"
+                cambios.participio.push({regla, temas, sufijos})
                 result.participio = addPrefixesToBaseForm(participio, prefixes)
                 if (! formasConjugadasIgual(result.participio, participio)) {
                     const temas_prefijados: FormaConjugada[] = []
@@ -94,20 +98,20 @@ function getParticipiosExcepcionales(conj_and_deriv_rules: ConjugationAndDerivat
                         temas_prefijados.push(split_participios.tema)
                         sufijos_prefijados.push(split_participios.sufijo)
                     }
-                    derivaciones.cambios.participio.push({regla, temas: temas_prefijados, sufijos: sufijos_prefijados})
+                    cambios.participio.push({regla, temas: temas_prefijados, sufijos: sufijos_prefijados})
                 }
             }
         }
         if (Object.keys(prefix_rules_applied).length > 0) {
-            derivaciones.cambios.gerundio.push(...prefix_rules_applied.gerundio)
-            derivaciones.cambios.participio.push(...prefix_rules_applied.participio)
+            cambios.gerundio.push(...prefix_rules_applied.gerundio)
+            cambios.participio.push(...prefix_rules_applied.participio)
         }
         return result
     }
 }
 
 
-function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules, regulares: Participios<FormaConjugada[]>, derivaciones: CambiosDerivacionales): Participios<FormaConjugada[]> {
+function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules, regulares: Participios<FormaConjugada[]>, cambios: CambiosPorParticipios): Participios<FormaConjugada[]> {
     function splitGerund(form: string, verb_family: InfinitiveClass) {
         const len = verb_family === "-ar" ? 4 : 5
         return {
@@ -123,7 +127,6 @@ function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationA
     // const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
     const alternancia = reglas_de_modelo?.alternancia_vocálica || reglas_de_infinitivo?.alternancia_vocálica
     const ponga_hiato = morphological_rules?.de_modelo?.ponga_hiato || morphological_rules?.de_infinitivo?.ponga_hiato
-    const cambios = derivaciones.cambios
     const gerundios_cambiados = applyToFormasConjugadas(regulares.gerundio!, (gerundio) => {
         const split = splitGerund(gerundio, verb_family)
         const gerund_stem = split.gerund_stem
@@ -149,33 +152,33 @@ function getOrthographicChangesForParticiples(conj_and_deriv_rules: ConjugationA
 }
 
 
-function _deriveParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules): {participles: Participios<FormaConjugada[]>, derivaciones: CambiosDerivacionales} {
+function _deriveParticiples(conj_and_deriv_rules: ConjugationAndDerivationRules): {participles: Participios<FormaConjugada[]>, cambios_derivacionales: CambiosDerivacionales} {
     const {infinitivo, modelo, prefixes, morphological_rules} = conj_and_deriv_rules
     const clase_de_conjugación = prefixes?.clase_de_conjugación
     const de_modelo = morphological_rules?.de_modelo
     const de_infinitivo = morphological_rules?.de_infinitivo
     const impersonal = (de_infinitivo ? de_infinitivo.impersonal : de_modelo?.impersonal)
-    const derivaciones: CambiosDerivacionales = {infinitivo, modelo, impersonal, cambios: {gerundio: [], participio: []}}
-    const excepcionales = getParticipiosExcepcionales(conj_and_deriv_rules, derivaciones)
+    const cambios: CambiosPorParticipios = {gerundio: [], participio: []}
+    const cambios_derivacionales: CambiosDerivacionales = {infinitivo, modelo, impersonal, cambios}
+    const excepcionales = getParticipiosExcepcionales(conj_and_deriv_rules, cambios)
     if (excepcionales?.gerundio && excepcionales?.participio) {
-        return {participles: excepcionales, derivaciones}
+        return {participles: excepcionales, cambios_derivacionales}
     }
     // FIX: where are the prefixes applied from clase_de_conjugación?
-    const regulares = getRegularParticiples(conj_and_deriv_rules, derivaciones)
+    const regulares = getRegularParticiples(conj_and_deriv_rules, cambios)
     // FIX: this is returning unchanged forms
-    const ortográficos = getOrthographicChangesForParticiples(conj_and_deriv_rules, regulares, derivaciones)
+    const ortográficos = getOrthographicChangesForParticiples(conj_and_deriv_rules, regulares, cambios)
     const reg_w_ortográficos = combinaParticipios(regulares, ortográficos)
     const final_forms = combinaParticipios(reg_w_ortográficos, excepcionales)
-    return {participles: final_forms, derivaciones}
+    return {participles: final_forms, cambios_derivacionales}
 }
 
 
-export function deriveParticiples(infinitivo: string): {participles: Participios<FormaConjugada[]>, derivaciones: CambiosDerivacionales} | undefined {
-    console.log(`deriveParticiples(${infinitivo})`)
+export function deriveParticiples(infinitivo: string): {participles: Participios<FormaConjugada[]>, cambios_derivacionales: CambiosDerivacionales} | undefined {
     const conj_and_deriv_rules = resolveConjugationClass(infinitivo)
     if (!conj_and_deriv_rules) {
         return undefined
     }
-    let {participles, derivaciones} = _deriveParticiples(conj_and_deriv_rules)
-    return {participles, derivaciones}
+    let {participles, cambios_derivacionales} = _deriveParticiples(conj_and_deriv_rules)
+    return {participles, cambios_derivacionales}
 }

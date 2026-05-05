@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fɾaɣ̞mẽn̪ˈt̪aɾ]",
+    "silabacion": "frag-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fragmentar","gerundio":["fragmentando"],"participio":["fragmentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["fragmento"],"s2":["fragmentas"],"vos":["fragmentás"],"s3":["fragmenta"],"p1":["fragmentamos"],"p2":["fragmentáis"],"p3":["fragmentan"]},
+    "IndImp": {"s1":["fragmentaba"],"s2":["fragmentabas"],"vos":["fragmentabas"],"s3":["fragmentaba"],"p1":["fragmentábamos"],"p2":["fragmentabais"],"p3":["fragmentaban"]},
+    "IndPret": {"s1":["fragmenté"],"s2":["fragmentaste"],"vos":["fragmentaste"],"s3":["fragmentó"],"p1":["fragmentamos"],"p2":["fragmentasteis"],"p3":["fragmentaron"]},
+    "IndFut": {"s1":["fragmentaré"],"s2":["fragmentarás"],"vos":["fragmentarás"],"s3":["fragmentará"],"p1":["fragmentaremos"],"p2":["fragmentaréis"],"p3":["fragmentarán"]},
+    "IndCond": {"s1":["fragmentaría"],"s2":["fragmentarías"],"vos":["fragmentarías"],"s3":["fragmentaría"],"p1":["fragmentaríamos"],"p2":["fragmentaríais"],"p3":["fragmentarían"]},
+    "SubPres": {"s1":["fragmente"],"s2":["fragmentes"],"vos":["fragmentes","fragmentés"],"s3":["fragmente"],"p1":["fragmentemos"],"p2":["fragmentéis"],"p3":["fragmenten"]},
+    "SubImp": {"s1":["fragmentara","fragmentase"],"s2":["fragmentaras","fragmentases"],"vos":["fragmentaras","fragmentases"],"s3":["fragmentara","fragmentase"],"p1":["fragmentáramos","fragmentásemos"],"p2":["fragmentarais","fragmentaseis"],"p3":["fragmentaran","fragmentasen"]},
+    "SubFut": {"s1":["fragmentare"],"s2":["fragmentares"],"vos":["fragmentares"],"s3":["fragmentare"],"p1":["fragmentáremos"],"p2":["fragmentareis"],"p3":["fragmentaren"]},
+    "CmdPos": {"s2":["fragmenta"],"vos":["fragmentá"],"s3":["fragmente"],"p1":["fragmentemos"],"p2":["fragmentad"],"p3":["fragmenten"]}
+  }
+}

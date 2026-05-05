@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[naβ̞eˈɣ̞aɾ]",
+    "silabacion": "na-ve-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín navigare",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"navegar","gerundio":["navegando"],"participio":["navegado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["navego"],"s2":["navegas"],"vos":["navegás"],"s3":["navega"],"p1":["navegamos"],"p2":["navegáis"],"p3":["navegan"]},
+    "IndImp": {"s1":["navegaba"],"s2":["navegabas"],"vos":["navegabas"],"s3":["navegaba"],"p1":["navegábamos"],"p2":["navegabais"],"p3":["navegaban"]},
+    "IndPret": {"s1":["navegué"],"s2":["navegaste"],"vos":["navegaste"],"s3":["navegó"],"p1":["navegamos"],"p2":["navegasteis"],"p3":["navegaron"]},
+    "IndFut": {"s1":["navegaré"],"s2":["navegarás"],"vos":["navegarás"],"s3":["navegará"],"p1":["navegaremos"],"p2":["navegaréis"],"p3":["navegarán"]},
+    "IndCond": {"s1":["navegaría"],"s2":["navegarías"],"vos":["navegarías"],"s3":["navegaría"],"p1":["navegaríamos"],"p2":["navegaríais"],"p3":["navegarían"]},
+    "SubPres": {"s1":["navegue"],"s2":["navegues"],"vos":["navegues","navegués"],"s3":["navegue"],"p1":["naveguemos"],"p2":["naveguéis"],"p3":["naveguen"]},
+    "SubImp": {"s1":["navegara","navegase"],"s2":["navegaras","navegases"],"vos":["navegaras","navegases"],"s3":["navegara","navegase"],"p1":["navegáramos","navegásemos"],"p2":["navegarais","navegaseis"],"p3":["navegaran","navegasen"]},
+    "SubFut": {"s1":["navegare"],"s2":["navegares"],"vos":["navegares"],"s3":["navegare"],"p1":["navegáremos"],"p2":["navegareis"],"p3":["navegaren"]},
+    "CmdPos": {"s2":["navega"],"vos":["navegá"],"s3":["navegue"],"p1":["naveguemos"],"p2":["navegad"],"p3":["naveguen"]}
+  }
+}

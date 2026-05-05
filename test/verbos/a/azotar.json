@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asoˈt̪aɾ]",
+    "silabacion": "a-zo-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De azote y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"azotar","gerundio":["azotando"],"participio":["azotado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["azoto"],"s2":["azotas"],"vos":["azotás"],"s3":["azota"],"p1":["azotamos"],"p2":["azotáis"],"p3":["azotan"]},
+    "IndImp": {"s1":["azotaba"],"s2":["azotabas"],"vos":["azotabas"],"s3":["azotaba"],"p1":["azotábamos"],"p2":["azotabais"],"p3":["azotaban"]},
+    "IndPret": {"s1":["azoté"],"s2":["azotaste"],"vos":["azotaste"],"s3":["azotó"],"p1":["azotamos"],"p2":["azotasteis"],"p3":["azotaron"]},
+    "IndFut": {"s1":["azotaré"],"s2":["azotarás"],"vos":["azotarás"],"s3":["azotará"],"p1":["azotaremos"],"p2":["azotaréis"],"p3":["azotarán"]},
+    "IndCond": {"s1":["azotaría"],"s2":["azotarías"],"vos":["azotarías"],"s3":["azotaría"],"p1":["azotaríamos"],"p2":["azotaríais"],"p3":["azotarían"]},
+    "SubPres": {"s1":["azote"],"s2":["azotes"],"vos":["azotes","azotés"],"s3":["azote"],"p1":["azotemos"],"p2":["azotéis"],"p3":["azoten"]},
+    "SubImp": {"s1":["azotara","azotase"],"s2":["azotaras","azotases"],"vos":["azotaras","azotases"],"s3":["azotara","azotase"],"p1":["azotáramos","azotásemos"],"p2":["azotarais","azotaseis"],"p3":["azotaran","azotasen"]},
+    "SubFut": {"s1":["azotare"],"s2":["azotares"],"vos":["azotares"],"s3":["azotare"],"p1":["azotáremos"],"p2":["azotareis"],"p3":["azotaren"]},
+    "CmdPos": {"s2":["azota"],"vos":["azotá"],"s3":["azote"],"p1":["azotemos"],"p2":["azotad"],"p3":["azoten"]}
+  }
+}

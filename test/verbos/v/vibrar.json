@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[biˈβ̞ɾaɾ]",
+    "silabacion": "vi-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vibrare, del protoindoeuropeo *weip-, *weib-[1]. Compárese el alemán vibrieren, el francés vibrer, el gallego vibrar, el inglés vibrate, el italiano vibrare, el neerlandés vibreren o el rumano vibra",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vibrar","gerundio":["vibrando"],"participio":["vibrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vibro"],"s2":["vibras"],"vos":["vibrás"],"s3":["vibra"],"p1":["vibramos"],"p2":["vibráis"],"p3":["vibran"]},
+    "IndImp": {"s1":["vibraba"],"s2":["vibrabas"],"vos":["vibrabas"],"s3":["vibraba"],"p1":["vibrábamos"],"p2":["vibrabais"],"p3":["vibraban"]},
+    "IndPret": {"s1":["vibré"],"s2":["vibraste"],"vos":["vibraste"],"s3":["vibró"],"p1":["vibramos"],"p2":["vibrasteis"],"p3":["vibraron"]},
+    "IndFut": {"s1":["vibraré"],"s2":["vibrarás"],"vos":["vibrarás"],"s3":["vibrará"],"p1":["vibraremos"],"p2":["vibraréis"],"p3":["vibrarán"]},
+    "IndCond": {"s1":["vibraría"],"s2":["vibrarías"],"vos":["vibrarías"],"s3":["vibraría"],"p1":["vibraríamos"],"p2":["vibraríais"],"p3":["vibrarían"]},
+    "SubPres": {"s1":["vibre"],"s2":["vibres"],"vos":["vibres","vibrés"],"s3":["vibre"],"p1":["vibremos"],"p2":["vibréis"],"p3":["vibren"]},
+    "SubImp": {"s1":["vibrara","vibrase"],"s2":["vibraras","vibrases"],"vos":["vibraras","vibrases"],"s3":["vibrara","vibrase"],"p1":["vibráramos","vibrásemos"],"p2":["vibrarais","vibraseis"],"p3":["vibraran","vibrasen"]},
+    "SubFut": {"s1":["vibrare"],"s2":["vibrares"],"vos":["vibrares"],"s3":["vibrare"],"p1":["vibráremos"],"p2":["vibrareis"],"p3":["vibraren"]},
+    "CmdPos": {"s2":["vibra"],"vos":["vibrá"],"s3":["vibre"],"p1":["vibremos"],"p2":["vibrad"],"p3":["vibren"]}
+  }
+}

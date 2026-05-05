@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suˈpliɾ]",
+    "silabacion": "su-plir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín supplēre,[1] infinitivo presente activo de suppleō (\"llenar\", \"completar\", \"remediar\", \"complementar\").",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"suplir","gerundio":["supliendo"],"participio":["suplido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["suplo"],"s2":["suples"],"vos":["suplís"],"s3":["suple"],"p1":["suplimos"],"p2":["suplís"],"p3":["suplen"]},
+    "IndImp": {"s1":["suplía"],"s2":["suplías"],"vos":["suplías"],"s3":["suplía"],"p1":["suplíamos"],"p2":["suplíais"],"p3":["suplían"]},
+    "IndPret": {"s1":["suplí"],"s2":["supliste"],"vos":["supliste"],"s3":["suplió"],"p1":["suplimos"],"p2":["suplisteis"],"p3":["suplieron"]},
+    "IndFut": {"s1":["supliré"],"s2":["suplirás"],"vos":["suplirás"],"s3":["suplirá"],"p1":["supliremos"],"p2":["supliréis"],"p3":["suplirán"]},
+    "IndCond": {"s1":["supliría"],"s2":["suplirías"],"vos":["suplirías"],"s3":["supliría"],"p1":["supliríamos"],"p2":["supliríais"],"p3":["suplirían"]},
+    "SubPres": {"s1":["supla"],"s2":["suplas"],"vos":["suplas","suplás"],"s3":["supla"],"p1":["suplamos"],"p2":["supláis"],"p3":["suplan"]},
+    "SubImp": {"s1":["supliera","supliese"],"s2":["suplieras","suplieses"],"vos":["suplieras","suplieses"],"s3":["supliera","supliese"],"p1":["supliéramos","supliésemos"],"p2":["suplierais","suplieseis"],"p3":["suplieran","supliesen"]},
+    "SubFut": {"s1":["supliere"],"s2":["suplieres"],"vos":["suplieres"],"s3":["supliere"],"p1":["supliéremos"],"p2":["supliereis"],"p3":["suplieren"]},
+    "CmdPos": {"s2":["suple"],"vos":["suplí"],"s3":["supla"],"p1":["suplamos"],"p2":["suplid"],"p3":["suplan"]}
+  }
+}

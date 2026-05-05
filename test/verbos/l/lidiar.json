@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[liˈð̞jaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín lītigāre.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"lidiar","gerundio":["lidiando"],"participio":["lidiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["lidio"],"s2":["lidias"],"vos":["lidiás"],"s3":["lidia"],"p1":["lidiamos"],"p2":["lidiáis"],"p3":["lidian"]},
+    "IndImp": {"s1":["lidiaba"],"s2":["lidiabas"],"vos":["lidiabas"],"s3":["lidiaba"],"p1":["lidiábamos"],"p2":["lidiabais"],"p3":["lidiaban"]},
+    "IndPret": {"s1":["lidié"],"s2":["lidiaste"],"vos":["lidiaste"],"s3":["lidió"],"p1":["lidiamos"],"p2":["lidiasteis"],"p3":["lidiaron"]},
+    "IndFut": {"s1":["lidiaré"],"s2":["lidiarás"],"vos":["lidiarás"],"s3":["lidiará"],"p1":["lidiaremos"],"p2":["lidiaréis"],"p3":["lidiarán"]},
+    "IndCond": {"s1":["lidiaría"],"s2":["lidiarías"],"vos":["lidiarías"],"s3":["lidiaría"],"p1":["lidiaríamos"],"p2":["lidiaríais"],"p3":["lidiarían"]},
+    "SubPres": {"s1":["lidie"],"s2":["lidies"],"vos":["lidies","lidiés"],"s3":["lidie"],"p1":["lidiemos"],"p2":["lidiéis"],"p3":["lidien"]},
+    "SubImp": {"s1":["lidiara","lidiase"],"s2":["lidiaras","lidiases"],"vos":["lidiaras","lidiases"],"s3":["lidiara","lidiase"],"p1":["lidiáramos","lidiásemos"],"p2":["lidiarais","lidiaseis"],"p3":["lidiaran","lidiasen"]},
+    "SubFut": {"s1":["lidiare"],"s2":["lidiares"],"vos":["lidiares"],"s3":["lidiare"],"p1":["lidiáremos"],"p2":["lidiareis"],"p3":["lidiaren"]},
+    "CmdPos": {"s2":["lidia"],"vos":["lidiá"],"s3":["lidie"],"p1":["lidiemos"],"p2":["lidiad"],"p3":["lidien"]}
+  }
+}

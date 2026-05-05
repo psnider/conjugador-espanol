@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈð̞eɾ]",
+    "silabacion": "ce-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cedĕre ('retirarse'), marcharse.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"ceder","gerundio":["cediendo"],"participio":["cedido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cedo"],"s2":["cedes"],"vos":["cedés"],"s3":["cede"],"p1":["cedemos"],"p2":["cedéis"],"p3":["ceden"]},
+    "IndImp": {"s1":["cedía"],"s2":["cedías"],"vos":["cedías"],"s3":["cedía"],"p1":["cedíamos"],"p2":["cedíais"],"p3":["cedían"]},
+    "IndPret": {"s1":["cedí"],"s2":["cediste"],"vos":["cediste"],"s3":["cedió"],"p1":["cedimos"],"p2":["cedisteis"],"p3":["cedieron"]},
+    "IndFut": {"s1":["cederé"],"s2":["cederás"],"vos":["cederás"],"s3":["cederá"],"p1":["cederemos"],"p2":["cederéis"],"p3":["cederán"]},
+    "IndCond": {"s1":["cedería"],"s2":["cederías"],"vos":["cederías"],"s3":["cedería"],"p1":["cederíamos"],"p2":["cederíais"],"p3":["cederían"]},
+    "SubPres": {"s1":["ceda"],"s2":["cedas"],"vos":["cedas","cedás"],"s3":["ceda"],"p1":["cedamos"],"p2":["cedáis"],"p3":["cedan"]},
+    "SubImp": {"s1":["cediera","cediese"],"s2":["cedieras","cedieses"],"vos":["cedieras","cedieses"],"s3":["cediera","cediese"],"p1":["cediéramos","cediésemos"],"p2":["cedierais","cedieseis"],"p3":["cedieran","cediesen"]},
+    "SubFut": {"s1":["cediere"],"s2":["cedieres"],"vos":["cedieres"],"s3":["cediere"],"p1":["cediéremos"],"p2":["cediereis"],"p3":["cedieren"]},
+    "CmdPos": {"s2":["cede"],"vos":["cedé"],"s3":["ceda"],"p1":["cedamos"],"p2":["ceded"],"p3":["cedan"]}
+  }
+}

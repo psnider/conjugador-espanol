@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[liˈɣ̞aɾ]",
+    "silabacion": "li-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ligō, ligāre (\"atar, ligar, unir\").",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"ligar","gerundio":["ligando"],"participio":["ligado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ligo"],"s2":["ligas"],"vos":["ligás"],"s3":["liga"],"p1":["ligamos"],"p2":["ligáis"],"p3":["ligan"]},
+    "IndImp": {"s1":["ligaba"],"s2":["ligabas"],"vos":["ligabas"],"s3":["ligaba"],"p1":["ligábamos"],"p2":["ligabais"],"p3":["ligaban"]},
+    "IndPret": {"s1":["ligué"],"s2":["ligaste"],"vos":["ligaste"],"s3":["ligó"],"p1":["ligamos"],"p2":["ligasteis"],"p3":["ligaron"]},
+    "IndFut": {"s1":["ligaré"],"s2":["ligarás"],"vos":["ligarás"],"s3":["ligará"],"p1":["ligaremos"],"p2":["ligaréis"],"p3":["ligarán"]},
+    "IndCond": {"s1":["ligaría"],"s2":["ligarías"],"vos":["ligarías"],"s3":["ligaría"],"p1":["ligaríamos"],"p2":["ligaríais"],"p3":["ligarían"]},
+    "SubPres": {"s1":["ligue"],"s2":["ligues"],"vos":["ligues","ligués"],"s3":["ligue"],"p1":["liguemos"],"p2":["liguéis"],"p3":["liguen"]},
+    "SubImp": {"s1":["ligara","ligase"],"s2":["ligaras","ligases"],"vos":["ligaras","ligases"],"s3":["ligara","ligase"],"p1":["ligáramos","ligásemos"],"p2":["ligarais","ligaseis"],"p3":["ligaran","ligasen"]},
+    "SubFut": {"s1":["ligare"],"s2":["ligares"],"vos":["ligares"],"s3":["ligare"],"p1":["ligáremos"],"p2":["ligareis"],"p3":["ligaren"]},
+    "CmdPos": {"s2":["liga"],"vos":["ligá"],"s3":["ligue"],"p1":["liguemos"],"p2":["ligad"],"p3":["liguen"]}
+  }
+}

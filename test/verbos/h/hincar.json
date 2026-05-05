@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋˈkaɾ]",
+    "silabacion": "hin-car",
+    "acentuacion": "aguda",
+    "etimologia": "De fincar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"hincar","gerundio":["hincando"],"participio":["hincado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hinco"],"s2":["hincas"],"vos":["hincás"],"s3":["hinca"],"p1":["hincamos"],"p2":["hincáis"],"p3":["hincan"]},
+    "IndImp": {"s1":["hincaba"],"s2":["hincabas"],"vos":["hincabas"],"s3":["hincaba"],"p1":["hincábamos"],"p2":["hincabais"],"p3":["hincaban"]},
+    "IndPret": {"s1":["hinqué"],"s2":["hincaste"],"vos":["hincaste"],"s3":["hincó"],"p1":["hincamos"],"p2":["hincasteis"],"p3":["hincaron"]},
+    "IndFut": {"s1":["hincaré"],"s2":["hincarás"],"vos":["hincarás"],"s3":["hincará"],"p1":["hincaremos"],"p2":["hincaréis"],"p3":["hincarán"]},
+    "IndCond": {"s1":["hincaría"],"s2":["hincarías"],"vos":["hincarías"],"s3":["hincaría"],"p1":["hincaríamos"],"p2":["hincaríais"],"p3":["hincarían"]},
+    "SubPres": {"s1":["hinque"],"s2":["hinques"],"vos":["hinques","hinqués"],"s3":["hinque"],"p1":["hinquemos"],"p2":["hinquéis"],"p3":["hinquen"]},
+    "SubImp": {"s1":["hincara","hincase"],"s2":["hincaras","hincases"],"vos":["hincaras","hincases"],"s3":["hincara","hincase"],"p1":["hincáramos","hincásemos"],"p2":["hincarais","hincaseis"],"p3":["hincaran","hincasen"]},
+    "SubFut": {"s1":["hincare"],"s2":["hincares"],"vos":["hincares"],"s3":["hincare"],"p1":["hincáremos"],"p2":["hincareis"],"p3":["hincaren"]},
+    "CmdPos": {"s2":["hinca"],"vos":["hincá"],"s3":["hinque"],"p1":["hinquemos"],"p2":["hincad"],"p3":["hinquen"]}
+  }
+}

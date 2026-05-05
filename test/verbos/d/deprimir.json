@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪epɾiˈmiɾ]",
+    "silabacion": "de-pri-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"deprimir","gerundio":["deprimiendo"],"participio":["deprimido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["deprimo"],"s2":["deprimes"],"vos":["deprimís"],"s3":["deprime"],"p1":["deprimimos"],"p2":["deprimís"],"p3":["deprimen"]},
+    "IndImp": {"s1":["deprimía"],"s2":["deprimías"],"vos":["deprimías"],"s3":["deprimía"],"p1":["deprimíamos"],"p2":["deprimíais"],"p3":["deprimían"]},
+    "IndPret": {"s1":["deprimí"],"s2":["deprimiste"],"vos":["deprimiste"],"s3":["deprimió"],"p1":["deprimimos"],"p2":["deprimisteis"],"p3":["deprimieron"]},
+    "IndFut": {"s1":["deprimiré"],"s2":["deprimirás"],"vos":["deprimirás"],"s3":["deprimirá"],"p1":["deprimiremos"],"p2":["deprimiréis"],"p3":["deprimirán"]},
+    "IndCond": {"s1":["deprimiría"],"s2":["deprimirías"],"vos":["deprimirías"],"s3":["deprimiría"],"p1":["deprimiríamos"],"p2":["deprimiríais"],"p3":["deprimirían"]},
+    "SubPres": {"s1":["deprima"],"s2":["deprimas"],"vos":["deprimas","deprimás"],"s3":["deprima"],"p1":["deprimamos"],"p2":["deprimáis"],"p3":["depriman"]},
+    "SubImp": {"s1":["deprimiera","deprimiese"],"s2":["deprimieras","deprimieses"],"vos":["deprimieras","deprimieses"],"s3":["deprimiera","deprimiese"],"p1":["deprimiéramos","deprimiésemos"],"p2":["deprimierais","deprimieseis"],"p3":["deprimieran","deprimiesen"]},
+    "SubFut": {"s1":["deprimiere"],"s2":["deprimieres"],"vos":["deprimieres"],"s3":["deprimiere"],"p1":["deprimiéremos"],"p2":["deprimiereis"],"p3":["deprimieren"]},
+    "CmdPos": {"s2":["deprime"],"vos":["deprimí"],"s3":["deprima"],"p1":["deprimamos"],"p2":["deprimid"],"p3":["depriman"]}
+  }
+}

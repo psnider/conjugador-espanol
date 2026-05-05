@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rejˈnaɾ]",
+    "silabacion": "rei-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín regnare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reinar","gerundio":["reinando"],"participio":["reinado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reino"],"s2":["reinas"],"vos":["reinás"],"s3":["reina"],"p1":["reinamos"],"p2":["reináis"],"p3":["reinan"]},
+    "IndImp": {"s1":["reinaba"],"s2":["reinabas"],"vos":["reinabas"],"s3":["reinaba"],"p1":["reinábamos"],"p2":["reinabais"],"p3":["reinaban"]},
+    "IndPret": {"s1":["reiné"],"s2":["reinaste"],"vos":["reinaste"],"s3":["reinó"],"p1":["reinamos"],"p2":["reinasteis"],"p3":["reinaron"]},
+    "IndFut": {"s1":["reinaré"],"s2":["reinarás"],"vos":["reinarás"],"s3":["reinará"],"p1":["reinaremos"],"p2":["reinaréis"],"p3":["reinarán"]},
+    "IndCond": {"s1":["reinaría"],"s2":["reinarías"],"vos":["reinarías"],"s3":["reinaría"],"p1":["reinaríamos"],"p2":["reinaríais"],"p3":["reinarían"]},
+    "SubPres": {"s1":["reine"],"s2":["reines"],"vos":["reines","reinés"],"s3":["reine"],"p1":["reinemos"],"p2":["reinéis"],"p3":["reinen"]},
+    "SubImp": {"s1":["reinara","reinase"],"s2":["reinaras","reinases"],"vos":["reinaras","reinases"],"s3":["reinara","reinase"],"p1":["reináramos","reinásemos"],"p2":["reinarais","reinaseis"],"p3":["reinaran","reinasen"]},
+    "SubFut": {"s1":["reinare"],"s2":["reinares"],"vos":["reinares"],"s3":["reinare"],"p1":["reináremos"],"p2":["reinareis"],"p3":["reinaren"]},
+    "CmdPos": {"s2":["reina"],"vos":["reiná"],"s3":["reine"],"p1":["reinemos"],"p2":["reinad"],"p3":["reinen"]}
+  }
+}

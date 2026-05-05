@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rasoˈnaɾ]",
+    "silabacion": "ra-zo-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De razón y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"razonar","gerundio":["razonando"],"participio":["razonado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["razono"],"s2":["razonas"],"vos":["razonás"],"s3":["razona"],"p1":["razonamos"],"p2":["razonáis"],"p3":["razonan"]},
+    "IndImp": {"s1":["razonaba"],"s2":["razonabas"],"vos":["razonabas"],"s3":["razonaba"],"p1":["razonábamos"],"p2":["razonabais"],"p3":["razonaban"]},
+    "IndPret": {"s1":["razoné"],"s2":["razonaste"],"vos":["razonaste"],"s3":["razonó"],"p1":["razonamos"],"p2":["razonasteis"],"p3":["razonaron"]},
+    "IndFut": {"s1":["razonaré"],"s2":["razonarás"],"vos":["razonarás"],"s3":["razonará"],"p1":["razonaremos"],"p2":["razonaréis"],"p3":["razonarán"]},
+    "IndCond": {"s1":["razonaría"],"s2":["razonarías"],"vos":["razonarías"],"s3":["razonaría"],"p1":["razonaríamos"],"p2":["razonaríais"],"p3":["razonarían"]},
+    "SubPres": {"s1":["razone"],"s2":["razones"],"vos":["razones","razonés"],"s3":["razone"],"p1":["razonemos"],"p2":["razonéis"],"p3":["razonen"]},
+    "SubImp": {"s1":["razonara","razonase"],"s2":["razonaras","razonases"],"vos":["razonaras","razonases"],"s3":["razonara","razonase"],"p1":["razonáramos","razonásemos"],"p2":["razonarais","razonaseis"],"p3":["razonaran","razonasen"]},
+    "SubFut": {"s1":["razonare"],"s2":["razonares"],"vos":["razonares"],"s3":["razonare"],"p1":["razonáremos"],"p2":["razonareis"],"p3":["razonaren"]},
+    "CmdPos": {"s2":["razona"],"vos":["razoná"],"s3":["razone"],"p1":["razonemos"],"p2":["razonad"],"p3":["razonen"]}
+  }
+}

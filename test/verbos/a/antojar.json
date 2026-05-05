@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãn̪t̪oˈxaɾ]",
+    "silabacion": "an-to-jar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"antojar","gerundio":["antojando"],"participio":["antojado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["antojo"],"s3":["antoja"],"p3":["antojan"]},
+    "IndImp": {"s1":["antojaba"],"s3":["antojaba"],"p3":["antojaban"]},
+    "IndPret": {"s3":["antojó"],"p3":["antojaron"]},
+    "IndFut": {"s3":["antojará"],"p3":["antojarán"]},
+    "IndCond": {"s1":["antojaría"],"s3":["antojaría"],"p3":["antojarían"]},
+    "SubPres": {"s1":["antoje"],"s3":["antoje"],"p3":["antojen"]},
+    "SubImp": {"s1":["antojara","antojase"],"s3":["antojara","antojase"],"p3":["antojaran","antojasen"]},
+    "SubFut": {"s1":["antojare"],"s3":["antojare"],"p3":["antojaren"]},
+    "CmdPos": {"s2":["antoja"],"s3":["antoje"],"p3":["antojen"]}
+  }
+}

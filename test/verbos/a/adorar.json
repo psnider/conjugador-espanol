@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞oˈɾaɾ]",
+    "silabacion": "a-do-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adorāre, ad&nbsp;('a') y orāre&nbsp;('orar').[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adorar","gerundio":["adorando"],"participio":["adorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adoro"],"s2":["adoras"],"vos":["adorás"],"s3":["adora"],"p1":["adoramos"],"p2":["adoráis"],"p3":["adoran"]},
+    "IndImp": {"s1":["adoraba"],"s2":["adorabas"],"vos":["adorabas"],"s3":["adoraba"],"p1":["adorábamos"],"p2":["adorabais"],"p3":["adoraban"]},
+    "IndPret": {"s1":["adoré"],"s2":["adoraste"],"vos":["adoraste"],"s3":["adoró"],"p1":["adoramos"],"p2":["adorasteis"],"p3":["adoraron"]},
+    "IndFut": {"s1":["adoraré"],"s2":["adorarás"],"vos":["adorarás"],"s3":["adorará"],"p1":["adoraremos"],"p2":["adoraréis"],"p3":["adorarán"]},
+    "IndCond": {"s1":["adoraría"],"s2":["adorarías"],"vos":["adorarías"],"s3":["adoraría"],"p1":["adoraríamos"],"p2":["adoraríais"],"p3":["adorarían"]},
+    "SubPres": {"s1":["adore"],"s2":["adores"],"vos":["adores","adorés"],"s3":["adore"],"p1":["adoremos"],"p2":["adoréis"],"p3":["adoren"]},
+    "SubImp": {"s1":["adorara","adorase"],"s2":["adoraras","adorases"],"vos":["adoraras","adorases"],"s3":["adorara","adorase"],"p1":["adoráramos","adorásemos"],"p2":["adorarais","adoraseis"],"p3":["adoraran","adorasen"]},
+    "SubFut": {"s1":["adorare"],"s2":["adorares"],"vos":["adorares"],"s3":["adorare"],"p1":["adoráremos"],"p2":["adorareis"],"p3":["adoraren"]},
+    "CmdPos": {"s2":["adora"],"vos":["adorá"],"s3":["adore"],"p1":["adoremos"],"p2":["adorad"],"p3":["adoren"]}
+  }
+}

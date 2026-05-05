@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eɾiˈβ̞aɾ]",
+    "silabacion": "de-ri-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín derivare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"derivar","gerundio":["derivando"],"participio":["derivado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["derivo"],"s2":["derivas"],"vos":["derivás"],"s3":["deriva"],"p1":["derivamos"],"p2":["deriváis"],"p3":["derivan"]},
+    "IndImp": {"s1":["derivaba"],"s2":["derivabas"],"vos":["derivabas"],"s3":["derivaba"],"p1":["derivábamos"],"p2":["derivabais"],"p3":["derivaban"]},
+    "IndPret": {"s1":["derivé"],"s2":["derivaste"],"vos":["derivaste"],"s3":["derivó"],"p1":["derivamos"],"p2":["derivasteis"],"p3":["derivaron"]},
+    "IndFut": {"s1":["derivaré"],"s2":["derivarás"],"vos":["derivarás"],"s3":["derivará"],"p1":["derivaremos"],"p2":["derivaréis"],"p3":["derivarán"]},
+    "IndCond": {"s1":["derivaría"],"s2":["derivarías"],"vos":["derivarías"],"s3":["derivaría"],"p1":["derivaríamos"],"p2":["derivaríais"],"p3":["derivarían"]},
+    "SubPres": {"s1":["derive"],"s2":["derives"],"vos":["derives","derivés"],"s3":["derive"],"p1":["derivemos"],"p2":["derivéis"],"p3":["deriven"]},
+    "SubImp": {"s1":["derivara","derivase"],"s2":["derivaras","derivases"],"vos":["derivaras","derivases"],"s3":["derivara","derivase"],"p1":["deriváramos","derivásemos"],"p2":["derivarais","derivaseis"],"p3":["derivaran","derivasen"]},
+    "SubFut": {"s1":["derivare"],"s2":["derivares"],"vos":["derivares"],"s3":["derivare"],"p1":["deriváremos"],"p2":["derivareis"],"p3":["derivaren"]},
+    "CmdPos": {"s2":["deriva"],"vos":["derivá"],"s3":["derive"],"p1":["derivemos"],"p2":["derivad"],"p3":["deriven"]}
+  }
+}

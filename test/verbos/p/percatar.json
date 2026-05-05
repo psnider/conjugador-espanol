@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾkaˈt̪aɾ]",
+    "silabacion": "per-ca-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo per- y catar \"(examinar, considerar)\".[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"percatar","gerundio":["percatando"],"participio":["percatado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["percato"],"s2":["percatas"],"vos":["percatás"],"s3":["percata"],"p1":["percatamos"],"p2":["percatáis"],"p3":["percatan"]},
+    "IndImp": {"s1":["percataba"],"s2":["percatabas"],"vos":["percatabas"],"s3":["percataba"],"p1":["percatábamos"],"p2":["percatabais"],"p3":["percataban"]},
+    "IndPret": {"s1":["percaté"],"s2":["percataste"],"vos":["percataste"],"s3":["percató"],"p1":["percatamos"],"p2":["percatasteis"],"p3":["percataron"]},
+    "IndFut": {"s1":["percataré"],"s2":["percatarás"],"vos":["percatarás"],"s3":["percatará"],"p1":["percataremos"],"p2":["percataréis"],"p3":["percatarán"]},
+    "IndCond": {"s1":["percataría"],"s2":["percatarías"],"vos":["percatarías"],"s3":["percataría"],"p1":["percataríamos"],"p2":["percataríais"],"p3":["percatarían"]},
+    "SubPres": {"s1":["percate"],"s2":["percates"],"vos":["percates","percatés"],"s3":["percate"],"p1":["percatemos"],"p2":["percatéis"],"p3":["percaten"]},
+    "SubImp": {"s1":["percatara","percatase"],"s2":["percataras","percatases"],"vos":["percataras","percatases"],"s3":["percatara","percatase"],"p1":["percatáramos","percatásemos"],"p2":["percatarais","percataseis"],"p3":["percataran","percatasen"]},
+    "SubFut": {"s1":["percatare"],"s2":["percatares"],"vos":["percatares"],"s3":["percatare"],"p1":["percatáremos"],"p2":["percatareis"],"p3":["percataren"]},
+    "CmdPos": {"s2":["percata"],"vos":["percatá"],"s3":["percate"],"p1":["percatemos"],"p2":["percatad"],"p3":["percaten"]}
+  }
+}

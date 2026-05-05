@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ispuˈt̪aɾ]",
+    "silabacion": "dis-pu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disputar","gerundio":["disputando"],"participio":["disputado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["disputo"],"s2":["disputas"],"vos":["disputás"],"s3":["disputa"],"p1":["disputamos"],"p2":["disputáis"],"p3":["disputan"]},
+    "IndImp": {"s1":["disputaba"],"s2":["disputabas"],"vos":["disputabas"],"s3":["disputaba"],"p1":["disputábamos"],"p2":["disputabais"],"p3":["disputaban"]},
+    "IndPret": {"s1":["disputé"],"s2":["disputaste"],"vos":["disputaste"],"s3":["disputó"],"p1":["disputamos"],"p2":["disputasteis"],"p3":["disputaron"]},
+    "IndFut": {"s1":["disputaré"],"s2":["disputarás"],"vos":["disputarás"],"s3":["disputará"],"p1":["disputaremos"],"p2":["disputaréis"],"p3":["disputarán"]},
+    "IndCond": {"s1":["disputaría"],"s2":["disputarías"],"vos":["disputarías"],"s3":["disputaría"],"p1":["disputaríamos"],"p2":["disputaríais"],"p3":["disputarían"]},
+    "SubPres": {"s1":["dispute"],"s2":["disputes"],"vos":["disputes","disputés"],"s3":["dispute"],"p1":["disputemos"],"p2":["disputéis"],"p3":["disputen"]},
+    "SubImp": {"s1":["disputara","disputase"],"s2":["disputaras","disputases"],"vos":["disputaras","disputases"],"s3":["disputara","disputase"],"p1":["disputáramos","disputásemos"],"p2":["disputarais","disputaseis"],"p3":["disputaran","disputasen"]},
+    "SubFut": {"s1":["disputare"],"s2":["disputares"],"vos":["disputares"],"s3":["disputare"],"p1":["disputáremos"],"p2":["disputareis"],"p3":["disputaren"]},
+    "CmdPos": {"s2":["disputa"],"vos":["disputá"],"s3":["dispute"],"p1":["disputemos"],"p2":["disputad"],"p3":["disputen"]}
+  }
+}

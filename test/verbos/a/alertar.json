@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aleɾˈt̪aɾ]",
+    "silabacion": "a-ler-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De alerta.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alertar","gerundio":["alertando"],"participio":["alertado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["alerto"],"s2":["alertas"],"vos":["alertás"],"s3":["alerta"],"p1":["alertamos"],"p2":["alertáis"],"p3":["alertan"]},
+    "IndImp": {"s1":["alertaba"],"s2":["alertabas"],"vos":["alertabas"],"s3":["alertaba"],"p1":["alertábamos"],"p2":["alertabais"],"p3":["alertaban"]},
+    "IndPret": {"s1":["alerté"],"s2":["alertaste"],"vos":["alertaste"],"s3":["alertó"],"p1":["alertamos"],"p2":["alertasteis"],"p3":["alertaron"]},
+    "IndFut": {"s1":["alertaré"],"s2":["alertarás"],"vos":["alertarás"],"s3":["alertará"],"p1":["alertaremos"],"p2":["alertaréis"],"p3":["alertarán"]},
+    "IndCond": {"s1":["alertaría"],"s2":["alertarías"],"vos":["alertarías"],"s3":["alertaría"],"p1":["alertaríamos"],"p2":["alertaríais"],"p3":["alertarían"]},
+    "SubPres": {"s1":["alerte"],"s2":["alertes"],"vos":["alertes","alertés"],"s3":["alerte"],"p1":["alertemos"],"p2":["alertéis"],"p3":["alerten"]},
+    "SubImp": {"s1":["alertara","alertase"],"s2":["alertaras","alertases"],"vos":["alertaras","alertases"],"s3":["alertara","alertase"],"p1":["alertáramos","alertásemos"],"p2":["alertarais","alertaseis"],"p3":["alertaran","alertasen"]},
+    "SubFut": {"s1":["alertare"],"s2":["alertares"],"vos":["alertares"],"s3":["alertare"],"p1":["alertáremos"],"p2":["alertareis"],"p3":["alertaren"]},
+    "CmdPos": {"s2":["alerta"],"vos":["alertá"],"s3":["alerte"],"p1":["alertemos"],"p2":["alertad"],"p3":["alerten"]}
+  }
+}

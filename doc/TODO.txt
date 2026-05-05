@@ -1,9 +1,13 @@
 # This release
-- all remaining verbs handled correcctly
-- corrected CmdNeg 
-- acknowledged es.wictionary and the DEM
+Todos los 1,500+ verbos en verbos_con_cambios_morfológicos[] conjugan correctamente.
+Derivan los participios.
+ReglasDeConjugaciónDeVerbo.impersonal controla como conjugan verbos con formas impersonales.
+Conjuga ambos formas del subjuntivo presente, las de Rioplatense y las de Centroamérica.
+
+
 
 # Next release
+- determine the value of the changes combining temas y suffixes p.ej.: 'añade unos sufijos a un tema'
 - add SEO terms
 - give message if user enters non-verb
 - distingua entre conjugación completa y conjugación de <rasgo=modo+tiempo+polaridad>
@@ -12,18 +16,8 @@
 
 # luego
 - abolir no usa todos los tiempos
-    (ojo ! auscultar, autoinfligir)
-  - desvaír
-- PONER ACENTO: romper diptongo implicado por LL
-  - bullir, escabullir, zambullir
-- PONER ACENTO: romper diptongo implicado por EHI, OHI
-  - prohibir, prohijar, rehilar, sobrehilar
-- AÑADIR H ENFRENTE DE DIPTONGO: 
- - desosar
-- E -> IE, CON DIFERENCIAS
-  - discernir, hendir
-- REACENTUACIÓN de 2010:
-  - freír, guiar, piar
+- REACENTUACIÓN de 2010: generalmente
+  - freír, guiar, piar, etc.
 
 - maldecir es una mezcla de reglas...
 - acepta caracteres sin o con acentos como iguales para busquedas
@@ -31,69 +25,7 @@
 - inscribir debe sigue el modelo de escribir?
 - morir no sigue el modelo de dormir correctamente?
 - prever no sigue el modelo de ver correctamente?
-- corregir y simplificar reír, *reír
 - vidriar no sigue el modelo de vaciar correctamente?
-- yacer tiene 3 formas de IndPres,s1
-
-- determine whether acontecer ever has forms other than impersonal, formalize notion of impersonal if not
-
-
-# verbos con dos o más formas
-adecuar          adecuo, adecúo
-aferrar          (🔴 aferre) ✅ aferre , ✅ afierre
-asolar           (🔴 asuelo) ✅ asuelo , ✅ asolo
-cimentar         (🔴 cimiento) ✅ cimiento , ✅ cimento
-corroer          3: corroo o corroigo o corroyo
-describir        dos participios: descrito o descripto	
-desproveer       dos participios: desproveído o desprovisto	
-elevar           en vaias regiones
-erguir           (🔴 yergo) ✅ yergo , ✅ irgo
-errar            (🔴 erro) ✅ yerro , ✅ erro
-estregar         (🔴 estriego) ✅ estriego , ✅ estrego  
-freír            dos participios
-imprimir         dos participios: imprimido o impreso
-proveer          dos participios: proveído o provisto
-resolver         dos participios: resoluto o resuelto	
-sofreír          dos participios: sofreído o sofrito	
-soterrar         (🔴 soterro) ✅ sotierro , ✅ soterro
-torcer           dos participios: torcido o tuerto
-vidriar          dos participios: 
-
-
-- historia de entradas
-
-
-- linguist: the relation of CmdNeg being derived from SubPres is a fixed rule, right? If so, I can move this into code...
-- problemas ortograficos
-- # verbos con otros problemas
-    avergonzar      
-    aguar
-    amortiguar
-    apaciguar
-    atestiguar
-    averiguar
-    degollar
-    desaguar
-    desosar      (🔴 desuese) ✅ deshuese
-    discernir    (🔴 discirnió) ✅ discernió
-    enraizar     (🔴 yenraizo) ✅ enraízo
-    freír        (🔴 frio) ✅ frió
-    gemir        (🔴 gemió) ✅ gimió
-    guiar        (🔴 guie) ✅ guié
-    hendir       (🔴 hindió) ✅ hendió
-    huir         huyes   •   (🔴 huis) ✅ huís
-    intuir       intuyes   •   (🔴 intuis) ✅ intuís
-    morir        (🔴 morió) ✅ murió
-    prever       (🔴 previ) ✅ preví
-    rendir       (🔴 rendió) ✅ rindió
-    rendir       🟢 rendiera , 🟢 rendiese
-    reír         (🔴 rio) ✅ rió
-    resolver     "participio": "resuelto"
-    sofreír      (🔴 sofrio) ✅ sofrió
-    sonreír      (🔴 sonrio) ✅ sonrió
-
-
-
 
 
 # suciedades
@@ -101,7 +33,6 @@ limpiar las reglas para reír (tb. sonreír, freír)
 
 
 # extras
-apoya otras formas de vos, ej: saques, *saqués
 apoya formas antiguas
 apoya formas regionales
 
@@ -109,39 +40,17 @@ apoya formas regionales
 # proposiciones cuestionables para una lingüista
 - alternancia-vocálica.ts:
   // FIX: linguist: vocal_en_sílaba_tónica is implied by the existance of alternancia_vocálica, which is manually applied to verbs in verbos_con_cambios_morfológicas[]
-- conjugate-verb.ts
-                    // FIX: linguist: how to determine where to place the accent
 - ortografía.ts
 // FIX: linguist: are these patterns correct?
 - resolve-conjugation-class.ts
     // FIX: linguist: hacer verbs are a different family from -acer? e.g. "nacer"
     // FIX: linguist: change modelo from "-acer" to "hacer"
-- stem-changes.ts
-    // FIX: linguist
-    // It appears that this regex picks out the "e:ie" verbs: /([bcfhlmnprstv]|qu)e(br|l|mbl|n|nd|ns|nt|nz|r|rd|rn|rr|rt|s|st|v|z)[aei]r$/
-        // FIX: linguist: figure out what this is exactly
-        allowed_transforms: ["i:í"],
 - verbos-con-cambios-morfológicas.ts
-    conducir: {
-        // FIX: linguist: how can this pattern be generalized?
-        tema_pretérito: "conduj",  // pretérito fuerte con -j
-    },
     hacer: {
         excepciones_léxicas: {
             reglas: {
                 // FIX: linguist: should "hizo" be managed with sound preserving transformations?
                 IndPret: { forms: {s3: ["hizo"]} }
-    ir: {
-        excepciones_léxicas: {
-            reglas: {
-                // FIX: linguist: the relation of CmdNeg being derived from SubPres is a fixed rule, right? If so, I can move this into code...
-                CmdNeg:  { tema: "vay" },
-    reír: {
-        // alternancia_vocálica: "i:í",  FIX: linguist: is there a vowel change rule?
-        excepciones_léxicas: {
-            reglas: {
-                // FIX: linguist: are there other reglas I can use?
-                // FIX: must formalize the relationship of CmdPos on SubPres
     reunir: {alternancia_vocálica: "u:ú"},      // FIX: linguist: can this be handled with accentuation rules?
     vaciar: {
         // FIX: linguist: The accent is the only thing different from the regular forms

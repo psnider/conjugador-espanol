@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sĩmpat̪iˈsaɾ]",
+    "silabacion": "sim-pa-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"simpatizar","gerundio":["simpatizando"],"participio":["simpatizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["simpatizo"],"s2":["simpatizas"],"vos":["simpatizás"],"s3":["simpatiza"],"p1":["simpatizamos"],"p2":["simpatizáis"],"p3":["simpatizan"]},
+    "IndImp": {"s1":["simpatizaba"],"s2":["simpatizabas"],"vos":["simpatizabas"],"s3":["simpatizaba"],"p1":["simpatizábamos"],"p2":["simpatizabais"],"p3":["simpatizaban"]},
+    "IndPret": {"s1":["simpaticé"],"s2":["simpatizaste"],"vos":["simpatizaste"],"s3":["simpatizó"],"p1":["simpatizamos"],"p2":["simpatizasteis"],"p3":["simpatizaron"]},
+    "IndFut": {"s1":["simpatizaré"],"s2":["simpatizarás"],"vos":["simpatizarás"],"s3":["simpatizará"],"p1":["simpatizaremos"],"p2":["simpatizaréis"],"p3":["simpatizarán"]},
+    "IndCond": {"s1":["simpatizaría"],"s2":["simpatizarías"],"vos":["simpatizarías"],"s3":["simpatizaría"],"p1":["simpatizaríamos"],"p2":["simpatizaríais"],"p3":["simpatizarían"]},
+    "SubPres": {"s1":["simpatice"],"s2":["simpatices"],"vos":["simpatices","simpaticés"],"s3":["simpatice"],"p1":["simpaticemos"],"p2":["simpaticéis"],"p3":["simpaticen"]},
+    "SubImp": {"s1":["simpatizara","simpatizase"],"s2":["simpatizaras","simpatizases"],"vos":["simpatizaras","simpatizases"],"s3":["simpatizara","simpatizase"],"p1":["simpatizáramos","simpatizásemos"],"p2":["simpatizarais","simpatizaseis"],"p3":["simpatizaran","simpatizasen"]},
+    "SubFut": {"s1":["simpatizare"],"s2":["simpatizares"],"vos":["simpatizares"],"s3":["simpatizare"],"p1":["simpatizáremos"],"p2":["simpatizareis"],"p3":["simpatizaren"]},
+    "CmdPos": {"s2":["simpatiza"],"vos":["simpatizá"],"s3":["simpatice"],"p1":["simpaticemos"],"p2":["simpatizad"],"p3":["simpaticen"]}
+  }
+}

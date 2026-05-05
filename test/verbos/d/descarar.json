@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskaˈɾaɾ]",
+    "silabacion": "des-ca-rar",
+    "acentuacion": "llana",
+    "etimologia": "Del prefijo des-, cara y el sufijo -ar, ",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descarar","gerundio":["descarando"],"participio":["descarado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descaro"],"s2":["descaras"],"vos":["descarás"],"s3":["descara"],"p1":["descaramos"],"p2":["descaráis"],"p3":["descaran"]},
+    "IndImp": {"s1":["descaraba"],"s2":["descarabas"],"vos":["descarabas"],"s3":["descaraba"],"p1":["descarábamos"],"p2":["descarabais"],"p3":["descaraban"]},
+    "IndPret": {"s1":["descaré"],"s2":["descaraste"],"vos":["descaraste"],"s3":["descaró"],"p1":["descaramos"],"p2":["descarasteis"],"p3":["descararon"]},
+    "IndFut": {"s1":["descararé"],"s2":["descararás"],"vos":["descararás"],"s3":["descarará"],"p1":["descararemos"],"p2":["descararéis"],"p3":["descararán"]},
+    "IndCond": {"s1":["descararía"],"s2":["descararías"],"vos":["descararías"],"s3":["descararía"],"p1":["descararíamos"],"p2":["descararíais"],"p3":["descararían"]},
+    "SubPres": {"s1":["descare"],"s2":["descares"],"vos":["descares","descarés"],"s3":["descare"],"p1":["descaremos"],"p2":["descaréis"],"p3":["descaren"]},
+    "SubImp": {"s1":["descarara","descarase"],"s2":["descararas","descarases"],"vos":["descararas","descarases"],"s3":["descarara","descarase"],"p1":["descaráramos","descarásemos"],"p2":["descararais","descaraseis"],"p3":["descararan","descarasen"]},
+    "SubFut": {"s1":["descarare"],"s2":["descarares"],"vos":["descarares"],"s3":["descarare"],"p1":["descaráremos"],"p2":["descarareis"],"p3":["descararen"]},
+    "CmdPos": {"s2":["descara"],"vos":["descará"],"s3":["descare"],"p1":["descaremos"],"p2":["descarad"],"p3":["descaren"]}
+  }
+}

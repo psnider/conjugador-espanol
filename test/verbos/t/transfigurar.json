@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsfiɣ̞uˈɾaɾ]",
+    "silabacion": "trans-fi-gu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín transfigurāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"transfigurar","gerundio":["transfigurando"],"participio":["transfigurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["transfiguro"],"s2":["transfiguras"],"vos":["transfigurás"],"s3":["transfigura"],"p1":["transfiguramos"],"p2":["transfiguráis"],"p3":["transfiguran"]},
+    "IndImp": {"s1":["transfiguraba"],"s2":["transfigurabas"],"vos":["transfigurabas"],"s3":["transfiguraba"],"p1":["transfigurábamos"],"p2":["transfigurabais"],"p3":["transfiguraban"]},
+    "IndPret": {"s1":["transfiguré"],"s2":["transfiguraste"],"vos":["transfiguraste"],"s3":["transfiguró"],"p1":["transfiguramos"],"p2":["transfigurasteis"],"p3":["transfiguraron"]},
+    "IndFut": {"s1":["transfiguraré"],"s2":["transfigurarás"],"vos":["transfigurarás"],"s3":["transfigurará"],"p1":["transfiguraremos"],"p2":["transfiguraréis"],"p3":["transfigurarán"]},
+    "IndCond": {"s1":["transfiguraría"],"s2":["transfigurarías"],"vos":["transfigurarías"],"s3":["transfiguraría"],"p1":["transfiguraríamos"],"p2":["transfiguraríais"],"p3":["transfigurarían"]},
+    "SubPres": {"s1":["transfigure"],"s2":["transfigures"],"vos":["transfigures","transfigurés"],"s3":["transfigure"],"p1":["transfiguremos"],"p2":["transfiguréis"],"p3":["transfiguren"]},
+    "SubImp": {"s1":["transfigurara","transfigurase"],"s2":["transfiguraras","transfigurases"],"vos":["transfiguraras","transfigurases"],"s3":["transfigurara","transfigurase"],"p1":["transfiguráramos","transfigurásemos"],"p2":["transfigurarais","transfiguraseis"],"p3":["transfiguraran","transfigurasen"]},
+    "SubFut": {"s1":["transfigurare"],"s2":["transfigurares"],"vos":["transfigurares"],"s3":["transfigurare"],"p1":["transfiguráremos"],"p2":["transfigurareis"],"p3":["transfiguraren"]},
+    "CmdPos": {"s2":["transfigura"],"vos":["transfigurá"],"s3":["transfigure"],"p1":["transfiguremos"],"p2":["transfigurad"],"p3":["transfiguren"]}
+  }
+}

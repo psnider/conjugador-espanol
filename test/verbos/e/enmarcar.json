@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmmaɾˈkaɾ]",
+    "silabacion": "en-mar-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, marco y el sufijo -ar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"enmarcar","gerundio":["enmarcando"],"participio":["enmarcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enmarco"],"s2":["enmarcas"],"vos":["enmarcás"],"s3":["enmarca"],"p1":["enmarcamos"],"p2":["enmarcáis"],"p3":["enmarcan"]},
+    "IndImp": {"s1":["enmarcaba"],"s2":["enmarcabas"],"vos":["enmarcabas"],"s3":["enmarcaba"],"p1":["enmarcábamos"],"p2":["enmarcabais"],"p3":["enmarcaban"]},
+    "IndPret": {"s1":["enmarqué"],"s2":["enmarcaste"],"vos":["enmarcaste"],"s3":["enmarcó"],"p1":["enmarcamos"],"p2":["enmarcasteis"],"p3":["enmarcaron"]},
+    "IndFut": {"s1":["enmarcaré"],"s2":["enmarcarás"],"vos":["enmarcarás"],"s3":["enmarcará"],"p1":["enmarcaremos"],"p2":["enmarcaréis"],"p3":["enmarcarán"]},
+    "IndCond": {"s1":["enmarcaría"],"s2":["enmarcarías"],"vos":["enmarcarías"],"s3":["enmarcaría"],"p1":["enmarcaríamos"],"p2":["enmarcaríais"],"p3":["enmarcarían"]},
+    "SubPres": {"s1":["enmarque"],"s2":["enmarques"],"vos":["enmarques","enmarqués"],"s3":["enmarque"],"p1":["enmarquemos"],"p2":["enmarquéis"],"p3":["enmarquen"]},
+    "SubImp": {"s1":["enmarcara","enmarcase"],"s2":["enmarcaras","enmarcases"],"vos":["enmarcaras","enmarcases"],"s3":["enmarcara","enmarcase"],"p1":["enmarcáramos","enmarcásemos"],"p2":["enmarcarais","enmarcaseis"],"p3":["enmarcaran","enmarcasen"]},
+    "SubFut": {"s1":["enmarcare"],"s2":["enmarcares"],"vos":["enmarcares"],"s3":["enmarcare"],"p1":["enmarcáremos"],"p2":["enmarcareis"],"p3":["enmarcaren"]},
+    "CmdPos": {"s2":["enmarca"],"vos":["enmarcá"],"s3":["enmarque"],"p1":["enmarquemos"],"p2":["enmarcad"],"p3":["enmarquen"]}
+  }
+}

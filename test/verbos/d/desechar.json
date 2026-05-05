@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eseˈt͡ʃaɾ]",
+    "silabacion": "de-se-char",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín disiectāre ('dispersar')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desechar","gerundio":["desechando"],"participio":["desechado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desecho"],"s2":["desechas"],"vos":["desechás"],"s3":["desecha"],"p1":["desechamos"],"p2":["desecháis"],"p3":["desechan"]},
+    "IndImp": {"s1":["desechaba"],"s2":["desechabas"],"vos":["desechabas"],"s3":["desechaba"],"p1":["desechábamos"],"p2":["desechabais"],"p3":["desechaban"]},
+    "IndPret": {"s1":["deseché"],"s2":["desechaste"],"vos":["desechaste"],"s3":["desechó"],"p1":["desechamos"],"p2":["desechasteis"],"p3":["desecharon"]},
+    "IndFut": {"s1":["desecharé"],"s2":["desecharás"],"vos":["desecharás"],"s3":["desechará"],"p1":["desecharemos"],"p2":["desecharéis"],"p3":["desecharán"]},
+    "IndCond": {"s1":["desecharía"],"s2":["desecharías"],"vos":["desecharías"],"s3":["desecharía"],"p1":["desecharíamos"],"p2":["desecharíais"],"p3":["desecharían"]},
+    "SubPres": {"s1":["deseche"],"s2":["deseches"],"vos":["deseches","desechés"],"s3":["deseche"],"p1":["desechemos"],"p2":["desechéis"],"p3":["desechen"]},
+    "SubImp": {"s1":["desechara","desechase"],"s2":["desecharas","desechases"],"vos":["desecharas","desechases"],"s3":["desechara","desechase"],"p1":["desecháramos","desechásemos"],"p2":["desecharais","desechaseis"],"p3":["desecharan","desechasen"]},
+    "SubFut": {"s1":["desechare"],"s2":["desechares"],"vos":["desechares"],"s3":["desechare"],"p1":["desecháremos"],"p2":["desechareis"],"p3":["desecharen"]},
+    "CmdPos": {"s2":["desecha"],"vos":["desechá"],"s3":["deseche"],"p1":["desechemos"],"p2":["desechad"],"p3":["desechen"]}
+  }
+}

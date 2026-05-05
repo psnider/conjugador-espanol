@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soˈβ̞ɾaɾ]",
+    "silabacion": "so-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín superare[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrar","gerundio":["sobrando"],"participio":["sobrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobro"],"s2":["sobras"],"vos":["sobrás"],"s3":["sobra"],"p1":["sobramos"],"p2":["sobráis"],"p3":["sobran"]},
+    "IndImp": {"s1":["sobraba"],"s2":["sobrabas"],"vos":["sobrabas"],"s3":["sobraba"],"p1":["sobrábamos"],"p2":["sobrabais"],"p3":["sobraban"]},
+    "IndPret": {"s1":["sobré"],"s2":["sobraste"],"vos":["sobraste"],"s3":["sobró"],"p1":["sobramos"],"p2":["sobrasteis"],"p3":["sobraron"]},
+    "IndFut": {"s1":["sobraré"],"s2":["sobrarás"],"vos":["sobrarás"],"s3":["sobrará"],"p1":["sobraremos"],"p2":["sobraréis"],"p3":["sobrarán"]},
+    "IndCond": {"s1":["sobraría"],"s2":["sobrarías"],"vos":["sobrarías"],"s3":["sobraría"],"p1":["sobraríamos"],"p2":["sobraríais"],"p3":["sobrarían"]},
+    "SubPres": {"s1":["sobre"],"s2":["sobres"],"vos":["sobres","sobrés"],"s3":["sobre"],"p1":["sobremos"],"p2":["sobréis"],"p3":["sobren"]},
+    "SubImp": {"s1":["sobrara","sobrase"],"s2":["sobraras","sobrases"],"vos":["sobraras","sobrases"],"s3":["sobrara","sobrase"],"p1":["sobráramos","sobrásemos"],"p2":["sobrarais","sobraseis"],"p3":["sobraran","sobrasen"]},
+    "SubFut": {"s1":["sobrare"],"s2":["sobrares"],"vos":["sobrares"],"s3":["sobrare"],"p1":["sobráremos"],"p2":["sobrareis"],"p3":["sobraren"]},
+    "CmdPos": {"s2":["sobra"],"vos":["sobrá"],"s3":["sobre"],"p1":["sobremos"],"p2":["sobrad"],"p3":["sobren"]}
+  }
+}

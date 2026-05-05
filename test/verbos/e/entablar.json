@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪aˈβ̞laɾ]",
+    "silabacion": "en-ta-blar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, tabla y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entablar","gerundio":["entablando"],"participio":["entablado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entablo"],"s2":["entablas"],"vos":["entablás"],"s3":["entabla"],"p1":["entablamos"],"p2":["entabláis"],"p3":["entablan"]},
+    "IndImp": {"s1":["entablaba"],"s2":["entablabas"],"vos":["entablabas"],"s3":["entablaba"],"p1":["entablábamos"],"p2":["entablabais"],"p3":["entablaban"]},
+    "IndPret": {"s1":["entablé"],"s2":["entablaste"],"vos":["entablaste"],"s3":["entabló"],"p1":["entablamos"],"p2":["entablasteis"],"p3":["entablaron"]},
+    "IndFut": {"s1":["entablaré"],"s2":["entablarás"],"vos":["entablarás"],"s3":["entablará"],"p1":["entablaremos"],"p2":["entablaréis"],"p3":["entablarán"]},
+    "IndCond": {"s1":["entablaría"],"s2":["entablarías"],"vos":["entablarías"],"s3":["entablaría"],"p1":["entablaríamos"],"p2":["entablaríais"],"p3":["entablarían"]},
+    "SubPres": {"s1":["entable"],"s2":["entables"],"vos":["entables","entablés"],"s3":["entable"],"p1":["entablemos"],"p2":["entabléis"],"p3":["entablen"]},
+    "SubImp": {"s1":["entablara","entablase"],"s2":["entablaras","entablases"],"vos":["entablaras","entablases"],"s3":["entablara","entablase"],"p1":["entabláramos","entablásemos"],"p2":["entablarais","entablaseis"],"p3":["entablaran","entablasen"]},
+    "SubFut": {"s1":["entablare"],"s2":["entablares"],"vos":["entablares"],"s3":["entablare"],"p1":["entabláremos"],"p2":["entablareis"],"p3":["entablaren"]},
+    "CmdPos": {"s2":["entabla"],"vos":["entablá"],"s3":["entable"],"p1":["entablemos"],"p2":["entablad"],"p3":["entablen"]}
+  }
+}

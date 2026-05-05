@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sẽn̪t̪eʝeˈaɾ]",
+    "silabacion": "cen-te-lle-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín scintillāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"centellear","gerundio":["centelleando"],"participio":["centelleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["centelleo"],"s2":["centelleas"],"vos":["centelleás"],"s3":["centellea"],"p1":["centelleamos"],"p2":["centelleáis"],"p3":["centellean"]},
+    "IndImp": {"s1":["centelleaba"],"s2":["centelleabas"],"vos":["centelleabas"],"s3":["centelleaba"],"p1":["centelleábamos"],"p2":["centelleabais"],"p3":["centelleaban"]},
+    "IndPret": {"s1":["centelleé"],"s2":["centelleaste"],"vos":["centelleaste"],"s3":["centelleó"],"p1":["centelleamos"],"p2":["centelleasteis"],"p3":["centellearon"]},
+    "IndFut": {"s1":["centellearé"],"s2":["centellearás"],"vos":["centellearás"],"s3":["centelleará"],"p1":["centellearemos"],"p2":["centellearéis"],"p3":["centellearán"]},
+    "IndCond": {"s1":["centellearía"],"s2":["centellearías"],"vos":["centellearías"],"s3":["centellearía"],"p1":["centellearíamos"],"p2":["centellearíais"],"p3":["centellearían"]},
+    "SubPres": {"s1":["centellee"],"s2":["centellees"],"vos":["centellees","centelleés"],"s3":["centellee"],"p1":["centelleemos"],"p2":["centelleéis"],"p3":["centelleen"]},
+    "SubImp": {"s1":["centelleara","centellease"],"s2":["centellearas","centelleases"],"vos":["centellearas","centelleases"],"s3":["centelleara","centellease"],"p1":["centelleáramos","centelleásemos"],"p2":["centellearais","centelleaseis"],"p3":["centellearan","centelleasen"]},
+    "SubFut": {"s1":["centelleare"],"s2":["centelleares"],"vos":["centelleares"],"s3":["centelleare"],"p1":["centelleáremos"],"p2":["centelleareis"],"p3":["centellearen"]},
+    "CmdPos": {"s2":["centellea"],"vos":["centelleá"],"s3":["centellee"],"p1":["centelleemos"],"p2":["centellead"],"p3":["centelleen"]}
+  }
+}

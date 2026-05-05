@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akost̪ũmˈbɾaɾ]",
+    "silabacion": "a-cos-tum-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, costumbre y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acostumbrar","gerundio":["acostumbrando"],"participio":["acostumbrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acostumbro"],"s2":["acostumbras"],"vos":["acostumbrás"],"s3":["acostumbra"],"p1":["acostumbramos"],"p2":["acostumbráis"],"p3":["acostumbran"]},
+    "IndImp": {"s1":["acostumbraba"],"s2":["acostumbrabas"],"vos":["acostumbrabas"],"s3":["acostumbraba"],"p1":["acostumbrábamos"],"p2":["acostumbrabais"],"p3":["acostumbraban"]},
+    "IndPret": {"s1":["acostumbré"],"s2":["acostumbraste"],"vos":["acostumbraste"],"s3":["acostumbró"],"p1":["acostumbramos"],"p2":["acostumbrasteis"],"p3":["acostumbraron"]},
+    "IndFut": {"s1":["acostumbraré"],"s2":["acostumbrarás"],"vos":["acostumbrarás"],"s3":["acostumbrará"],"p1":["acostumbraremos"],"p2":["acostumbraréis"],"p3":["acostumbrarán"]},
+    "IndCond": {"s1":["acostumbraría"],"s2":["acostumbrarías"],"vos":["acostumbrarías"],"s3":["acostumbraría"],"p1":["acostumbraríamos"],"p2":["acostumbraríais"],"p3":["acostumbrarían"]},
+    "SubPres": {"s1":["acostumbre"],"s2":["acostumbres"],"vos":["acostumbres","acostumbrés"],"s3":["acostumbre"],"p1":["acostumbremos"],"p2":["acostumbréis"],"p3":["acostumbren"]},
+    "SubImp": {"s1":["acostumbrara","acostumbrase"],"s2":["acostumbraras","acostumbrases"],"vos":["acostumbraras","acostumbrases"],"s3":["acostumbrara","acostumbrase"],"p1":["acostumbráramos","acostumbrásemos"],"p2":["acostumbrarais","acostumbraseis"],"p3":["acostumbraran","acostumbrasen"]},
+    "SubFut": {"s1":["acostumbrare"],"s2":["acostumbrares"],"vos":["acostumbrares"],"s3":["acostumbrare"],"p1":["acostumbráremos"],"p2":["acostumbrareis"],"p3":["acostumbraren"]},
+    "CmdPos": {"s2":["acostumbra"],"vos":["acostumbrá"],"s3":["acostumbre"],"p1":["acostumbremos"],"p2":["acostumbrad"],"p3":["acostumbren"]}
+  }
+}

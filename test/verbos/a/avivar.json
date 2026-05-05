@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞iˈβ̞aɾ]",
+    "silabacion": "a-vi-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, vivo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"avivar","gerundio":["avivando"],"participio":["avivado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["avivo"],"s2":["avivas"],"vos":["avivás"],"s3":["aviva"],"p1":["avivamos"],"p2":["aviváis"],"p3":["avivan"]},
+    "IndImp": {"s1":["avivaba"],"s2":["avivabas"],"vos":["avivabas"],"s3":["avivaba"],"p1":["avivábamos"],"p2":["avivabais"],"p3":["avivaban"]},
+    "IndPret": {"s1":["avivé"],"s2":["avivaste"],"vos":["avivaste"],"s3":["avivó"],"p1":["avivamos"],"p2":["avivasteis"],"p3":["avivaron"]},
+    "IndFut": {"s1":["avivaré"],"s2":["avivarás"],"vos":["avivarás"],"s3":["avivará"],"p1":["avivaremos"],"p2":["avivaréis"],"p3":["avivarán"]},
+    "IndCond": {"s1":["avivaría"],"s2":["avivarías"],"vos":["avivarías"],"s3":["avivaría"],"p1":["avivaríamos"],"p2":["avivaríais"],"p3":["avivarían"]},
+    "SubPres": {"s1":["avive"],"s2":["avives"],"vos":["avives","avivés"],"s3":["avive"],"p1":["avivemos"],"p2":["avivéis"],"p3":["aviven"]},
+    "SubImp": {"s1":["avivara","avivase"],"s2":["avivaras","avivases"],"vos":["avivaras","avivases"],"s3":["avivara","avivase"],"p1":["aviváramos","avivásemos"],"p2":["avivarais","avivaseis"],"p3":["avivaran","avivasen"]},
+    "SubFut": {"s1":["avivare"],"s2":["avivares"],"vos":["avivares"],"s3":["avivare"],"p1":["aviváremos"],"p2":["avivareis"],"p3":["avivaren"]},
+    "CmdPos": {"s2":["aviva"],"vos":["avivá"],"s3":["avive"],"p1":["avivemos"],"p2":["avivad"],"p3":["aviven"]}
+  }
+}

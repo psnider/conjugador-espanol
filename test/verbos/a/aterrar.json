@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪eˈraɾ]",
+    "silabacion": "a-te-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, tierra (del latín terra) y el sufijo -ar.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"aterrar","gerundio":["aterrando"],"participio":["aterrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atierro"],"s2":["atierras"],"vos":["aterrás"],"s3":["atierra"],"p1":["aterramos"],"p2":["aterráis"],"p3":["atierran"]},
+    "IndImp": {"s1":["aterraba"],"s2":["aterrabas"],"vos":["aterrabas"],"s3":["aterraba"],"p1":["aterrábamos"],"p2":["aterrabais"],"p3":["aterraban"]},
+    "IndPret": {"s1":["aterré"],"s2":["aterraste"],"vos":["aterraste"],"s3":["aterró"],"p1":["aterramos"],"p2":["aterrasteis"],"p3":["aterraron"]},
+    "IndFut": {"s1":["aterraré"],"s2":["aterrarás"],"vos":["aterrarás"],"s3":["aterrará"],"p1":["aterraremos"],"p2":["aterraréis"],"p3":["aterrarán"]},
+    "IndCond": {"s1":["aterraría"],"s2":["aterrarías"],"vos":["aterrarías"],"s3":["aterraría"],"p1":["aterraríamos"],"p2":["aterraríais"],"p3":["aterrarían"]},
+    "SubPres": {"s1":["atierre"],"s2":["atierres"],"vos":["atierres","aterrés"],"s3":["atierre"],"p1":["aterremos"],"p2":["aterréis"],"p3":["atierren"]},
+    "SubImp": {"s1":["aterrara","aterrase"],"s2":["aterraras","aterrases"],"vos":["aterraras","aterrases"],"s3":["aterrara","aterrase"],"p1":["aterráramos","aterrásemos"],"p2":["aterrarais","aterraseis"],"p3":["aterraran","aterrasen"]},
+    "SubFut": {"s1":["aterrare"],"s2":["aterrares"],"vos":["aterrares"],"s3":["aterrare"],"p1":["aterráremos"],"p2":["aterrareis"],"p3":["aterraren"]},
+    "CmdPos": {"s2":["atierra"],"vos":["aterrá"],"s3":["atierre"],"p1":["aterremos"],"p2":["aterrad"],"p3":["atierren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾð̞eˈnaɾ]",
+    "silabacion": "or-de-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ordenar","gerundio":["ordenando"],"participio":["ordenado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ordeno"],"s2":["ordenas"],"vos":["ordenás"],"s3":["ordena"],"p1":["ordenamos"],"p2":["ordenáis"],"p3":["ordenan"]},
+    "IndImp": {"s1":["ordenaba"],"s2":["ordenabas"],"vos":["ordenabas"],"s3":["ordenaba"],"p1":["ordenábamos"],"p2":["ordenabais"],"p3":["ordenaban"]},
+    "IndPret": {"s1":["ordené"],"s2":["ordenaste"],"vos":["ordenaste"],"s3":["ordenó"],"p1":["ordenamos"],"p2":["ordenasteis"],"p3":["ordenaron"]},
+    "IndFut": {"s1":["ordenaré"],"s2":["ordenarás"],"vos":["ordenarás"],"s3":["ordenará"],"p1":["ordenaremos"],"p2":["ordenaréis"],"p3":["ordenarán"]},
+    "IndCond": {"s1":["ordenaría"],"s2":["ordenarías"],"vos":["ordenarías"],"s3":["ordenaría"],"p1":["ordenaríamos"],"p2":["ordenaríais"],"p3":["ordenarían"]},
+    "SubPres": {"s1":["ordene"],"s2":["ordenes"],"vos":["ordenes","ordenés"],"s3":["ordene"],"p1":["ordenemos"],"p2":["ordenéis"],"p3":["ordenen"]},
+    "SubImp": {"s1":["ordenara","ordenase"],"s2":["ordenaras","ordenases"],"vos":["ordenaras","ordenases"],"s3":["ordenara","ordenase"],"p1":["ordenáramos","ordenásemos"],"p2":["ordenarais","ordenaseis"],"p3":["ordenaran","ordenasen"]},
+    "SubFut": {"s1":["ordenare"],"s2":["ordenares"],"vos":["ordenares"],"s3":["ordenare"],"p1":["ordenáremos"],"p2":["ordenareis"],"p3":["ordenaren"]},
+    "CmdPos": {"s2":["ordena"],"vos":["ordená"],"s3":["ordene"],"p1":["ordenemos"],"p2":["ordenad"],"p3":["ordenen"]}
+  }
+}

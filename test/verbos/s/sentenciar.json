@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sẽn̪t̪ẽnˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"sentenciar","gerundio":["sentenciando"],"participio":["sentenciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sentencio"],"s2":["sentencias"],"vos":["sentenciás"],"s3":["sentencia"],"p1":["sentenciamos"],"p2":["sentenciáis"],"p3":["sentencian"]},
+    "IndImp": {"s1":["sentenciaba"],"s2":["sentenciabas"],"vos":["sentenciabas"],"s3":["sentenciaba"],"p1":["sentenciábamos"],"p2":["sentenciabais"],"p3":["sentenciaban"]},
+    "IndPret": {"s1":["sentencié"],"s2":["sentenciaste"],"vos":["sentenciaste"],"s3":["sentenció"],"p1":["sentenciamos"],"p2":["sentenciasteis"],"p3":["sentenciaron"]},
+    "IndFut": {"s1":["sentenciaré"],"s2":["sentenciarás"],"vos":["sentenciarás"],"s3":["sentenciará"],"p1":["sentenciaremos"],"p2":["sentenciaréis"],"p3":["sentenciarán"]},
+    "IndCond": {"s1":["sentenciaría"],"s2":["sentenciarías"],"vos":["sentenciarías"],"s3":["sentenciaría"],"p1":["sentenciaríamos"],"p2":["sentenciaríais"],"p3":["sentenciarían"]},
+    "SubPres": {"s1":["sentencie"],"s2":["sentencies"],"vos":["sentencies","sentenciés"],"s3":["sentencie"],"p1":["sentenciemos"],"p2":["sentenciéis"],"p3":["sentencien"]},
+    "SubImp": {"s1":["sentenciara","sentenciase"],"s2":["sentenciaras","sentenciases"],"vos":["sentenciaras","sentenciases"],"s3":["sentenciara","sentenciase"],"p1":["sentenciáramos","sentenciásemos"],"p2":["sentenciarais","sentenciaseis"],"p3":["sentenciaran","sentenciasen"]},
+    "SubFut": {"s1":["sentenciare"],"s2":["sentenciares"],"vos":["sentenciares"],"s3":["sentenciare"],"p1":["sentenciáremos"],"p2":["sentenciareis"],"p3":["sentenciaren"]},
+    "CmdPos": {"s2":["sentencia"],"vos":["sentenciá"],"s3":["sentencie"],"p1":["sentenciemos"],"p2":["sentenciad"],"p3":["sentencien"]}
+  }
+}

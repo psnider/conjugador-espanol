@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmbẽnˈseɾ]",
+    "silabacion": "con-ven-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín convincere",
+    "modelos": ["vencer"]
+  },
+  "formas_no_personales": {"infinitivo":"convencer","gerundio":["convenciendo"],"participio":["convencido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["convenzo"],"s2":["convences"],"vos":["convencés"],"s3":["convence"],"p1":["convencemos"],"p2":["convencéis"],"p3":["convencen"]},
+    "IndImp": {"s1":["convencía"],"s2":["convencías"],"vos":["convencías"],"s3":["convencía"],"p1":["convencíamos"],"p2":["convencíais"],"p3":["convencían"]},
+    "IndPret": {"s1":["convencí"],"s2":["convenciste"],"vos":["convenciste"],"s3":["convenció"],"p1":["convencimos"],"p2":["convencisteis"],"p3":["convencieron"]},
+    "IndFut": {"s1":["convenceré"],"s2":["convencerás"],"vos":["convencerás"],"s3":["convencerá"],"p1":["convenceremos"],"p2":["convenceréis"],"p3":["convencerán"]},
+    "IndCond": {"s1":["convencería"],"s2":["convencerías"],"vos":["convencerías"],"s3":["convencería"],"p1":["convenceríamos"],"p2":["convenceríais"],"p3":["convencerían"]},
+    "SubPres": {"s1":["convenza"],"s2":["convenzas"],"vos":["convenzas","convenzás"],"s3":["convenza"],"p1":["convenzamos"],"p2":["convenzáis"],"p3":["convenzan"]},
+    "SubImp": {"s1":["convenciera","convenciese"],"s2":["convencieras","convencieses"],"vos":["convencieras","convencieses"],"s3":["convenciera","convenciese"],"p1":["convenciéramos","convenciésemos"],"p2":["convencierais","convencieseis"],"p3":["convencieran","convenciesen"]},
+    "SubFut": {"s1":["convenciere"],"s2":["convencieres"],"vos":["convencieres"],"s3":["convenciere"],"p1":["convenciéremos"],"p2":["convenciereis"],"p3":["convencieren"]},
+    "CmdPos": {"s2":["convence"],"vos":["convencé"],"s3":["convenza"],"p1":["convenzamos"],"p2":["convenced"],"p3":["convenzan"]}
+  }
+}

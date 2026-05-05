@@ -1,6 +1,7 @@
 import { VerbAspectRules } from "./regular-verb-rules.js"
 import { ModeloConjugacional, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
 import { PrefijosDeClaseConjugacional } from "./resolve-conjugation-class.js"
+import { OrthographicalChangeRuleName } from "./ortografía.js"
 
 type MoodTense = "IndPres" | "IndImp" | "IndPret" | "IndFut" | "IndCond" | "SubPres"  | "SubImp"  | "SubFut" | "CmdPos" | "CmdNeg" 
 type ConjugationOrDerivation = MoodTense | "Participles"
@@ -126,8 +127,8 @@ interface VerbConjugationAnnotation {
     modelo: ModeloConjugacional
     defectos?: Defectos
     // The non regular rules applied to this verb
-    cambios_conjugacional_primaria?: CambiosConjugacional
-    cambios_conjugacional_secundaria?: CambiosConjugacional
+    cambios_conjugacional_primaria?: CambiosConjugacionales
+    cambios_conjugacional_secundaria?: CambiosConjugacionales
     ok?: 0 | 1
     version: string
     license: string
@@ -206,53 +207,32 @@ export type StemChangeFamily =  "e:i" | "e:í" | "e:ie" | "e:ie (cernir)" | "i:i
 // It should not be used generally.
 // The special form of "e:" indicates that the "e" should be replaced with nothing, that is, it should be eliminated.
 export type StemChangeRuleId = "no change" | "e:" | "e:i" | "e:í" | "e:ie" | "i:í" | "i:ie" | "o:u" | "o:ue" | "u:ú" | "u:ue"
-// type SuffixChangeType = "eer"
-
-
-// // Las reglas que producen los cambios que diferen de las formas regulares.
-// export interface VerbRulesAppliedOptions {
-//     // En caso de "impersonal", el cambio es la eliminación de formas.
-//     // Entonces cuando este parece, significa la remoción de formas de la conjugación
-//     impersonal?: MoodTense | GrammaticalPerson[]
-//     ancestor_rule_sets?: VerbAspectRules[]
-//     suffixes?: VerbConjugation
-//     stems?: VerbConjugation
-//     lexical_exceptions_stems?: VerbConjugation
-//     lexical_exceptions_suffixes?: VerbConjugation
-//     combined_stems_w_suffixes?: VerbConjugation
-//     orthography?: VerbConjugation
-//     suplicaciones?: VerbConjugation
-//     imperativo_tú?: VerbConjugation
-//     maintain_stressed_last_sylable?: VerbConjugation
-//     prefijos_clase_conjugacional?: VerbConjugation
-//     prefijos_productivos_y_no?: VerbConjugation
-// }
 
 
 // Estos reglas deben ser legible por usuarios.
-type CambioOrtografico = OrthographicalChangeRuleName | "prefijos de clase conjugacional"
+type CambioOrtografico = OrthographicalChangeRuleName | "prefijos de clase conjugacional" | "rompe diptongo 'ue' con 'h'"
 type CambioEstrés = "estrese última vocal del tema" | "estrese tema 1.ª persona plural" | "elimina el estrese del tema" | "elimina el estrese del sufijo"
-type CambioAlternanciaVocálica = "e → ∅" | "e  → i" | "e  → í" | "e → ie" | "i → í" | "i → ie" | "o → u" | "o → ue" | "u → ú" | "u → ue"
+// type CambioAlternanciaVocálica = "e → ∅" | "e → i" | "e → í" | "e → ie" | "i → í" | "i → ie" | "o → u" | "o → ue" | "u → ú" | "u → ue"
 // Note: nombres de reglas que pueden ser del modelo o del infinitivo deben seguir el formato: tipo_de_cambio + "del" + "modelo|infinitivo"
-type CambioProductivo = "regular" | "excepcional"
+type CambioProductivo = "regular"
                     | "tema excepcional del modelo" | "tema excepcional del infinitivo"
                     | "tema futuro excepcional" 
                     | "tema presente yo" | "imperativo tú"
                     | "tema pretérito excepcional" | "tema pretérito 3.ª persona plural"
                     | "tema con alternancia vocálica"
-                    | "tema suplicativo"
-                    | "suplicativo del modelo" | "suplicativo del infinitivo"
-                    | "sufjio excepcional del modelo" | "sufjio excepcional del infinitivo"
+                    | "tema supletivo"
+                    | "supletivo del modelo" | "supletivo del infinitivo"
+                    | "sufjio de persente yo" | "sufjio de pretérito fuerte" | "sufjio excepcional del modelo" | "sufjio excepcional del infinitivo"
                     | "añade un sufijo a unos temas" | "añade unos sufijos a un tema" | "añade correspondiente 2 sufijos a 2 temas" | "multiplica 2 sufijos por 2 temas"
-                    | "elimina diferencias de vos" | "elimina formas personales"
+                    | "supleción, elimina diferencias de vos" | "elimina formas personales"
 
 // Estos reglas deben ser legible por usuarios.
-type ReglaConjugacional =  CambioOrtografico | CambioEstrés | CambioAlternanciaVocálica | CambioProductivo
+type ReglaConjugacional =  CambioOrtografico | CambioEstrés | StemChangeRuleId | CambioProductivo
 
 
 
 // FIX: while populating this data, verify that added forms differ from the immediately preceding forms 
-// Tiene tema o sufijo, o ambos en caso de un suplicativo.
+// Tiene tema o sufijo, o ambos en caso de un supletivo.
 // Estos corresponden con las formas del conjugación.
 // p.ej.: si hay dos formas, como por "amar",SubImp,s1: "amara" , "amase", 
 //   debe ser dos entradas aquí por sufijos:

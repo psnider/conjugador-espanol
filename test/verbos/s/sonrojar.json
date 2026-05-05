@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sõnroˈxaɾ]",
+    "silabacion": "son-ro-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo son-, rojo y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sonrojar","gerundio":["sonrojando"],"participio":["sonrojado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sonrojo"],"s2":["sonrojas"],"vos":["sonrojás"],"s3":["sonroja"],"p1":["sonrojamos"],"p2":["sonrojáis"],"p3":["sonrojan"]},
+    "IndImp": {"s1":["sonrojaba"],"s2":["sonrojabas"],"vos":["sonrojabas"],"s3":["sonrojaba"],"p1":["sonrojábamos"],"p2":["sonrojabais"],"p3":["sonrojaban"]},
+    "IndPret": {"s1":["sonrojé"],"s2":["sonrojaste"],"vos":["sonrojaste"],"s3":["sonrojó"],"p1":["sonrojamos"],"p2":["sonrojasteis"],"p3":["sonrojaron"]},
+    "IndFut": {"s1":["sonrojaré"],"s2":["sonrojarás"],"vos":["sonrojarás"],"s3":["sonrojará"],"p1":["sonrojaremos"],"p2":["sonrojaréis"],"p3":["sonrojarán"]},
+    "IndCond": {"s1":["sonrojaría"],"s2":["sonrojarías"],"vos":["sonrojarías"],"s3":["sonrojaría"],"p1":["sonrojaríamos"],"p2":["sonrojaríais"],"p3":["sonrojarían"]},
+    "SubPres": {"s1":["sonroje"],"s2":["sonrojes"],"vos":["sonrojes","sonrojés"],"s3":["sonroje"],"p1":["sonrojemos"],"p2":["sonrojéis"],"p3":["sonrojen"]},
+    "SubImp": {"s1":["sonrojara","sonrojase"],"s2":["sonrojaras","sonrojases"],"vos":["sonrojaras","sonrojases"],"s3":["sonrojara","sonrojase"],"p1":["sonrojáramos","sonrojásemos"],"p2":["sonrojarais","sonrojaseis"],"p3":["sonrojaran","sonrojasen"]},
+    "SubFut": {"s1":["sonrojare"],"s2":["sonrojares"],"vos":["sonrojares"],"s3":["sonrojare"],"p1":["sonrojáremos"],"p2":["sonrojareis"],"p3":["sonrojaren"]},
+    "CmdPos": {"s2":["sonroja"],"vos":["sonrojá"],"s3":["sonroje"],"p1":["sonrojemos"],"p2":["sonrojad"],"p3":["sonrojen"]}
+  }
+}

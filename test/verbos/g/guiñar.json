@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[giˈɲaɾ]",
+    "silabacion": "gui-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "De origen incierto. Voz expresiva del románico occidental, posiblemente del bajo latín cinnus con influencia de ceño.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"guiñar","gerundio":["guiñando"],"participio":["guiñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["guiño"],"s2":["guiñas"],"vos":["guiñás"],"s3":["guiña"],"p1":["guiñamos"],"p2":["guiñáis"],"p3":["guiñan"]},
+    "IndImp": {"s1":["guiñaba"],"s2":["guiñabas"],"vos":["guiñabas"],"s3":["guiñaba"],"p1":["guiñábamos"],"p2":["guiñabais"],"p3":["guiñaban"]},
+    "IndPret": {"s1":["guiñé"],"s2":["guiñaste"],"vos":["guiñaste"],"s3":["guiñó"],"p1":["guiñamos"],"p2":["guiñasteis"],"p3":["guiñaron"]},
+    "IndFut": {"s1":["guiñaré"],"s2":["guiñarás"],"vos":["guiñarás"],"s3":["guiñará"],"p1":["guiñaremos"],"p2":["guiñaréis"],"p3":["guiñarán"]},
+    "IndCond": {"s1":["guiñaría"],"s2":["guiñarías"],"vos":["guiñarías"],"s3":["guiñaría"],"p1":["guiñaríamos"],"p2":["guiñaríais"],"p3":["guiñarían"]},
+    "SubPres": {"s1":["guiñe"],"s2":["guiñes"],"vos":["guiñes","guiñés"],"s3":["guiñe"],"p1":["guiñemos"],"p2":["guiñéis"],"p3":["guiñen"]},
+    "SubImp": {"s1":["guiñara","guiñase"],"s2":["guiñaras","guiñases"],"vos":["guiñaras","guiñases"],"s3":["guiñara","guiñase"],"p1":["guiñáramos","guiñásemos"],"p2":["guiñarais","guiñaseis"],"p3":["guiñaran","guiñasen"]},
+    "SubFut": {"s1":["guiñare"],"s2":["guiñares"],"vos":["guiñares"],"s3":["guiñare"],"p1":["guiñáremos"],"p2":["guiñareis"],"p3":["guiñaren"]},
+    "CmdPos": {"s2":["guiña"],"vos":["guiñá"],"s3":["guiñe"],"p1":["guiñemos"],"p2":["guiñad"],"p3":["guiñen"]}
+  }
+}

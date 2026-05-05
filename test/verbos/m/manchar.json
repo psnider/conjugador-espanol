@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mãnʲˈt͡ʃaɾ]",
+    "silabacion": "man-char",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"manchar","gerundio":["manchando"],"participio":["manchado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mancho"],"s2":["manchas"],"vos":["manchás"],"s3":["mancha"],"p1":["manchamos"],"p2":["mancháis"],"p3":["manchan"]},
+    "IndImp": {"s1":["manchaba"],"s2":["manchabas"],"vos":["manchabas"],"s3":["manchaba"],"p1":["manchábamos"],"p2":["manchabais"],"p3":["manchaban"]},
+    "IndPret": {"s1":["manché"],"s2":["manchaste"],"vos":["manchaste"],"s3":["manchó"],"p1":["manchamos"],"p2":["manchasteis"],"p3":["mancharon"]},
+    "IndFut": {"s1":["mancharé"],"s2":["mancharás"],"vos":["mancharás"],"s3":["manchará"],"p1":["mancharemos"],"p2":["mancharéis"],"p3":["mancharán"]},
+    "IndCond": {"s1":["mancharía"],"s2":["mancharías"],"vos":["mancharías"],"s3":["mancharía"],"p1":["mancharíamos"],"p2":["mancharíais"],"p3":["mancharían"]},
+    "SubPres": {"s1":["manche"],"s2":["manches"],"vos":["manches","manchés"],"s3":["manche"],"p1":["manchemos"],"p2":["manchéis"],"p3":["manchen"]},
+    "SubImp": {"s1":["manchara","manchase"],"s2":["mancharas","manchases"],"vos":["mancharas","manchases"],"s3":["manchara","manchase"],"p1":["mancháramos","manchásemos"],"p2":["mancharais","manchaseis"],"p3":["mancharan","manchasen"]},
+    "SubFut": {"s1":["manchare"],"s2":["manchares"],"vos":["manchares"],"s3":["manchare"],"p1":["mancháremos"],"p2":["manchareis"],"p3":["mancharen"]},
+    "CmdPos": {"s2":["mancha"],"vos":["manchá"],"s3":["manche"],"p1":["manchemos"],"p2":["manchad"],"p3":["manchen"]}
+  }
+}

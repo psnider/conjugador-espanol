@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[relasjoˈnaɾ]",
+    "silabacion": "re-la-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín relationem ('relación'), de relatus, participio pasivo perfecto de referre&nbsp;('referir'), compuesto de re-&nbsp;('de nuevo') y ferre (“llevar, reportar”)",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"relacionar","gerundio":["relacionando"],"participio":["relacionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["relaciono"],"s2":["relacionas"],"vos":["relacionás"],"s3":["relaciona"],"p1":["relacionamos"],"p2":["relacionáis"],"p3":["relacionan"]},
+    "IndImp": {"s1":["relacionaba"],"s2":["relacionabas"],"vos":["relacionabas"],"s3":["relacionaba"],"p1":["relacionábamos"],"p2":["relacionabais"],"p3":["relacionaban"]},
+    "IndPret": {"s1":["relacioné"],"s2":["relacionaste"],"vos":["relacionaste"],"s3":["relacionó"],"p1":["relacionamos"],"p2":["relacionasteis"],"p3":["relacionaron"]},
+    "IndFut": {"s1":["relacionaré"],"s2":["relacionarás"],"vos":["relacionarás"],"s3":["relacionará"],"p1":["relacionaremos"],"p2":["relacionaréis"],"p3":["relacionarán"]},
+    "IndCond": {"s1":["relacionaría"],"s2":["relacionarías"],"vos":["relacionarías"],"s3":["relacionaría"],"p1":["relacionaríamos"],"p2":["relacionaríais"],"p3":["relacionarían"]},
+    "SubPres": {"s1":["relacione"],"s2":["relaciones"],"vos":["relaciones","relacionés"],"s3":["relacione"],"p1":["relacionemos"],"p2":["relacionéis"],"p3":["relacionen"]},
+    "SubImp": {"s1":["relacionara","relacionase"],"s2":["relacionaras","relacionases"],"vos":["relacionaras","relacionases"],"s3":["relacionara","relacionase"],"p1":["relacionáramos","relacionásemos"],"p2":["relacionarais","relacionaseis"],"p3":["relacionaran","relacionasen"]},
+    "SubFut": {"s1":["relacionare"],"s2":["relacionares"],"vos":["relacionares"],"s3":["relacionare"],"p1":["relacionáremos"],"p2":["relacionareis"],"p3":["relacionaren"]},
+    "CmdPos": {"s2":["relaciona"],"vos":["relacioná"],"s3":["relacione"],"p1":["relacionemos"],"p2":["relacionad"],"p3":["relacionen"]}
+  }
+}

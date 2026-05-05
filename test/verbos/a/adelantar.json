@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞elãn̪ˈt̪aɾ]",
+    "silabacion": "a-de-lan-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De adelante y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adelantar","gerundio":["adelantando"],"participio":["adelantado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adelanto"],"s2":["adelantas"],"vos":["adelantás"],"s3":["adelanta"],"p1":["adelantamos"],"p2":["adelantáis"],"p3":["adelantan"]},
+    "IndImp": {"s1":["adelantaba"],"s2":["adelantabas"],"vos":["adelantabas"],"s3":["adelantaba"],"p1":["adelantábamos"],"p2":["adelantabais"],"p3":["adelantaban"]},
+    "IndPret": {"s1":["adelanté"],"s2":["adelantaste"],"vos":["adelantaste"],"s3":["adelantó"],"p1":["adelantamos"],"p2":["adelantasteis"],"p3":["adelantaron"]},
+    "IndFut": {"s1":["adelantaré"],"s2":["adelantarás"],"vos":["adelantarás"],"s3":["adelantará"],"p1":["adelantaremos"],"p2":["adelantaréis"],"p3":["adelantarán"]},
+    "IndCond": {"s1":["adelantaría"],"s2":["adelantarías"],"vos":["adelantarías"],"s3":["adelantaría"],"p1":["adelantaríamos"],"p2":["adelantaríais"],"p3":["adelantarían"]},
+    "SubPres": {"s1":["adelante"],"s2":["adelantes"],"vos":["adelantes","adelantés"],"s3":["adelante"],"p1":["adelantemos"],"p2":["adelantéis"],"p3":["adelanten"]},
+    "SubImp": {"s1":["adelantara","adelantase"],"s2":["adelantaras","adelantases"],"vos":["adelantaras","adelantases"],"s3":["adelantara","adelantase"],"p1":["adelantáramos","adelantásemos"],"p2":["adelantarais","adelantaseis"],"p3":["adelantaran","adelantasen"]},
+    "SubFut": {"s1":["adelantare"],"s2":["adelantares"],"vos":["adelantares"],"s3":["adelantare"],"p1":["adelantáremos"],"p2":["adelantareis"],"p3":["adelantaren"]},
+    "CmdPos": {"s2":["adelanta"],"vos":["adelantá"],"s3":["adelante"],"p1":["adelantemos"],"p2":["adelantad"],"p3":["adelanten"]}
+  }
+}

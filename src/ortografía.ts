@@ -1,4 +1,4 @@
-import { MoodTense, VerbConjugation, VerbConjugationSuffixes, CambiosPorPersona, CambiosPorRegla, FormaConjugada } from ".";
+import { MoodTense, VerbConjugation, VerbConjugationSuffixes, CambiosPorPersona, CambiosPorRegla, FormaConjugada, CambioProductivo, ReglaConjugacional } from ".";
 import { accumulateChangedForms } from "./conjugate-verb";
 import { applyToFormasConjugadas, combinaFormasConjugadas, asFormaConjugada, extraeTema, isValueless, getForma, formasConjugadasIgual, assert } from "./lib.js";
 import { ReglasDeConjugaciónDeVerbo } from "./verbos-con-cambios-morfológicas";
@@ -149,7 +149,7 @@ const diptongos_homogéneo =   ["iu", "ui"]
 
 // A mapping of the last 3-5 characters of an infinitivo to the possible orthographic change rule.
 // NOTE: these are searched in the same order that they are presented in this list, and the first match is selected.
-const infinitive_ending_sound_rules: {[ending: string]: string} = {
+const infinitive_ending_sound_rules: {[ending: string]: OrthographicalChangeRuleForTerminationName} = {
     humar: "u → uy (hiato)",
     husar: "u → uy (hiato)",
     quir: "preserve-hard-c-sound-of-q",
@@ -157,7 +157,7 @@ const infinitive_ending_sound_rules: {[ending: string]: string} = {
     guir: "preserve-hard-g-sound",
     ecer: "preserve-soft-c-sound-of-ecer",
     car: "preserve-hard-c-sound-of-c",
-    cir: "soften-hard-c-sound",
+    // cir: "soften-hard-c-sound",         // FIX: unused now, apparently solves some problems
     gar: "preserve-hard-g-sound",
     ger: "preserve-soft-g-sound",
     gir: "preserve-soft-g-sound",
@@ -168,10 +168,17 @@ const infinitive_ending_sound_rules: {[ending: string]: string} = {
 }
 
 
+type OrthographicalChangeRuleForTerminationName = "preserve-soft-c-sound-of-ecer" | "preserve-hard-c-sound-of-c" | "preserve-hard-c-sound-of-q"
+    | "preserve-soft-g-sound" | "preserve-hard-g-sound"
+    | "replace-disallowed-ze-zi"
+    | "u → uy (hiato)"
+    | "break-u-dipthong-after-hard-sound" | "break-ue-dipthong-after-gu" | "separa a + vocal-abierto"
+
+
 // FIX: linguist: are these patterns correct?
 // Verb changes made solely for phonetic reasons, and using changes in orthography.
 // Note that these change only the stems.
-const orthographical_change_rules_for_terminations : {[rule_name: string]: OrthographicalChangeRule[]} = {
+const orthographical_change_rules_for_terminations: Record<OrthographicalChangeRuleForTerminationName, OrthographicalChangeRule[]> = {
     "preserve-soft-c-sound-of-ecer": [{
         // example: amanecer,IndPres,s1: amanezco => amanezco
         // counter-example: hacer,IndPret,s3: hico !=> hizco
@@ -249,11 +256,16 @@ const orthographical_change_rules_for_terminations : {[rule_name: string]: Ortho
         replacement_pattern: "ay$1"
     }]
 }
-type OrthographicalChangeRuleForTerminationName = keyof typeof orthographical_change_rules_for_terminations
+
+
+type OrthographicalChangeRuleGeneralName = "diéresis" | "elimina 'i/y' después de 'ñ/y/ll'"
+    | "mantiene hiato" | "vocal débil → 'y'"
+    | "rompe diptongo delantero 'oe', 'ie'" | "remueve tilde single sílaba con 'uí'"
+    | "rompe diptongo 'au'"
 
 
 // Note that, except for "remueve tilde single sílaba", these change only the stems.
-const orthographical_change_rules_general : {[rule_name: string]: OrthographicalChangeRule[]} = {
+const orthographical_change_rules_general: Record<OrthographicalChangeRuleGeneralName, OrthographicalChangeRule[]> = {
     "diéresis": [
         // Order matters here: first resolve üi/ü + vowel, then restore güi/güí
         {match_infinitivo: /ü|gon|goll/, match_pattern: /üi?([aáeéoó])/, replacement_pattern: "uy$1"},
@@ -286,7 +298,6 @@ const orthographical_change_rules_general : {[rule_name: string]: Orthographical
         {match_pattern: /au(([np]|ll)(o|as|a|an|e|es|en))$/, replacement_pattern: "aú$1"}
     ],
 }
-type OrthographicalChangeRuleGeneralName = keyof typeof orthographical_change_rules_general
 
 
 export type OrthographicalChangeRuleName = OrthographicalChangeRuleForTerminationName | OrthographicalChangeRuleGeneralName
@@ -328,7 +339,8 @@ export function applyOrthographicalChangesCommon(infinitivo: string, formas_conj
     // changed = changed.replace(/^([bcdfhjlmnpqrstvwxz]+u)í(s)?$/, "$1i$2")
     // changed = accentuate(full_form, suffix).  FAILED
     let formas_conjugadas_actualizadas = [...formas_conjugadas_completas]
-    for (const regla_nombre in orthographical_change_rules_general) {
+    for (const key in orthographical_change_rules_general) {
+        const regla_nombre = <OrthographicalChangeRuleGeneralName> key
         const rules = orthographical_change_rules_general[regla_nombre]
         for (const rule of rules) {
             if (rule.match_infinitivo && !infinitivo.match(rule.match_infinitivo)) {
@@ -362,7 +374,7 @@ export function applyOrthographicalChangesCommon(infinitivo: string, formas_conj
 }
 
 
-export function getCambiosPorRegla(regla: OrthographicalChangeRuleName, formas_conjugadas: FormaConjugada[], sufijos_esperados: FormaConjugada[]) : CambiosPorRegla | undefined {
+export function getCambiosPorRegla(regla: ReglaConjugacional, formas_conjugadas: FormaConjugada[], sufijos_esperados: FormaConjugada[]) : CambiosPorRegla | undefined {
     if (!isValueless(formas_conjugadas)) {
         const temas: FormaConjugada[] = []
         const sufijos: FormaConjugada[] = []
@@ -473,7 +485,6 @@ export function applyOrthographicalChangesToConjugatedForm(infinitivo: string, f
 
 export function getOrthographicChanges_IndPret3P(infinitivo: string, tema: string, sufijo: string): string {
     // Nota: no guarda o uso los cambios encontrados para esta forma de IndPret3P, porque es independiente del resto de la conjugación
-    const cambios_aplicadas: CambiosPorPersona = {}
     // const do_correct_diéresis = infinitivo.includes("ü") || infinitivo.includes("gon") || infinitivo.includes("goll")
     // const do_correct_ñi_yi = infinitivo.endsWith("ñer") || infinitivo.endsWith("ñir") || infinitivo.endsWith("llir")
     const forma_unidio = tema + sufijo
@@ -504,37 +515,13 @@ export function getOrthographicChanges(infinitivo: string, mood_tense: MoodTense
         const joined_forms_por_persona = joined_forms[persona]
         const suffixes_por_persona = suffixes[persona]
         const reglas_aplicadas_por_ortografía = applyOrthographicalChangesToConjugatedForm(infinitivo, joined_forms_por_persona, suffixes_por_persona) // , do_correct_diéresis, do_correct_ñi_yi)
-        // FIX: can't this be formalized so only one test is needed?
+        // FIX: can't this be formalized so only one test is needed? That is, only allow one spelling change?
         if (reglas_aplicadas_por_ortografía?.cambios.length > 0) {
             cambios[persona].push(...reglas_aplicadas_por_ortografía.cambios)
         }
         if (! isValueless(reglas_aplicadas_por_ortografía.formas_conjugadas_cambiadas)) {
             orthography[persona] = combinaFormasConjugadas(orthography[persona], reglas_aplicadas_por_ortografía.formas_conjugadas_cambiadas)
         }
-
-        // if (!isValueless(combinadas)) {
-            
-        //     orthography[persona] = combinadas
-        //     const cambios_temas: FormaConjugadaConRegla[] = []
-        //     const cambios_sufijos: FormaConjugadaConRegla[] = []
-        //     for (const i in combinadas) {
-        //         const combinada = combinadas[i]
-        //         const reglas_aplicadas = reglas_aplicadas_por_forma[i]
-        //         for (const regla_aplicada of reglas_aplicadas) {
-        //             const regla = regla_aplicada.regla_nombre
-        //             const sufijos_por_persona = suffixes[persona]
-        //             const {tema, sufijo} = extraeTema(regla_aplicada.forma, sufijos_por_persona)
-        //             const tema_forma_conjugada = asFormaConjugada(tema, combinada)
-        //             const sufijo_forma_conjugada = asFormaConjugada(sufijo, combinada)
-        //             cambios_temas.push({forma_conjugada: tema_forma_conjugada, regla})
-        //             cambios_sufijos.push({forma_conjugada: sufijo_forma_conjugada, regla})
-        //         }
-        //     }
-        //     cambios_aplicadas[persona] = cambios_aplicadas[persona] || []
-        //     cambios_aplicadas[persona].push({temas:})
-        // }
     }
-    // FIX: this is very likely too simple
-    // rules_applied.reglas.push({regla: "", temas: reglas_aplicadas})
     return orthography
 }

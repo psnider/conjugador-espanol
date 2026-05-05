@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪elaˈt̪aɾ]",
+    "silabacion": "de-la-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín delatus ('acusado')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"delatar","gerundio":["delatando"],"participio":["delatado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["delato"],"s2":["delatas"],"vos":["delatás"],"s3":["delata"],"p1":["delatamos"],"p2":["delatáis"],"p3":["delatan"]},
+    "IndImp": {"s1":["delataba"],"s2":["delatabas"],"vos":["delatabas"],"s3":["delataba"],"p1":["delatábamos"],"p2":["delatabais"],"p3":["delataban"]},
+    "IndPret": {"s1":["delaté"],"s2":["delataste"],"vos":["delataste"],"s3":["delató"],"p1":["delatamos"],"p2":["delatasteis"],"p3":["delataron"]},
+    "IndFut": {"s1":["delataré"],"s2":["delatarás"],"vos":["delatarás"],"s3":["delatará"],"p1":["delataremos"],"p2":["delataréis"],"p3":["delatarán"]},
+    "IndCond": {"s1":["delataría"],"s2":["delatarías"],"vos":["delatarías"],"s3":["delataría"],"p1":["delataríamos"],"p2":["delataríais"],"p3":["delatarían"]},
+    "SubPres": {"s1":["delate"],"s2":["delates"],"vos":["delates","delatés"],"s3":["delate"],"p1":["delatemos"],"p2":["delatéis"],"p3":["delaten"]},
+    "SubImp": {"s1":["delatara","delatase"],"s2":["delataras","delatases"],"vos":["delataras","delatases"],"s3":["delatara","delatase"],"p1":["delatáramos","delatásemos"],"p2":["delatarais","delataseis"],"p3":["delataran","delatasen"]},
+    "SubFut": {"s1":["delatare"],"s2":["delatares"],"vos":["delatares"],"s3":["delatare"],"p1":["delatáremos"],"p2":["delatareis"],"p3":["delataren"]},
+    "CmdPos": {"s2":["delata"],"vos":["delatá"],"s3":["delate"],"p1":["delatemos"],"p2":["delatad"],"p3":["delaten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ɾaat̪aˈkaɾ]",
+    "silabacion": "con-tra-a-ta-car",
+    "acentuacion": "aguda",
+    "etimologia": "de contra y atacar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"contraatacar","gerundio":["contraatacando"],"participio":["contraatacado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["contraataco"],"s2":["contraatacas"],"vos":["contraatacás"],"s3":["contraataca"],"p1":["contraatacamos"],"p2":["contraatacáis"],"p3":["contraatacan"]},
+    "IndImp": {"s1":["contraatacaba"],"s2":["contraatacabas"],"vos":["contraatacabas"],"s3":["contraatacaba"],"p1":["contraatacábamos"],"p2":["contraatacabais"],"p3":["contraatacaban"]},
+    "IndPret": {"s1":["contraataqué"],"s2":["contraatacaste"],"vos":["contraatacaste"],"s3":["contraatacó"],"p1":["contraatacamos"],"p2":["contraatacasteis"],"p3":["contraatacaron"]},
+    "IndFut": {"s1":["contraatacaré"],"s2":["contraatacarás"],"vos":["contraatacarás"],"s3":["contraatacará"],"p1":["contraatacaremos"],"p2":["contraatacaréis"],"p3":["contraatacarán"]},
+    "IndCond": {"s1":["contraatacaría"],"s2":["contraatacarías"],"vos":["contraatacarías"],"s3":["contraatacaría"],"p1":["contraatacaríamos"],"p2":["contraatacaríais"],"p3":["contraatacarían"]},
+    "SubPres": {"s1":["contraataque"],"s2":["contraataques"],"vos":["contraataques","contraataqués"],"s3":["contraataque"],"p1":["contraataquemos"],"p2":["contraataquéis"],"p3":["contraataquen"]},
+    "SubImp": {"s1":["contraatacara","contraatacase"],"s2":["contraatacaras","contraatacases"],"vos":["contraatacaras","contraatacases"],"s3":["contraatacara","contraatacase"],"p1":["contraatacáramos","contraatacásemos"],"p2":["contraatacarais","contraatacaseis"],"p3":["contraatacaran","contraatacasen"]},
+    "SubFut": {"s1":["contraatacare"],"s2":["contraatacares"],"vos":["contraatacares"],"s3":["contraatacare"],"p1":["contraatacáremos"],"p2":["contraatacareis"],"p3":["contraatacaren"]},
+    "CmdPos": {"s2":["contraataca"],"vos":["contraatacá"],"s3":["contraataque"],"p1":["contraataquemos"],"p2":["contraatacad"],"p3":["contraataquen"]}
+  }
+}

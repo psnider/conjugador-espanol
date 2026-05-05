@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈɣ̞aɾ]",
+    "silabacion": "ca-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cacare, y este del protoindoeuropeo *kakka-, \"excremento\". Compárese el aragonés cagar, el asturiano cagar, el catalán cagar, el dálmata kakuor, el francés chier, el francoprovenzal cacar, el gallego cagar, el italiano cacare, cagare, el occitano cagar, el portugués cagar, el rumano căca, el rumanche chajar o el siciliano cacari",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"cagar","gerundio":["cagando"],"participio":["cagado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cago"],"s2":["cagas"],"vos":["cagás"],"s3":["caga"],"p1":["cagamos"],"p2":["cagáis"],"p3":["cagan"]},
+    "IndImp": {"s1":["cagaba"],"s2":["cagabas"],"vos":["cagabas"],"s3":["cagaba"],"p1":["cagábamos"],"p2":["cagabais"],"p3":["cagaban"]},
+    "IndPret": {"s1":["cagué"],"s2":["cagaste"],"vos":["cagaste"],"s3":["cagó"],"p1":["cagamos"],"p2":["cagasteis"],"p3":["cagaron"]},
+    "IndFut": {"s1":["cagaré"],"s2":["cagarás"],"vos":["cagarás"],"s3":["cagará"],"p1":["cagaremos"],"p2":["cagaréis"],"p3":["cagarán"]},
+    "IndCond": {"s1":["cagaría"],"s2":["cagarías"],"vos":["cagarías"],"s3":["cagaría"],"p1":["cagaríamos"],"p2":["cagaríais"],"p3":["cagarían"]},
+    "SubPres": {"s1":["cague"],"s2":["cagues"],"vos":["cagues","cagués"],"s3":["cague"],"p1":["caguemos"],"p2":["caguéis"],"p3":["caguen"]},
+    "SubImp": {"s1":["cagara","cagase"],"s2":["cagaras","cagases"],"vos":["cagaras","cagases"],"s3":["cagara","cagase"],"p1":["cagáramos","cagásemos"],"p2":["cagarais","cagaseis"],"p3":["cagaran","cagasen"]},
+    "SubFut": {"s1":["cagare"],"s2":["cagares"],"vos":["cagares"],"s3":["cagare"],"p1":["cagáremos"],"p2":["cagareis"],"p3":["cagaren"]},
+    "CmdPos": {"s2":["caga"],"vos":["cagá"],"s3":["cague"],"p1":["caguemos"],"p2":["cagad"],"p3":["caguen"]}
+  }
+}

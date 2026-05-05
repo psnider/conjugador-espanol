@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾomeˈt̪eɾ]",
+    "silabacion": "en-tro-me-ter",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín intromittĕre",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"entrometer","gerundio":["entrometiendo"],"participio":["entrometido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entrometo"],"s2":["entrometes"],"vos":["entrometés"],"s3":["entromete"],"p1":["entrometemos"],"p2":["entrometéis"],"p3":["entrometen"]},
+    "IndImp": {"s1":["entrometía"],"s2":["entrometías"],"vos":["entrometías"],"s3":["entrometía"],"p1":["entrometíamos"],"p2":["entrometíais"],"p3":["entrometían"]},
+    "IndPret": {"s1":["entrometí"],"s2":["entrometiste"],"vos":["entrometiste"],"s3":["entrometió"],"p1":["entrometimos"],"p2":["entrometisteis"],"p3":["entrometieron"]},
+    "IndFut": {"s1":["entrometeré"],"s2":["entrometerás"],"vos":["entrometerás"],"s3":["entrometerá"],"p1":["entrometeremos"],"p2":["entrometeréis"],"p3":["entrometerán"]},
+    "IndCond": {"s1":["entrometería"],"s2":["entrometerías"],"vos":["entrometerías"],"s3":["entrometería"],"p1":["entrometeríamos"],"p2":["entrometeríais"],"p3":["entrometerían"]},
+    "SubPres": {"s1":["entrometa"],"s2":["entrometas"],"vos":["entrometas","entrometás"],"s3":["entrometa"],"p1":["entrometamos"],"p2":["entrometáis"],"p3":["entrometan"]},
+    "SubImp": {"s1":["entrometiera","entrometiese"],"s2":["entrometieras","entrometieses"],"vos":["entrometieras","entrometieses"],"s3":["entrometiera","entrometiese"],"p1":["entrometiéramos","entrometiésemos"],"p2":["entrometierais","entrometieseis"],"p3":["entrometieran","entrometiesen"]},
+    "SubFut": {"s1":["entrometiere"],"s2":["entrometieres"],"vos":["entrometieres"],"s3":["entrometiere"],"p1":["entrometiéremos"],"p2":["entrometiereis"],"p3":["entrometieren"]},
+    "CmdPos": {"s2":["entromete"],"vos":["entrometé"],"s3":["entrometa"],"p1":["entrometamos"],"p2":["entrometed"],"p3":["entrometan"]}
+  }
+}

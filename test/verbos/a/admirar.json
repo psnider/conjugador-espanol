@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞miˈɾaɾ]",
+    "silabacion": "ad-mi-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín admirāri.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"admirar","gerundio":["admirando"],"participio":["admirado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["admiro"],"s2":["admiras"],"vos":["admirás"],"s3":["admira"],"p1":["admiramos"],"p2":["admiráis"],"p3":["admiran"]},
+    "IndImp": {"s1":["admiraba"],"s2":["admirabas"],"vos":["admirabas"],"s3":["admiraba"],"p1":["admirábamos"],"p2":["admirabais"],"p3":["admiraban"]},
+    "IndPret": {"s1":["admiré"],"s2":["admiraste"],"vos":["admiraste"],"s3":["admiró"],"p1":["admiramos"],"p2":["admirasteis"],"p3":["admiraron"]},
+    "IndFut": {"s1":["admiraré"],"s2":["admirarás"],"vos":["admirarás"],"s3":["admirará"],"p1":["admiraremos"],"p2":["admiraréis"],"p3":["admirarán"]},
+    "IndCond": {"s1":["admiraría"],"s2":["admirarías"],"vos":["admirarías"],"s3":["admiraría"],"p1":["admiraríamos"],"p2":["admiraríais"],"p3":["admirarían"]},
+    "SubPres": {"s1":["admire"],"s2":["admires"],"vos":["admires","admirés"],"s3":["admire"],"p1":["admiremos"],"p2":["admiréis"],"p3":["admiren"]},
+    "SubImp": {"s1":["admirara","admirase"],"s2":["admiraras","admirases"],"vos":["admiraras","admirases"],"s3":["admirara","admirase"],"p1":["admiráramos","admirásemos"],"p2":["admirarais","admiraseis"],"p3":["admiraran","admirasen"]},
+    "SubFut": {"s1":["admirare"],"s2":["admirares"],"vos":["admirares"],"s3":["admirare"],"p1":["admiráremos"],"p2":["admirareis"],"p3":["admiraren"]},
+    "CmdPos": {"s2":["admira"],"vos":["admirá"],"s3":["admire"],"p1":["admiremos"],"p2":["admirad"],"p3":["admiren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[plãn̪t̪eˈaɾ]",
+    "silabacion": "plan-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"plantear","gerundio":["planteando"],"participio":["planteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["planteo"],"s2":["planteas"],"vos":["planteás"],"s3":["plantea"],"p1":["planteamos"],"p2":["planteáis"],"p3":["plantean"]},
+    "IndImp": {"s1":["planteaba"],"s2":["planteabas"],"vos":["planteabas"],"s3":["planteaba"],"p1":["planteábamos"],"p2":["planteabais"],"p3":["planteaban"]},
+    "IndPret": {"s1":["planteé"],"s2":["planteaste"],"vos":["planteaste"],"s3":["planteó"],"p1":["planteamos"],"p2":["planteasteis"],"p3":["plantearon"]},
+    "IndFut": {"s1":["plantearé"],"s2":["plantearás"],"vos":["plantearás"],"s3":["planteará"],"p1":["plantearemos"],"p2":["plantearéis"],"p3":["plantearán"]},
+    "IndCond": {"s1":["plantearía"],"s2":["plantearías"],"vos":["plantearías"],"s3":["plantearía"],"p1":["plantearíamos"],"p2":["plantearíais"],"p3":["plantearían"]},
+    "SubPres": {"s1":["plantee"],"s2":["plantees"],"vos":["plantees","planteés"],"s3":["plantee"],"p1":["planteemos"],"p2":["planteéis"],"p3":["planteen"]},
+    "SubImp": {"s1":["planteara","plantease"],"s2":["plantearas","planteases"],"vos":["plantearas","planteases"],"s3":["planteara","plantease"],"p1":["planteáramos","planteásemos"],"p2":["plantearais","planteaseis"],"p3":["plantearan","planteasen"]},
+    "SubFut": {"s1":["planteare"],"s2":["planteares"],"vos":["planteares"],"s3":["planteare"],"p1":["planteáremos"],"p2":["planteareis"],"p3":["plantearen"]},
+    "CmdPos": {"s2":["plantea"],"vos":["planteá"],"s3":["plantee"],"p1":["planteemos"],"p2":["plantead"],"p3":["planteen"]}
+  }
+}

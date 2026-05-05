@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akõn̪d̪isjoˈnaɾ]",
+    "silabacion": "a-con-di-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De condición.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acondicionar","gerundio":["acondicionando"],"participio":["acondicionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acondiciono"],"s2":["acondicionas"],"vos":["acondicionás"],"s3":["acondiciona"],"p1":["acondicionamos"],"p2":["acondicionáis"],"p3":["acondicionan"]},
+    "IndImp": {"s1":["acondicionaba"],"s2":["acondicionabas"],"vos":["acondicionabas"],"s3":["acondicionaba"],"p1":["acondicionábamos"],"p2":["acondicionabais"],"p3":["acondicionaban"]},
+    "IndPret": {"s1":["acondicioné"],"s2":["acondicionaste"],"vos":["acondicionaste"],"s3":["acondicionó"],"p1":["acondicionamos"],"p2":["acondicionasteis"],"p3":["acondicionaron"]},
+    "IndFut": {"s1":["acondicionaré"],"s2":["acondicionarás"],"vos":["acondicionarás"],"s3":["acondicionará"],"p1":["acondicionaremos"],"p2":["acondicionaréis"],"p3":["acondicionarán"]},
+    "IndCond": {"s1":["acondicionaría"],"s2":["acondicionarías"],"vos":["acondicionarías"],"s3":["acondicionaría"],"p1":["acondicionaríamos"],"p2":["acondicionaríais"],"p3":["acondicionarían"]},
+    "SubPres": {"s1":["acondicione"],"s2":["acondiciones"],"vos":["acondiciones","acondicionés"],"s3":["acondicione"],"p1":["acondicionemos"],"p2":["acondicionéis"],"p3":["acondicionen"]},
+    "SubImp": {"s1":["acondicionara","acondicionase"],"s2":["acondicionaras","acondicionases"],"vos":["acondicionaras","acondicionases"],"s3":["acondicionara","acondicionase"],"p1":["acondicionáramos","acondicionásemos"],"p2":["acondicionarais","acondicionaseis"],"p3":["acondicionaran","acondicionasen"]},
+    "SubFut": {"s1":["acondicionare"],"s2":["acondicionares"],"vos":["acondicionares"],"s3":["acondicionare"],"p1":["acondicionáremos"],"p2":["acondicionareis"],"p3":["acondicionaren"]},
+    "CmdPos": {"s2":["acondiciona"],"vos":["acondicioná"],"s3":["acondicione"],"p1":["acondicionemos"],"p2":["acondicionad"],"p3":["acondicionen"]}
+  }
+}

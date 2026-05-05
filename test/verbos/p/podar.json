@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[poˈð̞aɾ]",
+    "silabacion": "po-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín putō, putāre ('limpiar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"podar","gerundio":["podando"],"participio":["podado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["podo"],"s2":["podas"],"vos":["podás"],"s3":["poda"],"p1":["podamos"],"p2":["podáis"],"p3":["podan"]},
+    "IndImp": {"s1":["podaba"],"s2":["podabas"],"vos":["podabas"],"s3":["podaba"],"p1":["podábamos"],"p2":["podabais"],"p3":["podaban"]},
+    "IndPret": {"s1":["podé"],"s2":["podaste"],"vos":["podaste"],"s3":["podó"],"p1":["podamos"],"p2":["podasteis"],"p3":["podaron"]},
+    "IndFut": {"s1":["podaré"],"s2":["podarás"],"vos":["podarás"],"s3":["podará"],"p1":["podaremos"],"p2":["podaréis"],"p3":["podarán"]},
+    "IndCond": {"s1":["podaría"],"s2":["podarías"],"vos":["podarías"],"s3":["podaría"],"p1":["podaríamos"],"p2":["podaríais"],"p3":["podarían"]},
+    "SubPres": {"s1":["pode"],"s2":["podes"],"vos":["podes","podés"],"s3":["pode"],"p1":["podemos"],"p2":["podéis"],"p3":["poden"]},
+    "SubImp": {"s1":["podara","podase"],"s2":["podaras","podases"],"vos":["podaras","podases"],"s3":["podara","podase"],"p1":["podáramos","podásemos"],"p2":["podarais","podaseis"],"p3":["podaran","podasen"]},
+    "SubFut": {"s1":["podare"],"s2":["podares"],"vos":["podares"],"s3":["podare"],"p1":["podáremos"],"p2":["podareis"],"p3":["podaren"]},
+    "CmdPos": {"s2":["poda"],"vos":["podá"],"s3":["pode"],"p1":["podemos"],"p2":["podad"],"p3":["poden"]}
+  }
+}

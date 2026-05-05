@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fũn̪ˈd̪aɾ]",
+    "silabacion": "fun-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fundare, y este de fundus, \"fondo\", del protoindoeuropeo *bʰudʰ-mn. Compárese fundo, fondo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fundar","gerundio":["fundando"],"participio":["fundado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["fundo"],"s2":["fundas"],"vos":["fundás"],"s3":["funda"],"p1":["fundamos"],"p2":["fundáis"],"p3":["fundan"]},
+    "IndImp": {"s1":["fundaba"],"s2":["fundabas"],"vos":["fundabas"],"s3":["fundaba"],"p1":["fundábamos"],"p2":["fundabais"],"p3":["fundaban"]},
+    "IndPret": {"s1":["fundé"],"s2":["fundaste"],"vos":["fundaste"],"s3":["fundó"],"p1":["fundamos"],"p2":["fundasteis"],"p3":["fundaron"]},
+    "IndFut": {"s1":["fundaré"],"s2":["fundarás"],"vos":["fundarás"],"s3":["fundará"],"p1":["fundaremos"],"p2":["fundaréis"],"p3":["fundarán"]},
+    "IndCond": {"s1":["fundaría"],"s2":["fundarías"],"vos":["fundarías"],"s3":["fundaría"],"p1":["fundaríamos"],"p2":["fundaríais"],"p3":["fundarían"]},
+    "SubPres": {"s1":["funde"],"s2":["fundes"],"vos":["fundes","fundés"],"s3":["funde"],"p1":["fundemos"],"p2":["fundéis"],"p3":["funden"]},
+    "SubImp": {"s1":["fundara","fundase"],"s2":["fundaras","fundases"],"vos":["fundaras","fundases"],"s3":["fundara","fundase"],"p1":["fundáramos","fundásemos"],"p2":["fundarais","fundaseis"],"p3":["fundaran","fundasen"]},
+    "SubFut": {"s1":["fundare"],"s2":["fundares"],"vos":["fundares"],"s3":["fundare"],"p1":["fundáremos"],"p2":["fundareis"],"p3":["fundaren"]},
+    "CmdPos": {"s2":["funda"],"vos":["fundá"],"s3":["funde"],"p1":["fundemos"],"p2":["fundad"],"p3":["funden"]}
+  }
+}

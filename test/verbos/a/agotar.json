@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞oˈt̪aɾ]",
+    "silabacion": "a-go-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *eguttāre; del prefijo a-, gota y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agotar","gerundio":["agotando"],"participio":["agotado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agoto"],"s2":["agotas"],"vos":["agotás"],"s3":["agota"],"p1":["agotamos"],"p2":["agotáis"],"p3":["agotan"]},
+    "IndImp": {"s1":["agotaba"],"s2":["agotabas"],"vos":["agotabas"],"s3":["agotaba"],"p1":["agotábamos"],"p2":["agotabais"],"p3":["agotaban"]},
+    "IndPret": {"s1":["agoté"],"s2":["agotaste"],"vos":["agotaste"],"s3":["agotó"],"p1":["agotamos"],"p2":["agotasteis"],"p3":["agotaron"]},
+    "IndFut": {"s1":["agotaré"],"s2":["agotarás"],"vos":["agotarás"],"s3":["agotará"],"p1":["agotaremos"],"p2":["agotaréis"],"p3":["agotarán"]},
+    "IndCond": {"s1":["agotaría"],"s2":["agotarías"],"vos":["agotarías"],"s3":["agotaría"],"p1":["agotaríamos"],"p2":["agotaríais"],"p3":["agotarían"]},
+    "SubPres": {"s1":["agote"],"s2":["agotes"],"vos":["agotes","agotés"],"s3":["agote"],"p1":["agotemos"],"p2":["agotéis"],"p3":["agoten"]},
+    "SubImp": {"s1":["agotara","agotase"],"s2":["agotaras","agotases"],"vos":["agotaras","agotases"],"s3":["agotara","agotase"],"p1":["agotáramos","agotásemos"],"p2":["agotarais","agotaseis"],"p3":["agotaran","agotasen"]},
+    "SubFut": {"s1":["agotare"],"s2":["agotares"],"vos":["agotares"],"s3":["agotare"],"p1":["agotáremos"],"p2":["agotareis"],"p3":["agotaren"]},
+    "CmdPos": {"s2":["agota"],"vos":["agotá"],"s3":["agote"],"p1":["agotemos"],"p2":["agotad"],"p3":["agoten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akoˈsaɾ]",
+    "silabacion": "a-co-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acosar","gerundio":["acosando"],"participio":["acosado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acoso"],"s2":["acosas"],"vos":["acosás"],"s3":["acosa"],"p1":["acosamos"],"p2":["acosáis"],"p3":["acosan"]},
+    "IndImp": {"s1":["acosaba"],"s2":["acosabas"],"vos":["acosabas"],"s3":["acosaba"],"p1":["acosábamos"],"p2":["acosabais"],"p3":["acosaban"]},
+    "IndPret": {"s1":["acosé"],"s2":["acosaste"],"vos":["acosaste"],"s3":["acosó"],"p1":["acosamos"],"p2":["acosasteis"],"p3":["acosaron"]},
+    "IndFut": {"s1":["acosaré"],"s2":["acosarás"],"vos":["acosarás"],"s3":["acosará"],"p1":["acosaremos"],"p2":["acosaréis"],"p3":["acosarán"]},
+    "IndCond": {"s1":["acosaría"],"s2":["acosarías"],"vos":["acosarías"],"s3":["acosaría"],"p1":["acosaríamos"],"p2":["acosaríais"],"p3":["acosarían"]},
+    "SubPres": {"s1":["acose"],"s2":["acoses"],"vos":["acoses","acosés"],"s3":["acose"],"p1":["acosemos"],"p2":["acoséis"],"p3":["acosen"]},
+    "SubImp": {"s1":["acosara","acosase"],"s2":["acosaras","acosases"],"vos":["acosaras","acosases"],"s3":["acosara","acosase"],"p1":["acosáramos","acosásemos"],"p2":["acosarais","acosaseis"],"p3":["acosaran","acosasen"]},
+    "SubFut": {"s1":["acosare"],"s2":["acosares"],"vos":["acosares"],"s3":["acosare"],"p1":["acosáremos"],"p2":["acosareis"],"p3":["acosaren"]},
+    "CmdPos": {"s2":["acosa"],"vos":["acosá"],"s3":["acose"],"p1":["acosemos"],"p2":["acosad"],"p3":["acosen"]}
+  }
+}

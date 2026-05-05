@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪ɾat̪aˈkaɾ]",
+    "silabacion": "con-tra-ta-car",
+    "acentuacion": "aguda",
+    "etimologia": "de contra y atacar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"contratacar","gerundio":["contratacando"],"participio":["contratacado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["contrataco"],"s2":["contratacas"],"vos":["contratacás"],"s3":["contrataca"],"p1":["contratacamos"],"p2":["contratacáis"],"p3":["contratacan"]},
+    "IndImp": {"s1":["contratacaba"],"s2":["contratacabas"],"vos":["contratacabas"],"s3":["contratacaba"],"p1":["contratacábamos"],"p2":["contratacabais"],"p3":["contratacaban"]},
+    "IndPret": {"s1":["contrataqué"],"s2":["contratacaste"],"vos":["contratacaste"],"s3":["contratacó"],"p1":["contratacamos"],"p2":["contratacasteis"],"p3":["contratacaron"]},
+    "IndFut": {"s1":["contratacaré"],"s2":["contratacarás"],"vos":["contratacarás"],"s3":["contratacará"],"p1":["contratacaremos"],"p2":["contratacaréis"],"p3":["contratacarán"]},
+    "IndCond": {"s1":["contratacaría"],"s2":["contratacarías"],"vos":["contratacarías"],"s3":["contratacaría"],"p1":["contratacaríamos"],"p2":["contratacaríais"],"p3":["contratacarían"]},
+    "SubPres": {"s1":["contrataque"],"s2":["contrataques"],"vos":["contrataques","contrataqués"],"s3":["contrataque"],"p1":["contrataquemos"],"p2":["contrataquéis"],"p3":["contrataquen"]},
+    "SubImp": {"s1":["contratacara","contratacase"],"s2":["contratacaras","contratacases"],"vos":["contratacaras","contratacases"],"s3":["contratacara","contratacase"],"p1":["contratacáramos","contratacásemos"],"p2":["contratacarais","contratacaseis"],"p3":["contratacaran","contratacasen"]},
+    "SubFut": {"s1":["contratacare"],"s2":["contratacares"],"vos":["contratacares"],"s3":["contratacare"],"p1":["contratacáremos"],"p2":["contratacareis"],"p3":["contratacaren"]},
+    "CmdPos": {"s2":["contrataca"],"vos":["contratacá"],"s3":["contrataque"],"p1":["contrataquemos"],"p2":["contratacad"],"p3":["contrataquen"]}
+  }
+}

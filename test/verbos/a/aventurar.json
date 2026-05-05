@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ẽn̪t̪uˈɾaɾ]",
+    "silabacion": "a-ven-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aventurar","gerundio":["aventurando"],"participio":["aventurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aventuro"],"s2":["aventuras"],"vos":["aventurás"],"s3":["aventura"],"p1":["aventuramos"],"p2":["aventuráis"],"p3":["aventuran"]},
+    "IndImp": {"s1":["aventuraba"],"s2":["aventurabas"],"vos":["aventurabas"],"s3":["aventuraba"],"p1":["aventurábamos"],"p2":["aventurabais"],"p3":["aventuraban"]},
+    "IndPret": {"s1":["aventuré"],"s2":["aventuraste"],"vos":["aventuraste"],"s3":["aventuró"],"p1":["aventuramos"],"p2":["aventurasteis"],"p3":["aventuraron"]},
+    "IndFut": {"s1":["aventuraré"],"s2":["aventurarás"],"vos":["aventurarás"],"s3":["aventurará"],"p1":["aventuraremos"],"p2":["aventuraréis"],"p3":["aventurarán"]},
+    "IndCond": {"s1":["aventuraría"],"s2":["aventurarías"],"vos":["aventurarías"],"s3":["aventuraría"],"p1":["aventuraríamos"],"p2":["aventuraríais"],"p3":["aventurarían"]},
+    "SubPres": {"s1":["aventure"],"s2":["aventures"],"vos":["aventures","aventurés"],"s3":["aventure"],"p1":["aventuremos"],"p2":["aventuréis"],"p3":["aventuren"]},
+    "SubImp": {"s1":["aventurara","aventurase"],"s2":["aventuraras","aventurases"],"vos":["aventuraras","aventurases"],"s3":["aventurara","aventurase"],"p1":["aventuráramos","aventurásemos"],"p2":["aventurarais","aventuraseis"],"p3":["aventuraran","aventurasen"]},
+    "SubFut": {"s1":["aventurare"],"s2":["aventurares"],"vos":["aventurares"],"s3":["aventurare"],"p1":["aventuráremos"],"p2":["aventurareis"],"p3":["aventuraren"]},
+    "CmdPos": {"s2":["aventura"],"vos":["aventurá"],"s3":["aventure"],"p1":["aventuremos"],"p2":["aventurad"],"p3":["aventuren"]}
+  }
+}

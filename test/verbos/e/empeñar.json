@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpeˈɲaɾ]",
+    "silabacion": "em-pe-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "De empeño y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"empeñar","gerundio":["empeñando"],"participio":["empeñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empeño"],"s2":["empeñas"],"vos":["empeñás"],"s3":["empeña"],"p1":["empeñamos"],"p2":["empeñáis"],"p3":["empeñan"]},
+    "IndImp": {"s1":["empeñaba"],"s2":["empeñabas"],"vos":["empeñabas"],"s3":["empeñaba"],"p1":["empeñábamos"],"p2":["empeñabais"],"p3":["empeñaban"]},
+    "IndPret": {"s1":["empeñé"],"s2":["empeñaste"],"vos":["empeñaste"],"s3":["empeñó"],"p1":["empeñamos"],"p2":["empeñasteis"],"p3":["empeñaron"]},
+    "IndFut": {"s1":["empeñaré"],"s2":["empeñarás"],"vos":["empeñarás"],"s3":["empeñará"],"p1":["empeñaremos"],"p2":["empeñaréis"],"p3":["empeñarán"]},
+    "IndCond": {"s1":["empeñaría"],"s2":["empeñarías"],"vos":["empeñarías"],"s3":["empeñaría"],"p1":["empeñaríamos"],"p2":["empeñaríais"],"p3":["empeñarían"]},
+    "SubPres": {"s1":["empeñe"],"s2":["empeñes"],"vos":["empeñes","empeñés"],"s3":["empeñe"],"p1":["empeñemos"],"p2":["empeñéis"],"p3":["empeñen"]},
+    "SubImp": {"s1":["empeñara","empeñase"],"s2":["empeñaras","empeñases"],"vos":["empeñaras","empeñases"],"s3":["empeñara","empeñase"],"p1":["empeñáramos","empeñásemos"],"p2":["empeñarais","empeñaseis"],"p3":["empeñaran","empeñasen"]},
+    "SubFut": {"s1":["empeñare"],"s2":["empeñares"],"vos":["empeñares"],"s3":["empeñare"],"p1":["empeñáremos"],"p2":["empeñareis"],"p3":["empeñaren"]},
+    "CmdPos": {"s2":["empeña"],"vos":["empeñá"],"s3":["empeñe"],"p1":["empeñemos"],"p2":["empeñad"],"p3":["empeñen"]}
+  }
+}

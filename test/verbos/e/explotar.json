@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksploˈt̪aɾ]",
+    "silabacion": "ex-plo-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés exploiter (\"aprovechar, explotar\").[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"explotar","gerundio":["explotando"],"participio":["explotado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exploto"],"s2":["explotas"],"vos":["explotás"],"s3":["explota"],"p1":["explotamos"],"p2":["explotáis"],"p3":["explotan"]},
+    "IndImp": {"s1":["explotaba"],"s2":["explotabas"],"vos":["explotabas"],"s3":["explotaba"],"p1":["explotábamos"],"p2":["explotabais"],"p3":["explotaban"]},
+    "IndPret": {"s1":["exploté"],"s2":["explotaste"],"vos":["explotaste"],"s3":["explotó"],"p1":["explotamos"],"p2":["explotasteis"],"p3":["explotaron"]},
+    "IndFut": {"s1":["explotaré"],"s2":["explotarás"],"vos":["explotarás"],"s3":["explotará"],"p1":["explotaremos"],"p2":["explotaréis"],"p3":["explotarán"]},
+    "IndCond": {"s1":["explotaría"],"s2":["explotarías"],"vos":["explotarías"],"s3":["explotaría"],"p1":["explotaríamos"],"p2":["explotaríais"],"p3":["explotarían"]},
+    "SubPres": {"s1":["explote"],"s2":["explotes"],"vos":["explotes","explotés"],"s3":["explote"],"p1":["explotemos"],"p2":["explotéis"],"p3":["exploten"]},
+    "SubImp": {"s1":["explotara","explotase"],"s2":["explotaras","explotases"],"vos":["explotaras","explotases"],"s3":["explotara","explotase"],"p1":["explotáramos","explotásemos"],"p2":["explotarais","explotaseis"],"p3":["explotaran","explotasen"]},
+    "SubFut": {"s1":["explotare"],"s2":["explotares"],"vos":["explotares"],"s3":["explotare"],"p1":["explotáremos"],"p2":["explotareis"],"p3":["explotaren"]},
+    "CmdPos": {"s2":["explota"],"vos":["explotá"],"s3":["explote"],"p1":["explotemos"],"p2":["explotad"],"p3":["exploten"]}
+  }
+}

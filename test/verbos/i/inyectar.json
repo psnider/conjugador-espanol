@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩɲʝekˈt̪aɾ]",
+    "silabacion": "in-yec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín iniectus, de inciere.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inyectar","gerundio":["inyectando"],"participio":["inyectado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inyecto"],"s2":["inyectas"],"vos":["inyectás"],"s3":["inyecta"],"p1":["inyectamos"],"p2":["inyectáis"],"p3":["inyectan"]},
+    "IndImp": {"s1":["inyectaba"],"s2":["inyectabas"],"vos":["inyectabas"],"s3":["inyectaba"],"p1":["inyectábamos"],"p2":["inyectabais"],"p3":["inyectaban"]},
+    "IndPret": {"s1":["inyecté"],"s2":["inyectaste"],"vos":["inyectaste"],"s3":["inyectó"],"p1":["inyectamos"],"p2":["inyectasteis"],"p3":["inyectaron"]},
+    "IndFut": {"s1":["inyectaré"],"s2":["inyectarás"],"vos":["inyectarás"],"s3":["inyectará"],"p1":["inyectaremos"],"p2":["inyectaréis"],"p3":["inyectarán"]},
+    "IndCond": {"s1":["inyectaría"],"s2":["inyectarías"],"vos":["inyectarías"],"s3":["inyectaría"],"p1":["inyectaríamos"],"p2":["inyectaríais"],"p3":["inyectarían"]},
+    "SubPres": {"s1":["inyecte"],"s2":["inyectes"],"vos":["inyectes","inyectés"],"s3":["inyecte"],"p1":["inyectemos"],"p2":["inyectéis"],"p3":["inyecten"]},
+    "SubImp": {"s1":["inyectara","inyectase"],"s2":["inyectaras","inyectases"],"vos":["inyectaras","inyectases"],"s3":["inyectara","inyectase"],"p1":["inyectáramos","inyectásemos"],"p2":["inyectarais","inyectaseis"],"p3":["inyectaran","inyectasen"]},
+    "SubFut": {"s1":["inyectare"],"s2":["inyectares"],"vos":["inyectares"],"s3":["inyectare"],"p1":["inyectáremos"],"p2":["inyectareis"],"p3":["inyectaren"]},
+    "CmdPos": {"s2":["inyecta"],"vos":["inyectá"],"s3":["inyecte"],"p1":["inyectemos"],"p2":["inyectad"],"p3":["inyecten"]}
+  }
+}

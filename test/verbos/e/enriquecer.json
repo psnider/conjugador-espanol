@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnrikeˈseɾ]",
+    "silabacion": "en-ri-que-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, rico y el sufijo -ecer[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enriquecer","gerundio":["enriqueciendo"],"participio":["enriquecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enriquezco"],"s2":["enriqueces"],"vos":["enriquecés"],"s3":["enriquece"],"p1":["enriquecemos"],"p2":["enriquecéis"],"p3":["enriquecen"]},
+    "IndImp": {"s1":["enriquecía"],"s2":["enriquecías"],"vos":["enriquecías"],"s3":["enriquecía"],"p1":["enriquecíamos"],"p2":["enriquecíais"],"p3":["enriquecían"]},
+    "IndPret": {"s1":["enriquecí"],"s2":["enriqueciste"],"vos":["enriqueciste"],"s3":["enriqueció"],"p1":["enriquecimos"],"p2":["enriquecisteis"],"p3":["enriquecieron"]},
+    "IndFut": {"s1":["enriqueceré"],"s2":["enriquecerás"],"vos":["enriquecerás"],"s3":["enriquecerá"],"p1":["enriqueceremos"],"p2":["enriqueceréis"],"p3":["enriquecerán"]},
+    "IndCond": {"s1":["enriquecería"],"s2":["enriquecerías"],"vos":["enriquecerías"],"s3":["enriquecería"],"p1":["enriqueceríamos"],"p2":["enriqueceríais"],"p3":["enriquecerían"]},
+    "SubPres": {"s1":["enriquezca"],"s2":["enriquezcas"],"vos":["enriquezcas","enriquezcás"],"s3":["enriquezca"],"p1":["enriquezcamos"],"p2":["enriquezcáis"],"p3":["enriquezcan"]},
+    "SubImp": {"s1":["enriqueciera","enriqueciese"],"s2":["enriquecieras","enriquecieses"],"vos":["enriquecieras","enriquecieses"],"s3":["enriqueciera","enriqueciese"],"p1":["enriqueciéramos","enriqueciésemos"],"p2":["enriquecierais","enriquecieseis"],"p3":["enriquecieran","enriqueciesen"]},
+    "SubFut": {"s1":["enriqueciere"],"s2":["enriquecieres"],"vos":["enriquecieres"],"s3":["enriqueciere"],"p1":["enriqueciéremos"],"p2":["enriqueciereis"],"p3":["enriquecieren"]},
+    "CmdPos": {"s2":["enriquece"],"vos":["enriquecé"],"s3":["enriquezca"],"p1":["enriquezcamos"],"p2":["enriqueced"],"p3":["enriquezcan"]}
+  }
+}

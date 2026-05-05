@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[emosjoˈnaɾ]",
+    "silabacion": "e-mo-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De emoción y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"emocionar","gerundio":["emocionando"],"participio":["emocionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["emociono"],"s2":["emocionas"],"vos":["emocionás"],"s3":["emociona"],"p1":["emocionamos"],"p2":["emocionáis"],"p3":["emocionan"]},
+    "IndImp": {"s1":["emocionaba"],"s2":["emocionabas"],"vos":["emocionabas"],"s3":["emocionaba"],"p1":["emocionábamos"],"p2":["emocionabais"],"p3":["emocionaban"]},
+    "IndPret": {"s1":["emocioné"],"s2":["emocionaste"],"vos":["emocionaste"],"s3":["emocionó"],"p1":["emocionamos"],"p2":["emocionasteis"],"p3":["emocionaron"]},
+    "IndFut": {"s1":["emocionaré"],"s2":["emocionarás"],"vos":["emocionarás"],"s3":["emocionará"],"p1":["emocionaremos"],"p2":["emocionaréis"],"p3":["emocionarán"]},
+    "IndCond": {"s1":["emocionaría"],"s2":["emocionarías"],"vos":["emocionarías"],"s3":["emocionaría"],"p1":["emocionaríamos"],"p2":["emocionaríais"],"p3":["emocionarían"]},
+    "SubPres": {"s1":["emocione"],"s2":["emociones"],"vos":["emociones","emocionés"],"s3":["emocione"],"p1":["emocionemos"],"p2":["emocionéis"],"p3":["emocionen"]},
+    "SubImp": {"s1":["emocionara","emocionase"],"s2":["emocionaras","emocionases"],"vos":["emocionaras","emocionases"],"s3":["emocionara","emocionase"],"p1":["emocionáramos","emocionásemos"],"p2":["emocionarais","emocionaseis"],"p3":["emocionaran","emocionasen"]},
+    "SubFut": {"s1":["emocionare"],"s2":["emocionares"],"vos":["emocionares"],"s3":["emocionare"],"p1":["emocionáremos"],"p2":["emocionareis"],"p3":["emocionaren"]},
+    "CmdPos": {"s2":["emociona"],"vos":["emocioná"],"s3":["emocione"],"p1":["emocionemos"],"p2":["emocionad"],"p3":["emocionen"]}
+  }
+}

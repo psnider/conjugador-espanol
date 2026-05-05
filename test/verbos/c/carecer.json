@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaɾeˈseɾ]",
+    "silabacion": "ca-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar carescere y este del latín clásico carere.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"carecer","gerundio":["careciendo"],"participio":["carecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["carezco"],"s2":["careces"],"vos":["carecés"],"s3":["carece"],"p1":["carecemos"],"p2":["carecéis"],"p3":["carecen"]},
+    "IndImp": {"s1":["carecía"],"s2":["carecías"],"vos":["carecías"],"s3":["carecía"],"p1":["carecíamos"],"p2":["carecíais"],"p3":["carecían"]},
+    "IndPret": {"s1":["carecí"],"s2":["careciste"],"vos":["careciste"],"s3":["careció"],"p1":["carecimos"],"p2":["carecisteis"],"p3":["carecieron"]},
+    "IndFut": {"s1":["careceré"],"s2":["carecerás"],"vos":["carecerás"],"s3":["carecerá"],"p1":["careceremos"],"p2":["careceréis"],"p3":["carecerán"]},
+    "IndCond": {"s1":["carecería"],"s2":["carecerías"],"vos":["carecerías"],"s3":["carecería"],"p1":["careceríamos"],"p2":["careceríais"],"p3":["carecerían"]},
+    "SubPres": {"s1":["carezca"],"s2":["carezcas"],"vos":["carezcas","carezcás"],"s3":["carezca"],"p1":["carezcamos"],"p2":["carezcáis"],"p3":["carezcan"]},
+    "SubImp": {"s1":["careciera","careciese"],"s2":["carecieras","carecieses"],"vos":["carecieras","carecieses"],"s3":["careciera","careciese"],"p1":["careciéramos","careciésemos"],"p2":["carecierais","carecieseis"],"p3":["carecieran","careciesen"]},
+    "SubFut": {"s1":["careciere"],"s2":["carecieres"],"vos":["carecieres"],"s3":["careciere"],"p1":["careciéremos"],"p2":["careciereis"],"p3":["carecieren"]},
+    "CmdPos": {"s2":["carece"],"vos":["carecé"],"s3":["carezca"],"p1":["carezcamos"],"p2":["careced"],"p3":["carezcan"]}
+  }
+}

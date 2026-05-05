@@ -294,24 +294,15 @@ export function compareSpanishWords(lhs: string, rhs: string): number {
 }
 
 
-export function acumulaCambiosPorPersona(args: {cambios_aplicadas: CambiosPorPersona, persona?: GrammaticalPerson, temas?: VerbConjugation, sufijos?: VerbConjugation, regla: ReglaConjugacional}) {
-    // function añadeReglaAFormaConjugada(formas_conjugadas?: FormaConjugada[]) {
-    //     if (formas_conjugadas) {
-    //         const con_regla = formas_conjugadas.map((forma_conjugada) => {
-    //             return {regla, forma_conjugada}
-    //         })
-    //         return con_regla
-    //     }
-    // }
-    const {cambios_aplicadas, persona, temas, sufijos, regla} = args
+export function acumulaCambiosPorPersona(args: {cambios: CambiosPorPersona, persona?: GrammaticalPerson, temas?: VerbConjugation, sufijos?: VerbConjugation, regla: ReglaConjugacional}) {
+    const {cambios, persona, temas, sufijos, regla} = args
     const personas = (persona ? [persona] : persons_w_vos)
     for (const persona of personas) {
         const temas_por_persona = temas?.[persona]
         const sufijos_por_persona = sufijos?.[persona]
         if (temas_por_persona || sufijos_por_persona) {
             const cambio: CambiosPorRegla = {regla, temas: temas_por_persona, sufijos: sufijos_por_persona}
-            cambios_aplicadas[persona] = cambios_aplicadas[persona] || []
-            cambios_aplicadas[persona].push(cambio)
+            cambios[persona].push(cambio)
         }
     }
 }
@@ -320,7 +311,6 @@ export function acumulaCambiosPorPersona(args: {cambios_aplicadas: CambiosPorPer
 export function añadeCambiosPorPersona(args: {acumulado: CambiosPorPersona, adicional: CambiosPorPersona}) {
     const {acumulado, adicional} = args
     for (const persona in adicional) {
-        acumulado[persona] = acumulado[persona] || []
         acumulado[persona].push(...adicional[persona])
     }
 }

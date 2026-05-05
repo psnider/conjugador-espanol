@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esɣ̞asˈt̪aɾ]",
+    "silabacion": "des-gas-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1200.[1] Del prefijo des- y gastar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desgastar","gerundio":["desgastando"],"participio":["desgastado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desgasto"],"s2":["desgastas"],"vos":["desgastás"],"s3":["desgasta"],"p1":["desgastamos"],"p2":["desgastáis"],"p3":["desgastan"]},
+    "IndImp": {"s1":["desgastaba"],"s2":["desgastabas"],"vos":["desgastabas"],"s3":["desgastaba"],"p1":["desgastábamos"],"p2":["desgastabais"],"p3":["desgastaban"]},
+    "IndPret": {"s1":["desgasté"],"s2":["desgastaste"],"vos":["desgastaste"],"s3":["desgastó"],"p1":["desgastamos"],"p2":["desgastasteis"],"p3":["desgastaron"]},
+    "IndFut": {"s1":["desgastaré"],"s2":["desgastarás"],"vos":["desgastarás"],"s3":["desgastará"],"p1":["desgastaremos"],"p2":["desgastaréis"],"p3":["desgastarán"]},
+    "IndCond": {"s1":["desgastaría"],"s2":["desgastarías"],"vos":["desgastarías"],"s3":["desgastaría"],"p1":["desgastaríamos"],"p2":["desgastaríais"],"p3":["desgastarían"]},
+    "SubPres": {"s1":["desgaste"],"s2":["desgastes"],"vos":["desgastes","desgastés"],"s3":["desgaste"],"p1":["desgastemos"],"p2":["desgastéis"],"p3":["desgasten"]},
+    "SubImp": {"s1":["desgastara","desgastase"],"s2":["desgastaras","desgastases"],"vos":["desgastaras","desgastases"],"s3":["desgastara","desgastase"],"p1":["desgastáramos","desgastásemos"],"p2":["desgastarais","desgastaseis"],"p3":["desgastaran","desgastasen"]},
+    "SubFut": {"s1":["desgastare"],"s2":["desgastares"],"vos":["desgastares"],"s3":["desgastare"],"p1":["desgastáremos"],"p2":["desgastareis"],"p3":["desgastaren"]},
+    "CmdPos": {"s2":["desgasta"],"vos":["desgastá"],"s3":["desgaste"],"p1":["desgastemos"],"p2":["desgastad"],"p3":["desgasten"]}
+  }
+}

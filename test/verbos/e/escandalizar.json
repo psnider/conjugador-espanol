@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskãn̪d̪aliˈsaɾ]",
+    "silabacion": "es-can-da-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín scandalizāre",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"escandalizar","gerundio":["escandalizando"],"participio":["escandalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["escandalizo"],"s2":["escandalizas"],"vos":["escandalizás"],"s3":["escandaliza"],"p1":["escandalizamos"],"p2":["escandalizáis"],"p3":["escandalizan"]},
+    "IndImp": {"s1":["escandalizaba"],"s2":["escandalizabas"],"vos":["escandalizabas"],"s3":["escandalizaba"],"p1":["escandalizábamos"],"p2":["escandalizabais"],"p3":["escandalizaban"]},
+    "IndPret": {"s1":["escandalicé"],"s2":["escandalizaste"],"vos":["escandalizaste"],"s3":["escandalizó"],"p1":["escandalizamos"],"p2":["escandalizasteis"],"p3":["escandalizaron"]},
+    "IndFut": {"s1":["escandalizaré"],"s2":["escandalizarás"],"vos":["escandalizarás"],"s3":["escandalizará"],"p1":["escandalizaremos"],"p2":["escandalizaréis"],"p3":["escandalizarán"]},
+    "IndCond": {"s1":["escandalizaría"],"s2":["escandalizarías"],"vos":["escandalizarías"],"s3":["escandalizaría"],"p1":["escandalizaríamos"],"p2":["escandalizaríais"],"p3":["escandalizarían"]},
+    "SubPres": {"s1":["escandalice"],"s2":["escandalices"],"vos":["escandalices","escandalicés"],"s3":["escandalice"],"p1":["escandalicemos"],"p2":["escandalicéis"],"p3":["escandalicen"]},
+    "SubImp": {"s1":["escandalizara","escandalizase"],"s2":["escandalizaras","escandalizases"],"vos":["escandalizaras","escandalizases"],"s3":["escandalizara","escandalizase"],"p1":["escandalizáramos","escandalizásemos"],"p2":["escandalizarais","escandalizaseis"],"p3":["escandalizaran","escandalizasen"]},
+    "SubFut": {"s1":["escandalizare"],"s2":["escandalizares"],"vos":["escandalizares"],"s3":["escandalizare"],"p1":["escandalizáremos"],"p2":["escandalizareis"],"p3":["escandalizaren"]},
+    "CmdPos": {"s2":["escandaliza"],"vos":["escandalizá"],"s3":["escandalice"],"p1":["escandalicemos"],"p2":["escandalizad"],"p3":["escandalicen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekɾimiˈnaɾ]",
+    "silabacion": "re-cri-mi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y criminar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"recriminar","gerundio":["recriminando"],"participio":["recriminado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["recrimino"],"s2":["recriminas"],"vos":["recriminás"],"s3":["recrimina"],"p1":["recriminamos"],"p2":["recrimináis"],"p3":["recriminan"]},
+    "IndImp": {"s1":["recriminaba"],"s2":["recriminabas"],"vos":["recriminabas"],"s3":["recriminaba"],"p1":["recriminábamos"],"p2":["recriminabais"],"p3":["recriminaban"]},
+    "IndPret": {"s1":["recriminé"],"s2":["recriminaste"],"vos":["recriminaste"],"s3":["recriminó"],"p1":["recriminamos"],"p2":["recriminasteis"],"p3":["recriminaron"]},
+    "IndFut": {"s1":["recriminaré"],"s2":["recriminarás"],"vos":["recriminarás"],"s3":["recriminará"],"p1":["recriminaremos"],"p2":["recriminaréis"],"p3":["recriminarán"]},
+    "IndCond": {"s1":["recriminaría"],"s2":["recriminarías"],"vos":["recriminarías"],"s3":["recriminaría"],"p1":["recriminaríamos"],"p2":["recriminaríais"],"p3":["recriminarían"]},
+    "SubPres": {"s1":["recrimine"],"s2":["recrimines"],"vos":["recrimines","recriminés"],"s3":["recrimine"],"p1":["recriminemos"],"p2":["recriminéis"],"p3":["recriminen"]},
+    "SubImp": {"s1":["recriminara","recriminase"],"s2":["recriminaras","recriminases"],"vos":["recriminaras","recriminases"],"s3":["recriminara","recriminase"],"p1":["recrimináramos","recriminásemos"],"p2":["recriminarais","recriminaseis"],"p3":["recriminaran","recriminasen"]},
+    "SubFut": {"s1":["recriminare"],"s2":["recriminares"],"vos":["recriminares"],"s3":["recriminare"],"p1":["recrimináremos"],"p2":["recriminareis"],"p3":["recriminaren"]},
+    "CmdPos": {"s2":["recrimina"],"vos":["recriminá"],"s3":["recrimine"],"p1":["recriminemos"],"p2":["recriminad"],"p3":["recriminen"]}
+  }
+}

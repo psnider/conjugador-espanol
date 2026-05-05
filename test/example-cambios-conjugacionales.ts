@@ -9,11 +9,11 @@ const cambios_tener_IndPres: CambiosConjugacionales = {
     cambios: {
         s1:  [
                 { regla: "regular", temas: ["ten"], sufijos: ["o"] },
-                { regla: "tems presente yo", temas: ["teng"] },
+                { regla: "tema presente yo", temas: ["teng"] },
         ],
         s2: [
                 { regla: "regular", temas: ["ten"], sufijos: ["es"] },
-                { regla: "e → ie",  temas: ["tien"] },
+                { regla: "e:ie",  temas: ["tien"] },
              ],
         vos: [
                 { regla: "regular", temas: ["ten"], sufijos: ["és"] },
@@ -31,7 +31,7 @@ const cambios_tener_SubPres: CambiosConjugacionales = {
         p1:  [
             { regla: "regular", temas: ["ten"], sufijos: ["ramos", "semos"] },
             { regla: "tema pretérito 3.ª persona plural", temas: ["tuvie"] },
-            { regla: "estresa tema 1.ª persona plural", temas: ["tuvié"] }
+            { regla: "estrese tema 1.ª persona plural", temas: ["tuvié"] }
         ],
     }
 }
@@ -43,7 +43,7 @@ const cambios_inquirir_SubPres: CambiosConjugacionales = {
     cambios: {
         vos:  [
             { regla: "regular", temas: ["inquir"], sufijos: [{forma:"as",uso: "Riop."}, {forma:"ás",uso: "C.Am."}] },
-            { regla: "i → ie",  temas: ["inquier"] },
+            { regla: "i:ie",  temas: ["inquier"] },
         ],
     }
 }

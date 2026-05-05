@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kulˈpaɾ]",
+    "silabacion": "cul-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"culpar","gerundio":["culpando"],"participio":["culpado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["culpo"],"s2":["culpas"],"vos":["culpás"],"s3":["culpa"],"p1":["culpamos"],"p2":["culpáis"],"p3":["culpan"]},
+    "IndImp": {"s1":["culpaba"],"s2":["culpabas"],"vos":["culpabas"],"s3":["culpaba"],"p1":["culpábamos"],"p2":["culpabais"],"p3":["culpaban"]},
+    "IndPret": {"s1":["culpé"],"s2":["culpaste"],"vos":["culpaste"],"s3":["culpó"],"p1":["culpamos"],"p2":["culpasteis"],"p3":["culparon"]},
+    "IndFut": {"s1":["culparé"],"s2":["culparás"],"vos":["culparás"],"s3":["culpará"],"p1":["culparemos"],"p2":["culparéis"],"p3":["culparán"]},
+    "IndCond": {"s1":["culparía"],"s2":["culparías"],"vos":["culparías"],"s3":["culparía"],"p1":["culparíamos"],"p2":["culparíais"],"p3":["culparían"]},
+    "SubPres": {"s1":["culpe"],"s2":["culpes"],"vos":["culpes","culpés"],"s3":["culpe"],"p1":["culpemos"],"p2":["culpéis"],"p3":["culpen"]},
+    "SubImp": {"s1":["culpara","culpase"],"s2":["culparas","culpases"],"vos":["culparas","culpases"],"s3":["culpara","culpase"],"p1":["culpáramos","culpásemos"],"p2":["culparais","culpaseis"],"p3":["culparan","culpasen"]},
+    "SubFut": {"s1":["culpare"],"s2":["culpares"],"vos":["culpares"],"s3":["culpare"],"p1":["culpáremos"],"p2":["culpareis"],"p3":["culparen"]},
+    "CmdPos": {"s2":["culpa"],"vos":["culpá"],"s3":["culpe"],"p1":["culpemos"],"p2":["culpad"],"p3":["culpen"]}
+  }
+}

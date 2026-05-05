@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asimiˈlaɾ]",
+    "silabacion": "a-si-mi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asimilar","gerundio":["asimilando"],"participio":["asimilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asimilo"],"s2":["asimilas"],"vos":["asimilás"],"s3":["asimila"],"p1":["asimilamos"],"p2":["asimiláis"],"p3":["asimilan"]},
+    "IndImp": {"s1":["asimilaba"],"s2":["asimilabas"],"vos":["asimilabas"],"s3":["asimilaba"],"p1":["asimilábamos"],"p2":["asimilabais"],"p3":["asimilaban"]},
+    "IndPret": {"s1":["asimilé"],"s2":["asimilaste"],"vos":["asimilaste"],"s3":["asimiló"],"p1":["asimilamos"],"p2":["asimilasteis"],"p3":["asimilaron"]},
+    "IndFut": {"s1":["asimilaré"],"s2":["asimilarás"],"vos":["asimilarás"],"s3":["asimilará"],"p1":["asimilaremos"],"p2":["asimilaréis"],"p3":["asimilarán"]},
+    "IndCond": {"s1":["asimilaría"],"s2":["asimilarías"],"vos":["asimilarías"],"s3":["asimilaría"],"p1":["asimilaríamos"],"p2":["asimilaríais"],"p3":["asimilarían"]},
+    "SubPres": {"s1":["asimile"],"s2":["asimiles"],"vos":["asimiles","asimilés"],"s3":["asimile"],"p1":["asimilemos"],"p2":["asimiléis"],"p3":["asimilen"]},
+    "SubImp": {"s1":["asimilara","asimilase"],"s2":["asimilaras","asimilases"],"vos":["asimilaras","asimilases"],"s3":["asimilara","asimilase"],"p1":["asimiláramos","asimilásemos"],"p2":["asimilarais","asimilaseis"],"p3":["asimilaran","asimilasen"]},
+    "SubFut": {"s1":["asimilare"],"s2":["asimilares"],"vos":["asimilares"],"s3":["asimilare"],"p1":["asimiláremos"],"p2":["asimilareis"],"p3":["asimilaren"]},
+    "CmdPos": {"s2":["asimila"],"vos":["asimilá"],"s3":["asimile"],"p1":["asimilemos"],"p2":["asimilad"],"p3":["asimilen"]}
+  }
+}

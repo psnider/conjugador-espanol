@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akaɾiˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De caricia.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"acariciar","gerundio":["acariciando"],"participio":["acariciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acaricio"],"s2":["acaricias"],"vos":["acariciás"],"s3":["acaricia"],"p1":["acariciamos"],"p2":["acariciáis"],"p3":["acarician"]},
+    "IndImp": {"s1":["acariciaba"],"s2":["acariciabas"],"vos":["acariciabas"],"s3":["acariciaba"],"p1":["acariciábamos"],"p2":["acariciabais"],"p3":["acariciaban"]},
+    "IndPret": {"s1":["acaricié"],"s2":["acariciaste"],"vos":["acariciaste"],"s3":["acarició"],"p1":["acariciamos"],"p2":["acariciasteis"],"p3":["acariciaron"]},
+    "IndFut": {"s1":["acariciaré"],"s2":["acariciarás"],"vos":["acariciarás"],"s3":["acariciará"],"p1":["acariciaremos"],"p2":["acariciaréis"],"p3":["acariciarán"]},
+    "IndCond": {"s1":["acariciaría"],"s2":["acariciarías"],"vos":["acariciarías"],"s3":["acariciaría"],"p1":["acariciaríamos"],"p2":["acariciaríais"],"p3":["acariciarían"]},
+    "SubPres": {"s1":["acaricie"],"s2":["acaricies"],"vos":["acaricies","acariciés"],"s3":["acaricie"],"p1":["acariciemos"],"p2":["acariciéis"],"p3":["acaricien"]},
+    "SubImp": {"s1":["acariciara","acariciase"],"s2":["acariciaras","acariciases"],"vos":["acariciaras","acariciases"],"s3":["acariciara","acariciase"],"p1":["acariciáramos","acariciásemos"],"p2":["acariciarais","acariciaseis"],"p3":["acariciaran","acariciasen"]},
+    "SubFut": {"s1":["acariciare"],"s2":["acariciares"],"vos":["acariciares"],"s3":["acariciare"],"p1":["acariciáremos"],"p2":["acariciareis"],"p3":["acariciaren"]},
+    "CmdPos": {"s2":["acaricia"],"vos":["acariciá"],"s3":["acaricie"],"p1":["acariciemos"],"p2":["acariciad"],"p3":["acaricien"]}
+  }
+}

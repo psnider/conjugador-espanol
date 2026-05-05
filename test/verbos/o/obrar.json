@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oˈβ̞ɾaɾ]",
+    "silabacion": "o-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín operāri ('laborar'), derivado de opus&nbsp;('obra'), procedente de la raíz indoeuropea *h₃ep-os-&nbsp;('trabajo')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"obrar","gerundio":["obrando"],"participio":["obrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["obro"],"s2":["obras"],"vos":["obrás"],"s3":["obra"],"p1":["obramos"],"p2":["obráis"],"p3":["obran"]},
+    "IndImp": {"s1":["obraba"],"s2":["obrabas"],"vos":["obrabas"],"s3":["obraba"],"p1":["obrábamos"],"p2":["obrabais"],"p3":["obraban"]},
+    "IndPret": {"s1":["obré"],"s2":["obraste"],"vos":["obraste"],"s3":["obró"],"p1":["obramos"],"p2":["obrasteis"],"p3":["obraron"]},
+    "IndFut": {"s1":["obraré"],"s2":["obrarás"],"vos":["obrarás"],"s3":["obrará"],"p1":["obraremos"],"p2":["obraréis"],"p3":["obrarán"]},
+    "IndCond": {"s1":["obraría"],"s2":["obrarías"],"vos":["obrarías"],"s3":["obraría"],"p1":["obraríamos"],"p2":["obraríais"],"p3":["obrarían"]},
+    "SubPres": {"s1":["obre"],"s2":["obres"],"vos":["obres","obrés"],"s3":["obre"],"p1":["obremos"],"p2":["obréis"],"p3":["obren"]},
+    "SubImp": {"s1":["obrara","obrase"],"s2":["obraras","obrases"],"vos":["obraras","obrases"],"s3":["obrara","obrase"],"p1":["obráramos","obrásemos"],"p2":["obrarais","obraseis"],"p3":["obraran","obrasen"]},
+    "SubFut": {"s1":["obrare"],"s2":["obrares"],"vos":["obrares"],"s3":["obrare"],"p1":["obráremos"],"p2":["obrareis"],"p3":["obraren"]},
+    "CmdPos": {"s2":["obra"],"vos":["obrá"],"s3":["obre"],"p1":["obremos"],"p2":["obrad"],"p3":["obren"]}
+  }
+}

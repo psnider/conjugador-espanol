@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[okul̪ˈt̪aɾ]",
+    "silabacion": "o-cul-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín occultare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ocultar","gerundio":["ocultando"],"participio":["ocultado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oculto"],"s2":["ocultas"],"vos":["ocultás"],"s3":["oculta"],"p1":["ocultamos"],"p2":["ocultáis"],"p3":["ocultan"]},
+    "IndImp": {"s1":["ocultaba"],"s2":["ocultabas"],"vos":["ocultabas"],"s3":["ocultaba"],"p1":["ocultábamos"],"p2":["ocultabais"],"p3":["ocultaban"]},
+    "IndPret": {"s1":["oculté"],"s2":["ocultaste"],"vos":["ocultaste"],"s3":["ocultó"],"p1":["ocultamos"],"p2":["ocultasteis"],"p3":["ocultaron"]},
+    "IndFut": {"s1":["ocultaré"],"s2":["ocultarás"],"vos":["ocultarás"],"s3":["ocultará"],"p1":["ocultaremos"],"p2":["ocultaréis"],"p3":["ocultarán"]},
+    "IndCond": {"s1":["ocultaría"],"s2":["ocultarías"],"vos":["ocultarías"],"s3":["ocultaría"],"p1":["ocultaríamos"],"p2":["ocultaríais"],"p3":["ocultarían"]},
+    "SubPres": {"s1":["oculte"],"s2":["ocultes"],"vos":["ocultes","ocultés"],"s3":["oculte"],"p1":["ocultemos"],"p2":["ocultéis"],"p3":["oculten"]},
+    "SubImp": {"s1":["ocultara","ocultase"],"s2":["ocultaras","ocultases"],"vos":["ocultaras","ocultases"],"s3":["ocultara","ocultase"],"p1":["ocultáramos","ocultásemos"],"p2":["ocultarais","ocultaseis"],"p3":["ocultaran","ocultasen"]},
+    "SubFut": {"s1":["ocultare"],"s2":["ocultares"],"vos":["ocultares"],"s3":["ocultare"],"p1":["ocultáremos"],"p2":["ocultareis"],"p3":["ocultaren"]},
+    "CmdPos": {"s2":["oculta"],"vos":["ocultá"],"s3":["oculte"],"p1":["ocultemos"],"p2":["ocultad"],"p3":["oculten"]}
+  }
+}

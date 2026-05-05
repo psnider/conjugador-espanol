@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[roð̞eˈaɾ]",
+    "silabacion": "ro-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rodear","gerundio":["rodeando"],"participio":["rodeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rodeo"],"s2":["rodeas"],"vos":["rodeás"],"s3":["rodea"],"p1":["rodeamos"],"p2":["rodeáis"],"p3":["rodean"]},
+    "IndImp": {"s1":["rodeaba"],"s2":["rodeabas"],"vos":["rodeabas"],"s3":["rodeaba"],"p1":["rodeábamos"],"p2":["rodeabais"],"p3":["rodeaban"]},
+    "IndPret": {"s1":["rodeé"],"s2":["rodeaste"],"vos":["rodeaste"],"s3":["rodeó"],"p1":["rodeamos"],"p2":["rodeasteis"],"p3":["rodearon"]},
+    "IndFut": {"s1":["rodearé"],"s2":["rodearás"],"vos":["rodearás"],"s3":["rodeará"],"p1":["rodearemos"],"p2":["rodearéis"],"p3":["rodearán"]},
+    "IndCond": {"s1":["rodearía"],"s2":["rodearías"],"vos":["rodearías"],"s3":["rodearía"],"p1":["rodearíamos"],"p2":["rodearíais"],"p3":["rodearían"]},
+    "SubPres": {"s1":["rodee"],"s2":["rodees"],"vos":["rodees","rodeés"],"s3":["rodee"],"p1":["rodeemos"],"p2":["rodeéis"],"p3":["rodeen"]},
+    "SubImp": {"s1":["rodeara","rodease"],"s2":["rodearas","rodeases"],"vos":["rodearas","rodeases"],"s3":["rodeara","rodease"],"p1":["rodeáramos","rodeásemos"],"p2":["rodearais","rodeaseis"],"p3":["rodearan","rodeasen"]},
+    "SubFut": {"s1":["rodeare"],"s2":["rodeares"],"vos":["rodeares"],"s3":["rodeare"],"p1":["rodeáremos"],"p2":["rodeareis"],"p3":["rodearen"]},
+    "CmdPos": {"s2":["rodea"],"vos":["rodeá"],"s3":["rodee"],"p1":["rodeemos"],"p2":["rodead"],"p3":["rodeen"]}
+  }
+}

@@ -241,6 +241,9 @@ export function applyStemChangeToGerundStem(args) {
     }
     if (gerund_stem !== args.gerund_stem) {
         cambios.gerundio.push({ regla: gerundio_tema_cambio, temas: [gerund_stem] });
+        if (ponga_hiato) {
+            cambios.gerundio.push({ regla: "rompe diptongo 'ue' con 'h'", temas: [gerund_stem] });
+        }
     }
     return gerund_stem;
 }

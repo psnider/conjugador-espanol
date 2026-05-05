@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koð̞eˈaɾ]",
+    "silabacion": "co-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De codo y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"codear","gerundio":["codeando"],"participio":["codeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["codeo"],"s2":["codeas"],"vos":["codeás"],"s3":["codea"],"p1":["codeamos"],"p2":["codeáis"],"p3":["codean"]},
+    "IndImp": {"s1":["codeaba"],"s2":["codeabas"],"vos":["codeabas"],"s3":["codeaba"],"p1":["codeábamos"],"p2":["codeabais"],"p3":["codeaban"]},
+    "IndPret": {"s1":["codeé"],"s2":["codeaste"],"vos":["codeaste"],"s3":["codeó"],"p1":["codeamos"],"p2":["codeasteis"],"p3":["codearon"]},
+    "IndFut": {"s1":["codearé"],"s2":["codearás"],"vos":["codearás"],"s3":["codeará"],"p1":["codearemos"],"p2":["codearéis"],"p3":["codearán"]},
+    "IndCond": {"s1":["codearía"],"s2":["codearías"],"vos":["codearías"],"s3":["codearía"],"p1":["codearíamos"],"p2":["codearíais"],"p3":["codearían"]},
+    "SubPres": {"s1":["codee"],"s2":["codees"],"vos":["codees","codeés"],"s3":["codee"],"p1":["codeemos"],"p2":["codeéis"],"p3":["codeen"]},
+    "SubImp": {"s1":["codeara","codease"],"s2":["codearas","codeases"],"vos":["codearas","codeases"],"s3":["codeara","codease"],"p1":["codeáramos","codeásemos"],"p2":["codearais","codeaseis"],"p3":["codearan","codeasen"]},
+    "SubFut": {"s1":["codeare"],"s2":["codeares"],"vos":["codeares"],"s3":["codeare"],"p1":["codeáremos"],"p2":["codeareis"],"p3":["codearen"]},
+    "CmdPos": {"s2":["codea"],"vos":["codeá"],"s3":["codee"],"p1":["codeemos"],"p2":["codead"],"p3":["codeen"]}
+  }
+}

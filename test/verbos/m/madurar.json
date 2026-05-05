@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mað̞uˈɾaɾ]",
+    "silabacion": "ma-du-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín maturare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"madurar","gerundio":["madurando"],"participio":["madurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["maduro"],"s2":["maduras"],"vos":["madurás"],"s3":["madura"],"p1":["maduramos"],"p2":["maduráis"],"p3":["maduran"]},
+    "IndImp": {"s1":["maduraba"],"s2":["madurabas"],"vos":["madurabas"],"s3":["maduraba"],"p1":["madurábamos"],"p2":["madurabais"],"p3":["maduraban"]},
+    "IndPret": {"s1":["maduré"],"s2":["maduraste"],"vos":["maduraste"],"s3":["maduró"],"p1":["maduramos"],"p2":["madurasteis"],"p3":["maduraron"]},
+    "IndFut": {"s1":["maduraré"],"s2":["madurarás"],"vos":["madurarás"],"s3":["madurará"],"p1":["maduraremos"],"p2":["maduraréis"],"p3":["madurarán"]},
+    "IndCond": {"s1":["maduraría"],"s2":["madurarías"],"vos":["madurarías"],"s3":["maduraría"],"p1":["maduraríamos"],"p2":["maduraríais"],"p3":["madurarían"]},
+    "SubPres": {"s1":["madure"],"s2":["madures"],"vos":["madures","madurés"],"s3":["madure"],"p1":["maduremos"],"p2":["maduréis"],"p3":["maduren"]},
+    "SubImp": {"s1":["madurara","madurase"],"s2":["maduraras","madurases"],"vos":["maduraras","madurases"],"s3":["madurara","madurase"],"p1":["maduráramos","madurásemos"],"p2":["madurarais","maduraseis"],"p3":["maduraran","madurasen"]},
+    "SubFut": {"s1":["madurare"],"s2":["madurares"],"vos":["madurares"],"s3":["madurare"],"p1":["maduráremos"],"p2":["madurareis"],"p3":["maduraren"]},
+    "CmdPos": {"s2":["madura"],"vos":["madurá"],"s3":["madure"],"p1":["maduremos"],"p2":["madurad"],"p3":["maduren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsimisˈmaɾ]",
+    "silabacion": "en-si-mis-mar",
+    "acentuacion": "llana",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensimismar","gerundio":["ensimismando"],"participio":["ensimismado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ensimismo"],"s2":["ensimismas"],"vos":["ensimismás"],"s3":["ensimisma"],"p1":["ensimismamos"],"p2":["ensimismáis"],"p3":["ensimisman"]},
+    "IndImp": {"s1":["ensimismaba"],"s2":["ensimismabas"],"vos":["ensimismabas"],"s3":["ensimismaba"],"p1":["ensimismábamos"],"p2":["ensimismabais"],"p3":["ensimismaban"]},
+    "IndPret": {"s1":["ensimismé"],"s2":["ensimismaste"],"vos":["ensimismaste"],"s3":["ensimismó"],"p1":["ensimismamos"],"p2":["ensimismasteis"],"p3":["ensimismaron"]},
+    "IndFut": {"s1":["ensimismaré"],"s2":["ensimismarás"],"vos":["ensimismarás"],"s3":["ensimismará"],"p1":["ensimismaremos"],"p2":["ensimismaréis"],"p3":["ensimismarán"]},
+    "IndCond": {"s1":["ensimismaría"],"s2":["ensimismarías"],"vos":["ensimismarías"],"s3":["ensimismaría"],"p1":["ensimismaríamos"],"p2":["ensimismaríais"],"p3":["ensimismarían"]},
+    "SubPres": {"s1":["ensimisme"],"s2":["ensimismes"],"vos":["ensimismes","ensimismés"],"s3":["ensimisme"],"p1":["ensimismemos"],"p2":["ensimisméis"],"p3":["ensimismen"]},
+    "SubImp": {"s1":["ensimismara","ensimismase"],"s2":["ensimismaras","ensimismases"],"vos":["ensimismaras","ensimismases"],"s3":["ensimismara","ensimismase"],"p1":["ensimismáramos","ensimismásemos"],"p2":["ensimismarais","ensimismaseis"],"p3":["ensimismaran","ensimismasen"]},
+    "SubFut": {"s1":["ensimismare"],"s2":["ensimismares"],"vos":["ensimismares"],"s3":["ensimismare"],"p1":["ensimismáremos"],"p2":["ensimismareis"],"p3":["ensimismaren"]},
+    "CmdPos": {"s2":["ensimisma"],"vos":["ensimismá"],"s3":["ensimisme"],"p1":["ensimismemos"],"p2":["ensimismad"],"p3":["ensimismen"]}
+  }
+}

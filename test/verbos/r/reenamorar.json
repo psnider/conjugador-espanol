@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reẽnamoˈɾaɾ]",
+    "silabacion": "re-en-a-mo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reenamorar","gerundio":["reenamorando"], "participio":["reenamorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reenamoro"],"s2":["reenamoras"],"vos":["reenamorás"],"s3":["reenamora"],"p1":["reenamoramos"],"p2":["reenamoráis"],"p3":["reenamoran"]},
+    "IndImp": {"s1":["reenamoraba"],"s2":["reenamorabas"],"vos":["reenamorabas"],"s3":["reenamoraba"],"p1":["reenamorábamos"],"p2":["reenamorabais"],"p3":["reenamoraban"]},
+    "IndPret": {"s1":["reenamoré"],"s2":["reenamoraste"],"vos":["reenamoraste"],"s3":["reenamoró"],"p1":["reenamoramos"],"p2":["reenamorasteis"],"p3":["reenamoraron"]},
+    "IndFut": {"s1":["reenamoraré"],"s2":["reenamorarás"],"vos":["reenamorarás"],"s3":["reenamorará"],"p1":["reenamoraremos"],"p2":["reenamoraréis"],"p3":["reenamorarán"]},
+    "IndCond": {"s1":["reenamoraría"],"s2":["reenamorarías"],"vos":["reenamorarías"],"s3":["reenamoraría"],"p1":["reenamoraríamos"],"p2":["reenamoraríais"],"p3":["reenamorarían"]},
+    "SubPres": {"s1":["reenamore"],"s2":["reenamores"],"vos":[{"forma": "reenamores","uso":"Riop."},{"forma":"reenamorés","uso":"C.Am."}],"s3":["reenamore"],"p1":["reenamoremos"],"p2":["reenamoréis"],"p3":["reenamoren"]},
+    "SubImp": {"s1":["reenamorara","reenamorase"],"s2":["reenamoraras","reenamorases"],"vos":["reenamoraras","reenamorases"],"s3":["reenamorara","reenamorase"],"p1":["reenamoráramos","reenamorásemos"],"p2":["reenamorarais","reenamoraseis"],"p3":["reenamoraran","reenamorasen"]},
+    "SubFut": {"s1":["reenamorare"],"s2":["reenamorares"],"vos":["reenamorares"],"s3":["reenamorare"],"p1":["reenamoráremos"],"p2":["reenamorareis"],"p3":["reenamoraren"]},
+    "CmdPos": {"s2":["reenamora"],"vos":["reenamorá"],"s3":["reenamore"],"p1":["reenamoremos"],"p2":["reenamorad"],"p3":["reenamoren"]}
+  }
+}

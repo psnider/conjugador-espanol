@@ -10,7 +10,7 @@
     "build": "npm run build:node && npm run build:web",
     "cp-web-page": "cp html/página-conjugador.html ./index.html",
     "update-web-page": "npm run build && npm run update-verbos-with-test-results && npm run cp-web-page",
-    "validate": "node generated/test/validate-stem-change-patterns.js && node generated/test/validate-verbs-list.js",
+    "validate": "node generated/test/validate-stem-change-patterns.js && node generated/test/validate-verbs-list.js && node generated/test/validate-sufijos-regexes",
     "test-full": "npm run validate && npm run test",
     "test-list": "node generated/test/test.js",
     "test-resolve-conjugation-class": "node generated/test/test-resolve-conjugation-class.js",

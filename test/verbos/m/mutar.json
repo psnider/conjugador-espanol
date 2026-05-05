@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[muˈt̪aɾ]",
+    "silabacion": "mu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín mutare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mutar","gerundio":["mutando"],"participio":["mutado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["muto"],"s2":["mutas"],"vos":["mutás"],"s3":["muta"],"p1":["mutamos"],"p2":["mutáis"],"p3":["mutan"]},
+    "IndImp": {"s1":["mutaba"],"s2":["mutabas"],"vos":["mutabas"],"s3":["mutaba"],"p1":["mutábamos"],"p2":["mutabais"],"p3":["mutaban"]},
+    "IndPret": {"s1":["muté"],"s2":["mutaste"],"vos":["mutaste"],"s3":["mutó"],"p1":["mutamos"],"p2":["mutasteis"],"p3":["mutaron"]},
+    "IndFut": {"s1":["mutaré"],"s2":["mutarás"],"vos":["mutarás"],"s3":["mutará"],"p1":["mutaremos"],"p2":["mutaréis"],"p3":["mutarán"]},
+    "IndCond": {"s1":["mutaría"],"s2":["mutarías"],"vos":["mutarías"],"s3":["mutaría"],"p1":["mutaríamos"],"p2":["mutaríais"],"p3":["mutarían"]},
+    "SubPres": {"s1":["mute"],"s2":["mutes"],"vos":["mutes","mutés"],"s3":["mute"],"p1":["mutemos"],"p2":["mutéis"],"p3":["muten"]},
+    "SubImp": {"s1":["mutara","mutase"],"s2":["mutaras","mutases"],"vos":["mutaras","mutases"],"s3":["mutara","mutase"],"p1":["mutáramos","mutásemos"],"p2":["mutarais","mutaseis"],"p3":["mutaran","mutasen"]},
+    "SubFut": {"s1":["mutare"],"s2":["mutares"],"vos":["mutares"],"s3":["mutare"],"p1":["mutáremos"],"p2":["mutareis"],"p3":["mutaren"]},
+    "CmdPos": {"s2":["muta"],"vos":["mutá"],"s3":["mute"],"p1":["mutemos"],"p2":["mutad"],"p3":["muten"]}
+  }
+}

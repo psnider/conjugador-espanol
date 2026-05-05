@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskoˈlaɾ]",
+    "silabacion": "es-co-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín scholaris.",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"escolar","gerundio":["escolando"],"participio":["escolado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["escuelo"],"s2":["escuelas"],"vos":["escolás"],"s3":["escuela"],"p1":["escolamos"],"p2":["escoláis"],"p3":["escuelan"]},
+    "IndImp": {"s1":["escolaba"],"s2":["escolabas"],"vos":["escolabas"],"s3":["escolaba"],"p1":["escolábamos"],"p2":["escolabais"],"p3":["escolaban"]},
+    "IndPret": {"s1":["escolé"],"s2":["escolaste"],"vos":["escolaste"],"s3":["escoló"],"p1":["escolamos"],"p2":["escolasteis"],"p3":["escolaron"]},
+    "IndFut": {"s1":["escolaré"],"s2":["escolarás"],"vos":["escolarás"],"s3":["escolará"],"p1":["escolaremos"],"p2":["escolaréis"],"p3":["escolarán"]},
+    "IndCond": {"s1":["escolaría"],"s2":["escolarías"],"vos":["escolarías"],"s3":["escolaría"],"p1":["escolaríamos"],"p2":["escolaríais"],"p3":["escolarían"]},
+    "SubPres": {"s1":["escuele"],"s2":["escueles"],"vos":["escueles","escolés"],"s3":["escuele"],"p1":["escolemos"],"p2":["escoléis"],"p3":["escuelen"]},
+    "SubImp": {"s1":["escolara","escolase"],"s2":["escolaras","escolases"],"vos":["escolaras","escolases"],"s3":["escolara","escolase"],"p1":["escoláramos","escolásemos"],"p2":["escolarais","escolaseis"],"p3":["escolaran","escolasen"]},
+    "SubFut": {"s1":["escolare"],"s2":["escolares"],"vos":["escolares"],"s3":["escolare"],"p1":["escoláremos"],"p2":["escolareis"],"p3":["escolaren"]},
+    "CmdPos": {"s2":["escuela"],"vos":["escolá"],"s3":["escuele"],"p1":["escolemos"],"p2":["escolad"],"p3":["escuelen"]}
+  }
+}

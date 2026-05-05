@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ist̪ɾaˈeɾ]",
+    "silabacion": "dis-tra-er",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["traer"]
+  },
+  "formas_no_personales": {"infinitivo":"distraer","gerundio":["distrayendo"],"participio":["distraído"]},
+  "formas_personales": {
+    "IndPres": {"s1":["distraigo"],"s2":["distraes"],"vos":["distraés"],"s3":["distrae"],"p1":["distraemos"],"p2":["distraéis"],"p3":["distraen"]},
+    "IndImp": {"s1":["distraía"],"s2":["distraías"],"vos":["distraías"],"s3":["distraía"],"p1":["distraíamos"],"p2":["distraíais"],"p3":["distraían"]},
+    "IndPret": {"s1":["distraje"],"s2":["distrajiste"],"vos":["distrajiste"],"s3":["distrajo"],"p1":["distrajimos"],"p2":["distrajisteis"],"p3":["distrajeron"]},
+    "IndFut": {"s1":["distraeré"],"s2":["distraerás"],"vos":["distraerás"],"s3":["distraerá"],"p1":["distraeremos"],"p2":["distraeréis"],"p3":["distraerán"]},
+    "IndCond": {"s1":["distraería"],"s2":["distraerías"],"vos":["distraerías"],"s3":["distraería"],"p1":["distraeríamos"],"p2":["distraeríais"],"p3":["distraerían"]},
+    "SubPres": {"s1":["distraiga"],"s2":["distraigas"],"vos":["distraigas","distraigás"],"s3":["distraiga"],"p1":["distraigamos"],"p2":["distraigáis"],"p3":["distraigan"]},
+    "SubImp": {"s1":["distrajera","distrajese"],"s2":["distrajeras","distrajeses"],"vos":["distrajeras","distrajeses"],"s3":["distrajera","distrajese"],"p1":["distrajéramos","distrajésemos"],"p2":["distrajerais","distrajeseis"],"p3":["distrajeran","distrajesen"]},
+    "SubFut": {"s1":["distrajere"],"s2":["distrajeres"],"vos":["distrajeres"],"s3":["distrajere"],"p1":["distrajéremos"],"p2":["distrajereis"],"p3":["distrajeren"]},
+    "CmdPos": {"s2":["distrae"],"vos":["distraé"],"s3":["distraiga"],"p1":["distraigamos"],"p2":["distraed"],"p3":["distraigan"]}
+  }
+}

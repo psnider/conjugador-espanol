@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eð̞ifiˈkaɾ]",
+    "silabacion": "e-di-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aedificāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"edificar","gerundio":["edificando"],"participio":["edificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["edifico"],"s2":["edificas"],"vos":["edificás"],"s3":["edifica"],"p1":["edificamos"],"p2":["edificáis"],"p3":["edifican"]},
+    "IndImp": {"s1":["edificaba"],"s2":["edificabas"],"vos":["edificabas"],"s3":["edificaba"],"p1":["edificábamos"],"p2":["edificabais"],"p3":["edificaban"]},
+    "IndPret": {"s1":["edifiqué"],"s2":["edificaste"],"vos":["edificaste"],"s3":["edificó"],"p1":["edificamos"],"p2":["edificasteis"],"p3":["edificaron"]},
+    "IndFut": {"s1":["edificaré"],"s2":["edificarás"],"vos":["edificarás"],"s3":["edificará"],"p1":["edificaremos"],"p2":["edificaréis"],"p3":["edificarán"]},
+    "IndCond": {"s1":["edificaría"],"s2":["edificarías"],"vos":["edificarías"],"s3":["edificaría"],"p1":["edificaríamos"],"p2":["edificaríais"],"p3":["edificarían"]},
+    "SubPres": {"s1":["edifique"],"s2":["edifiques"],"vos":["edifiques","edifiqués"],"s3":["edifique"],"p1":["edifiquemos"],"p2":["edifiquéis"],"p3":["edifiquen"]},
+    "SubImp": {"s1":["edificara","edificase"],"s2":["edificaras","edificases"],"vos":["edificaras","edificases"],"s3":["edificara","edificase"],"p1":["edificáramos","edificásemos"],"p2":["edificarais","edificaseis"],"p3":["edificaran","edificasen"]},
+    "SubFut": {"s1":["edificare"],"s2":["edificares"],"vos":["edificares"],"s3":["edificare"],"p1":["edificáremos"],"p2":["edificareis"],"p3":["edificaren"]},
+    "CmdPos": {"s2":["edifica"],"vos":["edificá"],"s3":["edifique"],"p1":["edifiquemos"],"p2":["edificad"],"p3":["edifiquen"]}
+  }
+}

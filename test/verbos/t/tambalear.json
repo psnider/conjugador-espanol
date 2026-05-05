@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ãmbaleˈaɾ]",
+    "silabacion": "tam-ba-le-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tambalear","gerundio":["tambaleando"],"participio":["tambaleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tambaleo"],"s2":["tambaleas"],"vos":["tambaleás"],"s3":["tambalea"],"p1":["tambaleamos"],"p2":["tambaleáis"],"p3":["tambalean"]},
+    "IndImp": {"s1":["tambaleaba"],"s2":["tambaleabas"],"vos":["tambaleabas"],"s3":["tambaleaba"],"p1":["tambaleábamos"],"p2":["tambaleabais"],"p3":["tambaleaban"]},
+    "IndPret": {"s1":["tambaleé"],"s2":["tambaleaste"],"vos":["tambaleaste"],"s3":["tambaleó"],"p1":["tambaleamos"],"p2":["tambaleasteis"],"p3":["tambalearon"]},
+    "IndFut": {"s1":["tambalearé"],"s2":["tambalearás"],"vos":["tambalearás"],"s3":["tambaleará"],"p1":["tambalearemos"],"p2":["tambalearéis"],"p3":["tambalearán"]},
+    "IndCond": {"s1":["tambalearía"],"s2":["tambalearías"],"vos":["tambalearías"],"s3":["tambalearía"],"p1":["tambalearíamos"],"p2":["tambalearíais"],"p3":["tambalearían"]},
+    "SubPres": {"s1":["tambalee"],"s2":["tambalees"],"vos":["tambalees","tambaleés"],"s3":["tambalee"],"p1":["tambaleemos"],"p2":["tambaleéis"],"p3":["tambaleen"]},
+    "SubImp": {"s1":["tambaleara","tambalease"],"s2":["tambalearas","tambaleases"],"vos":["tambalearas","tambaleases"],"s3":["tambaleara","tambalease"],"p1":["tambaleáramos","tambaleásemos"],"p2":["tambalearais","tambaleaseis"],"p3":["tambalearan","tambaleasen"]},
+    "SubFut": {"s1":["tambaleare"],"s2":["tambaleares"],"vos":["tambaleares"],"s3":["tambaleare"],"p1":["tambaleáremos"],"p2":["tambaleareis"],"p3":["tambalearen"]},
+    "CmdPos": {"s2":["tambalea"],"vos":["tambaleá"],"s3":["tambalee"],"p1":["tambaleemos"],"p2":["tambalead"],"p3":["tambaleen"]}
+  }
+}

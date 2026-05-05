@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kolaβ̞oˈɾaɾ]",
+    "silabacion": "co-la-bo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Cultismo. Se documenta por primera vez en 1499. Del latín collaborāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"colaborar","gerundio":["colaborando"],"participio":["colaborado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["colaboro"],"s2":["colaboras"],"vos":["colaborás"],"s3":["colabora"],"p1":["colaboramos"],"p2":["colaboráis"],"p3":["colaboran"]},
+    "IndImp": {"s1":["colaboraba"],"s2":["colaborabas"],"vos":["colaborabas"],"s3":["colaboraba"],"p1":["colaborábamos"],"p2":["colaborabais"],"p3":["colaboraban"]},
+    "IndPret": {"s1":["colaboré"],"s2":["colaboraste"],"vos":["colaboraste"],"s3":["colaboró"],"p1":["colaboramos"],"p2":["colaborasteis"],"p3":["colaboraron"]},
+    "IndFut": {"s1":["colaboraré"],"s2":["colaborarás"],"vos":["colaborarás"],"s3":["colaborará"],"p1":["colaboraremos"],"p2":["colaboraréis"],"p3":["colaborarán"]},
+    "IndCond": {"s1":["colaboraría"],"s2":["colaborarías"],"vos":["colaborarías"],"s3":["colaboraría"],"p1":["colaboraríamos"],"p2":["colaboraríais"],"p3":["colaborarían"]},
+    "SubPres": {"s1":["colabore"],"s2":["colabores"],"vos":["colabores","colaborés"],"s3":["colabore"],"p1":["colaboremos"],"p2":["colaboréis"],"p3":["colaboren"]},
+    "SubImp": {"s1":["colaborara","colaborase"],"s2":["colaboraras","colaborases"],"vos":["colaboraras","colaborases"],"s3":["colaborara","colaborase"],"p1":["colaboráramos","colaborásemos"],"p2":["colaborarais","colaboraseis"],"p3":["colaboraran","colaborasen"]},
+    "SubFut": {"s1":["colaborare"],"s2":["colaborares"],"vos":["colaborares"],"s3":["colaborare"],"p1":["colaboráremos"],"p2":["colaborareis"],"p3":["colaboraren"]},
+    "CmdPos": {"s2":["colabora"],"vos":["colaborá"],"s3":["colabore"],"p1":["colaboremos"],"p2":["colaborad"],"p3":["colaboren"]}
+  }
+}

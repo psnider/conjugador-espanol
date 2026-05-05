@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪upliˈkaɾ]",
+    "silabacion": "du-pli-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín duplicāre ('doblar').[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"duplicar","gerundio":["duplicando"],"participio":["duplicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["duplico"],"s2":["duplicas"],"vos":["duplicás"],"s3":["duplica"],"p1":["duplicamos"],"p2":["duplicáis"],"p3":["duplican"]},
+    "IndImp": {"s1":["duplicaba"],"s2":["duplicabas"],"vos":["duplicabas"],"s3":["duplicaba"],"p1":["duplicábamos"],"p2":["duplicabais"],"p3":["duplicaban"]},
+    "IndPret": {"s1":["dupliqué"],"s2":["duplicaste"],"vos":["duplicaste"],"s3":["duplicó"],"p1":["duplicamos"],"p2":["duplicasteis"],"p3":["duplicaron"]},
+    "IndFut": {"s1":["duplicaré"],"s2":["duplicarás"],"vos":["duplicarás"],"s3":["duplicará"],"p1":["duplicaremos"],"p2":["duplicaréis"],"p3":["duplicarán"]},
+    "IndCond": {"s1":["duplicaría"],"s2":["duplicarías"],"vos":["duplicarías"],"s3":["duplicaría"],"p1":["duplicaríamos"],"p2":["duplicaríais"],"p3":["duplicarían"]},
+    "SubPres": {"s1":["duplique"],"s2":["dupliques"],"vos":["dupliques","dupliqués"],"s3":["duplique"],"p1":["dupliquemos"],"p2":["dupliquéis"],"p3":["dupliquen"]},
+    "SubImp": {"s1":["duplicara","duplicase"],"s2":["duplicaras","duplicases"],"vos":["duplicaras","duplicases"],"s3":["duplicara","duplicase"],"p1":["duplicáramos","duplicásemos"],"p2":["duplicarais","duplicaseis"],"p3":["duplicaran","duplicasen"]},
+    "SubFut": {"s1":["duplicare"],"s2":["duplicares"],"vos":["duplicares"],"s3":["duplicare"],"p1":["duplicáremos"],"p2":["duplicareis"],"p3":["duplicaren"]},
+    "CmdPos": {"s2":["duplica"],"vos":["duplicá"],"s3":["duplique"],"p1":["dupliquemos"],"p2":["duplicad"],"p3":["dupliquen"]}
+  }
+}

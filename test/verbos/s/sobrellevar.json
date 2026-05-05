@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾeʝeˈβ̞aɾ]",
+    "silabacion": "so-bre-lle-var",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrellevar","gerundio":["sobrellevando"],"participio":["sobrellevado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobrellevo"],"s2":["sobrellevas"],"vos":["sobrellevás"],"s3":["sobrelleva"],"p1":["sobrellevamos"],"p2":["sobrelleváis"],"p3":["sobrellevan"]},
+    "IndImp": {"s1":["sobrellevaba"],"s2":["sobrellevabas"],"vos":["sobrellevabas"],"s3":["sobrellevaba"],"p1":["sobrellevábamos"],"p2":["sobrellevabais"],"p3":["sobrellevaban"]},
+    "IndPret": {"s1":["sobrellevé"],"s2":["sobrellevaste"],"vos":["sobrellevaste"],"s3":["sobrellevó"],"p1":["sobrellevamos"],"p2":["sobrellevasteis"],"p3":["sobrellevaron"]},
+    "IndFut": {"s1":["sobrellevaré"],"s2":["sobrellevarás"],"vos":["sobrellevarás"],"s3":["sobrellevará"],"p1":["sobrellevaremos"],"p2":["sobrellevaréis"],"p3":["sobrellevarán"]},
+    "IndCond": {"s1":["sobrellevaría"],"s2":["sobrellevarías"],"vos":["sobrellevarías"],"s3":["sobrellevaría"],"p1":["sobrellevaríamos"],"p2":["sobrellevaríais"],"p3":["sobrellevarían"]},
+    "SubPres": {"s1":["sobrelleve"],"s2":["sobrelleves"],"vos":["sobrelleves","sobrellevés"],"s3":["sobrelleve"],"p1":["sobrellevemos"],"p2":["sobrellevéis"],"p3":["sobrelleven"]},
+    "SubImp": {"s1":["sobrellevara","sobrellevase"],"s2":["sobrellevaras","sobrellevases"],"vos":["sobrellevaras","sobrellevases"],"s3":["sobrellevara","sobrellevase"],"p1":["sobrelleváramos","sobrellevásemos"],"p2":["sobrellevarais","sobrellevaseis"],"p3":["sobrellevaran","sobrellevasen"]},
+    "SubFut": {"s1":["sobrellevare"],"s2":["sobrellevares"],"vos":["sobrellevares"],"s3":["sobrellevare"],"p1":["sobrelleváremos"],"p2":["sobrellevareis"],"p3":["sobrellevaren"]},
+    "CmdPos": {"s2":["sobrelleva"],"vos":["sobrellevá"],"s3":["sobrelleve"],"p1":["sobrellevemos"],"p2":["sobrellevad"],"p3":["sobrelleven"]}
+  }
+}

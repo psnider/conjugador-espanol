@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪ɾaˈsaɾ]",
+    "silabacion": "re-tra-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"retrasar","gerundio":["retrasando"],"participio":["retrasado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["retraso"],"s2":["retrasas"],"vos":["retrasás"],"s3":["retrasa"],"p1":["retrasamos"],"p2":["retrasáis"],"p3":["retrasan"]},
+    "IndImp": {"s1":["retrasaba"],"s2":["retrasabas"],"vos":["retrasabas"],"s3":["retrasaba"],"p1":["retrasábamos"],"p2":["retrasabais"],"p3":["retrasaban"]},
+    "IndPret": {"s1":["retrasé"],"s2":["retrasaste"],"vos":["retrasaste"],"s3":["retrasó"],"p1":["retrasamos"],"p2":["retrasasteis"],"p3":["retrasaron"]},
+    "IndFut": {"s1":["retrasaré"],"s2":["retrasarás"],"vos":["retrasarás"],"s3":["retrasará"],"p1":["retrasaremos"],"p2":["retrasaréis"],"p3":["retrasarán"]},
+    "IndCond": {"s1":["retrasaría"],"s2":["retrasarías"],"vos":["retrasarías"],"s3":["retrasaría"],"p1":["retrasaríamos"],"p2":["retrasaríais"],"p3":["retrasarían"]},
+    "SubPres": {"s1":["retrase"],"s2":["retrases"],"vos":["retrases","retrasés"],"s3":["retrase"],"p1":["retrasemos"],"p2":["retraséis"],"p3":["retrasen"]},
+    "SubImp": {"s1":["retrasara","retrasase"],"s2":["retrasaras","retrasases"],"vos":["retrasaras","retrasases"],"s3":["retrasara","retrasase"],"p1":["retrasáramos","retrasásemos"],"p2":["retrasarais","retrasaseis"],"p3":["retrasaran","retrasasen"]},
+    "SubFut": {"s1":["retrasare"],"s2":["retrasares"],"vos":["retrasares"],"s3":["retrasare"],"p1":["retrasáremos"],"p2":["retrasareis"],"p3":["retrasaren"]},
+    "CmdPos": {"s2":["retrasa"],"vos":["retrasá"],"s3":["retrase"],"p1":["retrasemos"],"p2":["retrasad"],"p3":["retrasen"]}
+  }
+}

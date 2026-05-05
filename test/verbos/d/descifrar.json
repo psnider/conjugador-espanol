@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esiˈfɾaɾ]",
+    "silabacion": "des-ci-frar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y cifrar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descifrar","gerundio":["descifrando"],"participio":["descifrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descifro"],"s2":["descifras"],"vos":["descifrás"],"s3":["descifra"],"p1":["desciframos"],"p2":["descifráis"],"p3":["descifran"]},
+    "IndImp": {"s1":["descifraba"],"s2":["descifrabas"],"vos":["descifrabas"],"s3":["descifraba"],"p1":["descifrábamos"],"p2":["descifrabais"],"p3":["descifraban"]},
+    "IndPret": {"s1":["descifré"],"s2":["descifraste"],"vos":["descifraste"],"s3":["descifró"],"p1":["desciframos"],"p2":["descifrasteis"],"p3":["descifraron"]},
+    "IndFut": {"s1":["descifraré"],"s2":["descifrarás"],"vos":["descifrarás"],"s3":["descifrará"],"p1":["descifraremos"],"p2":["descifraréis"],"p3":["descifrarán"]},
+    "IndCond": {"s1":["descifraría"],"s2":["descifrarías"],"vos":["descifrarías"],"s3":["descifraría"],"p1":["descifraríamos"],"p2":["descifraríais"],"p3":["descifrarían"]},
+    "SubPres": {"s1":["descifre"],"s2":["descifres"],"vos":["descifres","descifrés"],"s3":["descifre"],"p1":["descifremos"],"p2":["descifréis"],"p3":["descifren"]},
+    "SubImp": {"s1":["descifrara","descifrase"],"s2":["descifraras","descifrases"],"vos":["descifraras","descifrases"],"s3":["descifrara","descifrase"],"p1":["descifráramos","descifrásemos"],"p2":["descifrarais","descifraseis"],"p3":["descifraran","descifrasen"]},
+    "SubFut": {"s1":["descifrare"],"s2":["descifrares"],"vos":["descifrares"],"s3":["descifrare"],"p1":["descifráremos"],"p2":["descifrareis"],"p3":["descifraren"]},
+    "CmdPos": {"s2":["descifra"],"vos":["descifrá"],"s3":["descifre"],"p1":["descifremos"],"p2":["descifrad"],"p3":["descifren"]}
+  }
+}

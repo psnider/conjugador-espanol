@@ -1,6 +1,6 @@
 import { MoodTense, CambiosConjugacionales, VerbConjugation, VerbConjugationAnnotated, VerbConjugationStems, VerbConjugationSuffixes, FormaConjugada, GrammaticalPerson, Uso, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla  } from "."
 import { getTemaConAlternanciaVocálica, getTemaConAlternanciaVocálica_IndPret3P } from "./alternancia-vocálica.js"
-import { acumulaCambiosPorPersona, applyToFormasConjugadas, asFormaConjugada, añadeCambiosPorPersona, combinaFormasConjugadas, formaConjugadaIgual, getForma, isValueless, persons_w_vos, setStem, vowels } from "./lib.js"
+import { acumulaCambiosPorPersona, applyToFormasConjugadas, asFormaConjugada, assert, añadeCambiosPorPersona, combinaFormasConjugadas, formaConjugadaIgual, getForma, isValueless, persons_w_vos, setStem, vowels } from "./lib.js"
 import { moveStress, removeStress, stressed_regex } from "./move-stress.js"
 import { aplicaPrefijosClaseConjugacional } from "./prefixes.js"
 import { getRegularRules, getRegularSuffixes, VerbAspectRules } from "./regular-verb-rules.js"
@@ -154,15 +154,15 @@ export function getUnprefixedStemForIndPret3P(conj_and_deriv_rules: ConjugationA
 
 
 // get the stems of infinitivo_sin_prefijos
-export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[], suffixes: VerbConjugation, reglas_aplicadas: CambiosConjugacionales) : VerbConjugationStems {
+export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, temas_regulares: VerbConjugation, suffixes: VerbConjugation, cambios: CambiosPorPersona) : VerbConjugationStems {
     function getTemaDeModoTiempo(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense) {
         let temas_de_modo_tiempo: VerbConjugationStems
-        const cambios_aplicadas: CambiosPorPersona = {}
+        const cambios_aplicadas: CambiosPorPersona = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
         switch (mood_tense) {
         case "IndPret":
             temas_de_modo_tiempo = getTemaPretérito(conj_and_deriv_rules, mood_tense)
             if (temas_de_modo_tiempo) {
-                acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_de_modo_tiempo, regla: "tema pretérito excepcional"})
+                acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_de_modo_tiempo, regla: "tema pretérito excepcional"})
             }
             break;
         case "SubImp":
@@ -172,11 +172,11 @@ export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivatio
                 // add_suffix_to_preterite_p3_stem
                 if (cached_tema_pretérito_p3_de_modelo) {
                     temas_de_modo_tiempo = setStem([cached_tema_pretérito_p3_de_modelo])
-                    acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_de_modo_tiempo, regla: "tema pretérito 3.ª persona plural"})
+                    acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_de_modo_tiempo, regla: "tema pretérito 3.ª persona plural"})
                     const tema_p1_estresado = stressLastSylableOfP1Stem(temas_de_modo_tiempo.p1)
                     if (tema_p1_estresado) {
                         temas_de_modo_tiempo.p1 = [tema_p1_estresado]
-                        acumulaCambiosPorPersona({cambios_aplicadas, persona: "p1", temas: temas_de_modo_tiempo, regla: "estrese tema 1.ª persona plural"})
+                        acumulaCambiosPorPersona({cambios: cambios_de_temas, persona: "p1", temas: temas_de_modo_tiempo, regla: "estrese tema 1.ª persona plural"})
                     }
                 }
             }
@@ -186,7 +186,7 @@ export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivatio
             {
                 temas_de_modo_tiempo = getTemaFuturo(conj_and_deriv_rules, mood_tense)
                 if (temas_de_modo_tiempo) {
-                    acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_de_modo_tiempo, regla: "tema futuro excepcional"})
+                    acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_de_modo_tiempo, regla: "tema futuro excepcional"})
                 }
                 break;
             }
@@ -196,7 +196,7 @@ export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivatio
             {
                 temas_de_modo_tiempo = getTemaPresenteYo(conj_and_deriv_rules, mood_tense)
                 if (temas_de_modo_tiempo) {
-                    acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_de_modo_tiempo, regla: "tema presente yo"})
+                    acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_de_modo_tiempo, regla: "tema presente yo"})
                 }
             }
             break;
@@ -204,38 +204,39 @@ export function getUnprefixedStems(conj_and_deriv_rules: ConjugationAndDerivatio
         if (temas_de_modo_tiempo) {
             const temas_prefijadas_clase = applicaPrefijosClaseConjugacional(conj_and_deriv_rules, temas_de_modo_tiempo)
             if (temas_prefijadas_clase) {
-                acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_prefijadas_clase, regla: "prefijos de clase conjugacional"})
+                acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_prefijadas_clase, regla: "prefijos de clase conjugacional"})
                 temas_de_modo_tiempo = accumulateChangedForms({base: temas_de_modo_tiempo, updates: temas_prefijadas_clase})
             }
         }
         return {temas_de_modo_tiempo, cambios_aplicadas}
     }
+    const cambios_de_temas: CambiosPorPersona = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
     // find the stems without prefixes
-    const temas_regulares = getTemasRegulares(conj_and_deriv_rules, mood_tense, ancestor_rule_sets)
-    const cambios_aplicadas = reglas_aplicadas.cambios
-    acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_regulares, regla: "regular"})
-    let temas_acumulados = temas_regulares
+    let temas = temas_regulares
     // then convert to use the prefix pattern of the ClaseConjugacional
     const temas_prefijadas_clase = applicaPrefijosClaseConjugacional(conj_and_deriv_rules, temas_regulares)
     if (temas_prefijadas_clase) {
-        acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_prefijadas_clase, regla: "prefijos de clase conjugacional"})
-        temas_acumulados = accumulateChangedForms({base: temas_acumulados, updates: temas_prefijadas_clase})
+        acumulaCambiosPorPersona({cambios: cambios_de_temas, temas: temas_prefijadas_clase, regla: "prefijos de clase conjugacional"})
+        temas = accumulateChangedForms({base: temas, updates: temas_prefijadas_clase})
     }
     // alternancia debe sigue la adición de los prefijos
-    const temas_con_alternancias = getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense, temas_acumulados)
-    if (temas_con_alternancias) {
-        acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_con_alternancias, regla: "tema con alternancia vocálica"})
-        temas_acumulados = accumulateChangedForms({base: temas_acumulados, updates: temas_con_alternancias})
+    const temas_con_alternancias = getTemaConAlternanciaVocálica(conj_and_deriv_rules, mood_tense, temas)
+    if (temas_con_alternancias.changed_stems) {
+        temas = accumulateChangedForms({base: temas, updates: temas_con_alternancias.changed_stems})
+        if (temas_con_alternancias.reglas_aplicadas) {
+            añadeCambiosPorPersona({acumulado: cambios_de_temas, adicional: temas_con_alternancias.reglas_aplicadas})
+        }
     }
     // las formas exigido por el modo/tiempo domina las otras formas
     const {temas_de_modo_tiempo, cambios_aplicadas: cambios_aplicadas_de_modo_tiempo} = getTemaDeModoTiempo(conj_and_deriv_rules, mood_tense)
     if (temas_de_modo_tiempo) {
         if (cambios_aplicadas_de_modo_tiempo) {
-            añadeCambiosPorPersona({acumulado: cambios_aplicadas, adicional: cambios_aplicadas_de_modo_tiempo})
+            añadeCambiosPorPersona({acumulado: cambios_de_temas, adicional: cambios_aplicadas_de_modo_tiempo})
         }
-        temas_acumulados = accumulateChangedForms({base: temas_acumulados, updates: temas_de_modo_tiempo})
+        temas = accumulateChangedForms({base: temas, updates: temas_de_modo_tiempo})
     }
-    return temas_acumulados
+    añadeCambiosPorPersona({acumulado: cambios, adicional: cambios_de_temas})
+    return temas
 }
 
 
@@ -346,14 +347,14 @@ function mergeFormas(primario: VerbConjugation, segudario: VerbConjugation) {
 
 const modo_tiempos_por_acepta_regular = ["IndPres", "SubPres", "CmdPos", "CmdNeg"]
 export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbConjugationAnnotated | undefined {
-    console.log(`conjugateVerb(${infinitivo}, ${mood_tense})`)
     const conj_and_deriv_rules = resolveConjugationClass(infinitivo)
     if (!conj_and_deriv_rules) {
         return undefined
     }
     const modelo = conj_and_deriv_rules.modelo
     const notes = getAnnotations(infinitivo, modelo, mood_tense)
-    let {forms, cambios_conjugacional} = _conjugateVerb(conj_and_deriv_rules, mood_tense)
+    const primary = _conjugateVerb(conj_and_deriv_rules, mood_tense)
+    let forms = primary.forms
     const acepta_regular = conj_and_deriv_rules?.morphological_rules?.de_infinitivo?.acepta_regular || conj_and_deriv_rules?.morphological_rules?.de_modelo?.acepta_regular
     if (acepta_regular) {
         if (modo_tiempos_por_acepta_regular.includes(mood_tense)) {
@@ -366,14 +367,15 @@ export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbCo
             if (acepta_regular === "primaria") {
                 mergeFormas(secondary.forms, forms)
                 forms = secondary.forms
-                notes.cambios_conjugacional_secundaria = notes.cambios_conjugacional_primaria
-                notes.cambios_conjugacional_primaria = secondary.cambios_conjugacional
+                notes.cambios_conjugacional_secundaria = primary.cambios_conjugacionales
+                notes.cambios_conjugacional_primaria = secondary.cambios_conjugacionales
             } else {
                 mergeFormas(forms, secondary.forms)
+                notes.cambios_conjugacional_secundaria = secondary.cambios_conjugacionales
             }
         }
     } else {
-        notes.cambios_conjugacional_primaria = cambios_conjugacional
+        notes.cambios_conjugacional_primaria = primary.cambios_conjugacionales
     }
     return { notes, forms }
 }
@@ -381,7 +383,7 @@ export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbCo
 
 // The regular_suffixes determine the forms. For example, if the suffix is missing for "s1", then that form is not produced.
 // This also corrects stress accents according to standard Spanish stress rules.
-export function appendSuffixesToStems(infinitivo: string, stems: VerbConjugationStems, regular_suffixes: VerbConjugationSuffixes, cambios_aplicadas: CambiosPorPersona) {
+export function appendSuffixesToStems(infinitivo: string, stems: VerbConjugationStems, regular_suffixes: VerbConjugationSuffixes, cambios: CambiosPorPersona) {
     function appendPreferingStressFromSuffix(stem: string, suffix: string) : {joined: string, unstressed_stem?: string} {
         if (suffix.match(stressed_regex)) {
             const unstressed_stem = removeStress(stem)
@@ -500,26 +502,26 @@ export function appendSuffixesToStems(infinitivo: string, stems: VerbConjugation
                 }
                 const combined = combineStemWithSuffixes(stem, suffix_forms, gramatical_person)
                 combined_stems_w_suffixes[gramatical_person] = combined
-                acumulaCambiosPorPersona({cambios_aplicadas, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade unos sufijos a un tema"})
+                acumulaCambiosPorPersona({cambios, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade unos sufijos a un tema"})
             } else {
                 if (suffix_forms.length == 1) {
                     const combined = combineStemsWithSuffix(stem_forms, suffix_forms[0], gramatical_person)
                     combined_stems_w_suffixes[gramatical_person] = combined
-                    acumulaCambiosPorPersona({cambios_aplicadas, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade un sufijo a unos temas"})
+                    acumulaCambiosPorPersona({cambios, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade un sufijo a unos temas"})
                 } else if (suffix_forms.length == 2) {
                     if (stem_forms.length == 2) {
                         const tipo_combinacional = ((typeof stem_forms[0] === "string") && (typeof stem_forms[1] === "string")) ? "matrice" : "secuencial"
                         const regla: ReglaConjugacional = ((tipo_combinacional === "matrice") ? "multiplica 2 sufijos por 2 temas" : "añade correspondiente 2 sufijos a 2 temas")
                         const combined = combine2StemsWith2Suffixes(stem_forms, suffix_forms, gramatical_person, tipo_combinacional)
                         combined_stems_w_suffixes[gramatical_person] = combined
-                        acumulaCambiosPorPersona({cambios_aplicadas, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla})
+                        acumulaCambiosPorPersona({cambios, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla})
                     } else {
                         // Guess that if there are more than 2 stems, this will be replaced later by specific overrides, not yet encountered...
                         // FIX: figure out how to support these combinations more reliably: probably need to gather exceptional forms first, that is reverse of the current order
                         const stem_form_0 = stem_forms[0]
                         const combined = combineStemWithSuffixes(stem_forms[0], suffix_forms, gramatical_person)
                         combined_stems_w_suffixes[gramatical_person] = combined
-                        acumulaCambiosPorPersona({cambios_aplicadas, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade unos sufijos a un tema"})
+                        acumulaCambiosPorPersona({cambios, persona: gramatical_person, temas: stems, sufijos: regular_suffixes, regla: "añade unos sufijos a un tema"})
                     }
                 } else {
                     throw new Error(`FIX: ${infinitivo},${gramatical_person}: support multiple stems=${JSON.stringify(stem_forms)} with mulltiple suffixes=${JSON.stringify(suffix_forms)}`)
@@ -539,7 +541,7 @@ export function appendSuffixesToStems(infinitivo: string, stems: VerbConjugation
     }
     if (Object.keys(unstressed_stems).length > 0) {
         // FIX: does this need to be inserted into the changes before the previous ones (from this function)
-        acumulaCambiosPorPersona({cambios_aplicadas, temas: unstressed_stems, regla: "elimina el estrese del tema"})
+        acumulaCambiosPorPersona({cambios, temas: unstressed_stems, regla: "elimina el estrese del tema"})
     }
     return combined_stems_w_suffixes
 }
@@ -570,7 +572,7 @@ interface Results_getSuffixesForLexicalExceptions {
 
 
 function getSuffixesForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, suffixes: VerbConjugation, forms_to_stress_last_char_of_stem?: (keyof VerbConjugation)[]) : Results_getSuffixesForLexicalExceptions {
-    const cambios_aplicadas_por_sufijos: CambiosPorPersona = {}
+    const cambios_aplicadas_por_sufijos: CambiosPorPersona = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
     const sufijos_excepcionales: VerbConjugationSuffixes = {}
     function eliminaEstrésDeSufijosDeTemasEstresados() {
         // Añade el estrés a las temas de los sufijos que lo exigen 
@@ -606,7 +608,6 @@ function getSuffixesForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDer
                     const sufijos = suffixes[gramatical_person]
                     sufijos_de_reglas[gramatical_person] = sufijos
                     sufijos_excepcionales[gramatical_person] = sufijos
-                    cambios_aplicadas_por_sufijos[gramatical_person] = cambios_aplicadas_por_sufijos[gramatical_person] || []
                     cambios_aplicadas_por_sufijos[gramatical_person].push({regla, sufijos})
                 }
             }
@@ -648,7 +649,7 @@ const last_vowel_regex = new RegExp(`[${vowels}]([^${vowels}]*)$`, "u")
 
 interface Results_getStemsForLexicalExceptions {
     exceptional_stems?: VerbConjugationStems
-    cambios_aplicadas: CambiosPorPersona
+    cambios: CambiosPorPersona
 }
 
 
@@ -663,15 +664,15 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
                 const persona = <keyof VerbConjugationStems> key
                 const temas = temas_excepcionales[persona]
                 temas_excepcionales_sin_prefijos[persona] = temas
-                acumulaCambiosPorPersona({cambios_aplicadas, persona, temas: temas_excepcionales_sin_prefijos, regla})
+                acumulaCambiosPorPersona({cambios, persona, temas: temas_excepcionales_sin_prefijos, regla})
                 if (de_modelo) {
                     const prefijados = applyToFormasConjugadas(temas, (tema: string) => {
                         const prefijado = aplicaPrefijosClaseConjugacional(tema, prefixes)
                         return prefijado
                     })
-                    if (prefijados != null) {
+                    if (! isValueless(prefijados)) {
                         temas_excepcionales_prefijados[persona] = prefijados
-                        acumulaCambiosPorPersona({cambios_aplicadas, persona, temas: temas_excepcionales_prefijados, regla})
+                        acumulaCambiosPorPersona({cambios, persona, temas: temas_excepcionales_prefijados, regla})
                     }
                 }
             }
@@ -683,24 +684,24 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
             }
         }
     }
-    const cambios_aplicadas: CambiosPorPersona = {}
+    const cambios: CambiosPorPersona = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
     let exceptional_stems : VerbConjugationStems = {}
     const {morphological_rules, prefixes, cached_tema_pretérito_p3_de_modelo} = conj_and_deriv_rules
     const reglas_excepcionales_de_modelo = <VerbAspectRulesWithFullyIrregularForms> morphological_rules?.de_modelo?.excepciones_léxicas?.reglas?.[mood_tense]
     const reglas_excepcionales_de_infinitivo = <VerbAspectRulesWithFullyIrregularForms> morphological_rules?.de_infinitivo?.excepciones_léxicas?.reglas?.[mood_tense]
-    const tema_suplicativo = reglas_excepcionales_de_modelo?.tema_suplicativo
-    if (tema_suplicativo) {
-        const temas_suplicativos = setStem(tema_suplicativo)
-        acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_suplicativos, regla: "tema suplicativo"})
-        const formas_prefijados = applyToFormasConjugadas(tema_suplicativo, (tema: string) => {
+    const tema_supletivo = reglas_excepcionales_de_modelo?.tema_supletivo
+    if (tema_supletivo) {
+        const temas_supletivos = setStem(tema_supletivo)
+        acumulaCambiosPorPersona({cambios, temas: temas_supletivos, regla: "tema supletivo"})
+        const formas_prefijados = applyToFormasConjugadas(tema_supletivo, (tema: string) => {
             const prefijado = aplicaPrefijosClaseConjugacional(tema, prefixes)
             return prefijado
         })
         if (formas_prefijados) {
-            const tema_suplicativo_prefijado = combinaFormasConjugadas(tema_suplicativo, formas_prefijados)
-            const temas_suplicativos_prefijados = setStem(tema_suplicativo_prefijado)
-            exceptional_stems = {...temas_suplicativos_prefijados}
-            acumulaCambiosPorPersona({cambios_aplicadas, temas: temas_suplicativos_prefijados, regla: "prefijos de clase conjugacional"})
+            const tema_supletivo_prefijado = combinaFormasConjugadas(tema_supletivo, formas_prefijados)
+            const temas_supletivos_prefijados = setStem(tema_supletivo_prefijado)
+            exceptional_stems = {...temas_supletivos_prefijados}
+            acumulaCambiosPorPersona({cambios, temas: temas_supletivos_prefijados, regla: "prefijos de clase conjugacional"})
         }
     } else {
         // FIX: this may be a duplicate of what was done in getTemaDeModoTiempo
@@ -709,7 +710,7 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
             const stem = cached_tema_pretérito_p3_de_modelo
             const tema_con_cambios_clase_conjugcional = aplicaPrefijosClaseConjugacional(stem, prefixes)
             exceptional_stems = setStem([tema_con_cambios_clase_conjugcional])
-            acumulaCambiosPorPersona({cambios_aplicadas, temas: exceptional_stems, regla: "tema pretérito 3.ª persona plural"})
+            acumulaCambiosPorPersona({cambios, temas: exceptional_stems, regla: "tema pretérito 3.ª persona plural"})
         }
     }
     // FIX: determine how these can combine, in order to limit tests and possible overlap
@@ -752,10 +753,11 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
         }
         if (Object.keys(estrés_cambiado).length > 0) {
             exceptional_stems = accumulateChangedForms({base: exceptional_stems, updates: estrés_cambiado})
-            acumulaCambiosPorPersona({cambios_aplicadas, temas: estrés_cambiado, regla: "estrese última vocal del tema"})
+            const regla: ReglaConjugacional = "estrese última vocal del tema"
+            acumulaCambiosPorPersona({cambios, temas: estrés_cambiado, regla})
         }
     }
-    return {exceptional_stems, cambios_aplicadas}
+    return {exceptional_stems, cambios}
 }
 
 
@@ -770,13 +772,27 @@ function getStemsForLexicalExceptions(conj_and_deriv_rules: ConjugationAndDeriva
 // }
 
 
-export function getSuffixes(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[], cambios_aplicadas: CambiosPorPersona) {
-    const regular_suffixes = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets)
+interface FormasRegulares {
+    temas: VerbConjugation
+    sufijos: VerbConjugation
+}
+
+
+function consigueFormasRegulares(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, ancestor_rule_sets: VerbAspectRules[], cambios: CambiosPorPersona) : FormasRegulares {
+    const temas = getTemasRegulares(conj_and_deriv_rules, mood_tense, ancestor_rule_sets)
+    const sufijos = getRegularSuffixes(conj_and_deriv_rules.infinitivo_sin_prefijos, mood_tense, ancestor_rule_sets)
+    acumulaCambiosPorPersona({cambios, temas, sufijos, regla: "regular"})
+    return {temas, sufijos}
+}
+
+
+export function getSuffixes(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, regular_suffixes: VerbConjugation, cambios: CambiosPorPersona) {
     const strong_pretérito_suffixes = getSuffixesForStrongPretérito(conj_and_deriv_rules, mood_tense)
-    const presente_yo_suffixes = getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense)
     const regular_w_pretérito = accumulateChangedForms({base: regular_suffixes, updates: strong_pretérito_suffixes})
+    acumulaCambiosPorPersona({cambios, sufijos: strong_pretérito_suffixes, regla: "sufjio de pretérito fuerte"})
+    const presente_yo_suffixes = getSuffixesForPresenteYo(conj_and_deriv_rules, mood_tense)
     const sufijos = accumulateChangedForms({base: regular_w_pretérito, updates: presente_yo_suffixes})
-    acumulaCambiosPorPersona({cambios_aplicadas, sufijos, regla: "regular"})
+    acumulaCambiosPorPersona({cambios, sufijos: strong_pretérito_suffixes, regla: "sufjio de persente yo"})
     return sufijos
 }
 
@@ -790,16 +806,16 @@ export function getSuffixFor3p(conj_and_deriv_rules: ConjugationAndDerivationRul
 
 
 // FIX: the name 'unprefixed_stems' is a misnomer, find a better name
-function applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, unprefixed_stems: VerbConjugation, suffixes: VerbConjugation, cambios_aplicadas: CambiosPorPersona) : void {
+function applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, unprefixed_stems: VerbConjugation, suffixes: VerbConjugation, cambios: CambiosPorPersona) : void {
     const forms_to_stress_last_char_of_stem = getPersonsTosStressLastCharOfStem(conj_and_deriv_rules, mood_tense)
     const result_stems = getStemsForLexicalExceptions(conj_and_deriv_rules, mood_tense, unprefixed_stems, forms_to_stress_last_char_of_stem)
-    const {exceptional_stems, cambios_aplicadas: cambios_aplicadas_por_temas} = result_stems
+    const {exceptional_stems, cambios: cambios_aplicadas_por_temas} = result_stems
     if (exceptional_stems) {
         for (const key in exceptional_stems) {
             const grammatical_person = <keyof VerbConjugation> key
             unprefixed_stems[grammatical_person] = exceptional_stems[grammatical_person]
         }
-        añadeCambiosPorPersona({acumulado: cambios_aplicadas, adicional: cambios_aplicadas_por_temas})
+        añadeCambiosPorPersona({acumulado: cambios, adicional: cambios_aplicadas_por_temas})
     }
     const resultados_sufijos = getSuffixesForLexicalExceptions(conj_and_deriv_rules, mood_tense, suffixes, forms_to_stress_last_char_of_stem)
     const {sufijos_excepcionales, cambios_aplicadas_por_sufijos} = resultados_sufijos
@@ -808,12 +824,12 @@ function applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules: Conjuga
             const grammatical_person = <keyof VerbConjugation> key
             suffixes[grammatical_person] = sufijos_excepcionales[grammatical_person]
         }
-        añadeCambiosPorPersona({acumulado: cambios_aplicadas, adicional: cambios_aplicadas_por_sufijos})
+        añadeCambiosPorPersona({acumulado: cambios, adicional: cambios_aplicadas_por_sufijos})
     }
 }
 
 
-export function getLexicalSuplications_IndPret3P(conj_and_deriv_rules: ConjugationAndDerivationRules) : {form?: string, suffix?: string} {
+export function getSuplecionesLexicales_IndPret3P(conj_and_deriv_rules: ConjugationAndDerivationRules) : {form?: string, suffix?: string} {
     const {infinitivo, prefixes, morphological_rules} = conj_and_deriv_rules
     const formas_IndPret_p3_de_modelo = morphological_rules?.de_modelo?.excepciones_léxicas?.reglas?.IndPret?.forms?.p3
     const formas_IndPret_p3_de_infinitivo = morphological_rules?.de_infinitivo?.excepciones_léxicas?.reglas?.IndPret?.forms?.p3
@@ -843,7 +859,7 @@ export function getLexicalSuplications_IndPret3P(conj_and_deriv_rules: Conjugati
 }
 
 
-function añadeReglaSuplicativo(regla: ReglaConjugacional, persona: keyof VerbConjugation, formas_conjugadas: FormaConjugada[], cambios_aplicadas: CambiosPorPersona) {
+function añadeReglaSupletivo(regla: ReglaConjugacional, persona: keyof VerbConjugation, formas_conjugadas: FormaConjugada[], cambios: CambiosPorPersona) {
     const temas: FormaConjugada[] = []
     const sufijos: FormaConjugada[] = []
     for (const forma_conjugada of formas_conjugadas) {
@@ -851,23 +867,23 @@ function añadeReglaSuplicativo(regla: ReglaConjugacional, persona: keyof VerbCo
         temas.push(asFormaConjugada(tema, forma_conjugada))
         sufijos.push(asFormaConjugada(sufijo, forma_conjugada))
     }
-    const cambios: CambiosPorRegla = {regla, temas, sufijos}
-    cambios_aplicadas[persona].push(cambios)
+    const cambios_por_regla: CambiosPorRegla = {regla, temas, sufijos}
+    cambios[persona].push(cambios_por_regla)
 }
 
 
-export function getLexicalSuplicationForms(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, cambios_aplicadas: CambiosPorPersona) : VerbConjugation{
+export function getFormasDeSuplecionesLexicales(conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, cambios_aplicadas: CambiosPorPersona) : VerbConjugation{
     function getSupplicationFromReglasGrupo(reglas_grupo: keyof MorphologicalRulesAccumulated) {
-        const lexical_suplications = morphological_rules?.[reglas_grupo]?.excepciones_léxicas?.reglas?.[mood_tense]?.forms
-        if (lexical_suplications) {
-            for (const key in lexical_suplications) {
+        const supleciones_lexicales = morphological_rules?.[reglas_grupo]?.excepciones_léxicas?.reglas?.[mood_tense]?.forms
+        if (supleciones_lexicales) {
+            for (const key in supleciones_lexicales) {
                 const persona = <keyof VerbConjugation> key
                 let combined: FormaConjugada[]
                 let formas_prefijadas: FormaConjugada[]
-                const formas = lexical_suplications[persona]
+                const formas = supleciones_lexicales[persona]
                 if (formas) {
-                    const regla = ((reglas_grupo === "de_modelo") ? "suplicativo del modelo" : "suplicativo del infinitivo")
-                    añadeReglaSuplicativo(regla, persona, formas, cambios_aplicadas)
+                    const regla = ((reglas_grupo === "de_modelo") ? "supletivo del modelo" : "supletivo del infinitivo")
+                    añadeReglaSupletivo(regla, persona, formas, cambios_aplicadas)
                     let prefijadas = applyToFormasConjugadas(formas, (forma) => {
                         if (reglas_grupo === "de_modelo") {
                             const prefijada = aplicaPrefijosClaseConjugacional(forma, prefixes)
@@ -877,7 +893,7 @@ export function getLexicalSuplicationForms(conj_and_deriv_rules: ConjugationAndD
                         }
                     })
                     if ( ! isValueless(prefijadas)) {
-                        añadeReglaSuplicativo("prefijos de clase conjugacional", persona, formas, cambios_aplicadas)
+                        añadeReglaSupletivo("prefijos de clase conjugacional", persona, formas, cambios_aplicadas)
                     }
                     formas_prefijadas = combinaFormasConjugadas(formas, prefijadas)
                     const prefijadas_sin_barras = applyToFormasConjugadas(formas_prefijadas, (forma) => {
@@ -888,24 +904,25 @@ export function getLexicalSuplicationForms(conj_and_deriv_rules: ConjugationAndD
                     // FIX: remove if this is not used
                     const prefijadas_productivas = aplicaPrefijosProductivosAFormas(formas_prefijadas_sin_barras, prefixes)
                     combined = combinaFormasConjugadas(formas_prefijadas_sin_barras, prefijadas_productivas)
-                    suplicaciones[persona] = combined
+                    supleciones[persona] = combined
                 } else if (formas === null) {
-                    suplicaciones[persona] = null
-                    cambios_aplicadas[persona].push({regla: "elimina diferencias de vos"})
+                    assert(persona === "vos", `supleción de eliminación encontrada por persona que no es vos: persona=${persona}`) 
+                    supleciones[persona] = null
+                    cambios_aplicadas[persona].push({regla: "supleción, elimina diferencias de vos"})
                 }
             }
         }
     }
     const {prefixes, morphological_rules} = conj_and_deriv_rules
-    const suplicaciones : VerbConjugation = {}
+    const supleciones : VerbConjugation = {}
     getSupplicationFromReglasGrupo("de_modelo")
     getSupplicationFromReglasGrupo("de_infinitivo")
-    return suplicaciones
+    return supleciones
 }
 
 
-export function applyImperativoTú(args: {conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, formas_casi_finales: VerbConjugation, cambios_aplicadas: CambiosPorPersona}) : void {
-    const {conj_and_deriv_rules, mood_tense, formas_casi_finales, cambios_aplicadas} = args
+export function applyImperativoTú(args: {conj_and_deriv_rules: ConjugationAndDerivationRules, mood_tense: MoodTense, formas_casi_finales: VerbConjugation, cambios: CambiosPorPersona}) : void {
+    const {conj_and_deriv_rules, mood_tense, formas_casi_finales, cambios} = args
     if (formas_casi_finales.s2 != null) {
         const {prefixes, morphological_rules} = conj_and_deriv_rules
         let imperativo_tú = morphological_rules?.de_modelo?.excepciones_léxicas?.imperativo_tú
@@ -918,7 +935,7 @@ export function applyImperativoTú(args: {conj_and_deriv_rules: ConjugationAndDe
                 return prefijo_productivo_y_no + forma_base
             })
             const formas_prefijadas_con_barras = combinaFormasConjugadas(imperativo_tú, prefijadas_con_barras)
-            añadeReglaSuplicativo("imperativo tú", "s2", formas_prefijadas_con_barras, cambios_aplicadas)
+            añadeReglaSupletivo("imperativo tú", "s2", formas_prefijadas_con_barras, cambios)
             const sin_barras = applyToFormasConjugadas(formas_prefijadas_con_barras, (forma) => {
                 const sin_barra = forma?.replace("/", "")
                 return sin_barra
@@ -986,14 +1003,14 @@ export function maintainStressOnLastSylable(conj_and_deriv_rules: ConjugationAnd
 
 interface ConjugationResult {
     forms: VerbConjugation, 
-    cambios_conjugacional: CambiosConjugacionales
+    cambios_conjugacionales: CambiosConjugacionales
 }
 
 
 export function getIndPretP3StemOfModel(conj_and_deriv_rules: ConjugationAndDerivationRules): string {
-    function getSuffix(suplicative_suffix: string, tema: string) {
-        if (suplicative_suffix) {
-            return suplicative_suffix
+    function getSufijo(sufijo_supletivo: string, tema: string) {
+        if (sufijo_supletivo) {
+            return sufijo_supletivo
         } else {
             if (conj_and_deriv_rules.verb_family === "-ar") {
                 return "aron"
@@ -1008,10 +1025,10 @@ export function getIndPretP3StemOfModel(conj_and_deriv_rules: ConjugationAndDeri
     }
     const {infinitivo, infinitivo_sin_prefijos, prefixes} = conj_and_deriv_rules
     // const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, "IndPret", [])
-    const suplications = getLexicalSuplications_IndPret3P(conj_and_deriv_rules)
+    const supleciones = getSuplecionesLexicales_IndPret3P(conj_and_deriv_rules)
     let final_form: string
-    if (suplications.form) {
-        final_form = suplications.form
+    if (supleciones.form) {
+        final_form = supleciones.form
     } else {
         const unprefixed_stem = getUnprefixedStemForIndPret3P(conj_and_deriv_rules)
         // // apply prefijos
@@ -1021,7 +1038,7 @@ export function getIndPretP3StemOfModel(conj_and_deriv_rules: ConjugationAndDeri
         //     const nonproductive  = prefixes.nonproductive_prefix || ""
         //     prefixed_stem = productive + nonproductive + unprefixed_stem
         // }
-        const suffix = getSuffix(suplications?.suffix, unprefixed_stem)
+        const suffix = getSufijo(supleciones?.suffix, unprefixed_stem)
         const stem_suffixed = unprefixed_stem + suffix     
         const ortografía = getOrthographicChanges_IndPret3P(infinitivo, unprefixed_stem, suffix)
         final_form = ortografía || stem_suffixed
@@ -1113,43 +1130,131 @@ export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRul
     const impersonal = morphological_rules?.de_modelo?.impersonal || morphological_rules?.de_infinitivo?.impersonal
     const clase_de_conjugación = prefixes?.clase_de_conjugación
     let formas_finales: VerbConjugation = {}
-    const cambios_conjugacional: CambiosConjugacionales = {infinitivo, modo_tiempo: mood_tense, modelo, clase_de_conjugación, impersonal, cambios: {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}}
-    const cambios_aplicadas = cambios_conjugacional.cambios
+    const cambios = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
     if (conjugaciónExiste(morphological_rules, mood_tense)) {    
         const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense)
+        // consigue las formas regulares
+        const regulares = consigueFormasRegulares(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, cambios)
         // resolve suffixes first, as they help determine the forms used by getStems()
-        const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, cambios_aplicadas)
+        const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, regulares.sufijos, cambios)
         // find the stems, including any prefix changes from the model to the base infinitive, and alternancia_vocálica
-        const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, suffixes, cambios_conjugacional)
+        const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense, regulares.temas, suffixes, cambios)
         // Este también añada los prefijos de Prefixes.clase_de_conjugación
-        applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, cambios_aplicadas) 
+        applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, cambios) 
         // FIX: determine exactly what the role is of determining prefixes automatically.
         // FIX: this is returning all forms, even unchanged ones
         // const prefixed_stems = aplicaPrefijosProductivos(conj_and_deriv_rules, unprefixed_stems, reglas_aplicadas)
         // const full_stems = accumulateChangedForms({base: unprefixed_stems, updates: prefixed_stems})
         // 8. añadir terminaciones morfológicas
         const full_stems = unprefixed_stems
-        const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, full_stems, suffixes, cambios_aplicadas)
+        const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, full_stems, suffixes, cambios)
         // 9. ortografía
         // FIX: this is returning all forms, even unchanged ones
-        const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, cambios_aplicadas)
+        const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, cambios)
         const forms_w_orthoography = accumulateChangedForms({base: combined_stems_w_suffixes, updates: orthography})
         // 11. Supletivo
-        const suplicaciones = getLexicalSuplicationForms(conj_and_deriv_rules, mood_tense, cambios_aplicadas) 
-        let formas_casi_finales = accumulateChangedForms({base: forms_w_orthoography, updates: suplicaciones})
+        const supleciones = getFormasDeSuplecionesLexicales(conj_and_deriv_rules, mood_tense, cambios) 
+        let formas_casi_finales = accumulateChangedForms({base: forms_w_orthoography, updates: supleciones})
         // 10. excepciones léxicas finales
-        applyImperativoTú({conj_and_deriv_rules, mood_tense, formas_casi_finales, cambios_aplicadas})
+        applyImperativoTú({conj_and_deriv_rules, mood_tense, formas_casi_finales, cambios})
         if (prefixes) {
-            const con_sílabas_finales_estresadas = maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_casi_finales, suffixes, cambios_aplicadas)
+            const con_sílabas_finales_estresadas = maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_casi_finales, suffixes, cambios)
             formas_casi_finales = accumulateChangedForms({base: formas_casi_finales, updates: con_sílabas_finales_estresadas})
         }
         formas_finales = normalizaVos(formas_casi_finales)
         if (morphological_rules?.de_infinitivo?.impersonal) {   // no existe morphological_rules.de_modelo.impersonal
-            quitarPersonasPersonales(formas_finales, cambios_aplicadas)  
+            quitarPersonasPersonales(formas_finales, cambios)  
         }
     } else {
         formas_finales = null
     }
-    return {forms: formas_finales, cambios_conjugacional}
+    const cambios_resumidos = simplificaCambios(cambios)
+    const cambios_conjugacionales: CambiosConjugacionales = {infinitivo, modo_tiempo: mood_tense, modelo, clase_de_conjugación, impersonal, cambios: cambios_resumidos}
+    return {forms: formas_finales, cambios_conjugacionales}
 }
 
+
+function simplificaCambios(cambios: CambiosPorPersona) : CambiosPorPersona {
+    let cambios_resumidos = remueveCambiosIrrelevantes(cambios)
+    // combinaCambiosRegulares(cambios_resumidos)
+    return cambios_resumidos
+}
+
+
+function remueveCambiosIrrelevantes(cambios: CambiosPorPersona) : CambiosPorPersona {
+    const cambios_resumidos: CambiosPorPersona = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
+    for (const key in cambios) {
+        const persona = <GrammaticalPerson> key
+        let tema_suplido = false
+        let sufijo_suplido = false
+        const cambios_por_regla_por_persona = cambios[persona]
+        for (let i = cambios_por_regla_por_persona.length - 1 ; (i >= 0) && ! (tema_suplido && sufijo_suplido) ; --i) {
+            const cambios_por_regla = cambios_por_regla_por_persona[i]
+            const {regla, temas, sufijos} = cambios_por_regla
+            switch (regla) {
+                case "elimina formas personales":
+                    return {}
+                case "supleción, elimina diferencias de vos":
+                    cambios_resumidos.vos = null
+                    tema_suplido = true
+                    sufijo_suplido = true
+                    break
+                case "supletivo del modelo":
+                case "supletivo del infinitivo":
+                    if (temas) {
+                        tema_suplido = true
+                    }
+                    if (sufijos) {
+                        sufijo_suplido = true
+                    }
+                    cambios_resumidos[persona].unshift(cambios_por_regla)
+                    break
+                case "tema excepcional del infinitivo":
+                case "tema excepcional del modelo":
+                case "tema presente yo":
+                    tema_suplido = true
+                    if (!sufijo_suplido)
+                    cambios_resumidos[persona].unshift(cambios_por_regla)
+                    break
+                case "sufjio excepcional del modelo":
+                case "sufjio excepcional del infinitivo":
+                    cambios_resumidos[persona].unshift(cambios_por_regla)
+                    sufijo_suplido = true
+                    break
+                case "añade unos sufijos a un tema":
+                    // skip this rule
+                    break
+                default:
+                    if ( ! (tema_suplido && sufijo_suplido)) {
+                        let {regla, temas, sufijos} = cambios_por_regla
+                        if (tema_suplido) {
+                            temas = undefined
+                        }
+                        if (sufijo_suplido) {
+                            sufijos = undefined
+                        }
+                        if (temas || sufijos) {
+                            cambios_resumidos[persona].unshift({regla, temas, sufijos})
+                        }
+                    }
+                    break                
+            }
+        }
+    }
+    return cambios_resumidos
+}
+
+
+// function combinaCambiosRegulares(cambios: CambiosPorPersona) {
+//     for (const key in cambios) {
+//         const persona = <GrammaticalPerson> key
+//         const cambios_por_regla_por_persona = cambios[persona]
+//         if (cambios_por_regla_por_persona?.length > 0) {
+//             if ((cambios_por_regla_por_persona[0].regla === "regular") && (cambios_por_regla_por_persona[1]?.regla === "regular")) {
+//                 assert((!cambios_por_regla_por_persona[0].temas && !cambios_por_regla_por_persona[1].sufijos), `espera que reglas regulares tienen sufjios entonces temas: cambios[${persona}][0]=${JSON.stringify(cambios[persona][0])} cambios[${persona}][1]=${JSON.stringify(cambios[persona][1])}`)
+//                 cambios_por_regla_por_persona[0].temas = cambios_por_regla_por_persona[1].temas
+//                 cambios_por_regla_por_persona.splice(1,1)
+//             }
+//         }
+//     }
+// }

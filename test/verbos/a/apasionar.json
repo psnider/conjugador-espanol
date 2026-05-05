@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apasjoˈnaɾ]",
+    "silabacion": "a-pa-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, pasión y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apasionar","gerundio":["apasionando"],"participio":["apasionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apasiono"],"s2":["apasionas"],"vos":["apasionás"],"s3":["apasiona"],"p1":["apasionamos"],"p2":["apasionáis"],"p3":["apasionan"]},
+    "IndImp": {"s1":["apasionaba"],"s2":["apasionabas"],"vos":["apasionabas"],"s3":["apasionaba"],"p1":["apasionábamos"],"p2":["apasionabais"],"p3":["apasionaban"]},
+    "IndPret": {"s1":["apasioné"],"s2":["apasionaste"],"vos":["apasionaste"],"s3":["apasionó"],"p1":["apasionamos"],"p2":["apasionasteis"],"p3":["apasionaron"]},
+    "IndFut": {"s1":["apasionaré"],"s2":["apasionarás"],"vos":["apasionarás"],"s3":["apasionará"],"p1":["apasionaremos"],"p2":["apasionaréis"],"p3":["apasionarán"]},
+    "IndCond": {"s1":["apasionaría"],"s2":["apasionarías"],"vos":["apasionarías"],"s3":["apasionaría"],"p1":["apasionaríamos"],"p2":["apasionaríais"],"p3":["apasionarían"]},
+    "SubPres": {"s1":["apasione"],"s2":["apasiones"],"vos":["apasiones","apasionés"],"s3":["apasione"],"p1":["apasionemos"],"p2":["apasionéis"],"p3":["apasionen"]},
+    "SubImp": {"s1":["apasionara","apasionase"],"s2":["apasionaras","apasionases"],"vos":["apasionaras","apasionases"],"s3":["apasionara","apasionase"],"p1":["apasionáramos","apasionásemos"],"p2":["apasionarais","apasionaseis"],"p3":["apasionaran","apasionasen"]},
+    "SubFut": {"s1":["apasionare"],"s2":["apasionares"],"vos":["apasionares"],"s3":["apasionare"],"p1":["apasionáremos"],"p2":["apasionareis"],"p3":["apasionaren"]},
+    "CmdPos": {"s2":["apasiona"],"vos":["apasioná"],"s3":["apasione"],"p1":["apasionemos"],"p2":["apasionad"],"p3":["apasionen"]}
+  }
+}
