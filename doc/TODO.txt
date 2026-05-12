@@ -1,8 +1,6 @@
 # This release
-Todos los 1,500+ verbos en verbos_con_cambios_morfológicos[] conjugan correctamente.
-Derivan los participios.
-ReglasDeConjugaciónDeVerbo.impersonal controla como conjugan verbos con formas impersonales.
-Conjuga ambos formas del subjuntivo presente, las de Rioplatense y las de Centroamérica.
+añadido encuentraFormasSimilares() para apoyar busquedas del usuario
+
 
 
 

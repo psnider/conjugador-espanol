@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[remoˈxaɾ]",
+    "silabacion": "re-mo-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"remojar","gerundio":["remojando"],"participio":["remojado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["remojo"],"s2":["remojas"],"vos":["remojás"],"s3":["remoja"],"p1":["remojamos"],"p2":["remojáis"],"p3":["remojan"]},
+    "IndImp": {"s1":["remojaba"],"s2":["remojabas"],"vos":["remojabas"],"s3":["remojaba"],"p1":["remojábamos"],"p2":["remojabais"],"p3":["remojaban"]},
+    "IndPret": {"s1":["remojé"],"s2":["remojaste"],"vos":["remojaste"],"s3":["remojó"],"p1":["remojamos"],"p2":["remojasteis"],"p3":["remojaron"]},
+    "IndFut": {"s1":["remojaré"],"s2":["remojarás"],"vos":["remojarás"],"s3":["remojará"],"p1":["remojaremos"],"p2":["remojaréis"],"p3":["remojarán"]},
+    "IndCond": {"s1":["remojaría"],"s2":["remojarías"],"vos":["remojarías"],"s3":["remojaría"],"p1":["remojaríamos"],"p2":["remojaríais"],"p3":["remojarían"]},
+    "SubPres": {"s1":["remoje"],"s2":["remojes"],"vos":["remojes","remojés"],"s3":["remoje"],"p1":["remojemos"],"p2":["remojéis"],"p3":["remojen"]},
+    "SubImp": {"s1":["remojara","remojase"],"s2":["remojaras","remojases"],"vos":["remojaras","remojases"],"s3":["remojara","remojase"],"p1":["remojáramos","remojásemos"],"p2":["remojarais","remojaseis"],"p3":["remojaran","remojasen"]},
+    "SubFut": {"s1":["remojare"],"s2":["remojares"],"vos":["remojares"],"s3":["remojare"],"p1":["remojáremos"],"p2":["remojareis"],"p3":["remojaren"]},
+    "CmdPos": {"s2":["remoja"],"vos":["remojá"],"s3":["remoje"],"p1":["remojemos"],"p2":["remojad"],"p3":["remojen"]}
+  }
+}

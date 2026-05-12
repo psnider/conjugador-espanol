@@ -5,7 +5,7 @@ Nota: los nombres de repositorios git y paquetes npm son restringidos a ASCII ca
 
 es🇪🇸: Esto es un conjugador de verbos, que sigue las reglas léxicas, en lugar de tablas de conjugación. Dado un infinitivo, determina las reglas léxicas que tiene que usar para la conjugación, y las aplica para conseguir las formas conjugadas.
 
-en🇺🇸: This is a conjugator of spanish verb, that conjugates according to lexical rules, rather than look-up tables.  
+en🇺🇸: This is a conjugator of spanish verbs, that conjugates according to lexical rules, rather than look-up tables.  
 Given an infinitive, It determines that léxical rules that must be used for its conjugation, and applies them to get the conjugated forms.
 
 ## Uso / usage

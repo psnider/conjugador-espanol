@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ũn̪ˈt̪aɾ]",
+    "silabacion": "un-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar unctare, del latín ungere.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"untar","gerundio":["untando"],"participio":["untado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["unto"],"s2":["untas"],"vos":["untás"],"s3":["unta"],"p1":["untamos"],"p2":["untáis"],"p3":["untan"]},
+    "IndImp": {"s1":["untaba"],"s2":["untabas"],"vos":["untabas"],"s3":["untaba"],"p1":["untábamos"],"p2":["untabais"],"p3":["untaban"]},
+    "IndPret": {"s1":["unté"],"s2":["untaste"],"vos":["untaste"],"s3":["untó"],"p1":["untamos"],"p2":["untasteis"],"p3":["untaron"]},
+    "IndFut": {"s1":["untaré"],"s2":["untarás"],"vos":["untarás"],"s3":["untará"],"p1":["untaremos"],"p2":["untaréis"],"p3":["untarán"]},
+    "IndCond": {"s1":["untaría"],"s2":["untarías"],"vos":["untarías"],"s3":["untaría"],"p1":["untaríamos"],"p2":["untaríais"],"p3":["untarían"]},
+    "SubPres": {"s1":["unte"],"s2":["untes"],"vos":["untes","untés"],"s3":["unte"],"p1":["untemos"],"p2":["untéis"],"p3":["unten"]},
+    "SubImp": {"s1":["untara","untase"],"s2":["untaras","untases"],"vos":["untaras","untases"],"s3":["untara","untase"],"p1":["untáramos","untásemos"],"p2":["untarais","untaseis"],"p3":["untaran","untasen"]},
+    "SubFut": {"s1":["untare"],"s2":["untares"],"vos":["untares"],"s3":["untare"],"p1":["untáremos"],"p2":["untareis"],"p3":["untaren"]},
+    "CmdPos": {"s2":["unta"],"vos":["untá"],"s3":["unte"],"p1":["untemos"],"p2":["untad"],"p3":["unten"]}
+  }
+}

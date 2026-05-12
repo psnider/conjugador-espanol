@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõɱfaβ̞uˈlaɾ]",
+    "silabacion": "con-fa-bu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cōnfābulor, cōnfābulārī ('conversar'),[1] de con-&nbsp;(indica contigüidad) y fābulor, fābulārī (\"hablar\", \"fabular\"), y este derivado de fābula, fābulae&nbsp;('narración'), a su vez de for, fārī (\"decir\", \"hablar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"confabular","gerundio":["confabulando"],"participio":["confabulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["confabulo"],"s2":["confabulas"],"vos":["confabulás"],"s3":["confabula"],"p1":["confabulamos"],"p2":["confabuláis"],"p3":["confabulan"]},
+    "IndImp": {"s1":["confabulaba"],"s2":["confabulabas"],"vos":["confabulabas"],"s3":["confabulaba"],"p1":["confabulábamos"],"p2":["confabulabais"],"p3":["confabulaban"]},
+    "IndPret": {"s1":["confabulé"],"s2":["confabulaste"],"vos":["confabulaste"],"s3":["confabuló"],"p1":["confabulamos"],"p2":["confabulasteis"],"p3":["confabularon"]},
+    "IndFut": {"s1":["confabularé"],"s2":["confabularás"],"vos":["confabularás"],"s3":["confabulará"],"p1":["confabularemos"],"p2":["confabularéis"],"p3":["confabularán"]},
+    "IndCond": {"s1":["confabularía"],"s2":["confabularías"],"vos":["confabularías"],"s3":["confabularía"],"p1":["confabularíamos"],"p2":["confabularíais"],"p3":["confabularían"]},
+    "SubPres": {"s1":["confabule"],"s2":["confabules"],"vos":["confabules","confabulés"],"s3":["confabule"],"p1":["confabulemos"],"p2":["confabuléis"],"p3":["confabulen"]},
+    "SubImp": {"s1":["confabulara","confabulase"],"s2":["confabularas","confabulases"],"vos":["confabularas","confabulases"],"s3":["confabulara","confabulase"],"p1":["confabuláramos","confabulásemos"],"p2":["confabularais","confabulaseis"],"p3":["confabularan","confabulasen"]},
+    "SubFut": {"s1":["confabulare"],"s2":["confabulares"],"vos":["confabulares"],"s3":["confabulare"],"p1":["confabuláremos"],"p2":["confabulareis"],"p3":["confabularen"]},
+    "CmdPos": {"s2":["confabula"],"vos":["confabulá"],"s3":["confabule"],"p1":["confabulemos"],"p2":["confabulad"],"p3":["confabulen"]}
+  }
+}

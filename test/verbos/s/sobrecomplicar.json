@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾekõmpliˈkaɾ]",
+    "silabacion": "so-bre-com-pli-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín complicāre.",
+    "modelos": ["sobrecomplicar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrecomplicar","gerundio":["sobrecomplicando"], "participio":["sobrecomplicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobrecomplico"],"s2":["sobrecomplicas"],"vos":["sobrecomplicás"],"s3":["sobrecomplica"],"p1":["sobrecomplicamos"],"p2":["sobrecomplicáis"],"p3":["sobrecomplican"]},
+    "IndImp": {"s1":["sobrecomplicaba"],"s2":["sobrecomplicabas"],"vos":["sobrecomplicabas"],"s3":["sobrecomplicaba"],"p1":["sobrecomplicábamos"],"p2":["sobrecomplicabais"],"p3":["sobrecomplicaban"]},
+    "IndPret": {"s1":["sobrecompliqué"],"s2":["sobrecomplicaste"],"vos":["sobrecomplicaste"],"s3":["sobrecomplicó"],"p1":["sobrecomplicamos"],"p2":["sobrecomplicasteis"],"p3":["sobrecomplicaron"]},
+    "IndFut": {"s1":["sobrecomplicaré"],"s2":["sobrecomplicarás"],"vos":["sobrecomplicarás"],"s3":["sobrecomplicará"],"p1":["sobrecomplicaremos"],"p2":["sobrecomplicaréis"],"p3":["sobrecomplicarán"]},
+    "IndCond": {"s1":["sobrecomplicaría"],"s2":["sobrecomplicarías"],"vos":["sobrecomplicarías"],"s3":["sobrecomplicaría"],"p1":["sobrecomplicaríamos"],"p2":["sobrecomplicaríais"],"p3":["sobrecomplicarían"]},
+    "SubPres": {"s1":["sobrecomplique"],"s2":["sobrecompliques"],"vos":[{"forma": "sobrecompliques","uso":"Riop."},{"forma":"sobrecompliqués","uso":"C.Am."}],"s3":["sobrecomplique"],"p1":["sobrecompliquemos"],"p2":["sobrecompliquéis"],"p3":["sobrecompliquen"]},
+    "SubImp": {"s1":["sobrecomplicara","sobrecomplicase"],"s2":["sobrecomplicaras","sobrecomplicases"],"vos":["sobrecomplicaras","sobrecomplicases"],"s3":["sobrecomplicara","sobrecomplicase"],"p1":["sobrecomplicáramos","sobrecomplicásemos"],"p2":["sobrecomplicarais","sobrecomplicaseis"],"p3":["sobrecomplicaran","sobrecomplicasen"]},
+    "SubFut": {"s1":["sobrecomplicare"],"s2":["sobrecomplicares"],"vos":["sobrecomplicares"],"s3":["sobrecomplicare"],"p1":["sobrecomplicáremos"],"p2":["sobrecomplicareis"],"p3":["sobrecomplicaren"]},
+    "CmdPos": {"s2":["sobrecomplica"],"vos":["sobrecomplicá"],"s3":["sobrecomplique"],"p1":["sobrecompliquemos"],"p2":["sobrecomplicad"],"p3":["sobrecompliquen"]}
+  }
+}

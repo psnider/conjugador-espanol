@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾemesˈklaɾ]",
+    "silabacion": "en-tre-mez-clar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo entre- y mezclar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entremezclar","gerundio":["entremezclando"],"participio":["entremezclado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entremezclo"],"s2":["entremezclas"],"vos":["entremezclás"],"s3":["entremezcla"],"p1":["entremezclamos"],"p2":["entremezcláis"],"p3":["entremezclan"]},
+    "IndImp": {"s1":["entremezclaba"],"s2":["entremezclabas"],"vos":["entremezclabas"],"s3":["entremezclaba"],"p1":["entremezclábamos"],"p2":["entremezclabais"],"p3":["entremezclaban"]},
+    "IndPret": {"s1":["entremezclé"],"s2":["entremezclaste"],"vos":["entremezclaste"],"s3":["entremezcló"],"p1":["entremezclamos"],"p2":["entremezclasteis"],"p3":["entremezclaron"]},
+    "IndFut": {"s1":["entremezclaré"],"s2":["entremezclarás"],"vos":["entremezclarás"],"s3":["entremezclará"],"p1":["entremezclaremos"],"p2":["entremezclaréis"],"p3":["entremezclarán"]},
+    "IndCond": {"s1":["entremezclaría"],"s2":["entremezclarías"],"vos":["entremezclarías"],"s3":["entremezclaría"],"p1":["entremezclaríamos"],"p2":["entremezclaríais"],"p3":["entremezclarían"]},
+    "SubPres": {"s1":["entremezcle"],"s2":["entremezcles"],"vos":["entremezcles","entremezclés"],"s3":["entremezcle"],"p1":["entremezclemos"],"p2":["entremezcléis"],"p3":["entremezclen"]},
+    "SubImp": {"s1":["entremezclara","entremezclase"],"s2":["entremezclaras","entremezclases"],"vos":["entremezclaras","entremezclases"],"s3":["entremezclara","entremezclase"],"p1":["entremezcláramos","entremezclásemos"],"p2":["entremezclarais","entremezclaseis"],"p3":["entremezclaran","entremezclasen"]},
+    "SubFut": {"s1":["entremezclare"],"s2":["entremezclares"],"vos":["entremezclares"],"s3":["entremezclare"],"p1":["entremezcláremos"],"p2":["entremezclareis"],"p3":["entremezclaren"]},
+    "CmdPos": {"s2":["entremezcla"],"vos":["entremezclá"],"s3":["entremezcle"],"p1":["entremezclemos"],"p2":["entremezclad"],"p3":["entremezclen"]}
+  }
+}

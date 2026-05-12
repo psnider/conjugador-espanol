@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mesˈklaɾ]",
+    "silabacion": "mez-clar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo mesclar, y este del bajo latín *misculare, del clásico miscere, del protoindoeuropeo *meiǵ-, *meiḱ-. Compárese el catalán mesclar, el francés mêler, el italiano mischiare, el portugués mexer o el rumano mișca.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mezclar","gerundio":["mezclando"],"participio":["mezclado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mezclo"],"s2":["mezclas"],"vos":["mezclás"],"s3":["mezcla"],"p1":["mezclamos"],"p2":["mezcláis"],"p3":["mezclan"]},
+    "IndImp": {"s1":["mezclaba"],"s2":["mezclabas"],"vos":["mezclabas"],"s3":["mezclaba"],"p1":["mezclábamos"],"p2":["mezclabais"],"p3":["mezclaban"]},
+    "IndPret": {"s1":["mezclé"],"s2":["mezclaste"],"vos":["mezclaste"],"s3":["mezcló"],"p1":["mezclamos"],"p2":["mezclasteis"],"p3":["mezclaron"]},
+    "IndFut": {"s1":["mezclaré"],"s2":["mezclarás"],"vos":["mezclarás"],"s3":["mezclará"],"p1":["mezclaremos"],"p2":["mezclaréis"],"p3":["mezclarán"]},
+    "IndCond": {"s1":["mezclaría"],"s2":["mezclarías"],"vos":["mezclarías"],"s3":["mezclaría"],"p1":["mezclaríamos"],"p2":["mezclaríais"],"p3":["mezclarían"]},
+    "SubPres": {"s1":["mezcle"],"s2":["mezcles"],"vos":["mezcles","mezclés"],"s3":["mezcle"],"p1":["mezclemos"],"p2":["mezcléis"],"p3":["mezclen"]},
+    "SubImp": {"s1":["mezclara","mezclase"],"s2":["mezclaras","mezclases"],"vos":["mezclaras","mezclases"],"s3":["mezclara","mezclase"],"p1":["mezcláramos","mezclásemos"],"p2":["mezclarais","mezclaseis"],"p3":["mezclaran","mezclasen"]},
+    "SubFut": {"s1":["mezclare"],"s2":["mezclares"],"vos":["mezclares"],"s3":["mezclare"],"p1":["mezcláremos"],"p2":["mezclareis"],"p3":["mezclaren"]},
+    "CmdPos": {"s2":["mezcla"],"vos":["mezclá"],"s3":["mezcle"],"p1":["mezclemos"],"p2":["mezclad"],"p3":["mezclen"]}
+  }
+}

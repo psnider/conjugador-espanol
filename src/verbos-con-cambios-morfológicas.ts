@@ -57,11 +57,11 @@ export interface ReglasDeConjugaciónDeVerboExcepcionesLexicas extends Participi
     reglas?: MoodTenseMap<VerbAspectRulesWithFullyIrregularForms>
 }
 
-// Hay dos categorías: verbos que admiten personificación, y los que están retringidos gramaticalmente.
-// La categoría determina como puede conjugarlo.
-// Los "naturales" lleva la conjugación completa, pero normalmente solo usa la forma de tersera persona singular, y no hay formas de mandatos.
-// Los "gramaticales"lleva una conjugación parcial, porque nunca permiten el uso de otras formas
-// Usa las formas de tersera persona singular y tersera persona plural, y no hay formas de mandatos.
+// Hay dos categorías: verbos que admiten personificación, y los que están restringidos gramaticalmente.
+// La categoría determina cómo puede conjugarse.
+// Los "naturales" lleva la conjugación completa, pero normalmente solo usa la forma de tercera persona singular, y no hay formas de mandatos.
+// Los "gramaticales" lleva una conjugación parcial, porque nunca permiten el uso de otras formas.
+// Usa las formas de tercera persona singular y tercera persona plural, y no hay formas de mandatos.
 // "soler" es único.
 export type Impersonal = "natural" | "gramatical" | "soler"
 
@@ -207,7 +207,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     ahuyentar:      { pronominal: true },
     airar:          {},
     aislar:         {},
-    ajustar:        {},
+    ajustar:        { pronominal: true },
     alargar:        {},
     alarmar:        {},
     albergar:       {},
@@ -369,6 +369,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     azotar:         {},
     bailar:         {},
     bajar:          {},
+    balancear:      { pronominal: true },
     balbucear:      {},
     balbucir:       {},  // No sigue el modelo "lucir" // FIX: Presente de indicativo: se usa más balbuceo que balbuzco (la forma regular ha desplazado a la irregular)
     bañar:          {},
@@ -506,6 +507,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     condoler:       { pronominal: true, alternancia_vocálica: "o:ue" },
     conducir:       { clase_conjugacional: "-ducir", tema_presente_yo_del_modelo: ["conduzc"], tema_pretérito_del_modelo: "conduj" },  // FIX: linguist: how can this pattern be generalized: "pretérito fuerte con -j" ?
     conectar:       {},
+    confabular:     { pronominal: true },
     confeccionar:   {},
     conferir:       { alternancia_vocálica: "e:ie" },
     confesar:       { alternancia_vocálica: "e:ie" },
@@ -755,7 +757,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     desperdiciar:   {},
     despertar:      { alternancia_vocálica: "e:ie" },
     desplazar:      {},
-    desplegar:      { alternancia_vocálica: "e:ie" },
+    desplegar:      { pronominal: true, alternancia_vocálica: "e:ie" },
     desplomar:      {},
     desplumar:      {},
     despojar:       {},
@@ -919,6 +921,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     entrechocar:    {},
     entregar:       {},
     entrelucir:     { modelo: "lucir" },
+    entremezclar:   {},
     entrever:       { modelo: "ver" },
     entrevistar:    { pronominal: true },
     entristecer:    {},
@@ -929,6 +932,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     enviar:         { modelo: "vaciar" },
     envidiar:       { pronominal: false },
     envolver:       { modelo: "volver" },
+    equilibrar:     { pronominal: true},
     erguir:         { modelo: "erguir",
                         alternancia_vocálica: "e:ie",
                         tema_presente_yo_del_modelo: ["irg", "yerg"],
@@ -958,6 +962,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
                     },
     errar:          {}, // FIX: tiene dos formas
     eructar:        {},
+    esbozar:        {},
     escabullir:     {},
     escalar:        {},
     escandalizar:   { pronominal: true },
@@ -1184,7 +1189,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     impregnar:      { pronominal: true },
     impresionar:    {},
     imprimir:       { excepciones_léxicas: { participio: ["imprimido","impreso"] } },
-    inclinar:       {},
+    inclinar:       { pronominal: true },
     incluir:        {},
     incorporar:     {},
     incrementar:    {},
@@ -1351,6 +1356,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     merecer:        {},
     merendar:       { alternancia_vocálica: "e:ie" },
     meter:          { pronominal: true },
+    mezclar:        {},
     mirar:          {},
     modelar:        {},
     modernizar:     {},
@@ -1485,7 +1491,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     plantear:       {},
     plasmar:        {},
     platicar:       {},
-    plegar:         { alternancia_vocálica: "e:ie" },
+    plegar:         { pronominal: true, alternancia_vocálica: "e:ie" },
     poblar:         { alternancia_vocálica: "o:ue" },
     podar:          {},
     poder:          { modelo: "poder",
@@ -1680,6 +1686,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     rememorar:      {},
     remendar:       { alternancia_vocálica: "e:ie" },
     remodelar:      {},
+    remojar:        {},
     remorder:       { alternancia_vocálica: "o:ue" },
     remover:        { alternancia_vocálica: "o:ue" },
     remplazar:      {},
@@ -1835,6 +1842,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     sobrar:         {},
     sobrecargar:    {},
     sobrecoger:     {},
+    sobrecomplicar: { pronominal: true },
     sobreexcitar:   { pronominal: true },
     sobrehilar:     { excepciones_léxicas: {
                         reglas: {
@@ -1978,6 +1986,7 @@ export const verbos_con_cambios_morfológicos : {[infinitivo: string]: ReglasDeC
     turnar:         {},
     ubicar:         {},
     unir:           {},
+    untar:          {},
     urgir:          { pronominal: false },
     usar:           {},
     utilizar:       {},

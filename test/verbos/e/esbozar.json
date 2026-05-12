@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[esβ̞oˈsaɾ]",
+    "silabacion": "es-bo-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano sbozzare, derivado de bozza (piedra sin pulir).",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"esbozar","gerundio":["esbozando"],"participio":["esbozado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["esbozo"],"s2":["esbozas"],"vos":["esbozás"],"s3":["esboza"],"p1":["esbozamos"],"p2":["esbozáis"],"p3":["esbozan"]},
+    "IndImp": {"s1":["esbozaba"],"s2":["esbozabas"],"vos":["esbozabas"],"s3":["esbozaba"],"p1":["esbozábamos"],"p2":["esbozabais"],"p3":["esbozaban"]},
+    "IndPret": {"s1":["esbocé"],"s2":["esbozaste"],"vos":["esbozaste"],"s3":["esbozó"],"p1":["esbozamos"],"p2":["esbozasteis"],"p3":["esbozaron"]},
+    "IndFut": {"s1":["esbozaré"],"s2":["esbozarás"],"vos":["esbozarás"],"s3":["esbozará"],"p1":["esbozaremos"],"p2":["esbozaréis"],"p3":["esbozarán"]},
+    "IndCond": {"s1":["esbozaría"],"s2":["esbozarías"],"vos":["esbozarías"],"s3":["esbozaría"],"p1":["esbozaríamos"],"p2":["esbozaríais"],"p3":["esbozarían"]},
+    "SubPres": {"s1":["esboce"],"s2":["esboces"],"vos":["esboces","esbocés"],"s3":["esboce"],"p1":["esbocemos"],"p2":["esbocéis"],"p3":["esbocen"]},
+    "SubImp": {"s1":["esbozara","esbozase"],"s2":["esbozaras","esbozases"],"vos":["esbozaras","esbozases"],"s3":["esbozara","esbozase"],"p1":["esbozáramos","esbozásemos"],"p2":["esbozarais","esbozaseis"],"p3":["esbozaran","esbozasen"]},
+    "SubFut": {"s1":["esbozare"],"s2":["esbozares"],"vos":["esbozares"],"s3":["esbozare"],"p1":["esbozáremos"],"p2":["esbozareis"],"p3":["esbozaren"]},
+    "CmdPos": {"s2":["esboza"],"vos":["esbozá"],"s3":["esboce"],"p1":["esbocemos"],"p2":["esbozad"],"p3":["esbocen"]}
+  }
+}

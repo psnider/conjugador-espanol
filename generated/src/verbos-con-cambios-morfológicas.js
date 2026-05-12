@@ -279,7 +279,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     ajustar: {
       ok:true,
-      },
+       pronominal: true },
     alargar: {
       ok:true,
       },
@@ -745,6 +745,9 @@ export const verbos_con_cambios_morfológicos = {
     bajar: {
       ok:true,
       },
+    balancear: {
+      ok:true,
+       pronominal: true },
     balbucear: {
       ok:true,
       },
@@ -1118,6 +1121,9 @@ export const verbos_con_cambios_morfológicos = {
     conectar: {
       ok:true,
       },
+    confabular: {
+      ok:true,
+       pronominal: true },
     confeccionar: {
       ok:true,
       },
@@ -1753,7 +1759,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     desplegar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     desplomar: {
       ok:true,
       },
@@ -2223,6 +2229,9 @@ export const verbos_con_cambios_morfológicos = {
     entrelucir: {
       ok:true,
        modelo: "lucir" },
+    entremezclar: {
+      ok:true,
+      },
     entrever: {
       ok:true,
        modelo: "ver" },
@@ -2253,6 +2262,9 @@ export const verbos_con_cambios_morfológicos = {
     envolver: {
       ok:true,
        modelo: "volver" },
+    equilibrar: {
+      ok:true,
+       pronominal: true },
     erguir: {
       ok:true,
        modelo: "erguir",
@@ -2286,6 +2298,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       }, // FIX: tiene dos formas
     eructar: {
+      ok:true,
+      },
+    esbozar: {
       ok:true,
       },
     escabullir: {
@@ -2844,7 +2859,7 @@ export const verbos_con_cambios_morfológicos = {
        excepciones_léxicas: { participio: ["imprimido", "impreso"] } },
     inclinar: {
       ok:true,
-      },
+       pronominal: true },
     incluir: {
       ok:true,
       },
@@ -3271,6 +3286,9 @@ export const verbos_con_cambios_morfológicos = {
     meter: {
       ok:true,
        pronominal: true },
+    mezclar: {
+      ok:true,
+      },
     mirar: {
       ok:true,
       },
@@ -3610,7 +3628,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     plegar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     poblar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -4069,6 +4087,9 @@ export const verbos_con_cambios_morfológicos = {
     remodelar: {
       ok:true,
       },
+    remojar: {
+      ok:true,
+      },
     remorder: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -4430,6 +4451,9 @@ export const verbos_con_cambios_morfológicos = {
     sobrecoger: {
       ok:true,
       },
+    sobrecomplicar: {
+      ok:true,
+       pronominal: true },
     sobreexcitar: {
       ok:true,
        pronominal: true },
@@ -4803,6 +4827,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     unir: {
+      ok:true,
+      },
+    untar: {
       ok:true,
       },
     urgir: {

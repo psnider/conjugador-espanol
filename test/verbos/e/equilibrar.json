@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekiliˈβ̞ɾaɾ]",
+    "silabacion": "e-qui-li-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aequilibrāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"equilibrar","gerundio":["equilibrando"],"participio":["equilibrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["equilibro"],"s2":["equilibras"],"vos":["equilibrás"],"s3":["equilibra"],"p1":["equilibramos"],"p2":["equilibráis"],"p3":["equilibran"]},
+    "IndImp": {"s1":["equilibraba"],"s2":["equilibrabas"],"vos":["equilibrabas"],"s3":["equilibraba"],"p1":["equilibrábamos"],"p2":["equilibrabais"],"p3":["equilibraban"]},
+    "IndPret": {"s1":["equilibré"],"s2":["equilibraste"],"vos":["equilibraste"],"s3":["equilibró"],"p1":["equilibramos"],"p2":["equilibrasteis"],"p3":["equilibraron"]},
+    "IndFut": {"s1":["equilibraré"],"s2":["equilibrarás"],"vos":["equilibrarás"],"s3":["equilibrará"],"p1":["equilibraremos"],"p2":["equilibraréis"],"p3":["equilibrarán"]},
+    "IndCond": {"s1":["equilibraría"],"s2":["equilibrarías"],"vos":["equilibrarías"],"s3":["equilibraría"],"p1":["equilibraríamos"],"p2":["equilibraríais"],"p3":["equilibrarían"]},
+    "SubPres": {"s1":["equilibre"],"s2":["equilibres"],"vos":["equilibres","equilibrés"],"s3":["equilibre"],"p1":["equilibremos"],"p2":["equilibréis"],"p3":["equilibren"]},
+    "SubImp": {"s1":["equilibrara","equilibrase"],"s2":["equilibraras","equilibrases"],"vos":["equilibraras","equilibrases"],"s3":["equilibrara","equilibrase"],"p1":["equilibráramos","equilibrásemos"],"p2":["equilibrarais","equilibraseis"],"p3":["equilibraran","equilibrasen"]},
+    "SubFut": {"s1":["equilibrare"],"s2":["equilibrares"],"vos":["equilibrares"],"s3":["equilibrare"],"p1":["equilibráremos"],"p2":["equilibrareis"],"p3":["equilibraren"]},
+    "CmdPos": {"s2":["equilibra"],"vos":["equilibrá"],"s3":["equilibre"],"p1":["equilibremos"],"p2":["equilibrad"],"p3":["equilibren"]}
+  }
+}

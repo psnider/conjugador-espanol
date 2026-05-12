@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[balãnseˈaɾ]",
+    "silabacion": "ba-lan-ce-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"balancear","gerundio":["balanceando"],"participio":["balanceado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["balanceo"],"s2":["balanceas"],"vos":["balanceás"],"s3":["balancea"],"p1":["balanceamos"],"p2":["balanceáis"],"p3":["balancean"]},
+    "IndImp": {"s1":["balanceaba"],"s2":["balanceabas"],"vos":["balanceabas"],"s3":["balanceaba"],"p1":["balanceábamos"],"p2":["balanceabais"],"p3":["balanceaban"]},
+    "IndPret": {"s1":["balanceé"],"s2":["balanceaste"],"vos":["balanceaste"],"s3":["balanceó"],"p1":["balanceamos"],"p2":["balanceasteis"],"p3":["balancearon"]},
+    "IndFut": {"s1":["balancearé"],"s2":["balancearás"],"vos":["balancearás"],"s3":["balanceará"],"p1":["balancearemos"],"p2":["balancearéis"],"p3":["balancearán"]},
+    "IndCond": {"s1":["balancearía"],"s2":["balancearías"],"vos":["balancearías"],"s3":["balancearía"],"p1":["balancearíamos"],"p2":["balancearíais"],"p3":["balancearían"]},
+    "SubPres": {"s1":["balancee"],"s2":["balancees"],"vos":["balancees","balanceés"],"s3":["balancee"],"p1":["balanceemos"],"p2":["balanceéis"],"p3":["balanceen"]},
+    "SubImp": {"s1":["balanceara","balancease"],"s2":["balancearas","balanceases"],"vos":["balancearas","balanceases"],"s3":["balanceara","balancease"],"p1":["balanceáramos","balanceásemos"],"p2":["balancearais","balanceaseis"],"p3":["balancearan","balanceasen"]},
+    "SubFut": {"s1":["balanceare"],"s2":["balanceares"],"vos":["balanceares"],"s3":["balanceare"],"p1":["balanceáremos"],"p2":["balanceareis"],"p3":["balancearen"]},
+    "CmdPos": {"s2":["balancea"],"vos":["balanceá"],"s3":["balancee"],"p1":["balanceemos"],"p2":["balancead"],"p3":["balanceen"]}
+  }
+}

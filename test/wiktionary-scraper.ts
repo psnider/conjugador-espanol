@@ -27,9 +27,14 @@ const persons_order_in_page: GrammaticalPerson[] = ["s1", "s2", "vos", "s3", "p1
 
 function extractSpanishSection(html: string): string {
     const RE_SECTION = /<h2 id="Español">/i
-    const match_start = html.match(RE_SECTION)
-    if (!match_start)
-        throw new Error("No Spanish section")
+    let match_start = html.match(RE_SECTION)
+    if (!match_start) {
+        const RE_ALT_SECTION = /Conjugación<\/h3>/i
+        match_start = html.match(RE_ALT_SECTION)
+        if (!match_start) {
+            throw new Error("No Español or Conjugación section")
+        }
+    }
     html = html.slice(match_start.index)
     const RE_CONJUGATION_BLOCK = /<div[^>]*>\s*<b>\s*Conjugación\s+de[\s\S]*?<\/table>/i
     const match_end = html.match(RE_CONJUGATION_BLOCK)
