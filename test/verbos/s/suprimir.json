@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[supɾiˈmiɾ]",
+    "silabacion": "su-pri-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín supprimere.[1]",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"suprimir","gerundio":["suprimiendo"],"participio":["suprimido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["suprimo"],"s2":["suprimes"],"vos":["suprimís"],"s3":["suprime"],"p1":["suprimimos"],"p2":["suprimís"],"p3":["suprimen"]},
+    "IndImp": {"s1":["suprimía"],"s2":["suprimías"],"vos":["suprimías"],"s3":["suprimía"],"p1":["suprimíamos"],"p2":["suprimíais"],"p3":["suprimían"]},
+    "IndPret": {"s1":["suprimí"],"s2":["suprimiste"],"vos":["suprimiste"],"s3":["suprimió"],"p1":["suprimimos"],"p2":["suprimisteis"],"p3":["suprimieron"]},
+    "IndFut": {"s1":["suprimiré"],"s2":["suprimirás"],"vos":["suprimirás"],"s3":["suprimirá"],"p1":["suprimiremos"],"p2":["suprimiréis"],"p3":["suprimirán"]},
+    "IndCond": {"s1":["suprimiría"],"s2":["suprimirías"],"vos":["suprimirías"],"s3":["suprimiría"],"p1":["suprimiríamos"],"p2":["suprimiríais"],"p3":["suprimirían"]},
+    "SubPres": {"s1":["suprima"],"s2":["suprimas"],"vos":["suprimas","suprimás"],"s3":["suprima"],"p1":["suprimamos"],"p2":["suprimáis"],"p3":["supriman"]},
+    "SubImp": {"s1":["suprimiera","suprimiese"],"s2":["suprimieras","suprimieses"],"vos":["suprimieras","suprimieses"],"s3":["suprimiera","suprimiese"],"p1":["suprimiéramos","suprimiésemos"],"p2":["suprimierais","suprimieseis"],"p3":["suprimieran","suprimiesen"]},
+    "SubFut": {"s1":["suprimiere"],"s2":["suprimieres"],"vos":["suprimieres"],"s3":["suprimiere"],"p1":["suprimiéremos"],"p2":["suprimiereis"],"p3":["suprimieren"]},
+    "CmdPos": {"s2":["suprime"],"vos":["suprimí"],"s3":["suprima"],"p1":["suprimamos"],"p2":["suprimid"],"p3":["supriman"]}
+  }
+}

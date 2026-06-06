@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pĩnʲˈt͡ʃaɾ]",
+    "silabacion": "pin-char",
+    "acentuacion": "aguda",
+    "etimologia": "Alteración fonética de punchar por influencia de picar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pinchar","gerundio":["pinchando"],"participio":["pinchado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pincho"],"s2":["pinchas"],"vos":["pinchás"],"s3":["pincha"],"p1":["pinchamos"],"p2":["pincháis"],"p3":["pinchan"]},
+    "IndImp": {"s1":["pinchaba"],"s2":["pinchabas"],"vos":["pinchabas"],"s3":["pinchaba"],"p1":["pinchábamos"],"p2":["pinchabais"],"p3":["pinchaban"]},
+    "IndPret": {"s1":["pinché"],"s2":["pinchaste"],"vos":["pinchaste"],"s3":["pinchó"],"p1":["pinchamos"],"p2":["pinchasteis"],"p3":["pincharon"]},
+    "IndFut": {"s1":["pincharé"],"s2":["pincharás"],"vos":["pincharás"],"s3":["pinchará"],"p1":["pincharemos"],"p2":["pincharéis"],"p3":["pincharán"]},
+    "IndCond": {"s1":["pincharía"],"s2":["pincharías"],"vos":["pincharías"],"s3":["pincharía"],"p1":["pincharíamos"],"p2":["pincharíais"],"p3":["pincharían"]},
+    "SubPres": {"s1":["pinche"],"s2":["pinches"],"vos":["pinches","pinchés"],"s3":["pinche"],"p1":["pinchemos"],"p2":["pinchéis"],"p3":["pinchen"]},
+    "SubImp": {"s1":["pinchara","pinchase"],"s2":["pincharas","pinchases"],"vos":["pincharas","pinchases"],"s3":["pinchara","pinchase"],"p1":["pincháramos","pinchásemos"],"p2":["pincharais","pinchaseis"],"p3":["pincharan","pinchasen"]},
+    "SubFut": {"s1":["pinchare"],"s2":["pinchares"],"vos":["pinchares"],"s3":["pinchare"],"p1":["pincháremos"],"p2":["pinchareis"],"p3":["pincharen"]},
+    "CmdPos": {"s2":["pincha"],"vos":["pinchá"],"s3":["pinche"],"p1":["pinchemos"],"p2":["pinchad"],"p3":["pinchen"]}
+  }
+}

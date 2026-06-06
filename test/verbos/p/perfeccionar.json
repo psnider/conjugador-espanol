@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾfeksjoˈnaɾ]",
+    "silabacion": "per-fec-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De perfección y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"perfeccionar","gerundio":["perfeccionando"],"participio":["perfeccionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["perfecciono"],"s2":["perfeccionas"],"vos":["perfeccionás"],"s3":["perfecciona"],"p1":["perfeccionamos"],"p2":["perfeccionáis"],"p3":["perfeccionan"]},
+    "IndImp": {"s1":["perfeccionaba"],"s2":["perfeccionabas"],"vos":["perfeccionabas"],"s3":["perfeccionaba"],"p1":["perfeccionábamos"],"p2":["perfeccionabais"],"p3":["perfeccionaban"]},
+    "IndPret": {"s1":["perfeccioné"],"s2":["perfeccionaste"],"vos":["perfeccionaste"],"s3":["perfeccionó"],"p1":["perfeccionamos"],"p2":["perfeccionasteis"],"p3":["perfeccionaron"]},
+    "IndFut": {"s1":["perfeccionaré"],"s2":["perfeccionarás"],"vos":["perfeccionarás"],"s3":["perfeccionará"],"p1":["perfeccionaremos"],"p2":["perfeccionaréis"],"p3":["perfeccionarán"]},
+    "IndCond": {"s1":["perfeccionaría"],"s2":["perfeccionarías"],"vos":["perfeccionarías"],"s3":["perfeccionaría"],"p1":["perfeccionaríamos"],"p2":["perfeccionaríais"],"p3":["perfeccionarían"]},
+    "SubPres": {"s1":["perfeccione"],"s2":["perfecciones"],"vos":["perfecciones","perfeccionés"],"s3":["perfeccione"],"p1":["perfeccionemos"],"p2":["perfeccionéis"],"p3":["perfeccionen"]},
+    "SubImp": {"s1":["perfeccionara","perfeccionase"],"s2":["perfeccionaras","perfeccionases"],"vos":["perfeccionaras","perfeccionases"],"s3":["perfeccionara","perfeccionase"],"p1":["perfeccionáramos","perfeccionásemos"],"p2":["perfeccionarais","perfeccionaseis"],"p3":["perfeccionaran","perfeccionasen"]},
+    "SubFut": {"s1":["perfeccionare"],"s2":["perfeccionares"],"vos":["perfeccionares"],"s3":["perfeccionare"],"p1":["perfeccionáremos"],"p2":["perfeccionareis"],"p3":["perfeccionaren"]},
+    "CmdPos": {"s2":["perfecciona"],"vos":["perfeccioná"],"s3":["perfeccione"],"p1":["perfeccionemos"],"p2":["perfeccionad"],"p3":["perfeccionen"]}
+  }
+}

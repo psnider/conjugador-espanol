@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awð̞iˈt̪aɾ]",
+    "silabacion": "au-di-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés audit, del latín auditare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"auditar","gerundio":["auditando"],"participio":["auditado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["audito"],"s2":["auditas"],"vos":["auditás"],"s3":["audita"],"p1":["auditamos"],"p2":["auditáis"],"p3":["auditan"]},
+    "IndImp": {"s1":["auditaba"],"s2":["auditabas"],"vos":["auditabas"],"s3":["auditaba"],"p1":["auditábamos"],"p2":["auditabais"],"p3":["auditaban"]},
+    "IndPret": {"s1":["audité"],"s2":["auditaste"],"vos":["auditaste"],"s3":["auditó"],"p1":["auditamos"],"p2":["auditasteis"],"p3":["auditaron"]},
+    "IndFut": {"s1":["auditaré"],"s2":["auditarás"],"vos":["auditarás"],"s3":["auditará"],"p1":["auditaremos"],"p2":["auditaréis"],"p3":["auditarán"]},
+    "IndCond": {"s1":["auditaría"],"s2":["auditarías"],"vos":["auditarías"],"s3":["auditaría"],"p1":["auditaríamos"],"p2":["auditaríais"],"p3":["auditarían"]},
+    "SubPres": {"s1":["audite"],"s2":["audites"],"vos":["audites","audités"],"s3":["audite"],"p1":["auditemos"],"p2":["auditéis"],"p3":["auditen"]},
+    "SubImp": {"s1":["auditara","auditase"],"s2":["auditaras","auditases"],"vos":["auditaras","auditases"],"s3":["auditara","auditase"],"p1":["auditáramos","auditásemos"],"p2":["auditarais","auditaseis"],"p3":["auditaran","auditasen"]},
+    "SubFut": {"s1":["auditare"],"s2":["auditares"],"vos":["auditares"],"s3":["auditare"],"p1":["auditáremos"],"p2":["auditareis"],"p3":["auditaren"]},
+    "CmdPos": {"s2":["audita"],"vos":["auditá"],"s3":["audite"],"p1":["auditemos"],"p2":["auditad"],"p3":["auditen"]}
+  }
+}

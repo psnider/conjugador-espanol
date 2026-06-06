@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnʲt͡ʃiˈlaɾ]",
+    "silabacion": "en-chi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enchilar","gerundio":["enchilando"],"participio":["enchilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enchilo"],"s2":["enchilas"],"vos":["enchilás"],"s3":["enchila"],"p1":["enchilamos"],"p2":["enchiláis"],"p3":["enchilan"]},
+    "IndImp": {"s1":["enchilaba"],"s2":["enchilabas"],"vos":["enchilabas"],"s3":["enchilaba"],"p1":["enchilábamos"],"p2":["enchilabais"],"p3":["enchilaban"]},
+    "IndPret": {"s1":["enchilé"],"s2":["enchilaste"],"vos":["enchilaste"],"s3":["enchiló"],"p1":["enchilamos"],"p2":["enchilasteis"],"p3":["enchilaron"]},
+    "IndFut": {"s1":["enchilaré"],"s2":["enchilarás"],"vos":["enchilarás"],"s3":["enchilará"],"p1":["enchilaremos"],"p2":["enchilaréis"],"p3":["enchilarán"]},
+    "IndCond": {"s1":["enchilaría"],"s2":["enchilarías"],"vos":["enchilarías"],"s3":["enchilaría"],"p1":["enchilaríamos"],"p2":["enchilaríais"],"p3":["enchilarían"]},
+    "SubPres": {"s1":["enchile"],"s2":["enchiles"],"vos":["enchiles","enchilés"],"s3":["enchile"],"p1":["enchilemos"],"p2":["enchiléis"],"p3":["enchilen"]},
+    "SubImp": {"s1":["enchilara","enchilase"],"s2":["enchilaras","enchilases"],"vos":["enchilaras","enchilases"],"s3":["enchilara","enchilase"],"p1":["enchiláramos","enchilásemos"],"p2":["enchilarais","enchilaseis"],"p3":["enchilaran","enchilasen"]},
+    "SubFut": {"s1":["enchilare"],"s2":["enchilares"],"vos":["enchilares"],"s3":["enchilare"],"p1":["enchiláremos"],"p2":["enchilareis"],"p3":["enchilaren"]},
+    "CmdPos": {"s2":["enchila"],"vos":["enchilá"],"s3":["enchile"],"p1":["enchilemos"],"p2":["enchilad"],"p3":["enchilen"]}
+  }
+}

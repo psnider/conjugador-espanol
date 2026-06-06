@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[masaxeˈaɾ]",
+    "silabacion": "ma-sa-je-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De masaje y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"masajear","gerundio":["masajeando"],"participio":["masajeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["masajeo"],"s2":["masajeas"],"vos":["masajeás"],"s3":["masajea"],"p1":["masajeamos"],"p2":["masajeáis"],"p3":["masajean"]},
+    "IndImp": {"s1":["masajeaba"],"s2":["masajeabas"],"vos":["masajeabas"],"s3":["masajeaba"],"p1":["masajeábamos"],"p2":["masajeabais"],"p3":["masajeaban"]},
+    "IndPret": {"s1":["masajeé"],"s2":["masajeaste"],"vos":["masajeaste"],"s3":["masajeó"],"p1":["masajeamos"],"p2":["masajeasteis"],"p3":["masajearon"]},
+    "IndFut": {"s1":["masajearé"],"s2":["masajearás"],"vos":["masajearás"],"s3":["masajeará"],"p1":["masajearemos"],"p2":["masajearéis"],"p3":["masajearán"]},
+    "IndCond": {"s1":["masajearía"],"s2":["masajearías"],"vos":["masajearías"],"s3":["masajearía"],"p1":["masajearíamos"],"p2":["masajearíais"],"p3":["masajearían"]},
+    "SubPres": {"s1":["masajee"],"s2":["masajees"],"vos":["masajees","masajeés"],"s3":["masajee"],"p1":["masajeemos"],"p2":["masajeéis"],"p3":["masajeen"]},
+    "SubImp": {"s1":["masajeara","masajease"],"s2":["masajearas","masajeases"],"vos":["masajearas","masajeases"],"s3":["masajeara","masajease"],"p1":["masajeáramos","masajeásemos"],"p2":["masajearais","masajeaseis"],"p3":["masajearan","masajeasen"]},
+    "SubFut": {"s1":["masajeare"],"s2":["masajeares"],"vos":["masajeares"],"s3":["masajeare"],"p1":["masajeáremos"],"p2":["masajeareis"],"p3":["masajearen"]},
+    "CmdPos": {"s2":["masajea"],"vos":["masajeá"],"s3":["masajee"],"p1":["masajeemos"],"p2":["masajead"],"p3":["masajeen"]}
+  }
+}

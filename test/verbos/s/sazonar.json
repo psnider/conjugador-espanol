@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sasoˈnaɾ]",
+    "silabacion": "sa-zo-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De sazón y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sazonar","gerundio":["sazonando"],"participio":["sazonado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sazono"],"s2":["sazonas"],"vos":["sazonás"],"s3":["sazona"],"p1":["sazonamos"],"p2":["sazonáis"],"p3":["sazonan"]},
+    "IndImp": {"s1":["sazonaba"],"s2":["sazonabas"],"vos":["sazonabas"],"s3":["sazonaba"],"p1":["sazonábamos"],"p2":["sazonabais"],"p3":["sazonaban"]},
+    "IndPret": {"s1":["sazoné"],"s2":["sazonaste"],"vos":["sazonaste"],"s3":["sazonó"],"p1":["sazonamos"],"p2":["sazonasteis"],"p3":["sazonaron"]},
+    "IndFut": {"s1":["sazonaré"],"s2":["sazonarás"],"vos":["sazonarás"],"s3":["sazonará"],"p1":["sazonaremos"],"p2":["sazonaréis"],"p3":["sazonarán"]},
+    "IndCond": {"s1":["sazonaría"],"s2":["sazonarías"],"vos":["sazonarías"],"s3":["sazonaría"],"p1":["sazonaríamos"],"p2":["sazonaríais"],"p3":["sazonarían"]},
+    "SubPres": {"s1":["sazone"],"s2":["sazones"],"vos":["sazones","sazonés"],"s3":["sazone"],"p1":["sazonemos"],"p2":["sazonéis"],"p3":["sazonen"]},
+    "SubImp": {"s1":["sazonara","sazonase"],"s2":["sazonaras","sazonases"],"vos":["sazonaras","sazonases"],"s3":["sazonara","sazonase"],"p1":["sazonáramos","sazonásemos"],"p2":["sazonarais","sazonaseis"],"p3":["sazonaran","sazonasen"]},
+    "SubFut": {"s1":["sazonare"],"s2":["sazonares"],"vos":["sazonares"],"s3":["sazonare"],"p1":["sazonáremos"],"p2":["sazonareis"],"p3":["sazonaren"]},
+    "CmdPos": {"s2":["sazona"],"vos":["sazoná"],"s3":["sazone"],"p1":["sazonemos"],"p2":["sazonad"],"p3":["sazonen"]}
+  }
+}

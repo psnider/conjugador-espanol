@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksiˈβ̞iɾ]",
+    "silabacion": "ex-hi-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exhibeō, exhibēre, compuesto del latín habeo. Compárense haber, cohibir, inhibir y prohibir.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"exhibir","gerundio":["exhibiendo"],"participio":["exhibido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exhibo"],"s2":["exhibes"],"vos":["exhibís"],"s3":["exhibe"],"p1":["exhibimos"],"p2":["exhibís"],"p3":["exhiben"]},
+    "IndImp": {"s1":["exhibía"],"s2":["exhibías"],"vos":["exhibías"],"s3":["exhibía"],"p1":["exhibíamos"],"p2":["exhibíais"],"p3":["exhibían"]},
+    "IndPret": {"s1":["exhibí"],"s2":["exhibiste"],"vos":["exhibiste"],"s3":["exhibió"],"p1":["exhibimos"],"p2":["exhibisteis"],"p3":["exhibieron"]},
+    "IndFut": {"s1":["exhibiré"],"s2":["exhibirás"],"vos":["exhibirás"],"s3":["exhibirá"],"p1":["exhibiremos"],"p2":["exhibiréis"],"p3":["exhibirán"]},
+    "IndCond": {"s1":["exhibiría"],"s2":["exhibirías"],"vos":["exhibirías"],"s3":["exhibiría"],"p1":["exhibiríamos"],"p2":["exhibiríais"],"p3":["exhibirían"]},
+    "SubPres": {"s1":["exhiba"],"s2":["exhibas"],"vos":["exhibas","exhibás"],"s3":["exhiba"],"p1":["exhibamos"],"p2":["exhibáis"],"p3":["exhiban"]},
+    "SubImp": {"s1":["exhibiera","exhibiese"],"s2":["exhibieras","exhibieses"],"vos":["exhibieras","exhibieses"],"s3":["exhibiera","exhibiese"],"p1":["exhibiéramos","exhibiésemos"],"p2":["exhibierais","exhibieseis"],"p3":["exhibieran","exhibiesen"]},
+    "SubFut": {"s1":["exhibiere"],"s2":["exhibieres"],"vos":["exhibieres"],"s3":["exhibiere"],"p1":["exhibiéremos"],"p2":["exhibiereis"],"p3":["exhibieren"]},
+    "CmdPos": {"s2":["exhibe"],"vos":["exhibí"],"s3":["exhiba"],"p1":["exhibamos"],"p2":["exhibid"],"p3":["exhiban"]}
+  }
+}

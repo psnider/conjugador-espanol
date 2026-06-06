@@ -1,0 +1,1 @@
+{"version":3,"file":"derive-participles.d.ts","sourceRoot":"","sources":["../../src/derive-participles.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,WAAW,EAA0C,qBAAqB,EAAE,MAAM,SAAS,CAAA;AAmLzH,wBAAgB,iBAAiB,CAAC,UAAU,EAAE,MAAM,GAAG;IAAC,WAAW,EAAE,WAAW,CAAC,cAAc,EAAE,CAAC,CAAC;IAAC,sBAAsB,EAAE,qBAAqB,CAAA;CAAC,GAAG,SAAS,CAO7J"}

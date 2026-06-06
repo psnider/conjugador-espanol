@@ -1,6 +1,7 @@
-import { VerbConjugation, VerbConjugationChanges, MoodTense, VerbConjugationRules, VerbConjugationSuffixes } from ".";
+import type { MoodTense } from "./index"
+import type { VerbConjugation, VerbConjugationChanges, VerbConjugationRules, VerbConjugationSuffixes } from "./index-privado"
+import type { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 import { verb_terminations_normalized } from "./lib.js";
-import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 
 
 export interface VerbAspectModifications {

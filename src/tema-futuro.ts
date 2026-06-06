@@ -1,6 +1,7 @@
-import { MoodTense, VerbConjugationStems } from ".";
+import type { MoodTense } from "./index"
+import type { VerbConjugationStems } from "./index-privado"
+import type { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 import { setStem } from "./lib.js";
-import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 
 //   - Futuro simple (todas las personas)
 //   - Condicional simple (todas las personas)

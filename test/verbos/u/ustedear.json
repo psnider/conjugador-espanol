@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ust̪eð̞eˈaɾ]",
+    "silabacion": "us-te-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ustedear","gerundio":["ustedeando"],"participio":["ustedeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ustedeo"],"s2":["ustedeas"],"vos":["ustedeás"],"s3":["ustedea"],"p1":["ustedeamos"],"p2":["ustedeáis"],"p3":["ustedean"]},
+    "IndImp": {"s1":["ustedeaba"],"s2":["ustedeabas"],"vos":["ustedeabas"],"s3":["ustedeaba"],"p1":["ustedeábamos"],"p2":["ustedeabais"],"p3":["ustedeaban"]},
+    "IndPret": {"s1":["ustedeé"],"s2":["ustedeaste"],"vos":["ustedeaste"],"s3":["ustedeó"],"p1":["ustedeamos"],"p2":["ustedeasteis"],"p3":["ustedearon"]},
+    "IndFut": {"s1":["ustedearé"],"s2":["ustedearás"],"vos":["ustedearás"],"s3":["ustedeará"],"p1":["ustedearemos"],"p2":["ustedearéis"],"p3":["ustedearán"]},
+    "IndCond": {"s1":["ustedearía"],"s2":["ustedearías"],"vos":["ustedearías"],"s3":["ustedearía"],"p1":["ustedearíamos"],"p2":["ustedearíais"],"p3":["ustedearían"]},
+    "SubPres": {"s1":["ustedee"],"s2":["ustedees"],"vos":["ustedees","ustedeés"],"s3":["ustedee"],"p1":["ustedeemos"],"p2":["ustedeéis"],"p3":["ustedeen"]},
+    "SubImp": {"s1":["ustedeara","ustedease"],"s2":["ustedearas","ustedeases"],"vos":["ustedearas","ustedeases"],"s3":["ustedeara","ustedease"],"p1":["ustedeáramos","ustedeásemos"],"p2":["ustedearais","ustedeaseis"],"p3":["ustedearan","ustedeasen"]},
+    "SubFut": {"s1":["ustedeare"],"s2":["ustedeares"],"vos":["ustedeares"],"s3":["ustedeare"],"p1":["ustedeáremos"],"p2":["ustedeareis"],"p3":["ustedearen"]},
+    "CmdPos": {"s2":["ustedea"],"vos":["ustedeá"],"s3":["ustedee"],"p1":["ustedeemos"],"p2":["ustedead"],"p3":["ustedeen"]}
+  }
+}

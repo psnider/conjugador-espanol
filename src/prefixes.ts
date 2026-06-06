@@ -1,6 +1,6 @@
-import { FormaConjugada } from ".";
+import type { FormaConjugada } from "./index"
+import type { Prefixes } from "./resolve-conjugation-class"
 import { applyToFormasConjugadas, combinaFormasConjugadas, vowels } from "./lib.js";
-import { Prefixes } from "./resolve-conjugation-class.js";
 
 
 // Prefixes that precede irregular verbs.

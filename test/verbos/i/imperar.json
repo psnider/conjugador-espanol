@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpeˈɾaɾ]",
+    "silabacion": "im-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín imperare.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"imperar","gerundio":["imperando"],"participio":["imperado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["impero"],"s2":["imperas"],"vos":["imperás"],"s3":["impera"],"p1":["imperamos"],"p2":["imperáis"],"p3":["imperan"]},
+    "IndImp": {"s1":["imperaba"],"s2":["imperabas"],"vos":["imperabas"],"s3":["imperaba"],"p1":["imperábamos"],"p2":["imperabais"],"p3":["imperaban"]},
+    "IndPret": {"s1":["imperé"],"s2":["imperaste"],"vos":["imperaste"],"s3":["imperó"],"p1":["imperamos"],"p2":["imperasteis"],"p3":["imperaron"]},
+    "IndFut": {"s1":["imperaré"],"s2":["imperarás"],"vos":["imperarás"],"s3":["imperará"],"p1":["imperaremos"],"p2":["imperaréis"],"p3":["imperarán"]},
+    "IndCond": {"s1":["imperaría"],"s2":["imperarías"],"vos":["imperarías"],"s3":["imperaría"],"p1":["imperaríamos"],"p2":["imperaríais"],"p3":["imperarían"]},
+    "SubPres": {"s1":["impere"],"s2":["imperes"],"vos":["imperes","imperés"],"s3":["impere"],"p1":["imperemos"],"p2":["imperéis"],"p3":["imperen"]},
+    "SubImp": {"s1":["imperara","imperase"],"s2":["imperaras","imperases"],"vos":["imperaras","imperases"],"s3":["imperara","imperase"],"p1":["imperáramos","imperásemos"],"p2":["imperarais","imperaseis"],"p3":["imperaran","imperasen"]},
+    "SubFut": {"s1":["imperare"],"s2":["imperares"],"vos":["imperares"],"s3":["imperare"],"p1":["imperáremos"],"p2":["imperareis"],"p3":["imperaren"]},
+    "CmdPos": {"s2":["impera"],"vos":["imperá"],"s3":["impere"],"p1":["imperemos"],"p2":["imperad"],"p3":["imperen"]}
+  }
+}

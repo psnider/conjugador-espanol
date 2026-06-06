@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akeˈaɾ]",
+    "silabacion": "ha-cke-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés hack.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hackear","gerundio":["hackeando"],"participio":["hackeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hackeo"],"s2":["hackeas"],"vos":["hackeás"],"s3":["hackea"],"p1":["hackeamos"],"p2":["hackeáis"],"p3":["hackean"]},
+    "IndImp": {"s1":["hackeaba"],"s2":["hackeabas"],"vos":["hackeabas"],"s3":["hackeaba"],"p1":["hackeábamos"],"p2":["hackeabais"],"p3":["hackeaban"]},
+    "IndPret": {"s1":["hackeé"],"s2":["hackeaste"],"vos":["hackeaste"],"s3":["hackeó"],"p1":["hackeamos"],"p2":["hackeasteis"],"p3":["hackearon"]},
+    "IndFut": {"s1":["hackearé"],"s2":["hackearás"],"vos":["hackearás"],"s3":["hackeará"],"p1":["hackearemos"],"p2":["hackearéis"],"p3":["hackearán"]},
+    "IndCond": {"s1":["hackearía"],"s2":["hackearías"],"vos":["hackearías"],"s3":["hackearía"],"p1":["hackearíamos"],"p2":["hackearíais"],"p3":["hackearían"]},
+    "SubPres": {"s1":["hackee"],"s2":["hackees"],"vos":["hackees","hackeés"],"s3":["hackee"],"p1":["hackeemos"],"p2":["hackeéis"],"p3":["hackeen"]},
+    "SubImp": {"s1":["hackeara","hackease"],"s2":["hackearas","hackeases"],"vos":["hackearas","hackeases"],"s3":["hackeara","hackease"],"p1":["hackeáramos","hackeásemos"],"p2":["hackearais","hackeaseis"],"p3":["hackearan","hackeasen"]},
+    "SubFut": {"s1":["hackeare"],"s2":["hackeares"],"vos":["hackeares"],"s3":["hackeare"],"p1":["hackeáremos"],"p2":["hackeareis"],"p3":["hackearen"]},
+    "CmdPos": {"s2":["hackea"],"vos":["hackeá"],"s3":["hackee"],"p1":["hackeemos"],"p2":["hackead"],"p3":["hackeen"]}
+  }
+}

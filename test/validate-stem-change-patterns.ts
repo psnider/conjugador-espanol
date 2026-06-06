@@ -1,4 +1,4 @@
-import { FormaConjugada, GrammaticalPerson, StemChangeRuleId } from "../src/index.js"
+import { FormaConjugada, GrammaticalPerson, StemChangeRuleId } from "../src/index"
 import { getForma, mood_tenses } from "../src/lib.js"
 import { stem_change_descriptions, stem_change_patterns } from "../src/stem-changes.js"
 

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bapoɾiˈsaɾ]",
+    "silabacion": "va-po-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De vapor y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"vaporizar","gerundio":["vaporizando"],"participio":["vaporizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vaporizo"],"s2":["vaporizas"],"vos":["vaporizás"],"s3":["vaporiza"],"p1":["vaporizamos"],"p2":["vaporizáis"],"p3":["vaporizan"]},
+    "IndImp": {"s1":["vaporizaba"],"s2":["vaporizabas"],"vos":["vaporizabas"],"s3":["vaporizaba"],"p1":["vaporizábamos"],"p2":["vaporizabais"],"p3":["vaporizaban"]},
+    "IndPret": {"s1":["vaporicé"],"s2":["vaporizaste"],"vos":["vaporizaste"],"s3":["vaporizó"],"p1":["vaporizamos"],"p2":["vaporizasteis"],"p3":["vaporizaron"]},
+    "IndFut": {"s1":["vaporizaré"],"s2":["vaporizarás"],"vos":["vaporizarás"],"s3":["vaporizará"],"p1":["vaporizaremos"],"p2":["vaporizaréis"],"p3":["vaporizarán"]},
+    "IndCond": {"s1":["vaporizaría"],"s2":["vaporizarías"],"vos":["vaporizarías"],"s3":["vaporizaría"],"p1":["vaporizaríamos"],"p2":["vaporizaríais"],"p3":["vaporizarían"]},
+    "SubPres": {"s1":["vaporice"],"s2":["vaporices"],"vos":["vaporices","vaporicés"],"s3":["vaporice"],"p1":["vaporicemos"],"p2":["vaporicéis"],"p3":["vaporicen"]},
+    "SubImp": {"s1":["vaporizara","vaporizase"],"s2":["vaporizaras","vaporizases"],"vos":["vaporizaras","vaporizases"],"s3":["vaporizara","vaporizase"],"p1":["vaporizáramos","vaporizásemos"],"p2":["vaporizarais","vaporizaseis"],"p3":["vaporizaran","vaporizasen"]},
+    "SubFut": {"s1":["vaporizare"],"s2":["vaporizares"],"vos":["vaporizares"],"s3":["vaporizare"],"p1":["vaporizáremos"],"p2":["vaporizareis"],"p3":["vaporizaren"]},
+    "CmdPos": {"s2":["vaporiza"],"vos":["vaporizá"],"s3":["vaporice"],"p1":["vaporicemos"],"p2":["vaporizad"],"p3":["vaporicen"]}
+  }
+}

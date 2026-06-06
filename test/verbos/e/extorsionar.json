@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekst̪oɾsjoˈnaɾ]",
+    "silabacion": "ex-tor-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"extorsionar","gerundio":["extorsionando"],"participio":["extorsionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["extorsiono"],"s2":["extorsionas"],"vos":["extorsionás"],"s3":["extorsiona"],"p1":["extorsionamos"],"p2":["extorsionáis"],"p3":["extorsionan"]},
+    "IndImp": {"s1":["extorsionaba"],"s2":["extorsionabas"],"vos":["extorsionabas"],"s3":["extorsionaba"],"p1":["extorsionábamos"],"p2":["extorsionabais"],"p3":["extorsionaban"]},
+    "IndPret": {"s1":["extorsioné"],"s2":["extorsionaste"],"vos":["extorsionaste"],"s3":["extorsionó"],"p1":["extorsionamos"],"p2":["extorsionasteis"],"p3":["extorsionaron"]},
+    "IndFut": {"s1":["extorsionaré"],"s2":["extorsionarás"],"vos":["extorsionarás"],"s3":["extorsionará"],"p1":["extorsionaremos"],"p2":["extorsionaréis"],"p3":["extorsionarán"]},
+    "IndCond": {"s1":["extorsionaría"],"s2":["extorsionarías"],"vos":["extorsionarías"],"s3":["extorsionaría"],"p1":["extorsionaríamos"],"p2":["extorsionaríais"],"p3":["extorsionarían"]},
+    "SubPres": {"s1":["extorsione"],"s2":["extorsiones"],"vos":["extorsiones","extorsionés"],"s3":["extorsione"],"p1":["extorsionemos"],"p2":["extorsionéis"],"p3":["extorsionen"]},
+    "SubImp": {"s1":["extorsionara","extorsionase"],"s2":["extorsionaras","extorsionases"],"vos":["extorsionaras","extorsionases"],"s3":["extorsionara","extorsionase"],"p1":["extorsionáramos","extorsionásemos"],"p2":["extorsionarais","extorsionaseis"],"p3":["extorsionaran","extorsionasen"]},
+    "SubFut": {"s1":["extorsionare"],"s2":["extorsionares"],"vos":["extorsionares"],"s3":["extorsionare"],"p1":["extorsionáremos"],"p2":["extorsionareis"],"p3":["extorsionaren"]},
+    "CmdPos": {"s2":["extorsiona"],"vos":["extorsioná"],"s3":["extorsione"],"p1":["extorsionemos"],"p2":["extorsionad"],"p3":["extorsionen"]}
+  }
+}

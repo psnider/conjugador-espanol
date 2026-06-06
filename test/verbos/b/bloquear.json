@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[blokeˈaɾ]",
+    "silabacion": "blo-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés bloquer",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bloquear","gerundio":["bloqueando"],"participio":["bloqueado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["bloqueo"],"s2":["bloqueas"],"vos":["bloqueás"],"s3":["bloquea"],"p1":["bloqueamos"],"p2":["bloqueáis"],"p3":["bloquean"]},
+    "IndImp": {"s1":["bloqueaba"],"s2":["bloqueabas"],"vos":["bloqueabas"],"s3":["bloqueaba"],"p1":["bloqueábamos"],"p2":["bloqueabais"],"p3":["bloqueaban"]},
+    "IndPret": {"s1":["bloqueé"],"s2":["bloqueaste"],"vos":["bloqueaste"],"s3":["bloqueó"],"p1":["bloqueamos"],"p2":["bloqueasteis"],"p3":["bloquearon"]},
+    "IndFut": {"s1":["bloquearé"],"s2":["bloquearás"],"vos":["bloquearás"],"s3":["bloqueará"],"p1":["bloquearemos"],"p2":["bloquearéis"],"p3":["bloquearán"]},
+    "IndCond": {"s1":["bloquearía"],"s2":["bloquearías"],"vos":["bloquearías"],"s3":["bloquearía"],"p1":["bloquearíamos"],"p2":["bloquearíais"],"p3":["bloquearían"]},
+    "SubPres": {"s1":["bloquee"],"s2":["bloquees"],"vos":["bloquees","bloqueés"],"s3":["bloquee"],"p1":["bloqueemos"],"p2":["bloqueéis"],"p3":["bloqueen"]},
+    "SubImp": {"s1":["bloqueara","bloquease"],"s2":["bloquearas","bloqueases"],"vos":["bloquearas","bloqueases"],"s3":["bloqueara","bloquease"],"p1":["bloqueáramos","bloqueásemos"],"p2":["bloquearais","bloqueaseis"],"p3":["bloquearan","bloqueasen"]},
+    "SubFut": {"s1":["bloqueare"],"s2":["bloqueares"],"vos":["bloqueares"],"s3":["bloqueare"],"p1":["bloqueáremos"],"p2":["bloqueareis"],"p3":["bloquearen"]},
+    "CmdPos": {"s2":["bloquea"],"vos":["bloqueá"],"s3":["bloquee"],"p1":["bloqueemos"],"p2":["bloquead"],"p3":["bloqueen"]}
+  }
+}

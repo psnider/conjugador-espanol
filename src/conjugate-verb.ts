@@ -1,15 +1,18 @@
-import { MoodTense, CambiosConjugacionales, VerbConjugation, VerbConjugationAnnotated, VerbConjugationStems, VerbConjugationSuffixes, FormaConjugada, GrammaticalPerson, Uso, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla  } from "."
+import type { MoodTense, CambiosConjugacionales, VerbConjugationAnnotated, FormaConjugada, GrammaticalPerson, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla, Uso } from "./index"
+import type { VerbConjugation, VerbConjugationStems, VerbConjugationSuffixes  } from "./index-privado"
+import type { ConjugationAndDerivationRules, MorphologicalRulesAccumulated, Prefixes } from "./resolve-conjugation-class.js"
+import type { VerbAspectRulesWithFullyIrregularForms } from "./verbos-con-cambios-morfológicas.js"
 import { getTemaConAlternanciaVocálica, getTemaConAlternanciaVocálica_IndPret3P } from "./alternancia-vocálica.js"
 import { acumulaCambiosPorPersona, applyToFormasConjugadas, asFormaConjugada, assert, añadeCambiosPorPersona, combinaFormasConjugadas, formaConjugadaIgual, getForma, isValueless, persons_w_vos, setStem, vowels } from "./lib.js"
 import { moveStress, removeStress, stressed_regex } from "./move-stress.js"
 import { aplicaPrefijosClaseConjugacional } from "./prefixes.js"
 import { getRegularRules, getRegularSuffixes, VerbAspectRules } from "./regular-verb-rules.js"
-import { ConjugationAndDerivationRules, MorphologicalRulesAccumulated, Prefixes, resolveConjugationClass } from "./resolve-conjugation-class.js"
+import { resolveConjugationClass } from "./resolve-conjugation-class.js"
 import { getTemaFuturo } from "./tema-futuro.js"
 import { getSuffixesForPresenteYo, getTemaPresenteYo } from "./tema-presente-yo.js"
 import { getSuffixesForStrongPretérito, getTemaPretérito } from "./tema-pretérito.js"
 import { getCambiosPorRegla, getOrthographicChanges, getOrthographicChanges_IndPret3P } from "./ortografía.js"
-import { getAnnotations, VerbAspectRulesWithFullyIrregularForms } from "./verbos-con-cambios-morfológicas.js"
+import { getAnnotations } from "./verbos-con-cambios-morfológicas.js"
 
 
 // import { getStemChanges } from "./stem-changes.js"
@@ -1132,15 +1135,16 @@ export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRul
     let formas_finales: VerbConjugation = {}
     const cambios = {s1: [], s2: [], s3: [], p1: [], p2: [], p3: [], vos: []}
     if (conjugaciónExiste(morphological_rules, mood_tense)) {    
-        const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense)
+        const mood_tense_base = (mood_tense === "CmdNeg") ? "SubPres" : mood_tense
+        const ancestor_rule_sets = getRegularRules(infinitivo_sin_prefijos, mood_tense_base)
         // consigue las formas regulares
-        const regulares = consigueFormasRegulares(conj_and_deriv_rules, mood_tense, ancestor_rule_sets, cambios)
+        const regulares = consigueFormasRegulares(conj_and_deriv_rules, mood_tense_base, ancestor_rule_sets, cambios)
         // resolve suffixes first, as they help determine the forms used by getStems()
-        const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense, regulares.sufijos, cambios)
+        const suffixes = getSuffixes(conj_and_deriv_rules, mood_tense_base, regulares.sufijos, cambios)
         // find the stems, including any prefix changes from the model to the base infinitive, and alternancia_vocálica
-        const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense, regulares.temas, suffixes, cambios)
+        const unprefixed_stems = getUnprefixedStems(conj_and_deriv_rules, mood_tense_base, regulares.temas, suffixes, cambios)
         // Este también añada los prefijos de Prefixes.clase_de_conjugación
-        applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense, unprefixed_stems, suffixes, cambios) 
+        applyLexicalExceptionsForStemsAndSuffixes(conj_and_deriv_rules, mood_tense_base, unprefixed_stems, suffixes, cambios) 
         // FIX: determine exactly what the role is of determining prefixes automatically.
         // FIX: this is returning all forms, even unchanged ones
         // const prefixed_stems = aplicaPrefijosProductivos(conj_and_deriv_rules, unprefixed_stems, reglas_aplicadas)
@@ -1150,13 +1154,13 @@ export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRul
         const combined_stems_w_suffixes = appendSuffixesToStems(infinitivo_sin_prefijos, full_stems, suffixes, cambios)
         // 9. ortografía
         // FIX: this is returning all forms, even unchanged ones
-        const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense, combined_stems_w_suffixes, suffixes, cambios)
+        const orthography = getOrthographicChanges(conj_and_deriv_rules.infinitivo, mood_tense_base, combined_stems_w_suffixes, suffixes, cambios)
         const forms_w_orthoography = accumulateChangedForms({base: combined_stems_w_suffixes, updates: orthography})
         // 11. Supletivo
-        const supleciones = getFormasDeSuplecionesLexicales(conj_and_deriv_rules, mood_tense, cambios) 
+        const supleciones = getFormasDeSuplecionesLexicales(conj_and_deriv_rules, mood_tense_base, cambios) 
         let formas_casi_finales = accumulateChangedForms({base: forms_w_orthoography, updates: supleciones})
         // 10. excepciones léxicas finales
-        applyImperativoTú({conj_and_deriv_rules, mood_tense, formas_casi_finales, cambios})
+        applyImperativoTú({conj_and_deriv_rules, mood_tense: mood_tense_base, formas_casi_finales, cambios})
         if (prefixes) {
             const con_sílabas_finales_estresadas = maintainStressOnLastSylable(conj_and_deriv_rules, mood_tense, formas_casi_finales, suffixes, cambios)
             formas_casi_finales = accumulateChangedForms({base: formas_casi_finales, updates: con_sílabas_finales_estresadas})
@@ -1164,6 +1168,9 @@ export function _conjugateVerb(conj_and_deriv_rules: ConjugationAndDerivationRul
         formas_finales = normalizaVos(formas_casi_finales)
         if (morphological_rules?.de_infinitivo?.impersonal) {   // no existe morphological_rules.de_modelo.impersonal
             quitarPersonasPersonales(formas_finales, cambios)  
+        }
+        if (mood_tense === "CmdNeg") {
+            delete formas_finales.s1
         }
     } else {
         formas_finales = null

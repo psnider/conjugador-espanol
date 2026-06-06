@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaβ̞iliˈt̪aɾ]",
+    "silabacion": "des-ha-bi-li-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín habilitās ('habilidad') y el sufijo flexivo ar1.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deshabilitar","gerundio":["deshabilitando"],"participio":["deshabilitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["deshabilito"],"s2":["deshabilitas"],"vos":["deshabilitás"],"s3":["deshabilita"],"p1":["deshabilitamos"],"p2":["deshabilitáis"],"p3":["deshabilitan"]},
+    "IndImp": {"s1":["deshabilitaba"],"s2":["deshabilitabas"],"vos":["deshabilitabas"],"s3":["deshabilitaba"],"p1":["deshabilitábamos"],"p2":["deshabilitabais"],"p3":["deshabilitaban"]},
+    "IndPret": {"s1":["deshabilité"],"s2":["deshabilitaste"],"vos":["deshabilitaste"],"s3":["deshabilitó"],"p1":["deshabilitamos"],"p2":["deshabilitasteis"],"p3":["deshabilitaron"]},
+    "IndFut": {"s1":["deshabilitaré"],"s2":["deshabilitarás"],"vos":["deshabilitarás"],"s3":["deshabilitará"],"p1":["deshabilitaremos"],"p2":["deshabilitaréis"],"p3":["deshabilitarán"]},
+    "IndCond": {"s1":["deshabilitaría"],"s2":["deshabilitarías"],"vos":["deshabilitarías"],"s3":["deshabilitaría"],"p1":["deshabilitaríamos"],"p2":["deshabilitaríais"],"p3":["deshabilitarían"]},
+    "SubPres": {"s1":["deshabilite"],"s2":["deshabilites"],"vos":["deshabilites","deshabilités"],"s3":["deshabilite"],"p1":["deshabilitemos"],"p2":["deshabilitéis"],"p3":["deshabiliten"]},
+    "SubImp": {"s1":["deshabilitara","deshabilitase"],"s2":["deshabilitaras","deshabilitases"],"vos":["deshabilitaras","deshabilitases"],"s3":["deshabilitara","deshabilitase"],"p1":["deshabilitáramos","deshabilitásemos"],"p2":["deshabilitarais","deshabilitaseis"],"p3":["deshabilitaran","deshabilitasen"]},
+    "SubFut": {"s1":["deshabilitare"],"s2":["deshabilitares"],"vos":["deshabilitares"],"s3":["deshabilitare"],"p1":["deshabilitáremos"],"p2":["deshabilitareis"],"p3":["deshabilitaren"]},
+    "CmdPos": {"s2":["deshabilita"],"vos":["deshabilitá"],"s3":["deshabilite"],"p1":["deshabilitemos"],"p2":["deshabilitad"],"p3":["deshabiliten"]}
+  }
+}

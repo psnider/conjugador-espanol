@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[exekuˈt̪aɾ]",
+    "silabacion": "e-je-cu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín executare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ejecutar","gerundio":["ejecutando"],"participio":["ejecutado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ejecuto"],"s2":["ejecutas"],"vos":["ejecutás"],"s3":["ejecuta"],"p1":["ejecutamos"],"p2":["ejecutáis"],"p3":["ejecutan"]},
+    "IndImp": {"s1":["ejecutaba"],"s2":["ejecutabas"],"vos":["ejecutabas"],"s3":["ejecutaba"],"p1":["ejecutábamos"],"p2":["ejecutabais"],"p3":["ejecutaban"]},
+    "IndPret": {"s1":["ejecuté"],"s2":["ejecutaste"],"vos":["ejecutaste"],"s3":["ejecutó"],"p1":["ejecutamos"],"p2":["ejecutasteis"],"p3":["ejecutaron"]},
+    "IndFut": {"s1":["ejecutaré"],"s2":["ejecutarás"],"vos":["ejecutarás"],"s3":["ejecutará"],"p1":["ejecutaremos"],"p2":["ejecutaréis"],"p3":["ejecutarán"]},
+    "IndCond": {"s1":["ejecutaría"],"s2":["ejecutarías"],"vos":["ejecutarías"],"s3":["ejecutaría"],"p1":["ejecutaríamos"],"p2":["ejecutaríais"],"p3":["ejecutarían"]},
+    "SubPres": {"s1":["ejecute"],"s2":["ejecutes"],"vos":["ejecutes","ejecutés"],"s3":["ejecute"],"p1":["ejecutemos"],"p2":["ejecutéis"],"p3":["ejecuten"]},
+    "SubImp": {"s1":["ejecutara","ejecutase"],"s2":["ejecutaras","ejecutases"],"vos":["ejecutaras","ejecutases"],"s3":["ejecutara","ejecutase"],"p1":["ejecutáramos","ejecutásemos"],"p2":["ejecutarais","ejecutaseis"],"p3":["ejecutaran","ejecutasen"]},
+    "SubFut": {"s1":["ejecutare"],"s2":["ejecutares"],"vos":["ejecutares"],"s3":["ejecutare"],"p1":["ejecutáremos"],"p2":["ejecutareis"],"p3":["ejecutaren"]},
+    "CmdPos": {"s2":["ejecuta"],"vos":["ejecutá"],"s3":["ejecute"],"p1":["ejecutemos"],"p2":["ejecutad"],"p3":["ejecuten"]}
+  }
+}

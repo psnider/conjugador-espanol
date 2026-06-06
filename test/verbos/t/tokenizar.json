@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪okẽn̪iˈsaɾ]",
+    "silabacion": "to-ken-i-zar",
+    "acentuacion": "aguda",
+    "etimologia": "",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tokenizar","gerundio":["tokenizando"], "participio":["tokenizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tokenizo"],"s2":["tokenizas"],"vos":["tokenizás"],"s3":["tokeniza"],"p1":["tokenizamos"],"p2":["tokenizáis"],"p3":["tokenizan"]},
+    "IndImp": {"s1":["tokenizaba"],"s2":["tokenizabas"],"vos":["tokenizabas"],"s3":["tokenizaba"],"p1":["tokenizábamos"],"p2":["tokenizabais"],"p3":["tokenizaban"]},
+    "IndPret": {"s1":["tokenicé"],"s2":["tokenizaste"],"vos":["tokenizaste"],"s3":["tokenizó"],"p1":["tokenizamos"],"p2":["tokenizasteis"],"p3":["tokenizaron"]},
+    "IndFut": {"s1":["tokenizaré"],"s2":["tokenizarás"],"vos":["tokenizarás"],"s3":["tokenizará"],"p1":["tokenizaremos"],"p2":["tokenizaréis"],"p3":["tokenizarán"]},
+    "IndCond": {"s1":["tokenizaría"],"s2":["tokenizarías"],"vos":["tokenizarías"],"s3":["tokenizaría"],"p1":["tokenizaríamos"],"p2":["tokenizaríais"],"p3":["tokenizarían"]},
+    "SubPres": {"s1":["tokenice"],"s2":["tokenices"],"vos":[{"forma": "tokenices","uso":"Riop."},{"forma":"tokenicés","uso":"C.Am."}],"s3":["tokenice"],"p1":["tokenicemos"],"p2":["tokenicéis"],"p3":["tokenicen"]},
+    "SubImp": {"s1":["tokenizara","tokenizase"],"s2":["tokenizaras","tokenizases"],"vos":["tokenizaras","tokenizases"],"s3":["tokenizara","tokenizase"],"p1":["tokenizáramos","tokenizásemos"],"p2":["tokenizarais","tokenizaseis"],"p3":["tokenizaran","tokenizasen"]},
+    "SubFut": {"s1":["tokenizare"],"s2":["tokenizares"],"vos":["tokenizares"],"s3":["tokenizare"],"p1":["tokenizáremos"],"p2":["tokenizareis"],"p3":["tokenizaren"]},
+    "CmdPos": {"s2":["tokeniza"],"vos":["tokenizá"],"s3":["tokenice"],"p1":["tokenicemos"],"p2":["tokenizad"],"p3":["tokenicen"]}
+  }
+}

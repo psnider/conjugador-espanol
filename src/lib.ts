@@ -1,5 +1,5 @@
-import { FormaConjugada, GrammaticalPerson, MoodTense, VerbConjugation, VerbConjugationStems, FormaRestringida, Participios, Uso, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla } from "."
-
+import type { FormaConjugada, GrammaticalPerson, MoodTense, Participios, CambiosPorPersona, ReglaConjugacional, CambiosPorRegla, FormaRestringida, Uso } from "./index"
+import type { VerbConjugation, VerbConjugationStems } from "./index-privado"
 
 export const vowels = "aáeéiíoóuúü"
 export const consonantes = "bcdfghjklmnñpqrstvwxyz"

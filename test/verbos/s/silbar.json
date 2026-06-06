@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[silˈβ̞aɾ]",
+    "silabacion": "sil-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sibĭlus.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"silbar","gerundio":["silbando"],"participio":["silbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["silbo"],"s2":["silbas"],"vos":["silbás"],"s3":["silba"],"p1":["silbamos"],"p2":["silbáis"],"p3":["silban"]},
+    "IndImp": {"s1":["silbaba"],"s2":["silbabas"],"vos":["silbabas"],"s3":["silbaba"],"p1":["silbábamos"],"p2":["silbabais"],"p3":["silbaban"]},
+    "IndPret": {"s1":["silbé"],"s2":["silbaste"],"vos":["silbaste"],"s3":["silbó"],"p1":["silbamos"],"p2":["silbasteis"],"p3":["silbaron"]},
+    "IndFut": {"s1":["silbaré"],"s2":["silbarás"],"vos":["silbarás"],"s3":["silbará"],"p1":["silbaremos"],"p2":["silbaréis"],"p3":["silbarán"]},
+    "IndCond": {"s1":["silbaría"],"s2":["silbarías"],"vos":["silbarías"],"s3":["silbaría"],"p1":["silbaríamos"],"p2":["silbaríais"],"p3":["silbarían"]},
+    "SubPres": {"s1":["silbe"],"s2":["silbes"],"vos":["silbes","silbés"],"s3":["silbe"],"p1":["silbemos"],"p2":["silbéis"],"p3":["silben"]},
+    "SubImp": {"s1":["silbara","silbase"],"s2":["silbaras","silbases"],"vos":["silbaras","silbases"],"s3":["silbara","silbase"],"p1":["silbáramos","silbásemos"],"p2":["silbarais","silbaseis"],"p3":["silbaran","silbasen"]},
+    "SubFut": {"s1":["silbare"],"s2":["silbares"],"vos":["silbares"],"s3":["silbare"],"p1":["silbáremos"],"p2":["silbareis"],"p3":["silbaren"]},
+    "CmdPos": {"s2":["silba"],"vos":["silbá"],"s3":["silbe"],"p1":["silbemos"],"p2":["silbad"],"p3":["silben"]}
+  }
+}

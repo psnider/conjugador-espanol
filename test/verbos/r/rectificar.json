@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekt̪ifiˈkaɾ]",
+    "silabacion": "rec-ti-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rectificāre ('recto') y facĕre ('hacer')",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"rectificar","gerundio":["rectificando"],"participio":["rectificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rectifico"],"s2":["rectificas"],"vos":["rectificás"],"s3":["rectifica"],"p1":["rectificamos"],"p2":["rectificáis"],"p3":["rectifican"]},
+    "IndImp": {"s1":["rectificaba"],"s2":["rectificabas"],"vos":["rectificabas"],"s3":["rectificaba"],"p1":["rectificábamos"],"p2":["rectificabais"],"p3":["rectificaban"]},
+    "IndPret": {"s1":["rectifiqué"],"s2":["rectificaste"],"vos":["rectificaste"],"s3":["rectificó"],"p1":["rectificamos"],"p2":["rectificasteis"],"p3":["rectificaron"]},
+    "IndFut": {"s1":["rectificaré"],"s2":["rectificarás"],"vos":["rectificarás"],"s3":["rectificará"],"p1":["rectificaremos"],"p2":["rectificaréis"],"p3":["rectificarán"]},
+    "IndCond": {"s1":["rectificaría"],"s2":["rectificarías"],"vos":["rectificarías"],"s3":["rectificaría"],"p1":["rectificaríamos"],"p2":["rectificaríais"],"p3":["rectificarían"]},
+    "SubPres": {"s1":["rectifique"],"s2":["rectifiques"],"vos":["rectifiques","rectifiqués"],"s3":["rectifique"],"p1":["rectifiquemos"],"p2":["rectifiquéis"],"p3":["rectifiquen"]},
+    "SubImp": {"s1":["rectificara","rectificase"],"s2":["rectificaras","rectificases"],"vos":["rectificaras","rectificases"],"s3":["rectificara","rectificase"],"p1":["rectificáramos","rectificásemos"],"p2":["rectificarais","rectificaseis"],"p3":["rectificaran","rectificasen"]},
+    "SubFut": {"s1":["rectificare"],"s2":["rectificares"],"vos":["rectificares"],"s3":["rectificare"],"p1":["rectificáremos"],"p2":["rectificareis"],"p3":["rectificaren"]},
+    "CmdPos": {"s2":["rectifica"],"vos":["rectificá"],"s3":["rectifique"],"p1":["rectifiquemos"],"p2":["rectificad"],"p3":["rectifiquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reĩn̪t̪ẽn̪ˈt̪aɾ]",
+    "silabacion": "re-in-ten-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín intentāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reintentar","gerundio":["reintentando"], "participio":["reintentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reintento"],"s2":["reintentas"],"vos":["reintentás"],"s3":["reintenta"],"p1":["reintentamos"],"p2":["reintentáis"],"p3":["reintentan"]},
+    "IndImp": {"s1":["reintentaba"],"s2":["reintentabas"],"vos":["reintentabas"],"s3":["reintentaba"],"p1":["reintentábamos"],"p2":["reintentabais"],"p3":["reintentaban"]},
+    "IndPret": {"s1":["reintenté"],"s2":["reintentaste"],"vos":["reintentaste"],"s3":["reintentó"],"p1":["reintentamos"],"p2":["reintentasteis"],"p3":["reintentaron"]},
+    "IndFut": {"s1":["reintentaré"],"s2":["reintentarás"],"vos":["reintentarás"],"s3":["reintentará"],"p1":["reintentaremos"],"p2":["reintentaréis"],"p3":["reintentarán"]},
+    "IndCond": {"s1":["reintentaría"],"s2":["reintentarías"],"vos":["reintentarías"],"s3":["reintentaría"],"p1":["reintentaríamos"],"p2":["reintentaríais"],"p3":["reintentarían"]},
+    "SubPres": {"s1":["reintente"],"s2":["reintentes"],"vos":[{"forma": "reintentes","uso":"Riop."},{"forma":"reintentés","uso":"C.Am."}],"s3":["reintente"],"p1":["reintentemos"],"p2":["reintentéis"],"p3":["reintenten"]},
+    "SubImp": {"s1":["reintentara","reintentase"],"s2":["reintentaras","reintentases"],"vos":["reintentaras","reintentases"],"s3":["reintentara","reintentase"],"p1":["reintentáramos","reintentásemos"],"p2":["reintentarais","reintentaseis"],"p3":["reintentaran","reintentasen"]},
+    "SubFut": {"s1":["reintentare"],"s2":["reintentares"],"vos":["reintentares"],"s3":["reintentare"],"p1":["reintentáremos"],"p2":["reintentareis"],"p3":["reintentaren"]},
+    "CmdPos": {"s2":["reintenta"],"vos":["reintentá"],"s3":["reintente"],"p1":["reintentemos"],"p2":["reintentad"],"p3":["reintenten"]}
+  }
+}

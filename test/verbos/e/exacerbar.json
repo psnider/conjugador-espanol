@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksaseɾˈβ̞aɾ]",
+    "silabacion": "e-xa-cer-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exacerbāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"exacerbar","gerundio":["exacerbando"],"participio":["exacerbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["exacerbo"],"s2":["exacerbas"],"vos":["exacerbás"],"s3":["exacerba"],"p1":["exacerbamos"],"p2":["exacerbáis"],"p3":["exacerban"]},
+    "IndImp": {"s1":["exacerbaba"],"s2":["exacerbabas"],"vos":["exacerbabas"],"s3":["exacerbaba"],"p1":["exacerbábamos"],"p2":["exacerbabais"],"p3":["exacerbaban"]},
+    "IndPret": {"s1":["exacerbé"],"s2":["exacerbaste"],"vos":["exacerbaste"],"s3":["exacerbó"],"p1":["exacerbamos"],"p2":["exacerbasteis"],"p3":["exacerbaron"]},
+    "IndFut": {"s1":["exacerbaré"],"s2":["exacerbarás"],"vos":["exacerbarás"],"s3":["exacerbará"],"p1":["exacerbaremos"],"p2":["exacerbaréis"],"p3":["exacerbarán"]},
+    "IndCond": {"s1":["exacerbaría"],"s2":["exacerbarías"],"vos":["exacerbarías"],"s3":["exacerbaría"],"p1":["exacerbaríamos"],"p2":["exacerbaríais"],"p3":["exacerbarían"]},
+    "SubPres": {"s1":["exacerbe"],"s2":["exacerbes"],"vos":["exacerbes","exacerbés"],"s3":["exacerbe"],"p1":["exacerbemos"],"p2":["exacerbéis"],"p3":["exacerben"]},
+    "SubImp": {"s1":["exacerbara","exacerbase"],"s2":["exacerbaras","exacerbases"],"vos":["exacerbaras","exacerbases"],"s3":["exacerbara","exacerbase"],"p1":["exacerbáramos","exacerbásemos"],"p2":["exacerbarais","exacerbaseis"],"p3":["exacerbaran","exacerbasen"]},
+    "SubFut": {"s1":["exacerbare"],"s2":["exacerbares"],"vos":["exacerbares"],"s3":["exacerbare"],"p1":["exacerbáremos"],"p2":["exacerbareis"],"p3":["exacerbaren"]},
+    "CmdPos": {"s2":["exacerba"],"vos":["exacerbá"],"s3":["exacerbe"],"p1":["exacerbemos"],"p2":["exacerbad"],"p3":["exacerben"]}
+  }
+}

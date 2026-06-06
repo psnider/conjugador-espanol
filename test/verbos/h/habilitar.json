@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞iliˈt̪aɾ]",
+    "silabacion": "ha-bi-li-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín habilitās ('habilidad') y el sufijo flexivo ar1.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"habilitar","gerundio":["habilitando"],"participio":["habilitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["habilito"],"s2":["habilitas"],"vos":["habilitás"],"s3":["habilita"],"p1":["habilitamos"],"p2":["habilitáis"],"p3":["habilitan"]},
+    "IndImp": {"s1":["habilitaba"],"s2":["habilitabas"],"vos":["habilitabas"],"s3":["habilitaba"],"p1":["habilitábamos"],"p2":["habilitabais"],"p3":["habilitaban"]},
+    "IndPret": {"s1":["habilité"],"s2":["habilitaste"],"vos":["habilitaste"],"s3":["habilitó"],"p1":["habilitamos"],"p2":["habilitasteis"],"p3":["habilitaron"]},
+    "IndFut": {"s1":["habilitaré"],"s2":["habilitarás"],"vos":["habilitarás"],"s3":["habilitará"],"p1":["habilitaremos"],"p2":["habilitaréis"],"p3":["habilitarán"]},
+    "IndCond": {"s1":["habilitaría"],"s2":["habilitarías"],"vos":["habilitarías"],"s3":["habilitaría"],"p1":["habilitaríamos"],"p2":["habilitaríais"],"p3":["habilitarían"]},
+    "SubPres": {"s1":["habilite"],"s2":["habilites"],"vos":["habilites","habilités"],"s3":["habilite"],"p1":["habilitemos"],"p2":["habilitéis"],"p3":["habiliten"]},
+    "SubImp": {"s1":["habilitara","habilitase"],"s2":["habilitaras","habilitases"],"vos":["habilitaras","habilitases"],"s3":["habilitara","habilitase"],"p1":["habilitáramos","habilitásemos"],"p2":["habilitarais","habilitaseis"],"p3":["habilitaran","habilitasen"]},
+    "SubFut": {"s1":["habilitare"],"s2":["habilitares"],"vos":["habilitares"],"s3":["habilitare"],"p1":["habilitáremos"],"p2":["habilitareis"],"p3":["habilitaren"]},
+    "CmdPos": {"s2":["habilita"],"vos":["habilitá"],"s3":["habilite"],"p1":["habilitemos"],"p2":["habilitad"],"p3":["habiliten"]}
+  }
+}

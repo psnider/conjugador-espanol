@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ipnot̪iˈsaɾ]",
+    "silabacion": "hip-no-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"hipnotizar","gerundio":["hipnotizando"],"participio":["hipnotizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hipnotizo"],"s2":["hipnotizas"],"vos":["hipnotizás"],"s3":["hipnotiza"],"p1":["hipnotizamos"],"p2":["hipnotizáis"],"p3":["hipnotizan"]},
+    "IndImp": {"s1":["hipnotizaba"],"s2":["hipnotizabas"],"vos":["hipnotizabas"],"s3":["hipnotizaba"],"p1":["hipnotizábamos"],"p2":["hipnotizabais"],"p3":["hipnotizaban"]},
+    "IndPret": {"s1":["hipnoticé"],"s2":["hipnotizaste"],"vos":["hipnotizaste"],"s3":["hipnotizó"],"p1":["hipnotizamos"],"p2":["hipnotizasteis"],"p3":["hipnotizaron"]},
+    "IndFut": {"s1":["hipnotizaré"],"s2":["hipnotizarás"],"vos":["hipnotizarás"],"s3":["hipnotizará"],"p1":["hipnotizaremos"],"p2":["hipnotizaréis"],"p3":["hipnotizarán"]},
+    "IndCond": {"s1":["hipnotizaría"],"s2":["hipnotizarías"],"vos":["hipnotizarías"],"s3":["hipnotizaría"],"p1":["hipnotizaríamos"],"p2":["hipnotizaríais"],"p3":["hipnotizarían"]},
+    "SubPres": {"s1":["hipnotice"],"s2":["hipnotices"],"vos":["hipnotices","hipnoticés"],"s3":["hipnotice"],"p1":["hipnoticemos"],"p2":["hipnoticéis"],"p3":["hipnoticen"]},
+    "SubImp": {"s1":["hipnotizara","hipnotizase"],"s2":["hipnotizaras","hipnotizases"],"vos":["hipnotizaras","hipnotizases"],"s3":["hipnotizara","hipnotizase"],"p1":["hipnotizáramos","hipnotizásemos"],"p2":["hipnotizarais","hipnotizaseis"],"p3":["hipnotizaran","hipnotizasen"]},
+    "SubFut": {"s1":["hipnotizare"],"s2":["hipnotizares"],"vos":["hipnotizares"],"s3":["hipnotizare"],"p1":["hipnotizáremos"],"p2":["hipnotizareis"],"p3":["hipnotizaren"]},
+    "CmdPos": {"s2":["hipnotiza"],"vos":["hipnotizá"],"s3":["hipnotice"],"p1":["hipnoticemos"],"p2":["hipnotizad"],"p3":["hipnoticen"]}
+  }
+}

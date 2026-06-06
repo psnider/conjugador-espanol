@@ -1,8 +1,8 @@
+import { verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas.js";
 import { assert, consonantes, vowels } from "./lib.js";
 import { getIndPretP3StemOfModel } from "./conjugate-verb.js";
 import { findProductiveVerbPrefix } from "./prefixes.js";
 import { getInfinitiveClass } from "./regular-verb-rules.js";
-import { verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas.js";
 // The minimum length of a verb that might have prefixes.
 // Segun ChatGPT, hay solo un verbo de largo 2, "ir", que no puede tener prefijos.
 // y solo hay estos de largo 3: dar, ser, ver, oír

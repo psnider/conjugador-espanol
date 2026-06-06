@@ -1,19 +1,19 @@
-import { MoodTense } from "../src";
+import type { MoodTense } from "../src/index"
 import { conjugateVerb } from "../src/conjugate-verb.js";
 import { deriveParticiples } from "../src/derive-participles.js";
-import { encuentraFormasSimilares } from "../src/indexa-formas-conjugadas.js"
+import { encuentraFormasSimilares } from "../src/indexa-de-temas-conjugadas.js"
 import { mood_tenses, verb_terminations_all } from "../src/lib.js";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "amar"    // 
-// one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos"
-let mood_tense: MoodTense = "IndPres"
+let infinitivo: string = "ver"    // 
+// one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"
+let mood_tense: MoodTense = "CmdNeg"
 
 
-let consulta = "graba"
-const resultados = encuentraFormasSimilares(consulta)
-debugger
+// let consulta = "graba"
+// const resultados = encuentraFormasSimilares(consulta)
+// debugger
 
 
 if (process.argv.length !== 4) {
@@ -48,5 +48,6 @@ console.log(JSON.stringify(participles, null, 4))
 let conjugation = conjugateVerb(infinitivo, mood_tense)
 console.log(JSON.stringify(conjugation, null, 4))
 
-const ok = runTestsForInfinitive(infinitivo, `test/verbos/${infinitivo[0]}/${infinitivo}.json`)
+const failed_tests = runTestsForInfinitive(infinitivo, `test/verbos/${infinitivo[0]}/${infinitivo}.json`)
+console.log(`runTestsForInfinitive ${failed_tests ? "FAILED" : "ok"}`)
 debugger

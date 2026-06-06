@@ -1,3 +1,7 @@
+// Consigimos estos prefijos desde la página web: https://dem.colmex.mx/Prefijos
+// Gracias al:
+//    Diccionario del Español de México (DEM) http://dem.colmex.mx, El Colegio de México, A.C., Marzo 2026.
+
 
 const prefijos = {
     a: "negación o privación de lo expresado por la base",

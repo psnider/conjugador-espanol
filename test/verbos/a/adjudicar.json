@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞xuð̞iˈkaɾ]",
+    "silabacion": "ad-ju-di-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adiūdicāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"adjudicar","gerundio":["adjudicando"],"participio":["adjudicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adjudico"],"s2":["adjudicas"],"vos":["adjudicás"],"s3":["adjudica"],"p1":["adjudicamos"],"p2":["adjudicáis"],"p3":["adjudican"]},
+    "IndImp": {"s1":["adjudicaba"],"s2":["adjudicabas"],"vos":["adjudicabas"],"s3":["adjudicaba"],"p1":["adjudicábamos"],"p2":["adjudicabais"],"p3":["adjudicaban"]},
+    "IndPret": {"s1":["adjudiqué"],"s2":["adjudicaste"],"vos":["adjudicaste"],"s3":["adjudicó"],"p1":["adjudicamos"],"p2":["adjudicasteis"],"p3":["adjudicaron"]},
+    "IndFut": {"s1":["adjudicaré"],"s2":["adjudicarás"],"vos":["adjudicarás"],"s3":["adjudicará"],"p1":["adjudicaremos"],"p2":["adjudicaréis"],"p3":["adjudicarán"]},
+    "IndCond": {"s1":["adjudicaría"],"s2":["adjudicarías"],"vos":["adjudicarías"],"s3":["adjudicaría"],"p1":["adjudicaríamos"],"p2":["adjudicaríais"],"p3":["adjudicarían"]},
+    "SubPres": {"s1":["adjudique"],"s2":["adjudiques"],"vos":["adjudiques","adjudiqués"],"s3":["adjudique"],"p1":["adjudiquemos"],"p2":["adjudiquéis"],"p3":["adjudiquen"]},
+    "SubImp": {"s1":["adjudicara","adjudicase"],"s2":["adjudicaras","adjudicases"],"vos":["adjudicaras","adjudicases"],"s3":["adjudicara","adjudicase"],"p1":["adjudicáramos","adjudicásemos"],"p2":["adjudicarais","adjudicaseis"],"p3":["adjudicaran","adjudicasen"]},
+    "SubFut": {"s1":["adjudicare"],"s2":["adjudicares"],"vos":["adjudicares"],"s3":["adjudicare"],"p1":["adjudicáremos"],"p2":["adjudicareis"],"p3":["adjudicaren"]},
+    "CmdPos": {"s2":["adjudica"],"vos":["adjudicá"],"s3":["adjudique"],"p1":["adjudiquemos"],"p2":["adjudicad"],"p3":["adjudiquen"]}
+  }
+}

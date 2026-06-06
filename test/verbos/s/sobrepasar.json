@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞ɾepaˈsaɾ]",
+    "silabacion": "so-bre-pa-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo sobre- y pasar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobrepasar","gerundio":["sobrepasando"],"participio":["sobrepasado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sobrepaso"],"s2":["sobrepasas"],"vos":["sobrepasás"],"s3":["sobrepasa"],"p1":["sobrepasamos"],"p2":["sobrepasáis"],"p3":["sobrepasan"]},
+    "IndImp": {"s1":["sobrepasaba"],"s2":["sobrepasabas"],"vos":["sobrepasabas"],"s3":["sobrepasaba"],"p1":["sobrepasábamos"],"p2":["sobrepasabais"],"p3":["sobrepasaban"]},
+    "IndPret": {"s1":["sobrepasé"],"s2":["sobrepasaste"],"vos":["sobrepasaste"],"s3":["sobrepasó"],"p1":["sobrepasamos"],"p2":["sobrepasasteis"],"p3":["sobrepasaron"]},
+    "IndFut": {"s1":["sobrepasaré"],"s2":["sobrepasarás"],"vos":["sobrepasarás"],"s3":["sobrepasará"],"p1":["sobrepasaremos"],"p2":["sobrepasaréis"],"p3":["sobrepasarán"]},
+    "IndCond": {"s1":["sobrepasaría"],"s2":["sobrepasarías"],"vos":["sobrepasarías"],"s3":["sobrepasaría"],"p1":["sobrepasaríamos"],"p2":["sobrepasaríais"],"p3":["sobrepasarían"]},
+    "SubPres": {"s1":["sobrepase"],"s2":["sobrepases"],"vos":["sobrepases","sobrepasés"],"s3":["sobrepase"],"p1":["sobrepasemos"],"p2":["sobrepaséis"],"p3":["sobrepasen"]},
+    "SubImp": {"s1":["sobrepasara","sobrepasase"],"s2":["sobrepasaras","sobrepasases"],"vos":["sobrepasaras","sobrepasases"],"s3":["sobrepasara","sobrepasase"],"p1":["sobrepasáramos","sobrepasásemos"],"p2":["sobrepasarais","sobrepasaseis"],"p3":["sobrepasaran","sobrepasasen"]},
+    "SubFut": {"s1":["sobrepasare"],"s2":["sobrepasares"],"vos":["sobrepasares"],"s3":["sobrepasare"],"p1":["sobrepasáremos"],"p2":["sobrepasareis"],"p3":["sobrepasaren"]},
+    "CmdPos": {"s2":["sobrepasa"],"vos":["sobrepasá"],"s3":["sobrepase"],"p1":["sobrepasemos"],"p2":["sobrepasad"],"p3":["sobrepasen"]}
+  }
+}

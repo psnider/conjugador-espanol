@@ -1,6 +1,7 @@
-import { MoodTense, VerbConjugationStems, VerbConjugationSuffixes } from ".";
+import type { MoodTense } from "./index"
+import type { VerbConjugationStems, VerbConjugationSuffixes } from "./index-privado"
+import type { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 import { setStem } from "./lib.js";
-import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 
 
 // Objetivo del módulo

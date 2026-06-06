@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eɾmaˈnaɾ]",
+    "silabacion": "her-ma-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hermanar","gerundio":["hermanando"],"participio":["hermanado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hermano"],"s2":["hermanas"],"vos":["hermanás"],"s3":["hermana"],"p1":["hermanamos"],"p2":["hermanáis"],"p3":["hermanan"]},
+    "IndImp": {"s1":["hermanaba"],"s2":["hermanabas"],"vos":["hermanabas"],"s3":["hermanaba"],"p1":["hermanábamos"],"p2":["hermanabais"],"p3":["hermanaban"]},
+    "IndPret": {"s1":["hermané"],"s2":["hermanaste"],"vos":["hermanaste"],"s3":["hermanó"],"p1":["hermanamos"],"p2":["hermanasteis"],"p3":["hermanaron"]},
+    "IndFut": {"s1":["hermanaré"],"s2":["hermanarás"],"vos":["hermanarás"],"s3":["hermanará"],"p1":["hermanaremos"],"p2":["hermanaréis"],"p3":["hermanarán"]},
+    "IndCond": {"s1":["hermanaría"],"s2":["hermanarías"],"vos":["hermanarías"],"s3":["hermanaría"],"p1":["hermanaríamos"],"p2":["hermanaríais"],"p3":["hermanarían"]},
+    "SubPres": {"s1":["hermane"],"s2":["hermanes"],"vos":["hermanes","hermanés"],"s3":["hermane"],"p1":["hermanemos"],"p2":["hermanéis"],"p3":["hermanen"]},
+    "SubImp": {"s1":["hermanara","hermanase"],"s2":["hermanaras","hermanases"],"vos":["hermanaras","hermanases"],"s3":["hermanara","hermanase"],"p1":["hermanáramos","hermanásemos"],"p2":["hermanarais","hermanaseis"],"p3":["hermanaran","hermanasen"]},
+    "SubFut": {"s1":["hermanare"],"s2":["hermanares"],"vos":["hermanares"],"s3":["hermanare"],"p1":["hermanáremos"],"p2":["hermanareis"],"p3":["hermanaren"]},
+    "CmdPos": {"s2":["hermana"],"vos":["hermaná"],"s3":["hermane"],"p1":["hermanemos"],"p2":["hermanad"],"p3":["hermanen"]}
+  }
+}

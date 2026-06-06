@@ -1,6 +1,6 @@
 import { ReglasDeConjugaciónDeVerbo, verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js";
 import {conjugation_families} from "../src/resolve-conjugation-class.js"
-import { GrammaticalPerson, MoodTense } from "../src/index.js";
+import { GrammaticalPerson, MoodTense } from "../src/index"
 
 
 function validateFormsField(infinitivo: string, reglas_de_infinitivo: ReglasDeConjugaciónDeVerbo) : boolean {

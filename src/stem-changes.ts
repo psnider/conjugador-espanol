@@ -1,5 +1,6 @@
-import { MoodTenseMap, PersonasGramaticalesConVos, MoodTense, StemChangeRuleId, CambiosPorParticipios, FormaConjugada, StemChangeFamily } from "./index.js";
-import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
+import type  { CambiosPorParticipios, FormaConjugada, MoodTense, PersonasGramaticalesConVos, StemChangeRuleId } from "./index"
+import type  { MoodTenseMap, StemChangeFamily } from "./index-privado";
+import type  { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js";
 
 
 // "blending" refers to combining like sound, for now only in "reír" in subjuntivo-imperfecto and subjuntivo-futuro  // FIX: lingúista

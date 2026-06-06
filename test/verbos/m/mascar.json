@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[masˈkaɾ]",
+    "silabacion": "mas-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín masticare",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"mascar","gerundio":["mascando"],"participio":["mascado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["masco"],"s2":["mascas"],"vos":["mascás"],"s3":["masca"],"p1":["mascamos"],"p2":["mascáis"],"p3":["mascan"]},
+    "IndImp": {"s1":["mascaba"],"s2":["mascabas"],"vos":["mascabas"],"s3":["mascaba"],"p1":["mascábamos"],"p2":["mascabais"],"p3":["mascaban"]},
+    "IndPret": {"s1":["masqué"],"s2":["mascaste"],"vos":["mascaste"],"s3":["mascó"],"p1":["mascamos"],"p2":["mascasteis"],"p3":["mascaron"]},
+    "IndFut": {"s1":["mascaré"],"s2":["mascarás"],"vos":["mascarás"],"s3":["mascará"],"p1":["mascaremos"],"p2":["mascaréis"],"p3":["mascarán"]},
+    "IndCond": {"s1":["mascaría"],"s2":["mascarías"],"vos":["mascarías"],"s3":["mascaría"],"p1":["mascaríamos"],"p2":["mascaríais"],"p3":["mascarían"]},
+    "SubPres": {"s1":["masque"],"s2":["masques"],"vos":["masques","masqués"],"s3":["masque"],"p1":["masquemos"],"p2":["masquéis"],"p3":["masquen"]},
+    "SubImp": {"s1":["mascara","mascase"],"s2":["mascaras","mascases"],"vos":["mascaras","mascases"],"s3":["mascara","mascase"],"p1":["mascáramos","mascásemos"],"p2":["mascarais","mascaseis"],"p3":["mascaran","mascasen"]},
+    "SubFut": {"s1":["mascare"],"s2":["mascares"],"vos":["mascares"],"s3":["mascare"],"p1":["mascáremos"],"p2":["mascareis"],"p3":["mascaren"]},
+    "CmdPos": {"s2":["masca"],"vos":["mascá"],"s3":["masque"],"p1":["masquemos"],"p2":["mascad"],"p3":["masquen"]}
+  }
+}

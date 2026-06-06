@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[moɾð̞isˈkaɾ]",
+    "silabacion": "mor-dis-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"mordiscar","gerundio":["mordiscando"],"participio":["mordiscado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mordisco"],"s2":["mordiscas"],"vos":["mordiscás"],"s3":["mordisca"],"p1":["mordiscamos"],"p2":["mordiscáis"],"p3":["mordiscan"]},
+    "IndImp": {"s1":["mordiscaba"],"s2":["mordiscabas"],"vos":["mordiscabas"],"s3":["mordiscaba"],"p1":["mordiscábamos"],"p2":["mordiscabais"],"p3":["mordiscaban"]},
+    "IndPret": {"s1":["mordisqué"],"s2":["mordiscaste"],"vos":["mordiscaste"],"s3":["mordiscó"],"p1":["mordiscamos"],"p2":["mordiscasteis"],"p3":["mordiscaron"]},
+    "IndFut": {"s1":["mordiscaré"],"s2":["mordiscarás"],"vos":["mordiscarás"],"s3":["mordiscará"],"p1":["mordiscaremos"],"p2":["mordiscaréis"],"p3":["mordiscarán"]},
+    "IndCond": {"s1":["mordiscaría"],"s2":["mordiscarías"],"vos":["mordiscarías"],"s3":["mordiscaría"],"p1":["mordiscaríamos"],"p2":["mordiscaríais"],"p3":["mordiscarían"]},
+    "SubPres": {"s1":["mordisque"],"s2":["mordisques"],"vos":["mordisques","mordisqués"],"s3":["mordisque"],"p1":["mordisquemos"],"p2":["mordisquéis"],"p3":["mordisquen"]},
+    "SubImp": {"s1":["mordiscara","mordiscase"],"s2":["mordiscaras","mordiscases"],"vos":["mordiscaras","mordiscases"],"s3":["mordiscara","mordiscase"],"p1":["mordiscáramos","mordiscásemos"],"p2":["mordiscarais","mordiscaseis"],"p3":["mordiscaran","mordiscasen"]},
+    "SubFut": {"s1":["mordiscare"],"s2":["mordiscares"],"vos":["mordiscares"],"s3":["mordiscare"],"p1":["mordiscáremos"],"p2":["mordiscareis"],"p3":["mordiscaren"]},
+    "CmdPos": {"s2":["mordisca"],"vos":["mordiscá"],"s3":["mordisque"],"p1":["mordisquemos"],"p2":["mordiscad"],"p3":["mordisquen"]}
+  }
+}

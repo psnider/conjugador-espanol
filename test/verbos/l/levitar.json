@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[leβ̞iˈt̪aɾ]",
+    "silabacion": "le-vi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"levitar","gerundio":["levitando"],"participio":["levitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["levito"],"s2":["levitas"],"vos":["levitás"],"s3":["levita"],"p1":["levitamos"],"p2":["levitáis"],"p3":["levitan"]},
+    "IndImp": {"s1":["levitaba"],"s2":["levitabas"],"vos":["levitabas"],"s3":["levitaba"],"p1":["levitábamos"],"p2":["levitabais"],"p3":["levitaban"]},
+    "IndPret": {"s1":["levité"],"s2":["levitaste"],"vos":["levitaste"],"s3":["levitó"],"p1":["levitamos"],"p2":["levitasteis"],"p3":["levitaron"]},
+    "IndFut": {"s1":["levitaré"],"s2":["levitarás"],"vos":["levitarás"],"s3":["levitará"],"p1":["levitaremos"],"p2":["levitaréis"],"p3":["levitarán"]},
+    "IndCond": {"s1":["levitaría"],"s2":["levitarías"],"vos":["levitarías"],"s3":["levitaría"],"p1":["levitaríamos"],"p2":["levitaríais"],"p3":["levitarían"]},
+    "SubPres": {"s1":["levite"],"s2":["levites"],"vos":["levites","levités"],"s3":["levite"],"p1":["levitemos"],"p2":["levitéis"],"p3":["leviten"]},
+    "SubImp": {"s1":["levitara","levitase"],"s2":["levitaras","levitases"],"vos":["levitaras","levitases"],"s3":["levitara","levitase"],"p1":["levitáramos","levitásemos"],"p2":["levitarais","levitaseis"],"p3":["levitaran","levitasen"]},
+    "SubFut": {"s1":["levitare"],"s2":["levitares"],"vos":["levitares"],"s3":["levitare"],"p1":["levitáremos"],"p2":["levitareis"],"p3":["levitaren"]},
+    "CmdPos": {"s2":["levita"],"vos":["levitá"],"s3":["levite"],"p1":["levitemos"],"p2":["levitad"],"p3":["leviten"]}
+  }
+}

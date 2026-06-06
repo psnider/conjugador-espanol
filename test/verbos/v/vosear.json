@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boseˈaɾ]",
+    "silabacion": "vo-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"vosear","gerundio":["voseando"],"participio":["voseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["voseo"],"s2":["voseas"],"vos":["voseás"],"s3":["vosea"],"p1":["voseamos"],"p2":["voseáis"],"p3":["vosean"]},
+    "IndImp": {"s1":["voseaba"],"s2":["voseabas"],"vos":["voseabas"],"s3":["voseaba"],"p1":["voseábamos"],"p2":["voseabais"],"p3":["voseaban"]},
+    "IndPret": {"s1":["voseé"],"s2":["voseaste"],"vos":["voseaste"],"s3":["voseó"],"p1":["voseamos"],"p2":["voseasteis"],"p3":["vosearon"]},
+    "IndFut": {"s1":["vosearé"],"s2":["vosearás"],"vos":["vosearás"],"s3":["voseará"],"p1":["vosearemos"],"p2":["vosearéis"],"p3":["vosearán"]},
+    "IndCond": {"s1":["vosearía"],"s2":["vosearías"],"vos":["vosearías"],"s3":["vosearía"],"p1":["vosearíamos"],"p2":["vosearíais"],"p3":["vosearían"]},
+    "SubPres": {"s1":["vosee"],"s2":["vosees"],"vos":["vosees","voseés"],"s3":["vosee"],"p1":["voseemos"],"p2":["voseéis"],"p3":["voseen"]},
+    "SubImp": {"s1":["voseara","vosease"],"s2":["vosearas","voseases"],"vos":["vosearas","voseases"],"s3":["voseara","vosease"],"p1":["voseáramos","voseásemos"],"p2":["vosearais","voseaseis"],"p3":["vosearan","voseasen"]},
+    "SubFut": {"s1":["voseare"],"s2":["voseares"],"vos":["voseares"],"s3":["voseare"],"p1":["voseáremos"],"p2":["voseareis"],"p3":["vosearen"]},
+    "CmdPos": {"s2":["vosea"],"vos":["voseá"],"s3":["vosee"],"p1":["voseemos"],"p2":["vosead"],"p3":["voseen"]}
+  }
+}

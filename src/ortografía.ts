@@ -1,7 +1,6 @@
-import { MoodTense, VerbConjugation, VerbConjugationSuffixes, CambiosPorPersona, CambiosPorRegla, FormaConjugada, CambioProductivo, ReglaConjugacional } from ".";
-import { accumulateChangedForms } from "./conjugate-verb";
+import type { MoodTense, CambiosPorPersona, CambiosPorRegla, FormaConjugada, ReglaConjugacional, OrthographicalChangeRuleForTerminationName, OrthographicalChangeRuleGeneralName, OrthographicalChangeRuleName } from "./index"
+import type { VerbConjugation, VerbConjugationSuffixes } from "./index-privado"
 import { applyToFormasConjugadas, combinaFormasConjugadas, asFormaConjugada, extraeTema, isValueless, getForma, formasConjugadasIgual, assert } from "./lib.js";
-import { ReglasDeConjugaciónDeVerbo } from "./verbos-con-cambios-morfológicas";
 
 // ============================================================
 // REGLAS ORTOGRÁFICAS DE PRESERVACIÓN EN LA CONJUGACIÓN ESPAÑOLA
@@ -168,13 +167,6 @@ const infinitive_ending_sound_rules: {[ending: string]: OrthographicalChangeRule
 }
 
 
-type OrthographicalChangeRuleForTerminationName = "preserve-soft-c-sound-of-ecer" | "preserve-hard-c-sound-of-c" | "preserve-hard-c-sound-of-q"
-    | "preserve-soft-g-sound" | "preserve-hard-g-sound"
-    | "replace-disallowed-ze-zi"
-    | "u → uy (hiato)"
-    | "break-u-dipthong-after-hard-sound" | "break-ue-dipthong-after-gu" | "separa a + vocal-abierto"
-
-
 // FIX: linguist: are these patterns correct?
 // Verb changes made solely for phonetic reasons, and using changes in orthography.
 // Note that these change only the stems.
@@ -258,12 +250,6 @@ const orthographical_change_rules_for_terminations: Record<OrthographicalChangeR
 }
 
 
-type OrthographicalChangeRuleGeneralName = "diéresis" | "elimina 'i/y' después de 'ñ/y/ll'"
-    | "mantiene hiato" | "vocal débil → 'y'"
-    | "rompe diptongo delantero 'oe', 'ie'" | "remueve tilde single sílaba con 'uí'"
-    | "rompe diptongo 'au'"
-
-
 // Note that, except for "remueve tilde single sílaba", these change only the stems.
 const orthographical_change_rules_general: Record<OrthographicalChangeRuleGeneralName, OrthographicalChangeRule[]> = {
     "diéresis": [
@@ -300,7 +286,6 @@ const orthographical_change_rules_general: Record<OrthographicalChangeRuleGenera
 }
 
 
-export type OrthographicalChangeRuleName = OrthographicalChangeRuleForTerminationName | OrthographicalChangeRuleGeneralName
 
 
 interface Result_applyOrthographicalChangesCommon {

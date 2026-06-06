@@ -1,4 +1,4 @@
-import { CambiosPorPersona, CambiosConjugacionales } from "../src";
+import { CambiosConjugacionales } from "../src/index"
 
 
 const cambios_tener_IndPres: CambiosConjugacionales = {

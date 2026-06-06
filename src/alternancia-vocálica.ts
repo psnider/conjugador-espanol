@@ -40,9 +40,10 @@
 //   - Añadir terminaciones
 
 
-import { CambiosPorPersona, CambiosPorRegla, FormaConjugada, MoodTense, PersonasGramaticalesConVos, StemChangeRuleId, VerbConjugationStems } from ".";
+import type { CambiosPorPersona, MoodTense, PersonasGramaticalesConVos, StemChangeRuleId } from "./index"
+import type { VerbConjugationStems } from "./index-privado"
+import type { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 import { applyToFormasConjugadas, combinaFormasConjugadas, getForma, isValueless } from "./lib.js";
-import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
 import { applyStemChangePattern, getStemChangesFromRule, stem_change_descriptions } from "./stem-changes.js";
 
 

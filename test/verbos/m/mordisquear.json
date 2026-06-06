@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[moɾð̞iskeˈaɾ]",
+    "silabacion": "mor-dis-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De mordisco y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mordisquear","gerundio":["mordisqueando"],"participio":["mordisqueado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mordisqueo"],"s2":["mordisqueas"],"vos":["mordisqueás"],"s3":["mordisquea"],"p1":["mordisqueamos"],"p2":["mordisqueáis"],"p3":["mordisquean"]},
+    "IndImp": {"s1":["mordisqueaba"],"s2":["mordisqueabas"],"vos":["mordisqueabas"],"s3":["mordisqueaba"],"p1":["mordisqueábamos"],"p2":["mordisqueabais"],"p3":["mordisqueaban"]},
+    "IndPret": {"s1":["mordisqueé"],"s2":["mordisqueaste"],"vos":["mordisqueaste"],"s3":["mordisqueó"],"p1":["mordisqueamos"],"p2":["mordisqueasteis"],"p3":["mordisquearon"]},
+    "IndFut": {"s1":["mordisquearé"],"s2":["mordisquearás"],"vos":["mordisquearás"],"s3":["mordisqueará"],"p1":["mordisquearemos"],"p2":["mordisquearéis"],"p3":["mordisquearán"]},
+    "IndCond": {"s1":["mordisquearía"],"s2":["mordisquearías"],"vos":["mordisquearías"],"s3":["mordisquearía"],"p1":["mordisquearíamos"],"p2":["mordisquearíais"],"p3":["mordisquearían"]},
+    "SubPres": {"s1":["mordisquee"],"s2":["mordisquees"],"vos":["mordisquees","mordisqueés"],"s3":["mordisquee"],"p1":["mordisqueemos"],"p2":["mordisqueéis"],"p3":["mordisqueen"]},
+    "SubImp": {"s1":["mordisqueara","mordisquease"],"s2":["mordisquearas","mordisqueases"],"vos":["mordisquearas","mordisqueases"],"s3":["mordisqueara","mordisquease"],"p1":["mordisqueáramos","mordisqueásemos"],"p2":["mordisquearais","mordisqueaseis"],"p3":["mordisquearan","mordisqueasen"]},
+    "SubFut": {"s1":["mordisqueare"],"s2":["mordisqueares"],"vos":["mordisqueares"],"s3":["mordisqueare"],"p1":["mordisqueáremos"],"p2":["mordisqueareis"],"p3":["mordisquearen"]},
+    "CmdPos": {"s2":["mordisquea"],"vos":["mordisqueá"],"s3":["mordisquee"],"p1":["mordisqueemos"],"p2":["mordisquead"],"p3":["mordisqueen"]}
+  }
+}

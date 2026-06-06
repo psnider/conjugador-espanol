@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[resiˈð̞iɾ]",
+    "silabacion": "re-si-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"residir","gerundio":["residiendo"],"participio":["residido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resido"],"s2":["resides"],"vos":["residís"],"s3":["reside"],"p1":["residimos"],"p2":["residís"],"p3":["residen"]},
+    "IndImp": {"s1":["residía"],"s2":["residías"],"vos":["residías"],"s3":["residía"],"p1":["residíamos"],"p2":["residíais"],"p3":["residían"]},
+    "IndPret": {"s1":["residí"],"s2":["residiste"],"vos":["residiste"],"s3":["residió"],"p1":["residimos"],"p2":["residisteis"],"p3":["residieron"]},
+    "IndFut": {"s1":["residiré"],"s2":["residirás"],"vos":["residirás"],"s3":["residirá"],"p1":["residiremos"],"p2":["residiréis"],"p3":["residirán"]},
+    "IndCond": {"s1":["residiría"],"s2":["residirías"],"vos":["residirías"],"s3":["residiría"],"p1":["residiríamos"],"p2":["residiríais"],"p3":["residirían"]},
+    "SubPres": {"s1":["resida"],"s2":["residas"],"vos":["residas","residás"],"s3":["resida"],"p1":["residamos"],"p2":["residáis"],"p3":["residan"]},
+    "SubImp": {"s1":["residiera","residiese"],"s2":["residieras","residieses"],"vos":["residieras","residieses"],"s3":["residiera","residiese"],"p1":["residiéramos","residiésemos"],"p2":["residierais","residieseis"],"p3":["residieran","residiesen"]},
+    "SubFut": {"s1":["residiere"],"s2":["residieres"],"vos":["residieres"],"s3":["residiere"],"p1":["residiéremos"],"p2":["residiereis"],"p3":["residieren"]},
+    "CmdPos": {"s2":["reside"],"vos":["residí"],"s3":["resida"],"p1":["residamos"],"p2":["residid"],"p3":["residan"]}
+  }
+}

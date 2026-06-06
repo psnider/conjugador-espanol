@@ -1,6 +1,7 @@
-import { FormaConjugada } from "../src";
-import { ConjugationAndDerivationRules, MorphologicalRulesAccumulated, Prefixes, resolveConjugationClass } from "../src/resolve-conjugation-class.js";
-import { ReglasDeConjugaciónDeVerbo } from "../src/verbos-con-cambios-morfológicas.js";
+import type { FormaConjugada } from "../src/index"
+import type { ConjugationAndDerivationRules, Prefixes } from "../src/resolve-conjugation-class.js";
+import type { ReglasDeConjugaciónDeVerbo } from "../src/verbos-con-cambios-morfológicas.js";
+import { resolveConjugationClass } from "../src/resolve-conjugation-class.js";
 
 
 

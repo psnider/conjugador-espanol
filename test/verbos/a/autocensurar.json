@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awt̪osẽnsuˈɾaɾ]",
+    "silabacion": "au-to-cen-su-rar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"autocensurar","gerundio":["autocensurando"], "participio":["autocensurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["autocensuro"],"s2":["autocensuras"],"vos":["autocensurás"],"s3":["autocensura"],"p1":["autocensuramos"],"p2":["autocensuráis"],"p3":["autocensuran"]},
+    "IndImp": {"s1":["autocensuraba"],"s2":["autocensurabas"],"vos":["autocensurabas"],"s3":["autocensuraba"],"p1":["autocensurábamos"],"p2":["autocensurabais"],"p3":["autocensuraban"]},
+    "IndPret": {"s1":["autocensuré"],"s2":["autocensuraste"],"vos":["autocensuraste"],"s3":["autocensuró"],"p1":["autocensuramos"],"p2":["autocensurasteis"],"p3":["autocensuraron"]},
+    "IndFut": {"s1":["autocensuraré"],"s2":["autocensurarás"],"vos":["autocensurarás"],"s3":["autocensurará"],"p1":["autocensuraremos"],"p2":["autocensuraréis"],"p3":["autocensurarán"]},
+    "IndCond": {"s1":["autocensuraría"],"s2":["autocensurarías"],"vos":["autocensurarías"],"s3":["autocensuraría"],"p1":["autocensuraríamos"],"p2":["autocensuraríais"],"p3":["autocensurarían"]},
+    "SubPres": {"s1":["autocensure"],"s2":["autocensures"],"vos":[{"forma": "autocensures","uso":"Riop."},{"forma":"autocensurés","uso":"C.Am."}],"s3":["autocensure"],"p1":["autocensuremos"],"p2":["autocensuréis"],"p3":["autocensuren"]},
+    "SubImp": {"s1":["autocensurara","autocensurase"],"s2":["autocensuraras","autocensurases"],"vos":["autocensuraras","autocensurases"],"s3":["autocensurara","autocensurase"],"p1":["autocensuráramos","autocensurásemos"],"p2":["autocensurarais","autocensuraseis"],"p3":["autocensuraran","autocensurasen"]},
+    "SubFut": {"s1":["autocensurare"],"s2":["autocensurares"],"vos":["autocensurares"],"s3":["autocensurare"],"p1":["autocensuráremos"],"p2":["autocensurareis"],"p3":["autocensuraren"]},
+    "CmdPos": {"s2":["autocensura"],"vos":["autocensurá"],"s3":["autocensure"],"p1":["autocensuremos"],"p2":["autocensurad"],"p3":["autocensuren"]}
+  }
+}

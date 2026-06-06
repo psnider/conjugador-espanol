@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾxuð̞iˈkaɾ]",
+    "silabacion": "per-ju-di-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praeiūdicō, praeiūdicāre ('prejuzgar').",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"perjudicar","gerundio":["perjudicando"],"participio":["perjudicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["perjudico"],"s2":["perjudicas"],"vos":["perjudicás"],"s3":["perjudica"],"p1":["perjudicamos"],"p2":["perjudicáis"],"p3":["perjudican"]},
+    "IndImp": {"s1":["perjudicaba"],"s2":["perjudicabas"],"vos":["perjudicabas"],"s3":["perjudicaba"],"p1":["perjudicábamos"],"p2":["perjudicabais"],"p3":["perjudicaban"]},
+    "IndPret": {"s1":["perjudiqué"],"s2":["perjudicaste"],"vos":["perjudicaste"],"s3":["perjudicó"],"p1":["perjudicamos"],"p2":["perjudicasteis"],"p3":["perjudicaron"]},
+    "IndFut": {"s1":["perjudicaré"],"s2":["perjudicarás"],"vos":["perjudicarás"],"s3":["perjudicará"],"p1":["perjudicaremos"],"p2":["perjudicaréis"],"p3":["perjudicarán"]},
+    "IndCond": {"s1":["perjudicaría"],"s2":["perjudicarías"],"vos":["perjudicarías"],"s3":["perjudicaría"],"p1":["perjudicaríamos"],"p2":["perjudicaríais"],"p3":["perjudicarían"]},
+    "SubPres": {"s1":["perjudique"],"s2":["perjudiques"],"vos":["perjudiques","perjudiqués"],"s3":["perjudique"],"p1":["perjudiquemos"],"p2":["perjudiquéis"],"p3":["perjudiquen"]},
+    "SubImp": {"s1":["perjudicara","perjudicase"],"s2":["perjudicaras","perjudicases"],"vos":["perjudicaras","perjudicases"],"s3":["perjudicara","perjudicase"],"p1":["perjudicáramos","perjudicásemos"],"p2":["perjudicarais","perjudicaseis"],"p3":["perjudicaran","perjudicasen"]},
+    "SubFut": {"s1":["perjudicare"],"s2":["perjudicares"],"vos":["perjudicares"],"s3":["perjudicare"],"p1":["perjudicáremos"],"p2":["perjudicareis"],"p3":["perjudicaren"]},
+    "CmdPos": {"s2":["perjudica"],"vos":["perjudicá"],"s3":["perjudique"],"p1":["perjudiquemos"],"p2":["perjudicad"],"p3":["perjudiquen"]}
+  }
+}

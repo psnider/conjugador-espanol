@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[susiˈt̪aɾ]",
+    "silabacion": "sus-ci-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín suscitāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"suscitar","gerundio":["suscitando"],"participio":["suscitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["suscito"],"s2":["suscitas"],"vos":["suscitás"],"s3":["suscita"],"p1":["suscitamos"],"p2":["suscitáis"],"p3":["suscitan"]},
+    "IndImp": {"s1":["suscitaba"],"s2":["suscitabas"],"vos":["suscitabas"],"s3":["suscitaba"],"p1":["suscitábamos"],"p2":["suscitabais"],"p3":["suscitaban"]},
+    "IndPret": {"s1":["suscité"],"s2":["suscitaste"],"vos":["suscitaste"],"s3":["suscitó"],"p1":["suscitamos"],"p2":["suscitasteis"],"p3":["suscitaron"]},
+    "IndFut": {"s1":["suscitaré"],"s2":["suscitarás"],"vos":["suscitarás"],"s3":["suscitará"],"p1":["suscitaremos"],"p2":["suscitaréis"],"p3":["suscitarán"]},
+    "IndCond": {"s1":["suscitaría"],"s2":["suscitarías"],"vos":["suscitarías"],"s3":["suscitaría"],"p1":["suscitaríamos"],"p2":["suscitaríais"],"p3":["suscitarían"]},
+    "SubPres": {"s1":["suscite"],"s2":["suscites"],"vos":["suscites","suscités"],"s3":["suscite"],"p1":["suscitemos"],"p2":["suscitéis"],"p3":["susciten"]},
+    "SubImp": {"s1":["suscitara","suscitase"],"s2":["suscitaras","suscitases"],"vos":["suscitaras","suscitases"],"s3":["suscitara","suscitase"],"p1":["suscitáramos","suscitásemos"],"p2":["suscitarais","suscitaseis"],"p3":["suscitaran","suscitasen"]},
+    "SubFut": {"s1":["suscitare"],"s2":["suscitares"],"vos":["suscitares"],"s3":["suscitare"],"p1":["suscitáremos"],"p2":["suscitareis"],"p3":["suscitaren"]},
+    "CmdPos": {"s2":["suscita"],"vos":["suscitá"],"s3":["suscite"],"p1":["suscitemos"],"p2":["suscitad"],"p3":["susciten"]}
+  }
+}

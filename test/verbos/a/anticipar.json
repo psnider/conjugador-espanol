@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãn̪t̪isiˈpaɾ]",
+    "silabacion": "an-ti-ci-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"anticipar","gerundio":["anticipando"],"participio":["anticipado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anticipo"],"s2":["anticipas"],"vos":["anticipás"],"s3":["anticipa"],"p1":["anticipamos"],"p2":["anticipáis"],"p3":["anticipan"]},
+    "IndImp": {"s1":["anticipaba"],"s2":["anticipabas"],"vos":["anticipabas"],"s3":["anticipaba"],"p1":["anticipábamos"],"p2":["anticipabais"],"p3":["anticipaban"]},
+    "IndPret": {"s1":["anticipé"],"s2":["anticipaste"],"vos":["anticipaste"],"s3":["anticipó"],"p1":["anticipamos"],"p2":["anticipasteis"],"p3":["anticiparon"]},
+    "IndFut": {"s1":["anticiparé"],"s2":["anticiparás"],"vos":["anticiparás"],"s3":["anticipará"],"p1":["anticiparemos"],"p2":["anticiparéis"],"p3":["anticiparán"]},
+    "IndCond": {"s1":["anticiparía"],"s2":["anticiparías"],"vos":["anticiparías"],"s3":["anticiparía"],"p1":["anticiparíamos"],"p2":["anticiparíais"],"p3":["anticiparían"]},
+    "SubPres": {"s1":["anticipe"],"s2":["anticipes"],"vos":["anticipes","anticipés"],"s3":["anticipe"],"p1":["anticipemos"],"p2":["anticipéis"],"p3":["anticipen"]},
+    "SubImp": {"s1":["anticipara","anticipase"],"s2":["anticiparas","anticipases"],"vos":["anticiparas","anticipases"],"s3":["anticipara","anticipase"],"p1":["anticipáramos","anticipásemos"],"p2":["anticiparais","anticipaseis"],"p3":["anticiparan","anticipasen"]},
+    "SubFut": {"s1":["anticipare"],"s2":["anticipares"],"vos":["anticipares"],"s3":["anticipare"],"p1":["anticipáremos"],"p2":["anticipareis"],"p3":["anticiparen"]},
+    "CmdPos": {"s2":["anticipa"],"vos":["anticipá"],"s3":["anticipe"],"p1":["anticipemos"],"p2":["anticipad"],"p3":["anticipen"]}
+  }
+}

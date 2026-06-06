@@ -1,6 +1,7 @@
 import * as fs from 'node:fs/promises';
-import type { GrammaticalPerson, ConjugaciónTabla, FormaConjugada, FormaRestringida, Uso } from '../src/index';
-import {FormasNoPersonales, ConjugaciónEntero} from "./index"
+import type { GrammaticalPerson, FormaConjugada, FormaRestringida, Uso } from '../src/index'
+import type { ConjugaciónTabla } from '../src/index-privado'
+import type {FormasNoPersonales, ConjugaciónEntero} from "./index"
 
 const desired_mood_tenses = ["IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres", "SubImp", "SubFut", "CmdPos"]
 

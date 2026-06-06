@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akaˈt̪aɾ]",
+    "silabacion": "a-ca-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y catar y éste del latín captare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acatar","gerundio":["acatando"],"participio":["acatado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acato"],"s2":["acatas"],"vos":["acatás"],"s3":["acata"],"p1":["acatamos"],"p2":["acatáis"],"p3":["acatan"]},
+    "IndImp": {"s1":["acataba"],"s2":["acatabas"],"vos":["acatabas"],"s3":["acataba"],"p1":["acatábamos"],"p2":["acatabais"],"p3":["acataban"]},
+    "IndPret": {"s1":["acaté"],"s2":["acataste"],"vos":["acataste"],"s3":["acató"],"p1":["acatamos"],"p2":["acatasteis"],"p3":["acataron"]},
+    "IndFut": {"s1":["acataré"],"s2":["acatarás"],"vos":["acatarás"],"s3":["acatará"],"p1":["acataremos"],"p2":["acataréis"],"p3":["acatarán"]},
+    "IndCond": {"s1":["acataría"],"s2":["acatarías"],"vos":["acatarías"],"s3":["acataría"],"p1":["acataríamos"],"p2":["acataríais"],"p3":["acatarían"]},
+    "SubPres": {"s1":["acate"],"s2":["acates"],"vos":["acates","acatés"],"s3":["acate"],"p1":["acatemos"],"p2":["acatéis"],"p3":["acaten"]},
+    "SubImp": {"s1":["acatara","acatase"],"s2":["acataras","acatases"],"vos":["acataras","acatases"],"s3":["acatara","acatase"],"p1":["acatáramos","acatásemos"],"p2":["acatarais","acataseis"],"p3":["acataran","acatasen"]},
+    "SubFut": {"s1":["acatare"],"s2":["acatares"],"vos":["acatares"],"s3":["acatare"],"p1":["acatáremos"],"p2":["acatareis"],"p3":["acataren"]},
+    "CmdPos": {"s2":["acata"],"vos":["acatá"],"s3":["acate"],"p1":["acatemos"],"p2":["acatad"],"p3":["acaten"]}
+  }
+}

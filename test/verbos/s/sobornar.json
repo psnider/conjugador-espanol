@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soβ̞oɾˈnaɾ]",
+    "silabacion": "so-bor-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín subornāre, de sub (\"bajo, por debajo, en secreto\") y ornare ('equipar'), relacionado con ordo ('orden')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sobornar","gerundio":["sobornando"],"participio":["sobornado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["soborno"],"s2":["sobornas"],"vos":["sobornás"],"s3":["soborna"],"p1":["sobornamos"],"p2":["sobornáis"],"p3":["sobornan"]},
+    "IndImp": {"s1":["sobornaba"],"s2":["sobornabas"],"vos":["sobornabas"],"s3":["sobornaba"],"p1":["sobornábamos"],"p2":["sobornabais"],"p3":["sobornaban"]},
+    "IndPret": {"s1":["soborné"],"s2":["sobornaste"],"vos":["sobornaste"],"s3":["sobornó"],"p1":["sobornamos"],"p2":["sobornasteis"],"p3":["sobornaron"]},
+    "IndFut": {"s1":["sobornaré"],"s2":["sobornarás"],"vos":["sobornarás"],"s3":["sobornará"],"p1":["sobornaremos"],"p2":["sobornaréis"],"p3":["sobornarán"]},
+    "IndCond": {"s1":["sobornaría"],"s2":["sobornarías"],"vos":["sobornarías"],"s3":["sobornaría"],"p1":["sobornaríamos"],"p2":["sobornaríais"],"p3":["sobornarían"]},
+    "SubPres": {"s1":["soborne"],"s2":["sobornes"],"vos":["sobornes","sobornés"],"s3":["soborne"],"p1":["sobornemos"],"p2":["sobornéis"],"p3":["sobornen"]},
+    "SubImp": {"s1":["sobornara","sobornase"],"s2":["sobornaras","sobornases"],"vos":["sobornaras","sobornases"],"s3":["sobornara","sobornase"],"p1":["sobornáramos","sobornásemos"],"p2":["sobornarais","sobornaseis"],"p3":["sobornaran","sobornasen"]},
+    "SubFut": {"s1":["sobornare"],"s2":["sobornares"],"vos":["sobornares"],"s3":["sobornare"],"p1":["sobornáremos"],"p2":["sobornareis"],"p3":["sobornaren"]},
+    "CmdPos": {"s2":["soborna"],"vos":["soborná"],"s3":["soborne"],"p1":["sobornemos"],"p2":["sobornad"],"p3":["sobornen"]}
+  }
+}

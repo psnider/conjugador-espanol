@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seɾˈkaɾ]",
+    "silabacion": "cer-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín circāre ('rodear').",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"cercar","gerundio":["cercando"],"participio":["cercado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cerco"],"s2":["cercas"],"vos":["cercás"],"s3":["cerca"],"p1":["cercamos"],"p2":["cercáis"],"p3":["cercan"]},
+    "IndImp": {"s1":["cercaba"],"s2":["cercabas"],"vos":["cercabas"],"s3":["cercaba"],"p1":["cercábamos"],"p2":["cercabais"],"p3":["cercaban"]},
+    "IndPret": {"s1":["cerqué"],"s2":["cercaste"],"vos":["cercaste"],"s3":["cercó"],"p1":["cercamos"],"p2":["cercasteis"],"p3":["cercaron"]},
+    "IndFut": {"s1":["cercaré"],"s2":["cercarás"],"vos":["cercarás"],"s3":["cercará"],"p1":["cercaremos"],"p2":["cercaréis"],"p3":["cercarán"]},
+    "IndCond": {"s1":["cercaría"],"s2":["cercarías"],"vos":["cercarías"],"s3":["cercaría"],"p1":["cercaríamos"],"p2":["cercaríais"],"p3":["cercarían"]},
+    "SubPres": {"s1":["cerque"],"s2":["cerques"],"vos":["cerques","cerqués"],"s3":["cerque"],"p1":["cerquemos"],"p2":["cerquéis"],"p3":["cerquen"]},
+    "SubImp": {"s1":["cercara","cercase"],"s2":["cercaras","cercases"],"vos":["cercaras","cercases"],"s3":["cercara","cercase"],"p1":["cercáramos","cercásemos"],"p2":["cercarais","cercaseis"],"p3":["cercaran","cercasen"]},
+    "SubFut": {"s1":["cercare"],"s2":["cercares"],"vos":["cercares"],"s3":["cercare"],"p1":["cercáremos"],"p2":["cercareis"],"p3":["cercaren"]},
+    "CmdPos": {"s2":["cerca"],"vos":["cercá"],"s3":["cerque"],"p1":["cerquemos"],"p2":["cercad"],"p3":["cerquen"]}
+  }
+}

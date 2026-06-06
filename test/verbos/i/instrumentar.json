@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnst̪ɾumẽn̪ˈt̪aɾ]",
+    "silabacion": "ins-tru-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"instrumentar","gerundio":["instrumentando"],"participio":["instrumentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["instrumento"],"s2":["instrumentas"],"vos":["instrumentás"],"s3":["instrumenta"],"p1":["instrumentamos"],"p2":["instrumentáis"],"p3":["instrumentan"]},
+    "IndImp": {"s1":["instrumentaba"],"s2":["instrumentabas"],"vos":["instrumentabas"],"s3":["instrumentaba"],"p1":["instrumentábamos"],"p2":["instrumentabais"],"p3":["instrumentaban"]},
+    "IndPret": {"s1":["instrumenté"],"s2":["instrumentaste"],"vos":["instrumentaste"],"s3":["instrumentó"],"p1":["instrumentamos"],"p2":["instrumentasteis"],"p3":["instrumentaron"]},
+    "IndFut": {"s1":["instrumentaré"],"s2":["instrumentarás"],"vos":["instrumentarás"],"s3":["instrumentará"],"p1":["instrumentaremos"],"p2":["instrumentaréis"],"p3":["instrumentarán"]},
+    "IndCond": {"s1":["instrumentaría"],"s2":["instrumentarías"],"vos":["instrumentarías"],"s3":["instrumentaría"],"p1":["instrumentaríamos"],"p2":["instrumentaríais"],"p3":["instrumentarían"]},
+    "SubPres": {"s1":["instrumente"],"s2":["instrumentes"],"vos":["instrumentes","instrumentés"],"s3":["instrumente"],"p1":["instrumentemos"],"p2":["instrumentéis"],"p3":["instrumenten"]},
+    "SubImp": {"s1":["instrumentara","instrumentase"],"s2":["instrumentaras","instrumentases"],"vos":["instrumentaras","instrumentases"],"s3":["instrumentara","instrumentase"],"p1":["instrumentáramos","instrumentásemos"],"p2":["instrumentarais","instrumentaseis"],"p3":["instrumentaran","instrumentasen"]},
+    "SubFut": {"s1":["instrumentare"],"s2":["instrumentares"],"vos":["instrumentares"],"s3":["instrumentare"],"p1":["instrumentáremos"],"p2":["instrumentareis"],"p3":["instrumentaren"]},
+    "CmdPos": {"s2":["instrumenta"],"vos":["instrumentá"],"s3":["instrumente"],"p1":["instrumentemos"],"p2":["instrumentad"],"p3":["instrumenten"]}
+  }
+}

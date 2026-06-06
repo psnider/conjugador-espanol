@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pluɾaliˈsaɾ]",
+    "silabacion": "plu-ra-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"pluralizar","gerundio":["pluralizando"],"participio":["pluralizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pluralizo"],"s2":["pluralizas"],"vos":["pluralizás"],"s3":["pluraliza"],"p1":["pluralizamos"],"p2":["pluralizáis"],"p3":["pluralizan"]},
+    "IndImp": {"s1":["pluralizaba"],"s2":["pluralizabas"],"vos":["pluralizabas"],"s3":["pluralizaba"],"p1":["pluralizábamos"],"p2":["pluralizabais"],"p3":["pluralizaban"]},
+    "IndPret": {"s1":["pluralicé"],"s2":["pluralizaste"],"vos":["pluralizaste"],"s3":["pluralizó"],"p1":["pluralizamos"],"p2":["pluralizasteis"],"p3":["pluralizaron"]},
+    "IndFut": {"s1":["pluralizaré"],"s2":["pluralizarás"],"vos":["pluralizarás"],"s3":["pluralizará"],"p1":["pluralizaremos"],"p2":["pluralizaréis"],"p3":["pluralizarán"]},
+    "IndCond": {"s1":["pluralizaría"],"s2":["pluralizarías"],"vos":["pluralizarías"],"s3":["pluralizaría"],"p1":["pluralizaríamos"],"p2":["pluralizaríais"],"p3":["pluralizarían"]},
+    "SubPres": {"s1":["pluralice"],"s2":["pluralices"],"vos":["pluralices","pluralicés"],"s3":["pluralice"],"p1":["pluralicemos"],"p2":["pluralicéis"],"p3":["pluralicen"]},
+    "SubImp": {"s1":["pluralizara","pluralizase"],"s2":["pluralizaras","pluralizases"],"vos":["pluralizaras","pluralizases"],"s3":["pluralizara","pluralizase"],"p1":["pluralizáramos","pluralizásemos"],"p2":["pluralizarais","pluralizaseis"],"p3":["pluralizaran","pluralizasen"]},
+    "SubFut": {"s1":["pluralizare"],"s2":["pluralizares"],"vos":["pluralizares"],"s3":["pluralizare"],"p1":["pluralizáremos"],"p2":["pluralizareis"],"p3":["pluralizaren"]},
+    "CmdPos": {"s2":["pluraliza"],"vos":["pluralizá"],"s3":["pluralice"],"p1":["pluralicemos"],"p2":["pluralizad"],"p3":["pluralicen"]}
+  }
+}

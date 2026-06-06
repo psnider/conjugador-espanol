@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apokoˈpaɾ]",
+    "silabacion": "a-po-co-par",
+    "acentuacion": "aguda",
+    "etimologia": "De apócope y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apocopar","gerundio":["apocopando"],"participio":["apocopado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apocopo"],"s2":["apocopas"],"vos":["apocopás"],"s3":["apocopa"],"p1":["apocopamos"],"p2":["apocopáis"],"p3":["apocopan"]},
+    "IndImp": {"s1":["apocopaba"],"s2":["apocopabas"],"vos":["apocopabas"],"s3":["apocopaba"],"p1":["apocopábamos"],"p2":["apocopabais"],"p3":["apocopaban"]},
+    "IndPret": {"s1":["apocopé"],"s2":["apocopaste"],"vos":["apocopaste"],"s3":["apocopó"],"p1":["apocopamos"],"p2":["apocopasteis"],"p3":["apocoparon"]},
+    "IndFut": {"s1":["apocoparé"],"s2":["apocoparás"],"vos":["apocoparás"],"s3":["apocopará"],"p1":["apocoparemos"],"p2":["apocoparéis"],"p3":["apocoparán"]},
+    "IndCond": {"s1":["apocoparía"],"s2":["apocoparías"],"vos":["apocoparías"],"s3":["apocoparía"],"p1":["apocoparíamos"],"p2":["apocoparíais"],"p3":["apocoparían"]},
+    "SubPres": {"s1":["apocope"],"s2":["apocopes"],"vos":["apocopes","apocopés"],"s3":["apocope"],"p1":["apocopemos"],"p2":["apocopéis"],"p3":["apocopen"]},
+    "SubImp": {"s1":["apocopara","apocopase"],"s2":["apocoparas","apocopases"],"vos":["apocoparas","apocopases"],"s3":["apocopara","apocopase"],"p1":["apocopáramos","apocopásemos"],"p2":["apocoparais","apocopaseis"],"p3":["apocoparan","apocopasen"]},
+    "SubFut": {"s1":["apocopare"],"s2":["apocopares"],"vos":["apocopares"],"s3":["apocopare"],"p1":["apocopáremos"],"p2":["apocopareis"],"p3":["apocoparen"]},
+    "CmdPos": {"s2":["apocopa"],"vos":["apocopá"],"s3":["apocope"],"p1":["apocopemos"],"p2":["apocopad"],"p3":["apocopen"]}
+  }
+}

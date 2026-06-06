@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[leksikaliˈsaɾ]",
+    "silabacion": "le-xi-ca-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De lexical y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"lexicalizar","gerundio":["lexicalizando"],"participio":["lexicalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["lexicalizo"],"s2":["lexicalizas"],"vos":["lexicalizás"],"s3":["lexicaliza"],"p1":["lexicalizamos"],"p2":["lexicalizáis"],"p3":["lexicalizan"]},
+    "IndImp": {"s1":["lexicalizaba"],"s2":["lexicalizabas"],"vos":["lexicalizabas"],"s3":["lexicalizaba"],"p1":["lexicalizábamos"],"p2":["lexicalizabais"],"p3":["lexicalizaban"]},
+    "IndPret": {"s1":["lexicalicé"],"s2":["lexicalizaste"],"vos":["lexicalizaste"],"s3":["lexicalizó"],"p1":["lexicalizamos"],"p2":["lexicalizasteis"],"p3":["lexicalizaron"]},
+    "IndFut": {"s1":["lexicalizaré"],"s2":["lexicalizarás"],"vos":["lexicalizarás"],"s3":["lexicalizará"],"p1":["lexicalizaremos"],"p2":["lexicalizaréis"],"p3":["lexicalizarán"]},
+    "IndCond": {"s1":["lexicalizaría"],"s2":["lexicalizarías"],"vos":["lexicalizarías"],"s3":["lexicalizaría"],"p1":["lexicalizaríamos"],"p2":["lexicalizaríais"],"p3":["lexicalizarían"]},
+    "SubPres": {"s1":["lexicalice"],"s2":["lexicalices"],"vos":["lexicalices","lexicalicés"],"s3":["lexicalice"],"p1":["lexicalicemos"],"p2":["lexicalicéis"],"p3":["lexicalicen"]},
+    "SubImp": {"s1":["lexicalizara","lexicalizase"],"s2":["lexicalizaras","lexicalizases"],"vos":["lexicalizaras","lexicalizases"],"s3":["lexicalizara","lexicalizase"],"p1":["lexicalizáramos","lexicalizásemos"],"p2":["lexicalizarais","lexicalizaseis"],"p3":["lexicalizaran","lexicalizasen"]},
+    "SubFut": {"s1":["lexicalizare"],"s2":["lexicalizares"],"vos":["lexicalizares"],"s3":["lexicalizare"],"p1":["lexicalizáremos"],"p2":["lexicalizareis"],"p3":["lexicalizaren"]},
+    "CmdPos": {"s2":["lexicaliza"],"vos":["lexicalizá"],"s3":["lexicalice"],"p1":["lexicalicemos"],"p2":["lexicalizad"],"p3":["lexicalicen"]}
+  }
+}

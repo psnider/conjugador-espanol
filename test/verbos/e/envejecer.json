@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbexeˈseɾ]",
+    "silabacion": "en-ve-je-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, vejez y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"envejecer","gerundio":["envejeciendo"],"participio":["envejecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["envejezco"],"s2":["envejeces"],"vos":["envejecés"],"s3":["envejece"],"p1":["envejecemos"],"p2":["envejecéis"],"p3":["envejecen"]},
+    "IndImp": {"s1":["envejecía"],"s2":["envejecías"],"vos":["envejecías"],"s3":["envejecía"],"p1":["envejecíamos"],"p2":["envejecíais"],"p3":["envejecían"]},
+    "IndPret": {"s1":["envejecí"],"s2":["envejeciste"],"vos":["envejeciste"],"s3":["envejeció"],"p1":["envejecimos"],"p2":["envejecisteis"],"p3":["envejecieron"]},
+    "IndFut": {"s1":["envejeceré"],"s2":["envejecerás"],"vos":["envejecerás"],"s3":["envejecerá"],"p1":["envejeceremos"],"p2":["envejeceréis"],"p3":["envejecerán"]},
+    "IndCond": {"s1":["envejecería"],"s2":["envejecerías"],"vos":["envejecerías"],"s3":["envejecería"],"p1":["envejeceríamos"],"p2":["envejeceríais"],"p3":["envejecerían"]},
+    "SubPres": {"s1":["envejezca"],"s2":["envejezcas"],"vos":["envejezcas","envejezcás"],"s3":["envejezca"],"p1":["envejezcamos"],"p2":["envejezcáis"],"p3":["envejezcan"]},
+    "SubImp": {"s1":["envejeciera","envejeciese"],"s2":["envejecieras","envejecieses"],"vos":["envejecieras","envejecieses"],"s3":["envejeciera","envejeciese"],"p1":["envejeciéramos","envejeciésemos"],"p2":["envejecierais","envejecieseis"],"p3":["envejecieran","envejeciesen"]},
+    "SubFut": {"s1":["envejeciere"],"s2":["envejecieres"],"vos":["envejecieres"],"s3":["envejeciere"],"p1":["envejeciéremos"],"p2":["envejeciereis"],"p3":["envejecieren"]},
+    "CmdPos": {"s2":["envejece"],"vos":["envejecé"],"s3":["envejezca"],"p1":["envejezcamos"],"p2":["envejeced"],"p3":["envejezcan"]}
+  }
+}

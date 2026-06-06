@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[swaβ̞iˈsaɾ]",
+    "silabacion": "sua-vi-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De suave y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"suavizar","gerundio":["suavizando"],"participio":["suavizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["suavizo"],"s2":["suavizas"],"vos":["suavizás"],"s3":["suaviza"],"p1":["suavizamos"],"p2":["suavizáis"],"p3":["suavizan"]},
+    "IndImp": {"s1":["suavizaba"],"s2":["suavizabas"],"vos":["suavizabas"],"s3":["suavizaba"],"p1":["suavizábamos"],"p2":["suavizabais"],"p3":["suavizaban"]},
+    "IndPret": {"s1":["suavicé"],"s2":["suavizaste"],"vos":["suavizaste"],"s3":["suavizó"],"p1":["suavizamos"],"p2":["suavizasteis"],"p3":["suavizaron"]},
+    "IndFut": {"s1":["suavizaré"],"s2":["suavizarás"],"vos":["suavizarás"],"s3":["suavizará"],"p1":["suavizaremos"],"p2":["suavizaréis"],"p3":["suavizarán"]},
+    "IndCond": {"s1":["suavizaría"],"s2":["suavizarías"],"vos":["suavizarías"],"s3":["suavizaría"],"p1":["suavizaríamos"],"p2":["suavizaríais"],"p3":["suavizarían"]},
+    "SubPres": {"s1":["suavice"],"s2":["suavices"],"vos":["suavices","suavicés"],"s3":["suavice"],"p1":["suavicemos"],"p2":["suavicéis"],"p3":["suavicen"]},
+    "SubImp": {"s1":["suavizara","suavizase"],"s2":["suavizaras","suavizases"],"vos":["suavizaras","suavizases"],"s3":["suavizara","suavizase"],"p1":["suavizáramos","suavizásemos"],"p2":["suavizarais","suavizaseis"],"p3":["suavizaran","suavizasen"]},
+    "SubFut": {"s1":["suavizare"],"s2":["suavizares"],"vos":["suavizares"],"s3":["suavizare"],"p1":["suavizáremos"],"p2":["suavizareis"],"p3":["suavizaren"]},
+    "CmdPos": {"s2":["suaviza"],"vos":["suavizá"],"s3":["suavice"],"p1":["suavicemos"],"p2":["suavizad"],"p3":["suavicen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪d̪imẽn̪ˈt̪aɾ]",
+    "silabacion": "con-di-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De condimento y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"condimentar","gerundio":["condimentando"],"participio":["condimentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["condimento"],"s2":["condimentas"],"vos":["condimentás"],"s3":["condimenta"],"p1":["condimentamos"],"p2":["condimentáis"],"p3":["condimentan"]},
+    "IndImp": {"s1":["condimentaba"],"s2":["condimentabas"],"vos":["condimentabas"],"s3":["condimentaba"],"p1":["condimentábamos"],"p2":["condimentabais"],"p3":["condimentaban"]},
+    "IndPret": {"s1":["condimenté"],"s2":["condimentaste"],"vos":["condimentaste"],"s3":["condimentó"],"p1":["condimentamos"],"p2":["condimentasteis"],"p3":["condimentaron"]},
+    "IndFut": {"s1":["condimentaré"],"s2":["condimentarás"],"vos":["condimentarás"],"s3":["condimentará"],"p1":["condimentaremos"],"p2":["condimentaréis"],"p3":["condimentarán"]},
+    "IndCond": {"s1":["condimentaría"],"s2":["condimentarías"],"vos":["condimentarías"],"s3":["condimentaría"],"p1":["condimentaríamos"],"p2":["condimentaríais"],"p3":["condimentarían"]},
+    "SubPres": {"s1":["condimente"],"s2":["condimentes"],"vos":["condimentes","condimentés"],"s3":["condimente"],"p1":["condimentemos"],"p2":["condimentéis"],"p3":["condimenten"]},
+    "SubImp": {"s1":["condimentara","condimentase"],"s2":["condimentaras","condimentases"],"vos":["condimentaras","condimentases"],"s3":["condimentara","condimentase"],"p1":["condimentáramos","condimentásemos"],"p2":["condimentarais","condimentaseis"],"p3":["condimentaran","condimentasen"]},
+    "SubFut": {"s1":["condimentare"],"s2":["condimentares"],"vos":["condimentares"],"s3":["condimentare"],"p1":["condimentáremos"],"p2":["condimentareis"],"p3":["condimentaren"]},
+    "CmdPos": {"s2":["condimenta"],"vos":["condimentá"],"s3":["condimente"],"p1":["condimentemos"],"p2":["condimentad"],"p3":["condimenten"]}
+  }
+}

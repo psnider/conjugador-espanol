@@ -3,16 +3,17 @@
   "version": "1.0",
   "description": "conjugador de verbos españoles usando reglas lingüisticas",
   "type": "module",
-  "main": "index.js",
+  "main": "./generated/src/publico.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "build:node": "tsc -p tsconfig.node.json",
+    "build:node:t": "tsc -p tsconfig.node.json t.ts",
     "build:web": "tsc -p tsconfig.web.json",
     "build": "npm run build:node && npm run build:web",
     "cp-web-page": "cp html/página-conjugador.html ./index.html",
     "update-web-page": "npm run build && npm run update-verbos-with-test-results && npm run cp-web-page",
     "validate": "node generated/test/validate-stem-change-patterns.js && node generated/test/validate-verbs-list.js && node generated/test/validate-sufijos-regexes",
     "test-full": "npm run validate && npm run test",
-    "test-list": "node generated/test/test.js",
     "test-resolve-conjugation-class": "node generated/test/test-resolve-conjugation-class.js",
     "test": "node generated/test/test-verbs-using-saved-conjugations.js",
     "test-conjugate-verb": "node generated/test/test-conjugate-verb.js",
@@ -26,7 +27,7 @@
   "author": "Peter Snider",
   "license": "CC-BY-NC-4.0",
   "devDependencies": {
-    "@types/node": "^20.3.3",
-    "typescript": "^6.0.2"
+    "@types/node": "20.3.3",
+    "typescript": "6.0.2"
   }
 }

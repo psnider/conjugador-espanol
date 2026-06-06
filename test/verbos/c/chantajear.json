@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃãn̪t̪axeˈaɾ]",
+    "silabacion": "chan-ta-je-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"chantajear","gerundio":["chantajeando"],"participio":["chantajeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["chantajeo"],"s2":["chantajeas"],"vos":["chantajeás"],"s3":["chantajea"],"p1":["chantajeamos"],"p2":["chantajeáis"],"p3":["chantajean"]},
+    "IndImp": {"s1":["chantajeaba"],"s2":["chantajeabas"],"vos":["chantajeabas"],"s3":["chantajeaba"],"p1":["chantajeábamos"],"p2":["chantajeabais"],"p3":["chantajeaban"]},
+    "IndPret": {"s1":["chantajeé"],"s2":["chantajeaste"],"vos":["chantajeaste"],"s3":["chantajeó"],"p1":["chantajeamos"],"p2":["chantajeasteis"],"p3":["chantajearon"]},
+    "IndFut": {"s1":["chantajearé"],"s2":["chantajearás"],"vos":["chantajearás"],"s3":["chantajeará"],"p1":["chantajearemos"],"p2":["chantajearéis"],"p3":["chantajearán"]},
+    "IndCond": {"s1":["chantajearía"],"s2":["chantajearías"],"vos":["chantajearías"],"s3":["chantajearía"],"p1":["chantajearíamos"],"p2":["chantajearíais"],"p3":["chantajearían"]},
+    "SubPres": {"s1":["chantajee"],"s2":["chantajees"],"vos":["chantajees","chantajeés"],"s3":["chantajee"],"p1":["chantajeemos"],"p2":["chantajeéis"],"p3":["chantajeen"]},
+    "SubImp": {"s1":["chantajeara","chantajease"],"s2":["chantajearas","chantajeases"],"vos":["chantajearas","chantajeases"],"s3":["chantajeara","chantajease"],"p1":["chantajeáramos","chantajeásemos"],"p2":["chantajearais","chantajeaseis"],"p3":["chantajearan","chantajeasen"]},
+    "SubFut": {"s1":["chantajeare"],"s2":["chantajeares"],"vos":["chantajeares"],"s3":["chantajeare"],"p1":["chantajeáremos"],"p2":["chantajeareis"],"p3":["chantajearen"]},
+    "CmdPos": {"s2":["chantajea"],"vos":["chantajeá"],"s3":["chantajee"],"p1":["chantajeemos"],"p2":["chantajead"],"p3":["chantajeen"]}
+  }
+}

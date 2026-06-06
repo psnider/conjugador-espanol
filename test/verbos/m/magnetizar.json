@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[maɣ̞net̪iˈsaɾ]",
+    "silabacion": "mag-ne-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De magnético y el sufijo -izar.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"magnetizar","gerundio":["magnetizando"],"participio":["magnetizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["magnetizo"],"s2":["magnetizas"],"vos":["magnetizás"],"s3":["magnetiza"],"p1":["magnetizamos"],"p2":["magnetizáis"],"p3":["magnetizan"]},
+    "IndImp": {"s1":["magnetizaba"],"s2":["magnetizabas"],"vos":["magnetizabas"],"s3":["magnetizaba"],"p1":["magnetizábamos"],"p2":["magnetizabais"],"p3":["magnetizaban"]},
+    "IndPret": {"s1":["magneticé"],"s2":["magnetizaste"],"vos":["magnetizaste"],"s3":["magnetizó"],"p1":["magnetizamos"],"p2":["magnetizasteis"],"p3":["magnetizaron"]},
+    "IndFut": {"s1":["magnetizaré"],"s2":["magnetizarás"],"vos":["magnetizarás"],"s3":["magnetizará"],"p1":["magnetizaremos"],"p2":["magnetizaréis"],"p3":["magnetizarán"]},
+    "IndCond": {"s1":["magnetizaría"],"s2":["magnetizarías"],"vos":["magnetizarías"],"s3":["magnetizaría"],"p1":["magnetizaríamos"],"p2":["magnetizaríais"],"p3":["magnetizarían"]},
+    "SubPres": {"s1":["magnetice"],"s2":["magnetices"],"vos":["magnetices","magneticés"],"s3":["magnetice"],"p1":["magneticemos"],"p2":["magneticéis"],"p3":["magneticen"]},
+    "SubImp": {"s1":["magnetizara","magnetizase"],"s2":["magnetizaras","magnetizases"],"vos":["magnetizaras","magnetizases"],"s3":["magnetizara","magnetizase"],"p1":["magnetizáramos","magnetizásemos"],"p2":["magnetizarais","magnetizaseis"],"p3":["magnetizaran","magnetizasen"]},
+    "SubFut": {"s1":["magnetizare"],"s2":["magnetizares"],"vos":["magnetizares"],"s3":["magnetizare"],"p1":["magnetizáremos"],"p2":["magnetizareis"],"p3":["magnetizaren"]},
+    "CmdPos": {"s2":["magnetiza"],"vos":["magnetizá"],"s3":["magnetice"],"p1":["magneticemos"],"p2":["magnetizad"],"p3":["magneticen"]}
+  }
+}

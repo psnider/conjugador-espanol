@@ -1,4 +1,5 @@
-import { ConjugaciónTabla, GrammaticalPerson, MoodTense, Participios, Defectos, FormaConjugada, MoodTenseMap } from "../src"
+import type { Participios, Defectos, FormaConjugada } from "../src/index"
+import type { ConjugaciónTabla, MoodTenseMap } from "../src/index-privado"
 
 
 export interface FormasNoPersonales extends Participios<FormaConjugada[]> {

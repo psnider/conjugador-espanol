@@ -1,6 +1,6 @@
 import { conjugateVerb } from "../src/conjugate-verb.js"
-import { GrammaticalPerson } from "../src/index.js"
-import { sufijos_regexes } from "../src/indexa-formas-conjugadas.js"
+import { GrammaticalPerson } from "../src/index"
+import { sufijos_regexes } from "../src/indexa-de-temas-conjugadas.js"
 import { mood_tenses, getForma } from "../src/lib.js"
 import { verbos_con_cambios_morfológicos } from "../src/verbos-con-cambios-morfológicas.js"
 

@@ -1,6 +1,7 @@
-import { FormaConjugada, MoodTense, VerbConjugationStems } from ".";
-import { applyToFormasConjugadas, combinaFormasConjugadas, setStem } from "./lib.js";
-import { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
+import type { MoodTense } from "./index"
+import type { VerbConjugationStems } from "./index-privado"
+import type { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js";
+import { setStem } from "./lib.js";
 
 
 // Objetivo del módulo cambio-tema-presente-yo.ts

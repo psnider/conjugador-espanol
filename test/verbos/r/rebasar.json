@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞aˈsaɾ]",
+    "silabacion": "re-ba-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re-, basa y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rebasar","gerundio":["rebasando"],"participio":["rebasado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rebaso"],"s2":["rebasas"],"vos":["rebasás"],"s3":["rebasa"],"p1":["rebasamos"],"p2":["rebasáis"],"p3":["rebasan"]},
+    "IndImp": {"s1":["rebasaba"],"s2":["rebasabas"],"vos":["rebasabas"],"s3":["rebasaba"],"p1":["rebasábamos"],"p2":["rebasabais"],"p3":["rebasaban"]},
+    "IndPret": {"s1":["rebasé"],"s2":["rebasaste"],"vos":["rebasaste"],"s3":["rebasó"],"p1":["rebasamos"],"p2":["rebasasteis"],"p3":["rebasaron"]},
+    "IndFut": {"s1":["rebasaré"],"s2":["rebasarás"],"vos":["rebasarás"],"s3":["rebasará"],"p1":["rebasaremos"],"p2":["rebasaréis"],"p3":["rebasarán"]},
+    "IndCond": {"s1":["rebasaría"],"s2":["rebasarías"],"vos":["rebasarías"],"s3":["rebasaría"],"p1":["rebasaríamos"],"p2":["rebasaríais"],"p3":["rebasarían"]},
+    "SubPres": {"s1":["rebase"],"s2":["rebases"],"vos":["rebases","rebasés"],"s3":["rebase"],"p1":["rebasemos"],"p2":["rebaséis"],"p3":["rebasen"]},
+    "SubImp": {"s1":["rebasara","rebasase"],"s2":["rebasaras","rebasases"],"vos":["rebasaras","rebasases"],"s3":["rebasara","rebasase"],"p1":["rebasáramos","rebasásemos"],"p2":["rebasarais","rebasaseis"],"p3":["rebasaran","rebasasen"]},
+    "SubFut": {"s1":["rebasare"],"s2":["rebasares"],"vos":["rebasares"],"s3":["rebasare"],"p1":["rebasáremos"],"p2":["rebasareis"],"p3":["rebasaren"]},
+    "CmdPos": {"s2":["rebasa"],"vos":["rebasá"],"s3":["rebase"],"p1":["rebasemos"],"p2":["rebasad"],"p3":["rebasen"]}
+  }
+}

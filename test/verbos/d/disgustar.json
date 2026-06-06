@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪isɣ̞usˈt̪aɾ]",
+    "silabacion": "dis-gus-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo dis- y gustar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"disgustar","gerundio":["disgustando"],"participio":["disgustado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["disgusto"],"s2":["disgustas"],"vos":["disgustás"],"s3":["disgusta"],"p1":["disgustamos"],"p2":["disgustáis"],"p3":["disgustan"]},
+    "IndImp": {"s1":["disgustaba"],"s2":["disgustabas"],"vos":["disgustabas"],"s3":["disgustaba"],"p1":["disgustábamos"],"p2":["disgustabais"],"p3":["disgustaban"]},
+    "IndPret": {"s1":["disgusté"],"s2":["disgustaste"],"vos":["disgustaste"],"s3":["disgustó"],"p1":["disgustamos"],"p2":["disgustasteis"],"p3":["disgustaron"]},
+    "IndFut": {"s1":["disgustaré"],"s2":["disgustarás"],"vos":["disgustarás"],"s3":["disgustará"],"p1":["disgustaremos"],"p2":["disgustaréis"],"p3":["disgustarán"]},
+    "IndCond": {"s1":["disgustaría"],"s2":["disgustarías"],"vos":["disgustarías"],"s3":["disgustaría"],"p1":["disgustaríamos"],"p2":["disgustaríais"],"p3":["disgustarían"]},
+    "SubPres": {"s1":["disguste"],"s2":["disgustes"],"vos":["disgustes","disgustés"],"s3":["disguste"],"p1":["disgustemos"],"p2":["disgustéis"],"p3":["disgusten"]},
+    "SubImp": {"s1":["disgustara","disgustase"],"s2":["disgustaras","disgustases"],"vos":["disgustaras","disgustases"],"s3":["disgustara","disgustase"],"p1":["disgustáramos","disgustásemos"],"p2":["disgustarais","disgustaseis"],"p3":["disgustaran","disgustasen"]},
+    "SubFut": {"s1":["disgustare"],"s2":["disgustares"],"vos":["disgustares"],"s3":["disgustare"],"p1":["disgustáremos"],"p2":["disgustareis"],"p3":["disgustaren"]},
+    "CmdPos": {"s2":["disgusta"],"vos":["disgustá"],"s3":["disguste"],"p1":["disgustemos"],"p2":["disgustad"],"p3":["disgusten"]}
+  }
+}

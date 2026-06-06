@@ -1,9 +1,10 @@
-import {assert, consonantes, vowels} from "./lib.js"
+import type { ModeloConjugacional, PrefijosDeClaseConjugacional } from "./index"
+import type { InfinitiveClass, ReglasDeConjugaciónDeVerbo, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
+import { verbos_con_cambios_morfológicos } from "./verbos-con-cambios-morfológicas.js"
+import { assert, consonantes, vowels} from "./lib.js"
 import { _conjugateVerb, getIndPretP3StemOfModel } from "./conjugate-verb.js"
-import { MoodTenseMap } from "./index.js"
 import { findProductiveVerbPrefix } from "./prefixes.js"
 import { getInfinitiveClass } from "./regular-verb-rules.js"
-import { ModeloConjugacional, InfinitiveClass, ReglasDeConjugaciónDeVerbo, verbos_con_cambios_morfológicos, VerbAspectRulesWithFullyIrregularForms, VerboClaseConjugacional } from "./verbos-con-cambios-morfológicas.js"
 
 
 // const descreer_Prefixes: Prefixes = {
@@ -14,16 +15,6 @@ import { ModeloConjugacional, InfinitiveClass, ReglasDeConjugaciónDeVerbo, verb
 //         prefijo_sustractivo: "l",
 //     }
 // }
-
-export interface PrefijosDeClaseConjugacional {
-        // El prefijo del verbo que pertenece a una familia de conjugación.
-        // Por ejemplo, "creer" es miembro de la familia "-eer" (modelo "leer"), entonces 'conjugation_family_prefix' es "cr",
-        // => implica is_conjugation_family
-        prefijo_aditivo?: string
-        // El principio de un verbo que es el modelo/base una clase/familia de conjugación, que no es parte del modelo real.
-        // Por ejemplo, para "leer", el prefijo_sustractivo es "l", la parte antes de la clase_conjugacional, aquí "-eer"
-        prefijo_sustractivo?: string
-    }
 
 
 // These prefixes can be reconstructed using addPrefixesToForm()

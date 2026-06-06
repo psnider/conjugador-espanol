@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xakeˈaɾ]",
+    "silabacion": "ja-que-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De jaque y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jaquear","gerundio":["jaqueando"],"participio":["jaqueado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["jaqueo"],"s2":["jaqueas"],"vos":["jaqueás"],"s3":["jaquea"],"p1":["jaqueamos"],"p2":["jaqueáis"],"p3":["jaquean"]},
+    "IndImp": {"s1":["jaqueaba"],"s2":["jaqueabas"],"vos":["jaqueabas"],"s3":["jaqueaba"],"p1":["jaqueábamos"],"p2":["jaqueabais"],"p3":["jaqueaban"]},
+    "IndPret": {"s1":["jaqueé"],"s2":["jaqueaste"],"vos":["jaqueaste"],"s3":["jaqueó"],"p1":["jaqueamos"],"p2":["jaqueasteis"],"p3":["jaquearon"]},
+    "IndFut": {"s1":["jaquearé"],"s2":["jaquearás"],"vos":["jaquearás"],"s3":["jaqueará"],"p1":["jaquearemos"],"p2":["jaquearéis"],"p3":["jaquearán"]},
+    "IndCond": {"s1":["jaquearía"],"s2":["jaquearías"],"vos":["jaquearías"],"s3":["jaquearía"],"p1":["jaquearíamos"],"p2":["jaquearíais"],"p3":["jaquearían"]},
+    "SubPres": {"s1":["jaquee"],"s2":["jaquees"],"vos":["jaquees","jaqueés"],"s3":["jaquee"],"p1":["jaqueemos"],"p2":["jaqueéis"],"p3":["jaqueen"]},
+    "SubImp": {"s1":["jaqueara","jaquease"],"s2":["jaquearas","jaqueases"],"vos":["jaquearas","jaqueases"],"s3":["jaqueara","jaquease"],"p1":["jaqueáramos","jaqueásemos"],"p2":["jaquearais","jaqueaseis"],"p3":["jaquearan","jaqueasen"]},
+    "SubFut": {"s1":["jaqueare"],"s2":["jaqueares"],"vos":["jaqueares"],"s3":["jaqueare"],"p1":["jaqueáremos"],"p2":["jaqueareis"],"p3":["jaquearen"]},
+    "CmdPos": {"s2":["jaquea"],"vos":["jaqueá"],"s3":["jaquee"],"p1":["jaqueemos"],"p2":["jaquead"],"p3":["jaqueen"]}
+  }
+}

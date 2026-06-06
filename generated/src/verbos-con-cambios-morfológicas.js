@@ -5,43 +5,43 @@ import { license } from "./licencia.js";
 export const verbos_con_cambios_morfológicos = {
     abandonar: {
       ok:true,
-      },
+       pronominal: true },
     abatir: {
       ok:true,
        pronominal: true },
     abolir: {
       ok:true,
-      }, // FIX: abolir no se conjuga como abolo, aboles, abola, etc. Se usan perífrasis: va a abolir
+       pronominal: false }, // FIX: abolir no se conjuga como abolo, aboles, abola, etc. Se usan perífrasis: va a abolir
     abrasar: {
       ok:true,
-      },
+       pronominal: true },
     abrazar: {
       ok:true,
        pronominal: true },
     abreviar: {
       ok:true,
-      },
+       pronominal: true },
     abrir: {
       ok:true,
-       excepciones_léxicas: { participio: ["abierto"] } },
+       pronominal: true, excepciones_léxicas: { participio: ["abierto"] } },
     abrumar: {
       ok:true,
-      },
+       pronominal: true },
     absolver: {
       ok:true,
-       alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["absuelto"] } },
+       pronominal: false, alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["absuelto"] } },
     absorber: {
       ok:true,
        pronominal: false },
     abstener: {
       ok:true,
-       modelo: "tener" },
+       pronominal: true, modelo: "tener" },
     abundar: {
       ok:true,
-      },
+       pronominal: false },
     aburrir: {
       ok:true,
-      },
+       pronominal: true },
     acabar: {
       ok:true,
        pronominal: true, auxiliar: true },
@@ -57,6 +57,9 @@ export const verbos_con_cambios_morfológicos = {
     acarrear: {
       ok:true,
        pronominal: false },
+    acatar: {
+      ok:true,
+       pronominal: true },
     acceder: {
       ok:true,
        pronominal: false },
@@ -140,37 +143,41 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     adaptar: {
       ok:true,
-      },
+       pronominal: true },
     adelantar: {
       ok:true,
        pronominal: true },
     adelgazar: {
       ok:true,
-      },
+       pronominal: true },
     adherir: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     adicionar: {
       ok:true,
-      },
+       pronominal: false },
+    adjudicar: {
+      ok:true,
+       pronominal: true },
     adjuntar: {
       ok:true,
-      },
+       pronominal: false },
     admirar: {
       ok:true,
        pronominal: true },
     admitir: {
       ok:true,
-      },
+       pronominal: false },
     adobar: {
       ok:true,
-      },
+       pronominal: true },
     adorar: {
       ok:true,
        pronominal: false },
     adquirir: {
       ok:true,
-       alternancia_vocálica: "i:ie",
+       pronominal: false,
+        alternancia_vocálica: "i:ie",
         excepciones_léxicas: {
             reglas: {
                 // FIX: try to use temas instead
@@ -180,206 +187,209 @@ export const verbos_con_cambios_morfológicos = {
     },
     adueñar: {
       ok:true,
-      },
+       pronominal: true },
     advenir: {
       ok:true,
-       modelo: "venir" },
+       pronominal: false, modelo: "venir" },
     advertir: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: false, alternancia_vocálica: "e:ie" },
     afectar: {
       ok:true,
-      },
+       pronominal: true },
     afeitar: {
       ok:true,
-      },
+       pronominal: true },
     aferrar: {
       ok:true,
        pronominal: true },
     afirmar: {
       ok:true,
-      },
+       pronominal: true },
     afligir: {
       ok:true,
        pronominal: true },
     aflojar: {
       ok:true,
-      },
+       pronominal: true },
     aflorar: {
       ok:true,
-      },
+       pronominal: false },
     afluir: {
       ok:true,
-      },
+       pronominal: false },
     agachar: {
       ok:true,
-      },
+       pronominal: true },
     agarrar: {
       ok:true,
-      },
+       pronominal: true },
     agasajar: {
       ok:true,
-      },
+       pronominal: false },
+    agendar: {
+      ok:true,
+       pronominal: false },
     agitar: {
       ok:true,
-      },
+       pronominal: true },
     agolpar: {
       ok:true,
-      },
+       pronominal: true },
     agotar: {
       ok:true,
        pronominal: true },
     agradar: {
       ok:true,
-      },
+       pronominal: true },
     agradecer: {
       ok:true,
-      },
+       pronominal: false },
     agravar: {
       ok:true,
-      },
+       pronominal: true },
     agredir: {
       ok:true,
-      }, // FIX: Similar a abolir: falta presente de indicativo (excepto agredimos, agredís)
+       pronominal: false }, // FIX: Similar a abolir: falta presente de indicativo (excepto agredimos, agredís)
     agregar: {
       ok:true,
        pronominal: true },
     agrupar: {
       ok:true,
-      },
+       pronominal: true },
     aguantar: {
       ok:true,
-      },
+       pronominal: true },
     aguar: {
       ok:true,
-      },
+       pronominal: true },
     agudizar: {
       ok:true,
-      },
+       pronominal: true },
     ahijar: {
       ok:true,
-      },
+       pronominal: false },
     ahitar: {
       ok:true,
-      },
+       pronominal: true },
     ahorrar: {
       ok:true,
-      },
+       pronominal: true },
     ahusar: {
       ok:true,
-      },
+       pronominal: true },
     ahuyentar: {
       ok:true,
        pronominal: true },
     airar: {
       ok:true,
-      },
+       pronominal: true },
     aislar: {
       ok:true,
-      },
+       pronominal: true },
     ajustar: {
       ok:true,
        pronominal: true },
     alargar: {
       ok:true,
-      },
+       pronominal: true },
     alarmar: {
       ok:true,
-      },
+       pronominal: true },
     albergar: {
       ok:true,
-      },
+       pronominal: true },
     alcanzar: {
       ok:true,
        pronominal: true },
     alcoholizar: {
       ok:true,
-      },
+       pronominal: true },
     alegrar: {
       ok:true,
-      },
+       pronominal: true },
     alejar: {
       ok:true,
-      },
+       pronominal: true },
     alentar: {
       ok:true,
        pronominal: true, alternancia_vocálica: "e:ie" },
     alertar: {
       ok:true,
-      },
+       pronominal: false },
     aliar: {
       ok:true,
-       modelo: "vaciar" },
+       pronominal: true, modelo: "vaciar" },
     alimentar: {
       ok:true,
-      },
+       pronominal: true },
     aliviar: {
       ok:true,
-      },
+       pronominal: true },
     almorzar: {
       ok:true,
-       alternancia_vocálica: "o:ue" },
+       pronominal: false, alternancia_vocálica: "o:ue" },
     alocar: {
       ok:true,
-      },
+       pronominal: true },
     alojar: {
       ok:true,
-      },
+       pronominal: true },
     alquilar: {
       ok:true,
-      },
+       pronominal: true },
     // alquiler:    no es un verbo según el DEL de la RAE
     alterar: {
       ok:true,
-      },
+       pronominal: true },
     alucinar: {
       ok:true,
-      },
+       pronominal: true },
     alumbrar: {
       ok:true,
-      },
+       pronominal: true },
     amaestrar: {
       ok:true,
-      },
+       pronominal: true },
     amalgamar: {
       ok:true,
-      },
+       pronominal: true },
     amanecer: {
       ok:true,
-       impersonal: "natural" },
+       pronominal: true, impersonal: "natural" },
     amar: {
       ok:true,
-      },
+       pronominal: false },
     amarrar: {
       ok:true,
-      },
+       pronominal: true },
     amasar: {
       ok:true,
-      },
+       pronominal: true },
     amnistiar: {
       ok:true,
-       modelo: "vaciar" },
+       pronominal: false, modelo: "vaciar" },
     amohinar: {
       ok:true,
-      },
+       pronominal: true },
     amortiguar: {
       ok:true,
-      },
+       pronominal: true },
     amparar: {
       ok:true,
-      },
+       pronominal: true },
     ampliar: {
       ok:true,
-       modelo: "vaciar" },
+       pronominal: false, modelo: "vaciar" },
     añadir: {
       ok:true,
-      },
+       pronominal: false },
     anclar: {
       ok:true,
-      },
+       pronominal: true },
     andar: {
       ok:true,
-       modelo: "andar",
+       pronominal: true, modelo: "andar",
         auxiliar: true,
         tema_pretérito_del_modelo: "anduv",
         excepciones_léxicas: {
@@ -390,97 +400,103 @@ export const verbos_con_cambios_morfológicos = {
     },
     anhelar: {
       ok:true,
-      },
+       pronominal: false },
     anidar: {
       ok:true,
-      },
+       pronominal: true },
     animar: {
       ok:true,
-      },
+       pronominal: true },
     aniquilar: {
       ok:true,
-      },
+       pronominal: true },
     anochecer: {
       ok:true,
-       impersonal: "natural" },
+       pronominal: true, impersonal: "natural" },
     anotar: {
       ok:true,
-      },
+       pronominal: false },
     ansiar: {
       ok:true,
-       modelo: "vaciar" },
+       pronominal: true, modelo: "vaciar" },
+    anticipar: {
+      ok:true,
+       pronominal: true },
     anticuar: {
       ok:true,
-      },
+       pronominal: true },
     antojar: {
       ok:true,
        pronominal: true },
     anudar: {
       ok:true,
-      },
+       pronominal: true },
     anunciar: {
       ok:true,
-      },
+       pronominal: false },
     apacentar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     apaciguar: {
       ok:true,
-      },
+       pronominal: true },
     apagar: {
       ok:true,
        pronominal: true },
     aparar: {
       ok:true,
-      },
+       pronominal: true },
     aparcar: {
       ok:true,
-      },
+       pronominal: false },
     aparecer: {
       ok:true,
        pronominal: true },
     apartar: {
       ok:true,
-      },
+       pronominal: true },
     apasionar: {
       ok:true,
        pronominal: true },
     apercibir: {
       ok:true,
-      },
+       pronominal: true },
     apestar: {
       ok:true,
-      },
+       pronominal: true },
     apetecer: {
       ok:true,
-      },
+       pronominal: true },
     aplastar: {
       ok:true,
-      },
+       pronominal: true },
     aplaudir: {
       ok:true,
-      },
+       pronominal: false },
     aplicar: {
       ok:true,
-      },
+       pronominal: true },
+    apocopar: {
+      ok:true,
+       pronominal: false },
     apoderar: {
       ok:true,
-      },
+       pronominal: true },
     apostar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
     apreciar: {
       ok:true,
-      },
+       pronominal: true },
     aprehender: {
       ok:true,
-      },
+       pronominal: false },
     aprender: {
       ok:true,
-      },
+       pronominal: false },
     apresar: {
       ok:true,
-      },
+       pronominal: false },
     apresurar: {
       ok:true,
        pronominal: true },
@@ -495,58 +511,58 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     apuñalar: {
       ok:true,
-      },
+       pronominal: true },
     apuntalar: {
       ok:true,
-      },
+       pronominal: false },
     apuntar: {
       ok:true,
-      },
+       pronominal: true },
     apurar: {
       ok:true,
-      },
+       pronominal: true },
     aquilatar: {
       ok:true,
-      },
+       pronominal: false },
     argüir: {
       ok:true,
-      },
+       pronominal: false },
     argumentar: {
       ok:true,
-      },
+       pronominal: true },
     armar: {
       ok:true,
-      },
+       pronominal: true },
     arraigar: {
       ok:true,
-      },
+       pronominal: true },
     arrancar: {
       ok:true,
-      },
+       pronominal: true },
     arrasar: {
       ok:true,
-      },
+       pronominal: true },
     arrastrar: {
       ok:true,
-      },
+       pronominal: true },
     arreglar: {
       ok:true,
-      },
+       pronominal: true },
     arremeter: {
       ok:true,
-      },
+       pronominal: true },
     arrendar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: false, alternancia_vocálica: "e:ie" },
     arrepentir: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     arribar: {
       ok:true,
-      },
+       pronominal: true },
     arriesgar: {
       ok:true,
-      },
+       pronominal: true },
     arrimar: {
       ok:true,
       },
@@ -678,7 +694,7 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true, alternancia_vocálica: "e:ie" },
     atrever: {
       ok:true,
-      },
+       pronominal: true },
     atribuir: {
       ok:true,
       },
@@ -691,6 +707,9 @@ export const verbos_con_cambios_morfológicos = {
     aturdir: {
       ok:true,
        pronominal: true },
+    auditar: {
+      ok:true,
+       pronominal: false },
     aullar: {
       ok:true,
       },
@@ -706,12 +725,18 @@ export const verbos_con_cambios_morfológicos = {
     auscultar: {
       ok:true,
       },
+    autocensurar: {
+      ok:true,
+       pronominal: true },
     autoinfligir: {
       ok:true,
       },
     avenir: {
       ok:true,
        modelo: "venir" },
+    aventajar: {
+      ok:true,
+       pronominal: true },
     aventurar: {
       ok:true,
        pronominal: true },
@@ -784,6 +809,9 @@ export const verbos_con_cambios_morfológicos = {
     biografiar: {
       ok:true,
        modelo: "vaciar" },
+    bloquear: {
+      ok:true,
+      },
     boicotear: {
       ok:true,
       },
@@ -904,7 +932,7 @@ export const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "e:i" },
     censurar: {
       ok:true,
-      },
+       pronominal: false },
     centellear: {
       ok:true,
        pronominal: false },
@@ -912,6 +940,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     cepillar: {
+      ok:true,
+      },
+    cercar: {
       ok:true,
       },
     cerner: {
@@ -924,6 +955,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
        alternancia_vocálica: "e:ie" },
     cesar: {
+      ok:true,
+      },
+    chantajear: {
       ok:true,
       },
     charlar: {
@@ -1021,7 +1055,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     colocar: {
       ok:true,
-       pronominal: false },
+       pronominal: true },
     colorar: {
       ok:true,
       },
@@ -1072,7 +1106,7 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: false, alternancia_vocálica: "o:ue" },
     comprometer: {
       ok:true,
-      },
+       pronominal: true },
     comunicar: {
       ok:true,
        pronominal: true },
@@ -1112,6 +1146,9 @@ export const verbos_con_cambios_morfológicos = {
     condicionar: {
       ok:true,
       },
+    condimentar: {
+      ok:true,
+      },
     condoler: {
       ok:true,
        pronominal: true, alternancia_vocálica: "o:ue" },
@@ -1138,10 +1175,10 @@ export const verbos_con_cambios_morfológicos = {
        modelo: "vaciar" },
     confirmar: {
       ok:true,
-      },
+       pronominal: true },
     confiscar: {
       ok:true,
-      },
+       pronominal: false },
     confluir: {
       ok:true,
       },
@@ -1376,7 +1413,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     cultivar: {
       ok:true,
-      },
+       pronominal: true },
     cumplir: {
       ok:true,
        pronominal: true },
@@ -1518,10 +1555,13 @@ export const verbos_con_cambios_morfológicos = {
       },
     derrotar: {
       ok:true,
-      },
+       pronominal: true },
     derruir: {
       ok:true,
       },
+    desaconsejar: {
+      ok:true,
+       pronominal: false },
     desactivar: {
       ok:true,
       },
@@ -1678,6 +1718,9 @@ export const verbos_con_cambios_morfológicos = {
     desgraciar: {
       ok:true,
       },
+    deshabilitar: {
+      ok:true,
+       pronominal: false },
     deshabituar: {
       ok:true,
       },
@@ -1849,7 +1892,7 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     dictar: {
       ok:true,
-      },
+       pronominal: false },
     diferenciar: {
       ok:true,
       },
@@ -1870,7 +1913,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     dirigir: {
       ok:true,
-      },
+       pronominal: true },
     discernir: {
       ok:true,
        modelo: "cernir" },
@@ -1892,6 +1935,9 @@ export const verbos_con_cambios_morfológicos = {
     disfrutar: {
       ok:true,
       },
+    disgustar: {
+      ok:true,
+       pronominal: true },
     disimilar: {
       ok:true,
       },
@@ -1979,12 +2025,18 @@ export const verbos_con_cambios_morfológicos = {
     edificar: {
       ok:true,
       },
+    educar: {
+      ok:true,
+       pronominal: false },
     efectuar: {
       ok:true,
       },
     efluir: {
       ok:true,
       },
+    ejecutar: {
+      ok:true,
+       pronominal: false },
     ejercer: {
       ok:true,
        tema_presente_yo_del_modelo: ["ejerz"] }, // no sigue el modelo de conocer, no usa "zc"
@@ -2102,6 +2154,9 @@ export const verbos_con_cambios_morfológicos = {
     encerrar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    enchilar: {
+      ok:true,
+       pronominal: true },
     enchufar: {
       ok:true,
       },
@@ -2128,10 +2183,10 @@ export const verbos_con_cambios_morfológicos = {
       },
     enfriar: {
       ok:true,
-       modelo: "vaciar" },
+       pronominal: true, modelo: "vaciar" },
     enfurecer: {
       ok:true,
-      },
+       pronominal: true },
     engañar: {
       ok:true,
        pronominal: true },
@@ -2250,6 +2305,9 @@ export const verbos_con_cambios_morfológicos = {
     entusiasmar: {
       ok:true,
        pronominal: true },
+    envejecer: {
+      ok:true,
+      },
     envenenar: {
       ok:true,
       },
@@ -2441,8 +2499,11 @@ export const verbos_con_cambios_morfológicos = {
       },
     evaluar: {
       ok:true,
-      },
+       pronominal: false },
     evitar: {
+      ok:true,
+      },
+    exacerbar: {
       ok:true,
       },
     exagerar: {
@@ -2456,7 +2517,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     exceder: {
       ok:true,
-      },
+       pronominal: true },
     exceptuar: {
       ok:true,
       },
@@ -2469,6 +2530,9 @@ export const verbos_con_cambios_morfológicos = {
     exhalar: {
       ok:true,
       },
+    exhibir: {
+      ok:true,
+       pronominal: true },
     exigir: {
       ok:true,
       },
@@ -2517,6 +2581,9 @@ export const verbos_con_cambios_morfológicos = {
     extinguir: {
       ok:true,
       },
+    extorsionar: {
+      ok:true,
+      },
     extraer: {
       ok:true,
       },
@@ -2540,7 +2607,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     faltar: {
       ok:true,
-      },
+       pronominal: false },
     fascinar: {
       ok:true,
       },
@@ -2597,7 +2664,7 @@ export const verbos_con_cambios_morfológicos = {
        modelo: "vaciar" },
     fragmentar: {
       ok:true,
-      },
+       pronominal: true },
     fraguar: {
       ok:true,
       },
@@ -2654,34 +2721,35 @@ export const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "e:ie" },
     gotear: {
       ok:true,
-      },
+       pronominal: false },
     gozar: {
       ok:true,
-      },
+       pronominal: true },
     grabar: {
       ok:true,
-      },
+       pronominal: true },
     graduar: {
       ok:true,
-      },
+       pronominal: true },
     granizar: {
       ok:true,
-       impersonal: "natural" },
+       pronominal: false, impersonal: "natural" },
     gritar: {
       ok:true,
-      },
+       pronominal: false },
     gruir: {
       ok:true,
-      },
+       pronominal: false },
     gruñir: {
       ok:true,
-      },
+       pronominal: false },
     guardar: {
       ok:true,
-      },
+       pronominal: true },
     guiar: {
       ok:true,
        modelo: "guiar",
+        pronominal: true,
         // clase_conjugacional: "-iar",
         // TODO: hay formas reformadas en la reforma ortográfica de la RAE de 2010, considera añadir estas formas
         // Otherwise, the accent is the only thing different from the regular forms
@@ -2701,16 +2769,17 @@ export const verbos_con_cambios_morfológicos = {
     },
     guiñar: {
       ok:true,
-      },
+       pronominal: true },
     guisar: {
       ok:true,
-      },
+       pronominal: true },
     gustar: {
       ok:true,
-      },
+       pronominal: false },
     haber: {
       ok:true,
        modelo: "haber",
+        pronominal: true,
         tema_pretérito_del_modelo: "hub",
         tema_futuro_del_modelo: "habr",
         // impersonal: "estricto",  // Note: no modela esta situación rara de dos significados: auxiliar y impersonal estricto
@@ -2729,6 +2798,9 @@ export const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    habilitar: {
+      ok:true,
+       pronominal: true },
     habitar: {
       ok:true,
       },
@@ -2755,6 +2827,9 @@ export const verbos_con_cambios_morfológicos = {
             }
         }
     },
+    hackear: {
+      ok:true,
+       pronominal: false },
     halar: {
       ok:true,
       },
@@ -2776,6 +2851,9 @@ export const verbos_con_cambios_morfológicos = {
     herir: {
       ok:true,
        alternancia_vocálica: "e:ie" },
+    hermanar: {
+      ok:true,
+       pronominal: true },
     herrar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -2788,6 +2866,9 @@ export const verbos_con_cambios_morfológicos = {
     hincar: {
       ok:true,
        pronominal: true },
+    hipnotizar: {
+      ok:true,
+      },
     honrar: {
       ok:true,
        pronominal: true },
@@ -2811,28 +2892,34 @@ export const verbos_con_cambios_morfológicos = {
       },
     identificar: {
       ok:true,
-      },
+       pronominal: true },
     ignorar: {
       ok:true,
        pronominal: false },
     igualar: {
       ok:true,
-      },
+       pronominal: true },
     iluminar: {
       ok:true,
-      },
+       pronominal: false },
     imaginar: {
       ok:true,
        pronominal: true },
     imbuir: {
       ok:true,
+       pronominal: false },
+    imitar: {
+      ok:true,
       },
     impedir: {
       ok:true,
-       alternancia_vocálica: "e:i" },
+       pronominal: false, alternancia_vocálica: "e:i" },
+    imperar: {
+      ok:true,
+       pronominal: false },
     implantar: {
       ok:true,
-      },
+       pronominal: true },
     implicar: {
       ok:true,
       },
@@ -2907,7 +2994,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     informar: {
       ok:true,
-      },
+       pronominal: true },
     infundir: {
       ok:true,
       },
@@ -2931,7 +3018,7 @@ export const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "e:ie" },
     inmigrar: {
       ok:true,
-      },
+       pronominal: false },
     inmiscuir: {
       ok:true,
       },
@@ -2967,7 +3054,7 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     instalar: {
       ok:true,
-      },
+       pronominal: true },
     instar: {
       ok:true,
       },
@@ -2977,12 +3064,15 @@ export const verbos_con_cambios_morfológicos = {
     instruir: {
       ok:true,
       },
+    instrumentar: {
+      ok:true,
+      },
     integrar: {
       ok:true,
       },
     intentar: {
       ok:true,
-      },
+       pronominal: false },
     interactuar: {
       ok:true,
       },
@@ -3076,7 +3166,7 @@ export const verbos_con_cambios_morfológicos = {
     },
     irritar: {
       ok:true,
-      },
+       pronominal: true },
     iterar: {
       ok:true,
       },
@@ -3084,6 +3174,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     jalar: {
+      ok:true,
+       pronominal: false },
+    jaquear: {
       ok:true,
        pronominal: false },
     josear: {
@@ -3128,12 +3221,18 @@ export const verbos_con_cambios_morfológicos = {
     levantar: {
       ok:true,
        pronominal: true },
+    levitar: {
+      ok:true,
+       pronominal: false },
+    lexicalizar: {
+      ok:true,
+       pronominal: true },
     liberar: {
       ok:true,
        pronominal: false },
     licenciar: {
       ok:true,
-      },
+       pronominal: true },
     lidiar: {
       ok:true,
        pronominal: true },
@@ -3182,6 +3281,9 @@ export const verbos_con_cambios_morfológicos = {
     madurar: {
       ok:true,
        pronominal: false },
+    magnetizar: {
+      ok:true,
+      },
     maldecir: {
       ok:true,
        modelo: "maldecir",
@@ -3229,6 +3331,12 @@ export const verbos_con_cambios_morfológicos = {
     martillar: {
       ok:true,
       },
+    masajear: {
+      ok:true,
+      },
+    mascar: {
+      ok:true,
+      },
     matar: {
       ok:true,
       },
@@ -3252,7 +3360,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     mencionar: {
       ok:true,
-      },
+       pronominal: false },
     mendigar: {
       ok:true,
       },
@@ -3313,6 +3421,12 @@ export const verbos_con_cambios_morfológicos = {
     morder: {
       ok:true,
        alternancia_vocálica: "o:ue" },
+    mordiscar: {
+      ok:true,
+      },
+    mordisquear: {
+      ok:true,
+      },
     morir: {
       ok:true,
        alternancia_vocálica: "o:ue", excepciones_léxicas: { participio: ["muerto"] } },
@@ -3437,6 +3551,9 @@ export const verbos_con_cambios_morfológicos = {
     oponer: {
       ok:true,
        modelo: "poner" },
+    optimizar: {
+      ok:true,
+      },
     ordenar: {
       ok:true,
        pronominal: true },
@@ -3504,13 +3621,6 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
        modelo: "pedir",
         alternancia_vocálica: "e:i",
-        //   excepciones_léxicas: {
-        //         reglas: {
-        //             SubPres: { 
-        //                 suffixes: { vos: [{"forma":"as","uso":"Riop."},{"forma":"ás","uso":"C.Am."}] }
-        //             }
-        //         }
-        //     }
     },
     pegar: {
       ok:true,
@@ -3539,12 +3649,18 @@ export const verbos_con_cambios_morfológicos = {
     perdonar: {
       ok:true,
       },
+    perfeccionar: {
+      ok:true,
+      },
     perforar: {
+      ok:true,
+      },
+    perjudicar: {
       ok:true,
       },
     permanecer: {
       ok:true,
-      },
+       pronominal: false },
     permitir: {
       ok:true,
        pronominal: true },
@@ -3599,6 +3715,9 @@ export const verbos_con_cambios_morfológicos = {
     picotear: {
       ok:true,
       },
+    pinchar: {
+      ok:true,
+      },
     pintar: {
       ok:true,
        pronominal: true },
@@ -3629,6 +3748,9 @@ export const verbos_con_cambios_morfológicos = {
     plegar: {
       ok:true,
        pronominal: true, alternancia_vocálica: "e:ie" },
+    pluralizar: {
+      ok:true,
+       pronominal: true },
     poblar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -3808,7 +3930,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     quebrantar: {
       ok:true,
-      },
+       pronominal: true },
     quebrar: {
       ok:true,
        pronominal: true, alternancia_vocálica: "e:ie" },
@@ -3817,20 +3939,21 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     quejar: {
       ok:true,
-      },
+       pronominal: true },
     quemar: {
       ok:true,
-      },
+       pronominal: true },
     querer: {
       ok:true,
        modelo: "querer",
+        pronominal: false,
         tema_pretérito_del_modelo: "quis",
         tema_futuro_del_modelo: "querr",
         alternancia_vocálica: "e:ie"
     },
     quitar: {
       ok:true,
-      },
+       pronominal: true },
     radicar: {
       ok:true,
       },
@@ -3858,6 +3981,9 @@ export const verbos_con_cambios_morfológicos = {
     rebanar: {
       ok:true,
       },
+    rebasar: {
+      ok:true,
+       pronominal: false },
     rebelar: {
       ok:true,
       },
@@ -3907,7 +4033,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     recomendar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     recomenzar: {
       ok:true,
        alternancia_vocálica: "e:ie" },
@@ -3936,6 +4062,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     recriminar: {
+      ok:true,
+       pronominal: true },
+    rectificar: {
       ok:true,
        pronominal: true },
     recuperar: {
@@ -4003,7 +4132,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     regar: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: true, alternancia_vocálica: "e:ie" },
     regir: {
       ok:true,
        pronominal: true, alternancia_vocálica: "e:i" },
@@ -4040,6 +4169,9 @@ export const verbos_con_cambios_morfológicos = {
     reinstalar: {
       ok:true,
       },
+    reintentar: {
+      ok:true,
+       pronominal: false },
     reír: {
       ok:true,
        modelo: "reír",
@@ -4078,6 +4210,9 @@ export const verbos_con_cambios_morfológicos = {
     relucir: {
       ok:true,
        modelo: "lucir" },
+    remar: {
+      ok:true,
+       pronominal: false },
     rememorar: {
       ok:true,
       },
@@ -4102,6 +4237,9 @@ export const verbos_con_cambios_morfológicos = {
     rencontrar: {
       ok:true,
        pronominal: true, alternancia_vocálica: "o:ue" },
+    renderizar: {
+      ok:true,
+       pronominal: true },
     rendir: {
       ok:true,
        modelo: "pedir", pronominal: true },
@@ -4143,10 +4281,10 @@ export const verbos_con_cambios_morfológicos = {
       },
     reprobar: {
       ok:true,
-       alternancia_vocálica: "o:ue" },
+       pronominal: false, alternancia_vocálica: "o:ue" },
     requerir: {
       ok:true,
-       alternancia_vocálica: "e:ie" },
+       pronominal: false, alternancia_vocálica: "e:ie" },
     resaltar: {
       ok:true,
        pronominal: false },
@@ -4159,9 +4297,12 @@ export const verbos_con_cambios_morfológicos = {
     resfriar: {
       ok:true,
        modelo: "vaciar" },
+    residir: {
+      ok:true,
+       pronominal: false },
     resistir: {
       ok:true,
-      },
+       pronominal: true },
     resollar: {
       ok:true,
        alternancia_vocálica: "o:ue" },
@@ -4255,7 +4396,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     rimar: {
       ok:true,
-      },
+       pronominal: false },
     robar: {
       ok:true,
       },
@@ -4351,6 +4492,9 @@ export const verbos_con_cambios_morfológicos = {
     satisfacer: {
       ok:true,
        modelo: "hacer" },
+    sazonar: {
+      ok:true,
+      },
     secar: {
       ok:true,
       },
@@ -4359,7 +4503,7 @@ export const verbos_con_cambios_morfológicos = {
       },
     seducir: {
       ok:true,
-      },
+       pronominal: false },
     seguir: {
       ok:true,
       
@@ -4378,7 +4522,7 @@ export const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "e:ie" },
     señalar: {
       ok:true,
-      },
+       pronominal: true },
     sentar: {
       ok:true,
        pronominal: true, alternancia_vocálica: "e:ie" },
@@ -4421,6 +4565,9 @@ export const verbos_con_cambios_morfológicos = {
     significar: {
       ok:true,
       },
+    silbar: {
+      ok:true,
+      },
     simpatizar: {
       ok:true,
       },
@@ -4440,6 +4587,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     sobar: {
+      ok:true,
+      },
+    sobornar: {
       ok:true,
       },
     sobrar: {
@@ -4469,6 +4619,9 @@ export const verbos_con_cambios_morfológicos = {
     sobrellevar: {
       ok:true,
        pronominal: false },
+    sobrepasar: {
+      ok:true,
+       pronominal: false },
     sobresalir: {
       ok:true,
        pronominal: false },
@@ -4492,16 +4645,16 @@ export const verbos_con_cambios_morfológicos = {
        alternancia_vocálica: "o:ue", impersonal: "soler" },
     solicitar: {
       ok:true,
-      },
+       pronominal: false },
     sollozar: {
       ok:true,
-      },
+       pronominal: false },
     soltar: {
       ok:true,
-       alternancia_vocálica: "o:ue" },
+       pronominal: true, alternancia_vocálica: "o:ue" },
     solucionar: {
       ok:true,
-      },
+       pronominal: true },
     someter: {
       ok:true,
       },
@@ -4538,6 +4691,9 @@ export const verbos_con_cambios_morfológicos = {
     soterrar: {
       ok:true,
       },
+    suavizar: {
+      ok:true,
+       pronominal: true },
     subir: {
       ok:true,
       },
@@ -4582,7 +4738,10 @@ export const verbos_con_cambios_morfológicos = {
        pronominal: true },
     suministrar: {
       ok:true,
-      },
+       pronominal: false },
+    superar: {
+      ok:true,
+       pronominal: true },
     suplicar: {
       ok:true,
       },
@@ -4592,10 +4751,16 @@ export const verbos_con_cambios_morfológicos = {
     suponer: {
       ok:true,
       },
+    suprimir: {
+      ok:true,
+       pronominal: false },
     supurar: {
       ok:true,
       },
     surgir: {
+      ok:true,
+      },
+    suscitar: {
       ok:true,
       },
     suscribir: {
@@ -4616,9 +4781,12 @@ export const verbos_con_cambios_morfológicos = {
     sustraer: {
       ok:true,
       },
+    susurrar: {
+      ok:true,
+       pronominal: true },
     tachar: {
       ok:true,
-      },
+       pronominal: false },
     tallar: {
       ok:true,
       },
@@ -4698,6 +4866,9 @@ export const verbos_con_cambios_morfológicos = {
       ok:true,
       },
     tocar: {
+      ok:true,
+      },
+    tokenizar: {
       ok:true,
       },
     tolerar: {
@@ -4838,9 +5009,12 @@ export const verbos_con_cambios_morfológicos = {
     usar: {
       ok:true,
       },
-    utilizar: {
+    ustedear: {
       ok:true,
       },
+    utilizar: {
+      ok:true,
+       pronominal: false },
     vaciar: {
       ok:true,
        modelo: "vaciar",
@@ -4867,6 +5041,9 @@ export const verbos_con_cambios_morfológicos = {
     valuar: {
       ok:true,
       },
+    vaporizar: {
+      ok:true,
+       pronominal: true },
     variar: {
       ok:true,
        modelo: "vaciar" },
@@ -4982,6 +5159,9 @@ export const verbos_con_cambios_morfológicos = {
     vomitar: {
       ok:true,
       },
+    vosear: {
+      ok:true,
+       pronominal: true },
     votar: {
       ok:true,
       },

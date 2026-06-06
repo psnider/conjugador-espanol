@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[susuˈraɾ]",
+    "silabacion": "su-su-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín susurrō, susurrāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"susurrar","gerundio":["susurrando"],"participio":["susurrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["susurro"],"s2":["susurras"],"vos":["susurrás"],"s3":["susurra"],"p1":["susurramos"],"p2":["susurráis"],"p3":["susurran"]},
+    "IndImp": {"s1":["susurraba"],"s2":["susurrabas"],"vos":["susurrabas"],"s3":["susurraba"],"p1":["susurrábamos"],"p2":["susurrabais"],"p3":["susurraban"]},
+    "IndPret": {"s1":["susurré"],"s2":["susurraste"],"vos":["susurraste"],"s3":["susurró"],"p1":["susurramos"],"p2":["susurrasteis"],"p3":["susurraron"]},
+    "IndFut": {"s1":["susurraré"],"s2":["susurrarás"],"vos":["susurrarás"],"s3":["susurrará"],"p1":["susurraremos"],"p2":["susurraréis"],"p3":["susurrarán"]},
+    "IndCond": {"s1":["susurraría"],"s2":["susurrarías"],"vos":["susurrarías"],"s3":["susurraría"],"p1":["susurraríamos"],"p2":["susurraríais"],"p3":["susurrarían"]},
+    "SubPres": {"s1":["susurre"],"s2":["susurres"],"vos":["susurres","susurrés"],"s3":["susurre"],"p1":["susurremos"],"p2":["susurréis"],"p3":["susurren"]},
+    "SubImp": {"s1":["susurrara","susurrase"],"s2":["susurraras","susurrases"],"vos":["susurraras","susurrases"],"s3":["susurrara","susurrase"],"p1":["susurráramos","susurrásemos"],"p2":["susurrarais","susurraseis"],"p3":["susurraran","susurrasen"]},
+    "SubFut": {"s1":["susurrare"],"s2":["susurrares"],"vos":["susurrares"],"s3":["susurrare"],"p1":["susurráremos"],"p2":["susurrareis"],"p3":["susurraren"]},
+    "CmdPos": {"s2":["susurra"],"vos":["susurrá"],"s3":["susurre"],"p1":["susurremos"],"p2":["susurrad"],"p3":["susurren"]}
+  }
+}

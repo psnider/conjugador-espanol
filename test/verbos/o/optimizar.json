@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[opt̪imiˈsaɾ]",
+    "silabacion": "op-ti-mi-zar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"optimizar","gerundio":["optimizando"],"participio":["optimizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["optimizo"],"s2":["optimizas"],"vos":["optimizás"],"s3":["optimiza"],"p1":["optimizamos"],"p2":["optimizáis"],"p3":["optimizan"]},
+    "IndImp": {"s1":["optimizaba"],"s2":["optimizabas"],"vos":["optimizabas"],"s3":["optimizaba"],"p1":["optimizábamos"],"p2":["optimizabais"],"p3":["optimizaban"]},
+    "IndPret": {"s1":["optimicé"],"s2":["optimizaste"],"vos":["optimizaste"],"s3":["optimizó"],"p1":["optimizamos"],"p2":["optimizasteis"],"p3":["optimizaron"]},
+    "IndFut": {"s1":["optimizaré"],"s2":["optimizarás"],"vos":["optimizarás"],"s3":["optimizará"],"p1":["optimizaremos"],"p2":["optimizaréis"],"p3":["optimizarán"]},
+    "IndCond": {"s1":["optimizaría"],"s2":["optimizarías"],"vos":["optimizarías"],"s3":["optimizaría"],"p1":["optimizaríamos"],"p2":["optimizaríais"],"p3":["optimizarían"]},
+    "SubPres": {"s1":["optimice"],"s2":["optimices"],"vos":["optimices","optimicés"],"s3":["optimice"],"p1":["optimicemos"],"p2":["optimicéis"],"p3":["optimicen"]},
+    "SubImp": {"s1":["optimizara","optimizase"],"s2":["optimizaras","optimizases"],"vos":["optimizaras","optimizases"],"s3":["optimizara","optimizase"],"p1":["optimizáramos","optimizásemos"],"p2":["optimizarais","optimizaseis"],"p3":["optimizaran","optimizasen"]},
+    "SubFut": {"s1":["optimizare"],"s2":["optimizares"],"vos":["optimizares"],"s3":["optimizare"],"p1":["optimizáremos"],"p2":["optimizareis"],"p3":["optimizaren"]},
+    "CmdPos": {"s2":["optimiza"],"vos":["optimizá"],"s3":["optimice"],"p1":["optimicemos"],"p2":["optimizad"],"p3":["optimicen"]}
+  }
+}

@@ -1,11 +1,14 @@
-import { FormaConjugada, Participios, CambiosDerivacionales, CambiosPorRegla, CambiosPorParticipios } from "."
+import type { FormaConjugada, Participios, CambiosPorRegla, CambiosPorParticipios, CambiosDerivacionales } from "./index"
+import type { InfinitiveClass } from "./verbos-con-cambios-morfológicas"
+import type { ConjugationAndDerivationRules } from "./resolve-conjugation-class.js"
 import { applyToFormasConjugadas, combinaParticipios, extraeTema, formasConjugadasIgual, getForma } from "./lib.js"
 import { applyOrthographicalChangesCommon } from "./ortografía.js"
 import { addPrefixesToBaseForm } from "./prefixes.js"
 import { regular_verb_suffixes } from "./regular-verb-rules.js"
-import { ConjugationAndDerivationRules, resolveConjugationClass } from "./resolve-conjugation-class.js"
+import { resolveConjugationClass } from "./resolve-conjugation-class.js"
 import { applyStemChangeToGerundStem, stem_change_patterns } from "./stem-changes.js"
-import { InfinitiveClass } from "./verbos-con-cambios-morfológicas.js"
+
+
 
 
 const gerundio_sufijos = ["ando", "iendo", "yendo", "endo"]

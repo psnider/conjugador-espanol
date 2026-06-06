@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[axẽn̪ˈd̪aɾ]",
+    "silabacion": "a-gen-dar",
+    "acentuacion": "aguda",
+    "etimologia": "",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agendar","gerundio":["agendando"], "participio":["agendado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agendo"],"s2":["agendas"],"vos":["agendás"],"s3":["agenda"],"p1":["agendamos"],"p2":["agendáis"],"p3":["agendan"]},
+    "IndImp": {"s1":["agendaba"],"s2":["agendabas"],"vos":["agendabas"],"s3":["agendaba"],"p1":["agendábamos"],"p2":["agendabais"],"p3":["agendaban"]},
+    "IndPret": {"s1":["agendé"],"s2":["agendaste"],"vos":["agendaste"],"s3":["agendó"],"p1":["agendamos"],"p2":["agendasteis"],"p3":["agendaron"]},
+    "IndFut": {"s1":["agendaré"],"s2":["agendarás"],"vos":["agendarás"],"s3":["agendará"],"p1":["agendaremos"],"p2":["agendaréis"],"p3":["agendarán"]},
+    "IndCond": {"s1":["agendaría"],"s2":["agendarías"],"vos":["agendarías"],"s3":["agendaría"],"p1":["agendaríamos"],"p2":["agendaríais"],"p3":["agendarían"]},
+    "SubPres": {"s1":["agende"],"s2":["agendes"],"vos":[{"forma": "agendes","uso":"Riop."},{"forma":"agendés","uso":"C.Am."}],"s3":["agende"],"p1":["agendemos"],"p2":["agendéis"],"p3":["agenden"]},
+    "SubImp": {"s1":["agendara","agendase"],"s2":["agendaras","agendases"],"vos":["agendaras","agendases"],"s3":["agendara","agendase"],"p1":["agendáramos","agendásemos"],"p2":["agendarais","agendaseis"],"p3":["agendaran","agendasen"]},
+    "SubFut": {"s1":["agendare"],"s2":["agendares"],"vos":["agendares"],"s3":["agendare"],"p1":["agendáremos"],"p2":["agendareis"],"p3":["agendaren"]},
+    "CmdPos": {"s2":["agenda"],"vos":["agendá"],"s3":["agende"],"p1":["agendemos"],"p2":["agendad"],"p3":["agenden"]}
+  }
+}

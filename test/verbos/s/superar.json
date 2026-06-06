@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[supeˈɾaɾ]",
+    "silabacion": "su-pe-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín superāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"superar","gerundio":["superando"],"participio":["superado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["supero"],"s2":["superas"],"vos":["superás"],"s3":["supera"],"p1":["superamos"],"p2":["superáis"],"p3":["superan"]},
+    "IndImp": {"s1":["superaba"],"s2":["superabas"],"vos":["superabas"],"s3":["superaba"],"p1":["superábamos"],"p2":["superabais"],"p3":["superaban"]},
+    "IndPret": {"s1":["superé"],"s2":["superaste"],"vos":["superaste"],"s3":["superó"],"p1":["superamos"],"p2":["superasteis"],"p3":["superaron"]},
+    "IndFut": {"s1":["superaré"],"s2":["superarás"],"vos":["superarás"],"s3":["superará"],"p1":["superaremos"],"p2":["superaréis"],"p3":["superarán"]},
+    "IndCond": {"s1":["superaría"],"s2":["superarías"],"vos":["superarías"],"s3":["superaría"],"p1":["superaríamos"],"p2":["superaríais"],"p3":["superarían"]},
+    "SubPres": {"s1":["supere"],"s2":["superes"],"vos":["superes","superés"],"s3":["supere"],"p1":["superemos"],"p2":["superéis"],"p3":["superen"]},
+    "SubImp": {"s1":["superara","superase"],"s2":["superaras","superases"],"vos":["superaras","superases"],"s3":["superara","superase"],"p1":["superáramos","superásemos"],"p2":["superarais","superaseis"],"p3":["superaran","superasen"]},
+    "SubFut": {"s1":["superare"],"s2":["superares"],"vos":["superares"],"s3":["superare"],"p1":["superáremos"],"p2":["superareis"],"p3":["superaren"]},
+    "CmdPos": {"s2":["supera"],"vos":["superá"],"s3":["supere"],"p1":["superemos"],"p2":["superad"],"p3":["superen"]}
+  }
+}

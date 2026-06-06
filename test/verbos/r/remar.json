@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈmaɾ]",
+    "silabacion": "re-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo remar ('remar'), y este de remo&nbsp;('remo') y -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"remar","gerundio":["remando"],"participio":["remado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["remo"],"s2":["remas"],"vos":["remás"],"s3":["rema"],"p1":["remamos"],"p2":["remáis"],"p3":["reman"]},
+    "IndImp": {"s1":["remaba"],"s2":["remabas"],"vos":["remabas"],"s3":["remaba"],"p1":["remábamos"],"p2":["remabais"],"p3":["remaban"]},
+    "IndPret": {"s1":["remé"],"s2":["remaste"],"vos":["remaste"],"s3":["remó"],"p1":["remamos"],"p2":["remasteis"],"p3":["remaron"]},
+    "IndFut": {"s1":["remaré"],"s2":["remarás"],"vos":["remarás"],"s3":["remará"],"p1":["remaremos"],"p2":["remaréis"],"p3":["remarán"]},
+    "IndCond": {"s1":["remaría"],"s2":["remarías"],"vos":["remarías"],"s3":["remaría"],"p1":["remaríamos"],"p2":["remaríais"],"p3":["remarían"]},
+    "SubPres": {"s1":["reme"],"s2":["remes"],"vos":["remes","remés"],"s3":["reme"],"p1":["rememos"],"p2":["reméis"],"p3":["remen"]},
+    "SubImp": {"s1":["remara","remase"],"s2":["remaras","remases"],"vos":["remaras","remases"],"s3":["remara","remase"],"p1":["remáramos","remásemos"],"p2":["remarais","remaseis"],"p3":["remaran","remasen"]},
+    "SubFut": {"s1":["remare"],"s2":["remares"],"vos":["remares"],"s3":["remare"],"p1":["remáremos"],"p2":["remareis"],"p3":["remaren"]},
+    "CmdPos": {"s2":["rema"],"vos":["remá"],"s3":["reme"],"p1":["rememos"],"p2":["remad"],"p3":["remen"]}
+  }
+}

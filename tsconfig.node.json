@@ -6,6 +6,8 @@
         "ignoreDeprecations": "6.0",
         "moduleResolution": "node",
         "strict": false,
+        "declaration": true,      // genera .d.ts
+        "declarationMap": true   // útil para debugging
     },
     "include": [
         "src/**/*.ts",

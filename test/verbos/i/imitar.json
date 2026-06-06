@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[imiˈt̪aɾ]",
+    "silabacion": "i-mi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín imitari",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"imitar","gerundio":["imitando"],"participio":["imitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["imito"],"s2":["imitas"],"vos":["imitás"],"s3":["imita"],"p1":["imitamos"],"p2":["imitáis"],"p3":["imitan"]},
+    "IndImp": {"s1":["imitaba"],"s2":["imitabas"],"vos":["imitabas"],"s3":["imitaba"],"p1":["imitábamos"],"p2":["imitabais"],"p3":["imitaban"]},
+    "IndPret": {"s1":["imité"],"s2":["imitaste"],"vos":["imitaste"],"s3":["imitó"],"p1":["imitamos"],"p2":["imitasteis"],"p3":["imitaron"]},
+    "IndFut": {"s1":["imitaré"],"s2":["imitarás"],"vos":["imitarás"],"s3":["imitará"],"p1":["imitaremos"],"p2":["imitaréis"],"p3":["imitarán"]},
+    "IndCond": {"s1":["imitaría"],"s2":["imitarías"],"vos":["imitarías"],"s3":["imitaría"],"p1":["imitaríamos"],"p2":["imitaríais"],"p3":["imitarían"]},
+    "SubPres": {"s1":["imite"],"s2":["imites"],"vos":["imites","imités"],"s3":["imite"],"p1":["imitemos"],"p2":["imitéis"],"p3":["imiten"]},
+    "SubImp": {"s1":["imitara","imitase"],"s2":["imitaras","imitases"],"vos":["imitaras","imitases"],"s3":["imitara","imitase"],"p1":["imitáramos","imitásemos"],"p2":["imitarais","imitaseis"],"p3":["imitaran","imitasen"]},
+    "SubFut": {"s1":["imitare"],"s2":["imitares"],"vos":["imitares"],"s3":["imitare"],"p1":["imitáremos"],"p2":["imitareis"],"p3":["imitaren"]},
+    "CmdPos": {"s2":["imita"],"vos":["imitá"],"s3":["imite"],"p1":["imitemos"],"p2":["imitad"],"p3":["imiten"]}
+  }
+}

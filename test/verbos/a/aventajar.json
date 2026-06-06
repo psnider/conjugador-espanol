@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ẽn̪t̪aˈxaɾ]",
+    "silabacion": "a-ven-ta-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aventajar","gerundio":["aventajando"],"participio":["aventajado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aventajo"],"s2":["aventajas"],"vos":["aventajás"],"s3":["aventaja"],"p1":["aventajamos"],"p2":["aventajáis"],"p3":["aventajan"]},
+    "IndImp": {"s1":["aventajaba"],"s2":["aventajabas"],"vos":["aventajabas"],"s3":["aventajaba"],"p1":["aventajábamos"],"p2":["aventajabais"],"p3":["aventajaban"]},
+    "IndPret": {"s1":["aventajé"],"s2":["aventajaste"],"vos":["aventajaste"],"s3":["aventajó"],"p1":["aventajamos"],"p2":["aventajasteis"],"p3":["aventajaron"]},
+    "IndFut": {"s1":["aventajaré"],"s2":["aventajarás"],"vos":["aventajarás"],"s3":["aventajará"],"p1":["aventajaremos"],"p2":["aventajaréis"],"p3":["aventajarán"]},
+    "IndCond": {"s1":["aventajaría"],"s2":["aventajarías"],"vos":["aventajarías"],"s3":["aventajaría"],"p1":["aventajaríamos"],"p2":["aventajaríais"],"p3":["aventajarían"]},
+    "SubPres": {"s1":["aventaje"],"s2":["aventajes"],"vos":["aventajes","aventajés"],"s3":["aventaje"],"p1":["aventajemos"],"p2":["aventajéis"],"p3":["aventajen"]},
+    "SubImp": {"s1":["aventajara","aventajase"],"s2":["aventajaras","aventajases"],"vos":["aventajaras","aventajases"],"s3":["aventajara","aventajase"],"p1":["aventajáramos","aventajásemos"],"p2":["aventajarais","aventajaseis"],"p3":["aventajaran","aventajasen"]},
+    "SubFut": {"s1":["aventajare"],"s2":["aventajares"],"vos":["aventajares"],"s3":["aventajare"],"p1":["aventajáremos"],"p2":["aventajareis"],"p3":["aventajaren"]},
+    "CmdPos": {"s2":["aventaja"],"vos":["aventajá"],"s3":["aventaje"],"p1":["aventajemos"],"p2":["aventajad"],"p3":["aventajen"]}
+  }
+}

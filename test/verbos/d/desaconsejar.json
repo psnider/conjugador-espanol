@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esakõnseˈxaɾ]",
+    "silabacion": "des-a-con-se-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y aconsejar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desaconsejar","gerundio":["desaconsejando"],"participio":["desaconsejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desaconsejo"],"s2":["desaconsejas"],"vos":["desaconsejás"],"s3":["desaconseja"],"p1":["desaconsejamos"],"p2":["desaconsejáis"],"p3":["desaconsejan"]},
+    "IndImp": {"s1":["desaconsejaba"],"s2":["desaconsejabas"],"vos":["desaconsejabas"],"s3":["desaconsejaba"],"p1":["desaconsejábamos"],"p2":["desaconsejabais"],"p3":["desaconsejaban"]},
+    "IndPret": {"s1":["desaconsejé"],"s2":["desaconsejaste"],"vos":["desaconsejaste"],"s3":["desaconsejó"],"p1":["desaconsejamos"],"p2":["desaconsejasteis"],"p3":["desaconsejaron"]},
+    "IndFut": {"s1":["desaconsejaré"],"s2":["desaconsejarás"],"vos":["desaconsejarás"],"s3":["desaconsejará"],"p1":["desaconsejaremos"],"p2":["desaconsejaréis"],"p3":["desaconsejarán"]},
+    "IndCond": {"s1":["desaconsejaría"],"s2":["desaconsejarías"],"vos":["desaconsejarías"],"s3":["desaconsejaría"],"p1":["desaconsejaríamos"],"p2":["desaconsejaríais"],"p3":["desaconsejarían"]},
+    "SubPres": {"s1":["desaconseje"],"s2":["desaconsejes"],"vos":["desaconsejes","desaconsejés"],"s3":["desaconseje"],"p1":["desaconsejemos"],"p2":["desaconsejéis"],"p3":["desaconsejen"]},
+    "SubImp": {"s1":["desaconsejara","desaconsejase"],"s2":["desaconsejaras","desaconsejases"],"vos":["desaconsejaras","desaconsejases"],"s3":["desaconsejara","desaconsejase"],"p1":["desaconsejáramos","desaconsejásemos"],"p2":["desaconsejarais","desaconsejaseis"],"p3":["desaconsejaran","desaconsejasen"]},
+    "SubFut": {"s1":["desaconsejare"],"s2":["desaconsejares"],"vos":["desaconsejares"],"s3":["desaconsejare"],"p1":["desaconsejáremos"],"p2":["desaconsejareis"],"p3":["desaconsejaren"]},
+    "CmdPos": {"s2":["desaconseja"],"vos":["desaconsejá"],"s3":["desaconseje"],"p1":["desaconsejemos"],"p2":["desaconsejad"],"p3":["desaconsejen"]}
+  }
+}

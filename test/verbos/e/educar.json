@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eð̞uˈkaɾ]",
+    "silabacion": "e-du-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín educāre.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"educar","gerundio":["educando"],"participio":["educado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["educo"],"s2":["educas"],"vos":["educás"],"s3":["educa"],"p1":["educamos"],"p2":["educáis"],"p3":["educan"]},
+    "IndImp": {"s1":["educaba"],"s2":["educabas"],"vos":["educabas"],"s3":["educaba"],"p1":["educábamos"],"p2":["educabais"],"p3":["educaban"]},
+    "IndPret": {"s1":["eduqué"],"s2":["educaste"],"vos":["educaste"],"s3":["educó"],"p1":["educamos"],"p2":["educasteis"],"p3":["educaron"]},
+    "IndFut": {"s1":["educaré"],"s2":["educarás"],"vos":["educarás"],"s3":["educará"],"p1":["educaremos"],"p2":["educaréis"],"p3":["educarán"]},
+    "IndCond": {"s1":["educaría"],"s2":["educarías"],"vos":["educarías"],"s3":["educaría"],"p1":["educaríamos"],"p2":["educaríais"],"p3":["educarían"]},
+    "SubPres": {"s1":["eduque"],"s2":["eduques"],"vos":["eduques","eduqués"],"s3":["eduque"],"p1":["eduquemos"],"p2":["eduquéis"],"p3":["eduquen"]},
+    "SubImp": {"s1":["educara","educase"],"s2":["educaras","educases"],"vos":["educaras","educases"],"s3":["educara","educase"],"p1":["educáramos","educásemos"],"p2":["educarais","educaseis"],"p3":["educaran","educasen"]},
+    "SubFut": {"s1":["educare"],"s2":["educares"],"vos":["educares"],"s3":["educare"],"p1":["educáremos"],"p2":["educareis"],"p3":["educaren"]},
+    "CmdPos": {"s2":["educa"],"vos":["educá"],"s3":["eduque"],"p1":["eduquemos"],"p2":["educad"],"p3":["eduquen"]}
+  }
+}
