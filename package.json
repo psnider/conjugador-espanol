@@ -1,6 +1,6 @@
 {
   "name": "conjugador-espanol",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "conjugador de verbos españoles usando reglas lingüisticas",
   "type": "module",
   "main": "./generated/src/publico.js",
