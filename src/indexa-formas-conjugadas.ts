@@ -19,8 +19,7 @@ export function generaIndiceDeFormasConjugadas() : IndiceDeFormasDeVerbos {
     const indice: IndiceDeFormasDeVerbos = {}
     for (const infinitivo in verbos_con_cambios_morfológicos) {
         const id_infinitivo = `${infinitivo},inf`
-        indice[infinitivo] = indice[infinitivo] || []
-        indice[infinitivo].push(id_infinitivo)
+        indice[infinitivo] = [id_infinitivo]
         const derivaciones = deriveParticiples(infinitivo)
         const {gerundio, participio} = derivaciones.participles
         for (let forma_conjugada of gerundio) {

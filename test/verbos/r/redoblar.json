@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reð̞oˈβ̞laɾ]",
+    "silabacion": "re-do-blar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"redoblar","gerundio":["redoblando"],"participio":["redoblado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["redoblo"],"s2":["redoblas"],"vos":["redoblás"],"s3":["redobla"],"p1":["redoblamos"],"p2":["redobláis"],"p3":["redoblan"]},
+    "IndImp": {"s1":["redoblaba"],"s2":["redoblabas"],"vos":["redoblabas"],"s3":["redoblaba"],"p1":["redoblábamos"],"p2":["redoblabais"],"p3":["redoblaban"]},
+    "IndPret": {"s1":["redoblé"],"s2":["redoblaste"],"vos":["redoblaste"],"s3":["redobló"],"p1":["redoblamos"],"p2":["redoblasteis"],"p3":["redoblaron"]},
+    "IndFut": {"s1":["redoblaré"],"s2":["redoblarás"],"vos":["redoblarás"],"s3":["redoblará"],"p1":["redoblaremos"],"p2":["redoblaréis"],"p3":["redoblarán"]},
+    "IndCond": {"s1":["redoblaría"],"s2":["redoblarías"],"vos":["redoblarías"],"s3":["redoblaría"],"p1":["redoblaríamos"],"p2":["redoblaríais"],"p3":["redoblarían"]},
+    "SubPres": {"s1":["redoble"],"s2":["redobles"],"vos":["redobles","redoblés"],"s3":["redoble"],"p1":["redoblemos"],"p2":["redobléis"],"p3":["redoblen"]},
+    "SubImp": {"s1":["redoblara","redoblase"],"s2":["redoblaras","redoblases"],"vos":["redoblaras","redoblases"],"s3":["redoblara","redoblase"],"p1":["redobláramos","redoblásemos"],"p2":["redoblarais","redoblaseis"],"p3":["redoblaran","redoblasen"]},
+    "SubFut": {"s1":["redoblare"],"s2":["redoblares"],"vos":["redoblares"],"s3":["redoblare"],"p1":["redobláremos"],"p2":["redoblareis"],"p3":["redoblaren"]},
+    "CmdPos": {"s2":["redobla"],"vos":["redoblá"],"s3":["redoble"],"p1":["redoblemos"],"p2":["redoblad"],"p3":["redoblen"]}
+  }
+}

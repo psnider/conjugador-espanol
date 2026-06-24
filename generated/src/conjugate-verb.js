@@ -921,7 +921,8 @@ export function getIndPretP3StemOfModel(conj_and_deriv_rules) {
                 return "aron";
             }
             else {
-                if (tema.endsWith("j")) {
+                const tiene_tema_pretérito = conj_and_deriv_rules?.morphological_rules?.de_modelo?.tema_pretérito_del_modelo || conj_and_deriv_rules?.morphological_rules?.de_infinitivo?.tema_pretérito_del_modelo;
+                if (tiene_tema_pretérito && tema.endsWith("j")) {
                     return "eron";
                 }
                 else {

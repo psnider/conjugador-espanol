@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apol̪t̪ɾoˈnaɾ]",
+    "silabacion": "a-pol-tro-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De apoltronar con el pronombre reflexivo átono.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apoltronar","gerundio":["apoltronando"],"participio":["apoltronado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apoltrono"],"s2":["apoltronas"],"vos":["apoltronás"],"s3":["apoltrona"],"p1":["apoltronamos"],"p2":["apoltronáis"],"p3":["apoltronan"]},
+    "IndImp": {"s1":["apoltronaba"],"s2":["apoltronabas"],"vos":["apoltronabas"],"s3":["apoltronaba"],"p1":["apoltronábamos"],"p2":["apoltronabais"],"p3":["apoltronaban"]},
+    "IndPret": {"s1":["apoltroné"],"s2":["apoltronaste"],"vos":["apoltronaste"],"s3":["apoltronó"],"p1":["apoltronamos"],"p2":["apoltronasteis"],"p3":["apoltronaron"]},
+    "IndFut": {"s1":["apoltronaré"],"s2":["apoltronarás"],"vos":["apoltronarás"],"s3":["apoltronará"],"p1":["apoltronaremos"],"p2":["apoltronaréis"],"p3":["apoltronarán"]},
+    "IndCond": {"s1":["apoltronaría"],"s2":["apoltronarías"],"vos":["apoltronarías"],"s3":["apoltronaría"],"p1":["apoltronaríamos"],"p2":["apoltronaríais"],"p3":["apoltronarían"]},
+    "SubPres": {"s1":["apoltrone"],"s2":["apoltrones"],"vos":["apoltrones","apoltronés"],"s3":["apoltrone"],"p1":["apoltronemos"],"p2":["apoltronéis"],"p3":["apoltronen"]},
+    "SubImp": {"s1":["apoltronara","apoltronase"],"s2":["apoltronaras","apoltronases"],"vos":["apoltronaras","apoltronases"],"s3":["apoltronara","apoltronase"],"p1":["apoltronáramos","apoltronásemos"],"p2":["apoltronarais","apoltronaseis"],"p3":["apoltronaran","apoltronasen"]},
+    "SubFut": {"s1":["apoltronare"],"s2":["apoltronares"],"vos":["apoltronares"],"s3":["apoltronare"],"p1":["apoltronáremos"],"p2":["apoltronareis"],"p3":["apoltronaren"]},
+    "CmdPos": {"s2":["apoltrona"],"vos":["apoltroná"],"s3":["apoltrone"],"p1":["apoltronemos"],"p2":["apoltronad"],"p3":["apoltronen"]}
+  }
+}

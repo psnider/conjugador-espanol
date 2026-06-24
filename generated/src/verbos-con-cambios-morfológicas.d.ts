@@ -26,7 +26,10 @@ export interface ReglasDeConjugaciónDeVerbo {
     modelo?: ModeloConjugacional | null;
     clase_conjugacional?: VerboClaseConjugacional;
     no_admite_prefijos?: true;
-    pronominal?: boolean;
+    tr?: true;
+    intr?: true;
+    pronominal?: boolean | "always";
+    adj?: true | string;
     auxiliar?: true;
     impersonal?: Impersonal;
     tema_presente_yo_del_modelo?: FormaConjugada[];
@@ -37,6 +40,7 @@ export interface ReglasDeConjugaciónDeVerbo {
     ponga_hiato?: true;
     excepciones_léxicas?: ReglasDeConjugaciónDeVerboExcepcionesLexicas;
     acepta_regular?: IrregularYRegular;
+    frecuencia?: number;
     ok?: TestResults;
 }
 export declare const verbos_con_cambios_morfológicos: {

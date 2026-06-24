@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽɱfoˈkaɾ]",
+    "silabacion": "en-fo-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, foco y el sufijo -ar",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"enfocar","gerundio":["enfocando"],"participio":["enfocado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enfoco"],"s2":["enfocas"],"vos":["enfocás"],"s3":["enfoca"],"p1":["enfocamos"],"p2":["enfocáis"],"p3":["enfocan"]},
+    "IndImp": {"s1":["enfocaba"],"s2":["enfocabas"],"vos":["enfocabas"],"s3":["enfocaba"],"p1":["enfocábamos"],"p2":["enfocabais"],"p3":["enfocaban"]},
+    "IndPret": {"s1":["enfoqué"],"s2":["enfocaste"],"vos":["enfocaste"],"s3":["enfocó"],"p1":["enfocamos"],"p2":["enfocasteis"],"p3":["enfocaron"]},
+    "IndFut": {"s1":["enfocaré"],"s2":["enfocarás"],"vos":["enfocarás"],"s3":["enfocará"],"p1":["enfocaremos"],"p2":["enfocaréis"],"p3":["enfocarán"]},
+    "IndCond": {"s1":["enfocaría"],"s2":["enfocarías"],"vos":["enfocarías"],"s3":["enfocaría"],"p1":["enfocaríamos"],"p2":["enfocaríais"],"p3":["enfocarían"]},
+    "SubPres": {"s1":["enfoque"],"s2":["enfoques"],"vos":["enfoques","enfoqués"],"s3":["enfoque"],"p1":["enfoquemos"],"p2":["enfoquéis"],"p3":["enfoquen"]},
+    "SubImp": {"s1":["enfocara","enfocase"],"s2":["enfocaras","enfocases"],"vos":["enfocaras","enfocases"],"s3":["enfocara","enfocase"],"p1":["enfocáramos","enfocásemos"],"p2":["enfocarais","enfocaseis"],"p3":["enfocaran","enfocasen"]},
+    "SubFut": {"s1":["enfocare"],"s2":["enfocares"],"vos":["enfocares"],"s3":["enfocare"],"p1":["enfocáremos"],"p2":["enfocareis"],"p3":["enfocaren"]},
+    "CmdPos": {"s2":["enfoca"],"vos":["enfocá"],"s3":["enfoque"],"p1":["enfoquemos"],"p2":["enfocad"],"p3":["enfoquen"]}
+  }
+}

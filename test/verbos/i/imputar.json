@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpuˈt̪aɾ]",
+    "silabacion": "im-pu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín imputāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"imputar","gerundio":["imputando"],"participio":["imputado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["imputo"],"s2":["imputas"],"vos":["imputás"],"s3":["imputa"],"p1":["imputamos"],"p2":["imputáis"],"p3":["imputan"]},
+    "IndImp": {"s1":["imputaba"],"s2":["imputabas"],"vos":["imputabas"],"s3":["imputaba"],"p1":["imputábamos"],"p2":["imputabais"],"p3":["imputaban"]},
+    "IndPret": {"s1":["imputé"],"s2":["imputaste"],"vos":["imputaste"],"s3":["imputó"],"p1":["imputamos"],"p2":["imputasteis"],"p3":["imputaron"]},
+    "IndFut": {"s1":["imputaré"],"s2":["imputarás"],"vos":["imputarás"],"s3":["imputará"],"p1":["imputaremos"],"p2":["imputaréis"],"p3":["imputarán"]},
+    "IndCond": {"s1":["imputaría"],"s2":["imputarías"],"vos":["imputarías"],"s3":["imputaría"],"p1":["imputaríamos"],"p2":["imputaríais"],"p3":["imputarían"]},
+    "SubPres": {"s1":["impute"],"s2":["imputes"],"vos":["imputes","imputés"],"s3":["impute"],"p1":["imputemos"],"p2":["imputéis"],"p3":["imputen"]},
+    "SubImp": {"s1":["imputara","imputase"],"s2":["imputaras","imputases"],"vos":["imputaras","imputases"],"s3":["imputara","imputase"],"p1":["imputáramos","imputásemos"],"p2":["imputarais","imputaseis"],"p3":["imputaran","imputasen"]},
+    "SubFut": {"s1":["imputare"],"s2":["imputares"],"vos":["imputares"],"s3":["imputare"],"p1":["imputáremos"],"p2":["imputareis"],"p3":["imputaren"]},
+    "CmdPos": {"s2":["imputa"],"vos":["imputá"],"s3":["impute"],"p1":["imputemos"],"p2":["imputad"],"p3":["imputen"]}
+  }
+}

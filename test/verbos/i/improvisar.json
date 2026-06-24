@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpɾoβ̞iˈsaɾ]",
+    "silabacion": "im-pro-vi-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés improviser",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"improvisar","gerundio":["improvisando"],"participio":["improvisado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["improviso"],"s2":["improvisas"],"vos":["improvisás"],"s3":["improvisa"],"p1":["improvisamos"],"p2":["improvisáis"],"p3":["improvisan"]},
+    "IndImp": {"s1":["improvisaba"],"s2":["improvisabas"],"vos":["improvisabas"],"s3":["improvisaba"],"p1":["improvisábamos"],"p2":["improvisabais"],"p3":["improvisaban"]},
+    "IndPret": {"s1":["improvisé"],"s2":["improvisaste"],"vos":["improvisaste"],"s3":["improvisó"],"p1":["improvisamos"],"p2":["improvisasteis"],"p3":["improvisaron"]},
+    "IndFut": {"s1":["improvisaré"],"s2":["improvisarás"],"vos":["improvisarás"],"s3":["improvisará"],"p1":["improvisaremos"],"p2":["improvisaréis"],"p3":["improvisarán"]},
+    "IndCond": {"s1":["improvisaría"],"s2":["improvisarías"],"vos":["improvisarías"],"s3":["improvisaría"],"p1":["improvisaríamos"],"p2":["improvisaríais"],"p3":["improvisarían"]},
+    "SubPres": {"s1":["improvise"],"s2":["improvises"],"vos":["improvises","improvisés"],"s3":["improvise"],"p1":["improvisemos"],"p2":["improviséis"],"p3":["improvisen"]},
+    "SubImp": {"s1":["improvisara","improvisase"],"s2":["improvisaras","improvisases"],"vos":["improvisaras","improvisases"],"s3":["improvisara","improvisase"],"p1":["improvisáramos","improvisásemos"],"p2":["improvisarais","improvisaseis"],"p3":["improvisaran","improvisasen"]},
+    "SubFut": {"s1":["improvisare"],"s2":["improvisares"],"vos":["improvisares"],"s3":["improvisare"],"p1":["improvisáremos"],"p2":["improvisareis"],"p3":["improvisaren"]},
+    "CmdPos": {"s2":["improvisa"],"vos":["improvisá"],"s3":["improvise"],"p1":["improvisemos"],"p2":["improvisad"],"p3":["improvisen"]}
+  }
+}

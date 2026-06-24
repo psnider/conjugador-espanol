@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaɾˈmaɾ]",
+    "silabacion": "des-ar-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y armar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desarmar","gerundio":["desarmando"],"participio":["desarmado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desarmo"],"s2":["desarmas"],"vos":["desarmás"],"s3":["desarma"],"p1":["desarmamos"],"p2":["desarmáis"],"p3":["desarman"]},
+    "IndImp": {"s1":["desarmaba"],"s2":["desarmabas"],"vos":["desarmabas"],"s3":["desarmaba"],"p1":["desarmábamos"],"p2":["desarmabais"],"p3":["desarmaban"]},
+    "IndPret": {"s1":["desarmé"],"s2":["desarmaste"],"vos":["desarmaste"],"s3":["desarmó"],"p1":["desarmamos"],"p2":["desarmasteis"],"p3":["desarmaron"]},
+    "IndFut": {"s1":["desarmaré"],"s2":["desarmarás"],"vos":["desarmarás"],"s3":["desarmará"],"p1":["desarmaremos"],"p2":["desarmaréis"],"p3":["desarmarán"]},
+    "IndCond": {"s1":["desarmaría"],"s2":["desarmarías"],"vos":["desarmarías"],"s3":["desarmaría"],"p1":["desarmaríamos"],"p2":["desarmaríais"],"p3":["desarmarían"]},
+    "SubPres": {"s1":["desarme"],"s2":["desarmes"],"vos":["desarmes","desarmés"],"s3":["desarme"],"p1":["desarmemos"],"p2":["desarméis"],"p3":["desarmen"]},
+    "SubImp": {"s1":["desarmara","desarmase"],"s2":["desarmaras","desarmases"],"vos":["desarmaras","desarmases"],"s3":["desarmara","desarmase"],"p1":["desarmáramos","desarmásemos"],"p2":["desarmarais","desarmaseis"],"p3":["desarmaran","desarmasen"]},
+    "SubFut": {"s1":["desarmare"],"s2":["desarmares"],"vos":["desarmares"],"s3":["desarmare"],"p1":["desarmáremos"],"p2":["desarmareis"],"p3":["desarmaren"]},
+    "CmdPos": {"s2":["desarma"],"vos":["desarmá"],"s3":["desarme"],"p1":["desarmemos"],"p2":["desarmad"],"p3":["desarmen"]}
+  }
+}

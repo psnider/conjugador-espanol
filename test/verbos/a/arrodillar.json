@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aroð̞iˈʝaɾ]",
+    "silabacion": "a-rro-di-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, rodilla y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrodillar","gerundio":["arrodillando"],"participio":["arrodillado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arrodillo"],"s2":["arrodillas"],"vos":["arrodillás"],"s3":["arrodilla"],"p1":["arrodillamos"],"p2":["arrodilláis"],"p3":["arrodillan"]},
+    "IndImp": {"s1":["arrodillaba"],"s2":["arrodillabas"],"vos":["arrodillabas"],"s3":["arrodillaba"],"p1":["arrodillábamos"],"p2":["arrodillabais"],"p3":["arrodillaban"]},
+    "IndPret": {"s1":["arrodillé"],"s2":["arrodillaste"],"vos":["arrodillaste"],"s3":["arrodilló"],"p1":["arrodillamos"],"p2":["arrodillasteis"],"p3":["arrodillaron"]},
+    "IndFut": {"s1":["arrodillaré"],"s2":["arrodillarás"],"vos":["arrodillarás"],"s3":["arrodillará"],"p1":["arrodillaremos"],"p2":["arrodillaréis"],"p3":["arrodillarán"]},
+    "IndCond": {"s1":["arrodillaría"],"s2":["arrodillarías"],"vos":["arrodillarías"],"s3":["arrodillaría"],"p1":["arrodillaríamos"],"p2":["arrodillaríais"],"p3":["arrodillarían"]},
+    "SubPres": {"s1":["arrodille"],"s2":["arrodilles"],"vos":["arrodilles","arrodillés"],"s3":["arrodille"],"p1":["arrodillemos"],"p2":["arrodilléis"],"p3":["arrodillen"]},
+    "SubImp": {"s1":["arrodillara","arrodillase"],"s2":["arrodillaras","arrodillases"],"vos":["arrodillaras","arrodillases"],"s3":["arrodillara","arrodillase"],"p1":["arrodilláramos","arrodillásemos"],"p2":["arrodillarais","arrodillaseis"],"p3":["arrodillaran","arrodillasen"]},
+    "SubFut": {"s1":["arrodillare"],"s2":["arrodillares"],"vos":["arrodillares"],"s3":["arrodillare"],"p1":["arrodilláremos"],"p2":["arrodillareis"],"p3":["arrodillaren"]},
+    "CmdPos": {"s2":["arrodilla"],"vos":["arrodillá"],"s3":["arrodille"],"p1":["arrodillemos"],"p2":["arrodillad"],"p3":["arrodillen"]}
+  }
+}

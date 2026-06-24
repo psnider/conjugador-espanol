@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaβ̞il̪d̪eˈaɾ]",
+    "silabacion": "ca-bil-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De cabildo y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cabildear","gerundio":["cabildeando"],"participio":["cabildeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cabildeo"],"s2":["cabildeas"],"vos":["cabildeás"],"s3":["cabildea"],"p1":["cabildeamos"],"p2":["cabildeáis"],"p3":["cabildean"]},
+    "IndImp": {"s1":["cabildeaba"],"s2":["cabildeabas"],"vos":["cabildeabas"],"s3":["cabildeaba"],"p1":["cabildeábamos"],"p2":["cabildeabais"],"p3":["cabildeaban"]},
+    "IndPret": {"s1":["cabildeé"],"s2":["cabildeaste"],"vos":["cabildeaste"],"s3":["cabildeó"],"p1":["cabildeamos"],"p2":["cabildeasteis"],"p3":["cabildearon"]},
+    "IndFut": {"s1":["cabildearé"],"s2":["cabildearás"],"vos":["cabildearás"],"s3":["cabildeará"],"p1":["cabildearemos"],"p2":["cabildearéis"],"p3":["cabildearán"]},
+    "IndCond": {"s1":["cabildearía"],"s2":["cabildearías"],"vos":["cabildearías"],"s3":["cabildearía"],"p1":["cabildearíamos"],"p2":["cabildearíais"],"p3":["cabildearían"]},
+    "SubPres": {"s1":["cabildee"],"s2":["cabildees"],"vos":["cabildees","cabildeés"],"s3":["cabildee"],"p1":["cabildeemos"],"p2":["cabildeéis"],"p3":["cabildeen"]},
+    "SubImp": {"s1":["cabildeara","cabildease"],"s2":["cabildearas","cabildeases"],"vos":["cabildearas","cabildeases"],"s3":["cabildeara","cabildease"],"p1":["cabildeáramos","cabildeásemos"],"p2":["cabildearais","cabildeaseis"],"p3":["cabildearan","cabildeasen"]},
+    "SubFut": {"s1":["cabildeare"],"s2":["cabildeares"],"vos":["cabildeares"],"s3":["cabildeare"],"p1":["cabildeáremos"],"p2":["cabildeareis"],"p3":["cabildearen"]},
+    "CmdPos": {"s2":["cabildea"],"vos":["cabildeá"],"s3":["cabildee"],"p1":["cabildeemos"],"p2":["cabildead"],"p3":["cabildeen"]}
+  }
+}

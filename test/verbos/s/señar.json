@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈɲaɾ]",
+    "silabacion": "se-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "De seña y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"señar","gerundio":["señando"],"participio":["señado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["seño"],"s2":["señas"],"vos":["señás"],"s3":["seña"],"p1":["señamos"],"p2":["señáis"],"p3":["señan"]},
+    "IndImp": {"s1":["señaba"],"s2":["señabas"],"vos":["señabas"],"s3":["señaba"],"p1":["señábamos"],"p2":["señabais"],"p3":["señaban"]},
+    "IndPret": {"s1":["señé"],"s2":["señaste"],"vos":["señaste"],"s3":["señó"],"p1":["señamos"],"p2":["señasteis"],"p3":["señaron"]},
+    "IndFut": {"s1":["señaré"],"s2":["señarás"],"vos":["señarás"],"s3":["señará"],"p1":["señaremos"],"p2":["señaréis"],"p3":["señarán"]},
+    "IndCond": {"s1":["señaría"],"s2":["señarías"],"vos":["señarías"],"s3":["señaría"],"p1":["señaríamos"],"p2":["señaríais"],"p3":["señarían"]},
+    "SubPres": {"s1":["señe"],"s2":["señes"],"vos":["señes","señés"],"s3":["señe"],"p1":["señemos"],"p2":["señéis"],"p3":["señen"]},
+    "SubImp": {"s1":["señara","señase"],"s2":["señaras","señases"],"vos":["señaras","señases"],"s3":["señara","señase"],"p1":["señáramos","señásemos"],"p2":["señarais","señaseis"],"p3":["señaran","señasen"]},
+    "SubFut": {"s1":["señare"],"s2":["señares"],"vos":["señares"],"s3":["señare"],"p1":["señáremos"],"p2":["señareis"],"p3":["señaren"]},
+    "CmdPos": {"s2":["seña"],"vos":["señá"],"s3":["señe"],"p1":["señemos"],"p2":["señad"],"p3":["señen"]}
+  }
+}

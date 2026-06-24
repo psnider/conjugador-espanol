@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪eɾapeˈaɾ]",
+    "silabacion": "te-ra-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"terapear","gerundio":["terapeando"],"participio":["terapeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["terapeo"],"s2":["terapeas"],"vos":["terapeás"],"s3":["terapea"],"p1":["terapeamos"],"p2":["terapeáis"],"p3":["terapean"]},
+    "IndImp": {"s1":["terapeaba"],"s2":["terapeabas"],"vos":["terapeabas"],"s3":["terapeaba"],"p1":["terapeábamos"],"p2":["terapeabais"],"p3":["terapeaban"]},
+    "IndPret": {"s1":["terapeé"],"s2":["terapeaste"],"vos":["terapeaste"],"s3":["terapeó"],"p1":["terapeamos"],"p2":["terapeasteis"],"p3":["terapearon"]},
+    "IndFut": {"s1":["terapearé"],"s2":["terapearás"],"vos":["terapearás"],"s3":["terapeará"],"p1":["terapearemos"],"p2":["terapearéis"],"p3":["terapearán"]},
+    "IndCond": {"s1":["terapearía"],"s2":["terapearías"],"vos":["terapearías"],"s3":["terapearía"],"p1":["terapearíamos"],"p2":["terapearíais"],"p3":["terapearían"]},
+    "SubPres": {"s1":["terapee"],"s2":["terapees"],"vos":["terapees","terapeés"],"s3":["terapee"],"p1":["terapeemos"],"p2":["terapeéis"],"p3":["terapeen"]},
+    "SubImp": {"s1":["terapeara","terapease"],"s2":["terapearas","terapeases"],"vos":["terapearas","terapeases"],"s3":["terapeara","terapease"],"p1":["terapeáramos","terapeásemos"],"p2":["terapearais","terapeaseis"],"p3":["terapearan","terapeasen"]},
+    "SubFut": {"s1":["terapeare"],"s2":["terapeares"],"vos":["terapeares"],"s3":["terapeare"],"p1":["terapeáremos"],"p2":["terapeareis"],"p3":["terapearen"]},
+    "CmdPos": {"s2":["terapea"],"vos":["terapeá"],"s3":["terapee"],"p1":["terapeemos"],"p2":["terapead"],"p3":["terapeen"]}
+  }
+}

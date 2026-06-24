@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpulˈsaɾ]",
+    "silabacion": "im-pul-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tardío impulsare (impulsāre).",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"impulsar","gerundio":["impulsando"],"participio":["impulsado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["impulso"],"s2":["impulsas"],"vos":["impulsás"],"s3":["impulsa"],"p1":["impulsamos"],"p2":["impulsáis"],"p3":["impulsan"]},
+    "IndImp": {"s1":["impulsaba"],"s2":["impulsabas"],"vos":["impulsabas"],"s3":["impulsaba"],"p1":["impulsábamos"],"p2":["impulsabais"],"p3":["impulsaban"]},
+    "IndPret": {"s1":["impulsé"],"s2":["impulsaste"],"vos":["impulsaste"],"s3":["impulsó"],"p1":["impulsamos"],"p2":["impulsasteis"],"p3":["impulsaron"]},
+    "IndFut": {"s1":["impulsaré"],"s2":["impulsarás"],"vos":["impulsarás"],"s3":["impulsará"],"p1":["impulsaremos"],"p2":["impulsaréis"],"p3":["impulsarán"]},
+    "IndCond": {"s1":["impulsaría"],"s2":["impulsarías"],"vos":["impulsarías"],"s3":["impulsaría"],"p1":["impulsaríamos"],"p2":["impulsaríais"],"p3":["impulsarían"]},
+    "SubPres": {"s1":["impulse"],"s2":["impulses"],"vos":["impulses","impulsés"],"s3":["impulse"],"p1":["impulsemos"],"p2":["impulséis"],"p3":["impulsen"]},
+    "SubImp": {"s1":["impulsara","impulsase"],"s2":["impulsaras","impulsases"],"vos":["impulsaras","impulsases"],"s3":["impulsara","impulsase"],"p1":["impulsáramos","impulsásemos"],"p2":["impulsarais","impulsaseis"],"p3":["impulsaran","impulsasen"]},
+    "SubFut": {"s1":["impulsare"],"s2":["impulsares"],"vos":["impulsares"],"s3":["impulsare"],"p1":["impulsáremos"],"p2":["impulsareis"],"p3":["impulsaren"]},
+    "CmdPos": {"s2":["impulsa"],"vos":["impulsá"],"s3":["impulse"],"p1":["impulsemos"],"p2":["impulsad"],"p3":["impulsen"]}
+  }
+}

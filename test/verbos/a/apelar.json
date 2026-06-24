@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apeˈlaɾ]",
+    "silabacion": "a-pe-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín appellāre ('llamar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apelar","gerundio":["apelando"],"participio":["apelado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apelo"],"s2":["apelas"],"vos":["apelás"],"s3":["apela"],"p1":["apelamos"],"p2":["apeláis"],"p3":["apelan"]},
+    "IndImp": {"s1":["apelaba"],"s2":["apelabas"],"vos":["apelabas"],"s3":["apelaba"],"p1":["apelábamos"],"p2":["apelabais"],"p3":["apelaban"]},
+    "IndPret": {"s1":["apelé"],"s2":["apelaste"],"vos":["apelaste"],"s3":["apeló"],"p1":["apelamos"],"p2":["apelasteis"],"p3":["apelaron"]},
+    "IndFut": {"s1":["apelaré"],"s2":["apelarás"],"vos":["apelarás"],"s3":["apelará"],"p1":["apelaremos"],"p2":["apelaréis"],"p3":["apelarán"]},
+    "IndCond": {"s1":["apelaría"],"s2":["apelarías"],"vos":["apelarías"],"s3":["apelaría"],"p1":["apelaríamos"],"p2":["apelaríais"],"p3":["apelarían"]},
+    "SubPres": {"s1":["apele"],"s2":["apeles"],"vos":["apeles","apelés"],"s3":["apele"],"p1":["apelemos"],"p2":["apeléis"],"p3":["apelen"]},
+    "SubImp": {"s1":["apelara","apelase"],"s2":["apelaras","apelases"],"vos":["apelaras","apelases"],"s3":["apelara","apelase"],"p1":["apeláramos","apelásemos"],"p2":["apelarais","apelaseis"],"p3":["apelaran","apelasen"]},
+    "SubFut": {"s1":["apelare"],"s2":["apelares"],"vos":["apelares"],"s3":["apelare"],"p1":["apeláremos"],"p2":["apelareis"],"p3":["apelaren"]},
+    "CmdPos": {"s2":["apela"],"vos":["apelá"],"s3":["apele"],"p1":["apelemos"],"p2":["apelad"],"p3":["apelen"]}
+  }
+}

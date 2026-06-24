@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eð̞iˈt̪aɾ]",
+    "silabacion": "e-di-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés éditer",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"editar","gerundio":["editando"],"participio":["editado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["edito"],"s2":["editas"],"vos":["editás"],"s3":["edita"],"p1":["editamos"],"p2":["editáis"],"p3":["editan"]},
+    "IndImp": {"s1":["editaba"],"s2":["editabas"],"vos":["editabas"],"s3":["editaba"],"p1":["editábamos"],"p2":["editabais"],"p3":["editaban"]},
+    "IndPret": {"s1":["edité"],"s2":["editaste"],"vos":["editaste"],"s3":["editó"],"p1":["editamos"],"p2":["editasteis"],"p3":["editaron"]},
+    "IndFut": {"s1":["editaré"],"s2":["editarás"],"vos":["editarás"],"s3":["editará"],"p1":["editaremos"],"p2":["editaréis"],"p3":["editarán"]},
+    "IndCond": {"s1":["editaría"],"s2":["editarías"],"vos":["editarías"],"s3":["editaría"],"p1":["editaríamos"],"p2":["editaríais"],"p3":["editarían"]},
+    "SubPres": {"s1":["edite"],"s2":["edites"],"vos":["edites","edités"],"s3":["edite"],"p1":["editemos"],"p2":["editéis"],"p3":["editen"]},
+    "SubImp": {"s1":["editara","editase"],"s2":["editaras","editases"],"vos":["editaras","editases"],"s3":["editara","editase"],"p1":["editáramos","editásemos"],"p2":["editarais","editaseis"],"p3":["editaran","editasen"]},
+    "SubFut": {"s1":["editare"],"s2":["editares"],"vos":["editares"],"s3":["editare"],"p1":["editáremos"],"p2":["editareis"],"p3":["editaren"]},
+    "CmdPos": {"s2":["edita"],"vos":["editá"],"s3":["edite"],"p1":["editemos"],"p2":["editad"],"p3":["editen"]}
+  }
+}

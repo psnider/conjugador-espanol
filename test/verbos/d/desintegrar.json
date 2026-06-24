@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esĩn̪t̪eˈɣ̞ɾaɾ]",
+    "silabacion": "des-in-te-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desintegrar","gerundio":["desintegrando"],"participio":["desintegrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desintegro"],"s2":["desintegras"],"vos":["desintegrás"],"s3":["desintegra"],"p1":["desintegramos"],"p2":["desintegráis"],"p3":["desintegran"]},
+    "IndImp": {"s1":["desintegraba"],"s2":["desintegrabas"],"vos":["desintegrabas"],"s3":["desintegraba"],"p1":["desintegrábamos"],"p2":["desintegrabais"],"p3":["desintegraban"]},
+    "IndPret": {"s1":["desintegré"],"s2":["desintegraste"],"vos":["desintegraste"],"s3":["desintegró"],"p1":["desintegramos"],"p2":["desintegrasteis"],"p3":["desintegraron"]},
+    "IndFut": {"s1":["desintegraré"],"s2":["desintegrarás"],"vos":["desintegrarás"],"s3":["desintegrará"],"p1":["desintegraremos"],"p2":["desintegraréis"],"p3":["desintegrarán"]},
+    "IndCond": {"s1":["desintegraría"],"s2":["desintegrarías"],"vos":["desintegrarías"],"s3":["desintegraría"],"p1":["desintegraríamos"],"p2":["desintegraríais"],"p3":["desintegrarían"]},
+    "SubPres": {"s1":["desintegre"],"s2":["desintegres"],"vos":["desintegres","desintegrés"],"s3":["desintegre"],"p1":["desintegremos"],"p2":["desintegréis"],"p3":["desintegren"]},
+    "SubImp": {"s1":["desintegrara","desintegrase"],"s2":["desintegraras","desintegrases"],"vos":["desintegraras","desintegrases"],"s3":["desintegrara","desintegrase"],"p1":["desintegráramos","desintegrásemos"],"p2":["desintegrarais","desintegraseis"],"p3":["desintegraran","desintegrasen"]},
+    "SubFut": {"s1":["desintegrare"],"s2":["desintegrares"],"vos":["desintegrares"],"s3":["desintegrare"],"p1":["desintegráremos"],"p2":["desintegrareis"],"p3":["desintegraren"]},
+    "CmdPos": {"s2":["desintegra"],"vos":["desintegrá"],"s3":["desintegre"],"p1":["desintegremos"],"p2":["desintegrad"],"p3":["desintegren"]}
+  }
+}

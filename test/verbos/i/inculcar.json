@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkulˈkaɾ]",
+    "silabacion": "in-cul-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inculcāre.[1]",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"inculcar","gerundio":["inculcando"],"participio":["inculcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inculco"],"s2":["inculcas"],"vos":["inculcás"],"s3":["inculca"],"p1":["inculcamos"],"p2":["inculcáis"],"p3":["inculcan"]},
+    "IndImp": {"s1":["inculcaba"],"s2":["inculcabas"],"vos":["inculcabas"],"s3":["inculcaba"],"p1":["inculcábamos"],"p2":["inculcabais"],"p3":["inculcaban"]},
+    "IndPret": {"s1":["inculqué"],"s2":["inculcaste"],"vos":["inculcaste"],"s3":["inculcó"],"p1":["inculcamos"],"p2":["inculcasteis"],"p3":["inculcaron"]},
+    "IndFut": {"s1":["inculcaré"],"s2":["inculcarás"],"vos":["inculcarás"],"s3":["inculcará"],"p1":["inculcaremos"],"p2":["inculcaréis"],"p3":["inculcarán"]},
+    "IndCond": {"s1":["inculcaría"],"s2":["inculcarías"],"vos":["inculcarías"],"s3":["inculcaría"],"p1":["inculcaríamos"],"p2":["inculcaríais"],"p3":["inculcarían"]},
+    "SubPres": {"s1":["inculque"],"s2":["inculques"],"vos":["inculques","inculqués"],"s3":["inculque"],"p1":["inculquemos"],"p2":["inculquéis"],"p3":["inculquen"]},
+    "SubImp": {"s1":["inculcara","inculcase"],"s2":["inculcaras","inculcases"],"vos":["inculcaras","inculcases"],"s3":["inculcara","inculcase"],"p1":["inculcáramos","inculcásemos"],"p2":["inculcarais","inculcaseis"],"p3":["inculcaran","inculcasen"]},
+    "SubFut": {"s1":["inculcare"],"s2":["inculcares"],"vos":["inculcares"],"s3":["inculcare"],"p1":["inculcáremos"],"p2":["inculcareis"],"p3":["inculcaren"]},
+    "CmdPos": {"s2":["inculca"],"vos":["inculcá"],"s3":["inculque"],"p1":["inculquemos"],"p2":["inculcad"],"p3":["inculquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[releˈβ̞aɾ]",
+    "silabacion": "re-le-var",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"relevar","gerundio":["relevando"],"participio":["relevado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["relevo"],"s2":["relevas"],"vos":["relevás"],"s3":["releva"],"p1":["relevamos"],"p2":["releváis"],"p3":["relevan"]},
+    "IndImp": {"s1":["relevaba"],"s2":["relevabas"],"vos":["relevabas"],"s3":["relevaba"],"p1":["relevábamos"],"p2":["relevabais"],"p3":["relevaban"]},
+    "IndPret": {"s1":["relevé"],"s2":["relevaste"],"vos":["relevaste"],"s3":["relevó"],"p1":["relevamos"],"p2":["relevasteis"],"p3":["relevaron"]},
+    "IndFut": {"s1":["relevaré"],"s2":["relevarás"],"vos":["relevarás"],"s3":["relevará"],"p1":["relevaremos"],"p2":["relevaréis"],"p3":["relevarán"]},
+    "IndCond": {"s1":["relevaría"],"s2":["relevarías"],"vos":["relevarías"],"s3":["relevaría"],"p1":["relevaríamos"],"p2":["relevaríais"],"p3":["relevarían"]},
+    "SubPres": {"s1":["releve"],"s2":["releves"],"vos":["releves","relevés"],"s3":["releve"],"p1":["relevemos"],"p2":["relevéis"],"p3":["releven"]},
+    "SubImp": {"s1":["relevara","relevase"],"s2":["relevaras","relevases"],"vos":["relevaras","relevases"],"s3":["relevara","relevase"],"p1":["releváramos","relevásemos"],"p2":["relevarais","relevaseis"],"p3":["relevaran","relevasen"]},
+    "SubFut": {"s1":["relevare"],"s2":["relevares"],"vos":["relevares"],"s3":["relevare"],"p1":["releváremos"],"p2":["relevareis"],"p3":["relevaren"]},
+    "CmdPos": {"s2":["releva"],"vos":["relevá"],"s3":["releve"],"p1":["relevemos"],"p2":["relevad"],"p3":["releven"]}
+  }
+}

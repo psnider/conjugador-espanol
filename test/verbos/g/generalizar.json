@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xeneɾaliˈsaɾ]",
+    "silabacion": "ge-ne-ra-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"generalizar","gerundio":["generalizando"],"participio":["generalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["generalizo"],"s2":["generalizas"],"vos":["generalizás"],"s3":["generaliza"],"p1":["generalizamos"],"p2":["generalizáis"],"p3":["generalizan"]},
+    "IndImp": {"s1":["generalizaba"],"s2":["generalizabas"],"vos":["generalizabas"],"s3":["generalizaba"],"p1":["generalizábamos"],"p2":["generalizabais"],"p3":["generalizaban"]},
+    "IndPret": {"s1":["generalicé"],"s2":["generalizaste"],"vos":["generalizaste"],"s3":["generalizó"],"p1":["generalizamos"],"p2":["generalizasteis"],"p3":["generalizaron"]},
+    "IndFut": {"s1":["generalizaré"],"s2":["generalizarás"],"vos":["generalizarás"],"s3":["generalizará"],"p1":["generalizaremos"],"p2":["generalizaréis"],"p3":["generalizarán"]},
+    "IndCond": {"s1":["generalizaría"],"s2":["generalizarías"],"vos":["generalizarías"],"s3":["generalizaría"],"p1":["generalizaríamos"],"p2":["generalizaríais"],"p3":["generalizarían"]},
+    "SubPres": {"s1":["generalice"],"s2":["generalices"],"vos":["generalices","generalicés"],"s3":["generalice"],"p1":["generalicemos"],"p2":["generalicéis"],"p3":["generalicen"]},
+    "SubImp": {"s1":["generalizara","generalizase"],"s2":["generalizaras","generalizases"],"vos":["generalizaras","generalizases"],"s3":["generalizara","generalizase"],"p1":["generalizáramos","generalizásemos"],"p2":["generalizarais","generalizaseis"],"p3":["generalizaran","generalizasen"]},
+    "SubFut": {"s1":["generalizare"],"s2":["generalizares"],"vos":["generalizares"],"s3":["generalizare"],"p1":["generalizáremos"],"p2":["generalizareis"],"p3":["generalizaren"]},
+    "CmdPos": {"s2":["generaliza"],"vos":["generalizá"],"s3":["generalice"],"p1":["generalicemos"],"p2":["generalizad"],"p3":["generalicen"]}
+  }
+}

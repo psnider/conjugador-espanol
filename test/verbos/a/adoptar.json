@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞opˈt̪aɾ]",
+    "silabacion": "a-dop-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín adoptō, adoptāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adoptar","gerundio":["adoptando"],"participio":["adoptado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adopto"],"s2":["adoptas"],"vos":["adoptás"],"s3":["adopta"],"p1":["adoptamos"],"p2":["adoptáis"],"p3":["adoptan"]},
+    "IndImp": {"s1":["adoptaba"],"s2":["adoptabas"],"vos":["adoptabas"],"s3":["adoptaba"],"p1":["adoptábamos"],"p2":["adoptabais"],"p3":["adoptaban"]},
+    "IndPret": {"s1":["adopté"],"s2":["adoptaste"],"vos":["adoptaste"],"s3":["adoptó"],"p1":["adoptamos"],"p2":["adoptasteis"],"p3":["adoptaron"]},
+    "IndFut": {"s1":["adoptaré"],"s2":["adoptarás"],"vos":["adoptarás"],"s3":["adoptará"],"p1":["adoptaremos"],"p2":["adoptaréis"],"p3":["adoptarán"]},
+    "IndCond": {"s1":["adoptaría"],"s2":["adoptarías"],"vos":["adoptarías"],"s3":["adoptaría"],"p1":["adoptaríamos"],"p2":["adoptaríais"],"p3":["adoptarían"]},
+    "SubPres": {"s1":["adopte"],"s2":["adoptes"],"vos":["adoptes","adoptés"],"s3":["adopte"],"p1":["adoptemos"],"p2":["adoptéis"],"p3":["adopten"]},
+    "SubImp": {"s1":["adoptara","adoptase"],"s2":["adoptaras","adoptases"],"vos":["adoptaras","adoptases"],"s3":["adoptara","adoptase"],"p1":["adoptáramos","adoptásemos"],"p2":["adoptarais","adoptaseis"],"p3":["adoptaran","adoptasen"]},
+    "SubFut": {"s1":["adoptare"],"s2":["adoptares"],"vos":["adoptares"],"s3":["adoptare"],"p1":["adoptáremos"],"p2":["adoptareis"],"p3":["adoptaren"]},
+    "CmdPos": {"s2":["adopta"],"vos":["adoptá"],"s3":["adopte"],"p1":["adoptemos"],"p2":["adoptad"],"p3":["adopten"]}
+  }
+}

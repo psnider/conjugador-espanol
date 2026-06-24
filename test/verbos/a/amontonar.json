@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amõn̪t̪oˈnaɾ]",
+    "silabacion": "a-mon-to-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1275.[1] Del prefijo a-, montón y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amontonar","gerundio":["amontonando"],"participio":["amontonado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amontono"],"s2":["amontonas"],"vos":["amontonás"],"s3":["amontona"],"p1":["amontonamos"],"p2":["amontonáis"],"p3":["amontonan"]},
+    "IndImp": {"s1":["amontonaba"],"s2":["amontonabas"],"vos":["amontonabas"],"s3":["amontonaba"],"p1":["amontonábamos"],"p2":["amontonabais"],"p3":["amontonaban"]},
+    "IndPret": {"s1":["amontoné"],"s2":["amontonaste"],"vos":["amontonaste"],"s3":["amontonó"],"p1":["amontonamos"],"p2":["amontonasteis"],"p3":["amontonaron"]},
+    "IndFut": {"s1":["amontonaré"],"s2":["amontonarás"],"vos":["amontonarás"],"s3":["amontonará"],"p1":["amontonaremos"],"p2":["amontonaréis"],"p3":["amontonarán"]},
+    "IndCond": {"s1":["amontonaría"],"s2":["amontonarías"],"vos":["amontonarías"],"s3":["amontonaría"],"p1":["amontonaríamos"],"p2":["amontonaríais"],"p3":["amontonarían"]},
+    "SubPres": {"s1":["amontone"],"s2":["amontones"],"vos":["amontones","amontonés"],"s3":["amontone"],"p1":["amontonemos"],"p2":["amontonéis"],"p3":["amontonen"]},
+    "SubImp": {"s1":["amontonara","amontonase"],"s2":["amontonaras","amontonases"],"vos":["amontonaras","amontonases"],"s3":["amontonara","amontonase"],"p1":["amontonáramos","amontonásemos"],"p2":["amontonarais","amontonaseis"],"p3":["amontonaran","amontonasen"]},
+    "SubFut": {"s1":["amontonare"],"s2":["amontonares"],"vos":["amontonares"],"s3":["amontonare"],"p1":["amontonáremos"],"p2":["amontonareis"],"p3":["amontonaren"]},
+    "CmdPos": {"s2":["amontona"],"vos":["amontoná"],"s3":["amontone"],"p1":["amontonemos"],"p2":["amontonad"],"p3":["amontonen"]}
+  }
+}

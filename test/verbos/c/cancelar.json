@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kãnseˈlaɾ]",
+    "silabacion": "can-ce-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cancellāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cancelar","gerundio":["cancelando"],"participio":["cancelado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cancelo"],"s2":["cancelas"],"vos":["cancelás"],"s3":["cancela"],"p1":["cancelamos"],"p2":["canceláis"],"p3":["cancelan"]},
+    "IndImp": {"s1":["cancelaba"],"s2":["cancelabas"],"vos":["cancelabas"],"s3":["cancelaba"],"p1":["cancelábamos"],"p2":["cancelabais"],"p3":["cancelaban"]},
+    "IndPret": {"s1":["cancelé"],"s2":["cancelaste"],"vos":["cancelaste"],"s3":["canceló"],"p1":["cancelamos"],"p2":["cancelasteis"],"p3":["cancelaron"]},
+    "IndFut": {"s1":["cancelaré"],"s2":["cancelarás"],"vos":["cancelarás"],"s3":["cancelará"],"p1":["cancelaremos"],"p2":["cancelaréis"],"p3":["cancelarán"]},
+    "IndCond": {"s1":["cancelaría"],"s2":["cancelarías"],"vos":["cancelarías"],"s3":["cancelaría"],"p1":["cancelaríamos"],"p2":["cancelaríais"],"p3":["cancelarían"]},
+    "SubPres": {"s1":["cancele"],"s2":["canceles"],"vos":["canceles","cancelés"],"s3":["cancele"],"p1":["cancelemos"],"p2":["canceléis"],"p3":["cancelen"]},
+    "SubImp": {"s1":["cancelara","cancelase"],"s2":["cancelaras","cancelases"],"vos":["cancelaras","cancelases"],"s3":["cancelara","cancelase"],"p1":["canceláramos","cancelásemos"],"p2":["cancelarais","cancelaseis"],"p3":["cancelaran","cancelasen"]},
+    "SubFut": {"s1":["cancelare"],"s2":["cancelares"],"vos":["cancelares"],"s3":["cancelare"],"p1":["canceláremos"],"p2":["cancelareis"],"p3":["cancelaren"]},
+    "CmdPos": {"s2":["cancela"],"vos":["cancelá"],"s3":["cancele"],"p1":["cancelemos"],"p2":["cancelad"],"p3":["cancelen"]}
+  }
+}

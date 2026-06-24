@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[irũmˈpiɾ]",
+    "silabacion": "i-rrum-pir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín irrumpĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"irrumpir","gerundio":["irrumpiendo"],"participio":["irrumpido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["irrumpo"],"s2":["irrumpes"],"vos":["irrumpís"],"s3":["irrumpe"],"p1":["irrumpimos"],"p2":["irrumpís"],"p3":["irrumpen"]},
+    "IndImp": {"s1":["irrumpía"],"s2":["irrumpías"],"vos":["irrumpías"],"s3":["irrumpía"],"p1":["irrumpíamos"],"p2":["irrumpíais"],"p3":["irrumpían"]},
+    "IndPret": {"s1":["irrumpí"],"s2":["irrumpiste"],"vos":["irrumpiste"],"s3":["irrumpió"],"p1":["irrumpimos"],"p2":["irrumpisteis"],"p3":["irrumpieron"]},
+    "IndFut": {"s1":["irrumpiré"],"s2":["irrumpirás"],"vos":["irrumpirás"],"s3":["irrumpirá"],"p1":["irrumpiremos"],"p2":["irrumpiréis"],"p3":["irrumpirán"]},
+    "IndCond": {"s1":["irrumpiría"],"s2":["irrumpirías"],"vos":["irrumpirías"],"s3":["irrumpiría"],"p1":["irrumpiríamos"],"p2":["irrumpiríais"],"p3":["irrumpirían"]},
+    "SubPres": {"s1":["irrumpa"],"s2":["irrumpas"],"vos":["irrumpas","irrumpás"],"s3":["irrumpa"],"p1":["irrumpamos"],"p2":["irrumpáis"],"p3":["irrumpan"]},
+    "SubImp": {"s1":["irrumpiera","irrumpiese"],"s2":["irrumpieras","irrumpieses"],"vos":["irrumpieras","irrumpieses"],"s3":["irrumpiera","irrumpiese"],"p1":["irrumpiéramos","irrumpiésemos"],"p2":["irrumpierais","irrumpieseis"],"p3":["irrumpieran","irrumpiesen"]},
+    "SubFut": {"s1":["irrumpiere"],"s2":["irrumpieres"],"vos":["irrumpieres"],"s3":["irrumpiere"],"p1":["irrumpiéremos"],"p2":["irrumpiereis"],"p3":["irrumpieren"]},
+    "CmdPos": {"s2":["irrumpe"],"vos":["irrumpí"],"s3":["irrumpa"],"p1":["irrumpamos"],"p2":["irrumpid"],"p3":["irrumpan"]}
+  }
+}

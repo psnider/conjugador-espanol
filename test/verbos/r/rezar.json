@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈsaɾ]",
+    "silabacion": "re-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín recitare ('recitar'), y este de re- y citare, \"convocar\", a su vez frecuentativo de ciere, \"mover\", del preclásico cire, en última instancia del protoindoeuropeo *keie-. Compárese citar, recitar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"rezar","gerundio":["rezando"],"participio":["rezado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rezo"],"s2":["rezas"],"vos":["rezás"],"s3":["reza"],"p1":["rezamos"],"p2":["rezáis"],"p3":["rezan"]},
+    "IndImp": {"s1":["rezaba"],"s2":["rezabas"],"vos":["rezabas"],"s3":["rezaba"],"p1":["rezábamos"],"p2":["rezabais"],"p3":["rezaban"]},
+    "IndPret": {"s1":["recé"],"s2":["rezaste"],"vos":["rezaste"],"s3":["rezó"],"p1":["rezamos"],"p2":["rezasteis"],"p3":["rezaron"]},
+    "IndFut": {"s1":["rezaré"],"s2":["rezarás"],"vos":["rezarás"],"s3":["rezará"],"p1":["rezaremos"],"p2":["rezaréis"],"p3":["rezarán"]},
+    "IndCond": {"s1":["rezaría"],"s2":["rezarías"],"vos":["rezarías"],"s3":["rezaría"],"p1":["rezaríamos"],"p2":["rezaríais"],"p3":["rezarían"]},
+    "SubPres": {"s1":["rece"],"s2":["reces"],"vos":["reces","recés"],"s3":["rece"],"p1":["recemos"],"p2":["recéis"],"p3":["recen"]},
+    "SubImp": {"s1":["rezara","rezase"],"s2":["rezaras","rezases"],"vos":["rezaras","rezases"],"s3":["rezara","rezase"],"p1":["rezáramos","rezásemos"],"p2":["rezarais","rezaseis"],"p3":["rezaran","rezasen"]},
+    "SubFut": {"s1":["rezare"],"s2":["rezares"],"vos":["rezares"],"s3":["rezare"],"p1":["rezáremos"],"p2":["rezareis"],"p3":["rezaren"]},
+    "CmdPos": {"s2":["reza"],"vos":["rezá"],"s3":["rece"],"p1":["recemos"],"p2":["rezad"],"p3":["recen"]}
+  }
+}

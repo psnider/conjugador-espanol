@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ofiˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De oficio y el sufijo -ar.[2]",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"oficiar","gerundio":["oficiando"],"participio":["oficiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oficio"],"s2":["oficias"],"vos":["oficiás"],"s3":["oficia"],"p1":["oficiamos"],"p2":["oficiáis"],"p3":["ofician"]},
+    "IndImp": {"s1":["oficiaba"],"s2":["oficiabas"],"vos":["oficiabas"],"s3":["oficiaba"],"p1":["oficiábamos"],"p2":["oficiabais"],"p3":["oficiaban"]},
+    "IndPret": {"s1":["oficié"],"s2":["oficiaste"],"vos":["oficiaste"],"s3":["ofició"],"p1":["oficiamos"],"p2":["oficiasteis"],"p3":["oficiaron"]},
+    "IndFut": {"s1":["oficiaré"],"s2":["oficiarás"],"vos":["oficiarás"],"s3":["oficiará"],"p1":["oficiaremos"],"p2":["oficiaréis"],"p3":["oficiarán"]},
+    "IndCond": {"s1":["oficiaría"],"s2":["oficiarías"],"vos":["oficiarías"],"s3":["oficiaría"],"p1":["oficiaríamos"],"p2":["oficiaríais"],"p3":["oficiarían"]},
+    "SubPres": {"s1":["oficie"],"s2":["oficies"],"vos":["oficies","oficiés"],"s3":["oficie"],"p1":["oficiemos"],"p2":["oficiéis"],"p3":["oficien"]},
+    "SubImp": {"s1":["oficiara","oficiase"],"s2":["oficiaras","oficiases"],"vos":["oficiaras","oficiases"],"s3":["oficiara","oficiase"],"p1":["oficiáramos","oficiásemos"],"p2":["oficiarais","oficiaseis"],"p3":["oficiaran","oficiasen"]},
+    "SubFut": {"s1":["oficiare"],"s2":["oficiares"],"vos":["oficiares"],"s3":["oficiare"],"p1":["oficiáremos"],"p2":["oficiareis"],"p3":["oficiaren"]},
+    "CmdPos": {"s2":["oficia"],"vos":["oficiá"],"s3":["oficie"],"p1":["oficiemos"],"p2":["oficiad"],"p3":["oficien"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[komẽn̪ˈt̪aɾ]",
+    "silabacion": "co-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín commentāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"comentar","gerundio":["comentando"],"participio":["comentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["comento"],"s2":["comentas"],"vos":["comentás"],"s3":["comenta"],"p1":["comentamos"],"p2":["comentáis"],"p3":["comentan"]},
+    "IndImp": {"s1":["comentaba"],"s2":["comentabas"],"vos":["comentabas"],"s3":["comentaba"],"p1":["comentábamos"],"p2":["comentabais"],"p3":["comentaban"]},
+    "IndPret": {"s1":["comenté"],"s2":["comentaste"],"vos":["comentaste"],"s3":["comentó"],"p1":["comentamos"],"p2":["comentasteis"],"p3":["comentaron"]},
+    "IndFut": {"s1":["comentaré"],"s2":["comentarás"],"vos":["comentarás"],"s3":["comentará"],"p1":["comentaremos"],"p2":["comentaréis"],"p3":["comentarán"]},
+    "IndCond": {"s1":["comentaría"],"s2":["comentarías"],"vos":["comentarías"],"s3":["comentaría"],"p1":["comentaríamos"],"p2":["comentaríais"],"p3":["comentarían"]},
+    "SubPres": {"s1":["comente"],"s2":["comentes"],"vos":["comentes","comentés"],"s3":["comente"],"p1":["comentemos"],"p2":["comentéis"],"p3":["comenten"]},
+    "SubImp": {"s1":["comentara","comentase"],"s2":["comentaras","comentases"],"vos":["comentaras","comentases"],"s3":["comentara","comentase"],"p1":["comentáramos","comentásemos"],"p2":["comentarais","comentaseis"],"p3":["comentaran","comentasen"]},
+    "SubFut": {"s1":["comentare"],"s2":["comentares"],"vos":["comentares"],"s3":["comentare"],"p1":["comentáremos"],"p2":["comentareis"],"p3":["comentaren"]},
+    "CmdPos": {"s2":["comenta"],"vos":["comentá"],"s3":["comente"],"p1":["comentemos"],"p2":["comentad"],"p3":["comenten"]}
+  }
+}

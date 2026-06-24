@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kɾuˈxiɾ]",
+    "silabacion": "cru-jir",
+    "acentuacion": "aguda",
+    "etimologia": "Origen incierto",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"crujir","gerundio":["crujiendo"],"participio":["crujido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["crujo"],"s2":["crujes"],"vos":["crujís"],"s3":["cruje"],"p1":["crujimos"],"p2":["crujís"],"p3":["crujen"]},
+    "IndImp": {"s1":["crujía"],"s2":["crujías"],"vos":["crujías"],"s3":["crujía"],"p1":["crujíamos"],"p2":["crujíais"],"p3":["crujían"]},
+    "IndPret": {"s1":["crují"],"s2":["crujiste"],"vos":["crujiste"],"s3":["crujió"],"p1":["crujimos"],"p2":["crujisteis"],"p3":["crujieron"]},
+    "IndFut": {"s1":["crujiré"],"s2":["crujirás"],"vos":["crujirás"],"s3":["crujirá"],"p1":["crujiremos"],"p2":["crujiréis"],"p3":["crujirán"]},
+    "IndCond": {"s1":["crujiría"],"s2":["crujirías"],"vos":["crujirías"],"s3":["crujiría"],"p1":["crujiríamos"],"p2":["crujiríais"],"p3":["crujirían"]},
+    "SubPres": {"s1":["cruja"],"s2":["crujas"],"vos":["crujas","crujás"],"s3":["cruja"],"p1":["crujamos"],"p2":["crujáis"],"p3":["crujan"]},
+    "SubImp": {"s1":["crujiera","crujiese"],"s2":["crujieras","crujieses"],"vos":["crujieras","crujieses"],"s3":["crujiera","crujiese"],"p1":["crujiéramos","crujiésemos"],"p2":["crujierais","crujieseis"],"p3":["crujieran","crujiesen"]},
+    "SubFut": {"s1":["crujiere"],"s2":["crujieres"],"vos":["crujieres"],"s3":["crujiere"],"p1":["crujiéremos"],"p2":["crujiereis"],"p3":["crujieren"]},
+    "CmdPos": {"s2":["cruje"],"vos":["crují"],"s3":["cruja"],"p1":["crujamos"],"p2":["crujid"],"p3":["crujan"]}
+  }
+}

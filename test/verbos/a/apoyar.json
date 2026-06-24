@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apoˈʝaɾ]",
+    "silabacion": "a-po-yar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *podiāre ('subir (los pechos al llenarse de leche)'). Se documenta por primera vez en 1494.[1] Doblete de pujar ('apostar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apoyar","gerundio":["apoyando"],"participio":["apoyado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apoyo"],"s2":["apoyas"],"vos":["apoyás"],"s3":["apoya"],"p1":["apoyamos"],"p2":["apoyáis"],"p3":["apoyan"]},
+    "IndImp": {"s1":["apoyaba"],"s2":["apoyabas"],"vos":["apoyabas"],"s3":["apoyaba"],"p1":["apoyábamos"],"p2":["apoyabais"],"p3":["apoyaban"]},
+    "IndPret": {"s1":["apoyé"],"s2":["apoyaste"],"vos":["apoyaste"],"s3":["apoyó"],"p1":["apoyamos"],"p2":["apoyasteis"],"p3":["apoyaron"]},
+    "IndFut": {"s1":["apoyaré"],"s2":["apoyarás"],"vos":["apoyarás"],"s3":["apoyará"],"p1":["apoyaremos"],"p2":["apoyaréis"],"p3":["apoyarán"]},
+    "IndCond": {"s1":["apoyaría"],"s2":["apoyarías"],"vos":["apoyarías"],"s3":["apoyaría"],"p1":["apoyaríamos"],"p2":["apoyaríais"],"p3":["apoyarían"]},
+    "SubPres": {"s1":["apoye"],"s2":["apoyes"],"vos":["apoyes","apoyés"],"s3":["apoye"],"p1":["apoyemos"],"p2":["apoyéis"],"p3":["apoyen"]},
+    "SubImp": {"s1":["apoyara","apoyase"],"s2":["apoyaras","apoyases"],"vos":["apoyaras","apoyases"],"s3":["apoyara","apoyase"],"p1":["apoyáramos","apoyásemos"],"p2":["apoyarais","apoyaseis"],"p3":["apoyaran","apoyasen"]},
+    "SubFut": {"s1":["apoyare"],"s2":["apoyares"],"vos":["apoyares"],"s3":["apoyare"],"p1":["apoyáremos"],"p2":["apoyareis"],"p3":["apoyaren"]},
+    "CmdPos": {"s2":["apoya"],"vos":["apoyá"],"s3":["apoye"],"p1":["apoyemos"],"p2":["apoyad"],"p3":["apoyen"]}
+  }
+}

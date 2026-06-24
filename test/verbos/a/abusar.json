@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞uˈsaɾ]",
+    "silabacion": "a-bu-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De abuso.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"abusar","gerundio":["abusando"],"participio":["abusado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["abuso"],"s2":["abusas"],"vos":["abusás"],"s3":["abusa"],"p1":["abusamos"],"p2":["abusáis"],"p3":["abusan"]},
+    "IndImp": {"s1":["abusaba"],"s2":["abusabas"],"vos":["abusabas"],"s3":["abusaba"],"p1":["abusábamos"],"p2":["abusabais"],"p3":["abusaban"]},
+    "IndPret": {"s1":["abusé"],"s2":["abusaste"],"vos":["abusaste"],"s3":["abusó"],"p1":["abusamos"],"p2":["abusasteis"],"p3":["abusaron"]},
+    "IndFut": {"s1":["abusaré"],"s2":["abusarás"],"vos":["abusarás"],"s3":["abusará"],"p1":["abusaremos"],"p2":["abusaréis"],"p3":["abusarán"]},
+    "IndCond": {"s1":["abusaría"],"s2":["abusarías"],"vos":["abusarías"],"s3":["abusaría"],"p1":["abusaríamos"],"p2":["abusaríais"],"p3":["abusarían"]},
+    "SubPres": {"s1":["abuse"],"s2":["abuses"],"vos":["abuses","abusés"],"s3":["abuse"],"p1":["abusemos"],"p2":["abuséis"],"p3":["abusen"]},
+    "SubImp": {"s1":["abusara","abusase"],"s2":["abusaras","abusases"],"vos":["abusaras","abusases"],"s3":["abusara","abusase"],"p1":["abusáramos","abusásemos"],"p2":["abusarais","abusaseis"],"p3":["abusaran","abusasen"]},
+    "SubFut": {"s1":["abusare"],"s2":["abusares"],"vos":["abusares"],"s3":["abusare"],"p1":["abusáremos"],"p2":["abusareis"],"p3":["abusaren"]},
+    "CmdPos": {"s2":["abusa"],"vos":["abusá"],"s3":["abuse"],"p1":["abusemos"],"p2":["abusad"],"p3":["abusen"]}
+  }
+}

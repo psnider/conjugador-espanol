@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[repɾoˈt͡ʃaɾ]",
+    "silabacion": "re-pro-char",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés antiguo reprochier, del latín vulgar *repropiāre ('poner ante los ojos'), del clásico propie ('próximo').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reprochar","gerundio":["reprochando"],"participio":["reprochado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reprocho"],"s2":["reprochas"],"vos":["reprochás"],"s3":["reprocha"],"p1":["reprochamos"],"p2":["reprocháis"],"p3":["reprochan"]},
+    "IndImp": {"s1":["reprochaba"],"s2":["reprochabas"],"vos":["reprochabas"],"s3":["reprochaba"],"p1":["reprochábamos"],"p2":["reprochabais"],"p3":["reprochaban"]},
+    "IndPret": {"s1":["reproché"],"s2":["reprochaste"],"vos":["reprochaste"],"s3":["reprochó"],"p1":["reprochamos"],"p2":["reprochasteis"],"p3":["reprocharon"]},
+    "IndFut": {"s1":["reprocharé"],"s2":["reprocharás"],"vos":["reprocharás"],"s3":["reprochará"],"p1":["reprocharemos"],"p2":["reprocharéis"],"p3":["reprocharán"]},
+    "IndCond": {"s1":["reprocharía"],"s2":["reprocharías"],"vos":["reprocharías"],"s3":["reprocharía"],"p1":["reprocharíamos"],"p2":["reprocharíais"],"p3":["reprocharían"]},
+    "SubPres": {"s1":["reproche"],"s2":["reproches"],"vos":["reproches","reprochés"],"s3":["reproche"],"p1":["reprochemos"],"p2":["reprochéis"],"p3":["reprochen"]},
+    "SubImp": {"s1":["reprochara","reprochase"],"s2":["reprocharas","reprochases"],"vos":["reprocharas","reprochases"],"s3":["reprochara","reprochase"],"p1":["reprocháramos","reprochásemos"],"p2":["reprocharais","reprochaseis"],"p3":["reprocharan","reprochasen"]},
+    "SubFut": {"s1":["reprochare"],"s2":["reprochares"],"vos":["reprochares"],"s3":["reprochare"],"p1":["reprocháremos"],"p2":["reprochareis"],"p3":["reprocharen"]},
+    "CmdPos": {"s2":["reprocha"],"vos":["reprochá"],"s3":["reproche"],"p1":["reprochemos"],"p2":["reprochad"],"p3":["reprochen"]}
+  }
+}

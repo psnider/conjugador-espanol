@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪jesˈmaɾ]",
+    "silabacion": "diez-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"diezmar","gerundio":["diezmando"],"participio":["diezmado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["diezmo"],"s2":["diezmas"],"vos":["diezmás"],"s3":["diezma"],"p1":["diezmamos"],"p2":["diezmáis"],"p3":["diezman"]},
+    "IndImp": {"s1":["diezmaba"],"s2":["diezmabas"],"vos":["diezmabas"],"s3":["diezmaba"],"p1":["diezmábamos"],"p2":["diezmabais"],"p3":["diezmaban"]},
+    "IndPret": {"s1":["diezmé"],"s2":["diezmaste"],"vos":["diezmaste"],"s3":["diezmó"],"p1":["diezmamos"],"p2":["diezmasteis"],"p3":["diezmaron"]},
+    "IndFut": {"s1":["diezmaré"],"s2":["diezmarás"],"vos":["diezmarás"],"s3":["diezmará"],"p1":["diezmaremos"],"p2":["diezmaréis"],"p3":["diezmarán"]},
+    "IndCond": {"s1":["diezmaría"],"s2":["diezmarías"],"vos":["diezmarías"],"s3":["diezmaría"],"p1":["diezmaríamos"],"p2":["diezmaríais"],"p3":["diezmarían"]},
+    "SubPres": {"s1":["diezme"],"s2":["diezmes"],"vos":["diezmes","diezmés"],"s3":["diezme"],"p1":["diezmemos"],"p2":["diezméis"],"p3":["diezmen"]},
+    "SubImp": {"s1":["diezmara","diezmase"],"s2":["diezmaras","diezmases"],"vos":["diezmaras","diezmases"],"s3":["diezmara","diezmase"],"p1":["diezmáramos","diezmásemos"],"p2":["diezmarais","diezmaseis"],"p3":["diezmaran","diezmasen"]},
+    "SubFut": {"s1":["diezmare"],"s2":["diezmares"],"vos":["diezmares"],"s3":["diezmare"],"p1":["diezmáremos"],"p2":["diezmareis"],"p3":["diezmaren"]},
+    "CmdPos": {"s2":["diezma"],"vos":["diezmá"],"s3":["diezme"],"p1":["diezmemos"],"p2":["diezmad"],"p3":["diezmen"]}
+  }
+}

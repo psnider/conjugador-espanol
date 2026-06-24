@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ɾoˈɣ̞aɾ]",
+    "silabacion": "dro-gar",
+    "acentuacion": "aguda",
+    "etimologia": "De droga y el sufijo -ar.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"drogar","gerundio":["drogando"],"participio":["drogado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["drogo"],"s2":["drogas"],"vos":["drogás"],"s3":["droga"],"p1":["drogamos"],"p2":["drogáis"],"p3":["drogan"]},
+    "IndImp": {"s1":["drogaba"],"s2":["drogabas"],"vos":["drogabas"],"s3":["drogaba"],"p1":["drogábamos"],"p2":["drogabais"],"p3":["drogaban"]},
+    "IndPret": {"s1":["drogué"],"s2":["drogaste"],"vos":["drogaste"],"s3":["drogó"],"p1":["drogamos"],"p2":["drogasteis"],"p3":["drogaron"]},
+    "IndFut": {"s1":["drogaré"],"s2":["drogarás"],"vos":["drogarás"],"s3":["drogará"],"p1":["drogaremos"],"p2":["drogaréis"],"p3":["drogarán"]},
+    "IndCond": {"s1":["drogaría"],"s2":["drogarías"],"vos":["drogarías"],"s3":["drogaría"],"p1":["drogaríamos"],"p2":["drogaríais"],"p3":["drogarían"]},
+    "SubPres": {"s1":["drogue"],"s2":["drogues"],"vos":["drogues","drogués"],"s3":["drogue"],"p1":["droguemos"],"p2":["droguéis"],"p3":["droguen"]},
+    "SubImp": {"s1":["drogara","drogase"],"s2":["drogaras","drogases"],"vos":["drogaras","drogases"],"s3":["drogara","drogase"],"p1":["drogáramos","drogásemos"],"p2":["drogarais","drogaseis"],"p3":["drogaran","drogasen"]},
+    "SubFut": {"s1":["drogare"],"s2":["drogares"],"vos":["drogares"],"s3":["drogare"],"p1":["drogáremos"],"p2":["drogareis"],"p3":["drogaren"]},
+    "CmdPos": {"s2":["droga"],"vos":["drogá"],"s3":["drogue"],"p1":["droguemos"],"p2":["drogad"],"p3":["droguen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kaˈʝaɾ]",
+    "silabacion": "ca-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *callare ('bajar'), especialmente el tono de voz, y este del griego antiguo χαλάω.[1] Compárese el doblete calar, así como el catalán callar, el francés caler, el napolitano callare, o el occitano y portugués calar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"callar","gerundio":["callando"],"participio":["callado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["callo"],"s2":["callas"],"vos":["callás"],"s3":["calla"],"p1":["callamos"],"p2":["calláis"],"p3":["callan"]},
+    "IndImp": {"s1":["callaba"],"s2":["callabas"],"vos":["callabas"],"s3":["callaba"],"p1":["callábamos"],"p2":["callabais"],"p3":["callaban"]},
+    "IndPret": {"s1":["callé"],"s2":["callaste"],"vos":["callaste"],"s3":["calló"],"p1":["callamos"],"p2":["callasteis"],"p3":["callaron"]},
+    "IndFut": {"s1":["callaré"],"s2":["callarás"],"vos":["callarás"],"s3":["callará"],"p1":["callaremos"],"p2":["callaréis"],"p3":["callarán"]},
+    "IndCond": {"s1":["callaría"],"s2":["callarías"],"vos":["callarías"],"s3":["callaría"],"p1":["callaríamos"],"p2":["callaríais"],"p3":["callarían"]},
+    "SubPres": {"s1":["calle"],"s2":["calles"],"vos":["calles","callés"],"s3":["calle"],"p1":["callemos"],"p2":["calléis"],"p3":["callen"]},
+    "SubImp": {"s1":["callara","callase"],"s2":["callaras","callases"],"vos":["callaras","callases"],"s3":["callara","callase"],"p1":["calláramos","callásemos"],"p2":["callarais","callaseis"],"p3":["callaran","callasen"]},
+    "SubFut": {"s1":["callare"],"s2":["callares"],"vos":["callares"],"s3":["callare"],"p1":["calláremos"],"p2":["callareis"],"p3":["callaren"]},
+    "CmdPos": {"s2":["calla"],"vos":["callá"],"s3":["calle"],"p1":["callemos"],"p2":["callad"],"p3":["callen"]}
+  }
+}

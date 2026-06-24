@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rat̪ifiˈkaɾ]",
+    "silabacion": "ra-ti-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ratus ('confirmado') y el sufijo verbal español -ficar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"ratificar","gerundio":["ratificando"],"participio":["ratificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ratifico"],"s2":["ratificas"],"vos":["ratificás"],"s3":["ratifica"],"p1":["ratificamos"],"p2":["ratificáis"],"p3":["ratifican"]},
+    "IndImp": {"s1":["ratificaba"],"s2":["ratificabas"],"vos":["ratificabas"],"s3":["ratificaba"],"p1":["ratificábamos"],"p2":["ratificabais"],"p3":["ratificaban"]},
+    "IndPret": {"s1":["ratifiqué"],"s2":["ratificaste"],"vos":["ratificaste"],"s3":["ratificó"],"p1":["ratificamos"],"p2":["ratificasteis"],"p3":["ratificaron"]},
+    "IndFut": {"s1":["ratificaré"],"s2":["ratificarás"],"vos":["ratificarás"],"s3":["ratificará"],"p1":["ratificaremos"],"p2":["ratificaréis"],"p3":["ratificarán"]},
+    "IndCond": {"s1":["ratificaría"],"s2":["ratificarías"],"vos":["ratificarías"],"s3":["ratificaría"],"p1":["ratificaríamos"],"p2":["ratificaríais"],"p3":["ratificarían"]},
+    "SubPres": {"s1":["ratifique"],"s2":["ratifiques"],"vos":["ratifiques","ratifiqués"],"s3":["ratifique"],"p1":["ratifiquemos"],"p2":["ratifiquéis"],"p3":["ratifiquen"]},
+    "SubImp": {"s1":["ratificara","ratificase"],"s2":["ratificaras","ratificases"],"vos":["ratificaras","ratificases"],"s3":["ratificara","ratificase"],"p1":["ratificáramos","ratificásemos"],"p2":["ratificarais","ratificaseis"],"p3":["ratificaran","ratificasen"]},
+    "SubFut": {"s1":["ratificare"],"s2":["ratificares"],"vos":["ratificares"],"s3":["ratificare"],"p1":["ratificáremos"],"p2":["ratificareis"],"p3":["ratificaren"]},
+    "CmdPos": {"s2":["ratifica"],"vos":["ratificá"],"s3":["ratifique"],"p1":["ratifiquemos"],"p2":["ratificad"],"p3":["ratifiquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eɣ̞ɾaˈð̞aɾ]",
+    "silabacion": "de-gra-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín degradāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"degradar","gerundio":["degradando"],"participio":["degradado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["degrado"],"s2":["degradas"],"vos":["degradás"],"s3":["degrada"],"p1":["degradamos"],"p2":["degradáis"],"p3":["degradan"]},
+    "IndImp": {"s1":["degradaba"],"s2":["degradabas"],"vos":["degradabas"],"s3":["degradaba"],"p1":["degradábamos"],"p2":["degradabais"],"p3":["degradaban"]},
+    "IndPret": {"s1":["degradé"],"s2":["degradaste"],"vos":["degradaste"],"s3":["degradó"],"p1":["degradamos"],"p2":["degradasteis"],"p3":["degradaron"]},
+    "IndFut": {"s1":["degradaré"],"s2":["degradarás"],"vos":["degradarás"],"s3":["degradará"],"p1":["degradaremos"],"p2":["degradaréis"],"p3":["degradarán"]},
+    "IndCond": {"s1":["degradaría"],"s2":["degradarías"],"vos":["degradarías"],"s3":["degradaría"],"p1":["degradaríamos"],"p2":["degradaríais"],"p3":["degradarían"]},
+    "SubPres": {"s1":["degrade"],"s2":["degrades"],"vos":["degrades","degradés"],"s3":["degrade"],"p1":["degrademos"],"p2":["degradéis"],"p3":["degraden"]},
+    "SubImp": {"s1":["degradara","degradase"],"s2":["degradaras","degradases"],"vos":["degradaras","degradases"],"s3":["degradara","degradase"],"p1":["degradáramos","degradásemos"],"p2":["degradarais","degradaseis"],"p3":["degradaran","degradasen"]},
+    "SubFut": {"s1":["degradare"],"s2":["degradares"],"vos":["degradares"],"s3":["degradare"],"p1":["degradáremos"],"p2":["degradareis"],"p3":["degradaren"]},
+    "CmdPos": {"s2":["degrada"],"vos":["degradá"],"s3":["degrade"],"p1":["degrademos"],"p2":["degradad"],"p3":["degraden"]}
+  }
+}

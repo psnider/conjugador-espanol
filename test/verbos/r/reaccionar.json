@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reaksjoˈnaɾ]",
+    "silabacion": "re-ac-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reaccionar","gerundio":["reaccionando"],"participio":["reaccionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reacciono"],"s2":["reaccionas"],"vos":["reaccionás"],"s3":["reacciona"],"p1":["reaccionamos"],"p2":["reaccionáis"],"p3":["reaccionan"]},
+    "IndImp": {"s1":["reaccionaba"],"s2":["reaccionabas"],"vos":["reaccionabas"],"s3":["reaccionaba"],"p1":["reaccionábamos"],"p2":["reaccionabais"],"p3":["reaccionaban"]},
+    "IndPret": {"s1":["reaccioné"],"s2":["reaccionaste"],"vos":["reaccionaste"],"s3":["reaccionó"],"p1":["reaccionamos"],"p2":["reaccionasteis"],"p3":["reaccionaron"]},
+    "IndFut": {"s1":["reaccionaré"],"s2":["reaccionarás"],"vos":["reaccionarás"],"s3":["reaccionará"],"p1":["reaccionaremos"],"p2":["reaccionaréis"],"p3":["reaccionarán"]},
+    "IndCond": {"s1":["reaccionaría"],"s2":["reaccionarías"],"vos":["reaccionarías"],"s3":["reaccionaría"],"p1":["reaccionaríamos"],"p2":["reaccionaríais"],"p3":["reaccionarían"]},
+    "SubPres": {"s1":["reaccione"],"s2":["reacciones"],"vos":["reacciones","reaccionés"],"s3":["reaccione"],"p1":["reaccionemos"],"p2":["reaccionéis"],"p3":["reaccionen"]},
+    "SubImp": {"s1":["reaccionara","reaccionase"],"s2":["reaccionaras","reaccionases"],"vos":["reaccionaras","reaccionases"],"s3":["reaccionara","reaccionase"],"p1":["reaccionáramos","reaccionásemos"],"p2":["reaccionarais","reaccionaseis"],"p3":["reaccionaran","reaccionasen"]},
+    "SubFut": {"s1":["reaccionare"],"s2":["reaccionares"],"vos":["reaccionares"],"s3":["reaccionare"],"p1":["reaccionáremos"],"p2":["reaccionareis"],"p3":["reaccionaren"]},
+    "CmdPos": {"s2":["reacciona"],"vos":["reaccioná"],"s3":["reaccione"],"p1":["reaccionemos"],"p2":["reaccionad"],"p3":["reaccionen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪epoɾˈt̪aɾ]",
+    "silabacion": "de-por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín dēportāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deportar","gerundio":["deportando"],"participio":["deportado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["deporto"],"s2":["deportas"],"vos":["deportás"],"s3":["deporta"],"p1":["deportamos"],"p2":["deportáis"],"p3":["deportan"]},
+    "IndImp": {"s1":["deportaba"],"s2":["deportabas"],"vos":["deportabas"],"s3":["deportaba"],"p1":["deportábamos"],"p2":["deportabais"],"p3":["deportaban"]},
+    "IndPret": {"s1":["deporté"],"s2":["deportaste"],"vos":["deportaste"],"s3":["deportó"],"p1":["deportamos"],"p2":["deportasteis"],"p3":["deportaron"]},
+    "IndFut": {"s1":["deportaré"],"s2":["deportarás"],"vos":["deportarás"],"s3":["deportará"],"p1":["deportaremos"],"p2":["deportaréis"],"p3":["deportarán"]},
+    "IndCond": {"s1":["deportaría"],"s2":["deportarías"],"vos":["deportarías"],"s3":["deportaría"],"p1":["deportaríamos"],"p2":["deportaríais"],"p3":["deportarían"]},
+    "SubPres": {"s1":["deporte"],"s2":["deportes"],"vos":["deportes","deportés"],"s3":["deporte"],"p1":["deportemos"],"p2":["deportéis"],"p3":["deporten"]},
+    "SubImp": {"s1":["deportara","deportase"],"s2":["deportaras","deportases"],"vos":["deportaras","deportases"],"s3":["deportara","deportase"],"p1":["deportáramos","deportásemos"],"p2":["deportarais","deportaseis"],"p3":["deportaran","deportasen"]},
+    "SubFut": {"s1":["deportare"],"s2":["deportares"],"vos":["deportares"],"s3":["deportare"],"p1":["deportáremos"],"p2":["deportareis"],"p3":["deportaren"]},
+    "CmdPos": {"s2":["deporta"],"vos":["deportá"],"s3":["deporte"],"p1":["deportemos"],"p2":["deportad"],"p3":["deporten"]}
+  }
+}

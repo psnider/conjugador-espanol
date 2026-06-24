@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[miˈɣ̞ɾaɾ]",
+    "silabacion": "mi-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín migrāre ('migrar')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"migrar","gerundio":["migrando"],"participio":["migrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["migro"],"s2":["migras"],"vos":["migrás"],"s3":["migra"],"p1":["migramos"],"p2":["migráis"],"p3":["migran"]},
+    "IndImp": {"s1":["migraba"],"s2":["migrabas"],"vos":["migrabas"],"s3":["migraba"],"p1":["migrábamos"],"p2":["migrabais"],"p3":["migraban"]},
+    "IndPret": {"s1":["migré"],"s2":["migraste"],"vos":["migraste"],"s3":["migró"],"p1":["migramos"],"p2":["migrasteis"],"p3":["migraron"]},
+    "IndFut": {"s1":["migraré"],"s2":["migrarás"],"vos":["migrarás"],"s3":["migrará"],"p1":["migraremos"],"p2":["migraréis"],"p3":["migrarán"]},
+    "IndCond": {"s1":["migraría"],"s2":["migrarías"],"vos":["migrarías"],"s3":["migraría"],"p1":["migraríamos"],"p2":["migraríais"],"p3":["migrarían"]},
+    "SubPres": {"s1":["migre"],"s2":["migres"],"vos":["migres","migrés"],"s3":["migre"],"p1":["migremos"],"p2":["migréis"],"p3":["migren"]},
+    "SubImp": {"s1":["migrara","migrase"],"s2":["migraras","migrases"],"vos":["migraras","migrases"],"s3":["migrara","migrase"],"p1":["migráramos","migrásemos"],"p2":["migrarais","migraseis"],"p3":["migraran","migrasen"]},
+    "SubFut": {"s1":["migrare"],"s2":["migrares"],"vos":["migrares"],"s3":["migrare"],"p1":["migráremos"],"p2":["migrareis"],"p3":["migraren"]},
+    "CmdPos": {"s2":["migra"],"vos":["migrá"],"s3":["migre"],"p1":["migremos"],"p2":["migrad"],"p3":["migren"]}
+  }
+}

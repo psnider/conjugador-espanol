@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esweˈsaɾ]",
+    "silabacion": "des-hue-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, hueso y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deshuesar","gerundio":["deshuesando"],"participio":["deshuesado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["deshueso"],"s2":["deshuesas"],"vos":["deshuesás"],"s3":["deshuesa"],"p1":["deshuesamos"],"p2":["deshuesáis"],"p3":["deshuesan"]},
+    "IndImp": {"s1":["deshuesaba"],"s2":["deshuesabas"],"vos":["deshuesabas"],"s3":["deshuesaba"],"p1":["deshuesábamos"],"p2":["deshuesabais"],"p3":["deshuesaban"]},
+    "IndPret": {"s1":["deshuesé"],"s2":["deshuesaste"],"vos":["deshuesaste"],"s3":["deshuesó"],"p1":["deshuesamos"],"p2":["deshuesasteis"],"p3":["deshuesaron"]},
+    "IndFut": {"s1":["deshuesaré"],"s2":["deshuesarás"],"vos":["deshuesarás"],"s3":["deshuesará"],"p1":["deshuesaremos"],"p2":["deshuesaréis"],"p3":["deshuesarán"]},
+    "IndCond": {"s1":["deshuesaría"],"s2":["deshuesarías"],"vos":["deshuesarías"],"s3":["deshuesaría"],"p1":["deshuesaríamos"],"p2":["deshuesaríais"],"p3":["deshuesarían"]},
+    "SubPres": {"s1":["deshuese"],"s2":["deshueses"],"vos":["deshueses","deshuesés"],"s3":["deshuese"],"p1":["deshuesemos"],"p2":["deshueséis"],"p3":["deshuesen"]},
+    "SubImp": {"s1":["deshuesara","deshuesase"],"s2":["deshuesaras","deshuesases"],"vos":["deshuesaras","deshuesases"],"s3":["deshuesara","deshuesase"],"p1":["deshuesáramos","deshuesásemos"],"p2":["deshuesarais","deshuesaseis"],"p3":["deshuesaran","deshuesasen"]},
+    "SubFut": {"s1":["deshuesare"],"s2":["deshuesares"],"vos":["deshuesares"],"s3":["deshuesare"],"p1":["deshuesáremos"],"p2":["deshuesareis"],"p3":["deshuesaren"]},
+    "CmdPos": {"s2":["deshuesa"],"vos":["deshuesá"],"s3":["deshuese"],"p1":["deshuesemos"],"p2":["deshuesad"],"p3":["deshuesen"]}
+  }
+}

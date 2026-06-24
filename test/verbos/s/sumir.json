@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suˈmiɾ]",
+    "silabacion": "su-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sumere.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"sumir","gerundio":["sumiendo"],"participio":["sumido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sumo"],"s2":["sumes"],"vos":["sumís"],"s3":["sume"],"p1":["sumimos"],"p2":["sumís"],"p3":["sumen"]},
+    "IndImp": {"s1":["sumía"],"s2":["sumías"],"vos":["sumías"],"s3":["sumía"],"p1":["sumíamos"],"p2":["sumíais"],"p3":["sumían"]},
+    "IndPret": {"s1":["sumí"],"s2":["sumiste"],"vos":["sumiste"],"s3":["sumió"],"p1":["sumimos"],"p2":["sumisteis"],"p3":["sumieron"]},
+    "IndFut": {"s1":["sumiré"],"s2":["sumirás"],"vos":["sumirás"],"s3":["sumirá"],"p1":["sumiremos"],"p2":["sumiréis"],"p3":["sumirán"]},
+    "IndCond": {"s1":["sumiría"],"s2":["sumirías"],"vos":["sumirías"],"s3":["sumiría"],"p1":["sumiríamos"],"p2":["sumiríais"],"p3":["sumirían"]},
+    "SubPres": {"s1":["suma"],"s2":["sumas"],"vos":["sumas","sumás"],"s3":["suma"],"p1":["sumamos"],"p2":["sumáis"],"p3":["suman"]},
+    "SubImp": {"s1":["sumiera","sumiese"],"s2":["sumieras","sumieses"],"vos":["sumieras","sumieses"],"s3":["sumiera","sumiese"],"p1":["sumiéramos","sumiésemos"],"p2":["sumierais","sumieseis"],"p3":["sumieran","sumiesen"]},
+    "SubFut": {"s1":["sumiere"],"s2":["sumieres"],"vos":["sumieres"],"s3":["sumiere"],"p1":["sumiéremos"],"p2":["sumiereis"],"p3":["sumieren"]},
+    "CmdPos": {"s2":["sume"],"vos":["sumí"],"s3":["suma"],"p1":["sumamos"],"p2":["sumid"],"p3":["suman"]}
+  }
+}

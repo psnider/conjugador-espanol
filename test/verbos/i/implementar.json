@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmplemẽn̪ˈt̪aɾ]",
+    "silabacion": "im-ple-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De implemento.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"implementar","gerundio":["implementando"],"participio":["implementado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["implemento"],"s2":["implementas"],"vos":["implementás"],"s3":["implementa"],"p1":["implementamos"],"p2":["implementáis"],"p3":["implementan"]},
+    "IndImp": {"s1":["implementaba"],"s2":["implementabas"],"vos":["implementabas"],"s3":["implementaba"],"p1":["implementábamos"],"p2":["implementabais"],"p3":["implementaban"]},
+    "IndPret": {"s1":["implementé"],"s2":["implementaste"],"vos":["implementaste"],"s3":["implementó"],"p1":["implementamos"],"p2":["implementasteis"],"p3":["implementaron"]},
+    "IndFut": {"s1":["implementaré"],"s2":["implementarás"],"vos":["implementarás"],"s3":["implementará"],"p1":["implementaremos"],"p2":["implementaréis"],"p3":["implementarán"]},
+    "IndCond": {"s1":["implementaría"],"s2":["implementarías"],"vos":["implementarías"],"s3":["implementaría"],"p1":["implementaríamos"],"p2":["implementaríais"],"p3":["implementarían"]},
+    "SubPres": {"s1":["implemente"],"s2":["implementes"],"vos":["implementes","implementés"],"s3":["implemente"],"p1":["implementemos"],"p2":["implementéis"],"p3":["implementen"]},
+    "SubImp": {"s1":["implementara","implementase"],"s2":["implementaras","implementases"],"vos":["implementaras","implementases"],"s3":["implementara","implementase"],"p1":["implementáramos","implementásemos"],"p2":["implementarais","implementaseis"],"p3":["implementaran","implementasen"]},
+    "SubFut": {"s1":["implementare"],"s2":["implementares"],"vos":["implementares"],"s3":["implementare"],"p1":["implementáremos"],"p2":["implementareis"],"p3":["implementaren"]},
+    "CmdPos": {"s2":["implementa"],"vos":["implementá"],"s3":["implemente"],"p1":["implementemos"],"p2":["implementad"],"p3":["implementen"]}
+  }
+}

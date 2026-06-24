@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espaˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín spatiāri.",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"espaciar","gerundio":["espaciando"],"participio":["espaciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["espacio"],"s2":["espacias"],"vos":["espaciás"],"s3":["espacia"],"p1":["espaciamos"],"p2":["espaciáis"],"p3":["espacian"]},
+    "IndImp": {"s1":["espaciaba"],"s2":["espaciabas"],"vos":["espaciabas"],"s3":["espaciaba"],"p1":["espaciábamos"],"p2":["espaciabais"],"p3":["espaciaban"]},
+    "IndPret": {"s1":["espacié"],"s2":["espaciaste"],"vos":["espaciaste"],"s3":["espació"],"p1":["espaciamos"],"p2":["espaciasteis"],"p3":["espaciaron"]},
+    "IndFut": {"s1":["espaciaré"],"s2":["espaciarás"],"vos":["espaciarás"],"s3":["espaciará"],"p1":["espaciaremos"],"p2":["espaciaréis"],"p3":["espaciarán"]},
+    "IndCond": {"s1":["espaciaría"],"s2":["espaciarías"],"vos":["espaciarías"],"s3":["espaciaría"],"p1":["espaciaríamos"],"p2":["espaciaríais"],"p3":["espaciarían"]},
+    "SubPres": {"s1":["espacie"],"s2":["espacies"],"vos":["espacies","espaciés"],"s3":["espacie"],"p1":["espaciemos"],"p2":["espaciéis"],"p3":["espacien"]},
+    "SubImp": {"s1":["espaciara","espaciase"],"s2":["espaciaras","espaciases"],"vos":["espaciaras","espaciases"],"s3":["espaciara","espaciase"],"p1":["espaciáramos","espaciásemos"],"p2":["espaciarais","espaciaseis"],"p3":["espaciaran","espaciasen"]},
+    "SubFut": {"s1":["espaciare"],"s2":["espaciares"],"vos":["espaciares"],"s3":["espaciare"],"p1":["espaciáremos"],"p2":["espaciareis"],"p3":["espaciaren"]},
+    "CmdPos": {"s2":["espacia"],"vos":["espaciá"],"s3":["espacie"],"p1":["espaciemos"],"p2":["espaciad"],"p3":["espacien"]}
+  }
+}

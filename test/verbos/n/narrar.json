@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[naˈraɾ]",
+    "silabacion": "na-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín narrare, y esta de gnarus, \"sabio\", en última instancia del protoindoeuropeo *gno-, \"saber\"",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"narrar","gerundio":["narrando"],"participio":["narrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["narro"],"s2":["narras"],"vos":["narrás"],"s3":["narra"],"p1":["narramos"],"p2":["narráis"],"p3":["narran"]},
+    "IndImp": {"s1":["narraba"],"s2":["narrabas"],"vos":["narrabas"],"s3":["narraba"],"p1":["narrábamos"],"p2":["narrabais"],"p3":["narraban"]},
+    "IndPret": {"s1":["narré"],"s2":["narraste"],"vos":["narraste"],"s3":["narró"],"p1":["narramos"],"p2":["narrasteis"],"p3":["narraron"]},
+    "IndFut": {"s1":["narraré"],"s2":["narrarás"],"vos":["narrarás"],"s3":["narrará"],"p1":["narraremos"],"p2":["narraréis"],"p3":["narrarán"]},
+    "IndCond": {"s1":["narraría"],"s2":["narrarías"],"vos":["narrarías"],"s3":["narraría"],"p1":["narraríamos"],"p2":["narraríais"],"p3":["narrarían"]},
+    "SubPres": {"s1":["narre"],"s2":["narres"],"vos":["narres","narrés"],"s3":["narre"],"p1":["narremos"],"p2":["narréis"],"p3":["narren"]},
+    "SubImp": {"s1":["narrara","narrase"],"s2":["narraras","narrases"],"vos":["narraras","narrases"],"s3":["narrara","narrase"],"p1":["narráramos","narrásemos"],"p2":["narrarais","narraseis"],"p3":["narraran","narrasen"]},
+    "SubFut": {"s1":["narrare"],"s2":["narrares"],"vos":["narrares"],"s3":["narrare"],"p1":["narráremos"],"p2":["narrareis"],"p3":["narraren"]},
+    "CmdPos": {"s2":["narra"],"vos":["narrá"],"s3":["narre"],"p1":["narremos"],"p2":["narrad"],"p3":["narren"]}
+  }
+}

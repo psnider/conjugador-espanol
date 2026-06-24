@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amenaˈsaɾ]",
+    "silabacion": "a-me-na-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De amenaza y el sufijo -ar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"amenazar","gerundio":["amenazando"],"participio":["amenazado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amenazo"],"s2":["amenazas"],"vos":["amenazás"],"s3":["amenaza"],"p1":["amenazamos"],"p2":["amenazáis"],"p3":["amenazan"]},
+    "IndImp": {"s1":["amenazaba"],"s2":["amenazabas"],"vos":["amenazabas"],"s3":["amenazaba"],"p1":["amenazábamos"],"p2":["amenazabais"],"p3":["amenazaban"]},
+    "IndPret": {"s1":["amenacé"],"s2":["amenazaste"],"vos":["amenazaste"],"s3":["amenazó"],"p1":["amenazamos"],"p2":["amenazasteis"],"p3":["amenazaron"]},
+    "IndFut": {"s1":["amenazaré"],"s2":["amenazarás"],"vos":["amenazarás"],"s3":["amenazará"],"p1":["amenazaremos"],"p2":["amenazaréis"],"p3":["amenazarán"]},
+    "IndCond": {"s1":["amenazaría"],"s2":["amenazarías"],"vos":["amenazarías"],"s3":["amenazaría"],"p1":["amenazaríamos"],"p2":["amenazaríais"],"p3":["amenazarían"]},
+    "SubPres": {"s1":["amenace"],"s2":["amenaces"],"vos":["amenaces","amenacés"],"s3":["amenace"],"p1":["amenacemos"],"p2":["amenacéis"],"p3":["amenacen"]},
+    "SubImp": {"s1":["amenazara","amenazase"],"s2":["amenazaras","amenazases"],"vos":["amenazaras","amenazases"],"s3":["amenazara","amenazase"],"p1":["amenazáramos","amenazásemos"],"p2":["amenazarais","amenazaseis"],"p3":["amenazaran","amenazasen"]},
+    "SubFut": {"s1":["amenazare"],"s2":["amenazares"],"vos":["amenazares"],"s3":["amenazare"],"p1":["amenazáremos"],"p2":["amenazareis"],"p3":["amenazaren"]},
+    "CmdPos": {"s2":["amenaza"],"vos":["amenazá"],"s3":["amenace"],"p1":["amenacemos"],"p2":["amenazad"],"p3":["amenacen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esĩɱfekˈt̪aɾ]",
+    "silabacion": "des-in-fec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y infectar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desinfectar","gerundio":["desinfectando"],"participio":["desinfectado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desinfecto"],"s2":["desinfectas"],"vos":["desinfectás"],"s3":["desinfecta"],"p1":["desinfectamos"],"p2":["desinfectáis"],"p3":["desinfectan"]},
+    "IndImp": {"s1":["desinfectaba"],"s2":["desinfectabas"],"vos":["desinfectabas"],"s3":["desinfectaba"],"p1":["desinfectábamos"],"p2":["desinfectabais"],"p3":["desinfectaban"]},
+    "IndPret": {"s1":["desinfecté"],"s2":["desinfectaste"],"vos":["desinfectaste"],"s3":["desinfectó"],"p1":["desinfectamos"],"p2":["desinfectasteis"],"p3":["desinfectaron"]},
+    "IndFut": {"s1":["desinfectaré"],"s2":["desinfectarás"],"vos":["desinfectarás"],"s3":["desinfectará"],"p1":["desinfectaremos"],"p2":["desinfectaréis"],"p3":["desinfectarán"]},
+    "IndCond": {"s1":["desinfectaría"],"s2":["desinfectarías"],"vos":["desinfectarías"],"s3":["desinfectaría"],"p1":["desinfectaríamos"],"p2":["desinfectaríais"],"p3":["desinfectarían"]},
+    "SubPres": {"s1":["desinfecte"],"s2":["desinfectes"],"vos":["desinfectes","desinfectés"],"s3":["desinfecte"],"p1":["desinfectemos"],"p2":["desinfectéis"],"p3":["desinfecten"]},
+    "SubImp": {"s1":["desinfectara","desinfectase"],"s2":["desinfectaras","desinfectases"],"vos":["desinfectaras","desinfectases"],"s3":["desinfectara","desinfectase"],"p1":["desinfectáramos","desinfectásemos"],"p2":["desinfectarais","desinfectaseis"],"p3":["desinfectaran","desinfectasen"]},
+    "SubFut": {"s1":["desinfectare"],"s2":["desinfectares"],"vos":["desinfectares"],"s3":["desinfectare"],"p1":["desinfectáremos"],"p2":["desinfectareis"],"p3":["desinfectaren"]},
+    "CmdPos": {"s2":["desinfecta"],"vos":["desinfectá"],"s3":["desinfecte"],"p1":["desinfectemos"],"p2":["desinfectad"],"p3":["desinfecten"]}
+  }
+}

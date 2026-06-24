@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmpoɾˈt̪aɾ]",
+    "silabacion": "com-por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín comportāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"comportar","gerundio":["comportando"],"participio":["comportado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["comporto"],"s2":["comportas"],"vos":["comportás"],"s3":["comporta"],"p1":["comportamos"],"p2":["comportáis"],"p3":["comportan"]},
+    "IndImp": {"s1":["comportaba"],"s2":["comportabas"],"vos":["comportabas"],"s3":["comportaba"],"p1":["comportábamos"],"p2":["comportabais"],"p3":["comportaban"]},
+    "IndPret": {"s1":["comporté"],"s2":["comportaste"],"vos":["comportaste"],"s3":["comportó"],"p1":["comportamos"],"p2":["comportasteis"],"p3":["comportaron"]},
+    "IndFut": {"s1":["comportaré"],"s2":["comportarás"],"vos":["comportarás"],"s3":["comportará"],"p1":["comportaremos"],"p2":["comportaréis"],"p3":["comportarán"]},
+    "IndCond": {"s1":["comportaría"],"s2":["comportarías"],"vos":["comportarías"],"s3":["comportaría"],"p1":["comportaríamos"],"p2":["comportaríais"],"p3":["comportarían"]},
+    "SubPres": {"s1":["comporte"],"s2":["comportes"],"vos":["comportes","comportés"],"s3":["comporte"],"p1":["comportemos"],"p2":["comportéis"],"p3":["comporten"]},
+    "SubImp": {"s1":["comportara","comportase"],"s2":["comportaras","comportases"],"vos":["comportaras","comportases"],"s3":["comportara","comportase"],"p1":["comportáramos","comportásemos"],"p2":["comportarais","comportaseis"],"p3":["comportaran","comportasen"]},
+    "SubFut": {"s1":["comportare"],"s2":["comportares"],"vos":["comportares"],"s3":["comportare"],"p1":["comportáremos"],"p2":["comportareis"],"p3":["comportaren"]},
+    "CmdPos": {"s2":["comporta"],"vos":["comportá"],"s3":["comporte"],"p1":["comportemos"],"p2":["comportad"],"p3":["comporten"]}
+  }
+}

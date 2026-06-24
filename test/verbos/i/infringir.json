@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩɱfɾĩŋˈxiɾ]",
+    "silabacion": "in-frin-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín infringĕre ('romper').",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"infringir","gerundio":["infringiendo"],"participio":["infringido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["infrinjo"],"s2":["infringes"],"vos":["infringís"],"s3":["infringe"],"p1":["infringimos"],"p2":["infringís"],"p3":["infringen"]},
+    "IndImp": {"s1":["infringía"],"s2":["infringías"],"vos":["infringías"],"s3":["infringía"],"p1":["infringíamos"],"p2":["infringíais"],"p3":["infringían"]},
+    "IndPret": {"s1":["infringí"],"s2":["infringiste"],"vos":["infringiste"],"s3":["infringió"],"p1":["infringimos"],"p2":["infringisteis"],"p3":["infringieron"]},
+    "IndFut": {"s1":["infringiré"],"s2":["infringirás"],"vos":["infringirás"],"s3":["infringirá"],"p1":["infringiremos"],"p2":["infringiréis"],"p3":["infringirán"]},
+    "IndCond": {"s1":["infringiría"],"s2":["infringirías"],"vos":["infringirías"],"s3":["infringiría"],"p1":["infringiríamos"],"p2":["infringiríais"],"p3":["infringirían"]},
+    "SubPres": {"s1":["infrinja"],"s2":["infrinjas"],"vos":["infrinjas","infrinjás"],"s3":["infrinja"],"p1":["infrinjamos"],"p2":["infrinjáis"],"p3":["infrinjan"]},
+    "SubImp": {"s1":["infringiera","infringiese"],"s2":["infringieras","infringieses"],"vos":["infringieras","infringieses"],"s3":["infringiera","infringiese"],"p1":["infringiéramos","infringiésemos"],"p2":["infringierais","infringieseis"],"p3":["infringieran","infringiesen"]},
+    "SubFut": {"s1":["infringiere"],"s2":["infringieres"],"vos":["infringieres"],"s3":["infringiere"],"p1":["infringiéremos"],"p2":["infringiereis"],"p3":["infringieren"]},
+    "CmdPos": {"s2":["infringe"],"vos":["infringí"],"s3":["infrinja"],"p1":["infrinjamos"],"p2":["infringid"],"p3":["infrinjan"]}
+  }
+}

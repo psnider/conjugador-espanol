@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaˈt̪aɾ]",
+    "silabacion": "des-a-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y atar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desatar","gerundio":["desatando"],"participio":["desatado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desato"],"s2":["desatas"],"vos":["desatás"],"s3":["desata"],"p1":["desatamos"],"p2":["desatáis"],"p3":["desatan"]},
+    "IndImp": {"s1":["desataba"],"s2":["desatabas"],"vos":["desatabas"],"s3":["desataba"],"p1":["desatábamos"],"p2":["desatabais"],"p3":["desataban"]},
+    "IndPret": {"s1":["desaté"],"s2":["desataste"],"vos":["desataste"],"s3":["desató"],"p1":["desatamos"],"p2":["desatasteis"],"p3":["desataron"]},
+    "IndFut": {"s1":["desataré"],"s2":["desatarás"],"vos":["desatarás"],"s3":["desatará"],"p1":["desataremos"],"p2":["desataréis"],"p3":["desatarán"]},
+    "IndCond": {"s1":["desataría"],"s2":["desatarías"],"vos":["desatarías"],"s3":["desataría"],"p1":["desataríamos"],"p2":["desataríais"],"p3":["desatarían"]},
+    "SubPres": {"s1":["desate"],"s2":["desates"],"vos":["desates","desatés"],"s3":["desate"],"p1":["desatemos"],"p2":["desatéis"],"p3":["desaten"]},
+    "SubImp": {"s1":["desatara","desatase"],"s2":["desataras","desatases"],"vos":["desataras","desatases"],"s3":["desatara","desatase"],"p1":["desatáramos","desatásemos"],"p2":["desatarais","desataseis"],"p3":["desataran","desatasen"]},
+    "SubFut": {"s1":["desatare"],"s2":["desatares"],"vos":["desatares"],"s3":["desatare"],"p1":["desatáremos"],"p2":["desatareis"],"p3":["desataren"]},
+    "CmdPos": {"s2":["desata"],"vos":["desatá"],"s3":["desate"],"p1":["desatemos"],"p2":["desatad"],"p3":["desaten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãmpuˈt̪aɾ]",
+    "silabacion": "am-pu-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín amputare (podar, cortar).",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amputar","gerundio":["amputando"],"participio":["amputado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amputo"],"s2":["amputas"],"vos":["amputás"],"s3":["amputa"],"p1":["amputamos"],"p2":["amputáis"],"p3":["amputan"]},
+    "IndImp": {"s1":["amputaba"],"s2":["amputabas"],"vos":["amputabas"],"s3":["amputaba"],"p1":["amputábamos"],"p2":["amputabais"],"p3":["amputaban"]},
+    "IndPret": {"s1":["amputé"],"s2":["amputaste"],"vos":["amputaste"],"s3":["amputó"],"p1":["amputamos"],"p2":["amputasteis"],"p3":["amputaron"]},
+    "IndFut": {"s1":["amputaré"],"s2":["amputarás"],"vos":["amputarás"],"s3":["amputará"],"p1":["amputaremos"],"p2":["amputaréis"],"p3":["amputarán"]},
+    "IndCond": {"s1":["amputaría"],"s2":["amputarías"],"vos":["amputarías"],"s3":["amputaría"],"p1":["amputaríamos"],"p2":["amputaríais"],"p3":["amputarían"]},
+    "SubPres": {"s1":["ampute"],"s2":["amputes"],"vos":["amputes","amputés"],"s3":["ampute"],"p1":["amputemos"],"p2":["amputéis"],"p3":["amputen"]},
+    "SubImp": {"s1":["amputara","amputase"],"s2":["amputaras","amputases"],"vos":["amputaras","amputases"],"s3":["amputara","amputase"],"p1":["amputáramos","amputásemos"],"p2":["amputarais","amputaseis"],"p3":["amputaran","amputasen"]},
+    "SubFut": {"s1":["amputare"],"s2":["amputares"],"vos":["amputares"],"s3":["amputare"],"p1":["amputáremos"],"p2":["amputareis"],"p3":["amputaren"]},
+    "CmdPos": {"s2":["amputa"],"vos":["amputá"],"s3":["ampute"],"p1":["amputemos"],"p2":["amputad"],"p3":["amputen"]}
+  }
+}

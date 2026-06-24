@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmboˈkaɾ]",
+    "silabacion": "con-vo-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín convocare",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"convocar","gerundio":["convocando"],"participio":["convocado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["convoco"],"s2":["convocas"],"vos":["convocás"],"s3":["convoca"],"p1":["convocamos"],"p2":["convocáis"],"p3":["convocan"]},
+    "IndImp": {"s1":["convocaba"],"s2":["convocabas"],"vos":["convocabas"],"s3":["convocaba"],"p1":["convocábamos"],"p2":["convocabais"],"p3":["convocaban"]},
+    "IndPret": {"s1":["convoqué"],"s2":["convocaste"],"vos":["convocaste"],"s3":["convocó"],"p1":["convocamos"],"p2":["convocasteis"],"p3":["convocaron"]},
+    "IndFut": {"s1":["convocaré"],"s2":["convocarás"],"vos":["convocarás"],"s3":["convocará"],"p1":["convocaremos"],"p2":["convocaréis"],"p3":["convocarán"]},
+    "IndCond": {"s1":["convocaría"],"s2":["convocarías"],"vos":["convocarías"],"s3":["convocaría"],"p1":["convocaríamos"],"p2":["convocaríais"],"p3":["convocarían"]},
+    "SubPres": {"s1":["convoque"],"s2":["convoques"],"vos":["convoques","convoqués"],"s3":["convoque"],"p1":["convoquemos"],"p2":["convoquéis"],"p3":["convoquen"]},
+    "SubImp": {"s1":["convocara","convocase"],"s2":["convocaras","convocases"],"vos":["convocaras","convocases"],"s3":["convocara","convocase"],"p1":["convocáramos","convocásemos"],"p2":["convocarais","convocaseis"],"p3":["convocaran","convocasen"]},
+    "SubFut": {"s1":["convocare"],"s2":["convocares"],"vos":["convocares"],"s3":["convocare"],"p1":["convocáremos"],"p2":["convocareis"],"p3":["convocaren"]},
+    "CmdPos": {"s2":["convoca"],"vos":["convocá"],"s3":["convoque"],"p1":["convoquemos"],"p2":["convocad"],"p3":["convoquen"]}
+  }
+}

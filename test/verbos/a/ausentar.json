@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awsẽn̪ˈt̪aɾ]",
+    "silabacion": "au-sen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ausentar","gerundio":["ausentando"],"participio":["ausentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ausento"],"s2":["ausentas"],"vos":["ausentás"],"s3":["ausenta"],"p1":["ausentamos"],"p2":["ausentáis"],"p3":["ausentan"]},
+    "IndImp": {"s1":["ausentaba"],"s2":["ausentabas"],"vos":["ausentabas"],"s3":["ausentaba"],"p1":["ausentábamos"],"p2":["ausentabais"],"p3":["ausentaban"]},
+    "IndPret": {"s1":["ausenté"],"s2":["ausentaste"],"vos":["ausentaste"],"s3":["ausentó"],"p1":["ausentamos"],"p2":["ausentasteis"],"p3":["ausentaron"]},
+    "IndFut": {"s1":["ausentaré"],"s2":["ausentarás"],"vos":["ausentarás"],"s3":["ausentará"],"p1":["ausentaremos"],"p2":["ausentaréis"],"p3":["ausentarán"]},
+    "IndCond": {"s1":["ausentaría"],"s2":["ausentarías"],"vos":["ausentarías"],"s3":["ausentaría"],"p1":["ausentaríamos"],"p2":["ausentaríais"],"p3":["ausentarían"]},
+    "SubPres": {"s1":["ausente"],"s2":["ausentes"],"vos":["ausentes","ausentés"],"s3":["ausente"],"p1":["ausentemos"],"p2":["ausentéis"],"p3":["ausenten"]},
+    "SubImp": {"s1":["ausentara","ausentase"],"s2":["ausentaras","ausentases"],"vos":["ausentaras","ausentases"],"s3":["ausentara","ausentase"],"p1":["ausentáramos","ausentásemos"],"p2":["ausentarais","ausentaseis"],"p3":["ausentaran","ausentasen"]},
+    "SubFut": {"s1":["ausentare"],"s2":["ausentares"],"vos":["ausentares"],"s3":["ausentare"],"p1":["ausentáremos"],"p2":["ausentareis"],"p3":["ausentaren"]},
+    "CmdPos": {"s2":["ausenta"],"vos":["ausentá"],"s3":["ausente"],"p1":["ausentemos"],"p2":["ausentad"],"p3":["ausenten"]}
+  }
+}

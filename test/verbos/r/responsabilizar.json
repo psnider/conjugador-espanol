@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[respõnsaβ̞iliˈsaɾ]",
+    "silabacion": "res-pon-sa-bi-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"responsabilizar","gerundio":["responsabilizando"],"participio":["responsabilizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["responsabilizo"],"s2":["responsabilizas"],"vos":["responsabilizás"],"s3":["responsabiliza"],"p1":["responsabilizamos"],"p2":["responsabilizáis"],"p3":["responsabilizan"]},
+    "IndImp": {"s1":["responsabilizaba"],"s2":["responsabilizabas"],"vos":["responsabilizabas"],"s3":["responsabilizaba"],"p1":["responsabilizábamos"],"p2":["responsabilizabais"],"p3":["responsabilizaban"]},
+    "IndPret": {"s1":["responsabilicé"],"s2":["responsabilizaste"],"vos":["responsabilizaste"],"s3":["responsabilizó"],"p1":["responsabilizamos"],"p2":["responsabilizasteis"],"p3":["responsabilizaron"]},
+    "IndFut": {"s1":["responsabilizaré"],"s2":["responsabilizarás"],"vos":["responsabilizarás"],"s3":["responsabilizará"],"p1":["responsabilizaremos"],"p2":["responsabilizaréis"],"p3":["responsabilizarán"]},
+    "IndCond": {"s1":["responsabilizaría"],"s2":["responsabilizarías"],"vos":["responsabilizarías"],"s3":["responsabilizaría"],"p1":["responsabilizaríamos"],"p2":["responsabilizaríais"],"p3":["responsabilizarían"]},
+    "SubPres": {"s1":["responsabilice"],"s2":["responsabilices"],"vos":["responsabilices","responsabilicés"],"s3":["responsabilice"],"p1":["responsabilicemos"],"p2":["responsabilicéis"],"p3":["responsabilicen"]},
+    "SubImp": {"s1":["responsabilizara","responsabilizase"],"s2":["responsabilizaras","responsabilizases"],"vos":["responsabilizaras","responsabilizases"],"s3":["responsabilizara","responsabilizase"],"p1":["responsabilizáramos","responsabilizásemos"],"p2":["responsabilizarais","responsabilizaseis"],"p3":["responsabilizaran","responsabilizasen"]},
+    "SubFut": {"s1":["responsabilizare"],"s2":["responsabilizares"],"vos":["responsabilizares"],"s3":["responsabilizare"],"p1":["responsabilizáremos"],"p2":["responsabilizareis"],"p3":["responsabilizaren"]},
+    "CmdPos": {"s2":["responsabiliza"],"vos":["responsabilizá"],"s3":["responsabilice"],"p1":["responsabilicemos"],"p2":["responsabilizad"],"p3":["responsabilicen"]}
+  }
+}

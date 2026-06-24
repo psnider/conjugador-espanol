@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[gaɾãn̪t̪iˈsaɾ]",
+    "silabacion": "ga-ran-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De garante y el sufijo -izar.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"garantizar","gerundio":["garantizando"],"participio":["garantizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["garantizo"],"s2":["garantizas"],"vos":["garantizás"],"s3":["garantiza"],"p1":["garantizamos"],"p2":["garantizáis"],"p3":["garantizan"]},
+    "IndImp": {"s1":["garantizaba"],"s2":["garantizabas"],"vos":["garantizabas"],"s3":["garantizaba"],"p1":["garantizábamos"],"p2":["garantizabais"],"p3":["garantizaban"]},
+    "IndPret": {"s1":["garanticé"],"s2":["garantizaste"],"vos":["garantizaste"],"s3":["garantizó"],"p1":["garantizamos"],"p2":["garantizasteis"],"p3":["garantizaron"]},
+    "IndFut": {"s1":["garantizaré"],"s2":["garantizarás"],"vos":["garantizarás"],"s3":["garantizará"],"p1":["garantizaremos"],"p2":["garantizaréis"],"p3":["garantizarán"]},
+    "IndCond": {"s1":["garantizaría"],"s2":["garantizarías"],"vos":["garantizarías"],"s3":["garantizaría"],"p1":["garantizaríamos"],"p2":["garantizaríais"],"p3":["garantizarían"]},
+    "SubPres": {"s1":["garantice"],"s2":["garantices"],"vos":["garantices","garanticés"],"s3":["garantice"],"p1":["garanticemos"],"p2":["garanticéis"],"p3":["garanticen"]},
+    "SubImp": {"s1":["garantizara","garantizase"],"s2":["garantizaras","garantizases"],"vos":["garantizaras","garantizases"],"s3":["garantizara","garantizase"],"p1":["garantizáramos","garantizásemos"],"p2":["garantizarais","garantizaseis"],"p3":["garantizaran","garantizasen"]},
+    "SubFut": {"s1":["garantizare"],"s2":["garantizares"],"vos":["garantizares"],"s3":["garantizare"],"p1":["garantizáremos"],"p2":["garantizareis"],"p3":["garantizaren"]},
+    "CmdPos": {"s2":["garantiza"],"vos":["garantizá"],"s3":["garantice"],"p1":["garanticemos"],"p2":["garantizad"],"p3":["garanticen"]}
+  }
+}

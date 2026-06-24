@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪oˈnaɾ]",
+    "silabacion": "do-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín donāre (\"dar, otorgar, perdonar\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"donar","gerundio":["donando"],"participio":["donado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["dono"],"s2":["donas"],"vos":["donás"],"s3":["dona"],"p1":["donamos"],"p2":["donáis"],"p3":["donan"]},
+    "IndImp": {"s1":["donaba"],"s2":["donabas"],"vos":["donabas"],"s3":["donaba"],"p1":["donábamos"],"p2":["donabais"],"p3":["donaban"]},
+    "IndPret": {"s1":["doné"],"s2":["donaste"],"vos":["donaste"],"s3":["donó"],"p1":["donamos"],"p2":["donasteis"],"p3":["donaron"]},
+    "IndFut": {"s1":["donaré"],"s2":["donarás"],"vos":["donarás"],"s3":["donará"],"p1":["donaremos"],"p2":["donaréis"],"p3":["donarán"]},
+    "IndCond": {"s1":["donaría"],"s2":["donarías"],"vos":["donarías"],"s3":["donaría"],"p1":["donaríamos"],"p2":["donaríais"],"p3":["donarían"]},
+    "SubPres": {"s1":["done"],"s2":["dones"],"vos":["dones","donés"],"s3":["done"],"p1":["donemos"],"p2":["donéis"],"p3":["donen"]},
+    "SubImp": {"s1":["donara","donase"],"s2":["donaras","donases"],"vos":["donaras","donases"],"s3":["donara","donase"],"p1":["donáramos","donásemos"],"p2":["donarais","donaseis"],"p3":["donaran","donasen"]},
+    "SubFut": {"s1":["donare"],"s2":["donares"],"vos":["donares"],"s3":["donare"],"p1":["donáremos"],"p2":["donareis"],"p3":["donaren"]},
+    "CmdPos": {"s2":["dona"],"vos":["doná"],"s3":["done"],"p1":["donemos"],"p2":["donad"],"p3":["donen"]}
+  }
+}

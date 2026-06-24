@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpuˈɲaɾ]",
+    "silabacion": "em-pu-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo em-, puño y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"empuñar","gerundio":["empuñando"],"participio":["empuñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empuño"],"s2":["empuñas"],"vos":["empuñás"],"s3":["empuña"],"p1":["empuñamos"],"p2":["empuñáis"],"p3":["empuñan"]},
+    "IndImp": {"s1":["empuñaba"],"s2":["empuñabas"],"vos":["empuñabas"],"s3":["empuñaba"],"p1":["empuñábamos"],"p2":["empuñabais"],"p3":["empuñaban"]},
+    "IndPret": {"s1":["empuñé"],"s2":["empuñaste"],"vos":["empuñaste"],"s3":["empuñó"],"p1":["empuñamos"],"p2":["empuñasteis"],"p3":["empuñaron"]},
+    "IndFut": {"s1":["empuñaré"],"s2":["empuñarás"],"vos":["empuñarás"],"s3":["empuñará"],"p1":["empuñaremos"],"p2":["empuñaréis"],"p3":["empuñarán"]},
+    "IndCond": {"s1":["empuñaría"],"s2":["empuñarías"],"vos":["empuñarías"],"s3":["empuñaría"],"p1":["empuñaríamos"],"p2":["empuñaríais"],"p3":["empuñarían"]},
+    "SubPres": {"s1":["empuñe"],"s2":["empuñes"],"vos":["empuñes","empuñés"],"s3":["empuñe"],"p1":["empuñemos"],"p2":["empuñéis"],"p3":["empuñen"]},
+    "SubImp": {"s1":["empuñara","empuñase"],"s2":["empuñaras","empuñases"],"vos":["empuñaras","empuñases"],"s3":["empuñara","empuñase"],"p1":["empuñáramos","empuñásemos"],"p2":["empuñarais","empuñaseis"],"p3":["empuñaran","empuñasen"]},
+    "SubFut": {"s1":["empuñare"],"s2":["empuñares"],"vos":["empuñares"],"s3":["empuñare"],"p1":["empuñáremos"],"p2":["empuñareis"],"p3":["empuñaren"]},
+    "CmdPos": {"s2":["empuña"],"vos":["empuñá"],"s3":["empuñe"],"p1":["empuñemos"],"p2":["empuñad"],"p3":["empuñen"]}
+  }
+}

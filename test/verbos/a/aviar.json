@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈβ̞jaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, vía y el sufijo -ar. A este lema le falta al menos una definición común. Si puedes, añádela(s), pero ¡no la(s) copies! Retira el aviso cuando ya no haga falta.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"aviar","gerundio":["aviando"],"participio":["aviado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["avío"],"s2":["avías"],"vos":["aviás"],"s3":["avía"],"p1":["aviamos"],"p2":["aviáis"],"p3":["avían"]},
+    "IndImp": {"s1":["aviaba"],"s2":["aviabas"],"vos":["aviabas"],"s3":["aviaba"],"p1":["aviábamos"],"p2":["aviabais"],"p3":["aviaban"]},
+    "IndPret": {"s1":["avié"],"s2":["aviaste"],"vos":["aviaste"],"s3":["avió"],"p1":["aviamos"],"p2":["aviasteis"],"p3":["aviaron"]},
+    "IndFut": {"s1":["aviaré"],"s2":["aviarás"],"vos":["aviarás"],"s3":["aviará"],"p1":["aviaremos"],"p2":["aviaréis"],"p3":["aviarán"]},
+    "IndCond": {"s1":["aviaría"],"s2":["aviarías"],"vos":["aviarías"],"s3":["aviaría"],"p1":["aviaríamos"],"p2":["aviaríais"],"p3":["aviarían"]},
+    "SubPres": {"s1":["avíe"],"s2":["avíes"],"vos":["avíes","aviés"],"s3":["avíe"],"p1":["aviemos"],"p2":["aviéis"],"p3":["avíen"]},
+    "SubImp": {"s1":["aviara","aviase"],"s2":["aviaras","aviases"],"vos":["aviaras","aviases"],"s3":["aviara","aviase"],"p1":["aviáramos","aviásemos"],"p2":["aviarais","aviaseis"],"p3":["aviaran","aviasen"]},
+    "SubFut": {"s1":["aviare"],"s2":["aviares"],"vos":["aviares"],"s3":["aviare"],"p1":["aviáremos"],"p2":["aviareis"],"p3":["aviaren"]},
+    "CmdPos": {"s2":["avía"],"vos":["aviá"],"s3":["avíe"],"p1":["aviemos"],"p2":["aviad"],"p3":["avíen"]}
+  }
+}

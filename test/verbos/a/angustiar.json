@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãŋgusˈt̪jaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín angustiāre.[2]",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"angustiar","gerundio":["angustiando"],"participio":["angustiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["angustio"],"s2":["angustias"],"vos":["angustiás"],"s3":["angustia"],"p1":["angustiamos"],"p2":["angustiáis"],"p3":["angustian"]},
+    "IndImp": {"s1":["angustiaba"],"s2":["angustiabas"],"vos":["angustiabas"],"s3":["angustiaba"],"p1":["angustiábamos"],"p2":["angustiabais"],"p3":["angustiaban"]},
+    "IndPret": {"s1":["angustié"],"s2":["angustiaste"],"vos":["angustiaste"],"s3":["angustió"],"p1":["angustiamos"],"p2":["angustiasteis"],"p3":["angustiaron"]},
+    "IndFut": {"s1":["angustiaré"],"s2":["angustiarás"],"vos":["angustiarás"],"s3":["angustiará"],"p1":["angustiaremos"],"p2":["angustiaréis"],"p3":["angustiarán"]},
+    "IndCond": {"s1":["angustiaría"],"s2":["angustiarías"],"vos":["angustiarías"],"s3":["angustiaría"],"p1":["angustiaríamos"],"p2":["angustiaríais"],"p3":["angustiarían"]},
+    "SubPres": {"s1":["angustie"],"s2":["angusties"],"vos":["angusties","angustiés"],"s3":["angustie"],"p1":["angustiemos"],"p2":["angustiéis"],"p3":["angustien"]},
+    "SubImp": {"s1":["angustiara","angustiase"],"s2":["angustiaras","angustiases"],"vos":["angustiaras","angustiases"],"s3":["angustiara","angustiase"],"p1":["angustiáramos","angustiásemos"],"p2":["angustiarais","angustiaseis"],"p3":["angustiaran","angustiasen"]},
+    "SubFut": {"s1":["angustiare"],"s2":["angustiares"],"vos":["angustiares"],"s3":["angustiare"],"p1":["angustiáremos"],"p2":["angustiareis"],"p3":["angustiaren"]},
+    "CmdPos": {"s2":["angustia"],"vos":["angustiá"],"s3":["angustie"],"p1":["angustiemos"],"p2":["angustiad"],"p3":["angustien"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋxwaˈɣ̞aɾ]",
+    "silabacion": "en-jua-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"enjuagar","gerundio":["enjuagando"],"participio":["enjuagado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enjuago"],"s2":["enjuagas"],"vos":["enjuagás"],"s3":["enjuaga"],"p1":["enjuagamos"],"p2":["enjuagáis"],"p3":["enjuagan"]},
+    "IndImp": {"s1":["enjuagaba"],"s2":["enjuagabas"],"vos":["enjuagabas"],"s3":["enjuagaba"],"p1":["enjuagábamos"],"p2":["enjuagabais"],"p3":["enjuagaban"]},
+    "IndPret": {"s1":["enjuagué"],"s2":["enjuagaste"],"vos":["enjuagaste"],"s3":["enjuagó"],"p1":["enjuagamos"],"p2":["enjuagasteis"],"p3":["enjuagaron"]},
+    "IndFut": {"s1":["enjuagaré"],"s2":["enjuagarás"],"vos":["enjuagarás"],"s3":["enjuagará"],"p1":["enjuagaremos"],"p2":["enjuagaréis"],"p3":["enjuagarán"]},
+    "IndCond": {"s1":["enjuagaría"],"s2":["enjuagarías"],"vos":["enjuagarías"],"s3":["enjuagaría"],"p1":["enjuagaríamos"],"p2":["enjuagaríais"],"p3":["enjuagarían"]},
+    "SubPres": {"s1":["enjuague"],"s2":["enjuagues"],"vos":["enjuagues","enjuagués"],"s3":["enjuague"],"p1":["enjuaguemos"],"p2":["enjuaguéis"],"p3":["enjuaguen"]},
+    "SubImp": {"s1":["enjuagara","enjuagase"],"s2":["enjuagaras","enjuagases"],"vos":["enjuagaras","enjuagases"],"s3":["enjuagara","enjuagase"],"p1":["enjuagáramos","enjuagásemos"],"p2":["enjuagarais","enjuagaseis"],"p3":["enjuagaran","enjuagasen"]},
+    "SubFut": {"s1":["enjuagare"],"s2":["enjuagares"],"vos":["enjuagares"],"s3":["enjuagare"],"p1":["enjuagáremos"],"p2":["enjuagareis"],"p3":["enjuagaren"]},
+    "CmdPos": {"s2":["enjuaga"],"vos":["enjuagá"],"s3":["enjuague"],"p1":["enjuaguemos"],"p2":["enjuagad"],"p3":["enjuaguen"]}
+  }
+}

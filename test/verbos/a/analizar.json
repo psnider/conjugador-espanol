@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[analiˈsaɾ]",
+    "silabacion": "a-na-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De análisis y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"analizar","gerundio":["analizando"],"participio":["analizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["analizo"],"s2":["analizas"],"vos":["analizás"],"s3":["analiza"],"p1":["analizamos"],"p2":["analizáis"],"p3":["analizan"]},
+    "IndImp": {"s1":["analizaba"],"s2":["analizabas"],"vos":["analizabas"],"s3":["analizaba"],"p1":["analizábamos"],"p2":["analizabais"],"p3":["analizaban"]},
+    "IndPret": {"s1":["analicé"],"s2":["analizaste"],"vos":["analizaste"],"s3":["analizó"],"p1":["analizamos"],"p2":["analizasteis"],"p3":["analizaron"]},
+    "IndFut": {"s1":["analizaré"],"s2":["analizarás"],"vos":["analizarás"],"s3":["analizará"],"p1":["analizaremos"],"p2":["analizaréis"],"p3":["analizarán"]},
+    "IndCond": {"s1":["analizaría"],"s2":["analizarías"],"vos":["analizarías"],"s3":["analizaría"],"p1":["analizaríamos"],"p2":["analizaríais"],"p3":["analizarían"]},
+    "SubPres": {"s1":["analice"],"s2":["analices"],"vos":["analices","analicés"],"s3":["analice"],"p1":["analicemos"],"p2":["analicéis"],"p3":["analicen"]},
+    "SubImp": {"s1":["analizara","analizase"],"s2":["analizaras","analizases"],"vos":["analizaras","analizases"],"s3":["analizara","analizase"],"p1":["analizáramos","analizásemos"],"p2":["analizarais","analizaseis"],"p3":["analizaran","analizasen"]},
+    "SubFut": {"s1":["analizare"],"s2":["analizares"],"vos":["analizares"],"s3":["analizare"],"p1":["analizáremos"],"p2":["analizareis"],"p3":["analizaren"]},
+    "CmdPos": {"s2":["analiza"],"vos":["analizá"],"s3":["analice"],"p1":["analicemos"],"p2":["analizad"],"p3":["analicen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ãnˈsaɾ]",
+    "silabacion": "a-van-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tardío *abantiare, derivado de abante.[1] Compárese con el portugués avançar, el catalán avançar[2], el italiano avanzare[3][4] o el francés avancer[5].",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"avanzar","gerundio":["avanzando"],"participio":["avanzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["avanzo"],"s2":["avanzas"],"vos":["avanzás"],"s3":["avanza"],"p1":["avanzamos"],"p2":["avanzáis"],"p3":["avanzan"]},
+    "IndImp": {"s1":["avanzaba"],"s2":["avanzabas"],"vos":["avanzabas"],"s3":["avanzaba"],"p1":["avanzábamos"],"p2":["avanzabais"],"p3":["avanzaban"]},
+    "IndPret": {"s1":["avancé"],"s2":["avanzaste"],"vos":["avanzaste"],"s3":["avanzó"],"p1":["avanzamos"],"p2":["avanzasteis"],"p3":["avanzaron"]},
+    "IndFut": {"s1":["avanzaré"],"s2":["avanzarás"],"vos":["avanzarás"],"s3":["avanzará"],"p1":["avanzaremos"],"p2":["avanzaréis"],"p3":["avanzarán"]},
+    "IndCond": {"s1":["avanzaría"],"s2":["avanzarías"],"vos":["avanzarías"],"s3":["avanzaría"],"p1":["avanzaríamos"],"p2":["avanzaríais"],"p3":["avanzarían"]},
+    "SubPres": {"s1":["avance"],"s2":["avances"],"vos":["avances","avancés"],"s3":["avance"],"p1":["avancemos"],"p2":["avancéis"],"p3":["avancen"]},
+    "SubImp": {"s1":["avanzara","avanzase"],"s2":["avanzaras","avanzases"],"vos":["avanzaras","avanzases"],"s3":["avanzara","avanzase"],"p1":["avanzáramos","avanzásemos"],"p2":["avanzarais","avanzaseis"],"p3":["avanzaran","avanzasen"]},
+    "SubFut": {"s1":["avanzare"],"s2":["avanzares"],"vos":["avanzares"],"s3":["avanzare"],"p1":["avanzáremos"],"p2":["avanzareis"],"p3":["avanzaren"]},
+    "CmdPos": {"s2":["avanza"],"vos":["avanzá"],"s3":["avance"],"p1":["avancemos"],"p2":["avanzad"],"p3":["avancen"]}
+  }
+}

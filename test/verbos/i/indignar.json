@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪d̪iɣ̞ˈnaɾ]",
+    "silabacion": "in-dig-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín indignāri.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"indignar","gerundio":["indignando"],"participio":["indignado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["indigno"],"s2":["indignas"],"vos":["indignás"],"s3":["indigna"],"p1":["indignamos"],"p2":["indignáis"],"p3":["indignan"]},
+    "IndImp": {"s1":["indignaba"],"s2":["indignabas"],"vos":["indignabas"],"s3":["indignaba"],"p1":["indignábamos"],"p2":["indignabais"],"p3":["indignaban"]},
+    "IndPret": {"s1":["indigné"],"s2":["indignaste"],"vos":["indignaste"],"s3":["indignó"],"p1":["indignamos"],"p2":["indignasteis"],"p3":["indignaron"]},
+    "IndFut": {"s1":["indignaré"],"s2":["indignarás"],"vos":["indignarás"],"s3":["indignará"],"p1":["indignaremos"],"p2":["indignaréis"],"p3":["indignarán"]},
+    "IndCond": {"s1":["indignaría"],"s2":["indignarías"],"vos":["indignarías"],"s3":["indignaría"],"p1":["indignaríamos"],"p2":["indignaríais"],"p3":["indignarían"]},
+    "SubPres": {"s1":["indigne"],"s2":["indignes"],"vos":["indignes","indignés"],"s3":["indigne"],"p1":["indignemos"],"p2":["indignéis"],"p3":["indignen"]},
+    "SubImp": {"s1":["indignara","indignase"],"s2":["indignaras","indignases"],"vos":["indignaras","indignases"],"s3":["indignara","indignase"],"p1":["indignáramos","indignásemos"],"p2":["indignarais","indignaseis"],"p3":["indignaran","indignasen"]},
+    "SubFut": {"s1":["indignare"],"s2":["indignares"],"vos":["indignares"],"s3":["indignare"],"p1":["indignáremos"],"p2":["indignareis"],"p3":["indignaren"]},
+    "CmdPos": {"s2":["indigna"],"vos":["indigná"],"s3":["indigne"],"p1":["indignemos"],"p2":["indignad"],"p3":["indignen"]}
+  }
+}

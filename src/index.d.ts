@@ -219,9 +219,15 @@ interface CambiosDerivacionales extends Cambios_Base {
 }
 
 
+export interface ParticipioComoAdjetivo {
+    adj: string
+    infinitivo: string
+}
+
 // Conjuga un verbo desde el infinitivo hasta las formas de un modo y tiempo.
 // También da las reglas aplicadas para conjugar las formas.
 export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbConjugationAnnotated | undefined
 export function deriveParticiples(infinitivo: string): {participles: Participios<FormaConjugada[]>, cambios_derivacionales: CambiosDerivacionales} | undefined
 export function deconstruyeIDDeFormaConjugada(id: IDDeFormaConjugada) : {infinitivo: string, modo_tiempo: MoodTense, persona: GrammaticalPerson, uso?: Uso}
 export function generaIndiceDeFormasConjugadas() : IndiceDeFormasDeVerbos
+export function derivaAdjetivosDeParticipios() : ParticipioComoAdjetivo[]

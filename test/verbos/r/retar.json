@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reˈt̪aɾ]",
+    "silabacion": "re-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo reptar, del latín reputāre ('considerar, reparar en algo').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"retar","gerundio":["retando"],"participio":["retado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reto"],"s2":["retas"],"vos":["retás"],"s3":["reta"],"p1":["retamos"],"p2":["retáis"],"p3":["retan"]},
+    "IndImp": {"s1":["retaba"],"s2":["retabas"],"vos":["retabas"],"s3":["retaba"],"p1":["retábamos"],"p2":["retabais"],"p3":["retaban"]},
+    "IndPret": {"s1":["reté"],"s2":["retaste"],"vos":["retaste"],"s3":["retó"],"p1":["retamos"],"p2":["retasteis"],"p3":["retaron"]},
+    "IndFut": {"s1":["retaré"],"s2":["retarás"],"vos":["retarás"],"s3":["retará"],"p1":["retaremos"],"p2":["retaréis"],"p3":["retarán"]},
+    "IndCond": {"s1":["retaría"],"s2":["retarías"],"vos":["retarías"],"s3":["retaría"],"p1":["retaríamos"],"p2":["retaríais"],"p3":["retarían"]},
+    "SubPres": {"s1":["rete"],"s2":["retes"],"vos":["retes","retés"],"s3":["rete"],"p1":["retemos"],"p2":["retéis"],"p3":["reten"]},
+    "SubImp": {"s1":["retara","retase"],"s2":["retaras","retases"],"vos":["retaras","retases"],"s3":["retara","retase"],"p1":["retáramos","retásemos"],"p2":["retarais","retaseis"],"p3":["retaran","retasen"]},
+    "SubFut": {"s1":["retare"],"s2":["retares"],"vos":["retares"],"s3":["retare"],"p1":["retáremos"],"p2":["retareis"],"p3":["retaren"]},
+    "CmdPos": {"s2":["reta"],"vos":["retá"],"s3":["rete"],"p1":["retemos"],"p2":["retad"],"p3":["reten"]}
+  }
+}

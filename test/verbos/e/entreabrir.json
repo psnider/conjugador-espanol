@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾeaˈβ̞ɾiɾ]",
+    "silabacion": "en-tre-a-brir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo entre- y abrir.",
+    "modelos": ["abrir"]
+  },
+  "formas_no_personales": {"infinitivo":"entreabrir","gerundio":["entreabriendo"],"participio":["entreabierto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entreabro"],"s2":["entreabres"],"vos":["entreabrís"],"s3":["entreabre"],"p1":["entreabrimos"],"p2":["entreabrís"],"p3":["entreabren"]},
+    "IndImp": {"s1":["entreabría"],"s2":["entreabrías"],"vos":["entreabrías"],"s3":["entreabría"],"p1":["entreabríamos"],"p2":["entreabríais"],"p3":["entreabrían"]},
+    "IndPret": {"s1":["entreabrí"],"s2":["entreabriste"],"vos":["entreabriste"],"s3":["entreabrió"],"p1":["entreabrimos"],"p2":["entreabristeis"],"p3":["entreabrieron"]},
+    "IndFut": {"s1":["entreabriré"],"s2":["entreabrirás"],"vos":["entreabrirás"],"s3":["entreabrirá"],"p1":["entreabriremos"],"p2":["entreabriréis"],"p3":["entreabrirán"]},
+    "IndCond": {"s1":["entreabriría"],"s2":["entreabrirías"],"vos":["entreabrirías"],"s3":["entreabriría"],"p1":["entreabriríamos"],"p2":["entreabriríais"],"p3":["entreabrirían"]},
+    "SubPres": {"s1":["entreabra"],"s2":["entreabras"],"vos":["entreabras","entreabrás"],"s3":["entreabra"],"p1":["entreabramos"],"p2":["entreabráis"],"p3":["entreabran"]},
+    "SubImp": {"s1":["entreabriera","entreabriese"],"s2":["entreabrieras","entreabrieses"],"vos":["entreabrieras","entreabrieses"],"s3":["entreabriera","entreabriese"],"p1":["entreabriéramos","entreabriésemos"],"p2":["entreabrierais","entreabrieseis"],"p3":["entreabrieran","entreabriesen"]},
+    "SubFut": {"s1":["entreabriere"],"s2":["entreabrieres"],"vos":["entreabrieres"],"s3":["entreabriere"],"p1":["entreabriéremos"],"p2":["entreabriereis"],"p3":["entreabrieren"]},
+    "CmdPos": {"s2":["entreabre"],"vos":["entreabrí"],"s3":["entreabra"],"p1":["entreabramos"],"p2":["entreabrid"],"p3":["entreabran"]}
+  }
+}

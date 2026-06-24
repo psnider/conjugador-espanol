@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[moβ̞iliˈsaɾ]",
+    "silabacion": "mo-vi-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De móvil y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"movilizar","gerundio":["movilizando"],"participio":["movilizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["movilizo"],"s2":["movilizas"],"vos":["movilizás"],"s3":["moviliza"],"p1":["movilizamos"],"p2":["movilizáis"],"p3":["movilizan"]},
+    "IndImp": {"s1":["movilizaba"],"s2":["movilizabas"],"vos":["movilizabas"],"s3":["movilizaba"],"p1":["movilizábamos"],"p2":["movilizabais"],"p3":["movilizaban"]},
+    "IndPret": {"s1":["movilicé"],"s2":["movilizaste"],"vos":["movilizaste"],"s3":["movilizó"],"p1":["movilizamos"],"p2":["movilizasteis"],"p3":["movilizaron"]},
+    "IndFut": {"s1":["movilizaré"],"s2":["movilizarás"],"vos":["movilizarás"],"s3":["movilizará"],"p1":["movilizaremos"],"p2":["movilizaréis"],"p3":["movilizarán"]},
+    "IndCond": {"s1":["movilizaría"],"s2":["movilizarías"],"vos":["movilizarías"],"s3":["movilizaría"],"p1":["movilizaríamos"],"p2":["movilizaríais"],"p3":["movilizarían"]},
+    "SubPres": {"s1":["movilice"],"s2":["movilices"],"vos":["movilices","movilicés"],"s3":["movilice"],"p1":["movilicemos"],"p2":["movilicéis"],"p3":["movilicen"]},
+    "SubImp": {"s1":["movilizara","movilizase"],"s2":["movilizaras","movilizases"],"vos":["movilizaras","movilizases"],"s3":["movilizara","movilizase"],"p1":["movilizáramos","movilizásemos"],"p2":["movilizarais","movilizaseis"],"p3":["movilizaran","movilizasen"]},
+    "SubFut": {"s1":["movilizare"],"s2":["movilizares"],"vos":["movilizares"],"s3":["movilizare"],"p1":["movilizáremos"],"p2":["movilizareis"],"p3":["movilizaren"]},
+    "CmdPos": {"s2":["moviliza"],"vos":["movilizá"],"s3":["movilice"],"p1":["movilicemos"],"p2":["movilizad"],"p3":["movilicen"]}
+  }
+}

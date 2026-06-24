@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[solaˈpaɾ]",
+    "silabacion": "so-la-par",
+    "acentuacion": "aguda",
+    "etimologia": "De solapa y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"solapar","gerundio":["solapando"],"participio":["solapado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["solapo"],"s2":["solapas"],"vos":["solapás"],"s3":["solapa"],"p1":["solapamos"],"p2":["solapáis"],"p3":["solapan"]},
+    "IndImp": {"s1":["solapaba"],"s2":["solapabas"],"vos":["solapabas"],"s3":["solapaba"],"p1":["solapábamos"],"p2":["solapabais"],"p3":["solapaban"]},
+    "IndPret": {"s1":["solapé"],"s2":["solapaste"],"vos":["solapaste"],"s3":["solapó"],"p1":["solapamos"],"p2":["solapasteis"],"p3":["solaparon"]},
+    "IndFut": {"s1":["solaparé"],"s2":["solaparás"],"vos":["solaparás"],"s3":["solapará"],"p1":["solaparemos"],"p2":["solaparéis"],"p3":["solaparán"]},
+    "IndCond": {"s1":["solaparía"],"s2":["solaparías"],"vos":["solaparías"],"s3":["solaparía"],"p1":["solaparíamos"],"p2":["solaparíais"],"p3":["solaparían"]},
+    "SubPres": {"s1":["solape"],"s2":["solapes"],"vos":["solapes","solapés"],"s3":["solape"],"p1":["solapemos"],"p2":["solapéis"],"p3":["solapen"]},
+    "SubImp": {"s1":["solapara","solapase"],"s2":["solaparas","solapases"],"vos":["solaparas","solapases"],"s3":["solapara","solapase"],"p1":["solapáramos","solapásemos"],"p2":["solaparais","solapaseis"],"p3":["solaparan","solapasen"]},
+    "SubFut": {"s1":["solapare"],"s2":["solapares"],"vos":["solapares"],"s3":["solapare"],"p1":["solapáremos"],"p2":["solapareis"],"p3":["solaparen"]},
+    "CmdPos": {"s2":["solapa"],"vos":["solapá"],"s3":["solape"],"p1":["solapemos"],"p2":["solapad"],"p3":["solapen"]}
+  }
+}

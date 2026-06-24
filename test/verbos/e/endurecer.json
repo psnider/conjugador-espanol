@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪d̪uɾeˈseɾ]",
+    "silabacion": "en-du-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín indurescĕre, compuesto con el prefijo in- y durescere.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"endurecer","gerundio":["endureciendo"],"participio":["endurecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["endurezco"],"s2":["endureces"],"vos":["endurecés"],"s3":["endurece"],"p1":["endurecemos"],"p2":["endurecéis"],"p3":["endurecen"]},
+    "IndImp": {"s1":["endurecía"],"s2":["endurecías"],"vos":["endurecías"],"s3":["endurecía"],"p1":["endurecíamos"],"p2":["endurecíais"],"p3":["endurecían"]},
+    "IndPret": {"s1":["endurecí"],"s2":["endureciste"],"vos":["endureciste"],"s3":["endureció"],"p1":["endurecimos"],"p2":["endurecisteis"],"p3":["endurecieron"]},
+    "IndFut": {"s1":["endureceré"],"s2":["endurecerás"],"vos":["endurecerás"],"s3":["endurecerá"],"p1":["endureceremos"],"p2":["endureceréis"],"p3":["endurecerán"]},
+    "IndCond": {"s1":["endurecería"],"s2":["endurecerías"],"vos":["endurecerías"],"s3":["endurecería"],"p1":["endureceríamos"],"p2":["endureceríais"],"p3":["endurecerían"]},
+    "SubPres": {"s1":["endurezca"],"s2":["endurezcas"],"vos":["endurezcas","endurezcás"],"s3":["endurezca"],"p1":["endurezcamos"],"p2":["endurezcáis"],"p3":["endurezcan"]},
+    "SubImp": {"s1":["endureciera","endureciese"],"s2":["endurecieras","endurecieses"],"vos":["endurecieras","endurecieses"],"s3":["endureciera","endureciese"],"p1":["endureciéramos","endureciésemos"],"p2":["endurecierais","endurecieseis"],"p3":["endurecieran","endureciesen"]},
+    "SubFut": {"s1":["endureciere"],"s2":["endurecieres"],"vos":["endurecieres"],"s3":["endureciere"],"p1":["endureciéremos"],"p2":["endureciereis"],"p3":["endurecieren"]},
+    "CmdPos": {"s2":["endurece"],"vos":["endurecé"],"s3":["endurezca"],"p1":["endurezcamos"],"p2":["endureced"],"p3":["endurezcan"]}
+  }
+}

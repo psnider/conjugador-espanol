@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪t̪eɾseˈð̞eɾ]",
+    "silabacion": "in-ter-ce-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín intercedēre",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"interceder","gerundio":["intercediendo"],"participio":["intercedido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["intercedo"],"s2":["intercedes"],"vos":["intercedés"],"s3":["intercede"],"p1":["intercedemos"],"p2":["intercedéis"],"p3":["interceden"]},
+    "IndImp": {"s1":["intercedía"],"s2":["intercedías"],"vos":["intercedías"],"s3":["intercedía"],"p1":["intercedíamos"],"p2":["intercedíais"],"p3":["intercedían"]},
+    "IndPret": {"s1":["intercedí"],"s2":["intercediste"],"vos":["intercediste"],"s3":["intercedió"],"p1":["intercedimos"],"p2":["intercedisteis"],"p3":["intercedieron"]},
+    "IndFut": {"s1":["intercederé"],"s2":["intercederás"],"vos":["intercederás"],"s3":["intercederá"],"p1":["intercederemos"],"p2":["intercederéis"],"p3":["intercederán"]},
+    "IndCond": {"s1":["intercedería"],"s2":["intercederías"],"vos":["intercederías"],"s3":["intercedería"],"p1":["intercederíamos"],"p2":["intercederíais"],"p3":["intercederían"]},
+    "SubPres": {"s1":["interceda"],"s2":["intercedas"],"vos":["intercedas","intercedás"],"s3":["interceda"],"p1":["intercedamos"],"p2":["intercedáis"],"p3":["intercedan"]},
+    "SubImp": {"s1":["intercediera","intercediese"],"s2":["intercedieras","intercedieses"],"vos":["intercedieras","intercedieses"],"s3":["intercediera","intercediese"],"p1":["intercediéramos","intercediésemos"],"p2":["intercedierais","intercedieseis"],"p3":["intercedieran","intercediesen"]},
+    "SubFut": {"s1":["intercediere"],"s2":["intercedieres"],"vos":["intercedieres"],"s3":["intercediere"],"p1":["intercediéremos"],"p2":["intercediereis"],"p3":["intercedieren"]},
+    "CmdPos": {"s2":["intercede"],"vos":["intercedé"],"s3":["interceda"],"p1":["intercedamos"],"p2":["interceded"],"p3":["intercedan"]}
+  }
+}

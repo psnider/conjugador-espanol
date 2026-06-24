@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reskeβ̞ɾaˈxaɾ]",
+    "silabacion": "res-que-bra-jar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"resquebrajar","gerundio":["resquebrajando"],"participio":["resquebrajado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["resquebrajo"],"s2":["resquebrajas"],"vos":["resquebrajás"],"s3":["resquebraja"],"p1":["resquebrajamos"],"p2":["resquebrajáis"],"p3":["resquebrajan"]},
+    "IndImp": {"s1":["resquebrajaba"],"s2":["resquebrajabas"],"vos":["resquebrajabas"],"s3":["resquebrajaba"],"p1":["resquebrajábamos"],"p2":["resquebrajabais"],"p3":["resquebrajaban"]},
+    "IndPret": {"s1":["resquebrajé"],"s2":["resquebrajaste"],"vos":["resquebrajaste"],"s3":["resquebrajó"],"p1":["resquebrajamos"],"p2":["resquebrajasteis"],"p3":["resquebrajaron"]},
+    "IndFut": {"s1":["resquebrajaré"],"s2":["resquebrajarás"],"vos":["resquebrajarás"],"s3":["resquebrajará"],"p1":["resquebrajaremos"],"p2":["resquebrajaréis"],"p3":["resquebrajarán"]},
+    "IndCond": {"s1":["resquebrajaría"],"s2":["resquebrajarías"],"vos":["resquebrajarías"],"s3":["resquebrajaría"],"p1":["resquebrajaríamos"],"p2":["resquebrajaríais"],"p3":["resquebrajarían"]},
+    "SubPres": {"s1":["resquebraje"],"s2":["resquebrajes"],"vos":["resquebrajes","resquebrajés"],"s3":["resquebraje"],"p1":["resquebrajemos"],"p2":["resquebrajéis"],"p3":["resquebrajen"]},
+    "SubImp": {"s1":["resquebrajara","resquebrajase"],"s2":["resquebrajaras","resquebrajases"],"vos":["resquebrajaras","resquebrajases"],"s3":["resquebrajara","resquebrajase"],"p1":["resquebrajáramos","resquebrajásemos"],"p2":["resquebrajarais","resquebrajaseis"],"p3":["resquebrajaran","resquebrajasen"]},
+    "SubFut": {"s1":["resquebrajare"],"s2":["resquebrajares"],"vos":["resquebrajares"],"s3":["resquebrajare"],"p1":["resquebrajáremos"],"p2":["resquebrajareis"],"p3":["resquebrajaren"]},
+    "CmdPos": {"s2":["resquebraja"],"vos":["resquebrajá"],"s3":["resquebraje"],"p1":["resquebrajemos"],"p2":["resquebrajad"],"p3":["resquebrajen"]}
+  }
+}

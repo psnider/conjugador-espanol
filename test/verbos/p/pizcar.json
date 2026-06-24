@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pisˈkaɾ]",
+    "silabacion": "piz-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"pizcar","gerundio":["pizcando"],"participio":["pizcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pizco"],"s2":["pizcas"],"vos":["pizcás"],"s3":["pizca"],"p1":["pizcamos"],"p2":["pizcáis"],"p3":["pizcan"]},
+    "IndImp": {"s1":["pizcaba"],"s2":["pizcabas"],"vos":["pizcabas"],"s3":["pizcaba"],"p1":["pizcábamos"],"p2":["pizcabais"],"p3":["pizcaban"]},
+    "IndPret": {"s1":["pizqué"],"s2":["pizcaste"],"vos":["pizcaste"],"s3":["pizcó"],"p1":["pizcamos"],"p2":["pizcasteis"],"p3":["pizcaron"]},
+    "IndFut": {"s1":["pizcaré"],"s2":["pizcarás"],"vos":["pizcarás"],"s3":["pizcará"],"p1":["pizcaremos"],"p2":["pizcaréis"],"p3":["pizcarán"]},
+    "IndCond": {"s1":["pizcaría"],"s2":["pizcarías"],"vos":["pizcarías"],"s3":["pizcaría"],"p1":["pizcaríamos"],"p2":["pizcaríais"],"p3":["pizcarían"]},
+    "SubPres": {"s1":["pizque"],"s2":["pizques"],"vos":["pizques","pizqués"],"s3":["pizque"],"p1":["pizquemos"],"p2":["pizquéis"],"p3":["pizquen"]},
+    "SubImp": {"s1":["pizcara","pizcase"],"s2":["pizcaras","pizcases"],"vos":["pizcaras","pizcases"],"s3":["pizcara","pizcase"],"p1":["pizcáramos","pizcásemos"],"p2":["pizcarais","pizcaseis"],"p3":["pizcaran","pizcasen"]},
+    "SubFut": {"s1":["pizcare"],"s2":["pizcares"],"vos":["pizcares"],"s3":["pizcare"],"p1":["pizcáremos"],"p2":["pizcareis"],"p3":["pizcaren"]},
+    "CmdPos": {"s2":["pizca"],"vos":["pizcá"],"s3":["pizque"],"p1":["pizquemos"],"p2":["pizcad"],"p3":["pizquen"]}
+  }
+}

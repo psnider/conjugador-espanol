@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espesjaliˈsaɾ]",
+    "silabacion": "es-pe-cia-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"especializar","gerundio":["especializando"],"participio":["especializado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["especializo"],"s2":["especializas"],"vos":["especializás"],"s3":["especializa"],"p1":["especializamos"],"p2":["especializáis"],"p3":["especializan"]},
+    "IndImp": {"s1":["especializaba"],"s2":["especializabas"],"vos":["especializabas"],"s3":["especializaba"],"p1":["especializábamos"],"p2":["especializabais"],"p3":["especializaban"]},
+    "IndPret": {"s1":["especialicé"],"s2":["especializaste"],"vos":["especializaste"],"s3":["especializó"],"p1":["especializamos"],"p2":["especializasteis"],"p3":["especializaron"]},
+    "IndFut": {"s1":["especializaré"],"s2":["especializarás"],"vos":["especializarás"],"s3":["especializará"],"p1":["especializaremos"],"p2":["especializaréis"],"p3":["especializarán"]},
+    "IndCond": {"s1":["especializaría"],"s2":["especializarías"],"vos":["especializarías"],"s3":["especializaría"],"p1":["especializaríamos"],"p2":["especializaríais"],"p3":["especializarían"]},
+    "SubPres": {"s1":["especialice"],"s2":["especialices"],"vos":["especialices","especialicés"],"s3":["especialice"],"p1":["especialicemos"],"p2":["especialicéis"],"p3":["especialicen"]},
+    "SubImp": {"s1":["especializara","especializase"],"s2":["especializaras","especializases"],"vos":["especializaras","especializases"],"s3":["especializara","especializase"],"p1":["especializáramos","especializásemos"],"p2":["especializarais","especializaseis"],"p3":["especializaran","especializasen"]},
+    "SubFut": {"s1":["especializare"],"s2":["especializares"],"vos":["especializares"],"s3":["especializare"],"p1":["especializáremos"],"p2":["especializareis"],"p3":["especializaren"]},
+    "CmdPos": {"s2":["especializa"],"vos":["especializá"],"s3":["especialice"],"p1":["especialicemos"],"p2":["especializad"],"p3":["especialicen"]}
+  }
+}

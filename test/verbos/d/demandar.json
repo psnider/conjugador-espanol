@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪emãn̪ˈd̪aɾ]",
+    "silabacion": "de-man-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín demandāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"demandar","gerundio":["demandando"],"participio":["demandado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["demando"],"s2":["demandas"],"vos":["demandás"],"s3":["demanda"],"p1":["demandamos"],"p2":["demandáis"],"p3":["demandan"]},
+    "IndImp": {"s1":["demandaba"],"s2":["demandabas"],"vos":["demandabas"],"s3":["demandaba"],"p1":["demandábamos"],"p2":["demandabais"],"p3":["demandaban"]},
+    "IndPret": {"s1":["demandé"],"s2":["demandaste"],"vos":["demandaste"],"s3":["demandó"],"p1":["demandamos"],"p2":["demandasteis"],"p3":["demandaron"]},
+    "IndFut": {"s1":["demandaré"],"s2":["demandarás"],"vos":["demandarás"],"s3":["demandará"],"p1":["demandaremos"],"p2":["demandaréis"],"p3":["demandarán"]},
+    "IndCond": {"s1":["demandaría"],"s2":["demandarías"],"vos":["demandarías"],"s3":["demandaría"],"p1":["demandaríamos"],"p2":["demandaríais"],"p3":["demandarían"]},
+    "SubPres": {"s1":["demande"],"s2":["demandes"],"vos":["demandes","demandés"],"s3":["demande"],"p1":["demandemos"],"p2":["demandéis"],"p3":["demanden"]},
+    "SubImp": {"s1":["demandara","demandase"],"s2":["demandaras","demandases"],"vos":["demandaras","demandases"],"s3":["demandara","demandase"],"p1":["demandáramos","demandásemos"],"p2":["demandarais","demandaseis"],"p3":["demandaran","demandasen"]},
+    "SubFut": {"s1":["demandare"],"s2":["demandares"],"vos":["demandares"],"s3":["demandare"],"p1":["demandáremos"],"p2":["demandareis"],"p3":["demandaren"]},
+    "CmdPos": {"s2":["demanda"],"vos":["demandá"],"s3":["demande"],"p1":["demandemos"],"p2":["demandad"],"p3":["demanden"]}
+  }
+}

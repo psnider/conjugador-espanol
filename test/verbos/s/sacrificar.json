@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sakɾifiˈkaɾ]",
+    "silabacion": "sa-cri-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"sacrificar","gerundio":["sacrificando"],"participio":["sacrificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sacrifico"],"s2":["sacrificas"],"vos":["sacrificás"],"s3":["sacrifica"],"p1":["sacrificamos"],"p2":["sacrificáis"],"p3":["sacrifican"]},
+    "IndImp": {"s1":["sacrificaba"],"s2":["sacrificabas"],"vos":["sacrificabas"],"s3":["sacrificaba"],"p1":["sacrificábamos"],"p2":["sacrificabais"],"p3":["sacrificaban"]},
+    "IndPret": {"s1":["sacrifiqué"],"s2":["sacrificaste"],"vos":["sacrificaste"],"s3":["sacrificó"],"p1":["sacrificamos"],"p2":["sacrificasteis"],"p3":["sacrificaron"]},
+    "IndFut": {"s1":["sacrificaré"],"s2":["sacrificarás"],"vos":["sacrificarás"],"s3":["sacrificará"],"p1":["sacrificaremos"],"p2":["sacrificaréis"],"p3":["sacrificarán"]},
+    "IndCond": {"s1":["sacrificaría"],"s2":["sacrificarías"],"vos":["sacrificarías"],"s3":["sacrificaría"],"p1":["sacrificaríamos"],"p2":["sacrificaríais"],"p3":["sacrificarían"]},
+    "SubPres": {"s1":["sacrifique"],"s2":["sacrifiques"],"vos":["sacrifiques","sacrifiqués"],"s3":["sacrifique"],"p1":["sacrifiquemos"],"p2":["sacrifiquéis"],"p3":["sacrifiquen"]},
+    "SubImp": {"s1":["sacrificara","sacrificase"],"s2":["sacrificaras","sacrificases"],"vos":["sacrificaras","sacrificases"],"s3":["sacrificara","sacrificase"],"p1":["sacrificáramos","sacrificásemos"],"p2":["sacrificarais","sacrificaseis"],"p3":["sacrificaran","sacrificasen"]},
+    "SubFut": {"s1":["sacrificare"],"s2":["sacrificares"],"vos":["sacrificares"],"s3":["sacrificare"],"p1":["sacrificáremos"],"p2":["sacrificareis"],"p3":["sacrificaren"]},
+    "CmdPos": {"s2":["sacrifica"],"vos":["sacrificá"],"s3":["sacrifique"],"p1":["sacrifiquemos"],"p2":["sacrificad"],"p3":["sacrifiquen"]}
+  }
+}

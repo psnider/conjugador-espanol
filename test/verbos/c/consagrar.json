@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõnsaˈɣ̞ɾaɾ]",
+    "silabacion": "con-sa-grar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín consecrāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"consagrar","gerundio":["consagrando"],"participio":["consagrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["consagro"],"s2":["consagras"],"vos":["consagrás"],"s3":["consagra"],"p1":["consagramos"],"p2":["consagráis"],"p3":["consagran"]},
+    "IndImp": {"s1":["consagraba"],"s2":["consagrabas"],"vos":["consagrabas"],"s3":["consagraba"],"p1":["consagrábamos"],"p2":["consagrabais"],"p3":["consagraban"]},
+    "IndPret": {"s1":["consagré"],"s2":["consagraste"],"vos":["consagraste"],"s3":["consagró"],"p1":["consagramos"],"p2":["consagrasteis"],"p3":["consagraron"]},
+    "IndFut": {"s1":["consagraré"],"s2":["consagrarás"],"vos":["consagrarás"],"s3":["consagrará"],"p1":["consagraremos"],"p2":["consagraréis"],"p3":["consagrarán"]},
+    "IndCond": {"s1":["consagraría"],"s2":["consagrarías"],"vos":["consagrarías"],"s3":["consagraría"],"p1":["consagraríamos"],"p2":["consagraríais"],"p3":["consagrarían"]},
+    "SubPres": {"s1":["consagre"],"s2":["consagres"],"vos":["consagres","consagrés"],"s3":["consagre"],"p1":["consagremos"],"p2":["consagréis"],"p3":["consagren"]},
+    "SubImp": {"s1":["consagrara","consagrase"],"s2":["consagraras","consagrases"],"vos":["consagraras","consagrases"],"s3":["consagrara","consagrase"],"p1":["consagráramos","consagrásemos"],"p2":["consagrarais","consagraseis"],"p3":["consagraran","consagrasen"]},
+    "SubFut": {"s1":["consagrare"],"s2":["consagrares"],"vos":["consagrares"],"s3":["consagrare"],"p1":["consagráremos"],"p2":["consagrareis"],"p3":["consagraren"]},
+    "CmdPos": {"s2":["consagra"],"vos":["consagrá"],"s3":["consagre"],"p1":["consagremos"],"p2":["consagrad"],"p3":["consagren"]}
+  }
+}

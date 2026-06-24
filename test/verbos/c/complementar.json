@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõmplemẽn̪ˈt̪aɾ]",
+    "silabacion": "com-ple-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De complemento y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"complementar","gerundio":["complementando"],"participio":["complementado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["complemento"],"s2":["complementas"],"vos":["complementás"],"s3":["complementa"],"p1":["complementamos"],"p2":["complementáis"],"p3":["complementan"]},
+    "IndImp": {"s1":["complementaba"],"s2":["complementabas"],"vos":["complementabas"],"s3":["complementaba"],"p1":["complementábamos"],"p2":["complementabais"],"p3":["complementaban"]},
+    "IndPret": {"s1":["complementé"],"s2":["complementaste"],"vos":["complementaste"],"s3":["complementó"],"p1":["complementamos"],"p2":["complementasteis"],"p3":["complementaron"]},
+    "IndFut": {"s1":["complementaré"],"s2":["complementarás"],"vos":["complementarás"],"s3":["complementará"],"p1":["complementaremos"],"p2":["complementaréis"],"p3":["complementarán"]},
+    "IndCond": {"s1":["complementaría"],"s2":["complementarías"],"vos":["complementarías"],"s3":["complementaría"],"p1":["complementaríamos"],"p2":["complementaríais"],"p3":["complementarían"]},
+    "SubPres": {"s1":["complemente"],"s2":["complementes"],"vos":["complementes","complementés"],"s3":["complemente"],"p1":["complementemos"],"p2":["complementéis"],"p3":["complementen"]},
+    "SubImp": {"s1":["complementara","complementase"],"s2":["complementaras","complementases"],"vos":["complementaras","complementases"],"s3":["complementara","complementase"],"p1":["complementáramos","complementásemos"],"p2":["complementarais","complementaseis"],"p3":["complementaran","complementasen"]},
+    "SubFut": {"s1":["complementare"],"s2":["complementares"],"vos":["complementares"],"s3":["complementare"],"p1":["complementáremos"],"p2":["complementareis"],"p3":["complementaren"]},
+    "CmdPos": {"s2":["complementa"],"vos":["complementá"],"s3":["complemente"],"p1":["complementemos"],"p2":["complementad"],"p3":["complementen"]}
+  }
+}

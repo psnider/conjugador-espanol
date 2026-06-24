@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmbẽn̪ˈt̪aɾ]",
+    "silabacion": "in-ven-tar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inventar","gerundio":["inventando"],"participio":["inventado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["invento"],"s2":["inventas"],"vos":["inventás"],"s3":["inventa"],"p1":["inventamos"],"p2":["inventáis"],"p3":["inventan"]},
+    "IndImp": {"s1":["inventaba"],"s2":["inventabas"],"vos":["inventabas"],"s3":["inventaba"],"p1":["inventábamos"],"p2":["inventabais"],"p3":["inventaban"]},
+    "IndPret": {"s1":["inventé"],"s2":["inventaste"],"vos":["inventaste"],"s3":["inventó"],"p1":["inventamos"],"p2":["inventasteis"],"p3":["inventaron"]},
+    "IndFut": {"s1":["inventaré"],"s2":["inventarás"],"vos":["inventarás"],"s3":["inventará"],"p1":["inventaremos"],"p2":["inventaréis"],"p3":["inventarán"]},
+    "IndCond": {"s1":["inventaría"],"s2":["inventarías"],"vos":["inventarías"],"s3":["inventaría"],"p1":["inventaríamos"],"p2":["inventaríais"],"p3":["inventarían"]},
+    "SubPres": {"s1":["invente"],"s2":["inventes"],"vos":["inventes","inventés"],"s3":["invente"],"p1":["inventemos"],"p2":["inventéis"],"p3":["inventen"]},
+    "SubImp": {"s1":["inventara","inventase"],"s2":["inventaras","inventases"],"vos":["inventaras","inventases"],"s3":["inventara","inventase"],"p1":["inventáramos","inventásemos"],"p2":["inventarais","inventaseis"],"p3":["inventaran","inventasen"]},
+    "SubFut": {"s1":["inventare"],"s2":["inventares"],"vos":["inventares"],"s3":["inventare"],"p1":["inventáremos"],"p2":["inventareis"],"p3":["inventaren"]},
+    "CmdPos": {"s2":["inventa"],"vos":["inventá"],"s3":["invente"],"p1":["inventemos"],"p2":["inventad"],"p3":["inventen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞oɾmeˈseɾ]",
+    "silabacion": "a-dor-me-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín addormiscere[1], del latín dormiscere[2], incoativo del latín dormire[3], del protoindoeuropeo *der-.[4]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"adormecer","gerundio":["adormeciendo"],"participio":["adormecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adormezco"],"s2":["adormeces"],"vos":["adormecés"],"s3":["adormece"],"p1":["adormecemos"],"p2":["adormecéis"],"p3":["adormecen"]},
+    "IndImp": {"s1":["adormecía"],"s2":["adormecías"],"vos":["adormecías"],"s3":["adormecía"],"p1":["adormecíamos"],"p2":["adormecíais"],"p3":["adormecían"]},
+    "IndPret": {"s1":["adormecí"],"s2":["adormeciste"],"vos":["adormeciste"],"s3":["adormeció"],"p1":["adormecimos"],"p2":["adormecisteis"],"p3":["adormecieron"]},
+    "IndFut": {"s1":["adormeceré"],"s2":["adormecerás"],"vos":["adormecerás"],"s3":["adormecerá"],"p1":["adormeceremos"],"p2":["adormeceréis"],"p3":["adormecerán"]},
+    "IndCond": {"s1":["adormecería"],"s2":["adormecerías"],"vos":["adormecerías"],"s3":["adormecería"],"p1":["adormeceríamos"],"p2":["adormeceríais"],"p3":["adormecerían"]},
+    "SubPres": {"s1":["adormezca"],"s2":["adormezcas"],"vos":["adormezcas","adormezcás"],"s3":["adormezca"],"p1":["adormezcamos"],"p2":["adormezcáis"],"p3":["adormezcan"]},
+    "SubImp": {"s1":["adormeciera","adormeciese"],"s2":["adormecieras","adormecieses"],"vos":["adormecieras","adormecieses"],"s3":["adormeciera","adormeciese"],"p1":["adormeciéramos","adormeciésemos"],"p2":["adormecierais","adormecieseis"],"p3":["adormecieran","adormeciesen"]},
+    "SubFut": {"s1":["adormeciere"],"s2":["adormecieres"],"vos":["adormecieres"],"s3":["adormeciere"],"p1":["adormeciéremos"],"p2":["adormeciereis"],"p3":["adormecieren"]},
+    "CmdPos": {"s2":["adormece"],"vos":["adormecé"],"s3":["adormezca"],"p1":["adormezcamos"],"p2":["adormeced"],"p3":["adormezcan"]}
+  }
+}

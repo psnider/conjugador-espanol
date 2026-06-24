@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asˈpaɾ]",
+    "silabacion": "as-par",
+    "acentuacion": "aguda",
+    "etimologia": "De aspa y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aspar","gerundio":["aspando"],"participio":["aspado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aspo"],"s2":["aspas"],"vos":["aspás"],"s3":["aspa"],"p1":["aspamos"],"p2":["aspáis"],"p3":["aspan"]},
+    "IndImp": {"s1":["aspaba"],"s2":["aspabas"],"vos":["aspabas"],"s3":["aspaba"],"p1":["aspábamos"],"p2":["aspabais"],"p3":["aspaban"]},
+    "IndPret": {"s1":["aspé"],"s2":["aspaste"],"vos":["aspaste"],"s3":["aspó"],"p1":["aspamos"],"p2":["aspasteis"],"p3":["asparon"]},
+    "IndFut": {"s1":["asparé"],"s2":["asparás"],"vos":["asparás"],"s3":["aspará"],"p1":["asparemos"],"p2":["asparéis"],"p3":["asparán"]},
+    "IndCond": {"s1":["asparía"],"s2":["asparías"],"vos":["asparías"],"s3":["asparía"],"p1":["asparíamos"],"p2":["asparíais"],"p3":["asparían"]},
+    "SubPres": {"s1":["aspe"],"s2":["aspes"],"vos":["aspes","aspés"],"s3":["aspe"],"p1":["aspemos"],"p2":["aspéis"],"p3":["aspen"]},
+    "SubImp": {"s1":["aspara","aspase"],"s2":["asparas","aspases"],"vos":["asparas","aspases"],"s3":["aspara","aspase"],"p1":["aspáramos","aspásemos"],"p2":["asparais","aspaseis"],"p3":["asparan","aspasen"]},
+    "SubFut": {"s1":["aspare"],"s2":["aspares"],"vos":["aspares"],"s3":["aspare"],"p1":["aspáremos"],"p2":["aspareis"],"p3":["asparen"]},
+    "CmdPos": {"s2":["aspa"],"vos":["aspá"],"s3":["aspe"],"p1":["aspemos"],"p2":["aspad"],"p3":["aspen"]}
+  }
+}

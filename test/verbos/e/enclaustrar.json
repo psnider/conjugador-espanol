@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋklawsˈt̪ɾaɾ]",
+    "silabacion": "en-claus-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, claustro y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enclaustrar","gerundio":["enclaustrando"],"participio":["enclaustrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enclaustro"],"s2":["enclaustras"],"vos":["enclaustrás"],"s3":["enclaustra"],"p1":["enclaustramos"],"p2":["enclaustráis"],"p3":["enclaustran"]},
+    "IndImp": {"s1":["enclaustraba"],"s2":["enclaustrabas"],"vos":["enclaustrabas"],"s3":["enclaustraba"],"p1":["enclaustrábamos"],"p2":["enclaustrabais"],"p3":["enclaustraban"]},
+    "IndPret": {"s1":["enclaustré"],"s2":["enclaustraste"],"vos":["enclaustraste"],"s3":["enclaustró"],"p1":["enclaustramos"],"p2":["enclaustrasteis"],"p3":["enclaustraron"]},
+    "IndFut": {"s1":["enclaustraré"],"s2":["enclaustrarás"],"vos":["enclaustrarás"],"s3":["enclaustrará"],"p1":["enclaustraremos"],"p2":["enclaustraréis"],"p3":["enclaustrarán"]},
+    "IndCond": {"s1":["enclaustraría"],"s2":["enclaustrarías"],"vos":["enclaustrarías"],"s3":["enclaustraría"],"p1":["enclaustraríamos"],"p2":["enclaustraríais"],"p3":["enclaustrarían"]},
+    "SubPres": {"s1":["enclaustre"],"s2":["enclaustres"],"vos":["enclaustres","enclaustrés"],"s3":["enclaustre"],"p1":["enclaustremos"],"p2":["enclaustréis"],"p3":["enclaustren"]},
+    "SubImp": {"s1":["enclaustrara","enclaustrase"],"s2":["enclaustraras","enclaustrases"],"vos":["enclaustraras","enclaustrases"],"s3":["enclaustrara","enclaustrase"],"p1":["enclaustráramos","enclaustrásemos"],"p2":["enclaustrarais","enclaustraseis"],"p3":["enclaustraran","enclaustrasen"]},
+    "SubFut": {"s1":["enclaustrare"],"s2":["enclaustrares"],"vos":["enclaustrares"],"s3":["enclaustrare"],"p1":["enclaustráremos"],"p2":["enclaustrareis"],"p3":["enclaustraren"]},
+    "CmdPos": {"s2":["enclaustra"],"vos":["enclaustrá"],"s3":["enclaustre"],"p1":["enclaustremos"],"p2":["enclaustrad"],"p3":["enclaustren"]}
+  }
+}

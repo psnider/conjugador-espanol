@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[alˈsaɾ]",
+    "silabacion": "al-zar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"alzar","gerundio":["alzando"],"participio":["alzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["alzo"],"s2":["alzas"],"vos":["alzás"],"s3":["alza"],"p1":["alzamos"],"p2":["alzáis"],"p3":["alzan"]},
+    "IndImp": {"s1":["alzaba"],"s2":["alzabas"],"vos":["alzabas"],"s3":["alzaba"],"p1":["alzábamos"],"p2":["alzabais"],"p3":["alzaban"]},
+    "IndPret": {"s1":["alcé"],"s2":["alzaste"],"vos":["alzaste"],"s3":["alzó"],"p1":["alzamos"],"p2":["alzasteis"],"p3":["alzaron"]},
+    "IndFut": {"s1":["alzaré"],"s2":["alzarás"],"vos":["alzarás"],"s3":["alzará"],"p1":["alzaremos"],"p2":["alzaréis"],"p3":["alzarán"]},
+    "IndCond": {"s1":["alzaría"],"s2":["alzarías"],"vos":["alzarías"],"s3":["alzaría"],"p1":["alzaríamos"],"p2":["alzaríais"],"p3":["alzarían"]},
+    "SubPres": {"s1":["alce"],"s2":["alces"],"vos":["alces","alcés"],"s3":["alce"],"p1":["alcemos"],"p2":["alcéis"],"p3":["alcen"]},
+    "SubImp": {"s1":["alzara","alzase"],"s2":["alzaras","alzases"],"vos":["alzaras","alzases"],"s3":["alzara","alzase"],"p1":["alzáramos","alzásemos"],"p2":["alzarais","alzaseis"],"p3":["alzaran","alzasen"]},
+    "SubFut": {"s1":["alzare"],"s2":["alzares"],"vos":["alzares"],"s3":["alzare"],"p1":["alzáremos"],"p2":["alzareis"],"p3":["alzaren"]},
+    "CmdPos": {"s2":["alza"],"vos":["alzá"],"s3":["alce"],"p1":["alcemos"],"p2":["alzad"],"p3":["alcen"]}
+  }
+}

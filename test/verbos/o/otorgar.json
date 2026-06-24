@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ot̪oɾˈɣ̞aɾ]",
+    "silabacion": "o-tor-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín auctorāre, habiendo pasado al vulgar como *auctoricāre.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"otorgar","gerundio":["otorgando"],"participio":["otorgado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["otorgo"],"s2":["otorgas"],"vos":["otorgás"],"s3":["otorga"],"p1":["otorgamos"],"p2":["otorgáis"],"p3":["otorgan"]},
+    "IndImp": {"s1":["otorgaba"],"s2":["otorgabas"],"vos":["otorgabas"],"s3":["otorgaba"],"p1":["otorgábamos"],"p2":["otorgabais"],"p3":["otorgaban"]},
+    "IndPret": {"s1":["otorgué"],"s2":["otorgaste"],"vos":["otorgaste"],"s3":["otorgó"],"p1":["otorgamos"],"p2":["otorgasteis"],"p3":["otorgaron"]},
+    "IndFut": {"s1":["otorgaré"],"s2":["otorgarás"],"vos":["otorgarás"],"s3":["otorgará"],"p1":["otorgaremos"],"p2":["otorgaréis"],"p3":["otorgarán"]},
+    "IndCond": {"s1":["otorgaría"],"s2":["otorgarías"],"vos":["otorgarías"],"s3":["otorgaría"],"p1":["otorgaríamos"],"p2":["otorgaríais"],"p3":["otorgarían"]},
+    "SubPres": {"s1":["otorgue"],"s2":["otorgues"],"vos":["otorgues","otorgués"],"s3":["otorgue"],"p1":["otorguemos"],"p2":["otorguéis"],"p3":["otorguen"]},
+    "SubImp": {"s1":["otorgara","otorgase"],"s2":["otorgaras","otorgases"],"vos":["otorgaras","otorgases"],"s3":["otorgara","otorgase"],"p1":["otorgáramos","otorgásemos"],"p2":["otorgarais","otorgaseis"],"p3":["otorgaran","otorgasen"]},
+    "SubFut": {"s1":["otorgare"],"s2":["otorgares"],"vos":["otorgares"],"s3":["otorgare"],"p1":["otorgáremos"],"p2":["otorgareis"],"p3":["otorgaren"]},
+    "CmdPos": {"s2":["otorga"],"vos":["otorgá"],"s3":["otorgue"],"p1":["otorguemos"],"p2":["otorgad"],"p3":["otorguen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kast̪iˈɣ̞aɾ]",
+    "silabacion": "cas-ti-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín castigare.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"castigar","gerundio":["castigando"],"participio":["castigado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["castigo"],"s2":["castigas"],"vos":["castigás"],"s3":["castiga"],"p1":["castigamos"],"p2":["castigáis"],"p3":["castigan"]},
+    "IndImp": {"s1":["castigaba"],"s2":["castigabas"],"vos":["castigabas"],"s3":["castigaba"],"p1":["castigábamos"],"p2":["castigabais"],"p3":["castigaban"]},
+    "IndPret": {"s1":["castigué"],"s2":["castigaste"],"vos":["castigaste"],"s3":["castigó"],"p1":["castigamos"],"p2":["castigasteis"],"p3":["castigaron"]},
+    "IndFut": {"s1":["castigaré"],"s2":["castigarás"],"vos":["castigarás"],"s3":["castigará"],"p1":["castigaremos"],"p2":["castigaréis"],"p3":["castigarán"]},
+    "IndCond": {"s1":["castigaría"],"s2":["castigarías"],"vos":["castigarías"],"s3":["castigaría"],"p1":["castigaríamos"],"p2":["castigaríais"],"p3":["castigarían"]},
+    "SubPres": {"s1":["castigue"],"s2":["castigues"],"vos":["castigues","castigués"],"s3":["castigue"],"p1":["castiguemos"],"p2":["castiguéis"],"p3":["castiguen"]},
+    "SubImp": {"s1":["castigara","castigase"],"s2":["castigaras","castigases"],"vos":["castigaras","castigases"],"s3":["castigara","castigase"],"p1":["castigáramos","castigásemos"],"p2":["castigarais","castigaseis"],"p3":["castigaran","castigasen"]},
+    "SubFut": {"s1":["castigare"],"s2":["castigares"],"vos":["castigares"],"s3":["castigare"],"p1":["castigáremos"],"p2":["castigareis"],"p3":["castigaren"]},
+    "CmdPos": {"s2":["castiga"],"vos":["castigá"],"s3":["castigue"],"p1":["castiguemos"],"p2":["castigad"],"p3":["castiguen"]}
+  }
+}

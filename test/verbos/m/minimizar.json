@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[minimiˈsaɾ]",
+    "silabacion": "mi-ni-mi-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De mínimo y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"minimizar","gerundio":["minimizando"],"participio":["minimizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["minimizo"],"s2":["minimizas"],"vos":["minimizás"],"s3":["minimiza"],"p1":["minimizamos"],"p2":["minimizáis"],"p3":["minimizan"]},
+    "IndImp": {"s1":["minimizaba"],"s2":["minimizabas"],"vos":["minimizabas"],"s3":["minimizaba"],"p1":["minimizábamos"],"p2":["minimizabais"],"p3":["minimizaban"]},
+    "IndPret": {"s1":["minimicé"],"s2":["minimizaste"],"vos":["minimizaste"],"s3":["minimizó"],"p1":["minimizamos"],"p2":["minimizasteis"],"p3":["minimizaron"]},
+    "IndFut": {"s1":["minimizaré"],"s2":["minimizarás"],"vos":["minimizarás"],"s3":["minimizará"],"p1":["minimizaremos"],"p2":["minimizaréis"],"p3":["minimizarán"]},
+    "IndCond": {"s1":["minimizaría"],"s2":["minimizarías"],"vos":["minimizarías"],"s3":["minimizaría"],"p1":["minimizaríamos"],"p2":["minimizaríais"],"p3":["minimizarían"]},
+    "SubPres": {"s1":["minimice"],"s2":["minimices"],"vos":["minimices","minimicés"],"s3":["minimice"],"p1":["minimicemos"],"p2":["minimicéis"],"p3":["minimicen"]},
+    "SubImp": {"s1":["minimizara","minimizase"],"s2":["minimizaras","minimizases"],"vos":["minimizaras","minimizases"],"s3":["minimizara","minimizase"],"p1":["minimizáramos","minimizásemos"],"p2":["minimizarais","minimizaseis"],"p3":["minimizaran","minimizasen"]},
+    "SubFut": {"s1":["minimizare"],"s2":["minimizares"],"vos":["minimizares"],"s3":["minimizare"],"p1":["minimizáremos"],"p2":["minimizareis"],"p3":["minimizaren"]},
+    "CmdPos": {"s2":["minimiza"],"vos":["minimizá"],"s3":["minimice"],"p1":["minimicemos"],"p2":["minimizad"],"p3":["minimicen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[renaˈseɾ]",
+    "silabacion": "re-na-cer",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"renacer","gerundio":["renaciendo"],"participio":["renacido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["renazco"],"s2":["renaces"],"vos":["renacés"],"s3":["renace"],"p1":["renacemos"],"p2":["renacéis"],"p3":["renacen"]},
+    "IndImp": {"s1":["renacía"],"s2":["renacías"],"vos":["renacías"],"s3":["renacía"],"p1":["renacíamos"],"p2":["renacíais"],"p3":["renacían"]},
+    "IndPret": {"s1":["renací"],"s2":["renaciste"],"vos":["renaciste"],"s3":["renació"],"p1":["renacimos"],"p2":["renacisteis"],"p3":["renacieron"]},
+    "IndFut": {"s1":["renaceré"],"s2":["renacerás"],"vos":["renacerás"],"s3":["renacerá"],"p1":["renaceremos"],"p2":["renaceréis"],"p3":["renacerán"]},
+    "IndCond": {"s1":["renacería"],"s2":["renacerías"],"vos":["renacerías"],"s3":["renacería"],"p1":["renaceríamos"],"p2":["renaceríais"],"p3":["renacerían"]},
+    "SubPres": {"s1":["renazca"],"s2":["renazcas"],"vos":["renazcas","renazcás"],"s3":["renazca"],"p1":["renazcamos"],"p2":["renazcáis"],"p3":["renazcan"]},
+    "SubImp": {"s1":["renaciera","renaciese"],"s2":["renacieras","renacieses"],"vos":["renacieras","renacieses"],"s3":["renaciera","renaciese"],"p1":["renaciéramos","renaciésemos"],"p2":["renacierais","renacieseis"],"p3":["renacieran","renaciesen"]},
+    "SubFut": {"s1":["renaciere"],"s2":["renacieres"],"vos":["renacieres"],"s3":["renaciere"],"p1":["renaciéremos"],"p2":["renaciereis"],"p3":["renacieren"]},
+    "CmdPos": {"s2":["renace"],"vos":["renacé"],"s3":["renazca"],"p1":["renazcamos"],"p2":["renaced"],"p3":["renazcan"]}
+  }
+}

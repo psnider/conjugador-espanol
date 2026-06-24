@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aoˈɣ̞aɾ]",
+    "silabacion": "a-ho-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín offocāre (\"apretar las fauces o garganta, sofocar\").",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahogar","gerundio":["ahogando"],"participio":["ahogado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ahogo"],"s2":["ahogas"],"vos":["ahogás"],"s3":["ahoga"],"p1":["ahogamos"],"p2":["ahogáis"],"p3":["ahogan"]},
+    "IndImp": {"s1":["ahogaba"],"s2":["ahogabas"],"vos":["ahogabas"],"s3":["ahogaba"],"p1":["ahogábamos"],"p2":["ahogabais"],"p3":["ahogaban"]},
+    "IndPret": {"s1":["ahogué"],"s2":["ahogaste"],"vos":["ahogaste"],"s3":["ahogó"],"p1":["ahogamos"],"p2":["ahogasteis"],"p3":["ahogaron"]},
+    "IndFut": {"s1":["ahogaré"],"s2":["ahogarás"],"vos":["ahogarás"],"s3":["ahogará"],"p1":["ahogaremos"],"p2":["ahogaréis"],"p3":["ahogarán"]},
+    "IndCond": {"s1":["ahogaría"],"s2":["ahogarías"],"vos":["ahogarías"],"s3":["ahogaría"],"p1":["ahogaríamos"],"p2":["ahogaríais"],"p3":["ahogarían"]},
+    "SubPres": {"s1":["ahogue"],"s2":["ahogues"],"vos":["ahogues","ahogués"],"s3":["ahogue"],"p1":["ahoguemos"],"p2":["ahoguéis"],"p3":["ahoguen"]},
+    "SubImp": {"s1":["ahogara","ahogase"],"s2":["ahogaras","ahogases"],"vos":["ahogaras","ahogases"],"s3":["ahogara","ahogase"],"p1":["ahogáramos","ahogásemos"],"p2":["ahogarais","ahogaseis"],"p3":["ahogaran","ahogasen"]},
+    "SubFut": {"s1":["ahogare"],"s2":["ahogares"],"vos":["ahogares"],"s3":["ahogare"],"p1":["ahogáremos"],"p2":["ahogareis"],"p3":["ahogaren"]},
+    "CmdPos": {"s2":["ahoga"],"vos":["ahogá"],"s3":["ahogue"],"p1":["ahoguemos"],"p2":["ahogad"],"p3":["ahoguen"]}
+  }
+}

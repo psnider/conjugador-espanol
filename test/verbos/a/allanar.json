@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aʝaˈnaɾ]",
+    "silabacion": "a-lla-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, llano y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"allanar","gerundio":["allanando"],"participio":["allanado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["allano"],"s2":["allanas"],"vos":["allanás"],"s3":["allana"],"p1":["allanamos"],"p2":["allanáis"],"p3":["allanan"]},
+    "IndImp": {"s1":["allanaba"],"s2":["allanabas"],"vos":["allanabas"],"s3":["allanaba"],"p1":["allanábamos"],"p2":["allanabais"],"p3":["allanaban"]},
+    "IndPret": {"s1":["allané"],"s2":["allanaste"],"vos":["allanaste"],"s3":["allanó"],"p1":["allanamos"],"p2":["allanasteis"],"p3":["allanaron"]},
+    "IndFut": {"s1":["allanaré"],"s2":["allanarás"],"vos":["allanarás"],"s3":["allanará"],"p1":["allanaremos"],"p2":["allanaréis"],"p3":["allanarán"]},
+    "IndCond": {"s1":["allanaría"],"s2":["allanarías"],"vos":["allanarías"],"s3":["allanaría"],"p1":["allanaríamos"],"p2":["allanaríais"],"p3":["allanarían"]},
+    "SubPres": {"s1":["allane"],"s2":["allanes"],"vos":["allanes","allanés"],"s3":["allane"],"p1":["allanemos"],"p2":["allanéis"],"p3":["allanen"]},
+    "SubImp": {"s1":["allanara","allanase"],"s2":["allanaras","allanases"],"vos":["allanaras","allanases"],"s3":["allanara","allanase"],"p1":["allanáramos","allanásemos"],"p2":["allanarais","allanaseis"],"p3":["allanaran","allanasen"]},
+    "SubFut": {"s1":["allanare"],"s2":["allanares"],"vos":["allanares"],"s3":["allanare"],"p1":["allanáremos"],"p2":["allanareis"],"p3":["allanaren"]},
+    "CmdPos": {"s2":["allana"],"vos":["allaná"],"s3":["allane"],"p1":["allanemos"],"p2":["allanad"],"p3":["allanen"]}
+  }
+}

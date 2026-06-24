@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪aˈpaɾ]",
+    "silabacion": "des-ta-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y tapar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"destapar","gerundio":["destapando"],"participio":["destapado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["destapo"],"s2":["destapas"],"vos":["destapás"],"s3":["destapa"],"p1":["destapamos"],"p2":["destapáis"],"p3":["destapan"]},
+    "IndImp": {"s1":["destapaba"],"s2":["destapabas"],"vos":["destapabas"],"s3":["destapaba"],"p1":["destapábamos"],"p2":["destapabais"],"p3":["destapaban"]},
+    "IndPret": {"s1":["destapé"],"s2":["destapaste"],"vos":["destapaste"],"s3":["destapó"],"p1":["destapamos"],"p2":["destapasteis"],"p3":["destaparon"]},
+    "IndFut": {"s1":["destaparé"],"s2":["destaparás"],"vos":["destaparás"],"s3":["destapará"],"p1":["destaparemos"],"p2":["destaparéis"],"p3":["destaparán"]},
+    "IndCond": {"s1":["destaparía"],"s2":["destaparías"],"vos":["destaparías"],"s3":["destaparía"],"p1":["destaparíamos"],"p2":["destaparíais"],"p3":["destaparían"]},
+    "SubPres": {"s1":["destape"],"s2":["destapes"],"vos":["destapes","destapés"],"s3":["destape"],"p1":["destapemos"],"p2":["destapéis"],"p3":["destapen"]},
+    "SubImp": {"s1":["destapara","destapase"],"s2":["destaparas","destapases"],"vos":["destaparas","destapases"],"s3":["destapara","destapase"],"p1":["destapáramos","destapásemos"],"p2":["destaparais","destapaseis"],"p3":["destaparan","destapasen"]},
+    "SubFut": {"s1":["destapare"],"s2":["destapares"],"vos":["destapares"],"s3":["destapare"],"p1":["destapáremos"],"p2":["destapareis"],"p3":["destaparen"]},
+    "CmdPos": {"s2":["destapa"],"vos":["destapá"],"s3":["destape"],"p1":["destapemos"],"p2":["destapad"],"p3":["destapen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪ẽn̪ˈt̪aɾ]",
+    "silabacion": "a-ten-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín attemptāre.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"atentar","gerundio":["atentando"],"participio":["atentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atiento","atento"],"s2":["atientas","atentas"],"vos":["atentás"],"s3":["atienta","atenta"],"p1":["atentamos"],"p2":["atentáis"],"p3":["atientan","atentan"]},
+    "IndImp": {"s1":["atentaba"],"s2":["atentabas"],"vos":["atentabas"],"s3":["atentaba"],"p1":["atentábamos"],"p2":["atentabais"],"p3":["atentaban"]},
+    "IndPret": {"s1":["atenté"],"s2":["atentaste"],"vos":["atentaste"],"s3":["atentó"],"p1":["atentamos"],"p2":["atentasteis"],"p3":["atentaron"]},
+    "IndFut": {"s1":["atentaré"],"s2":["atentarás"],"vos":["atentarás"],"s3":["atentará"],"p1":["atentaremos"],"p2":["atentaréis"],"p3":["atentarán"]},
+    "IndCond": {"s1":["atentaría"],"s2":["atentarías"],"vos":["atentarías"],"s3":["atentaría"],"p1":["atentaríamos"],"p2":["atentaríais"],"p3":["atentarían"]},
+    "SubPres": {"s1":["atiente","atente"],"s2":["atientes","atentes"],"vos":["atientes","atentés","atentes"],"s3":["atiente","atente"],"p1":["atentemos"],"p2":["atentéis"],"p3":["atienten","atenten"]},
+    "SubImp": {"s1":["atentara","atentase"],"s2":["atentaras","atentases"],"vos":["atentaras","atentases"],"s3":["atentara","atentase"],"p1":["atentáramos","atentásemos"],"p2":["atentarais","atentaseis"],"p3":["atentaran","atentasen"]},
+    "SubFut": {"s1":["atentare"],"s2":["atentares"],"vos":["atentares"],"s3":["atentare"],"p1":["atentáremos"],"p2":["atentareis"],"p3":["atentaren"]},
+    "CmdPos": {"s2":["atienta","atenta"],"vos":["atentá"],"s3":["atiente","atente"],"p1":["atentemos"],"p2":["atentad"],"p3":["atienten","atenten"]}
+  }
+}

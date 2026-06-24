@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koˈpaɾ]",
+    "silabacion": "co-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"copar","gerundio":["copando"],"participio":["copado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["copo"],"s2":["copas"],"vos":["copás"],"s3":["copa"],"p1":["copamos"],"p2":["copáis"],"p3":["copan"]},
+    "IndImp": {"s1":["copaba"],"s2":["copabas"],"vos":["copabas"],"s3":["copaba"],"p1":["copábamos"],"p2":["copabais"],"p3":["copaban"]},
+    "IndPret": {"s1":["copé"],"s2":["copaste"],"vos":["copaste"],"s3":["copó"],"p1":["copamos"],"p2":["copasteis"],"p3":["coparon"]},
+    "IndFut": {"s1":["coparé"],"s2":["coparás"],"vos":["coparás"],"s3":["copará"],"p1":["coparemos"],"p2":["coparéis"],"p3":["coparán"]},
+    "IndCond": {"s1":["coparía"],"s2":["coparías"],"vos":["coparías"],"s3":["coparía"],"p1":["coparíamos"],"p2":["coparíais"],"p3":["coparían"]},
+    "SubPres": {"s1":["cope"],"s2":["copes"],"vos":["copes","copés"],"s3":["cope"],"p1":["copemos"],"p2":["copéis"],"p3":["copen"]},
+    "SubImp": {"s1":["copara","copase"],"s2":["coparas","copases"],"vos":["coparas","copases"],"s3":["copara","copase"],"p1":["copáramos","copásemos"],"p2":["coparais","copaseis"],"p3":["coparan","copasen"]},
+    "SubFut": {"s1":["copare"],"s2":["copares"],"vos":["copares"],"s3":["copare"],"p1":["copáremos"],"p2":["copareis"],"p3":["coparen"]},
+    "CmdPos": {"s2":["copa"],"vos":["copá"],"s3":["cope"],"p1":["copemos"],"p2":["copad"],"p3":["copen"]}
+  }
+}

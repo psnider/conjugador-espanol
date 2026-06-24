@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sal̪ˈt̪aɾ]",
+    "silabacion": "sal-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín saltare, y este del infinitivo salire, del protoindoeuropeo *sel- ('saltar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"saltar","gerundio":["saltando"],"participio":["saltado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["salto"],"s2":["saltas"],"vos":["saltás"],"s3":["salta"],"p1":["saltamos"],"p2":["saltáis"],"p3":["saltan"]},
+    "IndImp": {"s1":["saltaba"],"s2":["saltabas"],"vos":["saltabas"],"s3":["saltaba"],"p1":["saltábamos"],"p2":["saltabais"],"p3":["saltaban"]},
+    "IndPret": {"s1":["salté"],"s2":["saltaste"],"vos":["saltaste"],"s3":["saltó"],"p1":["saltamos"],"p2":["saltasteis"],"p3":["saltaron"]},
+    "IndFut": {"s1":["saltaré"],"s2":["saltarás"],"vos":["saltarás"],"s3":["saltará"],"p1":["saltaremos"],"p2":["saltaréis"],"p3":["saltarán"]},
+    "IndCond": {"s1":["saltaría"],"s2":["saltarías"],"vos":["saltarías"],"s3":["saltaría"],"p1":["saltaríamos"],"p2":["saltaríais"],"p3":["saltarían"]},
+    "SubPres": {"s1":["salte"],"s2":["saltes"],"vos":["saltes","saltés"],"s3":["salte"],"p1":["saltemos"],"p2":["saltéis"],"p3":["salten"]},
+    "SubImp": {"s1":["saltara","saltase"],"s2":["saltaras","saltases"],"vos":["saltaras","saltases"],"s3":["saltara","saltase"],"p1":["saltáramos","saltásemos"],"p2":["saltarais","saltaseis"],"p3":["saltaran","saltasen"]},
+    "SubFut": {"s1":["saltare"],"s2":["saltares"],"vos":["saltares"],"s3":["saltare"],"p1":["saltáremos"],"p2":["saltareis"],"p3":["saltaren"]},
+    "CmdPos": {"s2":["salta"],"vos":["saltá"],"s3":["salte"],"p1":["saltemos"],"p2":["saltad"],"p3":["salten"]}
+  }
+}

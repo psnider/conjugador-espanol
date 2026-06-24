@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[filˈmaɾ]",
+    "silabacion": "fil-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés film ('película')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"filmar","gerundio":["filmando"],"participio":["filmado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["filmo"],"s2":["filmas"],"vos":["filmás"],"s3":["filma"],"p1":["filmamos"],"p2":["filmáis"],"p3":["filman"]},
+    "IndImp": {"s1":["filmaba"],"s2":["filmabas"],"vos":["filmabas"],"s3":["filmaba"],"p1":["filmábamos"],"p2":["filmabais"],"p3":["filmaban"]},
+    "IndPret": {"s1":["filmé"],"s2":["filmaste"],"vos":["filmaste"],"s3":["filmó"],"p1":["filmamos"],"p2":["filmasteis"],"p3":["filmaron"]},
+    "IndFut": {"s1":["filmaré"],"s2":["filmarás"],"vos":["filmarás"],"s3":["filmará"],"p1":["filmaremos"],"p2":["filmaréis"],"p3":["filmarán"]},
+    "IndCond": {"s1":["filmaría"],"s2":["filmarías"],"vos":["filmarías"],"s3":["filmaría"],"p1":["filmaríamos"],"p2":["filmaríais"],"p3":["filmarían"]},
+    "SubPres": {"s1":["filme"],"s2":["filmes"],"vos":["filmes","filmés"],"s3":["filme"],"p1":["filmemos"],"p2":["filméis"],"p3":["filmen"]},
+    "SubImp": {"s1":["filmara","filmase"],"s2":["filmaras","filmases"],"vos":["filmaras","filmases"],"s3":["filmara","filmase"],"p1":["filmáramos","filmásemos"],"p2":["filmarais","filmaseis"],"p3":["filmaran","filmasen"]},
+    "SubFut": {"s1":["filmare"],"s2":["filmares"],"vos":["filmares"],"s3":["filmare"],"p1":["filmáremos"],"p2":["filmareis"],"p3":["filmaren"]},
+    "CmdPos": {"s2":["filma"],"vos":["filmá"],"s3":["filme"],"p1":["filmemos"],"p2":["filmad"],"p3":["filmen"]}
+  }
+}

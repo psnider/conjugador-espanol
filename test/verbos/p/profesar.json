@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾofeˈsaɾ]",
+    "silabacion": "pro-fe-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"profesar","gerundio":["profesando"],"participio":["profesado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["profeso"],"s2":["profesas"],"vos":["profesás"],"s3":["profesa"],"p1":["profesamos"],"p2":["profesáis"],"p3":["profesan"]},
+    "IndImp": {"s1":["profesaba"],"s2":["profesabas"],"vos":["profesabas"],"s3":["profesaba"],"p1":["profesábamos"],"p2":["profesabais"],"p3":["profesaban"]},
+    "IndPret": {"s1":["profesé"],"s2":["profesaste"],"vos":["profesaste"],"s3":["profesó"],"p1":["profesamos"],"p2":["profesasteis"],"p3":["profesaron"]},
+    "IndFut": {"s1":["profesaré"],"s2":["profesarás"],"vos":["profesarás"],"s3":["profesará"],"p1":["profesaremos"],"p2":["profesaréis"],"p3":["profesarán"]},
+    "IndCond": {"s1":["profesaría"],"s2":["profesarías"],"vos":["profesarías"],"s3":["profesaría"],"p1":["profesaríamos"],"p2":["profesaríais"],"p3":["profesarían"]},
+    "SubPres": {"s1":["profese"],"s2":["profeses"],"vos":["profeses","profesés"],"s3":["profese"],"p1":["profesemos"],"p2":["profeséis"],"p3":["profesen"]},
+    "SubImp": {"s1":["profesara","profesase"],"s2":["profesaras","profesases"],"vos":["profesaras","profesases"],"s3":["profesara","profesase"],"p1":["profesáramos","profesásemos"],"p2":["profesarais","profesaseis"],"p3":["profesaran","profesasen"]},
+    "SubFut": {"s1":["profesare"],"s2":["profesares"],"vos":["profesares"],"s3":["profesare"],"p1":["profesáremos"],"p2":["profesareis"],"p3":["profesaren"]},
+    "CmdPos": {"s2":["profesa"],"vos":["profesá"],"s3":["profese"],"p1":["profesemos"],"p2":["profesad"],"p3":["profesen"]}
+  }
+}

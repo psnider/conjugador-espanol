@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esiɣ̞ˈnaɾ]",
+    "silabacion": "de-sig-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín designāre.[2]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"designar","gerundio":["designando"],"participio":["designado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["designo"],"s2":["designas"],"vos":["designás"],"s3":["designa"],"p1":["designamos"],"p2":["designáis"],"p3":["designan"]},
+    "IndImp": {"s1":["designaba"],"s2":["designabas"],"vos":["designabas"],"s3":["designaba"],"p1":["designábamos"],"p2":["designabais"],"p3":["designaban"]},
+    "IndPret": {"s1":["designé"],"s2":["designaste"],"vos":["designaste"],"s3":["designó"],"p1":["designamos"],"p2":["designasteis"],"p3":["designaron"]},
+    "IndFut": {"s1":["designaré"],"s2":["designarás"],"vos":["designarás"],"s3":["designará"],"p1":["designaremos"],"p2":["designaréis"],"p3":["designarán"]},
+    "IndCond": {"s1":["designaría"],"s2":["designarías"],"vos":["designarías"],"s3":["designaría"],"p1":["designaríamos"],"p2":["designaríais"],"p3":["designarían"]},
+    "SubPres": {"s1":["designe"],"s2":["designes"],"vos":["designes","designés"],"s3":["designe"],"p1":["designemos"],"p2":["designéis"],"p3":["designen"]},
+    "SubImp": {"s1":["designara","designase"],"s2":["designaras","designases"],"vos":["designaras","designases"],"s3":["designara","designase"],"p1":["designáramos","designásemos"],"p2":["designarais","designaseis"],"p3":["designaran","designasen"]},
+    "SubFut": {"s1":["designare"],"s2":["designares"],"vos":["designares"],"s3":["designare"],"p1":["designáremos"],"p2":["designareis"],"p3":["designaren"]},
+    "CmdPos": {"s2":["designa"],"vos":["designá"],"s3":["designe"],"p1":["designemos"],"p2":["designad"],"p3":["designen"]}
+  }
+}

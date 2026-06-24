@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪iskuˈt̪iɾ]",
+    "silabacion": "dis-cu-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín discutere",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"discutir","gerundio":["discutiendo"],"participio":["discutido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["discuto"],"s2":["discutes"],"vos":["discutís"],"s3":["discute"],"p1":["discutimos"],"p2":["discutís"],"p3":["discuten"]},
+    "IndImp": {"s1":["discutía"],"s2":["discutías"],"vos":["discutías"],"s3":["discutía"],"p1":["discutíamos"],"p2":["discutíais"],"p3":["discutían"]},
+    "IndPret": {"s1":["discutí"],"s2":["discutiste"],"vos":["discutiste"],"s3":["discutió"],"p1":["discutimos"],"p2":["discutisteis"],"p3":["discutieron"]},
+    "IndFut": {"s1":["discutiré"],"s2":["discutirás"],"vos":["discutirás"],"s3":["discutirá"],"p1":["discutiremos"],"p2":["discutiréis"],"p3":["discutirán"]},
+    "IndCond": {"s1":["discutiría"],"s2":["discutirías"],"vos":["discutirías"],"s3":["discutiría"],"p1":["discutiríamos"],"p2":["discutiríais"],"p3":["discutirían"]},
+    "SubPres": {"s1":["discuta"],"s2":["discutas"],"vos":["discutas","discutás"],"s3":["discuta"],"p1":["discutamos"],"p2":["discutáis"],"p3":["discutan"]},
+    "SubImp": {"s1":["discutiera","discutiese"],"s2":["discutieras","discutieses"],"vos":["discutieras","discutieses"],"s3":["discutiera","discutiese"],"p1":["discutiéramos","discutiésemos"],"p2":["discutierais","discutieseis"],"p3":["discutieran","discutiesen"]},
+    "SubFut": {"s1":["discutiere"],"s2":["discutieres"],"vos":["discutieres"],"s3":["discutiere"],"p1":["discutiéremos"],"p2":["discutiereis"],"p3":["discutieren"]},
+    "CmdPos": {"s2":["discute"],"vos":["discutí"],"s3":["discuta"],"p1":["discutamos"],"p2":["discutid"],"p3":["discutan"]}
+  }
+}

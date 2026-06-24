@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[neɣ̞oˈsjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín negotiāri",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"negociar","gerundio":["negociando"],"participio":["negociado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["negocio"],"s2":["negocias"],"vos":["negociás"],"s3":["negocia"],"p1":["negociamos"],"p2":["negociáis"],"p3":["negocian"]},
+    "IndImp": {"s1":["negociaba"],"s2":["negociabas"],"vos":["negociabas"],"s3":["negociaba"],"p1":["negociábamos"],"p2":["negociabais"],"p3":["negociaban"]},
+    "IndPret": {"s1":["negocié"],"s2":["negociaste"],"vos":["negociaste"],"s3":["negoció"],"p1":["negociamos"],"p2":["negociasteis"],"p3":["negociaron"]},
+    "IndFut": {"s1":["negociaré"],"s2":["negociarás"],"vos":["negociarás"],"s3":["negociará"],"p1":["negociaremos"],"p2":["negociaréis"],"p3":["negociarán"]},
+    "IndCond": {"s1":["negociaría"],"s2":["negociarías"],"vos":["negociarías"],"s3":["negociaría"],"p1":["negociaríamos"],"p2":["negociaríais"],"p3":["negociarían"]},
+    "SubPres": {"s1":["negocie"],"s2":["negocies"],"vos":["negocies","negociés"],"s3":["negocie"],"p1":["negociemos"],"p2":["negociéis"],"p3":["negocien"]},
+    "SubImp": {"s1":["negociara","negociase"],"s2":["negociaras","negociases"],"vos":["negociaras","negociases"],"s3":["negociara","negociase"],"p1":["negociáramos","negociásemos"],"p2":["negociarais","negociaseis"],"p3":["negociaran","negociasen"]},
+    "SubFut": {"s1":["negociare"],"s2":["negociares"],"vos":["negociares"],"s3":["negociare"],"p1":["negociáremos"],"p2":["negociareis"],"p3":["negociaren"]},
+    "CmdPos": {"s2":["negocia"],"vos":["negociá"],"s3":["negocie"],"p1":["negociemos"],"p2":["negociad"],"p3":["negocien"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnaxeˈnaɾ]",
+    "silabacion": "en-a-je-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1244. Del prefijo en- y ajenar. Compárese alienar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enajenar","gerundio":["enajenando"],"participio":["enajenado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enajeno"],"s2":["enajenas"],"vos":["enajenás"],"s3":["enajena"],"p1":["enajenamos"],"p2":["enajenáis"],"p3":["enajenan"]},
+    "IndImp": {"s1":["enajenaba"],"s2":["enajenabas"],"vos":["enajenabas"],"s3":["enajenaba"],"p1":["enajenábamos"],"p2":["enajenabais"],"p3":["enajenaban"]},
+    "IndPret": {"s1":["enajené"],"s2":["enajenaste"],"vos":["enajenaste"],"s3":["enajenó"],"p1":["enajenamos"],"p2":["enajenasteis"],"p3":["enajenaron"]},
+    "IndFut": {"s1":["enajenaré"],"s2":["enajenarás"],"vos":["enajenarás"],"s3":["enajenará"],"p1":["enajenaremos"],"p2":["enajenaréis"],"p3":["enajenarán"]},
+    "IndCond": {"s1":["enajenaría"],"s2":["enajenarías"],"vos":["enajenarías"],"s3":["enajenaría"],"p1":["enajenaríamos"],"p2":["enajenaríais"],"p3":["enajenarían"]},
+    "SubPres": {"s1":["enajene"],"s2":["enajenes"],"vos":["enajenes","enajenés"],"s3":["enajene"],"p1":["enajenemos"],"p2":["enajenéis"],"p3":["enajenen"]},
+    "SubImp": {"s1":["enajenara","enajenase"],"s2":["enajenaras","enajenases"],"vos":["enajenaras","enajenases"],"s3":["enajenara","enajenase"],"p1":["enajenáramos","enajenásemos"],"p2":["enajenarais","enajenaseis"],"p3":["enajenaran","enajenasen"]},
+    "SubFut": {"s1":["enajenare"],"s2":["enajenares"],"vos":["enajenares"],"s3":["enajenare"],"p1":["enajenáremos"],"p2":["enajenareis"],"p3":["enajenaren"]},
+    "CmdPos": {"s2":["enajena"],"vos":["enajená"],"s3":["enajene"],"p1":["enajenemos"],"p2":["enajenad"],"p3":["enajenen"]}
+  }
+}

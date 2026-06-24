@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kapit̪aliˈsaɾ]",
+    "silabacion": "ca-pi-ta-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De capital y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"capitalizar","gerundio":["capitalizando"],"participio":["capitalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["capitalizo"],"s2":["capitalizas"],"vos":["capitalizás"],"s3":["capitaliza"],"p1":["capitalizamos"],"p2":["capitalizáis"],"p3":["capitalizan"]},
+    "IndImp": {"s1":["capitalizaba"],"s2":["capitalizabas"],"vos":["capitalizabas"],"s3":["capitalizaba"],"p1":["capitalizábamos"],"p2":["capitalizabais"],"p3":["capitalizaban"]},
+    "IndPret": {"s1":["capitalicé"],"s2":["capitalizaste"],"vos":["capitalizaste"],"s3":["capitalizó"],"p1":["capitalizamos"],"p2":["capitalizasteis"],"p3":["capitalizaron"]},
+    "IndFut": {"s1":["capitalizaré"],"s2":["capitalizarás"],"vos":["capitalizarás"],"s3":["capitalizará"],"p1":["capitalizaremos"],"p2":["capitalizaréis"],"p3":["capitalizarán"]},
+    "IndCond": {"s1":["capitalizaría"],"s2":["capitalizarías"],"vos":["capitalizarías"],"s3":["capitalizaría"],"p1":["capitalizaríamos"],"p2":["capitalizaríais"],"p3":["capitalizarían"]},
+    "SubPres": {"s1":["capitalice"],"s2":["capitalices"],"vos":["capitalices","capitalicés"],"s3":["capitalice"],"p1":["capitalicemos"],"p2":["capitalicéis"],"p3":["capitalicen"]},
+    "SubImp": {"s1":["capitalizara","capitalizase"],"s2":["capitalizaras","capitalizases"],"vos":["capitalizaras","capitalizases"],"s3":["capitalizara","capitalizase"],"p1":["capitalizáramos","capitalizásemos"],"p2":["capitalizarais","capitalizaseis"],"p3":["capitalizaran","capitalizasen"]},
+    "SubFut": {"s1":["capitalizare"],"s2":["capitalizares"],"vos":["capitalizares"],"s3":["capitalizare"],"p1":["capitalizáremos"],"p2":["capitalizareis"],"p3":["capitalizaren"]},
+    "CmdPos": {"s2":["capitaliza"],"vos":["capitalizá"],"s3":["capitalice"],"p1":["capitalicemos"],"p2":["capitalizad"],"p3":["capitalicen"]}
+  }
+}

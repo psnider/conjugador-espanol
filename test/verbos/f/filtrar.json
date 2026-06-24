@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fil̪ˈt̪ɾaɾ]",
+    "silabacion": "fil-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Alteración fonética de fieltrar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"filtrar","gerundio":["filtrando"],"participio":["filtrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["filtro"],"s2":["filtras"],"vos":["filtrás"],"s3":["filtra"],"p1":["filtramos"],"p2":["filtráis"],"p3":["filtran"]},
+    "IndImp": {"s1":["filtraba"],"s2":["filtrabas"],"vos":["filtrabas"],"s3":["filtraba"],"p1":["filtrábamos"],"p2":["filtrabais"],"p3":["filtraban"]},
+    "IndPret": {"s1":["filtré"],"s2":["filtraste"],"vos":["filtraste"],"s3":["filtró"],"p1":["filtramos"],"p2":["filtrasteis"],"p3":["filtraron"]},
+    "IndFut": {"s1":["filtraré"],"s2":["filtrarás"],"vos":["filtrarás"],"s3":["filtrará"],"p1":["filtraremos"],"p2":["filtraréis"],"p3":["filtrarán"]},
+    "IndCond": {"s1":["filtraría"],"s2":["filtrarías"],"vos":["filtrarías"],"s3":["filtraría"],"p1":["filtraríamos"],"p2":["filtraríais"],"p3":["filtrarían"]},
+    "SubPres": {"s1":["filtre"],"s2":["filtres"],"vos":["filtres","filtrés"],"s3":["filtre"],"p1":["filtremos"],"p2":["filtréis"],"p3":["filtren"]},
+    "SubImp": {"s1":["filtrara","filtrase"],"s2":["filtraras","filtrases"],"vos":["filtraras","filtrases"],"s3":["filtrara","filtrase"],"p1":["filtráramos","filtrásemos"],"p2":["filtrarais","filtraseis"],"p3":["filtraran","filtrasen"]},
+    "SubFut": {"s1":["filtrare"],"s2":["filtrares"],"vos":["filtrares"],"s3":["filtrare"],"p1":["filtráremos"],"p2":["filtrareis"],"p3":["filtraren"]},
+    "CmdPos": {"s2":["filtra"],"vos":["filtrá"],"s3":["filtre"],"p1":["filtremos"],"p2":["filtrad"],"p3":["filtren"]}
+  }
+}

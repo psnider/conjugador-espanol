@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koˈxeɾ]",
+    "silabacion": "co-ger",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1140.[1] Del latín colligere ('juntar'), \"reunir\" o \"colegir\".",
+    "modelos": ["proteger"]
+  },
+  "formas_no_personales": {"infinitivo":"coger","gerundio":["cogiendo"],"participio":["cogido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cojo"],"s2":["coges"],"vos":["cogés"],"s3":["coge"],"p1":["cogemos"],"p2":["cogéis"],"p3":["cogen"]},
+    "IndImp": {"s1":["cogía"],"s2":["cogías"],"vos":["cogías"],"s3":["cogía"],"p1":["cogíamos"],"p2":["cogíais"],"p3":["cogían"]},
+    "IndPret": {"s1":["cogí"],"s2":["cogiste"],"vos":["cogiste"],"s3":["cogió"],"p1":["cogimos"],"p2":["cogisteis"],"p3":["cogieron"]},
+    "IndFut": {"s1":["cogeré"],"s2":["cogerás"],"vos":["cogerás"],"s3":["cogerá"],"p1":["cogeremos"],"p2":["cogeréis"],"p3":["cogerán"]},
+    "IndCond": {"s1":["cogería"],"s2":["cogerías"],"vos":["cogerías"],"s3":["cogería"],"p1":["cogeríamos"],"p2":["cogeríais"],"p3":["cogerían"]},
+    "SubPres": {"s1":["coja"],"s2":["cojas"],"vos":["cojas","cojás"],"s3":["coja"],"p1":["cojamos"],"p2":["cojáis"],"p3":["cojan"]},
+    "SubImp": {"s1":["cogiera","cogiese"],"s2":["cogieras","cogieses"],"vos":["cogieras","cogieses"],"s3":["cogiera","cogiese"],"p1":["cogiéramos","cogiésemos"],"p2":["cogierais","cogieseis"],"p3":["cogieran","cogiesen"]},
+    "SubFut": {"s1":["cogiere"],"s2":["cogieres"],"vos":["cogieres"],"s3":["cogiere"],"p1":["cogiéremos"],"p2":["cogiereis"],"p3":["cogieren"]},
+    "CmdPos": {"s2":["coge"],"vos":["cogé"],"s3":["coja"],"p1":["cojamos"],"p2":["coged"],"p3":["cojan"]}
+  }
+}

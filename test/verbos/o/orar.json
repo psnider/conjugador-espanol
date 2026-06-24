@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oˈɾaɾ]",
+    "silabacion": "o-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín orare ('perorar') o \"suplicar\"",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"orar","gerundio":["orando"],"participio":["orado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oro"],"s2":["oras"],"vos":["orás"],"s3":["ora"],"p1":["oramos"],"p2":["oráis"],"p3":["oran"]},
+    "IndImp": {"s1":["oraba"],"s2":["orabas"],"vos":["orabas"],"s3":["oraba"],"p1":["orábamos"],"p2":["orabais"],"p3":["oraban"]},
+    "IndPret": {"s1":["oré"],"s2":["oraste"],"vos":["oraste"],"s3":["oró"],"p1":["oramos"],"p2":["orasteis"],"p3":["oraron"]},
+    "IndFut": {"s1":["oraré"],"s2":["orarás"],"vos":["orarás"],"s3":["orará"],"p1":["oraremos"],"p2":["oraréis"],"p3":["orarán"]},
+    "IndCond": {"s1":["oraría"],"s2":["orarías"],"vos":["orarías"],"s3":["oraría"],"p1":["oraríamos"],"p2":["oraríais"],"p3":["orarían"]},
+    "SubPres": {"s1":["ore"],"s2":["ores"],"vos":["ores","orés"],"s3":["ore"],"p1":["oremos"],"p2":["oréis"],"p3":["oren"]},
+    "SubImp": {"s1":["orara","orase"],"s2":["oraras","orases"],"vos":["oraras","orases"],"s3":["orara","orase"],"p1":["oráramos","orásemos"],"p2":["orarais","oraseis"],"p3":["oraran","orasen"]},
+    "SubFut": {"s1":["orare"],"s2":["orares"],"vos":["orares"],"s3":["orare"],"p1":["oráremos"],"p2":["orareis"],"p3":["oraren"]},
+    "CmdPos": {"s2":["ora"],"vos":["orá"],"s3":["ore"],"p1":["oremos"],"p2":["orad"],"p3":["oren"]}
+  }
+}

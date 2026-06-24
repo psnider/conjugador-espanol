@@ -29,5 +29,11 @@
   "devDependencies": {
     "@types/node": "20.3.3",
     "typescript": "6.0.2"
-  }
+  },
+  "files": [
+    "generated/src",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ]
 }

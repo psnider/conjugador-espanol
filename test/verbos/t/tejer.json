@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪eˈxeɾ]",
+    "silabacion": "te-jer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín texĕre.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"tejer","gerundio":["tejiendo"],"participio":["tejido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tejo"],"s2":["tejes"],"vos":["tejés"],"s3":["teje"],"p1":["tejemos"],"p2":["tejéis"],"p3":["tejen"]},
+    "IndImp": {"s1":["tejía"],"s2":["tejías"],"vos":["tejías"],"s3":["tejía"],"p1":["tejíamos"],"p2":["tejíais"],"p3":["tejían"]},
+    "IndPret": {"s1":["tejí"],"s2":["tejiste"],"vos":["tejiste"],"s3":["tejió"],"p1":["tejimos"],"p2":["tejisteis"],"p3":["tejieron"]},
+    "IndFut": {"s1":["tejeré"],"s2":["tejerás"],"vos":["tejerás"],"s3":["tejerá"],"p1":["tejeremos"],"p2":["tejeréis"],"p3":["tejerán"]},
+    "IndCond": {"s1":["tejería"],"s2":["tejerías"],"vos":["tejerías"],"s3":["tejería"],"p1":["tejeríamos"],"p2":["tejeríais"],"p3":["tejerían"]},
+    "SubPres": {"s1":["teja"],"s2":["tejas"],"vos":["tejas","tejás"],"s3":["teja"],"p1":["tejamos"],"p2":["tejáis"],"p3":["tejan"]},
+    "SubImp": {"s1":["tejiera","tejiese"],"s2":["tejieras","tejieses"],"vos":["tejieras","tejieses"],"s3":["tejiera","tejiese"],"p1":["tejiéramos","tejiésemos"],"p2":["tejierais","tejieseis"],"p3":["tejieran","tejiesen"]},
+    "SubFut": {"s1":["tejiere"],"s2":["tejieres"],"vos":["tejieres"],"s3":["tejiere"],"p1":["tejiéremos"],"p2":["tejiereis"],"p3":["tejieren"]},
+    "CmdPos": {"s2":["teje"],"vos":["tejé"],"s3":["teja"],"p1":["tejamos"],"p2":["tejed"],"p3":["tejan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esmẽn̪ˈt̪iɾ]",
+    "silabacion": "des-men-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y mentir.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"desmentir","gerundio":["desmintiendo"],"participio":["desmentido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desmiento"],"s2":["desmientes"],"vos":["desmentís"],"s3":["desmiente"],"p1":["desmentimos"],"p2":["desmentís"],"p3":["desmienten"]},
+    "IndImp": {"s1":["desmentía"],"s2":["desmentías"],"vos":["desmentías"],"s3":["desmentía"],"p1":["desmentíamos"],"p2":["desmentíais"],"p3":["desmentían"]},
+    "IndPret": {"s1":["desmentí"],"s2":["desmentiste"],"vos":["desmentiste"],"s3":["desmintió"],"p1":["desmentimos"],"p2":["desmentisteis"],"p3":["desmintieron"]},
+    "IndFut": {"s1":["desmentiré"],"s2":["desmentirás"],"vos":["desmentirás"],"s3":["desmentirá"],"p1":["desmentiremos"],"p2":["desmentiréis"],"p3":["desmentirán"]},
+    "IndCond": {"s1":["desmentiría"],"s2":["desmentirías"],"vos":["desmentirías"],"s3":["desmentiría"],"p1":["desmentiríamos"],"p2":["desmentiríais"],"p3":["desmentirían"]},
+    "SubPres": {"s1":["desmienta"],"s2":["desmientas"],"vos":["desmientas","desmintás"],"s3":["desmienta"],"p1":["desmintamos"],"p2":["desmintáis"],"p3":["desmientan"]},
+    "SubImp": {"s1":["desmintiera","desmintiese"],"s2":["desmintieras","desmintieses"],"vos":["desmintieras","desmintieses"],"s3":["desmintiera","desmintiese"],"p1":["desmintiéramos","desmintiésemos"],"p2":["desmintierais","desmintieseis"],"p3":["desmintieran","desmintiesen"]},
+    "SubFut": {"s1":["desmintiere"],"s2":["desmintieres"],"vos":["desmintieres"],"s3":["desmintiere"],"p1":["desmintiéremos"],"p2":["desmintiereis"],"p3":["desmintieren"]},
+    "CmdPos": {"s2":["desmiente"],"vos":["desmentí"],"s3":["desmienta"],"p1":["desmintamos"],"p2":["desmentid"],"p3":["desmientan"]}
+  }
+}

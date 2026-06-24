@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[golpeˈaɾ]",
+    "silabacion": "gol-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De golpe",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"golpear","gerundio":["golpeando"],"participio":["golpeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["golpeo"],"s2":["golpeas"],"vos":["golpeás"],"s3":["golpea"],"p1":["golpeamos"],"p2":["golpeáis"],"p3":["golpean"]},
+    "IndImp": {"s1":["golpeaba"],"s2":["golpeabas"],"vos":["golpeabas"],"s3":["golpeaba"],"p1":["golpeábamos"],"p2":["golpeabais"],"p3":["golpeaban"]},
+    "IndPret": {"s1":["golpeé"],"s2":["golpeaste"],"vos":["golpeaste"],"s3":["golpeó"],"p1":["golpeamos"],"p2":["golpeasteis"],"p3":["golpearon"]},
+    "IndFut": {"s1":["golpearé"],"s2":["golpearás"],"vos":["golpearás"],"s3":["golpeará"],"p1":["golpearemos"],"p2":["golpearéis"],"p3":["golpearán"]},
+    "IndCond": {"s1":["golpearía"],"s2":["golpearías"],"vos":["golpearías"],"s3":["golpearía"],"p1":["golpearíamos"],"p2":["golpearíais"],"p3":["golpearían"]},
+    "SubPres": {"s1":["golpee"],"s2":["golpees"],"vos":["golpees","golpeés"],"s3":["golpee"],"p1":["golpeemos"],"p2":["golpeéis"],"p3":["golpeen"]},
+    "SubImp": {"s1":["golpeara","golpease"],"s2":["golpearas","golpeases"],"vos":["golpearas","golpeases"],"s3":["golpeara","golpease"],"p1":["golpeáramos","golpeásemos"],"p2":["golpearais","golpeaseis"],"p3":["golpearan","golpeasen"]},
+    "SubFut": {"s1":["golpeare"],"s2":["golpeares"],"vos":["golpeares"],"s3":["golpeare"],"p1":["golpeáremos"],"p2":["golpeareis"],"p3":["golpearen"]},
+    "CmdPos": {"s2":["golpea"],"vos":["golpeá"],"s3":["golpee"],"p1":["golpeemos"],"p2":["golpead"],"p3":["golpeen"]}
+  }
+}
