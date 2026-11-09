@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskalˈsaɾ]",
+    "silabacion": "des-cal-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"descalzar","gerundio":["descalzando"],"participio":["descalzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descalzo"],"s2":["descalzas"],"vos":["descalzás"],"s3":["descalza"],"p1":["descalzamos"],"p2":["descalzáis"],"p3":["descalzan"]},
+    "IndImp": {"s1":["descalzaba"],"s2":["descalzabas"],"vos":["descalzabas"],"s3":["descalzaba"],"p1":["descalzábamos"],"p2":["descalzabais"],"p3":["descalzaban"]},
+    "IndPret": {"s1":["descalcé"],"s2":["descalzaste"],"vos":["descalzaste"],"s3":["descalzó"],"p1":["descalzamos"],"p2":["descalzasteis"],"p3":["descalzaron"]},
+    "IndFut": {"s1":["descalzaré"],"s2":["descalzarás"],"vos":["descalzarás"],"s3":["descalzará"],"p1":["descalzaremos"],"p2":["descalzaréis"],"p3":["descalzarán"]},
+    "IndCond": {"s1":["descalzaría"],"s2":["descalzarías"],"vos":["descalzarías"],"s3":["descalzaría"],"p1":["descalzaríamos"],"p2":["descalzaríais"],"p3":["descalzarían"]},
+    "SubPres": {"s1":["descalce"],"s2":["descalces"],"vos":["descalces","descalcés"],"s3":["descalce"],"p1":["descalcemos"],"p2":["descalcéis"],"p3":["descalcen"]},
+    "SubImp": {"s1":["descalzara","descalzase"],"s2":["descalzaras","descalzases"],"vos":["descalzaras","descalzases"],"s3":["descalzara","descalzase"],"p1":["descalzáramos","descalzásemos"],"p2":["descalzarais","descalzaseis"],"p3":["descalzaran","descalzasen"]},
+    "SubFut": {"s1":["descalzare"],"s2":["descalzares"],"vos":["descalzares"],"s3":["descalzare"],"p1":["descalzáremos"],"p2":["descalzareis"],"p3":["descalzaren"]},
+    "CmdPos": {"s2":["descalza"],"vos":["descalzá"],"s3":["descalce"],"p1":["descalcemos"],"p2":["descalzad"],"p3":["descalcen"]}
+  }
+}

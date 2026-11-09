@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[laˈð̞ɾaɾ]",
+    "silabacion": "la-drar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1200.[1] Del latín lātrāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ladrar","gerundio":["ladrando"],"participio":["ladrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ladro"],"s2":["ladras"],"vos":["ladrás"],"s3":["ladra"],"p1":["ladramos"],"p2":["ladráis"],"p3":["ladran"]},
+    "IndImp": {"s1":["ladraba"],"s2":["ladrabas"],"vos":["ladrabas"],"s3":["ladraba"],"p1":["ladrábamos"],"p2":["ladrabais"],"p3":["ladraban"]},
+    "IndPret": {"s1":["ladré"],"s2":["ladraste"],"vos":["ladraste"],"s3":["ladró"],"p1":["ladramos"],"p2":["ladrasteis"],"p3":["ladraron"]},
+    "IndFut": {"s1":["ladraré"],"s2":["ladrarás"],"vos":["ladrarás"],"s3":["ladrará"],"p1":["ladraremos"],"p2":["ladraréis"],"p3":["ladrarán"]},
+    "IndCond": {"s1":["ladraría"],"s2":["ladrarías"],"vos":["ladrarías"],"s3":["ladraría"],"p1":["ladraríamos"],"p2":["ladraríais"],"p3":["ladrarían"]},
+    "SubPres": {"s1":["ladre"],"s2":["ladres"],"vos":["ladres","ladrés"],"s3":["ladre"],"p1":["ladremos"],"p2":["ladréis"],"p3":["ladren"]},
+    "SubImp": {"s1":["ladrara","ladrase"],"s2":["ladraras","ladrases"],"vos":["ladraras","ladrases"],"s3":["ladrara","ladrase"],"p1":["ladráramos","ladrásemos"],"p2":["ladrarais","ladraseis"],"p3":["ladraran","ladrasen"]},
+    "SubFut": {"s1":["ladrare"],"s2":["ladrares"],"vos":["ladrares"],"s3":["ladrare"],"p1":["ladráremos"],"p2":["ladrareis"],"p3":["ladraren"]},
+    "CmdPos": {"s2":["ladra"],"vos":["ladrá"],"s3":["ladre"],"p1":["ladremos"],"p2":["ladrad"],"p3":["ladren"]}
+  }
+}

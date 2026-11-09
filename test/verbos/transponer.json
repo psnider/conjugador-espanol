@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnspoˈneɾ]",
+    "silabacion": "trans-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín transponere.[1]",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"transponer","gerundio":["transponiendo"],"participio":["transpuesto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["transpongo"],"s2":["transpones"],"vos":["transponés"],"s3":["transpone"],"p1":["transponemos"],"p2":["transponéis"],"p3":["transponen"]},
+    "IndImp": {"s1":["transponía"],"s2":["transponías"],"vos":["transponías"],"s3":["transponía"],"p1":["transponíamos"],"p2":["transponíais"],"p3":["transponían"]},
+    "IndPret": {"s1":["transpuse"],"s2":["transpusiste"],"vos":["transpusiste"],"s3":["transpuso"],"p1":["transpusimos"],"p2":["transpusisteis"],"p3":["transpusieron"]},
+    "IndFut": {"s1":["transpondré"],"s2":["transpondrás"],"vos":["transpondrás"],"s3":["transpondrá"],"p1":["transpondremos"],"p2":["transpondréis"],"p3":["transpondrán"]},
+    "IndCond": {"s1":["transpondría"],"s2":["transpondrías"],"vos":["transpondrías"],"s3":["transpondría"],"p1":["transpondríamos"],"p2":["transpondríais"],"p3":["transpondrían"]},
+    "SubPres": {"s1":["transponga"],"s2":["transpongas"],"vos":["transpongas","transpongás"],"s3":["transponga"],"p1":["transpongamos"],"p2":["transpongáis"],"p3":["transpongan"]},
+    "SubImp": {"s1":["transpusiera","transpusiese"],"s2":["transpusieras","transpusieses"],"vos":["transpusieras","transpusieses"],"s3":["transpusiera","transpusiese"],"p1":["transpusiéramos","transpusiésemos"],"p2":["transpusierais","transpusieseis"],"p3":["transpusieran","transpusiesen"]},
+    "SubFut": {"s1":["transpusiere"],"s2":["transpusieres"],"vos":["transpusieres"],"s3":["transpusiere"],"p1":["transpusiéremos"],"p2":["transpusiereis"],"p3":["transpusieren"]},
+    "CmdPos": {"s2":["transpón",{"forma":"transpone","uso":"no normativo"}],"vos":["transponé"],"s3":["transponga"],"p1":["transpongamos"],"p2":["transponed"],"p3":["transpongan"]}
+  }
+}

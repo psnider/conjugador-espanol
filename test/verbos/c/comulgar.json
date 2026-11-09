@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[komulˈɣ̞aɾ]",
+    "silabacion": "co-mul-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín communicāre ('comunicar').[1]",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"comulgar","gerundio":["comulgando"],"participio":["comulgado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["comulgo"],"s2":["comulgas"],"vos":["comulgás"],"s3":["comulga"],"p1":["comulgamos"],"p2":["comulgáis"],"p3":["comulgan"]},
+    "IndImp": {"s1":["comulgaba"],"s2":["comulgabas"],"vos":["comulgabas"],"s3":["comulgaba"],"p1":["comulgábamos"],"p2":["comulgabais"],"p3":["comulgaban"]},
+    "IndPret": {"s1":["comulgué"],"s2":["comulgaste"],"vos":["comulgaste"],"s3":["comulgó"],"p1":["comulgamos"],"p2":["comulgasteis"],"p3":["comulgaron"]},
+    "IndFut": {"s1":["comulgaré"],"s2":["comulgarás"],"vos":["comulgarás"],"s3":["comulgará"],"p1":["comulgaremos"],"p2":["comulgaréis"],"p3":["comulgarán"]},
+    "IndCond": {"s1":["comulgaría"],"s2":["comulgarías"],"vos":["comulgarías"],"s3":["comulgaría"],"p1":["comulgaríamos"],"p2":["comulgaríais"],"p3":["comulgarían"]},
+    "SubPres": {"s1":["comulgue"],"s2":["comulgues"],"vos":["comulgues","comulgués"],"s3":["comulgue"],"p1":["comulguemos"],"p2":["comulguéis"],"p3":["comulguen"]},
+    "SubImp": {"s1":["comulgara","comulgase"],"s2":["comulgaras","comulgases"],"vos":["comulgaras","comulgases"],"s3":["comulgara","comulgase"],"p1":["comulgáramos","comulgásemos"],"p2":["comulgarais","comulgaseis"],"p3":["comulgaran","comulgasen"]},
+    "SubFut": {"s1":["comulgare"],"s2":["comulgares"],"vos":["comulgares"],"s3":["comulgare"],"p1":["comulgáremos"],"p2":["comulgareis"],"p3":["comulgaren"]},
+    "CmdPos": {"s2":["comulga"],"vos":["comulgá"],"s3":["comulgue"],"p1":["comulguemos"],"p2":["comulgad"],"p3":["comulguen"]}
+  }
+}

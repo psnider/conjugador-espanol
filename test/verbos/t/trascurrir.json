@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaskuˈriɾ]",
+    "silabacion": "tras-cu-rrir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín transcurrere,[1] compuesto de trāns ('a través') y currō, currere ('correr').",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"trascurrir","gerundio":["trascurriendo"],"participio":["trascurrido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trascurro"],"s2":["trascurres"],"vos":["trascurrís"],"s3":["trascurre"],"p1":["trascurrimos"],"p2":["trascurrís"],"p3":["trascurren"]},
+    "IndImp": {"s1":["trascurría"],"s2":["trascurrías"],"vos":["trascurrías"],"s3":["trascurría"],"p1":["trascurríamos"],"p2":["trascurríais"],"p3":["trascurrían"]},
+    "IndPret": {"s1":["trascurrí"],"s2":["trascurriste"],"vos":["trascurriste"],"s3":["trascurrió"],"p1":["trascurrimos"],"p2":["trascurristeis"],"p3":["trascurrieron"]},
+    "IndFut": {"s1":["trascurriré"],"s2":["trascurrirás"],"vos":["trascurrirás"],"s3":["trascurrirá"],"p1":["trascurriremos"],"p2":["trascurriréis"],"p3":["trascurrirán"]},
+    "IndCond": {"s1":["trascurriría"],"s2":["trascurrirías"],"vos":["trascurrirías"],"s3":["trascurriría"],"p1":["trascurriríamos"],"p2":["trascurriríais"],"p3":["trascurrirían"]},
+    "SubPres": {"s1":["trascurra"],"s2":["trascurras"],"vos":["trascurras","trascurrás"],"s3":["trascurra"],"p1":["trascurramos"],"p2":["trascurráis"],"p3":["trascurran"]},
+    "SubImp": {"s1":["trascurriera","trascurriese"],"s2":["trascurrieras","trascurrieses"],"vos":["trascurrieras","trascurrieses"],"s3":["trascurriera","trascurriese"],"p1":["trascurriéramos","trascurriésemos"],"p2":["trascurrierais","trascurrieseis"],"p3":["trascurrieran","trascurriesen"]},
+    "SubFut": {"s1":["trascurriere"],"s2":["trascurrieres"],"vos":["trascurrieres"],"s3":["trascurriere"],"p1":["trascurriéremos"],"p2":["trascurriereis"],"p3":["trascurrieren"]},
+    "CmdPos": {"s2":["trascurre"],"vos":["trascurrí"],"s3":["trascurra"],"p1":["trascurramos"],"p2":["trascurrid"],"p3":["trascurran"]}
+  }
+}

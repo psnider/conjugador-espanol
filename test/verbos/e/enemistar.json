@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[enemisˈt̪aɾ]",
+    "silabacion": "e-ne-mis-tar",
+    "acentuacion": "aguda",
+    "etimologia": "de enemistad.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enemistar","gerundio":["enemistando"],"participio":["enemistado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enemisto"],"s2":["enemistas"],"vos":["enemistás"],"s3":["enemista"],"p1":["enemistamos"],"p2":["enemistáis"],"p3":["enemistan"]},
+    "IndImp": {"s1":["enemistaba"],"s2":["enemistabas"],"vos":["enemistabas"],"s3":["enemistaba"],"p1":["enemistábamos"],"p2":["enemistabais"],"p3":["enemistaban"]},
+    "IndPret": {"s1":["enemisté"],"s2":["enemistaste"],"vos":["enemistaste"],"s3":["enemistó"],"p1":["enemistamos"],"p2":["enemistasteis"],"p3":["enemistaron"]},
+    "IndFut": {"s1":["enemistaré"],"s2":["enemistarás"],"vos":["enemistarás"],"s3":["enemistará"],"p1":["enemistaremos"],"p2":["enemistaréis"],"p3":["enemistarán"]},
+    "IndCond": {"s1":["enemistaría"],"s2":["enemistarías"],"vos":["enemistarías"],"s3":["enemistaría"],"p1":["enemistaríamos"],"p2":["enemistaríais"],"p3":["enemistarían"]},
+    "SubPres": {"s1":["enemiste"],"s2":["enemistes"],"vos":["enemistes","enemistés"],"s3":["enemiste"],"p1":["enemistemos"],"p2":["enemistéis"],"p3":["enemisten"]},
+    "SubImp": {"s1":["enemistara","enemistase"],"s2":["enemistaras","enemistases"],"vos":["enemistaras","enemistases"],"s3":["enemistara","enemistase"],"p1":["enemistáramos","enemistásemos"],"p2":["enemistarais","enemistaseis"],"p3":["enemistaran","enemistasen"]},
+    "SubFut": {"s1":["enemistare"],"s2":["enemistares"],"vos":["enemistares"],"s3":["enemistare"],"p1":["enemistáremos"],"p2":["enemistareis"],"p3":["enemistaren"]},
+    "CmdPos": {"s2":["enemista"],"vos":["enemistá"],"s3":["enemiste"],"p1":["enemistemos"],"p2":["enemistad"],"p3":["enemisten"]}
+  }
+}

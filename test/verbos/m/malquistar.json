@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[malkisˈt̪aɾ]",
+    "silabacion": "mal-quis-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De malquisto y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"malquistar","gerundio":["malquistando"],"participio":["malquistado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["malquisto"],"s2":["malquistas"],"vos":["malquistás"],"s3":["malquista"],"p1":["malquistamos"],"p2":["malquistáis"],"p3":["malquistan"]},
+    "IndImp": {"s1":["malquistaba"],"s2":["malquistabas"],"vos":["malquistabas"],"s3":["malquistaba"],"p1":["malquistábamos"],"p2":["malquistabais"],"p3":["malquistaban"]},
+    "IndPret": {"s1":["malquisté"],"s2":["malquistaste"],"vos":["malquistaste"],"s3":["malquistó"],"p1":["malquistamos"],"p2":["malquistasteis"],"p3":["malquistaron"]},
+    "IndFut": {"s1":["malquistaré"],"s2":["malquistarás"],"vos":["malquistarás"],"s3":["malquistará"],"p1":["malquistaremos"],"p2":["malquistaréis"],"p3":["malquistarán"]},
+    "IndCond": {"s1":["malquistaría"],"s2":["malquistarías"],"vos":["malquistarías"],"s3":["malquistaría"],"p1":["malquistaríamos"],"p2":["malquistaríais"],"p3":["malquistarían"]},
+    "SubPres": {"s1":["malquiste"],"s2":["malquistes"],"vos":["malquistes","malquistés"],"s3":["malquiste"],"p1":["malquistemos"],"p2":["malquistéis"],"p3":["malquisten"]},
+    "SubImp": {"s1":["malquistara","malquistase"],"s2":["malquistaras","malquistases"],"vos":["malquistaras","malquistases"],"s3":["malquistara","malquistase"],"p1":["malquistáramos","malquistásemos"],"p2":["malquistarais","malquistaseis"],"p3":["malquistaran","malquistasen"]},
+    "SubFut": {"s1":["malquistare"],"s2":["malquistares"],"vos":["malquistares"],"s3":["malquistare"],"p1":["malquistáremos"],"p2":["malquistareis"],"p3":["malquistaren"]},
+    "CmdPos": {"s2":["malquista"],"vos":["malquistá"],"s3":["malquiste"],"p1":["malquistemos"],"p2":["malquistad"],"p3":["malquisten"]}
+  }
+}

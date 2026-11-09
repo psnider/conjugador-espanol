@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[awt̪omat̪iˈsaɾ]",
+    "silabacion": "au-to-ma-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De automático y el sufijo -izar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"automatizar","gerundio":["automatizando"],"participio":["automatizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["automatizo"],"s2":["automatizas"],"vos":["automatizás"],"s3":["automatiza"],"p1":["automatizamos"],"p2":["automatizáis"],"p3":["automatizan"]},
+    "IndImp": {"s1":["automatizaba"],"s2":["automatizabas"],"vos":["automatizabas"],"s3":["automatizaba"],"p1":["automatizábamos"],"p2":["automatizabais"],"p3":["automatizaban"]},
+    "IndPret": {"s1":["automaticé"],"s2":["automatizaste"],"vos":["automatizaste"],"s3":["automatizó"],"p1":["automatizamos"],"p2":["automatizasteis"],"p3":["automatizaron"]},
+    "IndFut": {"s1":["automatizaré"],"s2":["automatizarás"],"vos":["automatizarás"],"s3":["automatizará"],"p1":["automatizaremos"],"p2":["automatizaréis"],"p3":["automatizarán"]},
+    "IndCond": {"s1":["automatizaría"],"s2":["automatizarías"],"vos":["automatizarías"],"s3":["automatizaría"],"p1":["automatizaríamos"],"p2":["automatizaríais"],"p3":["automatizarían"]},
+    "SubPres": {"s1":["automatice"],"s2":["automatices"],"vos":["automatices","automaticés"],"s3":["automatice"],"p1":["automaticemos"],"p2":["automaticéis"],"p3":["automaticen"]},
+    "SubImp": {"s1":["automatizara","automatizase"],"s2":["automatizaras","automatizases"],"vos":["automatizaras","automatizases"],"s3":["automatizara","automatizase"],"p1":["automatizáramos","automatizásemos"],"p2":["automatizarais","automatizaseis"],"p3":["automatizaran","automatizasen"]},
+    "SubFut": {"s1":["automatizare"],"s2":["automatizares"],"vos":["automatizares"],"s3":["automatizare"],"p1":["automatizáremos"],"p2":["automatizareis"],"p3":["automatizaren"]},
+    "CmdPos": {"s2":["automatiza"],"vos":["automatizá"],"s3":["automatice"],"p1":["automaticemos"],"p2":["automatizad"],"p3":["automaticen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋguruˈɲaɾ]",
+    "silabacion": "en-gu-rru-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "de engurrar,[1] y este, por metátesis, de enrugar, a su vez del latín irrugāre, compuesto de in ('en') y rūgo, rugāre ('arrugar'), deverbal de rūga ('arruga'), de la raíz indoeuropea *kreu ('costra'),[2] o *reu ('arrancar').[3]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"engurruñar","gerundio":["engurruñando"],"participio":["engurruñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["engurruño"],"s2":["engurruñas"],"vos":["engurruñás"],"s3":["engurruña"],"p1":["engurruñamos"],"p2":["engurruñáis"],"p3":["engurruñan"]},
+    "IndImp": {"s1":["engurruñaba"],"s2":["engurruñabas"],"vos":["engurruñabas"],"s3":["engurruñaba"],"p1":["engurruñábamos"],"p2":["engurruñabais"],"p3":["engurruñaban"]},
+    "IndPret": {"s1":["engurruñé"],"s2":["engurruñaste"],"vos":["engurruñaste"],"s3":["engurruñó"],"p1":["engurruñamos"],"p2":["engurruñasteis"],"p3":["engurruñaron"]},
+    "IndFut": {"s1":["engurruñaré"],"s2":["engurruñarás"],"vos":["engurruñarás"],"s3":["engurruñará"],"p1":["engurruñaremos"],"p2":["engurruñaréis"],"p3":["engurruñarán"]},
+    "IndCond": {"s1":["engurruñaría"],"s2":["engurruñarías"],"vos":["engurruñarías"],"s3":["engurruñaría"],"p1":["engurruñaríamos"],"p2":["engurruñaríais"],"p3":["engurruñarían"]},
+    "SubPres": {"s1":["engurruñe"],"s2":["engurruñes"],"vos":["engurruñes","engurruñés"],"s3":["engurruñe"],"p1":["engurruñemos"],"p2":["engurruñéis"],"p3":["engurruñen"]},
+    "SubImp": {"s1":["engurruñara","engurruñase"],"s2":["engurruñaras","engurruñases"],"vos":["engurruñaras","engurruñases"],"s3":["engurruñara","engurruñase"],"p1":["engurruñáramos","engurruñásemos"],"p2":["engurruñarais","engurruñaseis"],"p3":["engurruñaran","engurruñasen"]},
+    "SubFut": {"s1":["engurruñare"],"s2":["engurruñares"],"vos":["engurruñares"],"s3":["engurruñare"],"p1":["engurruñáremos"],"p2":["engurruñareis"],"p3":["engurruñaren"]},
+    "CmdPos": {"s2":["engurruña"],"vos":["engurruñá"],"s3":["engurruñe"],"p1":["engurruñemos"],"p2":["engurruñad"],"p3":["engurruñen"]}
+  }
+}

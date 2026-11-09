@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[muˈxiɾ]",
+    "silabacion": "mu-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Cultismo. Del latín mūgīre, infinitivo de mūgiō.",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"mugir","gerundio":["mugiendo"],"participio":["mugido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mujo"],"s2":["muges"],"vos":["mugís"],"s3":["muge"],"p1":["mugimos"],"p2":["mugís"],"p3":["mugen"]},
+    "IndImp": {"s1":["mugía"],"s2":["mugías"],"vos":["mugías"],"s3":["mugía"],"p1":["mugíamos"],"p2":["mugíais"],"p3":["mugían"]},
+    "IndPret": {"s1":["mugí"],"s2":["mugiste"],"vos":["mugiste"],"s3":["mugió"],"p1":["mugimos"],"p2":["mugisteis"],"p3":["mugieron"]},
+    "IndFut": {"s1":["mugiré"],"s2":["mugirás"],"vos":["mugirás"],"s3":["mugirá"],"p1":["mugiremos"],"p2":["mugiréis"],"p3":["mugirán"]},
+    "IndCond": {"s1":["mugiría"],"s2":["mugirías"],"vos":["mugirías"],"s3":["mugiría"],"p1":["mugiríamos"],"p2":["mugiríais"],"p3":["mugirían"]},
+    "SubPres": {"s1":["muja"],"s2":["mujas"],"vos":["mujas","mujás"],"s3":["muja"],"p1":["mujamos"],"p2":["mujáis"],"p3":["mujan"]},
+    "SubImp": {"s1":["mugiera","mugiese"],"s2":["mugieras","mugieses"],"vos":["mugieras","mugieses"],"s3":["mugiera","mugiese"],"p1":["mugiéramos","mugiésemos"],"p2":["mugierais","mugieseis"],"p3":["mugieran","mugiesen"]},
+    "SubFut": {"s1":["mugiere"],"s2":["mugieres"],"vos":["mugieres"],"s3":["mugiere"],"p1":["mugiéremos"],"p2":["mugiereis"],"p3":["mugieren"]},
+    "CmdPos": {"s2":["muge"],"vos":["mugí"],"s3":["muja"],"p1":["mujamos"],"p2":["mugid"],"p3":["mujan"]}
+  }
+}

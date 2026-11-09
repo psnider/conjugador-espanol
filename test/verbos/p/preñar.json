@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾeˈɲaɾ]",
+    "silabacion": "pre-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín pregnare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"preñar","gerundio":["preñando"],"participio":["preñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["preño"],"s2":["preñas"],"vos":["preñás"],"s3":["preña"],"p1":["preñamos"],"p2":["preñáis"],"p3":["preñan"]},
+    "IndImp": {"s1":["preñaba"],"s2":["preñabas"],"vos":["preñabas"],"s3":["preñaba"],"p1":["preñábamos"],"p2":["preñabais"],"p3":["preñaban"]},
+    "IndPret": {"s1":["preñé"],"s2":["preñaste"],"vos":["preñaste"],"s3":["preñó"],"p1":["preñamos"],"p2":["preñasteis"],"p3":["preñaron"]},
+    "IndFut": {"s1":["preñaré"],"s2":["preñarás"],"vos":["preñarás"],"s3":["preñará"],"p1":["preñaremos"],"p2":["preñaréis"],"p3":["preñarán"]},
+    "IndCond": {"s1":["preñaría"],"s2":["preñarías"],"vos":["preñarías"],"s3":["preñaría"],"p1":["preñaríamos"],"p2":["preñaríais"],"p3":["preñarían"]},
+    "SubPres": {"s1":["preñe"],"s2":["preñes"],"vos":["preñes","preñés"],"s3":["preñe"],"p1":["preñemos"],"p2":["preñéis"],"p3":["preñen"]},
+    "SubImp": {"s1":["preñara","preñase"],"s2":["preñaras","preñases"],"vos":["preñaras","preñases"],"s3":["preñara","preñase"],"p1":["preñáramos","preñásemos"],"p2":["preñarais","preñaseis"],"p3":["preñaran","preñasen"]},
+    "SubFut": {"s1":["preñare"],"s2":["preñares"],"vos":["preñares"],"s3":["preñare"],"p1":["preñáremos"],"p2":["preñareis"],"p3":["preñaren"]},
+    "CmdPos": {"s2":["preña"],"vos":["preñá"],"s3":["preñe"],"p1":["preñemos"],"p2":["preñad"],"p3":["preñen"]}
+  }
+}

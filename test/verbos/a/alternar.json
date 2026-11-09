@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[al̪t̪eɾˈnaɾ]",
+    "silabacion": "al-ter-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín alternāre, de alternus ('otro').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"alternar","gerundio":["alternando"],"participio":["alternado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["alterno"],"s2":["alternas"],"vos":["alternás"],"s3":["alterna"],"p1":["alternamos"],"p2":["alternáis"],"p3":["alternan"]},
+    "IndImp": {"s1":["alternaba"],"s2":["alternabas"],"vos":["alternabas"],"s3":["alternaba"],"p1":["alternábamos"],"p2":["alternabais"],"p3":["alternaban"]},
+    "IndPret": {"s1":["alterné"],"s2":["alternaste"],"vos":["alternaste"],"s3":["alternó"],"p1":["alternamos"],"p2":["alternasteis"],"p3":["alternaron"]},
+    "IndFut": {"s1":["alternaré"],"s2":["alternarás"],"vos":["alternarás"],"s3":["alternará"],"p1":["alternaremos"],"p2":["alternaréis"],"p3":["alternarán"]},
+    "IndCond": {"s1":["alternaría"],"s2":["alternarías"],"vos":["alternarías"],"s3":["alternaría"],"p1":["alternaríamos"],"p2":["alternaríais"],"p3":["alternarían"]},
+    "SubPres": {"s1":["alterne"],"s2":["alternes"],"vos":["alternes","alternés"],"s3":["alterne"],"p1":["alternemos"],"p2":["alternéis"],"p3":["alternen"]},
+    "SubImp": {"s1":["alternara","alternase"],"s2":["alternaras","alternases"],"vos":["alternaras","alternases"],"s3":["alternara","alternase"],"p1":["alternáramos","alternásemos"],"p2":["alternarais","alternaseis"],"p3":["alternaran","alternasen"]},
+    "SubFut": {"s1":["alternare"],"s2":["alternares"],"vos":["alternares"],"s3":["alternare"],"p1":["alternáremos"],"p2":["alternareis"],"p3":["alternaren"]},
+    "CmdPos": {"s2":["alterna"],"vos":["alterná"],"s3":["alterne"],"p1":["alternemos"],"p2":["alternad"],"p3":["alternen"]}
+  }
+}

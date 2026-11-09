@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bisβ̞iseˈaɾ]",
+    "silabacion": "bis-bi-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De bisbís (onomatopeya) y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bisbisear","gerundio":["bisbiseando"],"participio":["bisbiseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["bisbiseo"],"s2":["bisbiseas"],"vos":["bisbiseás"],"s3":["bisbisea"],"p1":["bisbiseamos"],"p2":["bisbiseáis"],"p3":["bisbisean"]},
+    "IndImp": {"s1":["bisbiseaba"],"s2":["bisbiseabas"],"vos":["bisbiseabas"],"s3":["bisbiseaba"],"p1":["bisbiseábamos"],"p2":["bisbiseabais"],"p3":["bisbiseaban"]},
+    "IndPret": {"s1":["bisbiseé"],"s2":["bisbiseaste"],"vos":["bisbiseaste"],"s3":["bisbiseó"],"p1":["bisbiseamos"],"p2":["bisbiseasteis"],"p3":["bisbisearon"]},
+    "IndFut": {"s1":["bisbisearé"],"s2":["bisbisearás"],"vos":["bisbisearás"],"s3":["bisbiseará"],"p1":["bisbisearemos"],"p2":["bisbisearéis"],"p3":["bisbisearán"]},
+    "IndCond": {"s1":["bisbisearía"],"s2":["bisbisearías"],"vos":["bisbisearías"],"s3":["bisbisearía"],"p1":["bisbisearíamos"],"p2":["bisbisearíais"],"p3":["bisbisearían"]},
+    "SubPres": {"s1":["bisbisee"],"s2":["bisbisees"],"vos":["bisbisees","bisbiseés"],"s3":["bisbisee"],"p1":["bisbiseemos"],"p2":["bisbiseéis"],"p3":["bisbiseen"]},
+    "SubImp": {"s1":["bisbiseara","bisbisease"],"s2":["bisbisearas","bisbiseases"],"vos":["bisbisearas","bisbiseases"],"s3":["bisbiseara","bisbisease"],"p1":["bisbiseáramos","bisbiseásemos"],"p2":["bisbisearais","bisbiseaseis"],"p3":["bisbisearan","bisbiseasen"]},
+    "SubFut": {"s1":["bisbiseare"],"s2":["bisbiseares"],"vos":["bisbiseares"],"s3":["bisbiseare"],"p1":["bisbiseáremos"],"p2":["bisbiseareis"],"p3":["bisbisearen"]},
+    "CmdPos": {"s2":["bisbisea"],"vos":["bisbiseá"],"s3":["bisbisee"],"p1":["bisbiseemos"],"p2":["bisbisead"],"p3":["bisbiseen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩŋkulˈpaɾ]",
+    "silabacion": "in-cul-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"inculpar","gerundio":["inculpando"],"participio":["inculpado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["inculpo"],"s2":["inculpas"],"vos":["inculpás"],"s3":["inculpa"],"p1":["inculpamos"],"p2":["inculpáis"],"p3":["inculpan"]},
+    "IndImp": {"s1":["inculpaba"],"s2":["inculpabas"],"vos":["inculpabas"],"s3":["inculpaba"],"p1":["inculpábamos"],"p2":["inculpabais"],"p3":["inculpaban"]},
+    "IndPret": {"s1":["inculpé"],"s2":["inculpaste"],"vos":["inculpaste"],"s3":["inculpó"],"p1":["inculpamos"],"p2":["inculpasteis"],"p3":["inculparon"]},
+    "IndFut": {"s1":["inculparé"],"s2":["inculparás"],"vos":["inculparás"],"s3":["inculpará"],"p1":["inculparemos"],"p2":["inculparéis"],"p3":["inculparán"]},
+    "IndCond": {"s1":["inculparía"],"s2":["inculparías"],"vos":["inculparías"],"s3":["inculparía"],"p1":["inculparíamos"],"p2":["inculparíais"],"p3":["inculparían"]},
+    "SubPres": {"s1":["inculpe"],"s2":["inculpes"],"vos":["inculpes","inculpés"],"s3":["inculpe"],"p1":["inculpemos"],"p2":["inculpéis"],"p3":["inculpen"]},
+    "SubImp": {"s1":["inculpara","inculpase"],"s2":["inculparas","inculpases"],"vos":["inculparas","inculpases"],"s3":["inculpara","inculpase"],"p1":["inculpáramos","inculpásemos"],"p2":["inculparais","inculpaseis"],"p3":["inculparan","inculpasen"]},
+    "SubFut": {"s1":["inculpare"],"s2":["inculpares"],"vos":["inculpares"],"s3":["inculpare"],"p1":["inculpáremos"],"p2":["inculpareis"],"p3":["inculparen"]},
+    "CmdPos": {"s2":["inculpa"],"vos":["inculpá"],"s3":["inculpe"],"p1":["inculpemos"],"p2":["inculpad"],"p3":["inculpen"]}
+  }
+}

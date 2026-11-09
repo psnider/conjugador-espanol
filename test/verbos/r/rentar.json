@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rẽn̪ˈt̪aɾ]",
+    "silabacion": "ren-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del inglés rent ('arrendar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rentar","gerundio":["rentando"],"participio":["rentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rento"],"s2":["rentas"],"vos":["rentás"],"s3":["renta"],"p1":["rentamos"],"p2":["rentáis"],"p3":["rentan"]},
+    "IndImp": {"s1":["rentaba"],"s2":["rentabas"],"vos":["rentabas"],"s3":["rentaba"],"p1":["rentábamos"],"p2":["rentabais"],"p3":["rentaban"]},
+    "IndPret": {"s1":["renté"],"s2":["rentaste"],"vos":["rentaste"],"s3":["rentó"],"p1":["rentamos"],"p2":["rentasteis"],"p3":["rentaron"]},
+    "IndFut": {"s1":["rentaré"],"s2":["rentarás"],"vos":["rentarás"],"s3":["rentará"],"p1":["rentaremos"],"p2":["rentaréis"],"p3":["rentarán"]},
+    "IndCond": {"s1":["rentaría"],"s2":["rentarías"],"vos":["rentarías"],"s3":["rentaría"],"p1":["rentaríamos"],"p2":["rentaríais"],"p3":["rentarían"]},
+    "SubPres": {"s1":["rente"],"s2":["rentes"],"vos":["rentes","rentés"],"s3":["rente"],"p1":["rentemos"],"p2":["rentéis"],"p3":["renten"]},
+    "SubImp": {"s1":["rentara","rentase"],"s2":["rentaras","rentases"],"vos":["rentaras","rentases"],"s3":["rentara","rentase"],"p1":["rentáramos","rentásemos"],"p2":["rentarais","rentaseis"],"p3":["rentaran","rentasen"]},
+    "SubFut": {"s1":["rentare"],"s2":["rentares"],"vos":["rentares"],"s3":["rentare"],"p1":["rentáremos"],"p2":["rentareis"],"p3":["rentaren"]},
+    "CmdPos": {"s2":["renta"],"vos":["rentá"],"s3":["rente"],"p1":["rentemos"],"p2":["rentad"],"p3":["renten"]}
+  }
+}

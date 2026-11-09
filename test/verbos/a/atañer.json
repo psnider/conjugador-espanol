@@ -16,6 +16,7 @@
     "SubPres": {"s3":["ataña"],"p3":["atañan"]},
     "SubImp": {"s3":["atañera","atañese"],"p3":["atañeran","atañesen"]},
     "SubFut": {"s3":["atañere"],"p3":["atañeren"]},
-    "CmdPos": null
+    "CmdPos": null,
+    "CmdNeg": null
   }
 }

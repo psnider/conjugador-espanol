@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[salˈβ̞aɾ]",
+    "silabacion": "sal-var",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín salvāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"salvar","gerundio":["salvando"],"participio":["salvado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["salvo"],"s2":["salvas"],"vos":["salvás"],"s3":["salva"],"p1":["salvamos"],"p2":["salváis"],"p3":["salvan"]},
+    "IndImp": {"s1":["salvaba"],"s2":["salvabas"],"vos":["salvabas"],"s3":["salvaba"],"p1":["salvábamos"],"p2":["salvabais"],"p3":["salvaban"]},
+    "IndPret": {"s1":["salvé"],"s2":["salvaste"],"vos":["salvaste"],"s3":["salvó"],"p1":["salvamos"],"p2":["salvasteis"],"p3":["salvaron"]},
+    "IndFut": {"s1":["salvaré"],"s2":["salvarás"],"vos":["salvarás"],"s3":["salvará"],"p1":["salvaremos"],"p2":["salvaréis"],"p3":["salvarán"]},
+    "IndCond": {"s1":["salvaría"],"s2":["salvarías"],"vos":["salvarías"],"s3":["salvaría"],"p1":["salvaríamos"],"p2":["salvaríais"],"p3":["salvarían"]},
+    "SubPres": {"s1":["salve"],"s2":["salves"],"vos":["salves","salvés"],"s3":["salve"],"p1":["salvemos"],"p2":["salvéis"],"p3":["salven"]},
+    "SubImp": {"s1":["salvara","salvase"],"s2":["salvaras","salvases"],"vos":["salvaras","salvases"],"s3":["salvara","salvase"],"p1":["salváramos","salvásemos"],"p2":["salvarais","salvaseis"],"p3":["salvaran","salvasen"]},
+    "SubFut": {"s1":["salvare"],"s2":["salvares"],"vos":["salvares"],"s3":["salvare"],"p1":["salváremos"],"p2":["salvareis"],"p3":["salvaren"]},
+    "CmdPos": {"s2":["salva"],"vos":["salvá"],"s3":["salve"],"p1":["salvemos"],"p2":["salvad"],"p3":["salven"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞ẽn̪ˈt̪aɾ]",
+    "silabacion": "a-ven-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, viento y el sufijo -ar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"aventar","gerundio":["aventando"],"participio":["aventado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aviento"],"s2":["avientas"],"vos":["aventás"],"s3":["avienta"],"p1":["aventamos"],"p2":["aventáis"],"p3":["avientan"]},
+    "IndImp": {"s1":["aventaba"],"s2":["aventabas"],"vos":["aventabas"],"s3":["aventaba"],"p1":["aventábamos"],"p2":["aventabais"],"p3":["aventaban"]},
+    "IndPret": {"s1":["aventé"],"s2":["aventaste"],"vos":["aventaste"],"s3":["aventó"],"p1":["aventamos"],"p2":["aventasteis"],"p3":["aventaron"]},
+    "IndFut": {"s1":["aventaré"],"s2":["aventarás"],"vos":["aventarás"],"s3":["aventará"],"p1":["aventaremos"],"p2":["aventaréis"],"p3":["aventarán"]},
+    "IndCond": {"s1":["aventaría"],"s2":["aventarías"],"vos":["aventarías"],"s3":["aventaría"],"p1":["aventaríamos"],"p2":["aventaríais"],"p3":["aventarían"]},
+    "SubPres": {"s1":["aviente"],"s2":["avientes"],"vos":["avientes","aventés"],"s3":["aviente"],"p1":["aventemos"],"p2":["aventéis"],"p3":["avienten"]},
+    "SubImp": {"s1":["aventara","aventase"],"s2":["aventaras","aventases"],"vos":["aventaras","aventases"],"s3":["aventara","aventase"],"p1":["aventáramos","aventásemos"],"p2":["aventarais","aventaseis"],"p3":["aventaran","aventasen"]},
+    "SubFut": {"s1":["aventare"],"s2":["aventares"],"vos":["aventares"],"s3":["aventare"],"p1":["aventáremos"],"p2":["aventareis"],"p3":["aventaren"]},
+    "CmdPos": {"s2":["avienta"],"vos":["aventá"],"s3":["aviente"],"p1":["aventemos"],"p2":["aventad"],"p3":["avienten"]}
+  }
+}

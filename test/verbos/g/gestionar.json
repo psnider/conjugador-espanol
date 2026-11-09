@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xest̪joˈnaɾ]",
+    "silabacion": "ges-tio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De gestión y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"gestionar","gerundio":["gestionando"],"participio":["gestionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["gestiono"],"s2":["gestionas"],"vos":["gestionás"],"s3":["gestiona"],"p1":["gestionamos"],"p2":["gestionáis"],"p3":["gestionan"]},
+    "IndImp": {"s1":["gestionaba"],"s2":["gestionabas"],"vos":["gestionabas"],"s3":["gestionaba"],"p1":["gestionábamos"],"p2":["gestionabais"],"p3":["gestionaban"]},
+    "IndPret": {"s1":["gestioné"],"s2":["gestionaste"],"vos":["gestionaste"],"s3":["gestionó"],"p1":["gestionamos"],"p2":["gestionasteis"],"p3":["gestionaron"]},
+    "IndFut": {"s1":["gestionaré"],"s2":["gestionarás"],"vos":["gestionarás"],"s3":["gestionará"],"p1":["gestionaremos"],"p2":["gestionaréis"],"p3":["gestionarán"]},
+    "IndCond": {"s1":["gestionaría"],"s2":["gestionarías"],"vos":["gestionarías"],"s3":["gestionaría"],"p1":["gestionaríamos"],"p2":["gestionaríais"],"p3":["gestionarían"]},
+    "SubPres": {"s1":["gestione"],"s2":["gestiones"],"vos":["gestiones","gestionés"],"s3":["gestione"],"p1":["gestionemos"],"p2":["gestionéis"],"p3":["gestionen"]},
+    "SubImp": {"s1":["gestionara","gestionase"],"s2":["gestionaras","gestionases"],"vos":["gestionaras","gestionases"],"s3":["gestionara","gestionase"],"p1":["gestionáramos","gestionásemos"],"p2":["gestionarais","gestionaseis"],"p3":["gestionaran","gestionasen"]},
+    "SubFut": {"s1":["gestionare"],"s2":["gestionares"],"vos":["gestionares"],"s3":["gestionare"],"p1":["gestionáremos"],"p2":["gestionareis"],"p3":["gestionaren"]},
+    "CmdPos": {"s2":["gestiona"],"vos":["gestioná"],"s3":["gestione"],"p1":["gestionemos"],"p2":["gestionad"],"p3":["gestionen"]}
+  }
+}

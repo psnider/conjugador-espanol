@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾð̞eˈɲaɾ]",
+    "silabacion": "or-de-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *ordiniāre, y este de ordināre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ordeñar","gerundio":["ordeñando"],"participio":["ordeñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ordeño"],"s2":["ordeñas"],"vos":["ordeñás"],"s3":["ordeña"],"p1":["ordeñamos"],"p2":["ordeñáis"],"p3":["ordeñan"]},
+    "IndImp": {"s1":["ordeñaba"],"s2":["ordeñabas"],"vos":["ordeñabas"],"s3":["ordeñaba"],"p1":["ordeñábamos"],"p2":["ordeñabais"],"p3":["ordeñaban"]},
+    "IndPret": {"s1":["ordeñé"],"s2":["ordeñaste"],"vos":["ordeñaste"],"s3":["ordeñó"],"p1":["ordeñamos"],"p2":["ordeñasteis"],"p3":["ordeñaron"]},
+    "IndFut": {"s1":["ordeñaré"],"s2":["ordeñarás"],"vos":["ordeñarás"],"s3":["ordeñará"],"p1":["ordeñaremos"],"p2":["ordeñaréis"],"p3":["ordeñarán"]},
+    "IndCond": {"s1":["ordeñaría"],"s2":["ordeñarías"],"vos":["ordeñarías"],"s3":["ordeñaría"],"p1":["ordeñaríamos"],"p2":["ordeñaríais"],"p3":["ordeñarían"]},
+    "SubPres": {"s1":["ordeñe"],"s2":["ordeñes"],"vos":["ordeñes","ordeñés"],"s3":["ordeñe"],"p1":["ordeñemos"],"p2":["ordeñéis"],"p3":["ordeñen"]},
+    "SubImp": {"s1":["ordeñara","ordeñase"],"s2":["ordeñaras","ordeñases"],"vos":["ordeñaras","ordeñases"],"s3":["ordeñara","ordeñase"],"p1":["ordeñáramos","ordeñásemos"],"p2":["ordeñarais","ordeñaseis"],"p3":["ordeñaran","ordeñasen"]},
+    "SubFut": {"s1":["ordeñare"],"s2":["ordeñares"],"vos":["ordeñares"],"s3":["ordeñare"],"p1":["ordeñáremos"],"p2":["ordeñareis"],"p3":["ordeñaren"]},
+    "CmdPos": {"s2":["ordeña"],"vos":["ordeñá"],"s3":["ordeñe"],"p1":["ordeñemos"],"p2":["ordeñad"],"p3":["ordeñen"]}
+  }
+}

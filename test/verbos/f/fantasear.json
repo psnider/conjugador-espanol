@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fãn̪t̪aseˈaɾ]",
+    "silabacion": "fan-ta-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"fantasear","gerundio":["fantaseando"],"participio":["fantaseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["fantaseo"],"s2":["fantaseas"],"vos":["fantaseás"],"s3":["fantasea"],"p1":["fantaseamos"],"p2":["fantaseáis"],"p3":["fantasean"]},
+    "IndImp": {"s1":["fantaseaba"],"s2":["fantaseabas"],"vos":["fantaseabas"],"s3":["fantaseaba"],"p1":["fantaseábamos"],"p2":["fantaseabais"],"p3":["fantaseaban"]},
+    "IndPret": {"s1":["fantaseé"],"s2":["fantaseaste"],"vos":["fantaseaste"],"s3":["fantaseó"],"p1":["fantaseamos"],"p2":["fantaseasteis"],"p3":["fantasearon"]},
+    "IndFut": {"s1":["fantasearé"],"s2":["fantasearás"],"vos":["fantasearás"],"s3":["fantaseará"],"p1":["fantasearemos"],"p2":["fantasearéis"],"p3":["fantasearán"]},
+    "IndCond": {"s1":["fantasearía"],"s2":["fantasearías"],"vos":["fantasearías"],"s3":["fantasearía"],"p1":["fantasearíamos"],"p2":["fantasearíais"],"p3":["fantasearían"]},
+    "SubPres": {"s1":["fantasee"],"s2":["fantasees"],"vos":["fantasees","fantaseés"],"s3":["fantasee"],"p1":["fantaseemos"],"p2":["fantaseéis"],"p3":["fantaseen"]},
+    "SubImp": {"s1":["fantaseara","fantasease"],"s2":["fantasearas","fantaseases"],"vos":["fantasearas","fantaseases"],"s3":["fantaseara","fantasease"],"p1":["fantaseáramos","fantaseásemos"],"p2":["fantasearais","fantaseaseis"],"p3":["fantasearan","fantaseasen"]},
+    "SubFut": {"s1":["fantaseare"],"s2":["fantaseares"],"vos":["fantaseares"],"s3":["fantaseare"],"p1":["fantaseáremos"],"p2":["fantaseareis"],"p3":["fantasearen"]},
+    "CmdPos": {"s2":["fantasea"],"vos":["fantaseá"],"s3":["fantasee"],"p1":["fantaseemos"],"p2":["fantasead"],"p3":["fantaseen"]}
+  }
+}

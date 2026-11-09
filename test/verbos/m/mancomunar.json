@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mãŋkomuˈnaɾ]",
+    "silabacion": "man-co-mu-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De de mancomún y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mancomunar","gerundio":["mancomunando"],"participio":["mancomunado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mancomuno"],"s2":["mancomunas"],"vos":["mancomunás"],"s3":["mancomuna"],"p1":["mancomunamos"],"p2":["mancomunáis"],"p3":["mancomunan"]},
+    "IndImp": {"s1":["mancomunaba"],"s2":["mancomunabas"],"vos":["mancomunabas"],"s3":["mancomunaba"],"p1":["mancomunábamos"],"p2":["mancomunabais"],"p3":["mancomunaban"]},
+    "IndPret": {"s1":["mancomuné"],"s2":["mancomunaste"],"vos":["mancomunaste"],"s3":["mancomunó"],"p1":["mancomunamos"],"p2":["mancomunasteis"],"p3":["mancomunaron"]},
+    "IndFut": {"s1":["mancomunaré"],"s2":["mancomunarás"],"vos":["mancomunarás"],"s3":["mancomunará"],"p1":["mancomunaremos"],"p2":["mancomunaréis"],"p3":["mancomunarán"]},
+    "IndCond": {"s1":["mancomunaría"],"s2":["mancomunarías"],"vos":["mancomunarías"],"s3":["mancomunaría"],"p1":["mancomunaríamos"],"p2":["mancomunaríais"],"p3":["mancomunarían"]},
+    "SubPres": {"s1":["mancomune"],"s2":["mancomunes"],"vos":["mancomunes","mancomunés"],"s3":["mancomune"],"p1":["mancomunemos"],"p2":["mancomunéis"],"p3":["mancomunen"]},
+    "SubImp": {"s1":["mancomunara","mancomunase"],"s2":["mancomunaras","mancomunases"],"vos":["mancomunaras","mancomunases"],"s3":["mancomunara","mancomunase"],"p1":["mancomunáramos","mancomunásemos"],"p2":["mancomunarais","mancomunaseis"],"p3":["mancomunaran","mancomunasen"]},
+    "SubFut": {"s1":["mancomunare"],"s2":["mancomunares"],"vos":["mancomunares"],"s3":["mancomunare"],"p1":["mancomunáremos"],"p2":["mancomunareis"],"p3":["mancomunaren"]},
+    "CmdPos": {"s2":["mancomuna"],"vos":["mancomuná"],"s3":["mancomune"],"p1":["mancomunemos"],"p2":["mancomunad"],"p3":["mancomunen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amoɾt̪aˈxaɾ]",
+    "silabacion": "a-mor-ta-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, mortaja y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amortajar","gerundio":["amortajando"],"participio":["amortajado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amortajo"],"s2":["amortajas"],"vos":["amortajás"],"s3":["amortaja"],"p1":["amortajamos"],"p2":["amortajáis"],"p3":["amortajan"]},
+    "IndImp": {"s1":["amortajaba"],"s2":["amortajabas"],"vos":["amortajabas"],"s3":["amortajaba"],"p1":["amortajábamos"],"p2":["amortajabais"],"p3":["amortajaban"]},
+    "IndPret": {"s1":["amortajé"],"s2":["amortajaste"],"vos":["amortajaste"],"s3":["amortajó"],"p1":["amortajamos"],"p2":["amortajasteis"],"p3":["amortajaron"]},
+    "IndFut": {"s1":["amortajaré"],"s2":["amortajarás"],"vos":["amortajarás"],"s3":["amortajará"],"p1":["amortajaremos"],"p2":["amortajaréis"],"p3":["amortajarán"]},
+    "IndCond": {"s1":["amortajaría"],"s2":["amortajarías"],"vos":["amortajarías"],"s3":["amortajaría"],"p1":["amortajaríamos"],"p2":["amortajaríais"],"p3":["amortajarían"]},
+    "SubPres": {"s1":["amortaje"],"s2":["amortajes"],"vos":["amortajes","amortajés"],"s3":["amortaje"],"p1":["amortajemos"],"p2":["amortajéis"],"p3":["amortajen"]},
+    "SubImp": {"s1":["amortajara","amortajase"],"s2":["amortajaras","amortajases"],"vos":["amortajaras","amortajases"],"s3":["amortajara","amortajase"],"p1":["amortajáramos","amortajásemos"],"p2":["amortajarais","amortajaseis"],"p3":["amortajaran","amortajasen"]},
+    "SubFut": {"s1":["amortajare"],"s2":["amortajares"],"vos":["amortajares"],"s3":["amortajare"],"p1":["amortajáremos"],"p2":["amortajareis"],"p3":["amortajaren"]},
+    "CmdPos": {"s2":["amortaja"],"vos":["amortajá"],"s3":["amortaje"],"p1":["amortajemos"],"p2":["amortajad"],"p3":["amortajen"]}
+  }
+}

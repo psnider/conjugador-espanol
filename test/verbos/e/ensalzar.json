@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsalˈsaɾ]",
+    "silabacion": "en-sal-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *exaltiāre, y este finalmente del latín altus.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensalzar","gerundio":["ensalzando"],"participio":["ensalzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ensalzo"],"s2":["ensalzas"],"vos":["ensalzás"],"s3":["ensalza"],"p1":["ensalzamos"],"p2":["ensalzáis"],"p3":["ensalzan"]},
+    "IndImp": {"s1":["ensalzaba"],"s2":["ensalzabas"],"vos":["ensalzabas"],"s3":["ensalzaba"],"p1":["ensalzábamos"],"p2":["ensalzabais"],"p3":["ensalzaban"]},
+    "IndPret": {"s1":["ensalcé"],"s2":["ensalzaste"],"vos":["ensalzaste"],"s3":["ensalzó"],"p1":["ensalzamos"],"p2":["ensalzasteis"],"p3":["ensalzaron"]},
+    "IndFut": {"s1":["ensalzaré"],"s2":["ensalzarás"],"vos":["ensalzarás"],"s3":["ensalzará"],"p1":["ensalzaremos"],"p2":["ensalzaréis"],"p3":["ensalzarán"]},
+    "IndCond": {"s1":["ensalzaría"],"s2":["ensalzarías"],"vos":["ensalzarías"],"s3":["ensalzaría"],"p1":["ensalzaríamos"],"p2":["ensalzaríais"],"p3":["ensalzarían"]},
+    "SubPres": {"s1":["ensalce"],"s2":["ensalces"],"vos":["ensalces","ensalcés"],"s3":["ensalce"],"p1":["ensalcemos"],"p2":["ensalcéis"],"p3":["ensalcen"]},
+    "SubImp": {"s1":["ensalzara","ensalzase"],"s2":["ensalzaras","ensalzases"],"vos":["ensalzaras","ensalzases"],"s3":["ensalzara","ensalzase"],"p1":["ensalzáramos","ensalzásemos"],"p2":["ensalzarais","ensalzaseis"],"p3":["ensalzaran","ensalzasen"]},
+    "SubFut": {"s1":["ensalzare"],"s2":["ensalzares"],"vos":["ensalzares"],"s3":["ensalzare"],"p1":["ensalzáremos"],"p2":["ensalzareis"],"p3":["ensalzaren"]},
+    "CmdPos": {"s2":["ensalza"],"vos":["ensalzá"],"s3":["ensalce"],"p1":["ensalcemos"],"p2":["ensalzad"],"p3":["ensalcen"]}
+  }
+}

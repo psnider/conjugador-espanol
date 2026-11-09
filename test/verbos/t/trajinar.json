@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaxiˈnaɾ]",
+    "silabacion": "tra-ji-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *tragināre, del latín trahere ('arrastrar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trajinar","gerundio":["trajinando"],"participio":["trajinado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trajino"],"s2":["trajinas"],"vos":["trajinás"],"s3":["trajina"],"p1":["trajinamos"],"p2":["trajináis"],"p3":["trajinan"]},
+    "IndImp": {"s1":["trajinaba"],"s2":["trajinabas"],"vos":["trajinabas"],"s3":["trajinaba"],"p1":["trajinábamos"],"p2":["trajinabais"],"p3":["trajinaban"]},
+    "IndPret": {"s1":["trajiné"],"s2":["trajinaste"],"vos":["trajinaste"],"s3":["trajinó"],"p1":["trajinamos"],"p2":["trajinasteis"],"p3":["trajinaron"]},
+    "IndFut": {"s1":["trajinaré"],"s2":["trajinarás"],"vos":["trajinarás"],"s3":["trajinará"],"p1":["trajinaremos"],"p2":["trajinaréis"],"p3":["trajinarán"]},
+    "IndCond": {"s1":["trajinaría"],"s2":["trajinarías"],"vos":["trajinarías"],"s3":["trajinaría"],"p1":["trajinaríamos"],"p2":["trajinaríais"],"p3":["trajinarían"]},
+    "SubPres": {"s1":["trajine"],"s2":["trajines"],"vos":["trajines","trajinés"],"s3":["trajine"],"p1":["trajinemos"],"p2":["trajinéis"],"p3":["trajinen"]},
+    "SubImp": {"s1":["trajinara","trajinase"],"s2":["trajinaras","trajinases"],"vos":["trajinaras","trajinases"],"s3":["trajinara","trajinase"],"p1":["trajináramos","trajinásemos"],"p2":["trajinarais","trajinaseis"],"p3":["trajinaran","trajinasen"]},
+    "SubFut": {"s1":["trajinare"],"s2":["trajinares"],"vos":["trajinares"],"s3":["trajinare"],"p1":["trajináremos"],"p2":["trajinareis"],"p3":["trajinaren"]},
+    "CmdPos": {"s2":["trajina"],"vos":["trajiná"],"s3":["trajine"],"p1":["trajinemos"],"p2":["trajinad"],"p3":["trajinen"]}
+  }
+}

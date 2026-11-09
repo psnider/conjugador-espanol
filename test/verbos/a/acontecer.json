@@ -16,6 +16,7 @@
     "SubPres": {"s3":["acontezca"],"p3":["acontezcan"]},
     "SubImp":  {"s3":["aconteciera","aconteciese"],"p3":["acontecieran","aconteciesen"]},
     "SubFut":  {"s3":["aconteciere"],"p3":["acontecieren"]},
-    "CmdPos":  null
+    "CmdPos":  null,
+    "CmdNeg":  null
   }
 }

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esokuˈpaɾ]",
+    "silabacion": "des-o-cu-par",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desocupar","gerundio":["desocupando"],"participio":["desocupado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desocupo"],"s2":["desocupas"],"vos":["desocupás"],"s3":["desocupa"],"p1":["desocupamos"],"p2":["desocupáis"],"p3":["desocupan"]},
+    "IndImp": {"s1":["desocupaba"],"s2":["desocupabas"],"vos":["desocupabas"],"s3":["desocupaba"],"p1":["desocupábamos"],"p2":["desocupabais"],"p3":["desocupaban"]},
+    "IndPret": {"s1":["desocupé"],"s2":["desocupaste"],"vos":["desocupaste"],"s3":["desocupó"],"p1":["desocupamos"],"p2":["desocupasteis"],"p3":["desocuparon"]},
+    "IndFut": {"s1":["desocuparé"],"s2":["desocuparás"],"vos":["desocuparás"],"s3":["desocupará"],"p1":["desocuparemos"],"p2":["desocuparéis"],"p3":["desocuparán"]},
+    "IndCond": {"s1":["desocuparía"],"s2":["desocuparías"],"vos":["desocuparías"],"s3":["desocuparía"],"p1":["desocuparíamos"],"p2":["desocuparíais"],"p3":["desocuparían"]},
+    "SubPres": {"s1":["desocupe"],"s2":["desocupes"],"vos":["desocupes","desocupés"],"s3":["desocupe"],"p1":["desocupemos"],"p2":["desocupéis"],"p3":["desocupen"]},
+    "SubImp": {"s1":["desocupara","desocupase"],"s2":["desocuparas","desocupases"],"vos":["desocuparas","desocupases"],"s3":["desocupara","desocupase"],"p1":["desocupáramos","desocupásemos"],"p2":["desocuparais","desocupaseis"],"p3":["desocuparan","desocupasen"]},
+    "SubFut": {"s1":["desocupare"],"s2":["desocupares"],"vos":["desocupares"],"s3":["desocupare"],"p1":["desocupáremos"],"p2":["desocupareis"],"p3":["desocuparen"]},
+    "CmdPos": {"s2":["desocupa"],"vos":["desocupá"],"s3":["desocupe"],"p1":["desocupemos"],"p2":["desocupad"],"p3":["desocupen"]}
+  }
+}

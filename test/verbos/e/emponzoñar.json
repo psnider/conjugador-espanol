@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpõnsoˈɲaɾ]",
+    "silabacion": "em-pon-zo-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1240.[1] Del prefijo em-, ponzoña y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"emponzoñar","gerundio":["emponzoñando"],"participio":["emponzoñado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["emponzoño"],"s2":["emponzoñas"],"vos":["emponzoñás"],"s3":["emponzoña"],"p1":["emponzoñamos"],"p2":["emponzoñáis"],"p3":["emponzoñan"]},
+    "IndImp": {"s1":["emponzoñaba"],"s2":["emponzoñabas"],"vos":["emponzoñabas"],"s3":["emponzoñaba"],"p1":["emponzoñábamos"],"p2":["emponzoñabais"],"p3":["emponzoñaban"]},
+    "IndPret": {"s1":["emponzoñé"],"s2":["emponzoñaste"],"vos":["emponzoñaste"],"s3":["emponzoñó"],"p1":["emponzoñamos"],"p2":["emponzoñasteis"],"p3":["emponzoñaron"]},
+    "IndFut": {"s1":["emponzoñaré"],"s2":["emponzoñarás"],"vos":["emponzoñarás"],"s3":["emponzoñará"],"p1":["emponzoñaremos"],"p2":["emponzoñaréis"],"p3":["emponzoñarán"]},
+    "IndCond": {"s1":["emponzoñaría"],"s2":["emponzoñarías"],"vos":["emponzoñarías"],"s3":["emponzoñaría"],"p1":["emponzoñaríamos"],"p2":["emponzoñaríais"],"p3":["emponzoñarían"]},
+    "SubPres": {"s1":["emponzoñe"],"s2":["emponzoñes"],"vos":["emponzoñes","emponzoñés"],"s3":["emponzoñe"],"p1":["emponzoñemos"],"p2":["emponzoñéis"],"p3":["emponzoñen"]},
+    "SubImp": {"s1":["emponzoñara","emponzoñase"],"s2":["emponzoñaras","emponzoñases"],"vos":["emponzoñaras","emponzoñases"],"s3":["emponzoñara","emponzoñase"],"p1":["emponzoñáramos","emponzoñásemos"],"p2":["emponzoñarais","emponzoñaseis"],"p3":["emponzoñaran","emponzoñasen"]},
+    "SubFut": {"s1":["emponzoñare"],"s2":["emponzoñares"],"vos":["emponzoñares"],"s3":["emponzoñare"],"p1":["emponzoñáremos"],"p2":["emponzoñareis"],"p3":["emponzoñaren"]},
+    "CmdPos": {"s2":["emponzoña"],"vos":["emponzoñá"],"s3":["emponzoñe"],"p1":["emponzoñemos"],"p2":["emponzoñad"],"p3":["emponzoñen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xað̞eˈaɾ]",
+    "silabacion": "ja-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De ijadear.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jadear","gerundio":["jadeando"],"participio":["jadeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["jadeo"],"s2":["jadeas"],"vos":["jadeás"],"s3":["jadea"],"p1":["jadeamos"],"p2":["jadeáis"],"p3":["jadean"]},
+    "IndImp": {"s1":["jadeaba"],"s2":["jadeabas"],"vos":["jadeabas"],"s3":["jadeaba"],"p1":["jadeábamos"],"p2":["jadeabais"],"p3":["jadeaban"]},
+    "IndPret": {"s1":["jadeé"],"s2":["jadeaste"],"vos":["jadeaste"],"s3":["jadeó"],"p1":["jadeamos"],"p2":["jadeasteis"],"p3":["jadearon"]},
+    "IndFut": {"s1":["jadearé"],"s2":["jadearás"],"vos":["jadearás"],"s3":["jadeará"],"p1":["jadearemos"],"p2":["jadearéis"],"p3":["jadearán"]},
+    "IndCond": {"s1":["jadearía"],"s2":["jadearías"],"vos":["jadearías"],"s3":["jadearía"],"p1":["jadearíamos"],"p2":["jadearíais"],"p3":["jadearían"]},
+    "SubPres": {"s1":["jadee"],"s2":["jadees"],"vos":["jadees","jadeés"],"s3":["jadee"],"p1":["jadeemos"],"p2":["jadeéis"],"p3":["jadeen"]},
+    "SubImp": {"s1":["jadeara","jadease"],"s2":["jadearas","jadeases"],"vos":["jadearas","jadeases"],"s3":["jadeara","jadease"],"p1":["jadeáramos","jadeásemos"],"p2":["jadearais","jadeaseis"],"p3":["jadearan","jadeasen"]},
+    "SubFut": {"s1":["jadeare"],"s2":["jadeares"],"vos":["jadeares"],"s3":["jadeare"],"p1":["jadeáremos"],"p2":["jadeareis"],"p3":["jadearen"]},
+    "CmdPos": {"s2":["jadea"],"vos":["jadeá"],"s3":["jadee"],"p1":["jadeemos"],"p2":["jadead"],"p3":["jadeen"]}
+  }
+}

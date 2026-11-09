@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[musiˈt̪aɾ]",
+    "silabacion": "mu-si-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín mussitare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"musitar","gerundio":["musitando"],"participio":["musitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["musito"],"s2":["musitas"],"vos":["musitás"],"s3":["musita"],"p1":["musitamos"],"p2":["musitáis"],"p3":["musitan"]},
+    "IndImp": {"s1":["musitaba"],"s2":["musitabas"],"vos":["musitabas"],"s3":["musitaba"],"p1":["musitábamos"],"p2":["musitabais"],"p3":["musitaban"]},
+    "IndPret": {"s1":["musité"],"s2":["musitaste"],"vos":["musitaste"],"s3":["musitó"],"p1":["musitamos"],"p2":["musitasteis"],"p3":["musitaron"]},
+    "IndFut": {"s1":["musitaré"],"s2":["musitarás"],"vos":["musitarás"],"s3":["musitará"],"p1":["musitaremos"],"p2":["musitaréis"],"p3":["musitarán"]},
+    "IndCond": {"s1":["musitaría"],"s2":["musitarías"],"vos":["musitarías"],"s3":["musitaría"],"p1":["musitaríamos"],"p2":["musitaríais"],"p3":["musitarían"]},
+    "SubPres": {"s1":["musite"],"s2":["musites"],"vos":["musites","musités"],"s3":["musite"],"p1":["musitemos"],"p2":["musitéis"],"p3":["musiten"]},
+    "SubImp": {"s1":["musitara","musitase"],"s2":["musitaras","musitases"],"vos":["musitaras","musitases"],"s3":["musitara","musitase"],"p1":["musitáramos","musitásemos"],"p2":["musitarais","musitaseis"],"p3":["musitaran","musitasen"]},
+    "SubFut": {"s1":["musitare"],"s2":["musitares"],"vos":["musitares"],"s3":["musitare"],"p1":["musitáremos"],"p2":["musitareis"],"p3":["musitaren"]},
+    "CmdPos": {"s2":["musita"],"vos":["musitá"],"s3":["musite"],"p1":["musitemos"],"p2":["musitad"],"p3":["musiten"]}
+  }
+}

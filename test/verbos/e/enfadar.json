@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽɱfaˈð̞aɾ]",
+    "silabacion": "en-fa-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De enfado y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enfadar","gerundio":["enfadando"],"participio":["enfadado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enfado"],"s2":["enfadas"],"vos":["enfadás"],"s3":["enfada"],"p1":["enfadamos"],"p2":["enfadáis"],"p3":["enfadan"]},
+    "IndImp": {"s1":["enfadaba"],"s2":["enfadabas"],"vos":["enfadabas"],"s3":["enfadaba"],"p1":["enfadábamos"],"p2":["enfadabais"],"p3":["enfadaban"]},
+    "IndPret": {"s1":["enfadé"],"s2":["enfadaste"],"vos":["enfadaste"],"s3":["enfadó"],"p1":["enfadamos"],"p2":["enfadasteis"],"p3":["enfadaron"]},
+    "IndFut": {"s1":["enfadaré"],"s2":["enfadarás"],"vos":["enfadarás"],"s3":["enfadará"],"p1":["enfadaremos"],"p2":["enfadaréis"],"p3":["enfadarán"]},
+    "IndCond": {"s1":["enfadaría"],"s2":["enfadarías"],"vos":["enfadarías"],"s3":["enfadaría"],"p1":["enfadaríamos"],"p2":["enfadaríais"],"p3":["enfadarían"]},
+    "SubPres": {"s1":["enfade"],"s2":["enfades"],"vos":["enfades","enfadés"],"s3":["enfade"],"p1":["enfademos"],"p2":["enfadéis"],"p3":["enfaden"]},
+    "SubImp": {"s1":["enfadara","enfadase"],"s2":["enfadaras","enfadases"],"vos":["enfadaras","enfadases"],"s3":["enfadara","enfadase"],"p1":["enfadáramos","enfadásemos"],"p2":["enfadarais","enfadaseis"],"p3":["enfadaran","enfadasen"]},
+    "SubFut": {"s1":["enfadare"],"s2":["enfadares"],"vos":["enfadares"],"s3":["enfadare"],"p1":["enfadáremos"],"p2":["enfadareis"],"p3":["enfadaren"]},
+    "CmdPos": {"s2":["enfada"],"vos":["enfadá"],"s3":["enfade"],"p1":["enfademos"],"p2":["enfadad"],"p3":["enfaden"]}
+  }
+}

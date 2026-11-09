@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞aɾˈkaɾ]",
+    "silabacion": "a-bar-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ad ('a') y brachium ('brazo').",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"abarcar","gerundio":["abarcando"],"participio":["abarcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["abarco"],"s2":["abarcas"],"vos":["abarcás"],"s3":["abarca"],"p1":["abarcamos"],"p2":["abarcáis"],"p3":["abarcan"]},
+    "IndImp": {"s1":["abarcaba"],"s2":["abarcabas"],"vos":["abarcabas"],"s3":["abarcaba"],"p1":["abarcábamos"],"p2":["abarcabais"],"p3":["abarcaban"]},
+    "IndPret": {"s1":["abarqué"],"s2":["abarcaste"],"vos":["abarcaste"],"s3":["abarcó"],"p1":["abarcamos"],"p2":["abarcasteis"],"p3":["abarcaron"]},
+    "IndFut": {"s1":["abarcaré"],"s2":["abarcarás"],"vos":["abarcarás"],"s3":["abarcará"],"p1":["abarcaremos"],"p2":["abarcaréis"],"p3":["abarcarán"]},
+    "IndCond": {"s1":["abarcaría"],"s2":["abarcarías"],"vos":["abarcarías"],"s3":["abarcaría"],"p1":["abarcaríamos"],"p2":["abarcaríais"],"p3":["abarcarían"]},
+    "SubPres": {"s1":["abarque"],"s2":["abarques"],"vos":["abarques","abarqués"],"s3":["abarque"],"p1":["abarquemos"],"p2":["abarquéis"],"p3":["abarquen"]},
+    "SubImp": {"s1":["abarcara","abarcase"],"s2":["abarcaras","abarcases"],"vos":["abarcaras","abarcases"],"s3":["abarcara","abarcase"],"p1":["abarcáramos","abarcásemos"],"p2":["abarcarais","abarcaseis"],"p3":["abarcaran","abarcasen"]},
+    "SubFut": {"s1":["abarcare"],"s2":["abarcares"],"vos":["abarcares"],"s3":["abarcare"],"p1":["abarcáremos"],"p2":["abarcareis"],"p3":["abarcaren"]},
+    "CmdPos": {"s2":["abarca"],"vos":["abarcá"],"s3":["abarque"],"p1":["abarquemos"],"p2":["abarcad"],"p3":["abarquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnspaɾẽn̪ˈt̪aɾ]",
+    "silabacion": "trans-pa-ren-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De transparente y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"transparentar","gerundio":["transparentando"],"participio":["transparentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["transparento"],"s2":["transparentas"],"vos":["transparentás"],"s3":["transparenta"],"p1":["transparentamos"],"p2":["transparentáis"],"p3":["transparentan"]},
+    "IndImp": {"s1":["transparentaba"],"s2":["transparentabas"],"vos":["transparentabas"],"s3":["transparentaba"],"p1":["transparentábamos"],"p2":["transparentabais"],"p3":["transparentaban"]},
+    "IndPret": {"s1":["transparenté"],"s2":["transparentaste"],"vos":["transparentaste"],"s3":["transparentó"],"p1":["transparentamos"],"p2":["transparentasteis"],"p3":["transparentaron"]},
+    "IndFut": {"s1":["transparentaré"],"s2":["transparentarás"],"vos":["transparentarás"],"s3":["transparentará"],"p1":["transparentaremos"],"p2":["transparentaréis"],"p3":["transparentarán"]},
+    "IndCond": {"s1":["transparentaría"],"s2":["transparentarías"],"vos":["transparentarías"],"s3":["transparentaría"],"p1":["transparentaríamos"],"p2":["transparentaríais"],"p3":["transparentarían"]},
+    "SubPres": {"s1":["transparente"],"s2":["transparentes"],"vos":["transparentes","transparentés"],"s3":["transparente"],"p1":["transparentemos"],"p2":["transparentéis"],"p3":["transparenten"]},
+    "SubImp": {"s1":["transparentara","transparentase"],"s2":["transparentaras","transparentases"],"vos":["transparentaras","transparentases"],"s3":["transparentara","transparentase"],"p1":["transparentáramos","transparentásemos"],"p2":["transparentarais","transparentaseis"],"p3":["transparentaran","transparentasen"]},
+    "SubFut": {"s1":["transparentare"],"s2":["transparentares"],"vos":["transparentares"],"s3":["transparentare"],"p1":["transparentáremos"],"p2":["transparentareis"],"p3":["transparentaren"]},
+    "CmdPos": {"s2":["transparenta"],"vos":["transparentá"],"s3":["transparente"],"p1":["transparentemos"],"p2":["transparentad"],"p3":["transparenten"]}
+  }
+}

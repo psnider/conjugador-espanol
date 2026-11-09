@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ãnˈsaɾ]",
+    "silabacion": "dan-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés antiguo dancier, de posible origen germánico.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"danzar","gerundio":["danzando"],"participio":["danzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["danzo"],"s2":["danzas"],"vos":["danzás"],"s3":["danza"],"p1":["danzamos"],"p2":["danzáis"],"p3":["danzan"]},
+    "IndImp": {"s1":["danzaba"],"s2":["danzabas"],"vos":["danzabas"],"s3":["danzaba"],"p1":["danzábamos"],"p2":["danzabais"],"p3":["danzaban"]},
+    "IndPret": {"s1":["dancé"],"s2":["danzaste"],"vos":["danzaste"],"s3":["danzó"],"p1":["danzamos"],"p2":["danzasteis"],"p3":["danzaron"]},
+    "IndFut": {"s1":["danzaré"],"s2":["danzarás"],"vos":["danzarás"],"s3":["danzará"],"p1":["danzaremos"],"p2":["danzaréis"],"p3":["danzarán"]},
+    "IndCond": {"s1":["danzaría"],"s2":["danzarías"],"vos":["danzarías"],"s3":["danzaría"],"p1":["danzaríamos"],"p2":["danzaríais"],"p3":["danzarían"]},
+    "SubPres": {"s1":["dance"],"s2":["dances"],"vos":["dances","dancés"],"s3":["dance"],"p1":["dancemos"],"p2":["dancéis"],"p3":["dancen"]},
+    "SubImp": {"s1":["danzara","danzase"],"s2":["danzaras","danzases"],"vos":["danzaras","danzases"],"s3":["danzara","danzase"],"p1":["danzáramos","danzásemos"],"p2":["danzarais","danzaseis"],"p3":["danzaran","danzasen"]},
+    "SubFut": {"s1":["danzare"],"s2":["danzares"],"vos":["danzares"],"s3":["danzare"],"p1":["danzáremos"],"p2":["danzareis"],"p3":["danzaren"]},
+    "CmdPos": {"s2":["danza"],"vos":["danzá"],"s3":["dance"],"p1":["dancemos"],"p2":["danzad"],"p3":["dancen"]}
+  }
+}

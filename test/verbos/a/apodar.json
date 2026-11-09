@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apoˈð̞aɾ]",
+    "silabacion": "a-po-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín apputāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apodar","gerundio":["apodando"],"participio":["apodado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apodo"],"s2":["apodas"],"vos":["apodás"],"s3":["apoda"],"p1":["apodamos"],"p2":["apodáis"],"p3":["apodan"]},
+    "IndImp": {"s1":["apodaba"],"s2":["apodabas"],"vos":["apodabas"],"s3":["apodaba"],"p1":["apodábamos"],"p2":["apodabais"],"p3":["apodaban"]},
+    "IndPret": {"s1":["apodé"],"s2":["apodaste"],"vos":["apodaste"],"s3":["apodó"],"p1":["apodamos"],"p2":["apodasteis"],"p3":["apodaron"]},
+    "IndFut": {"s1":["apodaré"],"s2":["apodarás"],"vos":["apodarás"],"s3":["apodará"],"p1":["apodaremos"],"p2":["apodaréis"],"p3":["apodarán"]},
+    "IndCond": {"s1":["apodaría"],"s2":["apodarías"],"vos":["apodarías"],"s3":["apodaría"],"p1":["apodaríamos"],"p2":["apodaríais"],"p3":["apodarían"]},
+    "SubPres": {"s1":["apode"],"s2":["apodes"],"vos":["apodes","apodés"],"s3":["apode"],"p1":["apodemos"],"p2":["apodéis"],"p3":["apoden"]},
+    "SubImp": {"s1":["apodara","apodase"],"s2":["apodaras","apodases"],"vos":["apodaras","apodases"],"s3":["apodara","apodase"],"p1":["apodáramos","apodásemos"],"p2":["apodarais","apodaseis"],"p3":["apodaran","apodasen"]},
+    "SubFut": {"s1":["apodare"],"s2":["apodares"],"vos":["apodares"],"s3":["apodare"],"p1":["apodáremos"],"p2":["apodareis"],"p3":["apodaren"]},
+    "CmdPos": {"s2":["apoda"],"vos":["apodá"],"s3":["apode"],"p1":["apodemos"],"p2":["apodad"],"p3":["apoden"]}
+  }
+}

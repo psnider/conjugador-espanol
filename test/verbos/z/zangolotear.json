@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sãŋgolot̪eˈaɾ]",
+    "silabacion": "zan-go-lo-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"zangolotear","gerundio":["zangoloteando"],"participio":["zangoloteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["zangoloteo"],"s2":["zangoloteas"],"vos":["zangoloteás"],"s3":["zangolotea"],"p1":["zangoloteamos"],"p2":["zangoloteáis"],"p3":["zangolotean"]},
+    "IndImp": {"s1":["zangoloteaba"],"s2":["zangoloteabas"],"vos":["zangoloteabas"],"s3":["zangoloteaba"],"p1":["zangoloteábamos"],"p2":["zangoloteabais"],"p3":["zangoloteaban"]},
+    "IndPret": {"s1":["zangoloteé"],"s2":["zangoloteaste"],"vos":["zangoloteaste"],"s3":["zangoloteó"],"p1":["zangoloteamos"],"p2":["zangoloteasteis"],"p3":["zangolotearon"]},
+    "IndFut": {"s1":["zangolotearé"],"s2":["zangolotearás"],"vos":["zangolotearás"],"s3":["zangoloteará"],"p1":["zangolotearemos"],"p2":["zangolotearéis"],"p3":["zangolotearán"]},
+    "IndCond": {"s1":["zangolotearía"],"s2":["zangolotearías"],"vos":["zangolotearías"],"s3":["zangolotearía"],"p1":["zangolotearíamos"],"p2":["zangolotearíais"],"p3":["zangolotearían"]},
+    "SubPres": {"s1":["zangolotee"],"s2":["zangolotees"],"vos":["zangolotees","zangoloteés"],"s3":["zangolotee"],"p1":["zangoloteemos"],"p2":["zangoloteéis"],"p3":["zangoloteen"]},
+    "SubImp": {"s1":["zangoloteara","zangolotease"],"s2":["zangolotearas","zangoloteases"],"vos":["zangolotearas","zangoloteases"],"s3":["zangoloteara","zangolotease"],"p1":["zangoloteáramos","zangoloteásemos"],"p2":["zangolotearais","zangoloteaseis"],"p3":["zangolotearan","zangoloteasen"]},
+    "SubFut": {"s1":["zangoloteare"],"s2":["zangoloteares"],"vos":["zangoloteares"],"s3":["zangoloteare"],"p1":["zangoloteáremos"],"p2":["zangoloteareis"],"p3":["zangolotearen"]},
+    "CmdPos": {"s2":["zangolotea"],"vos":["zangoloteá"],"s3":["zangolotee"],"p1":["zangoloteemos"],"p2":["zangolotead"],"p3":["zangoloteen"]}
+  }
+}

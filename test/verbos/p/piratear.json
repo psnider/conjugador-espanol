@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[piɾat̪eˈaɾ]",
+    "silabacion": "pi-ra-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pirata y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"piratear","gerundio":["pirateando"],"participio":["pirateado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pirateo"],"s2":["pirateas"],"vos":["pirateás"],"s3":["piratea"],"p1":["pirateamos"],"p2":["pirateáis"],"p3":["piratean"]},
+    "IndImp": {"s1":["pirateaba"],"s2":["pirateabas"],"vos":["pirateabas"],"s3":["pirateaba"],"p1":["pirateábamos"],"p2":["pirateabais"],"p3":["pirateaban"]},
+    "IndPret": {"s1":["pirateé"],"s2":["pirateaste"],"vos":["pirateaste"],"s3":["pirateó"],"p1":["pirateamos"],"p2":["pirateasteis"],"p3":["piratearon"]},
+    "IndFut": {"s1":["piratearé"],"s2":["piratearás"],"vos":["piratearás"],"s3":["pirateará"],"p1":["piratearemos"],"p2":["piratearéis"],"p3":["piratearán"]},
+    "IndCond": {"s1":["piratearía"],"s2":["piratearías"],"vos":["piratearías"],"s3":["piratearía"],"p1":["piratearíamos"],"p2":["piratearíais"],"p3":["piratearían"]},
+    "SubPres": {"s1":["piratee"],"s2":["piratees"],"vos":["piratees","pirateés"],"s3":["piratee"],"p1":["pirateemos"],"p2":["pirateéis"],"p3":["pirateen"]},
+    "SubImp": {"s1":["pirateara","piratease"],"s2":["piratearas","pirateases"],"vos":["piratearas","pirateases"],"s3":["pirateara","piratease"],"p1":["pirateáramos","pirateásemos"],"p2":["piratearais","pirateaseis"],"p3":["piratearan","pirateasen"]},
+    "SubFut": {"s1":["pirateare"],"s2":["pirateares"],"vos":["pirateares"],"s3":["pirateare"],"p1":["pirateáremos"],"p2":["pirateareis"],"p3":["piratearen"]},
+    "CmdPos": {"s2":["piratea"],"vos":["pirateá"],"s3":["piratee"],"p1":["pirateemos"],"p2":["piratead"],"p3":["pirateen"]}
+  }
+}

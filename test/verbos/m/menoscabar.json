@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[menoskaˈβ̞aɾ]",
+    "silabacion": "me-nos-ca-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de menos, cabo y -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"menoscabar","gerundio":["menoscabando"],"participio":["menoscabado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["menoscabo"],"s2":["menoscabas"],"vos":["menoscabás"],"s3":["menoscaba"],"p1":["menoscabamos"],"p2":["menoscabáis"],"p3":["menoscaban"]},
+    "IndImp": {"s1":["menoscababa"],"s2":["menoscababas"],"vos":["menoscababas"],"s3":["menoscababa"],"p1":["menoscabábamos"],"p2":["menoscababais"],"p3":["menoscababan"]},
+    "IndPret": {"s1":["menoscabé"],"s2":["menoscabaste"],"vos":["menoscabaste"],"s3":["menoscabó"],"p1":["menoscabamos"],"p2":["menoscabasteis"],"p3":["menoscabaron"]},
+    "IndFut": {"s1":["menoscabaré"],"s2":["menoscabarás"],"vos":["menoscabarás"],"s3":["menoscabará"],"p1":["menoscabaremos"],"p2":["menoscabaréis"],"p3":["menoscabarán"]},
+    "IndCond": {"s1":["menoscabaría"],"s2":["menoscabarías"],"vos":["menoscabarías"],"s3":["menoscabaría"],"p1":["menoscabaríamos"],"p2":["menoscabaríais"],"p3":["menoscabarían"]},
+    "SubPres": {"s1":["menoscabe"],"s2":["menoscabes"],"vos":["menoscabes","menoscabés"],"s3":["menoscabe"],"p1":["menoscabemos"],"p2":["menoscabéis"],"p3":["menoscaben"]},
+    "SubImp": {"s1":["menoscabara","menoscabase"],"s2":["menoscabaras","menoscabases"],"vos":["menoscabaras","menoscabases"],"s3":["menoscabara","menoscabase"],"p1":["menoscabáramos","menoscabásemos"],"p2":["menoscabarais","menoscabaseis"],"p3":["menoscabaran","menoscabasen"]},
+    "SubFut": {"s1":["menoscabare"],"s2":["menoscabares"],"vos":["menoscabares"],"s3":["menoscabare"],"p1":["menoscabáremos"],"p2":["menoscabareis"],"p3":["menoscabaren"]},
+    "CmdPos": {"s2":["menoscaba"],"vos":["menoscabá"],"s3":["menoscabe"],"p1":["menoscabemos"],"p2":["menoscabad"],"p3":["menoscaben"]}
+  }
+}

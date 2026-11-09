@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[releˈɣ̞aɾ]",
+    "silabacion": "re-le-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín relegāre.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"relegar","gerundio":["relegando"],"participio":["relegado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["relego"],"s2":["relegas"],"vos":["relegás"],"s3":["relega"],"p1":["relegamos"],"p2":["relegáis"],"p3":["relegan"]},
+    "IndImp": {"s1":["relegaba"],"s2":["relegabas"],"vos":["relegabas"],"s3":["relegaba"],"p1":["relegábamos"],"p2":["relegabais"],"p3":["relegaban"]},
+    "IndPret": {"s1":["relegué"],"s2":["relegaste"],"vos":["relegaste"],"s3":["relegó"],"p1":["relegamos"],"p2":["relegasteis"],"p3":["relegaron"]},
+    "IndFut": {"s1":["relegaré"],"s2":["relegarás"],"vos":["relegarás"],"s3":["relegará"],"p1":["relegaremos"],"p2":["relegaréis"],"p3":["relegarán"]},
+    "IndCond": {"s1":["relegaría"],"s2":["relegarías"],"vos":["relegarías"],"s3":["relegaría"],"p1":["relegaríamos"],"p2":["relegaríais"],"p3":["relegarían"]},
+    "SubPres": {"s1":["relegue"],"s2":["relegues"],"vos":["relegues","relegués"],"s3":["relegue"],"p1":["releguemos"],"p2":["releguéis"],"p3":["releguen"]},
+    "SubImp": {"s1":["relegara","relegase"],"s2":["relegaras","relegases"],"vos":["relegaras","relegases"],"s3":["relegara","relegase"],"p1":["relegáramos","relegásemos"],"p2":["relegarais","relegaseis"],"p3":["relegaran","relegasen"]},
+    "SubFut": {"s1":["relegare"],"s2":["relegares"],"vos":["relegares"],"s3":["relegare"],"p1":["relegáremos"],"p2":["relegareis"],"p3":["relegaren"]},
+    "CmdPos": {"s2":["relega"],"vos":["relegá"],"s3":["relegue"],"p1":["releguemos"],"p2":["relegad"],"p3":["releguen"]}
+  }
+}

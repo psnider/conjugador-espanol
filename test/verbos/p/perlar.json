@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[peɾˈlaɾ]",
+    "silabacion": "per-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"perlar","gerundio":["perlando"],"participio":["perlado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["perlo"],"s2":["perlas"],"vos":["perlás"],"s3":["perla"],"p1":["perlamos"],"p2":["perláis"],"p3":["perlan"]},
+    "IndImp": {"s1":["perlaba"],"s2":["perlabas"],"vos":["perlabas"],"s3":["perlaba"],"p1":["perlábamos"],"p2":["perlabais"],"p3":["perlaban"]},
+    "IndPret": {"s1":["perlé"],"s2":["perlaste"],"vos":["perlaste"],"s3":["perló"],"p1":["perlamos"],"p2":["perlasteis"],"p3":["perlaron"]},
+    "IndFut": {"s1":["perlaré"],"s2":["perlarás"],"vos":["perlarás"],"s3":["perlará"],"p1":["perlaremos"],"p2":["perlaréis"],"p3":["perlarán"]},
+    "IndCond": {"s1":["perlaría"],"s2":["perlarías"],"vos":["perlarías"],"s3":["perlaría"],"p1":["perlaríamos"],"p2":["perlaríais"],"p3":["perlarían"]},
+    "SubPres": {"s1":["perle"],"s2":["perles"],"vos":["perles","perlés"],"s3":["perle"],"p1":["perlemos"],"p2":["perléis"],"p3":["perlen"]},
+    "SubImp": {"s1":["perlara","perlase"],"s2":["perlaras","perlases"],"vos":["perlaras","perlases"],"s3":["perlara","perlase"],"p1":["perláramos","perlásemos"],"p2":["perlarais","perlaseis"],"p3":["perlaran","perlasen"]},
+    "SubFut": {"s1":["perlare"],"s2":["perlares"],"vos":["perlares"],"s3":["perlare"],"p1":["perláremos"],"p2":["perlareis"],"p3":["perlaren"]},
+    "CmdPos": {"s2":["perla"],"vos":["perlá"],"s3":["perle"],"p1":["perlemos"],"p2":["perlad"],"p3":["perlen"]}
+  }
+}

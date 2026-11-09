@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪iˈɾaɾ]",
+    "silabacion": "es-ti-rar",
+    "acentuacion": "aguda",
+    "etimologia": "De es- y tirar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estirar","gerundio":["estirando"],"participio":["estirado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estiro"],"s2":["estiras"],"vos":["estirás"],"s3":["estira"],"p1":["estiramos"],"p2":["estiráis"],"p3":["estiran"]},
+    "IndImp": {"s1":["estiraba"],"s2":["estirabas"],"vos":["estirabas"],"s3":["estiraba"],"p1":["estirábamos"],"p2":["estirabais"],"p3":["estiraban"]},
+    "IndPret": {"s1":["estiré"],"s2":["estiraste"],"vos":["estiraste"],"s3":["estiró"],"p1":["estiramos"],"p2":["estirasteis"],"p3":["estiraron"]},
+    "IndFut": {"s1":["estiraré"],"s2":["estirarás"],"vos":["estirarás"],"s3":["estirará"],"p1":["estiraremos"],"p2":["estiraréis"],"p3":["estirarán"]},
+    "IndCond": {"s1":["estiraría"],"s2":["estirarías"],"vos":["estirarías"],"s3":["estiraría"],"p1":["estiraríamos"],"p2":["estiraríais"],"p3":["estirarían"]},
+    "SubPres": {"s1":["estire"],"s2":["estires"],"vos":["estires","estirés"],"s3":["estire"],"p1":["estiremos"],"p2":["estiréis"],"p3":["estiren"]},
+    "SubImp": {"s1":["estirara","estirase"],"s2":["estiraras","estirases"],"vos":["estiraras","estirases"],"s3":["estirara","estirase"],"p1":["estiráramos","estirásemos"],"p2":["estirarais","estiraseis"],"p3":["estiraran","estirasen"]},
+    "SubFut": {"s1":["estirare"],"s2":["estirares"],"vos":["estirares"],"s3":["estirare"],"p1":["estiráremos"],"p2":["estirareis"],"p3":["estiraren"]},
+    "CmdPos": {"s2":["estira"],"vos":["estirá"],"s3":["estire"],"p1":["estiremos"],"p2":["estirad"],"p3":["estiren"]}
+  }
+}

@@ -16,6 +16,7 @@
     "SubPres": {"s1":["suela"],"s2":["suelas"],"vos":[{"forma": "suelas","uso":"Riop."},{"forma":"solás","uso":"C.Am."}],"s3":["suela"],"p1":["solamos"],"p2":["soláis"],"p3":["suelan"]},
     "SubImp": {"s1":["soliera","soliese"],"s2":["solieras","solieses"],"vos":["solieras","solieses"],"s3":["soliera","soliese"],"p1":["soliéramos","soliésemos"],"p2":["solierais","solieseis"],"p3":["solieran","soliesen"]},
     "SubFut": null,
-    "CmdPos": null
+    "CmdPos": null,
+    "CmdNeg": null
   }
 }

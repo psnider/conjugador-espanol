@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oskuɾeˈseɾ]",
+    "silabacion": "os-cu-re-cer",
+    "acentuacion": "aguda",
+    "etimologia": "De oscuro y el sufijo -ecer.[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"oscurecer","gerundio":["oscureciendo"],"participio":["oscurecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oscurezco"],"s2":["oscureces"],"vos":["oscurecés"],"s3":["oscurece"],"p1":["oscurecemos"],"p2":["oscurecéis"],"p3":["oscurecen"]},
+    "IndImp": {"s1":["oscurecía"],"s2":["oscurecías"],"vos":["oscurecías"],"s3":["oscurecía"],"p1":["oscurecíamos"],"p2":["oscurecíais"],"p3":["oscurecían"]},
+    "IndPret": {"s1":["oscurecí"],"s2":["oscureciste"],"vos":["oscureciste"],"s3":["oscureció"],"p1":["oscurecimos"],"p2":["oscurecisteis"],"p3":["oscurecieron"]},
+    "IndFut": {"s1":["oscureceré"],"s2":["oscurecerás"],"vos":["oscurecerás"],"s3":["oscurecerá"],"p1":["oscureceremos"],"p2":["oscureceréis"],"p3":["oscurecerán"]},
+    "IndCond": {"s1":["oscurecería"],"s2":["oscurecerías"],"vos":["oscurecerías"],"s3":["oscurecería"],"p1":["oscureceríamos"],"p2":["oscureceríais"],"p3":["oscurecerían"]},
+    "SubPres": {"s1":["oscurezca"],"s2":["oscurezcas"],"vos":["oscurezcas","oscurezcás"],"s3":["oscurezca"],"p1":["oscurezcamos"],"p2":["oscurezcáis"],"p3":["oscurezcan"]},
+    "SubImp": {"s1":["oscureciera","oscureciese"],"s2":["oscurecieras","oscurecieses"],"vos":["oscurecieras","oscurecieses"],"s3":["oscureciera","oscureciese"],"p1":["oscureciéramos","oscureciésemos"],"p2":["oscurecierais","oscurecieseis"],"p3":["oscurecieran","oscureciesen"]},
+    "SubFut": {"s1":["oscureciere"],"s2":["oscurecieres"],"vos":["oscurecieres"],"s3":["oscureciere"],"p1":["oscureciéremos"],"p2":["oscureciereis"],"p3":["oscurecieren"]},
+    "CmdPos": {"s2":["oscurece"],"vos":["oscurecé"],"s3":["oscurezca"],"p1":["oscurezcamos"],"p2":["oscureced"],"p3":["oscurezcan"]}
+  }
+}

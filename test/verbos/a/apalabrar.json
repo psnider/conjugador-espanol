@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apalaˈβ̞ɾaɾ]",
+    "silabacion": "a-pa-la-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, palabra y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apalabrar","gerundio":["apalabrando"],"participio":["apalabrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apalabro"],"s2":["apalabras"],"vos":["apalabrás"],"s3":["apalabra"],"p1":["apalabramos"],"p2":["apalabráis"],"p3":["apalabran"]},
+    "IndImp": {"s1":["apalabraba"],"s2":["apalabrabas"],"vos":["apalabrabas"],"s3":["apalabraba"],"p1":["apalabrábamos"],"p2":["apalabrabais"],"p3":["apalabraban"]},
+    "IndPret": {"s1":["apalabré"],"s2":["apalabraste"],"vos":["apalabraste"],"s3":["apalabró"],"p1":["apalabramos"],"p2":["apalabrasteis"],"p3":["apalabraron"]},
+    "IndFut": {"s1":["apalabraré"],"s2":["apalabrarás"],"vos":["apalabrarás"],"s3":["apalabrará"],"p1":["apalabraremos"],"p2":["apalabraréis"],"p3":["apalabrarán"]},
+    "IndCond": {"s1":["apalabraría"],"s2":["apalabrarías"],"vos":["apalabrarías"],"s3":["apalabraría"],"p1":["apalabraríamos"],"p2":["apalabraríais"],"p3":["apalabrarían"]},
+    "SubPres": {"s1":["apalabre"],"s2":["apalabres"],"vos":["apalabres","apalabrés"],"s3":["apalabre"],"p1":["apalabremos"],"p2":["apalabréis"],"p3":["apalabren"]},
+    "SubImp": {"s1":["apalabrara","apalabrase"],"s2":["apalabraras","apalabrases"],"vos":["apalabraras","apalabrases"],"s3":["apalabrara","apalabrase"],"p1":["apalabráramos","apalabrásemos"],"p2":["apalabrarais","apalabraseis"],"p3":["apalabraran","apalabrasen"]},
+    "SubFut": {"s1":["apalabrare"],"s2":["apalabrares"],"vos":["apalabrares"],"s3":["apalabrare"],"p1":["apalabráremos"],"p2":["apalabrareis"],"p3":["apalabraren"]},
+    "CmdPos": {"s2":["apalabra"],"vos":["apalabrá"],"s3":["apalabre"],"p1":["apalabremos"],"p2":["apalabrad"],"p3":["apalabren"]}
+  }
+}

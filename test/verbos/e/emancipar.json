@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[emãnsiˈpaɾ]",
+    "silabacion": "e-man-ci-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ēmancipō, ēmancipāre (declarar libre al hijo de la patria potestad), compuesto del latín mancipo (\"transferir propiedad\", \"tomar para sí\"), y este del latín manceps (\"comprador\", \"poseedor\", el que toma en sus manos), a su vez compuesto del latín capio (\"coger\", \"captar\", \"capturar\").[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"emancipar","gerundio":["emancipando"],"participio":["emancipado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["emancipo"],"s2":["emancipas"],"vos":["emancipás"],"s3":["emancipa"],"p1":["emancipamos"],"p2":["emancipáis"],"p3":["emancipan"]},
+    "IndImp": {"s1":["emancipaba"],"s2":["emancipabas"],"vos":["emancipabas"],"s3":["emancipaba"],"p1":["emancipábamos"],"p2":["emancipabais"],"p3":["emancipaban"]},
+    "IndPret": {"s1":["emancipé"],"s2":["emancipaste"],"vos":["emancipaste"],"s3":["emancipó"],"p1":["emancipamos"],"p2":["emancipasteis"],"p3":["emanciparon"]},
+    "IndFut": {"s1":["emanciparé"],"s2":["emanciparás"],"vos":["emanciparás"],"s3":["emancipará"],"p1":["emanciparemos"],"p2":["emanciparéis"],"p3":["emanciparán"]},
+    "IndCond": {"s1":["emanciparía"],"s2":["emanciparías"],"vos":["emanciparías"],"s3":["emanciparía"],"p1":["emanciparíamos"],"p2":["emanciparíais"],"p3":["emanciparían"]},
+    "SubPres": {"s1":["emancipe"],"s2":["emancipes"],"vos":["emancipes","emancipés"],"s3":["emancipe"],"p1":["emancipemos"],"p2":["emancipéis"],"p3":["emancipen"]},
+    "SubImp": {"s1":["emancipara","emancipase"],"s2":["emanciparas","emancipases"],"vos":["emanciparas","emancipases"],"s3":["emancipara","emancipase"],"p1":["emancipáramos","emancipásemos"],"p2":["emanciparais","emancipaseis"],"p3":["emanciparan","emancipasen"]},
+    "SubFut": {"s1":["emancipare"],"s2":["emancipares"],"vos":["emancipares"],"s3":["emancipare"],"p1":["emancipáremos"],"p2":["emancipareis"],"p3":["emanciparen"]},
+    "CmdPos": {"s2":["emancipa"],"vos":["emancipá"],"s3":["emancipe"],"p1":["emancipemos"],"p2":["emancipad"],"p3":["emancipen"]}
+  }
+}

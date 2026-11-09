@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãspaɾẽn̪ˈt̪aɾ]",
+    "silabacion": "tras-pa-ren-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De trasparente y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trasparentar","gerundio":["trasparentando"],"participio":["trasparentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trasparento"],"s2":["trasparentas"],"vos":["trasparentás"],"s3":["trasparenta"],"p1":["trasparentamos"],"p2":["trasparentáis"],"p3":["trasparentan"]},
+    "IndImp": {"s1":["trasparentaba"],"s2":["trasparentabas"],"vos":["trasparentabas"],"s3":["trasparentaba"],"p1":["trasparentábamos"],"p2":["trasparentabais"],"p3":["trasparentaban"]},
+    "IndPret": {"s1":["trasparenté"],"s2":["trasparentaste"],"vos":["trasparentaste"],"s3":["trasparentó"],"p1":["trasparentamos"],"p2":["trasparentasteis"],"p3":["trasparentaron"]},
+    "IndFut": {"s1":["trasparentaré"],"s2":["trasparentarás"],"vos":["trasparentarás"],"s3":["trasparentará"],"p1":["trasparentaremos"],"p2":["trasparentaréis"],"p3":["trasparentarán"]},
+    "IndCond": {"s1":["trasparentaría"],"s2":["trasparentarías"],"vos":["trasparentarías"],"s3":["trasparentaría"],"p1":["trasparentaríamos"],"p2":["trasparentaríais"],"p3":["trasparentarían"]},
+    "SubPres": {"s1":["trasparente"],"s2":["trasparentes"],"vos":["trasparentes","trasparentés"],"s3":["trasparente"],"p1":["trasparentemos"],"p2":["trasparentéis"],"p3":["trasparenten"]},
+    "SubImp": {"s1":["trasparentara","trasparentase"],"s2":["trasparentaras","trasparentases"],"vos":["trasparentaras","trasparentases"],"s3":["trasparentara","trasparentase"],"p1":["trasparentáramos","trasparentásemos"],"p2":["trasparentarais","trasparentaseis"],"p3":["trasparentaran","trasparentasen"]},
+    "SubFut": {"s1":["trasparentare"],"s2":["trasparentares"],"vos":["trasparentares"],"s3":["trasparentare"],"p1":["trasparentáremos"],"p2":["trasparentareis"],"p3":["trasparentaren"]},
+    "CmdPos": {"s2":["trasparenta"],"vos":["trasparentá"],"s3":["trasparente"],"p1":["trasparentemos"],"p2":["trasparentad"],"p3":["trasparenten"]}
+  }
+}

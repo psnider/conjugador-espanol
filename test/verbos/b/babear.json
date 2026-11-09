@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baβ̞eˈaɾ]",
+    "silabacion": "ba-be-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De baba.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"babear","gerundio":["babeando"],"participio":["babeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["babeo"],"s2":["babeas"],"vos":["babeás"],"s3":["babea"],"p1":["babeamos"],"p2":["babeáis"],"p3":["babean"]},
+    "IndImp": {"s1":["babeaba"],"s2":["babeabas"],"vos":["babeabas"],"s3":["babeaba"],"p1":["babeábamos"],"p2":["babeabais"],"p3":["babeaban"]},
+    "IndPret": {"s1":["babeé"],"s2":["babeaste"],"vos":["babeaste"],"s3":["babeó"],"p1":["babeamos"],"p2":["babeasteis"],"p3":["babearon"]},
+    "IndFut": {"s1":["babearé"],"s2":["babearás"],"vos":["babearás"],"s3":["babeará"],"p1":["babearemos"],"p2":["babearéis"],"p3":["babearán"]},
+    "IndCond": {"s1":["babearía"],"s2":["babearías"],"vos":["babearías"],"s3":["babearía"],"p1":["babearíamos"],"p2":["babearíais"],"p3":["babearían"]},
+    "SubPres": {"s1":["babee"],"s2":["babees"],"vos":["babees","babeés"],"s3":["babee"],"p1":["babeemos"],"p2":["babeéis"],"p3":["babeen"]},
+    "SubImp": {"s1":["babeara","babease"],"s2":["babearas","babeases"],"vos":["babearas","babeases"],"s3":["babeara","babease"],"p1":["babeáramos","babeásemos"],"p2":["babearais","babeaseis"],"p3":["babearan","babeasen"]},
+    "SubFut": {"s1":["babeare"],"s2":["babeares"],"vos":["babeares"],"s3":["babeare"],"p1":["babeáremos"],"p2":["babeareis"],"p3":["babearen"]},
+    "CmdPos": {"s2":["babea"],"vos":["babeá"],"s3":["babee"],"p1":["babeemos"],"p2":["babead"],"p3":["babeen"]}
+  }
+}

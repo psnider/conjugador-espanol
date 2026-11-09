@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mol̪d̪eˈaɾ]",
+    "silabacion": "mol-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "de molde.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"moldear","gerundio":["moldeando"],"participio":["moldeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["moldeo"],"s2":["moldeas"],"vos":["moldeás"],"s3":["moldea"],"p1":["moldeamos"],"p2":["moldeáis"],"p3":["moldean"]},
+    "IndImp": {"s1":["moldeaba"],"s2":["moldeabas"],"vos":["moldeabas"],"s3":["moldeaba"],"p1":["moldeábamos"],"p2":["moldeabais"],"p3":["moldeaban"]},
+    "IndPret": {"s1":["moldeé"],"s2":["moldeaste"],"vos":["moldeaste"],"s3":["moldeó"],"p1":["moldeamos"],"p2":["moldeasteis"],"p3":["moldearon"]},
+    "IndFut": {"s1":["moldearé"],"s2":["moldearás"],"vos":["moldearás"],"s3":["moldeará"],"p1":["moldearemos"],"p2":["moldearéis"],"p3":["moldearán"]},
+    "IndCond": {"s1":["moldearía"],"s2":["moldearías"],"vos":["moldearías"],"s3":["moldearía"],"p1":["moldearíamos"],"p2":["moldearíais"],"p3":["moldearían"]},
+    "SubPres": {"s1":["moldee"],"s2":["moldees"],"vos":["moldees","moldeés"],"s3":["moldee"],"p1":["moldeemos"],"p2":["moldeéis"],"p3":["moldeen"]},
+    "SubImp": {"s1":["moldeara","moldease"],"s2":["moldearas","moldeases"],"vos":["moldearas","moldeases"],"s3":["moldeara","moldease"],"p1":["moldeáramos","moldeásemos"],"p2":["moldearais","moldeaseis"],"p3":["moldearan","moldeasen"]},
+    "SubFut": {"s1":["moldeare"],"s2":["moldeares"],"vos":["moldeares"],"s3":["moldeare"],"p1":["moldeáremos"],"p2":["moldeareis"],"p3":["moldearen"]},
+    "CmdPos": {"s2":["moldea"],"vos":["moldeá"],"s3":["moldee"],"p1":["moldeemos"],"p2":["moldead"],"p3":["moldeen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskaskaˈɾaɾ]",
+    "silabacion": "des-cas-ca-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, cáscara y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descascarar","gerundio":["descascarando"],"participio":["descascarado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descascaro"],"s2":["descascaras"],"vos":["descascarás"],"s3":["descascara"],"p1":["descascaramos"],"p2":["descascaráis"],"p3":["descascaran"]},
+    "IndImp": {"s1":["descascaraba"],"s2":["descascarabas"],"vos":["descascarabas"],"s3":["descascaraba"],"p1":["descascarábamos"],"p2":["descascarabais"],"p3":["descascaraban"]},
+    "IndPret": {"s1":["descascaré"],"s2":["descascaraste"],"vos":["descascaraste"],"s3":["descascaró"],"p1":["descascaramos"],"p2":["descascarasteis"],"p3":["descascararon"]},
+    "IndFut": {"s1":["descascararé"],"s2":["descascararás"],"vos":["descascararás"],"s3":["descascarará"],"p1":["descascararemos"],"p2":["descascararéis"],"p3":["descascararán"]},
+    "IndCond": {"s1":["descascararía"],"s2":["descascararías"],"vos":["descascararías"],"s3":["descascararía"],"p1":["descascararíamos"],"p2":["descascararíais"],"p3":["descascararían"]},
+    "SubPres": {"s1":["descascare"],"s2":["descascares"],"vos":["descascares","descascarés"],"s3":["descascare"],"p1":["descascaremos"],"p2":["descascaréis"],"p3":["descascaren"]},
+    "SubImp": {"s1":["descascarara","descascarase"],"s2":["descascararas","descascarases"],"vos":["descascararas","descascarases"],"s3":["descascarara","descascarase"],"p1":["descascaráramos","descascarásemos"],"p2":["descascararais","descascaraseis"],"p3":["descascararan","descascarasen"]},
+    "SubFut": {"s1":["descascarare"],"s2":["descascarares"],"vos":["descascarares"],"s3":["descascarare"],"p1":["descascaráremos"],"p2":["descascarareis"],"p3":["descascararen"]},
+    "CmdPos": {"s2":["descascara"],"vos":["descascará"],"s3":["descascare"],"p1":["descascaremos"],"p2":["descascarad"],"p3":["descascaren"]}
+  }
+}

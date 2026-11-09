@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞ãn̪ˈd̪aɾ]",
+    "silabacion": "des-ban-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y alojar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desbandar","gerundio":["desbandando"],"participio":["desbandado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desbando"],"s2":["desbandas"],"vos":["desbandás"],"s3":["desbanda"],"p1":["desbandamos"],"p2":["desbandáis"],"p3":["desbandan"]},
+    "IndImp": {"s1":["desbandaba"],"s2":["desbandabas"],"vos":["desbandabas"],"s3":["desbandaba"],"p1":["desbandábamos"],"p2":["desbandabais"],"p3":["desbandaban"]},
+    "IndPret": {"s1":["desbandé"],"s2":["desbandaste"],"vos":["desbandaste"],"s3":["desbandó"],"p1":["desbandamos"],"p2":["desbandasteis"],"p3":["desbandaron"]},
+    "IndFut": {"s1":["desbandaré"],"s2":["desbandarás"],"vos":["desbandarás"],"s3":["desbandará"],"p1":["desbandaremos"],"p2":["desbandaréis"],"p3":["desbandarán"]},
+    "IndCond": {"s1":["desbandaría"],"s2":["desbandarías"],"vos":["desbandarías"],"s3":["desbandaría"],"p1":["desbandaríamos"],"p2":["desbandaríais"],"p3":["desbandarían"]},
+    "SubPres": {"s1":["desbande"],"s2":["desbandes"],"vos":["desbandes","desbandés"],"s3":["desbande"],"p1":["desbandemos"],"p2":["desbandéis"],"p3":["desbanden"]},
+    "SubImp": {"s1":["desbandara","desbandase"],"s2":["desbandaras","desbandases"],"vos":["desbandaras","desbandases"],"s3":["desbandara","desbandase"],"p1":["desbandáramos","desbandásemos"],"p2":["desbandarais","desbandaseis"],"p3":["desbandaran","desbandasen"]},
+    "SubFut": {"s1":["desbandare"],"s2":["desbandares"],"vos":["desbandares"],"s3":["desbandare"],"p1":["desbandáremos"],"p2":["desbandareis"],"p3":["desbandaren"]},
+    "CmdPos": {"s2":["desbanda"],"vos":["desbandá"],"s3":["desbande"],"p1":["desbandemos"],"p2":["desbandad"],"p3":["desbanden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekspeɾimẽn̪ˈt̪aɾ]",
+    "silabacion": "ex-pe-ri-men-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"experimentar","gerundio":["experimentando"],"participio":["experimentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["experimento"],"s2":["experimentas"],"vos":["experimentás"],"s3":["experimenta"],"p1":["experimentamos"],"p2":["experimentáis"],"p3":["experimentan"]},
+    "IndImp": {"s1":["experimentaba"],"s2":["experimentabas"],"vos":["experimentabas"],"s3":["experimentaba"],"p1":["experimentábamos"],"p2":["experimentabais"],"p3":["experimentaban"]},
+    "IndPret": {"s1":["experimenté"],"s2":["experimentaste"],"vos":["experimentaste"],"s3":["experimentó"],"p1":["experimentamos"],"p2":["experimentasteis"],"p3":["experimentaron"]},
+    "IndFut": {"s1":["experimentaré"],"s2":["experimentarás"],"vos":["experimentarás"],"s3":["experimentará"],"p1":["experimentaremos"],"p2":["experimentaréis"],"p3":["experimentarán"]},
+    "IndCond": {"s1":["experimentaría"],"s2":["experimentarías"],"vos":["experimentarías"],"s3":["experimentaría"],"p1":["experimentaríamos"],"p2":["experimentaríais"],"p3":["experimentarían"]},
+    "SubPres": {"s1":["experimente"],"s2":["experimentes"],"vos":["experimentes","experimentés"],"s3":["experimente"],"p1":["experimentemos"],"p2":["experimentéis"],"p3":["experimenten"]},
+    "SubImp": {"s1":["experimentara","experimentase"],"s2":["experimentaras","experimentases"],"vos":["experimentaras","experimentases"],"s3":["experimentara","experimentase"],"p1":["experimentáramos","experimentásemos"],"p2":["experimentarais","experimentaseis"],"p3":["experimentaran","experimentasen"]},
+    "SubFut": {"s1":["experimentare"],"s2":["experimentares"],"vos":["experimentares"],"s3":["experimentare"],"p1":["experimentáremos"],"p2":["experimentareis"],"p3":["experimentaren"]},
+    "CmdPos": {"s2":["experimenta"],"vos":["experimentá"],"s3":["experimente"],"p1":["experimentemos"],"p2":["experimentad"],"p3":["experimenten"]}
+  }
+}

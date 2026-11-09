@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amẽŋˈgwaɾ]",
+    "silabacion": "a-men-guar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["averiguar"]
+  },
+  "formas_no_personales": {"infinitivo":"amenguar","gerundio":["amenguando"],"participio":["amenguado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amenguo"],"s2":["amenguas"],"vos":["amenguás"],"s3":["amengua"],"p1":["amenguamos"],"p2":["amenguáis"],"p3":["amenguan"]},
+    "IndImp": {"s1":["amenguaba"],"s2":["amenguabas"],"vos":["amenguabas"],"s3":["amenguaba"],"p1":["amenguábamos"],"p2":["amenguabais"],"p3":["amenguaban"]},
+    "IndPret": {"s1":["amengüé"],"s2":["amenguaste"],"vos":["amenguaste"],"s3":["amenguó"],"p1":["amenguamos"],"p2":["amenguasteis"],"p3":["amenguaron"]},
+    "IndFut": {"s1":["amenguaré"],"s2":["amenguarás"],"vos":["amenguarás"],"s3":["amenguará"],"p1":["amenguaremos"],"p2":["amenguaréis"],"p3":["amenguarán"]},
+    "IndCond": {"s1":["amenguaría"],"s2":["amenguarías"],"vos":["amenguarías"],"s3":["amenguaría"],"p1":["amenguaríamos"],"p2":["amenguaríais"],"p3":["amenguarían"]},
+    "SubPres": {"s1":["amengüe"],"s2":["amengües"],"vos":["amengües","amengüés"],"s3":["amengüe"],"p1":["amengüemos"],"p2":["amengüéis"],"p3":["amengüen"]},
+    "SubImp": {"s1":["amenguara","amenguase"],"s2":["amenguaras","amenguases"],"vos":["amenguaras","amenguases"],"s3":["amenguara","amenguase"],"p1":["amenguáramos","amenguásemos"],"p2":["amenguarais","amenguaseis"],"p3":["amenguaran","amenguasen"]},
+    "SubFut": {"s1":["amenguare"],"s2":["amenguares"],"vos":["amenguares"],"s3":["amenguare"],"p1":["amenguáremos"],"p2":["amenguareis"],"p3":["amenguaren"]},
+    "CmdPos": {"s2":["amengua"],"vos":["amenguá"],"s3":["amengüe"],"p1":["amengüemos"],"p2":["amenguad"],"p3":["amengüen"]}
+  }
+}

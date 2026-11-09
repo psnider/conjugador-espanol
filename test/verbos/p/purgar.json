@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[puɾˈɣ̞aɾ]",
+    "silabacion": "pur-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín purgare",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"purgar","gerundio":["purgando"],"participio":["purgado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["purgo"],"s2":["purgas"],"vos":["purgás"],"s3":["purga"],"p1":["purgamos"],"p2":["purgáis"],"p3":["purgan"]},
+    "IndImp": {"s1":["purgaba"],"s2":["purgabas"],"vos":["purgabas"],"s3":["purgaba"],"p1":["purgábamos"],"p2":["purgabais"],"p3":["purgaban"]},
+    "IndPret": {"s1":["purgué"],"s2":["purgaste"],"vos":["purgaste"],"s3":["purgó"],"p1":["purgamos"],"p2":["purgasteis"],"p3":["purgaron"]},
+    "IndFut": {"s1":["purgaré"],"s2":["purgarás"],"vos":["purgarás"],"s3":["purgará"],"p1":["purgaremos"],"p2":["purgaréis"],"p3":["purgarán"]},
+    "IndCond": {"s1":["purgaría"],"s2":["purgarías"],"vos":["purgarías"],"s3":["purgaría"],"p1":["purgaríamos"],"p2":["purgaríais"],"p3":["purgarían"]},
+    "SubPres": {"s1":["purgue"],"s2":["purgues"],"vos":["purgues","purgués"],"s3":["purgue"],"p1":["purguemos"],"p2":["purguéis"],"p3":["purguen"]},
+    "SubImp": {"s1":["purgara","purgase"],"s2":["purgaras","purgases"],"vos":["purgaras","purgases"],"s3":["purgara","purgase"],"p1":["purgáramos","purgásemos"],"p2":["purgarais","purgaseis"],"p3":["purgaran","purgasen"]},
+    "SubFut": {"s1":["purgare"],"s2":["purgares"],"vos":["purgares"],"s3":["purgare"],"p1":["purgáremos"],"p2":["purgareis"],"p3":["purgaren"]},
+    "CmdPos": {"s2":["purga"],"vos":["purgá"],"s3":["purgue"],"p1":["purguemos"],"p2":["purgad"],"p3":["purguen"]}
+  }
+}

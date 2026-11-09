@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fɾuˈt̪aɾ]",
+    "silabacion": "fru-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De fruto y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"frutar","gerundio":["frutando"],"participio":["frutado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["fruto"],"s2":["frutas"],"vos":["frutás"],"s3":["fruta"],"p1":["frutamos"],"p2":["frutáis"],"p3":["frutan"]},
+    "IndImp": {"s1":["frutaba"],"s2":["frutabas"],"vos":["frutabas"],"s3":["frutaba"],"p1":["frutábamos"],"p2":["frutabais"],"p3":["frutaban"]},
+    "IndPret": {"s1":["fruté"],"s2":["frutaste"],"vos":["frutaste"],"s3":["frutó"],"p1":["frutamos"],"p2":["frutasteis"],"p3":["frutaron"]},
+    "IndFut": {"s1":["frutaré"],"s2":["frutarás"],"vos":["frutarás"],"s3":["frutará"],"p1":["frutaremos"],"p2":["frutaréis"],"p3":["frutarán"]},
+    "IndCond": {"s1":["frutaría"],"s2":["frutarías"],"vos":["frutarías"],"s3":["frutaría"],"p1":["frutaríamos"],"p2":["frutaríais"],"p3":["frutarían"]},
+    "SubPres": {"s1":["frute"],"s2":["frutes"],"vos":["frutes","frutés"],"s3":["frute"],"p1":["frutemos"],"p2":["frutéis"],"p3":["fruten"]},
+    "SubImp": {"s1":["frutara","frutase"],"s2":["frutaras","frutases"],"vos":["frutaras","frutases"],"s3":["frutara","frutase"],"p1":["frutáramos","frutásemos"],"p2":["frutarais","frutaseis"],"p3":["frutaran","frutasen"]},
+    "SubFut": {"s1":["frutare"],"s2":["frutares"],"vos":["frutares"],"s3":["frutare"],"p1":["frutáremos"],"p2":["frutareis"],"p3":["frutaren"]},
+    "CmdPos": {"s2":["fruta"],"vos":["frutá"],"s3":["frute"],"p1":["frutemos"],"p2":["frutad"],"p3":["fruten"]}
+  }
+}

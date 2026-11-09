@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rekosˈt̪aɾ]",
+    "silabacion": "re-cos-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"recostar","gerundio":["recostando"],"participio":["recostado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["recuesto"],"s2":["recuestas"],"vos":["recostás"],"s3":["recuesta"],"p1":["recostamos"],"p2":["recostáis"],"p3":["recuestan"]},
+    "IndImp": {"s1":["recostaba"],"s2":["recostabas"],"vos":["recostabas"],"s3":["recostaba"],"p1":["recostábamos"],"p2":["recostabais"],"p3":["recostaban"]},
+    "IndPret": {"s1":["recosté"],"s2":["recostaste"],"vos":["recostaste"],"s3":["recostó"],"p1":["recostamos"],"p2":["recostasteis"],"p3":["recostaron"]},
+    "IndFut": {"s1":["recostaré"],"s2":["recostarás"],"vos":["recostarás"],"s3":["recostará"],"p1":["recostaremos"],"p2":["recostaréis"],"p3":["recostarán"]},
+    "IndCond": {"s1":["recostaría"],"s2":["recostarías"],"vos":["recostarías"],"s3":["recostaría"],"p1":["recostaríamos"],"p2":["recostaríais"],"p3":["recostarían"]},
+    "SubPres": {"s1":["recueste"],"s2":["recuestes"],"vos":["recuestes","recostés"],"s3":["recueste"],"p1":["recostemos"],"p2":["recostéis"],"p3":["recuesten"]},
+    "SubImp": {"s1":["recostara","recostase"],"s2":["recostaras","recostases"],"vos":["recostaras","recostases"],"s3":["recostara","recostase"],"p1":["recostáramos","recostásemos"],"p2":["recostarais","recostaseis"],"p3":["recostaran","recostasen"]},
+    "SubFut": {"s1":["recostare"],"s2":["recostares"],"vos":["recostares"],"s3":["recostare"],"p1":["recostáremos"],"p2":["recostareis"],"p3":["recostaren"]},
+    "CmdPos": {"s2":["recuesta"],"vos":["recostá"],"s3":["recueste"],"p1":["recostemos"],"p2":["recostad"],"p3":["recuesten"]}
+  }
+}

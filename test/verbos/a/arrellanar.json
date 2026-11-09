@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[areʝaˈnaɾ]",
+    "silabacion": "a-rre-lla-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De rellano y el sufijo -ar, con el pronombre reflexivo átono.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrellanar","gerundio":["arrellanando"],"participio":["arrellanado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arrellano"],"s2":["arrellanas"],"vos":["arrellanás"],"s3":["arrellana"],"p1":["arrellanamos"],"p2":["arrellanáis"],"p3":["arrellanan"]},
+    "IndImp": {"s1":["arrellanaba"],"s2":["arrellanabas"],"vos":["arrellanabas"],"s3":["arrellanaba"],"p1":["arrellanábamos"],"p2":["arrellanabais"],"p3":["arrellanaban"]},
+    "IndPret": {"s1":["arrellané"],"s2":["arrellanaste"],"vos":["arrellanaste"],"s3":["arrellanó"],"p1":["arrellanamos"],"p2":["arrellanasteis"],"p3":["arrellanaron"]},
+    "IndFut": {"s1":["arrellanaré"],"s2":["arrellanarás"],"vos":["arrellanarás"],"s3":["arrellanará"],"p1":["arrellanaremos"],"p2":["arrellanaréis"],"p3":["arrellanarán"]},
+    "IndCond": {"s1":["arrellanaría"],"s2":["arrellanarías"],"vos":["arrellanarías"],"s3":["arrellanaría"],"p1":["arrellanaríamos"],"p2":["arrellanaríais"],"p3":["arrellanarían"]},
+    "SubPres": {"s1":["arrellane"],"s2":["arrellanes"],"vos":["arrellanes","arrellanés"],"s3":["arrellane"],"p1":["arrellanemos"],"p2":["arrellanéis"],"p3":["arrellanen"]},
+    "SubImp": {"s1":["arrellanara","arrellanase"],"s2":["arrellanaras","arrellanases"],"vos":["arrellanaras","arrellanases"],"s3":["arrellanara","arrellanase"],"p1":["arrellanáramos","arrellanásemos"],"p2":["arrellanarais","arrellanaseis"],"p3":["arrellanaran","arrellanasen"]},
+    "SubFut": {"s1":["arrellanare"],"s2":["arrellanares"],"vos":["arrellanares"],"s3":["arrellanare"],"p1":["arrellanáremos"],"p2":["arrellanareis"],"p3":["arrellanaren"]},
+    "CmdPos": {"s2":["arrellana"],"vos":["arrellaná"],"s3":["arrellane"],"p1":["arrellanemos"],"p2":["arrellanad"],"p3":["arrellanen"]}
+  }
+}

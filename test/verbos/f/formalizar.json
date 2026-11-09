@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[foɾmaliˈsaɾ]",
+    "silabacion": "for-ma-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"formalizar","gerundio":["formalizando"],"participio":["formalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["formalizo"],"s2":["formalizas"],"vos":["formalizás"],"s3":["formaliza"],"p1":["formalizamos"],"p2":["formalizáis"],"p3":["formalizan"]},
+    "IndImp": {"s1":["formalizaba"],"s2":["formalizabas"],"vos":["formalizabas"],"s3":["formalizaba"],"p1":["formalizábamos"],"p2":["formalizabais"],"p3":["formalizaban"]},
+    "IndPret": {"s1":["formalicé"],"s2":["formalizaste"],"vos":["formalizaste"],"s3":["formalizó"],"p1":["formalizamos"],"p2":["formalizasteis"],"p3":["formalizaron"]},
+    "IndFut": {"s1":["formalizaré"],"s2":["formalizarás"],"vos":["formalizarás"],"s3":["formalizará"],"p1":["formalizaremos"],"p2":["formalizaréis"],"p3":["formalizarán"]},
+    "IndCond": {"s1":["formalizaría"],"s2":["formalizarías"],"vos":["formalizarías"],"s3":["formalizaría"],"p1":["formalizaríamos"],"p2":["formalizaríais"],"p3":["formalizarían"]},
+    "SubPres": {"s1":["formalice"],"s2":["formalices"],"vos":["formalices","formalicés"],"s3":["formalice"],"p1":["formalicemos"],"p2":["formalicéis"],"p3":["formalicen"]},
+    "SubImp": {"s1":["formalizara","formalizase"],"s2":["formalizaras","formalizases"],"vos":["formalizaras","formalizases"],"s3":["formalizara","formalizase"],"p1":["formalizáramos","formalizásemos"],"p2":["formalizarais","formalizaseis"],"p3":["formalizaran","formalizasen"]},
+    "SubFut": {"s1":["formalizare"],"s2":["formalizares"],"vos":["formalizares"],"s3":["formalizare"],"p1":["formalizáremos"],"p2":["formalizareis"],"p3":["formalizaren"]},
+    "CmdPos": {"s2":["formaliza"],"vos":["formalizá"],"s3":["formalice"],"p1":["formalicemos"],"p2":["formalizad"],"p3":["formalicen"]}
+  }
+}

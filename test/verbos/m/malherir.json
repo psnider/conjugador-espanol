@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[maleˈɾiɾ]",
+    "silabacion": "mal-he-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de mal y herir.",
+    "modelos": ["sentir"]
+  },
+  "formas_no_personales": {"infinitivo":"malherir","gerundio":["malhiriendo"],"participio":["malherido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["malhiero"],"s2":["malhieres"],"vos":["malherís"],"s3":["malhiere"],"p1":["malherimos"],"p2":["malherís"],"p3":["malhieren"]},
+    "IndImp": {"s1":["malhería"],"s2":["malherías"],"vos":["malherías"],"s3":["malhería"],"p1":["malheríamos"],"p2":["malheríais"],"p3":["malherían"]},
+    "IndPret": {"s1":["malherí"],"s2":["malheriste"],"vos":["malheriste"],"s3":["malhirió"],"p1":["malherimos"],"p2":["malheristeis"],"p3":["malhirieron"]},
+    "IndFut": {"s1":["malheriré"],"s2":["malherirás"],"vos":["malherirás"],"s3":["malherirá"],"p1":["malheriremos"],"p2":["malheriréis"],"p3":["malherirán"]},
+    "IndCond": {"s1":["malheriría"],"s2":["malherirías"],"vos":["malherirías"],"s3":["malheriría"],"p1":["malheriríamos"],"p2":["malheriríais"],"p3":["malherirían"]},
+    "SubPres": {"s1":["malhiera"],"s2":["malhieras"],"vos":["malhieras","malhirás"],"s3":["malhiera"],"p1":["malhiramos"],"p2":["malhiráis"],"p3":["malhieran"]},
+    "SubImp": {"s1":["malhiriera","malhiriese"],"s2":["malhirieras","malhirieses"],"vos":["malhirieras","malhirieses"],"s3":["malhiriera","malhiriese"],"p1":["malhiriéramos","malhiriésemos"],"p2":["malhirierais","malhirieseis"],"p3":["malhirieran","malhiriesen"]},
+    "SubFut": {"s1":["malhiriere"],"s2":["malhirieres"],"vos":["malhirieres"],"s3":["malhiriere"],"p1":["malhiriéremos"],"p2":["malhiriereis"],"p3":["malhirieren"]},
+    "CmdPos": {"s2":["malhiere"],"vos":["malherí"],"s3":["malhiera"],"p1":["malhiramos"],"p2":["malherid"],"p3":["malhieran"]}
+  }
+}

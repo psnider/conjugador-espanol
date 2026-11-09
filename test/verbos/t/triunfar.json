@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾjũɱˈfaɾ]",
+    "silabacion": "triun-far",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1424.[1] Del latín triumphāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"triunfar","gerundio":["triunfando"],"participio":["triunfado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["triunfo"],"s2":["triunfas"],"vos":["triunfás"],"s3":["triunfa"],"p1":["triunfamos"],"p2":["triunfáis"],"p3":["triunfan"]},
+    "IndImp": {"s1":["triunfaba"],"s2":["triunfabas"],"vos":["triunfabas"],"s3":["triunfaba"],"p1":["triunfábamos"],"p2":["triunfabais"],"p3":["triunfaban"]},
+    "IndPret": {"s1":["triunfé"],"s2":["triunfaste"],"vos":["triunfaste"],"s3":["triunfó"],"p1":["triunfamos"],"p2":["triunfasteis"],"p3":["triunfaron"]},
+    "IndFut": {"s1":["triunfaré"],"s2":["triunfarás"],"vos":["triunfarás"],"s3":["triunfará"],"p1":["triunfaremos"],"p2":["triunfaréis"],"p3":["triunfarán"]},
+    "IndCond": {"s1":["triunfaría"],"s2":["triunfarías"],"vos":["triunfarías"],"s3":["triunfaría"],"p1":["triunfaríamos"],"p2":["triunfaríais"],"p3":["triunfarían"]},
+    "SubPres": {"s1":["triunfe"],"s2":["triunfes"],"vos":["triunfes","triunfés"],"s3":["triunfe"],"p1":["triunfemos"],"p2":["triunféis"],"p3":["triunfen"]},
+    "SubImp": {"s1":["triunfara","triunfase"],"s2":["triunfaras","triunfases"],"vos":["triunfaras","triunfases"],"s3":["triunfara","triunfase"],"p1":["triunfáramos","triunfásemos"],"p2":["triunfarais","triunfaseis"],"p3":["triunfaran","triunfasen"]},
+    "SubFut": {"s1":["triunfare"],"s2":["triunfares"],"vos":["triunfares"],"s3":["triunfare"],"p1":["triunfáremos"],"p2":["triunfareis"],"p3":["triunfaren"]},
+    "CmdPos": {"s2":["triunfa"],"vos":["triunfá"],"s3":["triunfe"],"p1":["triunfemos"],"p2":["triunfad"],"p3":["triunfen"]}
+  }
+}

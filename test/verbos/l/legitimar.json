@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lexit̪iˈmaɾ]",
+    "silabacion": "le-gi-ti-mar",
+    "acentuacion": "aguda",
+    "etimologia": "De legítimo y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"legitimar","gerundio":["legitimando"],"participio":["legitimado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["legitimo"],"s2":["legitimas"],"vos":["legitimás"],"s3":["legitima"],"p1":["legitimamos"],"p2":["legitimáis"],"p3":["legitiman"]},
+    "IndImp": {"s1":["legitimaba"],"s2":["legitimabas"],"vos":["legitimabas"],"s3":["legitimaba"],"p1":["legitimábamos"],"p2":["legitimabais"],"p3":["legitimaban"]},
+    "IndPret": {"s1":["legitimé"],"s2":["legitimaste"],"vos":["legitimaste"],"s3":["legitimó"],"p1":["legitimamos"],"p2":["legitimasteis"],"p3":["legitimaron"]},
+    "IndFut": {"s1":["legitimaré"],"s2":["legitimarás"],"vos":["legitimarás"],"s3":["legitimará"],"p1":["legitimaremos"],"p2":["legitimaréis"],"p3":["legitimarán"]},
+    "IndCond": {"s1":["legitimaría"],"s2":["legitimarías"],"vos":["legitimarías"],"s3":["legitimaría"],"p1":["legitimaríamos"],"p2":["legitimaríais"],"p3":["legitimarían"]},
+    "SubPres": {"s1":["legitime"],"s2":["legitimes"],"vos":["legitimes","legitimés"],"s3":["legitime"],"p1":["legitimemos"],"p2":["legitiméis"],"p3":["legitimen"]},
+    "SubImp": {"s1":["legitimara","legitimase"],"s2":["legitimaras","legitimases"],"vos":["legitimaras","legitimases"],"s3":["legitimara","legitimase"],"p1":["legitimáramos","legitimásemos"],"p2":["legitimarais","legitimaseis"],"p3":["legitimaran","legitimasen"]},
+    "SubFut": {"s1":["legitimare"],"s2":["legitimares"],"vos":["legitimares"],"s3":["legitimare"],"p1":["legitimáremos"],"p2":["legitimareis"],"p3":["legitimaren"]},
+    "CmdPos": {"s2":["legitima"],"vos":["legitimá"],"s3":["legitime"],"p1":["legitimemos"],"p2":["legitimad"],"p3":["legitimen"]}
+  }
+}

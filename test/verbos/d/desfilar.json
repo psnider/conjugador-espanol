@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esfiˈlaɾ]",
+    "silabacion": "des-fi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desfilar","gerundio":["desfilando"],"participio":["desfilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desfilo"],"s2":["desfilas"],"vos":["desfilás"],"s3":["desfila"],"p1":["desfilamos"],"p2":["desfiláis"],"p3":["desfilan"]},
+    "IndImp": {"s1":["desfilaba"],"s2":["desfilabas"],"vos":["desfilabas"],"s3":["desfilaba"],"p1":["desfilábamos"],"p2":["desfilabais"],"p3":["desfilaban"]},
+    "IndPret": {"s1":["desfilé"],"s2":["desfilaste"],"vos":["desfilaste"],"s3":["desfiló"],"p1":["desfilamos"],"p2":["desfilasteis"],"p3":["desfilaron"]},
+    "IndFut": {"s1":["desfilaré"],"s2":["desfilarás"],"vos":["desfilarás"],"s3":["desfilará"],"p1":["desfilaremos"],"p2":["desfilaréis"],"p3":["desfilarán"]},
+    "IndCond": {"s1":["desfilaría"],"s2":["desfilarías"],"vos":["desfilarías"],"s3":["desfilaría"],"p1":["desfilaríamos"],"p2":["desfilaríais"],"p3":["desfilarían"]},
+    "SubPres": {"s1":["desfile"],"s2":["desfiles"],"vos":["desfiles","desfilés"],"s3":["desfile"],"p1":["desfilemos"],"p2":["desfiléis"],"p3":["desfilen"]},
+    "SubImp": {"s1":["desfilara","desfilase"],"s2":["desfilaras","desfilases"],"vos":["desfilaras","desfilases"],"s3":["desfilara","desfilase"],"p1":["desfiláramos","desfilásemos"],"p2":["desfilarais","desfilaseis"],"p3":["desfilaran","desfilasen"]},
+    "SubFut": {"s1":["desfilare"],"s2":["desfilares"],"vos":["desfilares"],"s3":["desfilare"],"p1":["desfiláremos"],"p2":["desfilareis"],"p3":["desfilaren"]},
+    "CmdPos": {"s2":["desfila"],"vos":["desfilá"],"s3":["desfile"],"p1":["desfilemos"],"p2":["desfilad"],"p3":["desfilen"]}
+  }
+}

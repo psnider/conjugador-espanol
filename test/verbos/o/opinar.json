@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[opiˈnaɾ]",
+    "silabacion": "o-pi-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"opinar","gerundio":["opinando"],"participio":["opinado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["opino"],"s2":["opinas"],"vos":["opinás"],"s3":["opina"],"p1":["opinamos"],"p2":["opináis"],"p3":["opinan"]},
+    "IndImp": {"s1":["opinaba"],"s2":["opinabas"],"vos":["opinabas"],"s3":["opinaba"],"p1":["opinábamos"],"p2":["opinabais"],"p3":["opinaban"]},
+    "IndPret": {"s1":["opiné"],"s2":["opinaste"],"vos":["opinaste"],"s3":["opinó"],"p1":["opinamos"],"p2":["opinasteis"],"p3":["opinaron"]},
+    "IndFut": {"s1":["opinaré"],"s2":["opinarás"],"vos":["opinarás"],"s3":["opinará"],"p1":["opinaremos"],"p2":["opinaréis"],"p3":["opinarán"]},
+    "IndCond": {"s1":["opinaría"],"s2":["opinarías"],"vos":["opinarías"],"s3":["opinaría"],"p1":["opinaríamos"],"p2":["opinaríais"],"p3":["opinarían"]},
+    "SubPres": {"s1":["opine"],"s2":["opines"],"vos":["opines","opinés"],"s3":["opine"],"p1":["opinemos"],"p2":["opinéis"],"p3":["opinen"]},
+    "SubImp": {"s1":["opinara","opinase"],"s2":["opinaras","opinases"],"vos":["opinaras","opinases"],"s3":["opinara","opinase"],"p1":["opináramos","opinásemos"],"p2":["opinarais","opinaseis"],"p3":["opinaran","opinasen"]},
+    "SubFut": {"s1":["opinare"],"s2":["opinares"],"vos":["opinares"],"s3":["opinare"],"p1":["opináremos"],"p2":["opinareis"],"p3":["opinaren"]},
+    "CmdPos": {"s2":["opina"],"vos":["opiná"],"s3":["opine"],"p1":["opinemos"],"p2":["opinad"],"p3":["opinen"]}
+  }
+}

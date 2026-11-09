@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ɾukt̪uˈɾaɾ]",
+    "silabacion": "es-truc-tu-rar",
+    "acentuacion": "aguda",
+    "etimologia": "De estructura y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estructurar","gerundio":["estructurando"],"participio":["estructurado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estructuro"],"s2":["estructuras"],"vos":["estructurás"],"s3":["estructura"],"p1":["estructuramos"],"p2":["estructuráis"],"p3":["estructuran"]},
+    "IndImp": {"s1":["estructuraba"],"s2":["estructurabas"],"vos":["estructurabas"],"s3":["estructuraba"],"p1":["estructurábamos"],"p2":["estructurabais"],"p3":["estructuraban"]},
+    "IndPret": {"s1":["estructuré"],"s2":["estructuraste"],"vos":["estructuraste"],"s3":["estructuró"],"p1":["estructuramos"],"p2":["estructurasteis"],"p3":["estructuraron"]},
+    "IndFut": {"s1":["estructuraré"],"s2":["estructurarás"],"vos":["estructurarás"],"s3":["estructurará"],"p1":["estructuraremos"],"p2":["estructuraréis"],"p3":["estructurarán"]},
+    "IndCond": {"s1":["estructuraría"],"s2":["estructurarías"],"vos":["estructurarías"],"s3":["estructuraría"],"p1":["estructuraríamos"],"p2":["estructuraríais"],"p3":["estructurarían"]},
+    "SubPres": {"s1":["estructure"],"s2":["estructures"],"vos":["estructures","estructurés"],"s3":["estructure"],"p1":["estructuremos"],"p2":["estructuréis"],"p3":["estructuren"]},
+    "SubImp": {"s1":["estructurara","estructurase"],"s2":["estructuraras","estructurases"],"vos":["estructuraras","estructurases"],"s3":["estructurara","estructurase"],"p1":["estructuráramos","estructurásemos"],"p2":["estructurarais","estructuraseis"],"p3":["estructuraran","estructurasen"]},
+    "SubFut": {"s1":["estructurare"],"s2":["estructurares"],"vos":["estructurares"],"s3":["estructurare"],"p1":["estructuráremos"],"p2":["estructurareis"],"p3":["estructuraren"]},
+    "CmdPos": {"s2":["estructura"],"vos":["estructurá"],"s3":["estructure"],"p1":["estructuremos"],"p2":["estructurad"],"p3":["estructuren"]}
+  }
+}

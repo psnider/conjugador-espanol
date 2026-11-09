@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõmˈbɾaɾ]",
+    "silabacion": "des-com-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descombrar","gerundio":["descombrando"],"participio":["descombrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descombro"],"s2":["descombras"],"vos":["descombrás"],"s3":["descombra"],"p1":["descombramos"],"p2":["descombráis"],"p3":["descombran"]},
+    "IndImp": {"s1":["descombraba"],"s2":["descombrabas"],"vos":["descombrabas"],"s3":["descombraba"],"p1":["descombrábamos"],"p2":["descombrabais"],"p3":["descombraban"]},
+    "IndPret": {"s1":["descombré"],"s2":["descombraste"],"vos":["descombraste"],"s3":["descombró"],"p1":["descombramos"],"p2":["descombrasteis"],"p3":["descombraron"]},
+    "IndFut": {"s1":["descombraré"],"s2":["descombrarás"],"vos":["descombrarás"],"s3":["descombrará"],"p1":["descombraremos"],"p2":["descombraréis"],"p3":["descombrarán"]},
+    "IndCond": {"s1":["descombraría"],"s2":["descombrarías"],"vos":["descombrarías"],"s3":["descombraría"],"p1":["descombraríamos"],"p2":["descombraríais"],"p3":["descombrarían"]},
+    "SubPres": {"s1":["descombre"],"s2":["descombres"],"vos":["descombres","descombrés"],"s3":["descombre"],"p1":["descombremos"],"p2":["descombréis"],"p3":["descombren"]},
+    "SubImp": {"s1":["descombrara","descombrase"],"s2":["descombraras","descombrases"],"vos":["descombraras","descombrases"],"s3":["descombrara","descombrase"],"p1":["descombráramos","descombrásemos"],"p2":["descombrarais","descombraseis"],"p3":["descombraran","descombrasen"]},
+    "SubFut": {"s1":["descombrare"],"s2":["descombrares"],"vos":["descombrares"],"s3":["descombrare"],"p1":["descombráremos"],"p2":["descombrareis"],"p3":["descombraren"]},
+    "CmdPos": {"s2":["descombra"],"vos":["descombrá"],"s3":["descombre"],"p1":["descombremos"],"p2":["descombrad"],"p3":["descombren"]}
+  }
+}

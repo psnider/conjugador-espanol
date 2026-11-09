@@ -1,0 +1,20 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aˈɣ̞ɾjaɾ]",
+    "acentuacion": "aguda",
+    "etimologia": "De agrio y el sufijo -ar.",
+    "modelos": ["enviar"]
+  },
+  "formas_no_personales": {"infinitivo":"agriar","gerundio":["agriando"],"participio":["agriado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agrío","agrio"],"s2":["agrías","agrias"],"vos":["agriás"],"s3":["agría","agria"],"p1":["agriamos"],"p2":["agriáis"],"p3":["agrían","agrian"]},
+    "IndImp": {"s1":["agriaba"],"s2":["agriabas"],"vos":["agriabas"],"s3":["agriaba"],"p1":["agriábamos"],"p2":["agriabais"],"p3":["agriaban"]},
+    "IndPret": {"s1":["agrié"],"s2":["agriaste"],"vos":["agriaste"],"s3":["agrió"],"p1":["agriamos"],"p2":["agriasteis"],"p3":["agriaron"]},
+    "IndFut": {"s1":["agriaré"],"s2":["agriarás"],"vos":["agriarás"],"s3":["agriará"],"p1":["agriaremos"],"p2":["agriaréis"],"p3":["agriarán"]},
+    "IndCond": {"s1":["agriaría"],"s2":["agriarías"],"vos":["agriarías"],"s3":["agriaría"],"p1":["agriaríamos"],"p2":["agriaríais"],"p3":["agriarían"]},
+    "SubPres": {"s1":["agríe","agrie"],"s2":["agríes","agries"],"vos":["agríes","agriés","agries"],"s3":["agríe","agrie"],"p1":["agriemos"],"p2":["agriéis"],"p3":["agríen","agrien"]},
+    "SubImp": {"s1":["agriara","agriase"],"s2":["agriaras","agriases"],"vos":["agriaras","agriases"],"s3":["agriara","agriase"],"p1":["agriáramos","agriásemos"],"p2":["agriarais","agriaseis"],"p3":["agriaran","agriasen"]},
+    "SubFut": {"s1":["agriare"],"s2":["agriares"],"vos":["agriares"],"s3":["agriare"],"p1":["agriáremos"],"p2":["agriareis"],"p3":["agriaren"]},
+    "CmdPos": {"s2":["agría","agria"],"vos":["agriá"],"s3":["agríe","agrie"],"p1":["agriemos"],"p2":["agriad"],"p3":["agríen","agrien"]}
+  }
+}

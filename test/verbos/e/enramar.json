@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnraˈmaɾ]",
+    "silabacion": "en-ra-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, rama y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enramar","gerundio":["enramando"],"participio":["enramado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enramo"],"s2":["enramas"],"vos":["enramás"],"s3":["enrama"],"p1":["enramamos"],"p2":["enramáis"],"p3":["enraman"]},
+    "IndImp": {"s1":["enramaba"],"s2":["enramabas"],"vos":["enramabas"],"s3":["enramaba"],"p1":["enramábamos"],"p2":["enramabais"],"p3":["enramaban"]},
+    "IndPret": {"s1":["enramé"],"s2":["enramaste"],"vos":["enramaste"],"s3":["enramó"],"p1":["enramamos"],"p2":["enramasteis"],"p3":["enramaron"]},
+    "IndFut": {"s1":["enramaré"],"s2":["enramarás"],"vos":["enramarás"],"s3":["enramará"],"p1":["enramaremos"],"p2":["enramaréis"],"p3":["enramarán"]},
+    "IndCond": {"s1":["enramaría"],"s2":["enramarías"],"vos":["enramarías"],"s3":["enramaría"],"p1":["enramaríamos"],"p2":["enramaríais"],"p3":["enramarían"]},
+    "SubPres": {"s1":["enrame"],"s2":["enrames"],"vos":["enrames","enramés"],"s3":["enrame"],"p1":["enramemos"],"p2":["enraméis"],"p3":["enramen"]},
+    "SubImp": {"s1":["enramara","enramase"],"s2":["enramaras","enramases"],"vos":["enramaras","enramases"],"s3":["enramara","enramase"],"p1":["enramáramos","enramásemos"],"p2":["enramarais","enramaseis"],"p3":["enramaran","enramasen"]},
+    "SubFut": {"s1":["enramare"],"s2":["enramares"],"vos":["enramares"],"s3":["enramare"],"p1":["enramáremos"],"p2":["enramareis"],"p3":["enramaren"]},
+    "CmdPos": {"s2":["enrama"],"vos":["enramá"],"s3":["enrame"],"p1":["enramemos"],"p2":["enramad"],"p3":["enramen"]}
+  }
+}

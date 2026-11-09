@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞uˈʝiɾ]",
+    "silabacion": "re-bu-llir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y bullir.[1]",
+    "modelos": ["escabullir"]
+  },
+  "formas_no_personales": {"infinitivo":"rebullir","gerundio":["rebullendo"],"participio":["rebullido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rebullo"],"s2":["rebulles"],"vos":["rebullís"],"s3":["rebulle"],"p1":["rebullimos"],"p2":["rebullís"],"p3":["rebullen"]},
+    "IndImp": {"s1":["rebullía"],"s2":["rebullías"],"vos":["rebullías"],"s3":["rebullía"],"p1":["rebullíamos"],"p2":["rebullíais"],"p3":["rebullían"]},
+    "IndPret": {"s1":["rebullí"],"s2":["rebulliste"],"vos":["rebulliste"],"s3":["rebulló"],"p1":["rebullimos"],"p2":["rebullisteis"],"p3":["rebulleron"]},
+    "IndFut": {"s1":["rebulliré"],"s2":["rebullirás"],"vos":["rebullirás"],"s3":["rebullirá"],"p1":["rebulliremos"],"p2":["rebulliréis"],"p3":["rebullirán"]},
+    "IndCond": {"s1":["rebulliría"],"s2":["rebullirías"],"vos":["rebullirías"],"s3":["rebulliría"],"p1":["rebulliríamos"],"p2":["rebulliríais"],"p3":["rebullirían"]},
+    "SubPres": {"s1":["rebulla"],"s2":["rebullas"],"vos":["rebullas","rebullás"],"s3":["rebulla"],"p1":["rebullamos"],"p2":["rebulláis"],"p3":["rebullan"]},
+    "SubImp": {"s1":["rebullera","rebullese"],"s2":["rebulleras","rebulleses"],"vos":["rebulleras","rebulleses"],"s3":["rebullera","rebullese"],"p1":["rebulléramos","rebullésemos"],"p2":["rebullerais","rebulleseis"],"p3":["rebulleran","rebullesen"]},
+    "SubFut": {"s1":["rebullere"],"s2":["rebulleres"],"vos":["rebulleres"],"s3":["rebullere"],"p1":["rebulléremos"],"p2":["rebullereis"],"p3":["rebulleren"]},
+    "CmdPos": {"s2":["rebulle"],"vos":["rebullí"],"s3":["rebulla"],"p1":["rebullamos"],"p2":["rebullid"],"p3":["rebullan"]}
+  }
+}

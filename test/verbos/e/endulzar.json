@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪d̪ulˈsaɾ]",
+    "silabacion": "en-dul-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"endulzar","gerundio":["endulzando"],"participio":["endulzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["endulzo"],"s2":["endulzas"],"vos":["endulzás"],"s3":["endulza"],"p1":["endulzamos"],"p2":["endulzáis"],"p3":["endulzan"]},
+    "IndImp": {"s1":["endulzaba"],"s2":["endulzabas"],"vos":["endulzabas"],"s3":["endulzaba"],"p1":["endulzábamos"],"p2":["endulzabais"],"p3":["endulzaban"]},
+    "IndPret": {"s1":["endulcé"],"s2":["endulzaste"],"vos":["endulzaste"],"s3":["endulzó"],"p1":["endulzamos"],"p2":["endulzasteis"],"p3":["endulzaron"]},
+    "IndFut": {"s1":["endulzaré"],"s2":["endulzarás"],"vos":["endulzarás"],"s3":["endulzará"],"p1":["endulzaremos"],"p2":["endulzaréis"],"p3":["endulzarán"]},
+    "IndCond": {"s1":["endulzaría"],"s2":["endulzarías"],"vos":["endulzarías"],"s3":["endulzaría"],"p1":["endulzaríamos"],"p2":["endulzaríais"],"p3":["endulzarían"]},
+    "SubPres": {"s1":["endulce"],"s2":["endulces"],"vos":["endulces","endulcés"],"s3":["endulce"],"p1":["endulcemos"],"p2":["endulcéis"],"p3":["endulcen"]},
+    "SubImp": {"s1":["endulzara","endulzase"],"s2":["endulzaras","endulzases"],"vos":["endulzaras","endulzases"],"s3":["endulzara","endulzase"],"p1":["endulzáramos","endulzásemos"],"p2":["endulzarais","endulzaseis"],"p3":["endulzaran","endulzasen"]},
+    "SubFut": {"s1":["endulzare"],"s2":["endulzares"],"vos":["endulzares"],"s3":["endulzare"],"p1":["endulzáremos"],"p2":["endulzareis"],"p3":["endulzaren"]},
+    "CmdPos": {"s2":["endulza"],"vos":["endulzá"],"s3":["endulce"],"p1":["endulcemos"],"p2":["endulzad"],"p3":["endulcen"]}
+  }
+}

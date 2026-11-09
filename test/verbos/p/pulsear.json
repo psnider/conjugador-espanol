@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pulseˈaɾ]",
+    "silabacion": "pul-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De pulso y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pulsear","gerundio":["pulseando"],"participio":["pulseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pulseo"],"s2":["pulseas"],"vos":["pulseás"],"s3":["pulsea"],"p1":["pulseamos"],"p2":["pulseáis"],"p3":["pulsean"]},
+    "IndImp": {"s1":["pulseaba"],"s2":["pulseabas"],"vos":["pulseabas"],"s3":["pulseaba"],"p1":["pulseábamos"],"p2":["pulseabais"],"p3":["pulseaban"]},
+    "IndPret": {"s1":["pulseé"],"s2":["pulseaste"],"vos":["pulseaste"],"s3":["pulseó"],"p1":["pulseamos"],"p2":["pulseasteis"],"p3":["pulsearon"]},
+    "IndFut": {"s1":["pulsearé"],"s2":["pulsearás"],"vos":["pulsearás"],"s3":["pulseará"],"p1":["pulsearemos"],"p2":["pulsearéis"],"p3":["pulsearán"]},
+    "IndCond": {"s1":["pulsearía"],"s2":["pulsearías"],"vos":["pulsearías"],"s3":["pulsearía"],"p1":["pulsearíamos"],"p2":["pulsearíais"],"p3":["pulsearían"]},
+    "SubPres": {"s1":["pulsee"],"s2":["pulsees"],"vos":["pulsees","pulseés"],"s3":["pulsee"],"p1":["pulseemos"],"p2":["pulseéis"],"p3":["pulseen"]},
+    "SubImp": {"s1":["pulseara","pulsease"],"s2":["pulsearas","pulseases"],"vos":["pulsearas","pulseases"],"s3":["pulseara","pulsease"],"p1":["pulseáramos","pulseásemos"],"p2":["pulsearais","pulseaseis"],"p3":["pulsearan","pulseasen"]},
+    "SubFut": {"s1":["pulseare"],"s2":["pulseares"],"vos":["pulseares"],"s3":["pulseare"],"p1":["pulseáremos"],"p2":["pulseareis"],"p3":["pulsearen"]},
+    "CmdPos": {"s2":["pulsea"],"vos":["pulseá"],"s3":["pulsee"],"p1":["pulseemos"],"p2":["pulsead"],"p3":["pulseen"]}
+  }
+}

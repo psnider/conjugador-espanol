@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaˈsaɾ]",
+    "silabacion": "tra-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tractus, habiendo sido verbalizado como *tractiāre.[1]",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"trazar","gerundio":["trazando"],"participio":["trazado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trazo"],"s2":["trazas"],"vos":["trazás"],"s3":["traza"],"p1":["trazamos"],"p2":["trazáis"],"p3":["trazan"]},
+    "IndImp": {"s1":["trazaba"],"s2":["trazabas"],"vos":["trazabas"],"s3":["trazaba"],"p1":["trazábamos"],"p2":["trazabais"],"p3":["trazaban"]},
+    "IndPret": {"s1":["tracé"],"s2":["trazaste"],"vos":["trazaste"],"s3":["trazó"],"p1":["trazamos"],"p2":["trazasteis"],"p3":["trazaron"]},
+    "IndFut": {"s1":["trazaré"],"s2":["trazarás"],"vos":["trazarás"],"s3":["trazará"],"p1":["trazaremos"],"p2":["trazaréis"],"p3":["trazarán"]},
+    "IndCond": {"s1":["trazaría"],"s2":["trazarías"],"vos":["trazarías"],"s3":["trazaría"],"p1":["trazaríamos"],"p2":["trazaríais"],"p3":["trazarían"]},
+    "SubPres": {"s1":["trace"],"s2":["traces"],"vos":["traces","tracés"],"s3":["trace"],"p1":["tracemos"],"p2":["tracéis"],"p3":["tracen"]},
+    "SubImp": {"s1":["trazara","trazase"],"s2":["trazaras","trazases"],"vos":["trazaras","trazases"],"s3":["trazara","trazase"],"p1":["trazáramos","trazásemos"],"p2":["trazarais","trazaseis"],"p3":["trazaran","trazasen"]},
+    "SubFut": {"s1":["trazare"],"s2":["trazares"],"vos":["trazares"],"s3":["trazare"],"p1":["trazáremos"],"p2":["trazareis"],"p3":["trazaren"]},
+    "CmdPos": {"s2":["traza"],"vos":["trazá"],"s3":["trace"],"p1":["tracemos"],"p2":["trazad"],"p3":["tracen"]}
+  }
+}

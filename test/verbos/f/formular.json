@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[foɾmuˈlaɾ]",
+    "silabacion": "for-mu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De formula y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"formular","gerundio":["formulando"],"participio":["formulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["formulo"],"s2":["formulas"],"vos":["formulás"],"s3":["formula"],"p1":["formulamos"],"p2":["formuláis"],"p3":["formulan"]},
+    "IndImp": {"s1":["formulaba"],"s2":["formulabas"],"vos":["formulabas"],"s3":["formulaba"],"p1":["formulábamos"],"p2":["formulabais"],"p3":["formulaban"]},
+    "IndPret": {"s1":["formulé"],"s2":["formulaste"],"vos":["formulaste"],"s3":["formuló"],"p1":["formulamos"],"p2":["formulasteis"],"p3":["formularon"]},
+    "IndFut": {"s1":["formularé"],"s2":["formularás"],"vos":["formularás"],"s3":["formulará"],"p1":["formularemos"],"p2":["formularéis"],"p3":["formularán"]},
+    "IndCond": {"s1":["formularía"],"s2":["formularías"],"vos":["formularías"],"s3":["formularía"],"p1":["formularíamos"],"p2":["formularíais"],"p3":["formularían"]},
+    "SubPres": {"s1":["formule"],"s2":["formules"],"vos":["formules","formulés"],"s3":["formule"],"p1":["formulemos"],"p2":["formuléis"],"p3":["formulen"]},
+    "SubImp": {"s1":["formulara","formulase"],"s2":["formularas","formulases"],"vos":["formularas","formulases"],"s3":["formulara","formulase"],"p1":["formuláramos","formulásemos"],"p2":["formularais","formulaseis"],"p3":["formularan","formulasen"]},
+    "SubFut": {"s1":["formulare"],"s2":["formulares"],"vos":["formulares"],"s3":["formulare"],"p1":["formuláremos"],"p2":["formulareis"],"p3":["formularen"]},
+    "CmdPos": {"s2":["formula"],"vos":["formulá"],"s3":["formule"],"p1":["formulemos"],"p2":["formulad"],"p3":["formulen"]}
+  }
+}

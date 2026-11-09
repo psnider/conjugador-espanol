@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esɣ̞loˈsaɾ]",
+    "silabacion": "des-glo-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desglosar","gerundio":["desglosando"],"participio":["desglosado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desgloso"],"s2":["desglosas"],"vos":["desglosás"],"s3":["desglosa"],"p1":["desglosamos"],"p2":["desglosáis"],"p3":["desglosan"]},
+    "IndImp": {"s1":["desglosaba"],"s2":["desglosabas"],"vos":["desglosabas"],"s3":["desglosaba"],"p1":["desglosábamos"],"p2":["desglosabais"],"p3":["desglosaban"]},
+    "IndPret": {"s1":["desglosé"],"s2":["desglosaste"],"vos":["desglosaste"],"s3":["desglosó"],"p1":["desglosamos"],"p2":["desglosasteis"],"p3":["desglosaron"]},
+    "IndFut": {"s1":["desglosaré"],"s2":["desglosarás"],"vos":["desglosarás"],"s3":["desglosará"],"p1":["desglosaremos"],"p2":["desglosaréis"],"p3":["desglosarán"]},
+    "IndCond": {"s1":["desglosaría"],"s2":["desglosarías"],"vos":["desglosarías"],"s3":["desglosaría"],"p1":["desglosaríamos"],"p2":["desglosaríais"],"p3":["desglosarían"]},
+    "SubPres": {"s1":["desglose"],"s2":["desgloses"],"vos":["desgloses","desglosés"],"s3":["desglose"],"p1":["desglosemos"],"p2":["desgloséis"],"p3":["desglosen"]},
+    "SubImp": {"s1":["desglosara","desglosase"],"s2":["desglosaras","desglosases"],"vos":["desglosaras","desglosases"],"s3":["desglosara","desglosase"],"p1":["desglosáramos","desglosásemos"],"p2":["desglosarais","desglosaseis"],"p3":["desglosaran","desglosasen"]},
+    "SubFut": {"s1":["desglosare"],"s2":["desglosares"],"vos":["desglosares"],"s3":["desglosare"],"p1":["desglosáremos"],"p2":["desglosareis"],"p3":["desglosaren"]},
+    "CmdPos": {"s2":["desglosa"],"vos":["desglosá"],"s3":["desglose"],"p1":["desglosemos"],"p2":["desglosad"],"p3":["desglosen"]}
+  }
+}

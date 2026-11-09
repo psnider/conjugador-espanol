@@ -35,7 +35,8 @@ const infinitivos_basicas = {
                   "saber", "salir", "seguir", "ser",
                   "tener", "traer", "vaciar", "venir", "ver", "volver"],
     basada_en_modelos: ["confiar"],
-    prefijos: [ "retener", "creer" ]
+    prefijos: [ "retener", "creer" ],
+    impersonal: [ "acaecer" ] 
 }
 
 

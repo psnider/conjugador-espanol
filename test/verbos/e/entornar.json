@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪oɾˈnaɾ]",
+    "silabacion": "en-tor-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en- y tornar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entornar","gerundio":["entornando"],"participio":["entornado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entorno"],"s2":["entornas"],"vos":["entornás"],"s3":["entorna"],"p1":["entornamos"],"p2":["entornáis"],"p3":["entornan"]},
+    "IndImp": {"s1":["entornaba"],"s2":["entornabas"],"vos":["entornabas"],"s3":["entornaba"],"p1":["entornábamos"],"p2":["entornabais"],"p3":["entornaban"]},
+    "IndPret": {"s1":["entorné"],"s2":["entornaste"],"vos":["entornaste"],"s3":["entornó"],"p1":["entornamos"],"p2":["entornasteis"],"p3":["entornaron"]},
+    "IndFut": {"s1":["entornaré"],"s2":["entornarás"],"vos":["entornarás"],"s3":["entornará"],"p1":["entornaremos"],"p2":["entornaréis"],"p3":["entornarán"]},
+    "IndCond": {"s1":["entornaría"],"s2":["entornarías"],"vos":["entornarías"],"s3":["entornaría"],"p1":["entornaríamos"],"p2":["entornaríais"],"p3":["entornarían"]},
+    "SubPres": {"s1":["entorne"],"s2":["entornes"],"vos":["entornes","entornés"],"s3":["entorne"],"p1":["entornemos"],"p2":["entornéis"],"p3":["entornen"]},
+    "SubImp": {"s1":["entornara","entornase"],"s2":["entornaras","entornases"],"vos":["entornaras","entornases"],"s3":["entornara","entornase"],"p1":["entornáramos","entornásemos"],"p2":["entornarais","entornaseis"],"p3":["entornaran","entornasen"]},
+    "SubFut": {"s1":["entornare"],"s2":["entornares"],"vos":["entornares"],"s3":["entornare"],"p1":["entornáremos"],"p2":["entornareis"],"p3":["entornaren"]},
+    "CmdPos": {"s2":["entorna"],"vos":["entorná"],"s3":["entorne"],"p1":["entornemos"],"p2":["entornad"],"p3":["entornen"]}
+  }
+}

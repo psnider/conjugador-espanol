@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾet̪eˈneɾ]",
+    "silabacion": "en-tre-te-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo entre- y tener.",
+    "modelos": ["entender","tener"]
+  },
+  "formas_no_personales": {"infinitivo":"entretener","gerundio":["entreteniendo"],"participio":["entretenido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entretengo"],"s2":["entretienes"],"vos":["entretenés"],"s3":["entretiene"],"p1":["entretenemos"],"p2":["entretenéis"],"p3":["entretienen"]},
+    "IndImp": {"s1":["entretenía"],"s2":["entretenías"],"vos":["entretenías"],"s3":["entretenía"],"p1":["entreteníamos"],"p2":["entreteníais"],"p3":["entretenían"]},
+    "IndPret": {"s1":["entretuve"],"s2":["entretuviste"],"vos":["entretuviste"],"s3":["entretuvo"],"p1":["entretuvimos"],"p2":["entretuvisteis"],"p3":["entretuvieron"]},
+    "IndFut": {"s1":["entretendré"],"s2":["entretendrás"],"vos":["entretendrás"],"s3":["entretendrá"],"p1":["entretendremos"],"p2":["entretendréis"],"p3":["entretendrán"]},
+    "IndCond": {"s1":["entretendría"],"s2":["entretendrías"],"vos":["entretendrías"],"s3":["entretendría"],"p1":["entretendríamos"],"p2":["entretendríais"],"p3":["entretendrían"]},
+    "SubPres": {"s1":["entretenga"],"s2":["entretengas"],"vos":["entretengas","entretengás"],"s3":["entretenga"],"p1":["entretengamos"],"p2":["entretengáis"],"p3":["entretengan"]},
+    "SubImp": {"s1":["entretuviera","entretuviese"],"s2":["entretuvieras","entretuvieses"],"vos":["entretuvieras","entretuvieses"],"s3":["entretuviera","entretuviese"],"p1":["entretuviéramos","entretuviésemos"],"p2":["entretuvierais","entretuvieseis"],"p3":["entretuvieran","entretuviesen"]},
+    "SubFut": {"s1":["entretuviere"],"s2":["entretuvieres"],"vos":["entretuvieres"],"s3":["entretuviere"],"p1":["entretuviéremos"],"p2":["entretuviereis"],"p3":["entretuvieren"]},
+    "CmdPos": {"s2":["entretén",{"forma":"entretiene","uso":"no normativo"}],"vos":["entretené"],"s3":["entretenga"],"p1":["entretengamos"],"p2":["entretened"],"p3":["entretengan"]}
+  }
+}

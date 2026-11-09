@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaˈmaɾ]",
+    "silabacion": "des-a-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y amar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desamar","gerundio":["desamando"],"participio":["desamado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desamo"],"s2":["desamas"],"vos":["desamás"],"s3":["desama"],"p1":["desamamos"],"p2":["desamáis"],"p3":["desaman"]},
+    "IndImp": {"s1":["desamaba"],"s2":["desamabas"],"vos":["desamabas"],"s3":["desamaba"],"p1":["desamábamos"],"p2":["desamabais"],"p3":["desamaban"]},
+    "IndPret": {"s1":["desamé"],"s2":["desamaste"],"vos":["desamaste"],"s3":["desamó"],"p1":["desamamos"],"p2":["desamasteis"],"p3":["desamaron"]},
+    "IndFut": {"s1":["desamaré"],"s2":["desamarás"],"vos":["desamarás"],"s3":["desamará"],"p1":["desamaremos"],"p2":["desamaréis"],"p3":["desamarán"]},
+    "IndCond": {"s1":["desamaría"],"s2":["desamarías"],"vos":["desamarías"],"s3":["desamaría"],"p1":["desamaríamos"],"p2":["desamaríais"],"p3":["desamarían"]},
+    "SubPres": {"s1":["desame"],"s2":["desames"],"vos":["desames","desamés"],"s3":["desame"],"p1":["desamemos"],"p2":["desaméis"],"p3":["desamen"]},
+    "SubImp": {"s1":["desamara","desamase"],"s2":["desamaras","desamases"],"vos":["desamaras","desamases"],"s3":["desamara","desamase"],"p1":["desamáramos","desamásemos"],"p2":["desamarais","desamaseis"],"p3":["desamaran","desamasen"]},
+    "SubFut": {"s1":["desamare"],"s2":["desamares"],"vos":["desamares"],"s3":["desamare"],"p1":["desamáremos"],"p2":["desamareis"],"p3":["desamaren"]},
+    "CmdPos": {"s2":["desama"],"vos":["desamá"],"s3":["desame"],"p1":["desamemos"],"p2":["desamad"],"p3":["desamen"]}
+  }
+}

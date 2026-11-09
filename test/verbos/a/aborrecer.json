@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aβ̞oreˈseɾ]",
+    "silabacion": "a-bo-rre-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín abhorrescere.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"aborrecer","gerundio":["aborreciendo"],"participio":["aborrecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aborrezco"],"s2":["aborreces"],"vos":["aborrecés"],"s3":["aborrece"],"p1":["aborrecemos"],"p2":["aborrecéis"],"p3":["aborrecen"]},
+    "IndImp": {"s1":["aborrecía"],"s2":["aborrecías"],"vos":["aborrecías"],"s3":["aborrecía"],"p1":["aborrecíamos"],"p2":["aborrecíais"],"p3":["aborrecían"]},
+    "IndPret": {"s1":["aborrecí"],"s2":["aborreciste"],"vos":["aborreciste"],"s3":["aborreció"],"p1":["aborrecimos"],"p2":["aborrecisteis"],"p3":["aborrecieron"]},
+    "IndFut": {"s1":["aborreceré"],"s2":["aborrecerás"],"vos":["aborrecerás"],"s3":["aborrecerá"],"p1":["aborreceremos"],"p2":["aborreceréis"],"p3":["aborrecerán"]},
+    "IndCond": {"s1":["aborrecería"],"s2":["aborrecerías"],"vos":["aborrecerías"],"s3":["aborrecería"],"p1":["aborreceríamos"],"p2":["aborreceríais"],"p3":["aborrecerían"]},
+    "SubPres": {"s1":["aborrezca"],"s2":["aborrezcas"],"vos":["aborrezcas","aborrezcás"],"s3":["aborrezca"],"p1":["aborrezcamos"],"p2":["aborrezcáis"],"p3":["aborrezcan"]},
+    "SubImp": {"s1":["aborreciera","aborreciese"],"s2":["aborrecieras","aborrecieses"],"vos":["aborrecieras","aborrecieses"],"s3":["aborreciera","aborreciese"],"p1":["aborreciéramos","aborreciésemos"],"p2":["aborrecierais","aborrecieseis"],"p3":["aborrecieran","aborreciesen"]},
+    "SubFut": {"s1":["aborreciere"],"s2":["aborrecieres"],"vos":["aborrecieres"],"s3":["aborreciere"],"p1":["aborreciéremos"],"p2":["aborreciereis"],"p3":["aborrecieren"]},
+    "CmdPos": {"s2":["aborrece"],"vos":["aborrecé"],"s3":["aborrezca"],"p1":["aborrezcamos"],"p2":["aborreced"],"p3":["aborrezcan"]}
+  }
+}

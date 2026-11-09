@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[iˈlaɾ]",
+    "silabacion": "hi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín filare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"hilar","gerundio":["hilando"],"participio":["hilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hilo"],"s2":["hilas"],"vos":["hilás"],"s3":["hila"],"p1":["hilamos"],"p2":["hiláis"],"p3":["hilan"]},
+    "IndImp": {"s1":["hilaba"],"s2":["hilabas"],"vos":["hilabas"],"s3":["hilaba"],"p1":["hilábamos"],"p2":["hilabais"],"p3":["hilaban"]},
+    "IndPret": {"s1":["hilé"],"s2":["hilaste"],"vos":["hilaste"],"s3":["hiló"],"p1":["hilamos"],"p2":["hilasteis"],"p3":["hilaron"]},
+    "IndFut": {"s1":["hilaré"],"s2":["hilarás"],"vos":["hilarás"],"s3":["hilará"],"p1":["hilaremos"],"p2":["hilaréis"],"p3":["hilarán"]},
+    "IndCond": {"s1":["hilaría"],"s2":["hilarías"],"vos":["hilarías"],"s3":["hilaría"],"p1":["hilaríamos"],"p2":["hilaríais"],"p3":["hilarían"]},
+    "SubPres": {"s1":["hile"],"s2":["hiles"],"vos":["hiles","hilés"],"s3":["hile"],"p1":["hilemos"],"p2":["hiléis"],"p3":["hilen"]},
+    "SubImp": {"s1":["hilara","hilase"],"s2":["hilaras","hilases"],"vos":["hilaras","hilases"],"s3":["hilara","hilase"],"p1":["hiláramos","hilásemos"],"p2":["hilarais","hilaseis"],"p3":["hilaran","hilasen"]},
+    "SubFut": {"s1":["hilare"],"s2":["hilares"],"vos":["hilares"],"s3":["hilare"],"p1":["hiláremos"],"p2":["hilareis"],"p3":["hilaren"]},
+    "CmdPos": {"s2":["hila"],"vos":["hilá"],"s3":["hile"],"p1":["hilemos"],"p2":["hilad"],"p3":["hilen"]}
+  }
+}

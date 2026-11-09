@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[palið̞eˈseɾ]",
+    "silabacion": "pa-li-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "De pálido y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"palidecer","gerundio":["palideciendo"],"participio":["palidecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["palidezco"],"s2":["palideces"],"vos":["palidecés"],"s3":["palidece"],"p1":["palidecemos"],"p2":["palidecéis"],"p3":["palidecen"]},
+    "IndImp": {"s1":["palidecía"],"s2":["palidecías"],"vos":["palidecías"],"s3":["palidecía"],"p1":["palidecíamos"],"p2":["palidecíais"],"p3":["palidecían"]},
+    "IndPret": {"s1":["palidecí"],"s2":["palideciste"],"vos":["palideciste"],"s3":["palideció"],"p1":["palidecimos"],"p2":["palidecisteis"],"p3":["palidecieron"]},
+    "IndFut": {"s1":["palideceré"],"s2":["palidecerás"],"vos":["palidecerás"],"s3":["palidecerá"],"p1":["palideceremos"],"p2":["palideceréis"],"p3":["palidecerán"]},
+    "IndCond": {"s1":["palidecería"],"s2":["palidecerías"],"vos":["palidecerías"],"s3":["palidecería"],"p1":["palideceríamos"],"p2":["palideceríais"],"p3":["palidecerían"]},
+    "SubPres": {"s1":["palidezca"],"s2":["palidezcas"],"vos":["palidezcas","palidezcás"],"s3":["palidezca"],"p1":["palidezcamos"],"p2":["palidezcáis"],"p3":["palidezcan"]},
+    "SubImp": {"s1":["palideciera","palideciese"],"s2":["palidecieras","palidecieses"],"vos":["palidecieras","palidecieses"],"s3":["palideciera","palideciese"],"p1":["palideciéramos","palideciésemos"],"p2":["palidecierais","palidecieseis"],"p3":["palidecieran","palideciesen"]},
+    "SubFut": {"s1":["palideciere"],"s2":["palidecieres"],"vos":["palidecieres"],"s3":["palideciere"],"p1":["palideciéremos"],"p2":["palideciereis"],"p3":["palidecieren"]},
+    "CmdPos": {"s2":["palidece"],"vos":["palidecé"],"s3":["palidezca"],"p1":["palidezcamos"],"p2":["palideced"],"p3":["palidezcan"]}
+  }
+}

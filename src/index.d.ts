@@ -151,9 +151,12 @@ interface VerbConjugationAnnotation {
 }
 
 
-export type Region = "Arg." | "C.Am." | "Col." | "Ur." | "Par." | "Riop."
+export type Region = "Arg." | "C.Am." | "Col." | "Ur." | "Par." | "Riop." | "Cono Sur"
+// Solo en participios.
+// adj: la forma preferida por adjetivos (pero también es participio normal)
+export type UsoDeParticipio = "adj"
 // Ya no incluye "no normativo", porque no contribuye información entendible.
-export type Uso = Region | "impersonal" | "arcaico" | "pre-2010"  
+export type Uso = Region | "impersonal" | "arcaico" | "no normativo" | "pre-2010" | UsoDeParticipio 
 
 
 // Para el subjuntivo de presente:

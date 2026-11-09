@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[areβ̞aˈt̪aɾ]",
+    "silabacion": "a-rre-ba-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y rebatar, de rebato.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrebatar","gerundio":["arrebatando"],"participio":["arrebatado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arrebato"],"s2":["arrebatas"],"vos":["arrebatás"],"s3":["arrebata"],"p1":["arrebatamos"],"p2":["arrebatáis"],"p3":["arrebatan"]},
+    "IndImp": {"s1":["arrebataba"],"s2":["arrebatabas"],"vos":["arrebatabas"],"s3":["arrebataba"],"p1":["arrebatábamos"],"p2":["arrebatabais"],"p3":["arrebataban"]},
+    "IndPret": {"s1":["arrebaté"],"s2":["arrebataste"],"vos":["arrebataste"],"s3":["arrebató"],"p1":["arrebatamos"],"p2":["arrebatasteis"],"p3":["arrebataron"]},
+    "IndFut": {"s1":["arrebataré"],"s2":["arrebatarás"],"vos":["arrebatarás"],"s3":["arrebatará"],"p1":["arrebataremos"],"p2":["arrebataréis"],"p3":["arrebatarán"]},
+    "IndCond": {"s1":["arrebataría"],"s2":["arrebatarías"],"vos":["arrebatarías"],"s3":["arrebataría"],"p1":["arrebataríamos"],"p2":["arrebataríais"],"p3":["arrebatarían"]},
+    "SubPres": {"s1":["arrebate"],"s2":["arrebates"],"vos":["arrebates","arrebatés"],"s3":["arrebate"],"p1":["arrebatemos"],"p2":["arrebatéis"],"p3":["arrebaten"]},
+    "SubImp": {"s1":["arrebatara","arrebatase"],"s2":["arrebataras","arrebatases"],"vos":["arrebataras","arrebatases"],"s3":["arrebatara","arrebatase"],"p1":["arrebatáramos","arrebatásemos"],"p2":["arrebatarais","arrebataseis"],"p3":["arrebataran","arrebatasen"]},
+    "SubFut": {"s1":["arrebatare"],"s2":["arrebatares"],"vos":["arrebatares"],"s3":["arrebatare"],"p1":["arrebatáremos"],"p2":["arrebatareis"],"p3":["arrebataren"]},
+    "CmdPos": {"s2":["arrebata"],"vos":["arrebatá"],"s3":["arrebate"],"p1":["arrebatemos"],"p2":["arrebatad"],"p3":["arrebaten"]}
+  }
+}

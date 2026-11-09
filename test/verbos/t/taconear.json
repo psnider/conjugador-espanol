@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪akoneˈaɾ]",
+    "silabacion": "ta-co-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De tacón y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"taconear","gerundio":["taconeando"],"participio":["taconeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["taconeo"],"s2":["taconeas"],"vos":["taconeás"],"s3":["taconea"],"p1":["taconeamos"],"p2":["taconeáis"],"p3":["taconean"]},
+    "IndImp": {"s1":["taconeaba"],"s2":["taconeabas"],"vos":["taconeabas"],"s3":["taconeaba"],"p1":["taconeábamos"],"p2":["taconeabais"],"p3":["taconeaban"]},
+    "IndPret": {"s1":["taconeé"],"s2":["taconeaste"],"vos":["taconeaste"],"s3":["taconeó"],"p1":["taconeamos"],"p2":["taconeasteis"],"p3":["taconearon"]},
+    "IndFut": {"s1":["taconearé"],"s2":["taconearás"],"vos":["taconearás"],"s3":["taconeará"],"p1":["taconearemos"],"p2":["taconearéis"],"p3":["taconearán"]},
+    "IndCond": {"s1":["taconearía"],"s2":["taconearías"],"vos":["taconearías"],"s3":["taconearía"],"p1":["taconearíamos"],"p2":["taconearíais"],"p3":["taconearían"]},
+    "SubPres": {"s1":["taconee"],"s2":["taconees"],"vos":["taconees","taconeés"],"s3":["taconee"],"p1":["taconeemos"],"p2":["taconeéis"],"p3":["taconeen"]},
+    "SubImp": {"s1":["taconeara","taconease"],"s2":["taconearas","taconeases"],"vos":["taconearas","taconeases"],"s3":["taconeara","taconease"],"p1":["taconeáramos","taconeásemos"],"p2":["taconearais","taconeaseis"],"p3":["taconearan","taconeasen"]},
+    "SubFut": {"s1":["taconeare"],"s2":["taconeares"],"vos":["taconeares"],"s3":["taconeare"],"p1":["taconeáremos"],"p2":["taconeareis"],"p3":["taconearen"]},
+    "CmdPos": {"s2":["taconea"],"vos":["taconeá"],"s3":["taconee"],"p1":["taconeemos"],"p2":["taconead"],"p3":["taconeen"]}
+  }
+}

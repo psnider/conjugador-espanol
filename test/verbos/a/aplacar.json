@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aplaˈkaɾ]",
+    "silabacion": "a-pla-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín placare.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"aplacar","gerundio":["aplacando"],"participio":["aplacado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aplaco"],"s2":["aplacas"],"vos":["aplacás"],"s3":["aplaca"],"p1":["aplacamos"],"p2":["aplacáis"],"p3":["aplacan"]},
+    "IndImp": {"s1":["aplacaba"],"s2":["aplacabas"],"vos":["aplacabas"],"s3":["aplacaba"],"p1":["aplacábamos"],"p2":["aplacabais"],"p3":["aplacaban"]},
+    "IndPret": {"s1":["aplaqué"],"s2":["aplacaste"],"vos":["aplacaste"],"s3":["aplacó"],"p1":["aplacamos"],"p2":["aplacasteis"],"p3":["aplacaron"]},
+    "IndFut": {"s1":["aplacaré"],"s2":["aplacarás"],"vos":["aplacarás"],"s3":["aplacará"],"p1":["aplacaremos"],"p2":["aplacaréis"],"p3":["aplacarán"]},
+    "IndCond": {"s1":["aplacaría"],"s2":["aplacarías"],"vos":["aplacarías"],"s3":["aplacaría"],"p1":["aplacaríamos"],"p2":["aplacaríais"],"p3":["aplacarían"]},
+    "SubPres": {"s1":["aplaque"],"s2":["aplaques"],"vos":["aplaques","aplaqués"],"s3":["aplaque"],"p1":["aplaquemos"],"p2":["aplaquéis"],"p3":["aplaquen"]},
+    "SubImp": {"s1":["aplacara","aplacase"],"s2":["aplacaras","aplacases"],"vos":["aplacaras","aplacases"],"s3":["aplacara","aplacase"],"p1":["aplacáramos","aplacásemos"],"p2":["aplacarais","aplacaseis"],"p3":["aplacaran","aplacasen"]},
+    "SubFut": {"s1":["aplacare"],"s2":["aplacares"],"vos":["aplacares"],"s3":["aplacare"],"p1":["aplacáremos"],"p2":["aplacareis"],"p3":["aplacaren"]},
+    "CmdPos": {"s2":["aplaca"],"vos":["aplacá"],"s3":["aplaque"],"p1":["aplaquemos"],"p2":["aplacad"],"p3":["aplaquen"]}
+  }
+}

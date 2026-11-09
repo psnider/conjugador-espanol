@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esreɣ̞uˈlaɾ]",
+    "silabacion": "des-re-gu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y regular.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desregular","gerundio":["desregulando"],"participio":["desregulado"]},
+  "formas_personales": {
+    "IndPres": {},
+    "IndImp": {},
+    "IndPret": {},
+    "IndFut": {},
+    "IndCond": {},
+    "SubPres": {},
+    "SubImp": {},
+    "SubFut": {},
+    "CmdPos": {}
+  }
+}

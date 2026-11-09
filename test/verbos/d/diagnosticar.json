@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪jaɣ̞nost̪iˈkaɾ]",
+    "silabacion": "diag-nos-ti-car",
+    "acentuacion": "aguda",
+    "etimologia": "De diagnóstico",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"diagnosticar","gerundio":["diagnosticando"],"participio":["diagnosticado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["diagnostico"],"s2":["diagnosticas"],"vos":["diagnosticás"],"s3":["diagnostica"],"p1":["diagnosticamos"],"p2":["diagnosticáis"],"p3":["diagnostican"]},
+    "IndImp": {"s1":["diagnosticaba"],"s2":["diagnosticabas"],"vos":["diagnosticabas"],"s3":["diagnosticaba"],"p1":["diagnosticábamos"],"p2":["diagnosticabais"],"p3":["diagnosticaban"]},
+    "IndPret": {"s1":["diagnostiqué"],"s2":["diagnosticaste"],"vos":["diagnosticaste"],"s3":["diagnosticó"],"p1":["diagnosticamos"],"p2":["diagnosticasteis"],"p3":["diagnosticaron"]},
+    "IndFut": {"s1":["diagnosticaré"],"s2":["diagnosticarás"],"vos":["diagnosticarás"],"s3":["diagnosticará"],"p1":["diagnosticaremos"],"p2":["diagnosticaréis"],"p3":["diagnosticarán"]},
+    "IndCond": {"s1":["diagnosticaría"],"s2":["diagnosticarías"],"vos":["diagnosticarías"],"s3":["diagnosticaría"],"p1":["diagnosticaríamos"],"p2":["diagnosticaríais"],"p3":["diagnosticarían"]},
+    "SubPres": {"s1":["diagnostique"],"s2":["diagnostiques"],"vos":["diagnostiques","diagnostiqués"],"s3":["diagnostique"],"p1":["diagnostiquemos"],"p2":["diagnostiquéis"],"p3":["diagnostiquen"]},
+    "SubImp": {"s1":["diagnosticara","diagnosticase"],"s2":["diagnosticaras","diagnosticases"],"vos":["diagnosticaras","diagnosticases"],"s3":["diagnosticara","diagnosticase"],"p1":["diagnosticáramos","diagnosticásemos"],"p2":["diagnosticarais","diagnosticaseis"],"p3":["diagnosticaran","diagnosticasen"]},
+    "SubFut": {"s1":["diagnosticare"],"s2":["diagnosticares"],"vos":["diagnosticares"],"s3":["diagnosticare"],"p1":["diagnosticáremos"],"p2":["diagnosticareis"],"p3":["diagnosticaren"]},
+    "CmdPos": {"s2":["diagnostica"],"vos":["diagnosticá"],"s3":["diagnostique"],"p1":["diagnostiquemos"],"p2":["diagnosticad"],"p3":["diagnostiquen"]}
+  }
+}

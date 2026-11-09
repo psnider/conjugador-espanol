@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paˈɾiɾ]",
+    "silabacion": "pa-rir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín parere.",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"parir","gerundio":["pariendo"],"participio":["parido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["paro"],"s2":["pares"],"vos":["parís"],"s3":["pare"],"p1":["parimos"],"p2":["parís"],"p3":["paren"]},
+    "IndImp": {"s1":["paría"],"s2":["parías"],"vos":["parías"],"s3":["paría"],"p1":["paríamos"],"p2":["paríais"],"p3":["parían"]},
+    "IndPret": {"s1":["parí"],"s2":["pariste"],"vos":["pariste"],"s3":["parió"],"p1":["parimos"],"p2":["paristeis"],"p3":["parieron"]},
+    "IndFut": {"s1":["pariré"],"s2":["parirás"],"vos":["parirás"],"s3":["parirá"],"p1":["pariremos"],"p2":["pariréis"],"p3":["parirán"]},
+    "IndCond": {"s1":["pariría"],"s2":["parirías"],"vos":["parirías"],"s3":["pariría"],"p1":["pariríamos"],"p2":["pariríais"],"p3":["parirían"]},
+    "SubPres": {"s1":["para"],"s2":["paras"],"vos":["paras","parás"],"s3":["para"],"p1":["paramos"],"p2":["paráis"],"p3":["paran"]},
+    "SubImp": {"s1":["pariera","pariese"],"s2":["parieras","parieses"],"vos":["parieras","parieses"],"s3":["pariera","pariese"],"p1":["pariéramos","pariésemos"],"p2":["parierais","parieseis"],"p3":["parieran","pariesen"]},
+    "SubFut": {"s1":["pariere"],"s2":["parieres"],"vos":["parieres"],"s3":["pariere"],"p1":["pariéremos"],"p2":["pariereis"],"p3":["parieren"]},
+    "CmdPos": {"s2":["pare"],"vos":["parí"],"s3":["para"],"p1":["paramos"],"p2":["parid"],"p3":["paran"]}
+  }
+}

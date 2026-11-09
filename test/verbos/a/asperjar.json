@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aspeɾˈxaɾ]",
+    "silabacion": "as-per-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asperjar","gerundio":["asperjando"],"participio":["asperjado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asperjo"],"s2":["asperjas"],"vos":["asperjás"],"s3":["asperja"],"p1":["asperjamos"],"p2":["asperjáis"],"p3":["asperjan"]},
+    "IndImp": {"s1":["asperjaba"],"s2":["asperjabas"],"vos":["asperjabas"],"s3":["asperjaba"],"p1":["asperjábamos"],"p2":["asperjabais"],"p3":["asperjaban"]},
+    "IndPret": {"s1":["asperjé"],"s2":["asperjaste"],"vos":["asperjaste"],"s3":["asperjó"],"p1":["asperjamos"],"p2":["asperjasteis"],"p3":["asperjaron"]},
+    "IndFut": {"s1":["asperjaré"],"s2":["asperjarás"],"vos":["asperjarás"],"s3":["asperjará"],"p1":["asperjaremos"],"p2":["asperjaréis"],"p3":["asperjarán"]},
+    "IndCond": {"s1":["asperjaría"],"s2":["asperjarías"],"vos":["asperjarías"],"s3":["asperjaría"],"p1":["asperjaríamos"],"p2":["asperjaríais"],"p3":["asperjarían"]},
+    "SubPres": {"s1":["asperje"],"s2":["asperjes"],"vos":["asperjes","asperjés"],"s3":["asperje"],"p1":["asperjemos"],"p2":["asperjéis"],"p3":["asperjen"]},
+    "SubImp": {"s1":["asperjara","asperjase"],"s2":["asperjaras","asperjases"],"vos":["asperjaras","asperjases"],"s3":["asperjara","asperjase"],"p1":["asperjáramos","asperjásemos"],"p2":["asperjarais","asperjaseis"],"p3":["asperjaran","asperjasen"]},
+    "SubFut": {"s1":["asperjare"],"s2":["asperjares"],"vos":["asperjares"],"s3":["asperjare"],"p1":["asperjáremos"],"p2":["asperjareis"],"p3":["asperjaren"]},
+    "CmdPos": {"s2":["asperja"],"vos":["asperjá"],"s3":["asperje"],"p1":["asperjemos"],"p2":["asperjad"],"p3":["asperjen"]}
+  }
+}

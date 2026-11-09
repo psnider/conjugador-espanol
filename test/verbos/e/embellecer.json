@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbeʝeˈseɾ]",
+    "silabacion": "em-be-lle-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo em-, bello y el sufijo -ecer",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"embellecer","gerundio":["embelleciendo"],"participio":["embellecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["embellezco"],"s2":["embelleces"],"vos":["embellecés"],"s3":["embellece"],"p1":["embellecemos"],"p2":["embellecéis"],"p3":["embellecen"]},
+    "IndImp": {"s1":["embellecía"],"s2":["embellecías"],"vos":["embellecías"],"s3":["embellecía"],"p1":["embellecíamos"],"p2":["embellecíais"],"p3":["embellecían"]},
+    "IndPret": {"s1":["embellecí"],"s2":["embelleciste"],"vos":["embelleciste"],"s3":["embelleció"],"p1":["embellecimos"],"p2":["embellecisteis"],"p3":["embellecieron"]},
+    "IndFut": {"s1":["embelleceré"],"s2":["embellecerás"],"vos":["embellecerás"],"s3":["embellecerá"],"p1":["embelleceremos"],"p2":["embelleceréis"],"p3":["embellecerán"]},
+    "IndCond": {"s1":["embellecería"],"s2":["embellecerías"],"vos":["embellecerías"],"s3":["embellecería"],"p1":["embelleceríamos"],"p2":["embelleceríais"],"p3":["embellecerían"]},
+    "SubPres": {"s1":["embellezca"],"s2":["embellezcas"],"vos":["embellezcas","embellezcás"],"s3":["embellezca"],"p1":["embellezcamos"],"p2":["embellezcáis"],"p3":["embellezcan"]},
+    "SubImp": {"s1":["embelleciera","embelleciese"],"s2":["embellecieras","embellecieses"],"vos":["embellecieras","embellecieses"],"s3":["embelleciera","embelleciese"],"p1":["embelleciéramos","embelleciésemos"],"p2":["embellecierais","embellecieseis"],"p3":["embellecieran","embelleciesen"]},
+    "SubFut": {"s1":["embelleciere"],"s2":["embellecieres"],"vos":["embellecieres"],"s3":["embelleciere"],"p1":["embelleciéremos"],"p2":["embelleciereis"],"p3":["embellecieren"]},
+    "CmdPos": {"s2":["embellece"],"vos":["embellecé"],"s3":["embellezca"],"p1":["embellezcamos"],"p2":["embelleced"],"p3":["embellezcan"]}
+  }
+}

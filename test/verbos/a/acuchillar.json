@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akut͡ʃiˈʝaɾ]",
+    "silabacion": "a-cu-chi-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, cuchillo y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acuchillar","gerundio":["acuchillando"],"participio":["acuchillado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acuchillo"],"s2":["acuchillas"],"vos":["acuchillás"],"s3":["acuchilla"],"p1":["acuchillamos"],"p2":["acuchilláis"],"p3":["acuchillan"]},
+    "IndImp": {"s1":["acuchillaba"],"s2":["acuchillabas"],"vos":["acuchillabas"],"s3":["acuchillaba"],"p1":["acuchillábamos"],"p2":["acuchillabais"],"p3":["acuchillaban"]},
+    "IndPret": {"s1":["acuchillé"],"s2":["acuchillaste"],"vos":["acuchillaste"],"s3":["acuchilló"],"p1":["acuchillamos"],"p2":["acuchillasteis"],"p3":["acuchillaron"]},
+    "IndFut": {"s1":["acuchillaré"],"s2":["acuchillarás"],"vos":["acuchillarás"],"s3":["acuchillará"],"p1":["acuchillaremos"],"p2":["acuchillaréis"],"p3":["acuchillarán"]},
+    "IndCond": {"s1":["acuchillaría"],"s2":["acuchillarías"],"vos":["acuchillarías"],"s3":["acuchillaría"],"p1":["acuchillaríamos"],"p2":["acuchillaríais"],"p3":["acuchillarían"]},
+    "SubPres": {"s1":["acuchille"],"s2":["acuchilles"],"vos":["acuchilles","acuchillés"],"s3":["acuchille"],"p1":["acuchillemos"],"p2":["acuchilléis"],"p3":["acuchillen"]},
+    "SubImp": {"s1":["acuchillara","acuchillase"],"s2":["acuchillaras","acuchillases"],"vos":["acuchillaras","acuchillases"],"s3":["acuchillara","acuchillase"],"p1":["acuchilláramos","acuchillásemos"],"p2":["acuchillarais","acuchillaseis"],"p3":["acuchillaran","acuchillasen"]},
+    "SubFut": {"s1":["acuchillare"],"s2":["acuchillares"],"vos":["acuchillares"],"s3":["acuchillare"],"p1":["acuchilláremos"],"p2":["acuchillareis"],"p3":["acuchillaren"]},
+    "CmdPos": {"s2":["acuchilla"],"vos":["acuchillá"],"s3":["acuchille"],"p1":["acuchillemos"],"p2":["acuchillad"],"p3":["acuchillen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kãŋxeˈaɾ]",
+    "silabacion": "can-je-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del italiano cangiare ('cambiar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"canjear","gerundio":["canjeando"],"participio":["canjeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["canjeo"],"s2":["canjeas"],"vos":["canjeás"],"s3":["canjea"],"p1":["canjeamos"],"p2":["canjeáis"],"p3":["canjean"]},
+    "IndImp": {"s1":["canjeaba"],"s2":["canjeabas"],"vos":["canjeabas"],"s3":["canjeaba"],"p1":["canjeábamos"],"p2":["canjeabais"],"p3":["canjeaban"]},
+    "IndPret": {"s1":["canjeé"],"s2":["canjeaste"],"vos":["canjeaste"],"s3":["canjeó"],"p1":["canjeamos"],"p2":["canjeasteis"],"p3":["canjearon"]},
+    "IndFut": {"s1":["canjearé"],"s2":["canjearás"],"vos":["canjearás"],"s3":["canjeará"],"p1":["canjearemos"],"p2":["canjearéis"],"p3":["canjearán"]},
+    "IndCond": {"s1":["canjearía"],"s2":["canjearías"],"vos":["canjearías"],"s3":["canjearía"],"p1":["canjearíamos"],"p2":["canjearíais"],"p3":["canjearían"]},
+    "SubPres": {"s1":["canjee"],"s2":["canjees"],"vos":["canjees","canjeés"],"s3":["canjee"],"p1":["canjeemos"],"p2":["canjeéis"],"p3":["canjeen"]},
+    "SubImp": {"s1":["canjeara","canjease"],"s2":["canjearas","canjeases"],"vos":["canjearas","canjeases"],"s3":["canjeara","canjease"],"p1":["canjeáramos","canjeásemos"],"p2":["canjearais","canjeaseis"],"p3":["canjearan","canjeasen"]},
+    "SubFut": {"s1":["canjeare"],"s2":["canjeares"],"vos":["canjeares"],"s3":["canjeare"],"p1":["canjeáremos"],"p2":["canjeareis"],"p3":["canjearen"]},
+    "CmdPos": {"s2":["canjea"],"vos":["canjeá"],"s3":["canjee"],"p1":["canjeemos"],"p2":["canjead"],"p3":["canjeen"]}
+  }
+}

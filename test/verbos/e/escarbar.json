@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskaɾˈβ̞aɾ]",
+    "silabacion": "es-car-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del castellano antiguo escarvar, del latín scarīfāre, y este de scabere o bien del griego antiguo σκάριφος.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"escarbar","gerundio":["escarbando"],"participio":["escarbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["escarbo"],"s2":["escarbas"],"vos":["escarbás"],"s3":["escarba"],"p1":["escarbamos"],"p2":["escarbáis"],"p3":["escarban"]},
+    "IndImp": {"s1":["escarbaba"],"s2":["escarbabas"],"vos":["escarbabas"],"s3":["escarbaba"],"p1":["escarbábamos"],"p2":["escarbabais"],"p3":["escarbaban"]},
+    "IndPret": {"s1":["escarbé"],"s2":["escarbaste"],"vos":["escarbaste"],"s3":["escarbó"],"p1":["escarbamos"],"p2":["escarbasteis"],"p3":["escarbaron"]},
+    "IndFut": {"s1":["escarbaré"],"s2":["escarbarás"],"vos":["escarbarás"],"s3":["escarbará"],"p1":["escarbaremos"],"p2":["escarbaréis"],"p3":["escarbarán"]},
+    "IndCond": {"s1":["escarbaría"],"s2":["escarbarías"],"vos":["escarbarías"],"s3":["escarbaría"],"p1":["escarbaríamos"],"p2":["escarbaríais"],"p3":["escarbarían"]},
+    "SubPres": {"s1":["escarbe"],"s2":["escarbes"],"vos":["escarbes","escarbés"],"s3":["escarbe"],"p1":["escarbemos"],"p2":["escarbéis"],"p3":["escarben"]},
+    "SubImp": {"s1":["escarbara","escarbase"],"s2":["escarbaras","escarbases"],"vos":["escarbaras","escarbases"],"s3":["escarbara","escarbase"],"p1":["escarbáramos","escarbásemos"],"p2":["escarbarais","escarbaseis"],"p3":["escarbaran","escarbasen"]},
+    "SubFut": {"s1":["escarbare"],"s2":["escarbares"],"vos":["escarbares"],"s3":["escarbare"],"p1":["escarbáremos"],"p2":["escarbareis"],"p3":["escarbaren"]},
+    "CmdPos": {"s2":["escarba"],"vos":["escarbá"],"s3":["escarbe"],"p1":["escarbemos"],"p2":["escarbad"],"p3":["escarben"]}
+  }
+}

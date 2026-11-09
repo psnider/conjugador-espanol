@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[remolineˈaɾ]",
+    "silabacion": "re-mo-li-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"remolinear","gerundio":["remolineando"],"participio":["remolineado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["remolineo"],"s2":["remolineas"],"vos":["remolineás"],"s3":["remolinea"],"p1":["remolineamos"],"p2":["remolineáis"],"p3":["remolinean"]},
+    "IndImp": {"s1":["remolineaba"],"s2":["remolineabas"],"vos":["remolineabas"],"s3":["remolineaba"],"p1":["remolineábamos"],"p2":["remolineabais"],"p3":["remolineaban"]},
+    "IndPret": {"s1":["remolineé"],"s2":["remolineaste"],"vos":["remolineaste"],"s3":["remolineó"],"p1":["remolineamos"],"p2":["remolineasteis"],"p3":["remolinearon"]},
+    "IndFut": {"s1":["remolinearé"],"s2":["remolinearás"],"vos":["remolinearás"],"s3":["remolineará"],"p1":["remolinearemos"],"p2":["remolinearéis"],"p3":["remolinearán"]},
+    "IndCond": {"s1":["remolinearía"],"s2":["remolinearías"],"vos":["remolinearías"],"s3":["remolinearía"],"p1":["remolinearíamos"],"p2":["remolinearíais"],"p3":["remolinearían"]},
+    "SubPres": {"s1":["remolinee"],"s2":["remolinees"],"vos":["remolinees","remolineés"],"s3":["remolinee"],"p1":["remolineemos"],"p2":["remolineéis"],"p3":["remolineen"]},
+    "SubImp": {"s1":["remolineara","remolinease"],"s2":["remolinearas","remolineases"],"vos":["remolinearas","remolineases"],"s3":["remolineara","remolinease"],"p1":["remolineáramos","remolineásemos"],"p2":["remolinearais","remolineaseis"],"p3":["remolinearan","remolineasen"]},
+    "SubFut": {"s1":["remolineare"],"s2":["remolineares"],"vos":["remolineares"],"s3":["remolineare"],"p1":["remolineáremos"],"p2":["remolineareis"],"p3":["remolinearen"]},
+    "CmdPos": {"s2":["remolinea"],"vos":["remolineá"],"s3":["remolinee"],"p1":["remolineemos"],"p2":["remolinead"],"p3":["remolineen"]}
+  }
+}

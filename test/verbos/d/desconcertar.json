@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõnseɾˈt̪aɾ]",
+    "silabacion": "des-con-cer-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconcertar","gerundio":["desconcertando"],"participio":["desconcertado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desconcierto"],"s2":["desconciertas"],"vos":["desconcertás"],"s3":["desconcierta"],"p1":["desconcertamos"],"p2":["desconcertáis"],"p3":["desconciertan"]},
+    "IndImp": {"s1":["desconcertaba"],"s2":["desconcertabas"],"vos":["desconcertabas"],"s3":["desconcertaba"],"p1":["desconcertábamos"],"p2":["desconcertabais"],"p3":["desconcertaban"]},
+    "IndPret": {"s1":["desconcerté"],"s2":["desconcertaste"],"vos":["desconcertaste"],"s3":["desconcertó"],"p1":["desconcertamos"],"p2":["desconcertasteis"],"p3":["desconcertaron"]},
+    "IndFut": {"s1":["desconcertaré"],"s2":["desconcertarás"],"vos":["desconcertarás"],"s3":["desconcertará"],"p1":["desconcertaremos"],"p2":["desconcertaréis"],"p3":["desconcertarán"]},
+    "IndCond": {"s1":["desconcertaría"],"s2":["desconcertarías"],"vos":["desconcertarías"],"s3":["desconcertaría"],"p1":["desconcertaríamos"],"p2":["desconcertaríais"],"p3":["desconcertarían"]},
+    "SubPres": {"s1":["desconcierte"],"s2":["desconciertes"],"vos":["desconciertes","desconcertés"],"s3":["desconcierte"],"p1":["desconcertemos"],"p2":["desconcertéis"],"p3":["desconcierten"]},
+    "SubImp": {"s1":["desconcertara","desconcertase"],"s2":["desconcertaras","desconcertases"],"vos":["desconcertaras","desconcertases"],"s3":["desconcertara","desconcertase"],"p1":["desconcertáramos","desconcertásemos"],"p2":["desconcertarais","desconcertaseis"],"p3":["desconcertaran","desconcertasen"]},
+    "SubFut": {"s1":["desconcertare"],"s2":["desconcertares"],"vos":["desconcertares"],"s3":["desconcertare"],"p1":["desconcertáremos"],"p2":["desconcertareis"],"p3":["desconcertaren"]},
+    "CmdPos": {"s2":["desconcierta"],"vos":["desconcertá"],"s3":["desconcierte"],"p1":["desconcertemos"],"p2":["desconcertad"],"p3":["desconcierten"]}
+  }
+}

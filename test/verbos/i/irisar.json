@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[iɾiˈsaɾ]",
+    "silabacion": "i-ri-sar",
+    "acentuacion": "aguda",
+    "etimologia": "De iris y el sufijo -izar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"irisar","gerundio":["irisando"],"participio":["irisado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["iriso"],"s2":["irisas"],"vos":["irisás"],"s3":["irisa"],"p1":["irisamos"],"p2":["irisáis"],"p3":["irisan"]},
+    "IndImp": {"s1":["irisaba"],"s2":["irisabas"],"vos":["irisabas"],"s3":["irisaba"],"p1":["irisábamos"],"p2":["irisabais"],"p3":["irisaban"]},
+    "IndPret": {"s1":["irisé"],"s2":["irisaste"],"vos":["irisaste"],"s3":["irisó"],"p1":["irisamos"],"p2":["irisasteis"],"p3":["irisaron"]},
+    "IndFut": {"s1":["irisaré"],"s2":["irisarás"],"vos":["irisarás"],"s3":["irisará"],"p1":["irisaremos"],"p2":["irisaréis"],"p3":["irisarán"]},
+    "IndCond": {"s1":["irisaría"],"s2":["irisarías"],"vos":["irisarías"],"s3":["irisaría"],"p1":["irisaríamos"],"p2":["irisaríais"],"p3":["irisarían"]},
+    "SubPres": {"s1":["irise"],"s2":["irises"],"vos":["irises","irisés"],"s3":["irise"],"p1":["irisemos"],"p2":["iriséis"],"p3":["irisen"]},
+    "SubImp": {"s1":["irisara","irisase"],"s2":["irisaras","irisases"],"vos":["irisaras","irisases"],"s3":["irisara","irisase"],"p1":["irisáramos","irisásemos"],"p2":["irisarais","irisaseis"],"p3":["irisaran","irisasen"]},
+    "SubFut": {"s1":["irisare"],"s2":["irisares"],"vos":["irisares"],"s3":["irisare"],"p1":["irisáremos"],"p2":["irisareis"],"p3":["irisaren"]},
+    "CmdPos": {"s2":["irisa"],"vos":["irisá"],"s3":["irise"],"p1":["irisemos"],"p2":["irisad"],"p3":["irisen"]}
+  }
+}

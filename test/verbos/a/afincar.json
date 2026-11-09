@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[afĩŋˈkaɾ]",
+    "silabacion": "a-fin-car",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"afincar","gerundio":["afincando"],"participio":["afincado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["afinco"],"s2":["afincas"],"vos":["afincás"],"s3":["afinca"],"p1":["afincamos"],"p2":["afincáis"],"p3":["afincan"]},
+    "IndImp": {"s1":["afincaba"],"s2":["afincabas"],"vos":["afincabas"],"s3":["afincaba"],"p1":["afincábamos"],"p2":["afincabais"],"p3":["afincaban"]},
+    "IndPret": {"s1":["afinqué"],"s2":["afincaste"],"vos":["afincaste"],"s3":["afincó"],"p1":["afincamos"],"p2":["afincasteis"],"p3":["afincaron"]},
+    "IndFut": {"s1":["afincaré"],"s2":["afincarás"],"vos":["afincarás"],"s3":["afincará"],"p1":["afincaremos"],"p2":["afincaréis"],"p3":["afincarán"]},
+    "IndCond": {"s1":["afincaría"],"s2":["afincarías"],"vos":["afincarías"],"s3":["afincaría"],"p1":["afincaríamos"],"p2":["afincaríais"],"p3":["afincarían"]},
+    "SubPres": {"s1":["afinque"],"s2":["afinques"],"vos":["afinques","afinqués"],"s3":["afinque"],"p1":["afinquemos"],"p2":["afinquéis"],"p3":["afinquen"]},
+    "SubImp": {"s1":["afincara","afincase"],"s2":["afincaras","afincases"],"vos":["afincaras","afincases"],"s3":["afincara","afincase"],"p1":["afincáramos","afincásemos"],"p2":["afincarais","afincaseis"],"p3":["afincaran","afincasen"]},
+    "SubFut": {"s1":["afincare"],"s2":["afincares"],"vos":["afincares"],"s3":["afincare"],"p1":["afincáremos"],"p2":["afincareis"],"p3":["afincaren"]},
+    "CmdPos": {"s2":["afinca"],"vos":["afincá"],"s3":["afinque"],"p1":["afinquemos"],"p2":["afincad"],"p3":["afinquen"]}
+  }
+}

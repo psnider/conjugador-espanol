@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ãn̪t̪eˈaɾ]",
+    "silabacion": "tan-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De tanto y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tantear","gerundio":["tanteando"],"participio":["tanteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tanteo"],"s2":["tanteas"],"vos":["tanteás"],"s3":["tantea"],"p1":["tanteamos"],"p2":["tanteáis"],"p3":["tantean"]},
+    "IndImp": {"s1":["tanteaba"],"s2":["tanteabas"],"vos":["tanteabas"],"s3":["tanteaba"],"p1":["tanteábamos"],"p2":["tanteabais"],"p3":["tanteaban"]},
+    "IndPret": {"s1":["tanteé"],"s2":["tanteaste"],"vos":["tanteaste"],"s3":["tanteó"],"p1":["tanteamos"],"p2":["tanteasteis"],"p3":["tantearon"]},
+    "IndFut": {"s1":["tantearé"],"s2":["tantearás"],"vos":["tantearás"],"s3":["tanteará"],"p1":["tantearemos"],"p2":["tantearéis"],"p3":["tantearán"]},
+    "IndCond": {"s1":["tantearía"],"s2":["tantearías"],"vos":["tantearías"],"s3":["tantearía"],"p1":["tantearíamos"],"p2":["tantearíais"],"p3":["tantearían"]},
+    "SubPres": {"s1":["tantee"],"s2":["tantees"],"vos":["tantees","tanteés"],"s3":["tantee"],"p1":["tanteemos"],"p2":["tanteéis"],"p3":["tanteen"]},
+    "SubImp": {"s1":["tanteara","tantease"],"s2":["tantearas","tanteases"],"vos":["tantearas","tanteases"],"s3":["tanteara","tantease"],"p1":["tanteáramos","tanteásemos"],"p2":["tantearais","tanteaseis"],"p3":["tantearan","tanteasen"]},
+    "SubFut": {"s1":["tanteare"],"s2":["tanteares"],"vos":["tanteares"],"s3":["tanteare"],"p1":["tanteáremos"],"p2":["tanteareis"],"p3":["tantearen"]},
+    "CmdPos": {"s2":["tantea"],"vos":["tanteá"],"s3":["tantee"],"p1":["tanteemos"],"p2":["tantead"],"p3":["tanteen"]}
+  }
+}

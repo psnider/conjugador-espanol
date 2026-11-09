@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rest̪ɾeˈɣ̞aɾ]",
+    "silabacion": "res-tre-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y estregar.",
+    "modelos": ["llegar","pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"restregar","gerundio":["restregando"],"participio":["restregado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["restriego"],"s2":["restriegas"],"vos":["restregás"],"s3":["restriega"],"p1":["restregamos"],"p2":["restregáis"],"p3":["restriegan"]},
+    "IndImp": {"s1":["restregaba"],"s2":["restregabas"],"vos":["restregabas"],"s3":["restregaba"],"p1":["restregábamos"],"p2":["restregabais"],"p3":["restregaban"]},
+    "IndPret": {"s1":["restregué"],"s2":["restregaste"],"vos":["restregaste"],"s3":["restregó"],"p1":["restregamos"],"p2":["restregasteis"],"p3":["restregaron"]},
+    "IndFut": {"s1":["restregaré"],"s2":["restregarás"],"vos":["restregarás"],"s3":["restregará"],"p1":["restregaremos"],"p2":["restregaréis"],"p3":["restregarán"]},
+    "IndCond": {"s1":["restregaría"],"s2":["restregarías"],"vos":["restregarías"],"s3":["restregaría"],"p1":["restregaríamos"],"p2":["restregaríais"],"p3":["restregarían"]},
+    "SubPres": {"s1":["restriegue"],"s2":["restriegues"],"vos":["restriegues","restregués"],"s3":["restriegue"],"p1":["restreguemos"],"p2":["restreguéis"],"p3":["restrieguen"]},
+    "SubImp": {"s1":["restregara","restregase"],"s2":["restregaras","restregases"],"vos":["restregaras","restregases"],"s3":["restregara","restregase"],"p1":["restregáramos","restregásemos"],"p2":["restregarais","restregaseis"],"p3":["restregaran","restregasen"]},
+    "SubFut": {"s1":["restregare"],"s2":["restregares"],"vos":["restregares"],"s3":["restregare"],"p1":["restregáremos"],"p2":["restregareis"],"p3":["restregaren"]},
+    "CmdPos": {"s2":["restriega"],"vos":["restregá"],"s3":["restriegue"],"p1":["restreguemos"],"p2":["restregad"],"p3":["restrieguen"]}
+  }
+}

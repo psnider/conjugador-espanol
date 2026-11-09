@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eksplosjoˈnaɾ]",
+    "silabacion": "ex-plo-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"explosionar","gerundio":["explosionando"],"participio":["explosionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["explosiono"],"s2":["explosionas"],"vos":["explosionás"],"s3":["explosiona"],"p1":["explosionamos"],"p2":["explosionáis"],"p3":["explosionan"]},
+    "IndImp": {"s1":["explosionaba"],"s2":["explosionabas"],"vos":["explosionabas"],"s3":["explosionaba"],"p1":["explosionábamos"],"p2":["explosionabais"],"p3":["explosionaban"]},
+    "IndPret": {"s1":["explosioné"],"s2":["explosionaste"],"vos":["explosionaste"],"s3":["explosionó"],"p1":["explosionamos"],"p2":["explosionasteis"],"p3":["explosionaron"]},
+    "IndFut": {"s1":["explosionaré"],"s2":["explosionarás"],"vos":["explosionarás"],"s3":["explosionará"],"p1":["explosionaremos"],"p2":["explosionaréis"],"p3":["explosionarán"]},
+    "IndCond": {"s1":["explosionaría"],"s2":["explosionarías"],"vos":["explosionarías"],"s3":["explosionaría"],"p1":["explosionaríamos"],"p2":["explosionaríais"],"p3":["explosionarían"]},
+    "SubPres": {"s1":["explosione"],"s2":["explosiones"],"vos":["explosiones","explosionés"],"s3":["explosione"],"p1":["explosionemos"],"p2":["explosionéis"],"p3":["explosionen"]},
+    "SubImp": {"s1":["explosionara","explosionase"],"s2":["explosionaras","explosionases"],"vos":["explosionaras","explosionases"],"s3":["explosionara","explosionase"],"p1":["explosionáramos","explosionásemos"],"p2":["explosionarais","explosionaseis"],"p3":["explosionaran","explosionasen"]},
+    "SubFut": {"s1":["explosionare"],"s2":["explosionares"],"vos":["explosionares"],"s3":["explosionare"],"p1":["explosionáremos"],"p2":["explosionareis"],"p3":["explosionaren"]},
+    "CmdPos": {"s2":["explosiona"],"vos":["explosioná"],"s3":["explosione"],"p1":["explosionemos"],"p2":["explosionad"],"p3":["explosionen"]}
+  }
+}

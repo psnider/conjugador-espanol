@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koβ̞iˈxaɾ]",
+    "silabacion": "co-bi-jar",
+    "acentuacion": "aguda",
+    "etimologia": "De cobijo y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cobijar","gerundio":["cobijando"],"participio":["cobijado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cobijo"],"s2":["cobijas"],"vos":["cobijás"],"s3":["cobija"],"p1":["cobijamos"],"p2":["cobijáis"],"p3":["cobijan"]},
+    "IndImp": {"s1":["cobijaba"],"s2":["cobijabas"],"vos":["cobijabas"],"s3":["cobijaba"],"p1":["cobijábamos"],"p2":["cobijabais"],"p3":["cobijaban"]},
+    "IndPret": {"s1":["cobijé"],"s2":["cobijaste"],"vos":["cobijaste"],"s3":["cobijó"],"p1":["cobijamos"],"p2":["cobijasteis"],"p3":["cobijaron"]},
+    "IndFut": {"s1":["cobijaré"],"s2":["cobijarás"],"vos":["cobijarás"],"s3":["cobijará"],"p1":["cobijaremos"],"p2":["cobijaréis"],"p3":["cobijarán"]},
+    "IndCond": {"s1":["cobijaría"],"s2":["cobijarías"],"vos":["cobijarías"],"s3":["cobijaría"],"p1":["cobijaríamos"],"p2":["cobijaríais"],"p3":["cobijarían"]},
+    "SubPres": {"s1":["cobije"],"s2":["cobijes"],"vos":["cobijes","cobijés"],"s3":["cobije"],"p1":["cobijemos"],"p2":["cobijéis"],"p3":["cobijen"]},
+    "SubImp": {"s1":["cobijara","cobijase"],"s2":["cobijaras","cobijases"],"vos":["cobijaras","cobijases"],"s3":["cobijara","cobijase"],"p1":["cobijáramos","cobijásemos"],"p2":["cobijarais","cobijaseis"],"p3":["cobijaran","cobijasen"]},
+    "SubFut": {"s1":["cobijare"],"s2":["cobijares"],"vos":["cobijares"],"s3":["cobijare"],"p1":["cobijáremos"],"p2":["cobijareis"],"p3":["cobijaren"]},
+    "CmdPos": {"s2":["cobija"],"vos":["cobijá"],"s3":["cobije"],"p1":["cobijemos"],"p2":["cobijad"],"p3":["cobijen"]}
+  }
+}

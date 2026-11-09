@@ -54,7 +54,7 @@ export const sufijos_regexes = {
     SubFut: /(re|res|remos|reis|ren)$/,
     // Nota: probablemente esto no va a funcionar bien por los sufijos defectivos
     //       -ar                  -er,          -ir             irregular: dar,hacer,poner,saber,salir,ser,tener,venir,ver
-    CmdPos: /(?:(?:s[fh]az|[mosux]pón|[e]sal|[bens]tén|[abdenor]vén)$|^(?:ten|ven|pon|sal|haz|di|ve|s[ée])$|(a|á|e|emos|ad|en|én|amos|ed|an|é|[ií]d|i|í)$)/
+    CmdPos: /(?:(?:s[fh]az|[mostux]pón|[e]sal|[bens]tén|[abdenor]vén)$|^(?:ten|ven|pon|sal|haz|di|ve|s[ée])$|(a|á|e|emos|ad|en|én|amos|ed|an|é|[ií]d|i|í)$)/
 }
 
 
@@ -110,6 +110,9 @@ export function generaIndiceDeTemasDeFormasConjugadas() : {temas_por_deletreo: I
                             for (const forma_conjugada of formas_conjugadas) {
                                 const forma = getForma(forma_conjugada)
                                 const match = forma.match(sufijos_regex)
+                                if (!match) {
+                                    console.log(`ERROR: forma no coincide con sufijos_regex por: infinitivo=${infinitivo} modo_tiempo=${modo_tiempo} persona=${persona} forma_conjugada=${forma_conjugada}`)
+                                }
                                 const sufijo = match[1] || ""
                                 const sufijo_length = sufijo.length
                                 const tema = ((sufijo_length === 0) ? forma : forma.slice(0, -sufijo_length))

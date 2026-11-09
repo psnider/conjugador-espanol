@@ -348,39 +348,72 @@ function mergeFormas(primario: VerbConjugation, segudario: VerbConjugation) {
 }
 
 
+// function aplicaUsoAFormasConAlternancia(uso: Uso, conjugación: ConjugationResult) {
+//     const {cambios} = conjugación.cambios_conjugacionales
+//     const formas_finales = conjugación.forms
+//     for (let key in cambios) {
+//         const persona = <keyof CambiosPorPersona> key
+//         let cambios_a_formas = cambios[persona]
+//         for (let formas_i in cambios_a_formas) {
+//             const cambios_a_forma = cambios_a_formas[formas_i]
+//             // if (tieneReglaPorCambioDelTema(cambios_a_forma)) {
+//             if (true) {
+//                 cambios_a_forma.cambios_por_reglas.unshift({regla: "restringe uso", uso})
+//             }
+//         }
+//     }
+// }
+
+
+// Esta lista es la misma por verbos que tiene "acepta_sin_hiato"
 const modo_tiempos_por_acepta_regular = ["IndPres", "SubPres", "CmdPos", "CmdNeg"]
 export function conjugateVerb(infinitivo: string, mood_tense: MoodTense): VerbConjugationAnnotated | undefined {
     const conj_and_deriv_rules = resolveConjugationClass(infinitivo)
     if (!conj_and_deriv_rules) {
         return undefined
     }
+    const {morphological_rules, ...conj_and_deriv_rules_sin_morphological_rules} = conj_and_deriv_rules
     const modelo = conj_and_deriv_rules.modelo
     const notes = getAnnotations(infinitivo, modelo, mood_tense)
     const primary = _conjugateVerb(conj_and_deriv_rules, mood_tense)
-    let forms = primary.forms
-    const acepta_regular = conj_and_deriv_rules?.morphological_rules?.de_infinitivo?.acepta_regular || conj_and_deriv_rules?.morphological_rules?.de_modelo?.acepta_regular
-    if (acepta_regular) {
+    let formas_finales = primary.forms
+    const acepta_regular = morphological_rules?.de_infinitivo?.acepta_regular || morphological_rules?.de_modelo?.acepta_regular
+    const acepta_sin_hiato = morphological_rules?.de_infinitivo?.acepta_sin_hiato || morphological_rules?.de_modelo?.acepta_sin_hiato
+    const alternancia_vocálica_uso = morphological_rules?.de_infinitivo?.alternancia_vocálica_uso 
+    if (acepta_regular || acepta_sin_hiato) {
+        if (mood_tense === "SubPres") debugger
         if (modo_tiempos_por_acepta_regular.includes(mood_tense)) {
             conj_and_deriv_rules.infinitivo_sin_prefijos = conj_and_deriv_rules.infinitivo
-            conj_and_deriv_rules.modelo
-            conj_and_deriv_rules.prefixes
-            delete conj_and_deriv_rules.morphological_rules?.de_infinitivo
-            delete conj_and_deriv_rules.morphological_rules?.de_modelo
-            const secondary = _conjugateVerb(conj_and_deriv_rules, mood_tense)
+            // conj_and_deriv_rules.modelo
+            // conj_and_deriv_rules.prefixes
+            let secondary: ConjugationResult
+            if (acepta_regular) {
+                secondary = _conjugateVerb(<ConjugationAndDerivationRules> conj_and_deriv_rules_sin_morphological_rules, mood_tense)
+            } else {
+                // acepta_sin_hiato
+                throw new Error("must add in remueveAcentoDeHiato()")
+                /***
+                secondary = remueveAcentoDeHiato(primary)
+                ***/
+            }
             if (acepta_regular === "primaria") {
-                mergeFormas(secondary.forms, forms)
-                forms = secondary.forms
+                if (alternancia_vocálica_uso) {
+                    debugger
+                    // aplicaUsoAFormasConAlternancia(alternancia_vocálica_uso, primary)
+                }
+                mergeFormas(secondary.forms, formas_finales)
+                formas_finales = secondary.forms
                 notes.cambios_conjugacional_secundaria = primary.cambios_conjugacionales
                 notes.cambios_conjugacional_primaria = secondary.cambios_conjugacionales
             } else {
-                mergeFormas(forms, secondary.forms)
+                mergeFormas(formas_finales, secondary.forms)
                 notes.cambios_conjugacional_secundaria = secondary.cambios_conjugacionales
             }
         }
     } else {
         notes.cambios_conjugacional_primaria = primary.cambios_conjugacionales
     }
-    return { notes, forms }
+    return { notes, forms: formas_finales }
 }
 
 

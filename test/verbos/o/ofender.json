@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ofẽn̪ˈd̪eɾ]",
+    "silabacion": "o-fen-der",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín offendĕre.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"ofender","gerundio":["ofendiendo"],"participio":["ofendido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ofendo"],"s2":["ofendes"],"vos":["ofendés"],"s3":["ofende"],"p1":["ofendemos"],"p2":["ofendéis"],"p3":["ofenden"]},
+    "IndImp": {"s1":["ofendía"],"s2":["ofendías"],"vos":["ofendías"],"s3":["ofendía"],"p1":["ofendíamos"],"p2":["ofendíais"],"p3":["ofendían"]},
+    "IndPret": {"s1":["ofendí"],"s2":["ofendiste"],"vos":["ofendiste"],"s3":["ofendió"],"p1":["ofendimos"],"p2":["ofendisteis"],"p3":["ofendieron"]},
+    "IndFut": {"s1":["ofenderé"],"s2":["ofenderás"],"vos":["ofenderás"],"s3":["ofenderá"],"p1":["ofenderemos"],"p2":["ofenderéis"],"p3":["ofenderán"]},
+    "IndCond": {"s1":["ofendería"],"s2":["ofenderías"],"vos":["ofenderías"],"s3":["ofendería"],"p1":["ofenderíamos"],"p2":["ofenderíais"],"p3":["ofenderían"]},
+    "SubPres": {"s1":["ofenda"],"s2":["ofendas"],"vos":["ofendas","ofendás"],"s3":["ofenda"],"p1":["ofendamos"],"p2":["ofendáis"],"p3":["ofendan"]},
+    "SubImp": {"s1":["ofendiera","ofendiese"],"s2":["ofendieras","ofendieses"],"vos":["ofendieras","ofendieses"],"s3":["ofendiera","ofendiese"],"p1":["ofendiéramos","ofendiésemos"],"p2":["ofendierais","ofendieseis"],"p3":["ofendieran","ofendiesen"]},
+    "SubFut": {"s1":["ofendiere"],"s2":["ofendieres"],"vos":["ofendieres"],"s3":["ofendiere"],"p1":["ofendiéremos"],"p2":["ofendiereis"],"p3":["ofendieren"]},
+    "CmdPos": {"s2":["ofende"],"vos":["ofendé"],"s3":["ofenda"],"p1":["ofendamos"],"p2":["ofended"],"p3":["ofendan"]}
+  }
+}

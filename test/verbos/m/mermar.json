@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[meɾˈmaɾ]",
+    "silabacion": "mer-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vulgar *minimāre, y este del latín minimus.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"mermar","gerundio":["mermando"],"participio":["mermado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mermo"],"s2":["mermas"],"vos":["mermás"],"s3":["merma"],"p1":["mermamos"],"p2":["mermáis"],"p3":["merman"]},
+    "IndImp": {"s1":["mermaba"],"s2":["mermabas"],"vos":["mermabas"],"s3":["mermaba"],"p1":["mermábamos"],"p2":["mermabais"],"p3":["mermaban"]},
+    "IndPret": {"s1":["mermé"],"s2":["mermaste"],"vos":["mermaste"],"s3":["mermó"],"p1":["mermamos"],"p2":["mermasteis"],"p3":["mermaron"]},
+    "IndFut": {"s1":["mermaré"],"s2":["mermarás"],"vos":["mermarás"],"s3":["mermará"],"p1":["mermaremos"],"p2":["mermaréis"],"p3":["mermarán"]},
+    "IndCond": {"s1":["mermaría"],"s2":["mermarías"],"vos":["mermarías"],"s3":["mermaría"],"p1":["mermaríamos"],"p2":["mermaríais"],"p3":["mermarían"]},
+    "SubPres": {"s1":["merme"],"s2":["mermes"],"vos":["mermes","mermés"],"s3":["merme"],"p1":["mermemos"],"p2":["merméis"],"p3":["mermen"]},
+    "SubImp": {"s1":["mermara","mermase"],"s2":["mermaras","mermases"],"vos":["mermaras","mermases"],"s3":["mermara","mermase"],"p1":["mermáramos","mermásemos"],"p2":["mermarais","mermaseis"],"p3":["mermaran","mermasen"]},
+    "SubFut": {"s1":["mermare"],"s2":["mermares"],"vos":["mermares"],"s3":["mermare"],"p1":["mermáremos"],"p2":["mermareis"],"p3":["mermaren"]},
+    "CmdPos": {"s2":["merma"],"vos":["mermá"],"s3":["merme"],"p1":["mermemos"],"p2":["mermad"],"p3":["mermen"]}
+  }
+}

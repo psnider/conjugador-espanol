@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oksiˈð̞aɾ]",
+    "silabacion": "o-xi-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De óxido y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"oxidar","gerundio":["oxidando"],"participio":["oxidado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oxido"],"s2":["oxidas"],"vos":["oxidás"],"s3":["oxida"],"p1":["oxidamos"],"p2":["oxidáis"],"p3":["oxidan"]},
+    "IndImp": {"s1":["oxidaba"],"s2":["oxidabas"],"vos":["oxidabas"],"s3":["oxidaba"],"p1":["oxidábamos"],"p2":["oxidabais"],"p3":["oxidaban"]},
+    "IndPret": {"s1":["oxidé"],"s2":["oxidaste"],"vos":["oxidaste"],"s3":["oxidó"],"p1":["oxidamos"],"p2":["oxidasteis"],"p3":["oxidaron"]},
+    "IndFut": {"s1":["oxidaré"],"s2":["oxidarás"],"vos":["oxidarás"],"s3":["oxidará"],"p1":["oxidaremos"],"p2":["oxidaréis"],"p3":["oxidarán"]},
+    "IndCond": {"s1":["oxidaría"],"s2":["oxidarías"],"vos":["oxidarías"],"s3":["oxidaría"],"p1":["oxidaríamos"],"p2":["oxidaríais"],"p3":["oxidarían"]},
+    "SubPres": {"s1":["oxide"],"s2":["oxides"],"vos":["oxides","oxidés"],"s3":["oxide"],"p1":["oxidemos"],"p2":["oxidéis"],"p3":["oxiden"]},
+    "SubImp": {"s1":["oxidara","oxidase"],"s2":["oxidaras","oxidases"],"vos":["oxidaras","oxidases"],"s3":["oxidara","oxidase"],"p1":["oxidáramos","oxidásemos"],"p2":["oxidarais","oxidaseis"],"p3":["oxidaran","oxidasen"]},
+    "SubFut": {"s1":["oxidare"],"s2":["oxidares"],"vos":["oxidares"],"s3":["oxidare"],"p1":["oxidáremos"],"p2":["oxidareis"],"p3":["oxidaren"]},
+    "CmdPos": {"s2":["oxida"],"vos":["oxidá"],"s3":["oxide"],"p1":["oxidemos"],"p2":["oxidad"],"p3":["oxiden"]}
+  }
+}

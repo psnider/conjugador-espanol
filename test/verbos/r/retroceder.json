@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪ɾoseˈð̞eɾ]",
+    "silabacion": "re-tro-ce-der",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"retroceder","gerundio":["retrocediendo"],"participio":["retrocedido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["retrocedo"],"s2":["retrocedes"],"vos":["retrocedés"],"s3":["retrocede"],"p1":["retrocedemos"],"p2":["retrocedéis"],"p3":["retroceden"]},
+    "IndImp": {"s1":["retrocedía"],"s2":["retrocedías"],"vos":["retrocedías"],"s3":["retrocedía"],"p1":["retrocedíamos"],"p2":["retrocedíais"],"p3":["retrocedían"]},
+    "IndPret": {"s1":["retrocedí"],"s2":["retrocediste"],"vos":["retrocediste"],"s3":["retrocedió"],"p1":["retrocedimos"],"p2":["retrocedisteis"],"p3":["retrocedieron"]},
+    "IndFut": {"s1":["retrocederé"],"s2":["retrocederás"],"vos":["retrocederás"],"s3":["retrocederá"],"p1":["retrocederemos"],"p2":["retrocederéis"],"p3":["retrocederán"]},
+    "IndCond": {"s1":["retrocedería"],"s2":["retrocederías"],"vos":["retrocederías"],"s3":["retrocedería"],"p1":["retrocederíamos"],"p2":["retrocederíais"],"p3":["retrocederían"]},
+    "SubPres": {"s1":["retroceda"],"s2":["retrocedas"],"vos":["retrocedas","retrocedás"],"s3":["retroceda"],"p1":["retrocedamos"],"p2":["retrocedáis"],"p3":["retrocedan"]},
+    "SubImp": {"s1":["retrocediera","retrocediese"],"s2":["retrocedieras","retrocedieses"],"vos":["retrocedieras","retrocedieses"],"s3":["retrocediera","retrocediese"],"p1":["retrocediéramos","retrocediésemos"],"p2":["retrocedierais","retrocedieseis"],"p3":["retrocedieran","retrocediesen"]},
+    "SubFut": {"s1":["retrocediere"],"s2":["retrocedieres"],"vos":["retrocedieres"],"s3":["retrocediere"],"p1":["retrocediéremos"],"p2":["retrocediereis"],"p3":["retrocedieren"]},
+    "CmdPos": {"s2":["retrocede"],"vos":["retrocedé"],"s3":["retroceda"],"p1":["retrocedamos"],"p2":["retroceded"],"p3":["retrocedan"]}
+  }
+}

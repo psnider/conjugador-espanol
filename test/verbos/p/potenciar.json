@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pot̪ẽnˈsjaɾ]",
+    "silabacion": "po-ten-ciar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"potenciar","gerundio":["potenciando"],"participio":["potenciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["potencio"],"s2":["potencias"],"vos":["potenciás"],"s3":["potencia"],"p1":["potenciamos"],"p2":["potenciáis"],"p3":["potencian"]},
+    "IndImp": {"s1":["potenciaba"],"s2":["potenciabas"],"vos":["potenciabas"],"s3":["potenciaba"],"p1":["potenciábamos"],"p2":["potenciabais"],"p3":["potenciaban"]},
+    "IndPret": {"s1":["potencié"],"s2":["potenciaste"],"vos":["potenciaste"],"s3":["potenció"],"p1":["potenciamos"],"p2":["potenciasteis"],"p3":["potenciaron"]},
+    "IndFut": {"s1":["potenciaré"],"s2":["potenciarás"],"vos":["potenciarás"],"s3":["potenciará"],"p1":["potenciaremos"],"p2":["potenciaréis"],"p3":["potenciarán"]},
+    "IndCond": {"s1":["potenciaría"],"s2":["potenciarías"],"vos":["potenciarías"],"s3":["potenciaría"],"p1":["potenciaríamos"],"p2":["potenciaríais"],"p3":["potenciarían"]},
+    "SubPres": {"s1":["potencie"],"s2":["potencies"],"vos":["potencies","potenciés"],"s3":["potencie"],"p1":["potenciemos"],"p2":["potenciéis"],"p3":["potencien"]},
+    "SubImp": {"s1":["potenciara","potenciase"],"s2":["potenciaras","potenciases"],"vos":["potenciaras","potenciases"],"s3":["potenciara","potenciase"],"p1":["potenciáramos","potenciásemos"],"p2":["potenciarais","potenciaseis"],"p3":["potenciaran","potenciasen"]},
+    "SubFut": {"s1":["potenciare"],"s2":["potenciares"],"vos":["potenciares"],"s3":["potenciare"],"p1":["potenciáremos"],"p2":["potenciareis"],"p3":["potenciaren"]},
+    "CmdPos": {"s2":["potencia"],"vos":["potenciá"],"s3":["potencie"],"p1":["potenciemos"],"p2":["potenciad"],"p3":["potencien"]}
+  }
+}

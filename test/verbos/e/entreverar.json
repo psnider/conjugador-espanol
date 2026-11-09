@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾeβ̞eˈɾaɾ]",
+    "silabacion": "en-tre-ve-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín inter ('entre') y variare ('variar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entreverar","gerundio":["entreverando"],"participio":["entreverado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entrevero"],"s2":["entreveras"],"vos":["entreverás"],"s3":["entrevera"],"p1":["entreveramos"],"p2":["entreveráis"],"p3":["entreveran"]},
+    "IndImp": {"s1":["entreveraba"],"s2":["entreverabas"],"vos":["entreverabas"],"s3":["entreveraba"],"p1":["entreverábamos"],"p2":["entreverabais"],"p3":["entreveraban"]},
+    "IndPret": {"s1":["entreveré"],"s2":["entreveraste"],"vos":["entreveraste"],"s3":["entreveró"],"p1":["entreveramos"],"p2":["entreverasteis"],"p3":["entreveraron"]},
+    "IndFut": {"s1":["entreveraré"],"s2":["entreverarás"],"vos":["entreverarás"],"s3":["entreverará"],"p1":["entreveraremos"],"p2":["entreveraréis"],"p3":["entreverarán"]},
+    "IndCond": {"s1":["entreveraría"],"s2":["entreverarías"],"vos":["entreverarías"],"s3":["entreveraría"],"p1":["entreveraríamos"],"p2":["entreveraríais"],"p3":["entreverarían"]},
+    "SubPres": {"s1":["entrevere"],"s2":["entreveres"],"vos":["entreveres","entreverés"],"s3":["entrevere"],"p1":["entreveremos"],"p2":["entreveréis"],"p3":["entreveren"]},
+    "SubImp": {"s1":["entreverara","entreverase"],"s2":["entreveraras","entreverases"],"vos":["entreveraras","entreverases"],"s3":["entreverara","entreverase"],"p1":["entreveráramos","entreverásemos"],"p2":["entreverarais","entreveraseis"],"p3":["entreveraran","entreverasen"]},
+    "SubFut": {"s1":["entreverare"],"s2":["entreverares"],"vos":["entreverares"],"s3":["entreverare"],"p1":["entreveráremos"],"p2":["entreverareis"],"p3":["entreveraren"]},
+    "CmdPos": {"s2":["entrevera"],"vos":["entreverá"],"s3":["entrevere"],"p1":["entreveremos"],"p2":["entreverad"],"p3":["entreveren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lãŋgið̞eˈseɾ]",
+    "silabacion": "lan-gui-de-cer",
+    "acentuacion": "aguda",
+    "etimologia": "De lánguido y el sufijo -ecer.[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"languidecer","gerundio":["languideciendo"],"participio":["languidecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["languidezco"],"s2":["languideces"],"vos":["languidecés"],"s3":["languidece"],"p1":["languidecemos"],"p2":["languidecéis"],"p3":["languidecen"]},
+    "IndImp": {"s1":["languidecía"],"s2":["languidecías"],"vos":["languidecías"],"s3":["languidecía"],"p1":["languidecíamos"],"p2":["languidecíais"],"p3":["languidecían"]},
+    "IndPret": {"s1":["languidecí"],"s2":["languideciste"],"vos":["languideciste"],"s3":["languideció"],"p1":["languidecimos"],"p2":["languidecisteis"],"p3":["languidecieron"]},
+    "IndFut": {"s1":["languideceré"],"s2":["languidecerás"],"vos":["languidecerás"],"s3":["languidecerá"],"p1":["languideceremos"],"p2":["languideceréis"],"p3":["languidecerán"]},
+    "IndCond": {"s1":["languidecería"],"s2":["languidecerías"],"vos":["languidecerías"],"s3":["languidecería"],"p1":["languideceríamos"],"p2":["languideceríais"],"p3":["languidecerían"]},
+    "SubPres": {"s1":["languidezca"],"s2":["languidezcas"],"vos":["languidezcas","languidezcás"],"s3":["languidezca"],"p1":["languidezcamos"],"p2":["languidezcáis"],"p3":["languidezcan"]},
+    "SubImp": {"s1":["languideciera","languideciese"],"s2":["languidecieras","languidecieses"],"vos":["languidecieras","languidecieses"],"s3":["languideciera","languideciese"],"p1":["languideciéramos","languideciésemos"],"p2":["languidecierais","languidecieseis"],"p3":["languidecieran","languideciesen"]},
+    "SubFut": {"s1":["languideciere"],"s2":["languidecieres"],"vos":["languidecieres"],"s3":["languideciere"],"p1":["languideciéremos"],"p2":["languideciereis"],"p3":["languidecieren"]},
+    "CmdPos": {"s2":["languidece"],"vos":["languidecé"],"s3":["languidezca"],"p1":["languidezcamos"],"p2":["languideced"],"p3":["languidezcan"]}
+  }
+}

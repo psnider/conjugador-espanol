@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esfloˈɾaɾ]",
+    "silabacion": "des-flo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, flor y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desflorar","gerundio":["desflorando"],"participio":["desflorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desfloro"],"s2":["desfloras"],"vos":["desflorás"],"s3":["desflora"],"p1":["desfloramos"],"p2":["desfloráis"],"p3":["desfloran"]},
+    "IndImp": {"s1":["desfloraba"],"s2":["desflorabas"],"vos":["desflorabas"],"s3":["desfloraba"],"p1":["desflorábamos"],"p2":["desflorabais"],"p3":["desfloraban"]},
+    "IndPret": {"s1":["desfloré"],"s2":["desfloraste"],"vos":["desfloraste"],"s3":["desfloró"],"p1":["desfloramos"],"p2":["desflorasteis"],"p3":["desfloraron"]},
+    "IndFut": {"s1":["desfloraré"],"s2":["desflorarás"],"vos":["desflorarás"],"s3":["desflorará"],"p1":["desfloraremos"],"p2":["desfloraréis"],"p3":["desflorarán"]},
+    "IndCond": {"s1":["desfloraría"],"s2":["desflorarías"],"vos":["desflorarías"],"s3":["desfloraría"],"p1":["desfloraríamos"],"p2":["desfloraríais"],"p3":["desflorarían"]},
+    "SubPres": {"s1":["desflore"],"s2":["desflores"],"vos":["desflores","desflorés"],"s3":["desflore"],"p1":["desfloremos"],"p2":["desfloréis"],"p3":["desfloren"]},
+    "SubImp": {"s1":["desflorara","desflorase"],"s2":["desfloraras","desflorases"],"vos":["desfloraras","desflorases"],"s3":["desflorara","desflorase"],"p1":["desfloráramos","desflorásemos"],"p2":["desflorarais","desfloraseis"],"p3":["desfloraran","desflorasen"]},
+    "SubFut": {"s1":["desflorare"],"s2":["desflorares"],"vos":["desflorares"],"s3":["desflorare"],"p1":["desfloráremos"],"p2":["desflorareis"],"p3":["desfloraren"]},
+    "CmdPos": {"s2":["desflora"],"vos":["desflorá"],"s3":["desflore"],"p1":["desfloremos"],"p2":["desflorad"],"p3":["desfloren"]}
+  }
+}

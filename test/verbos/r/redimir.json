@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reð̞iˈmiɾ]",
+    "silabacion": "re-di-mir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín redimĕre",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"redimir","gerundio":["redimiendo"],"participio":["redimido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["redimo"],"s2":["redimes"],"vos":["redimís"],"s3":["redime"],"p1":["redimimos"],"p2":["redimís"],"p3":["redimen"]},
+    "IndImp": {"s1":["redimía"],"s2":["redimías"],"vos":["redimías"],"s3":["redimía"],"p1":["redimíamos"],"p2":["redimíais"],"p3":["redimían"]},
+    "IndPret": {"s1":["redimí"],"s2":["redimiste"],"vos":["redimiste"],"s3":["redimió"],"p1":["redimimos"],"p2":["redimisteis"],"p3":["redimieron"]},
+    "IndFut": {"s1":["redimiré"],"s2":["redimirás"],"vos":["redimirás"],"s3":["redimirá"],"p1":["redimiremos"],"p2":["redimiréis"],"p3":["redimirán"]},
+    "IndCond": {"s1":["redimiría"],"s2":["redimirías"],"vos":["redimirías"],"s3":["redimiría"],"p1":["redimiríamos"],"p2":["redimiríais"],"p3":["redimirían"]},
+    "SubPres": {"s1":["redima"],"s2":["redimas"],"vos":["redimas","redimás"],"s3":["redima"],"p1":["redimamos"],"p2":["redimáis"],"p3":["rediman"]},
+    "SubImp": {"s1":["redimiera","redimiese"],"s2":["redimieras","redimieses"],"vos":["redimieras","redimieses"],"s3":["redimiera","redimiese"],"p1":["redimiéramos","redimiésemos"],"p2":["redimierais","redimieseis"],"p3":["redimieran","redimiesen"]},
+    "SubFut": {"s1":["redimiere"],"s2":["redimieres"],"vos":["redimieres"],"s3":["redimiere"],"p1":["redimiéremos"],"p2":["redimiereis"],"p3":["redimieren"]},
+    "CmdPos": {"s2":["redime"],"vos":["redimí"],"s3":["redima"],"p1":["redimamos"],"p2":["redimid"],"p3":["rediman"]}
+  }
+}

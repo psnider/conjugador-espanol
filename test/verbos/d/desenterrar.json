@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esẽn̪t̪eˈraɾ]",
+    "silabacion": "des-en-te-rrar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y enterrar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"desenterrar","gerundio":["desenterrando"],"participio":["desenterrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desentierro"],"s2":["desentierras"],"vos":["desenterrás"],"s3":["desentierra"],"p1":["desenterramos"],"p2":["desenterráis"],"p3":["desentierran"]},
+    "IndImp": {"s1":["desenterraba"],"s2":["desenterrabas"],"vos":["desenterrabas"],"s3":["desenterraba"],"p1":["desenterrábamos"],"p2":["desenterrabais"],"p3":["desenterraban"]},
+    "IndPret": {"s1":["desenterré"],"s2":["desenterraste"],"vos":["desenterraste"],"s3":["desenterró"],"p1":["desenterramos"],"p2":["desenterrasteis"],"p3":["desenterraron"]},
+    "IndFut": {"s1":["desenterraré"],"s2":["desenterrarás"],"vos":["desenterrarás"],"s3":["desenterrará"],"p1":["desenterraremos"],"p2":["desenterraréis"],"p3":["desenterrarán"]},
+    "IndCond": {"s1":["desenterraría"],"s2":["desenterrarías"],"vos":["desenterrarías"],"s3":["desenterraría"],"p1":["desenterraríamos"],"p2":["desenterraríais"],"p3":["desenterrarían"]},
+    "SubPres": {"s1":["desentierre"],"s2":["desentierres"],"vos":["desentierres","desenterrés"],"s3":["desentierre"],"p1":["desenterremos"],"p2":["desenterréis"],"p3":["desentierren"]},
+    "SubImp": {"s1":["desenterrara","desenterrase"],"s2":["desenterraras","desenterrases"],"vos":["desenterraras","desenterrases"],"s3":["desenterrara","desenterrase"],"p1":["desenterráramos","desenterrásemos"],"p2":["desenterrarais","desenterraseis"],"p3":["desenterraran","desenterrasen"]},
+    "SubFut": {"s1":["desenterrare"],"s2":["desenterrares"],"vos":["desenterrares"],"s3":["desenterrare"],"p1":["desenterráremos"],"p2":["desenterrareis"],"p3":["desenterraren"]},
+    "CmdPos": {"s2":["desentierra"],"vos":["desenterrá"],"s3":["desentierre"],"p1":["desenterremos"],"p2":["desenterrad"],"p3":["desentierren"]}
+  }
+}

@@ -1,14 +1,14 @@
 import type { MoodTense } from "../src/index"
 import { conjugateVerb } from "../src/conjugate-verb.js";
 import { deriveParticiples } from "../src/derive-participles.js";
-import { encuentraFormasSimilares } from "../src/indexa-de-temas-conjugadas.js"
+// import { encuentraFormasSimilares } from "../src/indexa-de-temas-conjugadas.js"
 import { mood_tenses, verb_terminations_all } from "../src/lib.js";
 import { runTestsForInfinitive } from "./test-support.js";
 
 
-let infinitivo: string = "ver"    // 
+let infinitivo: string = "adecuar"    // 
 // one of: "IndPres", "IndImp", "IndPret", "IndFut", "IndCond", "SubPres" , "SubImp" , "SubFut", "CmdPos", "CmdNeg"
-let mood_tense: MoodTense = "CmdNeg"
+let mood_tense: MoodTense = "IndPres"
 
 
 // let consulta = "graba"

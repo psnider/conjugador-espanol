@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aneˈɣ̞aɾ]",
+    "silabacion": "a-ne-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín enecāre (\"ahogar en agua\"), del latín necare.",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"anegar","gerundio":["anegando"],"participio":["anegado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["anego"],"s2":["anegas"],"vos":["anegás"],"s3":["anega"],"p1":["anegamos"],"p2":["anegáis"],"p3":["anegan"]},
+    "IndImp": {"s1":["anegaba"],"s2":["anegabas"],"vos":["anegabas"],"s3":["anegaba"],"p1":["anegábamos"],"p2":["anegabais"],"p3":["anegaban"]},
+    "IndPret": {"s1":["anegué"],"s2":["anegaste"],"vos":["anegaste"],"s3":["anegó"],"p1":["anegamos"],"p2":["anegasteis"],"p3":["anegaron"]},
+    "IndFut": {"s1":["anegaré"],"s2":["anegarás"],"vos":["anegarás"],"s3":["anegará"],"p1":["anegaremos"],"p2":["anegaréis"],"p3":["anegarán"]},
+    "IndCond": {"s1":["anegaría"],"s2":["anegarías"],"vos":["anegarías"],"s3":["anegaría"],"p1":["anegaríamos"],"p2":["anegaríais"],"p3":["anegarían"]},
+    "SubPres": {"s1":["anegue"],"s2":["anegues"],"vos":["anegues","anegués"],"s3":["anegue"],"p1":["aneguemos"],"p2":["aneguéis"],"p3":["aneguen"]},
+    "SubImp": {"s1":["anegara","anegase"],"s2":["anegaras","anegases"],"vos":["anegaras","anegases"],"s3":["anegara","anegase"],"p1":["anegáramos","anegásemos"],"p2":["anegarais","anegaseis"],"p3":["anegaran","anegasen"]},
+    "SubFut": {"s1":["anegare"],"s2":["anegares"],"vos":["anegares"],"s3":["anegare"],"p1":["anegáremos"],"p2":["anegareis"],"p3":["anegaren"]},
+    "CmdPos": {"s2":["anega"],"vos":["anegá"],"s3":["anegue"],"p1":["aneguemos"],"p2":["anegad"],"p3":["aneguen"]}
+  }
+}

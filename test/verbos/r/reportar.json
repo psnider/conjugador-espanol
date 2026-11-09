@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[repoɾˈt̪aɾ]",
+    "silabacion": "re-por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reportare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reportar","gerundio":["reportando"],"participio":["reportado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reporto"],"s2":["reportas"],"vos":["reportás"],"s3":["reporta"],"p1":["reportamos"],"p2":["reportáis"],"p3":["reportan"]},
+    "IndImp": {"s1":["reportaba"],"s2":["reportabas"],"vos":["reportabas"],"s3":["reportaba"],"p1":["reportábamos"],"p2":["reportabais"],"p3":["reportaban"]},
+    "IndPret": {"s1":["reporté"],"s2":["reportaste"],"vos":["reportaste"],"s3":["reportó"],"p1":["reportamos"],"p2":["reportasteis"],"p3":["reportaron"]},
+    "IndFut": {"s1":["reportaré"],"s2":["reportarás"],"vos":["reportarás"],"s3":["reportará"],"p1":["reportaremos"],"p2":["reportaréis"],"p3":["reportarán"]},
+    "IndCond": {"s1":["reportaría"],"s2":["reportarías"],"vos":["reportarías"],"s3":["reportaría"],"p1":["reportaríamos"],"p2":["reportaríais"],"p3":["reportarían"]},
+    "SubPres": {"s1":["reporte"],"s2":["reportes"],"vos":["reportes","reportés"],"s3":["reporte"],"p1":["reportemos"],"p2":["reportéis"],"p3":["reporten"]},
+    "SubImp": {"s1":["reportara","reportase"],"s2":["reportaras","reportases"],"vos":["reportaras","reportases"],"s3":["reportara","reportase"],"p1":["reportáramos","reportásemos"],"p2":["reportarais","reportaseis"],"p3":["reportaran","reportasen"]},
+    "SubFut": {"s1":["reportare"],"s2":["reportares"],"vos":["reportares"],"s3":["reportare"],"p1":["reportáremos"],"p2":["reportareis"],"p3":["reportaren"]},
+    "CmdPos": {"s2":["reporta"],"vos":["reportá"],"s3":["reporte"],"p1":["reportemos"],"p2":["reportad"],"p3":["reporten"]}
+  }
+}

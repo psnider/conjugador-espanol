@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskaɾapeˈlaɾ]",
+    "silabacion": "des-ca-ra-pe-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descarapelar","gerundio":["descarapelando"],"participio":["descarapelado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descarapelo"],"s2":["descarapelas"],"vos":["descarapelás"],"s3":["descarapela"],"p1":["descarapelamos"],"p2":["descarapeláis"],"p3":["descarapelan"]},
+    "IndImp": {"s1":["descarapelaba"],"s2":["descarapelabas"],"vos":["descarapelabas"],"s3":["descarapelaba"],"p1":["descarapelábamos"],"p2":["descarapelabais"],"p3":["descarapelaban"]},
+    "IndPret": {"s1":["descarapelé"],"s2":["descarapelaste"],"vos":["descarapelaste"],"s3":["descarapeló"],"p1":["descarapelamos"],"p2":["descarapelasteis"],"p3":["descarapelaron"]},
+    "IndFut": {"s1":["descarapelaré"],"s2":["descarapelarás"],"vos":["descarapelarás"],"s3":["descarapelará"],"p1":["descarapelaremos"],"p2":["descarapelaréis"],"p3":["descarapelarán"]},
+    "IndCond": {"s1":["descarapelaría"],"s2":["descarapelarías"],"vos":["descarapelarías"],"s3":["descarapelaría"],"p1":["descarapelaríamos"],"p2":["descarapelaríais"],"p3":["descarapelarían"]},
+    "SubPres": {"s1":["descarapele"],"s2":["descarapeles"],"vos":["descarapeles","descarapelés"],"s3":["descarapele"],"p1":["descarapelemos"],"p2":["descarapeléis"],"p3":["descarapelen"]},
+    "SubImp": {"s1":["descarapelara","descarapelase"],"s2":["descarapelaras","descarapelases"],"vos":["descarapelaras","descarapelases"],"s3":["descarapelara","descarapelase"],"p1":["descarapeláramos","descarapelásemos"],"p2":["descarapelarais","descarapelaseis"],"p3":["descarapelaran","descarapelasen"]},
+    "SubFut": {"s1":["descarapelare"],"s2":["descarapelares"],"vos":["descarapelares"],"s3":["descarapelare"],"p1":["descarapeláremos"],"p2":["descarapelareis"],"p3":["descarapelaren"]},
+    "CmdPos": {"s2":["descarapela"],"vos":["descarapelá"],"s3":["descarapele"],"p1":["descarapelemos"],"p2":["descarapelad"],"p3":["descarapelen"]}
+  }
+}

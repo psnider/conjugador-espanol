@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɲoˈɾaɾ]",
+    "silabacion": "a-ño-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del catalán enyorar, que a su vez proviene de latín īgnōrāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"añorar","gerundio":["añorando"],"participio":["añorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["añoro"],"s2":["añoras"],"vos":["añorás"],"s3":["añora"],"p1":["añoramos"],"p2":["añoráis"],"p3":["añoran"]},
+    "IndImp": {"s1":["añoraba"],"s2":["añorabas"],"vos":["añorabas"],"s3":["añoraba"],"p1":["añorábamos"],"p2":["añorabais"],"p3":["añoraban"]},
+    "IndPret": {"s1":["añoré"],"s2":["añoraste"],"vos":["añoraste"],"s3":["añoró"],"p1":["añoramos"],"p2":["añorasteis"],"p3":["añoraron"]},
+    "IndFut": {"s1":["añoraré"],"s2":["añorarás"],"vos":["añorarás"],"s3":["añorará"],"p1":["añoraremos"],"p2":["añoraréis"],"p3":["añorarán"]},
+    "IndCond": {"s1":["añoraría"],"s2":["añorarías"],"vos":["añorarías"],"s3":["añoraría"],"p1":["añoraríamos"],"p2":["añoraríais"],"p3":["añorarían"]},
+    "SubPres": {"s1":["añore"],"s2":["añores"],"vos":["añores","añorés"],"s3":["añore"],"p1":["añoremos"],"p2":["añoréis"],"p3":["añoren"]},
+    "SubImp": {"s1":["añorara","añorase"],"s2":["añoraras","añorases"],"vos":["añoraras","añorases"],"s3":["añorara","añorase"],"p1":["añoráramos","añorásemos"],"p2":["añorarais","añoraseis"],"p3":["añoraran","añorasen"]},
+    "SubFut": {"s1":["añorare"],"s2":["añorares"],"vos":["añorares"],"s3":["añorare"],"p1":["añoráremos"],"p2":["añorareis"],"p3":["añoraren"]},
+    "CmdPos": {"s2":["añora"],"vos":["añorá"],"s3":["añore"],"p1":["añoremos"],"p2":["añorad"],"p3":["añoren"]}
+  }
+}

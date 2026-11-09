@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpat̪iˈsaɾ]",
+    "silabacion": "em-pa-ti-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del ingl. empathize.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"empatizar","gerundio":["empatizando"], "participio":["empatizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empatizo"],"s2":["empatizas"],"vos":["empatizás"],"s3":["empatiza"],"p1":["empatizamos"],"p2":["empatizáis"],"p3":["empatizan"]},
+    "IndImp": {"s1":["empatizaba"],"s2":["empatizabas"],"vos":["empatizabas"],"s3":["empatizaba"],"p1":["empatizábamos"],"p2":["empatizabais"],"p3":["empatizaban"]},
+    "IndPret": {"s1":["empaticé"],"s2":["empatizaste"],"vos":["empatizaste"],"s3":["empatizó"],"p1":["empatizamos"],"p2":["empatizasteis"],"p3":["empatizaron"]},
+    "IndFut": {"s1":["empatizaré"],"s2":["empatizarás"],"vos":["empatizarás"],"s3":["empatizará"],"p1":["empatizaremos"],"p2":["empatizaréis"],"p3":["empatizarán"]},
+    "IndCond": {"s1":["empatizaría"],"s2":["empatizarías"],"vos":["empatizarías"],"s3":["empatizaría"],"p1":["empatizaríamos"],"p2":["empatizaríais"],"p3":["empatizarían"]},
+    "SubPres": {"s1":["empatice"],"s2":["empatices"],"vos":[{"forma": "empatices","uso":"Riop."},{"forma":"empaticés","uso":"C.Am."}],"s3":["empatice"],"p1":["empaticemos"],"p2":["empaticéis"],"p3":["empaticen"]},
+    "SubImp": {"s1":["empatizara","empatizase"],"s2":["empatizaras","empatizases"],"vos":["empatizaras","empatizases"],"s3":["empatizara","empatizase"],"p1":["empatizáramos","empatizásemos"],"p2":["empatizarais","empatizaseis"],"p3":["empatizaran","empatizasen"]},
+    "SubFut": {"s1":["empatizare"],"s2":["empatizares"],"vos":["empatizares"],"s3":["empatizare"],"p1":["empatizáremos"],"p2":["empatizareis"],"p3":["empatizaren"]},
+    "CmdPos": {"s2":["empatiza"],"vos":["empatizá"],"s3":["empatice"],"p1":["empaticemos"],"p2":["empatizad"],"p3":["empaticen"]}
+  }
+}

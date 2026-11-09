@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esfõn̪ˈd̪aɾ]",
+    "silabacion": "des-fon-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, fondo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desfondar","gerundio":["desfondando"],"participio":["desfondado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desfondo"],"s2":["desfondas"],"vos":["desfondás"],"s3":["desfonda"],"p1":["desfondamos"],"p2":["desfondáis"],"p3":["desfondan"]},
+    "IndImp": {"s1":["desfondaba"],"s2":["desfondabas"],"vos":["desfondabas"],"s3":["desfondaba"],"p1":["desfondábamos"],"p2":["desfondabais"],"p3":["desfondaban"]},
+    "IndPret": {"s1":["desfondé"],"s2":["desfondaste"],"vos":["desfondaste"],"s3":["desfondó"],"p1":["desfondamos"],"p2":["desfondasteis"],"p3":["desfondaron"]},
+    "IndFut": {"s1":["desfondaré"],"s2":["desfondarás"],"vos":["desfondarás"],"s3":["desfondará"],"p1":["desfondaremos"],"p2":["desfondaréis"],"p3":["desfondarán"]},
+    "IndCond": {"s1":["desfondaría"],"s2":["desfondarías"],"vos":["desfondarías"],"s3":["desfondaría"],"p1":["desfondaríamos"],"p2":["desfondaríais"],"p3":["desfondarían"]},
+    "SubPres": {"s1":["desfonde"],"s2":["desfondes"],"vos":["desfondes","desfondés"],"s3":["desfonde"],"p1":["desfondemos"],"p2":["desfondéis"],"p3":["desfonden"]},
+    "SubImp": {"s1":["desfondara","desfondase"],"s2":["desfondaras","desfondases"],"vos":["desfondaras","desfondases"],"s3":["desfondara","desfondase"],"p1":["desfondáramos","desfondásemos"],"p2":["desfondarais","desfondaseis"],"p3":["desfondaran","desfondasen"]},
+    "SubFut": {"s1":["desfondare"],"s2":["desfondares"],"vos":["desfondares"],"s3":["desfondare"],"p1":["desfondáremos"],"p2":["desfondareis"],"p3":["desfondaren"]},
+    "CmdPos": {"s2":["desfonda"],"vos":["desfondá"],"s3":["desfonde"],"p1":["desfondemos"],"p2":["desfondad"],"p3":["desfonden"]}
+  }
+}

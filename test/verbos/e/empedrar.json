@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpeˈð̞ɾaɾ]",
+    "silabacion": "em-pe-drar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, piedra (de latín petra) y el sufijo -ar.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"empedrar","gerundio":["empedrando"],"participio":["empedrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empiedro"],"s2":["empiedras"],"vos":["empedrás"],"s3":["empiedra"],"p1":["empedramos"],"p2":["empedráis"],"p3":["empiedran"]},
+    "IndImp": {"s1":["empedraba"],"s2":["empedrabas"],"vos":["empedrabas"],"s3":["empedraba"],"p1":["empedrábamos"],"p2":["empedrabais"],"p3":["empedraban"]},
+    "IndPret": {"s1":["empedré"],"s2":["empedraste"],"vos":["empedraste"],"s3":["empedró"],"p1":["empedramos"],"p2":["empedrasteis"],"p3":["empedraron"]},
+    "IndFut": {"s1":["empedraré"],"s2":["empedrarás"],"vos":["empedrarás"],"s3":["empedrará"],"p1":["empedraremos"],"p2":["empedraréis"],"p3":["empedrarán"]},
+    "IndCond": {"s1":["empedraría"],"s2":["empedrarías"],"vos":["empedrarías"],"s3":["empedraría"],"p1":["empedraríamos"],"p2":["empedraríais"],"p3":["empedrarían"]},
+    "SubPres": {"s1":["empiedre"],"s2":["empiedres"],"vos":["empiedres","empedrés"],"s3":["empiedre"],"p1":["empedremos"],"p2":["empedréis"],"p3":["empiedren"]},
+    "SubImp": {"s1":["empedrara","empedrase"],"s2":["empedraras","empedrases"],"vos":["empedraras","empedrases"],"s3":["empedrara","empedrase"],"p1":["empedráramos","empedrásemos"],"p2":["empedrarais","empedraseis"],"p3":["empedraran","empedrasen"]},
+    "SubFut": {"s1":["empedrare"],"s2":["empedrares"],"vos":["empedrares"],"s3":["empedrare"],"p1":["empedráremos"],"p2":["empedrareis"],"p3":["empedraren"]},
+    "CmdPos": {"s2":["empiedra"],"vos":["empedrá"],"s3":["empiedre"],"p1":["empedremos"],"p2":["empedrad"],"p3":["empiedren"]}
+  }
+}

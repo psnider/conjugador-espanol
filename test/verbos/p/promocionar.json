@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾomosjoˈnaɾ]",
+    "silabacion": "pro-mo-cio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"promocionar","gerundio":["promocionando"],"participio":["promocionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["promociono"],"s2":["promocionas"],"vos":["promocionás"],"s3":["promociona"],"p1":["promocionamos"],"p2":["promocionáis"],"p3":["promocionan"]},
+    "IndImp": {"s1":["promocionaba"],"s2":["promocionabas"],"vos":["promocionabas"],"s3":["promocionaba"],"p1":["promocionábamos"],"p2":["promocionabais"],"p3":["promocionaban"]},
+    "IndPret": {"s1":["promocioné"],"s2":["promocionaste"],"vos":["promocionaste"],"s3":["promocionó"],"p1":["promocionamos"],"p2":["promocionasteis"],"p3":["promocionaron"]},
+    "IndFut": {"s1":["promocionaré"],"s2":["promocionarás"],"vos":["promocionarás"],"s3":["promocionará"],"p1":["promocionaremos"],"p2":["promocionaréis"],"p3":["promocionarán"]},
+    "IndCond": {"s1":["promocionaría"],"s2":["promocionarías"],"vos":["promocionarías"],"s3":["promocionaría"],"p1":["promocionaríamos"],"p2":["promocionaríais"],"p3":["promocionarían"]},
+    "SubPres": {"s1":["promocione"],"s2":["promociones"],"vos":["promociones","promocionés"],"s3":["promocione"],"p1":["promocionemos"],"p2":["promocionéis"],"p3":["promocionen"]},
+    "SubImp": {"s1":["promocionara","promocionase"],"s2":["promocionaras","promocionases"],"vos":["promocionaras","promocionases"],"s3":["promocionara","promocionase"],"p1":["promocionáramos","promocionásemos"],"p2":["promocionarais","promocionaseis"],"p3":["promocionaran","promocionasen"]},
+    "SubFut": {"s1":["promocionare"],"s2":["promocionares"],"vos":["promocionares"],"s3":["promocionare"],"p1":["promocionáremos"],"p2":["promocionareis"],"p3":["promocionaren"]},
+    "CmdPos": {"s2":["promociona"],"vos":["promocioná"],"s3":["promocione"],"p1":["promocionemos"],"p2":["promocionad"],"p3":["promocionen"]}
+  }
+}

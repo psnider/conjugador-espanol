@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reɣ̞ulaɾiˈsaɾ]",
+    "silabacion": "re-gu-la-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De regular y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"regularizar","gerundio":["regularizando"],"participio":["regularizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["regularizo"],"s2":["regularizas"],"vos":["regularizás"],"s3":["regulariza"],"p1":["regularizamos"],"p2":["regularizáis"],"p3":["regularizan"]},
+    "IndImp": {"s1":["regularizaba"],"s2":["regularizabas"],"vos":["regularizabas"],"s3":["regularizaba"],"p1":["regularizábamos"],"p2":["regularizabais"],"p3":["regularizaban"]},
+    "IndPret": {"s1":["regularicé"],"s2":["regularizaste"],"vos":["regularizaste"],"s3":["regularizó"],"p1":["regularizamos"],"p2":["regularizasteis"],"p3":["regularizaron"]},
+    "IndFut": {"s1":["regularizaré"],"s2":["regularizarás"],"vos":["regularizarás"],"s3":["regularizará"],"p1":["regularizaremos"],"p2":["regularizaréis"],"p3":["regularizarán"]},
+    "IndCond": {"s1":["regularizaría"],"s2":["regularizarías"],"vos":["regularizarías"],"s3":["regularizaría"],"p1":["regularizaríamos"],"p2":["regularizaríais"],"p3":["regularizarían"]},
+    "SubPres": {"s1":["regularice"],"s2":["regularices"],"vos":["regularices","regularicés"],"s3":["regularice"],"p1":["regularicemos"],"p2":["regularicéis"],"p3":["regularicen"]},
+    "SubImp": {"s1":["regularizara","regularizase"],"s2":["regularizaras","regularizases"],"vos":["regularizaras","regularizases"],"s3":["regularizara","regularizase"],"p1":["regularizáramos","regularizásemos"],"p2":["regularizarais","regularizaseis"],"p3":["regularizaran","regularizasen"]},
+    "SubFut": {"s1":["regularizare"],"s2":["regularizares"],"vos":["regularizares"],"s3":["regularizare"],"p1":["regularizáremos"],"p2":["regularizareis"],"p3":["regularizaren"]},
+    "CmdPos": {"s2":["regulariza"],"vos":["regularizá"],"s3":["regularice"],"p1":["regularicemos"],"p2":["regularizad"],"p3":["regularicen"]}
+  }
+}

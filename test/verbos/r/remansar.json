@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[remãnˈsaɾ]",
+    "silabacion": "re-man-sar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"remansar","gerundio":["remansando"],"participio":["remansado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["remanso"],"s2":["remansas"],"vos":["remansás"],"s3":["remansa"],"p1":["remansamos"],"p2":["remansáis"],"p3":["remansan"]},
+    "IndImp": {"s1":["remansaba"],"s2":["remansabas"],"vos":["remansabas"],"s3":["remansaba"],"p1":["remansábamos"],"p2":["remansabais"],"p3":["remansaban"]},
+    "IndPret": {"s1":["remansé"],"s2":["remansaste"],"vos":["remansaste"],"s3":["remansó"],"p1":["remansamos"],"p2":["remansasteis"],"p3":["remansaron"]},
+    "IndFut": {"s1":["remansaré"],"s2":["remansarás"],"vos":["remansarás"],"s3":["remansará"],"p1":["remansaremos"],"p2":["remansaréis"],"p3":["remansarán"]},
+    "IndCond": {"s1":["remansaría"],"s2":["remansarías"],"vos":["remansarías"],"s3":["remansaría"],"p1":["remansaríamos"],"p2":["remansaríais"],"p3":["remansarían"]},
+    "SubPres": {"s1":["remanse"],"s2":["remanses"],"vos":["remanses","remansés"],"s3":["remanse"],"p1":["remansemos"],"p2":["remanséis"],"p3":["remansen"]},
+    "SubImp": {"s1":["remansara","remansase"],"s2":["remansaras","remansases"],"vos":["remansaras","remansases"],"s3":["remansara","remansase"],"p1":["remansáramos","remansásemos"],"p2":["remansarais","remansaseis"],"p3":["remansaran","remansasen"]},
+    "SubFut": {"s1":["remansare"],"s2":["remansares"],"vos":["remansares"],"s3":["remansare"],"p1":["remansáremos"],"p2":["remansareis"],"p3":["remansaren"]},
+    "CmdPos": {"s2":["remansa"],"vos":["remansá"],"s3":["remanse"],"p1":["remansemos"],"p2":["remansad"],"p3":["remansen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aoɾˈkaɾ]",
+    "silabacion": "a-hor-car",
+    "acentuacion": "aguda",
+    "etimologia": "De horca.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"ahorcar","gerundio":["ahorcando"],"participio":["ahorcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ahorco"],"s2":["ahorcas"],"vos":["ahorcás"],"s3":["ahorca"],"p1":["ahorcamos"],"p2":["ahorcáis"],"p3":["ahorcan"]},
+    "IndImp": {"s1":["ahorcaba"],"s2":["ahorcabas"],"vos":["ahorcabas"],"s3":["ahorcaba"],"p1":["ahorcábamos"],"p2":["ahorcabais"],"p3":["ahorcaban"]},
+    "IndPret": {"s1":["ahorqué"],"s2":["ahorcaste"],"vos":["ahorcaste"],"s3":["ahorcó"],"p1":["ahorcamos"],"p2":["ahorcasteis"],"p3":["ahorcaron"]},
+    "IndFut": {"s1":["ahorcaré"],"s2":["ahorcarás"],"vos":["ahorcarás"],"s3":["ahorcará"],"p1":["ahorcaremos"],"p2":["ahorcaréis"],"p3":["ahorcarán"]},
+    "IndCond": {"s1":["ahorcaría"],"s2":["ahorcarías"],"vos":["ahorcarías"],"s3":["ahorcaría"],"p1":["ahorcaríamos"],"p2":["ahorcaríais"],"p3":["ahorcarían"]},
+    "SubPres": {"s1":["ahorque"],"s2":["ahorques"],"vos":["ahorques","ahorqués"],"s3":["ahorque"],"p1":["ahorquemos"],"p2":["ahorquéis"],"p3":["ahorquen"]},
+    "SubImp": {"s1":["ahorcara","ahorcase"],"s2":["ahorcaras","ahorcases"],"vos":["ahorcaras","ahorcases"],"s3":["ahorcara","ahorcase"],"p1":["ahorcáramos","ahorcásemos"],"p2":["ahorcarais","ahorcaseis"],"p3":["ahorcaran","ahorcasen"]},
+    "SubFut": {"s1":["ahorcare"],"s2":["ahorcares"],"vos":["ahorcares"],"s3":["ahorcare"],"p1":["ahorcáremos"],"p2":["ahorcareis"],"p3":["ahorcaren"]},
+    "CmdPos": {"s2":["ahorca"],"vos":["ahorcá"],"s3":["ahorque"],"p1":["ahorquemos"],"p2":["ahorcad"],"p3":["ahorquen"]}
+  }
+}

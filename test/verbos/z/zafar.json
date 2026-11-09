@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[saˈfaɾ]",
+    "silabacion": "za-far",
+    "acentuacion": "aguda",
+    "etimologia": "Del árabe hispánico زَاح (azah), a su vez del árabe أَزَاحَ (ʔazāḥa, 'desprender')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"zafar","gerundio":["zafando"],"participio":["zafado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["zafo"],"s2":["zafas"],"vos":["zafás"],"s3":["zafa"],"p1":["zafamos"],"p2":["zafáis"],"p3":["zafan"]},
+    "IndImp": {"s1":["zafaba"],"s2":["zafabas"],"vos":["zafabas"],"s3":["zafaba"],"p1":["zafábamos"],"p2":["zafabais"],"p3":["zafaban"]},
+    "IndPret": {"s1":["zafé"],"s2":["zafaste"],"vos":["zafaste"],"s3":["zafó"],"p1":["zafamos"],"p2":["zafasteis"],"p3":["zafaron"]},
+    "IndFut": {"s1":["zafaré"],"s2":["zafarás"],"vos":["zafarás"],"s3":["zafará"],"p1":["zafaremos"],"p2":["zafaréis"],"p3":["zafarán"]},
+    "IndCond": {"s1":["zafaría"],"s2":["zafarías"],"vos":["zafarías"],"s3":["zafaría"],"p1":["zafaríamos"],"p2":["zafaríais"],"p3":["zafarían"]},
+    "SubPres": {"s1":["zafe"],"s2":["zafes"],"vos":["zafes","zafés"],"s3":["zafe"],"p1":["zafemos"],"p2":["zaféis"],"p3":["zafen"]},
+    "SubImp": {"s1":["zafara","zafase"],"s2":["zafaras","zafases"],"vos":["zafaras","zafases"],"s3":["zafara","zafase"],"p1":["zafáramos","zafásemos"],"p2":["zafarais","zafaseis"],"p3":["zafaran","zafasen"]},
+    "SubFut": {"s1":["zafare"],"s2":["zafares"],"vos":["zafares"],"s3":["zafare"],"p1":["zafáremos"],"p2":["zafareis"],"p3":["zafaren"]},
+    "CmdPos": {"s2":["zafa"],"vos":["zafá"],"s3":["zafe"],"p1":["zafemos"],"p2":["zafad"],"p3":["zafen"]}
+  }
+}

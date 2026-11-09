@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amãnˈsaɾ]",
+    "silabacion": "a-man-sar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, manso y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amansar","gerundio":["amansando"],"participio":["amansado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amanso"],"s2":["amansas"],"vos":["amansás"],"s3":["amansa"],"p1":["amansamos"],"p2":["amansáis"],"p3":["amansan"]},
+    "IndImp": {"s1":["amansaba"],"s2":["amansabas"],"vos":["amansabas"],"s3":["amansaba"],"p1":["amansábamos"],"p2":["amansabais"],"p3":["amansaban"]},
+    "IndPret": {"s1":["amansé"],"s2":["amansaste"],"vos":["amansaste"],"s3":["amansó"],"p1":["amansamos"],"p2":["amansasteis"],"p3":["amansaron"]},
+    "IndFut": {"s1":["amansaré"],"s2":["amansarás"],"vos":["amansarás"],"s3":["amansará"],"p1":["amansaremos"],"p2":["amansaréis"],"p3":["amansarán"]},
+    "IndCond": {"s1":["amansaría"],"s2":["amansarías"],"vos":["amansarías"],"s3":["amansaría"],"p1":["amansaríamos"],"p2":["amansaríais"],"p3":["amansarían"]},
+    "SubPres": {"s1":["amanse"],"s2":["amanses"],"vos":["amanses","amansés"],"s3":["amanse"],"p1":["amansemos"],"p2":["amanséis"],"p3":["amansen"]},
+    "SubImp": {"s1":["amansara","amansase"],"s2":["amansaras","amansases"],"vos":["amansaras","amansases"],"s3":["amansara","amansase"],"p1":["amansáramos","amansásemos"],"p2":["amansarais","amansaseis"],"p3":["amansaran","amansasen"]},
+    "SubFut": {"s1":["amansare"],"s2":["amansares"],"vos":["amansares"],"s3":["amansare"],"p1":["amansáremos"],"p2":["amansareis"],"p3":["amansaren"]},
+    "CmdPos": {"s2":["amansa"],"vos":["amansá"],"s3":["amanse"],"p1":["amansemos"],"p2":["amansad"],"p3":["amansen"]}
+  }
+}

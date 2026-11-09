@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[manjoˈβ̞ɾaɾ]",
+    "silabacion": "ma-nio-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"maniobrar","gerundio":["maniobrando"],"participio":["maniobrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["maniobro"],"s2":["maniobras"],"vos":["maniobrás"],"s3":["maniobra"],"p1":["maniobramos"],"p2":["maniobráis"],"p3":["maniobran"]},
+    "IndImp": {"s1":["maniobraba"],"s2":["maniobrabas"],"vos":["maniobrabas"],"s3":["maniobraba"],"p1":["maniobrábamos"],"p2":["maniobrabais"],"p3":["maniobraban"]},
+    "IndPret": {"s1":["maniobré"],"s2":["maniobraste"],"vos":["maniobraste"],"s3":["maniobró"],"p1":["maniobramos"],"p2":["maniobrasteis"],"p3":["maniobraron"]},
+    "IndFut": {"s1":["maniobraré"],"s2":["maniobrarás"],"vos":["maniobrarás"],"s3":["maniobrará"],"p1":["maniobraremos"],"p2":["maniobraréis"],"p3":["maniobrarán"]},
+    "IndCond": {"s1":["maniobraría"],"s2":["maniobrarías"],"vos":["maniobrarías"],"s3":["maniobraría"],"p1":["maniobraríamos"],"p2":["maniobraríais"],"p3":["maniobrarían"]},
+    "SubPres": {"s1":["maniobre"],"s2":["maniobres"],"vos":["maniobres","maniobrés"],"s3":["maniobre"],"p1":["maniobremos"],"p2":["maniobréis"],"p3":["maniobren"]},
+    "SubImp": {"s1":["maniobrara","maniobrase"],"s2":["maniobraras","maniobrases"],"vos":["maniobraras","maniobrases"],"s3":["maniobrara","maniobrase"],"p1":["maniobráramos","maniobrásemos"],"p2":["maniobrarais","maniobraseis"],"p3":["maniobraran","maniobrasen"]},
+    "SubFut": {"s1":["maniobrare"],"s2":["maniobrares"],"vos":["maniobrares"],"s3":["maniobrare"],"p1":["maniobráremos"],"p2":["maniobrareis"],"p3":["maniobraren"]},
+    "CmdPos": {"s2":["maniobra"],"vos":["maniobrá"],"s3":["maniobre"],"p1":["maniobremos"],"p2":["maniobrad"],"p3":["maniobren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnal̪t̪eˈseɾ]",
+    "silabacion": "en-al-te-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, alto y el sufijo -ecer.[1]",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enaltecer","gerundio":["enalteciendo"],"participio":["enaltecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enaltezco"],"s2":["enalteces"],"vos":["enaltecés"],"s3":["enaltece"],"p1":["enaltecemos"],"p2":["enaltecéis"],"p3":["enaltecen"]},
+    "IndImp": {"s1":["enaltecía"],"s2":["enaltecías"],"vos":["enaltecías"],"s3":["enaltecía"],"p1":["enaltecíamos"],"p2":["enaltecíais"],"p3":["enaltecían"]},
+    "IndPret": {"s1":["enaltecí"],"s2":["enalteciste"],"vos":["enalteciste"],"s3":["enalteció"],"p1":["enaltecimos"],"p2":["enaltecisteis"],"p3":["enaltecieron"]},
+    "IndFut": {"s1":["enalteceré"],"s2":["enaltecerás"],"vos":["enaltecerás"],"s3":["enaltecerá"],"p1":["enalteceremos"],"p2":["enalteceréis"],"p3":["enaltecerán"]},
+    "IndCond": {"s1":["enaltecería"],"s2":["enaltecerías"],"vos":["enaltecerías"],"s3":["enaltecería"],"p1":["enalteceríamos"],"p2":["enalteceríais"],"p3":["enaltecerían"]},
+    "SubPres": {"s1":["enaltezca"],"s2":["enaltezcas"],"vos":["enaltezcas","enaltezcás"],"s3":["enaltezca"],"p1":["enaltezcamos"],"p2":["enaltezcáis"],"p3":["enaltezcan"]},
+    "SubImp": {"s1":["enalteciera","enalteciese"],"s2":["enaltecieras","enaltecieses"],"vos":["enaltecieras","enaltecieses"],"s3":["enalteciera","enalteciese"],"p1":["enalteciéramos","enalteciésemos"],"p2":["enaltecierais","enaltecieseis"],"p3":["enaltecieran","enalteciesen"]},
+    "SubFut": {"s1":["enalteciere"],"s2":["enaltecieres"],"vos":["enaltecieres"],"s3":["enalteciere"],"p1":["enalteciéremos"],"p2":["enalteciereis"],"p3":["enaltecieren"]},
+    "CmdPos": {"s2":["enaltece"],"vos":["enaltecé"],"s3":["enaltezca"],"p1":["enaltezcamos"],"p2":["enalteced"],"p3":["enaltezcan"]}
+  }
+}

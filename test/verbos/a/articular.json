@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɾt̪ikuˈlaɾ]",
+    "silabacion": "ar-ti-cu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín articulāris, derivado de articulus ('nudo')",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"articular","gerundio":["articulando"],"participio":["articulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["articulo"],"s2":["articulas"],"vos":["articulás"],"s3":["articula"],"p1":["articulamos"],"p2":["articuláis"],"p3":["articulan"]},
+    "IndImp": {"s1":["articulaba"],"s2":["articulabas"],"vos":["articulabas"],"s3":["articulaba"],"p1":["articulábamos"],"p2":["articulabais"],"p3":["articulaban"]},
+    "IndPret": {"s1":["articulé"],"s2":["articulaste"],"vos":["articulaste"],"s3":["articuló"],"p1":["articulamos"],"p2":["articulasteis"],"p3":["articularon"]},
+    "IndFut": {"s1":["articularé"],"s2":["articularás"],"vos":["articularás"],"s3":["articulará"],"p1":["articularemos"],"p2":["articularéis"],"p3":["articularán"]},
+    "IndCond": {"s1":["articularía"],"s2":["articularías"],"vos":["articularías"],"s3":["articularía"],"p1":["articularíamos"],"p2":["articularíais"],"p3":["articularían"]},
+    "SubPres": {"s1":["articule"],"s2":["articules"],"vos":["articules","articulés"],"s3":["articule"],"p1":["articulemos"],"p2":["articuléis"],"p3":["articulen"]},
+    "SubImp": {"s1":["articulara","articulase"],"s2":["articularas","articulases"],"vos":["articularas","articulases"],"s3":["articulara","articulase"],"p1":["articuláramos","articulásemos"],"p2":["articularais","articulaseis"],"p3":["articularan","articulasen"]},
+    "SubFut": {"s1":["articulare"],"s2":["articulares"],"vos":["articulares"],"s3":["articulare"],"p1":["articuláremos"],"p2":["articulareis"],"p3":["articularen"]},
+    "CmdPos": {"s2":["articula"],"vos":["articulá"],"s3":["articule"],"p1":["articulemos"],"p2":["articulad"],"p3":["articulen"]}
+  }
+}

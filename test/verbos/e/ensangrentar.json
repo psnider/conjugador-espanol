@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsãŋgɾẽn̪ˈt̪aɾ]",
+    "silabacion": "en-san-gren-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en- y sangrentar",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensangrentar","gerundio":["ensangrentando"],"participio":["ensangrentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ensangriento"],"s2":["ensangrientas"],"vos":["ensangrentás"],"s3":["ensangrienta"],"p1":["ensangrentamos"],"p2":["ensangrentáis"],"p3":["ensangrientan"]},
+    "IndImp": {"s1":["ensangrentaba"],"s2":["ensangrentabas"],"vos":["ensangrentabas"],"s3":["ensangrentaba"],"p1":["ensangrentábamos"],"p2":["ensangrentabais"],"p3":["ensangrentaban"]},
+    "IndPret": {"s1":["ensangrenté"],"s2":["ensangrentaste"],"vos":["ensangrentaste"],"s3":["ensangrentó"],"p1":["ensangrentamos"],"p2":["ensangrentasteis"],"p3":["ensangrentaron"]},
+    "IndFut": {"s1":["ensangrentaré"],"s2":["ensangrentarás"],"vos":["ensangrentarás"],"s3":["ensangrentará"],"p1":["ensangrentaremos"],"p2":["ensangrentaréis"],"p3":["ensangrentarán"]},
+    "IndCond": {"s1":["ensangrentaría"],"s2":["ensangrentarías"],"vos":["ensangrentarías"],"s3":["ensangrentaría"],"p1":["ensangrentaríamos"],"p2":["ensangrentaríais"],"p3":["ensangrentarían"]},
+    "SubPres": {"s1":["ensangriente"],"s2":["ensangrientes"],"vos":["ensangrientes","ensangrentés"],"s3":["ensangriente"],"p1":["ensangrentemos"],"p2":["ensangrentéis"],"p3":["ensangrienten"]},
+    "SubImp": {"s1":["ensangrentara","ensangrentase"],"s2":["ensangrentaras","ensangrentases"],"vos":["ensangrentaras","ensangrentases"],"s3":["ensangrentara","ensangrentase"],"p1":["ensangrentáramos","ensangrentásemos"],"p2":["ensangrentarais","ensangrentaseis"],"p3":["ensangrentaran","ensangrentasen"]},
+    "SubFut": {"s1":["ensangrentare"],"s2":["ensangrentares"],"vos":["ensangrentares"],"s3":["ensangrentare"],"p1":["ensangrentáremos"],"p2":["ensangrentareis"],"p3":["ensangrentaren"]},
+    "CmdPos": {"s2":["ensangrienta"],"vos":["ensangrentá"],"s3":["ensangriente"],"p1":["ensangrentemos"],"p2":["ensangrentad"],"p3":["ensangrienten"]}
+  }
+}

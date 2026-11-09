@@ -244,7 +244,7 @@ test_resolveConjugationClass("haber", {
         tema_futuro_del_modelo: "habr",
         alternancia_vocálica: null,
         auxiliar: true,
-        impersonal: null
+        impersonal: "gramatical"
     }
 )
 

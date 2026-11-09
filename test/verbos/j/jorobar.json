@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[xoɾoˈβ̞aɾ]",
+    "silabacion": "jo-ro-bar",
+    "acentuacion": "aguda",
+    "etimologia": "De joroba.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"jorobar","gerundio":["jorobando"],"participio":["jorobado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["jorobo"],"s2":["jorobas"],"vos":["jorobás"],"s3":["joroba"],"p1":["jorobamos"],"p2":["jorobáis"],"p3":["joroban"]},
+    "IndImp": {"s1":["jorobaba"],"s2":["jorobabas"],"vos":["jorobabas"],"s3":["jorobaba"],"p1":["jorobábamos"],"p2":["jorobabais"],"p3":["jorobaban"]},
+    "IndPret": {"s1":["jorobé"],"s2":["jorobaste"],"vos":["jorobaste"],"s3":["jorobó"],"p1":["jorobamos"],"p2":["jorobasteis"],"p3":["jorobaron"]},
+    "IndFut": {"s1":["jorobaré"],"s2":["jorobarás"],"vos":["jorobarás"],"s3":["jorobará"],"p1":["jorobaremos"],"p2":["jorobaréis"],"p3":["jorobarán"]},
+    "IndCond": {"s1":["jorobaría"],"s2":["jorobarías"],"vos":["jorobarías"],"s3":["jorobaría"],"p1":["jorobaríamos"],"p2":["jorobaríais"],"p3":["jorobarían"]},
+    "SubPres": {"s1":["jorobe"],"s2":["jorobes"],"vos":["jorobes","jorobés"],"s3":["jorobe"],"p1":["jorobemos"],"p2":["jorobéis"],"p3":["joroben"]},
+    "SubImp": {"s1":["jorobara","jorobase"],"s2":["jorobaras","jorobases"],"vos":["jorobaras","jorobases"],"s3":["jorobara","jorobase"],"p1":["jorobáramos","jorobásemos"],"p2":["jorobarais","jorobaseis"],"p3":["jorobaran","jorobasen"]},
+    "SubFut": {"s1":["jorobare"],"s2":["jorobares"],"vos":["jorobares"],"s3":["jorobare"],"p1":["jorobáremos"],"p2":["jorobareis"],"p3":["jorobaren"]},
+    "CmdPos": {"s2":["joroba"],"vos":["jorobá"],"s3":["jorobe"],"p1":["jorobemos"],"p2":["jorobad"],"p3":["joroben"]}
+  }
+}

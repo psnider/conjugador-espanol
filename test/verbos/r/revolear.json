@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞oleˈaɾ]",
+    "silabacion": "re-vo-le-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y volear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"revolear","gerundio":["revoleando"],"participio":["revoleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["revoleo"],"s2":["revoleas"],"vos":["revoleás"],"s3":["revolea"],"p1":["revoleamos"],"p2":["revoleáis"],"p3":["revolean"]},
+    "IndImp": {"s1":["revoleaba"],"s2":["revoleabas"],"vos":["revoleabas"],"s3":["revoleaba"],"p1":["revoleábamos"],"p2":["revoleabais"],"p3":["revoleaban"]},
+    "IndPret": {"s1":["revoleé"],"s2":["revoleaste"],"vos":["revoleaste"],"s3":["revoleó"],"p1":["revoleamos"],"p2":["revoleasteis"],"p3":["revolearon"]},
+    "IndFut": {"s1":["revolearé"],"s2":["revolearás"],"vos":["revolearás"],"s3":["revoleará"],"p1":["revolearemos"],"p2":["revolearéis"],"p3":["revolearán"]},
+    "IndCond": {"s1":["revolearía"],"s2":["revolearías"],"vos":["revolearías"],"s3":["revolearía"],"p1":["revolearíamos"],"p2":["revolearíais"],"p3":["revolearían"]},
+    "SubPres": {"s1":["revolee"],"s2":["revolees"],"vos":["revolees","revoleés"],"s3":["revolee"],"p1":["revoleemos"],"p2":["revoleéis"],"p3":["revoleen"]},
+    "SubImp": {"s1":["revoleara","revolease"],"s2":["revolearas","revoleases"],"vos":["revolearas","revoleases"],"s3":["revoleara","revolease"],"p1":["revoleáramos","revoleásemos"],"p2":["revolearais","revoleaseis"],"p3":["revolearan","revoleasen"]},
+    "SubFut": {"s1":["revoleare"],"s2":["revoleares"],"vos":["revoleares"],"s3":["revoleare"],"p1":["revoleáremos"],"p2":["revoleareis"],"p3":["revolearen"]},
+    "CmdPos": {"s2":["revolea"],"vos":["revoleá"],"s3":["revolee"],"p1":["revoleemos"],"p2":["revolead"],"p3":["revoleen"]}
+  }
+}

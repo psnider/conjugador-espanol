@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[bẽn̪t̪iˈlaɾ]",
+    "silabacion": "ven-ti-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín ventilāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ventilar","gerundio":["ventilando"],"participio":["ventilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ventilo"],"s2":["ventilas"],"vos":["ventilás"],"s3":["ventila"],"p1":["ventilamos"],"p2":["ventiláis"],"p3":["ventilan"]},
+    "IndImp": {"s1":["ventilaba"],"s2":["ventilabas"],"vos":["ventilabas"],"s3":["ventilaba"],"p1":["ventilábamos"],"p2":["ventilabais"],"p3":["ventilaban"]},
+    "IndPret": {"s1":["ventilé"],"s2":["ventilaste"],"vos":["ventilaste"],"s3":["ventiló"],"p1":["ventilamos"],"p2":["ventilasteis"],"p3":["ventilaron"]},
+    "IndFut": {"s1":["ventilaré"],"s2":["ventilarás"],"vos":["ventilarás"],"s3":["ventilará"],"p1":["ventilaremos"],"p2":["ventilaréis"],"p3":["ventilarán"]},
+    "IndCond": {"s1":["ventilaría"],"s2":["ventilarías"],"vos":["ventilarías"],"s3":["ventilaría"],"p1":["ventilaríamos"],"p2":["ventilaríais"],"p3":["ventilarían"]},
+    "SubPres": {"s1":["ventile"],"s2":["ventiles"],"vos":["ventiles","ventilés"],"s3":["ventile"],"p1":["ventilemos"],"p2":["ventiléis"],"p3":["ventilen"]},
+    "SubImp": {"s1":["ventilara","ventilase"],"s2":["ventilaras","ventilases"],"vos":["ventilaras","ventilases"],"s3":["ventilara","ventilase"],"p1":["ventiláramos","ventilásemos"],"p2":["ventilarais","ventilaseis"],"p3":["ventilaran","ventilasen"]},
+    "SubFut": {"s1":["ventilare"],"s2":["ventilares"],"vos":["ventilares"],"s3":["ventilare"],"p1":["ventiláremos"],"p2":["ventilareis"],"p3":["ventilaren"]},
+    "CmdPos": {"s2":["ventila"],"vos":["ventilá"],"s3":["ventile"],"p1":["ventilemos"],"p2":["ventilad"],"p3":["ventilen"]}
+  }
+}

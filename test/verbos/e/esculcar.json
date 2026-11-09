@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskulˈkaɾ]",
+    "silabacion": "es-cul-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"esculcar","gerundio":["esculcando"],"participio":["esculcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["esculco"],"s2":["esculcas"],"vos":["esculcás"],"s3":["esculca"],"p1":["esculcamos"],"p2":["esculcáis"],"p3":["esculcan"]},
+    "IndImp": {"s1":["esculcaba"],"s2":["esculcabas"],"vos":["esculcabas"],"s3":["esculcaba"],"p1":["esculcábamos"],"p2":["esculcabais"],"p3":["esculcaban"]},
+    "IndPret": {"s1":["esculqué"],"s2":["esculcaste"],"vos":["esculcaste"],"s3":["esculcó"],"p1":["esculcamos"],"p2":["esculcasteis"],"p3":["esculcaron"]},
+    "IndFut": {"s1":["esculcaré"],"s2":["esculcarás"],"vos":["esculcarás"],"s3":["esculcará"],"p1":["esculcaremos"],"p2":["esculcaréis"],"p3":["esculcarán"]},
+    "IndCond": {"s1":["esculcaría"],"s2":["esculcarías"],"vos":["esculcarías"],"s3":["esculcaría"],"p1":["esculcaríamos"],"p2":["esculcaríais"],"p3":["esculcarían"]},
+    "SubPres": {"s1":["esculque"],"s2":["esculques"],"vos":["esculques","esculqués"],"s3":["esculque"],"p1":["esculquemos"],"p2":["esculquéis"],"p3":["esculquen"]},
+    "SubImp": {"s1":["esculcara","esculcase"],"s2":["esculcaras","esculcases"],"vos":["esculcaras","esculcases"],"s3":["esculcara","esculcase"],"p1":["esculcáramos","esculcásemos"],"p2":["esculcarais","esculcaseis"],"p3":["esculcaran","esculcasen"]},
+    "SubFut": {"s1":["esculcare"],"s2":["esculcares"],"vos":["esculcares"],"s3":["esculcare"],"p1":["esculcáremos"],"p2":["esculcareis"],"p3":["esculcaren"]},
+    "CmdPos": {"s2":["esculca"],"vos":["esculcá"],"s3":["esculque"],"p1":["esculquemos"],"p2":["esculcad"],"p3":["esculquen"]}
+  }
+}

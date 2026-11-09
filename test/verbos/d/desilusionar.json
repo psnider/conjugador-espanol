@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esilusjoˈnaɾ]",
+    "silabacion": "des-i-lu-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desilusionar","gerundio":["desilusionando"],"participio":["desilusionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desilusiono"],"s2":["desilusionas"],"vos":["desilusionás"],"s3":["desilusiona"],"p1":["desilusionamos"],"p2":["desilusionáis"],"p3":["desilusionan"]},
+    "IndImp": {"s1":["desilusionaba"],"s2":["desilusionabas"],"vos":["desilusionabas"],"s3":["desilusionaba"],"p1":["desilusionábamos"],"p2":["desilusionabais"],"p3":["desilusionaban"]},
+    "IndPret": {"s1":["desilusioné"],"s2":["desilusionaste"],"vos":["desilusionaste"],"s3":["desilusionó"],"p1":["desilusionamos"],"p2":["desilusionasteis"],"p3":["desilusionaron"]},
+    "IndFut": {"s1":["desilusionaré"],"s2":["desilusionarás"],"vos":["desilusionarás"],"s3":["desilusionará"],"p1":["desilusionaremos"],"p2":["desilusionaréis"],"p3":["desilusionarán"]},
+    "IndCond": {"s1":["desilusionaría"],"s2":["desilusionarías"],"vos":["desilusionarías"],"s3":["desilusionaría"],"p1":["desilusionaríamos"],"p2":["desilusionaríais"],"p3":["desilusionarían"]},
+    "SubPres": {"s1":["desilusione"],"s2":["desilusiones"],"vos":["desilusiones","desilusionés"],"s3":["desilusione"],"p1":["desilusionemos"],"p2":["desilusionéis"],"p3":["desilusionen"]},
+    "SubImp": {"s1":["desilusionara","desilusionase"],"s2":["desilusionaras","desilusionases"],"vos":["desilusionaras","desilusionases"],"s3":["desilusionara","desilusionase"],"p1":["desilusionáramos","desilusionásemos"],"p2":["desilusionarais","desilusionaseis"],"p3":["desilusionaran","desilusionasen"]},
+    "SubFut": {"s1":["desilusionare"],"s2":["desilusionares"],"vos":["desilusionares"],"s3":["desilusionare"],"p1":["desilusionáremos"],"p2":["desilusionareis"],"p3":["desilusionaren"]},
+    "CmdPos": {"s2":["desilusiona"],"vos":["desilusioná"],"s3":["desilusione"],"p1":["desilusionemos"],"p2":["desilusionad"],"p3":["desilusionen"]}
+  }
+}

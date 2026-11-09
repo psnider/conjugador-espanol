@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[axiliˈsaɾ]",
+    "silabacion": "a-gi-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De ágil y el sufijo -izar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"agilizar","gerundio":["agilizando"],"participio":["agilizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agilizo"],"s2":["agilizas"],"vos":["agilizás"],"s3":["agiliza"],"p1":["agilizamos"],"p2":["agilizáis"],"p3":["agilizan"]},
+    "IndImp": {"s1":["agilizaba"],"s2":["agilizabas"],"vos":["agilizabas"],"s3":["agilizaba"],"p1":["agilizábamos"],"p2":["agilizabais"],"p3":["agilizaban"]},
+    "IndPret": {"s1":["agilicé"],"s2":["agilizaste"],"vos":["agilizaste"],"s3":["agilizó"],"p1":["agilizamos"],"p2":["agilizasteis"],"p3":["agilizaron"]},
+    "IndFut": {"s1":["agilizaré"],"s2":["agilizarás"],"vos":["agilizarás"],"s3":["agilizará"],"p1":["agilizaremos"],"p2":["agilizaréis"],"p3":["agilizarán"]},
+    "IndCond": {"s1":["agilizaría"],"s2":["agilizarías"],"vos":["agilizarías"],"s3":["agilizaría"],"p1":["agilizaríamos"],"p2":["agilizaríais"],"p3":["agilizarían"]},
+    "SubPres": {"s1":["agilice"],"s2":["agilices"],"vos":["agilices","agilicés"],"s3":["agilice"],"p1":["agilicemos"],"p2":["agilicéis"],"p3":["agilicen"]},
+    "SubImp": {"s1":["agilizara","agilizase"],"s2":["agilizaras","agilizases"],"vos":["agilizaras","agilizases"],"s3":["agilizara","agilizase"],"p1":["agilizáramos","agilizásemos"],"p2":["agilizarais","agilizaseis"],"p3":["agilizaran","agilizasen"]},
+    "SubFut": {"s1":["agilizare"],"s2":["agilizares"],"vos":["agilizares"],"s3":["agilizare"],"p1":["agilizáremos"],"p2":["agilizareis"],"p3":["agilizaren"]},
+    "CmdPos": {"s2":["agiliza"],"vos":["agilizá"],"s3":["agilice"],"p1":["agilicemos"],"p2":["agilizad"],"p3":["agilicen"]}
+  }
+}

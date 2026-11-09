@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[rõŋˈkaɾ]",
+    "silabacion": "ron-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín rhonchāre, y este del latín rhonchus, del griego antiguo ῥέγχος.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"roncar","gerundio":["roncando"],"participio":["roncado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ronco"],"s2":["roncas"],"vos":["roncás"],"s3":["ronca"],"p1":["roncamos"],"p2":["roncáis"],"p3":["roncan"]},
+    "IndImp": {"s1":["roncaba"],"s2":["roncabas"],"vos":["roncabas"],"s3":["roncaba"],"p1":["roncábamos"],"p2":["roncabais"],"p3":["roncaban"]},
+    "IndPret": {"s1":["ronqué"],"s2":["roncaste"],"vos":["roncaste"],"s3":["roncó"],"p1":["roncamos"],"p2":["roncasteis"],"p3":["roncaron"]},
+    "IndFut": {"s1":["roncaré"],"s2":["roncarás"],"vos":["roncarás"],"s3":["roncará"],"p1":["roncaremos"],"p2":["roncaréis"],"p3":["roncarán"]},
+    "IndCond": {"s1":["roncaría"],"s2":["roncarías"],"vos":["roncarías"],"s3":["roncaría"],"p1":["roncaríamos"],"p2":["roncaríais"],"p3":["roncarían"]},
+    "SubPres": {"s1":["ronque"],"s2":["ronques"],"vos":["ronques","ronqués"],"s3":["ronque"],"p1":["ronquemos"],"p2":["ronquéis"],"p3":["ronquen"]},
+    "SubImp": {"s1":["roncara","roncase"],"s2":["roncaras","roncases"],"vos":["roncaras","roncases"],"s3":["roncara","roncase"],"p1":["roncáramos","roncásemos"],"p2":["roncarais","roncaseis"],"p3":["roncaran","roncasen"]},
+    "SubFut": {"s1":["roncare"],"s2":["roncares"],"vos":["roncares"],"s3":["roncare"],"p1":["roncáremos"],"p2":["roncareis"],"p3":["roncaren"]},
+    "CmdPos": {"s2":["ronca"],"vos":["roncá"],"s3":["ronque"],"p1":["ronquemos"],"p2":["roncad"],"p3":["ronquen"]}
+  }
+}

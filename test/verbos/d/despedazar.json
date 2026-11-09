@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espeð̞aˈsaɾ]",
+    "silabacion": "des-pe-da-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1240.[1] Del prefijo des-, pedazo y el sufijo -ar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"despedazar","gerundio":["despedazando"],"participio":["despedazado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["despedazo"],"s2":["despedazas"],"vos":["despedazás"],"s3":["despedaza"],"p1":["despedazamos"],"p2":["despedazáis"],"p3":["despedazan"]},
+    "IndImp": {"s1":["despedazaba"],"s2":["despedazabas"],"vos":["despedazabas"],"s3":["despedazaba"],"p1":["despedazábamos"],"p2":["despedazabais"],"p3":["despedazaban"]},
+    "IndPret": {"s1":["despedacé"],"s2":["despedazaste"],"vos":["despedazaste"],"s3":["despedazó"],"p1":["despedazamos"],"p2":["despedazasteis"],"p3":["despedazaron"]},
+    "IndFut": {"s1":["despedazaré"],"s2":["despedazarás"],"vos":["despedazarás"],"s3":["despedazará"],"p1":["despedazaremos"],"p2":["despedazaréis"],"p3":["despedazarán"]},
+    "IndCond": {"s1":["despedazaría"],"s2":["despedazarías"],"vos":["despedazarías"],"s3":["despedazaría"],"p1":["despedazaríamos"],"p2":["despedazaríais"],"p3":["despedazarían"]},
+    "SubPres": {"s1":["despedace"],"s2":["despedaces"],"vos":["despedaces","despedacés"],"s3":["despedace"],"p1":["despedacemos"],"p2":["despedacéis"],"p3":["despedacen"]},
+    "SubImp": {"s1":["despedazara","despedazase"],"s2":["despedazaras","despedazases"],"vos":["despedazaras","despedazases"],"s3":["despedazara","despedazase"],"p1":["despedazáramos","despedazásemos"],"p2":["despedazarais","despedazaseis"],"p3":["despedazaran","despedazasen"]},
+    "SubFut": {"s1":["despedazare"],"s2":["despedazares"],"vos":["despedazares"],"s3":["despedazare"],"p1":["despedazáremos"],"p2":["despedazareis"],"p3":["despedazaren"]},
+    "CmdPos": {"s2":["despedaza"],"vos":["despedazá"],"s3":["despedace"],"p1":["despedacemos"],"p2":["despedazad"],"p3":["despedacen"]}
+  }
+}

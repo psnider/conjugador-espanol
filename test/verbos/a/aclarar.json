@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aklaˈɾaɾ]",
+    "silabacion": "a-cla-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín acclarāre ('evidenciar'), compuesto de ad ('hacia') y clārō, clārāre (\"iluminar\", \"explicar\"), a su vez derivado de clārus (\"claro\", \"evidente\", \"brillante\", \"famoso\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aclarar","gerundio":["aclarando"],"participio":["aclarado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aclaro"],"s2":["aclaras"],"vos":["aclarás"],"s3":["aclara"],"p1":["aclaramos"],"p2":["aclaráis"],"p3":["aclaran"]},
+    "IndImp": {"s1":["aclaraba"],"s2":["aclarabas"],"vos":["aclarabas"],"s3":["aclaraba"],"p1":["aclarábamos"],"p2":["aclarabais"],"p3":["aclaraban"]},
+    "IndPret": {"s1":["aclaré"],"s2":["aclaraste"],"vos":["aclaraste"],"s3":["aclaró"],"p1":["aclaramos"],"p2":["aclarasteis"],"p3":["aclararon"]},
+    "IndFut": {"s1":["aclararé"],"s2":["aclararás"],"vos":["aclararás"],"s3":["aclarará"],"p1":["aclararemos"],"p2":["aclararéis"],"p3":["aclararán"]},
+    "IndCond": {"s1":["aclararía"],"s2":["aclararías"],"vos":["aclararías"],"s3":["aclararía"],"p1":["aclararíamos"],"p2":["aclararíais"],"p3":["aclararían"]},
+    "SubPres": {"s1":["aclare"],"s2":["aclares"],"vos":["aclares","aclarés"],"s3":["aclare"],"p1":["aclaremos"],"p2":["aclaréis"],"p3":["aclaren"]},
+    "SubImp": {"s1":["aclarara","aclarase"],"s2":["aclararas","aclarases"],"vos":["aclararas","aclarases"],"s3":["aclarara","aclarase"],"p1":["aclaráramos","aclarásemos"],"p2":["aclararais","aclaraseis"],"p3":["aclararan","aclarasen"]},
+    "SubFut": {"s1":["aclarare"],"s2":["aclarares"],"vos":["aclarares"],"s3":["aclarare"],"p1":["aclaráremos"],"p2":["aclarareis"],"p3":["aclararen"]},
+    "CmdPos": {"s2":["aclara"],"vos":["aclará"],"s3":["aclare"],"p1":["aclaremos"],"p2":["aclarad"],"p3":["aclaren"]}
+  }
+}

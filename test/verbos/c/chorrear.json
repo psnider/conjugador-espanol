@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃoreˈaɾ]",
+    "silabacion": "cho-rre-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De chorro y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"chorrear","gerundio":["chorreando"],"participio":["chorreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["chorreo"],"s2":["chorreas"],"vos":["chorreás"],"s3":["chorrea"],"p1":["chorreamos"],"p2":["chorreáis"],"p3":["chorrean"]},
+    "IndImp": {"s1":["chorreaba"],"s2":["chorreabas"],"vos":["chorreabas"],"s3":["chorreaba"],"p1":["chorreábamos"],"p2":["chorreabais"],"p3":["chorreaban"]},
+    "IndPret": {"s1":["chorreé"],"s2":["chorreaste"],"vos":["chorreaste"],"s3":["chorreó"],"p1":["chorreamos"],"p2":["chorreasteis"],"p3":["chorrearon"]},
+    "IndFut": {"s1":["chorrearé"],"s2":["chorrearás"],"vos":["chorrearás"],"s3":["chorreará"],"p1":["chorrearemos"],"p2":["chorrearéis"],"p3":["chorrearán"]},
+    "IndCond": {"s1":["chorrearía"],"s2":["chorrearías"],"vos":["chorrearías"],"s3":["chorrearía"],"p1":["chorrearíamos"],"p2":["chorrearíais"],"p3":["chorrearían"]},
+    "SubPres": {"s1":["chorree"],"s2":["chorrees"],"vos":["chorrees","chorreés"],"s3":["chorree"],"p1":["chorreemos"],"p2":["chorreéis"],"p3":["chorreen"]},
+    "SubImp": {"s1":["chorreara","chorrease"],"s2":["chorrearas","chorreases"],"vos":["chorrearas","chorreases"],"s3":["chorreara","chorrease"],"p1":["chorreáramos","chorreásemos"],"p2":["chorrearais","chorreaseis"],"p3":["chorrearan","chorreasen"]},
+    "SubFut": {"s1":["chorreare"],"s2":["chorreares"],"vos":["chorreares"],"s3":["chorreare"],"p1":["chorreáremos"],"p2":["chorreareis"],"p3":["chorrearen"]},
+    "CmdPos": {"s2":["chorrea"],"vos":["chorreá"],"s3":["chorree"],"p1":["chorreemos"],"p2":["chorread"],"p3":["chorreen"]}
+  }
+}

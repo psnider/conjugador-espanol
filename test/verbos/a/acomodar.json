@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akomoˈð̞aɾ]",
+    "silabacion": "a-co-mo-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, cómodo y el sufijo -ar; del latín accommodāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acomodar","gerundio":["acomodando"],"participio":["acomodado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acomodo"],"s2":["acomodas"],"vos":["acomodás"],"s3":["acomoda"],"p1":["acomodamos"],"p2":["acomodáis"],"p3":["acomodan"]},
+    "IndImp": {"s1":["acomodaba"],"s2":["acomodabas"],"vos":["acomodabas"],"s3":["acomodaba"],"p1":["acomodábamos"],"p2":["acomodabais"],"p3":["acomodaban"]},
+    "IndPret": {"s1":["acomodé"],"s2":["acomodaste"],"vos":["acomodaste"],"s3":["acomodó"],"p1":["acomodamos"],"p2":["acomodasteis"],"p3":["acomodaron"]},
+    "IndFut": {"s1":["acomodaré"],"s2":["acomodarás"],"vos":["acomodarás"],"s3":["acomodará"],"p1":["acomodaremos"],"p2":["acomodaréis"],"p3":["acomodarán"]},
+    "IndCond": {"s1":["acomodaría"],"s2":["acomodarías"],"vos":["acomodarías"],"s3":["acomodaría"],"p1":["acomodaríamos"],"p2":["acomodaríais"],"p3":["acomodarían"]},
+    "SubPres": {"s1":["acomode"],"s2":["acomodes"],"vos":["acomodes","acomodés"],"s3":["acomode"],"p1":["acomodemos"],"p2":["acomodéis"],"p3":["acomoden"]},
+    "SubImp": {"s1":["acomodara","acomodase"],"s2":["acomodaras","acomodases"],"vos":["acomodaras","acomodases"],"s3":["acomodara","acomodase"],"p1":["acomodáramos","acomodásemos"],"p2":["acomodarais","acomodaseis"],"p3":["acomodaran","acomodasen"]},
+    "SubFut": {"s1":["acomodare"],"s2":["acomodares"],"vos":["acomodares"],"s3":["acomodare"],"p1":["acomodáremos"],"p2":["acomodareis"],"p3":["acomodaren"]},
+    "CmdPos": {"s2":["acomoda"],"vos":["acomodá"],"s3":["acomode"],"p1":["acomodemos"],"p2":["acomodad"],"p3":["acomoden"]}
+  }
+}

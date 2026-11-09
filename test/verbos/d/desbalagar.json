@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞alaˈɣ̞aɾ]",
+    "silabacion": "des-ba-la-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y bálago",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"desbalagar","gerundio":["desbalagando"],"participio":["desbalagado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desbalago"],"s2":["desbalagas"],"vos":["desbalagás"],"s3":["desbalaga"],"p1":["desbalagamos"],"p2":["desbalagáis"],"p3":["desbalagan"]},
+    "IndImp": {"s1":["desbalagaba"],"s2":["desbalagabas"],"vos":["desbalagabas"],"s3":["desbalagaba"],"p1":["desbalagábamos"],"p2":["desbalagabais"],"p3":["desbalagaban"]},
+    "IndPret": {"s1":["desbalagué"],"s2":["desbalagaste"],"vos":["desbalagaste"],"s3":["desbalagó"],"p1":["desbalagamos"],"p2":["desbalagasteis"],"p3":["desbalagaron"]},
+    "IndFut": {"s1":["desbalagaré"],"s2":["desbalagarás"],"vos":["desbalagarás"],"s3":["desbalagará"],"p1":["desbalagaremos"],"p2":["desbalagaréis"],"p3":["desbalagarán"]},
+    "IndCond": {"s1":["desbalagaría"],"s2":["desbalagarías"],"vos":["desbalagarías"],"s3":["desbalagaría"],"p1":["desbalagaríamos"],"p2":["desbalagaríais"],"p3":["desbalagarían"]},
+    "SubPres": {"s1":["desbalague"],"s2":["desbalagues"],"vos":["desbalagues","desbalagués"],"s3":["desbalague"],"p1":["desbalaguemos"],"p2":["desbalaguéis"],"p3":["desbalaguen"]},
+    "SubImp": {"s1":["desbalagara","desbalagase"],"s2":["desbalagaras","desbalagases"],"vos":["desbalagaras","desbalagases"],"s3":["desbalagara","desbalagase"],"p1":["desbalagáramos","desbalagásemos"],"p2":["desbalagarais","desbalagaseis"],"p3":["desbalagaran","desbalagasen"]},
+    "SubFut": {"s1":["desbalagare"],"s2":["desbalagares"],"vos":["desbalagares"],"s3":["desbalagare"],"p1":["desbalagáremos"],"p2":["desbalagareis"],"p3":["desbalagaren"]},
+    "CmdPos": {"s2":["desbalaga"],"vos":["desbalagá"],"s3":["desbalague"],"p1":["desbalaguemos"],"p2":["desbalagad"],"p3":["desbalaguen"]}
+  }
+}

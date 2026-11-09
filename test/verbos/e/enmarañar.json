@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmmaɾaˈɲaɾ]",
+    "silabacion": "en-ma-ra-ñar",
+    "acentuacion": "aguda",
+    "etimologia": "Se documenta por primera vez en 1517.[1]Del prefijo en-, maraña y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enmarañar","gerundio":["enmarañando"],"participio":["enmarañado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enmaraño"],"s2":["enmarañas"],"vos":["enmarañás"],"s3":["enmaraña"],"p1":["enmarañamos"],"p2":["enmarañáis"],"p3":["enmarañan"]},
+    "IndImp": {"s1":["enmarañaba"],"s2":["enmarañabas"],"vos":["enmarañabas"],"s3":["enmarañaba"],"p1":["enmarañábamos"],"p2":["enmarañabais"],"p3":["enmarañaban"]},
+    "IndPret": {"s1":["enmarañé"],"s2":["enmarañaste"],"vos":["enmarañaste"],"s3":["enmarañó"],"p1":["enmarañamos"],"p2":["enmarañasteis"],"p3":["enmarañaron"]},
+    "IndFut": {"s1":["enmarañaré"],"s2":["enmarañarás"],"vos":["enmarañarás"],"s3":["enmarañará"],"p1":["enmarañaremos"],"p2":["enmarañaréis"],"p3":["enmarañarán"]},
+    "IndCond": {"s1":["enmarañaría"],"s2":["enmarañarías"],"vos":["enmarañarías"],"s3":["enmarañaría"],"p1":["enmarañaríamos"],"p2":["enmarañaríais"],"p3":["enmarañarían"]},
+    "SubPres": {"s1":["enmarañe"],"s2":["enmarañes"],"vos":["enmarañes","enmarañés"],"s3":["enmarañe"],"p1":["enmarañemos"],"p2":["enmarañéis"],"p3":["enmarañen"]},
+    "SubImp": {"s1":["enmarañara","enmarañase"],"s2":["enmarañaras","enmarañases"],"vos":["enmarañaras","enmarañases"],"s3":["enmarañara","enmarañase"],"p1":["enmarañáramos","enmarañásemos"],"p2":["enmarañarais","enmarañaseis"],"p3":["enmarañaran","enmarañasen"]},
+    "SubFut": {"s1":["enmarañare"],"s2":["enmarañares"],"vos":["enmarañares"],"s3":["enmarañare"],"p1":["enmarañáremos"],"p2":["enmarañareis"],"p3":["enmarañaren"]},
+    "CmdPos": {"s2":["enmaraña"],"vos":["enmarañá"],"s3":["enmarañe"],"p1":["enmarañemos"],"p2":["enmarañad"],"p3":["enmarañen"]}
+  }
+}

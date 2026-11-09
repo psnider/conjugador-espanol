@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eʝekˈt̪aɾ]",
+    "silabacion": "e-yec-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín eiectare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"eyectar","gerundio":["eyectando"],"participio":["eyectado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["eyecto"],"s2":["eyectas"],"vos":["eyectás"],"s3":["eyecta"],"p1":["eyectamos"],"p2":["eyectáis"],"p3":["eyectan"]},
+    "IndImp": {"s1":["eyectaba"],"s2":["eyectabas"],"vos":["eyectabas"],"s3":["eyectaba"],"p1":["eyectábamos"],"p2":["eyectabais"],"p3":["eyectaban"]},
+    "IndPret": {"s1":["eyecté"],"s2":["eyectaste"],"vos":["eyectaste"],"s3":["eyectó"],"p1":["eyectamos"],"p2":["eyectasteis"],"p3":["eyectaron"]},
+    "IndFut": {"s1":["eyectaré"],"s2":["eyectarás"],"vos":["eyectarás"],"s3":["eyectará"],"p1":["eyectaremos"],"p2":["eyectaréis"],"p3":["eyectarán"]},
+    "IndCond": {"s1":["eyectaría"],"s2":["eyectarías"],"vos":["eyectarías"],"s3":["eyectaría"],"p1":["eyectaríamos"],"p2":["eyectaríais"],"p3":["eyectarían"]},
+    "SubPres": {"s1":["eyecte"],"s2":["eyectes"],"vos":["eyectes","eyectés"],"s3":["eyecte"],"p1":["eyectemos"],"p2":["eyectéis"],"p3":["eyecten"]},
+    "SubImp": {"s1":["eyectara","eyectase"],"s2":["eyectaras","eyectases"],"vos":["eyectaras","eyectases"],"s3":["eyectara","eyectase"],"p1":["eyectáramos","eyectásemos"],"p2":["eyectarais","eyectaseis"],"p3":["eyectaran","eyectasen"]},
+    "SubFut": {"s1":["eyectare"],"s2":["eyectares"],"vos":["eyectares"],"s3":["eyectare"],"p1":["eyectáremos"],"p2":["eyectareis"],"p3":["eyectaren"]},
+    "CmdPos": {"s2":["eyecta"],"vos":["eyectá"],"s3":["eyecte"],"p1":["eyectemos"],"p2":["eyectad"],"p3":["eyecten"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪aˈkaɾ]",
+    "silabacion": "des-ta-car",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"destacar","gerundio":["destacando"],"participio":["destacado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["destaco"],"s2":["destacas"],"vos":["destacás"],"s3":["destaca"],"p1":["destacamos"],"p2":["destacáis"],"p3":["destacan"]},
+    "IndImp": {"s1":["destacaba"],"s2":["destacabas"],"vos":["destacabas"],"s3":["destacaba"],"p1":["destacábamos"],"p2":["destacabais"],"p3":["destacaban"]},
+    "IndPret": {"s1":["destaqué"],"s2":["destacaste"],"vos":["destacaste"],"s3":["destacó"],"p1":["destacamos"],"p2":["destacasteis"],"p3":["destacaron"]},
+    "IndFut": {"s1":["destacaré"],"s2":["destacarás"],"vos":["destacarás"],"s3":["destacará"],"p1":["destacaremos"],"p2":["destacaréis"],"p3":["destacarán"]},
+    "IndCond": {"s1":["destacaría"],"s2":["destacarías"],"vos":["destacarías"],"s3":["destacaría"],"p1":["destacaríamos"],"p2":["destacaríais"],"p3":["destacarían"]},
+    "SubPres": {"s1":["destaque"],"s2":["destaques"],"vos":["destaques","destaqués"],"s3":["destaque"],"p1":["destaquemos"],"p2":["destaquéis"],"p3":["destaquen"]},
+    "SubImp": {"s1":["destacara","destacase"],"s2":["destacaras","destacases"],"vos":["destacaras","destacases"],"s3":["destacara","destacase"],"p1":["destacáramos","destacásemos"],"p2":["destacarais","destacaseis"],"p3":["destacaran","destacasen"]},
+    "SubFut": {"s1":["destacare"],"s2":["destacares"],"vos":["destacares"],"s3":["destacare"],"p1":["destacáremos"],"p2":["destacareis"],"p3":["destacaren"]},
+    "CmdPos": {"s2":["destaca"],"vos":["destacá"],"s3":["destaque"],"p1":["destaquemos"],"p2":["destacad"],"p3":["destaquen"]}
+  }
+}

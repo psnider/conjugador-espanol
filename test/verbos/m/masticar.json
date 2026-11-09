@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[mast̪iˈkaɾ]",
+    "silabacion": "mas-ti-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín masticare, con el mismo significado.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"masticar","gerundio":["masticando"],"participio":["masticado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["mastico"],"s2":["masticas"],"vos":["masticás"],"s3":["mastica"],"p1":["masticamos"],"p2":["masticáis"],"p3":["mastican"]},
+    "IndImp": {"s1":["masticaba"],"s2":["masticabas"],"vos":["masticabas"],"s3":["masticaba"],"p1":["masticábamos"],"p2":["masticabais"],"p3":["masticaban"]},
+    "IndPret": {"s1":["mastiqué"],"s2":["masticaste"],"vos":["masticaste"],"s3":["masticó"],"p1":["masticamos"],"p2":["masticasteis"],"p3":["masticaron"]},
+    "IndFut": {"s1":["masticaré"],"s2":["masticarás"],"vos":["masticarás"],"s3":["masticará"],"p1":["masticaremos"],"p2":["masticaréis"],"p3":["masticarán"]},
+    "IndCond": {"s1":["masticaría"],"s2":["masticarías"],"vos":["masticarías"],"s3":["masticaría"],"p1":["masticaríamos"],"p2":["masticaríais"],"p3":["masticarían"]},
+    "SubPres": {"s1":["mastique"],"s2":["mastiques"],"vos":["mastiques","mastiqués"],"s3":["mastique"],"p1":["mastiquemos"],"p2":["mastiquéis"],"p3":["mastiquen"]},
+    "SubImp": {"s1":["masticara","masticase"],"s2":["masticaras","masticases"],"vos":["masticaras","masticases"],"s3":["masticara","masticase"],"p1":["masticáramos","masticásemos"],"p2":["masticarais","masticaseis"],"p3":["masticaran","masticasen"]},
+    "SubFut": {"s1":["masticare"],"s2":["masticares"],"vos":["masticares"],"s3":["masticare"],"p1":["masticáremos"],"p2":["masticareis"],"p3":["masticaren"]},
+    "CmdPos": {"s2":["mastica"],"vos":["masticá"],"s3":["mastique"],"p1":["mastiquemos"],"p2":["masticad"],"p3":["mastiquen"]}
+  }
+}

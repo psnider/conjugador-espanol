@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esẽnsiˈʝaɾ]",
+    "silabacion": "des-en-si-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y ensillar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desensillar","gerundio":["desensillando"],"participio":["desensillado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desensillo"],"s2":["desensillas"],"vos":["desensillás"],"s3":["desensilla"],"p1":["desensillamos"],"p2":["desensilláis"],"p3":["desensillan"]},
+    "IndImp": {"s1":["desensillaba"],"s2":["desensillabas"],"vos":["desensillabas"],"s3":["desensillaba"],"p1":["desensillábamos"],"p2":["desensillabais"],"p3":["desensillaban"]},
+    "IndPret": {"s1":["desensillé"],"s2":["desensillaste"],"vos":["desensillaste"],"s3":["desensilló"],"p1":["desensillamos"],"p2":["desensillasteis"],"p3":["desensillaron"]},
+    "IndFut": {"s1":["desensillaré"],"s2":["desensillarás"],"vos":["desensillarás"],"s3":["desensillará"],"p1":["desensillaremos"],"p2":["desensillaréis"],"p3":["desensillarán"]},
+    "IndCond": {"s1":["desensillaría"],"s2":["desensillarías"],"vos":["desensillarías"],"s3":["desensillaría"],"p1":["desensillaríamos"],"p2":["desensillaríais"],"p3":["desensillarían"]},
+    "SubPres": {"s1":["desensille"],"s2":["desensilles"],"vos":["desensilles","desensillés"],"s3":["desensille"],"p1":["desensillemos"],"p2":["desensilléis"],"p3":["desensillen"]},
+    "SubImp": {"s1":["desensillara","desensillase"],"s2":["desensillaras","desensillases"],"vos":["desensillaras","desensillases"],"s3":["desensillara","desensillase"],"p1":["desensilláramos","desensillásemos"],"p2":["desensillarais","desensillaseis"],"p3":["desensillaran","desensillasen"]},
+    "SubFut": {"s1":["desensillare"],"s2":["desensillares"],"vos":["desensillares"],"s3":["desensillare"],"p1":["desensilláremos"],"p2":["desensillareis"],"p3":["desensillaren"]},
+    "CmdPos": {"s2":["desensilla"],"vos":["desensillá"],"s3":["desensille"],"p1":["desensillemos"],"p2":["desensillad"],"p3":["desensillen"]}
+  }
+}

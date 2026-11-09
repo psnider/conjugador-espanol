@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩnsiˈð̞iɾ]",
+    "silabacion": "in-ci-dir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"incidir","gerundio":["incidiendo"],"participio":["incidido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["incido"],"s2":["incides"],"vos":["incidís"],"s3":["incide"],"p1":["incidimos"],"p2":["incidís"],"p3":["inciden"]},
+    "IndImp": {"s1":["incidía"],"s2":["incidías"],"vos":["incidías"],"s3":["incidía"],"p1":["incidíamos"],"p2":["incidíais"],"p3":["incidían"]},
+    "IndPret": {"s1":["incidí"],"s2":["incidiste"],"vos":["incidiste"],"s3":["incidió"],"p1":["incidimos"],"p2":["incidisteis"],"p3":["incidieron"]},
+    "IndFut": {"s1":["incidiré"],"s2":["incidirás"],"vos":["incidirás"],"s3":["incidirá"],"p1":["incidiremos"],"p2":["incidiréis"],"p3":["incidirán"]},
+    "IndCond": {"s1":["incidiría"],"s2":["incidirías"],"vos":["incidirías"],"s3":["incidiría"],"p1":["incidiríamos"],"p2":["incidiríais"],"p3":["incidirían"]},
+    "SubPres": {"s1":["incida"],"s2":["incidas"],"vos":["incidas","incidás"],"s3":["incida"],"p1":["incidamos"],"p2":["incidáis"],"p3":["incidan"]},
+    "SubImp": {"s1":["incidiera","incidiese"],"s2":["incidieras","incidieses"],"vos":["incidieras","incidieses"],"s3":["incidiera","incidiese"],"p1":["incidiéramos","incidiésemos"],"p2":["incidierais","incidieseis"],"p3":["incidieran","incidiesen"]},
+    "SubFut": {"s1":["incidiere"],"s2":["incidieres"],"vos":["incidieres"],"s3":["incidiere"],"p1":["incidiéremos"],"p2":["incidiereis"],"p3":["incidieren"]},
+    "CmdPos": {"s2":["incide"],"vos":["incidí"],"s3":["incida"],"p1":["incidamos"],"p2":["incidid"],"p3":["incidan"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaspoˈneɾ]",
+    "silabacion": "tras-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín transponĕre.[1]",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"trasponer","gerundio":["trasponiendo"],"participio":["traspuesto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["traspongo"],"s2":["traspones"],"vos":["trasponés"],"s3":["traspone"],"p1":["trasponemos"],"p2":["trasponéis"],"p3":["trasponen"]},
+    "IndImp": {"s1":["trasponía"],"s2":["trasponías"],"vos":["trasponías"],"s3":["trasponía"],"p1":["trasponíamos"],"p2":["trasponíais"],"p3":["trasponían"]},
+    "IndPret": {"s1":["traspuse"],"s2":["traspusiste"],"vos":["traspusiste"],"s3":["traspuso"],"p1":["traspusimos"],"p2":["traspusisteis"],"p3":["traspusieron"]},
+    "IndFut": {"s1":["traspondré"],"s2":["traspondrás"],"vos":["traspondrás"],"s3":["traspondrá"],"p1":["traspondremos"],"p2":["traspondréis"],"p3":["traspondrán"]},
+    "IndCond": {"s1":["traspondría"],"s2":["traspondrías"],"vos":["traspondrías"],"s3":["traspondría"],"p1":["traspondríamos"],"p2":["traspondríais"],"p3":["traspondrían"]},
+    "SubPres": {"s1":["trasponga"],"s2":["traspongas"],"vos":["traspongas","traspongás"],"s3":["trasponga"],"p1":["traspongamos"],"p2":["traspongáis"],"p3":["traspongan"]},
+    "SubImp": {"s1":["traspusiera","traspusiese"],"s2":["traspusieras","traspusieses"],"vos":["traspusieras","traspusieses"],"s3":["traspusiera","traspusiese"],"p1":["traspusiéramos","traspusiésemos"],"p2":["traspusierais","traspusieseis"],"p3":["traspusieran","traspusiesen"]},
+    "SubFut": {"s1":["traspusiere"],"s2":["traspusieres"],"vos":["traspusieres"],"s3":["traspusiere"],"p1":["traspusiéremos"],"p2":["traspusiereis"],"p3":["traspusieren"]},
+    "CmdPos": {"s2":["traspón",{"forma":"traspone","uso":"no normativo"}],"vos":["trasponé"],"s3":["trasponga"],"p1":["traspongamos"],"p2":["trasponed"],"p3":["traspongan"]}
+  }
+}

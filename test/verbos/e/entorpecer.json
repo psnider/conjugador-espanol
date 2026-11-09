@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪oɾpeˈseɾ]",
+    "silabacion": "en-tor-pe-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, torpe y el sufijo -ecer",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"entorpecer","gerundio":["entorpeciendo"],"participio":["entorpecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entorpezco"],"s2":["entorpeces"],"vos":["entorpecés"],"s3":["entorpece"],"p1":["entorpecemos"],"p2":["entorpecéis"],"p3":["entorpecen"]},
+    "IndImp": {"s1":["entorpecía"],"s2":["entorpecías"],"vos":["entorpecías"],"s3":["entorpecía"],"p1":["entorpecíamos"],"p2":["entorpecíais"],"p3":["entorpecían"]},
+    "IndPret": {"s1":["entorpecí"],"s2":["entorpeciste"],"vos":["entorpeciste"],"s3":["entorpeció"],"p1":["entorpecimos"],"p2":["entorpecisteis"],"p3":["entorpecieron"]},
+    "IndFut": {"s1":["entorpeceré"],"s2":["entorpecerás"],"vos":["entorpecerás"],"s3":["entorpecerá"],"p1":["entorpeceremos"],"p2":["entorpeceréis"],"p3":["entorpecerán"]},
+    "IndCond": {"s1":["entorpecería"],"s2":["entorpecerías"],"vos":["entorpecerías"],"s3":["entorpecería"],"p1":["entorpeceríamos"],"p2":["entorpeceríais"],"p3":["entorpecerían"]},
+    "SubPres": {"s1":["entorpezca"],"s2":["entorpezcas"],"vos":["entorpezcas","entorpezcás"],"s3":["entorpezca"],"p1":["entorpezcamos"],"p2":["entorpezcáis"],"p3":["entorpezcan"]},
+    "SubImp": {"s1":["entorpeciera","entorpeciese"],"s2":["entorpecieras","entorpecieses"],"vos":["entorpecieras","entorpecieses"],"s3":["entorpeciera","entorpeciese"],"p1":["entorpeciéramos","entorpeciésemos"],"p2":["entorpecierais","entorpecieseis"],"p3":["entorpecieran","entorpeciesen"]},
+    "SubFut": {"s1":["entorpeciere"],"s2":["entorpecieres"],"vos":["entorpecieres"],"s3":["entorpeciere"],"p1":["entorpeciéremos"],"p2":["entorpeciereis"],"p3":["entorpecieren"]},
+    "CmdPos": {"s2":["entorpece"],"vos":["entorpecé"],"s3":["entorpezca"],"p1":["entorpezcamos"],"p2":["entorpeced"],"p3":["entorpezcan"]}
+  }
+}

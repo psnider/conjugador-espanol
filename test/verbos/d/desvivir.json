@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esβ̞iˈβ̞iɾ]",
+    "silabacion": "des-vi-vir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y vivir",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"desvivir","gerundio":["desviviendo"],"participio":["desvivido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desvivo"],"s2":["desvives"],"vos":["desvivís"],"s3":["desvive"],"p1":["desvivimos"],"p2":["desvivís"],"p3":["desviven"]},
+    "IndImp": {"s1":["desvivía"],"s2":["desvivías"],"vos":["desvivías"],"s3":["desvivía"],"p1":["desvivíamos"],"p2":["desvivíais"],"p3":["desvivían"]},
+    "IndPret": {"s1":["desviví"],"s2":["desviviste"],"vos":["desviviste"],"s3":["desvivió"],"p1":["desvivimos"],"p2":["desvivisteis"],"p3":["desvivieron"]},
+    "IndFut": {"s1":["desviviré"],"s2":["desvivirás"],"vos":["desvivirás"],"s3":["desvivirá"],"p1":["desviviremos"],"p2":["desviviréis"],"p3":["desvivirán"]},
+    "IndCond": {"s1":["desviviría"],"s2":["desvivirías"],"vos":["desvivirías"],"s3":["desviviría"],"p1":["desviviríamos"],"p2":["desviviríais"],"p3":["desvivirían"]},
+    "SubPres": {"s1":["desviva"],"s2":["desvivas"],"vos":["desvivas","desvivás"],"s3":["desviva"],"p1":["desvivamos"],"p2":["desviváis"],"p3":["desvivan"]},
+    "SubImp": {"s1":["desviviera","desviviese"],"s2":["desvivieras","desvivieses"],"vos":["desvivieras","desvivieses"],"s3":["desviviera","desviviese"],"p1":["desviviéramos","desviviésemos"],"p2":["desvivierais","desvivieseis"],"p3":["desvivieran","desviviesen"]},
+    "SubFut": {"s1":["desviviere"],"s2":["desvivieres"],"vos":["desvivieres"],"s3":["desviviere"],"p1":["desviviéremos"],"p2":["desviviereis"],"p3":["desvivieren"]},
+    "CmdPos": {"s2":["desvive"],"vos":["desviví"],"s3":["desviva"],"p1":["desvivamos"],"p2":["desvivid"],"p3":["desvivan"]}
+  }
+}

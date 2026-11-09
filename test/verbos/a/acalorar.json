@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akaloˈɾaɾ]",
+    "silabacion": "a-ca-lo-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acalorar","gerundio":["acalorando"],"participio":["acalorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acaloro"],"s2":["acaloras"],"vos":["acalorás"],"s3":["acalora"],"p1":["acaloramos"],"p2":["acaloráis"],"p3":["acaloran"]},
+    "IndImp": {"s1":["acaloraba"],"s2":["acalorabas"],"vos":["acalorabas"],"s3":["acaloraba"],"p1":["acalorábamos"],"p2":["acalorabais"],"p3":["acaloraban"]},
+    "IndPret": {"s1":["acaloré"],"s2":["acaloraste"],"vos":["acaloraste"],"s3":["acaloró"],"p1":["acaloramos"],"p2":["acalorasteis"],"p3":["acaloraron"]},
+    "IndFut": {"s1":["acaloraré"],"s2":["acalorarás"],"vos":["acalorarás"],"s3":["acalorará"],"p1":["acaloraremos"],"p2":["acaloraréis"],"p3":["acalorarán"]},
+    "IndCond": {"s1":["acaloraría"],"s2":["acalorarías"],"vos":["acalorarías"],"s3":["acaloraría"],"p1":["acaloraríamos"],"p2":["acaloraríais"],"p3":["acalorarían"]},
+    "SubPres": {"s1":["acalore"],"s2":["acalores"],"vos":["acalores","acalorés"],"s3":["acalore"],"p1":["acaloremos"],"p2":["acaloréis"],"p3":["acaloren"]},
+    "SubImp": {"s1":["acalorara","acalorase"],"s2":["acaloraras","acalorases"],"vos":["acaloraras","acalorases"],"s3":["acalorara","acalorase"],"p1":["acaloráramos","acalorásemos"],"p2":["acalorarais","acaloraseis"],"p3":["acaloraran","acalorasen"]},
+    "SubFut": {"s1":["acalorare"],"s2":["acalorares"],"vos":["acalorares"],"s3":["acalorare"],"p1":["acaloráremos"],"p2":["acalorareis"],"p3":["acaloraren"]},
+    "CmdPos": {"s2":["acalora"],"vos":["acalorá"],"s3":["acalore"],"p1":["acaloremos"],"p2":["acalorad"],"p3":["acaloren"]}
+  }
+}

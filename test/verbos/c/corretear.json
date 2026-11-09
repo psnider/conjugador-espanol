@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[koret̪eˈaɾ]",
+    "silabacion": "co-rre-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De correr y el sufijo -ear, con epéntesis de -t-.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"corretear","gerundio":["correteando"],"participio":["correteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["correteo"],"s2":["correteas"],"vos":["correteás"],"s3":["corretea"],"p1":["correteamos"],"p2":["correteáis"],"p3":["corretean"]},
+    "IndImp": {"s1":["correteaba"],"s2":["correteabas"],"vos":["correteabas"],"s3":["correteaba"],"p1":["correteábamos"],"p2":["correteabais"],"p3":["correteaban"]},
+    "IndPret": {"s1":["correteé"],"s2":["correteaste"],"vos":["correteaste"],"s3":["correteó"],"p1":["correteamos"],"p2":["correteasteis"],"p3":["corretearon"]},
+    "IndFut": {"s1":["corretearé"],"s2":["corretearás"],"vos":["corretearás"],"s3":["correteará"],"p1":["corretearemos"],"p2":["corretearéis"],"p3":["corretearán"]},
+    "IndCond": {"s1":["corretearía"],"s2":["corretearías"],"vos":["corretearías"],"s3":["corretearía"],"p1":["corretearíamos"],"p2":["corretearíais"],"p3":["corretearían"]},
+    "SubPres": {"s1":["corretee"],"s2":["corretees"],"vos":["corretees","correteés"],"s3":["corretee"],"p1":["correteemos"],"p2":["correteéis"],"p3":["correteen"]},
+    "SubImp": {"s1":["correteara","corretease"],"s2":["corretearas","correteases"],"vos":["corretearas","correteases"],"s3":["correteara","corretease"],"p1":["correteáramos","correteásemos"],"p2":["corretearais","correteaseis"],"p3":["corretearan","correteasen"]},
+    "SubFut": {"s1":["correteare"],"s2":["correteares"],"vos":["correteares"],"s3":["correteare"],"p1":["correteáremos"],"p2":["correteareis"],"p3":["corretearen"]},
+    "CmdPos": {"s2":["corretea"],"vos":["correteá"],"s3":["corretee"],"p1":["correteemos"],"p2":["corretead"],"p3":["correteen"]}
+  }
+}

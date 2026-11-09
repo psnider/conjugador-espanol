@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[õn̪d̪eˈaɾ]",
+    "silabacion": "on-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De onda y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ondear","gerundio":["ondeando"],"participio":["ondeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ondeo"],"s2":["ondeas"],"vos":["ondeás"],"s3":["ondea"],"p1":["ondeamos"],"p2":["ondeáis"],"p3":["ondean"]},
+    "IndImp": {"s1":["ondeaba"],"s2":["ondeabas"],"vos":["ondeabas"],"s3":["ondeaba"],"p1":["ondeábamos"],"p2":["ondeabais"],"p3":["ondeaban"]},
+    "IndPret": {"s1":["ondeé"],"s2":["ondeaste"],"vos":["ondeaste"],"s3":["ondeó"],"p1":["ondeamos"],"p2":["ondeasteis"],"p3":["ondearon"]},
+    "IndFut": {"s1":["ondearé"],"s2":["ondearás"],"vos":["ondearás"],"s3":["ondeará"],"p1":["ondearemos"],"p2":["ondearéis"],"p3":["ondearán"]},
+    "IndCond": {"s1":["ondearía"],"s2":["ondearías"],"vos":["ondearías"],"s3":["ondearía"],"p1":["ondearíamos"],"p2":["ondearíais"],"p3":["ondearían"]},
+    "SubPres": {"s1":["ondee"],"s2":["ondees"],"vos":["ondees","ondeés"],"s3":["ondee"],"p1":["ondeemos"],"p2":["ondeéis"],"p3":["ondeen"]},
+    "SubImp": {"s1":["ondeara","ondease"],"s2":["ondearas","ondeases"],"vos":["ondearas","ondeases"],"s3":["ondeara","ondease"],"p1":["ondeáramos","ondeásemos"],"p2":["ondearais","ondeaseis"],"p3":["ondearan","ondeasen"]},
+    "SubFut": {"s1":["ondeare"],"s2":["ondeares"],"vos":["ondeares"],"s3":["ondeare"],"p1":["ondeáremos"],"p2":["ondeareis"],"p3":["ondearen"]},
+    "CmdPos": {"s2":["ondea"],"vos":["ondeá"],"s3":["ondee"],"p1":["ondeemos"],"p2":["ondead"],"p3":["ondeen"]}
+  }
+}

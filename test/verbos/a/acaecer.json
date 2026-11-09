@@ -16,6 +16,7 @@
     "SubPres": {"s3":["acaezca"],"p3":["acaezcan"]},
     "SubImp": {"s3":["acaeciera","acaeciese"],"p3":["acaecieran","acaeciesen"]},
     "SubFut": {"s3":["acaeciere"],"p3":["acaecieren"]},
-    "CmdPos": null
+    "CmdPos": null,
+    "CmdNeg": null
   }
 }

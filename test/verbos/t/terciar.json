@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪eɾˈsjaɾ]",
+    "silabacion": "ter-ciar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"terciar","gerundio":["terciando"],"participio":["terciado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tercio"],"s2":["tercias"],"vos":["terciás"],"s3":["tercia"],"p1":["terciamos"],"p2":["terciáis"],"p3":["tercian"]},
+    "IndImp": {"s1":["terciaba"],"s2":["terciabas"],"vos":["terciabas"],"s3":["terciaba"],"p1":["terciábamos"],"p2":["terciabais"],"p3":["terciaban"]},
+    "IndPret": {"s1":["tercié"],"s2":["terciaste"],"vos":["terciaste"],"s3":["terció"],"p1":["terciamos"],"p2":["terciasteis"],"p3":["terciaron"]},
+    "IndFut": {"s1":["terciaré"],"s2":["terciarás"],"vos":["terciarás"],"s3":["terciará"],"p1":["terciaremos"],"p2":["terciaréis"],"p3":["terciarán"]},
+    "IndCond": {"s1":["terciaría"],"s2":["terciarías"],"vos":["terciarías"],"s3":["terciaría"],"p1":["terciaríamos"],"p2":["terciaríais"],"p3":["terciarían"]},
+    "SubPres": {"s1":["tercie"],"s2":["tercies"],"vos":["tercies","terciés"],"s3":["tercie"],"p1":["terciemos"],"p2":["terciéis"],"p3":["tercien"]},
+    "SubImp": {"s1":["terciara","terciase"],"s2":["terciaras","terciases"],"vos":["terciaras","terciases"],"s3":["terciara","terciase"],"p1":["terciáramos","terciásemos"],"p2":["terciarais","terciaseis"],"p3":["terciaran","terciasen"]},
+    "SubFut": {"s1":["terciare"],"s2":["terciares"],"vos":["terciares"],"s3":["terciare"],"p1":["terciáremos"],"p2":["terciareis"],"p3":["terciaren"]},
+    "CmdPos": {"s2":["tercia"],"vos":["terciá"],"s3":["tercie"],"p1":["terciemos"],"p2":["terciad"],"p3":["tercien"]}
+  }
+}

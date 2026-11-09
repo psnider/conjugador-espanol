@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[amaɾiʝeˈaɾ]",
+    "silabacion": "a-ma-ri-lle-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De amarillo y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"amarillear","gerundio":["amarilleando"],"participio":["amarilleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["amarilleo"],"s2":["amarilleas"],"vos":["amarilleás"],"s3":["amarillea"],"p1":["amarilleamos"],"p2":["amarilleáis"],"p3":["amarillean"]},
+    "IndImp": {"s1":["amarilleaba"],"s2":["amarilleabas"],"vos":["amarilleabas"],"s3":["amarilleaba"],"p1":["amarilleábamos"],"p2":["amarilleabais"],"p3":["amarilleaban"]},
+    "IndPret": {"s1":["amarilleé"],"s2":["amarilleaste"],"vos":["amarilleaste"],"s3":["amarilleó"],"p1":["amarilleamos"],"p2":["amarilleasteis"],"p3":["amarillearon"]},
+    "IndFut": {"s1":["amarillearé"],"s2":["amarillearás"],"vos":["amarillearás"],"s3":["amarilleará"],"p1":["amarillearemos"],"p2":["amarillearéis"],"p3":["amarillearán"]},
+    "IndCond": {"s1":["amarillearía"],"s2":["amarillearías"],"vos":["amarillearías"],"s3":["amarillearía"],"p1":["amarillearíamos"],"p2":["amarillearíais"],"p3":["amarillearían"]},
+    "SubPres": {"s1":["amarillee"],"s2":["amarillees"],"vos":["amarillees","amarilleés"],"s3":["amarillee"],"p1":["amarilleemos"],"p2":["amarilleéis"],"p3":["amarilleen"]},
+    "SubImp": {"s1":["amarilleara","amarillease"],"s2":["amarillearas","amarilleases"],"vos":["amarillearas","amarilleases"],"s3":["amarilleara","amarillease"],"p1":["amarilleáramos","amarilleásemos"],"p2":["amarillearais","amarilleaseis"],"p3":["amarillearan","amarilleasen"]},
+    "SubFut": {"s1":["amarilleare"],"s2":["amarilleares"],"vos":["amarilleares"],"s3":["amarilleare"],"p1":["amarilleáremos"],"p2":["amarilleareis"],"p3":["amarillearen"]},
+    "CmdPos": {"s2":["amarillea"],"vos":["amarilleá"],"s3":["amarillee"],"p1":["amarilleemos"],"p2":["amarillead"],"p3":["amarilleen"]}
+  }
+}

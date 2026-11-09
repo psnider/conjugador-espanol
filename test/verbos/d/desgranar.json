@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esɣ̞ɾaˈnaɾ]",
+    "silabacion": "des-gra-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, grano y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desgranar","gerundio":["desgranando"],"participio":["desgranado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desgrano"],"s2":["desgranas"],"vos":["desgranás"],"s3":["desgrana"],"p1":["desgranamos"],"p2":["desgranáis"],"p3":["desgranan"]},
+    "IndImp": {"s1":["desgranaba"],"s2":["desgranabas"],"vos":["desgranabas"],"s3":["desgranaba"],"p1":["desgranábamos"],"p2":["desgranabais"],"p3":["desgranaban"]},
+    "IndPret": {"s1":["desgrané"],"s2":["desgranaste"],"vos":["desgranaste"],"s3":["desgranó"],"p1":["desgranamos"],"p2":["desgranasteis"],"p3":["desgranaron"]},
+    "IndFut": {"s1":["desgranaré"],"s2":["desgranarás"],"vos":["desgranarás"],"s3":["desgranará"],"p1":["desgranaremos"],"p2":["desgranaréis"],"p3":["desgranarán"]},
+    "IndCond": {"s1":["desgranaría"],"s2":["desgranarías"],"vos":["desgranarías"],"s3":["desgranaría"],"p1":["desgranaríamos"],"p2":["desgranaríais"],"p3":["desgranarían"]},
+    "SubPres": {"s1":["desgrane"],"s2":["desgranes"],"vos":["desgranes","desgranés"],"s3":["desgrane"],"p1":["desgranemos"],"p2":["desgranéis"],"p3":["desgranen"]},
+    "SubImp": {"s1":["desgranara","desgranase"],"s2":["desgranaras","desgranases"],"vos":["desgranaras","desgranases"],"s3":["desgranara","desgranase"],"p1":["desgranáramos","desgranásemos"],"p2":["desgranarais","desgranaseis"],"p3":["desgranaran","desgranasen"]},
+    "SubFut": {"s1":["desgranare"],"s2":["desgranares"],"vos":["desgranares"],"s3":["desgranare"],"p1":["desgranáremos"],"p2":["desgranareis"],"p3":["desgranaren"]},
+    "CmdPos": {"s2":["desgrana"],"vos":["desgraná"],"s3":["desgrane"],"p1":["desgranemos"],"p2":["desgranad"],"p3":["desgranen"]}
+  }
+}

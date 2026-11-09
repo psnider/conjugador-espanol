@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pjaˈfaɾ]",
+    "silabacion": "pia-far",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés piaffer.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"piafar","gerundio":["piafando"],"participio":["piafado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["piafo"],"s2":["piafas"],"vos":["piafás"],"s3":["piafa"],"p1":["piafamos"],"p2":["piafáis"],"p3":["piafan"]},
+    "IndImp": {"s1":["piafaba"],"s2":["piafabas"],"vos":["piafabas"],"s3":["piafaba"],"p1":["piafábamos"],"p2":["piafabais"],"p3":["piafaban"]},
+    "IndPret": {"s1":["piafé"],"s2":["piafaste"],"vos":["piafaste"],"s3":["piafó"],"p1":["piafamos"],"p2":["piafasteis"],"p3":["piafaron"]},
+    "IndFut": {"s1":["piafaré"],"s2":["piafarás"],"vos":["piafarás"],"s3":["piafará"],"p1":["piafaremos"],"p2":["piafaréis"],"p3":["piafarán"]},
+    "IndCond": {"s1":["piafaría"],"s2":["piafarías"],"vos":["piafarías"],"s3":["piafaría"],"p1":["piafaríamos"],"p2":["piafaríais"],"p3":["piafarían"]},
+    "SubPres": {"s1":["piafe"],"s2":["piafes"],"vos":["piafes","piafés"],"s3":["piafe"],"p1":["piafemos"],"p2":["piaféis"],"p3":["piafen"]},
+    "SubImp": {"s1":["piafara","piafase"],"s2":["piafaras","piafases"],"vos":["piafaras","piafases"],"s3":["piafara","piafase"],"p1":["piafáramos","piafásemos"],"p2":["piafarais","piafaseis"],"p3":["piafaran","piafasen"]},
+    "SubFut": {"s1":["piafare"],"s2":["piafares"],"vos":["piafares"],"s3":["piafare"],"p1":["piafáremos"],"p2":["piafareis"],"p3":["piafaren"]},
+    "CmdPos": {"s2":["piafa"],"vos":["piafá"],"s3":["piafe"],"p1":["piafemos"],"p2":["piafad"],"p3":["piafen"]}
+  }
+}

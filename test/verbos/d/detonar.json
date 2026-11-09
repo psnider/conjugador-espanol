@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪et̪oˈnaɾ]",
+    "silabacion": "de-to-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín detonāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"detonar","gerundio":["detonando"],"participio":["detonado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["detono"],"s2":["detonas"],"vos":["detonás"],"s3":["detona"],"p1":["detonamos"],"p2":["detonáis"],"p3":["detonan"]},
+    "IndImp": {"s1":["detonaba"],"s2":["detonabas"],"vos":["detonabas"],"s3":["detonaba"],"p1":["detonábamos"],"p2":["detonabais"],"p3":["detonaban"]},
+    "IndPret": {"s1":["detoné"],"s2":["detonaste"],"vos":["detonaste"],"s3":["detonó"],"p1":["detonamos"],"p2":["detonasteis"],"p3":["detonaron"]},
+    "IndFut": {"s1":["detonaré"],"s2":["detonarás"],"vos":["detonarás"],"s3":["detonará"],"p1":["detonaremos"],"p2":["detonaréis"],"p3":["detonarán"]},
+    "IndCond": {"s1":["detonaría"],"s2":["detonarías"],"vos":["detonarías"],"s3":["detonaría"],"p1":["detonaríamos"],"p2":["detonaríais"],"p3":["detonarían"]},
+    "SubPres": {"s1":["detone"],"s2":["detones"],"vos":["detones","detonés"],"s3":["detone"],"p1":["detonemos"],"p2":["detonéis"],"p3":["detonen"]},
+    "SubImp": {"s1":["detonara","detonase"],"s2":["detonaras","detonases"],"vos":["detonaras","detonases"],"s3":["detonara","detonase"],"p1":["detonáramos","detonásemos"],"p2":["detonarais","detonaseis"],"p3":["detonaran","detonasen"]},
+    "SubFut": {"s1":["detonare"],"s2":["detonares"],"vos":["detonares"],"s3":["detonare"],"p1":["detonáremos"],"p2":["detonareis"],"p3":["detonaren"]},
+    "CmdPos": {"s2":["detona"],"vos":["detoná"],"s3":["detone"],"p1":["detonemos"],"p2":["detonad"],"p3":["detonen"]}
+  }
+}

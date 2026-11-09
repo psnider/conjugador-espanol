@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾãnsiˈt̪aɾ]",
+    "silabacion": "tran-si-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"transitar","gerundio":["transitando"],"participio":["transitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["transito"],"s2":["transitas"],"vos":["transitás"],"s3":["transita"],"p1":["transitamos"],"p2":["transitáis"],"p3":["transitan"]},
+    "IndImp": {"s1":["transitaba"],"s2":["transitabas"],"vos":["transitabas"],"s3":["transitaba"],"p1":["transitábamos"],"p2":["transitabais"],"p3":["transitaban"]},
+    "IndPret": {"s1":["transité"],"s2":["transitaste"],"vos":["transitaste"],"s3":["transitó"],"p1":["transitamos"],"p2":["transitasteis"],"p3":["transitaron"]},
+    "IndFut": {"s1":["transitaré"],"s2":["transitarás"],"vos":["transitarás"],"s3":["transitará"],"p1":["transitaremos"],"p2":["transitaréis"],"p3":["transitarán"]},
+    "IndCond": {"s1":["transitaría"],"s2":["transitarías"],"vos":["transitarías"],"s3":["transitaría"],"p1":["transitaríamos"],"p2":["transitaríais"],"p3":["transitarían"]},
+    "SubPres": {"s1":["transite"],"s2":["transites"],"vos":["transites","transités"],"s3":["transite"],"p1":["transitemos"],"p2":["transitéis"],"p3":["transiten"]},
+    "SubImp": {"s1":["transitara","transitase"],"s2":["transitaras","transitases"],"vos":["transitaras","transitases"],"s3":["transitara","transitase"],"p1":["transitáramos","transitásemos"],"p2":["transitarais","transitaseis"],"p3":["transitaran","transitasen"]},
+    "SubFut": {"s1":["transitare"],"s2":["transitares"],"vos":["transitares"],"s3":["transitare"],"p1":["transitáremos"],"p2":["transitareis"],"p3":["transitaren"]},
+    "CmdPos": {"s2":["transita"],"vos":["transitá"],"s3":["transite"],"p1":["transitemos"],"p2":["transitad"],"p3":["transiten"]}
+  }
+}

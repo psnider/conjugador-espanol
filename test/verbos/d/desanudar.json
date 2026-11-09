@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esanuˈð̞aɾ]",
+    "silabacion": "des-a-nu-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y anudar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desanudar","gerundio":["desanudando"],"participio":["desanudado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desanudo"],"s2":["desanudas"],"vos":["desanudás"],"s3":["desanuda"],"p1":["desanudamos"],"p2":["desanudáis"],"p3":["desanudan"]},
+    "IndImp": {"s1":["desanudaba"],"s2":["desanudabas"],"vos":["desanudabas"],"s3":["desanudaba"],"p1":["desanudábamos"],"p2":["desanudabais"],"p3":["desanudaban"]},
+    "IndPret": {"s1":["desanudé"],"s2":["desanudaste"],"vos":["desanudaste"],"s3":["desanudó"],"p1":["desanudamos"],"p2":["desanudasteis"],"p3":["desanudaron"]},
+    "IndFut": {"s1":["desanudaré"],"s2":["desanudarás"],"vos":["desanudarás"],"s3":["desanudará"],"p1":["desanudaremos"],"p2":["desanudaréis"],"p3":["desanudarán"]},
+    "IndCond": {"s1":["desanudaría"],"s2":["desanudarías"],"vos":["desanudarías"],"s3":["desanudaría"],"p1":["desanudaríamos"],"p2":["desanudaríais"],"p3":["desanudarían"]},
+    "SubPres": {"s1":["desanude"],"s2":["desanudes"],"vos":["desanudes","desanudés"],"s3":["desanude"],"p1":["desanudemos"],"p2":["desanudéis"],"p3":["desanuden"]},
+    "SubImp": {"s1":["desanudara","desanudase"],"s2":["desanudaras","desanudases"],"vos":["desanudaras","desanudases"],"s3":["desanudara","desanudase"],"p1":["desanudáramos","desanudásemos"],"p2":["desanudarais","desanudaseis"],"p3":["desanudaran","desanudasen"]},
+    "SubFut": {"s1":["desanudare"],"s2":["desanudares"],"vos":["desanudares"],"s3":["desanudare"],"p1":["desanudáremos"],"p2":["desanudareis"],"p3":["desanudaren"]},
+    "CmdPos": {"s2":["desanuda"],"vos":["desanudá"],"s3":["desanude"],"p1":["desanudemos"],"p2":["desanudad"],"p3":["desanuden"]}
+  }
+}

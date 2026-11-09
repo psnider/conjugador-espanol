@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾast̪ũmˈbaɾ]",
+    "silabacion": "tras-tum-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trastumbar","gerundio":["trastumbando"],"participio":["trastumbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trastumbo"],"s2":["trastumbas"],"vos":["trastumbás"],"s3":["trastumba"],"p1":["trastumbamos"],"p2":["trastumbáis"],"p3":["trastumban"]},
+    "IndImp": {"s1":["trastumbaba"],"s2":["trastumbabas"],"vos":["trastumbabas"],"s3":["trastumbaba"],"p1":["trastumbábamos"],"p2":["trastumbabais"],"p3":["trastumbaban"]},
+    "IndPret": {"s1":["trastumbé"],"s2":["trastumbaste"],"vos":["trastumbaste"],"s3":["trastumbó"],"p1":["trastumbamos"],"p2":["trastumbasteis"],"p3":["trastumbaron"]},
+    "IndFut": {"s1":["trastumbaré"],"s2":["trastumbarás"],"vos":["trastumbarás"],"s3":["trastumbará"],"p1":["trastumbaremos"],"p2":["trastumbaréis"],"p3":["trastumbarán"]},
+    "IndCond": {"s1":["trastumbaría"],"s2":["trastumbarías"],"vos":["trastumbarías"],"s3":["trastumbaría"],"p1":["trastumbaríamos"],"p2":["trastumbaríais"],"p3":["trastumbarían"]},
+    "SubPres": {"s1":["trastumbe"],"s2":["trastumbes"],"vos":["trastumbes","trastumbés"],"s3":["trastumbe"],"p1":["trastumbemos"],"p2":["trastumbéis"],"p3":["trastumben"]},
+    "SubImp": {"s1":["trastumbara","trastumbase"],"s2":["trastumbaras","trastumbases"],"vos":["trastumbaras","trastumbases"],"s3":["trastumbara","trastumbase"],"p1":["trastumbáramos","trastumbásemos"],"p2":["trastumbarais","trastumbaseis"],"p3":["trastumbaran","trastumbasen"]},
+    "SubFut": {"s1":["trastumbare"],"s2":["trastumbares"],"vos":["trastumbares"],"s3":["trastumbare"],"p1":["trastumbáremos"],"p2":["trastumbareis"],"p3":["trastumbaren"]},
+    "CmdPos": {"s2":["trastumba"],"vos":["trastumbá"],"s3":["trastumbe"],"p1":["trastumbemos"],"p2":["trastumbad"],"p3":["trastumben"]}
+  }
+}

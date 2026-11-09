@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbuˈʝaɾ]",
+    "silabacion": "em-bu-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, bulla (de bullir, \"agitarse con viveza\") y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"embullar","gerundio":["embullando"],"participio":["embullado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["embullo"],"s2":["embullas"],"vos":["embullás"],"s3":["embulla"],"p1":["embullamos"],"p2":["embulláis"],"p3":["embullan"]},
+    "IndImp": {"s1":["embullaba"],"s2":["embullabas"],"vos":["embullabas"],"s3":["embullaba"],"p1":["embullábamos"],"p2":["embullabais"],"p3":["embullaban"]},
+    "IndPret": {"s1":["embullé"],"s2":["embullaste"],"vos":["embullaste"],"s3":["embulló"],"p1":["embullamos"],"p2":["embullasteis"],"p3":["embullaron"]},
+    "IndFut": {"s1":["embullaré"],"s2":["embullarás"],"vos":["embullarás"],"s3":["embullará"],"p1":["embullaremos"],"p2":["embullaréis"],"p3":["embullarán"]},
+    "IndCond": {"s1":["embullaría"],"s2":["embullarías"],"vos":["embullarías"],"s3":["embullaría"],"p1":["embullaríamos"],"p2":["embullaríais"],"p3":["embullarían"]},
+    "SubPres": {"s1":["embulle"],"s2":["embulles"],"vos":["embulles","embullés"],"s3":["embulle"],"p1":["embullemos"],"p2":["embulléis"],"p3":["embullen"]},
+    "SubImp": {"s1":["embullara","embullase"],"s2":["embullaras","embullases"],"vos":["embullaras","embullases"],"s3":["embullara","embullase"],"p1":["embulláramos","embullásemos"],"p2":["embullarais","embullaseis"],"p3":["embullaran","embullasen"]},
+    "SubFut": {"s1":["embullare"],"s2":["embullares"],"vos":["embullares"],"s3":["embullare"],"p1":["embulláremos"],"p2":["embullareis"],"p3":["embullaren"]},
+    "CmdPos": {"s2":["embulla"],"vos":["embullá"],"s3":["embulle"],"p1":["embullemos"],"p2":["embullad"],"p3":["embullen"]}
+  }
+}

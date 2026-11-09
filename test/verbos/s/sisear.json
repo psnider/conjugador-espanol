@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[siseˈaɾ]",
+    "silabacion": "si-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sisear","gerundio":["siseando"],"participio":["siseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["siseo"],"s2":["siseas"],"vos":["siseás"],"s3":["sisea"],"p1":["siseamos"],"p2":["siseáis"],"p3":["sisean"]},
+    "IndImp": {"s1":["siseaba"],"s2":["siseabas"],"vos":["siseabas"],"s3":["siseaba"],"p1":["siseábamos"],"p2":["siseabais"],"p3":["siseaban"]},
+    "IndPret": {"s1":["siseé"],"s2":["siseaste"],"vos":["siseaste"],"s3":["siseó"],"p1":["siseamos"],"p2":["siseasteis"],"p3":["sisearon"]},
+    "IndFut": {"s1":["sisearé"],"s2":["sisearás"],"vos":["sisearás"],"s3":["siseará"],"p1":["sisearemos"],"p2":["sisearéis"],"p3":["sisearán"]},
+    "IndCond": {"s1":["sisearía"],"s2":["sisearías"],"vos":["sisearías"],"s3":["sisearía"],"p1":["sisearíamos"],"p2":["sisearíais"],"p3":["sisearían"]},
+    "SubPres": {"s1":["sisee"],"s2":["sisees"],"vos":["sisees","siseés"],"s3":["sisee"],"p1":["siseemos"],"p2":["siseéis"],"p3":["siseen"]},
+    "SubImp": {"s1":["siseara","sisease"],"s2":["sisearas","siseases"],"vos":["sisearas","siseases"],"s3":["siseara","sisease"],"p1":["siseáramos","siseásemos"],"p2":["sisearais","siseaseis"],"p3":["sisearan","siseasen"]},
+    "SubFut": {"s1":["siseare"],"s2":["siseares"],"vos":["siseares"],"s3":["siseare"],"p1":["siseáremos"],"p2":["siseareis"],"p3":["sisearen"]},
+    "CmdPos": {"s2":["sisea"],"vos":["siseá"],"s3":["sisee"],"p1":["siseemos"],"p2":["sisead"],"p3":["siseen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmbawˈkaɾ]",
+    "silabacion": "em-bau-car",
+    "acentuacion": "aguda",
+    "etimologia": "De embabucar.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"embaucar","gerundio":["embaucando"],"participio":["embaucado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["embauco"],"s2":["embaucas"],"vos":["embaucás"],"s3":["embauca"],"p1":["embaucamos"],"p2":["embaucáis"],"p3":["embaucan"]},
+    "IndImp": {"s1":["embaucaba"],"s2":["embaucabas"],"vos":["embaucabas"],"s3":["embaucaba"],"p1":["embaucábamos"],"p2":["embaucabais"],"p3":["embaucaban"]},
+    "IndPret": {"s1":["embauqué"],"s2":["embaucaste"],"vos":["embaucaste"],"s3":["embaucó"],"p1":["embaucamos"],"p2":["embaucasteis"],"p3":["embaucaron"]},
+    "IndFut": {"s1":["embaucaré"],"s2":["embaucarás"],"vos":["embaucarás"],"s3":["embaucará"],"p1":["embaucaremos"],"p2":["embaucaréis"],"p3":["embaucarán"]},
+    "IndCond": {"s1":["embaucaría"],"s2":["embaucarías"],"vos":["embaucarías"],"s3":["embaucaría"],"p1":["embaucaríamos"],"p2":["embaucaríais"],"p3":["embaucarían"]},
+    "SubPres": {"s1":["embauque"],"s2":["embauques"],"vos":["embauques","embauqués"],"s3":["embauque"],"p1":["embauquemos"],"p2":["embauquéis"],"p3":["embauquen"]},
+    "SubImp": {"s1":["embaucara","embaucase"],"s2":["embaucaras","embaucases"],"vos":["embaucaras","embaucases"],"s3":["embaucara","embaucase"],"p1":["embaucáramos","embaucásemos"],"p2":["embaucarais","embaucaseis"],"p3":["embaucaran","embaucasen"]},
+    "SubFut": {"s1":["embaucare"],"s2":["embaucares"],"vos":["embaucares"],"s3":["embaucare"],"p1":["embaucáremos"],"p2":["embaucareis"],"p3":["embaucaren"]},
+    "CmdPos": {"s2":["embauca"],"vos":["embaucá"],"s3":["embauque"],"p1":["embauquemos"],"p2":["embaucad"],"p3":["embauquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞minisˈt̪ɾaɾ]",
+    "silabacion": "ad-mi-nis-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín administrō, administrāre, compuesto del latín ad (\"a, hacia\") y ministrō, ministrāre ('servir'), que a su vez deriva del latín minister.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"administrar","gerundio":["administrando"],"participio":["administrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["administro"],"s2":["administras"],"vos":["administrás"],"s3":["administra"],"p1":["administramos"],"p2":["administráis"],"p3":["administran"]},
+    "IndImp": {"s1":["administraba"],"s2":["administrabas"],"vos":["administrabas"],"s3":["administraba"],"p1":["administrábamos"],"p2":["administrabais"],"p3":["administraban"]},
+    "IndPret": {"s1":["administré"],"s2":["administraste"],"vos":["administraste"],"s3":["administró"],"p1":["administramos"],"p2":["administrasteis"],"p3":["administraron"]},
+    "IndFut": {"s1":["administraré"],"s2":["administrarás"],"vos":["administrarás"],"s3":["administrará"],"p1":["administraremos"],"p2":["administraréis"],"p3":["administrarán"]},
+    "IndCond": {"s1":["administraría"],"s2":["administrarías"],"vos":["administrarías"],"s3":["administraría"],"p1":["administraríamos"],"p2":["administraríais"],"p3":["administrarían"]},
+    "SubPres": {"s1":["administre"],"s2":["administres"],"vos":["administres","administrés"],"s3":["administre"],"p1":["administremos"],"p2":["administréis"],"p3":["administren"]},
+    "SubImp": {"s1":["administrara","administrase"],"s2":["administraras","administrases"],"vos":["administraras","administrases"],"s3":["administrara","administrase"],"p1":["administráramos","administrásemos"],"p2":["administrarais","administraseis"],"p3":["administraran","administrasen"]},
+    "SubFut": {"s1":["administrare"],"s2":["administrares"],"vos":["administrares"],"s3":["administrare"],"p1":["administráremos"],"p2":["administrareis"],"p3":["administraren"]},
+    "CmdPos": {"s2":["administra"],"vos":["administrá"],"s3":["administre"],"p1":["administremos"],"p2":["administrad"],"p3":["administren"]}
+  }
+}

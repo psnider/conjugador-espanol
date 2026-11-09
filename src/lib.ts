@@ -155,9 +155,6 @@ export function combinaFormasConjugadas(bases: FormaConjugada[], actualizaciones
     if (actualizaciones == null) {
         return bases
     }
-    // if (base.length !== actualizaciones.length) {
-    //     throw new Error(`base=${base} has different length than actualizaciones=${actualizaciones}`)
-    // }
     const max_length = Math.max(bases.length, actualizaciones.length)
     const merged = []
     for (let i = 0 ; i < max_length ; ++i) {
@@ -170,10 +167,14 @@ export function combinaFormasConjugadas(bases: FormaConjugada[], actualizaciones
             if (typeof actualización === "string") {
                 merged.push(actualización)
             } else {
-                assert(((<FormaRestringida> base).uso === actualización.uso), `mismatched types for base=${JSON.stringify(base)} actualización=${JSON.stringify(actualización)}`)
-                if (actualización.forma) {
+                 if (base) {
+                    assert(((<FormaRestringida> base).uso === actualización.uso), `mismatched types for base=${JSON.stringify(base)} actualización=${JSON.stringify(actualización)}`)
+                    if (actualización.forma) {
+                        merged.push(actualización)
+                    }
+                 } else {
                     merged.push(actualización)
-                }
+                 }
             }
         } else {
             if (base) {
@@ -190,7 +191,6 @@ export function combinaParticipios(base: Participios<FormaConjugada[]>, actualiz
     const participio = <FormaConjugada[]> combinaFormasConjugadas(base.participio!, actualización?.participio)
     return {gerundio, participio}
 }
-
 
 
 const order: (string | string[])[] = [

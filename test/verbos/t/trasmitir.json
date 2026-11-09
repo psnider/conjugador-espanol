@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾasmiˈt̪iɾ]",
+    "silabacion": "tras-mi-tir",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["partir"]
+  },
+  "formas_no_personales": {"infinitivo":"trasmitir","gerundio":["trasmitiendo"],"participio":["trasmitido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trasmito"],"s2":["trasmites"],"vos":["trasmitís"],"s3":["trasmite"],"p1":["trasmitimos"],"p2":["trasmitís"],"p3":["trasmiten"]},
+    "IndImp": {"s1":["trasmitía"],"s2":["trasmitías"],"vos":["trasmitías"],"s3":["trasmitía"],"p1":["trasmitíamos"],"p2":["trasmitíais"],"p3":["trasmitían"]},
+    "IndPret": {"s1":["trasmití"],"s2":["trasmitiste"],"vos":["trasmitiste"],"s3":["trasmitió"],"p1":["trasmitimos"],"p2":["trasmitisteis"],"p3":["trasmitieron"]},
+    "IndFut": {"s1":["trasmitiré"],"s2":["trasmitirás"],"vos":["trasmitirás"],"s3":["trasmitirá"],"p1":["trasmitiremos"],"p2":["trasmitiréis"],"p3":["trasmitirán"]},
+    "IndCond": {"s1":["trasmitiría"],"s2":["trasmitirías"],"vos":["trasmitirías"],"s3":["trasmitiría"],"p1":["trasmitiríamos"],"p2":["trasmitiríais"],"p3":["trasmitirían"]},
+    "SubPres": {"s1":["trasmita"],"s2":["trasmitas"],"vos":["trasmitas","trasmitás"],"s3":["trasmita"],"p1":["trasmitamos"],"p2":["trasmitáis"],"p3":["trasmitan"]},
+    "SubImp": {"s1":["trasmitiera","trasmitiese"],"s2":["trasmitieras","trasmitieses"],"vos":["trasmitieras","trasmitieses"],"s3":["trasmitiera","trasmitiese"],"p1":["trasmitiéramos","trasmitiésemos"],"p2":["trasmitierais","trasmitieseis"],"p3":["trasmitieran","trasmitiesen"]},
+    "SubFut": {"s1":["trasmitiere"],"s2":["trasmitieres"],"vos":["trasmitieres"],"s3":["trasmitiere"],"p1":["trasmitiéremos"],"p2":["trasmitiereis"],"p3":["trasmitieren"]},
+    "CmdPos": {"s2":["trasmite"],"vos":["trasmití"],"s3":["trasmita"],"p1":["trasmitamos"],"p2":["trasmitid"],"p3":["trasmitan"]}
+  }
+}

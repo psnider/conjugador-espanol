@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eɾeˈð̞aɾ]",
+    "silabacion": "he-re-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"heredar","gerundio":["heredando"],"participio":["heredado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["heredo"],"s2":["heredas"],"vos":["heredás"],"s3":["hereda"],"p1":["heredamos"],"p2":["heredáis"],"p3":["heredan"]},
+    "IndImp": {"s1":["heredaba"],"s2":["heredabas"],"vos":["heredabas"],"s3":["heredaba"],"p1":["heredábamos"],"p2":["heredabais"],"p3":["heredaban"]},
+    "IndPret": {"s1":["heredé"],"s2":["heredaste"],"vos":["heredaste"],"s3":["heredó"],"p1":["heredamos"],"p2":["heredasteis"],"p3":["heredaron"]},
+    "IndFut": {"s1":["heredaré"],"s2":["heredarás"],"vos":["heredarás"],"s3":["heredará"],"p1":["heredaremos"],"p2":["heredaréis"],"p3":["heredarán"]},
+    "IndCond": {"s1":["heredaría"],"s2":["heredarías"],"vos":["heredarías"],"s3":["heredaría"],"p1":["heredaríamos"],"p2":["heredaríais"],"p3":["heredarían"]},
+    "SubPres": {"s1":["herede"],"s2":["heredes"],"vos":["heredes","heredés"],"s3":["herede"],"p1":["heredemos"],"p2":["heredéis"],"p3":["hereden"]},
+    "SubImp": {"s1":["heredara","heredase"],"s2":["heredaras","heredases"],"vos":["heredaras","heredases"],"s3":["heredara","heredase"],"p1":["heredáramos","heredásemos"],"p2":["heredarais","heredaseis"],"p3":["heredaran","heredasen"]},
+    "SubFut": {"s1":["heredare"],"s2":["heredares"],"vos":["heredares"],"s3":["heredare"],"p1":["heredáremos"],"p2":["heredareis"],"p3":["heredaren"]},
+    "CmdPos": {"s2":["hereda"],"vos":["heredá"],"s3":["herede"],"p1":["heredemos"],"p2":["heredad"],"p3":["hereden"]}
+  }
+}

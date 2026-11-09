@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaɾẽn̪ˈt̪aɾ]",
+    "silabacion": "a-pa-ren-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De aparente y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aparentar","gerundio":["aparentando"],"participio":["aparentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aparento"],"s2":["aparentas"],"vos":["aparentás"],"s3":["aparenta"],"p1":["aparentamos"],"p2":["aparentáis"],"p3":["aparentan"]},
+    "IndImp": {"s1":["aparentaba"],"s2":["aparentabas"],"vos":["aparentabas"],"s3":["aparentaba"],"p1":["aparentábamos"],"p2":["aparentabais"],"p3":["aparentaban"]},
+    "IndPret": {"s1":["aparenté"],"s2":["aparentaste"],"vos":["aparentaste"],"s3":["aparentó"],"p1":["aparentamos"],"p2":["aparentasteis"],"p3":["aparentaron"]},
+    "IndFut": {"s1":["aparentaré"],"s2":["aparentarás"],"vos":["aparentarás"],"s3":["aparentará"],"p1":["aparentaremos"],"p2":["aparentaréis"],"p3":["aparentarán"]},
+    "IndCond": {"s1":["aparentaría"],"s2":["aparentarías"],"vos":["aparentarías"],"s3":["aparentaría"],"p1":["aparentaríamos"],"p2":["aparentaríais"],"p3":["aparentarían"]},
+    "SubPres": {"s1":["aparente"],"s2":["aparentes"],"vos":["aparentes","aparentés"],"s3":["aparente"],"p1":["aparentemos"],"p2":["aparentéis"],"p3":["aparenten"]},
+    "SubImp": {"s1":["aparentara","aparentase"],"s2":["aparentaras","aparentases"],"vos":["aparentaras","aparentases"],"s3":["aparentara","aparentase"],"p1":["aparentáramos","aparentásemos"],"p2":["aparentarais","aparentaseis"],"p3":["aparentaran","aparentasen"]},
+    "SubFut": {"s1":["aparentare"],"s2":["aparentares"],"vos":["aparentares"],"s3":["aparentare"],"p1":["aparentáremos"],"p2":["aparentareis"],"p3":["aparentaren"]},
+    "CmdPos": {"s2":["aparenta"],"vos":["aparentá"],"s3":["aparente"],"p1":["aparentemos"],"p2":["aparentad"],"p3":["aparenten"]}
+  }
+}

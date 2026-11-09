@@ -92,7 +92,8 @@ export function runTestsForInfinitive(infinitivo: string, verb_filename: string)
     delete entero.formas_no_personales.infinitivo
     findFailedTestsForParticiples(infinitivo, entero.formas_no_personales, errors)
     for (const mood_tense of all_mood_tenses) {
-        const expected = (mood_tense === "CmdNeg") ? {...entero.formas_personales["SubPres"], s1: undefined} : entero.formas_personales[mood_tense]
+        const usa_subjuntivo_presente_para_mandatos = (mood_tense === "CmdNeg") && (entero.formas_personales[mood_tense] !== null)
+        const expected = usa_subjuntivo_presente_para_mandatos ? {...entero.formas_personales["SubPres"], s1: undefined} : entero.formas_personales[mood_tense]
         findFailedTestsForConjugations({infinitivo, mood_tense, expected, errors})
     }
     const has_errors = (Object.keys(errors).length > 0)

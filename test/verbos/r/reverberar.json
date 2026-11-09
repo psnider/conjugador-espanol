@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞eɾβ̞eˈɾaɾ]",
+    "silabacion": "re-ver-be-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín reverberāre.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reverberar","gerundio":["reverberando"],"participio":["reverberado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reverbero"],"s2":["reverberas"],"vos":["reverberás"],"s3":["reverbera"],"p1":["reverberamos"],"p2":["reverberáis"],"p3":["reverberan"]},
+    "IndImp": {"s1":["reverberaba"],"s2":["reverberabas"],"vos":["reverberabas"],"s3":["reverberaba"],"p1":["reverberábamos"],"p2":["reverberabais"],"p3":["reverberaban"]},
+    "IndPret": {"s1":["reverberé"],"s2":["reverberaste"],"vos":["reverberaste"],"s3":["reverberó"],"p1":["reverberamos"],"p2":["reverberasteis"],"p3":["reverberaron"]},
+    "IndFut": {"s1":["reverberaré"],"s2":["reverberarás"],"vos":["reverberarás"],"s3":["reverberará"],"p1":["reverberaremos"],"p2":["reverberaréis"],"p3":["reverberarán"]},
+    "IndCond": {"s1":["reverberaría"],"s2":["reverberarías"],"vos":["reverberarías"],"s3":["reverberaría"],"p1":["reverberaríamos"],"p2":["reverberaríais"],"p3":["reverberarían"]},
+    "SubPres": {"s1":["reverbere"],"s2":["reverberes"],"vos":["reverberes","reverberés"],"s3":["reverbere"],"p1":["reverberemos"],"p2":["reverberéis"],"p3":["reverberen"]},
+    "SubImp": {"s1":["reverberara","reverberase"],"s2":["reverberaras","reverberases"],"vos":["reverberaras","reverberases"],"s3":["reverberara","reverberase"],"p1":["reverberáramos","reverberásemos"],"p2":["reverberarais","reverberaseis"],"p3":["reverberaran","reverberasen"]},
+    "SubFut": {"s1":["reverberare"],"s2":["reverberares"],"vos":["reverberares"],"s3":["reverberare"],"p1":["reverberáremos"],"p2":["reverberareis"],"p3":["reverberaren"]},
+    "CmdPos": {"s2":["reverbera"],"vos":["reverberá"],"s3":["reverbere"],"p1":["reverberemos"],"p2":["reverberad"],"p3":["reverberen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espɾeokuˈpaɾ]",
+    "silabacion": "des-pre-o-cu-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y preocuparse.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"despreocupar","gerundio":["despreocupando"],"participio":["despreocupado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["despreocupo"],"s2":["despreocupas"],"vos":["despreocupás"],"s3":["despreocupa"],"p1":["despreocupamos"],"p2":["despreocupáis"],"p3":["despreocupan"]},
+    "IndImp": {"s1":["despreocupaba"],"s2":["despreocupabas"],"vos":["despreocupabas"],"s3":["despreocupaba"],"p1":["despreocupábamos"],"p2":["despreocupabais"],"p3":["despreocupaban"]},
+    "IndPret": {"s1":["despreocupé"],"s2":["despreocupaste"],"vos":["despreocupaste"],"s3":["despreocupó"],"p1":["despreocupamos"],"p2":["despreocupasteis"],"p3":["despreocuparon"]},
+    "IndFut": {"s1":["despreocuparé"],"s2":["despreocuparás"],"vos":["despreocuparás"],"s3":["despreocupará"],"p1":["despreocuparemos"],"p2":["despreocuparéis"],"p3":["despreocuparán"]},
+    "IndCond": {"s1":["despreocuparía"],"s2":["despreocuparías"],"vos":["despreocuparías"],"s3":["despreocuparía"],"p1":["despreocuparíamos"],"p2":["despreocuparíais"],"p3":["despreocuparían"]},
+    "SubPres": {"s1":["despreocupe"],"s2":["despreocupes"],"vos":["despreocupes","despreocupés"],"s3":["despreocupe"],"p1":["despreocupemos"],"p2":["despreocupéis"],"p3":["despreocupen"]},
+    "SubImp": {"s1":["despreocupara","despreocupase"],"s2":["despreocuparas","despreocupases"],"vos":["despreocuparas","despreocupases"],"s3":["despreocupara","despreocupase"],"p1":["despreocupáramos","despreocupásemos"],"p2":["despreocuparais","despreocupaseis"],"p3":["despreocuparan","despreocupasen"]},
+    "SubFut": {"s1":["despreocupare"],"s2":["despreocupares"],"vos":["despreocupares"],"s3":["despreocupare"],"p1":["despreocupáremos"],"p2":["despreocupareis"],"p3":["despreocuparen"]},
+    "CmdPos": {"s2":["despreocupa"],"vos":["despreocupá"],"s3":["despreocupe"],"p1":["despreocupemos"],"p2":["despreocupad"],"p3":["despreocupen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ret̪ɾaˈt̪aɾ]",
+    "silabacion": "re-tra-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"retratar","gerundio":["retratando"],"participio":["retratado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["retrato"],"s2":["retratas"],"vos":["retratás"],"s3":["retrata"],"p1":["retratamos"],"p2":["retratáis"],"p3":["retratan"]},
+    "IndImp": {"s1":["retrataba"],"s2":["retratabas"],"vos":["retratabas"],"s3":["retrataba"],"p1":["retratábamos"],"p2":["retratabais"],"p3":["retrataban"]},
+    "IndPret": {"s1":["retraté"],"s2":["retrataste"],"vos":["retrataste"],"s3":["retrató"],"p1":["retratamos"],"p2":["retratasteis"],"p3":["retrataron"]},
+    "IndFut": {"s1":["retrataré"],"s2":["retratarás"],"vos":["retratarás"],"s3":["retratará"],"p1":["retrataremos"],"p2":["retrataréis"],"p3":["retratarán"]},
+    "IndCond": {"s1":["retrataría"],"s2":["retratarías"],"vos":["retratarías"],"s3":["retrataría"],"p1":["retrataríamos"],"p2":["retrataríais"],"p3":["retratarían"]},
+    "SubPres": {"s1":["retrate"],"s2":["retrates"],"vos":["retrates","retratés"],"s3":["retrate"],"p1":["retratemos"],"p2":["retratéis"],"p3":["retraten"]},
+    "SubImp": {"s1":["retratara","retratase"],"s2":["retrataras","retratases"],"vos":["retrataras","retratases"],"s3":["retratara","retratase"],"p1":["retratáramos","retratásemos"],"p2":["retratarais","retrataseis"],"p3":["retrataran","retratasen"]},
+    "SubFut": {"s1":["retratare"],"s2":["retratares"],"vos":["retratares"],"s3":["retratare"],"p1":["retratáremos"],"p2":["retratareis"],"p3":["retrataren"]},
+    "CmdPos": {"s2":["retrata"],"vos":["retratá"],"s3":["retrate"],"p1":["retratemos"],"p2":["retratad"],"p3":["retraten"]}
+  }
+}

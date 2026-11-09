@@ -16,6 +16,7 @@
     "SubPres": {"s3":["concierna"],"p3":["conciernan"]},
     "SubImp": {"s3":["concerniera","concerniese"],"p3":["concernieran","concerniesen"]},
     "SubFut": {"s3":["concerniere"],"p3":["concernieren"]},
-    "CmdPos": null
+    "CmdPos": null,
+    "CmdNeg": null
   }
 }

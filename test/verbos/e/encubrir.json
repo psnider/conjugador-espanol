@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋkuˈβ̞ɾiɾ]",
+    "silabacion": "en-cu-brir",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en- y cubrir.",
+    "modelos": ["abrir"]
+  },
+  "formas_no_personales": {"infinitivo":"encubrir","gerundio":["encubriendo"],"participio":["encubierto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["encubro"],"s2":["encubres"],"vos":["encubrís"],"s3":["encubre"],"p1":["encubrimos"],"p2":["encubrís"],"p3":["encubren"]},
+    "IndImp": {"s1":["encubría"],"s2":["encubrías"],"vos":["encubrías"],"s3":["encubría"],"p1":["encubríamos"],"p2":["encubríais"],"p3":["encubrían"]},
+    "IndPret": {"s1":["encubrí"],"s2":["encubriste"],"vos":["encubriste"],"s3":["encubrió"],"p1":["encubrimos"],"p2":["encubristeis"],"p3":["encubrieron"]},
+    "IndFut": {"s1":["encubriré"],"s2":["encubrirás"],"vos":["encubrirás"],"s3":["encubrirá"],"p1":["encubriremos"],"p2":["encubriréis"],"p3":["encubrirán"]},
+    "IndCond": {"s1":["encubriría"],"s2":["encubrirías"],"vos":["encubrirías"],"s3":["encubriría"],"p1":["encubriríamos"],"p2":["encubriríais"],"p3":["encubrirían"]},
+    "SubPres": {"s1":["encubra"],"s2":["encubras"],"vos":["encubras","encubrás"],"s3":["encubra"],"p1":["encubramos"],"p2":["encubráis"],"p3":["encubran"]},
+    "SubImp": {"s1":["encubriera","encubriese"],"s2":["encubrieras","encubrieses"],"vos":["encubrieras","encubrieses"],"s3":["encubriera","encubriese"],"p1":["encubriéramos","encubriésemos"],"p2":["encubrierais","encubrieseis"],"p3":["encubrieran","encubriesen"]},
+    "SubFut": {"s1":["encubriere"],"s2":["encubrieres"],"vos":["encubrieres"],"s3":["encubriere"],"p1":["encubriéremos"],"p2":["encubriereis"],"p3":["encubrieren"]},
+    "CmdPos": {"s2":["encubre"],"vos":["encubrí"],"s3":["encubra"],"p1":["encubramos"],"p2":["encubrid"],"p3":["encubran"]}
+  }
+}

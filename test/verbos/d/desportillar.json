@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espoɾt̪iˈʝaɾ]",
+    "silabacion": "des-por-ti-llar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desportillar","gerundio":["desportillando"],"participio":["desportillado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desportillo"],"s2":["desportillas"],"vos":["desportillás"],"s3":["desportilla"],"p1":["desportillamos"],"p2":["desportilláis"],"p3":["desportillan"]},
+    "IndImp": {"s1":["desportillaba"],"s2":["desportillabas"],"vos":["desportillabas"],"s3":["desportillaba"],"p1":["desportillábamos"],"p2":["desportillabais"],"p3":["desportillaban"]},
+    "IndPret": {"s1":["desportillé"],"s2":["desportillaste"],"vos":["desportillaste"],"s3":["desportilló"],"p1":["desportillamos"],"p2":["desportillasteis"],"p3":["desportillaron"]},
+    "IndFut": {"s1":["desportillaré"],"s2":["desportillarás"],"vos":["desportillarás"],"s3":["desportillará"],"p1":["desportillaremos"],"p2":["desportillaréis"],"p3":["desportillarán"]},
+    "IndCond": {"s1":["desportillaría"],"s2":["desportillarías"],"vos":["desportillarías"],"s3":["desportillaría"],"p1":["desportillaríamos"],"p2":["desportillaríais"],"p3":["desportillarían"]},
+    "SubPres": {"s1":["desportille"],"s2":["desportilles"],"vos":["desportilles","desportillés"],"s3":["desportille"],"p1":["desportillemos"],"p2":["desportilléis"],"p3":["desportillen"]},
+    "SubImp": {"s1":["desportillara","desportillase"],"s2":["desportillaras","desportillases"],"vos":["desportillaras","desportillases"],"s3":["desportillara","desportillase"],"p1":["desportilláramos","desportillásemos"],"p2":["desportillarais","desportillaseis"],"p3":["desportillaran","desportillasen"]},
+    "SubFut": {"s1":["desportillare"],"s2":["desportillares"],"vos":["desportillares"],"s3":["desportillare"],"p1":["desportilláremos"],"p2":["desportillareis"],"p3":["desportillaren"]},
+    "CmdPos": {"s2":["desportilla"],"vos":["desportillá"],"s3":["desportille"],"p1":["desportillemos"],"p2":["desportillad"],"p3":["desportillen"]}
+  }
+}

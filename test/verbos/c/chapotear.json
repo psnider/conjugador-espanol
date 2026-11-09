@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃapot̪eˈaɾ]",
+    "silabacion": "cha-po-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Onomatopéyica",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"chapotear","gerundio":["chapoteando"],"participio":["chapoteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["chapoteo"],"s2":["chapoteas"],"vos":["chapoteás"],"s3":["chapotea"],"p1":["chapoteamos"],"p2":["chapoteáis"],"p3":["chapotean"]},
+    "IndImp": {"s1":["chapoteaba"],"s2":["chapoteabas"],"vos":["chapoteabas"],"s3":["chapoteaba"],"p1":["chapoteábamos"],"p2":["chapoteabais"],"p3":["chapoteaban"]},
+    "IndPret": {"s1":["chapoteé"],"s2":["chapoteaste"],"vos":["chapoteaste"],"s3":["chapoteó"],"p1":["chapoteamos"],"p2":["chapoteasteis"],"p3":["chapotearon"]},
+    "IndFut": {"s1":["chapotearé"],"s2":["chapotearás"],"vos":["chapotearás"],"s3":["chapoteará"],"p1":["chapotearemos"],"p2":["chapotearéis"],"p3":["chapotearán"]},
+    "IndCond": {"s1":["chapotearía"],"s2":["chapotearías"],"vos":["chapotearías"],"s3":["chapotearía"],"p1":["chapotearíamos"],"p2":["chapotearíais"],"p3":["chapotearían"]},
+    "SubPres": {"s1":["chapotee"],"s2":["chapotees"],"vos":["chapotees","chapoteés"],"s3":["chapotee"],"p1":["chapoteemos"],"p2":["chapoteéis"],"p3":["chapoteen"]},
+    "SubImp": {"s1":["chapoteara","chapotease"],"s2":["chapotearas","chapoteases"],"vos":["chapotearas","chapoteases"],"s3":["chapoteara","chapotease"],"p1":["chapoteáramos","chapoteásemos"],"p2":["chapotearais","chapoteaseis"],"p3":["chapotearan","chapoteasen"]},
+    "SubFut": {"s1":["chapoteare"],"s2":["chapoteares"],"vos":["chapoteares"],"s3":["chapoteare"],"p1":["chapoteáremos"],"p2":["chapoteareis"],"p3":["chapotearen"]},
+    "CmdPos": {"s2":["chapotea"],"vos":["chapoteá"],"s3":["chapotee"],"p1":["chapoteemos"],"p2":["chapotead"],"p3":["chapoteen"]}
+  }
+}

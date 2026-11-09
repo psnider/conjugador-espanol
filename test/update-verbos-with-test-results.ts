@@ -1,5 +1,6 @@
 import * as fs from 'node:fs'
 import { compareSpanishWords } from '../src/lib.js'
+import { verbos_con_cambios_morfológicos } from '../src/verbos-con-cambios-morfológicas.js'
 
 
 // verbs found from verbos_con_cambios_morfológicos[]
@@ -75,8 +76,10 @@ function annotateVerbAttributesFileWithTestResults() {
 function printCommandsToGenerateMissingVerbValidationFiles() {
     if (verbs_missing_validation_data.length > 0) {
         console.log(`Please run the following commands to add missing validation data:`)
-        for (const verb of verbs_missing_validation_data) {
-            console.log(`curl https://es.wiktionary.org/wiki/${verb} > tmp/verbos/${verb}.html  &&  node generated/test/wiktionary-scraper.js ${verb}  &&  echo finished: ${verb}  &&  sleep 1`)
+        for (const verbo of verbs_missing_validation_data) {
+            const solomente_pronomial = verbos_con_cambios_morfológicos[verbo].pronominal === "always"
+            const entrada_de_wiki = (solomente_pronomial ? verbo + "se" : verbo)
+            console.log(`curl https://es.wiktionary.org/wiki/${entrada_de_wiki} > tmp/verbos/${verbo}.html  &&  node generated/test/wiktionary-scraper.js ${verbo}  &&  echo finished: ${verbo}  &&  sleep 1`)
         }
     }
 }

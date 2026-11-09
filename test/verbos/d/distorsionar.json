@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪ist̪oɾsjoˈnaɾ]",
+    "silabacion": "dis-tor-sio-nar",
+    "acentuacion": "aguda",
+    "etimologia": "De distorsión",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"distorsionar","gerundio":["distorsionando"],"participio":["distorsionado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["distorsiono"],"s2":["distorsionas"],"vos":["distorsionás"],"s3":["distorsiona"],"p1":["distorsionamos"],"p2":["distorsionáis"],"p3":["distorsionan"]},
+    "IndImp": {"s1":["distorsionaba"],"s2":["distorsionabas"],"vos":["distorsionabas"],"s3":["distorsionaba"],"p1":["distorsionábamos"],"p2":["distorsionabais"],"p3":["distorsionaban"]},
+    "IndPret": {"s1":["distorsioné"],"s2":["distorsionaste"],"vos":["distorsionaste"],"s3":["distorsionó"],"p1":["distorsionamos"],"p2":["distorsionasteis"],"p3":["distorsionaron"]},
+    "IndFut": {"s1":["distorsionaré"],"s2":["distorsionarás"],"vos":["distorsionarás"],"s3":["distorsionará"],"p1":["distorsionaremos"],"p2":["distorsionaréis"],"p3":["distorsionarán"]},
+    "IndCond": {"s1":["distorsionaría"],"s2":["distorsionarías"],"vos":["distorsionarías"],"s3":["distorsionaría"],"p1":["distorsionaríamos"],"p2":["distorsionaríais"],"p3":["distorsionarían"]},
+    "SubPres": {"s1":["distorsione"],"s2":["distorsiones"],"vos":["distorsiones","distorsionés"],"s3":["distorsione"],"p1":["distorsionemos"],"p2":["distorsionéis"],"p3":["distorsionen"]},
+    "SubImp": {"s1":["distorsionara","distorsionase"],"s2":["distorsionaras","distorsionases"],"vos":["distorsionaras","distorsionases"],"s3":["distorsionara","distorsionase"],"p1":["distorsionáramos","distorsionásemos"],"p2":["distorsionarais","distorsionaseis"],"p3":["distorsionaran","distorsionasen"]},
+    "SubFut": {"s1":["distorsionare"],"s2":["distorsionares"],"vos":["distorsionares"],"s3":["distorsionare"],"p1":["distorsionáremos"],"p2":["distorsionareis"],"p3":["distorsionaren"]},
+    "CmdPos": {"s2":["distorsiona"],"vos":["distorsioná"],"s3":["distorsione"],"p1":["distorsionemos"],"p2":["distorsionad"],"p3":["distorsionen"]}
+  }
+}

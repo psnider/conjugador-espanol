@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pawˈt̪aɾ]",
+    "silabacion": "pau-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De pauta y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pautar","gerundio":["pautando"],"participio":["pautado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pauto"],"s2":["pautas"],"vos":["pautás"],"s3":["pauta"],"p1":["pautamos"],"p2":["pautáis"],"p3":["pautan"]},
+    "IndImp": {"s1":["pautaba"],"s2":["pautabas"],"vos":["pautabas"],"s3":["pautaba"],"p1":["pautábamos"],"p2":["pautabais"],"p3":["pautaban"]},
+    "IndPret": {"s1":["pauté"],"s2":["pautaste"],"vos":["pautaste"],"s3":["pautó"],"p1":["pautamos"],"p2":["pautasteis"],"p3":["pautaron"]},
+    "IndFut": {"s1":["pautaré"],"s2":["pautarás"],"vos":["pautarás"],"s3":["pautará"],"p1":["pautaremos"],"p2":["pautaréis"],"p3":["pautarán"]},
+    "IndCond": {"s1":["pautaría"],"s2":["pautarías"],"vos":["pautarías"],"s3":["pautaría"],"p1":["pautaríamos"],"p2":["pautaríais"],"p3":["pautarían"]},
+    "SubPres": {"s1":["paute"],"s2":["pautes"],"vos":["pautes","pautés"],"s3":["paute"],"p1":["pautemos"],"p2":["pautéis"],"p3":["pauten"]},
+    "SubImp": {"s1":["pautara","pautase"],"s2":["pautaras","pautases"],"vos":["pautaras","pautases"],"s3":["pautara","pautase"],"p1":["pautáramos","pautásemos"],"p2":["pautarais","pautaseis"],"p3":["pautaran","pautasen"]},
+    "SubFut": {"s1":["pautare"],"s2":["pautares"],"vos":["pautares"],"s3":["pautare"],"p1":["pautáremos"],"p2":["pautareis"],"p3":["pautaren"]},
+    "CmdPos": {"s2":["pauta"],"vos":["pautá"],"s3":["paute"],"p1":["pautemos"],"p2":["pautad"],"p3":["pauten"]}
+  }
+}

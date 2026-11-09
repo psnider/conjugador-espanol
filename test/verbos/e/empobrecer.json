@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽmpoβ̞ɾeˈseɾ]",
+    "silabacion": "em-po-bre-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, pobre y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"empobrecer","gerundio":["empobreciendo"],"participio":["empobrecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["empobrezco"],"s2":["empobreces"],"vos":["empobrecés"],"s3":["empobrece"],"p1":["empobrecemos"],"p2":["empobrecéis"],"p3":["empobrecen"]},
+    "IndImp": {"s1":["empobrecía"],"s2":["empobrecías"],"vos":["empobrecías"],"s3":["empobrecía"],"p1":["empobrecíamos"],"p2":["empobrecíais"],"p3":["empobrecían"]},
+    "IndPret": {"s1":["empobrecí"],"s2":["empobreciste"],"vos":["empobreciste"],"s3":["empobreció"],"p1":["empobrecimos"],"p2":["empobrecisteis"],"p3":["empobrecieron"]},
+    "IndFut": {"s1":["empobreceré"],"s2":["empobrecerás"],"vos":["empobrecerás"],"s3":["empobrecerá"],"p1":["empobreceremos"],"p2":["empobreceréis"],"p3":["empobrecerán"]},
+    "IndCond": {"s1":["empobrecería"],"s2":["empobrecerías"],"vos":["empobrecerías"],"s3":["empobrecería"],"p1":["empobreceríamos"],"p2":["empobreceríais"],"p3":["empobrecerían"]},
+    "SubPres": {"s1":["empobrezca"],"s2":["empobrezcas"],"vos":["empobrezcas","empobrezcás"],"s3":["empobrezca"],"p1":["empobrezcamos"],"p2":["empobrezcáis"],"p3":["empobrezcan"]},
+    "SubImp": {"s1":["empobreciera","empobreciese"],"s2":["empobrecieras","empobrecieses"],"vos":["empobrecieras","empobrecieses"],"s3":["empobreciera","empobreciese"],"p1":["empobreciéramos","empobreciésemos"],"p2":["empobrecierais","empobrecieseis"],"p3":["empobrecieran","empobreciesen"]},
+    "SubFut": {"s1":["empobreciere"],"s2":["empobrecieres"],"vos":["empobrecieres"],"s3":["empobreciere"],"p1":["empobreciéremos"],"p2":["empobreciereis"],"p3":["empobrecieren"]},
+    "CmdPos": {"s2":["empobrece"],"vos":["empobrecé"],"s3":["empobrezca"],"p1":["empobrezcamos"],"p2":["empobreced"],"p3":["empobrezcan"]}
+  }
+}

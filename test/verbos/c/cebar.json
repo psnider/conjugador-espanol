@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[seˈβ̞aɾ]",
+    "silabacion": "ce-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín cibare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cebar","gerundio":["cebando"],"participio":["cebado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cebo"],"s2":["cebas"],"vos":["cebás"],"s3":["ceba"],"p1":["cebamos"],"p2":["cebáis"],"p3":["ceban"]},
+    "IndImp": {"s1":["cebaba"],"s2":["cebabas"],"vos":["cebabas"],"s3":["cebaba"],"p1":["cebábamos"],"p2":["cebabais"],"p3":["cebaban"]},
+    "IndPret": {"s1":["cebé"],"s2":["cebaste"],"vos":["cebaste"],"s3":["cebó"],"p1":["cebamos"],"p2":["cebasteis"],"p3":["cebaron"]},
+    "IndFut": {"s1":["cebaré"],"s2":["cebarás"],"vos":["cebarás"],"s3":["cebará"],"p1":["cebaremos"],"p2":["cebaréis"],"p3":["cebarán"]},
+    "IndCond": {"s1":["cebaría"],"s2":["cebarías"],"vos":["cebarías"],"s3":["cebaría"],"p1":["cebaríamos"],"p2":["cebaríais"],"p3":["cebarían"]},
+    "SubPres": {"s1":["cebe"],"s2":["cebes"],"vos":["cebes","cebés"],"s3":["cebe"],"p1":["cebemos"],"p2":["cebéis"],"p3":["ceben"]},
+    "SubImp": {"s1":["cebara","cebase"],"s2":["cebaras","cebases"],"vos":["cebaras","cebases"],"s3":["cebara","cebase"],"p1":["cebáramos","cebásemos"],"p2":["cebarais","cebaseis"],"p3":["cebaran","cebasen"]},
+    "SubFut": {"s1":["cebare"],"s2":["cebares"],"vos":["cebares"],"s3":["cebare"],"p1":["cebáremos"],"p2":["cebareis"],"p3":["cebaren"]},
+    "CmdPos": {"s2":["ceba"],"vos":["cebá"],"s3":["cebe"],"p1":["cebemos"],"p2":["cebad"],"p3":["ceben"]}
+  }
+}

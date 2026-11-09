@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[espesifiˈkaɾ]",
+    "silabacion": "es-pe-ci-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "De específico.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"especificar","gerundio":["especificando"],"participio":["especificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["especifico"],"s2":["especificas"],"vos":["especificás"],"s3":["especifica"],"p1":["especificamos"],"p2":["especificáis"],"p3":["especifican"]},
+    "IndImp": {"s1":["especificaba"],"s2":["especificabas"],"vos":["especificabas"],"s3":["especificaba"],"p1":["especificábamos"],"p2":["especificabais"],"p3":["especificaban"]},
+    "IndPret": {"s1":["especifiqué"],"s2":["especificaste"],"vos":["especificaste"],"s3":["especificó"],"p1":["especificamos"],"p2":["especificasteis"],"p3":["especificaron"]},
+    "IndFut": {"s1":["especificaré"],"s2":["especificarás"],"vos":["especificarás"],"s3":["especificará"],"p1":["especificaremos"],"p2":["especificaréis"],"p3":["especificarán"]},
+    "IndCond": {"s1":["especificaría"],"s2":["especificarías"],"vos":["especificarías"],"s3":["especificaría"],"p1":["especificaríamos"],"p2":["especificaríais"],"p3":["especificarían"]},
+    "SubPres": {"s1":["especifique"],"s2":["especifiques"],"vos":["especifiques","especifiqués"],"s3":["especifique"],"p1":["especifiquemos"],"p2":["especifiquéis"],"p3":["especifiquen"]},
+    "SubImp": {"s1":["especificara","especificase"],"s2":["especificaras","especificases"],"vos":["especificaras","especificases"],"s3":["especificara","especificase"],"p1":["especificáramos","especificásemos"],"p2":["especificarais","especificaseis"],"p3":["especificaran","especificasen"]},
+    "SubFut": {"s1":["especificare"],"s2":["especificares"],"vos":["especificares"],"s3":["especificare"],"p1":["especificáremos"],"p2":["especificareis"],"p3":["especificaren"]},
+    "CmdPos": {"s2":["especifica"],"vos":["especificá"],"s3":["especifique"],"p1":["especifiquemos"],"p2":["especificad"],"p3":["especifiquen"]}
+  }
+}

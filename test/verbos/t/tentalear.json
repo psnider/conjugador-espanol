@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ẽn̪t̪aleˈaɾ]",
+    "silabacion": "ten-ta-le-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De tentar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"tentalear","gerundio":["tentaleando"],"participio":["tentaleado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["tentaleo"],"s2":["tentaleas"],"vos":["tentaleás"],"s3":["tentalea"],"p1":["tentaleamos"],"p2":["tentaleáis"],"p3":["tentalean"]},
+    "IndImp": {"s1":["tentaleaba"],"s2":["tentaleabas"],"vos":["tentaleabas"],"s3":["tentaleaba"],"p1":["tentaleábamos"],"p2":["tentaleabais"],"p3":["tentaleaban"]},
+    "IndPret": {"s1":["tentaleé"],"s2":["tentaleaste"],"vos":["tentaleaste"],"s3":["tentaleó"],"p1":["tentaleamos"],"p2":["tentaleasteis"],"p3":["tentalearon"]},
+    "IndFut": {"s1":["tentalearé"],"s2":["tentalearás"],"vos":["tentalearás"],"s3":["tentaleará"],"p1":["tentalearemos"],"p2":["tentalearéis"],"p3":["tentalearán"]},
+    "IndCond": {"s1":["tentalearía"],"s2":["tentalearías"],"vos":["tentalearías"],"s3":["tentalearía"],"p1":["tentalearíamos"],"p2":["tentalearíais"],"p3":["tentalearían"]},
+    "SubPres": {"s1":["tentalee"],"s2":["tentalees"],"vos":["tentalees","tentaleés"],"s3":["tentalee"],"p1":["tentaleemos"],"p2":["tentaleéis"],"p3":["tentaleen"]},
+    "SubImp": {"s1":["tentaleara","tentalease"],"s2":["tentalearas","tentaleases"],"vos":["tentalearas","tentaleases"],"s3":["tentaleara","tentalease"],"p1":["tentaleáramos","tentaleásemos"],"p2":["tentalearais","tentaleaseis"],"p3":["tentalearan","tentaleasen"]},
+    "SubFut": {"s1":["tentaleare"],"s2":["tentaleares"],"vos":["tentaleares"],"s3":["tentaleare"],"p1":["tentaleáremos"],"p2":["tentaleareis"],"p3":["tentalearen"]},
+    "CmdPos": {"s2":["tentalea"],"vos":["tentaleá"],"s3":["tentalee"],"p1":["tentaleemos"],"p2":["tentalead"],"p3":["tentaleen"]}
+  }
+}

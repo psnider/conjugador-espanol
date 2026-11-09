@@ -6,6 +6,7 @@
             "program": "${workspaceFolder}/test/test-conjugate-verb.ts",
             "type": "node",
             "request": "launch",
+            "runtimeVersion": "22.22.0",
             "preLaunchTask": "tsc: build - tsconfig.node.json",
             "outFiles": [
                 "${workspaceFolder}/generated/**/*.js"
@@ -69,7 +70,7 @@
         {
             "name": "wiktionary-scraper",
             "program": "${workspaceFolder}/test/wiktionary-scraper.ts",
-            "args": ["deshacer"],
+            "args": ["desbandarse"],
             "type": "node",
             "request": "launch",
             "preLaunchTask": "tsc: build - tsconfig.node.json",

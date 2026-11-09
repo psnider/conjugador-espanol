@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[sõmbɾeˈaɾ]",
+    "silabacion": "som-bre-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De sombra y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"sombrear","gerundio":["sombreando"],"participio":["sombreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["sombreo"],"s2":["sombreas"],"vos":["sombreás"],"s3":["sombrea"],"p1":["sombreamos"],"p2":["sombreáis"],"p3":["sombrean"]},
+    "IndImp": {"s1":["sombreaba"],"s2":["sombreabas"],"vos":["sombreabas"],"s3":["sombreaba"],"p1":["sombreábamos"],"p2":["sombreabais"],"p3":["sombreaban"]},
+    "IndPret": {"s1":["sombreé"],"s2":["sombreaste"],"vos":["sombreaste"],"s3":["sombreó"],"p1":["sombreamos"],"p2":["sombreasteis"],"p3":["sombrearon"]},
+    "IndFut": {"s1":["sombrearé"],"s2":["sombrearás"],"vos":["sombrearás"],"s3":["sombreará"],"p1":["sombrearemos"],"p2":["sombrearéis"],"p3":["sombrearán"]},
+    "IndCond": {"s1":["sombrearía"],"s2":["sombrearías"],"vos":["sombrearías"],"s3":["sombrearía"],"p1":["sombrearíamos"],"p2":["sombrearíais"],"p3":["sombrearían"]},
+    "SubPres": {"s1":["sombree"],"s2":["sombrees"],"vos":["sombrees","sombreés"],"s3":["sombree"],"p1":["sombreemos"],"p2":["sombreéis"],"p3":["sombreen"]},
+    "SubImp": {"s1":["sombreara","sombrease"],"s2":["sombrearas","sombreases"],"vos":["sombrearas","sombreases"],"s3":["sombreara","sombrease"],"p1":["sombreáramos","sombreásemos"],"p2":["sombrearais","sombreaseis"],"p3":["sombrearan","sombreasen"]},
+    "SubFut": {"s1":["sombreare"],"s2":["sombreares"],"vos":["sombreares"],"s3":["sombreare"],"p1":["sombreáremos"],"p2":["sombreareis"],"p3":["sombrearen"]},
+    "CmdPos": {"s2":["sombrea"],"vos":["sombreá"],"s3":["sombree"],"p1":["sombreemos"],"p2":["sombread"],"p3":["sombreen"]}
+  }
+}

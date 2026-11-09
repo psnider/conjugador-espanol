@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪est̪ɾaˈβ̞aɾ]",
+    "silabacion": "des-tra-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"destrabar","gerundio":["destrabando"],"participio":["destrabado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["destrabo"],"s2":["destrabas"],"vos":["destrabás"],"s3":["destraba"],"p1":["destrabamos"],"p2":["destrabáis"],"p3":["destraban"]},
+    "IndImp": {"s1":["destrababa"],"s2":["destrababas"],"vos":["destrababas"],"s3":["destrababa"],"p1":["destrabábamos"],"p2":["destrababais"],"p3":["destrababan"]},
+    "IndPret": {"s1":["destrabé"],"s2":["destrabaste"],"vos":["destrabaste"],"s3":["destrabó"],"p1":["destrabamos"],"p2":["destrabasteis"],"p3":["destrabaron"]},
+    "IndFut": {"s1":["destrabaré"],"s2":["destrabarás"],"vos":["destrabarás"],"s3":["destrabará"],"p1":["destrabaremos"],"p2":["destrabaréis"],"p3":["destrabarán"]},
+    "IndCond": {"s1":["destrabaría"],"s2":["destrabarías"],"vos":["destrabarías"],"s3":["destrabaría"],"p1":["destrabaríamos"],"p2":["destrabaríais"],"p3":["destrabarían"]},
+    "SubPres": {"s1":["destrabe"],"s2":["destrabes"],"vos":["destrabes","destrabés"],"s3":["destrabe"],"p1":["destrabemos"],"p2":["destrabéis"],"p3":["destraben"]},
+    "SubImp": {"s1":["destrabara","destrabase"],"s2":["destrabaras","destrabases"],"vos":["destrabaras","destrabases"],"s3":["destrabara","destrabase"],"p1":["destrabáramos","destrabásemos"],"p2":["destrabarais","destrabaseis"],"p3":["destrabaran","destrabasen"]},
+    "SubFut": {"s1":["destrabare"],"s2":["destrabares"],"vos":["destrabares"],"s3":["destrabare"],"p1":["destrabáremos"],"p2":["destrabareis"],"p3":["destrabaren"]},
+    "CmdPos": {"s2":["destraba"],"vos":["destrabá"],"s3":["destrabe"],"p1":["destrabemos"],"p2":["destrabad"],"p3":["destraben"]}
+  }
+}

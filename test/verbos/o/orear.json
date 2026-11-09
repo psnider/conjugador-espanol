@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oɾeˈaɾ]",
+    "silabacion": "o-re-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín aura ('viento').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"orear","gerundio":["oreando"],"participio":["oreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oreo"],"s2":["oreas"],"vos":["oreás"],"s3":["orea"],"p1":["oreamos"],"p2":["oreáis"],"p3":["orean"]},
+    "IndImp": {"s1":["oreaba"],"s2":["oreabas"],"vos":["oreabas"],"s3":["oreaba"],"p1":["oreábamos"],"p2":["oreabais"],"p3":["oreaban"]},
+    "IndPret": {"s1":["oreé"],"s2":["oreaste"],"vos":["oreaste"],"s3":["oreó"],"p1":["oreamos"],"p2":["oreasteis"],"p3":["orearon"]},
+    "IndFut": {"s1":["orearé"],"s2":["orearás"],"vos":["orearás"],"s3":["oreará"],"p1":["orearemos"],"p2":["orearéis"],"p3":["orearán"]},
+    "IndCond": {"s1":["orearía"],"s2":["orearías"],"vos":["orearías"],"s3":["orearía"],"p1":["orearíamos"],"p2":["orearíais"],"p3":["orearían"]},
+    "SubPres": {"s1":["oree"],"s2":["orees"],"vos":["orees","oreés"],"s3":["oree"],"p1":["oreemos"],"p2":["oreéis"],"p3":["oreen"]},
+    "SubImp": {"s1":["oreara","orease"],"s2":["orearas","oreases"],"vos":["orearas","oreases"],"s3":["oreara","orease"],"p1":["oreáramos","oreásemos"],"p2":["orearais","oreaseis"],"p3":["orearan","oreasen"]},
+    "SubFut": {"s1":["oreare"],"s2":["oreares"],"vos":["oreares"],"s3":["oreare"],"p1":["oreáremos"],"p2":["oreareis"],"p3":["orearen"]},
+    "CmdPos": {"s2":["orea"],"vos":["oreá"],"s3":["oree"],"p1":["oreemos"],"p2":["oread"],"p3":["oreen"]}
+  }
+}

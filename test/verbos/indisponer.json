@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩn̪d̪ispoˈneɾ]",
+    "silabacion": "in-dis-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo in- y disponer",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"indisponer","gerundio":["indisponiendo"],"participio":["indispuesto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["indispongo"],"s2":["indispones"],"vos":["indisponés"],"s3":["indispone"],"p1":["indisponemos"],"p2":["indisponéis"],"p3":["indisponen"]},
+    "IndImp": {"s1":["indisponía"],"s2":["indisponías"],"vos":["indisponías"],"s3":["indisponía"],"p1":["indisponíamos"],"p2":["indisponíais"],"p3":["indisponían"]},
+    "IndPret": {"s1":["indispuse"],"s2":["indispusiste"],"vos":["indispusiste"],"s3":["indispuso"],"p1":["indispusimos"],"p2":["indispusisteis"],"p3":["indispusieron"]},
+    "IndFut": {"s1":["indispondré"],"s2":["indispondrás"],"vos":["indispondrás"],"s3":["indispondrá"],"p1":["indispondremos"],"p2":["indispondréis"],"p3":["indispondrán"]},
+    "IndCond": {"s1":["indispondría"],"s2":["indispondrías"],"vos":["indispondrías"],"s3":["indispondría"],"p1":["indispondríamos"],"p2":["indispondríais"],"p3":["indispondrían"]},
+    "SubPres": {"s1":["indisponga"],"s2":["indispongas"],"vos":["indispongas","indispongás"],"s3":["indisponga"],"p1":["indispongamos"],"p2":["indispongáis"],"p3":["indispongan"]},
+    "SubImp": {"s1":["indispusiera","indispusiese"],"s2":["indispusieras","indispusieses"],"vos":["indispusieras","indispusieses"],"s3":["indispusiera","indispusiese"],"p1":["indispusiéramos","indispusiésemos"],"p2":["indispusierais","indispusieseis"],"p3":["indispusieran","indispusiesen"]},
+    "SubFut": {"s1":["indispusiere"],"s2":["indispusieres"],"vos":["indispusieres"],"s3":["indispusiere"],"p1":["indispusiéremos"],"p2":["indispusiereis"],"p3":["indispusieren"]},
+    "CmdPos": {"s2":["indispón",{"forma":"indispone","uso":"no normativo"}],"vos":["indisponé"],"s3":["indisponga"],"p1":["indispongamos"],"p2":["indisponed"],"p3":["indispongan"]}
+  }
+}

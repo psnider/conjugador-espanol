@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esmenuˈsaɾ]",
+    "silabacion": "des-me-nu-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y menuza.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"desmenuzar","gerundio":["desmenuzando"],"participio":["desmenuzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desmenuzo"],"s2":["desmenuzas"],"vos":["desmenuzás"],"s3":["desmenuza"],"p1":["desmenuzamos"],"p2":["desmenuzáis"],"p3":["desmenuzan"]},
+    "IndImp": {"s1":["desmenuzaba"],"s2":["desmenuzabas"],"vos":["desmenuzabas"],"s3":["desmenuzaba"],"p1":["desmenuzábamos"],"p2":["desmenuzabais"],"p3":["desmenuzaban"]},
+    "IndPret": {"s1":["desmenucé"],"s2":["desmenuzaste"],"vos":["desmenuzaste"],"s3":["desmenuzó"],"p1":["desmenuzamos"],"p2":["desmenuzasteis"],"p3":["desmenuzaron"]},
+    "IndFut": {"s1":["desmenuzaré"],"s2":["desmenuzarás"],"vos":["desmenuzarás"],"s3":["desmenuzará"],"p1":["desmenuzaremos"],"p2":["desmenuzaréis"],"p3":["desmenuzarán"]},
+    "IndCond": {"s1":["desmenuzaría"],"s2":["desmenuzarías"],"vos":["desmenuzarías"],"s3":["desmenuzaría"],"p1":["desmenuzaríamos"],"p2":["desmenuzaríais"],"p3":["desmenuzarían"]},
+    "SubPres": {"s1":["desmenuce"],"s2":["desmenuces"],"vos":["desmenuces","desmenucés"],"s3":["desmenuce"],"p1":["desmenucemos"],"p2":["desmenucéis"],"p3":["desmenucen"]},
+    "SubImp": {"s1":["desmenuzara","desmenuzase"],"s2":["desmenuzaras","desmenuzases"],"vos":["desmenuzaras","desmenuzases"],"s3":["desmenuzara","desmenuzase"],"p1":["desmenuzáramos","desmenuzásemos"],"p2":["desmenuzarais","desmenuzaseis"],"p3":["desmenuzaran","desmenuzasen"]},
+    "SubFut": {"s1":["desmenuzare"],"s2":["desmenuzares"],"vos":["desmenuzares"],"s3":["desmenuzare"],"p1":["desmenuzáremos"],"p2":["desmenuzareis"],"p3":["desmenuzaren"]},
+    "CmdPos": {"s2":["desmenuza"],"vos":["desmenuzá"],"s3":["desmenuce"],"p1":["desmenucemos"],"p2":["desmenuzad"],"p3":["desmenucen"]}
+  }
+}

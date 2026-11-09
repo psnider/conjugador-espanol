@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪ãmˈpaɾ]",
+    "silabacion": "es-tam-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés estamper, del fráncico *stampôn ('machacar').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estampar","gerundio":["estampando"],"participio":["estampado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estampo"],"s2":["estampas"],"vos":["estampás"],"s3":["estampa"],"p1":["estampamos"],"p2":["estampáis"],"p3":["estampan"]},
+    "IndImp": {"s1":["estampaba"],"s2":["estampabas"],"vos":["estampabas"],"s3":["estampaba"],"p1":["estampábamos"],"p2":["estampabais"],"p3":["estampaban"]},
+    "IndPret": {"s1":["estampé"],"s2":["estampaste"],"vos":["estampaste"],"s3":["estampó"],"p1":["estampamos"],"p2":["estampasteis"],"p3":["estamparon"]},
+    "IndFut": {"s1":["estamparé"],"s2":["estamparás"],"vos":["estamparás"],"s3":["estampará"],"p1":["estamparemos"],"p2":["estamparéis"],"p3":["estamparán"]},
+    "IndCond": {"s1":["estamparía"],"s2":["estamparías"],"vos":["estamparías"],"s3":["estamparía"],"p1":["estamparíamos"],"p2":["estamparíais"],"p3":["estamparían"]},
+    "SubPres": {"s1":["estampe"],"s2":["estampes"],"vos":["estampes","estampés"],"s3":["estampe"],"p1":["estampemos"],"p2":["estampéis"],"p3":["estampen"]},
+    "SubImp": {"s1":["estampara","estampase"],"s2":["estamparas","estampases"],"vos":["estamparas","estampases"],"s3":["estampara","estampase"],"p1":["estampáramos","estampásemos"],"p2":["estamparais","estampaseis"],"p3":["estamparan","estampasen"]},
+    "SubFut": {"s1":["estampare"],"s2":["estampares"],"vos":["estampares"],"s3":["estampare"],"p1":["estampáremos"],"p2":["estampareis"],"p3":["estamparen"]},
+    "CmdPos": {"s2":["estampa"],"vos":["estampá"],"s3":["estampe"],"p1":["estampemos"],"p2":["estampad"],"p3":["estampen"]}
+  }
+}

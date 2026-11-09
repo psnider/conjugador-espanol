@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪ɾãŋˈkaɾ]",
+    "silabacion": "a-tran-car",
+    "acentuacion": "aguda",
+    "etimologia": "De tranca.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"atrancar","gerundio":["atrancando"],"participio":["atrancado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atranco"],"s2":["atrancas"],"vos":["atrancás"],"s3":["atranca"],"p1":["atrancamos"],"p2":["atrancáis"],"p3":["atrancan"]},
+    "IndImp": {"s1":["atrancaba"],"s2":["atrancabas"],"vos":["atrancabas"],"s3":["atrancaba"],"p1":["atrancábamos"],"p2":["atrancabais"],"p3":["atrancaban"]},
+    "IndPret": {"s1":["atranqué"],"s2":["atrancaste"],"vos":["atrancaste"],"s3":["atrancó"],"p1":["atrancamos"],"p2":["atrancasteis"],"p3":["atrancaron"]},
+    "IndFut": {"s1":["atrancaré"],"s2":["atrancarás"],"vos":["atrancarás"],"s3":["atrancará"],"p1":["atrancaremos"],"p2":["atrancaréis"],"p3":["atrancarán"]},
+    "IndCond": {"s1":["atrancaría"],"s2":["atrancarías"],"vos":["atrancarías"],"s3":["atrancaría"],"p1":["atrancaríamos"],"p2":["atrancaríais"],"p3":["atrancarían"]},
+    "SubPres": {"s1":["atranque"],"s2":["atranques"],"vos":["atranques","atranqués"],"s3":["atranque"],"p1":["atranquemos"],"p2":["atranquéis"],"p3":["atranquen"]},
+    "SubImp": {"s1":["atrancara","atrancase"],"s2":["atrancaras","atrancases"],"vos":["atrancaras","atrancases"],"s3":["atrancara","atrancase"],"p1":["atrancáramos","atrancásemos"],"p2":["atrancarais","atrancaseis"],"p3":["atrancaran","atrancasen"]},
+    "SubFut": {"s1":["atrancare"],"s2":["atrancares"],"vos":["atrancares"],"s3":["atrancare"],"p1":["atrancáremos"],"p2":["atrancareis"],"p3":["atrancaren"]},
+    "CmdPos": {"s2":["atranca"],"vos":["atrancá"],"s3":["atranque"],"p1":["atranquemos"],"p2":["atrancad"],"p3":["atranquen"]}
+  }
+}

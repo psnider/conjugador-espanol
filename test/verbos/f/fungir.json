@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[fũŋˈxiɾ]",
+    "silabacion": "fun-gir",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín fungi, infinitivo presente de fungor ('llevar a cabo, ejecutar').",
+    "modelos": ["dirigir"]
+  },
+  "formas_no_personales": {"infinitivo":"fungir","gerundio":["fungiendo"],"participio":["fungido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["funjo"],"s2":["funges"],"vos":["fungís"],"s3":["funge"],"p1":["fungimos"],"p2":["fungís"],"p3":["fungen"]},
+    "IndImp": {"s1":["fungía"],"s2":["fungías"],"vos":["fungías"],"s3":["fungía"],"p1":["fungíamos"],"p2":["fungíais"],"p3":["fungían"]},
+    "IndPret": {"s1":["fungí"],"s2":["fungiste"],"vos":["fungiste"],"s3":["fungió"],"p1":["fungimos"],"p2":["fungisteis"],"p3":["fungieron"]},
+    "IndFut": {"s1":["fungiré"],"s2":["fungirás"],"vos":["fungirás"],"s3":["fungirá"],"p1":["fungiremos"],"p2":["fungiréis"],"p3":["fungirán"]},
+    "IndCond": {"s1":["fungiría"],"s2":["fungirías"],"vos":["fungirías"],"s3":["fungiría"],"p1":["fungiríamos"],"p2":["fungiríais"],"p3":["fungirían"]},
+    "SubPres": {"s1":["funja"],"s2":["funjas"],"vos":["funjas","funjás"],"s3":["funja"],"p1":["funjamos"],"p2":["funjáis"],"p3":["funjan"]},
+    "SubImp": {"s1":["fungiera","fungiese"],"s2":["fungieras","fungieses"],"vos":["fungieras","fungieses"],"s3":["fungiera","fungiese"],"p1":["fungiéramos","fungiésemos"],"p2":["fungierais","fungieseis"],"p3":["fungieran","fungiesen"]},
+    "SubFut": {"s1":["fungiere"],"s2":["fungieres"],"vos":["fungieres"],"s3":["fungiere"],"p1":["fungiéremos"],"p2":["fungiereis"],"p3":["fungieren"]},
+    "CmdPos": {"s2":["funge"],"vos":["fungí"],"s3":["funja"],"p1":["funjamos"],"p2":["fungid"],"p3":["funjan"]}
+  }
+}

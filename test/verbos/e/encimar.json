@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsiˈmaɾ]",
+    "silabacion": "en-ci-mar",
+    "acentuacion": "aguda",
+    "etimologia": "De encima y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"encimar","gerundio":["encimando"],"participio":["encimado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["encimo"],"s2":["encimas"],"vos":["encimás"],"s3":["encima"],"p1":["encimamos"],"p2":["encimáis"],"p3":["enciman"]},
+    "IndImp": {"s1":["encimaba"],"s2":["encimabas"],"vos":["encimabas"],"s3":["encimaba"],"p1":["encimábamos"],"p2":["encimabais"],"p3":["encimaban"]},
+    "IndPret": {"s1":["encimé"],"s2":["encimaste"],"vos":["encimaste"],"s3":["encimó"],"p1":["encimamos"],"p2":["encimasteis"],"p3":["encimaron"]},
+    "IndFut": {"s1":["encimaré"],"s2":["encimarás"],"vos":["encimarás"],"s3":["encimará"],"p1":["encimaremos"],"p2":["encimaréis"],"p3":["encimarán"]},
+    "IndCond": {"s1":["encimaría"],"s2":["encimarías"],"vos":["encimarías"],"s3":["encimaría"],"p1":["encimaríamos"],"p2":["encimaríais"],"p3":["encimarían"]},
+    "SubPres": {"s1":["encime"],"s2":["encimes"],"vos":["encimes","encimés"],"s3":["encime"],"p1":["encimemos"],"p2":["enciméis"],"p3":["encimen"]},
+    "SubImp": {"s1":["encimara","encimase"],"s2":["encimaras","encimases"],"vos":["encimaras","encimases"],"s3":["encimara","encimase"],"p1":["encimáramos","encimásemos"],"p2":["encimarais","encimaseis"],"p3":["encimaran","encimasen"]},
+    "SubFut": {"s1":["encimare"],"s2":["encimares"],"vos":["encimares"],"s3":["encimare"],"p1":["encimáremos"],"p2":["encimareis"],"p3":["encimaren"]},
+    "CmdPos": {"s2":["encima"],"vos":["encimá"],"s3":["encime"],"p1":["encimemos"],"p2":["encimad"],"p3":["encimen"]}
+  }
+}

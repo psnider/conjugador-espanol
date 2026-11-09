@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apaɾeˈxaɾ]",
+    "silabacion": "a-pa-re-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, parejo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aparejar","gerundio":["aparejando"],"participio":["aparejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aparejo"],"s2":["aparejas"],"vos":["aparejás"],"s3":["apareja"],"p1":["aparejamos"],"p2":["aparejáis"],"p3":["aparejan"]},
+    "IndImp": {"s1":["aparejaba"],"s2":["aparejabas"],"vos":["aparejabas"],"s3":["aparejaba"],"p1":["aparejábamos"],"p2":["aparejabais"],"p3":["aparejaban"]},
+    "IndPret": {"s1":["aparejé"],"s2":["aparejaste"],"vos":["aparejaste"],"s3":["aparejó"],"p1":["aparejamos"],"p2":["aparejasteis"],"p3":["aparejaron"]},
+    "IndFut": {"s1":["aparejaré"],"s2":["aparejarás"],"vos":["aparejarás"],"s3":["aparejará"],"p1":["aparejaremos"],"p2":["aparejaréis"],"p3":["aparejarán"]},
+    "IndCond": {"s1":["aparejaría"],"s2":["aparejarías"],"vos":["aparejarías"],"s3":["aparejaría"],"p1":["aparejaríamos"],"p2":["aparejaríais"],"p3":["aparejarían"]},
+    "SubPres": {"s1":["apareje"],"s2":["aparejes"],"vos":["aparejes","aparejés"],"s3":["apareje"],"p1":["aparejemos"],"p2":["aparejéis"],"p3":["aparejen"]},
+    "SubImp": {"s1":["aparejara","aparejase"],"s2":["aparejaras","aparejases"],"vos":["aparejaras","aparejases"],"s3":["aparejara","aparejase"],"p1":["aparejáramos","aparejásemos"],"p2":["aparejarais","aparejaseis"],"p3":["aparejaran","aparejasen"]},
+    "SubFut": {"s1":["aparejare"],"s2":["aparejares"],"vos":["aparejares"],"s3":["aparejare"],"p1":["aparejáremos"],"p2":["aparejareis"],"p3":["aparejaren"]},
+    "CmdPos": {"s2":["apareja"],"vos":["aparejá"],"s3":["apareje"],"p1":["aparejemos"],"p2":["aparejad"],"p3":["aparejen"]}
+  }
+}

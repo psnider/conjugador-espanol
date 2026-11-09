@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pospoˈneɾ]",
+    "silabacion": "pos-po-ner",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín postponĕre, compuesto de post ('después') y ponere ('poner')",
+    "modelos": ["poner"]
+  },
+  "formas_no_personales": {"infinitivo":"posponer","gerundio":["posponiendo"],"participio":["pospuesto"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pospongo"],"s2":["pospones"],"vos":["posponés"],"s3":["pospone"],"p1":["posponemos"],"p2":["posponéis"],"p3":["posponen"]},
+    "IndImp": {"s1":["posponía"],"s2":["posponías"],"vos":["posponías"],"s3":["posponía"],"p1":["posponíamos"],"p2":["posponíais"],"p3":["posponían"]},
+    "IndPret": {"s1":["pospuse"],"s2":["pospusiste"],"vos":["pospusiste"],"s3":["pospuso"],"p1":["pospusimos"],"p2":["pospusisteis"],"p3":["pospusieron"]},
+    "IndFut": {"s1":["pospondré"],"s2":["pospondrás"],"vos":["pospondrás"],"s3":["pospondrá"],"p1":["pospondremos"],"p2":["pospondréis"],"p3":["pospondrán"]},
+    "IndCond": {"s1":["pospondría"],"s2":["pospondrías"],"vos":["pospondrías"],"s3":["pospondría"],"p1":["pospondríamos"],"p2":["pospondríais"],"p3":["pospondrían"]},
+    "SubPres": {"s1":["posponga"],"s2":["pospongas"],"vos":["pospongas","pospongás"],"s3":["posponga"],"p1":["pospongamos"],"p2":["pospongáis"],"p3":["pospongan"]},
+    "SubImp": {"s1":["pospusiera","pospusiese"],"s2":["pospusieras","pospusieses"],"vos":["pospusieras","pospusieses"],"s3":["pospusiera","pospusiese"],"p1":["pospusiéramos","pospusiésemos"],"p2":["pospusierais","pospusieseis"],"p3":["pospusieran","pospusiesen"]},
+    "SubFut": {"s1":["pospusiere"],"s2":["pospusieres"],"vos":["pospusieres"],"s3":["pospusiere"],"p1":["pospusiéremos"],"p2":["pospusiereis"],"p3":["pospusieren"]},
+    "CmdPos": {"s2":["pospón",{"forma":"pospone","uso":"no normativo"}],"vos":["posponé"],"s3":["posponga"],"p1":["pospongamos"],"p2":["posponed"],"p3":["pospongan"]}
+  }
+}

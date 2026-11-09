@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞olˈkaɾ]",
+    "silabacion": "re-vol-car",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["contar","complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"revolcar","gerundio":["revolcando"],"participio":["revolcado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["revuelco"],"s2":["revuelcas"],"vos":["revolcás"],"s3":["revuelca"],"p1":["revolcamos"],"p2":["revolcáis"],"p3":["revuelcan"]},
+    "IndImp": {"s1":["revolcaba"],"s2":["revolcabas"],"vos":["revolcabas"],"s3":["revolcaba"],"p1":["revolcábamos"],"p2":["revolcabais"],"p3":["revolcaban"]},
+    "IndPret": {"s1":["revolqué"],"s2":["revolcaste"],"vos":["revolcaste"],"s3":["revolcó"],"p1":["revolcamos"],"p2":["revolcasteis"],"p3":["revolcaron"]},
+    "IndFut": {"s1":["revolcaré"],"s2":["revolcarás"],"vos":["revolcarás"],"s3":["revolcará"],"p1":["revolcaremos"],"p2":["revolcaréis"],"p3":["revolcarán"]},
+    "IndCond": {"s1":["revolcaría"],"s2":["revolcarías"],"vos":["revolcarías"],"s3":["revolcaría"],"p1":["revolcaríamos"],"p2":["revolcaríais"],"p3":["revolcarían"]},
+    "SubPres": {"s1":["revuelque"],"s2":["revuelques"],"vos":["revuelques","revolqués"],"s3":["revuelque"],"p1":["revolquemos"],"p2":["revolquéis"],"p3":["revuelquen"]},
+    "SubImp": {"s1":["revolcara","revolcase"],"s2":["revolcaras","revolcases"],"vos":["revolcaras","revolcases"],"s3":["revolcara","revolcase"],"p1":["revolcáramos","revolcásemos"],"p2":["revolcarais","revolcaseis"],"p3":["revolcaran","revolcasen"]},
+    "SubFut": {"s1":["revolcare"],"s2":["revolcares"],"vos":["revolcares"],"s3":["revolcare"],"p1":["revolcáremos"],"p2":["revolcareis"],"p3":["revolcaren"]},
+    "CmdPos": {"s2":["revuelca"],"vos":["revolcá"],"s3":["revuelque"],"p1":["revolquemos"],"p2":["revolcad"],"p3":["revuelquen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽŋgloˈβ̞aɾ]",
+    "silabacion": "en-glo-bar",
+    "acentuacion": "aguda",
+    "etimologia": "De en globo y el sufijo -ar.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"englobar","gerundio":["englobando"],"participio":["englobado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["englobo"],"s2":["englobas"],"vos":["englobás"],"s3":["engloba"],"p1":["englobamos"],"p2":["englobáis"],"p3":["engloban"]},
+    "IndImp": {"s1":["englobaba"],"s2":["englobabas"],"vos":["englobabas"],"s3":["englobaba"],"p1":["englobábamos"],"p2":["englobabais"],"p3":["englobaban"]},
+    "IndPret": {"s1":["englobé"],"s2":["englobaste"],"vos":["englobaste"],"s3":["englobó"],"p1":["englobamos"],"p2":["englobasteis"],"p3":["englobaron"]},
+    "IndFut": {"s1":["englobaré"],"s2":["englobarás"],"vos":["englobarás"],"s3":["englobará"],"p1":["englobaremos"],"p2":["englobaréis"],"p3":["englobarán"]},
+    "IndCond": {"s1":["englobaría"],"s2":["englobarías"],"vos":["englobarías"],"s3":["englobaría"],"p1":["englobaríamos"],"p2":["englobaríais"],"p3":["englobarían"]},
+    "SubPres": {"s1":["englobe"],"s2":["englobes"],"vos":["englobes","englobés"],"s3":["englobe"],"p1":["englobemos"],"p2":["englobéis"],"p3":["engloben"]},
+    "SubImp": {"s1":["englobara","englobase"],"s2":["englobaras","englobases"],"vos":["englobaras","englobases"],"s3":["englobara","englobase"],"p1":["englobáramos","englobásemos"],"p2":["englobarais","englobaseis"],"p3":["englobaran","englobasen"]},
+    "SubFut": {"s1":["englobare"],"s2":["englobares"],"vos":["englobares"],"s3":["englobare"],"p1":["englobáremos"],"p2":["englobareis"],"p3":["englobaren"]},
+    "CmdPos": {"s2":["engloba"],"vos":["englobá"],"s3":["englobe"],"p1":["englobemos"],"p2":["englobad"],"p3":["engloben"]}
+  }
+}

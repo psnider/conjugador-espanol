@@ -137,9 +137,6 @@ export function combinaFormasConjugadas(bases, actualizaciones) {
     if (actualizaciones == null) {
         return bases;
     }
-    // if (base.length !== actualizaciones.length) {
-    //     throw new Error(`base=${base} has different length than actualizaciones=${actualizaciones}`)
-    // }
     const max_length = Math.max(bases.length, actualizaciones.length);
     const merged = [];
     for (let i = 0; i < max_length; ++i) {
@@ -153,8 +150,13 @@ export function combinaFormasConjugadas(bases, actualizaciones) {
                 merged.push(actualización);
             }
             else {
-                assert((base.uso === actualización.uso), `mismatched types for base=${JSON.stringify(base)} actualización=${JSON.stringify(actualización)}`);
-                if (actualización.forma) {
+                if (base) {
+                    assert((base.uso === actualización.uso), `mismatched types for base=${JSON.stringify(base)} actualización=${JSON.stringify(actualización)}`);
+                    if (actualización.forma) {
+                        merged.push(actualización);
+                    }
+                }
+                else {
                     merged.push(actualización);
                 }
             }

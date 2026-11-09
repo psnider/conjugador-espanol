@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽn̪t̪ɾeˈnaɾ]",
+    "silabacion": "en-tre-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Del francés entraîner[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"entrenar","gerundio":["entrenando"],"participio":["entrenado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["entreno"],"s2":["entrenas"],"vos":["entrenás"],"s3":["entrena"],"p1":["entrenamos"],"p2":["entrenáis"],"p3":["entrenan"]},
+    "IndImp": {"s1":["entrenaba"],"s2":["entrenabas"],"vos":["entrenabas"],"s3":["entrenaba"],"p1":["entrenábamos"],"p2":["entrenabais"],"p3":["entrenaban"]},
+    "IndPret": {"s1":["entrené"],"s2":["entrenaste"],"vos":["entrenaste"],"s3":["entrenó"],"p1":["entrenamos"],"p2":["entrenasteis"],"p3":["entrenaron"]},
+    "IndFut": {"s1":["entrenaré"],"s2":["entrenarás"],"vos":["entrenarás"],"s3":["entrenará"],"p1":["entrenaremos"],"p2":["entrenaréis"],"p3":["entrenarán"]},
+    "IndCond": {"s1":["entrenaría"],"s2":["entrenarías"],"vos":["entrenarías"],"s3":["entrenaría"],"p1":["entrenaríamos"],"p2":["entrenaríais"],"p3":["entrenarían"]},
+    "SubPres": {"s1":["entrene"],"s2":["entrenes"],"vos":["entrenes","entrenés"],"s3":["entrene"],"p1":["entrenemos"],"p2":["entrenéis"],"p3":["entrenen"]},
+    "SubImp": {"s1":["entrenara","entrenase"],"s2":["entrenaras","entrenases"],"vos":["entrenaras","entrenases"],"s3":["entrenara","entrenase"],"p1":["entrenáramos","entrenásemos"],"p2":["entrenarais","entrenaseis"],"p3":["entrenaran","entrenasen"]},
+    "SubFut": {"s1":["entrenare"],"s2":["entrenares"],"vos":["entrenares"],"s3":["entrenare"],"p1":["entrenáremos"],"p2":["entrenareis"],"p3":["entrenaren"]},
+    "CmdPos": {"s2":["entrena"],"vos":["entrená"],"s3":["entrene"],"p1":["entrenemos"],"p2":["entrenad"],"p3":["entrenen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[leɣ̞aliˈsaɾ]",
+    "silabacion": "le-ga-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"legalizar","gerundio":["legalizando"],"participio":["legalizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["legalizo"],"s2":["legalizas"],"vos":["legalizás"],"s3":["legaliza"],"p1":["legalizamos"],"p2":["legalizáis"],"p3":["legalizan"]},
+    "IndImp": {"s1":["legalizaba"],"s2":["legalizabas"],"vos":["legalizabas"],"s3":["legalizaba"],"p1":["legalizábamos"],"p2":["legalizabais"],"p3":["legalizaban"]},
+    "IndPret": {"s1":["legalicé"],"s2":["legalizaste"],"vos":["legalizaste"],"s3":["legalizó"],"p1":["legalizamos"],"p2":["legalizasteis"],"p3":["legalizaron"]},
+    "IndFut": {"s1":["legalizaré"],"s2":["legalizarás"],"vos":["legalizarás"],"s3":["legalizará"],"p1":["legalizaremos"],"p2":["legalizaréis"],"p3":["legalizarán"]},
+    "IndCond": {"s1":["legalizaría"],"s2":["legalizarías"],"vos":["legalizarías"],"s3":["legalizaría"],"p1":["legalizaríamos"],"p2":["legalizaríais"],"p3":["legalizarían"]},
+    "SubPres": {"s1":["legalice"],"s2":["legalices"],"vos":["legalices","legalicés"],"s3":["legalice"],"p1":["legalicemos"],"p2":["legalicéis"],"p3":["legalicen"]},
+    "SubImp": {"s1":["legalizara","legalizase"],"s2":["legalizaras","legalizases"],"vos":["legalizaras","legalizases"],"s3":["legalizara","legalizase"],"p1":["legalizáramos","legalizásemos"],"p2":["legalizarais","legalizaseis"],"p3":["legalizaran","legalizasen"]},
+    "SubFut": {"s1":["legalizare"],"s2":["legalizares"],"vos":["legalizares"],"s3":["legalizare"],"p1":["legalizáremos"],"p2":["legalizareis"],"p3":["legalizaren"]},
+    "CmdPos": {"s2":["legaliza"],"vos":["legalizá"],"s3":["legalice"],"p1":["legalicemos"],"p2":["legalizad"],"p3":["legalicen"]}
+  }
+}

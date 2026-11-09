@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[at̪esoˈɾaɾ]",
+    "silabacion": "a-te-so-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"atesorar","gerundio":["atesorando"],"participio":["atesorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["atesoro"],"s2":["atesoras"],"vos":["atesorás"],"s3":["atesora"],"p1":["atesoramos"],"p2":["atesoráis"],"p3":["atesoran"]},
+    "IndImp": {"s1":["atesoraba"],"s2":["atesorabas"],"vos":["atesorabas"],"s3":["atesoraba"],"p1":["atesorábamos"],"p2":["atesorabais"],"p3":["atesoraban"]},
+    "IndPret": {"s1":["atesoré"],"s2":["atesoraste"],"vos":["atesoraste"],"s3":["atesoró"],"p1":["atesoramos"],"p2":["atesorasteis"],"p3":["atesoraron"]},
+    "IndFut": {"s1":["atesoraré"],"s2":["atesorarás"],"vos":["atesorarás"],"s3":["atesorará"],"p1":["atesoraremos"],"p2":["atesoraréis"],"p3":["atesorarán"]},
+    "IndCond": {"s1":["atesoraría"],"s2":["atesorarías"],"vos":["atesorarías"],"s3":["atesoraría"],"p1":["atesoraríamos"],"p2":["atesoraríais"],"p3":["atesorarían"]},
+    "SubPres": {"s1":["atesore"],"s2":["atesores"],"vos":["atesores","atesorés"],"s3":["atesore"],"p1":["atesoremos"],"p2":["atesoréis"],"p3":["atesoren"]},
+    "SubImp": {"s1":["atesorara","atesorase"],"s2":["atesoraras","atesorases"],"vos":["atesoraras","atesorases"],"s3":["atesorara","atesorase"],"p1":["atesoráramos","atesorásemos"],"p2":["atesorarais","atesoraseis"],"p3":["atesoraran","atesorasen"]},
+    "SubFut": {"s1":["atesorare"],"s2":["atesorares"],"vos":["atesorares"],"s3":["atesorare"],"p1":["atesoráremos"],"p2":["atesorareis"],"p3":["atesoraren"]},
+    "CmdPos": {"s2":["atesora"],"vos":["atesorá"],"s3":["atesore"],"p1":["atesoremos"],"p2":["atesorad"],"p3":["atesoren"]}
+  }
+}

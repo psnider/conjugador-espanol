@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boɾneˈaɾ]",
+    "silabacion": "bor-ne-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De borne y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"bornear","gerundio":["borneando"],"participio":["borneado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["borneo"],"s2":["borneas"],"vos":["borneás"],"s3":["bornea"],"p1":["borneamos"],"p2":["borneáis"],"p3":["bornean"]},
+    "IndImp": {"s1":["borneaba"],"s2":["borneabas"],"vos":["borneabas"],"s3":["borneaba"],"p1":["borneábamos"],"p2":["borneabais"],"p3":["borneaban"]},
+    "IndPret": {"s1":["borneé"],"s2":["borneaste"],"vos":["borneaste"],"s3":["borneó"],"p1":["borneamos"],"p2":["borneasteis"],"p3":["bornearon"]},
+    "IndFut": {"s1":["bornearé"],"s2":["bornearás"],"vos":["bornearás"],"s3":["borneará"],"p1":["bornearemos"],"p2":["bornearéis"],"p3":["bornearán"]},
+    "IndCond": {"s1":["bornearía"],"s2":["bornearías"],"vos":["bornearías"],"s3":["bornearía"],"p1":["bornearíamos"],"p2":["bornearíais"],"p3":["bornearían"]},
+    "SubPres": {"s1":["bornee"],"s2":["bornees"],"vos":["bornees","borneés"],"s3":["bornee"],"p1":["borneemos"],"p2":["borneéis"],"p3":["borneen"]},
+    "SubImp": {"s1":["borneara","bornease"],"s2":["bornearas","borneases"],"vos":["bornearas","borneases"],"s3":["borneara","bornease"],"p1":["borneáramos","borneásemos"],"p2":["bornearais","borneaseis"],"p3":["bornearan","borneasen"]},
+    "SubFut": {"s1":["borneare"],"s2":["borneares"],"vos":["borneares"],"s3":["borneare"],"p1":["borneáremos"],"p2":["borneareis"],"p3":["bornearen"]},
+    "CmdPos": {"s2":["bornea"],"vos":["borneá"],"s3":["bornee"],"p1":["borneemos"],"p2":["bornead"],"p3":["borneen"]}
+  }
+}

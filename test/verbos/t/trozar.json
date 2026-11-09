@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾoˈsaɾ]",
+    "silabacion": "tro-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De trozo y el sufijo -ar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"trozar","gerundio":["trozando"],"participio":["trozado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trozo"],"s2":["trozas"],"vos":["trozás"],"s3":["troza"],"p1":["trozamos"],"p2":["trozáis"],"p3":["trozan"]},
+    "IndImp": {"s1":["trozaba"],"s2":["trozabas"],"vos":["trozabas"],"s3":["trozaba"],"p1":["trozábamos"],"p2":["trozabais"],"p3":["trozaban"]},
+    "IndPret": {"s1":["trocé"],"s2":["trozaste"],"vos":["trozaste"],"s3":["trozó"],"p1":["trozamos"],"p2":["trozasteis"],"p3":["trozaron"]},
+    "IndFut": {"s1":["trozaré"],"s2":["trozarás"],"vos":["trozarás"],"s3":["trozará"],"p1":["trozaremos"],"p2":["trozaréis"],"p3":["trozarán"]},
+    "IndCond": {"s1":["trozaría"],"s2":["trozarías"],"vos":["trozarías"],"s3":["trozaría"],"p1":["trozaríamos"],"p2":["trozaríais"],"p3":["trozarían"]},
+    "SubPres": {"s1":["troce"],"s2":["troces"],"vos":["troces","trocés"],"s3":["troce"],"p1":["trocemos"],"p2":["trocéis"],"p3":["trocen"]},
+    "SubImp": {"s1":["trozara","trozase"],"s2":["trozaras","trozases"],"vos":["trozaras","trozases"],"s3":["trozara","trozase"],"p1":["trozáramos","trozásemos"],"p2":["trozarais","trozaseis"],"p3":["trozaran","trozasen"]},
+    "SubFut": {"s1":["trozare"],"s2":["trozares"],"vos":["trozares"],"s3":["trozare"],"p1":["trozáremos"],"p2":["trozareis"],"p3":["trozaren"]},
+    "CmdPos": {"s2":["troza"],"vos":["trozá"],"s3":["troce"],"p1":["trocemos"],"p2":["trozad"],"p3":["trocen"]}
+  }
+}

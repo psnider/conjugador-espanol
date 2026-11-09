@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞ẽn̪ˈt̪ɾaɾ]",
+    "silabacion": "a-den-trar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, dentro y el sufijo -ar, más el pronombre personal de acusativo (me, te, se, nos, os, se).",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"adentrar","gerundio":["adentrando"],"participio":["adentrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adentro"],"s2":["adentras"],"vos":["adentrás"],"s3":["adentra"],"p1":["adentramos"],"p2":["adentráis"],"p3":["adentran"]},
+    "IndImp": {"s1":["adentraba"],"s2":["adentrabas"],"vos":["adentrabas"],"s3":["adentraba"],"p1":["adentrábamos"],"p2":["adentrabais"],"p3":["adentraban"]},
+    "IndPret": {"s1":["adentré"],"s2":["adentraste"],"vos":["adentraste"],"s3":["adentró"],"p1":["adentramos"],"p2":["adentrasteis"],"p3":["adentraron"]},
+    "IndFut": {"s1":["adentraré"],"s2":["adentrarás"],"vos":["adentrarás"],"s3":["adentrará"],"p1":["adentraremos"],"p2":["adentraréis"],"p3":["adentrarán"]},
+    "IndCond": {"s1":["adentraría"],"s2":["adentrarías"],"vos":["adentrarías"],"s3":["adentraría"],"p1":["adentraríamos"],"p2":["adentraríais"],"p3":["adentrarían"]},
+    "SubPres": {"s1":["adentre"],"s2":["adentres"],"vos":["adentres","adentrés"],"s3":["adentre"],"p1":["adentremos"],"p2":["adentréis"],"p3":["adentren"]},
+    "SubImp": {"s1":["adentrara","adentrase"],"s2":["adentraras","adentrases"],"vos":["adentraras","adentrases"],"s3":["adentrara","adentrase"],"p1":["adentráramos","adentrásemos"],"p2":["adentrarais","adentraseis"],"p3":["adentraran","adentrasen"]},
+    "SubFut": {"s1":["adentrare"],"s2":["adentrares"],"vos":["adentrares"],"s3":["adentrare"],"p1":["adentráremos"],"p2":["adentrareis"],"p3":["adentraren"]},
+    "CmdPos": {"s2":["adentra"],"vos":["adentrá"],"s3":["adentre"],"p1":["adentremos"],"p2":["adentrad"],"p3":["adentren"]}
+  }
+}

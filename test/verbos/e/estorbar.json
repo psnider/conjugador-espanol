@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[est̪oɾˈβ̞aɾ]",
+    "silabacion": "es-tor-bar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exturbāre",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"estorbar","gerundio":["estorbando"],"participio":["estorbado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["estorbo"],"s2":["estorbas"],"vos":["estorbás"],"s3":["estorba"],"p1":["estorbamos"],"p2":["estorbáis"],"p3":["estorban"]},
+    "IndImp": {"s1":["estorbaba"],"s2":["estorbabas"],"vos":["estorbabas"],"s3":["estorbaba"],"p1":["estorbábamos"],"p2":["estorbabais"],"p3":["estorbaban"]},
+    "IndPret": {"s1":["estorbé"],"s2":["estorbaste"],"vos":["estorbaste"],"s3":["estorbó"],"p1":["estorbamos"],"p2":["estorbasteis"],"p3":["estorbaron"]},
+    "IndFut": {"s1":["estorbaré"],"s2":["estorbarás"],"vos":["estorbarás"],"s3":["estorbará"],"p1":["estorbaremos"],"p2":["estorbaréis"],"p3":["estorbarán"]},
+    "IndCond": {"s1":["estorbaría"],"s2":["estorbarías"],"vos":["estorbarías"],"s3":["estorbaría"],"p1":["estorbaríamos"],"p2":["estorbaríais"],"p3":["estorbarían"]},
+    "SubPres": {"s1":["estorbe"],"s2":["estorbes"],"vos":["estorbes","estorbés"],"s3":["estorbe"],"p1":["estorbemos"],"p2":["estorbéis"],"p3":["estorben"]},
+    "SubImp": {"s1":["estorbara","estorbase"],"s2":["estorbaras","estorbases"],"vos":["estorbaras","estorbases"],"s3":["estorbara","estorbase"],"p1":["estorbáramos","estorbásemos"],"p2":["estorbarais","estorbaseis"],"p3":["estorbaran","estorbasen"]},
+    "SubFut": {"s1":["estorbare"],"s2":["estorbares"],"vos":["estorbares"],"s3":["estorbare"],"p1":["estorbáremos"],"p2":["estorbareis"],"p3":["estorbaren"]},
+    "CmdPos": {"s2":["estorba"],"vos":["estorbá"],"s3":["estorbe"],"p1":["estorbemos"],"p2":["estorbad"],"p3":["estorben"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eð̞ulkoˈɾaɾ]",
+    "silabacion": "e-dul-co-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"edulcorar","gerundio":["edulcorando"],"participio":["edulcorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["edulcoro"],"s2":["edulcoras"],"vos":["edulcorás"],"s3":["edulcora"],"p1":["edulcoramos"],"p2":["edulcoráis"],"p3":["edulcoran"]},
+    "IndImp": {"s1":["edulcoraba"],"s2":["edulcorabas"],"vos":["edulcorabas"],"s3":["edulcoraba"],"p1":["edulcorábamos"],"p2":["edulcorabais"],"p3":["edulcoraban"]},
+    "IndPret": {"s1":["edulcoré"],"s2":["edulcoraste"],"vos":["edulcoraste"],"s3":["edulcoró"],"p1":["edulcoramos"],"p2":["edulcorasteis"],"p3":["edulcoraron"]},
+    "IndFut": {"s1":["edulcoraré"],"s2":["edulcorarás"],"vos":["edulcorarás"],"s3":["edulcorará"],"p1":["edulcoraremos"],"p2":["edulcoraréis"],"p3":["edulcorarán"]},
+    "IndCond": {"s1":["edulcoraría"],"s2":["edulcorarías"],"vos":["edulcorarías"],"s3":["edulcoraría"],"p1":["edulcoraríamos"],"p2":["edulcoraríais"],"p3":["edulcorarían"]},
+    "SubPres": {"s1":["edulcore"],"s2":["edulcores"],"vos":["edulcores","edulcorés"],"s3":["edulcore"],"p1":["edulcoremos"],"p2":["edulcoréis"],"p3":["edulcoren"]},
+    "SubImp": {"s1":["edulcorara","edulcorase"],"s2":["edulcoraras","edulcorases"],"vos":["edulcoraras","edulcorases"],"s3":["edulcorara","edulcorase"],"p1":["edulcoráramos","edulcorásemos"],"p2":["edulcorarais","edulcoraseis"],"p3":["edulcoraran","edulcorasen"]},
+    "SubFut": {"s1":["edulcorare"],"s2":["edulcorares"],"vos":["edulcorares"],"s3":["edulcorare"],"p1":["edulcoráremos"],"p2":["edulcorareis"],"p3":["edulcoraren"]},
+    "CmdPos": {"s2":["edulcora"],"vos":["edulcorá"],"s3":["edulcore"],"p1":["edulcoremos"],"p2":["edulcorad"],"p3":["edulcoren"]}
+  }
+}

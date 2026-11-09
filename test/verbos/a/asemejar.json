@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asemeˈxaɾ]",
+    "silabacion": "a-se-me-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y semejar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asemejar","gerundio":["asemejando"],"participio":["asemejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asemejo"],"s2":["asemejas"],"vos":["asemejás"],"s3":["asemeja"],"p1":["asemejamos"],"p2":["asemejáis"],"p3":["asemejan"]},
+    "IndImp": {"s1":["asemejaba"],"s2":["asemejabas"],"vos":["asemejabas"],"s3":["asemejaba"],"p1":["asemejábamos"],"p2":["asemejabais"],"p3":["asemejaban"]},
+    "IndPret": {"s1":["asemejé"],"s2":["asemejaste"],"vos":["asemejaste"],"s3":["asemejó"],"p1":["asemejamos"],"p2":["asemejasteis"],"p3":["asemejaron"]},
+    "IndFut": {"s1":["asemejaré"],"s2":["asemejarás"],"vos":["asemejarás"],"s3":["asemejará"],"p1":["asemejaremos"],"p2":["asemejaréis"],"p3":["asemejarán"]},
+    "IndCond": {"s1":["asemejaría"],"s2":["asemejarías"],"vos":["asemejarías"],"s3":["asemejaría"],"p1":["asemejaríamos"],"p2":["asemejaríais"],"p3":["asemejarían"]},
+    "SubPres": {"s1":["asemeje"],"s2":["asemejes"],"vos":["asemejes","asemejés"],"s3":["asemeje"],"p1":["asemejemos"],"p2":["asemejéis"],"p3":["asemejen"]},
+    "SubImp": {"s1":["asemejara","asemejase"],"s2":["asemejaras","asemejases"],"vos":["asemejaras","asemejases"],"s3":["asemejara","asemejase"],"p1":["asemejáramos","asemejásemos"],"p2":["asemejarais","asemejaseis"],"p3":["asemejaran","asemejasen"]},
+    "SubFut": {"s1":["asemejare"],"s2":["asemejares"],"vos":["asemejares"],"s3":["asemejare"],"p1":["asemejáremos"],"p2":["asemejareis"],"p3":["asemejaren"]},
+    "CmdPos": {"s2":["asemeja"],"vos":["asemejá"],"s3":["asemeje"],"p1":["asemejemos"],"p2":["asemejad"],"p3":["asemejen"]}
+  }
+}

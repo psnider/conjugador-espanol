@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[baˈɣ̞aɾ]",
+    "silabacion": "va-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín vacare",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"vagar","gerundio":["vagando"],"participio":["vagado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["vago"],"s2":["vagas"],"vos":["vagás"],"s3":["vaga"],"p1":["vagamos"],"p2":["vagáis"],"p3":["vagan"]},
+    "IndImp": {"s1":["vagaba"],"s2":["vagabas"],"vos":["vagabas"],"s3":["vagaba"],"p1":["vagábamos"],"p2":["vagabais"],"p3":["vagaban"]},
+    "IndPret": {"s1":["vagué"],"s2":["vagaste"],"vos":["vagaste"],"s3":["vagó"],"p1":["vagamos"],"p2":["vagasteis"],"p3":["vagaron"]},
+    "IndFut": {"s1":["vagaré"],"s2":["vagarás"],"vos":["vagarás"],"s3":["vagará"],"p1":["vagaremos"],"p2":["vagaréis"],"p3":["vagarán"]},
+    "IndCond": {"s1":["vagaría"],"s2":["vagarías"],"vos":["vagarías"],"s3":["vagaría"],"p1":["vagaríamos"],"p2":["vagaríais"],"p3":["vagarían"]},
+    "SubPres": {"s1":["vague"],"s2":["vagues"],"vos":["vagues","vagués"],"s3":["vague"],"p1":["vaguemos"],"p2":["vaguéis"],"p3":["vaguen"]},
+    "SubImp": {"s1":["vagara","vagase"],"s2":["vagaras","vagases"],"vos":["vagaras","vagases"],"s3":["vagara","vagase"],"p1":["vagáramos","vagásemos"],"p2":["vagarais","vagaseis"],"p3":["vagaran","vagasen"]},
+    "SubFut": {"s1":["vagare"],"s2":["vagares"],"vos":["vagares"],"s3":["vagare"],"p1":["vagáremos"],"p2":["vagareis"],"p3":["vagaren"]},
+    "CmdPos": {"s2":["vaga"],"vos":["vagá"],"s3":["vague"],"p1":["vaguemos"],"p2":["vagad"],"p3":["vaguen"]}
+  }
+}

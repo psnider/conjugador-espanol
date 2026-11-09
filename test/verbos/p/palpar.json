@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[palˈpaɾ]",
+    "silabacion": "pal-par",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín palpare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"palpar","gerundio":["palpando"],"participio":["palpado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["palpo"],"s2":["palpas"],"vos":["palpás"],"s3":["palpa"],"p1":["palpamos"],"p2":["palpáis"],"p3":["palpan"]},
+    "IndImp": {"s1":["palpaba"],"s2":["palpabas"],"vos":["palpabas"],"s3":["palpaba"],"p1":["palpábamos"],"p2":["palpabais"],"p3":["palpaban"]},
+    "IndPret": {"s1":["palpé"],"s2":["palpaste"],"vos":["palpaste"],"s3":["palpó"],"p1":["palpamos"],"p2":["palpasteis"],"p3":["palparon"]},
+    "IndFut": {"s1":["palparé"],"s2":["palparás"],"vos":["palparás"],"s3":["palpará"],"p1":["palparemos"],"p2":["palparéis"],"p3":["palparán"]},
+    "IndCond": {"s1":["palparía"],"s2":["palparías"],"vos":["palparías"],"s3":["palparía"],"p1":["palparíamos"],"p2":["palparíais"],"p3":["palparían"]},
+    "SubPres": {"s1":["palpe"],"s2":["palpes"],"vos":["palpes","palpés"],"s3":["palpe"],"p1":["palpemos"],"p2":["palpéis"],"p3":["palpen"]},
+    "SubImp": {"s1":["palpara","palpase"],"s2":["palparas","palpases"],"vos":["palparas","palpases"],"s3":["palpara","palpase"],"p1":["palpáramos","palpásemos"],"p2":["palparais","palpaseis"],"p3":["palparan","palpasen"]},
+    "SubFut": {"s1":["palpare"],"s2":["palpares"],"vos":["palpares"],"s3":["palpare"],"p1":["palpáremos"],"p2":["palpareis"],"p3":["palparen"]},
+    "CmdPos": {"s2":["palpa"],"vos":["palpá"],"s3":["palpe"],"p1":["palpemos"],"p2":["palpad"],"p3":["palpen"]}
+  }
+}

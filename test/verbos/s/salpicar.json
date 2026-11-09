@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[salpiˈkaɾ]",
+    "silabacion": "sal-pi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto de sal y picar",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"salpicar","gerundio":["salpicando"],"participio":["salpicado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["salpico"],"s2":["salpicas"],"vos":["salpicás"],"s3":["salpica"],"p1":["salpicamos"],"p2":["salpicáis"],"p3":["salpican"]},
+    "IndImp": {"s1":["salpicaba"],"s2":["salpicabas"],"vos":["salpicabas"],"s3":["salpicaba"],"p1":["salpicábamos"],"p2":["salpicabais"],"p3":["salpicaban"]},
+    "IndPret": {"s1":["salpiqué"],"s2":["salpicaste"],"vos":["salpicaste"],"s3":["salpicó"],"p1":["salpicamos"],"p2":["salpicasteis"],"p3":["salpicaron"]},
+    "IndFut": {"s1":["salpicaré"],"s2":["salpicarás"],"vos":["salpicarás"],"s3":["salpicará"],"p1":["salpicaremos"],"p2":["salpicaréis"],"p3":["salpicarán"]},
+    "IndCond": {"s1":["salpicaría"],"s2":["salpicarías"],"vos":["salpicarías"],"s3":["salpicaría"],"p1":["salpicaríamos"],"p2":["salpicaríais"],"p3":["salpicarían"]},
+    "SubPres": {"s1":["salpique"],"s2":["salpiques"],"vos":["salpiques","salpiqués"],"s3":["salpique"],"p1":["salpiquemos"],"p2":["salpiquéis"],"p3":["salpiquen"]},
+    "SubImp": {"s1":["salpicara","salpicase"],"s2":["salpicaras","salpicases"],"vos":["salpicaras","salpicases"],"s3":["salpicara","salpicase"],"p1":["salpicáramos","salpicásemos"],"p2":["salpicarais","salpicaseis"],"p3":["salpicaran","salpicasen"]},
+    "SubFut": {"s1":["salpicare"],"s2":["salpicares"],"vos":["salpicares"],"s3":["salpicare"],"p1":["salpicáremos"],"p2":["salpicareis"],"p3":["salpicaren"]},
+    "CmdPos": {"s2":["salpica"],"vos":["salpicá"],"s3":["salpique"],"p1":["salpiquemos"],"p2":["salpicad"],"p3":["salpiquen"]}
+  }
+}

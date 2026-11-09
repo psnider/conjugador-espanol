@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ĩmpakˈt̪aɾ]",
+    "silabacion": "im-pac-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De impacto y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"impactar","gerundio":["impactando"],"participio":["impactado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["impacto"],"s2":["impactas"],"vos":["impactás"],"s3":["impacta"],"p1":["impactamos"],"p2":["impactáis"],"p3":["impactan"]},
+    "IndImp": {"s1":["impactaba"],"s2":["impactabas"],"vos":["impactabas"],"s3":["impactaba"],"p1":["impactábamos"],"p2":["impactabais"],"p3":["impactaban"]},
+    "IndPret": {"s1":["impacté"],"s2":["impactaste"],"vos":["impactaste"],"s3":["impactó"],"p1":["impactamos"],"p2":["impactasteis"],"p3":["impactaron"]},
+    "IndFut": {"s1":["impactaré"],"s2":["impactarás"],"vos":["impactarás"],"s3":["impactará"],"p1":["impactaremos"],"p2":["impactaréis"],"p3":["impactarán"]},
+    "IndCond": {"s1":["impactaría"],"s2":["impactarías"],"vos":["impactarías"],"s3":["impactaría"],"p1":["impactaríamos"],"p2":["impactaríais"],"p3":["impactarían"]},
+    "SubPres": {"s1":["impacte"],"s2":["impactes"],"vos":["impactes","impactés"],"s3":["impacte"],"p1":["impactemos"],"p2":["impactéis"],"p3":["impacten"]},
+    "SubImp": {"s1":["impactara","impactase"],"s2":["impactaras","impactases"],"vos":["impactaras","impactases"],"s3":["impactara","impactase"],"p1":["impactáramos","impactásemos"],"p2":["impactarais","impactaseis"],"p3":["impactaran","impactasen"]},
+    "SubFut": {"s1":["impactare"],"s2":["impactares"],"vos":["impactares"],"s3":["impactare"],"p1":["impactáremos"],"p2":["impactareis"],"p3":["impactaren"]},
+    "CmdPos": {"s2":["impacta"],"vos":["impactá"],"s3":["impacte"],"p1":["impactemos"],"p2":["impactad"],"p3":["impacten"]}
+  }
+}

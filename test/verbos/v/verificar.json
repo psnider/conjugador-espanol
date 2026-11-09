@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[beɾifiˈkaɾ]",
+    "silabacion": "ve-ri-fi-car",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín verificare.",
+    "modelos": ["complicar"]
+  },
+  "formas_no_personales": {"infinitivo":"verificar","gerundio":["verificando"],"participio":["verificado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["verifico"],"s2":["verificas"],"vos":["verificás"],"s3":["verifica"],"p1":["verificamos"],"p2":["verificáis"],"p3":["verifican"]},
+    "IndImp": {"s1":["verificaba"],"s2":["verificabas"],"vos":["verificabas"],"s3":["verificaba"],"p1":["verificábamos"],"p2":["verificabais"],"p3":["verificaban"]},
+    "IndPret": {"s1":["verifiqué"],"s2":["verificaste"],"vos":["verificaste"],"s3":["verificó"],"p1":["verificamos"],"p2":["verificasteis"],"p3":["verificaron"]},
+    "IndFut": {"s1":["verificaré"],"s2":["verificarás"],"vos":["verificarás"],"s3":["verificará"],"p1":["verificaremos"],"p2":["verificaréis"],"p3":["verificarán"]},
+    "IndCond": {"s1":["verificaría"],"s2":["verificarías"],"vos":["verificarías"],"s3":["verificaría"],"p1":["verificaríamos"],"p2":["verificaríais"],"p3":["verificarían"]},
+    "SubPres": {"s1":["verifique"],"s2":["verifiques"],"vos":["verifiques","verifiqués"],"s3":["verifique"],"p1":["verifiquemos"],"p2":["verifiquéis"],"p3":["verifiquen"]},
+    "SubImp": {"s1":["verificara","verificase"],"s2":["verificaras","verificases"],"vos":["verificaras","verificases"],"s3":["verificara","verificase"],"p1":["verificáramos","verificásemos"],"p2":["verificarais","verificaseis"],"p3":["verificaran","verificasen"]},
+    "SubFut": {"s1":["verificare"],"s2":["verificares"],"vos":["verificares"],"s3":["verificare"],"p1":["verificáremos"],"p2":["verificareis"],"p3":["verificaren"]},
+    "CmdPos": {"s2":["verifica"],"vos":["verificá"],"s3":["verifique"],"p1":["verifiquemos"],"p2":["verificad"],"p3":["verifiquen"]}
+  }
+}

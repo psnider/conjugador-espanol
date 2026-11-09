@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apoɾˈt̪aɾ]",
+    "silabacion": "a-por-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín apportare.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aportar","gerundio":["aportando"],"participio":["aportado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["aporto"],"s2":["aportas"],"vos":["aportás"],"s3":["aporta"],"p1":["aportamos"],"p2":["aportáis"],"p3":["aportan"]},
+    "IndImp": {"s1":["aportaba"],"s2":["aportabas"],"vos":["aportabas"],"s3":["aportaba"],"p1":["aportábamos"],"p2":["aportabais"],"p3":["aportaban"]},
+    "IndPret": {"s1":["aporté"],"s2":["aportaste"],"vos":["aportaste"],"s3":["aportó"],"p1":["aportamos"],"p2":["aportasteis"],"p3":["aportaron"]},
+    "IndFut": {"s1":["aportaré"],"s2":["aportarás"],"vos":["aportarás"],"s3":["aportará"],"p1":["aportaremos"],"p2":["aportaréis"],"p3":["aportarán"]},
+    "IndCond": {"s1":["aportaría"],"s2":["aportarías"],"vos":["aportarías"],"s3":["aportaría"],"p1":["aportaríamos"],"p2":["aportaríais"],"p3":["aportarían"]},
+    "SubPres": {"s1":["aporte"],"s2":["aportes"],"vos":["aportes","aportés"],"s3":["aporte"],"p1":["aportemos"],"p2":["aportéis"],"p3":["aporten"]},
+    "SubImp": {"s1":["aportara","aportase"],"s2":["aportaras","aportases"],"vos":["aportaras","aportases"],"s3":["aportara","aportase"],"p1":["aportáramos","aportásemos"],"p2":["aportarais","aportaseis"],"p3":["aportaran","aportasen"]},
+    "SubFut": {"s1":["aportare"],"s2":["aportares"],"vos":["aportares"],"s3":["aportare"],"p1":["aportáremos"],"p2":["aportareis"],"p3":["aportaren"]},
+    "CmdPos": {"s2":["aporta"],"vos":["aportá"],"s3":["aporte"],"p1":["aportemos"],"p2":["aportad"],"p3":["aporten"]}
+  }
+}

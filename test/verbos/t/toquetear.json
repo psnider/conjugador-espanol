@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪oket̪eˈaɾ]",
+    "silabacion": "to-que-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De toque y el sufijo -ear",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"toquetear","gerundio":["toqueteando"],"participio":["toqueteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["toqueteo"],"s2":["toqueteas"],"vos":["toqueteás"],"s3":["toquetea"],"p1":["toqueteamos"],"p2":["toqueteáis"],"p3":["toquetean"]},
+    "IndImp": {"s1":["toqueteaba"],"s2":["toqueteabas"],"vos":["toqueteabas"],"s3":["toqueteaba"],"p1":["toqueteábamos"],"p2":["toqueteabais"],"p3":["toqueteaban"]},
+    "IndPret": {"s1":["toqueteé"],"s2":["toqueteaste"],"vos":["toqueteaste"],"s3":["toqueteó"],"p1":["toqueteamos"],"p2":["toqueteasteis"],"p3":["toquetearon"]},
+    "IndFut": {"s1":["toquetearé"],"s2":["toquetearás"],"vos":["toquetearás"],"s3":["toqueteará"],"p1":["toquetearemos"],"p2":["toquetearéis"],"p3":["toquetearán"]},
+    "IndCond": {"s1":["toquetearía"],"s2":["toquetearías"],"vos":["toquetearías"],"s3":["toquetearía"],"p1":["toquetearíamos"],"p2":["toquetearíais"],"p3":["toquetearían"]},
+    "SubPres": {"s1":["toquetee"],"s2":["toquetees"],"vos":["toquetees","toqueteés"],"s3":["toquetee"],"p1":["toqueteemos"],"p2":["toqueteéis"],"p3":["toqueteen"]},
+    "SubImp": {"s1":["toqueteara","toquetease"],"s2":["toquetearas","toqueteases"],"vos":["toquetearas","toqueteases"],"s3":["toqueteara","toquetease"],"p1":["toqueteáramos","toqueteásemos"],"p2":["toquetearais","toqueteaseis"],"p3":["toquetearan","toqueteasen"]},
+    "SubFut": {"s1":["toqueteare"],"s2":["toqueteares"],"vos":["toqueteares"],"s3":["toqueteare"],"p1":["toqueteáremos"],"p2":["toqueteareis"],"p3":["toquetearen"]},
+    "CmdPos": {"s2":["toquetea"],"vos":["toqueteá"],"s3":["toquetee"],"p1":["toqueteemos"],"p2":["toquetead"],"p3":["toqueteen"]}
+  }
+}

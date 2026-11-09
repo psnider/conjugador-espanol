@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõn̪t̪ɾoˈlaɾ]",
+    "silabacion": "des-con-tro-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y controlar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descontrolar","gerundio":["descontrolando"],"participio":["descontrolado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descontrolo"],"s2":["descontrolas"],"vos":["descontrolás"],"s3":["descontrola"],"p1":["descontrolamos"],"p2":["descontroláis"],"p3":["descontrolan"]},
+    "IndImp": {"s1":["descontrolaba"],"s2":["descontrolabas"],"vos":["descontrolabas"],"s3":["descontrolaba"],"p1":["descontrolábamos"],"p2":["descontrolabais"],"p3":["descontrolaban"]},
+    "IndPret": {"s1":["descontrolé"],"s2":["descontrolaste"],"vos":["descontrolaste"],"s3":["descontroló"],"p1":["descontrolamos"],"p2":["descontrolasteis"],"p3":["descontrolaron"]},
+    "IndFut": {"s1":["descontrolaré"],"s2":["descontrolarás"],"vos":["descontrolarás"],"s3":["descontrolará"],"p1":["descontrolaremos"],"p2":["descontrolaréis"],"p3":["descontrolarán"]},
+    "IndCond": {"s1":["descontrolaría"],"s2":["descontrolarías"],"vos":["descontrolarías"],"s3":["descontrolaría"],"p1":["descontrolaríamos"],"p2":["descontrolaríais"],"p3":["descontrolarían"]},
+    "SubPres": {"s1":["descontrole"],"s2":["descontroles"],"vos":["descontroles","descontrolés"],"s3":["descontrole"],"p1":["descontrolemos"],"p2":["descontroléis"],"p3":["descontrolen"]},
+    "SubImp": {"s1":["descontrolara","descontrolase"],"s2":["descontrolaras","descontrolases"],"vos":["descontrolaras","descontrolases"],"s3":["descontrolara","descontrolase"],"p1":["descontroláramos","descontrolásemos"],"p2":["descontrolarais","descontrolaseis"],"p3":["descontrolaran","descontrolasen"]},
+    "SubFut": {"s1":["descontrolare"],"s2":["descontrolares"],"vos":["descontrolares"],"s3":["descontrolare"],"p1":["descontroláremos"],"p2":["descontrolareis"],"p3":["descontrolaren"]},
+    "CmdPos": {"s2":["descontrola"],"vos":["descontrolá"],"s3":["descontrole"],"p1":["descontrolemos"],"p2":["descontrolad"],"p3":["descontrolen"]}
+  }
+}

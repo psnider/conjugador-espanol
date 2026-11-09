@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõnsoˈlaɾ]",
+    "silabacion": "des-con-so-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["contar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconsolar","gerundio":["desconsolando"],"participio":["desconsolado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desconsuelo"],"s2":["desconsuelas"],"vos":["desconsolás"],"s3":["desconsuela"],"p1":["desconsolamos"],"p2":["desconsoláis"],"p3":["desconsuelan"]},
+    "IndImp": {"s1":["desconsolaba"],"s2":["desconsolabas"],"vos":["desconsolabas"],"s3":["desconsolaba"],"p1":["desconsolábamos"],"p2":["desconsolabais"],"p3":["desconsolaban"]},
+    "IndPret": {"s1":["desconsolé"],"s2":["desconsolaste"],"vos":["desconsolaste"],"s3":["desconsoló"],"p1":["desconsolamos"],"p2":["desconsolasteis"],"p3":["desconsolaron"]},
+    "IndFut": {"s1":["desconsolaré"],"s2":["desconsolarás"],"vos":["desconsolarás"],"s3":["desconsolará"],"p1":["desconsolaremos"],"p2":["desconsolaréis"],"p3":["desconsolarán"]},
+    "IndCond": {"s1":["desconsolaría"],"s2":["desconsolarías"],"vos":["desconsolarías"],"s3":["desconsolaría"],"p1":["desconsolaríamos"],"p2":["desconsolaríais"],"p3":["desconsolarían"]},
+    "SubPres": {"s1":["desconsuele"],"s2":["desconsueles"],"vos":["desconsueles","desconsolés"],"s3":["desconsuele"],"p1":["desconsolemos"],"p2":["desconsoléis"],"p3":["desconsuelen"]},
+    "SubImp": {"s1":["desconsolara","desconsolase"],"s2":["desconsolaras","desconsolases"],"vos":["desconsolaras","desconsolases"],"s3":["desconsolara","desconsolase"],"p1":["desconsoláramos","desconsolásemos"],"p2":["desconsolarais","desconsolaseis"],"p3":["desconsolaran","desconsolasen"]},
+    "SubFut": {"s1":["desconsolare"],"s2":["desconsolares"],"vos":["desconsolares"],"s3":["desconsolare"],"p1":["desconsoláremos"],"p2":["desconsolareis"],"p3":["desconsolaren"]},
+    "CmdPos": {"s2":["desconsuela"],"vos":["desconsolá"],"s3":["desconsuele"],"p1":["desconsolemos"],"p2":["desconsolad"],"p3":["desconsuelen"]}
+  }
+}

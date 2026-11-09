@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kwaˈxaɾ]",
+    "silabacion": "cua-jar",
+    "acentuacion": "aguda",
+    "etimologia": "De cuajo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"cuajar","gerundio":["cuajando"],"participio":["cuajado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["cuajo"],"s2":["cuajas"],"vos":["cuajás"],"s3":["cuaja"],"p1":["cuajamos"],"p2":["cuajáis"],"p3":["cuajan"]},
+    "IndImp": {"s1":["cuajaba"],"s2":["cuajabas"],"vos":["cuajabas"],"s3":["cuajaba"],"p1":["cuajábamos"],"p2":["cuajabais"],"p3":["cuajaban"]},
+    "IndPret": {"s1":["cuajé"],"s2":["cuajaste"],"vos":["cuajaste"],"s3":["cuajó"],"p1":["cuajamos"],"p2":["cuajasteis"],"p3":["cuajaron"]},
+    "IndFut": {"s1":["cuajaré"],"s2":["cuajarás"],"vos":["cuajarás"],"s3":["cuajará"],"p1":["cuajaremos"],"p2":["cuajaréis"],"p3":["cuajarán"]},
+    "IndCond": {"s1":["cuajaría"],"s2":["cuajarías"],"vos":["cuajarías"],"s3":["cuajaría"],"p1":["cuajaríamos"],"p2":["cuajaríais"],"p3":["cuajarían"]},
+    "SubPres": {"s1":["cuaje"],"s2":["cuajes"],"vos":["cuajes","cuajés"],"s3":["cuaje"],"p1":["cuajemos"],"p2":["cuajéis"],"p3":["cuajen"]},
+    "SubImp": {"s1":["cuajara","cuajase"],"s2":["cuajaras","cuajases"],"vos":["cuajaras","cuajases"],"s3":["cuajara","cuajase"],"p1":["cuajáramos","cuajásemos"],"p2":["cuajarais","cuajaseis"],"p3":["cuajaran","cuajasen"]},
+    "SubFut": {"s1":["cuajare"],"s2":["cuajares"],"vos":["cuajares"],"s3":["cuajare"],"p1":["cuajáremos"],"p2":["cuajareis"],"p3":["cuajaren"]},
+    "CmdPos": {"s2":["cuaja"],"vos":["cuajá"],"s3":["cuaje"],"p1":["cuajemos"],"p2":["cuajad"],"p3":["cuajen"]}
+  }
+}

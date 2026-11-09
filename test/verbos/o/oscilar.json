@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[osiˈlaɾ]",
+    "silabacion": "os-ci-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín oscillāre ('balancearse').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"oscilar","gerundio":["oscilando"],"participio":["oscilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["oscilo"],"s2":["oscilas"],"vos":["oscilás"],"s3":["oscila"],"p1":["oscilamos"],"p2":["osciláis"],"p3":["oscilan"]},
+    "IndImp": {"s1":["oscilaba"],"s2":["oscilabas"],"vos":["oscilabas"],"s3":["oscilaba"],"p1":["oscilábamos"],"p2":["oscilabais"],"p3":["oscilaban"]},
+    "IndPret": {"s1":["oscilé"],"s2":["oscilaste"],"vos":["oscilaste"],"s3":["osciló"],"p1":["oscilamos"],"p2":["oscilasteis"],"p3":["oscilaron"]},
+    "IndFut": {"s1":["oscilaré"],"s2":["oscilarás"],"vos":["oscilarás"],"s3":["oscilará"],"p1":["oscilaremos"],"p2":["oscilaréis"],"p3":["oscilarán"]},
+    "IndCond": {"s1":["oscilaría"],"s2":["oscilarías"],"vos":["oscilarías"],"s3":["oscilaría"],"p1":["oscilaríamos"],"p2":["oscilaríais"],"p3":["oscilarían"]},
+    "SubPres": {"s1":["oscile"],"s2":["osciles"],"vos":["osciles","oscilés"],"s3":["oscile"],"p1":["oscilemos"],"p2":["osciléis"],"p3":["oscilen"]},
+    "SubImp": {"s1":["oscilara","oscilase"],"s2":["oscilaras","oscilases"],"vos":["oscilaras","oscilases"],"s3":["oscilara","oscilase"],"p1":["osciláramos","oscilásemos"],"p2":["oscilarais","oscilaseis"],"p3":["oscilaran","oscilasen"]},
+    "SubFut": {"s1":["oscilare"],"s2":["oscilares"],"vos":["oscilares"],"s3":["oscilare"],"p1":["osciláremos"],"p2":["oscilareis"],"p3":["oscilaren"]},
+    "CmdPos": {"s2":["oscila"],"vos":["oscilá"],"s3":["oscile"],"p1":["oscilemos"],"p2":["oscilad"],"p3":["oscilen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[areˈaɾ]",
+    "silabacion": "a-rre-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De arre y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"arrear","gerundio":["arreando"],"participio":["arreado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["arreo"],"s2":["arreas"],"vos":["arreás"],"s3":["arrea"],"p1":["arreamos"],"p2":["arreáis"],"p3":["arrean"]},
+    "IndImp": {"s1":["arreaba"],"s2":["arreabas"],"vos":["arreabas"],"s3":["arreaba"],"p1":["arreábamos"],"p2":["arreabais"],"p3":["arreaban"]},
+    "IndPret": {"s1":["arreé"],"s2":["arreaste"],"vos":["arreaste"],"s3":["arreó"],"p1":["arreamos"],"p2":["arreasteis"],"p3":["arrearon"]},
+    "IndFut": {"s1":["arrearé"],"s2":["arrearás"],"vos":["arrearás"],"s3":["arreará"],"p1":["arrearemos"],"p2":["arrearéis"],"p3":["arrearán"]},
+    "IndCond": {"s1":["arrearía"],"s2":["arrearías"],"vos":["arrearías"],"s3":["arrearía"],"p1":["arrearíamos"],"p2":["arrearíais"],"p3":["arrearían"]},
+    "SubPres": {"s1":["arree"],"s2":["arrees"],"vos":["arrees","arreés"],"s3":["arree"],"p1":["arreemos"],"p2":["arreéis"],"p3":["arreen"]},
+    "SubImp": {"s1":["arreara","arrease"],"s2":["arrearas","arreases"],"vos":["arrearas","arreases"],"s3":["arreara","arrease"],"p1":["arreáramos","arreásemos"],"p2":["arrearais","arreaseis"],"p3":["arrearan","arreasen"]},
+    "SubFut": {"s1":["arreare"],"s2":["arreares"],"vos":["arreares"],"s3":["arreare"],"p1":["arreáremos"],"p2":["arreareis"],"p3":["arrearen"]},
+    "CmdPos": {"s2":["arrea"],"vos":["arreá"],"s3":["arree"],"p1":["arreemos"],"p2":["arread"],"p3":["arreen"]}
+  }
+}

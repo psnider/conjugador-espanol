@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[riˈsaɾ]",
+    "silabacion": "ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De rizo y el sufijo -ar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"rizar","gerundio":["rizando"],"participio":["rizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["rizo"],"s2":["rizas"],"vos":["rizás"],"s3":["riza"],"p1":["rizamos"],"p2":["rizáis"],"p3":["rizan"]},
+    "IndImp": {"s1":["rizaba"],"s2":["rizabas"],"vos":["rizabas"],"s3":["rizaba"],"p1":["rizábamos"],"p2":["rizabais"],"p3":["rizaban"]},
+    "IndPret": {"s1":["ricé"],"s2":["rizaste"],"vos":["rizaste"],"s3":["rizó"],"p1":["rizamos"],"p2":["rizasteis"],"p3":["rizaron"]},
+    "IndFut": {"s1":["rizaré"],"s2":["rizarás"],"vos":["rizarás"],"s3":["rizará"],"p1":["rizaremos"],"p2":["rizaréis"],"p3":["rizarán"]},
+    "IndCond": {"s1":["rizaría"],"s2":["rizarías"],"vos":["rizarías"],"s3":["rizaría"],"p1":["rizaríamos"],"p2":["rizaríais"],"p3":["rizarían"]},
+    "SubPres": {"s1":["rice"],"s2":["rices"],"vos":["rices","ricés"],"s3":["rice"],"p1":["ricemos"],"p2":["ricéis"],"p3":["ricen"]},
+    "SubImp": {"s1":["rizara","rizase"],"s2":["rizaras","rizases"],"vos":["rizaras","rizases"],"s3":["rizara","rizase"],"p1":["rizáramos","rizásemos"],"p2":["rizarais","rizaseis"],"p3":["rizaran","rizasen"]},
+    "SubFut": {"s1":["rizare"],"s2":["rizares"],"vos":["rizares"],"s3":["rizare"],"p1":["rizáremos"],"p2":["rizareis"],"p3":["rizaren"]},
+    "CmdPos": {"s2":["riza"],"vos":["rizá"],"s3":["rice"],"p1":["ricemos"],"p2":["rizad"],"p3":["ricen"]}
+  }
+}

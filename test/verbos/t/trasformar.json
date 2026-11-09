@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾasfoɾˈmaɾ]",
+    "silabacion": "tras-for-mar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo tras- y formar, a través del latín trānsfōrmō, trānsfōrmāre (trāns + fōrmō, \"cambiar de forma\").",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trasformar","gerundio":["trasformando"],"participio":["trasformado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trasformo"],"s2":["trasformas"],"vos":["trasformás"],"s3":["trasforma"],"p1":["trasformamos"],"p2":["trasformáis"],"p3":["trasforman"]},
+    "IndImp": {"s1":["trasformaba"],"s2":["trasformabas"],"vos":["trasformabas"],"s3":["trasformaba"],"p1":["trasformábamos"],"p2":["trasformabais"],"p3":["trasformaban"]},
+    "IndPret": {"s1":["trasformé"],"s2":["trasformaste"],"vos":["trasformaste"],"s3":["trasformó"],"p1":["trasformamos"],"p2":["trasformasteis"],"p3":["trasformaron"]},
+    "IndFut": {"s1":["trasformaré"],"s2":["trasformarás"],"vos":["trasformarás"],"s3":["trasformará"],"p1":["trasformaremos"],"p2":["trasformaréis"],"p3":["trasformarán"]},
+    "IndCond": {"s1":["trasformaría"],"s2":["trasformarías"],"vos":["trasformarías"],"s3":["trasformaría"],"p1":["trasformaríamos"],"p2":["trasformaríais"],"p3":["trasformarían"]},
+    "SubPres": {"s1":["trasforme"],"s2":["trasformes"],"vos":["trasformes","trasformés"],"s3":["trasforme"],"p1":["trasformemos"],"p2":["trasforméis"],"p3":["trasformen"]},
+    "SubImp": {"s1":["trasformara","trasformase"],"s2":["trasformaras","trasformases"],"vos":["trasformaras","trasformases"],"s3":["trasformara","trasformase"],"p1":["trasformáramos","trasformásemos"],"p2":["trasformarais","trasformaseis"],"p3":["trasformaran","trasformasen"]},
+    "SubFut": {"s1":["trasformare"],"s2":["trasformares"],"vos":["trasformares"],"s3":["trasformare"],"p1":["trasformáremos"],"p2":["trasformareis"],"p3":["trasformaren"]},
+    "CmdPos": {"s2":["trasforma"],"vos":["trasformá"],"s3":["trasforme"],"p1":["trasformemos"],"p2":["trasformad"],"p3":["trasformen"]}
+  }
+}

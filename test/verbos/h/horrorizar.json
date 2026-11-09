@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[oroɾiˈsaɾ]",
+    "silabacion": "ho-rro-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"horrorizar","gerundio":["horrorizando"],"participio":["horrorizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["horrorizo"],"s2":["horrorizas"],"vos":["horrorizás"],"s3":["horroriza"],"p1":["horrorizamos"],"p2":["horrorizáis"],"p3":["horrorizan"]},
+    "IndImp": {"s1":["horrorizaba"],"s2":["horrorizabas"],"vos":["horrorizabas"],"s3":["horrorizaba"],"p1":["horrorizábamos"],"p2":["horrorizabais"],"p3":["horrorizaban"]},
+    "IndPret": {"s1":["horroricé"],"s2":["horrorizaste"],"vos":["horrorizaste"],"s3":["horrorizó"],"p1":["horrorizamos"],"p2":["horrorizasteis"],"p3":["horrorizaron"]},
+    "IndFut": {"s1":["horrorizaré"],"s2":["horrorizarás"],"vos":["horrorizarás"],"s3":["horrorizará"],"p1":["horrorizaremos"],"p2":["horrorizaréis"],"p3":["horrorizarán"]},
+    "IndCond": {"s1":["horrorizaría"],"s2":["horrorizarías"],"vos":["horrorizarías"],"s3":["horrorizaría"],"p1":["horrorizaríamos"],"p2":["horrorizaríais"],"p3":["horrorizarían"]},
+    "SubPres": {"s1":["horrorice"],"s2":["horrorices"],"vos":["horrorices","horroricés"],"s3":["horrorice"],"p1":["horroricemos"],"p2":["horroricéis"],"p3":["horroricen"]},
+    "SubImp": {"s1":["horrorizara","horrorizase"],"s2":["horrorizaras","horrorizases"],"vos":["horrorizaras","horrorizases"],"s3":["horrorizara","horrorizase"],"p1":["horrorizáramos","horrorizásemos"],"p2":["horrorizarais","horrorizaseis"],"p3":["horrorizaran","horrorizasen"]},
+    "SubFut": {"s1":["horrorizare"],"s2":["horrorizares"],"vos":["horrorizares"],"s3":["horrorizare"],"p1":["horrorizáremos"],"p2":["horrorizareis"],"p3":["horrorizaren"]},
+    "CmdPos": {"s2":["horroriza"],"vos":["horrorizá"],"s3":["horrorice"],"p1":["horroricemos"],"p2":["horrorizad"],"p3":["horroricen"]}
+  }
+}

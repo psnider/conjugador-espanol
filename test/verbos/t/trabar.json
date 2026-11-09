@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t̪ɾaˈβ̞aɾ]",
+    "silabacion": "tra-bar",
+    "acentuacion": "aguda",
+    "etimologia": "De traba y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"trabar","gerundio":["trabando"],"participio":["trabado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["trabo"],"s2":["trabas"],"vos":["trabás"],"s3":["traba"],"p1":["trabamos"],"p2":["trabáis"],"p3":["traban"]},
+    "IndImp": {"s1":["trababa"],"s2":["trababas"],"vos":["trababas"],"s3":["trababa"],"p1":["trabábamos"],"p2":["trababais"],"p3":["trababan"]},
+    "IndPret": {"s1":["trabé"],"s2":["trabaste"],"vos":["trabaste"],"s3":["trabó"],"p1":["trabamos"],"p2":["trabasteis"],"p3":["trabaron"]},
+    "IndFut": {"s1":["trabaré"],"s2":["trabarás"],"vos":["trabarás"],"s3":["trabará"],"p1":["trabaremos"],"p2":["trabaréis"],"p3":["trabarán"]},
+    "IndCond": {"s1":["trabaría"],"s2":["trabarías"],"vos":["trabarías"],"s3":["trabaría"],"p1":["trabaríamos"],"p2":["trabaríais"],"p3":["trabarían"]},
+    "SubPres": {"s1":["trabe"],"s2":["trabes"],"vos":["trabes","trabés"],"s3":["trabe"],"p1":["trabemos"],"p2":["trabéis"],"p3":["traben"]},
+    "SubImp": {"s1":["trabara","trabase"],"s2":["trabaras","trabases"],"vos":["trabaras","trabases"],"s3":["trabara","trabase"],"p1":["trabáramos","trabásemos"],"p2":["trabarais","trabaseis"],"p3":["trabaran","trabasen"]},
+    "SubFut": {"s1":["trabare"],"s2":["trabares"],"vos":["trabares"],"s3":["trabare"],"p1":["trabáremos"],"p2":["trabareis"],"p3":["trabaren"]},
+    "CmdPos": {"s2":["traba"],"vos":["trabá"],"s3":["trabe"],"p1":["trabemos"],"p2":["trabad"],"p3":["traben"]}
+  }
+}

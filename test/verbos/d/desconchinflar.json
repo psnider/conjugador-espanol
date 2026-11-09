@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskõnʲt͡ʃĩɱˈflaɾ]",
+    "silabacion": "des-con-chin-flar",
+    "acentuacion": "aguda",
+    "etimologia": "Compuesto (cruce) de desconchar e inflar; voz expresiva.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desconchinflar","gerundio":["desconchinflando"],"participio":["desconchinflado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desconchinflo"],"s2":["desconchinflas"],"vos":["desconchinflás"],"s3":["desconchinfla"],"p1":["desconchinflamos"],"p2":["desconchinfláis"],"p3":["desconchinflan"]},
+    "IndImp": {"s1":["desconchinflaba"],"s2":["desconchinflabas"],"vos":["desconchinflabas"],"s3":["desconchinflaba"],"p1":["desconchinflábamos"],"p2":["desconchinflabais"],"p3":["desconchinflaban"]},
+    "IndPret": {"s1":["desconchinflé"],"s2":["desconchinflaste"],"vos":["desconchinflaste"],"s3":["desconchinfló"],"p1":["desconchinflamos"],"p2":["desconchinflasteis"],"p3":["desconchinflaron"]},
+    "IndFut": {"s1":["desconchinflaré"],"s2":["desconchinflarás"],"vos":["desconchinflarás"],"s3":["desconchinflará"],"p1":["desconchinflaremos"],"p2":["desconchinflaréis"],"p3":["desconchinflarán"]},
+    "IndCond": {"s1":["desconchinflaría"],"s2":["desconchinflarías"],"vos":["desconchinflarías"],"s3":["desconchinflaría"],"p1":["desconchinflaríamos"],"p2":["desconchinflaríais"],"p3":["desconchinflarían"]},
+    "SubPres": {"s1":["desconchinfle"],"s2":["desconchinfles"],"vos":["desconchinfles","desconchinflés"],"s3":["desconchinfle"],"p1":["desconchinflemos"],"p2":["desconchinfléis"],"p3":["desconchinflen"]},
+    "SubImp": {"s1":["desconchinflara","desconchinflase"],"s2":["desconchinflaras","desconchinflases"],"vos":["desconchinflaras","desconchinflases"],"s3":["desconchinflara","desconchinflase"],"p1":["desconchinfláramos","desconchinflásemos"],"p2":["desconchinflarais","desconchinflaseis"],"p3":["desconchinflaran","desconchinflasen"]},
+    "SubFut": {"s1":["desconchinflare"],"s2":["desconchinflares"],"vos":["desconchinflares"],"s3":["desconchinflare"],"p1":["desconchinfláremos"],"p2":["desconchinflareis"],"p3":["desconchinflaren"]},
+    "CmdPos": {"s2":["desconchinfla"],"vos":["desconchinflá"],"s3":["desconchinfle"],"p1":["desconchinflemos"],"p2":["desconchinflad"],"p3":["desconchinflen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[et͡ʃiˈsaɾ]",
+    "silabacion": "he-chi-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De hechizo y el sufijo -ar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"hechizar","gerundio":["hechizando"],"participio":["hechizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["hechizo"],"s2":["hechizas"],"vos":["hechizás"],"s3":["hechiza"],"p1":["hechizamos"],"p2":["hechizáis"],"p3":["hechizan"]},
+    "IndImp": {"s1":["hechizaba"],"s2":["hechizabas"],"vos":["hechizabas"],"s3":["hechizaba"],"p1":["hechizábamos"],"p2":["hechizabais"],"p3":["hechizaban"]},
+    "IndPret": {"s1":["hechicé"],"s2":["hechizaste"],"vos":["hechizaste"],"s3":["hechizó"],"p1":["hechizamos"],"p2":["hechizasteis"],"p3":["hechizaron"]},
+    "IndFut": {"s1":["hechizaré"],"s2":["hechizarás"],"vos":["hechizarás"],"s3":["hechizará"],"p1":["hechizaremos"],"p2":["hechizaréis"],"p3":["hechizarán"]},
+    "IndCond": {"s1":["hechizaría"],"s2":["hechizarías"],"vos":["hechizarías"],"s3":["hechizaría"],"p1":["hechizaríamos"],"p2":["hechizaríais"],"p3":["hechizarían"]},
+    "SubPres": {"s1":["hechice"],"s2":["hechices"],"vos":["hechices","hechicés"],"s3":["hechice"],"p1":["hechicemos"],"p2":["hechicéis"],"p3":["hechicen"]},
+    "SubImp": {"s1":["hechizara","hechizase"],"s2":["hechizaras","hechizases"],"vos":["hechizaras","hechizases"],"s3":["hechizara","hechizase"],"p1":["hechizáramos","hechizásemos"],"p2":["hechizarais","hechizaseis"],"p3":["hechizaran","hechizasen"]},
+    "SubFut": {"s1":["hechizare"],"s2":["hechizares"],"vos":["hechizares"],"s3":["hechizare"],"p1":["hechizáremos"],"p2":["hechizareis"],"p3":["hechizaren"]},
+    "CmdPos": {"s2":["hechiza"],"vos":["hechizá"],"s3":["hechice"],"p1":["hechicemos"],"p2":["hechizad"],"p3":["hechicen"]}
+  }
+}

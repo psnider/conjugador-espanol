@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[lãnˈsaɾ]",
+    "silabacion": "lan-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín tardío lanceare, de lanza y el sufijo -ar.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"lanzar","gerundio":["lanzando"],"participio":["lanzado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["lanzo"],"s2":["lanzas"],"vos":["lanzás"],"s3":["lanza"],"p1":["lanzamos"],"p2":["lanzáis"],"p3":["lanzan"]},
+    "IndImp": {"s1":["lanzaba"],"s2":["lanzabas"],"vos":["lanzabas"],"s3":["lanzaba"],"p1":["lanzábamos"],"p2":["lanzabais"],"p3":["lanzaban"]},
+    "IndPret": {"s1":["lancé"],"s2":["lanzaste"],"vos":["lanzaste"],"s3":["lanzó"],"p1":["lanzamos"],"p2":["lanzasteis"],"p3":["lanzaron"]},
+    "IndFut": {"s1":["lanzaré"],"s2":["lanzarás"],"vos":["lanzarás"],"s3":["lanzará"],"p1":["lanzaremos"],"p2":["lanzaréis"],"p3":["lanzarán"]},
+    "IndCond": {"s1":["lanzaría"],"s2":["lanzarías"],"vos":["lanzarías"],"s3":["lanzaría"],"p1":["lanzaríamos"],"p2":["lanzaríais"],"p3":["lanzarían"]},
+    "SubPres": {"s1":["lance"],"s2":["lances"],"vos":["lances","lancés"],"s3":["lance"],"p1":["lancemos"],"p2":["lancéis"],"p3":["lancen"]},
+    "SubImp": {"s1":["lanzara","lanzase"],"s2":["lanzaras","lanzases"],"vos":["lanzaras","lanzases"],"s3":["lanzara","lanzase"],"p1":["lanzáramos","lanzásemos"],"p2":["lanzarais","lanzaseis"],"p3":["lanzaran","lanzasen"]},
+    "SubFut": {"s1":["lanzare"],"s2":["lanzares"],"vos":["lanzares"],"s3":["lanzare"],"p1":["lanzáremos"],"p2":["lanzareis"],"p3":["lanzaren"]},
+    "CmdPos": {"s2":["lanza"],"vos":["lanzá"],"s3":["lance"],"p1":["lancemos"],"p2":["lanzad"],"p3":["lancen"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾesipiˈt̪aɾ]",
+    "silabacion": "pre-ci-pi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín praecipitāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"precipitar","gerundio":["precipitando"],"participio":["precipitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["precipito"],"s2":["precipitas"],"vos":["precipitás"],"s3":["precipita"],"p1":["precipitamos"],"p2":["precipitáis"],"p3":["precipitan"]},
+    "IndImp": {"s1":["precipitaba"],"s2":["precipitabas"],"vos":["precipitabas"],"s3":["precipitaba"],"p1":["precipitábamos"],"p2":["precipitabais"],"p3":["precipitaban"]},
+    "IndPret": {"s1":["precipité"],"s2":["precipitaste"],"vos":["precipitaste"],"s3":["precipitó"],"p1":["precipitamos"],"p2":["precipitasteis"],"p3":["precipitaron"]},
+    "IndFut": {"s1":["precipitaré"],"s2":["precipitarás"],"vos":["precipitarás"],"s3":["precipitará"],"p1":["precipitaremos"],"p2":["precipitaréis"],"p3":["precipitarán"]},
+    "IndCond": {"s1":["precipitaría"],"s2":["precipitarías"],"vos":["precipitarías"],"s3":["precipitaría"],"p1":["precipitaríamos"],"p2":["precipitaríais"],"p3":["precipitarían"]},
+    "SubPres": {"s1":["precipite"],"s2":["precipites"],"vos":["precipites","precipités"],"s3":["precipite"],"p1":["precipitemos"],"p2":["precipitéis"],"p3":["precipiten"]},
+    "SubImp": {"s1":["precipitara","precipitase"],"s2":["precipitaras","precipitases"],"vos":["precipitaras","precipitases"],"s3":["precipitara","precipitase"],"p1":["precipitáramos","precipitásemos"],"p2":["precipitarais","precipitaseis"],"p3":["precipitaran","precipitasen"]},
+    "SubFut": {"s1":["precipitare"],"s2":["precipitares"],"vos":["precipitares"],"s3":["precipitare"],"p1":["precipitáremos"],"p2":["precipitareis"],"p3":["precipitaren"]},
+    "CmdPos": {"s2":["precipita"],"vos":["precipitá"],"s3":["precipite"],"p1":["precipitemos"],"p2":["precipitad"],"p3":["precipiten"]}
+  }
+}

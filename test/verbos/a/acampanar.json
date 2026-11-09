@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akãmpaˈnaɾ]",
+    "silabacion": "a-cam-pa-nar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acampanar","gerundio":["acampanando"],"participio":["acampanado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acampano"],"s2":["acampanas"],"vos":["acampanás"],"s3":["acampana"],"p1":["acampanamos"],"p2":["acampanáis"],"p3":["acampanan"]},
+    "IndImp": {"s1":["acampanaba"],"s2":["acampanabas"],"vos":["acampanabas"],"s3":["acampanaba"],"p1":["acampanábamos"],"p2":["acampanabais"],"p3":["acampanaban"]},
+    "IndPret": {"s1":["acampané"],"s2":["acampanaste"],"vos":["acampanaste"],"s3":["acampanó"],"p1":["acampanamos"],"p2":["acampanasteis"],"p3":["acampanaron"]},
+    "IndFut": {"s1":["acampanaré"],"s2":["acampanarás"],"vos":["acampanarás"],"s3":["acampanará"],"p1":["acampanaremos"],"p2":["acampanaréis"],"p3":["acampanarán"]},
+    "IndCond": {"s1":["acampanaría"],"s2":["acampanarías"],"vos":["acampanarías"],"s3":["acampanaría"],"p1":["acampanaríamos"],"p2":["acampanaríais"],"p3":["acampanarían"]},
+    "SubPres": {"s1":["acampane"],"s2":["acampanes"],"vos":["acampanes","acampanés"],"s3":["acampane"],"p1":["acampanemos"],"p2":["acampanéis"],"p3":["acampanen"]},
+    "SubImp": {"s1":["acampanara","acampanase"],"s2":["acampanaras","acampanases"],"vos":["acampanaras","acampanases"],"s3":["acampanara","acampanase"],"p1":["acampanáramos","acampanásemos"],"p2":["acampanarais","acampanaseis"],"p3":["acampanaran","acampanasen"]},
+    "SubFut": {"s1":["acampanare"],"s2":["acampanares"],"vos":["acampanares"],"s3":["acampanare"],"p1":["acampanáremos"],"p2":["acampanareis"],"p3":["acampanaren"]},
+    "CmdPos": {"s2":["acampana"],"vos":["acampaná"],"s3":["acampane"],"p1":["acampanemos"],"p2":["acampanad"],"p3":["acampanen"]}
+  }
+}

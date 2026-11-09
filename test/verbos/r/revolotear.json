@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞olot̪eˈaɾ]",
+    "silabacion": "re-vo-lo-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"revolotear","gerundio":["revoloteando"],"participio":["revoloteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["revoloteo"],"s2":["revoloteas"],"vos":["revoloteás"],"s3":["revolotea"],"p1":["revoloteamos"],"p2":["revoloteáis"],"p3":["revolotean"]},
+    "IndImp": {"s1":["revoloteaba"],"s2":["revoloteabas"],"vos":["revoloteabas"],"s3":["revoloteaba"],"p1":["revoloteábamos"],"p2":["revoloteabais"],"p3":["revoloteaban"]},
+    "IndPret": {"s1":["revoloteé"],"s2":["revoloteaste"],"vos":["revoloteaste"],"s3":["revoloteó"],"p1":["revoloteamos"],"p2":["revoloteasteis"],"p3":["revolotearon"]},
+    "IndFut": {"s1":["revolotearé"],"s2":["revolotearás"],"vos":["revolotearás"],"s3":["revoloteará"],"p1":["revolotearemos"],"p2":["revolotearéis"],"p3":["revolotearán"]},
+    "IndCond": {"s1":["revolotearía"],"s2":["revolotearías"],"vos":["revolotearías"],"s3":["revolotearía"],"p1":["revolotearíamos"],"p2":["revolotearíais"],"p3":["revolotearían"]},
+    "SubPres": {"s1":["revolotee"],"s2":["revolotees"],"vos":["revolotees","revoloteés"],"s3":["revolotee"],"p1":["revoloteemos"],"p2":["revoloteéis"],"p3":["revoloteen"]},
+    "SubImp": {"s1":["revoloteara","revolotease"],"s2":["revolotearas","revoloteases"],"vos":["revolotearas","revoloteases"],"s3":["revoloteara","revolotease"],"p1":["revoloteáramos","revoloteásemos"],"p2":["revolotearais","revoloteaseis"],"p3":["revolotearan","revoloteasen"]},
+    "SubFut": {"s1":["revoloteare"],"s2":["revoloteares"],"vos":["revoloteares"],"s3":["revoloteare"],"p1":["revoloteáremos"],"p2":["revoloteareis"],"p3":["revolotearen"]},
+    "CmdPos": {"s2":["revolotea"],"vos":["revoloteá"],"s3":["revolotee"],"p1":["revoloteemos"],"p2":["revolotead"],"p3":["revoloteen"]}
+  }
+}

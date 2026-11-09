@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ãmpoˈʝaɾ]",
+    "silabacion": "am-po-llar",
+    "acentuacion": "aguda",
+    "etimologia": "De ampolla y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ampollar","gerundio":["ampollando"],"participio":["ampollado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ampollo"],"s2":["ampollas"],"vos":["ampollás"],"s3":["ampolla"],"p1":["ampollamos"],"p2":["ampolláis"],"p3":["ampollan"]},
+    "IndImp": {"s1":["ampollaba"],"s2":["ampollabas"],"vos":["ampollabas"],"s3":["ampollaba"],"p1":["ampollábamos"],"p2":["ampollabais"],"p3":["ampollaban"]},
+    "IndPret": {"s1":["ampollé"],"s2":["ampollaste"],"vos":["ampollaste"],"s3":["ampolló"],"p1":["ampollamos"],"p2":["ampollasteis"],"p3":["ampollaron"]},
+    "IndFut": {"s1":["ampollaré"],"s2":["ampollarás"],"vos":["ampollarás"],"s3":["ampollará"],"p1":["ampollaremos"],"p2":["ampollaréis"],"p3":["ampollarán"]},
+    "IndCond": {"s1":["ampollaría"],"s2":["ampollarías"],"vos":["ampollarías"],"s3":["ampollaría"],"p1":["ampollaríamos"],"p2":["ampollaríais"],"p3":["ampollarían"]},
+    "SubPres": {"s1":["ampolle"],"s2":["ampolles"],"vos":["ampolles","ampollés"],"s3":["ampolle"],"p1":["ampollemos"],"p2":["ampolléis"],"p3":["ampollen"]},
+    "SubImp": {"s1":["ampollara","ampollase"],"s2":["ampollaras","ampollases"],"vos":["ampollaras","ampollases"],"s3":["ampollara","ampollase"],"p1":["ampolláramos","ampollásemos"],"p2":["ampollarais","ampollaseis"],"p3":["ampollaran","ampollasen"]},
+    "SubFut": {"s1":["ampollare"],"s2":["ampollares"],"vos":["ampollares"],"s3":["ampollare"],"p1":["ampolláremos"],"p2":["ampollareis"],"p3":["ampollaren"]},
+    "CmdPos": {"s2":["ampolla"],"vos":["ampollá"],"s3":["ampolle"],"p1":["ampollemos"],"p2":["ampollad"],"p3":["ampollen"]}
+  }
+}

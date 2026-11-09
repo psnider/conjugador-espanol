@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apeˈaɾ]",
+    "silabacion": "a-pe-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín appedāre.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"apear","gerundio":["apeando"],"participio":["apeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apeo"],"s2":["apeas"],"vos":["apeás"],"s3":["apea"],"p1":["apeamos"],"p2":["apeáis"],"p3":["apean"]},
+    "IndImp": {"s1":["apeaba"],"s2":["apeabas"],"vos":["apeabas"],"s3":["apeaba"],"p1":["apeábamos"],"p2":["apeabais"],"p3":["apeaban"]},
+    "IndPret": {"s1":["apeé"],"s2":["apeaste"],"vos":["apeaste"],"s3":["apeó"],"p1":["apeamos"],"p2":["apeasteis"],"p3":["apearon"]},
+    "IndFut": {"s1":["apearé"],"s2":["apearás"],"vos":["apearás"],"s3":["apeará"],"p1":["apearemos"],"p2":["apearéis"],"p3":["apearán"]},
+    "IndCond": {"s1":["apearía"],"s2":["apearías"],"vos":["apearías"],"s3":["apearía"],"p1":["apearíamos"],"p2":["apearíais"],"p3":["apearían"]},
+    "SubPres": {"s1":["apee"],"s2":["apees"],"vos":["apees","apeés"],"s3":["apee"],"p1":["apeemos"],"p2":["apeéis"],"p3":["apeen"]},
+    "SubImp": {"s1":["apeara","apease"],"s2":["apearas","apeases"],"vos":["apearas","apeases"],"s3":["apeara","apease"],"p1":["apeáramos","apeásemos"],"p2":["apearais","apeaseis"],"p3":["apearan","apeasen"]},
+    "SubFut": {"s1":["apeare"],"s2":["apeares"],"vos":["apeares"],"s3":["apeare"],"p1":["apeáremos"],"p2":["apeareis"],"p3":["apearen"]},
+    "CmdPos": {"s2":["apea"],"vos":["apeá"],"s3":["apee"],"p1":["apeemos"],"p2":["apead"],"p3":["apeen"]}
+  }
+}

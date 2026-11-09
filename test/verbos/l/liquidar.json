@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[likiˈð̞aɾ]",
+    "silabacion": "li-qui-dar",
+    "acentuacion": "aguda",
+    "etimologia": "De líquido y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"liquidar","gerundio":["liquidando"],"participio":["liquidado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["liquido"],"s2":["liquidas"],"vos":["liquidás"],"s3":["liquida"],"p1":["liquidamos"],"p2":["liquidáis"],"p3":["liquidan"]},
+    "IndImp": {"s1":["liquidaba"],"s2":["liquidabas"],"vos":["liquidabas"],"s3":["liquidaba"],"p1":["liquidábamos"],"p2":["liquidabais"],"p3":["liquidaban"]},
+    "IndPret": {"s1":["liquidé"],"s2":["liquidaste"],"vos":["liquidaste"],"s3":["liquidó"],"p1":["liquidamos"],"p2":["liquidasteis"],"p3":["liquidaron"]},
+    "IndFut": {"s1":["liquidaré"],"s2":["liquidarás"],"vos":["liquidarás"],"s3":["liquidará"],"p1":["liquidaremos"],"p2":["liquidaréis"],"p3":["liquidarán"]},
+    "IndCond": {"s1":["liquidaría"],"s2":["liquidarías"],"vos":["liquidarías"],"s3":["liquidaría"],"p1":["liquidaríamos"],"p2":["liquidaríais"],"p3":["liquidarían"]},
+    "SubPres": {"s1":["liquide"],"s2":["liquides"],"vos":["liquides","liquidés"],"s3":["liquide"],"p1":["liquidemos"],"p2":["liquidéis"],"p3":["liquiden"]},
+    "SubImp": {"s1":["liquidara","liquidase"],"s2":["liquidaras","liquidases"],"vos":["liquidaras","liquidases"],"s3":["liquidara","liquidase"],"p1":["liquidáramos","liquidásemos"],"p2":["liquidarais","liquidaseis"],"p3":["liquidaran","liquidasen"]},
+    "SubFut": {"s1":["liquidare"],"s2":["liquidares"],"vos":["liquidares"],"s3":["liquidare"],"p1":["liquidáremos"],"p2":["liquidareis"],"p3":["liquidaren"]},
+    "CmdPos": {"s2":["liquida"],"vos":["liquidá"],"s3":["liquide"],"p1":["liquidemos"],"p2":["liquidad"],"p3":["liquiden"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[maɾt͡ʃiˈt̪aɾ]",
+    "silabacion": "mar-chi-tar",
+    "acentuacion": "aguda",
+    "etimologia": "De marchito.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"marchitar","gerundio":["marchitando"],"participio":["marchitado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["marchito"],"s2":["marchitas"],"vos":["marchitás"],"s3":["marchita"],"p1":["marchitamos"],"p2":["marchitáis"],"p3":["marchitan"]},
+    "IndImp": {"s1":["marchitaba"],"s2":["marchitabas"],"vos":["marchitabas"],"s3":["marchitaba"],"p1":["marchitábamos"],"p2":["marchitabais"],"p3":["marchitaban"]},
+    "IndPret": {"s1":["marchité"],"s2":["marchitaste"],"vos":["marchitaste"],"s3":["marchitó"],"p1":["marchitamos"],"p2":["marchitasteis"],"p3":["marchitaron"]},
+    "IndFut": {"s1":["marchitaré"],"s2":["marchitarás"],"vos":["marchitarás"],"s3":["marchitará"],"p1":["marchitaremos"],"p2":["marchitaréis"],"p3":["marchitarán"]},
+    "IndCond": {"s1":["marchitaría"],"s2":["marchitarías"],"vos":["marchitarías"],"s3":["marchitaría"],"p1":["marchitaríamos"],"p2":["marchitaríais"],"p3":["marchitarían"]},
+    "SubPres": {"s1":["marchite"],"s2":["marchites"],"vos":["marchites","marchités"],"s3":["marchite"],"p1":["marchitemos"],"p2":["marchitéis"],"p3":["marchiten"]},
+    "SubImp": {"s1":["marchitara","marchitase"],"s2":["marchitaras","marchitases"],"vos":["marchitaras","marchitases"],"s3":["marchitara","marchitase"],"p1":["marchitáramos","marchitásemos"],"p2":["marchitarais","marchitaseis"],"p3":["marchitaran","marchitasen"]},
+    "SubFut": {"s1":["marchitare"],"s2":["marchitares"],"vos":["marchitares"],"s3":["marchitare"],"p1":["marchitáremos"],"p2":["marchitareis"],"p3":["marchitaren"]},
+    "CmdPos": {"s2":["marchita"],"vos":["marchitá"],"s3":["marchite"],"p1":["marchitemos"],"p2":["marchitad"],"p3":["marchiten"]}
+  }
+}

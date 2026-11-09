@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aɣ̞ɾãn̪ˈd̪aɾ]",
+    "silabacion": "a-gran-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, grande y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"agrandar","gerundio":["agrandando"],"participio":["agrandado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["agrando"],"s2":["agrandas"],"vos":["agrandás"],"s3":["agranda"],"p1":["agrandamos"],"p2":["agrandáis"],"p3":["agrandan"]},
+    "IndImp": {"s1":["agrandaba"],"s2":["agrandabas"],"vos":["agrandabas"],"s3":["agrandaba"],"p1":["agrandábamos"],"p2":["agrandabais"],"p3":["agrandaban"]},
+    "IndPret": {"s1":["agrandé"],"s2":["agrandaste"],"vos":["agrandaste"],"s3":["agrandó"],"p1":["agrandamos"],"p2":["agrandasteis"],"p3":["agrandaron"]},
+    "IndFut": {"s1":["agrandaré"],"s2":["agrandarás"],"vos":["agrandarás"],"s3":["agrandará"],"p1":["agrandaremos"],"p2":["agrandaréis"],"p3":["agrandarán"]},
+    "IndCond": {"s1":["agrandaría"],"s2":["agrandarías"],"vos":["agrandarías"],"s3":["agrandaría"],"p1":["agrandaríamos"],"p2":["agrandaríais"],"p3":["agrandarían"]},
+    "SubPres": {"s1":["agrande"],"s2":["agrandes"],"vos":["agrandes","agrandés"],"s3":["agrande"],"p1":["agrandemos"],"p2":["agrandéis"],"p3":["agranden"]},
+    "SubImp": {"s1":["agrandara","agrandase"],"s2":["agrandaras","agrandases"],"vos":["agrandaras","agrandases"],"s3":["agrandara","agrandase"],"p1":["agrandáramos","agrandásemos"],"p2":["agrandarais","agrandaseis"],"p3":["agrandaran","agrandasen"]},
+    "SubFut": {"s1":["agrandare"],"s2":["agrandares"],"vos":["agrandares"],"s3":["agrandare"],"p1":["agrandáremos"],"p2":["agrandareis"],"p3":["agrandaren"]},
+    "CmdPos": {"s2":["agranda"],"vos":["agrandá"],"s3":["agrande"],"p1":["agrandemos"],"p2":["agrandad"],"p3":["agranden"]}
+  }
+}

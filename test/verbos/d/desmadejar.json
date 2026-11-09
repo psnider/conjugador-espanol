@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esmað̞eˈxaɾ]",
+    "silabacion": "des-ma-de-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, madeja y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desmadejar","gerundio":["desmadejando"],"participio":["desmadejado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desmadejo"],"s2":["desmadejas"],"vos":["desmadejás"],"s3":["desmadeja"],"p1":["desmadejamos"],"p2":["desmadejáis"],"p3":["desmadejan"]},
+    "IndImp": {"s1":["desmadejaba"],"s2":["desmadejabas"],"vos":["desmadejabas"],"s3":["desmadejaba"],"p1":["desmadejábamos"],"p2":["desmadejabais"],"p3":["desmadejaban"]},
+    "IndPret": {"s1":["desmadejé"],"s2":["desmadejaste"],"vos":["desmadejaste"],"s3":["desmadejó"],"p1":["desmadejamos"],"p2":["desmadejasteis"],"p3":["desmadejaron"]},
+    "IndFut": {"s1":["desmadejaré"],"s2":["desmadejarás"],"vos":["desmadejarás"],"s3":["desmadejará"],"p1":["desmadejaremos"],"p2":["desmadejaréis"],"p3":["desmadejarán"]},
+    "IndCond": {"s1":["desmadejaría"],"s2":["desmadejarías"],"vos":["desmadejarías"],"s3":["desmadejaría"],"p1":["desmadejaríamos"],"p2":["desmadejaríais"],"p3":["desmadejarían"]},
+    "SubPres": {"s1":["desmadeje"],"s2":["desmadejes"],"vos":["desmadejes","desmadejés"],"s3":["desmadeje"],"p1":["desmadejemos"],"p2":["desmadejéis"],"p3":["desmadejen"]},
+    "SubImp": {"s1":["desmadejara","desmadejase"],"s2":["desmadejaras","desmadejases"],"vos":["desmadejaras","desmadejases"],"s3":["desmadejara","desmadejase"],"p1":["desmadejáramos","desmadejásemos"],"p2":["desmadejarais","desmadejaseis"],"p3":["desmadejaran","desmadejasen"]},
+    "SubFut": {"s1":["desmadejare"],"s2":["desmadejares"],"vos":["desmadejares"],"s3":["desmadejare"],"p1":["desmadejáremos"],"p2":["desmadejareis"],"p3":["desmadejaren"]},
+    "CmdPos": {"s2":["desmadeja"],"vos":["desmadejá"],"s3":["desmadeje"],"p1":["desmadejemos"],"p2":["desmadejad"],"p3":["desmadejen"]}
+  }
+}

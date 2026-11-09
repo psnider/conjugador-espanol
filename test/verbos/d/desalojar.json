@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪esaloˈxaɾ]",
+    "silabacion": "des-a-lo-jar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y alojar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"desalojar","gerundio":["desalojando"],"participio":["desalojado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["desalojo"],"s2":["desalojas"],"vos":["desalojás"],"s3":["desaloja"],"p1":["desalojamos"],"p2":["desalojáis"],"p3":["desalojan"]},
+    "IndImp": {"s1":["desalojaba"],"s2":["desalojabas"],"vos":["desalojabas"],"s3":["desalojaba"],"p1":["desalojábamos"],"p2":["desalojabais"],"p3":["desalojaban"]},
+    "IndPret": {"s1":["desalojé"],"s2":["desalojaste"],"vos":["desalojaste"],"s3":["desalojó"],"p1":["desalojamos"],"p2":["desalojasteis"],"p3":["desalojaron"]},
+    "IndFut": {"s1":["desalojaré"],"s2":["desalojarás"],"vos":["desalojarás"],"s3":["desalojará"],"p1":["desalojaremos"],"p2":["desalojaréis"],"p3":["desalojarán"]},
+    "IndCond": {"s1":["desalojaría"],"s2":["desalojarías"],"vos":["desalojarías"],"s3":["desalojaría"],"p1":["desalojaríamos"],"p2":["desalojaríais"],"p3":["desalojarían"]},
+    "SubPres": {"s1":["desaloje"],"s2":["desalojes"],"vos":["desalojes","desalojés"],"s3":["desaloje"],"p1":["desalojemos"],"p2":["desalojéis"],"p3":["desalojen"]},
+    "SubImp": {"s1":["desalojara","desalojase"],"s2":["desalojaras","desalojases"],"vos":["desalojaras","desalojases"],"s3":["desalojara","desalojase"],"p1":["desalojáramos","desalojásemos"],"p2":["desalojarais","desalojaseis"],"p3":["desalojaran","desalojasen"]},
+    "SubFut": {"s1":["desalojare"],"s2":["desalojares"],"vos":["desalojares"],"s3":["desalojare"],"p1":["desalojáremos"],"p2":["desalojareis"],"p3":["desalojaren"]},
+    "CmdPos": {"s2":["desaloja"],"vos":["desalojá"],"s3":["desaloje"],"p1":["desalojemos"],"p2":["desalojad"],"p3":["desalojen"]}
+  }
+}

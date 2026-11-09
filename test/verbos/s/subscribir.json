@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[suβ̞skɾiˈβ̞iɾ]",
+    "silabacion": "subs-cri-bir",
+    "acentuacion": "aguda",
+    "etimologia": "Véase suscribir.",
+    "modelos": ["inscribir"]
+  },
+  "formas_no_personales": {"infinitivo":"subscribir","gerundio":["subscribiendo"],"participio":["subscrito",{"forma":"subscripto","uso":"Cono Sur"}]},
+  "formas_personales": {
+    "IndPres": {"s1":["subscribo"],"s2":["subscribes"],"vos":["subscribís"],"s3":["subscribe"],"p1":["subscribimos"],"p2":["subscribís"],"p3":["subscriben"]},
+    "IndImp": {"s1":["subscribía"],"s2":["subscribías"],"vos":["subscribías"],"s3":["subscribía"],"p1":["subscribíamos"],"p2":["subscribíais"],"p3":["subscribían"]},
+    "IndPret": {"s1":["subscribí"],"s2":["subscribiste"],"vos":["subscribiste"],"s3":["subscribió"],"p1":["subscribimos"],"p2":["subscribisteis"],"p3":["subscribieron"]},
+    "IndFut": {"s1":["subscribiré"],"s2":["subscribirás"],"vos":["subscribirás"],"s3":["subscribirá"],"p1":["subscribiremos"],"p2":["subscribiréis"],"p3":["subscribirán"]},
+    "IndCond": {"s1":["subscribiría"],"s2":["subscribirías"],"vos":["subscribirías"],"s3":["subscribiría"],"p1":["subscribiríamos"],"p2":["subscribiríais"],"p3":["subscribirían"]},
+    "SubPres": {"s1":["subscriba"],"s2":["subscribas"],"vos":["subscribas","subscribás"],"s3":["subscriba"],"p1":["subscribamos"],"p2":["subscribáis"],"p3":["subscriban"]},
+    "SubImp": {"s1":["subscribiera","subscribiese"],"s2":["subscribieras","subscribieses"],"vos":["subscribieras","subscribieses"],"s3":["subscribiera","subscribiese"],"p1":["subscribiéramos","subscribiésemos"],"p2":["subscribierais","subscribieseis"],"p3":["subscribieran","subscribiesen"]},
+    "SubFut": {"s1":["subscribiere"],"s2":["subscribieres"],"vos":["subscribieres"],"s3":["subscribiere"],"p1":["subscribiéremos"],"p2":["subscribiereis"],"p3":["subscribieren"]},
+    "CmdPos": {"s2":["subscribe"],"vos":["subscribí"],"s3":["subscriba"],"p1":["subscribamos"],"p2":["subscribid"],"p3":["subscriban"]}
+  }
+}

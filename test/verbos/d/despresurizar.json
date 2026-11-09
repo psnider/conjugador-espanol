@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪espɾesuɾiˈsaɾ]",
+    "silabacion": "des-pre-su-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y presurizar",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"despresurizar","gerundio":["despresurizando"],"participio":["despresurizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["despresurizo"],"s2":["despresurizas"],"vos":["despresurizás"],"s3":["despresuriza"],"p1":["despresurizamos"],"p2":["despresurizáis"],"p3":["despresurizan"]},
+    "IndImp": {"s1":["despresurizaba"],"s2":["despresurizabas"],"vos":["despresurizabas"],"s3":["despresurizaba"],"p1":["despresurizábamos"],"p2":["despresurizabais"],"p3":["despresurizaban"]},
+    "IndPret": {"s1":["despresuricé"],"s2":["despresurizaste"],"vos":["despresurizaste"],"s3":["despresurizó"],"p1":["despresurizamos"],"p2":["despresurizasteis"],"p3":["despresurizaron"]},
+    "IndFut": {"s1":["despresurizaré"],"s2":["despresurizarás"],"vos":["despresurizarás"],"s3":["despresurizará"],"p1":["despresurizaremos"],"p2":["despresurizaréis"],"p3":["despresurizarán"]},
+    "IndCond": {"s1":["despresurizaría"],"s2":["despresurizarías"],"vos":["despresurizarías"],"s3":["despresurizaría"],"p1":["despresurizaríamos"],"p2":["despresurizaríais"],"p3":["despresurizarían"]},
+    "SubPres": {"s1":["despresurice"],"s2":["despresurices"],"vos":["despresurices","despresuricés"],"s3":["despresurice"],"p1":["despresuricemos"],"p2":["despresuricéis"],"p3":["despresuricen"]},
+    "SubImp": {"s1":["despresurizara","despresurizase"],"s2":["despresurizaras","despresurizases"],"vos":["despresurizaras","despresurizases"],"s3":["despresurizara","despresurizase"],"p1":["despresurizáramos","despresurizásemos"],"p2":["despresurizarais","despresurizaseis"],"p3":["despresurizaran","despresurizasen"]},
+    "SubFut": {"s1":["despresurizare"],"s2":["despresurizares"],"vos":["despresurizares"],"s3":["despresurizare"],"p1":["despresurizáremos"],"p2":["despresurizareis"],"p3":["despresurizaren"]},
+    "CmdPos": {"s2":["despresuriza"],"vos":["despresurizá"],"s3":["despresurice"],"p1":["despresuricemos"],"p2":["despresurizad"],"p3":["despresuricen"]}
+  }
+}

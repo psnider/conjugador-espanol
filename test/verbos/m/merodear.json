@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[meɾoð̞eˈaɾ]",
+    "silabacion": "me-ro-de-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De merode y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"merodear","gerundio":["merodeando"],"participio":["merodeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["merodeo"],"s2":["merodeas"],"vos":["merodeás"],"s3":["merodea"],"p1":["merodeamos"],"p2":["merodeáis"],"p3":["merodean"]},
+    "IndImp": {"s1":["merodeaba"],"s2":["merodeabas"],"vos":["merodeabas"],"s3":["merodeaba"],"p1":["merodeábamos"],"p2":["merodeabais"],"p3":["merodeaban"]},
+    "IndPret": {"s1":["merodeé"],"s2":["merodeaste"],"vos":["merodeaste"],"s3":["merodeó"],"p1":["merodeamos"],"p2":["merodeasteis"],"p3":["merodearon"]},
+    "IndFut": {"s1":["merodearé"],"s2":["merodearás"],"vos":["merodearás"],"s3":["merodeará"],"p1":["merodearemos"],"p2":["merodearéis"],"p3":["merodearán"]},
+    "IndCond": {"s1":["merodearía"],"s2":["merodearías"],"vos":["merodearías"],"s3":["merodearía"],"p1":["merodearíamos"],"p2":["merodearíais"],"p3":["merodearían"]},
+    "SubPres": {"s1":["merodee"],"s2":["merodees"],"vos":["merodees","merodeés"],"s3":["merodee"],"p1":["merodeemos"],"p2":["merodeéis"],"p3":["merodeen"]},
+    "SubImp": {"s1":["merodeara","merodease"],"s2":["merodearas","merodeases"],"vos":["merodearas","merodeases"],"s3":["merodeara","merodease"],"p1":["merodeáramos","merodeásemos"],"p2":["merodearais","merodeaseis"],"p3":["merodearan","merodeasen"]},
+    "SubFut": {"s1":["merodeare"],"s2":["merodeares"],"vos":["merodeares"],"s3":["merodeare"],"p1":["merodeáremos"],"p2":["merodeareis"],"p3":["merodearen"]},
+    "CmdPos": {"s2":["merodea"],"vos":["merodeá"],"s3":["merodee"],"p1":["merodeemos"],"p2":["merodead"],"p3":["merodeen"]}
+  }
+}

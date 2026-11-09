@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ekspiˈɾaɾ]",
+    "silabacion": "ex-pi-rar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín exspirare ('exhalar'), derivado de spirare, respirar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"expirar","gerundio":["expirando"],"participio":["expirado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["expiro"],"s2":["expiras"],"vos":["expirás"],"s3":["expira"],"p1":["expiramos"],"p2":["expiráis"],"p3":["expiran"]},
+    "IndImp": {"s1":["expiraba"],"s2":["expirabas"],"vos":["expirabas"],"s3":["expiraba"],"p1":["expirábamos"],"p2":["expirabais"],"p3":["expiraban"]},
+    "IndPret": {"s1":["expiré"],"s2":["expiraste"],"vos":["expiraste"],"s3":["expiró"],"p1":["expiramos"],"p2":["expirasteis"],"p3":["expiraron"]},
+    "IndFut": {"s1":["expiraré"],"s2":["expirarás"],"vos":["expirarás"],"s3":["expirará"],"p1":["expiraremos"],"p2":["expiraréis"],"p3":["expirarán"]},
+    "IndCond": {"s1":["expiraría"],"s2":["expirarías"],"vos":["expirarías"],"s3":["expiraría"],"p1":["expiraríamos"],"p2":["expiraríais"],"p3":["expirarían"]},
+    "SubPres": {"s1":["expire"],"s2":["expires"],"vos":["expires","expirés"],"s3":["expire"],"p1":["expiremos"],"p2":["expiréis"],"p3":["expiren"]},
+    "SubImp": {"s1":["expirara","expirase"],"s2":["expiraras","expirases"],"vos":["expiraras","expirases"],"s3":["expirara","expirase"],"p1":["expiráramos","expirásemos"],"p2":["expirarais","expiraseis"],"p3":["expiraran","expirasen"]},
+    "SubFut": {"s1":["expirare"],"s2":["expirares"],"vos":["expirares"],"s3":["expirare"],"p1":["expiráremos"],"p2":["expirareis"],"p3":["expiraren"]},
+    "CmdPos": {"s2":["expira"],"vos":["expirá"],"s3":["expire"],"p1":["expiremos"],"p2":["expirad"],"p3":["expiren"]}
+  }
+}

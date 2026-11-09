@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[paɾafɾaseˈaɾ]",
+    "silabacion": "pa-ra-fra-se-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"parafrasear","gerundio":["parafraseando"],"participio":["parafraseado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["parafraseo"],"s2":["parafraseas"],"vos":["parafraseás"],"s3":["parafrasea"],"p1":["parafraseamos"],"p2":["parafraseáis"],"p3":["parafrasean"]},
+    "IndImp": {"s1":["parafraseaba"],"s2":["parafraseabas"],"vos":["parafraseabas"],"s3":["parafraseaba"],"p1":["parafraseábamos"],"p2":["parafraseabais"],"p3":["parafraseaban"]},
+    "IndPret": {"s1":["parafraseé"],"s2":["parafraseaste"],"vos":["parafraseaste"],"s3":["parafraseó"],"p1":["parafraseamos"],"p2":["parafraseasteis"],"p3":["parafrasearon"]},
+    "IndFut": {"s1":["parafrasearé"],"s2":["parafrasearás"],"vos":["parafrasearás"],"s3":["parafraseará"],"p1":["parafrasearemos"],"p2":["parafrasearéis"],"p3":["parafrasearán"]},
+    "IndCond": {"s1":["parafrasearía"],"s2":["parafrasearías"],"vos":["parafrasearías"],"s3":["parafrasearía"],"p1":["parafrasearíamos"],"p2":["parafrasearíais"],"p3":["parafrasearían"]},
+    "SubPres": {"s1":["parafrasee"],"s2":["parafrasees"],"vos":["parafrasees","parafraseés"],"s3":["parafrasee"],"p1":["parafraseemos"],"p2":["parafraseéis"],"p3":["parafraseen"]},
+    "SubImp": {"s1":["parafraseara","parafrasease"],"s2":["parafrasearas","parafraseases"],"vos":["parafrasearas","parafraseases"],"s3":["parafraseara","parafrasease"],"p1":["parafraseáramos","parafraseásemos"],"p2":["parafrasearais","parafraseaseis"],"p3":["parafrasearan","parafraseasen"]},
+    "SubFut": {"s1":["parafraseare"],"s2":["parafraseares"],"vos":["parafraseares"],"s3":["parafraseare"],"p1":["parafraseáremos"],"p2":["parafraseareis"],"p3":["parafrasearen"]},
+    "CmdPos": {"s2":["parafrasea"],"vos":["parafraseá"],"s3":["parafrasee"],"p1":["parafraseemos"],"p2":["parafrasead"],"p3":["parafraseen"]}
+  }
+}

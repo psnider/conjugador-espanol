@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskwiˈð̞aɾ]",
+    "silabacion": "des-cui-dar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y cuidar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"descuidar","gerundio":["descuidando"],"participio":["descuidado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descuido"],"s2":["descuidas"],"vos":["descuidás"],"s3":["descuida"],"p1":["descuidamos"],"p2":["descuidáis"],"p3":["descuidan"]},
+    "IndImp": {"s1":["descuidaba"],"s2":["descuidabas"],"vos":["descuidabas"],"s3":["descuidaba"],"p1":["descuidábamos"],"p2":["descuidabais"],"p3":["descuidaban"]},
+    "IndPret": {"s1":["descuidé"],"s2":["descuidaste"],"vos":["descuidaste"],"s3":["descuidó"],"p1":["descuidamos"],"p2":["descuidasteis"],"p3":["descuidaron"]},
+    "IndFut": {"s1":["descuidaré"],"s2":["descuidarás"],"vos":["descuidarás"],"s3":["descuidará"],"p1":["descuidaremos"],"p2":["descuidaréis"],"p3":["descuidarán"]},
+    "IndCond": {"s1":["descuidaría"],"s2":["descuidarías"],"vos":["descuidarías"],"s3":["descuidaría"],"p1":["descuidaríamos"],"p2":["descuidaríais"],"p3":["descuidarían"]},
+    "SubPres": {"s1":["descuide"],"s2":["descuides"],"vos":["descuides","descuidés"],"s3":["descuide"],"p1":["descuidemos"],"p2":["descuidéis"],"p3":["descuiden"]},
+    "SubImp": {"s1":["descuidara","descuidase"],"s2":["descuidaras","descuidases"],"vos":["descuidaras","descuidases"],"s3":["descuidara","descuidase"],"p1":["descuidáramos","descuidásemos"],"p2":["descuidarais","descuidaseis"],"p3":["descuidaran","descuidasen"]},
+    "SubFut": {"s1":["descuidare"],"s2":["descuidares"],"vos":["descuidares"],"s3":["descuidare"],"p1":["descuidáremos"],"p2":["descuidareis"],"p3":["descuidaren"]},
+    "CmdPos": {"s2":["descuida"],"vos":["descuidá"],"s3":["descuide"],"p1":["descuidemos"],"p2":["descuidad"],"p3":["descuiden"]}
+  }
+}

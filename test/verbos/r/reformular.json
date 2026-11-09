@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[refoɾmuˈlaɾ]",
+    "silabacion": "re-for-mu-lar",
+    "acentuacion": "aguda",
+    "etimologia": "De formular y el prefijo re-",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"reformular","gerundio":["reformulando"],"participio":["reformulado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reformulo"],"s2":["reformulas"],"vos":["reformulás"],"s3":["reformula"],"p1":["reformulamos"],"p2":["reformuláis"],"p3":["reformulan"]},
+    "IndImp": {"s1":["reformulaba"],"s2":["reformulabas"],"vos":["reformulabas"],"s3":["reformulaba"],"p1":["reformulábamos"],"p2":["reformulabais"],"p3":["reformulaban"]},
+    "IndPret": {"s1":["reformulé"],"s2":["reformulaste"],"vos":["reformulaste"],"s3":["reformuló"],"p1":["reformulamos"],"p2":["reformulasteis"],"p3":["reformularon"]},
+    "IndFut": {"s1":["reformularé"],"s2":["reformularás"],"vos":["reformularás"],"s3":["reformulará"],"p1":["reformularemos"],"p2":["reformularéis"],"p3":["reformularán"]},
+    "IndCond": {"s1":["reformularía"],"s2":["reformularías"],"vos":["reformularías"],"s3":["reformularía"],"p1":["reformularíamos"],"p2":["reformularíais"],"p3":["reformularían"]},
+    "SubPres": {"s1":["reformule"],"s2":["reformules"],"vos":["reformules","reformulés"],"s3":["reformule"],"p1":["reformulemos"],"p2":["reformuléis"],"p3":["reformulen"]},
+    "SubImp": {"s1":["reformulara","reformulase"],"s2":["reformularas","reformulases"],"vos":["reformularas","reformulases"],"s3":["reformulara","reformulase"],"p1":["reformuláramos","reformulásemos"],"p2":["reformularais","reformulaseis"],"p3":["reformularan","reformulasen"]},
+    "SubFut": {"s1":["reformulare"],"s2":["reformulares"],"vos":["reformulares"],"s3":["reformulare"],"p1":["reformuláremos"],"p2":["reformulareis"],"p3":["reformularen"]},
+    "CmdPos": {"s2":["reformula"],"vos":["reformulá"],"s3":["reformule"],"p1":["reformulemos"],"p2":["reformulad"],"p3":["reformulen"]}
+  }
+}

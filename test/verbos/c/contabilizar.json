@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[kõn̪t̪aβ̞iliˈsaɾ]",
+    "silabacion": "con-ta-bi-li-zar",
+    "acentuacion": "aguda",
+    "etimologia": "De contable.",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"contabilizar","gerundio":["contabilizando"],"participio":["contabilizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["contabilizo"],"s2":["contabilizas"],"vos":["contabilizás"],"s3":["contabiliza"],"p1":["contabilizamos"],"p2":["contabilizáis"],"p3":["contabilizan"]},
+    "IndImp": {"s1":["contabilizaba"],"s2":["contabilizabas"],"vos":["contabilizabas"],"s3":["contabilizaba"],"p1":["contabilizábamos"],"p2":["contabilizabais"],"p3":["contabilizaban"]},
+    "IndPret": {"s1":["contabilicé"],"s2":["contabilizaste"],"vos":["contabilizaste"],"s3":["contabilizó"],"p1":["contabilizamos"],"p2":["contabilizasteis"],"p3":["contabilizaron"]},
+    "IndFut": {"s1":["contabilizaré"],"s2":["contabilizarás"],"vos":["contabilizarás"],"s3":["contabilizará"],"p1":["contabilizaremos"],"p2":["contabilizaréis"],"p3":["contabilizarán"]},
+    "IndCond": {"s1":["contabilizaría"],"s2":["contabilizarías"],"vos":["contabilizarías"],"s3":["contabilizaría"],"p1":["contabilizaríamos"],"p2":["contabilizaríais"],"p3":["contabilizarían"]},
+    "SubPres": {"s1":["contabilice"],"s2":["contabilices"],"vos":["contabilices","contabilicés"],"s3":["contabilice"],"p1":["contabilicemos"],"p2":["contabilicéis"],"p3":["contabilicen"]},
+    "SubImp": {"s1":["contabilizara","contabilizase"],"s2":["contabilizaras","contabilizases"],"vos":["contabilizaras","contabilizases"],"s3":["contabilizara","contabilizase"],"p1":["contabilizáramos","contabilizásemos"],"p2":["contabilizarais","contabilizaseis"],"p3":["contabilizaran","contabilizasen"]},
+    "SubFut": {"s1":["contabilizare"],"s2":["contabilizares"],"vos":["contabilizares"],"s3":["contabilizare"],"p1":["contabilizáremos"],"p2":["contabilizareis"],"p3":["contabilizaren"]},
+    "CmdPos": {"s2":["contabiliza"],"vos":["contabilizá"],"s3":["contabilice"],"p1":["contabilicemos"],"p2":["contabilizad"],"p3":["contabilicen"]}
+  }
+}

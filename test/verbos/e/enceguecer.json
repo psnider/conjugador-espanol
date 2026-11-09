@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnseɣ̞eˈseɾ]",
+    "silabacion": "en-ce-gue-cer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, ciego (del latín caecus) y el sufijo -ecer.",
+    "modelos": ["parecer"]
+  },
+  "formas_no_personales": {"infinitivo":"enceguecer","gerundio":["encegueciendo"],"participio":["enceguecido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enceguezco"],"s2":["encegueces"],"vos":["enceguecés"],"s3":["enceguece"],"p1":["enceguecemos"],"p2":["enceguecéis"],"p3":["enceguecen"]},
+    "IndImp": {"s1":["enceguecía"],"s2":["enceguecías"],"vos":["enceguecías"],"s3":["enceguecía"],"p1":["enceguecíamos"],"p2":["enceguecíais"],"p3":["enceguecían"]},
+    "IndPret": {"s1":["enceguecí"],"s2":["encegueciste"],"vos":["encegueciste"],"s3":["encegueció"],"p1":["enceguecimos"],"p2":["enceguecisteis"],"p3":["enceguecieron"]},
+    "IndFut": {"s1":["encegueceré"],"s2":["enceguecerás"],"vos":["enceguecerás"],"s3":["enceguecerá"],"p1":["encegueceremos"],"p2":["encegueceréis"],"p3":["enceguecerán"]},
+    "IndCond": {"s1":["enceguecería"],"s2":["enceguecerías"],"vos":["enceguecerías"],"s3":["enceguecería"],"p1":["encegueceríamos"],"p2":["encegueceríais"],"p3":["enceguecerían"]},
+    "SubPres": {"s1":["enceguezca"],"s2":["enceguezcas"],"vos":["enceguezcas","enceguezcás"],"s3":["enceguezca"],"p1":["enceguezcamos"],"p2":["enceguezcáis"],"p3":["enceguezcan"]},
+    "SubImp": {"s1":["encegueciera","encegueciese"],"s2":["enceguecieras","enceguecieses"],"vos":["enceguecieras","enceguecieses"],"s3":["encegueciera","encegueciese"],"p1":["encegueciéramos","encegueciésemos"],"p2":["enceguecierais","enceguecieseis"],"p3":["enceguecieran","encegueciesen"]},
+    "SubFut": {"s1":["encegueciere"],"s2":["enceguecieres"],"vos":["enceguecieres"],"s3":["encegueciere"],"p1":["encegueciéremos"],"p2":["encegueciereis"],"p3":["enceguecieren"]},
+    "CmdPos": {"s2":["enceguece"],"vos":["enceguecé"],"s3":["enceguezca"],"p1":["enceguezcamos"],"p2":["encegueced"],"p3":["enceguezcan"]}
+  }
+}

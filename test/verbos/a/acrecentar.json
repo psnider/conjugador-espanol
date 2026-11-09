@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akɾesẽn̪ˈt̪aɾ]",
+    "silabacion": "a-cre-cen-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a- y crecentar, intensivo de acrecer,[1]. O del latín accrescens, accrescentis[2]; con el sufijo -ar para el infinitivo de verbos.",
+    "modelos": ["pensar"]
+  },
+  "formas_no_personales": {"infinitivo":"acrecentar","gerundio":["acrecentando"],"participio":["acrecentado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acreciento"],"s2":["acrecientas"],"vos":["acrecentás"],"s3":["acrecienta"],"p1":["acrecentamos"],"p2":["acrecentáis"],"p3":["acrecientan"]},
+    "IndImp": {"s1":["acrecentaba"],"s2":["acrecentabas"],"vos":["acrecentabas"],"s3":["acrecentaba"],"p1":["acrecentábamos"],"p2":["acrecentabais"],"p3":["acrecentaban"]},
+    "IndPret": {"s1":["acrecenté"],"s2":["acrecentaste"],"vos":["acrecentaste"],"s3":["acrecentó"],"p1":["acrecentamos"],"p2":["acrecentasteis"],"p3":["acrecentaron"]},
+    "IndFut": {"s1":["acrecentaré"],"s2":["acrecentarás"],"vos":["acrecentarás"],"s3":["acrecentará"],"p1":["acrecentaremos"],"p2":["acrecentaréis"],"p3":["acrecentarán"]},
+    "IndCond": {"s1":["acrecentaría"],"s2":["acrecentarías"],"vos":["acrecentarías"],"s3":["acrecentaría"],"p1":["acrecentaríamos"],"p2":["acrecentaríais"],"p3":["acrecentarían"]},
+    "SubPres": {"s1":["acreciente"],"s2":["acrecientes"],"vos":["acrecientes","acrecentés"],"s3":["acreciente"],"p1":["acrecentemos"],"p2":["acrecentéis"],"p3":["acrecienten"]},
+    "SubImp": {"s1":["acrecentara","acrecentase"],"s2":["acrecentaras","acrecentases"],"vos":["acrecentaras","acrecentases"],"s3":["acrecentara","acrecentase"],"p1":["acrecentáramos","acrecentásemos"],"p2":["acrecentarais","acrecentaseis"],"p3":["acrecentaran","acrecentasen"]},
+    "SubFut": {"s1":["acrecentare"],"s2":["acrecentares"],"vos":["acrecentares"],"s3":["acrecentare"],"p1":["acrecentáremos"],"p2":["acrecentareis"],"p3":["acrecentaren"]},
+    "CmdPos": {"s2":["acrecienta"],"vos":["acrecentá"],"s3":["acreciente"],"p1":["acrecentemos"],"p2":["acrecentad"],"p3":["acrecienten"]}
+  }
+}

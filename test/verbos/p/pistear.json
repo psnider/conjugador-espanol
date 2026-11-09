@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pist̪eˈaɾ]",
+    "silabacion": "pis-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": null,
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"pistear","gerundio":["pisteando"],"participio":["pisteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["pisteo"],"s2":["pisteas"],"vos":["pisteás"],"s3":["pistea"],"p1":["pisteamos"],"p2":["pisteáis"],"p3":["pistean"]},
+    "IndImp": {"s1":["pisteaba"],"s2":["pisteabas"],"vos":["pisteabas"],"s3":["pisteaba"],"p1":["pisteábamos"],"p2":["pisteabais"],"p3":["pisteaban"]},
+    "IndPret": {"s1":["pisteé"],"s2":["pisteaste"],"vos":["pisteaste"],"s3":["pisteó"],"p1":["pisteamos"],"p2":["pisteasteis"],"p3":["pistearon"]},
+    "IndFut": {"s1":["pistearé"],"s2":["pistearás"],"vos":["pistearás"],"s3":["pisteará"],"p1":["pistearemos"],"p2":["pistearéis"],"p3":["pistearán"]},
+    "IndCond": {"s1":["pistearía"],"s2":["pistearías"],"vos":["pistearías"],"s3":["pistearía"],"p1":["pistearíamos"],"p2":["pistearíais"],"p3":["pistearían"]},
+    "SubPres": {"s1":["pistee"],"s2":["pistees"],"vos":["pistees","pisteés"],"s3":["pistee"],"p1":["pisteemos"],"p2":["pisteéis"],"p3":["pisteen"]},
+    "SubImp": {"s1":["pisteara","pistease"],"s2":["pistearas","pisteases"],"vos":["pistearas","pisteases"],"s3":["pisteara","pistease"],"p1":["pisteáramos","pisteásemos"],"p2":["pistearais","pisteaseis"],"p3":["pistearan","pisteasen"]},
+    "SubFut": {"s1":["pisteare"],"s2":["pisteares"],"vos":["pisteares"],"s3":["pisteare"],"p1":["pisteáremos"],"p2":["pisteareis"],"p3":["pistearen"]},
+    "CmdPos": {"s2":["pistea"],"vos":["pisteá"],"s3":["pistee"],"p1":["pisteemos"],"p2":["pistead"],"p3":["pisteen"]}
+  }
+}

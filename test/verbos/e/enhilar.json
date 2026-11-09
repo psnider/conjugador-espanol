@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽniˈlaɾ]",
+    "silabacion": "en-hi-lar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo en-, hilo y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"enhilar","gerundio":["enhilando"],"participio":["enhilado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["enhilo"],"s2":["enhilas"],"vos":["enhilás"],"s3":["enhila"],"p1":["enhilamos"],"p2":["enhiláis"],"p3":["enhilan"]},
+    "IndImp": {"s1":["enhilaba"],"s2":["enhilabas"],"vos":["enhilabas"],"s3":["enhilaba"],"p1":["enhilábamos"],"p2":["enhilabais"],"p3":["enhilaban"]},
+    "IndPret": {"s1":["enhilé"],"s2":["enhilaste"],"vos":["enhilaste"],"s3":["enhiló"],"p1":["enhilamos"],"p2":["enhilasteis"],"p3":["enhilaron"]},
+    "IndFut": {"s1":["enhilaré"],"s2":["enhilarás"],"vos":["enhilarás"],"s3":["enhilará"],"p1":["enhilaremos"],"p2":["enhilaréis"],"p3":["enhilarán"]},
+    "IndCond": {"s1":["enhilaría"],"s2":["enhilarías"],"vos":["enhilarías"],"s3":["enhilaría"],"p1":["enhilaríamos"],"p2":["enhilaríais"],"p3":["enhilarían"]},
+    "SubPres": {"s1":["enhile"],"s2":["enhiles"],"vos":["enhiles","enhilés"],"s3":["enhile"],"p1":["enhilemos"],"p2":["enhiléis"],"p3":["enhilen"]},
+    "SubImp": {"s1":["enhilara","enhilase"],"s2":["enhilaras","enhilases"],"vos":["enhilaras","enhilases"],"s3":["enhilara","enhilase"],"p1":["enhiláramos","enhilásemos"],"p2":["enhilarais","enhilaseis"],"p3":["enhilaran","enhilasen"]},
+    "SubFut": {"s1":["enhilare"],"s2":["enhilares"],"vos":["enhilares"],"s3":["enhilare"],"p1":["enhiláremos"],"p2":["enhilareis"],"p3":["enhilaren"]},
+    "CmdPos": {"s2":["enhila"],"vos":["enhilá"],"s3":["enhile"],"p1":["enhilemos"],"p2":["enhilad"],"p3":["enhilen"]}
+  }
+}

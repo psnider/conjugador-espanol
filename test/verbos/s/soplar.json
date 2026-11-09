@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[soˈplaɾ]",
+    "silabacion": "so-plar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín sufflare",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"soplar","gerundio":["soplando"],"participio":["soplado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["soplo"],"s2":["soplas"],"vos":["soplás"],"s3":["sopla"],"p1":["soplamos"],"p2":["sopláis"],"p3":["soplan"]},
+    "IndImp": {"s1":["soplaba"],"s2":["soplabas"],"vos":["soplabas"],"s3":["soplaba"],"p1":["soplábamos"],"p2":["soplabais"],"p3":["soplaban"]},
+    "IndPret": {"s1":["soplé"],"s2":["soplaste"],"vos":["soplaste"],"s3":["sopló"],"p1":["soplamos"],"p2":["soplasteis"],"p3":["soplaron"]},
+    "IndFut": {"s1":["soplaré"],"s2":["soplarás"],"vos":["soplarás"],"s3":["soplará"],"p1":["soplaremos"],"p2":["soplaréis"],"p3":["soplarán"]},
+    "IndCond": {"s1":["soplaría"],"s2":["soplarías"],"vos":["soplarías"],"s3":["soplaría"],"p1":["soplaríamos"],"p2":["soplaríais"],"p3":["soplarían"]},
+    "SubPres": {"s1":["sople"],"s2":["soples"],"vos":["soples","soplés"],"s3":["sople"],"p1":["soplemos"],"p2":["sopléis"],"p3":["soplen"]},
+    "SubImp": {"s1":["soplara","soplase"],"s2":["soplaras","soplases"],"vos":["soplaras","soplases"],"s3":["soplara","soplase"],"p1":["sopláramos","soplásemos"],"p2":["soplarais","soplaseis"],"p3":["soplaran","soplasen"]},
+    "SubFut": {"s1":["soplare"],"s2":["soplares"],"vos":["soplares"],"s3":["soplare"],"p1":["sopláremos"],"p2":["soplareis"],"p3":["soplaren"]},
+    "CmdPos": {"s2":["sopla"],"vos":["soplá"],"s3":["sople"],"p1":["soplemos"],"p2":["soplad"],"p3":["soplen"]}
+  }
+}

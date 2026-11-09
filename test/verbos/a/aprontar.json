@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[apɾõn̪ˈt̪aɾ]",
+    "silabacion": "a-pron-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, pronto y el sufijo -ar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"aprontar","gerundio":["aprontando"],"participio":["aprontado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["apronto"],"s2":["aprontas"],"vos":["aprontás"],"s3":["apronta"],"p1":["aprontamos"],"p2":["aprontáis"],"p3":["aprontan"]},
+    "IndImp": {"s1":["aprontaba"],"s2":["aprontabas"],"vos":["aprontabas"],"s3":["aprontaba"],"p1":["aprontábamos"],"p2":["aprontabais"],"p3":["aprontaban"]},
+    "IndPret": {"s1":["apronté"],"s2":["aprontaste"],"vos":["aprontaste"],"s3":["aprontó"],"p1":["aprontamos"],"p2":["aprontasteis"],"p3":["aprontaron"]},
+    "IndFut": {"s1":["aprontaré"],"s2":["aprontarás"],"vos":["aprontarás"],"s3":["aprontará"],"p1":["aprontaremos"],"p2":["aprontaréis"],"p3":["aprontarán"]},
+    "IndCond": {"s1":["aprontaría"],"s2":["aprontarías"],"vos":["aprontarías"],"s3":["aprontaría"],"p1":["aprontaríamos"],"p2":["aprontaríais"],"p3":["aprontarían"]},
+    "SubPres": {"s1":["apronte"],"s2":["aprontes"],"vos":["aprontes","aprontés"],"s3":["apronte"],"p1":["aprontemos"],"p2":["aprontéis"],"p3":["apronten"]},
+    "SubImp": {"s1":["aprontara","aprontase"],"s2":["aprontaras","aprontases"],"vos":["aprontaras","aprontases"],"s3":["aprontara","aprontase"],"p1":["aprontáramos","aprontásemos"],"p2":["aprontarais","aprontaseis"],"p3":["aprontaran","aprontasen"]},
+    "SubFut": {"s1":["aprontare"],"s2":["aprontares"],"vos":["aprontares"],"s3":["aprontare"],"p1":["aprontáremos"],"p2":["aprontareis"],"p3":["aprontaren"]},
+    "CmdPos": {"s2":["apronta"],"vos":["aprontá"],"s3":["apronte"],"p1":["aprontemos"],"p2":["aprontad"],"p3":["apronten"]}
+  }
+}

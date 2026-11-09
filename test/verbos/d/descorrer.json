@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eskoˈreɾ]",
+    "silabacion": "des-co-rrer",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des- y correr.",
+    "modelos": ["temer"]
+  },
+  "formas_no_personales": {"infinitivo":"descorrer","gerundio":["descorriendo"],"participio":["descorrido"]},
+  "formas_personales": {
+    "IndPres": {"s1":["descorro"],"s2":["descorres"],"vos":["descorrés"],"s3":["descorre"],"p1":["descorremos"],"p2":["descorréis"],"p3":["descorren"]},
+    "IndImp": {"s1":["descorría"],"s2":["descorrías"],"vos":["descorrías"],"s3":["descorría"],"p1":["descorríamos"],"p2":["descorríais"],"p3":["descorrían"]},
+    "IndPret": {"s1":["descorrí"],"s2":["descorriste"],"vos":["descorriste"],"s3":["descorrió"],"p1":["descorrimos"],"p2":["descorristeis"],"p3":["descorrieron"]},
+    "IndFut": {"s1":["descorreré"],"s2":["descorrerás"],"vos":["descorrerás"],"s3":["descorrerá"],"p1":["descorreremos"],"p2":["descorreréis"],"p3":["descorrerán"]},
+    "IndCond": {"s1":["descorrería"],"s2":["descorrerías"],"vos":["descorrerías"],"s3":["descorrería"],"p1":["descorreríamos"],"p2":["descorreríais"],"p3":["descorrerían"]},
+    "SubPres": {"s1":["descorra"],"s2":["descorras"],"vos":["descorras","descorrás"],"s3":["descorra"],"p1":["descorramos"],"p2":["descorráis"],"p3":["descorran"]},
+    "SubImp": {"s1":["descorriera","descorriese"],"s2":["descorrieras","descorrieses"],"vos":["descorrieras","descorrieses"],"s3":["descorriera","descorriese"],"p1":["descorriéramos","descorriésemos"],"p2":["descorrierais","descorrieseis"],"p3":["descorrieran","descorriesen"]},
+    "SubFut": {"s1":["descorriere"],"s2":["descorrieres"],"vos":["descorrieres"],"s3":["descorriere"],"p1":["descorriéremos"],"p2":["descorriereis"],"p3":["descorrieren"]},
+    "CmdPos": {"s2":["descorre"],"vos":["descorré"],"s3":["descorra"],"p1":["descorramos"],"p2":["descorred"],"p3":["descorran"]}
+  }
+}

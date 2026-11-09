@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reβ̞oˈt̪aɾ]",
+    "silabacion": "re-bo-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo re- y botar.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"rebotar","gerundio":["rebotando"],"participio":["rebotado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["reboto"],"s2":["rebotas"],"vos":["rebotás"],"s3":["rebota"],"p1":["rebotamos"],"p2":["rebotáis"],"p3":["rebotan"]},
+    "IndImp": {"s1":["rebotaba"],"s2":["rebotabas"],"vos":["rebotabas"],"s3":["rebotaba"],"p1":["rebotábamos"],"p2":["rebotabais"],"p3":["rebotaban"]},
+    "IndPret": {"s1":["reboté"],"s2":["rebotaste"],"vos":["rebotaste"],"s3":["rebotó"],"p1":["rebotamos"],"p2":["rebotasteis"],"p3":["rebotaron"]},
+    "IndFut": {"s1":["rebotaré"],"s2":["rebotarás"],"vos":["rebotarás"],"s3":["rebotará"],"p1":["rebotaremos"],"p2":["rebotaréis"],"p3":["rebotarán"]},
+    "IndCond": {"s1":["rebotaría"],"s2":["rebotarías"],"vos":["rebotarías"],"s3":["rebotaría"],"p1":["rebotaríamos"],"p2":["rebotaríais"],"p3":["rebotarían"]},
+    "SubPres": {"s1":["rebote"],"s2":["rebotes"],"vos":["rebotes","rebotés"],"s3":["rebote"],"p1":["rebotemos"],"p2":["rebotéis"],"p3":["reboten"]},
+    "SubImp": {"s1":["rebotara","rebotase"],"s2":["rebotaras","rebotases"],"vos":["rebotaras","rebotases"],"s3":["rebotara","rebotase"],"p1":["rebotáramos","rebotásemos"],"p2":["rebotarais","rebotaseis"],"p3":["rebotaran","rebotasen"]},
+    "SubFut": {"s1":["rebotare"],"s2":["rebotares"],"vos":["rebotares"],"s3":["rebotare"],"p1":["rebotáremos"],"p2":["rebotareis"],"p3":["rebotaren"]},
+    "CmdPos": {"s2":["rebota"],"vos":["rebotá"],"s3":["rebote"],"p1":["rebotemos"],"p2":["rebotad"],"p3":["reboten"]}
+  }
+}

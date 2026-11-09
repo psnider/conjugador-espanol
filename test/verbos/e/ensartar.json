@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[ẽnsaɾˈt̪aɾ]",
+    "silabacion": "en-sar-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo.[1]",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"ensartar","gerundio":["ensartando"],"participio":["ensartado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["ensarto"],"s2":["ensartas"],"vos":["ensartás"],"s3":["ensarta"],"p1":["ensartamos"],"p2":["ensartáis"],"p3":["ensartan"]},
+    "IndImp": {"s1":["ensartaba"],"s2":["ensartabas"],"vos":["ensartabas"],"s3":["ensartaba"],"p1":["ensartábamos"],"p2":["ensartabais"],"p3":["ensartaban"]},
+    "IndPret": {"s1":["ensarté"],"s2":["ensartaste"],"vos":["ensartaste"],"s3":["ensartó"],"p1":["ensartamos"],"p2":["ensartasteis"],"p3":["ensartaron"]},
+    "IndFut": {"s1":["ensartaré"],"s2":["ensartarás"],"vos":["ensartarás"],"s3":["ensartará"],"p1":["ensartaremos"],"p2":["ensartaréis"],"p3":["ensartarán"]},
+    "IndCond": {"s1":["ensartaría"],"s2":["ensartarías"],"vos":["ensartarías"],"s3":["ensartaría"],"p1":["ensartaríamos"],"p2":["ensartaríais"],"p3":["ensartarían"]},
+    "SubPres": {"s1":["ensarte"],"s2":["ensartes"],"vos":["ensartes","ensartés"],"s3":["ensarte"],"p1":["ensartemos"],"p2":["ensartéis"],"p3":["ensarten"]},
+    "SubImp": {"s1":["ensartara","ensartase"],"s2":["ensartaras","ensartases"],"vos":["ensartaras","ensartases"],"s3":["ensartara","ensartase"],"p1":["ensartáramos","ensartásemos"],"p2":["ensartarais","ensartaseis"],"p3":["ensartaran","ensartasen"]},
+    "SubFut": {"s1":["ensartare"],"s2":["ensartares"],"vos":["ensartares"],"s3":["ensartare"],"p1":["ensartáremos"],"p2":["ensartareis"],"p3":["ensartaren"]},
+    "CmdPos": {"s2":["ensarta"],"vos":["ensartá"],"s3":["ensarte"],"p1":["ensartemos"],"p2":["ensartad"],"p3":["ensarten"]}
+  }
+}

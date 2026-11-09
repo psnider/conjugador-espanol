@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eskol̪ˈt̪aɾ]",
+    "silabacion": "es-col-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"escoltar","gerundio":["escoltando"],"participio":["escoltado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["escolto"],"s2":["escoltas"],"vos":["escoltás"],"s3":["escolta"],"p1":["escoltamos"],"p2":["escoltáis"],"p3":["escoltan"]},
+    "IndImp": {"s1":["escoltaba"],"s2":["escoltabas"],"vos":["escoltabas"],"s3":["escoltaba"],"p1":["escoltábamos"],"p2":["escoltabais"],"p3":["escoltaban"]},
+    "IndPret": {"s1":["escolté"],"s2":["escoltaste"],"vos":["escoltaste"],"s3":["escoltó"],"p1":["escoltamos"],"p2":["escoltasteis"],"p3":["escoltaron"]},
+    "IndFut": {"s1":["escoltaré"],"s2":["escoltarás"],"vos":["escoltarás"],"s3":["escoltará"],"p1":["escoltaremos"],"p2":["escoltaréis"],"p3":["escoltarán"]},
+    "IndCond": {"s1":["escoltaría"],"s2":["escoltarías"],"vos":["escoltarías"],"s3":["escoltaría"],"p1":["escoltaríamos"],"p2":["escoltaríais"],"p3":["escoltarían"]},
+    "SubPres": {"s1":["escolte"],"s2":["escoltes"],"vos":["escoltes","escoltés"],"s3":["escolte"],"p1":["escoltemos"],"p2":["escoltéis"],"p3":["escolten"]},
+    "SubImp": {"s1":["escoltara","escoltase"],"s2":["escoltaras","escoltases"],"vos":["escoltaras","escoltases"],"s3":["escoltara","escoltase"],"p1":["escoltáramos","escoltásemos"],"p2":["escoltarais","escoltaseis"],"p3":["escoltaran","escoltasen"]},
+    "SubFut": {"s1":["escoltare"],"s2":["escoltares"],"vos":["escoltares"],"s3":["escoltare"],"p1":["escoltáremos"],"p2":["escoltareis"],"p3":["escoltaren"]},
+    "CmdPos": {"s2":["escolta"],"vos":["escoltá"],"s3":["escolte"],"p1":["escoltemos"],"p2":["escoltad"],"p3":["escolten"]}
+  }
+}

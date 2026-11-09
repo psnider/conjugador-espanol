@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[t͡ʃikot̪eˈaɾ]",
+    "silabacion": "chi-co-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "De chicote y el sufijo -ear.",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"chicotear","gerundio":["chicoteando"],"participio":["chicoteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["chicoteo"],"s2":["chicoteas"],"vos":["chicoteás"],"s3":["chicotea"],"p1":["chicoteamos"],"p2":["chicoteáis"],"p3":["chicotean"]},
+    "IndImp": {"s1":["chicoteaba"],"s2":["chicoteabas"],"vos":["chicoteabas"],"s3":["chicoteaba"],"p1":["chicoteábamos"],"p2":["chicoteabais"],"p3":["chicoteaban"]},
+    "IndPret": {"s1":["chicoteé"],"s2":["chicoteaste"],"vos":["chicoteaste"],"s3":["chicoteó"],"p1":["chicoteamos"],"p2":["chicoteasteis"],"p3":["chicotearon"]},
+    "IndFut": {"s1":["chicotearé"],"s2":["chicotearás"],"vos":["chicotearás"],"s3":["chicoteará"],"p1":["chicotearemos"],"p2":["chicotearéis"],"p3":["chicotearán"]},
+    "IndCond": {"s1":["chicotearía"],"s2":["chicotearías"],"vos":["chicotearías"],"s3":["chicotearía"],"p1":["chicotearíamos"],"p2":["chicotearíais"],"p3":["chicotearían"]},
+    "SubPres": {"s1":["chicotee"],"s2":["chicotees"],"vos":["chicotees","chicoteés"],"s3":["chicotee"],"p1":["chicoteemos"],"p2":["chicoteéis"],"p3":["chicoteen"]},
+    "SubImp": {"s1":["chicoteara","chicotease"],"s2":["chicotearas","chicoteases"],"vos":["chicotearas","chicoteases"],"s3":["chicoteara","chicotease"],"p1":["chicoteáramos","chicoteásemos"],"p2":["chicotearais","chicoteaseis"],"p3":["chicotearan","chicoteasen"]},
+    "SubFut": {"s1":["chicoteare"],"s2":["chicoteares"],"vos":["chicoteares"],"s3":["chicoteare"],"p1":["chicoteáremos"],"p2":["chicoteareis"],"p3":["chicotearen"]},
+    "CmdPos": {"s2":["chicotea"],"vos":["chicoteá"],"s3":["chicotee"],"p1":["chicoteemos"],"p2":["chicotead"],"p3":["chicoteen"]}
+  }
+}

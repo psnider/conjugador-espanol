@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[eloˈxjaɾ]",
+    "silabacion": "e-lo-giar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["anunciar"]
+  },
+  "formas_no_personales": {"infinitivo":"elogiar","gerundio":["elogiando"],"participio":["elogiado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["elogio"],"s2":["elogias"],"vos":["elogiás"],"s3":["elogia"],"p1":["elogiamos"],"p2":["elogiáis"],"p3":["elogian"]},
+    "IndImp": {"s1":["elogiaba"],"s2":["elogiabas"],"vos":["elogiabas"],"s3":["elogiaba"],"p1":["elogiábamos"],"p2":["elogiabais"],"p3":["elogiaban"]},
+    "IndPret": {"s1":["elogié"],"s2":["elogiaste"],"vos":["elogiaste"],"s3":["elogió"],"p1":["elogiamos"],"p2":["elogiasteis"],"p3":["elogiaron"]},
+    "IndFut": {"s1":["elogiaré"],"s2":["elogiarás"],"vos":["elogiarás"],"s3":["elogiará"],"p1":["elogiaremos"],"p2":["elogiaréis"],"p3":["elogiarán"]},
+    "IndCond": {"s1":["elogiaría"],"s2":["elogiarías"],"vos":["elogiarías"],"s3":["elogiaría"],"p1":["elogiaríamos"],"p2":["elogiaríais"],"p3":["elogiarían"]},
+    "SubPres": {"s1":["elogie"],"s2":["elogies"],"vos":["elogies","elogiés"],"s3":["elogie"],"p1":["elogiemos"],"p2":["elogiéis"],"p3":["elogien"]},
+    "SubImp": {"s1":["elogiara","elogiase"],"s2":["elogiaras","elogiases"],"vos":["elogiaras","elogiases"],"s3":["elogiara","elogiase"],"p1":["elogiáramos","elogiásemos"],"p2":["elogiarais","elogiaseis"],"p3":["elogiaran","elogiasen"]},
+    "SubFut": {"s1":["elogiare"],"s2":["elogiares"],"vos":["elogiares"],"s3":["elogiare"],"p1":["elogiáremos"],"p2":["elogiareis"],"p3":["elogiaren"]},
+    "CmdPos": {"s2":["elogia"],"vos":["elogiá"],"s3":["elogie"],"p1":["elogiemos"],"p2":["elogiad"],"p3":["elogien"]}
+  }
+}

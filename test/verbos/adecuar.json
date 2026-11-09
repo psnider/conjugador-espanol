@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[að̞eˈkwaɾ]",
+    "silabacion": "a-de-cuar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["evacuar"]
+  },
+  "formas_no_personales": {"infinitivo":"adecuar","gerundio":["adecuando"],"participio":["adecuado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["adecúo","adecuo"],"s2":["adecúas","adecuas"],"vos":["adecuás"],"s3":["adecúa","adecua"],"p1":["adecuamos"],"p2":["adecuáis"],"p3":["adecúan","adecuan"]},
+    "IndImp": {"s1":["adecuaba"],"s2":["adecuabas"],"vos":["adecuabas"],"s3":["adecuaba"],"p1":["adecuábamos"],"p2":["adecuabais"],"p3":["adecuaban"]},
+    "IndPret": {"s1":["adecué"],"s2":["adecuaste"],"vos":["adecuaste"],"s3":["adecuó"],"p1":["adecuamos"],"p2":["adecuasteis"],"p3":["adecuaron"]},
+    "IndFut": {"s1":["adecuaré"],"s2":["adecuarás"],"vos":["adecuarás"],"s3":["adecuará"],"p1":["adecuaremos"],"p2":["adecuaréis"],"p3":["adecuarán"]},
+    "IndCond": {"s1":["adecuaría"],"s2":["adecuarías"],"vos":["adecuarías"],"s3":["adecuaría"],"p1":["adecuaríamos"],"p2":["adecuaríais"],"p3":["adecuarían"]},
+    "SubPres": {"s1":["adecúe","adecue"],"s2":["adecúes","adecues"],"vos":["adecúes","adecues","adecués"],"s3":["adecúe","adecue"],"p1":["adecuemos"],"p2":["adecuéis"],"p3":["adecúen","adecuen"]},
+    "SubImp": {"s1":["adecuara","adecuase"],"s2":["adecuaras","adecuases"],"vos":["adecuaras","adecuases"],"s3":["adecuara","adecuase"],"p1":["adecuáramos","adecuásemos"],"p2":["adecuarais","adecuaseis"],"p3":["adecuaran","adecuasen"]},
+    "SubFut": {"s1":["adecuare"],"s2":["adecuares"],"vos":["adecuares"],"s3":["adecuare"],"p1":["adecuáremos"],"p2":["adecuareis"],"p3":["adecuaren"]},
+    "CmdPos": {"s2":["adecúa","adecua"],"vos":["adecuá"],"s3":["adecúe","adecue"],"p1":["adecuemos"],"p2":["adecuad"],"p3":["adecúen","adecuen"]}
+  }
+}

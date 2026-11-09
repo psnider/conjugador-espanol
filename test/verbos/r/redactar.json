@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[reð̞akˈt̪aɾ]",
+    "silabacion": "re-dac-tar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín redactum ('compilar') y redigĕre ('poner en orden').",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"redactar","gerundio":["redactando"],"participio":["redactado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["redacto"],"s2":["redactas"],"vos":["redactás"],"s3":["redacta"],"p1":["redactamos"],"p2":["redactáis"],"p3":["redactan"]},
+    "IndImp": {"s1":["redactaba"],"s2":["redactabas"],"vos":["redactabas"],"s3":["redactaba"],"p1":["redactábamos"],"p2":["redactabais"],"p3":["redactaban"]},
+    "IndPret": {"s1":["redacté"],"s2":["redactaste"],"vos":["redactaste"],"s3":["redactó"],"p1":["redactamos"],"p2":["redactasteis"],"p3":["redactaron"]},
+    "IndFut": {"s1":["redactaré"],"s2":["redactarás"],"vos":["redactarás"],"s3":["redactará"],"p1":["redactaremos"],"p2":["redactaréis"],"p3":["redactarán"]},
+    "IndCond": {"s1":["redactaría"],"s2":["redactarías"],"vos":["redactarías"],"s3":["redactaría"],"p1":["redactaríamos"],"p2":["redactaríais"],"p3":["redactarían"]},
+    "SubPres": {"s1":["redacte"],"s2":["redactes"],"vos":["redactes","redactés"],"s3":["redacte"],"p1":["redactemos"],"p2":["redactéis"],"p3":["redacten"]},
+    "SubImp": {"s1":["redactara","redactase"],"s2":["redactaras","redactases"],"vos":["redactaras","redactases"],"s3":["redactara","redactase"],"p1":["redactáramos","redactásemos"],"p2":["redactarais","redactaseis"],"p3":["redactaran","redactasen"]},
+    "SubFut": {"s1":["redactare"],"s2":["redactares"],"vos":["redactares"],"s3":["redactare"],"p1":["redactáremos"],"p2":["redactareis"],"p3":["redactaren"]},
+    "CmdPos": {"s2":["redacta"],"vos":["redactá"],"s3":["redacte"],"p1":["redactemos"],"p2":["redactad"],"p3":["redacten"]}
+  }
+}

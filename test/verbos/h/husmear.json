@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[usmeˈaɾ]",
+    "silabacion": "hus-me-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"husmear","gerundio":["husmeando"],"participio":["husmeado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["husmeo"],"s2":["husmeas"],"vos":["husmeás"],"s3":["husmea"],"p1":["husmeamos"],"p2":["husmeáis"],"p3":["husmean"]},
+    "IndImp": {"s1":["husmeaba"],"s2":["husmeabas"],"vos":["husmeabas"],"s3":["husmeaba"],"p1":["husmeábamos"],"p2":["husmeabais"],"p3":["husmeaban"]},
+    "IndPret": {"s1":["husmeé"],"s2":["husmeaste"],"vos":["husmeaste"],"s3":["husmeó"],"p1":["husmeamos"],"p2":["husmeasteis"],"p3":["husmearon"]},
+    "IndFut": {"s1":["husmearé"],"s2":["husmearás"],"vos":["husmearás"],"s3":["husmeará"],"p1":["husmearemos"],"p2":["husmearéis"],"p3":["husmearán"]},
+    "IndCond": {"s1":["husmearía"],"s2":["husmearías"],"vos":["husmearías"],"s3":["husmearía"],"p1":["husmearíamos"],"p2":["husmearíais"],"p3":["husmearían"]},
+    "SubPres": {"s1":["husmee"],"s2":["husmees"],"vos":["husmees","husmeés"],"s3":["husmee"],"p1":["husmeemos"],"p2":["husmeéis"],"p3":["husmeen"]},
+    "SubImp": {"s1":["husmeara","husmease"],"s2":["husmearas","husmeases"],"vos":["husmearas","husmeases"],"s3":["husmeara","husmease"],"p1":["husmeáramos","husmeásemos"],"p2":["husmearais","husmeaseis"],"p3":["husmearan","husmeasen"]},
+    "SubFut": {"s1":["husmeare"],"s2":["husmeares"],"vos":["husmeares"],"s3":["husmeare"],"p1":["husmeáremos"],"p2":["husmeareis"],"p3":["husmearen"]},
+    "CmdPos": {"s2":["husmea"],"vos":["husmeá"],"s3":["husmee"],"p1":["husmeemos"],"p2":["husmead"],"p3":["husmeen"]}
+  }
+}

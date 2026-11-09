@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[boɾβ̞ot̪eˈaɾ]",
+    "silabacion": "bor-bo-te-ar",
+    "acentuacion": "aguda",
+    "etimologia": "Véase borbotar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"borbotear","gerundio":["borboteando"],"participio":["borboteado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["borboteo"],"s2":["borboteas"],"vos":["borboteás"],"s3":["borbotea"],"p1":["borboteamos"],"p2":["borboteáis"],"p3":["borbotean"]},
+    "IndImp": {"s1":["borboteaba"],"s2":["borboteabas"],"vos":["borboteabas"],"s3":["borboteaba"],"p1":["borboteábamos"],"p2":["borboteabais"],"p3":["borboteaban"]},
+    "IndPret": {"s1":["borboteé"],"s2":["borboteaste"],"vos":["borboteaste"],"s3":["borboteó"],"p1":["borboteamos"],"p2":["borboteasteis"],"p3":["borbotearon"]},
+    "IndFut": {"s1":["borbotearé"],"s2":["borbotearás"],"vos":["borbotearás"],"s3":["borboteará"],"p1":["borbotearemos"],"p2":["borbotearéis"],"p3":["borbotearán"]},
+    "IndCond": {"s1":["borbotearía"],"s2":["borbotearías"],"vos":["borbotearías"],"s3":["borbotearía"],"p1":["borbotearíamos"],"p2":["borbotearíais"],"p3":["borbotearían"]},
+    "SubPres": {"s1":["borbotee"],"s2":["borbotees"],"vos":["borbotees","borboteés"],"s3":["borbotee"],"p1":["borboteemos"],"p2":["borboteéis"],"p3":["borboteen"]},
+    "SubImp": {"s1":["borboteara","borbotease"],"s2":["borbotearas","borboteases"],"vos":["borbotearas","borboteases"],"s3":["borboteara","borbotease"],"p1":["borboteáramos","borboteásemos"],"p2":["borbotearais","borboteaseis"],"p3":["borbotearan","borboteasen"]},
+    "SubFut": {"s1":["borboteare"],"s2":["borboteares"],"vos":["borboteares"],"s3":["borboteare"],"p1":["borboteáremos"],"p2":["borboteareis"],"p3":["borbotearen"]},
+    "CmdPos": {"s2":["borbotea"],"vos":["borboteá"],"s3":["borbotee"],"p1":["borboteemos"],"p2":["borbotead"],"p3":["borboteen"]}
+  }
+}

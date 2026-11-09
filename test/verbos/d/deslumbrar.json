@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[d̪eslũmˈbɾaɾ]",
+    "silabacion": "des-lum-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo des-, lumbre y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"deslumbrar","gerundio":["deslumbrando"],"participio":["deslumbrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["deslumbro"],"s2":["deslumbras"],"vos":["deslumbrás"],"s3":["deslumbra"],"p1":["deslumbramos"],"p2":["deslumbráis"],"p3":["deslumbran"]},
+    "IndImp": {"s1":["deslumbraba"],"s2":["deslumbrabas"],"vos":["deslumbrabas"],"s3":["deslumbraba"],"p1":["deslumbrábamos"],"p2":["deslumbrabais"],"p3":["deslumbraban"]},
+    "IndPret": {"s1":["deslumbré"],"s2":["deslumbraste"],"vos":["deslumbraste"],"s3":["deslumbró"],"p1":["deslumbramos"],"p2":["deslumbrasteis"],"p3":["deslumbraron"]},
+    "IndFut": {"s1":["deslumbraré"],"s2":["deslumbrarás"],"vos":["deslumbrarás"],"s3":["deslumbrará"],"p1":["deslumbraremos"],"p2":["deslumbraréis"],"p3":["deslumbrarán"]},
+    "IndCond": {"s1":["deslumbraría"],"s2":["deslumbrarías"],"vos":["deslumbrarías"],"s3":["deslumbraría"],"p1":["deslumbraríamos"],"p2":["deslumbraríais"],"p3":["deslumbrarían"]},
+    "SubPres": {"s1":["deslumbre"],"s2":["deslumbres"],"vos":["deslumbres","deslumbrés"],"s3":["deslumbre"],"p1":["deslumbremos"],"p2":["deslumbréis"],"p3":["deslumbren"]},
+    "SubImp": {"s1":["deslumbrara","deslumbrase"],"s2":["deslumbraras","deslumbrases"],"vos":["deslumbraras","deslumbrases"],"s3":["deslumbrara","deslumbrase"],"p1":["deslumbráramos","deslumbrásemos"],"p2":["deslumbrarais","deslumbraseis"],"p3":["deslumbraran","deslumbrasen"]},
+    "SubFut": {"s1":["deslumbrare"],"s2":["deslumbrares"],"vos":["deslumbrares"],"s3":["deslumbrare"],"p1":["deslumbráremos"],"p2":["deslumbrareis"],"p3":["deslumbraren"]},
+    "CmdPos": {"s2":["deslumbra"],"vos":["deslumbrá"],"s3":["deslumbre"],"p1":["deslumbremos"],"p2":["deslumbrad"],"p3":["deslumbren"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[pɾesuɾiˈsaɾ]",
+    "silabacion": "pre-su-ri-zar",
+    "acentuacion": "aguda",
+    "etimologia": "Si puedes, incorpórala: ver cómo",
+    "modelos": ["realizar"]
+  },
+  "formas_no_personales": {"infinitivo":"presurizar","gerundio":["presurizando"],"participio":["presurizado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["presurizo"],"s2":["presurizas"],"vos":["presurizás"],"s3":["presuriza"],"p1":["presurizamos"],"p2":["presurizáis"],"p3":["presurizan"]},
+    "IndImp": {"s1":["presurizaba"],"s2":["presurizabas"],"vos":["presurizabas"],"s3":["presurizaba"],"p1":["presurizábamos"],"p2":["presurizabais"],"p3":["presurizaban"]},
+    "IndPret": {"s1":["presuricé"],"s2":["presurizaste"],"vos":["presurizaste"],"s3":["presurizó"],"p1":["presurizamos"],"p2":["presurizasteis"],"p3":["presurizaron"]},
+    "IndFut": {"s1":["presurizaré"],"s2":["presurizarás"],"vos":["presurizarás"],"s3":["presurizará"],"p1":["presurizaremos"],"p2":["presurizaréis"],"p3":["presurizarán"]},
+    "IndCond": {"s1":["presurizaría"],"s2":["presurizarías"],"vos":["presurizarías"],"s3":["presurizaría"],"p1":["presurizaríamos"],"p2":["presurizaríais"],"p3":["presurizarían"]},
+    "SubPres": {"s1":["presurice"],"s2":["presurices"],"vos":["presurices","presuricés"],"s3":["presurice"],"p1":["presuricemos"],"p2":["presuricéis"],"p3":["presuricen"]},
+    "SubImp": {"s1":["presurizara","presurizase"],"s2":["presurizaras","presurizases"],"vos":["presurizaras","presurizases"],"s3":["presurizara","presurizase"],"p1":["presurizáramos","presurizásemos"],"p2":["presurizarais","presurizaseis"],"p3":["presurizaran","presurizasen"]},
+    "SubFut": {"s1":["presurizare"],"s2":["presurizares"],"vos":["presurizares"],"s3":["presurizare"],"p1":["presurizáremos"],"p2":["presurizareis"],"p3":["presurizaren"]},
+    "CmdPos": {"s2":["presuriza"],"vos":["presurizá"],"s3":["presurice"],"p1":["presuricemos"],"p2":["presurizad"],"p3":["presuricen"]}
+  }
+}

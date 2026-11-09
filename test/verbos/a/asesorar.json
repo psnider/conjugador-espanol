@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[asesoˈɾaɾ]",
+    "silabacion": "a-se-so-rar",
+    "acentuacion": "aguda",
+    "etimologia": "De asesor y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"asesorar","gerundio":["asesorando"],"participio":["asesorado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["asesoro"],"s2":["asesoras"],"vos":["asesorás"],"s3":["asesora"],"p1":["asesoramos"],"p2":["asesoráis"],"p3":["asesoran"]},
+    "IndImp": {"s1":["asesoraba"],"s2":["asesorabas"],"vos":["asesorabas"],"s3":["asesoraba"],"p1":["asesorábamos"],"p2":["asesorabais"],"p3":["asesoraban"]},
+    "IndPret": {"s1":["asesoré"],"s2":["asesoraste"],"vos":["asesoraste"],"s3":["asesoró"],"p1":["asesoramos"],"p2":["asesorasteis"],"p3":["asesoraron"]},
+    "IndFut": {"s1":["asesoraré"],"s2":["asesorarás"],"vos":["asesorarás"],"s3":["asesorará"],"p1":["asesoraremos"],"p2":["asesoraréis"],"p3":["asesorarán"]},
+    "IndCond": {"s1":["asesoraría"],"s2":["asesorarías"],"vos":["asesorarías"],"s3":["asesoraría"],"p1":["asesoraríamos"],"p2":["asesoraríais"],"p3":["asesorarían"]},
+    "SubPres": {"s1":["asesore"],"s2":["asesores"],"vos":["asesores","asesorés"],"s3":["asesore"],"p1":["asesoremos"],"p2":["asesoréis"],"p3":["asesoren"]},
+    "SubImp": {"s1":["asesorara","asesorase"],"s2":["asesoraras","asesorases"],"vos":["asesoraras","asesorases"],"s3":["asesorara","asesorase"],"p1":["asesoráramos","asesorásemos"],"p2":["asesorarais","asesoraseis"],"p3":["asesoraran","asesorasen"]},
+    "SubFut": {"s1":["asesorare"],"s2":["asesorares"],"vos":["asesorares"],"s3":["asesorare"],"p1":["asesoráremos"],"p2":["asesorareis"],"p3":["asesoraren"]},
+    "CmdPos": {"s2":["asesora"],"vos":["asesorá"],"s3":["asesore"],"p1":["asesoremos"],"p2":["asesorad"],"p3":["asesoren"]}
+  }
+}

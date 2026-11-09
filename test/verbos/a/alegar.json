@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[aleˈɣ̞aɾ]",
+    "silabacion": "a-le-gar",
+    "acentuacion": "aguda",
+    "etimologia": "Del latín allēgāre (\"enviar, instigar, aducir\").",
+    "modelos": ["llegar"]
+  },
+  "formas_no_personales": {"infinitivo":"alegar","gerundio":["alegando"],"participio":["alegado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["alego"],"s2":["alegas"],"vos":["alegás"],"s3":["alega"],"p1":["alegamos"],"p2":["alegáis"],"p3":["alegan"]},
+    "IndImp": {"s1":["alegaba"],"s2":["alegabas"],"vos":["alegabas"],"s3":["alegaba"],"p1":["alegábamos"],"p2":["alegabais"],"p3":["alegaban"]},
+    "IndPret": {"s1":["alegué"],"s2":["alegaste"],"vos":["alegaste"],"s3":["alegó"],"p1":["alegamos"],"p2":["alegasteis"],"p3":["alegaron"]},
+    "IndFut": {"s1":["alegaré"],"s2":["alegarás"],"vos":["alegarás"],"s3":["alegará"],"p1":["alegaremos"],"p2":["alegaréis"],"p3":["alegarán"]},
+    "IndCond": {"s1":["alegaría"],"s2":["alegarías"],"vos":["alegarías"],"s3":["alegaría"],"p1":["alegaríamos"],"p2":["alegaríais"],"p3":["alegarían"]},
+    "SubPres": {"s1":["alegue"],"s2":["alegues"],"vos":["alegues","alegués"],"s3":["alegue"],"p1":["aleguemos"],"p2":["aleguéis"],"p3":["aleguen"]},
+    "SubImp": {"s1":["alegara","alegase"],"s2":["alegaras","alegases"],"vos":["alegaras","alegases"],"s3":["alegara","alegase"],"p1":["alegáramos","alegásemos"],"p2":["alegarais","alegaseis"],"p3":["alegaran","alegasen"]},
+    "SubFut": {"s1":["alegare"],"s2":["alegares"],"vos":["alegares"],"s3":["alegare"],"p1":["alegáremos"],"p2":["alegareis"],"p3":["alegaren"]},
+    "CmdPos": {"s2":["alega"],"vos":["alegá"],"s3":["alegue"],"p1":["aleguemos"],"p2":["alegad"],"p3":["aleguen"]}
+  }
+}

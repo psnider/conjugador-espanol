@@ -1,0 +1,21 @@
+{
+  "lexicografía": {
+    "pronunciacion": "[akalãmˈbɾaɾ]",
+    "silabacion": "a-ca-lam-brar",
+    "acentuacion": "aguda",
+    "etimologia": "Del prefijo a-, calambre y el sufijo -ar",
+    "modelos": ["amar"]
+  },
+  "formas_no_personales": {"infinitivo":"acalambrar","gerundio":["acalambrando"],"participio":["acalambrado"]},
+  "formas_personales": {
+    "IndPres": {"s1":["acalambro"],"s2":["acalambras"],"vos":["acalambrás"],"s3":["acalambra"],"p1":["acalambramos"],"p2":["acalambráis"],"p3":["acalambran"]},
+    "IndImp": {"s1":["acalambraba"],"s2":["acalambrabas"],"vos":["acalambrabas"],"s3":["acalambraba"],"p1":["acalambrábamos"],"p2":["acalambrabais"],"p3":["acalambraban"]},
+    "IndPret": {"s1":["acalambré"],"s2":["acalambraste"],"vos":["acalambraste"],"s3":["acalambró"],"p1":["acalambramos"],"p2":["acalambrasteis"],"p3":["acalambraron"]},
+    "IndFut": {"s1":["acalambraré"],"s2":["acalambrarás"],"vos":["acalambrarás"],"s3":["acalambrará"],"p1":["acalambraremos"],"p2":["acalambraréis"],"p3":["acalambrarán"]},
+    "IndCond": {"s1":["acalambraría"],"s2":["acalambrarías"],"vos":["acalambrarías"],"s3":["acalambraría"],"p1":["acalambraríamos"],"p2":["acalambraríais"],"p3":["acalambrarían"]},
+    "SubPres": {"s1":["acalambre"],"s2":["acalambres"],"vos":["acalambres","acalambrés"],"s3":["acalambre"],"p1":["acalambremos"],"p2":["acalambréis"],"p3":["acalambren"]},
+    "SubImp": {"s1":["acalambrara","acalambrase"],"s2":["acalambraras","acalambrases"],"vos":["acalambraras","acalambrases"],"s3":["acalambrara","acalambrase"],"p1":["acalambráramos","acalambrásemos"],"p2":["acalambrarais","acalambraseis"],"p3":["acalambraran","acalambrasen"]},
+    "SubFut": {"s1":["acalambrare"],"s2":["acalambrares"],"vos":["acalambrares"],"s3":["acalambrare"],"p1":["acalambráremos"],"p2":["acalambrareis"],"p3":["acalambraren"]},
+    "CmdPos": {"s2":["acalambra"],"vos":["acalambrá"],"s3":["acalambre"],"p1":["acalambremos"],"p2":["acalambrad"],"p3":["acalambren"]}
+  }
+}
